@@ -61792,5 +61792,312 @@
     ],
     "discovered_at": "2026-09-15T07:03:17.129826+00:00",
     "status": "pending"
+  },
+  {
+    "name": "danijel1124/hermes-budget-context",
+    "url": "https://github.com/danijel1124/hermes-budget-context",
+    "description": "Hermes Agent plugin: injects live provider quota + cache-hit stats into the LLM request so the model can self-throttle as budget runs low.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T08:05:58Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T08:06:37.393947+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Lizhen0628/hermes-chinese",
+    "url": "https://github.com/Lizhen0628/hermes-chinese",
+    "description": "Hermes Agent \u793e\u533a\u4e2d\u6587\u7ad9 \u2014 Nous Research \u5f00\u6e90 AI \u667a\u80fd\u4f53\u7684\u4e2d\u6587\u843d\u5730\u9875\u4e0e\u4e2d\u6587\u6587\u6863\uff08Cloudflare Pages \u81ea\u52a8\u90e8\u7f72\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-09-15T08:04:25Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "alchaincyf/hermes-agent-orange-book"
+    ],
+    "discovered_at": "2026-09-15T08:06:40.398251+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xinian5216/hermes-update-check",
+    "url": "https://github.com/xinian5216/hermes-update-check",
+    "description": "Know what you are getting into before updating Hermes Agent: code provenance, risk scoring, hard gates, regression clustering, backup/rollback and post-update health checks. Advises, never auto-updates.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "cli",
+      "hermes",
+      "hermes-agent",
+      "python",
+      "risk-assessment",
+      "safety",
+      "update-check"
+    ],
+    "updated_at": "2026-09-15T08:03:52Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T08:06:43.401510+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Erwinsuranto/Prompt-hermes-agent",
+    "url": "https://github.com/Erwinsuranto/Prompt-hermes-agent",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-15T08:03:35Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T08:06:46.403617+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "up2itnow0822/readytrader-crypto-hermes",
+    "url": "https://github.com/up2itnow0822/readytrader-crypto-hermes",
+    "description": "Hermes optional skill: paper-first BTC trading via ReadyTrader-Crypto stdio MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T08:00:21Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T08:06:50.046868+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ryoshin0830/syncskills",
+    "url": "https://github.com/ryoshin0830/syncskills",
+    "description": "Perfect multi-device sync for AI agent skills & MCP servers across Claude Code, Codex, Gemini, OpenCode, Hermes and Pi \u2014 built on cc-switch, GitHub and 1Password.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-15T07:48:24Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "Lethe044/hermes-incident-commander",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "kaankacar/stellar-agent-kit",
+      "varunlakshmaiah/hermes-compose",
+      "0451-software/research-skills",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "kkllxy/hermes-web-ui",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "jazzyalex/agent-sessions",
+      "VasiHemanth/tokentelemetry",
+      "vivekchand/clawmetry"
+    ],
+    "discovered_at": "2026-09-15T08:06:53.049763+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "comindspace/ai-native",
+    "url": "https://github.com/comindspace/ai-native",
+    "description": "Agent skill platform: portable skill contract, plugin pack builder for Claude Code, Codex, Cursor, OpenCode, OpenClaw, and Hermes, plus the AI-Native reference skill set.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "codex",
+      "cursor",
+      "llm",
+      "mcp",
+      "skills"
+    ],
+    "updated_at": "2026-09-15T08:00:43Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "WEIFENG2333/phistory",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "jazzyalex/agent-sessions",
+      "Infisical/agent-vault",
+      "conorbronsdon/avoid-ai-writing",
+      "vivekchand/clawmetry"
+    ],
+    "discovered_at": "2026-09-15T08:06:56.679531+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cubeshipd/cubeship-honcho-template",
+    "url": "https://github.com/cubeshipd/cubeship-honcho-template",
+    "description": "Honcho on Cubeship: persistent shared memory for AI agents, with PostgreSQL, pgvector and Redis.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "cubeship-template",
+      "hermes-agent",
+      "honcho",
+      "memory",
+      "self-hosted"
+    ],
+    "updated_at": "2026-09-15T08:06:55Z",
+    "category": "forks",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-15T08:07:00.362767+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hey-jude/gbrain",
+    "url": "https://github.com/hey-jude/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-05-01T15:18:33Z",
+    "category": "forks",
+    "score": 31,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "stale"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-09-15T08:07:03.366388+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dmore/oh-my-hermes-memory-system-advanced",
+    "url": "https://github.com/dmore/oh-my-hermes-memory-system-advanced",
+    "description": "Just install once. Anyone can use hermes-agent professionally. the powerful intelligence for your agent \u2014 OMH (Oh-My-Hermes) \u269a",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T08:05:59Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "oh-my-hermes"
+    ],
+    "discovered_at": "2026-09-15T08:07:06.369578+00:00",
+    "status": "pending"
   }
 ]
