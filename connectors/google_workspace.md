@@ -1,4 +1,4 @@
-# Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)
+# Google Workspace - Gmail, Calendar, Drive, GA4, Ads
 
 ## What it unlocks
 Google Workspace is where most founders actually run their day - email, meetings, contracts, KPIs in a spreadsheet. It is also the single Google connection for everything Google: Analytics (GA4), Google Ads, and Search Console are all read through this one connector. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?", "what is my Google Ads spend?", or "what is on my calendar before the board meeting?" can pull straight from the original source.

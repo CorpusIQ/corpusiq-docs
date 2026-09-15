@@ -1,5 +1,5 @@
 ---
-title: "ClaraConverts MCP - Website Conversion Agent, Provisioned and Managed Over MCP"
+title: ClaraConverts MCP - Website Conversion Agent Over MCP
 description: "MCP server for ClaraConverts, a 24/7 AI conversion agent for websites: 9 tools provision and manage the account - pricing, trial tenant, embed snippet, site knowledge refresh, integration config and upgrades - over Streamable HTTP."
 category: Marketing & Conversion
 stars: n/a (new listing)

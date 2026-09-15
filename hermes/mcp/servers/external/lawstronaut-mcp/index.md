@@ -71,7 +71,7 @@ Flow: `response_type=code` → redirect with `code` → exchange at `/oauth/toke
 ### Get Credentials
 
 1. Purchase a subscription at [lawstronaut.com](https://lawstronaut.com)
-2. Log into the [developer portal](https://dev-portal.filerskeepersapi.co/)
+2. Log into the developer portal
 3. Open **MCP server access** from the Home menu
 4. Create a **client ID + client secret** (OAuth) or a **bearer token**
 
@@ -124,7 +124,7 @@ Paid subscription required. Plans vary by document access volume and jurisdictio
 |----------|-----|
 | **GitHub** | [github.com/Lawstronaut-FZCO/lawstronaut-mcp](https://github.com/Lawstronaut-FZCO/lawstronaut-mcp) |
 | **Website** | [lawstronaut.com](https://lawstronaut.com) |
-| **Developer Portal** | [dev-portal.filerskeepersapi.co](https://dev-portal.filerskeepersapi.co/) |
+| **Developer Portal** | dev-portal.filerskeepersapi.co |
 | **Server Card** | `https://mcp.lawstronaut.com/.well-known/mcp/server-card.json` |
 | **MCP Endpoint** | `https://mcp.lawstronaut.com` |
 

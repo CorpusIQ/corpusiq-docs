@@ -1,5 +1,5 @@
 ---
-title: "Mobbin MCP - 600,000 Real Product Screens for AI-Driven Design Research"
+title: Mobbin MCP - 600,000 Product Screens for Design Research
 description: "Official Mobbin MCP server connecting AI agents to 600,000+ real product screens: natural-language search across screens, multi-step user flows and website sections, with inline images and canonical Mobbin links for citation. OAuth over Streamable HTTP."
 category: Design & Product Research
 stars: n/a (new listing)

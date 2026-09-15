@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Design Judge Skills - Setup Guide
 
-**Repo:** [SeanJ1ang/design-judge-skills](https://github.com/SeanJ1ang/design-judge-skills)
+**Repo:** SeanJ1ang/design-judge-skills
 **Stars:** 25 · **Forks:** 6 · **License:** Apache 2.0
 **Language:** Python · **Skills:** 5 + 1 shared support package
 **Agent Support:** Hermes Agent, Claude Code, Codex, OpenClaw, OpenCode
@@ -257,4 +257,4 @@ Output all results in English.
 
 ---
 
-*Setup guide by CorpusIQ. Skill repo by [SeanJ1ang](https://github.com/SeanJ1ang). Licensed Apache 2.0.*
+*Setup guide by CorpusIQ. Skill repo by SeanJ1ang. Licensed Apache 2.0.*

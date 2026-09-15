@@ -1,6 +1,6 @@
 ---
 title: "Sweep Report - August 18, 2026 (Morning Cron Sweep)"
-description: "- mcp.so homepage SSR (`recentServers` with createdAt) - 8 fresh entries (Aug 17-18)"
+description: "MCP discovery sweep for August 18, 2026 (morning): candidates pulled from chatmcp/mcpso issues and mcpservers.org, evaluated against the catalog, with reasons recorded for every skip."
 ---
 
 # Sweep Report - August 18, 2026 (Morning Cron Sweep)

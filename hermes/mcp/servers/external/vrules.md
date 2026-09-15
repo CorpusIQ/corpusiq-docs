@@ -14,7 +14,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 | Detail | Value |
 |--------|-------|
-| **GitHub** | [ops-ping/vrules](https://github.com/ops-ping/vrules) |
+| **GitHub** | ops-ping/vrules |
 | **Language** | TBD (check repo) |
 | **Transport** | MCP proxy (stdio) |
 | **Stars** | ★0 (new - July 1, 2026) |
@@ -144,4 +144,4 @@ CorpusIQ provides read-only access to 40+ business data sources with OAuth 2.1 P
 ---
 
 *Integration guide created July 1, 2026 (PM evening) by CorpusIQ MCP Discovery Scanner*
-*Server source: [github.com/ops-ping/vrules](https://github.com/ops-ping/vrules)*
+*Server source: github.com/ops-ping/vrules*

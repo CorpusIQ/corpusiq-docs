@@ -922,7 +922,7 @@ _Security tools, compliance, audit_
 
 ---
 
-### [codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge) ⭐ 8
+### codegraphtheory/chainforge ⭐ 8
 
 >Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
 

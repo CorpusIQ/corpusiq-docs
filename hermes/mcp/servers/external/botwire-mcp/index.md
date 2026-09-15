@@ -83,7 +83,7 @@ API key-based authentication. Get your key at [thebotwire.com](https://thebotwir
 
 ## Source
 
-- **GitHub:** [github.com/ArasPasha/botwire-mcp](https://github.com/ArasPasha/botwire-mcp) (0★, created 2026-07-27)
+- **GitHub:** github.com/ArasPasha/botwire-mcp (0★, created 2026-07-27)
 - **Website:** [thebotwire.com](https://thebotwire.com)
 - **MCP Endpoint:** `https://thebotwire.com/mcp`
 - **npm:** `npx botwire-mcp`

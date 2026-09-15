@@ -1,5 +1,5 @@
 ---
-title: "revenue-centric-design - SaaS Revenue Design Skill Setup Guide for Hermes Agents"
+title: revenue-centric-design - SaaS Revenue Design
 description: "heliocosta-dev/revenue-centric-design - revenue-centric-design skill, 1.3K installs: a 101-principle SaaS playbook distilled from @richardrx covering conversion, onboarding, pricing, churn, positioning, and AI-era differentiation for any skills.sh-compatible agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/revenue-centric-design-setup/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: "AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators"
+title: AskRentAI MCP - Rent Manager Property Intelligence
 description: "Hosted read-only MCP server for Rent Manager property portfolios: plain-English questions about NOI, rent roll, delinquency, vacancy, lease expirations, work orders, vendor spend and financial reports answered from live data. OAuth sign-in, read-only by design, $10 per user per month with a seven-day free trial."
 category: Real Estate & Property Management
 stars: n/a (new listing)

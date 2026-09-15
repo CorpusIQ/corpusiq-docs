@@ -160,7 +160,7 @@ These bundles solve the "always-on Hermes writing into the same Obsidian vault" 
 
 ## P2P Agent Agency
 
-**Source:** [DeployFaith/Hermes_Agency](https://github.com/DeployFaith/Hermes_Agency)
+**Source:** DeployFaith/Hermes_Agency
 **Stars:** 0 ⭐ | **Created:** June 22, 2026
 
 Wraps the [AgentAnycast Python SDK](https://github.com/AgentAnycast/agentanycast-python) (Apache 2.0, PyPI: `agentanycast`)  --  P2P agent discovery and communication with encryption, NAT traversal, and decentralized routing. Created today (June 22)  --  early stage, worth watching for multi-agent CorpusIQ architectures.

@@ -12,7 +12,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 **Discovered:** June 22, 2026 via GitHub search + skills.sh
 **New repo:** 1 | **Net-new skills:** 12
-**Repo:** [aawobdev/hermes-skills](https://github.com/aawobdev/hermes-skills)
+**Repo:** aawobdev/hermes-skills
 
 A complete multi-agent blueprint orchestration system that splits work across 9 specialized roles  --  an expensive thinking model produces a detailed blueprint, then cheap local models execute under human supervision.
 

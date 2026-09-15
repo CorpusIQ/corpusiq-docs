@@ -1,5 +1,5 @@
 ---
-title: "telegram-mini-app - Telegram Mini App Builder Skill Setup Guide for Hermes Agents"
+title: telegram-mini-app - Telegram Mini App Builder
 description: "sickn33/agentic-awesome-skills - telegram-mini-app skill, 1.5K installs: build Telegram Mini Apps (TWA) - web apps inside Telegram covering the Web App API, TON Connect, in-app payments, user auth, and viral mechanics - from the 45.6K-star agentic-awesome-skills catalog."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/telegram-mini-app-setup/"
 robots: "index,follow"

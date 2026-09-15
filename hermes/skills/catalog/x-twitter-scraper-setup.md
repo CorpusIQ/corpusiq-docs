@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # X/Twitter Scraper - Setup Guide
 
-**Source:** [sickn33/antigravity-awesome-skills](https://skills.sh/sickn33/antigravity-awesome-skills) (148 installs) | [GitHub](https://github.com/sickn33/antigravity-awesome-skills) (41,720⭐)
+**Source:** [sickn33/antigravity-awesome-skills](https://skills.sh/sickn33/antigravity-awesome-skills) (148 installs) | GitHub (41,720⭐)
 **Category:** social, data
 
 Comprehensive X/Twitter automation skill for Hermes Agent. Covers the full Twitter API surface: tweet search, advanced search, profile tweets, user lookup, follower export, media download, posting, replies, DMs, giveaway draws, account monitoring, webhooks, 23 bulk extraction tools, MCP integration, the Hermes Tweet plugin, and the TweetClaw OpenClaw plugin.

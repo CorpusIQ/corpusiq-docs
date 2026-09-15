@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "sentry", "error monitoring
 # Sentry Dev Skill - Setup Guide
 
 **Source:** [sentry/dev](https://skills.sh/sentry/dev)
-**GitHub:** [sentry/dev](https://github.com/sentry/dev)
+**GitHub:** sentry/dev
 **Skills:** 1 skill (`sentry-cli`) · 127.3K total installs
 **Category:** Error Monitoring & Release Management
 **First Seen:** August 14, 2026 evening sweep

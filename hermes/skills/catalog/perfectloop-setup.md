@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Perfectloop - Loop Design Framework Setup
 
-**Source:** [sebmarion/hermes-agent-skill-perfectloop](https://github.com/sebmarion/hermes-agent-skill-perfectloop)
+**Source:** sebmarion/hermes-agent-skill-perfectloop
 **Stars:** 0 ⭐ | **License:** MIT
 **Created:** June 24, 2026
 **Category:** Agent Infrastructure / Loop Engineering

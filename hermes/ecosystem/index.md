@@ -217,7 +217,7 @@ Curated collection of skills, plugins, tools, integrations, and resources. Inclu
 ---
 
 ### Ben-Home/awesome-hermes-agent
-⭐ **0** · [github.com/Ben-Home/awesome-hermes-agent](https://github.com/Ben-Home/awesome-hermes-agent)
+⭐ **0** · github.com/Ben-Home/awesome-hermes-agent
 
 Curated list maintained by CorpusIQ  --  cross-linked with this knowledge hub for in-depth production guides.
 
@@ -330,7 +330,7 @@ Hermes Atlas  --  community map of every tool, skill, and integration for Hermes
 ---
 
 ### sickn33/antigravity-awesome-skills
-⭐ **40,916** · [github.com/sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
+⭐ **40,916** · github.com/sickn33/antigravity-awesome-skills
 
 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, and Hermes Agent  --  the largest independently curated skill collection in the agent ecosystem. Massive library spanning development, content creation, automation, data analysis, and business operations. Regularly updated with new skills from the broader AI coding community. A go-to resource for Hermes users seeking proven, cross-compatible agent capabilities.
 
@@ -733,7 +733,7 @@ YantrikDB memory provider for Hermes Agent  --  self-maintaining database with a
 ---
 
 ### prakrititz/relayBrain
-[github.com/prakrititz/relayBrain](https://github.com/prakrititz/relayBrain)
+github.com/prakrititz/relayBrain
 
 Portable memory layer for AI agents  --  switch between Claude, Codex, Gemini, and Hermes without losing context.
 
@@ -1058,7 +1058,7 @@ Autonomous agent for the Crustocean platform. Hermes-powered autonomous operatio
 ---
 
 ### Rainhoole/hermes-agent-acp-skill
-⭐ **community** · `Python` · [github.com/Rainhoole/hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill)
+⭐ **community** · `Python` · github.com/Rainhoole/hermes-agent-acp-skill
 
 Multi-agent delegation via ACP (Hermes/Codex/Claude Code). Agent Communication Protocol skill for cross-agent tasks.
 
@@ -1118,7 +1118,7 @@ Outlook and Microsoft 365 Graph API integration. Office productivity tools from 
 ---
 
 ### aivanelabs/agent-android
-⭐ **community** · `Python` · [github.com/aivanelabs/agent-android](https://github.com/aivanelabs/agent-android)
+⭐ **community** · `Python` · github.com/aivanelabs/agent-android
 
 LAN-first Android control without USB/ADB. Wireless Android device management for Hermes.
 
@@ -1260,7 +1260,7 @@ MCP server for Strava  --  Model Context Protocol server connecting autonomous a
 ---
 
 ### executeautomation/mcp-database-server
-⭐ **358** · `TypeScript` · [github.com/executeautomation/mcp-database-server](https://github.com/executeautomation/mcp-database-server)
+⭐ **358** · `TypeScript` · github.com/executeautomation/mcp-database-server
 
 Database MCP server  --  universal Model Context Protocol server providing autonomous agents with SQL database access across PostgreSQL, MySQL, SQLite, and SQL Server. Enables Hermes Agent to execute queries, explore schemas, and analyze data through standardized MCP tool calls with built-in connection pooling, query sanitization, and result streaming. Production-ready database bridge for agent-driven data exploration, reporting, and ETL workflows.
 
@@ -1440,7 +1440,7 @@ Literate programming support across Hermes, Claude Code, and OpenCode. Write cod
 ---
 
 ### davila7/claude-code-skill-pornhub
-⭐ **86** · [github.com/davila7/claude-code-skill-pornhub](https://github.com/davila7/claude-code-skill-pornhub)
+⭐ **86** · github.com/davila7/claude-code-skill-pornhub
 
 Claude Code skill integrating Pornhub platform capabilities  --  enables AI coding agents to interact with Pornhub's API for content discovery, metadata retrieval, and platform automation. Cross-compatible with Hermes Agent for automated content workflows and platform integrations.
 
@@ -1716,7 +1716,7 @@ Job-search and career-discovery skill. Automated job hunting, resume optimizatio
 ---
 
 ### svenmedina07-ship-it/acca-tracker
-⭐ **community** · `Python` · [github.com/svenmedina07-ship-it/acca-tracker](https://github.com/svenmedina07-ship-it/acca-tracker)
+⭐ **community** · `Python` · github.com/svenmedina07-ship-it/acca-tracker
 
 Multi-sport accumulator bet tracker. Track and analyze accumulator bets across multiple sports.
 
@@ -1778,7 +1778,7 @@ Pydantic AI integration with type-safe schema validation. Structured, validated 
 ---
 
 ### Yarmoluk/cognify-skills
-⭐ **community** · `Python` · [github.com/Yarmoluk/cognify-skills](https://github.com/Yarmoluk/cognify-skills)
+⭐ **community** · `Python` · github.com/Yarmoluk/cognify-skills
 
 19 business ops skills: CRM, invoicing, project management. Turnkey business operations toolkit.
 
@@ -2032,7 +2032,7 @@ Operations and security toolkit: routing, secrets management, auditing, cost gov
 ---
 
 ### eleion-ai/mnemo-hermes
-⭐ **community** · `Python` · [github.com/eleion-ai/mnemo-hermes](https://github.com/eleion-ai/mnemo-hermes)
+⭐ **community** · `Python` · github.com/eleion-ai/mnemo-hermes
 
 pgvector semantic memory plugin for Hermes. PostgreSQL-backed vector memory for persistent agent knowledge.
 
@@ -2202,7 +2202,7 @@ Multi-modal Generative Media Skills  --  comprehensive skill pack enabling Herme
 ---
 
 ### Gentleman-Programming/Gentleman-Skills
-⭐ **556** · `Python` · [github.com/Gentleman-Programming/Gentleman-Skills](https://github.com/Gentleman-Programming/Gentleman-Skills)
+⭐ **556** · `Python` · github.com/Gentleman-Programming/Gentleman-Skills
 
 Community-driven Claude Code skills  --  a growing collection of practical, peer-reviewed skills for AI coding agents. Covers software development best practices, code review automation, testing strategies, documentation generation, and DevOps workflows. Community-maintained with active contributions and real-world testing across Claude Code, Hermes Agent, and compatible platforms. Designed to be drop-in compatible with Hermes skill system for immediate productivity gains.
 
@@ -2761,7 +2761,7 @@ Claude Code plugin showing context usage, active tools, running agents, and syst
 ---
 
 ### kwaozz/haha
-⭐ **77** · [github.com/kwaozz/haha](https://github.com/kwaozz/haha)
+⭐ **77** · github.com/kwaozz/haha
 
 Lightweight utility toolkit for AI coding agents  --  fun and practical tools for enhancing agent interactions with humor, creative outputs, and engaging user experiences. Compatible with Hermes Agent for adding personality and entertainment capabilities to autonomous agent workflows.
 
@@ -2771,7 +2771,7 @@ Lightweight utility toolkit for AI coding agents  --  fun and practical tools fo
 ---
 
 ### liyishu2626/aicode
-⭐ **73** · [github.com/liyishu2626/aicode](https://github.com/liyishu2626/aicode)
+⭐ **73** · github.com/liyishu2626/aicode
 
 AI-powered coding assistant and code generation tool  --  intelligent code completion, refactoring, and generation with support for multiple programming languages and frameworks. Integrates with Hermes Agent for autonomous coding workflows, code review automation, and AI-driven software development pipelines.
 
@@ -3053,7 +3053,7 @@ TAW Agent x Hermes swarm framework. Cross-framework swarm orchestration for comp
 ---
 
 ### runtim-enoteslabs/gladiator
-⭐ **community** · `Python` · [github.com/runtim-enoteslabs/gladiator](https://github.com/runtim-enoteslabs/gladiator)
+⭐ **community** · `Python` · github.com/runtim-enoteslabs/gladiator
 
 AI companies compete for stars. Competitive multi-agent arena for testing agent capabilities.
 
@@ -3093,7 +3093,7 @@ AI-native SDLC with code graph. Full software development lifecycle powered by a
 ---
 
 ### krutyshkin/telegram-agent-os
-⭐ **2** · `Python` · [github.com/krutyshkin/telegram-agent-os](https://github.com/krutyshkin/telegram-agent-os)
+⭐ **2** · `Python` · github.com/krutyshkin/telegram-agent-os
 
 Telegram-first multi-agent operating system for Hermes Agent  --  role-based bots, topic routing, skill integration, profile management, and built-in safety guardrails. A complete agent OS that turns Telegram into a multi-agent command center with production-grade safety, modular architecture, and scalable multi-bot coordination.
 
@@ -3113,7 +3113,7 @@ The Orchestrator for AI Agents  --  connect OpenClaw, Hermes Agent, Claude Code,
 ---
 
 ### goyalk1307/openclaw-ai-agent
-⭐ **89** · [github.com/goyalk1307/openclaw-ai-agent](https://github.com/goyalk1307/openclaw-ai-agent)
+⭐ **89** · github.com/goyalk1307/openclaw-ai-agent
 
 Autonomous AI agent built on the OpenClaw framework  --  self-directed agent with task planning, tool orchestration, and multi-step workflow execution. Compatible with Hermes Agent for cross-framework agent deployment and collaborative multi-agent workflows.
 
@@ -3334,7 +3334,7 @@ Production Docker template for cloud deployment. Battle-tested container configu
 ---
 
 ### ellickjohnson/portainer-stack-hermes
-⭐ **community** · `Dockerfile` · [github.com/ellickjohnson/portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes)
+⭐ **community** · `Dockerfile` · github.com/ellickjohnson/portainer-stack-hermes
 
 Docker Compose + Portainer stack for Hermes. One-click deployment with management UI.
 
@@ -3457,7 +3457,7 @@ OAuth lifecycle management with refresh automation, expiration monitoring, and a
 ---
 
 ### codegraphtheory/chainforge
-⭐ **8** · `Python` · [github.com/codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge)
+⭐ **8** · `Python` · github.com/codegraphtheory/chainforge
 
 Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
 
@@ -3526,7 +3526,7 @@ Benchmark Hermes  --  Hello World Nuxt 4 style evaluation framework.
 ---
 
 ### Panoramar8046/hermes-agent-metaharness
-⭐ **0** · `Python` · [github.com/Panoramar8046/hermes-agent-metaharness](https://github.com/Panoramar8046/hermes-agent-metaharness)
+⭐ **0** · `Python` · github.com/Panoramar8046/hermes-agent-metaharness
 
 Optimize LLM system quality using an outer-loop meta-harness to auto-tune Hermes agent configurations.
 
@@ -3774,7 +3774,7 @@ Autonomous job hunting agent. Automated job search, application tracking, and in
 ---
 
 ### JackTheGit/hermes-ai-infrastructure-monitoring-toolkit
-⭐ **community** · `Python` · [github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit](https://github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit)
+⭐ **community** · `Python` · github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit
 
 Infrastructure monitoring with Telegram alerts. Proactive infrastructure health monitoring via Hermes.
 
@@ -3824,7 +3824,7 @@ Multi-chain blockchain cash flow analyzer. Cross-chain financial analysis and tr
 ---
 
 ### Aum08Desai/hermes-research-agent
-⭐ **community** · `Python` · [github.com/Aum08Desai/hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent)
+⭐ **community** · `Python` · github.com/Aum08Desai/hermes-research-agent
 
 Autonomous LLM research agent. Self-directed research with literature review and synthesis.
 
@@ -4176,7 +4176,7 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [giuseppe-trisciuoglio/developer-kit](https://github.com/giuseppe-trisciuoglio/developer-kit) | 291 |  Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and  | agent, ecosystem |
 | [osovv/grace-marketplace](https://github.com/osovv/grace-marketplace) | 214 |  GRACE (Graph-RAG Anchored Code Engineering): open Agent Skills for contract-driven AI code generation with semantic mar | agent, ecosystem |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 141060 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, L | agent, ecosystem |
-| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | 105512 | An open-source AI agent that brings the power of Gemini directly into your terminal. | agent, ecosystem |
+| google-gemini/gemini-cli | 105512 | An open-source AI agent that brings the power of Gemini directly into your terminal. | agent, ecosystem |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 83445 | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge | agent, ecosystem |
 | [aaif-goose/goose](https://github.com/aaif-goose/goose) | 50069 | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and  | agent, ecosystem |
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 48075 | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s | agent, ecosystem |

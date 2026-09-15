@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Blueprint Orchestration  --  Setup Guide
 
-**Source:** [aawobdev/hermes-skills](https://github.com/aawobdev/hermes-skills)
+**Source:** aawobdev/hermes-skills
 **Skills:** 12 | **Author:** [Alistair](https://github.com/aawobdev)
 **Hermes Version:** Any (skills are standard SKILL.md format)
 **Last Updated:** June 22, 2026

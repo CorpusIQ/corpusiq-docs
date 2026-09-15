@@ -204,4 +204,4 @@ ls ~/.hermes/profiles/corpusiq/skills/the-reviewer/
 
 ---
 
-*[Agenthood on skills.sh →](https://skills.sh/fworks-tech/agenthood) · [GitHub →](https://github.com/fworks-tech/agenthood) · [npm →](https://www.npmjs.com/package/agenthood)*
+*[Agenthood on skills.sh →](https://skills.sh/fworks-tech/agenthood) · [GitHub →](https://github.com/fworks-tech/agenthood) · npm →*

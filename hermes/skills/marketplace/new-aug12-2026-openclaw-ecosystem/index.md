@@ -46,7 +46,7 @@ Security: Gen Agent Trust Hub Pass, Socket Pass (Warn on openclaw-design), Snyk 
 ## 🆕 OpenClaw Graph - 3 New Skills (alphaonedev/openclaw-graph)
 
 **Skills:** 3 · **Combined installs:** 144 · **First seen:** March 7, 2026
-**Source:** [skills.sh](https://skills.sh/alphaonedev/openclaw-graph) · [GitHub](https://github.com/alphaonedev/openclaw-graph) (6⭐)
+**Source:** [skills.sh](https://skills.sh/alphaonedev/openclaw-graph) · GitHub (6⭐)
 
 The openclaw-graph repo (311 skills, 19.7K installs) is already heavily catalogued. This sweep caught three skills the earlier passes missed.
 

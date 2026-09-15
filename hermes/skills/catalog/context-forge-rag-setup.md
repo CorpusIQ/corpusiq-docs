@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # ContextForge RAG - Hermes Profile Setup
 
-**Source:** [codegraphtheory/context-forge-rag](https://github.com/codegraphtheory/context-forge-rag)
+**Source:** codegraphtheory/context-forge-rag
 **Stars:** 1 ⭐ | **License:** MIT
 **Created:** June 24, 2026
 **Category:** Agent Infrastructure / RAG / AI Architecture

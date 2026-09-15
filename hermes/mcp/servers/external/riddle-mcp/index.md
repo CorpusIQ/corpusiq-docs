@@ -1,5 +1,5 @@
 ---
-title: "Riddle Quiz Maker MCP - Interactive Content and Lead Generation from AI Clients"
+title: Riddle Quiz Maker MCP - Interactive Content for AI Clients
 description: "Official vendor MCP from Riddle.com: create and manage quizzes, polls, surveys, personality tests, forms, predictors, minigames and leaderboards with 62 tools - branching logic, custom design, live stats, lead capture and embed code - over Streamable HTTP with OAuth."
 category: Marketing
 stars: n/a (new listing)

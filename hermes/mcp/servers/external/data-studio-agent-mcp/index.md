@@ -115,4 +115,4 @@ Data Studio Agent fills a critical operational gap: the distance between "I have
 
 ---
 
-*Open source (Apache 2.0). Built by [Geek Fun](https://www.geekfun.club/products/data-studio-agent/). npm: [@geek-fun/data-studio-mcp](https://www.npmjs.com/package/@geek-fun/data-studio-mcp)*
+*Open source (Apache 2.0). Built by [Geek Fun](https://www.geekfun.club/products/data-studio-agent/). npm: @geek-fun/data-studio-mcp*

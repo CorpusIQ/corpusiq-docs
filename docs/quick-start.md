@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Quick Start - Consistent Business Answers in ChatGPT, Claude, Perplexity"
+title: CorpusIQ Quick Start - ChatGPT, Claude, Perplexity
 description: "Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API token. The same number everywhere."
 category: "Documentation"
 tags: ["corpusiq quick start", "connect data to chatgpt", "setup guide", "mcp setup", "oauth connection", "how to connect business data to ai", "first query", "chatgpt integration"]

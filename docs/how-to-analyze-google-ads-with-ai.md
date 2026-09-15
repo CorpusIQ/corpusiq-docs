@@ -1,5 +1,5 @@
 ---
-title: "How to Analyze Google Ads with AI (Ask Campaign Questions in Plain English)"
+title: How to Analyze Google Ads with AI (Plain English)
 description: "Connect Google Ads to ChatGPT, Claude, or Perplexity and ask campaign, spend, and ROAS questions in plain English with source-cited answers from your live account."
 tags: [connectors, ai, chatgpt, claude]
 last_updated: 2026-09-14

@@ -1,5 +1,5 @@
 ---
-title: "Israel Business Intelligence MCP - Israeli Company Verification for Agents"
+title: Israel Business Intelligence MCP - Company Verification
 description: "Hosted MCP server that verifies Israeli companies against structured public-registry evidence for supplier verification, due diligence, and counterparty research. Keyless discovery with x402 pay-per-verification."
 category: Business Intelligence
 stars: n/a (new listing, itzikhr18/israel-business-intelligence)

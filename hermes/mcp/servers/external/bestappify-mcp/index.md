@@ -1,5 +1,5 @@
 ---
-title: "BestAppify MCP - Shopify App Store Intelligence for Keywords, Competitors and Reviews"
+title: BestAppify MCP - Shopify App Store Intelligence
 description: "Live Shopify App Store data in your AI client: 40 tools over one endpoint covering keyword rankings, opportunities, competitor tracking, review intelligence, forum mentions, listing changes, and revenue and churn analytics. Free tier of 100 requests a day with no card."
 category: E-commerce
 stars: n/a (new listing)

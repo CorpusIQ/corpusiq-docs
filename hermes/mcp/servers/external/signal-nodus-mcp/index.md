@@ -1,5 +1,5 @@
 ---
-title: "Signal Nodus SEC Filings MCP - Primary-Source SEC Intelligence for AI Agents"
+title: Signal Nodus SEC Filings MCP - SEC Intelligence for Agents
 description: "Hosted MCP server delivering primary-source US SEC intelligence over 27 tools: year-over-year filing diffs, 8-K material events, 13D/13G activist stakes, insider Form 4 trades, 13F holdings, IPO pipeline, full-text EDGAR search since 2001 and XBRL financials with numeric claim verification. Per-call pricing via prepaid key or x402 on Base; free lookup."
 category: Finance
 stars: n/a (new listing)

@@ -135,7 +135,7 @@ These repos were also found in the June 29 sweep. They're tracked for potential 
 | [shagghiesuperstar/HERMES-Free-SOTA](https://github.com/shagghiesuperstar/HERMES-Free-SOTA) | FreeLLMAPI + Hermes MOA for SOTA at zero cost | - |
 | [julianargus01/agent-minds](https://github.com/julianargus01/agent-minds) | Cognitive-function skills for agent thinking styles | 3★ |
 | [Jachinx-ai/deep-article-writing-skill](https://github.com/Jachinx-ai/deep-article-writing-skill) | Chinese article writing: raw material to structured Markdown | 6★ |
-| [lunkerchen/skill-description-audit-skill](https://github.com/lunkerchen/skill-description-audit-skill) | Audit and improve skill descriptions for trigger accuracy | - |
+| lunkerchen/skill-description-audit-skill | Audit and improve skill descriptions for trigger accuracy | - |
 | [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit) | LaTeX template + Hermes skill for exam review generation | 2★ |
 | [prasadmogulothu/agent-skills](https://github.com/prasadmogulothu/agent-skills) | Reusable agent skills with multi-model orchestration | - |
 | [hansai-art/hermes-agent-school](https://github.com/hansai-art/hermes-agent-school) | Failure patterns and diagnostic pack blueprint | - |

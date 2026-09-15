@@ -138,7 +138,7 @@ Skills are reusable, self-contained agent workflows. Hermes loads them on demand
 | **[skills.sh](https://skills.sh)** | Community marketplace - new skills daily |
 | **[wondelai/skills](https://github.com/wondelai/skills)** | Cross-platform skills library (380+ stars) |
 | **[agency-agents](https://github.com/msitarzewski/agency-agents)** | 232 specialized agent personalities (115K+ stars) |
-| **[aawobdev/hermes-skills](https://github.com/aawobdev/hermes-skills)** | Blueprint orchestration patterns |
+| **aawobdev/hermes-skills** | Blueprint orchestration patterns |
 
 ---
 
@@ -198,7 +198,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 | [hermes-desktop](https://github.com/fathah/hermes-desktop) | 12K+ | Desktop companion app |
 | [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 8K+ | 24/7 AI workforce orchestration |
 | [mission-control](https://github.com/builderz-labs/mission-control) | 3.7K+ | Multi-agent fleet management |
-| [Hermes Agency](https://github.com/DeployFaith/Hermes_Agency) | - | P2P agent collaboration |
+| Hermes Agency | - | P2P agent collaboration |
 
 **[Full ecosystem directory](ecosystem.md)** - 670+ repos indexed across 18 categories (139 approved, 531 pending review), updated daily. 93 skills catalogued, 190+ tools indexed.
 

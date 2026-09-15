@@ -93,5 +93,5 @@ governance layer behind these answers.
 - [MCP Apps announcement](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/)
 - [MCP Apps documentation](https://modelcontextprotocol.io/docs/extensions/apps)
 - [Getting Started with MCP Apps](https://apps.extensions.modelcontextprotocol.io/api/documents/Quickstart.html)
-- [SDK: @modelcontextprotocol/ext-apps](https://www.npmjs.com/package/@modelcontextprotocol/ext-apps)
+- SDK: @modelcontextprotocol/ext-apps
 - [Examples repository](https://github.com/modelcontextprotocol/ext-apps)

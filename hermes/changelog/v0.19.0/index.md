@@ -103,7 +103,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ## 🌐 Gateway, Fleet & Relay
 
 - **Durable delivery-obligation ledger** for final responses ([#67181](https://github.com/NousResearch/hermes-agent/pull/67181))
-- **Profile-based routing** for inbound messages + multiplex hardening wave 2 ([#64835](https://github.com/NousResearch/hermes-agent/pull/64835), [#65700](https://github.com/NousResearch/hermes-agent/pull/65700), [#60589](https://github.com/NousResearch/hermes-agent/pull/60589))
+- **Profile-based routing** for inbound messages + multiplex hardening wave 2 ([#64835](https://github.com/NousResearch/hermes-agent/pull/64835), [#65700](https://github.com/NousResearch/hermes-agent/pull/65700), #60589)
 - Per-session turn lease + conversation-scope funnel; unified session reset boundaries ([#67401](https://github.com/NousResearch/hermes-agent/pull/67401), [#65783](https://github.com/NousResearch/hermes-agent/pull/65783))
 - Session auto-reset default off; webhook payload filters + route scripts; platform HTTP event callback routing ([#60194](https://github.com/NousResearch/hermes-agent/pull/60194), [#57685](https://github.com/NousResearch/hermes-agent/pull/57685))
 - Relay: generic OIDC client-credentials provisioning; Nous auth forensics + self-heal; Docker re-seeds terminally-dead bootstrap session on boot ([#60730](https://github.com/NousResearch/hermes-agent/pull/60730), [#59976](https://github.com/NousResearch/hermes-agent/pull/59976))

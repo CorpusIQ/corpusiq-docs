@@ -46,8 +46,8 @@ tags: ["hermes agent", "ai agent", "nous research"]
 | [browser-use](https://github.com/browser-use/browser-use) | 97K | AI-powered browser automation | Native Hermes tool |
 | [Playwright](https://playwright.dev) | 70K+ | Cross-browser automation | Via terminal + Python |
 | [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) |  --  | Undetected Playwright  --  bypasses Cloudflare, DataDome | Via Mac Mini worker |
-| [deepcloak](https://github.com/deepcloak/deepcloak) |  --  | Anti-bot bypass for Cloudflare, Turnstile | Standalone service |
-| [camofox](https://github.com/daijro/camofox) |  --  | Camoufox stealth browser REST API | HTTP API from Hermes |
+| deepcloak |  --  | Anti-bot bypass for Cloudflare, Turnstile | Standalone service |
+| camofox |  --  | Camoufox stealth browser REST API | HTTP API from Hermes |
 | [Selenium](https://www.selenium.dev) | 30K+ | Legacy browser automation | Via terminal |
 
 ---

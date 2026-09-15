@@ -128,7 +128,7 @@ The agent creates the recurring invoice template with monthly scheduling.
 |----------|-----|
 | **GitHub** | [github.com/holdings-io/mcp](https://github.com/holdings-io/mcp) |
 | **Website** | [getholdings.com/invoicing](https://getholdings.com/invoicing) |
-| **npm** | [npmjs.com/package/@getholdings/mcp](https://www.npmjs.com/package/@getholdings/mcp) |
+| **npm** | npmjs.com/package/@getholdings/mcp |
 | **Smithery** | [smithery.ai/servers/holdings/invoicing](https://smithery.ai/servers/holdings/invoicing) |
 | **MCP Registry** | `com.getholdings/mcp` |
 | **MCP Endpoint** | `https://mcp.getholdings.com/mcp` |

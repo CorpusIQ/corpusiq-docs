@@ -32,7 +32,7 @@ Evening discovery sweep across GitHub repos tagged `hermes-agent` and `agent-ski
 
 ### Design & Awards - design-judge-skills (25★, 6 forks) ⭐ Setup Guide Available
 
-**Repo:** [SeanJ1ang/design-judge-skills](https://github.com/SeanJ1ang/design-judge-skills)
+**Repo:** SeanJ1ang/design-judge-skills
 **Install:** `npx skills add SeanJ1ang/design-judge-skills`
 **Language:** Python · **License:** Apache 2.0
 

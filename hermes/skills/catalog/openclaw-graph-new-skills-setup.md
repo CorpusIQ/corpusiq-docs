@@ -11,7 +11,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 # OpenClaw Graph - New Skills Setup Guide
 
 **Source:** [alphaonedev/openclaw-graph](https://skills.sh/alphaonedev/openclaw-graph) (repo: 311 skills, 19.7K installs)
-**GitHub:** [github.com/alphaonedev/openclaw-graph](https://github.com/alphaonedev/openclaw-graph) (6⭐)
+**GitHub:** github.com/alphaonedev/openclaw-graph (6⭐)
 **Category:** Game Dev / AR / Testing
 **First Seen:** March 7, 2026
 **Security:** Gen Agent Trust Hub Pass · Socket Pass · Snyk Pass (Warn on `testing-integration`)

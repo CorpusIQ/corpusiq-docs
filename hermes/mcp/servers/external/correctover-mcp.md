@@ -15,7 +15,7 @@ robots: "index,follow"
 
 # Correctover MCP Server - Contract Validation & API Failover
 
-**Repo:** [Correctover/mcp-server](https://github.com/Correctover/mcp-server)
+**Repo:** Correctover/mcp-server
 **Install:** `npx -y correctover-mcp-server`
 **Pricing:** Open source
 **Category:** Legal / API Infrastructure

@@ -1,5 +1,5 @@
 ---
-title: "MCP Roadmap and CorpusIQ: How the Protocol Direction Validates the Architecture"
+title: "MCP Roadmap and CorpusIQ: Protocol Direction Explained"
 description: "The new MCP roadmap prioritizes progressive discovery, tool result contracts, agent identity, and stateless servers. CorpusIQ shipped these patterns first. What each priority area means for governed business answers."
 canonical: "/hermes/mcp/mcp-roadmap-corpusiq/"
 robots: "index, follow"

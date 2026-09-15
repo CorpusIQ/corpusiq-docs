@@ -51,7 +51,7 @@ Directly applicable to Hermes agent memory management. Prevents the "memory bloa
 
 ## llm-ops
 
-**Source:** [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) · **70 installs**
+**Source:** sickn33/antigravity-awesome-skills · **70 installs**
 
 LLM Operations - RAG, embeddings, vector databases, fine-tuning, prompt engineering, LLM cost management, quality evals, and production AI architectures. Portuguese-language skill by renat.
 
@@ -79,7 +79,7 @@ Covers the full LLM ops stack that CorpusIQ agents depend on: model routing, cos
 
 ## linux-systemd
 
-**Source:** [alphaonedev/openclaw-graph](https://github.com/alphaonedev/openclaw-graph) · **61 installs**
+**Source:** alphaonedev/openclaw-graph · **61 installs**
 
 Deploy OpenClaw agents as Linux systemd services with proper supervision, logging, and restart policies. Part of the OpenClaw Graph ecosystem - a collection of deployment and infrastructure skills.
 
@@ -105,7 +105,7 @@ Hermes agents running on Linux hosts. This skill provides canonical patterns for
 
 ## macos-launchd
 
-**Source:** [alphaonedev/openclaw-graph](https://github.com/alphaonedev/openclaw-graph) · **56 installs**
+**Source:** alphaonedev/openclaw-graph · **56 installs**
 
 Deploy OpenClaw agents as macOS launchd services. The macOS equivalent of linux-systemd - provides plist generation, KeepAlive configuration, and launchctl management for agent processes.
 

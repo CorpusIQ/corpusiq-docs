@@ -1,5 +1,5 @@
 ---
-title: "Opportunity Atlas MCP - Northeast Ohio Construction Opportunity Intelligence"
+title: Opportunity Atlas MCP - NE Ohio Construction Intelligence
 description: "Remote MCP server for verified Northeast Ohio construction opportunity intelligence: free project previews through a hosted endpoint, with registered-agent access to the full project pipeline at capped request rates"
 category: Sales & Outreach
 stars: n/a (new listing)

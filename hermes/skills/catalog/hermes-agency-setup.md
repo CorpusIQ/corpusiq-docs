@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 # Hermes Agency - P2P Agent Collaboration Setup Guide
 
 **Author:** [DeployFaith](https://github.com/DeployFaith)
-**Repo:** [DeployFaith/Hermes_Agency](https://github.com/DeployFaith/Hermes_Agency)
+**Repo:** DeployFaith/Hermes_Agency
 **SDK:** [AgentAnycast Python SDK](https://github.com/AgentAnycast/agentanycast-python) (Apache 2.0, PyPI: `agentanycast`)
 **Created:** June 22, 2026
 
@@ -392,4 +392,4 @@ This is the foundation for truly decentralized CorpusIQ agent swarms - autonomou
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace Home](/hermes/skills/marketplace/) | [DeployFaith/Hermes_Agency on GitHub](https://github.com/DeployFaith/Hermes_Agency)*
+*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace Home](/hermes/skills/marketplace/) | DeployFaith/Hermes_Agency on GitHub*

@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Ashima - Meta-Routing Orchestrator Setup
 
-**Source:** [doucoo/ashima](https://github.com/doucoo/ashima)
+**Source:** doucoo/ashima
 **Stars:** 1 ⭐ | **License:** Apache-2.0
 **Created:** June 24, 2026
 **Package:** 4 skills (ashima router + aria + duet + chorus)

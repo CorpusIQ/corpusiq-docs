@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 **Priority:** HIGH | **Category:** DevOps / Monitoring  
 **Transport:** stdio (npx) | **Auth:** API key (optional for public pages)  
-**Repository:** [Churman1113/pingcheck](https://github.com/Churman1113/pingcheck) (MIT)  
+**Repository:** Churman1113/pingcheck (MIT)  
 **Website:** https://pingcheck.cloud  
 **Discovered:** July 27, 2026 (chatmcp/mcpso #3307)
 

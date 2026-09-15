@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # StepFun (阶跃星辰) - Setup Guide
 
-**Source:** [fengjunlu618/stepfun-skills](https://github.com/fengjunlu618/stepfun-skills)
+**Source:** fengjunlu618/stepfun-skills
 **Category:** LLM Provider / Multimodal
 
 The first Chinese LLM provider skill suite for Hermes Agent. Provides access to StepFun's full model lineup - multimodal reasoning, text-to-speech, speech recognition, image generation, real-time voice, and search/RAG - all through a Step Plan subscription channel (separate from standard API billing).

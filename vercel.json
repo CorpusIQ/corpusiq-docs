@@ -19,2502 +19,2502 @@
     },
     {
       "source": "/hermes/actualyze-discovery",
-      "destination": "/hermes/mcp/actualyze-discovery/",
+      "destination": "/hermes/mcp/actualyze-discovery",
       "statusCode": 301
     },
     {
       "source": "/agents/hr-agent",
-      "destination": "/hermes/agents/hr-agent/",
+      "destination": "/hermes/agents/hr-agent",
       "statusCode": 301
     },
     {
       "source": "/data",
-      "destination": "/hermes/data/",
+      "destination": "/hermes/data",
       "statusCode": 301
     },
     {
       "source": "/setup/raspberry-pi",
-      "destination": "/hermes/setup/raspberry-pi/",
+      "destination": "/hermes/setup/raspberry-pi",
       "statusCode": 301
     },
     {
       "source": "/agents/support-agent",
-      "destination": "/hermes/agents/support-agent/",
+      "destination": "/hermes/agents/support-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/daily-ops",
-      "destination": "/hermes/blueprints/daily-ops/",
+      "destination": "/hermes/blueprints/daily-ops",
       "statusCode": 301
     },
     {
       "source": "/prompts/content-creation",
-      "destination": "/hermes/prompts/content-creation/",
+      "destination": "/hermes/prompts/content-creation",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/excel-automation",
-      "destination": "/hermes/skills/catalog/claude-office/excel-automation/",
+      "destination": "/hermes/skills/catalog/claude-office/excel-automation",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july26-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-july26-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-july26-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/hermes/by-company-size/startup",
-      "destination": "/hermes/outputs/by-company-size/startup/",
+      "destination": "/hermes/outputs/by-company-size/startup",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july25-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-july25-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-july25-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august10-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-august10-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-august10-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/hermes/session-handoff",
-      "destination": "/hermes/knowledge/session-handoff/",
+      "destination": "/hermes/knowledge/session-handoff",
       "statusCode": 301
     },
     {
       "source": "/hermes/business-operations",
-      "destination": "/hermes/prompts/business-operations/",
+      "destination": "/hermes/prompts/business-operations",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/ascii-art-setup",
-      "destination": "/hermes/skills/catalog/ascii-art-setup/",
+      "destination": "/hermes/skills/catalog/ascii-art-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/by-company-size/mid-market",
-      "destination": "/hermes/outputs/by-company-size/mid-market/",
+      "destination": "/hermes/outputs/by-company-size/mid-market",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-persona-content-creator",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-persona-content-creator/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-persona-content-creator",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/revenue-operations",
-      "destination": "/hermes/outputs/case-studies/revenue-operations/",
+      "destination": "/hermes/outputs/case-studies/revenue-operations",
       "statusCode": 301
     },
     {
       "source": "/hubspot",
-      "destination": "/connectors/hubspot/",
+      "destination": "/connectors/hubspot",
       "statusCode": 301
     },
     {
       "source": "/error-codes-reference",
-      "destination": "/troubleshooting/error-codes-reference/",
+      "destination": "/troubleshooting/error-codes-reference",
       "statusCode": 301
     },
     {
       "source": "/compare",
-      "destination": "/hermes/compare/",
+      "destination": "/hermes/compare",
       "statusCode": 301
     },
     {
       "source": "/hermes/dgx",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/guides/corpusiq-claude-code",
-      "destination": "/hermes/guides/corpusiq-claude-code/",
+      "destination": "/hermes/guides/corpusiq-claude-code",
       "statusCode": 301
     },
     {
       "source": "/tools",
-      "destination": "/hermes/tools/",
+      "destination": "/hermes/tools",
       "statusCode": 301
     },
     {
       "source": "/hermes/share-card",
-      "destination": "/hermes/community/share-card/",
+      "destination": "/hermes/community/share-card",
       "statusCode": 301
     },
     {
       "source": "/hermes/skill-marketplaces",
-      "destination": "/hermes/skills/skill-marketplaces/",
+      "destination": "/hermes/skills/skill-marketplaces",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/startup",
-      "destination": "/hermes/outputs/by-company-size/startup/",
+      "destination": "/hermes/outputs/by-company-size/startup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/codex-setup",
-      "destination": "/hermes/skills/catalog/codex-setup/",
+      "destination": "/hermes/skills/catalog/codex-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/shopify-liquid",
-      "destination": "/hermes/skills/catalog/shopify/shopify-liquid/",
+      "destination": "/hermes/skills/catalog/shopify/shopify-liquid",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-google-ads",
-      "destination": "/hermes/compare/corpusiq-vs-google-ads/",
+      "destination": "/hermes/compare/corpusiq-vs-google-ads",
       "statusCode": 301
     },
     {
       "source": "/hermes/langgraph",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/data-analysis",
-      "destination": "/hermes/prompts/data-analysis/",
+      "destination": "/hermes/prompts/data-analysis",
       "statusCode": 301
     },
     {
       "source": "/webhooks",
-      "destination": "/api/webhooks/",
+      "destination": "/api/webhooks",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/prisma-database-setup",
-      "destination": "/hermes/skills/catalog/prisma/prisma-database-setup/",
+      "destination": "/hermes/skills/catalog/prisma/prisma-database-setup",
       "statusCode": 301
     },
     {
       "source": "/commander",
-      "destination": "/hermes/commander/",
+      "destination": "/hermes/commander",
       "statusCode": 301
     },
     {
       "source": "/amazon_seller",
-      "destination": "/connectors/amazon_seller/",
+      "destination": "/connectors/amazon_seller",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/worldwide-affiliate-mass-publishing",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firecrawl-search",
-      "destination": "/hermes/skills/catalog/firecrawl/firecrawl-search/",
+      "destination": "/hermes/skills/catalog/firecrawl/firecrawl-search",
       "statusCode": 301
     },
     {
       "source": "/seo",
-      "destination": "/hermes/seo/",
+      "destination": "/hermes/seo",
       "statusCode": 301
     },
     {
       "source": "/schemas",
-      "destination": "/api/schemas/",
+      "destination": "/api/schemas",
       "statusCode": 301
     },
     {
       "source": "/cosmosdb",
-      "destination": "/connectors/cosmosdb/",
+      "destination": "/connectors/cosmosdb",
       "statusCode": 301
     },
     {
       "source": "/hermes/ai-consistency-data-access-problem",
-      "destination": "/hermes/architecture/ai-consistency-data-access-problem/",
+      "destination": "/hermes/architecture/ai-consistency-data-access-problem",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/real-estate",
-      "destination": "/hermes/outputs/case-studies/real-estate/",
+      "destination": "/hermes/outputs/case-studies/real-estate",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firebase-basics",
-      "destination": "/hermes/skills/catalog/firebase/firebase-basics/",
+      "destination": "/hermes/skills/catalog/firebase/firebase-basics",
       "statusCode": 301
     },
     {
       "source": "/ai-agent-mcp-setup",
-      "destination": "/recipes/ai-agent-mcp-setup/",
+      "destination": "/recipes/ai-agent-mcp-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/expo-deployment",
-      "destination": "/hermes/skills/catalog/platform/expo-deployment/",
+      "destination": "/hermes/skills/catalog/platform/expo-deployment",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/education",
-      "destination": "/hermes/outputs/case-studies/education/",
+      "destination": "/hermes/outputs/case-studies/education",
       "statusCode": 301
     },
     {
       "source": "/setup/cloud-vps",
-      "destination": "/hermes/setup/cloud-vps/",
+      "destination": "/hermes/setup/cloud-vps",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-zapier",
-      "destination": "/hermes/compare/corpusiq-vs-zapier/",
+      "destination": "/hermes/compare/corpusiq-vs-zapier",
       "statusCode": 301
     },
     {
       "source": "/mcp-connection-errors",
-      "destination": "/troubleshooting/mcp-connection-errors/",
+      "destination": "/troubleshooting/mcp-connection-errors",
       "statusCode": 301
     },
     {
       "source": "/hermes/sales-agent",
-      "destination": "/hermes/agents/sales-agent/",
+      "destination": "/hermes/agents/sales-agent",
       "statusCode": 301
     },
     {
       "source": "/gohighlevel",
-      "destination": "/connectors/gohighlevel/",
+      "destination": "/connectors/gohighlevel",
       "statusCode": 301
     },
     {
       "source": "/airtable",
-      "destination": "/connectors/airtable/",
+      "destination": "/connectors/airtable",
       "statusCode": 301
     },
     {
       "source": "/04-first-connector",
-      "destination": "/quickstart/04-first-connector/",
+      "destination": "/quickstart/04-first-connector",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/hyperframes-setup",
-      "destination": "/hermes/skills/catalog/hyperframes-setup/",
+      "destination": "/hermes/skills/catalog/hyperframes-setup",
       "statusCode": 301
     },
     {
       "source": "/privacy-and-security",
-      "destination": "/how-it-works/privacy-and-security/",
+      "destination": "/how-it-works/privacy-and-security",
       "statusCode": 301
     },
     {
       "source": "/blueprints/financial-close",
-      "destination": "/hermes/blueprints/financial-close/",
+      "destination": "/hermes/blueprints/financial-close",
       "statusCode": 301
     },
     {
       "source": "/google_workspace",
-      "destination": "/connectors/google_workspace/",
+      "destination": "/connectors/google_workspace",
       "statusCode": 301
     },
     {
       "source": "/connect-linkedin-ads-to-claude",
-      "destination": "/connectors/connect-linkedin-ads-to-claude/",
+      "destination": "/connectors/connect-linkedin-ads-to-claude",
       "statusCode": 301
     },
     {
       "source": "/prompts/code-generation",
-      "destination": "/hermes/prompts/code-generation/",
+      "destination": "/hermes/prompts/code-generation",
       "statusCode": 301
     },
     {
       "source": "/skills/skill-marketplaces",
-      "destination": "/hermes/skills/skill-marketplaces/",
+      "destination": "/hermes/skills/skill-marketplaces",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july27-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-july27-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-july27-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/templates",
-      "destination": "/hermes/templates/",
+      "destination": "/hermes/templates",
       "statusCode": 301
     },
     {
       "source": "/connect-airtable-to-claude",
-      "destination": "/connectors/connect-airtable-to-claude/",
+      "destination": "/connectors/connect-airtable-to-claude",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/speech-to-text",
-      "destination": "/hermes/skills/catalog/elevenlabs/speech-to-text/",
+      "destination": "/hermes/skills/catalog/elevenlabs/speech-to-text",
       "statusCode": 301
     },
     {
       "source": "/overview",
-      "destination": "/api/overview/",
+      "destination": "/api/overview",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july29-2026-morning",
-      "destination": "/hermes/mcp/sweeps/sweep-july29-2026-morning/",
+      "destination": "/hermes/mcp/sweeps/sweep-july29-2026-morning",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/compliance-audit",
-      "destination": "/hermes/outputs/case-studies/compliance-audit/",
+      "destination": "/hermes/outputs/case-studies/compliance-audit",
       "statusCode": 301
     },
     {
       "source": "/hermes/customer-lifecycle",
-      "destination": "/hermes/blueprints/customer-lifecycle/",
+      "destination": "/hermes/blueprints/customer-lifecycle",
       "statusCode": 301
     },
     {
       "source": "/google-ads-for-agencies",
-      "destination": "/connectors/google-ads-for-agencies/",
+      "destination": "/connectors/google-ads-for-agencies",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/solana-setup",
-      "destination": "/hermes/skills/catalog/solana-setup/",
+      "destination": "/hermes/skills/catalog/solana-setup",
       "statusCode": 301
     },
     {
       "source": "/slack",
-      "destination": "/connectors/slack/",
+      "destination": "/connectors/slack",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-shopify",
-      "destination": "/hermes/compare/corpusiq-vs-shopify/",
+      "destination": "/hermes/compare/corpusiq-vs-shopify",
       "statusCode": 301
     },
     {
       "source": "/openapi",
-      "destination": "/api/openapi/",
+      "destination": "/api/openapi",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/prisma-client-api",
-      "destination": "/hermes/skills/catalog/prisma/prisma-client-api/",
+      "destination": "/hermes/skills/catalog/prisma/prisma-client-api",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august11-2026-overnight",
-      "destination": "/hermes/mcp/sweeps/sweep-august11-2026-overnight/",
+      "destination": "/hermes/mcp/sweeps/sweep-august11-2026-overnight",
       "statusCode": 301
     },
     {
       "source": "/mcp-ecosystem",
-      "destination": "/hermes/mcp-ecosystem/",
+      "destination": "/hermes/mcp-ecosystem",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firecrawl-scrape",
-      "destination": "/hermes/skills/catalog/firecrawl/firecrawl-scrape/",
+      "destination": "/hermes/skills/catalog/firecrawl/firecrawl-scrape",
       "statusCode": 301
     },
     {
       "source": "/guides/mcp-servers-business-operators",
-      "destination": "/hermes/guides/mcp-servers-business-operators/",
+      "destination": "/hermes/guides/mcp-servers-business-operators",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/kanban-orchestrator-setup",
-      "destination": "/hermes/skills/catalog/kanban-orchestrator-setup/",
+      "destination": "/hermes/skills/catalog/kanban-orchestrator-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/real-estate",
-      "destination": "/hermes/outputs/case-studies/real-estate/",
+      "destination": "/hermes/outputs/case-studies/real-estate",
       "statusCode": 301
     },
     {
       "source": "/hermes/marketing",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/connect-quickbooks-to-ai",
-      "destination": "/hermes/seo/connect-quickbooks-to-ai/",
+      "destination": "/hermes/seo/connect-quickbooks-to-ai",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/new-june18-2026",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/legal-agent",
-      "destination": "/hermes/agents/legal-agent/",
+      "destination": "/hermes/agents/legal-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-claude-code",
-      "destination": "/hermes/guides/corpusiq-claude-code/",
+      "destination": "/hermes/guides/corpusiq-claude-code",
       "statusCode": 301
     },
     {
       "source": "/metric-specs",
-      "destination": "/how-it-works/metric-specs/",
+      "destination": "/how-it-works/metric-specs",
       "statusCode": 301
     },
     {
       "source": "/hermes/workflows/templates",
-      "destination": "/hermes/outputs/workflows/templates/",
+      "destination": "/hermes/outputs/workflows/templates",
       "statusCode": 301
     },
     {
       "source": "/blueprints",
-      "destination": "/hermes/blueprints/",
+      "destination": "/hermes/blueprints",
       "statusCode": 301
     },
     {
       "source": "/best-practices",
-      "destination": "/hermes/best-practices/",
+      "destination": "/hermes/best-practices",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/canvas-setup",
-      "destination": "/hermes/skills/catalog/canvas-setup/",
+      "destination": "/hermes/skills/catalog/canvas-setup",
       "statusCode": 301
     },
     {
       "source": "/ecosystem-map",
-      "destination": "/hermes/ecosystem-map/",
+      "destination": "/hermes/ecosystem-map",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/external",
-      "destination": "/hermes/mcp/",
+      "destination": "/hermes/mcp",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/real-estate",
-      "destination": "/hermes/outputs/case-studies/real-estate/",
+      "destination": "/hermes/outputs/case-studies/real-estate",
       "statusCode": 301
     },
     {
       "source": "/ai-mcp-server-for-business-data",
-      "destination": "/connectors/ai-mcp-server-for-business-data/",
+      "destination": "/connectors/ai-mcp-server-for-business-data",
       "statusCode": 301
     },
     {
       "source": "/imap",
-      "destination": "/connectors/imap/",
+      "destination": "/connectors/imap",
       "statusCode": 301
     },
     {
       "source": "/indexnow-auto-submit",
-      "destination": "/recipes/indexnow-auto-submit/",
+      "destination": "/recipes/indexnow-auto-submit",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/financial-services",
-      "destination": "/hermes/outputs/case-studies/financial-services/",
+      "destination": "/hermes/outputs/case-studies/financial-services",
       "statusCode": 301
     },
     {
       "source": "/universal-business-search",
-      "destination": "/recipes/universal-business-search/",
+      "destination": "/recipes/universal-business-search",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.20.0",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/cloud-vps",
-      "destination": "/hermes/setup/cloud-vps/",
+      "destination": "/hermes/setup/cloud-vps",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-mcp",
-      "destination": "/hermes/setup/corpusiq-mcp/",
+      "destination": "/hermes/setup/corpusiq-mcp",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/telegram-bot",
-      "destination": "/hermes/skills/catalog/communication/telegram-bot/",
+      "destination": "/hermes/skills/catalog/communication/telegram-bot",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/linear-setup",
-      "destination": "/hermes/skills/catalog/linear-setup/",
+      "destination": "/hermes/skills/catalog/linear-setup",
       "statusCode": 301
     },
     {
       "source": "/perplexity-business-data-mcp",
-      "destination": "/connectors/perplexity-business-data-mcp/",
+      "destination": "/connectors/perplexity-business-data-mcp",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/airtable-automation",
-      "destination": "/hermes/skills/catalog/claude-office/airtable-automation/",
+      "destination": "/hermes/skills/catalog/claude-office/airtable-automation",
       "statusCode": 301
     },
     {
       "source": "/blueprints/incident-response",
-      "destination": "/hermes/blueprints/incident-response/",
+      "destination": "/hermes/blueprints/incident-response",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.19.1",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/connect-klaviyo-to-claude",
-      "destination": "/connectors/connect-klaviyo-to-claude/",
+      "destination": "/connectors/connect-klaviyo-to-claude",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july22-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-july22-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-july22-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/authentication",
-      "destination": "/api/authentication/",
+      "destination": "/api/authentication",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/supabase-postgres-best-practices",
-      "destination": "/hermes/skills/catalog/supabase/supabase-postgres-best-practices/",
+      "destination": "/hermes/skills/catalog/supabase/supabase-postgres-best-practices",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/government",
-      "destination": "/hermes/outputs/case-studies/government/",
+      "destination": "/hermes/outputs/case-studies/government",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/apple-calendar-setup",
-      "destination": "/hermes/skills/catalog/apple-calendar-setup/",
+      "destination": "/hermes/skills/catalog/apple-calendar-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july19-2026",
-      "destination": "/hermes/mcp/sweeps/sweep-july19-2026/",
+      "destination": "/hermes/mcp/sweeps/sweep-july19-2026",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/financial-services",
-      "destination": "/hermes/outputs/case-studies/financial-services/",
+      "destination": "/hermes/outputs/case-studies/financial-services",
       "statusCode": 301
     },
     {
       "source": "/best-practices/memory-management",
-      "destination": "/hermes/best-practices/memory-management/",
+      "destination": "/hermes/best-practices/memory-management",
       "statusCode": 301
     },
     {
       "source": "/hermes/mac-mini",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/growth",
-      "destination": "/hermes/growth/",
+      "destination": "/hermes/growth",
       "statusCode": 301
     },
     {
       "source": "/morning-briefing",
-      "destination": "/recipes/morning-briefing/",
+      "destination": "/recipes/morning-briefing",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firebase-auth-basics",
-      "destination": "/hermes/skills/catalog/firebase/firebase-auth-basics/",
+      "destination": "/hermes/skills/catalog/firebase/firebase-auth-basics",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/email",
-      "destination": "/hermes/mcp/",
+      "destination": "/hermes/mcp",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-quickbooks",
-      "destination": "/hermes/compare/corpusiq-vs-quickbooks/",
+      "destination": "/hermes/compare/corpusiq-vs-quickbooks",
       "statusCode": 301
     },
     {
       "source": "/hermes/gaming-pc",
-      "destination": "/hermes/setup/gaming-pc/",
+      "destination": "/hermes/setup/gaming-pc",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/whatsapp-automation",
-      "destination": "/hermes/skills/catalog/communication/whatsapp-automation/",
+      "destination": "/hermes/skills/catalog/communication/whatsapp-automation",
       "statusCode": 301
     },
     {
       "source": "/mcp/servers/external",
-      "destination": "/hermes/mcp/servers/external/",
+      "destination": "/hermes/mcp/servers/external",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/metric-spec-registry",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp-for-business-operators",
-      "destination": "/hermes/architecture/mcp-for-business-operators/",
+      "destination": "/hermes/architecture/mcp-for-business-operators",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/architecture-diagram-setup",
-      "destination": "/hermes/skills/catalog/architecture-diagram-setup/",
+      "destination": "/hermes/skills/catalog/architecture-diagram-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skill-development",
-      "destination": "/hermes/best-practices/skill-development/",
+      "destination": "/hermes/best-practices/skill-development",
       "statusCode": 301
     },
     {
       "source": "/hermes/reflexion",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/onedrive",
-      "destination": "/connectors/onedrive/",
+      "destination": "/connectors/onedrive",
       "statusCode": 301
     },
     {
       "source": "/hermes/workflows",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/gunbroker",
-      "destination": "/connectors/gunbroker/",
+      "destination": "/connectors/gunbroker",
       "statusCode": 301
     },
     {
       "source": "/guides/hermes-improvement-pipeline-aug2026",
-      "destination": "/hermes/guides/hermes-improvement-pipeline-aug2026/",
+      "destination": "/hermes/guides/hermes-improvement-pipeline-aug2026",
       "statusCode": 301
     },
     {
       "source": "/agent-marketplace",
-      "destination": "/hermes/agent-marketplace/",
+      "destination": "/hermes/agent-marketplace",
       "statusCode": 301
     },
     {
       "source": "/hermes/hermes",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/pdf-extraction",
-      "destination": "/hermes/skills/catalog/claude-office/pdf-extraction/",
+      "destination": "/hermes/skills/catalog/claude-office/pdf-extraction",
       "statusCode": 301
     },
     {
       "source": "/hermes/email",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/august-2026",
-      "destination": "/hermes/ecosystem/august-2026/",
+      "destination": "/hermes/ecosystem/august-2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/shopify-hydrogen",
-      "destination": "/hermes/skills/catalog/shopify/shopify-hydrogen/",
+      "destination": "/hermes/skills/catalog/shopify/shopify-hydrogen",
       "statusCode": 301
     },
     {
       "source": "/agents/research-agent",
-      "destination": "/hermes/agents/research-agent/",
+      "destination": "/hermes/agents/research-agent",
       "statusCode": 301
     },
     {
       "source": "/connector-shows-no-data",
-      "destination": "/troubleshooting/connector-shows-no-data/",
+      "destination": "/troubleshooting/connector-shows-no-data",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/customer-support",
-      "destination": "/hermes/outputs/case-studies/customer-support/",
+      "destination": "/hermes/outputs/case-studies/customer-support",
       "statusCode": 301
     },
     {
       "source": "/hermes/mismanaged-geniuses-hypothesis",
-      "destination": "/hermes/architecture/mismanaged-geniuses-hypothesis/",
+      "destination": "/hermes/architecture/mismanaged-geniuses-hypothesis",
       "statusCode": 301
     },
     {
       "source": "/hermes/crm-analytics",
-      "destination": "/hermes/integrations/crm-analytics/",
+      "destination": "/hermes/integrations/crm-analytics",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/professional-services",
-      "destination": "/hermes/outputs/case-studies/professional-services/",
+      "destination": "/hermes/outputs/case-studies/professional-services",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-calendar",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-calendar/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-calendar",
       "statusCode": 301
     },
     {
       "source": "/connector-auth-failed",
-      "destination": "/troubleshooting/connector-auth-failed/",
+      "destination": "/troubleshooting/connector-auth-failed",
       "statusCode": 301
     },
     {
       "source": "/hermes/devops-agent",
-      "destination": "/hermes/agents/devops-agent/",
+      "destination": "/hermes/agents/devops-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/education",
-      "destination": "/hermes/outputs/case-studies/education/",
+      "destination": "/hermes/outputs/case-studies/education",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/heartmula-setup",
-      "destination": "/hermes/skills/catalog/heartmula-setup/",
+      "destination": "/hermes/skills/catalog/heartmula-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/affiliate-program",
-      "destination": "/hermes/growth/affiliate-program/",
+      "destination": "/hermes/growth/affiliate-program",
       "statusCode": 301
     },
     {
       "source": "/hermes/incident-response",
-      "destination": "/hermes/blueprints/incident-response/",
+      "destination": "/hermes/blueprints/incident-response",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/crm-automation",
-      "destination": "/hermes/skills/catalog/claude-office/crm-automation/",
+      "destination": "/hermes/skills/catalog/claude-office/crm-automation",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp-design",
-      "destination": "/hermes/best-practices/mcp-design/",
+      "destination": "/hermes/best-practices/mcp-design",
       "statusCode": 301
     },
     {
       "source": "/ebay",
-      "destination": "/connectors/ebay/",
+      "destination": "/connectors/ebay",
       "statusCode": 301
     },
     {
       "source": "/hermes/manual-reporting-time-waste",
-      "destination": "/hermes/seo/manual-reporting-time-waste/",
+      "destination": "/hermes/seo/manual-reporting-time-waste",
       "statusCode": 301
     },
     {
       "source": "/mcp-developer-queries",
-      "destination": "/hermes/prompts/mcp-developer-queries/",
+      "destination": "/hermes/prompts/mcp-developer-queries",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/kubernetes-specialist",
-      "destination": "/hermes/skills/catalog/infrastructure/kubernetes-specialist/",
+      "destination": "/hermes/skills/catalog/infrastructure/kubernetes-specialist",
       "statusCode": 301
     },
     {
       "source": "/outputs/by-company-size/enterprise",
-      "destination": "/hermes/outputs/by-company-size/enterprise/",
+      "destination": "/hermes/outputs/by-company-size/enterprise",
       "statusCode": 301
     },
     {
       "source": "/content-ops",
-      "destination": "/hermes/content-ops/",
+      "destination": "/hermes/content-ops",
       "statusCode": 301
     },
     {
       "source": "/hermes/database-reporting",
-      "destination": "/hermes/integrations/database-reporting/",
+      "destination": "/hermes/integrations/database-reporting",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/hermes-skill-dandacompany-setup",
-      "destination": "/hermes/skills/catalog/hermes-skill-dandacompany-setup/",
+      "destination": "/hermes/skills/catalog/hermes-skill-dandacompany-setup",
       "statusCode": 301
     },
     {
       "source": "/google_ads",
-      "destination": "/connectors/google_ads/",
+      "destination": "/connectors/google_ads",
       "statusCode": 301
     },
     {
       "source": "/hermes/social",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/contributors",
-      "destination": "/hermes/contributors/",
+      "destination": "/hermes/contributors",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/ideation-setup",
-      "destination": "/hermes/skills/catalog/ideation-setup/",
+      "destination": "/hermes/skills/catalog/ideation-setup",
       "statusCode": 301
     },
     {
       "source": "/chatgpt-cant-see-corpusiq",
-      "destination": "/troubleshooting/chatgpt-cant-see-corpusiq/",
+      "destination": "/troubleshooting/chatgpt-cant-see-corpusiq",
       "statusCode": 301
     },
     {
       "source": "/hermes/business-data-for-chatgpt",
-      "destination": "/hermes/seo/business-data-for-chatgpt/",
+      "destination": "/hermes/seo/business-data-for-chatgpt",
       "statusCode": 301
     },
     {
       "source": "/integrations",
-      "destination": "/hermes/integrations/",
+      "destination": "/hermes/integrations",
       "statusCode": 301
     },
     {
       "source": "/connectors-explained",
-      "destination": "/how-it-works/connectors-explained/",
+      "destination": "/how-it-works/connectors-explained",
       "statusCode": 301
     },
     {
       "source": "/notion",
-      "destination": "/connectors/notion/",
+      "destination": "/connectors/notion",
       "statusCode": 301
     },
     {
       "source": "/06-first-cross-source-query",
-      "destination": "/quickstart/06-first-cross-source-query/",
+      "destination": "/quickstart/06-first-cross-source-query",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/nonprofit",
-      "destination": "/hermes/outputs/case-studies/nonprofit/",
+      "destination": "/hermes/outputs/case-studies/nonprofit",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july28-2026-morning",
-      "destination": "/hermes/mcp/sweeps/sweep-july28-2026-morning/",
+      "destination": "/hermes/mcp/sweeps/sweep-july28-2026-morning",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/design-md-setup",
-      "destination": "/hermes/skills/catalog/design-md-setup/",
+      "destination": "/hermes/skills/catalog/design-md-setup",
       "statusCode": 301
     },
     {
       "source": "/setup/windows-wsl",
-      "destination": "/hermes/setup/windows-wsl/",
+      "destination": "/hermes/setup/windows-wsl",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/database",
-      "destination": "/hermes/mcp/",
+      "destination": "/hermes/mcp",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firebase-hosting-basics",
-      "destination": "/hermes/skills/catalog/firebase/firebase-hosting-basics/",
+      "destination": "/hermes/skills/catalog/firebase/firebase-hosting-basics",
       "statusCode": 301
     },
     {
       "source": "/hermes/ai-business-intelligence",
-      "destination": "/hermes/seo/ai-business-intelligence/",
+      "destination": "/hermes/seo/ai-business-intelligence",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august13-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-august13-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-august13-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/hermes/engineering",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/prompts/research",
-      "destination": "/hermes/prompts/research/",
+      "destination": "/hermes/prompts/research",
       "statusCode": 301
     },
     {
       "source": "/mcp-server-shopify-quickbooks",
-      "destination": "/connectors/mcp-server-shopify-quickbooks/",
+      "destination": "/connectors/mcp-server-shopify-quickbooks",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/compliance-audit",
-      "destination": "/hermes/outputs/case-studies/compliance-audit/",
+      "destination": "/hermes/outputs/case-studies/compliance-audit",
       "statusCode": 301
     },
     {
       "source": "/facebook_marketing",
-      "destination": "/connectors/facebook_marketing/",
+      "destination": "/connectors/facebook_marketing",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/manufacturing",
-      "destination": "/hermes/outputs/case-studies/manufacturing/",
+      "destination": "/hermes/outputs/case-studies/manufacturing",
       "statusCode": 301
     },
     {
       "source": "/revenue-and-finance",
-      "destination": "/hermes/prompts/revenue-and-finance/",
+      "destination": "/hermes/prompts/revenue-and-finance",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/debugging-hermes-tui-commands-setup",
-      "destination": "/hermes/skills/catalog/debugging-hermes-tui-commands-setup/",
+      "destination": "/hermes/skills/catalog/debugging-hermes-tui-commands-setup",
       "statusCode": 301
     },
     {
       "source": "/best-practices/model-selection",
-      "destination": "/hermes/best-practices/model-selection/",
+      "destination": "/hermes/best-practices/model-selection",
       "statusCode": 301
     },
     {
       "source": "/agents/legal-agent",
-      "destination": "/hermes/agents/legal-agent/",
+      "destination": "/hermes/agents/legal-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/memory-management",
-      "destination": "/hermes/best-practices/memory-management/",
+      "destination": "/hermes/best-practices/memory-management",
       "statusCode": 301
     },
     {
       "source": "/ga4",
-      "destination": "/connectors/ga4/",
+      "destination": "/connectors/ga4",
       "statusCode": 301
     },
     {
       "source": "/hermes/by-company-size",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/cross-source-revenue-audit",
-      "destination": "/recipes/cross-source-revenue-audit/",
+      "destination": "/recipes/cross-source-revenue-audit",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.20.1",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/honcho-memory-usage",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/browser-act-setup",
-      "destination": "/hermes/skills/catalog/browser-act-setup/",
+      "destination": "/hermes/skills/catalog/browser-act-setup",
       "statusCode": 301
     },
     {
       "source": "/outputs/by-company-size/mid-market",
-      "destination": "/hermes/outputs/by-company-size/mid-market/",
+      "destination": "/hermes/outputs/by-company-size/mid-market",
       "statusCode": 301
     },
     {
       "source": "/infrastructure",
-      "destination": "/hermes/infrastructure/",
+      "destination": "/hermes/infrastructure",
       "statusCode": 301
     },
     {
       "source": "/setup/docker",
-      "destination": "/hermes/setup/docker/",
+      "destination": "/hermes/setup/docker",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/shopify-functions",
-      "destination": "/hermes/skills/catalog/shopify/shopify-functions/",
+      "destination": "/hermes/skills/catalog/shopify/shopify-functions",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/plan-mode-setup",
-      "destination": "/hermes/skills/catalog/plan-mode-setup/",
+      "destination": "/hermes/skills/catalog/plan-mode-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.19.0",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.18.2",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/mcp-architecture",
-      "destination": "/how-it-works/mcp-architecture/",
+      "destination": "/how-it-works/mcp-architecture",
       "statusCode": 301
     },
     {
       "source": "/hermes/operations",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/skills/creating-skills",
-      "destination": "/hermes/skills/creating-skills/",
+      "destination": "/hermes/skills/creating-skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/scheduling",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/setup",
-      "destination": "/hermes/setup/",
+      "destination": "/hermes/setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/crewai",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/indexnow",
-      "destination": "/connectors/indexnow/",
+      "destination": "/connectors/indexnow",
       "statusCode": 301
     },
     {
       "source": "/what-is-corpusiq",
-      "destination": "/how-it-works/what-is-corpusiq/",
+      "destination": "/how-it-works/what-is-corpusiq",
       "statusCode": 301
     },
     {
       "source": "/blueprints/daily-ops",
-      "destination": "/hermes/blueprints/daily-ops/",
+      "destination": "/hermes/blueprints/daily-ops",
       "statusCode": 301
     },
     {
       "source": "/semrush",
-      "destination": "/connectors/semrush/",
+      "destination": "/connectors/semrush",
       "statusCode": 301
     },
     {
       "source": "/calendly",
-      "destination": "/connectors/calendly/",
+      "destination": "/connectors/calendly",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/customer-support",
-      "destination": "/hermes/outputs/case-studies/customer-support/",
+      "destination": "/hermes/outputs/case-studies/customer-support",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-draft-email-from-doc",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-draft-email-from-doc/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-draft-email-from-doc",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july20-2026",
-      "destination": "/hermes/mcp/sweeps/sweep-july20-2026/",
+      "destination": "/hermes/mcp/sweeps/sweep-july20-2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq",
-      "destination": "/hermes/troubleshooting/corpusiq/",
+      "destination": "/hermes/troubleshooting/corpusiq",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/professional-services",
-      "destination": "/hermes/outputs/case-studies/professional-services/",
+      "destination": "/hermes/outputs/case-studies/professional-services",
       "statusCode": 301
     },
     {
       "source": "/hermes/spec/mcp-26-stateless-migration",
-      "destination": "/hermes/mcp/spec/mcp-26-stateless-migration/",
+      "destination": "/hermes/mcp/spec/mcp-26-stateless-migration",
       "statusCode": 301
     },
     {
       "source": "/bot-mode",
-      "destination": "/hermes/bot-mode/",
+      "destination": "/hermes/bot-mode",
       "statusCode": 301
     },
     {
       "source": "/close",
-      "destination": "/connectors/close/",
+      "destination": "/connectors/close",
       "statusCode": 301
     },
     {
       "source": "/hermes/finance-agent",
-      "destination": "/hermes/agents/finance-agent/",
+      "destination": "/hermes/agents/finance-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july30-2026-morning",
-      "destination": "/hermes/mcp/sweeps/sweep-july30-2026-morning/",
+      "destination": "/hermes/mcp/sweeps/sweep-july30-2026-morning",
       "statusCode": 301
     },
     {
       "source": "/commands-and-account",
-      "destination": "/chat-apps/commands-and-account/",
+      "destination": "/chat-apps/commands-and-account",
       "statusCode": 301
     },
     {
       "source": "/hermes/content-pipeline",
-      "destination": "/hermes/blueprints/content-pipeline/",
+      "destination": "/hermes/blueprints/content-pipeline",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/ecommerce",
-      "destination": "/hermes/outputs/case-studies/ecommerce/",
+      "destination": "/hermes/outputs/case-studies/ecommerce",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july26-2026-afternoon",
-      "destination": "/hermes/mcp/sweeps/sweep-july26-2026-afternoon/",
+      "destination": "/hermes/mcp/sweeps/sweep-july26-2026-afternoon",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp-servers-business-operators",
-      "destination": "/hermes/guides/mcp-servers-business-operators/",
+      "destination": "/hermes/guides/mcp-servers-business-operators",
       "statusCode": 301
     },
     {
       "source": "/integrations/database-reporting",
-      "destination": "/hermes/integrations/database-reporting/",
+      "destination": "/hermes/integrations/database-reporting",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/shopify-admin",
-      "destination": "/hermes/skills/catalog/shopify/shopify-admin/",
+      "destination": "/hermes/skills/catalog/shopify/shopify-admin",
       "statusCode": 301
     },
     {
       "source": "/hermes/harness-wars-ai-infrastructure",
-      "destination": "/hermes/architecture/harness-wars-ai-infrastructure/",
+      "destination": "/hermes/architecture/harness-wars-ai-infrastructure",
       "statusCode": 301
     },
     {
       "source": "/setup/gaming-pc",
-      "destination": "/hermes/setup/gaming-pc/",
+      "destination": "/hermes/setup/gaming-pc",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/manufacturing",
-      "destination": "/hermes/outputs/case-studies/manufacturing/",
+      "destination": "/hermes/outputs/case-studies/manufacturing",
       "statusCode": 301
     },
     {
       "source": "/ahrefs",
-      "destination": "/connectors/ahrefs/",
+      "destination": "/connectors/ahrefs",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/consultant-connector-audit",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/notion-api",
-      "destination": "/hermes/skills/catalog/platform/notion-api/",
+      "destination": "/hermes/skills/catalog/platform/notion-api",
       "statusCode": 301
     },
     {
       "source": "/hermes/why-ai-cannot-answer-revenue",
-      "destination": "/hermes/architecture/why-ai-cannot-answer-revenue/",
+      "destination": "/hermes/architecture/why-ai-cannot-answer-revenue",
       "statusCode": 301
     },
     {
       "source": "/best-practices/skill-development",
-      "destination": "/hermes/best-practices/skill-development/",
+      "destination": "/hermes/best-practices/skill-development",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/iii-workers-hermes-setup",
-      "destination": "/hermes/skills/catalog/iii-workers-hermes-setup/",
+      "destination": "/hermes/skills/catalog/iii-workers-hermes-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/grounded-citations-setup",
-      "destination": "/hermes/skills/catalog/grounded-citations-setup/",
+      "destination": "/hermes/skills/catalog/grounded-citations-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july21-2026-late-night",
-      "destination": "/hermes/mcp/sweeps/sweep-july21-2026-late-night/",
+      "destination": "/hermes/mcp/sweeps/sweep-july21-2026-late-night",
       "statusCode": 301
     },
     {
       "source": "/hermes/trending-ai-agent-tools-aug2026",
-      "destination": "/hermes/guides/trending-ai-agent-tools-aug2026/",
+      "destination": "/hermes/guides/trending-ai-agent-tools-aug2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/nonprofit",
-      "destination": "/hermes/outputs/case-studies/nonprofit/",
+      "destination": "/hermes/outputs/case-studies/nonprofit",
       "statusCode": 301
     },
     {
       "source": "/hermes/ai-connectors-for-business",
-      "destination": "/hermes/seo/ai-connectors-for-business/",
+      "destination": "/hermes/seo/ai-connectors-for-business",
       "statusCode": 301
     },
     {
       "source": "/hermes/support-agent",
-      "destination": "/hermes/agents/support-agent/",
+      "destination": "/hermes/agents/support-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july24-2026-cron",
-      "destination": "/hermes/mcp/sweeps/sweep-july24-2026-cron/",
+      "destination": "/hermes/mcp/sweeps/sweep-july24-2026-cron",
       "statusCode": 301
     },
     {
       "source": "/chatgpt-app-store",
-      "destination": "/hermes/chatgpt-app-store/",
+      "destination": "/hermes/chatgpt-app-store",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/subagent-driven-development-setup",
-      "destination": "/hermes/skills/catalog/subagent-driven-development-setup/",
+      "destination": "/hermes/skills/catalog/subagent-driven-development-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/business-ai-data-access-layers",
-      "destination": "/hermes/architecture/business-ai-data-access-layers/",
+      "destination": "/hermes/architecture/business-ai-data-access-layers",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july27-2026-midday",
-      "destination": "/hermes/mcp/sweeps/sweep-july27-2026-midday/",
+      "destination": "/hermes/mcp/sweeps/sweep-july27-2026-midday",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/writing-plans-subagent-development-setup",
-      "destination": "/hermes/skills/catalog/writing-plans-subagent-development-setup/",
+      "destination": "/hermes/skills/catalog/writing-plans-subagent-development-setup",
       "statusCode": 301
     },
     {
       "source": "/agents/sales-agent",
-      "destination": "/hermes/agents/sales-agent/",
+      "destination": "/hermes/agents/sales-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/github-code-review-setup",
-      "destination": "/hermes/skills/catalog/github-code-review-setup/",
+      "destination": "/hermes/skills/catalog/github-code-review-setup",
       "statusCode": 301
     },
     {
       "source": "/best-practices/security",
-      "destination": "/hermes/best-practices/security/",
+      "destination": "/hermes/best-practices/security",
       "statusCode": 301
     },
     {
       "source": "/hermes/catalog",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/ecommerce",
-      "destination": "/hermes/outputs/case-studies/ecommerce/",
+      "destination": "/hermes/outputs/case-studies/ecommerce",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/webhook-subscriptions-setup",
-      "destination": "/hermes/skills/catalog/webhook-subscriptions-setup/",
+      "destination": "/hermes/skills/catalog/webhook-subscriptions-setup",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/manufacturing",
-      "destination": "/hermes/outputs/case-studies/manufacturing/",
+      "destination": "/hermes/outputs/case-studies/manufacturing",
       "statusCode": 301
     },
     {
       "source": "/hermes/read-only-oauth-ai-business-tools",
-      "destination": "/hermes/architecture/read-only-oauth-ai-business-tools/",
+      "destination": "/hermes/architecture/read-only-oauth-ai-business-tools",
       "statusCode": 301
     },
     {
       "source": "/hermes/connect-business-tools-to-ai",
-      "destination": "/hermes/seo/connect-business-tools-to-ai/",
+      "destination": "/hermes/seo/connect-business-tools-to-ai",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firebase-security-rules-auditor",
-      "destination": "/hermes/skills/catalog/firebase/firebase-security-rules-auditor/",
+      "destination": "/hermes/skills/catalog/firebase/firebase-security-rules-auditor",
       "statusCode": 301
     },
     {
       "source": "/hermes/content-creation",
-      "destination": "/hermes/prompts/content-creation/",
+      "destination": "/hermes/prompts/content-creation",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firecrawl-agent",
-      "destination": "/hermes/skills/catalog/firecrawl/firecrawl-agent/",
+      "destination": "/hermes/skills/catalog/firecrawl/firecrawl-agent",
       "statusCode": 301
     },
     {
       "source": "/connect-klaviyo-to-chatgpt",
-      "destination": "/connectors/connect-klaviyo-to-chatgpt/",
+      "destination": "/connectors/connect-klaviyo-to-chatgpt",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july22-2026-cron",
-      "destination": "/hermes/mcp/sweeps/sweep-july22-2026-cron/",
+      "destination": "/hermes/mcp/sweeps/sweep-july22-2026-cron",
       "statusCode": 301
     },
     {
       "source": "/hermes/research-agent",
-      "destination": "/hermes/agents/research-agent/",
+      "destination": "/hermes/agents/research-agent",
       "statusCode": 301
     },
     {
       "source": "/mcp/spec/mcp-26-stateless-migration",
-      "destination": "/hermes/mcp/spec/mcp-26-stateless-migration/",
+      "destination": "/hermes/mcp/spec/mcp-26-stateless-migration",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-drive",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-drive/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-drive",
       "statusCode": 301
     },
     {
       "source": "/agents/devops-agent",
-      "destination": "/hermes/agents/devops-agent/",
+      "destination": "/hermes/agents/devops-agent",
       "statusCode": 301
     },
     {
       "source": "/guides/agent-plugins-corpusiq-opportunity",
-      "destination": "/hermes/guides/agent-plugins-corpusiq-opportunity/",
+      "destination": "/hermes/guides/agent-plugins-corpusiq-opportunity",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/shopify-dev",
-      "destination": "/hermes/skills/catalog/shopify/shopify-dev/",
+      "destination": "/hermes/skills/catalog/shopify/shopify-dev",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/professional-services",
-      "destination": "/hermes/outputs/case-studies/professional-services/",
+      "destination": "/hermes/outputs/case-studies/professional-services",
       "statusCode": 301
     },
     {
       "source": "/hermes/research",
-      "destination": "/hermes/prompts/research/",
+      "destination": "/hermes/prompts/research",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/popular-web-designs-setup",
-      "destination": "/hermes/skills/catalog/popular-web-designs-setup/",
+      "destination": "/hermes/skills/catalog/popular-web-designs-setup",
       "statusCode": 301
     },
     {
       "source": "/mcp-architecture",
-      "destination": "/how-it-works/mcp-architecture/",
+      "destination": "/how-it-works/mcp-architecture",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/neon-postgres",
-      "destination": "/hermes/skills/catalog/infrastructure/neon-postgres/",
+      "destination": "/hermes/skills/catalog/infrastructure/neon-postgres",
       "statusCode": 301
     },
     {
       "source": "/outlook",
-      "destination": "/connectors/outlook/",
+      "destination": "/connectors/outlook",
       "statusCode": 301
     },
     {
       "source": "/getting-started-slack",
-      "destination": "/chat-apps/getting-started-slack/",
+      "destination": "/chat-apps/getting-started-slack",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/nonprofit",
-      "destination": "/hermes/outputs/case-studies/nonprofit/",
+      "destination": "/hermes/outputs/case-studies/nonprofit",
       "statusCode": 301
     },
     {
       "source": "/knowledge",
-      "destination": "/hermes/knowledge/",
+      "destination": "/hermes/knowledge",
       "statusCode": 301
     },
     {
       "source": "/outputs",
-      "destination": "/hermes/outputs/",
+      "destination": "/hermes/outputs",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.18.1",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.17.0",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/shopify",
-      "destination": "/connectors/shopify/",
+      "destination": "/connectors/shopify",
       "statusCode": 301
     },
     {
       "source": "/hermes/directories/submission-guide-2026",
-      "destination": "/hermes/mcp/directories/submission-guide-2026/",
+      "destination": "/hermes/mcp/directories/submission-guide-2026",
       "statusCode": 301
     },
     {
       "source": "/05-first-prompt",
-      "destination": "/quickstart/05-first-prompt/",
+      "destination": "/quickstart/05-first-prompt",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august12-2026-afternoon",
-      "destination": "/hermes/mcp/sweeps/sweep-august12-2026-afternoon/",
+      "destination": "/hermes/mcp/sweeps/sweep-august12-2026-afternoon",
       "statusCode": 301
     },
     {
       "source": "/hermes/raspberry-pi",
-      "destination": "/hermes/setup/raspberry-pi/",
+      "destination": "/hermes/setup/raspberry-pi",
       "statusCode": 301
     },
     {
       "source": "/blueprints/content-pipeline",
-      "destination": "/hermes/blueprints/content-pipeline/",
+      "destination": "/hermes/blueprints/content-pipeline",
       "statusCode": 301
     },
     {
       "source": "/windsor-ai-alternative",
-      "destination": "/connectors/windsor-ai-alternative/",
+      "destination": "/connectors/windsor-ai-alternative",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/simplify-code-setup",
-      "destination": "/hermes/skills/catalog/simplify-code-setup/",
+      "destination": "/hermes/skills/catalog/simplify-code-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/new-june18-2026-ecosystem",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/sweeps",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/weekly-ad-roi-report",
-      "destination": "/recipes/weekly-ad-roi-report/",
+      "destination": "/recipes/weekly-ad-roi-report",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august11-2026-midday",
-      "destination": "/hermes/mcp/sweeps/sweep-august11-2026-midday/",
+      "destination": "/hermes/mcp/sweeps/sweep-august11-2026-midday",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/compliance-audit",
-      "destination": "/hermes/outputs/case-studies/compliance-audit/",
+      "destination": "/hermes/outputs/case-studies/compliance-audit",
       "statusCode": 301
     },
     {
       "source": "/connect-meta-ads-to-claude",
-      "destination": "/connectors/connect-meta-ads-to-claude/",
+      "destination": "/connectors/connect-meta-ads-to-claude",
       "statusCode": 301
     },
     {
       "source": "/stripe",
-      "destination": "/connectors/stripe/",
+      "destination": "/connectors/stripe",
       "statusCode": 301
     },
     {
       "source": "/hermes/stateless-mcp-july-2026",
-      "destination": "/hermes/architecture/stateless-mcp-july-2026/",
+      "destination": "/hermes/architecture/stateless-mcp-july-2026",
       "statusCode": 301
     },
     {
       "source": "/guides/trending-ai-agent-tools-aug2026",
-      "destination": "/hermes/guides/trending-ai-agent-tools-aug2026/",
+      "destination": "/hermes/guides/trending-ai-agent-tools-aug2026",
       "statusCode": 301
     },
     {
       "source": "/prompts/business-operations",
-      "destination": "/hermes/prompts/business-operations/",
+      "destination": "/hermes/prompts/business-operations",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/seo-geo",
-      "destination": "/hermes/skills/catalog/platform/seo-geo/",
+      "destination": "/hermes/skills/catalog/platform/seo-geo",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/monitoring-expert",
-      "destination": "/hermes/skills/catalog/infrastructure/monitoring-expert/",
+      "destination": "/hermes/skills/catalog/infrastructure/monitoring-expert",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july23-2026-cron",
-      "destination": "/hermes/mcp/sweeps/sweep-july23-2026-cron/",
+      "destination": "/hermes/mcp/sweeps/sweep-july23-2026-cron",
       "statusCode": 301
     },
     {
       "source": "/hermes/registry",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july25-2026-afternoon",
-      "destination": "/hermes/mcp/sweeps/sweep-july25-2026-afternoon/",
+      "destination": "/hermes/mcp/sweeps/sweep-july25-2026-afternoon",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/excalidraw-setup",
-      "destination": "/hermes/skills/catalog/excalidraw-setup/",
+      "destination": "/hermes/skills/catalog/excalidraw-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july24-2026-cron-2",
-      "destination": "/hermes/mcp/sweeps/sweep-july24-2026-cron-2/",
+      "destination": "/hermes/mcp/sweeps/sweep-july24-2026-cron-2",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-cron-patterns",
-      "destination": "/hermes/setup/corpusiq-cron-patterns/",
+      "destination": "/hermes/setup/corpusiq-cron-patterns",
       "statusCode": 301
     },
     {
       "source": "/getting-started-teams",
-      "destination": "/chat-apps/getting-started-teams/",
+      "destination": "/chat-apps/getting-started-teams",
       "statusCode": 301
     },
     {
       "source": "/reading-files-and-pdfs",
-      "destination": "/how-it-works/reading-files-and-pdfs/",
+      "destination": "/how-it-works/reading-files-and-pdfs",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august10-2026",
-      "destination": "/hermes/mcp/sweeps/sweep-august10-2026/",
+      "destination": "/hermes/mcp/sweeps/sweep-august10-2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/legal-firms",
-      "destination": "/hermes/outputs/case-studies/legal-firms/",
+      "destination": "/hermes/outputs/case-studies/legal-firms",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/printing-press-library-setup",
-      "destination": "/hermes/skills/catalog/printing-press-library-setup/",
+      "destination": "/hermes/skills/catalog/printing-press-library-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/songwriting-and-ai-music-setup",
-      "destination": "/hermes/skills/catalog/songwriting-and-ai-music-setup/",
+      "destination": "/hermes/skills/catalog/songwriting-and-ai-music-setup",
       "statusCode": 301
     },
     {
       "source": "/rate-limits",
-      "destination": "/api/rate-limits/",
+      "destination": "/api/rate-limits",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-power-bi",
-      "destination": "/hermes/compare/corpusiq-vs-power-bi/",
+      "destination": "/hermes/compare/corpusiq-vs-power-bi",
       "statusCode": 301
     },
     {
       "source": "/outputs/by-company-size/startup",
-      "destination": "/hermes/outputs/by-company-size/startup/",
+      "destination": "/hermes/outputs/by-company-size/startup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/deep-agents-memory",
-      "destination": "/hermes/skills/catalog/langgraph/deep-agents-memory/",
+      "destination": "/hermes/skills/catalog/langgraph/deep-agents-memory",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/claude-design-setup",
-      "destination": "/hermes/skills/catalog/claude-design-setup/",
+      "destination": "/hermes/skills/catalog/claude-design-setup",
       "statusCode": 301
     },
     {
       "source": "/blueprints/customer-lifecycle",
-      "destination": "/hermes/blueprints/customer-lifecycle/",
+      "destination": "/hermes/blueprints/customer-lifecycle",
       "statusCode": 301
     },
     {
       "source": "/skills-explained",
-      "destination": "/how-it-works/skills-explained/",
+      "destination": "/how-it-works/skills-explained",
       "statusCode": 301
     },
     {
       "source": "/prompts/creative",
-      "destination": "/hermes/prompts/creative/",
+      "destination": "/hermes/prompts/creative",
       "statusCode": 301
     },
     {
       "source": "/hermes/model-selection",
-      "destination": "/hermes/best-practices/model-selection/",
+      "destination": "/hermes/best-practices/model-selection",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/healthcare",
-      "destination": "/hermes/outputs/case-studies/healthcare/",
+      "destination": "/hermes/outputs/case-studies/healthcare",
       "statusCode": 301
     },
     {
       "source": "/postscript",
-      "destination": "/connectors/postscript/",
+      "destination": "/connectors/postscript",
       "statusCode": 301
     },
     {
       "source": "/hermes/badge",
-      "destination": "/hermes/community/badge/",
+      "destination": "/hermes/community/badge",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/discord-bot",
-      "destination": "/hermes/skills/catalog/communication/discord-bot/",
+      "destination": "/hermes/skills/catalog/communication/discord-bot",
       "statusCode": 301
     },
     {
       "source": "/claude-desktop-config",
-      "destination": "/examples/claude-desktop-config/",
+      "destination": "/examples/claude-desktop-config",
       "statusCode": 301
     },
     {
       "source": "/hermes/hr-agent",
-      "destination": "/hermes/agents/hr-agent/",
+      "destination": "/hermes/agents/hr-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july21-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-july21-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-july21-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-docs",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-docs/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-docs",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-recipe-save-email-attachments",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-recipe-save-email-attachments/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-recipe-save-email-attachments",
       "statusCode": 301
     },
     {
       "source": "/connect-google-ads-to-claude",
-      "destination": "/connectors/connect-google-ads-to-claude/",
+      "destination": "/connectors/connect-google-ads-to-claude",
       "statusCode": 301
     },
     {
       "source": "/hermes/cron-design",
-      "destination": "/hermes/best-practices/cron-design/",
+      "destination": "/hermes/best-practices/cron-design",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july28-2026-afternoon",
-      "destination": "/hermes/mcp/sweeps/sweep-july28-2026-afternoon/",
+      "destination": "/hermes/mcp/sweeps/sweep-july28-2026-afternoon",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/shopify-storefront-graphql",
-      "destination": "/hermes/skills/catalog/shopify/shopify-storefront-graphql/",
+      "destination": "/hermes/skills/catalog/shopify/shopify-storefront-graphql",
       "statusCode": 301
     },
     {
       "source": "/hermes/marketplace",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/development",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july26-2026-cron",
-      "destination": "/hermes/mcp/sweeps/sweep-july26-2026-cron/",
+      "destination": "/hermes/mcp/sweeps/sweep-july26-2026-cron",
       "statusCode": 301
     },
     {
       "source": "/agents",
-      "destination": "/hermes/agents/",
+      "destination": "/hermes/agents",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/templates",
-      "destination": "/hermes/outputs/workflows/templates/",
+      "destination": "/hermes/outputs/workflows/templates",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/hermes-agent-helm-setup",
-      "destination": "/hermes/skills/catalog/hermes-agent-helm-setup/",
+      "destination": "/hermes/skills/catalog/hermes-agent-helm-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/opencode-setup",
-      "destination": "/hermes/skills/catalog/opencode-setup/",
+      "destination": "/hermes/skills/catalog/opencode-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/firestore-security-rules-auditor",
-      "destination": "/hermes/skills/catalog/firebase/firestore-security-rules-auditor/",
+      "destination": "/hermes/skills/catalog/firebase/firestore-security-rules-auditor",
       "statusCode": 301
     },
     {
       "source": "/hermes/browser",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/integrations/slack-github",
-      "destination": "/hermes/integrations/slack-github/",
+      "destination": "/hermes/integrations/slack-github",
       "statusCode": 301
     },
     {
       "source": "/hermes/ai-agent-memory-landscape-aug2026",
-      "destination": "/hermes/guides/ai-agent-memory-landscape-aug2026/",
+      "destination": "/hermes/guides/ai-agent-memory-landscape-aug2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august11-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-august11-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-august11-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/playwright-best-practices",
-      "destination": "/hermes/skills/catalog/infrastructure/playwright-best-practices/",
+      "destination": "/hermes/skills/catalog/infrastructure/playwright-best-practices",
       "statusCode": 301
     },
     {
       "source": "/mailchimp",
-      "destination": "/connectors/mailchimp/",
+      "destination": "/connectors/mailchimp",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-klaviyo",
-      "destination": "/hermes/compare/corpusiq-vs-klaviyo/",
+      "destination": "/hermes/compare/corpusiq-vs-klaviyo",
       "statusCode": 301
     },
     {
       "source": "/hermes/creative",
-      "destination": "/hermes/prompts/creative/",
+      "destination": "/hermes/prompts/creative",
       "statusCode": 301
     },
     {
       "source": "/linkedin-ads",
-      "destination": "/connectors/linkedin-ads/",
+      "destination": "/connectors/linkedin-ads",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-workflow-email-to-task",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-workflow-email-to-task/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-workflow-email-to-task",
       "statusCode": 301
     },
     {
       "source": "/hermes/by-company-size/enterprise",
-      "destination": "/hermes/outputs/by-company-size/enterprise/",
+      "destination": "/hermes/outputs/by-company-size/enterprise",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/scheduled-jobs",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/scripts",
-      "destination": "/hermes/scripts/",
+      "destination": "/hermes/scripts",
       "statusCode": 301
     },
     {
       "source": "/skills",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july22-2026",
-      "destination": "/hermes/mcp/sweeps/sweep-july22-2026/",
+      "destination": "/hermes/mcp/sweeps/sweep-july22-2026",
       "statusCode": 301
     },
     {
       "source": "/chatgpt-business-data-connector",
-      "destination": "/connectors/chatgpt-business-data-connector/",
+      "destination": "/connectors/chatgpt-business-data-connector",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/revenue-operations",
-      "destination": "/hermes/outputs/case-studies/revenue-operations/",
+      "destination": "/hermes/outputs/case-studies/revenue-operations",
       "statusCode": 301
     },
     {
       "source": "/hermes/video",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/what-it-is",
-      "destination": "/chat-apps/what-it-is/",
+      "destination": "/chat-apps/what-it-is",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/research-paper-writing-setup",
-      "destination": "/hermes/skills/catalog/research-paper-writing-setup/",
+      "destination": "/hermes/skills/catalog/research-paper-writing-setup",
       "statusCode": 301
     },
     {
       "source": "/integrations/email-calendar",
-      "destination": "/hermes/integrations/email-calendar/",
+      "destination": "/hermes/integrations/email-calendar",
       "statusCode": 301
     },
     {
       "source": "/hermes/financial-close",
-      "destination": "/hermes/blueprints/financial-close/",
+      "destination": "/hermes/blueprints/financial-close",
       "statusCode": 301
     },
     {
       "source": "/hermes/windows-wsl",
-      "destination": "/hermes/setup/windows-wsl/",
+      "destination": "/hermes/setup/windows-wsl",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/education",
-      "destination": "/hermes/outputs/case-studies/education/",
+      "destination": "/hermes/outputs/case-studies/education",
       "statusCode": 301
     },
     {
       "source": "/TEMPLATE",
-      "destination": "/recipes/TEMPLATE/",
+      "destination": "/recipes/TEMPLATE",
       "statusCode": 301
     },
     {
       "source": "/search-console",
-      "destination": "/connectors/search-console/",
+      "destination": "/connectors/search-console",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/hermes-agent-framework-setup",
-      "destination": "/hermes/skills/catalog/hermes-agent-framework-setup/",
+      "destination": "/hermes/skills/catalog/hermes-agent-framework-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july27-2026-morning",
-      "destination": "/hermes/mcp/sweeps/sweep-july27-2026-morning/",
+      "destination": "/hermes/mcp/sweeps/sweep-july27-2026-morning",
       "statusCode": 301
     },
     {
       "source": "/hermes/code-generation",
-      "destination": "/hermes/prompts/code-generation/",
+      "destination": "/hermes/prompts/code-generation",
       "statusCode": 301
     },
     {
       "source": "/setup/mac-mini-standalone",
-      "destination": "/hermes/setup/mac-mini-standalone/",
+      "destination": "/hermes/setup/mac-mini-standalone",
       "statusCode": 301
     },
     {
       "source": "/seo/consistent-ai-answers",
-      "destination": "/hermes/seo/consistent-ai-answers/",
+      "destination": "/hermes/seo/consistent-ai-answers",
       "statusCode": 301
     },
     {
       "source": "/youtube",
-      "destination": "/connectors/youtube/",
+      "destination": "/connectors/youtube",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/enterprise",
-      "destination": "/hermes/outputs/by-company-size/enterprise/",
+      "destination": "/hermes/outputs/by-company-size/enterprise",
       "statusCode": 301
     },
     {
       "source": "/dropbox",
-      "destination": "/connectors/dropbox/",
+      "destination": "/connectors/dropbox",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/hermes-attestation-guardian-setup",
-      "destination": "/hermes/skills/catalog/hermes-attestation-guardian-setup/",
+      "destination": "/hermes/skills/catalog/hermes-attestation-guardian-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/agent-plugins-corpusiq-opportunity",
-      "destination": "/hermes/guides/agent-plugins-corpusiq-opportunity/",
+      "destination": "/hermes/guides/agent-plugins-corpusiq-opportunity",
       "statusCode": 301
     },
     {
       "source": "/ecosystem",
-      "destination": "/hermes/ecosystem/",
+      "destination": "/hermes/ecosystem",
       "statusCode": 301
     },
     {
       "source": "/hermes/mac-mini-standalone",
-      "destination": "/hermes/setup/mac-mini-standalone/",
+      "destination": "/hermes/setup/mac-mini-standalone",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/playwright-cli",
-      "destination": "/hermes/skills/catalog/infrastructure/playwright-cli/",
+      "destination": "/hermes/skills/catalog/infrastructure/playwright-cli",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august12-2026",
-      "destination": "/hermes/mcp/sweeps/sweep-august12-2026/",
+      "destination": "/hermes/mcp/sweeps/sweep-august12-2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/linkedin-automation",
-      "destination": "/hermes/skills/catalog/communication/linkedin-automation/",
+      "destination": "/hermes/skills/catalog/communication/linkedin-automation",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/ecommerce",
-      "destination": "/hermes/outputs/case-studies/ecommerce/",
+      "destination": "/hermes/outputs/case-studies/ecommerce",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july30-2026-afternoon",
-      "destination": "/hermes/mcp/",
+      "destination": "/hermes/mcp",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/featured-seo-audit",
-      "destination": "/hermes/skills/catalog/",
+      "destination": "/hermes/skills/catalog",
       "statusCode": 301
     },
     {
       "source": "/mcp/directories/submission-guide-2026",
-      "destination": "/hermes/mcp/directories/submission-guide-2026/",
+      "destination": "/hermes/mcp/directories/submission-guide-2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/connect-shopify-to-chatgpt",
-      "destination": "/hermes/seo/connect-shopify-to-chatgpt/",
+      "destination": "/hermes/seo/connect-shopify-to-chatgpt",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/customer-support",
-      "destination": "/hermes/outputs/case-studies/customer-support/",
+      "destination": "/hermes/outputs/case-studies/customer-support",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august12-2026-evening",
-      "destination": "/hermes/mcp/sweeps/sweep-august12-2026-evening/",
+      "destination": "/hermes/mcp/sweeps/sweep-august12-2026-evening",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/healthcare",
-      "destination": "/hermes/outputs/case-studies/healthcare/",
+      "destination": "/hermes/outputs/case-studies/healthcare",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.18.0",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/best-practices/cron-design",
-      "destination": "/hermes/best-practices/cron-design/",
+      "destination": "/hermes/best-practices/cron-design",
       "statusCode": 301
     },
     {
       "source": "/constantcontact",
-      "destination": "/connectors/constantcontact/",
+      "destination": "/connectors/constantcontact",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/langgraph-human-in-the-loop",
-      "destination": "/hermes/skills/catalog/langgraph/langgraph-human-in-the-loop/",
+      "destination": "/hermes/skills/catalog/langgraph/langgraph-human-in-the-loop",
       "statusCode": 301
     },
     {
       "source": "/klaviyo",
-      "destination": "/connectors/klaviyo/",
+      "destination": "/connectors/klaviyo",
       "statusCode": 301
     },
     {
       "source": "/activecampaign",
-      "destination": "/connectors/activecampaign/",
+      "destination": "/connectors/activecampaign",
       "statusCode": 301
     },
     {
       "source": "/hermes/engagement",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/frontend-development",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/ultimate-humanizer-setup",
-      "destination": "/hermes/skills/catalog/ultimate-humanizer-setup/",
+      "destination": "/hermes/skills/catalog/ultimate-humanizer-setup",
       "statusCode": 301
     },
     {
       "source": "/orchestration",
-      "destination": "/hermes/orchestration/",
+      "destination": "/hermes/orchestration",
       "statusCode": 301
     },
     {
       "source": "/quickbooks",
-      "destination": "/connectors/quickbooks/",
+      "destination": "/connectors/quickbooks",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-stripe",
-      "destination": "/hermes/compare/corpusiq-vs-stripe/",
+      "destination": "/hermes/compare/corpusiq-vs-stripe",
       "statusCode": 301
     },
     {
       "source": "/hermes/growth-operations",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hubspot-klaviyo-pipeline",
-      "destination": "/recipes/hubspot-klaviyo-pipeline/",
+      "destination": "/recipes/hubspot-klaviyo-pipeline",
       "statusCode": 301
     },
     {
       "source": "/endpoints",
-      "destination": "/api/endpoints/",
+      "destination": "/api/endpoints",
       "statusCode": 301
     },
     {
       "source": "/odoo",
-      "destination": "/connectors/odoo/",
+      "destination": "/connectors/odoo",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/prisma-cli",
-      "destination": "/hermes/skills/catalog/prisma/prisma-cli/",
+      "destination": "/hermes/skills/catalog/prisma/prisma-cli",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/mid-market",
-      "destination": "/hermes/outputs/by-company-size/mid-market/",
+      "destination": "/hermes/outputs/by-company-size/mid-market",
       "statusCode": 301
     },
     {
       "source": "/hermes/source-of-truth-problem",
-      "destination": "/hermes/architecture/source-of-truth-problem/",
+      "destination": "/hermes/architecture/source-of-truth-problem",
       "statusCode": 301
     },
     {
       "source": "/best-practices/mcp-design",
-      "destination": "/hermes/best-practices/mcp-design/",
+      "destination": "/hermes/best-practices/mcp-design",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/revenue-operations",
-      "destination": "/hermes/outputs/case-studies/revenue-operations/",
+      "destination": "/hermes/outputs/case-studies/revenue-operations",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/stripe-best-practices",
-      "destination": "/hermes/skills/catalog/stripe/stripe-best-practices/",
+      "destination": "/hermes/skills/catalog/stripe/stripe-best-practices",
       "statusCode": 301
     },
     {
       "source": "/guides/ai-agent-memory-landscape-aug2026",
-      "destination": "/hermes/guides/ai-agent-memory-landscape-aug2026/",
+      "destination": "/hermes/guides/ai-agent-memory-landscape-aug2026",
       "statusCode": 301
     },
     {
       "source": "/agents/executive-agent",
-      "destination": "/hermes/agents/executive-agent/",
+      "destination": "/hermes/agents/executive-agent",
       "statusCode": 301
     },
     {
       "source": "/01-create-account",
-      "destination": "/quickstart/01-create-account/",
+      "destination": "/quickstart/01-create-account",
       "statusCode": 301
     },
     {
       "source": "/hermes/monitoring",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/skills/marketplace",
-      "destination": "/hermes/skills/marketplace/",
+      "destination": "/hermes/skills/marketplace",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/stripe-projects",
-      "destination": "/hermes/skills/catalog/stripe/stripe-projects/",
+      "destination": "/hermes/skills/catalog/stripe/stripe-projects",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/legal-firms",
-      "destination": "/hermes/outputs/case-studies/legal-firms/",
+      "destination": "/hermes/outputs/case-studies/legal-firms",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-tableau",
-      "destination": "/hermes/compare/corpusiq-vs-tableau/",
+      "destination": "/hermes/compare/corpusiq-vs-tableau",
       "statusCode": 301
     },
     {
       "source": "/tiktok",
-      "destination": "/connectors/tiktok/",
+      "destination": "/connectors/tiktok",
       "statusCode": 301
     },
     {
       "source": "/adzviser-alternative",
-      "destination": "/connectors/adzviser-alternative/",
+      "destination": "/connectors/adzviser-alternative",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/government",
-      "destination": "/hermes/outputs/case-studies/government/",
+      "destination": "/hermes/outputs/case-studies/government",
       "statusCode": 301
     },
     {
       "source": "/hermes/outputs/financial-services",
-      "destination": "/hermes/outputs/case-studies/financial-services/",
+      "destination": "/hermes/outputs/case-studies/financial-services",
       "statusCode": 301
     },
     {
       "source": "/hermes/routing",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/consistent-ai-answers",
-      "destination": "/hermes/seo/consistent-ai-answers/",
+      "destination": "/hermes/seo/consistent-ai-answers",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/claude-code-skills-setup",
-      "destination": "/hermes/skills/catalog/claude-code-skills-setup/",
+      "destination": "/hermes/skills/catalog/claude-code-skills-setup",
       "statusCode": 301
     },
     {
       "source": "/03-connect-chatgpt",
-      "destination": "/quickstart/03-connect-chatgpt/",
+      "destination": "/quickstart/03-connect-chatgpt",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august13-2026-midday",
-      "destination": "/hermes/mcp/sweeps/sweep-august13-2026-midday/",
+      "destination": "/hermes/mcp/sweeps/sweep-august13-2026-midday",
       "statusCode": 301
     },
     {
       "source": "/shopify-quickbooks-reconciliation",
-      "destination": "/recipes/shopify-quickbooks-reconciliation/",
+      "destination": "/recipes/shopify-quickbooks-reconciliation",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/langgraph-persistence",
-      "destination": "/hermes/skills/catalog/langgraph/langgraph-persistence/",
+      "destination": "/hermes/skills/catalog/langgraph/langgraph-persistence",
       "statusCode": 301
     },
     {
       "source": "/02-connect-claude",
-      "destination": "/quickstart/02-connect-claude/",
+      "destination": "/quickstart/02-connect-claude",
       "statusCode": 301
     },
     {
       "source": "/hermes/servers",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/agents/marketing-agent",
-      "destination": "/hermes/agents/marketing-agent/",
+      "destination": "/hermes/agents/marketing-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/growth-operations/SKILL",
-      "destination": "/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL/",
+      "destination": "/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL",
       "statusCode": 301
     },
     {
       "source": "/meta-ads-shopify-roas",
-      "destination": "/recipes/meta-ads-shopify-roas/",
+      "destination": "/recipes/meta-ads-shopify-roas",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/text-to-speech",
-      "destination": "/hermes/skills/catalog/elevenlabs/text-to-speech/",
+      "destination": "/hermes/skills/catalog/elevenlabs/text-to-speech",
       "statusCode": 301
     },
     {
       "source": "/hermes/docker",
-      "destination": "/hermes/setup/docker/",
+      "destination": "/hermes/setup/docker",
       "statusCode": 301
     },
     {
       "source": "/prompts/data-analysis",
-      "destination": "/hermes/prompts/data-analysis/",
+      "destination": "/hermes/prompts/data-analysis",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-hubspot",
-      "destination": "/hermes/compare/corpusiq-vs-hubspot/",
+      "destination": "/hermes/compare/corpusiq-vs-hubspot",
       "statusCode": 301
     },
     {
       "source": "/marketing-roas",
-      "destination": "/hermes/prompts/marketing-roas/",
+      "destination": "/hermes/prompts/marketing-roas",
       "statusCode": 301
     },
     {
       "source": "/guides",
-      "destination": "/hermes/guides/",
+      "destination": "/hermes/guides",
       "statusCode": 301
     },
     {
       "source": "/hermes/hermes-improvement-pipeline-aug2026",
-      "destination": "/hermes/guides/hermes-improvement-pipeline-aug2026/",
+      "destination": "/hermes/guides/hermes-improvement-pipeline-aug2026",
       "statusCode": 301
     },
     {
       "source": "/hermes/auth",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-n8n",
-      "destination": "/hermes/compare/corpusiq-vs-n8n/",
+      "destination": "/hermes/compare/corpusiq-vs-n8n",
       "statusCode": 301
     },
     {
       "source": "/cross-source-roas-analysis",
-      "destination": "/examples/cross-source-roas-analysis/",
+      "destination": "/examples/cross-source-roas-analysis",
       "statusCode": 301
     },
     {
       "source": "/agents/finance-agent",
-      "destination": "/hermes/agents/finance-agent/",
+      "destination": "/hermes/agents/finance-agent",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/devops-engineer",
-      "destination": "/hermes/skills/catalog/infrastructure/devops-engineer/",
+      "destination": "/hermes/skills/catalog/infrastructure/devops-engineer",
       "statusCode": 301
     },
     {
       "source": "/hermes/creating-skills",
-      "destination": "/hermes/skills/creating-skills/",
+      "destination": "/hermes/skills/creating-skills",
       "statusCode": 301
     },
     {
       "source": "/multi-source",
-      "destination": "/hermes/prompts/multi-source/",
+      "destination": "/hermes/prompts/multi-source",
       "statusCode": 301
     },
     {
       "source": "/asking-questions",
-      "destination": "/chat-apps/asking-questions/",
+      "destination": "/chat-apps/asking-questions",
       "statusCode": 301
     },
     {
       "source": "/ai-agent-marketplace",
-      "destination": "/hermes/ai-agent-marketplace/",
+      "destination": "/hermes/ai-agent-marketplace",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/new-july28-2026",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/rate-limits-and-quotas",
-      "destination": "/how-it-works/rate-limits-and-quotas/",
+      "destination": "/how-it-works/rate-limits-and-quotas",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/government",
-      "destination": "/hermes/outputs/case-studies/government/",
+      "destination": "/hermes/outputs/case-studies/government",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july31-2026-early",
-      "destination": "/hermes/mcp/sweeps/sweep-july31-2026-early/",
+      "destination": "/hermes/mcp/sweeps/sweep-july31-2026-early",
       "statusCode": 301
     },
     {
       "source": "/hermes/v0.16.0",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/marketing-agent",
-      "destination": "/hermes/agents/marketing-agent/",
+      "destination": "/hermes/agents/marketing-agent",
       "statusCode": 301
     },
     {
       "source": "/mongodb",
-      "destination": "/connectors/mongodb/",
+      "destination": "/connectors/mongodb",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/imessage-setup",
-      "destination": "/hermes/skills/catalog/imessage-setup/",
+      "destination": "/hermes/skills/catalog/imessage-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/gws-gmail",
-      "destination": "/hermes/skills/catalog/google-workspace/gws-gmail/",
+      "destination": "/hermes/skills/catalog/google-workspace/gws-gmail",
       "statusCode": 301
     },
     {
       "source": "/outputs/workflows/templates",
-      "destination": "/hermes/outputs/workflows/templates/",
+      "destination": "/hermes/outputs/workflows/templates",
       "statusCode": 301
     },
     {
       "source": "/mssql",
-      "destination": "/connectors/mssql/",
+      "destination": "/connectors/mssql",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies/healthcare",
-      "destination": "/hermes/outputs/case-studies/healthcare/",
+      "destination": "/hermes/outputs/case-studies/healthcare",
       "statusCode": 301
     },
     {
       "source": "/hermes/ai-data-consistency",
-      "destination": "/hermes/seo/ai-data-consistency/",
+      "destination": "/hermes/seo/ai-data-consistency",
       "statusCode": 301
     },
     {
       "source": "/hermes/corpusiq-vs-viktor",
-      "destination": "/hermes/compare/corpusiq-vs-viktor/",
+      "destination": "/hermes/compare/corpusiq-vs-viktor",
       "statusCode": 301
     },
     {
       "source": "/mcp",
-      "destination": "/hermes/mcp/",
+      "destination": "/hermes/mcp",
       "statusCode": 301
     },
     {
       "source": "/hermes/slack-github",
-      "destination": "/hermes/integrations/slack-github/",
+      "destination": "/hermes/integrations/slack-github",
       "statusCode": 301
     },
     {
       "source": "/monthly-close",
-      "destination": "/recipes/monthly-close/",
+      "destination": "/recipes/monthly-close",
       "statusCode": 301
     },
     {
       "source": "/hermes/harness-beats-model",
-      "destination": "/hermes/architecture/harness-beats-model/",
+      "destination": "/hermes/architecture/harness-beats-model",
       "statusCode": 301
     },
     {
       "source": "/hermes/email-calendar",
-      "destination": "/hermes/integrations/email-calendar/",
+      "destination": "/hermes/integrations/email-calendar",
       "statusCode": 301
     },
     {
       "source": "/errors",
-      "destination": "/api/errors/",
+      "destination": "/api/errors",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/llm-wiki-setup",
-      "destination": "/hermes/skills/catalog/llm-wiki-setup/",
+      "destination": "/hermes/skills/catalog/llm-wiki-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-july29-2026-afternoon",
-      "destination": "/hermes/mcp/sweeps/sweep-july29-2026-afternoon/",
+      "destination": "/hermes/mcp/sweeps/sweep-july29-2026-afternoon",
       "statusCode": 301
     },
     {
       "source": "/hermes/executive-agent",
-      "destination": "/hermes/agents/executive-agent/",
+      "destination": "/hermes/agents/executive-agent",
       "statusCode": 301
     },
     {
       "source": "/skills/catalog",
-      "destination": "/hermes/skills/catalog/",
+      "destination": "/hermes/skills/catalog",
       "statusCode": 301
     },
     {
       "source": "/hermes/case-studies",
-      "destination": "/hermes/",
+      "destination": "/hermes",
       "statusCode": 301
     },
     {
       "source": "/hermes/mcp/sweep-august13-2026-morning",
-      "destination": "/hermes/mcp/sweeps/sweep-august13-2026-morning/",
+      "destination": "/hermes/mcp/sweeps/sweep-august13-2026-morning",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/arxiv-setup",
-      "destination": "/hermes/skills/catalog/arxiv-setup/",
+      "destination": "/hermes/skills/catalog/arxiv-setup",
       "statusCode": 301
     },
     {
       "source": "/hermes/connectors",
-      "destination": "/connectors/",
+      "destination": "/connectors",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/api-development",
-      "destination": "/hermes/skills/",
+      "destination": "/hermes/skills",
       "statusCode": 301
     },
     {
       "source": "/hermes/skills/catalog/upgrade-stripe",
-      "destination": "/hermes/skills/catalog/stripe/upgrade-stripe/",
+      "destination": "/hermes/skills/catalog/stripe/upgrade-stripe",
       "statusCode": 301
     },
     {
       "source": "/monday",
-      "destination": "/connectors/monday/",
+      "destination": "/connectors/monday",
       "statusCode": 301
     },
     {
       "source": "/posthog",
-      "destination": "/connectors/posthog/",
+      "destination": "/connectors/posthog",
       "statusCode": 301
     },
     {
       "source": "/postgres",
-      "destination": "/connectors/postgres/",
+      "destination": "/connectors/postgres",
       "statusCode": 301
     },
     {
       "source": "/integrations/crm-analytics",
-      "destination": "/hermes/integrations/crm-analytics/",
+      "destination": "/hermes/integrations/crm-analytics",
       "statusCode": 301
     },
     {
       "source": "/claude-cant-see-corpusiq",
-      "destination": "/troubleshooting/claude-cant-see-corpusiq/",
+      "destination": "/troubleshooting/claude-cant-see-corpusiq",
       "statusCode": 301
     },
     {
       "source": "/mcp/servers",
-      "destination": "/hermes/mcp/servers/",
+      "destination": "/hermes/mcp/servers",
       "statusCode": 301
     },
     {
       "source": "/connect-ga4-to-claude",
-      "destination": "/connectors/connect-ga4-to-claude/",
+      "destination": "/connectors/connect-ga4-to-claude",
       "statusCode": 301
     },
     {
       "source": "/outputs/case-studies/legal-firms",
-      "destination": "/hermes/outputs/case-studies/legal-firms/",
+      "destination": "/hermes/outputs/case-studies/legal-firms",
       "statusCode": 301
     },
     {
       "source": "/mcp-starter",
-      "destination": "/examples/mcp-starter/",
+      "destination": "/examples/mcp-starter",
       "statusCode": 301
     },
     {
       "source": "/hermes/servers/external",
-      "destination": "/hermes/mcp/servers/external/",
+      "destination": "/hermes/mcp/servers/external",
       "statusCode": 301
     },
     {
@@ -3019,187 +3019,187 @@
     },
     {
       "source": "/docs/04-first-connector",
-      "destination": "/docs/quickstart/04-first-connector/",
+      "destination": "/docs/quickstart/04-first-connector",
       "statusCode": 301
     },
     {
       "source": "/docs/05-first-prompt",
-      "destination": "/docs/quickstart/05-first-prompt/",
+      "destination": "/docs/quickstart/05-first-prompt",
       "statusCode": 301
     },
     {
       "source": "/docs/06-first-cross-source-query",
-      "destination": "/docs/quickstart/06-first-cross-source-query/",
+      "destination": "/docs/quickstart/06-first-cross-source-query",
       "statusCode": 301
     },
     {
       "source": "/docs/ahrefs",
-      "destination": "/docs/connectors/ahrefs/",
+      "destination": "/docs/connectors/ahrefs",
       "statusCode": 301
     },
     {
       "source": "/docs/ai-mcp-server-for-business-data",
-      "destination": "/docs/connectors/ai-mcp-server-for-business-data/",
+      "destination": "/docs/connectors/ai-mcp-server-for-business-data",
       "statusCode": 301
     },
     {
       "source": "/docs/airtable",
-      "destination": "/docs/connectors/airtable/",
+      "destination": "/docs/connectors/airtable",
       "statusCode": 301
     },
     {
       "source": "/docs/amazon_seller",
-      "destination": "/docs/connectors/amazon_seller/",
+      "destination": "/docs/connectors/amazon_seller",
       "statusCode": 301
     },
     {
       "source": "/docs/authentication",
-      "destination": "/docs/api/authentication/",
+      "destination": "/docs/api/authentication",
       "statusCode": 301
     },
     {
       "source": "/docs/calendly",
-      "destination": "/docs/connectors/calendly/",
+      "destination": "/docs/connectors/calendly",
       "statusCode": 301
     },
     {
       "source": "/docs/chatgpt-business-data-connector",
-      "destination": "/docs/connectors/chatgpt-business-data-connector/",
+      "destination": "/docs/connectors/chatgpt-business-data-connector",
       "statusCode": 301
     },
     {
       "source": "/docs/close",
-      "destination": "/docs/connectors/close/",
+      "destination": "/docs/connectors/close",
       "statusCode": 301
     },
     {
       "source": "/docs/connect-airtable-to-claude",
-      "destination": "/docs/connectors/connect-airtable-to-claude/",
+      "destination": "/docs/connectors/connect-airtable-to-claude",
       "statusCode": 301
     },
     {
       "source": "/docs/connect-google-ads-to-claude",
-      "destination": "/docs/connectors/connect-google-ads-to-claude/",
+      "destination": "/docs/connectors/connect-google-ads-to-claude",
       "statusCode": 301
     },
     {
       "source": "/docs/connect-klaviyo-to-chatgpt",
-      "destination": "/docs/connectors/connect-klaviyo-to-chatgpt/",
+      "destination": "/docs/connectors/connect-klaviyo-to-chatgpt",
       "statusCode": 301
     },
     {
       "source": "/docs/connect-klaviyo-to-claude",
-      "destination": "/docs/connectors/connect-klaviyo-to-claude/",
+      "destination": "/docs/connectors/connect-klaviyo-to-claude",
       "statusCode": 301
     },
     {
       "source": "/docs/connect-linkedin-ads-to-claude",
-      "destination": "/docs/connectors/connect-linkedin-ads-to-claude/",
+      "destination": "/docs/connectors/connect-linkedin-ads-to-claude",
       "statusCode": 301
     },
     {
       "source": "/docs/connect-meta-ads-to-claude",
-      "destination": "/docs/connectors/connect-meta-ads-to-claude/",
+      "destination": "/docs/connectors/connect-meta-ads-to-claude",
       "statusCode": 301
     },
     {
       "source": "/docs/cosmosdb",
-      "destination": "/docs/connectors/cosmosdb/",
+      "destination": "/docs/connectors/cosmosdb",
       "statusCode": 301
     },
     {
       "source": "/docs/ebay",
-      "destination": "/docs/connectors/ebay/",
+      "destination": "/docs/connectors/ebay",
       "statusCode": 301
     },
     {
       "source": "/docs/gohighlevel",
-      "destination": "/docs/connectors/gohighlevel/",
+      "destination": "/docs/connectors/gohighlevel",
       "statusCode": 301
     },
     {
       "source": "/docs/gunbroker",
-      "destination": "/docs/connectors/gunbroker/",
+      "destination": "/docs/connectors/gunbroker",
       "statusCode": 301
     },
     {
       "source": "/docs/imap",
-      "destination": "/docs/connectors/imap/",
+      "destination": "/docs/connectors/imap",
       "statusCode": 301
     },
     {
       "source": "/docs/linkedin-ads",
-      "destination": "/docs/connectors/linkedin-ads/",
+      "destination": "/docs/connectors/linkedin-ads",
       "statusCode": 301
     },
     {
       "source": "/docs/mailchimp",
-      "destination": "/docs/connectors/mailchimp/",
+      "destination": "/docs/connectors/mailchimp",
       "statusCode": 301
     },
     {
       "source": "/docs/mcp-server-shopify-quickbooks",
-      "destination": "/docs/connectors/mcp-server-shopify-quickbooks/",
+      "destination": "/docs/connectors/mcp-server-shopify-quickbooks",
       "statusCode": 301
     },
     {
       "source": "/docs/notion",
-      "destination": "/docs/connectors/notion/",
+      "destination": "/docs/connectors/notion",
       "statusCode": 301
     },
     {
       "source": "/docs/onedrive",
-      "destination": "/docs/connectors/onedrive/",
+      "destination": "/docs/connectors/onedrive",
       "statusCode": 301
     },
     {
       "source": "/docs/openapi",
-      "destination": "/docs/api/openapi/",
+      "destination": "/docs/api/openapi",
       "statusCode": 301
     },
     {
       "source": "/docs/overview",
-      "destination": "/docs/api/overview/",
+      "destination": "/docs/api/overview",
       "statusCode": 301
     },
     {
       "source": "/docs/perplexity-business-data-mcp",
-      "destination": "/docs/connectors/perplexity-business-data-mcp/",
+      "destination": "/docs/connectors/perplexity-business-data-mcp",
       "statusCode": 301
     },
     {
       "source": "/docs/postscript",
-      "destination": "/docs/connectors/postscript/",
+      "destination": "/docs/connectors/postscript",
       "statusCode": 301
     },
     {
       "source": "/docs/rate-limits",
-      "destination": "/docs/api/rate-limits/",
+      "destination": "/docs/api/rate-limits",
       "statusCode": 301
     },
     {
       "source": "/docs/schemas",
-      "destination": "/docs/api/schemas/",
+      "destination": "/docs/api/schemas",
       "statusCode": 301
     },
     {
       "source": "/docs/semrush",
-      "destination": "/docs/connectors/semrush/",
+      "destination": "/docs/connectors/semrush",
       "statusCode": 301
     },
     {
       "source": "/docs/TEMPLATE",
-      "destination": "/docs/recipes/TEMPLATE/",
+      "destination": "/docs/recipes/TEMPLATE",
       "statusCode": 301
     },
     {
       "source": "/docs/webhooks",
-      "destination": "/docs/api/webhooks/",
+      "destination": "/docs/api/webhooks",
       "statusCode": 301
     },
     {
       "source": "/docs/windsor-ai-alternative",
-      "destination": "/docs/connectors/windsor-ai-alternative/",
+      "destination": "/docs/connectors/windsor-ai-alternative",
       "statusCode": 301
     }
   ],
