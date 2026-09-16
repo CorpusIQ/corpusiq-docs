@@ -62099,5 +62099,358 @@
     ],
     "discovered_at": "2026-09-15T08:07:06.369578+00:00",
     "status": "pending"
+  },
+  {
+    "name": "guenter/hermes-webui",
+    "url": "https://github.com/guenter/hermes-webui",
+    "description": "A consumer-friendly, responsive browser interface for Hermes Agent profiles and conversations.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-16T06:00:32Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "nesquena/hermes-webui",
+      "sanchomuzax/hermes-webui"
+    ],
+    "discovered_at": "2026-09-16T06:02:22.487764+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "HermeTeam/hermes-sdlc-agents",
+    "url": "https://github.com/HermeTeam/hermes-sdlc-agents",
+    "description": "HermeTeam - Safe Builder is a bounded builder role inside your GitHub organisation. It picks up an issue, produces a focused change on an agent/* branch, lets CI run and opens a pull request for a human to merge.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "ai-coding",
+      "ai-developer-tools",
+      "ai-development",
+      "ai-development-tools",
+      "ai-tools",
+      "hermes-agent"
+    ],
+    "updated_at": "2026-09-16T05:59:43Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334"
+    ],
+    "discovered_at": "2026-09-16T06:02:25.492112+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gabrielbssantos/pluggy-finance-mcp",
+    "url": "https://github.com/gabrielbssantos/pluggy-finance-mcp",
+    "description": "MCP independente para consultas financeiras pessoais via Pluggy, somente leitura e focado no Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-16T01:54:44Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T06:02:29.270622+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hermes-labs-ai/hermes-prime",
+    "url": "https://github.com/hermes-labs-ai/hermes-prime",
+    "description": "Drift-prevention session-init convention card for fresh Claude Code sessions. Injects a self-contained card so a new session opens with its grounding triggers, calibration rules, and tool-map in scope \u2014 instead of re-deriving them at minute 30. Per-project, marker-anchored, idempotent, reversible. Bash installer plus MCP server.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "agent-orchestration",
+      "agent-scaffold",
+      "ai-agents",
+      "ai-reliability",
+      "ai-safety",
+      "bash",
+      "claude-code",
+      "claude-md",
+      "context-engineering",
+      "developer-tools",
+      "drift-prevention",
+      "hermes-labs",
+      "language-as-state",
+      "llm",
+      "llm-tooling",
+      "lpci",
+      "mcp",
+      "prompt-engineering",
+      "session-bootstrap",
+      "session-init"
+    ],
+    "updated_at": "2026-09-16T00:45:14Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "KSroido/Kagi-Session2API-MCP",
+      "itechmeat/open-second-brain",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-09-16T06:02:32.275172+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "L1veSong/Smart-Skill-Router-Plugin",
+    "url": "https://github.com/L1veSong/Smart-Skill-Router-Plugin",
+    "description": "\u667a\u914d\u8def\u7531 (Smart Skill Router) \u662f Hermes Agent \u7684\u63d2\u4ef6\uff0c\u5728\u6bcf\u6b21 LLM \u63a8\u7406\u524d\u81ea\u52a8\u5206\u6790\u7528\u6237\u610f\u56fe\uff0c\u63a8\u8350\u6700\u5408\u9002\u7684 skill",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-16T01:53:55Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T06:02:35.932882+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NeritonDias/hermes-ryzeapi",
+    "url": "https://github.com/NeritonDias/hermes-ryzeapi",
+    "description": "Plugin comunit\u00e1rio RyzeAPI para Hermes Agent: WhatsApp, painel web, firewall e duas skills integradas. Autor Neriton Dias.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "hermes-plugin",
+      "ryzeapi",
+      "skills",
+      "whatsapp"
+    ],
+    "updated_at": "2026-09-16T01:32:01Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T06:02:38.935998+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Voyage-He/gtd-skill",
+    "url": "https://github.com/Voyage-He/gtd-skill",
+    "description": "GTD plugin for Hermes Agent",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T22:56:52Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T06:02:41.940056+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bugrasergun/agnes-video-hermes-plugin",
+    "url": "https://github.com/bugrasergun/agnes-video-hermes-plugin",
+    "description": "Ready-to-install Agnes Video 2.5 Flash plugins and skills for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T16:30:49Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Guoen0/xiaoduiyou-public"
+    ],
+    "discovered_at": "2026-09-16T06:02:44.945248+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "praxstack/colbymchenry-codegraph",
+    "url": "https://github.com/praxstack/colbymchenry-codegraph",
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
+    "stars": 0,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "updated_at": "2026-09-16T06:01:14Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "NousResearch/hermes-agent-self-evolution",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "longyunfeigu/learn-hermes-agent",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap",
+      "aivrar/portable-hermes-agent",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "VasiHemanth/tokentelemetry",
+      "vivekchand/clawmetry"
+    ],
+    "discovered_at": "2026-09-16T06:02:48.550619+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "PabloJustDevelops/hermes-skills-windows",
+    "url": "https://github.com/PabloJustDevelops/hermes-skills-windows",
+    "description": "Windows ports of three Hermes Agent optional skills (searxng-search, web-pentest, research-paper-writing) plus a private local SearXNG setup with the JSON API enabled",
+    "stars": 0,
+    "forks": 0,
+    "language": "TeX",
+    "topics": [
+      "hermes-agent",
+      "latex",
+      "pentest",
+      "python",
+      "searxng",
+      "skills",
+      "windows"
+    ],
+    "updated_at": "2026-09-15T22:26:35Z",
+    "category": "research",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-09-16T06:02:55.526279+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pensebastian072/fx_hermes_trader",
+    "url": "https://github.com/pensebastian072/fx_hermes_trader",
+    "description": "Paper-trading FX research platform with real market data, model evaluation, calendar controls, and an advisory LLM supervisor.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T16:28:49Z",
+    "category": "research",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T06:02:58.529366+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Masashi-Ono0611/gbrain",
+    "url": "https://github.com/Masashi-Ono0611/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-16T06:02:58Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-09-16T06:03:33.553671+00:00",
+    "status": "pending"
   }
 ]

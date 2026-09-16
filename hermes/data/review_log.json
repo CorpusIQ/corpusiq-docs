@@ -14991,5 +14991,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-15T08:07:19.450482+00:00"
+  },
+  {
+    "repo": "guenter/hermes-webui",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607014+00:00"
+  },
+  {
+    "repo": "HermeTeam/hermes-sdlc-agents",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607039+00:00"
+  },
+  {
+    "repo": "gabrielbssantos/pluggy-finance-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607042+00:00"
+  },
+  {
+    "repo": "hermes-labs-ai/hermes-prime",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607044+00:00"
+  },
+  {
+    "repo": "L1veSong/Smart-Skill-Router-Plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607047+00:00"
+  },
+  {
+    "repo": "NeritonDias/hermes-ryzeapi",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607049+00:00"
+  },
+  {
+    "repo": "Voyage-He/gtd-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607052+00:00"
+  },
+  {
+    "repo": "bugrasergun/agnes-video-hermes-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607054+00:00"
+  },
+  {
+    "repo": "praxstack/colbymchenry-codegraph",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607057+00:00"
+  },
+  {
+    "repo": "PabloJustDevelops/hermes-skills-windows",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607059+00:00"
+  },
+  {
+    "repo": "pensebastian072/fx_hermes_trader",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:03.607062+00:00"
+  },
+  {
+    "repo": "Masashi-Ono0611/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-16T06:03:42.244197+00:00"
   }
 ]
