@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-15"
+last_updated: "2026-09-17"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -14,11 +14,14 @@ Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ ser
 
 > **Last updated:** September 15, 2026 (midday supplement) · **Sources:** mcp.so feed (27 server blocks, direct fetch) + chatmcp/mcpso issues #4154-#4157 + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 689 servers (+575 guides)
 
-## 🆕 September 15, 2026 - Midday Supplement (1 New, 1 Guide)
+## 🆕 September 15, 2026 - Midday Supplement (4 New, 4 Guides)
 
-Midday supplement over the mcp.so feed (27 server blocks, direct fetch with a browser UA), chatmcp/mcpso issues #4154-#4157 (the fresh window past the midday cutoff at #4153) and an mcpservers.org /all page-1 re-check via the r.jina.ai reader proxy. One new business-relevant server catalogued with a guide: ContHunt MCP (viral short-form content research for agents - multi-platform search across TikTok, YouTube Shorts, Instagram Reels and LinkedIn, a deep research agent that scores hooks and pacing, Niche Hunter topic discovery and velocity metrics; endpoint 401-verified, OAuth).
+Midday supplement over the mcp.so feed (27 server blocks, direct fetch with a browser UA), chatmcp/mcpso issues #4154-#4157 (the fresh window past the midday cutoff at #4153) and an mcpservers.org /all page-1 re-check via the r.jina.ai reader proxy. Four new business-relevant servers catalogued with guides:
 
 - [ContHunt MCP - Viral Short-Form Content Research for AI Agents](/hermes/mcp/servers/external/conthunt-mcp/) · endpoint 401-verified, capability surface from vendor docs, mcp.so submission pending.
+- [DashaMail MCP - Email Marketing for AI Agents](/hermes/mcp/servers/external/dashamail-mcp/) · OAuth 2.0 with PKCE, campaign and flow management, 401-verified live.
+- [Pigi Finance - DeFi Vault Intelligence MCP](/hermes/mcp/servers/external/pigi-finance-mcp/) · 2,000+ vaults across 25+ EVM chains, OAuth 2.0 with wallet auth, 401-verified live.
+- [ArtiBot Cloud MCP - Zhijiangyun 智匠云](/hermes/mcp/servers/external/artibot-cloud-mcp/) · 15 tools for robot fleet management and GPU workloads, OAuth 2.0, 401-verified live.
 
 **Also identified (not catalogued):** Phoenix Zero #4154 (pre-flight L2 chain health oracle - crypto infra class), HostDeFi #4155 (multi-chain DEX token-safety scanner - crypto class), benchmark fixture #4157 (timesheet-audit-2026-09-15-301c061b - benchmark infra class), and the /all page-1 plus feed repeat set already catalogued or previously disposed (Zenith, StoryStudio, Glasser, CoDesign, AIsa, qrp-mcp, Aard, WhatsMCP, Vivu, Nebelus, Gambot, Fax.Plus, vokse, Soprano Connect, Visual Sandbox, PIL, Statiko, Radicado Uno, eSIMfly, Statable, Day Off, AfterLaunch, NinjaChat, Sensefold, B2B Creators, UX Jobs, Fee Optimizer, Helio, geolint, Serp Sidekick, CherryShot, Foliyo, Convert.Online, RankJot, MiniMax H3, Microburbs, Mailbox MCP, Liner, Nano Studio Pro, PostOnce, AntiBrow, BenchBoss, MIDIRestyle, Firedraw, okmq, FCoP, Access Log Forensics, Ramus, Niu Lai, Almirall, Immersive Commons, Skills Anywhere, Lathe, Speedbot, ProxyCove, Kairos Signal and the Sep 14/15 disposed sets).
 
