@@ -11,7 +11,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **183+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **184+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **183+ repos indexed.**
 
@@ -20,7 +20,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **183+ reposit
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 12 | Core Hermes Agent repos, official builds |
+|| 🧠 Core Framework | 13 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -50,7 +50,13 @@ _Video, social media, content generation_
 
 ## 🧠 Core Framework
 
-_Core Hermes Agent repos, official builds_
+_13 repos_
+
+### [cogwheel0/conduit](https://github.com/cogwheel0/conduit) ⭐ 2135
+
+>Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.
+
+**Language:** Dart | **Topics:** ai-agents, ai-assistant, android, chat, chatbot, cross-platform, dart, flutter, ios, llm, llm-client, mobile-app, ollama, open-webui, openai, openrouter, openwebui, privacy, self-hosted, selfhosted | **Score:** 85/100
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
 
@@ -73,6 +79,12 @@ _Core Hermes Agent repos, official builds_
 >🗺️ Hermes Atlas - the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com
 
 **Language:** HTML | **Topics:** ai-agents, ecosystem-map, hermes-agent, hermes-atlas, nous-research | **Score:** 85/100
+
+### [cogwheel0/conduit](https://github.com/cogwheel0/conduit) ⭐ 2135
+
+>Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.
+
+**Language:** Dart | **Topics:** ai-agents, ai-assistant, android, chat, chatbot, cross-platform, dart, flutter, ios, llm, llm-client, mobile-app, ollama, open-webui, openai, openrouter, openwebui, privacy, self-hosted, selfhosted | **Score:** 85/100
 
 ---
 
