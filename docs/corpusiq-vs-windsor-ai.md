@@ -42,7 +42,7 @@ Take one question: what is our true profit after ad spend, fees, returns, and co
 ## Which should you choose?
 
 - Choose Windsor.ai if every question you have is a marketing question.
-- Choose CorpusIQ if your questions cross departments, or if you want one connection that covers the whole stack, with read-only access and no data stored.
+- Choose CorpusIQ if your questions cross departments, or if you want one connection that covers the whole stack, with read-only live retrieval that does not retain raw customer files or full connector response payloads.
 
 [Try CorpusIQ free - 30-day trial, no credit card](https://www.corpusiq.io)
 
