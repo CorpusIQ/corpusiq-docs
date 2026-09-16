@@ -6061,5 +6061,55 @@
     "discovered_at": "2026-09-15T05:01:54.798844+00:00",
     "status": "approved",
     "approved_at": "2026-09-15T05:02:33.127151+00:00"
+  },
+  {
+    "name": "Zyrexnn/Cybermes",
+    "url": "https://github.com/Zyrexnn/Cybermes",
+    "description": "Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.",
+    "stars": 833,
+    "forks": 142,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "appsec",
+      "bug-bounty",
+      "cvss-v3",
+      "cybersecurity",
+      "devsecops",
+      "exploit-validation",
+      "hermes-agent",
+      "infosec",
+      "llm-security",
+      "nuclei",
+      "offensive-security",
+      "penetration-testing",
+      "playwright",
+      "reconnaissance",
+      "red-teaming",
+      "security-tools",
+      "sqlmap",
+      "threat-research",
+      "vulnerability-scanner"
+    ],
+    "updated_at": "2026-09-16T08:02:52Z",
+    "category": "core",
+    "score": 80,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "hugocarreira/agentrc",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "VasiHemanth/tokentelemetry"
+    ],
+    "discovered_at": "2026-09-16T08:03:33.907441+00:00",
+    "status": "approved",
+    "approved_at": "2026-09-16T08:04:01.327258+00:00"
   }
 ]

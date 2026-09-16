@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 183+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 186+ repos, tools, skills, and integrations
 last_updated: 2026-09-16
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,16 +11,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **182+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 182 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **186+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 183 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **182+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **186+ repos indexed.**
 
 ## 📊 Category Overview
 
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-|| 🧠 Core Framework | 13 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 12 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -30,9 +30,9 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **182+ reposit
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
-| 🛡️ Security & Governance | 3 | Security tools, compliance, audit |
+| 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 40 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 37 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 38 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -50,13 +50,7 @@ _Video, social media, content generation_
 
 ## 🧠 Core Framework
 
-_13 repos_
-
-### [cogwheel0/conduit](https://github.com/cogwheel0/conduit) ⭐ 2135
-
->Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.
-
-**Language:** Dart | **Topics:** ai-agents, ai-assistant, android, chat, chatbot, cross-platform, dart, flutter, ios, llm, llm-client, mobile-app, ollama, open-webui, openai, openrouter, openwebui, privacy, self-hosted, selfhosted | **Score:** 85/100
+_12 repos_
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
 
@@ -79,12 +73,6 @@ _13 repos_
 >🗺️ Hermes Atlas - the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com
 
 **Language:** HTML | **Topics:** ai-agents, ecosystem-map, hermes-agent, hermes-atlas, nous-research | **Score:** 85/100
-
-### [cogwheel0/conduit](https://github.com/cogwheel0/conduit) ⭐ 2135
-
->Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.
-
-**Language:** Dart | **Topics:** ai-agents, ai-assistant, android, chat, chatbot, cross-platform, dart, flutter, ios, llm, llm-client, mobile-app, ollama, open-webui, openai, openrouter, openwebui, privacy, self-hosted, selfhosted | **Score:** 85/100
 
 ---
 
@@ -934,6 +922,14 @@ _Security tools, compliance, audit_
 
 ---
 
+### [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) ⭐ 833
+
+>Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.
+
+**Language:** Python | **Topics:** ai-agent, cybersecurity, offensive-security, red-teaming, bug-bounty, penetration-testing, vulnerability-scanner, hermes-agent | **Score:** 80/100
+
+---
+
 ### codegraphtheory/chainforge ⭐ 8
 
 >Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
@@ -1589,6 +1585,6 @@ Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder dir
 
 ---
 
-*183+ repositories in the Hermes ecosystem. Last updated: 2026-09-16. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*186+ repositories in the Hermes ecosystem. Last updated: 2026-09-16. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

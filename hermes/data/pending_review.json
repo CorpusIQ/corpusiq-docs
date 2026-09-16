@@ -62452,5 +62452,202 @@
     ],
     "discovered_at": "2026-09-16T06:03:33.553671+00:00",
     "status": "pending"
+  },
+  {
+    "name": "friendliai/hermes-friendliai-provider",
+    "url": "https://github.com/friendliai/hermes-friendliai-provider",
+    "description": "FriendliAI serverless model provider plugin for Hermes Agent \u2014 live model catalog, reasoning_effort/enable_thinking mapping, no built-in adapter needed",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "friendliai",
+      "hermes-agent",
+      "hermes-plugin",
+      "llm",
+      "model-provider",
+      "plugin",
+      "python",
+      "reasoning"
+    ],
+    "updated_at": "2026-09-16T08:03:20Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thestark77/cobalt-agent"
+    ],
+    "discovered_at": "2026-09-16T08:03:30.904344+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shariar26868/Odoo_MCP_Hermes",
+    "url": "https://github.com/shariar26868/Odoo_MCP_Hermes",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-16T07:49:05Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T08:03:37.581094+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BolivarCaro/hermes-community-manager",
+    "url": "https://github.com/BolivarCaro/hermes-community-manager",
+    "description": "Community Manager agent built with Hermes Agent and a local Python MCP server.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-16T06:39:24Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "mlennie/hermes-mcp",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-09-16T08:03:40.585085+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Lain-k/a-share-agent-trading-simulator",
+    "url": "https://github.com/Lain-k/a-share-agent-trading-simulator",
+    "description": "A-share financial research agent built on the Hermes Agent runtime and MCP: quotes, news, technical analysis, portfolio risk, backtesting and paper trading as 11 composable tools, producing research reports with data sources and calculation basis.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-16T06:25:10Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "zakahadi/llm-eval-cli",
+      "EverMind-AI/Raven"
+    ],
+    "discovered_at": "2026-09-16T08:03:43.587277+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aAAaqwq/AGI-Super-Team",
+    "url": "https://github.com/aAAaqwq/AGI-Super-Team",
+    "description": "An installable, cross-framework AI organization: C-suite agents, expert subagents, curated skills, independent review, and one-command setup across 18 AI client/runtime adapters.",
+    "stars": 96,
+    "forks": 23,
+    "language": "Python",
+    "topics": [
+      "agent-orchestration",
+      "agent-skills",
+      "ai-agent-framework",
+      "ai-agents",
+      "c-suite",
+      "claude-code",
+      "developer-tools",
+      "hermes-agent",
+      "multi-agent-systems",
+      "npm-package",
+      "openai-codex",
+      "openclaw"
+    ],
+    "updated_at": "2026-09-16T08:03:00Z",
+    "category": "forks",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T08:03:48.060692+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "4ntiDandruff/zero-bloat-skills",
+    "url": "https://github.com/4ntiDandruff/zero-bloat-skills",
+    "description": "21 Circuit-Level Operational Skills for Hardware Technicians, Bare-Metal Linux & Multi-Agent AI Gateways \u2022 Megapass Intra Solusindo",
+    "stars": 1,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "ai-skills",
+      "antigravity",
+      "boardview",
+      "claude-code",
+      "codex",
+      "fastapi",
+      "hardware-repair",
+      "hermes-agent",
+      "linux-daemon",
+      "omp",
+      "opencode",
+      "sqlite-wal",
+      "sysadmin",
+      "zero-bloat"
+    ],
+    "updated_at": "2026-09-16T08:01:23Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T08:03:51.062790+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lexybarton/hermes-docs-files",
+    "url": "https://github.com/lexybarton/hermes-docs-files",
+    "description": "Official docs from https://hermes-agent.nousresearch.com/docs/llms-full.txt as single files.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-16T05:25:32Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-16T08:05:12.109921+00:00",
+    "status": "pending"
   }
 ]
