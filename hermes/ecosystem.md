@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem - 183+ repos, tools, skills, and integrations
-last_updated: 2026-09-14
+last_updated: 2026-09-16
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **184+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **182+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 182 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **183+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **182+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -1589,6 +1589,6 @@ Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder dir
 
 ---
 
-*183+ repositories in the Hermes ecosystem. Last updated: 2026-09-15. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*183+ repositories in the Hermes ecosystem. Last updated: 2026-09-16. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
