@@ -281,6 +281,7 @@ nav:
     - Overview: hermes/best-practices/index.md
     - Cron Design: hermes/best-practices/cron-design.md
     - Model Selection: hermes/best-practices/model-selection.md
+    - Local Coding Agent: hermes/best-practices/local-coding-agent.md
     - Memory: hermes/best-practices/memory-management.md
     - Security: hermes/best-practices/security.md
     - Skill Dev: hermes/best-practices/skill-development.md
