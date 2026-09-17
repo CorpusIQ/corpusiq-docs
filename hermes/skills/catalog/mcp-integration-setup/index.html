@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Comprehensive guide for integrating Model Context Protocol servers into Claude Code plugins. 78+ installs from anthropics/claude-plugins-public.">
+        <meta name="description" content="Skills from clawhub at skills.sh - mcp-integration and related MCP server integration tools. 412 clawhub skills related to MCP connectivity and workflow">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>MCP Integration - Connect MCP servers to agent plugins</title>
+    <title>MCP Integration - MCP Server Integration Setup</title>
   
 
     
@@ -71,14 +71,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-integration-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="MCP Integration - Connect MCP servers to agent plugins">
-  <meta property="og:description" content="Comprehensive guide for integrating Model Context Protocol servers into Claude Code plugins. 78+ installs from anthropics/claude-plugins-public.">
+  <meta property="og:title" content="MCP Integration - MCP Server Integration Setup">
+  <meta property="og:description" content="Skills from clawhub at skills.sh - mcp-integration and related MCP server integration tools. 412 clawhub skills related to MCP connectivity and workflow">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MCP Integration - Connect MCP servers to agent plugins">
-  <meta name="twitter:description" content="Comprehensive guide for integrating Model Context Protocol servers into Claude Code plugins. 78+ installs from anthropics/claude-plugins-public.">
+  <meta name="twitter:title" content="MCP Integration - MCP Server Integration Setup">
+  <meta name="twitter:description" content="Skills from clawhub at skills.sh - mcp-integration and related MCP server integration tools. 412 clawhub skills related to MCP connectivity and workflow">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,12 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "MCP Integration - Connect MCP servers to agent plugins",
-    "description": "Comprehensive guide for integrating Model Context Protocol servers into Claude Code plugins. 78+ installs from anthropics/claude-plugins-public.",
+    "name": "MCP Integration - MCP Server Integration Setup",
+    "description": "Skills from clawhub at skills.sh - mcp-integration and related MCP server integration tools. 412 clawhub skills related to MCP connectivity and workflow",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-integration-setup",
     
-    "datePublished": "2026-09-12",
-    "dateModified": "2026-09-12",
+    "datePublished": "2026-09-17",
+    "dateModified": "2026-09-17",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-12">
+  <meta name="last-updated" content="2026-09-17">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MCP Integration - Connect MCP servers to agent plugins
+              MCP Integration - MCP Server Integration Setup
             
           </span>
         </div>
@@ -10065,52 +10065,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-capabilities" class="md-nav__link">
+  <a href="#what-it-provides" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Capabilities
+        What It Provides
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Key Capabilities">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#four-mcp-server-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Four MCP Server Types
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#authentication-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Authentication Patterns
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#integration-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Integration Patterns
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -10126,10 +10087,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#verification" class="md-nav__link">
+  <a href="#corpusiq-use-cases" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Verification
+        CorpusIQ Use Cases
       
     </span>
   </a>
@@ -10137,10 +10098,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
+  <a href="#limitations-verification" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Notes
+        Limitations / Verification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related
       
     </span>
   </a>
@@ -10168,15 +10140,20 @@
 
 
 <h1 id="mcp-integration-setup-guide">MCP Integration - Setup Guide<a class="headerlink" href="#mcp-integration-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Source:</strong> <a href="https://skills.sh/anthropics/claude-plugins-public/mcp-integration">anthropics/claude-plugins-public</a> (78+ installs)
-<strong>Category:</strong> Engineering / MCP
-<strong>Quality Tier:</strong> 🔵 Community</p>
-<p>Comprehensive reference for integrating Model Context Protocol (MCP) servers into agent plugins. Covers all four server types (stdio, SSE, HTTP, WebSocket), authentication patterns (OAuth, token-based, environment variables), and plugin integration patterns.</p>
-<hr />
+<p><strong>Source:</strong> <a href="https://skills.sh/clawhub">clawhub</a><br />
+<strong>Skills:</strong> mcp-integration and related MCP server integration tools<br />
+<strong>Category:</strong> MCP Infrastructure &amp; Server Integration<br />
+<strong>First Seen:</strong> September 17, 2026 sweep<br />
+<strong>Quality Tier:</strong> 🟡 Trusted (community suite; verify per-skill before production use)</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>anthropics/claude-plugins-public<span class="w"> </span>--skill<span class="w"> </span>mcp-integration
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>clawhub/mcp-integration
 </code></pre></div>
-<hr />
+<p>Individual MCP integration skills can be installed separately:</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>clawhub/mcp-integration<span class="w"> </span>--skill<span class="w"> </span>mcp-integration
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>clawhub/mcp-integration<span class="w"> </span>--skill<span class="w"> </span>mcp-client
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>clawhub/mcp-integration<span class="w"> </span>--skill<span class="w"> </span>mcp-adapter
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>clawhub/mcp-integration<span class="w"> </span>--skill<span class="w"> </span>mcp-builder
+</code></pre></div>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10187,71 +10164,109 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Claude Code</strong></td>
-<td>Plugin-capable agent host</td>
+<td><strong>Hermes Agent</strong></td>
+<td>Profile: corpusiq with MCP connectors</td>
 </tr>
 <tr>
-<td><strong>MCP server</strong></td>
-<td>Running MCP server (local or remote)</td>
+<td><strong>MCP Server</strong></td>
+<td>Running MCP endpoint (local or remote)</td>
 </tr>
 <tr>
-<td><strong>.mcp.json</strong></td>
-<td>Plugin root MCP configuration file</td>
+<td><strong>Node.js + npx</strong></td>
+<td>For the skills.sh installer</td>
+</tr>
+<tr>
+<td><strong>API Keys</strong></td>
+<td>Required for remote MCP connections</td>
+</tr>
+<tr>
+<td><strong>Network Access</strong></td>
+<td>Outbound connectivity to MCP endpoint</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
-<h3 id="four-mcp-server-types">Four MCP Server Types<a class="headerlink" href="#four-mcp-server-types" title="Anchor link to this section">&para;</a></h3>
-<ul>
-<li><strong>stdio</strong>: Local process MCP servers (npx, python, custom binaries)</li>
-<li><strong>SSE</strong>: Hosted servers with OAuth (Asana, GitHub MCP endpoints)</li>
-<li><strong>HTTP</strong>: REST API-based MCP with token authentication</li>
-<li><strong>WebSocket</strong>: Real-time bidirectional MCP connections</li>
-</ul>
-<h3 id="authentication-patterns">Authentication Patterns<a class="headerlink" href="#authentication-patterns" title="Anchor link to this section">&para;</a></h3>
-<p>OAuth flow automation, token-based headers, environment variable injection, and <code>${CLAUDE_PLUGIN_ROOT}</code> path expansion for portability.</p>
-<h3 id="integration-patterns">Integration Patterns<a class="headerlink" href="#integration-patterns" title="Anchor link to this section">&para;</a></h3>
-<p>Simple tool wrappers, autonomous multi-step agents, and multi-server plugin configurations spanning multiple services.</p>
-<hr />
+<h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Purpose</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>mcp-integration</strong></td>
+<td>MCP server integration workflows</td>
+<td>Multi-step integration patterns for connecting Hermes agents to MCP servers</td>
+</tr>
+<tr>
+<td><strong>mcp-client</strong></td>
+<td>MCP client for Hermes</td>
+<td>Standard MCP client protocol implementation for Hermes agent profiles</td>
+</tr>
+<tr>
+<td><strong>mcp-adapter</strong></td>
+<td>MCP adapter for custom protocols</td>
+<td>Adapters for non-standard MCP endpoint configurations</td>
+</tr>
+<tr>
+<td><strong>mcp-builder</strong></td>
+<td>MCP builder and setup utility</td>
+<td>Setup and configuration builder for MCP servers</td>
+</tr>
+</tbody>
+</table>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Dedicated <code>.mcp.json</code> (Recommended):</strong></p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;database-tools&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${CLAUDE_PLUGIN_ROOT}/servers/db-server&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;--config&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;${CLAUDE_PLUGIN_ROOT}/config.json&quot;</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;DB_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${DB_URL}&quot;</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<p><strong>SSE with OAuth:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;asana&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sse&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.asana.com/sse&quot;</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<hr />
-<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Check skill installed</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>mcp-integration
-
-<span class="c1"># Verify MCP server appears (in Claude Code)</span>
-/mcp
-</code></pre></div>
-<hr />
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
+<ol>
+<li><code>npx skills add clawhub/mcp-integration</code></li>
+<li>Configure MCP connection in Hermes profile</li>
+<li><code>"Connect to MCP server at https://mcp.example.com/v1"</code></li>
+<li><code>"Run MCP query through Hermes agent"</code></li>
+</ol>
+<h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MCP Server Connection</strong></td>
+<td>Connect Hermes agents to external MCP services for extended capabilities</td>
+</tr>
+<tr>
+<td><strong>Context Sync</strong></td>
+<td>Sync agent state across multiple MCP endpoints</td>
+</tr>
+<tr>
+<td><strong>Command Routing</strong></td>
+<td>Route agent commands through MCP layer to downstream services</td>
+</tr>
+<tr>
+<td><strong>Multi-Server Coordination</strong></td>
+<td>Coordinate between multiple MCP servers from a single agent</td>
+</tr>
+</tbody>
+</table>
+<h2 id="limitations-verification">Limitations / Verification<a class="headerlink" href="#limitations-verification" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Tool naming convention: <code>mcp__plugin_&lt;name&gt;_&lt;server&gt;__&lt;tool&gt;</code></li>
-<li>Always use <code>${CLAUDE_PLUGIN_ROOT}</code> for portable paths - never hardcode absolute paths</li>
-<li>Pre-allow specific MCP tools rather than wildcards for security</li>
-<li>Use HTTPS/WSS only - never HTTP/WS for production</li>
-<li>Documentation covers lifecycle management, error handling, debugging, and performance best practices</li>
-<li>Complements <code>reason-machines/mcp-skills@codex-mcp-server-integration</code> (129 installs) for Codex-specific MCP workflows</li>
+<li>MCP connection stability depends on server availability</li>
+<li>Adapt prompts for your specific MCP infrastructure</li>
+<li>Verify MCP endpoint connectivity before critical workflows</li>
 </ul>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>clawhub/mcp-integration<span class="w">   </span><span class="c1"># verify install works</span>
+</code></pre></div>
+<h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="/docs/hermes/skills/catalog">Skills Catalog</a></li>
+<li><a href="/docs/hermes/skills/catalog/agentic-mcp-setup.md">Agentic MCP</a> - agent-MCP bridging</li>
+<li><a href="/docs/hermes/skills/catalog/mcp-use-setup.md">MCP Use</a> - MCP client operations</li>
+</ul>
+<p><em>← <a href="/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="/docs/hermes/skills/marketplace">Marketplace</a> →</em></p>
+<p><em>Powered by CorpusIQ</em></p>
 
 
 
