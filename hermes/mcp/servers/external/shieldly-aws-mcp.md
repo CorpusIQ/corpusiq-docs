@@ -3,7 +3,7 @@ title: "Shieldly AWS Security MCP - IAM & CloudFormation Analysis"
 description: "AI-powered security analysis for AWS - analyze IAM policies and CloudFormation templates from any MCP client."
 category: mcp
 tags: [mcp-server, aws, security, iam, cloudformation, devops]
-last_updated: 2026-07-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/shieldly-aws-mcp/"
 robots: "index,follow"
 

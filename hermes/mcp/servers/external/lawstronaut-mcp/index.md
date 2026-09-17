@@ -3,7 +3,7 @@ title: "Lawstronaut MCP - Integration Guide"
 description: "Legal research infrastructure for AI agents - 50M+ laws and court cases from 155+ jurisdictions via MCP. Structured legal data, continuously updated."
 category: mcp
 tags: [mcp-server, legal-research, compliance, regulatory, legal-data, governance, hermes-agent]
-last_updated: 2026-08-10
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/lawstronaut-mcp/"
 robots: "index,follow"
 

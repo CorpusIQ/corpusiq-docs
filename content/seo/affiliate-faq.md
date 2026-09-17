@@ -1,3 +1,7 @@
+---
+title: affiliate-faq
+last_updated: 2026-09-17
+---
 # CorpusIQ Affiliate Program FAQ
 
 ## How much can I earn?

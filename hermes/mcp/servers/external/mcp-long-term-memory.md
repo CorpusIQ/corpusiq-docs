@@ -3,7 +3,7 @@ title: "MCP Long-Term Memory (GraphRAG) - Persistent Agent Memory"
 description: "GraphRAG-backed long-term memory for AI agents via MCP. Neo4j knowledge graph storage for cross-session context persistence. First open-source GraphRAG MCP"
 category: mcp
 tags: [mcp-server, graphrag, memory, neo4j, knowledge-graph, agent-infrastructure]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-long-term-memory/"
 robots: "index,follow"
 

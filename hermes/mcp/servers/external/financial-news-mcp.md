@@ -3,7 +3,7 @@ title: "Financial News MCP - Real-Time Market Data for AI Agents"
 description: "Real-time financial news search by ticker, source, and language with sentiment analysis and entity extraction for AI agents."
 category: mcp
 tags: [mcp-server, finance, news, sentiment, market-data]
-last_updated: 2026-07-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/financial-news-mcp/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-operations
+last_updated: 2026-09-17
+---
 # MCP for Operations Managers - One Question Instead of Twenty Reports
 
 You run operations. That means you touch every system: inventory in Shopify, support tickets in Zendesk, project status in Monday.com, team communication in Slack, financials in QuickBooks.

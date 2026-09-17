@@ -1,3 +1,7 @@
+---
+title: seo-mcp-solar
+last_updated: 2026-09-17
+---
 # MCP for Solar Companies - Project Pipeline, Installation Costs, and Revenue
 
 Solar companies run: CRM for pipeline, QuickBooks for costs, Stripe for financing payments, and project management for installations.

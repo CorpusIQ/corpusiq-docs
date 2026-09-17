@@ -1,3 +1,7 @@
+---
+title: seo-executive-ai-dashboard
+last_updated: 2026-09-17
+---
 # Build an Executive AI Dashboard - Without Building Anything
 
 Every executive wants a dashboard. Every BI team spends months building one. Nobody checks it after week two.

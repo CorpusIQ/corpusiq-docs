@@ -8,7 +8,7 @@ tags:
   - inbox-triage
   - ai-chief-of-staff
   - daily-briefing
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/agents/executive-agent/"
 robots: "index,follow"
 

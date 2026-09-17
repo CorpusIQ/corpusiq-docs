@@ -3,7 +3,7 @@ title: "SaaS & AI Pricing API MCP - Competitive Intelligence"
 description: "Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ tools. OpenAPI 3.1, no API key required. Market research for operators."
 category: mcp
 tags: [mcp-server, business-intelligence, saas, pricing, competitive-research, market-intelligence]
-last_updated: 2026-07-14
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/saas-pricing-mcp/"
 robots: "index,follow"
 

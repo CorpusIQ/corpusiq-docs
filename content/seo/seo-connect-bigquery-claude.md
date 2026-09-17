@@ -1,3 +1,7 @@
+---
+title: seo-connect-bigquery-claude
+last_updated: 2026-09-17
+---
 # Connect BigQuery to Claude - Google-Scale Analytics in Plain English
 
 Your analytics run on BigQuery. Petabytes of data, complex SQL, dashboards that need a data team to interpret.

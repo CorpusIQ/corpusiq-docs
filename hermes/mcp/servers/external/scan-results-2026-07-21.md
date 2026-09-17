@@ -3,7 +3,7 @@ title: "MCP Server Scan - July 21, 2026"
 description: "Daily MCP server discovery scan. No new awesome-mcp-servers PRs merged since July 13. mcpservers.org shows 16+ new direct-submission servers. Web search"
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-21/"
 robots: "index,follow"
 

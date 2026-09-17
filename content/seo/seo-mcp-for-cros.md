@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-cros
+last_updated: 2026-09-17
+---
 # MCP for CROs - Revenue Truth Across Every System
 
 As CRO, you own the revenue number. But the revenue data lives in five different systems - and none of them agree.

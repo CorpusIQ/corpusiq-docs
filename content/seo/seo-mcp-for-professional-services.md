@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-professional-services
+last_updated: 2026-09-17
+---
 # MCP for Professional Services - Billable Hours, Utilization, and Revenue
 
 Professional services firms run: time tracking for billable hours, QuickBooks for invoicing, Stripe for payments, HubSpot for client pipeline, and Gmail for client communications.

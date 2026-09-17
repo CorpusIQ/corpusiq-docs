@@ -1,3 +1,7 @@
+---
+title: README
+last_updated: 2026-09-17
+---
 # Search
 
 Search across your connected business tools with natural language.

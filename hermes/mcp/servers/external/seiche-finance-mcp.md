@@ -3,7 +3,7 @@ title: "Seiche Finance MCP - US Money Market Stress Testing"
 description: "Free open source funding stress terminal for US money markets. 22 engines, honest backtests, zero data cost using Fed/NY Fed/OFR/Treasury public APIs."
 category: mcp
 tags: [mcp-server, finance, money-markets, stress-testing, fed, treasury]
-last_updated: 2026-07-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/seiche-finance-mcp/"
 robots: "index,follow"
 

@@ -3,7 +3,7 @@ title: "Octolens MCP - Integration Guide"
 description: "Connect AI agents to Octolens for brand monitoring across 15+ platforms. AI-filtered mentions, sentiment scoring, and social listening directly in your AI"
 category: mcp
 tags: [mcp-server, social-listening, brand-monitoring, marketing, analytics]
-last_updated: 2026-07-18
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/octolens/"
 robots: "index,follow"
 

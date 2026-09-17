@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-pharmacies
+last_updated: 2026-09-17
+---
 # MCP for Pharmacies - Rx Data, Inventory, and Financial Performance
 
 Independent pharmacies run: PMS for prescriptions, QuickBooks for financials, Stripe for patient payments, and inventory management.

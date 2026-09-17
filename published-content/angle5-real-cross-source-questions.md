@@ -1,3 +1,7 @@
+---
+title: angle5-real-cross-source-questions
+last_updated: 2026-09-17
+---
 # Real Questions CorpusIQ Answers - From 40+ Tools at Once
 
 No demoware. No cherry-picked dashboards. Here are five real questions CorpusIQ answers by reading across multiple business systems simultaneously.

@@ -1,3 +1,7 @@
+---
+title: seo-mcp-credit-unions
+last_updated: 2026-09-17
+---
 # MCP for Credit Unions - Member Data, Loans, and Financial Performance
 
 Credit unions run: Core system for accounts, QuickBooks for financials, loan origination systems, CRM for member relationships.

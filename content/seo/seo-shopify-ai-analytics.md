@@ -1,3 +1,7 @@
+---
+title: seo-shopify-ai-analytics
+last_updated: 2026-09-17
+---
 # Shopify AI Analytics - Store Performance Without Reports
 
 You run a Shopify store. You know the data is there - orders, customers, products, inventory. But accessing it means filtering, exporting, and building reports.

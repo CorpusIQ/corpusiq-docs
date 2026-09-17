@@ -1,3 +1,7 @@
+---
+title: seo-connect-jira-claude
+last_updated: 2026-09-17
+---
 # Connect Jira to Claude - Engineering Velocity Without Status Meetings
 
 Your engineering work lives in Jira. Sprints, issues, velocity, blockers. Every standup starts with "let me check Jira."

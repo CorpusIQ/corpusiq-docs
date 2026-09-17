@@ -3,7 +3,7 @@ title: "Email + Calendar Integration for Hermes Agent"
 description: Connect Gmail, Outlook, Google Calendar, and Outlook Calendar to Hermes Agent. Automate meeting scheduling, follow-up workflows, availability management with MCP servers and cron-driven automation patterns.
 category: integrations
 tags: [hermes-agent, integration, email, calendar, gmail, outlook, meeting-scheduling, follow-up-automation, mcp]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/integrations/email-calendar/"
 robots: "index,follow"
 

@@ -7,7 +7,7 @@ source: awesome-mcp-servers
 repo: Correctover/mcp-server
 stars: 0
 discovered: 2026-07-23
-last_updated: 2026-07-23
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/correctover-mcp/"
 robots: "index,follow"
 

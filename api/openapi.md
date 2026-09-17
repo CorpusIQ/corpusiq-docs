@@ -1,3 +1,7 @@
+---
+title: openapi
+last_updated: 2026-09-17
+---
 # OpenAPI Specification
 
 The CorpusIQ API is documented using the OpenAPI 3.1 specification.

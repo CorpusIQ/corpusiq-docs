@@ -1,3 +1,7 @@
+---
+title: seo-how-mcp-servers-work
+last_updated: 2026-09-17
+---
 # How MCP Servers Work - Technical Deep Dive
 
 You connect a tool to an AI assistant. Behind the scenes, MCP handles authentication, tool discovery, query execution, and response formatting. Here's exactly how.

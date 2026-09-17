@@ -1,3 +1,7 @@
+---
+title: seo-stripe-analytics-ai
+last_updated: 2026-09-17
+---
 # Stripe Analytics with AI - Revenue Intelligence Without Dashboards
 
 Your Stripe dashboard shows numbers. AI-powered Stripe analytics answers questions:

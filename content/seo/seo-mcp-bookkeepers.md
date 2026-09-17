@@ -1,3 +1,7 @@
+---
+title: seo-mcp-bookkeepers
+last_updated: 2026-09-17
+---
 # MCP for Bookkeepers - Every Client, Every Transaction, One Question
 
 Bookkeepers manage 20-50 clients. Each has QuickBooks, bank feeds, receipts. Categorizing transactions and reconciling accounts means logging into each client separately.

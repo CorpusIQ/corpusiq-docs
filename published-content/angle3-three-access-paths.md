@@ -1,3 +1,7 @@
+---
+title: angle3-three-access-paths
+last_updated: 2026-09-17
+---
 # Three Ways to Access Your Business Data With AI
 
 CorpusIQ doesn't lock you into one interface. Your business data follows you wherever you work.

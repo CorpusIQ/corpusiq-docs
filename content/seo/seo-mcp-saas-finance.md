@@ -1,3 +1,7 @@
+---
+title: seo-mcp-saas-finance
+last_updated: 2026-09-17
+---
 # MCP for SaaS Finance - Stripe + QuickBooks + HubSpot Reconciliation
 
 SaaS finance teams live in: Stripe for billing, QuickBooks for accounting, HubSpot for deals. Three systems. Three different revenue numbers every month.

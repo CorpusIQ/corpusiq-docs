@@ -1,7 +1,7 @@
 ---
 title: "CDN.MN MCP Server - CorpusIQ Docs"
 description: "Setup and usage guide for CDN.MN MCP Server. Part of the Hermes resource directory. URL: https://mcpservers.org/servers/cdnmn-mcp."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/cdnmn-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

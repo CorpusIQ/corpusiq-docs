@@ -7,7 +7,7 @@ language: Python
 transport: stdio
 auth: None (open data)
 category: Finance & Fintech
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/investsights-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

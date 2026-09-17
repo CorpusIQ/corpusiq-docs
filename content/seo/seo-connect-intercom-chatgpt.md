@@ -1,3 +1,7 @@
+---
+title: seo-connect-intercom-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Intercom to ChatGPT - Customer Conversations, Analyzed by AI
 
 Your customer relationships live in Intercom. Conversations, help articles, customer data, campaigns. Finding patterns means reading through threads manually.

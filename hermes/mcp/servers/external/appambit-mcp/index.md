@@ -3,7 +3,7 @@ title: "AppAmbit MCP - Integration Guide"
 description: "Connect AI agents to AppAmbit - mobile app analytics, crash reporting, build distribution, databases, serverless, and CMS."
 category: mcp
 tags: [mcp-server, mobile-analytics, crash-reporting, build-distribution, app-development]
-last_updated: 2026-07-13
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/appambit-mcp/"
 robots: "index,follow"
 

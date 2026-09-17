@@ -3,7 +3,7 @@ title: Google Ads MCP Server Integration Guide
 description: AI-powered Google Ads campaign management - create, monitor, and optimize campaigns, ad groups, keywords, and budgets directly from Hermes Agent.
 category: mcp
 tags: [mcp, google-ads, advertising, ppc, campaigns, marketing, sem, hermes-agent]
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-ads-mcp/"
 robots: "index,follow"
 

@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-07-14T07:10Z
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
 robots: "index,follow"
 

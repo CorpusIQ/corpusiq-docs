@@ -1,3 +1,7 @@
+---
+title: seo-connect-slack-claude
+last_updated: 2026-09-17
+---
 # Connect Slack to Claude - Channel Insights Without Scrolling
 
 Your team communication lives in Slack. Messages, threads, decisions, announcements. Finding "what did we decide about pricing?" means scrolling through channels.

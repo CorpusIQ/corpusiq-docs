@@ -1,3 +1,7 @@
+---
+title: seo-hermes-ecosystem
+last_updated: 2026-09-17
+---
 # The Hermes Agent Ecosystem - 670+ Tools, Skills, and MCP Servers
 
 Hermes Agent by Nous Research is the most popular open-source AI agent framework (211K+ GitHub stars). The ecosystem around it has exploded - 670+ repos covering tools, skills, MCP servers, memory systems, and deployment patterns.

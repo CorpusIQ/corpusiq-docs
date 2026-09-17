@@ -3,7 +3,7 @@ title: "Capital.com MCP - Trading Account Access & Market Data"
 description: "Connect AI assistants directly to trading accounts. Market data, position checks, trade previews - all in plain language through MCP."
 category: mcp
 tags: [mcp-server, finance, trading, market-data, investment, business-operations]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/capital-com-mcp/"
 robots: "index,follow"
 

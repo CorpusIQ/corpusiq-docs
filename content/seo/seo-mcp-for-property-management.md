@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-property-management
+last_updated: 2026-09-17
+---
 # MCP for Property Management - Every Property, Every Metric, One Question
 
 Property managers run: AppFolio/Yardi for property ops, QuickBooks for financials, Stripe for rent collection, HubSpot for tenant pipeline, and Gmail for maintenance coordination.

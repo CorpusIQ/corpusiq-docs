@@ -3,7 +3,7 @@ title: "Content Pipeline Blueprint for Hermes Agent"
 description: End-to-end Hermes Agent content pipeline blueprint. Research, ideation, drafting, review, publication, and promotion  --  all orchestrated with cron-driven workflows, SEO analysis, and human editorial gates.
 category: blueprints
 tags: [hermes-agent, blueprint, content-pipeline, content-production, seo, editorial-workflow, publishing]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/blueprints/content-pipeline/"
 robots: "index,follow"
 

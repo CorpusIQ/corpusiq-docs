@@ -1,3 +1,7 @@
+---
+title: schemas
+last_updated: 2026-09-17
+---
 # API Schemas
 
 Data models used across the CorpusIQ API.

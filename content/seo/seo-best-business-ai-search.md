@@ -1,3 +1,7 @@
+---
+title: seo-best-business-ai-search
+last_updated: 2026-09-17
+---
 # Best Business AI Search Tool - Find Answers Across All Your Systems
 
 You're looking for a tool that searches across QuickBooks, Stripe, HubSpot, Shopify, and Gmail - all at once. Not five separate searches. One.

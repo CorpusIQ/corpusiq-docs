@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-finance
+last_updated: 2026-09-17
+---
 # MCP for Finance Teams - Close the Books in Minutes, Not Days
 
 Month-end close. Three words that make every finance team groan.

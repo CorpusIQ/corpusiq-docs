@@ -1,3 +1,7 @@
+---
+title: angle2-one-question-vs-seven-dashboards
+last_updated: 2026-09-17
+---
 # Before: Seven Dashboards. After: One Question.
 
 ## Before (The Old Way)

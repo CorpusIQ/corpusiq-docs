@@ -1,7 +1,7 @@
 ---
 title: Agent Plugins 1.0 - The Portable Skill Standard
 description: "Setup and usage guide for Agent Plugins 1.0 - The Portable Skill Standard. Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

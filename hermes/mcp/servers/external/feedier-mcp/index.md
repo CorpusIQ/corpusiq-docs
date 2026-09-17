@@ -7,7 +7,7 @@ language: N/A (Hosted SaaS)
 transport: Streamable HTTP
 auth: OAuth
 category: Business Operations
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/feedier-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

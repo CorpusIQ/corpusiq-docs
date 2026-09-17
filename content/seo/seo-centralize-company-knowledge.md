@@ -1,3 +1,7 @@
+---
+title: seo-centralize-company-knowledge
+last_updated: 2026-09-17
+---
 # How to Centralize Company Knowledge - Without Building a Wiki
 
 Every company has the same problem: knowledge is scattered. Financial data in QuickBooks. Customer data in HubSpot. Product data in your database. Policies in Google Drive. Decisions in Slack threads.

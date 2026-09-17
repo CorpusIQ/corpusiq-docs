@@ -1,7 +1,7 @@
 ---
 title: "MCP Sweep - July 25, 2026 Evening (6:00 PM MST / July 26"
 description: "Sitemaps 1-6 show 60+ pages modified since the last sweep (lastmod after July 25 17:00 UTC). Notably:"
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july25-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

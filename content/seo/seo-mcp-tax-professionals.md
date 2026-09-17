@@ -1,3 +1,7 @@
+---
+title: seo-mcp-tax-professionals
+last_updated: 2026-09-17
+---
 # MCP for Tax Professionals - Client Financials in One Question
 
 Tax professionals serve 100+ clients. Each uses QuickBooks, some use Stripe, others use Shopify. Answering "what's my client's Q3 estimated tax?" means logging into each client's QuickBooks individually.

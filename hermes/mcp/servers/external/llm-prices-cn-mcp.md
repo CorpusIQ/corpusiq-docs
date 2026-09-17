@@ -7,7 +7,7 @@ source: awesome-mcp-servers
 repo: szp2005/llm-prices-cn
 stars: 0
 discovered: 2026-07-23
-last_updated: 2026-07-23
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/llm-prices-cn-mcp/"
 robots: "index,follow"
 

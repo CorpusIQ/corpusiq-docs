@@ -1,3 +1,7 @@
+---
+title: seo-corpusiq-vs-paragon
+last_updated: 2026-09-17
+---
 # CorpusIQ vs Paragon - MCP-Native vs Embedded iPaaS
 
 Paragon lets SaaS companies embed integrations into their products. CorpusIQ connects business data directly to AI assistants via MCP. Different approaches, different use cases.

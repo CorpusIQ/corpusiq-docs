@@ -3,7 +3,7 @@ title: "Elasticsearch MCP - Full-Text Search & Observability"
 description: "Connect AI agents to Elasticsearch via the official Elastic MCP server. Full-text search, vector search, aggregations, and observability."
 category: mcp
 tags: [mcp-server]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/elasticsearch-mcp/"
 robots: "index,follow"
 

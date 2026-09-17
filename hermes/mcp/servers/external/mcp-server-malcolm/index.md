@@ -1,7 +1,7 @@
 ---
 title: mcp-server-malcolm (Malcolm Network Traffic Analysis)
 description: "Setup and usage guide for mcp-server-malcolm (Malcolm Network Traffic Analysis). Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-server-malcolm/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

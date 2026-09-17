@@ -3,7 +3,7 @@ title: "AI2Fin Tax MCP - Global Tax Rates for 50+ Countries"
 description: "Free, no-login MCP server giving AI agents instant access to verified tax rates, GST/VAT, income tax, company tax, and capital gains tax for 50+ countries"
 category: mcp
 tags: [mcp-server, tax, vat, gst, finance, accounting, global, ai2fin, hermes-agent]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ai2fin-tax-mcp/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: seo-ai-knowledge-management
+last_updated: 2026-09-17
+---
 # AI for Knowledge Management - Your Company's Brain
 
 Your company's knowledge is scattered across QuickBooks (financials), HubSpot (customers), Google Drive (docs), Slack (decisions), and Gmail (conversations).

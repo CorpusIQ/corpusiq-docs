@@ -1,3 +1,7 @@
+---
+title: mcp-spec-ga-july-2026
+last_updated: 2026-09-17
+---
 # The MCP Specification Goes GA on July 28. Here Is What Operators Should Know.
 
 The Model Context Protocol hits general availability on July 28, 2026. For the developers building MCP servers, this is a version bump and a spec freeze. For operators running businesses, it is something bigger.

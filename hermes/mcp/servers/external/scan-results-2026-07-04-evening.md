@@ -3,7 +3,7 @@ title: "MCP Server Discovery - July 4, 2026 (Evening)"
 description: "Daily scan of mcpservers.org and mcp.so for new business-relevant MCP servers. 5 new servers across communication, knowledge management, design"
 category: mcp
 tags: [mcp-servers, daily-scan, july-2026]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-04-evening/"
 robots: "index,follow"
 

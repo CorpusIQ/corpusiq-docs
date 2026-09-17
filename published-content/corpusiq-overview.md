@@ -1,3 +1,7 @@
+---
+title: corpusiq-overview
+last_updated: 2026-09-17
+---
 # CorpusIQ: One Question to Replace Seven Dashboards
 
 ## The Morning Dashboard Shuffle

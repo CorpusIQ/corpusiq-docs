@@ -1,3 +1,7 @@
+---
+title: seo-shopify-dashboard-chatgpt
+last_updated: 2026-09-17
+---
 # Shopify Dashboard with ChatGPT - Your Store in Plain English
 
 Forget the Shopify dashboard. Ask ChatGPT:

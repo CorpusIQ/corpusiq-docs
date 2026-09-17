@@ -1,3 +1,7 @@
+---
+title: seo-connect-stripe-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Stripe to ChatGPT - See Your Revenue in Plain English
 
 You process payments through Stripe. Every morning you check the dashboard: MRR, recent charges, churn. You know the numbers.

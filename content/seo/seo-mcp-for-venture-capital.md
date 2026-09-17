@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-venture-capital
+last_updated: 2026-09-17
+---
 # MCP for Venture Capital - Portfolio Metrics Across Every Company
 
 VC firms track: portfolio company financials (QuickBooks/Stripe), pipeline (HubSpot/Affinity), fund performance (spreadsheets), LP reporting (everything manual).

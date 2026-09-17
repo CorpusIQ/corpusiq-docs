@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-restaurants
+last_updated: 2026-09-17
+---
 # MCP for Restaurants - Food Cost, Labor, and Multi-Location Performance
 
 Restaurant groups run: Toast/POS for sales, QuickBooks for financials, 7shifts for labor, Stripe for payments, and your inventory system.

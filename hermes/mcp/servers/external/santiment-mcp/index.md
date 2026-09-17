@@ -3,7 +3,7 @@ title: "Santiment MCP Connector - Integration Guide"
 description: "Official Santiment MCP server for crypto market intelligence. On-chain metrics, social sentiment, trending narratives, and analyst insights - directly in AI"
 category: mcp
 tags: [mcp-server, crypto, market-intelligence, on-chain, sentiment, trading, fintech, hermes-agent]
-last_updated: 2026-07-28
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/santiment-mcp/"
 robots: "index,follow"
 

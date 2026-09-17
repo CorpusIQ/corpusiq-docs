@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-sales
+last_updated: 2026-09-17
+---
 # MCP for Sales Teams - Your Pipeline Answers in Plain English
 
 You manage a sales pipeline in HubSpot. Your commission is tracked in Stripe. Contract values sit in QuickBooks. Customer health lives in your support ticket data.

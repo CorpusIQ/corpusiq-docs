@@ -1,7 +1,7 @@
 ---
 title: Stateless MCP - What the July 2026 Spec Means
 description: "Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/stateless-mcp-july-2026/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

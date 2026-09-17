@@ -3,7 +3,7 @@ title: "DataNexus MCP - Public Data Intelligence (55 Tools)"
 description: "DataNexus MCP server provides 55 tools for verified public data - CVE vulnerabilities, patents, federal contracts, NPI provider data, nonprofits, and domain"
 category: mcp
 tags: [mcp-server, data-intelligence, public-data, cve, patents, federal-contracts, open-data]
-last_updated: 2026-07-19
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/datanexus-mcp/"
 robots: "index,follow"
 

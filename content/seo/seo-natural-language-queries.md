@@ -1,3 +1,7 @@
+---
+title: seo-natural-language-queries
+last_updated: 2026-09-17
+---
 # How to Query Business Data in Natural Language
 
 You know SQL? Most operators don't. They know their business. They know the questions. But the gap between "how are we doing this quarter?" and `SELECT SUM(amount) FROM charges WHERE created > '2026-01-01'` is a data analyst who costs $120K/year.

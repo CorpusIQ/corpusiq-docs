@@ -3,7 +3,7 @@ title: "Asana MCP V2 - Project Management for AI Agents"
 description: "Official Asana MCP V2 server connecting AI agents to tasks, projects, and workspaces via OAuth 2.0. Hosted at mcp.asana.com/v2/mcp. Requires pre-registered"
 category: mcp
 tags: [mcp-server, project-management, asana, official, productivity, team-operations]
-last_updated: 2026-07-17
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/asana-mcp/"
 robots: "index,follow"
 

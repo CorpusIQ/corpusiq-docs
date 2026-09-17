@@ -1,3 +1,7 @@
+---
+title: seo-mcp-publishers
+last_updated: 2026-09-17
+---
 # MCP for Publishers - Ad Revenue, Subscriptions, and Content Performance
 
 Digital publishers run: Google Ad Manager for ads, Stripe for subscriptions, QuickBooks for financials, GA4 for analytics, Mailchimp for newsletters.

@@ -3,7 +3,7 @@ title: "BillingServ MCP - Invoice & Customer Management"
 description: "Connect AI agents to BillingServ API for customer, invoice, and order lookups. Automate billing inquiries and account reconciliation directly from your MCP"
 category: mcp
 tags: [mcp-server, billing, invoicing, finance, accounts-receivable]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/billingserv/"
 robots: "index,follow"
 

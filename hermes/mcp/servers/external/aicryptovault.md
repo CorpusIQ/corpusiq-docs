@@ -3,7 +3,7 @@ title: "AICryptoVault MCP - Agent-Managed Crypto Treasury"
 description: "MCP-native treasury infrastructure - connect AI agents to crypto wallets for balance queries, transaction history, and agent-managed DeFi operations. Remote"
 category: mcp
 tags: [mcp-server, crypto, treasury, defi, wallet, finance]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/aicryptovault/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: index
+last_updated: 2026-09-17
+---
 # CorpusIQ API
 
 Programmatic access to the CorpusIQ platform. Manage connectors, run queries, and configure your account via REST API.

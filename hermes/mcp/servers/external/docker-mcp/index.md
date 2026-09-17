@@ -3,7 +3,7 @@ title: "Docker MCP Server - Full Docker Management for AI Agents"
 description: "Manage the complete Docker surface - containers, images, networks, volumes, Swarm services, secrets, and more - through any MCP-compatible AI assistant. 494"
 category: mcp
 tags: [mcp-server, devops, docker, containers, infrastructure, deployment]
-last_updated: 2026-07-18
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/docker-mcp/"
 robots: "index,follow"
 

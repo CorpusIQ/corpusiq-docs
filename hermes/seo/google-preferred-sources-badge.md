@@ -1,7 +1,7 @@
 ---
 title: Google Preferred Sources Badge - Get Cited in AI Overviews
 description: "How the Google Preferred Sources badge works and how to add it to your site in two lines of code. Get a preferred badge in AI Overviews, AI Mode, and Top Stories."
-last_updated: 2026-08-25
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/seo/google-preferred-sources-badge/"
 robots: "index,follow"
 tags: ["geo", "aeo", "seo", "ai overviews", "google search"]

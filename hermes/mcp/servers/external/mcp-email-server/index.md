@@ -3,7 +3,7 @@ title: "MCP Email Server - IMAP/SMTP Email for AI Agents"
 description: "Integration guide for ai-zerolab/mcp-email-server. IMAP and SMTP email access via MCP for Hermes Agent. Send/receive emails from AI agents."
 category: mcp
 tags: [mcp-server, email, imap, smtp, hermes-agent, integration]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 mcp_server: ai-zerolab/mcp-email-server
 stars: 281
 source: mcpservers.org

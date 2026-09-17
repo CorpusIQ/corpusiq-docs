@@ -3,7 +3,7 @@ title: "BDE Score MCP - Multi-Factor Stock Scoring API for AI"
 description: "Open-source multi-factor stock scoring MCP server (0-100) covering US, Hong Kong, and China A-Share markets. Essential for operators who need AI-accessible"
 category: mcp
 tags: [mcp-server, finance, stocks, quantitative-analysis, investment-research, scoring]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/bde-score-mcp/"
 robots: "index,follow"
 

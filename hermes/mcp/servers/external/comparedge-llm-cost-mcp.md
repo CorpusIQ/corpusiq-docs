@@ -3,7 +3,7 @@ title: "ComparEdge LLM Cost MCP - Integration Guide"
 description: "Token cost math for LLM API calls: 69 models across 17 providers, prices verified by ComparEdge. Free, no API key required."
 category: mcp
 tags: [mcp-server, finance, llm, cost-management, ai-operations]
-last_updated: 2026-07-14
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/comparedge-llm-cost-mcp/"
 robots: "index,follow"
 

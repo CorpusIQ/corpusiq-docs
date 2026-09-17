@@ -3,7 +3,7 @@ title: "MCP Server Scan - July 23, 2026"
 description: "Daily MCP server discovery scan. 22 newly merged awesome-mcp-servers PRs. 4 high-value business-operator MCP servers identified with integration guides."
 category: mcp
 tags: [mcp-scan, discovery, awesome-mcp-servers]
-last_updated: 2026-07-23
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-23/"
 robots: "index,follow"
 

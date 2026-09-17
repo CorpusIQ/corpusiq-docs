@@ -3,7 +3,7 @@ title: "Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright"
 description: "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference."
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone/"
 robots: "index,follow"
 

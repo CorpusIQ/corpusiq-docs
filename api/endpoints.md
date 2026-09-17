@@ -1,3 +1,7 @@
+---
+title: endpoints
+last_updated: 2026-09-17
+---
 # API Endpoints
 
 The CorpusIQ API is organized around REST principles. All endpoints return JSON.

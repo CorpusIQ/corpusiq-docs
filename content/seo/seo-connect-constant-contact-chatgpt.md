@@ -1,3 +1,7 @@
+---
+title: seo-connect-constant-contact-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Constant Contact to ChatGPT - Email Marketing Answers
 
 Your email marketing runs on Constant Contact. Campaigns, lists, engagement metrics. Reports take time to build.

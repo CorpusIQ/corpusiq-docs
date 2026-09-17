@@ -1,3 +1,7 @@
+---
+title: README
+last_updated: 2026-09-17
+---
 # Governance
 
 CorpusIQ governance features for team accounts.

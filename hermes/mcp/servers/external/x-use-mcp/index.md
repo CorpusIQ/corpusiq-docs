@@ -1,7 +1,7 @@
 ---
 title: x-use MCP - Browser-Native X (Twitter) Automation
 description: "Setup and usage guide for x-use MCP - Browser-Native X (Twitter) Automation. Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/x-use-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

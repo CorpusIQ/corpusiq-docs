@@ -3,7 +3,7 @@ title: "Veezee MCP - LinkedIn, Reddit, and X Data for AI Agents"
 description: "Social media intelligence MCP server giving AI agents access to LinkedIn, Reddit, and X (Twitter) data for market research, competitive analysis, and brand"
 category: mcp
 tags: [mcp-server, social-media, linkedin, reddit, twitter, search, market-research]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/veezee-mcp/"
 robots: "index,follow"
 

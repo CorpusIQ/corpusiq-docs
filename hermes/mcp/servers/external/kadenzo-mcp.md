@@ -3,7 +3,7 @@ title: "Kadenzo MCP - Agent-Native Social Media Scheduling and"
 description: "Kadenzo MCP server lets any MCP-compatible agent schedule, manage, generate, and analyze social media content. Full content pipeline from creation to"
 category: mcp
 tags: [mcp-server, social-media, scheduling, content-management, marketing]
-last_updated: 2026-07-19
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/kadenzo-mcp/"
 robots: "index,follow"
 

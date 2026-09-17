@@ -1,3 +1,7 @@
+---
+title: affiliate-how-to-earn
+last_updated: 2026-09-17
+---
 # How to Make Money with the CorpusIQ Affiliate Program
 
 You have an audience. You want to earn. Here's exactly how.

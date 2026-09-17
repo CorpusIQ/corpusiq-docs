@@ -3,7 +3,7 @@ title: "Pretensor MCP - Knowledge Graphs from Database"
 description: "Integration guide for pretensor-ai/pretensor. Kuzu-backed schema graph from live DB introspection with MCP tools for AI retrieval."
 category: mcp
 tags: [mcp-server, knowledge-graph, database, schema, business-intelligence, hermes-agent]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 mcp_server: pretensor-ai/pretensor
 stars: 5
 source: mcpservers.org

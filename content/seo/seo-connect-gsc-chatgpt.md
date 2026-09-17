@@ -1,3 +1,7 @@
+---
+title: seo-connect-gsc-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Google Search Console to ChatGPT - SEO Answers Without Reports
 
 Your SEO performance data lives in GSC. Clicks, impressions, CTR, position. Every insight requires filtering by page, query, date range.

@@ -1,3 +1,7 @@
+---
+title: seo-connect-freshbooks-chatgpt
+last_updated: 2026-09-17
+---
 # Connect FreshBooks to ChatGPT - Small Business Accounting Answers
 
 Your accounting runs on FreshBooks. Invoices, expenses, time tracking, reports. Every answer requires navigating the FreshBooks dashboard.

@@ -1,3 +1,7 @@
+---
+title: seo-mcp-connector-directory
+last_updated: 2026-09-17
+---
 # Complete MCP Connector Directory - 40+ Live Business Data Sources
 
 This is the definitive directory of business data connectors available through MCP. Every connector listed here is live, read-only, and connects in 30 seconds via OAuth.

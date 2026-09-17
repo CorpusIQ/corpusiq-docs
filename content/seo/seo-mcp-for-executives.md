@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-executives
+last_updated: 2026-09-17
+---
 # MCP for Executives - Stop Waiting for Reports
 
 You run a company. Every morning someone sends you a report. It's 24 hours old. It took someone 3 hours to build. You scan it, ask one question the report can't answer, and they spend another hour pulling the data.

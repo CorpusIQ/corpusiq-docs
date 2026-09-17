@@ -3,7 +3,7 @@ title: "Snowflake MCP - Data Warehouse Queries for AI Agents"
 description: "Connect AI agents to Snowflake data warehouse via MCP. Query, explore schemas, manage warehouses, and analyze enterprise data through natural language."
 category: mcp
 tags: [mcp-server]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/snowflake-mcp/"
 robots: "index,follow"
 

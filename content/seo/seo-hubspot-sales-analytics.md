@@ -1,3 +1,7 @@
+---
+title: seo-hubspot-sales-analytics
+last_updated: 2026-09-17
+---
 # HubSpot Sales Analytics with AI - Know Your Numbers Before the Meeting
 
 Every sales meeting starts with "let me pull the numbers." HubSpot has them - but finding them takes 15 minutes of filtering and exporting.

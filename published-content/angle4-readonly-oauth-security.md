@@ -1,3 +1,7 @@
+---
+title: angle4-readonly-oauth-security
+last_updated: 2026-09-17
+---
 # How CorpusIQ Scopes Data Retention
 
 ## The Security Question Every Business Owner Should Ask

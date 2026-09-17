@@ -1,3 +1,7 @@
+---
+title: seo-connect-monday-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Monday.com to ChatGPT - Work Management in Plain English
 
 Your work lives in Monday.com. Boards, tasks, owners, statuses, deadlines. Every status check means opening Monday and clicking through boards.

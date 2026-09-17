@@ -1,7 +1,7 @@
 ---
 title: MCP Server Sweep - July 24, 2026 (Cron Run 2)
 description: "MCP Server Sweep - July 24, 2026 (Cron Run 2). All 3 new servers have integration guides at `servers/external/`:. Setup and usage guide for CorpusIQ users.."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july24-2026-cron-2/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

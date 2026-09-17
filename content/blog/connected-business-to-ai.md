@@ -1,3 +1,7 @@
+---
+title: connected-business-to-ai
+last_updated: 2026-09-17
+---
 # I Connected My Entire Business to ChatGPT in 5 Minutes - Here's What Happened
 
 I run a business. I use QuickBooks, Shopify, and Stripe. Every Monday I do the same dance - log into each one, pull numbers, paste them into a spreadsheet, build a report nobody reads.

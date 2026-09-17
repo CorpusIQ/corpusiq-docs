@@ -3,7 +3,7 @@ title: "Holdings MCP - Integration Guide"
 description: "Agentic invoicing and payments - let your AI send invoices and take payment via card or ACH. Free. Holdings MCP server for Claude, ChatGPT, and Cursor."
 category: mcp
 tags: [mcp-server, invoicing, payments, finance-operations, accounts-receivable, hermes-agent]
-last_updated: 2026-08-10
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/holdings-mcp/"
 robots: "index,follow"
 

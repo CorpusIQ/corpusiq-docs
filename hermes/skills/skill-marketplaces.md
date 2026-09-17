@@ -3,7 +3,7 @@ title: "Hermes Agent Skill Marketplaces"
 description: Navigate Hermes Agent skill marketplaces for discovering and publishing skills. Quality tiers, marketplace comparison, publishing guides, community standards, and how to find the best community-built AI agent skills.
 category: skills
 tags: [hermes-agent, skills, marketplace, publishing, quality-tiers, community, discovery, curation]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: seo-connect-brevo-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Brevo to ChatGPT - Email and SMS Marketing Answers
 
 Your email and SMS marketing runs on Brevo (formerly Sendinblue). Campaigns, automations, contacts, transactional emails.

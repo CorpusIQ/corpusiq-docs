@@ -1,7 +1,7 @@
 ---
 title: "emailmd MCP Server - CorpusIQ Docs"
 description: "Setup and usage guide for emailmd MCP Server. Part of the Hermes resource directory. URL: https://github.com/anypost/emailmd."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/emailmd-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

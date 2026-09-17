@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-franchises
+last_updated: 2026-09-17
+---
 # MCP for Franchises - Multi-Unit Performance in One View
 
 Franchisors and multi-unit operators manage: POS for sales, QuickBooks per location, Stripe for payments, HubSpot for franchisee pipeline, and your operations platform.

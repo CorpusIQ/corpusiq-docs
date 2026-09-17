@@ -3,7 +3,7 @@ title: "Conduit (Toolport) MCP - Local-First Desktop Gateway for"
 description: "Conduit (Toolport) is a local-first desktop app that aggregates all your MCP servers behind one gateway, shared across every AI coding tool - Claude"
 category: mcp
 tags: [mcp-server, aggregator, gateway, desktop, local-first, multi-client]
-last_updated: 2026-07-19
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/conduit-aggregator/"
 robots: "index,follow"
 

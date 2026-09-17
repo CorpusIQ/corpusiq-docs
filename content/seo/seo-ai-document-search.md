@@ -1,3 +1,7 @@
+---
+title: seo-ai-document-search
+last_updated: 2026-09-17
+---
 # AI for Document Search - Find Anything Across All Your Systems
 
 Your contracts are in Google Drive. Your invoices are in QuickBooks. Your customer emails are in Gmail. Your proposals are in HubSpot.

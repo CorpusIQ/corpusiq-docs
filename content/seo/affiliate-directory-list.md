@@ -1,3 +1,7 @@
+---
+title: affiliate-directory-list
+last_updated: 2026-09-17
+---
 # Affiliate Program Directory - Where to List Your Program
 
 Getting affiliates requires being visible where affiliate marketers look for programs. Here are the top platforms to list the CorpusIQ affiliate program.

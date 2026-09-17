@@ -1,3 +1,7 @@
+---
+title: seo-mcp-car-dealerships
+last_updated: 2026-09-17
+---
 # MCP for Car Dealerships - Sales, F&I, Service, Parts Performance
 
 Dealerships run: CDK/Reynolds for DMS, QuickBooks for financials, CRM for sales pipeline, digital retail platforms.

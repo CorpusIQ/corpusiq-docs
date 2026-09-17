@@ -1,7 +1,7 @@
 ---
 title: "MCP Sweep - July 26, 2026 (Cron - ~12:00 UTC)"
 description: "Setup and usage guide for MCP Sweep - July 26, 2026 (Cron - ~12:00 UTC). Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july26-2026-cron/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

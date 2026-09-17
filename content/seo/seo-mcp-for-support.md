@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-support
+last_updated: 2026-09-17
+---
 # MCP for Customer Support - Know Everything Before You Respond
 
 A customer emails: "Where's my order?" You open Shopify. Find the order. Check the tracking. Open the email thread. Find the last response. Fifteen minutes later, you reply.

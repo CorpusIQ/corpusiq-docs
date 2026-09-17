@@ -3,7 +3,7 @@ title: "LLM Observability MCP (LangTrace) - Open Source"
 description: "Open source LLM observability proxy. Drop-in for OpenAI, Anthropic, Gemini with request logging, cost tracking, and agent tracing. Self-host with Docker"
 category: mcp
 tags: [mcp-server, devops, llm, observability, monitoring, cost-tracking, agent-tracing]
-last_updated: 2026-07-14
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/llm-observability-mcp/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: seo-connect-xero-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Xero to ChatGPT - Accounting Answers Without Reports
 
 Your accounting runs on Xero. Invoices, bills, bank reconciliation, P&L, balance sheet. Every answer requires running reports.

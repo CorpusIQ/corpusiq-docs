@@ -3,7 +3,7 @@ title: "Maqami Travel MCP - Hotel Booking for AI Agents"
 description: "Search, compare, and book hotels across 249 countries from any MCP client. 65 tools for hotel discovery, reservation management, and travel planning"
 category: mcp
 tags: [mcp-server, travel, hotel-booking, commerce, hospitality, travel-tech]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/maqami-travel/"
 robots: "index,follow"
 

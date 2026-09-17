@@ -1,3 +1,7 @@
+---
+title: seo-best-saas-affiliate-programs
+last_updated: 2026-09-17
+---
 # Best SaaS Affiliate Programs with Recurring Commissions in 2026
 
 Recurring affiliate commissions are the holy grail. One referral pays you for years - not just once. Here are the top programs that offer genuine recurring revenue for affiliates.

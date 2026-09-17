@@ -7,7 +7,7 @@ language: Unknown
 transport: Streamable HTTP (Remote) + stdio
 auth: x402 (USDC payment) or OAuth
 category: Marketing & Advertising
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/pretestads-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

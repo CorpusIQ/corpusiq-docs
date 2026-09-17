@@ -1,3 +1,7 @@
+---
+title: seo-corpusiq-vs-vector-db
+last_updated: 2026-09-17
+---
 # MCP vs Vector Databases - Live Data or Pre-Indexed Search
 
 Vector databases are the backbone of RAG (retrieval-augmented generation). They store embeddings of your documents and retrieve relevant chunks when you ask a question.

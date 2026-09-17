@@ -1,7 +1,7 @@
 ---
 title: "AIS Memory MCP - CorpusIQ Docs"
 description: "Setup and usage guide for AIS Memory MCP. Part of the Hermes resource directory. Category: Knowledge Identity."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ais-memory-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

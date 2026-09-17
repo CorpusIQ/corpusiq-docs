@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-accountants
+last_updated: 2026-09-17
+---
 # MCP for Accountants - Ask QuickBooks Questions in Plain English
 
 You spend half your day in QuickBooks. Pulling reports. Running P&Ls. Checking invoices. Reconciling accounts.

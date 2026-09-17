@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-marketing
+last_updated: 2026-09-17
+---
 # MCP for Marketing Teams - Know Your ROAS in Real Time
 
 You manage Google Ads, Meta Ads, LinkedIn Ads, TikTok. You send emails through Klaviyo. You track traffic in GA4. Your SEO lives in Ahrefs and Semrush.

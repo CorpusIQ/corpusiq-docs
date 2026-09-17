@@ -7,7 +7,7 @@ language: Unknown
 transport: stdio
 auth: None / API Key
 category: DevOps & Monitoring
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/lastping-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

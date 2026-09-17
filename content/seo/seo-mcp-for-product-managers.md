@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-product-managers
+last_updated: 2026-09-17
+---
 # MCP for Product Managers - User Data, Revenue, and Roadmap in One Place
 
 You're a PM. Your data lives in: GA4 (user behavior), Stripe (revenue), HubSpot (customer feedback), Jira (engineering velocity), and Slack (team discussions).

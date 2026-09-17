@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-agencies-reporting
+last_updated: 2026-09-17
+---
 # MCP for Agencies - Client Reporting Without the All-Nighter
 
 Your agency serves 10+ clients. Each has different tools. Every month you spend 40+ hours pulling reports.

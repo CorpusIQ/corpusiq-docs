@@ -1,3 +1,7 @@
+---
+title: affiliate-content-kit
+last_updated: 2026-09-17
+---
 # Affiliate Promotion Content Kit - Ready-to-Post
 
 Copy-paste these across your channels. No AI voice. Human. Direct.

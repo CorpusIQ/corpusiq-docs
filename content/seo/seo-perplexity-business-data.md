@@ -1,3 +1,7 @@
+---
+title: seo-perplexity-business-data
+last_updated: 2026-09-17
+---
 # Perplexity for Business Data - Research-Grade Answers from Your Tools
 
 Perplexity can now query your business data through MCP. Financials, pipeline, analytics - with citations.

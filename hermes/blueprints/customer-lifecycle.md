@@ -3,7 +3,7 @@ title: "Customer Lifecycle Automation Blueprint"
 description: Multi-stage Hermes Agent customer lifecycle blueprint. Automate onboarding, engagement monitoring, churn detection, retention campaigns, and win-back. CRM, email marketing, and analytics orchestrated through cron-driven workflows.
 category: blueprints
 tags: [hermes-agent, blueprint, customer-lifecycle, onboarding, retention, churn-prevention, crm-automation]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/blueprints/customer-lifecycle/"
 robots: "index,follow"
 

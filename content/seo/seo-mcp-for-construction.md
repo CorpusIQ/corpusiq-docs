@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-construction
+last_updated: 2026-09-17
+---
 # MCP for Construction - Job Costs, Project Financials, Vendor Payments
 
 Construction companies manage: Procore for projects, QuickBooks for job costing, Stripe for progress payments, HubSpot for client pipeline, and Gmail for subcontractor communications.

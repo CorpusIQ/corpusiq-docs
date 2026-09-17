@@ -3,7 +3,7 @@ title: "Stock Market MCP Server - Integration Guide"
 description: "Connect AI agents to 90+ free financial data tools - SEC filings, insider trades, FRED macro, 13F holdings, and more via the Equibles Stock Market MCP"
 category: mcp
 tags: [mcp-server, finance, stocks, market-data, sec, investing]
-last_updated: 2026-07-19
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/stock-market-mcp-server/"
 robots: "index,follow"
 

@@ -3,7 +3,7 @@ title: SIXTA Connect MCP Server Integration Guide
 description: Zero-connection SQL analysis for PostgreSQL and MySQL - paste queries, get instant fixes from AI agents with SIXTA Connect MCP server
 category: mcp
 tags: [mcp, sixta, sql, database, postgresql, mysql, analysis, optimization, hermes-agent]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sixta-connect/"
 robots: "index,follow"
 

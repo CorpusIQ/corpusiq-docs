@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-real-estate
+last_updated: 2026-09-17
+---
 # MCP for Real Estate - Know Your Numbers Across Every Property
 
 You manage 20 properties. Each has its own P&L in QuickBooks. Rent payments hit Stripe. Maintenance tickets live in your property management software. Marketing spend sits in Google Ads.

@@ -1,7 +1,7 @@
 ---
 title: "Read-Only External-Source Retrieval: Why AI Should Never"
 description: "Setup and usage guide for Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

@@ -1,3 +1,7 @@
+---
+title: seo-connect-drive-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Google Drive to ChatGPT - Your Files, Searchable by AI
 
 Your company documents live in Google Drive. Contracts, proposals, reports, spreadsheets. Finding "the Q3 marketing plan" means searching Drive manually.

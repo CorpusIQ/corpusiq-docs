@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-insurance
+last_updated: 2026-09-17
+---
 # MCP for Insurance - Policy Data, Claims, and Financials in One Question
 
 Insurance agencies manage: policy management systems, QuickBooks for commissions, Stripe for premium payments, HubSpot for client relationships, and Gmail for claims correspondence.

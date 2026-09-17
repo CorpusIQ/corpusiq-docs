@@ -1,7 +1,7 @@
 ---
 title: "githunt-mcp Server - CorpusIQ Docs"
 description: "Setup and usage guide for githunt-mcp Server. Part of the Hermes resource directory. URL: https://github.com/githunt-agent/githunt-mcp."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/githunt-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

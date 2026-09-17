@@ -1,3 +1,7 @@
+---
+title: seo-corpusiq-vs-fivetran
+last_updated: 2026-09-17
+---
 # CorpusIQ vs Fivetran - Live Queries Beat Batch Pipelines
 
 Fivetran moves data from your tools into a warehouse. CorpusIQ queries your tools live. Two different philosophies. Here's when to use which.

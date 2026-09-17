@@ -3,7 +3,7 @@ title: "Linkly MCP - Link Shortener with Geo Redirects &"
 description: "Link management with geo redirects, link rotators, and conversion tracking. MCP-native link operations for AI agents."
 category: mcp
 tags: [mcp-server, marketing, link-management, analytics, conversion-tracking]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkly-mcp/"
 robots: "index,follow"
 

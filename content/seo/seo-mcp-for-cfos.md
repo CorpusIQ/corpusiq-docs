@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-cfos
+last_updated: 2026-09-17
+---
 # MCP for CFOs - The End of "Let Me Check and Get Back to You"
 
 You're the CFO. Every question the CEO asks requires data from 3+ systems. "What's our cash position?" = QuickBooks + Stripe + bank. "What's our forecast?" = pipeline + revenue history + burn rate.

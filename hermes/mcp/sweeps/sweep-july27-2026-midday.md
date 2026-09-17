@@ -1,7 +1,7 @@
 ---
 title: MCP Server Sweep - July 27, 2026 (Mid-Day)
 description: "The morning sweep (10:05 UTC) processed mcpservers.org /all, mcpso issues up to #3319, and the awesome-mcp-servers PR queue. This mid-day sweep found:"
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july27-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -1,3 +1,7 @@
+---
+title: seo-mcp-salons
+last_updated: 2026-09-17
+---
 # MCP for Salons - Revenue Per Chair, Product Sales, Client Retention
 
 Salon owners run: Booker for appointments, QuickBooks for financials, Stripe for payments, Klaviyo for client marketing.

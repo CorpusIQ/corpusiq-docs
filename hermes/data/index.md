@@ -1,7 +1,7 @@
 ---
 title: "Ecosystem Data - CorpusIQ Docs"
 description: "Discovery data, repository approvals, and inclusion criteria for the Hermes ecosystem. Data files powering engine approved repositories, pending reviews, c."
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/data/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

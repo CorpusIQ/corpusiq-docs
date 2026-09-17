@@ -3,7 +3,7 @@ title: FreshBooks MCP Server Integration Guide
 description: Accounting automation for AI agents - manage clients, invoices, expenses, and payments through FreshBooks MCP. Connect your accounting to Hermes Agent.
 category: mcp
 tags: [mcp, freshbooks, accounting, invoicing, expenses, payments, small-business, hermes-agent]
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/freshbooks-mcp/"
 robots: "index,follow"
 

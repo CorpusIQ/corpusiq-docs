@@ -1,3 +1,7 @@
+---
+title: seo-stripe-analytics-deep
+last_updated: 2026-09-17
+---
 # MCP for Stripe Analytics - Know Your Revenue Inside Out
 
 Stripe knows your revenue better than anyone. But the dashboard only shows surface-level numbers.

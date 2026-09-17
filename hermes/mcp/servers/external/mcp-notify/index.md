@@ -3,7 +3,7 @@ title: "MCP Notify - Monitor the MCP Registry for New Servers"
 description: "Integration guide for nirholas/mcp-notify. Real-time monitoring of the MCP ecosystem: new/updated/removed servers, notifications via Discord, Slack, Email"
 category: mcp
 tags: [mcp-server, monitoring, notifications, devops, registry, hermes-agent]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 mcp_server: nirholas/mcp-notify
 stars: 28
 source: mcpservers.org

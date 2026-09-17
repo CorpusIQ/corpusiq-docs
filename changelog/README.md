@@ -1,3 +1,7 @@
+---
+title: README
+last_updated: 2026-09-17
+---
 # Changelog
 
 What's shipped to production, newest first. Customer-facing changes only - internal refactors and infrastructure work live in the engineering tracker, not

@@ -3,7 +3,7 @@ title: "endoflife.ai MCP - Integration Guide"
 description: "Connect AI agents to endoflife.ai for software end-of-life intelligence - EOL dates, support status, and CVE risk scores across 485+ tracked products."
 category: mcp
 tags: [mcp-server, devops, security, eol, risk-management]
-last_updated: 2026-07-19
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/endoflife-mcp/"
 robots: "index,follow"
 

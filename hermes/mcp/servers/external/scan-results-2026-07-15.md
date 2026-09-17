@@ -3,7 +3,7 @@ title: "MCP Server Scan - July 15, 2026"
 description: "Automated scan of mcpservers.org (sitemap) + mcp.so. 11 new servers found, 4 business-relevant guides created."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-15/"
 robots: "index,follow"
 

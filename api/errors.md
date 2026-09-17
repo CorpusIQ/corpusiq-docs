@@ -1,3 +1,7 @@
+---
+title: errors
+last_updated: 2026-09-17
+---
 # API Errors
 
 The CorpusIQ API uses standard HTTP status codes and returns consistent error responses.

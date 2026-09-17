@@ -1,3 +1,7 @@
+---
+title: seo-connect-multiple-data-sources
+last_updated: 2026-09-17
+---
 # How to Connect Multiple Data Sources to AI - The Complete Guide
 
 You have five data sources: QuickBooks, Stripe, Shopify, HubSpot, GA4. Each one knows part of the story. None of them talk to each other.

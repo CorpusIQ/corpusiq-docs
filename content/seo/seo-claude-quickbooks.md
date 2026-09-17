@@ -1,3 +1,7 @@
+---
+title: seo-claude-quickbooks
+last_updated: 2026-09-17
+---
 # Claude for QuickBooks - Ask Your Financials Anything
 
 Claude can query your real QuickBooks data. P&L, invoices, expenses, AR aging - all in plain English.

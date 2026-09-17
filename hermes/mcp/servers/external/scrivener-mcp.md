@@ -3,7 +3,7 @@ title: "Scrivener MCP - Integration Guide"
 description: "Connect Scrivener manuscripts to AI assistants. 53+ tools for document management, writing analysis, semantic search, and character/plot tracking."
 category: mcp
 tags: [mcp-server, writing, productivity, content-creation, document-management]
-last_updated: 2026-07-14
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scrivener-mcp/"
 robots: "index,follow"
 

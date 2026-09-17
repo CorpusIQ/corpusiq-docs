@@ -1,3 +1,7 @@
+---
+title: README
+last_updated: 2026-09-17
+---
 # CorpusIQ - Stop building reports by hand. Just ask your AI.
 
 [![MCP Toplist](https://mcptoplist.com/badge/glama%2FCorpusIQ%2Fcorpusiq-docs.svg)](https://mcptoplist.com/server/glama%2FCorpusIQ%2Fcorpusiq-docs)

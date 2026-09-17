@@ -3,7 +3,7 @@ title: "akta.pro MCP - Integration Guide"
 description: "Private company intelligence MCP - company search, structured profiles, news monitoring, and alternative signals (headcount, traffic, reviews) for AI agents."
 category: mcp
 tags: [mcp-server, company-intelligence, market-research, business-intelligence, due-diligence, hermes-agent]
-last_updated: 2026-08-10
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/akta-pro-mcp/"
 robots: "index,follow"
 

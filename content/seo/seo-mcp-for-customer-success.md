@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-customer-success
+last_updated: 2026-09-17
+---
 # MCP for Customer Success - Know Every Account Before They Churn
 
 CS teams live in HubSpot (account health), Stripe (revenue), and their support inbox (tickets). Three tools. Zero unified view of which accounts need attention.

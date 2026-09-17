@@ -1,3 +1,7 @@
+---
+title: seo-connect-cosmosdb-claude
+last_updated: 2026-09-17
+---
 # Connect Cosmos DB to Claude - Azure Data in Plain English
 
 Your NoSQL application data lives in Cosmos DB. Documents, containers, partition keys. Every answer requires writing queries.

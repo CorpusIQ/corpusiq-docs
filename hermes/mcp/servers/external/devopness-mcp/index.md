@@ -3,7 +3,7 @@ title: "Devopness MCP - AI DevOps on Your Cloud, Any Stack, One"
 description: "Integration guide for devopness/devopness. Deploy apps, infrastructure, and CI/CD across any cloud via MCP. Deterministic API, no cloud credentials in AI"
 category: mcp
 tags: [mcp-server, devops, cloud, deployment, infrastructure, ci-cd, hermes-agent]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 mcp_server: devopness/devopness
 stars: 434
 source: mcpservers.org

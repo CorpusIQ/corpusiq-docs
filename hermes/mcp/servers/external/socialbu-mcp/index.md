@@ -3,7 +3,7 @@ title: "SocialBu MCP - Social Media Management for AI Agents"
 description: "Connect any MCP-compatible AI assistant (Claude, ChatGPT, Cursor, Hermes) to SocialBu for social media posting, analytics, and scheduling across all major"
 category: mcp
 tags: [mcp-server, social-media, marketing, automation, content-scheduling]
-last_updated: 2026-07-18
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/socialbu-mcp/"
 robots: "index,follow"
 

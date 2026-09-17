@@ -3,7 +3,7 @@ title: "AfterLaunch MCP - Integration Guide"
 description: "Agentic growth marketing MCP - 29 tools for AI answer visibility, growth backlog, and shipping actions across ChatGPT, Gemini, Perplexity, and Google AI"
 category: mcp
 tags: [mcp-server, growth-marketing, seo, geo, ai-visibility, marketing-automation, hermes-agent]
-last_updated: 2026-07-30
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/afterlaunch-mcp/"
 robots: "index,follow"
 

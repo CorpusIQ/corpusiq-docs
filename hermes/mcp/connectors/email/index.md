@@ -3,7 +3,7 @@ title: "CorpusIQ Email Connectors - CorpusIQ Docs"
 description: "Gmail and Outlook email connectors for CorpusIQ MCP. Read, search, send, and manage email through AI agents with OAuth authentication."
 category: mcp
 tags: [corpusiq, mcp-connector]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/connectors/email/"
 robots: "index,follow"
 

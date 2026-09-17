@@ -1,3 +1,7 @@
+---
+title: seo-mcp-music-industry
+last_updated: 2026-09-17
+---
 # MCP for Music Industry - Streaming Revenue, Publishing, Tour Financials
 
 Artists and labels manage: DistroKid for streaming, QuickBooks for financials, Stripe for merch, Songtrust for publishing, Bandsintown for touring.

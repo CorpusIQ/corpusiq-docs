@@ -1,7 +1,7 @@
 ---
 title: MCP Scan Results - July 24, 2026 (Evening)
 description: "Setup and usage guide for MCP Scan Results - July 24, 2026 (Evening). Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-24/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

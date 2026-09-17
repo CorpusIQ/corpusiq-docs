@@ -1,3 +1,7 @@
+---
+title: seo-mcp-wealth-management
+last_updated: 2026-09-17
+---
 # MCP for Wealth Management - Portfolio Analytics Without Manual Reports
 
 Wealth managers track: portfolio performance, client cash flows, fee revenue, AUM growth. All in different systems.

@@ -1,3 +1,7 @@
+---
+title: seo-mcp-landscaping
+last_updated: 2026-09-17
+---
 # MCP for Landscaping - Crew Performance, Job Costing, and Revenue
 
 Landscaping companies run: LMN for estimating, QuickBooks for financials, Stripe for payments, and HubSpot for commercial client pipeline.

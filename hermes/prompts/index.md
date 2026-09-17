@@ -3,7 +3,7 @@ title: "Hermes Agent Prompt Library - CorpusIQ Docs"
 description: Curated Hermes Agent prompt templates for code generation, content creation, data analysis, business operations, research, and creative work. Customization guide, model selection, chaining strategies, and common pitfalls.
 category: prompts
 tags: [hermes-agent, prompts, prompt-templates, code-generation, content-creation, data-analysis, ai-prompts]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/"
 robots: "index,follow"
 

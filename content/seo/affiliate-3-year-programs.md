@@ -1,3 +1,7 @@
+---
+title: affiliate-3-year-programs
+last_updated: 2026-09-17
+---
 # Affiliate Programs That Pay Recurring for 3+ Years
 
 Most affiliate programs cap at 12 months. A few pay for 24. Almost none pay for 36+.

@@ -3,7 +3,7 @@ title: "MCP Server Sweep - July 22, 2026 (Evening)"
 description: "GitHub API sweep - 47 net-new MCP servers created July 22. 6 integration guides drafted for business-operator-relevant servers. Headline finds: Collibra"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026, github]
-last_updated: 2026-07-22
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july22-2026-evening/"
 robots: "index,follow"
 

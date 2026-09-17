@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-hospitality
+last_updated: 2026-09-17
+---
 # MCP for Hospitality - Every Property, Every System, One Question
 
 You manage a hotel or restaurant group. Your PMS handles reservations. Your POS handles transactions. QuickBooks handles financials. Stripe processes payments. And your booking platform drives revenue.

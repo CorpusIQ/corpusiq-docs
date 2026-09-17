@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-consulting
+last_updated: 2026-09-17
+---
 # MCP for Consulting Firms - One Question Across Every Client
 
 You manage 10 clients. Each has QuickBooks, HubSpot, and Stripe. That's 30 systems to check.

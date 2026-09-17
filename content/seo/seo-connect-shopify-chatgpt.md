@@ -1,3 +1,7 @@
+---
+title: seo-connect-shopify-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Shopify to ChatGPT - Your Store Data in Plain English
 
 Your store runs on Shopify. Orders, customers, products, inventory. Every question requires filtering, exporting, and building a report.

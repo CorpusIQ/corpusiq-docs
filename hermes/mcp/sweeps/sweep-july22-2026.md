@@ -3,7 +3,7 @@ title: "MCP Server Sweep - July 22, 2026"
 description: "8 new MCP servers discovered from mcp.so (newest-first listing). 4 integration guides drafted for business-operator-relevant servers. Headline finds: Sugra"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
-last_updated: 2026-07-22
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july22-2026/"
 robots: "index,follow"
 

@@ -3,7 +3,7 @@ title: BuiltWith MCP Server Integration Guide
 description: Technology profiling for AI agents - discover what websites are built with. Find tech stacks, ecommerce platforms, analytics tools, and hosting providers for competitive research.
 category: mcp
 tags: [mcp, builtwith, technology-profiling, competitive-research, lead-gen, tech-stack, hermes-agent]
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/builtwith-mcp/"
 robots: "index,follow"
 

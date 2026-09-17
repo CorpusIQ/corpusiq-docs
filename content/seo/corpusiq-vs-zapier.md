@@ -1,3 +1,7 @@
+---
+title: corpusiq-vs-zapier
+last_updated: 2026-09-17
+---
 # CorpusIQ vs Zapier - Why MCP Changes Everything About Business Automation
 
 **CorpusIQ:** Live data for AI assistants. Ask questions, get real answers from your actual business tools. 

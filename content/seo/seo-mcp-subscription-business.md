@@ -1,3 +1,7 @@
+---
+title: seo-mcp-subscription-business
+last_updated: 2026-09-17
+---
 # MCP for Subscription Businesses - MRR, Churn, LTV in One Question
 
 Subscription businesses live in Stripe. MRR, churn, LTV, expansion revenue. But the answers are buried in dashboards and exports.

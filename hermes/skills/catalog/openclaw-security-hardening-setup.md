@@ -1,7 +1,7 @@
 ---
 title: OpenClaw Security Hardening - Security Suite Setup Guide
 description: Setup guide for the openclaw-security-hardening skill - lock down your OpenClaw agent with automated security audits, file permission hardening, and network restriction profiles.
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-security-hardening-setup/"
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]

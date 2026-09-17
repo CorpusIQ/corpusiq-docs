@@ -1,3 +1,7 @@
+---
+title: seo-connect-zendesk-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Zendesk to ChatGPT - Support Tickets in Plain English
 
 Your customer support runs on Zendesk. Tickets, macros, SLAs, satisfaction scores. Spotting trends means building reports and digging through views.

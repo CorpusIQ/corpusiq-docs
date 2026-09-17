@@ -3,7 +3,7 @@ title: "Hermes Agent Automation Blueprints"
 description: Production-ready Hermes Agent automation blueprints for daily operations, customer lifecycle, content pipeline, financial close, and incident response. Cron-anchored workflows with human decision gates.
 category: blueprints
 tags: [hermes-agent, blueprints, automation, workflows, cron, daily-operations, customer-lifecycle, content-pipeline, financial-close, incident-response]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/blueprints/"
 robots: "index,follow"
 

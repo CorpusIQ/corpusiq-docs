@@ -1,3 +1,7 @@
+---
+title: seo-quickbooks-dashboard-chatgpt
+last_updated: 2026-09-17
+---
 # QuickBooks Dashboard with ChatGPT - Real-Time Financial View
 
 You don't need a dashboard. You need answers.

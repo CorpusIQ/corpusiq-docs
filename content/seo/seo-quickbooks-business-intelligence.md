@@ -1,3 +1,7 @@
+---
+title: seo-quickbooks-business-intelligence
+last_updated: 2026-09-17
+---
 # QuickBooks Business Intelligence - Financial Answers Without the Learning Curve
 
 QuickBooks has the data. Finding it requires knowing which report to run, which date range to set, and which columns to include.

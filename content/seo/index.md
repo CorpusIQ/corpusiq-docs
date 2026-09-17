@@ -1,3 +1,7 @@
+---
+title: index
+last_updated: 2026-09-17
+---
 # SEO Content Library
 
 Targeted landing pages and content optimized for search engines, covering MCP integration with specific business tools and platforms.

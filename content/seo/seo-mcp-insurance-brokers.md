@@ -1,3 +1,7 @@
+---
+title: seo-mcp-insurance-brokers
+last_updated: 2026-09-17
+---
 # MCP for Insurance Brokers - Every Policy, Every Client, One View
 
 Independent brokers manage policies across 10+ carriers. Commissions, renewals, claims - spread across carrier portals and your agency management system.

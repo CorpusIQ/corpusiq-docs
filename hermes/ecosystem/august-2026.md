@@ -1,7 +1,7 @@
 ---
 title: Hermes Ecosystem Discovery - August 2026
 description: "Discoveries from a GitHub ecosystem scan: loop-engineering, solace-agent-mesh, loushang, BrowserWing, shellfirm, cordum, and other tools for AI agent governance and automation"
-last_updated: 2026-08-18
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/august-2026/"
 robots: "index,follow"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]

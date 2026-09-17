@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-auto-dealers
+last_updated: 2026-09-17
+---
 # MCP for Auto Dealerships - Sales, Service, Parts, and Finance in One View
 
 Dealerships run: DMS for inventory and service, QuickBooks for financials, Stripe for payments, HubSpot for sales pipeline, and Gmail for customer communications.

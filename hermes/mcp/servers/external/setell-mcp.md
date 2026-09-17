@@ -3,7 +3,7 @@ title: "Setell MCP - Quote-to-Cash Agent for Small Service"
 description: "Setell MCP server - vertical AI agent for quote-to-cash workflows in small service businesses (machine shops, contractors, field services). Generate quotes"
 category: mcp
 tags: [mcp-server, finance, quote-to-cash, service-business, smb, operations]
-last_updated: 2026-07-19
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/setell-mcp/"
 robots: "index,follow"
 

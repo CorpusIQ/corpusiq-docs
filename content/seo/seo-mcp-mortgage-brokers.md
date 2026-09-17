@@ -1,3 +1,7 @@
+---
+title: seo-mcp-mortgage-brokers
+last_updated: 2026-09-17
+---
 # MCP for Mortgage Brokers - Pipeline, Commissions, and Client Data
 
 Mortgage brokers track: loan pipeline in your LOS, commissions in QuickBooks, client communications in Gmail, leads in HubSpot.

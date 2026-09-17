@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-healthcare
+last_updated: 2026-09-17
+---
 # MCP for Healthcare - Patient Data, Billing, and Compliance Unified
 
 Healthcare organizations manage: EHR for patients, QuickBooks for financials, Stripe for payments, HubSpot for referrals, and Gmail for provider communications.

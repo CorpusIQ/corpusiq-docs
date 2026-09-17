@@ -3,7 +3,7 @@ title: "CrustAPI MCP - Live Google Search for AI Agents"
 description: "Live Google Search, Maps, News, Images and Reviews for AI agents. Pay only for results - no subscription."
 category: mcp
 tags: [mcp-server, search, google, maps, news, research]
-last_updated: 2026-07-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/crustapi-mcp/"
 robots: "index,follow"
 

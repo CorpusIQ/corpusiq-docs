@@ -1,3 +1,7 @@
+---
+title: README
+last_updated: 2026-09-17
+---
 # Reporting
 
 CorpusIQ lets you ask questions instead of building reports. But when you need to share insights, here's how.

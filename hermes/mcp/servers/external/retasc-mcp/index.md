@@ -3,7 +3,7 @@ title: "Retasc MCP - Integration Guide"
 description: "The issue tracker for AI agents over MCP. Atomic claims, dependency-aware dispatch, parallel swarms, and cross-runtime handoffs for agent orchestration."
 category: mcp
 tags: [mcp-server, agent-orchestration, task-management, multi-agent, issue-tracker, claude-code, hermes-agent]
-last_updated: 2026-07-28
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/retasc-mcp/"
 robots: "index,follow"
 

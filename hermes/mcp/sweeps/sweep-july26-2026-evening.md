@@ -1,7 +1,7 @@
 ---
 title: "MCP Sweep - July 26, 2026 (Evening - ~22:00 UTC)"
 description: "- Method: mcpservers.org priority-servers sitemap (1,190+ entries, sorted by lastmod) + sitemaps 2-6 sampled."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july26-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -3,7 +3,7 @@ title: "Container Tracking MCP - Ocean Freight Visibility"
 description: "Track ocean containers across 200+ shipping lines by container number, bill of lading, or booking reference. Live milestones, vessel positions, and supply"
 category: mcp
 tags: [mcp-server, logistics, shipping, supply-chain, container-tracking, ocean-freight]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/container-tracking-mcp/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: README
+last_updated: 2026-09-17
+---
 # Security
 
 CorpusIQ reads authorized business records live and limits what it retains.

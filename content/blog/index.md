@@ -1,3 +1,7 @@
+---
+title: index
+last_updated: 2026-09-17
+---
 # CorpusIQ Blog
 
 Product updates, MCP ecosystem insights, and guides for business operators.

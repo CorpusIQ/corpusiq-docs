@@ -1,3 +1,7 @@
+---
+title: affiliate-where-to-find
+last_updated: 2026-09-17
+---
 # Where to Find High-Converting SaaS Affiliate Programs - 2026 Guide
 
 Not all affiliate programs are worth promoting. The ones that pay best share three traits: high recurring commission, long cookie windows, and products people actually keep using.

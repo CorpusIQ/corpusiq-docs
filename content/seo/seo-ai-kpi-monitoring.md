@@ -1,3 +1,7 @@
+---
+title: seo-ai-kpi-monitoring
+last_updated: 2026-09-17
+---
 # AI for KPI Monitoring - Know Your Numbers Before They Know You
 
 KPIs are supposed to tell you when something's wrong. In practice, they tell you something was wrong three weeks ago - when the monthly report finally lands.

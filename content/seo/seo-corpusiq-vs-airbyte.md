@@ -1,3 +1,7 @@
+---
+title: seo-corpusiq-vs-airbyte
+last_updated: 2026-09-17
+---
 # CorpusIQ vs Airbyte - Live Queries or ETL Pipelines
 
 Airbyte is the leading open-source data integration platform. CorpusIQ queries your tools live via MCP. Two different philosophies for connecting business data to the tools that need it.

@@ -1,3 +1,7 @@
+---
+title: seo-connect-calendly-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Calendly to ChatGPT - Your Schedule, Queryable by AI
 
 Your meetings live in Calendly. Upcoming events, invitees, scheduling links. Coordinating across teams means checking multiple calendars.

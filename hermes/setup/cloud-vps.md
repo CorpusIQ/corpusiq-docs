@@ -3,7 +3,7 @@ title: "Cloud VPS Hermes Agent Setup - CorpusIQ Docs"
 description: Deploy Hermes Agent on a cloud VPS for always-on AI automation. Step-by-step setup for Hetzner, DigitalOcean, AWS, Vultr. API-based models, systemd persistence, security hardening. $5/month budget deployment.
 category: setup
 tags: [cloud-vps, hermes-agent, setup-guide, hetzner, digitalocean, openrouter, systemd, 24/7-automation]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/setup/cloud-vps/"
 robots: "index,follow"
 

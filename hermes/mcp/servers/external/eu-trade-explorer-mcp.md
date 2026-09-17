@@ -3,7 +3,7 @@ title: "EU Trade Explorer MCP - European Trade & Industrial Data"
 description: "MCP server providing descriptive and analytical statistics about EU trade and industrial production. Essential for operators in international trade, supply"
 category: mcp
 tags: [mcp-server, finance, trade, europe, supply-chain, international-business, economic-data]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/eu-trade-explorer-mcp/"
 robots: "index,follow"
 

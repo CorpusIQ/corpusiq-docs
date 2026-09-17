@@ -3,7 +3,7 @@ title: "NotHumanSearch - AI Agent Search Engine"
 description: "Connect NotHumanSearch MCP to understand how AI agents discover and rank your business. Optimize for agentic search visibility."
 category: mcp
 tags: [mcp, geo, ai-search, agentic-seo, nothumansearch, visibility]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nothumansearch/"
 robots: "index,follow"
 

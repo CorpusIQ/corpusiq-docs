@@ -1,3 +1,7 @@
+---
+title: seo-mcp-funeral-homes
+last_updated: 2026-09-17
+---
 # MCP for Funeral Homes - Service Revenue, Pre-Need Sales, Operations
 
 Funeral homes run: Mortware for case management, QuickBooks for financials, Stripe for payments, pre-need contract systems.

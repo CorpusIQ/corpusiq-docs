@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-data-teams
+last_updated: 2026-09-17
+---
 # MCP for Data Teams - Stop Being the Company's SQL Help Desk
 
 Your data team built the warehouse. Modeled the data. Maintains the pipelines. And spends 60% of their time answering "can you pull this week's Shopify numbers?"

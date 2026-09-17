@@ -3,7 +3,7 @@ title: "AppSigma App Store Data MCP - ASO & App Analytics"
 description: "Full public App Store search results as users see them - rankings, reviews, ASO keywords, sponsored slots, charts, and app analytics from any MCP client."
 category: mcp
 tags: [mcp-server, app-store, aso, ios, app-analytics, keyword-research, app-marketing]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/appsigma-app-store-data-mcp/"
 robots: "index,follow"
 

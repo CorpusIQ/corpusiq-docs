@@ -1,3 +1,7 @@
+---
+title: seo-connect-sheets-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Google Sheets to ChatGPT - Spreadsheet Data in Plain English
 
 Your data lives in Google Sheets. Budgets, forecasts, customer lists, project trackers. Answering questions means scrolling, filtering, and building formulas.

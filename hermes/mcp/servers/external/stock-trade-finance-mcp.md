@@ -3,7 +3,7 @@ title: "Stock Trade Finance MCP - Real-Time Market Data via"
 description: "MCP server for stock prices, financial news, forex rates, and fundamental data via Tiingo API. Essential for operators managing investments or building"
 category: mcp
 tags: [mcp-server, finance, stocks, trading, forex, market-data, investment]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/stock-trade-finance-mcp/"
 robots: "index,follow"
 

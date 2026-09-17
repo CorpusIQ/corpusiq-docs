@@ -3,7 +3,7 @@ title: "Odoo MCP - Zero-Setup ERP Connector for AI Agents"
 description: "Free AI layer for Odoo ERP v16+. Connects any MCP client to accounting, inventory, CRM, and sales - no Odoo App Store module required. Business operators"
 category: mcp
 tags: [mcp-server, odoo, erp, accounting, inventory, crm, business-operations]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/odoo-mcp/"
 robots: "index,follow"
 

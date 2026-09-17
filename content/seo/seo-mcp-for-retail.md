@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-retail
+last_updated: 2026-09-17
+---
 # MCP for Retail - Store Performance, Inventory, and Marketing Unified
 
 Retail operators manage: Shopify/POS for sales, inventory system for stock, QuickBooks for financials, Klaviyo for email, Meta/Google for ads. Five systems. Every Monday is report day.

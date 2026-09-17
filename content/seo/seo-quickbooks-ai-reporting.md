@@ -1,3 +1,7 @@
+---
+title: seo-quickbooks-ai-reporting
+last_updated: 2026-09-17
+---
 # QuickBooks AI Reporting - Real-Time Financial Intelligence
 
 Traditional QuickBooks reporting: navigate to Reports, select type, adjust date range, customize columns, run, export, format.

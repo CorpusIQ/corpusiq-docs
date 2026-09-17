@@ -3,7 +3,7 @@ title: TendFeed MCP Server Integration Guide
 description: Bid/no-bid intelligence for EU public tenders - competition density, price corridors, SME fit, and beachhead rankings over 592,000 real TED contract awards. Connect procurement intelligence to Hermes Agent.
 category: mcp
 tags: [mcp, procurement, eu-tenders, bid-intelligence, public-contracts, ted, hermes-agent]
-last_updated: 2026-07-26
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tendfeed-mcp/"
 robots: "index,follow"
 

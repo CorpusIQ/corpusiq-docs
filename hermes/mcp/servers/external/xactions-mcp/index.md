@@ -3,7 +3,7 @@ title: "XActions MCP - X/Twitter Automation Without API Fees"
 description: "Integration guide for nirholas/xactions. Complete X/Twitter automation via MCP: scrapers, posting, analytics, growth tools. No API fees."
 category: mcp
 tags: [mcp-server, twitter, x, social-media, automation, hermes-agent]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 mcp_server: nirholas/xactions
 stars: 384
 source: mcpservers.org

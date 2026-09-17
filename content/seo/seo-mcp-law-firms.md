@@ -1,3 +1,7 @@
+---
+title: seo-mcp-law-firms
+last_updated: 2026-09-17
+---
 # MCP for Law Firms - Billable Hours, Collections, and Client Pipeline
 
 Law firms track: Clio for matters, QuickBooks for billing, Stripe for payments, HubSpot for client pipeline.

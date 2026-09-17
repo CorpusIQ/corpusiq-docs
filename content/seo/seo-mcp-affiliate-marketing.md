@@ -1,3 +1,7 @@
+---
+title: seo-mcp-affiliate-marketing
+last_updated: 2026-09-17
+---
 # MCP for Affiliate Marketing - Track Every Program in One Place
 
 You manage affiliate programs across PartnerStack, ShareASale, Impact, and direct partnerships. Tracking performance means logging into 4+ platforms, pulling reports, and reconciling them manually.

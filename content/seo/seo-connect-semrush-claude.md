@@ -1,3 +1,7 @@
+---
+title: seo-connect-semrush-claude
+last_updated: 2026-09-17
+---
 # Connect Semrush to Claude - SEO Intelligence Without Reports
 
 Your SEO and competitive data lives in Semrush. Rankings, keywords, backlinks, competitor research. Every insight requires running multiple reports.

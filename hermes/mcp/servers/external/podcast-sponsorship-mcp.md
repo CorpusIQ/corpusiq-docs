@@ -3,7 +3,7 @@ title: "Podcast Sponsorship Discovery MCP - Lead Generation"
 description: "Find brands that sponsor podcasts like yours. Reveal the buyer by name and email from 4M+ podcast sponsorships. Updated daily. Lead gen for operators."
 category: mcp
 tags: [mcp-server, marketing, sales, lead-generation, podcast, sponsorship, outreach]
-last_updated: 2026-07-14
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/podcast-sponsorship-mcp/"
 robots: "index,follow"
 

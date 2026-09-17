@@ -3,7 +3,7 @@ title: "MCP Server Sweep - July 20, 2026"
 description: "8 new business-operator-relevant MCP servers discovered from awesome-mcp-servers (punkpeye/awesome-mcp-servers) since last sweep on July 19. Headline finds"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
-last_updated: 2026-07-20
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july20-2026/"
 robots: "index,follow"
 

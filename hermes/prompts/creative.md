@@ -3,7 +3,7 @@ title: "Creative Prompts for Hermes Agent"
 description: Hermes Agent creative prompts for brainstorming, naming, design briefs, creative strategy, and ideation. Replace bracketed text with your brand context, creative brief, and style preferences. Temperature optimization tips included.
 category: prompts
 tags: [hermes-agent, prompts, creative, brainstorming, naming, design, ideation, creative-strategy]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/creative/"
 robots: "index,follow"
 

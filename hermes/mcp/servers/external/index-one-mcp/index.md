@@ -1,7 +1,7 @@
 ---
 title: "Index One MCP Server - CorpusIQ Docs"
 description: "Setup and usage guide for Index One MCP Server. Part of the Hermes resource directory. URL: https://mcpservers.org/servers/indexone-io-docs-mcp."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/index-one-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

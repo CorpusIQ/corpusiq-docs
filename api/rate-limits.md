@@ -1,3 +1,7 @@
+---
+title: rate-limits
+last_updated: 2026-09-17
+---
 # Rate Limits
 
 The CorpusIQ API enforces rate limits to ensure fair usage across all customers.

@@ -3,7 +3,7 @@ title: "MCP Server Sweep - July 19, 2026"
 description: "20 new MCP servers discovered from awesome-mcp-servers (punkpeye/awesome-mcp-servers) since last sweep on July 17. Headline finds: SignWell (official"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
-last_updated: 2026-07-19
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july19-2026/"
 robots: "index,follow"
 

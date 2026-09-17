@@ -3,7 +3,7 @@ title: STEADYWRK Dispatch MCP Server Integration Guide
 description: Field-service dispatch for AI agents - instant quotes, tracked work orders, and public evals across 8 trade verticals. Connect field operations to Hermes Agent.
 category: mcp
 tags: [mcp, field-service, dispatch, work-orders, quotes, trade-operations, hermes-agent]
-last_updated: 2026-07-26
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/steadywrk-dispatch-mcp/"
 robots: "index,follow"
 

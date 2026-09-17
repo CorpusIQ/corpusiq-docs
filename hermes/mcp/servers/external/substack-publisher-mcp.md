@@ -3,7 +3,7 @@ title: "Substack Publisher MCP - Content Analytics for AI Agents"
 description: "Query Substack posts, engagement analytics, subscriber counts, and publications through the official Publisher API from any MCP client."
 category: mcp
 tags: [mcp-server, substack, content-marketing, analytics, publishing]
-last_updated: 2026-07-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/substack-publisher-mcp/"
 robots: "index,follow"
 

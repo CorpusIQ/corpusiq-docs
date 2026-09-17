@@ -1,3 +1,7 @@
+---
+title: seo-connect-datadog-chatgpt
+last_updated: 2026-09-17
+---
 # Connect Datadog to ChatGPT - Infrastructure Analytics in Plain English
 
 Your infrastructure monitoring runs on Datadog. Metrics, traces, logs, synthetics. Every incident post-mortem requires building dashboards and digging through data.

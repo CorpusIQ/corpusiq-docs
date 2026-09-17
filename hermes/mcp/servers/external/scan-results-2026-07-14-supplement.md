@@ -3,7 +3,7 @@ title: "MCP Server Scan Supplement - July 14, 2026 (Evening)"
 description: "Supplemental scan from mcpservers.org (newly accessible) + mcp.so re-scan. 10 additional servers found, 3 business-relevant guides created."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
-last_updated: 2026-07-14
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-14-supplement/"
 robots: "index,follow"
 

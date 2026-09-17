@@ -1,3 +1,7 @@
+---
+title: seo-mcp-esports
+last_updated: 2026-09-17
+---
 # MCP for E-Sports - Tournament Revenue, Sponsorship, Team Performance
 
 E-sports organizations run: tournament platforms, QuickBooks for financials, Stripe for merchandise/tickets, social media analytics.

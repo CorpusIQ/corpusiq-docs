@@ -10,7 +10,7 @@ created: 2025-08-01
 repository: "https://github.com/atlassian/atlassian-mcp-server"
 category: "Enterprise / Project Management"
 priority: "★★★"
-last_updated: 2026-07-27
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/atlassian-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

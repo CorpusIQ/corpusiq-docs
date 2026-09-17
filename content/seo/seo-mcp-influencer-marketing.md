@@ -1,3 +1,7 @@
+---
+title: seo-mcp-influencer-marketing
+last_updated: 2026-09-17
+---
 # MCP for Influencer Marketing - Campaign Performance Across Platforms
 
 Influencer campaigns run across TikTok, Instagram, YouTube. Tracking performance means checking each platform, pulling metrics, and building manual reports.

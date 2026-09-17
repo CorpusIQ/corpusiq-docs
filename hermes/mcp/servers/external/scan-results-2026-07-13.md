@@ -3,7 +3,7 @@ title: "MCP Server Scan Results - July 13, 2026"
 description: "Daily MCP server discovery scan from mcp.so/feed. 7 new servers found today (all from July 13). Source: mcp.so (curl extraction SPA inline JSON parsing)."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
-last_updated: 2026-07-13
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-13/"
 robots: "index,follow"
 

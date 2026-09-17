@@ -1,7 +1,7 @@
 ---
 title: "n8n MCP Server ★★★ - CorpusIQ Docs"
 description: "Setup and usage guide for n8n MCP Server ★★★. Part of the Hermes resource directory. Source: mcpservers.org Last updated: July 26, 2026 (evening sweep)."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/n8n-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

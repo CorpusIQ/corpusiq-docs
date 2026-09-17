@@ -8,7 +8,7 @@ tags:
   - infrastructure-monitoring
   - incident-response
   - ai-devops-assistant
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/agents/devops-agent/"
 robots: "index,follow"
 

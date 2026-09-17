@@ -3,7 +3,7 @@ title: 1ClickReport MCP Server Integration Guide
 description: AI marketing analyst MCP - connect Google Ads, Meta Ads, GA4, Search Console, and Stripe to audit campaigns, analyze funnels, and catch wasted ad spend from one chat.
 category: mcp
 tags: [mcp, marketing-analytics, ad-audit, campaign-optimization, google-ads, meta-ads, ga4, hermes-agent]
-last_updated: 2026-07-21
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1clickreport-mcp/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-hr
+last_updated: 2026-09-17
+---
 # MCP for HR Teams - Headcount, Hiring, and Budget in One Question
 
 HR teams juggle: BambooHR for headcount, Greenhouse for recruiting, QuickBooks for payroll budget, Slack for team communications.

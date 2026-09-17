@@ -1,3 +1,7 @@
+---
+title: seo-hubspot-dashboard-chatgpt
+last_updated: 2026-09-17
+---
 # HubSpot Dashboard with ChatGPT - Pipeline in Plain English
 
 Stop building HubSpot dashboards. Start asking ChatGPT:

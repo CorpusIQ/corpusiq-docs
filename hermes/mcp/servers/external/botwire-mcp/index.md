@@ -3,7 +3,7 @@ title: "The Bot Wire MCP - Integration Guide"
 description: "40 real-time primary-source data wires - SEC EDGAR, Federal Register, federal court opinions, congressional bills, SEC/FTC enforcement, FDA approvals"
 category: mcp
 tags: [mcp-server, regulatory-data, legal-intelligence, financial-data, economic-data, compliance, hermes-agent]
-last_updated: 2026-07-31
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/botwire-mcp/"
 robots: "index,follow"
 

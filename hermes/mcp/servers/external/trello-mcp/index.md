@@ -3,7 +3,7 @@ title: "Trello MCP Server - Integration Guide"
 description: "Official Atlassian Trello MCP server. Cloud-hosted bridge for AI tools to access Trello boards, lists, cards, and checklists. OAuth 2.0. Streamable HTTP."
 category: mcp
 tags: [mcp-server, trello, atlassian, project-management, official]
-last_updated: 2026-07-17
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/trello-mcp/"
 robots: "index,follow"
 

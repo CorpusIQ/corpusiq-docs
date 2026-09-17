@@ -1,3 +1,7 @@
+---
+title: seo-mcp-budget-vs-actuals
+last_updated: 2026-09-17
+---
 # MCP for Budget vs Actuals - Know Where You Stand Every Day
 
 Budget vs actuals is the most important financial report nobody checks until month-end. By then, the variance is 30 days old and the money is already spent.

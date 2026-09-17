@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ vs Zapier: AI Business Data vs Workflow"
 description: "Setup and usage guide for CorpusIQ vs Zapier: AI Business Data vs Workflow Automation. Part of the Hermes resource directory."
-last_updated: 2026-08-12
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-zapier/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

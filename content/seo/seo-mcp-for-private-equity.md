@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-private-equity
+last_updated: 2026-09-17
+---
 # MCP for Private Equity - Deal Pipeline, PortCo Metrics, Fund Reporting
 
 PE firms manage: deal pipeline (CRM), portfolio company financials (QuickBooks), fund performance (Excel), LP reporting (everything manual), and due diligence (data rooms).

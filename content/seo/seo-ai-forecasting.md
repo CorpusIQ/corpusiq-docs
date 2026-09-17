@@ -1,3 +1,7 @@
+---
+title: seo-ai-forecasting
+last_updated: 2026-09-17
+---
 # AI for Forecasting - Predict Revenue Without Spreadsheets
 
 Traditional forecasting: export pipeline CSV, open Excel, apply close rates, adjust for seasonality, build three scenarios, present to board, be wrong within 2 weeks.

@@ -1,3 +1,7 @@
+---
+title: angle1-morning-dashboard-shuffle
+last_updated: 2026-09-17
+---
 # The Morning Dashboard Shuffle Is Killing Your Productivity
 
 Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads. Gmail. Stripe. A spreadsheet you built three months ago that nobody else understands.

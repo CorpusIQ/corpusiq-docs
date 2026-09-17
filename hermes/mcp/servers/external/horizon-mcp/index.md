@@ -3,7 +3,7 @@ title: "Horizon AI Intelligence MCP - Integration Guide"
 description: "Free AI-industry intelligence for agents - briefings, regulation tracker, and regional lenses. Provider: system-alchemist."
 category: mcp
 tags: [mcp-server, ai-intelligence, regulation, briefings, policy]
-last_updated: 2026-07-13
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/horizon-mcp/"
 robots: "index,follow"
 

@@ -3,7 +3,7 @@ title: "Security Best Practices for Hermes Agent"
 description: Hermes Agent security best practices. Token and credential management, least-privilege access, tiered approval gates, audit logging, secrets management, plugin verification, and operational security checklist.
 category: best-practices
 tags: [hermes-agent, security, credentials, approval-gates, audit-logging, least-privilege, token-management, secrets]
-last_updated: 2026-07-08
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/security/"
 robots: "index,follow"
 

@@ -1,3 +1,7 @@
+---
+title: seo-mcp-for-education
+last_updated: 2026-09-17
+---
 # MCP for Education - Student Data, Finance, and Operations in One Place
 
 Universities and EdTech companies run: SIS for students, QuickBooks for finances, Stripe for tuition payments, HubSpot for admissions pipeline, and GA4 for website analytics.

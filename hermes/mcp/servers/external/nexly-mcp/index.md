@@ -3,7 +3,7 @@ title: "Nexly Analytics MCP - Integration Guide"
 description: "Connect AI tools to Nexly product analytics via MCP. Read-only access to traffic, funnels, reports, and anomalies. OAuth 2.0. Streamable HTTP."
 category: mcp
 tags: [mcp-server, analytics, nexly, product-analytics, read-only]
-last_updated: 2026-07-17
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nexly-mcp/"
 robots: "index,follow"
 

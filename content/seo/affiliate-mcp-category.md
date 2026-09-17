@@ -1,3 +1,7 @@
+---
+title: affiliate-mcp-category
+last_updated: 2026-09-17
+---
 # Best MCP Platform Affiliate Program - Earn Recurring Commission
 
 MCP platforms are the fastest-growing category in AI. Every business operator will eventually connect their data to AI assistants through MCP. Early affiliates in this space capture the growth.

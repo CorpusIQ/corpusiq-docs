@@ -1,3 +1,7 @@
+---
+title: seo-ai-business-intelligence
+last_updated: 2026-09-17
+---
 # AI for Business Intelligence - The Complete 2026 Guide
 
 Business Intelligence is changing. The old model - dashboards, reports, data warehouses, dedicated analysts - is giving way to something simpler: ask a question, get an answer from live data.

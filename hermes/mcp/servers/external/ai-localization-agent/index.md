@@ -3,7 +3,7 @@ title: "AI Localization Agent MCP - Integration Guide"
 description: "Connect AI agents to l10n.dev's localization platform. Stop wasting AI tokens on translation workflows."
 category: mcp
 tags: [mcp-server, localization, translation, i18n, l10n-dev]
-last_updated: 2026-07-13
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ai-localization-agent/"
 robots: "index,follow"
 

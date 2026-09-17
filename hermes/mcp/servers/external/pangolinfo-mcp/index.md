@@ -3,7 +3,7 @@ title: "Pangolinfo Amazon Data MCP - Integration Guide"
 description: "19 e-commerce and IP-compliance tools - Amazon product/review/search/niche/bestseller data, AI SERP & keyword trends, WIPO trademark search, and PACER"
 category: mcp
 tags: [mcp-server, e-commerce, amazon, ip-law, trademark, patent, keyword-research, competitive-intelligence, hermes-agent]
-last_updated: 2026-07-31
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/pangolinfo-mcp/"
 robots: "index,follow"
 

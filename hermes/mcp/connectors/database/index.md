@@ -3,7 +3,7 @@ title: "CorpusIQ Database Connectors - CorpusIQ Docs"
 description: "SQL database connectors for CorpusIQ MCP. Query PostgreSQL, MySQL, and other databases through AI agents with connection-level access control."
 category: mcp
 tags: [corpusiq, mcp-connector]
-last_updated: 2026-07-15
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/connectors/database/"
 robots: "index,follow"
 

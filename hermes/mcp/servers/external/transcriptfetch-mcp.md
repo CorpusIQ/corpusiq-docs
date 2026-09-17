@@ -3,7 +3,7 @@ title: "TranscriptFetch MCP - YouTube Transcript Search &"
 description: "Fetch YouTube transcripts, search videos, browse channels, and access playlists from any MCP client. Content intelligence for AI agents."
 category: mcp
 tags: [mcp-server, youtube, transcripts, content, search, media-analysis]
-last_updated: 2026-07-16
+last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/transcriptfetch-mcp/"
 robots: "index,follow"
 

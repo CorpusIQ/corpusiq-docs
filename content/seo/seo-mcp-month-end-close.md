@@ -1,3 +1,7 @@
+---
+title: seo-mcp-month-end-close
+last_updated: 2026-09-17
+---
 # MCP for Accounting - Month-End Close in Hours, Not Days
 
 Month-end close takes 3-5 days. Pulling reports from QuickBooks. Reconciling Stripe against invoices. Confirming all entries are posted. Building the close package.

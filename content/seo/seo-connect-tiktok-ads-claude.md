@@ -1,3 +1,7 @@
+---
+title: seo-connect-tiktok-ads-claude
+last_updated: 2026-09-17
+---
 # Connect TikTok Ads to Claude - Campaign Analytics Without the Dashboard
 
 Your TikTok ad data lives in TikTok Ads Manager. Video performance, audience insights, conversion tracking. Every optimization requires switching between views.
