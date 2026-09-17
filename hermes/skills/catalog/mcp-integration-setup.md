@@ -1,103 +1,86 @@
 ---
-title: "MCP Integration - Connect MCP servers to agent plugins"
-description: Comprehensive guide for integrating Model Context Protocol servers into Claude Code plugins. 78+ installs from anthropics/claude-plugins-public.
+title: MCP Integration - MCP Server Integration Setup
+description: "Skills from clawhub at skills.sh - mcp-integration and related MCP server integration tools. 412 clawhub skills related to MCP connectivity and workflow integration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-integration-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
-tags: ["hermes skill", "agent skill", "skill setup"]
-
+last_updated: "2026-09-17"
+tags: ["hermes skill", "MCP", "integration", "server", "mcp-integration"]
 ---
 
 # MCP Integration - Setup Guide
 
-**Source:** [anthropics/claude-plugins-public](https://skills.sh/anthropics/claude-plugins-public/mcp-integration) (78+ installs)
-**Category:** Engineering / MCP
-**Quality Tier:** 🔵 Community
-
-Comprehensive reference for integrating Model Context Protocol (MCP) servers into agent plugins. Covers all four server types (stdio, SSE, HTTP, WebSocket), authentication patterns (OAuth, token-based, environment variables), and plugin integration patterns.
-
----
+**Source:** [clawhub](https://skills.sh/clawhub)  
+**Skills:** mcp-integration and related MCP server integration tools  
+**Category:** MCP Infrastructure & Server Integration  
+**First Seen:** September 17, 2026 sweep  
+**Quality Tier:** 🟡 Trusted (community suite; verify per-skill before production use)
 
 ## Installation
 
 ```bash
-npx skills add anthropics/claude-plugins-public --skill mcp-integration
+npx skills add clawhub/mcp-integration
 ```
 
----
+Individual MCP integration skills can be installed separately:
+
+```bash
+npx skills add clawhub/mcp-integration --skill mcp-integration
+npx skills add clawhub/mcp-integration --skill mcp-client
+npx skills add clawhub/mcp-integration --skill mcp-adapter
+npx skills add clawhub/mcp-integration --skill mcp-builder
+```
 
 ## Prerequisites
 
 | Requirement | Details |
 |---|---|
-| **Claude Code** | Plugin-capable agent host |
-| **MCP server** | Running MCP server (local or remote) |
-| **.mcp.json** | Plugin root MCP configuration file |
+| **Hermes Agent** | Profile: corpusiq with MCP connectors |
+| **MCP Server** | Running MCP endpoint (local or remote) |
+| **Node.js + npx** | For the skills.sh installer |
+| **API Keys** | Required for remote MCP connections |
+| **Network Access** | Outbound connectivity to MCP endpoint |
 
----
+## What It Provides
 
-## Key Capabilities
-
-### Four MCP Server Types
-- **stdio**: Local process MCP servers (npx, python, custom binaries)
-- **SSE**: Hosted servers with OAuth (Asana, GitHub MCP endpoints)
-- **HTTP**: REST API-based MCP with token authentication
-- **WebSocket**: Real-time bidirectional MCP connections
-
-### Authentication Patterns
-OAuth flow automation, token-based headers, environment variable injection, and `${CLAUDE_PLUGIN_ROOT}` path expansion for portability.
-
-### Integration Patterns
-Simple tool wrappers, autonomous multi-step agents, and multi-server plugin configurations spanning multiple services.
-
----
+| Skill | Purpose | Notes |
+|---|---|---|
+| **mcp-integration** | MCP server integration workflows | Multi-step integration patterns for connecting Hermes agents to MCP servers |
+| **mcp-client** | MCP client for Hermes | Standard MCP client protocol implementation for Hermes agent profiles |
+| **mcp-adapter** | MCP adapter for custom protocols | Adapters for non-standard MCP endpoint configurations |
+| **mcp-builder** | MCP builder and setup utility | Setup and configuration builder for MCP servers |
 
 ## Quick Start
 
-**Dedicated `.mcp.json` (Recommended):**
+1. `npx skills add clawhub/mcp-integration`
+2. Configure MCP connection in Hermes profile
+3. `"Connect to MCP server at https://mcp.example.com/v1"`
+4. `"Run MCP query through Hermes agent"`
 
-```json
-{
-  "database-tools": {
-    "command": "${CLAUDE_PLUGIN_ROOT}/servers/db-server",
-    "args": ["--config", "${CLAUDE_PLUGIN_ROOT}/config.json"],
-    "env": {
-      "DB_URL": "${DB_URL}"
-    }
-  }
-}
-```
+## CorpusIQ Use Cases
 
-**SSE with OAuth:**
+| Use Case | How |
+|---|---|
+| **MCP Server Connection** | Connect Hermes agents to external MCP services for extended capabilities |
+| **Context Sync** | Sync agent state across multiple MCP endpoints |
+| **Command Routing** | Route agent commands through MCP layer to downstream services |
+| **Multi-Server Coordination** | Coordinate between multiple MCP servers from a single agent |
 
-```json
-{
-  "asana": {
-    "type": "sse",
-    "url": "https://mcp.asana.com/sse"
-  }
-}
-```
+## Limitations / Verification
 
----
-
-## Verification
+- MCP connection stability depends on server availability
+- Adapt prompts for your specific MCP infrastructure
+- Verify MCP endpoint connectivity before critical workflows
 
 ```bash
-# Check skill installed
-npx skills list | grep mcp-integration
-
-# Verify MCP server appears (in Claude Code)
-/mcp
+npx skills add clawhub/mcp-integration   # verify install works
 ```
 
----
+## Related
 
-## Notes
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Agentic MCP](/docs/hermes/skills/catalog/agentic-mcp-setup.md) - agent-MCP bridging
+- [MCP Use](/docs/hermes/skills/catalog/mcp-use-setup.md) - MCP client operations
 
-- Tool naming convention: `mcp__plugin_<name>_<server>__<tool>`
-- Always use `${CLAUDE_PLUGIN_ROOT}` for portable paths - never hardcode absolute paths
-- Pre-allow specific MCP tools rather than wildcards for security
-- Use HTTPS/WSS only - never HTTP/WS for production
-- Documentation covers lifecycle management, error handling, debugging, and performance best practices
-- Complements `reason-machines/mcp-skills@codex-mcp-server-integration` (129 installs) for Codex-specific MCP workflows
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+
+*Powered by CorpusIQ*
