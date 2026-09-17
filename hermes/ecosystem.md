@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 186+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 187+ repos, tools, skills, and integrations
 last_updated: 2026-09-16
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,16 +11,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **186+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 183 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **187+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 184 auto-approved (score >= 70).
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **186+ repos indexed.**
 
 ## 📊 Category Overview
 
-| Category | Repos | Description |
+|| Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 12 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 13 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -31,7 +31,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **186+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 40 | Reusable skills, plugins, extensions, tools |
+| 🔧 Skills & Plugins | 41 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 38 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
@@ -147,6 +147,14 @@ _12 repos_
 >Self-improving AI that runs your whole business turning LLM tokens into work and dollars.
 
 **Language:** Python | **Topics:** ai-agents, autonomous-agents, self-hosted, hermes-agent, openclaw, n8n | **Score:** 70/100
+
+---
+
+### [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) ⭐ 833
+
+>Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.
+
+**Language:** Python | **Topics:** ai-agent, appsec, bug-bounty, cybersecurity, hermes-agent, infosec, llm-security, nuclei, offensive-security, penetration-testing, security-tools, sqlmap, threat-research, vulnerability-scanner | **Score:** 80/100
 
 ---
 
