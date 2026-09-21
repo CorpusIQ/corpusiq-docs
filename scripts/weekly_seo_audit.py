@@ -205,6 +205,9 @@ def main():
     broken_count = 0
     skip_domains = {"github.com", "linkedin.com", "twitter.com", "x.com",
                      "youtube.com", "reddit.com", "wikipedia.org",
+                     # ChatGPT app store search links return 403 to non-browser
+                     # clients but are valid for humans (bot-block, not broken).
+                     "chatgpt.com",
                      # GitHub/Google asset CDNs — auto-injected chrome or
                      # font infrastructure; bare roots legitimately 404/403.
                      "github.githubassets.com", "github-cloud.s3.amazonaws.com",
