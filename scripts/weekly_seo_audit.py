@@ -223,9 +223,10 @@ def main():
         for future in as_completed(futures):
             url = futures[future]
             status, _, _ = future.result()
-            # 401/403: reachable but auth-gated or bot-blocked (MCP endpoints,
-            # app stores). Not broken. 404/410/5xx = broken.
-            if status and status >= 400 and status not in (401, 403):
+            # 401/403/429: reachable but auth-gated, bot-blocked, or
+            # rate-limited (MCP endpoints, app stores, trading sites).
+            # Not broken. 404/410/5xx = broken.
+            if status and status >= 400 and status not in (401, 403, 429):
                 broken_count += 1
                 sources = external_links[url][:3]
                 print(f"  ❌ {status} {url}")
