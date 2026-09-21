@@ -11,4 +11,21 @@ Allow: /
 Disallow: /admin/
 Disallow: /cdn-cgi/
 
+# AI search and citation crawlers: explicit Allow so citation engines
+# surface the docs (named groups make intent explicit; matches main site).
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 Sitemap: https://www.corpusiq.io/docs/sitemap.xml

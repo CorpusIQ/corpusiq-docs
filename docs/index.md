@@ -1,5 +1,5 @@
 ---
-title: CorpusIQ Documentation - Consistent Business Answers
+title: Consistent Business Answers You Can Trust | CorpusIQ Docs
 description: "CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. The same number everywhere. Read-only OAuth. Source-cited answers."
 category: "Documentation"
 tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform", "consistent business answers", "ai business intelligence"]

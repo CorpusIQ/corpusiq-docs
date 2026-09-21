@@ -84,6 +84,11 @@ def build_article_schema(title, description, page_url, date_published="2026-08-0
             "@type": "Organization",
             "name": "CorpusIQ",
             "url": "https://www.corpusiq.io"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "CorpusIQ",
+            "url": "https://www.corpusiq.io"
         }
     }
 

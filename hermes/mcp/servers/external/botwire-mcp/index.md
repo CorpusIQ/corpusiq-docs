@@ -75,16 +75,15 @@ The Bot Wire organizes its 40 data wires into categories:
 
 ## Pricing
 
-Free tier available with rate-limited access to all 40 wires. Paid tiers unlock higher frequency, historical data access, and priority polling. Check [thebotwire.com](https://thebotwire.com) for current plans.
+Free tier available with rate-limited access to all 40 wires. Paid tiers unlock higher frequency, historical data access, and priority polling. See the [GitHub repository](https://github.com/ArasPasha/botwire-mcp) for current plans.
 
 ## Authentication
 
-API key-based authentication. Get your key at [thebotwire.com](https://thebotwire.com). The free tier includes a key with rate-limited access.
+API key-based authentication. Get your key via the [GitHub repository](https://github.com/ArasPasha/botwire-mcp). The free tier includes a key with rate-limited access.
 
 ## Source
 
-- **GitHub:** github.com/ArasPasha/botwire-mcp (0★, created 2026-07-27)
-- **Website:** [thebotwire.com](https://thebotwire.com)
+- **Source:** [github.com/ArasPasha/botwire-mcp](https://github.com/ArasPasha/botwire-mcp)
 - **MCP Endpoint:** `https://thebotwire.com/mcp`
 - **npm:** `npx botwire-mcp`
 - **Registry:** `io.github.ArasPasha/botwire-mcp`

@@ -81,7 +81,7 @@ Free tier available with limited video registrations and question quota. Paid ti
 
 ## Authentication
 
-OAuth 2.1 with Dynamic Client Registration (RFC 7591) and PKCE. Register your MCP client at [primateintelligence.ai/developers](https://primateintelligence.ai/developers) to obtain a `client_id`. The OAuth flow includes PKCE for security. Sessions are scoped and refreshable.
+OAuth 2.1 with Dynamic Client Registration (RFC 7591) and PKCE. Register your MCP client via the [GitHub repository](https://github.com/Primate-Intelligence/primate-intelligence-mcp) to obtain a `client_id`. The OAuth flow includes PKCE for security. Sessions are scoped and refreshable.
 
 Alternatively, use the npm package (`npx @primate-intelligence/mcp`) for local stdio transport with API key authentication.
 
