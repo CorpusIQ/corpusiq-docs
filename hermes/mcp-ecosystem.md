@@ -31,7 +31,7 @@ CorpusIQ is an AI intelligence layer connecting 40+ business tools to every AI a
 
 | Directory | Status |
 |-----------|--------|
-| [Product Hunt](https://producthunt.com/products/corpusiq) | ✅ Launched |
+| [Product Hunt](https://www.producthunt.com/search?q=corpusiq) | ⏳ Planned |
 | [There's An AI For That](https://theresanaiforthat.com/ai/corpusiq) | ✅ Listed |
 | [Futurepedia](https://futurepedia.io) | ✅ Listed |
 
