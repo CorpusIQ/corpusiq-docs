@@ -9,7 +9,7 @@ tags: ["hermes skill", "MCP", "client", "protocol", "mcp-client"]
 
 # MCP Client - Setup Guide
 
-**Source:** [clawhub](https://skills.sh/clawhub)  
+**Source:** [clawhub](https://clawhub.ai)  
 **Skills:** mcp-client and related MCP client operation tools  
 **Category:** MCP Infrastructure & Client Operations  
 **First Seen:** September 17, 2026 sweep  

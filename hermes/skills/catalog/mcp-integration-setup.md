@@ -9,7 +9,7 @@ tags: ["hermes skill", "MCP", "integration", "server", "mcp-integration"]
 
 # MCP Integration - Setup Guide
 
-**Source:** [clawhub](https://skills.sh/clawhub)  
+**Source:** [clawhub](https://clawhub.ai)  
 **Skills:** mcp-integration and related MCP server integration tools  
 **Category:** MCP Infrastructure & Server Integration  
 **First Seen:** September 17, 2026 sweep  
