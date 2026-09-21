@@ -125,8 +125,8 @@ New skills take time to accumulate installs. Don't dismiss a 500-install skill  
 Looking for something specific? The marketplace is searchable by keyword:
 
 ```bash
-# Search skills.sh API directly
-curl -s "https://skills.sh/api/skills?q=email" | jq '.'
+# Search the registry UI (API explorer at skills.sh/api-explorer)
+# Browse: https://skills.sh
 
 # Or browse the catalog pages
 # → [Email operations →](/hermes/skills/catalog/#email-operations)

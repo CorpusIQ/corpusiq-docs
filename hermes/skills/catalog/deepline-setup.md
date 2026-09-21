@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Deepline - Setup Guide
 
-**Source:** [code.deepline.com](https://skills.sh/code.deepline.com) (92K+ combined installs)
+**Source:** [code.deepline.com](https://code.deepline.com) (92K+ combined installs)
 **Category:** Go-to-Market / Prospecting
 **Quality Tier:** 🟢 Production
 
