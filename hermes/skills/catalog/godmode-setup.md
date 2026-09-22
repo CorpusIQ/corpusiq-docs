@@ -137,9 +137,9 @@ cat /tmp/godmode-test/test.txt
 
 ## See Also
 
-- [kanban-orchestrator-setup.md](kanban-orchestrator-setup.md) - Task decomposition for autonomous execution
-- [plan-setup.md](plan-mode-setup.md) - Plan mode (opposite: plan without executing)
-- [writing-plans-subagent-development-setup.md](writing-plans-subagent-development-setup.md) - Structured planning with subagent execution
+- [kanban-orchestrator-setup.md](kanban-orchestrator-setup) - Task decomposition for autonomous execution
+- [plan-setup.md](plan-mode-setup) - Plan mode (opposite: plan without executing)
+- [writing-plans-subagent-development-setup.md](writing-plans-subagent-development-setup) - Structured planning with subagent execution
 
 ---
 

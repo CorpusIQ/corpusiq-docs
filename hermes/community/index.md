@@ -14,8 +14,8 @@ Resources for the Hermes Agent community - badges, share cards, and contribution
 
 ## Contents
 
-- [Badge](badge.md) - Community badge and status indicators
-- [Share Card](share-card.md) - Social sharing cards for Hermes projects
+- [Badge](badge) - Community badge and status indicators
+- [Share Card](share-card) - Social sharing cards for Hermes projects
 
 ---
 

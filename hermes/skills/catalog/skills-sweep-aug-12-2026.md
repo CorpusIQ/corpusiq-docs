@@ -25,13 +25,13 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
-| `heartmula` | 224 | nousresearch/hermes-agent | [heartmula-setup.md](heartmula-setup.md) ✍️ |
-| `simplify-code` | 187 | nousresearch/hermes-agent | [simplify-code-setup.md](simplify-code-setup.md) ✍️ |
-| `ideation` | 111 | nousresearch/hermes-agent | [ideation-setup.md](ideation-setup.md) ✍️ |
-| `subagent-driven-development` | 88 | nousresearch/hermes-agent | [subagent-driven-development-setup.md](subagent-driven-development-setup.md) ✍️ |
-| `linear` | 80 | nousresearch/hermes-agent | [linear-setup.md](linear-setup.md) ✍️ |
-| `webhook-subscriptions` | 80 | nousresearch/hermes-agent | [webhook-subscriptions-setup.md](webhook-subscriptions-setup.md) ✍️ |
-| `grounded-citations` | 22 | nousresearch/hermes-agent | [grounded-citations-setup.md](grounded-citations-setup.md) ✍️ |
+| `heartmula` | 224 | nousresearch/hermes-agent | [heartmula-setup.md](heartmula-setup) ✍️ |
+| `simplify-code` | 187 | nousresearch/hermes-agent | [simplify-code-setup.md](simplify-code-setup) ✍️ |
+| `ideation` | 111 | nousresearch/hermes-agent | [ideation-setup.md](ideation-setup) ✍️ |
+| `subagent-driven-development` | 88 | nousresearch/hermes-agent | [subagent-driven-development-setup.md](subagent-driven-development-setup) ✍️ |
+| `linear` | 80 | nousresearch/hermes-agent | [linear-setup.md](linear-setup) ✍️ |
+| `webhook-subscriptions` | 80 | nousresearch/hermes-agent | [webhook-subscriptions-setup.md](webhook-subscriptions-setup) ✍️ |
+| `grounded-citations` | 22 | nousresearch/hermes-agent | [grounded-citations-setup.md](grounded-citations-setup) ✍️ |
 
 ---
 

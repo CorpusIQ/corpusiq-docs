@@ -12,7 +12,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 | Page | Description |
 |------|-------------|
-| [CorpusIQ Affiliate Program](affiliate-program.md) | 25% recurring commission for 3 years - program details for partners |
+| [CorpusIQ Affiliate Program](affiliate-program) | 25% recurring commission for 3 years - program details for partners |
 
 *← [Hermes Home](/docs/hermes) | [Guides →](/docs/hermes/guides)*
 

@@ -77,8 +77,8 @@ npx skills add clawhub/mcp-client   # verify install works
 ## Related
 
 - [Skills Catalog](/docs/hermes/skills/catalog)
-- [MCP Integration](/docs/hermes/skills/catalog/mcp-integration-setup.md) - server integration
-- [MCP Use](/docs/hermes/skills/catalog/mcp-use-setup.md) - MCP client operations guide
+- [MCP Integration](/docs/hermes/skills/catalog/mcp-integration-setup) - server integration
+- [MCP Use](/docs/hermes/skills/catalog/mcp-use-setup) - MCP client operations guide
 
 *← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 

@@ -46,7 +46,7 @@ CorpusIQ is infrastructure. It makes sure every AI you use has the same verified
 
 ### Deep Dives
 
-- [CorpusIQ vs Viktor Pricing](corpusiq-vs-viktor-pricing.md): flat plans vs credit metering
-- [CorpusIQ vs Viktor Security](corpusiq-vs-viktor-security.md): per-user scoping vs workspace-shared access
-- [CorpusIQ vs Viktor Channels](corpusiq-vs-viktor-channels.md): every assistant vs Slack and Teams only
-- [CorpusIQ vs Viktor Migration](corpusiq-vs-viktor-migration.md): moving from a Slack AI employee to a data layer
+- [CorpusIQ vs Viktor Pricing](corpusiq-vs-viktor-pricing): flat plans vs credit metering
+- [CorpusIQ vs Viktor Security](corpusiq-vs-viktor-security): per-user scoping vs workspace-shared access
+- [CorpusIQ vs Viktor Channels](corpusiq-vs-viktor-channels): every assistant vs Slack and Teams only
+- [CorpusIQ vs Viktor Migration](corpusiq-vs-viktor-migration): moving from a Slack AI employee to a data layer

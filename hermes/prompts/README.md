@@ -28,15 +28,15 @@ Every prompt lists:
 
 | File | What's in it |
 |---|---|
-| [executive-summary.md](executive-summary.md) | "How healthy is my business?" type prompts |
-| [revenue-and-finance.md](revenue-and-finance.md) | Cash, P&L, overdue invoices, MRR, runway |
-| [marketing-roas.md](marketing-roas.md) | True CAC, ROAS, channel attribution, ad spend audit |
-| [email-and-sms.md](email-and-sms.md) | Klaviyo, Mailchimp, PostScript, list health, campaign perf |
-| [customer-and-crm.md](customer-and-crm.md) | Pipeline health, stalled deals, churn risk, customer search |
-| [ecommerce-ops.md](ecommerce-ops.md) | Orders, inventory, top SKUs, marketplace sellers |
-| [seo-and-content.md](seo-and-content.md) | Search Console, Semrush, YouTube, ranking drift |
-| [productivity-and-files.md](productivity-and-files.md) | Inbox triage, calendar, file search, missed emails |
-| [multi-source.md](multi-source.md) | The moat  --  prompts that fire across 3+ connectors |
+| [executive-summary.md](executive-summary) | "How healthy is my business?" type prompts |
+| [revenue-and-finance.md](revenue-and-finance) | Cash, P&L, overdue invoices, MRR, runway |
+| [marketing-roas.md](marketing-roas) | True CAC, ROAS, channel attribution, ad spend audit |
+| [email-and-sms.md](email-and-sms) | Klaviyo, Mailchimp, PostScript, list health, campaign perf |
+| [customer-and-crm.md](customer-and-crm) | Pipeline health, stalled deals, churn risk, customer search |
+| [ecommerce-ops.md](ecommerce-ops) | Orders, inventory, top SKUs, marketplace sellers |
+| [seo-and-content.md](seo-and-content) | Search Console, Semrush, YouTube, ranking drift |
+| [productivity-and-files.md](productivity-and-files) | Inbox triage, calendar, file search, missed emails |
+| [multi-source.md](multi-source) | The moat  --  prompts that fire across 3+ connectors |
 
 ## Tips
 

@@ -79,8 +79,8 @@ Rotate API keys and tokens quarterly at minimum. Document the rotation procedure
 ## Related Pages
 
 - [Best Practices Overview](/docs/hermes/best-practices)  --  All guides
-- [Cron Design](cron-design.md)  --  Secure scheduled automation
-- [Memory Management](memory-management.md)  --  Don't store secrets in memory
+- [Cron Design](cron-design)  --  Secure scheduled automation
+- [Memory Management](memory-management)  --  Don't store secrets in memory
 - [MCP Integration Guide](/docs/hermes/mcp)  --  Connector authentication
 - [Troubleshooting](/docs/hermes/troubleshooting)  --  Fix OAuth token expiry
 ---

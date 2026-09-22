@@ -99,8 +99,8 @@ Track start/end timestamps, record counts processed, error counts by type, and l
 ## Related Pages
 
 - [Best Practices Overview](/docs/hermes/best-practices)  --  All best practices guides
-- [Model Selection](model-selection.md)  --  Use the right model for each cron
-- [Security](security.md)  --  Credential management for scheduled tasks
+- [Model Selection](model-selection)  --  Use the right model for each cron
+- [Security](security)  --  Credential management for scheduled tasks
 - [Setup Guides](/docs/hermes/setup)  --  Run crons on [cloud VPS](/docs/hermes/setup/cloud-vps) or [Raspberry Pi](/docs/hermes/setup/raspberry-pi)
 - [Blueprints](/docs/hermes/blueprints)  --  End-to-end cron-anchored workflows
 ---

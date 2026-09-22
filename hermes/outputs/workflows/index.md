@@ -12,7 +12,7 @@ tags: ["hermes output", "ai output", "case study"]
 
 Reusable workflow templates for Hermes Agent outputs - report generation, data pipelines, and multi-step automation patterns.
 
-- [Templates](templates.md) - Workflow template library
+- [Templates](templates) - Workflow template library
 
 ---
 

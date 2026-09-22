@@ -119,4 +119,4 @@ After generation, open the HTML in a browser and verify:
 
 ---
 
-**Related:** [excalidraw-setup.md](excalidraw-setup.md), [hyperframes-setup.md](hyperframes-setup.md)
+**Related:** [excalidraw-setup.md](excalidraw-setup), [hyperframes-setup.md](hyperframes-setup)

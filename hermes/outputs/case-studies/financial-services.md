@@ -181,11 +181,11 @@ Yes. Hermes skills can compute time-weighted returns, risk metrics, attribution 
 
 ## Related Pages
 
-- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md)  --  SOC 2, HIPAA, and GDPR evidence collection
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and revenue reconciliation
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  SOX compliance and financial controls at scale
-- [Hermes Agent for Professional Services](../case-studies/professional-services.md)  --  Invoice generation and billing automation
-- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit)  --  SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline management and revenue reconciliation
+- [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  SOX compliance and financial controls at scale
+- [Hermes Agent for Professional Services](../case-studies/professional-services)  --  Invoice generation and billing automation
+- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

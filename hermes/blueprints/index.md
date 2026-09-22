@@ -187,18 +187,18 @@ Automation blueprints are complete, cron-anchored workflow templates for recurri
 Adjust cron times to match your team's working hours, replace tool references with your actual systems (Slack vs Teams, Jira vs Linear, HubSpot vs Close), and calibrate thresholds to your reality (1% vs 5% revenue variance). Start with the lowest-risk automation and enable one at a time with 48-hour observation periods.
 
 ### Which blueprint should I implement first?
-Start with the blueprint that addresses your most painful manual process. If morning context switching is the problem, start with [Daily Operations](daily-ops.md). For reactive account management, use [Customer Lifecycle](customer-lifecycle.md). For inconsistent publishing, use [Content Pipeline](content-pipeline.md).
+Start with the blueprint that addresses your most painful manual process. If morning context switching is the problem, start with [Daily Operations](daily-ops). For reactive account management, use [Customer Lifecycle](customer-lifecycle). For inconsistent publishing, use [Content Pipeline](content-pipeline).
 
 ### How do blueprints handle errors and failures?
 Every blueprint follows a predictable escalation pattern: automated retry (transient failures), notification (persistent failures alert a human), escalation (unresolved after timeout escalates to next level), and fallback (degrade gracefully  --  partial report is better than no report).
 
 ## Related Pages
 
-- [Daily Operations Blueprint](daily-ops.md)  --  Morning briefing through evening wrap-up
-- [Customer Lifecycle Blueprint](customer-lifecycle.md)  --  Onboarding, engagement, retention, win-back
-- [Content Pipeline Blueprint](content-pipeline.md)  --  Research, draft, review, publish, promote
-- [Financial Close Blueprint](financial-close.md)  --  Monthly reconciliation and reporting
-- [Incident Response Blueprint](incident-response.md)  --  Detection, triage, remediation, postmortem
+- [Daily Operations Blueprint](daily-ops)  --  Morning briefing through evening wrap-up
+- [Customer Lifecycle Blueprint](customer-lifecycle)  --  Onboarding, engagement, retention, win-back
+- [Content Pipeline Blueprint](content-pipeline)  --  Research, draft, review, publish, promote
+- [Financial Close Blueprint](financial-close)  --  Monthly reconciliation and reporting
+- [Incident Response Blueprint](incident-response)  --  Detection, triage, remediation, postmortem
 - [Cron Design Best Practices](/docs/hermes/best-practices/cron-design)  --  Reliable scheduled automation
 - [Integration Examples](/docs/hermes/integrations)  --  Tool connection patterns for blueprints
 

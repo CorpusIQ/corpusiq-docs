@@ -126,9 +126,9 @@ The agent should generate a complete p5.js sketch with `setup()` and `draw()` fu
 
 ## See Also
 
-- [ascii-art-setup.md](ascii-art-setup.md) - ASCII art generation
-- [excalidraw-setup.md](excalidraw-setup.md) - Diagram creation
-- [design-md-setup.md](design-md-setup.md) - Visual identity design tokens
+- [ascii-art-setup.md](ascii-art-setup) - ASCII art generation
+- [excalidraw-setup.md](excalidraw-setup) - Diagram creation
+- [design-md-setup.md](design-md-setup) - Visual identity design tokens
 
 ---
 

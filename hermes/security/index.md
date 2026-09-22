@@ -17,13 +17,13 @@ or execute anything inside them.
 
 ## Pages
 
-- [Security, Read-Only Access, and What CorpusIQ Never Does](read-only-and-security.md) - the
+- [Security, Read-Only Access, and What CorpusIQ Never Does](read-only-and-security) - the
   complete answer to the questions customers ask most: can CorpusIQ
   change anything in my systems? Does it retain my data? Can it act
   like an AI agent? The answer to all three is no.
 
 ## Related
 
-- [Security Best Practices for Hermes Agent](../best-practices/security.md) - token and credential management, least-privilege access, and audit logging
-- [Integrations](../integrations/index.md) - platform integrations and read-only connector patterns
+- [Security Best Practices for Hermes Agent](../best-practices/security) - token and credential management, least-privilege access, and audit logging
+- [Integrations](../integrations/index) - platform integrations and read-only connector patterns
 - [Privacy and Security](https://www.corpusiq.io/docs/how-it-works/privacy-and-security/) - architecture, compliance, and data handling

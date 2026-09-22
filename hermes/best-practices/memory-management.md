@@ -78,8 +78,8 @@ You can, but you'll have gaps. [Honcho only](/docs/hermes/knowledge) handles pee
 
 - [Memory Architecture Guide](/docs/hermes/knowledge)  --  Full triple-stack documentation
 - [Best Practices Overview](/docs/hermes/best-practices)  --  All guides
-- [Security](security.md)  --  Don't store credentials in memory
-- [Skill Development](skill-development.md)  --  Procedural knowledge vs memory
+- [Security](security)  --  Don't store credentials in memory
+- [Skill Development](skill-development)  --  Procedural knowledge vs memory
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

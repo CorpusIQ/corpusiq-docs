@@ -27,7 +27,7 @@ Evening sweep across 18 broad queries surfaced **6 new skills** not previously c
 
 ## memory-hygiene
 
-**Source:** [aaaaqwq/claude-code-skills](https://github.com/aaaaqwq/claude-code-skills) · **365 installs** · **Homepage:** [xdylanbaker/memory-hygiene](https://github.com/xdylanbaker/memory-hygiene)
+**Source:** [aaaaqwq/claude-code-skills](https://github.com/aaaaqwq/claude-code-skills) · **365 installs** · **Homepage:** xdylanbaker/memory-hygiene (repo no longer public)
 
 Audit, clean, and optimize Clawdbot/OpenClaw vector memory (LanceDB). Use when memory is bloated with junk, token usage is high from irrelevant auto-recalls, or setting up memory maintenance automation.
 

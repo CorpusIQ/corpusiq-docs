@@ -197,7 +197,7 @@ print('Kernel OK')
 
 - **[data-science](https://skills.sh/nousresearch/hermes-agent)** - Umbrella skill for all data science tools
 - **[mlops-model-operations](https://skills.sh/nousresearch/hermes-agent)** - Production ML model deployment and operations
-- **[arxiv](arxiv-setup.md)** - Academic paper search for research context
+- **[arxiv](arxiv-setup)** - Academic paper search for research context
 - **[local-inference-optimizer](https://github.com/ForgetMeAI/local-inference-optimizer-skill)** - Community skill for optimizing local LLM inference
 
 ---

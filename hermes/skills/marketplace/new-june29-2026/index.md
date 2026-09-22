@@ -112,7 +112,7 @@ npx skills add ricktechmecha/hermes-whatsapp-secretary
 ---
 
 ### 7. Safari Web Agent (1★)
-**Repo:** [treyxu23/safari-web-agent](https://github.com/treyxu23/safari-web-agent)
+**Repo:** treyxu23/safari-web-agent (repo no longer public)
 
 Browser automation using your real Safari browser via native macOS CGEvent. Anti-bot bypass, login session persistence, and real browser fingerprint. Works on sites where Playwright gets detected.
 

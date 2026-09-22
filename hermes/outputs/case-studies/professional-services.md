@@ -180,11 +180,11 @@ Yes. Hermes compares hours delivered against retainer commitments weekly, flags 
 
 ## Related Pages
 
-- [Hermes Agent for Legal Firms](../case-studies/legal-firms.md)  --  Time capture and billing compliance
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and forecasting
-- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Client inquiry and SLA management
-- [Hermes Agent for Startups](../by-company-size/startup.md)  --  Lean services automation for small teams
-- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent for Legal Firms](../case-studies/legal-firms)  --  Time capture and billing compliance
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline management and forecasting
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support)  --  Client inquiry and SLA management
+- [Hermes Agent for Startups](../by-company-size/startup)  --  Lean services automation for small teams
+- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

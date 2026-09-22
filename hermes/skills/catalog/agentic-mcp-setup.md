@@ -76,8 +76,8 @@ npx skills add heygen-com/hyperframes --skill agentic-mcp   # verify install wor
 ## Related
 
 - [Skills Catalog](/docs/hermes/skills/catalog)
-- [MCP Integration](/docs/hermes/skills/catalog/mcp-integration-setup.md)
-- [Agent Autonomy Kit](/docs/hermes/skills/catalog/agent-autonomy-kit-setup.md) - companion skill set
+- [MCP Integration](/docs/hermes/skills/catalog/mcp-integration-setup)
+- [Agent Autonomy Kit](/docs/hermes/skills/catalog/agent-autonomy-kit-setup) - companion skill set
 
 *← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 

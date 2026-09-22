@@ -14,9 +14,9 @@ Example outputs from Hermes Agent deployments, segmented by organization size.
 
 ## Contents
 
-- [Enterprise](enterprise.md) - Large-scale deployment outputs
-- [Mid-Market](mid-market.md) - Growth-stage company use cases
-- [Startup](startup.md) - Early-stage and lean team examples
+- [Enterprise](enterprise) - Large-scale deployment outputs
+- [Mid-Market](mid-market) - Growth-stage company use cases
+- [Startup](startup) - Early-stage and lean team examples
 
 ---
 

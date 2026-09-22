@@ -9,7 +9,7 @@ Guides for listing MCP servers in public directories and marketplaces, so server
 
 ## Pages
 
-- [Submission Guide 2026](submission-guide-2026.md) - Where to submit an MCP server, what the review process looks like, and how to write a listing that gets approved.
+- [Submission Guide 2026](submission-guide-2026) - Where to submit an MCP server, what the review process looks like, and how to write a listing that gets approved.
 
 ---
 

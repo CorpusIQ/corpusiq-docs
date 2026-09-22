@@ -254,7 +254,7 @@ Chinese-language curated list of skills, tools, integrations for Hermes Agent. (
 ---
 
 ### daodao97/Awesome-AI-Agent-Skills
-⭐ **41** · [github.com/daodao97/Awesome-AI-Agent-Skills](https://github.com/daodao97/Awesome-AI-Agent-Skills)
+⭐ **41** · github.com/daodao97/Awesome-AI-Agent-Skills (repo no longer public)
 
 Curated awesome list of AI agent skills across platforms  --  a comprehensive collection of agent skills, plugins, and extensions compatible with Hermes Agent, Claude Code, Cursor, and other AI coding platforms. Community-driven resource for discovering and sharing agent capabilities.
 
@@ -873,7 +873,7 @@ Model-agnostic memory substrate for AI agents
 ---
 
 ### Aphelios01-sdk/hermes-brain
-⭐ **0** · `Python` · [https://github.com/Aphelios01-sdk/hermes-brain](https://github.com/Aphelios01-sdk/hermes-brain)
+⭐ **0** · `Python` · https://github.com/Aphelios01-sdk/hermes-brain (repo no longer public)
 
 Hermes Agent skills and memories - AI training knowledge base
 
@@ -889,7 +889,7 @@ A server-side memory and knowledge graph API for AI agents. Stores episodic memo
 ---
 
 ### yun520-1/mark-heartflow-skill
-⭐ **26** · `JavaScript` · [github.com/yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill)
+⭐ **26** · `JavaScript` · github.com/yun520-1/mark-heartflow-skill (repo no longer public)
 
 心虫 (HeartFlow) - Cognitive state encoder + autonomous decision engine. 60 modules encode raw text into structured cognitive data, judgment engine handles multi-path decisions, decision routing does field tracking, self-healing RL learns from errors. Invoked by Hermes Agent via MCP, providing structured cognitive snapshots to LLMs.
 
@@ -1230,7 +1230,7 @@ AI agents + MCPs + workflow automation platform with ~400 MCP servers. Open-sour
 ---
 
 ### mystx-ai/mystx-skill-mcp
-⭐ **57** · [github.com/mystx-ai/mystx-skill-mcp](https://github.com/mystx-ai/mystx-skill-mcp)
+⭐ **57** · github.com/mystx-ai/mystx-skill-mcp (repo no longer public)
 
 MCP server for agent skill management and discovery  --  Mystx AI's Model Context Protocol server enabling seamless skill installation, execution, and management across Hermes Agent and compatible platforms. Provides standardized skill lifecycle management through MCP with discovery, versioning, and cross-platform compatibility.
 
@@ -1424,7 +1424,7 @@ Curated collection of 5,400+ OpenClaw skills filtered from the official registry
 ---
 
 ### coreyhaines31/marketingskills (Ben-Home/marketingskills)
-⭐ **0** · [github.com/Ben-Home/marketingskills](https://github.com/Ben-Home/marketingskills)
+⭐ **0** · github.com/Ben-Home/marketingskills (repo no longer public)
 
 Complete CMO stack: 45+ marketing skills covering SEO, CRO, copywriting, cold email, ads, analytics, community, launch, pricing, competitors, directory submissions, revops, and content strategy. Includes 51 CLI tools and 200+ directory targets.
 
@@ -1686,7 +1686,7 @@ SEO, GEO, and AI discoverability skills. Optimize content for AI-powered search 
 ---
 
 ### Sequenzy/sequenzy-email-marketing
-⭐ **community** · `Python` · [github.com/Sequenzy/sequenzy-email-marketing](https://github.com/Sequenzy/sequenzy-email-marketing)
+⭐ **community** · `Python` · github.com/Sequenzy/sequenzy-email-marketing (repo no longer public)
 
 Lifecycle email marketing skill for Hermes. Automated email sequences for customer journeys.
 
@@ -2539,7 +2539,7 @@ Auto-evolves skill library from session data. Skills that improve automatically 
 ---
 
 ### clarvia-project/scanner
-⭐ **community** · `Python` · [github.com/clarvia-project/scanner](https://github.com/clarvia-project/scanner)
+⭐ **community** · `Python` · github.com/clarvia-project/scanner (repo no longer public)
 
 AEO scoring for MCP tools across 15,400+ servers. Agent Engine Optimization scoring.
 
@@ -2579,7 +2579,7 @@ Cross-platform skills marketplace. Buy, sell, and share agent skills across fram
 ---
 
 ### pumanitro/Global Chat
-⭐ **community** · `Python` · [github.com/pumanitro/Global-Chat](https://github.com/pumanitro/Global-Chat)
+⭐ **community** · `Python` · github.com/pumanitro/Global-Chat (repo no longer public)
 
 Cross-protocol agent discovery across 18K+ servers. Universal agent discovery network.
 
@@ -3519,7 +3519,7 @@ Hermes Agent benchmark v0.1  --  evaluate local models on actual tool-calling pe
 ---
 
 ### CogalNocloz/Hermes_evaluation
-⭐ **0** · `Vue` · [github.com/CogalNocloz/Hermes_evaluation](https://github.com/CogalNocloz/Hermes_evaluation)
+⭐ **0** · `Vue` · github.com/CogalNocloz/Hermes_evaluation (repo no longer public)
 
 Benchmark Hermes  --  Hello World Nuxt 4 style evaluation framework.
 
@@ -3554,7 +3554,7 @@ arXiv preprint for Hermes research.
 ---
 
 ### izillionways/academic-research-skills-hermes
-⭐ **1** · [github.com/izillionways/academic-research-skills-hermes](https://github.com/izillionways/academic-research-skills-hermes)
+⭐ **1** · github.com/izillionways/academic-research-skills-hermes (repo no longer public)
 
 Hermes-compatible adaptation of Academic Research Skills for deep research workflows.
 
@@ -4061,7 +4061,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | **Getting Started** | [Setup Guide](/docs/hermes/setup) · [Official Docs](https://hermes-agent.nousresearch.com/docs/) · [Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) · [27-Chapter Tutorial](https://github.com/longyunfeigu/learn-hermes-agent) |
 | **Memory** | [Knowledge Architecture](/docs/hermes/knowledge) · [GBrain](https://github.com/garrytan/gbrain) · [EverOS](https://github.com/EverMind-AI/EverOS) · [claude-mem](https://github.com/thedotmack/claude-mem) · [mnemosyne](https://github.com/mnemosyne-oss/mnemosyne) |
 | **MCP** | [MCP Guide](/docs/hermes/mcp) · [CorpusIQ](https://corpusiq.io) · [Kindly Search](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) · [Kagi MCP](https://github.com/KSroido/Kagi-Session2API-MCP) |
-| **Skills** | [Skills Catalog](/docs/hermes/skills/catalog) · [Marketing Skills](https://github.com/Ben-Home/marketingskills) · [Skill Factory](https://github.com/Romanescu11/hermes-skill-factory) · [372 Skills](https://github.com/BBridgeers/hermes-skills) |
+| **Skills** | [Skills Catalog](/docs/hermes/skills/catalog) · Marketing Skills (repo no longer public) · [Skill Factory](https://github.com/Romanescu11/hermes-skill-factory) · [372 Skills](https://github.com/BBridgeers/hermes-skills) |
 | **UI** | [Hermes WebUI](https://github.com/nesquena/hermes-webui) · [Desktop](https://github.com/fathah/hermes-desktop) · [Studio](https://github.com/EKKOLearnAI/hermes-studio) · [Workspace](https://github.com/outsourc-e/hermes-workspace) · [Scarf](https://github.com/awizemann/scarf) |
 | **Production** | [Deployment](/docs/hermes/infrastructure) · [Crons](/docs/hermes/governance/scheduling) · [K8s Operator](https://github.com/paperclipinc/hermes-operator) · [Autonomous Server](https://github.com/JackTheGit/hermes-autonomous-server) |
 | **Research** | [Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) · [PawBench](https://github.com/agentscope-ai/PawBench) · [HermesBench](https://github.com/verkyyi/hermesbench) |
@@ -4213,4 +4213,4 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [QuantaSeal/mcp-server](https://github.com/QuantaSeal/mcp-server) | 0 | QuantaSeal MCP Server - 18 tools for AI agents |
 | [invertible-statue269/colign](https://github.com/invertible-statue269/colign) | 2 | Align teams on specs before AI writes code |
 | [Lucenx9/forktty](https://github.com/Lucenx9/forktty) | 6 | Linux-native workspace for coding agents - Ghostty terminals, git worktrees |
-| [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) | 26 | 心虫 (HeartFlow) - Cognitive state encoder + autonomous decision engine via MCP |
+| yun520-1/mark-heartflow-skill (repo no longer public) | 26 | 心虫 (HeartFlow) - Cognitive state encoder + autonomous decision engine via MCP |

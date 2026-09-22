@@ -76,8 +76,8 @@ npx skills add coreyhaines31/marketingskills --skill agent-skill-creator   # ver
 ## Related
 
 - [Skills Catalog](/docs/hermes/skills/catalog)
-- [Advanced Skill Creator](/docs/hermes/skills/catalog/advanced-skill-creator-setup.md)
-- [Agent Treasury](/docs/hermes/skills/catalog/agent-treasury-setup.md) - resource management
+- [Advanced Skill Creator](/docs/hermes/skills/catalog/advanced-skill-creator-setup)
+- [Agent Treasury](/docs/hermes/skills/catalog/agent-treasury-setup) - resource management
 
 *← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 

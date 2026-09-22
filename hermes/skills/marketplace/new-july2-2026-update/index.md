@@ -108,7 +108,7 @@ npx skills add cinience/alicloud-skills --skill aliyun-openclaw-setup
 
 #### evolink-video (42 installs)
 
-**Repo:** [evolinkai/video-generation-skill-for-openclaw](https://github.com/evolinkai/video-generation-skill-for-openclaw)
+**Repo:** evolinkai/video-generation-skill-for-openclaw (repo no longer public)
 **Source:** skills.sh
 
 OpenClaw skill for AI video generation. Integrates video creation pipelines into Hermes/OpenClaw agent workflows.

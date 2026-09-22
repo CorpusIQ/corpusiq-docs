@@ -25,9 +25,9 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
-| `songwriting-and-ai-music` | 324 | nousresearch/hermes-agent | [songwriting-and-ai-music-setup.md](songwriting-and-ai-music-setup.md) ✍️ |
-| `debugging-hermes-tui-commands` | 76 | nousresearch/hermes-agent | [debugging-hermes-tui-commands-setup.md](debugging-hermes-tui-commands-setup.md) ✍️ |
-| `hermes-attestation-guardian` | 94 | prompt-security/clawsec | [hermes-attestation-guardian-setup.md](hermes-attestation-guardian-setup.md) ✍️ |
+| `songwriting-and-ai-music` | 324 | nousresearch/hermes-agent | [songwriting-and-ai-music-setup.md](songwriting-and-ai-music-setup) ✍️ |
+| `debugging-hermes-tui-commands` | 76 | nousresearch/hermes-agent | [debugging-hermes-tui-commands-setup.md](debugging-hermes-tui-commands-setup) ✍️ |
+| `hermes-attestation-guardian` | 94 | prompt-security/clawsec | [hermes-attestation-guardian-setup.md](hermes-attestation-guardian-setup) ✍️ |
 
 ---
 
@@ -35,8 +35,8 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
-| `research-paper-writing` | 396 | nousresearch/hermes-agent | [research-paper-writing-setup.md](research-paper-writing-setup.md) ✍️ |
-| `plan` | 309 | nousresearch/hermes-agent | [plan-mode-setup.md](plan-mode-setup.md) ✍️ |
+| `research-paper-writing` | 396 | nousresearch/hermes-agent | [research-paper-writing-setup.md](research-paper-writing-setup) ✍️ |
+| `plan` | 309 | nousresearch/hermes-agent | [plan-mode-setup.md](plan-mode-setup) ✍️ |
 
 ---
 

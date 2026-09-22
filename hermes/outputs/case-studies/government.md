@@ -120,11 +120,11 @@ Hermes connects to document management systems, email archives, permit databases
 
 ## Related Pages
 
-- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md)  --  SOC 2, HIPAA, and GDPR evidence collection
-- [Hermes Agent for Legal Firms](../case-studies/legal-firms.md)  --  Document review and deadline tracking
-- [Hermes Agent for Education](../case-studies/education.md)  --  Public education administrative workflows
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security architecture and compliance at scale
-- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit)  --  SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent for Legal Firms](../case-studies/legal-firms)  --  Document review and deadline tracking
+- [Hermes Agent for Education](../case-studies/education)  --  Public education administrative workflows
+- [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  Security architecture and compliance at scale
+- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

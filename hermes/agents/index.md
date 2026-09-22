@@ -24,15 +24,15 @@ Agents in this library run on the [Hermes Agent framework](/docs/hermes) by Nous
 
 | # | Agent | Primary Use Case | Recommended Model | Connector Footprint |
 |---|-------|-----------------|-------------------|---------------------|
-| 1 | [Sales Agent](./sales-agent.md) | Lead qualification, pipeline management, outreach sequences | DeepSeek V3 / Claude Sonnet 4 | CRM, Calendly, Email, Slack |
-| 2 | [Marketing Agent](./marketing-agent.md) | Content analytics, SEO monitoring, campaign performance | Claude Sonnet 4 / GPT-4o | GA4, Search Console, Ahrefs, Klaviyo, Meta Ads |
-| 3 | [DevOps Agent](./devops-agent.md) | Infrastructure monitoring, incident response, deployment tracking | Claude Sonnet 4 / DeepSeek V3 | Database, Slack, Email, Observability APIs |
-| 4 | [Support Agent](./support-agent.md) | Ticket triage, knowledge base search, SLA monitoring | Claude Sonnet 4 / GPT-4o | CRM, Slack, Email, Stripe, Notion |
-| 5 | [Finance Agent](./finance-agent.md) | Invoice processing, reconciliation, financial reporting | Claude Sonnet 4 / DeepSeek V3 | QuickBooks, Stripe, Slack, Email, Drive |
-| 6 | [HR Agent](./hr-agent.md) | Resume screening, onboarding, policy Q&A, compliance | Claude Sonnet 4 / GPT-4o | Calendly, Email, Slack, Notion, Drive |
-| 7 | [Research Agent](./research-agent.md) | Competitive intel, market analysis, literature review | Claude Sonnet 4 / DeepSeek V3 | Ahrefs, Semrush, GA4, YouTube, Notion |
-| 8 | [Legal Agent](./legal-agent.md) | Contract review, regulatory monitoring, audit prep | Claude Sonnet 4 / GPT-4o | Drive, OneDrive, Notion, Slack, Email |
-| 9 | [Executive Agent](./executive-agent.md) | Calendar management, inbox triage, daily briefings | Claude Sonnet 4 / GPT-4o | Calendar, Calendly, Email, Slack, Notion |
+| 1 | [Sales Agent](./sales-agent) | Lead qualification, pipeline management, outreach sequences | DeepSeek V3 / Claude Sonnet 4 | CRM, Calendly, Email, Slack |
+| 2 | [Marketing Agent](./marketing-agent) | Content analytics, SEO monitoring, campaign performance | Claude Sonnet 4 / GPT-4o | GA4, Search Console, Ahrefs, Klaviyo, Meta Ads |
+| 3 | [DevOps Agent](./devops-agent) | Infrastructure monitoring, incident response, deployment tracking | Claude Sonnet 4 / DeepSeek V3 | Database, Slack, Email, Observability APIs |
+| 4 | [Support Agent](./support-agent) | Ticket triage, knowledge base search, SLA monitoring | Claude Sonnet 4 / GPT-4o | CRM, Slack, Email, Stripe, Notion |
+| 5 | [Finance Agent](./finance-agent) | Invoice processing, reconciliation, financial reporting | Claude Sonnet 4 / DeepSeek V3 | QuickBooks, Stripe, Slack, Email, Drive |
+| 6 | [HR Agent](./hr-agent) | Resume screening, onboarding, policy Q&A, compliance | Claude Sonnet 4 / GPT-4o | Calendly, Email, Slack, Notion, Drive |
+| 7 | [Research Agent](./research-agent) | Competitive intel, market analysis, literature review | Claude Sonnet 4 / DeepSeek V3 | Ahrefs, Semrush, GA4, YouTube, Notion |
+| 8 | [Legal Agent](./legal-agent) | Contract review, regulatory monitoring, audit prep | Claude Sonnet 4 / GPT-4o | Drive, OneDrive, Notion, Slack, Email |
+| 9 | [Executive Agent](./executive-agent) | Calendar management, inbox triage, daily briefings | Claude Sonnet 4 / GPT-4o | Calendar, Calendly, Email, Slack, Notion |
 
 ## How It Works
 

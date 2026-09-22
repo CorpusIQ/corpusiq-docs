@@ -412,7 +412,7 @@ _Model Context Protocol servers & integrations_
 
 ---
 
-### [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) ⭐ 26
+### yun520-1/mark-heartflow-skill (repo no longer public) ⭐ 26
 
 >心虫 (HeartFlow) - 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
 
@@ -710,7 +710,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ---
 
-### [Aphelios01-sdk/hermes-brain](https://github.com/Aphelios01-sdk/hermes-brain) ⭐ 0
+### Aphelios01-sdk/hermes-brain (repo no longer public) ⭐ 0
 
 >Hermes Agent skills and memories - AI training knowledge base
 
@@ -862,7 +862,7 @@ _Evaluations, benchmarks, research papers_
 
 ---
 
-### [CogalNocloz/Hermes_evaluation](https://github.com/CogalNocloz/Hermes_evaluation) ⭐ 0
+### CogalNocloz/Hermes_evaluation (repo no longer public) ⭐ 0
 
 >Benchmark Hermes - Hello World Nuxt 4 style Nocloz
 
@@ -1170,7 +1170,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
-### [izillionways/academic-research-skills-hermes](https://github.com/izillionways/academic-research-skills-hermes) ⭐ 1
+### izillionways/academic-research-skills-hermes (repo no longer public) ⭐ 1
 
 >Hermes-compatible adaptation of Academic Research Skills for deep research, academic writing, peer review, and end-to-end paper workflows.
 

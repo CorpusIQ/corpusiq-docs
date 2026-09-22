@@ -119,7 +119,7 @@ npx skills add garrytan/gbrain/skillpack-harvest
 
 ## Previous GBrain Skills (Already Catalogued)
 
-These 20 skills were catalogued in [new-june18-2026-ecosystem](../new-june18-2026-ecosystem/index.md):
+These 20 skills were catalogued in [new-june18-2026-ecosystem](../new-june18-2026-ecosystem/index):
 brain-ops, idea-ingest, query, maintain, meeting-ingestion, enrich, data-research, citation-fixer, media-ingest, daily-task-manager, briefing, ingest, testing, reports, migrate, publish, capture, setup, conventions, install
 
 ---

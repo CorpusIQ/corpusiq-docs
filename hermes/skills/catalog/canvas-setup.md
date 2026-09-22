@@ -145,4 +145,4 @@ Expected output: `✓ Connected to Canvas LMS - 2 courses, 0 upcoming assignment
 
 ---
 
-**Related:** [google-workspace setup](/hermes/skills/catalog/google-workspace), [apple-calendar-setup.md](apple-calendar-setup.md)
+**Related:** [google-workspace setup](/hermes/skills/catalog/google-workspace), [apple-calendar-setup.md](apple-calendar-setup)

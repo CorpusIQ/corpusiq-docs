@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Safari Web Agent - Setup Guide
 
-**Source:** [treyxu23/safari-web-agent](https://github.com/treyxu23/safari-web-agent) · 1★
+**Source:** treyxu23/safari-web-agent (repo no longer public) · 1★
 **Category:** Agent Infrastructure / Browser Automation
 **Platform:** macOS only
 **License:** MIT · **Published:** June 28, 2026

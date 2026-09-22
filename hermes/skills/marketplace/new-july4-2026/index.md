@@ -131,7 +131,7 @@ cd hermes-arxiv-agent
 
 #### mark-heartflow-skill (30⭐)
 
-**Repo:** [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill)
+**Repo:** yun520-1/mark-heartflow-skill (repo no longer public)
 **Author:** yun520-1
 
 HeartFlow - an AI cognitive engine for Hermes Agent: multi-path judgment, self-correcting RL, 3-layer memory (working/semantic/episodic), and U/D/A/H filtering (Useful/Dangerous/Ambiguous/Harmless). A complete cognitive architecture as a Hermes skill.

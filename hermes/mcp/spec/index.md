@@ -9,7 +9,7 @@ Notes and analysis on the Model Context Protocol specification, tracked alongsid
 
 ## Pages
 
-- [MCP 26 Stateless Migration](mcp-26-stateless-migration.md) - Analysis of the MCP spec 2026 stateless migration proposal and what it means for server implementations.
+- [MCP 26 Stateless Migration](mcp-26-stateless-migration) - Analysis of the MCP spec 2026 stateless migration proposal and what it means for server implementations.
 
 ---
 

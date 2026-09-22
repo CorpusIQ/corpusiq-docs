@@ -35,16 +35,16 @@ These patterns cause the majority of production incidents. Avoid them.
 
 | Anti-Pattern | Why It Hurts | What to Do Instead |
 |---|---|---|
-| Hardcoded credentials in skills | Breach on first share | [Security best practices](security.md)  --  secrets manager or env vars |
-| God crons that do everything | One failure cascades | [Cron design](cron-design.md)  --  single-responsibility crons |
+| Hardcoded credentials in skills | Breach on first share | [Security best practices](security)  --  secrets manager or env vars |
+| God crons that do everything | One failure cascades | [Cron design](cron-design)  --  single-responsibility crons |
 | Silent error swallowing | False confidence | Alert on persistent failure |
-| No approval on write ops | Unintended external actions | [Security](security.md)  --  tiered confirmation gates |
+| No approval on write ops | Unintended external actions | [Security](security)  --  tiered confirmation gates |
 | Unbounded database queries | Timeouts, resource exhaustion | Pagination and limits |
-| Memory as dumping ground | Context pollution, staleness | [Memory management](memory-management.md)  --  curated, pruned memories |
-| Copy-pasted skill logic | Bug propagation | [Skill development](skill-development.md)  --  shared utility skills |
+| Memory as dumping ground | Context pollution, staleness | [Memory management](memory-management)  --  curated, pruned memories |
+| Copy-pasted skill logic | Bug propagation | [Skill development](skill-development)  --  shared utility skills |
 | Console-only logging | No audit trail | Structured persistent logging |
 | Auto-updating dependencies | Supply-chain risk | Version pinning in production |
-| Model selection by habit | Cost/latency waste | [Model selection](model-selection.md)  --  task-aware routing |
+| Model selection by habit | Cost/latency waste | [Model selection](model-selection)  --  task-aware routing |
 
 ## Maturity Model
 
@@ -64,7 +64,7 @@ These patterns cause the majority of production incidents. Avoid them.
 
 ### Level 3: Automated Operations
 - Scheduled crons for monitoring, reporting, routine tasks
-- Tiered model selection ([guide](model-selection.md))
+- Tiered model selection ([guide](model-selection))
 - Error handling with retry and alerting
 - Skills published within team with documentation
 - Approval gates on all write operations
@@ -80,8 +80,8 @@ These patterns cause the majority of production incidents. Avoid them.
 
 ### Level 5: Platform Integration
 - Hermes in CI/CD, deployment, incident response
-- Custom MCP servers ([guide](mcp-design.md)) for internal systems
-- Team-wide memory management ([guide](memory-management.md))
+- Custom MCP servers ([guide](mcp-design)) for internal systems
+- Team-wide memory management ([guide](memory-management))
 - Capacity planning and cost optimization
 - Quarterly security compliance reviews
 - **Next:** Publish case studies, shape the roadmap
@@ -90,19 +90,19 @@ These patterns cause the majority of production incidents. Avoid them.
 
 - **Fewer production incidents**: Anti-patterns document common failure modes before you hit them
 - **Faster onboarding**: Standardized practices mean new team members contribute faster
-- **Lower costs**: [Model selection](model-selection.md) and [cron design](cron-design.md) prevent waste
-- **Better security posture**: [Least-privilege patterns](security.md) reduce breach surface
+- **Lower costs**: [Model selection](model-selection) and [cron design](cron-design) prevent waste
+- **Better security posture**: [Least-privilege patterns](security) reduce breach surface
 - **Community alignment**: Skills and MCP servers interoperate when following shared conventions
 
 ## Navigating the Best Practices
 
-- **[Cron Design](cron-design.md):** Idempotency, error handling, rate limiting, monitoring for scheduled automation
-- **[Model Selection](model-selection.md):** When to use which model, cost optimization, fallback chains
-- **[Memory Management](memory-management.md):** Memory systems, compaction strategies, context optimization
-- **[Security](security.md):** Token management, least privilege, approval gates, audit logging
-- **[Skill Development](skill-development.md):** Skill design, testing, documentation, lifecycle management
-- **[MCP Design](mcp-design.md):** MCP server development, tool design, error handling, testing
-- **[Agent Capability Audit](agent-capability-audit.md):** The 4 must-install capabilities test, audited against a production Hermes stack
+- **[Cron Design](cron-design):** Idempotency, error handling, rate limiting, monitoring for scheduled automation
+- **[Model Selection](model-selection):** When to use which model, cost optimization, fallback chains
+- **[Memory Management](memory-management):** Memory systems, compaction strategies, context optimization
+- **[Security](security):** Token management, least privilege, approval gates, audit logging
+- **[Skill Development](skill-development):** Skill design, testing, documentation, lifecycle management
+- **[MCP Design](mcp-design):** MCP server development, tool design, error handling, testing
+- **[Agent Capability Audit](agent-capability-audit):** The 4 must-install capabilities test, audited against a production Hermes stack
 
 ## FAQ
 
@@ -113,20 +113,20 @@ Start with least-privilege access (read-only) and add write capabilities only wh
 Check against the [maturity model](index.md#maturity-model). At minimum, you should have structured logging, error handling with retries, approval gates on writes, and at least one week of error-free operation.
 
 ### Should I use local or cloud models for production?
-Use a hybrid approach: local models for classification, extraction, and routine tasks (free, private); cloud models for complex reasoning. See the [model selection guide](model-selection.md) for task-to-model mapping.
+Use a hybrid approach: local models for classification, extraction, and routine tasks (free, private); cloud models for complex reasoning. See the [model selection guide](model-selection) for task-to-model mapping.
 
 ### How do I prevent cron jobs from causing problems?
-Follow [cron design best practices](cron-design.md): make every cron idempotent, implement retry with backoff, alert on persistent failure, and never run unbounded queries.
+Follow [cron design best practices](cron-design): make every cron idempotent, implement retry with backoff, alert on persistent failure, and never run unbounded queries.
 
 ## Related Pages
 
-- [Cron Design Best Practices](cron-design.md)  --  Reliable scheduled automation
-- [Model Selection Guide](model-selection.md)  --  Task-aware model routing
-- [Memory Management](memory-management.md)  --  Context optimization strategies
-- [Security Best Practices](security.md)  --  Token management and approval gates
-- [Skill Development](skill-development.md)  --  Building reusable skills
-- [MCP Server Design](mcp-design.md)  --  Custom tool development
-- [Agent Capability Audit](agent-capability-audit.md)  --  The 4 must-install capabilities, audited
+- [Cron Design Best Practices](cron-design)  --  Reliable scheduled automation
+- [Model Selection Guide](model-selection)  --  Task-aware model routing
+- [Memory Management](memory-management)  --  Context optimization strategies
+- [Security Best Practices](security)  --  Token management and approval gates
+- [Skill Development](skill-development)  --  Building reusable skills
+- [MCP Server Design](mcp-design)  --  Custom tool development
+- [Agent Capability Audit](agent-capability-audit)  --  The 4 must-install capabilities, audited
 - [Setup Guides](/docs/hermes/setup)  --  Platform-specific installation
 
 ---

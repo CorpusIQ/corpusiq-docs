@@ -132,7 +132,7 @@ python hermes-complete-backup.py --quick -o ~/hermes-backup.zip
 
 #### IC-sd Agent Skills (1⭐)
 
-**Repo:** [IC-sd/hermes-agent-skills](https://github.com/IC-sd/hermes-agent-skills)
+**Repo:** IC-sd/hermes-agent-skills (repo no longer public)
 **Author:** IC-sd
 
 A collection of 3 practical Hermes Agent skills with full documentation (SKILL.md + README.md + references + scripts + assets for each skill):

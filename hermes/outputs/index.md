@@ -26,15 +26,15 @@ Welcome to the **Hermes Agent field manual**. This section shows what Hermes can
 
 ### If You're New to Hermes Agent
 
-1. **Start with the [Startup guide](by-company-size/startup.md)**  --  covers fundamentals of building your first automations
-2. **Read the [Workflow Templates](workflows/templates.md) next**  --  pick one template that solves your most painful manual task
+1. **Start with the [Startup guide](by-company-size/startup)**  --  covers fundamentals of building your first automations
+2. **Read the [Workflow Templates](workflows/templates) next**  --  pick one template that solves your most painful manual task
 3. **Then explore your [industry case study](#by-industry-case-studies)**  --  patterns specific to your domain
 
 ### If You're Scaling Your Usage
 
 1. **Read the company-size guide matching your stage**  --  patterns change meaningfully between stages
 2. **Browse case studies outside your industry**  --  manufacturing patterns apply to any supply chain
-3. **Use the [templates](workflows/templates.md) as a starting point**  --  designed to be adapted, not adopted wholesale
+3. **Use the [templates](workflows/templates) as a starting point**  --  designed to be adapted, not adopted wholesale
 
 ### If You're Evaluating Hermes
 
@@ -48,26 +48,26 @@ Each case study covers specific workflows, compliance requirements, and tool int
 
 | Case Study | What You'll Learn |
 |------------|-------------------|
-| [Compliance & Audit](case-studies/compliance-audit.md) | SOC 2 evidence collection, HIPAA audit trails, GDPR checks, change management monitoring |
-| [Healthcare](case-studies/healthcare.md) | Patient record management, scheduling, insurance verification, and HIPAA-control patterns |
-| [Financial Services](case-studies/financial-services.md) | Portfolio monitoring, transaction reconciliation, fraud detection, regulatory filing automation |
-| [Manufacturing](case-studies/manufacturing.md) | Supply chain monitoring, inventory reorder, quality control with SPC rules, IoT sensor integration |
-| [Real Estate](case-studies/real-estate.md) | Multi-platform listing syndication, lead qualification, market analysis, transaction tracking |
-| [Professional Services](case-studies/professional-services.md) | Client onboarding, calendar-to-timesheet automation, project budget burn, invoice generation |
-| [Customer Support](case-studies/customer-support.md) | Multi-channel ticket triage, KB search, SLA monitoring with escalation, customer health signals |
-| [Revenue Operations](case-studies/revenue-operations.md) | Pipeline hygiene, weighted forecasting, commission calculation, cross-source revenue reconciliation |
+| [Compliance & Audit](case-studies/compliance-audit) | SOC 2 evidence collection, HIPAA audit trails, GDPR checks, change management monitoring |
+| [Healthcare](case-studies/healthcare) | Patient record management, scheduling, insurance verification, and HIPAA-control patterns |
+| [Financial Services](case-studies/financial-services) | Portfolio monitoring, transaction reconciliation, fraud detection, regulatory filing automation |
+| [Manufacturing](case-studies/manufacturing) | Supply chain monitoring, inventory reorder, quality control with SPC rules, IoT sensor integration |
+| [Real Estate](case-studies/real-estate) | Multi-platform listing syndication, lead qualification, market analysis, transaction tracking |
+| [Professional Services](case-studies/professional-services) | Client onboarding, calendar-to-timesheet automation, project budget burn, invoice generation |
+| [Customer Support](case-studies/customer-support) | Multi-channel ticket triage, KB search, SLA monitoring with escalation, customer health signals |
+| [Revenue Operations](case-studies/revenue-operations) | Pipeline hygiene, weighted forecasting, commission calculation, cross-source revenue reconciliation |
 
 ## By Company Size
 
 | Guide | For Teams Of | Focus |
 |-------|-------------|-------|
-| [Startup](by-company-size/startup.md) | 1-50 employees | Solo founder patterns, essential crons, scrappy setup with free tiers |
-| [Mid-Market](by-company-size/mid-market.md) | 50-500 employees | Multi-team orchestration, departmental profiles, approval workflows |
-| [Enterprise](by-company-size/enterprise.md) | 500+ employees | Security compliance, multi-region deployment, audit-grade logging, SOC 2/HIPAA/GDPR |
+| [Startup](by-company-size/startup) | 1-50 employees | Solo founder patterns, essential crons, scrappy setup with free tiers |
+| [Mid-Market](by-company-size/mid-market) | 50-500 employees | Multi-team orchestration, departmental profiles, approval workflows |
+| [Enterprise](by-company-size/enterprise) | 500+ employees | Security compliance, multi-region deployment, audit-grade logging, SOC 2/HIPAA/GDPR |
 
 ## Workflow Templates
 
-Ready-to-deploy cron + skill templates in the [**Copy-Paste Cron Templates**](workflows/templates.md) guide:
+Ready-to-deploy cron + skill templates in the [**Copy-Paste Cron Templates**](workflows/templates) guide:
 
 - **Email monitoring:** Support inbox triage, vendor invoice detection, lead alert monitoring
 - **Report generation:** Daily executive summary, weekly business review, monthly close package
@@ -97,7 +97,7 @@ Navigate to [By Industry](#by-industry-case-studies) above and find your sector.
 
 ### How long does it take to implement the workflow templates?
 
-The [Copy-Paste Cron Templates](workflows/templates.md) are designed for **deployment in under an hour**. Copy the YAML into `~/.hermes/cron/`, create the corresponding skill file, adjust thresholds, and test with a single manual run before enabling the cron.
+The [Copy-Paste Cron Templates](workflows/templates) are designed for **deployment in under an hour**. Copy the YAML into `~/.hermes/cron/`, create the corresponding skill file, adjust thresholds, and test with a single manual run before enabling the cron.
 
 ### What's the difference between case studies and workflow templates?
 
@@ -109,7 +109,7 @@ The community grows stronger with every documented use case. If you've built a H
 
 ## Related Pages
 
-- [Copy-Paste Cron Templates  --  Deploy in Minutes](workflows/templates.md)
+- [Copy-Paste Cron Templates  --  Deploy in Minutes](workflows/templates)
 - [Agent Library  --  9 Role Configurations](/docs/hermes/agents)
 - [Architecture  --  6-Layer Production Model](/docs/hermes/architecture)
 - [Cron Scheduling Guide  --  38 Production Crons](/docs/hermes/governance/scheduling)

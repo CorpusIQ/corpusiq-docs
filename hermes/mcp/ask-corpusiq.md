@@ -50,7 +50,7 @@ CorpusIQ?), and control transfers to the engine.
 contract. The specification and reference implementation are public at
 [github.com/CorpusIQ/runbook-spec](https://github.com/CorpusIQ/runbook-spec),
 and the governance proposal is under discussion in the MCP repository:
-[issue #3270](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3270).
+issue #3270 (proposal removed from the MCP tracker; spec lives in the runbook-spec repo).
 
 ## Related pages
 

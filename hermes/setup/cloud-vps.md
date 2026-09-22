@@ -96,7 +96,7 @@ docker run -d --name hermes-agent \
   nousresearch/hermes-agent:latest
 ```
 
-Full setup in the [Docker guide](docker.md).
+Full setup in the [Docker guide](docker).
 
 ### Step 6: Systemd Service
 
@@ -173,7 +173,7 @@ For heavier usage with Claude-level models: ~$15-25/month.
 ## FAQ
 
 ### Can I run local models on a cloud VPS?
-No  --  cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a [gaming PC](gaming-pc.md) or [Mac Mini M4](mac-mini-standalone.md).
+No  --  cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a [gaming PC](gaming-pc) or [Mac Mini M4](mac-mini-standalone).
 
 ### Which cloud VPS provider is best for Hermes Agent?
 Hetzner CX22 offers the best value at €4.51/month with 4GB RAM  --  enough for Hermes Agent + memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces.
@@ -184,8 +184,8 @@ The systemd service with `Restart=always` ensures Hermes Agent restarts automati
 ## Related Pages
 
 - [Hermes Agent Setup Overview](/docs/hermes/setup)  --  All platform options
-- [Docker Setup](docker.md)  --  Containerized cloud deployment
-- [Raspberry Pi Setup](raspberry-pi.md)  --  Alternative low-cost 24/7 option
+- [Docker Setup](docker)  --  Containerized cloud deployment
+- [Raspberry Pi Setup](raspberry-pi)  --  Alternative low-cost 24/7 option
 - [Model Selection Guide](/docs/hermes/best-practices/model-selection)  --  API model tiering
 - [Cron Design Best Practices](/docs/hermes/best-practices/cron-design)  --  24/7 automation
 - [Troubleshooting Guide](/docs/hermes/troubleshooting)  --  VPS-specific issues

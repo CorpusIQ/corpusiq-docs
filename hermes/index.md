@@ -16,14 +16,14 @@ The largest structured collection of Hermes Agent tools, skills, MCP servers, ag
 
 ## Quick Links
 
-- [Ecosystem Map](ecosystem.md) - 440+ repos across 18 categories
-- [Agent Library](agents/index.md) - 10 production agent configurations
-- [Case Studies](outputs/index.md) - 13 industry case studies
-- [Setup Guides](setup/index.md) - Deploy on Mac, PC, VPS, Raspberry Pi
-- [Best Practices](best-practices/index.md) - Cron design, model selection, memory, security
-- [Blueprints](blueprints/index.md) - Daily ops, customer lifecycle, financial close
-- [Prompts](prompts/index.md) - Production prompts for code, content, data, business ops
-- [Skills](skills/catalog/index.md) - Creating and publishing agent skills
+- [Ecosystem Map](ecosystem) - 440+ repos across 18 categories
+- [Agent Library](agents/index) - 10 production agent configurations
+- [Case Studies](outputs/index) - 13 industry case studies
+- [Setup Guides](setup/index) - Deploy on Mac, PC, VPS, Raspberry Pi
+- [Best Practices](best-practices/index) - Cron design, model selection, memory, security
+- [Blueprints](blueprints/index) - Daily ops, customer lifecycle, financial close
+- [Prompts](prompts/index) - Production prompts for code, content, data, business ops
+- [Skills](skills/catalog/index) - Creating and publishing agent skills
 
 ---
 

@@ -161,8 +161,8 @@ Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are
 ## Related Pages
 
 - [Hermes Agent Setup Overview](/docs/hermes/setup)  --  All platform options
-- [Cloud VPS Setup](cloud-vps.md)  --  Docker on cloud
-- [Gaming PC Setup](gaming-pc.md)  --  Docker with GPU passthrough
+- [Cloud VPS Setup](cloud-vps)  --  Docker on cloud
+- [Gaming PC Setup](gaming-pc)  --  Docker with GPU passthrough
 - [MCP Integration Guide](/docs/hermes/mcp)  --  Connect tools inside containers
 - [Creating Custom Skills](/docs/hermes/skills/creating-skills)  --  Mount skills in Docker
 ---

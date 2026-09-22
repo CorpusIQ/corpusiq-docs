@@ -81,7 +81,7 @@ npx skills add PabloTheThinker/hermespace --skill hermespace -g -y
 
 ### Billing & Spend - plutus (2★)
 
-**Repo:** [Perseus-Computing-LLC/plutus](https://github.com/Perseus-Computing-LLC/plutus)
+**Repo:** Perseus-Computing-LLC/plutus (repo no longer public)
 **Install:** `pip install plutus-agent`
 **Language:** Python · **License:** MIT · **Tags:** `hermes-agent`, `cost-tracking`, `credit-monitoring`
 
