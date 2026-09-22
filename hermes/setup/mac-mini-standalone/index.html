@@ -10705,17 +10705,17 @@ pip<span class="w"> </span>install<span class="w"> </span>memcore-cloud<span cla
 <p><strong>Total: ~$600 upfront, $10-25/month ongoing.</strong></p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="why-is-mac-mini-m4-recommended-over-a-gaming-pc">Why is Mac Mini M4 recommended over a gaming PC?<a class="headerlink" href="#why-is-mac-mini-m4-recommended-over-a-gaming-pc" title="Anchor link to this section">&para;</a></h3>
-<p>The Mac Mini M4 offers silent operation, lower power consumption (~20W vs 150W+), unified memory architecture that's ideal for LLM inference, and native macOS support for all Hermes Agent features. A <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC setup</a> provides more raw GPU power but at higher cost, noise, and power draw.</p>
+<p>The Mac Mini M4 offers silent operation, lower power consumption (~20W vs 150W+), unified memory architecture that's ideal for LLM inference, and native macOS support for all Hermes Agent features. A <a href="gaming-pc">gaming PC setup</a> provides more raw GPU power but at higher cost, noise, and power draw.</p>
 <h3 id="can-i-use-only-local-models-on-mac-mini">Can I use only local models on Mac Mini?<a class="headerlink" href="#can-i-use-only-local-models-on-mac-mini" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. With 16GB RAM you can comfortably run models up to ~8B parameters; with 24GB+ you can run 13B-14B models. For heavier workloads, supplement with cloud models via OpenRouter as a fallback.</p>
 <h3 id="how-do-i-prevent-my-mac-mini-from-sleeping">How do I prevent my Mac Mini from sleeping?<a class="headerlink" href="#how-do-i-prevent-my-mac-mini-from-sleeping" title="Anchor link to this section">&para;</a></h3>
 <p>Use <code>caffeinate -dims &amp;</code> from the terminal or go to System Settings → Battery → Options → Prevent automatic sleeping on power adapter.</p>
 <h3 id="what-if-i-need-more-gpu-power">What if I need more GPU power?<a class="headerlink" href="#what-if-i-need-more-gpu-power" title="Anchor link to this section">&para;</a></h3>
-<p>Add a <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC worker node</a> via SSH for GPU-heavy inference, or use <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud GPU instances</a> for burst workloads.</p>
+<p>Add a <a href="gaming-pc">gaming PC worker node</a> via SSH for GPU-heavy inference, or use <a href="cloud-vps">cloud GPU instances</a> for burst workloads.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  Compare all hardware platforms</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">Gaming PC Setup</a>  --  Maximum GPU performance</li>
+<li><a href="gaming-pc">Gaming PC Setup</a>  --  Maximum GPU performance</li>
 <li><a href="/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  Tiered model routing</li>
 <li><a href="/docs/hermes/knowledge">Memory Architecture</a>  --  Triple-stack agent memory</li>
 <li><a href="/docs/hermes/mcp">MCP Integration Guide</a>  --  Connect 40+ business platforms</li>
