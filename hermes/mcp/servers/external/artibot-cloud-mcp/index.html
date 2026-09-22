@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Skills from heygen-com/hyperframes at skills.sh - agentic-mcp for agent-to-MCP bridging and context synchronization. 359 clawhub skills related.">
+        <meta name="description" content="ArtiBot Cloud MCP (Zhijiangyun): 15 tools for robot fleet management and GPU workloads, OAuth 2.0.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-mcp-setup">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/artibot-cloud-mcp">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Agentic MCP - Agent-MCP Integration Setup</title>
+    <title>ArtiBot Cloud MCP - Robot Fleet Management</title>
   
 
     
@@ -51,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-mcp-setup">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/artibot-cloud-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Agentic MCP - Agent-MCP Integration Setup">
-  <meta property="og:description" content="Skills from heygen-com/hyperframes at skills.sh - agentic-mcp for agent-to-MCP bridging and context synchronization. 359 clawhub skills related.">
+  <meta property="og:title" content="ArtiBot Cloud MCP - Robot Fleet Management">
+  <meta property="og:description" content="ArtiBot Cloud MCP (Zhijiangyun): 15 tools for robot fleet management and GPU workloads, OAuth 2.0.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Agentic MCP - Agent-MCP Integration Setup">
-  <meta name="twitter:description" content="Skills from heygen-com/hyperframes at skills.sh - agentic-mcp for agent-to-MCP bridging and context synchronization. 359 clawhub skills related.">
+  <meta name="twitter:title" content="ArtiBot Cloud MCP - Robot Fleet Management">
+  <meta name="twitter:description" content="ArtiBot Cloud MCP (Zhijiangyun): 15 tools for robot fleet management and GPU workloads, OAuth 2.0.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,12 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Agentic MCP - Agent-MCP Integration Setup",
-    "description": "Skills from heygen-com/hyperframes at skills.sh - agentic-mcp for agent-to-MCP bridging and context synchronization. 359 clawhub skills related.",
-    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-mcp-setup",
+    "name": "ArtiBot Cloud MCP - Robot Fleet Management",
+    "description": "ArtiBot Cloud MCP (Zhijiangyun): 15 tools for robot fleet management and GPU workloads, OAuth 2.0.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/artibot-cloud-mcp",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-09-22",
+    "dateModified": "2026-09-22",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-09-22">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -176,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agentic-mcp-setup-guide" class="md-skip">
+        <a href="#artibot-cloud-mcp-robot-fleet-management" class="md-skip">
           Skip to content
         </a>
       
@@ -192,7 +192,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Agentic MCP - Agent-MCP Integration Setup
+              ArtiBot Cloud MCP - Robot Fleet Management
             
           </span>
         </div>
@@ -330,7 +330,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -360,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -10043,10 +10043,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#capability-surface" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
+        Capability surface
       
     </span>
   </a>
@@ -10054,10 +10054,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#auth" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Auth
       
     </span>
   </a>
@@ -10065,54 +10065,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-it-provides" class="md-nav__link">
+  <a href="#status" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What It Provides
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Quick Start
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corpusiq-use-cases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CorpusIQ Use Cases
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#limitations-verification" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Limitations / Verification
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Related
+        Status
       
     </span>
   </a>
@@ -10139,128 +10095,19 @@
   
 
 
-<h1 id="agentic-mcp-setup-guide">Agentic MCP - Setup Guide<a class="headerlink" href="#agentic-mcp-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Source:</strong> <a href="https://skills.sh/heygen-com/hyperframes">heygen-com/hyperframes</a><br />
-<strong>Skills:</strong> agentic-mcp and related agent-MCP integration tools<br />
-<strong>Category:</strong> Agent Infrastructure &amp; MCP Integration<br />
-<strong>First Seen:</strong> September 17, 2026 sweep<br />
-<strong>Quality Tier:</strong> 🟡 Trusted (community suite; verify per-skill before production use)</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>heygen-com/hyperframes<span class="w"> </span>--skill<span class="w"> </span>agentic-mcp
-</code></pre></div>
-<p>Individual agent-MCP integration skills can be installed separately:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>heygen-com/hyperframes<span class="w"> </span>--skill<span class="w"> </span>agentic-mcp
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>heygen-com/hyperframes<span class="w"> </span>--skill<span class="w"> </span>mcp-client
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>heygen-com/hyperframes<span class="w"> </span>--skill<span class="w"> </span>mcp-integration
-</code></pre></div>
-<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Requirement</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Hermes Agent</strong></td>
-<td>Profile: corpusiq with MCP connectors configured</td>
-</tr>
-<tr>
-<td><strong>MCP Server</strong></td>
-<td>Running MCP endpoint (local or remote)</td>
-</tr>
-<tr>
-<td><strong>Node.js + npx</strong></td>
-<td>For the skills.sh installer</td>
-</tr>
-<tr>
-<td><strong>API Keys</strong></td>
-<td>Required for remote MCP connections</td>
-</tr>
-</tbody>
-</table>
-<h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Skill</th>
-<th>Purpose</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>agentic-mcp</strong></td>
-<td>Bridges Hermes agents to MCP servers</td>
-<td>Enables agent-to-MCP context sync and command routing</td>
-</tr>
-<tr>
-<td><strong>mcp-client</strong></td>
-<td>MCP client for Hermes</td>
-<td>Standard MCP client protocol implementation</td>
-</tr>
-<tr>
-<td><strong>mcp-integration</strong></td>
-<td>MCP integration workflows</td>
-<td>Multi-step integration patterns for common agent tasks</td>
-</tr>
-<tr>
-<td><strong>mcp-adapter</strong></td>
-<td>MCP adapter for custom protocols</td>
-<td>Adapters for non-standard MCP endpoints</td>
-</tr>
-</tbody>
-</table>
-<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li><code>npx skills add heygen-com/hyperframes --skill agentic-mcp</code></li>
-<li>Configure MCP connection in Hermes profile</li>
-<li><code>"Connect my agent to the MCP server at https://mcp.example.com"</code></li>
-<li><code>"Run an MCP query through my agent"</code></li>
-</ol>
-<h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Use Case</th>
-<th>How</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>MCP Bridge</strong></td>
-<td>Connect Hermes agents to external MCP services for extended capabilities</td>
-</tr>
-<tr>
-<td><strong>Context Sync</strong></td>
-<td>Sync agent state across multiple MCP endpoints</td>
-</tr>
-<tr>
-<td><strong>Command Routing</strong></td>
-<td>Route agent commands through MCP layer to downstream services</td>
-</tr>
-<tr>
-<td><strong>Multi-Server Coordination</strong></td>
-<td>Coordinate between multiple MCP servers from a single agent</td>
-</tr>
-</tbody>
-</table>
-<h2 id="limitations-verification">Limitations / Verification<a class="headerlink" href="#limitations-verification" title="Anchor link to this section">&para;</a></h2>
+<h1 id="artibot-cloud-mcp-robot-fleet-management">ArtiBot Cloud MCP - Robot Fleet Management<a class="headerlink" href="#artibot-cloud-mcp-robot-fleet-management" title="Anchor link to this section">&para;</a></h1>
+<p>ArtiBot Cloud MCP from Zhijiangyun: 15 tools for robot fleet management and GPU workloads.</p>
+<h2 id="capability-surface">Capability surface<a class="headerlink" href="#capability-surface" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Community suite - per-skill quality varies; verify outputs against primary MCP sources</li>
-<li>MCP connection stability depends on server availability</li>
-<li>Adapt prompts for your specific MCP infrastructure</li>
+<li>Robot fleet management operations</li>
+<li>GPU workload tooling</li>
+<li>OAuth 2.0 authentication</li>
+<li>Endpoint verified live at catalog time (401 auth-gated, which is the expected response for an authenticated MCP endpoint)</li>
 </ul>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>heygen-com/hyperframes<span class="w"> </span>--skill<span class="w"> </span>agentic-mcp<span class="w">   </span><span class="c1"># verify install works</span>
-</code></pre></div>
-<h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><a href="/docs/hermes/skills/catalog">Skills Catalog</a></li>
-<li><a href="/docs/hermes/skills/catalog/mcp-integration-setup">MCP Integration</a></li>
-</ul>
-<p><em>← <a href="/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="/docs/hermes/skills/marketplace">Marketplace</a> →</em></p>
-<p><em>Powered by CorpusIQ</em></p>
+<h2 id="auth">Auth<a class="headerlink" href="#auth" title="Anchor link to this section">&para;</a></h2>
+<p>OAuth 2.0. A 401 from an unauthenticated client is expected and does not mean the endpoint is down.</p>
+<h2 id="status">Status<a class="headerlink" href="#status" title="Anchor link to this section">&para;</a></h2>
+<p>Catalogued from vendor documentation and endpoint verification. Deep-dive page pending further capability confirmation.</p>
 
 
 
@@ -10326,7 +10173,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
