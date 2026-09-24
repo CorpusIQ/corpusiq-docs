@@ -10341,9 +10341,9 @@
 <h2 id="code-comparison-mcp-vs-traditional-api">Code Comparison: MCP vs Traditional API<a class="headerlink" href="#code-comparison-mcp-vs-traditional-api" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Traditional approach</strong>  --  what a developer must build for a simple "show me recent orders" question:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Custom code for each integration</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">requests</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_shopify_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;any&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">get_shopify_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;any&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
     <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://</span><span class="si">{</span><span class="n">SHOPIFY_STORE</span><span class="si">}</span><span class="s2">.myshopify.com/admin/api/2024-01/orders.json&quot;</span>
     <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;X-Shopify-Access-Token&quot;</span><span class="p">:</span> <span class="n">SHOPIFY_TOKEN</span><span class="p">}</span>
     <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;status&quot;</span><span class="p">:</span> <span class="n">status</span><span class="p">,</span> <span class="s2">&quot;limit&quot;</span><span class="p">:</span> <span class="n">limit</span><span class="p">}</span>
@@ -10352,7 +10352,7 @@
     <span class="c1"># Parse, normalize, format for AI consumption</span>
     <span class="k">return</span> <span class="n">format_orders_for_ai</span><span class="p">(</span><span class="n">orders</span><span class="p">)</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_quickbooks_invoices</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;open&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">get_quickbooks_invoices</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;open&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
     <span class="c1"># Completely different auth, URL structure, and parsing</span>
     <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://quickbooks.api.intuit.com/v3/company/</span><span class="si">{</span><span class="n">REALM_ID</span><span class="si">}</span><span class="s2">/query&quot;</span>
     <span class="c1"># ... custom auth header ...</span>
@@ -10482,6 +10482,19 @@ Yes. MCP is an open protocol with SDKs available. You can build custom MCP serve
   
   <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
     <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
+  
+  <div style="max-width:640px;margin:0 auto 28px;padding:22px 26px;border:1px solid var(--md-primary-fg-color);border-radius:14px;background:var(--md-primary-fg-color--transparent, rgba(13,148,136,0.07));text-align:center;">
+    <p style="margin:0 0 12px;font-size:1.02em;font-weight:600;color:var(--md-default-fg-color);">
+      Every answer in these docs comes from live business data.
+    </p>
+    <p style="margin:0 0 16px;font-size:0.9em;color:var(--md-default-fg-color--light);">
+      Connect your tools and ask your own questions in ChatGPT, Claude, or Perplexity. Same number, every time.
+    </p>
+    <a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-footer-cta"
+       style="display:inline-block;padding:10px 22px;border-radius:8px;background:var(--md-primary-fg-color);color:#fff;font-weight:600;text-decoration:none;">
+      Start free, no credit card
+    </a>
   </div>
   
   <div style="display:flex;justify-content:center;align-items:center;gap:18px;padding:0 16px 20px;font-size:0.8em;">

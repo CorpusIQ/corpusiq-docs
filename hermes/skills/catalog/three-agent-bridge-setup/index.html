@@ -10396,7 +10396,7 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/hermes-bridge
 <h3 id="conversation-mirroring">Conversation Mirroring<a class="headerlink" href="#conversation-mirroring" title="Anchor link to this section">&para;</a></h3>
 <p>Each agent mirrors its Telegram conversation to the bridge:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Pseudocode for conversation mirroring</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
     <span class="n">bridge_entry</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s2">&quot;sender&quot;</span><span class="p">:</span> <span class="n">AGENT_NAME</span><span class="p">,</span>
         <span class="s2">&quot;level&quot;</span><span class="p">:</span> <span class="n">infer_priority</span><span class="p">(</span><span class="n">msg</span><span class="p">),</span>
@@ -10542,6 +10542,19 @@ hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span 
   
   <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
     <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
+  
+  <div style="max-width:640px;margin:0 auto 28px;padding:22px 26px;border:1px solid var(--md-primary-fg-color);border-radius:14px;background:var(--md-primary-fg-color--transparent, rgba(13,148,136,0.07));text-align:center;">
+    <p style="margin:0 0 12px;font-size:1.02em;font-weight:600;color:var(--md-default-fg-color);">
+      Every answer in these docs comes from live business data.
+    </p>
+    <p style="margin:0 0 16px;font-size:0.9em;color:var(--md-default-fg-color--light);">
+      Connect your tools and ask your own questions in ChatGPT, Claude, or Perplexity. Same number, every time.
+    </p>
+    <a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-footer-cta"
+       style="display:inline-block;padding:10px 22px;border-radius:8px;background:var(--md-primary-fg-color);color:#fff;font-weight:600;text-decoration:none;">
+      Start free, no credit card
+    </a>
   </div>
   
   <div style="display:flex;justify-content:center;align-items:center;gap:18px;padding:0 16px 20px;font-size:0.8em;">

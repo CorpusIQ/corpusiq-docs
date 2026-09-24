@@ -10616,7 +10616,7 @@
 <p>Pitfall surfaced on Mailchimp: a fix correctly made the inline <code>server.py</code> loader async-aware, and a separate PR migrated the TokenManager to sync helpers. But <code>auth/mailchimp_auth.py</code> had THREE helper methods doing <code>await self.token_manager.load_token(...)</code>  --  a parallel code path the inline fix never touched. Every tool call hit <code>TypeError: object dict can't be used in 'await' expression</code>.</p>
 <p>Recurred on a metric-spec ship: PR added contract strings to <code>server.py</code>'s data-contract render path. CI green, dev deploy green. First smoke against the deployed surface showed the directive MISSING  --  because the Claude-shaped render path is a near-duplicate in <code>openai_app/response_formatter.py</code> with its own override map. Server.py path was instrumented; openai_app path wasn't.</p>
 <p><strong>Mitigation pattern (generalizable):</strong> when intentional duplication can't be collapsed to a single source without architectural lift, add a lockstep equality test that asserts the two copies are equal. Drift becomes a static problem (CI red on edit-one-copy) instead of a runtime one (silent ship, customer-visible).</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_X_constants_in_lockstep_across_render_paths</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">test_X_constants_in_lockstep_across_render_paths</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;server.py and openai_app must carry IDENTICAL X strings.</span>
 
 <span class="sd">    They&#39;re duplicated by design (different render paths, can&#39;t share a</span>
@@ -10624,8 +10624,8 @@
 <span class="sd">    drift is a test that pins equality. If you edit one, the test forces</span>
 <span class="sd">    you to edit the other.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="kn">from</span><span class="w"> </span><span class="nn">server</span><span class="w"> </span><span class="kn">import</span> <span class="n">_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_X_CONSTANT_B</span>
-    <span class="kn">from</span><span class="w"> </span><span class="nn">openai_app.response_formatter</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+    <span class="kn">from</span> <span class="nn">server</span> <span class="kn">import</span> <span class="n">_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_X_CONSTANT_B</span>
+    <span class="kn">from</span> <span class="nn">openai_app.response_formatter</span> <span class="kn">import</span> <span class="p">(</span>
         <span class="n">_OPENAI_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_OPENAI_X_CONSTANT_B</span><span class="p">,</span>
     <span class="p">)</span>
     <span class="k">assert</span> <span class="n">_X_CONSTANT_A</span> <span class="o">==</span> <span class="n">_OPENAI_X_CONSTANT_A</span>
@@ -10875,6 +10875,19 @@ git<span class="w"> </span>diff<span class="w"> </span>origin/main..origin/Devel
   
   <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
     <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
+  
+  <div style="max-width:640px;margin:0 auto 28px;padding:22px 26px;border:1px solid var(--md-primary-fg-color);border-radius:14px;background:var(--md-primary-fg-color--transparent, rgba(13,148,136,0.07));text-align:center;">
+    <p style="margin:0 0 12px;font-size:1.02em;font-weight:600;color:var(--md-default-fg-color);">
+      Every answer in these docs comes from live business data.
+    </p>
+    <p style="margin:0 0 16px;font-size:0.9em;color:var(--md-default-fg-color--light);">
+      Connect your tools and ask your own questions in ChatGPT, Claude, or Perplexity. Same number, every time.
+    </p>
+    <a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-footer-cta"
+       style="display:inline-block;padding:10px 22px;border-radius:8px;background:var(--md-primary-fg-color);color:#fff;font-weight:600;text-decoration:none;">
+      Start free, no credit card
+    </a>
   </div>
   
   <div style="display:flex;justify-content:center;align-items:center;gap:18px;padding:0 16px 20px;font-size:0.8em;">

@@ -10299,7 +10299,7 @@ npm<span class="w"> </span>install<span class="w"> </span>deepagents
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="python">Python<a class="headerlink" href="#python" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">deepagents</span><span class="w"> </span><span class="kn">import</span> <span class="n">create_deep_agent</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">deepagents</span> <span class="kn">import</span> <span class="n">create_deep_agent</span>
 
 <span class="c1"># Default: StateBackend (ephemeral, within thread)</span>
 <span class="n">agent</span> <span class="o">=</span> <span class="n">create_deep_agent</span><span class="p">()</span>
@@ -10309,11 +10309,11 @@ npm<span class="w"> </span>install<span class="w"> </span>deepagents
 <span class="c1"># /draft.txt is lost when thread ends</span>
 
 <span class="c1"># StoreBackend: persistent across threads</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">deepagents.backends</span><span class="w"> </span><span class="kn">import</span> <span class="n">StoreBackend</span>
+<span class="kn">from</span> <span class="nn">deepagents.backends</span> <span class="kn">import</span> <span class="n">StoreBackend</span>
 <span class="n">agent</span> <span class="o">=</span> <span class="n">create_deep_agent</span><span class="p">(</span><span class="n">backend</span><span class="o">=</span><span class="n">StoreBackend</span><span class="p">())</span>
 
 <span class="c1"># CompositeBackend: route paths to different backends</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">deepagents.backends</span><span class="w"> </span><span class="kn">import</span> <span class="n">CompositeBackend</span><span class="p">,</span> <span class="n">StateBackend</span><span class="p">,</span> <span class="n">StoreBackend</span>
+<span class="kn">from</span> <span class="nn">deepagents.backends</span> <span class="kn">import</span> <span class="n">CompositeBackend</span><span class="p">,</span> <span class="n">StateBackend</span><span class="p">,</span> <span class="n">StoreBackend</span>
 <span class="n">agent</span> <span class="o">=</span> <span class="n">create_deep_agent</span><span class="p">(</span><span class="n">backend</span><span class="o">=</span><span class="n">CompositeBackend</span><span class="p">({</span>
     <span class="s2">&quot;/tmp/&quot;</span><span class="p">:</span> <span class="n">StateBackend</span><span class="p">(),</span>      <span class="c1"># Ephemeral temp files</span>
     <span class="s2">&quot;/data/&quot;</span><span class="p">:</span> <span class="n">StoreBackend</span><span class="p">(),</span>     <span class="c1"># Persistent data</span>
@@ -10439,6 +10439,19 @@ npm<span class="w"> </span>install<span class="w"> </span>deepagents
   
   <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
     <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
+  
+  <div style="max-width:640px;margin:0 auto 28px;padding:22px 26px;border:1px solid var(--md-primary-fg-color);border-radius:14px;background:var(--md-primary-fg-color--transparent, rgba(13,148,136,0.07));text-align:center;">
+    <p style="margin:0 0 12px;font-size:1.02em;font-weight:600;color:var(--md-default-fg-color);">
+      Every answer in these docs comes from live business data.
+    </p>
+    <p style="margin:0 0 16px;font-size:0.9em;color:var(--md-default-fg-color--light);">
+      Connect your tools and ask your own questions in ChatGPT, Claude, or Perplexity. Same number, every time.
+    </p>
+    <a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-footer-cta"
+       style="display:inline-block;padding:10px 22px;border-radius:8px;background:var(--md-primary-fg-color);color:#fff;font-weight:600;text-decoration:none;">
+      Start free, no credit card
+    </a>
   </div>
   
   <div style="display:flex;justify-content:center;align-items:center;gap:18px;padding:0 16px 20px;font-size:0.8em;">

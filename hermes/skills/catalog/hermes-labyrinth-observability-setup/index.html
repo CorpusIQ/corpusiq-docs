@@ -10300,20 +10300,20 @@ curl<span class="w"> </span><span class="s2">&quot;http://127.0.0.1:9119/api/plu
 </code></pre></div>
 <hr />
 <h2 id="python-api-client">Python API Client<a class="headerlink" href="#python-api-client" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">urllib.request</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">urllib.request</span>
+<span class="kn">import</span> <span class="nn">json</span>
 
 <span class="n">BASE</span> <span class="o">=</span> <span class="s2">&quot;http://127.0.0.1:9119/api/plugins/hermes-labyrinth&quot;</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_journeys</span><span class="p">():</span>
+<span class="k">def</span> <span class="nf">get_journeys</span><span class="p">():</span>
     <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/journeys&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_crossings</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">get_crossings</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
     <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/journeys/</span><span class="si">{</span><span class="n">journey_id</span><span class="si">}</span><span class="s2">/crossings&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_report_json</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">get_report_json</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
     <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/reports/</span><span class="si">{</span><span class="n">journey_id</span><span class="si">}</span><span class="s2">.json&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 </code></pre></div>
@@ -10383,6 +10383,19 @@ curl<span class="w"> </span>http://127.0.0.1:9119/api/plugins/hermes-labyrinth/j
   
   <div style="display:flex;justify-content:center;align-items:center;gap:10px;padding:0 16px 24px;">
     <div google-add-preferred-source-btn data-theme="light"></div>
+  </div>
+  
+  <div style="max-width:640px;margin:0 auto 28px;padding:22px 26px;border:1px solid var(--md-primary-fg-color);border-radius:14px;background:var(--md-primary-fg-color--transparent, rgba(13,148,136,0.07));text-align:center;">
+    <p style="margin:0 0 12px;font-size:1.02em;font-weight:600;color:var(--md-default-fg-color);">
+      Every answer in these docs comes from live business data.
+    </p>
+    <p style="margin:0 0 16px;font-size:0.9em;color:var(--md-default-fg-color--light);">
+      Connect your tools and ask your own questions in ChatGPT, Claude, or Perplexity. Same number, every time.
+    </p>
+    <a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-footer-cta"
+       style="display:inline-block;padding:10px 22px;border-radius:8px;background:var(--md-primary-fg-color);color:#fff;font-weight:600;text-decoration:none;">
+      Start free, no credit card
+    </a>
   </div>
   
   <div style="display:flex;justify-content:center;align-items:center;gap:18px;padding:0 16px 20px;font-size:0.8em;">
