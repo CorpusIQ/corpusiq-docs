@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps">
+        <meta name="description" content="Crawl4AI: open-source web crawler and scraper for LLMs and AI agents. Any website into clean, LLM-ready Markdown. Self-hosted or Crawl4AI Cloud.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/how-it-works/mcp-architecture">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/crawl4ai">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/how-it-works/what-is-corpusiq">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/how-it-works/connectors-explained">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>MCP Architecture - CorpusIQ Docs</title>
+    <title>Crawl4AI - LLM-Ready Web Crawler</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/how-it-works/mcp-architecture">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/crawl4ai">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="MCP Architecture - CorpusIQ Docs">
-  <meta property="og:description" content="For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps">
+  <meta property="og:title" content="Crawl4AI - LLM-Ready Web Crawler">
+  <meta property="og:description" content="Crawl4AI: open-source web crawler and scraper for LLMs and AI agents. Any website into clean, LLM-ready Markdown. Self-hosted or Crawl4AI Cloud.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MCP Architecture - CorpusIQ Docs">
-  <meta name="twitter:description" content="For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps">
+  <meta name="twitter:title" content="Crawl4AI - LLM-Ready Web Crawler">
+  <meta name="twitter:description" content="Crawl4AI: open-source web crawler and scraper for LLMs and AI agents. Any website into clean, LLM-ready Markdown. Self-hosted or Crawl4AI Cloud.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,9 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "MCP Architecture - CorpusIQ Docs",
-    "description": "For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps",
-    "url": "https://www.corpusiq.io/docs/how-it-works/mcp-architecture",
+    "name": "Crawl4AI - LLM-Ready Web Crawler",
+    "description": "Crawl4AI: open-source web crawler and scraper for LLMs and AI agents. Any website into clean, LLM-ready Markdown. Self-hosted or Crawl4AI Cloud.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/crawl4ai",
+    
+    "datePublished": "2026-09-25",
+    "dateModified": "2026-09-25",
     
     "author": {
       "@type": "Organization",
@@ -137,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-09-25">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -177,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#corpusiq-mcp-architecture" class="md-skip">
+        <a href="#crawl4ai-llm-ready-web-crawler" class="md-skip">
           Skip to content
         </a>
       
@@ -193,7 +192,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -213,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MCP Architecture - CorpusIQ Docs
+              Crawl4AI - LLM-Ready Web Crawler
             
           </span>
         </div>
@@ -331,7 +330,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -361,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -922,8 +921,6 @@
       
   
   
-    
-  
   
   
     
@@ -958,11 +955,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -990,7 +989,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1035,37 +1034,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    MCP Architecture
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="https://www.corpusiq.io/docs/how-it-works/mcp-architecture" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/how-it-works/mcp-architecture" class="md-nav__link">
         
   
   
@@ -1081,169 +1053,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-mcp" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What is MCP?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corpusiqs-mcp-endpoint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CorpusIQ's MCP endpoint
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#architecture-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Architecture overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-connector-layer" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        The connector layer
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-skills-engine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        The skills engine
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-canonical-facts-store" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        The canonical facts store
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Security model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connecting-claude-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connecting Claude Desktop
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connecting-chatgpt-via-actions-or-custom-gpt" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connecting ChatGPT (via Actions or custom GPT)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connecting-any-mcp-client" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connecting any MCP client
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tool-naming-conventions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tool naming conventions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rate-limits-and-pagination" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rate limits and pagination
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#further-reading" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Further reading
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -10234,10 +10043,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-mcp" class="md-nav__link">
+  <a href="#what-it-does" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What is MCP?
+        What it does
       
     </span>
   </a>
@@ -10245,10 +10054,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#corpusiqs-mcp-endpoint" class="md-nav__link">
+  <a href="#install" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CorpusIQ's MCP endpoint
+        Install
       
     </span>
   </a>
@@ -10256,10 +10065,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#architecture-overview" class="md-nav__link">
+  <a href="#why-it-matters-for-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Architecture overview
+        Why it matters for CorpusIQ
       
     </span>
   </a>
@@ -10267,109 +10076,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-connector-layer" class="md-nav__link">
+  <a href="#source" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The connector layer
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-skills-engine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        The skills engine
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-canonical-facts-store" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        The canonical facts store
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Security model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connecting-claude-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connecting Claude Desktop
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connecting-chatgpt-via-actions-or-custom-gpt" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connecting ChatGPT (via Actions or custom GPT)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connecting-any-mcp-client" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Connecting any MCP client
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tool-naming-conventions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tool naming conventions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rate-limits-and-pagination" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rate limits and pagination
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#further-reading" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Further reading
+        Source
       
     </span>
   </a>
@@ -10396,244 +10106,29 @@
   
 
 
-<h1 id="corpusiq-mcp-architecture">CorpusIQ MCP architecture<a class="headerlink" href="#corpusiq-mcp-architecture" title="Anchor link to this section">&para;</a></h1>
-<p>This page is for developers. It explains what Model Context Protocol is,
-how CorpusIQ implements it, and how to connect any MCP-compatible client
-to CorpusIQ's live-data layer.</p>
-<hr />
-<h2 id="what-is-mcp">What is MCP?<a class="headerlink" href="#what-is-mcp" title="Anchor link to this section">&para;</a></h2>
-<p>Model Context Protocol (MCP) is an open standard for connecting AI
-assistants to external data sources and tools. It was introduced by
-Anthropic and is now supported by Claude, a growing list of third-party
-LLM clients, and an ecosystem of server implementations.</p>
-<p>The short version: instead of copy-pasting data into a chat window, you
-run an MCP server that the AI can call like a function. The AI asks for
-data, the server fetches it, the AI gets structured results. No prompt
-engineering, no CSV uploads, no stale context.</p>
-<p>MCP servers expose <strong>tools</strong> (callable functions with typed inputs and
-outputs) and optionally <strong>resources</strong> (documents or data the AI can
-read). CorpusIQ exposes tools only - one tool per connector action.</p>
-<p>Official spec: https://modelcontextprotocol.io</p>
-<hr />
-<h2 id="corpusiqs-mcp-endpoint">CorpusIQ's MCP endpoint<a class="headerlink" href="#corpusiqs-mcp-endpoint" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>https://mcp2.corpusiq.io/mcp
-</code></pre></div>
-<p>This is a hosted MCP server. You do not run it locally. You point your
-MCP client at this URL and authenticate with your CorpusIQ credentials.
-CorpusIQ handles everything behind that endpoint: connector auth, rate
-limiting, data normalization, and the skills engine.</p>
-<p><strong>Transport:</strong> HTTP with Server-Sent Events (SSE) for streaming.
-<strong>Auth:</strong> Bearer token (your CorpusIQ JWT, obtained after sign-in).</p>
-<hr />
-<h2 id="architecture-overview">Architecture overview<a class="headerlink" href="#architecture-overview" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>Your LLM client (Claude, ChatGPT, custom agent)
-        |
-        | MCP protocol (JSON-RPC over HTTP/SSE)
-        v
-https://mcp2.corpusiq.io/mcp   &lt;-- CorpusIQ MCP server
-        |
-        +-- Connector layer (31 connectors)
-        |       Shopify, QuickBooks, GA4, HubSpot, Meta Ads,
-        |       Klaviyo, Stripe, Slack, Gmail, and 20+ more.
-        |       Each connector holds an encrypted OAuth token
-        |       scoped to your account only.
-        |
-        +-- Skills engine
-        |       Pre-built runbooks that orchestrate multi-connector
-        |       queries (e.g. &quot;executive-snapshot&quot; pulls from 6
-        |       connectors, joins the data, and returns a unified
-        |       business health summary).
-        |
-        +-- Canonical facts store
-                User-declared business facts (pricing, team, decisions)
-                that ground AI answers in stable, verified context.
-</code></pre></div>
-<hr />
-<h2 id="the-connector-layer">The connector layer<a class="headerlink" href="#the-connector-layer" title="Anchor link to this section">&para;</a></h2>
-<p>Each of CorpusIQ's 31 connectors is an isolated module that:</p>
-<ol>
-<li>Holds one encrypted OAuth token per user account.</li>
-<li>Exposes a set of typed MCP tools (e.g. <code>get_orders</code>, <code>list_campaigns</code>,
-   <code>run_report</code>).</li>
-<li>Translates MCP tool calls into vendor API calls, handles pagination,
-   and normalizes the response into consistent JSON.</li>
-</ol>
-<p>External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations. Provider scopes vary by connector and documented operation.</p>
-<p>When you call a tool like <code>get_orders</code>, the flow is:</p>
-<div class="highlight"><pre><span></span><code>MCP tool call  --&gt;  CorpusIQ connector  --&gt;  Shopify REST API
-                                         &lt;--  JSON orders array
-       structured result  &lt;--  normalized JSON
-</code></pre></div>
-<p>The LLM never touches vendor credentials. The connector is the only
-layer that holds and uses the OAuth token.</p>
-<hr />
-<h2 id="the-skills-engine">The skills engine<a class="headerlink" href="#the-skills-engine" title="Anchor link to this section">&para;</a></h2>
-<p>Some questions require more than one connector. "What is my true CAC?"
-requires every ad platform, GA4, and Shopify or QuickBooks - at minimum
-four separate API calls, with a join step.</p>
-<p>The skills engine encodes these multi-step workflows as <strong>runbooks</strong>:
-ordered sequences of tool calls with join logic and presentation rules.
-When an LLM calls <code>invoke_skill</code> with a skill name like
-<code>executive-snapshot</code>, the skills engine:</p>
-<ol>
-<li>Calls the appropriate connectors in the correct order.</li>
-<li>Joins the results (e.g. ad spend by date + Shopify revenue by date).</li>
-<li>Returns a unified, structured result to the LLM.</li>
-</ol>
-<p>Skills are the main reason CorpusIQ answers broad business questions
-better than a raw tool list. The LLM doesn't have to figure out which
-five connectors to call and how to join them - the runbook already knows.</p>
-<p>Available skills include:</p>
+<h1 id="crawl4ai-llm-ready-web-crawler">Crawl4AI - LLM-Ready Web Crawler<a class="headerlink" href="#crawl4ai-llm-ready-web-crawler" title="Anchor link to this section">&para;</a></h1>
+<p><strong>84K+ stars · Python · updated daily · Benoit-approved find Sep 25, 2026</strong></p>
+<p>Open-source web crawler and scraper built for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.</p>
+<h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><code>executive-snapshot</code> - business health across finance, sales, and marketing.</li>
-<li><code>ad-spend-truth-report</code> - cross-platform ROAS from actual revenue data.</li>
-<li><code>financial-command-center</code> - cash, AR, expenses, anomalies.</li>
-<li><code>ecommerce-command-center</code> - store health, LTV, CAC, inventory.</li>
-<li><code>email-lifecycle-intel</code> - email channel health across all ESPs.</li>
-<li><code>board-update-drafter</code> - investor-update format from live actuals.</li>
-<li><code>customer-health-scorecard</code> - per-account health scoring.</li>
+<li>Turns HTML pages into clean Markdown stripped of nav, ads, and boilerplate</li>
+<li>Handles JavaScript-rendered sites</li>
+<li>Extracts structured data, tables, links, and metadata</li>
+<li>Fast batching for multi-page crawls</li>
+<li>Ships an MCP server so coding agents can crawl directly</li>
 </ul>
-<p>Call <code>invoke_skill</code> or <code>list_skills</code> to discover and run them.</p>
-<hr />
-<h2 id="the-canonical-facts-store">The canonical facts store<a class="headerlink" href="#the-canonical-facts-store" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ includes a small key-value store for user-declared facts:
-pricing, team composition, product positioning, past decisions. These
-are written explicitly by the user (not inferred), and the AI reads them
-at the start of business questions to ground its answers.</p>
-<p>MCP tools: <code>canonical_context_get</code>, <code>canonical_facts_get</code>,
-<code>canonical_facts_set</code>, <code>canonical_decisions_add</code>.</p>
-<p>This is CorpusIQ's answer to the "the AI doesn't know my business"
-problem. Instead of embedding documents, you declare facts once and they
-persist across sessions.</p>
-<hr />
-<h2 id="security-model">Security model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>Operation-level permissions.</strong> Retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated.</li>
-<li><strong>Per-user token isolation.</strong> OAuth tokens are stored encrypted and
-  scoped per user account. One user's token cannot be used by another.</li>
-<li><strong>Scoped direct-MCP retention.</strong> Each tool call fetches live vendor data.
-  CorpusIQ does not retain raw customer files or full connector response
-  payloads; operational logs retain query text, per-user tool-call metadata,
-  and bounded outcome summaries for up to 30 days. Optional indexed search
-  has a separate embeddings and minimal-metadata lifecycle.</li>
-<li><strong>Revocable at any time.</strong> Disconnecting a connector commits a durable
-  inactive state before credential cleanup. Cleanup failures are surfaced for
-  retry rather than reported as successful deletion. You can also revoke from
-  the vendor's side (Shopify admin, Google account settings, etc.).</li>
-</ul>
-<hr />
-<h2 id="connecting-claude-desktop">Connecting Claude Desktop<a class="headerlink" href="#connecting-claude-desktop" title="Anchor link to this section">&para;</a></h2>
-<p>Claude Desktop supports MCP servers natively via <code>claude_desktop_config.json</code>.</p>
-<p>Add CorpusIQ as a remote server:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sse&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_CORPUSIQ_JWT&quot;</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
+<h2 id="install">Install<a class="headerlink" href="#install" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>crawl4ai
+crawl4ai-setup<span class="w">   </span><span class="c1"># installs browser dependencies</span>
 </code></pre></div>
-<p>Replace <code>YOUR_CORPUSIQ_JWT</code> with the token from your CorpusIQ account
-settings. After saving the file and restarting Claude Desktop, the
-CorpusIQ tools will appear in Claude's tool list automatically.</p>
-<p>Config file locations:
-- macOS: <code>~/Library/Application Support/Claude/claude_desktop_config.json</code>
-- Windows: <code>%APPDATA%\Claude\claude_desktop_config.json</code></p>
-<hr />
-<h2 id="connecting-chatgpt-via-actions-or-custom-gpt">Connecting ChatGPT (via Actions or custom GPT)<a class="headerlink" href="#connecting-chatgpt-via-actions-or-custom-gpt" title="Anchor link to this section">&para;</a></h2>
-<p>ChatGPT supports MCP-style integrations through Custom GPT Actions.</p>
-<ol>
-<li>In the GPT editor, go to <strong>Configure &gt; Actions &gt; Add action</strong>.</li>
-<li>Import the CorpusIQ OpenAPI schema (available at
-   <code>https://mcp2.corpusiq.io/openapi.json</code>).</li>
-<li>Set authentication to <strong>Bearer token</strong> and paste your CorpusIQ JWT.</li>
-<li>Save and test with a prompt like "list my Shopify orders from last week."</li>
-</ol>
-<hr />
-<h2 id="connecting-any-mcp-client">Connecting any MCP client<a class="headerlink" href="#connecting-any-mcp-client" title="Anchor link to this section">&para;</a></h2>
-<p>Any client that implements the MCP specification can connect to
-CorpusIQ. The endpoint supports standard MCP over HTTP+SSE.</p>
-<p>Example using the TypeScript MCP SDK:</p>
-<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Client</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@modelcontextprotocol/sdk/client/index.js&quot;</span><span class="p">;</span>
-<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">SSEClientTransport</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@modelcontextprotocol/sdk/client/sse.js&quot;</span><span class="p">;</span>
-
-<span class="kd">const</span><span class="w"> </span><span class="nx">transport</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">SSEClientTransport</span><span class="p">(</span>
-<span class="w">  </span><span class="ow">new</span><span class="w"> </span><span class="nx">URL</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">),</span>
-<span class="w">  </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">requestInit</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">CORPUSIQ_JWT</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
-<span class="w">      </span><span class="p">},</span>
-<span class="w">    </span><span class="p">},</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">);</span>
-
-<span class="kd">const</span><span class="w"> </span><span class="nx">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Client</span><span class="p">({</span><span class="w"> </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;my-agent&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">version</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="p">{});</span>
-<span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">transport</span><span class="p">);</span>
-
-<span class="c1">// List available tools</span>
-<span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tools</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">listTools</span><span class="p">();</span>
-
-<span class="c1">// Call a tool</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">callTool</span><span class="p">({</span>
-<span class="w">  </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;get_orders&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">arguments</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">limit</span><span class="o">:</span><span class="w"> </span><span class="kt">50</span><span class="w"> </span><span class="p">},</span>
-<span class="p">});</span>
-</code></pre></div>
-<p>Python MCP SDK example:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">mcp</span> <span class="kn">import</span> <span class="n">ClientSession</span>
-<span class="kn">from</span> <span class="nn">mcp.client.sse</span> <span class="kn">import</span> <span class="n">sse_client</span>
-<span class="kn">import</span> <span class="nn">os</span>
-
-<span class="k">async</span> <span class="k">with</span> <span class="n">sse_client</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;CORPUSIQ_JWT&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">}</span>
-<span class="p">)</span> <span class="k">as</span> <span class="p">(</span><span class="n">read</span><span class="p">,</span> <span class="n">write</span><span class="p">):</span>
-    <span class="k">async</span> <span class="k">with</span> <span class="n">ClientSession</span><span class="p">(</span><span class="n">read</span><span class="p">,</span> <span class="n">write</span><span class="p">)</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
-        <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">initialize</span><span class="p">()</span>
-        <span class="n">tools</span> <span class="o">=</span> <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">list_tools</span><span class="p">()</span>
-        <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;get_orders&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;limit&quot;</span><span class="p">:</span> <span class="mi">50</span><span class="p">})</span>
-</code></pre></div>
-<hr />
-<h2 id="tool-naming-conventions">Tool naming conventions<a class="headerlink" href="#tool-naming-conventions" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ tool names follow the pattern <code>connector_action</code>:</p>
+<p>Cloud option: one API key, no local browser install.</p>
+<h2 id="why-it-matters-for-corpusiq">Why it matters for CorpusIQ<a class="headerlink" href="#why-it-matters-for-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>Research sweeps, competitor censuses, and ecosystem discovery all need bulk page extraction into clean text. Crawl4AI is the self-hosted, high-throughput option for those lanes, complementing the stealth browser for captcha-walled targets and Firecrawl-style APIs for one-off fetches.</p>
+<h2 id="source">Source<a class="headerlink" href="#source" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><code>get_orders</code> - Shopify or Amazon Seller orders.</li>
-<li><code>list_campaigns</code> - Meta Ads or Google Ads campaigns.</li>
-<li><code>run_report</code> - GA4 custom report.</li>
-<li><code>get_profit_loss</code> - QuickBooks P&amp;L.</li>
-<li><code>invoke_skill</code> - run a multi-connector skill by name.</li>
-<li><code>resolve_connector</code> - discover which tools to call for a given intent.</li>
+<li><strong>GitHub:</strong> <a href="https://github.com/unclecode/crawl4ai">unclecode/crawl4ai</a></li>
+<li><strong>Docs:</strong> <a href="https://docs.crawl4ai.com">docs.crawl4ai.com</a></li>
 </ul>
-<p>Call <code>resolve_connector</code> with a plain-English intent to get back the
-exact tool schemas relevant to your question. This is the fastest way
-to explore what's available without reading every tool definition.</p>
-<hr />
-<h2 id="rate-limits-and-pagination">Rate limits and pagination<a class="headerlink" href="#rate-limits-and-pagination" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ does not impose additional rate limits beyond the underlying
-vendor's own limits. Each connector respects the vendor's rate limit
-headers and backs off automatically.</p>
-<p>All list tools (<code>get_orders</code>, <code>list_campaigns</code>, etc.) support <code>limit</code>
-and offset-style pagination (<code>offset</code>, <code>starting_after</code>, <code>page_index</code>
-depending on the connector). See each tool's schema for the exact
-parameter names.</p>
-<hr />
-<h2 id="further-reading">Further reading<a class="headerlink" href="#further-reading" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><a href="https://www.corpusiq.io/docs/how-it-works/connectors-explained">Connectors explained</a> - how OAuth and
-  connector auth works.</li>
-<li><a href="https://www.corpusiq.io/docs/how-it-works/skills-explained">Skills explained</a> - deeper dive on the
-  runbook/skills engine.</li>
-<li><a href="https://www.corpusiq.io/docs/prompts/mcp-developer-queries">Prompts: MCP developer queries</a></li>
-<li>20+ example prompts for developers.</li>
-<li><a href="https://www.corpusiq.io/docs/quickstart">Quickstart</a> - fastest path from zero to first answer.</li>
-</ul>
-<hr />
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 
 
 
@@ -10712,7 +10207,7 @@ parameter names.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
