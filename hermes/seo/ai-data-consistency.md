@@ -48,7 +48,7 @@ You stop being the bridge between your data and your AI.
 
 You ask ChatGPT about revenue. It pulls from Stripe. You get a number.
 
-You ask Claude the same question. Same Stripe data. Same number.
+You ask Claude the same question. Same Stripe data. Every answer shows the record it came from.
 
 You ask Perplexity. Same.
 

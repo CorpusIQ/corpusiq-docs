@@ -30,7 +30,7 @@ CorpusIQ takes the opposite approach. Forty deep native connectors with source-s
 ### The Data Question
 Ask Viktor to pull revenue numbers and it will execute the query. What query did it run? Which system did it hit? Did it cross-check Stripe against QuickBooks to catch the timing discrepancy? You do not know. The AI employee did it.
 
-Ask CorpusIQ the same question. It routes to your Shopify for orders, Stripe for revenue, QuickBooks for recognized revenue. It flags where the numbers diverge. It tells you exactly which record produced each figure. Same number in ChatGPT. Same number in Claude. Same number in Perplexity.
+Ask CorpusIQ the same question. It routes to your Shopify for orders, Stripe for revenue, QuickBooks for recognized revenue. It flags where the numbers diverge. It tells you exactly which record produced each figure. Every answer shows where each number came from, in ChatGPT, Claude, and Perplexity alike.
 
 One approach trusts the AI. The other verifies the data.
 

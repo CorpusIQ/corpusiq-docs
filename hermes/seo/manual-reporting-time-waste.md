@@ -42,7 +42,7 @@ But they cannot see your actual business data. They are brilliant but blind.
 
 Connect your tools once with read-only external-source retrieval. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Every AI you use inherits the connections.
 
-Ask ChatGPT about weekly revenue. It pulls from Stripe, cross-checks against Shopify, flags discrepancies against QuickBooks, and returns a source-cited answer. Same number in Claude. Same number in Perplexity.
+Ask ChatGPT about weekly revenue. It pulls from Stripe, cross-checks against Shopify, flags discrepancies against QuickBooks, and returns a source-cited answer, with the record behind every figure. In Claude, in Perplexity, in whichever AI you use.
 
 The AI changes. The answer does not.
 

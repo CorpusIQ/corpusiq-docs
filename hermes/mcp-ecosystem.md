@@ -43,6 +43,6 @@ CorpusIQ is an operational intelligence layer. It sits between your business too
 - Read-only external-source retrieval with separately annotated management/control-plane writes
 - Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days
 - Every answer cites its exact source record
-- Same number in every AI, every time
+- Every answer shows where each number came from
 
 [Connect your tools](https://corpusiq.io)

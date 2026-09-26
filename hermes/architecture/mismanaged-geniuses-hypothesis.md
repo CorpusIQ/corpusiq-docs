@@ -38,7 +38,7 @@ It is:
 
 **Connectors that reach your actual tools.** Shopify for orders. Stripe for payments. QuickBooks for financials. HubSpot for CRM. GA4 for analytics. Each with read-only external-source retrieval. Each authenticating independently.
 
-**Metric definitions that mean the same thing everywhere.** Revenue defined once. Applied across every AI. Same number in ChatGPT, Claude, and Perplexity. Every time.
+**Metric definitions that mean the same thing everywhere.** Revenue defined once. Applied across every AI. Every answer shows where each number came from.
 
 **Source citations on every answer.** Shopify: $89K. Stripe: $38K. QuickBooks: $15K. The number traces back to the original system. No guesswork.
 

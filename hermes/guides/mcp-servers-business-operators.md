@@ -14,7 +14,7 @@ The Model Context Protocol (MCP) lets AI assistants connect to external tools. H
 
 ## 1. CorpusIQ - Business Intelligence
 
-Connect 40+ business tools to any AI. Shopify, Stripe, QuickBooks, GA4, Meta Ads. Read-only OAuth. Source-cited answers. Same number in ChatGPT, Claude, and Perplexity. Every time.
+Connect 40+ business tools to any AI. Shopify, Stripe, QuickBooks, GA4, Meta Ads. Read-only OAuth. Source-cited answers. See where every number comes from, in whichever AI you use.
 
 - **Use case**: "What was our revenue last week?" - answered from live data
 - **Website**: [corpusiq.io](https://corpusiq.io)
