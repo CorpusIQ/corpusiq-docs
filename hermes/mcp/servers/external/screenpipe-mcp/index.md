@@ -11,7 +11,7 @@ tags: [screen-recording, workflow-memory, local-first, audio-transcription, prod
 
 # Screenpipe MCP
 
-**Local-first workflow memory for AI agents: screenpipe captures selected screen, audio, app and meeting context on-device 24/7, then exposes that searchable history to Claude, Codex, Cursor and other MCP clients through an MCP server and local API.** YC S26 company, 21,000+ GitHub stars, and the capture stays on your machine - the MCP server talks to the local screenpipe API at `localhost:3030`, not a cloud service.
+**Local-first workflow memory for AI agents: screenpipe captures selected screen, audio, app and meeting context on-device 24/7, then exposes that searchable history to Claude, Codex, Cursor and other MCP clients through an MCP server and local API.** YC S26 company, 21,000+ GitHub stars, and raw history stays local by default. The local MCP server queries the screenpipe API at `localhost:3030`; configured cloud AI, transcription, sync, integrations and connected AI clients can transmit context off-device.
 
 ```
 Server type: stdio via npm (local API at localhost:3030), optional HTTP wrapper
@@ -19,7 +19,7 @@ Auth: None for local use; optional SCREENPIPE_LOCAL_API_KEY
 Install: npx -y screenpipe-mcp
 Tools: search-content, export-video over the local capture index
 Requirements: screenpipe app running, Node.js 18+
-License: source-available (LICENSE.md, updated June 10, 2026)
+License: source-available under the Screenpipe Commercial License
 Category: Productivity / local-first workflow memory
 Built by: screenpipe (screenpipe.com, YC S26) - 21,061★ on GitHub
 ```
@@ -28,7 +28,7 @@ Built by: screenpipe (screenpipe.com, YC S26) - 21,061★ on GitHub
 
 Operators live in context nobody captures: the dashboard you checked before the call, the meeting where a decision was actually made, the error you fixed last Tuesday. Agents work from what you tell them. Screenpipe closes that gap by recording everything locally, OCR-ing screens, transcribing audio and meetings, and letting the agent search it the way it searches any tool. "What did I say about the pricing page last Thursday" becomes a real query instead of a memory test.
 
-**The local-first angle matters for business data.** Capture never leaves the machine; screenpipe is source-available so teams can audit exactly what gets stored. For operators handling financials, customer data or internal strategy, that beats sending screen context through a cloud recorder.
+**Review the data path for business data.** Screenpipe stores raw history locally by default and publishes its source for inspection. Review configured AI and transcription providers, sync, integrations and MCP clients before exposing financials, customer data or internal strategy. Local storage does not guarantee that retrieved context stays on-device.
 
 ## Tools & Capabilities
 
@@ -81,10 +81,10 @@ Verify the connection by asking the agent "what did I do in the last 5 minutes" 
 
 ## Business Relevance
 
-- **Executives and operators** get searchable meeting memory without a SaaS transcription bill; screenpipe transcribes locally and keeps it on-device
+- **Executives and operators** get searchable meeting memory; transcription and AI processing depend on the configured providers. See [current plans](https://screenpipe.com/onboarding) for pricing
 - **Support and ops teams** can reconstruct "what was on screen when the error happened" from the captured window history
 - **Solo operators** replace fragmented note-taking with a queryable record of their actual workday
-- **Security-conscious teams** keep capture data in-house; no cloud dependency in the default path
+- **Security-conscious teams** can review local capture settings and the data handling of each connected client and optional cloud feature
 
 ## Integration with CorpusIQ
 
@@ -93,6 +93,6 @@ Screenpipe is context infrastructure, not a business-data connector - it does no
 ## Limitations
 
 - Capture app must be running locally; the MCP server is a search surface, not a recorder
-- Source-available license (updated June 10, 2026), not OSI open source - review LICENSE.md for commercial use
+- Source-available under the [Screenpipe Commercial License](https://github.com/screenpipe/screenpipe/blob/main/LICENSE.md), not OSI open source; review its terms for your use
 - Local index grows with recording time; plan disk usage for always-on capture
 - Windows, macOS and Linux supported, but setup paths differ per client and platform
