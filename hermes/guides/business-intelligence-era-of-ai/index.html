@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Deploy a peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent coordination. Designed for Hermes, OpenClaw, LangGraph, AutoGen, CrewAI.">
+        <meta name="description" content="Why connecting business data to AI is becoming free, and trusting the answers is not. The case for a read-only layer with sources on every answer.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agentmesh-async-bus">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Hermes AgentMesh Async Bus  --  Setup Guide</title>
+    <title>Business Intelligence for the Era of AI</title>
   
 
     
@@ -51,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agentmesh-async-bus">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes AgentMesh Async Bus  --  Setup Guide">
-  <meta property="og:description" content="Deploy a peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent coordination. Designed for Hermes, OpenClaw, LangGraph, AutoGen, CrewAI.">
+  <meta property="og:title" content="Business Intelligence for the Era of AI">
+  <meta property="og:description" content="Why connecting business data to AI is becoming free, and trusting the answers is not. The case for a read-only layer with sources on every answer.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes AgentMesh Async Bus  --  Setup Guide">
-  <meta name="twitter:description" content="Deploy a peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent coordination. Designed for Hermes, OpenClaw, LangGraph, AutoGen, CrewAI.">
+  <meta name="twitter:title" content="Business Intelligence for the Era of AI">
+  <meta name="twitter:description" content="Why connecting business data to AI is becoming free, and trusting the answers is not. The case for a read-only layer with sources on every answer.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,12 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes AgentMesh Async Bus  --  Setup Guide",
-    "description": "Deploy a peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent coordination. Designed for Hermes, OpenClaw, LangGraph, AutoGen, CrewAI.",
-    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agentmesh-async-bus",
+    "name": "Business Intelligence for the Era of AI",
+    "description": "Why connecting business data to AI is becoming free, and trusting the answers is not. The case for a read-only layer with sources on every answer.",
+    "url": "https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-09-27",
+    "dateModified": "2026-09-27",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-09-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -176,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hermes-agentmesh-async-bus" class="md-skip">
+        <a href="#business-intelligence-for-the-era-of-ai" class="md-skip">
           Skip to content
         </a>
       
@@ -192,7 +192,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes AgentMesh Async Bus  --  Setup Guide
+              Business Intelligence for the Era of AI
             
           </span>
         </div>
@@ -330,7 +330,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -360,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -10043,10 +10043,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#why-use-this" class="md-nav__link">
+  <a href="#the-problem-owners-feel" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Why Use This
+        The problem owners feel
       
     </span>
   </a>
@@ -10054,10 +10054,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#architecture" class="md-nav__link">
+  <a href="#why-it-keeps-happening" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Architecture
+        Why it keeps happening
       
     </span>
   </a>
@@ -10065,82 +10065,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-start-5-minutes" class="md-nav__link">
+  <a href="#what-replaces-it" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick Start (5 minutes)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quick Start (5 minutes)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prerequisites
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-1-mac-mini-configure-redis-for-lan-access" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 1: Mac mini -- Configure Redis for LAN access
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-install-the-skill" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 2: Install the skill
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-3-deploy-workers-0-ssh" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 3: Deploy workers (0 SSH)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-4-send-your-first-task" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 4: Send your first task
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#verification" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Verification
+        What replaces it
       
     </span>
   </a>
@@ -10148,21 +10076,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-design-decisions" class="md-nav__link">
+  <a href="#the-result" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Design Decisions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pitfalls" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pitfalls
+        The result
       
     </span>
   </a>
@@ -10189,111 +10106,22 @@
   
 
 
-<h1 id="hermes-agentmesh-async-bus">Hermes AgentMesh Async Bus<a class="headerlink" href="#hermes-agentmesh-async-bus" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Install:</strong> <code>npx skills add seleman66eeddwegger3-art/hermes-agentmesh --skill hermes-agentmesh-async-bus</code></p>
-<p>A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes agent architect). Replaces synchronous HTTP coordination with Redis mailboxes  --  agents communicate by dropping tasks in named inboxes instead of making blocking HTTP calls.</p>
-<h2 id="why-use-this">Why Use This<a class="headerlink" href="#why-use-this" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Problem</th>
-<th>AgentMesh Solution</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>HTTP timeouts at 5-10 min crash multi-agent tasks</td>
-<td>Redis queues  --  hours-long tasks OK</td>
-</tr>
-<tr>
-<td>SSH required to start remote workers</td>
-<td>0 SSH  --  workers listen on shared Redis</td>
-</tr>
-<tr>
-<td>Reports lost or must be scp'd</td>
-<td>Reports land naturally on initiator's machine</td>
-</tr>
-<tr>
-<td>Group chat noise eats context tokens</td>
-<td>Named inboxes  --  zero noise</td>
-</tr>
-</tbody>
-</table>
-<h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>┌─────────── Mac mini (central hub) ───────────┐
-│ Redis :6379 │ Hermes API :8642 │ HTTP :8080  │
-└──────────────────┬───────────────────────────┘
-                   │ 0.7ms LAN Redis
-        ┌──────────┼──────────┐
-        ▼                     ▼
-   Worker Node           Worker Node
-   (macOS)               (Linux/Pi/WSL)
-</code></pre></div>
+<h1 id="business-intelligence-for-the-era-of-ai">Business Intelligence for the Era of AI<a class="headerlink" href="#business-intelligence-for-the-era-of-ai" title="Anchor link to this section">&para;</a></h1>
+<p>AI answers on your data are becoming free. Every assistant can reach your tools today. Trusting the answers is what still costs a data team, a warehouse, and a quarter.</p>
+<h2 id="the-problem-owners-feel">The problem owners feel<a class="headerlink" href="#the-problem-owners-feel" title="Anchor link to this section">&para;</a></h2>
+<p>Ask ChatGPT about your revenue and you get a number. Ask Claude the same question and you get a different one. Your Shopify says one thing, your ads platform another, QuickBooks a third. The AI is confident either way, and there is no record behind its answer to tell you which number is real.</p>
+<h2 id="why-it-keeps-happening">Why it keeps happening<a class="headerlink" href="#why-it-keeps-happening" title="Anchor link to this section">&para;</a></h2>
+<p>The assistants are brilliant at language and blind to your business. They can read data nobody defined, mix systems nobody reconciled, and answer with total confidence from partial context. The missing piece is not another model. It is a layer that defines what each number means, which system is authoritative for it, and which record produced the answer.</p>
+<h2 id="what-replaces-it">What replaces it<a class="headerlink" href="#what-replaces-it" title="Anchor link to this section">&para;</a></h2>
+<p>A read-only connection between your business tools and the AI you already pay for. Shopify for orders, Stripe for payments, QuickBooks for financials, GA4 for analytics. Every answer comes with the source attached, so you can check it instead of trusting it. Enterprise-grade answers in minutes, no warehouse, no data team, no setup project.</p>
+<h2 id="the-result">The result<a class="headerlink" href="#the-result" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Central hub:</strong> Redis + Hermes LLM API + HTTP file server on Mac mini</li>
-<li><strong>Worker nodes:</strong> Pure Redis clients (any OS), kept alive by LaunchAgents/systemd</li>
-<li><strong>Protocol:</strong> <code>redis.lpush("inbox:&lt;NODE_NAME&gt;", task_json)</code>  --  the mailbox IS the protocol</li>
+<li>One question, answered from live data, sources attached</li>
+<li>The same business rules applied in ChatGPT, Claude, and Perplexity</li>
+<li>Read-only access by design, nothing breaks, nothing trains on your data</li>
+<li>Answers you can act on, because you can check them</li>
 </ul>
-<h2 id="quick-start-5-minutes">Quick Start (5 minutes)<a class="headerlink" href="#quick-start-5-minutes" title="Anchor link to this section">&para;</a></h2>
-<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
-<ul>
-<li>1 Mac mini (Redis + Hermes LLM API on :8642 + HTTP file server on :8080)</li>
-<li>1+ other devices on same LAN</li>
-<li>Redis installed on all nodes</li>
-</ul>
-<h3 id="step-1-mac-mini-configure-redis-for-lan-access">Step 1: Mac mini  --  Configure Redis for LAN access<a class="headerlink" href="#step-1-mac-mini-configure-redis-for-lan-access" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>sed<span class="w"> </span>-i.bak<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="s1">&#39;s/^bind 127.0.0.1 ::1$/bind 0.0.0.0/&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="s1">&#39;s/^protected-mode yes$/protected-mode no/&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>/opt/homebrew/etc/redis.conf
-brew<span class="w"> </span>services<span class="w"> </span>restart<span class="w"> </span>redis
-nc<span class="w"> </span>-z<span class="w"> </span>-w<span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="m">127</span>.0.0.1<span class="w"> </span><span class="m">6379</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;✓ Redis cross-LAN OK&quot;</span>
-</code></pre></div>
-<h3 id="step-2-install-the-skill">Step 2: Install the skill<a class="headerlink" href="#step-2-install-the-skill" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>seleman66eeddwegger3-art/hermes-agentmesh<span class="w"> </span>--skill<span class="w"> </span>hermes-agentmesh-async-bus
-</code></pre></div>
-<h3 id="step-3-deploy-workers-0-ssh">Step 3: Deploy workers (0 SSH)<a class="headerlink" href="#step-3-deploy-workers-0-ssh" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># On each worker node:</span>
-mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/async_bus
-curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;:8080/worker_node.py<span class="w"> </span>-o<span class="w"> </span>~/.hermes/async_bus/worker_node.py
-curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;:8080/orchestrator_async.py<span class="w"> </span>-o<span class="w"> </span>~/.hermes/async_bus/orchestrator_async.py
-curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;:8080/.env.example<span class="w"> </span>-o<span class="w"> </span>~/.hermes/async_bus/.env_common
-<span class="c1"># Edit .env_common with actual IPs and API keys</span>
-</code></pre></div>
-<h3 id="step-4-send-your-first-task">Step 4: Send your first task<a class="headerlink" href="#step-4-send-your-first-task" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">redis</span><span class="o">,</span> <span class="nn">json</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">redis</span><span class="o">.</span><span class="n">Redis</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">&#39;&lt;MAC_MINI_IP&gt;&#39;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">6379</span><span class="p">)</span>
-<span class="n">task</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;analysis&quot;</span><span class="p">,</span> <span class="s2">&quot;payload&quot;</span><span class="p">:</span> <span class="s2">&quot;audit codebase&quot;</span><span class="p">,</span> <span class="s2">&quot;from&quot;</span><span class="p">:</span> <span class="s2">&quot;orchestrator&quot;</span><span class="p">}</span>
-<span class="n">r</span><span class="o">.</span><span class="n">lpush</span><span class="p">(</span><span class="s2">&quot;inbox:worker-1&quot;</span><span class="p">,</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">task</span><span class="p">))</span>
-<span class="c1"># Worker picks it up, processes, writes report back to your machine</span>
-</code></pre></div>
-<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Check worker is listening</span>
-redis-cli<span class="w"> </span>-h<span class="w"> </span>&lt;MAC_MINI_IP&gt;<span class="w"> </span>PING<span class="w">  </span><span class="c1"># Should return PONG</span>
-
-<span class="c1"># Monitor inbox activity</span>
-redis-cli<span class="w"> </span>-h<span class="w"> </span>&lt;MAC_MINI_IP&gt;<span class="w"> </span>MONITOR<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;inbox:&quot;</span>
-
-<span class="c1"># Check worker health</span>
-curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;:8080/health
-</code></pre></div>
-<h2 id="key-design-decisions">Key Design Decisions<a class="headerlink" href="#key-design-decisions" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li><strong>Redis, not HTTP</strong>  --  Eliminates timeout anxiety. A 2-hour agent task is just a message sitting in a Redis list.</li>
-<li><strong>0 SSH deployment</strong>  --  Workers pull code from the hub's HTTP file server. No remote process management.</li>
-<li><strong>Reports land locally</strong>  --  The initiator writes the report to its own filesystem, not the worker's. No scp needed.</li>
-<li><strong>Framework-agnostic</strong>  --  Works with Hermes, OpenClaw, LangGraph, AutoGen, CrewAI. The mailbox format is universal JSON.</li>
-</ol>
-<h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>Redis LAN binding</strong> requires <code>bind 0.0.0.0</code> and <code>protected-mode no</code>. Secure your network accordingly.</li>
-<li><strong>API keys</strong> in <code>.env_common</code> are shared across nodes. Use a dedicated LAN-scoped key, not your primary API key.</li>
-<li><strong>Worker node naming</strong> must match inbox names exactly. Use consistent, lowercase names.</li>
-</ul>
-<hr />
-<p><em>← <a href="/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/catalog#agent-infrastructure">Agent Infrastructure</a> →</em>
-<em>Source: <a href="https://github.com/seleman66eeddwegger3-art/hermes-agentmesh">seleman66eeddwegger3-art/hermes-agentmesh</a></em>
-<em>Powered by CorpusIQ</em></p>
+<p>The AI will change. Your business understanding should not have to.</p>
 
 
 
@@ -10372,7 +10200,7 @@ curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
