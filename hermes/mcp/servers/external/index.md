@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-17"
+last_updated: "2026-09-27"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,36 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 15, 2026 (midday supplement) · **Sources:** mcp.so feed (27 server blocks, direct fetch) + chatmcp/mcpso issues #4154-#4157 + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 689 servers (+575 guides)
+> **Last updated:** September 27, 2026 (evening sweep) · **Sources:** mcp.so feed (30 server blocks, direct fetch) + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy · **Catalog:** 711 servers (+597 guides)
+
+## 🆕 September 27, 2026 - Evening Sweep (22 New, 22 Guides)
+
+Evening sweep over the mcp.so feed (30 server blocks, direct fetch with TanStack Router `$R` refs) and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy (90 entries batch-classified, direct curl Cloudflare-challenged), with 18 detail pages fetched through the reader proxy (mcpservers.org detail pages for the directory candidates plus mcp.so server pages for the feed-only candidates). 22 new business-relevant servers catalogued with guides:
+
+- [Warmerly MCP - Cold Email and B2B Leads for AI Agents](/docs/hermes/mcp/servers/external/warmerly-mcp) · OAuth 2.1, no API key, all plans incl Free, registry com.warmerly/warmerly.
+- [HarborRank MCP - Live SEO Data for AI Agents](/docs/hermes/mcp/servers/external/harborrank-mcp) · keywords, live SERPs, backlinks, rank tracker, GSC read-only with no Google Cloud setup.
+- [seodraft MCP - Drafted SEO Content with Rule Checks](/docs/hermes/mcp/servers/external/seodraft-mcp) · 37 tools, stateless OAuth, versioned writes, $5/month after a 7-day trial.
+- [Shipwork SEO Checks - Keyless Technical SEO Audits for Agents](/docs/hermes/mcp/servers/external/shipwork-mcp) · free JSON API, 4 endpoints, 24 named checks, OpenAPI 3.1.
+- [Deeplead MCP - Verified B2B Contacts for AI Agents](/docs/hermes/mcp/servers/external/deeplead-mcp) · OAuth or Bearer key, emails and phones for decision makers.
+- [Sendsets MCP - Programmable Cold Email for AI Agents](/docs/hermes/mcp/servers/external/sendsets-mcp) · OAuth 2.1 or ssk_ key, policy engine, durable runs, free to 10 mailboxes.
+- [ContentStudio MCP Server - Social Publishing with Approvals for Agencies](/docs/hermes/mcp/servers/external/contentstudio-mcp) · official hosted MCP, draft, schedule, publish, approvals, analytics, inbox.
+- [Go Rocket MCP - URL to AI Video Ads](/docs/hermes/mcp/servers/external/go-rocket-mcp) · 9:16 ads, photoreal presenter in 21 languages, sample before checkout.
+- [Gloom MCP - Bloomberg-Style Financial Terminal for AI Agents](/docs/hermes/mcp/servers/external/gloom-mcp) · quotes, options, SEC filings, macro, per-agent keys, part of Gloom Pro.
+- [DeepLedger MCP - QuickBooks Online for AI Agents](/docs/hermes/mcp/servers/external/deepledger-mcp) · 24 tools, review tasks instead of guesses, month-end close.
+- [Handl MCP - Billing Operations for Small Agencies](/docs/hermes/mcp/servers/external/handl-mcp) · quotes, invoices, payment links, scope tracking.
+- [Stackcut MCP - SaaS Cost Reduction for AI Agents](/docs/hermes/mcp/servers/external/stackcut-mcp) · 17 tools, re-costed audits, modeled first-year savings.
+- [PaperOffice AI MCP - Headless Document Management for Agents](/docs/hermes/mcp/servers/external/paperoffice-mcp) · 14 tools plus 300+ discovery tools, AI-OCR, e-signatures, EU hosting.
+- [Databar.ai MCP - B2B Data Enrichment for AI Agents](/docs/hermes/mcp/servers/external/databar-mcp) · 100+ providers, email and phone waterfalls, persistent tables.
+- [Tyton MCP - Meta Pixel and Conversions API Audits](/docs/hermes/mcp/servers/external/tyton-mcp) · free audit, agent-installed fix, deduplication.
+- [Sunglasses MCP - Local Input Firewall for AI Agents](/docs/hermes/mcp/servers/external/sunglasses-mcp) · 1,554 patterns, offline, prompt-injection and leak screening.
+- [StartupPerks MCP - Startup Credits and Perks Database](/docs/hermes/mcp/servers/external/startupperks-mcp) · keyless, 1,000+ source-cited programs.
+- [Odichat MCP - WhatsApp, Instagram and Facebook Inbox for Agents](/docs/hermes/mcp/servers/external/odichat-mcp) · 126 tools, token-in-URL, sales pipeline updates.
+- [Userport MCP - Support Inbox and Outbound Messaging for SaaS](/docs/hermes/mcp/servers/external/userport-mcp) · OAuth 2.1, free plan, sequences and drop-off analytics.
+- [Mnemos MCP - Local-First Meeting Memory](/docs/hermes/mcp/servers/external/mnemos-mcp) · on-device transcription, decisions and action items.
+- [ZTDS Data Sanitizer MCP - PII De-Identification for Agents](/docs/hermes/mcp/servers/external/ztds-mcp) · deterministic surrogate tokenization, Apache-2.0.
+- [MediaFast MCP - Reddit Marketing for AI Agents](/docs/hermes/mcp/servers/external/mediafast-mcp) · subreddit discovery, rule-aware drafts, shadowban checks.
+
+**Also identified (not catalogued):** TheLuckyStrike suite single-server relistings (mcp-office-suite, mcp-loan-calculator, mcp-invoice-generator, mcp-quotes, mcp-receipts, mcp-tax-calc, mcp-time-tracker, mcp-currency, mcp-payroll, mcp-pomodoro, mcp-stripe-billing, mcp-budget - already catalogued as the Sep 13 Ops Suite), the single-vendor booking-demo family (DodoDentist, DoctoFam, HairDora, GymFlexa, Veterical, Hotelumo, InvoiceVista - one vendor publishing per-vertical demo servers from a shared /developers/#mcp pattern), crypto and x402 class (MilliGate, chiefofstaff, LiquidVision, Laso Finance, Pocket Network, Exchange.news, plus HumanMirror prior disposition), geo-niche family (nu:legal, Companero, Arikratt, Assinafy, Doklad.ai, Rychla Hypo, PandaStock, DATEV EXTF), consumer class (Senaro, Beyond Payday, Soar Flights prior disposition, Biohacking Kompakt, OpenMapp, Callstay, image to image ai, DSCR Lender Data), dev infra and utilities (SnapDeploy, HostingFor.AI, DropTheHassle, Carrick, FluxGit, Gemmein, Baton, Tabellum, intents-mcp, Yetishare, Grabbit, search-rotation, NarshaADK, Aident, Screen Browser, Schemity, BCD desktop-automation class, AgentAddress), agent infra (Agent Traffic Lab, PigeonRelay, Flocker, Patricia, MyPenny, Provena, Agent Rider), design and creator utilities (SVG Lab, appdesigns, Twistly, Daydream, Tonpit, Underlayer), analyst and ToS niches (ThreatCluster, Universal LinkedIn stealth-browser class), thin listings (Email Spam Tester, Virlo, SecondAppraisal, Aevia LCA, Xorventa, Infinity Blip, wa2agent invite-only, Metabind demo, ATS Jobs career class, Alternative Asset Literacy advisor niche, Scholar Engine academic class), ★★ backlog for a future sweep (AgileHero, Faivelo Email, Kondo, Telebrief, Wakala, Postbox Services), sponsors and repeats (Alpha Vantage catalogued, ego lite disposed, WhatsMCP catalogued, AllNewsAPI disposed).
 
 ## 🆕 September 15, 2026 - Midday Supplement (4 New, 4 Guides)
 
@@ -6105,3 +6134,30 @@ Midday sweep sourced from the mcp.so feed (fresh blocks past the 10:13Z morning 
 - [ContHunt MCP - Viral Short-Form Content Research for AI Agents](/hermes/mcp/servers/external/conthunt-mcp/)
 
 Midday supplement sourced from the mcp.so feed (27 server blocks, direct fetch) and chatmcp/mcpso issues #4154-#4157 (fresh window past the midday cutoff at #4153). 1 new business-relevant server catalogued with a guide: ContHunt MCP (viral short-form content research across TikTok, Instagram Reels, YouTube Shorts and LinkedIn with a deep research agent, Hook Score and Virality Index metrics, and Niche Hunter topic discovery; endpoint 401-verified). Phoenix Zero #4154 and HostDeFi #4155 (crypto class), a benchmark fixture #4157, and the feed plus /all repeat set logged as identified-not-catalogued.
+
+### 22 new servers from mcp.so feed + mcpservers.org /all pages 1-3 - Sep 27, 2026 (evening sweep)
+
+- [Warmerly MCP - Cold Email and B2B Leads for AI Agents](/docs/hermes/mcp/servers/external/warmerly-mcp)
+- [HarborRank MCP - Live SEO Data for AI Agents](/docs/hermes/mcp/servers/external/harborrank-mcp)
+- [seodraft MCP - Drafted SEO Content with Rule Checks](/docs/hermes/mcp/servers/external/seodraft-mcp)
+- [Shipwork SEO Checks - Keyless Technical SEO Audits for Agents](/docs/hermes/mcp/servers/external/shipwork-mcp)
+- [Deeplead MCP - Verified B2B Contacts for AI Agents](/docs/hermes/mcp/servers/external/deeplead-mcp)
+- [Sendsets MCP - Programmable Cold Email for AI Agents](/docs/hermes/mcp/servers/external/sendsets-mcp)
+- [ContentStudio MCP Server - Social Publishing with Approvals for Agencies](/docs/hermes/mcp/servers/external/contentstudio-mcp)
+- [Go Rocket MCP - URL to AI Video Ads](/docs/hermes/mcp/servers/external/go-rocket-mcp)
+- [Gloom MCP - Bloomberg-Style Financial Terminal for AI Agents](/docs/hermes/mcp/servers/external/gloom-mcp)
+- [DeepLedger MCP - QuickBooks Online for AI Agents](/docs/hermes/mcp/servers/external/deepledger-mcp)
+- [Handl MCP - Billing Operations for Small Agencies](/docs/hermes/mcp/servers/external/handl-mcp)
+- [Stackcut MCP - SaaS Cost Reduction for AI Agents](/docs/hermes/mcp/servers/external/stackcut-mcp)
+- [PaperOffice AI MCP - Headless Document Management for Agents](/docs/hermes/mcp/servers/external/paperoffice-mcp)
+- [Databar.ai MCP - B2B Data Enrichment for AI Agents](/docs/hermes/mcp/servers/external/databar-mcp)
+- [Tyton MCP - Meta Pixel and Conversions API Audits](/docs/hermes/mcp/servers/external/tyton-mcp)
+- [Sunglasses MCP - Local Input Firewall for AI Agents](/docs/hermes/mcp/servers/external/sunglasses-mcp)
+- [StartupPerks MCP - Startup Credits and Perks Database](/docs/hermes/mcp/servers/external/startupperks-mcp)
+- [Odichat MCP - WhatsApp, Instagram and Facebook Inbox for Agents](/docs/hermes/mcp/servers/external/odichat-mcp)
+- [Userport MCP - Support Inbox and Outbound Messaging for SaaS](/docs/hermes/mcp/servers/external/userport-mcp)
+- [Mnemos MCP - Local-First Meeting Memory](/docs/hermes/mcp/servers/external/mnemos-mcp)
+- [ZTDS Data Sanitizer MCP - PII De-Identification for Agents](/docs/hermes/mcp/servers/external/ztds-mcp)
+- [MediaFast MCP - Reddit Marketing for AI Agents](/docs/hermes/mcp/servers/external/mediafast-mcp)
+
+Evening sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 22 new business-relevant servers catalogued with guides: Warmerly MCP (cold email and B2B leads with OAuth 2.1 and a Free plan), HarborRank MCP (live SEO data with read-only Search Console), seodraft MCP (37-tool SEO drafting with versioned writes), Shipwork SEO Checks (keyless technical SEO API with 24 named checks), Deeplead MCP (verified B2B contacts), Sendsets MCP (programmable cold email with a policy engine), ContentStudio MCP Server (agency social publishing with approvals), Go Rocket MCP (URL-to-video ads), Gloom MCP (Bloomberg-style financial data), DeepLedger MCP (QuickBooks bookkeeping with review tasks), Handl MCP (billing operations), Stackcut MCP (SaaS cost reduction), PaperOffice AI MCP (headless DMS), Databar.ai MCP (100+ provider enrichment), Tyton MCP (Meta Pixel and CAPI audits), Sunglasses MCP (local input firewall), StartupPerks MCP (startup credits), Odichat MCP (Meta messaging inbox), Userport MCP (SaaS support and outbound), Mnemos MCP (meeting memory), ZTDS MCP (PII sanitization) and MediaFast MCP (Reddit marketing). TheLuckyStrike relistings, the vendor demo family, crypto, geo-niche, consumer, dev-infra, agent-infra, thin-listing and sponsor repeat sets logged as identified-not-catalogued.
