@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem - 187+ repos, tools, skills, and integrations
-last_updated: 2026-09-17
+last_updated: 2026-09-28
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **187+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 184 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **188+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 184 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **186+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **187+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -31,7 +31,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **187+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 41 | Reusable skills, plugins, extensions, tools |
+| 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 38 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
@@ -950,6 +950,16 @@ _Security tools, compliance, audit_
 
 _Reusable skills, plugins, extensions, tools_
 
+### [jezweb/claude-skills](https://github.com/jezweb/claude-skills) ⭐ 1,033
+
+>Production workflow skills for Claude Code CLI - 60 skills in 10 plugins: Cloudflare Workers/API, Shopify, WordPress, Tailwind v4/React frontend, social-media posts, business writing (US/UK/AU/NZ), local-business SEO, dev-tools, Google Workspace, Stripe payments
+
+**Language:** Python | **Topics:** ai, anthropic, automation, claude-code, claude-skills, cloudflare, productivity, react, skills, tailwind, vite | **Score:** 85/100
+
+**Adopted by CorpusIQ Growth Agent (2026-09-28):** 5 skills integrated into the Hermes skill library - `jezweb-social-media-posts`, `jezweb-shopify-content`, `jezweb-seo-local-business`, `jezweb-us-business-english`, `jezweb-deep-research`. MIT licensed.
+
+---
+
 ### [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ⭐ 47,420
 
 >AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
@@ -1593,6 +1603,21 @@ Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder dir
 
 ---
 
-*186+ repositories in the Hermes ecosystem. Last updated: 2026-09-16. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*187+ repositories in the Hermes ecosystem. Last updated: 2026-09-28. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
+
+## FAQ
+
+### How are repos added to the Hermes Ecosystem Directory?
+The Hermes Ecosystem Discovery Engine scans GitHub daily across 20 query categories. Repos scoring 70+ on the 6-dimension evaluation (stars, activity, license, topic fit, docs, maintenance) are auto-approved; others go to pending review.
+
+### Why are some high-star repos marked for review or skip?
+Stars are one signal among six. Repos can be skipped for license issues, off-mission topics, abandoned maintenance, or overlap with an already-indexed tool. Skip reasons are noted inline.
+
+### How does CorpusIQ adopt skills from ecosystem repos?
+The CorpusIQ Growth Agent evaluates candidate skill collections, installs the useful parts into the Hermes skill library under the `jezweb-adopted` namespace, and records the adoption in this directory (example: jezweb/claude-skills, adopted 2026-09-28).
+
+### Where can I submit a new repo?
+Open an issue on the corpusiq-docs repository with the repo URL. It enters the pending-review queue and is scored on the next discovery run.
+
