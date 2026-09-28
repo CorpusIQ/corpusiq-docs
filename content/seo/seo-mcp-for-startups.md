@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-startups
-last_updated: 2026-09-17
+description: "You're a startup founder. You live in Stripe (MRR, churn), QuickBooks (burn rate), HubSpot (pipeline), and GA4 (traffic). Four tools."
+last_updated: "2026-09-28"
 ---
 # MCP for Startups - Know Your Numbers From Day One
 

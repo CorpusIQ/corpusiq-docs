@@ -10,8 +10,7 @@ verified: true
 repository: "https://github.com/Jackalope-Dev/moxie-docs"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/moxie-docs-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-title: "Moxie Docs MCP Server Setup Guide"
+last_updated: "2026-09-28"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-product-managers
-last_updated: 2026-09-17
+description: "You're a PM."
+last_updated: "2026-09-28"
 ---
 # MCP for Product Managers - User Data, Revenue, and Roadmap in One Place
 

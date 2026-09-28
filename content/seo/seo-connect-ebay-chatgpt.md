@@ -1,6 +1,7 @@
 ---
 title: seo-connect-ebay-chatgpt
-last_updated: 2026-09-17
+description: "Your eBay business runs on Seller Hub. Orders, listings, traffic, performance metrics. Every question requires navigating multiple views."
+last_updated: "2026-09-28"
 ---
 # Connect eBay to ChatGPT - Marketplace Analytics Without Seller Hub
 

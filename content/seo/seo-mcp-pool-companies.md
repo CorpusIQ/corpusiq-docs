@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-pool-companies
-last_updated: 2026-09-17
+description: "Pool service companies run: Pool software for routes, QuickBooks for financials, Stripe for payments, CRM for new builds and renovations."
+last_updated: "2026-09-28"
 ---
 # MCP for Pool Companies - Service Routes, Chemical Costs, Revenue
 

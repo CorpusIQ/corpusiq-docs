@@ -1,6 +1,7 @@
 ---
 title: seo-chatgpt-stripe
-last_updated: 2026-09-17
+description: "ChatGPT can query your real Stripe data. MRR, revenue, churn, customers - live, every time."
+last_updated: "2026-09-28"
 ---
 # ChatGPT for Stripe - Revenue Answers in Seconds
 

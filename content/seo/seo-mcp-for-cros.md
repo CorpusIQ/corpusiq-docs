@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-cros
-last_updated: 2026-09-17
+description: "As CRO, you own the revenue number. But the revenue data lives in five different systems - and none of them agree."
+last_updated: "2026-09-28"
 ---
 # MCP for CROs - Revenue Truth Across Every System
 

@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-month-end-close
-last_updated: 2026-09-17
+description: "Month-end close takes 3-5 days. Pulling reports from QuickBooks. Reconciling Stripe against invoices. Confirming all entries are posted."
+last_updated: "2026-09-28"
 ---
 # MCP for Accounting - Month-End Close in Hours, Not Days
 

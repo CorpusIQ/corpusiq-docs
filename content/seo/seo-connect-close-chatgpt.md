@@ -1,6 +1,7 @@
 ---
 title: seo-connect-close-chatgpt
-last_updated: 2026-09-17
+description: "Your sales process runs on Close. Leads, opportunities, activities, search. Every pipeline question requires building views and filtering."
+last_updated: "2026-09-28"
 ---
 # Connect Close CRM to ChatGPT - Sales Pipeline in Plain English
 

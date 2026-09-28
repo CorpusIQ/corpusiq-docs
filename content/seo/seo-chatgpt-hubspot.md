@@ -1,6 +1,7 @@
 ---
 title: seo-chatgpt-hubspot
-last_updated: 2026-09-17
+description: "ChatGPT can now query your actual HubSpot data. Deals, contacts, pipeline, tickets - all answerable in plain English."
+last_updated: "2026-09-28"
 ---
 # ChatGPT for HubSpot - Pipeline Answers Without Reports
 

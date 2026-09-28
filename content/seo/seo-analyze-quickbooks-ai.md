@@ -1,6 +1,7 @@
 ---
 title: seo-analyze-quickbooks-ai
-last_updated: 2026-09-17
+description: "Traditional QuickBooks analysis: export report, open Excel, build pivot, create chart, interpret. Time: 1-3 hours per question."
+last_updated: "2026-09-28"
 ---
 # How to Analyze QuickBooks with AI - Stop Exporting, Start Asking
 

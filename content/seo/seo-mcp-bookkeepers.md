@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-bookkeepers
-last_updated: 2026-09-17
+description: "Bookkeepers manage 20-50 clients. Each has QuickBooks, bank feeds, receipts."
+last_updated: "2026-09-28"
 ---
 # MCP for Bookkeepers - Every Client, Every Transaction, One Question
 

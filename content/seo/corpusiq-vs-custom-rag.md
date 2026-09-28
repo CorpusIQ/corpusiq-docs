@@ -1,6 +1,7 @@
 ---
 title: corpusiq-vs-custom-rag
-last_updated: 2026-09-17
+description: "Every CTO I talk to has the same instinct: 'We'll build our own RAG pipeline. It's not that hard.'"
+last_updated: "2026-09-28"
 ---
 # MCP vs Custom RAG - Why Building Your Own Is a Distraction
 

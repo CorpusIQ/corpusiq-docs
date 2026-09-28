@@ -1,6 +1,7 @@
 ---
 title: overview
-last_updated: 2026-09-17
+description: "CorpusIQ exposes a REST API for managing connectors, running queries, and configuring your account programmatically."
+last_updated: "2026-09-28"
 ---
 # API
 

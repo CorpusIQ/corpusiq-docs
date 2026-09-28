@@ -1,6 +1,7 @@
 ---
 title: angle4-readonly-oauth-security
-last_updated: 2026-09-17
+description: "When you connect your business tools to an AI platform, what happens to your data?"
+last_updated: "2026-09-28"
 ---
 # How CorpusIQ Scopes Data Retention
 

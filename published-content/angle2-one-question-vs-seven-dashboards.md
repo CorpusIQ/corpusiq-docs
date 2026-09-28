@@ -1,6 +1,7 @@
 ---
 title: angle2-one-question-vs-seven-dashboards
-last_updated: 2026-09-17
+description: "- Open Shopify dashboard → Check orders - Open Google Analytics → Check traffic - Open Meta Ads → Check ad spend - Open QuickBooks → Check revenue"
+last_updated: "2026-09-28"
 ---
 # Before: Seven Dashboards. After: One Question.
 

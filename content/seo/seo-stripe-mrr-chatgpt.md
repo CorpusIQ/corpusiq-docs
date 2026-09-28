@@ -1,6 +1,7 @@
 ---
 title: seo-stripe-mrr-chatgpt
-last_updated: 2026-09-17
+description: "Your MRR data is in Stripe. But answering 'what's our MRR trend?' means logging into Stripe, navigating dashboards, and building reports."
+last_updated: "2026-09-28"
 ---
 # Connect Stripe MRR to ChatGPT - Live Revenue Answers
 

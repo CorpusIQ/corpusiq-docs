@@ -1,6 +1,7 @@
 ---
 title: affiliate-comparison-table
-last_updated: 2026-09-17
+description: "Not all recurring commissions are equal. Here's who pays what, for how long."
+last_updated: "2026-09-28"
 ---
 # Best Recurring Affiliate Programs in SaaS - 2026 Comparison
 

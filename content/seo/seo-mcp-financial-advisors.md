@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-financial-advisors
-last_updated: 2026-09-17
+description: "Financial advisors manage 50+ clients. Each has QuickBooks, investment accounts, insurance policies."
+last_updated: "2026-09-28"
 ---
 # MCP for Financial Advisors - Every Client Portfolio, One Question
 

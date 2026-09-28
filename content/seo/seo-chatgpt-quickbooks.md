@@ -1,6 +1,7 @@
 ---
 title: seo-chatgpt-quickbooks
-last_updated: 2026-09-17
+description: "ChatGPT can now query your actual QuickBooks data. Not generic business advice - your real P&L, balance sheet, invoices."
+last_updated: "2026-09-28"
 ---
 # ChatGPT for QuickBooks - Natural Language Financial Queries
 

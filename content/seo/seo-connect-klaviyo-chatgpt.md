@@ -1,6 +1,7 @@
 ---
 title: seo-connect-klaviyo-chatgpt
-last_updated: 2026-09-17
+description: "Your email marketing lives in Klaviyo. Campaigns, flows, revenue, segments. Every performance check requires navigating the Klaviyo dashboard."
+last_updated: "2026-09-28"
 ---
 # Connect Klaviyo to ChatGPT - Email Revenue Answers Without Exports
 

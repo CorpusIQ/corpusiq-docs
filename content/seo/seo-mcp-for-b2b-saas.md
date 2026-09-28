@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-b2b-saas
-last_updated: 2026-09-17
+description: "B2B SaaS companies run: HubSpot for pipeline, Stripe for revenue, QuickBooks for financials, PostHog for product, GA4 for website."
+last_updated: "2026-09-28"
 ---
 # MCP for B2B SaaS - Pipeline, Revenue, and Product in One Place
 

@@ -1,6 +1,7 @@
 ---
 title: seo-best-saas-affiliate-programs
-last_updated: 2026-09-17
+description: "Recurring affiliate commissions are the holy grail. One referral pays you for years - not just once."
+last_updated: "2026-09-28"
 ---
 # Best SaaS Affiliate Programs with Recurring Commissions in 2026
 

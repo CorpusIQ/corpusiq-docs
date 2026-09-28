@@ -1,6 +1,7 @@
 ---
 title: seo-connect-amazon-seller-chatgpt
-last_updated: 2026-09-17
+description: "Your Amazon business runs on Seller Central. Orders, inventory, sales metrics, advertising. Every answer requires navigating multiple reports."
+last_updated: "2026-09-28"
 ---
 # Connect Amazon Seller to ChatGPT - Marketplace Analytics Without Reports
 

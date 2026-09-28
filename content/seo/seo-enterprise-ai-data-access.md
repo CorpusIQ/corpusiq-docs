@@ -1,6 +1,7 @@
 ---
 title: seo-enterprise-ai-data-access
-last_updated: 2026-09-17
+description: "Enterprise companies need AI access to business data. They also need security, governance, and compliance. These used to be in conflict."
+last_updated: "2026-09-28"
 ---
 # Enterprise AI Data Access - Secure, Governed, Real-Time
 

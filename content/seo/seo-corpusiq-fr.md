@@ -1,6 +1,7 @@
 ---
 title: seo-corpusiq-fr
-last_updated: 2026-09-17
+description: "*(French-market landing page - founder is French, EU market is strategic)*"
+last_updated: "2026-09-28"
 ---
 # Plateforme MCP CorpusIQ - Connectez vos données business à ChatGPT en 5 minutes
 

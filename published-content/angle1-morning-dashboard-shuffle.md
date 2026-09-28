@@ -1,6 +1,7 @@
 ---
 title: angle1-morning-dashboard-shuffle
-last_updated: 2026-09-17
+description: "Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads. Gmail. Stripe."
+last_updated: "2026-09-28"
 ---
 # The Morning Dashboard Shuffle Is Killing Your Productivity
 

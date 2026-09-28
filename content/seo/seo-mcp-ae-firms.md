@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-ae-firms
-last_updated: 2026-09-17
+description: "A&E firms run: Deltek/Ajera for projects, QuickBooks for financials, HubSpot for BD pipeline, and Gmail for client communications."
+last_updated: "2026-09-28"
 ---
 # MCP for Architects and Engineers - Project Financials, Billing, and Pipeline
 

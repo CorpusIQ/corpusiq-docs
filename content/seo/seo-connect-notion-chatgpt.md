@@ -1,6 +1,7 @@
 ---
 title: seo-connect-notion-chatgpt
-last_updated: 2026-09-17
+description: "Your company knowledge lives in Notion. Docs, wikis, meeting notes, project plans. Finding 'what's our Q3 roadmap?' means searching Notion manually."
+last_updated: "2026-09-28"
 ---
 # Connect Notion to ChatGPT - Your Wiki, Searchable by AI
 

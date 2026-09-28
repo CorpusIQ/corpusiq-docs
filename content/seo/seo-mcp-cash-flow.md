@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-cash-flow
-last_updated: 2026-09-17
+description: "Cash is the #1 reason businesses fail. They run out. Not because they're unprofitable - because they didn't see it coming."
+last_updated: "2026-09-28"
 ---
 # MCP for Cash Flow - Know Your Cash Position Every Morning
 

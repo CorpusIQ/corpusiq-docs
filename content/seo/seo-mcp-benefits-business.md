@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-benefits-business
-last_updated: 2026-09-17
+description: "MCP (Model Context Protocol) is the open standard for connecting AI to business tools. Here's what that actually means for the people running companies."
+last_updated: "2026-09-28"
 ---
 # MCP Benefits for Business - Why MCP Matters for Operators
 

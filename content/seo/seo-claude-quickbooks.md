@@ -1,6 +1,7 @@
 ---
 title: seo-claude-quickbooks
-last_updated: 2026-09-17
+description: "Claude can query your real QuickBooks data. P&L, invoices, expenses, AR aging - all in plain English."
+last_updated: "2026-09-28"
 ---
 # Claude for QuickBooks - Ask Your Financials Anything
 

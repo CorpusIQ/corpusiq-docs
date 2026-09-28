@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-electricians
-last_updated: 2026-09-17
+description: "Electrical contractors run: Accubid for estimating, QuickBooks for financials, Stripe for payments, service dispatch software."
+last_updated: "2026-09-28"
 ---
 # MCP for Electrical Contractors - Job Costing, Billing, and Pipeline
 

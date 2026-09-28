@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-pest-control
-last_updated: 2026-09-17
+description: "Pest control companies run: PestPac for routes, QuickBooks for financials, Stripe for payments, and CRM for customer management."
+last_updated: "2026-09-28"
 ---
 # MCP for Pest Control - Route Efficiency, Revenue, and Customer Retention
 

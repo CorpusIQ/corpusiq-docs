@@ -1,6 +1,7 @@
 ---
 title: mcp-for-agencies
-last_updated: 2026-09-17
+description: "Agency life: you manage five clients. Each uses Shopify, Klaviyo, Meta Ads, and GA4. That's 20 dashboards to check every week. Multiply by five days."
+last_updated: "2026-09-28"
 ---
 # MCP for Agencies - One Question, Five Clients, Zero Reports
 

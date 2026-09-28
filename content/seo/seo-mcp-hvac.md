@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-hvac
-last_updated: 2026-09-17
+description: "HVAC companies run: ServiceTitan for dispatch, QuickBooks for financials, Stripe for payments, and a CRM for maintenance agreements."
+last_updated: "2026-09-28"
 ---
 # MCP for HVAC Companies - Service Calls, Revenue, and Technician Performance
 

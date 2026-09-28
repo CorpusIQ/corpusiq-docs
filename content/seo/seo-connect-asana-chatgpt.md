@@ -1,6 +1,7 @@
 ---
 title: seo-connect-asana-chatgpt
-last_updated: 2026-09-17
+description: "Your projects live in Asana. Tasks, deadlines, assignees, dependencies. Every status update means opening Asana and manually checking progress."
+last_updated: "2026-09-28"
 ---
 # Connect Asana to ChatGPT - Project Status Without Status Meetings
 

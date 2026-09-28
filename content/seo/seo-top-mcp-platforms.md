@@ -1,6 +1,7 @@
 ---
 title: seo-top-mcp-platforms
-last_updated: 2026-09-17
+description: "MCP (Model Context Protocol) is the open standard for connecting AI assistants to external tools."
+last_updated: "2026-09-28"
 ---
 # Top MCP Platforms in 2026 - Comparison Guide
 

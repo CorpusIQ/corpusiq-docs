@@ -1,6 +1,7 @@
 ---
 title: corpusiq-overview
-last_updated: 2026-09-17
+description: "Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads. Gmail. Stripe. A spreadsheet. You're not analyzing - you're shuffling."
+last_updated: "2026-09-28"
 ---
 # CorpusIQ: One Question to Replace Seven Dashboards
 

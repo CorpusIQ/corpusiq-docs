@@ -1,6 +1,7 @@
 ---
 title: seo-claude-shopify
-last_updated: 2026-09-17
+description: "Claude can now query your actual Shopify data. Orders, customers, products, inventory - all answerable in plain English."
+last_updated: "2026-09-28"
 ---
 # Claude for Shopify - AI-Powered Store Analytics
 

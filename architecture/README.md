@@ -1,6 +1,7 @@
 ---
 title: README
-last_updated: 2026-09-17
+description: "CorpusIQ connects your business tools to AI platforms through a read-only MCP server."
+last_updated: "2026-09-28"
 ---
 # Architecture
 

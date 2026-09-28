@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-roofing
-last_updated: 2026-09-17
+description: "Roofing companies run: AccuLynx for jobs, QuickBooks for financials, Stripe for payments, and CRM for insurance adjuster relationships."
+last_updated: "2026-09-28"
 ---
 # MCP for Roofing - Job Pipeline, Material Costs, Crew Performance
 

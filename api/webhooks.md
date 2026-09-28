@@ -1,6 +1,7 @@
 ---
 title: webhooks
-last_updated: 2026-09-17
+description: "CorpusIQ does not currently publish a customer-facing webhook event contract."
+last_updated: "2026-09-28"
 ---
 # Webhooks
 

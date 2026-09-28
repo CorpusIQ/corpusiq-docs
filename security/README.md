@@ -1,6 +1,7 @@
 ---
 title: README
-last_updated: 2026-09-17
+description: "CorpusIQ reads authorized business records live and limits what it retains."
+last_updated: "2026-09-28"
 ---
 # Security
 

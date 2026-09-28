@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-supply-chain
-last_updated: 2026-09-17
+description: "Supply chain data lives in Shopify (orders), your ERP (inventory), your 3PL (shipping), QuickBooks (costs), and Gmail (vendor communications)."
+last_updated: "2026-09-28"
 ---
 # MCP for Supply Chain - Track Inventory, Orders, and Logistics in One Question
 

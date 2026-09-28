@@ -3,14 +3,14 @@ title: Crawl4AI - LLM-Ready Web Crawler
 description: "Crawl4AI: open-source web crawler and scraper for LLMs and AI agents. Any website into clean, LLM-ready Markdown. Self-hosted or Crawl4AI Cloud."
 category: "MCP Servers"
 tags: ["crawl4ai", "web scraping", "crawler", "llm", "markdown extraction", "mcp server"]
-last_updated: "2026-09-25"
+last_updated: "2026-09-28"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/crawl4ai"
 robots: "index,follow"
 ---
 
 # Crawl4AI - LLM-Ready Web Crawler
 
-**84K+ stars · Python · updated daily · Benoit-approved find Sep 25, 2026**
+**84K+ stars · Python · updated daily · Verified Sep 25, 2026**
 
 Open-source web crawler and scraper built for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.
 

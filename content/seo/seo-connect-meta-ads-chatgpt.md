@@ -1,6 +1,7 @@
 ---
 title: seo-connect-meta-ads-chatgpt
-last_updated: 2026-09-17
+description: "Your Facebook and Instagram ads data lives in Meta Ads Manager. Campaigns, ROAS, reach, frequency. Every report requires navigating a complex interface."
+last_updated: "2026-09-28"
 ---
 # Connect Meta Ads to ChatGPT - ROAS Answers Without the Ads Manager
 

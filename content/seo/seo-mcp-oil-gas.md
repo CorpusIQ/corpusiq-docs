@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-oil-gas
-last_updated: 2026-09-17
+description: "Oil and gas operators track: P2/Merrick for production, QuickBooks for financials, land management systems, and JIB accounting."
+last_updated: "2026-09-28"
 ---
 # MCP for Oil and Gas - Production Volumes, Costs, and Revenue
 

@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-ap-management
-last_updated: 2026-09-17
+description: "Accounts Payable shouldn't mean scrambling to find which bills are due."
+last_updated: "2026-09-28"
 ---
 # MCP for AP Management - Never Miss a Vendor Payment
 

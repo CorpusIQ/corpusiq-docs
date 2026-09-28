@@ -1,6 +1,7 @@
 ---
 title: seo-natural-language-queries
-last_updated: 2026-09-17
+description: "You know SQL? Most operators don't. They know their business. They know the questions. But the gap between 'how are we doing this quarter?'."
+last_updated: "2026-09-28"
 ---
 # How to Query Business Data in Natural Language
 

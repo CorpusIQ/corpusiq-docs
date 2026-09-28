@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-landscaping
-last_updated: 2026-09-17
+description: "Landscaping companies run: LMN for estimating, QuickBooks for financials, Stripe for payments, and HubSpot for commercial client pipeline."
+last_updated: "2026-09-28"
 ---
 # MCP for Landscaping - Crew Performance, Job Costing, and Revenue
 

@@ -1,6 +1,7 @@
 ---
 title: seo-connect-snowflake-chatgpt
-last_updated: 2026-09-17
+description: "Your data warehouse runs on Snowflake. Billions of rows, complex queries, dashboards that take 20 minutes to load."
+last_updated: "2026-09-28"
 ---
 # Connect Snowflake to ChatGPT - Your Warehouse, Queryable by AI
 

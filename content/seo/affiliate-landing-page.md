@@ -1,6 +1,7 @@
 ---
 title: affiliate-landing-page
-last_updated: 2026-09-17
+description: "We just launched the CorpusIQ affiliate program. Here's everything you need to know."
+last_updated: "2026-09-28"
 ---
 # The CorpusIQ Affiliate Program - 25% Recurring for 3 Years
 

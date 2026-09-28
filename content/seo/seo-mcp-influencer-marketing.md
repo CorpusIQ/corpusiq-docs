@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-influencer-marketing
-last_updated: 2026-09-17
+description: "Influencer campaigns run across TikTok, Instagram, YouTube."
+last_updated: "2026-09-28"
 ---
 # MCP for Influencer Marketing - Campaign Performance Across Platforms
 

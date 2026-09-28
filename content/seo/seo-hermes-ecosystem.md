@@ -1,6 +1,7 @@
 ---
 title: seo-hermes-ecosystem
-last_updated: 2026-09-17
+description: "Hermes Agent by Nous Research is the most popular open-source AI agent framework (211K+ GitHub stars)."
+last_updated: "2026-09-28"
 ---
 # The Hermes Agent Ecosystem - 670+ Tools, Skills, and MCP Servers
 

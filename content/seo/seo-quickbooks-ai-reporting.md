@@ -1,6 +1,7 @@
 ---
 title: seo-quickbooks-ai-reporting
-last_updated: 2026-09-17
+description: "Traditional QuickBooks reporting: navigate to Reports, select type, adjust date range, customize columns, run, export, format."
+last_updated: "2026-09-28"
 ---
 # QuickBooks AI Reporting - Real-Time Financial Intelligence
 

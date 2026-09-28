@@ -1,6 +1,7 @@
 ---
 title: seo-connect-leadconnector-chatgpt
-last_updated: 2026-09-17
+description: "Your agency runs on LeadConnector. Contacts, opportunities, calendars, conversations. Every client status check requires navigating multiple sections."
+last_updated: "2026-09-28"
 ---
 # Connect LeadConnector to ChatGPT - Agency CRM in Plain English
 

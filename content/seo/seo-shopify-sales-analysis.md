@@ -1,6 +1,7 @@
 ---
 title: seo-shopify-sales-analysis
-last_updated: 2026-09-17
+description: "Traditional sales analysis: export orders CSV, filter by date, pivot by product, calculate margins, build charts. Time: 2 hours."
+last_updated: "2026-09-28"
 ---
 # Shopify Sales Analysis with AI - Know What's Selling and Why
 

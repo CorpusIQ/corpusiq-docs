@@ -1,6 +1,7 @@
 ---
 title: seo-connect-woocommerce-chatgpt
-last_updated: 2026-09-17
+description: "Your WooCommerce store has all your data. Orders, customers, products, inventory. But getting insights means exporting and building reports."
+last_updated: "2026-09-28"
 ---
 # Connect WooCommerce to ChatGPT - Store Analytics Without Reports
 

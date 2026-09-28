@@ -1,6 +1,7 @@
 ---
 title: mcp-for-ecommerce
-last_updated: 2026-09-17
+description: "You run a Shopify store. You use Klaviyo for email. Meta Ads for acquisition. Google Analytics for traffic. Stripe for payments."
+last_updated: "2026-09-28"
 ---
 # MCP for Ecommerce Operators - What If You Could Ask Your Store Anything
 

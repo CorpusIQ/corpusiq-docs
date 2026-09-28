@@ -1,6 +1,7 @@
 ---
 title: schemas
-last_updated: 2026-09-17
+description: "Data models used across the CorpusIQ API."
+last_updated: "2026-09-28"
 ---
 # API Schemas
 

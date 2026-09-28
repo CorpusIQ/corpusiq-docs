@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-credit-unions
-last_updated: 2026-09-17
+description: "Credit unions run: Core system for accounts, QuickBooks for financials, loan origination systems, CRM for member relationships."
+last_updated: "2026-09-28"
 ---
 # MCP for Credit Unions - Member Data, Loans, and Financial Performance
 

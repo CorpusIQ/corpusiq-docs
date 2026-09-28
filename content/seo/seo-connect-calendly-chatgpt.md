@@ -1,6 +1,7 @@
 ---
 title: seo-connect-calendly-chatgpt
-last_updated: 2026-09-17
+description: "Your meetings live in Calendly. Upcoming events, invitees, scheduling links. Coordinating across teams means checking multiple calendars."
+last_updated: "2026-09-28"
 ---
 # Connect Calendly to ChatGPT - Your Schedule, Queryable by AI
 

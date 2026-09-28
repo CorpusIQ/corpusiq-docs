@@ -1,6 +1,7 @@
 ---
 title: seo-ai-audit-readiness
-last_updated: 2026-09-17
+description: "Audit week: everyone drops everything. Finance pulls reports. Engineering pulls access logs. Sales pulls contracts. Legal pulls agreements."
+last_updated: "2026-09-28"
 ---
 # AI for Audit Readiness - Pass Your Next Audit Without the Panic
 

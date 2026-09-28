@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-affiliate-marketing
-last_updated: 2026-09-17
+description: "You manage affiliate programs across PartnerStack, ShareASale, Impact, and direct partnerships."
+last_updated: "2026-09-28"
 ---
 # MCP for Affiliate Marketing - Track Every Program in One Place
 

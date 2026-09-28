@@ -1,6 +1,7 @@
 ---
 title: seo-connect-postgresql-chatgpt
-last_updated: 2026-09-17
+description: "Your data lives in PostgreSQL. Customer records, transactions, analytics. Every answer requires writing SQL or waiting for a data analyst."
+last_updated: "2026-09-28"
 ---
 # Connect PostgreSQL to ChatGPT - Your Database in Plain English
 

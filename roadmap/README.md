@@ -1,6 +1,7 @@
 ---
 title: README
-last_updated: 2026-09-17
+description: "What's live, what we're building, and what's on the list."
+last_updated: "2026-09-28"
 ---
 # Roadmap
 

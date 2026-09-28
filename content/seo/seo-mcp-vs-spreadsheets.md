@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-vs-spreadsheets
-last_updated: 2026-09-17
+description: "The average business runs on spreadsheets. QuickBooks export → Excel. Stripe export → Excel. HubSpot export → Excel."
+last_updated: "2026-09-28"
 ---
 # MCP vs Spreadsheets - Real Data Beats Manual Entry
 

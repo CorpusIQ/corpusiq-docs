@@ -1,6 +1,7 @@
 ---
 title: seo-connect-greenhouse-chatgpt
-last_updated: 2026-09-17
+description: "Your recruiting runs on Greenhouse. Candidates, interviews, offers, hiring velocity. Every pipeline question requires filtering through stages."
+last_updated: "2026-09-28"
 ---
 # Connect Greenhouse to ChatGPT - Recruiting Pipeline in Plain English
 

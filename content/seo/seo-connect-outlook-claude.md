@@ -1,6 +1,7 @@
 ---
 title: seo-connect-outlook-claude
-last_updated: 2026-09-17
+description: "Your work life lives in Outlook. Emails, calendar, contacts, tasks. Preparing for a meeting means searching through threads and checking calendar history."
+last_updated: "2026-09-28"
 ---
 # Connect Outlook to Claude - Your Email and Calendar, Queryable by AI
 

@@ -1,6 +1,7 @@
 ---
 title: stop-building-reports-devto
-last_updated: 2026-09-17
+description: "I spent three hours last month looking for one number."
+last_updated: "2026-09-28"
 ---
 # Stop Building Reports. Just Ask Your AI.
 

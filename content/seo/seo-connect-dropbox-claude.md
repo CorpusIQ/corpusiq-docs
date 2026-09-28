@@ -1,6 +1,7 @@
 ---
 title: seo-connect-dropbox-claude
-last_updated: 2026-09-17
+description: "Your files live in Dropbox. Contracts, proposals, reports, media. Finding anything means navigating folders or using basic search."
+last_updated: "2026-09-28"
 ---
 # Connect Dropbox to Claude - Your Files, AI-Searchable
 

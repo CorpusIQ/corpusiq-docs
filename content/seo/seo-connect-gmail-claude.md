@@ -1,6 +1,7 @@
 ---
 title: seo-connect-gmail-claude
-last_updated: 2026-09-17
+description: "Your business communications live in Gmail. Client threads, vendor discussions, internal decisions. Finding 'what did we agree to with Acme?'."
+last_updated: "2026-09-28"
 ---
 # Connect Gmail to Claude - Your Inbox, Queryable by AI
 

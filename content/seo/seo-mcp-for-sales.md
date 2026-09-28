@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-sales
-last_updated: 2026-09-17
+description: "You manage a sales pipeline in HubSpot. Your commission is tracked in Stripe. Contract values sit in QuickBooks."
+last_updated: "2026-09-28"
 ---
 # MCP for Sales Teams - Your Pipeline Answers in Plain English
 

@@ -1,6 +1,7 @@
 ---
 title: mcp-security-for-operators
-last_updated: 2026-09-17
+description: "The first question every operator asks about connecting AI to their business tools is the right one: is it safe?"
+last_updated: "2026-09-28"
 ---
 # Is MCP Safe? What Operators Should Know About AI Connecting to Business Data
 

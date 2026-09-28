@@ -1,6 +1,7 @@
 ---
 title: seo-connect-square-chatgpt
-last_updated: 2026-09-17
+description: "Your payments and POS run on Square. Transactions, customers, inventory, employees. Reports take time to build."
+last_updated: "2026-09-28"
 ---
 # Connect Square to ChatGPT - Payment and POS Data in Plain English
 

@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-multi-location
-last_updated: 2026-09-17
+description: "You run 5+ locations. Each has its own POS, QuickBooks, Stripe, payroll. That's 20+ systems. Every Monday is report consolidation day."
+last_updated: "2026-09-28"
 ---
 # MCP for Multi-Location Businesses - Every Location, One Question
 

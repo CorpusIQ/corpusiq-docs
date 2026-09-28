@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-vs-rpa
-last_updated: 2026-09-17
+description: "RPA (Robotic Process Automation) automates repetitive tasks by mimicking human clicks. MCP connects AI assistants directly to business tools via API."
+last_updated: "2026-09-28"
 ---
 # MCP vs RPA - AI Native Beats Bot Scripts
 

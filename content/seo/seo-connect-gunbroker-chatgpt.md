@@ -1,6 +1,7 @@
 ---
 title: seo-connect-gunbroker-chatgpt
-last_updated: 2026-09-17
+description: "Your GunBroker business runs on listings, orders, and seller metrics. Every performance check requires navigating multiple seller views."
+last_updated: "2026-09-28"
 ---
 # Connect GunBroker to ChatGPT - Firearm Marketplace Analytics
 

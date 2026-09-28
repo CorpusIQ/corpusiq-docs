@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-bootstrapped-founders
-last_updated: 2026-09-17
+description: "You're bootstrapped. No CFO. No finance team. No data analyst. But you still need to know: cash position, runway, unit economics, churn."
+last_updated: "2026-09-28"
 ---
 # MCP for Bootstrapped Founders - Know Your Numbers Without a Finance Team
 

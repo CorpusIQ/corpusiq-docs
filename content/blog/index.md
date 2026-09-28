@@ -1,6 +1,7 @@
 ---
 title: index
-last_updated: 2026-09-17
+description: "Product updates, MCP ecosystem insights, and guides for business operators."
+last_updated: "2026-09-28"
 ---
 # CorpusIQ Blog
 

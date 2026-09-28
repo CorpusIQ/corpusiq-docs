@@ -1,6 +1,7 @@
 ---
 title: openapi
-last_updated: 2026-09-17
+description: "The CorpusIQ API is documented using the OpenAPI 3.1 specification."
+last_updated: "2026-09-28"
 ---
 # OpenAPI Specification
 

@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-moving-companies
-last_updated: 2026-09-17
+description: "Moving companies run: Move software for booking, QuickBooks for financials, Stripe for payments, CRM for referrals."
+last_updated: "2026-09-28"
 ---
 # MCP for Moving Companies - Jobs, Crews, and Revenue Per Move
 

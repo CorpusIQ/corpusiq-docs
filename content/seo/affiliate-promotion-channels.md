@@ -1,6 +1,7 @@
 ---
 title: affiliate-promotion-channels
-last_updated: 2026-09-17
+description: "You have an affiliate link. Now where do you put it?"
+last_updated: "2026-09-28"
 ---
 # 10 Places to Promote Your Affiliate Links in 2026
 

@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-saas-metrics
-last_updated: 2026-09-17
+description: "SaaS metrics live in Stripe (MRR, churn, LTV), GA4 (traffic, signups), HubSpot (pipeline, deals), and your database (product usage)."
+last_updated: "2026-09-28"
 ---
 # MCP for SaaS Metrics - Every Metric, One Question
 

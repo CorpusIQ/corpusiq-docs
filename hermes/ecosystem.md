@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem - 189+ repos, tools, skills, and integrations
-last_updated: 2026-09-28
+last_updated: "2026-09-28"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -1593,29 +1593,29 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-### Benoit 96-finds digest assessment (2026-09-15)
+### Community digest assessment (2026-09-15)
 
-Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder directive "assess which one you need and install":
+Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
-**ADOPTED (installed as corpusiq skills):**
-- [sushegaad/claude-skills-governance-risk-and-compliance](https://github.com/sushegaad/claude-skills-governance-risk-and-compliance) ⭐ 898 - 36 GRC skills (SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, NIST CSF + 30 more), MIT, 89% benchmarked. Folded into the `corpusiq-grc-compliance` skill (enterprise-sales blocker).
-- [obra/superpowers](https://github.com/obra/superpowers) ⭐ 287,077 - agentic dev methodology. `verification-before-completion` + `systematic-debugging` folded into the `corpusiq-verification-discipline` skill.
+**Strongly recommended:**
+- [sushegaad/claude-skills-governance-risk-and-compliance](https://github.com/sushegaad/claude-skills-governance-risk-and-compliance) ⭐ 898 - 36 GRC skills (SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, NIST CSF + 30 more), MIT, 89% benchmarked.
+- [obra/superpowers](https://github.com/obra/superpowers) ⭐ 287,077 - agentic dev methodology with `verification-before-completion` and `systematic-debugging` patterns.
 
-**PARTIAL ADOPT:**
-- [affaan-m/ecc](https://github.com/affaan-m/ecc) ⭐ 259,082 - agent harness OS; core (gortex) already installed machine-wide. Harness patterns under evaluation for agent-optimization docs.
-- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 176,477 - official Agent Skills repo; skill-authoring patterns under review against skill-library-curation.
+**Worth a look:**
+- [affaan-m/ecc](https://github.com/affaan-m/ecc) ⭐ 259,082 - agent harness OS; useful patterns for agent orchestration docs.
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 176,477 - official Agent Skills repo; skill-authoring reference.
 
-**ALREADY INTEGRATED:**
-- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) ⭐ 245,810 - our own stack.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 180,783 - already wired as the web-extraction backend.
+**Established tools:**
+- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) ⭐ 245,810 - the Hermes stack itself.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 180,783 - LLM-ready web scraping, commonly wired as a web-extraction backend.
 
-**WATCH:**
-- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) ⭐ 225,224 - vendor harness (plugins); revisit when model routing expands.
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 204,392 - workflow automation; product-adjacent, no local install.
-- [mrtooher/fable-mode](https://github.com/mrtooher/fable-mode) ⭐ 861 - planning discipline; overlaps audit-ready-agent-loop; pattern-mine queued.
-- [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) ⭐ 867 - website-lifecycle skills; content/SEO patterns fold queued.
+**Watching:**
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) ⭐ 225,224 - vendor harness (plugins); revisit as model routing expands.
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 204,392 - workflow automation.
+- [mrtooher/fable-mode](https://github.com/mrtooher/fable-mode) ⭐ 861 - planning discipline for agent loops.
+- [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) ⭐ 867 - website-lifecycle skills; useful content and SEO patterns.
 
-**SKIP:** snailclimb/javaguide (Chinese Java interview guide - off-mission).
+**Skipped:** snailclimb/javaguide (Chinese Java interview guide - off-topic for this directory).
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-operations
-last_updated: 2026-09-17
+description: "You run operations."
+last_updated: "2026-09-28"
 ---
 # MCP for Operations Managers - One Question Instead of Twenty Reports
 

@@ -1,6 +1,7 @@
 ---
 title: affiliate-where-to-find
-last_updated: 2026-09-17
+description: "Not all affiliate programs are worth promoting."
+last_updated: "2026-09-28"
 ---
 # Where to Find High-Converting SaaS Affiliate Programs - 2026 Guide
 

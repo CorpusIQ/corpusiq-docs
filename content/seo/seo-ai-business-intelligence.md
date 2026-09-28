@@ -1,6 +1,7 @@
 ---
 title: seo-ai-business-intelligence
-last_updated: 2026-09-17
+description: "Business Intelligence is changing."
+last_updated: "2026-09-28"
 ---
 # AI for Business Intelligence - The Complete 2026 Guide
 

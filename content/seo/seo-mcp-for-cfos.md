@@ -1,6 +1,7 @@
 ---
 title: seo-mcp-for-cfos
-last_updated: 2026-09-17
+description: "You're the CFO. Every question the CEO asks requires data from 3+ systems. 'What's our cash position?' = QuickBooks + Stripe + bank."
+last_updated: "2026-09-28"
 ---
 # MCP for CFOs - The End of "Let Me Check and Get Back to You"
 
