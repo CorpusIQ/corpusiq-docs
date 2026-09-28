@@ -1299,7 +1299,7 @@ Afternoon sweep following the morning run, sourced from chatmcp/mcpso submission
 
 ### Screenpipe MCP ★★★ - August 18 (afternoon)
 
-Local-first workflow memory for AI agents: screen, audio, app and meeting context recorded on-device 24/7, exposed to Claude, Codex and Cursor through a searchable MCP server against the local API at localhost:3030. YC S26, 21,061★. stdio via `npx -y screenpipe-mcp`; source-available license. (open source, free desktop app) · [Guide →](/docs/hermes/mcp/servers/external/screenpipe-mcp)
+Local-first workflow memory for AI agents: screen, audio, app and meeting context recorded on-device 24/7, exposed to Claude, Codex and Cursor through a searchable MCP server against the local API at localhost:3030. YC S26, 21,061★. stdio via `npx -y screenpipe-mcp`; source-available under the [Screenpipe Commercial License](https://github.com/screenpipe/screenpipe/blob/main/LICENSE.md). See [current plans](https://screenpipe.com/onboarding). · [Guide →](/docs/hermes/mcp/servers/external/screenpipe-mcp)
 
 ### TokPortal MCP ★★★ - August 18 (afternoon)
 
@@ -3518,7 +3518,7 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ### Screenpipe MCP ★★★ - Aug 18 (afternoon)
 
-Local-first workflow memory for AI agents - screen, audio, app and meeting context recorded on-device 24/7 and exposed through a searchable MCP server against the local API at `localhost:3030`. YC S26, 21,061★. stdio via `npx -y screenpipe-mcp`; source-available license. (open source, free desktop app) · [Guide →](/docs/hermes/mcp/servers/external/screenpipe-mcp)
+Local-first workflow memory for AI agents - screen, audio, app and meeting context recorded on-device 24/7 and exposed through a searchable MCP server against the local API at `localhost:3030`. YC S26, 21,061★. stdio via `npx -y screenpipe-mcp`; source-available under the [Screenpipe Commercial License](https://github.com/screenpipe/screenpipe/blob/main/LICENSE.md). See [current plans](https://screenpipe.com/onboarding). · [Guide →](/docs/hermes/mcp/servers/external/screenpipe-mcp)
 
 ### Atono MCP Server ★★ - Aug 17 (evening)
 
