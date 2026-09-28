@@ -15131,5 +15131,299 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-16T08:05:14.200109+00:00"
+  },
+  {
+    "repo": "mainn6/hermes-session",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137270+00:00"
+  },
+  {
+    "repo": "nuffin/hermes-task-framework",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137273+00:00"
+  },
+  {
+    "repo": "MUYU46548/ronghuamofang",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137274+00:00"
+  },
+  {
+    "repo": "pelukron/hermes-scripts",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137276+00:00"
+  },
+  {
+    "repo": "itswl/agent-session-query",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137278+00:00"
+  },
+  {
+    "repo": "godzillacode0000/tradersagent-plugin",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137279+00:00"
+  },
+  {
+    "repo": "maximusmaximus/hermes-home-assistant-mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137281+00:00"
+  },
+  {
+    "repo": "moonlight-lupin/agent-skills",
+    "score": 84,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-09-28T05:05:43.137283+00:00"
+  },
+  {
+    "repo": "bkutasi/hermes-skill-router",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137285+00:00"
+  },
+  {
+    "repo": "vrbello/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137286+00:00"
+  },
+  {
+    "repo": "0xble/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137288+00:00"
+  },
+  {
+    "repo": "pub-forks/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137289+00:00"
+  },
+  {
+    "repo": "bgrablin/hermes-switchyard",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137291+00:00"
+  },
+  {
+    "repo": "getmodern-ai/graft",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137293+00:00"
+  },
+  {
+    "repo": "phamviet86/hermes-a2a-gateway",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137294+00:00"
+  },
+  {
+    "repo": "GdotAiM/hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137296+00:00"
+  },
+  {
+    "repo": "RyanBrin/nexus-trading-demo",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137298+00:00"
+  },
+  {
+    "repo": "zaryamyn273-crypto/hermes-telegram-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137299+00:00"
+  },
+  {
+    "repo": "saenzdf/hermes-kapso-gateway",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137301+00:00"
+  },
+  {
+    "repo": "VadaLinux/agentic-server-platform",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137303+00:00"
+  },
+  {
+    "repo": "VadaLinux76/agentic-server-platform",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137304+00:00"
+  },
+  {
+    "repo": "plumager/hermes-issue-assets",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137306+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137308+00:00"
+  },
+  {
+    "repo": "Talkingoxo/hermes-render-free",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137309+00:00"
+  },
+  {
+    "repo": "chiwangtw/hermes-plugin-claude-agent-sdk",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T05:05:43.137311+00:00"
+  },
+  {
+    "repo": "stubbi/hermes-operator",
+    "score": 80,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-09-28T05:05:43.137312+00:00"
+  },
+  {
+    "repo": "BULDEE/ai-craftsman-superpowers",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051234+00:00"
+  },
+  {
+    "repo": "kryptobaseddev/agentmbx",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051249+00:00"
+  },
+  {
+    "repo": "anpicasso/hermes-go-whatsapp",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051252+00:00"
+  },
+  {
+    "repo": "mangit955/screenpipe",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051254+00:00"
+  },
+  {
+    "repo": "amoni094/hermes-fork",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051256+00:00"
+  },
+  {
+    "repo": "ethenotethan/portal",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051258+00:00"
+  },
+  {
+    "repo": "willregelmann/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051260+00:00"
+  },
+  {
+    "repo": "dlaszlo/llm-school-notes-template",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262209+00:00"
+  },
+  {
+    "repo": "postscarcityai/yui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262223+00:00"
+  },
+  {
+    "repo": "9529360-cpu/stardust-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262226+00:00"
+  },
+  {
+    "repo": "Rajshalem5/jarvis-hermes-dashboard",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262228+00:00"
+  },
+  {
+    "repo": "pmillsaps/hermes_macminm1",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262230+00:00"
+  },
+  {
+    "repo": "WaterJason/Easel",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262232+00:00"
+  },
+  {
+    "repo": "mariodian/pincer",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262234+00:00"
+  },
+  {
+    "repo": "Remus44/hermes-model-router",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262236+00:00"
+  },
+  {
+    "repo": "maral2257/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T08:05:04.262238+00:00"
   }
 ]
