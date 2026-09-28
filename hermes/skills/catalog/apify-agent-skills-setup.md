@@ -56,6 +56,7 @@ export APIFY_TOKEN="apify_api_..."
 | **Actorize existing code** | Wrap any script, library, or CLI tool as a runnable Actor with input/output handling |
 | **Generate output schemas** | Auto-derive dataset_schema.json, output_schema.json, key_value_store_schema.json from Actor source |
 | **Integrate Apify API** | Call Actors programmatically from JS/TS or Python via apify-client or REST API |
+| **Integration development** | `apify-integration-development` (183 installs, added Sep 27, 2026 sweep) - build custom Apify integrations and connector workflows |
 
 ### Supported Platforms (Curated Actors)
 

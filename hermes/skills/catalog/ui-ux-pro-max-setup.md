@@ -36,6 +36,8 @@ npx skills add nextlevelbuilder/ui-ux-pro-max-skill
 | ckm:brand | 32.0K | Brand identity application across surfaces |
 | ckm:banner-design | 32.0K | Ad and banner creative |
 | ckm:slides | 31.9K | Presentation slide design |
+
+> **Naming note (Sep 27, 2026 sweep):** skills.sh indexes the same `ckm:*` skills under hyphenated aliases (`ckm-banner-design` 367 installs, `ckm-design`, `ckm-ui-styling`, `ckm-brand`) - identical content, alternate name format. Both names resolve to the same suite.
 | design-system / design / ui-styling / brand / banner-design / slides | 16-18K each | Plain (non-ckm) versions of the above |
 
 ## Prerequisites

@@ -59,6 +59,8 @@ npx skills add https://github.com/mengto/skills --skill landing-page
 
 Plus `build-awwwards-quality-sites`, `pricing-page`, `masked-reveal`, `no-ai-design-slop`, `audit-ai-design-slop`, `elevenlabs-tts`, `copywriting`, `seo-audit`, `playwright`, and 130+ more layout, motion, and asset skills.
 
+New in the Sep 27, 2026 sweep: `operational-enterprise-ai` (986 installs - enterprise AI operations workflow) and `add-mouse-driven-orbit` (800 installs - mouse-driven 3D orbit interaction), bringing the suite to 155+ indexed skills.
+
 ## Security Audit Status (skills.sh, verified Aug 31, 2026)
 
 | Skill | Gen Agent Trust Hub | Socket | Snyk |

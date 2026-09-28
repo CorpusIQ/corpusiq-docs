@@ -46,6 +46,7 @@ The suite installs all 292 skills. Because the collection is large, install it i
 | Architecture | architecture-decision-records, nextjs-turbopack, codebase-onboarding | ~1.9K |
 | Research & Content | deep-research, literature-review, article-writing, seo, brand-voice, video-editing, market-research | 1.9K-2.1K |
 | Agent Governance | prompt-optimizer, dev-team, council-multi-model, living-docs-governance, orch-runtime, claude-api | 0-2.0K |
+| Memory | unified-memory | 2.4K (added Sep 27, 2026 sweep) |
 
 ## Quick Start
 

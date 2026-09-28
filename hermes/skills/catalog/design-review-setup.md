@@ -16,6 +16,8 @@ tags: ["hermes skill", "agent skill", "skill setup", "design review", "ui audit"
 
 A "Designer Who Codes" skill: runs a visual audit on shipped UI, then fixes issues with atomic commits and before/after screenshots. Useful for tightening interfaces before launch. Curated from Garry Tan's [gstack](https://github.com/garrytan/gstack) workflow, part of the open-design ecosystem (the open-source Claude Design alternative) that runs on Hermes Agent plus 26 other CLI agents via ACP.
 
+> **Gstack roster note (Sep 27, 2026 sweep):** the [garrytan/gstack](https://github.com/garrytan/gstack) suite (134.3K⭐) now also indexes `gstack-openclaw-office-hours` (291 installs) - the office-hours workflow ported for the OpenClaw runtime. The gstack umbrella (23,447 installs) plus `office-hours` (564) remain the canonical entries.
+
 ## Installation
 
 ```bash

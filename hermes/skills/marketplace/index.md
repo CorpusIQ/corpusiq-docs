@@ -3,7 +3,7 @@ title: "Skills Marketplace - CorpusIQ Docs"
 description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-09-15"
+last_updated: "2026-09-27"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -15,6 +15,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 **946+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 September 27, 2026 - Book-to-Skill (6.1K, 32.8K⭐), Samber DevRel (50 skills), Layer (14), AE-CLI (34), AiCoin (7), A Smart Bear (21), Make (5), Picsart (19), Digital Marketing Pro (50), Kangarooking (19), Frontend God Mode - 11 new publisher clusters, 11 setup guides + 7 roster reconciles](/docs/hermes/skills/marketplace/new-sep27-2026-skills)
 
 - [September 15, 2026 - AccessLint Skills (WCAG 2.2 suite, ~5.1K) + Podo Design Agent Skills (150-skill catalog, 17.3K) - 2 setup guides + wind/devtools roster reconciles](/docs/hermes/skills/marketplace/new-sep15-2026)
 - [September 14, 2026 - MiniMax H3 (official org, 15.7K installs) + Reason Machines DevTools Skills expansion (40 skills at 100+, 9.5K combined) - 2 setup guides](/docs/hermes/skills/marketplace/new-sep14-2026)

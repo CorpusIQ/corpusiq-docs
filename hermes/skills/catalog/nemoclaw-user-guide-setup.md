@@ -35,6 +35,22 @@ npx skills add nvidia/skills --skill nemoclaw-user-guide
 
 ---
 
+## Roster Additions (Sep 27, 2026 sweep)
+
+Two new nvidia/skills listings surfaced in the Sep 27 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `nemoclaw-user-get-started` | 862 | NemoClaw onboarding and first-run workflow |
+| `nemo-relay-install` | 209 | NVIDIA Nemo relay component installation |
+
+Install individually:
+
+```bash
+npx skills add nvidia/skills --skill nemoclaw-user-get-started
+npx skills add nvidia/skills --skill nemo-relay-install
+```
+
 ## Key Capabilities
 
 ### Security Features

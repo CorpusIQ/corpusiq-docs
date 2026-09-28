@@ -65,6 +65,17 @@ The following skills were discovered but are either platform-specific, have no a
 | `flutter-embedding-native-views` | flutter/skills | 8.3K | No matching skill - skill name mismatch on marketplace |
 | `lark-skill-maker` / `lark-workflow-*` | larksuite/cli, open.feishu.cn | 380K-483K | Platform-specific (Lark/Feishu by ByteDance) |
 
+## Roster Update (Sep 27, 2026 sweep)
+
+The dontbesilent2025/dbskill family keeps growing - two new high-install skills surfaced in the Sep 27 sweep:
+
+| Skill | Installs | What It Does |
+|-------|----------|--------------|
+| `dbs-bridge` | 9,062 | Bridge/installer skill for the DBS business-diagnosis suite - the entry point for new installs |
+| `dbs-install-skill` | 4,520 | Family installation and setup helper |
+
+The broader `dbs:*` family now runs 20K-26K installs per core skill (dbs 26.5K, dbs-content 25.9K, dbs-diagnosis 25.7K, dbs-benchmark 25.7K, dbs-deconstruct 25.6K, dbs-hook 25.0K, dbs-action 24.8K, dbs-xhs-title 23.5K, dbs-ai-check 23.1K) - the family is Chinese-language business-diagnosis tooling (商业诊断), primarily relevant for Chinese-market operator workflows.
+
 ## Why This Matters for Hermes
 
 This sweep fills key gaps in the catalog: **Reddit Automation** is a direct fit for CorpusIQ growth operations, enabling honest Reddit engagement at scale. **OpenTUI** empowers Hermes agents to build polished terminal interfaces. **Monitoring Expert** rounds out the DevOps category with production-grade observability patterns. **Guizang Social Cards** adds Xiaohongshu and WeChat content generation to the content creation toolkit.
