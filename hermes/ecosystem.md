@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 187+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 189+ repos, tools, skills, and integrations
 last_updated: 2026-09-28
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **188+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 184 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **190+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 186 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **187+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **189+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -21,7 +21,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **188+ reposit
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 13 | Core Hermes Agent repos, official builds |
-| 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
+| 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 7 | Model Context Protocol servers & integrations |
@@ -183,6 +183,14 @@ _Docker, Kubernetes, production hosting_
 >🔌 Plug-in-a-USB AI agent - zero-install, zero-trace, cross-platform portable Hermes Agent. Self-contained with all dependencies.
 
 **Language:** Python | **Topics:** ai-agent, cross-platform, hermes, portable, python, usb | **Score:** 75/100
+
+---
+
+### [stubbi/hermes-operator](https://github.com/stubbi/hermes-operator) ⭐ 37
+
+>Production-grade Kubernetes operator for nousresearch/hermes-agent: declarative spec, security defaults, S3 backups, OCI auto-update with rollback, SSA-based GitOps coexistence, OpenClaw migration.
+
+**Language:** Go | **Topics:** ai-agent, cncf, devops, gitops, golang, helm, hermes, hermes-agent, kubernetes, kubernetes-operator, llm, olm, operator, operator-sdk, ssa | **Score:** 80/100
 
 ---
 
@@ -1064,6 +1072,14 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
+### [moonlight-lupin/agent-skills](https://github.com/moonlight-lupin/agent-skills) ⭐ 82
+
+>A collection of AI agent skills and plugins for Hermes Agent - research, creative, productivity, devops, and more. Each skill is self-contained and tested.
+
+**Language:** Python | **Topics:** agent-ops, agent-skills, ai-agent, ai-agent-skills, automation, claude-code, hermes, llm, research | **Score:** 84/100
+
+---
+
 ### [CYC2002tommy/Deep-Research-Agent](https://github.com/CYC2002tommy/Deep-Research-Agent) ⭐ 58
 
 >This is a skill that can be used for most of the agentic AI, which enables your Hermes, Openclaw ...etc to look for a bunch of papers based on your research plan. It will access to scopus by the scopus mcp, and OpenAlex api ...etc
@@ -1603,7 +1619,7 @@ Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder dir
 
 ---
 
-*187+ repositories in the Hermes ecosystem. Last updated: 2026-09-28. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*189+ repositories in the Hermes ecosystem. Last updated: 2026-09-28. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
