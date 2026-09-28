@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 28, 2026 (midday sweep) · **Sources:** mcp.so feed (30 server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 725 servers (+611 guides)
+> **Last updated:** September 28, 2026 (evening sweep) · **Sources:** mcp.so homepage (New arrivals, Featured servers and Trending this week, 23 unique server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 726 servers (+612 guides)
+
+## 🆕 September 28, 2026 - Evening Sweep (1 New, 1 Guide)
+
+Evening sweep over the mcp.so homepage (New arrivals, Featured servers and Trending this week sections, 23 unique server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy, with 3 detail pages fetched. 1 new business-relevant server catalogued with a guide:
+
+- [AffiliateSpy MCP - Competitor Creator Discovery for Agents](/docs/hermes/mcp/servers/external/affiliatespy-mcp) · 32 tools to find the creators and sites promoting your competitors, reveal verified contacts, and run outreach from your own inbox.
+
+**Also identified (not catalogued):** AOI Environmental Intelligence (niche environmental vertical with a quote-first commercial lifecycle), Kin by Firelock (code-graph dev infra, prior Kin skip respected), plus homepage and /all repeats already catalogued or disposed by prior sweeps (GoLogin, API Direct, AIsa, Atomic Mail, PLUR, LocalCan, Faivelo Email catalogued; Termany, Hostinger, Medplum, OpenZiti, OpenLore, Agent Margin Router, TinyFish, CUQU, SnapDeploy, Pocket Network, Schemity, Soar Flight Booking, Tyton and the /all TRDEFI, 550W, UpRes, Lightdrift, Grill, since-cutoff, Inferrail, System One, WhichTrim, Recordist, Screen Browser, Agent Traffic Lab, Kairos Signal, Capacity Attest, Etincel and TheLuckyStrike entries disposed).
 
 ## 🆕 September 28, 2026 - Midday Sweep (2 New, 2 Guides)
 
@@ -6214,3 +6222,9 @@ Morning sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and 
 - [Selfstorming MCP - Marketing Libraries and Ideation](/docs/hermes/mcp/servers/external/selfstorming-mcp)
 
 Midday sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 2 new business-relevant servers catalogued with guides: Uxia MCP (AI-simulated usability testing with OAuth PKCE) and Selfstorming MCP (curated marketing libraries and ideation). TinyFish and Texas RRC Wellbore Intelligence logged as identified-not-catalogued; the rest of the feed and /all page 1 were Sep 27 evening and Sep 28 morning repeats.
+
+### 1 new server from the mcp.so homepage - Sep 28, 2026 (evening sweep)
+
+- [AffiliateSpy MCP - Competitor Creator Discovery for Agents](/docs/hermes/mcp/servers/external/affiliatespy-mcp)
+
+Evening sweep sourced from the mcp.so homepage (New arrivals, Featured servers and Trending this week, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 1 new business-relevant server catalogued with a guide: AffiliateSpy MCP (competitor creator and affiliate discovery with 32 tools, OAuth 2.1 or Bearer key, confirm-gated Autopilot). AOI Environmental Intelligence (niche environmental vertical) and Kin (code-graph dev infra, prior skip respected) logged as identified-not-catalogued; the rest of the homepage and /all page 1 were prior sweeps' catalogued or disposed repeats.
