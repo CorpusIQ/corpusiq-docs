@@ -63695,5 +63695,268 @@
     ],
     "discovered_at": "2026-09-28T07:06:19.612538+00:00",
     "status": "pending"
+  },
+  {
+    "name": "dlaszlo/llm-school-notes-template",
+    "url": "https://github.com/dlaszlo/llm-school-notes-template",
+    "description": "Template for an LLM-maintained school-notes wiki: photograph your notebook, and an AI agent (Claude Code, Codex, Hermes) turns it into clear, curated study pages in Open Knowledge Format. Initialize with an LLM on first run.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "claude-code",
+      "codex",
+      "education",
+      "llm-wiki",
+      "obsidian",
+      "open-knowledge-format",
+      "study-notes",
+      "template"
+    ],
+    "updated_at": "2026-09-28T08:02:15Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "conorbronsdon/avoid-ai-writing",
+      "vivekchand/clawmetry"
+    ],
+    "discovered_at": "2026-09-28T08:02:30.614828+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "postscarcityai/yui",
+    "url": "https://github.com/postscarcityai/yui",
+    "description": "Yui iOS app (SwiftUI), Swift Yui Lines parser, Supabase backend and the Hermes plugin. Your agents, with a screen they can draw on.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "ai-agents",
+      "generative-ui",
+      "hermes-agent",
+      "open-source",
+      "swiftui"
+    ],
+    "updated_at": "2026-09-28T08:02:13Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw"
+    ],
+    "discovered_at": "2026-09-28T08:02:33.616948+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "9529360-cpu/stardust-hermes",
+    "url": "https://github.com/9529360-cpu/stardust-hermes",
+    "description": "Privacy-safe public fork of Hermes Agent with a calmer personal-assistant desktop and persistent model failover",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "electron",
+      "hermes-agent",
+      "model-failover",
+      "personal-assistant",
+      "python"
+    ],
+    "updated_at": "2026-09-28T08:01:36Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Eynzof/Hermes-CN-Core"
+    ],
+    "discovered_at": "2026-09-28T08:02:36.619393+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Rajshalem5/jarvis-hermes-dashboard",
+    "url": "https://github.com/Rajshalem5/jarvis-hermes-dashboard",
+    "description": "JARVIS \u00b7 Hermes Agent Mission Control \u2014 local voice-enabled dashboard over your Hermes profile with instant /search /fetch /browse",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-28T08:01:30Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-09-28T08:02:39.621571+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pmillsaps/hermes_macminm1",
+    "url": "https://github.com/pmillsaps/hermes_macminm1",
+    "description": "Daily backup of Hermes Agent config, skills, and settings (Mac Mini M1)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-28T08:00:59Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-28T08:02:42.623605+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WaterJason/Easel",
+    "url": "https://github.com/WaterJason/Easel",
+    "description": "Easel \u5185\u5bb9\u5de5\u4f5c\u53f0 \u2014\u2014 \u7528\u672c\u673a Hermes \u66ff\u4ee3 OpenClaw \u4f5c\u4e3a Agent \u8fd0\u884c\u65f6\uff08\u96f6\u6e90\u7801\u6539\u52a8\u7684\u63a5\u5165\u5c42\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-28T06:16:36Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-28T08:03:05.779655+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mariodian/pincer",
+    "url": "https://github.com/mariodian/pincer",
+    "description": "A fast multi-platform agent monitoring utility",
+    "stars": 12,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-monitoring",
+      "agentic-ai",
+      "hermes-agent",
+      "llm-agent",
+      "openclaw"
+    ],
+    "updated_at": "2026-09-28T08:02:52Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "some_stars_10+",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-28T08:03:08.782716+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Remus44/hermes-model-router",
+    "url": "https://github.com/Remus44/hermes-model-router",
+    "description": "Hermes Agent plugin: intelligent LLM routing (Luna/Spark/Terra/Sol/Opus) with stable parent policy, bounded delegation, and privacy-safe audit logging.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-28T08:02:14Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-28T08:03:11.786785+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maral2257/hermes-agent",
+    "url": "https://github.com/maral2257/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-28T08:02:07Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-28T08:03:14.789932+00:00",
+    "status": "pending"
   }
 ]
