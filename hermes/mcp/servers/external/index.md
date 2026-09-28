@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-27"
+last_updated: "2026-09-28"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,26 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 27, 2026 (evening sweep) · **Sources:** mcp.so feed (30 server blocks, direct fetch) + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy · **Catalog:** 711 servers (+597 guides)
+> **Last updated:** September 28, 2026 (morning sweep) · **Sources:** mcp.so feed (30 server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 723 servers (+609 guides)
+
+## 🆕 September 28, 2026 - Morning Sweep (12 New, 12 Guides)
+
+Morning sweep over the mcp.so feed (30 server blocks, direct fetch, browser UA) and mcpservers.org /all page 1 via the r.jina.ai reader proxy (direct curl Cloudflare-challenged), with 16 detail pages fetched (mcp.so server pages direct plus mcpservers.org detail pages through the reader proxy). 12 new business-relevant servers catalogued with guides:
+
+- [iMario MCP - Synthetic Audience Research for Agents](/docs/hermes/mcp/servers/external/imario-mcp) · synthetic audiences calibrated on real data across 59 markets, question them before decisions.
+- [AgileHero MCP - Agile Project Management for Agents](/docs/hermes/mcp/servers/external/agilehero-mcp) · board, backlog, roadmap, whiteboards, retros, metrics and wiki as shared tools (Sep 27 backlog promoted).
+- [Cortex MCP - Shared Knowledge Base for Human-Agent Teams](/docs/hermes/mcp/servers/external/cortex-mcp) · 70+ permission-checked tools, atoms, embeddings, per-instance MCP, free workspace.
+- [Faivelo MCP - Business Email for AI Agents](/docs/hermes/mcp/servers/external/faivelo-mcp) · mailboxes, aliases and automatic DNS on your own domain (Sep 27 backlog promoted).
+- [Cooper Email MCP - Agent Inboxes with OAuth 2.1](/docs/hermes/mcp/servers/external/cooper-email-mcp) · OAuth 2.1 + PKCE consent flow, agent-created inboxes, full-text search.
+- [Postfleet MCP - Email Infrastructure for AI Agents](/docs/hermes/mcp/servers/external/postfleet-mcp) · 16 named tools, prompt-injection screening, draft gate with 202 pending_approval.
+- [Scribase MCP - Hosted Postgres for Coding Agents](/docs/hermes/mcp/servers/external/scribase-mcp) · 44 tools, confirm-gated writes, RLS proven before schema changes ship.
+- [AI Layoffs MCP - Open AI Job-Loss Data for Agents](/docs/hermes/mcp/servers/external/ailayoffs-mcp) · keyless open data, 0-100 job-loss index, 111 source-cited events.
+- [Audiogram API MCP - Podcast Search and Transcripts](/docs/hermes/mcp/servers/external/audiogramapi-mcp) · search published podcasts, retrieve available transcripts.
+- [Menivor MCP - AI Video Ads and Reels for Agents](/docs/hermes/mcp/servers/external/menivor-mcp) · cost quote before render, scheduling and performance read-back.
+- [ParrotNotes MCP - Meeting Notes Search for Agents](/docs/hermes/mcp/servers/external/parrotnotes-mcp) · DCR with no API key, search, summarize and save insights back.
+- [SkillsInput MCP - AI Career Tools for Job Search](/docs/hermes/mcp/servers/external/skillsinput-mcp) · job search, skills intelligence, roadmaps and resume building.
+
+**Also identified (not catalogued):** crypto and on-chain class (TRDEFI, Kairos Signal, Capacity Attest), geo-niche and design utilities (CUQU, 550W AI subtitle and watermark removal, UpRes, Lightdrift), dev utilities and personal projects (Grill, since-cutoff, Inferrail, System One Connector), local-personal and consumer class (Recordist Gateway, WhichTrim), repeats and prior dispositions (Agent Traffic Lab, Screen Browser, TheLuckyStrike suite relistings, Etincel), backlog carried (Kondo, Telebrief, Wakala, Postbox Services).
 
 ## 🆕 September 27, 2026 - Evening Sweep (22 New, 22 Guides)
 
@@ -6161,3 +6180,21 @@ Midday supplement sourced from the mcp.so feed (27 server blocks, direct fetch) 
 - [MediaFast MCP - Reddit Marketing for AI Agents](/docs/hermes/mcp/servers/external/mediafast-mcp)
 
 Evening sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 22 new business-relevant servers catalogued with guides: Warmerly MCP (cold email and B2B leads with OAuth 2.1 and a Free plan), HarborRank MCP (live SEO data with read-only Search Console), seodraft MCP (37-tool SEO drafting with versioned writes), Shipwork SEO Checks (keyless technical SEO API with 24 named checks), Deeplead MCP (verified B2B contacts), Sendsets MCP (programmable cold email with a policy engine), ContentStudio MCP Server (agency social publishing with approvals), Go Rocket MCP (URL-to-video ads), Gloom MCP (Bloomberg-style financial data), DeepLedger MCP (QuickBooks bookkeeping with review tasks), Handl MCP (billing operations), Stackcut MCP (SaaS cost reduction), PaperOffice AI MCP (headless DMS), Databar.ai MCP (100+ provider enrichment), Tyton MCP (Meta Pixel and CAPI audits), Sunglasses MCP (local input firewall), StartupPerks MCP (startup credits), Odichat MCP (Meta messaging inbox), Userport MCP (SaaS support and outbound), Mnemos MCP (meeting memory), ZTDS MCP (PII sanitization) and MediaFast MCP (Reddit marketing). TheLuckyStrike relistings, the vendor demo family, crypto, geo-niche, consumer, dev-infra, agent-infra, thin-listing and sponsor repeat sets logged as identified-not-catalogued.
+
+
+### 12 new servers from mcp.so feed + mcpservers.org /all page 1 - Sep 28, 2026 (morning sweep)
+
+- [iMario MCP - Synthetic Audience Research for AI Agents](/docs/hermes/mcp/servers/external/imario-mcp)
+- [AgileHero MCP - Agile Project Management for AI Agents](/docs/hermes/mcp/servers/external/agilehero-mcp)
+- [Faivelo MCP - Business Email for AI Agents](/docs/hermes/mcp/servers/external/faivelo-mcp)
+- [Scribase MCP - Hosted Postgres for Coding Agents](/docs/hermes/mcp/servers/external/scribase-mcp)
+- [Menivor MCP - AI Video Ads and Reels for Agents](/docs/hermes/mcp/servers/external/menivor-mcp)
+- [Audiogram API MCP - Podcast Search and Transcripts](/docs/hermes/mcp/servers/external/audiogramapi-mcp)
+- [Cortex MCP - Shared Knowledge Base for Human-Agent Teams](/docs/hermes/mcp/servers/external/cortex-mcp)
+- [SkillsInput MCP - AI Career Tools for Job Search](/docs/hermes/mcp/servers/external/skillsinput-mcp)
+- [ParrotNotes MCP - Meeting Notes Search for Agents](/docs/hermes/mcp/servers/external/parrotnotes-mcp)
+- [AI Layoffs MCP - Open AI Job-Loss Data for Agents](/docs/hermes/mcp/servers/external/ailayoffs-mcp)
+- [Cooper Email MCP - Agent Inboxes with OAuth 2.1](/docs/hermes/mcp/servers/external/cooper-email-mcp)
+- [Postfleet MCP - Email Infrastructure for AI Agents](/docs/hermes/mcp/servers/external/postfleet-mcp)
+
+Morning sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 12 new business-relevant servers catalogued with guides: iMario MCP (synthetic audience research), AgileHero MCP (agile project management, Sep 27 backlog promoted), Cortex MCP (shared knowledge base), Faivelo MCP (business email, Sep 27 backlog promoted), Cooper Email MCP (agent inboxes with OAuth 2.1), Postfleet MCP (email infrastructure with injection screening), Scribase MCP (hosted Postgres with RLS proofs), AI Layoffs MCP (open job-loss data), Audiogram API MCP (podcast search), Menivor MCP (video ads with cost quotes), ParrotNotes MCP (meeting notes search) and SkillsInput MCP (career tools). Crypto, geo-niche, dev-utility, local-personal and repeat sets logged as identified-not-catalogued.
