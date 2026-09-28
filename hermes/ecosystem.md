@@ -1619,7 +1619,7 @@ Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder dir
 
 ---
 
-*189+ repositories in the Hermes ecosystem. Last updated: 2026-09-28. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*190+ repositories in the Hermes ecosystem. Last updated: 2026-09-28. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

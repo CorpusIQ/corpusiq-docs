@@ -15313,5 +15313,54 @@
     "tier": "AUTO_APPROVE",
     "action": "auto_approved",
     "timestamp": "2026-09-28T05:05:43.137312+00:00"
+  },
+  {
+    "repo": "BULDEE/ai-craftsman-superpowers",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051234+00:00"
+  },
+  {
+    "repo": "kryptobaseddev/agentmbx",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051249+00:00"
+  },
+  {
+    "repo": "anpicasso/hermes-go-whatsapp",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051252+00:00"
+  },
+  {
+    "repo": "mangit955/screenpipe",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051254+00:00"
+  },
+  {
+    "repo": "amoni094/hermes-fork",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051256+00:00"
+  },
+  {
+    "repo": "ethenotethan/portal",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051258+00:00"
+  },
+  {
+    "repo": "willregelmann/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-28T07:08:18.051260+00:00"
   }
 ]
