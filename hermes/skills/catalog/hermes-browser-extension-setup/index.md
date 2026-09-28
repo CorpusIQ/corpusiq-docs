@@ -224,3 +224,8 @@ Browse documentation or competitor sites, then:
 ---
 
 *Setup guide by CorpusIQ. Extension by [Jon Komet](https://github.com/abundantbeing). Hermes Agent by [Nous Research](https://github.com/nousresearch/hermes-agent).*
+
+## Related
+
+- [Skills Marketplace](/docs/hermes/skills/marketplace)  --  946+ community skills with setup guides
+- [Hermes Changelog](/docs/hermes/changelog)  --  Latest agent releases and features

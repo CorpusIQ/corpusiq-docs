@@ -17,6 +17,8 @@ Side-by-side comparisons to help operators choose between CorpusIQ and alternati
 | [CorpusIQ vs n8n](corpusiq-vs-n8n) | AI business intelligence vs workflow automation |
 | [CorpusIQ vs Zapier](corpusiq-vs-zapier) | AI business data vs workflow automation |
 | [CorpusIQ vs Viktor](corpusiq-vs-viktor) | Cross-platform AI answers vs Slack-based AI employee |
+| [CorpusIQ vs Airbyte](corpusiq-vs-airbyte) | Cross-source AI answers vs open-source ELT pipelines |
+| [CorpusIQ vs Fivetran](corpusiq-vs-fivetran) | Cross-source AI answers vs managed data integration |
 
 *← [Hermes Home](/docs/hermes) | [SEO Pages →](/docs/hermes/seo)*
 

@@ -130,3 +130,8 @@ hermes skills uninstall ponytail-help
 ---
 
 *← [Skills Catalog](/docs/hermes/skills/catalog) | [Hermes Ponytail Repo](https://github.com/tensakulabs/hermes-ponytail) →*
+
+## Related
+
+- [Skills Marketplace](/docs/hermes/skills/marketplace)  --  946+ community skills with setup guides
+- [Hermes Changelog](/docs/hermes/changelog)  --  Latest agent releases and features

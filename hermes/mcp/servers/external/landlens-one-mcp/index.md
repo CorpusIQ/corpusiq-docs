@@ -54,3 +54,5 @@ Endpoint live-probed over JSON-RPC initialize: HTTP 401 with an OAuth bearer cha
 - [Austin MLS MCP - Live Austin Real Estate Listings for AI Assistants](/docs/hermes/mcp/servers/external/austin-mls-mcp)
 - [AskRentAI MCP - Property Portfolio Intelligence for Rent Manager Operators](/docs/hermes/mcp/servers/external/askrentai-mcp)
 - [DealMachine MCP - Real Estate Prospecting for Agents](/docs/hermes/mcp/servers/external/dealmachine-mcp)
+- [Hermes Changelog](/docs/hermes/changelog)  --  Latest agent releases and features
+- [Skills Marketplace](/docs/hermes/skills/marketplace)  --  946+ community skills

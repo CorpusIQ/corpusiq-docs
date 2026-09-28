@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh  --  946+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-09-27"
@@ -378,3 +378,50 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [July 16, 2026 - agent-browser (38K⭐), Vercel Agent Skills (29K⭐), Apify Agent Skills (2.2K⭐), ClawFu Skills (134⭐)](/docs/hermes/skills/marketplace/new-july16-2026)
 - [July 15, 2026 (Supplement) - OpenClaw Ecosystem: 5 New Skills](/docs/hermes/skills/marketplace/new-july15-2026-update)
 - [New June9 2026](/docs/hermes/skills/marketplace/new-june9-2026)
+
+## FAQ
+
+### What is the Hermes Skills Marketplace?
+
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 946+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+
+### How do I install a skill from the marketplace?
+
+Find the skill in the catalog, open its setup guide page, and run the single install command shown there. Each listed skill is a production-ready, executable workflow that installs directly into your Hermes agent.
+
+### How often is the marketplace updated?
+
+Weekly, with recent sweep pages published as new publisher clusters and skills are discovered. The most recent sweeps are listed first under Recent Sweeps.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Hermes Skills Marketplace?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 946+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I install a skill from the marketplace?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Find the skill in the catalog, open its setup guide page, and run the single install command shown there. Each listed skill is a production-ready, executable workflow that installs directly into your Hermes agent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often is the marketplace updated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weekly, with recent sweep pages published as new publisher clusters and skills are discovered. The most recent sweeps are listed first under Recent Sweeps."
+      }
+    }
+  ]
+}
+</script>
