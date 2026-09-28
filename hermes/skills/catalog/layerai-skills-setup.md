@@ -1,6 +1,6 @@
 ---
 title: "Layer Skills - AI Game Asset Creation Suite Setup"
-description: "Setup guide for layerai/skills - 14 agent skills for Layer's AI game asset creation: image editing, 3D, pixel art, audio, video, and art direction."
+description: "Setup guide for layerai/skills - 15 agent skills for Layer's AI game asset creation: image editing, 3D, pixel art, audio, video, and art direction."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/layerai-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-09-27"
@@ -10,12 +10,12 @@ tags: ["hermes skill", "agent skill", "skill setup", "game assets", "image gener
 # Layer Skills - Setup Guide
 
 **Source:** [layerai/skills](https://github.com/layerai/skills) (pushed Sep 27, 2026)
-**Skill:** `layerai/skills` (14 installable skills)
+**Skill:** `layerai/skills` (15 installable skills)
 **Installs:** ~925 per skill, ~13K combined (Sep 27, 2026 snapshot)
 **Category:** Generative Media / Game Asset Creation
 **Quality Tier:** 🔵 Community (no skills.sh security verdicts published - verified Sep 27, 2026)
 
-Layer (layer.ai) publishes the official agent skills for its generative-AI platform. The 14-skill suite covers the full asset-creation pipeline: image editing, 3D model generation, pixel art, audio, video timelines, workflows, reference sets, quality control, and art direction. Skills are installable via the skills CLI and call Layer's APIs, so an agent can produce game-ready assets in-session.
+Layer (layer.ai) publishes the official agent skills for its generative-AI platform. The 15-skill suite covers the full asset-creation pipeline: image editing, 3D model generation, pixel art, audio, video timelines, workflows, reference sets, quality control, and art direction. Skills are installable via the skills CLI and call Layer's APIs, so an agent can produce game-ready assets in-session.
 
 ---
 
@@ -47,6 +47,7 @@ A Layer account/API key is required for the underlying generation calls.
 | layer-quality | 924 | Quality review and iteration |
 | layer-image | 924 | Text-to-image generation |
 | layer-art-direction | 924 | Coherent art direction across a project |
+| layer-game-assets | 923 | In-game art as a system: characters, NPCs, environments, parallax layers, HUD/icon sets, Spine-ready parts |
 
 ## CorpusIQ Use Cases
 
@@ -61,7 +62,7 @@ A Layer account/API key is required for the underlying generation calls.
 
 - Requires a Layer account; generation is API-metered, not free
 - Suited to asset production, not final-game engineering
-- Verify: `npx skills add layerai/skills --list` shows 14 skills; then check the Layer API key is valid
+- Verify: `npx skills add layerai/skills --list` shows 15 skills; then check the Layer API key is valid
 
 ## Security
 

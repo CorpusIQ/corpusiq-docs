@@ -43,6 +43,7 @@ npx skills add samber/developer-relations-skills --skill oss-launch
 | engineering-blog-post | 1,008 | Technical blog post drafting and distribution |
 | oss-issue-triage | 989 | Issue triage workflows and response SLAs |
 | devrel-budget-allocation | 984 | DevRel budget planning and channel mix |
+| developer-champions | 1,012 | Unpaid perks-only champions/ambassador program design: readiness check, selection criteria, perk ladder, fixed terms, alumni |
 
 The suite also covers open-standards strategy, open-source-company strategy, and developer community programs - 50 skills total.
 

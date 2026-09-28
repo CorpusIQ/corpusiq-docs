@@ -16,6 +16,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [🆕 September 28, 2026 - Jezweb (96 skills, 115K installs), OmniRoute (70.9K⭐, 44 skills), rlaope Oh My Hermes (3K⭐, 130 skills), React Native Update - 4 new publisher clusters, 4 setup guides + 3 roster reconciles](/docs/hermes/skills/marketplace/new-sep28-2026-skills)
+
 - [🆕 September 27, 2026 - Book-to-Skill (6.1K, 32.8K⭐), Samber DevRel (50 skills), Layer (14), AE-CLI (34), AiCoin (7), A Smart Bear (21), Make (5), Picsart (19), Digital Marketing Pro (50), Kangarooking (19), Frontend God Mode - 11 new publisher clusters, 11 setup guides + 7 roster reconciles](/docs/hermes/skills/marketplace/new-sep27-2026-skills)
 
 - [September 15, 2026 - AccessLint Skills (WCAG 2.2 suite, ~5.1K) + Podo Design Agent Skills (150-skill catalog, 17.3K) - 2 setup guides + wind/devtools roster reconciles](/docs/hermes/skills/marketplace/new-sep15-2026)

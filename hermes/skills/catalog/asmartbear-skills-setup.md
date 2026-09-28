@@ -45,6 +45,7 @@ npx skills add asmartbear/asb-skills --skill asb-positioning
 | asb-carol-inciting-events | 536 | Carol framework: inciting events |
 | asb-carol-dealbreakers | 535 | Carol framework: dealbreakers |
 | asb-carol-strengths | 534 | Carol framework: strengths inventory |
+| asb-interview-debrief | 540 | Interview debrief: turn one customer conversation into a question-mapped debrief file (verbatim phrases, addenda) |
 
 ## CorpusIQ Use Cases
 

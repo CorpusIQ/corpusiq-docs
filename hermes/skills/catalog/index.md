@@ -586,3 +586,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Digital Marketing Pro - AI Marketing OS Setup](/docs/hermes/skills/catalog/digital-marketing-pro-setup)
 - [Kangarooking Skills - Agent Harness Suite Setup](/docs/hermes/skills/catalog/kangarooking-skills-setup)
 - [Frontend God Mode - Design Skills Bundle Setup](/docs/hermes/skills/catalog/frontend-god-mode-setup)
+- [Jezweb Skills - 96-Skill Web Dev & Design Suite Setup](/docs/hermes/skills/catalog/jezweb-skills-setup)
+- [OmniRoute Skills - 70.9K⭐ AI Gateway Suite Setup](/docs/hermes/skills/catalog/omniroute-skills-setup)
+- [rlaope Oh My Hermes - 130-Skill All-in-One Plugin Setup](/docs/hermes/skills/catalog/rlaope-oh-my-hermes-setup)
+- [React Native Update Skill - OTA Update Integration Setup](/docs/hermes/skills/catalog/react-native-update-skill-setup)
