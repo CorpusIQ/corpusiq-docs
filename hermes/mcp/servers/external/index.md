@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 28, 2026 (morning sweep) · **Sources:** mcp.so feed (30 server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 723 servers (+609 guides)
+> **Last updated:** September 28, 2026 (midday sweep) · **Sources:** mcp.so feed (30 server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 725 servers (+611 guides)
+
+## 🆕 September 28, 2026 - Midday Sweep (2 New, 2 Guides)
+
+Midday sweep over the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy, with 4 detail pages fetched. 2 new business-relevant servers catalogued with guides:
+
+- [Uxia MCP - AI User Testing and UX Research](/docs/hermes/mcp/servers/external/uxia-mcp) · AI-simulated testers over OAuth PKCE, severity-ranked findings with screenshot evidence.
+- [Selfstorming MCP - Marketing Libraries and Ideation](/docs/hermes/mcp/servers/external/selfstorming-mcp) · 1,800+ award-winning campaigns, 850+ sourced findings, ideation boards.
+
+**Also identified (not catalogued):** TinyFish (browser automation - dev infra class), Texas RRC Wellbore Intelligence (niche energy vertical), plus feed and /all repeats already catalogued or disposed by the Sep 27 evening and Sep 28 morning sweeps (Stackcut, PaperOffice AI, Databar.ai, Tyton, Screen Browser, Agent Traffic Lab, Metabind demo, DSCR Lender Data, Senaro, SnapDeploy, HostingFor.AI, Schemity, nu:legal, Companero, Twistly, Email Spam Tester, Laso Finance, Pocket Network, LiquidVision, Beyond Payday, Soar Flight Booking, the TheLuckyStrike relistings and the Grill, Inferrail, System One Connector and since-cutoff /all entries).
 
 ## 🆕 September 28, 2026 - Morning Sweep (12 New, 12 Guides)
 
@@ -6198,3 +6207,10 @@ Evening sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and 
 - [Postfleet MCP - Email Infrastructure for AI Agents](/docs/hermes/mcp/servers/external/postfleet-mcp)
 
 Morning sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 12 new business-relevant servers catalogued with guides: iMario MCP (synthetic audience research), AgileHero MCP (agile project management, Sep 27 backlog promoted), Cortex MCP (shared knowledge base), Faivelo MCP (business email, Sep 27 backlog promoted), Cooper Email MCP (agent inboxes with OAuth 2.1), Postfleet MCP (email infrastructure with injection screening), Scribase MCP (hosted Postgres with RLS proofs), AI Layoffs MCP (open job-loss data), Audiogram API MCP (podcast search), Menivor MCP (video ads with cost quotes), ParrotNotes MCP (meeting notes search) and SkillsInput MCP (career tools). Crypto, geo-niche, dev-utility, local-personal and repeat sets logged as identified-not-catalogued.
+
+### 2 new servers from mcp.so feed - Sep 28, 2026 (midday sweep)
+
+- [Uxia MCP - AI User Testing and UX Research](/docs/hermes/mcp/servers/external/uxia-mcp)
+- [Selfstorming MCP - Marketing Libraries and Ideation](/docs/hermes/mcp/servers/external/selfstorming-mcp)
+
+Midday sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 2 new business-relevant servers catalogued with guides: Uxia MCP (AI-simulated usability testing with OAuth PKCE) and Selfstorming MCP (curated marketing libraries and ideation). TinyFish and Texas RRC Wellbore Intelligence logged as identified-not-catalogued; the rest of the feed and /all page 1 were Sep 27 evening and Sep 28 morning repeats.
