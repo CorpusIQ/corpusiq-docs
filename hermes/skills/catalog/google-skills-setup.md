@@ -3,7 +3,7 @@ title: Google Skills - Official Google Agent Skills
 description: Google's official agent skills collection - Cloud recipes, GKE, Gemini APIs, BigQuery, agent platform, and Google Ads/Analytics. 30K+ combined installs across 75+ skills. 15K+ GitHub stars.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -68,10 +68,12 @@ npx skills add google/skills --skill google-analytics-data-api-basics
 ### Gemini AI
 | Skill | Installs | Purpose |
 |---|---|---|
-| **gemini-interactions-api** | 4.5K | Gemini API interactions including multimodal prompts, streaming, and function calling |
-| **gemini-api** | - | Core Gemini API with text, code, image, and audio generation |
-| **gemini-agents-api** | 3.6K | Build AI agents with Gemini: tool use, memory, and multi-step reasoning |
+| **gemini-interactions-api** | 9.0K | Gemini API interactions including multimodal prompts, streaming, and function calling |
+| **gemini-api** | 15.4K | Core Gemini API with text, code, image, and audio generation |
+| **gemini-agents-api** | 8.0K | Build AI agents with Gemini: tool use, memory, and multi-step reasoning |
 | **gemini-live-api** | - | Real-time bidirectional streaming with Gemini for voice and video |
+
+*Gemini counts refreshed in the Sep 29, 2026 sweep.*
 
 ### GKE (Kubernetes Engine) - 20+ skills
 | Skill | Installs | Purpose |

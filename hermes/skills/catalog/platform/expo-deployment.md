@@ -8,7 +8,7 @@ category: platform
 setup: npx skills add expo/skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/expo-deployment/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 title: "Expo Deployment - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
@@ -35,6 +35,22 @@ Install with `npx skills add` or via the Hermes skills manager. The skill auto-r
 ## Source
 
 Discovered via skills.sh marketplace scan, June 2026.
+
+## Roster Additions (Sep 29, 2026 sweep)
+
+Two additional expo/skills listings surfaced in the Sep 29 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `expo-skill-eval` | 16,871 | Expo skill evaluation workflows |
+| `eas-workflows` | 15,766 | EAS build and deployment workflows |
+
+Install individually:
+
+```bash
+npx skills add expo/skills@expo-skill-eval
+npx skills add expo/skills@eas-workflows
+```
 
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 

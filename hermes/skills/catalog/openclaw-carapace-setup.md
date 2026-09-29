@@ -3,7 +3,7 @@ title: OpenClaw Carapace - Design System Skills Setup Guide
 description: Install and use the official OpenClaw design system package (openclaw/carapace) - 6 skills covering brand identity, UI primitives, marketing pages, and design audits. 2.3K combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-carapace-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -41,12 +41,12 @@ npx skills add https://github.com/openclaw/carapace --skill openclaw-design-syst
 
 | Skill | Installs | Use For |
 |---|---|---|
-| `openclaw-design` | 379 | Router - chooses the focused branch before changing any interface |
+| `openclaw-design` | 2,075 | Router - chooses the focused branch before changing any interface |
 | `openclaw-brand` | 379 | Identity: typography, logos, imagery, voice, non-product brand artifacts |
-| `openclaw-carapace` | 369 | App UI: semantic tokens, themes, component reuse, framework adapters |
-| `openclaw-marketing-pages` | 379 | Public pages: landing/content composition, navigation, SEO, responsive layout |
+| `openclaw-carapace` | 1,725 | App UI: semantic tokens, themes, component reuse, framework adapters |
+| `openclaw-marketing-pages` | 2,072 | Public pages: landing/content composition, navigation, SEO, responsive layout |
 | `openclaw-design-audit` | 379 | Design drift, token misuse, component substitution, accessibility, recurring audits |
-| `openclaw-design-system` | 378 | v0.1.x compatibility alias for projects upgrading an existing skill lock |
+| `openclaw-design-system` | 2,070 | v0.1.x compatibility alias for projects upgrading an existing skill lock |
 
 **Routing rule:** for a public website change start with `openclaw-marketing-pages`, adding `openclaw-brand` only when the task changes identity, logo, imagery, typography, or voice. For a product application start with `openclaw-carapace`. Load multiple branches only when the task genuinely crosses them.
 

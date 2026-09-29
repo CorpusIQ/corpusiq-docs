@@ -3,7 +3,7 @@ title: "Samber DevRel Skills - Open Source Growth Suite Setup"
 description: "Setup guide for samber/developer-relations-skills - 50 agent skills for open source strategy, community programs, and developer GTM from Samber."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samber-devrel-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-27"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "devrel", "open source", "developer marketing"]
 ---
 
@@ -44,6 +44,8 @@ npx skills add samber/developer-relations-skills --skill oss-launch
 | oss-issue-triage | 989 | Issue triage workflows and response SLAs |
 | devrel-budget-allocation | 984 | DevRel budget planning and channel mix |
 | developer-champions | 1,012 | Unpaid perks-only champions/ambassador program design: readiness check, selection criteria, perk ladder, fixed terms, alumni |
+| open-source-company-strategy | 1,190 | Open source company strategy (added Sep 29, 2026 sweep) |
+| open-standards-strategy | 1,190 | Open standards strategy (added Sep 29, 2026 sweep) |
 
 The suite also covers open-standards strategy, open-source-company strategy, and developer community programs - 50 skills total.
 

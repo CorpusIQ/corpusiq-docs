@@ -3,7 +3,7 @@ title: Ruflo - Multi-Agent Orchestration Platform for Hermes Agents
 description: Install and configure Ruflo (65K+ GitHub stars), the leading agent meta-harness with native Hermes support, 314+ MCP tools, 30+ plugins, and 267 skills for multi-agent swarms, memory, intelligence pipelines, and autonomous workflows.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ruflo-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -60,6 +60,8 @@ npx ruflo init
 | **security-audit** | 1.2K | Codebase security scans, CVE checks, adversarial testing |
 | **workflow-automation** | 1.2K | Custom multi-step pipeline execution |
 | **memory-management** | 1.1K | HNSW-indexed semantic search, hybrid SQLite+AgentDB backend |
+| **agent-automation-smart-agent** | 1.1K | Smart agent automation workflows (added Sep 29, 2026 sweep) |
+| **agent-hierarchical-coordinator** | 1.1K | Hierarchical agent coordination (added Sep 29, 2026 sweep) |
 
 ## 30+ Plugins (Highlights)
 

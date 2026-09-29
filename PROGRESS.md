@@ -7,7 +7,7 @@ Current state and ongoing work for the public docs repository.
 - **Total Markdown files:** 2370
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 436 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
+- **Skills catalog:** 522 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
 - **MCP servers:** 937 total .md under hermes/mcp/; external catalog 674 servers (+560 guides) per Sep 14 evening sweep
 - **SEO pages:** 126 top-level landing pages targeting high-intent operator keywords
 
@@ -28,12 +28,14 @@ The repo is actively maintained with daily automated updates:
 
 - **Ecosystem discovery:** Nightly GitHub scan finds new Hermes-related repos.
 - **MCP server scans:** MCP.so + mcpservers.org scanned daily. 536 servers listed with integration guides.
-- **Skills.sh marketplace:** Daily scan for new Hermes skills. 531 setup guides published.
+- **Skills.sh marketplace:** Daily scan for new Hermes skills. 595 setup guides published.
 - **SEO pages:** 126 programmatic landing pages targeting operator search intent.
 - **Content ops:** Automated internal linking, meta descriptions, OG tags, and sitemap generation.
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Skills sweep ✅ (Sep 29, 2026, skills-monitor cron):** 15-query skills.sh API sweep (723 unique, 0 failed queries) + publisher follow-up cluster sizing. Tiered crossref 723 unique / 106 NEW / 234 PARTIAL; NEW ≥100: 66, PARTIAL ≥100: 117. **RECORD BATCH: 64 new publisher guides** (~5.6M combined installs): GSAP/greensock (443K, official), Jeff Allan claude-skills (395K, 67 skills), nomadamas/k-skill (425K, Korean suite), yuan1z0825/nature-skills (226K, 45K⭐ academic), OKX OnchainOS (223K), dotnet/skills (207K, official Microsoft), mindrally (134K, 255+ skills), actionbook/rust-skills (108K), bergside/awesome-design-skills (101K, 2,971⭐), zc277584121/marketing-skills (51K), upstash/skills (41K, official), celigo/ai (45K, official), codestable (39K), copilotkit (34K/37.6K⭐), marimo-team (28K, official), eachlabs (34K), bagelhole (31K), aahl/skills (41K), travisjneuman/.claude (23K, 127 skills), okx… plus 44 more. 29 roster reconciles (taste-skill 804K, azure-skills 443K, awesome-copilot 129K, wshobson 101K, samber golang 75K, ecc 56K, claude-office 46K, langchain 45K, addyosmani 38K, expo 33K, google/skills 32K, agentmemory 29K, googleworkspace 28K, deepline 12K, sf-skills 10K + 14 more). Sweep infra fix: ripgrep 14.1.1 installed on Mac Mini (~/bin/rg) - the official sweep script's grep fallback was timing out (O(skills x tree) = hours). Batch page new-sep29-2026-skills (skipped table: NEW <100 tail + sub-500 PARTIAL parks). Marketplace header 946+→1,010+, footer 997+→1,061+. Catalog 458→522, setup guides 531→595. Push in-cycle.
 
 - **Skills sweep ✅ (Sep 15, 2026, skills-monitor cron, morning):** 44-query skills.sh API sweep (4,003 unique, 0 failed queries). Cluster diff: 120 known / 0 candidates. Hot board clean (all catalog-covered, exit 0). Tiered crossref 643 unique / 45 NEW / 106 PARTIAL, PARTIAL ≥100: 4 (all reconciled). TWO guides drafted: AccessLint/skills (WCAG 2.2 suite, ~5.1K combined, 98⭐, agent-agnostic + optional MCP, 🟡 unverified) and podo/design-agent-skills (150-skill design catalog, 17.3K combined, redistribution disclosed, 🟡 unverified). Roster reconciles: reason-machines/devtools-skills +2 rows (42 skills / 9,850 combined), wind-alice roster refreshed (71 indexed, 63 at 100+, 174K). Batch page new-sep15-2026 (skipped table: thelobbi/claude - Claude marketplace, andurilcode/craftwork - below floor). Marketplace header 944+→946+, footer 995+→997+. Catalog 434→436, setup guides 529→531. Deploy left to the 07:00 docs-daily-deploy cron.
 - **Skills sweep ✅ (Sep 14, 2026, skills-monitor cron, evening):** 44-query skills.sh API sweep (4,003 unique, 0 failed queries). Cluster diff: 119 known / 1 candidate. Hot board clean (187/33 all catalog-covered). Tiered crossref 637 unique / 44 NEW / 144 PARTIAL, PARTIAL ≥100: 40 (all reason-machines/devtools-skills). TWO guides drafted: `minimax-ai/minimax-h3` (15.7K installs, official MiniMax org, 8.6K★ - portable h3-prompt-writing 7,857 + 8 MiniMax Hub canvas skills, 🟡 unverified - no audits published, no LICENSE file) and `reason-machines/devtools-skills` (ara.so auto-generated 173-skill farm; 40 skills at 100+ installs, 9,451 combined; roster documented, provenance + game-mod niche disclosed, 🟡 unverified). Batch page new-sep14-2026 (skipped table: gigio1023/agent-skills 12, poorvith-mp/skills-gamedev 5 - below-bar parks). Marketplace header 943+→944+, footer 994+→995+. Catalog 432→434, setup guides 527→529. Deploy left to the 07:00 docs-daily-deploy cron.

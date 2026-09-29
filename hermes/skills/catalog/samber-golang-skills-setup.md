@@ -3,7 +3,7 @@ title: Samber Go Skills - Golang Engineering Standards
 description: Golang code style, error handling, testing, naming, and design patterns with 35K+ combined installs. Enforce idiomatic Go standards across agent-generated code.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samber-golang-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -41,6 +41,8 @@ npx skills add samber/cc-skills-golang --skill golang-structs-interfaces
 | **golang-naming** | - | Package, variable, function, and interface naming conventions |
 | **golang-design-patterns** | - | Functional options, builder, strategy, dependency injection for Go |
 | **golang-structs-interfaces** | - | Struct design, interface segregation, embedding best practices |
+| **golang-dependency-management** | 39.2K | Go module dependency management, versioning, and supply-chain hygiene (added Sep 29, 2026 sweep) |
+| **golang-how-to** | 35.8K | How-to recipes for common Go engineering tasks (added Sep 29, 2026 sweep) |
 
 ---
 

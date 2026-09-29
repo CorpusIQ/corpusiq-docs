@@ -3,7 +3,7 @@ title: "Netlify Agent Skills - Serverless deployment, edge"
 description: 6 deployment-focused skills from Netlify covering functions, config, frameworks, edge functions, and forms. 7.9K+ combined installs. Essential for Hermes agents managing Netlify deployments.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/netlify-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -41,6 +41,7 @@ npx skills add netlify/context-and-tools --skill netlify-forms
 | **netlify-frameworks** | 1.3K | Framework-specific deployment guidance: Next.js, Remix, Astro, SvelteKit, Nuxt, and more |
 | **netlify-edge-functions** | 1.3K | Edge Functions using Deno runtime - location-based personalization, auth at the edge, A/B testing, geolocation |
 | **netlify-forms** | 1.3K | Built-in form handling without server-side code - spam filtering, notifications, webhooks, file uploads |
+| **netlify-agent-runner** | 1.9K | Netlify agent runner workflows (added Sep 29, 2026 sweep) |
 
 ---
 

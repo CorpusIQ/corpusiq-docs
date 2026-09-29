@@ -3,7 +3,7 @@ title: "Microsoft Azure AI Foundry Skills - Enterprise Agent"
 description: Microsoft's official Azure AI Foundry agent skills with 478K+ combined installs. Deploy, manage, and optimize AI agents on Azure with enterprise-grade infrastructure, CI/CD, observability, and fine-tuning.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-azure-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -35,6 +35,7 @@ npx skills add microsoft/azure-skills --skill azure-deploy
 | **microsoft-foundry** | 478.2K | Full Azure AI Foundry agent platform - create, deploy, invoke, observe, CI/CD, routines, fine-tuning |
 | **azure-ai** | 474.4K | Azure AI Services resource and project management |
 | **azure-deploy** | 474.1K | Agent deployment, versioning, and multi-environment management |
+| **azure-hosted-copilot-sdk** | 443.4K | Hosted Copilot SDK for building agents on Azure AI Foundry (added Sep 29, 2026 sweep) |
 
 ---
 

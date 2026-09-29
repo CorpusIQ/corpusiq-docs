@@ -3,7 +3,7 @@ title: Honcho Integration  --  Setup Guide for Hermes Agents
 description: Complete setup guide for honcho-integration  --  persistent agent memory, session management, and peer context for Hermes agents via the Honcho MCP server.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/honcho-integration-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -96,7 +96,23 @@ The CorpusIQ session start ritual uses Honcho as the primary anti-amnesia mechan
 
 This one call replaces manually searching through SESSION_STATE.md, checking crons, and testing each channel.
 
-## 7. Troubleshooting
+## 7. Roster Additions (Sep 29, 2026 sweep)
+
+Two additional plastic-labs/honcho listings surfaced in the Sep 29 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `migrate-honcho` | 347 | Migration workflow for Honcho deployments |
+| `migrate-honcho-ts` | 347 | TypeScript migration workflow for Honcho |
+
+Install individually:
+
+```bash
+npx skills add plastic-labs/honcho --skill migrate-honcho
+npx skills add plastic-labs/honcho --skill migrate-honcho-ts
+```
+
+## 8. Troubleshooting
 
 | Symptom | Cause | Fix |
 |---------|-------|-----|

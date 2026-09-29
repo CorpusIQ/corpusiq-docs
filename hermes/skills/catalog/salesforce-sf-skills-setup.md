@@ -3,7 +3,7 @@ title: Salesforce Skills Library (sf-skills) - 330+ Agent Skills
 description: "forcedotcom/sf-skills - Salesforce's official curated agent skills library: Apex, Flow, SOQL, LWC, Agentforce, Experience Cloud, Commerce B2B, Data360, Omnistudio, DX DevOps. 100+ skills indexed on skills.sh, ~500K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/salesforce-sf-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-09"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "salesforce", "crm", "apex", "agentforce", "lwc"]
 ---
 
@@ -54,6 +54,7 @@ cp -r sf-skills/skills/* ~/.hermes/skills/
 | **DX DevOps** | `dx-code-analyzer-run/configure`, `dx-org-manage/switch`, `dx-devops-test-*` |
 | **Integration** | `integration-connectivity-connected-app-configure`, `integration-connectivity-generate`, eventing (CDC) subscriptions |
 | **Commerce B2B / Data360 / Omnistudio / Mobile** | store creation, schema/code-extension generation, datamapper/omniscript/flexcard generation, mobile app creation |
+| **Sep 29, 2026 sweep** | `platform-models-api-configure` (4,072), `developing-agentforce` (3,893), `service-helpagent-coordinate` (2,362) |
 
 ## Quick Start
 

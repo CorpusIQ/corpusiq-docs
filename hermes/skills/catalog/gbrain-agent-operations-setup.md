@@ -3,7 +3,7 @@ title: GBrain Agent Operations - Full Setup Guide for Hermes Agents
 description: Install, configure, and use GBrain operational skills for Hermes Agents - cross-modal review, soul audit, cron scheduling, minion orchestration, and daily task preparation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gbrain-agent-operations-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -98,6 +98,16 @@ npx skills add garrytan/gbrain/concept-synthesis
 | **Skill development pipeline** | Skillify converts proven workflows into reusable skills. Skill-creator generates conformant SKILL.md. Skillpack-check audits the installed skillset. |
 | **Daily intelligence brief** | Daily-task-prep loads calendar + open threads + brain context. Signal-detector surfaces high-priority inbound signals. Combined, this replaces manual morning triage. |
 | **Knowledge synthesis** | Concept-synthesis maps ideas across brain sections. Article-enrichment structures raw research. Together, they turn information firehose into actionable intelligence. |
+
+---
+
+## Roster Additions (Sep 29, 2026 sweep)
+
+One additional garrytan/gbrain listing surfaced in the Sep 29 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `cron-scheduler` | 211 | Cron scheduling for gbrain-managed jobs (counts refreshed Sep 29, 2026) |
 
 ---
 

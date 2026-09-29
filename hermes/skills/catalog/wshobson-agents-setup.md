@@ -3,7 +3,7 @@ title: wshobson/agents - Agent Plugin Marketplace for Hermes
 description: Access 94 plugins, 203 agents, 175 skills, and 109 commands from the wshobson/agents marketplace. Multi-harness support for Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI, and GitHub Copilot - all from a single source.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wshobson-agents-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -199,6 +199,21 @@ Source (plugins/) ──▶ Harness Generator ──▶ Native artifacts
 | vercel-labs/agent-skills | 6 | 1 (Vercel) | Framework-specific |
 
 **Recommendation:** wshobson/agents has the broadest coverage. Use as the primary agent plugin source. Supplement with github/awesome-copilot for GitHub/MCP automation and anthropics/knowledge-work-plugins for enterprise workflows.
+
+---
+
+## Roster Additions (Sep 29, 2026 sweep)
+
+Six skill listings from the wshobson/agents marketplace surfaced in the Sep 29 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `code-review-excellence` | 29,048 | Code review excellence standards |
+| `api-design-principles` | 29,000 | API design principles and patterns |
+| `python-design-patterns` | 21,414 | Python design patterns reference |
+| `prometheus-configuration` | 10,485 | Prometheus monitoring configuration |
+| `team-composition-patterns` | 8,942 | Team composition patterns for agent work |
+| `hermes-tweet` | 1,940 | Hermes-native tweet composition and posting |
 
 ---
 

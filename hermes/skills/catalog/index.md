@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -177,6 +177,74 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 
 
 ## All Skills Catalog Pages
+
+### New - September 29, 2026 Sweep (64 publisher guides)
+
+- [AAHL Skills - Smart Home & TTS Setup](/docs/hermes/skills/catalog/aahl-skills-setup)
+- [Open WebSearch Skills - Agent Web Search Setup](/docs/hermes/skills/catalog/open-websearch-setup)
+- [Actionbook Rust Skills - Rust Guidelines Setup](/docs/hermes/skills/catalog/actionbook-rust-skills-setup)
+- [Aktsmm Agent Skills - Copilot & Claude Setup](/docs/hermes/skills/catalog/aktsmm-agent-skills-setup)
+- [OpenClaw Token Optimizer Skills Setup](/docs/hermes/skills/catalog/openclaw-token-optimizer-setup)
+- [Bagelhole DevOps Security Skills Setup](/docs/hermes/skills/catalog/bagelhole-devops-security-skills-setup)
+- [Bergside Design Skills - Design Systems Setup](/docs/hermes/skills/catalog/bergside-awesome-design-skills-setup)
+- [Boshu2 AgentOps Skills - AI Coding Ops Setup](/docs/hermes/skills/catalog/boshu2-agentops-setup)
+- [Celigo AI Skills - Celigo Integrations Setup](/docs/hermes/skills/catalog/celigo-ai-skills-setup)
+- [CodeStable Skills - AI Coding Workflow Setup](/docs/hermes/skills/catalog/codestable-skills-setup)
+- [Coleam00 Skills - PIV Loop & AI Layer Setup](/docs/hermes/skills/catalog/coleam00-skills-setup)
+- [CopilotKit Skills - Agent Frontend Stack Setup](/docs/hermes/skills/catalog/copilotkit-copilotkit-skills-setup)
+- [CopilotKit Skills - Dev Lifecycle Setup](/docs/hermes/skills/catalog/copilotkit-skills-setup)
+- [AI Dev Standards Skills - Design Setup](/docs/hermes/skills/catalog/ai-dev-standards-skills-setup)
+- [Decentraland SDK Skills - Scene Building Setup](/docs/hermes/skills/catalog/decentraland-sdk-skills-setup)
+- [Openwork Skills - Agent Workspace Setup](/docs/hermes/skills/catalog/openwork-skills-setup)
+- [Helmor Skills - Multi-Agent Workbench Setup](/docs/hermes/skills/catalog/helmor-skills-setup)
+- [Dotnet Skills - .NET AI Coding Setup](/docs/hermes/skills/catalog/dotnet-skills-setup)
+- [Animation Principles Skills - Motion Setup](/docs/hermes/skills/catalog/dylantarre-animation-principles-setup)
+- [Dzhng Skills - Software Factory Setup](/docs/hermes/skills/catalog/dzhng-skills-setup)
+- [Eachlabs Skills - Creative Generation Setup](/docs/hermes/skills/catalog/eachlabs-skills-setup)
+- [Flightclaw Skills - Flight Agent Setup](/docs/hermes/skills/catalog/flightclaw-agents-setup)
+- [Frames Engineering Skills - Agent Tools Setup](/docs/hermes/skills/catalog/frames-engineering-skills-setup)
+- [Gemini Watermark Remover Skills Setup](/docs/hermes/skills/catalog/gemini-watermark-remover-setup)
+- [Taches CC Resources Skills - Claude Tools Setup](/docs/hermes/skills/catalog/taches-cc-resources-setup)
+- [Google Antigravity SDK Skills Setup](/docs/hermes/skills/catalog/google-antigravity-sdk-setup)
+- [GSAP Skills - GreenSock Animation Platform Setup](/docs/hermes/skills/catalog/greensock-gsap-skills-setup)
+- [Hedera Skills - Web3 Dev Tools Setup](/docs/hermes/skills/catalog/hedera-skills-setup)
+- [ClawHub Skill Vetting - Security Scanner Setup](/docs/hermes/skills/catalog/clawhub-skill-vetting-setup)
+- [Open Browser Use Skills - Browser Automation Setup](/docs/hermes/skills/catalog/open-browser-use-setup)
+- [Open Computer Use Skills - Codex Alternative Setup](/docs/hermes/skills/catalog/open-computer-use-setup)
+- [Jeff Allan Claude Skills - Full-Stack Dev Setup](/docs/hermes/skills/catalog/jeffallan-claude-skills-setup)
+- [Finance Skills - Financial Services Suite Setup](/docs/hermes/skills/catalog/joellewis-finance-skills-setup)
+- [Spellbook Skills - Cross-Runtime Setup](/docs/hermes/skills/catalog/majiayu000-spellbook-setup)
+- [Claude GTM Plugin Skills - GTM Teams Setup](/docs/hermes/skills/catalog/claude-gtm-plugin-setup)
+- [Luxor Claude Marketplace Skills Setup](/docs/hermes/skills/catalog/luxor-claude-marketplace-setup)
+- [Marimo Skills - Notebook Agents Setup](/docs/hermes/skills/catalog/marimo-skills-setup)
+- [Claude Skills Generator - Coding Setup](/docs/hermes/skills/catalog/claude-skills-generator-setup)
+- [AntiGravity Lazy Pack Skills Setup](/docs/hermes/skills/catalog/antigravity-lazy-pack-setup)
+- [Microsoft Learn MCP Skills Setup](/docs/hermes/skills/catalog/microsoft-learn-mcp-skills-setup)
+- [Mindrally Skills - 255+ Coding Setup](/docs/hermes/skills/catalog/mindrally-skills-setup)
+- [Mosif16 Codex Skills - iOS Design Setup](/docs/hermes/skills/catalog/mosif16-codex-skills-setup)
+- [Context Engineering Skills Setup](/docs/hermes/skills/catalog/context-engineering-skills-setup)
+- [K-Skill - Korean Agent Skills Setup](/docs/hermes/skills/catalog/k-skill-setup)
+- [OKX OnchainOS Skills - Wallet & DEX Setup](/docs/hermes/skills/catalog/okx-onchainos-skills-setup)
+- [OpenAI Agents Python Skills - Multi-Agent Setup](/docs/hermes/skills/catalog/openai-agents-python-skills-setup)
+- [PluggyAI Agent Skills - Open Finance Setup](/docs/hermes/skills/catalog/pluggyai-agent-skills-setup)
+- [Amplihack Skills - Agentic Coding Setup](/docs/hermes/skills/catalog/amplihack-setup)
+- [FreeRide Skill - Free AI for OpenClaw Setup](/docs/hermes/skills/catalog/freeride-setup)
+- [somasays Skill Creator - Claude Skills Setup](/docs/hermes/skills/catalog/somasays-skill-creator-setup)
+- [Awesome Cursor Skills - Cursor Agent Setup](/docs/hermes/skills/catalog/awesome-cursor-skills-setup)
+- [Tech Leads Club Skills - Secure Registry Setup](/docs/hermes/skills/catalog/tech-leads-club-skills-setup)
+- [GD Agentic Skills - Godot 4 Agent Setup](/docs/hermes/skills/catalog/gd-agentic-skills-setup)
+- [OpenUI Skill - Generative UI Setup](/docs/hermes/skills/catalog/openui-setup)
+- [travisjneuman Claude Toolkit Skills Setup](/docs/hermes/skills/catalog/travisjneuman-claude-toolkit-setup)
+- [Upstash Skills - Serverless Backend Setup](/docs/hermes/skills/catalog/upstash-skills-setup)
+- [OpenViking Skills - Agent Context Database Setup](/docs/hermes/skills/catalog/openviking-setup)
+- [AI Berkshire Skills - Value Investing Setup](/docs/hermes/skills/catalog/ai-berkshire-setup)
+- [Phaser 4 GameDev Skills Setup](/docs/hermes/skills/catalog/phaser4-gamedev-setup)
+- [Nature Skills - Academic Writing Setup](/docs/hermes/skills/catalog/nature-skills-setup)
+- [Agent Email CLI Skill Setup](/docs/hermes/skills/catalog/agent-email-cli-setup)
+- [Marketing Skills - Content Ops Setup](/docs/hermes/skills/catalog/zc277584121-marketing-skills-setup)
+- [Claw Multi-Agent Skill Setup](/docs/hermes/skills/catalog/claw-multi-agent-setup)
+- [Ziniao Skills - ERP and Store Automation Setup](/docs/hermes/skills/catalog/ziniao-open-skills-setup)
+
 
 - [find-skills - Skill Discovery Tool Setup](/docs/hermes/skills/catalog/find-skills-setup)
 - [skill-creator - Anthropic's Skill Creation Framework Setup](/docs/hermes/skills/catalog/skill-creator-setup)

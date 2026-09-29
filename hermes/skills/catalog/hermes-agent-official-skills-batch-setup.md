@@ -3,7 +3,7 @@ title: Hermes Agent Official Skills - Bundled Batch Setup Guide
 description: "9 official bundled skills from nousresearch/hermes-agent (432 combined installs, first seen Aug 7-13 2026): competitor-news-monitor, document-to-action-items, github-issue-to-pr, blocked-page-recovery, email-inbox-triage, weekly-review-planning, meeting-action-items, product-price-monitor, sdlc-review - install paths, capabilities, and CorpusIQ use cases."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup/"
 robots: "index,follow"
-last_updated: "2026-09-01"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "nousresearch", "productivity", "research", "bundled"]
 ---
 
@@ -50,6 +50,21 @@ Repo paths (verified via the GitHub trees API, Sep 1, 2026): `skills/research/co
 | meeting-action-items | 44 | Aug 10, 2026 | Notes/transcripts → cited decisions, owners, tickets, and board reconciliation |
 | product-price-monitor | 44 | Aug 10, 2026 | Exact-item price/availability watches with variant, tax, fee, and currency normalization |
 | sdlc-review | 44 | Aug 11, 2026 | Kanban review-lane verification: approve, request changes, or escalate - with evidence, not takeover |
+
+## Roster Additions (Sep 29, 2026 sweep)
+
+Eight additional nousresearch/hermes-agent listings surfaced in the Sep 29 sweep:
+
+| Skill | Installs | Use For |
+|---|---|---|
+| hermes-agent | 870 | Hermes Agent core framework knowledge |
+| design-md | 478 | DESIGN.md guidance for agent-driven projects |
+| hermes-agent-skill-authoring | 405 | Authoring SKILL.md files for Hermes Agent |
+| github-pr-workflow | 335 | GitHub pull request workflows |
+| github-code-review | 330 | GitHub code review workflows |
+| github-repo-management | 320 | GitHub repository management |
+| github-issues | 310 | GitHub issues automation |
+| github-auth | 309 | GitHub authentication setup |
 
 ## Prerequisites
 

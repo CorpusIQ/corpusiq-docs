@@ -3,7 +3,7 @@ title: "Agentic Awesome Skills (AAS) - 2,000+ Skill Catalog Setup"
 description: "sickn33/agentic-awesome-skills - 45,000-star community skill catalog (2,025 skills) with 37 newly catalogued engineering playbooks at 100 to 13,215 installs each: Node.js, TypeScript, Next.js, security, testing, architecture, and more. Platform-agnostic SKILL.md playbooks load natively in Hermes Agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-awesome-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-21"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering", "development"]
 ---
 
@@ -34,7 +34,7 @@ Agentic Awesome Skills (AAS) is one of the largest community skill catalogs on s
 | `nextjs-best-practices` | 6,929 | Web/Frontend |
 | `nextjs-supabase-auth` | 6,219 | Web/Frontend |
 | `3d-web-experience` | 4,315 | Web/Frontend |
-| `prisma-expert` | 4,027 | Backend/Architecture |
+| `prisma-expert` | 4,194 | Backend/Architecture |
 | `playwright-skill` | 3,729 | Testing |
 | `game-development` | 3,589 | AI/Product/Ops |
 | `software-architecture` | 3,459 | Backend/Architecture |
@@ -63,8 +63,10 @@ Agentic Awesome Skills (AAS) is one of the largest community skill catalogs on s
 | `browser-extension-builder` | 1,654 | Web/Frontend |
 | `discord-bot-architect` | 1,506 | AI/Product/Ops |
 | `documentation-templates` | 1,502 | AI/Product/Ops |
+| `github-workflow-automation` | 1,543 | GitHub Automation (added Sep 29, 2026 sweep) |
 | `backend-architect` | 1,499 | Backend/Architecture |
 | `telegram-mini-app` | 1,476 | Telegram/Mini Apps |
+| `architect-review` | 1,281 | Architecture (added Sep 29, 2026 sweep) |
 
 **Not included:** `antigravity-workflows` (876 installs) is Antigravity-IDE specific and excluded under the existing house rule for `antigravity-*` skills. `agent-self-scheduling` (18) and `mercury-mcp` (8) sit below the 100-install cataloguing bar and remain watchlisted.
 

@@ -3,7 +3,7 @@ title: "github/awesome-copilot - MCP Server Generators &"
 description: Install skills from github/awesome-copilot (13.1K+ installs) - MCP server generators (TypeScript/Python), GitHub workflow automation, and documentation tools. Works with GitHub Copilot and adaptable to Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-copilot-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -57,7 +57,7 @@ npx skills list | grep awesome-copilot
 
 ---
 
-## Available Skills (14 Total)
+## Available Skills (27 Total)
 
 | Skill | Installs | Category | Hermes Relevance |
 |---|---|---|---|
@@ -75,6 +75,19 @@ npx skills list | grep awesome-copilot
 | **github-copilot-starter** | 8.8K | Onboarding | ⬜ Medium - Copilot onboarding |
 | **create-github-issues-for-unmet-specification-requirements** | 8.8K | GitHub | ✅ High - gap analysis automation |
 | **memory-merger** | 12.7K | Memory | ✅ High - merge agent memory across sessions |
+| **documentation-writer** | 27K | Documentation | ✅ High - writes docs from codebase context |
+| **azure-devops-cli** | 14K | DevOps | ⬜ Medium - Azure DevOps CLI workflows |
+| **web-design-reviewer** | 13.8K | Design | ✅ High - reviews web design output |
+| **create-agentsmd** | 13K | Onboarding | ✅ High - generates AGENTS.md files |
+| **game-engine** | 12.8K | Game Dev | ⬜ Low - game engine development |
+| **create-implementation-plan** | 12.6K | Planning | ✅ High - spec-to-implementation planning |
+| **azure-role-selector** | 9.5K | Azure | ⬜ Medium - Azure role selection |
+| **copilot-instructions-blueprint-generator** | 9K | Onboarding | ⬜ Medium - generates Copilot instruction blueprints |
+| **entra-agent-user** | 8.7K | Identity | ⬜ Medium - Microsoft Entra agent user setup |
+| **automate-this** | 2.4K | Automation | ✅ High - turns tasks into automation |
+| **napkin** | 2.3K | Design | ⬜ Medium - visual design sketching |
+| **cli-mastery** | 2.2K | CLI | ✅ Medium - CLI tooling mastery |
+| **microsoft-agent-framework** | 2K | Agent Framework | ⬜ Medium - Microsoft agent framework patterns |
 
 ---
 

@@ -3,7 +3,7 @@ title: "ECC Engineering Skills - Enterprise Engineering Suite"
 description: "affaan-m/ecc - 292 skills, 466.2K total installs. Enterprise engineering suite: frontend-patterns, backend-patterns, security-review, api-design, coding-standards, tdd-workflow, docker-patterns, postgres-patterns, deep-research, article-writing, seo, brand-voice, architecture-decision-records, living-docs-governance."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ecc-engineering-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering standards", "code quality", "security review"]
 ---
 
@@ -47,6 +47,7 @@ The suite installs all 292 skills. Because the collection is large, install it i
 | Research & Content | deep-research, literature-review, article-writing, seo, brand-voice, video-editing, market-research | 1.9K-2.1K |
 | Agent Governance | prompt-optimizer, dev-team, council-multi-model, living-docs-governance, orch-runtime, claude-api | 0-2.0K |
 | Memory | unified-memory | 2.4K (added Sep 27, 2026 sweep) |
+| Agent Ops (Sep 29, 2026 sweep) | autonomous-loops, data-scraper-agent, enterprise-agent-ops, nanoclaw-repl, team-builder, hermes-imports, agentic-os | 5.7K-9.3K |
 
 ## Quick Start
 

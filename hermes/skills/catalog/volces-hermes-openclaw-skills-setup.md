@@ -3,7 +3,7 @@ title: "Volces Hermes & OpenClaw Skills - ByteDance Registry"
 description: "Install and use the Hermes/OpenClaw skill cluster from skills.volces.com (ByteDance Volces registry mirror): hermes-installer, openclaw-reference"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/volces-hermes-openclaw-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -19,7 +19,7 @@ ByteDance's Volces platform mirrors agent skills into the skills.sh ecosystem. N
 
 ---
 
-## The Nine Skills
+## The Ten Skills
 
 | Skill | Installs | Purpose |
 |---|---|---|
@@ -32,6 +32,7 @@ ByteDance's Volces platform mirrors agent skills into the skills.sh ecosystem. N
 | clawpilot-advisor | 1 | ClawPilot configuration advisor |
 | openclaw-logfire | 1 | Logfire observability integration |
 | openclaw-tavern | 1 | Tavern-style roleplay UI integration |
+| byted-security-clawsentry | 264 | ByteDance security clawsentry integration (added Sep 29, 2026 sweep) |
 
 Mirror note: `openclaw-profanity` also appears under `smithery.ai/openclaw-profanity`, and `hermes-memory-bridge` under `baoyu0/skills`. Prefer the Volces listing for installation.
 

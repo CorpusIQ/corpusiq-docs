@@ -3,7 +3,7 @@ title: "Meng To Skills Setup Guide for Hermes Agents"
 description: "mengto/skills - 76.2K installs across 155 skills, 5.6K stars: Design+Code founder Meng To's frontend, motion, and visual design suite - landing pages, GSAP, Three.js, anti-slop auditing, and design taste."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mengto-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "frontend", "motion", "gsap", "threejs", "anti-ai-slop"]
 ---
 
@@ -46,6 +46,7 @@ npx skills add https://github.com/mengto/skills --skill landing-page
 | Skill | Installs | Use For |
 |---|---|---|
 | landing-page | 857 | High-conversion landing pages: one offer, one audience, one primary action |
+| web-technique-to-skill | 839 | Converts web techniques into installable skills (added Sep 29, 2026 sweep) |
 | animation-on-scroll | 848 | Scroll-triggered reveals and entrance animations |
 | animation-systems | 823 | Designing cohesive motion systems rather than one-off effects |
 | threejs | 810 | 3D scenes and objects with Three.js |

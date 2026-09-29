@@ -3,7 +3,7 @@ title: RampStack Claude Skills - Growth & Marketing Suite Setup
 description: "rampstackco/claude-skills - 103 skills, 15.7K installs: a complete growth-marketing suite covering SEO/AEO/GEO, CRO, email deliverability and sequences, funnel architecture, programmatic SEO, content strategy, brand systems, and product marketing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rampstack-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "seo", "cro", "email marketing", "growth"]
 ---
 
@@ -45,6 +45,7 @@ npx skills add rampstackco/claude-skills
 | Ads & analytics | ads-performance-analytics (156), ads-creative-development (147), analytics-strategy (147), paid-media-strategy (143) |
 | Product | launch-runbook (157), roadmap-planning (144), okr-design (144), pm-spec-writing (142), feature-flagging (138), incident-response (136) |
 | UX research | ux-research (149), usability-testing (146), journey-mapping (146), jtbd-framing (141), discovery-research-synthesis (137) |
+| Skill creation (Sep 29, 2026 sweep) | skill-creation-walkthrough (203) |
 
 ## Quick Start
 

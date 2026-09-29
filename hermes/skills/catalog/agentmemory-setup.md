@@ -7,7 +7,7 @@ stars: 25,207
 license: MIT
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentmemory-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -127,6 +127,26 @@ AgentMemory solves this by maintaining a persistent, structured knowledge base t
 | Memory not persisting | `auto_save: false` | Set `auto_save: true` in config |
 | Cross-agent conflicts | Different agents writing simultaneously | Use PostgreSQL backend for multi-agent |
 | Memory bloat | No pruning configured | Set `max_entries` and `prune_older_than` |
+
+---
+
+## Roster Additions (Sep 29, 2026 sweep)
+
+Three additional rohitg00/agentmemory listings surfaced in the Sep 29 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `agentmemory-rest-api` | 9,765 | REST API for AgentMemory backends |
+| `agentmemory-architecture` | 9,719 | AgentMemory architecture and design patterns |
+| `agentmemory-hooks` | 9,712 | AgentMemory hook integrations |
+
+Install individually:
+
+```bash
+npx skills add rohitg00/agentmemory@agentmemory-rest-api
+npx skills add rohitg00/agentmemory@agentmemory-architecture
+npx skills add rohitg00/agentmemory@agentmemory-hooks
+```
 
 ---
 

@@ -3,7 +3,7 @@ title: OpenClaw Control Center - Agent Monitoring Dashboard
 description: Local-first, security-first control center for OpenClaw agents. Visibility dashboard with readonly defaults, token attribution, and collaboration tracing. 4.3K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-control-center-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -139,6 +139,24 @@ curl http://127.0.0.1:4310/api/health
 # Open in browser
 # http://127.0.0.1:4310/?section=overview&lang=en
 ```
+
+---
+
+## Roster Additions (Sep 29, 2026 sweep)
+
+Nine openclaw/openclaw skill listings surfaced in the Sep 29 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `voice-call` | 2,245 | Voice call workflows for OpenClaw |
+| `openclaw-pr-maintainer` | 653 | PR maintenance workflows for the OpenClaw repo |
+| `openclaw-qa-testing` | 454 | QA testing workflows |
+| `openclaw-testing` | 373 | OpenClaw testing guidance |
+| `openclaw-debugging` | 322 | OpenClaw debugging guidance |
+| `openclaw-refactor-docs` | 301 | Docs refactoring workflows |
+| `openclaw-docker-e2e-authoring` | 265 | Docker end-to-end test authoring |
+| `openclaw-parallels-smoke` | 241 | Parallels smoke testing |
+| `openclaw-changelog-update` | 221 | Changelog update workflows |
 
 ---
 

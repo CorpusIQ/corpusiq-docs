@@ -1,9 +1,9 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  946+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh  --  1,010+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-09-27"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**946+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,010+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 September 29, 2026 - Record sweep: 64 new publisher clusters (~5.6M combined installs) - GSAP 443K, Jeff Allan 395K, K-Skill 425K, Nature Skills 226K, OKX OnchainOS 223K, .NET Skills 207K, Mindrally 134K, Bergside Design 101K, Rust Skills 108K + 55 more. 64 setup guides + 29 roster reconciles](/docs/hermes/skills/marketplace/new-sep29-2026-skills)
 
 - [🆕 September 28, 2026 - Jezweb (96 skills, 115K installs), OmniRoute (70.9K⭐, 44 skills), rlaope Oh My Hermes (3K⭐, 130 skills), React Native Update - 4 new publisher clusters, 4 setup guides + 3 roster reconciles](/docs/hermes/skills/marketplace/new-sep28-2026-skills)
 
@@ -298,7 +300,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 997+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,061+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/docs/hermes/skills) | [Skills Catalog](/docs/hermes/skills/catalog) | [Latest Discoveries →](/docs/hermes/skills/marketplace/new-june29-2026)*
 

@@ -3,7 +3,7 @@ title: "taste-skill - Design-to-Code & AI Image Generation for"
 description: Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text, with design-system awareness and accessibility-first output.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/taste-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -228,6 +228,24 @@ Generated code automatically includes:
 | Output has accessibility issues | AI model hallucinating ARIA | Run `taste audit-a11y --target "output/"` for automatic fixes |
 | Generation takes 30+ seconds | Large/complex prompt | Break into smaller components (header, hero, features - separately) |
 | Tailwind classes conflict | Multiple generations in same project | Use `--prefix "tw-"` to namespace Tailwind classes |
+
+---
+
+## Roster Additions (Sep 29, 2026 sweep)
+
+Two additional taste-skill listings surfaced in the Sep 29 sweep:
+
+| Skill | Installs | What It Does |
+|---|---|---|
+| `design-taste-frontend` | 533,588 | Design taste evaluation for frontend output |
+| `design-taste-frontend-v1` | 270,309 | v1 iteration of the design taste frontend skill |
+
+Install individually:
+
+```bash
+npx skills add leonxlnx/taste-skill@design-taste-frontend
+npx skills add leonxlnx/taste-skill@design-taste-frontend-v1
+```
 
 ---
 

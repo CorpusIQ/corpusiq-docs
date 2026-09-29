@@ -3,7 +3,7 @@ title: "Low-Level Dev Skills Setup Guide for Hermes Agents"
 description: "mohitmishra786/low-level-dev-skills - 41.5K installs across 142 skills: systems programming guidance for agents - CMake, LLVM, GDB, eBPF, Rust unsafe, assembly, kernel modules, and performance analysis."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/low-level-dev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup", "systems", "c", "cpp", "rust", "linux", "debugging", "ebpf"]
 ---
 
@@ -56,6 +56,7 @@ npx skills add https://github.com/mohitmishra786/low-level-dev-skills --skill cm
 | clang | 495 | Clang-specific flags, diagnostics, and workflows |
 | freertos | 483 | FreeRTOS tasks, scheduling, and embedded patterns |
 | linux-kernel-modules | 467 | Building, loading, and debugging kernel modules |
+| memory-hierarchy-and-caches | 238 | CPU cache and memory hierarchy optimization (added Sep 29, 2026 sweep) |
 
 Plus `assembly-x86`, `assembly-arm`, `simd-intrinsics`, `cpu-cache-opt`, `memory-model`, `fuzzing`, `valgrind`, `flamegraphs`, `linkers-lto`, `binutils`, `strace-ltrace`, `dynamic-linking`, `ebpf`, `rust-unsafe`, `rust-ffi`, `rust-sanitizers-miri`, `zig-debugging`, `wasm-emscripten`, `cuda-debugging`, `io-uring`, `riscv-privileged`, `llvm-passes`, `mlir`, `dpdk`, `triton-lang`, and 90+ more.
 

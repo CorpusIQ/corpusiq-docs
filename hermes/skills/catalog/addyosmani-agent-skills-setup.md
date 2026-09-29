@@ -3,7 +3,7 @@ title: Addy Osmani - Production-Grade Agent Skills for Hermes
 description: 20 engineering skills from Google Chrome's Addy Osmani covering CI/CD, code review, performance optimization, security hardening, debugging, test-driven development, and shipping best practices. 80.5K GitHub stars, 14.1K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/addyosmani-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -62,6 +62,7 @@ npx skills add addyosmani/agent-skills --skill observability-and-instrumentation
 | **spec-driven-development** | - | Write specifications before implementation |
 | **test-driven-development** | - | TDD workflow: red-green-refactor cycles |
 | **using-agent-skills** | - | Meta-skill for effectively using and composing agent skills |
+| **doubt-driven-development** | 37.6K | Doubt-driven development workflow (added Sep 29, 2026 sweep) |
 
 ---
 
