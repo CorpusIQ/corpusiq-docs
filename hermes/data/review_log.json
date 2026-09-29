@@ -15607,5 +15607,40 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-29T07:05:42.238550+00:00"
+  },
+  {
+    "repo": "egorcherkasoff/hermes-agent-my-setup",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T08:03:58.065356+00:00"
+  },
+  {
+    "repo": "balinsnt772299/hermes-oauth",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T08:03:58.065369+00:00"
+  },
+  {
+    "repo": "aveetechapp/avee-skills",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T08:03:58.065371+00:00"
+  },
+  {
+    "repo": "Amber0130/hermes-agent-desktop",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T08:03:58.065372+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-claude-subscription-directsdk",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T08:03:58.065373+00:00"
   }
 ]

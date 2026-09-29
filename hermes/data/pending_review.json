@@ -64745,5 +64745,145 @@
     ],
     "discovered_at": "2026-09-29T07:04:19.456737+00:00",
     "status": "pending"
+  },
+  {
+    "name": "egorcherkasoff/hermes-agent-my-setup",
+    "url": "https://github.com/egorcherkasoff/hermes-agent-my-setup",
+    "description": "Docker deployment kit for Hermes Agent with OpenCode Go provider: Telegram gateway + web dashboard, one-command install, backups (dashboard basic-auth, data in ./data)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-29T08:01:23Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-29T08:01:34.023696+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "balinsnt772299/hermes-oauth",
+    "url": "https://github.com/balinsnt772299/hermes-oauth",
+    "description": "Branding pages for the private Hermes Agent OAuth application (home, privacy policy, terms).",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-09-29T07:58:19Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "wottz-inc/shopify-hermes-oauth"
+    ],
+    "discovered_at": "2026-09-29T08:01:34.026608+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aveetechapp/avee-skills",
+    "url": "https://github.com/aveetechapp/avee-skills",
+    "description": "Agent Skills for avee: teach Claude Code, Cursor, Codex and other agents to use the keyless DEX data API, the Hermes-compatible Astra oracle, the MCP server and the SDKs.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "defi",
+      "dex",
+      "mcp",
+      "oracle",
+      "x402"
+    ],
+    "updated_at": "2026-09-29T07:42:55Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ksimback/hermes-atlas-mcp",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "conorbronsdon/avoid-ai-writing",
+      "VasiHemanth/tokentelemetry"
+    ],
+    "discovered_at": "2026-09-29T08:01:41.765720+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Amber0130/hermes-agent-desktop",
+    "url": "https://github.com/Amber0130/hermes-agent-desktop",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-29T07:59:39Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent"
+    ],
+    "discovered_at": "2026-09-29T08:01:57.155377+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-plugin-claude-subscription-directsdk",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-plugin-claude-subscription-directsdk",
+    "description": "RDF parse data for NousResearch/hermes-plugin-claude-subscription-directsdk",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-29T08:03:25Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-29T08:03:28.135234+00:00",
+    "status": "pending"
   }
 ]
