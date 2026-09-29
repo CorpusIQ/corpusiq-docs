@@ -79,6 +79,9 @@ Alternatively install the Claude Code plugin set (each plugin bundles its skills
 
 (96 skills total - full roster on the [skills.sh listing](https://skills.sh/jezweb/claude-skills).)
 
+**Roster reconciliation (Sep 28 evening sweep):** skills.sh still lists `web-design-patterns` (473 installs) under `jezweb/claude-skills` — a pre-rename index entry. The skill ships today as `seo-local-business` (1,755 installs) inside the `web-design` plugin; no `web-design-patterns` SKILL.md exists in `main`. Searches for the old name resolve to `seo-local-business`.
+
+
 ## CorpusIQ Use Cases
 
 | Use Case | How |
