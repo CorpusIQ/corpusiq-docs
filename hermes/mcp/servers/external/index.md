@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 29, 2026 (morning sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 734 servers (+620 guides)
+> **Last updated:** September 29, 2026 (midday sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 738 servers (+624 guides)
 
 ## 🆕 September 29, 2026 - Morning Sweep (6 New, 6 Guides)
 
@@ -26,6 +26,17 @@ Morning sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpserv
 - [VoiceLabs MCP - TTS, Voice Cloning and Transcription for Agents](/docs/hermes/mcp/servers/external/voicelabs-mcp) · seven permission-scoped speech tools over OAuth 2.1 at app.voicelabs.now/api/mcp.
 
 **Also identified (not catalogued):** TaskForceAI (supervised Agent OS, early access with no published pricing or endpoint), MepMail (transactional email with a Resend-compatible API and OAuth MCP at api-mepmail.je4ndev.com/mcp; email category saturation precedent after Mektup, Loops and Lumail), WarpLink (mobile deep links and install attribution), Web Hygiene MCP (live sitemap, robots and link checks), Wikidata + Google Knowledge Graph MCP (bounded entity search), Bankrolled.ai (sourced money facts for US/UK/CA/AU/NZ), disclosedby (GDPR subprocessor-list tracker), Court Rules MCP (US federal filing rules) and MCP Dubai (Dubai and UAE public data, geo-niche). Crypto class (The Coin Daily Research, Mooncatcher Wire, Gateway Agent Tip Jar), consumer class (Rhylthyme, Bazous, BuySignal Deals, Upleex, this trip btw, L'Oiseau Bleu, eSIM-Global.VIP, IbiPoint, e-eSIM), scientific class (Cybergenic Database), geo-niche class (Aturan.org Indonesian legal research) and dev-utility class (whichlib, webfetch) logged as skips. Feed repeats already disposed by prior sweeps: CUQU, Pocket Network, Soar Flight Booking, Senaro, DSCR Lender Data, Metabind demo and treg.to.
+
+## 🆕 September 29, 2026 - Midday Sweep (4 New, 4 Guides)
+
+Midday sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 4 detail pages fetched (1 mcp.so server page direct plus 3 mcpservers.org detail pages through the reader proxy, plus the Omentir agent guide and SMAT connection docs). 4 new business-relevant servers catalogued with guides:
+
+- [HeyLead MCP - LinkedIn Outreach from Your Own Account](/docs/hermes/mcp/servers/external/heylead-mcp) · six campaign goals, approval-gated sends at human pace through OAuth at heylead.dev/mcp.
+- [Omentir MCP - Lead Discovery and Outreach Workspace](/docs/hermes/mcp/servers/external/omentir-mcp) · product profile, lead finders, send schedules and live inbox replies at omentir.com/api/agent/v1/mcp, MIT open source.
+- [NM Signals MCP - AI Crawler Visibility Audits](/docs/hermes/mcp/servers/external/nm-signals-mcp) · audit_url and get_quota over Bearer auth at app.nyman.media/api/mcp.
+- [SMAT MCP - Instagram and Facebook Publishing for Agents](/docs/hermes/mcp/servers/external/smat-mcp) · OAuth-scoped drafts, carousels, reels, scheduling and publishing at api.smat.chat/api/mcp.
+
+**Also identified (not catalogued):** elmah.io MCP (error logging - dev infra class), Webshare (proxy management - dev infra class), trip1 (x402 hotel booking - consumer travel class), AQL PropertyCheck (Gold Coast regional property due diligence - geo-niche class), HaberChat (WhatsApp inbox - communication saturation class after odichat), Beemm Vision (design tool drive - dev utility class), MX Verdict (email and DNS checks - dev utility class), AnswerLine (AI answers aggregator - search utility class), Dive Kit (scuba planning - consumer class), Robozukan (Japanese robot catalog - geo-niche class) and SubmitraX (form backend - dev infra class). Feed and /all repeats already disposed by the Sep 29 morning sweep and prior sweeps.
 
 ## 🆕 September 28, 2026 - Night Sweep (2 New, 2 Guides)
 
