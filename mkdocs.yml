@@ -290,6 +290,7 @@ nav:
     - Security: hermes/best-practices/security.md
     - Skill Dev: hermes/best-practices/skill-development.md
     - MCP Design: hermes/best-practices/mcp-design.md
+    - 12-Factor Agents: hermes/best-practices/12-factor-agents.md
   - Blueprints:
     - Overview: hermes/blueprints/index.md
     - Daily Ops: hermes/blueprints/daily-ops.md

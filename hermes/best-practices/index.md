@@ -103,6 +103,7 @@ These patterns cause the majority of production incidents. Avoid them.
 - **[Skill Development](skill-development):** Skill design, testing, documentation, lifecycle management
 - **[MCP Design](mcp-design):** MCP server development, tool design, error handling, testing
 - **[Agent Capability Audit](agent-capability-audit):** The 4 must-install capabilities test, audited against a production Hermes stack
+- **[12-Factor Agents](12-factor-agents):** The HumanLayer 12-Factor Agents framework mapped onto Hermes Agent, factor by factor
 
 ## FAQ
 
