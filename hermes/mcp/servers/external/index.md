@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-09-29"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,20 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 28, 2026 (night sweep) · **Sources:** mcp.so homepage (New arrivals, Featured servers and Trending this week, 23 unique server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 728 servers (+614 guides)
+> **Last updated:** September 29, 2026 (morning sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 734 servers (+620 guides)
+
+## 🆕 September 29, 2026 - Morning Sweep (6 New, 6 Guides)
+
+Morning sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy, with 3 mcp.so detail pages and 8 mcpservers.org detail probes. 6 new business-relevant servers catalogued with guides:
+
+- [systemHUB MCP - SOP Management for Business Agents](/docs/hermes/mcp/servers/external/systemhub-mcp) · search, draft, update and publish SOPs, policies and trainings through OAuth at mcp.systemhub.com/mcp.
+- [AccountHub MCP - One Connection for Gmail, Calendar, Drive, Slack and Notion](/docs/hermes/mcp/servers/external/accounthub-mcp) · free workspace bundle behind one endpoint at accounthub.ai/api/mcp.
+- [AgentGrown MCP - Google Search Console and GA4 for Coding Agents](/docs/hermes/mcp/servers/external/agentgrown-mcp) · daily-synced GSC and GA4 reads for coding agents, $10 free credit.
+- [Markifact Google Ads MCP - Approval-Gated Google Ads for Agents](/docs/hermes/mcp/servers/external/markifact-google-ads-mcp) · reporting, auditing and optimization with approval on every write at api.markifact.com/mcp/google-ads.
+- [Markifact Meta Ads MCP - Approval-Gated Facebook and Instagram Ads](/docs/hermes/mcp/servers/external/markifact-meta-ads-mcp) · campaign, ad set and creative drafting with approval before anything ships at api.markifact.com/mcp/meta-ads.
+- [VoiceLabs MCP - TTS, Voice Cloning and Transcription for Agents](/docs/hermes/mcp/servers/external/voicelabs-mcp) · seven permission-scoped speech tools over OAuth 2.1 at app.voicelabs.now/api/mcp.
+
+**Also identified (not catalogued):** TaskForceAI (supervised Agent OS, early access with no published pricing or endpoint), MepMail (transactional email with a Resend-compatible API and OAuth MCP at api-mepmail.je4ndev.com/mcp; email category saturation precedent after Mektup, Loops and Lumail), WarpLink (mobile deep links and install attribution), Web Hygiene MCP (live sitemap, robots and link checks), Wikidata + Google Knowledge Graph MCP (bounded entity search), Bankrolled.ai (sourced money facts for US/UK/CA/AU/NZ), disclosedby (GDPR subprocessor-list tracker), Court Rules MCP (US federal filing rules) and MCP Dubai (Dubai and UAE public data, geo-niche). Crypto class (The Coin Daily Research, Mooncatcher Wire, Gateway Agent Tip Jar), consumer class (Rhylthyme, Bazous, BuySignal Deals, Upleex, this trip btw, L'Oiseau Bleu, eSIM-Global.VIP, IbiPoint, e-eSIM), scientific class (Cybergenic Database), geo-niche class (Aturan.org Indonesian legal research) and dev-utility class (whichlib, webfetch) logged as skips. Feed repeats already disposed by prior sweeps: CUQU, Pocket Network, Soar Flight Booking, Senaro, DSCR Lender Data, Metabind demo and treg.to.
 
 ## 🆕 September 28, 2026 - Night Sweep (2 New, 2 Guides)
 
