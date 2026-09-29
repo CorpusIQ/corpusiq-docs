@@ -4,7 +4,7 @@ description: Transform project management with AI. Query Monday.com, Notion, Sla
 url: /docs/ai-for-project-management
 h1: 'AI for Project Management: From Status Meetings to Instant Answers'
 category: Business Use Cases
-last_updated: '2026-09-09'
+last_updated: '2026-09-29'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-project-management
 keywords:

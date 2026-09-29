@@ -2,7 +2,7 @@
 title: How to Analyze Shopify with AI (Plain English Q&A)
 description: "Stop exporting Shopify reports. Connect Shopify to ChatGPT, Claude, or Perplexity and ask revenue, orders, and product questions in plain English with source-cited answers."
 tags: [connectors, ai, chatgpt, claude]
-last_updated: 2026-09-14
+last_updated: 2026-09-29
 ---
 
 ## How to analyze Shopify with AI

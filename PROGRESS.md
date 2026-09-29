@@ -1,15 +1,21 @@
+---
+title: "CorpusIQ Docs Progress"
+description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
+last_updated: "2026-09-29"
+---
+
 # PROGRESS.md - corpusiq-docs build status
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated September 15, 2026)
+## File count (updated September 29, 2026)
 
-- **Total Markdown files:** 2370
+- **Total Markdown files:** 4658
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
-- **Docs subdirectory:** 21 directories - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 522 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
-- **MCP servers:** 937 total .md under hermes/mcp/; external catalog 674 servers (+560 guides) per Sep 14 evening sweep
-- **SEO pages:** 126 top-level landing pages targeting high-intent operator keywords
+- **Docs subdirectory:** 12 content directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
+- **Skills catalog:** 523 setup guides for Hermes skills (measured: *setup*.md under hermes/skills); marketplace index tracks 1,010+ curated skills
+- **MCP servers:** 1023 total .md under hermes/mcp/; external catalog 745 servers (+631 guides) per Sep 29 evening sweep
+- **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
 
@@ -34,6 +40,8 @@ The repo is actively maintained with daily automated updates:
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Docs maintenance ✅ (Sep 29, 2026, docs-mgmt cron):** routine audit. 0 broken internal links (7,567 checked). 129 stale last_updated dates bumped on top-level docs/ SEO pages. hermes-sitemap.xml + sitemap-index.xml lastmod refreshed to Sep 29. PROGRESS.md stats refreshed. Removed 3 flat-era compare twins (docs/fivetran, docs/make, docs/zapier; canonical pages live in docs/compare/) and 1 stray index.md.bak. Em-dashes scrubbed from 3 public scripts (process_submissions.py, discover.py, install-agent-stack.sh). Committed the evening MCP sweep index updates left uncommitted by the sweep cron. Deploy gap closed: 7 evening-sweep MCP server pages + the check-ai-answer-against-your-books guide verified live with HTTP 200.
 
 - **Skills sweep ✅ (Sep 29, 2026, skills-monitor cron):** 15-query skills.sh API sweep (723 unique, 0 failed queries) + publisher follow-up cluster sizing. Tiered crossref 723 unique / 106 NEW / 234 PARTIAL; NEW ≥100: 66, PARTIAL ≥100: 117. **RECORD BATCH: 64 new publisher guides** (~5.6M combined installs): GSAP/greensock (443K, official), Jeff Allan claude-skills (395K, 67 skills), nomadamas/k-skill (425K, Korean suite), yuan1z0825/nature-skills (226K, 45K⭐ academic), OKX OnchainOS (223K), dotnet/skills (207K, official Microsoft), mindrally (134K, 255+ skills), actionbook/rust-skills (108K), bergside/awesome-design-skills (101K, 2,971⭐), zc277584121/marketing-skills (51K), upstash/skills (41K, official), celigo/ai (45K, official), codestable (39K), copilotkit (34K/37.6K⭐), marimo-team (28K, official), eachlabs (34K), bagelhole (31K), aahl/skills (41K), travisjneuman/.claude (23K, 127 skills), okx… plus 44 more. 29 roster reconciles (taste-skill 804K, azure-skills 443K, awesome-copilot 129K, wshobson 101K, samber golang 75K, ecc 56K, claude-office 46K, langchain 45K, addyosmani 38K, expo 33K, google/skills 32K, agentmemory 29K, googleworkspace 28K, deepline 12K, sf-skills 10K + 14 more). Sweep infra fix: ripgrep 14.1.1 installed on Mac Mini (~/bin/rg) - the official sweep script's grep fallback was timing out (O(skills x tree) = hours). Batch page new-sep29-2026-skills (skipped table: NEW <100 tail + sub-500 PARTIAL parks). Marketplace header 946+→1,010+, footer 997+→1,061+. Catalog 458→522, setup guides 531→595. Push in-cycle.
 
@@ -81,4 +89,18 @@ The repo is actively maintained with daily automated updates:
 ---
 
 *Last updated: September 3, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+
+## FAQ
+
+### What is this repository?
+
+Public documentation for CorpusIQ, including the Hermes agent knowledge base, the MCP server catalog, connector guides, and operator-focused SEO pages.
+
+### How often is the catalog updated?
+
+MCP server sweeps run three times daily, the skills.sh marketplace sweep runs daily, and ecosystem discovery runs nightly.
+
+### Where can I report a problem with a page?
+
+Open an issue at https://github.com/CorpusIQ/corpusiq-docs/issues and include the page URL.
 ---

@@ -22,7 +22,7 @@ keywords:
 - CorpusIQ zapier pricing comparison
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-zapier/"
 robots: "index,follow"
-last_updated: "2026-09-09"
+last_updated: "2026-09-29"
 
 ---
 

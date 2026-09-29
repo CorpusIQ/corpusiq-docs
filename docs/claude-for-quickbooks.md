@@ -11,7 +11,7 @@ keywords:
 - extended context financial analysis
 - MCP platform QuickBooks Claude
 - Claude AI accounting
-last_updated: "2026-09-14"
+last_updated: "2026-09-29"
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/claude-for-quickbooks

@@ -4,7 +4,7 @@ description: Transform marketing analytics with AI. Query Google Ads, Facebook A
 url: /docs/ai-for-marketing-analytics
 h1: 'AI for Marketing Analytics: Campaign Intelligence in Real Time'
 category: Business Use Cases
-last_updated: '2026-09-09'
+last_updated: '2026-09-29'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-marketing-analytics
 keywords:

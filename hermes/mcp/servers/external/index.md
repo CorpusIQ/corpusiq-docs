@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 29, 2026 (midday sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 738 servers (+624 guides)
+> **Last updated:** September 29, 2026 (evening sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 745 servers (+631 guides)
 
 ## 🆕 September 29, 2026 - Morning Sweep (6 New, 6 Guides)
 
@@ -37,6 +37,20 @@ Midday sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpserve
 - [SMAT MCP - Instagram and Facebook Publishing for Agents](/docs/hermes/mcp/servers/external/smat-mcp) · OAuth-scoped drafts, carousels, reels, scheduling and publishing at api.smat.chat/api/mcp.
 
 **Also identified (not catalogued):** elmah.io MCP (error logging - dev infra class), Webshare (proxy management - dev infra class), trip1 (x402 hotel booking - consumer travel class), AQL PropertyCheck (Gold Coast regional property due diligence - geo-niche class), HaberChat (WhatsApp inbox - communication saturation class after odichat), Beemm Vision (design tool drive - dev utility class), MX Verdict (email and DNS checks - dev utility class), AnswerLine (AI answers aggregator - search utility class), Dive Kit (scuba planning - consumer class), Robozukan (Japanese robot catalog - geo-niche class) and SubmitraX (form backend - dev infra class). Feed and /all repeats already disposed by the Sep 29 morning sweep and prior sweeps.
+
+## 🆕 September 29, 2026 - Evening Sweep (7 New, 7 Guides)
+
+Evening sweep over the mcp.so /feed (29 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 8 mcpservers.org detail pages and 1 mcp.so detail page fetched through the reader proxy, plus 2 live endpoint probes (GAIP initialize returned HTTP 200 with a valid JSON-RPC session; Yungle returned HTTP 401 invalid_token, confirming a live OAuth wall). 7 new business-relevant servers catalogued with guides:
+
+- [OpenGATE MCP - Deterministic Grounding Checks for AI Answers](/docs/hermes/mcp/servers/external/opengate-mcp) · 7 scorer families, no LLM judge, CI regression gate, MIT, PharmaTools.AI.
+- [Redacta MCP - Clinical Pseudonymisation for AI Agents](/docs/hermes/mcp/servers/external/redacta-mcp) · tokenised identifiers with a local reversal map, HIPAA Safe Harbor mode, K8s gateway, MIT-0.
+- [PubCrawl MCP - PubMed, Drug Labels and Trials for Agents](/docs/hermes/mcp/servers/external/pubcrawl-mcp) · 14 cited tools with US-UK label comparison, no API keys.
+- [Applyra MCP - App Store Keyword Data for AI Agents](/docs/hermes/mcp/servers/external/applyra-mcp) · 25 ASO tools over an Applyra API key (Unlimited plan).
+- [Neleto CMS MCP - Site Editing from Any MCP Client](/docs/hermes/mcp/servers/external/neleto-mcp) · 57 tools on every site at /api/mcp, OAuth 2.1 or API token, EU-hosted.
+- [Yungle MCP - File Delivery and Receipts for AI Agents](/docs/hermes/mcp/servers/external/yungle-mcp) · approval-gated sends, download receipts, resumable uploads at yungle.co/mcp.
+- [GAIP Agents MCP - Agent Verification and Evidence Receipts](/docs/hermes/mcp/servers/external/gaip-agents-mcp) · keyless gaip_check, gaip_watch, gaip_diagnose and gaip_verify at gaipagents.com/mcp (broker v1.6.1, live-verified).
+
+**Also identified (not catalogued):** StudyDiff (scientific paper disagreement analysis - bench science class), rewire-bio Genomics MCP (EGA, ENA, ENCODE, GEO and NCBI region reads - research tool class) and Filesystem MCP by j0hanz (generic secure filesystem server - dev utility class). GAIP Agents was the sole post-midday feed arrival; EQIQs, Uxia, PaperOffice AI, Collide MCP, Screen Browser, SnapDeploy MCP, Laso Finance, TinyFish and the GenPark single-author burst respected prior dispositions from the Sep 28 and Sep 29 sweep ledgers.
 
 ## 🆕 September 28, 2026 - Night Sweep (2 New, 2 Guides)
 

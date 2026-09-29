@@ -9,7 +9,7 @@ category: "Comparison"
 tags: ["corpusiq-vs-rag", "build-vs-buy", "rag-pipeline", "mcp-platform"]
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-custom-rag/"
 robots: "index,follow"
-last_updated: "2026-09-09"
+last_updated: "2026-09-29"
 
 ---
 

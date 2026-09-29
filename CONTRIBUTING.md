@@ -3,7 +3,7 @@ title: "Contributing to CorpusIQ Docs - CorpusIQ Docs"
 description: "Contribution guide for the CorpusIQ docs repository. How to submit connector documentation, recipes, examples, and fixes. Community guidelines and review process."
 category: "Documentation"
 tags: ["contribute", "open source", "docs", "community"]
-last_updated: "2026-09-09"
+last_updated: "2026-09-29"
 canonical: "https://www.corpusiq.io/docs/CONTRIBUTING/"
 robots: "index,follow"
 ---

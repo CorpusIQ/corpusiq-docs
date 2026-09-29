@@ -222,7 +222,7 @@ def find_near_duplicates(repo, approved):
 # ── Discovery Engine ────────────────────────────────────────
 def discover_repos(token, dry_run=False):
     """Main discovery function: search GitHub, score, categorize."""
-    print(f"🔍 Hermes Ecosystem Discovery — {datetime.now(AZ_TZ).strftime('%Y-%m-%d %H:%M %Z')}")
+    print(f"🔍 Hermes Ecosystem Discovery - {datetime.now(AZ_TZ).strftime('%Y-%m-%d %H:%M %Z')}")
     print(f"{'='*60}")
 
     # Load databases
@@ -264,7 +264,7 @@ def discover_repos(token, dry_run=False):
                     data = json.loads(urllib.request.urlopen(req2).read())
                     items = data.get("items", [])
                     token = "UNAUTHENTICATED"  # switch auth mode for rest of run
-                    print(f"\n🔁 {category:15s}: authenticated search blocked ({e.code}) — switched to unauthenticated")
+                    print(f"\n🔁 {category:15s}: authenticated search blocked ({e.code}) - switched to unauthenticated")
                 except Exception as e2:
                     print(f"  ❌ Search failed: {e} | fallback also failed: {e2}")
                     continue
@@ -308,7 +308,7 @@ def discover_repos(token, dry_run=False):
                 "status": "pending"
             }
 
-            # Skip self — don't add our own repo to the ecosystem
+            # Skip self - don't add our own repo to the ecosystem
             if full_name == "CorpusIQ/corpusiq-docs":
                 continue
 
@@ -316,10 +316,10 @@ def discover_repos(token, dry_run=False):
 
             if tier == "AUTO_APPROVE" and not dry_run:
                 desc_text = (repo.get('description') or '')[:60]
-                print(f"  ✅ AUTO: {full_name} (score: {score}) — {desc_text}")
+                print(f"  ✅ AUTO: {full_name} (score: {score}) - {desc_text}")
             elif tier == "HIGH_PRIORITY":
                 desc_text = (repo.get('description') or '')[:60]
-                print(f"  📌 HIGH: {full_name} (score: {score}) — {desc_text}")
+                print(f"  📌 HIGH: {full_name} (score: {score}) - {desc_text}")
             else:
                 print(f"  📋 {tier}: {full_name} (score: {score})")
 
@@ -333,7 +333,7 @@ def discover_repos(token, dry_run=False):
     print(f"   📋 Needs review: {len(needs_review)}")
 
     if dry_run:
-        print("\n⚠️  DRY RUN — no changes made")
+        print("\n⚠️  DRY RUN - no changes made")
         return new_finds
 
     # Update databases

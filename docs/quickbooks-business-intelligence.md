@@ -12,7 +12,7 @@ keywords:
 - multi-source financial analytics
 - MCP business intelligence
 - QuickBooks data warehouse alternative
-last_updated: "2026-09-14"
+last_updated: "2026-09-29"
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-business-intelligence

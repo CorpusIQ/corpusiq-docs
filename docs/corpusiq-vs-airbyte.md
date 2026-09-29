@@ -5,7 +5,7 @@ category: "Comparison"
 tags: ["corpusiq vs airbyte", "airbyte alternative", "mcp data connector", "ai business intelligence"]
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-airbyte/"
 robots: "index,follow"
-last_updated: "2026-09-09"
+last_updated: "2026-09-29"
 
 ---
 

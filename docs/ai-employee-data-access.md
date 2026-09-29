@@ -5,7 +5,7 @@ category: "Guides"
 tags: ["ai employee", "ai for business", "data access", "mcp data connector", "ai assistant"]
 canonical: "https://www.corpusiq.io/docs/ai-employee-data-access"
 robots: "index,follow"
-last_updated: "2026-09-16"
+last_updated: "2026-09-29"
 ---
 
 # AI Employees Need Data Access, Not Just Intelligence

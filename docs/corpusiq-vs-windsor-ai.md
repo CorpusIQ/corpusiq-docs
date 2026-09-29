@@ -5,7 +5,7 @@ category: "Comparison"
 tags: ["corpusiq vs windsor.ai", "windsor.ai alternative", "marketing data connectors", "mcp data connector", "ai business intelligence"]
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-windsor-ai"
 robots: "index,follow"
-last_updated: "2026-09-16"
+last_updated: "2026-09-29"
 ---
 
 # CorpusIQ vs Windsor.ai: Marketing Data vs the Whole Business
