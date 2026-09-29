@@ -15425,5 +15425,110 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-28T08:05:04.262238+00:00"
+  },
+  {
+    "repo": "SyedJahanzaib1/muse-hermes-bridge",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080334+00:00"
+  },
+  {
+    "repo": "Evan-Kim2028/agent-fleet",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080349+00:00"
+  },
+  {
+    "repo": "pheanor-agent/p-hermes-v2",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080352+00:00"
+  },
+  {
+    "repo": "Mohit-Panaliya/hermes-opencode-bridge",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080354+00:00"
+  },
+  {
+    "repo": "kwakminoo/Project-IRIS-Light",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080356+00:00"
+  },
+  {
+    "repo": "BkashJEE/hermes-bot-forge",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080358+00:00"
+  },
+  {
+    "repo": "bayz-dik/Hermes-webUI",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080360+00:00"
+  },
+  {
+    "repo": "jbellsolutions/box-kit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080362+00:00"
+  },
+  {
+    "repo": "harrythomasben/Spark-Hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080364+00:00"
+  },
+  {
+    "repo": "forks-ai/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080365+00:00"
+  },
+  {
+    "repo": "forks-ai/claude-mem",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080367+00:00"
+  },
+  {
+    "repo": "hanzong111/TickerPigeon",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080369+00:00"
+  },
+  {
+    "repo": "ShengLong76/airmaze-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080371+00:00"
+  },
+  {
+    "repo": "n140496s-max/curl--fsSL-https-hermes-agent.nousresearch.com-install.sh-bash",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080372+00:00"
+  },
+  {
+    "repo": "jleechanorg/hermes-agent_archive_june28_2026",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T05:06:02.080374+00:00"
   }
 ]
