@@ -64630,5 +64630,120 @@
     ],
     "discovered_at": "2026-09-29T06:02:49.837276+00:00",
     "status": "pending"
+  },
+  {
+    "name": "goshkaaa/Personal-AI-assistant",
+    "url": "https://github.com/goshkaaa/Personal-AI-assistant",
+    "description": "Personal AI assistant built on Hermes Agent with modular MCP integrations for Telegram, Gmail, Calendar, Home Assistant and Obsidian.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "fastmcp",
+      "gmail",
+      "hermes-agent",
+      "home-assistant",
+      "mcp",
+      "obsidian",
+      "personal-ai-assistant",
+      "python",
+      "telegram-userbot"
+    ],
+    "updated_at": "2026-09-29T07:01:45Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "LordVaderXIII/grok-connectors",
+      "kaankacar/stellar-agent-kit",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "Bo1202/Aivy-OS",
+      "ruvnet/metaharness",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-29T07:03:18.193973+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jsxuaijun-art/hermes-data",
+    "url": "https://github.com/jsxuaijun-art/hermes-data",
+    "description": "Hermes Agent \u6570\u636e\u540c\u6b65\uff08SOUL.md + memory + skills\uff09",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-29T07:00:53Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-29T07:03:18.196399+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jacobhausler/hermes-pinned-folders",
+    "url": "https://github.com/jacobhausler/hermes-pinned-folders",
+    "description": "Hermes Desktop plugin: a Pinned sidebar tab that files pinned chats into nested, colored, drag-ordered folders.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "hermes-desktop",
+      "hermes-plugin"
+    ],
+    "updated_at": "2026-09-29T07:03:08Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-29T07:03:41.208545+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "laconic-mercenary/defense-evaluation-suite",
+    "url": "https://github.com/laconic-mercenary/defense-evaluation-suite",
+    "description": "A DFIR benchmark for evaluating LLM agents: paired repos of forensic investigation cases and held-out answer keys, plus a Docker harness that runs a Hermes/Qwen agent against them behind an in-container egress lockdown.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-09-29T06:37:24Z",
+    "category": "benchmarks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "agentscope-ai/PawBench",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-09-29T07:04:19.456737+00:00",
+    "status": "pending"
   }
 ]

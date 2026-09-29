@@ -15,6 +15,7 @@ import sys
 import time
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -235,7 +236,11 @@ def discover_repos(token, dry_run=False):
     new_finds = []
     all_seen = set()
 
-    for query, category in SEARCH_QUERIES:
+    for q_idx, (query, category) in enumerate(SEARCH_QUERIES):
+        if q_idx > 0:
+            # Pace queries: unauthenticated search allows 10 req/min (6s spacing).
+            # 7s margin keeps us safe in both auth modes.
+            time.sleep(7.0)
         url = f"https://api.github.com/search/repositories?q={query}&per_page=10"
         headers = {
             "Accept": "application/vnd.github.v3+json",
@@ -248,58 +253,75 @@ def discover_repos(token, dry_run=False):
         try:
             data = json.loads(urllib.request.urlopen(req).read())
             items = data.get("items", [])
-            print(f"\n📡 {category:15s} → {len(items)} results")
-
-            for repo in items:
-                full_name = repo["full_name"]
-                if full_name in all_seen:
+        except urllib.error.HTTPError as e:
+            # GitHub flags high-frequency search tokens as "spammy" (422) or rate-limits
+            # them (403). Fall back to unauthenticated search for the rest of the run.
+            if token and token != "UNAUTHENTICATED" and e.code in (403, 422):
+                try:
+                    unauth_headers = dict(headers)
+                    unauth_headers.pop("Authorization", None)
+                    req2 = urllib.request.Request(url, headers=unauth_headers)
+                    data = json.loads(urllib.request.urlopen(req2).read())
+                    items = data.get("items", [])
+                    token = "UNAUTHENTICATED"  # switch auth mode for rest of run
+                    print(f"\n🔁 {category:15s}: authenticated search blocked ({e.code}) — switched to unauthenticated")
+                except Exception as e2:
+                    print(f"  ❌ Search failed: {e} | fallback also failed: {e2}")
                     continue
-                all_seen.add(full_name)
-
-                if is_duplicate(full_name, approved, pending, rejected):
-                    continue
-
-                score, reasons = score_repo(repo)
-                tier, color = score_to_tier(score)
-                near = find_near_duplicates(repo, approved)
-
-                entry = {
-                    "name": full_name,
-                    "url": repo["html_url"],
-                    "description": repo.get("description", ""),
-                    "stars": repo.get("stargazers_count", 0),
-                    "forks": repo.get("forks_count", 0),
-                    "language": repo.get("language", ""),
-                    "topics": repo.get("topics", []),
-                    "updated_at": repo.get("updated_at", ""),
-                    "category": category,
-                    "score": score,
-                    "tier": tier,
-                    "score_reasons": reasons,
-                    "near_duplicates": near,
-                    "discovered_at": datetime.now(timezone.utc).isoformat(),
-                    "status": "pending"
-                }
-
-                # Skip self — don't add our own repo to the ecosystem
-                if full_name == "CorpusIQ/corpusiq-docs":
-                    continue
-
-                new_finds.append(entry)
-
-                if tier == "AUTO_APPROVE" and not dry_run:
-                    desc_text = (repo.get('description') or '')[:60]
-                    print(f"  ✅ AUTO: {full_name} (score: {score}) — {desc_text}")
-                elif tier == "HIGH_PRIORITY":
-                    desc_text = (repo.get('description') or '')[:60]
-                    print(f"  📌 HIGH: {full_name} (score: {score}) — {desc_text}")
-                else:
-                    print(f"  📋 {tier}: {full_name} (score: {score})")
-
-                time.sleep(3.0 if token == "UNAUTHENTICATED" else 2.0)  # 3.0s unauthenticated (safe under 10/min), 2.0s auth (safe under 30/min)
-
+            else:
+                print(f"  ❌ Search failed: {e}")
+                continue
         except Exception as e:
             print(f"  ❌ Search failed: {e}")
+            continue
+
+        print(f"\n📡 {category:15s} → {len(items)} results")
+
+        for repo in items:
+            full_name = repo["full_name"]
+            if full_name in all_seen:
+                continue
+            all_seen.add(full_name)
+
+            if is_duplicate(full_name, approved, pending, rejected):
+                continue
+
+            score, reasons = score_repo(repo)
+            tier, color = score_to_tier(score)
+            near = find_near_duplicates(repo, approved)
+
+            entry = {
+                "name": full_name,
+                "url": repo["html_url"],
+                "description": repo.get("description", ""),
+                "stars": repo.get("stargazers_count", 0),
+                "forks": repo.get("forks_count", 0),
+                "language": repo.get("language", ""),
+                "topics": repo.get("topics", []),
+                "updated_at": repo.get("updated_at", ""),
+                "category": category,
+                "score": score,
+                "tier": tier,
+                "score_reasons": reasons,
+                "near_duplicates": near,
+                "discovered_at": datetime.now(timezone.utc).isoformat(),
+                "status": "pending"
+            }
+
+            # Skip self — don't add our own repo to the ecosystem
+            if full_name == "CorpusIQ/corpusiq-docs":
+                continue
+
+            new_finds.append(entry)
+
+            if tier == "AUTO_APPROVE" and not dry_run:
+                desc_text = (repo.get('description') or '')[:60]
+                print(f"  ✅ AUTO: {full_name} (score: {score}) — {desc_text}")
+            elif tier == "HIGH_PRIORITY":
+                desc_text = (repo.get('description') or '')[:60]
+                print(f"  📌 HIGH: {full_name} (score: {score}) — {desc_text}")
+            else:
+                print(f"  📋 {tier}: {full_name} (score: {score})")
 
     # Process findings
     auto_approved = [r for r in new_finds if r["tier"] == "AUTO_APPROVE"]
