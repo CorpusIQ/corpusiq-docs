@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "agen
 **Category:** Automation
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-This single-skill family ships one installable skill, `open-browser-use`. The README describes a browser automation layer that stays neutral across agent runtimes, pairing a browser extension with the open-browser-use CLI, integrable through JavaScript, Python, and Go SDKs — positioned as an open-source alternative to the Chrome Browser Use capability shipped in Codex.app. Skills.sh indexed ~446 installs; the GitHub star count was not published in the Sep 29, 2026 sweep.
+This single-skill family ships one installable skill, `open-browser-use`. The README describes a browser automation layer that stays neutral across agent runtimes, pairing a browser extension with the open-browser-use CLI, integrable through JavaScript, Python, and Go SDKs - positioned as an open-source alternative to the Chrome Browser Use capability shipped in Codex.app. Skills.sh indexed ~446 installs; the GitHub star count was not published in the Sep 29, 2026 sweep.
 
 ---
 

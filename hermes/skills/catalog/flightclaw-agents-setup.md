@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "travel", "mcp"]
 **Category:** Automation
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-Flightclaw provides flight search, price tracking, and booking for AI agents, delivered through a hosted MCP server (mcp.flightclaw.com) plus this open-source skill. The family consists of a single skill — `flightclaw` — with 1,082 indexed installs and a verified SKILL.md entry (1/1) in the Sep 29, 2026 snapshot. This guide covers installing the skill; server-side flight data is served by the hosted MCP endpoint.
+Flightclaw provides flight search, price tracking, and booking for AI agents, delivered through a hosted MCP server (mcp.flightclaw.com) plus this open-source skill. The family consists of a single skill - `flightclaw` - with 1,082 indexed installs and a verified SKILL.md entry (1/1) in the Sep 29, 2026 snapshot. This guide covers installing the skill; server-side flight data is served by the hosted MCP endpoint.
 
 ---
 

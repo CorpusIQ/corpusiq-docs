@@ -1,6 +1,6 @@
 ---
 title: "GSAP Skills - GreenSock Animation Platform Setup"
-description: "Official GreenSock skills teaching AI coding agents correct GSAP usage — core, ScrollTrigger, Timeline, plugins, React, performance. 443K installs."
+description: "Official GreenSock skills teaching AI coding agents correct GSAP usage - core, ScrollTrigger, Timeline, plugins, React, performance. 443K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/greensock-gsap-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"

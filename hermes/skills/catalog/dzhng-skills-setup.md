@@ -1,6 +1,6 @@
 ---
 title: "Dzhng Skills - Software Factory Setup"
-description: "Reusable agent skills for software factories — explore, spec, implement, review, and research; ~4,045 indexed installs."
+description: "Reusable agent skills for software factories - explore, spec, implement, review, and research; ~4,045 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dzhng-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"

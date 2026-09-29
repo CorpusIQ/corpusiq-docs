@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "design systems", "ui desig
 **Category:** Design
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-bergside/awesome-design-skills curates 67 awesome DESIGN.md and SKILL.md design system files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools. The indexed skills ship as universal design system skills — glassmorphism, premium, editorial, minimal, clean, and enterprise — each designed to work across supported tools. Combined installs total ~100,926 across indexed listings (Sep 29, 2026 snapshot).
+bergside/awesome-design-skills curates 67 awesome DESIGN.md and SKILL.md design system files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools. The indexed skills ship as universal design system skills - glassmorphism, premium, editorial, minimal, clean, and enterprise - each designed to work across supported tools. Combined installs total ~100,926 across indexed listings (Sep 29, 2026 snapshot).
 
 ---
 
@@ -34,7 +34,7 @@ npx skills add bergside/awesome-design-skills
 | editorial | 1722 | Editorial design system (universal) |
 | minimal | 1652 | Minimal design system (universal) |
 | clean | 1634 | Clean design system (universal) |
-| enterprise | — | Enterprise design system (universal) |
+| enterprise | - | Enterprise design system (universal) |
 
 ## CorpusIQ Use Cases
 

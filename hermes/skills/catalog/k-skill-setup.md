@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "korean", "automation"]
 **Category:** Automation
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-nomadamas/k-skill is an individual-maintained skill collection for Korean users, described by the publisher as "Skill collection for Koreans — make the agent Korean." The cluster covers Korean productivity workflows: HWP (the Korean word processor), the k-skill setup skill, KakaoTalk for macOS, Daiso product search, delivery tracking, and Korean law search. All six listings were verified 6/6 by the Sep 29, 2026 skills.sh sweep.
+nomadamas/k-skill is an individual-maintained skill collection for Korean users, described by the publisher as "Skill collection for Koreans - make the agent Korean." The cluster covers Korean productivity workflows: HWP (the Korean word processor), the k-skill setup skill, KakaoTalk for macOS, Daiso product search, delivery tracking, and Korean law search. All six listings were verified 6/6 by the Sep 29, 2026 skills.sh sweep.
 
 ---
 

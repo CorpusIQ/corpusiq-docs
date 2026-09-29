@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "skill authoring", "claude"
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-somasays publishes a single skill, create-skills, for authoring new Claude Skills — its SKILL.md title is "Creating Claude Skills" and it carries 207 indexed installs (Sep 29, 2026 snapshot). The SKILL.md file was verified during the sweep (1 of 1).
+somasays publishes a single skill, create-skills, for authoring new Claude Skills - its SKILL.md title is "Creating Claude Skills" and it carries 207 indexed installs (Sep 29, 2026 snapshot). The SKILL.md file was verified during the sweep (1 of 1).
 
 ---
 

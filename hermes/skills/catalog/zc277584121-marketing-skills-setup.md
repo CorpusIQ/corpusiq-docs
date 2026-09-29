@@ -34,7 +34,7 @@ npx skills add zc277584121/marketing-skills
 | content-rewrite | 3,777 | Platform-specific content adaptation |
 | chrome-automation | 3,771 | Chrome automation via agent-browser CLI |
 | mermaid-to-image | 3,765 | Mermaid diagrams to PNG |
-| image-generation | — | Article illustrations (install count not in snapshot) |
+| image-generation | - | Article illustrations (install count not in snapshot) |
 
 ## CorpusIQ Use Cases
 

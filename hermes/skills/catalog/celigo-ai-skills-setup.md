@@ -1,6 +1,6 @@
 ---
 title: "Celigo AI Skills - Celigo Integrations Setup"
-description: "Official domain knowledge and tools for building Celigo integrations with AI coding assistants — scripts, flows, APIs, users, MCP servers."
+description: "Official domain knowledge and tools for building Celigo integrations with AI coding assistants - scripts, flows, APIs, users, MCP servers."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/celigo-ai-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"
@@ -34,7 +34,7 @@ npx skills add celigo/ai
 | writing-handlebars | 1925 | Handlebars expressions |
 | building-mcp-servers | 1923 | Building MCP servers |
 | building-flows | 1920 | Building integration flows |
-| building-apis | — | Building APIs |
+| building-apis | - | Building APIs |
 
 ## CorpusIQ Use Cases
 

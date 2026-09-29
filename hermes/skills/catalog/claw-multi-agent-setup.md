@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "openclaw"]
 **Category:** Automation
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-A single OpenClaw skill published by an individual maintainer that assembles an AI sub-agent squad — researcher, analyst, writer — with different roles and models working in parallel. Per the README (fetched Sep 29, 2026; Chinese, translated here), it offers three modes: commander (parallel web-search agents aggregated into one report), pipeline (lightweight tool-free agents for multi-angle analysis), and hybrid (research then multi-draft output), with auto-routing between modes. The sweep verified it 1/1 with 168 installs.
+A single OpenClaw skill published by an individual maintainer that assembles an AI sub-agent squad - researcher, analyst, writer - with different roles and models working in parallel. Per the README (fetched Sep 29, 2026; Chinese, translated here), it offers three modes: commander (parallel web-search agents aggregated into one report), pipeline (lightweight tool-free agents for multi-angle analysis), and hybrid (research then multi-draft output), with auto-routing between modes. The sweep verified it 1/1 with 168 installs.
 
 ---
 

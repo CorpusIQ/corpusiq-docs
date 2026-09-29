@@ -1,6 +1,6 @@
 ---
 title: "Open Computer Use Skills - Codex Alternative Setup"
-description: "Open Computer Use — an open-source alternative to Codex Computer Use, published by ifuryst with 2,278⭐ and ~1,432 installs."
+description: "Open Computer Use - an open-source alternative to Codex Computer Use, published by ifuryst with 2,278⭐ and ~1,432 installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/open-computer-use-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "computer use", "automation
 **Category:** Automation
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-This single-skill family ships one installable skill, `open-computer-use`. The repo is published by the same individual maintainer (ifuryst) as open-browser-use, and its description positions it as "Open Computer Use — Open-Source Alternative to Codex Computer Use." It carries 2,278 GitHub stars and ~1,432 installs in the Sep 29, 2026 skills.sh sweep.
+This single-skill family ships one installable skill, `open-computer-use`. The repo is published by the same individual maintainer (ifuryst) as open-browser-use, and its description positions it as "Open Computer Use - Open-Source Alternative to Codex Computer Use." It carries 2,278 GitHub stars and ~1,432 installs in the Sep 29, 2026 skills.sh sweep.
 
 ---
 

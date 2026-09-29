@@ -34,7 +34,7 @@ npx skills add upstash/skills
 | upstash | 2,670 | General Upstash platform skills |
 | upstash-qstash-js | 1,591 | QStash JavaScript SDK guide |
 | upstash-workflow-js | 1,469 | Upstash Workflow SDK guide |
-| upstash-cli | — | Upstash CLI (install count not in snapshot) |
+| upstash-cli | - | Upstash CLI (install count not in snapshot) |
 
 ## CorpusIQ Use Cases
 

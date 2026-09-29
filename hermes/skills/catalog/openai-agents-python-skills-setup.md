@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "python"]
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-OpenAI publishes the official Agents SDK, a lightweight, powerful framework for building multi-agent workflows, and skills.sh indexes a small skill cluster alongside it. The indexed skills support agent-adjacent engineering chores: openai-knowledge, test-coverage-improver, pr-draft-summary, docs-sync, and code-change-verification. The upstream README (fetched Sep 29, 2026) documents the SDK itself — agents, tools, guardrails, handoffs, sessions, and tracing — rather than a skills directory, so the skill layout is only known through the skills.sh index.
+OpenAI publishes the official Agents SDK, a lightweight, powerful framework for building multi-agent workflows, and skills.sh indexes a small skill cluster alongside it. The indexed skills support agent-adjacent engineering chores: openai-knowledge, test-coverage-improver, pr-draft-summary, docs-sync, and code-change-verification. The upstream README (fetched Sep 29, 2026) documents the SDK itself - agents, tools, guardrails, handoffs, sessions, and tracing - rather than a skills directory, so the skill layout is only known through the skills.sh index.
 
 ---
 

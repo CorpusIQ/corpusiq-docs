@@ -34,7 +34,7 @@ npx skills add yuan1z0825/nature-skills
 | nature-paper2ppt | 13,656 | Paper-to-PPTX conversion router |
 | nature-citation | 13,352 | Citation formatting router |
 | nature-data | 13,195 | Data availability statement router |
-| nature-writing | — | Scientific writing router (install count not in snapshot) |
+| nature-writing | - | Scientific writing router (install count not in snapshot) |
 
 ## CorpusIQ Use Cases
 

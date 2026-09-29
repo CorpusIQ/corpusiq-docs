@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "design", "animation"]
 **Category:** Design
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-Published by an individual developer (daffy0208), this family gives a coding agent repeatable workflows across AI-assisted design disciplines. The five indexed skills cover animation design, brand design, 3D visualization, data visualization, and video production. The repo's own description — "As Described in the name" — is minimal, so the skill purposes below are taken from the skill names and titles themselves.
+Published by an individual developer (daffy0208), this family gives a coding agent repeatable workflows across AI-assisted design disciplines. The five indexed skills cover animation design, brand design, 3D visualization, data visualization, and video production. The repo's own description - "As Described in the name" - is minimal, so the skill purposes below are taken from the skill names and titles themselves.
 
 ---
 

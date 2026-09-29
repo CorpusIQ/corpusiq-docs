@@ -34,7 +34,7 @@ npx skills add aktsmm/agent-skills
 | ocr-super-surya | 553 | GPU-optimized OCR with Surya |
 | code-simplifier | 363 | Simplify code after coding sessions |
 | book-writing-workspace | 226 | Technical book manuscript workspace |
-| vscode-extension-guide | — | VS Code extension authoring guide |
+| vscode-extension-guide | - | VS Code extension authoring guide |
 
 ## CorpusIQ Use Cases
 

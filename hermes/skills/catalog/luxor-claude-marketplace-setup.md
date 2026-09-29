@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "developer tools", "claude 
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-The LUXOR Claude Code Marketplace (also branded `luxor/luxor-claude-marketplace`) is an individual-maintained collection of professional Claude Code plugins covering the complete software development lifecycle. The publisher describes 140 development tools — 67 skills, 28 commands, 30 agents, and 15 workflows — organized into plugin "cartridges" such as luxor-frontend-essentials, luxor-backend-toolkit, luxor-devops-suite, and luxor-skill-builder (MIT-licensed per the README). skills.sh indexes install counts for individual tools, led by docker-compose orchestration, PostgreSQL database engineering, Playwright visual testing, Go backend development, and Jest/React testing.
+The LUXOR Claude Code Marketplace (also branded `luxor/luxor-claude-marketplace`) is an individual-maintained collection of professional Claude Code plugins covering the complete software development lifecycle. The publisher describes 140 development tools - 67 skills, 28 commands, 30 agents, and 15 workflows - organized into plugin "cartridges" such as luxor-frontend-essentials, luxor-backend-toolkit, luxor-devops-suite, and luxor-skill-builder (MIT-licensed per the README). skills.sh indexes install counts for individual tools, led by docker-compose orchestration, PostgreSQL database engineering, Playwright visual testing, Go backend development, and Jest/React testing.
 
 ---
 

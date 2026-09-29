@@ -1,6 +1,6 @@
 ---
 title: "Taches CC Resources Skills - Claude Tools Setup"
-description: "Six custom Claude Code resources — skill creation, subagents, planning, debugging, meta prompts, slash commands — at ~2,029 combined installs."
+description: "Six custom Claude Code resources - skill creation, subagents, planning, debugging, meta prompts, slash commands - at ~2,029 combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/taches-cc-resources-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "claude code", "prompt engi
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-"A collection of my favorite custom Claude Code resources to make life easier" — this individual-maintainer cluster teaches agents how to create skills, subagents, plans, meta prompts, and slash commands, and how to debug like an expert. All six SKILL.md files were verified by skills.sh on Sep 29, 2026, with ~2,029 combined installs across the family.
+"A collection of my favorite custom Claude Code resources to make life easier" - this individual-maintainer cluster teaches agents how to create skills, subagents, plans, meta prompts, and slash commands, and how to debug like an expert. All six SKILL.md files were verified by skills.sh on Sep 29, 2026, with ~2,029 combined installs across the family.
 
 ---
 

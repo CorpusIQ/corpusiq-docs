@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "openclaw", "llm"]
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-FreeRide is a single-skill family published by shaivpidadi. The one skill, freeride, provides free AI access for OpenClaw — its SKILL.md title is "FreeRide - Free AI for OpenClaw" and it carries 784 indexed installs (Sep 29, 2026 snapshot). The SKILL.md file was verified during the sweep (1 of 1).
+FreeRide is a single-skill family published by shaivpidadi. The one skill, freeride, provides free AI access for OpenClaw - its SKILL.md title is "FreeRide - Free AI for OpenClaw" and it carries 784 indexed installs (Sep 29, 2026 snapshot). The SKILL.md file was verified during the sweep (1 of 1).
 
 ---
 

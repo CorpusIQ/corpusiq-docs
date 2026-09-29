@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "game development", "phaser
 **Category:** Game Dev
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-A Claude Code plugin for Phaser 4 game development published by an individual maintainer, bundling 4 agents plus 6 skills that encode deep Phaser 4 API knowledge. The six skills — phaser-ui, phaser-animation, phaser-gdd, phaser-coder, phaser-mobile, and phaser-tilemap — were all verified by the Sep 29, 2026 skills.sh sweep and carry roughly even install counts (165-169 each).
+A Claude Code plugin for Phaser 4 game development published by an individual maintainer, bundling 4 agents plus 6 skills that encode deep Phaser 4 API knowledge. The six skills - phaser-ui, phaser-animation, phaser-gdd, phaser-coder, phaser-mobile, and phaser-tilemap - were all verified by the Sep 29, 2026 skills.sh sweep and carry roughly even install counts (165-169 each).
 
 ---
 
@@ -34,7 +34,7 @@ npx skills add yakoub-ai/phaser4-gamedev
 | phaser-gdd | 168 | Game design document generator |
 | phaser-coder | 167 | Phaser 4 coding guidance |
 | phaser-mobile | 165 | Mobile and responsive design |
-| phaser-tilemap | — | Tilemaps (install count not in snapshot) |
+| phaser-tilemap | - | Tilemaps (install count not in snapshot) |
 
 ## CorpusIQ Use Cases
 

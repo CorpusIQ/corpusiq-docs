@@ -34,7 +34,7 @@ npx skills add actionbook/rust-skills
 | m10-performance | 3200 | Performance optimization |
 | m07-concurrency | 3125 | Concurrency patterns |
 | m06-error-handling | 3094 | Error handling |
-| m01-ownership | — | Ownership & lifetimes |
+| m01-ownership | - | Ownership & lifetimes |
 
 ## CorpusIQ Use Cases
 

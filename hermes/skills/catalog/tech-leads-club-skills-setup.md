@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "coding agents", "security"
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-Tech Leads Club maintains agent-skills, a secure, validated skill registry for professional AI coding agents that extends Antigravity, Claude Code, Cursor, Copilot, and more. The README (fetched Sep 29, 2026) describes a hardened library — no binaries, static analysis in CI/CD, and per-skill Snyk Agent Scan before publishing — with skills stored under packages/skills-catalog/skills/. skills.sh indexes six skills by install count, led by tlc-spec-driven.
+Tech Leads Club maintains agent-skills, a secure, validated skill registry for professional AI coding agents that extends Antigravity, Claude Code, Cursor, Copilot, and more. The README (fetched Sep 29, 2026) describes a hardened library - no binaries, static analysis in CI/CD, and per-skill Snyk Agent Scan before publishing - with skills stored under packages/skills-catalog/skills/. skills.sh indexes six skills by install count, led by tlc-spec-driven.
 
 ---
 

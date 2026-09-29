@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "web3", "hedera"]
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-A marketplace of plugins and skills for AI coding agents from the official Hedera developer org — Hedera-specific development tools plus general-purpose dev workflow intelligence. The README documents 8 plugins (agent-kit-plugin, system-contracts, oracles, cross-chain, native-services-js, hackathon-helper, hedera-harness, dev-intelligence); skills.sh indexed 6 listings with ~3,255 combined installs but verified 0/6 SKILL.md files in the Sep 29, 2026 sweep.
+A marketplace of plugins and skills for AI coding agents from the official Hedera developer org - Hedera-specific development tools plus general-purpose dev workflow intelligence. The README documents 8 plugins (agent-kit-plugin, system-contracts, oracles, cross-chain, native-services-js, hackathon-helper, hedera-harness, dev-intelligence); skills.sh indexed 6 listings with ~3,255 combined installs but verified 0/6 SKILL.md files in the Sep 29, 2026 sweep.
 
 ---
 

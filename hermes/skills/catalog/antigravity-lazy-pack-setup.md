@@ -29,12 +29,12 @@ npx skills add mathruffian-dot/antigravity-lazy-pack
 
 | Skill | Installs | What It Does |
 |---|---|---|
-| antigravity-lazy-packs | 176 | AntiGravity lazy pack — AI Agent auto-install entry |
-| antigravity-notebooklm | 143 | AntiGravity lazy pack — AI Agent auto-install entry |
-| antigravity-workflow | 140 | AntiGravity lazy pack — AI Agent auto-install entry |
-| antigravity-github | 134 | AntiGravity lazy pack — AI Agent auto-install entry |
-| antigravity-draw | 134 | AntiGravity lazy pack — AI Agent auto-install entry |
-| antigravity-install-all | n/a | AntiGravity lazy pack — AI Agent auto-install entry |
+| antigravity-lazy-packs | 176 | AntiGravity lazy pack - AI Agent auto-install entry |
+| antigravity-notebooklm | 143 | AntiGravity lazy pack - AI Agent auto-install entry |
+| antigravity-workflow | 140 | AntiGravity lazy pack - AI Agent auto-install entry |
+| antigravity-github | 134 | AntiGravity lazy pack - AI Agent auto-install entry |
+| antigravity-draw | 134 | AntiGravity lazy pack - AI Agent auto-install entry |
+| antigravity-install-all | n/a | AntiGravity lazy pack - AI Agent auto-install entry |
 
 ## CorpusIQ Use Cases
 

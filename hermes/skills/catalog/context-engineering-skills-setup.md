@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "context engineering", "mul
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-A comprehensive individual-maintained collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems — the publisher recommends it when building, optimizing, or debugging agent systems. The cluster spans the context-engineering collection, context compression strategies, filesystem-based context engineering, context optimization techniques, multi-agent architecture patterns, and memory system design. All six listings were verified 6/6 by the Sep 29, 2026 skills.sh sweep.
+A comprehensive individual-maintained collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems - the publisher recommends it when building, optimizing, or debugging agent systems. The cluster spans the context-engineering collection, context compression strategies, filesystem-based context engineering, context optimization techniques, multi-agent architecture patterns, and memory system design. All six listings were verified 6/6 by the Sep 29, 2026 skills.sh sweep.
 
 ---
 

@@ -34,7 +34,7 @@ npx skills add aahl/skills
 | crypto-report | 3178 | Cryptocurrency market reports |
 | mcp-duckgo | 2961 | DuckDuckGo search via MCP |
 | mcp-hass | 2909 | Home Assistant smart-home control |
-| mcp-deepwiki | — | DeepWiki documentation retrieval |
+| mcp-deepwiki | - | DeepWiki documentation retrieval |
 
 ## CorpusIQ Use Cases
 

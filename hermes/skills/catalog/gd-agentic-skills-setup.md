@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "godot", "game dev"]
 **Category:** Game Dev
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-GD Agentic Skills is the official "Long-Term Memory" library for Godot 4.7+ AI agents, published by TheDivergentAI. It is a high-density library of 99 expert skills and 27 genre blueprints providing audited, strictly typed GDScript patterns. All six skills indexed by skills.sh — godot-master, godot-shaders-basics, godot-2d-animation, godot-ui-theming, godot-particles, and godot-save-load-systems — had their SKILL.md files verified during the Sep 29, 2026 sweep.
+GD Agentic Skills is the official "Long-Term Memory" library for Godot 4.7+ AI agents, published by TheDivergentAI. It is a high-density library of 99 expert skills and 27 genre blueprints providing audited, strictly typed GDScript patterns. All six skills indexed by skills.sh - godot-master, godot-shaders-basics, godot-2d-animation, godot-ui-theming, godot-particles, and godot-save-load-systems - had their SKILL.md files verified during the Sep 29, 2026 sweep.
 
 ---
 

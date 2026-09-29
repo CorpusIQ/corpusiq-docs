@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "google", "ai agents"]
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-This official-vendor family (published under the google-antigravity org) ships one installable skill, `google-antigravity-sdk`. The README describes the Google Antigravity SDK as a Python SDK for building AI agents powered by Antigravity and Gemini — a secure, scalable, and stateful infrastructure layer that abstracts the agentic loop. It installs via `pip install google-antigravity` and supports Gemini Enterprise Agent Platform (formerly Vertex AI) authentication modes. Skills.sh indexed ~348 installs; the GitHub star count was not published in the Sep 29, 2026 sweep.
+This official-vendor family (published under the google-antigravity org) ships one installable skill, `google-antigravity-sdk`. The README describes the Google Antigravity SDK as a Python SDK for building AI agents powered by Antigravity and Gemini - a secure, scalable, and stateful infrastructure layer that abstracts the agentic loop. It installs via `pip install google-antigravity` and supports Gemini Enterprise Agent Platform (formerly Vertex AI) authentication modes. Skills.sh indexed ~348 installs; the GitHub star count was not published in the Sep 29, 2026 sweep.
 
 ---
 
@@ -36,7 +36,7 @@ npx skills add google-antigravity/antigravity-sdk-python
 ## Limitations / Verification
 
 - Verified: skills.sh indexing (1/1 SKILL.md), ~348 installs, and the README description fetched from the main branch on Sep 29, 2026.
-- Not verified: GitHub star count not indexed; no live install test was run. Per the README, the SDK relies on a compiled runtime binary shipped in PyPI wheels — cloning the repo alone is not sufficient to run it.
+- Not verified: GitHub star count not indexed; no live install test was run. Per the README, the SDK relies on a compiled runtime binary shipped in PyPI wheels - cloning the repo alone is not sufficient to run it.
 
 ## Security
 

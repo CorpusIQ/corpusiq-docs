@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw Token Optimizer Skills - Setup"
-description: "A single skill for finding where your OpenClaw or Hermes agent wastes tokens — read-only audits with a clear, safe improvement plan (398 installs)."
+description: "A single skill for finding where your OpenClaw or Hermes agent wastes tokens - read-only audits with a clear, safe improvement plan (398 installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-token-optimizer-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "token optimization", "agen
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-This family ships a single skill, token-optimizer (398 installs), built by MissionDeck.ai to find where an OpenClaw or Hermes agent may be wasting tokens and produce a clear, safe improvement plan. The skill ("Make your AI agent leaner—not less capable", v4.1.1, MIT) runs read-only audits of model choices, scheduled jobs, and instruction files, and never silently changes your setup. On OpenClaw it inspects the native model catalog and scheduled jobs; on Hermes it reads the active profile's configuration and scheduled jobs via file-based auditing.
+This family ships a single skill, token-optimizer (398 installs), built by MissionDeck.ai to find where an OpenClaw or Hermes agent may be wasting tokens and produce a clear, safe improvement plan. The skill ("Make your AI agent leaner - not less capable", v4.1.1, MIT) runs read-only audits of model choices, scheduled jobs, and instruction files, and never silently changes your setup. On OpenClaw it inspects the native model catalog and scheduled jobs; on Hermes it reads the active profile's configuration and scheduled jobs via file-based auditing.
 
 ---
 

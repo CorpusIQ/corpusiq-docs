@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "generative ui", "ag-ui"]
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-CopilotKit — the company behind the AG-UI Protocol — describes this project as the frontend stack for agents and generative UI, spanning React, Angular, Mobile, Slack, and more. The skill family published alongside the SDK covers debugging (`copilotkit-debug`), development (`copilotkit-develop`), the AG-UI protocol (`copilotkit-agui`), React core, and runtime guidance. The main-branch README (MIT license) invites coding agents to onboard via the CopilotKit CLI and install these skills to build features and debug issues.
+CopilotKit - the company behind the AG-UI Protocol - describes this project as the frontend stack for agents and generative UI, spanning React, Angular, Mobile, Slack, and more. The skill family published alongside the SDK covers debugging (`copilotkit-debug`), development (`copilotkit-develop`), the AG-UI protocol (`copilotkit-agui`), React core, and runtime guidance. The main-branch README (MIT license) invites coding agents to onboard via the CopilotKit CLI and install these skills to build features and debug issues.
 
 ---
 

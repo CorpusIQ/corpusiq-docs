@@ -1,6 +1,6 @@
 ---
 title: "Frames Engineering Skills - Agent Tools Setup"
-description: "Four agent skills — AgentWallet, Frames Registry, websh, and Wordspace — for agent tooling, with ~7,062 combined installs (Sep 2026)."
+description: "Four agent skills - AgentWallet, Frames Registry, websh, and Wordspace - for agent tooling, with ~7,062 combined installs (Sep 2026)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/frames-engineering-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "agent tooling"]
 **Category:** Developer Tools
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-The frames-engineering/skills repo publishes four agent skills — AgentWallet, Frames Registry, websh, and Wordspace — covering agent-oriented wallet, registry, shell, and workspace tooling as indicated by their published titles. No marketplace description is published for this family and the README is a bare title, so skills.sh verified all 4/4 SKILL.md files in the Sep 29, 2026 sweep.
+The frames-engineering/skills repo publishes four agent skills - AgentWallet, Frames Registry, websh, and Wordspace - covering agent-oriented wallet, registry, shell, and workspace tooling as indicated by their published titles. No marketplace description is published for this family and the README is a bare title, so skills.sh verified all 4/4 SKILL.md files in the Sep 29, 2026 sweep.
 
 ---
 
@@ -29,10 +29,10 @@ npx skills add frames-engineering/skills
 
 | Skill | Installs | What It Does |
 |---|---|---|
-| agentwallet | 2,490 | AgentWallet — agent wallet tooling |
-| registry | 2,470 | Frames Registry — registry lookups and management |
-| websh | 1,061 | websh Skill — web shell workflows |
-| wordspace | 1,041 | Wordspace — workspace management |
+| agentwallet | 2,490 | AgentWallet - agent wallet tooling |
+| registry | 2,470 | Frames Registry - registry lookups and management |
+| websh | 1,061 | websh Skill - web shell workflows |
+| wordspace | 1,041 | Wordspace - workspace management |
 
 ## CorpusIQ Use Cases
 

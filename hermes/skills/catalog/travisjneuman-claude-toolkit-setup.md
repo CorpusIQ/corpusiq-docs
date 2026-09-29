@@ -34,7 +34,7 @@ npx skills add travisjneuman/.claude
 | travel-planner | 498 | Travel itinerary planning |
 | business-strategy | 498 | Business strategy expertise |
 | graphic-design | 467 | Graphic design guidance |
-| real-estate-analyzer | — | Real estate analysis (install count not in snapshot) |
+| real-estate-analyzer | - | Real estate analysis (install count not in snapshot) |
 
 ## CorpusIQ Use Cases
 

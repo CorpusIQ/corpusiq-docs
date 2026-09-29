@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "value investing", "finance
 **Category:** Finance
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published - verified Sep 29, 2026)
 
-"AI-era Berkshire" is a value investing research framework for Claude Code / Codex published by an individual maintainer. It structures the Buffett, Munger, Duan Yongping, and Li Lu four-master methodology with multi-agent parallel research. The README (fetched Sep 29, 2026; Chinese, translated here) lists 20 skills; the skills.sh sweep surfaced five installable ones — investment-research, investment-checklist, financial-data, bottleneck-hunter, and portfolio-review — with 0/6 marked verified in the snapshot.
+"AI-era Berkshire" is a value investing research framework for Claude Code / Codex published by an individual maintainer. It structures the Buffett, Munger, Duan Yongping, and Li Lu four-master methodology with multi-agent parallel research. The README (fetched Sep 29, 2026; Chinese, translated here) lists 20 skills; the skills.sh sweep surfaced five installable ones - investment-research, investment-checklist, financial-data, bottleneck-hunter, and portfolio-review - with 0/6 marked verified in the snapshot.
 
 ---
 
