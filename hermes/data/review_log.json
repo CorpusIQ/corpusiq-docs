@@ -15530,5 +15530,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-29T05:06:02.080374+00:00"
+  },
+  {
+    "repo": "ursuciprian/reflex",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T06:02:57.555298+00:00"
+  },
+  {
+    "repo": "mwijay12/my-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T06:02:57.555312+00:00"
+  },
+  {
+    "repo": "adityasasidhar/zero-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T06:02:57.555314+00:00"
+  },
+  {
+    "repo": "roshan-pixel/-Hermes-WhatsApp-AI-Agent-on-Google-Cloud-VM",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T06:02:57.555316+00:00"
+  },
+  {
+    "repo": "timothybrush/harnessrouter",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T06:02:57.555318+00:00"
+  },
+  {
+    "repo": "cori/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T06:02:57.555319+00:00"
+  },
+  {
+    "repo": "timothybrush/codegraph",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-29T06:02:57.555321+00:00"
   }
 ]
