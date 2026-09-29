@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+        <meta name="description" content="Omentir gives AI assistants a workspace-scoped lead discovery and outreach interface: product profile, lead finders and live inbox replies.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/guides">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/omentir-mcp">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>Guides - Hermes Agent Patterns and Research</title>
+    <title>Omentir MCP - Lead Discovery and Outreach Workspace</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/omentir-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta property="og:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta property="og:title" content="Omentir MCP - Lead Discovery and Outreach Workspace">
+  <meta property="og:description" content="Omentir gives AI assistants a workspace-scoped lead discovery and outreach interface: product profile, lead finders and live inbox replies.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta name="twitter:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta name="twitter:title" content="Omentir MCP - Lead Discovery and Outreach Workspace">
+  <meta name="twitter:description" content="Omentir gives AI assistants a workspace-scoped lead discovery and outreach interface: product profile, lead finders and live inbox replies.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Guides - Hermes Agent Patterns and Research",
-    "description": "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.",
-    "url": "https://www.corpusiq.io/docs/hermes/guides",
-    
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "name": "Omentir MCP - Lead Discovery and Outreach Workspace",
+    "description": "Omentir gives AI assistants a workspace-scoped lead discovery and outreach interface: product profile, lead finders and live inbox replies.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/omentir-mcp",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hermes-guides" class="md-skip">
+        <a href="#omentir-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Guides - Hermes Agent Patterns and Research
+              Omentir MCP - Lead Discovery and Outreach Workspace
             
           </span>
         </div>
@@ -334,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -6919,8 +6912,6 @@
       
   
   
-    
-  
   
   
     
@@ -6963,11 +6954,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -6995,7 +6988,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9178,8 +9171,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9205,11 +9196,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -9237,7 +9230,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9282,8 +9275,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9311,15 +9302,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link md-nav__link--active">
+            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link ">
               
   
   
@@ -9337,13 +9330,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -10107,10 +10100,137 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#all-pages" class="md-nav__link">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All Pages
+        Why This Matters for Operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Relevance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-endpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is the endpoint?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-it-open-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is it open source?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-stays-with-the-human" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What stays with the human?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
       
     </span>
   </a>
@@ -10137,70 +10257,101 @@
   
 
 
-<h1 id="hermes-guides">Hermes Guides<a class="headerlink" href="#hermes-guides" title="Anchor link to this section">&para;</a></h1>
-<p>Hands-on guides and research digests for building and operating AI agents. Each guide is written as a reusable pattern you can apply to your own stack.</p>
+<h1 id="omentir-mcp">Omentir MCP<a class="headerlink" href="#omentir-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>A workspace-scoped sales motion for AI assistants.</strong> Omentir hosts an MCP server so an assistant can operate the whole outreach workspace: the product profile, lead finders, qualified LinkedIn leads, activity, send schedules, live inbox replies and workspace switching - all under MIT open source.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: OAuth (chat apps) or Bearer token (coding agents)
+Endpoint: https://omentir.com/api/agent/v1/mcp
+Tools: product profile, lead finders, leads, activity, send schedules, inbox replies
+Pricing: not published on the listing
+Category: Marketing
+Built by: Omentir (open source, github.com/vanshyadav1408/Omentir)
+</code></pre></div>
+<h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>Most sales tools give an AI assistant read-only dashboards. Omentir gives it an operational interface: the assistant reads the product profile and ICP, configures lead finders including CSV outreach and custom sequences, inspects qualified LinkedIn leads, runs or stops queued sends, and reads and replies in the live LinkedIn inbox from existing threads.</p>
+<p>The vendor publishes a full agent guide at omentir.com/agents.md plus a machine-readable capability map at omentir.com/agent.json, so tool behavior is documented rather than guessed. Because the codebase is MIT open source, any unclear tool behavior can be read directly in the implementation. Account, billing, LinkedIn connection and API-key minting deliberately stay with the human.</p>
+<h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Guide</th>
-<th>Description</th>
+<th>Capability</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026</a></td>
-<td>Landscape of agent memory: Tencent DB, Sibyl, Honcho, GBrain - how each works and when to use it</td>
+<td>Product profile</td>
+<td>Understand the product and ICP the workspace sells into</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers Every Business Operator Should Know</a></td>
-<td>Business-focused MCP servers that connect AI to real tools</td>
+<td>Lead finders</td>
+<td>Configure finders, CSV outreach and custom sequences</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></td>
-<td>The open standard for packaging agent skills and MCP servers into portable plugins</td>
+<td>Leads</td>
+<td>Inspect qualified LinkedIn leads in the workspace</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline</a></td>
-<td>Tools that make agents faster: skill recorders, Fable method, human-writing detection</td>
+<td>Activity</td>
+<td>Read engagement history across campaigns</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></td>
-<td>Weekly scan of new open-source agent tools worth investigating</td>
+<td>Send schedules</td>
+<td>Run or stop queued sends</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code</a></td>
-<td>Ask business questions from your terminal via MCP</td>
+<td>Inbox replies</td>
+<td>Read the live LinkedIn inbox and reply in existing threads</td>
+</tr>
+<tr>
+<td>Workspace switching</td>
+<td>The same token can switch to another owned workspace</td>
 </tr>
 </tbody>
 </table>
-<p><em>← <a href="/docs/hermes">Hermes Home</a> | <a href="/docs/hermes/skills/catalog">Skills Catalog →</a></em></p>
-<p><em>↑ <a href="/docs/hermes">Section Home</a></em></p>
-<h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
+<p>Tool names are served from the endpoint; the vendor's agent guide documents the catalog.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<p>Chat apps (Claude, ChatGPT, Grok) use the connector URL with OAuth:</p>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>omentir<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://omentir.com/api/agent/v1/mcp
+</code></pre></div>
+<p>Coding agents use the same hosted endpoint with a Bearer token from the API page, sending the Authorization header on every call.</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;omentir&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://omentir.com/api/agent/v1/mcp&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026 Landscape</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai">Business Intelligence for the Era of AI</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books">How to Check an AI Answer Against Your Books</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code - Ask Business Questions</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers for Business Operators - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></p>
-</li>
+<li><strong>Founders and solo operators</strong> delegate lead discovery and inbox replies while keeping the account, billing and LinkedIn connection human-owned</li>
+<li><strong>Sales teams</strong> run queued sends and reply from existing threads through any MCP client</li>
+<li><strong>Agencies</strong> switch one token across client workspaces the owner already has</li>
+<li><strong>Builders</strong> fork the MIT codebase for self-hosted workflows</li>
+</ul>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>Omentir operates the outbound workspace while CorpusIQ answers business questions from live systems. An assistant can qualify an Omentir lead against Stripe revenue history, QuickBooks balances or CRM deal stage through CorpusIQ connectors, then write the follow-up in the same session from the lead's actual engagement history.</p>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Brand new listing, no track record yet</li>
+<li>Pricing is not published on the directory listing</li>
+<li>Account creation, LinkedIn connection and API-key minting stay with the human by design</li>
+<li>LinkedIn access depends on the workspace's own LinkedIn connection</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="what-is-the-endpoint">What is the endpoint?<a class="headerlink" href="#what-is-the-endpoint" title="Anchor link to this section">&para;</a></h3>
+<p>The hosted MCP server is at omentir.com/api/agent/v1/mcp. Chat apps connect with OAuth; coding agents use a Bearer token from the API page.</p>
+<h3 id="is-it-open-source">Is it open source?<a class="headerlink" href="#is-it-open-source" title="Anchor link to this section">&para;</a></h3>
+<p>Yes, under the MIT license. The full application code, including the Agent API and MCP server, is public at github.com/vanshyadav1408/Omentir.</p>
+<h3 id="what-stays-with-the-human">What stays with the human?<a class="headerlink" href="#what-stays-with-the-human" title="Anchor link to this section">&para;</a></h3>
+<p>Account creation, subscription changes, LinkedIn connection, workspace creation or deletion and API-key minting. The assistant operates the workspace but never owns the account.</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">MCP Servers Index</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>
 
 
@@ -10280,7 +10431,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   

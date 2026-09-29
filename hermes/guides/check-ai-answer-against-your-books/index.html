@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+        <meta name="description" content="The five-minute verification habit that turns AI business answers from guesses into decisions. Check the source, check the definition, check the date.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/guides">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>Guides - Hermes Agent Patterns and Research</title>
+    <title>How to Check an AI Answer Against Your Books</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta property="og:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta property="og:title" content="How to Check an AI Answer Against Your Books">
+  <meta property="og:description" content="The five-minute verification habit that turns AI business answers from guesses into decisions. Check the source, check the definition, check the date.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta name="twitter:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta name="twitter:title" content="How to Check an AI Answer Against Your Books">
+  <meta name="twitter:description" content="The five-minute verification habit that turns AI business answers from guesses into decisions. Check the source, check the definition, check the date.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Guides - Hermes Agent Patterns and Research",
-    "description": "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.",
-    "url": "https://www.corpusiq.io/docs/hermes/guides",
+    "name": "How to Check an AI Answer Against Your Books",
+    "description": "The five-minute verification habit that turns AI business answers from guesses into decisions. Check the source, check the definition, check the date.",
+    "url": "https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-09-29",
+    "dateModified": "2026-09-29",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-09-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hermes-guides" class="md-skip">
+        <a href="#how-to-check-an-ai-answer-against-your-books" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +192,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Guides - Hermes Agent Patterns and Research
+              How to Check an AI Answer Against Your Books
             
           </span>
         </div>
@@ -334,7 +330,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -6919,8 +6915,6 @@
       
   
   
-    
-  
   
   
     
@@ -6963,11 +6957,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -6995,7 +6991,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9178,8 +9174,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9205,11 +9199,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -9237,7 +9233,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9282,8 +9278,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9311,15 +9305,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link md-nav__link--active">
+            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link ">
               
   
   
@@ -9337,13 +9333,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -10107,10 +10103,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#all-pages" class="md-nav__link">
+  <a href="#the-habit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All Pages
+        The habit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this matters for operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-result" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The result
       
     </span>
   </a>
@@ -10137,71 +10166,28 @@
   
 
 
-<h1 id="hermes-guides">Hermes Guides<a class="headerlink" href="#hermes-guides" title="Anchor link to this section">&para;</a></h1>
-<p>Hands-on guides and research digests for building and operating AI agents. Each guide is written as a reusable pattern you can apply to your own stack.</p>
-<table>
-<thead>
-<tr>
-<th>Guide</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026</a></td>
-<td>Landscape of agent memory: Tencent DB, Sibyl, Honcho, GBrain - how each works and when to use it</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers Every Business Operator Should Know</a></td>
-<td>Business-focused MCP servers that connect AI to real tools</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></td>
-<td>The open standard for packaging agent skills and MCP servers into portable plugins</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline</a></td>
-<td>Tools that make agents faster: skill recorders, Fable method, human-writing detection</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></td>
-<td>Weekly scan of new open-source agent tools worth investigating</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code</a></td>
-<td>Ask business questions from your terminal via MCP</td>
-</tr>
-</tbody>
-</table>
-<p><em>← <a href="/docs/hermes">Hermes Home</a> | <a href="/docs/hermes/skills/catalog">Skills Catalog →</a></em></p>
-<p><em>↑ <a href="/docs/hermes">Section Home</a></em></p>
-<h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
+<h1 id="how-to-check-an-ai-answer-against-your-books">How to Check an AI Answer Against Your Books<a class="headerlink" href="#how-to-check-an-ai-answer-against-your-books" title="Anchor link to this section">&para;</a></h1>
+<p>The AI gives you a revenue number in seconds. The question is not whether the AI is smart. The question is whether you can check its work in less time than it took to ask.</p>
+<h2 id="the-habit">The habit<a class="headerlink" href="#the-habit" title="Anchor link to this section">&para;</a></h2>
+<p>Every AI answer about your business deserves the same three checks:</p>
+<ol>
+<li><strong>The source check.</strong> Which system produced this number? If the answer cannot show the record, it is a guess with better vocabulary.</li>
+<li><strong>The definition check.</strong> What does "revenue" mean in this answer? Gross sales, net after refunds, bookings, or cash received? Two systems can both be right and still disagree.</li>
+<li><strong>The date check.</strong> As of when? A Monday answer built on Friday's sync is wrong by Sunday.</li>
+</ol>
+<h2 id="why-this-matters-for-operators">Why this matters for operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>You are already acting on numbers. The report you built last quarter, the dashboard you trust, the spreadsheet you update by hand. The AI answer is the same category of artifact: a number with a story attached. The difference is the AI produces it in seconds, which means it can be wrong in seconds too, and spread before lunch.</p>
+<h2 id="the-fix">The fix<a class="headerlink" href="#the-fix" title="Anchor link to this section">&para;</a></h2>
+<p>Ask through a read-only connection that attaches the source to every figure. Shopify for orders, Stripe for payments, QuickBooks for financials. The answer comes back with the record behind each number, so the three checks take thirty seconds instead of thirty minutes.</p>
+<p>Enterprise-grade answers in minutes, from $29.95 a month, no warehouse and no data team.</p>
+<h2 id="the-result">The result<a class="headerlink" href="#the-result" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026 Landscape</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai">Business Intelligence for the Era of AI</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books">How to Check an AI Answer Against Your Books</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code - Ask Business Questions</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers for Business Operators - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></p>
-</li>
+<li>Every figure traces to a source record</li>
+<li>Discrepancies surface before they become decisions</li>
+<li>One answer, checkable, in every AI you already use</li>
+<li>Trust that compounds, because you verified it once and it kept checking out</li>
 </ul>
+<p>You do not need to trust AI with your business. You need to be able to check it.</p>
 
 
 
@@ -10280,7 +10266,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   

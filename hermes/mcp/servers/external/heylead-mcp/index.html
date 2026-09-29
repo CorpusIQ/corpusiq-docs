@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+        <meta name="description" content="HeyLead is an AI agent for LinkedIn outreach: it finds the right people, writes in your voice, follows up and handles replies.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/guides">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/heylead-mcp">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>Guides - Hermes Agent Patterns and Research</title>
+    <title>HeyLead MCP - LinkedIn Outreach That Sends from Your Account</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/heylead-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta property="og:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta property="og:title" content="HeyLead MCP - LinkedIn Outreach That Sends from Your Account">
+  <meta property="og:description" content="HeyLead is an AI agent for LinkedIn outreach: it finds the right people, writes in your voice, follows up and handles replies.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta name="twitter:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta name="twitter:title" content="HeyLead MCP - LinkedIn Outreach That Sends from Your Account">
+  <meta name="twitter:description" content="HeyLead is an AI agent for LinkedIn outreach: it finds the right people, writes in your voice, follows up and handles replies.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Guides - Hermes Agent Patterns and Research",
-    "description": "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.",
-    "url": "https://www.corpusiq.io/docs/hermes/guides",
-    
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "name": "HeyLead MCP - LinkedIn Outreach That Sends from Your Account",
+    "description": "HeyLead is an AI agent for LinkedIn outreach: it finds the right people, writes in your voice, follows up and handles replies.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/heylead-mcp",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hermes-guides" class="md-skip">
+        <a href="#heylead-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Guides - Hermes Agent Patterns and Research
+              HeyLead MCP - LinkedIn Outreach That Sends from Your Account
             
           </span>
         </div>
@@ -334,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -6919,8 +6912,6 @@
       
   
   
-    
-  
   
   
     
@@ -6963,11 +6954,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -6995,7 +6988,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9178,8 +9171,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9205,11 +9196,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -9237,7 +9230,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9282,8 +9275,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9311,15 +9302,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link md-nav__link--active">
+            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link ">
               
   
   
@@ -9337,13 +9330,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -10107,10 +10100,137 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#all-pages" class="md-nav__link">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All Pages
+        Why This Matters for Operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Relevance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#does-it-send-from-my-own-linkedin-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Does it send from my own LinkedIn account?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-messages-go-out-without-my-approval" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can messages go out without my approval?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-does-it-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What does it cost?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
       
     </span>
   </a>
@@ -10137,70 +10257,95 @@
   
 
 
-<h1 id="hermes-guides">Hermes Guides<a class="headerlink" href="#hermes-guides" title="Anchor link to this section">&para;</a></h1>
-<p>Hands-on guides and research digests for building and operating AI agents. Each guide is written as a reusable pattern you can apply to your own stack.</p>
+<h1 id="heylead-mcp">HeyLead MCP<a class="headerlink" href="#heylead-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>LinkedIn outreach that runs from your own account.</strong> HeyLead is an AI agent for LinkedIn prospecting: it finds the right people, writes messages in the voice of your own LinkedIn posts, follows up on a schedule and handles replies, from Claude Code, Cursor, any MCP client or a web dashboard.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: OAuth browser sign-in, no API key
+Endpoint: https://heylead.dev/mcp
+Tools: persona building, lead search, campaign messages, follow-ups, inbox replies
+Pricing: Free (1 seat, cloud sending) - Pro $29 per connected LinkedIn account per month
+Category: Marketing
+Built by: Denys Chumak (github.com/D4umak/linkedin-outreach-mcp, MIT client)
+</code></pre></div>
+<h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>Outbound LinkedIn is where most B2B pipeline starts, and the failure point is almost never the list - it is the sustained follow-up. HeyLead runs the whole motion from one OAuth sign-in: it builds two to four buyer personas from a single sentence, previews the LinkedIn search before anything exists, then drafts a warm-up, invitation note, opening message, follow-ups and an InMail or email fallback for each specific person.</p>
+<p>Every opening message and follow-up waits for approval until you switch a campaign to autopilot, so nothing goes out that you have not seen. Replies are read and answered from the campaign's facts, and anything ambiguous is held for you. Sends go out from your own LinkedIn account at a human pace - at most 20 invitations a day and 100 a week on a free account, Monday to Friday 08:00 to 22:00 in your time zone - which is exactly the cadence that keeps accounts healthy.</p>
+<h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Guide</th>
-<th>Description</th>
+<th>Capability</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026</a></td>
-<td>Landscape of agent memory: Tencent DB, Sibyl, Honcho, GBrain - how each works and when to use it</td>
+<td>Persona builder</td>
+<td>Two to four buyer personas from one sentence, with the LinkedIn search previewed before anything is created</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers Every Business Operator Should Know</a></td>
-<td>Business-focused MCP servers that connect AI to real tools</td>
+<td>Campaign messages</td>
+<td>Warm-up, invitation note, opening message, follow-ups, InMail and email fallback written per person</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></td>
-<td>The open standard for packaging agent skills and MCP servers into portable plugins</td>
+<td>Approval gate</td>
+<td>Opening messages and follow-ups wait for your approval until autopilot is switched on</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline</a></td>
-<td>Tools that make agents faster: skill recorders, Fable method, human-writing detection</td>
+<td>Reply handling</td>
+<td>Replies read and answered from campaign facts; ambiguous threads held for manual review</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></td>
-<td>Weekly scan of new open-source agent tools worth investigating</td>
+<td>Campaign goals</td>
+<td>Six modes: sell, find a job, hire, find partners or investors, find a vendor, research interviews</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code</a></td>
-<td>Ask business questions from your terminal via MCP</td>
+<td>Sending controls</td>
+<td>Human-pace limits from your own account, Monday to Friday in your local time zone</td>
 </tr>
 </tbody>
 </table>
-<p><em>← <a href="/docs/hermes">Hermes Home</a> | <a href="/docs/hermes/skills/catalog">Skills Catalog →</a></em></p>
-<p><em>↑ <a href="/docs/hermes">Section Home</a></em></p>
-<h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
+<p>Tool names are served from the endpoint; the vendor publishes a tool reference at heylead.dev/docs/tools.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>heylead<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://heylead.dev/mcp
+</code></pre></div>
+<p>Connect through the OAuth browser sign-in - no API key. A setup guide for chat clients is published at heylead.dev/llms.txt.</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;heylead&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://heylead.dev/mcp&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026 Landscape</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai">Business Intelligence for the Era of AI</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books">How to Check an AI Answer Against Your Books</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code - Ask Business Questions</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers for Business Operators - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></p>
-</li>
+<li><strong>Founders doing their own outbound</strong> replace manual drip sequences with an assistant that writes and sends in their voice</li>
+<li><strong>SDRs and recruiters</strong> run multiple campaigns with per-person messaging instead of templated blasts</li>
+<li><strong>Agencies</strong> manage outreach across client accounts with approval gates on every send</li>
+<li><strong>Job seekers and fundraisers</strong> use the hire, investor and partner campaign goals without learning a new tool</li>
+</ul>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>HeyLead covers the outbound motion while CorpusIQ covers the business-data layer. An assistant can qualify a lead against live Stripe revenue, QuickBooks invoices or CRM deals through CorpusIQ connectors, then hand the approved shortlist to HeyLead for personalized outreach - and every send stays inside the human-pace limits that keep the account safe.</p>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Brand new listing, no track record yet</li>
+<li>Sends through Unipile's LinkedIn connection layer, which LinkedIn does not affiliate with</li>
+<li>Free tier is one seat; each additional connected LinkedIn account is a Pro seat</li>
+<li>No public tool catalog beyond the vendor's docs pages</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="does-it-send-from-my-own-linkedin-account">Does it send from my own LinkedIn account?<a class="headerlink" href="#does-it-send-from-my-own-linkedin-account" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. Campaigns send from your own connected LinkedIn account through Unipile, at human-pace limits (at most 20 invitations a day and 100 a week on a free account, Monday to Friday 08:00 to 22:00 local time).</p>
+<h3 id="can-messages-go-out-without-my-approval">Can messages go out without my approval?<a class="headerlink" href="#can-messages-go-out-without-my-approval" title="Anchor link to this section">&para;</a></h3>
+<p>Opening messages and follow-ups wait for your approval until you explicitly switch a campaign to autopilot. Replies are answered from campaign facts, and ambiguous threads are held for you.</p>
+<h3 id="what-does-it-cost">What does it cost?<a class="headerlink" href="#what-does-it-cost" title="Anchor link to this section">&para;</a></h3>
+<p>Free at $0 for one LinkedIn seat with cloud sending included. Pro is $29 per connected LinkedIn account per month.</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">MCP Servers Index</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>
 
 
@@ -10280,7 +10425,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   

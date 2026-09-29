@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+        <meta name="description" content="NM Signals audits any URL's AI crawler access from an MCP client, with a bounded audit, fix and verification workflow for coding agents.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/guides">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/nm-signals-mcp">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>Guides - Hermes Agent Patterns and Research</title>
+    <title>NM Signals MCP - AI Crawler Visibility Audits</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/nm-signals-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta property="og:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta property="og:title" content="NM Signals MCP - AI Crawler Visibility Audits">
+  <meta property="og:description" content="NM Signals audits any URL's AI crawler access from an MCP client, with a bounded audit, fix and verification workflow for coding agents.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta name="twitter:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta name="twitter:title" content="NM Signals MCP - AI Crawler Visibility Audits">
+  <meta name="twitter:description" content="NM Signals audits any URL's AI crawler access from an MCP client, with a bounded audit, fix and verification workflow for coding agents.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Guides - Hermes Agent Patterns and Research",
-    "description": "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.",
-    "url": "https://www.corpusiq.io/docs/hermes/guides",
-    
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "name": "NM Signals MCP - AI Crawler Visibility Audits",
+    "description": "NM Signals audits any URL\u0027s AI crawler access from an MCP client, with a bounded audit, fix and verification workflow for coding agents.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nm-signals-mcp",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hermes-guides" class="md-skip">
+        <a href="#nm-signals-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Guides - Hermes Agent Patterns and Research
+              NM Signals MCP - AI Crawler Visibility Audits
             
           </span>
         </div>
@@ -334,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -6919,8 +6912,6 @@
       
   
   
-    
-  
   
   
     
@@ -6963,11 +6954,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -6995,7 +6988,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9178,8 +9171,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9205,11 +9196,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -9237,7 +9230,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9282,8 +9275,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9311,15 +9302,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link md-nav__link--active">
+            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link ">
               
   
   
@@ -9337,13 +9330,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -10107,10 +10100,137 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#all-pages" class="md-nav__link">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All Pages
+        Why This Matters for Operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Relevance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-exactly-does-it-audit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What exactly does it audit?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-plan-do-i-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What plan do I need?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-coding-agents-use-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do coding agents use it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
       
     </span>
   </a>
@@ -10137,70 +10257,83 @@
   
 
 
-<h1 id="hermes-guides">Hermes Guides<a class="headerlink" href="#hermes-guides" title="Anchor link to this section">&para;</a></h1>
-<p>Hands-on guides and research digests for building and operating AI agents. Each guide is written as a reusable pattern you can apply to your own stack.</p>
+<h1 id="nm-signals-mcp">NM Signals MCP<a class="headerlink" href="#nm-signals-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Audit any URL's AI crawler access in three lines.</strong> NM Signals exposes an MCP server at /api/mcp with two tools - audit_url and get_quota - so an assistant can check how AI crawlers see a site and whether the site is visible to AI answers, from Claude Desktop, Cursor or any MCP client.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: Bearer key (nms_live_ production keys)
+Endpoint: https://app.nyman.media/api/mcp
+Tools: audit_url, get_quota
+Pricing: API access requires Premium or Partner plan
+Category: SEO
+Built by: Nyman Media (nyman.media)
+</code></pre></div>
+<h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>AI search engines and assistants are now a material traffic channel, and the failure mode is silent: a site that ranks fine on Google can be invisible to ChatGPT, Perplexity and their crawlers, and the operator never sees a warning. NM Signals turns that blind spot into a two-tool audit an assistant can run on demand.</p>
+<p>The vendor's designed workflow pairs the MCP server with a coding agent: the agent runs the audit, inspects the codebase for every actionable finding, makes the smallest safe fix and re-runs the audit, summarizing anything that needs content, infrastructure or human review instead. That makes AI-crawler visibility a routine check rather than a quarterly project.</p>
+<h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Guide</th>
-<th>Description</th>
+<th>Tool</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026</a></td>
-<td>Landscape of agent memory: Tencent DB, Sibyl, Honcho, GBrain - how each works and when to use it</td>
+<td>audit_url</td>
+<td>Audit a webpage's AI crawler access and visibility, returning evidence for the agent workflow</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers Every Business Operator Should Know</a></td>
-<td>Business-focused MCP servers that connect AI to real tools</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></td>
-<td>The open standard for packaging agent skills and MCP servers into portable plugins</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline</a></td>
-<td>Tools that make agents faster: skill recorders, Fable method, human-writing detection</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></td>
-<td>Weekly scan of new open-source agent tools worth investigating</td>
-</tr>
-<tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code</a></td>
-<td>Ask business questions from your terminal via MCP</td>
+<td>get_quota</td>
+<td>Check remaining audit quota on the account</td>
 </tr>
 </tbody>
 </table>
-<p><em>← <a href="/docs/hermes">Hermes Home</a> | <a href="/docs/hermes/skills/catalog">Skills Catalog →</a></em></p>
-<p><em>↑ <a href="/docs/hermes">Section Home</a></em></p>
-<h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
+<p>Tool names and behavior come from the vendor's published MCP documentation.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>nyman-media<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://app.nyman.media/api/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer nms_live_...&quot;</span>
+</code></pre></div>
+<p>Get the key from Account settings, then API access on the web app. Premium or Partner plan required; production keys start with nms_live_.</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;nyman-media&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://app.nyman.media/api/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer nms_live_...&quot;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026 Landscape</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai">Business Intelligence for the Era of AI</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books">How to Check an AI Answer Against Your Books</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code - Ask Business Questions</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers for Business Operators - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></p>
-</li>
+<li><strong>Operators of content and commerce sites</strong> verify their pages are visible to AI crawlers before a traffic channel silently disappears</li>
+<li><strong>Agencies</strong> run audits across client sites from one MCP connection with the same key and billing</li>
+<li><strong>SEO teams</strong> pair the audit with a coding agent for bounded fix-and-verify loops</li>
+<li><strong>Marketing leads</strong> get evidence-backed answers to the question of whether the brand appears in AI answers</li>
+</ul>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>NM Signals audits the visibility layer while CorpusIQ answers the business question underneath. An assistant can run an AI-crawler audit on a page, then pull Search Console traffic, GA4 sessions and revenue through CorpusIQ connectors to show what AI visibility actually converts to - the audit finds the gap, and the CorpusIQ data proves whether it matters.</p>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Brand new listing, no track record yet</li>
+<li>API access gated behind Premium or Partner plans; pricing tiers not published on the listing</li>
+<li>Two-tool surface: audits and quota only, fixes happen in the coding agent</li>
+<li>Audit evidence covers the crawler-access layer, not full SEO scoring</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="what-exactly-does-it-audit">What exactly does it audit?<a class="headerlink" href="#what-exactly-does-it-audit" title="Anchor link to this section">&para;</a></h3>
+<p>An audit_url call checks a webpage's AI crawler access and AI visibility, returning the evidence a coding agent needs to fix issues, then re-runs the audit to verify.</p>
+<h3 id="what-plan-do-i-need">What plan do I need?<a class="headerlink" href="#what-plan-do-i-need" title="Anchor link to this section">&para;</a></h3>
+<p>API access requires a Premium or Partner plan on the web app. Production keys start with nms_live_; localhost and preview keys start with nms_test_.</p>
+<h3 id="how-do-coding-agents-use-it">How do coding agents use it?<a class="headerlink" href="#how-do-coding-agents-use-it" title="Anchor link to this section">&para;</a></h3>
+<p>The vendor's workflow gives the agent a bounded loop: audit a URL, inspect the codebase for each actionable finding, make the smallest safe fix, and re-run the audit, summarizing anything that needs human review.</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">MCP Servers Index</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>
 
 
@@ -10280,7 +10413,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   

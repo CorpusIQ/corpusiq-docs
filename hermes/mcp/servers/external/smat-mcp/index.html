@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+        <meta name="description" content="SMAT lets an assistant create, schedule and publish Instagram and Facebook posts, carousels and reels, under OAuth-scoped access levels.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/guides">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/smat-mcp">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>Guides - Hermes Agent Patterns and Research</title>
+    <title>SMAT MCP - Instagram and Facebook Publishing for Agents</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/guides">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/smat-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta property="og:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta property="og:title" content="SMAT MCP - Instagram and Facebook Publishing for Agents">
+  <meta property="og:description" content="SMAT lets an assistant create, schedule and publish Instagram and Facebook posts, carousels and reels, under OAuth-scoped access levels.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Guides - Hermes Agent Patterns and Research">
-  <meta name="twitter:description" content="Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.">
+  <meta name="twitter:title" content="SMAT MCP - Instagram and Facebook Publishing for Agents">
+  <meta name="twitter:description" content="SMAT lets an assistant create, schedule and publish Instagram and Facebook posts, carousels and reels, under OAuth-scoped access levels.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Guides - Hermes Agent Patterns and Research",
-    "description": "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration.",
-    "url": "https://www.corpusiq.io/docs/hermes/guides",
-    
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "name": "SMAT MCP - Instagram and Facebook Publishing for Agents",
+    "description": "SMAT lets an assistant create, schedule and publish Instagram and Facebook posts, carousels and reels, under OAuth-scoped access levels.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/smat-mcp",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hermes-guides" class="md-skip">
+        <a href="#smat-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Guides - Hermes Agent Patterns and Research
+              SMAT MCP - Instagram and Facebook Publishing for Agents
             
           </span>
         </div>
@@ -334,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -6919,8 +6912,6 @@
       
   
   
-    
-  
   
   
     
@@ -6963,11 +6954,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -6995,7 +6988,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9178,8 +9171,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9205,11 +9196,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -9237,7 +9230,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9282,8 +9275,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9311,15 +9302,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link md-nav__link--active">
+            <a href="https://www.corpusiq.io/docs/hermes/guides" class="md-nav__link ">
               
   
   
@@ -9337,13 +9330,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -10107,10 +10100,137 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#all-pages" class="md-nav__link">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All Pages
+        Why This Matters for Operators
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Relevance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-access-levels-can-i-grant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What access levels can I grant?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#are-paid-actions-confirmed-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Are paid actions confirmed first?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-happens-if-i-revoke-the-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What happens if I revoke the connection?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
       
     </span>
   </a>
@@ -10137,70 +10257,96 @@
   
 
 
-<h1 id="hermes-guides">Hermes Guides<a class="headerlink" href="#hermes-guides" title="Anchor link to this section">&para;</a></h1>
-<p>Hands-on guides and research digests for building and operating AI agents. Each guide is written as a reusable pattern you can apply to your own stack.</p>
+<h1 id="smat-mcp">SMAT MCP<a class="headerlink" href="#smat-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>An OAuth-scoped publishing workflow for social media.</strong> SMAT connects an assistant to a brand's Instagram and Facebook presence so it can read brand context, create drafts, build carousels, generate captions and images with explicit confirmation, and prepare, publish or schedule posts - with access levels and credit limits chosen at connection time.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: OAuth sign-in, brand-scoped
+Endpoint: https://api.smat.chat/api/mcp
+Tools: reads, drafts, carousels, paid generation, scheduling, publishing
+Pricing: included in every paid plan (Starter, Pro, Studio) and the free trial
+Category: Marketing
+Built by: SMAT (smat.chat)
+</code></pre></div>
+<h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>Social publishing through an assistant usually means handing over the account. SMAT splits the difference: when you connect, you choose the brand, the access level (read only, create content, create with AI, or full access with publishing), how long the access is valid and, when paid actions are included, a credit limit per action. The scopes - smat:read, smat:write, smat:generate and smat:publish - are an upper bound on access, and SMAT still checks role, permissions and blockers per operation.</p>
+<p>Paid generation never runs silently. Before paid work the assistant says what will be generated and that it is paid from brand credits by actual usage, then waits for authorization. Preparing a publication freezes its package and checks whether a disclosure is needed, and publication itself is a separate, explicit step.</p>
+<h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Guide</th>
-<th>Description</th>
+<th>Capability</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026</a></td>
-<td>Landscape of agent memory: Tencent DB, Sibyl, Honcho, GBrain - how each works and when to use it</td>
+<td>Brand reads</td>
+<td>Read brand context, saved content, schedule, topic ideas, insights, competitor posts and what needs attention</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers Every Business Operator Should Know</a></td>
-<td>Business-focused MCP servers that connect AI to real tools</td>
+<td>Drafts</td>
+<td>Create, edit and delete drafts; attach media; preview up to three text-on-image looks</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></td>
-<td>The open standard for packaging agent skills and MCP servers into portable plugins</td>
+<td>Carousels</td>
+<td>Build and edit 2 to 6 slide carousels with deterministic overlay rendering</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline</a></td>
-<td>Tools that make agents faster: skill recorders, Fable method, human-writing detection</td>
+<td>Paid generation</td>
+<td>Captions, image ideas, image generation and edits, topic refreshes and competitor analysis, each with confirmation</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></td>
-<td>Weekly scan of new open-source agent tools worth investigating</td>
+<td>Scheduling</td>
+<td>Read the week's schedule, change rhythm, add or skip slots, move missed slots</td>
 </tr>
 <tr>
-<td><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code</a></td>
-<td>Ask business questions from your terminal via MCP</td>
+<td>Publishing</td>
+<td>Prepare, publish to connected Facebook or Instagram destinations, or schedule, move and cancel</td>
 </tr>
 </tbody>
 </table>
-<p><em>← <a href="/docs/hermes">Hermes Home</a> | <a href="/docs/hermes/skills/catalog">Skills Catalog →</a></em></p>
-<p><em>↑ <a href="/docs/hermes">Section Home</a></em></p>
-<h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
+<p>Tool availability depends on the connection's scopes, the user's role and per-operation blockers.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>smat<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://api.smat.chat/api/mcp
+</code></pre></div>
+<p>In SMAT, the MCP address lives in Settings, then Integrations under the MCP connections card, with an Add to Claude button. Leave OAuth client ID and secret fields empty. An account without a paid plan or trial cannot connect.</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;smat&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.smat.chat/api/mcp&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity">Agent Plugins 1.0 - The Portable Skill Standard</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026">AI Agent Memory Systems - August 2026 Landscape</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai">Business Intelligence for the Era of AI</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books">How to Check an AI Answer Against Your Books</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code">Use CorpusIQ with Claude Code - Ask Business Questions</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026">Hermes Improvement Pipeline - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators">7 MCP Servers for Business Operators - August 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026">Trending AI Agent Tools - August 2026</a></p>
-</li>
+<li><strong>Brand owners</strong> keep publication human-approved while delegating drafting, carousels and scheduling</li>
+<li><strong>Social managers</strong> run several brands from one assistant, with per-brand scopes and credit limits</li>
+<li><strong>Agencies</strong> grant time-boxed, credit-capped access per client brand instead of sharing logins</li>
+<li><strong>Founders</strong> get consistent posting cadence with paid actions always confirmed first</li>
+</ul>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>SMAT operates the publishing layer while CorpusIQ answers the performance question. An assistant can schedule SMAT content and then measure what it drove through CorpusIQ connectors - GA4 sessions, Stripe revenue, ad spend - closing the loop between a published post and the business result, with the same defined metric answered consistently in every assistant.</p>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Requires an active SMAT account with access to the target brand</li>
+<li>Paid generation and publishing each need their own authorization; there is no tool to withdraw a published post</li>
+<li>Revoking the MCP connection does not cancel an already admitted schedule</li>
+<li>Brand new MCP listing; the vendor's docs note that not every flow is certified on every host</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="what-access-levels-can-i-grant">What access levels can I grant?<a class="headerlink" href="#what-access-levels-can-i-grant" title="Anchor link to this section">&para;</a></h3>
+<p>Read only, create content, create with AI, or full access with publishing. You also choose how long the access is valid and, when paid actions are included, a credit limit per action.</p>
+<h3 id="are-paid-actions-confirmed-first">Are paid actions confirmed first?<a class="headerlink" href="#are-paid-actions-confirmed-first" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. Before paid work the assistant states what will be generated or analyzed and that it is paid from brand credits by actual usage, then waits for your authorization. Permission to read or estimate is not permission to generate.</p>
+<h3 id="what-happens-if-i-revoke-the-connection">What happens if I revoke the connection?<a class="headerlink" href="#what-happens-if-i-revoke-the-connection" title="Anchor link to this section">&para;</a></h3>
+<p>Revocation removes the connection but does not delete brand content or withdraw published posts, and it does not cancel already scheduled publications. Cancel scheduled publications separately.</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">MCP Servers Index</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>
 
 
@@ -10280,7 +10426,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
