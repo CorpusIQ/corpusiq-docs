@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 28, 2026 (evening sweep) · **Sources:** mcp.so homepage (New arrivals, Featured servers and Trending this week, 23 unique server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 726 servers (+612 guides)
+> **Last updated:** September 28, 2026 (night sweep) · **Sources:** mcp.so homepage (New arrivals, Featured servers and Trending this week, 23 unique server blocks, direct fetch) + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 728 servers (+614 guides)
+
+## 🆕 September 28, 2026 - Night Sweep (2 New, 2 Guides)
+
+Night sweep over the mcp.so homepage (New arrivals, Featured servers and Trending this week sections, 23 unique server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy, with 3 mcp.so detail pages and 6 mcpservers.org detail probes. 2 new business-relevant servers catalogued with guides:
+
+- [ohmyho.st MCP - Hosting, Postgres and Email for Agents](/docs/hermes/mcp/servers/external/ohmyho-st-mcp) · stdio MCP that lets an agent deploy a GitHub app, run managed Postgres, send email and manage domains from one credit balance.
+- [EQIQs MCP - Team Working-Style Insights for Agents](/docs/hermes/mcp/servers/external/eqiqs-mcp) · 16 OAuth-scoped tools over 21 working-style frameworks: team reads, 1:1 prep, meeting tips and coaching narratives.
+
+**Also identified (not catalogued):** Google Search MCP Server (HasData per-connector re-listing; Sep 10 skip-class precedent respected), AI Video MCP by AITuber (Aug 11 disposition respected), AdWhispr and the /all catalogued items (Scribase, Menivor, Audiogram API, Cortex, SkillsInput, Etincel, ParrotNotes, AI Layoffs, Cooper Email) as repeats, AOI Environmental Intelligence, OpenZiti, Medplum, Agent Margin Router, Termany, Hostinger, OpenLore, TinyFish, CUQU, SnapDeploy, Pocket Network, Schemity, TRDEFI, 550W AI, Recordist, Screen Browser, UpRes, Lightdrift, Kairos Signal, Capacity Attest and TheLuckyStrike entries as prior dispositions, plus six mcpservers.org /all slugs (wenhua6666668-oss, babbagescabbages, mtangoz, domondi1, itsmostafa, mohammadhijjawi97) that 404 on detail fetch (removed or personal submissions).
 
 ## 🆕 September 28, 2026 - Evening Sweep (1 New, 1 Guide)
 
