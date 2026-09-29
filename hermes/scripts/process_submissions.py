@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Community Submission Processor
-Processes GitHub issues tagged 'submission' — scores, reviews, approves/rejects.
+Processes GitHub issues tagged 'submission' - scores, reviews, approves/rejects.
 
 Usage:
     python3 process_submissions.py              # Process all open submission issues

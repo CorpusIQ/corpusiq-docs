@@ -1,7 +1,7 @@
 #!/bin/bash
 # =============================================================================
 # CorpusIQ + agency-agents One-Command Installer
-# Installs the complete AI agent stack — personalities + data layer
+# Installs the complete AI agent stack - personalities + data layer
 # =============================================================================
 set -e
 
@@ -85,7 +85,7 @@ if command -v hermes >/dev/null 2>&1; then
     done
     echo -e "${GREEN}  ✓ Agents available in Hermes ecosystem${NC}"
 else
-    echo -e "${YELLOW}  ⚠ Hermes CLI not found — install manually:${NC}"
+    echo -e "${YELLOW}  ⚠ Hermes CLI not found - install manually:${NC}"
     echo "    curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"
 fi
 
