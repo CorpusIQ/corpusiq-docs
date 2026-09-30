@@ -15775,5 +15775,89 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-30T05:04:34.841998+00:00"
+  },
+  {
+    "repo": "mgd34msu/goodvibes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487275+00:00"
+  },
+  {
+    "repo": "rungmc357/speakeasy",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487289+00:00"
+  },
+  {
+    "repo": "abyssbugg-labs/sourcery-agent-bundle",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487292+00:00"
+  },
+  {
+    "repo": "jocost4/anygravity",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487293+00:00"
+  },
+  {
+    "repo": "Humdan/hopper",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487295+00:00"
+  },
+  {
+    "repo": "k1ng0mar/drafthouse",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487297+00:00"
+  },
+  {
+    "repo": "henryzhang-tn/agent-bridge",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487298+00:00"
+  },
+  {
+    "repo": "Kaka-Abel/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487300+00:00"
+  },
+  {
+    "repo": "DEVfancybear/harness-agents",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487301+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-memory-wiki",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487303+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-hindsight",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487304+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-byterover",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T07:04:47.487306+00:00"
   }
 ]
