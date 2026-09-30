@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+        <meta name="description" content="Meta's remote MCP server for the WhatsApp Business Platform: onboard numbers, manage templates, configure webhooks, and send messages from an AI agent.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/api/endpoints">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/whatsapp-business-tools-mcp">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/api/authentication">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/api/schemas">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>CorpusIQ API Endpoints Reference</title>
+    <title>WhatsApp Business Tools MCP (Official) - Integration Guide</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/api/endpoints">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/whatsapp-business-tools-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="CorpusIQ API Endpoints Reference">
-  <meta property="og:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+  <meta property="og:title" content="WhatsApp Business Tools MCP (Official) - Integration Guide">
+  <meta property="og:description" content="Meta's remote MCP server for the WhatsApp Business Platform: onboard numbers, manage templates, configure webhooks, and send messages from an AI agent.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CorpusIQ API Endpoints Reference">
-  <meta name="twitter:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+  <meta name="twitter:title" content="WhatsApp Business Tools MCP (Official) - Integration Guide">
+  <meta name="twitter:description" content="Meta's remote MCP server for the WhatsApp Business Platform: onboard numbers, manage templates, configure webhooks, and send messages from an AI agent.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "CorpusIQ API Endpoints Reference",
-    "description": "Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search",
-    "url": "https://www.corpusiq.io/docs/api/endpoints",
+    "name": "WhatsApp Business Tools MCP (Official) - Integration Guide",
+    "description": "Meta\u0027s remote MCP server for the WhatsApp Business Platform: onboard numbers, manage templates, configure webhooks, and send messages from an AI agent.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/whatsapp-business-tools-mcp",
     
-    "datePublished": "2026-08-23",
-    "dateModified": "2026-08-23",
+    "datePublished": "2026-09-30",
+    "dateModified": "2026-09-30",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-23">
+  <meta name="last-updated" content="2026-09-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api-endpoints-reference" class="md-skip">
+        <a href="#whatsapp-business-tools-mcp-official-integration-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +192,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Endpoints Reference
+              WhatsApp Business Tools MCP (Official) - Integration Guide
             
           </span>
         </div>
@@ -334,7 +330,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -415,8 +411,6 @@
       
   
   
-    
-  
   
   
     
@@ -451,11 +445,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -483,7 +479,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -556,37 +552,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Endpoints
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="https://www.corpusiq.io/docs/api/endpoints" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/api/endpoints" class="md-nav__link">
         
   
   
@@ -602,159 +571,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#post-query" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        POST /query
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="POST /query">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#post-deep_search" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        POST /deep_search
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="POST /deep_search">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -10317,110 +10133,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#post-query" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        POST /query
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="POST /query">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#post-deep_search" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        POST /deep_search
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="POST /deep_search">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
+        Overview
       
     </span>
   </a>
@@ -10428,10 +10144,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
+  <a href="#what-it-can-do" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Internal Links
+        What it can do
       
     </span>
   </a>
@@ -10439,10 +10155,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
+        Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connecting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#availability-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Availability notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-operators-care" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why operators care
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See also
       
     </span>
   </a>
@@ -10469,259 +10229,36 @@
   
 
 
-<h1 id="api-endpoints-reference">API Endpoints Reference<a class="headerlink" href="#api-endpoints-reference" title="Anchor link to this section">&para;</a></h1>
-<p>Complete reference for all CorpusIQ API endpoints with full request/response schemas and code examples.</p>
-<hr />
-<h2 id="post-query">POST /query<a class="headerlink" href="#post-query" title="Anchor link to this section">&para;</a></h2>
-<p>Search across all connected data sources with a natural-language query.</p>
-<h3 id="request">Request<a class="headerlink" href="#request" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="err">POST /v1/query</span>
-<span class="err">Content-Type: application/json</span>
-<span class="err">Authorization: Bearer &lt;token&gt;</span>
-</code></pre></div>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>query</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Natural-language question to search across connected tools</td>
-</tr>
-<tr>
-<td><code>connectors</code></td>
-<td>string[]</td>
-<td>No</td>
-<td>List of connector IDs to scope the search; omit to search all</td>
-</tr>
-<tr>
-<td><code>max_results</code></td>
-<td>integer</td>
-<td>No</td>
-<td>Maximum results per connector (default: 10, max: 100)</td>
-</tr>
-</tbody>
-</table>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our top 5 Shopify orders this month?&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;connectors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;shopify&quot;</span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;max_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="response">Response<a class="headerlink" href="#response" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qry_a1b2c3d4e5f6&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our top 5 Shopify orders this month?&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;connector&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;shopify&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;source_label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Shopify Orders&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;chunks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;chunk_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;chnk_x1y2&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;source_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://admin.shopify.com/store/.../orders/12345&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;relevance_score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.98</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;order_total&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;4299.00&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;currency&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;customer_email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;customer@example.com&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-14T10:30:00Z&quot;</span>
-<span class="w">          </span><span class="p">}</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">]</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;search_summary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;connectors_searched&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;total_chunks_found&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;duration_ms&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">847</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="code-examples">Code Examples<a class="headerlink" href="#code-examples" title="Anchor link to this section">&para;</a></h3>
-<p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-<span class="s1">    &quot;query&quot;: &quot;Show me recent HubSpot deals over $10,000&quot;,</span>
-<span class="s1">    &quot;connectors&quot;: [&quot;hubspot&quot;],</span>
-<span class="s1">    &quot;max_results&quot;: 5</span>
-<span class="s1">  }&#39;</span>
-</code></pre></div>
-<p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;Content-Type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
-<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">connectors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;hubspot&quot;</span><span class="p">],</span>
-<span class="w">    </span><span class="nx">max_results</span><span class="o">:</span><span class="w"> </span><span class="mf">5</span><span class="p">,</span>
-<span class="w">  </span><span class="p">}),</span>
-<span class="p">});</span>
-
-<span class="kd">const</span><span class="w"> </span><span class="nx">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">results</span><span class="p">);</span>
-</code></pre></div>
-<p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-    <span class="p">},</span>
-    <span class="n">json</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;connectors&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hubspot&quot;</span><span class="p">],</span>
-        <span class="s2">&quot;max_results&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
-    <span class="p">},</span>
-<span class="p">)</span>
-
-<span class="n">data</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">]:</span>
-    <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">result</span><span class="p">[</span><span class="s2">&quot;chunks&quot;</span><span class="p">]:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">chunk</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">])</span>
-</code></pre></div>
-<hr />
-<h2 id="post-deep_search">POST /deep_search<a class="headerlink" href="#post-deep_search" title="Anchor link to this section">&para;</a></h2>
-<p>Search the encrypted archive of previously executed queries and results.</p>
-<h3 id="request_1">Request<a class="headerlink" href="#request_1" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="err">POST /v1/deep_search</span>
-<span class="err">Content-Type: application/json</span>
-<span class="err">Authorization: Bearer &lt;token&gt;</span>
-</code></pre></div>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>query</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Search term to match against archived queries and results</td>
-</tr>
-<tr>
-<td><code>max_results</code></td>
-<td>integer</td>
-<td>No</td>
-<td>Maximum results (default: 20, max: 50)</td>
-</tr>
-<tr>
-<td><code>date_from</code></td>
-<td>string</td>
-<td>No</td>
-<td>ISO 8601 start date filter</td>
-</tr>
-<tr>
-<td><code>date_to</code></td>
-<td>string</td>
-<td>No</td>
-<td>ISO 8601 end date filter</td>
-</tr>
-</tbody>
-</table>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;max_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;date_from&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="response_1">Response<a class="headerlink" href="#response_1" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ds_a1b2c3d4e5&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;archive_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;original_query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qry_abc123&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;original_query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our Q2 revenue projections from QuickBooks?&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;matched_chunk&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q2 projected revenue: $847,200 based on invoiced orders...&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;source_connector&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;quickbooks&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;queried_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-04-15T14:22:00Z&quot;</span>
-<span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="nt">&quot;similarity_score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.87</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;total_matches&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;duration_ms&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">312</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="code-examples_1">Code Examples<a class="headerlink" href="#code-examples_1" title="Anchor link to this section">&para;</a></h3>
-<p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-<span class="s1">    &quot;query&quot;: &quot;Q3 revenue projections&quot;,</span>
-<span class="s1">    &quot;max_results&quot;: 10,</span>
-<span class="s1">    &quot;date_from&quot;: &quot;2026-01-01T00:00:00Z&quot;</span>
-<span class="s1">  }&#39;</span>
-</code></pre></div>
-<p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;Content-Type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
-<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">max_results</span><span class="o">:</span><span class="w"> </span><span class="mf">10</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">date_from</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="p">}),</span>
-<span class="p">});</span>
-</code></pre></div>
-<p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">},</span>
-    <span class="n">json</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;max_results&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
-        <span class="s2">&quot;date_from&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span><span class="p">,</span>
-    <span class="p">},</span>
-<span class="p">)</span>
-</code></pre></div>
-<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Q: What is the POST /query endpoint used for?</strong><br />
-A: POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results.</p>
-<p><strong>Q: What does POST /deep_search do?</strong><br />
-A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls  --  it searches only your query history for pattern discovery and auditing.</p>
-<p><strong>Q: How do I scope queries to specific connectors?</strong><br />
-A: Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {"query": "revenue this month", "connectors": ["stripe", "quickbooks"]}.</p>
-<h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
+<h1 id="whatsapp-business-tools-mcp-official-integration-guide">WhatsApp Business Tools MCP (Official) - Integration Guide<a class="headerlink" href="#whatsapp-business-tools-mcp-official-integration-guide" title="Anchor link to this section">&para;</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
+<p>Meta's remote MCP server for the WhatsApp Business Platform (Cloud API), announced September 15, 2026 and rolling out gradually. It lets an AI agent act on the apps and businesses you administer: discover businesses and WhatsApp accounts, onboard and register phone numbers, create and manage message templates, configure webhooks, and send messages.</p>
+<p>Remote endpoint: <code>https://mcp.facebook.com/whatsapp_business_tools</code></p>
+<h2 id="what-it-can-do">What it can do<a class="headerlink" href="#what-it-can-do" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
-<li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
-<li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
-<li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
-<li><strong><a href="/enterprise">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/security">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
+<li>Discover the businesses and WhatsApp accounts you administer</li>
+<li>Onboard and register phone numbers</li>
+<li>Create and manage message templates</li>
+<li>Configure webhooks</li>
+<li>Send messages</li>
 </ul>
-<h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>A WhatsApp-enabled app you are an admin of (WhatsApp Business Messaging use case), connected to the business. Admin access on the app itself is required, not only on the business.</li>
+<li>Accepted WhatsApp Business Cloud API Terms of Service for that business. Messaging and number registration are blocked until an admin accepts.</li>
+</ul>
+<h2 id="connecting">Connecting<a class="headerlink" href="#connecting" title="Anchor link to this section">&para;</a></h2>
+<p>Any client that supports remote MCP servers can connect to the endpoint directly. For clients that only support local (stdio) servers, Meta documents using the <code>mcp-remote</code> bridge to proxy the remote server over stdio.</p>
+<h2 id="availability-notes">Availability notes<a class="headerlink" href="#availability-notes" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Beta: Meta states the interface and tool set may change, and the server is rolling out gradually, so it may not be available on every account yet.</li>
+</ul>
+<h2 id="why-operators-care">Why operators care<a class="headerlink" href="#why-operators-care" title="Anchor link to this section">&para;</a></h2>
+<p>WhatsApp Business setup (number registration, template approvals, webhook wiring) is normally a dashboard slog across Business Manager screens. This server puts that work into the same agent conversation where the rest of the stack is managed.</p>
+<h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="/docs/hermes/mcp/servers/external/whatsmcp-mcp">WhatsMCP MCP</a> - third-party WhatsApp numbers for AI agents.</li>
+<li><a href="/docs/hermes/mcp/servers/external/meta-ads-mcp-official">Meta Ads MCP (Official)</a> - Meta's ads server.</li>
+</ul>
 
 
 
@@ -10800,7 +10337,7 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
