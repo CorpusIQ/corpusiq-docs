@@ -15,8 +15,8 @@ tags: [screen-recording, workflow-memory, local-first, audio-transcription, prod
 
 ```
 Server type: stdio via npm (local API at localhost:3030), optional HTTP wrapper
-Auth: None for local use; optional SCREENPIPE_LOCAL_API_KEY
-Install: npx -y screenpipe-mcp
+Auth: Screenpipe local API authentication; configure SCREENPIPE_LOCAL_API_KEY
+Install: desktop Settings > Connections, or manual setup in the official MCP guide
 Tools: search-content, export-video over the local capture index
 Requirements: screenpipe app running, Node.js 18+
 License: source-available under the Screenpipe Commercial License
@@ -37,47 +37,19 @@ Operators live in context nobody captures: the dashboard you checked before the 
 | `search-content` | Search the local index across screen text, audio transcripts, user input events, apps, windows and time ranges |
 | `export-video` | Export recorded video for a selected local time range |
 
-The MCP server is a thin layer over the richer local API (`localhost:3030`), which adds OCR, full-text search, audio transcription, and pipe-based processing. If the MCP server returns empty results, the health check is `curl http://localhost:3030/health` - the capture app must be running first.
+The MCP server is a thin layer over the richer local API (`localhost:3030`), which adds OCR, full-text search, audio transcription, and pipe-based processing. The capture app must be running; check capture status and API authentication when retrieval fails or returns no history.
 
-## Installation
+## Installation and authentication
 
-```bash
-claude mcp add screenpipe --transport stdio -- npx -y screenpipe-mcp
-```
+Keep Screenpipe running, then connect Claude Desktop from **Settings > Connections** in the desktop app. The app writes a configuration using its bundled runtime and supplies the local API key.
 
-Or via one-click install from the screenpipe desktop app: Settings → Connections → Install extension, which writes the config for Claude, Codex or Cursor automatically.
+For manual setup, follow the [official Screenpipe MCP installation guide](https://github.com/screenpipe/screenpipe/blob/main/packages/screenpipe-mcp/README.md#installation). It includes the current client configuration, Node/NPX prerequisites and `SCREENPIPE_LOCAL_API_KEY` environment setting. Obtain the key locally with `screenpipe auth token`; keep it private.
 
-Manual JSON config for Claude Desktop (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+The MCP server can attempt key discovery when the environment setting is omitted. That fallback does not make the local API unauthenticated, and it can delay startup on a cold package cache. Explicitly providing the key is the recommended manual setup.
 
-```json
-{
-  "mcpServers": {
-    "screenpipe": {
-      "command": "npx",
-      "args": ["-y", "screenpipe-mcp"],
-      "transport": "stdio"
-    }
-  }
-}
-```
+The [HTTP transport guide](https://github.com/screenpipe/screenpipe/blob/main/packages/screenpipe-mcp/README.md#option-3-http-server-remote--network-access) distinguishes the Screenpipe API key from the separate bearer credential used by remote MCP callers.
 
-For Codex, the app writes `~/.codex/config.toml` directly; manual form:
-
-```toml
-[mcp_servers.screenpipe]
-command = "npx"
-args = ["-y", "screenpipe-mcp"]
-enabled = true
-```
-
-## Configuration
-
-| Variable | Required | Default | Description |
-|---|---|---|---|
-| `SCREENPIPE_LOCAL_API_KEY` | no | - | Optional key for the local API, set in the same config block |
-| app process | yes | - | screenpipe desktop app must be running on localhost:3030 |
-
-Verify the connection by asking the agent "what did I do in the last 5 minutes" - a working install answers from the local index.
+Verify the connection by asking the agent "what did I do in the last 5 minutes". A successful query requires a running recorder, working API authentication and captured history in that time range.
 
 ## Business Relevance
 
