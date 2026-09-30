@@ -658,3 +658,6 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [OmniRoute Skills - 70.9K⭐ AI Gateway Suite Setup](/docs/hermes/skills/catalog/omniroute-skills-setup)
 - [rlaope Oh My Hermes - 130-Skill All-in-One Plugin Setup](/docs/hermes/skills/catalog/rlaope-oh-my-hermes-setup)
 - [React Native Update Skill - OTA Update Integration Setup](/docs/hermes/skills/catalog/react-native-update-skill-setup)
+- [Dboeckli AI Agent Skills - CLI & Best Practices Setup](/docs/hermes/skills/catalog/dboeckli-ai-agent-skills-setup)
+- [OpenSpec Skills - Spec-Driven Development Suite Setup](/docs/hermes/skills/catalog/fission-openspec-skills-setup)
+- [Riekelt Principal Engineer - Engineering Discipline Suite Setup](/docs/hermes/skills/catalog/riekelt-principal-engineer-setup)
