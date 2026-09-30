@@ -12,15 +12,26 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 30, 2026 (morning sweep plus targeted addition) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 760 servers (+646 guides)
+> **Last updated:** September 30, 2026 (midday sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 764 servers (+650 guides)
 
-## September 30, 2026 - Targeted Addition: Official Meta MCP Servers (3 New, 3 Guides)
+## 🆕 September 30, 2026 - Targeted Addition: Official Meta MCP Servers (3 New, 3 Guides)
 
 Meta now ships first-party remote MCP servers for its business surfaces: the **Meta Ads MCP** (open beta since April 29, opened to any developer with their own Meta app on September 22), the **WhatsApp Business Tools MCP** (announced September 15, rolling out), and the **Meta Social Technologies MCP** for app developers. All three are remote servers with OAuth and read and manage scope control.
 
 - [Meta Ads MCP (Official) - Campaigns from Any Agent](/docs/hermes/mcp/servers/external/meta-ads-mcp-official) · Meta-hosted at mcp.facebook.com/ads with 29 tools across reporting, ad and catalog management, signals, A/B tests and activity logs; per-account agent rules.
 - [WhatsApp Business Tools MCP (Official) - WhatsApp Business from an Agent](/docs/hermes/mcp/servers/external/whatsapp-business-tools-mcp) · onboarding, phone-number registration, templates, webhooks and messaging at mcp.facebook.com/whatsapp_business_tools.
 - [Meta Social Technologies MCP (Official) - App Ops for developers.facebook.com](/docs/hermes/mcp/servers/external/meta-social-technologies-mcp) · webhooks, compliance, app status, API health and developer docs search.
+
+## 🆕 September 30, 2026 - Midday Sweep (4 New, 4 Guides)
+
+Midday sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with seven detail pages fetched. Feed-order recency: the morning sweep's OceanAlt AML entry anchors the feed, so the two entries ahead of it were evaluated fresh and both were catalogued. 4 new business-relevant servers catalogued with guides:
+
+- [Povver MCP - Strength Training Data for Your Assistant](/hermes/mcp/servers/external/povver-mcp/) · 38 tools over OAuth or a bearer key: 25 reads across set-level history, strength climbs, muscle volume and plateau detection, 13 writes for routines and periodization plans.
+- [Aayat AI MCP - Pay-Per-Use Data and Tools for Agents](/hermes/mcp/servers/external/aayat-ai-mcp/) · 160 pay-per-use tools behind one keyless endpoint: token safety checks, cited web search, page-to-Markdown, library docs and company research, 20 free calls a day.
+- [Adviserry MCP - Newsletter Search and Drafted Actions](/hermes/mcp/servers/external/adviserry-mcp/) · 13 tools over newsletter panels and uploaded documents: source search, insight readback and copy-ready drafted actions with their source trail.
+- [Blog2Social MCP - Multi-Network Social Publishing](/hermes/mcp/servers/external/blog2social-mcp/) · hosted OAuth server at api.blog2social.com/mcp publishing and scheduling across 30+ social, blogging and community networks.
+
+**Also identified (not catalogued):** TrackIQ (Amazon seller analytics, detail fetch queued for the next cycle), pdf.net (PDF editing in chat, commodity document-utility saturation class after PDFHaul and PDFGate), SMAT (OAuth social publishing, publishing saturation class after ContentStudio, Rebbel and Blog2Social), HaberChat (WhatsApp inbox, communication saturation class after Odichat), Agent Credit Bureau (crypto risk assessment over x402), ECRP (elder care resource planning, consumer care-navigation niche), Well Prepped Life (Bay Area meal-prep booking, regional consumer service), plus Beemm Vision, MX Verdict, AnswerLine, Dive Kit, Robozukan, SubmitraX and Tempi. Feed and /all repeats already disposed by the September 30 morning sweep and prior sweeps: prodready, uplika, How To Make Money On Snapchat, MemeSwap MCP, MeroFoundry, Rebbel, Dumpster Controls, Unipile, fAlpha, TokElements, GAIP Agents, HeyLead, elmah.io MCP, trip1, Webshare, Firme360, systemHUB, AccountHub, AgentGrown, ohmyho.st, EQIQs, Selfstorming, Uxia, Texas RRC Wellbore Intelligence and TinyFish.
 
 ## 🆕 September 30, 2026 - Morning Sweep (7 New, 7 Guides)
 
