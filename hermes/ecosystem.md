@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem - 190+ repos, tools, skills, and integrations
-last_updated: "2026-09-29"
+last_updated: "2026-09-30"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -1627,7 +1627,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*191+ repositories in the Hermes ecosystem. Last updated: 2026-09-29. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*191+ repositories in the Hermes ecosystem. Last updated: 2026-09-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
