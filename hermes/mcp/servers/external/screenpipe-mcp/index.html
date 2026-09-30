@@ -8238,6 +8238,8 @@
       
         
       
+        
+      
     
     
     
@@ -8474,6 +8476,34 @@
     
   
     MCP Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/best-practices/12-factor-agents" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12-Factor Agents
   
 
     
@@ -10122,21 +10152,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#installation-and-authentication" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration
+        Installation and authentication
       
     </span>
   </a>
@@ -10199,8 +10218,8 @@
 <h1 id="screenpipe-mcp">Screenpipe MCP<a class="headerlink" href="#screenpipe-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Local-first workflow memory for AI agents: screenpipe captures selected screen, audio, app and meeting context on-device 24/7, then exposes that searchable history to Claude, Codex, Cursor and other MCP clients through an MCP server and local API.</strong> YC S26 company, 21,000+ GitHub stars, and raw history stays local by default. The local MCP server queries the screenpipe API at <code>localhost:3030</code>; configured cloud AI, transcription, sync, integrations and connected AI clients can transmit context off-device.</p>
 <div class="highlight"><pre><span></span><code>Server type: stdio via npm (local API at localhost:3030), optional HTTP wrapper
-Auth: None for local use; optional SCREENPIPE_LOCAL_API_KEY
-Install: npx -y screenpipe-mcp
+Auth: Screenpipe local API authentication; configure SCREENPIPE_LOCAL_API_KEY
+Install: desktop Settings &gt; Connections, or manual setup in the official MCP guide
 Tools: search-content, export-video over the local capture index
 Requirements: screenpipe app running, Node.js 18+
 License: source-available under the Screenpipe Commercial License
@@ -10229,54 +10248,13 @@ Built by: screenpipe (screenpipe.com, YC S26) - 21,061★ on GitHub
 </tr>
 </tbody>
 </table>
-<p>The MCP server is a thin layer over the richer local API (<code>localhost:3030</code>), which adds OCR, full-text search, audio transcription, and pipe-based processing. If the MCP server returns empty results, the health check is <code>curl http://localhost:3030/health</code> - the capture app must be running first.</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>screenpipe<span class="w"> </span>--transport<span class="w"> </span>stdio<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>-y<span class="w"> </span>screenpipe-mcp
-</code></pre></div>
-<p>Or via one-click install from the screenpipe desktop app: Settings → Connections → Install extension, which writes the config for Claude, Codex or Cursor automatically.</p>
-<p>Manual JSON config for Claude Desktop (<code>~/Library/Application Support/Claude/claude_desktop_config.json</code>):</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;screenpipe&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;screenpipe-mcp&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;stdio&quot;</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<p>For Codex, the app writes <code>~/.codex/config.toml</code> directly; manual form:</p>
-<div class="highlight"><pre><span></span><code><span class="k">[mcp_servers.screenpipe]</span>
-<span class="n">command</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span>
-<span class="n">args</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;screenpipe-mcp&quot;</span><span class="p">]</span>
-<span class="n">enabled</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
-</code></pre></div>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Required</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>SCREENPIPE_LOCAL_API_KEY</code></td>
-<td>no</td>
-<td>-</td>
-<td>Optional key for the local API, set in the same config block</td>
-</tr>
-<tr>
-<td>app process</td>
-<td>yes</td>
-<td>-</td>
-<td>screenpipe desktop app must be running on localhost:3030</td>
-</tr>
-</tbody>
-</table>
-<p>Verify the connection by asking the agent "what did I do in the last 5 minutes" - a working install answers from the local index.</p>
+<p>The MCP server is a thin layer over the richer local API (<code>localhost:3030</code>), which adds OCR, full-text search, audio transcription, and pipe-based processing. The capture app must be running; check capture status and API authentication when retrieval fails or returns no history.</p>
+<h2 id="installation-and-authentication">Installation and authentication<a class="headerlink" href="#installation-and-authentication" title="Anchor link to this section">&para;</a></h2>
+<p>Keep Screenpipe running, then connect Claude Desktop from <strong>Settings &gt; Connections</strong> in the desktop app. The app writes a configuration using its bundled runtime and supplies the local API key.</p>
+<p>For manual setup, follow the <a href="https://github.com/screenpipe/screenpipe/blob/main/packages/screenpipe-mcp/README.md#installation">official Screenpipe MCP installation guide</a>. It includes the current client configuration, Node/NPX prerequisites and <code>SCREENPIPE_LOCAL_API_KEY</code> environment setting. Obtain the key locally with <code>screenpipe auth token</code>; keep it private.</p>
+<p>The MCP server can attempt key discovery when the environment setting is omitted. That fallback does not make the local API unauthenticated, and it can delay startup on a cold package cache. Explicitly providing the key is the recommended manual setup.</p>
+<p>The <a href="https://github.com/screenpipe/screenpipe/blob/main/packages/screenpipe-mcp/README.md#option-3-http-server-remote--network-access">HTTP transport guide</a> distinguishes the Screenpipe API key from the separate bearer credential used by remote MCP callers.</p>
+<p>Verify the connection by asking the agent "what did I do in the last 5 minutes". A successful query requires a running recorder, working API authentication and captured history in that time range.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Executives and operators</strong> get searchable meeting memory; transcription and AI processing depend on the configured providers. See <a href="https://screenpipe.com/onboarding">current plans</a> for pricing</li>
