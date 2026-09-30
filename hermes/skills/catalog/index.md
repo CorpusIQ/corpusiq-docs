@@ -178,6 +178,17 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 
 ## All Skills Catalog Pages
 
+### New - September 30, 2026 Sweep (8 publisher guides)
+
+- [Assistant UI Skills - AI Chat Interface Dev Suite Setup](/docs/hermes/skills/catalog/assistant-ui-skills-setup)
+- [Claude MPM Skills - 96-Skill Dev Toolchain Collection Setup - Setup Guide](/docs/hermes/skills/catalog/claude-mpm-skills-setup)
+- [Dot Skills - 96-Skill Agent Engineering Collection Setup - Setup Guide](/docs/hermes/skills/catalog/dot-skills-setup)
+- [Gemini Skills - Official Google AI Development Suite Setup](/docs/hermes/skills/catalog/gemini-skills-setup)
+- [Harmony Next Skills - Setup Guide](/docs/hermes/skills/catalog/harmony-next-skills-setup)
+- [James Rochabrun Skills - Setup Guide](/docs/hermes/skills/catalog/jamesrochabrun-skills-setup)
+- [Meta Quest Agentic Tools - Horizon OS VR Dev Suite Setup](/docs/hermes/skills/catalog/meta-quest-agentic-tools-setup)
+- [Skill From Masters - Domain Expert Methodology Suite Setup - Setup Guide](/docs/hermes/skills/catalog/skill-from-masters-setup)
+
 ### New - September 29, 2026 Sweep (64 publisher guides)
 
 - [AAHL Skills - Smart Home & TTS Setup](/docs/hermes/skills/catalog/aahl-skills-setup)

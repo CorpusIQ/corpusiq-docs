@@ -1,9 +1,9 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  1,013+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh  --  1,021+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-09-30"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**1,013+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,021+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [🆕 September 30, 2026 (Morning) - Official Google Gemini Skills (47.8K, 4.2K⭐), Assistant UI (89.5K, 17 skills), Dot Skills (30.6K, 96 skills), Claude MPM (26.1K, 96 skills), James Rochabrun (7.4K), Skill From Masters (2.1K), Meta Quest Agentic Tools (5.4K, 39 skills), Harmony Next (320) - 8 new publisher clusters, 282 skills, 8 setup guides + 1 angular deprecated-alias reconcile](/docs/hermes/skills/marketplace/new-sep30-2026-skills)
+
 - [🆕 September 29, 2026 (Evening) - Principal Engineer discipline suite (120K), OpenSpec SDD skills (42K, 70.7K⭐ un-parked from Aug 18 watch-list), Dboeckli AI Agent Skills (11K) - 3 new publisher clusters, 31 skills, 3 setup guides](/docs/hermes/skills/marketplace/new-sep29-2026-evening-skills)
 
 
@@ -302,7 +304,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,064+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,072+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/docs/hermes/skills) | [Skills Catalog](/docs/hermes/skills/catalog) | [Latest Discoveries →](/docs/hermes/skills/marketplace/new-june29-2026)*
 

@@ -3,7 +3,7 @@ title: "Angular Skills - Framework Development Setup"
 description: "angular/skills - 2 skills, 40.1K installs: version-aware Angular code generation and new-project scaffolding from the Angular team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/angular-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-16"
+last_updated: "2026-09-30"
 tags: ["hermes skill", "agent skill", "skill setup", "angular", "frontend"]
 ---
 
@@ -17,6 +17,10 @@ tags: ["hermes skill", "agent skill", "skill setup", "angular", "frontend"]
 **Quality Tier:** 🟢 Production - official Angular org; angular-developer passes all three security audits
 
 The Angular team's official skills teach agents version-aware framework development: analyze the project's Angular version before advising, scaffold with the CLI for consistency, and validate every generated change with `ng build`. A compact, high-signal suite with a build-verification discipline worth copying.
+
+## Source Note - Deprecated skills.sh Alias (Sep 30, 2026)
+
+skills.sh also indexes the deprecated [analogjs/angular-skills](https://github.com/analogjs/angular-skills) repo (591⭐, MIT, main branch) under 10 listings (angular-component 11.1K, angular-signals 8.5K, angular-forms 7.0K, angular-routing 6.7K, angular-http 6.4K, angular-testing 6.1K, angular-di 5.7K, angular-directives 5.6K, plus 2 more, ~63K combined installs). That repo carries a DEPRECATED banner pointing to [angular/skills](https://github.com/angular/skills), the canonical source this guide documents. Install from angular/skills; treat the analogjs listings as a legacy alias only.
 
 ---
 
