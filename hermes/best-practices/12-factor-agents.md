@@ -1,6 +1,6 @@
 ---
 title: "12-Factor Agents - Engineering Standards for AI Agents"
-description: The 12-Factor Agents framework applied to Hermes Agent: mostly deterministic software with LLM steps at the right points, mapped factor by factor.
+description: "The 12-Factor Agents framework applied to Hermes Agent: mostly deterministic software with LLM steps at the right points, mapped factor by factor."
 category: best-practices
 tags: [hermes-agent, 12-factor-agents, engineering-standards, production-agents, agent-architecture, deterministic-software, agent-reliability]
 last_updated: 2026-09-29
