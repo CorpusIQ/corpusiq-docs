@@ -62,8 +62,8 @@ License: Apache-2.0 from an official Google GitHub organization, permissive for 
 
 ## Related
 
-- [Assistant UI Skills Setup](/docs/hermes/skills/catalog/assistant-ui-skills-setup/)
-- [Meta Quest Agentic Tools Setup](/docs/hermes/skills/catalog/meta-quest-agentic-tools-setup/)
+- [Assistant UI Skills Setup](/docs/hermes/skills/catalog/assistant-ui-skills-setup)
+- [Meta Quest Agentic Tools Setup](/docs/hermes/skills/catalog/meta-quest-agentic-tools-setup)
 - [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 *← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*

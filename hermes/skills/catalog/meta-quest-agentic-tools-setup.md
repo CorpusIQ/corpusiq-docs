@@ -66,8 +66,8 @@ License: Apache-2.0 from the official Meta Quest GitHub organization, permissive
 
 ## Related
 
-- [Gemini Skills Setup](/docs/hermes/skills/catalog/gemini-skills-setup/)
-- [Assistant UI Skills Setup](/docs/hermes/skills/catalog/assistant-ui-skills-setup/)
+- [Gemini Skills Setup](/docs/hermes/skills/catalog/gemini-skills-setup)
+- [Assistant UI Skills Setup](/docs/hermes/skills/catalog/assistant-ui-skills-setup)
 - [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 *← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
