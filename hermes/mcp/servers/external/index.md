@@ -12,7 +12,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 29, 2026 (late evening sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 750 servers (+636 guides)
+> **Last updated:** September 30, 2026 (morning sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 757 servers (+643 guides)
+
+## 🆕 September 30, 2026 - Morning Sweep (7 New, 7 Guides)
+
+Morning sweep over the mcp.so /feed (29 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 11 detail pages fetched (5 mcp.so server pages and 6 mcpservers.org detail pages through the reader proxy). Feed-order recency: the late evening sweep's Porkbun and GAIP entries anchor the feed, so the 5 entries ahead of them were evaluated fresh (1 catalogued, 4 disposed) and the /all pages carried the other 6 new servers. 7 new business-relevant servers catalogued with guides:
+
+- [Vouched MCP - SEO Data with Provenance for Agents](/hermes/mcp/servers/external/vouched-mcp/) · 19 read-only tools over GSC, GA4, DataForSEO market data and AI answer visibility, MIT open source with a self-host option.
+- [SignalPipe MCP - Buying-Intent Lead Detection](/hermes/mcp/servers/external/signalpipe-mcp/) · 29 tools with a three-judge buying-intent swarm, nurture engine with objection memory and approval-gated sending.
+- [MentionFox MCP - Cited Reports and Mention Scans](/hermes/mcp/servers/external/mentionfox-mcp/) · 9 tools for source-cited people and company reports, credential checks and daily brand mention scans with buy-ready flags.
+- [Kresmion MCP - Market Intelligence for Agents](/hermes/mcp/servers/external/kresmion-mcp/) · 35 tools over prediction markets, on-chain flows, equity signals, 13F and macro regime, free during beta.
+- [Family Office Registry MCP - Sourced Investor Data](/hermes/mcp/servers/external/family-office-registry-mcp/) · keyless open tier searching 388 verified family offices with sourced, dated records.
+- [Ownware Catalogue MCP - Self-Hosted Business Apps](/hermes/mcp/servers/external/ownware-catalogue-mcp/) · 274 tools across 48 self-hosted ERP apps with read-only keys and a no-delete surface.
+- [OceanAlt AML MCP - Payment Screening for Agents](/hermes/mcp/servers/external/oceanalt-aml-mcp/) · 12 tools for AML screening, payee readiness and blind-signing guards, 9 free keyless via npx.
+
+**Also identified (not catalogued):** prodready (free code due-diligence and SDLC governance, dev infra class per the MeroFoundry ruling), RichAPI (live B2B enrichment waterfalls, saturation class after Databar.ai and Deeplead), Anomaly AI (thin docs with no published tools or endpoint), uplika (multi-channel social publishing, saturation class after ContentStudio, SMAT, PostBazooka and BulkPublish), dum (approval-gated campaign drafting, saturation class after Rebbel), How To Make Money On Snapchat (creator-monetization niche), MemeSwap MCP (crypto class) and the /all consumer, geo-niche and dev-utility slugs (Cody support-ops saturation, Suggix, Adviserry, Tempi, PDFHaul, Hookova, LinkBunny, MateMCP, Swebsy, Tokmeter, LiteLambda, NoMac, Symbioza, Friday, Arroway, Pizza Developer, AgentHop, Auth Your Agent, GeoSource, ImmoDocs, Gilbert, Clipy, VideoGen, betterimage, AI was here, SelectaRank, pcb.express, TrueProxies, Apify LintLab, Monocrawl, Jagent Graders, ECRP, CovaSyn, Revit Model, ssh-mcp, Orisu, 3D Texel, Garmin, Agentboxd, Agent Credit Bureau, Well Prepped Life, Bay Area Mobile Dog Wash, Lifeguard Training NY and Tradehand). Feed and /all repeats already disposed by prior sweeps: elmah.io MCP, Minimax H3, trip1, Webshare, AQL PropertyCheck, Firme360, TokElements, MeroFoundry, systemHUB, AccountHub, AgentGrown, ohmyho.st and Selfstorming.
 
 ## 🆕 September 29, 2026 - Morning Sweep (6 New, 6 Guides)
 
