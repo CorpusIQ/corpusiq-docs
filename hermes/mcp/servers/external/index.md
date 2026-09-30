@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 30, 2026 (midday sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 764 servers (+650 guides)
+> **Last updated:** September 30, 2026 (evening sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 762 servers (+648 guides)
+
+## 🆕 September 30, 2026 - Evening Sweep (1 New, 1 Guide)
+
+Evening sweep over the mcp.so /feed (30 server blocks, direct fetch with a browser user agent) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with three detail pages fetched. Feed-order recency against the midday anchor turned up two genuinely new entries above it; one was catalogued and one was held. 1 new business-relevant server catalogued with a guide:
+
+- [PixelDojo MCP - 140+ Generative Models for Agents](/hermes/mcp/servers/external/pixeldojo-mcp/) · remote Streamable HTTP at pixeldojo.ai/mcp with OAuth or a pd_ bearer key, plus local stdio via npx: 19 tools for image, video and audio generation, editing and upscaling, with studio pipelines for product ads, campaigns, short films and explainer episodes.
+
+**Also identified (not catalogued):** TrackIQ (Amazon seller and vendor analytics with a sponsored Ads surface and one-click Amazon OAuth; held because the tool count contradicts between the vendor page and the directory listing and neither the transport nor the endpoint URL is published, detail fetch complete), LinkBunny (local stdio link-building utility, five tools plus a bundled guidance resource, SEO-utility class already covered), Agent Cody (Slack-native hosted assistant from 479 USD per month with no published MCP endpoint or protocol surface, so a protocol guide would be inaccurate), plus the feed and /all repeats already disposed by the September 30 morning and midday sweeps, the September 29 sweeps and earlier ledgers: prodready, uplika, How To Make Money On Snapchat, MemeSwap MCP, MeroFoundry, Rebbel, Dumpster Controls, Unipile, fAlpha, TokElements, GAIP Agents, HeyLead, elmah.io MCP, trip1, Webshare, systemHUB, AccountHub, AgentGrown, ohmyho.st, EQIQs, Selfstorming, Uxia, Texas RRC Wellbore Intelligence, TinyFish, pdf.net, SMAT, HaberChat, Agent Credit Bureau, ECRP, Well Prepped Life, Beemm Vision, MX Verdict, AnswerLine, Dive Kit, Robozukan, SubmitraX, Tempi, Garmin, health-os, MateMCP, Swebsy, NoMac, Monocrawl, betterimage, Hookova, PDFHaul, LiteLambda, Suggix, Arroway, Friday, ImmoDocs, Gilbert, Clipy, VideoGen, pcb.express, TrueProxies, SelectaRank, Revit Model, Symbioza, CovaSyn, AgentHop, Auth Your Agent, GeoSource, Agentboxd and AQL PropertyCheck.
 
 ## 🆕 September 30, 2026 - Targeted Addition: Official Meta MCP Servers (3 New, 3 Guides)
 
