@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 189+ repos, tools, skills, and integrations
-last_updated: "2026-09-28"
+description: Comprehensive directory of the Hermes Agent ecosystem - 190+ repos, tools, skills, and integrations
+last_updated: "2026-09-29"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **190+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 186 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **191+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 186 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **189+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **190+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **190+ reposit
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 38 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 39 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1370,6 +1370,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [agentrq/agentrq](https://github.com/agentrq/agentrq) ⭐ 1,134
+
+>Human-in-loop realtime conversational task manager for AI agents. Self-hosted control plane for mobile, web and desktop. Works with Claude subscriptions and any harness with ACP support.
+
+**Language:** Go | **Topics:** acp, acp-gateway, agentic-ai, hermes-agent, mcp, task-manager, task-scheduler | **Score:** 77/100
+
+---
+
 ### [uzairansaruzi/hermex](https://github.com/uzairansaruzi/hermex) ⭐ 953
 
 >Native iPhone app for your Hermes agent
@@ -1619,7 +1627,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*190+ repositories in the Hermes ecosystem. Last updated: 2026-09-28. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*191+ repositories in the Hermes ecosystem. Last updated: 2026-09-29. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
