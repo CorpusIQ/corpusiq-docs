@@ -15859,5 +15859,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-30T07:04:47.487306+00:00"
+  },
+  {
+    "repo": "vbcherepanov/hermes-tam-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970116+00:00"
+  },
+  {
+    "repo": "nicoloboschi/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970129+00:00"
+  },
+  {
+    "repo": "ychampion/melete",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970132+00:00"
+  },
+  {
+    "repo": "529349029/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970133+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-sprites",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970135+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-telegram-business",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970137+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-desktop-accent-picker",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970138+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-backsearch",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970142+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-touchdesigner",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970144+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-snyk",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-30T08:03:41.970146+00:00"
   }
 ]
