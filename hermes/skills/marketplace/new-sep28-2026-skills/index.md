@@ -1,5 +1,5 @@
 ---
-title: "Sep 28, 2026 - 4 New Skill Publisher Clusters (Jezweb 96, OmniRoute 70.9K⭐, rlaope OMH 130, React Native Update)"
+title: Sep 28, 2026 - 4 New Skill Publisher Clusters (Jezweb 96
 description: "Skills.sh sweep: 4 new publisher guides (Jezweb 96 skills, OmniRoute 44 skills, rlaope/oh-my-hermes 130 skills, react-native-update) + 3 roster reconciles."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep28-2026-skills/"
 robots: "index,follow"

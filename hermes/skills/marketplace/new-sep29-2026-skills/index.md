@@ -1,5 +1,5 @@
 ---
-title: "Sep 29, 2026 - Record Sweep: 64 New Publisher Clusters (~5.6M Installs)"
+title: "Sep 29, 2026 - Record Sweep: 64 New Publisher Clusters"
 description: "Skills.sh sweep: 64 new publisher setup guides (GSAP 443K, Jeff Allan 395K, K-Skill 425K, Nature Skills 226K, OKX 223K, .NET 207K + 58 more) and 29 roster reconciles."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep29-2026-skills/"
 robots: "index,follow"
