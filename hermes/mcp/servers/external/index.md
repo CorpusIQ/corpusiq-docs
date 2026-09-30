@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 30, 2026 (morning sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 757 servers (+643 guides)
+> **Last updated:** September 30, 2026 (morning sweep plus targeted addition) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 760 servers (+646 guides)
+
+## September 30, 2026 - Targeted Addition: Official Meta MCP Servers (3 New, 3 Guides)
+
+Meta now ships first-party remote MCP servers for its business surfaces: the **Meta Ads MCP** (open beta since April 29, opened to any developer with their own Meta app on September 22), the **WhatsApp Business Tools MCP** (announced September 15, rolling out), and the **Meta Social Technologies MCP** for app developers. All three are remote servers with OAuth and read and manage scope control.
+
+- [Meta Ads MCP (Official) - Campaigns from Any Agent](/docs/hermes/mcp/servers/external/meta-ads-mcp-official) · Meta-hosted at mcp.facebook.com/ads with 29 tools across reporting, ad and catalog management, signals, A/B tests and activity logs; per-account agent rules.
+- [WhatsApp Business Tools MCP (Official) - WhatsApp Business from an Agent](/docs/hermes/mcp/servers/external/whatsapp-business-tools-mcp) · onboarding, phone-number registration, templates, webhooks and messaging at mcp.facebook.com/whatsapp_business_tools.
+- [Meta Social Technologies MCP (Official) - App Ops for developers.facebook.com](/docs/hermes/mcp/servers/external/meta-social-technologies-mcp) · webhooks, compliance, app status, API health and developer docs search.
 
 ## 🆕 September 30, 2026 - Morning Sweep (7 New, 7 Guides)
 
