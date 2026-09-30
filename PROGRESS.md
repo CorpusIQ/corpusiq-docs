@@ -10,11 +10,11 @@ Current state and ongoing work for the public docs repository.
 
 ## File count (updated September 30, 2026)
 
-- **Total Markdown files:** 4658
+- **Total Markdown files:** 2591
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
-- **Docs subdirectory:** 12 content directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 534 setup guides for Hermes skills (measured: *setup*.md under hermes/skills); marketplace index tracks 1,013+ curated skills
-- **MCP servers:** 1023 total .md under hermes/mcp/; external catalog 745 servers (+631 guides) per Sep 29 evening sweep
+- **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
+- **Skills catalog:** 534 setup guides for Hermes skills (measured: *setup*.md under hermes/skills); marketplace index tracks 1,021+ curated skills
+- **MCP servers:** 1047 total .md under hermes/mcp/; external catalog 762 servers (+648 guides) per Sep 30 evening sweep
 - **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -40,6 +40,8 @@ The repo is actively maintained with daily automated updates:
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Docs maintenance ✅ (Sep 30, 2026, docs-mgmt cron):** routine audit. Repo-internal broken links: 0 (7,750 checked via cross-directory resolver; 7,464 cross-site marketing links correctly excluded). Frontmatter quote defects: 0. PII scan: 0 hits. Connector-count scan: clean. Stale top-level docs/ SEO pages: 0 (last bumped Sep 29). PROGRESS.md header stats refreshed to current: total Markdown 2591 (was 4658), hermes/mcp 1047 (was 1023), external catalog 762 servers (+648 guides) per Sep 30 evening sweep (was 745/+631), marketplace 1,021+ (was 1,013+), docs subdirs 21 (was 12). docs/hermes-sitemap.xml + docs/sitemap-index.xml lastmod refreshed to Sep 30.
 
 - **Docs maintenance ✅ (Sep 29, 2026, docs-mgmt cron):** routine audit. 0 broken internal links (7,567 checked). 129 stale last_updated dates bumped on top-level docs/ SEO pages. hermes-sitemap.xml + sitemap-index.xml lastmod refreshed to Sep 29. PROGRESS.md stats refreshed. Removed 3 flat-era compare twins (docs/fivetran, docs/make, docs/zapier; canonical pages live in docs/compare/) and 1 stray index.md.bak. Em-dashes scrubbed from 3 public scripts (process_submissions.py, discover.py, install-agent-stack.sh). Committed the evening MCP sweep index updates left uncommitted by the sweep cron. Deploy gap closed: 7 evening-sweep MCP server pages + the check-ai-answer-against-your-books guide verified live with HTTP 200.
 
