@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 29, 2026 (evening sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 745 servers (+631 guides)
+> **Last updated:** September 29, 2026 (late evening sweep) · **Sources:** mcp.so /feed (29 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 750 servers (+636 guides)
 
 ## 🆕 September 29, 2026 - Morning Sweep (6 New, 6 Guides)
 
@@ -51,6 +51,18 @@ Evening sweep over the mcp.so /feed (29 server blocks, direct fetch) and mcpserv
 - [GAIP Agents MCP - Agent Verification and Evidence Receipts](/docs/hermes/mcp/servers/external/gaip-agents-mcp) · keyless gaip_check, gaip_watch, gaip_diagnose and gaip_verify at gaipagents.com/mcp (broker v1.6.1, live-verified).
 
 **Also identified (not catalogued):** StudyDiff (scientific paper disagreement analysis - bench science class), rewire-bio Genomics MCP (EGA, ENA, ENCODE, GEO and NCBI region reads - research tool class) and Filesystem MCP by j0hanz (generic secure filesystem server - dev utility class). GAIP Agents was the sole post-midday feed arrival; EQIQs, Uxia, PaperOffice AI, Collide MCP, Screen Browser, SnapDeploy MCP, Laso Finance, TinyFish and the GenPark single-author burst respected prior dispositions from the Sep 28 and Sep 29 sweep ledgers.
+
+## 🆕 September 29, 2026 - Late Evening Sweep (5 New, 5 Guides)
+
+Late evening sweep over the mcp.so /feed (29 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 7 mcp.so detail pages fetched through the reader proxy. The Sep 29 evening sweep had catalogued GAIP Agents as the newest feed arrival, so the 7 entries ahead of it in feed order were evaluated fresh: 5 new business-relevant servers catalogued with guides and 2 disposed.
+
+- [Unipile MCP - LinkedIn, WhatsApp and Email APIs for Agents](/docs/hermes/mcp/servers/external/unipile-mcp) · Sales Navigator lead search, conversation sync and threaded email sends over an API key at developer.unipile.com/mcp.
+- [Rebbel MCP - Approval-Gated Social Marketing for Small Business](/docs/hermes/mcp/servers/external/rebbel-mcp) · brand guide, campaign planning and on-brand drafts that publish only after approval at app.rebbel.io/api/mcp.
+- [fAlpha MCP - Read-Only US Equity Research for Agents](/docs/hermes/mcp/servers/external/falpha-mcp) · 17 read-only tools: model signal, screener, analyst coverage, SEC filings and FRED macro at agent.falpha.ai/mcp.
+- [Porkbun MCP - Official Domain and DNS Management](/docs/hermes/mcp/servers/external/porkbun-mcp) · registration, DNS records, DNSSEC and static hosting with dry-run safety at mcp.porkbun.com/mcp.
+- [Dumpster Controls MCP - Field Service Operations for Agents](/docs/hermes/mcp/servers/external/dumpster-controls-mcp) · 24 propose-then-confirm tools for orders, dispatch, invoices and customers at mcp.dumpstercontrols.io/mcp.
+
+**Also identified (not catalogued):** TokElements (TikTok LIVE overlay widgets - creator and consumer class) and MeroFoundry (hosted app-building platform with 145 tools - dev infra class).
 
 ## 🆕 September 28, 2026 - Night Sweep (2 New, 2 Guides)
 
