@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+        <meta name="description" content="Midday sweep of the mcp.so feed and mcpservers.org: four new servers catalogued with integration guides, plus core listing verification.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/api/errors">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-midday">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/api/rate-limits">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/api/openapi">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>CorpusIQ API Error Codes - CorpusIQ Docs</title>
+    <title>MCP Server Discovery - September 30, 2026 (Midday)</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/api/errors">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-midday">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="CorpusIQ API Error Codes - CorpusIQ Docs">
-  <meta property="og:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+  <meta property="og:title" content="MCP Server Discovery - September 30, 2026 (Midday)">
+  <meta property="og:description" content="Midday sweep of the mcp.so feed and mcpservers.org: four new servers catalogued with integration guides, plus core listing verification.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CorpusIQ API Error Codes - CorpusIQ Docs">
-  <meta name="twitter:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+  <meta name="twitter:title" content="MCP Server Discovery - September 30, 2026 (Midday)">
+  <meta name="twitter:description" content="Midday sweep of the mcp.so feed and mcpservers.org: four new servers catalogued with integration guides, plus core listing verification.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "CorpusIQ API Error Codes - CorpusIQ Docs",
-    "description": "Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and",
-    "url": "https://www.corpusiq.io/docs/api/errors",
-    
-    "datePublished": "2026-08-23",
-    "dateModified": "2026-08-23",
+    "name": "MCP Server Discovery - September 30, 2026 (Midday)",
+    "description": "Midday sweep of the mcp.so feed and mcpservers.org: four new servers catalogued with integration guides, plus core listing verification.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-midday",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-23">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#error-codes" class="md-skip">
+        <a href="#mcp-server-discovery-september-30-2026-midday" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Error Codes - CorpusIQ Docs
+              MCP Server Discovery - September 30, 2026 (Midday)
             
           </span>
         </div>
@@ -334,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   
@@ -415,8 +408,6 @@
       
   
   
-    
-  
   
   
     
@@ -451,11 +442,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -483,7 +476,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -668,37 +661,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Errors
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="https://www.corpusiq.io/docs/api/errors" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/api/errors" class="md-nav__link">
         
   
   
@@ -714,142 +680,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#error-response-format" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Error Response Format
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Error Types
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#handling-errors-programmatically" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Handling Errors Programmatically
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Handling Errors Programmatically">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#retry-logic-for-429-rate-limited" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Retry Logic for 429 Rate Limited
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#handling-401-token-expiry" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Handling 401 Token Expiry
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#retry-with-exponential-backoff-for-500-errors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Retry with Exponential Backoff for 500 Errors
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#409-conflicts" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        409 Conflicts
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -10300,10 +10130,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#error-response-format" class="md-nav__link">
+  <a href="#discovery" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Error Response Format
+        Discovery
       
     </span>
   </a>
@@ -10311,10 +10141,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#error-types" class="md-nav__link">
+  <a href="#new-servers-catalogued" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Error Types
+        New servers catalogued
       
     </span>
   </a>
@@ -10322,60 +10152,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#handling-errors-programmatically" class="md-nav__link">
+  <a href="#core-listing-verification" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Handling Errors Programmatically
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Handling Errors Programmatically">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#retry-logic-for-429-rate-limited" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Retry Logic for 429 Rate Limited
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#handling-401-token-expiry" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Handling 401 Token Expiry
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#retry-with-exponential-backoff-for-500-errors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Retry with Exponential Backoff for 500 Errors
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#409-conflicts" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        409 Conflicts
+        Core listing verification
       
     </span>
   </a>
@@ -10383,10 +10163,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
+  <a href="#also-identified-not-catalogued" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Frequently Asked Questions
+        Also identified (not catalogued)
       
     </span>
   </a>
@@ -10394,10 +10174,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
+  <a href="#skip-classes-added" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Internal Links
+        Skip classes added
       
     </span>
   </a>
@@ -10405,10 +10185,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
+  <a href="#verification" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
+        Verification
       
     </span>
   </a>
@@ -10435,127 +10215,38 @@
   
 
 
-<h1 id="error-codes">Error Codes<a class="headerlink" href="#error-codes" title="Anchor link to this section">&para;</a></h1>
-<p>All CorpusIQ API errors follow a consistent JSON structure with a machine-readable <code>type</code> field and a human-readable <code>message</code>. Use the <code>type</code> field for programmatic error handling.</p>
-<h2 id="error-response-format">Error Response Format<a class="headerlink" href="#error-response-format" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unauthorized&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Invalid or expired Bearer token&quot;</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h2 id="error-types">Error Types<a class="headerlink" href="#error-types" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>HTTP Status</th>
-<th><code>type</code></th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>400</strong></td>
-<td><code>bad_request</code></td>
-<td>The request body is malformed, missing required fields, or contains invalid values. Check the <code>details</code> field for field-level errors.</td>
-</tr>
-<tr>
-<td><strong>401</strong></td>
-<td><code>unauthorized</code></td>
-<td>The Bearer token is missing, invalid, or expired. Obtain a new token. An <code>X-Token-Expired: true</code> header accompanies expired tokens.</td>
-</tr>
-<tr>
-<td><strong>403</strong></td>
-<td><code>forbidden</code></td>
-<td>The authenticated user does not have permission to access the requested resource or connector. Verify connector OAuth scopes.</td>
-</tr>
-<tr>
-<td><strong>404</strong></td>
-<td><code>not_found</code></td>
-<td>The requested resource (query ID, connector, or endpoint) does not exist. Check the URL and resource identifiers.</td>
-</tr>
-<tr>
-<td><strong>409</strong></td>
-<td><code>conflict</code></td>
-<td>The request conflicts with the current resource state. Inspect the response details before retrying.</td>
-</tr>
-<tr>
-<td><strong>413</strong></td>
-<td><code>payload_too_large</code></td>
-<td>The request body exceeds the maximum allowed size of 1 MB. Reduce <code>max_results</code> or split the query.</td>
-</tr>
-<tr>
-<td><strong>429</strong></td>
-<td><code>rate_limited</code></td>
-<td>The rate limit for the endpoint has been exceeded. A <code>retry_after_seconds</code> field indicates when to retry. See <a href="/docs/api/rate-limits">Rate Limits</a>.</td>
-</tr>
-<tr>
-<td><strong>500</strong></td>
-<td><code>server_error</code></td>
-<td>An unexpected internal error occurred on the CorpusIQ side. Retry with exponential backoff. If errors persist, contact api@corpusiq.io.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="handling-errors-programmatically">Handling Errors Programmatically<a class="headerlink" href="#handling-errors-programmatically" title="Anchor link to this section">&para;</a></h2>
-<h3 id="retry-logic-for-429-rate-limited">Retry Logic for 429 Rate Limited<a class="headerlink" href="#retry-logic-for-429-rate-limited" title="Anchor link to this section">&para;</a></h3>
-<p>When you receive a <code>429 Too Many Requests</code>, inspect the <code>retry_after_seconds</code> field:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">429</span><span class="p">:</span>
-    <span class="n">retry_after</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&quot;error&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;retry_after_seconds&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">retry_after</span><span class="p">)</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
-</code></pre></div>
-<h3 id="handling-401-token-expiry">Handling 401 Token Expiry<a class="headerlink" href="#handling-401-token-expiry" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
-<span class="p">});</span>
-
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="mf">401</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">headers</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;X-Token-Expired&quot;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">token</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">refreshToken</span><span class="p">();</span><span class="w"> </span><span class="c1">// Re-authenticate</span>
-<span class="w">  </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
-<span class="w">  </span><span class="p">});</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="retry-with-exponential-backoff-for-500-errors">Retry with Exponential Backoff for 500 Errors<a class="headerlink" href="#retry-with-exponential-backoff-for-500-errors" title="Anchor link to this section">&para;</a></h3>
-<p>For transient server errors, implement exponential backoff:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-
-<span class="n">max_retries</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_retries</span><span class="p">):</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">&lt;</span> <span class="mi">500</span><span class="p">:</span>
-        <span class="k">break</span>
-    <span class="k">if</span> <span class="n">attempt</span> <span class="o">&lt;</span> <span class="n">max_retries</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="n">wait</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">**</span> <span class="n">attempt</span>
-        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">wait</span><span class="p">)</span>
-</code></pre></div>
-<h2 id="409-conflicts">409 Conflicts<a class="headerlink" href="#409-conflicts" title="Anchor link to this section">&para;</a></h2>
-<p>A <code>409 Conflict</code> means the request conflicts with current resource state. Inspect the response details and do not assume a retry is safe.</p>
-<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Q: What does a 401 error mean on the CorpusIQ API?</strong><br />
-A: A 401 Unauthorized error means your API token is missing, expired, or invalid. Generate a new token from the Dashboard or refresh your session. Tokens expire after 60 minutes.</p>
-<p><strong>Q: How do I handle 429 Rate Limit errors?</strong><br />
-A: When you receive a 429 Too Many Requests, check the retry_after_seconds field in the response body and wait that many seconds before retrying. Rate limits are per-endpoint with minute and daily windows.</p>
-<p><strong>Q: What does a 400 Bad Request error indicate?</strong><br />
-A: A 400 error means your request body or parameters are malformed. Check that required fields are present, data types are correct, and the JSON structure matches the API schema.</p>
-<h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
+<h1 id="mcp-server-discovery-september-30-2026-midday">MCP Server Discovery - September 30, 2026 (Midday)<a class="headerlink" href="#mcp-server-discovery-september-30-2026-midday" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Date:</strong> September 30, 2026 10:00-11:10 MST (September 30, 2026 17:00-18:10 UTC)
+<strong>Sources:</strong> mcp.so /feed (30 server blocks, direct fetch, browser user agent) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with seven detail pages fetched.
+<strong>Result:</strong> 4 new business-relevant servers catalogued with guides. Catalog 757 to 761 servers, guides +643 to +647.</p>
+<h2 id="discovery">Discovery<a class="headerlink" href="#discovery" title="Anchor link to this section">&para;</a></h2>
+<p>Feed-order recency: the morning sweep's OceanAlt AML entry anchors the feed, so the two entries ahead of it (Aayat AI, Povver) were evaluated fresh. Both are genuinely new and both were catalogued. The <code>/all</code> pages carried two more (Adviserry, Blog2Social) that the morning sweep had not reached. Everything else in the feed and on <code>/all</code> pages 1-2 was a repeat of prior dispositions, checked against the morning sweep ledger prose and the <code>external/.last-sweep</code> file.</p>
+<h2 id="new-servers-catalogued">New servers catalogued<a class="headerlink" href="#new-servers-catalogued" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
-<li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
-<li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
-<li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
-<li><strong><a href="/enterprise">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/security">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
+<li><strong>Povver MCP</strong> (Fitness and training data, read and write) - 38 tools over Streamable HTTP at <code>mcp.povver.ai/mcp</code>, OAuth sign-in for browser clients or a bearer API key for Cursor, Windsurf, Claude Code and scripts. 25 read tools cover set-level history, per-lift strength climbs, muscle volume, plateau detection and the recommendations queue; 13 write tools cover routines, templates, finished workouts, coach memories and periodization plans; 3 more are marked destructive so clients confirm first. Live set-by-set logging is deliberately not exposed. Vendor docs publish the full tool list, so nothing here is inferred.</li>
+<li><strong>Aayat AI MCP</strong> (Pay-per-use data and tools) - 160 tools behind one keyless endpoint at <code>aayatai.com/mcp</code>, metered per call rather than per seat. Crypto token safety and rug checks, cited web search, page-to-Markdown, current library docs, package safety, company research and UK/EU open data. 20 free calls a day, then USDC over x402 or prepaid credits. A live <code>tools/list</code> probe returned HTTP 200 with real tool schemas (<code>token-safety</code> at $0.02 per call), and failed calls are never charged.</li>
+<li><strong>Adviserry MCP</strong> (Newsletter knowledge base and drafted actions) - 13 tools at <code>adviserry.com/api/mcp</code> behind a bearer token. Source search across newsletter panels and uploaded documents, panel and issue reads, proactive insight readback, and a distinct action layer: <code>search_actions</code> and <code>get_actions</code> return copy-ready deliverables with the sources they were built from, <code>update_action_status</code> marks them shipped and feeds future synthesis, and <code>get_user_context</code> / <code>update_context</code> manage the advisor profile with a confirmation preview on anything destructive. 500 tool calls per rolling hour.</li>
+<li><strong>Blog2Social MCP</strong> (Multi-network social publishing) - hosted server at <code>api.blog2social.com/mcp</code> over OAuth, spanning 30+ social, blogging and community networks with per-network post types and media support. Nineteen documented REST operations cover user auth, network connect and list, post create and remove, and video upload. Included for reach breadth with a saturation note (see below).</li>
 </ul>
-<h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<h2 id="core-listing-verification">Core listing verification<a class="headerlink" href="#core-listing-verification" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><strong>mcpservers.org:</strong> LISTED. Direct curl returns the Cloudflare 403 wall; the reader proxy returns the CorpusIQ MCP page with the product tagline, so the listing is live.</li>
+<li><strong>glama.ai/mcp:</strong> LISTED. The <code>@corpusiq/corpusiq-docs</code> slug returns 301 (redirect to the canonical listing).</li>
+<li><strong>smithery.ai:</strong> registry entry present at <code>benoit-p/Cprusiq</code>. No submission path exists (login-walled), and the listing flips multiple times per day, so no action taken.</li>
+<li><strong>PulseMCP:</strong> LISTED. Reader proxy title reads Official CorpusIQ MCP Server.</li>
+<li><strong>mcp.so:</strong> NOT LISTED. The search SSR payload carries no server cards; the account-level instant moderation state from August 12 still stands, so no resubmission was attempted.</li>
+</ul>
+<h2 id="also-identified-not-catalogued">Also identified (not catalogued)<a class="headerlink" href="#also-identified-not-catalogued" title="Anchor link to this section">&para;</a></h2>
+<p>Povver-adjacent consumer fitness entries aside, the following were evaluated and disposed in this sweep. From the mcp.so feed: prodready, uplika, How To Make Money On Snapchat, MemeSwap MCP, MeroFoundry, Rebbel, Dumpster Controls, Unipile, fAlpha, TokElements, GAIP Agents, HeyLead, elmah.io MCP, trip1, Webshare, Firme360, systemHUB, AccountHub, AgentGrown, ohmyho.st, EQIQs, Selfstorming, Uxia, Texas RRC Wellbore Intelligence and TinyFish - all either catalogued by earlier sweeps or disposed in their ledgers. From <code>/all</code> pages 1-2: TrackIQ (Amazon seller analytics, to be evaluated next cycle with a detail fetch), pdf.net (PDF editing in chat, commodity document utility), SMAT (OAuth social publishing, saturation class after ContentStudio, Rebbel and Blog2Social), HaberChat (WhatsApp inbox, saturation class after Odichat), Agent Credit Bureau (crypto risk assessment over x402), ECRP (elder care resource planning, consumer care-navigation niche), Well Prepped Life (Bay Area meal-prep booking, regional consumer service), Beemm Vision, MX Verdict, AnswerLine, Dive Kit, Robozukan, SubmitraX and Tempi.</p>
+<h2 id="skip-classes-added">Skip classes added<a class="headerlink" href="#skip-classes-added" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><strong>Commodity in-chat document tools:</strong> pdf.net joins PDFHaul and PDFGate as a saturated class unless the server exposes something beyond editing and merging.</li>
+<li><strong>Consumer fitness data:</strong> Povver was catalogued on the strength of its published tool surface and read-write split, but the class is thin for operator relevance; future consumer fitness and training entries start at LOW unless they carry business data.</li>
+<li><strong>Multi-network publishing saturation extended:</strong> Blog2Social catalogued at LOW relevance, but ContentStudio, Rebbel, SMAT, uplika and PostBazooka already cover the class. No further publishing entries this week without a differentiating surface.</li>
+<li><strong>Regional consumer services on <code>/all</code>:</strong> Well Prepped Life and ECRP extend the geo-niche and consumer-care precedent (Bay Area Mobile Dog Wash, Lifeguard Training NY) already logged on September 30 morning.</li>
+</ul>
+<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
+<p>All four guides passed the inline validator (title 30-60, description 100-155, eight required frontmatter fields, added date, dash scan, FAQ heading check, See Also path existence) and the repo frontmatter validator. The local pre-commit gate reports <code>warn</code> on the AEO FAQ rule for all four, which is accepted house style for guide files (question-style headings are not used in this class).</p>
 
 
 
@@ -10634,7 +10325,7 @@ A: A 400 error means your request body or parameters are malformed. Check that r
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
