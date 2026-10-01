@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-09-30"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 30, 2026 (evening sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy · **Catalog:** 762 servers (+648 guides)
+> **Last updated:** September 30, 2026 (night sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all via the r.jina.ai reader proxy · **Catalog:** 765 servers (+651 guides)
+
+## 🆕 September 30, 2026 - Night Sweep (3 New, 3 Guides)
+
+Night sweep over the mcp.so /feed (30 server blocks, direct fetch with a browser user agent) and mcpservers.org /all via the r.jina.ai reader proxy, with four detail pages fetched. Feed-order recency against the evening anchor turned up four entries not previously disposed; three were catalogued with guides and one was skipped as a consumer e-commerce listing. 3 new business-relevant servers catalogued with guides:
+
+- [Common Paper Contracts MCP - Agreement Workflow for Agents](/hermes/mcp/servers/external/common-paper-contracts-mcp/) · remote Streamable HTTP at api.commonpaper.com/mcp with OAuth: find, draft, send, negotiate and void NDAs, DPAs, CSAs and ten other agreement types, with read tools free-running and every send gated on approval.
+- [Genchi MCP - Project Deadline Risk from Team Confidence Votes](/hermes/mcp/servers/external/genchi-mcp/) · remote Streamable HTTP at genchi.com/api/mcp with OAuth: six tools that turn anonymous one-click Slack confidence votes into portfolio-level project risk scores, trends and blockers, with no vote ever attributable to a name.
+- [Manifold MCP - Hosted Marketing Data for Agents](/hermes/mcp/servers/external/manifold-mcp/) · remote Streamable HTTP at mcp.manifoldmcp.com/mcp with OAuth or an API key: keyword research, SERPs, backlinks, site audits, AI answer visibility across ChatGPT, Perplexity and Google AI Overviews, social data, ad libraries and B2B lead enrichment, billed per call with 500 free credits per workspace.
+
+**Also identified (not catalogued):** TATUAT.RO (public Streamable HTTP tattoo-supply catalogue for a Romanian e-commerce store, six tools, no auth; consumer retail class outside the operator catalog), plus the feed and /all repeats already disposed by the September 30 evening, midday and morning sweeps, the September 29 sweeps and earlier ledgers: PixelDojo, TrackIQ, LinkBunny, Agent Cody, SignalPipe, Vouched, Adviserry, Family Office Registry, Anomaly AI, Tokmeter, prodready, uplika, How To Make Money On Snapchat, MemeSwap MCP, MeroFoundry, Rebbel, Dumpster Controls, Unipile, fAlpha, TokElements, GAIP Agents, HeyLead, elmah.io MCP, trip1, Webshare, systemHUB, AccountHub, AgentGrown, ohmyho.st, EQIQs, Selfstorming, Uxia, Texas RRC Wellbore Intelligence, TinyFish, pdf.net, SMAT, HaberChat, Agent Credit Bureau, ECRP, Well Prepped Life, Beemm Vision, MX Verdict, AnswerLine, Dive Kit, Robozukan, SubmitraX, Tempi, Garmin, health-os, MateMCP, Swebsy, NoMac, Monocrawl, betterimage, Hookova, PDFHaul, LiteLambda, Suggix, Arroway, Friday, ImmoDocs, Gilbert, Clipy, VideoGen, pcb.express, TrueProxies, SelectaRank, Revit Model, Symbioza, CovaSyn, AgentHop, Auth Your Agent, GeoSource, Agentboxd, AQL PropertyCheck and Firme360.
 
 ## 🆕 September 30, 2026 - Evening Sweep (1 New, 1 Guide)
 
