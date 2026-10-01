@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 30, 2026 (night sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch) + mcpservers.org /all via the r.jina.ai reader proxy · **Catalog:** 765 servers (+651 guides)
+> **Last updated:** October 1, 2026 (morning sweep) · **Sources:** mcp.so /feed (29 server blocks via the r.jina.ai reader proxy) + mcpservers.org /all and homepage via the r.jina.ai reader proxy · **Catalog:** 767 servers (+653 guides)
+
+## 🆕 October 1, 2026 - Morning Sweep (2 New, 2 Guides)
+
+Morning sweep over the mcp.so /feed (29 server blocks via the r.jina.ai reader proxy) plus mcp.so /servers (60 slugs) and the mcpservers.org homepage and /all (29 + 30 slugs) via the reader proxy, with detail pages fetched for every candidate. Firecrawl was unconfigured this cycle, so all directory fetches ran through the r.jina.ai reader proxy. Feed-order recency against the September 30 night anchor turned up one new entry; the two directory surfaces carried the other candidate. 2 new business-relevant servers catalogued with guides:
+
+- [Datris Data Platform MCP - Governed Data Acquisition for Agents](/hermes/mcp/servers/external/datris-platform-mcp/) · open-source Docker-hosted data platform exposing 73 capabilities behind one MCP server: agents acquire, validate and land data with per-run provenance, vault-brokered credentials that never reach the agent, and a durable platform-side pipeline state, AGPL-3.0 and fully self-hosted.
+- [Hourtick MCP - Time Tracking, Tasks and Billing for Teams and Agents](/hermes/mcp/servers/external/hourtick-mcp/) · remote Streamable HTTP at hourtick.com/api/mcp with OAuth 2.1 or a bearer token: around forty tools over timers, tasks, team chat, notes and files, plus agent members that log their own billable time and cost into Reports, with timesheets, approvals, invoiced-time locks and budget burn on the same ledger.
+
+**Also identified (not catalogued):** FlatHunt (Berlin housing search aggregator, remote Streamable HTTP at mcp.flat-hunt.com/mcp, consumer housing/marketplace class outside the operator catalog, the TATUAT.RO precedent), SendRaven (email infrastructure for agents, listing exposes no detectable tool list and a one-line description; thin-docs class), GripForge (game asset generation; creative/gaming class), Vibgrate (dependency drift, CVEs and EOL runtimes; dev-security class), Local YDB MCP (Docker-based local YDB operations; devops class), OrangePro (behavior mapping and test generation; dev-QA class), GitDiagram (architecture diagrams from GitHub repos; dev-utility class), Better Design (design harness for coding agents; dev-utility class), D365 Mockup Agent (Dynamics 365 mockup drafting; dev-utility class), CycleCalcs (astronomy API; niche vertical), Reps Gym Workout Log (consumer fitness), plus the mcp.so /servers and mcpservers.org surface repeats already catalogued or disposed by the September 30 sweeps and earlier ledgers.
 
 ## 🆕 September 30, 2026 - Night Sweep (3 New, 3 Guides)
 
