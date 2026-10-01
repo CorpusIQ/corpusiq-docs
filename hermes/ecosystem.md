@@ -11,7 +11,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **191+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 186 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **196+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 187 auto-approved (score >= 70).
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **190+ repos indexed.**
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **191+ reposit
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 39 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 40 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 

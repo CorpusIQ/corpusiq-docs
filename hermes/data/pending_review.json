@@ -65961,5 +65961,328 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-30T08:03:11.791965+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Hawaiine/Oasisic-Skills",
+    "url": "https://github.com/Hawaiine/Oasisic-Skills",
+    "description": "\ud83e\udde9 Oasisic Skills \u00b7 4 \u4e2a Hermes Agent Skill \u5408\u96c6\uff08Hermes \u914d\u7f6e / mihomo \u89c4\u5219\u96c6 / OpenWrt \u56fa\u4ef6 CI / \u53cd\u722c\u6d4f\u89c8\u5668\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "agent-skills",
+      "ai-agent-skills",
+      "anti-bot",
+      "clash-meta",
+      "cloudflare-bypass",
+      "github-actions",
+      "hermes-agent",
+      "mihomo",
+      "openwrt"
+    ],
+    "updated_at": "2026-10-01T03:58:07Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-01T04:01:02.924461+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Fedirino/Mori",
+    "url": "https://github.com/Fedirino/Mori",
+    "description": "Voice-first AI assistant. Talk to it through a web app, routes to a private Hermes Agent backend.",
+    "stars": 1,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "ai",
+      "claude",
+      "voice-assistant"
+    ],
+    "updated_at": "2026-10-01T03:56:03Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "AVIDS2/memorix"
+    ],
+    "discovered_at": "2026-10-01T04:01:02.926884+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cmoraes10/loci",
+    "url": "https://github.com/cmoraes10/loci",
+    "description": "Typed long-term memory for AI agents. One core, an MCP server and a Hermes plugin.",
+    "stars": 5,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "hermes",
+      "llm",
+      "long-term-memory",
+      "mcp",
+      "mcp-server",
+      "model",
+      "model-context-protocol",
+      "open-source",
+      "python",
+      "sqlite"
+    ],
+    "updated_at": "2026-10-01T03:57:47Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "yoloshii/ClawMem",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ahonore42/logios-brain",
+      "CodeAbra/iai-personal-memory-engine",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-01T04:01:10.589389+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LucaPisl/hermes-grocy-mcp",
+    "url": "https://github.com/LucaPisl/hermes-grocy-mcp",
+    "description": "Linux desktop Rust MCP for Grocy with protected wallet profiles and API-only household access",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-09-30T23:43:31Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-01T04:01:10.591589+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "badiyee85/HA-Plugins-fleet-orchestrator",
+    "url": "https://github.com/badiyee85/HA-Plugins-fleet-orchestrator",
+    "description": "Fleet Orchestrator Deck for Hermes Desktop. Transform profiles into executive orchestrators with pinned models, skills, and autonomous Kanban task delegation.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-01T02:31:44Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-01T04:01:18.226453+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hotcode-dev/hermes-profile-manager",
+    "url": "https://github.com/hotcode-dev/hermes-profile-manager",
+    "description": "Fast, zero-dependency CLI & manager for Hermes AI agent profiles: merge configs, SOUL prompts, cron jobs, and symlink shared skills/plugins",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-profiles",
+      "ai-agents",
+      "cli",
+      "configuration-management",
+      "hacktoberfest",
+      "hermes",
+      "hermes-agent",
+      "typescript"
+    ],
+    "updated_at": "2026-09-30T21:55:34Z",
+    "category": "skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "kkllxy/hermes-web-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-01T04:01:18.230772+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NousResearch/hermes-nvidia",
+    "url": "https://github.com/NousResearch/hermes-nvidia",
+    "description": "Hermes plugin: NVIDIA App and NVIDIA Broadcast MCP servers and skills (Windows). Portable Agent Plugin; gating under extensions[\"com.nousresearch.hermes\"].",
+    "stars": 5,
+    "forks": 4,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-30T23:13:56Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-01T04:01:18.234439+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ruangraung/hermes-agent",
+    "url": "https://github.com/ruangraung/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-01T04:01:24Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-10-01T04:01:26.895006+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LoveDoLove-Forked-Projects/cc-switch",
+    "url": "https://github.com/LoveDoLove-Forked-Projects/cc-switch",
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-10-01T04:00:56Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw"
+    ],
+    "discovered_at": "2026-10-01T04:01:26.898160+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "postscarcityai/yuigui",
+    "url": "https://github.com/postscarcityai/yuigui",
+    "description": "Yui hub: roadmap, progress, Yui Lines spec + playground. Lives at yuigui.com",
+    "stars": 1,
+    "forks": 1,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "generative-ui",
+      "hermes-agent",
+      "open-source",
+      "swiftui"
+    ],
+    "updated_at": "2026-10-01T04:00:06Z",
+    "category": "forks",
+    "score": 36,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-01T04:01:26.901161+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ShengLong76/Dragon-AI-Agent",
+    "url": "https://github.com/ShengLong76/Dragon-AI-Agent",
+    "description": "AirMaze Agent \u2014 one-package Windows template (embedded Hermes gateway + Bot Screen + Personal Assistant). Separate from NousResearch/hermes-agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-30T14:44:24Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-01T04:02:58.562130+00:00",
+    "status": "pending"
   }
 ]

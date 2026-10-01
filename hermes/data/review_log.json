@@ -15929,5 +15929,82 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-30T08:03:41.970146+00:00"
+  },
+  {
+    "repo": "Hawaiine/Oasisic-Skills",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697691+00:00"
+  },
+  {
+    "repo": "Fedirino/Mori",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697703+00:00"
+  },
+  {
+    "repo": "cmoraes10/loci",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697704+00:00"
+  },
+  {
+    "repo": "LucaPisl/hermes-grocy-mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697705+00:00"
+  },
+  {
+    "repo": "badiyee85/HA-Plugins-fleet-orchestrator",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697706+00:00"
+  },
+  {
+    "repo": "hotcode-dev/hermes-profile-manager",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697707+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-nvidia",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697708+00:00"
+  },
+  {
+    "repo": "ruangraung/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697709+00:00"
+  },
+  {
+    "repo": "LoveDoLove-Forked-Projects/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697710+00:00"
+  },
+  {
+    "repo": "postscarcityai/yuigui",
+    "score": 36,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697711+00:00"
+  },
+  {
+    "repo": "ShengLong76/Dragon-AI-Agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T04:03:28.697712+00:00"
   }
 ]
