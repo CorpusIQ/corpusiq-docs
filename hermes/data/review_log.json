@@ -16041,5 +16041,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-01T05:03:56.425689+00:00"
+  },
+  {
+    "repo": "buildingbrien/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927035+00:00"
+  },
+  {
+    "repo": "carterlasalle/scc",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927055+00:00"
+  },
+  {
+    "repo": "jnix85/ansible-role-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927057+00:00"
+  },
+  {
+    "repo": "Delibread0601/askaipods",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927058+00:00"
+  },
+  {
+    "repo": "beepboop2025/liquilens-site",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927059+00:00"
+  },
+  {
+    "repo": "beepboop2025/liquilens-mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927060+00:00"
+  },
+  {
+    "repo": "CodickCode/hermes-agent-custom-windows-chat",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927061+00:00"
+  },
+  {
+    "repo": "ndruster/cc-switch",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927062+00:00"
+  },
+  {
+    "repo": "growthunter/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927063+00:00"
+  },
+  {
+    "repo": "adamkrawczyk/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927064+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-agent-self-evolution",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927065+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--Hermes-Function-Calling",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927066+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-nvidia",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927068+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-e2e-evidence",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-01T10:03:18.927069+00:00"
   }
 ]
