@@ -1,5 +1,5 @@
 ---
-title: "Riekelt Principal Engineer - Engineering Discipline Suite Setup"
+title: Riekelt Principal Engineer - Engineering Discipline Suite
 description: "Setup guide for riekelt/principal-engineer - 11-skill engineering discipline plugin for AI coding agents: verification, grounding, scope control, safe ops. ~120K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/riekelt-principal-engineer-setup/"
 robots: "index,follow"

@@ -13,7 +13,7 @@ Sweep snapshot: **714 unique skills** across 15 queries (0 failed). Tiered cross
 
 ## New Publisher Guides
 
-### heroui-inc/heroui — HeroUI React & Native UI Skills
+### heroui-inc/heroui - HeroUI React & Native UI Skills
 
 | Field | Value |
 |---|---|
@@ -27,7 +27,7 @@ Sweep snapshot: **714 unique skills** across 15 queries (0 failed). Tiered cross
 
 HeroUI's official skill family teaches an agent the v3 component APIs (Tailwind CSS v4 + React Aria) instead of writing props from memory. `heroui-react` (11,508) is the flagship; `heroui-native` (10,339) covers React Native via Uniwind; `heroui-migration` (3,900) handles the v2→v3 upgrade. Note the default branch is `v3`, not `main`.
 
-### redis/agent-skills — Official Redis Data & Caching Skills
+### redis/agent-skills - Official Redis Data & Caching Skills
 
 | Field | Value |
 |---|---|
@@ -41,7 +41,7 @@ HeroUI's official skill family teaches an agent the v3 component APIs (Tailwind 
 
 Redis, Inc.'s official skill collection covers the decisions agents get wrong most: data-structure selection (`redis-core`, 3,337), connections (2,375), security (2,055), observability (1,967), clustering (1,583), and search (1,308), plus AI-focused `redis-semantic-cache` (1,645) and `iris-development` (1,451, Redis Agent Memory).
 
-### vercel/vercel-plugin — Full Vercel Ecosystem Plugin
+### vercel/vercel-plugin - Full Vercel Ecosystem Plugin
 
 | Field | Value |
 |---|---|
