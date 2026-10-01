@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+        <meta name="description" content="DSpark speculative decoding for DeepSeek-class models on DGX Spark hardware - a verified two-node vLLM recipe with 1M context and nvfp4 KV.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/api/endpoints">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/infrastructure/dgx/dspark-speculative-decoding">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/api/authentication">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/api/schemas">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>CorpusIQ API Endpoints Reference</title>
+    <title>DSpark Speculative Decoding on DGX Spark</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/api/endpoints">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/infrastructure/dgx/dspark-speculative-decoding">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="CorpusIQ API Endpoints Reference">
-  <meta property="og:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+  <meta property="og:title" content="DSpark Speculative Decoding on DGX Spark">
+  <meta property="og:description" content="DSpark speculative decoding for DeepSeek-class models on DGX Spark hardware - a verified two-node vLLM recipe with 1M context and nvfp4 KV.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CorpusIQ API Endpoints Reference">
-  <meta name="twitter:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+  <meta name="twitter:title" content="DSpark Speculative Decoding on DGX Spark">
+  <meta name="twitter:description" content="DSpark speculative decoding for DeepSeek-class models on DGX Spark hardware - a verified two-node vLLM recipe with 1M context and nvfp4 KV.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "CorpusIQ API Endpoints Reference",
-    "description": "Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search",
-    "url": "https://www.corpusiq.io/docs/api/endpoints",
+    "name": "DSpark Speculative Decoding on DGX Spark",
+    "description": "DSpark speculative decoding for DeepSeek-class models on DGX Spark hardware - a verified two-node vLLM recipe with 1M context and nvfp4 KV.",
+    "url": "https://www.corpusiq.io/docs/hermes/infrastructure/dgx/dspark-speculative-decoding",
     
-    "datePublished": "2026-08-23",
-    "dateModified": "2026-08-23",
+    "datePublished": "2026-10-01",
+    "dateModified": "2026-10-01",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-23">
+  <meta name="last-updated" content="2026-10-01">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api-endpoints-reference" class="md-skip">
+        <a href="#dspark-speculative-decoding-on-dgx-spark" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +192,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Endpoints Reference
+              DSpark Speculative Decoding on DGX Spark
             
           </span>
         </div>
@@ -334,7 +330,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   
@@ -415,8 +411,6 @@
       
   
   
-    
-  
   
   
     
@@ -451,11 +445,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -483,7 +479,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -556,37 +552,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Endpoints
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="https://www.corpusiq.io/docs/api/endpoints" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/api/endpoints" class="md-nav__link">
         
   
   
@@ -602,159 +571,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#post-query" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        POST /query
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="POST /query">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#post-deep_search" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        POST /deep_search
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="POST /deep_search">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -10317,22 +10133,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#post-query" class="md-nav__link">
+  <a href="#why-it-matters-for-agent-workloads" class="md-nav__link">
     <span class="md-ellipsis">
       
-        POST /query
+        Why it matters for agent workloads
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="POST /query">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-recipe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reference recipe
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reference recipe">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#request" class="md-nav__link">
+  <a href="#bring-up-sequence" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Request
+        Bring-up sequence
       
     </span>
   </a>
@@ -10340,21 +10167,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#response" class="md-nav__link">
+  <a href="#measured-evidence-over-headline-claims" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
+        Measured evidence over headline claims
       
     </span>
   </a>
@@ -10367,22 +10183,33 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#post-deep_search" class="md-nav__link">
+  <a href="#practical-notes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        POST /deep_search
+        Practical notes
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="POST /deep_search">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#request_1" class="md-nav__link">
+  <a href="#what-is-dspark" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Request
+        What is DSpark?
       
     </span>
   </a>
@@ -10390,10 +10217,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#response_1" class="md-nav__link">
+  <a href="#is-dspark-lossless" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Response
+        Is DSpark lossless?
       
     </span>
   </a>
@@ -10401,10 +10228,54 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#code-examples_1" class="md-nav__link">
+  <a href="#does-dspark-give-a-4x-speedup" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Code Examples
+        Does DSpark give a 4x speedup?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-much-hardware-does-the-reference-recipe-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How much hardware does the reference recipe need?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-context-length-does-the-recipe-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What context length does the recipe support?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#does-it-support-video-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Does it support video input?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should-i-benchmark-before-adopting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Should I benchmark before adopting?
       
     </span>
   </a>
@@ -10417,32 +10288,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
+  <a href="#related" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
+        Related
       
     </span>
   </a>
@@ -10469,259 +10318,122 @@
   
 
 
-<h1 id="api-endpoints-reference">API Endpoints Reference<a class="headerlink" href="#api-endpoints-reference" title="Anchor link to this section">&para;</a></h1>
-<p>Complete reference for all CorpusIQ API endpoints with full request/response schemas and code examples.</p>
-<hr />
-<h2 id="post-query">POST /query<a class="headerlink" href="#post-query" title="Anchor link to this section">&para;</a></h2>
-<p>Search across all connected data sources with a natural-language query.</p>
-<h3 id="request">Request<a class="headerlink" href="#request" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="err">POST /v1/query</span>
-<span class="err">Content-Type: application/json</span>
-<span class="err">Authorization: Bearer &lt;token&gt;</span>
-</code></pre></div>
+<h1 id="dspark-speculative-decoding-on-dgx-spark">DSpark Speculative Decoding on DGX Spark<a class="headerlink" href="#dspark-speculative-decoding-on-dgx-spark" title="Anchor link to this section">&para;</a></h1>
+<p>DSpark is an inference architecture that combines <strong>speculative decoding</strong> with
+<strong>multi-token prediction (MTP)</strong>. It is lossless - the output distribution is
+unchanged; the speedup comes from proposing and verifying draft tokens instead
+of decoding one token at a time.</p>
+<p>The widely-quoted "up to 400% faster" figure comes from vendor framing. The
+dated benchmark in the reference recipe is more conservative and is the number
+worth planning against: single-stream decode holds roughly <strong>62-83 tok/s</strong> from
+256 through 128K context, with around <strong>162 aggregate tok/s</strong> at six short
+concurrent chats. The real wins are in single-stream decode and prefix reuse,
+not a free 4x on every workload.</p>
+<h2 id="why-it-matters-for-agent-workloads">Why it matters for agent workloads<a class="headerlink" href="#why-it-matters-for-agent-workloads" title="Anchor link to this section">&para;</a></h2>
+<p>An agent platform is an inference-heavy consumer. Cheaper decode at long context
+is the difference between reasoning over many connected data sources and
+reasoning over a few - inference economics directly bound how much data a single
+session can work across before cost becomes the constraint.</p>
+<h2 id="reference-recipe">Reference recipe<a class="headerlink" href="#reference-recipe" title="Anchor link to this section">&para;</a></h2>
+<p>The community reference implementation is
+<a href="https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark"><code>MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark</code></a>
+(MIT licensed). It is a two-node DGX Spark recipe:</p>
 <table>
 <thead>
 <tr>
-<th>Field</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
+<th>Property</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>query</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Natural-language question to search across connected tools</td>
+<td>Model</td>
+<td><code>deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</code></td>
 </tr>
 <tr>
-<td><code>connectors</code></td>
-<td>string[]</td>
-<td>No</td>
-<td>List of connector IDs to scope the search; omit to search all</td>
+<td>Parallelism</td>
+<td>vLLM tensor parallel, TP=2</td>
 </tr>
 <tr>
-<td><code>max_results</code></td>
-<td>integer</td>
-<td>No</td>
-<td>Maximum results per connector (default: 10, max: 100)</td>
+<td>Decoding</td>
+<td>DSpark speculative decoding</td>
+</tr>
+<tr>
+<td>Context ceiling</td>
+<td>1M tokens</td>
+</tr>
+<tr>
+<td>KV cache</td>
+<td><code>nvfp4_ds_mla</code></td>
+</tr>
+<tr>
+<td>Runtime</td>
+<td>Anemll DSpark vLLM image, pinned tag</td>
+</tr>
+<tr>
+<td>Interconnect</td>
+<td>RoCE / NCCL over ConnectX</td>
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our top 5 Shopify orders this month?&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;connectors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;shopify&quot;</span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;max_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="response">Response<a class="headerlink" href="#response" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qry_a1b2c3d4e5f6&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our top 5 Shopify orders this month?&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;connector&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;shopify&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;source_label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Shopify Orders&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;chunks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;chunk_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;chnk_x1y2&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;source_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://admin.shopify.com/store/.../orders/12345&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;relevance_score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.98</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;order_total&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;4299.00&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;currency&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;customer_email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;customer@example.com&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-14T10:30:00Z&quot;</span>
-<span class="w">          </span><span class="p">}</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">]</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;search_summary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;connectors_searched&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;total_chunks_found&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;duration_ms&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">847</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="code-examples">Code Examples<a class="headerlink" href="#code-examples" title="Anchor link to this section">&para;</a></h3>
-<p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-<span class="s1">    &quot;query&quot;: &quot;Show me recent HubSpot deals over $10,000&quot;,</span>
-<span class="s1">    &quot;connectors&quot;: [&quot;hubspot&quot;],</span>
-<span class="s1">    &quot;max_results&quot;: 5</span>
-<span class="s1">  }&#39;</span>
-</code></pre></div>
-<p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;Content-Type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
-<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">connectors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;hubspot&quot;</span><span class="p">],</span>
-<span class="w">    </span><span class="nx">max_results</span><span class="o">:</span><span class="w"> </span><span class="mf">5</span><span class="p">,</span>
-<span class="w">  </span><span class="p">}),</span>
-<span class="p">});</span>
-
-<span class="kd">const</span><span class="w"> </span><span class="nx">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">results</span><span class="p">);</span>
-</code></pre></div>
-<p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-    <span class="p">},</span>
-    <span class="n">json</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;connectors&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hubspot&quot;</span><span class="p">],</span>
-        <span class="s2">&quot;max_results&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
-    <span class="p">},</span>
-<span class="p">)</span>
-
-<span class="n">data</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">]:</span>
-    <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">result</span><span class="p">[</span><span class="s2">&quot;chunks&quot;</span><span class="p">]:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">chunk</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">])</span>
-</code></pre></div>
-<hr />
-<h2 id="post-deep_search">POST /deep_search<a class="headerlink" href="#post-deep_search" title="Anchor link to this section">&para;</a></h2>
-<p>Search the encrypted archive of previously executed queries and results.</p>
-<h3 id="request_1">Request<a class="headerlink" href="#request_1" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="err">POST /v1/deep_search</span>
-<span class="err">Content-Type: application/json</span>
-<span class="err">Authorization: Bearer &lt;token&gt;</span>
-</code></pre></div>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>query</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Search term to match against archived queries and results</td>
-</tr>
-<tr>
-<td><code>max_results</code></td>
-<td>integer</td>
-<td>No</td>
-<td>Maximum results (default: 20, max: 50)</td>
-</tr>
-<tr>
-<td><code>date_from</code></td>
-<td>string</td>
-<td>No</td>
-<td>ISO 8601 start date filter</td>
-</tr>
-<tr>
-<td><code>date_to</code></td>
-<td>string</td>
-<td>No</td>
-<td>ISO 8601 end date filter</td>
-</tr>
-</tbody>
-</table>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;max_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;date_from&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="response_1">Response<a class="headerlink" href="#response_1" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ds_a1b2c3d4e5&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;archive_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;original_query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qry_abc123&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;original_query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our Q2 revenue projections from QuickBooks?&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;matched_chunk&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q2 projected revenue: $847,200 based on invoiced orders...&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;source_connector&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;quickbooks&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;queried_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-04-15T14:22:00Z&quot;</span>
-<span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="nt">&quot;similarity_score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.87</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;total_matches&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;duration_ms&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">312</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="code-examples_1">Code Examples<a class="headerlink" href="#code-examples_1" title="Anchor link to this section">&para;</a></h3>
-<p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-<span class="s1">    &quot;query&quot;: &quot;Q3 revenue projections&quot;,</span>
-<span class="s1">    &quot;max_results&quot;: 10,</span>
-<span class="s1">    &quot;date_from&quot;: &quot;2026-01-01T00:00:00Z&quot;</span>
-<span class="s1">  }&#39;</span>
-</code></pre></div>
-<p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;Content-Type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
-<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">max_results</span><span class="o">:</span><span class="w"> </span><span class="mf">10</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">date_from</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="p">}),</span>
-<span class="p">});</span>
-</code></pre></div>
-<p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">},</span>
-    <span class="n">json</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;max_results&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
-        <span class="s2">&quot;date_from&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span><span class="p">,</span>
-    <span class="p">},</span>
-<span class="p">)</span>
-</code></pre></div>
-<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Q: What is the POST /query endpoint used for?</strong><br />
-A: POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results.</p>
-<p><strong>Q: What does POST /deep_search do?</strong><br />
-A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls  --  it searches only your query history for pattern discovery and auditing.</p>
-<p><strong>Q: How do I scope queries to specific connectors?</strong><br />
-A: Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {"query": "revenue this month", "connectors": ["stripe", "quickbooks"]}.</p>
-<h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
+<p>Both nodes require the same runtime image. The <code>prepare</code> step copies the
+checkpoint to the worker, or the worker can mount the head's cache over NFSv4 on
+the ConnectX link when <code>DSPARK_WORKER_HF_NFS=1</code>.</p>
+<h3 id="bring-up-sequence">Bring-up sequence<a class="headerlink" href="#bring-up-sequence" title="Anchor link to this section">&para;</a></h3>
+<ol>
+<li>Copy the environment template and set the fabric variables: worker host,
+   master address, NCCL HCA and socket interface names, per-node host IPs, and
+   cache paths.</li>
+<li>Pull the pinned runtime image on <strong>both</strong> nodes. The start script refuses to
+   launch if either node is missing it.</li>
+<li>Prepare the model cache on the head node.</li>
+<li>Validate the configuration before starting - the recipe ships a dedicated
+   config validator.</li>
+<li>Start the serving stack and confirm health, then run the smoke test.</li>
+<li>Record decode throughput before and after enabling DSpark on your own
+   workload before committing to additional hardware.</li>
+</ol>
+<h3 id="measured-evidence-over-headline-claims">Measured evidence over headline claims<a class="headerlink" href="#measured-evidence-over-headline-claims" title="Anchor link to this section">&para;</a></h3>
+<p>Before adopting, benchmark on the workload you actually run. The recipe's
+published tables are dated and method-documented; treat the vendor's headline
+multiple as an upper bound and the repo's own numbers as the planning baseline.</p>
+<h2 id="practical-notes">Practical notes<a class="headerlink" href="#practical-notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
-<li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
-<li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
-<li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
-<li><strong><a href="/enterprise">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/security">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
+<li><strong>No video encoder</strong> exists in the official weights - animated inputs are
+  treated as a still frame. Native image input is supported.</li>
+<li>Abliterated weight variants are gated behind the model hub and require a token
+  with repository access.</li>
+<li>A single-node variant of the same model family exists if two nodes are not
+  available; the decode gains are smaller but the bring-up is much simpler.</li>
 </ul>
-<h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="what-is-dspark">What is DSpark?<a class="headerlink" href="#what-is-dspark" title="Anchor link to this section">&para;</a></h3>
+<p>DSpark is an inference architecture that combines speculative decoding with
+multi-token prediction. It proposes draft tokens and verifies them, which speeds
+up decoding without changing the output distribution.</p>
+<h3 id="is-dspark-lossless">Is DSpark lossless?<a class="headerlink" href="#is-dspark-lossless" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. The output distribution is unchanged. Only the decode path is faster.</p>
+<h3 id="does-dspark-give-a-4x-speedup">Does DSpark give a 4x speedup?<a class="headerlink" href="#does-dspark-give-a-4x-speedup" title="Anchor link to this section">&para;</a></h3>
+<p>Not on every workload. The vendor headline is an upper bound. The reference
+recipe's own dated benchmark is more conservative: single-stream decode holds
+roughly 62-83 tok/s from 256 through 128K context, with around 162 aggregate
+tok/s at six short concurrent chats.</p>
+<h3 id="how-much-hardware-does-the-reference-recipe-need">How much hardware does the reference recipe need?<a class="headerlink" href="#how-much-hardware-does-the-reference-recipe-need" title="Anchor link to this section">&para;</a></h3>
+<p>Two DGX Spark nodes with a working RoCE/NCCL link over ConnectX. A single-node
+variant of the same model family exists if two nodes are not available.</p>
+<h3 id="what-context-length-does-the-recipe-support">What context length does the recipe support?<a class="headerlink" href="#what-context-length-does-the-recipe-support" title="Anchor link to this section">&para;</a></h3>
+<p>A 1M-token ceiling, with <code>nvfp4_ds_mla</code> KV cache and vLLM tensor parallel TP=2.</p>
+<h3 id="does-it-support-video-input">Does it support video input?<a class="headerlink" href="#does-it-support-video-input" title="Anchor link to this section">&para;</a></h3>
+<p>No. There is no video encoder in the official weights; animated inputs are
+treated as a still frame. Native image input is supported.</p>
+<h3 id="should-i-benchmark-before-adopting">Should I benchmark before adopting?<a class="headerlink" href="#should-i-benchmark-before-adopting" title="Anchor link to this section">&para;</a></h3>
+<p>Always. Measure decode throughput before and after enabling DSpark on the
+workload you actually run before committing to additional hardware.</p>
+<h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="/docs/hermes/infrastructure/dgx">DGX Spark compute pattern</a></li>
+<li><a href="/docs/hermes/infrastructure/routing">Model routing</a></li>
+</ul>
 
 
 
@@ -10800,7 +10512,7 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
