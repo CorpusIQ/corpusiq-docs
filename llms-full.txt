@@ -5771,7 +5771,7 @@ CorpusIQ is available on the ChatGPT app store.
 ## ChatGPT Listing
 
 Find CorpusIQ on ChatGPT:
-**[chatgpt.com/apps?q=corpusiq](https://chatgpt.com/apps?q=corpusiq)**
+**[Open the CorpusIQ app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426)**
 
 ## What It Does
 
