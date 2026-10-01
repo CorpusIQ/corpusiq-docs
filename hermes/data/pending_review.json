@@ -66991,5 +66991,121 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-01T10:02:47.960273+00:00",
     "status": "pending"
+  },
+  {
+    "name": "c1t1zen1/markgitup-research-desk",
+    "url": "https://github.com/c1t1zen1/markgitup-research-desk",
+    "description": "Autonomous hourly research desk: a local LLM picks a fresh angle from 24 standing AI/policy/markets topic families, SearXNG gathers the evidence, and nothing publishes without 2+ independent sources. Static site, zero dependencies, built with Hermes Agent.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "ai",
+      "ai-policy",
+      "artificial-intelligence",
+      "automation",
+      "autonomous-agents",
+      "cron",
+      "deepfakes",
+      "github-pages",
+      "hermes-agent",
+      "llm",
+      "local-inference",
+      "local-llm",
+      "news-aggregator",
+      "python",
+      "raspberry-pi",
+      "research-automation",
+      "searxng",
+      "self-hosted",
+      "static-site"
+    ],
+    "updated_at": "2026-10-01T11:01:01Z",
+    "category": "core",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "itsXactlY/mazemaker"
+    ],
+    "discovered_at": "2026-10-01T11:01:11.510332+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jiawood2006/ai-project-advisor",
+    "url": "https://github.com/jiawood2006/ai-project-advisor",
+    "description": "\u5de5\u7a0b\u9879\u76ee AI \u987e\u95ee\uff08AI Project Advisor\uff09\u2014\u2014\u5fae\u4fe1/\u4f01\u5fae\u5bf9\u8bdd\u5f0f\u5de5\u7a0b\u7ba1\u7406\uff1a\u8bb0\u5fc6\u56fe\u8c31/\u591a\u7fa4\u63a5\u5165/\u89c4\u5219+\u5927\u6a21\u578b\u6df7\u5408/\u98ce\u9669\u96f7\u8fbe\uff1b\u914d\u5957 Hermes \u6280\u80fd\uff0c\u53ef\u7531 Hermes Agent \u5b89\u88c5\u3001\u5f00\u53d1\u4e0e\u8fd0\u7ef4\u3002Construction project AI advisor with a companion Hermes skill.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "chinese",
+      "construction",
+      "dingtalk",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "multi-tenant",
+      "project-management",
+      "wecom"
+    ],
+    "updated_at": "2026-10-01T10:58:13Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-01T11:01:11.513192+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "unicorn-Y/hermes-agent",
+    "url": "https://github.com/unicorn-Y/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-01T11:00:41Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-10-01T11:01:34.605746+00:00",
+    "status": "pending"
   }
 ]
