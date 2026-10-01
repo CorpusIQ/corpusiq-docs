@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-09-30"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -236,6 +236,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Context Engineering Skills Setup](/docs/hermes/skills/catalog/context-engineering-skills-setup)
 - [K-Skill - Korean Agent Skills Setup](/docs/hermes/skills/catalog/k-skill-setup)
 - [OKX OnchainOS Skills - Wallet & DEX Setup](/docs/hermes/skills/catalog/okx-onchainos-skills-setup)
+- [OKX CEX Agent Skills - Exchange Trading Suite Setup](/docs/hermes/skills/catalog/okx-cex-agent-skills-setup)
 - [OpenAI Agents Python Skills - Multi-Agent Setup](/docs/hermes/skills/catalog/openai-agents-python-skills-setup)
 - [PluggyAI Agent Skills - Open Finance Setup](/docs/hermes/skills/catalog/pluggyai-agent-skills-setup)
 - [Amplihack Skills - Agentic Coding Setup](/docs/hermes/skills/catalog/amplihack-setup)
