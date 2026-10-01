@@ -1,9 +1,9 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  1,022+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh  --  1,025+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-01"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**1,021+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,024+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [🆕 October 1, 2026 - HeroUI (25.7K, 30.8K⭐ Apache-2.0 official), Redis Agent Skills (19.9K, official Redis Inc. MIT), Vercel Plugin (4.8K, official Vercel org) - 3 new publisher clusters + 1 gstack-variant roster note; 3 new setup guides](/docs/hermes/skills/marketplace/new-oct1-2026-skills)
+
 - [🆕 September 30, 2026 (Evening) - OKX CEX Agent Skills (okx/agent-skills, 79K combined, 184⭐ MIT official) - 1 new publisher cluster, 9 CEX skills (market data, trading, grid/DCA bots, portfolio, earn, smart-money); sibling to the documented OKX OnchainOS family. 1 new setup guide](/docs/hermes/skills/marketplace/new-sep30-2026-evening-skills)
 
 - [🆕 September 30, 2026 (Morning) - Official Google Gemini Skills (47.8K, 4.2K⭐), Assistant UI (89.5K, 17 skills), Dot Skills (30.6K, 96 skills), Claude MPM (26.1K, 96 skills), James Rochabrun (7.4K), Skill From Masters (2.1K), Meta Quest Agentic Tools (5.4K, 39 skills), Harmony Next (320) - 8 new publisher clusters, 282 skills, 8 setup guides + 1 angular deprecated-alias reconcile](/docs/hermes/skills/marketplace/new-sep30-2026-skills)

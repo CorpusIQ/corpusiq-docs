@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -218,6 +218,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Taches CC Resources Skills - Claude Tools Setup](/docs/hermes/skills/catalog/taches-cc-resources-setup)
 - [Google Antigravity SDK Skills Setup](/docs/hermes/skills/catalog/google-antigravity-sdk-setup)
 - [GSAP Skills - GreenSock Animation Platform Setup](/docs/hermes/skills/catalog/greensock-gsap-skills-setup)
+- [HeroUI Skills - React & React Native UI Component Setup](/docs/hermes/skills/catalog/heroui-skills-setup)
 - [Hedera Skills - Web3 Dev Tools Setup](/docs/hermes/skills/catalog/hedera-skills-setup)
 - [ClawHub Skill Vetting - Security Scanner Setup](/docs/hermes/skills/catalog/clawhub-skill-vetting-setup)
 - [Open Browser Use Skills - Browser Automation Setup](/docs/hermes/skills/catalog/open-browser-use-setup)
@@ -435,6 +436,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Railway Agent Skills - Infrastructure Deployment Setup](/docs/hermes/skills/catalog/railway-agent-skills-setup)
 - [Reason Machines DevTools Skills - Auto-Generated CLI Tool Skill Farm Setup](/docs/hermes/skills/catalog/reason-machines-devtools-skills-setup)
 - [Reddit Automation - Honest Reddit Engagement Setup](/docs/hermes/skills/catalog/reddit-automation-setup)
+- [Redis Agent Skills - Official Data Modeling & Caching Setup](/docs/hermes/skills/catalog/redis-agent-skills-setup)
 - [ResumeSkills - AI-Powered Resume Optimization Setup](/docs/hermes/skills/catalog/resumeskills-setup)
 - [Safari Web Agent Setup](/docs/hermes/skills/catalog/safari-web-agent-setup)
 - [Salesforce Skills Library (sf-skills) - 330+ Agent Skills Setup](/docs/hermes/skills/catalog/salesforce-sf-skills-setup)
@@ -590,6 +592,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Motion Design Skill - LottieFiles Animation Setup](/docs/hermes/skills/catalog/lottiefiles-motion-design-skill-setup)
 - [Mobile App UI Design Skill - Mobile Interface Setup](/docs/hermes/skills/catalog/mobile-app-ui-design-skill-setup)
 - [Cursor Plugins Skills - Engineering Discipline Suite Setup](/docs/hermes/skills/catalog/cursor-plugins-skills-setup)
+- [Vercel Plugin Skills - Full Vercel Ecosystem Agent Setup](/docs/hermes/skills/catalog/vercel-plugin-skills-setup)
 - [Vercel AI SDK Skills - TypeScript AI Development Setup](/docs/hermes/skills/catalog/vercel-ai-skills-setup)
 - [Angular Skills - Framework Development Setup](/docs/hermes/skills/catalog/angular-skills-setup)
 - [Inngest Skills - Durable Workflow Orchestration Setup](/docs/hermes/skills/catalog/inngest-skills-setup)

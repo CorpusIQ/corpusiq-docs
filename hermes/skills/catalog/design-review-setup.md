@@ -18,6 +18,8 @@ A "Designer Who Codes" skill: runs a visual audit on shipped UI, then fixes issu
 
 > **Gstack roster note (Sep 27, 2026 sweep):** the [garrytan/gstack](https://github.com/garrytan/gstack) suite (134.3K⭐) now also indexes `gstack-openclaw-office-hours` (291 installs) - the office-hours workflow ported for the OpenClaw runtime. The gstack umbrella (23,447 installs) plus `office-hours` (564) remain the canonical entries.
 
+> **Gstack roster note (Oct 1, 2026 sweep):** a third-party Chinese-language OpenClaw adaptation, [aicreator-wind/gstack-openclaw-skills](https://github.com/aicreator-wind/gstack-openclaw-skills) (44⭐, MIT, 24 SKILL.md, ~165 combined installs), surfaced as NEW. It is a derivative port of the `garrytan/gstack` workflow, not an upstream publisher - below the guide floor and out-of-tree. No standalone guide created; logged for awareness. The upstream `garrytan/gstack` family remains canonical (57 indexed listings, ~40.1K installs as of Oct 1, 2026).
+
 ## Installation
 
 ```bash
