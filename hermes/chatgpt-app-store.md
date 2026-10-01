@@ -5,8 +5,8 @@ description: "CorpusIQ is an official public plugin in the ChatGPT Plugins store
 
 # CorpusIQ in the ChatGPT App Store
 
-**Status:** LIVE and verified Aug 16, 2026
-**Find it:** chatgpt.com/plugins?q=corpusiq (search "corpusiq")
+**Status:** LIVE, verified Aug 16 2026; new version approved Sep 30 2026
+**Direct link:** https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426 (browse: chatgpt.com/plugins?q=corpusiq)
 **Listing:** "CorpusIQ - Ask questions across files"
 
 CorpusIQ is an official public plugin in the ChatGPT Plugins store. This is the third distribution surface for the product, alongside the Claude MCP Connectors Directory and the web app at corpusiq.io.
@@ -32,7 +32,7 @@ The consistent-answer promise is the point: the same number in ChatGPT, Claude, 
 
 - Mention the ChatGPT store listing in social content (verified Aug 16, 2026)
 - Affiliate and outreach emails can say "available in ChatGPT and Claude with one-click install"
-- Docs links should reference chatgpt.com/plugins?q=corpusiq
+- Docs links should use the direct plugin link above
 
 ## Verification method
 
