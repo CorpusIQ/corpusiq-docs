@@ -11,7 +11,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **196+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 187 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **197+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 188 auto-approved (score >= 70).
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **190+ repos indexed.**
 
@@ -50,7 +50,15 @@ _Video, social media, content generation_
 
 ## 🧠 Core Framework
 
-_12 repos_
+_13 repos_
+
+### [kaishi00/hermes-conduit](https://github.com/kaishi00/hermes-conduit) ⭐ 165
+
+>Conduit — native SwiftUI iOS client for Hermes Agent
+
+**Score:** 74/100
+
+---
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
 
