@@ -103,7 +103,7 @@ A: As of the v1.0 release (March 2026), CorpusIQ supports 40+ native connectors 
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
+- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
 - **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  

@@ -164,7 +164,7 @@ Ready to put AI to work on your quickbooks natural language queries data?
 
 Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data  --  not just the people who know how to run reports  --  financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
 
-**[Start asking your QuickBooks data questions in plain English](/docs). Connect in 60 seconds.**
+**[Start asking your QuickBooks data questions in plain English](/quickstart). Connect in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

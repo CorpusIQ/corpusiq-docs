@@ -79,7 +79,7 @@ CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude De
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
+- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
 - **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  

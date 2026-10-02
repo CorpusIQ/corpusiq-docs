@@ -81,7 +81,7 @@ A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The fre
 - **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  MCP direct connection for AI agents  
 - **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  Natural language queries at demo.corpusiq.io  
 - **[Supported AI Agents](/features)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/docs)**  --  Get running in under 5 minutes  
+- **[CorpusIQ Quick Start](/quickstart)**  --  Get running in under 5 minutes  
 - **[CorpusIQ Connectors Directory](/connectors)**  --  All 40+ data source integrations  
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, and a SOC 2 aligned posture
 

@@ -26,7 +26,7 @@ CorpusIQ provides read-only external-source retrieval between authorized SaaS ap
 
 | Section | Description |
 |---------|-------------|
-| [Quick Start](/docs) | Get up and running in under 5 minutes |
+| [Quick Start](/quickstart) | Get up and running in under 5 minutes |
 | [API Overview](/api/overview) | Base URL, endpoints, and core concepts |
 | [API Reference](/api/endpoints) | Full endpoint documentation with request/response schemas |
 | [Authentication](/api/authentication) | Bearer token management and security best practices |
