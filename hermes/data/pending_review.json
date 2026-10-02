@@ -67960,5 +67960,262 @@
     ],
     "discovered_at": "2026-10-02T10:01:48.809070+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ianlee168/hermes-skills",
+    "url": "https://github.com/ianlee168/hermes-skills",
+    "description": "Hermes Agent \u5173\u952e Skill \u5907\u4efd\uff0c\u5931\u5fc6\u540e\u6062\u590d\u7528",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T10:59:39Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-10-02T11:01:09.396941+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "openma-ai/backchat",
+    "url": "https://github.com/openma-ai/backchat",
+    "description": "Local-first desktop workspace for ACP agents\u2014DeepSeek Harness, Claude Code, Codex, Gemini CLI, OpenCode, Hermes, and OpenClaw\u2014with projects, tools, files, browser, and sessions.",
+    "stars": 7,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "acp",
+      "agent-client-protocol",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "desktop-app",
+      "developer-tools",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugins",
+      "electron",
+      "gemini-cli",
+      "hermes",
+      "local-first",
+      "mcp",
+      "mcp-apps",
+      "multi-agent",
+      "opencode",
+      "productivity"
+    ],
+    "updated_at": "2026-10-02T10:57:40Z",
+    "category": "core",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "itechmeat/open-second-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap",
+      "kenryu42/cc-safety-net",
+      "jazzyalex/agent-sessions"
+    ],
+    "discovered_at": "2026-10-02T11:01:09.399842+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Digitally-Challenged/hermes-webui",
+    "url": "https://github.com/Digitally-Challenged/hermes-webui",
+    "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T11:01:14Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nesquena/hermes-webui",
+      "unmodeled-tyler/vessel-browser",
+      "sanchomuzax/hermes-webui",
+      "dodo-reach/hermes-desktop"
+    ],
+    "discovered_at": "2026-10-02T11:01:32.408012+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Dr-SoloDev/Lab-solocorp-os2.4",
+    "url": "https://github.com/Dr-SoloDev/Lab-solocorp-os2.4",
+    "description": "18 departments. 55+ agents. One operating system \u2014 SoloCorp OS turns a single AI into a structured workforce. CFO, Legal, and Content Creator Packs now in pre-release. @mention a Head and begin.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-framework",
+      "agent-orchestration",
+      "ai-agents",
+      "ai-content",
+      "ai-department",
+      "ai-finance",
+      "ai-pipeline",
+      "ai-workflow",
+      "autonomous-agents",
+      "cfo-agent",
+      "hermes-agent",
+      "legal-agent",
+      "multi-agent-system",
+      "opencode",
+      "organizational-ai",
+      "solo-corpos"
+    ],
+    "updated_at": "2026-10-02T11:00:10Z",
+    "category": "forks",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-02T11:01:32.411573+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "curaition/hermes-agent-template",
+    "url": "https://github.com/curaition/hermes-agent-template",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T10:58:50Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T11:01:32.412597+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-example-plugins",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-example-plugins",
+    "description": "RDF parse data for NousResearch/hermes-example-plugins",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-02T10:58:24Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T11:03:02.322358+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-plugin-honcho",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-plugin-honcho",
+    "description": "RDF parse data for NousResearch/hermes-plugin-honcho",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-02T10:30:51Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T11:03:02.326649+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-plugin-openviking",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-plugin-openviking",
+    "description": "RDF parse data for NousResearch/hermes-plugin-openviking",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-02T10:29:02Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T11:03:02.329416+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-plugin-supermemory",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-plugin-supermemory",
+    "description": "RDF parse data for NousResearch/hermes-plugin-supermemory",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-02T10:28:04Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T11:03:02.332915+00:00",
+    "status": "pending"
   }
 ]

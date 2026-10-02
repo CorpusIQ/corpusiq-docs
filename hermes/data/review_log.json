@@ -16377,5 +16377,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-02T10:03:50.514008+00:00"
+  },
+  {
+    "repo": "ianlee168/hermes-skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410233+00:00"
+  },
+  {
+    "repo": "openma-ai/backchat",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410247+00:00"
+  },
+  {
+    "repo": "Digitally-Challenged/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410250+00:00"
+  },
+  {
+    "repo": "Dr-SoloDev/Lab-solocorp-os2.4",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410252+00:00"
+  },
+  {
+    "repo": "curaition/hermes-agent-template",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410253+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-example-plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410255+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-honcho",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410257+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-openviking",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410258+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-supermemory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T11:03:32.410260+00:00"
   }
 ]
