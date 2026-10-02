@@ -88,7 +88,7 @@ Shotstack MCP produces the creative asset; CorpusIQ knows where it should go and
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [ReelsFarm MCP](/docs/hermes/mcp/servers/external/reelsfarm-mcp) - shortform video generation pipeline
-- [UnrealUGC MCP](/docs/hermes/mcp/servers/external/unrealugc-mcp) - UGC-style video content generation
-- [ViewMade MCP](/docs/hermes/mcp/servers/external/viewmade-mcp) - video content workflow tools
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [ReelsFarm MCP](/hermes/mcp/servers/external/reelsfarm-mcp) - shortform video generation pipeline
+- [UnrealUGC MCP](/hermes/mcp/servers/external/unrealugc-mcp) - UGC-style video content generation
+- [ViewMade MCP](/hermes/mcp/servers/external/viewmade-mcp) - video content workflow tools

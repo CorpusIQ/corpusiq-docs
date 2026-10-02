@@ -78,7 +78,7 @@ CivicDataForge's structured evidence output pairs with CorpusIQ connectors for w
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [GovGazette MCP - Federal Contract and Award Intelligence](/docs/hermes/mcp/servers/external/govgazette-mcp)
-- [SAM.gov MCP - Federal Procurement Data](/docs/hermes/mcp/servers/external/sam-gov-mcp)
-- [Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/docs/hermes/mcp/servers/external/acquisition-gov-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [GovGazette MCP - Federal Contract and Award Intelligence](/hermes/mcp/servers/external/govgazette-mcp)
+- [SAM.gov MCP - Federal Procurement Data](/hermes/mcp/servers/external/sam-gov-mcp)
+- [Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/hermes/mcp/servers/external/acquisition-gov-mcp)

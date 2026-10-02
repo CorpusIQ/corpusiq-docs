@@ -46,5 +46,5 @@ npx mcp-remote https://api.appsigma.io/mcp
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Marketing Connectors - GA4, Google Ads, Semrush](/docs/hermes/mcp/connectors)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Marketing Connectors - GA4, Google Ads, Semrush](/hermes/mcp/connectors)

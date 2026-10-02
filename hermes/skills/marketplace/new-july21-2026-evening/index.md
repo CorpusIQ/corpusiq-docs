@@ -29,28 +29,28 @@ Additional skills discovered during the July 21 evening marketplace sweep. 7 new
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **self-improving-agent** | charon-fan/agent-playbook | 32,200 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/self-improving-agent-setup) |
-| **hermes-agent-framework** | aradotso/ai-agent-skills | 176 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/hermes-agent-framework-setup) |
+| **self-improving-agent** | charon-fan/agent-playbook | 32,200 | 🟢 | [Setup Guide](/hermes/skills/catalog/self-improving-agent-setup) |
+| **hermes-agent-framework** | aradotso/ai-agent-skills | 176 | 🟡 | [Setup Guide](/hermes/skills/catalog/hermes-agent-framework-setup) |
 
 ### Hermes UI & Workspace
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **hermes-webui-agent** | aradotso/hermes-skills | 240 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/hermes-webui-agent-setup) |
-| **hermes-workspace-ai-agent-ui** | aradotso/hermes-skills | 196 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/hermes-workspace-ai-agent-ui-setup) |
+| **hermes-webui-agent** | aradotso/hermes-skills | 240 | 🟡 | [Setup Guide](/hermes/skills/catalog/hermes-webui-agent-setup) |
+| **hermes-workspace-ai-agent-ui** | aradotso/hermes-skills | 196 | 🟡 | [Setup Guide](/hermes/skills/catalog/hermes-workspace-ai-agent-ui-setup) |
 
 ### Security & MCP Integration
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **hermes-traffic-guardian** | prompt-security/clawsec | 42 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/hermes-traffic-guardian-setup) |
-| **codex-mcp-server-integration** | aradotso/mcp-skills | 129 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/codex-mcp-server-integration-setup) |
+| **hermes-traffic-guardian** | prompt-security/clawsec | 42 | 🔵 | [Setup Guide](/hermes/skills/catalog/hermes-traffic-guardian-setup) |
+| **codex-mcp-server-integration** | aradotso/mcp-skills | 129 | 🟡 | [Setup Guide](/hermes/skills/catalog/codex-mcp-server-integration-setup) |
 
 ### Growth & Marketing
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **social-media-marketing** | jk-0001/skills | 329 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/social-media-marketing-setup) |
+| **social-media-marketing** | jk-0001/skills | 329 | 🟡 | [Setup Guide](/hermes/skills/catalog/social-media-marketing-setup) |
 
 ## Notes
 

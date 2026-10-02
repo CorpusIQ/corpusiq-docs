@@ -93,6 +93,6 @@ OmniSocials handles the publish side; CorpusIQ handles the numbers behind the po
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [SocialRobot MCP - Social Media Scheduling and Analytics for AI Agents](/docs/hermes/mcp/servers/external/socialrobot-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [SocialRobot MCP - Social Media Scheduling and Analytics for AI Agents](/hermes/mcp/servers/external/socialrobot-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

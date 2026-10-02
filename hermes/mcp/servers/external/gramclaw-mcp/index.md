@@ -44,5 +44,5 @@ Endpoint `https://gramclaw.com/api/mcp` live-probed over JSON-RPC: anonymous ini
 
 ## See Also
 
-- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/docs/hermes/mcp/servers/external/soprano-connect-mcp)
-- [AssistantMail MCP - Managed Mailboxes for Agents](/docs/hermes/mcp/servers/external/assistantmail-mcp)
+- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/hermes/mcp/servers/external/soprano-connect-mcp)
+- [AssistantMail MCP - Managed Mailboxes for Agents](/hermes/mcp/servers/external/assistantmail-mcp)

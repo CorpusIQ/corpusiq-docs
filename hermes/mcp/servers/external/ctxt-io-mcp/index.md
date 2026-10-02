@@ -67,5 +67,5 @@ ctxt.io is the delivery envelope for CorpusIQ's analytical output: a CorpusIQ-dr
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -129,10 +129,10 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 - [Connect HubSpot to Claude](/connect/hubspot-with-claude)
 - [Connect Stripe to Claude](/connect/stripe-with-claude)
 - [Connect Google Analytics to Claude](/connect/google-analytics-with-claude)
-- [AI for Sales Reporting](/private-ai-for-business)
-- [AI for Marketing Analytics](/private-ai-for-business)
-- [AI for Executive Reporting](/private-ai-for-business)
-- [What is MCP?](/answers/what-is-an-mcp-server)
+- [AI for Sales Reporting](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Marketing Analytics](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Executive Reporting](https://www.corpusiq.io/private-ai-for-business)
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 

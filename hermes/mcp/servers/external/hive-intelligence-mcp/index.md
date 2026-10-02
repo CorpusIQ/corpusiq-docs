@@ -86,8 +86,8 @@ Hive composes with CorpusIQ as the market-facing half of a crypto-adjacent finan
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [CryptoStruct Market Data MCP](/docs/hermes/mcp/servers/external/cryptostruct-mcp)
-- [Stock Market MCP Server - Real-Time Financial Data](/docs/hermes/mcp/servers/external/stock-market-mcp-server)
-- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/docs/hermes/mcp/servers/external/edgrapi-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [CryptoStruct Market Data MCP](/hermes/mcp/servers/external/cryptostruct-mcp)
+- [Stock Market MCP Server - Real-Time Financial Data](/hermes/mcp/servers/external/stock-market-mcp-server)
+- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/hermes/mcp/servers/external/edgrapi-mcp)

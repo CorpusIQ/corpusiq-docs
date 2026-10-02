@@ -25,6 +25,6 @@ Educational pages on connecting AI to business data. Written for operators askin
 | [Manual Reporting Time Waste](manual-reporting-time-waste) | The 8-hour tax nobody talks about |
 | [Google Preferred Sources Badge](google-preferred-sources-badge) | Get a preferred badge in AI Overviews, AI Mode, and Top Stories |
 
-*← [Hermes Home](/docs/hermes) | [Guides →](/docs/hermes/guides)*
+*← [Hermes Home](/hermes) | [Guides →](/hermes/guides)*
 
-*↑ [Section Home](/docs/hermes)*
+*↑ [Section Home](/hermes)*

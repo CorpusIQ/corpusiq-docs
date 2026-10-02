@@ -125,8 +125,8 @@ Shared MCP server configuration - add CorpusIQ MCP endpoint here:
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
-*↑ [Skills Home](/docs/hermes/skills)*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
+*↑ [Skills Home](/hermes/skills)*
 
 ---
 

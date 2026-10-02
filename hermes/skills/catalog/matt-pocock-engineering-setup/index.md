@@ -34,7 +34,7 @@ Matt Pocock's engineering skills turn Hermes agents into production-grade softwa
 
 ## 2. Prerequisites
 
-- Hermes Agent installed ([setup guide](/docs/hermes/setup))
+- Hermes Agent installed ([setup guide](/hermes/setup))
 - Node.js 18+ (for `npx skills add`)
 - GitHub repo with Issues enabled (for to-issues and to-prd output)
 - GitHub Personal Access Token with `repo` scope (for issue creation)
@@ -176,7 +176,7 @@ All skills operate on the current conversation context - no additional arguments
 
 ---
 
-*↑ [Skills Catalog](/docs/hermes/skills/catalog) | [Matt Pocock Skills Repo](https://github.com/mattpocock/skills) →*
+*↑ [Skills Catalog](/hermes/skills/catalog) | [Matt Pocock Skills Repo](https://github.com/mattpocock/skills) →*
 
 ---
 

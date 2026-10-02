@@ -132,7 +132,7 @@ hermoso complements CorpusIQ's existing MCP connectors:
 - [Meta Ads MCP Guide](/hermes/mcp/#meta-ads)
 - [TikTok MCP Guide](/hermes/mcp/#tiktok)
 - [YouTube MCP Guide](/hermes/mcp/#youtube)
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
 
 ---
 

@@ -92,7 +92,7 @@ CorpusIQ connects financial statements and operational data; Velarion adds the g
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Factanker MCP - Evidence-Backed Company and Bank Facts](/docs/hermes/mcp/servers/external/factanker-mcp)
-- [SEC EDGAR MCP - Full-Text Filing Search for Agents](/docs/hermes/mcp/servers/external/sec-edgar-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Factanker MCP - Evidence-Backed Company and Bank Facts](/hermes/mcp/servers/external/factanker-mcp)
+- [SEC EDGAR MCP - Full-Text Filing Search for Agents](/hermes/mcp/servers/external/sec-edgar-mcp)

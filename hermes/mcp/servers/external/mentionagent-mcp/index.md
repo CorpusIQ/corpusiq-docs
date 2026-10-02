@@ -54,6 +54,6 @@ Endpoint live-probed over JSON-RPC: anonymous initialize returned `{"error":"inv
 
 ## See Also
 
-- [GramClaw MCP - Telegram Outreach Workflow for Agents](/docs/hermes/mcp/servers/external/gramclaw-mcp)
-- [Reach MCP - Operate a Real LinkedIn Account from Your Agent](/docs/hermes/mcp/servers/external/reach-mcp)
-- [SEOVally MCP - Scoped SEO and AI-Search Audits for Agents](/docs/hermes/mcp/servers/external/seovally-mcp)
+- [GramClaw MCP - Telegram Outreach Workflow for Agents](/hermes/mcp/servers/external/gramclaw-mcp)
+- [Reach MCP - Operate a Real LinkedIn Account from Your Agent](/hermes/mcp/servers/external/reach-mcp)
+- [SEOVally MCP - Scoped SEO and AI-Search Audits for Agents](/hermes/mcp/servers/external/seovally-mcp)

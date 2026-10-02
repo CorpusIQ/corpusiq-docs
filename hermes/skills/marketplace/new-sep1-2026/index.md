@@ -40,7 +40,7 @@ npx skills add nousresearch/hermes-agent --skill competitor-news-monitor
 # product-price-monitor, sdlc-review
 ```
 
-Full details, per-skill use cases, and CorpusIQ mappings: [Hermes Agent Official Skills - Bundled Batch Setup](/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup)
+Full details, per-skill use cases, and CorpusIQ mappings: [Hermes Agent Official Skills - Bundled Batch Setup](/hermes/skills/catalog/hermes-agent-official-skills-batch-setup)
 
 ## Method Notes
 

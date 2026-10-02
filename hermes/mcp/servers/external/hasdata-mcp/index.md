@@ -71,7 +71,7 @@ Tool names recovered from the vendor's official MCP docs page (docs.hasdata.com/
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Google Maps Scraper MCP - Live Maps Data for AI Agents](/docs/hermes/mcp/servers/external/google-maps-scraper-mcp)
-- [Crustdata MCP Integration Guide](/docs/hermes/mcp/servers/external/crustdata)
-- [LiveDataLink MCP - Live Public Data for AI Agents](/docs/hermes/mcp/servers/external/livedatalink-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Google Maps Scraper MCP - Live Maps Data for AI Agents](/hermes/mcp/servers/external/google-maps-scraper-mcp)
+- [Crustdata MCP Integration Guide](/hermes/mcp/servers/external/crustdata)
+- [LiveDataLink MCP - Live Public Data for AI Agents](/hermes/mcp/servers/external/livedatalink-mcp)

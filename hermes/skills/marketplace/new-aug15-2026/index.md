@@ -27,61 +27,61 @@ Sweep combined the hot (1H delta) and all-time leaderboards with 40 API queries,
 
 The largest extension-skill suite catalogued this week: email calendar/marketing/verification/raw (13K+ each), Stripe, QR code, camera, object storage, authorization, HTTP outcalls, OpenAI, posting-to-X, OQL querying, Google Mail/Calendar connectors, and a Motoko (Internet Computer) series.
 
-**Setup guide:** [CaffeineLabs Extension Skills Setup](/docs/hermes/skills/catalog/caffeinelabs-extension-skills-setup)
+**Setup guide:** [CaffeineLabs Extension Skills Setup](/hermes/skills/catalog/caffeinelabs-extension-skills-setup)
 
 ### 2. OpenCLI - `jackwener/opencli` (14 skills, 97.8K)
 
 Agent CLI toolkit: opencli-usage (18.6K), opencli-browser (17.2K), opencli-autofix (15.6K), smart-search (14.9K), adapter authoring, sitemap browsing, explorer/oneshot/operate modes. Queued since the June 19 batch; now guided with verified publisher-page counts.
 
-**Setup guide:** [OpenCLI Skills Setup](/docs/hermes/skills/catalog/opencli-skills-setup)
+**Setup guide:** [OpenCLI Skills Setup](/hermes/skills/catalog/opencli-skills-setup)
 
 ### 3. CMUX - `manaflow-ai/cmux` (22 skills, 76.3K)
 
 Operating skills for the cmux macOS multiplexer (26.1K GitHub stars): browser panels, markdown, settings, workspace, customization, diagnostics, shortcuts, testing, architecture, dev workflow, backend, billing. Core topology: window → workspace → pane → surface.
 
-**Setup guide:** [CMUX Skills Setup](/docs/hermes/skills/catalog/cmux-skills-setup)
+**Setup guide:** [CMUX Skills Setup](/hermes/skills/catalog/cmux-skills-setup)
 
 ### 4. Agentix CEO - `agentix-cloud/skills` (1 skill, 52.0K)
 
 CEO orchestrator for a team of AI workers: roles with custom system prompts, tasks with priority tracking, ephemeral Modal workers, supervised and autopilot modes, GitHub integration. SaaS or self-hosted via `AGENTIX_API_URL`.
 
-**Setup guide:** [Agentix CEO Skill Setup](/docs/hermes/skills/catalog/agentix-ceo-skill-setup)
+**Setup guide:** [Agentix CEO Skill Setup](/hermes/skills/catalog/agentix-ceo-skill-setup)
 
 ### 5. LiarJS Fingerprint - `liarjsdev/liarjs-skills` (4 skills, 51.9K)
 
 Browser fingerprinting and Playwright stealth loop: fingerprint-ci-gate, playwright-stealth-verify, browser-fingerprint-audit, fingerprint-failure-triage (13.0K each). Directly relevant to anti-bot browser automation.
 
-**Setup guide:** [LiarJS Fingerprint Skills Setup](/docs/hermes/skills/catalog/liarjs-fingerprint-skills-setup)
+**Setup guide:** [LiarJS Fingerprint Skills Setup](/hermes/skills/catalog/liarjs-fingerprint-skills-setup)
 
 ### 6. Huashu Design - `alchaincyf/huashu-design` (1 skill, 42.9K, 23K stars)
 
 HTML-first design skill: specialist role embodiment (animator/UX/slides/prototyper), brand asset protocol, three design directions, five design philosophies, four confirmation checkpoints.
 
-**Setup guide:** [Huashu Design Setup](/docs/hermes/skills/catalog/huashu-design-setup)
+**Setup guide:** [Huashu Design Setup](/hermes/skills/catalog/huashu-design-setup)
 
 ### 7. Replicas Agent - `replicas-group/skill` (1 skill, 34.7K)
 
 Operating guide for a background coding agent in Replicas cloud workspaces: public previews, Slack, Linear, GitHub, Google Workspace, Docker, media sharing, and the `replicas` CLI.
 
-**Setup guide:** [Replicas Agent Skill Setup](/docs/hermes/skills/catalog/replicas-agent-skill-setup)
+**Setup guide:** [Replicas Agent Skill Setup](/hermes/skills/catalog/replicas-agent-skill-setup)
 
 ### 8. Design Doc Mermaid - `spillwavesolutions/design-doc-mermaid` (1 skill, 34.2K)
 
 Mermaid Architect diagram and documentation skill: decision trees, code-to-diagram, resilient workflows, unicode symbols, Python utilities, high-contrast styling, learning path.
 
-**Setup guide:** [Design Doc Mermaid Setup](/docs/hermes/skills/catalog/design-doc-mermaid-setup)
+**Setup guide:** [Design Doc Mermaid Setup](/hermes/skills/catalog/design-doc-mermaid-setup)
 
 ### 9. Agent Pulse - `jane-o-o-o-o/agent-pulse-skill` (1 skill, 32.4K)
 
 CLI source of truth for local AI-agent activity (`agentpulse-cli` PyPI package). Fastest-rising new skill on the hot leaderboard during this sweep (+218 in the hour).
 
-**Setup guide:** [Agent Pulse Skill Setup](/docs/hermes/skills/catalog/agent-pulse-skill-setup)
+**Setup guide:** [Agent Pulse Skill Setup](/hermes/skills/catalog/agent-pulse-skill-setup)
 
 ### 10. Academic Research - `imbad0202/academic-research-skills` (4 skills, 26.4K)
 
 Academic paper pipeline: academic-paper (8.0K), academic-paper-reviewer (7.4K), deep-research (5.7K), academic-pipeline (5.3K).
 
-**Setup guide:** [Academic Research Skills Setup](/docs/hermes/skills/catalog/academic-research-skills-setup)
+**Setup guide:** [Academic Research Skills Setup](/hermes/skills/catalog/academic-research-skills-setup)
 
 ---
 
@@ -110,7 +110,7 @@ Carry-over queue from prior sweeps (not re-drafted this cycle): amazonappdev/dev
 
 ## Verified Already Catalogued (this sweep)
 
-- resend/react-email and resend/email-best-practices - covered by the existing [Resend Skills Setup](/docs/hermes/skills/catalog/resend-skills-setup) guide
+- resend/react-email and resend/email-best-practices - covered by the existing [Resend Skills Setup](/hermes/skills/catalog/resend-skills-setup) guide
 
 ## Sweep Notes
 

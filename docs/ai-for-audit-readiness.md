@@ -121,10 +121,10 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 - [Connect QuickBooks to Claude](/connect/quickbooks-with-claude)
 - [Connect NetSuite to Claude](/connectors)
 - [Connect SharePoint to Claude](/connectors)
-- [AI for Compliance](/private-ai-for-business)
-- [AI for Financial Analysis](/private-ai-for-business)
-- [AI for Document Search](/private-ai-for-business)
-- [What is MCP?](/answers/what-is-an-mcp-server)
+- [AI for Compliance](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Financial Analysis](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Document Search](https://www.corpusiq.io/private-ai-for-business)
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 

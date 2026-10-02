@@ -87,8 +87,8 @@ Mailercloud MCP pairs naturally with the CorpusIQ connector surface: CorpusIQ's 
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
-- [BusyMail MCP - Human-Approval Email over MCP](/docs/hermes/mcp/servers/external/busymail-mcp)
-- [smtp-mcp - Guardrailed Outbound Email over SMTP for Agents](/docs/hermes/mcp/servers/external/smtp-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp)
+- [BusyMail MCP - Human-Approval Email over MCP](/hermes/mcp/servers/external/busymail-mcp)
+- [smtp-mcp - Guardrailed Outbound Email over SMTP for Agents](/hermes/mcp/servers/external/smtp-mcp)

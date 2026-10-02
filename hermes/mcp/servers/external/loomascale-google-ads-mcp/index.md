@@ -85,8 +85,8 @@ LoomaScale acts on spend; CorpusIQ measures revenue. A composed workflow: Corpus
 
 ## See Also
 
-- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/docs/hermes/mcp/servers/external/ryze-google-ads-mcp)
-- [TrueClicks MCP - PPC Audit Intelligence for Agents](/docs/hermes/mcp/servers/external/trueclicks-mcp)
-- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/docs/hermes/mcp/servers/external/adplug-linkedin-ads-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/hermes/mcp/servers/external/ryze-google-ads-mcp)
+- [TrueClicks MCP - PPC Audit Intelligence for Agents](/hermes/mcp/servers/external/trueclicks-mcp)
+- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/hermes/mcp/servers/external/adplug-linkedin-ads-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

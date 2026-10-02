@@ -98,8 +98,8 @@ When the validated idea graduates into a live product, CorpusIQ closes the loop:
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [ddmarketer MCP - Validated SaaS Opportunity Intelligence](/docs/hermes/mcp/servers/external/ddmarketer-mcp)
-- [Buska MCP - Social Listening and Buying Signals for AI Agents](/docs/hermes/mcp/servers/external/buska-mcp)
-- [Founders Os](/docs/hermes/mcp/servers/external/founders-os)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [ddmarketer MCP - Validated SaaS Opportunity Intelligence](/hermes/mcp/servers/external/ddmarketer-mcp)
+- [Buska MCP - Social Listening and Buying Signals for AI Agents](/hermes/mcp/servers/external/buska-mcp)
+- [Founders Os](/hermes/mcp/servers/external/founders-os)

@@ -94,8 +94,8 @@ npx skills add nousresearch/hermes-agent --skill excel-author
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
-*↑ [New June 2026](/docs/hermes/skills/marketplace/new-june-2026) | June 13 Update 3 →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace Home](/hermes/skills/marketplace) →*
+*↑ [New June 2026](/hermes/skills/marketplace/new-june-2026) | June 13 Update 3 →*
 *Powered by CorpusIQ*
 ---
 

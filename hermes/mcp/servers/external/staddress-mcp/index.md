@@ -75,7 +75,7 @@ Staddress cleans the address layer; CorpusIQ reads the business around it. A com
 
 ## See Also
 
-- [Leadgen MCP](/docs/hermes/mcp/servers/external/leadgen-mcp)
-- [Xverum MCP](/docs/hermes/mcp/servers/external/xverum-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Leadgen MCP](/hermes/mcp/servers/external/leadgen-mcp)
+- [Xverum MCP](/hermes/mcp/servers/external/xverum-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

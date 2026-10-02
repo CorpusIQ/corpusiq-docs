@@ -98,6 +98,6 @@ skills:
 
 ---
 
-*← [Clawdirect Setup](/docs/hermes/skills/catalog/clawdirect-setup) | [Marketplace Home →](/docs/hermes/skills/marketplace)*
+*← [Clawdirect Setup](/hermes/skills/catalog/clawdirect-setup) | [Marketplace Home →](/hermes/skills/marketplace)*
 
-*↑ [Skills Catalog](/docs/hermes/skills/catalog)*
+*↑ [Skills Catalog](/hermes/skills/catalog)*

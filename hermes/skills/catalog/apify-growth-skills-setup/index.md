@@ -17,7 +17,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Three production-grade growth automation skills built on Apify's platform of 30,000+ pre-built Actors. The **ultimate scraper** handles any website (JS-rendered, infinite scroll, auth-walled), **lead generation** discovers and enriches prospects from business directories, and **brand monitoring** tracks your reputation across the web and social platforms.
 
-These skills extend the base [apify/agent-skills](/docs/hermes/skills/catalog/apify-agent-skills-setup) package (documented July 16) with specialized growth workflows.
+These skills extend the base [apify/agent-skills](/hermes/skills/catalog/apify-agent-skills-setup) package (documented July 16) with specialized growth workflows.
 
 ---
 
@@ -216,5 +216,5 @@ npx skills run apify-brand-reputation-monitoring \
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Apify Agent Skills Base Guide](/docs/hermes/skills/catalog/apify-agent-skills-setup) | [Discovery Page](/docs/hermes/skills/marketplace/new-july17-2026-update) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Apify Agent Skills Base Guide](/hermes/skills/catalog/apify-agent-skills-setup) | [Discovery Page](/hermes/skills/marketplace/new-july17-2026-update) →*
 *Powered by CorpusIQ*

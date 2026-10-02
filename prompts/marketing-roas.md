@@ -41,4 +41,4 @@ Combine any of these questions. CorpusIQ handles multi-source queries natively -
 
 ---
 
-*← [Prompt Library](/docs/prompts) | [CorpusIQ Docs Home →](/)*
+*← [Prompt Library](/prompts) | [CorpusIQ Docs Home →](/)*

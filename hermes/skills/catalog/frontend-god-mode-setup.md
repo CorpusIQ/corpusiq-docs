@@ -57,11 +57,11 @@ No skills.sh security audits published (verified Sep 27, 2026):
 
 ## Related
 
-- [Meng To Skills Setup](/docs/hermes/skills/catalog/mengto-skills-setup)
-- [UI/UX Pro Max Setup](/docs/hermes/skills/catalog/ui-ux-pro-max-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Meng To Skills Setup](/hermes/skills/catalog/mengto-skills-setup)
+- [UI/UX Pro Max Setup](/hermes/skills/catalog/ui-ux-pro-max-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

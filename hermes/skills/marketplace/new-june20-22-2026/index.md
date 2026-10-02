@@ -87,7 +87,7 @@ cp -r SKILL.md references ~/.hermes/skills/hermes-bible/
 hermes skills install https://raw.githubusercontent.com/DeployFaith/hermes-bible-skill/main/SKILL.md
 ```
 
-**Setup Guide:** [hermes-bible-skill-setup.md](/docs/hermes/skills/catalog/hermes-bible-skill-setup)
+**Setup Guide:** [hermes-bible-skill-setup.md](/hermes/skills/catalog/hermes-bible-skill-setup)
 
 ---
 
@@ -111,7 +111,7 @@ git clone https://github.com/eve-ai-dev/steroids-openai-image-gen.git
 hermes plugins enable steroids-openai-image-gen
 ```
 
-**Setup Guide:** [steroids-openai-image-gen-setup.md](/docs/hermes/skills/catalog/steroids-openai-image-gen-setup)
+**Setup Guide:** [steroids-openai-image-gen-setup.md](/hermes/skills/catalog/steroids-openai-image-gen-setup)
 
 ---
 
@@ -138,7 +138,7 @@ hermes plugins install ersh123/hermes-ershov --enable
 hermes ershov review --help
 ```
 
-**Setup Guide:** [hermes-ershov-setup.md](/docs/hermes/skills/catalog/hermes-ershov-setup)
+**Setup Guide:** [hermes-ershov-setup.md](/hermes/skills/catalog/hermes-ershov-setup)
 
 ---
 
@@ -183,4 +183,4 @@ Wraps the [AgentAnycast Python SDK](https://github.com/AgentAnycast/agentanycast
 
 ---
 
-*← [Previous Discovery](/docs/hermes/skills/marketplace/new-june19-20-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [Previous Discovery](/hermes/skills/marketplace/new-june19-20-2026) | [Marketplace Home](/hermes/skills/marketplace) →*

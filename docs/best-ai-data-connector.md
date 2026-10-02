@@ -154,7 +154,7 @@ A: Start with CRM + Accounting (2 connectors). Most organizations get maximum va
 - [Best ChatGPT Integration Platform](/compare)
 - [CorpusIQ vs Fivetran  --  Live Query vs ETL](/compare)
 - [CorpusIQ vs Airbyte  --  MCP vs Open-Source](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top Business AI Tools  --  Rankings](/compare)
 - [Secure AI Data Connectivity](/security)
 ---

@@ -181,11 +181,11 @@ Email monitoring, system health checks, lightweight cron jobs, IoT automation, a
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/docs/hermes/setup)  --  Compare all platforms
+- [Hermes Agent Setup Overview](/hermes/setup)  --  Compare all platforms
 - [Cloud VPS Setup](cloud-vps)  --  Alternative always-on option
 - [Docker Setup](docker)  --  Containerized ARM deployment
-- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design)  --  Lightweight automation
-- [Troubleshooting Guide](/docs/hermes/troubleshooting)  --  Pi-specific issues
+- [Cron Design Best Practices](/hermes/best-practices/cron-design)  --  Lightweight automation
+- [Troubleshooting Guide](/hermes/troubleshooting)  --  Pi-specific issues
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

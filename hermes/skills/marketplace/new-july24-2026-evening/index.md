@@ -27,19 +27,19 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **just-scrape** | scrapegraphai/just-scrape | 244.9K | 37 ★ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/just-scrape-setup) |
+| **just-scrape** | scrapegraphai/just-scrape | 244.9K | 37 ★ | 🟢 | [Setup Guide](/hermes/skills/catalog/just-scrape-setup) |
 
 ### System Administration
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **terminal-skills** | chaterm/terminal-skills | 2.4K+ combined | 49 ★ | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/terminal-skills-setup) |
+| **terminal-skills** | chaterm/terminal-skills | 2.4K+ combined | 49 ★ | 🟡 | [Setup Guide](/hermes/skills/catalog/terminal-skills-setup) |
 
 ### Business Intelligence
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **finance-skills** | himself65/finance-skills | 8.6K+ combined | 3,064 ★ | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/finance-skills-setup) |
+| **finance-skills** | himself65/finance-skills | 8.6K+ combined | 3,064 ★ | 🟡 | [Setup Guide](/hermes/skills/catalog/finance-skills-setup) |
 
 ## Notes
 

@@ -129,6 +129,6 @@ These skills can be used to extend CorpusIQ agent capabilities:
 
 ---
 
-*← [Marketplace](/docs/hermes/skills/marketplace) | [Clawdirect Setup →](/docs/hermes/skills/catalog/clawdirect-setup)*
+*← [Marketplace](/hermes/skills/marketplace) | [Clawdirect Setup →](/hermes/skills/catalog/clawdirect-setup)*
 
-*↑ [Skills Catalog](/docs/hermes/skills/catalog)*
+*↑ [Skills Catalog](/hermes/skills/catalog)*

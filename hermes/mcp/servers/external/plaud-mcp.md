@@ -63,4 +63,4 @@ Operators spend 40%+ of their time in meetings. Most of those insights evaporate
 ---
 
 *Discovered via mcpservers.org - July 4, 2026*
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [Plaud MCP Docs](https://docs.plaud.ai/plaud-mcp-cli/mcp) →*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [Plaud MCP Docs](https://docs.plaud.ai/plaud-mcp-cli/mcp) →*

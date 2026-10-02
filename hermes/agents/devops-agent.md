@@ -18,7 +18,7 @@ robots: "index,follow"
 
 The **Hermes DevOps Agent** is your embedded **SRE teammate**  --  it monitors **infrastructure health**, triages incidents, analyzes logs, tracks deployment health, and automates routine operations tasks. Deploy in minutes to get real-time operational intelligence without context-switching between dashboards.
 
-This agent connects to your observability stack, CI/CD pipelines, cloud providers, and incident management tools through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors). It surfaces issues before they become outages, correlates deployment events with metric anomalies, and accelerates root-cause analysis.
+This agent connects to your observability stack, CI/CD pipelines, cloud providers, and incident management tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors). It surfaces issues before they become outages, correlates deployment events with metric anomalies, and accelerates root-cause analysis.
 
 ## Overview
 
@@ -32,7 +32,7 @@ This agent connects to your observability stack, CI/CD pipelines, cloud provider
 | **Log analysis** | Error pattern detection, cross-service correlation, spike detection, slow-query surfacing |
 | **SSL certificate monitoring** | Expiration tracking with renewal reminders |
 
-> **See also:** [Agent Library Overview](/docs/hermes/agents) · [Finance Agent](/docs/hermes/agents/finance-agent) · [Support Agent](/docs/hermes/agents/support-agent)
+> **See also:** [Agent Library Overview](/hermes/agents) · [Finance Agent](/hermes/agents/finance-agent) · [Support Agent](/hermes/agents/support-agent)
 
 ## How It Works
 
@@ -136,12 +136,12 @@ Every Friday, the agent scans for **idle load balancers, oversized instances, un
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
-- [Finance Agent  --  Reconciliation & Financial Reporting](/docs/hermes/agents/finance-agent)
-- [Support Agent  --  Ticket Triage & SLA Monitoring](/docs/hermes/agents/support-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
-- [Database Connectors  --  PostgreSQL, MSSQL, MongoDB](/docs/hermes/mcp/servers)
-- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
+- [Finance Agent  --  Reconciliation & Financial Reporting](/hermes/agents/finance-agent)
+- [Support Agent  --  Ticket Triage & SLA Monitoring](/hermes/agents/support-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Database Connectors  --  PostgreSQL, MSSQL, MongoDB](/hermes/mcp/servers)
+- [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

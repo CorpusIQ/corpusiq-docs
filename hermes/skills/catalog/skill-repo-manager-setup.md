@@ -152,4 +152,4 @@ All available as individual repos under `Victor-F-M-A-R/skywork-skill-*`.
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 24 Evening Discovery](/docs/hermes/skills/marketplace/new-june24-2026-evening) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [June 24 Evening Discovery](/hermes/skills/marketplace/new-june24-2026-evening) →*

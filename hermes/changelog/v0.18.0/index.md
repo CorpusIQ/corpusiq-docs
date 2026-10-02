@@ -230,7 +230,7 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 
 ---
 
-*← [v0.17.0 - The Reach Release](/docs/hermes/changelog/v0.17.0) | [Changelog Home](/docs/hermes/changelog) →*
+*← [v0.17.0 - The Reach Release](/hermes/changelog/v0.17.0) | [Changelog Home](/hermes/changelog) →*
 
 ---
 

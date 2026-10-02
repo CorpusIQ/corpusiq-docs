@@ -45,5 +45,5 @@ OPENAI_API_KEY={key} node {path}/naturalmelo-mcp/dist/server.js
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Content Strategy](/docs/hermes/content-ops)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Content Strategy](/hermes/content-ops)

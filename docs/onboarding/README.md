@@ -110,9 +110,9 @@ Your agent now has access to 40+ business data sources. Use it for:
 
 ## What's Next?
 
-- Browse the [prompts library](/docs/hermes/prompts) for 60+ copy-paste queries
+- Browse the [prompts library](/hermes/prompts) for 60+ copy-paste queries
 - Check [connector documentation](/connectors) for specific setup guides
-- Review [troubleshooting](/docs/hermes/troubleshooting) if you hit issues
+- Review [troubleshooting](/hermes/troubleshooting) if you hit issues
 - Join the [community](https://corpusiq.io/community/) for questions, early connector ideas, and
   upvotes
 - Open a [Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose)
@@ -134,12 +134,12 @@ A: Device login takes approximately 45 seconds from start to finish. Your agent 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
 - **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance)**  --  Source of truth and audit controls  
+- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

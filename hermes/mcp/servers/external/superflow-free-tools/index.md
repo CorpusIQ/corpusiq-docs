@@ -92,7 +92,7 @@ The AI-visibility checks pair naturally with CorpusIQ's search console and analy
 
 ## See Also
 
-- [Simplepages MCP - Landing Pages Built From Chat](/docs/hermes/mcp/servers/external/simplepages-mcp)
-- [AdMapix MCP - Competitor Ad Creative Intelligence](/docs/hermes/mcp/servers/external/admapix-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Simplepages MCP - Landing Pages Built From Chat](/hermes/mcp/servers/external/simplepages-mcp)
+- [AdMapix MCP - Competitor Ad Creative Intelligence](/hermes/mcp/servers/external/admapix-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

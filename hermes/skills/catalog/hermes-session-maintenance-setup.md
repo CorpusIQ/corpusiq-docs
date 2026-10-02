@@ -115,5 +115,5 @@ VACUUM requires an **exclusive lock** on the database. If the Hermes gateway is 
 
 ---
 
-*← [Advanced Memory Setup](/docs/hermes/skills/catalog/hermes-advanced-memory-setup) | [Skill Cleaner Setup →](/docs/hermes/skills/catalog/hermes-skill-cleaner-setup)*
+*← [Advanced Memory Setup](/hermes/skills/catalog/hermes-advanced-memory-setup) | [Skill Cleaner Setup →](/hermes/skills/catalog/hermes-skill-cleaner-setup)*
 *Powered by CorpusIQ*

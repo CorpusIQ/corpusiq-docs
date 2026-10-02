@@ -83,8 +83,8 @@ Chirpie distributes; CorpusIQ attributes. A composed workflow: the agent posts a
 
 ## See Also
 
-- [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/docs/hermes/mcp/servers/external/bulkpublish-mcp)
-- [Antwork MCP - Social Publishing with Learned Brand Voice](/docs/hermes/mcp/servers/external/antwork-mcp)
-- [PostBazooka MCP - Social Publishing with Commit Proof](/docs/hermes/mcp/servers/external/postbazooka-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/hermes/mcp/servers/external/bulkpublish-mcp)
+- [Antwork MCP - Social Publishing with Learned Brand Voice](/hermes/mcp/servers/external/antwork-mcp)
+- [PostBazooka MCP - Social Publishing with Commit Proof](/hermes/mcp/servers/external/postbazooka-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -105,6 +105,6 @@ Only these **free no-key models** have been confirmed with this Windows-native s
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Platform](/hermes/skills/catalog/#platform) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Platform](/hermes/skills/catalog/#platform) →*
 *Source: [markwang2658/hermes-windows-native](https://github.com/markwang2658/hermes-windows-native)*
 *Powered by CorpusIQ*

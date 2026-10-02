@@ -14,7 +14,7 @@ robots: "index,follow"
 **Source:** mcp.so/feed (Next.js RSC payload extraction), mcpservers.org  
 **Method:** curl + Python regex (`__next_f.push` extraction)  
 **Date:** July 2, 2026 afternoon sweep  
-**Prior scan:** [July 2 morning scan](/docs/hermes/mcp/servers/external/scan-results-2026-07-02)
+**Prior scan:** [July 2 morning scan](/hermes/mcp/servers/external/scan-results-2026-07-02)
 
 ## Summary
 

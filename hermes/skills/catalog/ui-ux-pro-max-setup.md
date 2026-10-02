@@ -58,5 +58,5 @@ npx skills add nextlevelbuilder/ui-ux-pro-max-skill
 
 ## Related
 
-- [Emil Kowalski Skills - Design Engineering Suite Setup](/docs/hermes/skills/catalog/emilkowalski-skills-setup)
-- [Uizze UI Skills - Anti-UI-Slop Design Quality Setup](/docs/hermes/skills/catalog/uizze-ui-skills-setup)
+- [Emil Kowalski Skills - Design Engineering Suite Setup](/hermes/skills/catalog/emilkowalski-skills-setup)
+- [Uizze UI Skills - Anti-UI-Slop Design Quality Setup](/hermes/skills/catalog/uizze-ui-skills-setup)

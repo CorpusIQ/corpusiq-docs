@@ -68,5 +68,5 @@ Nacha MCP's structured ACH JSON pairs with CorpusIQ connectors for finance opera
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Candor Finance MCP](/docs/hermes/mcp/servers/external/candor-finance-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Candor Finance MCP](/hermes/mcp/servers/external/candor-finance-mcp)

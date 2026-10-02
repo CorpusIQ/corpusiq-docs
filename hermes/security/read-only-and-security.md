@@ -98,4 +98,4 @@ customer systems. Read-only access means:
 - [Connectors overview](/connectors)
 - [Google Workspace connector](/connectors)
 - [Meta connector](/connect/meta-ads-with-chatgpt)
-- [MCP Apps: Interactive UIs](/docs/hermes/mcp/mcp-apps-interactive-ui)
+- [MCP Apps: Interactive UIs](/hermes/mcp/mcp-apps-interactive-ui)

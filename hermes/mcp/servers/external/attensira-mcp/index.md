@@ -85,7 +85,7 @@ Attensira measures what AI assistants say about a business; CorpusIQ measures wh
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [CiteRank MCP - AI Search Visibility & GEO Audits for AI Agents](/docs/hermes/mcp/servers/external/citerank-mcp)
-- [SEOVally MCP - Scoped SEO and AI-Search Audits for Agents](/docs/hermes/mcp/servers/external/seovally-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [CiteRank MCP - AI Search Visibility & GEO Audits for AI Agents](/hermes/mcp/servers/external/citerank-mcp)
+- [SEOVally MCP - Scoped SEO and AI-Search Audits for Agents](/hermes/mcp/servers/external/seovally-mcp)

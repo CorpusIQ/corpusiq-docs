@@ -80,10 +80,10 @@ npx skills list | grep -i seojuice
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [SEO GEO Claude Skills Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup) - companion GEO toolkit
-- [Docs SEO/AEO/GEO strategy](/docs/hermes/skills/catalog) - CorpusIQ docs optimization standards
+- [Skills Catalog](/hermes/skills/catalog)
+- [SEO GEO Claude Skills Setup](/hermes/skills/catalog/seo-geo-claude-skills-setup) - companion GEO toolkit
+- [Docs SEO/AEO/GEO strategy](/hermes/skills/catalog) - CorpusIQ docs optimization standards
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

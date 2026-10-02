@@ -78,7 +78,7 @@ hermes skills install omh-ops-review omh-research-brief omh-security-safety-revi
 ## Limitations / Verification
 
 - New and fast-moving repo (pushed Sep 28, 2026); skills change frequently - pin versions where possible
-- Not the same publisher as the documented [witt3rd/oh-my-hermes suite](/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup) (255⭐, 9 skills)
+- Not the same publisher as the documented [witt3rd/oh-my-hermes suite](/hermes/skills/catalog/oh-my-hermes-omh-suite-setup) (255⭐, 9 skills)
 - Verify: `npx skills add rlaope/oh-my-hermes --list` shows the current skill count
 
 ## Security
@@ -93,11 +93,11 @@ No skills.sh security audits published (verified Sep 28, 2026):
 
 ## Related
 
-- [Oh My Hermes (OMH) Suite Setup](/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup) (different publisher: witt3rd)
-- [Oh My Hermes Workflow Setup](/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup) (different publisher: reason-machines)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Oh My Hermes (OMH) Suite Setup](/hermes/skills/catalog/oh-my-hermes-omh-suite-setup) (different publisher: witt3rd)
+- [Oh My Hermes Workflow Setup](/hermes/skills/catalog/oh-my-hermes-workflow-setup) (different publisher: reason-machines)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

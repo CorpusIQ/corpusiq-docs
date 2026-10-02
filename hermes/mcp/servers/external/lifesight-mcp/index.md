@@ -79,8 +79,8 @@ Lifesight and CorpusIQ cover the two halves of marketing truth: CorpusIQ's Googl
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Staats MCP - Cookieless Web Analytics for Agents](/docs/hermes/mcp/servers/external/staats-mcp)
-- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/docs/hermes/mcp/servers/external/seomatic-mcp)
-- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/docs/hermes/mcp/servers/external/tracetify-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Staats MCP - Cookieless Web Analytics for Agents](/hermes/mcp/servers/external/staats-mcp)
+- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/hermes/mcp/servers/external/seomatic-mcp)
+- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/hermes/mcp/servers/external/tracetify-mcp)

@@ -23,7 +23,7 @@ Sweep snapshot: **714 unique skills** across 15 queries (0 failed). Tiered cross
 | Installs | ~25,747 combined across 3 indexed listings |
 | Skills | 3 installable (heroui-react, heroui-native, heroui-migration) |
 | Quality Tier | 🟢 Verified (official org, Apache-2.0, same-day commits) |
-| Setup Guide | [HeroUI Skills - React & React Native UI Component Setup](/docs/hermes/skills/catalog/heroui-skills-setup) |
+| Setup Guide | [HeroUI Skills - React & React Native UI Component Setup](/hermes/skills/catalog/heroui-skills-setup) |
 
 HeroUI's official skill family teaches an agent the v3 component APIs (Tailwind CSS v4 + React Aria) instead of writing props from memory. `heroui-react` (11,508) is the flagship; `heroui-native` (10,339) covers React Native via Uniwind; `heroui-migration` (3,900) handles the v2→v3 upgrade. Note the default branch is `v3`, not `main`.
 
@@ -37,7 +37,7 @@ HeroUI's official skill family teaches an agent the v3 component APIs (Tailwind 
 | Installs | ~19,866 combined across 12 indexed listings |
 | Skills | 12 indexed (16 SKILL.md in-repo, plugin-duplicated) |
 | Quality Tier | 🟡 Trusted (official Redis, Inc. publisher; low star count) |
-| Setup Guide | [Redis Agent Skills - Official Data Modeling & Caching Setup](/docs/hermes/skills/catalog/redis-agent-skills-setup) |
+| Setup Guide | [Redis Agent Skills - Official Data Modeling & Caching Setup](/hermes/skills/catalog/redis-agent-skills-setup) |
 
 Redis, Inc.'s official skill collection covers the decisions agents get wrong most: data-structure selection (`redis-core`, 3,337), connections (2,375), security (2,055), observability (1,967), clustering (1,583), and search (1,308), plus AI-focused `redis-semantic-cache` (1,645) and `iris-development` (1,451, Redis Agent Memory).
 
@@ -51,7 +51,7 @@ Redis, Inc.'s official skill collection covers the decisions agents get wrong mo
 | Installs | ~4,768 combined across 11 indexed listings |
 | Skills | 11 indexed (50 SKILL.md in-repo) |
 | Quality Tier | 🟡 Trusted (official Vercel org, same-day cadence; license unverified) |
-| Setup Guide | [Vercel Plugin Skills - Full Vercel Ecosystem Agent Setup](/docs/hermes/skills/catalog/vercel-plugin-skills-setup) |
+| Setup Guide | [Vercel Plugin Skills - Full Vercel Ecosystem Agent Setup](/hermes/skills/catalog/vercel-plugin-skills-setup) |
 
 The broad "teach an agent the whole platform" plugin - AI Gateway, AI SDK, backend architecture, deployment protection (`access-protected-vercel-deployment`, 2,433), `build-agents` (1,399), flags, and queues. Distinct from the three narrower Vercel guides already documented (vercel-labs/agent-skills, vercel/ai, vercel/eve).
 

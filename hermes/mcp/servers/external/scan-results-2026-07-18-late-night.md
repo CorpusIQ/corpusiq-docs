@@ -13,7 +13,7 @@ robots: "index,follow"
 
 **Source:** mcp.so (SPA hydration payload, 6,453 servers in feed)
 **Date:** July 18, 2026 (late night)
-**Previous scans:** [Morning](/docs/hermes/mcp/servers/external/scan-results-2026-07-18) · [Evening Supplement](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-supplement)
+**Previous scans:** [Morning](/hermes/mcp/servers/external/scan-results-2026-07-18) · [Evening Supplement](/hermes/mcp/servers/external/scan-results-2026-07-18-supplement)
 **Coverage:** July 15-19 new submissions not caught in prior sweeps
 
 ## Methodology
@@ -24,8 +24,8 @@ Extracted server data from mcp.so's SPA hydration payload (TanStack Router state
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **TofuBofu AI Visibility** ★★ | mcp.so | Free AI visibility scan for B2B companies - checks how a domain appears across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews. Returns Brand Visibility Score, share-of-voice breakdown, top coverage themes, source URLs, and rank vs competitors. Remote MCP, no API key needed. | [tofubofu-mcp](/docs/hermes/mcp/servers/external/tofubofu-mcp) |
-| **Competitor Tracker & Co.** ★★★ | mcp.so | Weekly competitor website monitoring - crawls pricing, product, messaging, and corporate pages. Detects changes, files tagged/ranked changelogs. Essential for competitive intelligence. From Slobodan Stojanović (Vacation Tracker founder). | [competitor-tracker-mcp](/docs/hermes/mcp/servers/external/competitor-tracker-mcp) |
+| **TofuBofu AI Visibility** ★★ | mcp.so | Free AI visibility scan for B2B companies - checks how a domain appears across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews. Returns Brand Visibility Score, share-of-voice breakdown, top coverage themes, source URLs, and rank vs competitors. Remote MCP, no API key needed. | [tofubofu-mcp](/hermes/mcp/servers/external/tofubofu-mcp) |
+| **Competitor Tracker & Co.** ★★★ | mcp.so | Weekly competitor website monitoring - crawls pricing, product, messaging, and corporate pages. Detects changes, files tagged/ranked changelogs. Essential for competitive intelligence. From Slobodan Stojanović (Vacation Tracker founder). | [competitor-tracker-mcp](/hermes/mcp/servers/external/competitor-tracker-mcp) |
 
 ## Index-Only (New Servers Without Guides)
 
@@ -78,4 +78,4 @@ Extracted server data from mcp.so's SPA hydration payload (TanStack Router state
 
 ---
 
-*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Evening Supplement (July 18)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-supplement) →*
+*← [Back to External MCP Catalog](/hermes/mcp/servers/external) | [Evening Supplement (July 18)](/hermes/mcp/servers/external/scan-results-2026-07-18-supplement) →*

@@ -66,10 +66,10 @@ No skills.sh security audits published (verified Sep 27, 2026):
 
 ## Related
 
-- [n8n Skills Setup](/docs/hermes/skills/catalog/n8n-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [n8n Skills Setup](/hermes/skills/catalog/n8n-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

@@ -98,7 +98,7 @@ MCPGRAM is the app-connectivity layer; CorpusIQ is the business-data layer. An o
 
 ## See Also
 
-- [WaveSpeed MCP - Media Generation](/docs/hermes/mcp/servers/external/wavespeed-mcp)
-- [SYNTHORA MCP - Verified Multi-Source Intelligence](/docs/hermes/mcp/servers/external/synthora-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [WaveSpeed MCP - Media Generation](/hermes/mcp/servers/external/wavespeed-mcp)
+- [SYNTHORA MCP - Verified Multi-Source Intelligence](/hermes/mcp/servers/external/synthora-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -76,5 +76,5 @@ CorpusIQ covers the business-data layer - financials, CRM, marketing, and operat
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [MCP Integration Guide](/hermes/mcp) - connecting MCP servers to Hermes Agent

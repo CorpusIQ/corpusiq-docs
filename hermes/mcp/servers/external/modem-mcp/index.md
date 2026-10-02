@@ -88,7 +88,7 @@ Modem reads what customers say; CorpusIQ reads what they do. A churn investigati
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [BoldDesk MCP - Helpdesk Ticket Operations for AI Agents](/docs/hermes/mcp/servers/external/bolddesk-mcp)
-- [Buska MCP - Social Listening and Buying Signals for AI Agents](/docs/hermes/mcp/servers/external/buska-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [BoldDesk MCP - Helpdesk Ticket Operations for AI Agents](/hermes/mcp/servers/external/bolddesk-mcp)
+- [Buska MCP - Social Listening and Buying Signals for AI Agents](/hermes/mcp/servers/external/buska-mcp)

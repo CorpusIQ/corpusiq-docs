@@ -82,7 +82,7 @@ Gambot carries the conversation; CorpusIQ reads the business. A CorpusIQ agent c
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Mobile Text Alerts MCP - Official SMS Sending for Agents](/docs/hermes/mcp/servers/external/mobile-text-alerts-mcp)
-- [InstantReply MCP - Instagram, WhatsApp and Messenger Inbox for Agents](/docs/hermes/mcp/servers/external/instantreply-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Mobile Text Alerts MCP - Official SMS Sending for Agents](/hermes/mcp/servers/external/mobile-text-alerts-mcp)
+- [InstantReply MCP - Instagram, WhatsApp and Messenger Inbox for Agents](/hermes/mcp/servers/external/instantreply-mcp)

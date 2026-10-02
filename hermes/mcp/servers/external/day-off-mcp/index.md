@@ -82,7 +82,7 @@ Day Off answers the workforce side of a review; CorpusIQ answers the business si
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [ConnectMachine MCP - Digital Business Cards and Contact CRM for Agents](/docs/hermes/mcp/servers/external/connectmachine-mcp)
-- [Taskade MCP - Official AI Workspace Connector](/docs/hermes/mcp/servers/external/taskade-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [ConnectMachine MCP - Digital Business Cards and Contact CRM for Agents](/hermes/mcp/servers/external/connectmachine-mcp)
+- [Taskade MCP - Official AI Workspace Connector](/hermes/mcp/servers/external/taskade-mcp)

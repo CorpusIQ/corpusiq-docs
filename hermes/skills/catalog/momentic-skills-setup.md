@@ -53,5 +53,5 @@ npx skills add momentic-ai/skills
 
 ## Related
 
-- [Playwright Best Practices - E2E Testing Setup](/docs/hermes/skills/catalog/infrastructure/playwright-best-practices)
-- [Convex Agent Skills - Backend Platform Setup](/docs/hermes/skills/catalog/convex-agent-skills-setup)
+- [Playwright Best Practices - E2E Testing Setup](/hermes/skills/catalog/infrastructure/playwright-best-practices)
+- [Convex Agent Skills - Backend Platform Setup](/hermes/skills/catalog/convex-agent-skills-setup)

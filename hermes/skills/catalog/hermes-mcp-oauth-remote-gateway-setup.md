@@ -88,8 +88,8 @@ The result is identical to a successful local OAuth, but the token files are pop
 
 ## Related
 
-- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)
-- [MCP Reference](/docs/hermes/mcp)
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)
+- [MCP Reference](/hermes/mcp)
+- [Skills Catalog](/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

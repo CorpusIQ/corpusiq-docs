@@ -60,6 +60,6 @@ Capability-level table from the vendor's docs; exact tool names require sign-in 
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Sequel MCP - Google Search Console in Natural Language](/docs/hermes/mcp/servers/external/sequel-mcp)
-- [Data Studio Agent MCP - 70+ SQL & NoSQL databases for AI](/docs/hermes/mcp/servers/external/data-studio-agent-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Sequel MCP - Google Search Console in Natural Language](/hermes/mcp/servers/external/sequel-mcp)
+- [Data Studio Agent MCP - 70+ SQL & NoSQL databases for AI](/hermes/mcp/servers/external/data-studio-agent-mcp)

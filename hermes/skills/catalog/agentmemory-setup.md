@@ -150,5 +150,5 @@ npx skills add rohitg00/agentmemory@agentmemory-hooks
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [MCP Use Setup →](/docs/hermes/skills/catalog/mcp-use-setup)*
+*← [Skills Catalog](/hermes/skills/catalog) | [MCP Use Setup →](/hermes/skills/catalog/mcp-use-setup)*
 *Powered by CorpusIQ*

@@ -23,7 +23,7 @@ Forty-three-query skills.sh API sweep (3,775 unique skills; 2 queries failed - `
 
 ## Setup Guides
 
-- [Apidojo Social Media Skills - Setup Guide](/docs/hermes/skills/catalog/apidojo-social-media-skills-setup)
+- [Apidojo Social Media Skills - Setup Guide](/hermes/skills/catalog/apidojo-social-media-skills-setup)
 
 ## Evaluated and Skipped
 

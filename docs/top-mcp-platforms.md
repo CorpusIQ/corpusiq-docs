@@ -182,7 +182,7 @@ A: CorpusIQ: from $50/seat/month. Composio: usage-based. Community servers: free
 - [Best AI Data Connector  --  Rankings](/connectors)
 - [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/compare)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Secure AI Data Connectivity](/security)
 - [Top Business AI Tools  --  Rankings](/compare)
 - [Best ChatGPT Integration Platform](/compare)

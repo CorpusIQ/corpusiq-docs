@@ -17,8 +17,8 @@ An evening sweep with one genuinely new publisher cluster (MiniMax H3, the offic
 
 | Publisher | Skills | Combined Installs | Guide |
 |---|---|---|---|
-| [minimax-ai/minimax-h3](https://www.skills.sh/minimax-ai/minimax-h3) | 9 (4 indexed on skills.sh) | ~15.7K | [MiniMax H3 Skills Setup](/docs/hermes/skills/catalog/minimax-h3-skills-setup) |
-| [reason-machines/devtools-skills](https://www.skills.sh/reason-machines/devtools-skills) | 173 (40 at 100+ installs) | ~9.5K (100+ subset) | [Reason Machines DevTools Skills Setup](/docs/hermes/skills/catalog/reason-machines-devtools-skills-setup) |
+| [minimax-ai/minimax-h3](https://www.skills.sh/minimax-ai/minimax-h3) | 9 (4 indexed on skills.sh) | ~15.7K | [MiniMax H3 Skills Setup](/hermes/skills/catalog/minimax-h3-skills-setup) |
+| [reason-machines/devtools-skills](https://www.skills.sh/reason-machines/devtools-skills) | 173 (40 at 100+ installs) | ~9.5K (100+ subset) | [Reason Machines DevTools Skills Setup](/hermes/skills/catalog/reason-machines-devtools-skills-setup) |
 
 **MiniMax H3 notes:** one portable skill (`h3-prompt-writing`, 7,857 installs, agent-agnostic Markdown + reference files) plus eight MiniMax Hub canvas generators. Official MiniMax org (8,630★), no LICENSE file, no skills.sh audits published → 🟡 Unverified, disclosed in the guide.
 

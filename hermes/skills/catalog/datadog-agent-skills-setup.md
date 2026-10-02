@@ -230,10 +230,10 @@ pup monitors list      # Should return monitor list (may be empty)
 
 ## Related Skills
 
-- [Grafana Agent Skills](/docs/hermes/skills/catalog/grafana-skills-setup) - alternative observability platform
-- [MongoDB Agent Skills](/docs/hermes/skills/catalog/mongodb-agent-skills-setup) - database monitoring companion
-- [AWS Agent Toolkit](/docs/hermes/skills/catalog/aws-agent-toolkit-setup) - cloud infrastructure monitoring
-- [Cloudflare Skills](/docs/hermes/skills/catalog/cloudflare-skills-setup) - edge observability
+- [Grafana Agent Skills](/hermes/skills/catalog/grafana-skills-setup) - alternative observability platform
+- [MongoDB Agent Skills](/hermes/skills/catalog/mongodb-agent-skills-setup) - database monitoring companion
+- [AWS Agent Toolkit](/hermes/skills/catalog/aws-agent-toolkit-setup) - cloud infrastructure monitoring
+- [Cloudflare Skills](/hermes/skills/catalog/cloudflare-skills-setup) - edge observability
 
 ---
 

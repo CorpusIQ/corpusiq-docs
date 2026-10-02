@@ -86,9 +86,9 @@ npx skills add davidondrej/skills --skill browser-harness
 
 - **hermes-tweet** variants from wshobson/agents (72 installs) and davepoon/buildwithclaude (22 installs) surfaced but skipped - already catalogued as Xquik-dev/hermes-tweet in the ecosystem index.
 - All OpenClaw skills are niche but extend the ecosystem into plugin testing, blockchain, WeChat, and multimodal AI - gaps not previously covered.
-- `distribute-skill-to-all-agents` is the only genuinely new Hermes Agent skill. Full setup guide at [distribute-skill-to-all-agents →](/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup).
+- `distribute-skill-to-all-agents` is the only genuinely new Hermes Agent skill. Full setup guide at [distribute-skill-to-all-agents →](/hermes/skills/catalog/distribute-skill-to-all-agents-setup).
 
 ---
 
-*← [Marketplace Index](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Marketplace Index](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

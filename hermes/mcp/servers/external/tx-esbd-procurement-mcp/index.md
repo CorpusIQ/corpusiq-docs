@@ -88,7 +88,7 @@ TX ESBD supplies the opportunity data; CorpusIQ supplies the operational read be
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [SAM.gov MCP - US Government Contracting](/docs/hermes/mcp/servers/external/sam-gov-mcp)
-- [LiveDataLink MCP - Live Public Data for AI Agents](/docs/hermes/mcp/servers/external/livedatalink-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [SAM.gov MCP - US Government Contracting](/hermes/mcp/servers/external/sam-gov-mcp)
+- [LiveDataLink MCP - Live Public Data for AI Agents](/hermes/mcp/servers/external/livedatalink-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

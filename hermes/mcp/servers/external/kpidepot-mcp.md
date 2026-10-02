@@ -126,4 +126,4 @@ Your agent becomes a strategy analyst that doesn't just report your numbers - it
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Overview](/hermes/mcp)*

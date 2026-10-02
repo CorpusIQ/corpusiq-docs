@@ -142,4 +142,4 @@ Once connected, ask your AI assistant:
 
 ---
 
-*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [View on GitHub](https://github.com/daniel3303/stock-market-mcp-server) →*
+*← [Back to External MCP Catalog](/hermes/mcp/servers/external) | [View on GitHub](https://github.com/daniel3303/stock-market-mcp-server) →*

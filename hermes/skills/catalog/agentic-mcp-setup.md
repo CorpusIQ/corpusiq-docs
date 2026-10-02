@@ -75,9 +75,9 @@ npx skills add heygen-com/hyperframes --skill agentic-mcp   # verify install wor
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [MCP Integration](/docs/hermes/skills/catalog/mcp-integration-setup)
+- [Skills Catalog](/hermes/skills/catalog)
+- [MCP Integration](/hermes/skills/catalog/mcp-integration-setup)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

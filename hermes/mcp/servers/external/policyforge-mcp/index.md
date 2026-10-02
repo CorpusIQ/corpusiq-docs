@@ -87,7 +87,7 @@ PolicyForge's audit loop is a natural companion to CorpusIQ's operations data: a
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [PassportCraft MCP - EU Digital Product Passport Compliance](/docs/hermes/mcp/servers/external/passportcraft-mcp)
-- [Legalize MCP - Point-in-Time Legislation with Git Provenance](/docs/hermes/mcp/servers/external/legalize-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [PassportCraft MCP - EU Digital Product Passport Compliance](/hermes/mcp/servers/external/passportcraft-mcp)
+- [Legalize MCP - Point-in-Time Legislation with Git Provenance](/hermes/mcp/servers/external/legalize-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

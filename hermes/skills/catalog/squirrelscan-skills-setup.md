@@ -50,5 +50,5 @@ npx skills add squirrelscan/skills
 
 ## Related
 
-- [OSINT Skills - Open-Source Intelligence Investigation Setup](/docs/hermes/skills/catalog/osint-skills-setup)
+- [OSINT Skills - Open-Source Intelligence Investigation Setup](/hermes/skills/catalog/osint-skills-setup)
 - [CorpusIQ SEO Audit Skill](https://www.corpusiq.io/docs/hermes/skills/catalog/featured-seo-audit/)

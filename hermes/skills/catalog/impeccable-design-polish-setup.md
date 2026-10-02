@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "design polish", "anti-ai-s
 **Category:** Design / Frontend Quality
 **First Seen:** Sep 9, 2026
 
-`impeccable-design-polish` is the post-generation pass for an existing design. It does not restart a project from scratch - it makes the current HTML artifact sharper, more usable, and closer to something a designer would ship. Inspired by [pbakaus/impeccable](/docs/hermes/skills/catalog/impeccable-design-setup) but a distinct skill from the Open Design project (the "Claude Design alternative" - local-first desktop app for design via coding agents, HTML/PDF/PPTX/MP4 export).
+`impeccable-design-polish` is the post-generation pass for an existing design. It does not restart a project from scratch - it makes the current HTML artifact sharper, more usable, and closer to something a designer would ship. Inspired by [pbakaus/impeccable](/hermes/skills/catalog/impeccable-design-setup) but a distinct skill from the Open Design project (the "Claude Design alternative" - local-first desktop app for design via coding agents, HTML/PDF/PPTX/MP4 export).
 
 ---
 
@@ -68,7 +68,7 @@ hermes skills list | grep impeccable-design-polish
 # Generate any HTML page, then ask for the polish pass and confirm the artifact was edited, not just critiqued
 ```
 
-- Distinct from pbakaus/impeccable (setup guide [here](/docs/hermes/skills/catalog/impeccable-design-setup)) - same inspiration, different publisher and scope: this one is a follow-up polish pass, not a full design brain
+- Distinct from pbakaus/impeccable (setup guide [here](/hermes/skills/catalog/impeccable-design-setup)) - same inspiration, different publisher and scope: this one is a follow-up polish pass, not a full design brain
 - Triggers include Chinese "反 AI 味" (anti-AI taste) - useful for CN-market artifacts
 
 ## Security
@@ -79,6 +79,6 @@ hermes skills list | grep impeccable-design-polish
 
 ## Related
 
-- [impeccable - Design Quality Skills Setup](/docs/hermes/skills/catalog/impeccable-design-setup)
-- [Design Review Setup](/docs/hermes/skills/catalog/design-review-setup)
-- [Matt Pocock Agent Workflow Suite - 20-Skill Setup](/docs/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup)
+- [impeccable - Design Quality Skills Setup](/hermes/skills/catalog/impeccable-design-setup)
+- [Design Review Setup](/hermes/skills/catalog/design-review-setup)
+- [Matt Pocock Agent Workflow Suite - 20-Skill Setup](/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup)

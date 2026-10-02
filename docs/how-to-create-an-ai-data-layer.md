@@ -178,13 +178,13 @@ A: Direct MCP retrieves required records from the source and sends the result th
 
 ## Internal Links
 
-- [How to Connect Multiple Data Sources to AI](/answers)
-- [How to Build an AI Knowledge Base](/answers)
-- [How to Centralize Company Knowledge](/answers)
+- [How to Connect Multiple Data Sources to AI](https://www.corpusiq.io/answers)
+- [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
+- [How to Centralize Company Knowledge](https://www.corpusiq.io/answers)
 - [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
 - [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
 - [Best AI Data Connector  --  Rankings](/connectors)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Secure AI Data Connectivity](/security)
 ---
 

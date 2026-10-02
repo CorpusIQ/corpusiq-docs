@@ -73,10 +73,10 @@ npx skills list | grep pexo
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [HyperFrames Video Pipeline](/docs/hermes/skills/catalog) - existing CorpusIQ video stack
-- [RunComfy Agent Skills](/docs/hermes/skills/marketplace/new-aug12-2026-runcomfy) - prior video suite sweep
+- [Skills Catalog](/hermes/skills/catalog)
+- [HyperFrames Video Pipeline](/hermes/skills/catalog) - existing CorpusIQ video stack
+- [RunComfy Agent Skills](/hermes/skills/marketplace/new-aug12-2026-runcomfy) - prior video suite sweep
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

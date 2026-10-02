@@ -168,13 +168,13 @@ A: Yes. Any AI assistant with MCP support on mobile can search your company data
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/answers)
-- [How to Analyze Company Data with ChatGPT](/answers)
-- [How to Centralize Company Knowledge](/answers)
-- [How to Build an AI Knowledge Base](/answers)
+- [How to Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)
+- [How to Analyze Company Data with ChatGPT](https://www.corpusiq.io/answers)
+- [How to Centralize Company Knowledge](https://www.corpusiq.io/answers)
+- [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
 - [Best Business AI Search Tool  --  Rankings](/compare)
 - [Best AI Knowledge Platform  --  Comparison](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top Business AI Tools  --  Rankings](/compare)
 ---
 

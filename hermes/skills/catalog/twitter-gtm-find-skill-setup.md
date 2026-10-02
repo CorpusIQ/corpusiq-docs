@@ -76,9 +76,9 @@ hermes run twitter-gtm-find-skill --query "DevRel engineer" --source hermes-twee
 
 ## Related Skills
 
-- [x-twitter-automation](/docs/hermes/skills/catalog/x-twitter-automation-setup) - Design safe X/Twitter automation workflows
-- [reddit-icp-monitor](/docs/hermes/skills/marketplace) - Monitor Reddit for ICP conversations (also from opendirectory)
-- [hackernews-intel](/docs/hermes/skills/marketplace) - HN intelligence gathering (also from opendirectory)
+- [x-twitter-automation](/hermes/skills/catalog/x-twitter-automation-setup) - Design safe X/Twitter automation workflows
+- [reddit-icp-monitor](/hermes/skills/marketplace) - Monitor Reddit for ICP conversations (also from opendirectory)
+- [hackernews-intel](/hermes/skills/marketplace) - HN intelligence gathering (also from opendirectory)
 
 ## Verification
 

@@ -33,31 +33,31 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ### Engineering / Code Review
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **git-pr-reviewer** | onewave-ai/claude-skills | 239 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/git-pr-reviewer-setup) |
-| **git-pr-review** | sickn33/antigravity-awesome-skills | 34 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/git-pr-review-skills-sh-setup) |
+| **git-pr-reviewer** | onewave-ai/claude-skills | 239 | 🟡 | [Setup Guide](/hermes/skills/catalog/git-pr-reviewer-setup) |
+| **git-pr-review** | sickn33/antigravity-awesome-skills | 34 | 🔵 | [Setup Guide](/hermes/skills/catalog/git-pr-review-skills-sh-setup) |
 
 ### Engineering / DevOps
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **infra-deploy** | terrylica/cc-skills | 108 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/infra-deploy-calcom-setup) |
-| **dockerize-and-deploy** | rockclaver/systemcraft | 44 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/dockerize-and-deploy-setup) |
+| **infra-deploy** | terrylica/cc-skills | 108 | 🟡 | [Setup Guide](/hermes/skills/catalog/infra-deploy-calcom-setup) |
+| **dockerize-and-deploy** | rockclaver/systemcraft | 44 | 🔵 | [Setup Guide](/hermes/skills/catalog/dockerize-and-deploy-setup) |
 
 ### Engineering / MCP
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **mcp-integration** | anthropics/claude-plugins-public | 78 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/mcp-integration-setup) |
+| **mcp-integration** | anthropics/claude-plugins-public | 78 | 🔵 | [Setup Guide](/hermes/skills/catalog/mcp-integration-setup) |
 
 ### Engineering / Data Extraction
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **web-scraping** | gooseworks-ai/goose-skills | 35 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/web-scraping-gooseworks-setup) |
+| **web-scraping** | gooseworks-ai/goose-skills | 35 | 🔵 | [Setup Guide](/hermes/skills/catalog/web-scraping-gooseworks-setup) |
 
 ### Engineering / Agent Orchestration
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **multi-agent-orchestration** | cat-xierluo/legal-skills | 32 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/multi-agent-orchestration-setup) |
+| **multi-agent-orchestration** | cat-xierluo/legal-skills | 32 | 🔵 | [Setup Guide](/hermes/skills/catalog/multi-agent-orchestration-setup) |
 
 ### Engineering / Memory & Persistence
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **session-persistence** | archieindian/openclaw-superpowers | 28 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/session-persistence-openclaw-setup) |
+| **session-persistence** | archieindian/openclaw-superpowers | 28 | 🔵 | [Setup Guide](/hermes/skills/catalog/session-persistence-openclaw-setup) |

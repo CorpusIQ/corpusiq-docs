@@ -19,13 +19,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 ## 🔥 New Business-Relevant Finds (Guides Written)
 
 ### AdMake AI MCP ★★★ - August 11 midday
-Remote MCP server (Streamable HTTP, OAuth 2.1) for AdMake AI. Generate Facebook, Instagram and TikTok ad creatives and UGC-style video ads, research competitor ads from the Meta Ad Library, and publish finished ads to Meta via the Marketing API. First MCP that connects the full ad creative lifecycle (research → generate → publish). Plans from $39/mo, 5 free ads. `admakeai.com/api/mcp` · [Guide →](/docs/hermes/mcp/servers/external/admake-ai-mcp)
+Remote MCP server (Streamable HTTP, OAuth 2.1) for AdMake AI. Generate Facebook, Instagram and TikTok ad creatives and UGC-style video ads, research competitor ads from the Meta Ad Library, and publish finished ads to Meta via the Marketing API. First MCP that connects the full ad creative lifecycle (research → generate → publish). Plans from $39/mo, 5 free ads. `admakeai.com/api/mcp` · [Guide →](/hermes/mcp/servers/external/admake-ai-mcp)
 
 ### JaxSuite AI MCP ★★★ - August 11 midday
-AI-native cold outreach and CRM platform - 27 MCP tools covering campaign lifecycle, content writing with spintax, contact management, sending accounts, and deliverability analytics. 300M+ verified B2B contact database. Remote Streamable HTTP with API token auth. First end-to-end cold outreach MCP with built-in deliverability infrastructure. `jaxsuite.com/api/v1/mcp` · [Guide →](/docs/hermes/mcp/servers/external/jaxsuite-ai-mcp)
+AI-native cold outreach and CRM platform - 27 MCP tools covering campaign lifecycle, content writing with spintax, contact management, sending accounts, and deliverability analytics. 300M+ verified B2B contact database. Remote Streamable HTTP with API token auth. First end-to-end cold outreach MCP with built-in deliverability infrastructure. `jaxsuite.com/api/v1/mcp` · [Guide →](/hermes/mcp/servers/external/jaxsuite-ai-mcp)
 
 ### DripRaven MCP ★★ - August 11 midday
-WhatsApp Business campaign automation for AI agents. Import/segment contacts, send approved templates, schedule broadcasts, read delivery rates - all through the official WhatsApp Business API. First WhatsApp-specific marketing MCP. Starter $49/mo (5K msgs). `dripraven.com` · [Guide →](/docs/hermes/mcp/servers/external/dripraven-mcp)
+WhatsApp Business campaign automation for AI agents. Import/segment contacts, send approved templates, schedule broadcasts, read delivery rates - all through the official WhatsApp Business API. First WhatsApp-specific marketing MCP. Starter $49/mo (5K msgs). `dripraven.com` · [Guide →](/hermes/mcp/servers/external/dripraven-mcp)
 
 ---
 

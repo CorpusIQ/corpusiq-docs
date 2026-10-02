@@ -77,10 +77,10 @@ npx skills add clawhub/mcp-integration   # verify install works
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Agentic MCP](/docs/hermes/skills/catalog/agentic-mcp-setup) - agent-MCP bridging
-- [MCP Use](/docs/hermes/skills/catalog/mcp-use-setup) - MCP client operations
+- [Skills Catalog](/hermes/skills/catalog)
+- [Agentic MCP](/hermes/skills/catalog/agentic-mcp-setup) - agent-MCP bridging
+- [MCP Use](/hermes/skills/catalog/mcp-use-setup) - MCP client operations
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

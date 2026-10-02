@@ -18,7 +18,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 `skills-101/superpowers` is an extended edition of the classic `obra/superpowers` library, tuned for AI media and growth automation. The four headline skills - `ai-video-generation`, `ai-image-generation`, `ai-avatar-video`, and `twitter-automation` - each carry ~88K installs. Below them sits a deep bench: an ElevenLabs audio cluster (TTS, STT, dubbing, music, voice cloning), Flux and Qwen image models, agent browser tooling, and 50+ growth/content playbooks.
 
-> **Note:** This is a different publisher from `101-skills/skills` (covered in the [AI Video Generation guide](/docs/hermes/skills/catalog/ai-video-generation-setup)) - same family, different repo and skill set.
+> **Note:** This is a different publisher from `101-skills/skills` (covered in the [AI Video Generation guide](/hermes/skills/catalog/ai-video-generation-setup)) - same family, different repo and skill set.
 
 ---
 
@@ -91,8 +91,8 @@ npx skills add skills-101/superpowers --skill twitter-automation
 
 ## Related
 
-- [Obra Superpowers Setup](/docs/hermes/skills/catalog/obra-superpowers-setup)
-- [RunComfy Agent Skills Setup](/docs/hermes/skills/catalog/runcomfy-agent-skills-setup)
-- [AI Video Generation Setup](/docs/hermes/skills/catalog/ai-video-generation-setup)
+- [Obra Superpowers Setup](/hermes/skills/catalog/obra-superpowers-setup)
+- [RunComfy Agent Skills Setup](/hermes/skills/catalog/runcomfy-agent-skills-setup)
+- [AI Video Generation Setup](/hermes/skills/catalog/ai-video-generation-setup)
 
 *Powered by CorpusIQ*

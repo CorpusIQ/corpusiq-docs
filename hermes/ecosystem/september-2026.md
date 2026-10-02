@@ -9,7 +9,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "september 2026"]
 
 # Hermes Ecosystem - September 2026
 
-Monthly log of notable Hermes-ecosystem repos discovered by the nightly ecosystem discovery engine. See the [full ecosystem index](/docs/hermes/ecosystem) for the complete directory.
+Monthly log of notable Hermes-ecosystem repos discovered by the nightly ecosystem discovery engine. See the [full ecosystem index](/hermes/ecosystem) for the complete directory.
 
 ## September 3, 2026
 

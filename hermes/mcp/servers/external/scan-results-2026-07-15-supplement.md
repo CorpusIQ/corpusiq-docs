@@ -25,8 +25,8 @@ The morning July 15 scan used mcpservers.org sitemap extraction only (mcp.so def
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **Lawstronaut** ★ | mcp.so | Millions of official legal and regulatory source documents from 155+ jurisdictions via MCP. Structured legal research. By Lawstronaut-FZCO. Submitted July 15. | [Guide](/docs/hermes/mcp/servers/external/lawstronaut-mcp) |
-| **Unstructured Transform MCP** ★ | mcp.so | Document processing platform connector - parse PDFs, CSVs, and documents into structured AI-ready data. Remote MCP transport. By Unstructured / Chris Maddock. Submitted July 15. | [Guide](/docs/hermes/mcp/servers/external/unstructured-transform-mcp) |
+| **Lawstronaut** ★ | mcp.so | Millions of official legal and regulatory source documents from 155+ jurisdictions via MCP. Structured legal research. By Lawstronaut-FZCO. Submitted July 15. | [Guide](/hermes/mcp/servers/external/lawstronaut-mcp) |
+| **Unstructured Transform MCP** ★ | mcp.so | Document processing platform connector - parse PDFs, CSVs, and documents into structured AI-ready data. Remote MCP transport. By Unstructured / Chris Maddock. Submitted July 15. | [Guide](/hermes/mcp/servers/external/unstructured-transform-mcp) |
 
 ### INDEX-ONLY (Niche or Developer-Focused)
 

@@ -42,22 +42,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 ## 🔥 New Business-Relevant Finds (Guides Written)
 
 ### ★★★ Prose Coach MCP - Guide Written
-Deterministic AI-writing filter - 43 patterns flagged with the triggering line quoted and the fix attached. Remote Streamable HTTP, no auth, one URL. Free tier 3 drafts/day @12K chars; PRO $5/mo. First MCP purpose-built to de-AI content before it ships. `prose.coach/mcp` · [Guide →](/docs/hermes/mcp/servers/external/prose-coach-mcp)
+Deterministic AI-writing filter - 43 patterns flagged with the triggering line quoted and the fix attached. Remote Streamable HTTP, no auth, one URL. Free tier 3 drafts/day @12K chars; PRO $5/mo. First MCP purpose-built to de-AI content before it ships. `prose.coach/mcp` · [Guide →](/hermes/mcp/servers/external/prose-coach-mcp)
 
 ### ★★★ ROIC.ai MCP Server - Guide Written
-Financial data for 60,000+ public companies - prices, statements, earnings transcripts, fundamentals, ratios, valuation multiples. One server covers the whole stack. Streamable HTTP + API key. `mcp.roic.ai/mcp` · [Guide →](/docs/hermes/mcp/servers/external/roic-ai-mcp-server)
+Financial data for 60,000+ public companies - prices, statements, earnings transcripts, fundamentals, ratios, valuation multiples. One server covers the whole stack. Streamable HTTP + API key. `mcp.roic.ai/mcp` · [Guide →](/hermes/mcp/servers/external/roic-ai-mcp-server)
 
 ### ★★★ cloro MCP - Guide Written
-Live AI answer engine access - ChatGPT, Gemini, Perplexity, Copilot, Grok, Google AI Mode with cited sources; Google Search/News with country/state geo-targeting. Purpose-built for brand monitoring and GEO/AEO. API key. `mcp.cloro.dev` · [Guide →](/docs/hermes/mcp/servers/external/cloro-mcp)
+Live AI answer engine access - ChatGPT, Gemini, Perplexity, Copilot, Grok, Google AI Mode with cited sources; Google Search/News with country/state geo-targeting. Purpose-built for brand monitoring and GEO/AEO. API key. `mcp.cloro.dev` · [Guide →](/hermes/mcp/servers/external/cloro-mcp)
 
 ### ★★★ Stratyfix MCP - Guide Written
-Sales intelligence - 10 read-only tools over live pipeline (deal forecasts, pace-to-target, coaching queue, team coverage). OAuth per-user permissions; honesty rule: withholds numbers it can't defend instead of guessing. `app.stratyfix.com/api/mcp` · [Guide →](/docs/hermes/mcp/servers/external/stratyfix-mcp)
+Sales intelligence - 10 read-only tools over live pipeline (deal forecasts, pace-to-target, coaching queue, team coverage). OAuth per-user permissions; honesty rule: withholds numbers it can't defend instead of guessing. `app.stratyfix.com/api/mcp` · [Guide →](/hermes/mcp/servers/external/stratyfix-mcp)
 
 ### ★★ FlowyTeam OKR MCP - Guide Written
-Native OKR server - objectives, key results, tasks for Claude, ChatGPT, n8n; check-ins and KR progress moves from chat. MIT, OAuth. `github.com/flowy-team/okr-mcp-server` · [Guide →](/docs/hermes/mcp/servers/external/flowyteam-okr-mcp)
+Native OKR server - objectives, key results, tasks for Claude, ChatGPT, n8n; check-ins and KR progress moves from chat. MIT, OAuth. `github.com/flowy-team/okr-mcp-server` · [Guide →](/hermes/mcp/servers/external/flowyteam-okr-mcp)
 
 ### ★★ QuestDB MCP Server - Guide Written
-Official QuestDB MCP - notebook cells, queries, charts against a running Web Console session. `npx @questdb/mcp-server-questdb setup`. Apache-2.0. `github.com/questdb/mcp-server-questdb` · [Guide →](/docs/hermes/mcp/servers/external/questdb-mcp)
+Official QuestDB MCP - notebook cells, queries, charts against a running Web Console session. `npx @questdb/mcp-server-questdb setup`. Apache-2.0. `github.com/questdb/mcp-server-questdb` · [Guide →](/hermes/mcp/servers/external/questdb-mcp)
 
 ---
 

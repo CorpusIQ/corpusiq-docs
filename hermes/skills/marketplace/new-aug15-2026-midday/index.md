@@ -19,21 +19,21 @@ Third skills.sh sweep of August 15. 40 API queries collected 3,944 unique skills
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| software-mansion/argent | 20 | 154.0K | 🟢 | [argent-mobile-agent-skills-setup](/docs/hermes/skills/catalog/argent-mobile-agent-skills-setup) |
-| worldwonderer/oh-story-claudecode | 13 | 146.6K | 🟡 | [oh-story-claudecode-skills-setup](/docs/hermes/skills/catalog/oh-story-claudecode-skills-setup) |
-| vuejs-ai/skills | 11 | 129.2K | 🟢 | [vuejs-ai-skills-setup](/docs/hermes/skills/catalog/vuejs-ai-skills-setup) |
-| rivet-dev/skills | 22 | 65.3K | 🟢 | [rivet-dev-skills-setup](/docs/hermes/skills/catalog/rivet-dev-skills-setup) |
-| dammyjay93/interface-design | 2 | 23.6K | 🟢 | [interface-design-skill-setup](/docs/hermes/skills/catalog/interface-design-skill-setup) |
-| feature-sliced/skills | 1 | 16.6K | 🟢 | [feature-sliced-design-skill-setup](/docs/hermes/skills/catalog/feature-sliced-design-skill-setup) |
-| rampstackco/claude-skills | 103 | 15.7K | 🟡 | [rampstack-claude-skills-setup](/docs/hermes/skills/catalog/rampstack-claude-skills-setup) |
-| lombiq/tailwind-agent-skills | 1 | 10.1K | 🟡 | [tailwind-4-docs-skill-setup](/docs/hermes/skills/catalog/tailwind-4-docs-skill-setup) |
-| bradautomates/claude-video | 1 | 10.1K | 🟡 | [claude-video-watch-skill-setup](/docs/hermes/skills/catalog/claude-video-watch-skill-setup) |
-| tiangong-ai/skills | 58 | 9.0K | 🟡 | [tiangong-ai-skills-setup](/docs/hermes/skills/catalog/tiangong-ai-skills-setup) |
-| rknall/claude-skills | 10 | 8.5K | 🟡 | [rknall-claude-skills-setup](/docs/hermes/skills/catalog/rknall-claude-skills-setup) |
-| superdesigndev/superdesign-skill | 1 | 8.0K | 🟡 | [superdesign-skill-setup](/docs/hermes/skills/catalog/superdesign-skill-setup) |
-| kylezantos/design-motion-principles | 1 | 7.8K | 🟢 | [design-motion-principles-skill-setup](/docs/hermes/skills/catalog/design-motion-principles-skill-setup) |
-| twostraws/swift-testing-agent-skill | 1 | 7.5K | 🟢 | [swift-testing-pro-skill-setup](/docs/hermes/skills/catalog/swift-testing-pro-skill-setup) |
-| trailofbits/skills-curated | 31 | 2.4K | 🟡 | [trailofbits-skills-curated-setup](/docs/hermes/skills/catalog/trailofbits-skills-curated-setup) |
+| software-mansion/argent | 20 | 154.0K | 🟢 | [argent-mobile-agent-skills-setup](/hermes/skills/catalog/argent-mobile-agent-skills-setup) |
+| worldwonderer/oh-story-claudecode | 13 | 146.6K | 🟡 | [oh-story-claudecode-skills-setup](/hermes/skills/catalog/oh-story-claudecode-skills-setup) |
+| vuejs-ai/skills | 11 | 129.2K | 🟢 | [vuejs-ai-skills-setup](/hermes/skills/catalog/vuejs-ai-skills-setup) |
+| rivet-dev/skills | 22 | 65.3K | 🟢 | [rivet-dev-skills-setup](/hermes/skills/catalog/rivet-dev-skills-setup) |
+| dammyjay93/interface-design | 2 | 23.6K | 🟢 | [interface-design-skill-setup](/hermes/skills/catalog/interface-design-skill-setup) |
+| feature-sliced/skills | 1 | 16.6K | 🟢 | [feature-sliced-design-skill-setup](/hermes/skills/catalog/feature-sliced-design-skill-setup) |
+| rampstackco/claude-skills | 103 | 15.7K | 🟡 | [rampstack-claude-skills-setup](/hermes/skills/catalog/rampstack-claude-skills-setup) |
+| lombiq/tailwind-agent-skills | 1 | 10.1K | 🟡 | [tailwind-4-docs-skill-setup](/hermes/skills/catalog/tailwind-4-docs-skill-setup) |
+| bradautomates/claude-video | 1 | 10.1K | 🟡 | [claude-video-watch-skill-setup](/hermes/skills/catalog/claude-video-watch-skill-setup) |
+| tiangong-ai/skills | 58 | 9.0K | 🟡 | [tiangong-ai-skills-setup](/hermes/skills/catalog/tiangong-ai-skills-setup) |
+| rknall/claude-skills | 10 | 8.5K | 🟡 | [rknall-claude-skills-setup](/hermes/skills/catalog/rknall-claude-skills-setup) |
+| superdesigndev/superdesign-skill | 1 | 8.0K | 🟡 | [superdesign-skill-setup](/hermes/skills/catalog/superdesign-skill-setup) |
+| kylezantos/design-motion-principles | 1 | 7.8K | 🟢 | [design-motion-principles-skill-setup](/hermes/skills/catalog/design-motion-principles-skill-setup) |
+| twostraws/swift-testing-agent-skill | 1 | 7.5K | 🟢 | [swift-testing-pro-skill-setup](/hermes/skills/catalog/swift-testing-pro-skill-setup) |
+| trailofbits/skills-curated | 31 | 2.4K | 🟡 | [trailofbits-skills-curated-setup](/hermes/skills/catalog/trailofbits-skills-curated-setup) |
 
 ## Method Notes
 

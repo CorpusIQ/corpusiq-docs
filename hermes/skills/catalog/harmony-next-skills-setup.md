@@ -64,11 +64,11 @@ No LICENSE file in the repository (verified Sep 30, 2026); default copyright app
 
 ## Related
 
-- [React Native Update Skill - Setup Guide](/docs/hermes/skills/catalog/react-native-update-skill-setup)
-- [Sleek Design Mobile Apps - Setup Guide](/docs/hermes/skills/catalog/sleek-design-mobile-apps-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [React Native Update Skill - Setup Guide](/hermes/skills/catalog/react-native-update-skill-setup)
+- [Sleek Design Mobile Apps - Setup Guide](/hermes/skills/catalog/sleek-design-mobile-apps-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

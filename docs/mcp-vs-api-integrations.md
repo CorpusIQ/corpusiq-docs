@@ -163,7 +163,7 @@ Yes. MCP is an open protocol with SDKs available. You can build custom MCP serve
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Understand how MCP servers work with a technical deep dive](/mcp)
 - [Compare MCP vs Zapier for real-time business automation](/mcp)
 - [See how MCP compares to traditional data warehouses](/mcp)

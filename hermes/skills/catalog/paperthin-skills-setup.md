@@ -72,6 +72,6 @@ npx skills add lilmgenius/paperthin --skill re0        # ground-zero reset workf
 
 ## Related
 
-- [Stop Slop Setup](/docs/hermes/skills/catalog/stop-slop-setup)
-- [Avoid AI Writing Setup](/docs/hermes/skills/catalog/avoid-ai-writing-setup)
-- [LJG Skills - Personal Knowledge Work Suite](/docs/hermes/skills/catalog/ljg-skills-setup)
+- [Stop Slop Setup](/hermes/skills/catalog/stop-slop-setup)
+- [Avoid AI Writing Setup](/hermes/skills/catalog/avoid-ai-writing-setup)
+- [LJG Skills - Personal Knowledge Work Suite](/hermes/skills/catalog/ljg-skills-setup)

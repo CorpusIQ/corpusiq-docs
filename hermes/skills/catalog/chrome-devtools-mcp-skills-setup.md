@@ -114,16 +114,16 @@ chrome-devtools navigate_page --url "https://example.com" && chrome-devtools tak
 
 ## Security
 
-- [MCP security best practices](/docs/hermes/best-practices/security) - official guidance on MCP tool exposure
+- [MCP security best practices](/hermes/best-practices/security) - official guidance on MCP tool exposure
 - [chrome-devtools-mcp security policy](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/SECURITY.md) - Google's vulnerability reporting
 - [MCP auth docs](https://modelcontextprotocol.io/docs/learn/security) - server trust boundaries
 
 ## Related
 
-- [MCP & API Integration catalog section](/docs/hermes/skills/catalog)
-- [Hermes browser automation skills](/docs/hermes/skills/catalog) - `agent-browser`, `browser-use-automation`, `playwright-social-media-automation`
+- [MCP & API Integration catalog section](/hermes/skills/catalog)
+- [Hermes browser automation skills](/hermes/skills/catalog) - `agent-browser`, `browser-use-automation`, `playwright-social-media-automation`
 - [Chrome DevTools MCP repo](https://github.com/ChromeDevTools/chrome-devtools-mcp)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

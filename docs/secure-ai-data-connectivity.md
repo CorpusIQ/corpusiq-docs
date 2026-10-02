@@ -104,14 +104,14 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 
 ## Internal Links
 
-- [Enterprise AI Data Access](/enterprise)  --  Security at enterprise scale
+- [Enterprise AI Data Access](https://www.corpusiq.io/enterprise)  --  Security at enterprise scale
 - [MCP Security Best Practices](/mcp)  --  Deep dive on MCP security architecture
-- [What is an MCP Server](/answers/what-is-an-mcp-server)  --  Understanding the protocol
+- [What is an MCP Server](https://www.corpusiq.io/answers/what-is-an-mcp-server)  --  Understanding the protocol
 - [Benefits of MCP for Business](/mcp)  --  Why MCP is the secure choice
 - [Best MCP Server for Business](/mcp)  --  Platform comparison
 - [MCP for Enterprise](/mcp)  --  Enterprise deployment patterns
 - [CorpusIQ vs Custom RAG](/compare)  --  Why building in-house is riskier
-- [Connect Business Data to ChatGPT](/answers)  --  Getting started
+- [Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)  --  Getting started
 
 ---
 

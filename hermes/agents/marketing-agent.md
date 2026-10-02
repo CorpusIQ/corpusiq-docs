@@ -18,7 +18,7 @@ robots: "index,follow"
 
 The **Hermes Marketing Agent** is your **autonomous content and campaign operations assistant**. It monitors **SEO performance**, schedules and analyzes social media content, tracks **email campaign metrics**, generates content briefs, and surfaces **competitive intelligence**  --  all on autopilot. Whether you're a solo marketer or leading a growth team, this agent handles the recurring work: weekly performance reports, ranking drop alerts, content refresh suggestions, and competitor domain comparisons.
 
-This agent connects to your analytics, SEO tools, email platforms, and project boards through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors) to create a unified marketing command center.
+This agent connects to your analytics, SEO tools, email platforms, and project boards through [CorpusIQ MCP connectors](/hermes/mcp/connectors) to create a unified marketing command center.
 
 ## Overview
 
@@ -32,11 +32,11 @@ This agent connects to your analytics, SEO tools, email platforms, and project b
 | **Competitive intelligence** | Competitor content audits, gap analysis, share-of-voice tracking |
 | **Social scheduling** | Content calendar management, best-time-to-post analysis, engagement reporting |
 
-> **See also:** [Agent Library Overview](/docs/hermes/agents) · [Sales Agent](/docs/hermes/agents/sales-agent) · [Research Agent](/docs/hermes/agents/research-agent)
+> **See also:** [Agent Library Overview](/hermes/agents) · [Sales Agent](/hermes/agents/sales-agent) · [Research Agent](/hermes/agents/research-agent)
 
 ## How It Works
 
-1. **Connect your marketing stack**  --  GA4, Search Console, Ahrefs, Klaviyo, Meta Ads via [CorpusIQ connectors](/docs/hermes/mcp/connectors)
+1. **Connect your marketing stack**  --  GA4, Search Console, Ahrefs, Klaviyo, Meta Ads via [CorpusIQ connectors](/hermes/mcp/connectors)
 2. **Define your competitors and KPIs**  --  Store target competitors, brand keywords, and conversion events in canonical facts
 3. **Load the skills**  --  SEO monitor, content performance, campaign analytics, competitive brief
 4. **Schedule the crons**  --  Weekly SEO reports, daily anomaly checks, monthly competitive audits
@@ -135,12 +135,12 @@ The agent integrates with **GA4, Google Search Console, Ahrefs, Semrush, Klaviyo
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
-- [Sales Agent  --  Pipeline & Outreach Automation](/docs/hermes/agents/sales-agent)
-- [Research Agent  --  Competitive Intelligence](/docs/hermes/agents/research-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
-- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
-- [Content Operations Guide](/docs/hermes/content-ops)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
+- [Sales Agent  --  Pipeline & Outreach Automation](/hermes/agents/sales-agent)
+- [Research Agent  --  Competitive Intelligence](/hermes/agents/research-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/hermes/governance/scheduling)
+- [Content Operations Guide](/hermes/content-ops)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

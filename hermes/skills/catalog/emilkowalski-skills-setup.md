@@ -60,6 +60,6 @@ Installs all 10 skills. Hermes: place the SKILL.md files under your agent's skil
 
 ## Related
 
-- [Uizze UI Skills - Anti-UI-Slop Design Quality Setup](/docs/hermes/skills/catalog/uizze-ui-skills-setup)
-- [Extract Design System - UI Token & Component Extraction Setup](/docs/hermes/skills/catalog/extract-design-system-setup)
+- [Uizze UI Skills - Anti-UI-Slop Design Quality Setup](/hermes/skills/catalog/uizze-ui-skills-setup)
+- [Extract Design System - UI Token & Component Extraction Setup](/hermes/skills/catalog/extract-design-system-setup)
 - [Apple Design](https://developer.apple.com/design/human-interface-guidelines)

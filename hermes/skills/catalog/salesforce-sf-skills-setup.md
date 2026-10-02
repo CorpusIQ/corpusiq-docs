@@ -98,10 +98,10 @@ The library is Apache-2.0, published by the official Salesforce org, and the vas
 
 ## Related
 
-- [Microsoft Azure Skills - Setup Guide](/docs/hermes/skills/catalog/microsoft-azure-skills-setup)
-- [HubSpot Agent CLI Skills - Setup Guide](/docs/hermes/skills/catalog/hubspot-agent-cli-skills-setup)
+- [Microsoft Azure Skills - Setup Guide](/hermes/skills/catalog/microsoft-azure-skills-setup)
+- [HubSpot Agent CLI Skills - Setup Guide](/hermes/skills/catalog/hubspot-agent-cli-skills-setup)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

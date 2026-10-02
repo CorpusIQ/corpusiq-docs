@@ -122,9 +122,9 @@ hermes chat -q "Generate a simple test image using the cheapest provider"
 ## See Also
 
 - [runapi-ai/cli-skill repo](https://github.com/runapi-ai/cli-skill)
-- [AI Video Generation Setup](/docs/hermes/skills/catalog/ai-video-generation-setup)
-- [HyperFrames Setup](/docs/hermes/skills/catalog/hyperframes-setup)
-- [Media Use Setup](/docs/hermes/skills/catalog/media-use-setup)
+- [AI Video Generation Setup](/hermes/skills/catalog/ai-video-generation-setup)
+- [HyperFrames Setup](/hermes/skills/catalog/hyperframes-setup)
+- [Media Use Setup](/hermes/skills/catalog/media-use-setup)
 
 ---
 

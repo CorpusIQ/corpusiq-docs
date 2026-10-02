@@ -47,5 +47,5 @@ Hosted endpoint live-verified: anonymous initialize at https://www.taskade.com/m
 
 ## See Also
 
-- [Taskfolk MCP - Project Management for Teams and AI Agents](/docs/hermes/mcp/servers/external/taskfolk-mcp)
-- [ConnectMachine MCP - Digital Business Cards and Contact CRM for Agents](/docs/hermes/mcp/servers/external/connectmachine-mcp)
+- [Taskfolk MCP - Project Management for Teams and AI Agents](/hermes/mcp/servers/external/taskfolk-mcp)
+- [ConnectMachine MCP - Digital Business Cards and Contact CRM for Agents](/hermes/mcp/servers/external/connectmachine-mcp)

@@ -82,5 +82,5 @@ Agent Watch monitors the plumbing CorpusIQ runs on: as CorpusIQ's connector ecos
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

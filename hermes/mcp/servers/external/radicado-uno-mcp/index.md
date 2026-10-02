@@ -83,7 +83,7 @@ Radicado Uno extends the same due-diligence pattern CorpusIQ runs on internal bu
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [CN Evidence MCP - China Supplier Due Diligence for Agents](/docs/hermes/mcp/servers/external/cn-evidence-mcp)
-- [Recordwire MCP - US Business Registry Data for Agents](/docs/hermes/mcp/servers/external/recordwire-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [CN Evidence MCP - China Supplier Due Diligence for Agents](/hermes/mcp/servers/external/cn-evidence-mcp)
+- [Recordwire MCP - US Business Registry Data for Agents](/hermes/mcp/servers/external/recordwire-mcp)

@@ -136,4 +136,4 @@ hermes skill run autolora --swap adapter-2026-06-29-v3
 
 ---
 
-*This guide is part of the [Hermes Skills Catalog](/docs/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*
+*This guide is part of the [Hermes Skills Catalog](/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*

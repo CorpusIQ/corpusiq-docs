@@ -116,5 +116,5 @@ ls -la /tmp/test-hyperframes.mp4 && echo "✅ HyperFrames working"
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-june18-2026-update2) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Discovery Page](/hermes/skills/marketplace/new-june18-2026-update2) →*
 *Powered by CorpusIQ*

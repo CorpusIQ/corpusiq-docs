@@ -119,6 +119,6 @@ geolint audits whether AI systems can read your public pages; CorpusIQ answers w
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [Attensira MCP - AI-Search Visibility Data for Agents](/docs/hermes/mcp/servers/external/attensira-mcp)
-- [Serp Sidekick MCP - Live SEO Data for AI Assistants](/docs/hermes/mcp/servers/external/serp-sidekick-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [Attensira MCP - AI-Search Visibility Data for Agents](/hermes/mcp/servers/external/attensira-mcp)
+- [Serp Sidekick MCP - Live SEO Data for AI Assistants](/hermes/mcp/servers/external/serp-sidekick-mcp)

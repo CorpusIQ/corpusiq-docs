@@ -130,11 +130,11 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 - [Connect QuickBooks to Claude](/connect/quickbooks-with-claude)
 - [Connect Salesforce to Claude](/connectors)
 - [Connect Stripe to Claude](/connect/stripe-with-claude)
-- [AI for Business Intelligence](/private-ai-for-business)
-- [AI for Financial Analysis](/private-ai-for-business)
-- [AI for KPI Monitoring](/private-ai-for-business)
-- [AI for Forecasting](/private-ai-for-business)
-- [What is MCP?](/answers/what-is-an-mcp-server)
+- [AI for Business Intelligence](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Financial Analysis](https://www.corpusiq.io/private-ai-for-business)
+- [AI for KPI Monitoring](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Forecasting](https://www.corpusiq.io/private-ai-for-business)
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 

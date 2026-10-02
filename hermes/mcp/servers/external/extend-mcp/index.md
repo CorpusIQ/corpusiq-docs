@@ -81,8 +81,8 @@ Extend complements CorpusIQ's structured business data: CorpusIQ reads the syste
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [DocMake MCP - Template-Driven DOCX and PDF Generation](/docs/hermes/mcp/servers/external/docmake-mcp)
-- [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/docs/hermes/mcp/servers/external/policyforge-mcp)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [DocMake MCP - Template-Driven DOCX and PDF Generation](/hermes/mcp/servers/external/docmake-mcp)
+- [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/hermes/mcp/servers/external/policyforge-mcp)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp)

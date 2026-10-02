@@ -98,11 +98,11 @@ ls ~/.hermes/skills/frontend-design/SKILL.md
 
 ## Related
 
-- [Claude Code Skills - Agentic Coding & Skill Development Setup](/docs/hermes/skills/catalog/claude-code-skills-setup)
-- [Unity AI Skills - Official Unity 29-Skill Game Dev Suite Setup](/docs/hermes/skills/catalog/unity-ai-skills-setup)
+- [Claude Code Skills - Agentic Coding & Skill Development Setup](/hermes/skills/catalog/claude-code-skills-setup)
+- [Unity AI Skills - Official Unity 29-Skill Game Dev Suite Setup](/hermes/skills/catalog/unity-ai-skills-setup)
 - [CorpusIQ - one MCP endpoint, all your business tools](https://corpusiq.io)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

@@ -133,4 +133,4 @@ This creates a single-pane view where your agent answers "which channel produces
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Overview](/hermes/mcp)*

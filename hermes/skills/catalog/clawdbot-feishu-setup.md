@@ -198,7 +198,7 @@ Feishu uses tenant access tokens with 2-hour expiry. The skill automatically ref
 
 ---
 
-*← [June 28 Update 3 Discovery](/docs/hermes/skills/marketplace/new-june28-2026-update3) | [Skills Catalog Home](/docs/hermes/skills/catalog) →*
+*← [June 28 Update 3 Discovery](/hermes/skills/marketplace/new-june28-2026-update3) | [Skills Catalog Home](/hermes/skills/catalog) →*
 
 ---
 

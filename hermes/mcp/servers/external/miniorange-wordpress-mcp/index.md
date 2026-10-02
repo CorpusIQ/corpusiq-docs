@@ -88,8 +88,8 @@ CorpusIQ's commerce connectors (Shopify, WooCommerce-class store data, payments)
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Strac MCP DLP - Sensitive Data Redaction for AI Agents](/docs/hermes/mcp/servers/external/strac-mcp-dlp)
-- [Asyntai MCP - AI Support Agent for Websites](/docs/hermes/mcp/servers/external/asyntai-mcp)
-- [iubenda MCP - Website Legal Compliance for Agents](/docs/hermes/mcp/servers/external/iubenda-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Strac MCP DLP - Sensitive Data Redaction for AI Agents](/hermes/mcp/servers/external/strac-mcp-dlp)
+- [Asyntai MCP - AI Support Agent for Websites](/hermes/mcp/servers/external/asyntai-mcp)
+- [iubenda MCP - Website Legal Compliance for Agents](/hermes/mcp/servers/external/iubenda-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

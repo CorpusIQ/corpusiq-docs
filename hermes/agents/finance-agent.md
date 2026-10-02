@@ -16,7 +16,7 @@ robots: "index,follow"
 
 # Hermes Finance Agent  --  Autonomous Accounting & Financial Reconciliation
 
-The **Hermes Finance Agent** automates **financial operations**  --  invoice processing, expense tracking, account reconciliation, and financial reporting. It connects to your accounting platform, payment processor, and expense tools through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors) to provide a **real-time financial picture** without manual data entry or spreadsheet wrangling.
+The **Hermes Finance Agent** automates **financial operations**  --  invoice processing, expense tracking, account reconciliation, and financial reporting. It connects to your accounting platform, payment processor, and expense tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors) to provide a **real-time financial picture** without manual data entry or spreadsheet wrangling.
 
 This agent is built for finance teams, fractional CFOs, and business owners who need accurate, timely financial data without living inside QuickBooks. It surfaces anomalies, tracks AR aging, and prepares month-end close summaries.
 
@@ -32,11 +32,11 @@ This agent is built for finance teams, fractional CFOs, and business owners who 
 | **AR aging** | Receivables aging report, overdue alerts, customer payment trend analysis |
 | **Financial reporting** | Monthly P&L, balance sheet snapshot, cash flow summary, budget vs. actual |
 
-> **See also:** [Agent Library Overview](/docs/hermes/agents) · [DevOps Agent](/docs/hermes/agents/devops-agent) · [QuickBooks Connector](/docs/hermes/mcp/connectors)
+> **See also:** [Agent Library Overview](/hermes/agents) · [DevOps Agent](/hermes/agents/devops-agent) · [QuickBooks Connector](/hermes/mcp/connectors)
 
 ## How It Works
 
-1. **Connect your financial stack**  --  QuickBooks, Stripe, bank feeds via [CorpusIQ connectors](/docs/hermes/mcp/connectors)
+1. **Connect your financial stack**  --  QuickBooks, Stripe, bank feeds via [CorpusIQ connectors](/hermes/mcp/connectors)
 2. **Define your chart of accounts**  --  Store GL codes and expense policies in canonical facts
 3. **Load the skills**  --  Invoice processing, expense tracking, reconciliation, AR aging, financial reporting
 4. **Schedule the crons**  --  Daily reconciliation, overdue alerts, weekly cash flow, monthly close
@@ -135,11 +135,11 @@ The agent generates **P&L statements, balance sheet snapshots, cash flow summari
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
-- [DevOps Agent  --  Infrastructure & Cost Optimization](/docs/hermes/agents/devops-agent)
-- [Executive Agent  --  Daily Briefings & Metrics](/docs/hermes/agents/executive-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
-- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
+- [DevOps Agent  --  Infrastructure & Cost Optimization](/hermes/agents/devops-agent)
+- [Executive Agent  --  Daily Briefings & Metrics](/hermes/agents/executive-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

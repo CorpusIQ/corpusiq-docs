@@ -16,7 +16,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "ecommerce", "shopify", "et
 **First Seen:** August 14, 2026 afternoon sweep
 **Quality Tier:** 🟢 Production (flagship `cross-border-ecommerce` at 62.2K installs)
 
-The general-marketplace companion to the [Nexscope Amazon Skills](/docs/hermes/skills/catalog/nexscope-amazon-skills-setup) guide. Where the Amazon repo focuses on a single marketplace, this repo spans the full operator stack: Shopify, Etsy, TikTok Shop, eBay, Walmart, plus cross-border selling, dropshipping research, PPC planning, and email marketing. It is the largest single e-commerce skill library on skills.sh - 121 skills covering product research through post-purchase retention.
+The general-marketplace companion to the [Nexscope Amazon Skills](/hermes/skills/catalog/nexscope-amazon-skills-setup) guide. Where the Amazon repo focuses on a single marketplace, this repo spans the full operator stack: Shopify, Etsy, TikTok Shop, eBay, Walmart, plus cross-border selling, dropshipping research, PPC planning, and email marketing. It is the largest single e-commerce skill library on skills.sh - 121 skills covering product research through post-purchase retention.
 
 ---
 
@@ -71,10 +71,10 @@ No API keys required - the skills are markdown workflow packages. Marketplaces a
 
 ## Related
 
-- [Nexscope Amazon Skills - E-Commerce Product Research Setup](/docs/hermes/skills/catalog/nexscope-amazon-skills-setup)
-- [Apify Ultimate Scraper Setup](/docs/hermes/skills/catalog/apify-ultimate-scraper-setup)
-- [Firecrawl Skills Setup](/docs/hermes/skills/catalog/firecrawl-skills-setup)
+- [Nexscope Amazon Skills - E-Commerce Product Research Setup](/hermes/skills/catalog/nexscope-amazon-skills-setup)
+- [Apify Ultimate Scraper Setup](/hermes/skills/catalog/apify-ultimate-scraper-setup)
+- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

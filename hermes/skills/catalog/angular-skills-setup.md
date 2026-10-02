@@ -80,7 +80,7 @@ npx skills add angular/skills   # verify install works
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

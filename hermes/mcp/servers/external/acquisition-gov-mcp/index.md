@@ -77,8 +77,8 @@ CorpusIQ answers questions about the business's own data (revenue, contracts, pi
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [mcp-sam-gov MCP](/docs/hermes/mcp/servers/external/sam-gov-mcp) - 150-tool US government contracting and spending server
-- [AwardCast MCP](/docs/hermes/mcp/servers/external/awardcast-mcp) - SAM.gov solicitations and recompete radar
-- [Corpus Law MCP](/docs/hermes/mcp/servers/external/corpus-law-mcp) - US legal search and business formation
-- [Truth Bear GAUGE MCP](/docs/hermes/mcp/servers/external/truth-bear-gauge) - verifiable government data with cryptographic proof
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [mcp-sam-gov MCP](/hermes/mcp/servers/external/sam-gov-mcp) - 150-tool US government contracting and spending server
+- [AwardCast MCP](/hermes/mcp/servers/external/awardcast-mcp) - SAM.gov solicitations and recompete radar
+- [Corpus Law MCP](/hermes/mcp/servers/external/corpus-law-mcp) - US legal search and business formation
+- [Truth Bear GAUGE MCP](/hermes/mcp/servers/external/truth-bear-gauge) - verifiable government data with cryptographic proof

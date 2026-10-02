@@ -20,8 +20,8 @@ Skills for integrating Hermes Agent with prisma. These skills enable autonomous 
 
 ## Related
 
-- [Skills Catalog →](/docs/hermes/skills/catalog)
-- [Marketplace →](/docs/hermes/skills/marketplace)
+- [Skills Catalog →](/hermes/skills/catalog)
+- [Marketplace →](/hermes/skills/marketplace)
 
 ---
 

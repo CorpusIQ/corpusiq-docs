@@ -81,6 +81,6 @@ UGC VZ feeds creator discovery into CorpusIQ's marketing workflows. An operator 
 
 ## See Also
 
-- [Shotstack MCP - Video Editing API for AI Agents](/docs/hermes/mcp/servers/external/shotstack-mcp)
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Shotstack MCP - Video Editing API for AI Agents](/hermes/mcp/servers/external/shotstack-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

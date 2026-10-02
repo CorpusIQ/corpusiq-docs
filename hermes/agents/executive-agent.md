@@ -18,7 +18,7 @@ robots: "index,follow"
 
 The **Hermes Executive Agent** is your **AI chief of staff**  --  it manages your calendar, prepares meeting briefs, triages your inbox, and delivers a structured **daily briefing** so you start every day with clarity instead of chaos. Designed for founders, executives, and anyone juggling too many priorities.
 
-This agent integrates deeply with your calendar, email, task management, and communication tools through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors). It learns your priorities, communication patterns, and working style to provide **proactive, context-rich support**.
+This agent integrates deeply with your calendar, email, task management, and communication tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors). It learns your priorities, communication patterns, and working style to provide **proactive, context-rich support**.
 
 ## Overview
 
@@ -32,7 +32,7 @@ This agent integrates deeply with your calendar, email, task management, and com
 | **Meeting preparation** | Per-meeting briefs: attendee bios, recent interactions, open action items |
 | **Task follow-up** | Track action items from meetings and emails, flag overdue items |
 
-> **See also:** [Agent Library Overview](/docs/hermes/agents) · [Sales Agent](/docs/hermes/agents/sales-agent) · [HR Agent](/docs/hermes/agents/hr-agent)
+> **See also:** [Agent Library Overview](/hermes/agents) · [Sales Agent](/hermes/agents/sales-agent) · [HR Agent](/hermes/agents/hr-agent)
 
 ## How It Works
 
@@ -140,12 +140,12 @@ Yes. Every Friday at 4:30 PM, the agent delivers a **weekly review** covering wi
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
-- [HR Agent  --  Recruiting & People Operations](/docs/hermes/agents/hr-agent)
-- [Sales Agent  --  Pipeline & CRM Automation](/docs/hermes/agents/sales-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
-- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
-- [Model Selection Best Practices](/docs/hermes/best-practices/model-selection)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
+- [HR Agent  --  Recruiting & People Operations](/hermes/agents/hr-agent)
+- [Sales Agent  --  Pipeline & CRM Automation](/hermes/agents/sales-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/hermes/governance/scheduling)
+- [Model Selection Best Practices](/hermes/best-practices/model-selection)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

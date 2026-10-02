@@ -110,7 +110,7 @@ Set `$API_BASE_URL` in your test environment and structure tests to send request
 
 ## Related
 
-- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)
+- [Skills Catalog](/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

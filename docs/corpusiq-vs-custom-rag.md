@@ -141,11 +141,11 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 - [CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search](/compare)
 - [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/compare)
 - [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
-- [How to Build an AI Knowledge Base](/answers)
-- [How to Create an AI Data Layer](/answers)
+- [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
+- [How to Create an AI Data Layer](https://www.corpusiq.io/answers)
 - [Best MCP Server for Business](/mcp)
 - [Best AI Knowledge Platform](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

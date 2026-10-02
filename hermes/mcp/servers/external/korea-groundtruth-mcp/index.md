@@ -84,7 +84,7 @@ KGT complements CorpusIQ's financial connectors for operators with Korean exposu
 
 ## See Also
 
-- [Korea Business Verify MCP - Live KYB Checks for Korean Companies](/docs/hermes/mcp/servers/external/korea-business-verify)
-- [1Lookup MCP - Phone, Email and IP Verification](/docs/hermes/mcp/servers/external/1lookup-mcp)
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Korea Business Verify MCP - Live KYB Checks for Korean Companies](/hermes/mcp/servers/external/korea-business-verify)
+- [1Lookup MCP - Phone, Email and IP Verification](/hermes/mcp/servers/external/1lookup-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

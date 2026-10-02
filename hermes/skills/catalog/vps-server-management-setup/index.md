@@ -116,12 +116,12 @@ For short command sequences (updates, config changes, restarts), the skill recom
 
 ## Related Skills
 
-- [distribute-skill-to-all-agents](/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup) - Sync skills across agent instances (same publisher)
-- [browser-harness](/docs/hermes/skills/catalog/browser-harness-setup) - Browser automation for agents (same publisher)
+- [distribute-skill-to-all-agents](/hermes/skills/catalog/distribute-skill-to-all-agents-setup) - Sync skills across agent instances (same publisher)
+- [browser-harness](/hermes/skills/catalog/browser-harness-setup) - Browser automation for agents (same publisher)
 - [anti-sleep](https://skills.sh/davidondrej/skills) - Keep remote agents alive on VPS
 - [setup-help](https://skills.sh/davidondrej/skills) - Agent environment setup assistance
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

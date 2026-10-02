@@ -67,6 +67,6 @@ Harness Atlas output drops cleanly into procurement workflows: pair manufacturer
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Electronics RFQ Agent MCP - RFQ-to-Quote ERP Automation](/docs/hermes/mcp/servers/external/electronics-rfq-mcp)
-- [Walmart Marketplace MCP](/docs/hermes/mcp/servers/external/walmart-marketplace-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Electronics RFQ Agent MCP - RFQ-to-Quote ERP Automation](/hermes/mcp/servers/external/electronics-rfq-mcp)
+- [Walmart Marketplace MCP](/hermes/mcp/servers/external/walmart-marketplace-mcp)

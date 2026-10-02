@@ -76,10 +76,10 @@ npx skills add liarjsdev/liarjs-skills --skill browser-fingerprint-audit   # ver
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Playwright Social Media Automation](/docs/hermes/skills) - browser automation doctrine
-- [Chrome DevTools MCP Skills Setup](/docs/hermes/skills/catalog/chrome-devtools-mcp-skills-setup) - browser inspection
+- [Skills Catalog](/hermes/skills/catalog)
+- [Playwright Social Media Automation](/hermes/skills) - browser automation doctrine
+- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup) - browser inspection
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

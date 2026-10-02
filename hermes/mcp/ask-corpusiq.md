@@ -54,6 +54,6 @@ issue #3270 (proposal removed from the MCP tracker; spec lives in the runbook-sp
 
 ## Related pages
 
-- [runbook.v1 governance](/docs/hermes/mcp/runbook-governance)
-- [runbook.v1 response contract](/docs/hermes/mcp/runbook-response-contract)
-- [MCP Apps: interactive UIs](/docs/hermes/mcp/mcp-apps-interactive-ui)
+- [runbook.v1 governance](/hermes/mcp/runbook-governance)
+- [runbook.v1 response contract](/hermes/mcp/runbook-response-contract)
+- [MCP Apps: interactive UIs](/hermes/mcp/mcp-apps-interactive-ui)

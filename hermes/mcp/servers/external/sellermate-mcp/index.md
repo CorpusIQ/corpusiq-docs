@@ -70,8 +70,8 @@ CorpusIQ's 40+ connectors give agents financial, commerce and marketing reads ac
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [AdWhispr MCP - Meta Ads Research for Agents](/docs/hermes/mcp/servers/external/adwhispr-mcp)
-- [Apple Ads MCP - App Store Campaign Operations from Your Terminal](/docs/hermes/mcp/servers/external/apple-ads-mcp)
-- [Mercopilot MCP - Shopify & Google Ads Operating Bridge](/docs/hermes/mcp/servers/external/mercopilot-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [AdWhispr MCP - Meta Ads Research for Agents](/hermes/mcp/servers/external/adwhispr-mcp)
+- [Apple Ads MCP - App Store Campaign Operations from Your Terminal](/hermes/mcp/servers/external/apple-ads-mcp)
+- [Mercopilot MCP - Shopify & Google Ads Operating Bridge](/hermes/mcp/servers/external/mercopilot-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

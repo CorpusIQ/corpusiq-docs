@@ -182,7 +182,7 @@ Yes. MCP servers can be deployed on-premise and connect to internal databases, E
 - [Compare MCP vs custom API integrations](/mcp)
 - [Discover the business benefits of MCP servers](/mcp)
 - [Read our complete MCP security best practices guide](/mcp)
-- [Explore MCP for small business intelligence](/mcp-server-small-business)
+- [Explore MCP for small business intelligence](https://www.corpusiq.io/mcp-server-small-business)
 - [Learn about MCP for enterprise-scale deployments](/mcp)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
@@ -194,4 +194,4 @@ Yes. MCP servers can be deployed on-premise and connect to internal databases, E
 
 ---
 
-**MCP Spec GA - July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/docs/mcp-spec-ga-july-2026).
+**MCP Spec GA - July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/mcp-spec-ga-july-2026).

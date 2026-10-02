@@ -90,7 +90,7 @@ CorpusIQ answers questions about the business's own data (revenue, campaigns, cu
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [CryptoStruct Market Data MCP](/docs/hermes/mcp/servers/external/cryptostruct-mcp) - historical crypto and prediction-market data over MCP
-- [Truth Bear GAUGE MCP](/docs/hermes/mcp/servers/external/truth-bear-gauge) - verifiable government data with x402 pay-per-record
-- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [CryptoStruct Market Data MCP](/hermes/mcp/servers/external/cryptostruct-mcp) - historical crypto and prediction-market data over MCP
+- [Truth Bear GAUGE MCP](/hermes/mcp/servers/external/truth-bear-gauge) - verifiable government data with x402 pay-per-record
+- [MCP Integration Guide](/hermes/mcp) - connecting MCP servers to Hermes Agent

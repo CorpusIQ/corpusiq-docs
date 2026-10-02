@@ -77,7 +77,7 @@ Kuudo operates the Amazon channel; CorpusIQ consolidates the business picture. A
 
 ## See Also
 
-- [AMZ Vault MCP - Amazon Seller Central and Ads for Agents](/docs/hermes/mcp/servers/external/amz-vault-mcp)
-- [ShopSynch MCP - E-Commerce Operations for AI Agents](/docs/hermes/mcp/servers/external/shopsynch-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [AMZ Vault MCP - Amazon Seller Central and Ads for Agents](/hermes/mcp/servers/external/amz-vault-mcp)
+- [ShopSynch MCP - E-Commerce Operations for AI Agents](/hermes/mcp/servers/external/shopsynch-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

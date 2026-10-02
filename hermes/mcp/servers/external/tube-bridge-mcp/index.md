@@ -95,7 +95,7 @@ tube-bridge is the research front-end; CorpusIQ is the business record layer. An
 
 ## See Also
 
-- [Arc Research MCP - Commodities Research & Knowledge Graph](/docs/hermes/mcp/servers/external/arc-research-mcp)
-- [APITube News MCP - News Search with Sentiment & Entity Filters](/docs/hermes/mcp/servers/external/apitube-news-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Arc Research MCP - Commodities Research & Knowledge Graph](/hermes/mcp/servers/external/arc-research-mcp)
+- [APITube News MCP - News Search with Sentiment & Entity Filters](/hermes/mcp/servers/external/apitube-news-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

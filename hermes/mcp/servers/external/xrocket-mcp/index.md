@@ -82,6 +82,6 @@ Use xRocket market data as a signal source alongside CorpusIQ's finance connecto
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/docs/hermes/mcp/servers/external/ice-juice-trading)
-- [Stock Market MCP Server](/docs/hermes/mcp/servers/external/stock-market-mcp-server)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/hermes/mcp/servers/external/ice-juice-trading)
+- [Stock Market MCP Server](/hermes/mcp/servers/external/stock-market-mcp-server)

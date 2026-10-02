@@ -79,6 +79,6 @@ Intesta verifies what CorpusIQ analyzes. An agent doing vendor or customer dilig
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [1Lookup MCP - Phone, Email and IP Verification](/docs/hermes/mcp/servers/external/1lookup-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [1Lookup MCP - Phone, Email and IP Verification](/hermes/mcp/servers/external/1lookup-mcp)

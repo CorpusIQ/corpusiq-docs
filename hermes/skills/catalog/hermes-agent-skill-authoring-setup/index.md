@@ -187,6 +187,6 @@ my-skill/
 
 ## Related Skills
 
-- [Hermes Agent Core](/docs/hermes/skills/catalog/hermes-agent-setup) - Official core skill
-- [Skill Creator](/docs/hermes/skills/catalog/skill-creator-setup) - Community skill creation workflow
-- [Skill Repo Manager](/docs/hermes/skills/catalog/skill-repo-manager-setup) - Managing multi-skill repos
+- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup) - Official core skill
+- [Skill Creator](/hermes/skills/catalog/skill-creator-setup) - Community skill creation workflow
+- [Skill Repo Manager](/hermes/skills/catalog/skill-repo-manager-setup) - Managing multi-skill repos

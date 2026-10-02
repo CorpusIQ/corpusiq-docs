@@ -55,4 +55,4 @@ CorpusIQ Analytics → Track market trends alongside operational metrics
 - US/HK/A-Share only - no European, Japanese, or emerging market coverage
 - Scoring methodology not independently audited
 
-*Back to [External MCP Catalog](/docs/hermes/mcp/servers/external)*
+*Back to [External MCP Catalog](/hermes/mcp/servers/external)*

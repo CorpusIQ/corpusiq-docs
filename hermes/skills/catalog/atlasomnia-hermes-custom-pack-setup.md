@@ -88,9 +88,9 @@ hermes skills inspect https://raw.githubusercontent.com/AtlasOmnia/hermes-agent-
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
-- [Hermes Field Kit Setup](/docs/hermes/skills/catalog/hermes-field-kit-setup)
-- [Avoid AI Writing - AI-Pattern Audit & Rewrite Setup](/docs/hermes/skills/catalog/avoid-ai-writing-setup)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Skills Marketplace](/hermes/skills/marketplace)
+- [Hermes Field Kit Setup](/hermes/skills/catalog/hermes-field-kit-setup)
+- [Avoid AI Writing - AI-Pattern Audit & Rewrite Setup](/hermes/skills/catalog/avoid-ai-writing-setup)
 
 *Powered by CorpusIQ*

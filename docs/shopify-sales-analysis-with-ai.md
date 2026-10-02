@@ -198,7 +198,7 @@ Ready to transform your Shopify order data into revenue intelligence?
 - [Shopify AI Analytics: Automated Insights](/connect/shopify-with-chatgpt)
 - [Shopify Dashboard with ChatGPT](/connect/shopify-with-chatgpt)
 - [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
-- [How to Analyze QuickBooks with AI](/answers)
+- [How to Analyze QuickBooks with AI](https://www.corpusiq.io/answers)
 - [HubSpot Sales Analytics with AI](/connect/hubspot-with-chatgpt)
 
 ## From Data Overload to Revenue Intelligence

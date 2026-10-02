@@ -44,4 +44,4 @@ npx mcp-remote https://getbooyah.com/api/mcp
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [MCP Servers Index](/hermes/mcp/servers/external)

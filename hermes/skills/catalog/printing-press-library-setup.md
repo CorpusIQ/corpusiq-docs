@@ -105,5 +105,5 @@ npx -y @mvanhorn/printing-press-library list --installed
 
 ## Related
 
-- [pp-mercury - Mercury Banking CLI Setup](/docs/hermes/skills/catalog/pp-mercury-setup) - the catalog's banking entry, with Hermes install path and payment-plan workflow
-- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
+- [pp-mercury - Mercury Banking CLI Setup](/hermes/skills/catalog/pp-mercury-setup) - the catalog's banking entry, with Hermes install path and payment-plan workflow
+- [Skills Marketplace](/hermes/skills/marketplace) - more discovery batches

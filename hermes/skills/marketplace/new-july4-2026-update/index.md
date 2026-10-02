@@ -13,7 +13,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 **Date:** July 4, 2026
 **New Repos:** 5 | **New Setup Guides:** 4 | **Combined Stars:** 5
 
-A late-evening sweep of GitHub repos created on July 4 surfaced 5 additional Hermes-relevant projects not captured in the [main July 4 sweep](/docs/hermes/skills/marketplace/new-july4-2026). The standout is **hermes-top** - a Go-based, read-only `htop`/`btop`-style live terminal dashboard that watches Hermes Agent's `state.db`.
+A late-evening sweep of GitHub repos created on July 4 surfaced 5 additional Hermes-relevant projects not captured in the [main July 4 sweep](/hermes/skills/marketplace/new-july4-2026). The standout is **hermes-top** - a Go-based, read-only `htop`/`btop`-style live terminal dashboard that watches Hermes Agent's `state.db`.
 
 ---
 
@@ -50,7 +50,7 @@ A read-only, `htop`/`btop`-style live terminal dashboard for Hermes Agent. Reads
 - `--dump` flag for one-shot text snapshots (scriptable)
 - Reads `$HERMES_HOME/state.db` - never writes
 
-**Setup Guide:** [hermes-top - Full Setup Guide](/docs/hermes/skills/catalog/hermes-top-setup)
+**Setup Guide:** [hermes-top - Full Setup Guide](/hermes/skills/catalog/hermes-top-setup)
 
 ```bash
 git clone https://github.com/markmnl/hermes-top.git
@@ -82,7 +82,7 @@ A complete Matrix/cyberpunk built-in theme for the Hermes Desktop Electron app. 
 - Custom CSS fixes for bg-foreground inversion trap
 - Drop-in 3 files: presets.ts + styles.css + context.tsx
 
-**Setup Guide:** [Hermes Desktop Neo Theme - Full Setup Guide](/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup)
+**Setup Guide:** [Hermes Desktop Neo Theme - Full Setup Guide](/hermes/skills/catalog/hermes-desktop-neo-theme-setup)
 
 ```bash
 git clone https://github.com/Neo-bot1998/hermes-desktop-neo-theme.git
@@ -116,7 +116,7 @@ A self-contained Python backup script for Hermes Agent disaster recovery. Create
 - Cross-platform: Windows, Linux, macOS
 - Zero dependencies (stdlib only)
 
-**Setup Guide:** [Hermes Full Backup - Full Setup Guide](/docs/hermes/skills/catalog/hermes-full-backup-setup)
+**Setup Guide:** [Hermes Full Backup - Full Setup Guide](/hermes/skills/catalog/hermes-full-backup-setup)
 
 ```bash
 git clone https://github.com/edouardleroy/hermes-full-backup.git
@@ -168,7 +168,7 @@ A neuro-symbolic safety layer for Hermes Agent based on the AGEL-Comp framework 
 - Plugin-based - no agent modification required
 - Persists rules to `$HERMES_HOME/agel_comp/`
 
-**Setup Guide:** [AGEL-Comp Safety - Full Setup Guide](/docs/hermes/skills/catalog/hermes-agel-comp-setup)
+**Setup Guide:** [AGEL-Comp Safety - Full Setup Guide](/hermes/skills/catalog/hermes-agel-comp-setup)
 
 ```bash
 git clone https://github.com/lesterppo/hermes-agel-comp.git
@@ -198,10 +198,10 @@ cd hermes-agel-comp
 
 This sweep produced 4 detailed setup guides:
 
-- **[hermes-top Setup](/docs/hermes/skills/catalog/hermes-top-setup)** - Go build, database path resolution, keyboard shortcuts, TUI navigation
-- **[Hermes Desktop Neo Theme Setup](/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup)** - File copy, build, asar packing, restore after update
-- **[Hermes Full Backup Setup](/docs/hermes/skills/catalog/hermes-full-backup-setup)** - Quick backup, full backup, JSON config, restore procedure
-- **[AGEL-Comp Safety Setup](/docs/hermes/skills/catalog/hermes-agel-comp-setup)** - Plugin install, safety rules, CPG querying, learning pipeline
+- **[hermes-top Setup](/hermes/skills/catalog/hermes-top-setup)** - Go build, database path resolution, keyboard shortcuts, TUI navigation
+- **[Hermes Desktop Neo Theme Setup](/hermes/skills/catalog/hermes-desktop-neo-theme-setup)** - File copy, build, asar packing, restore after update
+- **[Hermes Full Backup Setup](/hermes/skills/catalog/hermes-full-backup-setup)** - Quick backup, full backup, JSON config, restore procedure
+- **[AGEL-Comp Safety Setup](/hermes/skills/catalog/hermes-agel-comp-setup)** - Plugin install, safety rules, CPG querying, learning pipeline
 
 ---
 
@@ -216,5 +216,5 @@ This sweep produced 4 detailed setup guides:
 
 ---
 
-*← [July 4 Main Sweep](/docs/hermes/skills/marketplace/new-july4-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [July 4 Main Sweep](/hermes/skills/marketplace/new-july4-2026) | [Marketplace Home](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

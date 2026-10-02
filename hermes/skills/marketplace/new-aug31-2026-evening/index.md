@@ -19,16 +19,16 @@ Evening sweep: three skills.sh leaderboards (all-time, trending, hot) pulled via
 
 | Cluster | Skills | Installs | GitHub | Tier | Guide |
 |---|---|---|---|---|---|
-| insforge/insforge-skills | 7 | 144.5K | 36⭐ | 🟡 | [InsForge Skills Setup](/docs/hermes/skills/catalog/insforge-skills-setup) |
-| vinvcn/mattpocock-skills-zh-cn | 54 | 138.8K | 3.9K⭐ | 🟢 | [Matt Pocock Skills (简体中文) Setup](/docs/hermes/skills/catalog/mattpocock-skills-zh-cn-setup) |
-| owl-listener/designer-skills | 107 | 124.7K | 2.4K⭐ | 🟢 | [Owl Listener Designer Skills Setup](/docs/hermes/skills/catalog/owl-listener-designer-skills-setup) |
-| tanstack-skills/tanstack-skills | 14 | 36.6K | 31⭐ | 🟢 | [TanStack Skills Setup](/docs/hermes/skills/catalog/tanstack-skills-setup) |
-| tt-a1i/archify | 1 | 32.5K | 39.2K⭐ | 🟢 | [Archify Setup](/docs/hermes/skills/catalog/archify-setup) |
-| petrkindlmann/qa-skills | 50 | 25.3K | 102⭐ | 🟡 | [QA Skills Setup](/docs/hermes/skills/catalog/petrkindlmann-qa-skills-setup) |
-| lilmgenius/paperthin | 36 | 22.1K | 945⭐ | 🟢 | [Paperthin Setup](/docs/hermes/skills/catalog/paperthin-skills-setup) |
-| inkeep/open-knowledge-skills | 33 | 17.1K | 6⭐ | 🟢 | [Inkeep Open Knowledge Skills Setup](/docs/hermes/skills/catalog/inkeep-open-knowledge-skills-setup) |
-| zernie/vigiles | 21 | 12.3K | 15⭐ | 🟢 | [Vigiles Setup](/docs/hermes/skills/catalog/vigiles-setup) |
-| hithink-tech/financial-api | 2 | 1.8K | 2.1K⭐ | 🟢 | [Hithink Finance Setup](/docs/hermes/skills/catalog/hithink-finance-setup) |
+| insforge/insforge-skills | 7 | 144.5K | 36⭐ | 🟡 | [InsForge Skills Setup](/hermes/skills/catalog/insforge-skills-setup) |
+| vinvcn/mattpocock-skills-zh-cn | 54 | 138.8K | 3.9K⭐ | 🟢 | [Matt Pocock Skills (简体中文) Setup](/hermes/skills/catalog/mattpocock-skills-zh-cn-setup) |
+| owl-listener/designer-skills | 107 | 124.7K | 2.4K⭐ | 🟢 | [Owl Listener Designer Skills Setup](/hermes/skills/catalog/owl-listener-designer-skills-setup) |
+| tanstack-skills/tanstack-skills | 14 | 36.6K | 31⭐ | 🟢 | [TanStack Skills Setup](/hermes/skills/catalog/tanstack-skills-setup) |
+| tt-a1i/archify | 1 | 32.5K | 39.2K⭐ | 🟢 | [Archify Setup](/hermes/skills/catalog/archify-setup) |
+| petrkindlmann/qa-skills | 50 | 25.3K | 102⭐ | 🟡 | [QA Skills Setup](/hermes/skills/catalog/petrkindlmann-qa-skills-setup) |
+| lilmgenius/paperthin | 36 | 22.1K | 945⭐ | 🟢 | [Paperthin Setup](/hermes/skills/catalog/paperthin-skills-setup) |
+| inkeep/open-knowledge-skills | 33 | 17.1K | 6⭐ | 🟢 | [Inkeep Open Knowledge Skills Setup](/hermes/skills/catalog/inkeep-open-knowledge-skills-setup) |
+| zernie/vigiles | 21 | 12.3K | 15⭐ | 🟢 | [Vigiles Setup](/hermes/skills/catalog/vigiles-setup) |
+| hithink-tech/financial-api | 2 | 1.8K | 2.1K⭐ | 🟢 | [Hithink Finance Setup](/hermes/skills/catalog/hithink-finance-setup) |
 
 ## Method Notes
 

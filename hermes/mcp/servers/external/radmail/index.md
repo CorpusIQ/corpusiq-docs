@@ -108,12 +108,12 @@ RadMail's core design principle: **no irreversible action without human approval
 
 ## Related Resources
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - full curated catalog
-- [CorpusIQ MCP Connectors](/docs/hermes/mcp/connectors) - 40+ native business data connectors
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - full curated catalog
+- [CorpusIQ MCP Connectors](/hermes/mcp/connectors) - 40+ native business data connectors
 - [PortEden Secure Email](/hermes/mcp/servers/external/#secure-email-gmail--outlook) - alternative email firewall approach
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Servers Home](/docs/hermes/mcp/servers) →*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Servers Home](/hermes/mcp/servers) →*
 
 *Guide created July 4, 2026. RadMail is currently available via mcp.so. Check official channels for latest access and pricing.*

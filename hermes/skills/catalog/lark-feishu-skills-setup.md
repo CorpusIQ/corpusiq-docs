@@ -99,8 +99,8 @@ API-backed skills read credentials from the environment (`LARK_APP_ID` / `LARK_A
 
 ## Related
 
-- [Clawdbot Feishu Setup](/docs/hermes/skills/catalog/clawdbot-feishu-setup)
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Clawdbot Feishu Setup](/hermes/skills/catalog/clawdbot-feishu-setup)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

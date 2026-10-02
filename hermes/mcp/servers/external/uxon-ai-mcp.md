@@ -56,4 +56,4 @@ CorpusIQ Social → Drive traffic to generated pages via scheduled posts (Postiz
 - Not a full website builder - focused on landing pages and simple sites
 - No e-commerce or dynamic functionality - static pages only
 
-*Back to [External MCP Catalog](/docs/hermes/mcp/servers/external)*
+*Back to [External MCP Catalog](/hermes/mcp/servers/external)*

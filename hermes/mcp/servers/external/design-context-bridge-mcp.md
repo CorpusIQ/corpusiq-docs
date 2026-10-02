@@ -86,4 +86,4 @@ The design-to-code handoff is where most product velocity leaks. Designers build
 
 *Discovered via mcpservers.org - July 4, 2026*
 *GitHub: [CristinaFores/design-context-bridge](https://github.com/CristinaFores/design-context-bridge)*
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) →*
+*← [External MCP Catalog](/hermes/mcp/servers/external) →*

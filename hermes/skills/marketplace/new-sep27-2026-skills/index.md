@@ -31,17 +31,17 @@ This sweep ran manually after the skills-monitor cron was paused by the Sep 21 i
 
 ## Setup Guides Created
 
-1. **[Book-to-Skill Setup](/docs/hermes/skills/catalog/book-to-skill-setup)** - Turn technical book PDFs into agent skills (32.8K⭐, 6.1K installs)
-2. **[Samber DevRel Skills Setup](/docs/hermes/skills/catalog/samber-devrel-skills-setup)** - 50-skill open source strategy and developer GTM suite
-3. **[Layer Skills Setup](/docs/hermes/skills/catalog/layerai-skills-setup)** - 14-skill AI game asset creation suite (image, 3D, pixel art, audio, video)
-4. **[AE-CLI Skills Setup](/docs/hermes/skills/catalog/ae-cli-skills-setup)** - 34-skill AgenticEngine platform suite (analysis, engagement, community)
-5. **[Coinos Skills Setup](/docs/hermes/skills/catalog/coinos-trading-skills-setup)** - 7-skill AiCoin crypto toolkit (market data, freqtrade, hyperliquid)
-6. **[A Smart Bear Skills Setup](/docs/hermes/skills/catalog/asmartbear-skills-setup)** - 21-skill positioning and PMF suite from Jason Cohen's frameworks
-7. **[Make Skills Setup](/docs/hermes/skills/catalog/make-skills-setup)** - 5 official Make.com automation skills (scenarios, MCP, E2B)
-8. **[Picsart Gen-AI Skills Setup](/docs/hermes/skills/catalog/picsart-gen-ai-skills-setup)** - 19-skill generative media suite for marketing creative
-9. **[Digital Marketing Pro Setup](/docs/hermes/skills/catalog/digital-marketing-pro-setup)** - 50-skill open-source AI marketing operating system
-10. **[Kangarooking Skills Setup](/docs/hermes/skills/catalog/kangarooking-skills-setup)** - 19-skill harness and content suite
-11. **[Frontend God Mode Setup](/docs/hermes/skills/catalog/frontend-god-mode-setup)** - One-skill design bundle for UI polish
+1. **[Book-to-Skill Setup](/hermes/skills/catalog/book-to-skill-setup)** - Turn technical book PDFs into agent skills (32.8K⭐, 6.1K installs)
+2. **[Samber DevRel Skills Setup](/hermes/skills/catalog/samber-devrel-skills-setup)** - 50-skill open source strategy and developer GTM suite
+3. **[Layer Skills Setup](/hermes/skills/catalog/layerai-skills-setup)** - 14-skill AI game asset creation suite (image, 3D, pixel art, audio, video)
+4. **[AE-CLI Skills Setup](/hermes/skills/catalog/ae-cli-skills-setup)** - 34-skill AgenticEngine platform suite (analysis, engagement, community)
+5. **[Coinos Skills Setup](/hermes/skills/catalog/coinos-trading-skills-setup)** - 7-skill AiCoin crypto toolkit (market data, freqtrade, hyperliquid)
+6. **[A Smart Bear Skills Setup](/hermes/skills/catalog/asmartbear-skills-setup)** - 21-skill positioning and PMF suite from Jason Cohen's frameworks
+7. **[Make Skills Setup](/hermes/skills/catalog/make-skills-setup)** - 5 official Make.com automation skills (scenarios, MCP, E2B)
+8. **[Picsart Gen-AI Skills Setup](/hermes/skills/catalog/picsart-gen-ai-skills-setup)** - 19-skill generative media suite for marketing creative
+9. **[Digital Marketing Pro Setup](/hermes/skills/catalog/digital-marketing-pro-setup)** - 50-skill open-source AI marketing operating system
+10. **[Kangarooking Skills Setup](/hermes/skills/catalog/kangarooking-skills-setup)** - 19-skill harness and content suite
+11. **[Frontend God Mode Setup](/hermes/skills/catalog/frontend-god-mode-setup)** - One-skill design bundle for UI polish
 
 ## Roster Reconciles (7)
 
@@ -49,15 +49,15 @@ Missing skill names added to existing publisher guides:
 
 | Skill | Publisher | Installs | Reconciled In |
 |-------|-----------|----------|---------------|
-| dbs-bridge / dbs-install-skill | dontbesilent2025/dbskill | 9,062 / 4,520 | [July 27 Night sweep](/docs/hermes/skills/marketplace/new-july27-2026-night) |
-| unified-memory | affaan-m/ecc | 2,373 | [ECC Engineering Skills](/docs/hermes/skills/catalog/ecc-engineering-skills-setup) |
-| operational-enterprise-ai | mengto/skills | 986 | [Meng To Skills](/docs/hermes/skills/catalog/mengto-skills-setup) |
-| add-mouse-driven-orbit | mengto/skills | 800 | [Meng To Skills](/docs/hermes/skills/catalog/mengto-skills-setup) |
-| nemoclaw-user-get-started | nvidia/skills | 862 | [NemoClaw User Guide](/docs/hermes/skills/catalog/nemoclaw-user-guide-setup) |
-| nemo-relay-install | nvidia/skills | 209 | [NemoClaw User Guide](/docs/hermes/skills/catalog/nemoclaw-user-guide-setup) |
-| ckm-banner-design (hyphenated alias) | nextlevelbuilder/ui-ux-pro-max-skill | 367 | [UI/UX Pro Max](/docs/hermes/skills/catalog/ui-ux-pro-max-setup) |
-| gstack-openclaw-office-hours | garrytan/gstack | 291 | [design-review](/docs/hermes/skills/catalog/design-review-setup) |
-| apify-integration-development | apify/agent-skills | 183 | [Apify Agent Skills](/docs/hermes/skills/catalog/apify-agent-skills-setup) |
+| dbs-bridge / dbs-install-skill | dontbesilent2025/dbskill | 9,062 / 4,520 | [July 27 Night sweep](/hermes/skills/marketplace/new-july27-2026-night) |
+| unified-memory | affaan-m/ecc | 2,373 | [ECC Engineering Skills](/hermes/skills/catalog/ecc-engineering-skills-setup) |
+| operational-enterprise-ai | mengto/skills | 986 | [Meng To Skills](/hermes/skills/catalog/mengto-skills-setup) |
+| add-mouse-driven-orbit | mengto/skills | 800 | [Meng To Skills](/hermes/skills/catalog/mengto-skills-setup) |
+| nemoclaw-user-get-started | nvidia/skills | 862 | [NemoClaw User Guide](/hermes/skills/catalog/nemoclaw-user-guide-setup) |
+| nemo-relay-install | nvidia/skills | 209 | [NemoClaw User Guide](/hermes/skills/catalog/nemoclaw-user-guide-setup) |
+| ckm-banner-design (hyphenated alias) | nextlevelbuilder/ui-ux-pro-max-skill | 367 | [UI/UX Pro Max](/hermes/skills/catalog/ui-ux-pro-max-setup) |
+| gstack-openclaw-office-hours | garrytan/gstack | 291 | [design-review](/hermes/skills/catalog/design-review-setup) |
+| apify-integration-development | apify/agent-skills | 183 | [Apify Agent Skills](/hermes/skills/catalog/apify-agent-skills-setup) |
 
 ## Quick Install
 
@@ -79,5 +79,5 @@ npx skills add shawnchee/frontend-god-mode
 
 **Book-to-Skill** (6.1K installs, 32.8K⭐) is the standout: it converts books into queryable agent skills, a direct fit for CorpusIQ's knowledge-intake and research pipelines. **A Smart Bear** encodes Jason Cohen's positioning and PMF frameworks as runnable skills - directly applicable to CorpusIQ's own product and GTM work. **Samber's DevRel suite** covers open source growth motions that match the Hermes repo promotion charter. The remaining clusters round out automation (Make), creative (Layer, Picsart), marketing (Digital Marketing Pro), and platform (AE-CLI) coverage.
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Powered by CorpusIQ*

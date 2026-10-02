@@ -85,9 +85,9 @@ npx skills add manaflow-ai/cmux --skill cmux   # verify install works
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [NuShell Pro - Structured Shell Scripting Setup](/docs/hermes/skills/catalog/nushell-pro-setup) - shell workflows
+- [Skills Catalog](/hermes/skills/catalog)
+- [NuShell Pro - Structured Shell Scripting Setup](/hermes/skills/catalog/nushell-pro-setup) - shell workflows
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

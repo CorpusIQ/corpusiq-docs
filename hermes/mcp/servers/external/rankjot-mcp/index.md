@@ -76,6 +76,6 @@ A ranking is a leading indicator; revenue is the lagging one. Connect CorpusIQ a
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [Serp Sidekick MCP - Live SEO and AI-Visibility Data for AI Assistants](/docs/hermes/mcp/servers/external/serp-sidekick-mcp)
-- [geolint MCP - AI Search Readiness Linter for Websites](/docs/hermes/mcp/servers/external/geolint-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [Serp Sidekick MCP - Live SEO and AI-Visibility Data for AI Assistants](/hermes/mcp/servers/external/serp-sidekick-mcp)
+- [geolint MCP - AI Search Readiness Linter for Websites](/hermes/mcp/servers/external/geolint-mcp)

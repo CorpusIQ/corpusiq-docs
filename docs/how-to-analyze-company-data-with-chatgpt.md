@@ -198,14 +198,14 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/answers)
-- [How to Query Business Data in Natural Language](/answers)
-- [How to Use AI with Business Data](/answers)
-- [How to Build an Executive AI Dashboard](/answers)
+- [How to Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)
+- [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
+- [How to Use AI with Business Data](https://www.corpusiq.io/answers)
+- [How to Build an Executive AI Dashboard](https://www.corpusiq.io/answers)
 - [Best ChatGPT Integration Platform](/compare)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
 - [Top Business AI Tools  --  Rankings](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -107,4 +107,4 @@ The skill handles:
 
 ---
 
-*This guide is part of the [Hermes Skills Catalog](/docs/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*
+*This guide is part of the [Hermes Skills Catalog](/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*

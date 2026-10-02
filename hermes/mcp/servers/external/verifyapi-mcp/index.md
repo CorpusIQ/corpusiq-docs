@@ -54,6 +54,6 @@ The mcp.so listing carries the verified and featured badges (submitter Circuit S
 
 ## See Also
 
-- [TrustScan MCP - Security Scanning for MCP Servers and AI Skills](/docs/hermes/mcp/servers/external/trustscan-mcp)
-- [Ultralayer MCP - Realtime Market Intelligence for Agents](/docs/hermes/mcp/servers/external/ultralayer-mcp)
-- [Nexlab MCP - Cited Data Across 23 Sources for Agents](/docs/hermes/mcp/servers/external/nexlab-mcp)
+- [TrustScan MCP - Security Scanning for MCP Servers and AI Skills](/hermes/mcp/servers/external/trustscan-mcp)
+- [Ultralayer MCP - Realtime Market Intelligence for Agents](/hermes/mcp/servers/external/ultralayer-mcp)
+- [Nexlab MCP - Cited Data Across 23 Sources for Agents](/hermes/mcp/servers/external/nexlab-mcp)

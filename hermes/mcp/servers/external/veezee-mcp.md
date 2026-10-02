@@ -54,4 +54,4 @@ CorpusIQ Email → Outreach to discovered prospects
 - Data freshness varies by platform cache
 - No historical archive - real-time and recent data only
 
-*Back to [External MCP Catalog](/docs/hermes/mcp/servers/external)*
+*Back to [External MCP Catalog](/hermes/mcp/servers/external)*

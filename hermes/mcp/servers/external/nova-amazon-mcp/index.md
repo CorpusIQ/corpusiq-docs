@@ -76,7 +76,7 @@ Endpoint `https://mcp.novadata.io/api/mcp` live-probed over JSON-RPC: anonymous 
 
 ## See Also
 
-- [AMZ Vault MCP - Amazon Seller Central and Ads for Agents](/docs/hermes/mcp/servers/external/amz-vault-mcp)
-- [Kuudo Amazon MCP Suite - Selling Partner and Vendor Central Operations](/docs/hermes/mcp/servers/external/amazon-kuudo-mcp-suite)
-- [SellerMate MCP - Amazon Ads Operations for AI Agents](/docs/hermes/mcp/servers/external/sellermate-mcp)
-- [Shop MCP - Read-Only Shopify Catalogue and Stock](/docs/hermes/mcp/servers/external/shop-mcp)
+- [AMZ Vault MCP - Amazon Seller Central and Ads for Agents](/hermes/mcp/servers/external/amz-vault-mcp)
+- [Kuudo Amazon MCP Suite - Selling Partner and Vendor Central Operations](/hermes/mcp/servers/external/amazon-kuudo-mcp-suite)
+- [SellerMate MCP - Amazon Ads Operations for AI Agents](/hermes/mcp/servers/external/sellermate-mcp)
+- [Shop MCP - Read-Only Shopify Catalogue and Stock](/hermes/mcp/servers/external/shop-mcp)

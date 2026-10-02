@@ -18,7 +18,7 @@ robots: "index,follow"
 
 The **Hermes Support Agent** is your **first line of defense for customer inquiries**  --  it triages incoming tickets, searches your knowledge base for answers, drafts response templates, monitors **SLA compliance**, and surfaces **trending issues** before they become support crises. Deploy in minutes to handle the repetitive parts of ticket management so your human team can focus on complex, empathy-requiring conversations.
 
-This agent integrates with your helpdesk, knowledge base, CRM, and communication tools through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors).
+This agent integrates with your helpdesk, knowledge base, CRM, and communication tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors).
 
 ## Overview
 
@@ -32,7 +32,7 @@ This agent integrates with your helpdesk, knowledge base, CRM, and communication
 | **SLA monitoring** | Tracks time-to-first-response and time-to-resolution; breach risk alerts |
 | **Trending issue detection** | Detects emerging issue clusters from multiple similar tickets |
 
-> **See also:** [Agent Library Overview](/docs/hermes/agents) · [Sales Agent](/docs/hermes/agents/sales-agent) · [CRM Connectors](/docs/hermes/mcp/connectors)
+> **See also:** [Agent Library Overview](/hermes/agents) · [Sales Agent](/hermes/agents/sales-agent) · [CRM Connectors](/hermes/mcp/connectors)
 
 ## How It Works
 
@@ -134,11 +134,11 @@ The agent clusters tickets with **similar keywords or error messages**. When 3+ 
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
-- [Sales Agent  --  Pipeline & CRM Automation](/docs/hermes/agents/sales-agent)
-- [DevOps Agent  --  Infrastructure & Incident Management](/docs/hermes/agents/devops-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
-- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
+- [Sales Agent  --  Pipeline & CRM Automation](/hermes/agents/sales-agent)
+- [DevOps Agent  --  Infrastructure & Incident Management](/hermes/agents/devops-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

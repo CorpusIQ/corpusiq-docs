@@ -196,7 +196,7 @@ A: Yes. CorpusIQ and ChatGPT have free/low-cost tiers that work for small teams 
 - [Best Business AI Search Tool](/compare)
 - [Best ChatGPT Integration Platform](/compare)
 - [Top MCP Platforms  --  Detailed Comparison](/mcp)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Secure AI Data Connectivity](/security)
 ---
 

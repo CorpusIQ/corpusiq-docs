@@ -128,10 +128,10 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 - [Connect Notion to Claude](/connectors)
 - [Connect Slack to Claude](/connect/slack-with-claude)
 - [Connect SharePoint to Claude](/connectors)
-- [AI for Document Search](/private-ai-for-business)
-- [AI for Customer Support](/ai-for-customer-ops)
-- [AI for Project Management](/private-ai-for-business)
-- [What is MCP?](/answers/what-is-an-mcp-server)
+- [AI for Document Search](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Customer Support](https://www.corpusiq.io/ai-for-customer-ops)
+- [AI for Project Management](https://www.corpusiq.io/private-ai-for-business)
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 

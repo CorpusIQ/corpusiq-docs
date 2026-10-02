@@ -72,10 +72,10 @@ npx skills add spillwavesolutions/design-doc-mermaid   # verify install works
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Markdown Viewer](/docs/hermes/skills) - diagram rendering in Hermes
-- [SEO GEO Claude Skills Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup) - docs optimization
+- [Skills Catalog](/hermes/skills/catalog)
+- [Markdown Viewer](/hermes/skills) - diagram rendering in Hermes
+- [SEO GEO Claude Skills Setup](/hermes/skills/catalog/seo-geo-claude-skills-setup) - docs optimization
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

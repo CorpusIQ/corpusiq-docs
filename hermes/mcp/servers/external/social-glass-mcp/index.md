@@ -86,5 +86,5 @@ Social Glass answers "what is culture doing"; CorpusIQ answers "what is the busi
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

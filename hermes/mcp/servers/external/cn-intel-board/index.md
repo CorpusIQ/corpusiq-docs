@@ -88,7 +88,7 @@ CN Intel Board slots into CorpusIQ's research intelligence layer: a CorpusIQ-dri
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Jawz MCP - Live Macro Reads and a Disciplined Investing Loop](/docs/hermes/mcp/servers/external/jawz-mcp)
-- [Alpha Sophia MCP - US Healthcare Provider and Market Data](/docs/hermes/mcp/servers/external/alpha-sophia-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Jawz MCP - Live Macro Reads and a Disciplined Investing Loop](/hermes/mcp/servers/external/jawz-mcp)
+- [Alpha Sophia MCP - US Healthcare Provider and Market Data](/hermes/mcp/servers/external/alpha-sophia-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

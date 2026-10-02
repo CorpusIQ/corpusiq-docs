@@ -12,7 +12,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 Sweep date: **June 28, 2026** | Source: [skills.sh API](https://skills.sh) | Method: 10-term query sweep → cross-reference against full docs catalog
 
-**Summary:** 17 skills discovered (second sweep of the day), 14 with 200+ installs. Complements the [morning sweep](/docs/hermes/skills/marketplace/new-june28-2026) which found 3 skills (Threads Growth, NemoClaw, Huawei). This sweep focuses on the OpenClaw ecosystem - security, financial tools, email/contacts integration, and deployment automation.
+**Summary:** 17 skills discovered (second sweep of the day), 14 with 200+ installs. Complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026) which found 3 skills (Threads Growth, NemoClaw, Huawei). This sweep focuses on the OpenClaw ecosystem - security, financial tools, email/contacts integration, and deployment automation.
 
 ---
 
@@ -77,16 +77,16 @@ npx skills add framix-team/openclaw-tavily/tavily-search
 
 Detailed setup guides are available for the most impactful skills:
 
-- [IMAP/SMTP Email - OpenClaw Email Integration](/docs/hermes/skills/catalog/imap-smtp-email-setup)
-- [Auto Updater - OpenClaw Self-Updating](/docs/hermes/skills/catalog/openclaw-auto-updater-setup)
-- [Security Hardening - OpenClaw Security Suite](/docs/hermes/skills/catalog/openclaw-security-hardening-setup)
-- [Tavily Search - Web Search for OpenClaw](/docs/hermes/skills/catalog/tavily-search-openclaw-setup)
+- [IMAP/SMTP Email - OpenClaw Email Integration](/hermes/skills/catalog/imap-smtp-email-setup)
+- [Auto Updater - OpenClaw Self-Updating](/hermes/skills/catalog/openclaw-auto-updater-setup)
+- [Security Hardening - OpenClaw Security Suite](/hermes/skills/catalog/openclaw-security-hardening-setup)
+- [Tavily Search - Web Search for OpenClaw](/hermes/skills/catalog/tavily-search-openclaw-setup)
 
 ---
 
-*← [Marketplace Home](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Marketplace Home](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 
-*↑ [Hermes Skills](/docs/hermes/skills)*
+*↑ [Hermes Skills](/hermes/skills)*
 
 ---
 

@@ -83,6 +83,6 @@ StayingAPI is a live data feed for a travel or hospitality vertical; CorpusIQ is
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Airside Labs Aviation Tools MCP - Provenance-Backed Aviation Reference Data](/docs/hermes/mcp/servers/external/airside-aviation-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Airside Labs Aviation Tools MCP - Provenance-Backed Aviation Reference Data](/hermes/mcp/servers/external/airside-aviation-mcp)

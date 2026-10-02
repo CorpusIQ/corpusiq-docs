@@ -74,11 +74,11 @@ MIT license. No skills.sh security audits published (verified Sep 30, 2026):
 
 ## Related
 
-- [Meng To Skills - Setup Guide](/docs/hermes/skills/catalog/mengto-skills-setup)
-- [Animation Principles Skills - Setup Guide](/docs/hermes/skills/catalog/dylantarre-animation-principles-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Meng To Skills - Setup Guide](/hermes/skills/catalog/mengto-skills-setup)
+- [Animation Principles Skills - Setup Guide](/hermes/skills/catalog/dylantarre-animation-principles-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

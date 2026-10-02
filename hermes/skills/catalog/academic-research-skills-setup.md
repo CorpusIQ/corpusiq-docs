@@ -75,10 +75,10 @@ npx skills add imbad0202/academic-research-skills --skill deep-research   # veri
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Grounded Citations](/docs/hermes/skills) - cited, verifiable sources
-- [Awesome LLM Apps Skills Setup](/docs/hermes/skills/catalog/awesome-llm-apps-skills-setup) - role-based research skills
+- [Skills Catalog](/hermes/skills/catalog)
+- [Grounded Citations](/hermes/skills) - cited, verifiable sources
+- [Awesome LLM Apps Skills Setup](/hermes/skills/catalog/awesome-llm-apps-skills-setup) - role-based research skills
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -27,13 +27,13 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **ruflo** | ruvnet/ruflo | 5.8K+ combined | 65,762 ★ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/ruflo-setup) |
+| **ruflo** | ruvnet/ruflo | 5.8K+ combined | 65,762 ★ | 🟢 | [Setup Guide](/hermes/skills/catalog/ruflo-setup) |
 
 ### Automation
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **midscene-skills** | web-infra-dev/midscene-skills | 6K+ combined | 14,183 ★ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/midscene-skills-setup) |
+| **midscene-skills** | web-infra-dev/midscene-skills | 6K+ combined | 14,183 ★ | 🟢 | [Setup Guide](/hermes/skills/catalog/midscene-skills-setup) |
 
 ## Notes
 

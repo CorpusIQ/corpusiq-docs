@@ -191,9 +191,9 @@ ls ~/.hermes/dojo/reports/
 
 ## Related Skills
 
-- [hermes-agent-self-evolution](/docs/hermes/skills/catalog/hermes-agent-self-evolution-setup) - Auto-learning framework
-- [skill-vetter](/docs/hermes/skills/catalog/skill-vetter-setup) - Security audit for skills
-- [skill-creator](/docs/hermes/skills/catalog/skill-creator-setup) - Anthropic's skill creation framework
+- [hermes-agent-self-evolution](/hermes/skills/catalog/hermes-agent-self-evolution-setup) - Auto-learning framework
+- [skill-vetter](/hermes/skills/catalog/skill-vetter-setup) - Security audit for skills
+- [skill-creator](/hermes/skills/catalog/skill-creator-setup) - Anthropic's skill creation framework
 
 ---
 

@@ -90,5 +90,5 @@ gh-issue-sync diff 42         # Show diff (--remote to re-fetch)
 
 ## Related
 
-- [GitHub Code Review Setup](/docs/hermes/skills/catalog/github-code-review-setup) - review workflow skills
-- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
+- [GitHub Code Review Setup](/hermes/skills/catalog/github-code-review-setup) - review workflow skills
+- [Skills Marketplace](/hermes/skills/marketplace) - more discovery batches

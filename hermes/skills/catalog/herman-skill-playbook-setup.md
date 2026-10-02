@@ -256,4 +256,4 @@ Herman's playbook fills a critical gap: **operational execution patterns for Her
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace Home](/docs/hermes/skills/marketplace) | [darraappen2/herman-skill-playbook on GitHub](https://github.com/darraappen2/herman-skill-playbook)*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace Home](/hermes/skills/marketplace) | [darraappen2/herman-skill-playbook on GitHub](https://github.com/darraappen2/herman-skill-playbook)*

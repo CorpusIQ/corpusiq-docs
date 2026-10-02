@@ -196,7 +196,7 @@ A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector
 - [Secure AI Data Connectivity: Encryption and Network Security](/security)
 - [CorpusIQ vs Data Warehouses: Live Query vs Stored Data](/compare)
 - [CorpusIQ vs Custom RAG: 2-Min Setup vs Months of Engineering](/compare)
-- [What Is an MCP Server? Complete Introduction](/answers/what-is-an-mcp-server)
+- [What Is an MCP Server? Complete Introduction](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Benefits of MCP for Business: Speed, Security, and Simplicity](/mcp)
 
 ## Schema Markup

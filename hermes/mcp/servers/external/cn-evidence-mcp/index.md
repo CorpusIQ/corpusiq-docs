@@ -45,5 +45,5 @@ Endpoint live-probed over JSON-RPC: anonymous initialize captured server "CN Evi
 
 ## See Also
 
-- [Gemalli B2B Trade MCP - Global Wholesale Sourcing for Agents](/docs/hermes/mcp/servers/external/gemalli-b2b-trade-mcp)
-- [Bynn MCP - KYC and Document Fraud Detection for Agents](/docs/hermes/mcp/servers/external/bynn-mcp)
+- [Gemalli B2B Trade MCP - Global Wholesale Sourcing for Agents](/hermes/mcp/servers/external/gemalli-b2b-trade-mcp)
+- [Bynn MCP - KYC and Document Fraud Detection for Agents](/hermes/mcp/servers/external/bynn-mcp)

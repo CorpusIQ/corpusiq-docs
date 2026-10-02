@@ -84,7 +84,7 @@ OpenShorts produces the content; CorpusIQ measures whether it worked. After clip
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Shotstack MCP: Video Editing API for AI Agents](/docs/hermes/mcp/servers/external/shotstack-mcp)
-- [ReelDrop MCP - Instagram Reel Scheduling and Analytics](/docs/hermes/mcp/servers/external/reeldrop-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Shotstack MCP: Video Editing API for AI Agents](/hermes/mcp/servers/external/shotstack-mcp)
+- [ReelDrop MCP - Instagram Reel Scheduling and Analytics](/hermes/mcp/servers/external/reeldrop-mcp)

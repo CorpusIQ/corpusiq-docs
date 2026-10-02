@@ -119,5 +119,5 @@ print('Sample data written to /tmp/test_series.csv')
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 30 Update 2 Discovery](/docs/hermes/skills/marketplace/new-june30-2026-update2) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [June 30 Update 2 Discovery](/hermes/skills/marketplace/new-june30-2026-update2) →*
 *Powered by CorpusIQ*

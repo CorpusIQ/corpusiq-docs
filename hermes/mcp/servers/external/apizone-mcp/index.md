@@ -83,7 +83,7 @@ APIzone tells the agent whether a dependent service is down; CorpusIQ tells it w
 
 ## See Also
 
-- [RealUptime MCP - Uptime, Status and Outage Intelligence for Agents](/docs/hermes/mcp/servers/external/realuptime-mcp)
-- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/docs/hermes/mcp/servers/external/healthchecks-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [RealUptime MCP - Uptime, Status and Outage Intelligence for Agents](/hermes/mcp/servers/external/realuptime-mcp)
+- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/hermes/mcp/servers/external/healthchecks-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

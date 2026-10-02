@@ -36,5 +36,5 @@ Remote MCP server; see Meta's documentation page for the endpoint and per-client
 
 ## See also
 
-- [Meta Ads MCP (Official)](/docs/hermes/mcp/servers/external/meta-ads-mcp-official) - Meta's ads server.
-- [WhatsApp Business Tools MCP (Official)](/docs/hermes/mcp/servers/external/whatsapp-business-tools-mcp) - Meta's WhatsApp Business server.
+- [Meta Ads MCP (Official)](/hermes/mcp/servers/external/meta-ads-mcp-official) - Meta's ads server.
+- [WhatsApp Business Tools MCP (Official)](/hermes/mcp/servers/external/whatsapp-business-tools-mcp) - Meta's WhatsApp Business server.

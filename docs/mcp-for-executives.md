@@ -141,7 +141,7 @@ Yes. Generate data for investor updates, answer diligence questions during fundr
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
 - [Learn about MCP for financial reporting and compliance](/mcp)
 - [MCP for Sales: Pipeline and Forecasting](/mcp)

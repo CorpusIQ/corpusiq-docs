@@ -104,5 +104,5 @@ python3 -c "from hermes_tweet import TwitterPlugin; print('OK')"
 
 ## Related Skills
 
-- [xurl CLI Setup](/docs/hermes/skills/catalog/xurl-setup)
-- [X/Twitter Scraper Setup](/docs/hermes/skills/catalog/x-twitter-scraper-setup)
+- [xurl CLI Setup](/hermes/skills/catalog/xurl-setup)
+- [X/Twitter Scraper Setup](/hermes/skills/catalog/x-twitter-scraper-setup)

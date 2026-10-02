@@ -270,7 +270,7 @@ done
 
 ## See Also
 
-- [marketingskills](/docs/hermes/skills/catalog/marketingskills-setup) - SEO audit + content strategy (160K installs)
-- [firecrawl-seo-audit](/docs/hermes/skills/catalog/firecrawl-workflows-setup) - Technical SEO crawl (29.2K installs)
-- [vercel-agent-skills](/docs/hermes/skills/catalog/vercel-agent-skills-setup) - Web design guidelines + optimization (29K installs)
-- [seo-geo](/docs/hermes/skills/catalog) - Generative Engine Optimization for AI search
+- [marketingskills](/hermes/skills/catalog/marketingskills-setup) - SEO audit + content strategy (160K installs)
+- [firecrawl-seo-audit](/hermes/skills/catalog/firecrawl-workflows-setup) - Technical SEO crawl (29.2K installs)
+- [vercel-agent-skills](/hermes/skills/catalog/vercel-agent-skills-setup) - Web design guidelines + optimization (29K installs)
+- [seo-geo](/hermes/skills/catalog) - Generative Engine Optimization for AI search

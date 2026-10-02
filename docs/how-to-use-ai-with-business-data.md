@@ -192,14 +192,14 @@ A: Yes. CorpusIQ inherits permissions from source systems. Users only see data t
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/answers)
-- [How to Analyze Company Data with ChatGPT](/answers)
-- [How to Search Company Data with AI](/answers)
-- [How to Centralize Company Knowledge](/answers)
+- [How to Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)
+- [How to Analyze Company Data with ChatGPT](https://www.corpusiq.io/answers)
+- [How to Search Company Data with AI](https://www.corpusiq.io/answers)
+- [How to Centralize Company Knowledge](https://www.corpusiq.io/answers)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
 - [Best AI Knowledge Platform](/compare)
 - [Top Business AI Tools  --  Rankings](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

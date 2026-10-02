@@ -29,6 +29,6 @@ Add the connector through the [CorpusIQ dashboard](https://corpusiq.io/dashboard
 
 ## See Also
 
-- [All Connectors](/docs/hermes/mcp/connectors)
-- [External MCP Servers](/docs/hermes/mcp/servers/external)
+- [All Connectors](/hermes/mcp/connectors)
+- [External MCP Servers](/hermes/mcp/servers/external)
 - [CorpusIQ Docs](https://corpusiq.io/docs)

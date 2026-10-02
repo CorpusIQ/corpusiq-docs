@@ -224,8 +224,8 @@ Then reference the skill by name in your agent profile.
 
 ## Next Steps
 
-- See the [full skills catalog](/docs/hermes/skills/catalog) for setup guides
-- See [skill marketplaces](/docs/hermes/skills/skill-marketplaces) for discovery and publishing
+- See the [full skills catalog](/hermes/skills/catalog) for setup guides
+- See [skill marketplaces](/hermes/skills/skill-marketplaces) for discovery and publishing
 - See the [June 18 Batch 1](../new-june18-2026/) for the earlier 32 high-install skills
 ---
 

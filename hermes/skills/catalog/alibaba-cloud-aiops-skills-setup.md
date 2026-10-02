@@ -103,11 +103,11 @@ ls ~/.hermes/skills/alibabacloud-sls-query/SKILL.md
 
 ## Related
 
-- [Alibaba Open Code Review - AI Code Review CLI Setup](/docs/hermes/skills/catalog/alibaba-open-code-review-setup)
-- [Microsoft Azure Skills - Cloud Platform Setup](/docs/hermes/skills/catalog/microsoft-azure-skills-setup)
+- [Alibaba Open Code Review - AI Code Review CLI Setup](/hermes/skills/catalog/alibaba-open-code-review-setup)
+- [Microsoft Azure Skills - Cloud Platform Setup](/hermes/skills/catalog/microsoft-azure-skills-setup)
 - [CorpusIQ - one MCP endpoint, all your business tools](https://corpusiq.io)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

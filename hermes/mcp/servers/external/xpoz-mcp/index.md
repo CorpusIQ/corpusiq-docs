@@ -112,7 +112,7 @@ Pair with LinkedMash (LinkedIn content ops) for publishing, and SiteGuru (SEO) f
 
 ## See Also
 
-- [LinkedMash MCP](/docs/hermes/mcp/servers/external/linkedmash-mcp) - LinkedIn saved posts + content publishing
-- [SiteGuru MCP](/docs/hermes/mcp/servers/external/siteguru-mcp) - SEO audit + rankings
-- [AfterLaunch MCP](/docs/hermes/mcp/servers/external/afterlaunch-mcp) - AI answer visibility + GEO
-- [Pangolinfo MCP](/docs/hermes/mcp/servers/external/pangolinfo-mcp) - Amazon + e-commerce intelligence
+- [LinkedMash MCP](/hermes/mcp/servers/external/linkedmash-mcp) - LinkedIn saved posts + content publishing
+- [SiteGuru MCP](/hermes/mcp/servers/external/siteguru-mcp) - SEO audit + rankings
+- [AfterLaunch MCP](/hermes/mcp/servers/external/afterlaunch-mcp) - AI answer visibility + GEO
+- [Pangolinfo MCP](/hermes/mcp/servers/external/pangolinfo-mcp) - Amazon + e-commerce intelligence

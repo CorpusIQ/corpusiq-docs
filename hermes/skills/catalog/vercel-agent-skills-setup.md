@@ -107,5 +107,5 @@ ls $(npx skills list --json 2>/dev/null | python3 -c "import json,sys; d=json.lo
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-july16-2026) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Discovery Page](/hermes/skills/marketplace/new-july16-2026) →*
 *Powered by CorpusIQ*

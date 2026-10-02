@@ -135,4 +135,4 @@ This replaces the manual "export CSV from Stripe, import to FreshBooks, match by
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Overview](/hermes/mcp)*

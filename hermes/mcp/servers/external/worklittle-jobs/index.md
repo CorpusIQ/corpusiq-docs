@@ -73,5 +73,5 @@ Use Worklittle market data alongside CorpusIQ's CRM connectors: pull competitor 
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [JobYap MCP](/docs/hermes/mcp/servers/external/jobyap-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [JobYap MCP](/hermes/mcp/servers/external/jobyap-mcp)

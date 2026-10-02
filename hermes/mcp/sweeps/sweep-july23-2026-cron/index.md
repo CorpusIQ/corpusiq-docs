@@ -12,7 +12,7 @@ robots: "index,follow"
 # MCP Cron Sweep - July 23, 2026
 
 **Sources:** mcp.so (22,680+), mcpservers.org (10,139+)
-**Previous sweep:** [July 22, 2026 (evening)](/docs/hermes/mcp/sweeps/sweep-july22-2026-evening)
+**Previous sweep:** [July 22, 2026 (evening)](/hermes/mcp/sweeps/sweep-july22-2026-evening)
 **Existing catalog:** 206 external server guides
 
 ## Methodology
@@ -27,7 +27,7 @@ robots: "index,follow"
 
 | Server | Category | Why It Matters | Guide |
 |--------|----------|----------------|-------|
-| **Fullstory MCP Plugin** | Analytics / CX | Official MCP from Fullstory - behavioral analytics, session data, funnel metrics for AI agents. Beta program. Complements Subtext. | [Guide →](/docs/hermes/mcp/servers/external/fullstory-mcp) |
+| **Fullstory MCP Plugin** | Analytics / CX | Official MCP from Fullstory - behavioral analytics, session data, funnel metrics for AI agents. Beta program. Complements Subtext. | [Guide →](/hermes/mcp/servers/external/fullstory-mcp) |
 
 ## Full Discovery List
 
@@ -60,6 +60,6 @@ Fullstory + CorpusIQ = revenue-to-behavior connection. Operators can cross-refer
 
 ## See Also
 
-- [Previous sweep: July 22 evening](/docs/hermes/mcp/sweeps/sweep-july22-2026-evening)
-- [Previous sweep: July 22](/docs/hermes/mcp/sweeps/sweep-july22-2026)
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Previous sweep: July 22 evening](/hermes/mcp/sweeps/sweep-july22-2026-evening)
+- [Previous sweep: July 22](/hermes/mcp/sweeps/sweep-july22-2026)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)

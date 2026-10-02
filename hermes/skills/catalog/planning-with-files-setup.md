@@ -55,5 +55,5 @@ npx skills add othmanadi/planning-with-files
 
 ## Related
 
-- [Momentic Skills - AI QA Testing Suite Setup](/docs/hermes/skills/catalog/momentic-skills-setup)
-- [Warp Common Skills - Spec-Driven Development Workflow Setup](/docs/hermes/skills/catalog/warpdotdev-common-skills-setup)
+- [Momentic Skills - AI QA Testing Suite Setup](/hermes/skills/catalog/momentic-skills-setup)
+- [Warp Common Skills - Spec-Driven Development Workflow Setup](/hermes/skills/catalog/warpdotdev-common-skills-setup)

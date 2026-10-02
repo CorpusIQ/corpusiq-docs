@@ -152,9 +152,9 @@ security-watchdog config --sensitivity=medium
 
 ---
 
-*← [Security Hardening Setup Guide](/docs/hermes/skills/catalog/openclaw-security-hardening-setup) | [Discovery Page](/docs/hermes/skills/marketplace/new-june28-2026) →*
+*← [Security Hardening Setup Guide](/hermes/skills/catalog/openclaw-security-hardening-setup) | [Discovery Page](/hermes/skills/marketplace/new-june28-2026) →*
 
-*↑ [Skills Catalog](/docs/hermes/skills/catalog)*
+*↑ [Skills Catalog](/hermes/skills/catalog)*
 
 ---
 

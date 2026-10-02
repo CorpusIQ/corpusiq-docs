@@ -128,9 +128,9 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 - [Connect Stripe to Claude](/connect/stripe-with-claude)
 - [Connect Slack to Claude](/connect/slack-with-claude)
 - [Connect Notion to Claude](/connectors)
-- [AI for Knowledge Management](/private-ai-for-business)
-- [AI for Data Analysis](/private-ai-for-business)
-- [What is MCP?](/answers/what-is-an-mcp-server)
+- [AI for Knowledge Management](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Data Analysis](https://www.corpusiq.io/private-ai-for-business)
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 

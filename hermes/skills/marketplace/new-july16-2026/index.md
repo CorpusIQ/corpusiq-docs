@@ -46,7 +46,7 @@ agent-browser install
 ### Hermes/CorpusIQ Relevance
 Massive for competitive research, social media monitoring, and web scraping. The accessibility-tree approach means agents don't need to build fragile CSS selectors - they can work with semantic element refs that survive DOM changes. At 38K stars, this is the most popular agent-specific browser tool.
 
-**Setup guide:** [agent-browser-setup.md](/docs/hermes/skills/catalog/agent-browser-setup)
+**Setup guide:** [agent-browser-setup.md](/hermes/skills/catalog/agent-browser-setup)
 
 ---
 
@@ -70,7 +70,7 @@ npx skills add vercel-labs/agent-skills
 ### Hermes/CorpusIQ Relevance
 Directly applicable to corpusiq-docs maintenance. `vercel-optimize` can find billing savings on our Vercel deployment. `web-design-guidelines` catches a11y issues before launch. `react-best-practices` enforces performance standards. `writing-guidelines` ensures consistent content quality across 1,000+ docs pages.
 
-**Setup guide:** [vercel-agent-skills-setup.md](/docs/hermes/skills/catalog/vercel-agent-skills-setup)
+**Setup guide:** [vercel-agent-skills-setup.md](/hermes/skills/catalog/vercel-agent-skills-setup)
 
 ---
 
@@ -95,7 +95,7 @@ npx skills add apify/agent-skills
 ### Hermes/CorpusIQ Relevance
 Transforms competitive intel and market research capabilities. Instead of building custom scrapers for each platform, agents can leverage Apify's maintained Actor library. Instagram, TikTok, LinkedIn, Reddit, Google Maps, Yelp - all accessible through one skill set. MCP-compatible for native Hermes tool integration.
 
-**Setup guide:** [apify-agent-skills-setup.md](/docs/hermes/skills/catalog/apify-agent-skills-setup)
+**Setup guide:** [apify-agent-skills-setup.md](/hermes/skills/catalog/apify-agent-skills-setup)
 
 ---
 
@@ -121,7 +121,7 @@ npx @clawfu/mcp-skills
 ### Hermes/CorpusIQ Relevance
 This is the marketing brain CorpusIQ agents have been missing. Instead of improvising growth tactics, agents can now load battle-tested frameworks from the world's best marketers. Positioning (Dunford) for competitive messaging. Copywriting (Schwartz) for landing pages. Mom Test for customer discovery. Growth Loops (Reforge) for sustainable acquisition. Delivered as MCP - native Hermes tool integration.
 
-**Setup guide:** [clawfu-skills-setup.md](/docs/hermes/skills/catalog/clawfu-skills-setup)
+**Setup guide:** [clawfu-skills-setup.md](/hermes/skills/catalog/clawfu-skills-setup)
 
 ---
 
@@ -133,5 +133,5 @@ Sweep conducted using `npx skills search` CLI fallback (skills.sh website return
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Powered by CorpusIQ*

@@ -118,5 +118,5 @@ ls components/logos/
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Elements Registry](https://tryelements.dev/docs/logos) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Elements Registry](https://tryelements.dev/docs/logos) →*
 *Powered by CorpusIQ*

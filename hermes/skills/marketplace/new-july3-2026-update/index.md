@@ -53,7 +53,7 @@ A custom `MemoryProvider` plugin for Hermes Agent that replaces flat system-prom
 - Production-tested (several weeks of real agent use)
 - MIT licensed, Python 3.11+
 
-**Setup Guide:** [Hermes Hybrid Memory - Full Setup Guide](/docs/hermes/skills/catalog/hermes-hybrid-memory-setup)
+**Setup Guide:** [Hermes Hybrid Memory - Full Setup Guide](/hermes/skills/catalog/hermes-hybrid-memory-setup)
 
 ```bash
 # Clone into your Hermes plugins directory
@@ -203,7 +203,7 @@ The standout find is **Hermes Hybrid Memory** - it represents a step-change in a
 ## Setup Guides Added
 
 This sweep produced one detailed setup guide:
-- **[Hermes Hybrid Memory Setup](/docs/hermes/skills/catalog/hermes-hybrid-memory-setup)** - Installation, configuration, memory ingestion pipeline, brain visualization, and production tuning
+- **[Hermes Hybrid Memory Setup](/hermes/skills/catalog/hermes-hybrid-memory-setup)** - Installation, configuration, memory ingestion pipeline, brain visualization, and production tuning
 
 ---
 
@@ -219,5 +219,5 @@ This sweep produced one detailed setup guide:
 
 ---
 
-*← [July 3 Morning Sweep](/docs/hermes/skills/marketplace/new-july3-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [July 3 Morning Sweep](/hermes/skills/marketplace/new-july3-2026) | [Marketplace Home](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

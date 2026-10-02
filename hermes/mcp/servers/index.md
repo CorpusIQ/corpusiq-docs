@@ -97,13 +97,13 @@ CorpusIQ's cross-source connectors correlate data across platforms: Google Ads s
 
 Beyond CorpusIQ's built-in connectors, the MCP ecosystem has 22,000+ third-party servers. See our curated catalog of the most relevant external MCP servers for business operators  --  finance, analytics, document intelligence, security, and more.
 
-→ **[External MCP Server Catalog](/docs/hermes/mcp/servers/external)**  --  Third-party servers from mcp.so & mcpservers.org
+→ **[External MCP Server Catalog](/hermes/mcp/servers/external)**  --  Third-party servers from mcp.so & mcpservers.org
 
 ---
 
-*← [MCP Overview](/docs/hermes/mcp) | [External Server Catalog](/docs/hermes/mcp/servers/external) →*
+*← [MCP Overview](/hermes/mcp) | [External Server Catalog](/hermes/mcp/servers/external) →*
 
-*↑ [MCP Documentation](/docs/hermes/mcp)*
+*↑ [MCP Documentation](/hermes/mcp)*
 
 *Powered by CorpusIQ  --  40+ MCP connectors, unified business intelligence*
 ---

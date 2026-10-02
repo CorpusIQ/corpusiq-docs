@@ -181,13 +181,13 @@ A: Save the question text in a document or note. The AI will run it fresh each t
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/answers)
-- [How to Create an AI Data Layer](/answers)
-- [How to Query Business Data in Natural Language](/answers)
-- [How to Build an Executive AI Dashboard](/answers)
+- [How to Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)
+- [How to Create an AI Data Layer](https://www.corpusiq.io/answers)
+- [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
+- [How to Build an Executive AI Dashboard](https://www.corpusiq.io/answers)
 - [CorpusIQ vs Fivetran  --  Live Query vs ETL](/compare)
 - [Best AI Data Connector  --  Rankings](/connectors)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top MCP Platforms  --  Comparison](/mcp)
 ---
 

@@ -83,7 +83,7 @@ CorpusIQ knows when revenue events happen; caldav-mcp knows when people are avai
 
 ## See Also
 
-- [carddav-mcp - Address Book Operations over CardDAV for Agents](/docs/hermes/mcp/servers/external/carddav-mcp)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [carddav-mcp - Address Book Operations over CardDAV for Agents](/hermes/mcp/servers/external/carddav-mcp)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

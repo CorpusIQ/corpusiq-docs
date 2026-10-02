@@ -30,7 +30,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Website:** steadywrk.app - "Sovereign AI Company in Aqaba, Jordan"
 - **Business relevance:** HIGH - First MCP server for field-service operations. Directly useful for property managers, facilities operators, construction companies, and any business that dispatches tradespeople. 8 verticals cover the most common field-service categories.
 - **Category:** Operations / Field Service
-- **Status:** Full integration guide written → [`steadywrk-dispatch-mcp.md`](/docs/hermes/mcp/servers/external/steadywrk-dispatch-mcp)
+- **Status:** Full integration guide written → [`steadywrk-dispatch-mcp.md`](/hermes/mcp/servers/external/steadywrk-dispatch-mcp)
 
 ### 2. TendFeed ★★★ - GUIDE WRITTEN
 - **Source:** chatmcp/mcpso GitHub issue #3300 (submitted July 25, 2026)
@@ -40,7 +40,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Website:** tendfeed.eu - "See how many you are bidding against - before you calculate."
 - **Business relevance:** HIGH - Procurement intelligence for any company bidding on EU public contracts. The 592K award dataset provides real competitive intelligence that replaces manual spreadsheet analysis. SME-fit scoring is particularly valuable for smaller operators who waste resources bidding on tenders they can't win.
 - **Category:** Business Intelligence / Procurement
-- **Status:** Full integration guide written → [`tendfeed-mcp.md`](/docs/hermes/mcp/servers/external/tendfeed-mcp)
+- **Status:** Full integration guide written → [`tendfeed-mcp.md`](/hermes/mcp/servers/external/tendfeed-mcp)
 
 ## Previously Noted Servers (No Change)
 

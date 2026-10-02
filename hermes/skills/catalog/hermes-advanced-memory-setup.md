@@ -79,5 +79,5 @@ Without a memory system, Hermes agents store data chaotically  --  files scatter
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Session Maintenance Setup →](/docs/hermes/skills/catalog/hermes-session-maintenance-setup)*
+*← [Skills Catalog](/hermes/skills/catalog) | [Session Maintenance Setup →](/hermes/skills/catalog/hermes-session-maintenance-setup)*
 *Powered by CorpusIQ*

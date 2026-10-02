@@ -106,6 +106,6 @@ Pay-as-you-go pricing with $1 free signup credit. No monthly minimums. Pricing s
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Overview](/hermes/mcp)*
 
-*↑ [MCP Documentation](/docs/hermes/mcp)*
+*↑ [MCP Documentation](/hermes/mcp)*

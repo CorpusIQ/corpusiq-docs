@@ -25,16 +25,16 @@ Official Resend agent skills - transactional email API (single/batch send), agen
 
 **Skills:** `resend` (core API), `agent-email-inbox` (inbound processing with security), `react-email` (React templates), `email-best-practices` (deliverability), `resend-cli` (terminal ops)
 
-**Guide:** [Resend Agent Skills Setup](/docs/hermes/skills/catalog/resend-skills-setup)
+**Guide:** [Resend Agent Skills Setup](/hermes/skills/catalog/resend-skills-setup)
 
 ## Previously Cataloged (Verified in Sweep)
 These publishers were confirmed as already having dedicated setup guides from prior sweeps:
 
 | Publisher | Installs | Already Cataloged |
 |---|---|---|
-| cloudflare/skills | 154.8K | ✅ [cloudflare-skills-setup](/docs/hermes/skills/catalog/cloudflare-skills-setup) |
-| figma/mcp-server-guide | 17.5K | ✅ [figma-mcp-server-guide-setup](/docs/hermes/skills/catalog/figma-mcp-server-guide-setup) |
-| grafana/skills | 15.1K | ✅ [grafana-skills-setup](/docs/hermes/skills/catalog/grafana-skills-setup) |
+| cloudflare/skills | 154.8K | ✅ [cloudflare-skills-setup](/hermes/skills/catalog/cloudflare-skills-setup) |
+| figma/mcp-server-guide | 17.5K | ✅ [figma-mcp-server-guide-setup](/hermes/skills/catalog/figma-mcp-server-guide-setup) |
+| grafana/skills | 15.1K | ✅ [grafana-skills-setup](/hermes/skills/catalog/grafana-skills-setup) |
 
 ## Notes
 - Full sweep: 41 keyword terms + 40 owner-scoped searches → 202 unique publishers → 159 filtered as new by automated cross-reference → manual verification narrowed to 1 truly uncataloged

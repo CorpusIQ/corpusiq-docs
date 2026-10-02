@@ -163,6 +163,6 @@ Superscript numbers with endnote-style source list.
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [nousresearch/hermes-agent on skills.sh](https://skills.sh/nousresearch/hermes-agent)*
+*← [Skills Catalog](/hermes/skills/catalog) | [nousresearch/hermes-agent on skills.sh](https://skills.sh/nousresearch/hermes-agent)*
 
 *Powered by CorpusIQ*

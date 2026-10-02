@@ -85,7 +85,7 @@ Pocket Drives is the vehicle layer; CorpusIQ is the money layer. A composed work
 
 ## See Also
 
-- [Secondhand MCP](/docs/hermes/mcp/servers/external/secondhand-mcp)
-- [TradeBrite Dutch Vehicle Context](/docs/hermes/mcp/servers/external/dutch-vehicle-context)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Secondhand MCP](/hermes/mcp/servers/external/secondhand-mcp)
+- [TradeBrite Dutch Vehicle Context](/hermes/mcp/servers/external/dutch-vehicle-context)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

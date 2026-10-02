@@ -117,4 +117,4 @@ hermes config get gateway.plugins.agentmint
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [AgentMint Skills Repo](https://github.com/mesutcelik/agentmint-skills) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [AgentMint Skills Repo](https://github.com/mesutcelik/agentmint-skills) →*

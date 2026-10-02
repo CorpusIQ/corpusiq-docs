@@ -87,8 +87,8 @@ CorpusIQ connects your own business systems (HubSpot, Salesforce-style CRM data,
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Klarix Intelligence Engine MCP - B2B Competitive Intelligence](/docs/hermes/mcp/servers/external/klarix-intelligence-engine-mcp)
-- [Apollo.io MCP - Lead Search and Contact Enrichment](/docs/hermes/mcp/servers/external/apollo-io-mcp)
-- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/docs/hermes/mcp/servers/external/campaignstack-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Klarix Intelligence Engine MCP - B2B Competitive Intelligence](/hermes/mcp/servers/external/klarix-intelligence-engine-mcp)
+- [Apollo.io MCP - Lead Search and Contact Enrichment](/hermes/mcp/servers/external/apollo-io-mcp)
+- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/hermes/mcp/servers/external/campaignstack-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

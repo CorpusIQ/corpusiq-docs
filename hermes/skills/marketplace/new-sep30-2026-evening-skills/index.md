@@ -23,11 +23,11 @@ Sweep snapshot: **706 unique skills** across 15 queries (0 failed). Tiered cross
 | Installs | ~78,907 combined across 11 indexed listings |
 | Skills | 9 installable (10 SKILL.md files incl. shared helper) |
 | Quality Tier | 🟢 Verified (official OKX publisher, MIT LICENSE, active cadence) |
-| Setup Guide | [OKX CEX Agent Skills - Exchange Trading Suite Setup](/docs/hermes/skills/catalog/okx-cex-agent-skills-setup) |
+| Setup Guide | [OKX CEX Agent Skills - Exchange Trading Suite Setup](/hermes/skills/catalog/okx-cex-agent-skills-setup) |
 
 Official OKX skill family for the **centralised exchange** (CEX), driven by the `okx` CLI (`@okx_ai/okx-trade-cli`). Roster: `okx-cex-market` (9,988 - market data, 70+ indicators), `okx-cex-trade` (9,895 - spot/perp/futures/options), `okx-cex-portfolio` (9,700), `okx-cex-bot` (9,536 - grid + DCA-Martingale), `okx-cex-earn` (8,861), `okx-cex-skill-mp` (7,772), `okx-sentiment-tracker` (7,345), `okx-cex-auth` (5,487), `okx-cex-smartmoney` (5,446); plus `earn-hunter` (2,823) and `okx-outcomes` (2,054).
 
-This is the **CEX sibling** of the already-documented [okx/onchainos-skills](/docs/hermes/skills/catalog/okx-onchainos-skills-setup) family (224K installs, onchain/DeFi). Together the two families give OKX the largest crypto skill footprint on skills.sh.
+This is the **CEX sibling** of the already-documented [okx/onchainos-skills](/hermes/skills/catalog/okx-onchainos-skills-setup) family (224K installs, onchain/DeFi). Together the two families give OKX the largest crypto skill footprint on skills.sh.
 
 ## Skipped (below floor)
 

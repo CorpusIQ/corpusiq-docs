@@ -34,7 +34,7 @@ Google's official Chrome DevTools skills. The biggest single gap found this swee
 
 Both work with any MCP-capable agent including Hermes (native MCP client). The repo is Google's official chrome-devtools-mcp (100K+ stars upstream ecosystem).
 
-**Setup guide:** [Chrome DevTools MCP Skills Setup](/docs/hermes/skills/catalog/chrome-devtools-mcp-skills-setup)
+**Setup guide:** [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup)
 
 ### 2. Oh My Hermes (OMH) Suite - `witt3rd/oh-my-hermes` (255⭐, ~800 installs)
 
@@ -52,7 +52,7 @@ Hermes-native multi-agent orchestration: consensus planning (Planner → Archite
 
 Directly complements CorpusIQ's multi-agent stack (blueprint orchestration, supervisor-agent waves).
 
-**Setup guide:** [Oh My Hermes (OMH) Suite Setup](/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup)
+**Setup guide:** [Oh My Hermes (OMH) Suite Setup](/hermes/skills/catalog/oh-my-hermes-omh-suite-setup)
 
 ---
 

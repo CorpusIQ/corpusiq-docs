@@ -213,7 +213,7 @@ npx skills add github/awesome-copilot@mcp-deploy-manage-agents
 #### build-mcp-server (3,148 installs)
 **Repo:** [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
 
-Anthropic's official guide to building MCP servers. Step-by-step from transport layer through tool registration, with TypeScript and Python examples. [Setup guide →](/docs/hermes/skills/catalog/build-mcp-server-setup)
+Anthropic's official guide to building MCP servers. Step-by-step from transport layer through tool registration, with TypeScript and Python examples. [Setup guide →](/hermes/skills/catalog/build-mcp-server-setup)
 
 ```bash
 npx skills add anthropics/claude-plugins-official@build-mcp-server
@@ -294,7 +294,7 @@ npx skills add github/awesome-copilot@mcp-security-audit
 
 ---
 
-*← [June 29 Discovery](/docs/hermes/skills/marketplace/new-june29-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [June 29 Discovery](/hermes/skills/marketplace/new-june29-2026) | [Marketplace Home](/hermes/skills/marketplace) →*
 
 ---
 *Part of the Hermes Skills Library. Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

@@ -57,6 +57,6 @@ Endpoint live-probed: the Streamable HTTP endpoint responds to JSON-RPC (session
 
 ## See Also
 
-- [CourtListener MCP - US Legal Research for Agents](/docs/hermes/mcp/servers/external/courtlistener-mcp)
-- [Bynn MCP - KYC and Document Fraud Detection for Agents](/docs/hermes/mcp/servers/external/bynn-mcp)
-- [Wafeq MCP - Accounting Books for Agents](/docs/hermes/mcp/servers/external/wafeq-mcp)
+- [CourtListener MCP - US Legal Research for Agents](/hermes/mcp/servers/external/courtlistener-mcp)
+- [Bynn MCP - KYC and Document Fraud Detection for Agents](/hermes/mcp/servers/external/bynn-mcp)
+- [Wafeq MCP - Accounting Books for Agents](/hermes/mcp/servers/external/wafeq-mcp)

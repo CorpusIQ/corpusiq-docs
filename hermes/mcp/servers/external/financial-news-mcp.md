@@ -71,5 +71,5 @@ npx @financial-news/mcp-server
 
 ## See Also
 
-- [Seiche Finance MCP](/docs/hermes/mcp/servers/external/seiche-finance-mcp) - US money market stress testing
-- [AlphaVantage MCP](/docs/hermes/mcp/servers/external/alphavantage-mcp) - Stock fundamentals and technical data
+- [Seiche Finance MCP](/hermes/mcp/servers/external/seiche-finance-mcp) - US money market stress testing
+- [AlphaVantage MCP](/hermes/mcp/servers/external/alphavantage-mcp) - Stock fundamentals and technical data

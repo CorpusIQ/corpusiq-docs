@@ -55,6 +55,6 @@ Endpoint live-probed over JSON-RPC initialize: HTTP 401 with OAuth protected-res
 
 ## See Also
 
-- [WPPilot MCP - WordPress, Elementor and WooCommerce for Agents](/docs/hermes/mcp/servers/external/wppilot-mcp)
-- [Elementor MCP Server - WordPress Website Automation](/docs/hermes/mcp/servers/external/elementor-mcp-server)
-- [Encited MCP - SEO and AI Visibility for Agents](/docs/hermes/mcp/servers/external/encited-mcp)
+- [WPPilot MCP - WordPress, Elementor and WooCommerce for Agents](/hermes/mcp/servers/external/wppilot-mcp)
+- [Elementor MCP Server - WordPress Website Automation](/hermes/mcp/servers/external/elementor-mcp-server)
+- [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp)

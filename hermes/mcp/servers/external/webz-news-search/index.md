@@ -89,7 +89,7 @@ Webz.io supplies the external world view - coverage, sentiment, recency - while 
 
 ## See Also
 
-- [tube-bridge MCP - YouTube Research and Local Semantic Corpora](/docs/hermes/mcp/servers/external/tube-bridge-mcp)
-- [Analytics Legends MCP - SAP Analytics Intelligence](/docs/hermes/mcp/servers/external/analytics-legends-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [tube-bridge MCP - YouTube Research and Local Semantic Corpora](/hermes/mcp/servers/external/tube-bridge-mcp)
+- [Analytics Legends MCP - SAP Analytics Intelligence](/hermes/mcp/servers/external/analytics-legends-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

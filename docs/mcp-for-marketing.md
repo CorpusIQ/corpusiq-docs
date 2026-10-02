@@ -153,7 +153,7 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
 - [MCP for Sales: Pipeline and Forecasting](/mcp)
 - [MCP for Ecommerce: Order and Revenue Analytics](/mcp)

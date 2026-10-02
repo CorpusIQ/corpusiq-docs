@@ -28,17 +28,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## 🔥 MAJOR FIND - Atlassian MCP Server ★★★ Official
 
-**Official Atlassian MCP server** (911⭐). Securely connects Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools. OAuth 2.1 or API tokens. `github.com/atlassian/atlassian-mcp-server` (JavaScript). This is the biggest single find of the July 27 sweep cycle - a major enterprise platform shipping an official MCP server. Created August 2025, now at 911 stars with 15+ topic tags. [Guide →](/docs/hermes/mcp/servers/external/atlassian-mcp)
+**Official Atlassian MCP server** (911⭐). Securely connects Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools. OAuth 2.1 or API tokens. `github.com/atlassian/atlassian-mcp-server` (JavaScript). This is the biggest single find of the July 27 sweep cycle - a major enterprise platform shipping an official MCP server. Created August 2025, now at 911 stars with 15+ topic tags. [Guide →](/hermes/mcp/servers/external/atlassian-mcp)
 
 ---
 
 ## New Servers - Integration Guides Written (2)
 
 ### Atlassian MCP ★★★ Official - July 27 (evening)
-Official remote MCP server from Atlassian. Jira, Confluence, JSM, Bitbucket, Compass. OAuth 2.1 + API token auth. 911 stars. `github.com/atlassian/atlassian-mcp-server` · [Guide →](/docs/hermes/mcp/servers/external/atlassian-mcp)
+Official remote MCP server from Atlassian. Jira, Confluence, JSM, Bitbucket, Compass. OAuth 2.1 + API token auth. 911 stars. `github.com/atlassian/atlassian-mcp-server` · [Guide →](/hermes/mcp/servers/external/atlassian-mcp)
 
 ### GoLogin MCP ★★ - July 27 (evening)
-Official GoLogin MCP - browser profile management for multi-account operations. Create, configure, and control GoLogin browser profiles through AI conversations. 18 stars. `github.com/gologinapp/gologin-mcp` · [Guide →](/docs/hermes/mcp/servers/external/gologin-mcp)
+Official GoLogin MCP - browser profile management for multi-account operations. Create, configure, and control GoLogin browser profiles through AI conversations. 18 stars. `github.com/gologinapp/gologin-mcp` · [Guide →](/hermes/mcp/servers/external/gologin-mcp)
 
 ---
 

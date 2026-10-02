@@ -87,7 +87,7 @@ ConsentStack pairs with CorpusIQ as the compliance layer beside the analytics la
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Cookie Free Analytics MCP - Cookieless GDPR-First Web Analytics](/docs/hermes/mcp/servers/external/cookiefreeanalytics-mcp)
-- [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/docs/hermes/mcp/servers/external/policyforge-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Cookie Free Analytics MCP - Cookieless GDPR-First Web Analytics](/hermes/mcp/servers/external/cookiefreeanalytics-mcp)
+- [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/hermes/mcp/servers/external/policyforge-mcp)

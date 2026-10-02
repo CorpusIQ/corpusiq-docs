@@ -87,8 +87,8 @@ CorpusIQ tells the agent what to publish - product data, performance metrics, au
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/docs/hermes/mcp/servers/external/purrplan-mcp)
-- [PostMCP MCP - Social Publishing Pipelines for Agents](/docs/hermes/mcp/servers/external/postmcp-mcp)
-- [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/docs/hermes/mcp/servers/external/bulkpublish-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/hermes/mcp/servers/external/purrplan-mcp)
+- [PostMCP MCP - Social Publishing Pipelines for Agents](/hermes/mcp/servers/external/postmcp-mcp)
+- [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/hermes/mcp/servers/external/bulkpublish-mcp)

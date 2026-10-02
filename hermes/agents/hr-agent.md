@@ -16,7 +16,7 @@ robots: "index,follow"
 
 # Hermes HR Agent  --  Autonomous Recruiting & People Operations
 
-The **Hermes HR Agent** automates **recruiting and people operations workflows**  --  resume screening, interview scheduling, onboarding coordination, policy Q&A, and employee data management. It connects to your ATS, calendar, HRIS, and document storage through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors) to reduce administrative burden on your people team.
+The **Hermes HR Agent** automates **recruiting and people operations workflows**  --  resume screening, interview scheduling, onboarding coordination, policy Q&A, and employee data management. It connects to your ATS, calendar, HRIS, and document storage through [CorpusIQ MCP connectors](/hermes/mcp/connectors) to reduce administrative burden on your people team.
 
 The agent handles high-volume, repetitive HR tasks so your team can focus on culture, employee experience, and strategic workforce planning. All employee data handling follows access controls configured in your Hermes profile.
 
@@ -32,7 +32,7 @@ The agent handles high-volume, repetitive HR tasks so your team can focus on cul
 | **Policy Q&A** | Answers employee questions by searching handbooks, policies, and precedent |
 | **Compliance tracking** | Certification expiry, training completion, document renewal alerts |
 
-> **See also:** [Agent Library Overview](/docs/hermes/agents) · [Executive Agent](/docs/hermes/agents/executive-agent) · [Calendar Connector](/docs/hermes/mcp/connectors)
+> **See also:** [Agent Library Overview](/hermes/agents) · [Executive Agent](/hermes/agents/executive-agent) · [Calendar Connector](/hermes/mcp/connectors)
 
 ## How It Works
 
@@ -135,11 +135,11 @@ Yes. Weekly scans check for **expiring certifications, visas, contract end dates
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
-- [Executive Agent  --  Calendar & Inbox Management](/docs/hermes/agents/executive-agent)
-- [Legal Agent  --  Compliance & Contract Review](/docs/hermes/agents/legal-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
-- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
+- [Executive Agent  --  Calendar & Inbox Management](/hermes/agents/executive-agent)
+- [Legal Agent  --  Compliance & Contract Review](/hermes/agents/legal-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

@@ -10,7 +10,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 # New Skills Discovery - July 15, 2026 (Supplement)
 
-**Time:** 12:03 PM MST - follow-up sweep after the [main July 15 sweep](/docs/hermes/skills/marketplace/new-july15-2026).
+**Time:** 12:03 PM MST - follow-up sweep after the [main July 15 sweep](/hermes/skills/marketplace/new-july15-2026).
 
 A targeted sweep of the OpenClaw ecosystem surfaced **5 additional skills** not captured by the earlier 18-query sweep. Combined install base: **1,305+ installs**.
 
@@ -47,7 +47,7 @@ npx skills add sundial-org/awesome-openclaw-skills/apple-calendar
 ### Hermes/CorpusIQ Relevance
 Enables Hermes agents to manage scheduling autonomously - coordinate team meetings, set deadlines, and manage the CorpusIQ content calendar. The CalDAV protocol support means it works across iCloud, Exchange, and Google Calendar.
 
-**Setup guide:** [apple-calendar-setup.md](/docs/hermes/skills/catalog/apple-calendar-setup)
+**Setup guide:** [apple-calendar-setup.md](/hermes/skills/catalog/apple-calendar-setup)
 
 ---
 
@@ -72,7 +72,7 @@ npx skills add steipete/clawdis/openclaw-release-maintainer
 ### Hermes/CorpusIQ Relevance
 Useful for teams maintaining multiple Hermes/OpenClaw skill packages. Automates the release workflow for skill repositories - ensuring consistent versioning and changelog quality across the CorpusIQ ecosystem.
 
-**Setup guide:** [openclaw-release-maintainer-setup.md](/docs/hermes/skills/catalog/openclaw-release-maintainer-setup)
+**Setup guide:** [openclaw-release-maintainer-setup.md](/hermes/skills/catalog/openclaw-release-maintainer-setup)
 
 ---
 
@@ -102,7 +102,7 @@ npx skills add skills.volces.com/openclaw-skill-vetter-1-0-0
 ### Hermes/CorpusIQ Relevance
 Directly applicable to CorpusIQ's 133+ skill library. Automated vetting prevents broken or incompatible skills from being loaded by production agents. The security scanning is particularly valuable for skills sourced from the marketplace.
 
-**Setup guide:** [openclaw-skill-vetter-setup.md](/docs/hermes/skills/catalog/openclaw-skill-vetter-setup)
+**Setup guide:** [openclaw-skill-vetter-setup.md](/hermes/skills/catalog/openclaw-skill-vetter-setup)
 
 ---
 
@@ -127,7 +127,7 @@ npx skills add stemmaker/openclaw-grok-search
 ### Hermes/CorpusIQ Relevance
 Provides an alternative search backend for Hermes agents beyond DuckDuckGo and Firecrawl. Grok's reasoning layer can synthesize search results into actionable insights - useful for competitive research, market analysis, and trend monitoring.
 
-**Setup guide:** [openclaw-grok-search-setup.md](/docs/hermes/skills/catalog/openclaw-grok-search-setup)
+**Setup guide:** [openclaw-grok-search-setup.md](/hermes/skills/catalog/openclaw-grok-search-setup)
 
 ---
 

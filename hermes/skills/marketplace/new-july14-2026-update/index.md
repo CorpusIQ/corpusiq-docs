@@ -41,7 +41,7 @@ Unified entrypoint for ingesting agent conversation history into an Obsidian wik
 npx skills add ar9av/obsidian-wiki --skill wiki-history-ingest
 ```
 
-**Full setup guide:** [wiki-history-ingest →](/docs/hermes/skills/catalog/wiki-history-ingest-setup)
+**Full setup guide:** [wiki-history-ingest →](/hermes/skills/catalog/wiki-history-ingest-setup)
 
 ### 2. vps-server-management - Agent Server Operations (26 installs)
 
@@ -55,7 +55,7 @@ Manage VPS servers and the AI agents running on them - SSH, deploy, monitor, res
 npx skills add davidondrej/skills --skill vps-server-management
 ```
 
-**Full setup guide:** [vps-server-management →](/docs/hermes/skills/catalog/vps-server-management-setup)
+**Full setup guide:** [vps-server-management →](/hermes/skills/catalog/vps-server-management-setup)
 
 ### 3. create-plugin - Agent Plugin Scaffolding (24 installs)
 
@@ -94,15 +94,15 @@ npx skills add richfrem/agent-plugins-skills --skill task-agent
 
 ## Cross-Reference Notes
 
-This update sweep ran after the [July 14 morning sweep](/docs/hermes/skills/marketplace/new-july14-2026) (2 skills). Extended queries across 15 broader ecosystem terms surfaced 4 additional skills, primarily from repos adjacent to the standard hermes/openclaw/clawdbot query set.
+This update sweep ran after the [July 14 morning sweep](/hermes/skills/marketplace/new-july14-2026) (2 skills). Extended queries across 15 broader ecosystem terms surfaced 4 additional skills, primarily from repos adjacent to the standard hermes/openclaw/clawdbot query set.
 
 **Key repos discovered for future sweeps:**
 - **ar9av/obsidian-wiki** - 37+ skills in `.skills/` directory. Only 3 previously catalogued (hermes-history-ingest, openclaw-history-ingest, wiki-history-ingest). The remaining 34+ skills (wiki-dashboard, wiki-lint, wiki-query, cross-linker, etc.) should be evaluated in a dedicated sweep.
 - **davidondrej/skills** (2,510 ★) - 40 skills across 5 categories. Only 2 previously catalogued (distribute-skill-to-all-agents, browser-harness). 38 skills remain uncatalogued - many are agent infrastructure skills relevant to Hermes operations.
 - **nowledge-co/community** (131 ★) - Has dedicated `nowledge-mem-hermes` and `nowledge-mem-openclaw-plugin` directories. Memory plugin for Hermes agents.
 
-Previous sweep: [July 14, 2026](/docs/hermes/skills/marketplace/new-july14-2026)
+Previous sweep: [July 14, 2026](/hermes/skills/marketplace/new-july14-2026)
 
 ---
 
-*Part of the Hermes Skills Library - curated by CorpusIQ. [View all skills](/docs/hermes/skills/marketplace)*
+*Part of the Hermes Skills Library - curated by CorpusIQ. [View all skills](/hermes/skills/marketplace)*

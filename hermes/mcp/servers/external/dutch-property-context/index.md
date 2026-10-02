@@ -79,7 +79,7 @@ Dutch Property Context delivers the Dutch property-data layer, which CorpusIQ's 
 
 ## See Also
 
-- [Dutch Vehicle Context MCP - Netherlands Vehicle Reports by Plate](/docs/hermes/mcp/servers/external/dutch-vehicle-context)
-- [Austin MLS MCP - Live Austin Real Estate Listings for AI Assistants](/docs/hermes/mcp/servers/external/austin-mls-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Dutch Vehicle Context MCP - Netherlands Vehicle Reports by Plate](/hermes/mcp/servers/external/dutch-vehicle-context)
+- [Austin MLS MCP - Live Austin Real Estate Listings for AI Assistants](/hermes/mcp/servers/external/austin-mls-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

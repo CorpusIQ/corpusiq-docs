@@ -111,5 +111,5 @@ python3 scripts/watchdog.py --dry-run
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-june23-2026) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Discovery Page](/hermes/skills/marketplace/new-june23-2026) →*
 *Powered by CorpusIQ*

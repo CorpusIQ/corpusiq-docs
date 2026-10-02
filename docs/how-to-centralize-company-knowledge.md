@@ -180,13 +180,13 @@ A: Connect your first 3-5 sources (30 minutes). Start asking questions immediate
 
 ## Internal Links
 
-- [How to Build an AI Knowledge Base](/answers)
-- [How to Search Company Data with AI](/answers)
-- [How to Use AI with Business Data](/answers)
-- [How to Create an AI Data Layer](/answers)
+- [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
+- [How to Search Company Data with AI](https://www.corpusiq.io/answers)
+- [How to Use AI with Business Data](https://www.corpusiq.io/answers)
+- [How to Create an AI Data Layer](https://www.corpusiq.io/answers)
 - [Best AI Knowledge Platform  --  Rankings](/compare)
 - [Best Business AI Search Tool](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top Business AI Tools  --  Rankings](/compare)
 ---
 

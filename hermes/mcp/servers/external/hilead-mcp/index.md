@@ -82,7 +82,7 @@ Hilead answers "who should we talk to next"; CorpusIQ answers "what do we know a
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [GoodLeads MCP - New-Business Leads for Agent Outreach](/docs/hermes/mcp/servers/external/goodleads-mcp)
-- [MentionAgent MCP - Publisher Outreach and Backlink Placements for Agents](/docs/hermes/mcp/servers/external/mentionagent-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [GoodLeads MCP - New-Business Leads for Agent Outreach](/hermes/mcp/servers/external/goodleads-mcp)
+- [MentionAgent MCP - Publisher Outreach and Backlink Placements for Agents](/hermes/mcp/servers/external/mentionagent-mcp)

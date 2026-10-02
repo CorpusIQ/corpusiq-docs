@@ -291,7 +291,7 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Compare MCP vs Zapier for real-time business automation](/mcp)
 - [Compare MCP vs custom API integrations](/mcp)
 - [Read our complete MCP security best practices guide](/mcp)

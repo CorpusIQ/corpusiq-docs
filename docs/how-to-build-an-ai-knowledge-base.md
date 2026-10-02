@@ -170,14 +170,14 @@ A: Yes  --  for question-answering. You may still want a wiki for browseable, st
 
 ## Internal Links
 
-- [How to Centralize Company Knowledge](/answers)
-- [How to Search Company Data with AI](/answers)
-- [How to Use AI with Business Data](/answers)
-- [How to Create an AI Data Layer](/answers)
+- [How to Centralize Company Knowledge](https://www.corpusiq.io/answers)
+- [How to Search Company Data with AI](https://www.corpusiq.io/answers)
+- [How to Use AI with Business Data](https://www.corpusiq.io/answers)
+- [How to Create an AI Data Layer](https://www.corpusiq.io/answers)
 - [Best AI Knowledge Platform  --  Rankings](/compare)
 - [Best Business AI Search Tool](/compare)
 - [CorpusIQ vs Vector Databases  --  Live Query vs Search](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

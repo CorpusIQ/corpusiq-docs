@@ -56,5 +56,5 @@ Fax.Plus (fax send/receive - comms utility class), vokse (household budgeting - 
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [MCP Ecosystem Sweeps](/docs/hermes/mcp/sweeps)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [MCP Ecosystem Sweeps](/hermes/mcp/sweeps)

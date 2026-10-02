@@ -162,12 +162,12 @@ Ready to put AI to work on your corpusiq vs fivetran  --  mcp live query vs etl 
 
 ## Internal Links
 
-- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/compare/corpusiq-vs-zapier)
+- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](https://www.corpusiq.io/compare/corpusiq-vs-zapier)
 - [CorpusIQ vs Airbyte  --  MCP vs Open-Source Integration](/compare)
 - [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
 - [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
 - [Best AI Data Connector for Business](/connectors)
-- [Enterprise AI Data Access  --  Architecture Guide](/enterprise)
+- [Enterprise AI Data Access  --  Architecture Guide](https://www.corpusiq.io/enterprise)
 - [Top MCP Platforms Compared](/mcp)
 - [Secure AI Data Connectivity](/security)
 

@@ -102,7 +102,7 @@ OpenHire answers who is hiring for what; CorpusIQ answers the business questions
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Vocaneo MCP - French Jobs, Diplomas, and Training Data](/docs/hermes/mcp/servers/external/vocaneo-mcp)
-- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/docs/hermes/mcp/servers/external/worklittle-jobs)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Vocaneo MCP - French Jobs, Diplomas, and Training Data](/hermes/mcp/servers/external/vocaneo-mcp)
+- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/hermes/mcp/servers/external/worklittle-jobs)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

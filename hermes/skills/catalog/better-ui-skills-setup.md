@@ -74,10 +74,10 @@ npx skills list | grep -i better
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Emil Design Engineering](/docs/hermes/skills/catalog) - design engineering standards
-- [Animation Vocabulary](/docs/hermes/skills/catalog) - motion design companion
+- [Skills Catalog](/hermes/skills/catalog)
+- [Emil Design Engineering](/hermes/skills/catalog) - design engineering standards
+- [Animation Vocabulary](/hermes/skills/catalog) - motion design companion
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

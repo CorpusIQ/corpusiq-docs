@@ -76,6 +76,6 @@ For teams already using CorpusIQ's Postiz integration for automated posting, Soc
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [Competitor Tracker MCP](/docs/hermes/mcp/servers/external/competitor-tracker-mcp)
-- [Octolens MCP](/docs/hermes/mcp/servers/external/octolens)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [Competitor Tracker MCP](/hermes/mcp/servers/external/competitor-tracker-mcp)
+- [Octolens MCP](/hermes/mcp/servers/external/octolens)

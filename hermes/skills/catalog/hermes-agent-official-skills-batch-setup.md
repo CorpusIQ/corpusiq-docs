@@ -94,7 +94,7 @@ Eight additional nousresearch/hermes-agent listings surfaced in the Sep 29 sweep
 
 ## Related
 
-- [Native MCP - MCP Client Setup](/docs/hermes/skills/catalog/native-mcp-setup) - same official repo, MCP transport layer
-- [Writing Plans + Subagent-Driven Development Setup](/docs/hermes/skills/catalog/writing-plans-subagent-development-setup) - same official repo, planning pair
-- [Skills Marketplace - September 1, 2026 (PM) sweep](/docs/hermes/skills/marketplace/new-sep1-2026) - discovery page for this batch
-- [Skills Operations - Email, Cron, and Video Ops Category](/docs/hermes/skills/operations) - connector-side skills that pair with inbox triage
+- [Native MCP - MCP Client Setup](/hermes/skills/catalog/native-mcp-setup) - same official repo, MCP transport layer
+- [Writing Plans + Subagent-Driven Development Setup](/hermes/skills/catalog/writing-plans-subagent-development-setup) - same official repo, planning pair
+- [Skills Marketplace - September 1, 2026 (PM) sweep](/hermes/skills/marketplace/new-sep1-2026) - discovery page for this batch
+- [Skills Operations - Email, Cron, and Video Ops Category](/hermes/skills/operations) - connector-side skills that pair with inbox triage

@@ -160,10 +160,10 @@ hermes skills list | grep railway
 
 ## Related Skills
 
-- [Cloudflare Skills](/docs/hermes/skills/catalog/cloudflare-skills-setup) - edge deployment and Workers
-- [AWS Agent Toolkit](/docs/hermes/skills/catalog/aws-agent-toolkit-setup) - full cloud infrastructure
-- [HashiCorp Agent Skills](/docs/hermes/skills/catalog/hashicorp-agent-skills-setup) - infrastructure-as-code alternative
-- [Neon Agent Skills](/docs/hermes/skills/catalog/neon-agent-skills-setup) - serverless Postgres (often paired with Railway)
+- [Cloudflare Skills](/hermes/skills/catalog/cloudflare-skills-setup) - edge deployment and Workers
+- [AWS Agent Toolkit](/hermes/skills/catalog/aws-agent-toolkit-setup) - full cloud infrastructure
+- [HashiCorp Agent Skills](/hermes/skills/catalog/hashicorp-agent-skills-setup) - infrastructure-as-code alternative
+- [Neon Agent Skills](/hermes/skills/catalog/neon-agent-skills-setup) - serverless Postgres (often paired with Railway)
 
 ---
 

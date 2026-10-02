@@ -90,7 +90,7 @@ Layers composes with CorpusIQ as the channel layer on top of the business data C
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [YG3 MCP - Marketing Operations for Autonomous Agents](/docs/hermes/mcp/servers/external/yg3-mcp)
-- [AdTest.AI MCP - Pre-Spend Ad Creative Scoring](/docs/hermes/mcp/servers/external/adtest-mcp)
-- [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/docs/hermes/mcp/servers/external/social-glass-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [YG3 MCP - Marketing Operations for Autonomous Agents](/hermes/mcp/servers/external/yg3-mcp)
+- [AdTest.AI MCP - Pre-Spend Ad Creative Scoring](/hermes/mcp/servers/external/adtest-mcp)
+- [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/hermes/mcp/servers/external/social-glass-mcp)

@@ -68,5 +68,5 @@ npx skills add vinvcn/mattpocock-skills-zh-cn --skill translate-skill
 
 ## Related
 
-- [Matt Pocock Skills Setup](/docs/hermes/skills/catalog/mattpocock-skills-setup)
-- [Matt Pocock Engineering Setup](/docs/hermes/skills/catalog/matt-pocock-engineering-setup)
+- [Matt Pocock Skills Setup](/hermes/skills/catalog/mattpocock-skills-setup)
+- [Matt Pocock Engineering Setup](/hermes/skills/catalog/matt-pocock-engineering-setup)

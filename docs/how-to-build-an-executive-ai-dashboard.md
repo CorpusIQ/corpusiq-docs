@@ -193,12 +193,12 @@ A: Copy the AI's structured response into your presentation tool. Direct export 
 
 ## Internal Links
 
-- [How to Query Business Data in Natural Language](/answers)
-- [How to Analyze Company Data with ChatGPT](/answers)
-- [How to Connect Multiple Data Sources to AI](/answers)
+- [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
+- [How to Analyze Company Data with ChatGPT](https://www.corpusiq.io/answers)
+- [How to Connect Multiple Data Sources to AI](https://www.corpusiq.io/answers)
 - [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/compare)
 - [Best Business AI Search Tool](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top Business AI Tools  --  Rankings](/compare)
 - [Best ChatGPT Integration Platform](/compare)
 ---

@@ -60,9 +60,9 @@ A sixth indexed listing (~2,324 installs) has no published name in the Sep 29 sw
 
 ## Related
 
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

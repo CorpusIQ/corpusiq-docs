@@ -13,6 +13,6 @@ CorpusIQ does not currently publish a customer-facing webhook event contract. Th
 
 This page will document webhook registration, authentication, event schemas, retry behavior, and verification examples only after those production routes have been implemented and exercised end to end.
 
-For currently supported integrations, use the [API endpoints reference](/docs/api/endpoints) and [authentication guide](/docs/api/authentication).
+For currently supported integrations, use the [API endpoints reference](/api/endpoints) and [authentication guide](/api/authentication).
 
 Questions about a planned event-driven integration can be sent to support@corpusiq.io.

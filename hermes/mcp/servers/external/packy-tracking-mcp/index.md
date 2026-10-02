@@ -117,6 +117,6 @@ Packy tracks the physical shipment; CorpusIQ tracks the money and the customer. 
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Ship24 Tracking MCP - Package Tracking Across 2,500+ Carriers](/docs/hermes/mcp/servers/external/ship24-tracking)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Ship24 Tracking MCP - Package Tracking Across 2,500+ Carriers](/hermes/mcp/servers/external/ship24-tracking)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

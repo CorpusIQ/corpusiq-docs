@@ -41,5 +41,5 @@ Not live-probed (self-hosted package, no public endpoint). The README on repo AK
 
 ## See Also
 
-- [YoTrends MCP - Live YouTube and TikTok Trends as Content Packs](/docs/hermes/mcp/servers/external/yotrends-mcp)
-- [Encited MCP - SEO and AI Visibility for Agents](/docs/hermes/mcp/servers/external/encited-mcp)
+- [YoTrends MCP - Live YouTube and TikTok Trends as Content Packs](/hermes/mcp/servers/external/yotrends-mcp)
+- [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp)

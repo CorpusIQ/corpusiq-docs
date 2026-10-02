@@ -15,7 +15,7 @@ Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2  --  no du
 
 ## Overview
 
-WSL2 provides a real Linux kernel inside Windows, enabling Hermes Agent to run exactly as it would on a native Linux machine. GPU passthrough means your NVIDIA card accelerates Ollama models at full CUDA speed. The setup is free if you already own a Windows PC, making it the easiest entry point for Windows users who want the full [Hermes Agent setup](/docs/hermes/setup) experience.
+WSL2 provides a real Linux kernel inside Windows, enabling Hermes Agent to run exactly as it would on a native Linux machine. GPU passthrough means your NVIDIA card accelerates Ollama models at full CUDA speed. The setup is free if you already own a Windows PC, making it the easiest entry point for Windows users who want the full [Hermes Agent setup](/hermes/setup) experience.
 
 ## How It Works
 
@@ -103,7 +103,7 @@ ollama run llama3.2 --verbose | grep -i cuda  # Verify GPU
 | `/home/` (Linux ext4) | Fast | Hermes config, skills, crons |
 | `/mnt/c/` (Windows NTFS) | Slower | Shared files, backups |
 
-**Rule:** Keep active Hermes data in `/home/` for performance. For [model selection](/docs/hermes/best-practices/model-selection) and memory, WSL2's ext4 filesystem is significantly faster than NTFS.
+**Rule:** Keep active Hermes data in `/home/` for performance. For [model selection](/hermes/best-practices/model-selection) and memory, WSL2's ext4 filesystem is significantly faster than NTFS.
 
 ### Step 8: Systemd Service
 
@@ -169,11 +169,11 @@ Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/docs/hermes/setup)  --  All platform options
+- [Hermes Agent Setup Overview](/hermes/setup)  --  All platform options
 - [Gaming PC Setup](gaming-pc)  --  Native Linux for max GPU performance
 - [Docker Setup](docker)  --  Alternative Windows deployment
-- [Model Selection Guide](/docs/hermes/best-practices/model-selection)  --  GPU model sizing
-- [Troubleshooting Guide](/docs/hermes/troubleshooting)  --  WSL2-specific issues
+- [Model Selection Guide](/hermes/best-practices/model-selection)  --  GPU model sizing
+- [Troubleshooting Guide](/hermes/troubleshooting)  --  WSL2-specific issues
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

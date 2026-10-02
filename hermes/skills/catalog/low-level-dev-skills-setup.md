@@ -91,10 +91,10 @@ npx skills add mohitmishra786/low-level-dev-skills --list    # 142 skills discov
 
 ## Related
 
-- [Dart Language Skills Setup](/docs/hermes/skills/catalog/dart-lang-skills-setup)
-- [Skills Catalog](/docs/hermes/skills/catalog) - full quality-tiered directory
+- [Dart Language Skills Setup](/hermes/skills/catalog/dart-lang-skills-setup)
+- [Skills Catalog](/hermes/skills/catalog) - full quality-tiered directory
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

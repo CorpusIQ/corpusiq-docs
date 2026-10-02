@@ -15,7 +15,7 @@ Memory is what separates a stateless tool from a persistent AI assistant in Herm
 
 ## Overview
 
-Hermes Agent provides a [triple-stack memory architecture](/docs/hermes/knowledge): **Honcho** for peer identity and preferences, **GBrain** for organizational knowledge indexing, and **memcore-cloud** for cross-session conversation recall. Each solves a different problem, and production deployments run all three.
+Hermes Agent provides a [triple-stack memory architecture](/hermes/knowledge): **Honcho** for peer identity and preferences, **GBrain** for organizational knowledge indexing, and **memcore-cloud** for cross-session conversation recall. Each solves a different problem, and production deployments run all three.
 
 ## How It Works
 
@@ -23,11 +23,11 @@ Hermes Agent provides a [triple-stack memory architecture](/docs/hermes/knowledg
 
 | Tier | System | Use Case | Persistence |
 |---|---|---|---|
-| **Peer Memory** | [Honcho](/docs/hermes/knowledge) | User identity, preferences, bans, decisions | Cross-session |
-| **Organizational** | [GBrain](/docs/hermes/knowledge) | File/code indexing, project relationships | Cross-session |
-| **Cross-Session** | [memcore-cloud](/docs/hermes/knowledge) | Full conversation recall with source tracking | Cross-session |
+| **Peer Memory** | [Honcho](/hermes/knowledge) | User identity, preferences, bans, decisions | Cross-session |
+| **Organizational** | [GBrain](/hermes/knowledge) | File/code indexing, project relationships | Cross-session |
+| **Cross-Session** | [memcore-cloud](/hermes/knowledge) | Full conversation recall with source tracking | Cross-session |
 | **Conversation** | In-session context | Task continuity within current chat | Ephemeral |
-| **Procedural** | [Skills](/docs/hermes/skills/creating-skills) | Reusable workflows, tool chains | Versioned |
+| **Procedural** | [Skills](/hermes/skills/creating-skills) | Reusable workflows, tool chains | Versioned |
 
 ## When to Add Memory
 
@@ -36,7 +36,7 @@ Ask these questions before storing:
 - **Does this fact change rarely?** Stable preferences → memory. Current task focus → conversation context.
 - **Is it referenced across sessions?** Multi-session project → memory. One-off question → don't store.
 - **Does it save meaningful context tokens?** If storing saves re-explaining each session, it's worth it.
-- **Is it factual or procedural?** Facts → memories. Workflows → [skills](/docs/hermes/skills/creating-skills). Config → [env vars](/docs/hermes/best-practices/security).
+- **Is it factual or procedural?** Facts → memories. Workflows → [skills](/hermes/skills/creating-skills). Config → [env vars](/hermes/best-practices/security).
 
 ## Compaction Strategies
 
@@ -54,7 +54,7 @@ When context windows fill up:
 | Memory as dumping ground | 500 stale entries = noise | Prune periodically |
 | Contradictory memories | Confusion across sessions | Audit for conflicts |
 | No expiration | "Working on Q2 report" stale in Q3 | Add implicit/project expiry |
-| Memory replacing config | API keys in memory = breach | Use [secrets manager](/docs/hermes/best-practices/security) |
+| Memory replacing config | API keys in memory = breach | Use [secrets manager](/hermes/best-practices/security) |
 
 ## Benefits
 
@@ -72,12 +72,12 @@ Honcho stores peer identity  --  who the user is, preferences, decisions, bans. 
 Prune memories periodically (monthly review), add expiration to project-specific memories, audit for contradictions, and use the dream cycle (nightly consolidation) to merge duplicates and strengthen frequently accessed paths.
 
 ### Can I use just one memory system?
-You can, but you'll have gaps. [Honcho only](/docs/hermes/knowledge) handles peer modeling but not file indexing. [GBrain only](/docs/hermes/knowledge) handles code/docs but not "who is the user?". Run the full triple stack for complete agent memory.
+You can, but you'll have gaps. [Honcho only](/hermes/knowledge) handles peer modeling but not file indexing. [GBrain only](/hermes/knowledge) handles code/docs but not "who is the user?". Run the full triple stack for complete agent memory.
 
 ## Related Pages
 
-- [Memory Architecture Guide](/docs/hermes/knowledge)  --  Full triple-stack documentation
-- [Best Practices Overview](/docs/hermes/best-practices)  --  All guides
+- [Memory Architecture Guide](/hermes/knowledge)  --  Full triple-stack documentation
+- [Best Practices Overview](/hermes/best-practices)  --  All guides
 - [Security](security)  --  Don't store credentials in memory
 - [Skill Development](skill-development)  --  Procedural knowledge vs memory
 ---

@@ -190,5 +190,5 @@ These skills are rated **Community Tier 🔵** pending further validation:
 
 - [Remotion Documentation](https://remotion.dev)
 - [Twitter API v2 Documentation](https://developer.twitter.com/en/docs/twitter-api)
-- [Hermes Browser Automation Guide](/docs/hermes/skills/development)
-- [AI Video Generation Strategy](/docs/hermes/skills/marketing)
+- [Hermes Browser Automation Guide](/hermes/skills/development)
+- [AI Video Generation Strategy](/hermes/skills/marketing)

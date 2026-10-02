@@ -19,9 +19,9 @@ Evening sweep of August 19. Fourteen skills.sh API queries (hermes core, broad, 
 
 | Cluster | Skills | GitHub | Tier | Guide |
 |---|---|---|---|---|
-| asimons81/hermes-field-kit | 16 (13 stable + 3 experimental) | 122⭐ | 🟡 | [Hermes Field Kit Setup](/docs/hermes/skills/catalog/hermes-field-kit-setup) |
-| atlasomnia/hermes-custom-pack | 60+ | 48⭐ | 🟡 | [AtlasOmnia Hermes Custom Pack Setup](/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup) |
-| tonbistudio/buzz-skills | 3 | 250⭐ | 🟡 | [Buzz Skills Setup](/docs/hermes/skills/catalog/buzz-skills-setup) |
+| asimons81/hermes-field-kit | 16 (13 stable + 3 experimental) | 122⭐ | 🟡 | [Hermes Field Kit Setup](/hermes/skills/catalog/hermes-field-kit-setup) |
+| atlasomnia/hermes-custom-pack | 60+ | 48⭐ | 🟡 | [AtlasOmnia Hermes Custom Pack Setup](/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup) |
+| tonbistudio/buzz-skills | 3 | 250⭐ | 🟡 | [Buzz Skills Setup](/hermes/skills/catalog/buzz-skills-setup) |
 
 ## Method Notes
 

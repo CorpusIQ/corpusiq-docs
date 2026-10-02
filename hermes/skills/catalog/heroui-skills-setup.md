@@ -59,10 +59,10 @@ npx skills add heroui-inc/heroui
 
 ## Related
 
-- [Vercel Agent Skills](/docs/hermes/skills/catalog/vercel-agent-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Vercel Agent Skills](/hermes/skills/catalog/vercel-agent-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

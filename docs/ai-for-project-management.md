@@ -125,9 +125,9 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 - [Connect Slack to Claude](/connect/slack-with-claude)
 - [Connect Notion to Claude](/connectors)
 - [Connect SharePoint to Claude](/connectors)
-- [AI for Executive Reporting](/private-ai-for-business)
-- [AI for KPI Monitoring](/private-ai-for-business)
-- [What is MCP?](/answers/what-is-an-mcp-server)
+- [AI for Executive Reporting](https://www.corpusiq.io/private-ai-for-business)
+- [AI for KPI Monitoring](https://www.corpusiq.io/private-ai-for-business)
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 

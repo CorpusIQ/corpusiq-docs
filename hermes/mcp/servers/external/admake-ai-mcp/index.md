@@ -95,7 +95,7 @@ Note: Meta ad spend is separate and managed through your Meta Ads account.
 
 ## See Also
 
-- [Meta Ads MCP (Pipeboard)](/docs/hermes/mcp/servers/external/meta-ads-mcp) - campaign management, ad set optimization, performance reporting
-- [OpusGrowth MCP](/docs/hermes/mcp/servers/external/opusgrowth-mcp) - cross-platform ad management (Google, Microsoft, TikTok, LinkedIn)
+- [Meta Ads MCP (Pipeboard)](/hermes/mcp/servers/external/meta-ads-mcp) - campaign management, ad set optimization, performance reporting
+- [OpusGrowth MCP](/hermes/mcp/servers/external/opusgrowth-mcp) - cross-platform ad management (Google, Microsoft, TikTok, LinkedIn)
 - [AdMake AI Homepage](https://admakeai.com)
 - [AdMake AI MCP Docs](https://admakeai.com/api/mcp)

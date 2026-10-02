@@ -54,5 +54,5 @@ WhatsMCP (WhatsApp for AI agents - endpoint 401-verified but no published tool l
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [MCP Ecosystem Sweeps](/docs/hermes/mcp/sweeps)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [MCP Ecosystem Sweeps](/hermes/mcp/sweeps)

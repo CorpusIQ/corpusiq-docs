@@ -83,7 +83,7 @@ dbridge MCP adds governed database access to CorpusIQ's analytics stack, complem
 
 ## See Also
 
-- [SIXTA Connect - SQL Review & Optimization](/docs/hermes/mcp/servers/external)
-- [Query Streams MCP - Secure Database Access](/docs/hermes/mcp/servers/external)
-- [PipeTable - DuckDB for Local Data](/docs/hermes/mcp/servers/external)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [SIXTA Connect - SQL Review & Optimization](/hermes/mcp/servers/external)
+- [Query Streams MCP - Secure Database Access](/hermes/mcp/servers/external)
+- [PipeTable - DuckDB for Local Data](/hermes/mcp/servers/external)
+- [MCP Servers Index](/hermes/mcp/servers/external)

@@ -129,7 +129,7 @@ npx skills add mattpocock/skills --skill writing-beats
 npx skills add pbakaus/impeccable --skill teach-impeccable
 npx skills add pbakaus/impeccable --skill arrange
 
-**→ Full setup guide:** [Impeccable Writing Framework](/docs/hermes/skills/catalog/impeccable-setup)
+**→ Full setup guide:** [Impeccable Writing Framework](/hermes/skills/catalog/impeccable-setup)
 
 # === CLI-Anything Harnesses (9 skills) ===
 npx skills add hkuds/cli-anything --skill cli-hub-meta-skill
@@ -145,7 +145,7 @@ npx skills add hkuds/cli-anything --skill cli-anything-comfyui
 # === OpenClaw Ecosystem (17 skills) ===
 npx skills add xixu-me/skills --skill openclaw-secure-linux-cloud
 
-**→ Full setup guide:** [OpenClaw Secure Linux Cloud](/docs/hermes/skills/catalog/openclaw-secure-linux-cloud-setup)
+**→ Full setup guide:** [OpenClaw Secure Linux Cloud](/hermes/skills/catalog/openclaw-secure-linux-cloud-setup)
 npx skills add zhjiang22/openclaw-xhs --skill xiaohongshu
 npx skills add molezzz/openclaw-stock-skill --skill akshare-stock
 npx skills add sundial-org/awesome-openclaw-skills --skill stock-market-pro
@@ -181,4 +181,4 @@ npx skills add letta-ai/letta-code --skill acquiring-skills
 
 ---
 
-*← [June 25 Update](/docs/hermes/skills/marketplace/new-june25-2026-update) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [June 25 Update](/hermes/skills/marketplace/new-june25-2026-update) | [Marketplace Home](/hermes/skills/marketplace) →*

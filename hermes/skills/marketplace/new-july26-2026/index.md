@@ -28,32 +28,32 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Cloudflare Skills** | cloudflare/skills | 100K+ | 2,481⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/cloudflare-skills-setup) |
+| **Cloudflare Skills** | cloudflare/skills | 100K+ | 2,481⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/cloudflare-skills-setup) |
 
 ### Cloud Infrastructure
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **AWS Agent Toolkit** | aws/agent-toolkit-for-aws | 4.3K+ | 2,119⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/aws-agent-toolkit-setup) |
-| **Google Skills** | google/skills | 30K+ | 15,250⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/google-skills-setup) |
+| **AWS Agent Toolkit** | aws/agent-toolkit-for-aws | 4.3K+ | 2,119⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/aws-agent-toolkit-setup) |
+| **Google Skills** | google/skills | 30K+ | 15,250⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/google-skills-setup) |
 
 ### Infrastructure / DevOps
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **HashiCorp Agent Skills** | hashicorp/agent-skills | 3.2K+ | 759⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/hashicorp-agent-skills-setup) |
+| **HashiCorp Agent Skills** | hashicorp/agent-skills | 3.2K+ | 759⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/hashicorp-agent-skills-setup) |
 
 ### Database / Data Infrastructure
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **MongoDB Agent Skills** | mongodb/agent-skills | 3.5K+ | 163⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/mongodb-agent-skills-setup) |
+| **MongoDB Agent Skills** | mongodb/agent-skills | 3.5K+ | 163⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/mongodb-agent-skills-setup) |
 
 ### Data & AI Platform
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Databricks Agent Skills** | databricks/databricks-agent-skills | 798+ | 225⭐ | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/databricks-agent-skills-setup) |
+| **Databricks Agent Skills** | databricks/databricks-agent-skills | 798+ | 225⭐ | 🟡 | [Setup Guide](/hermes/skills/catalog/databricks-agent-skills-setup) |
 
 ## 🔑 Standout Finds
 

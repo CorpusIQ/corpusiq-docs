@@ -117,5 +117,5 @@ workload you actually run before committing to additional hardware.
 
 ## Related
 
-- [DGX Spark compute pattern](/docs/hermes/infrastructure/dgx/)
-- [Model routing](/docs/hermes/infrastructure/routing/)
+- [DGX Spark compute pattern](/hermes/infrastructure/dgx/)
+- [Model routing](/hermes/infrastructure/routing/)

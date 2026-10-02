@@ -40,7 +40,7 @@ bash SKILL_DIR/scripts/templates.sh --list
 bash SKILL_DIR/scripts/render.sh --template title-card --text "Hello World" --output /tmp/test.mp4
 ```
 
-**→ Full setup guide:** [HyperFrames Setup Guide](/docs/hermes/skills/catalog/hyperframes-setup)
+**→ Full setup guide:** [HyperFrames Setup Guide](/hermes/skills/catalog/hyperframes-setup)
 
 ---
 
@@ -86,11 +86,11 @@ The hyperframes skill fills a critical gap in the CorpusIQ video automation pipe
 
 ## Catalog Updates
 
-- **New setup guide:** [HyperFrames Setup Guide](/docs/hermes/skills/catalog/hyperframes-setup)  --  full installation, capabilities, CLI reference, and CorpusIQ use cases
+- **New setup guide:** [HyperFrames Setup Guide](/hermes/skills/catalog/hyperframes-setup)  --  full installation, capabilities, CLI reference, and CorpusIQ use cases
 - **Marketplace index:** Updated with this page
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [June 18 Ecosystem Tools](/docs/hermes/skills/marketplace/new-june18-2026-ecosystem) →*
-*↑ [Skills Catalog Home](/docs/hermes/skills/catalog)*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [June 18 Ecosystem Tools](/hermes/skills/marketplace/new-june18-2026-ecosystem) →*
+*↑ [Skills Catalog Home](/hermes/skills/catalog)*
 *Powered by CorpusIQ*

@@ -86,11 +86,11 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 
 ## Internal Links
 
-- **[Perplexity Integration](/docs/perplexity-integration)** - connect Perplexity to your business data
-- **[AI Agent Users Guide](/docs/ai-agent-users)** - MCP direct connection for agents
-- **[Supported Agents](/docs/supported-agents)** - MCP config for Claude, Cursor, Hermes, Windsurf
-- **[CorpusIQ Quick Start](/docs/quick-start)** - get running in under 5 minutes
+- **[Perplexity Integration](/perplexity-integration)** - connect Perplexity to your business data
+- **[AI Agent Users Guide](/ai-agent-users)** - MCP direct connection for agents
+- **[Supported Agents](/supported-agents)** - MCP config for Claude, Cursor, Hermes, Windsurf
+- **[CorpusIQ Quick Start](/quick-start)** - get running in under 5 minutes
 - **[CorpusIQ Connectors Directory](/connectors)** - all 40+ data source integrations
-- **[MCP Connection Errors](/docs/troubleshooting/mcp-connection-errors)** - fix common connection failures
+- **[MCP Connection Errors](/troubleshooting/mcp-connection-errors)** - fix common connection failures
 
 *Powered by CorpusIQ - one MCP endpoint for all your business tools.*

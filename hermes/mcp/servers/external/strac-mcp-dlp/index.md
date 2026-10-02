@@ -68,7 +68,7 @@ CorpusIQ agents read sensitive business data (invoices, transactions, payroll) a
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Fallax MCP - Phishing Simulation Results for Audit Evidence](/docs/hermes/mcp/servers/external/fallax-mcp)
-- [mcp-sanctions - Watchlist Screening for KYC and AML](/docs/hermes/mcp/servers/external/mcp-sanctions)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Fallax MCP - Phishing Simulation Results for Audit Evidence](/hermes/mcp/servers/external/fallax-mcp)
+- [mcp-sanctions - Watchlist Screening for KYC and AML](/hermes/mcp/servers/external/mcp-sanctions)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

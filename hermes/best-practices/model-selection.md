@@ -15,7 +15,7 @@ Choosing the right model for each task is one of the highest-leverage decisions 
 
 ## Overview
 
-Hermes Agent supports 200+ models across Ollama (local), OpenRouter, and direct provider APIs. Following [best practices](/docs/hermes/best-practices) for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.
+Hermes Agent supports 200+ models across Ollama (local), OpenRouter, and direct provider APIs. Following [best practices](/hermes/best-practices) for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.
 
 ## How It Works
 
@@ -48,11 +48,11 @@ Ask three questions before every model selection:
 
 ## Local vs Cloud: The Real Tradeoffs
 
-**Local models (Ollama) win when:** data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See [gaming PC setup](/docs/hermes/setup/gaming-pc) or [Mac Mini setup](/docs/hermes/setup/mac-mini-standalone).
+**Local models (Ollama) win when:** data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See [gaming PC setup](/hermes/setup/gaming-pc) or [Mac Mini setup](/hermes/setup/mac-mini-standalone).
 
-**Cloud models (OpenRouter/Anthropic/OpenAI) win when:** you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See [cloud VPS setup](/docs/hermes/setup/cloud-vps).
+**Cloud models (OpenRouter/Anthropic/OpenAI) win when:** you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See [cloud VPS setup](/hermes/setup/cloud-vps).
 
-**Hybrid for most teams:** Classify/extract with local models (free, private); reason/generate with cloud models. Configure Hermes Agent with [Ollama as primary and OpenRouter as fallback](/docs/hermes/setup).
+**Hybrid for most teams:** Classify/extract with local models (free, private); reason/generate with cloud models. Configure Hermes Agent with [Ollama as primary and OpenRouter as fallback](/hermes/setup).
 
 ## The Fallback Chain Pattern
 
@@ -85,7 +85,7 @@ Data sensitive/regulated? → Local or approved cloud with BAA
 ## FAQ
 
 ### When should I use a local model vs a cloud model?
-Use local models (Ollama) for classification, extraction, and data-sensitive tasks  --  they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a [hybrid approach](/docs/hermes/setup).
+Use local models (Ollama) for classification, extraction, and data-sensitive tasks  --  they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a [hybrid approach](/hermes/setup).
 
 ### How do I reduce my API costs with Hermes Agent?
 Implement caching for repeated queries, use prompt compression before expensive calls, batch non-urgent tasks, and create fallback chains that try cheaper models first. Track cost per successful task, not per token.
@@ -95,8 +95,8 @@ Frontier models like Claude Sonnet 4, GPT-4o, and DeepSeek V3 excel at code gene
 
 ## Related Pages
 
-- [Best Practices Overview](/docs/hermes/best-practices)  --  All guides
-- [Setup Guides](/docs/hermes/setup)  --  Platform-specific model configuration
+- [Best Practices Overview](/hermes/best-practices)  --  All guides
+- [Setup Guides](/hermes/setup)  --  Platform-specific model configuration
 - [Memory Management](memory-management)  --  Context optimization for models
 - [MCP Server Design](mcp-design)  --  Design tools for model efficiency
 

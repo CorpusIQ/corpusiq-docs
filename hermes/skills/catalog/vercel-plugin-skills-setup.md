@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "vercel", "nextjs", "ai sdk
 **Category:** Platform / Deployment
 **Quality Tier:** 🟡 Trusted (official Vercel org, active same-day cadence; license is NOASSERTION - no recognized SPDX file)
 
-Vercel's comprehensive ecosystem plugin packs a relational knowledge graph plus skills for every major Vercel product, specialized agents, and Vercel conventions. Unlike the narrower [vercel-labs/agent-skills](/docs/hermes/skills/catalog/vercel-agent-skills-setup) collection, this repo is the broad "one plugin to teach an agent the whole platform" package: AI Gateway, AI SDK, backend architecture, deployment protection, flags, queues, and a set of Vercel's own engineering-hygiene skills.
+Vercel's comprehensive ecosystem plugin packs a relational knowledge graph plus skills for every major Vercel product, specialized agents, and Vercel conventions. Unlike the narrower [vercel-labs/agent-skills](/hermes/skills/catalog/vercel-agent-skills-setup) collection, this repo is the broad "one plugin to teach an agent the whole platform" package: AI Gateway, AI SDK, backend architecture, deployment protection, flags, queues, and a set of Vercel's own engineering-hygiene skills.
 
 ---
 
@@ -56,7 +56,7 @@ npx skills add vercel/vercel-plugin
 
 - skills.sh indexing verified Oct 1, 2026: 11 skills indexed; 6 SKILL.md files verified via raw.githubusercontent on branch `main` (50 SKILL.md files total in-repo: 43 under `skills/`, 7 internal under `.claude/skills/`).
 - License is `NOASSERTION` - the repo has a LICENSE file but GitHub does not recognize its SPDX identifier. Review the license text before commercial redistribution.
-- Distinct from the three already-documented Vercel guides ([vercel-labs/agent-skills](/docs/hermes/skills/catalog/vercel-agent-skills-setup), [vercel/ai](/docs/hermes/skills/catalog/vercel-ai-skills-setup), [vercel/eve](/docs/hermes/skills/catalog/vercel-eve-agent-skills-setup)) - this is the broad platform-ecosystem plugin repo.
+- Distinct from the three already-documented Vercel guides ([vercel-labs/agent-skills](/hermes/skills/catalog/vercel-agent-skills-setup), [vercel/ai](/hermes/skills/catalog/vercel-ai-skills-setup), [vercel/eve](/hermes/skills/catalog/vercel-eve-agent-skills-setup)) - this is the broad platform-ecosystem plugin repo.
 - No live install test performed; install counts and the 295-star count are from the Oct 1, 2026 sweep snapshot.
 
 ## Security
@@ -69,12 +69,12 @@ npx skills add vercel/vercel-plugin
 
 ## Related
 
-- [Vercel Agent Skills](/docs/hermes/skills/catalog/vercel-agent-skills-setup)
-- [Vercel AI SDK Skills](/docs/hermes/skills/catalog/vercel-ai-skills-setup)
-- [Vercel Eve Agent Skills](/docs/hermes/skills/catalog/vercel-eve-agent-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Vercel Agent Skills](/hermes/skills/catalog/vercel-agent-skills-setup)
+- [Vercel AI SDK Skills](/hermes/skills/catalog/vercel-ai-skills-setup)
+- [Vercel Eve Agent Skills](/hermes/skills/catalog/vercel-eve-agent-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

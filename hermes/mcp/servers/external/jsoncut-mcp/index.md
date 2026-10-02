@@ -90,7 +90,7 @@ JsonCut complements the CorpusIQ analytics and commerce connectors: GA4 and Shop
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Shotstack MCP - Video Editing API for AI Agents](/docs/hermes/mcp/servers/external/shotstack-mcp)
-- [Treza MCP - AI Video Pipelines to Social Channels](/docs/hermes/mcp/servers/external/treza-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Shotstack MCP - Video Editing API for AI Agents](/hermes/mcp/servers/external/shotstack-mcp)
+- [Treza MCP - AI Video Pipelines to Social Channels](/hermes/mcp/servers/external/treza-mcp)

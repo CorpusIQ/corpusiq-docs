@@ -251,7 +251,7 @@ npx skills add leonxlnx/taste-skill@design-taste-frontend-v1
 
 ## See Also
 
-- [skill-creator](/docs/hermes/skills/catalog/skill-creator-setup) - Anthropic's skill creation framework (317K installs)
-- [remotion-best-practices](/docs/hermes/skills/catalog/remotion-best-practices-setup) - Programmatic video with React (430K installs)
-- [apify-agent-skills](/docs/hermes/skills/catalog/apify-agent-skills-setup) - Web scraping for competitive research
-- [firecrawl-workflows](/docs/hermes/skills/catalog/firecrawl-workflows-setup) - Market research automation
+- [skill-creator](/hermes/skills/catalog/skill-creator-setup) - Anthropic's skill creation framework (317K installs)
+- [remotion-best-practices](/hermes/skills/catalog/remotion-best-practices-setup) - Programmatic video with React (430K installs)
+- [apify-agent-skills](/hermes/skills/catalog/apify-agent-skills-setup) - Web scraping for competitive research
+- [firecrawl-workflows](/hermes/skills/catalog/firecrawl-workflows-setup) - Market research automation

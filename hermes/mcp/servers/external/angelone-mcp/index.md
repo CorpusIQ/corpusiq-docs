@@ -92,7 +92,7 @@ AngelOne MCP extends the catalog's regional finance coverage: where CorpusIQ con
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Hermes Plant MCP Server - Deterministic Finance and Quant APIs](/docs/hermes/mcp/servers/external/hermesplant-mcp-server)
-- [Equibles MCP - SEC Filings and Market Data for AI Agents](/docs/hermes/mcp/servers/external/equibles-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Hermes Plant MCP Server - Deterministic Finance and Quant APIs](/hermes/mcp/servers/external/hermesplant-mcp-server)
+- [Equibles MCP - SEC Filings and Market Data for AI Agents](/hermes/mcp/servers/external/equibles-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

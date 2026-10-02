@@ -15,7 +15,7 @@ Skills are Hermes Agent's superpower  --  they encode repeatable expertise into 
 
 ## Overview
 
-Custom skills capture repeatable workflows  --  tool calls, validations, and output formatting  --  into a package you, your team, or the community can reuse. Following [best practices](/docs/hermes/best-practices) for skill development ensures your skills are testable, maintainable, and production-ready.
+Custom skills capture repeatable workflows  --  tool calls, validations, and output formatting  --  into a package you, your team, or the community can reuse. Following [best practices](/hermes/best-practices) for skill development ensures your skills are testable, maintainable, and production-ready.
 
 ## How It Works
 
@@ -94,9 +94,9 @@ Good triggers are specific enough to avoid false positives but broad enough to c
 
 ## Related Pages
 
-- [Best Practices Overview](/docs/hermes/best-practices)  --  All guides
-- [Creating Custom Skills](/docs/hermes/skills/creating-skills)  --  Full walkthrough with example
-- [Skill Marketplaces](/docs/hermes/skills/skill-marketplaces)  --  Where to publish
+- [Best Practices Overview](/hermes/best-practices)  --  All guides
+- [Creating Custom Skills](/hermes/skills/creating-skills)  --  Full walkthrough with example
+- [Skill Marketplaces](/hermes/skills/skill-marketplaces)  --  Where to publish
 - [MCP Server Design](mcp-design)  --  Build tools your skills call
 ---
 

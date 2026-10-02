@@ -162,14 +162,14 @@ A: Minimal. The main skill is learning to be specific in your questions. Most us
 
 ## Internal Links
 
-- [How to Analyze Company Data with ChatGPT](/answers)
-- [How to Use AI with Business Data](/answers)
-- [How to Build an Executive AI Dashboard](/answers)
+- [How to Analyze Company Data with ChatGPT](https://www.corpusiq.io/answers)
+- [How to Use AI with Business Data](https://www.corpusiq.io/answers)
+- [How to Build an Executive AI Dashboard](https://www.corpusiq.io/answers)
 - [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/compare)
-- [How to Search Company Data with AI](/answers)
+- [How to Search Company Data with AI](https://www.corpusiq.io/answers)
 - [Best Business AI Search Tool](/compare)
 - [Best ChatGPT Integration Platform](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

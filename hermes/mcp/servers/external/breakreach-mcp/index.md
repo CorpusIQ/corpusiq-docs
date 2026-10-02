@@ -74,6 +74,6 @@ CorpusIQ answers questions about business data - what campaigns earned, which ch
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [Antwork MCP](/docs/hermes/mcp/servers/external/antwork-mcp) - hosted social publishing with learned brand voice
-- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Antwork MCP](/hermes/mcp/servers/external/antwork-mcp) - hosted social publishing with learned brand voice
+- [MCP Integration Guide](/hermes/mcp) - connecting MCP servers to Hermes Agent

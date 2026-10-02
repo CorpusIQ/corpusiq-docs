@@ -80,11 +80,11 @@ npm install -g @fission-ai/openspec
 
 ## Related
 
-- [Riekelt Principal Engineer Setup](/docs/hermes/skills/catalog/riekelt-principal-engineer-setup)
-- [Task Observer Setup](/docs/hermes/skills/catalog/task-observer-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Riekelt Principal Engineer Setup](/hermes/skills/catalog/riekelt-principal-engineer-setup)
+- [Task Observer Setup](/hermes/skills/catalog/task-observer-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

@@ -86,5 +86,5 @@ After running:
 
 ## Related Skills
 
-- [Agent Memory Setup](/docs/hermes/skills/catalog/agentmemory-setup)
-- [Memory Merger (GitHub Copilot)](/docs/hermes/skills/catalog/awesome-copilot-setup)
+- [Agent Memory Setup](/hermes/skills/catalog/agentmemory-setup)
+- [Memory Merger (GitHub Copilot)](/hermes/skills/catalog/awesome-copilot-setup)

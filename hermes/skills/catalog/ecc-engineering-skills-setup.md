@@ -79,10 +79,10 @@ npx skills list | grep -c ecc
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Firecrawl Skills Setup](/docs/hermes/skills/catalog/firecrawl-skills-setup) - research workflows
-- [Review Loop Skill Setup](/docs/hermes/skills/catalog/review-loop-skill-setup) - review discipline
+- [Skills Catalog](/hermes/skills/catalog)
+- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup) - research workflows
+- [Review Loop Skill Setup](/hermes/skills/catalog/review-loop-skill-setup) - review discipline
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

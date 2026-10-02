@@ -10,7 +10,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 # 🆕 June 30, 2026 - Update 2: 12 Additional Skills
 
-**Date:** June 30, 2026 (Update to [June 30 sweep](/docs/hermes/skills/marketplace/new-june30-2026) and [Update 1](/docs/hermes/skills/marketplace/new-june30-2026-update))
+**Date:** June 30, 2026 (Update to [June 30 sweep](/hermes/skills/marketplace/new-june30-2026) and [Update 1](/hermes/skills/marketplace/new-june30-2026-update))
 **New Repos:** 2 | **New Skills:** 12 | **Combined Installs:** 3,478
 
 Evening sweep across skills.sh surfaced 12 additional skills missed in the morning and midday passes. The headline find is **xurl** - Nous Research's official X/Twitter integration that was inexplicably absent from the catalog despite 171 installs. Google's **TimesFM** brings zero-shot forecasting to Hermes agents. The remaining 10 skills form the **ClawSec security suite** from prompt-security - the first comprehensive security toolkit for the OpenClaw/Clawbot agent ecosystem.
@@ -45,7 +45,7 @@ Evening sweep across skills.sh surfaced 12 additional skills missed in the morni
 
 Full X/Twitter API v2 integration from the Hermes creator. Post tweets, search, send DMs, upload media - everything a growth agent needs for social presence management. Previously missing from the catalog despite being an official Nous Research skill.
 
-**Setup Guide:** [xurl - Full Setup Guide](/docs/hermes/skills/catalog/xurl-setup)
+**Setup Guide:** [xurl - Full Setup Guide](/hermes/skills/catalog/xurl-setup)
 
 ```bash
 npx skills add nousresearch/hermes-agent --skill xurl
@@ -62,7 +62,7 @@ Google Research's TimesFM foundation model for zero-shot time series forecasting
 
 Also available from: google-research/timesfm (153 installs), eturkes/claude-scientific-skills (23).
 
-**Setup Guide:** [TimesFM Forecasting - Full Setup Guide](/docs/hermes/skills/catalog/timesfm-forecasting-setup)
+**Setup Guide:** [TimesFM Forecasting - Full Setup Guide](/hermes/skills/catalog/timesfm-forecasting-setup)
 
 ```bash
 npx skills add k-dense-ai/scientific-agent-skills --skill timesfm-forecasting
@@ -149,10 +149,10 @@ npx skills add prompt-security/clawsec --skill openclaw-traffic-guardian
 ## Setup Guides Added
 
 This sweep produced two new setup guides:
-- **[xurl (X/Twitter) Setup Guide](/docs/hermes/skills/catalog/xurl-setup)** - API credentials, CLI commands, 5 CorpusIQ use cases
-- **[TimesFM Forecasting Setup Guide](/docs/hermes/skills/catalog/timesfm-forecasting-setup)** - Installation, forecasting modes, anomaly detection
+- **[xurl (X/Twitter) Setup Guide](/hermes/skills/catalog/xurl-setup)** - API credentials, CLI commands, 5 CorpusIQ use cases
+- **[TimesFM Forecasting Setup Guide](/hermes/skills/catalog/timesfm-forecasting-setup)** - Installation, forecasting modes, anomaly detection
 
 ---
 
-*← [June 30 Update 1](/docs/hermes/skills/marketplace/new-june30-2026-update) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [June 30 Update 1](/hermes/skills/marketplace/new-june30-2026-update) | [Marketplace Home](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

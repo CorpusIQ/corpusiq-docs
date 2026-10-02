@@ -154,6 +154,6 @@ This writes `~/.hermes/skills/graphify/SKILL.md` and `AGENTS.md` so Hermes agent
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [June 18 Final Sweep](/docs/hermes/skills/marketplace/new-june18-2026-final-sweep) →*
-*↑ [Skills Catalog Home](/docs/hermes/skills/catalog)*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [June 18 Final Sweep](/hermes/skills/marketplace/new-june18-2026-final-sweep) →*
+*↑ [Skills Catalog Home](/hermes/skills/catalog)*
 *Powered by CorpusIQ*

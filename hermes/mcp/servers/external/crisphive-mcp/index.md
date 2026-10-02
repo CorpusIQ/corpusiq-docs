@@ -90,7 +90,7 @@ Crisphive owns the schedule; CorpusIQ owns the money and the books. A composed w
 
 ## See Also
 
-- [AskRentAI MCP](/docs/hermes/mcp/servers/external/askrentai-mcp)
-- [Taskfolk MCP](/docs/hermes/mcp/servers/external/taskfolk-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [AskRentAI MCP](/hermes/mcp/servers/external/askrentai-mcp)
+- [Taskfolk MCP](/hermes/mcp/servers/external/taskfolk-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

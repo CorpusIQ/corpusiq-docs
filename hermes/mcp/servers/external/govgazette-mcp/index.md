@@ -82,7 +82,7 @@ GovGazette's source-linked JSON output pairs well with CorpusIQ connectors for t
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/docs/hermes/mcp/servers/external/acquisition-gov-mcp)
-- [SAM.gov MCP - Federal Procurement Data](/docs/hermes/mcp/servers/external/sam-gov-mcp)
-- [GovTrade MCP](/docs/hermes/mcp/servers/external/govtrade-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/hermes/mcp/servers/external/acquisition-gov-mcp)
+- [SAM.gov MCP - Federal Procurement Data](/hermes/mcp/servers/external/sam-gov-mcp)
+- [GovTrade MCP](/hermes/mcp/servers/external/govtrade-mcp)

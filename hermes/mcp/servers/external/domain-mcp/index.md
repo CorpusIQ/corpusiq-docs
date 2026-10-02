@@ -92,6 +92,6 @@ CorpusIQ reads business data across 40+ connectors; Domain MCP handles the domai
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [Just Domain MCP](/docs/hermes/mcp/servers/external/just-domain-mcp) - read-only domain availability and pricing checks
-- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Just Domain MCP](/hermes/mcp/servers/external/just-domain-mcp) - read-only domain availability and pricing checks
+- [MCP Integration Guide](/hermes/mcp) - connecting MCP servers to Hermes Agent

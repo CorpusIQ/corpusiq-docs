@@ -45,7 +45,7 @@ npx skills add vercel-labs/skills@find-skills
 ### Hermes/CorpusIQ Relevance
 This is the definitive skill discovery tool for Hermes agents. Instead of running 30+ manual `npx skills search` queries, agents can use `find-skills` to search across all marketplaces in one call. For CorpusIQ's skill catalog maintenance, this automates the daily "check for new skills" workflow - making the entire catalog operation self-sustaining.
 
-**Setup guide:** [find-skills-setup.md](/docs/hermes/skills/catalog/find-skills-setup)
+**Setup guide:** [find-skills-setup.md](/hermes/skills/catalog/find-skills-setup)
 
 ---
 
@@ -71,7 +71,7 @@ npx skills add remotion-dev/skills@remotion-best-practices
 ### Hermes/CorpusIQ Relevance
 Directly applicable to CorpusIQ's UGC video pipeline. The HyperFrames integration uses Remotion under the hood - these best practices prevent the frame drops, audio drift, and memory leaks that plagued earlier video automation attempts. Also relevant for the daily UGC video series and any programmatic content generation.
 
-**Setup guide:** [remotion-best-practices-setup.md](/docs/hermes/skills/catalog/remotion-best-practices-setup)
+**Setup guide:** [remotion-best-practices-setup.md](/hermes/skills/catalog/remotion-best-practices-setup)
 
 ---
 
@@ -97,7 +97,7 @@ npx skills add anthropics/skills@skill-creator
 ### Hermes/CorpusIQ Relevance
 Essential for CorpusIQ's 133+ skill library. Replaces ad-hoc skill authoring with a structured framework. Ensures every new skill meets quality standards before deployment. The error-handling pattern library alone prevents the "skill breaks silently in production" failures that have cost hours of debugging. Used in conjunction with `find-skills` to complete the skill lifecycle: discover → create → publish.
 
-**Setup guide:** [skill-creator-setup.md](/docs/hermes/skills/catalog/skill-creator-setup)
+**Setup guide:** [skill-creator-setup.md](/hermes/skills/catalog/skill-creator-setup)
 
 ---
 
@@ -127,7 +127,7 @@ npx skills add browser-act/skills@browser-act-skill-forge
 ### Hermes/CorpusIQ Relevance
 Complements agent-browser for CorpusIQ's browser automation needs. Where agent-browser excels at accessibility-tree interaction (fast, semantic, selector-free), browser-act excels at recording reusable workflows. Use browser-act for: social media monitoring templates (login → check notifications → extract mentions), competitive research (visit competitor sites → screenshot → extract pricing), and form automation. The anti-detection features are critical for platforms that block headless browsers.
 
-**Setup guide:** [browser-act-setup.md](/docs/hermes/skills/catalog/browser-act-setup)
+**Setup guide:** [browser-act-setup.md](/hermes/skills/catalog/browser-act-setup)
 
 ---
 
@@ -170,7 +170,7 @@ npx skills add firecrawl/firecrawl-workflows@firecrawl-seo-audit
 ### Hermes/CorpusIQ Relevance
 Directly powers CorpusIQ's growth and research operations. `firecrawl-deep-research` replaces hours of manual competitive analysis. `firecrawl-lead-gen` automates prospect discovery for outreach campaigns. `firecrawl-market-research` feeds the product roadmap with competitive intelligence. `firecrawl-seo-audit` maintains corpusiq-docs' search visibility. All four workflows integrate with Hermes via the existing Firecrawl MCP connector.
 
-**Setup guide:** [firecrawl-workflows-setup.md](/docs/hermes/skills/catalog/firecrawl-workflows-setup)
+**Setup guide:** [firecrawl-workflows-setup.md](/hermes/skills/catalog/firecrawl-workflows-setup)
 
 ---
 
@@ -182,5 +182,5 @@ Sweep conducted using `npx skills search` CLI (skills.sh website returned 500/Ve
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Powered by CorpusIQ*

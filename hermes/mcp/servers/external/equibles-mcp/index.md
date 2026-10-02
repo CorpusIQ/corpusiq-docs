@@ -87,7 +87,7 @@ Equibles is the market-intelligence layer that pairs with CorpusIQ's business-op
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Financial News MCP - Real-Time Market Data for AI Agents](/docs/hermes/mcp/servers/external/financial-news-mcp)
-- [Hermes Plant MCP Server - Deterministic Finance and Quant APIs](/docs/hermes/mcp/servers/external/hermesplant-mcp-server)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Financial News MCP - Real-Time Market Data for AI Agents](/hermes/mcp/servers/external/financial-news-mcp)
+- [Hermes Plant MCP Server - Deterministic Finance and Quant APIs](/hermes/mcp/servers/external/hermesplant-mcp-server)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

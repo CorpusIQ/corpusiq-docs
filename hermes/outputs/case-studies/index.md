@@ -28,4 +28,4 @@ Real-world deployment case studies showing how Hermes Agent is used across indus
 
 ---
 
-*← [Outputs Home](/docs/hermes/outputs) | [Hermes Home](/docs/hermes)*
+*← [Outputs Home](/hermes/outputs) | [Hermes Home](/hermes)*

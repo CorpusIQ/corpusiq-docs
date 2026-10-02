@@ -86,5 +86,5 @@ Fares come from Google Flights MCP; spend reality comes from CorpusIQ. An agent 
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

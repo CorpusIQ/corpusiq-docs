@@ -123,6 +123,6 @@ Free public access. Visit [opencloudcosts.com](https://opencloudcosts.com) for c
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Overview](/hermes/mcp)*
 
-*↑ [MCP Documentation](/docs/hermes/mcp)*
+*↑ [MCP Documentation](/hermes/mcp)*

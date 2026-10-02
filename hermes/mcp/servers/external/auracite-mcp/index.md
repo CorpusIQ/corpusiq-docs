@@ -78,8 +78,8 @@ AuraCite supplies the AI-visibility half of the measurement loop; CorpusIQ suppl
 
 ## See Also
 
-- [Encited MCP - SEO and AI Visibility for Agents](/docs/hermes/mcp/servers/external/encited-mcp)
-- [Ranki MCP - SEO and AEO Audits](/docs/hermes/mcp/servers/external/ranki-mcp)
-- [CiteRank MCP - AI Search Visibility Audits](/docs/hermes/mcp/servers/external/citerank-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp)
+- [Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp)
+- [CiteRank MCP - AI Search Visibility Audits](/hermes/mcp/servers/external/citerank-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -133,7 +133,7 @@ ChatGPT without MCP can only answer from its training data  --  it can't access 
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
 - [MCP for Accountants: QuickBooks and Financial Analysis](/mcp)
 - [MCP for Ecommerce: Shopify and Order Analytics](/mcp)

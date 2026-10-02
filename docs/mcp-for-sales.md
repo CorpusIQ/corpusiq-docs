@@ -135,7 +135,7 @@ Yes. Connect email, calendar, support platforms, and product usage data to build
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
 - [MCP for Marketing: Campaign Analytics and ROI](/mcp)
 - [MCP for Customer Support: Ticket Analytics](/mcp)

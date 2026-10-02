@@ -80,8 +80,8 @@ The suite covers the lightweight back office that CorpusIQ's enterprise connecto
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [QuickBooks Connector by Meridian MCP - Hosted QBO for Agents](/docs/hermes/mcp/servers/external/meridian-qbo-mcp)
-- [jp-payroll MCP - Japanese Payroll and Social Insurance for Agents](/docs/hermes/mcp/servers/external/jp-payroll-mcp)
-- [Valuation API MCP - Deterministic Finance Math for Agents](/docs/hermes/mcp/servers/external/valuation-api-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [QuickBooks Connector by Meridian MCP - Hosted QBO for Agents](/hermes/mcp/servers/external/meridian-qbo-mcp)
+- [jp-payroll MCP - Japanese Payroll and Social Insurance for Agents](/hermes/mcp/servers/external/jp-payroll-mcp)
+- [Valuation API MCP - Deterministic Finance Math for Agents](/hermes/mcp/servers/external/valuation-api-mcp)

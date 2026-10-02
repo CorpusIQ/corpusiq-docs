@@ -121,12 +121,12 @@ The router detects `~/.hermes` in the path and dispatches to `hermes-history-ing
 
 ## Related Skills
 
-- [hermes-history-ingest](/docs/hermes/skills/catalog/hermes-history-ingest-setup) - Hermes-specific history ingestion
-- [openclaw-history-ingest](/docs/hermes/skills/catalog/openclaw-history-ingest-setup) - OpenClaw-specific history ingestion
+- [hermes-history-ingest](/hermes/skills/catalog/hermes-history-ingest-setup) - Hermes-specific history ingestion
+- [openclaw-history-ingest](/hermes/skills/catalog/openclaw-history-ingest-setup) - OpenClaw-specific history ingestion
 - [wiki-synthesize](https://skills.sh/ar9av/obsidian-wiki) - Cross-session pattern synthesis
 - [wiki-query](https://skills.sh/ar9av/obsidian-wiki) - Natural language vault queries
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

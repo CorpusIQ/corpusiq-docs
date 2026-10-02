@@ -72,10 +72,10 @@ The skills are workflow packages - pair them with your existing SEO data sources
 
 ## Related
 
-- [Marketing Skills - Growth Tooling Setup](/docs/hermes/skills/catalog/marketingskills-setup)
-- [Firecrawl Skills Setup](/docs/hermes/skills/catalog/firecrawl-skills-setup) - `firecrawl-seo-audit` workflow
-- [OPC Skills - SEO GEO Setup](/docs/hermes/skills/catalog/opc-skills-setup)
+- [Marketing Skills - Growth Tooling Setup](/hermes/skills/catalog/marketingskills-setup)
+- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup) - `firecrawl-seo-audit` workflow
+- [OPC Skills - SEO GEO Setup](/hermes/skills/catalog/opc-skills-setup)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

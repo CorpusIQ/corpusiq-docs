@@ -140,7 +140,7 @@ They're complementary: Meta Ads MCP for deep Facebook/Instagram operations, Opus
 
 ## See Also
 
-- [OpusGrowth MCP Guide](/docs/hermes/mcp/servers/external/opusgrowth-mcp) - Cross-platform ad management
-- [Ahrefs MCP Guide](/docs/hermes/mcp/servers/external/ahrefs-mcp) - SEO and organic traffic context
-- [Stripe MCP Guide](/docs/hermes/mcp/servers/external/stripe-mcp) - Revenue-side validation
+- [OpusGrowth MCP Guide](/hermes/mcp/servers/external/opusgrowth-mcp) - Cross-platform ad management
+- [Ahrefs MCP Guide](/hermes/mcp/servers/external/ahrefs-mcp) - SEO and organic traffic context
+- [Stripe MCP Guide](/hermes/mcp/servers/external/stripe-mcp) - Revenue-side validation
 - Pipeboard Documentation

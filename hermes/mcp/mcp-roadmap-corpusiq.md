@@ -69,7 +69,7 @@ answers.
 
 ## Related pages
 
-- [MCP Apps: Interactive UIs](/docs/hermes/mcp/mcp-apps-interactive-ui)
-- [MCP Apps Stateless Design Pattern](/docs/hermes/mcp/mcp-apps-stateless-design)
-- [ask_corpusiq: deterministic single-tool access](/docs/hermes/mcp/ask-corpusiq)
-- [MCP 2026-07-28 Spec](/docs/hermes/mcp/mcp-spec-2026-07-28)
+- [MCP Apps: Interactive UIs](/hermes/mcp/mcp-apps-interactive-ui)
+- [MCP Apps Stateless Design Pattern](/hermes/mcp/mcp-apps-stateless-design)
+- [ask_corpusiq: deterministic single-tool access](/hermes/mcp/ask-corpusiq)
+- [MCP 2026-07-28 Spec](/hermes/mcp/mcp-spec-2026-07-28)

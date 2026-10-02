@@ -126,11 +126,11 @@ All three skills.sh security audits pass (verified Sep 8, 2026):
 
 ## Related
 
-- [Agentic Awesome Skills (AAS) - 2,000+ Skill Catalog Setup](/docs/hermes/skills/catalog/agentic-awesome-skills-setup)
-- [Shopify Skills (official Shopify AI Toolkit)](/docs/hermes/skills/catalog/shopify)
-- [Nexscope E-Commerce Skills - Shopify, Etsy, TikTok Shop Setup](/docs/hermes/skills/catalog/nexscope-ecommerce-skills-setup)
+- [Agentic Awesome Skills (AAS) - 2,000+ Skill Catalog Setup](/hermes/skills/catalog/agentic-awesome-skills-setup)
+- [Shopify Skills (official Shopify AI Toolkit)](/hermes/skills/catalog/shopify)
+- [Nexscope E-Commerce Skills - Shopify, Etsy, TikTok Shop Setup](/hermes/skills/catalog/nexscope-ecommerce-skills-setup)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

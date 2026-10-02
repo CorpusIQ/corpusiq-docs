@@ -129,6 +129,6 @@ Both complement CorpusIQ's business intelligence stack. Tableau for enterprises 
 
 ## See Also
 
-- [Metabase MCP Guide](/docs/hermes/mcp/servers/external/metabase-mcp) - Another BI platform with MCP
-- [Stripe MCP Guide](/docs/hermes/mcp/servers/external/stripe-mcp) - Financial data via MCP
+- [Metabase MCP Guide](/hermes/mcp/servers/external/metabase-mcp) - Another BI platform with MCP
+- [Stripe MCP Guide](/hermes/mcp/servers/external/stripe-mcp) - Financial data via MCP
 - [Tableau Developer Docs](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm)

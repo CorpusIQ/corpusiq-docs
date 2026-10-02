@@ -79,7 +79,7 @@ Dutch Vehicle Context delivers the Dutch vehicle-data layer, which CorpusIQ's co
 
 ## See Also
 
-- [Dutch Property Context MCP - Netherlands Property Reports by Address](/docs/hermes/mcp/servers/external/dutch-property-context)
-- [RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence](/docs/hermes/mcp/servers/external/re-data-refinery-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Dutch Property Context MCP - Netherlands Property Reports by Address](/hermes/mcp/servers/external/dutch-property-context)
+- [RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence](/hermes/mcp/servers/external/re-data-refinery-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

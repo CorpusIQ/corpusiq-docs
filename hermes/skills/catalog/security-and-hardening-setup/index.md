@@ -180,7 +180,7 @@ grep -r "API_KEY\|TOKEN\|SECRET\|PASSWORD" ~/.hermes/profiles/ --include="*.yaml
 
 ## Integration with ClawSec Suite
 
-The [ClawSec security suite](/docs/hermes/skills/marketplace/new-june30-2026-update2) (10 skills, documented June 30) addresses security from the OpenClaw ecosystem side. `security-and-hardening` complements it with Hermes-specific hardening patterns:
+The [ClawSec security suite](/hermes/skills/marketplace/new-june30-2026-update2) (10 skills, documented June 30) addresses security from the OpenClaw ecosystem side. `security-and-hardening` complements it with Hermes-specific hardening patterns:
 
 | ClawSec Skill | Complementary Domain |
 |---|---|
@@ -193,5 +193,5 @@ Together they form a complete agent security posture: ClawSec for ecosystem-leve
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-july17-2026-update) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Discovery Page](/hermes/skills/marketplace/new-july17-2026-update) →*
 *Powered by CorpusIQ*

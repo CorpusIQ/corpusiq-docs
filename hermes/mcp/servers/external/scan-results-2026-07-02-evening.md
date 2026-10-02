@@ -14,7 +14,7 @@ robots: "index,follow"
 **Source:** mcp.so/feed, mcpservers.org, GitHub discovery
 **Method:** Multi-source sweep (directory listing, GitHub search, community signals)
 **Date:** July 2, 2026 evening sweep
-**Prior scan:** [July 2 afternoon update](/docs/hermes/mcp/servers/external/scan-results-2026-07-02-update)
+**Prior scan:** [July 2 afternoon update](/hermes/mcp/servers/external/scan-results-2026-07-02-update)
 
 ## Summary
 

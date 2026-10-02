@@ -75,9 +75,9 @@ Combined with existing skills (Threads growth, X/Twitter, LinkedIn), this comple
 
 ## 6. Related Skills
 
-- [Threads Growth Skill](/docs/hermes/skills/catalog/threads-growth-skill-setup) - Meta Threads automation (745 installs)
-- [X/Twitter Scraper](/docs/hermes/skills/catalog/x-twitter-scraper-setup) - X/Twitter automation
-- [Impeccable](/docs/hermes/skills/catalog/impeccable-setup) - AI writing and content generation
+- [Threads Growth Skill](/hermes/skills/catalog/threads-growth-skill-setup) - Meta Threads automation (745 installs)
+- [X/Twitter Scraper](/hermes/skills/catalog/x-twitter-scraper-setup) - X/Twitter automation
+- [Impeccable](/hermes/skills/catalog/impeccable-setup) - AI writing and content generation
 
 ## 7. Troubleshooting
 
@@ -89,6 +89,6 @@ Combined with existing skills (Threads growth, X/Twitter, LinkedIn), this comple
 
 ---
 
-*Part of the [Hermes Skills Catalog](/docs/hermes/skills/catalog). Discovered in the [June 28, 2026 evening sweep](/docs/hermes/skills/marketplace/new-june28-2026-update2).*
+*Part of the [Hermes Skills Catalog](/hermes/skills/catalog). Discovered in the [June 28, 2026 evening sweep](/hermes/skills/marketplace/new-june28-2026-update2).*
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*

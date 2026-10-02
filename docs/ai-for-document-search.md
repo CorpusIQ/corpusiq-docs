@@ -130,11 +130,11 @@ A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not ret
 
 - [Connect SharePoint to Claude](/connectors)
 - [Connect Notion to Claude](/connectors)
-- [AI for Knowledge Management](/private-ai-for-business)
-- [AI for Compliance](/private-ai-for-business)
-- [AI for Audit Readiness](/private-ai-for-business)
-- [AI for Project Management](/private-ai-for-business)
-- [What is MCP?](/answers/what-is-an-mcp-server)
+- [AI for Knowledge Management](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Compliance](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Audit Readiness](https://www.corpusiq.io/private-ai-for-business)
+- [AI for Project Management](https://www.corpusiq.io/private-ai-for-business)
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 

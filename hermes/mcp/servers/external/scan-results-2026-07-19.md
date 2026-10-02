@@ -13,7 +13,7 @@ robots: "index,follow"
 
 **Sources:** mcp.so feed (6,457 servers), GitHub topic:mcp-server (created >2026-07-18), mcpservers.org (9,300+ servers)
 **Date:** July 19, 2026
-**Previous scan:** [Late Night Sweep (July 18)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-late-night)
+**Previous scan:** [Late Night Sweep (July 18)](/hermes/mcp/servers/external/scan-results-2026-07-18-late-night)
 **Coverage:** New submissions since July 18 late-night sweep
 
 ## Methodology
@@ -27,7 +27,7 @@ Web tools (Firecrawl) unavailable on this node. Used:
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **endoflife.ai** ★★★ | mcp.so | Authoritative EOL database - end-of-life dates, CVE risk scores, and upgrade paths for 485+ products and 8,000+ versions (Node.js, Python, PHP, RHEL, Ubuntu, Java, Kubernetes, etc.). Remote MCP, free, no signup, updated daily. Submitted July 19, 10:52 AM by endoflife-ai. Verified + Featured. | [endoflife-mcp](/docs/hermes/mcp/servers/external/endoflife-mcp) |
+| **endoflife.ai** ★★★ | mcp.so | Authoritative EOL database - end-of-life dates, CVE risk scores, and upgrade paths for 485+ products and 8,000+ versions (Node.js, Python, PHP, RHEL, Ubuntu, Java, Kubernetes, etc.). Remote MCP, free, no signup, updated daily. Submitted July 19, 10:52 AM by endoflife-ai. Verified + Featured. | [endoflife-mcp](/hermes/mcp/servers/external/endoflife-mcp) |
 
 ## Index-Only (New Servers Without Guides)
 
@@ -77,4 +77,4 @@ Web tools (Firecrawl) unavailable on this node. Used:
 
 ---
 
-*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Late Night Sweep (July 18)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-late-night) →*
+*← [Back to External MCP Catalog](/hermes/mcp/servers/external) | [Late Night Sweep (July 18)](/hermes/mcp/servers/external/scan-results-2026-07-18-late-night) →*

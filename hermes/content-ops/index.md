@@ -14,9 +14,9 @@ Autonomous content creation, publishing, and community engagement across all pla
 
 | Page | What You'll Learn |
 |------|-------------------|
-| [Video Production](/docs/hermes/content-ops/video) | HeyGen video generation, UGC series, TikTok/Instagram automation |
-| [Social Automation](/docs/hermes/content-ops/social) | X, Reddit, Discord, LinkedIn, cross-platform posting via Postiz |
-| [Community Engagement](/docs/hermes/content-ops/engagement) | Help-first strategy, autonomous comment engines, community building |
+| [Video Production](/hermes/content-ops/video) | HeyGen video generation, UGC series, TikTok/Instagram automation |
+| [Social Automation](/hermes/content-ops/social) | X, Reddit, Discord, LinkedIn, cross-platform posting via Postiz |
+| [Community Engagement](/hermes/content-ops/engagement) | Help-first strategy, autonomous comment engines, community building |
 
 ## Content Pipeline
 
@@ -44,9 +44,9 @@ Research → Draft → Review → Schedule → Post → Monitor → Engage
 
 ---
 
-*← [Hermes Home](/docs/hermes) | [Video Production](/docs/hermes/content-ops/video) →*
+*← [Hermes Home](/hermes) | [Video Production](/hermes/content-ops/video) →*
 
-*↑ [Content Operations Home](/docs/hermes/content-ops)*
+*↑ [Content Operations Home](/hermes/content-ops)*
 
 ---
 

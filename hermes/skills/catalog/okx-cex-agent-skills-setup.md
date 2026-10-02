@@ -11,7 +11,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "crypto exchange", "trading
 
 **Source:** [okx/agent-skills](https://github.com/okx/agent-skills) (184⭐, MIT, pushed Sep 23, 2026)
 **Skill family:** `okx/agent-skills` (9 installable skills, ~79K combined installs)
-**Sibling family:** [okx/onchainos-skills](/docs/hermes/skills/catalog/okx-onchainos-skills-setup) (224K installs - onchain / DeFi side of the same publisher)
+**Sibling family:** [okx/onchainos-skills](/hermes/skills/catalog/okx-onchainos-skills-setup) (224K installs - onchain / DeFi side of the same publisher)
 **Category:** Finance / Crypto Exchange
 **Quality Tier:** 🟢 Verified (official OKX publisher, MIT LICENSE file in-repo, active release cadence - verified Sep 30, 2026)
 
@@ -88,7 +88,7 @@ No skills.sh Trust Hub / Socket / Snyk verdicts published (verified Sep 30, 2026
 
 ## Related
 
-- [OKX OnchainOS Skills - Wallet & DEX Setup](/docs/hermes/skills/catalog/okx-onchainos-skills-setup)
-- [Hermes Agent Official Skills Setup](/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup)
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [OKX OnchainOS Skills - Wallet & DEX Setup](/hermes/skills/catalog/okx-onchainos-skills-setup)
+- [Hermes Agent Official Skills Setup](/hermes/skills/catalog/hermes-agent-official-skills-batch-setup)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Skills Marketplace](/hermes/skills/marketplace)

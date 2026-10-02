@@ -160,9 +160,9 @@ CorpusIQ supports QuickBooks today. Support for additional accounting platforms 
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
-- [Explore MCP for small business intelligence](/mcp-server-small-business)
+- [Explore MCP for small business intelligence](https://www.corpusiq.io/mcp-server-small-business)
 - [Learn about MCP for enterprise-scale deployments](/mcp)
 - [MCP for Finance: Portfolio and Compliance](/mcp)
 - [Read our complete MCP security best practices guide](/mcp)

@@ -139,5 +139,5 @@ Memory Merger keeps your agent's memory lean, accurate, and efficient - reducing
 
 ---
 
-*← [MCP Use Setup](/docs/hermes/skills/catalog/mcp-use-setup) | [OpenClaw XHS Setup →](/docs/hermes/skills/catalog/openclaw-xhs-setup)*
+*← [MCP Use Setup](/hermes/skills/catalog/mcp-use-setup) | [OpenClaw XHS Setup →](/hermes/skills/catalog/openclaw-xhs-setup)*
 *Powered by CorpusIQ*

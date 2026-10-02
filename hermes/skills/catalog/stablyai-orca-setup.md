@@ -80,8 +80,8 @@ Emerging (single-digit installs): `auto-pr-merge`, `auto-review-fix`, `auto-subm
 
 ## Related
 
-- [Ruflo - Multi-Agent Orchestration Setup](/docs/hermes/skills/catalog/ruflo-setup)
-- [Linear Integration Setup](/docs/hermes/skills/catalog/linear-setup)
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Ruflo - Multi-Agent Orchestration Setup](/hermes/skills/catalog/ruflo-setup)
+- [Linear Integration Setup](/hermes/skills/catalog/linear-setup)
+- [Skills Catalog](/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

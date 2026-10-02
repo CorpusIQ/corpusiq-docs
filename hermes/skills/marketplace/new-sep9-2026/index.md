@@ -26,10 +26,10 @@ Forty-three-query skills.sh API sweep (3,776 unique skills; 2 queries failed - `
 
 ## Setup Guides
 
-- [Salesforce Skills Library (sf-skills) - Setup Guide](/docs/hermes/skills/catalog/salesforce-sf-skills-setup)
-- [Claude SEO - Setup Guide](/docs/hermes/skills/catalog/claude-seo-setup)
-- [Blacktwist Social Media Skills - Setup Guide](/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup)
-- [Charlie Hills Social Media Skills - Setup Guide](/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup)
+- [Salesforce Skills Library (sf-skills) - Setup Guide](/hermes/skills/catalog/salesforce-sf-skills-setup)
+- [Claude SEO - Setup Guide](/hermes/skills/catalog/claude-seo-setup)
+- [Blacktwist Social Media Skills - Setup Guide](/hermes/skills/catalog/blacktwist-social-media-skills-setup)
+- [Charlie Hills Social Media Skills - Setup Guide](/hermes/skills/catalog/charlie-hills-social-media-skills-setup)
 
 ## Evaluated and Skipped
 

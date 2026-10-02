@@ -129,11 +129,11 @@ See the [MCP Integration Guide](https://corpusiq.io/mcp) for setup instructions.
 
 ## Next Steps
 
-- [API Overview](/docs/api/overview)  --  Understand the full API surface
-- [Endpoints Reference](/docs/api/endpoints)  --  Detailed request/response schemas
+- [API Overview](/api/overview)  --  Understand the full API surface
+- [Endpoints Reference](/api/endpoints)  --  Detailed request/response schemas
 - [Connectors](/connectors)  --  Browse all 40+ integrations
-- [Authentication](/docs/api/authentication)  --  Token management and best practices
-- [Rate Limits](/docs/api/rate-limits)  --  Understand quotas and how to stay within them
+- [Authentication](/api/authentication)  --  Token management and best practices
+- [Rate Limits](/api/rate-limits)  --  Understand quotas and how to stay within them
 
 ## Frequently Asked Questions
 
@@ -165,9 +165,9 @@ Go to Dashboard → Settings → API, click Generate Token, and copy it. Store i
 ## Internal Links
 
 - **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
+- **[API Reference](/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](/enterprise)**  --  SSO, SOC 2, data residency  
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
 - **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
 - **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
 - **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  

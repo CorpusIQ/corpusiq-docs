@@ -107,4 +107,4 @@ letta skills install https://github.com/letta-ai/letta-code
 
 ---
 
-*← [June 26 Morning Update](/docs/hermes/skills/marketplace/new-june26-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [June 26 Morning Update](/hermes/skills/marketplace/new-june26-2026) | [Marketplace Home](/hermes/skills/marketplace) →*

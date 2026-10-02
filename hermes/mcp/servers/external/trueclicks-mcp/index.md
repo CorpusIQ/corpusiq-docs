@@ -84,8 +84,8 @@ TrueClicks reads the health of paid-acquisition accounts; CorpusIQ reads the bus
 
 ## See Also
 
-- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/docs/hermes/mcp/servers/external/adplug-linkedin-ads-mcp)
-- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/docs/hermes/mcp/servers/external/ryze-google-ads-mcp)
-- [Ryze Meta Ads MCP - Hosted Facebook Ads for Agents](/docs/hermes/mcp/servers/external/ryze-meta-ads-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/hermes/mcp/servers/external/adplug-linkedin-ads-mcp)
+- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/hermes/mcp/servers/external/ryze-google-ads-mcp)
+- [Ryze Meta Ads MCP - Hosted Facebook Ads for Agents](/hermes/mcp/servers/external/ryze-meta-ads-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

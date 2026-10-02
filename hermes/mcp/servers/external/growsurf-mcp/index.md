@@ -90,7 +90,7 @@ GrowSurf MCP complements CorpusIQ's growth surface directly: CorpusIQ already ru
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Alison AI MCP - AI Marketing Copywriting](/docs/hermes/mcp/servers/external/alison-ai-mcp)
-- [n8n MCP Server - Workflow Automation](/docs/hermes/mcp/servers/external/n8n-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Alison AI MCP - AI Marketing Copywriting](/hermes/mcp/servers/external/alison-ai-mcp)
+- [n8n MCP Server - Workflow Automation](/hermes/mcp/servers/external/n8n-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

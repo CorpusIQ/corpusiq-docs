@@ -138,4 +138,4 @@ This replaces the manual "check TED daily, download PDFs, build spreadsheet, gue
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Overview](/hermes/mcp)*

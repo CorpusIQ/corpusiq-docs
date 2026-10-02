@@ -96,6 +96,6 @@ Both systems treat verification as the product, not the wrapper: Nebelus verifie
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [Helio MCP - Governance Proxy for AI Agent Tool Calls](/docs/hermes/mcp/servers/external/helio-mcp)
-- [Governance](/docs/hermes/governance)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [Helio MCP - Governance Proxy for AI Agent Tool Calls](/hermes/mcp/servers/external/helio-mcp)
+- [Governance](/hermes/governance)

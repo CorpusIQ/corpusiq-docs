@@ -69,6 +69,6 @@ hermes skills install arvindrk/extract-design-system/extract-design-system
 
 ## Related
 
-- [Uizze UI Skills Setup](/docs/hermes/skills/catalog/uizze-ui-skills-setup)
-- [Popular Web Designs Setup](/docs/hermes/skills/catalog/popular-web-designs-setup)
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Uizze UI Skills Setup](/hermes/skills/catalog/uizze-ui-skills-setup)
+- [Popular Web Designs Setup](/hermes/skills/catalog/popular-web-designs-setup)
+- [Skills Catalog](/hermes/skills/catalog)

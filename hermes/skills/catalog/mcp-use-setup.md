@@ -149,5 +149,5 @@ This reduces MCP server development from days to minutes.
 
 ---
 
-*← [AgentMemory Setup](/docs/hermes/skills/catalog/agentmemory-setup) | [Memory Merger Setup →](/docs/hermes/skills/catalog/memory-merger-setup)*
+*← [AgentMemory Setup](/hermes/skills/catalog/agentmemory-setup) | [Memory Merger Setup →](/hermes/skills/catalog/memory-merger-setup)*
 *Powered by CorpusIQ*

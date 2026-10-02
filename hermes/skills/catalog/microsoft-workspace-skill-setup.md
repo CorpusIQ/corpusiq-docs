@@ -140,8 +140,8 @@ hermes chat -q "Show today's calendar events"
 
 - [Andrew-Girgis/microsoft-workspace-skill repo](https://github.com/Andrew-Girgis/microsoft-workspace-skill)
 - [Microsoft Graph API Docs](https://learn.microsoft.com/en-us/graph/)
-- [Google Workspace Setup](/docs/hermes/skills/catalog/google-workspace)
-- [IMAP SMTP Email Setup](/docs/hermes/skills/catalog/imap-smtp-email-setup)
+- [Google Workspace Setup](/hermes/skills/catalog/google-workspace)
+- [IMAP SMTP Email Setup](/hermes/skills/catalog/imap-smtp-email-setup)
 
 ---
 

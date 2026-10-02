@@ -53,6 +53,6 @@ Instead of a manual sweep through Ads Manager, questions like "which ad set has 
 
 ## See also
 
-- [Meta Ads MCP (Pipeboard)](/docs/hermes/mcp/servers/external/meta-ads-mcp) - a popular third-party alternative with a Meta Business verification badge.
-- [Markifact Meta Ads MCP](/docs/hermes/mcp/servers/external/markifact-meta-ads-mcp) - approval-gated campaign drafting.
-- [Ryze Meta Ads MCP](/docs/hermes/mcp/servers/external/ryze-meta-ads-mcp) - third-party read and write ads workflows.
+- [Meta Ads MCP (Pipeboard)](/hermes/mcp/servers/external/meta-ads-mcp) - a popular third-party alternative with a Meta Business verification badge.
+- [Markifact Meta Ads MCP](/hermes/mcp/servers/external/markifact-meta-ads-mcp) - approval-gated campaign drafting.
+- [Ryze Meta Ads MCP](/hermes/mcp/servers/external/ryze-meta-ads-mcp) - third-party read and write ads workflows.

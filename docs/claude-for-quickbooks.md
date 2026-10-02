@@ -124,7 +124,7 @@ Ready to put AI to work on your claude for quickbooks data?
 - [ChatGPT for QuickBooks: Conversational AI Accounting](/connect/quickbooks-with-chatgpt)
 - [QuickBooks AI Reporting: Automated Financial Analysis](/connect/quickbooks-with-chatgpt)
 - [QuickBooks Natural Language Queries Guide](/connect/quickbooks-with-chatgpt)
-- [How to Analyze QuickBooks Data with AI](/answers)
+- [How to Analyze QuickBooks Data with AI](https://www.corpusiq.io/answers)
 - [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
 - [QuickBooks Business Intelligence Platform](/connect/quickbooks-with-chatgpt)
 - [Claude for Shopify: Ecommerce AI Analytics](/connect/shopify-with-claude)

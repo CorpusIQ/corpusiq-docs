@@ -103,12 +103,12 @@ Combines CRM segmentation, usage analytics, and support history.
 
 ## Related Resources
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - full curated catalog
-- [CorpusIQ MCP Connectors](/docs/hermes/mcp/connectors) - 40+ native business data connectors
-- [MCP Documentation](/docs/hermes/mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - full curated catalog
+- [CorpusIQ MCP Connectors](/hermes/mcp/connectors) - 40+ native business data connectors
+- [MCP Documentation](/hermes/mcp)
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Servers Home](/docs/hermes/mcp/servers) →*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Servers Home](/hermes/mcp/servers) →*
 
 *Guide created July 4, 2026. Based on Founders OS v0.x. Check [GitHub repo](https://github.com/OurThinkTank/founders-os) for latest updates.*

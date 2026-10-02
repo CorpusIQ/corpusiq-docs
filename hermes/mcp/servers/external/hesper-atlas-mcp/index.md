@@ -86,8 +86,8 @@ Hesper Atlas composes with CorpusIQ as the verification layer over market-facing
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/docs/hermes/mcp/servers/external/edgrapi-mcp)
-- [Hive Intelligence MCP - Live Crypto Market Data](/docs/hermes/mcp/servers/external/hive-intelligence-mcp)
-- [Trooth Network MCP - Witnessed Company Trust Records](/docs/hermes/mcp/servers/external/trooth-mcp)
-- [VulX Watch MCP - Independent Security Review for AI-Built Apps](/docs/hermes/mcp/servers/external/vulx-watch-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/hermes/mcp/servers/external/edgrapi-mcp)
+- [Hive Intelligence MCP - Live Crypto Market Data](/hermes/mcp/servers/external/hive-intelligence-mcp)
+- [Trooth Network MCP - Witnessed Company Trust Records](/hermes/mcp/servers/external/trooth-mcp)
+- [VulX Watch MCP - Independent Security Review for AI-Built Apps](/hermes/mcp/servers/external/vulx-watch-mcp)

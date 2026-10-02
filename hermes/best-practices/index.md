@@ -128,7 +128,7 @@ Follow [cron design best practices](cron-design): make every cron idempotent, im
 - [Skill Development](skill-development)  --  Building reusable skills
 - [MCP Server Design](mcp-design)  --  Custom tool development
 - [Agent Capability Audit](agent-capability-audit)  --  The 4 must-install capabilities, audited
-- [Setup Guides](/docs/hermes/setup)  --  Platform-specific installation
+- [Setup Guides](/hermes/setup)  --  Platform-specific installation
 
 ---
 

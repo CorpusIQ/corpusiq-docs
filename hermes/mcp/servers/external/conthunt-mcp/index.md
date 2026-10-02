@@ -103,8 +103,8 @@ ContHunt answers what is working; CorpusIQ answers what is happening in the busi
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [ViralHunt MCP - Trending Discovery and Social Publishing for Agents](/docs/hermes/mcp/servers/external/viralhunt-mcp)
-- [Genviral MCP - Social Media Creation and Publishing for AI Assistants](/docs/hermes/mcp/servers/external/genviral-mcp)
-- [TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos](/docs/hermes/mcp/servers/external/tiktok-transcript-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [ViralHunt MCP - Trending Discovery and Social Publishing for Agents](/hermes/mcp/servers/external/viralhunt-mcp)
+- [Genviral MCP - Social Media Creation and Publishing for AI Assistants](/hermes/mcp/servers/external/genviral-mcp)
+- [TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos](/hermes/mcp/servers/external/tiktok-transcript-mcp)

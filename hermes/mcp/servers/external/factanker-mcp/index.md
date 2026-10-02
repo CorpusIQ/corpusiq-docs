@@ -84,8 +84,8 @@ CorpusIQ connects your own financial systems (QuickBooks, Stripe, banking feeds)
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Signal Nodus SEC Filings MCP - Primary-Source SEC Intelligence for AI Agents](/docs/hermes/mcp/servers/external/signal-nodus-mcp)
-- [LiveDataLink MCP - Live Public Data for AI Agents](/docs/hermes/mcp/servers/external/livedatalink-mcp)
-- [Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data](/docs/hermes/mcp/servers/external/fruitstand-fund-returns-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Signal Nodus SEC Filings MCP - Primary-Source SEC Intelligence for AI Agents](/hermes/mcp/servers/external/signal-nodus-mcp)
+- [LiveDataLink MCP - Live Public Data for AI Agents](/hermes/mcp/servers/external/livedatalink-mcp)
+- [Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data](/hermes/mcp/servers/external/fruitstand-fund-returns-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

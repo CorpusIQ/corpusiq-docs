@@ -86,7 +86,7 @@ CarChat composes with CorpusIQ as the market-facing half of an automotive or ass
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [HasData MCP - Marketplace and Web Data Gateway for Agents](/docs/hermes/mcp/servers/external/hasdata-mcp)
-- [Small Business Intelligence MCP - Metro Records and Teardowns](/docs/hermes/mcp/servers/external/small-business-intelligence-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [HasData MCP - Marketplace and Web Data Gateway for Agents](/hermes/mcp/servers/external/hasdata-mcp)
+- [Small Business Intelligence MCP - Metro Records and Teardowns](/hermes/mcp/servers/external/small-business-intelligence-mcp)

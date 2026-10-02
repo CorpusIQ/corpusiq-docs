@@ -85,13 +85,13 @@ Evening sweep across `topic:hermes-agent` repos pushed since July 19, 2026. 182 
 
 ### Setup Guides Created (GitHub Repos)
 
-1. [Hermes Tweet Setup](/docs/hermes/skills/catalog/hermes-tweet-setup)
-2. [BitRouter Setup](/docs/hermes/skills/catalog/bitrouter-setup)
-3. [AgentCairn Setup](/docs/hermes/skills/catalog/agentcairn-setup)
-4. [MemroOS Setup](/docs/hermes/skills/catalog/memroos-setup)
-5. [Beastmode Setup](/docs/hermes/skills/catalog/beastmode-setup)
-6. [Hermes Agent Helm Chart Setup](/docs/hermes/skills/catalog/hermes-agent-helm-setup)
-7. [Hermes Backup Recovery Setup](/docs/hermes/skills/catalog/hermes-backup-recovery-setup)
+1. [Hermes Tweet Setup](/hermes/skills/catalog/hermes-tweet-setup)
+2. [BitRouter Setup](/hermes/skills/catalog/bitrouter-setup)
+3. [AgentCairn Setup](/hermes/skills/catalog/agentcairn-setup)
+4. [MemroOS Setup](/hermes/skills/catalog/memroos-setup)
+5. [Beastmode Setup](/hermes/skills/catalog/beastmode-setup)
+6. [Hermes Agent Helm Chart Setup](/hermes/skills/catalog/hermes-agent-helm-setup)
+7. [Hermes Backup Recovery Setup](/hermes/skills/catalog/hermes-backup-recovery-setup)
 
 ---
 

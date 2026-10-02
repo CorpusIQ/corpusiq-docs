@@ -219,6 +219,6 @@ Six skill listings from the wshobson/agents marketplace surfaced in the Sep 29 s
 
 ## See Also
 
-- [Awesome Copilot Setup](/docs/hermes/skills/catalog/awesome-copilot-setup) - GitHub Copilot agent skills (MCP generators)
-- [Skill Creator Setup](/docs/hermes/skills/catalog/skill-creator-setup) - Build your own agent skills
-- [Agent Memory Setup](/docs/hermes/skills/catalog/agentmemory-setup) - Persistent agent memory
+- [Awesome Copilot Setup](/hermes/skills/catalog/awesome-copilot-setup) - GitHub Copilot agent skills (MCP generators)
+- [Skill Creator Setup](/hermes/skills/catalog/skill-creator-setup) - Build your own agent skills
+- [Agent Memory Setup](/hermes/skills/catalog/agentmemory-setup) - Persistent agent memory

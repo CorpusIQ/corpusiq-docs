@@ -87,5 +87,5 @@ hermes skills install rorkai/app-store-connect-cli-skills/asc-submission-health
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Platform Integrations](/docs/hermes/skills/catalog)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Platform Integrations](/hermes/skills/catalog)

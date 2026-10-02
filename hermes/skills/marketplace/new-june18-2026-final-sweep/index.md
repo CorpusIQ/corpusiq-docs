@@ -79,6 +79,6 @@ npx skills add aradotso/hermes-skills
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [June 18 Update 2 (HyperFrames)](/docs/hermes/skills/marketplace/new-june18-2026-update2) →*
-*↑ [Skills Catalog Home](/docs/hermes/skills/catalog)*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [June 18 Update 2 (HyperFrames)](/hermes/skills/marketplace/new-june18-2026-update2) →*
+*↑ [Skills Catalog Home](/hermes/skills/catalog)*
 *Powered by CorpusIQ*

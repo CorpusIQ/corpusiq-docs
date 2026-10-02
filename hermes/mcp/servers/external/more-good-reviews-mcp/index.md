@@ -67,5 +67,5 @@ More Good Reviews' customer and review data pairs with CorpusIQ connectors for t
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Xpoz MCP - Social Media Intelligence](/docs/hermes/mcp/servers/external/xpoz-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Xpoz MCP - Social Media Intelligence](/hermes/mcp/servers/external/xpoz-mcp)

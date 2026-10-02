@@ -90,7 +90,7 @@ NoClick complements CorpusIQ's connector architecture from both directions. Corp
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [n8n MCP Server - Workflow Automation](/docs/hermes/mcp/servers/external/n8n-mcp)
-- [Browserless MCP - Browser Automation for Agents](/docs/hermes/mcp/servers/external/browserless-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [n8n MCP Server - Workflow Automation](/hermes/mcp/servers/external/n8n-mcp)
+- [Browserless MCP - Browser Automation for Agents](/hermes/mcp/servers/external/browserless-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -48,6 +48,6 @@ Endpoint live-probed over JSON-RPC: anonymous initialize returned `{"error":"Una
 
 ## See Also
 
-- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/docs/hermes/mcp/servers/external/soprano-connect-mcp)
-- [Comunicate MCP - Press Release Distribution for Agents](/docs/hermes/mcp/servers/external/comunicate-mcp)
-- [GramClaw MCP - Telegram Outreach Workflow for Agents](/docs/hermes/mcp/servers/external/gramclaw-mcp)
+- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/hermes/mcp/servers/external/soprano-connect-mcp)
+- [Comunicate MCP - Press Release Distribution for Agents](/hermes/mcp/servers/external/comunicate-mcp)
+- [GramClaw MCP - Telegram Outreach Workflow for Agents](/hermes/mcp/servers/external/gramclaw-mcp)

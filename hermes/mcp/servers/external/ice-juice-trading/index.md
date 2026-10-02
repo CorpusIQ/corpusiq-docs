@@ -85,6 +85,6 @@ CorpusIQ answers questions about the business's own books (QuickBooks, Stripe, b
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [Gex Live MCP](/docs/hermes/mcp/servers/external/gex-live-mcp) - SPX dealer positioning for market context
-- [Dados B3 MCP](/docs/hermes/mcp/servers/external/dados-b3-mcp) - auditable Brazilian stock fundamentals
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Gex Live MCP](/hermes/mcp/servers/external/gex-live-mcp) - SPX dealer positioning for market context
+- [Dados B3 MCP](/hermes/mcp/servers/external/dados-b3-mcp) - auditable Brazilian stock fundamentals

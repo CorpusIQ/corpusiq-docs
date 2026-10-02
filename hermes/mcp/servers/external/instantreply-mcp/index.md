@@ -63,5 +63,5 @@ Vendor MCP page documents the full 29-tool reference, 11 prompts and 2 resources
 
 ## See Also
 
-- [Mobile Text Alerts MCP - Official SMS Sending for Agents](/docs/hermes/mcp/servers/external/mobile-text-alerts-mcp)
-- [Mellow Hub MCP - Multi-Network Social Publishing with Guardrails](/docs/hermes/mcp/servers/external/mellow-hub-mcp)
+- [Mobile Text Alerts MCP - Official SMS Sending for Agents](/hermes/mcp/servers/external/mobile-text-alerts-mcp)
+- [Mellow Hub MCP - Multi-Network Social Publishing with Guardrails](/hermes/mcp/servers/external/mellow-hub-mcp)

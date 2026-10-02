@@ -132,7 +132,7 @@ hermes skills list | grep native-mcp
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 17 Discovery](/docs/hermes/skills/marketplace/new-june17-2026) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [June 17 Discovery](/hermes/skills/marketplace/new-june17-2026) →*
 *Powered by CorpusIQ*
 ---
 

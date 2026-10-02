@@ -155,11 +155,11 @@ Ready to put AI to work on your corpusiq vs vector databases  --  mcp retrieval 
 - [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
 - [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
 - [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/compare)
-- [How to Build an AI Knowledge Base](/answers)
+- [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
 - [Best Business AI Search Tool  --  Rankings](/compare)
-- [How to Search Company Data with AI](/answers)
-- [How to Query Business Data in Natural Language](/answers)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [How to Search Company Data with AI](https://www.corpusiq.io/answers)
+- [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 
 ---
 

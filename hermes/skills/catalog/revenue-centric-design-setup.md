@@ -111,6 +111,6 @@ ls ~/.claude/skills/revenue-centric-design/SKILL.md
 
 ## Related
 
-- [Autonnel Skills - Conversion & Funnel Optimization Suite Setup](/docs/hermes/skills/catalog/autonnel-skills-setup) - funnel-blueprint and AOV plays from the same conversion domain
-- [design-review - Visual UI Audit & Fix Setup](/docs/hermes/skills/catalog/design-review-setup) - the visual-audit companion for the design side
-- [Skills Marketplace](/docs/hermes/skills/marketplace) - marketplace index for more discovery batches
+- [Autonnel Skills - Conversion & Funnel Optimization Suite Setup](/hermes/skills/catalog/autonnel-skills-setup) - funnel-blueprint and AOV plays from the same conversion domain
+- [design-review - Visual UI Audit & Fix Setup](/hermes/skills/catalog/design-review-setup) - the visual-audit companion for the design side
+- [Skills Marketplace](/hermes/skills/marketplace) - marketplace index for more discovery batches

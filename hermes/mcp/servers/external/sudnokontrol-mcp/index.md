@@ -83,5 +83,5 @@ CorpusIQ covers the commercial ledger (contracts, invoices, payments via the Qui
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -80,8 +80,8 @@ FinalPeace supplies the legal reference layer; CorpusIQ supplies the business co
 
 ## See Also
 
-- [Goalie Trademark Search MCP](/docs/hermes/mcp/servers/external/goalie-trademark-search-mcp)
-- [Legalcode MCP](/docs/hermes/mcp/servers/external/legalcode-mcp)
-- [Taiwan Law MCP](/docs/hermes/mcp/servers/external/taiwan-law-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Goalie Trademark Search MCP](/hermes/mcp/servers/external/goalie-trademark-search-mcp)
+- [Legalcode MCP](/hermes/mcp/servers/external/legalcode-mcp)
+- [Taiwan Law MCP](/hermes/mcp/servers/external/taiwan-law-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -27,10 +27,10 @@ mcp.so frontend loads all server data as inline JSON in the initial HTML payload
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **AI Localization Agent** ★ | Stop wasting AI tokens on localization. By l10n.dev. 3 GitHub stars. | [Guide](/docs/hermes/mcp/servers/external/ai-localization-agent) |
-| **HTML Pub** ★ | Publish AI-generated HTML to a live page on your own domain. Remote server by Leadpages. MCP-native content publishing. | [Guide](/docs/hermes/mcp/servers/external/htmlpub-mcp) |
-| **Horizon AI Intelligence** ★ | Free AI-industry intelligence for agents: briefings, regulation tracker & regional lenses. By system-alchemist. | [Guide](/docs/hermes/mcp/servers/external/horizon-mcp) |
-| **AppAmbit MCP** ★ | All-in-one platform for mobile app analytics, crash reporting, build distribution, managed databases, serverless functions, and CMS. 10 GitHub stars. | [Guide](/docs/hermes/mcp/servers/external/appambit-mcp) |
+| **AI Localization Agent** ★ | Stop wasting AI tokens on localization. By l10n.dev. 3 GitHub stars. | [Guide](/hermes/mcp/servers/external/ai-localization-agent) |
+| **HTML Pub** ★ | Publish AI-generated HTML to a live page on your own domain. Remote server by Leadpages. MCP-native content publishing. | [Guide](/hermes/mcp/servers/external/htmlpub-mcp) |
+| **Horizon AI Intelligence** ★ | Free AI-industry intelligence for agents: briefings, regulation tracker & regional lenses. By system-alchemist. | [Guide](/hermes/mcp/servers/external/horizon-mcp) |
+| **AppAmbit MCP** ★ | All-in-one platform for mobile app analytics, crash reporting, build distribution, managed databases, serverless functions, and CMS. 10 GitHub stars. | [Guide](/hermes/mcp/servers/external/appambit-mcp) |
 
 ### Category: Developer Tools
 

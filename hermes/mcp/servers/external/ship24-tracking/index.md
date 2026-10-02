@@ -88,7 +88,7 @@ Pair Ship24 tracking with CorpusIQ's e-commerce connectors: look up order status
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [ProShip MCP](/docs/hermes/mcp/servers/external/proship-mcp)
-- [ShipStar MCP](/docs/hermes/mcp/servers/external/shipstar-mcp)
-- [Walmart Marketplace MCP](/docs/hermes/mcp/servers/external/walmart-marketplace-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [ProShip MCP](/hermes/mcp/servers/external/proship-mcp)
+- [ShipStar MCP](/hermes/mcp/servers/external/shipstar-mcp)
+- [Walmart Marketplace MCP](/hermes/mcp/servers/external/walmart-marketplace-mcp)

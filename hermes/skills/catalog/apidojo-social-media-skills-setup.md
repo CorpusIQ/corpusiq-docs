@@ -102,13 +102,13 @@ No skills.sh security audits published (verified Sep 10, 2026 - the skill page r
 
 ## Related
 
-- [Blacktwist Social Media Skills - 14-Skill Content Suite Setup](/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup)
-- [Charlie Hills Social Media Skills - 17-Skill Content System Setup](/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup)
-- [Apify Growth Skills - Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/docs/hermes/skills/catalog/apify-growth-skills-setup)
-- [Apify Ultimate Scraper - Universal Web Scraping for 15+ Platforms Setup](/docs/hermes/skills/catalog/apify-ultimate-scraper-setup)
-- [Social Media - Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Blacktwist Social Media Skills - 14-Skill Content Suite Setup](/hermes/skills/catalog/blacktwist-social-media-skills-setup)
+- [Charlie Hills Social Media Skills - 17-Skill Content System Setup](/hermes/skills/catalog/charlie-hills-social-media-skills-setup)
+- [Apify Growth Skills - Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/hermes/skills/catalog/apify-growth-skills-setup)
+- [Apify Ultimate Scraper - Universal Web Scraping for 15+ Platforms Setup](/hermes/skills/catalog/apify-ultimate-scraper-setup)
+- [Social Media - Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

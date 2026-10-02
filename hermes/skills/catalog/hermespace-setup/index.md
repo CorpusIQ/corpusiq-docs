@@ -219,4 +219,4 @@ Evolution is triggered explicitly (`wm.evolve()`) and handled by the library - c
 
 ---
 
-*Discovered July 19, 2026 · [Marketplace →](/docs/hermes/skills/marketplace/new-july19-2026)*
+*Discovered July 19, 2026 · [Marketplace →](/hermes/skills/marketplace/new-july19-2026)*

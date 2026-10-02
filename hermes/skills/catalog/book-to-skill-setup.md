@@ -69,11 +69,11 @@ No skills.sh security audits published (verified Sep 27, 2026). Treat as unverif
 
 ## Related
 
-- [Creating Skills](/docs/hermes/skills/creating-skills)
-- [Advanced Skill Creator Setup](/docs/hermes/skills/catalog/advanced-skill-creator-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Creating Skills](/hermes/skills/creating-skills)
+- [Advanced Skill Creator Setup](/hermes/skills/catalog/advanced-skill-creator-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

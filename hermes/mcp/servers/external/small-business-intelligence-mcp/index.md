@@ -90,6 +90,6 @@ Brick & Mortar's local intelligence is the outside view; CorpusIQ is the inside.
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Worklittle Jobs MCP - Job Search and Market Data](/docs/hermes/mcp/servers/external/worklittle-jobs)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Worklittle Jobs MCP - Job Search and Market Data](/hermes/mcp/servers/external/worklittle-jobs)

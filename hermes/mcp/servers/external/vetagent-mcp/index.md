@@ -78,7 +78,7 @@ VetAgent screens the token; CorpusIQ screens the business. A composed workflow: 
 
 ## See Also
 
-- [Hive Intelligence MCP - Live Crypto Market Data](/docs/hermes/mcp/servers/external/hive-intelligence-mcp)
-- [CryptoStruct Market Data MCP - Real-Time Crypto Market Data](/docs/hermes/mcp/servers/external/cryptostruct-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Hive Intelligence MCP - Live Crypto Market Data](/hermes/mcp/servers/external/hive-intelligence-mcp)
+- [CryptoStruct Market Data MCP - Real-Time Crypto Market Data](/hermes/mcp/servers/external/cryptostruct-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

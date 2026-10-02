@@ -221,9 +221,9 @@ Plus 440+ additional contributors - the biggest contributor window yet.
 
 ---
 
-*← [v0.18.2 - WhatsApp Baileys Fix](/docs/hermes/changelog/v0.18.2) | [Changelog Home](/docs/hermes/changelog) →*
+*← [v0.18.2 - WhatsApp Baileys Fix](/hermes/changelog/v0.18.2) | [Changelog Home](/hermes/changelog) →*
 
-*↑ [Changelog Home](/docs/hermes/changelog)*
+*↑ [Changelog Home](/hermes/changelog)*
 
 ---
 

@@ -126,6 +126,6 @@ Helio and CorpusIQ cover opposite halves of the agent stack, and they pair clean
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [Governance](/docs/hermes/governance)
-- [Security](/docs/hermes/security)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [Governance](/hermes/governance)
+- [Security](/hermes/security)

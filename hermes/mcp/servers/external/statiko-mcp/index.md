@@ -84,7 +84,7 @@ Statiko covers the Telegram layer of the community picture; the catalogued RedRe
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [RedReplier MCP - Social Lead Monitoring and Reply Drafts for Agents](/docs/hermes/mcp/servers/external/redreplier-mcp)
-- [TrendPulse MCP - Google News and Trends Research](/docs/hermes/mcp/servers/external/trendpulse-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [RedReplier MCP - Social Lead Monitoring and Reply Drafts for Agents](/hermes/mcp/servers/external/redreplier-mcp)
+- [TrendPulse MCP - Google News and Trends Research](/hermes/mcp/servers/external/trendpulse-mcp)

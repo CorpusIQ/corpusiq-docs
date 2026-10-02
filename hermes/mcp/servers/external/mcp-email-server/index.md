@@ -153,6 +153,6 @@ hermes mcp list
 
 ## Related Guides
 
-- [CorpusIQ Email Connector](/docs/hermes/mcp/connectors/email) - OAuth-based Gmail/Outlook
-- [Google Search Console MCP](/docs/hermes/mcp/servers/external/google-search-console-mcp) - SEO analytics via MCP
-- [ComparEdge LLM Cost MCP](/docs/hermes/mcp/servers/external/comparedge-llm-cost-mcp) - Token cost intelligence
+- [CorpusIQ Email Connector](/hermes/mcp/connectors/email) - OAuth-based Gmail/Outlook
+- [Google Search Console MCP](/hermes/mcp/servers/external/google-search-console-mcp) - SEO analytics via MCP
+- [ComparEdge LLM Cost MCP](/hermes/mcp/servers/external/comparedge-llm-cost-mcp) - Token cost intelligence

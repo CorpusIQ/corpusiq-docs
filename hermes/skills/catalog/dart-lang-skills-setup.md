@@ -78,7 +78,7 @@ All three audits Pass - the basis for the 🟢 Production tier.
 
 ## Limitations / Verification
 
-- The suite is Dart/Flutter-specific; it does not cover other languages. For low-level C/C++/Rust/Zig work see the [Low-Level Dev Skills](/docs/hermes/skills/catalog/low-level-dev-skills-setup) guide.
+- The suite is Dart/Flutter-specific; it does not cover other languages. For low-level C/C++/Rust/Zig work see the [Low-Level Dev Skills](/hermes/skills/catalog/low-level-dev-skills-setup) guide.
 - The long reference tail has small per-skill install counts (60-1.1K); the workflow core above 13K is where most adoption sits.
 - 463 GitHub stars is modest for an official org repo; first-party status and clean audits carry the tier rather than star count.
 
@@ -91,10 +91,10 @@ npx skills add dart-lang/skills --list          # 30 skills discovered
 
 ## Related
 
-- [Low-Level Dev Skills Setup](/docs/hermes/skills/catalog/low-level-dev-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
+- [Low-Level Dev Skills Setup](/hermes/skills/catalog/low-level-dev-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace) - more discovery batches
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

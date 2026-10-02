@@ -88,5 +88,5 @@ Get Ads and CorpusIQ meet on the same platforms. CorpusIQ's Google Ads and GA4 c
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

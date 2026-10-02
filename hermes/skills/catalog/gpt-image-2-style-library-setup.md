@@ -78,6 +78,6 @@ npx skills add freestylefly/awesome-gpt-image-2
 
 ## Related
 
-- [AI Video Generation Setup](/docs/hermes/skills/catalog/ai-video-generation-setup) - skills-101 video pipeline
-- [HyperFrames](/docs/hermes/skills/catalog/hyperframes-setup) - video composition pipeline
-- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
+- [AI Video Generation Setup](/hermes/skills/catalog/ai-video-generation-setup) - skills-101 video pipeline
+- [HyperFrames](/hermes/skills/catalog/hyperframes-setup) - video composition pipeline
+- [Skills Marketplace](/hermes/skills/marketplace) - more discovery batches

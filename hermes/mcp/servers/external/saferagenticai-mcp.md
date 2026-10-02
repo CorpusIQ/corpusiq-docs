@@ -44,6 +44,6 @@ uvx saferagenticai-mcp
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [VRules MCP - AI Governance](/docs/hermes/mcp/servers/external/vrules)
-- [CorpusIQ Governance System](/docs/hermes/governance)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [VRules MCP - AI Governance](/hermes/mcp/servers/external/vrules)
+- [CorpusIQ Governance System](/hermes/governance)

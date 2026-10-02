@@ -39,7 +39,7 @@ The official OpenClaw design system, split into six focused skills. `openclaw-de
 
 Security: Gen Agent Trust Hub Pass, Socket Pass (Warn on openclaw-design), Snyk Pass.
 
-[Full Setup Guide →](/docs/hermes/skills/catalog/openclaw-carapace-setup)
+[Full Setup Guide →](/hermes/skills/catalog/openclaw-carapace-setup)
 
 ---
 
@@ -56,7 +56,7 @@ The openclaw-graph repo (311 skills, 19.7K installs) is already heavily catalogu
 | arkit-advanced | 48 | iOS AR scene reconstruction, 3D object tracking, RealityKit |
 | testing-integration | 46 | Supertest, httpx, Testcontainers, Pact contract testing |
 
-[Full Setup Guide →](/docs/hermes/skills/catalog/openclaw-graph-new-skills-setup)
+[Full Setup Guide →](/hermes/skills/catalog/openclaw-graph-new-skills-setup)
 
 ---
 
@@ -79,7 +79,7 @@ ByteDance's Volces platform mirrors agent skills into the skills.sh ecosystem. N
 | openclaw-logfire | 1 | Logfire observability integration |
 | openclaw-tavern | 1 | Tavern-style roleplay UI integration |
 
-[Full Setup Guide →](/docs/hermes/skills/catalog/volces-hermes-openclaw-skills-setup)
+[Full Setup Guide →](/hermes/skills/catalog/volces-hermes-openclaw-skills-setup)
 
 ---
 
@@ -90,7 +90,7 @@ ByteDance's Volces platform mirrors agent skills into the skills.sh ecosystem. N
 
 A new official skill from the Hermes Agent repo. Solves the exact problem every remote-gateway deployment hits: the built-in MCP OAuth client listens on `127.0.0.1`, which breaks when Hermes runs in a container/VPS because the browser resolves loopback to the user's laptop. The skill performs the OAuth dance manually and writes tokens into the exact files Hermes' token storage expects, so `/reload-mcp` picks them up without the browser flow.
 
-[Full Setup Guide →](/docs/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup)
+[Full Setup Guide →](/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup)
 
 ---
 
@@ -101,7 +101,7 @@ A new official skill from the Hermes Agent repo. Solves the exact problem every 
 
 Local-first memory layer that replaces Hermes' MEMORY.md/USER.md system with SQLite-backed vector + FTS5 hybrid search, episodic consolidation, temporal knowledge graphs, 20 injected memory tools, and 3 lifecycle hooks. 100% local, zero cloud.
 
-[Full Setup Guide →](/docs/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup)
+[Full Setup Guide →](/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup)
 
 ---
 
@@ -128,7 +128,7 @@ Honcho (the session memory layer CorpusIQ runs) now has integration skills for O
 
 Audits installed Hermes skills for usage frequency via Hermes' internal API (`_find_all_skills`, `_read_manifest`, `HubLockFile`), classifies each skill by source (hub/builtin/local/external), and generates an XLSX cleanup report. UI and docs are in Chinese. Directly useful for Hermes skill-pruning cycles.
 
-[Full Setup Guide →](/docs/hermes/skills/catalog/cnife-audit-hermes-agent-skills-setup)
+[Full Setup Guide →](/hermes/skills/catalog/cnife-audit-hermes-agent-skills-setup)
 
 ---
 
@@ -198,5 +198,5 @@ Single-install community skills across the Clawd ecosystem. Worth cataloguing fo
 
 ---
 
-*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Skills Marketplace](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Powered by CorpusIQ*

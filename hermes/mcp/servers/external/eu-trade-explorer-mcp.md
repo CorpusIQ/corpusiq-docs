@@ -53,4 +53,4 @@ CorpusIQ CRM → Target outreach to companies in growing EU trade sectors
 - Community-maintained endpoint - verify availability for production use
 - Data granularity limited to Eurostat's public datasets
 
-*Back to [External MCP Catalog](/docs/hermes/mcp/servers/external)*
+*Back to [External MCP Catalog](/hermes/mcp/servers/external)*

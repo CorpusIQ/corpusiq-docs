@@ -61,5 +61,5 @@ Endpoint `https://mcp.airsidelabs.com/mcp` live-probed over JSON-RPC: keyless in
 
 ## See Also
 
-- [DFX Real Estate Intelligence MCP - US Property, Parcel and Debt Data](/docs/hermes/mcp/servers/external/dfx-real-estate-mcp)
-- [WaitingForPower MCP - US Energy Permitting Tracker for Agents](/docs/hermes/mcp/servers/external/waitingforpower-mcp)
+- [DFX Real Estate Intelligence MCP - US Property, Parcel and Debt Data](/hermes/mcp/servers/external/dfx-real-estate-mcp)
+- [WaitingForPower MCP - US Energy Permitting Tracker for Agents](/hermes/mcp/servers/external/waitingforpower-mcp)

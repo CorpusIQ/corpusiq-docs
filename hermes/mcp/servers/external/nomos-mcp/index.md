@@ -88,7 +88,7 @@ Nomos complements CorpusIQ's financial connectors with a compliance and regulato
 
 ## See Also
 
-- [GovGazette MCP - Federal Contract and Award Intelligence](/docs/hermes/mcp/servers/external/govgazette-mcp)
-- [SudnoKontrol MCP - Ukrainian Vessel Registry Search](/docs/hermes/mcp/servers/external/sudnokontrol-mcp)
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [GovGazette MCP - Federal Contract and Award Intelligence](/hermes/mcp/servers/external/govgazette-mcp)
+- [SudnoKontrol MCP - Ukrainian Vessel Registry Search](/hermes/mcp/servers/external/sudnokontrol-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

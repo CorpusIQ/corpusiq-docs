@@ -140,7 +140,7 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
 - [MCP for Accountants: QuickBooks and Tax](/mcp)
 - [Learn about MCP for enterprise-scale deployments](/mcp)

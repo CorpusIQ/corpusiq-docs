@@ -85,6 +85,6 @@ TuFirma handles the signing lifecycle; CorpusIQ handles the money and CRM contex
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/docs/hermes/mcp/servers/external/policyforge-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [PolicyForge MCP - Legal Policies Generated and Audited from Your Codebase](/hermes/mcp/servers/external/policyforge-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

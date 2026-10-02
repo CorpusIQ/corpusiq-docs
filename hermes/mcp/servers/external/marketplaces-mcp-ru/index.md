@@ -84,8 +84,8 @@ marketplaces-mcp-ru reads the marketplace layer; CorpusIQ consolidates it with t
 
 ## See Also
 
-- [Wildberries MCP Server - Seller API Operations for Agents](/docs/hermes/mcp/servers/external/wb-mcp-server)
-- [Ozon MCP Server - Marketplace Seller Operations for Agents](/docs/hermes/mcp/servers/external/ozon-mcp-server)
-- [Walmart Marketplace MCP - 234 Marketplace Operations via Spec-Driven Discovery](/docs/hermes/mcp/servers/external/walmart-marketplace-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Wildberries MCP Server - Seller API Operations for Agents](/hermes/mcp/servers/external/wb-mcp-server)
+- [Ozon MCP Server - Marketplace Seller Operations for Agents](/hermes/mcp/servers/external/ozon-mcp-server)
+- [Walmart Marketplace MCP - 234 Marketplace Operations via Spec-Driven Discovery](/hermes/mcp/servers/external/walmart-marketplace-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

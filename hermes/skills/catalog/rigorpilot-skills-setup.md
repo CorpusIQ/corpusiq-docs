@@ -84,8 +84,8 @@ npx skills add llllllllama/rigorpilot-skills --skill safe-debug
 
 ## Related
 
-- [Research Paper Writing Pipeline Setup](/docs/hermes/skills/catalog/research-paper-writing-setup)
-- [Grounded Citations Setup](/docs/hermes/skills/catalog/grounded-citations-setup)
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Research Paper Writing Pipeline Setup](/hermes/skills/catalog/research-paper-writing-setup)
+- [Grounded Citations Setup](/hermes/skills/catalog/grounded-citations-setup)
+- [Skills Catalog](/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

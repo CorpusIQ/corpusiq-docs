@@ -166,9 +166,9 @@ For CorpusIQ content workflows:
 
 ## Related Skills
 
-- [HyperFrames Video Pipeline](/docs/hermes/skills/catalog/hyperframes-setup) - HTML-based video compositions
-- [Remotion Best Practices](/docs/hermes/skills/catalog/remotion-best-practices-setup) - React-based video production
-- [Media Use](/docs/hermes/skills/catalog/media-use-setup) - Agent Media OS for all media needs
+- [HyperFrames Video Pipeline](/hermes/skills/catalog/hyperframes-setup) - HTML-based video compositions
+- [Remotion Best Practices](/hermes/skills/catalog/remotion-best-practices-setup) - React-based video production
+- [Media Use](/hermes/skills/catalog/media-use-setup) - Agent Media OS for all media needs
 
 ---
 

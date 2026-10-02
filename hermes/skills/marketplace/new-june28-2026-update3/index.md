@@ -12,7 +12,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 **Sweep date:** June 28, 2026 (late evening) | **Source:** [skills.sh API](https://skills.sh) | **Method:** 3-term query sweep (hermes, openclaw, clawdbot) → precise cross-reference against all existing catalog and marketplace docs
 
-**Summary:** 9 newly discovered repos totaling ~8,800 combined skill installs. Complements the [morning sweep](/docs/hermes/skills/marketplace/new-june28-2026) (3 skills), [afternoon update](/docs/hermes/skills/marketplace/new-june28-2026-update) (17 skills), and [evening update 2](/docs/hermes/skills/marketplace/new-june28-2026-update2) (9 skills). This third sweep covers two major collections - the **Agent Flywheel mega-toolkit** (25+ skills for SSH, deployment, browser automation, swarm workflows, and more) and the **ClawDBot Feishu suite** (11 skills for the Lark/Feishu platform) - plus 7 standalone skills.
+**Summary:** 9 newly discovered repos totaling ~8,800 combined skill installs. Complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026) (3 skills), [afternoon update](/hermes/skills/marketplace/new-june28-2026-update) (17 skills), and [evening update 2](/hermes/skills/marketplace/new-june28-2026-update2) (9 skills). This third sweep covers two major collections - the **Agent Flywheel mega-toolkit** (25+ skills for SSH, deployment, browser automation, swarm workflows, and more) and the **ClawDBot Feishu suite** (11 skills for the Lark/Feishu platform) - plus 7 standalone skills.
 
 ---
 
@@ -65,7 +65,7 @@ npx skills add dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations
 npx skills add dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations --skill claude-chrome
 ```
 
-**Full setup guide:** [agent-flywheel-setup.md](/docs/hermes/skills/catalog/agent-flywheel-setup)
+**Full setup guide:** [agent-flywheel-setup.md](/hermes/skills/catalog/agent-flywheel-setup)
 
 ---
 
@@ -100,7 +100,7 @@ npx skills add m1heng/clawdbot-feishu --skill feishu-drive
 npx skills add m1heng/clawdbot-feishu --skill feishu-message
 ```
 
-**Full setup guide:** [clawdbot-feishu-setup.md](/docs/hermes/skills/catalog/clawdbot-feishu-setup)
+**Full setup guide:** [clawdbot-feishu-setup.md](/hermes/skills/catalog/clawdbot-feishu-setup)
 
 ---
 
@@ -176,10 +176,10 @@ npx skills add 1018466411/openclaw-stock-data-skill --skill openclaw-stock-skill
 ---
 
 **Setup guides created:**
-- [Agent Flywheel Mega-Toolkit](/docs/hermes/skills/catalog/agent-flywheel-setup)
-- [ClawDBot Feishu Suite](/docs/hermes/skills/catalog/clawdbot-feishu-setup)
+- [Agent Flywheel Mega-Toolkit](/hermes/skills/catalog/agent-flywheel-setup)
+- [ClawDBot Feishu Suite](/hermes/skills/catalog/clawdbot-feishu-setup)
 
-*← [Previous Discovery: June 28 Update 2](/docs/hermes/skills/marketplace/new-june28-2026-update2) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [Previous Discovery: June 28 Update 2](/hermes/skills/marketplace/new-june28-2026-update2) | [Marketplace Home](/hermes/skills/marketplace) →*
 
 ---
 

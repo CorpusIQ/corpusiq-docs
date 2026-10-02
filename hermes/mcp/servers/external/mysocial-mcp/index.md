@@ -82,7 +82,7 @@ Mysocial composes with CorpusIQ as the performance half of a social growth loop.
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Social Glass MCP: Cultural Intelligence for Brand and Research Teams](/docs/hermes/mcp/servers/external/social-glass-mcp)
-- [Maeve Social MCP - Social Publishing with Scope-Gated Agent Access](/docs/hermes/mcp/servers/external/maeve-social-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Social Glass MCP: Cultural Intelligence for Brand and Research Teams](/hermes/mcp/servers/external/social-glass-mcp)
+- [Maeve Social MCP - Social Publishing with Scope-Gated Agent Access](/hermes/mcp/servers/external/maeve-social-mcp)

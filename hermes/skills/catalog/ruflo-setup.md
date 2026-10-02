@@ -207,4 +207,4 @@ npx skills list | grep ruflo
 - **Cross-agent**: Works with 15+ coding agents, not locked to any single ecosystem
 - **When NOT to use**: One-shot edits, simple bug fixes, single-agent tasks - the orchestration overhead isn't worth it for simple work
 - **Full docs**: [github.com/ruvnet/ruflo](https://github.com/ruvnet/ruflo)
-- **Related**: See also [Hermes Agent Setup](/docs/hermes/skills/catalog/hermes-agent-setup) for native Hermes orchestration
+- **Related**: See also [Hermes Agent Setup](/hermes/skills/catalog/hermes-agent-setup) for native Hermes orchestration

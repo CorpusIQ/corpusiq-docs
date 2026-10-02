@@ -75,10 +75,10 @@ npx skills add coreyhaines31/marketingskills --skill agent-architect   # verify 
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Agent Treasury](/docs/hermes/skills/catalog/agent-treasury-setup) - resource management
-- [Agent Bridge](/docs/hermes/skills/catalog/agent-bridge-setup) - interoperability
+- [Skills Catalog](/hermes/skills/catalog)
+- [Agent Treasury](/hermes/skills/catalog/agent-treasury-setup) - resource management
+- [Agent Bridge](/hermes/skills/catalog/agent-bridge-setup) - interoperability
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

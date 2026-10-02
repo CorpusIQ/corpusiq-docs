@@ -49,4 +49,4 @@ Pair with CorpusIQ's business data connectors to contextualize legal research ag
 
 ---
 
-*→ [Back to External MCP Catalog](/docs/hermes/mcp/servers/external)*
+*→ [Back to External MCP Catalog](/hermes/mcp/servers/external)*

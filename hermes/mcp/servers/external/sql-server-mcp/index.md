@@ -44,5 +44,5 @@ Not live-probed (stdio package, no public endpoint). The npm registry resolves @
 
 ## See Also
 
-- [mnemiq MCP - Tunable Text-to-SQL for Business Databases](/docs/hermes/mcp/servers/external/mnemiq-mcp)
-- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/docs/hermes/mcp/servers/external/sqemo-mcp)
+- [mnemiq MCP - Tunable Text-to-SQL for Business Databases](/hermes/mcp/servers/external/mnemiq-mcp)
+- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/hermes/mcp/servers/external/sqemo-mcp)

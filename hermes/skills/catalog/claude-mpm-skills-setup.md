@@ -74,11 +74,11 @@ MIT license. No skills.sh security audits published (verified Sep 30, 2026):
 
 ## Related
 
-- [Skill From Masters Setup](/docs/hermes/skills/catalog/skill-from-masters-setup)
-- [Dot Skills Setup](/docs/hermes/skills/catalog/dot-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Skill From Masters Setup](/hermes/skills/catalog/skill-from-masters-setup)
+- [Dot Skills Setup](/hermes/skills/catalog/dot-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

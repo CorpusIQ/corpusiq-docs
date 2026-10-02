@@ -50,4 +50,4 @@ Pair with CorpusIQ's YouTube analytics connector for complete YouTube intelligen
 
 ---
 
-*→ [Back to External MCP Catalog](/docs/hermes/mcp/servers/external)*
+*→ [Back to External MCP Catalog](/hermes/mcp/servers/external)*

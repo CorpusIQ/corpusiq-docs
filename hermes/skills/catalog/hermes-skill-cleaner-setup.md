@@ -140,5 +140,5 @@ The script reads Hermes context window size from (highest priority first):
 
 ---
 
-*← [Session Maintenance Setup](/docs/hermes/skills/catalog/hermes-session-maintenance-setup) | [Skills Catalog →](/docs/hermes/skills/catalog)*
+*← [Session Maintenance Setup](/hermes/skills/catalog/hermes-session-maintenance-setup) | [Skills Catalog →](/hermes/skills/catalog)*
 *Powered by CorpusIQ*

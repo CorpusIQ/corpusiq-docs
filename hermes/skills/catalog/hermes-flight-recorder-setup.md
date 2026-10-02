@@ -218,6 +218,6 @@ ls runs/training_export/manifest.json
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Flight Recorder on GitHub](https://github.com/zwright8/hermes-flight-recorder) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Flight Recorder on GitHub](https://github.com/zwright8/hermes-flight-recorder) →*
 
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

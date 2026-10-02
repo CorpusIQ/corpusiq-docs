@@ -84,7 +84,7 @@ ISO 20022 Generator sits at the execution end of a CorpusIQ payment workflow: an
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Nacha MCP - ACH File Parsing and Validation](/docs/hermes/mcp/servers/external/nacha-mcp)
-- [BeeL MCP - Spanish VeriFactu E-Invoicing Compliance](/docs/hermes/mcp/servers/external/beel-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Nacha MCP - ACH File Parsing and Validation](/hermes/mcp/servers/external/nacha-mcp)
+- [BeeL MCP - Spanish VeriFactu E-Invoicing Compliance](/hermes/mcp/servers/external/beel-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

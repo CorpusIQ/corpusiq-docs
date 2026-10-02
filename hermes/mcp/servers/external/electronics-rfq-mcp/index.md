@@ -82,7 +82,7 @@ Electronics RFQ Agent converts RFQ documents into structured quote lines; Corpus
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [FluentEDI MCP](/docs/hermes/mcp/servers/external/fluentedi-mcp) - hosted X12 EDI processing for supply-chain agents
-- [Oracle MCP](/docs/hermes/mcp/servers/external/oracle-mcp) - Oracle database access for agents
-- [QuickBooks MCP](/docs/hermes/mcp/servers/external/quickbooks-mcp) - accounting and financial operations
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [FluentEDI MCP](/hermes/mcp/servers/external/fluentedi-mcp) - hosted X12 EDI processing for supply-chain agents
+- [Oracle MCP](/hermes/mcp/servers/external/oracle-mcp) - Oracle database access for agents
+- [QuickBooks MCP](/hermes/mcp/servers/external/quickbooks-mcp) - accounting and financial operations

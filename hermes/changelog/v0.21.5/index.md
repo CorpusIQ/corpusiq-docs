@@ -42,9 +42,9 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 ---
 
-*← [v0.21.4 - Patch Release](/docs/hermes/changelog/v0.21.4) | [Changelog Home](/docs/hermes/changelog) →*
+*← [v0.21.4 - Patch Release](/hermes/changelog/v0.21.4) | [Changelog Home](/hermes/changelog) →*
 
-*↑ [Changelog Home](/docs/hermes/changelog)*
+*↑ [Changelog Home](/hermes/changelog)*
 
 ---
 

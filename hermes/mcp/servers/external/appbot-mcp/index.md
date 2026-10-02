@@ -85,6 +85,6 @@ Appbot supplies the voice of the customer; CorpusIQ supplies the behavior behind
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [PreVibe MCP - SaaS Product Research and Validation for Agents](/docs/hermes/mcp/servers/external/previbe-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [PreVibe MCP - SaaS Product Research and Validation for Agents](/hermes/mcp/servers/external/previbe-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

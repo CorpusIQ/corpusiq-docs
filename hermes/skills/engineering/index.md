@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Engineering Skills
 
-These are skills for **building the platform itself**  --  distinct from [development skills](/docs/hermes/skills/development), which cover using the platform (GitHub PRs, code review, repo management). Engineering skills capture patterns earned through operating a multi-connector MCP server at production scale: what broke, how it was fixed, and the discipline that prevents recurrence.
+These are skills for **building the platform itself**  --  distinct from [development skills](/hermes/skills/development), which cover using the platform (GitHub PRs, code review, repo management). Engineering skills capture patterns earned through operating a multi-connector MCP server at production scale: what broke, how it was fixed, and the discipline that prevents recurrence.
 
 Every skill here is a fence around a hole the team already fell into.
 
@@ -105,7 +105,7 @@ Server-side semantic memory via Honcho MCP  --  when and how to use it:
 
 ## Why These Are Distinct From Development Skills
 
-The [development skills](/docs/hermes/skills/development) section covers tools every developer uses: GitHub PRs, code review, repo cloning, syntax checking. These are well-trodden, mostly automatable patterns.
+The [development skills](/hermes/skills/development) section covers tools every developer uses: GitHub PRs, code review, repo cloning, syntax checking. These are well-trodden, mostly automatable patterns.
 
 Engineering skills capture a different class of knowledge  --  the patterns that emerge when you operate a customer-facing platform at the scale where:
 

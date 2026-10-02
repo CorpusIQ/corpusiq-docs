@@ -79,9 +79,9 @@ Sorank pairs with CorpusIQ's GA4 and Search Console coverage on the diagnostic s
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/docs/hermes/mcp/servers/external/seomatic-mcp)
-- [Ranki MCP - Free SEO and AEO Audits for AI Agents](/docs/hermes/mcp/servers/external/ranki-mcp)
-- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/docs/hermes/mcp/servers/external/tracetify-mcp)
-- [HiBot MCP - ANSWER-Framework AI Visibility Audits](/docs/hermes/mcp/servers/external/hibot-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/hermes/mcp/servers/external/seomatic-mcp)
+- [Ranki MCP - Free SEO and AEO Audits for AI Agents](/hermes/mcp/servers/external/ranki-mcp)
+- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/hermes/mcp/servers/external/tracetify-mcp)
+- [HiBot MCP - ANSWER-Framework AI Visibility Audits](/hermes/mcp/servers/external/hibot-mcp)

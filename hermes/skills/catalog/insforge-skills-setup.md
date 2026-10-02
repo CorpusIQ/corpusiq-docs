@@ -63,5 +63,5 @@ npx skills add insforge/insforge-skills --skill insforge-integrations  # third-p
 
 ## Related
 
-- [Mastra AI Skills Setup](/docs/hermes/skills/catalog/mastra-ai-skills-setup)
-- [Inngest Skills Setup](/docs/hermes/skills/catalog/inngest-skills-setup)
+- [Mastra AI Skills Setup](/hermes/skills/catalog/mastra-ai-skills-setup)
+- [Inngest Skills Setup](/hermes/skills/catalog/inngest-skills-setup)

@@ -45,7 +45,7 @@ npx skills add aaaaqwq/claude-code-skills/memory-hygiene
 ### Hermes/CorpusIQ Relevance
 Directly applicable to Hermes agent memory management. Prevents the "memory bloat → token waste → degraded performance" cycle that plagues long-running agents. The `autoCapture: false` + `autoRecall: true` pattern preserves useful recall without accumulating garbage.
 
-**Setup guide:** [memory-hygiene-setup.md](/docs/hermes/skills/catalog/memory-hygiene-setup)
+**Setup guide:** [memory-hygiene-setup.md](/hermes/skills/catalog/memory-hygiene-setup)
 
 ---
 
@@ -73,7 +73,7 @@ npx skills add sickn33/antigravity-awesome-skills/llm-ops
 ### Hermes/CorpusIQ Relevance
 Covers the full LLM ops stack that CorpusIQ agents depend on: model routing, cost tracking, embedding pipelines, and production deployment patterns. The Portuguese content is machine-translatable and the technical patterns are language-agnostic.
 
-**Setup guide:** [llm-ops-setup.md](/docs/hermes/skills/catalog/llm-ops-setup)
+**Setup guide:** [llm-ops-setup.md](/hermes/skills/catalog/llm-ops-setup)
 
 ---
 
@@ -99,7 +99,7 @@ npx skills add alphaonedev/openclaw-graph/linux-systemd
 ### Hermes/CorpusIQ Relevance
 Hermes agents running on Linux hosts. This skill provides canonical patterns for systemd service management - directly applicable to the gateway service, cron workers, and long-running agent processes.
 
-**Setup guide:** [linux-systemd-setup.md](/docs/hermes/skills/catalog/linux-systemd-setup)
+**Setup guide:** [linux-systemd-setup.md](/hermes/skills/catalog/linux-systemd-setup)
 
 ---
 
@@ -124,7 +124,7 @@ npx skills add alphaonedev/openclaw-graph/macos-launchd
 ### Hermes/CorpusIQ Relevance
 The Mac Mini worker node runs Hermes processes. This skill enables proper launchd supervision - replacing fragile cron-only or manual-start approaches with OS-native process management.
 
-**Setup guide:** [macos-launchd-setup.md](/docs/hermes/skills/catalog/macos-launchd-setup)
+**Setup guide:** [macos-launchd-setup.md](/hermes/skills/catalog/macos-launchd-setup)
 
 ---
 
@@ -150,7 +150,7 @@ cd claude-code-setup && ./setup.sh
 ### Hermes/CorpusIQ Relevance
 Useful pattern for teams running multiple Hermes/Claude instances across machines. The symlink approach to skill management is directly applicable to CorpusIQ's multi-machine agent deployment (DGX + Mac Mini).
 
-**Setup guide:** [openclaw-customizer-setup.md](/docs/hermes/skills/catalog/openclaw-customizer-setup)
+**Setup guide:** [openclaw-customizer-setup.md](/hermes/skills/catalog/openclaw-customizer-setup)
 
 ---
 
@@ -175,7 +175,7 @@ npx skills add aradotso/hermes-skills/metamask-openclaw-desktop-security-analysi
 ### Hermes/CorpusIQ Relevance
 As Hermes agents gain more autonomous execution capabilities, security analysis skills become critical. This skill exemplifies the pattern of using agent skills for defensive security - evaluating external tools before granting them execution access.
 
-**Setup guide:** [metamask-openclaw-security-analysis-setup.md](/docs/hermes/skills/catalog/metamask-openclaw-security-analysis-setup)
+**Setup guide:** [metamask-openclaw-security-analysis-setup.md](/hermes/skills/catalog/metamask-openclaw-security-analysis-setup)
 
 ---
 

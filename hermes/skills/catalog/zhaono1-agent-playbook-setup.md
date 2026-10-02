@@ -85,8 +85,8 @@ npx skills add zhaono1/agent-playbook   # verify install works
 
 ## Related
 
-- [Self-Improving Agent - charon-fan Edition](/docs/hermes/skills/catalog/self-improving-agent-setup)
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Self-Improving Agent - charon-fan Edition](/hermes/skills/catalog/self-improving-agent-setup)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

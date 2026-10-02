@@ -24,7 +24,7 @@ robots: "index,follow"
 
 Fullstory's official MCP plugin connects Claude or Cursor directly to the Fullstory behavioral analytics platform. Instead of switching between Fullstory dashboards and your AI agent, you can query session data, analyze user behavior, compute funnel metrics, and retrieve customer experience insights - all from within your AI workflow.
 
-This is the main Fullstory platform integration - distinct from [Subtext](/docs/hermes/mcp/servers/external/subtext-mcp) (Fullstory's agent-native session replay tool for coding agents).
+This is the main Fullstory platform integration - distinct from [Subtext](/hermes/mcp/servers/external/subtext-mcp) (Fullstory's agent-native session replay tool for coding agents).
 
 ## Why Business Operators Need This
 
@@ -98,7 +98,7 @@ CorpusIQ operators using Fullstory can combine both platforms:
 
 ## See Also
 
-- [Subtext MCP](/docs/hermes/mcp/servers/external/subtext-mcp) - Fullstory's agent-native session replay for coding agents
+- [Subtext MCP](/hermes/mcp/servers/external/subtext-mcp) - Fullstory's agent-native session replay for coding agents
 - [Fullstory Developer Docs](https://developer.fullstory.com)
 - [Fullstory MCP Blog Post](https://www.fullstory.com/blog/fullstory-mcp/)
-- [Google Analytics MCP](/docs/hermes/mcp/servers/external/google-analytics-mcp) - Alternative analytics source
+- [Google Analytics MCP](/hermes/mcp/servers/external/google-analytics-mcp) - Alternative analytics source

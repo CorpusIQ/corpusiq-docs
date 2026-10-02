@@ -13,7 +13,7 @@ robots: "index,follow"
 
 **Sources:** mcpservers.org /all page (10,079+ servers), awesome-mcp-servers PR queue (punkpeye/awesome-mcp-servers), mcp.so (unreachable - 502)
 **Date:** July 21, 2026, 03:02 MST
-**Previous scan:** [July 20 Sweep](/docs/hermes/mcp/servers/external/scan-results-2026-07-19) (last scan-results file)
+**Previous scan:** [July 20 Sweep](/hermes/mcp/servers/external/scan-results-2026-07-19) (last scan-results file)
 **Coverage:** New submissions since July 20 sweep
 
 ## Methodology

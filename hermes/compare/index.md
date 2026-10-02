@@ -20,6 +20,6 @@ Side-by-side comparisons to help operators choose between CorpusIQ and alternati
 | [CorpusIQ vs Airbyte](corpusiq-vs-airbyte) | Cross-source AI answers vs open-source ELT pipelines |
 | [CorpusIQ vs Fivetran](corpusiq-vs-fivetran) | Cross-source AI answers vs managed data integration |
 
-*← [Hermes Home](/docs/hermes) | [SEO Pages →](/docs/hermes/seo)*
+*← [Hermes Home](/hermes) | [SEO Pages →](/hermes/seo)*
 
-*↑ [Section Home](/docs/hermes)*
+*↑ [Section Home](/hermes)*

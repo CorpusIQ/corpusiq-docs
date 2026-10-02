@@ -98,5 +98,5 @@ cat /tmp/test-impeccable.txt
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 27 Discovery](/docs/hermes/skills/marketplace/new-june27-2026) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [June 27 Discovery](/hermes/skills/marketplace/new-june27-2026) →*
 *Powered by CorpusIQ*

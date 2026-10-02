@@ -84,6 +84,6 @@ CorpusIQ brings the business data layer (GA4, Search Console, Ahrefs, CRM) while
 
 ## See Also
 
-- [Routara LLM Gateway MCP - Multi-Provider LLM Routing](/docs/hermes/mcp/servers/external/routara-llm-gateway-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Routara LLM Gateway MCP - Multi-Provider LLM Routing](/hermes/mcp/servers/external/routara-llm-gateway-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

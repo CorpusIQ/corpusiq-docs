@@ -86,9 +86,9 @@ npx skills add caffeinelabs/skills --skill extension-email-verification   # veri
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Resend Skills Setup](/docs/hermes/skills/catalog/resend-skills-setup) - email deliverability and templates
+- [Skills Catalog](/hermes/skills/catalog)
+- [Resend Skills Setup](/hermes/skills/catalog/resend-skills-setup) - email deliverability and templates
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

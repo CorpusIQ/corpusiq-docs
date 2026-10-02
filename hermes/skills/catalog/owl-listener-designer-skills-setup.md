@@ -68,6 +68,6 @@ npx skills add owl-listener/designer-skills --skill accessibility-audit
 
 ## Related
 
-- [Emil Kowalski Design Skills](/docs/hermes/skills/catalog/emilkowalski-skills-setup)
-- [Superdesign Setup](/docs/hermes/skills/catalog/superdesign-skill-setup)
-- [Meng To Skills - Frontend & Motion Design Suite](/docs/hermes/skills/catalog/mengto-skills-setup)
+- [Emil Kowalski Design Skills](/hermes/skills/catalog/emilkowalski-skills-setup)
+- [Superdesign Setup](/hermes/skills/catalog/superdesign-skill-setup)
+- [Meng To Skills - Frontend & Motion Design Suite](/hermes/skills/catalog/mengto-skills-setup)

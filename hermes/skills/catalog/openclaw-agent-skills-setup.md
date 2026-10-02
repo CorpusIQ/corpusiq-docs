@@ -91,9 +91,9 @@ npx skills add openclaw/agent-skills   # verify install works
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
-- [OpenClaw Audit Watchdog Setup](/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup)
-- [OpenClaw Skill Vetter Setup](/docs/hermes/skills/catalog/openclaw-skill-vetter-setup)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Skills Marketplace](/hermes/skills/marketplace)
+- [OpenClaw Audit Watchdog Setup](/hermes/skills/catalog/openclaw-audit-watchdog-setup)
+- [OpenClaw Skill Vetter Setup](/hermes/skills/catalog/openclaw-skill-vetter-setup)
 
 *Powered by CorpusIQ*

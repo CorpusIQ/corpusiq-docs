@@ -73,4 +73,4 @@ Most company wikis are write-only - people add pages, nobody finds them later. A
 ---
 
 *Discovered via mcpservers.org - July 4, 2026*
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [Astucia Wiki](https://astucia.wiki) →*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [Astucia Wiki](https://astucia.wiki) →*

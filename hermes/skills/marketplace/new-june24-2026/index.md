@@ -18,10 +18,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | # | Repo | Stars | Type | Setup Guide |
 |---|------|:-----:|------|:-----------:|
-| 1 | `doucoo/ashima` | ⭐1 | Meta-routing (4 skills: ashima, aria, duet, chorus) | [Ashima Setup](/docs/hermes/skills/catalog/ashima-setup) |
-| 2 | `Freakingnolife/sg-arrival-card-skill` | ⭐2 | Browser automation (SGAC submission) | [SG Arrival Card Setup](/docs/hermes/skills/catalog/sg-arrival-card-setup) |
-| 3 | `sebmarion/hermes-agent-skill-perfectloop` | ⭐0 | Loop design framework (21KB SKILL.md) | [Perfectloop Setup](/docs/hermes/skills/catalog/perfectloop-setup) |
-| 4 | `airbrushbones-afk/hermes-skills` | ⭐0 | Three-Agent Bridge Protocol | [Three-Agent Bridge Setup](/docs/hermes/skills/catalog/three-agent-bridge-setup) |
+| 1 | `doucoo/ashima` | ⭐1 | Meta-routing (4 skills: ashima, aria, duet, chorus) | [Ashima Setup](/hermes/skills/catalog/ashima-setup) |
+| 2 | `Freakingnolife/sg-arrival-card-skill` | ⭐2 | Browser automation (SGAC submission) | [SG Arrival Card Setup](/hermes/skills/catalog/sg-arrival-card-setup) |
+| 3 | `sebmarion/hermes-agent-skill-perfectloop` | ⭐0 | Loop design framework (21KB SKILL.md) | [Perfectloop Setup](/hermes/skills/catalog/perfectloop-setup) |
+| 4 | `airbrushbones-afk/hermes-skills` | ⭐0 | Three-Agent Bridge Protocol | [Three-Agent Bridge Setup](/hermes/skills/catalog/three-agent-bridge-setup) |
 
 ### 1. Ashima - Meta-Routing Orchestrator (doucoo/ashima)
 
@@ -124,6 +124,6 @@ All 11 repos from `srkhorde` have **0-byte READMEs** and no SKILL.md files. Zero
 
 ---
 
-*← [Marketplace Home](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Marketplace Home](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills). Built by [CorpusIQ](https://www.corpusiq.io).*

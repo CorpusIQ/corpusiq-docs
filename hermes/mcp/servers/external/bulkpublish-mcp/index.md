@@ -74,6 +74,6 @@ API key required for all writes. Analytics read depends on platform-provided met
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [PostMCP MCP - Social Publishing Pipelines for Agents](/docs/hermes/mcp/servers/external/postmcp-mcp)
-- [Mysocial MCP - Your Real Social Media History as Agent Memory](/docs/hermes/mcp/servers/external/mysocial-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [PostMCP MCP - Social Publishing Pipelines for Agents](/hermes/mcp/servers/external/postmcp-mcp)
+- [Mysocial MCP - Your Real Social Media History as Agent Memory](/hermes/mcp/servers/external/mysocial-mcp)

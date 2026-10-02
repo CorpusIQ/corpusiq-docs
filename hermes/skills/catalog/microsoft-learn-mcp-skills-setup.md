@@ -56,9 +56,9 @@ npx skills add microsoftdocs/mcp
 
 ## Related
 
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

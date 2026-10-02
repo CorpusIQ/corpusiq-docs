@@ -146,7 +146,7 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
 - [MCP for Marketing: Campaign Analytics and ROI](/mcp)
 - [MCP for Sales: Pipeline and Forecasting](/mcp)

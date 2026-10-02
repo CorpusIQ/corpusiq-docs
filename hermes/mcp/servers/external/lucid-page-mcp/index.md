@@ -84,6 +84,6 @@ lucid.page is the delivery layer for CorpusIQ's analytical output: a CorpusIQ se
 
 ## See Also
 
-- [LiveSend MCP - Client Reports as Trackable Protected Links](/docs/hermes/mcp/servers/external/livesend-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [LiveSend MCP - Client Reports as Trackable Protected Links](/hermes/mcp/servers/external/livesend-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

@@ -68,11 +68,11 @@ MIT license (Copyright 2026 Dominique Boeckli). No skills.sh security audits pub
 
 ## Related
 
-- [Riekelt Principal Engineer Setup](/docs/hermes/skills/catalog/riekelt-principal-engineer-setup)
-- [Skill Vetting](/docs/hermes/skills/catalog/skill-vetter-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Riekelt Principal Engineer Setup](/hermes/skills/catalog/riekelt-principal-engineer-setup)
+- [Skill Vetting](/hermes/skills/catalog/skill-vetter-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

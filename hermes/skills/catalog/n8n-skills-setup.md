@@ -88,10 +88,10 @@ curl -s http://localhost:5678/healthz
 
 ## Related
 
-- [MCP & API Integration catalog section](/docs/hermes/skills/catalog)
-- [Firecrawl Skills Setup](/docs/hermes/skills/catalog/firecrawl-skills-setup)
+- [MCP & API Integration catalog section](/hermes/skills/catalog)
+- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup)
 - [n8n documentation](https://docs.n8n.io/)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -76,8 +76,8 @@ CorpusIQ connects your own business systems (CRM, ads, commerce, finance) as rea
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Xverum MCP - People Search Across 750M Professional Profiles](/docs/hermes/mcp/servers/external/xverum-mcp)
-- [Apollo.io MCP - Lead Search and Contact Enrichment](/docs/hermes/mcp/servers/external/apollo-io-mcp)
-- [Signal Nodus SEC Filings MCP - Primary-Source SEC Intelligence for AI Agents](/docs/hermes/mcp/servers/external/signal-nodus-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Xverum MCP - People Search Across 750M Professional Profiles](/hermes/mcp/servers/external/xverum-mcp)
+- [Apollo.io MCP - Lead Search and Contact Enrichment](/hermes/mcp/servers/external/apollo-io-mcp)
+- [Signal Nodus SEC Filings MCP - Primary-Source SEC Intelligence for AI Agents](/hermes/mcp/servers/external/signal-nodus-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

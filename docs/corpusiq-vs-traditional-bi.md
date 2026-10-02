@@ -139,12 +139,12 @@ A: Results are delivered through your AI assistant, which can format them as tab
 ## Internal Links
 
 - [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
-- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/compare/corpusiq-vs-zapier)
-- [How to Build an Executive AI Dashboard](/answers)
-- [How to Query Business Data in Natural Language](/answers)
-- [How to Analyze Company Data with ChatGPT](/answers)
+- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](https://www.corpusiq.io/compare/corpusiq-vs-zapier)
+- [How to Build an Executive AI Dashboard](https://www.corpusiq.io/answers)
+- [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
+- [How to Analyze Company Data with ChatGPT](https://www.corpusiq.io/answers)
 - [Best Business AI Search Tool](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top Business AI Tools Comparison](/compare)
 ---
 

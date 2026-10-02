@@ -67,11 +67,11 @@ MIT license. No skills.sh security audits published (verified Sep 30, 2026):
 
 ## Related
 
-- [Claude MPM Skills Setup](/docs/hermes/skills/catalog/claude-mpm-skills-setup)
-- [Dboeckli AI Agent Skills Setup](/docs/hermes/skills/catalog/dboeckli-ai-agent-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Claude MPM Skills Setup](/hermes/skills/catalog/claude-mpm-skills-setup)
+- [Dboeckli AI Agent Skills Setup](/hermes/skills/catalog/dboeckli-ai-agent-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

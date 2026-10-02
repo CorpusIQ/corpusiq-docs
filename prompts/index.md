@@ -24,8 +24,8 @@ Battle-tested prompts for operators using CorpusIQ with Claude and ChatGPT.
 
 ## Hermes Agent Prompts
 
-For Hermes Agent users, see the [Hermes Prompts Library](/docs/hermes/prompts) with production-ready prompts for code generation, content creation, data analysis, and business operations.
+For Hermes Agent users, see the [Hermes Prompts Library](/hermes/prompts) with production-ready prompts for code generation, content creation, data analysis, and business operations.
 
 ---
 
-*← [CorpusIQ Docs Home](/) | [Hermes Community Hub →](/docs/hermes)*
+*← [CorpusIQ Docs Home](/) | [Hermes Community Hub →](/hermes)*

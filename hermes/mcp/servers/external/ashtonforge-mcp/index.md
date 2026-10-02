@@ -74,6 +74,6 @@ Ashton & Forge composes with CorpusIQ as the build-vs-buy conversation. CorpusIQ
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Small Business Intelligence MCP - Metro Records and Teardowns](/docs/hermes/mcp/servers/external/small-business-intelligence-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Small Business Intelligence MCP - Metro Records and Teardowns](/hermes/mcp/servers/external/small-business-intelligence-mcp)

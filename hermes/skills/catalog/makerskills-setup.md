@@ -148,16 +148,16 @@ npx skills find "company-brain" --json 2>&1 | grep skills.sh
 ## Security
 
 - [coreyhaines31/makerskills repo](https://github.com/coreyhaines31/makerskills) - review SKILL.md files before install (standard practice)
-- [Hermes skills security](/docs/hermes/best-practices/security) - skill trust guidance
+- [Hermes skills security](/hermes/best-practices/security) - skill trust guidance
 - skills.sh security audits: Gen Agent Trust Hub Pass, Socket Pass, Snyk Warn
 
 ## Related
 
-- [GBrain Agent Operations Setup](/docs/hermes/skills/catalog/gbrain-agent-operations-setup) - vector memory layer for Hermes agents
-- [Honcho Integration Setup](/docs/hermes/skills/catalog/honcho-integration-setup) - conversational memory infrastructure
-- [Agentic Awesome Skills (AAS) Setup](/docs/hermes/skills/catalog/agentic-awesome-skills-setup) - 2,000+ skill catalog with memory-systems playbooks
-- [Skills Catalog](/docs/hermes/skills/catalog) - full catalog index
+- [GBrain Agent Operations Setup](/hermes/skills/catalog/gbrain-agent-operations-setup) - vector memory layer for Hermes agents
+- [Honcho Integration Setup](/hermes/skills/catalog/honcho-integration-setup) - conversational memory infrastructure
+- [Agentic Awesome Skills (AAS) Setup](/hermes/skills/catalog/agentic-awesome-skills-setup) - 2,000+ skill catalog with memory-systems playbooks
+- [Skills Catalog](/hermes/skills/catalog) - full catalog index
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -104,6 +104,6 @@ CorpusIQ can complement SiteGuru MCP by providing business context alongside SEO
 
 ## See Also
 
-- [AfterLaunch MCP](/docs/hermes/mcp/servers/external/afterlaunch-mcp) - AI answer visibility + GEO
-- [Ahrefs MCP](/docs/hermes/mcp/servers/external/ahrefs-mcp) - Competitive keyword research
-- [Pangolinfo MCP](/docs/hermes/mcp/servers/external/pangolinfo-mcp) - Amazon + e-commerce intelligence
+- [AfterLaunch MCP](/hermes/mcp/servers/external/afterlaunch-mcp) - AI answer visibility + GEO
+- [Ahrefs MCP](/hermes/mcp/servers/external/ahrefs-mcp) - Competitive keyword research
+- [Pangolinfo MCP](/hermes/mcp/servers/external/pangolinfo-mcp) - Amazon + e-commerce intelligence

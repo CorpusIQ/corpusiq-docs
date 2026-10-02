@@ -163,10 +163,10 @@ Ready to put AI to work on your corpusiq vs data warehouses  --  mcp live query 
 - [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/compare)
 - [CorpusIQ vs Airbyte  --  MCP vs Open-Source Data Integration](/compare)
 - [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/compare)
-- [How to Query Business Data in Natural Language](/answers)
-- [How to Connect Multiple Data Sources to AI](/answers)
+- [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
+- [How to Connect Multiple Data Sources to AI](https://www.corpusiq.io/answers)
 - [Best AI Data Connector for Business](/connectors)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Secure AI Data Connectivity](/security)
 
 ---

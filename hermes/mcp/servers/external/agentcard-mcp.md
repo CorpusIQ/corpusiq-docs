@@ -50,4 +50,4 @@ Pair with CorpusIQ's Stripe and QuickBooks connectors for complete spend visibil
 
 ---
 
-*→ [Back to External MCP Catalog](/docs/hermes/mcp/servers/external)*
+*→ [Back to External MCP Catalog](/hermes/mcp/servers/external)*

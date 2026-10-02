@@ -81,7 +81,7 @@ CorpusIQ's data connectors answer "what is the business doing"; CTlogs answers "
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [EuroDNS MCP - Domain, DNS and SSL Registrar Operations](/docs/hermes/mcp/servers/external/eurodns-mcp)
-- [Bug Bounty Intelligence MCP - Smart Contract Security Analysis](/docs/hermes/mcp/servers/external/bug-bounty-intelligence-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [EuroDNS MCP - Domain, DNS and SSL Registrar Operations](/hermes/mcp/servers/external/eurodns-mcp)
+- [Bug Bounty Intelligence MCP - Smart Contract Security Analysis](/hermes/mcp/servers/external/bug-bounty-intelligence-mcp)

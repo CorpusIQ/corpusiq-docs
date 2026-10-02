@@ -199,8 +199,8 @@ Every blueprint follows a predictable escalation pattern: automated retry (trans
 - [Content Pipeline Blueprint](content-pipeline)  --  Research, draft, review, publish, promote
 - [Financial Close Blueprint](financial-close)  --  Monthly reconciliation and reporting
 - [Incident Response Blueprint](incident-response)  --  Detection, triage, remediation, postmortem
-- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design)  --  Reliable scheduled automation
-- [Integration Examples](/docs/hermes/integrations)  --  Tool connection patterns for blueprints
+- [Cron Design Best Practices](/hermes/best-practices/cron-design)  --  Reliable scheduled automation
+- [Integration Examples](/hermes/integrations)  --  Tool connection patterns for blueprints
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

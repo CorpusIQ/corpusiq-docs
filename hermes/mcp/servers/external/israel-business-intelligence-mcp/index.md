@@ -85,7 +85,7 @@ The Israel Business Intelligence server slots into CorpusIQ's data-connector est
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Korea Business Verify MCP - Live KYB Checks for Korean Companies](/docs/hermes/mcp/servers/external/korea-business-verify)
-- [QoreNext Trade Screening MCP - Sanctions and Restricted-Party Checks](/docs/hermes/mcp/servers/external/qorenext-tradescreening-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Korea Business Verify MCP - Live KYB Checks for Korean Companies](/hermes/mcp/servers/external/korea-business-verify)
+- [QoreNext Trade Screening MCP - Sanctions and Restricted-Party Checks](/hermes/mcp/servers/external/qorenext-tradescreening-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

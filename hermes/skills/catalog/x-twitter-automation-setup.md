@@ -82,9 +82,9 @@ hermes run x-twitter-automation --action replies --tweet-id 123456789
 
 ## Related Skills
 
-- [twitter-gtm-find-skill](/docs/hermes/skills/catalog/twitter-gtm-find-skill-setup) - GTM/DevRel job scraping from X/Twitter
-- [autonomous-helpful-presence-mining](/docs/hermes/skills) - CorpusIQ's help-first community engagement framework
-- [corpusiq-social-cadence-engine](/docs/hermes/skills) - All-platform posting and engagement schedule
+- [twitter-gtm-find-skill](/hermes/skills/catalog/twitter-gtm-find-skill-setup) - GTM/DevRel job scraping from X/Twitter
+- [autonomous-helpful-presence-mining](/hermes/skills) - CorpusIQ's help-first community engagement framework
+- [corpusiq-social-cadence-engine](/hermes/skills) - All-platform posting and engagement schedule
 
 ## Verification
 

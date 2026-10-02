@@ -83,7 +83,7 @@ iFillPDF plugs into CorpusIQ's document-heavy workflows. A CorpusIQ agent readin
 
 ## See Also
 
-- [Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/docs/hermes/mcp/servers/external/acquisition-gov-mcp)
-- [ATLASS OS MCP - Field-Service Business Platform](/docs/hermes/mcp/servers/external/atlass-os-mcp)
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Acquisition.gov MCP - FAR Overhaul and Agency Deviations](/hermes/mcp/servers/external/acquisition-gov-mcp)
+- [ATLASS OS MCP - Field-Service Business Platform](/hermes/mcp/servers/external/atlass-os-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

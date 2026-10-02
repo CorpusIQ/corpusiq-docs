@@ -113,5 +113,5 @@ echo "Test post" | bash SKILL_DIR/scripts/post.sh --dry-run
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 28 Discovery](/docs/hermes/skills/marketplace/new-june28-2026) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [June 28 Discovery](/hermes/skills/marketplace/new-june28-2026) →*
 *Powered by CorpusIQ*

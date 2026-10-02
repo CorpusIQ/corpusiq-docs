@@ -26,14 +26,14 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Type | Guide |
 |---|---|---|---|---|
-| **content-creation** | anthropics/knowledge-work-plugins | 3.9K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
-| **slack-messaging** | anthropics/knowledge-work-plugins | 3.2K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
-| **slack-search** | anthropics/knowledge-work-plugins | 2.5K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
-| **knowledge-synthesis** | anthropics/knowledge-work-plugins | 5.2K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
-| **search-strategy** | anthropics/knowledge-work-plugins | 4.4K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
-| **design-mcp-workflow** | anthropics/knowledge-work-plugins | 1.5K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
-| **build-zoom-rest-api-app** | anthropics/knowledge-work-plugins | 1.4K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
-| **scribe** | anthropics/knowledge-work-plugins | 1.4K | 🆕 Added | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **content-creation** | anthropics/knowledge-work-plugins | 3.9K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **slack-messaging** | anthropics/knowledge-work-plugins | 3.2K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **slack-search** | anthropics/knowledge-work-plugins | 2.5K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **knowledge-synthesis** | anthropics/knowledge-work-plugins | 5.2K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **search-strategy** | anthropics/knowledge-work-plugins | 4.4K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **design-mcp-workflow** | anthropics/knowledge-work-plugins | 1.5K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **build-zoom-rest-api-app** | anthropics/knowledge-work-plugins | 1.4K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
+| **scribe** | anthropics/knowledge-work-plugins | 1.4K | 🆕 Added | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup) |
 
 ## Notes
 

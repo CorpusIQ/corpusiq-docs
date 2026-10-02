@@ -87,7 +87,7 @@ Cookie Free Analytics gives CorpusIQ's marketing stack a privacy-first complemen
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Google Analytics MCP - GA4 Reporting for Agents](/docs/hermes/mcp/servers/external/google-analytics-mcp)
-- [Otto MCP - Live Marketing Data and Website Operations in Chat](/docs/hermes/mcp/servers/external/otto-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Google Analytics MCP - GA4 Reporting for Agents](/hermes/mcp/servers/external/google-analytics-mcp)
+- [Otto MCP - Live Marketing Data and Website Operations in Chat](/hermes/mcp/servers/external/otto-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

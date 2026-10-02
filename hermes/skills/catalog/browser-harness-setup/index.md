@@ -54,6 +54,6 @@ The skill activates and provides browser automation tools accessible through nat
 
 ## Related Skills
 
-- [vps-server-management](/docs/hermes/skills/catalog/vps-server-management-setup) - VPS server management and monitoring
-- [distribute-skill-to-all-agents](/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup) - Sync skills across multiple agent instances
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [vps-server-management](/hermes/skills/catalog/vps-server-management-setup) - VPS server management and monitoring
+- [distribute-skill-to-all-agents](/hermes/skills/catalog/distribute-skill-to-all-agents-setup) - Sync skills across multiple agent instances
+- [Skills Catalog](/hermes/skills/catalog)

@@ -178,6 +178,6 @@ Publishing handles:
 
 ## See Also
 
-- [find-skills](/docs/hermes/skills/catalog/find-skills-setup) - Skill discovery tool
-- [Creating Custom Skills](/docs/hermes/skills/creating-skills) - Hermes-native skill authoring
-- [Skills Catalog](/docs/hermes/skills/catalog) - Browse all documented skills
+- [find-skills](/hermes/skills/catalog/find-skills-setup) - Skill discovery tool
+- [Creating Custom Skills](/hermes/skills/creating-skills) - Hermes-native skill authoring
+- [Skills Catalog](/hermes/skills/catalog) - Browse all documented skills

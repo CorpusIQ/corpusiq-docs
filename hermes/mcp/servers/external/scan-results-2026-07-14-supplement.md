@@ -26,9 +26,9 @@ The morning July 14 scan reported mcpservers.org as "Unavailable (SolidJS SPA, n
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **Google Search Console MCP** ★ | mcp.so | OAuth-protected GSC analytics for AI agents. Clicks, impressions, rankings, indexing, sitemaps. Hosted or self-host on Cloudflare Workers. By digestseo.com. 2★ | [Guide](/docs/hermes/mcp/servers/external/google-search-console-mcp) |
-| **ComparEdge LLM Cost** ★ | mcpservers.org | Token cost math for 69 models across 17 providers. Free, no API key. Prices verified by ComparEdge. 1★ | [Guide](/docs/hermes/mcp/servers/external/comparedge-llm-cost-mcp) |
-| **Scrivener MCP** ★ | mcp.so | Connect Scrivener manuscripts to AI. 53 tools: document management, writing analysis, semantic search, character/plot tracking. Offline embeddings. 33★ | [Guide](/docs/hermes/mcp/servers/external/scrivener-mcp) |
+| **Google Search Console MCP** ★ | mcp.so | OAuth-protected GSC analytics for AI agents. Clicks, impressions, rankings, indexing, sitemaps. Hosted or self-host on Cloudflare Workers. By digestseo.com. 2★ | [Guide](/hermes/mcp/servers/external/google-search-console-mcp) |
+| **ComparEdge LLM Cost** ★ | mcpservers.org | Token cost math for 69 models across 17 providers. Free, no API key. Prices verified by ComparEdge. 1★ | [Guide](/hermes/mcp/servers/external/comparedge-llm-cost-mcp) |
+| **Scrivener MCP** ★ | mcp.so | Connect Scrivener manuscripts to AI. 53 tools: document management, writing analysis, semantic search, character/plot tracking. Offline embeddings. 33★ | [Guide](/hermes/mcp/servers/external/scrivener-mcp) |
 
 ### INDEX-ONLY (Business-Adjacent or Niche)
 

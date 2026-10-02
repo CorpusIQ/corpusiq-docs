@@ -19,13 +19,13 @@ Evening sweep of August 18. The API surface stayed fully caught up (39 of 40 que
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| anthropics/claude-for-legal | 118 | 54.4K | 🟢 | [Claude for Legal Skills Setup](/docs/hermes/skills/catalog/claude-for-legal-skills-setup) |
-| personamanagmentlayer/pcl | 104 | 36.2K | 🟡 | [PCL Domain Expert Skills Setup](/docs/hermes/skills/catalog/pcl-domain-expert-skills-setup) |
-| vtex/skills | 51 | 32.6K | 🟢 | [VTEX Skills Setup](/docs/hermes/skills/catalog/vtex-skills-setup) |
-| interfacex-co-jp/genshijin | 7 | 19.2K | 🟢 | [Genshijin Skills Setup](/docs/hermes/skills/catalog/genshijin-skills-setup) |
-| yusukebe/hono-skill | 1 | 11.7K | 🟡 | [Hono Skill Setup](/docs/hermes/skills/catalog/hono-skill-setup) |
-| capawesome-team/skills | 37 | 11.4K | 🟡 | [Capawesome Skills Setup](/docs/hermes/skills/catalog/capawesome-skills-setup) |
-| wyattowalsh/agents | 85 | 2.1K | 🟢 | [Wyatt Walsh Agents Setup](/docs/hermes/skills/catalog/wyattowalsh-agents-setup) |
+| anthropics/claude-for-legal | 118 | 54.4K | 🟢 | [Claude for Legal Skills Setup](/hermes/skills/catalog/claude-for-legal-skills-setup) |
+| personamanagmentlayer/pcl | 104 | 36.2K | 🟡 | [PCL Domain Expert Skills Setup](/hermes/skills/catalog/pcl-domain-expert-skills-setup) |
+| vtex/skills | 51 | 32.6K | 🟢 | [VTEX Skills Setup](/hermes/skills/catalog/vtex-skills-setup) |
+| interfacex-co-jp/genshijin | 7 | 19.2K | 🟢 | [Genshijin Skills Setup](/hermes/skills/catalog/genshijin-skills-setup) |
+| yusukebe/hono-skill | 1 | 11.7K | 🟡 | [Hono Skill Setup](/hermes/skills/catalog/hono-skill-setup) |
+| capawesome-team/skills | 37 | 11.4K | 🟡 | [Capawesome Skills Setup](/hermes/skills/catalog/capawesome-skills-setup) |
+| wyattowalsh/agents | 85 | 2.1K | 🟢 | [Wyatt Walsh Agents Setup](/hermes/skills/catalog/wyattowalsh-agents-setup) |
 
 ## Method Notes
 

@@ -64,6 +64,6 @@ US funds and ETFs only. API key required even for discovery. No fund holdings or
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [FinBridge MCP - Korean and US Market Data for Agents](/docs/hermes/mcp/servers/external/finbridge-mcp)
-- [Stock Market MCP Server - Real-Time Financial Data](/docs/hermes/mcp/servers/external/stock-market-mcp-server)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [FinBridge MCP - Korean and US Market Data for Agents](/hermes/mcp/servers/external/finbridge-mcp)
+- [Stock Market MCP Server - Real-Time Financial Data](/hermes/mcp/servers/external/stock-market-mcp-server)

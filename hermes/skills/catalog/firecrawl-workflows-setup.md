@@ -225,6 +225,6 @@ cd ~/corpusiq-brain && gbrain import research/$WEEK/ --no-embed
 
 ## See Also
 
-- [Firecrawl Skills](/docs/hermes/skills/catalog/firecrawl) - Core Firecrawl scraping and search skills
-- [Apify Agent Skills](/docs/hermes/skills/catalog/apify-agent-skills-setup) - Alternative web scraping (30K Actors)
-- [agent-browser](/docs/hermes/skills/catalog/agent-browser-setup) - Browser automation for custom scraping
+- [Firecrawl Skills](/hermes/skills/catalog/firecrawl) - Core Firecrawl scraping and search skills
+- [Apify Agent Skills](/hermes/skills/catalog/apify-agent-skills-setup) - Alternative web scraping (30K Actors)
+- [agent-browser](/hermes/skills/catalog/agent-browser-setup) - Browser automation for custom scraping

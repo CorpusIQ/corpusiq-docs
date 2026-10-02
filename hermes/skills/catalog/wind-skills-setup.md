@@ -76,5 +76,5 @@ Full inventory: 71 skills indexed on skills.sh (Sep 15, 2026 snapshot) - 63 at 1
 
 ## Related
 
-- [Microsoft Azure Skills - Cloud Platform Setup](/docs/hermes/skills/catalog/microsoft-azure-skills-setup)
+- [Microsoft Azure Skills - Cloud Platform Setup](/hermes/skills/catalog/microsoft-azure-skills-setup)
 - [CorpusIQ - one MCP endpoint, all your business tools](https://corpusiq.io)

@@ -106,8 +106,8 @@ YG3 pairs with CorpusIQ's marketing and content stack rather than replacing it. 
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Askline MCP - AI Search Visibility and Brand Monitoring](/docs/hermes/mcp/servers/external/askline-mcp)
-- [AstroFabric MCP - Agentic Growth Missions for Operators](/docs/hermes/mcp/servers/external/astrofabric-mcp)
-- [Alison AI MCP - Ad Creative Performance Analytics](/docs/hermes/mcp/servers/external/alison-ai-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Askline MCP - AI Search Visibility and Brand Monitoring](/hermes/mcp/servers/external/askline-mcp)
+- [AstroFabric MCP - Agentic Growth Missions for Operators](/hermes/mcp/servers/external/astrofabric-mcp)
+- [Alison AI MCP - Ad Creative Performance Analytics](/hermes/mcp/servers/external/alison-ai-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

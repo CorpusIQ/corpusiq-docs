@@ -25,7 +25,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Description:** Official Stripe MCP server for customers, payments, subscriptions, refunds, invoices, billing. Part of broader agent-toolkit with `@stripe/ai-sdk` (Vercel AI SDK integration) and `@stripe/token-meter` (LLM token-based billing).
 - **Category:** Payments & Billing / Finance
 - **Business relevance:** MAXIMUM - First major payment processor to ship MCP. Essential for any operator managing Stripe billing.
-- **Status:** Full integration guide → [`stripe-mcp/index.md`](/docs/hermes/mcp/servers/external/stripe-mcp)
+- **Status:** Full integration guide → [`stripe-mcp/index.md`](/hermes/mcp/servers/external/stripe-mcp)
 
 ### 2. Metabase MCP ★★★ Official - GUIDE WRITTEN
 - **Source:** mcpservers.org (lastmod: 2026-07-27T00:54:33Z)
@@ -34,7 +34,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Description:** Official Metabase MCP server - built into Metabase. AI agents search data, build queries on the semantic layer, and visualize results. 9 tools including search, construct_query, execute_sql, dashboard management.
 - **Category:** Business Intelligence / Data & Analytics
 - **Business relevance:** MAXIMUM - First BI platform to go MCP-native.
-- **Status:** Full integration guide → [`metabase-mcp/index.md`](/docs/hermes/mcp/servers/external/metabase-mcp)
+- **Status:** Full integration guide → [`metabase-mcp/index.md`](/hermes/mcp/servers/external/metabase-mcp)
 
 ### 3. n8n MCP ★★★ - GUIDE WRITTEN
 - **Source:** mcpservers.org (lastmod: 2026-07-26T12:42:36Z)
@@ -43,7 +43,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Description:** MCP server for n8n workflow automation - 2,175 nodes (827 core + 1,348 community), 99% property coverage, 87% doc coverage, 2,352 templates. Turns AI agents into n8n workflow experts.
 - **Category:** Workflow Automation
 - **Business relevance:** HIGH - Essential for operators running n8n who want AI-assisted workflow design.
-- **Status:** Full integration guide → [`n8n-mcp/index.md`](/docs/hermes/mcp/servers/external/n8n-mcp)
+- **Status:** Full integration guide → [`n8n-mcp/index.md`](/hermes/mcp/servers/external/n8n-mcp)
 
 ### 4. Apify MCP ★★★ Official - GUIDE WRITTEN
 - **Source:** mcpservers.org (lastmod: 2026-07-26T18:12:11Z)
@@ -52,7 +52,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Description:** Official Apify MCP - AI agents search and run thousands of web scrapers from Apify Store. Social media, search engines, e-commerce, maps, news. Output schema inference on hosted endpoint.
 - **Category:** Web Scraping / Data Extraction
 - **Business relevance:** HIGH - The definitive web scraping MCP.
-- **Status:** Full integration guide → [`apify-mcp/index.md`](/docs/hermes/mcp/servers/external/apify-mcp)
+- **Status:** Full integration guide → [`apify-mcp/index.md`](/hermes/mcp/servers/external/apify-mcp)
 
 ### 5. Ahrefs MCP ★★★ Official - GUIDE WRITTEN
 - **Source:** mcpservers.org (lastmod: N/A but listed as priority server)
@@ -61,7 +61,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Description:** Official Ahrefs MCP - backlinks, domain ratings, keyword research, competitor analysis, site health. Requires Ahrefs Lite plan ($129/month) or higher.
 - **Category:** SEO / Marketing Analytics
 - **Business relevance:** HIGH - First SEO platform to ship MCP. Essential for growth/marketing operators.
-- **Status:** Full integration guide → [`ahrefs-mcp/index.md`](/docs/hermes/mcp/servers/external/ahrefs-mcp)
+- **Status:** Full integration guide → [`ahrefs-mcp/index.md`](/hermes/mcp/servers/external/ahrefs-mcp)
 
 ## Also Identified (No Guides)
 

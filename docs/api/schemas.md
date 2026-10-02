@@ -65,7 +65,7 @@ All API errors follow a consistent format regardless of the HTTP status code.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `error.type` | string | Machine-readable error type (see [Errors](/docs/api/errors)) |
+| `error.type` | string | Machine-readable error type (see [Errors](/api/errors)) |
 | `error.message` | string | Human-readable description of the error |
 | `error.retry_after_seconds` | integer | Present only for `rate_limited` errors; seconds until retry is allowed |
 | `error.details` | object | Optional field-specific validation errors |
@@ -98,12 +98,12 @@ A: Errors use a consistent format: {"error": {"type": "error_category", "message
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
-- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Current webhook-contract availability
-- **[Enterprise AI Data Access Guide](/enterprise)**  --  SSO, SAML, SOC 2, and data residency  
+- **[CorpusIQ API Overview](/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)**  --  Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, SOC 2, and data residency  
 - **[Secure AI Data Connectivity](/security)**  --  Encryption, network security, and compliance  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*

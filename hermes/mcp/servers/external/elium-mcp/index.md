@@ -81,7 +81,7 @@ CorpusIQ reads the operational business - Stripe, HubSpot, QuickBooks and the ot
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [AnswerLoops MCP - Community Support Knowledge Base for Agents](/docs/hermes/mcp/servers/external/answerloops-mcp)
-- [Extend MCP - Document Intelligence with OCR and PDF Forms](/docs/hermes/mcp/servers/external/extend-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [AnswerLoops MCP - Community Support Knowledge Base for Agents](/hermes/mcp/servers/external/answerloops-mcp)
+- [Extend MCP - Document Intelligence with OCR and PDF Forms](/hermes/mcp/servers/external/extend-mcp)

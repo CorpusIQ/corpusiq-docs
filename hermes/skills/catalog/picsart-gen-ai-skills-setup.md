@@ -73,11 +73,11 @@ No skills.sh security audits published (verified Sep 27, 2026):
 
 ## Related
 
-- [Generative Media Skills Setup](/docs/hermes/skills/catalog/generative-media-skills-setup)
-- [Layer Skills Setup](/docs/hermes/skills/catalog/layerai-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Generative Media Skills Setup](/hermes/skills/catalog/generative-media-skills-setup)
+- [Layer Skills Setup](/hermes/skills/catalog/layerai-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

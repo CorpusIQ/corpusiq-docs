@@ -75,10 +75,10 @@ npx skills add coreyhaines31/marketingskills --skill agent-bridge   # verify ins
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Agent Treasury](/docs/hermes/skills/catalog/agent-treasury-setup) - resource management
-- [Agent Orchestrator](/docs/hermes/skills/catalog/agent-orchestrator-setup) - multi-agent coordination
+- [Skills Catalog](/hermes/skills/catalog)
+- [Agent Treasury](/hermes/skills/catalog/agent-treasury-setup) - resource management
+- [Agent Orchestrator](/hermes/skills/catalog/agent-orchestrator-setup) - multi-agent coordination
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -134,6 +134,6 @@ HeartMuLa models are Apache 2.0 - commercial use allowed, no royalties, no attri
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [nousresearch/hermes-agent on skills.sh](https://skills.sh/nousresearch/hermes-agent)*
+*← [Skills Catalog](/hermes/skills/catalog) | [nousresearch/hermes-agent on skills.sh](https://skills.sh/nousresearch/hermes-agent)*
 
 *Powered by CorpusIQ*

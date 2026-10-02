@@ -140,7 +140,7 @@ MCP queries execute against live APIs, so you see the current state of your proj
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Discover the business benefits of MCP servers](/mcp)
 - [MCP for Sales: Pipeline and Forecasting](/mcp)
 - [Discover MCP for marketing campaign analytics](/mcp)

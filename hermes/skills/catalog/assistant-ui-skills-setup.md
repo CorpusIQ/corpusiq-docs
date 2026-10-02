@@ -65,10 +65,10 @@ License: no LICENSE file present in the repository. Without a license, copyright
 
 ## Related
 
-- [Gemini Skills Setup](/docs/hermes/skills/catalog/gemini-skills-setup)
-- [Meta Quest Agentic Tools Setup](/docs/hermes/skills/catalog/meta-quest-agentic-tools-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Gemini Skills Setup](/hermes/skills/catalog/gemini-skills-setup)
+- [Meta Quest Agentic Tools Setup](/hermes/skills/catalog/meta-quest-agentic-tools-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

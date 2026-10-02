@@ -83,8 +83,8 @@ Smaller but useful additions: `caveman-explore`, `caveman-optimize`, `investigat
 
 ## Related
 
-- [Simplify Code Setup](/docs/hermes/skills/catalog/simplify-code-setup)
-- [Code Quality & Review category](/docs/hermes/skills/catalog)
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Simplify Code Setup](/hermes/skills/catalog/simplify-code-setup)
+- [Code Quality & Review category](/hermes/skills/catalog)
+- [Skills Catalog](/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

@@ -107,10 +107,10 @@ No skills.sh security audits are published for this publisher (Trust Hub / Socke
 
 ## Related
 
-- [RunComfy Agent Skills - Setup Guide](/docs/hermes/skills/catalog/runcomfy-agent-skills-setup)
-- [Claude Code Video Toolkit - Video Pipeline Skills Setup](/docs/hermes/skills/catalog/claude-code-video-toolkit-setup)
+- [RunComfy Agent Skills - Setup Guide](/hermes/skills/catalog/runcomfy-agent-skills-setup)
+- [Claude Code Video Toolkit - Video Pipeline Skills Setup](/hermes/skills/catalog/claude-code-video-toolkit-setup)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

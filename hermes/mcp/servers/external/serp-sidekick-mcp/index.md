@@ -82,6 +82,6 @@ Serp Sidekick answers the demand side of the funnel (what people search, what ra
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [geolint MCP - AI Search Readiness Linter for Websites](/docs/hermes/mcp/servers/external/geolint-mcp)
-- [Attensira MCP - AI-Search Visibility Data for Agents](/docs/hermes/mcp/servers/external/attensira-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [geolint MCP - AI Search Readiness Linter for Websites](/hermes/mcp/servers/external/geolint-mcp)
+- [Attensira MCP - AI-Search Visibility Data for Agents](/hermes/mcp/servers/external/attensira-mcp)

@@ -48,5 +48,5 @@ npx mcp-remote https://launchfastlegacyx.com/api/mcp/server
 
 ## See Also
 
-- [CorpusIQ MCP Connectors - Shopify, Stripe, Amazon Seller](/docs/hermes/mcp/connectors)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ MCP Connectors - Shopify, Stripe, Amazon Seller](/hermes/mcp/connectors)
+- [MCP Servers Index](/hermes/mcp/servers/external)

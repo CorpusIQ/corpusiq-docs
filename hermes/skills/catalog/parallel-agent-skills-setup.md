@@ -207,7 +207,7 @@ parallel-cli monitor --url "https://target.com" --interval 6h
 
 ## See Also
 
-- [Firecrawl Workflows Setup](/docs/hermes/skills/catalog/firecrawl-workflows-setup) - Web scraping and SEO audits (120K installs)
-- [agent-browser Setup](/docs/hermes/skills/catalog/agent-browser-setup) - Accessibility-tree browser automation (553K installs)
-- [Apify Agent Skills Setup](/docs/hermes/skills/catalog/apify-agent-skills-setup) - Web scraping Actors
-- [wshobson Agents Marketplace](/docs/hermes/skills/catalog/wshobson-agents-setup) - 94-plugin agent marketplace
+- [Firecrawl Workflows Setup](/hermes/skills/catalog/firecrawl-workflows-setup) - Web scraping and SEO audits (120K installs)
+- [agent-browser Setup](/hermes/skills/catalog/agent-browser-setup) - Accessibility-tree browser automation (553K installs)
+- [Apify Agent Skills Setup](/hermes/skills/catalog/apify-agent-skills-setup) - Web scraping Actors
+- [wshobson Agents Marketplace](/hermes/skills/catalog/wshobson-agents-setup) - 94-plugin agent marketplace

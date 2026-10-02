@@ -129,7 +129,7 @@ npx skills add github/awesome-copilot@create-github-action-workflow-specificatio
 npx skills add github/awesome-copilot@memory-merger
 ```
 
-Merges agent memory across sessions. 12.7K installs. Already documented in [Memory Merger Setup](/docs/hermes/skills/catalog/memory-merger-setup).
+Merges agent memory across sessions. 12.7K installs. Already documented in [Memory Merger Setup](/hermes/skills/catalog/memory-merger-setup).
 
 ---
 
@@ -203,8 +203,8 @@ hermes tool call create-pr-from-spec --spec feature-spec.md --branch feature/xyz
 
 ## See Also
 
-- [MCP Builder Setup](/docs/hermes/skills/catalog) - Anthropic's MCP builder (91K installs)
-- [Memory Merger Setup](/docs/hermes/skills/catalog/memory-merger-setup) - Already covered in catalog
-- [Skill Creator Setup](/docs/hermes/skills/catalog/skill-creator-setup) - Build your own skills (318K installs)
-- [wshobson Agents Marketplace](/docs/hermes/skills/catalog/wshobson-agents-setup) - 94-plugin marketplace
-- [Build MCP Server Setup](/docs/hermes/skills/catalog/build-mcp-server-setup) - Manual MCP server building
+- [MCP Builder Setup](/hermes/skills/catalog) - Anthropic's MCP builder (91K installs)
+- [Memory Merger Setup](/hermes/skills/catalog/memory-merger-setup) - Already covered in catalog
+- [Skill Creator Setup](/hermes/skills/catalog/skill-creator-setup) - Build your own skills (318K installs)
+- [wshobson Agents Marketplace](/hermes/skills/catalog/wshobson-agents-setup) - 94-plugin marketplace
+- [Build MCP Server Setup](/hermes/skills/catalog/build-mcp-server-setup) - Manual MCP server building

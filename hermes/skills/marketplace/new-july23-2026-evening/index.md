@@ -27,25 +27,25 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ### Agent Infrastructure
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **microsoft/azure-skills** | 3 (microsoft-foundry, azure-ai, azure-deploy) | 478K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/microsoft-azure-skills-setup) |
+| **microsoft/azure-skills** | 3 (microsoft-foundry, azure-ai, azure-deploy) | 478K | 🟢 | [Setup Guide](/hermes/skills/catalog/microsoft-azure-skills-setup) |
 
 ### Development & Engineering
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **samber/cc-skills-golang** | 6 (code-style, error-handling, testing, naming, design-patterns, structs-interfaces) | 35K+ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/samber-golang-skills-setup) |
+| **samber/cc-skills-golang** | 6 (code-style, error-handling, testing, naming, design-patterns, structs-interfaces) | 35K+ | 🟢 | [Setup Guide](/hermes/skills/catalog/samber-golang-skills-setup) |
 
 ### Growth & E-Commerce
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **nexscope-ai/amazon-skills** | 3 (product-research, listing-optimization, keyword-research) | 77K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/nexscope-amazon-skills-setup) |
-| **bradautomates/head-of-content** | 3 (instagram-research, tiktok-research, video-content-analyzer) | 2.8K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/bradautomates-head-of-content-setup) |
-| **ognjengt/founder-skills** | 3 (viral-hook-creator, sop-creator, brand-copywriter) | 2.9K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/ognjengt-founder-skills-setup) |
+| **nexscope-ai/amazon-skills** | 3 (product-research, listing-optimization, keyword-research) | 77K | 🟢 | [Setup Guide](/hermes/skills/catalog/nexscope-amazon-skills-setup) |
+| **bradautomates/head-of-content** | 3 (instagram-research, tiktok-research, video-content-analyzer) | 2.8K | 🟡 | [Setup Guide](/hermes/skills/catalog/bradautomates-head-of-content-setup) |
+| **ognjengt/founder-skills** | 3 (viral-hook-creator, sop-creator, brand-copywriter) | 2.9K | 🟡 | [Setup Guide](/hermes/skills/catalog/ognjengt-founder-skills-setup) |
 
 ### Product & Strategy
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **deanpeters/product-manager-skills** | 3 (prd-development, user-story, roadmap-planning) | 8.8K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/deanpeters-pm-skills-setup) |
-| **phuryn/pm-skills** | 3 (competitor-analysis, business-model, privacy-policy) | 7K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/phuryn-pm-skills-setup) |
+| **deanpeters/product-manager-skills** | 3 (prd-development, user-story, roadmap-planning) | 8.8K | 🟢 | [Setup Guide](/hermes/skills/catalog/deanpeters-pm-skills-setup) |
+| **phuryn/pm-skills** | 3 (competitor-analysis, business-model, privacy-policy) | 7K | 🟡 | [Setup Guide](/hermes/skills/catalog/phuryn-pm-skills-setup) |
 
 ## Notes
 

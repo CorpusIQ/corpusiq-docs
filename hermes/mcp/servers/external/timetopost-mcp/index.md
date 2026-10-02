@@ -78,8 +78,8 @@ TimeToPost schedules and measures the social layer; CorpusIQ measures the busine
 
 ## See Also
 
-- [PostNitro MCP - AI Carousels and Social Publishing for Agents](/docs/hermes/mcp/servers/external/postnitro-mcp)
-- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/docs/hermes/mcp/servers/external/purrplan-mcp)
-- [PostBazooka MCP - Social Publishing with Commit Proof](/docs/hermes/mcp/servers/external/postbazooka-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [PostNitro MCP - AI Carousels and Social Publishing for Agents](/hermes/mcp/servers/external/postnitro-mcp)
+- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/hermes/mcp/servers/external/purrplan-mcp)
+- [PostBazooka MCP - Social Publishing with Commit Proof](/hermes/mcp/servers/external/postbazooka-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

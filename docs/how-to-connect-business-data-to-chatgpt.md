@@ -151,13 +151,13 @@ A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you nee
 
 ## Internal Links
 
-- [How to Search Company Data with AI](/answers)
-- [How to Connect Multiple Data Sources to AI](/answers)
-- [How to Query Business Data in Natural Language](/answers)
+- [How to Search Company Data with AI](https://www.corpusiq.io/answers)
+- [How to Connect Multiple Data Sources to AI](https://www.corpusiq.io/answers)
+- [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
 - [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
 - [Best ChatGPT Integration Platform](/compare)
-- [Enterprise AI Data Access Guide](/enterprise)
+- [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [HubSpot Business Intelligence with CorpusIQ](/connect/hubspot-with-chatgpt)
 ---
 

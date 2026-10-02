@@ -88,8 +88,8 @@ SEOmatic composes with CorpusIQ as the acquisition-to-revenue loop. CorpusIQ ans
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Ranki MCP - SEO and AEO Audits](/docs/hermes/mcp/servers/external/ranki-mcp)
-- [CiteRank MCP - AI Search Visibility & GEO Audits for AI Agents](/docs/hermes/mcp/servers/external/citerank-mcp)
-- [Seomely MCP](/docs/hermes/mcp/servers/external/seomely-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp)
+- [CiteRank MCP - AI Search Visibility & GEO Audits for AI Agents](/hermes/mcp/servers/external/citerank-mcp)
+- [Seomely MCP](/hermes/mcp/servers/external/seomely-mcp)

@@ -137,4 +137,4 @@ The bundles reference skill names that may conflict with pre-existing installati
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace Home](/hermes/skills/marketplace) →*

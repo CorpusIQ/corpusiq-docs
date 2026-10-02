@@ -91,8 +91,8 @@ Lavox answers what was said and decided in meetings; CorpusIQ answers what the b
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [BusyMail MCP](/docs/hermes/mcp/servers/external/busymail-mcp) - email operations for agents
-- [GTD Brain MCP](/docs/hermes/mcp/servers/external/gtd-brain-mcp) - task and context management
-- [Agentic Memory MCP](/docs/hermes/mcp/servers/external/agentic-memory-mcp) - persistent agent memory layer
-- [Greminders MCP](/docs/hermes/mcp/servers/external/greminders-mcp) - reminder and follow-up scheduling
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [BusyMail MCP](/hermes/mcp/servers/external/busymail-mcp) - email operations for agents
+- [GTD Brain MCP](/hermes/mcp/servers/external/gtd-brain-mcp) - task and context management
+- [Agentic Memory MCP](/hermes/mcp/servers/external/agentic-memory-mcp) - persistent agent memory layer
+- [Greminders MCP](/hermes/mcp/servers/external/greminders-mcp) - reminder and follow-up scheduling

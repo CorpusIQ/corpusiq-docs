@@ -79,11 +79,11 @@ No skills.sh security audits published (verified Sep 29, 2026):
 
 ## Related
 
-- [OpenSpec Skills Setup](/docs/hermes/skills/catalog/fission-openspec-skills-setup)
-- [Skill Best Practices](/docs/hermes/skills/catalog/dboeckli-ai-agent-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [OpenSpec Skills Setup](/hermes/skills/catalog/fission-openspec-skills-setup)
+- [Skill Best Practices](/hermes/skills/catalog/dboeckli-ai-agent-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

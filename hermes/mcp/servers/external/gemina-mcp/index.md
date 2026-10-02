@@ -60,6 +60,6 @@ Tool names recovered from the mcp.so listing state (Aug 30, 2026); the listing a
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [PassportCraft MCP: EU Digital Product Passports](/docs/hermes/mcp/servers/external/passportcraft-mcp)
-- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/docs/hermes/mcp/servers/external/bulktranscripts-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [PassportCraft MCP: EU Digital Product Passports](/hermes/mcp/servers/external/passportcraft-mcp)
+- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/hermes/mcp/servers/external/bulktranscripts-mcp)

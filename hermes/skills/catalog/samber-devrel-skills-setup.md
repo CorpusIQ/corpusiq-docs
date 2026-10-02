@@ -77,11 +77,11 @@ No skills.sh security audits published (verified Sep 27, 2026):
 
 ## Related
 
-- [Reddit Automation Setup](/docs/hermes/skills/catalog/reddit-automation-setup)
-- [Apify Growth Skills Setup](/docs/hermes/skills/catalog/apify-growth-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Reddit Automation Setup](/hermes/skills/catalog/reddit-automation-setup)
+- [Apify Growth Skills Setup](/hermes/skills/catalog/apify-growth-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

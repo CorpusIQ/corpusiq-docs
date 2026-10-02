@@ -57,6 +57,6 @@ npx skills add get-convex/agent-skills
 
 ## Related
 
-- [Neon Agent Skills - Serverless Postgres Setup](/docs/hermes/skills/catalog/neon-agent-skills-setup)
-- [Supabase Agent Skills - Backend Platform Setup](/docs/hermes/skills/catalog/supabase)
-- [Firebase Agent Skills - Google Backend Setup](/docs/hermes/skills/catalog/google-skills-setup)
+- [Neon Agent Skills - Serverless Postgres Setup](/hermes/skills/catalog/neon-agent-skills-setup)
+- [Supabase Agent Skills - Backend Platform Setup](/hermes/skills/catalog/supabase)
+- [Firebase Agent Skills - Google Backend Setup](/hermes/skills/catalog/google-skills-setup)

@@ -127,4 +127,4 @@ The MCP server exposes these primary capabilities:
 
 ---
 
-*Discovered during [July 19, 2026 MCP scan](/docs/hermes/mcp/servers/external/scan-results-2026-07-19). Added to catalog same day.*
+*Discovered during [July 19, 2026 MCP scan](/hermes/mcp/servers/external/scan-results-2026-07-19). Added to catalog same day.*

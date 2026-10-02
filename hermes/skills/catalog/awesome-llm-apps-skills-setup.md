@@ -78,10 +78,10 @@ npx skills list | grep -c awesome
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Firecrawl Skills Setup](/docs/hermes/skills/catalog/firecrawl-skills-setup) - research execution workflows
-- [CorpusIQ Research Intelligence](/docs/hermes/skills/catalog) - research framework skills
+- [Skills Catalog](/hermes/skills/catalog)
+- [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup) - research execution workflows
+- [CorpusIQ Research Intelligence](/hermes/skills/catalog) - research framework skills
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

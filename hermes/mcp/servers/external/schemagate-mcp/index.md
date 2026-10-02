@@ -48,5 +48,5 @@ Not live-probed (self-hosted package). The PyPI package resolves; the README doc
 
 ## See Also
 
-- [mnemiq MCP - Tunable Text-to-SQL for Business Databases](/docs/hermes/mcp/servers/external/mnemiq-mcp)
-- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/docs/hermes/mcp/servers/external/sqemo-mcp)
+- [mnemiq MCP - Tunable Text-to-SQL for Business Databases](/hermes/mcp/servers/external/mnemiq-mcp)
+- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/hermes/mcp/servers/external/sqemo-mcp)

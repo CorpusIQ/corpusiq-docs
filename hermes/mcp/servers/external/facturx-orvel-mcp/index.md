@@ -84,8 +84,8 @@ CorpusIQ reads business data from accounting and payment connectors; Factur-X by
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [gofact MCP - Local French E-Invoicing with Legal Numbering](/docs/hermes/mcp/servers/external/gofact-mcp)
-- [ISO 20022 Generator MCP - SEPA XML and SWIFT MT103 from Chat](/docs/hermes/mcp/servers/external/iso-20022-generator-mcp)
-- [QuickBooks MCP Server - CorpusIQ Docs](/docs/hermes/mcp/servers/external/quickbooks-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [gofact MCP - Local French E-Invoicing with Legal Numbering](/hermes/mcp/servers/external/gofact-mcp)
+- [ISO 20022 Generator MCP - SEPA XML and SWIFT MT103 from Chat](/hermes/mcp/servers/external/iso-20022-generator-mcp)
+- [QuickBooks MCP Server - CorpusIQ Docs](/hermes/mcp/servers/external/quickbooks-mcp)

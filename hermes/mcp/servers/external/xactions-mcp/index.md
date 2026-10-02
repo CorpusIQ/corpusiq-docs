@@ -160,6 +160,6 @@ hermes mcp list | grep xactions
 
 ## Related Guides
 
-- [OpenTweet MCP](/docs/hermes/mcp/servers/external/opentweet-mcp) - Alternative Twitter MCP server
-- [CorpusIQ Social Cadence Engine](/docs/hermes/mcp/servers/external) - Multi-platform posting schedule
-- [Cross-Platform Commenting Engine](/docs/hermes/mcp/servers/external) - Automated engagement across platforms
+- [OpenTweet MCP](/hermes/mcp/servers/external/opentweet-mcp) - Alternative Twitter MCP server
+- [CorpusIQ Social Cadence Engine](/hermes/mcp/servers/external) - Multi-platform posting schedule
+- [Cross-Platform Commenting Engine](/hermes/mcp/servers/external) - Automated engagement across platforms

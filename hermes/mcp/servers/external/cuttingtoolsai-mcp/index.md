@@ -81,7 +81,7 @@ CuttingToolsAI supplies the technical data point - the equivalent grade - and Co
 
 ## See Also
 
-- [Opportunity Atlas MCP - Construction Opportunity Intelligence](/docs/hermes/mcp/servers/external/opportunity-atlas-mcp)
-- [Dutch Vehicle Context - Dutch Vehicle Reports](/docs/hermes/mcp/servers/external/dutch-vehicle-context)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Opportunity Atlas MCP - Construction Opportunity Intelligence](/hermes/mcp/servers/external/opportunity-atlas-mcp)
+- [Dutch Vehicle Context - Dutch Vehicle Reports](/hermes/mcp/servers/external/dutch-vehicle-context)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

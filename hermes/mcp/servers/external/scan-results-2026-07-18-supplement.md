@@ -13,7 +13,7 @@ robots: "index,follow"
 
 **Source:** mcp.so feed (123KB, 30 servers listed)
 **Date:** July 18, 2026 (evening sweep)
-**Morning scan:** [scan-results-2026-07-18.md](/docs/hermes/mcp/servers/external/scan-results-2026-07-18)
+**Morning scan:** [scan-results-2026-07-18.md](/hermes/mcp/servers/external/scan-results-2026-07-18)
 **GitHub API:** Broken (search returns 0 results - "spammy" flag, tracked issue)
 
 ## Methodology
@@ -24,10 +24,10 @@ Firecrawl/web_extract unavailable on this node. Used direct curl to mcp.so/feed 
 
 | Server | Source | Stars | Description | Guide |
 |--------|--------|-------|-------------|-------|
-| **SocialBu MCP** ★★ | mcp.so | 0 | Social media management for AI agents - connect Claude, ChatGPT, Cursor, Hermes to SocialBu. Post, schedule, analyze across all platforms. | [socialbu-mcp](/docs/hermes/mcp/servers/external/socialbu-mcp) |
-| **Velarion MCP** ★★ | mcp.so | 0 | Executive compensation & governance intelligence for ~3,000 US public companies. SEC-sourced, deterministic. 8 tools. | [velarion-mcp](/docs/hermes/mcp/servers/external/velarion-mcp) |
-| **Backengine MCP** ★★ | mcp.so | 1 | Customer context layer for revenue teams - query Slack, email, call transcripts, support tickets from MCP clients. | [backengine-mcp](/docs/hermes/mcp/servers/external/backengine-mcp) |
-| **Docker MCP Server** ★★★ | mcp.so | 494 | Complete Docker management - containers, images, networks, volumes, Swarm services. Production-hardened, MIT licensed. | [docker-mcp](/docs/hermes/mcp/servers/external/docker-mcp) |
+| **SocialBu MCP** ★★ | mcp.so | 0 | Social media management for AI agents - connect Claude, ChatGPT, Cursor, Hermes to SocialBu. Post, schedule, analyze across all platforms. | [socialbu-mcp](/hermes/mcp/servers/external/socialbu-mcp) |
+| **Velarion MCP** ★★ | mcp.so | 0 | Executive compensation & governance intelligence for ~3,000 US public companies. SEC-sourced, deterministic. 8 tools. | [velarion-mcp](/hermes/mcp/servers/external/velarion-mcp) |
+| **Backengine MCP** ★★ | mcp.so | 1 | Customer context layer for revenue teams - query Slack, email, call transcripts, support tickets from MCP clients. | [backengine-mcp](/hermes/mcp/servers/external/backengine-mcp) |
+| **Docker MCP Server** ★★★ | mcp.so | 494 | Complete Docker management - containers, images, networks, volumes, Swarm services. Production-hardened, MIT licensed. | [docker-mcp](/hermes/mcp/servers/external/docker-mcp) |
 
 ## Index-Only (New Servers Without Guides)
 
@@ -70,4 +70,4 @@ Firecrawl/web_extract unavailable on this node. Used direct curl to mcp.so/feed 
 
 ---
 
-*← [Back to MCP Scan Reports](/docs/hermes/mcp/servers/external) | [Morning Scan (July 18)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18) →*
+*← [Back to MCP Scan Reports](/hermes/mcp/servers/external) | [Morning Scan (July 18)](/hermes/mcp/servers/external/scan-results-2026-07-18) →*

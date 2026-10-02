@@ -228,6 +228,6 @@ hermes a2a card --json
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [A2A Bridge on GitHub](https://github.com/asimons81/hermes-a2a-bridge) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [A2A Bridge on GitHub](https://github.com/asimons81/hermes-a2a-bridge) →*
 
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

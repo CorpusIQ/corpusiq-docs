@@ -49,6 +49,6 @@ Endpoint live-probed over JSON-RPC: keyless `tools/list` returned the full tool 
 
 ## See Also
 
-- [GoodLeads MCP - New-Business Leads for Agent Outreach](/docs/hermes/mcp/servers/external/goodleads-mcp)
-- [Crawdar MCP - Qualified Prospect Research for Agents](/docs/hermes/mcp/servers/external/crawdar-mcp)
-- [LeadGen MCP - Company Registry Lookups and Domain Audits](/docs/hermes/mcp/servers/external/leadgen-mcp)
+- [GoodLeads MCP - New-Business Leads for Agent Outreach](/hermes/mcp/servers/external/goodleads-mcp)
+- [Crawdar MCP - Qualified Prospect Research for Agents](/hermes/mcp/servers/external/crawdar-mcp)
+- [LeadGen MCP - Company Registry Lookups and Domain Audits](/hermes/mcp/servers/external/leadgen-mcp)

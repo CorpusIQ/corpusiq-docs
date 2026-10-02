@@ -75,5 +75,5 @@ Partsgraph's structured part and BOM output pairs with CorpusIQ connectors for p
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Harness Atlas - Wire-Harness Manufacturer Directory and Cross-Reference](/docs/hermes/mcp/servers/external/harness-atlas)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Harness Atlas - Wire-Harness Manufacturer Directory and Cross-Reference](/hermes/mcp/servers/external/harness-atlas)

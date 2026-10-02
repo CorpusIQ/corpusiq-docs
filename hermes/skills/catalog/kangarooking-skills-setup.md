@@ -71,11 +71,11 @@ No skills.sh security audits published (verified Sep 27, 2026):
 
 ## Related
 
-- [Vigiles - Agent Harness Quality Suite Setup](/docs/hermes/skills/catalog/vigiles-setup)
-- [Paperthin - Agentic Design Patterns Setup](/docs/hermes/skills/catalog/paperthin-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Vigiles - Agent Harness Quality Suite Setup](/hermes/skills/catalog/vigiles-setup)
+- [Paperthin - Agentic Design Patterns Setup](/hermes/skills/catalog/paperthin-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

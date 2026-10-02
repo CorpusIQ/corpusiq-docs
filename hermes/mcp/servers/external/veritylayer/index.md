@@ -108,12 +108,12 @@ Keyless, pay-per-call via x402 (USDC on Base). No subscription required - pay on
 
 ## Related Resources
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - full curated catalog
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - full curated catalog
 - [Compliance & Regulatory MCPs](/hermes/mcp/servers/external/#compliance--regulatory) - complementary trust and verification tools
 - [ChronoVerify](/hermes/mcp/servers/external/#chronoverify) - image authenticity verification MCP
 
 ---
 
-*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Servers Home](/docs/hermes/mcp/servers) →*
+*← [External MCP Catalog](/hermes/mcp/servers/external) | [MCP Servers Home](/hermes/mcp/servers) →*
 
 *Guide created July 4, 2026. VerityLayer available via `npx -y @veritylayer/mcp`. Check mcp.so for latest pricing and availability.*

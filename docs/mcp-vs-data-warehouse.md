@@ -123,7 +123,7 @@ MCP queries return data in the source system's native format, and the AI model i
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 - [Understand how MCP servers work with a technical deep dive](/mcp)
 - [Compare MCP vs Zapier for real-time business automation](/mcp)
 - [Compare MCP vs custom API integrations](/mcp)

@@ -87,6 +87,6 @@ Edgrapi and CorpusIQ compose as the outside and inside halves of company intelli
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [SEC EDGAR MCP - Full-Text Filing Search for Agents](/docs/hermes/mcp/servers/external/sec-edgar-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [SEC EDGAR MCP - Full-Text Filing Search for Agents](/hermes/mcp/servers/external/sec-edgar-mcp)

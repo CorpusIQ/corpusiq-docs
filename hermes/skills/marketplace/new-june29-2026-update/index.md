@@ -16,7 +16,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 A broad API sweep across the OpenClaw/Clawd ecosystem surfaced 25 previously uncatalogued skills. The biggest find: **steipete/clawdis** - 14 high-install terminal, media, monitoring, and productivity skills (2.4K-5K installs each). These complement the existing Hermes/OpenClaw ecosystem with specialized CLI wrappers, session management, and hardware integrations.
 
-*See [June 29 primary discovery](/docs/hermes/skills/marketplace/new-june29-2026) for 7 independently sourced skills (coding-posture, ultimate-humanizer, etc.). This update covers the API sweep findings.*
+*See [June 29 primary discovery](/hermes/skills/marketplace/new-june29-2026) for 7 independently sourced skills (coding-posture, ultimate-humanizer, etc.). This update covers the API sweep findings.*
 
 ---
 
@@ -188,6 +188,6 @@ npx skills add aradotso/hermes-skills/deepseek-openclaw-integration
 
 ---
 
-*← [June 29 Primary Discovery](/docs/hermes/skills/marketplace/new-june29-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
+*← [June 29 Primary Discovery](/hermes/skills/marketplace/new-june29-2026) | [Marketplace Home](/hermes/skills/marketplace) →*
 
-*↑ [Skills Overview](/docs/hermes/skills)*
+*↑ [Skills Overview](/hermes/skills)*

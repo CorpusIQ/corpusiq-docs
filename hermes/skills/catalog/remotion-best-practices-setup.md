@@ -143,6 +143,6 @@ const time = frame / fps; // Doesn't account for SRT millisecond offsets
 
 ## See Also
 
-- [HyperFrames Setup](/docs/hermes/skills/catalog/hyperframes-setup) - HeyGen's Remotion-based video framework
-- [Video Skill](/docs/hermes/content-ops/video) - Hermes native video capabilities
+- [HyperFrames Setup](/hermes/skills/catalog/hyperframes-setup) - HeyGen's Remotion-based video framework
+- [Video Skill](/hermes/content-ops/video) - Hermes native video capabilities
 - [Remotion Documentation](https://remotion.dev/docs) - Official reference

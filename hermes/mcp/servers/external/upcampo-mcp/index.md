@@ -84,7 +84,7 @@ upCampo demonstrates the vertical-SaaS connector pattern with the permission dis
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [Regeno Farmwalk MCP - UK Farm and Subsidy Data for Agents](/docs/hermes/mcp/servers/external/farmwalk-mcp)
-- [ReelsFarm MCP - AI Short-Form Content with Approval-Gated Publishing](/docs/hermes/mcp/servers/external/reelsfarm-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [Regeno Farmwalk MCP - UK Farm and Subsidy Data for Agents](/hermes/mcp/servers/external/farmwalk-mcp)
+- [ReelsFarm MCP - AI Short-Form Content with Approval-Gated Publishing](/hermes/mcp/servers/external/reelsfarm-mcp)

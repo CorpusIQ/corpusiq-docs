@@ -77,7 +77,7 @@ LiveSend is the last mile of a CorpusIQ-driven reporting flow: CorpusIQ's connec
 
 ## See Also
 
-- [Simplepages MCP - Landing Pages Built From Chat](/docs/hermes/mcp/servers/external/simplepages-mcp)
-- [Taskfolk MCP - Project Management for Teams and AI Agents](/docs/hermes/mcp/servers/external/taskfolk-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Simplepages MCP - Landing Pages Built From Chat](/hermes/mcp/servers/external/simplepages-mcp)
+- [Taskfolk MCP - Project Management for Teams and AI Agents](/hermes/mcp/servers/external/taskfolk-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

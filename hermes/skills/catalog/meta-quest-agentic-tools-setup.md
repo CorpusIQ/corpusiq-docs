@@ -66,10 +66,10 @@ License: Apache-2.0 from the official Meta Quest GitHub organization, permissive
 
 ## Related
 
-- [Gemini Skills Setup](/docs/hermes/skills/catalog/gemini-skills-setup)
-- [Assistant UI Skills Setup](/docs/hermes/skills/catalog/assistant-ui-skills-setup)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Gemini Skills Setup](/hermes/skills/catalog/gemini-skills-setup)
+- [Assistant UI Skills Setup](/hermes/skills/catalog/assistant-ui-skills-setup)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -90,6 +90,6 @@ Done Bear composes with CorpusIQ as the execution ledger for agent work. A Corpu
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Taskfolk MCP - Project Management for Teams and AI Agents](/docs/hermes/mcp/servers/external/taskfolk-mcp)
-- [Laver MCP - Kanban Boards, Sprints and Team Wiki for Agents](/docs/hermes/mcp/servers/external/laver-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Taskfolk MCP - Project Management for Teams and AI Agents](/hermes/mcp/servers/external/taskfolk-mcp)
+- [Laver MCP - Kanban Boards, Sprints and Team Wiki for Agents](/hermes/mcp/servers/external/laver-mcp)

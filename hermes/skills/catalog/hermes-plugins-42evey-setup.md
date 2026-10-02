@@ -131,8 +131,8 @@ hermes chat -q "/hermes-plugins bridge-status"
 ## See Also
 
 - [42-evey/hermes-plugins repo](https://github.com/42-evey/hermes-plugins)
-- [CorpusIQ Agent Optimization Skill](/docs/hermes/skills/growth-operations)
-- [Hermes Agent Skill Authoring](/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup)
+- [CorpusIQ Agent Optimization Skill](/hermes/skills/growth-operations)
+- [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup)
 
 ---
 

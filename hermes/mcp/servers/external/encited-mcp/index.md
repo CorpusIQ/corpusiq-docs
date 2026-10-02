@@ -84,8 +84,8 @@ Encited reads the search and AI-visibility surface the way CorpusIQ reads busine
 
 ## See Also
 
-- [Sorank MCP - Search Console, PageSpeed and AI Citability](/docs/hermes/mcp/servers/external/sorank-mcp)
-- [HiBot MCP - ANSWER-Framework AI Visibility Audits](/docs/hermes/mcp/servers/external/hibot-mcp)
-- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/docs/hermes/mcp/servers/external/tracetify-mcp)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Sorank MCP - Search Console, PageSpeed and AI Citability](/hermes/mcp/servers/external/sorank-mcp)
+- [HiBot MCP - ANSWER-Framework AI Visibility Audits](/hermes/mcp/servers/external/hibot-mcp)
+- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/hermes/mcp/servers/external/tracetify-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

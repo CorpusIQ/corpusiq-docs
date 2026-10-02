@@ -44,5 +44,5 @@ Transform MCP fills a critical gap in the business operator stack: unstructured 
 
 ## See Also
 
-- [MCP Email Server](/docs/hermes/mcp/servers/external/mcp-email-server) - parse email attachments and bodies
-- [CrustAPI MCP](/docs/hermes/mcp/servers/external/crustapi-mcp) - web content extraction complement
+- [MCP Email Server](/hermes/mcp/servers/external/mcp-email-server) - parse email attachments and bodies
+- [CrustAPI MCP](/hermes/mcp/servers/external/crustapi-mcp) - web content extraction complement

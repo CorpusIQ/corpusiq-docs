@@ -26,8 +26,8 @@ Both sources accessed via curl text-stripping from SPA hydration payloads (Firec
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **Vibgrate MCP** ★★★ | mcp.so | Dependency drift, CVE vulnerability scanning, and EOL runtime detection for AI agents. 51 tools across 14 groups - DriftScores, blast-radius analysis, upgrade paths, org catalog management. OAuth 2.1, scoped tokens, metadata-only (source code never leaves your environment). Apache 2.0. | [vibgrate-mcp](/docs/hermes/mcp/servers/external/vibgrate-mcp) |
-| **Octolens** ★★★ | mcp.so | Brand monitoring across 15+ platforms (Reddit, X, LinkedIn, HN, YouTube, Bluesky, GitHub, Stack Overflow, podcasts, newsletters, TikTok). AI-filtered mentions with sentiment scoring. Remote MCP via Streamable HTTP + OAuth. Used by Vercel, PostHog, Prisma. | [octolens](/docs/hermes/mcp/servers/external/octolens) |
+| **Vibgrate MCP** ★★★ | mcp.so | Dependency drift, CVE vulnerability scanning, and EOL runtime detection for AI agents. 51 tools across 14 groups - DriftScores, blast-radius analysis, upgrade paths, org catalog management. OAuth 2.1, scoped tokens, metadata-only (source code never leaves your environment). Apache 2.0. | [vibgrate-mcp](/hermes/mcp/servers/external/vibgrate-mcp) |
+| **Octolens** ★★★ | mcp.so | Brand monitoring across 15+ platforms (Reddit, X, LinkedIn, HN, YouTube, Bluesky, GitHub, Stack Overflow, podcasts, newsletters, TikTok). AI-filtered mentions with sentiment scoring. Remote MCP via Streamable HTTP + OAuth. Used by Vercel, PostHog, Prisma. | [octolens](/hermes/mcp/servers/external/octolens) |
 
 ### INDEX-ONLY (Niche or Previously Noted)
 
@@ -78,4 +78,4 @@ Octolens represents the first MCP-native brand monitoring solution, covering 15+
 
 ---
 
-*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Previous Scan (July 17 Evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-17-supplement) →*
+*← [Back to External MCP Catalog](/hermes/mcp/servers/external) | [Previous Scan (July 17 Evening)](/hermes/mcp/servers/external/scan-results-2026-07-17-supplement) →*

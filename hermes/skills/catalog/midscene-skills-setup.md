@@ -168,4 +168,4 @@ npx -y @midscene/web@1 act --prompt "navigate to example.com"
 - **Vision-first**: No CSS selectors needed - Midscene sees the UI like a human
 - **Best for**: Dynamic SPAs, complex forms, sites with frequent DOM changes
 - **Complementary**: Use alongside Hermes' native browser tools - Midscene for visual tasks, Playwright for API-level control
-- **Related**: See [Browser-Use Automation](/docs/hermes/skills/catalog/browser-use-automation-setup) and [Playwright Social Media](/docs/hermes/skills/catalog/playwright-social-media-automation-setup)
+- **Related**: See [Browser-Use Automation](/hermes/skills/catalog/browser-use-automation-setup) and [Playwright Social Media](/hermes/skills/catalog/playwright-social-media-automation-setup)

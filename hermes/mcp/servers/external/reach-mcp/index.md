@@ -80,7 +80,7 @@ Reach MCP is not an official LinkedIn API: it relies on the account owner's auth
 
 ## See Also
 
-- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/docs/hermes/mcp/servers/external/campaignstack-mcp)
-- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/docs/hermes/mcp/servers/external/adplug-linkedin-ads-mcp)
-- [MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents](/docs/hermes/mcp/servers/external/misarreach-mcp)
-- [FoundRole MCP - Fact-Checked AI Job Search and Application Tracking](/docs/hermes/mcp/servers/external/foundrole-mcp)
+- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/hermes/mcp/servers/external/campaignstack-mcp)
+- [AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents](/hermes/mcp/servers/external/adplug-linkedin-ads-mcp)
+- [MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents](/hermes/mcp/servers/external/misarreach-mcp)
+- [FoundRole MCP - Fact-Checked AI Job Search and Application Tracking](/hermes/mcp/servers/external/foundrole-mcp)

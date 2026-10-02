@@ -199,9 +199,9 @@ hermes skill invoke minions-hermes-mission-control --board test-board --aggregat
 
 ## Related Skills
 
-- [Blueprint Orchestration](/docs/hermes/skills/catalog/blueprint-orchestration-setup) - Multi-agent blueprint methodology
-- [Oh-My-Hermes Workflow](/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup) - Workflow framework
-- [CorpusIQ Supervisor Agent](/docs/hermes/skills/catalog) - Wave dispatch and swarm coordination
+- [Blueprint Orchestration](/hermes/skills/catalog/blueprint-orchestration-setup) - Multi-agent blueprint methodology
+- [Oh-My-Hermes Workflow](/hermes/skills/catalog/oh-my-hermes-workflow-setup) - Workflow framework
+- [CorpusIQ Supervisor Agent](/hermes/skills/catalog) - Wave dispatch and swarm coordination
 
 ---
 

@@ -124,5 +124,5 @@ brain-ops, idea-ingest, query, maintain, meeting-ingestion, enrich, data-researc
 
 ---
 
-*← [Marketplace Overview](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
+*← [Marketplace Overview](/hermes/skills/marketplace) | [Skills Catalog](/hermes/skills/catalog) →*
 *Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

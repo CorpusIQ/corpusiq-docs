@@ -56,7 +56,7 @@ The agent that grows with you. Self-improving autonomous AI agent with persisten
 **Docs:** [hermes-agent.nousresearch.com/docs](https://hermes-agent.nousresearch.com/docs)  
 **Discord:** [discord.gg/NousResearch](https://discord.gg/NousResearch)  
 **Key capabilities:** Autonomous agent loop, closed learning cycle, multi-platform gateway, cron scheduler, MCP client, skill system, memory providers, model fallback chains  
-**Related:** [Hermes Knowledge Hub →](/docs/hermes) · [Setup Guide →](/docs/hermes/setup) · [Architecture →](/docs/hermes/architecture)
+**Related:** [Hermes Knowledge Hub →](/hermes) · [Setup Guide →](/hermes/setup) · [Architecture →](/hermes/architecture)
 
 ---
 
@@ -68,7 +68,7 @@ Evolutionary self-improvement for Hermes Agent using DSPy + GEPA (Genetic Evolut
 **Maintainer:** Nous Research  
 **Key capabilities:** Automatic skill optimization, prompt mutation, eval dataset generation, multi-metric evaluation, automated PR filing  
 **Status:** Production-ready · ~$0.10 per optimization run on Gemini Flash  
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -89,7 +89,7 @@ Autonomous long-form writing pipeline built on Hermes Agent. Generates full manu
 
 **Maintainer:** Nous Research  
 **Key capabilities:** Long-form content generation, plot management, chapter coherence, agent-driven writing  
-**Related:** [Content Operations →](/docs/hermes/content-ops)
+**Related:** [Content Operations →](/hermes/content-ops)
 
 ### NousResearch/Hermes-Bot-Mode
 ⭐ **660** · `JavaScript` · [github.com/NousResearch/Hermes-Bot-Mode](https://github.com/NousResearch/Hermes-Bot-Mode)
@@ -98,7 +98,7 @@ Bot Mode for the Hermes desktop: a roster of named agents with their own chats, 
 
 **Maintainer:** Nous Research  
 **Key capabilities:** Named agent roster, per-bot chats and avatars, routines, bot-to-bot messaging, plugin-only (no core patches)  
-**Related:** [Hermes Desktop →](/docs/hermes/setup) · [Multi-Agent →](#orchestration-multi-agent-swarms)
+**Related:** [Hermes Desktop →](/hermes/setup) · [Multi-Agent →](#orchestration-multi-agent-swarms)
 
 ---
 
@@ -109,7 +109,7 @@ Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with m
 
 **Maintainer:** NVIDIA  
 **Key capabilities:** Secure agent sandboxing, hardware-enforced isolation, managed infrastructure  
-**Related:** [Deployment →](/docs/hermes/infrastructure)
+**Related:** [Deployment →](/hermes/infrastructure)
 
 ---
 
@@ -120,7 +120,7 @@ An opinionated workflow layer for building, shipping, and operating apps with He
 
 **Maintainer:** Salomondiei08  
 **Key capabilities:** Project scaffolding, deployment pipelines, operational workflow patterns, opinionated Hermes configurations  
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog) · [Deployment →](/docs/hermes/infrastructure)
+**Related:** [Skills Catalog →](/hermes/skills/catalog) · [Deployment →](/hermes/infrastructure)
 
 ---
 
@@ -166,7 +166,7 @@ Comprehensive community-maintained documentation for Hermes Agent. Extends the o
 Complete official documentation: quickstart, CLI, configuration, messaging gateway, security, tools, skills, memory, MCP, cron, ACP, API server, and architecture. The authoritative reference.
 
 **Maintainer:** Nous Research  
-**Related:** [Hermes Knowledge Hub →](/docs/hermes) (this repo  --  everything the docs don't cover)
+**Related:** [Hermes Knowledge Hub →](/hermes) (this repo  --  everything the docs don't cover)
 
 ---
 
@@ -221,7 +221,7 @@ Curated collection of skills, plugins, tools, integrations, and resources. Inclu
 
 Curated list maintained by CorpusIQ  --  cross-linked with this knowledge hub for in-depth production guides.
 
-**Related:** [This repository →](/docs/hermes)
+**Related:** [This repository →](/hermes)
 
 ---
 
@@ -259,7 +259,7 @@ Chinese-language curated list of skills, tools, integrations for Hermes Agent. (
 Curated awesome list of AI agent skills across platforms  --  a comprehensive collection of agent skills, plugins, and extensions compatible with Hermes Agent, Claude Code, Cursor, and other AI coding platforms. Community-driven resource for discovering and sharing agent capabilities.
 
 **Key capabilities:** Curated skill list, multi-platform agent skills, community-driven, Hermes-compatible, skill discovery
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -315,7 +315,7 @@ Curated resources for OpenClaw (Hermes predecessor) with native Hermes migration
 Hermes Atlas  --  community map of every tool, skill, and integration for Hermes Agent. Discover the complete Hermes universe through an interactive, searchable directory that maps skills to use cases, tools to platforms, and integrations to workflows. The definitive community-maintained ecosystem navigator.
 
 **Key capabilities:** Ecosystem mapping, tool discovery, skill directory, integration map, community-curated, interactive directory
-**Related:** [This directory →](/docs/hermes/ecosystem)
+**Related:** [This directory →](/hermes/ecosystem)
 
 ---
 
@@ -325,7 +325,7 @@ Hermes Atlas  --  community map of every tool, skill, and integration for Hermes
 1,000+ agent skills from official dev teams and community  --  the most comprehensive cross-platform agent skills directory. Curated collection of production-grade skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Hermes Agent, and other AI coding agents. Official team-verified skills alongside community contributions with quality ratings and compatibility matrices. Essential resource for discovering battle-tested skills that work across the agent ecosystem.
 
 **Key capabilities:** 1,000+ skills, official dev teams, cross-platform, community-vetted, quality ratings, compatibility matrix
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -335,7 +335,7 @@ Hermes Atlas  --  community map of every tool, skill, and integration for Hermes
 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, and Hermes Agent  --  the largest independently curated skill collection in the agent ecosystem. Massive library spanning development, content creation, automation, data analysis, and business operations. Regularly updated with new skills from the broader AI coding community. A go-to resource for Hermes users seeking proven, cross-compatible agent capabilities.
 
 **Key capabilities:** 1,500+ skills, multi-platform, Claude Code/Cursor/Codex/Gemini/Hermes, largest curated collection, continuously updated
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -345,7 +345,7 @@ Hermes Atlas  --  community map of every tool, skill, and integration for Hermes
 Curated skills, hooks, slash-commands, agent orchestrators, and plugins for AI coding agents  --  the definitive resource for extending Claude Code and Hermes Agent with community-built extensions. Covers skill development patterns, hook systems, multi-agent orchestration, and IDE integration workflows. Essential reference for anyone building on Claude Code-compatible agent frameworks including Hermes Agent, with cross-compatible skill formats and shared ecosystem patterns.
 
 **Key capabilities:** Skills catalog, hooks system, slash-commands, agent orchestrators, plugins, Claude Code + Hermes compatible, community extensions
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog) · [Architecture →](/docs/hermes/architecture)
+**Related:** [Skills Catalog →](/hermes/skills/catalog) · [Architecture →](/hermes/architecture)
 
 ---
 
@@ -355,7 +355,7 @@ Curated skills, hooks, slash-commands, agent orchestrators, and plugins for AI c
 Official Anthropic repository for Agent Skills  --  the canonical reference implementation for the agent skills protocol. Defines the standard skill format, conventions, and best practices that Hermes Agent skills follow. Essential starting point for anyone developing custom skills for Hermes or contributing to the broader agent skills ecosystem. The authoritative source for skill development patterns and protocol compliance.
 
 **Key capabilities:** Official Anthropic, canonical reference, skill protocol, standard format, Hermes-compatible, skill development patterns
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -365,7 +365,7 @@ Official Anthropic repository for Agent Skills  --  the canonical reference impl
 Curated list of Claude Skills, resources, and tools for customizing AI workflows  --  one of the largest skill discovery resources in the agent ecosystem. Comprehensive directory covering development, automation, content creation, and business operations skills with Hermes Agent compatibility. Major skill discovery hub for Hermes users seeking battle-tested, community-vetted agent capabilities from the broader Claude and AI coding ecosystem.
 
 **Key capabilities:** Curated skill list, Claude + Hermes compatible, AI workflow customization, community-vetted, skill discovery, major resource hub
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -375,7 +375,7 @@ Curated list of Claude Skills, resources, and tools for customizing AI workflows
 Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Hermes Agent  --  the unified plugin discovery layer spanning every major AI coding harness. Browse, discover, and install plugins that work across your entire agent toolkit without framework lock-in. Essential resource for Hermes users building multi-harness workflows that span Claude Code, Codex, Cursor, and Copilot environments with seamless cross-platform plugin compatibility.
 
 **Key capabilities:** Multi-harness marketplace, Claude Code/Codex/Cursor/Copilot/Hermes, plugin discovery, cross-platform, framework-agnostic
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog) · Plugins
+**Related:** [Skills Catalog →](/hermes/skills/catalog) · Plugins
 
 ---
 
@@ -385,7 +385,7 @@ Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, Ope
 GitHub's official community-contributed instructions, agents, skills, and configurations for Copilot and compatible agent platforms  --  the authoritative Copilot extension ecosystem directly maintained by GitHub. Curated collection of Copilot-ready resources with documented Hermes Agent compatibility paths. Essential reference for organizations standardizing on GitHub's agent ecosystem while leveraging Hermes Agent for autonomous workflows beyond Copilot's built-in capabilities.
 
 **Key capabilities:** Official GitHub, Copilot skills, community-contributed, agent configurations, Hermes-compatible, enterprise standard
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -394,7 +394,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 
 The most comprehensive Hermes production resource: 1,700+ pages, 450+ repos indexed, 490+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
-**Related:** [Architecture →](/docs/hermes/architecture) · [Knowledge →](/docs/hermes/knowledge) · [Crons →](/docs/hermes/governance/scheduling) · [MCP →](/docs/hermes/mcp)
+**Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
 ---
 
@@ -404,7 +404,7 @@ The most comprehensive Hermes production resource: 1,700+ pages, 450+ repos inde
 Curated hub for Claude Skills, Agents, Commands, Hooks, and Plugins. The definitive reference for discovering cross-compatible Hermes Agent skills and extensions  --  every Claude Code extension listed here has a direct migration path to Hermes skill format. Essential resource for expanding your agent's capabilities with community-validated, battle-tested extensions from the broader AI agent ecosystem.
 
 **Key capabilities:** Skills hub, agents directory, hooks catalog, Claude-to-Hermes migration, community-validated extensions, cross-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -414,7 +414,7 @@ Curated hub for Claude Skills, Agents, Commands, Hooks, and Plugins. The definit
 Open-source marketplace with 425 plugins, 2,810 skills, and 200 agents  --  the largest unified repository of cross-compatible Hermes Agent extensions. Browse, discover, and install production-ready skills and plugins with verified Hermes compatibility. A one-stop marketplace for exponentially expanding your agent's toolbox with community-built capabilities spanning every domain.
 
 **Key capabilities:** 425 plugins, 2,810 skills, 200 agents, open marketplace, Hermes-compatible, largest unified repository
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog) · Plugins
+**Related:** [Skills Catalog →](/hermes/skills/catalog) · Plugins
 
 ---
 
@@ -425,7 +425,7 @@ Official Anthropic Claude Code repository. Agentic coding tool that lives in you
 
 **Maintainer:** Anthropic
 **Key capabilities:** Agentic coding, terminal-native, full codebase understanding, reference implementation, Hermes-compatible patterns
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -435,7 +435,7 @@ Official Anthropic Claude Code repository. Agentic coding tool that lives in you
 Nano Claude Code-like agent harness built from scratch. Educational resource for understanding agent architecture patterns applicable to Hermes. Learn how agentic coding harnesses work by studying a minimal implementation.
 
 **Key capabilities:** Educational resource, agent architecture, minimal implementation, Hermes-applicable patterns, nano agent harness
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -446,7 +446,7 @@ Official Anthropic-managed directory of high-quality Claude Code plugins. Refere
 
 **Maintainer:** Anthropic
 **Key capabilities:** Official plugin directory, canonical plugin architecture, quality standards, lifecycle management, Hermes-applicable patterns
-**Related:** Plugins · [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** Plugins · [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -456,7 +456,7 @@ Official Anthropic-managed directory of high-quality Claude Code plugins. Refere
 Claude Code infrastructure examples with skill auto-activation, hooks, and agents. Practical architecture patterns for Hermes deployments  --  showcases real-world infrastructure configurations with automated skill loading, hook-based event systems, and multi-agent coordination setups that translate directly to Hermes production environments.
 
 **Key capabilities:** Infrastructure examples, skill auto-activation, hook systems, multi-agent patterns, production-ready, Hermes-applicable
-**Related:** [Infrastructure →](/docs/hermes/infrastructure) · [Architecture →](/docs/hermes/architecture)
+**Related:** [Infrastructure →](/hermes/infrastructure) · [Architecture →](/hermes/architecture)
 
 ---
 
@@ -466,7 +466,7 @@ Claude Code infrastructure examples with skill auto-activation, hooks, and agent
 Comprehensive Claude Code toolkit: 135 agents, 35 curated skills, 42 commands, 176+ plugins. Discovery resource for Hermes-compatible tools  --  the largest single-curator collection of cross-compatible agent extensions spanning every capability domain. An essential browsing destination for Hermes users seeking battle-tested tools, skills, and plugins from the broader agent ecosystem.
 
 **Key capabilities:** 135 agents, 35 skills, 42 commands, 176+ plugins, cross-compatible discovery, curated toolkit, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog) · Plugins
+**Related:** [Skills Catalog →](/hermes/skills/catalog) · Plugins
 
 ---
 
@@ -476,7 +476,7 @@ Comprehensive Claude Code toolkit: 135 agents, 35 curated skills, 42 commands, 1
 Andrej Karpathy AI skills collection  --  a comprehensive curated set of AI development skills, patterns, and methodologies from the legendary AI educator, researcher, and former Tesla Autopilot/OpenAI leader. Covers deep learning architecture design, neural network training methodology, practical AI engineering patterns, data curation strategies, and production ML deployment best practices refined through years of leading-edge AI research and education. Drop-in compatible with Hermes Agent for expert-level AI development capabilities backed by Karpathy's battle-tested approaches to building intelligent systems that work in the real world.
 
 **Key capabilities:** Andrej Karpathy skills, deep learning patterns, neural network design, training methodology, AI engineering, production ML, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -486,7 +486,7 @@ Andrej Karpathy AI skills collection  --  a comprehensive curated set of AI deve
 Awesome Agent Skills  --  a curated collection of agent skills and capabilities for AI coding agents across Claude Code, Cursor, Codex, Hermes Agent, and other platforms. Community-driven resource cataloging production-grade skills with compatibility ratings, installation guides, and real-world usage examples. An essential discovery hub for finding battle-tested agent skills that extend autonomous agent capabilities across development, operations, content creation, and domain-specific workflows.
 
 **Key capabilities:** Curated agent skills, multi-platform, community-driven, compatibility ratings, skill discovery, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -496,7 +496,7 @@ Awesome Agent Skills  --  a curated collection of agent skills and capabilities 
 CowAgent  --  comprehensive AI agent framework for building autonomous task execution systems with multi-modal capabilities. Provides a structured approach to agent development with built-in memory management, tool integration, and multi-step reasoning pipelines. Production-ready framework for deploying autonomous agents that learn from interactions, manage complex task graphs, and coordinate across multiple knowledge domains  --  compatible with Hermes Agent for extended autonomous workflows.
 
 **Key capabilities:** AI agent framework, autonomous task execution, multi-modal, memory management, tool integration, multi-step reasoning, Hermes-compatible
-**Related:** [Architecture →](/docs/hermes/architecture) · [Orchestration →](#orchestration-multi-agent-swarms)
+**Related:** [Architecture →](/hermes/architecture) · [Orchestration →](#orchestration-multi-agent-swarms)
 
 ---
 
@@ -506,7 +506,7 @@ CowAgent  --  comprehensive AI agent framework for building autonomous task exec
 🗺️ Hermes Atlas - the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com. The go-to visual directory for discovering the full Hermes ecosystem landscape - browse tools, skills, integrations, and community projects in an interactive map format.
 
 **Key capabilities:** Ecosystem visualization, tool discovery, community directory, interactive mapping, Hermes-compatible
-**Related:** [Architecture →](/docs/hermes/architecture) · [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Architecture →](/hermes/architecture) · [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -643,7 +643,7 @@ Persistent memory and knowledge management for autonomous agents.
 Persistent context across sessions for every agent. Captures everything your agent does  --  files, conversations, decisions  --  and makes it retrievable. Works with Hermes, Claude Code, Codex, and other agents.
 
 **Key capabilities:** Cross-agent memory, persistent context, automatic capture, retrieval across sessions  
-**Related:** [Knowledge Architecture →](/docs/hermes/knowledge)
+**Related:** [Knowledge Architecture →](/hermes/knowledge)
 
 ---
 
@@ -654,7 +654,7 @@ Garry's Opinionated OpenClaw/Hermes Agent Brain. Persistent organizational memor
 
 **Maintainer:** Garry Tan (Y Combinator)  
 **Key capabilities:** File indexing, semantic search, pglite database, 768d embeddings, Dream Cycle consolidation  
-**Related:** [Knowledge Architecture →](/docs/hermes/knowledge) · [Setup Guide →](/docs/hermes/setup)
+**Related:** [Knowledge Architecture →](/hermes/knowledge) · [Setup Guide →](/hermes/setup)
 
 ---
 
@@ -664,7 +664,7 @@ Garry's Opinionated OpenClaw/Hermes Agent Brain. Persistent organizational memor
 Self-evolving memory across Agent and platform. The one portable memory layer for every agent  --  works across Hermes, Claude, GPT, and custom agents.
 
 **Key capabilities:** Self-evolving memory, cross-platform portability, automatic learning  
-**Related:** [Memory Stack →](/docs/hermes/knowledge)
+**Related:** [Memory Stack →](/hermes/knowledge)
 
 ---
 
@@ -692,7 +692,7 @@ The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Ever
 Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae. Local-first, Apache-2.0 licensed.
 
 **Key capabilities:** Cross-agent memory, MCP-native server, local-first sessions, 14+ agent compatibility, TypeScript SDK
-**Related:** [MCP & Integrations →](#mcp-integrations) · [Memory Stack →](/docs/hermes/knowledge)
+**Related:** [MCP & Integrations →](#mcp-integrations) · [Memory Stack →](/hermes/knowledge)
 
 ---
 
@@ -703,7 +703,7 @@ MCP memory server for AI coding assistants. Works with Claude Code, Cursor, Code
 
 **Maintainer:** CodeAbra
 **Key capabilities:** Local encrypted memory, verbatim recall, MCP-native, cross-agent support, SQLite + vector DB hybrid
-**Related:** [MCP & Integrations →](#mcp-integrations) · [Memory Stack →](/docs/hermes/knowledge)
+**Related:** [MCP & Integrations →](#mcp-integrations) · [Memory Stack →](/hermes/knowledge)
 
 ---
 
@@ -751,14 +751,14 @@ YC S26  --  AI that knows what you've seen, said, or heard. Records everything y
 ### memcore-cloud
 Self-evolving memory with cross-session context injection. Auto-injects relevant history into every Hermes turn. Used in our production deployment.
 
-**Related:** [Memory Architecture →](/docs/hermes/knowledge)
+**Related:** [Memory Architecture →](/hermes/knowledge)
 
 ---
 
 ### Honcho
 Peer memory and identity platform. Conversation continuity, semantic search, peer modeling. MCP-native integration with Hermes.
 
-**Related:** [Knowledge Architecture →](/docs/hermes/knowledge) · [MCP Integration →](/docs/hermes/mcp)
+**Related:** [Knowledge Architecture →](/hermes/knowledge) · [MCP Integration →](/hermes/mcp)
 
 ---
 
@@ -778,7 +778,7 @@ Three-tier memory architecture inspired by Hermes Agent  --  global memory → t
 Self-evolving memory operating system for LLM and AI agents  --  hybrid retrieval with cross-task memory persistence. Learn, recall, and adapt across sessions without manual memory management. Designed for Hermes, Claude, GPT, and autonomous agent workflows requiring continuous knowledge accumulation.
 
 **Key capabilities:** Self-evolving memory, hybrid retrieval, cross-task persistence, automatic learning, agent-native memory OS  
-**Related:** [Memory Stack →](/docs/hermes/knowledge)
+**Related:** [Memory Stack →](/hermes/knowledge)
 
 ---
 
@@ -788,7 +788,7 @@ Self-evolving memory operating system for LLM and AI agents  --  hybrid retrieva
 Lossless Context Management: DAG-based context engine that never loses a message  --  production-grade memory for Hermes Agent. Built on directed acyclic graph architecture that preserves every conversation turn with full provenance tracking, context branching, and deterministic replay. Eliminates context window truncation artifacts and enables infinite conversation depth through intelligent context graph traversal, making it the definitive solution for long-running Hermes Agent sessions requiring perfect message retention.
 
 **Key capabilities:** DAG-based context, lossless message retention, production-grade memory, context branching, deterministic replay, infinite conversation depth, Hermes-native
-**Related:** [Knowledge Architecture →](/docs/hermes/knowledge) · [Memory Stack →](/docs/hermes/knowledge)
+**Related:** [Knowledge Architecture →](/hermes/knowledge) · [Memory Stack →](/hermes/knowledge)
 
 ---
 
@@ -798,7 +798,7 @@ Lossless Context Management: DAG-based context engine that never loses a message
 The #1 persistent memory solution for AI coding agents. Drop-in memory layer for Hermes agents that prevents context loss across sessions with vector-backed recall  --  maintain perfect conversation continuity even across restarts. Production-grade memory persistence with sub-millisecond retrieval for autonomous agent workflows requiring flawless recall across unlimited sessions.
 
 **Key capabilities:** Persistent memory, vector-backed recall, drop-in integration, context continuity, cross-session recall, Hermes-native
-**Related:** [Memory Stack →](/docs/hermes/knowledge)
+**Related:** [Memory Stack →](/hermes/knowledge)
 
 ---
 
@@ -808,7 +808,7 @@ The #1 persistent memory solution for AI coding agents. Drop-in memory layer for
 RAGLight  --  lightweight Retrieval-Augmented Generation implementation optimized for agent memory and knowledge retrieval. Provides a minimal, fast RAG pipeline that serves as a drop-in knowledge layer for autonomous agents needing efficient document indexing, semantic search, and context injection. Designed for low-latency agent workflows where traditional vector databases are overkill  --  perfect for Hermes Agent knowledge management in resource-constrained environments with sub-100ms retrieval over moderate document collections.
 
 **Key capabilities:** RAG implementation, lightweight retrieval, agent memory, semantic search, document indexing, context injection, Hermes-compatible
-**Related:** [Knowledge Architecture →](/docs/hermes/knowledge) · [Memory Stack →](/docs/hermes/knowledge)
+**Related:** [Knowledge Architecture →](/hermes/knowledge) · [Memory Stack →](/hermes/knowledge)
 
 ---
 
@@ -920,7 +920,7 @@ One OAuth flow. 53 tools. 40+ business platforms. Connect Hermes to Gmail, GA4, 
 
 **Maintainer:** CorpusIQ  
 **Key capabilities:** 40+ business connectors, single OAuth, cross-source analysis, device login flow  
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Connector Reference →](/docs/hermes/mcp/connectors)
+**Related:** [MCP Guide →](/hermes/mcp) · [Connector Reference →](/hermes/mcp/connectors)
 
 ---
 
@@ -931,7 +931,7 @@ Open source integration framework  --  Apache Camel is the industry-standard ent
 
 **Maintainer:** Apache Software Foundation
 **Key capabilities:** 300+ integration components, enterprise integration patterns, message routing, protocol translation, ETL, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -948,7 +948,7 @@ Kindly Web Search MCP Server  --  web search + robust content retrieval for Herm
 Unified real-time search MCP server for AI agents  --  aggregates results from Google, Bing, Brave, and DuckDuckGo with a single API. Drop-in search backend for Hermes Agent providing fresh, ranked web results with configurable source priority and result filtering. Eliminates the need for multiple search MCP servers.
 
 **Key capabilities:** Multi-engine search, Google/Bing/Brave/DuckDuckGo, unified API, real-time results, MCP-native
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -966,7 +966,7 @@ Open-source cross-agent memory layer for coding agents via MCP. Compatible with 
 
 **Maintainer:** AVIDS2  
 **Key capabilities:** Cross-agent memory, MCP integration, persistent storage, multi-assistant compatibility, local-first architecture  
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Knowledge Systems →](/docs/hermes/knowledge)
+**Related:** [MCP Guide →](/hermes/mcp) · [Knowledge Systems →](/hermes/knowledge)
 
 ---
 
@@ -1163,7 +1163,7 @@ Full Mistral AI MCP integration: chat, vision, OCR, audio. Complete Mistral plat
 Zotero AI MCP plugin with ChatGPT, Claude, DeepSeek, and Grok integration  --  bring AI-powered research assistance directly into your Zotero reference manager. Query, summarize, and analyze academic papers using your preferred LLM through MCP. Hermes-compatible research acceleration tool for academics and knowledge workers.
 
 **Key capabilities:** Zotero integration, academic paper analysis, multi-LLM support (ChatGPT/Claude/DeepSeek/Grok), MCP-native, research workflow automation
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -1193,7 +1193,7 @@ Open, self-custody x402 payment rail for AI agents  --  an SDK plus an MCP serve
 Curated list of Claude Skills, resources, and tools with community ratings. Excellent discovery resource for Hermes-compatible skills  --  browse hundreds of rated skills, extensions, and plugins that extend AI coding agents. Community-maintained quality scores help identify the most battle-tested and reliable skills for production use with Hermes Agent.
 
 **Key capabilities:** Skill discovery, community ratings, curated resource list, Claude-to-Hermes cross-compatibility, quality-scored recommendations
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1203,7 +1203,7 @@ Curated list of Claude Skills, resources, and tools with community ratings. Exce
 Specification and documentation for the Agent Skills protocol  --  the standard reference for skill interoperability across AI agent platforms including Hermes, Claude Code, Cursor, and others. Defines the canonical skill manifest format, skill lifecycle (install → configure → execute → update → remove), cross-platform compatibility requirements, and best practices for skill authors targeting multiple agent ecosystems.
 
 **Key capabilities:** Skill protocol specification, cross-platform interoperability, skill manifest standard, lifecycle definition, authoring best practices, Hermes-compatible standard
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog) · [MCP Guide →](/docs/hermes/mcp)
+**Related:** [Skills Catalog →](/hermes/skills/catalog) · [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -1214,7 +1214,7 @@ Specification and documentation for the Agent Skills protocol  --  the standard 
 
 **Maintainer:** Composio
 **Key capabilities:** 1,000+ toolkits, tool search, context management, authentication, sandboxed workbench, MCP-native, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -1225,7 +1225,7 @@ AI agents + MCPs + workflow automation platform with ~400 MCP servers. Open-sour
 
 **Maintainer:** Activepieces
 **Key capabilities:** AI agents, ~400 MCP servers, workflow automation, visual builder, business integrations, open-source, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [MCP Guide →](/hermes/mcp) · [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -1235,7 +1235,7 @@ AI agents + MCPs + workflow automation platform with ~400 MCP servers. Open-sour
 MCP server for agent skill management and discovery  --  Mystx AI's Model Context Protocol server enabling seamless skill installation, execution, and management across Hermes Agent and compatible platforms. Provides standardized skill lifecycle management through MCP with discovery, versioning, and cross-platform compatibility.
 
 **Key capabilities:** MCP server, skill management, skill discovery, cross-platform, skill lifecycle, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [MCP Guide →](/hermes/mcp) · [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1245,7 +1245,7 @@ MCP server for agent skill management and discovery  --  Mystx AI's Model Contex
 MCP server for Google Ads  --  Model Context Protocol server providing autonomous agents with direct access to Google Ads campaign management, performance reporting, and optimization workflows. Enables Hermes Agent to read campaign metrics, analyze ad performance, manage keywords, and generate optimization recommendations through standardized MCP tool calls. Production-ready bridge between autonomous agents and the Google Ads platform for automated PPC management and reporting.
 
 **Key capabilities:** Google Ads MCP server, campaign management, performance reporting, keyword analysis, PPC automation, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Integrations →](#mcp-integrations)
+**Related:** [MCP Guide →](/hermes/mcp) · [Integrations →](#mcp-integrations)
 
 ---
 
@@ -1255,7 +1255,7 @@ MCP server for Google Ads  --  Model Context Protocol server providing autonomou
 MCP server for Strava  --  Model Context Protocol server connecting autonomous agents to Strava fitness data, activity tracking, and performance analytics. Grants Hermes Agent access to athlete profiles, activity logs, route data, segment leaderboards, and training metrics through standardized MCP tool calls. Enables agent-driven fitness analysis, training plan optimization, and performance insights from Strava's extensive activity database.
 
 **Key capabilities:** Strava MCP server, fitness data access, activity tracking, training analytics, athlete profiles, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Integrations →](#mcp-integrations)
+**Related:** [MCP Guide →](/hermes/mcp) · [Integrations →](#mcp-integrations)
 
 ---
 
@@ -1265,7 +1265,7 @@ MCP server for Strava  --  Model Context Protocol server connecting autonomous a
 Database MCP server  --  universal Model Context Protocol server providing autonomous agents with SQL database access across PostgreSQL, MySQL, SQLite, and SQL Server. Enables Hermes Agent to execute queries, explore schemas, and analyze data through standardized MCP tool calls with built-in connection pooling, query sanitization, and result streaming. Production-ready database bridge for agent-driven data exploration, reporting, and ETL workflows.
 
 **Key capabilities:** Database MCP server, SQL access, multi-database support, query execution, schema exploration, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Integrations →](#mcp-integrations)
+**Related:** [MCP Guide →](/hermes/mcp) · [Integrations →](#mcp-integrations)
 
 ---
 
@@ -1275,7 +1275,7 @@ Database MCP server  --  universal Model Context Protocol server providing auton
 Apache Superset MCP server  --  Model Context Protocol server connecting autonomous agents to Apache Superset dashboards, charts, and data exploration capabilities. Enables Hermes Agent to query Superset datasets, retrieve chart data, list dashboards, and generate data visualizations through standardized MCP tool calls. Bridges the gap between autonomous agents and business intelligence platforms for agent-driven data analysis and reporting.
 
 **Key capabilities:** Apache Superset MCP, BI integration, dashboard access, chart data retrieval, data exploration, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Integrations →](#mcp-integrations)
+**Related:** [MCP Guide →](/hermes/mcp) · [Integrations →](#mcp-integrations)
 
 ---
 
@@ -1285,7 +1285,7 @@ Apache Superset MCP server  --  Model Context Protocol server connecting autonom
 Code graph context for AI coding agents  --  provides structured code knowledge graphs that give agents deep understanding of codebase architecture, dependencies, and relationships. Enables Hermes Agent to navigate complex codebases with full architectural awareness through MCP.
 
 **Key capabilities:** Code graph context, codebase architecture, dependency mapping, MCP-native, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -1296,7 +1296,7 @@ Sentry Xcode Build MCP  --  Model Context Protocol server connecting autonomous 
 
 **Maintainer:** Sentry
 **Key capabilities:** Xcode build MCP, Sentry integration, build automation, error monitoring, iOS development, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -1306,7 +1306,7 @@ Sentry Xcode Build MCP  --  Model Context Protocol server connecting autonomous 
 Unity MCP server  --  Model Context Protocol server bridging autonomous agents with the Unity game engine. Enables Hermes Agent to control Unity Editor, manipulate game objects, manage scenes, trigger builds, and automate game development workflows through standardized MCP tool calls.
 
 **Key capabilities:** Unity MCP, game engine integration, Unity Editor control, scene management, build automation, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -1362,7 +1362,7 @@ Extend Hermes with community-built skills and plugins.
 Production-grade engineering skills for AI coding agents  --  practical, battle-tested patterns for real-world agent deployments from Addy Osmani (Google Chrome engineering leader). Covers software architecture, performance optimization, testing strategies, code review automation, and DevOps workflows refined through production use. Essential skillset for Hermes Agent users building mission-critical software with agentic workflows backed by engineering best practices from one of the industry's most respected voices.
 
 **Key capabilities:** Production-grade engineering, Addy Osmani, software architecture, performance optimization, testing strategies, DevOps, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1372,7 +1372,7 @@ Production-grade engineering skills for AI coding agents  --  practical, battle-
 160,000+ user scientific agent skills library  --  turn any AI agent into an AI Scientist. Massive collection of research-grade scientific skills covering hypothesis generation, experiment design, literature synthesis, data analysis, paper writing, and peer review workflows. Transforms Hermes Agent into a full-fledged scientific research assistant capable of accelerating discovery across disciplines from biology and chemistry to physics and computer science.
 
 **Key capabilities:** 160K+ users, AI Scientist, research skills, hypothesis generation, experiment design, paper writing, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1382,7 +1382,7 @@ Production-grade engineering skills for AI coding agents  --  practical, battle-
 Vercel's official collection of agent skills  --  production-tested patterns for agent deployments on Vercel's edge platform. Covers frontend development, API integration, deployment automation, performance monitoring, and edge computing workflows optimized for the Vercel ecosystem. Essential resource for Hermes Agent users deploying agentic applications at global scale with Vercel's infrastructure, combining the power of autonomous agents with world-class edge delivery.
 
 **Key capabilities:** Official Vercel, production-tested, edge deployment, frontend development, API integration, deployment automation, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1392,7 +1392,7 @@ Vercel's official collection of agent skills  --  production-tested patterns for
 100+ agentic product management skills from discovery to launch  --  the complete PM toolkit for AI agents. Covers the full product lifecycle: market research, user story generation, PRD creation, roadmap planning, sprint management, stakeholder communication, and launch execution. Drop-in compatible with Hermes Agent for autonomous product management workflows that accelerate product development cycles from weeks to days.
 
 **Key capabilities:** 100+ PM skills, product discovery, PRD generation, roadmap planning, sprint management, product lifecycle, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1409,7 +1409,7 @@ Cross-platform skills library that works with Hermes, Claude Code, and other age
 Hand-crafted skills for dramatically improving agent result quality through context engineering  --  the art and science of providing AI agents with precisely the right context to produce superior outputs. Compatible with OpenCode, Cursor, and Hermes Agent. Elevate your agent's reasoning depth, accuracy, and output quality with context-optimized skill patterns designed by AI engineering experts who understand what agents need to succeed on complex, multi-step tasks.
 
 **Key capabilities:** Context engineering, result quality optimization, hand-crafted skills, OpenCode/Cursor/Hermes compatible, reasoning improvement, output accuracy
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1419,7 +1419,7 @@ Hand-crafted skills for dramatically improving agent result quality through cont
 Curated collection of 5,400+ OpenClaw skills filtered from the official registry  --  the largest organized skill library in the agent ecosystem. Browse, discover, and install production-ready skills for automation, content creation, development, and business operations. Hermes-compatible with direct migration path for OpenClaw skills.
 
 **Key capabilities:** 5,400+ skills, curated registry, production-ready, OpenClaw-to-Hermes migration, community-vetted
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1428,7 +1428,7 @@ Curated collection of 5,400+ OpenClaw skills filtered from the official registry
 
 Complete CMO stack: 45+ marketing skills covering SEO, CRO, copywriting, cold email, ads, analytics, community, launch, pricing, competitors, directory submissions, revops, and content strategy. Includes 51 CLI tools and 200+ directory targets.
 
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1445,7 +1445,7 @@ Literate programming support across Hermes, Claude Code, and OpenCode. Write cod
 Claude Code skill integrating Pornhub platform capabilities  --  enables AI coding agents to interact with Pornhub's API for content discovery, metadata retrieval, and platform automation. Cross-compatible with Hermes Agent for automated content workflows and platform integrations.
 
 **Key capabilities:** Pornhub API integration, content discovery, Claude Code skill, platform automation, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1469,7 +1469,7 @@ AI coding superpowers  --  Chinese enhanced edition. 6 original Chinese skills f
 Agent skills for Obsidian by Kepano  --  teach Hermes agents to read, write, and navigate Obsidian vaults using CLI and Markdown. Unlock your second brain for autonomous agents: query notes, create linked documents, manage daily notes, and execute Obsidian commands through natural language. Essential bridge between personal knowledge management and agent workflows.
 
 **Key capabilities:** Obsidian vault integration, Markdown-native, CLI automation, knowledge graph access, daily notes, personal knowledge management
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1479,7 +1479,7 @@ Agent skills for Obsidian by Kepano  --  teach Hermes agents to read, write, and
 165 evidence-based education skills for Claude, Codex, and Hermes Agent  --  pedagogically sound teaching workflows grounded in educational research. Lesson planning, student assessment, curriculum design, differentiated instruction, and classroom management skills built on proven instructional methodologies.
 
 **Key capabilities:** 165 education skills, evidence-based pedagogy, lesson planning, curriculum design, Claude/Codex/Hermes compatible, instructional design
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -1547,7 +1547,7 @@ Battle-tested Hermes Agent skills for solo founders running a portfolio of busin
 ---
 
 ### CorpusIQ Skills (This Repo)
-[Browse 133+ skills →](/docs/hermes/skills/catalog)
+[Browse 133+ skills →](/hermes/skills/catalog)
 
 Our production-tested skill catalog: 45 marketing skills, 12 development skills, 8 operations skills, 5 content skills, 3 governance skills. All tested in 24/7 production deployment.
 
@@ -2127,7 +2127,7 @@ Community directory for Hermes Agent plugins  --  auto-indexed from GitHub topic
 66 specialized skills for full-stack developers  --  production patterns for agent development. Comprehensive skill library covering frontend frameworks (React, Vue, Svelte), backend stacks (Node.js, Python, Go), database optimization, CI/CD pipelines, cloud deployment patterns, and testing strategies. Each skill follows battle-tested production patterns refined through real-world full-stack development. Drop-in compatible with Hermes Agent for accelerating full-stack development workflows with agentic assistance.
 
 **Key capabilities:** 66 full-stack skills, React/Vue/Svelte, Node.js/Python/Go, CI/CD pipelines, cloud deployment, production patterns, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2137,7 +2137,7 @@ Community directory for Hermes Agent plugins  --  auto-indexed from GitHub topic
 Universal SEO skill for AI agents with 25 sub-skills and 18 sub-agents covering technical SEO, E-E-A-T optimization, content strategy, keyword research, on-page optimization, link building, and performance analytics. Transforms Hermes Agent into a comprehensive SEO automation platform  --  audit sites, generate optimized content, track rankings, analyze competitors, and implement technical SEO fixes through agentic workflows. Modular sub-agent architecture enables parallel SEO task execution across multiple domains.
 
 **Key capabilities:** 25 sub-skills, 18 sub-agents, technical SEO, E-E-A-T optimization, content strategy, keyword research, rank tracking, competitor analysis, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2147,7 +2147,7 @@ Universal SEO skill for AI agents with 25 sub-skills and 18 sub-agents covering 
 GEO-first SEO skill for AI agents  --  comprehensive AI search optimization for any website with citability scoring. Built for the Generative Engine Optimization era: optimize content for AI-powered search engines (Google SGE, Perplexity, ChatGPT Search) with proprietary citability scoring that measures how likely your content is to be cited by AI-generated answers. Includes brand authority building, structured data optimization, AI-friendly content formatting, and citation-worthiness analysis. Essential for Hermes Agent users optimizing content for the AI-search landscape.
 
 **Key capabilities:** GEO-first optimization, citability scoring, AI search optimization, Google SGE, Perplexity, brand authority, structured data, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2157,7 +2157,7 @@ GEO-first SEO skill for AI agents  --  comprehensive AI search optimization for 
 Comprehensive open-source library of AI research and engineering skills for any agent platform. Covers the full AI research lifecycle: literature review automation, experiment design, hyperparameter optimization, model training orchestration, ablation studies, result analysis, and paper writing. Research-grade skills developed by the Orchestra Research team for accelerating AI R&D workflows with agentic assistance. Drop-in compatible with Hermes Agent for AI researchers and ML engineers.
 
 **Key capabilities:** AI research library, literature review, experiment design, hyperparameter optimization, model training, ablation studies, paper writing, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2167,7 +2167,7 @@ Comprehensive open-source library of AI research and engineering skills for any 
 Academic research skills pipeline: research → write → review → revise → finalize for AI agents. Complete academic writing workflow automated through agentic skills  --  from initial literature survey and source evaluation through drafting, peer review simulation, revision cycles, and final manuscript preparation. Supports multiple citation styles (APA, MLA, Chicago, IEEE), LaTeX formatting, figure/table generation, and journal-specific submission formatting. One of the most popular academic agent skills, trusted by 32K+ researchers.
 
 **Key capabilities:** Research pipeline, writing workflow, peer review simulation, multi-citation styles, LaTeX formatting, journal submission, 32K+ users, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2177,7 +2177,7 @@ Academic research skills pipeline: research → write → review → revise → 
 Agent skill that removes signs of AI-generated writing from text  --  humanizes content by adjusting tone, cadence, vocabulary variation, sentence structure diversity, and stylistic naturalness. Goes beyond simple paraphrasing to analyze and transform AI writing patterns into authentically human-sounding prose while preserving meaning, accuracy, and factual content. Essential for Hermes content agents producing blog posts, marketing copy, emails, social media, and any customer-facing content where natural human voice matters.
 
 **Key capabilities:** AI text humanization, tone adjustment, cadence variation, vocabulary diversity, style transformation, content authenticity, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2187,7 +2187,7 @@ Agent skill that removes signs of AI-generated writing from text  --  humanizes 
 Turn Claude Code into a full game development studio with 49 AI agents, 72 workflow skills, and coordination system. Comprehensive game development pipeline: concept design, prototyping, 3D modeling assistance, shader programming, level design, playtesting automation, sound design, and build/deploy orchestration. The 49 specialized agents collaborate through a coordination layer that manages dependencies, merge conflicts, and asset pipelines. Adaptable for Hermes Agent to power end-to-end game development with agentic workflows.
 
 **Key capabilities:** 49 AI agents, 72 workflow skills, game dev pipeline, concept to deploy, 3D modeling, shader programming, level design, coordination system, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2197,7 +2197,7 @@ Turn Claude Code into a full game development studio with 49 AI agents, 72 workf
 Multi-modal Generative Media Skills  --  comprehensive skill pack enabling Hermes Agent to create, edit, and transform images, video, audio, and 3D content. Covers AI image generation (Stable Diffusion, DALL-E, Midjourney APIs), video editing and generation, audio synthesis and voice cloning, 3D model creation, and media pipeline automation. Transforms Hermes into a full creative media studio capable of producing professional-grade multi-modal content with agent-driven workflows.
 
 **Key capabilities:** Multi-modal generation, image/video/audio/3D, Stable Diffusion, DALL-E, media pipeline automation, creative studio, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2207,7 +2207,7 @@ Multi-modal Generative Media Skills  --  comprehensive skill pack enabling Herme
 Community-driven Claude Code skills  --  a growing collection of practical, peer-reviewed skills for AI coding agents. Covers software development best practices, code review automation, testing strategies, documentation generation, and DevOps workflows. Community-maintained with active contributions and real-world testing across Claude Code, Hermes Agent, and compatible platforms. Designed to be drop-in compatible with Hermes skill system for immediate productivity gains.
 
 **Key capabilities:** Community-driven, peer-reviewed, software development, code review, testing, DevOps, Claude Code/Hermes compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2217,7 +2217,7 @@ Community-driven Claude Code skills  --  a growing collection of practical, peer
 UI/UX Pro Max skill for AI agents  --  a comprehensive design and prototyping toolkit that transforms autonomous agents into full-stack design partners. Covers design systems architecture, component library generation, accessibility pattern enforcement, responsive layout design, user research synthesis, design token management, and Figma-to-code workflows. Drop-in compatible with Hermes Agent for professional-grade UI/UX design capabilities including automated design audits, accessibility compliance checking, and production-ready component code generation across React, Vue, and Svelte frameworks.
 
 **Key capabilities:** UI/UX design skill, design systems, accessibility patterns, component architecture, Figma integration, responsive design, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2227,7 +2227,7 @@ UI/UX Pro Max skill for AI agents  --  a comprehensive design and prototyping to
 Binance Skills Hub  --  official collection of agent skills from Binance for cryptocurrency trading, market analysis, blockchain data access, and DeFi workflow automation. Provides Hermes Agent with production-grade access to Binance APIs, market data streams, portfolio management, and trading strategy execution through well-structured, audited skill modules. Enterprise-grade skills for autonomous agents operating in crypto and blockchain domains with built-in rate limiting, error handling, and security best practices.
 
 **Key capabilities:** Binance skills, crypto trading, market analysis, blockchain data, DeFi automation, enterprise-grade, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2332,7 +2332,7 @@ Phistory automatically archives versioned system prompt snapshots from agent CLI
 Enhanced ChatGPT clone featuring Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI  --  a full-featured, open-source chat platform with native MCP support that's fully compatible with Hermes Agent. Deploy your own AI chat interface with built-in agent orchestration, skill execution, and multi-model routing. The MCP-native architecture makes it a natural companion for Hermes Agent deployments, providing a polished chat UI with enterprise-grade features including file handling, code execution, and multi-modal support.
 
 **Key capabilities:** MCP-native, multi-model (DeepSeek/Anthropic/AWS/OpenAI), agent orchestration, skill execution, open-source chat platform, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -2342,7 +2342,7 @@ Enhanced ChatGPT clone featuring Agents, MCP, Skills, DeepSeek, Anthropic, AWS, 
 The open agent skills tool  --  `npx skills` CLI for installing and managing agent skills across platforms. One-command skill installation and management for Hermes Agent, Claude Code, Cursor, and other AI coding agents. Vercel's official skills CLI provides a unified interface for discovering, installing, updating, and removing agent skills with dependency resolution and version management. Streamline your Hermes Agent skill workflow with the industry-standard skills package manager.
 
 **Key capabilities:** npx skills CLI, cross-platform skill management, install/update/remove, Vercel official, dependency resolution, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2352,7 +2352,7 @@ The open agent skills tool  --  `npx skills` CLI for installing and managing age
 Lightweight Marathon AI Dev Runner  --  autonomous coding agent that runs continuous development sessions with automatic context management, checkpoint recovery, and sleep/wake cycle optimization for long-running AI coding tasks. Designed for marathon coding sessions where agents work through complex multi-hour development workflows without losing context or momentum. Drop-in compatible with Hermes Agent for autonomous development that runs while you sleep  --  wake up to completed features, passing tests, and merged PRs.
 
 **Key capabilities:** Marathon coding, autonomous development, context management, checkpoint recovery, continuous sessions, sleep/wake optimization, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2362,7 +2362,7 @@ Lightweight Marathon AI Dev Runner  --  autonomous coding agent that runs contin
 Free AI gateway: one endpoint, multiple models  --  unified API gateway providing a single endpoint to access dozens of AI models from OpenAI, Anthropic, Google, Meta, DeepSeek, and more. Intelligent model routing with automatic fallback, load balancing, and cost optimization across providers. Hermes Agent users gain seamless multi-model access without managing multiple API keys or provider-specific SDKs  --  route any agent request to the optimal model based on cost, capability, or availability.
 
 **Key capabilities:** Unified AI gateway, multi-model routing, automatic fallback, load balancing, cost optimization, single endpoint, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp)
+**Related:** [MCP Guide →](/hermes/mcp)
 
 ---
 
@@ -2373,7 +2373,7 @@ Context-aware agentic LLM gateway and router that optimizes agentic workflows wi
 
 **Maintainer:** [bitrouter](https://github.com/bitrouter)
 **Key capabilities:** LLM gateway, agentic routing, ACP-native, multi-harness, multi-model, agent observability, guardrails, MCP integration, Rust
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Orchestration →](#orchestration-multi-agent-swarms)
+**Related:** [MCP Guide →](/hermes/mcp) · [Orchestration →](#orchestration-multi-agent-swarms)
 
 ---
 
@@ -2414,7 +2414,7 @@ Curated plugin marketplace for AI agents  --  discover, install, and manage plug
 Power BI AI skills and agents for business intelligence automation  --  teach Hermes Agent to build, manage, and optimize Power BI dashboards, reports, and data models. Autonomous BI development: from data source connection to visualization design, DAX optimization, and automated report generation. Transform your business intelligence workflow with agentic Power BI development that turns days of manual BI work into minutes of agent execution.
 
 **Key capabilities:** Power BI automation, dashboard generation, DAX optimization, BI agents, report automation, data modeling, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2424,7 +2424,7 @@ Power BI AI skills and agents for business intelligence automation  --  teach He
 Official Microsoft Power Platform plugins for Claude Code and agents  --  Microsoft's own skill package extending agent capabilities across Power Automate, Power Apps, Power BI, and Power Virtual Agents. Enterprise-grade, Microsoft-maintained skills with native Hermes Agent compatibility for organizations building agentic workflows on the Power Platform ecosystem.
 
 **Key capabilities:** Power Platform integration, Power Automate, Power Apps, Power BI, official Microsoft, enterprise-grade, Hermes-compatible
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [MCP Guide →](/hermes/mcp) · [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2704,7 +2704,7 @@ Running and evaluating Hermes Agent in Telegram topic-based lanes  --  experimen
 Token telemetry dashboard for autonomous AI agents  --  track token consumption, session costs, and tool call patterns across providers in real-time. Monitor Hermes Agent spend with per-session breakdowns, provider-level analytics, and usage trend visualization. Essential cost observability for production agent deployments running 24/7.
 
 **Key capabilities:** Token tracking, cost monitoring, session analytics, multi-provider telemetry, tool call metrics, usage dashboards
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -2715,7 +2715,7 @@ Persistent file-based planning for AI coding agents with crash-proof markdown st
 
 **Status:** Production
 **Key capabilities:** File-based planning, crash-proof state, multi-session continuity, task decomposition, progress tracking, markdown-native, cross-agent compatible
-**Related:** [Governance →](/docs/hermes/governance)
+**Related:** [Governance →](/hermes/governance)
 
 ---
 
@@ -2726,7 +2726,7 @@ Read-only observability plugin for Hermes Agent  --  journeys, crossings, guidep
 
 **Status:** Beta
 **Key capabilities:** Read-only observability, agent journey tracking, decision path mapping, session reports, zero-intrusion monitoring, auditing, performance debugging, Hermes-native plugin
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -2736,7 +2736,7 @@ Read-only observability plugin for Hermes Agent  --  journeys, crossings, guidep
 Context window optimization for AI coding agents  --  sandboxes tool output with 98% reduction across 15 platforms. Dramatically reduces context window consumption by intelligently filtering, summarizing, and compressing tool call outputs before they enter the agent's context. Supports Hermes Agent, Claude Code, Cursor, Windsurf, Copilot, and 10+ other AI coding platforms. Critical utility for long-running agent sessions, multi-file refactors, large codebase navigation, and any workflow where context window exhaustion limits agent performance. Achieves 98% token reduction while preserving actionable information.
 
 **Key capabilities:** Context window optimization, 98% output reduction, tool output sandboxing, 15-platform support, token compression, long-session optimization, Hermes-compatible
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -2746,7 +2746,7 @@ Context window optimization for AI coding agents  --  sandboxes tool output with
 Compress tool outputs, logs, files, and RAG chunks before reaching the LLM. 60-95% fewer tokens, same answers. Essential cost optimization for Hermes agent deployments  --  dramatically reduces API costs while preserving output fidelity.
 
 **Key capabilities:** Output compression, 60-95% token reduction, tool output optimization, log compression, RAG chunk optimization, cost reduction, Hermes-compatible
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -2756,7 +2756,7 @@ Compress tool outputs, logs, files, and RAG chunks before reaching the LLM. 60-9
 Claude Code plugin showing context usage, active tools, running agents, and system state in a heads-up display. Transparency patterns transferable to Hermes agent monitoring  --  provides real-time visibility into agent resource consumption, tool execution status, active sub-agent count, and system health metrics. An essential observability pattern for production Hermes deployments requiring deep agent introspection.
 
 **Key capabilities:** Agent HUD, context usage monitoring, tool execution tracking, system state visibility, agent introspection, production observability, Hermes-applicable patterns
-**Related:** [Infrastructure →](/docs/hermes/infrastructure) · [Architecture →](/docs/hermes/architecture)
+**Related:** [Infrastructure →](/hermes/infrastructure) · [Architecture →](/hermes/architecture)
 
 ---
 
@@ -2766,7 +2766,7 @@ Claude Code plugin showing context usage, active tools, running agents, and syst
 Lightweight utility toolkit for AI coding agents  --  fun and practical tools for enhancing agent interactions with humor, creative outputs, and engaging user experiences. Compatible with Hermes Agent for adding personality and entertainment capabilities to autonomous agent workflows.
 
 **Key capabilities:** Agent utility toolkit, creative tools, humor generation, entertainment, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2776,7 +2776,7 @@ Lightweight utility toolkit for AI coding agents  --  fun and practical tools fo
 AI-powered coding assistant and code generation tool  --  intelligent code completion, refactoring, and generation with support for multiple programming languages and frameworks. Integrates with Hermes Agent for autonomous coding workflows, code review automation, and AI-driven software development pipelines.
 
 **Key capabilities:** AI coding assistant, code generation, multi-language support, code refactoring, autonomous coding, Hermes-compatible
-**Related:** [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -2786,7 +2786,7 @@ AI-powered coding assistant and code generation tool  --  intelligent code compl
 Graphify  --  advanced graph visualization and analysis platform for AI agent ecosystems. Create interactive knowledge graphs, dependency visualizations, network topology maps, and relational data diagrams that illuminate agent workflows, code architectures, and data relationships. Generates publication-quality interactive visualizations with D3.js and WebGL rendering. Essential for Hermes Agent users building complex systems  --  map agent decision trees, skill dependency chains, MCP connection graphs, and multi-agent communication topologies in real-time with drag-and-drop exploration, zoom/pan navigation, and export to PNG, SVG, and interactive HTML.
 
 **Key capabilities:** Graph visualization, knowledge graphs, dependency mapping, network topology, D3.js rendering, interactive exploration, Hermes-compatible
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -2826,7 +2826,7 @@ Sim  --  AI agent simulation and testing platform for creating controlled enviro
 Magic  --  AI agent development platform with integrated tools, workflows, and deployment capabilities. Provides a unified development environment for building, testing, and deploying agent-based applications with built-in MCP support, skill management, and model routing. Streamlines the agent development lifecycle from prototype to production with visual workflow designer, debugging tools, and one-click deployment options compatible with Hermes Agent infrastructure.
 
 **Key capabilities:** Agent development platform, integrated tools, visual workflows, MCP support, model routing, Hermes-compatible
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -2846,7 +2846,7 @@ Golutra  --  agent workflow and automation platform for orchestrating complex mu
 DeepBot  --  deep learning-powered AI bot framework for autonomous task execution with advanced reasoning capabilities. Combines transformer-based language understanding with structured task planning, tool orchestration, and iterative refinement loops. Drop-in compatible with Hermes Agent for enhanced autonomous agent workflows requiring deep reasoning, multi-step planning, and adaptive execution strategies across complex problem domains.
 
 **Key capabilities:** Deep learning bot, autonomous execution, task planning, tool orchestration, iterative refinement, Hermes-compatible
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -2866,7 +2866,7 @@ Claw Flows  --  workflow automation patterns and templates for agent-based task 
 FastGPT  --  high-performance GPT platform optimized for rapid knowledge base construction, AI-powered Q&A, and enterprise knowledge management. Provides a complete pipeline for building, training, and deploying custom GPT-powered applications with built-in data preprocessing, vector storage, workflow orchestration, and API integration. Drop-in compatible with Hermes Agent for enhanced knowledge retrieval, automated customer support, and intelligent documentation workflows with sub-second response times at scale.
 
 **Key capabilities:** Fast GPT platform, knowledge base, AI Q&A, enterprise knowledge, vector storage, workflow orchestration, Hermes-compatible
-**Related:** [Knowledge Architecture →](/docs/hermes/knowledge) · [Tools →](#tools-utilities)
+**Related:** [Knowledge Architecture →](/hermes/knowledge) · [Tools →](#tools-utilities)
 
 ---
 
@@ -2876,7 +2876,7 @@ FastGPT  --  high-performance GPT platform optimized for rapid knowledge base co
 Haystack  --  production-grade NLP framework for building search, question answering, and conversational AI systems. Battle-tested pipeline architecture supporting retrieval-augmented generation (RAG), semantic search, document processing, and agent-based workflows. Integrates with all major LLM providers, vector databases, and embedding models  --  provides Hermes Agent with enterprise-ready NLP infrastructure for building sophisticated language understanding pipelines, knowledge-intensive applications, and intelligent search systems at production scale.
 
 **Key capabilities:** NLP framework, RAG pipelines, semantic search, question answering, document processing, agent workflows, Hermes-compatible
-**Related:** [Knowledge Architecture →](/docs/hermes/knowledge) · [Tools →](#tools-utilities)
+**Related:** [Knowledge Architecture →](/hermes/knowledge) · [Tools →](#tools-utilities)
 
 ---
 
@@ -2907,7 +2907,7 @@ Low-code platform for building internal tools  --  extensible open-source platfo
 
 **Maintainer:** ToolJet
 **Key capabilities:** Low-code platform, internal tools, drag-and-drop builder, dashboard creation, database integration, Hermes-compatible
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -2942,7 +2942,7 @@ Frameworks and patterns for coordinating multiple agents.
 Open-source managed agents platform  --  turns coding agents into real teammates with task assignment, tracking, and orchestration. Deploy and manage fleets of Hermes Agent instances with built-in task queues, progress monitoring, dependency resolution, and collaborative workflows. Transforms autonomous agents from one-off tools into persistent, accountable team members that can be assigned complex multi-step projects with full visibility into progress, blockers, and results.
 
 **Key capabilities:** Managed agents, task assignment, orchestration, progress tracking, dependency resolution, Hermes-compatible, collaborative workflows
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -2952,7 +2952,7 @@ Open-source managed agents platform  --  turns coding agents into real teammates
 Minimal coding agent harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, and OpenClaw. Dynamic workflows across every major coding assistant, TypeScript, MIT.
 
 **Key capabilities:** Agent harness, MCP, multi-assistant, Hermes-compatible, dynamic workflow, agent orchestration
-**Related:** [MCP Ecosystem →](/docs/hermes/mcp-ecosystem)
+**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)
 
 ---
 
@@ -2962,7 +2962,7 @@ Minimal coding agent harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, and
 Personal intelligence built enterprise-grade: a crew of AI agents on a real org chart sharing one long-term memory (Tideline), delegating to each other and switching models mid-task. Self-hosted, no account, no telemetry, keys stay on your machine. Reachable from terminal, WhatsApp, Telegram, Slack, Discord and iMessage. Hermes-compatible (hermes-agent topic, multi-agent, self-improving-ai).
 
 **Key capabilities:** Multi-agent crew, shared long-term memory, model switching, self-hosted, no telemetry, Hermes-compatible
-**Related:** [Orchestration →](/docs/hermes/orchestration)
+**Related:** [Orchestration →](/hermes/orchestration)
 
 ---
 
@@ -2972,7 +2972,7 @@ Personal intelligence built enterprise-grade: a crew of AI agents on a real org 
 Self-improving AI that runs a whole business by turning LLM tokens into work and dollars. An org chart of autonomous co-employees: loop agents with defined roles, escalation paths and shared context, self-hosted so the operator owns the data. Hermes-compatible (hermes-agent topic), MIT.
 
 **Key capabilities:** Org-chart AI workforce, loop agents, self-hosting, own-your-data, Hermes-compatible
-**Related:** [Orchestration →](/docs/hermes/orchestration) · [September log →](/docs/hermes/ecosystem/september-2026)
+**Related:** [Orchestration →](/hermes/orchestration) · [September log →](/hermes/ecosystem/september-2026)
 
 ---
 
@@ -3129,7 +3129,7 @@ ByteDance's open-source long-horizon SuperAgent harness. Researches, codes, and 
 
 **Maintainer:** ByteDance
 **Key capabilities:** SuperAgent harness, long-horizon execution, sandboxed research/coding, memory persistence, multi-agent coordination, Hermes-applicable patterns
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -3139,7 +3139,7 @@ ByteDance's open-source long-horizon SuperAgent harness. Researches, codes, and 
 Leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows with skill-based execution. Patterns transferable to Hermes agent orchestration  --  swarm coordination, skill delegation, and workflow automation.
 
 **Key capabilities:** Agent meta-harness, multi-agent swarms, autonomous workflow coordination, skill-based execution, Claude-native, Hermes-applicable patterns
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -3150,7 +3150,7 @@ Production-ready platform for agentic workflow development. Industry-leading exa
 
 **Maintainer:** Dify (LangGenius)
 **Key capabilities:** Agentic workflow platform, visual designer, RAG pipeline, model management, multi-agent orchestration, enterprise-scale, Hermes-applicable patterns
-**Related:** [Architecture →](/docs/hermes/architecture) · [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Architecture →](/hermes/architecture) · [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -3170,7 +3170,7 @@ Caveman agent  --  a brutally effective multi-agent framework designed for maxim
 Oh My OpenAgent  --  open-source autonomous agent framework for building, deploying, and orchestrating AI agents with pluggable skills, MCP integration, and multi-platform support. Provides a complete agent development toolkit including skill registry, model routing, conversation management, and deployment automation. Compatible with Hermes Agent for rapid agent prototyping and production deployment with built-in support for common agent patterns: RAG pipelines, tool-augmented reasoning, multi-agent collaboration, and autonomous task execution loops.
 
 **Key capabilities:** Open-source agent framework, pluggable skills, MCP integration, model routing, multi-platform, Hermes-compatible
-**Related:** [Architecture →](/docs/hermes/architecture)
+**Related:** [Architecture →](/hermes/architecture)
 
 ---
 
@@ -3180,7 +3180,7 @@ Oh My OpenAgent  --  open-source autonomous agent framework for building, deploy
 CrewAI  --  production-grade multi-agent orchestration framework for role-based AI agent teams. Define agents with specific roles, goals, and tools, then orchestrate them through sequential, hierarchical, or collaborative task execution patterns. Each agent operates as a specialized crew member with defined responsibilities, domain expertise, and decision authority  --  the framework coordinates inter-agent communication, task handoffs, conflict resolution, and output synthesis. Essential infrastructure for Hermes Agent users building multi-agent systems where specialized agents collaborate on complex workflows requiring division of labor, peer review, and iterative refinement across knowledge domains.
 
 **Key capabilities:** Multi-agent orchestration, role-based agents, sequential/hierarchical execution, inter-agent communication, task delegation, Hermes-compatible
-**Related:** [Orchestration →](#orchestration-multi-agent-swarms) · [Architecture →](/docs/hermes/architecture)
+**Related:** [Orchestration →](#orchestration-multi-agent-swarms) · [Architecture →](/hermes/architecture)
 
 ---
 
@@ -3200,7 +3200,7 @@ Peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent systems  -- 
 Conductor  --  Netflix-originated, battle-tested workflow orchestration engine now fully open-source under the Linux Foundation. Orchestrates complex microservice and agent workflows through a declarative JSON DSL with support for parallel execution, conditional branching, dynamic forks, wait states, and sub-workflows. Production-proven at Netflix scale (millions of concurrent workflows)  --  provides Hermes Agent with enterprise-grade workflow orchestration infrastructure for coordinating multi-step agent tasks, managing long-running autonomous processes, and ensuring fault tolerance across distributed agent deployments. Includes a visual UI for workflow design and real-time execution monitoring.
 
 **Key capabilities:** Workflow orchestration, Netflix-origin, JSON DSL, parallel execution, fault tolerance, visual UI, enterprise-grade, Hermes-compatible
-**Related:** [Orchestration →](#orchestration-multi-agent-swarms) · [Architecture →](/docs/hermes/architecture)
+**Related:** [Orchestration →](#orchestration-multi-agent-swarms) · [Architecture →](/hermes/architecture)
 
 ---
 
@@ -3283,19 +3283,19 @@ Production bridge between Hermes Agent and Xiaomi MiMo API  --  long-chain reaso
 Plug-in-a-USB AI agent - zero-install, zero-trace, cross-platform portable Hermes Agent. Runs directly from a USB drive with no installation required, leaving no traces on the host machine. Ideal for air-gapped environments, demos, and secure portable deployments.
 
 **Key capabilities:** USB portable, zero-install, zero-trace, cross-platform, self-contained, air-gap ready
-**Related:** [Hermes Setup Guide →](/docs/hermes/setup)
+**Related:** [Hermes Setup Guide →](/hermes/setup)
 
 ---
 
 ### CorpusIQ Multi-Machine Architecture
-[Deployment Guide →](/docs/hermes/infrastructure)
+[Deployment Guide →](/hermes/infrastructure)
 
 Multi-machine (primary + worker) production deployment. SSH orchestration, model routing (65% cost savings), production-cron reference.
 
 ---
 
 ### CorpusIQ Production Cron Reference
-[38-Cron Architecture →](/docs/hermes/governance/scheduling)
+[38-Cron Architecture →](/hermes/governance/scheduling)
 
 Complete cron registry with schedule map, delivery targets, and failure patterns. Everything you need for 24/7 autonomous operations.
 
@@ -3359,7 +3359,7 @@ WSL2 Ubuntu setup guide for Hermes on Windows. Production deployment walkthrough
 Enterprise Cloud Computing (ECC) platform  --  production-grade cloud infrastructure purpose-built for deploying and managing autonomous AI agent fleets at enterprise scale. Provides a complete cloud computing environment with built-in agent orchestration, resource allocation, cost optimization, monitoring dashboards, and fleet management capabilities. Designed for organizations running thousands of concurrent Hermes Agent instances  --  handles agent lifecycle management, auto-scaling based on workload demand, cross-region deployment, and centralized governance with role-based access control. The definitive enterprise infrastructure layer for production Hermes Agent deployments requiring five-nines reliability, compliance-ready audit trails, and predictable cloud economics.
 
 **Key capabilities:** Enterprise cloud computing, agent fleet management, auto-scaling, cross-region deployment, cost optimization, compliance-ready, Hermes-compatible
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -3369,7 +3369,7 @@ Enterprise Cloud Computing (ECC) platform  --  production-grade cloud infrastruc
 Nanobot  --  lightweight AI agent deployment framework from HKU Data Science Lab. A minimal-footprint agent runtime optimized for edge devices, containers, serverless functions, and resource-constrained environments. Runs Hermes Agent-compatible workloads with dramatically reduced memory and CPU requirements while maintaining full autonomous agent capabilities including skill execution, tool calling, and multi-turn conversation. Ideal for IoT deployments, embedded systems, mobile edge computing, and any scenario where traditional agent runtimes are too heavy  --  delivers autonomous intelligence in environments where every megabyte and milliwatt counts.
 
 **Key capabilities:** Lightweight agent runtime, edge deployment, container-optimized, IoT-ready, low-resource, serverless, Hermes-compatible
-**Related:** [Infrastructure →](/docs/hermes/infrastructure)
+**Related:** [Infrastructure →](/hermes/infrastructure)
 
 ---
 
@@ -3379,7 +3379,7 @@ Nanobot  --  lightweight AI agent deployment framework from HKU Data Science Lab
 Windows-native integrated package bundling Hermes Agent v0.16.0 + Hermes WebUI v0.51.454  --  no Docker, no WSL2 required. Shared Python venv, PowerShell launchers, and one-click startup via `hermes-start.ps1`. Runtime data redirected to `%USERPROFILE%\.hermes` keeping the source tree clean. The lightest local footprint on Windows  --  eliminates the ~4GB Docker Desktop overhead and WSL2 dependency that block many Windows users from running Hermes.
 
 **Key capabilities:** Windows-native, no Docker, no WSL2, one-click startup, shared venv, PowerShell launchers, Hermes Agent + WebUI
-**Related:** [Deployment →](#deployment-infrastructure) · [Setup Guide →](/docs/hermes/skills/catalog/hermes-windows-native)
+**Related:** [Deployment →](#deployment-infrastructure) · [Setup Guide →](/hermes/skills/catalog/hermes-windows-native)
 
 ---
 
@@ -3429,28 +3429,28 @@ AI Agent Security Middleware  --  8-layer defense, DLP data flow, prompt injecti
 ---
 
 ### CorpusIQ System Registry
-[Governance →](/docs/hermes/governance)
+[Governance →](/hermes/governance)
 
 Directory-level validation before any file creation. No duplicates, no orphaned code. 11 governance files tracked.
 
 ---
 
 ### CorpusIQ Drift Prevention
-[Drift Protocol →](/docs/hermes/governance)
+[Drift Protocol →](/hermes/governance)
 
 Nightly integrity checks: registry consistency, skill/cron alignment, token health, memory sync. 1 AM daily.
 
 ---
 
 ### CorpusIQ Email Operations
-[Email Ops →](/docs/hermes/governance/email)
+[Email Ops →](/hermes/governance/email)
 
 Autonomous inbox management: 4-tier classification, SLA-based response, Gmail API integration. team@ + info@ monitored every 15 minutes.
 
 ---
 
 ### CorpusIQ Token Lifecycle
-[Auth Guide →](/docs/hermes/infrastructure/auth)
+[Auth Guide →](/hermes/infrastructure/auth)
 
 OAuth lifecycle management with refresh automation, expiration monitoring, and alerting. Gmail, GitHub, HeyGen, Postiz tokens.
 
@@ -3572,14 +3572,14 @@ Provider-neutral autonomous ML research paper writer  --  ideation to LaTeX comp
 Video generation, content creation, and media processing with Hermes.
 
 ### CorpusIQ HeyGen Video Pipeline
-[Video Pipeline →](/docs/hermes/content-ops/video)
+[Video Pipeline →](/hermes/content-ops/video)
 
 Daily UGC video generation: 10-scenario library, 6-avatar rotation, HeyGen v2 API, FFmpeg post-production, multi-platform distribution via Postiz.
 
 ---
 
 ### CorpusIQ Social Publishing
-[Social Distribution →](/docs/hermes/content-ops/social)
+[Social Distribution →](/hermes/content-ops/social)
 
 Cross-platform publishing: X, LinkedIn, TikTok, Instagram, YouTube. Postiz-powered, Mac Mini worker, 3x daily schedule.
 
@@ -3607,7 +3607,7 @@ Watch your Hermes agent work live as a character in the Pixel Agents online worl
 ---
 
 ### CorpusIQ Community Engagement
-[Engagement Strategy →](/docs/hermes/content-ops/engagement)
+[Engagement Strategy →](/hermes/content-ops/engagement)
 
 Help-first community engagement: 6x daily commenting, cross-platform monitoring, operator-first content strategy.
 
@@ -3954,7 +3954,7 @@ On-screen aware AI assistant for your desktop. Uses current app context, multipl
 
 **Status:** Active · **Forks:** 374  
 **Key capabilities:** On-screen awareness, multi-LLM, MCP tools, desktop AI, Hermes integration, flow-state  
-**Related:** [MCP Guide →](/docs/hermes/mcp) · [Skills Catalog →](/docs/hermes/skills/catalog)
+**Related:** [MCP Guide →](/hermes/mcp) · [Skills Catalog →](/hermes/skills/catalog)
 
 ---
 
@@ -4058,12 +4058,12 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Topic | Resources |
 |-------|-----------|
-| **Getting Started** | [Setup Guide](/docs/hermes/setup) · [Official Docs](https://hermes-agent.nousresearch.com/docs/) · [Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) · [27-Chapter Tutorial](https://github.com/longyunfeigu/learn-hermes-agent) |
-| **Memory** | [Knowledge Architecture](/docs/hermes/knowledge) · [GBrain](https://github.com/garrytan/gbrain) · [EverOS](https://github.com/EverMind-AI/EverOS) · [claude-mem](https://github.com/thedotmack/claude-mem) · [mnemosyne](https://github.com/mnemosyne-oss/mnemosyne) |
-| **MCP** | [MCP Guide](/docs/hermes/mcp) · [CorpusIQ](https://corpusiq.io) · [Kindly Search](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) · [Kagi MCP](https://github.com/KSroido/Kagi-Session2API-MCP) |
-| **Skills** | [Skills Catalog](/docs/hermes/skills/catalog) · Marketing Skills (repo no longer public) · [Skill Factory](https://github.com/Romanescu11/hermes-skill-factory) · [372 Skills](https://github.com/BBridgeers/hermes-skills) |
+| **Getting Started** | [Setup Guide](/hermes/setup) · [Official Docs](https://hermes-agent.nousresearch.com/docs/) · [Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) · [27-Chapter Tutorial](https://github.com/longyunfeigu/learn-hermes-agent) |
+| **Memory** | [Knowledge Architecture](/hermes/knowledge) · [GBrain](https://github.com/garrytan/gbrain) · [EverOS](https://github.com/EverMind-AI/EverOS) · [claude-mem](https://github.com/thedotmack/claude-mem) · [mnemosyne](https://github.com/mnemosyne-oss/mnemosyne) |
+| **MCP** | [MCP Guide](/hermes/mcp) · [CorpusIQ](https://corpusiq.io) · [Kindly Search](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) · [Kagi MCP](https://github.com/KSroido/Kagi-Session2API-MCP) |
+| **Skills** | [Skills Catalog](/hermes/skills/catalog) · Marketing Skills (repo no longer public) · [Skill Factory](https://github.com/Romanescu11/hermes-skill-factory) · [372 Skills](https://github.com/BBridgeers/hermes-skills) |
 | **UI** | [Hermes WebUI](https://github.com/nesquena/hermes-webui) · [Desktop](https://github.com/fathah/hermes-desktop) · [Studio](https://github.com/EKKOLearnAI/hermes-studio) · [Workspace](https://github.com/outsourc-e/hermes-workspace) · [Scarf](https://github.com/awizemann/scarf) |
-| **Production** | [Deployment](/docs/hermes/infrastructure) · [Crons](/docs/hermes/governance/scheduling) · [K8s Operator](https://github.com/paperclipinc/hermes-operator) · [Autonomous Server](https://github.com/JackTheGit/hermes-autonomous-server) |
+| **Production** | [Deployment](/hermes/infrastructure) · [Crons](/hermes/governance/scheduling) · [K8s Operator](https://github.com/paperclipinc/hermes-operator) · [Autonomous Server](https://github.com/JackTheGit/hermes-autonomous-server) |
 | **Research** | [Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) · [PawBench](https://github.com/agentscope-ai/PawBench) · [HermesBench](https://github.com/verkyyi/hermesbench) |
 | **Security** | [Shellward](https://github.com/jnMetaCode/shellward) · [Skillguard](https://github.com/buzzicra/skillguard) · [NemoClaw](https://github.com/NVIDIA/NemoClaw) |
 
@@ -4129,7 +4129,7 @@ Browse the [Quick Navigation](#quick-navigation) table above to jump to any of 1
 
 ### How do I submit my Hermes project to the ecosystem?
 
-**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**  --  takes 60 seconds. Include the repo URL, description, and suggested category. Submissions are reviewed within 48 hours and accepted repos appear in this directory with your GitHub handle credited. See the [Contributors page](/docs/hermes/contributors) for full guidelines.
+**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**  --  takes 60 seconds. Include the repo URL, description, and suggested category. Submissions are reviewed within 48 hours and accepted repos appear in this directory with your GitHub handle credited. See the [Contributors page](/hermes/contributors) for full guidelines.
 
 ### What are the most popular Hermes Agent tools?
 
@@ -4141,12 +4141,12 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 
 ## Related Pages
 
-- [Hermes Knowledge Hub  --  Production Deployment](/docs/hermes)
-- [Documentation Index  --  Complete Reference](/docs/hermes)
-- [Agent Library  --  9 Role Configurations](/docs/hermes/agents)
-- [Community Contributors  --  Join the Directory](/docs/hermes/contributors)
-- [Skills Catalog  --  133+ Production Skills](/docs/hermes/skills/catalog)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
+- [Hermes Knowledge Hub  --  Production Deployment](/hermes)
+- [Documentation Index  --  Complete Reference](/hermes)
+- [Agent Library  --  9 Role Configurations](/hermes/agents)
+- [Community Contributors  --  Join the Directory](/hermes/contributors)
+- [Skills Catalog  --  133+ Production Skills](/hermes/skills/catalog)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 ---
 

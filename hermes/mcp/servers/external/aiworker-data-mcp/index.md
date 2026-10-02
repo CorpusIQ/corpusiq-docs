@@ -97,6 +97,6 @@ aiworker-data is a pay-per-call external evidence service that complements Corpu
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [0xinsider MCP - Polymarket Trader Analytics for Agents](/docs/hermes/mcp/servers/external/0xinsider-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [0xinsider MCP - Polymarket Trader Analytics for Agents](/hermes/mcp/servers/external/0xinsider-mcp)

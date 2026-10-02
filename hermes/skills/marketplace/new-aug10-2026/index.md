@@ -142,12 +142,12 @@ npx skills add https://github.com/AMAP-ML/SkillClaw
 
 ## Next Steps
 
-- See the [full skills catalog](/docs/hermes/skills/catalog) for setup guides
-- See [skill marketplaces](/docs/hermes/skills/skill-marketplaces) for discovery and publishing
+- See the [full skills catalog](/hermes/skills/catalog) for setup guides
+- See [skill marketplaces](/hermes/skills/skill-marketplaces) for discovery and publishing
 
 ---
 
-*← [Skills Home](/docs/hermes/skills) | [Skills Catalog](/docs/hermes/skills/catalog) | [Previous Sweep →](/docs/hermes/skills/marketplace/new-july31-2026)*
+*← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Previous Sweep →](/hermes/skills/marketplace/new-july31-2026)*
 
 *Powered by CorpusIQ*
 ---

@@ -59,5 +59,5 @@ Schema version 2 is the current authoring contract for workflows; version 1 is p
 
 ## Related
 
-- [Design Doc Mermaid Setup](/docs/hermes/skills/catalog/design-doc-mermaid-setup)
-- [Hallmark - Anti-AI-Slop Design Skill](/docs/hermes/skills/catalog/hallmark-setup)
+- [Design Doc Mermaid Setup](/hermes/skills/catalog/design-doc-mermaid-setup)
+- [Hallmark - Anti-AI-Slop Design Skill](/hermes/skills/catalog/hallmark-setup)

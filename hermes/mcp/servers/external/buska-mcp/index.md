@@ -68,7 +68,7 @@ Brand new (repo created Sep 2, 2026, 0 stars). Public posts only - no private gr
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/docs/hermes/mcp/servers/external/campaignstack-mcp)
-- [Xverum MCP - People Search Across 750M Professional Profiles](/docs/hermes/mcp/servers/external/xverum-mcp)
-- [Apollo.io MCP - Integration Guide](/docs/hermes/mcp/servers/external/apollo-io-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/hermes/mcp/servers/external/campaignstack-mcp)
+- [Xverum MCP - People Search Across 750M Professional Profiles](/hermes/mcp/servers/external/xverum-mcp)
+- [Apollo.io MCP - Integration Guide](/hermes/mcp/servers/external/apollo-io-mcp)

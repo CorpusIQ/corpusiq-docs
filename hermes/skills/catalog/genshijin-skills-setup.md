@@ -79,7 +79,7 @@ npx skills add interfacex-co-jp/genshijin   # verify install works
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog)
-- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Skills Catalog](/hermes/skills/catalog)
+- [Skills Marketplace](/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

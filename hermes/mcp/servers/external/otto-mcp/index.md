@@ -84,7 +84,7 @@ Otto's Meta Ads and GA4 reads slot into CorpusIQ's attribution stack: CorpusIQ a
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [Askline MCP - AI Search Visibility and Brand Monitoring](/docs/hermes/mcp/servers/external/askline-mcp)
-- [AstroFabric MCP - Agentic Growth Missions for Operators](/docs/hermes/mcp/servers/external/astrofabric-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [Askline MCP - AI Search Visibility and Brand Monitoring](/hermes/mcp/servers/external/askline-mcp)
+- [AstroFabric MCP - Agentic Growth Missions for Operators](/hermes/mcp/servers/external/astrofabric-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

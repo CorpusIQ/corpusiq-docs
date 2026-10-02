@@ -82,9 +82,9 @@ The skill instruments the application with appropriate metrics libraries, config
 
 ## Related Skills
 
-- [AWS Agent Toolkit Setup](/docs/hermes/skills/catalog/aws-agent-toolkit-setup) - AWS infrastructure monitoring
-- [Sentry AI Monitoring Setup](/docs/hermes/skills/catalog/sentry-ai-monitoring-setup) - Error tracking
-- [HashiCorp Agent Skills Setup](/docs/hermes/skills/catalog/hashicorp-agent-skills-setup) - Infrastructure management
+- [AWS Agent Toolkit Setup](/hermes/skills/catalog/aws-agent-toolkit-setup) - AWS infrastructure monitoring
+- [Sentry AI Monitoring Setup](/hermes/skills/catalog/sentry-ai-monitoring-setup) - Error tracking
+- [HashiCorp Agent Skills Setup](/hermes/skills/catalog/hashicorp-agent-skills-setup) - Infrastructure management
 
 ## Source
 

@@ -113,4 +113,4 @@ Draft reply: 'Sure Sarah, 3pm works for me. See you then!'
 
 ---
 
-*This guide is part of the [Hermes Skills Catalog](/docs/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*
+*This guide is part of the [Hermes Skills Catalog](/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*

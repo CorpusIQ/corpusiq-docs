@@ -99,4 +99,4 @@ button.onclick = () => { preferredSource.addPreferredSource(); };
 - Google Search Central guide: https://developers.google.com/search/docs/appearance/preferred-sources
 - Source preferences tool: https://www.google.com/preferences/source
 
-*← [SEO Pages](/docs/hermes/seo) | [Hermes Home](/docs/hermes)*
+*← [SEO Pages](/hermes/seo) | [Hermes Home](/hermes)*

@@ -202,6 +202,6 @@ git clone https://github.com/darraappen2/herman-skill-playbook.git
 
 ---
 
-*← [June 19 Morning Batch](/docs/hermes/skills/marketplace/new-june19-2026) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
-*↑ [Skills Catalog Home](/docs/hermes/skills/catalog)*
+*← [June 19 Morning Batch](/hermes/skills/marketplace/new-june19-2026) | [Skills Marketplace](/hermes/skills/marketplace) →*
+*↑ [Skills Catalog Home](/hermes/skills/catalog)*
 *Powered by CorpusIQ*

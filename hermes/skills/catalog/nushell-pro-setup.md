@@ -70,6 +70,6 @@ hermes skills install hustcer/nushell-pro/nushell-pro
 
 ## Related
 
-- [Terminal Skills Setup](/docs/hermes/skills/catalog/terminal-skills-setup)
-- [Infrastructure & DevOps category](/docs/hermes/skills/catalog)
-- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Terminal Skills Setup](/hermes/skills/catalog/terminal-skills-setup)
+- [Infrastructure & DevOps category](/hermes/skills/catalog)
+- [Skills Catalog](/hermes/skills/catalog)

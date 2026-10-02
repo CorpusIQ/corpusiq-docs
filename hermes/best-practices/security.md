@@ -15,7 +15,7 @@ Hermes Agent connects to your data, executes code, and runs scheduled tasks  -- 
 
 ## Overview
 
-Security with Hermes Agent follows the [least-privilege principle](/docs/hermes/best-practices): start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface  --  managing tokens and permissions correctly is non-negotiable.
+Security with Hermes Agent follows the [least-privilege principle](/hermes/best-practices): start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface  --  managing tokens and permissions correctly is non-negotiable.
 
 ## How It Works
 
@@ -78,11 +78,11 @@ Rotate API keys and tokens quarterly at minimum. Document the rotation procedure
 
 ## Related Pages
 
-- [Best Practices Overview](/docs/hermes/best-practices)  --  All guides
+- [Best Practices Overview](/hermes/best-practices)  --  All guides
 - [Cron Design](cron-design)  --  Secure scheduled automation
 - [Memory Management](memory-management)  --  Don't store secrets in memory
-- [MCP Integration Guide](/docs/hermes/mcp)  --  Connector authentication
-- [Troubleshooting](/docs/hermes/troubleshooting)  --  Fix OAuth token expiry
+- [MCP Integration Guide](/hermes/mcp)  --  Connector authentication
+- [Troubleshooting](/hermes/troubleshooting)  --  Fix OAuth token expiry
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

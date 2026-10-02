@@ -89,7 +89,7 @@ Periscope MCP strengthens CorpusIQ's development and QA toolchain, complementing
 
 ## See Also
 
-- [Playwright MCP - Official Microsoft](/docs/hermes/mcp/servers/external)
-- [Drumbeats MCP - Uptime Monitoring](/docs/hermes/mcp/servers/external/drumbeats-mcp)
-- [QA Skills - Test Automation Toolkit](/docs/hermes/mcp/servers/external)
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [Playwright MCP - Official Microsoft](/hermes/mcp/servers/external)
+- [Drumbeats MCP - Uptime Monitoring](/hermes/mcp/servers/external/drumbeats-mcp)
+- [QA Skills - Test Automation Toolkit](/hermes/mcp/servers/external)
+- [MCP Servers Index](/hermes/mcp/servers/external)

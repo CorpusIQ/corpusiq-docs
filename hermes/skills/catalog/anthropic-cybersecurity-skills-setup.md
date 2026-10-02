@@ -114,8 +114,8 @@ hermes chat -q "Run a quick security posture check on this environment"
 
 - [mukul975/Anthropic-Cybersecurity-Skills repo](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
-- [Trail of Bits Security Setup](/docs/hermes/skills/catalog/trailofbits-security-setup)
-- [OpenClaw Security Hardening](/docs/hermes/skills/catalog/openclaw-security-hardening-setup)
+- [Trail of Bits Security Setup](/hermes/skills/catalog/trailofbits-security-setup)
+- [OpenClaw Security Hardening](/hermes/skills/catalog/openclaw-security-hardening-setup)
 
 ---
 

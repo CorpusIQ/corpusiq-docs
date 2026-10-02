@@ -56,6 +56,6 @@ npx mcp-remote https://getspm.com/v1/mcp
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Agent Governance Patterns](/docs/hermes/governance)
-- [Hermes Memory Architecture](/docs/hermes/knowledge)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Agent Governance Patterns](/hermes/governance)
+- [Hermes Memory Architecture](/hermes/knowledge)

@@ -63,6 +63,6 @@ Brand new listing (repo created Sep 2, 2026, zero stars). Calculation-only surfa
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [FinBridge MCP - Korean and US Market Data for Agents](/docs/hermes/mcp/servers/external/finbridge-mcp)
-- [Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data](/docs/hermes/mcp/servers/external/fruitstand-fund-returns-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [FinBridge MCP - Korean and US Market Data for Agents](/hermes/mcp/servers/external/finbridge-mcp)
+- [Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data](/hermes/mcp/servers/external/fruitstand-fund-returns-mcp)

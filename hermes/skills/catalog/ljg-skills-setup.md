@@ -89,10 +89,10 @@ npx skills add lijigang/ljg-skills --list    # 30 skills discovered
 
 ## Related
 
-- [Skills Catalog](/docs/hermes/skills/catalog) - full quality-tiered directory
-- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
+- [Skills Catalog](/hermes/skills/catalog) - full quality-tiered directory
+- [Skills Marketplace](/hermes/skills/marketplace) - more discovery batches
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Skills Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

@@ -70,5 +70,5 @@ The in-project read/write runtime contract (STOP rules for native file tools, gr
 
 ## Related
 
-- [Basic Memory Skills - Agent Knowledge Graph Suite](/docs/hermes/skills/catalog/basic-memory-skills-setup)
-- [LJG Skills - Personal Knowledge Work Suite](/docs/hermes/skills/catalog/ljg-skills-setup)
+- [Basic Memory Skills - Agent Knowledge Graph Suite](/hermes/skills/catalog/basic-memory-skills-setup)
+- [LJG Skills - Personal Knowledge Work Suite](/hermes/skills/catalog/ljg-skills-setup)

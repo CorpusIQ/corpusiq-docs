@@ -73,6 +73,6 @@ For support-heavy operators, combine Backengine with CorpusIQ's Stripe connector
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [HubSpot MCP Integration](/docs/hermes/mcp/connectors)
-- [Octolens MCP](/docs/hermes/mcp/servers/external/octolens)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [HubSpot MCP Integration](/hermes/mcp/connectors)
+- [Octolens MCP](/hermes/mcp/servers/external/octolens)

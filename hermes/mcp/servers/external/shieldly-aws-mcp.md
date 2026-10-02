@@ -72,5 +72,5 @@ npx @shieldly-io/mcp-server
 
 ## See Also
 
-- [SaferAgenticAI MCP](/docs/hermes/mcp/servers/external/saferagenticai-mcp) - Agentic AI security guardrails
+- [SaferAgenticAI MCP](/hermes/mcp/servers/external/saferagenticai-mcp) - Agentic AI security guardrails
 - [AI Governance Evidence MCP](#) - EU AI Act, ISO 42001 compliance evidence

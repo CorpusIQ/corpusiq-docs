@@ -47,5 +47,5 @@ WhatsApp Business setup (number registration, template approvals, webhook wiring
 
 ## See also
 
-- [WhatsMCP MCP](/docs/hermes/mcp/servers/external/whatsmcp-mcp) - third-party WhatsApp numbers for AI agents.
-- [Meta Ads MCP (Official)](/docs/hermes/mcp/servers/external/meta-ads-mcp-official) - Meta's ads server.
+- [WhatsMCP MCP](/hermes/mcp/servers/external/whatsmcp-mcp) - third-party WhatsApp numbers for AI agents.
+- [Meta Ads MCP (Official)](/hermes/mcp/servers/external/meta-ads-mcp-official) - Meta's ads server.

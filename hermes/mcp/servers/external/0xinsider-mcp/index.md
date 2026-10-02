@@ -85,6 +85,6 @@ Attach the key as the authorization header. Rate limits and error behavior are d
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
-- [CryptoStruct Market Data MCP - Historical Crypto & Prediction-Market Data](/docs/hermes/mcp/servers/external/cryptostruct-mcp)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)
+- [CryptoStruct Market Data MCP - Historical Crypto & Prediction-Market Data](/hermes/mcp/servers/external/cryptostruct-mcp)

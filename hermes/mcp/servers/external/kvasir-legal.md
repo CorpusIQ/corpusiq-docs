@@ -45,5 +45,5 @@ npx mcp-remote https://kvasir.legal/mcp
 
 ## See Also
 
-- [MCP Servers Index](/docs/hermes/mcp/servers/external)
-- [VRules MCP - AI Governance](/docs/hermes/mcp/servers/external/vrules)
+- [MCP Servers Index](/hermes/mcp/servers/external)
+- [VRules MCP - AI Governance](/hermes/mcp/servers/external/vrules)

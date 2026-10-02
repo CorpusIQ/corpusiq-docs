@@ -201,7 +201,7 @@ ai-video generate \
 
 ## See Also
 
-- [remotion-best-practices](/docs/hermes/skills/catalog/remotion-best-practices-setup) - Programmatic video with React (430K installs)
-- [hyperframes](/docs/hermes/skills/catalog) - Template-based AI video generation (108K installs)
-- [corpusiq-ugc-video-strategy](/docs/hermes/skills/catalog) - CorpusIQ's UGC video content strategy
-- [video-transcription-analysis](/docs/hermes/skills/catalog) - Extract insights from competitor videos
+- [remotion-best-practices](/hermes/skills/catalog/remotion-best-practices-setup) - Programmatic video with React (430K installs)
+- [hyperframes](/hermes/skills/catalog) - Template-based AI video generation (108K installs)
+- [corpusiq-ugc-video-strategy](/hermes/skills/catalog) - CorpusIQ's UGC video content strategy
+- [video-transcription-analysis](/hermes/skills/catalog) - Extract insights from competitor videos

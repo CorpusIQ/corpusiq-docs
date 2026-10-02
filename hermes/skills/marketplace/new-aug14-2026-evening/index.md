@@ -27,49 +27,49 @@ Sweep combined the hot (1H delta) and trending (24h) leaderboards with 40 API qu
 
 Official Flutter team skills covering the complete lifecycle: architecture best practices (29.9K), responsive layout (29.0K), layout fixes (27.8K), widget/integration testing (27.1K / 26.6K), declarative routing, JSON serialization, localization, previews, plus a dart-* series and cross-cutting skills (grill-me, api-review, code-documentation).
 
-**Setup guide:** [Flutter Agent Plugins Setup](/docs/hermes/skills/catalog/flutter-agent-plugins-setup)
+**Setup guide:** [Flutter Agent Plugins Setup](/hermes/skills/catalog/flutter-agent-plugins-setup)
 
 ### 2. ECC Engineering Suite - `affaan-m/ecc` (292 skills, 466.2K)
 
 One of the largest collections on the marketplace: frontend/backend patterns, security-review, api-design, coding-standards, TDD, docker/postgres patterns, deep-research, article-writing, seo, brand-voice, architecture-decision-records, living-docs-governance, and agent governance skills.
 
-**Setup guide:** [ECC Engineering Skills Setup](/docs/hermes/skills/catalog/ecc-engineering-skills-setup)
+**Setup guide:** [ECC Engineering Skills Setup](/hermes/skills/catalog/ecc-engineering-skills-setup)
 
 ### 3. Sentry CLI - `sentry/dev` (1 skill, 127.3K)
 
 Official Sentry skill teaching agents to run the Sentry CLI: releases, deploys, sourcemap uploads, issue triage, project admin. Rising on the hot leaderboard (+94 in the sweep hour).
 
-**Setup guide:** [Sentry Dev Skill Setup](/docs/hermes/skills/catalog/sentry-dev-skills-setup)
+**Setup guide:** [Sentry Dev Skill Setup](/hermes/skills/catalog/sentry-dev-skills-setup)
 
 ### 4. Awesome LLM Apps - `shubhamsaboo/awesome-llm-apps` (26 skills, 79.7K)
 
 Role-based agent skills from the famous awesome-llm-apps repo: fullstack-developer (8.0K), academic-researcher (6.8K), content-creator, technical-writer, project-planner, data-analyst, deep-research, fact-checker, strategy-advisor, plus niche utilities (scope-creep-detector, commit-archaeologist, dependency-doctor).
 
-**Setup guide:** [Awesome LLM Apps Skills Setup](/docs/hermes/skills/catalog/awesome-llm-apps-skills-setup)
+**Setup guide:** [Awesome LLM Apps Skills Setup](/hermes/skills/catalog/awesome-llm-apps-skills-setup)
 
 ### 5. Pexo Video - `pexoai/pexo-skills` (24 skills, 62.5K)
 
 Agentic video generation: pexo-agent (39.4K), videoagent video/image/audio studios, Seedance 2.0 and Veo 3.2 prompters, and short-form skills (youtube-short-maker, tiktok-video-ad, saas-video, startup-video, launch-video).
 
-**Setup guide:** [Pexo Video Skills Setup](/docs/hermes/skills/catalog/pexo-video-skills-setup)
+**Setup guide:** [Pexo Video Skills Setup](/hermes/skills/catalog/pexo-video-skills-setup)
 
 ### 6. SEOJuice - `calm-north/seojuice-skills` (14 skills, 51.8K)
 
 Full SEO workflow: find-keywords (6.9K), optimize-for-ai (6.6K, GEO), build-links (6.5K), brief, audit, rank-local, diagnose-seo, beat-competitors, migrate-site, recover-content, build-clusters, fix-linking, target-serp.
 
-**Setup guide:** [SEOJuice Skills Setup](/docs/hermes/skills/catalog/seojuice-skills-setup)
+**Setup guide:** [SEOJuice Skills Setup](/hermes/skills/catalog/seojuice-skills-setup)
 
 ### 7. Better UI - `jakubkrehel/skills` (13 skills, 51.3K)
 
 Interface polish discipline: better-ui (8.6K), better-typography (8.3K), better-colors (8.0K), better-interface, better-layout, better-accessibility, better-writing, interface-review, plus OKLCH color skills. All core skills on the hot leaderboard during the sweep.
 
-**Setup guide:** [Better UI Skills Setup](/docs/hermes/skills/catalog/better-ui-skills-setup)
+**Setup guide:** [Better UI Skills Setup](/hermes/skills/catalog/better-ui-skills-setup)
 
 ### 8. CodeRabbit - `coderabbitai/skills` (2 skills, 15.9K)
 
 Official CodeRabbit review methodology: code-review (9.7K) and autofix (6.2K). AI code review discipline without the SaaS subscription.
 
-**Setup guide:** [CodeRabbit Skills Setup](/docs/hermes/skills/catalog/coderabbit-skills-setup)
+**Setup guide:** [CodeRabbit Skills Setup](/hermes/skills/catalog/coderabbit-skills-setup)
 
 ---
 

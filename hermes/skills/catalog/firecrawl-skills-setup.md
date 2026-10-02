@@ -118,10 +118,10 @@ curl -s -H "Authorization: Bearer $FIRECRAWL_API_KEY" https://api.firecrawl.dev/
 ## Related
 
 - [Hermes web tools](https://hermes-agent.nousresearch.com/docs) - built-in Firecrawl-backed `web_search` / `web_extract`
-- [Tavily Research Setup](/docs/hermes/skills/catalog/tavily-research-setup)
-- [OSINT Skills - Open-Source Intelligence Suite Setup](/docs/hermes/skills/catalog/osint-skills-setup)
+- [Tavily Research Setup](/hermes/skills/catalog/tavily-research-setup)
+- [OSINT Skills - Open-Source Intelligence Suite Setup](/hermes/skills/catalog/osint-skills-setup)
 - [Firecrawl docs](https://docs.firecrawl.dev/)
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

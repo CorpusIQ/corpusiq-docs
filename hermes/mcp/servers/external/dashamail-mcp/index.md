@@ -57,6 +57,6 @@ hermes mcp add dashamail -- key YOUR_API_KEY_HERE
 
 ## Related Guides
 
-- [Convert.Online MCP](/docs/hermes/mcp/servers/external/convert-online-mcp) - File conversion companion
-- [AurasPay Merchant MCP](/docs/hermes/mcp/servers/external/auraspay-mcp) - Payment integration
-- [Google Analytics 4](/docs/hermes/mcp/servers/external/google-analytics-mcp) - Analytics correlation
+- [Convert.Online MCP](/hermes/mcp/servers/external/convert-online-mcp) - File conversion companion
+- [AurasPay Merchant MCP](/hermes/mcp/servers/external/auraspay-mcp) - Payment integration
+- [Google Analytics 4](/hermes/mcp/servers/external/google-analytics-mcp) - Analytics correlation

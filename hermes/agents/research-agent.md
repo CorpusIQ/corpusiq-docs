@@ -32,11 +32,11 @@ Unlike one-off web searches, the Research Agent maintains **persistent monitorin
 | **News monitoring** | Topic-based news aggregation, sentiment analysis, emerging narrative detection |
 | **Patent tracking** | Patent filing alerts by company or technology area, IP landscape mapping |
 
-> **See also:** [Agent Library Overview](/docs/hermes/agents) · [Marketing Agent](/docs/hermes/agents/marketing-agent) · [Legal Agent](/docs/hermes/agents/legal-agent)
+> **See also:** [Agent Library Overview](/hermes/agents) · [Marketing Agent](/hermes/agents/marketing-agent) · [Legal Agent](/hermes/agents/legal-agent)
 
 ## How It Works
 
-1. **Connect research tools**  --  Ahrefs, Semrush, GA4, YouTube, Notion via [CorpusIQ connectors](/docs/hermes/mcp/connectors)
+1. **Connect research tools**  --  Ahrefs, Semrush, GA4, YouTube, Notion via [CorpusIQ connectors](/hermes/mcp/connectors)
 2. **Define competitors and topics**  --  Store competitor list, tracked keywords, and research areas in canonical facts
 3. **Load the skills**  --  Competitive intel, market intelligence, literature review, news monitor, patent tracking
 4. **Schedule the crons**  --  12-hour competitor checks, 4-hour news scans, weekly briefs, monthly patent sweeps
@@ -136,12 +136,12 @@ Yes. The **literature review skill** sweeps academic databases (arXiv, Semantic 
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
-- [Marketing Agent  --  SEO & Competitive Analysis](/docs/hermes/agents/marketing-agent)
-- [Legal Agent  --  Regulatory & Compliance Research](/docs/hermes/agents/legal-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
-- [Ahrefs Connector  --  SEO & Backlink Data](/docs/hermes/mcp/connectors)
-- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
+- [Marketing Agent  --  SEO & Competitive Analysis](/hermes/agents/marketing-agent)
+- [Legal Agent  --  Regulatory & Compliance Research](/hermes/agents/legal-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Ahrefs Connector  --  SEO & Backlink Data](/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

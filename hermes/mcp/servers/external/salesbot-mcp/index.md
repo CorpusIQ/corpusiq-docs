@@ -93,7 +93,7 @@ CorpusIQ holds the commercial record (pipeline in HubSpot, invoices in QuickBook
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
-- [SalesTouch MCP](/docs/hermes/mcp/servers/external/salestouch-mcp) - LinkedIn GTM prospecting platform
-- [LinkedIn Ghostwriter MCP](/docs/hermes/mcp/servers/external/linkedin-ghostwriter-mcp) - LinkedIn posts in your voice
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [SalesTouch MCP](/hermes/mcp/servers/external/salestouch-mcp) - LinkedIn GTM prospecting platform
+- [LinkedIn Ghostwriter MCP](/hermes/mcp/servers/external/linkedin-ghostwriter-mcp) - LinkedIn posts in your voice
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

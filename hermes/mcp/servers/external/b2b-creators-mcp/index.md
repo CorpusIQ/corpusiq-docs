@@ -44,6 +44,6 @@ Endpoint live-probed over JSON-RPC initialize: anonymous initialize returns HTTP
 
 ## See Also
 
-- [LinkedIn MCP by GTM API - Integration Guide](/docs/hermes/mcp/servers/external/linkedin-mcp-gtm)
-- [LinkedIn Ghostwriter MCP - LinkedIn Posts in Your Voice](/docs/hermes/mcp/servers/external/linkedin-ghostwriter-mcp)
-- [RedReplier MCP - Social Lead Monitoring and Reply Drafts for Agents](/docs/hermes/mcp/servers/external/redreplier-mcp)
+- [LinkedIn MCP by GTM API - Integration Guide](/hermes/mcp/servers/external/linkedin-mcp-gtm)
+- [LinkedIn Ghostwriter MCP - LinkedIn Posts in Your Voice](/hermes/mcp/servers/external/linkedin-ghostwriter-mcp)
+- [RedReplier MCP - Social Lead Monitoring and Reply Drafts for Agents](/hermes/mcp/servers/external/redreplier-mcp)

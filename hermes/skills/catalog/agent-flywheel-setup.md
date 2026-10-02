@@ -96,7 +96,7 @@ export SSH_KEY_PATH=~/.ssh/id_rsa
 ### agent-swarm-workflow (156 installs)
 Multi-agent coordination pattern. Enables Hermes to spawn and manage sub-agents for parallel task execution - research in parallel, divide-and-conquer code generation, multi-perspective analysis.
 
-**Hermes use:** Complex research tasks, parallel data processing, multi-source content generation. Pairs with CorpusIQ's own [supervisor-agent](/docs/hermes/orchestration) patterns.
+**Hermes use:** Complex research tasks, parallel data processing, multi-source content generation. Pairs with CorpusIQ's own [supervisor-agent](/hermes/orchestration) patterns.
 
 ### claude-chrome (81 installs)
 Browser automation through Chrome. Enables Hermes agents to navigate websites, fill forms, extract data, and interact with web UIs.
@@ -182,7 +182,7 @@ The `agent-swarm-workflow` skill supports a `--max-agents` parameter. Set to a r
 
 ---
 
-*← [June 28 Update 3 Discovery](/docs/hermes/skills/marketplace/new-june28-2026-update3) | [Skills Catalog Home](/docs/hermes/skills/catalog) →*
+*← [June 28 Update 3 Discovery](/hermes/skills/marketplace/new-june28-2026-update3) | [Skills Catalog Home](/hermes/skills/catalog) →*
 
 ---
 

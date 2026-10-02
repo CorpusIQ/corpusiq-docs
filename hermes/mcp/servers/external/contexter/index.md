@@ -86,6 +86,6 @@ Contexter pairs with CorpusIQ's Telegram-centric operations: CorpusIQ runs its t
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [n8n MCP Server - Workflow Automation](/docs/hermes/mcp/servers/external/n8n-mcp)
-- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [n8n MCP Server - Workflow Automation](/hermes/mcp/servers/external/n8n-mcp)
+- [CorpusIQ Connectors](/hermes/mcp/connectors)

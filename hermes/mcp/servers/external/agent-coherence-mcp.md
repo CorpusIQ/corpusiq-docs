@@ -73,5 +73,5 @@ npx @vparakhin/agent-coherence-mcp
 
 ## See Also
 
-- [SPM Structured Project Memory](/docs/hermes/mcp/servers/external/spm-structured-project-memory) - Project memory management
-- [MCP Long-Term Memory](/docs/hermes/mcp/servers/external/mcp-long-term-memory) - Agent memory persistence
+- [SPM Structured Project Memory](/hermes/mcp/servers/external/spm-structured-project-memory) - Project memory management
+- [MCP Long-Term Memory](/hermes/mcp/servers/external/mcp-long-term-memory) - Agent memory persistence

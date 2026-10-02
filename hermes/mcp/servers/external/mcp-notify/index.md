@@ -189,6 +189,6 @@ MCP Notify: "2 new: QuickBooks MCP (45★), Salesforce MCP (12★)"
 
 ## Related Guides
 
-- [Scan Results July 15](/docs/hermes/mcp/servers/external/scan-results-2026-07-15) - Latest manual scan
-- [MCP Directory Maintenance](/docs/hermes/mcp/servers/external) - Keeping our listings current
-- [Hermes Ecosystem Discovery](/docs/hermes/mcp/servers/external) - Nightly ecosystem engine
+- [Scan Results July 15](/hermes/mcp/servers/external/scan-results-2026-07-15) - Latest manual scan
+- [MCP Directory Maintenance](/hermes/mcp/servers/external) - Keeping our listings current
+- [Hermes Ecosystem Discovery](/hermes/mcp/servers/external) - Nightly ecosystem engine

@@ -201,4 +201,4 @@ hermes -s three-agent-bridge "Check bridge for messages since last read"
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 24 Discovery](/docs/hermes/skills/marketplace/new-june24-2026) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [June 24 Discovery](/hermes/skills/marketplace/new-june24-2026) →*

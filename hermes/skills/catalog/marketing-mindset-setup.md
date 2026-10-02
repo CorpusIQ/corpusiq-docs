@@ -81,10 +81,10 @@ All three skills.sh security audits pass (verified Sep 7, 2026):
 
 ## Related
 
-- [Content Strategy - Full Planning Framework Setup](/docs/hermes/skills/catalog/content-strategy-setup)
-- [Revenue-Centric Design Skill - SaaS Conversion Playbook Setup](/docs/hermes/skills/catalog/revenue-centric-design-setup)
+- [Content Strategy - Full Planning Framework Setup](/hermes/skills/catalog/content-strategy-setup)
+- [Revenue-Centric Design Skill - SaaS Conversion Playbook Setup](/hermes/skills/catalog/revenue-centric-design-setup)
 
 ---
 
-*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-sep7-2026) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Discovery Page](/hermes/skills/marketplace/new-sep7-2026) →*
 *Powered by CorpusIQ*

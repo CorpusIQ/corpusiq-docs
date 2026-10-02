@@ -104,8 +104,8 @@ hermes chat -q "List my Nextcloud notes"
 
 - [adnw-vinc/hermes-nextcloud repo](https://github.com/adnw-vinc/hermes-nextcloud)
 - [Nextcloud Developer Docs](https://docs.nextcloud.com/server/latest/developer_manual/)
-- [Apple Calendar Setup](/docs/hermes/skills/catalog/apple-calendar-setup)
-- [Google Workspace Setup](/docs/hermes/skills/catalog/google-workspace)
+- [Apple Calendar Setup](/hermes/skills/catalog/apple-calendar-setup)
+- [Google Workspace Setup](/hermes/skills/catalog/google-workspace)
 
 ---
 

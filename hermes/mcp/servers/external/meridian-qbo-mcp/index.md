@@ -86,6 +86,6 @@ Meridian's connector composes with CorpusIQ as a specialist QBO surface next to 
 
 ## See Also
 
-- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
-- [QuickBooks MCP - Connect Agents to QuickBooks Online](/docs/hermes/mcp/servers/external/quickbooks-mcp)
-- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/docs/hermes/mcp/servers/external/edgrapi-mcp)
+- [External MCP Server Catalog](/hermes/mcp/servers/external)
+- [QuickBooks MCP - Connect Agents to QuickBooks Online](/hermes/mcp/servers/external/quickbooks-mcp)
+- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/hermes/mcp/servers/external/edgrapi-mcp)
