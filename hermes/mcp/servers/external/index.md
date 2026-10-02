@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-10-01"
+last_updated: "2026-10-02"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 1, 2026 (midday supplement) · **Sources:** mcp.so /feed (30 server blocks via the r.jina.ai reader proxy) + mcpservers.org /all via the r.jina.ai reader proxy · **Catalog:** 773 servers (+659 guides)
+> **Last updated:** October 2, 2026 (morning sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch with a browser user agent) + mcpservers.org /all via the r.jina.ai reader proxy · **Catalog:** 774 servers (+660 guides)
+
+## 🆕 October 2, 2026 - Morning Sweep (1 New, 1 Guide)
+
+Morning sweep over the mcp.so /feed (30 server blocks, direct fetch with a browser user agent using the TanStack `$R[N]` pattern) and mcpservers.org /all (22 slugs) via the r.jina.ai reader proxy, with detail pages fetched for every candidate. Feed-order recency against the October 1 midday anchor and the /all slug set against the prior ledger turned up one genuinely new business-relevant entry; the rest of the feed and every /all slug were prior dispositions, including the Sep 30 batch (Manifold MCP, Common Paper Contracts, Genchi) that re-surfaced in the ledger prose rather than as new entries.
+
+- [SocialAPIs MCP - Facebook and Instagram Data for Agents](/hermes/mcp/servers/external/socialapis-mcp/) · remote Streamable HTTP at mcp.socialapis.io/mcp with an Authorization Bearer key, or local stdio via npx: 47 read-only tools covering Facebook pages, posts, comments, groups, the Ads Library, Marketplace, profiles, reels and search, plus Instagram profiles, posts, reels, highlights and location search, with a free tier of 200 calls per month and per-call credit reporting on every response.
+
+**Also identified (not catalogued):** esimoa (travel eSIM comparison, remote MCP at api.esimoa.com, consumer travel class), BulkTranscripts (YouTube transcripts and channel listings, media utility class), allcams.fm (live webcam rooms across five platforms, tagged 18+, consumer class), SayLive (publishes static sites from a conversation, dev publishing class - prior disposition), Sooveryn (AI personas with project memory for coding agents, agent-memory class already covered), IBM Engineering Lifecycle Management MCP (REQUISIS-hosted ALM connector at elm-connector.com, enterprise ALM class outside the connector catalog), Generate Greetings (personalized greeting cards in 13 languages, consumer utility), Desearch (AI, X and web search with page extraction, saturated web-search class), Daski (remote MCP at daski.io, thin one-line description), AgentGrid.io and MCP DB Wizard and Zyte and FlatHunt and TATUAT.RO and Porkbun and PixelDojo and Aayat AI and Povver and uplika and prodready and oceanalt-aml-mcp and MemeSwap MCP and Genchi and Manifold MCP and Common Paper Contracts (all catalogued or disposed in the October 1 and September 30 sweeps), gtm-api (LinkedIn MCP, catalogued July 28 as linkedin-mcp-gtm), Stele (shared memory for coding agents, agent-memory class), and the /all slugs already dispositioned in prior ledgers: upstream-mcp (Upstream live-streaming platform, media class), outcomeci-mcp (workflow builder, dev automation class), medianfi-com-claude-cowork (Median read-only bookkeeping, catalogued September 28), blastak-app-mcp (Moroccan WhatsApp-first appointment booking, consumer vertical), www-heyhermann-com-api-mcp (Hermann booking infrastructure, prior disposition), apify-com-themineworks-india-jobs-mcp (jobs feed via Apify actor, thin actor class), clino-ch-en-mcp and 8b-com and flybest-org-en-ai (thin or non-English marketing pages), resolvedmarkets-com-ai-agents (prediction markets, crypto vertical), worthbase-app-developers (Worthbase, catalogued October 1), coldleads-app-use-cases (Cold Leads, catalogued September 27), dodomain-io-docs-connecting-ai-assistants (DoDomain, catalogued September 27), upapi-io-docs-mcp (upAPI, disposed September 27), notifly-io-developers (Notifly, disposed September 27), sekkeiflow and getbioflow-com-mcp and usetyton-com and github-com-allxsmith-bestax-tree-main-bestax-mcp and www-honestelf-com-docs-mcp and www-sekkeiflow-com-connect (prior-sweep dispositions including Honest Elf catalogued September 27).
 
 ## 🆕 October 1, 2026 - Midday Supplement (3 New, 3 Guides)
 
@@ -6352,6 +6360,12 @@ Evening sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and 
 - [AI Layoffs MCP - Open AI Job-Loss Data for Agents](/docs/hermes/mcp/servers/external/ailayoffs-mcp)
 - [Cooper Email MCP - Agent Inboxes with OAuth 2.1](/docs/hermes/mcp/servers/external/cooper-email-mcp)
 - [Postfleet MCP - Email Infrastructure for AI Agents](/docs/hermes/mcp/servers/external/postfleet-mcp)
+
+### 1 new server from the mcp.so feed - Oct 2, 2026 (morning sweep)
+
+- [SocialAPIs MCP - Facebook and Instagram Data for Agents](/docs/hermes/mcp/servers/external/socialapis-mcp)
+
+Morning sweep sourced from the mcp.so feed (30 server blocks, direct fetch with a browser user agent) and mcpservers.org /all (22 slugs) via the r.jina.ai reader proxy. 1 new business-relevant server catalogued with a guide: SocialAPIs MCP (47 read-only Facebook and Instagram tools covering pages, posts, comments, groups, the Ads Library, Marketplace, profiles, reels and location search, hosted at mcp.socialapis.io/mcp with an API key or local via npx). esimoa, BulkTranscripts, allcams.fm, SayLive, Sooveryn, IBM ELM, Generate Greetings, Desearch, Daski and Stele logged as identified-not-catalogued; every /all slug was a prior-sweep disposition and the rest of the feed were catalogued or disposed repeats.
 
 ### 7 new servers from mcpservers.org /all - Oct 1, 2026 (evening sweep)
 
