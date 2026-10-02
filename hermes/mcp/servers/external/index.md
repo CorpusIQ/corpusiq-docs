@@ -5,14 +5,21 @@ canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
 last_updated: "2026-10-02"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
-
 ---
 
 # External MCP Server Catalog
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 2, 2026 (morning sweep) · **Sources:** mcp.so /feed (30 server blocks, direct fetch with a browser user agent) + mcpservers.org /all via the r.jina.ai reader proxy · **Catalog:** 774 servers (+660 guides)
+> **Last updated:** October 2, 2026 (evening sweep) · **Sources:** mcp.so /feed (29 server blocks via the r.jina.ai reader proxy) + mcpservers.org /all (30 slugs) via the r.jina.ai reader proxy · **Catalog:** 775 servers (+661 guides)
+
+## 🆕 October 2, 2026 - Evening Sweep (1 New, 1 Guide)
+
+Evening sweep over the mcp.so /feed (29 server blocks, fetched via the r.jina.ai reader proxy because the direct fetch now returns only the Cloudflare/JS shell with no server data) and mcpservers.org /all (30 slugs) via the reader proxy, with detail pages fetched for the new candidates. Feed-order recency against the October 2 morning anchor turned up no genuinely new mcp.so entry: the top of the feed (esimoa, BulkTranscripts, allcams.fm, SayLive, Sooveryn, IBM Engineering Lifecycle Management, SocialAPIs, gtm-api, Stele, Daski, Generate Greetings, Desearch) and every entry below it matched a prior disposition in the morning, October 1 or September 30 ledgers. The one genuinely new business-relevant server came from the mcpservers.org /all surface, catalogued with a guide:
+
+- [SuperBooks MCP - Bookkeeping and Financial Reports for Agents](/hermes/mcp/servers/external/superbooks-mcp/) · remote Streamable HTTP at api.superbooks.io/mcp with OAuth (PKCE and dynamic client registration) or an API key, Code Mode surface where `tools/list` returns `search_tools` and `execute_typescript` reaching 45 backend tools across 12 domains plus `list_teams`: bank transactions, invoices, customers, time-tracking projects, documents, receipts and categories alongside eight reporting tools for revenue, profit and loss, burn rate, runway and spending, with destructive tools gated twice (scope plus a per-team setting) and a 120-request-per-minute limit per credential.
+
+**Also identified (not catalogued):** the full mcp.so feed this cycle was prior dispositions - esimoa (travel eSIM comparison, consumer travel class), BulkTranscripts (YouTube transcripts, media utility class), allcams.fm (live webcam rooms, consumer class), SayLive (static-site publishing, dev publishing class), Sooveryn (AI personas with project memory, agent-memory class), IBM Engineering Lifecycle Management MCP (enterprise ALM connector, outside the connector catalog), Generate Greetings (greeting cards, consumer utility), Desearch (web search, saturated class), Daski (thin description), AgentGrid.io, MCP DB Wizard, Zyte, FlatHunt, TATUAT.RO, Porkbun, PixelDojo, Aayat AI, Povver, uplika, prodready, oceanalt-aml-mcp, MemeSwap MCP, Genchi, Manifold MCP, Common Paper Contracts and Stele (all catalogued or disposed in the October 1 and September 30 sweeps), gtm-api (LinkedIn MCP, catalogued July 28 as linkedin-mcp-gtm) and SocialAPIs (catalogued October 2 morning). On the mcpservers.org /all surface, FlyBest (luxury hotel booking, consumer travel class, disposed October 1 evening) re-surfaced and the rest of the 30 slugs (upstream-mcp, outcomeci-mcp, daski-mcp, www-honestelf-com-docs-mcp, medianfi-com-claude-cowork, bestax, proposal-biz, resolvedmarkets, worthbase, coldleads, heyhermann, blastak, india-jobs, clino, 8b-com, sekkeiflow, bioflow, dodomain, usetyton, notifly, upapi and the non-server username fragments that render as 404 shells) resolved to prior-sweep dispositions.
 
 ## 🆕 October 2, 2026 - Morning Sweep (1 New, 1 Guide)
 
