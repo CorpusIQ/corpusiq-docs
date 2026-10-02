@@ -6353,6 +6353,18 @@ Evening sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and 
 - [Cooper Email MCP - Agent Inboxes with OAuth 2.1](/docs/hermes/mcp/servers/external/cooper-email-mcp)
 - [Postfleet MCP - Email Infrastructure for AI Agents](/docs/hermes/mcp/servers/external/postfleet-mcp)
 
+### 7 new servers from mcpservers.org /all - Oct 1, 2026 (evening sweep)
+
+- [Median MCP - Read-Only Financial Reporting for Agents](/docs/hermes/mcp/servers/external/median-mcp)
+- [Honest Elf MCP - Texas Court E-Filing for Agents](/docs/hermes/mcp/servers/external/honest-elf-mcp)
+- [Cold Leads MCP - Contact and Outreach Management for Agents](/docs/hermes/mcp/servers/external/cold-leads-mcp)
+- [Worthbase MCP - Net Worth and Portfolio Tracking for Agents](/docs/hermes/mcp/servers/external/worthbase-mcp)
+- [BioFlow MCP - Content, Analytics and Publishing for Agents](/docs/hermes/mcp/servers/external/bioflow-mcp)
+- [Proposal.biz MCP - Business Documents for Agents](/docs/hermes/mcp/servers/external/proposal-biz-mcp)
+- [DoDomain MCP - Domain and DNS Operations for Agents](/docs/hermes/mcp/servers/external/dodomain-mcp)
+
+Evening sweep sourced from the mcp.so feed (30 server blocks via the r.jina.ai reader proxy) and mcpservers.org /all (30 slugs) via the reader proxy. 7 new business-relevant servers catalogued with guides: Median MCP (read-only financial reporting), Honest Elf MCP (Texas court e-filing), Cold Leads MCP (contacts and outreach), Worthbase MCP (net worth and portfolio tracking), BioFlow MCP (content, analytics and publishing), Proposal.biz MCP (business documents) and DoDomain MCP (domain and DNS operations); Tyton MCP was re-confirmed as already catalogued on Sep 27 rather than treated as new. Hermann, SekkeiFlow, upAPI, Postbag, 8B AI, Falcoscan, Notifly and the dev-utility set logged as identified-not-catalogued; the rest of the feed and /all were prior-sweep repeats.
+
 ### 3 new servers from mcpservers.org /all - Oct 1, 2026 (midday supplement)
 
 - [eCFR.io MCP - US Federal Regulations for Agents](/docs/hermes/mcp/servers/external/ecfr-io-mcp)
