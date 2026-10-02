@@ -16160,5 +16160,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-01T11:03:38.540829+00:00"
+  },
+  {
+    "repo": "joshmaurice/atrium",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940932+00:00"
+  },
+  {
+    "repo": "Thanawat-ONZro/Awuuu",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940944+00:00"
+  },
+  {
+    "repo": "Colton-z/AstraBox",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940946+00:00"
+  },
+  {
+    "repo": "thanosapollo/hermes-emacs-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940948+00:00"
+  },
+  {
+    "repo": "usmanxg58-byte/AgentFOXXY",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940950+00:00"
+  },
+  {
+    "repo": "yanjingzhaisun/hermes-dreaming-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940952+00:00"
+  },
+  {
+    "repo": "longdang22888/longdang22888-hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940954+00:00"
+  },
+  {
+    "repo": "M0j0Risin/NeonSidekick",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940956+00:00"
+  },
+  {
+    "repo": "SleepSheepQwQ/hermes-webui",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940957+00:00"
+  },
+  {
+    "repo": "drwjkirkpatrick-web/granite4-jetson-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940959+00:00"
+  },
+  {
+    "repo": "protemplate/hermes-agent-railway",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940960+00:00"
+  },
+  {
+    "repo": "thekoma/hermes-koma",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-02T04:04:08.940962+00:00"
   }
 ]

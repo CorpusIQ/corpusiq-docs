@@ -67107,5 +67107,324 @@
     ],
     "discovered_at": "2026-10-01T11:01:34.605746+00:00",
     "status": "pending"
+  },
+  {
+    "name": "joshmaurice/atrium",
+    "url": "https://github.com/joshmaurice/atrium",
+    "description": "Modifying a clone of tparisi/atrium (client/server metaverse system), currently experimenting with adding user accounts & shareable home worlds, with help from Hermes Agent, Deepseek, GLM, Nemotron, Claude, ChatGPT",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-02T04:01:27Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:01:41.387498+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Thanawat-ONZro/Awuuu",
+    "url": "https://github.com/Thanawat-ONZro/Awuuu",
+    "description": "Awuuu \ud83d\udc3e \u2014 Windows AI dog companion & dynamic island connected to local Hermes Agent & Claude Code",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-02T04:01:17Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "jnMetaCode/superpowers-zh",
+      "AlexAI-MCP/hermes-CCC",
+      "jnMetaCode/shellward",
+      "mlennie/hermes-mcp",
+      "Bo1202/Aivy-OS",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-02T04:01:41.390457+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Colton-z/AstraBox",
+    "url": "https://github.com/Colton-z/AstraBox",
+    "description": "Open-source, self-hosted alternative to Claude Managed Agents: run Claude Code, Codex, Hermes, DeepSeek Harness and Pi as managed Agents on your own infrastructure.",
+    "stars": 16,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "agent-runtime",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "llm",
+      "mcp",
+      "sandbox",
+      "self-hosted"
+    ],
+    "updated_at": "2026-10-02T04:00:39Z",
+    "category": "core",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "Devin-AXIS/iPolloWork",
+      "jazzyalex/agent-sessions",
+      "conorbronsdon/avoid-ai-writing",
+      "agentrq/agentrq"
+    ],
+    "discovered_at": "2026-10-02T04:01:41.393810+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thanosapollo/hermes-emacs-plugin",
+    "url": "https://github.com/thanosapollo/hermes-emacs-plugin",
+    "description": "Mirror: Hermes Agent MCP bridge for Emacs Canonical source: https://git.thanosapollo.org/hermes-emacs-plugin/",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T03:29:37Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:01:49.055333+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "usmanxg58-byte/AgentFOXXY",
+    "url": "https://github.com/usmanxg58-byte/AgentFOXXY",
+    "description": "Autonomous AI agent. Code. Browser. Desktop. Media. Search. Memory. Schedules. MCP. 40+ POWERS. Built on Hermes (MIT).",
+    "stars": 17,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T03:43:59Z",
+    "category": "mcp",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:01:49.058676+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yanjingzhaisun/hermes-dreaming-plugin",
+    "url": "https://github.com/yanjingzhaisun/hermes-dreaming-plugin",
+    "description": "Portable nightly memory-consolidation pipeline (dreaming) for Hermes Agent: cron prompt template, memory-consolidation skill, scripts, and porting docs",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "llm-agent",
+      "memory",
+      "plugin"
+    ],
+    "updated_at": "2026-10-02T00:15:01Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:01:56.670863+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "longdang22888/longdang22888-hermes",
+    "url": "https://github.com/longdang22888/longdang22888-hermes",
+    "description": "Hermes plugins + skills c\u1ee7a longdang (Jev/TypeSafe decision primitives, stdlib-only)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T00:06:36Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:01:56.673747+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "M0j0Risin/NeonSidekick",
+    "url": "https://github.com/M0j0Risin/NeonSidekick",
+    "description": "Neon Sidekick is an agentic terminal client for local LLMs. It's built on .NET 10 and draws inspiration from tools like Claude Code, Hermes Agent and Cline. It brings together many of my favorite features from those tools and adds some unique ideas of my own. ",
+    "stars": 0,
+    "forks": 0,
+    "language": "C#",
+    "topics": [],
+    "updated_at": "2026-10-02T04:01:55Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "Romanescu11/hermes-skill-factory",
+      "zszszszsz/.config",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Lethe044/hermes-incident-commander",
+      "LordVaderXIII/grok-connectors",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "tale-project/tale",
+      "ruvnet/ruflo",
+      "WEIFENG2333/phistory",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-10-02T04:02:04.373887+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SleepSheepQwQ/hermes-webui",
+    "url": "https://github.com/SleepSheepQwQ/hermes-webui",
+    "description": "\u79fb\u52a8\u7aef\u5b9e\u8df5\u4e2d\u6539\u826f\u7684 Hermes Web UI (based on nesquena/hermes-webui)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "android",
+      "hermes",
+      "hermes-agent",
+      "mobile",
+      "termux",
+      "webui"
+    ],
+    "updated_at": "2026-10-02T04:01:14Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nesquena/hermes-webui",
+      "sanchomuzax/hermes-webui"
+    ],
+    "discovered_at": "2026-10-02T04:02:04.377308+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "drwjkirkpatrick-web/granite4-jetson-hermes",
+    "url": "https://github.com/drwjkirkpatrick-web/granite4-jetson-hermes",
+    "description": "Perfect settings for Granite 4.0-3B (and the Jetson LLM speed frontier) on an 8GB Jetson Orin Nano \u2014 4 profiles, cross-model benchmarks, research paper PDF",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T00:35:42Z",
+    "category": "research",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:02:50.344693+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "protemplate/hermes-agent-railway",
+    "url": "https://github.com/protemplate/hermes-agent-railway",
+    "description": "Deploy Hermes Agent (NousResearch) with SearXNG on Railway",
+    "stars": 4,
+    "forks": 5,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-01T11:30:41Z",
+    "category": "official",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:03:37.151069+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thekoma/hermes-koma",
+    "url": "https://github.com/thekoma/hermes-koma",
+    "description": "Hermes Agent image with k8s + MCP toolbelt \u2014 baked on top of nousresearch/hermes-agent",
+    "stars": 1,
+    "forks": 1,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-10-01T11:17:12Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T04:03:37.153936+00:00",
+    "status": "pending"
   }
 ]
