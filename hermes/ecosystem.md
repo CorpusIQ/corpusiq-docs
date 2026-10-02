@@ -54,7 +54,7 @@ _13 repos_
 
 ### [kaishi00/hermes-conduit](https://github.com/kaishi00/hermes-conduit) ⭐ 165
 
->Conduit — native SwiftUI iOS client for Hermes Agent
+>Conduit - native SwiftUI iOS client for Hermes Agent
 
 **Score:** 74/100
 
@@ -1592,7 +1592,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [kaishi00/hermes-conduit](https://github.com/kaishi00/hermes-conduit) ⭐ 162
 
->Conduit — native SwiftUI iOS client for Hermes Agent. Self-hosted, direct-connect mobile access to your agent.
+>Conduit - native SwiftUI iOS client for Hermes Agent. Self-hosted, direct-connect mobile access to your agent.
 
 **Language:** Swift | **Topics:** ai-agent, hermes-agent, ios, self-hosted, swiftui | **Homepage:** https://hermesconduit.app | **Score:** 74/100
 
