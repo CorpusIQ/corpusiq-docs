@@ -133,7 +133,7 @@ CorpusIQ provides read-only external-source retrieval between authorized SaaS ap
 
 | Section | Description |
 |---------|-------------|
-| [Quick Start](/docs) | Get up and running in under 5 minutes |
+| [Quick Start](/quickstart) | Get up and running in under 5 minutes |
 | [API Overview](/api/overview) | Base URL, endpoints, and core concepts |
 | [API Reference](/api/endpoints) | Full endpoint documentation with request/response schemas |
 | [Authentication](/api/authentication) | Bearer token management and security best practices |
@@ -431,7 +431,7 @@ A: Go to demo.corpusiq.io, sign in with your email, connect your first data sour
 - **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  MCP direct connection for AI agents  
 - **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  Natural language queries at demo.corpusiq.io  
 - **[Supported AI Agents](/features)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/docs)**  --  Get running in under 5 minutes  
+- **[CorpusIQ Quick Start](/quickstart)**  --  Get running in under 5 minutes  
 - **[CorpusIQ Connectors Directory](/connectors)**  --  All 40+ data source integrations  
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, and a SOC 2 aligned posture
 
@@ -4829,7 +4829,7 @@ A: As of the v1.0 release (March 2026), CorpusIQ supports 40+ native connectors 
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
+- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
 - **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
@@ -5486,7 +5486,7 @@ Ready to put AI to work on your chatgpt for hubspot data?
 
 ChatGPT for HubSpot through CorpusIQ transforms how your team interacts with CRM data. No more waiting for reports, building dashboards, or exporting spreadsheets. Just ask, and receive actionable intelligence from your live pipeline and customer data.
 
-**[Connect HubSpot to ChatGPT](/docs) and ask your first CRM question in under 5 minutes.**
+**[Connect HubSpot to ChatGPT](/quickstart) and ask your first CRM question in under 5 minutes.**
 
 *Connect ChatGPT for HubSpot  --  AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
@@ -5606,14 +5606,14 @@ Ready to put AI to work on your chatgpt for quickbooks data?
 - [How to Analyze QuickBooks Data with AI](https://www.corpusiq.io/answers)
 - [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
 - [QuickBooks Business Intelligence Platform](/connect/quickbooks-with-chatgpt)
-[Getting Started with CorpusIQ MCP Platform](/docs)
+[Getting Started with CorpusIQ MCP Platform](/quickstart)
 - [ChatGPT for Shopify: Ecommerce AI Analytics](/connect/shopify-with-chatgpt)
 
 ## Why CorpusIQ for QuickBooks AI Integration?
 
 CorpusIQ is the only MCP platform purpose-built for business data integration. Unlike generic API connectors that require developers to write custom code, CorpusIQ provides pre-built, tested QuickBooks tools that work out of the box with ChatGPT and Claude. Our platform handles authentication, rate limiting, query optimization, and data formatting  --  so you can start asking financial questions in minutes, not weeks.
 
-**Ready to transform your accounting workflow?** [Connect QuickBooks to ChatGPT today](/docs) and ask your first financial question in under five minutes.
+**Ready to transform your accounting workflow?** [Connect QuickBooks to ChatGPT today](/quickstart) and ask your first financial question in under five minutes.
 
 *Connect ChatGPT for QuickBooks  --  AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
@@ -5739,7 +5739,7 @@ Ready to put AI to work on your chatgpt for shopify data?
 
 ChatGPT for Shopify through CorpusIQ transforms how you interact with your ecommerce data. No more report exports, spreadsheet formulas, or dashboard limitations. Just ask, and receive.
 
-**[Connect your Shopify store to ChatGPT](/docs) and ask your first question in under 5 minutes.**
+**[Connect your Shopify store to ChatGPT](/quickstart) and ask your first question in under 5 minutes.**
 
 *Connect ChatGPT for Shopify  --  AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
@@ -5823,7 +5823,7 @@ A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The fre
 - **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  MCP direct connection for AI agents  
 - **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  Natural language queries at demo.corpusiq.io  
 - **[Supported AI Agents](/features)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/docs)**  --  Get running in under 5 minutes  
+- **[CorpusIQ Quick Start](/quickstart)**  --  Get running in under 5 minutes  
 - **[CorpusIQ Connectors Directory](/connectors)**  --  All 40+ data source integrations  
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, and a SOC 2 aligned posture
 
@@ -5949,7 +5949,7 @@ Ready to put AI to work on your claude for hubspot data?
 
 Claude for HubSpot through CorpusIQ brings enterprise-grade sales analytics to organizations of any size. The combination of Claude's analytical depth, your live CRM data, and CorpusIQ's MCP infrastructure delivers insights that were previously available only to companies with dedicated sales operations and data science teams.
 
-**[Connect Claude to HubSpot](/docs) and run your first deep sales analysis today.**
+**[Connect Claude to HubSpot](/quickstart) and run your first deep sales analysis today.**
 
 *Connect Claude for HubSpot  --  Advanced CRM Intelligence & Sales An... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
@@ -6076,7 +6076,7 @@ Ready to put AI to work on your claude for quickbooks data?
 
 CorpusIQ is the only MCP platform that provides production-ready QuickBooks tools for Claude. Our platform abstracts away API complexity  --  no manual OAuth flow management, no rate-limit handling, no JSON parsing of QuickBooks responses. Claude receives clean, structured data through CorpusIQ's tool layer and can focus entirely on analysis.
 
-**Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/docs) and run your first comprehensive financial review today.
+**Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/quickstart) and run your first comprehensive financial review today.
 
 *Connect Claude for QuickBooks  --  Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
@@ -6202,7 +6202,7 @@ Ready to put AI to work on your claude for shopify data?
 
 Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to ecommerce teams of any size. Whether you're a DTC brand optimizing your product portfolio, an agency analyzing client performance, or an investor evaluating acquisition targets, Claude's deep analytical capabilities  --  paired with your live Shopify data  --  deliver insights that were previously available only to companies with dedicated data science teams.
 
-**[Connect Claude to your Shopify store](/docs) and run your first deep analysis today.**
+**[Connect Claude to your Shopify store](/quickstart) and run your first deep analysis today.**
 
 *Connect Claude for Shopify  --  Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
@@ -12147,7 +12147,7 @@ CorpusIQ bills based on tool calls. A simple analysis might use 1-3 tool calls; 
 
 AI-powered QuickBooks analysis turns hours of manual spreadsheet work into seconds of conversation. Whether you need a quick cash flow check, a deep margin analysis, or a comprehensive financial review, CorpusIQ's MCP platform connects your AI assistant directly to your live financial data.
 
-**[Connect QuickBooks and start your first analysis](/docs)  --  setup takes under 60 seconds.**
+**[Connect QuickBooks and start your first analysis](/quickstart)  --  setup takes under 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -13948,7 +13948,7 @@ Ready to put AI to work on your hubspot ai reporting data?
 
 CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical task into a conversational capability. Your team spends less time building reports and more time acting on the intelligence they contain.
 
-**[Start generating AI-powered HubSpot reports](/docs)  --  connect your CRM in 60 seconds.**
+**[Start generating AI-powered HubSpot reports](/quickstart)  --  connect your CRM in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -14277,7 +14277,7 @@ Ready to put AI to work on your hubspot dashboard with chatgpt data?
 
 A ChatGPT-powered HubSpot dashboard is the fastest, most flexible way to monitor your sales organization. No dashboard configuration. No report building. No data exports. Just real-time sales intelligence, on demand.
 
-**[Set up your sales dashboard now](/docs)  --  connect HubSpot in 60 seconds.**
+**[Set up your sales dashboard now](/quickstart)  --  connect HubSpot in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -14551,7 +14551,7 @@ CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude De
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
+- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
 - **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
@@ -17593,7 +17593,7 @@ Go to Dashboard → Settings → API, click Generate Token, and copy it. Store i
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
+- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
 - **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
@@ -17732,7 +17732,7 @@ Ready to put AI to work on your quickbooks ai reporting data?
 
 CorpusIQ's AI Reporting for QuickBooks turns hours of manual report generation into seconds of conversation. Whether you're an accountant closing the books, a CFO preparing investor materials, or a business owner checking financial health, AI-powered reporting gives you instant access to the answers in your data.
 
-**[Start generating AI-powered financial reports](/docs)  --  connect QuickBooks in under 60 seconds.**
+**[Start generating AI-powered financial reports](/quickstart)  --  connect QuickBooks in under 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -18069,7 +18069,7 @@ Ready to put AI to work on your quickbooks dashboard with chatgpt data?
 
 A ChatGPT-powered QuickBooks dashboard is the fastest path to financial visibility. No BI tools, no data warehouses, no implementation projects. Just connect, ask, and receive.
 
-**[Set up your financial dashboard now](/docs)  --  connect QuickBooks in 60 seconds and ask for your first dashboard.**
+**[Set up your financial dashboard now](/quickstart)  --  connect QuickBooks in 60 seconds and ask for your first dashboard.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -18224,7 +18224,7 @@ Ready to put AI to work on your quickbooks natural language queries data?
 
 Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data  --  not just the people who know how to run reports  --  financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
 
-**[Start asking your QuickBooks data questions in plain English](/docs). Connect in 60 seconds.**
+**[Start asking your QuickBooks data questions in plain English](/quickstart). Connect in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -18766,7 +18766,7 @@ A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and a
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
+- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
 - **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
@@ -18908,7 +18908,7 @@ Ready to put AI to work on your shopify ai analytics data?
 
 CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don't need a data analyst, a BI tool, or advanced Excel skills. You just need questions  --  and the AI provides answers.
 
-**[Start analyzing your Shopify data with AI](/docs)  --  connect your store in 60 seconds.**
+**[Start analyzing your Shopify data with AI](/quickstart)  --  connect your store in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -19047,7 +19047,7 @@ Ready to put AI to work on your shopify business intelligence data?
 
 Building a business intelligence capability used to require data warehouses, ETL pipelines, BI tools, and data teams  --  a six-figure, multi-month investment. CorpusIQ collapses this into a single MCP platform that connects your stack, queries your data, and delivers intelligence conversationally.
 
-**[Start your ecommerce intelligence journey](/docs). Connect Shopify and your marketing stack in under 30 minutes.**
+**[Start your ecommerce intelligence journey](/quickstart). Connect Shopify and your marketing stack in under 30 minutes.**
 
 ---
 *AI-powered Shopify Business Intelligence  --  AI-Powered Ecommerce BI |...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
@@ -19231,7 +19231,7 @@ Ready to put AI to work on your shopify dashboard with chatgpt data?
 
 A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor your ecommerce performance. No BI tools to build. No data pipelines to maintain. No reports to export. Just real-time intelligence, on demand.
 
-**[Set up your Shopify dashboard now](/docs)  --  connect your store in 60 seconds.**
+**[Set up your Shopify dashboard now](/quickstart)  --  connect your store in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -19601,7 +19601,7 @@ A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list
 - **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  MCP direct connection for AI agents  
 - **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  Natural language queries at demo.corpusiq.io  
 - **[Supported AI Agents](/features)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/docs)**  --  Get running in under 5 minutes  
+- **[CorpusIQ Quick Start](/quickstart)**  --  Get running in under 5 minutes  
 - **[CorpusIQ Connectors Directory](/connectors)**  --  All 40+ data source integrations  
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, and a SOC 2 aligned posture
 
