@@ -67426,5 +67426,147 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-02T04:03:37.153936+00:00",
     "status": "pending"
+  },
+  {
+    "name": "jon890/fos-assistant",
+    "url": "https://github.com/jon890/fos-assistant",
+    "description": "Control Plane for Hermes Agent: multi-user chat, per-user credential binding, and usage accounting",
+    "stars": 0,
+    "forks": 0,
+    "language": "Java",
+    "topics": [],
+    "updated_at": "2026-10-02T04:58:06Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T05:00:39.695889+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hermeum/hermeum",
+    "url": "https://github.com/hermeum/hermeum",
+    "description": "A platform creating fully autonomous Hermes agents for your team.",
+    "stars": 29,
+    "forks": 4,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai",
+      "hermes-agent",
+      "hermeum",
+      "kubernetes",
+      "platform"
+    ],
+    "updated_at": "2026-10-02T04:56:59Z",
+    "category": "core",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T05:00:39.698991+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kal-hermes/Xuanzang",
+    "url": "https://github.com/kal-hermes/Xuanzang",
+    "description": "An app to learn history and geography. Full vibe-coded using GLM-5.3 in Hermes agent harness.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T04:54:40Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-02T05:00:39.702132+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "travnewmatic/hermes-agent",
+    "url": "https://github.com/travnewmatic/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T05:01:00Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-10-02T05:01:02.863267+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "EduardoMMachado/hermes-agent",
+    "url": "https://github.com/EduardoMMachado/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-02T04:59:19Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-10-02T05:01:02.867583+00:00",
+    "status": "pending"
   }
 ]
