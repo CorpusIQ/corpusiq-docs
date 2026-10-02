@@ -10526,7 +10526,7 @@
 <h1 id="cron-design-best-practices-reliable-scheduled-automation">Cron Design Best Practices  --  Reliable Scheduled Automation<a class="headerlink" href="#cron-design-best-practices-reliable-scheduled-automation" title="Anchor link to this section">&para;</a></h1>
 <p>Scheduled automation is one of Hermes Agent's most powerful features, but poorly designed crons are the fastest path to operational pain. These cron design best practices cover idempotency, error handling, rate limiting, monitoring, and the anti-patterns that keep your scheduled tasks reliable and safe in production.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Crons are the heartbeat of autonomous Hermes Agent operation. They handle email monitoring, data synchronization, report generation, and operational checks  --  running on schedules from every 5 minutes to once per month. Following <a href="/docs/hermes/best-practices">Hermes Agent best practices</a> for cron design prevents silent failures, resource exhaustion, and alert fatigue.</p>
+<p>Crons are the heartbeat of autonomous Hermes Agent operation. They handle email monitoring, data synchronization, report generation, and operational checks  --  running on schedules from every 5 minutes to once per month. Following <a href="https://www.corpusiq.io/docs/hermes/best-practices">Hermes Agent best practices</a> for cron design prevents silent failures, resource exhaustion, and alert fatigue.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <p>A well-designed Hermes Agent cron follows this pattern:</p>
 <div class="highlight"><pre><span></span><code>SCHEDULE → DATA COLLECTION → PROCESSING → VALIDATION → OUTPUT → LOGGING
@@ -10539,7 +10539,7 @@
 <h2 id="error-handling-fail-loudly-recover-gracefully">Error Handling: Fail Loudly, Recover Gracefully<a class="headerlink" href="#error-handling-fail-loudly-recover-gracefully" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Retry with backoff.</strong> Transient failures (network timeouts, rate limits) should retry with exponential backoff. Cap at 3-5 attempts with jitter.</p>
 <p><strong>Dead-letter queue.</strong> After all retries exhausted, route failed work to a dead-letter queue or structured log. Never silently discard work.</p>
-<p><strong>Alert on persistent failure.</strong> If your cron fails for more than N consecutive runs, trigger an alert through <a href="/docs/hermes/integrations/slack-github">Slack</a>, email, or PagerDuty.</p>
+<p><strong>Alert on persistent failure.</strong> If your cron fails for more than N consecutive runs, trigger an alert through <a href="https://www.corpusiq.io/docs/hermes/integrations/slack-github">Slack</a>, email, or PagerDuty.</p>
 <p><strong>Partial success handling.</strong> Handle individual failures within a batch without aborting the entire batch. Log failed records and continue processing.</p>
 <h2 id="rate-limiting-and-delivery-targets">Rate Limiting and Delivery Targets<a class="headerlink" href="#rate-limiting-and-delivery-targets" title="Anchor link to this section">&para;</a></h2>
 <p>Define explicit throughput targets. Implement token-bucket or sliding-window rate limiting. Maintain separate rate-limit budgets per API integration.</p>
@@ -10614,11 +10614,11 @@
 <p>Track start/end timestamps, record counts processed, error counts by type, and last successful run timestamp. Run a separate heartbeat check every 15-30 minutes to catch stale crons.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/docs/hermes/best-practices">Best Practices Overview</a>  --  All best practices guides</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a>  --  All best practices guides</li>
 <li><a href="model-selection">Model Selection</a>  --  Use the right model for each cron</li>
 <li><a href="security">Security</a>  --  Credential management for scheduled tasks</li>
-<li><a href="/docs/hermes/setup">Setup Guides</a>  --  Run crons on <a href="/docs/hermes/setup/cloud-vps">cloud VPS</a> or <a href="/docs/hermes/setup/raspberry-pi">Raspberry Pi</a></li>
-<li><a href="/docs/hermes/blueprints">Blueprints</a>  --  End-to-end cron-anchored workflows</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup">Setup Guides</a>  --  Run crons on <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud VPS</a> or <a href="https://www.corpusiq.io/docs/hermes/setup/raspberry-pi">Raspberry Pi</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/blueprints">Blueprints</a>  --  End-to-end cron-anchored workflows</li>
 </ul>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

@@ -10470,7 +10470,7 @@
 <p>Searches the encrypted archive of previously executed queries and their results. This endpoint is useful for retrieving historical answers, auditing past queries, and discovering patterns across previous searches. The archive is encrypted at rest and indexed by embedding vectors.</p>
 <p>Unlike <code>/query</code>, this endpoint does not make live calls to connected tools  --  it searches only the archive.</p>
 <h2 id="response-format">Response Format<a class="headerlink" href="#response-format" title="Anchor link to this section">&para;</a></h2>
-<p>All successful responses return HTTP <code>200</code> with a JSON body. Errors follow a consistent format with a <code>type</code> field identifying the error category and a <code>message</code> field with a human-readable description. See <a href="/docs/api/errors">Errors</a> for the complete error reference.</p>
+<p>All successful responses return HTTP <code>200</code> with a JSON body. Errors follow a consistent format with a <code>type</code> field identifying the error category and a <code>message</code> field with a human-readable description. See <a href="https://www.corpusiq.io/docs/api/errors">Errors</a> for the complete error reference.</p>
 <h2 id="content-type">Content Type<a class="headerlink" href="#content-type" title="Anchor link to this section">&para;</a></h2>
 <p>All request and response bodies use <code>application/json</code>. Set the <code>Content-Type</code> header to <code>application/json</code> on all <code>POST</code> requests.</p>
 <div class="highlight"><pre><span></span><code><span class="err">Content-Type: application/json</span>
@@ -10478,9 +10478,9 @@
 </code></pre></div>
 <h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/docs/api/authentication">Authentication</a>  --  Obtain and manage API tokens</li>
-<li><a href="/docs/api/endpoints">Endpoints Reference</a>  --  Full request/response schemas and code examples</li>
-<li><a href="/docs/api/rate-limits">Rate Limits</a>  --  Understand per-endpoint quotas</li>
+<li><a href="https://www.corpusiq.io/docs/api/authentication">Authentication</a>  --  Obtain and manage API tokens</li>
+<li><a href="https://www.corpusiq.io/docs/api/endpoints">Endpoints Reference</a>  --  Full request/response schemas and code examples</li>
+<li><a href="https://www.corpusiq.io/docs/api/rate-limits">Rate Limits</a>  --  Understand per-endpoint quotas</li>
 </ul>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: What is the CorpusIQ API base URL?</strong><br />
@@ -10497,12 +10497,12 @@ A: External-source retrieval endpoints are read-only. Connector-management and C
 A: Most queries return results in 1-5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
-<li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
-<li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
-<li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
-<li><strong><a href="/enterprise">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
+<li><strong><a href="https://www.corpusiq.io/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
+<li><strong><a href="https://www.corpusiq.io/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
+<li><strong><a href="https://www.corpusiq.io/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
+<li><strong><a href="https://www.corpusiq.io/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
+<li><strong><a href="https://www.corpusiq.io/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
+<li><strong><a href="https://www.corpusiq.io/enterprise">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
 <li><strong><a href="https://www.corpusiq.io/docs/security">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
 </ul>
 <h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>

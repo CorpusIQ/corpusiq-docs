@@ -10368,7 +10368,7 @@
 
 <h1 id="hermes-agent-library-9-production-ready-ai-agent-blueprints">Hermes Agent Library  --  9 Production-Ready AI Agent Blueprints<a class="headerlink" href="#hermes-agent-library-9-production-ready-ai-agent-blueprints" title="Anchor link to this section">&para;</a></h1>
 <p>The <strong>Hermes Agent Library</strong> is a curated collection of <strong>production-ready agent configurations</strong> for common business roles. Each agent is a complete configuration blueprint  --  not a demo or stub  --  that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes role description, recommended model, skills to load, MCP connectors, cron schedule, and quick-start command.</p>
-<p>Agents in this library run on the <a href="/docs/hermes">Hermes Agent framework</a> by Nous Research. They combine <strong>LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools</strong> through <a href="/docs/hermes/mcp/connectors">CorpusIQ MCP connectors</a>. An agent isn't just a prompt  --  it's an <strong>always-on teammate</strong> that monitors, analyzes, drafts, alerts, and reports on a schedule you define.</p>
+<p>Agents in this library run on the <a href="https://www.corpusiq.io/docs/hermes">Hermes Agent framework</a> by Nous Research. They combine <strong>LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools</strong> through <a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ MCP connectors</a>. An agent isn't just a prompt  --  it's an <strong>always-on teammate</strong> that monitors, analyzes, drafts, alerts, and reports on a schedule you define.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10456,7 +10456,7 @@
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span>edit<span class="w"> </span>--profile<span class="w"> </span>sales
 </code></pre></div>
 <h3 id="4-add-your-business-context">4. Add Your Business Context<a class="headerlink" href="#4-add-your-business-context" title="Anchor link to this section">&para;</a></h3>
-<p>Agents work best when they understand your business. Use <a href="/docs/hermes/governance">canonical facts</a> to store key definitions:</p>
+<p>Agents work best when they understand your business. Use <a href="https://www.corpusiq.io/docs/hermes/governance">canonical facts</a> to store key definitions:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>canonical<span class="w"> </span><span class="nb">set</span><span class="w"> </span>--profile<span class="w"> </span>sales<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--key<span class="w"> </span>icp_criteria<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--value<span class="w"> </span><span class="s2">&quot;B2B SaaS, 50-500 employees, US/Canada, marketing or sales tech stack&quot;</span>
@@ -10518,19 +10518,19 @@
 <li>Pick the agent matching your role from the table above 2. Run the Quick-Start command from the agent's page 3. Authenticate the required connectors with <code>hermes setup connectors</code> 4. Customize the cron schedule for your timezone 5. Test manually, then enable the cron.</li>
 </ol>
 <h3 id="which-agent-should-i-deploy-first">Which agent should I deploy first?<a class="headerlink" href="#which-agent-should-i-deploy-first" title="Anchor link to this section">&para;</a></h3>
-<p>Start with the agent that solves your <strong>most painful manual process</strong>. For most businesses, that's the <a href="/docs/hermes/agents/sales-agent">Sales Agent</a> (pipeline management), <a href="/docs/hermes/agents/marketing-agent">Marketing Agent</a> (SEO monitoring), or <a href="/docs/hermes/agents/executive-agent">Executive Agent</a> (daily briefings).</p>
+<p>Start with the agent that solves your <strong>most painful manual process</strong>. For most businesses, that's the <a href="https://www.corpusiq.io/docs/hermes/agents/sales-agent">Sales Agent</a> (pipeline management), <a href="https://www.corpusiq.io/docs/hermes/agents/marketing-agent">Marketing Agent</a> (SEO monitoring), or <a href="https://www.corpusiq.io/docs/hermes/agents/executive-agent">Executive Agent</a> (daily briefings).</p>
 <h3 id="can-i-run-multiple-agents-simultaneously">Can I run multiple agents simultaneously?<a class="headerlink" href="#can-i-run-multiple-agents-simultaneously" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Deploy as many agents as you need. They run as separate Hermes profiles with isolated skills, crons, and configurations. Chain agents together for cross-role workflows (e.g., Sales Agent reports feed into Executive Agent briefings).</p>
 <h3 id="how-much-does-running-these-agents-cost">How much does running these agents cost?<a class="headerlink" href="#how-much-does-running-these-agents-cost" title="Anchor link to this section">&para;</a></h3>
-<p>Cost varies by model and frequency. Lightweight monitoring with <strong>Claude Haiku</strong> costs pennies per day. Full-featured agents with <strong>Claude Sonnet 4</strong> may cost $1-5/day depending on frequency. See the <a href="/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a> for optimization tips.</p>
+<p>Cost varies by model and frequency. Lightweight monitoring with <strong>Claude Haiku</strong> costs pennies per day. Full-featured agents with <strong>Claude Sonnet 4</strong> may cost $1-5/day depending on frequency. See the <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a> for optimization tips.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/docs/hermes">Hermes Knowledge Hub  --  Architecture &amp; Deployment</a></li>
-<li><a href="/docs/hermes/skills/catalog">Skills Catalog  --  133+ Production Skills</a></li>
-<li><a href="/docs/hermes/mcp/connectors">CorpusIQ MCP Connectors  --  40+ Business Tools</a></li>
-<li><a href="/docs/hermes/governance/scheduling">Cron Scheduling Guide</a></li>
-<li><a href="/docs/hermes/governance">Canonical Facts  --  Store Business Definitions</a></li>
-<li><a href="/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes">Hermes Knowledge Hub  --  Architecture &amp; Deployment</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog  --  133+ Production Skills</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ MCP Connectors  --  40+ Business Tools</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/governance/scheduling">Cron Scheduling Guide</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/governance">Canonical Facts  --  Store Business Definitions</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a></li>
 </ul>
 <h2 id="curated-in-the-hermes-community-hub-406-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  406+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-406-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

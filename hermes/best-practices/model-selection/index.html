@@ -10560,7 +10560,7 @@
 <h1 id="model-selection-guide-choose-the-right-ai-model-every-time">Model Selection Guide  --  Choose the Right AI Model Every Time<a class="headerlink" href="#model-selection-guide-choose-the-right-ai-model-every-time" title="Anchor link to this section">&para;</a></h1>
 <p>Choosing the right model for each task is one of the highest-leverage decisions you make with Hermes Agent. A well-chosen model saves latency, cost, and context  --  missteps waste all three. This model selection guide covers task-to-model mapping, cost optimization, local vs cloud tradeoffs, and fallback chain patterns.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Hermes Agent supports 200+ models across Ollama (local), OpenRouter, and direct provider APIs. Following <a href="/docs/hermes/best-practices">best practices</a> for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.</p>
+<p>Hermes Agent supports 200+ models across Ollama (local), OpenRouter, and direct provider APIs. Following <a href="https://www.corpusiq.io/docs/hermes/best-practices">best practices</a> for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-decision-framework">The Decision Framework<a class="headerlink" href="#the-decision-framework" title="Anchor link to this section">&para;</a></h3>
 <p>Ask three questions before every model selection:</p>
@@ -10607,9 +10607,9 @@
 <p><strong>Task batching.</strong> Process similar records together  --  many providers offer 50% discounts on batch endpoints.</p>
 <p><strong>Model fallback chains.</strong> Try cheapest model first → if confidence low, escalate to mid-tier → if still uncertain, invoke frontier. This "progressive enhancement" gives frontier quality on hard cases while keeping average cost low.</p>
 <h2 id="local-vs-cloud-the-real-tradeoffs">Local vs Cloud: The Real Tradeoffs<a class="headerlink" href="#local-vs-cloud-the-real-tradeoffs" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Local models (Ollama) win when:</strong> data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See <a href="/docs/hermes/setup/gaming-pc">gaming PC setup</a> or <a href="/docs/hermes/setup/mac-mini-standalone">Mac Mini setup</a>.</p>
-<p><strong>Cloud models (OpenRouter/Anthropic/OpenAI) win when:</strong> you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See <a href="/docs/hermes/setup/cloud-vps">cloud VPS setup</a>.</p>
-<p><strong>Hybrid for most teams:</strong> Classify/extract with local models (free, private); reason/generate with cloud models. Configure Hermes Agent with <a href="/docs/hermes/setup">Ollama as primary and OpenRouter as fallback</a>.</p>
+<p><strong>Local models (Ollama) win when:</strong> data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC setup</a> or <a href="https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone">Mac Mini setup</a>.</p>
+<p><strong>Cloud models (OpenRouter/Anthropic/OpenAI) win when:</strong> you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud VPS setup</a>.</p>
+<p><strong>Hybrid for most teams:</strong> Classify/extract with local models (free, private); reason/generate with cloud models. Configure Hermes Agent with <a href="https://www.corpusiq.io/docs/hermes/setup">Ollama as primary and OpenRouter as fallback</a>.</p>
 <h2 id="the-fallback-chain-pattern">The Fallback Chain Pattern<a class="headerlink" href="#the-fallback-chain-pattern" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Check cache</strong>  --  identical query answered recently? Return cached.</li>
@@ -10637,15 +10637,15 @@ Data sensitive/regulated? → Local or approved cloud with BAA
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="when-should-i-use-a-local-model-vs-a-cloud-model">When should I use a local model vs a cloud model?<a class="headerlink" href="#when-should-i-use-a-local-model-vs-a-cloud-model" title="Anchor link to this section">&para;</a></h3>
-<p>Use local models (Ollama) for classification, extraction, and data-sensitive tasks  --  they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a <a href="/docs/hermes/setup">hybrid approach</a>.</p>
+<p>Use local models (Ollama) for classification, extraction, and data-sensitive tasks  --  they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a <a href="https://www.corpusiq.io/docs/hermes/setup">hybrid approach</a>.</p>
 <h3 id="how-do-i-reduce-my-api-costs-with-hermes-agent">How do I reduce my API costs with Hermes Agent?<a class="headerlink" href="#how-do-i-reduce-my-api-costs-with-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Implement caching for repeated queries, use prompt compression before expensive calls, batch non-urgent tasks, and create fallback chains that try cheaper models first. Track cost per successful task, not per token.</p>
 <h3 id="whats-the-best-model-for-code-generation">What's the best model for code generation?<a class="headerlink" href="#whats-the-best-model-for-code-generation" title="Anchor link to this section">&para;</a></h3>
 <p>Frontier models like Claude Sonnet 4, GPT-4o, and DeepSeek V3 excel at code generation. For boilerplate or simple functions, smaller local models like CodeLlama or DeepSeek Coder handle it efficiently at zero cost.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/docs/hermes/best-practices">Best Practices Overview</a>  --  All guides</li>
-<li><a href="/docs/hermes/setup">Setup Guides</a>  --  Platform-specific model configuration</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a>  --  All guides</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup">Setup Guides</a>  --  Platform-specific model configuration</li>
 <li><a href="memory-management">Memory Management</a>  --  Context optimization for models</li>
 <li><a href="mcp-design">MCP Server Design</a>  --  Design tools for model efficiency</li>
 </ul>

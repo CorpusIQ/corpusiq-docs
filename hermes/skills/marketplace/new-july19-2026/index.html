@@ -10341,7 +10341,7 @@
 - <strong>CLI:</strong> <code>scripts/hs</code> for turn-based interaction
 - <strong>Smoke:</strong> <code>scripts/smoke_test.sh</code> (expect 9/9)</p>
 <p><strong>Why it matters for Hermes:</strong> As agents accumulate context across sessions, they lose focus - too many goals, dumping model context into chat, wrong skill for the job. Hermespace provides the bounded working memory that lets an agent focus on one goal while preserving everything else. The dual decode pattern (separate channels for human vs model) prevents the context pollution that degrades agent performance over long sessions. For CorpusIQ's multi-session growth operations, hermespace could reduce the "what was I working on?" amnesia that costs hours per session.</p>
-<p><strong>Setup Guide:</strong> <a href="/docs/hermes/skills/catalog/hermespace-setup">Hermespace - Full Setup Guide</a></p>
+<p><strong>Setup Guide:</strong> <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup">Hermespace - Full Setup Guide</a></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Clone and install</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/PabloTheThinker/hermespace.git
 <span class="nb">cd</span><span class="w"> </span>hermespace
@@ -10379,7 +10379,7 @@ plutus<span class="w"> </span>demo<span class="w">    </span><span class="c1"># 
 - <strong>Hermes owns acceptance</strong> - Diff review, independent tests, corrective iterations</p>
 <p><strong>Workflow:</strong> Inspect → Workspace selection → Prompt file → Invoke wrapper → Result capture → Diff review → Independent tests → Accept/Reject</p>
 <p><strong>Why it matters for Hermes:</strong> As the agent skills ecosystem grows, delegating heavy coding work to specialized CLI agents (Cursor, Codex, Claude Code) becomes essential. This skill provides the safety layer - isolated worktrees, output bounds, and explicit Hermes-owns-acceptance - that prevents autonomous coding agents from making unsupervised changes.</p>
-<p><strong>Setup Guide:</strong> <a href="/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup">Cursor Delegate - Full Setup Guide</a></p>
+<p><strong>Setup Guide:</strong> <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup">Cursor Delegate - Full Setup Guide</a></p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>matdev83/hermes-cursor-dispatcher<span class="w"> </span>--skill<span class="w"> </span>cursor-delegate<span class="w"> </span>-g<span class="w"> </span>-y
 </code></pre></div>
 <hr />
@@ -10405,7 +10405,7 @@ plutus<span class="w"> </span>demo<span class="w">    </span><span class="c1"># 
 - AxioRank/hermes-plugin (security gateway, early stage)
 - Various VPS/deployment templates</p>
 <hr />
-<p><em>← <a href="/docs/hermes/skills/marketplace/new-july18-2026">July 18</a> | <a href="/docs/hermes/skills/marketplace">Marketplace Home</a> →</em>
+<p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july18-2026">July 18</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Marketplace Home</a> →</em>
 <em>Powered by CorpusIQ</em></p>
 
 
