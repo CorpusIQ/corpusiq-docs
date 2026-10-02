@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+        <meta name="description" content="OAuth remote MCP server with 13 scoped tools for reading pages, analytics, contacts and files, drafting, and publishing with two-step confirmation.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/api/errors">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/bioflow-mcp">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/api/rate-limits">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/api/openapi">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>CorpusIQ API Error Codes - CorpusIQ Docs</title>
+    <title>BioFlow MCP - Content, Analytics and Publishing for Agents</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/api/errors">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/bioflow-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="CorpusIQ API Error Codes - CorpusIQ Docs">
-  <meta property="og:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+  <meta property="og:title" content="BioFlow MCP - Content, Analytics and Publishing for Agents">
+  <meta property="og:description" content="OAuth remote MCP server with 13 scoped tools for reading pages, analytics, contacts and files, drafting, and publishing with two-step confirmation.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CorpusIQ API Error Codes - CorpusIQ Docs">
-  <meta name="twitter:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+  <meta name="twitter:title" content="BioFlow MCP - Content, Analytics and Publishing for Agents">
+  <meta name="twitter:description" content="OAuth remote MCP server with 13 scoped tools for reading pages, analytics, contacts and files, drafting, and publishing with two-step confirmation.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "CorpusIQ API Error Codes - CorpusIQ Docs",
-    "description": "Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and",
-    "url": "https://www.corpusiq.io/docs/api/errors",
-    
-    "datePublished": "2026-08-23",
-    "dateModified": "2026-08-23",
+    "name": "BioFlow MCP - Content, Analytics and Publishing for Agents",
+    "description": "OAuth remote MCP server with 13 scoped tools for reading pages, analytics, contacts and files, drafting, and publishing with two-step confirmation.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/bioflow-mcp",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-23">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#error-codes" class="md-skip">
+        <a href="#bioflow-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Error Codes - CorpusIQ Docs
+              BioFlow MCP - Content, Analytics and Publishing for Agents
             
           </span>
         </div>
@@ -334,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -415,8 +408,6 @@
       
   
   
-    
-  
   
   
     
@@ -451,11 +442,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -483,7 +476,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -668,37 +661,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Errors
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="https://www.corpusiq.io/docs/api/errors" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/api/errors" class="md-nav__link">
         
   
   
@@ -714,142 +680,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#error-response-format" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Error Response Format
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Error Types
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#handling-errors-programmatically" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Handling Errors Programmatically
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Handling Errors Programmatically">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#retry-logic-for-429-rate-limited" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Retry Logic for 429 Rate Limited
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#handling-401-token-expiry" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Handling 401 Token Expiry
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#retry-with-exponential-backoff-for-500-errors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Retry with Exponential Backoff for 500 Errors
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#409-conflicts" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        409 Conflicts
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -10300,10 +10130,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#error-response-format" class="md-nav__link">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Error Response Format
+        Why This Matters for Operators
       
     </span>
   </a>
@@ -10311,10 +10141,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#error-types" class="md-nav__link">
+  <a href="#tools-capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Error Types
+        Tools &amp; Capabilities
       
     </span>
   </a>
@@ -10322,22 +10152,77 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#handling-errors-programmatically" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Handling Errors Programmatically
+        Installation
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Handling Errors Programmatically">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Relevance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#retry-logic-for-429-rate-limited" class="md-nav__link">
+  <a href="#what-does-the-bioflow-mcp-server-do" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Retry Logic for 429 Rate Limited
+        What does the BioFlow MCP server do?
       
     </span>
   </a>
@@ -10345,10 +10230,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#handling-401-token-expiry" class="md-nav__link">
+  <a href="#can-an-agent-publish-without-confirmation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Handling 401 Token Expiry
+        Can an agent publish without confirmation?
       
     </span>
   </a>
@@ -10356,10 +10241,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#retry-with-exponential-backoff-for-500-errors" class="md-nav__link">
+  <a href="#how-is-access-controlled" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Retry with Exponential Backoff for 500 Errors
+        How is access controlled?
       
     </span>
   </a>
@@ -10372,43 +10257,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#409-conflicts" class="md-nav__link">
+  <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
-        409 Conflicts
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
+        See Also
       
     </span>
   </a>
@@ -10435,127 +10287,97 @@
   
 
 
-<h1 id="error-codes">Error Codes<a class="headerlink" href="#error-codes" title="Anchor link to this section">&para;</a></h1>
-<p>All CorpusIQ API errors follow a consistent JSON structure with a machine-readable <code>type</code> field and a human-readable <code>message</code>. Use the <code>type</code> field for programmatic error handling.</p>
-<h2 id="error-response-format">Error Response Format<a class="headerlink" href="#error-response-format" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unauthorized&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Invalid or expired Bearer token&quot;</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
+<h1 id="bioflow-mcp">BioFlow MCP<a class="headerlink" href="#bioflow-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>A link-in-bio and content page an agent can read, draft and publish.</strong> BioFlow exposes its pages, analytics, contacts and files over MCP with 13 tools, each guarded by a single OAuth scope. An agent can read performance, draft edits and publish - but publishing is off by default and every publish is a two-step confirm.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: OAuth 2.1, per-tool scopes, tokens scoped to one workspace
+Endpoint: https://app.getbioflow.com/api/mcp
+Tools: 13 (read pages, analytics, contacts, files; create and edit drafts; publish)
+Pricing: requires a BioFlow account
+Category: Marketing
+Built by: BioFlow
 </code></pre></div>
-<h2 id="error-types">Error Types<a class="headerlink" href="#error-types" title="Anchor link to this section">&para;</a></h2>
+<h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>An agent with write access to a live page is a liability unless the platform designs against surprise. BioFlow does: tokens are scoped to one workspace so an agent only sees what it was connected to; publish-class tools are disabled per workspace until an explicit settings toggle is flipped; and even then a publish is two calls, the first returning only a preview. Draft writes are guarded by optimistic concurrency, so a stale edit is refused rather than clobbering newer work, and writes take an idempotency key so a retry cannot run twice.</p>
+<p>For an operator running a bio page or content hub, that means the agent can do the reading and the drafting and the measuring, while the moment something goes live stays a deliberate, confirmed step. Denials are typed and actionable - a missing scope, a disabled dangerous operation with a deep link to the setting, a plan limit, a stale draft - so the agent can tell the person what to change instead of failing silently.</p>
+<h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>HTTP Status</th>
-<th><code>type</code></th>
-<th>Description</th>
+<th>Capability</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>400</strong></td>
-<td><code>bad_request</code></td>
-<td>The request body is malformed, missing required fields, or contains invalid values. Check the <code>details</code> field for field-level errors.</td>
+<td>Page reads</td>
+<td>Read the workspace's pages</td>
 </tr>
 <tr>
-<td><strong>401</strong></td>
-<td><code>unauthorized</code></td>
-<td>The Bearer token is missing, invalid, or expired. Obtain a new token. An <code>X-Token-Expired: true</code> header accompanies expired tokens.</td>
+<td>Analytics</td>
+<td>Read page and link performance</td>
 </tr>
 <tr>
-<td><strong>403</strong></td>
-<td><code>forbidden</code></td>
-<td>The authenticated user does not have permission to access the requested resource or connector. Verify connector OAuth scopes.</td>
+<td>Contacts</td>
+<td>Read captured contacts</td>
 </tr>
 <tr>
-<td><strong>404</strong></td>
-<td><code>not_found</code></td>
-<td>The requested resource (query ID, connector, or endpoint) does not exist. Check the URL and resource identifiers.</td>
+<td>Files</td>
+<td>Read workspace files</td>
 </tr>
 <tr>
-<td><strong>409</strong></td>
-<td><code>conflict</code></td>
-<td>The request conflicts with the current resource state. Inspect the response details before retrying.</td>
+<td>Draft edits</td>
+<td>Create and edit drafts, blocks and page metadata</td>
 </tr>
 <tr>
-<td><strong>413</strong></td>
-<td><code>payload_too_large</code></td>
-<td>The request body exceeds the maximum allowed size of 1 MB. Reduce <code>max_results</code> or split the query.</td>
-</tr>
-<tr>
-<td><strong>429</strong></td>
-<td><code>rate_limited</code></td>
-<td>The rate limit for the endpoint has been exceeded. A <code>retry_after_seconds</code> field indicates when to retry. See <a href="/docs/api/rate-limits">Rate Limits</a>.</td>
-</tr>
-<tr>
-<td><strong>500</strong></td>
-<td><code>server_error</code></td>
-<td>An unexpected internal error occurred on the CorpusIQ side. Retry with exponential backoff. If errors persist, contact api@corpusiq.io.</td>
+<td>Publishing</td>
+<td>Publish, behind a per-workspace toggle and a two-step confirm</td>
 </tr>
 </tbody>
 </table>
-<h2 id="handling-errors-programmatically">Handling Errors Programmatically<a class="headerlink" href="#handling-errors-programmatically" title="Anchor link to this section">&para;</a></h2>
-<h3 id="retry-logic-for-429-rate-limited">Retry Logic for 429 Rate Limited<a class="headerlink" href="#retry-logic-for-429-rate-limited" title="Anchor link to this section">&para;</a></h3>
-<p>When you receive a <code>429 Too Many Requests</code>, inspect the <code>retry_after_seconds</code> field:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">429</span><span class="p">:</span>
-    <span class="n">retry_after</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&quot;error&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;retry_after_seconds&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">retry_after</span><span class="p">)</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+<p>Thirteen tools total, one scope each. The vendor publishes the count and scope model on the connecting-assistants page.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>claude mcp add --transport http bioflow https://app.getbioflow.com/api/mcp
 </code></pre></div>
-<h3 id="handling-401-token-expiry">Handling 401 Token Expiry<a class="headerlink" href="#handling-401-token-expiry" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
-<span class="p">});</span>
-
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="mf">401</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">headers</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;X-Token-Expired&quot;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">token</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">refreshToken</span><span class="p">();</span><span class="w"> </span><span class="c1">// Re-authenticate</span>
-<span class="w">  </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
-<span class="w">  </span><span class="p">});</span>
+<p>Works with Claude (web, desktop, as a custom connector), ChatGPT, Copilot, MCP Inspector and any client supporting remote MCP with OAuth discovery.</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;bioflow&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://app.getbioflow.com/api/mcp&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<h3 id="retry-with-exponential-backoff-for-500-errors">Retry with Exponential Backoff for 500 Errors<a class="headerlink" href="#retry-with-exponential-backoff-for-500-errors" title="Anchor link to this section">&para;</a></h3>
-<p>For transient server errors, implement exponential backoff:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-
-<span class="n">max_retries</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_retries</span><span class="p">):</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">&lt;</span> <span class="mi">500</span><span class="p">:</span>
-        <span class="k">break</span>
-    <span class="k">if</span> <span class="n">attempt</span> <span class="o">&lt;</span> <span class="n">max_retries</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="n">wait</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">**</span> <span class="n">attempt</span>
-        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">wait</span><span class="p">)</span>
-</code></pre></div>
-<h2 id="409-conflicts">409 Conflicts<a class="headerlink" href="#409-conflicts" title="Anchor link to this section">&para;</a></h2>
-<p>A <code>409 Conflict</code> means the request conflicts with current resource state. Inspect the response details and do not assume a retry is safe.</p>
-<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Q: What does a 401 error mean on the CorpusIQ API?</strong><br />
-A: A 401 Unauthorized error means your API token is missing, expired, or invalid. Generate a new token from the Dashboard or refresh your session. Tokens expire after 60 minutes.</p>
-<p><strong>Q: How do I handle 429 Rate Limit errors?</strong><br />
-A: When you receive a 429 Too Many Requests, check the retry_after_seconds field in the response body and wait that many seconds before retrying. Rate limits are per-endpoint with minute and daily windows.</p>
-<p><strong>Q: What does a 400 Bad Request error indicate?</strong><br />
-A: A 400 error means your request body or parameters are malformed. Check that required fields are present, data types are correct, and the JSON structure matches the API schema.</p>
-<h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
+<h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
-<li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
-<li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
-<li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
-<li><strong><a href="/enterprise">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/security">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
+<li><strong>Growth and content teams</strong> can have an agent read performance, draft copy edits and stage a publish without handing over unattended write access.</li>
+<li><strong>Solopreneurs and creators</strong> can keep a bio page current through the agent they already use, with analytics read in the same breath.</li>
+<li><strong>Marketing ops</strong> get a concrete consent and revocation model: every connection starts on a scope-listing consent screen, any app can be revoked, and the same screen shows a full audit trail of every tool call.</li>
+<li><strong>AI agents</strong> get a publishing surface designed for them, with typed denials and optimistic concurrency rather than silent overwrites.</li>
 </ul>
-<h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ supplies the business and audience data; BioFlow supplies the destination page and its performance. An agent can read which campaigns are driving traffic from CorpusIQ's connectors, check the landing page's analytics through BioFlow, and draft the change that closes the gap - measurement and content update composed in one workflow, with the publish gated on confirmation.</p>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Requires a BioFlow account; tokens are scoped to a single workspace.</li>
+<li>Publishing is off by default per workspace and every publish is a two-step confirm, so it is not an unattended publish path.</li>
+<li>Focused on bio pages and content hubs, not a full CMS.</li>
+<li>Thirteen tools with one scope each means narrow, composable access rather than a broad API surface.</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="what-does-the-bioflow-mcp-server-do">What does the BioFlow MCP server do?<a class="headerlink" href="#what-does-the-bioflow-mcp-server-do" title="Anchor link to this section">&para;</a></h3>
+<p>It gives an AI agent 13 scoped tools to read pages, analytics, contacts and files, draft content, and publish - with publishing off by default and confirmed in two steps.</p>
+<h3 id="can-an-agent-publish-without-confirmation">Can an agent publish without confirmation?<a class="headerlink" href="#can-an-agent-publish-without-confirmation" title="Anchor link to this section">&para;</a></h3>
+<p>No. Publish-class tools are disabled per workspace until a setting is flipped, and every publish is a two-step confirm where the first call returns only a preview.</p>
+<h3 id="how-is-access-controlled">How is access controlled?<a class="headerlink" href="#how-is-access-controlled" title="Anchor link to this section">&para;</a></h3>
+<p>OAuth 2.1 with per-tool scopes, tokens scoped to one workspace, a plain-language consent screen and a revocable connection with a full audit trail of tool calls.</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">External MCP Server Catalog</a></li>
+<li><a href="https://corpusiq.io">CorpusIQ</a> - 40+ business data connectors for AI agents</li>
+</ul>
 
 
 
@@ -10634,7 +10456,7 @@ A: A 400 error means your request body or parameters are malformed. Check that r
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
