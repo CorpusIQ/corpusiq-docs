@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **196+ reposit
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 40 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 41 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1582,14 +1582,19 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [kaishi00/hermes-conduit](https://github.com/kaishi00/hermes-conduit) ⭐ 162
+
+>Conduit — native SwiftUI iOS client for Hermes Agent. Self-hosted, direct-connect mobile access to your agent.
+
+**Language:** Swift | **Topics:** ai-agent, hermes-agent, ios, self-hosted, swiftui | **Homepage:** https://hermesconduit.app | **Score:** 74/100
+
+---
+
 ### [sanchomuzax/hermes-webui](https://github.com/sanchomuzax/hermes-webui) ⭐ 113
 
 >Process monitoring and configuration dashboard for Hermes Agent
 
 **Language:** Python | **Topics:** ai-agent, dashboard, fastapi, hermes-agent, monitoring, react, webui | **Score:** 77/100
-
----
-
 
 ---
 
@@ -1627,7 +1632,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*191+ repositories in the Hermes ecosystem. Last updated: 2026-10-01. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*192+ repositories in the Hermes ecosystem. Last updated: 2026-10-02. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

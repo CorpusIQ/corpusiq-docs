@@ -6283,5 +6283,37 @@
     "discovered_at": "2026-09-30T05:02:33.261902+00:00",
     "status": "approved",
     "approved_at": "2026-09-30T05:04:34.841951+00:00"
+  },
+  {
+    "name": "kaishi00/hermes-conduit",
+    "url": "https://github.com/kaishi00/hermes-conduit",
+    "description": "Conduit \u2014 native SwiftUI iOS client for Hermes Agent",
+    "stars": 162,
+    "forks": 33,
+    "language": "Swift",
+    "topics": [
+      "ai-agent",
+      "hermes-agent",
+      "ios",
+      "self-hosted",
+      "swiftui"
+    ],
+    "updated_at": "2026-10-02T10:01:33Z",
+    "category": "forks",
+    "score": 74,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf"
+    ],
+    "discovered_at": "2026-10-02T10:01:48.801464+00:00",
+    "status": "approved",
+    "approved_at": "2026-10-02T10:03:50.513970+00:00"
   }
 ]
