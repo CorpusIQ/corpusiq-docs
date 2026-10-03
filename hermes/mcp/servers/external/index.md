@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-10-02"
+last_updated: "2026-10-03"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 ---
 
@@ -11,7 +11,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 2, 2026 (late supplement sweep) · **Sources:** mcp.so /feed (12 server blocks via the r.jina.ai reader proxy) + mcpservers.org /all (30 slugs) via the r.jina.ai reader proxy · **Catalog:** 785 servers (+671 guides)
+> **Last updated:** October 3, 2026 (morning sweep) · **Sources:** mcp.so /servers (29 slugs) + mcpservers.org /all (30 slugs) via the r.jina.ai reader proxy · **Catalog:** 790 servers (+676 guides)
+
+## 🆕 October 3, 2026 - Morning Sweep (5 New, 5 Guides)
+
+Morning sweep over the mcp.so `/servers` listing and mcpservers.org `/all`, both via the reader proxy, with detail pages fetched for every candidate and a live `tools/list` probe where the endpoint is keyless. Five new business-relevant entries, each catalogued with a guide: a keyless prediction-markets data surface, the official Cartesia voice server, a shared backlog for teams of agents, an ad-library corpus, and a pre-call trust check for agent endpoints.
+
+- [PredictionMarketsPicks MCP - Kalshi and Polymarket Data](/hermes/mcp/servers/external/predictionmarketspicks-mcp/) · keyless read-only remote Streamable HTTP at predictionmarketspicks.com/api/mcp/mcp, 34 tools verified through a live unauthenticated `tools/list` covering NFL props and strike ladders, cross-venue gaps, Fed and 2026 Senate odds, the Kalshi 15-minute and perpetual boards and EV, Kelly and Bayes calculators; focused servers split out for draft, weather and commodities.
+- [Cartesia MCP - Voice AI for Agents](/hermes/mcp/servers/external/cartesia-mcp/) · the official remote MCP for Cartesia at mcp.cartesia.ai/mcp (Streamable HTTP, API key), giving agents text to speech, voice cloning and the low-latency audio layer behind voice agents and phone calls, published first-party by the cartesia-ai org and verified on the directory.
+- [My Fordyce MCP - Shared Backlog for Agent Teams](/hermes/mcp/servers/external/my-fordyce-mcp/) · remote Streamable HTTP at myfordyce.fordycecg.com/mcp (OAuth or API key) that puts multiple agents on one backlog with lease-based dispatch: `request_work`, `claim`, `heartbeat`, `add_evidence` and `release`, whole-ticket versioning that refuses concurrent writes, lazy reclaim and a presented `agent_id`, with the ticket lifecycle running available, claimed, in_use, awaiting_review, done plus abandoned, lapsed, draft and duplicate states.
+- [OpenAdLibrary MCP - Ad Library Data for Agents](/hermes/mcp/servers/external/openadlibrary-mcp/) · remote Streamable HTTP at mcp.openadlibrary.com/mcp (public-data key as a Bearer or x-api-key header, or OAuth) exposing the public ad corpus for competitor and market research, returning ad creative and metadata to the agent without a browser session.
+- [AgentTrust MCP - Trust Decisions for Agent Endpoints](/hermes/mcp/servers/external/agenttrust-mcp/) · remote Streamable HTTP at getagenttrust.com/api/mcp whose `check_agent_trust` reads already-observed monitoring, reliability and ownership evidence for an endpoint and returns a deterministic `trustDecision` without contacting it, recommended when healthy and score at least 50, with confidence banded high at 90-plus and medium at 50-plus when ownership is verified.
 
 ## 🆕 October 2, 2026 - Late Supplement Sweep (10 New, 10 Guides)
 
