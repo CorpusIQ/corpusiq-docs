@@ -1,6 +1,7 @@
 ---
 title: "What is CorpusIQ - CorpusIQ Docs"
 description: "Every business runs on twelve to twenty SaaS tools. CorpusIQ connects them all to ChatGPT, Claude, and Perplexity so you get one consistent, cited answer from every assistant."
+last_updated: "2026-10-03"
 ---
 # What is CorpusIQ?
 
@@ -21,7 +22,7 @@ CorpusIQ fixes that.
 
 ## What it is
 
-CorpusIQ connects to all your business tools (31 connectors today, more
+CorpusIQ connects to all your business tools (40+ connectors today, more
 every month) and puts an AI agent on top of them. You ask the agent a
 question in plain English, in Claude or ChatGPT, and it figures out which
 systems to query, runs the queries, and gives you the answer.

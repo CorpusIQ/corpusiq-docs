@@ -1,6 +1,7 @@
 ---
 title: "MCP Architecture - CorpusIQ Docs"
 description: "For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps answers auditable."
+last_updated: "2026-10-03"
 ---
 # CorpusIQ MCP architecture
 
@@ -55,7 +56,7 @@ Your LLM client (Claude, ChatGPT, custom agent)
         v
 https://mcp2.corpusiq.io/mcp   <-- CorpusIQ MCP server
         |
-        +-- Connector layer (31 connectors)
+        +-- Connector layer (40+ connectors)
         |       Shopify, QuickBooks, GA4, HubSpot, Meta Ads,
         |       Klaviyo, Stripe, Slack, Gmail, and 20+ more.
         |       Each connector holds an encrypted OAuth token
@@ -76,7 +77,7 @@ https://mcp2.corpusiq.io/mcp   <-- CorpusIQ MCP server
 
 ## The connector layer
 
-Each of CorpusIQ's 31 connectors is an isolated module that:
+Each of CorpusIQ's 40+ connectors is an isolated module that:
 
 1. Holds one encrypted OAuth token per user account.
 2. Exposes a set of typed MCP tools (e.g. `get_orders`, `list_campaigns`,

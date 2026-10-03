@@ -1,6 +1,7 @@
 ---
 title: "Skills Engine - CorpusIQ Docs - CorpusIQ"
 description: "Skills are what make CorpusIQ answers good. This page explains how the skills router picks the right capability for your question and keeps answers consistent across assistants."
+last_updated: "2026-10-03"
 ---
 # The skills engine, explained
 
@@ -9,7 +10,7 @@ This is the part of CorpusIQ that makes the answers good.
 ## The naive way (which we don't do)
 
 Imagine you ask Claude - without CorpusIQ - "how healthy is my
-business?" It has 31 connectors available. What does it do?
+business?" It has 40+ connectors available. What does it do?
 
 It guesses. Maybe it asks Shopify for revenue. Maybe it forgets to ask
 QuickBooks. Maybe it pulls GA4 sessions but skips the ad accounts. The

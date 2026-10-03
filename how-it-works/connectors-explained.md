@@ -1,11 +1,12 @@
 ---
 title: "Connectors Explained - CorpusIQ Docs"
 description: "A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why direct queries run without a raw-file/full-payload warehouse; scoped operational logs may still apply."
+last_updated: "2026-10-03"
 ---
 # Connectors, explained
 
 A **connector** is a one-way, read-only link between CorpusIQ and one of
-your SaaS tools. Today there are 31 of them. The list grows every month.
+your SaaS tools. Today there are 40+ of them. The list grows every month.
 
 ## What a connector does
 
@@ -55,7 +56,7 @@ This is a deliberate product decision. Writing to vendor accounts is the
 single largest source of "agentic AI went wrong" stories. CorpusIQ
 doesn't take that risk on your behalf.
 
-## The 31 connectors today
+## The 40+ connectors today
 
 Storefronts and finance: Shopify, QuickBooks, Amazon Seller, eBay,
 GunBroker.
