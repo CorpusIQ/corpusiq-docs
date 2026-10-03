@@ -115,8 +115,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-02",
-    "dateModified": "2026-10-02",
+    "datePublished": "2026-10-03",
+    "dateModified": "2026-10-03",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +140,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-02">
+  <meta name="last-updated" content="2026-10-03">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9878,6 +9878,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-3-2026-morning-sweep-5-new-5-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 3, 2026 - Morning Sweep (5 New, 5 Guides)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-2-2026-late-supplement-sweep-10-new-10-guides" class="md-nav__link">
@@ -23888,6 +23899,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-3-2026-morning-sweep-5-new-5-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 3, 2026 - Morning Sweep (5 New, 5 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-2-2026-late-supplement-sweep-10-new-10-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -37614,8 +37636,17 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 2, 2026 (late supplement sweep) · <strong>Sources:</strong> mcp.so /feed (12 server blocks via the r.jina.ai reader proxy) + mcpservers.org /all (30 slugs) via the r.jina.ai reader proxy · <strong>Catalog:</strong> 785 servers (+671 guides)</p>
+<p><strong>Last updated:</strong> October 3, 2026 (morning sweep) · <strong>Sources:</strong> mcp.so /servers (29 slugs) + mcpservers.org /all (30 slugs) via the r.jina.ai reader proxy · <strong>Catalog:</strong> 790 servers (+676 guides)</p>
 </blockquote>
+<h2 id="october-3-2026-morning-sweep-5-new-5-guides">🆕 October 3, 2026 - Morning Sweep (5 New, 5 Guides)<a class="headerlink" href="#october-3-2026-morning-sweep-5-new-5-guides" title="Anchor link to this section">&para;</a></h2>
+<p>Morning sweep over the mcp.so <code>/servers</code> listing and mcpservers.org <code>/all</code>, both via the reader proxy, with detail pages fetched for every candidate and a live <code>tools/list</code> probe where the endpoint is keyless. Five new business-relevant entries, each catalogued with a guide: a keyless prediction-markets data surface, the official Cartesia voice server, a shared backlog for teams of agents, an ad-library corpus, and a pre-call trust check for agent endpoints.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/predictionmarketspicks-mcp">PredictionMarketsPicks MCP - Kalshi and Polymarket Data</a> · keyless read-only remote Streamable HTTP at predictionmarketspicks.com/api/mcp/mcp, 34 tools verified through a live unauthenticated <code>tools/list</code> covering NFL props and strike ladders, cross-venue gaps, Fed and 2026 Senate odds, the Kalshi 15-minute and perpetual boards and EV, Kelly and Bayes calculators; focused servers split out for draft, weather and commodities.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/cartesia-mcp">Cartesia MCP - Voice AI for Agents</a> · the official remote MCP for Cartesia at mcp.cartesia.ai/mcp (Streamable HTTP, API key), giving agents text to speech, voice cloning and the low-latency audio layer behind voice agents and phone calls, published first-party by the cartesia-ai org and verified on the directory.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/my-fordyce-mcp">My Fordyce MCP - Shared Backlog for Agent Teams</a> · remote Streamable HTTP at myfordyce.fordycecg.com/mcp (OAuth or API key) that puts multiple agents on one backlog with lease-based dispatch: <code>request_work</code>, <code>claim</code>, <code>heartbeat</code>, <code>add_evidence</code> and <code>release</code>, whole-ticket versioning that refuses concurrent writes, lazy reclaim and a presented <code>agent_id</code>, with the ticket lifecycle running available, claimed, in_use, awaiting_review, done plus abandoned, lapsed, draft and duplicate states.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/openadlibrary-mcp">OpenAdLibrary MCP - Ad Library Data for Agents</a> · remote Streamable HTTP at mcp.openadlibrary.com/mcp (public-data key as a Bearer or x-api-key header, or OAuth) exposing the public ad corpus for competitor and market research, returning ad creative and metadata to the agent without a browser session.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agenttrust-mcp">AgentTrust MCP - Trust Decisions for Agent Endpoints</a> · remote Streamable HTTP at getagenttrust.com/api/mcp whose <code>check_agent_trust</code> reads already-observed monitoring, reliability and ownership evidence for an endpoint and returns a deterministic <code>trustDecision</code> without contacting it, recommended when healthy and score at least 50, with confidence banded high at 90-plus and medium at 50-plus when ownership is verified.</li>
+</ul>
 <h2 id="october-2-2026-late-supplement-sweep-10-new-10-guides">🆕 October 2, 2026 - Late Supplement Sweep (10 New, 10 Guides)<a class="headerlink" href="#october-2-2026-late-supplement-sweep-10-new-10-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Supplement sweep over the mcp.so /feed (12 server blocks via the r.jina.ai reader proxy) and mcpservers.org /all (30 slugs) via the reader proxy, with detail pages fetched for every candidate. The feed carried only prior dispositions, so the late afternoon <code>/all</code> rollover on mcpservers.org supplied all ten new business-relevant entries, each catalogued with a guide: a teammate workspace, an AI lead engine, trackable document sharing, sports markets, Google Tag Manager control, App Store optimization, email marketing, X public data, live US jobs and API change monitoring.</p>
 <ul>

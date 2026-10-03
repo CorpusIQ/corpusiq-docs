@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation">
+        <meta name="description" content="Remote MCP that checks an agent endpoint against observed monitoring, reliability and ownership evidence and returns a trust decision.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agenttrust-mcp">
       
       
-        <link rel="prev" href="https://www.corpusiq.io/docs/hermes/prompts/creative">
-      
-      
-        <link rel="next" href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>Hermes Skills Catalog - Quality-Tiered Directory</title>
+    <title>AgentTrust MCP - Trust Decisions for Agent Endpoints</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agenttrust-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Hermes Skills Catalog - Quality-Tiered Directory">
-  <meta property="og:description" content="Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation">
+  <meta property="og:title" content="AgentTrust MCP - Trust Decisions for Agent Endpoints">
+  <meta property="og:description" content="Remote MCP that checks an agent endpoint against observed monitoring, reliability and ownership evidence and returns a trust decision.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hermes Skills Catalog - Quality-Tiered Directory">
-  <meta name="twitter:description" content="Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation">
+  <meta name="twitter:title" content="AgentTrust MCP - Trust Decisions for Agent Endpoints">
+  <meta name="twitter:description" content="Remote MCP that checks an agent endpoint against observed monitoring, reliability and ownership evidence and returns a trust decision.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -111,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Hermes Skills Catalog - Quality-Tiered Directory",
-    "description": "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation",
-    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog",
-    
-    "datePublished": "2026-10-02",
-    "dateModified": "2026-10-02",
+    "name": "AgentTrust MCP - Trust Decisions for Agent Endpoints",
+    "description": "Remote MCP that checks an agent endpoint against observed monitoring, reliability and ownership evidence and returns a trust decision.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agenttrust-mcp",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-02">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -180,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#skills-catalog" class="md-skip">
+        <a href="#agenttrust-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -196,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -216,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Skills Catalog - Quality-Tiered Directory
+              AgentTrust MCP - Trust Decisions for Agent Endpoints
             
           </span>
         </div>
@@ -334,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -364,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -6919,8 +6912,6 @@
       
   
   
-    
-  
   
   
     
@@ -6963,11 +6954,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28" >
         
           
           <div class="md-nav__link md-nav__container">
@@ -6995,7 +6988,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_28_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9208,8 +9201,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9235,15 +9226,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_28_10" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="https://www.corpusiq.io/docs/hermes/skills/catalog" class="md-nav__link md-nav__link--active">
+            <a href="https://www.corpusiq.io/docs/hermes/skills/catalog" class="md-nav__link ">
               
   
   
@@ -9261,13 +9254,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_28_10" id="__nav_28_10_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_28_10" id="__nav_28_10_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_28_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -10137,281 +10130,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#skill-quality-tiers" class="md-nav__link">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Skill Quality Tiers
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Skill Quality Tiers">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#production-tier" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Production Tier 🟢
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#beta-tier" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Beta Tier 🟡
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#community-tier" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Community Tier 🔵
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-evaluate-a-skill-before-installing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How to Evaluate a Skill Before Installing
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="How to Evaluate a Skill Before Installing">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-read-the-skill-description" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Read the Skill Description
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-check-the-required-permissions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Check the Required Permissions
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-review-the-error-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Review the Error Handling
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-look-for-confirmation-gates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Look for Confirmation Gates
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-check-recency-and-maintenance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. Check Recency and Maintenance
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#6-read-community-feedback" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        6. Read Community Feedback
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#7-test-in-a-safe-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7. Test in a Safe Environment
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#curated-starter-pack" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Curated Starter Pack
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Curated Starter Pack">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-daily-briefing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Daily Briefing
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-email-digest" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Email Digest
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-meeting-prep" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Meeting Prep
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-weekly-report-generator" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Weekly Report Generator
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-crm-health-check" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. CRM Health Check
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#6-data-to-chart" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        6. Data to Chart
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#7-content-drafting-assistant" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7. Content Drafting Assistant
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#8-code-review-companion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        8. Code Review Companion
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#9-travel-planner" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        9. Travel Planner
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#10-knowledge-base-qa" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        10. Knowledge Base Q&amp;A
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-a-skill" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Installing a Skill
+        Why This Matters for Operators
       
     </span>
   </a>
@@ -10419,10 +10141,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contributing-to-the-catalog" class="md-nav__link">
+  <a href="#tools-capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contributing to the Catalog
+        Tools &amp; Capabilities
       
     </span>
   </a>
@@ -10430,10 +10152,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#finding-more-skills" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Finding More Skills
+        Installation
       
     </span>
   </a>
@@ -10441,41 +10163,24 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#all-skills-catalog-pages" class="md-nav__link">
+  <a href="#configuration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All Skills Catalog Pages
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="All Skills Catalog Pages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#new-september-30-2026-sweep-8-publisher-guides" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        New - September 30, 2026 Sweep (8 publisher guides)
+        Configuration
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#new-september-29-2026-sweep-64-publisher-guides" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#business-relevance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        New - September 29, 2026 Sweep (64 publisher guides)
+        Business Relevance
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -10499,633 +10204,57 @@
   
 
 
-<h1 id="skills-catalog">Skills Catalog<a class="headerlink" href="#skills-catalog" title="Anchor link to this section">&para;</a></h1>
-<p>Welcome to the Hermes Skills Catalog  --  your directory of community-contributed, validated skills that extend what Hermes can do. Skills encode repeatable expertise into shareable packages that anyone in the Hermes community can install and use.</p>
-<h2 id="skill-quality-tiers">Skill Quality Tiers<a class="headerlink" href="#skill-quality-tiers" title="Anchor link to this section">&para;</a></h2>
-<p>Not all skills are created equal. We use three quality tiers to help you understand what you're installing:</p>
-<h3 id="production-tier">Production Tier 🟢<a class="headerlink" href="#production-tier" title="Anchor link to this section">&para;</a></h3>
-<p>Production-tier skills meet all of these criteria:</p>
-<ul>
-<li>Tested by at least three independent community members</li>
-<li>Includes comprehensive error handling for all known failure modes</li>
-<li>Documentation covers setup, invocation, expected output, and troubleshooting</li>
-<li>Confirmation gates on all write/destructive operations</li>
-<li>Maintained actively (updated within 30 days of reported issues)</li>
-<li>Pinned dependencies and explicit version requirements</li>
-<li>Audit trail for all data access</li>
-</ul>
-<p>These skills are safe for production use. You can rely on them as components of your automated workflows. Look for the 🟢 indicator in the catalog.</p>
-<h3 id="beta-tier">Beta Tier 🟡<a class="headerlink" href="#beta-tier" title="Anchor link to this section">&para;</a></h3>
-<p>Beta-tier skills are functional and well-tested by their authors but haven't completed community validation:</p>
-<ul>
-<li>Tested by the author and at least one other person</li>
-<li>Handles common error cases but may have gaps in edge-case handling</li>
-<li>Documentation covers basic usage but may lack troubleshooting depth</li>
-<li>May lack comprehensive confirmation gates</li>
-<li>Updated within 90 days</li>
-</ul>
-<p>These skills are suitable for supervised use. They'll save you time but keep an eye on them  --  especially in the first few runs. Look for the 🟡 indicator.</p>
-<h3 id="community-tier">Community Tier 🔵<a class="headerlink" href="#community-tier" title="Anchor link to this section">&para;</a></h3>
-<p>Community-tier skills are shared in good faith but haven't completed formal validation:</p>
-<ul>
-<li>Published by a community member</li>
-<li>May have been tested only on the author's setup</li>
-<li>Documentation may be minimal</li>
-<li>Error handling may be incomplete</li>
-<li>Best suited for learning, inspiration, and adaptation  --  not production reliance</li>
-</ul>
-<p>These skills are valuable for the community but require due diligence before relying on them. Look for the 🔵 indicator.</p>
-<p>| <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/runcomfy-agent-skills-setup">RunComfy Agent Skills</a> | 🟡 Beta | 30 | 61.1K | AI video, image-to-video, avatar video, video editing, music generation | <code>prime-skills/runcomfy-agent-skills</code> |</p>
-<h2 id="how-to-evaluate-a-skill-before-installing">How to Evaluate a Skill Before Installing<a class="headerlink" href="#how-to-evaluate-a-skill-before-installing" title="Anchor link to this section">&para;</a></h2>
-<p>Before you trust a skill with your data and credentials, do this five-minute review:</p>
-<h3 id="1-read-the-skill-description">1. Read the Skill Description<a class="headerlink" href="#1-read-the-skill-description" title="Anchor link to this section">&para;</a></h3>
-<p>Does it clearly state what it does, what connectors it needs, and what output it produces? A skill that can't explain itself in three sentences is a red flag.</p>
-<h3 id="2-check-the-required-permissions">2. Check the Required Permissions<a class="headerlink" href="#2-check-the-required-permissions" title="Anchor link to this section">&para;</a></h3>
-<p>What connectors and tools does the skill call? Does "Generate weekly report" really need write access to your CRM? If the permission scope exceeds the stated purpose, investigate before installing.</p>
-<h3 id="3-review-the-error-handling">3. Review the Error Handling<a class="headerlink" href="#3-review-the-error-handling" title="Anchor link to this section">&para;</a></h3>
-<p>Open the skill file and look for error handling blocks. Does it handle timeouts? Rate limits? Missing data? A skill with no error handling will fail silently or confusingly.</p>
-<h3 id="4-look-for-confirmation-gates">4. Look for Confirmation Gates<a class="headerlink" href="#4-look-for-confirmation-gates" title="Anchor link to this section">&para;</a></h3>
-<p>If the skill can modify data, does it require confirmation before doing so? Any skill that writes without explicit user approval is a production risk.</p>
-<h3 id="5-check-recency-and-maintenance">5. Check Recency and Maintenance<a class="headerlink" href="#5-check-recency-and-maintenance" title="Anchor link to this section">&para;</a></h3>
-<p>When was the skill last updated? A skill that hasn't been touched in 12 months may have broken dependencies or incompatible API versions. Check the changelog.</p>
-<h3 id="6-read-community-feedback">6. Read Community Feedback<a class="headerlink" href="#6-read-community-feedback" title="Anchor link to this section">&para;</a></h3>
-<p>Look for comments, issues, or reviews from other community members. "Works great on my setup" from one person is positive. "Breaks when the dataset exceeds 100 records" is actionable.</p>
-<h3 id="7-test-in-a-safe-environment">7. Test in a Safe Environment<a class="headerlink" href="#7-test-in-a-safe-environment" title="Anchor link to this section">&para;</a></h3>
-<p>Run the skill first in a read-only mode or with limited data. Before you let it loose on your production CRM, test it on your sandbox.</p>
-<h2 id="curated-starter-pack">Curated Starter Pack<a class="headerlink" href="#curated-starter-pack" title="Anchor link to this section">&para;</a></h2>
-<p>New to Hermes? These 10 skills are the most commonly recommended starting points. They cover essential workflows and are all Production-tier verified.</p>
-<h3 id="1-daily-briefing">1. Daily Briefing<a class="headerlink" href="#1-daily-briefing" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Your morning dashboard  --  calendar, priority emails, task list, and key metrics from connected services. One invocation replaces five separate checks.<br />
-<strong>Needs:</strong> Calendar, email, and optionally CRM or project management connectors.<br />
-<strong>Why start here:</strong> Replaces your morning routine with a single command. Immediate time savings.</p>
-<h3 id="2-email-digest">2. Email Digest<a class="headerlink" href="#2-email-digest" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Summarizes unread emails from a configurable time window, groups by thread, flags urgent items, and drafts suggested replies for routine messages.<br />
-<strong>Needs:</strong> Email connector (Gmail or Outlook).<br />
-<strong>Why start here:</strong> The average knowledge worker spends 2+ hours on email daily. This cuts it substantially.</p>
-<h3 id="3-meeting-prep">3. Meeting Prep<a class="headerlink" href="#3-meeting-prep" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Before a meeting, gathers relevant emails, documents, previous meeting notes, and action items related to the attendees and topic. Produces a one-page briefing.<br />
-<strong>Needs:</strong> Calendar, email, and optionally drive or project management connectors.<br />
-<strong>Why start here:</strong> Never walk into a meeting underprepared again.</p>
-<h3 id="4-weekly-report-generator">4. Weekly Report Generator<a class="headerlink" href="#4-weekly-report-generator" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Aggregates activity from your connected services into a structured weekly summary  --  tasks completed, meetings attended, key communications, metrics trends.<br />
-<strong>Needs:</strong> Project management, calendar, email (configurable).<br />
-<strong>Why start here:</strong> Automates the Friday afternoon ritual. Customize the template to match your team's format.</p>
-<h3 id="5-crm-health-check">5. CRM Health Check<a class="headerlink" href="#5-crm-health-check" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Pipeline analysis, stale deals, overdue follow-ups, and contact engagement scoring. Flags accounts that need attention.<br />
-<strong>Needs:</strong> CRM connector (HubSpot, Salesforce, or similar).<br />
-<strong>Why start here:</strong> Your CRM has data but Hermes turns it into action items.</p>
-<h3 id="6-data-to-chart">6. Data to Chart<a class="headerlink" href="#6-data-to-chart" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Takes a dataset (from any connector or upload) and generates appropriate visualizations  --  time series, distribution, comparison, correlation.<br />
-<strong>Needs:</strong> Any data source (accepts structured data from other skills).<br />
-<strong>Why start here:</strong> Visual insight without spreadsheet wrestling.</p>
-<h3 id="7-content-drafting-assistant">7. Content Drafting Assistant<a class="headerlink" href="#7-content-drafting-assistant" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Drafts blog posts, social media updates, newsletters, and other content following your brand voice. Includes tone calibration and audience targeting.<br />
-<strong>Needs:</strong> No specific connectors (optionally integrates with CMS or social platforms).<br />
-<strong>Why start here:</strong> Beat the blank page. All output is draft  --  you remain the editor.</p>
-<h3 id="8-code-review-companion">8. Code Review Companion<a class="headerlink" href="#8-code-review-companion" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Reviews code changes for bugs, security issues, style consistency, and documentation completeness. Provides actionable, specific feedback.<br />
-<strong>Needs:</strong> File access or repository connector.<br />
-<strong>Why start here:</strong> A second pair of eyes on every PR, catching issues before humans spend time reviewing.</p>
-<h3 id="9-travel-planner">9. Travel Planner<a class="headerlink" href="#9-travel-planner" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Given destination and dates, gathers flight options, hotel availability, weather forecasts, and local information. Organizes into a comparison view.<br />
-<strong>Needs:</strong> Calendar (for availability context).<br />
-<strong>Why start here:</strong> Research acceleration  --  you still book, but Hermes does the hunting.</p>
-<h3 id="10-knowledge-base-qa">10. Knowledge Base Q&amp;A<a class="headerlink" href="#10-knowledge-base-qa" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What it does:</strong> Searches your organization's documentation, wikis, and shared drives to answer questions. "What's our vacation policy?" "How do I set up the VPN?"<br />
-<strong>Needs:</strong> Drive, wiki, or documentation connectors.<br />
-<strong>Why start here:</strong> Reduces the "just ask Bob" tax on your organization's experts.</p>
-<h2 id="installing-a-skill">Installing a Skill<a class="headerlink" href="#installing-a-skill" title="Anchor link to this section">&para;</a></h2>
-<p>Skills from the catalog install with a single command. From the catalog page, copy the install command and run it in your Hermes terminal. The skill and its dependencies are installed to your profile.</p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>skill-id
+<h1 id="agenttrust-mcp">AgentTrust MCP<a class="headerlink" href="#agenttrust-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Remote MCP server (Streamable HTTP)</strong> - AgentTrust sits between finding an agent and calling it. An endpoint URL goes in, the evidence AgentTrust has already observed for that exact URL is read, and a machine-readable trust decision comes out, all without contacting the endpoint itself.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: See getagenttrust.com (key per account)
+Endpoint: https://getagenttrust.com/api/mcp
+Tools: check_agent_trust (returns a trustDecision object)
+Pricing: See getagenttrust.com
+Category: Business Operations
+Built by: AgentTrust (getagenttrust.com)
 </code></pre></div>
-<p>After installation, configure any required connectors. Most skills include a setup guide that walks through connector authentication. Test with a dry run before relying on the skill in production workflows.</p>
-<h2 id="contributing-to-the-catalog">Contributing to the Catalog<a class="headerlink" href="#contributing-to-the-catalog" title="Anchor link to this section">&para;</a></h2>
-<p>The skills catalog thrives on community contributions. If you've built something useful:</p>
-<ol>
-<li>Follow the <a href="https://www.corpusiq.io/docs/hermes/best-practices/skill-development">skill development best practices</a></li>
-<li>Test thoroughly in your environment</li>
-<li>Document setup, invocation, and expected output</li>
-<li>Remove environment-specific values (use placeholders)</li>
-<li>Submit through the catalog contribution process</li>
-</ol>
-<p>Skills are reviewed by community maintainers before publication. The review checks for documentation completeness, error handling, security considerations, and community value  --  not whether every edge case is handled (that's what quality tiers communicate).</p>
-<h2 id="finding-more-skills">Finding More Skills<a class="headerlink" href="#finding-more-skills" title="Anchor link to this section">&para;</a></h2>
-<p>The catalog here represents community-validated skills. Additional skills are discoverable through:</p>
+<h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>As agents start calling other agents, the missing step is the one a human does instinctively: deciding whether the counterpart is worth trusting before the call. AgentTrust fills that gap with evidence it has already collected about an endpoint, so the decision is based on observed history rather than a hopeful first request.</p>
+<p><strong>The differentiator is that it answers without touching the endpoint.</strong> A lookup reads stored evidence, so checking trust cannot itself trigger a slow, hostile or broken counterpart. The decision rule is deterministic and published: recommended when the endpoint is healthy and its current score is 50 or above, with confidence banded high at 90-plus and medium at 50-plus when ownership is verified, and low otherwise.</p>
+<h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>check_agent_trust</code></td>
+<td>Takes an <code>endpointUrl</code>, reads the evidence AgentTrust has observed for that URL, and returns a <code>trustDecision</code> with health, reliability score, evidence freshness and endpoint ownership</td>
+</tr>
+</tbody>
+</table>
+<p>The returned decision carries <code>recommended</code> plus confidence and reasons, so a caller can act on the recommendation or apply its own policy to the raw signals. AgentTrust returns what it has observed; it is explicitly not a community rating and not a security guarantee.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>add-mcp<span class="w"> </span><span class="s1">&#39;https://getagenttrust.com/api/mcp&#39;</span>
+</code></pre></div>
+<p>The same endpoint installs into Claude Code, Codex, Cursor and other clients through the standard MCP add flow.</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;agenttrust&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://getagenttrust.com/api/mcp&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Check the AgentTrust documentation for the authentication scheme on your account. A public test agent is available to try a lookup before wiring a real endpoint at <code>https://getagenttrust.com/check-agent-trust?endpointUrl=https://agenttrust-umber.vercel.app/api/test-agent</code>.</p>
+<h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><a href="https://skills.sh">skills.sh</a></strong>  --  Large open marketplace</li>
-<li><strong><a href="https://agentskills.io">agentskills.io</a></strong>  --  Curated premium and community skills</li>
-<li><strong><a href="https://hermeshub.nousresearch.com">hermeshub</a></strong>  --  Official Hermes skill registry</li>
-<li><strong><a href="https://skilldock.io">skilldock.io</a></strong>  --  Enterprise-focused skill marketplace</li>
-<li><strong>GitHub</strong>  --  Search for "hermes-skill" or "hermes-skill-" prefixed repositories</li>
-</ul>
-<p>See <a href="https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces">Skill Marketplaces</a> for detailed guidance on each marketplace.</p>
-<p>The catalog is a living resource. Skills are added weekly. Check back often, and consider contributing what you build.</p>
-<hr />
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
-<h2 id="all-skills-catalog-pages">All Skills Catalog Pages<a class="headerlink" href="#all-skills-catalog-pages" title="Anchor link to this section">&para;</a></h2>
-<h3 id="new-september-30-2026-sweep-8-publisher-guides">New - September 30, 2026 Sweep (8 publisher guides)<a class="headerlink" href="#new-september-30-2026-sweep-8-publisher-guides" title="Anchor link to this section">&para;</a></h3>
-<ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/assistant-ui-skills-setup">Assistant UI Skills - AI Chat Interface Dev Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-mpm-skills-setup">Claude MPM Skills - 96-Skill Dev Toolchain Collection Setup - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/dot-skills-setup">Dot Skills - 96-Skill Agent Engineering Collection Setup - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gemini-skills-setup">Gemini Skills - Official Google AI Development Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/harmony-next-skills-setup">Harmony Next Skills - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/jamesrochabrun-skills-setup">James Rochabrun Skills - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/meta-quest-agentic-tools-setup">Meta Quest Agentic Tools - Horizon OS VR Dev Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skill-from-masters-setup">Skill From Masters - Domain Expert Methodology Suite Setup - Setup Guide</a></li>
-</ul>
-<h3 id="new-september-29-2026-sweep-64-publisher-guides">New - September 29, 2026 Sweep (64 publisher guides)<a class="headerlink" href="#new-september-29-2026-sweep-64-publisher-guides" title="Anchor link to this section">&para;</a></h3>
-<ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/aahl-skills-setup">AAHL Skills - Smart Home &amp; TTS Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/open-websearch-setup">Open WebSearch Skills - Agent Web Search Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/actionbook-rust-skills-setup">Actionbook Rust Skills - Rust Guidelines Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/aktsmm-agent-skills-setup">Aktsmm Agent Skills - Copilot &amp; Claude Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-token-optimizer-setup">OpenClaw Token Optimizer Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/bagelhole-devops-security-skills-setup">Bagelhole DevOps Security Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/bergside-awesome-design-skills-setup">Bergside Design Skills - Design Systems Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/boshu2-agentops-setup">Boshu2 AgentOps Skills - AI Coding Ops Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/celigo-ai-skills-setup">Celigo AI Skills - Celigo Integrations Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/codestable-skills-setup">CodeStable Skills - AI Coding Workflow Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/coleam00-skills-setup">Coleam00 Skills - PIV Loop &amp; AI Layer Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/copilotkit-copilotkit-skills-setup">CopilotKit Skills - Agent Frontend Stack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/copilotkit-skills-setup">CopilotKit Skills - Dev Lifecycle Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ai-dev-standards-skills-setup">AI Dev Standards Skills - Design Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/decentraland-sdk-skills-setup">Decentraland SDK Skills - Scene Building Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openwork-skills-setup">Openwork Skills - Agent Workspace Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/helmor-skills-setup">Helmor Skills - Multi-Agent Workbench Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/dotnet-skills-setup">Dotnet Skills - .NET AI Coding Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/dylantarre-animation-principles-setup">Animation Principles Skills - Motion Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/dzhng-skills-setup">Dzhng Skills - Software Factory Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/eachlabs-skills-setup">Eachlabs Skills - Creative Generation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/flightclaw-agents-setup">Flightclaw Skills - Flight Agent Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/frames-engineering-skills-setup">Frames Engineering Skills - Agent Tools Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gemini-watermark-remover-setup">Gemini Watermark Remover Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/taches-cc-resources-setup">Taches CC Resources Skills - Claude Tools Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/google-antigravity-sdk-setup">Google Antigravity SDK Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/greensock-gsap-skills-setup">GSAP Skills - GreenSock Animation Platform Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/heroui-skills-setup">HeroUI Skills - React &amp; React Native UI Component Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hedera-skills-setup">Hedera Skills - Web3 Dev Tools Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawhub-skill-vetting-setup">ClawHub Skill Vetting - Security Scanner Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/open-browser-use-setup">Open Browser Use Skills - Browser Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/open-computer-use-setup">Open Computer Use Skills - Codex Alternative Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/jeffallan-claude-skills-setup">Jeff Allan Claude Skills - Full-Stack Dev Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/joellewis-finance-skills-setup">Finance Skills - Financial Services Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/majiayu000-spellbook-setup">Spellbook Skills - Cross-Runtime Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-gtm-plugin-setup">Claude GTM Plugin Skills - GTM Teams Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/luxor-claude-marketplace-setup">Luxor Claude Marketplace Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/marimo-skills-setup">Marimo Skills - Notebook Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-skills-generator-setup">Claude Skills Generator - Coding Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-lazy-pack-setup">AntiGravity Lazy Pack Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-learn-mcp-skills-setup">Microsoft Learn MCP Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mindrally-skills-setup">Mindrally Skills - 255+ Coding Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mosif16-codex-skills-setup">Mosif16 Codex Skills - iOS Design Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/context-engineering-skills-setup">Context Engineering Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/k-skill-setup">K-Skill - Korean Agent Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/okx-onchainos-skills-setup">OKX OnchainOS Skills - Wallet &amp; DEX Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/okx-cex-agent-skills-setup">OKX CEX Agent Skills - Exchange Trading Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openai-agents-python-skills-setup">OpenAI Agents Python Skills - Multi-Agent Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/pluggyai-agent-skills-setup">PluggyAI Agent Skills - Open Finance Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/amplihack-setup">Amplihack Skills - Agentic Coding Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/freeride-setup">FreeRide Skill - Free AI for OpenClaw Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/somasays-skill-creator-setup">somasays Skill Creator - Claude Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-cursor-skills-setup">Awesome Cursor Skills - Cursor Agent Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tech-leads-club-skills-setup">Tech Leads Club Skills - Secure Registry Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gd-agentic-skills-setup">GD Agentic Skills - Godot 4 Agent Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openui-setup">OpenUI Skill - Generative UI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/travisjneuman-claude-toolkit-setup">travisjneuman Claude Toolkit Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/upstash-skills-setup">Upstash Skills - Serverless Backend Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openviking-setup">OpenViking Skills - Agent Context Database Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ai-berkshire-setup">AI Berkshire Skills - Value Investing Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/phaser4-gamedev-setup">Phaser 4 GameDev Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/nature-skills-setup">Nature Skills - Academic Writing Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agent-email-cli-setup">Agent Email CLI Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/zc277584121-marketing-skills-setup">Marketing Skills - Content Ops Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claw-multi-agent-setup">Claw Multi-Agent Skill Setup</a></li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ziniao-open-skills-setup">Ziniao Skills - ERP and Store Automation Setup</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/find-skills-setup">find-skills - Skill Discovery Tool Setup</a></p>
-</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skill-creator-setup">skill-creator - Anthropic's Skill Creation Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/remotion-best-practices-setup">remotion-best-practices - Video Production Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/browser-act-setup">browser-act - Record-and-Replay Browser Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-workflows-setup">firecrawl-workflows - Growth &amp; Research Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-agent-setup">Firecrawl Agent - AI-Powered Structured Data Extraction Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agent-browser-setup">Agent Browser - Vercel Labs CLI for AI Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agent-flywheel-setup">Agent Flywheel Mega-Toolkit Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agent-sessions-setup">agent-sessions - macOS Agent Session Browser Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agenthood-setup">Agenthood Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agentmint-skills-setup">Agentmint Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agentmemory-setup">AgentMemory Setup - Persistent Memory for Hermes Agents</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/alibaba-cloud-aiops-skills-setup">Alibaba Cloud AIOps Skills - 270-Skill Cloud Operations Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/alirezarezvani-claude-skills-setup">Alireza Rezvani Claude Skills - 341 Engineering &amp; Marketing Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-manager-setup">Antigravity Manager - Multi-Account LLM Proxy &amp; Rotation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/apify-agent-skills-setup">Apify Agent Skills - Web Scraping for Hermes Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/apify-growth-skills-setup">Apify Growth Skills - Lead Gen, Brand Monitoring, Ultimate Scraper Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/apify-ultimate-scraper-setup">Apify Ultimate Scraper - Universal Web Scraping for 15+ Platforms Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/accesslint-skills-setup">AccessLint Skills - WCAG 2.2 Accessibility Audit Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/apidojo-agent-skills-setup">Apidojo Agent Skills - 100-Skill Social &amp; Market Data Extraction Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/apidojo-social-media-skills-setup">Apidojo Social Media Skills - X/Instagram/TikTok Scraper Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/apple-calendar-setup">Apple Calendar Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/arxiv-setup">Arxiv Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ashima-setup">Ashima Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/autolora-setup">Autolora Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-copilot-setup">Awesome Copilot - MCP Server Generators &amp; GitHub Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/bb-browser-openclaw-setup">bb-browser-openclaw - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup">Blacktwist Social Media Skills - 14-Skill Content Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/blogwatcher-setup">Blogwatcher - RSS/Atom Feed Monitoring for Hermes</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/blueprint-orchestration-setup">Blueprint Orchestration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup">browser-harness Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup">Build Mcp Server Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cinematic-scroll-skill-setup">cinematic-scroll-skill - Scroll-Driven Website Builder Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup">Charlie Hills Social Media Skills - 17-Skill Content System Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office">Claude Office Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawdbot-feishu-setup">ClawDBot Feishu Suite Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawdirect-setup">Setup Guide: napoleond/clawdirect - Agent Self-Direction Framework (9K+ Installs)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawdis-setup">Setup Guide: steipete/clawdis - 14 OpenClaw Skills (37K+ Installs)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawdstrike-setup">Setup Guide: cantinaxyz/clawdstrike - Agent Red-Team Security Testing (486 Installs)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawfu-skills-setup">ClawFu Skills - 175 Marketing Methodologies for AI Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawpilot-ecosystem-setup">Clawpilot Ecosystem Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-skills-setup">Claude Code Skills - Agentic Coding &amp; Skill Development Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-handoff-setup">Claude Handoff - Session Handoff Pattern Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-seo-setup">Claude SEO - 31-Skill Universal SEO Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clean-slate-setup">Clean Slate Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clerk-auth-skills-setup">Clerk Auth Skills - Authentication &amp; User Management Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cli-anything-harnesses-setup">Cli Anything Harnesses Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cli-anything-hermes-setup">Cli Anything Hermes Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cline-skills-setup">Cline Skills - Official Cline 43-Skill Collection Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/codex-setup">Codex - Delegate Coding Tasks to OpenAI Codex CLI</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/coding-posture-setup">Coding Posture Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/chrome-devtools-mcp-skills-setup">Chrome DevTools MCP Skills - Browser Debugging &amp; Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/communication">communication Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/content-strategy-setup">Content Strategy - Full Planning Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/context-forge-rag-setup">Context Forge Rag Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cron-design-workflow-setup">Cron Design Workflow Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/deep-agents-memory-setup">Deep Agents Memory - LangChain Persistent Memory Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/delegate-skills-setup">Delegate Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup">Design Judge Skills - Design Award Workflow Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup">Distribute Skill To All Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup">Dogfood - Systematic QA Testing Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/elevenlabs">elevenlabs Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/firebase">firebase Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl">firecrawl Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gbrain-agent-operations-setup">Gbrain Agent Operations Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ghostwriter-setup">Ghostwriter Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/guizang-social-card-skill-setup">Guizang Social Card Skill - Social Card Generation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace">Google Workspace Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/halt-catch-fire-skills-setup">Halt Catch Fire Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/herman-skill-playbook-setup">Herman Skill Playbook Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-a2a-bridge-setup">Hermes A2A Bridge Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-advanced-memory-setup">Hermes Advanced Memory Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-setup">Hermes Agent Core - Official Skill Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-self-evolution-setup">Hermes Agent Self-Evolution - Auto-Learning Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup">Hermes Agent Skill Authoring - Official SKILL.md Writing Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agel-comp-setup">AGEL-Comp Safety Framework - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agency-setup">Hermes Agency Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agentmesh-async-bus">Hermes Agentmesh Async Bus</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-arxiv-agent-setup">Hermes ArXiv Agent - ArXiv Paper Fetcher Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-bible-skill-setup">Hermes Bible Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-browser-extension-setup">Hermes Browser Extension - Full Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-client-web-ui-setup">Hermes Client Web Ui Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup">Hermes Cursor Dispatcher - Cursor CLI Delegation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/datadog-agent-skills-setup">Datadog Agent Skills - Observability &amp; Monitoring Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup">Hermes Desktop Neo Theme - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-engineering-curation-setup">Hermes Engineering Curation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup">Hermes Ershov Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-flight-recorder-setup">Hermes Flight Recorder Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup">Hermes Full Backup - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-history-ingest-setup">hermes-history-ingest Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-hybrid-memory-setup">Hermes Hybrid Memory - Full Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-imports-setup">Hermes Imports - Workflow Sanitization &amp; Export Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup">Hermes Labyrinth - Observability Dashboard Plugin for Hermes Agent</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup">Hermes Marketing Dashboard - AI Agent Marketing Ops Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-memory-stack-setup">Hermes Memory Stack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-meshtastic-adapter-setup">Hermes Meshtastic Adapter - LoRa Mesh Integration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-obsidian-giveaway-pack-setup">Hermes Obsidian Giveaway Pack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ponytail-setup">Hermes Ponytail Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-s6-container-supervision-setup">Hermes S6 Container Supervision Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-session-maintenance-setup">Hermes Session Maintenance Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-skill-cleaner-setup">Hermes Skill Cleaner Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-top-setup">hermes-top - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-whatsapp-secretary-setup">Hermes Whatsapp Secretary Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-windows-native">Hermes Windows Native</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup">Hermespace - Persistent Agent World Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermespet-macos-ai-companion-setup">Hermespet Macos Ai Companion Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermex-iphone-app-setup">Hermex iPhone App - Setup Guide for Hermes Agent</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/honcho-integration-setup">Honcho Integration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/huawei-hermes-deployment-setup">Huawei Hermes Deployment Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/huggingface-agent-skills-setup">HuggingFace Agent Skills - Datasets, Papers, ML Tools Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/humanizer-setup">Humanizer Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hyperframes-setup">Hyperframes Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/idea-workflow-suite-setup">Idea Workflow Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/imap-smtp-email-setup">Imap Smtp Email Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-design-setup">Impeccable Design Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-setup">Impeccable Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup">Inference Sh Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure">infrastructure Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/jupyter-live-kernel-setup">Jupyter Live Kernel Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/kanban-orchestrator-setup">Kanban Orchestrator Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/kostja94-marketing-skills-setup">Kostja94 Marketing Skills - Copywriting, SEO, Ads Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/langchain-skills-setup">LangChain Agent Skills - Memory, RAG, Persistence &amp; Middleware Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph">langgraph Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/launchdarkly-agent-skills-setup">LaunchDarkly Agent Skills - Feature Flags &amp; AgentControl Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/letta-ai-agent-harness-setup">Letta Ai Agent Harness Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/linux-systemd-setup">Linux Systemd Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/llm-ops-setup">Llm Ops Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/loop-maker-setup">Loop Maker Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/macos-computer-use-setup">Macos Computer Use Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/macos-launchd-setup">Macos Launchd Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/math-via-code-setup">Math Via Code Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup">Matt Pocock Engineering Skills - Setup Guide for Hermes Agents</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-setup">Mattpocock Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/codebase-design-setup">codebase-design - Deep Module Design Vocabulary Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/resolving-merge-conflicts-setup">Resolving Merge Conflicts - Matt Pocock Merge Protocol Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup">Matt Pocock Agent Workflow Suite - 20-Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-design-polish-setup">impeccable-design-polish - Post-Generation Design Polish Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-use-setup">MCP Use Setup - Fullstack MCP Framework for Hermes</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/monitoring-expert-setup">Monitoring Expert - Observability &amp; Monitoring Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/memoria-vault-setup">memoria-vault - Multi-Agent Research OS for Obsidian Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/memory-hygiene-setup">Memory Hygiene Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/memory-merger-setup">Memory Merger Setup - Agent Session Memory Consolidation</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/media-use-setup">Media Use Setup - Agent Media OS for HyperFrames (182.7K installs)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/metamask-openclaw-security-analysis-setup">Metamask Openclaw Security Analysis Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/native-mcp-setup">Native Mcp Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/nemoclaw-user-guide-setup">Nemoclaw User Guide Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/netlify-agent-skills-setup">Netlify Agent Skills - Serverless Deployment for Hermes Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/nextjs-agent-skills-setup">Next.js Agent Skills - Official Vercel Next.js Skill Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-agent-skills-setup">OpenClaw Agent Skills - Official OpenClaw Org Skill Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup">OpenClaw on Android - Full Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup">OpenClaw Audit Watchdog - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-auto-updater-setup">Openclaw Auto Updater Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-backup-setup">OpenClaw Backup - Encrypted Agent Workspace Backup Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-control-center-setup">OpenClaw Control Center - Agent Monitoring Dashboard for OpenClaw</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-customizer-setup">Openclaw Customizer Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup">Openclaw Ecosystem June26 Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-grok-search-setup">Openclaw Grok Search Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-history-ingest-setup">openclaw-history-ingest Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-marketing-skills-setup">OpenClaw Marketing Skills - Setup Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-secure-linux-cloud-setup">Openclaw Secure Linux Cloud Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-security-hardening-setup">Openclaw Security Hardening Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-skill-vetter-setup">Openclaw Skill Vetter Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-xhs-setup">OpenClaw XHS Setup - Xiaohongshu (RED) Integration</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openai-codex-skills-setup">OpenAI Codex Skills - Official Skills Catalog Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/opentui-setup">OpenTUI - Terminal UI Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/opc-skills-setup">OPC Skills - Solopreneur Toolkit (SEO, Reddit, Branding, Launch) Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup">Oh My Hermes (OMH) Suite - Multi-Agent Orchestration Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/parallel-agent-skills-setup">Parallel Agent Skills - Web Intelligence for Hermes Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/perfectloop-setup">Perfectloop Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/petdex-setup">Petdex - Animated Mascots for Hermes Agent</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/popular-web-designs-setup">Popular Web Designs - 54 Design Systems as HTML/CSS Templates Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/powerpoint-setup">PowerPoint - Create, Read, Edit .pptx Decks Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/platform">platform Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/prisma">prisma Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/railway-agent-skills-setup">Railway Agent Skills - Infrastructure Deployment Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/reason-machines-devtools-skills-setup">Reason Machines DevTools Skills - Auto-Generated CLI Tool Skill Farm Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-automation-setup">Reddit Automation - Honest Reddit Engagement Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/redis-agent-skills-setup">Redis Agent Skills - Official Data Modeling &amp; Caching Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/resumeskills-setup">ResumeSkills - AI-Powered Resume Optimization Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/safari-web-agent-setup">Safari Web Agent Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/salesforce-sf-skills-setup">Salesforce Skills Library (sf-skills) - 330+ Agent Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/security-and-hardening-setup">Security Hardening - AI Agent Security Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-ai-monitoring-setup">Sentry AI Monitoring - Agent Error Tracking Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/sg-arrival-card-setup">Sg Arrival Card Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/shopify-development-setup">Shopify Development - Full Setup Guide for Hermes Agents</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/shopify">shopify Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skill-repo-manager-setup">Skill Repo Manager Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skill-vetting-setup">Skill Vetting Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skill-vetter-setup">Skill Vetter - Security Audit for Hermes Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skills-gallery-setup">Skills Gallery Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/social-setup">Social Content - Multi-Platform Social Media Creation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/soul-grader-setup">Soul Grader Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/spike-setup">Spike Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/stepfun-skills-setup">Stepfun Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/steroids-openai-image-gen-setup">Steroids Openai Image Gen Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/stripe">stripe Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/supabase">supabase Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/superpowers-setup">Superpowers - Agentic Skills Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-search-openclaw-setup">Tavily Search Openclaw Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-search-setup">Tavily Search - Official LLM-Optimized Web Search CLI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-research-setup">Tavily Research - AI-Powered Deep Research Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/threads-growth-skill-setup">Threads Growth Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/three-agent-bridge-setup">Three Agent Bridge Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup">Timesfm Forecasting Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-security-setup">Trailofbits Security Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ultimate-humanizer-setup">Ultimate Humanizer Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/unity-ai-skills-setup">Unity AI Skills - Official Unity 29-Skill Game Dev Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup">Vercel Agent Skills - Official Vercel Collection Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-eve-agent-skills-setup">Vercel Eve Agent Skills - Official Eve Agent Framework Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vps-server-management-setup">Vps Server Management Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/wiki-history-ingest-setup">Wiki History Ingest Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/writing-plans-subagent-development-setup">Writing Plans Subagent Development Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/wshobson-agents-setup">wshobson/agents - Agent Plugin Marketplace Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/x-twitter-scraper-setup">X Twitter Scraper Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup">Xurl Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/youtube-content-setup">Youtube Content Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/yuanbao-setup">Yuanbao - Tencent Group Chat Integration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/better-auth-skills-setup">Better Auth Skills - Authentication Infrastructure Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/google-agents-cli-setup">Google Agents CLI - Google ADK Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gtm-agents-setup">GTM Agents - Go-to-Market Sales Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/knowledge-work-plugins-setup">Knowledge Work Plugins - Anthropic Productivity Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/lenny-skills-setup">Lenny Skills - PM Methodology from Lenny Rachitsky Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/sanity-agent-toolkit-setup">Sanity Agent Toolkit - Headless CMS Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/serpdownloaders-setup">SERP Downloaders - Content Downloader Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skills-collective-ai-media-setup">Skills Collective AI Media - Image &amp; Video Gen Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/midscene-skills-setup">Midscene Skills - AI-Powered Visual Browser Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/browser-use-automation-setup">Browser-Use Automation - AI Browser for Anti-Bot Sites Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-social-media-automation-setup">Playwright Social Media Automation - API-First Browser Fallback Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ruflo-setup">Ruflo - Multi-Agent Orchestration Platform Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/stitch-skills-setup">Stitch Skills - Google Design-to-Code Pipeline Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/just-scrape-setup">just-scrape - AI-Powered Web Scraping CLI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/terminal-skills-setup">Terminal Skills - System Administration Pack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/finance-skills-setup">Finance Skills - Financial Analysis for Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/songwriting-and-ai-music-setup">Songwriting &amp; AI Music - Creative Music Generation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/debugging-hermes-tui-commands-setup">Debugging Hermes TUI Commands - Slash Command Troubleshooting Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-attestation-guardian-setup">Hermes Attestation Guardian - Security Verification Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/research-paper-writing-setup">Research Paper Writing Pipeline - Academic ML/AI Paper Production Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/plan-mode-setup">Plan Mode - Plan-Only Execution Mode Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/godmode-setup">Godmode - Autonomous Execution Mode Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/p5js-setup">p5js - Creative Coding &amp; Generative Art Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/polymarket-setup">Polymarket - Prediction Market Integration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/simplify-code-setup">Simplify Code - Parallel Review &amp; Cleanup Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/subagent-driven-development-setup">Subagent-Driven Development - Multi-Agent Task Dispatch Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/heartmula-setup">HeartMuLa - Open-Source AI Music Generation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ideation-setup">Creative Ideation - Constraint-Driven Brainstorming Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/linear-setup">Linear Integration - Issue &amp; Project Management Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/webhook-subscriptions-setup">Webhook Subscriptions - External Service Trigger Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/weread-skills-setup">WeRead Skills - Tencent WeChat Reading Agent Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-carapace-setup">OpenClaw Carapace - Design System Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-graph-new-skills-setup">OpenClaw Graph New Skills - Procedural Generation, ARKit, Testing Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup">MCP OAuth Remote Gateway - Official Hermes Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup">Mnemosyne Hermes Memory Providers - Local-First Agent Memory Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cnife-audit-hermes-agent-skills-setup">Audit Hermes Agent Skills - Skill Usage Audit &amp; Cleanup Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/volces-hermes-openclaw-skills-setup">Volces Hermes &amp; OpenClaw Skills - ByteDance Registry Cluster Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/grounded-citations-setup">Grounded Citations - Verifiable Source Citations Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/lark-feishu-skills-setup">Lark &amp; Feishu Skills - Office Suite Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/rigorpilot-skills-setup">RigorPilot Skills - AI Research &amp; Paper Reproduction Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/caveman-skills-setup">Caveman Skills - Agent Coding Workflow Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/skills-101-superpowers-setup">Skills-101 Superpowers - AI Media &amp; Automation Pack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/warpdotdev-common-skills-setup">Warp Common Skills - Spec-Driven Development Workflow Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/uizze-ui-skills-setup">Uizze UI Skills - Anti-UI-Slop Design Quality Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/stablyai-orca-setup">Stably Orca - Agent Orchestration CLI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/extract-design-system-setup">Extract Design System - UI Token &amp; Component Extraction Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/app-store-connect-cli-skills-setup">App Store Connect CLI - Mobile Release Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/genmedia-skills-setup">GenMedia Skills - AI Media Generation Cluster Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/pika-plugins-setup">Pika Plugins - Marketing Video Skill Pack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/flowkit-reddit-automation-setup">FlowKit Reddit Automation - Community Engagement Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/humanlayer-skills-setup">HumanLayer Skills - Human-in-the-Loop Patterns Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/nushell-pro-setup">NuShell Pro - Structured Shell Scripting Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/fetcher-skills-setup">Fetcher Skills - Social Platform API Cluster Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/convex-agent-skills-setup">Convex Agent Skills - Backend Platform (BaaS) Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/emilkowalski-skills-setup">Emil Kowalski Skills - Design Engineering Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ui-ux-pro-max-setup">UI/UX Pro Max - Design System Skill Pack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/higgsfield-skills-setup">Higgsfield Skills - AI Video &amp; Image Generation Cluster Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/osint-skills-setup">OSINT Skills - Open-Source Intelligence Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/wind-skills-setup">Wind Skills - Financial Terminal Research Cluster Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/momentic-skills-setup">Momentic Skills - AI QA Testing Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/planning-with-files-setup">Planning With Files - Agent Planning Methodology Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/wonda-setup">Wonda CLI - Terminal AI Content Creation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/squirrelscan-skills-setup">SquirrelScan Skills - Website Audit Tool Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/solana-dev-skill-setup">Solana Dev Skill - Blockchain Development Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/genkit-skills-setup">Genkit Skills - Firebase Genkit AI Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-skills-setup">Firecrawl Skills - Web Scraping, Research &amp; Workflow Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/nexscope-ecommerce-skills-setup">Nexscope E-Commerce Skills - Shopify, Etsy, TikTok Shop &amp; Marketplace Growth Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/seo-geo-claude-skills-setup">SEO GEO Claude Skills - SEO &amp; Generative Engine Optimization Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/n8n-skills-setup">n8n Skills - Workflow Automation for Business Operators Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/review-loop-skill-setup">Review Loop Skill - Continuous Code Review Discipline Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ecc-engineering-skills-setup">ECC Engineering Skills - Enterprise Engineering Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/flutter-agent-plugins-setup">Flutter Agent Plugins - Official Flutter Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-dev-skills-setup">Sentry Dev Skill - Official Sentry CLI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/pexo-video-skills-setup">Pexo Video Skills - AI Video Generation Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/seojuice-skills-setup">SEOJuice Skills - SEO Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/better-ui-skills-setup">Better UI Skills - Interface Polish Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/coderabbit-skills-setup">CodeRabbit Skills - AI Code Review Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-llm-apps-skills-setup">Awesome LLM Apps Skills - Role-Based Agent Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/caffeinelabs-extension-skills-setup">CaffeineLabs Extension Skills - Agent Platform Extensions Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/opencli-skills-setup">OpenCLI Skills - Agent CLI with Browser Automation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cmux-skills-setup">CMUX Skills - Agent Terminal Multiplexer Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agentix-ceo-skill-setup">Agentix CEO Skill - AI Worker Team Orchestration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/liarjs-fingerprint-skills-setup">LiarJS Skills - Browser Fingerprint &amp; Playwright Stealth Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/huashu-design-setup">Huashu Design Skill - HTML-First Agent Design Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/replicas-agent-skill-setup">Replicas Agent Skill - Cloud Workspace Coding Agent Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/design-doc-mermaid-setup">Design Doc Mermaid Skill - Diagram &amp; Documentation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agent-pulse-skill-setup">Agent Pulse Skill - Local AI Agent Activity Monitor Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/academic-research-skills-setup">Academic Research Skills - Paper Pipeline for Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/argent-mobile-agent-skills-setup">Argent Skills - Mobile Dev Agent Toolkit Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/oh-story-claudecode-skills-setup">Oh Story ClaudeCode Skills - Long-Form Writing &amp; Browser CDP Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vuejs-ai-skills-setup">VueJS AI Skills - Vue Best Practices Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/rivet-dev-skills-setup">Rivet Skills - Real-Time Backend &amp; Agent Infrastructure Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/interface-design-skill-setup">Interface Design Skill - Non-Templated Product UI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/feature-sliced-design-skill-setup">Feature-Sliced Design Skill - Frontend Architecture Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/rampstack-claude-skills-setup">RampStack Claude Skills - Growth &amp; Marketing Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tailwind-4-docs-skill-setup">Tailwind 4 Docs Skill - Local Docs Snapshot Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-video-watch-skill-setup">Claude Video Watch Skill - Agent Video Input Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tiangong-ai-skills-setup">Tiangong AI Skills - Email &amp; Research Data Fetching Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/rknall-claude-skills-setup">RKnall Claude Skills - SVG Logo &amp; GitLab Stack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/superdesign-skill-setup">Superdesign Skill - Canvas Design &amp; Inspiration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/design-motion-principles-skill-setup">Design Motion Principles Skill - Motion &amp; Interaction Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/swift-testing-pro-skill-setup">Swift Testing Pro Skill - Swift Testing Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-skills-curated-setup">Trail of Bits Skills Curated - Agent Security Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-agent-skills-setup">Sentry Agent Skills - Security &amp; Code Review Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/threejs-agent-skills-setup">Three.js Agent Skills - 3D &amp; WebGL Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/emblem-company-agent-skills-setup">Emblem Company Agent Skills - Portfolio &amp; Market Research Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ctf-security-skills-setup">CTF Security Skills - Offensive Security Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/brightdata-agent-skills-setup">Bright Data Agent Skills - Web Scraping &amp; Research Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-video-toolkit-setup">Claude Code Video Toolkit - Video Pipeline Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/langfuse-agent-skills-setup">Langfuse Agent Skills - LLM Observability Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-deep-research-skill-setup">Deep Research Skill - Citation-Tracked Research Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/minimax-h3-skills-setup">MiniMax H3 Skills - AI Video Prompt Writing &amp; Generation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mintlify-docs-skills-setup">Mintlify Docs Skills - Documentation Platform Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/lottiefiles-motion-design-skill-setup">Motion Design Skill - LottieFiles Animation Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mobile-app-ui-design-skill-setup">Mobile App UI Design Skill - Mobile Interface Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/cursor-plugins-skills-setup">Cursor Plugins Skills - Engineering Discipline Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-plugin-skills-setup">Vercel Plugin Skills - Full Vercel Ecosystem Agent Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-ai-skills-setup">Vercel AI SDK Skills - TypeScript AI Development Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/angular-skills-setup">Angular Skills - Framework Development Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/inngest-skills-setup">Inngest Skills - Durable Workflow Orchestration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/oxc-project-skills-setup">OXC Project Skills - Linter &amp; Formatter Migration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/alibaba-open-code-review-setup">Alibaba Open Code Review - AI Code Review CLI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/brianlovin-agent-config-setup">Brian Lovin Agent Config - Design Engineering Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/last30days-skill-setup">last30days Skill - Recent-Activity Research Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/herdr-skills-setup">Herdr Skills - Terminal Workspace Orchestration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/web-access-skill-setup">Web Access Skill - Unified Browsing &amp; Scraping Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/stop-slop-setup">Stop Slop - AI-Prose Pattern Cleaner Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/avoid-ai-writing-setup">Avoid AI Writing - AI-Pattern Audit &amp; Rewrite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mcollina-node-skills-setup">M. Collina Node Skills - Fastify &amp; Node.js Agent Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/zhaono1-agent-playbook-setup">Zhaono1 Agent Playbook - 24-Role Agent Workflow Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/nx-ai-agents-config-skills-setup">Nx AI Agents Config - Monorepo Agent Skills Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/wecom-cli-skills-setup">WeCom CLI Skills - Enterprise WeChat Agent Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/wecom-unified-skills-setup">WeCom Unified Skill - WeChat Work Routing Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mastra-ai-skills-setup">Mastra AI Skills - TypeScript Agent Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/strix-security-skills-setup">Strix Security Skills - Autonomous Pentesting Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/claude-for-legal-skills-setup">Claude for Legal Skills - Anthropic Legal Workflow Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/pcl-domain-expert-skills-setup">PCL Domain Expert Skills - 104 Persona Skill Pack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vtex-skills-setup">VTEX Skills - Commerce Platform Development Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/genshijin-skills-setup">Genshijin Skills - Japanese Concise-Reply Framework Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hono-skill-setup">Hono Skill - Edge Web Framework Setup by the Hono Author</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/capawesome-skills-setup">Capawesome Skills - Capacitor and Ionic Ecosystem Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/wyattowalsh-agents-setup">Wyatt Walsh Agents - Skill Governance and Orchestration Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-field-kit-setup">Hermes Field Kit - Field-Tested Hermes Operations Skill Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup">AtlasOmnia Hermes Custom Pack - 60+ Skill Independent Pack Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/buzz-skills-setup">Buzz Skills - Hermes Agent on Nostr via Block's Buzz Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/design-review-setup">design-review - Visual UI Audit &amp; Fix Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-awesome-skills-setup">Agentic Awesome Skills - 2,000+ Skill Catalog Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/autonnel-skills-setup">Autonnel Skills - Conversion &amp; Funnel Optimization Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gpt-image-2-style-library-setup">GPT-Image-2 Style Library - Industrial Prompt &amp; Style Templates Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gh-issue-sync-setup">gh-issue-sync - Local Markdown GitHub Issues Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/system-atlas-setup">System Atlas - Explorable Architecture Map Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/makerskills-setup">Makerskills - Personal Operator Agent Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tech-logos-setup">Tech Logos - Brand Logo Installer for shadcn/ui Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/generative-media-skills-setup">Generative Media Skills - 153-Skill Media Production Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/podo-design-agent-skills-setup">Podo Design Agent Skills - 151-Skill Design Catalog Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/pp-mercury-setup">pp-mercury - Mercury Banking CLI Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/printing-press-library-setup">Printing Press Library - 472-CLI Agent Tool Catalog Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/revenue-centric-design-setup">Revenue-Centric Design Skill - SaaS Conversion Playbook Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/telegram-mini-app-setup">Telegram Mini App Skill - Telegram Web App Builder Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/gh-stack-setup">gh-stack - GitHub Stacked PRs Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hallmark-setup">Hallmark - Anti-AI-Slop Design Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/dart-lang-skills-setup">Dart Language Skills - Official Dart Team Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hubspot-agent-cli-skills-setup">HubSpot Agent CLI Skills - CRM Operations Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/basic-memory-skills-setup">Basic Memory Skills - Agent Knowledge Graph Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mengto-skills-setup">Meng To Skills - Frontend &amp; Motion Design Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/low-level-dev-skills-setup">Low-Level Dev Skills - Systems Programming Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/daymade-claude-code-skills-setup">Daymade Claude Code Skills - General-Purpose Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ljg-skills-setup">LJG Skills - Personal Knowledge Work Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/insforge-skills-setup">InsForge Skills - AI App Backend-as-a-Service Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-zh-cn-setup">Matt Pocock Skills (简体中文) - Localized Engineering Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/owl-listener-designer-skills-setup">Owl Listener Designer Skills - 107-Skill Design Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/tanstack-skills-setup">TanStack Skills - React Server State &amp; Router Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/archify-setup">Archify - Interactive Architecture Diagram Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/petrkindlmann-qa-skills-setup">Petr Kindlmann QA Skills - 50-Skill Test Automation Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/paperthin-skills-setup">Paperthin - Agentic Design Patterns Toolkit Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/inkeep-open-knowledge-skills-setup">Inkeep Open Knowledge Skills - Collaborative Knowledge Base Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/vigiles-setup">Vigiles - Agent Harness Quality Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hithink-finance-setup">Hithink Finance - Tonghuashun A-Share Data Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/task-observer-setup">Task Observer - Meta-Skill for Continuous Skill Improvement Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup">Hermes Agent Official Skills - Bundled Batch Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/sleek-design-mobile-apps-setup">Sleek Design Mobile Apps - AI Mobile App Design Skill Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/marketing-mindset-setup">Marketing Mindset - B2B Marketing OS for AI Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/book-to-skill-setup">Book-to-Skill - Book to Agent Skill Converter Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/samber-devrel-skills-setup">Samber DevRel Skills - Open Source Growth Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/layerai-skills-setup">Layer Skills - AI Game Asset Creation Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ae-cli-skills-setup">AE-CLI Skills - AgenticEngine Platform Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/coinos-trading-skills-setup">Coinos Skills - AiCoin Crypto Trading Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/asmartbear-skills-setup">A Smart Bear Skills - Positioning &amp; PMF Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/make-skills-setup">Make Skills - Automation Platform Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/picsart-gen-ai-skills-setup">Picsart Gen-AI Skills - Generative Media Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/digital-marketing-pro-setup">Digital Marketing Pro - AI Marketing OS Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/kangarooking-skills-setup">Kangarooking Skills - Agent Harness Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/frontend-god-mode-setup">Frontend God Mode - Design Skills Bundle Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/jezweb-skills-setup">Jezweb Skills - 96-Skill Web Dev &amp; Design Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/omniroute-skills-setup">OmniRoute Skills - 70.9K⭐ AI Gateway Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/rlaope-oh-my-hermes-setup">rlaope Oh My Hermes - 130-Skill All-in-One Plugin Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/react-native-update-skill-setup">React Native Update Skill - OTA Update Integration Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/dboeckli-ai-agent-skills-setup">Dboeckli AI Agent Skills - CLI &amp; Best Practices Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/fission-openspec-skills-setup">OpenSpec Skills - Spec-Driven Development Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/riekelt-principal-engineer-setup">Riekelt Principal Engineer - Engineering Discipline Suite Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup">01coder Agent Skills - Content, Publishing &amp; Security Toolkit Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/steipete-agent-scripts-setup">Steipete Agent Scripts - Portable Agent Skills &amp; Helpers Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/callicrate-skills-setup">Callicrate Skills - AGENTS.md &amp; Documentation Authoring Setup</a></li>
+<li><strong>Platform teams building agent-to-agent workflows</strong> gate a call on a trust decision instead of invoking every discovered endpoint blind.</li>
+<li><strong>Operators running multi-agent orchestrations</strong> screen a newly discovered endpoint for health and reliability before assigning it work.</li>
+<li><strong>Security and risk teams</strong> add an evidence-based pre-call check in front of third-party agents, complementing their own policy.</li>
+<li><strong>Marketplace and registry operators</strong> attach a trust signal to listed agents so consumers see observed behavior, not just a description.</li>
+<li><strong>Anyone auditing an agent supply chain</strong> records the trust decision that preceded each external agent call.</li>
 </ul>
 
 
@@ -11205,7 +10334,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   

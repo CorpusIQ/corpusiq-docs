@@ -16328,5 +16328,180 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-02T11:37:59.020292+00:00"
+  },
+  {
+    "repo": "dark0danger/Falkrona",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578958+00:00"
+  },
+  {
+    "repo": "jacobhausler/hermes-workflows",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578972+00:00"
+  },
+  {
+    "repo": "0xcjl/autoresearch-pro",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578974+00:00"
+  },
+  {
+    "repo": "FlyingViet/Hermes",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578976+00:00"
+  },
+  {
+    "repo": "Awenforever/hermes-weekly-briefing",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578978+00:00"
+  },
+  {
+    "repo": "Org-Mio/Org-Mio",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578979+00:00"
+  },
+  {
+    "repo": "UCR-Research-Computing/ursa-bifrost",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578981+00:00"
+  },
+  {
+    "repo": "firedesiresa-bit/EveAi-TBH-Tool",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578982+00:00"
+  },
+  {
+    "repo": "netflypsb/buzdev-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578984+00:00"
+  },
+  {
+    "repo": "kurumi1ksllq/hermes-self-audit",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578986+00:00"
+  },
+  {
+    "repo": "randall-inc/dabloons-integrations",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578987+00:00"
+  },
+  {
+    "repo": "hermes-hq/hodios-dist",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578989+00:00"
+  },
+  {
+    "repo": "nanobro/hermes-agent-upstream-fixes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T05:03:08.578990+00:00"
+  },
+  {
+    "repo": "CHOGEORUK/orbit-hermes-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278707+00:00"
+  },
+  {
+    "repo": "liamsmith86/talaria-webui",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278718+00:00"
+  },
+  {
+    "repo": "chandra447/pi-hermes-memory",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278719+00:00"
+  },
+  {
+    "repo": "gyogaswara/gugi-os-dashboard",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278720+00:00"
+  },
+  {
+    "repo": "hermes-hq/hodios",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278721+00:00"
+  },
+  {
+    "repo": "MissiaL/travel-search-ru-mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278722+00:00"
+  },
+  {
+    "repo": "rmax-ai/hermes-mcp-gateway",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278723+00:00"
+  },
+  {
+    "repo": "mprilepov/viraldecoder-hermes-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278724+00:00"
+  },
+  {
+    "repo": "alexscarano/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278725+00:00"
+  },
+  {
+    "repo": "dato-bitar/Spark-Hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278727+00:00"
+  },
+  {
+    "repo": "kaivaryn/Spark-Hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278728+00:00"
+  },
+  {
+    "repo": "Dr-SoloDev/Lab-solocorp-os2.4",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-03T10:03:35.278730+00:00"
   }
 ]
