@@ -115,6 +115,9 @@
     "description": "For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps",
     "url": "https://www.corpusiq.io/docs/how-it-works/mcp-architecture",
     
+    "datePublished": "2026-10-03",
+    "dateModified": "2026-10-03",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -137,7 +140,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-03">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10522,7 +10525,7 @@ limiting, data normalization, and the skills engine.</p>
         v
 https://mcp2.corpusiq.io/mcp   &lt;-- CorpusIQ MCP server
         |
-        +-- Connector layer (31 connectors)
+        +-- Connector layer (40+ connectors)
         |       Shopify, QuickBooks, GA4, HubSpot, Meta Ads,
         |       Klaviyo, Stripe, Slack, Gmail, and 20+ more.
         |       Each connector holds an encrypted OAuth token
@@ -10540,7 +10543,7 @@ https://mcp2.corpusiq.io/mcp   &lt;-- CorpusIQ MCP server
 </code></pre></div>
 <hr />
 <h2 id="the-connector-layer">The connector layer<a class="headerlink" href="#the-connector-layer" title="Anchor link to this section">&para;</a></h2>
-<p>Each of CorpusIQ's 31 connectors is an isolated module that:</p>
+<p>Each of CorpusIQ's 40+ connectors is an isolated module that:</p>
 <ol>
 <li>Holds one encrypted OAuth token per user account.</li>
 <li>Exposes a set of typed MCP tools (e.g. <code>get_orders</code>, <code>list_campaigns</code>,
