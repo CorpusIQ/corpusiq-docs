@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential.">
+        <meta name="description" content="Read-only remote MCP endpoint that connects any MCP client to a Twelfth workspace using an OAuth user token or a workspace bearer key.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/sweeps">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/twelfth-mcp">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>MCP Ecosystem Sweeps - CorpusIQ Docs</title>
+    <title>Twelfth MCP - Read-Only Workspace Access</title>
   
 
     
@@ -51,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/sweeps">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/twelfth-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="MCP Ecosystem Sweeps - CorpusIQ Docs">
-  <meta property="og:description" content="Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential.">
+  <meta property="og:title" content="Twelfth MCP - Read-Only Workspace Access">
+  <meta property="og:description" content="Read-only remote MCP endpoint that connects any MCP client to a Twelfth workspace using an OAuth user token or a workspace bearer key.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MCP Ecosystem Sweeps - CorpusIQ Docs">
-  <meta name="twitter:description" content="Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential.">
+  <meta name="twitter:title" content="Twelfth MCP - Read-Only Workspace Access">
+  <meta name="twitter:description" content="Read-only remote MCP endpoint that connects any MCP client to a Twelfth workspace using an OAuth user token or a workspace bearer key.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,12 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "MCP Ecosystem Sweeps - CorpusIQ Docs",
-    "description": "Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential.",
-    "url": "https://www.corpusiq.io/docs/hermes/mcp/sweeps",
-    
-    "datePublished": "2026-10-03",
-    "dateModified": "2026-10-03",
+    "name": "Twelfth MCP - Read-Only Workspace Access",
+    "description": "Read-only remote MCP endpoint that connects any MCP client to a Twelfth workspace using an OAuth user token or a workspace bearer key.",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/twelfth-mcp",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +133,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-03">
+  <meta name="last-updated" content="">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -176,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mcp-ecosystem-sweeps" class="md-skip">
+        <a href="#twelfth-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -192,7 +189,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -212,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MCP Ecosystem Sweeps - CorpusIQ Docs
+              Twelfth MCP - Read-Only Workspace Access
             
           </span>
         </div>
@@ -330,7 +327,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -360,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -10133,10 +10130,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#recent-sweeps" class="md-nav__link">
+  <a href="#why-this-matters-for-operators" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Recent Sweeps
+        Why This Matters for Operators
       
     </span>
   </a>
@@ -10144,10 +10141,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#purpose" class="md-nav__link">
+  <a href="#connect" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Purpose
+        Connect
       
     </span>
   </a>
@@ -10155,10 +10152,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#all-pages" class="md-nav__link">
+  <a href="#limitations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All Pages
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#can-an-agent-write-to-twelfth-through-this-endpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can an agent write to Twelfth through this endpoint?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-should-i-use-this-instead-of-the-first-party-connectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When should I use this instead of the first-party connectors?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-authenticate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I authenticate?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related
       
     </span>
   </a>
@@ -10185,472 +10243,36 @@
   
 
 
-<h1 id="mcp-ecosystem-sweeps">MCP Ecosystem Sweeps<a class="headerlink" href="#mcp-ecosystem-sweeps" title="Anchor link to this section">&para;</a></h1>
-<p>Automated discovery of MCP servers and tools from across the ecosystem. These sweeps run daily and catalog new MCP servers, their capabilities, and integration potential.</p>
-<h2 id="recent-sweeps">Recent Sweeps<a class="headerlink" href="#recent-sweeps" title="Anchor link to this section">&para;</a></h2>
-<p>The sweep reports document newly discovered MCP servers, categorized by business function and evaluated for integration with the CorpusIQ platform.</p>
+<h1 id="twelfth-mcp">Twelfth MCP<a class="headerlink" href="#twelfth-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Hosted MCP server</strong> - Twelfth exposes a read-only MCP endpoint so any client that speaks MCP can connect to a workspace, even clients not covered by Twelfth's named integrations.</p>
+<div class="highlight"><pre><span></span><code>Server type: Hosted (remote)
+Auth: OAuth user token or workspace bearer key
+Endpoint: https://api.twelfth.ai/mcp
+Category: Productivity
+Built by: Twelfth (twelfth.ai)
+</code></pre></div>
+<h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
+<p>Twelfth ships first-party setup for Claude, ChatGPT, Gemini, Grok, Glean and Cursor, but the generic MCP endpoint is the escape hatch for everything else: a custom agent, an internal tool, an IDE the vendor has not listed. It is read-only and accepts either an OAuth user token or a workspace bearer key, so a workspace admin can hand an agent scoped read access to the workspace's data without building a bespoke integration.</p>
+<p>For an operator standardizing on MCP, a vendor that publishes a client-agnostic endpoint is the low-friction case. Setup lives under Settings, AI and agents, Generic MCP in the workspace, which keeps the connection path inside the product rather than a support ticket.</p>
+<h2 id="connect">Connect<a class="headerlink" href="#connect" title="Anchor link to this section">&para;</a></h2>
+<p>Point any MCP client at <code>https://api.twelfth.ai/mcp</code>, authenticating with an OAuth user token or a workspace bearer key. Reach the setup guide from Settings, AI and agents, Generic MCP inside Twelfth.</p>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-evening">MCP Server Discovery - October 3, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-midday">MCP Server Discovery - October 3, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-morning">MCP Server Discovery - October 3, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-late-supplement">MCP Server Discovery - October 2, 2026 (Late Supplement Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-evening">MCP Server Discovery - October 2, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-morning">MCP Server Discovery - October 2, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-evening">MCP Server Discovery - October 1, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-midday-supplement">MCP Server Discovery - October 1, 2026 (Midday Supplement)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-midday">MCP Server Discovery - October 1, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-morning">MCP Server Discovery - October 1, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-evening">MCP Server Discovery - September 30, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-midday">MCP Server Discovery - September 30, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-morning">MCP Server Discovery - September 30, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-late-evening">MCP Server Discovery - September 29, 2026 (Late Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-evening">MCP Server Discovery - September 29, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-midday">MCP Server Discovery - September 29, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-morning">MCP Server Discovery - September 29, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-night">MCP Server Discovery - September 28, 2026 (Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-evening">MCP Server Discovery - September 28, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-midday">MCP Server Discovery - September 28, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-morning">MCP Server Discovery - September 28, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september27-2026-evening">MCP Server Discovery - September 27, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september15-2026-midday">MCP Server Discovery - September 15, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september15-2026-morning">MCP Server Discovery - September 15, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september14-2026-evening">MCP Server Discovery - September 14, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september14-2026-midday">MCP Server Discovery - September 14, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september12-2026-midday">MCP Server Discovery - September 12, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september12-2026-night">MCP Server Discovery - September 12, 2026 (Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september12-2026-morning">MCP Server Discovery - September 12, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september11-2026-evening">MCP Server Discovery - September 11, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september11-2026-midday">MCP Server Discovery - September 11, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september11-2026-night">MCP Server Discovery - September 11, 2026 (Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september10-2026-late-night">MCP Server Discovery - September 10, 2026 (Late-Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september10-2026-midday">MCP Server Discovery - September 10, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september10-2026-night">MCP Server Discovery - September 10, 2026 (Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september9-2026-night">MCP Server Discovery - September 9, 2026 (Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september9-2026-evening">MCP Server Discovery - September 9, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september9-2026-morning">MCP Server Discovery - September 9, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september8-2026-night">MCP Server Discovery - September 8, 2026 (Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september8-2026-morning">MCP Server Discovery - September 8, 2026 (Morning Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september8-2026-evening">MCP Server Discovery - September 8, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-night">MCP Server Discovery - September 7, 2026 (Night Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-midday">MCP Server Discovery - September 7, 2026 (Midday Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-evening">MCP Server Discovery - September 7, 2026 (Evening Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-day">MCP Server Discovery - September 7, 2026 (Day Sweep)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september5-2026-morning">Sweep Report - September 5, 2026 (Morning) - CorpusIQ Docs</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september4-2026-night">Sweep Report - September 4, 2026 - CorpusIQ Docs</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september4-2026-evening">Sweep Report - September 4, 2026 (Evening) - CorpusIQ Docs</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september3-2026-morning">Sweep Report - September 3, 2026 - CorpusIQ Docs</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september3-2026-evening">Sweep Report - September 3, 2026 - CorpusIQ Docs</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september2-2026-night">Sweep Report - September 2, 2026 - CorpusIQ Docs</a></li>
+<li>Read-only; no write or action tools.</li>
+<li>Requires a Twelfth workspace and a valid token or key.</li>
+<li>Data visible to the agent is bounded by the workspace and the token's scope.</li>
 </ul>
-<h2 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Anchor link to this section">&para;</a></h2>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="can-an-agent-write-to-twelfth-through-this-endpoint">Can an agent write to Twelfth through this endpoint?<a class="headerlink" href="#can-an-agent-write-to-twelfth-through-this-endpoint" title="Anchor link to this section">&para;</a></h3>
+<p>No. The endpoint is read-only by design.</p>
+<h3 id="when-should-i-use-this-instead-of-the-first-party-connectors">When should I use this instead of the first-party connectors?<a class="headerlink" href="#when-should-i-use-this-instead-of-the-first-party-connectors" title="Anchor link to this section">&para;</a></h3>
+<p>Use it when your client is not covered by Twelfth's named integrations. The endpoint is client-agnostic.</p>
+<h3 id="how-do-i-authenticate">How do I authenticate?<a class="headerlink" href="#how-do-i-authenticate" title="Anchor link to this section">&para;</a></h3>
+<p>With an OAuth user token or a workspace bearer key; setup is under Settings, AI and agents, Generic MCP.</p>
+<h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Discovery</strong>: Find new MCP servers as they emerge</li>
-<li><strong>Categorization</strong>: Group servers by business domain (finance, marketing, sales, etc.)</li>
-<li><strong>Integration assessment</strong>: Evaluate server quality and business utility</li>
-<li><strong>Trend tracking</strong>: Monitor MCP ecosystem growth and direction</li>
-</ul>
-<p>These sweeps power the MCP server guides found in the <a href="https://www.corpusiq.io/docs/hermes/mcp/servers">servers</a> directory.</p>
-<h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-afternoon">MCP Directory Sweep Report - Aug 26, 2026 (Afternoon)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-midday">MCP Directory Sweep Report - Aug 26, 2026 (Midday)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-night">MCP Directory Sweep Report - Aug 26, 2026 (Night)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug27-2026-evening">MCP Directory Sweep Report - Aug 27, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug27-2026-morning">MCP Directory Sweep Report - Aug 27, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august10-2026-evening">MCP Sweep - August 10, 2026 (Evening Follow-Up)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august10-2026">MCP Sweep - August 10, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august11-2026-evening">MCP Sweep - August 11, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august11-2026-midday">MCP Server Sweep - August 11, 2026 (Midday)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august11-2026-overnight">MCP Sweep - August 11, 2026 (Overnight)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august12-2026-afternoon">MCP Sweep - August 12, 2026 (Afternoon)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august12-2026-evening">MCP Sweep - August 12, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august12-2026">MCP Sweep - August 12, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august13-2026-evening">MCP Sweep - August 13, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august13-2026-midday">MCP Sweep - August 13, 2026 (Midday)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august13-2026-morning">MCP Sweep - August 13, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august17-2026-evening">MCP Server Discovery Sweep - August 17, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august18-2026-afternoon">Sweep Report - August 18, 2026 (Afternoon Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august18-2026-evening">Sweep Report - August 18, 2026 (Evening Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august18-2026-morning">Sweep Report - August 18, 2026 (Morning Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august19-2026-afternoon">Sweep Report - August 19, 2026 (Afternoon Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august19-2026-morning">Sweep Report - August 19, 2026 (Morning Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august20-2026-evening">MCP Discovery Sweep - August 20, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august20-2026-morning">MCP Discovery Sweep - August 20, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august20-2026-overnight">MCP Discovery Sweep - August 20, 2026 (Overnight)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august21-2026-afternoon">MCP Discovery Sweep - August 21, 2026 (Afternoon)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august21-2026-morning">MCP Discovery Sweep - August 21, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august21-2026-overnight">MCP Discovery Sweep - August 21, 2026 (Overnight)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august22-2026-docs-maintenance">MCP Discovery Sweep - August 22, 2026 (Docs Maintenance)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august22-2026-evening">MCP Discovery Sweep - August 22, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august22-2026-morning">MCP Discovery Sweep - August 22, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august22-2026-overnight">MCP Discovery Sweep - August 22, 2026 (Overnight)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august23-2026-evening">MCP Discovery Sweep - August 23, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august23-2026-morning">MCP Discovery Sweep - August 23, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august23-2026-night">MCP Discovery Sweep - August 23, 2026 (Night)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august23-2026-overnight">MCP Discovery Sweep - August 23, 2026 (Overnight)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august24-2026-evening">Sweep Report - August 24, 2026 (evening cron sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august24-2026-midday">Sweep Report - August 24, 2026 (midday cron sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august24-2026-morning">MCP Discovery Sweep - August 24, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august25-2026-evening">Sweep Report - August 25, 2026 (evening cron sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august25-2026-morning">Sweep Report - August 25, 2026 (morning cron sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august25-2026-night">MCP Discovery Sweep - August 25, 2026 (Night)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august28-2026-evening">Sweep Report - August 28, 2026 (Evening Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august29-2026-midday">Sweep Report - August 29, 2026 (Midday Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august29-2026-morning">Sweep Report - August 29, 2026 Morning Cron Sweep</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august29-2026-night">Sweep Report - August 29, 2026 (Night Cron Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august30-2026-midday">MCP Discovery Sweep - August 30, 2026 (Midday)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august30-2026-night">MCP Discovery Sweep - August 30, 2026 (Night)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august31-2026-afternoon">Sweep Report - August 31, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august31-2026-evening">Sweep Report - August 31, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august31-2026-morning">MCP Discovery Sweep - August 31, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july19-2026">MCP Server Sweep - July 19, 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july20-2026">MCP Server Sweep - July 20, 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july21-2026-evening">MCP Server Sweep - July 21, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july21-2026-late-night">MCP Server Sweep - July 21, 2026 (Late Night)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july22-2026-cron">MCP Server Sweep - July 22-23, 2026 (Cron Discovery)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july22-2026-evening">MCP Server Sweep - July 22, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july22-2026">MCP Server Sweep - July 22, 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july23-2026-cron">MCP Cron Sweep - July 23, 2026</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july23-2026-cron">MCP Server Sweep - July 23, 2026 (Cron)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july24-2026-cron-2">MCP Server Sweep - July 24, 2026 (Cron Run 2)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july24-2026-cron">MCP Server Sweep - July 24, 2026 (Cron)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july25-2026-afternoon">MCP Sweep - July 25, 2026 Afternoon (11:00 AM MST)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july25-2026-evening">MCP Sweep - July 25, 2026 Evening (6:00 PM MST / July 26</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july26-2026-afternoon">MCP Sweep - July 26, 2026 (Afternoon Cron - ~18:00 UTC)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july26-2026-cron">MCP Sweep - July 26, 2026 (Cron - ~12:00 UTC)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july26-2026-evening">MCP Sweep - July 26, 2026 (Evening - ~22:00 UTC)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july27-2026-evening">MCP Server Sweep - July 27, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july27-2026-midday">MCP Server Sweep - July 27, 2026 (Mid-Day)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july27-2026-morning">MCP Server Sweep - July 27, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july28-2026-afternoon">MCP Server Sweep - July 28, 2026 (Afternoon)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july28-2026-morning">MCP Server Sweep - July 28, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july29-2026-afternoon">Sweep Report - July 29, 2026 (Afternoon)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july29-2026-morning">Sweep Report - July 29, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july30-2026-afternoon">MCP Sweep - July 30, 2026 (Afternoon)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july30-2026-morning">Sweep Report - July 30, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july31-2026-early">MCP Sweep - July 31, 2026 (Early Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-evening">MCP Server Discovery - October 1, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-midday-supplement">MCP Server Discovery - October 1, 2026 (Midday Supplement)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-midday">MCP Server Discovery - October 1, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-morning">MCP Server Discovery - October 1, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-evening">MCP Server Discovery - October 2, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-late-supplement">MCP Server Discovery - October 2, 2026 (Late Supplement)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-morning">MCP Server Discovery - October 2, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-evening">MCP Server Discovery - October 3, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-midday">MCP Server Discovery - October 3, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-morning">MCP Server Discovery - October 3, 2026 (Morning)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september1-2026-midday">Sweep Report - September 1, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september1-2026-morning">Sweep Report - September 1, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september1-2026-night">MCP Server Discovery - September 1, 2026 (Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september10-2026-late-night">MCP Server Discovery - September 10, 2026 (Late-Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september10-2026-midday">MCP Server Discovery - September 10, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september10-2026-night">MCP Server Discovery - September 10, 2026 (Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september11-2026-evening">MCP Server Discovery - September 11, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september11-2026-midday">MCP Server Discovery - September 11, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september11-2026-night">MCP Server Discovery - September 11, 2026 (Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september12-2026-midday">MCP Server Discovery - September 12, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september12-2026-morning">MCP Server Discovery - September 12, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september12-2026-night">MCP Server Discovery - September 12, 2026 (Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september14-2026-evening">MCP Server Discovery - September 14, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september14-2026-midday">MCP Server Discovery - September 14, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september15-2026-midday">MCP Server Discovery - September 15, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september15-2026-morning">MCP Server Discovery - September 15, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september2-2026-morning">MCP Server Discovery - September 2, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september2-2026-night">Sweep Report - September 2, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september27-2026-evening">MCP Server Discovery - September 27, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-evening">MCP Server Discovery - September 28, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-midday">MCP Server Discovery - September 28, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-morning">MCP Server Discovery - September 28, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september28-2026-night">MCP Server Discovery - September 28, 2026 (Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-evening">MCP Server Discovery - September 29, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-late-evening">MCP Server Discovery - September 29, 2026 (Late Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-midday">MCP Server Discovery - September 29, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september29-2026-morning">MCP Server Discovery - September 29, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september3-2026-evening">Sweep Report - September 3, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september3-2026-morning">Sweep Report - September 3, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-evening">MCP Server Discovery - September 30, 2026 (Evening)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-midday">MCP Server Discovery - September 30, 2026 (Midday)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-morning">MCP Server Discovery - September 30, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september30-2026-night">MCP Server Discovery - September 30, 2026 (Night)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september4-2026-evening">Sweep Report - September 4, 2026 (Evening) - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september4-2026-night">Sweep Report - September 4, 2026 - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september5-2026-morning">Sweep Report - September 5, 2026 (Morning) - CorpusIQ Docs</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-day">MCP Server Discovery - September 7, 2026 (Day Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-evening">MCP Server Discovery - September 7, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-midday">MCP Server Discovery - September 7, 2026 (Midday Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september7-2026-night">MCP Server Discovery - September 7, 2026 (Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september8-2026-evening">MCP Server Discovery - September 8, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september8-2026-morning">MCP Server Discovery - September 8, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september8-2026-night">MCP Server Discovery - September 8, 2026 (Night Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september9-2026-evening">MCP Server Discovery - September 9, 2026 (Evening Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september9-2026-morning">MCP Server Discovery - September 9, 2026 (Morning Sweep)</a></p>
-</li>
-<li>
-<p><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-september9-2026-night">MCP Server Discovery - September 9, 2026 (Night Sweep)</a></p>
-</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">External MCP Server Catalog</a> - the curated catalog</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/sweeps">MCP Ecosystem Sweeps</a> - all sweep reports</li>
 </ul>
 
 
@@ -10730,7 +10352,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
