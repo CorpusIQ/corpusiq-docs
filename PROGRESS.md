@@ -1,19 +1,19 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
-last_updated: "2026-09-30"
+last_updated: "2026-10-02"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated September 30, 2026)
+## File count (updated October 2, 2026)
 
 - **Total Markdown files:** 2591
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 534 setup guides for Hermes skills (measured: *setup*.md under hermes/skills); marketplace index tracks 1,021+ curated skills
+- **Skills catalog:** 541 setup guides for Hermes skills (measured: *setup*.md under hermes/skills; Oct 2, 2026, skills-monitor sweep added 3 publisher guides - 01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills; prior 534 baseline was stale) (measured: *setup*.md under hermes/skills); marketplace index tracks 1,021+ curated skills
 - **MCP servers:** 1047 total .md under hermes/mcp/; external catalog 762 servers (+648 guides) per Sep 30 evening sweep
 - **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
