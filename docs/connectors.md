@@ -157,6 +157,34 @@ CorpusIQ adds new connectors regularly. You can request new connectors through t
 
 Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators.
 
+## Connector setup guides
+
+Each connector has a dedicated setup guide with required scopes, example questions, and a plain-English walkthrough. Jump straight to the tool you use:
+
+[ActiveCampaign](/connectors/activecampaign) · [Adzviser (alternative)](/connectors/adzviser-alternative)
+[Ahrefs](/connectors/ahrefs) · [Airtable](/connectors/airtable)
+[Amazon Seller](/connectors/amazon_seller) · [Calendly](/connectors/calendly)
+[Close](/connectors/close) · [Constant Contact](/connectors/constantcontact)
+[Azure Cosmos DB](/connectors/cosmosdb) · [Dropbox](/connectors/dropbox)
+[eBay](/connectors/ebay) · [Meta (Facebook, Instagram, Ads)](/connectors/facebook_marketing)
+[GA4](/connectors/ga4) · [GoHighLevel (LeadConnector)](/connectors/gohighlevel)
+[Google Ads](/connectors/google_ads) · [Google Workspace](/connectors/google_workspace)
+[GunBroker](/connectors/gunbroker) · [HubSpot](/connectors/hubspot)
+[IMAP Email](/connectors/imap) · [IndexNow](/connectors/indexnow)
+[Klaviyo](/connectors/klaviyo) · [LinkedIn Ads](/connectors/linkedin-ads)
+[Mailchimp](/connectors/mailchimp) · [Monday.com](/connectors/monday)
+[MongoDB](/connectors/mongodb) · [Microsoft SQL Server (MSSQL)](/connectors/mssql)
+[Notion](/connectors/notion) · [Odoo](/connectors/odoo)
+[OneDrive](/connectors/onedrive) · [Outlook](/connectors/outlook)
+[PostgreSQL](/connectors/postgres) · [PostHog](/connectors/posthog)
+[Postscript](/connectors/postscript) · [QuickBooks](/connectors/quickbooks)
+[Google Search Console](/connectors/search-console) · [Semrush](/connectors/semrush)
+[Shopify](/connectors/shopify) · [Slack](/connectors/slack)
+[Stripe](/connectors/stripe) · [TikTok](/connectors/tiktok)
+[YouTube](/connectors/youtube)
+
+Looking for something not in this list? See [how to connect a new data source](#how-do-i-connect-a-new-data-source) or browse the [full connector directory](https://corpusiq.io/connectors).
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
