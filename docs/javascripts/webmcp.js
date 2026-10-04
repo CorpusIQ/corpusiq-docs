@@ -1,13 +1,14 @@
 // WebMCP (W3C Community Group draft, webmachinelearning.github.io/webmcp):
-// register read-only CorpusIQ docs tools for agentic browsers via
-// navigator.modelContext.registerTool(). No-op when the API is absent.
+// register read-only CorpusIQ docs tools for agentic browsers.
+// Current Chrome exposes document.modelContext; older drafts exposed
+// navigator.modelContext - resolve both, no-op when neither is present.
 // Tools are read-only and return only public docs content.
 (function () {
-  if (typeof navigator === 'undefined' || !('modelContext' in navigator)) {
-    return; // WebMCP not available in this browser
-  }
-  var mc = navigator.modelContext;
-  if (!mc || typeof mc.registerTool !== 'function') return;
+  if (typeof document === 'undefined') return;
+  var mc = (document && document.modelContext)
+        || (typeof navigator !== 'undefined' && navigator.modelContext)
+        || null;
+  if (!mc || typeof mc.registerTool !== 'function') return; // WebMCP not available in this browser
 
   var DOCS_BASE = '/docs';
   var SEARCH_INDEX = DOCS_BASE + '/search/search_index.json';
