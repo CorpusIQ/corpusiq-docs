@@ -1,9 +1,9 @@
 ---
-title: "Hermes Agent Marketplace - 440+ Tools & Resources"
+title: "Hermes Agent Marketplace - 192+ Tools & Resources"
 description: "Complete directory of Hermes Agent tools, MCP servers, skills, SDKs, and community resources. The largest collection agents the internet. 232 specialized a."
 canonical: "https://www.corpusiq.io/docs/hermes/agent-marketplace/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-04"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -80,4 +80,4 @@ Agents provide the personality and workflow. CorpusIQ provides the real data. To
 
 ---
 
-*Part of the [CorpusIQ Hermes ecosystem](https://github.com/CorpusIQ/corpusiq-docs) - 341+ repos indexed.*
+*Part of the [CorpusIQ Hermes ecosystem](https://github.com/CorpusIQ/corpusiq-docs) - 192+ repos indexed.*
