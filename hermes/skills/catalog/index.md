@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-02"
+last_updated: "2026-10-04"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -679,3 +679,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [01coder Agent Skills - Content, Publishing & Security Toolkit Setup](/hermes/skills/catalog/01coder-agent-skills-setup)
 - [Steipete Agent Scripts - Portable Agent Skills & Helpers Setup](/hermes/skills/catalog/steipete-agent-scripts-setup)
 - [Callicrate Skills - AGENTS.md & Documentation Authoring Setup](/hermes/skills/catalog/callicrate-skills-setup)
+- [CrewAI Skills - Official Agent Design Suite Setup](/hermes/skills/catalog/crewai-skills-setup)
