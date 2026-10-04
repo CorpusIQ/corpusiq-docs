@@ -57,10 +57,10 @@ Two tightly-scoped developer skills with bundled analyzer/validator scripts: `ag
 | oakencore/skillvet | skillvet | 113 → cluster combined 143 |
 | purpleliu/siyuan-mcp | siyuan-skill | 104 → cluster combined 108 |
 
-Publisher follow-ups confirmed all four clusters sit below the 100-install combined floor (fanthus 241, oakencore 143, jontsai 118, purpleliu 108) — none qualify for a guide. `oakencore/skillvet` is a security-testing harness (trigger/false-positive fixtures); `fanthus/agent-skills` and `jontsai/openclaw-command-center` are OpenClaw-adjacent.
+Publisher follow-ups confirmed all four clusters sit below the 100-install combined floor (fanthus 241, oakencore 143, jontsai 118, purpleliu 108) - none qualify for a guide. `oakencore/skillvet` is a security-testing harness (trigger/false-positive fixtures); `fanthus/agent-skills` and `jontsai/openclaw-command-center` are OpenClaw-adjacent.
 
 ## Notes
 
-- All three guide candidates verified via GitHub trees API + repo meta API on their default branch (`main`) — none were previously documented.
+- All three guide candidates verified via GitHub trees API + repo meta API on their default branch (`main`) - none were previously documented.
 - No roster reconciles this run; the PARTIAL >=100 backlog (223 rows) remains deferred.
-- Sweep tooling note: `rg -o` with many `-e` alternatives reports the leftmost match, so a short pattern (`hermes`) masks longer ones (`hermes-agent`). The sweep script now re-probes any collected name that is a substring of another — see the catalog maintenance skill.
+- Sweep tooling note: `rg -o` with many `-e` alternatives reports the leftmost match, so a short pattern (`hermes`) masks longer ones (`hermes-agent`). The sweep script now re-probes any collected name that is a substring of another - see the catalog maintenance skill.

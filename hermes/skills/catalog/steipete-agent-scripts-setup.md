@@ -63,7 +63,7 @@ Discovery rules enforced by `sync-skills`:
 | xurl | 104 | X/Twitter via xurl CLI |
 | mac-maintenance | 102 | macOS maintenance routines |
 
-*…plus 41 more indexed skills in the 2–101 install range (github deep-review, cloudflare-registrar, whatsapp, ssh-doctor, wrangler, twilio-sms, reminders, fleet-maintenance, and others).*
+*…plus 41 more indexed skills in the 2 - 101 install range (github deep-review, cloudflare-registrar, whatsapp, ssh-doctor, wrangler, twilio-sms, reminders, fleet-maintenance, and others).*
 
 ## CorpusIQ Use Cases
 
@@ -77,6 +77,6 @@ Discovery rules enforced by `sync-skills`:
 ## Limitations / Verification
 
 - skills.sh indexing verified Oct 2, 2026: 61 indexed listings; 54 SKILL.md files verified via the GitHub trees API on branch `main`.
-- Some skills are macOS/Apple-platform specific (`swiftui-*`, `instruments-profiling`, `native-app-performance`, `xcode-sync`) — not portable to Linux agents.
-- Several skills mirror third-party CLIs (`1password`/`one-password` appear as duplicates; `xurl`, `wrangler`, `twilio-sms` are wrappers) — the repo is a routing layer, not the upstream tool.
+- Some skills are macOS/Apple-platform specific (`swiftui-*`, `instruments-profiling`, `native-app-performance`, `xcode-sync`) - not portable to Linux agents.
+- Several skills mirror third-party CLIs (`1password`/`one-password` appear as duplicates; `xurl`, `wrangler`, `twilio-sms` are wrappers) - the repo is a routing layer, not the upstream tool.
 - No live install test performed; install counts are from the Oct 2, 2026 sweep snapshot.

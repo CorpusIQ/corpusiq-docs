@@ -1,5 +1,5 @@
 ---
-title: "01coder Agent Skills - Content, Publishing & Security Toolkit"
+title: "01coder Agent Skills - Content, Publishing & Security"
 description: "VerySmallWoods' 01coder marketplace: Chinese content creation, multi-platform publishing, subtitle tooling, and security scanning. 21.5K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup/"
 robots: "index,follow"
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "content", "publishing", "c
 **Category:** Content / Publishing / Media
 **Quality Tier:** 🟡 Beta (author-tested, actively maintained; Chinese-first content workflows, some skills language-specific)
 
-01coder Agent Skills is a marketplace by VerySmallWoods aimed at content creators who publish across X, Substack, 知识星球 (Zsxq), YouTube, and Bilibili. It combines Chinese-language writing and video production workflows with multi-platform publishing skills and a small security-scanning cluster. The install base is dominated by a single domain-specific outlier (`china-stock-analysis`, 12.6K) — treat the combined total as narrower than the headline number.
+01coder Agent Skills is a marketplace by VerySmallWoods aimed at content creators who publish across X, Substack, 知识星球 (Zsxq), YouTube, and Bilibili. It combines Chinese-language writing and video production workflows with multi-platform publishing skills and a small security-scanning cluster. The install base is dominated by a single domain-specific outlier (`china-stock-analysis`, 12.6K) - treat the combined total as narrower than the headline number.
 
 ---
 
@@ -49,7 +49,7 @@ Claude Code native marketplace:
 | share-reading | 431 | Draft social posts recommending an article/paper across X, Substack, Zsxq |
 | interactive-input | 431 | Interactive input handling for agent workflows |
 | personal-chinese-writing-style | 375 | Personal ZH writing-style preferences (punctuation, structure, voice) |
-| fpl-copilot | 284 | Fantasy Premier League copilot — local SQLite, HTML reports, captain picks |
+| fpl-copilot | 284 | Fantasy Premier League copilot - local SQLite, HTML reports, captain picks |
 | personal-writing-style | 283 | Personal EN writing-style preferences |
 | cover-image | 282 | Hand-drawn article cover generator (17 styles, 10 layouts) |
 | slides-video | 279 | Slide generation + script → slides-driven narration video |
@@ -76,6 +76,20 @@ Claude Code native marketplace:
 ## Limitations / Verification
 
 - skills.sh indexing verified Oct 2, 2026: 27 indexed listings; 23 SKILL.md files verified via the GitHub trees API on branch `main`.
-- **Install concentration:** `china-stock-analysis` alone accounts for 12,619 of the 21,505 combined installs (~59%). The content/publishing skills sit in the 150–600 range.
-- Several skills are Chinese-language-first (`personal-chinese-writing-style`, `publish-zsxq-article`, `tweet-insight`) — verify fit before adoption in EN-only workflows.
+- **Install concentration:** `china-stock-analysis` alone accounts for 12,619 of the 21,505 combined installs (~59%). The content/publishing skills sit in the 150 - 600 range.
+- Several skills are Chinese-language-first (`personal-chinese-writing-style`, `publish-zsxq-article`, `tweet-insight`) - verify fit before adoption in EN-only workflows.
 - No live install test performed; install counts are from the Oct 2, 2026 sweep snapshot.
+
+## FAQ
+
+### What is 01coder Agent Skills?
+
+A marketplace-style skill family from VerySmallWoods (sugarforever on GitHub) covering Chinese-first content creation, multi-platform publishing, video production, and project security scanning. 23 SKILL.md files, about 21.5K combined installs across indexed listings.
+
+### Which 01coder skills are worth installing first?
+
+The publishing trio (publish-substack-article, publish-x-article, publish-zsxq-article) and subtitle-correction are the most transferable. china-stock-analysis is the most installed but is a domain outlier, not representative of the family.
+
+### Are the security-scan skills safe to run?
+
+They are static scans (Next.js Security Scan, Python Security Scan) that report findings and make no live environment changes. As with any third-party skill, review it before installing; no live install test was performed for this page.

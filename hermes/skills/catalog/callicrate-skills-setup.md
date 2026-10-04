@@ -13,9 +13,9 @@ tags: ["hermes skill", "agent skill", "skill setup", "agents.md", "documentation
 **Skill family:** `callicrate/skills` (2 SKILL.md files in-repo; 2 indexed listings)
 **Combined Installs:** ~2,921 across indexed listings (Oct 2, 2026 snapshot)
 **Category:** Developer Tooling / Documentation
-**Quality Tier:** 🔵 Community (high installs on a brand-new low-star repo; no LICENSE file in-repo — verify provenance before production reliance)
+**Quality Tier:** 🔵 Community (high installs on a brand-new low-star repo; no LICENSE file in-repo - verify provenance before production reliance)
 
-Callicrate publishes two tightly-scoped developer skills. `agents-md` creates, updates, reviews, and validates repository `AGENTS.md` files; `make-documentation` writes READMEs, architecture notes, changelogs, runbooks, and install docs. Both ship analyzer/validator scripts and pytest fixtures, and both are explicit about when NOT to trigger — a sign of deliberate scope discipline rather than a grab-bag.
+Callicrate publishes two tightly-scoped developer skills. `agents-md` creates, updates, reviews, and validates repository `AGENTS.md` files; `make-documentation` writes READMEs, architecture notes, changelogs, runbooks, and install docs. Both ship analyzer/validator scripts and pytest fixtures, and both are explicit about when NOT to trigger - a sign of deliberate scope discipline rather than a grab-bag.
 
 ---
 
@@ -28,7 +28,7 @@ npx skills add callicrate/skills
 Individual skill directories can be worked on locally:
 
 ```bash
-cd agents-md        # or make-documentation
+cd agents-md # or make-documentation
 python -m pytest
 ```
 
@@ -50,6 +50,6 @@ python -m pytest
 ## Limitations / Verification
 
 - skills.sh indexing verified Oct 2, 2026: 2 indexed listings; 2 SKILL.md files verified via the GitHub trees API on branch `main`.
-- **Repo has 1 star and no LICENSE file.** Install counts (1,482 / 1,439) are high relative to the repo's community traction — treat as unverified provenance. Check the repository's terms before commercial use.
-- Skills invoke bundled Python scripts (`analyze_project.py`, `validate_agentsmd.py`, `audit_documentation.py`) — review these before running against internal repos.
+- **Repo has 1 star and no LICENSE file.** Install counts (1,482 / 1,439) are high relative to the repo's community traction - treat as unverified provenance. Check the repository's terms before commercial use.
+- Skills invoke bundled Python scripts (`analyze_project.py`, `validate_agentsmd.py`, `audit_documentation.py`) - review these before running against internal repos.
 - No live install test performed; install counts are from the Oct 2, 2026 sweep snapshot.
