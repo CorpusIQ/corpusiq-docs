@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Resources - Tools, Skills, MCP Servers & Deployment Knowledge
+title: Hermes Agent Resources - Tools, Skills & MCP Servers
 description: "A curated collection of Hermes Agent resources: MCP servers, skills, memory systems, deployment patterns, and community tools. Everything you need to build"
 category: Documentation
 tags:
@@ -8,7 +8,7 @@ tags:
   - production-deployment
   - ai-agent-architecture
   - mcp-ecosystem
-last_updated: "2026-08-19"
+last_updated: "2026-10-04"
 canonical: "https://www.corpusiq.io/docs/hermes/"
 robots: "index,follow"
 
@@ -26,7 +26,7 @@ robots: "index,follow"
 
 <p align="center">
   <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/Submit_a_Repo-Add_your_resource-brightgreen" alt="Submit"></a>
-  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/docs/hermes/ecosystem/"><img src="https://img.shields.io/badge/Ecosystem-670+_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/docs/hermes/ecosystem/"><img src="https://img.shields.io/badge/Ecosystem-192+_repos-blue" alt="Ecosystem"></a>
   <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/Star_us-Contribute-gold" alt="Star"></a>
 </p>
 
@@ -51,7 +51,7 @@ The [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) cover in
 
 This repository fills that gap:
 
-- **440+ repos** indexed across 18 categories - MCP servers, agent personalities, skills, blueprints
+- **192+ repos** indexed across 14 categories - MCP servers, agent personalities, skills, blueprints
 - **Memory stack guides** - Honcho + GBrain + memcore-cloud triple stack for persistent agent memory
 - **Deployment patterns** - single machine, multi-machine, Docker, systemd, model routing strategies
 - **Skill directory** - find reusable agent workflows from agentskills.io, skills.sh, and the community
@@ -200,13 +200,29 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 | [mission-control](https://github.com/builderz-labs/mission-control) | 3.7K+ | Multi-agent fleet management |
 | Hermes Agency | - | P2P agent collaboration |
 
-**[Full ecosystem directory](ecosystem)** - 670+ repos indexed across 18 categories (139 approved, 531 pending review), updated daily. 93 skills catalogued, 190+ tools indexed.
+**[Full ecosystem directory](ecosystem)** - 192+ repos indexed across 14 categories (187 auto-approved, community review welcome), updated daily.
 
 ---
 
 ## Contributing
 
 [Submit a repo, skill, or MCP server](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml). This is a community resource. If you built something useful for Hermes, add it here.
+
+---
+
+## FAQ
+
+**What is this repository?**
+A community-curated directory of Hermes Agent resources: MCP servers, skills, memory systems, deployment patterns, and production guides that the official docs do not cover.
+
+**How often is the ecosystem directory updated?**
+The discovery engine scans GitHub daily and refreshes the [ecosystem directory](ecosystem) automatically.
+
+**How do I add my project?**
+Open an issue with the [submit-repo template](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml) and include the repo URL and a one-line description.
+
+**How do I install a skill listed here?**
+Run `npx skills add <owner/repo@skill>`. Full instructions live in the [Skills Marketplace](skills/marketplace/index).
 
 ---
 
