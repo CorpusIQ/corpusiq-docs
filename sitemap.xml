@@ -2125,6 +2125,10 @@
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/adrio-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/adtest-mcp</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
@@ -3625,7 +3629,15 @@
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkintel-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkonda-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/listar-mcp</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
@@ -4153,6 +4165,10 @@
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/phonescreen-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/phonotheca-mcp</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
@@ -4285,6 +4301,10 @@
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/pumpgtm-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/purrplan-mcp</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
@@ -4398,6 +4418,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/registry-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/relaypdf-mcp</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
@@ -5201,6 +5225,10 @@
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/x1-wealth-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/xactions-mcp</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
@@ -5254,6 +5282,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/zensched-mcp</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/zensei-mcp</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
@@ -5618,6 +5650,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-morning</loc>
+         <lastmod>2026-10-04</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october4-2026-midday</loc>
          <lastmod>2026-10-04</lastmod>
     </url>
     <url>
