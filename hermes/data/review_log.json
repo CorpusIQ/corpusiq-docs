@@ -16503,5 +16503,145 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-03T10:03:35.278730+00:00"
+  },
+  {
+    "repo": "loggger101/Hermes_Skills",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794171+00:00"
+  },
+  {
+    "repo": "winagainfinigin/Lattice-Vale",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794180+00:00"
+  },
+  {
+    "repo": "Steck43/capability-gate",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794181+00:00"
+  },
+  {
+    "repo": "kishanmundha/agent-session-inspector",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794182+00:00"
+  },
+  {
+    "repo": "api-evangelist/aureliusagent-dev",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794183+00:00"
+  },
+  {
+    "repo": "anshdhawann/hermes-compact-context",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794184+00:00"
+  },
+  {
+    "repo": "majkel2403/Jarvis-",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794185+00:00"
+  },
+  {
+    "repo": "Magi-Labs/memory-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794186+00:00"
+  },
+  {
+    "repo": "guiboratto/hermes-agent-bootstrap",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794188+00:00"
+  },
+  {
+    "repo": "eygelias/Hermes-Custom-Skills",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794189+00:00"
+  },
+  {
+    "repo": "Veshyka/mianmian-hermes",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794190+00:00"
+  },
+  {
+    "repo": "ipanalytics/Hermes-Plugin-Pack",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794191+00:00"
+  },
+  {
+    "repo": "kylemasson/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794193+00:00"
+  },
+  {
+    "repo": "dsmithnh3/scarf",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794194+00:00"
+  },
+  {
+    "repo": "zhiru/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794194+00:00"
+  },
+  {
+    "repo": "guedesdiogo/kelpie",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794195+00:00"
+  },
+  {
+    "repo": "PRATHAMESH75/hermes-base",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794197+00:00"
+  },
+  {
+    "repo": "vijaycinn/hermes-railway",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794197+00:00"
+  },
+  {
+    "repo": "denizmizmiz/hermes-office-skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794198+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-compression-eval",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-04T23:26:34.794199+00:00"
   }
 ]
