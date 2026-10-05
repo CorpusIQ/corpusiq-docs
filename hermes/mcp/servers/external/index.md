@@ -11,7 +11,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 4, 2026 (evening sweep) · **Sources:** mcp.so /feed (29 server blocks) + mcpservers.org /all (page 1) via the r.jina.ai reader proxy · **Catalog:** 812 servers (+698 guides)
+> **Last updated:** October 5, 2026 (morning sweep) · **Sources:** mcp.so /feed (29 server blocks) + mcpservers.org /all (page 1) via the r.jina.ai reader proxy · **Catalog:** 814 servers (+700 guides)
+
+## 🆕 October 5, 2026 - Morning Sweep (2 New, 2 Guides)
+
+Morning sweep over the mcp.so `/feed` (29 server blocks via the r.jina.ai reader proxy) and mcpservers.org `/all` page 1 via the reader proxy, with detail pages fetched for every candidate, endpoints probed live, and repo-wide cross-referencing against the catalog and every prior sweep ledger. Two new business-relevant entries, each catalogued with a guide: the AI receptionist layer for small and local businesses, and a federal contract opportunity radar for government-facing operators.
+
+- [Vocenya MCP - Business Calls, Leads and Bookings](/hermes/mcp/servers/external/vocenya-mcp/) · remote Streamable HTTP at `vocenya.com/mcp/platform` with OAuth 2.1 (PKCE, dynamic client registration) or a scoped organization API key, connecting an assistant to one Vocenya business account: read calls, leads, bookings and chats, add a lead from another system with an optional AI callback, queue compliant outbound AI callbacks and manage the Do Not Call list, all under the same checks as every Vocenya call (DNC, consent on record, 8am-8pm local hours, daily limits); three of the nine tools write, HIPAA-mode accounts never return transcripts or chat messages, and public keyless companion servers sit at /mcp/docs and /mcp/site. Live probe: POST initialize returns 401 (auth-gated).
+- [GovContract Radar MCP - Federal Contract Alerts](/hermes/mcp/servers/external/gov-contract-radar-mcp/) · Streamable HTTP at `gov.pixharvest.com/mcp` with an open keyless initialize handshake (server v1.2.0), filtering new U.S. federal solicitations from SAM.gov by NAICS code and set-aside status (8(a), SDVOSB, WOSB, HUBZone) with response deadlines and agency details on every card; two tools (`search_opportunities`, `get_opportunity`), hourly sync via GovConAPI with a SAM fallback every 6 hours, presolicitations and special notices as early signals, and optional daily email digests; Starter $19/mo with a 7-day free trial, Pro $49/mo, Radar+ $149/mo, npm `gov-contract-radar-mcp` (MIT).
+
+**Also identified (not catalogued):** on the mcp.so feed, ramen (self-hosted multi-zone MCP framework for Kubernetes on GKE and EKS) and AdLoop Cloud (hosted ad management with preview-before-change controls) stand as the October 4 evening holds; every other feed entry was a prior-sweep repeat or disposition, including the four servers catalogued October 4 (InstaVision, Instant Expert, The Company Atlas, GEN) still in the recency window. On the mcpservers.org /all surface, every other entry on page 1 was a prior disposition from the October 4 and earlier ledgers (CardVolume, Remnant Memory, TypeFire, UK Planning, BKK Staff, ADEXTO, aka-recht, TableProof, SanctionsKit developer MCP, Call2Me, Tiny Plates, Raltan, HumanEndpoint, Atomic Reps, Memory-mcp, Estimatiz, QuerySail GSC, Pagerender, ROOTE, UGC Africa, WoWSQL and the username-fragment 404 shells) or one of the four catalogued October 4.
 
 ## 🆕 October 4, 2026 - Evening Sweep (4 New, 4 Guides)
 
@@ -6511,6 +6520,13 @@ Evening sweep sourced from the mcp.so /servers listing (60 slugs) and mcpservers
 - [RelayPDF MCP - PDF Generation and Extraction](/hermes/mcp/servers/external/relaypdf-mcp)
 
 Midday sweep sourced from the mcp.so /feed (30 server blocks, direct fetch) and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 8 new business-relevant servers catalogued with guides: Zensei (keyless sector-rotation index), X1 Wealth (cited family-office records), Adrio (ad research and creative angles), PumpGTM (AI SDR outreach from your own accounts), PhoneScreen (AI hiring and screening), Listar (verified B2B contact data), LinkIntel (social post performance evidence) and RelayPDF (PDF generate-convert-edit-extract). Everframe, Bitculator, InsumerAPI, Traceable and the consumer, crypto, dev-utility, agent-memory and saturated-class sets logged as identified-not-catalogued; the rest of both surfaces were prior-sweep repeats.
+
+### 2 new servers from mcp.so feed + mcpservers.org /all - Oct 5, 2026 (morning sweep)
+
+- [Vocenya MCP - Business Calls, Leads and Bookings](/hermes/mcp/servers/external/vocenya-mcp)
+- [GovContract Radar MCP - Federal Contract Alerts](/hermes/mcp/servers/external/gov-contract-radar-mcp)
+
+Morning sweep sourced from the mcp.so /feed (29 server blocks via the r.jina.ai reader proxy) and mcpservers.org /all page 1 via the reader proxy. 2 new business-relevant servers catalogued with guides: Vocenya MCP (AI receptionist calls, leads, bookings and compliant outbound callbacks) and GovContract Radar MCP (U.S. federal contract opportunities from SAM.gov with NAICS and set-aside filtering). The rest of both surfaces were prior-sweep repeats and holds (ramen, AdLoop Cloud).
 
 Morning sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy.
 Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.ai reader proxy) and mcpservers.org /all (30 slugs) via the reader proxy. 3 new business-relevant servers catalogued with guides: eCFR.io MCP (US federal regulations with citations), Find Your Role First MCP (job search across 13,000+ career sites) and apMZoomAI MCP (Dongdaemun wholesale market search). FL Studio MCP, Scentrev MCP and THC Open Mindfulness MCP logged as identified-not-catalogued; the rest of the feed and /all were prior-sweep repeats.
