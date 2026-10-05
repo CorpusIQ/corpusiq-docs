@@ -16643,5 +16643,110 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-04T23:26:34.794199+00:00"
+  },
+  {
+    "repo": "sbrejnev988-coder/pplx-decider-review",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020776+00:00"
+  },
+  {
+    "repo": "yzy806806/agora",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020788+00:00"
+  },
+  {
+    "repo": "CaravelaLabs/CaravelaWinDesktop",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020791+00:00"
+  },
+  {
+    "repo": "Alexbob0/BipAgents",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020794+00:00"
+  },
+  {
+    "repo": "xraysight/hermes-memory-ui",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020795+00:00"
+  },
+  {
+    "repo": "getkimchi/kimchi-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020797+00:00"
+  },
+  {
+    "repo": "WOOWTECH/Woow_ha_mcp_addons",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020799+00:00"
+  },
+  {
+    "repo": "MdSadman2004/hermes-orchestrator",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020801+00:00"
+  },
+  {
+    "repo": "JuanCG13/time-strike",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020802+00:00"
+  },
+  {
+    "repo": "dewhush/pathfinder-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020804+00:00"
+  },
+  {
+    "repo": "orderthan31/hermes-to-dots-bridge-mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020806+00:00"
+  },
+  {
+    "repo": "rapha-red/linkedin-plugin",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020808+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-plugin-blender",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020809+00:00"
+  },
+  {
+    "repo": "TIME-FACTOR/Hermes-Agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020811+00:00"
+  },
+  {
+    "repo": "EiSiMo/conduit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-05T10:04:59.020813+00:00"
   }
 ]
