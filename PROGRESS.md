@@ -1,20 +1,20 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
-last_updated: "2026-10-04"
+last_updated: "2026-10-05"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated October 4, 2026)
+## File count (updated October 5, 2026)
 
-- **Total Markdown files:** 2591
+- **Total Markdown files:** 2693
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 543 setup guides for Hermes skills (measured: *setup*.md under hermes/skills; Oct 4 evening, skills-monitor sweep added 1 publisher guide - Moonlight Lupin Agent Skills (un-parked after growth re-check); Oct 4 morning added 1 - CrewAI Skills (crewAIInc/skills); Oct 2 added 3 - 01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills; prior 534 baseline was stale) (measured: *setup*.md under hermes/skills); marketplace index tracks 1,075+ curated skills
-- **MCP servers:** 1047 total .md under hermes/mcp/; external catalog 762 servers (+648 guides) per Sep 30 evening sweep
+- **MCP servers:** 1133 total .md under hermes/mcp/; external catalog 825 servers (+711 guides) per Oct 5 midday supplement sweep
 - **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -40,6 +40,8 @@ The repo is actively maintained with daily automated updates:
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Docs maintenance ✅ (Oct 5, 2026, docs-mgmt cron):** routine audit. Production link audit: 1,973 absolute links, 0 404s. Internal link resolver: 16,733 links checked; 368 static hits all resolve to 13 site-absolute marketing targets (/blog, /compare, /features, /mcp, /connect/*) - verified HTTP 200 on both hosts, 0 truly broken. All 13 server guides from today's sweeps verified live HTTP 200 on docs.corpusiq.io (Vocenya, GovContract Radar, Signal Six, Dataddo Data to AI, Undercart, RouterGrowth, SeekAPI, Kapa, Accountable, Nearius, Sitegoalie, Plain Freight, ScrapeAtlas). Fixed the final 3 stray-star footer artifacts (CONTRIBUTING.md, roadmap/README.md, changelog/README.md) missed by the Sep 15 repo-wide sweep - repro check now 0. Fixed 1 dead external link in chrome-devtools-mcp-skills-setup.md (modelcontextprotocol.io/docs/learn/security 404 -> specification/2025-06-18/basic/security_best_practices, 200 verified). Cleared the last stale release figure on hermes/ecosystem/index.md (v0.20.0 June -> v0.21.5 September 2026). External sample spot-check: 60 URLs; non-200s all expected (auth-gated MCP endpoints 401/405, placeholder domains, localhost examples). Frontmatter: all valid. PII scan clean. Retention gate PASS. PROGRESS.md stats refreshed (2,693 MD, 1,133 hermes/mcp .md, 825 external servers +711 guides, 543 setup guides). docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod -> Oct 5.
 
 - **Docs maintenance ✅ (Sep 30, 2026, docs-mgmt cron):** routine audit. Repo-internal broken links: 0 (7,750 checked via cross-directory resolver; 7,464 cross-site marketing links correctly excluded). Frontmatter quote defects: 0. PII scan: 0 hits. Connector-count scan: clean. Stale top-level docs/ SEO pages: 0 (last bumped Sep 29). PROGRESS.md header stats refreshed to current: total Markdown 2591 (was 4658), hermes/mcp 1047 (was 1023), external catalog 762 servers (+648 guides) per Sep 30 evening sweep (was 745/+631), marketplace 1,021+ (was 1,013+), docs subdirs 21 (was 12). docs/hermes-sitemap.xml + docs/sitemap-index.xml lastmod refreshed to Sep 30.
 
@@ -97,7 +99,7 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: September 3, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: October 5, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 
 ## FAQ
 
