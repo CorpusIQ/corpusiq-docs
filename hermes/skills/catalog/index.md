@@ -680,3 +680,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Steipete Agent Scripts - Portable Agent Skills & Helpers Setup](/hermes/skills/catalog/steipete-agent-scripts-setup)
 - [Callicrate Skills - AGENTS.md & Documentation Authoring Setup](/hermes/skills/catalog/callicrate-skills-setup)
 - [CrewAI Skills - Official Agent Design Suite Setup](/hermes/skills/catalog/crewai-skills-setup)
+- [Moonlight Lupin Agent Skills - Hermes Skill Suite Setup](/hermes/skills/catalog/moonlight-lupin-agent-skills-setup)
