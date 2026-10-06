@@ -1,6 +1,20 @@
 {
   "cleanUrls": false,
   "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/docs/assets/:path*",
+      "destination": "/assets/:path*"
+    },
+    {
+      "source": "/docs/javascripts/:path*",
+      "destination": "/javascripts/:path*"
+    },
+    {
+      "source": "/docs/stylesheets/:path*",
+      "destination": "/stylesheets/:path*"
+    }
+  ],
   "redirects": [
     {
       "source": "/connectors.html",
