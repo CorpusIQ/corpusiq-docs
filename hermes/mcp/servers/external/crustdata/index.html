@@ -10594,6 +10594,27 @@ Cross-references job postings, social activity, and company updates for competit
       
     
   <script>
+    // Give the search toggle checkbox an accessible name.
+    //
+    // Lighthouse's agentic-browsing category fails "Form elements must have
+    // labels" on <input id="__search" type="checkbox"> (base.html line 100).
+    // The theme pairs it with <label class="md-search__overlay" for="__search">
+    // but that label has no text, so the control's accessible name is empty.
+    //
+    // Fixed here rather than in a template override on purpose: base.html is a
+    // 259-line core template, the checkbox is not inside any overridable block,
+    // and the Material team's own advisory says MkDocs 2.0 will break theme
+    // overrides outright. Forking core for one attribute is the worse trade.
+    // The aria-label is set only when absent, so it becomes a no-op the moment
+    // upstream labels the control itself.
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggle = document.querySelector('input.md-toggle[data-md-toggle="search"]');
+      if (toggle && !toggle.getAttribute('aria-label')) {
+        toggle.setAttribute('aria-label', 'Search');
+      }
+    });
+  </script>
+  <script>
     document.addEventListener('DOMContentLoaded', function() {
       var links = document.querySelectorAll('.md-nav__link');
       for (var i = 0; i < links.length; i++) {
