@@ -104,6 +104,7 @@ These patterns cause the majority of production incidents. Avoid them.
 - **[MCP Design](mcp-design):** MCP server development, tool design, error handling, testing
 - **[Agent Capability Audit](agent-capability-audit):** The 4 must-install capabilities test, audited against a production Hermes stack
 - **[12-Factor Agents](12-factor-agents):** The HumanLayer 12-Factor Agents framework mapped onto Hermes Agent, factor by factor
+- **[Agentic Browsing Audit](agentic-browsing-audit):** Lighthouse's agentic browsing category, the four AI-readiness signals, fix patterns, and a ship-readiness checklist
 
 ## FAQ
 

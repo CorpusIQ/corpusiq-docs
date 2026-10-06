@@ -292,6 +292,7 @@ nav:
     - Skill Dev: hermes/best-practices/skill-development.md
     - MCP Design: hermes/best-practices/mcp-design.md
     - 12-Factor Agents: hermes/best-practices/12-factor-agents.md
+    - Agentic Browsing: hermes/best-practices/agentic-browsing-audit.md
   - Blueprints:
     - Overview: hermes/blueprints/index.md
     - Daily Ops: hermes/blueprints/daily-ops.md
