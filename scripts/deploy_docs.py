@@ -80,8 +80,15 @@ def main():
 
     # 1. Pull latest main
     print("1. Pulling main...")
-    # Generated feed files may be dirty from a previous partial run — discard so pull can rebase
-    run("git checkout -- llms.txt llms-full.txt")
+    # Generated feed files AND the IndexNow cursor may be dirty from a previous
+    # partial run - discard so pull can rebase. .indexnow-last is TRACKED and is
+    # rewritten on every deploy, so before 2026-10-06 it was left dirty 100% of
+    # the time. That made `git pull --rebase` fail every single run with
+    # "cannot pull with rebase", which then tripped the hard-reset branch below
+    # on EVERY deploy - not as a rare recovery, as the normal path. On
+    # 2026-10-06 that silently discarded a real unpushed commit (recovered from
+    # the reflog). Including it here removes the spurious trigger.
+    run("git checkout -- llms.txt llms-full.txt .indexnow-last")
     # Clear any stale rebase/merge state left by an interrupted previous attempt -
     # a half-finished rebase makes checkout/pull behave unpredictably.
     run("git rebase --abort 2>/dev/null; git merge --abort 2>/dev/null; true")
@@ -93,6 +100,17 @@ def main():
     # continue. Previous state is preserved on the auto/reset-backup branch.
     pull_out = run("git pull --rebase origin main")
     if "could not apply" in pull_out or "CONFLICT" in pull_out or "cannot pull with rebase" in pull_out:
+        # Hard-resetting discards ANY local commit not yet pushed. Before
+        # 2026-10-06 this happened silently and looked like a normal recovery.
+        # Always report what is about to be lost, by name, so it is impossible
+        # to lose real work without a line in the deploy log saying so.
+        unpushed = run("git log --oneline origin/main..HEAD").strip()
+        if unpushed:
+            print("   !! WARNING: %d unpushed local commit(s) will be DISCARDED by this reset:"
+                  % len(unpushed.splitlines()))
+            for ln in unpushed.splitlines():
+                print("      " + ln)
+            print("   !! Push them first if they are real work. Backup branch: auto/reset-backup")
         print("   pull --rebase failed; resetting deploy clone to origin/main (backup: auto/reset-backup)")
         run("git rebase --abort")
         run("git branch -f auto/reset-backup HEAD")
