@@ -23,6 +23,7 @@ extra_javascript:
 # and 404. See hooks/absolute_asset_urls.py for the full explanation.
 hooks:
 - hooks/absolute_asset_urls.py
+- hooks/canonical_no_trailing_slash.py
 - scripts/hooks/auto_link_children.py
 - scripts/hooks/truncate_meta_description.py
 markdown_extensions:
