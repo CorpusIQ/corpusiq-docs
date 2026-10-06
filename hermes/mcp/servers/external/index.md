@@ -6649,3 +6649,36 @@ Midday sweep sourced from the mcp.so feed (30 server blocks, direct fetch) and m
 - [AffiliateSpy MCP - Competitor Creator Discovery for Agents](/hermes/mcp/servers/external/affiliatespy-mcp)
 
 Evening sweep sourced from the mcp.so homepage (New arrivals, Featured servers and Trending this week, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 1 new business-relevant server catalogued with a guide: AffiliateSpy MCP (competitor creator and affiliate discovery with 32 tools, OAuth 2.1 or Bearer key, confirm-gated Autopilot). AOI Environmental Intelligence (niche environmental vertical) and Kin (code-graph dev infra, prior skip respected) logged as identified-not-catalogued; the rest of the homepage and /all page 1 were prior sweeps' catalogued or disposed repeats.
+
+## Previously unlinked pages (added 2026-10-06)
+
+Linked from this index so the pages are reachable by crawl.
+
+### External MCP server guides
+
+- [1ClickReport MCP Server Integration Guide](/hermes/mcp/servers/external/1clickreport-mcp)
+- [AIS Memory MCP - CorpusIQ Docs](/hermes/mcp/servers/external/ais-memory-mcp)
+- [Altronis MCP - Singapore AI Consulting Access](/hermes/mcp/servers/external/altronis-mcp)
+- [Argus Testing MCP - Autonomous QA for Web & macOS](/hermes/mcp/servers/external/argus-testing-mcp)
+- [BDE Score MCP - Multi-Factor Stock Scoring API for AI](/hermes/mcp/servers/external/bde-score-mcp)
+- [BuiltWith MCP Server Integration Guide](/hermes/mcp/servers/external/builtwith-mcp)
+- [EU Trade Explorer MCP - European Trade & Industrial Data](/hermes/mcp/servers/external/eu-trade-explorer-mcp)
+- [Engram MCP - Git-Backed Shared Memory Dashboard for AI](/hermes/mcp/servers/external/engram-mcp)
+- [Fixou MCP - French Tradespeople Quote Requests](/hermes/mcp/servers/external/fixou-mcp)
+- [FreshBooks MCP Server Integration Guide](/hermes/mcp/servers/external/freshbooks-mcp)
+- [Index One MCP - CorpusIQ Docs - CorpusIQ Docs](/hermes/mcp/servers/external/indexone-mcp)
+- [Intelligent Growth MCP - Product Marketing AI for](/hermes/mcp/servers/external/intelligent-growth-mcp)
+- [KPI Depot MCP Server Integration Guide](/hermes/mcp/servers/external/kpidepot-mcp)
+- [KoreanAds MCP - Korean Advertising Plans](/hermes/mcp/servers/external/koreanads-mcp)
+- [Linksee Memory MCP - 6-Layer Cross-Agent Memory with](/hermes/mcp/servers/external/linksee-memory)
+- [MCP Server Scan - July 23, 2026](/hermes/mcp/servers/external/scan-results-2026-07-23)
+- [MartinLoop MCP - CorpusIQ Docs](/hermes/mcp/servers/external/martinloop-mcp)
+- [Outstand MCP - CorpusIQ Docs - CorpusIQ Docs](/hermes/mcp/servers/external/outstand-mcp)
+- [Stock Trade Finance MCP - Real-Time Market Data via](/hermes/mcp/servers/external/stock-trade-finance-mcp)
+- [Taplio MCP - LinkedIn Management from AI Agents](/hermes/mcp/servers/external/taplio-mcp)
+- [TaskerArmy Agent MCP - Shopify Optimization Tasks](/hermes/mcp/servers/external/taskerarmy-agent-mcp)
+- [UXON AI MCP - AI-Powered Landing Page Creation for](/hermes/mcp/servers/external/uxon-ai-mcp)
+- [Veezee MCP - LinkedIn, Reddit, and X Data for AI Agents](/hermes/mcp/servers/external/veezee-mcp)
+- [dokumendiregister MCP - Estonian Public Document Search](/hermes/mcp/servers/external/dokumendiregister-mcp)
+- [iGaming Tools MCP - Gaming Industry Reference Data](/hermes/mcp/servers/external/igaming-tools-mcp)
+- [twocents MCP - Human Feedback Loop for AI Agents](/hermes/mcp/servers/external/twocents-mcp)

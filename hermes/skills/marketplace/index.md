@@ -440,3 +440,16 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
   ]
 }
 </script>
+
+## Previously unlinked pages (added 2026-10-06)
+
+Linked from this index so the pages are reachable by crawl.
+
+### Marketplace sweep reports
+
+- [New Skills - August 12, 2026 - CorpusIQ Docs](/hermes/skills/marketplace/new-aug12-2026)
+- [New Skills - July 21, 2026 Marketplace Sweep (Evening)](/hermes/skills/marketplace/new-july21-2026-evening)
+- [New Skills - July 21, 2026 Marketplace Sweep (Update)](/hermes/skills/marketplace/new-july21-2026-update)
+- [New Skills - July 22, 2026 Marketplace Sweep](/hermes/skills/marketplace/new-july22-2026)
+- [New Skills - July 26, 2026 Marketplace Sweep](/hermes/skills/marketplace/new-july26-2026)
+- [New Skills - July 26, 2026 Marketplace Sweep (Update)](/hermes/skills/marketplace/new-july26-2026-update)

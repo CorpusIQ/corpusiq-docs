@@ -682,3 +682,31 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [CrewAI Skills - Official Agent Design Suite Setup](/hermes/skills/catalog/crewai-skills-setup)
 - [Moonlight Lupin Agent Skills - Hermes Skill Suite Setup](/hermes/skills/catalog/moonlight-lupin-agent-skills-setup)
 - [Goldsky Agent Skills - Blockchain Data Pipeline Setup](/hermes/skills/catalog/goldsky-agent-skills-setup)
+
+## Previously unlinked pages (added 2026-10-06)
+
+Linked from this index so the pages are reachable by crawl.
+
+### Skill setup guides
+
+- [Agent Architect - Agent System Design Setup](/hermes/skills/catalog/agent-architect-setup)
+- [Agent Skill Creator - Skill Generation and Templating Setup](/hermes/skills/catalog/agent-skill-creator-setup)
+- [Anthropic Cybersecurity Skills Setup Guide](/hermes/skills/catalog/anthropic-cybersecurity-skills-setup)
+- [Chainlink Agent Skills Setup Guide](/hermes/skills/catalog/chainlink-agent-skills-setup)
+- [ECC - Agent Harness Performance Optimization](/hermes/skills/catalog/ecc-agent-harness-setup)
+- [Hermes Dojo - Self-Improvement System Setup Guide](/hermes/skills/catalog/hermes-dojo-setup)
+- [Hermes Learns Manim - Math Animation Setup Guide](/hermes/skills/catalog/hermes-learns-manim-setup)
+- [Hermes Nextcloud Integration Setup Guide](/hermes/skills/catalog/hermes-nextcloud-setup)
+- [Hermes Plugins (42-evey) Setup Guide](/hermes/skills/catalog/hermes-plugins-42evey-setup)
+- [MCP Client - MCP Client Operations Setup](/hermes/skills/catalog/mcp-client-setup)
+- [Microsoft Workspace Skill Setup Guide](/hermes/skills/catalog/microsoft-workspace-skill-setup)
+- [Obsidian Agent Skills Setup Guide](/hermes/skills/catalog/obsidian-skills-setup)
+- [RunAPI CLI Skill Setup Guide - CorpusIQ Docs](/hermes/skills/catalog/runapi-cli-skill-setup)
+- [Skills.sh Sweep - August 10, 2026](/hermes/skills/catalog/skills-sweep-aug-10-2026)
+- [Skills.sh Sweep - August 11, 2026](/hermes/skills/catalog/skills-sweep-aug-11-2026)
+- [Skills.sh Sweep - August 12, 2026](/hermes/skills/catalog/skills-sweep-aug-12-2026)
+- [agentiko-hermes - Setup Guide - CorpusIQ Docs](/hermes/skills/catalog/agentiko-hermes-setup)
+- [hermes-studio-dashboard - Setup Guide](/hermes/skills/catalog/hermes-studio-dashboard-setup)
+- [html-ppt-hermes-cyber-terminal - Setup Guide](/hermes/skills/catalog/html-ppt-hermes-cyber-terminal-setup)
+- [taste-skill - Design-to-Code & AI Image Generation for](/hermes/skills/catalog/taste-skill-setup)
+- [web-quality-skills - Google-Grade Web Quality Audits](/hermes/skills/catalog/web-quality-skills-setup)
