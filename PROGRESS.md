@@ -1,20 +1,20 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
-last_updated: "2026-10-05"
+last_updated: "2026-10-06"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated October 5, 2026)
+## File count (updated October 6, 2026)
 
-- **Total Markdown files:** 2693
+- **Total Markdown files:** 2723
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 544 setup guides for Hermes skills (measured: *setup*.md under hermes/skills; Oct 5 evening, skills-monitor sweep added 1 publisher guide - Goldsky Agent Skills (goldsky-io/goldsky-agent); Oct 4 evening added 1 - Moonlight Lupin Agent Skills (un-parked after growth re-check); Oct 4 morning added 1 - CrewAI Skills (crewAIInc/skills); Oct 2 added 3 - 01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills; prior 534 baseline was stale) (measured: *setup*.md under hermes/skills); marketplace index tracks 1,076+ curated skills
-- **MCP servers:** 1133 total .md under hermes/mcp/; external catalog 825 servers (+711 guides) per Oct 5 midday supplement sweep
+- **MCP servers:** 1160 total .md under hermes/mcp/; external catalog 849 servers (+735 guides) per Oct 6 midday sweep
 - **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -41,6 +41,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Docs maintenance ✅ (Oct 6, 2026, docs-mgmt cron):** routine audit + sanitization wave. Comprehensive audit: 0 broken links (hermes-internal + cross-directory), 0 missing frontmatter, 0 duplicate descriptions, 0 empty pages; orphan scan clean (asset dirs only); PII scan: 12 publisher-handle references on sweep pages normalized to the public slug, remaining 3 hits confirmed false positives (third-party repo name). Dead-slash structural scan: 5 latent defects fixed (sibling-guide link slashes x3, stale `#-mcp--integrations` anchor -> `#mcp-integrations`, README Connector Guides row) - scanner re-run 0. Ecosystem legend count aligned 190+ -> 192+ (category table sums to 192). All 8 of the day's new MCP guides + the midday sweep page verified live HTTP 200. Two deploys via deploy_docs.py (Vercel OK on both; canonical/sitemap/feed verify gates passed). Commits e719c0054 + 8b83ea679.
 - **Agentic browsing audit page ✅ (Oct 6, 2026):** added `hermes/best-practices/agentic-browsing-audit.md` - the Lighthouse Agentic Browsing standard (llms.txt, WebMCP, accessibility tree, layout stability), fix patterns, and a pre-ship checklist. Wired from the best-practices index and the mkdocs nav.
 - **Docs maintenance ✅ (Oct 5, 2026, docs-mgmt cron):** routine audit. Production link audit: 1,973 absolute links, 0 404s. Internal link resolver: 16,733 links checked; 368 static hits all resolve to 13 site-absolute marketing targets (/blog, /compare, /features, /mcp, /connect/*) - verified HTTP 200 on both hosts, 0 truly broken. All 13 server guides from today's sweeps verified live HTTP 200 on docs.corpusiq.io (Vocenya, GovContract Radar, Signal Six, Dataddo Data to AI, Undercart, RouterGrowth, SeekAPI, Kapa, Accountable, Nearius, Sitegoalie, Plain Freight, ScrapeAtlas). Fixed the final 3 stray-star footer artifacts (CONTRIBUTING.md, roadmap/README.md, changelog/README.md) missed by the Sep 15 repo-wide sweep - repro check now 0. Linked the previously missing mcp-architecture.md row in how-it-works/README.md (section index drift). Fixed 1 dead external link in chrome-devtools-mcp-skills-setup.md (modelcontextprotocol.io/docs/learn/security 404 -> specification/2025-06-18/basic/security_best_practices, 200 verified). Cleared the last stale release figure on hermes/ecosystem/index.md (v0.20.0 June -> v0.21.5 September 2026). External sample spot-check: 60 URLs; non-200s all expected (auth-gated MCP endpoints 401/405, placeholder domains, localhost examples). Frontmatter: all valid. PII scan clean. Retention gate PASS. PROGRESS.md stats refreshed (2,693 MD, 1,133 hermes/mcp .md, 825 external servers +711 guides, 543 setup guides). docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod -> Oct 5.
 
@@ -101,7 +102,7 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: October 5, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: October 6, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 
 ## FAQ
 
