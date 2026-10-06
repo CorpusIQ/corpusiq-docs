@@ -69952,5 +69952,172 @@
     ],
     "discovered_at": "2026-10-06T10:02:55.538890+00:00",
     "status": "pending"
+  },
+  {
+    "name": "shikanime-labs/skills",
+    "url": "https://github.com/shikanime-labs/skills",
+    "description": "A curated catalog of self-improved agent skills for Hermes and compatible agents",
+    "stars": 2,
+    "forks": 1,
+    "language": "Shell",
+    "topics": [
+      "agent-skills",
+      "ai",
+      "automation",
+      "hermes"
+    ],
+    "updated_at": "2026-10-06T10:06:51Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "Romanescu11/hermes-skill-factory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "izillionways/academic-research-skills-hermes",
+      "crispyb0i/hermes-operator-pack",
+      "LordVaderXIII/grok-connectors",
+      "Undermybelt/hermes-skills-research",
+      "0451-software/research-skills",
+      "BBridgeers/hermes-skills",
+      "awesome-hermes-agent",
+      "Anil-matcha/awesome-hermes-agent",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-10-06T10:08:17.961729+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "qwe5283/hermes-reply-timeout",
+    "url": "https://github.com/qwe5283/hermes-reply-timeout",
+    "description": "Hermes Agent plugin: per-chat reply timeout with stateless intent classification",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-06T10:05:31Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-06T10:08:17.965382+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "iap/pstack-hermes",
+    "url": "https://github.com/iap/pstack-hermes",
+    "description": "pstack. Poteto mode for Hermes Agent",
+    "stars": 6,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "hermes-plugin",
+      "poteto-mode",
+      "pstack"
+    ],
+    "updated_at": "2026-10-06T10:04:19Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-06T10:08:17.966790+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sheenazien8/hunk",
+    "url": "https://github.com/sheenazien8/hunk",
+    "description": "Before you push, review your changes. Built for a simple, browser-based Git workflow that fits perfectly with AI agents like OpenClaw and Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-06T10:04:16Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "iOfficeAI/AionUi",
+      "NVIDIA/NemoClaw",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "yang1989haoa-gif/synapse-studio",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "Infisical/agent-vault",
+      "conorbronsdon/avoid-ai-writing",
+      "agentrq/agentrq"
+    ],
+    "discovered_at": "2026-10-06T10:08:17.968321+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "capthvnsen/alans-way-agents",
+    "url": "https://github.com/capthvnsen/alans-way-agents",
+    "description": "Hermes \u2014 Alan's Way agent plugin: proactivity, workspace browser tools, and Mac/VPS auto-routing for your Hermes bots",
+    "stars": 0,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "hermes",
+      "hermes-plugin",
+      "mac",
+      "proactivity",
+      "self-hosted",
+      "telegram",
+      "vps",
+      "workspace"
+    ],
+    "updated_at": "2026-10-06T10:03:56Z",
+    "category": "core",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-10-06T10:08:17.969810+00:00",
+    "status": "pending"
   }
 ]
