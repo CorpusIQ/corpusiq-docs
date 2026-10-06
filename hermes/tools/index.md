@@ -132,7 +132,7 @@ Hermes supports these model providers natively:
 
 [Full MCP Guide →](/hermes/mcp) · [Ecosystem →](/hermes/ecosystem)
 
-CorpusIQ MCP alone provides 53 tools across 40+ business platforms. Additional MCP servers listed in the [ecosystem page](/hermes/ecosystem/#-mcp--integrations).
+CorpusIQ MCP alone provides 53 tools across 40+ business platforms. Additional MCP servers listed in the [ecosystem page](/hermes/ecosystem#mcp-integrations).
 
 ---
 

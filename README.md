@@ -77,7 +77,7 @@ last_updated: "2026-09-28"
 |---------|---------------|
 | **[Quickstart](https://www.corpusiq.io/docs/quick-start/)** | Create account → connect AI → first query in 5 minutes |
 | **[Prompt Library](/hermes/prompts/)** | Battle-tested prompts for executives, marketers, operators |
-|| **[Connector Guides](/connectors/)** | Setup walkthroughs for all 40+ integrations |
+| **[Connector Guides](/connectors)** | Setup walkthroughs for all 40+ integrations |
 | **[How It Works](https://www.corpusiq.io/docs/how-it-works/)** | MCP architecture, privacy, rate limits, skills system |
 | **[Hermes Community Hub](/hermes/)** | 130+ pages: autonomous agents, skills catalog, infrastructure |
 | **[Troubleshooting](https://www.corpusiq.io/docs/troubleshooting/)** | Common issues, error codes, OAuth fixes |

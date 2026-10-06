@@ -106,4 +106,4 @@ Yes. The vendor offers an on-premise deployment for data sovereignty.
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)
 - [TaiLexi AI MCP - Taiwan Legal Research for Agents](/hermes/mcp/servers/external/tailexi-mcp/)
 - [CourtListener MCP - US Legal Research for Agents](/hermes/mcp/servers/external/courtlistener-mcp/)
-- [Lawstronaut MCP - Global Legal & Regulatory Document Access for AI Agents](/hermes/mcp/servers/external/lawstronaut-mcp/)
+- [Lawstronaut MCP - Global Legal & Regulatory Document Access for AI Agents](/hermes/mcp/servers/external/lawstronaut-mcp)

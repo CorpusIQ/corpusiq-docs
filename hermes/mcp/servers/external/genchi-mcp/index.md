@@ -101,5 +101,5 @@ Yes. It works in Claude, ChatGPT, Grok and any other MCP-compatible assistant.
 
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Structured Project Memory MCP - Project Context for Agents](/hermes/mcp/servers/external/spm-structured-project-memory/)
-- [Coding Agent PM MCP - Project Management for Coding Agents](/hermes/mcp/servers/external/coding-agent-pm-mcp/)
+- [Structured Project Memory MCP - Project Context for Agents](/hermes/mcp/servers/external/spm-structured-project-memory)
+- [Coding Agent PM MCP - Project Management for Coding Agents](/hermes/mcp/servers/external/coding-agent-pm-mcp)
