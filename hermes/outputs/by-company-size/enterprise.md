@@ -250,7 +250,7 @@ Yes. Enterprise deployments use primary/standby instances with heartbeat monitor
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit)  --  SOC 2, HIPAA, and GDPR evidence collection
 - [Hermes Agent for Government](../case-studies/government)  --  FedRAMP and public sector compliance
 - [Hermes Agent for Financial Services](../case-studies/financial-services)  --  SOX controls and regulatory filing
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

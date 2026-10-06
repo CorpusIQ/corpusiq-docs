@@ -25,5 +25,5 @@ or execute anything inside them.
 ## Related
 
 - [Security Best Practices for Hermes Agent](../best-practices/security) - token and credential management, least-privilege access, and audit logging
-- [Integrations](../integrations/index) - platform integrations and read-only connector patterns
+- [Integrations](../integrations/index.md) - platform integrations and read-only connector patterns
 - [Privacy and Security](https://www.corpusiq.io/docs/how-it-works/privacy-and-security/) - architecture, compliance, and data handling

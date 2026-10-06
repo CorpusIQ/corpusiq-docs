@@ -158,7 +158,7 @@ Hermes connects to time tracking and billing systems through database connectors
 - [Hermes Agent for Government](../case-studies/government)  --  FOIA processing and public records management
 - [Hermes Agent for Professional Services](../case-studies/professional-services)  --  Time tracking and invoicing automation
 - [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  Security, segregation of duties, and audit logging
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

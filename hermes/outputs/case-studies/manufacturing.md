@@ -186,7 +186,7 @@ If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects direc
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline and forecasting automation
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market)  --  Multi-department orchestration
 - [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  Security and governance at scale
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

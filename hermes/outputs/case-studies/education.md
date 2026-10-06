@@ -138,7 +138,7 @@ Yes. Hermes skills extract required statistics from institutional data systems, 
 - [Hermes Agent for Nonprofit Organizations](../case-studies/nonprofit)  --  Impact reporting and grant tracking
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit)  --  Evidence collection and regulatory compliance
 - [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  Security and data residency for large institutions
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

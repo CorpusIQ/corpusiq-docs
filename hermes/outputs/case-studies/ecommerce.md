@@ -138,7 +138,7 @@ Hermes skills can be configured with currency conversion logic and region-specif
 - [Hermes Agent for Manufacturing](../case-studies/manufacturing)  --  Supply chain and inventory monitoring
 - [Hermes Agent for Real Estate](../case-studies/real-estate)  --  Multi-platform listing management
 - [Hermes Agent for Startups](../by-company-size/startup)  --  Lean ecommerce automation for early-stage
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

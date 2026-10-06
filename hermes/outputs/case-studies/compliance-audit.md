@@ -163,7 +163,7 @@ Hermes enforces minimum necessary access at the connector level, logs all PHI ac
 - [Hermes Agent for Financial Services](../case-studies/financial-services)  --  Regulatory filing automation and fraud detection
 - [Hermes Agent for Government](../case-studies/government)  --  FOIA processing and public records compliance
 - [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  SOC 2, segregation of duties, and audit-grade logging
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

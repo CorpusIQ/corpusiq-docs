@@ -222,7 +222,7 @@ The discovery engine scans GitHub daily and refreshes the [ecosystem directory](
 Open an issue with the [submit-repo template](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml) and include the repo URL and a one-line description.
 
 **How do I install a skill listed here?**
-Run `npx skills add <owner/repo@skill>`. Full instructions live in the [Skills Marketplace](skills/marketplace/index).
+Run `npx skills add <owner/repo@skill>`. Full instructions live in the [Skills Marketplace](skills/marketplace/index.md).
 
 ---
 

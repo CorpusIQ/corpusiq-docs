@@ -168,7 +168,7 @@ Hermes can draft patient communications for staff review but should not send dir
 - [Hermes Agent for Financial Services](../case-studies/financial-services)  --  Portfolio monitoring and regulatory filing
 - [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  Security architecture and compliance-control patterns at scale
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support)  --  Patient inquiry triage and SLA management
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

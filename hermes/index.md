@@ -12,18 +12,18 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 The largest structured collection of Hermes Agent tools, skills, MCP servers, agents, blueprints, and case studies - all in one organized place. Updated daily.
 
-**Current release:** Hermes Agent v0.21.5 (v2026.9.24, released September 24, 2026). [Changelog](changelog/index).
+**Current release:** Hermes Agent v0.21.5 (v2026.9.24, released September 24, 2026). [Changelog](changelog/index.md).
 
 ## Quick Links
 
 - [Ecosystem Map](ecosystem) - 192+ repos across 14 categories
-- [Agent Library](agents/index) - 10 production agent configurations
-- [Case Studies](outputs/index) - 13 industry case studies
-- [Setup Guides](setup/index) - Deploy on Mac, PC, VPS, Raspberry Pi
-- [Best Practices](best-practices/index) - Cron design, model selection, memory, security
-- [Blueprints](blueprints/index) - Daily ops, customer lifecycle, financial close
-- [Prompts](prompts/index) - Production prompts for code, content, data, business ops
-- [Skills](skills/catalog/index) - Creating and publishing agent skills
+- [Agent Library](agents/index.md) - 10 production agent configurations
+- [Case Studies](outputs/index.md) - 13 industry case studies
+- [Setup Guides](setup/index.md) - Deploy on Mac, PC, VPS, Raspberry Pi
+- [Best Practices](best-practices/index.md) - Cron design, model selection, memory, security
+- [Blueprints](blueprints/index.md) - Daily ops, customer lifecycle, financial close
+- [Prompts](prompts/index.md) - Production prompts for code, content, data, business ops
+- [Skills](skills/catalog/index.md) - Creating and publishing agent skills
 
 ---
 

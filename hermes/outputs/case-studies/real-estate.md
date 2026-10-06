@@ -170,7 +170,7 @@ Hermes can monitor showing requests from calendar systems, email, and showing se
 - [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce)  --  Multi-channel management patterns
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline management and deal tracking
 - [Hermes Agent for Professional Services](../case-studies/professional-services)  --  Client onboarding and status reporting
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

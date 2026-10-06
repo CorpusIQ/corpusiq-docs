@@ -154,7 +154,7 @@ Hermes pulls data from program databases, survey tools, and financial systems to
 - [Hermes Agent for Government](../case-studies/government)  --  Public sector compliance and constituent services
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline management and reporting
 - [Hermes Agent for Startups](../by-company-size/startup)  --  Lean automation for small teams
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

@@ -210,7 +210,7 @@ Yes. Hermes builds standard SaaS revenue waterfalls showing new business, expans
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support)  --  Customer health monitoring and churn signals
 - [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce)  --  Order processing and revenue tracking
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market)  --  Multi-department RevOps orchestration
-- [Hermes Agent Overview](../../index)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
