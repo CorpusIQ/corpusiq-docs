@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-04"
+last_updated: "2026-10-05"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -681,3 +681,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Callicrate Skills - AGENTS.md & Documentation Authoring Setup](/hermes/skills/catalog/callicrate-skills-setup)
 - [CrewAI Skills - Official Agent Design Suite Setup](/hermes/skills/catalog/crewai-skills-setup)
 - [Moonlight Lupin Agent Skills - Hermes Skill Suite Setup](/hermes/skills/catalog/moonlight-lupin-agent-skills-setup)
+- [Goldsky Agent Skills - Blockchain Data Pipeline Setup](/hermes/skills/catalog/goldsky-agent-skills-setup)
