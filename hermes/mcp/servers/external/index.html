@@ -9942,6 +9942,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-6-2026-midday-sweep-8-new-8-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 6, 2026 - Midday Sweep (8 New, 8 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-6-2026-morning-sweep-8-new-8-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -24126,6 +24137,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-6-2026-midday-sweep-8-new-8-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 6, 2026 - Midday Sweep (8 New, 8 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-6-2026-morning-sweep-8-new-8-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -38028,8 +38050,21 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 6, 2026 (morning sweep) · <strong>Sources:</strong> mcp.so /feed (29 server blocks, direct TanStack fetch) + mcpservers.org /all (pages 1-3) via the r.jina.ai reader proxy + chatmcp/mcpso issues #4796-#4805 · <strong>Catalog:</strong> 841 servers (+727 guides)</p>
+<p><strong>Last updated:</strong> October 6, 2026 (midday sweep) · <strong>Sources:</strong> mcp.so /feed (30 server blocks, direct TanStack fetch) + mcpservers.org /all (pages 1-3) via the r.jina.ai reader proxy + chatmcp/mcpso issues #4806-#4819 · <strong>Catalog:</strong> 849 servers (+735 guides)</p>
 </blockquote>
+<h2 id="october-6-2026-midday-sweep-8-new-8-guides">🆕 October 6, 2026 - Midday Sweep (8 New, 8 Guides)<a class="headerlink" href="#october-6-2026-midday-sweep-8-new-8-guides" title="Anchor link to this section">&para;</a></h2>
+<p>Midday sweep over the mcp.so <code>/feed</code> (30 server blocks, direct TanStack fetch), mcpservers.org <code>/all</code> pages 1-3 via the r.jina.ai reader proxy, and the fresh chatmcp/mcpso issue window #4806-#4819, with detail pages fetched for every candidate, endpoints probed live, and every name cross-referenced against the catalog and all prior sweep ledgers. Eight new business-relevant entries, each catalogued with a guide: cited US-listed ETF data, advisor compliance and RIA firm records, live audience Q&amp;A for events, agency workspace operations, the Snov.io sales suite, governed enterprise email archive search, catering and event operations, and US medtech funding and regulatory intelligence.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/etfiq-mcp">ETFIQ MCP - US ETF Data for Model Portfolios</a> · keyless read-only Streamable HTTP at <code>mcp.etfiq.com</code>: 14 tools over US-listed ETFs and benchmarks recomputed nightly from public filings and prices - fund lookup and profiles with source and as-of dates, holdings with lag warnings, full theme sets, screening and a reader over 40,000 published pages; every answer carries a citation and the tools refuse rather than return a near match. Live probe: POST initialize returns 200, no key.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/advisoriq-mcp">AdvisorIQ MCP - Advisor CE and RIA Firm Data</a> · keyless read-only Streamable HTTP at <code>mcp.advisoriq.com</code>: continuing education rules (CFP, CIMA, CPWA, RMA, CIMC, CFA and state IAR CE) with a CE calculator, deadlines, webinars and research, plus Form ADV firm search, profiles, national and state rankings and market data on every US registered investment adviser; every answer cites the official source and checked date. Live probe: POST initialize returns 200, no sign-in.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/askone-mcp">AskOne MCP - Live Q&amp;A and Polls for Events</a> · local stdio via <code>npx -y askone-mcp</code> with an organization API token: start a room, launch polls and quizzes, approve or hide questions, mark them answered, close, then read the questions as a FAQ draft and the results; votes-ranked walls, moderation choice, browser, Zoom and Meet support; the free tier is every feature at one open room and up to 100 participants.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agencyhandy-mcp">Agency Handy MCP - Agency Operations from Chat</a> · hosted Streamable HTTP at <code>mcp.agencyhandy.com</code> or local <code>npx -y agencyhandy-mcp@1</code> with a workspace API key: brief, assign, investigate cash and delivery risk and fill custom fields in an agency workspace - Monday pulses, cash concentration with aging, churn watchlists, proposal triage, smart assignment and CRM actions, with confirmation when a name is ambiguous. Live probe: POST initialize returns 401 (Bearer token required).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/snovio-mcp">Snov.io MCP - B2B Sales and Outreach for Agents</a> · hosted Streamable HTTP at <code>mcp.snov.io/mcp</code> against an existing Snov.io sales account: Lead Finder, Email Verifier, lists and exports, campaigns with domain health and stats, and Unibox replies, with view-only and take-action tool types so sends confirm first. Live probe: POST initialize returns 401 (no bearer token).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/mxhero-mail2cloud-mcp">mxHERO Mail2Cloud MCP - Enterprise Email Search</a> · governed Streamable HTTP at <code>mcp.mxhero.com/mcp2/connect</code> with OAuth on a Mail2Cloud Advanced subscription: read-only search over the organization's captured email archive - message bodies, headers, threads and attachment text with OCR and metadata filtering, tenant-scoped with existing permissions respected, and exactly two capabilities (search archives, get local time). Live probe: POST initialize returns 401.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/gastrosync-mcp">Gastrosync MCP - Catering and Event Operations</a> · hosted Streamable HTTP at <code>gastrosync.com/mcp</code> with OAuth: draft catering events and unsigned quotes from inquiries, prepare kitchen briefings with products, quantities, schedules and packing lists, track open offers and unpaid invoices, and update records after approval. Live probe: POST initialize returns 401 (Unauthorized).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/whimbrel-mcp">Whimbrel MCP - MedTech Funding and Regulatory Data</a> · remote Streamable HTTP at <code>data.whimbrelresearch.com</code> with OAuth and a one-month trial: a US medtech BD analyst - funded companies via NIH and NSF grants and federal contracts, FDA clearances and Breakthrough authorizations, with every line linked to its source. Live probe: POST initialize returns 401 (sign-in required).</li>
+</ul>
+<p><strong>Also identified (not catalogued):</strong> on the mcp.so feed, held or skipped beyond the repeats and prior dispositions from the October 3-6 ledgers: SlickTrip (live flight, hotel and seat prices, consumer travel class per the Chucho Book Direct disposition), PayPerFax (send-a-fax utility, fax utility class per the fax-plus disposition) and Leverage (German real-estate investment analysis, regional single-market class held). On the mcpservers.org /all pages 1-3, held or skipped: Postdom (agent video scheduling and measurement, social-publishing class per the Voholabs hold), Nitrosend (email platform class at saturation per the SendHQ and MepMail precedents), PostSider (open-source social scheduler, same saturated publishing class), Paramount Loan Services (mortgage application filing, consumer lending vertical), Untap (UK refunds and compensation, consumer finance class), GSC Search Insights (prior disposition, GSC and Bing class covered by AgentGrown, RankOrg, Sorank and Encited), plus the neugence, lemonberrylabs and hmp-dev 404-shell class, the isBusinessEmail, Wheremind, Verant, SatoshiMacro, Botrotation, SerpKite, Mekler AI, IceShore, QRCode.Pub and Pinpal prior dispositions, the Scribiz author page (illyism), and the username-shell and repeat remainder. From the fresh chatmcp/mcpso issue window #4806-#4819: Agency Handy and Whimbrel catalogued above; held or skipped: BetBank (sports-betting analytics, consumer gaming class), SpicyAPI (media-generation utilities per the Evergen precedents), Stochastly (consumer learning app, prior October 4 disposition), Burnbound and Scout Packs (x402 agent-payments class per the Pink Wallet and Mekler dispositions), MACH Base (crypto, Base mainnet class), Postbase (open-source social media scheduler, same saturated publishing class), FormsByState (state legal forms, consumer legal-utility class), Supero (multi-tenant app building, dev platform outside catalog scope), Auth Your Agent (agent credential vault, agent-infra class), RelayDesk (paired-machine access and process execution, agent-infra class outside catalog scope) and PaperSprocket (two-tool HTML-to-PDF, document-utility class covered by RelayPDF and the md2doc dispositions).</p>
 <h2 id="october-6-2026-morning-sweep-8-new-8-guides">🆕 October 6, 2026 - Morning Sweep (8 New, 8 Guides)<a class="headerlink" href="#october-6-2026-morning-sweep-8-new-8-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Morning sweep over the mcp.so <code>/feed</code> (29 server blocks, direct TanStack fetch; reader-proxy cross-check), mcpservers.org <code>/all</code> pages 1-3 via the r.jina.ai reader proxy, and the fresh chatmcp/mcpso issue window #4796-#4805, with detail pages fetched for every candidate, endpoints probed live, and every name cross-referenced against the catalog and all prior sweep ledgers. Eight new business-relevant entries, each catalogued with a guide: SEO research with keyword, SERP and Search Console data; link attribution and sales tracking; SMB procurement from RFQ to purchase order; cited US energy and buildout data with hash-verified sources; AI and chip stock research from SEC filings; invoices and estimates from chat; page submission with crawl receipts; and shareholder activism intelligence.</p>
 <ul>
