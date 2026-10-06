@@ -13,7 +13,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 A comprehensive, curated directory of the Hermes Agent ecosystem. **192+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 187 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **190+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **192+ repos indexed.**
 
 ## 📊 Category Overview
 

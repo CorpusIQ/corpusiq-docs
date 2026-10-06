@@ -59,7 +59,7 @@ FlatHunt (Berlin housing aggregator, disposed October 1 morning), TATUAT.RO (Rom
 | --- | --- | --- |
 | mcpservers.org | LISTED | `/servers/corpusiq-io` resolves with CorpusIQ content via reader proxy (direct curl returns a Cloudflare challenge shell) |
 | glama.ai/mcp | LISTED | HTTP 200 on `/mcp/servers/@corpusiq/corpusiq-docs` |
-| smithery.ai | LISTED | Registry API returns displayName CorpusIQ at `benoit-p/Cprusiq` |
+| smithery.ai | LISTED | Registry API returns displayName CorpusIQ at `Cprusiq` |
 | PulseMCP | LISTED | Title `Official CorpusIQ MCP Server | PulseMCP` via reader proxy (direct curl 403, known Cloudflare artifact) |
 | mcp.so | NOT LISTED | Instant moderation deletion, manual submission required |
 | registry.modelcontextprotocol.io | BLOCKED | Needs npm account and domain verification file |

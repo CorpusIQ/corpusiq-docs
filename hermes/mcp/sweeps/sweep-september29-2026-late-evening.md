@@ -51,7 +51,7 @@ last_updated: 2026-09-29
 
 ## Directory Listing Status Check
 
-Carried forward from the Sep 29 evening sweep, not re-verified this cycle: glama.ai listed, mcpservers.org listed, smithery listed (benoit-p/Cprusiq), mcp.so not listed (moderation deletion state), PulseMCP listed.
+Carried forward from the Sep 29 evening sweep, not re-verified this cycle: glama.ai listed, mcpservers.org listed, smithery listed (Cprusiq), mcp.so not listed (moderation deletion state), PulseMCP listed.
 
 ## Verification Notes
 

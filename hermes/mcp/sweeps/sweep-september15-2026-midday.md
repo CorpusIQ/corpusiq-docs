@@ -29,7 +29,7 @@ last_updated: 2026-09-15
 - **mcpservers.org:** LISTED - detail page served via the r.jina.ai reader proxy (title "CorpusIQ MCP Server | Awesome MCP Servers", 40+ connectors in the body). Direct curl returns the standing Cloudflare 403.
 - **glama.ai:** LISTED - direct slug /mcp/servers/@corpusiq/corpusiq-docs returns 200, title "corpusiq by CorpusIQ | Glama".
 - **mcp.so:** NOT LISTED - SSR search shows zero server cards (2 hits = query echo only); no resubmit (account quarantine holds).
-- **smithery.ai:** FLIP-FLOP continues - registry search (q=corpusiq) returns the CorpusIQ entry at benoit-p/Cprusiq, while the direct /server/@benoit-p/Cprusiq page 404s at check time. No submission path exists; no action.
+- **smithery.ai:** FLIP-FLOP continues - registry search (q=corpusiq) returns the CorpusIQ entry at Cprusiq, while the direct server page for that listing 404s at check time. No submission path exists; no action.
 - **New-directory scan:** 20-query pass-2 GitHub search (275 candidates). No new submittable MCP directory targets this cycle; all candidates screened against the skip list and status ledger, with fresh rejects logged in the rejected-candidates ledger.
 
 ## New Servers Catalogued (6)

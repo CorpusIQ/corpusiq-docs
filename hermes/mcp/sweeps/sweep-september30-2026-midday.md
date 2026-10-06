@@ -26,7 +26,7 @@ Feed-order recency: the morning sweep's OceanAlt AML entry anchors the feed, so 
 
 - **mcpservers.org:** LISTED. Direct curl returns the Cloudflare 403 wall; the reader proxy returns the CorpusIQ MCP page with the product tagline, so the listing is live.
 - **glama.ai/mcp:** LISTED. The `@corpusiq/corpusiq-docs` slug returns 301 (redirect to the canonical listing).
-- **smithery.ai:** registry entry present at `benoit-p/Cprusiq`. No submission path exists (login-walled), and the listing flips multiple times per day, so no action taken.
+- **smithery.ai:** registry entry present at `Cprusiq`. No submission path exists (login-walled), and the listing flips multiple times per day, so no action taken.
 - **PulseMCP:** LISTED. Reader proxy title reads Official CorpusIQ MCP Server.
 - **mcp.so:** NOT LISTED. The search SSR payload carries no server cards; the account-level instant moderation state from August 12 still stands, so no resubmission was attempted.
 

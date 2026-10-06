@@ -59,7 +59,7 @@ The GenPark single-author burst (8 entries: financial audit, voice VAD, OCR tabl
 
 ## Directory Listing Status Check
 
-Carried forward from the Sep 29 midday sweep, not re-verified this cycle: glama.ai listed, mcpservers.org listed, smithery listed (benoit-p/Cprusiq), mcp.so not listed (moderation deletion state), PulseMCP listed.
+Carried forward from the Sep 29 midday sweep, not re-verified this cycle: glama.ai listed, mcpservers.org listed, smithery listed (Cprusiq), mcp.so not listed (moderation deletion state), PulseMCP listed.
 
 ## Verification Notes
 

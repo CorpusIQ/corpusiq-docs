@@ -29,7 +29,7 @@ last_updated: 2026-09-14
 
 - **mcpservers.org:** LISTED - direct curl hits the 403 Cloudflare wall; r.jina.ai reader proxy returns 200 with title "CorpusIQ MCP Server | Awesome MCP Servers" and the full listing copy.
 - **glama.ai:** LISTED - canonical slug /mcp/servers/@corpusiq/corpusiq-docs returns HTTP 200.
-- **smithery.ai:** LISTED - registry `?q=corpusiq` returns benoit-p/Cprusiq, displayName CorpusIQ, unlisted=false; no flap this cycle.
+- **smithery.ai:** LISTED - registry `?q=corpusiq` returns Cprusiq, displayName CorpusIQ, unlisted=false; no flap this cycle.
 - **mcp.so:** NOT LISTED - SSR search shows zero /server/ links and only query-echo hits; account quarantine holds (~52nd cycle), no resubmit.
 - **PulseMCP:** LISTED - proxy 200, title "Official CorpusIQ MCP Server | PulseMCP".
 - **toolsbot.com:** NEW - LISTED (submitted Sep 12 via web form): homepage schema.org ItemList position 1 and card with the submitted description linking to corpusiq.io; canonical /t/ slug page not yet resolving (card href renders as /t).

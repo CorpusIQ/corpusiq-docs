@@ -23,7 +23,7 @@ last_updated: 2026-09-29
 | New business-relevant servers | 4 |
 | Integration guides written | 4 |
 | Guide validation | 4/4 PASS |
-| Directory listing checks | glama listed, mcpservers.org listed, smithery listed (benoit-p/Cprusiq), mcp.so not listed (moderation deletion state) |
+| Directory listing checks | glama listed, mcpservers.org listed, smithery listed (Cprusiq), mcp.so not listed (moderation deletion state) |
 
 ## New Servers Catalogued (4)
 
@@ -60,7 +60,7 @@ Crypto class: The Coin Daily Research, Mooncatcher Wire, Gateway Agent Tip Jar (
 
 - **glama.ai/mcp** - LISTED (HTTP 200 at glama.ai/mcp/servers/CorpusIQ/corpusiq-docs)
 - **mcpservers.org** - LISTED (live page at mcpservers.org/servers/corpusiq-io via reader proxy, published 17:02Z today)
-- **smithery.ai** - LISTED (registry API resolves displayName CorpusIQ at benoit-p/Cprusiq)
+- **smithery.ai** - LISTED (registry API resolves displayName CorpusIQ at Cprusiq)
 - **mcp.so** - NOT listed ("No servers match" empty state; moderation-deletion doctrine, no re-submit)
 
 ## New Directory Search

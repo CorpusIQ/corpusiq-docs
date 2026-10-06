@@ -142,7 +142,7 @@ def main():
 
     # 2c. Perfection pass - auto-fix house-rule drift (em/en dashes, titles over
     #     60 chars) in SOURCE before every build, so the live site stays clean
-    #     without manual checks (Benoit: the docs repo must always be perfect).
+    #     without manual checks (hard rule: the docs repo must always be perfect).
     print("2c. Perfection pass (dashes/titles autofix)...")
     run("python3 scripts/docs_perfection.py --fix || true")
     dirty_perf = run("git status --porcelain -- '*.md' '*.html'").strip()

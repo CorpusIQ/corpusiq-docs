@@ -43,5 +43,5 @@ last_updated: 2026-09-28
 - 2/2 guides passed validation: 8 frontmatter fields each, zero em-dashes, zero redaction markers, titles under 60 chars, 3 FAQ question headings per guide.
 - Both endpoints come from vendor or directory pages fetched this cycle: Uxia (platform.uxia.app/api/mcp-v2/mcp, from the mcp.so detail page), Selfstorming (www.selfstorming.com/api/mcp, from the mcp.so server page; vendor docs at selfstorming.com/tools/mcp/docs). No endpoint was guessed.
 - Tool names are served from the endpoints; capability tables reflect the vendors' published capability sets per doctrine.
-- Core directory listings re-verified this cycle: mcpservers.org LISTED (reader proxy title), glama.ai LISTED (HTTP 200), smithery.ai registry entry present (benoit-p/Cprusiq), mcp.so NOT LISTED (empty-state; quarantine, no resubmit), PulseMCP LISTED (proxy title).
+- Core directory listings re-verified this cycle: mcpservers.org LISTED (reader proxy title), glama.ai LISTED (HTTP 200), smithery.ai registry entry present (Cprusiq), mcp.so NOT LISTED (empty-state; quarantine, no resubmit), PulseMCP LISTED (proxy title).
 - Prior-sweep cutoff: Sep 28 morning stamp 10:18Z. The feed had rolled heavily since: 4 blocks above the morning top (Selfstorming, Uxia, Texas RRC, TinyFish) formed the new window.

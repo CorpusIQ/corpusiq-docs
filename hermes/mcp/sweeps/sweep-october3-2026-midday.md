@@ -27,7 +27,7 @@ Remote MCP at `rankorg.com/api/mcp` with OAuth 2.0 (RFC 8414 discovery, RFC 7591
 | --- | --- | --- |
 | mcpservers.org | LISTED | Reader-proxy fetch of `/servers/corpusiq-io` returns HTTP 200 with title "CorpusIQ MCP Server \| Awesome MCP Servers" |
 | glama.ai/mcp | LISTED | HTTP 200 on the `@corpusiq/corpusiq-docs` slug |
-| smithery.ai | REGISTRY ENTRY PRESENT | `benoit-p/Cprusiq` in the registry API response; flip-flop class, no submission path available |
+| smithery.ai | REGISTRY ENTRY PRESENT | `Cprusiq` in the registry API response; flip-flop class, no submission path available |
 | mcp.so | NOT LISTED | Search returns unrelated servers (Medplum, Hostinger, PLUR, Termany and others) with no CorpusIQ entry |
 | PulseMCP | LISTED | Reader-proxy fetch of `/servers/corpusiq` returns the CorpusIQ listing |
 
