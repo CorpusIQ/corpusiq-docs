@@ -16748,5 +16748,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-05T10:04:59.020813+00:00"
+  },
+  {
+    "repo": "whillans/nanoflux",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645393+00:00"
+  },
+  {
+    "repo": "rezazadeh93/mcp_postgres",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645406+00:00"
+  },
+  {
+    "repo": "yourconscience/tackroom",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645409+00:00"
+  },
+  {
+    "repo": "kfchow-ai/kfchow-llm-value-router",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645411+00:00"
+  },
+  {
+    "repo": "kims6305-bjk/kakao-agent-router",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645412+00:00"
+  },
+  {
+    "repo": "mtbitcr/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645414+00:00"
+  },
+  {
+    "repo": "djagya/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645416+00:00"
+  },
+  {
+    "repo": "tim-smart/asphodel",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645418+00:00"
+  },
+  {
+    "repo": "udayj/hermes-kernel-lab",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645419+00:00"
+  },
+  {
+    "repo": "WOOWTECH/Woow_ha_hermes_add_on",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-06T10:03:25.645421+00:00"
   }
 ]
