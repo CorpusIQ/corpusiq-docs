@@ -112,7 +112,7 @@ They do not create a shared CorpusIQ account or persistent team-wide AI memory.
 |---|---|
 | `help` or `corpusiq-help` | Shows commands, setup, and sharing guidance without sign-in. |
 | `corpusiq-login` | Links your own CorpusIQ account. Start from personal chat for channel use. |
-| `corpusiq-logout` | Disconnects your CorpusIQ identity from this Teams app. |
+| `corpusiq-logout` | Clears cached credentials and pending sign-ins; does not remove your permanent account association. |
 | `corpusiq-status` | Shows connector status; use personal chat for account details. |
 | `corpusiq-share <question>` | Intentionally shares an answer in the current group or channel conversation. |
 

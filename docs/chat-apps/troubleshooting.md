@@ -65,9 +65,14 @@ app may be linked as a different person.
 - Sign out: `/corpusiq-logout` in Slack, or `corpusiq-logout` in Teams personal chat.
 - Sign back in as yourself.
 
-Each Teams request uses the requesting user's linked CorpusIQ identity. Signing
-out and explicitly linking your intended account does not grant other group or
-channel participants access to that account.
+Each Teams request uses the requesting user's linked CorpusIQ identity.
+`corpusiq-logout` clears cached credentials and pending sign-ins; it does not
+remove the permanent Microsoft-to-CorpusIQ account association. Check that
+Microsoft Teams itself is signed in as the intended Microsoft user. If that
+identity is associated with the wrong CorpusIQ account, stop asking data
+questions and [contact support](https://www.corpusiq.io/support); signing out
+and back in does not switch the association. Other group or channel
+participants do not gain access to your account.
 
 ## The sign-in prompt won't complete (Teams)
 
