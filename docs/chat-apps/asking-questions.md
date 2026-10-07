@@ -5,7 +5,7 @@ description: >-
   more.
 canonical: "https://www.corpusiq.io/docs/chat-apps/asking-questions/"
 robots: "index,follow"
-last_updated: "2026-08-23"
+last_updated: "2026-10-07"
 title: "Asking questions - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 
@@ -19,11 +19,18 @@ ask again. This page is about asking well and knowing what you'll get back.
 ## How to ask
 
 - **Direct message** the app for a private answer only you see.
-- **@-mention** the app in a channel (`@CorpusIQ ...`) when the answer belongs
-  to the whole channel.
+- **In Slack channels**, @-mention the app (`@CorpusIQ ...`) when the answer
+  belongs to the whole channel.
+- **In Teams group chats and team channels**, mention the bot and send
+  `corpusiq-share <question>` only when you intend to disclose the answer to
+  everyone who can read that conversation. An ordinary question receives
+  privacy guidance instead of business data. The request uses your own
+  CorpusIQ identity and AI configuration, not a shared account. See
+  [Teams setup](getting-started-teams.md) for private account linking.
 
 Ask the way you'd ask a colleague who has all the numbers in front of them.
-Plain English, no special syntax:
+Use plain English for the question; in a shared Teams conversation, keep the
+`corpusiq-share` prefix:
 
 > How did revenue compare to last month?
 
@@ -43,8 +50,9 @@ then narrow:
 
 > Now break that down by product.
 
-Each reply builds on the last, so you don't have to restate the whole question
-every time.
+Where conversational context is available, each reply can build on the last.
+Teams shared answers do not create persistent team-wide AI memory: include
+enough context in each `corpusiq-share` request for it to stand on its own.
 
 ## What the answers look like
 
@@ -111,8 +119,10 @@ connected.
 > What changed the most week over week?
 
 That last kind - the broad "how are we doing" question - is where the chat app
-earns its place. One question in a channel, and everyone sees the same answer,
-drawn live from the tools behind it.
+earns its place. An intentionally shared answer lets the conversation discuss
+the same result, drawn live from your connected tools. In Teams, use
+`corpusiq-share` and disclose only data you are authorized to share with those
+participants.
 
 ## If an answer looks off
 
