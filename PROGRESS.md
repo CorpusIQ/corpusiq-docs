@@ -1,20 +1,20 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
-last_updated: "2026-10-06"
+last_updated: "2026-10-07"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated October 6, 2026)
+## File count (updated October 7, 2026)
 
-- **Total Markdown files:** 2723
+- **Total Markdown files:** 2743
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 544 setup guides for Hermes skills (measured: *setup*.md under hermes/skills; Oct 5 evening, skills-monitor sweep added 1 publisher guide - Goldsky Agent Skills (goldsky-io/goldsky-agent); Oct 4 evening added 1 - Moonlight Lupin Agent Skills (un-parked after growth re-check); Oct 4 morning added 1 - CrewAI Skills (crewAIInc/skills); Oct 2 added 3 - 01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills; prior 534 baseline was stale) (measured: *setup*.md under hermes/skills); marketplace index tracks 1,076+ curated skills
-- **MCP servers:** 1160 total .md under hermes/mcp/; external catalog 849 servers (+735 guides) per Oct 6 midday sweep
+- **MCP servers:** 1180 total .md under hermes/mcp/; external catalog 865 servers (+751 guides) per Oct 7 midday sweep
 - **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -40,6 +40,8 @@ The repo is actively maintained with daily automated updates:
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Docs maintenance ✅ (Oct 7, 2026, docs-mgmt cron):** anchor-integrity sweep - every internal `#fragment` link checked against the built site's heading ids (new reusable scanner; the build is ground truth for what is served). **23 latent fragment links fixed across 16 pages** (each silently landed at the top of its target page when clicked): 10 MCP-guide cross-refs retargeted to the Integration Guides index (`/hermes/mcp/servers/#<tool>`), 6 external-catalog cross-refs corrected to real ids (incl. the dated ENTIA/ChronoVerify sections), 5 catalog setup footers' dead category anchors replaced with the standard `[Skills Catalog] | [Marketplace]` footer, and the merged skill-vetter section anchor on the July 15 update page. Not changed by design: 9 `#repo-unavailable` placeholders (intentional since commit 6fcfac91f). Routine audits clean: 0 broken links (hermes + cross-directory), 0 missing frontmatter, 0 duplicate descriptions, 0 empty pages, dead-slash scan 0; PII scan = the 3 known false positives only; retention gate PASS. Commit 44063eb1b deployed via deploy_docs.py (Vercel OK; canonical/sitemap/feed verify gates passed); all 16 changed pages live-verified HTTP 200 with the corrected links (www + origin spot-checks).
 
 - **Docs maintenance ✅ (Oct 6, 2026, docs-mgmt cron):** routine audit + sanitization wave. Comprehensive audit: 0 broken links (hermes-internal + cross-directory), 0 missing frontmatter, 0 duplicate descriptions, 0 empty pages; orphan scan clean (asset dirs only); PII scan: 12 publisher-handle references on sweep pages normalized to the public slug, remaining 3 hits confirmed false positives (third-party repo name). Dead-slash structural scan: 5 latent defects fixed (sibling-guide link slashes x3, stale `#-mcp--integrations` anchor -> `#mcp-integrations`, README Connector Guides row) - scanner re-run 0. Ecosystem legend count aligned 190+ -> 192+ (category table sums to 192). All 8 of the day's new MCP guides + the midday sweep page verified live HTTP 200. Two deploys via deploy_docs.py (Vercel OK on both; canonical/sitemap/feed verify gates passed). Commits e719c0054 + 8b83ea679.
 - **Agentic browsing audit page ✅ (Oct 6, 2026):** added `hermes/best-practices/agentic-browsing-audit.md` - the Lighthouse Agentic Browsing standard (llms.txt, WebMCP, accessibility tree, layout stability), fix patterns, and a pre-ship checklist. Wired from the best-practices index and the mkdocs nav.
@@ -102,7 +104,7 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: October 6, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: October 7, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 
 ## FAQ
 
