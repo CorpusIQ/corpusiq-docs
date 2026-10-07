@@ -143,7 +143,7 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 - [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
 - [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
 - [How to Create an AI Data Layer](https://www.corpusiq.io/answers)
-- [Best MCP Server for Business](/mcp)
+- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
 - [Best AI Knowledge Platform](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 ---

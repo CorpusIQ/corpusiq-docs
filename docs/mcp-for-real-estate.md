@@ -146,16 +146,15 @@ While MCP is primarily an on-demand query interface, you can create saved prompt
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/mcp)
-- [MCP for Sales: Pipeline and Forecasting](/mcp)
-- [MCP for Marketing: Campaign Analytics and ROI](/mcp)
-- [MCP for Finance: Portfolio and Compliance](/mcp)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
+- [MCP for Marketing: Campaign Analytics and ROI](/docs/mcp-for-marketing)
+- [MCP for Finance: Portfolio and Compliance](/docs/mcp-for-finance)
 - [MCP for Small Business: Quick Setup](https://www.corpusiq.io/mcp-server-small-business)
-- [MCP for Agencies: Multi-Client Management](/mcp)
+- [MCP for Agencies: Multi-Client Management](/docs/mcp-for-agencies)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

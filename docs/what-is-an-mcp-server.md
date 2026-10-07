@@ -135,7 +135,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 <details>
 <summary><strong>How is MCP different from a Zapier integration?</strong></summary>
 
-Zapier is trigger-based and batch-oriented  --  when event A happens, perform action B. MCP is real-time and query-oriented  --  ask any question and get an answer from live data. Zapier moves data between apps; MCP makes data accessible to AI for analysis and reporting. See our [MCP vs Zapier comparison](/mcp) for a detailed breakdown.
+Zapier is trigger-based and batch-oriented  --  when event A happens, perform action B. MCP is real-time and query-oriented  --  ask any question and get an answer from live data. Zapier moves data between apps; MCP makes data accessible to AI for analysis and reporting. See our [MCP vs Zapier comparison](/docs/mcp-vs-zapier) for a detailed breakdown.
 </details>
 
 <details>
@@ -147,7 +147,7 @@ The protocol supports write operations, but CorpusIQ's MCP implementation defaul
 <details>
 <summary><strong>How secure is MCP?</strong></summary>
 
-MCP uses OAuth 2.0 for authentication, supports scoped access tokens, and encrypts data in transit. MCP servers run in your environment or CorpusIQ's secure cloud. See our [Read our complete MCP security best practices guide](/mcp) for details.
+MCP uses OAuth 2.0 for authentication, supports scoped access tokens, and encrypts data in transit. MCP servers run in your environment or CorpusIQ's secure cloud. See our [MCP security best practices guide](/docs/mcp-security-best-practices) for details.
 </details>
 
 <details>
@@ -176,18 +176,17 @@ Yes. MCP servers can be deployed on-premise and connect to internal databases, E
 
 ## Internal Links
 
-- [Understand how MCP servers work with a technical deep dive](/mcp)
-- [Compare MCP vs Zapier for real-time business automation](/mcp)
-- [See how MCP compares to traditional data warehouses](/mcp)
-- [Compare MCP vs custom API integrations](/mcp)
-- [Discover the business benefits of MCP servers](/mcp)
-- [Read our complete MCP security best practices guide](/mcp)
+- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
+- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
+- [See how MCP compares to traditional data warehouses](/docs/mcp-vs-data-warehouse)
+- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [Explore MCP for small business intelligence](https://www.corpusiq.io/mcp-server-small-business)
-- [Learn about MCP for enterprise-scale deployments](/mcp)
+- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

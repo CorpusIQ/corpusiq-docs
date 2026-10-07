@@ -120,6 +120,12 @@ nav:
   - MCP for Operations: mcp-for-operations.md
   - MCP for Customer Support: mcp-for-customer-support.md
   - MCP for Executives: mcp-for-executives.md
+  - MCP for IT: mcp-for-it.md
+  - MCP for HR: mcp-for-hr.md
+  - MCP for Legal: mcp-for-legal.md
+  - MCP for Procurement: mcp-for-procurement.md
+  - MCP for Logistics: mcp-for-logistics.md
+  - MCP for Manufacturing: mcp-for-manufacturing.md
 - ChatGPT Integrations:
   - Connect Shopify to ChatGPT: connect-shopify-to-chatgpt.md
   - Connect QuickBooks to ChatGPT: connect-quickbooks-to-chatgpt.md
@@ -136,6 +142,10 @@ nav:
   - Connect SharePoint to ChatGPT: connect-sharepoint-to-chatgpt.md
   - Connect Gmail to ChatGPT: connect-gmail-to-chatgpt.md
   - Connect Outlook to ChatGPT: connect-outlook-to-chatgpt.md
+  - Connect Klaviyo to ChatGPT: connect-klaviyo-to-chatgpt.md
+  - Connect Google Ads to ChatGPT: connect-google-ads-to-chatgpt.md
+  - Connect Meta Ads to ChatGPT: connect-meta-ads-to-chatgpt.md
+  - Connect Amazon Seller to ChatGPT: connect-amazon-seller-to-chatgpt.md
 - Claude Integrations:
   - Connect Shopify to Claude: connect-shopify-to-claude.md
   - Connect QuickBooks to Claude: connect-quickbooks-to-claude.md

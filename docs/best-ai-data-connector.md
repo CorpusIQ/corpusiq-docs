@@ -149,7 +149,7 @@ A: Start with CRM + Accounting (2 connectors). Most organizations get maximum va
 
 ## Internal Links
 
-- [Best MCP Server for Business  --  Detailed Rankings](/mcp)
+- [Best MCP Server for Business  --  Detailed Rankings](/docs/best-mcp-server-for-business)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
 - [Best ChatGPT Integration Platform](/compare)
 - [CorpusIQ vs Fivetran  --  Live Query vs ETL](/compare)

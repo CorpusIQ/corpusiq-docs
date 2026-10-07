@@ -143,16 +143,15 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/mcp)
-- [Read our complete MCP security best practices guide](/mcp)
-- [Discover the business benefits of MCP servers](/mcp)
-- [See how executives use MCP for AI-powered dashboards](/mcp)
-- [Learn about MCP for financial reporting and compliance](/mcp)
-- [Explore MCP for business operations automation](/mcp)
+- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
+- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
+- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
+- [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -292,16 +292,15 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Compare MCP vs Zapier for real-time business automation](/mcp)
-- [Compare MCP vs custom API integrations](/mcp)
-- [Read our complete MCP security best practices guide](/mcp)
-- [Discover the business benefits of MCP servers](/mcp)
-- [Learn about MCP for enterprise-scale deployments](/mcp)
-- [Explore MCP for business operations automation](/mcp)
+- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
+- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
+- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
+- [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

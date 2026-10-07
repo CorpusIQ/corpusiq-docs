@@ -161,7 +161,7 @@ Ready to put AI to work on your corpusiq vs zapier  --  mcp real-time ai-native 
 - [CorpusIQ vs Airbyte  --  MCP vs Open-Source Data Integration](/compare)
 - [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/compare)
 - [How to Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)
-- [Best MCP Server for Business  --  Comparison Guide](/mcp)
+- [Best MCP Server for Business  --  Comparison Guide](/docs/best-mcp-server-for-business)
 - [Top Business AI Tools  --  Rankings & Reviews](/compare)
 - [HubSpot Business Intelligence with CorpusIQ](/connect/hubspot-with-chatgpt)
 - [Enterprise AI Data Access  --  Secure Connectivity](https://www.corpusiq.io/enterprise)

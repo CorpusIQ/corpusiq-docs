@@ -143,7 +143,7 @@ MCP queries execute against live APIs. Most ad platforms and analytics tools pro
 <details>
 <summary><strong>Can I use MCP with our agency's client accounts?</strong></summary>
 
-Yes. MCP for agencies supports multi-account management. See our [See how agencies use MCP for client reporting](/mcp) for details on managing client portfolios.
+Yes. MCP for agencies supports multi-account management. See our [See how agencies use MCP for client reporting](/docs/mcp-for-agencies) for details on managing client portfolios.
 </details>
 
 
@@ -154,16 +154,15 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/mcp)
-- [MCP for Sales: Pipeline and Forecasting](/mcp)
-- [MCP for Ecommerce: Order and Revenue Analytics](/mcp)
-- [MCP for Agencies: Multi-Client Management](/mcp)
-- [See how executives use MCP for AI-powered dashboards](/mcp)
-- [MCP for Customer Support: Ticket Analytics](/mcp)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
+- [MCP for Ecommerce: Order and Revenue Analytics](/docs/mcp-for-ecommerce)
+- [MCP for Agencies: Multi-Client Management](/docs/mcp-for-agencies)
+- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
+- [MCP for Customer Support: Ticket Analytics](/docs/mcp-for-customer-support)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

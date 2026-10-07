@@ -150,16 +150,15 @@ Those tools focus on marketing attribution. MCP provides broader access  --  mar
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/mcp)
-- [MCP for Marketing: Campaign Analytics and ROI](/mcp)
-- [MCP for Sales: Pipeline and Forecasting](/mcp)
-- [MCP for Operations: Workflow and KPIs](/mcp)
-- [Learn about MCP for financial reporting and compliance](/mcp)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [MCP for Marketing: Campaign Analytics and ROI](/docs/mcp-for-marketing)
+- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
+- [MCP for Operations: Workflow and KPIs](/docs/mcp-for-operations)
+- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 - [MCP for Small Business: Quick Setup](https://www.corpusiq.io/mcp-server-small-business)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

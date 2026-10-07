@@ -130,11 +130,11 @@ CorpusIQ maintains the MCP connectors, so API changes are handled on the platfor
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/mcp)
-- [Compare MCP vs custom API integrations](/mcp)
-- [Learn how MCP compares to RPA automation](/mcp)
-- [Discover the business benefits of MCP servers](/mcp)
-- [Explore MCP for business operations automation](/mcp)
+- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
+- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
+- [Learn how MCP compares to RPA automation](/docs/mcp-vs-rpa)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
 *Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
 

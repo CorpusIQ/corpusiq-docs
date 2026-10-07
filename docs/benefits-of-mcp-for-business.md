@@ -134,16 +134,15 @@ Traditional BI involves per-seat licensing, infrastructure costs, and implementa
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/mcp)
-- [Read our complete MCP security best practices guide](/mcp)
+- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
+- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [Explore MCP for small business intelligence](https://www.corpusiq.io/mcp-server-small-business)
-- [Learn about MCP for enterprise-scale deployments](/mcp)
-- [See how executives use MCP for AI-powered dashboards](/mcp)
-- [Learn about MCP for financial reporting and compliance](/mcp)
+- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
+- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
+- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

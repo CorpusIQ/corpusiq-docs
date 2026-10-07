@@ -165,7 +165,7 @@ A: Yes. MCP is being adopted by major AI platforms (Anthropic, OpenAI) and is be
 
 ## Internal Links
 
-- [Top MCP Platforms  --  Detailed Comparison](/mcp)
+- [Top MCP Platforms  --  Detailed Comparison](/docs/top-mcp-platforms)
 - [Best AI Data Connector for Business](/connectors)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
 - [Best Business AI Search Tool](/compare)
