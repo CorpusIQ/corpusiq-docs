@@ -41,9 +41,15 @@ tokens, or provider keys into a Teams conversation.
    the CorpusIQ account you want to use. Approve only a code you initiated in
    your own personal chat. This proves control of both accounts; matching email
    addresses alone never links them.
-5. If you do not have a CorpusIQ account, use the
+5. After approving the CorpusIQ prompt in your browser, return to the personal
+   chat and send `corpusiq-login` again to finish. The attempt expires within
+   ten minutes; if it expires, start a new sign-in. If the bot restarts while
+   you are authorizing, the same command resumes the unexpired attempt.
+6. If you do not have a CorpusIQ account, use the
    [registration link](https://www.corpusiq.io/register), then return to the
    personal chat and send `corpusiq-login` again.
+7. Once connected, resend your question. The bot does not save or automatically
+   replay business questions from before sign-in.
 
 Channel conversations cannot perform the same bot SSO flow as personal chats.
 If you start in a channel, use the bot's link to its personal chat, finish
