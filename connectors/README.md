@@ -90,7 +90,7 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 - [Connect GA4 to Claude](connect-ga4-to-claude.md)
 - [Connect Google Ads to Claude](connect-google-ads-to-claude.md)
 - [Connect HubSpot to Claude](connect-hubspot-to-claude.md)
-- [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md)
+- [Connect Klaviyo to ChatGPT](../connect-klaviyo-to-chatgpt.md)
 - [Connect Klaviyo to Claude](connect-klaviyo-to-claude.md)
 - [Connect LinkedIn Ads to Claude](connect-linkedin-ads-to-claude.md)
 - [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md)
