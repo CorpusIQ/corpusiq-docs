@@ -75,6 +75,13 @@ jobs:
       - name: Copy llms feeds into site
         run: cp llms.txt llms-full.txt site/
 
+      # The platform build needs an explicit output directory: without the
+      # bundled vercel.json it defaults to "public" and fails with
+      # STATIC_BUILD_NO_OUT_DIR ("No Output Directory named public"). The file
+      # also ships the production redirects/rewrites. Mirrors deploy_docs.py.
+      - name: Copy vercel.json into site
+        run: cp vercel.json site/vercel.json
+
       - name: Deploy to Vercel production
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
