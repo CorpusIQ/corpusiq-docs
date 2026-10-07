@@ -10225,6 +10225,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#limitations" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10336,6 +10347,16 @@ Built by: LogNorm (lognorm.com)
 <div class="highlight"><pre><span></span><code>claude mcp add --transport http --scope user lognorm https://lognorm.com/api/mcp
 </code></pre></div>
 <p>Then run <code>/mcp</code>, pick lognorm, authenticate, and allow in the browser. Codex uses <code>codex mcp add lognorm --url https://lognorm.com/api/mcp</code>. Cursor, Claude desktop and any other client add a remote Streamable HTTP server named <code>lognorm</code> with the same URL; the endpoint answers 401 with OAuth metadata, so clients that support MCP authorization start sign-in themselves.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>The service is proprietary; the agent skill and docs are MIT.</li>

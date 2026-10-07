@@ -10275,6 +10275,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10406,6 +10417,16 @@ Settings -&gt; API access (MCP) and send it as Authorization: Bearer &lt;token&g
 <p>Yes, through <code>publishContent</code>, which the vendor documents as public and irreversible-ish and instructs callers to invoke only after explicit user confirmation. Scope the credential to read-only tools where publishing authority is not wanted.</p>
 <h3 id="how-does-it-tie-content-to-business-results">How does it tie content to business results?<a class="headerlink" href="#how-does-it-tie-content-to-business-results" title="Anchor link to this section">&para;</a></h3>
 <p><code>getSearchPerformance</code> reads the site's Google Search Console data directly, so published articles can be assessed against real clicks, impressions, CTR, average position, top pages and top queries rather than an assumed outcome.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">External MCP Server Catalog</a> - the full curated list</li>

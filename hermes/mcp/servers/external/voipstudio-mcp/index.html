@@ -10247,6 +10247,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10344,6 +10355,16 @@ Category: Communication
 <p>Fields unlocked by the addon: <code>transcript</code>, <code>transcript_speakers</code>, <code>summary</code>, <code>sentiment</code>, <code>cx_score</code> (1-10) and <code>metadata.timeline</code> (key moments and action items).</p>
 <h2 id="verification-sep-11-2026-docs-maintenance">Verification (Sep 11, 2026 docs maintenance)<a class="headerlink" href="#verification-sep-11-2026-docs-maintenance" title="Anchor link to this section">&para;</a></h2>
 <p>Endpoint <code>https://mcp.voipstudio.workers.dev/sse</code> live-probed: anonymous GET returned HTTP 401 with <code>WWW-Authenticate: Bearer realm="OAuth"</code> and body <code>{"error":"invalid_token","error_description":"Missing or invalid access token"}</code> - live and auth-gated exactly as documented.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dialnexa-mcp">DialNexa MCP - Voice AI Agents and Confirmed Outbound Calls</a></li>

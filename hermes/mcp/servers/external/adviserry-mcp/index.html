@@ -10225,6 +10225,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10273,6 +10284,16 @@ Built by: adviserry.com
 <p>Copy your MCP token from Settings, MCP Server Access, then add the server to your client config with the endpoint and a bearer header. Claude Desktop, Claude Code, Cursor, Gemini CLI and OpenClaw are supported over the same HTTP endpoint. Two setup details matter: the endpoint must be the bare host <code>adviserry.com</code> because the <code>www.</code> host returns a 308 redirect most MCP clients will not follow, and the mobile app asks for your Adviserry user ID in a second field, which is not a credential, since requests are authenticated by the bearer token alone.</p>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <p>The rate limit returns HTTP 200 with a JSON-RPC error inside the body (code -32000) rather than a 429, so a client that only inspects status codes will miss it. Regenerating a token invalidates the old one immediately, and clients read their config once at launch, so replace the token and fully restart the client rather than reloading. ChatGPT is not supported because its custom connectors require OAuth 2.1 with dynamic client registration.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">Research and knowledge MCP servers</a></li>

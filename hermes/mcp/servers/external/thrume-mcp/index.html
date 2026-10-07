@@ -10214,6 +10214,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#limitations" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10319,6 +10330,16 @@ Built by: Thrume (thrume.app)
 <p>The deliberate constraint is the story. There is no write, no edit, no delete. The connection is read-only by scope, the user picks which client to authorize, and setup runs from an AI connections panel inside the authenticated app. For teams handling sensitive recordings, that narrow surface is easier to approve than a broad account integration.</p>
 <h2 id="connect">Connect<a class="headerlink" href="#connect" title="Anchor link to this section">&para;</a></h2>
 <p>Set up from inside the Thrume web app: sign in, open AI connections, and choose your client. Cursor and VS Code open their install prompts; Codex and Claude Code provide setup commands; Claude offers guided connectors. The server URL is <code>https://dash.thrume.app/mcp</code> with Streamable HTTP transport and OAuth with PKCE, scope <code>recordings:read</code>.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Read-only: no tool can add, edit or delete recordings.</li>

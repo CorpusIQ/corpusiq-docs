@@ -10225,6 +10225,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10274,6 +10285,16 @@ Built by: povver.ai
 <p>For clients that cannot sign in through a browser (Cursor, Windsurf, Claude Code, your own scripts), generate an API key under Profile, Integrations, Developer access and send it as a <code>Bearer</code> token in the <code>Authorization</code> header. Keys are listed with the name you gave them and when they were last used, and any of them can be revoked. The connection works during the 14-day trial and on a subscription, checked on every request.</p>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <p>MCP access hangs off your Povver account, so there is nothing to configure beyond the endpoint plus either the OAuth sign-in or a key. Workouts written over MCP are keyed, so resending the same batch after a dropped connection does not double your history, and each tool states whether it is safe to retry. Reads and writes never touch your subscription or account settings. Analysis only starts meaning something after a few sessions of baseline, so weight changes in the first two weeks are mostly calibration.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">Fitness and health MCP servers</a></li>

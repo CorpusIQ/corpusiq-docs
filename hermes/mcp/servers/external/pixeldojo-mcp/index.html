@@ -10225,6 +10225,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10281,6 +10292,16 @@ Built by: BLOVE INC, d/b/a Pixel Dojo (Brian Lovett)
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <p>Asset URLs expire one hour after creation, so anything worth keeping should be downloaded immediately or left in the library, where finished films persist. Generation calls wait 30 seconds before returning a <code>jobId</code>; a longer render is picked up with <code>pixeldojo_status</code> rather than by holding the connection open.</p>
 <p>Pricing is credit-based and every call spends credits, with failed jobs refunded. Model rosters at this layer move quickly, so treat the specific model list as a snapshot rather than a fixed catalogue. The server reports its own origin on each request through a source header, which is useful when auditing where generation spend came from.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external">External MCP server catalog</a></li>

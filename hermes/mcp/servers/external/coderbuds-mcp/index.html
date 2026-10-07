@@ -10225,6 +10225,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10303,6 +10314,16 @@ Built by: Coderbuds (registry namespace com.coderbuds/insights)
 <p>Scope and privacy notes from the vendor: everything is scoped to the authenticated user and their teams; personal insights are visible only to their owner; source code is never sent to Coderbuds, the tools answer from data Coderbuds already holds. Acting tools are deliberately narrow - deploys only run where the team has already configured a hook or workflow, posture changes are restricted to team admins, and review requests go to the team's own Slack channel. Access is revocable per machine from the API Tokens page.</p>
 <h2 id="verification-sep-11-2026-midday-sweep">Verification (Sep 11, 2026 midday sweep)<a class="headerlink" href="#verification-sep-11-2026-midday-sweep" title="Anchor link to this section">&para;</a></h2>
 <p>Endpoint live-probed over JSON-RPC: anonymous initialize returned HTTP 401 with <code>"Not authenticated yet. Your MCP client should now open a browser so you can sign in to Coderbuds and click Authorize."</code> - live and OAuth-gated, with the remediation message quoted from the server itself. The listing carries an Official MCP Registry namespace (com.coderbuds/insights) and a Glama connector, and was submitted by the vendor via chatmcp/mcpso issue #4067.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/gitlab-mcp">GitLab MCP - CorpusIQ Docs</a></li>

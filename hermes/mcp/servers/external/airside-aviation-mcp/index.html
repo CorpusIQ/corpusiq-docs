@@ -10247,6 +10247,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10335,6 +10346,16 @@ Docs: https://airsidelabs.com/tools/docs
 <p>An agent working on an aviation problem - reconciling an MRO work order to the right airframe, checking a customer's booking against the operating carrier, scoping an AI project for an airport operations team - can produce a confident answer easily and a defensible one with difficulty. These tools are built around that failure mode: every field says where it came from and when it was valid, alternates are listed rather than silently dropped, and a question the evidence cannot settle returns "unresolved" instead of a plausible number.</p>
 <h2 id="verification-sep-10-2026-night-sweep">Verification (Sep 10, 2026 night sweep)<a class="headerlink" href="#verification-sep-10-2026-night-sweep" title="Anchor link to this section">&para;</a></h2>
 <p>Endpoint <code>https://mcp.airsidelabs.com/mcp</code> live-probed over JSON-RPC: keyless initialize answered with server info (Airside Labs Aviation Tools v1.1.0, matching the listing), and keyless <code>tools/list</code> captured all 22 tools exactly as documented. Fully live-verified.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dfx-real-estate-mcp">DFX Real Estate Intelligence MCP - US Property, Parcel and Debt Data</a></li>

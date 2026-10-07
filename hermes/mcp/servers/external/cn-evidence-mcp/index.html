@@ -10225,6 +10225,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#integration-with-corpusiq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10297,6 +10308,16 @@ Built by: mikeyang7789 (GitHub Pages docs)
 <p>Honesty is built into the contract: results cover configured official and open datasets (Shenzhen company records, Beijing government procurement awards, plus available administrative penalties), and every response returns dataset_coverage and coverage_notes. Zero records is not nationwide clearance, and ambiguous same-name matches are never auto-linked to a company's record.</p>
 <h2 id="verification-sep-11-2026-night-sweep">Verification (Sep 11, 2026 night sweep)<a class="headerlink" href="#verification-sep-11-2026-night-sweep" title="Anchor link to this section">&para;</a></h2>
 <p>Endpoint live-probed over JSON-RPC: anonymous initialize captured server "CN Evidence" v1.30.0 on protocol 2024-11-05 with tools, prompts and resources capabilities, and tools/list returned all three tool schemas exactly as documented (free resolve_china_company; Basic and Full with USCC pattern validation and x402 pricing in the descriptions). Directory page confirms the Official MCP Registry entry dev.workers.mikeyang7789.cn-evidence-mcp-public/cn-evidence v0.1.0 and a healthy Glama connector.</p>
+<h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
+already runs on - accounting, payments, CRM, email, files and analytics - and answer
+with the source named. It is read-only by design: it retrieves data and never writes
+to, or acts in, a connected system, which is what makes it safe to point at live
+accounts.</p>
+<p>This page is part of the CorpusIQ directory, the reference we maintain for the MCP
+server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
+this one can be combined with a company's own business data in a single answer.</p>
+<p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/gemalli-b2b-trade-mcp">Gemalli B2B Trade MCP - Global Wholesale Sourcing for Agents</a></li>
