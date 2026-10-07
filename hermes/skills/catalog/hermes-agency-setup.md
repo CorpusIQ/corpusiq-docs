@@ -379,7 +379,7 @@ This is the **first P2P multi-agent plugin** discovered for Hermes Agent that do
 - **Safe by default** - Remote agents can't access terminal/file tools unless explicitly configured.
 - **Framework-agnostic** - Serve CrewAI, LangGraph, OpenAI Agents, Claude Agent SDK, or Strands agents as P2P nodes.
 
-This is the foundation for truly decentralized CorpusIQ agent swarms - autonomous operators that discover each other, bid on work, and collaborate without a central orchestrator.
+This is the foundation for truly decentralized CorpusIQ-connected agent swarms - autonomous operators that discover each other, bid on work, and collaborate without a central orchestrator.
 
 ---
 

@@ -58,7 +58,7 @@ Compliance-adjacent operations (finance, healthcare-adjacent SaaS, agencies hand
 
 ## Integration with CorpusIQ
 
-CorpusIQ agents read sensitive business data (invoices, transactions, payroll) across 40+ connectors. Pairing a DLP gate like Strac means that when an agent composes a summary or a report, the sensitive fields are redacted or tokenized at the tool boundary before they enter the model context - preserving the analysis while keeping PII out of model logs and downstream artifacts.
+CorpusIQ-connected agents read sensitive business data (invoices, transactions, payroll) across 40+ connectors. Pairing a DLP gate like Strac means that when an agent composes a summary or a report, the sensitive fields are redacted or tokenized at the tool boundary before they enter the model context - preserving the analysis while keeping PII out of model logs and downstream artifacts.
 
 ## Limitations
 

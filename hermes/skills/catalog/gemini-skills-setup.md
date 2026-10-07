@@ -41,7 +41,7 @@ After installation, run `npx skills --list` to confirm all five skills are regis
 
 | Use Case | How It Helps |
 |---|---|
-| Agent pipelines on Gemini models | gemini-api-dev provides tested SDK patterns for CorpusIQ agent workflows |
+| Agent pipelines on Gemini models | gemini-api-dev provides tested SDK patterns for CorpusIQ-connected agent workflows |
 | Realtime voice features | gemini-live-api-dev speeds up Live API integration for voice interfaces |
 | Model cost evaluation | gemini-omni-flash-api supports flash model experiments before scaling |
 | Enterprise deployments | vertex-ai-api-dev guides Vertex AI setups for enterprise customers |

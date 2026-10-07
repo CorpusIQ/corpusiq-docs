@@ -74,7 +74,7 @@ All three audits Pass - the basis for the 🟢 Production tier.
 
 | Use Case | How |
 |---|---|
-| **Public pages that convert** | `landing-page` and `pricing-page` encode conversion discipline for the pages CorpusIQ agents generate |
+| **Public pages that convert** | `landing-page` and `pricing-page` encode conversion discipline for the pages CorpusIQ-connected agents generate |
 | **Visual answers** | Motion and layout skills (masked reveal, staggered word reveal, scroll sequences) elevate agent-generated report and answer pages |
 | **Anti-slop enforcement** | `audit-ai-design-slop` and `no-ai-design-slop` are runnable counterparts to CorpusIQ's own content-voice rules |
 | **Video and motion assets** | GSAP, Lenis, and Three.js skills feed the HyperFrames and UGC pipeline's frontend layers |

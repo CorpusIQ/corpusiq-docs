@@ -78,7 +78,7 @@ Documents → Chunking → Embeddings → Vector Store → Retrieval → LLM →
 
 1. **Agent Knowledge Base:** Build RAG pipelines over the CorpusIQ docs, Hermes operating protocols, and governance rules - agents query their own knowledge base instead of relying on training data.
 
-2. **Cost Tracking:** Monitor and optimize LLM spend across all CorpusIQ agents (Sonnet, Opus, DeepSeek, Qwen). Route queries to the cheapest capable model.
+2. **Cost Tracking:** Monitor and optimize LLM spend across all CorpusIQ-connected agents (Sonnet, Opus, DeepSeek, Qwen). Route queries to the cheapest capable model.
 
 3. **Quality Evaluations:** Implement eval suites for agent responses - measure accuracy, helpfulness, and safety before deploying new agent versions.
 

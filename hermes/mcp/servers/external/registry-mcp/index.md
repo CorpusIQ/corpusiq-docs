@@ -69,7 +69,7 @@ No key required on the catalog surface. The same data is available as a REST API
 
 ## Integration with CorpusIQ
 
-CorpusIQ connectors read company records from accounting and CRM systems; registry-mcp is the verification layer against the national source of truth. A CorpusIQ agent onboarding a new Norwegian entity can look up the register entry, confirm VAT status, and schedule the entity's filing deadlines into the operator's calendar - closing the loop between the system of record and the government register.
+CorpusIQ connectors read company records from accounting and CRM systems; registry-mcp is the verification layer against the national source of truth. A CorpusIQ-connected agent onboarding a new Norwegian entity can look up the register entry, confirm VAT status, and schedule the entity's filing deadlines into the operator's calendar - closing the loop between the system of record and the government register.
 
 ## Limitations
 

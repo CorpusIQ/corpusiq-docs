@@ -57,7 +57,7 @@ D2C brands research niches and competitors before launch; agencies screen prospe
 
 ## Integration with CorpusIQ
 
-CorpusIQ's 40+ connectors cover your own commerce and marketing stack (Shopify, Stripe, Google Ads, GA4). Neonjelly covers the outside world: the store catalog, competitor changes and market saturation that context for every business decision. A CorpusIQ agent answering "should we enter this category" can pull its own numbers from CorpusIQ and the market numbers from Neonjelly in the same conversation.
+CorpusIQ's 40+ connectors cover your own commerce and marketing stack (Shopify, Stripe, Google Ads, GA4). Neonjelly covers the outside world: the store catalog, competitor changes and market saturation that context for every business decision. A CorpusIQ-connected agent answering "should we enter this category" can pull its own numbers from CorpusIQ and the market numbers from Neonjelly in the same conversation.
 
 ## Limitations
 

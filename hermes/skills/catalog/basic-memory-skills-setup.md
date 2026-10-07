@@ -70,7 +70,7 @@ All three audits Pass - the basis for the 🟢 Production tier.
 
 | Use Case | How |
 |---|---|
-| **Agent memory discipline** | The notes → observations → relations pattern is a portable model for how CorpusIQ agents structure session context and project knowledge |
+| **Agent memory discipline** | The notes → observations → relations pattern is a portable model for how CorpusIQ-connected agents structure session context and project knowledge |
 | **Research synthesis** | `memory-capture` + `memory-reflect` give research sweeps a structured place to land findings and consolidate them |
 | **Knowledge graph backing** | Operators asking CorpusIQ for knowledge management get a reference implementation: graph-first notes with metadata search |
 | **Code review loops** | `code-review`, `fix-pr-issues`, and `pr-create` support agent-driven PR workflows for the docs and MCP repos |

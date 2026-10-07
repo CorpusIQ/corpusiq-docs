@@ -76,7 +76,7 @@ Add the `Authorization: Bearer <key>` header when using a prepaid key; omit it f
 
 ## Integration with CorpusIQ
 
-Signal Nodus feeds the research layer that CorpusIQ's structured connectors complement. A diligence session can hold the target's books in QuickBooks and its web performance in GA4 through CorpusIQ while Signal Nodus supplies the EDGAR record - insider selling, receivables versus revenue in XBRL, pending 8-K events - so the agent can answer "what does the public record say about this company" and "what do their numbers say" in one pass. The per-call pricing means an idle CorpusIQ agent spends nothing on SEC data.
+Signal Nodus feeds the research layer that CorpusIQ's structured connectors complement. A diligence session can hold the target's books in QuickBooks and its web performance in GA4 through CorpusIQ while Signal Nodus supplies the EDGAR record - insider selling, receivables versus revenue in XBRL, pending 8-K events - so the agent can answer "what does the public record say about this company" and "what do their numbers say" in one pass. The per-call pricing means an idle CorpusIQ-connected agent spends nothing on SEC data.
 
 ## Limitations
 

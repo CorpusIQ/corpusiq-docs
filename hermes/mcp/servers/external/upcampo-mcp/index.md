@@ -73,7 +73,7 @@ If the connection returns "acesso ainda não liberado" after login, the account 
 
 ## Integration with CorpusIQ
 
-upCampo demonstrates the vertical-SaaS connector pattern with the permission discipline CorpusIQ requires: per-farm, per-theme reads and confirmed writes. For operators in the Brazilian agribusiness market, a CorpusIQ agent could combine upCampo field data with financial and marketplace connectors in one operational view. The capability-level tool surface also makes upCampo a good reference for how CorpusIQ documents permission-mapped connectors.
+upCampo demonstrates the vertical-SaaS connector pattern with the permission discipline CorpusIQ requires: per-farm, per-theme reads and confirmed writes. For operators in the Brazilian agribusiness market, a CorpusIQ-connected agent could combine upCampo field data with financial and marketplace connectors in one operational view. The capability-level tool surface also makes upCampo a good reference for how CorpusIQ documents permission-mapped connectors.
 
 ## Limitations
 

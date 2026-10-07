@@ -52,7 +52,7 @@ npx skills add vinvcn/mattpocock-skills-zh-cn --skill translate-skill
 
 ## CorpusIQ Use Cases
 
-- **Chinese-market operator support** - the localized suite lets CorpusIQ agents serve Chinese-speaking operators with native-language engineering workflows
+- **Chinese-market operator support** - the localized suite lets CorpusIQ-connected agents serve Chinese-speaking operators with native-language engineering workflows
 - **Localization pipeline** - `translate-skill` is a reusable workflow for localizing CorpusIQ's own skill packs and docs into zh-CN
 - **Spec discipline parity** - the to-spec → to-tickets → to-prd chain matches CorpusIQ's spec-first governance pattern
 

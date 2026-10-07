@@ -70,7 +70,7 @@ OAuth 2.1 flow with PKCE - browser authorization, no client secrets. Vendor publ
 
 ## Integration with CorpusIQ
 
-A4B slots into the ERP and operations stack CorpusIQ already connects. Asset and maintenance data pairs with the Odoo connector's inventory and stock movements, and QuickBooks items give the financial view of the same register - so an agent can trace an asset from the maintenance task through to its book value. The multi-tenant, audit-logged design matches CorpusIQ's governed-write doctrine: agent reads are scoped, and every write leaves a compliance-grade trail.
+A4B slots into the ERP and operations stack CorpusIQ already connects. Asset and maintenance data pairs with the Odoo connector's inventory and stock movements, and QuickBooks items give the financial view of the same register - so an agent can trace an asset from the maintenance task through to its book value. The multi-tenant, audit-logged design covers exactly the part CorpusIQ does not: CorpusIQ's reads are scoped and read-only, and any write an operator authorises lands here with a compliance-grade trail.
 
 ## Limitations
 

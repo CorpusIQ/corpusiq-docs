@@ -70,7 +70,7 @@ One account serves every client (laptop, editor, server) with usage counted once
 
 ## Integration with CorpusIQ
 
-CorpusIQ's data connectors answer "what is the business doing"; CTlogs answers "what is the domain footprint behind it". A CorpusIQ agent researching a company can pair financial context with CT-log evidence of its infrastructure - the same pairing brand-protection workflows use to connect a phishing domain to the actor behind it.
+CorpusIQ's data connectors answer "what is the business doing"; CTlogs answers "what is the domain footprint behind it". A CorpusIQ-connected agent researching a company can pair financial context with CT-log evidence of its infrastructure - the same pairing brand-protection workflows use to connect a phishing domain to the actor behind it.
 
 ## Limitations
 

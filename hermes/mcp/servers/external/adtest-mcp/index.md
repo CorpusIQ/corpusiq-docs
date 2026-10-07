@@ -82,7 +82,7 @@ The server is stdio-only; there is no hosted endpoint. The key travels only to A
 
 ## Integration with CorpusIQ
 
-AdTest.AI composes with CorpusIQ as the pre-spend gate inside marketing workflows. A CorpusIQ agent that reads campaign performance from Google Ads or Shopify can pull underperforming creatives, run them through AdTest.AI, and hand back the dimension scorecard to decide what to pause, iterate or scale - with the scoring result stored next to the performance data. The operator keeps one governance point: CorpusIQ supplies the spend and revenue truth, AdTest.AI supplies the creative diagnosis, and the human stays the only one who commits budget.
+AdTest.AI composes with CorpusIQ as the pre-spend gate inside marketing workflows. A CorpusIQ-connected agent that reads campaign performance from Google Ads or Shopify can pull underperforming creatives, run them through AdTest.AI, and hand back the dimension scorecard to decide what to pause, iterate or scale - with the scoring result stored next to the performance data. The operator keeps one governance point: CorpusIQ supplies the spend and revenue truth, AdTest.AI supplies the creative diagnosis, and the human stays the only one who commits budget.
 
 ## Limitations
 

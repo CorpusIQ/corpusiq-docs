@@ -69,7 +69,7 @@ Per-lookup rates match the REST API and draw from the same prepaid balance.
 
 ## Integration with CorpusIQ
 
-CorpusIQ's CRM connectors hold the prospect lists; VeriRoute grades the numbers on them. A CorpusIQ agent preparing an outbound campaign can pull the list from the CRM, run VeriRoute validation, and write back only the verified, non-flagged numbers - improving deliverability without the operator leaving the workflow.
+CorpusIQ's CRM connectors hold the prospect lists; VeriRoute grades the numbers on them. A CorpusIQ-connected agent preparing an outbound campaign can pull the list from the CRM, run VeriRoute validation, and write back only the verified, non-flagged numbers - improving deliverability without the operator leaving the workflow.
 
 ## Limitations
 

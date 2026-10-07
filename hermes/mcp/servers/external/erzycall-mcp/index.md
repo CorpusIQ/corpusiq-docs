@@ -79,7 +79,7 @@ First connection opens a browser sign-in where you pick which ErzyCall organizat
 
 ## Integration with CorpusIQ
 
-ErzyCall composes with CorpusIQ as the action layer on top of the business data CorpusIQ already reads. A CorpusIQ agent can watch Stripe payment failures or HubSpot deal stages, then trigger an ErzyCall confirmation or follow-up call with the context assembled from those connectors, and write the call outcome back into HubSpot or a Gmail thread as the closing note. The operator keeps one governance point: ErzyCall's confirmation gate means the agent proposes the call and the human approves the dial, while CorpusIQ supplies the account context that makes the call worth making. Webhooks close the loop, feeding call events back into the operator's dashboards alongside the other business signals.
+ErzyCall composes with CorpusIQ as the action layer on top of the business data CorpusIQ already reads. A CorpusIQ-connected agent can watch Stripe payment failures or HubSpot deal stages, then trigger an ErzyCall confirmation or follow-up call with the context assembled from those connectors, and write the call outcome back into HubSpot or a Gmail thread as the closing note. The operator keeps one governance point: ErzyCall's confirmation gate means the agent proposes the call and the human approves the dial, while CorpusIQ supplies the account context that makes the call worth making. Webhooks close the loop, feeding call events back into the operator's dashboards alongside the other business signals.
 
 ## Limitations
 

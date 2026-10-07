@@ -79,7 +79,7 @@ Optional 1Password Connect integration can source any secret via `op://` referen
 
 ## Integration with CorpusIQ
 
-CorpusIQ covers the financial and business-data layer; EuroDNS MCP covers the domain infrastructure layer operators run beside it. A CorpusIQ agent auditing a company's tech footprint can check domain availability, DNSSEC coverage and SSL expiry through this server while CorpusIQ supplies the business context - a natural pairing for due-diligence and M&A workflows.
+CorpusIQ covers the financial and business-data layer; EuroDNS MCP covers the domain infrastructure layer operators run beside it. A CorpusIQ-connected agent auditing a company's tech footprint can check domain availability, DNSSEC coverage and SSL expiry through this server while CorpusIQ supplies the business context - a natural pairing for due-diligence and M&A workflows.
 
 ## Limitations
 

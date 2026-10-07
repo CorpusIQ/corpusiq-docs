@@ -72,7 +72,7 @@ All seven tools are read-only and consume from the same credit balance as the RE
 
 ## Integration with CorpusIQ
 
-StayingAPI is a live data feed for a travel or hospitality vertical; CorpusIQ is the reporting layer that holds it against the business's own numbers. A CorpusIQ agent for a rental operator can pull StayingAPI market prices and compare them with internal booking data from a PMS connector to produce a rate-positioning report - occupancy and revenue from CorpusIQ, market context from StayingAPI, in one analysis.
+StayingAPI is a live data feed for a travel or hospitality vertical; CorpusIQ is the reporting layer that holds it against the business's own numbers. A CorpusIQ-connected agent for a rental operator can pull StayingAPI market prices and compare them with internal booking data from a PMS connector to produce a rate-positioning report - occupancy and revenue from CorpusIQ, market context from StayingAPI, in one analysis.
 
 ## Limitations
 

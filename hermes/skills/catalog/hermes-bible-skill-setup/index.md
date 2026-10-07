@@ -104,7 +104,7 @@ hermes bundles list                    # Confirm hermes-complete is loaded
 
 ## 6. CorpusIQ Use Cases
 
-**Profile-specific install for the CorpusIQ agent:**
+**Profile-specific install for the CorpusIQ-connected agent:**
 
 ```bash
 cd /tmp
@@ -113,7 +113,7 @@ mkdir -p ~/.hermes/profiles/corpusiq/skills/hermes-bible
 cp -r hermes-bible-skill/SKILL.md hermes-bible-skill/references ~/.hermes/profiles/corpusiq/skills/hermes-bible/
 ```
 
-**When the CorpusIQ agent should use this skill:**
+**When the CorpusIQ-connected agent should use this skill:**
 - Researching community patterns for autonomous agent design
 - Auditing SOUL.md patterns against the CorpusIQ profile structure
 - Discovering hidden features that could improve CorpusIQ's agent infrastructure

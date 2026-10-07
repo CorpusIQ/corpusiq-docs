@@ -65,7 +65,7 @@ Agent-driven finance and operations teams get a single, auditable gate for high-
 
 ## Integration with CorpusIQ
 
-CorpusIQ agents answer from read-only business data, but the moment an operator lets an agent ACT (refund in Stripe, discount in Shopify, adjust a Google Ads budget), a gate like Raposa turns those writes from autonomous to governed. The pattern: CorpusIQ supplies the context, the agent proposes the action, Raposa holds the action until a named human approves, and the audit chain records it.
+CorpusIQ-connected agents answer from read-only business data, but the moment an operator lets an agent ACT (refund in Stripe, discount in Shopify, adjust a Google Ads budget), a gate like Raposa turns those writes from autonomous to governed. The pattern: CorpusIQ supplies the context, the agent proposes the action, Raposa holds the action until a named human approves, and the audit chain records it.
 
 ## Limitations
 

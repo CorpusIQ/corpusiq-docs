@@ -78,7 +78,7 @@ Docs live at docs.formdall.de/mcp (German), covering the endpoint, the connect f
 
 ## Integration with CorpusIQ
 
-Formdall feeds CorpusIQ's lead pipeline directly: a CorpusIQ agent creates the form and wires a webhook action, so every submission lands in the lead tracker with the HMAC signature verified before the lead is enriched and scored. The agent can update field schemas as campaigns evolve - adding a budget field or a consent checkbox - without a deploy. Because submissions are only readable with explicit `submissions:read` consent, the integration keeps the operator in control of what the agent may access, matching CorpusIQ's permission model. For operators running German sites, the combination gives lead capture, DSGVO compliance and agent-driven follow-up in one flow.
+Formdall feeds CorpusIQ's lead pipeline directly: a CorpusIQ-connected agent creates the form and wires a webhook action, so every submission lands in the lead tracker with the HMAC signature verified before the lead is enriched and scored. The agent can update field schemas as campaigns evolve - adding a budget field or a consent checkbox - without a deploy. Because submissions are only readable with explicit `submissions:read` consent, the integration keeps the operator in control of what the agent may access, matching CorpusIQ's permission model. For operators running German sites, the combination gives lead capture, DSGVO compliance and agent-driven follow-up in one flow.
 
 ## Limitations
 

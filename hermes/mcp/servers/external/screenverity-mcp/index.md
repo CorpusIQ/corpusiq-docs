@@ -67,7 +67,7 @@ No credentials or account setup - the server runs locally against its packaged l
 
 ## Integration with CorpusIQ
 
-ScreenVerity adds a free compliance gate to CorpusIQ's vendor-facing workflows. A CorpusIQ agent reading QuickBooks vendor lists or Stripe payout recipients can run ScreenVerity's screen tool over each new counterparty and store the signed receipt alongside the vendor record - turning every payment workflow into a documented screening pass. It pairs with the catalog's GovGazette and 1Lookup guides for a broader U.S. vendor-intelligence stack.
+ScreenVerity adds a free compliance gate to CorpusIQ's vendor-facing workflows. A CorpusIQ-connected agent reading QuickBooks vendor lists or Stripe payout recipients can run ScreenVerity's screen tool over each new counterparty and store the signed receipt alongside the vendor record - turning every payment workflow into a documented screening pass. It pairs with the catalog's GovGazette and 1Lookup guides for a broader U.S. vendor-intelligence stack.
 
 ## Limitations
 

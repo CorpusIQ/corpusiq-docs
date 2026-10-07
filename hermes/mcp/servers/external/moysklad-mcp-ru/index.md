@@ -72,7 +72,7 @@ The account token goes in the environment the server reads at startup; the READM
 
 ## Integration with CorpusIQ
 
-moysklad-mcp-ru shows the ERP-connector pattern at the safety standard CorpusIQ aims for: read defaults, explicit gates on writes, source fields on every number. For operators in the Russian market, a CorpusIQ agent could pair this with the existing marketplace family guides (Ozon, Wildberries) to cover warehouse ERP plus marketplace channels in one reporting stack. The alpha status means it belongs in evaluation, not production books, yet.
+moysklad-mcp-ru shows the ERP-connector pattern at the safety standard CorpusIQ aims for: read defaults, explicit gates on writes, source fields on every number. For operators in the Russian market, a CorpusIQ-connected agent could pair this with the existing marketplace family guides (Ozon, Wildberries) to cover warehouse ERP plus marketplace channels in one reporting stack. The alpha status means it belongs in evaluation, not production books, yet.
 
 ## Limitations
 

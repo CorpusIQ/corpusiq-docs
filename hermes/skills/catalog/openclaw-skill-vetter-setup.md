@@ -113,7 +113,7 @@ skill_vetter:
 
 2. **Production Agent Safety:** CorpusIQ's 133+ skills need continuous validation - this prevents a broken dependency from silently failing in production.
 
-3. **Security Compliance:** Automated scanning for dangerous patterns keeps CorpusIQ agents compliant with security best practices.
+3. **Security Compliance:** Automated scanning for dangerous patterns keeps CorpusIQ-connected agents compliant with security best practices.
 
 4. **Onboarding Audit:** When onboarding new team members, vet their skill installation to ensure all required tools are configured.
 

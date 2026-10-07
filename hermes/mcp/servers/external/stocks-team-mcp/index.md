@@ -70,7 +70,7 @@ Attach the key as the authorization header on every request. All data requests a
 
 ## Integration with CorpusIQ
 
-stocks.team supplies the external financial evidence layer that CorpusIQ reports currently lack. A CorpusIQ agent building an investor update can pull `listFinancialMetrics` and `getMarketValuation` for peer companies and fold them into the same report as the operator's own business data, with every external figure carrying a verifiable SEC citation next to CorpusIQ's first-party numbers.
+stocks.team supplies the external financial evidence layer that CorpusIQ reports currently lack. A CorpusIQ-connected agent building an investor update can pull `listFinancialMetrics` and `getMarketValuation` for peer companies and fold them into the same report as the operator's own business data, with every external figure carrying a verifiable SEC citation next to CorpusIQ's first-party numbers.
 
 ## Limitations
 

@@ -148,7 +148,7 @@ async def list_tools() -> list[Tool]:
 |----------|-----|
 | Custom data connectors | Build MCP servers for proprietary data sources |
 | Internal tool exposure | Wrap internal APIs as MCP tools for Hermes agents |
-| Multi-agent tool sharing | One MCP server, consumed by all CorpusIQ agents |
+| Multi-agent tool sharing | One MCP server, consumed by all CorpusIQ-connected agents |
 | Client deployments | Build customer-specific MCP servers for white-label |
 
 ---

@@ -56,7 +56,7 @@ npx skills add lilmgenius/paperthin --skill re0        # ground-zero reset workf
 ## CorpusIQ Use Cases
 
 - **SSOT discipline** - `ssotize`'s audit-then-mutate gate is the exact pattern CorpusIQ uses for brand facts and product claims across content surfaces
-- **Context token economics** - `debloat` and `readchk` reinforce the field-filtering and memory-compaction doctrine already in CorpusIQ agent operating rules
+- **Context token economics** - `debloat` and `readchk` reinforce the field-filtering and memory-compaction doctrine already in CorpusIQ-connected agent operating rules
 - **Research rigor** - `factchk`/`mandela`/`prism` harden competitive-intelligence sweeps against hallucinated or assumed facts
 - **Long-session recovery** - the `re0` family is a reusable playbook for resetting stalled multi-hour agent sessions
 

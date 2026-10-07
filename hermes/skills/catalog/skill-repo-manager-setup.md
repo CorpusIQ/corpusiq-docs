@@ -134,7 +134,7 @@ All available as individual repos under `Victor-F-M-A-R/skywork-skill-*`.
 
 | Use Case | Application |
 |----------|-------------|
-| **CorpusIQ skill fleet management** | Sync, audit, and version-control all CorpusIQ agent skills |
+| **CorpusIQ skill fleet management** | Sync, audit, and version-control all CorpusIQ-connected agent skills |
 | **Multi-agent skill consistency** | Ensure all agent profiles use the same skill versions |
 | **Skill compatibility checks** | Audit custom skills against Hermes API changes |
 | **CI/CD for skills** | Integrate `check_updates.sh` into deployment pipeline |

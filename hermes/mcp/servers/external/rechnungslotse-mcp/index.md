@@ -73,7 +73,7 @@ OAuth 2.1 discovery is published at `https://rechnungslotse.de/.well-known/oauth
 
 ## Integration with CorpusIQ
 
-Rechnungslotse pairs with CorpusIQ's financial connectors: when a German operator's accounting stack (DATEV, sevDesk or Excel books synced through CorpusIQ) flags a rejected XRechnung, the CorpusIQ agent calls `rechnung_pruefen` to confirm the violation and `fehler_erklaeren` to produce the plain-language fix, then writes the corrected invoice back via `rechnung_erstellen` - idempotent by order number, so retries never duplicate. The VAT figures from `umsatzsteuer_aufstellung` feed the monthly close reports CorpusIQ assembles for the operator, with every ELSTER field number traceable to the underlying invoice data.
+Rechnungslotse pairs with CorpusIQ's financial connectors: when a German operator's accounting stack (DATEV, sevDesk or Excel books synced through CorpusIQ) flags a rejected XRechnung, the CorpusIQ-connected agent calls `rechnung_pruefen` to confirm the violation and `fehler_erklaeren` to produce the plain-language fix, then writes the corrected invoice back via `rechnung_erstellen` - idempotent by order number, so retries never duplicate. The VAT figures from `umsatzsteuer_aufstellung` feed the monthly close reports CorpusIQ assembles for the operator, with every ELSTER field number traceable to the underlying invoice data.
 
 ## Limitations
 

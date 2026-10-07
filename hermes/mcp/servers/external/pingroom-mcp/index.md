@@ -76,7 +76,7 @@ Client plugins are on GitHub (pingroom/skills): `pingroom-mcp` and `pingroom-cli
 
 ## Integration with CorpusIQ
 
-CorpusIQ's governance systems (approval gates, human-in-the-loop workflows) are exactly the pattern PingRoom productizes. A CorpusIQ agent that needs a human decision - approving a report, a spend threshold, a customer escalation - can hand the decision to PingRoom and resume with the recorded answer, keeping the audit trail in one place alongside CorpusIQ's data.
+CorpusIQ's governance systems (approval gates, human-in-the-loop workflows) are exactly the pattern PingRoom productizes. A CorpusIQ-connected agent that needs a human decision - approving a report, a spend threshold, a customer escalation - can hand the decision to PingRoom and resume with the recorded answer, keeping the audit trail in one place alongside CorpusIQ's data.
 
 ## Limitations
 

@@ -74,7 +74,7 @@ Treat either credential as a workspace credential: an OAuth connection always ca
 
 ## Integration with CorpusIQ
 
-Attensira measures what AI assistants say about a business; CorpusIQ measures what is happening inside it. A CorpusIQ agent preparing a monthly growth report can pull Attensira share-of-voice via `get_analytics` and combine it with CorpusIQ revenue and funnel data in the same analysis, then use `add_prompts` to act on the visibility gaps it finds. The `citation_timeline` receipts give both platforms a common, auditable evidence model.
+Attensira measures what AI assistants say about a business; CorpusIQ measures what is happening inside it. A CorpusIQ-connected agent preparing a monthly growth report can pull Attensira share-of-voice via `get_analytics` and combine it with CorpusIQ revenue and funnel data in the same analysis, then use `add_prompts` to act on the visibility gaps it finds. The `citation_timeline` receipts give both platforms a common, auditable evidence model.
 
 ## Limitations
 

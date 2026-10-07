@@ -64,7 +64,7 @@ The watchdog provides continuous security monitoring for agent deployments:
 
 This skill is critical for CorpusIQ's multi-agent infrastructure:
 
-- **Agent fleet security** - Audit all 15+ CorpusIQ agents for misconfigurations
+- **Agent fleet security** - Audit all 15+ CorpusIQ-connected agents for misconfigurations
 - **Pre-deployment checks** - Run before deploying new agent skills or connectors
 - **Compliance validation** - Ensure agent deployments meet security standards before client onboarding
 - **Incident response** - Detect unusual agent behavior that could indicate a compromise

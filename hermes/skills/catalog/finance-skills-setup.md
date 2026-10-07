@@ -14,7 +14,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Category:** Growth Operations / Business Intelligence
 **Quality Tier:** 🟡 Beta
 
-A collection of Python-based financial analysis skills that give Hermes agents the ability to fetch real-time market data, analyze stock correlations, evaluate options strategies, and generate financial UI components. Built on yfinance (Yahoo Finance) with 3,064 GitHub stars. Ideal for CorpusIQ agents serving business operators who need market intelligence.
+A collection of Python-based financial analysis skills that give Hermes agents the ability to fetch real-time market data, analyze stock correlations, evaluate options strategies, and generate financial UI components. Built on yfinance (Yahoo Finance) with 3,064 GitHub stars. Ideal for CorpusIQ-connected agents serving business operators who need market intelligence.
 
 ---
 
@@ -139,4 +139,4 @@ npx skills use himself65/finance-skills@yfinance-data 2>&1 | head -5
 - **Rate limiting**: Yahoo Finance may rate-limit frequent requests. Use `yf.download()` for bulk queries instead of individual `Ticker` calls.
 - **Data accuracy**: yfinance is not affiliated with Yahoo, Inc. Data may have delays or discrepancies vs. official sources.
 - **Hermes integration**: Combine with `timesfm-forecasting` for time-series predictions, or with the `corpusiq-research-intelligence-framework` for competitive market analysis.
-- **Business operator use case**: CorpusIQ agents can use these skills to provide market context, competitor stock performance, and industry trend analysis to business operators.
+- **Business operator use case**: CorpusIQ-connected agents can use these skills to provide market context, competitor stock performance, and industry trend analysis to business operators.

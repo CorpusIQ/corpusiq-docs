@@ -70,7 +70,7 @@ Add the endpoint as a custom connector in Claude, Cursor, VS Code or any MCP-com
 
 ## Integration with CorpusIQ
 
-Day Off answers the workforce side of a review; CorpusIQ answers the business side. A CorpusIQ agent can pull revenue, pipeline and operations data (Stripe, QuickBooks, HubSpot, Google Workspace, Slack) and, in the same session, ask Day Off who is out, whose approval is pending and how the team's hours landed - so a Monday operating review covers people and numbers together. Because both systems scope access by role, the composed answer respects each platform's permissions.
+Day Off answers the workforce side of a review; CorpusIQ answers the business side. A CorpusIQ-connected agent can pull revenue, pipeline and operations data (Stripe, QuickBooks, HubSpot, Google Workspace, Slack) and, in the same session, ask Day Off who is out, whose approval is pending and how the team's hours landed - so a Monday operating review covers people and numbers together. Because both systems scope access by role, the composed answer respects each platform's permissions.
 
 ## Limitations
 

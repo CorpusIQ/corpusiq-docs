@@ -74,7 +74,7 @@ Auth notes: connection flows through Datadog OAuth (organization-scoped, respect
 
 ## Integration with CorpusIQ
 
-Datadog pairs with CorpusIQ's analytics and FinOps surfaces. A composed workflow: the agent pulls cost anomalies from the catalogued multi-cloud FinOps tooling, then uses Datadog MCP to pull the metrics and traces behind the spike - attribution and explanation in one loop. For CorpusIQ-agent operators, Datadog's Audit Trail plus the MCP usage metrics give the same governance visibility over agent tool calls that CorpusIQ connectors give over business data, and the Stripe connector can reconcile any Datadog usage billing changes against actual charges.
+Datadog pairs with CorpusIQ's analytics and FinOps surfaces. A composed workflow: the agent pulls cost anomalies from the catalogued multi-cloud FinOps tooling, then uses Datadog MCP to pull the metrics and traces behind the spike - attribution and explanation in one loop. For CorpusIQ-connected agent operators, Datadog's Audit Trail plus the MCP usage metrics give the same governance visibility over agent tool calls that CorpusIQ connectors give over business data, and the Stripe connector can reconcile any Datadog usage billing changes against actual charges.
 
 ## Limitations
 

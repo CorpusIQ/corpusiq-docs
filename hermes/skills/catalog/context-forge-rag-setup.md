@@ -125,7 +125,7 @@ context-forge-rag profile
 | Use Case | Profile Application |
 |----------|-------------------|
 | **CorpusIQ RAG pipeline design** | Design chunking strategy, embedding model selection, hybrid retrieval architecture |
-| **Agent evaluation framework** | Define golden datasets, LLM judge rubrics, regression gates for CorpusIQ agents |
+| **Agent evaluation framework** | Define golden datasets, LLM judge rubrics, regression gates for CorpusIQ-connected agents |
 | **Feature roadmapping** | Convert operator feedback into sequenced, dependency-mapped GitHub issues |
 | **Observability telemetry** | Design cost tracking, trace aggregation, and performance monitoring for agent workflows |
 | **ADR documentation** | Produce Architecture Decision Records for key technical choices |

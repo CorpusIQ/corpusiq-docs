@@ -108,7 +108,7 @@ Shared MCP server configuration - add CorpusIQ MCP endpoint here:
 
 1. **Multi-Machine Agent Consistency:** Agents running on both Linux and macOS hosts. A shared Git-backed config ensures both machines use identical skills, MCP servers, and settings.
 
-2. **Team Onboarding:** New team members clone the config repo, run `./setup.sh`, and instantly have the full CorpusIQ agent toolkit - no manual skill installation needed.
+2. **Team Onboarding:** New team members clone the config repo, run `./setup.sh`, and instantly have the full CorpusIQ-connected agent toolkit - no manual skill installation needed.
 
 3. **Skill Versioning:** Skills change rapidly. Git tracking means you can roll back to a known-good skill version if an update breaks something.
 

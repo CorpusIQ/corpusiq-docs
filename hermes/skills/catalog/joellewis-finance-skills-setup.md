@@ -41,7 +41,7 @@ A sixth indexed listing (~50,213 installs) has no published name in the Sep 29 s
 
 | Use Case | How |
 |---|---|
-| Finance-domain reference | Consult wealth-management and core math skills as reference material when CorpusIQ agents answer financial questions. |
+| Finance-domain reference | Consult wealth-management and core math skills as reference material when CorpusIQ-connected agents answer financial questions. |
 | Compliance-aware analysis | Reference the compliance plugin's FINRA/SEC rule coverage when drafting compliance-adjacent content. |
 | Domain skill architecture | Study the 7-plugin layout as a pattern for organizing large multi-domain skill families. |
 

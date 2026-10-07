@@ -68,7 +68,7 @@ Read-only by design; there are no write tools. Rate limits apply to the public e
 
 ## Integration with CorpusIQ
 
-CorpusIQ answers "what is happening in my business"; ddmarketer answers "what should the product do next". A CorpusIQ agent researching a vertical can pull the top complaint gaps for that vertical and cross-check the dossier's competitor list against CorpusIQ's own competitive research. For an early-stage operator running both, ddmarketer is the idea-validation layer upstream of the product analytics CorpusIQ already provides.
+CorpusIQ answers "what is happening in my business"; ddmarketer answers "what should the product do next". A CorpusIQ-connected agent researching a vertical can pull the top complaint gaps for that vertical and cross-check the dossier's competitor list against CorpusIQ's own competitive research. For an early-stage operator running both, ddmarketer is the idea-validation layer upstream of the product analytics CorpusIQ already provides.
 
 ## Limitations
 

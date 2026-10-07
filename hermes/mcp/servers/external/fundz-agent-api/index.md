@@ -77,7 +77,7 @@ Keys come from the quickstart at app.fundz.net/agent-api. Docs live at github.co
 
 ## Integration with CorpusIQ
 
-Fundz feeds directly into CorpusIQ's lead pipeline: the lead tracker polls `watchlist_diff` on the domains already in the pipeline, and when a tracked company shows a new funding or 8-K event, the CorpusIQ agent writes a trigger-anchored outreach note into the contact timeline before the first email is drafted. `events_for_icp` runs as a discovery sweep ahead of cold outreach campaigns, and its evidence links get pasted into the research dossier CorpusIQ builds for each prospect - so the SDR opens the conversation with the filing, not a template. The tool's no-contact-data stance means it complements the enrichment CorpusIQ already runs rather than duplicating it.
+Fundz feeds directly into CorpusIQ's lead pipeline: the lead tracker polls `watchlist_diff` on the domains already in the pipeline, and when a tracked company shows a new funding or 8-K event, the CorpusIQ-connected agent writes a trigger-anchored outreach note into the contact timeline before the first email is drafted. `events_for_icp` runs as a discovery sweep ahead of cold outreach campaigns, and its evidence links get pasted into the research dossier CorpusIQ builds for each prospect - so the SDR opens the conversation with the filing, not a template. The tool's no-contact-data stance means it complements the enrichment CorpusIQ already runs rather than duplicating it.
 
 ## Limitations
 

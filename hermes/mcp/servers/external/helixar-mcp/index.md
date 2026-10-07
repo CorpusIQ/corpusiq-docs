@@ -68,7 +68,7 @@ Smoke-test the live server with `curl https://mcp.helixar.ai/health` or a JSON-R
 
 ## Integration with CorpusIQ
 
-CorpusIQ publishes MCP servers and connects to dozens of third-party ones - exactly the surface Sentinel scans. A CorpusIQ agent evaluating a new connector can run the manifest through `helixar_inspect_mcp` first and cite the findings in the adoption decision, keeping the same evidence trail CorpusIQ's governance workflows already produce.
+CorpusIQ publishes MCP servers and connects to dozens of third-party ones - exactly the surface Sentinel scans. A CorpusIQ-connected agent evaluating a new connector can run the manifest through `helixar_inspect_mcp` first and cite the findings in the adoption decision, keeping the same evidence trail CorpusIQ's governance workflows already produce.
 
 ## Limitations
 

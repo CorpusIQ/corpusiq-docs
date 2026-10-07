@@ -79,7 +79,7 @@ bash SKILL_DIR/scripts/logs.sh --service hermes-agent
 
 | Use Case | How |
 |---|---|
-| **Asian Market Deployment** | Deploy CorpusIQ agent infrastructure in Huawei Cloud's Asia-Pacific regions for lower latency |
+| **Asian Market Deployment** | Deploy CorpusIQ-connected agent infrastructure in Huawei Cloud's Asia-Pacific regions for lower latency |
 | **ARM64 Production** | Run Hermes agents on ARM64 Flexus instances - cost-efficient for always-on cron agents |
 | **Multi-Cloud Strategy** | Add Huawei Cloud as a deployment option alongside AWS/GCP/Azure |
 | **China Market Access** | Huawei Cloud provides compliant infrastructure for Chinese market operations |

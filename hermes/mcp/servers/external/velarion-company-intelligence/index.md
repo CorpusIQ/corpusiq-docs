@@ -81,7 +81,7 @@ The production URL carries a deployment name ("scraper-production" is the Railwa
 
 ## Integration with CorpusIQ
 
-CorpusIQ connects financial statements and operational data; Velarion adds the governance layer those statements do not carry. A CorpusIQ agent researching a public company can pair the financial picture with Velarion's compensation and Say-on-Pay data for a complete investment or board-prep brief.
+CorpusIQ connects financial statements and operational data; Velarion adds the governance layer those statements do not carry. A CorpusIQ-connected agent researching a public company can pair the financial picture with Velarion's compensation and Say-on-Pay data for a complete investment or board-prep brief.
 
 ## Limitations
 

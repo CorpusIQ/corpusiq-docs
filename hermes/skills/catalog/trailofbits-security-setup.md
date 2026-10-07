@@ -94,7 +94,7 @@ npx skills add trailofbits/skills
 
 | Use Case | How |
 |---|---|
-| **Agent skill security audit** | Use `static-analysis` + `semgrep-rule-creator` to audit CorpusIQ agent skills |
+| **Agent skill security audit** | Use `static-analysis` + `semgrep-rule-creator` to audit CorpusIQ-connected agent skills |
 | **Supply chain hardening** | Run `supply-chain-risk-auditor` on corpusiq-docs dependencies |
 | **GitHub Actions security** | Use `agentic-actions-auditor` to audit CI/CD workflows |
 | **Code maturity tracking** | Run `code-maturity-assessor` quarterly on core repos |

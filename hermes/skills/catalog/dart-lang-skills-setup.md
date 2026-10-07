@@ -71,7 +71,7 @@ All three audits Pass - the basis for the 🟢 Production tier.
 
 | Use Case | How |
 |---|---|
-| **Agent-built Dart tooling** | CorpusIQ agents that scaffold Dart CLIs or Flutter tooling load the workflow-core skills instead of guessing at `pub` and `analyze` commands |
+| **Agent-built Dart tooling** | CorpusIQ-connected agents that scaffold Dart CLIs or Flutter tooling load the workflow-core skills instead of guessing at `pub` and `analyze` commands |
 | **MCP server maintenance** | Dart-based MCP servers get correct test structuring, coverage, and static-analysis fixes from first-party guidance |
 | **FFI interop work** | `dart-use-ffigen` + `dart-setup-ffi-assets` cover binding generation for native integrations |
 | **Idiomatic review reference** | The reference tail (effective style, API design, idiomatic usage) is the Dart team's own standard - useful for reviewing agent-written Dart |

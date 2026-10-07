@@ -70,7 +70,7 @@ Node.js 18+ required. The token comes from the Gambot admin panel (Settings, Gen
 
 ## Integration with CorpusIQ
 
-Gambot carries the conversation; CorpusIQ reads the business. A CorpusIQ agent can pull customer segments and revenue context (Shopify buyers, Stripe payments, HubSpot pipeline, QuickBooks balances) and hand the right audience to a Gambot campaign - for example, a mail-merge blast to numbers from a sheet, or a re-engagement run filtered from the CRM - then read campaign results and check the revenue effect back in CorpusIQ. Inbound WhatsApp activity becomes the customer-facing edge of the same operational picture the rest of the connectors describe.
+Gambot carries the conversation; CorpusIQ reads the business. A CorpusIQ-connected agent can pull customer segments and revenue context (Shopify buyers, Stripe payments, HubSpot pipeline, QuickBooks balances) and hand the right audience to a Gambot campaign - for example, a mail-merge blast to numbers from a sheet, or a re-engagement run filtered from the CRM - then read campaign results and check the revenue effect back in CorpusIQ. Inbound WhatsApp activity becomes the customer-facing edge of the same operational picture the rest of the connectors describe.
 
 ## Limitations
 

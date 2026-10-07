@@ -87,7 +87,7 @@ For short command sequences (updates, config changes, restarts), the skill recom
 
 **Hermes Agent Discord gateway management:** Manage the CorpusIQ Discord gateway Hermes Agent deployment - monitor uptime, restart after updates, verify connectivity.
 
-**Multi-agent infrastructure:** Track all CorpusIQ agent deployments across VPS instances with a single inventory document.
+**Multi-agent infrastructure:** Track all CorpusIQ-connected agent deployments across VPS instances with a single inventory document.
 
 **CI/CD for agent updates:** Push Hermes Agent updates to remote VPS instances with rollback capability.
 

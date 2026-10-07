@@ -25,7 +25,7 @@ Built by: DOS AI (dosai.pro)
 
 ## Why This Matters for Operators
 
-Chatbots on WhatsApp and Telegram are only useful if someone operates them: watching conversations, catching leads, correcting prompts, and handing the dialog to a human when the rules say so. The DOS AI MCP puts that operator loop in the agent itself. A CorpusIQ-style agent can read the conversations, file leads, update a bot's prompt, send an operator message into a live dialog, and pull conversion analytics - from any MCP client.
+Chatbots on WhatsApp and Telegram are only useful if someone operates them: watching conversations, catching leads, correcting prompts, and handing the dialog to a human when the rules say so. The DOS AI MCP puts that operator loop in the agent itself. An operator's agent can read the conversations, file leads, update a bot's prompt, send an operator message into a live dialog, and pull conversion analytics - from any MCP client. CorpusIQ stays on the read side: it supplies the business data the agent reasons over and takes no part in those writes.
 
 **Two design decisions make this safe to hand to an agent**: there is no delete-project, no payment, and no member management - the destructive tool list is empty and a test guards it - and every tool calls the public REST route over HTTP, so a read-only key stays read-only and project scoping applies exactly once. Keys can be scoped to a single project and to read-only access, and only a SHA-256 hash of the key is stored.
 

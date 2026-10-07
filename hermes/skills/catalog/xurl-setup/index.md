@@ -117,7 +117,7 @@ hermes xurl media --file /path/to/image.png --text "Check this out"
 hermes skills list | grep xurl
 
 # Quick functional test - post a test tweet
-hermes xurl post "xurl setup verified - CorpusIQ agent reporting for duty"
+hermes xurl post "xurl setup verified - CorpusIQ-connected agent reporting for duty"
 ```
 
 ---

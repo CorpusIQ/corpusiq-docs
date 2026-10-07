@@ -73,7 +73,7 @@ Methodology is published at countersignatory.com/methodology and the launch essa
 
 ## Integration with CorpusIQ
 
-Countersignatory slots into the approval gates of CorpusIQ agent workflows: before a CorpusIQ agent approves a refund or sends a high-stakes outbound message, it calls `countersignatory_quote` to surface the cost of a verified human check, then `register_interest` so the demand is recorded against the operator's use case. The spot index feeds CorpusIQ's operational reporting as a benchmark line - what a human approval gate costs per decision - which operators can compare against the error rate of fully automated approvals. When the market opens, the same wiring upgrades from quoting to purchasing without changing the workflow shape.
+Countersignatory slots into the approval gate of an agent workflow an operator runs alongside CorpusIQ: before a write-capable agent outside CorpusIQ approves a refund or sends a high-stakes outbound message, it calls `countersignatory_quote` to surface the cost of a verified human check, then `register_interest` so the demand is recorded against the operator's use case. CorpusIQ's part is the read side - the Stripe, QuickBooks and CRM context behind the decision. The spot index feeds CorpusIQ's operational reporting as a benchmark line - what a human approval gate costs per decision - which operators can compare against the error rate of fully automated approvals. When the market opens, the same wiring upgrades from quoting to purchasing without changing the workflow shape.
 
 ## Limitations
 

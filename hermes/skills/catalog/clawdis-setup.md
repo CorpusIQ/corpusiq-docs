@@ -121,7 +121,7 @@ skills:
 
 ## CorpusIQ Integration
 
-These skills can be used to extend CorpusIQ agent capabilities:
+These skills can be used to extend CorpusIQ-connected agent capabilities:
 - **session-logs** → feed into Honcho for persistent memory
 - **model-usage** → complement CorpusIQ cost tracking
 - **healthcheck** → integrate with system monitoring crons

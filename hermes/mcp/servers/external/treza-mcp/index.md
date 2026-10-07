@@ -69,7 +69,7 @@ For headless use, a scoped API key with `pipelines:read` and `pipelines:run` per
 
 ## Integration with CorpusIQ
 
-Treza extends CorpusIQ's content automation stack: the CorpusIQ agent writes the weekly video brief, calls `create_pipeline` from a template, points the upload node at the connected YouTube channel, and lets `run_pipeline` plus `get_run` handle render and delivery while the agent reports the finished URL back into the campaign record. The schedule trigger replaces a cron for recurring content, and `estimate_run_cost` feeds CorpusIQ's budget tracking so video spend is visible alongside ad spend in the operator's monthly report. Channel connections stay with the operator's Treza account - CorpusIQ never sees social credentials.
+Treza extends the content automation stack an operator runs alongside CorpusIQ: the operator's agent writes the weekly video brief, calls `create_pipeline` from a template, points the upload node at the connected YouTube channel, and lets `run_pipeline` plus `get_run` handle render and delivery while the agent reports the finished URL back into the campaign record. CorpusIQ stays read-only throughout - the GA4 and Stripe context that tells the operator what the video earned. The schedule trigger replaces a cron for recurring content, and `estimate_run_cost` feeds CorpusIQ's budget tracking so video spend is visible alongside ad spend in the operator's monthly report. Channel connections stay with the operator's Treza account - CorpusIQ never sees social credentials.
 
 ## Limitations
 

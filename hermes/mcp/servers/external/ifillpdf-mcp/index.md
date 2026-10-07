@@ -71,7 +71,7 @@ First connect runs the OAuth browser flow against the protected resource. The se
 
 ## Integration with CorpusIQ
 
-iFillPDF plugs into CorpusIQ's document-heavy workflows. A CorpusIQ agent reading invoice and receipt data from QuickBooks or Stripe can generate the supporting form pack - tax declarations, vendor questionnaires, onboarding documents - via iFillPDF's field detection, pre-filling the values the connectors already hold so staff only review and sign. The flattened output stays archivable alongside the transaction record, closing the loop from business data to completed paperwork.
+iFillPDF plugs into CorpusIQ's document-heavy workflows. A CorpusIQ-connected agent reading invoice and receipt data from QuickBooks or Stripe can generate the supporting form pack - tax declarations, vendor questionnaires, onboarding documents - via iFillPDF's field detection, pre-filling the values the connectors already hold so staff only review and sign. The flattened output stays archivable alongside the transaction record, closing the loop from business data to completed paperwork.
 
 ## Limitations
 

@@ -74,7 +74,7 @@ Attach the key as the authorization header. Rate limits and error behavior are d
 
 ## Integration with CorpusIQ
 
-0xinsider provides the external market-intelligence stream for operators whose business touches prediction markets; CorpusIQ holds their first-party business data. A CorpusIQ agent covering an event-driven vertical can combine 0xinsider market snapshots and sharp-money flows with the operator's own revenue and funnel metrics to correlate market sentiment with business outcomes in one report.
+0xinsider provides the external market-intelligence stream for operators whose business touches prediction markets; CorpusIQ holds their first-party business data. A CorpusIQ-connected agent covering an event-driven vertical can combine 0xinsider market snapshots and sharp-money flows with the operator's own revenue and funnel metrics to correlate market sentiment with business outcomes in one report.
 
 ## Limitations
 

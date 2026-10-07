@@ -81,7 +81,7 @@ Prefer a read-only project key for agent use; escalate to a write key only when 
 
 ## Integration with CorpusIQ
 
-healthchecks-mcp gives CorpusIQ-driven workflows an ops feedback loop: a CorpusIQ agent running scheduled reports or connector syncs can check its own cron health through Healthchecks, read the failure body when a job breaks, and file the fix in the same session. For operators running both stacks, the CorpusIQ connectors hold the business data while Healthchecks holds the schedule truth - and the agent that reads the books can also watch the jobs that update them.
+healthchecks-mcp gives CorpusIQ-driven workflows an ops feedback loop: a CorpusIQ-connected agent running scheduled reports or connector syncs can check its own cron health through Healthchecks, read the failure body when a job breaks, and file the fix in the same session. For operators running both stacks, the CorpusIQ connectors hold the business data while Healthchecks holds the schedule truth - and the agent that reads the books can also watch the jobs that update them.
 
 ## Limitations
 

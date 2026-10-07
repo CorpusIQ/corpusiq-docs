@@ -142,7 +142,7 @@ When the Dojo runs an improvement cycle, it:
 
 ## Integration with CorpusIQ
 
-For CorpusIQ agent workflows, the Hermes Dojo can:
+For CorpusIQ-connected agent workflows, the Hermes Dojo can:
 
 - **Skill Auditing:** Run weekly audits of all CorpusIQ growth skills
 - **Self-Healing:** Auto-patch skills that start failing after API changes

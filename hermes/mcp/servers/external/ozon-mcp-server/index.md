@@ -80,7 +80,7 @@ For the Docker deployment, generate a bearer token with `openssl rand -hex 32` a
 
 ## Integration with CorpusIQ
 
-CorpusIQ's marketplace connectors cover Western platforms; this server covers the Russian marketplace stack operators selling into that market need. A CorpusIQ agent managing a multi-marketplace seller can hold Ozon operations in this toolset while CorpusIQ reconciles the aggregated financial picture across all platforms.
+CorpusIQ's marketplace connectors cover Western platforms; this server covers the Russian marketplace stack operators selling into that market need. A CorpusIQ-connected agent managing a multi-marketplace seller can hold Ozon operations in this toolset while CorpusIQ reconciles the aggregated financial picture across all platforms.
 
 ## Limitations
 

@@ -170,7 +170,7 @@ npx skills add google/skills --skill gcloud
 
 ## Hermes Integration Notes
 
-- **Agent hosting:** Deploy CorpusIQ agents on Agent Platform with managed infrastructure and continuous evaluation
+- **Agent hosting:** Deploy CorpusIQ-connected agents on Agent Platform with managed infrastructure and continuous evaluation
 - **AI inference:** Use Gemini API as an alternative model backend for Hermes agent reasoning tasks
 - **Data warehouse:** BigQuery for storing and analyzing growth metrics, session data, and user behavior
 - **Growth analytics:** GA4 Data API for attribution modeling and conversion tracking across CorpusIQ channels

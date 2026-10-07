@@ -90,7 +90,7 @@ Supports: reports, screenshots, generated images, log files, data exports.
 
 | Use Case | How |
 |---|---|
-| **Mobile agent check-in** | Load `clawpilot-pair`, pair phone, chat with CorpusIQ agent from anywhere |
+| **Mobile agent check-in** | Load `clawpilot-pair`, pair phone, chat with CorpusIQ-connected agent from anywhere |
 | **Receive daily reports on mobile** | Agent generates report, uses `clawpilot-send` to deliver to PocketClaw |
 | **Remote diagnostics** | Load `clawpilot-doctor` when agent goes unresponsive  --  diagnose from phone |
 | **Config validation before pairing** | Load `clawpilot-config` to verify Hermes API server before attempting pairing |
