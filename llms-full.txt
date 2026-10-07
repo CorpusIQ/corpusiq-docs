@@ -4895,11 +4895,18 @@ ask again. This page is about asking well and knowing what you'll get back.
 ## How to ask
 
 - **Direct message** the app for a private answer only you see.
-- **@-mention** the app in a channel (`@CorpusIQ ...`) when the answer belongs
-  to the whole channel.
+- **In Slack channels**, @-mention the app (`@CorpusIQ ...`) when the answer
+  belongs to the whole channel.
+- **In Teams group chats and team channels**, mention the bot and send
+  `corpusiq-share <question>` only when you intend to disclose the answer to
+  everyone who can read that conversation. An ordinary question receives
+  privacy guidance instead of business data. The request uses your own
+  CorpusIQ identity and AI configuration, not a shared account. See
+  [Teams setup](getting-started-teams.md) for private account linking.
 
 Ask the way you'd ask a colleague who has all the numbers in front of them.
-Plain English, no special syntax:
+Use plain English for the question; in a shared Teams conversation, keep the
+`corpusiq-share` prefix:
 
 > How did revenue compare to last month?
 
@@ -4919,8 +4926,9 @@ then narrow:
 
 > Now break that down by product.
 
-Each reply builds on the last, so you don't have to restate the whole question
-every time.
+Where conversational context is available, each reply can build on the last.
+Teams shared answers do not create persistent team-wide AI memory: include
+enough context in each `corpusiq-share` request for it to stand on its own.
 
 ## What the answers look like
 
@@ -4987,8 +4995,10 @@ connected.
 > What changed the most week over week?
 
 That last kind - the broad "how are we doing" question - is where the chat app
-earns its place. One question in a channel, and everyone sees the same answer,
-drawn live from the tools behind it.
+earns its place. An intentionally shared answer lets the conversation discuss
+the same result, drawn live from your connected tools. In Teams, use
+`corpusiq-share` and disclose only data you are authorized to share with those
+participants.
 
 ## If an answer looks off
 
@@ -5149,78 +5159,114 @@ URL: https://www.corpusiq.io/docs/chat-apps/getting-started-teams
 
 # Getting started in Microsoft Teams
 
-Three steps, once. The only real difference from Slack is how you sign in -
-Teams uses your Microsoft account, so it's usually a single tap.
+CorpusIQ answers questions using the business tools you connect. Ask privately
+in a personal chat, or explicitly share an answer with a group or team channel.
 
-## Step 1 - Sign in to CorpusIQ
+## Before you start
 
-The app won't read any data until it knows who you are. In Teams, this uses the
-Microsoft account you're already signed in with.
+You need:
 
-1. Open a chat with the CorpusIQ app and send it a message - a simple "hi" is
-   enough the first time.
-2. If you're not linked yet, the app shows a **Sign in** prompt. Tap it.
-3. Confirm with your Microsoft account. Because you're already signed in to
-   Teams, this is usually one tap with nothing to type.
-4. Once you're connected, ask your question again and the app answers.
+- An [active CorpusIQ account](https://www.corpusiq.io/register) with an eligible
+  trial or subscription. You will explicitly link this account to your Microsoft
+  identity; the two email addresses do not need to match.
+- Permission to access the business data sources you connect to CorpusIQ.
+- Your own supported AI provider key: OpenAI, Anthropic, or Azure OpenAI.
+  Provider usage charges are separate from your CorpusIQ subscription.
+- Permission to install the app and consent to sign-in. Your Microsoft tenant
+  may require an administrator to approve the app.
 
-<!-- screenshot: the CorpusIQ sign-in card in a Teams chat -->
+Send `help`, `hi`, or `hello` to see setup guidance before signing in. You do not
+need a CorpusIQ account or AI key to read help. Never paste passwords, access
+tokens, or provider keys into a Teams conversation.
 
-You only do this once. The app stays linked until you sign out.
+## Step 1 - Sign in privately
 
-If the sign-in prompt doesn't appear, or tapping it doesn't complete, see
-[troubleshooting.md](troubleshooting.md).
+1. Open the CorpusIQ app's personal chat in Microsoft Teams.
+2. Send `corpusiq-login` and use the sign-in prompt.
+3. Sign in with your Microsoft account. If Microsoft requests administrator
+   approval, contact your tenant administrator. If the bot asks you to confirm
+   after interactive Microsoft sign-in, send a fresh `corpusiq-login` message;
+   an old or replayed sign-in callback cannot finish a replacement login.
+4. On first use, follow the private CorpusIQ account-link prompt and sign in to
+   the CorpusIQ account you want to use. Approve only a code you initiated in
+   your own personal chat. This proves control of both accounts; matching email
+   addresses alone never links them.
+5. After approving the CorpusIQ prompt in your browser, return to the personal
+   chat and send `corpusiq-login` again to finish. The attempt expires within
+   ten minutes; if it expires, start a new sign-in. If the bot restarts while
+   you are authorizing, the same command resumes the unexpired attempt.
+6. If you do not have a CorpusIQ account, use the
+   [registration link](https://www.corpusiq.io/register), then return to the
+   personal chat and send `corpusiq-login` again.
+7. Once connected, resend your question. The bot does not save or automatically
+   replay business questions from before sign-in.
 
-## Step 2 - Set your AI key
+Channel conversations cannot perform the same bot SSO flow as personal chats.
+If you start in a channel, use the bot's link to its personal chat, finish
+sign-in there, and return to the channel. Do not share a sign-in link or
+credential with another participant to give them access to your account.
 
-CorpusIQ does the thinking with an AI model, and in Slack and Teams you bring
-your own key for it. This keeps the AI spend and the data on the model side
-inside your own account.
+If sign-in fails, see [troubleshooting](troubleshooting.md) or
+[contact support](https://www.corpusiq.io/support).
 
-You add the key once, in the CorpusIQ dashboard (not in Teams):
+## Step 2 - Configure your AI key and data sources
 
-1. Sign in at [the CorpusIQ dashboard](https://www.corpusiq.io).
-2. Go to your AI key settings.
-3. Paste in a key from OpenAI, Anthropic, or Azure OpenAI and save.
+1. Sign in to [CorpusIQ](https://www.corpusiq.io/login).
+2. Open your AI model settings and configure OpenAI, Anthropic, or Azure OpenAI.
+   Enter the key in the dashboard, not in Teams.
+3. Connect the business tools you want to ask about and grant only the access
+   you intend to use.
 
-<!-- screenshot: the dashboard AI key setting with a provider selected -->
+CorpusIQ uses your provider configuration for your requests. It does not fall
+back to a CorpusIQ-owned provider key when your configuration is missing. With
+Azure OpenAI, use your own endpoint and model deployment; model requests are
+sent to that configured endpoint.
 
-If your first question comes back asking for a key, this is the step you're
-missing. Some workspaces provide the key for everyone - if a question answers
-without you setting one, you're already covered.
+## Step 3 - Choose a private or shared answer
 
-Azure OpenAI is worth calling out for Microsoft-centric teams: using it keeps
-the model calls inside your own Azure tenant, alongside the rest of your
-Microsoft stack.
+### Private questions
 
-## Step 3 - Ask your first question
+Message CorpusIQ directly in its personal chat. For example:
 
-Two ways to ask:
+> How many website sessions did we have over the last seven days?
 
-- **Message the app directly** for a private answer.
-- **@-mention it** in a Teams channel when the answer is useful to everyone in
-  the channel.
+The answer uses your connected sources. Missing permissions, disconnected
+sources, or provider errors are reported rather than presented as an empty
+successful answer.
 
-Plain English. A good first question is one you can sanity-check:
+### Group chats and team channels
 
-> How much revenue did we bring in last month?
+Mention the bot and use `corpusiq-share` followed by the question you want
+answered publicly in that conversation. For example:
 
-> Which ad campaigns spent the most last week?
+> @CorpusIQ corpusiq-share How many website sessions did we have over the last seven days?
 
-> How many orders are waiting to ship?
+The reply is visible to everyone who can read that group or channel thread.
+**Only share data you are authorized to disclose to those participants.** The
+bot runs the request using your own CorpusIQ identity and AI configuration;
+it does not give other participants access to your account or connectors.
 
-The answer comes back as a card - key numbers laid out, not a paragraph to
-squint at.
+An ordinary question without `corpusiq-share` receives guidance instead of
+automatically publishing business data. For account setup and connector status,
+use the personal chat. If a channel asks you to sign in privately, complete that
+step and send the sharing request again when you return.
 
-![A CorpusIQ answer in Microsoft Teams: a short summary line followed by an Adaptive Card showing the session count and its breakdown, with a "Powered by CorpusIQ" footer.](../assets/teams-answer-sessions.png)
+Shared answers let participants discuss the same result in the conversation.
+They do not create a shared CorpusIQ account or persistent team-wide AI memory.
 
-If a question needs a tool you haven't connected, the app tells you and links
-you to connect it in the dashboard. Connect once, ask again, done.
+## Commands
 
-## That's it
+| Command | What it does |
+|---|---|
+| `help` or `corpusiq-help` | Shows commands, setup, and sharing guidance without sign-in. |
+| `corpusiq-login` | Links your own CorpusIQ account. Start from personal chat for channel use. |
+| `corpusiq-logout` | Clears cached credentials and pending sign-ins; does not remove your permanent account association. |
+| `corpusiq-status` | Shows connector status; use personal chat for account details. |
+| `corpusiq-share <question>` | Intentionally shares an answer in the current group or channel conversation. |
 
-Two one-time steps behind you. From here it's just asking. For questions worth
-trying next, see [asking-questions.md](asking-questions.md).
+For more question examples, see [asking questions](asking-questions.md).
+For setup or account assistance, use [Help & Support](https://www.corpusiq.io/support)
+or [contact us](https://www.corpusiq.io/contact).
 
 ---
 # Troubleshooting
@@ -5237,10 +5283,16 @@ the list - they're in the order you'll hit them.
 The app isn't linked to your CorpusIQ account yet, or your link expired.
 
 - **Slack:** run `/corpusiq-login` and follow the direct message it sends you.
-- **Teams:** send the app a message and tap the **Sign in** prompt.
+- **Teams:** open the app's personal chat and send `corpusiq-login`. Complete
+  Microsoft sign-in and, on first use, explicitly approve the CorpusIQ account
+  link. Then send a fresh `corpusiq-login` to finish. The Microsoft and CorpusIQ
+  email addresses do not need to match. Never post a code or credential in a
+  group chat or channel.
 
-If you linked a while ago and it's asking again, the link timed out - sign in
-again and it'll stick.
+If you linked a while ago and it asks again, complete sign-in again. In Teams,
+the command resumes an unexpired account-link attempt; an expired attempt
+requires a new sign-in. Resend your question after connecting; the bot does not
+automatically replay questions from before sign-in.
 
 See [getting-started-slack.md](getting-started-slack.md) or
 [getting-started-teams.md](getting-started-teams.md) for the full flow.
@@ -5255,9 +5307,9 @@ Add it in the CorpusIQ dashboard, not in chat:
 2. Open your AI key settings.
 3. Add a key from OpenAI, Anthropic, or Azure OpenAI and save.
 
-Ask again and it'll answer. If you believe your workspace provides a shared key,
-check with whoever set the app up - the message means the app read no key for
-you.
+Ask again after saving your provider configuration. CorpusIQ uses your own
+configuration and does not fall back to a CorpusIQ-owned provider key when it
+is missing. Provider usage charges are separate from your CorpusIQ subscription.
 
 ## "It says a tool isn't connected"
 
@@ -5273,17 +5325,26 @@ it asks rather than making something up.
 If answers look like someone else's data, or you're on a shared computer, the
 app may be linked as a different person.
 
-- Sign out: `/corpusiq-logout` in Slack, or the logout action in Teams.
+- Sign out: `/corpusiq-logout` in Slack, or `corpusiq-logout` in Teams personal chat.
 - Sign back in as yourself.
 
-One person is linked at a time, so signing out and back in puts it right.
+Each Teams request uses the requesting user's linked CorpusIQ identity.
+`corpusiq-logout` clears cached credentials and pending sign-ins; it does not
+remove the permanent Microsoft-to-CorpusIQ account association. Check that
+Microsoft Teams itself is signed in as the intended Microsoft user. If that
+identity is associated with the wrong CorpusIQ account, stop asking data
+questions and [contact support](https://www.corpusiq.io/support); signing out
+and back in does not switch the association. Other group or channel
+participants do not gain access to your account.
 
 ## The sign-in prompt won't complete (Teams)
 
 If tapping **Sign in** in Teams doesn't finish:
 
 - Make sure you're signed in to Teams with the Microsoft account you expect.
-- Try the message again - send a fresh message to bring the prompt back.
+- Send a fresh `corpusiq-login` in the app's personal chat to resume or confirm
+  the attempt. After browser approval, return to Teams and send the command
+  again. If the attempt has expired, start a new sign-in.
 - If it still won't complete, your workspace's sign-in setup may need an
   admin's attention. Tell whoever installed the app, or email
   [support@corpusiq.io](mailto:support@corpusiq.io).
