@@ -46,6 +46,9 @@ jobs:
       - name: Validate frontmatter
         run: python scripts/validate_frontmatter.py
 
+      - name: Validate Vercel deployment packaging
+        run: python -m unittest scripts/test_vercel_deploy.py
+
       - name: Reject blanket data-retention claims
         run: |
           python scripts/validate_retention_claims.py
