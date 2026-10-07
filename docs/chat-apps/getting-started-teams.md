@@ -36,7 +36,9 @@ tokens, or provider keys into a Teams conversation.
 1. Open the CorpusIQ app's personal chat in Microsoft Teams.
 2. Send `corpusiq-login` and use the sign-in prompt.
 3. Sign in with your Microsoft account. If Microsoft requests administrator
-   approval, contact your tenant administrator.
+   approval, contact your tenant administrator. If the bot asks you to confirm
+   after interactive Microsoft sign-in, send a fresh `corpusiq-login` message;
+   an old or replayed sign-in callback cannot finish a replacement login.
 4. On first use, follow the private CorpusIQ account-link prompt and sign in to
    the CorpusIQ account you want to use. Approve only a code you initiated in
    your own personal chat. This proves control of both accounts; matching email
