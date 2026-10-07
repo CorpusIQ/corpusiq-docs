@@ -44,9 +44,11 @@ dashamail = mcp_dashamail_connector()
 
 ### API Key Alternative
 
+```bash
 # Generate API key from DashaMail dashboard
 # Then add with key
 hermes mcp add dashamail -- key YOUR_API_KEY_HERE
+```
 
 ## Integration Notes
 
