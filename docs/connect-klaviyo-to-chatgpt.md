@@ -55,8 +55,7 @@ The same connection works across assistants. You connect the data once rather th
 ## Security and data handling
 
 - **Read-only.** The Klaviyo retrieval tools documented here are marked read-only. The assistant can read and cite your marketing data, but it cannot send a campaign, edit a flow, or modify a subscriber.
-- **No storage of raw data.** CorpusIQ does not retain raw customer files or full connector response payloads. It retrieves on demand and returns the answer read-only.
-- **Bounded operational logs.** Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Bounded, scoped retention.** Direct MCP requests fetch live and do not build a raw-file or full-payload warehouse. Scoped operational logs may persist for up to 30 days.
 - **Your access controls.** Nobody at CorpusIQ can access your accounts. Each user connects and queries under their own authorized credentials.
 
 ## Frequently Asked Questions
@@ -64,7 +63,7 @@ The same connection works across assistants. You connect the data once rather th
 <details>
 <summary><strong>Can ChatGPT send a campaign or edit a flow?</strong></summary>
 
-No. CorpusIQ is read-only. The assistant can read and cite Klaviyo data, but it cannot create, send, or modify anything in your account. Campaign execution stays in Klaviyo.
+No. The retrieval tools documented here are marked read-only. The assistant can read and cite Klaviyo data, but it cannot create, send, or modify anything in your account. Campaign execution stays in Klaviyo.
 
 </details>
 

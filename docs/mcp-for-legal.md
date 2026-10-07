@@ -87,7 +87,7 @@ No. CorpusIQ connects to where the documents already are, whether that is a shar
 <details>
 <summary><strong>Can the assistant change or delete a document?</strong></summary>
 
-No. CorpusIQ is read-only. Nothing in a connected system can be created, edited, moved, or deleted through the assistant.
+No. The retrieval tools documented here are marked read-only. Nothing in a connected system can be created, edited, moved, or deleted through the assistant.
 
 </details>
 

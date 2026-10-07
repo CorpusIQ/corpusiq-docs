@@ -88,14 +88,14 @@ CorpusIQ is the connector layer between the people systems you run and the AI as
 <details>
 <summary><strong>Can the AI see salary information?</strong></summary>
 
-Only what the credentials you authorize can already see. You connect each system yourself through its own OAuth flow, and the permissions are the ones you grant. CorpusIQ returns answers read-only and does not retain raw records.
+Only what the credentials you authorize can already see. You connect each system yourself through its own OAuth flow, and the permissions are the ones you grant. Direct MCP requests fetch live; raw files and full response payloads are not warehoused.
 
 </details>
 
 <details>
 <summary><strong>Can the AI change an employee record?</strong></summary>
 
-No. CorpusIQ is read-only. The assistant can read and cite people data, but it cannot create, edit, or delete anything in your systems.
+No. The retrieval tools documented here are marked read-only. The assistant can read and cite people data, but it cannot create, edit, or delete anything in your systems.
 
 </details>
 

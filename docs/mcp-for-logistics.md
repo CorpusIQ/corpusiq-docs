@@ -68,7 +68,7 @@ Where order data, inventory data, and cost data are connected, the promise quest
 
 ## How CorpusIQ fits
 
-CorpusIQ is the connector layer between the systems you already run and the AI assistant your team already uses. Retrieval is read-only and cited, and the raw data never leaves your control.
+CorpusIQ is the connector layer between the systems you already run and the AI assistant your team already uses. Retrieval is read-only and cited, and your systems remain the source of record.
 
 - **Orders and fulfilment.** Connect Shopify, Amazon Seller Central, eBay, or Etsy for order and fulfilment data.
 - **Financial cost.** Connect QuickBooks for freight, supplier invoices, and cost of goods.
@@ -89,7 +89,7 @@ Often yes. If the system exposes PostgreSQL, SQL Server, MySQL, MongoDB, or Cosm
 <details>
 <summary><strong>Can the AI update a shipment or rebook a delivery?</strong></summary>
 
-No. CorpusIQ is strictly read-only. The assistant can read and cite shipment, inventory, and cost data, but it cannot change anything in the connected systems. Any action has to happen in a tool you control.
+No. The retrieval tools documented here are marked read-only. The assistant can read and cite shipment, inventory, and cost data, but it cannot change anything in the connected systems. Any action has to happen in a tool you control.
 
 </details>
 

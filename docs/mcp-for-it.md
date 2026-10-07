@@ -73,14 +73,14 @@ CorpusIQ is the connector layer. It links the systems IT already runs to the AI 
 - **Finance and spend.** Connect QuickBooks for invoices and vendor spend.
 - **Product analytics.** Connect PostHog for usage and funnel data behind internal tools.
 
-Every connector is read-only from the assistant's side. CorpusIQ never writes to a connected system, and it does not store raw customer files or full response payloads.
+The retrieval tools documented here are marked read-only. CorpusIQ never writes to a connected system, and it does not store raw customer files or full response payloads.
 
 ## Frequently Asked Questions
 
 <details>
 <summary><strong>Can ChatGPT reset a password or change a ticket status?</strong></summary>
 
-No. CorpusIQ is read-only by design. The assistant can read and cite your systems, but it cannot modify or execute anything in them. If you want AI to take action, that has to happen in a separate tool that you control.
+No. The retrieval tools documented here are marked read-only. The assistant can read and cite your systems, but it cannot modify or execute anything in them. If you want AI to take action, that has to happen in a separate tool that you control.
 
 </details>
 

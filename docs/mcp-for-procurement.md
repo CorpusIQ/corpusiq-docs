@@ -70,7 +70,7 @@ CorpusIQ is the connector layer between the systems you already run and the AI a
 <details>
 <summary><strong>Can the assistant approve a purchase order?</strong></summary>
 
-No. CorpusIQ is read-only and provides no execution capability. The assistant can read and cite vendor, contract, and spend data, but approvals stay in your own systems.
+No. The retrieval tools documented here are marked read-only and provide no execution capability. The assistant can read and cite vendor, contract, and spend data, but approvals stay in your own systems.
 
 </details>
 
@@ -84,7 +84,7 @@ By connecting both and asking one question. "What did we actually pay against th
 <details>
 <summary><strong>Is supplier pricing visible to everyone?</strong></summary>
 
-Access follows the credentials each user connects. A user only sees what their own authorised accounts can already see, and CorpusIQ does not store the underlying records.
+Access follows the credentials each user connects. A user only sees what their own authorised accounts can already see. Your systems remain the source of record.
 
 </details>
 

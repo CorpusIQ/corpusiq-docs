@@ -63,8 +63,7 @@ The connection is assistant-agnostic. You connect the account once and use it fr
 ## Security and data handling
 
 - **Read-only.** The Google Ads retrieval tools are marked read-only. The assistant can read and cite account data, but it cannot change bids, budgets, campaigns, or creatives.
-- **No storage of raw data.** CorpusIQ does not retain raw customer files or full connector response payloads.
-- **Bounded operational logs.** Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Bounded, scoped retention.** Direct MCP requests fetch live and do not build a raw-file or full-payload warehouse. Scoped operational logs may persist for up to 30 days.
 - **Your access controls.** Nobody at CorpusIQ can access your accounts, and each user queries under their own authorized credentials.
 
 ## Frequently Asked Questions
@@ -72,7 +71,7 @@ The connection is assistant-agnostic. You connect the account once and use it fr
 <details>
 <summary><strong>Can ChatGPT change my bids or pause a campaign?</strong></summary>
 
-No. CorpusIQ is read-only. The assistant can analyse and cite your Google Ads data, but it cannot modify bids, budgets, or campaign settings. Those changes stay in Google Ads.
+No. The retrieval tools documented here are marked read-only. The assistant can analyse and cite your Google Ads data, but it cannot modify bids, budgets, or campaign settings. Those changes stay in Google Ads.
 
 </details>
 

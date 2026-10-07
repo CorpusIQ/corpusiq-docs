@@ -76,7 +76,7 @@ CorpusIQ is the connector layer between the systems you already run and the AI a
 <details>
 <summary><strong>Can the AI release a work order or post a transaction?</strong></summary>
 
-No. CorpusIQ is read-only. The assistant reads and cites your systems but cannot create, change, or post anything in them. Execution stays in the systems that own it.
+No. The retrieval tools documented here are marked read-only. The assistant reads and cites your systems but cannot create, change, or post anything in them. Execution stays in the systems that own it.
 
 </details>
 

@@ -50,8 +50,7 @@ You authorize read-only access to Seller Central through Amazon's own authorizat
 ## Security and data handling
 
 - **Read-only.** The Amazon retrieval tools are marked read-only. The assistant can read and cite your marketplace data, but it cannot list a product, change a price, or ship an order.
-- **No storage of raw data.** CorpusIQ does not retain raw customer files or full connector response payloads.
-- **Bounded operational logs.** Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Bounded, scoped retention.** Direct MCP requests fetch live and do not build a raw-file or full-payload warehouse. Scoped operational logs may persist for up to 30 days.
 - **Your access controls.** Nobody at CorpusIQ can access your accounts, and each user queries under their own authorized credentials.
 
 ## Frequently Asked Questions
@@ -59,7 +58,7 @@ You authorize read-only access to Seller Central through Amazon's own authorizat
 <details>
 <summary><strong>Can ChatGPT list a product or change a price?</strong></summary>
 
-No. CorpusIQ is read-only and provides no execution capability. The assistant analyses and cites your marketplace data, but all selling actions stay in Seller Central.
+No. The retrieval tools documented here are marked read-only and provide no execution capability. The assistant analyses and cites your marketplace data, but all selling actions stay in Seller Central.
 
 </details>
 
