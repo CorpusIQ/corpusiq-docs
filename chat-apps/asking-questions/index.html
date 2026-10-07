@@ -115,8 +115,8 @@
     "description": "How to ask CorpusIQ good questions in Slack and Teams, what the answers look like, and a set of prompts worth trying across finance, ads, ecommerce, and more.",
     "url": "https://www.corpusiq.io/docs/chat-apps/asking-questions",
     
-    "datePublished": "2026-08-23",
-    "dateModified": "2026-08-23",
+    "datePublished": "2026-10-07",
+    "dateModified": "2026-10-07",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +140,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-23">
+  <meta name="last-updated" content="2026-10-07">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10825,11 +10825,18 @@ ask again. This page is about asking well and knowing what you'll get back.</p>
 <h2 id="how-to-ask">How to ask<a class="headerlink" href="#how-to-ask" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Direct message</strong> the app for a private answer only you see.</li>
-<li><strong>@-mention</strong> the app in a channel (<code>@CorpusIQ ...</code>) when the answer belongs
-  to the whole channel.</li>
+<li><strong>In Slack channels</strong>, @-mention the app (<code>@CorpusIQ ...</code>) when the answer
+  belongs to the whole channel.</li>
+<li><strong>In Teams group chats and team channels</strong>, mention the bot and send
+  <code>corpusiq-share &lt;question&gt;</code> only when you intend to disclose the answer to
+  everyone who can read that conversation. An ordinary question receives
+  privacy guidance instead of business data. The request uses your own
+  CorpusIQ identity and AI configuration, not a shared account. See
+  <a href="https://www.corpusiq.io/docs/chat-apps/getting-started-teams">Teams setup</a> for private account linking.</li>
 </ul>
 <p>Ask the way you'd ask a colleague who has all the numbers in front of them.
-Plain English, no special syntax:</p>
+Use plain English for the question; in a shared Teams conversation, keep the
+<code>corpusiq-share</code> prefix:</p>
 <blockquote>
 <p>How did revenue compare to last month?</p>
 </blockquote>
@@ -10845,8 +10852,9 @@ then narrow:</p>
 <p>Just the online store.</p>
 <p>Now break that down by product.</p>
 </blockquote>
-<p>Each reply builds on the last, so you don't have to restate the whole question
-every time.</p>
+<p>Where conversational context is available, each reply can build on the last.
+Teams shared answers do not create persistent team-wide AI memory: include
+enough context in each <code>corpusiq-share</code> request for it to stand on its own.</p>
 <h2 id="what-the-answers-look-like">What the answers look like<a class="headerlink" href="#what-the-answers-look-like" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ replies with the numbers laid out, not buried in a paragraph. Key
 figures come back as tiles in Slack and as cards in Teams - a revenue figure, a
@@ -10896,8 +10904,10 @@ month before?</p>
 <p>What changed the most week over week?</p>
 </blockquote>
 <p>That last kind - the broad "how are we doing" question - is where the chat app
-earns its place. One question in a channel, and everyone sees the same answer,
-drawn live from the tools behind it.</p>
+earns its place. An intentionally shared answer lets the conversation discuss
+the same result, drawn live from your connected tools. In Teams, use
+<code>corpusiq-share</code> and disclose only data you are authorized to share with those
+participants.</p>
 <h2 id="if-an-answer-looks-off">If an answer looks off<a class="headerlink" href="#if-an-answer-looks-off" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ shows where a number came from. If something looks wrong, the usual
 cause is a tool that isn't connected or a question that could be read two ways.

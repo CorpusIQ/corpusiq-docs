@@ -115,8 +115,8 @@
     "description": "Fixes for the common things that stop CorpusIQ answering in Slack or Teams: not linked, no AI key, a tool that isn\u0027t connected, or the wrong account.",
     "url": "https://www.corpusiq.io/docs/chat-apps/troubleshooting",
     
-    "datePublished": "2026-08-23",
-    "dateModified": "2026-08-23",
+    "datePublished": "2026-10-07",
+    "dateModified": "2026-10-07",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +140,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-23">
+  <meta name="last-updated" content="2026-10-07">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10704,10 +10704,16 @@ the list - they're in the order you'll hit them.</p>
 <p>The app isn't linked to your CorpusIQ account yet, or your link expired.</p>
 <ul>
 <li><strong>Slack:</strong> run <code>/corpusiq-login</code> and follow the direct message it sends you.</li>
-<li><strong>Teams:</strong> send the app a message and tap the <strong>Sign in</strong> prompt.</li>
+<li><strong>Teams:</strong> open the app's personal chat and send <code>corpusiq-login</code>. Complete
+  Microsoft sign-in and, on first use, explicitly approve the CorpusIQ account
+  link. Then send a fresh <code>corpusiq-login</code> to finish. The Microsoft and CorpusIQ
+  email addresses do not need to match. Never post a code or credential in a
+  group chat or channel.</li>
 </ul>
-<p>If you linked a while ago and it's asking again, the link timed out - sign in
-again and it'll stick.</p>
+<p>If you linked a while ago and it asks again, complete sign-in again. In Teams,
+the command resumes an unexpired account-link attempt; an expired attempt
+requires a new sign-in. Resend your question after connecting; the bot does not
+automatically replay questions from before sign-in.</p>
 <p>See <a href="https://www.corpusiq.io/docs/chat-apps/getting-started-slack">getting-started-slack.md</a> or
 <a href="https://www.corpusiq.io/docs/chat-apps/getting-started-teams">getting-started-teams.md</a> for the full flow.</p>
 <h2 id="it-says-it-needs-an-ai-key">"It says it needs an AI key"<a class="headerlink" href="#it-says-it-needs-an-ai-key" title="Anchor link to this section">&para;</a></h2>
@@ -10718,9 +10724,9 @@ again and it'll stick.</p>
 <li>Open your AI key settings.</li>
 <li>Add a key from OpenAI, Anthropic, or Azure OpenAI and save.</li>
 </ol>
-<p>Ask again and it'll answer. If you believe your workspace provides a shared key,
-check with whoever set the app up - the message means the app read no key for
-you.</p>
+<p>Ask again after saving your provider configuration. CorpusIQ uses your own
+configuration and does not fall back to a CorpusIQ-owned provider key when it
+is missing. Provider usage charges are separate from your CorpusIQ subscription.</p>
 <h2 id="it-says-a-tool-isnt-connected">"It says a tool isn't connected"<a class="headerlink" href="#it-says-a-tool-isnt-connected" title="Anchor link to this section">&para;</a></h2>
 <p>You asked something that needs a business tool you haven't linked to CorpusIQ
 yet - for example, asking about orders before connecting your store.</p>
@@ -10731,15 +10737,24 @@ it asks rather than making something up.</p>
 <p>If answers look like someone else's data, or you're on a shared computer, the
 app may be linked as a different person.</p>
 <ul>
-<li>Sign out: <code>/corpusiq-logout</code> in Slack, or the logout action in Teams.</li>
+<li>Sign out: <code>/corpusiq-logout</code> in Slack, or <code>corpusiq-logout</code> in Teams personal chat.</li>
 <li>Sign back in as yourself.</li>
 </ul>
-<p>One person is linked at a time, so signing out and back in puts it right.</p>
+<p>Each Teams request uses the requesting user's linked CorpusIQ identity.
+<code>corpusiq-logout</code> clears cached credentials and pending sign-ins; it does not
+remove the permanent Microsoft-to-CorpusIQ account association. Check that
+Microsoft Teams itself is signed in as the intended Microsoft user. If that
+identity is associated with the wrong CorpusIQ account, stop asking data
+questions and <a href="https://www.corpusiq.io/support">contact support</a>; signing out
+and back in does not switch the association. Other group or channel
+participants do not gain access to your account.</p>
 <h2 id="the-sign-in-prompt-wont-complete-teams">The sign-in prompt won't complete (Teams)<a class="headerlink" href="#the-sign-in-prompt-wont-complete-teams" title="Anchor link to this section">&para;</a></h2>
 <p>If tapping <strong>Sign in</strong> in Teams doesn't finish:</p>
 <ul>
 <li>Make sure you're signed in to Teams with the Microsoft account you expect.</li>
-<li>Try the message again - send a fresh message to bring the prompt back.</li>
+<li>Send a fresh <code>corpusiq-login</code> in the app's personal chat to resume or confirm
+  the attempt. After browser approval, return to Teams and send the command
+  again. If the attempt has expired, start a new sign-in.</li>
 <li>If it still won't complete, your workspace's sign-in setup may need an
   admin's attention. Tell whoever installed the app, or email
   <a href="mailto:support@corpusiq.io">support@corpusiq.io</a>.</li>
