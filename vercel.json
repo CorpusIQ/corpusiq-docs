@@ -1367,8 +1367,8 @@
       "statusCode": 301
     },
     {
-      "source": "/connect-klaviyo-to-chatgpt",
-      "destination": "/connectors/connect-klaviyo-to-chatgpt",
+      "source": "/connectors/connect-klaviyo-to-chatgpt",
+      "destination": "/connect-klaviyo-to-chatgpt",
       "statusCode": 301
     },
     {
