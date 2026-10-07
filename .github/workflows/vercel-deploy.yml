@@ -72,8 +72,10 @@ jobs:
       - name: Build site
         run: mkdocs build --site-dir ./site
 
-      - name: Copy llms feeds into site
-        run: cp llms.txt llms-full.txt site/
+      - name: Package Vercel configuration and llms feeds
+        # `deploy site` makes site/ the project root. Without this config,
+        # Vercel defaults to public/ and loses our redirects/asset rewrites.
+        run: cp vercel.json llms.txt llms-full.txt site/
 
       # The platform build needs an explicit output directory: without the
       # bundled vercel.json it defaults to "public" and fails with
