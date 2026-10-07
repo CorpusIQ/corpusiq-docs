@@ -26,6 +26,7 @@ hooks:
 - hooks/canonical_no_trailing_slash.py
 - scripts/hooks/auto_link_children.py
 - scripts/hooks/truncate_meta_description.py
+- scripts/hooks/corpusiq_credit.py
 markdown_extensions:
 - admonition
 - pymdownx.details
