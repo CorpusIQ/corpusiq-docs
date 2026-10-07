@@ -139,8 +139,8 @@ The server is hosted and requires no local installation:
 ## See Also
 
 - [Correctover MCP Guide](/hermes/mcp/servers/external/correctover-mcp) - LLM API failover and cost validation
-- [Stripe MCP Guide](/hermes/mcp/#stripe)
-- [QuickBooks MCP Guide](/hermes/mcp/#quickbooks)
+- [Stripe MCP Guide](/hermes/mcp/servers/#stripe)
+- [QuickBooks MCP Guide](/hermes/mcp/servers/#quickbooks)
 - [External MCP Server Catalog](/hermes/mcp/servers/external)
 
 ---

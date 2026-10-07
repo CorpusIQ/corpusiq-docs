@@ -20,8 +20,8 @@ A targeted sweep of the OpenClaw ecosystem surfaced **5 additional skills** not 
 |-------|----------|--------|----------|
 | [apple-calendar](#apple-calendar) | 662 | sundial-org/awesome-openclaw-skills | Productivity |
 | [openclaw-release-maintainer](#openclaw-release-maintainer) | 174 | steipete/clawdis | DevOps |
-| [openclaw-skill-vetter-1-0-0](#openclaw-skill-vetter) | 171 | skills.volces.com | Quality Assurance |
-| [openclaw-skill-vetter](#openclaw-skill-vetter) | 168 | skills.volces.com | Quality Assurance |
+| [openclaw-skill-vetter-1-0-0](#openclaw-skill-vetter-openclaw-skill-vetter-1-0-0) | 171 | skills.volces.com | Quality Assurance |
+| [openclaw-skill-vetter](#openclaw-skill-vetter-openclaw-skill-vetter-1-0-0) | 168 | skills.volces.com | Quality Assurance |
 | [openclaw-grok-search](#openclaw-grok-search) | 130 | stemmaker/openclaw-grok-search | Search |
 
 ---

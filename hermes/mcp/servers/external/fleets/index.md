@@ -100,7 +100,7 @@ Fleets is **read-only** - it cannot modify your analytics, search console settin
 ## Related Resources
 
 - [External MCP Server Catalog](/hermes/mcp/servers/external) - full curated catalog
-- [Analytics & BI MCPs](/hermes/mcp/servers/external/#analytics--business-intelligence) - complementary analytics tools
+- [Analytics & BI MCPs](/hermes/mcp/servers/external/#analytics-business-intelligence) - complementary analytics tools
 - [CorpusIQ GA4 Connector](/hermes/mcp/connectors) - native GA4 data access through CorpusIQ
 
 ---

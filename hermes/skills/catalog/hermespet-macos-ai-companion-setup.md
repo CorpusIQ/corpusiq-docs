@@ -132,7 +132,7 @@ hermespet-macos-ai-companion --hermes-profile corpusiq
 
 ---
 
-*← [Hermes Agent Variants](/hermes/skills/catalog/#hermes-agent-variants) | [Catalog Home](/hermes/skills/catalog) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 ---
 

@@ -110,7 +110,7 @@ RadMail's core design principle: **no irreversible action without human approval
 
 - [External MCP Server Catalog](/hermes/mcp/servers/external) - full curated catalog
 - [CorpusIQ MCP Connectors](/hermes/mcp/connectors) - 40+ native business data connectors
-- [PortEden Secure Email](/hermes/mcp/servers/external/#secure-email-gmail--outlook) - alternative email firewall approach
+- [PortEden Secure Email](/hermes/mcp/servers/external/#secure-email-gmail-outlook) - alternative email firewall approach
 
 ---
 

@@ -173,7 +173,7 @@ async def list_tools() -> list[Tool]:
 
 ---
 
-*← [MCP Development](/hermes/skills/catalog/#mcp--api-integration) | [Catalog Home](/hermes/skills/catalog) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 
 ---
 

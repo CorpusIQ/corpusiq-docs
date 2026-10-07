@@ -111,6 +111,6 @@ curl -s http://<MAC_MINI_IP>:8080/health
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog) | [Agent Infrastructure](/hermes/skills/catalog/#agent-infrastructure) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Source: [seleman66eeddwegger3-art/hermes-agentmesh](https://github.com/seleman66eeddwegger3-art/hermes-agentmesh)*
 *Powered by CorpusIQ*

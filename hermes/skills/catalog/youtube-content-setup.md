@@ -122,7 +122,7 @@ uv run python3 ~/.hermes/skills/media/youtube-content/scripts/fetch_transcript.p
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog) | [Media Skills](/hermes/skills/#media) →*
+*← [Skills Catalog](/hermes/skills/catalog) | [Marketplace](/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*
 ---
 

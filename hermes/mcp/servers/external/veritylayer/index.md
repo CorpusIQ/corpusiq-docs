@@ -109,8 +109,8 @@ Keyless, pay-per-call via x402 (USDC on Base). No subscription required - pay on
 ## Related Resources
 
 - [External MCP Server Catalog](/hermes/mcp/servers/external) - full curated catalog
-- [Compliance & Regulatory MCPs](/hermes/mcp/servers/external/#compliance--regulatory) - complementary trust and verification tools
-- [ChronoVerify](/hermes/mcp/servers/external/#chronoverify) - image authenticity verification MCP
+- [Compliance & Regulatory MCPs](/hermes/mcp/servers/external/#compliance-regulatory) - complementary trust and verification tools
+- [ChronoVerify](/hermes/mcp/servers/external/#chronoverify-new-july-4) - image authenticity verification MCP
 
 ---
 

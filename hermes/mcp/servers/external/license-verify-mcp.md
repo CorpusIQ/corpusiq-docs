@@ -112,8 +112,8 @@ For any business operator hiring contractors, managing vendors, or ensuring comp
 ## See Also
 
 - [Correctover MCP Guide](/hermes/mcp/servers/external/correctover-mcp) - Contract validation
-- [QuickBooks MCP Guide](/hermes/mcp/#quickbooks)
-- [Slack MCP Guide](/hermes/mcp/#slack)
+- [QuickBooks MCP Guide](/hermes/mcp/servers/#quickbooks)
+- [Slack MCP Guide](/hermes/mcp/servers/#slack)
 - [External MCP Server Catalog](/hermes/mcp/servers/external)
 
 ---
