@@ -1,5 +1,5 @@
 ---
-title: "Hermes Elevenlabs Skills - CorpusIQ Docs"
+title: "Hermes ElevenLabs Skills - CorpusIQ Docs"
 description: "Hermes Agent skills for ElevenLabs. 2 skills with install commands, triggers, and setup steps for each."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/elevenlabs/"
 robots: "index,follow"

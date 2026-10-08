@@ -1,5 +1,5 @@
 ---
-title: "Hermes Langgraph Skills - CorpusIQ Docs"
+title: "Hermes LangGraph Skills - CorpusIQ Docs"
 description: "Hermes Agent skills for LangGraph. 3 skills with install commands, triggers, and setup steps for each."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/"
 robots: "index,follow"
