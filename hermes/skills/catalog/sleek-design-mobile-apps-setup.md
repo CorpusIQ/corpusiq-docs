@@ -1,19 +1,19 @@
 ---
 title: "Sleek Design Mobile Apps - AI Mobile App Design Skill Setup"
-description: "designed-by-ai/skills (sleekdotdesign/agent-skills) - design-mobile-apps, 75.1K installs, 572 GitHub stars. Sleek's official agent skill for designing mobile apps and UI screens via the sleek.design REST API - projects, chats, components, and screenshot rendering with device-flow API key auth."
+description: "designed-by-ai/skills (sleekdotdesign/agent-skills) - design-mobile-apps, 680.6K installs, 572 GitHub stars. Sleek's official agent skill for designing mobile apps and UI screens via the sleek.design REST API - projects, chats, components, and screenshot rendering with device-flow API key auth."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sleek-design-mobile-apps-setup/"
 robots: "index,follow"
-last_updated: "2026-09-07"
+last_updated: "2026-10-08"
 tags: ["hermes skill", "agent skill", "skill setup", "mobile design", "design", "sleek"]
 ---
 
 # Sleek Design Mobile Apps - Setup Guide
 
-**Source:** [skills.sh](https://www.skills.sh/designed-by-ai/skills) (75.1K installs)
+**Source:** [skills.sh](https://www.skills.sh/designed-by-ai/skills) (680.6K installs, Oct 8, 2026)
 **GitHub:** [sleekdotdesign/agent-skills](https://github.com/sleekdotdesign/agent-skills) (572⭐, MIT)
 **Category:** Design / Mobile App Development
-**First Seen:** Sep 2026 (skills.sh listing under designed-by-ai/skills)
-**Quality Tier:** 🟢 Production (Gen Agent Trust Hub Pass / Socket Pass / Snyk Pass)
+**First Seen:** Sep 4, 2026 (skills.sh listing under designed-by-ai/skills)
+**Quality Tier:** 🟢 Production (Gen Agent Trust Hub Pass / Socket Pass; Snyk verdict changed to Fail - see Security)
 
 Sleek is an AI-powered mobile app design tool, and this is its official agent skill. An agent describes what should be built in plain language, and the skill drives Sleek's REST API (`/api/v1/*`) to create projects, run design chats, pull components, and render screenshots. The SKILL.md is a complete API reference with device-flow key onboarding, so the end user never handles a raw API key. The skills.sh listing source is `designed-by-ai/skills`; the GitHub repo the README ships from is `sleekdotdesign/agent-skills` (same content, 572⭐ canonical repo).
 
@@ -77,13 +77,15 @@ Note (from the publisher README): `npx skills add` installs into `.agents/skills
 
 ## Security
 
-All three skills.sh security audits pass (verified Sep 7, 2026):
+Security audits (Oct 8, 2026 re-check):
 
-| Audit | Verdict |
-|---|---|
-| Gen Agent Trust Hub | Pass |
-| Socket | Pass |
-| Snyk | Pass |
+| Audit | Sep 7, 2026 | Oct 8, 2026 |
+|---|---|---|
+| Gen Agent Trust Hub | Pass | Pass |
+| Socket | Pass | Pass |
+| Snyk | Pass | Fail |
+
+The Snyk verdict changed from Pass (Sep 7, 2026) to Fail (Oct 8, 2026). Before installing in sensitive environments, review the Snyk report linked on the skill page; the details page itself was returning a server error at re-check time.
 
 ## Related
 
