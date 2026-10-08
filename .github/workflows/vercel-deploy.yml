@@ -84,6 +84,14 @@ jobs:
       - name: Copy vercel.json into site
         run: cp vercel.json site/vercel.json
 
+      # Merge-path hardening (Oct 7, 2026): raw MkDocs output is slashed by
+      # default (sitemap <loc> entries, canonical tags, internal hrefs). Both
+      # local deploy paths (deploy_docs.py, deploy_vercel_prod.py) normalize
+      # and hard-verify before deploying; mirror that gate here so the merge
+      # path cannot publish slashed artifacts to production.
+      - name: Normalize and verify no-slash invariants
+        run: python scripts/normalize_site_no_slash.py site
+
       - name: Deploy to Vercel production
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

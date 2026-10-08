@@ -49,6 +49,9 @@ jobs:
       - name: Validate Vercel deployment packaging
         run: python -m unittest scripts/test_vercel_deploy.py
 
+      - name: Validate no-slash normalize gate
+        run: python -m unittest scripts/test_normalize_site_no_slash.py
+
       - name: Reject blanket data-retention claims
         run: |
           python scripts/validate_retention_claims.py

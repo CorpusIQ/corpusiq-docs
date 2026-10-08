@@ -30,9 +30,21 @@ class VercelDeployTests(unittest.TestCase):
             root = Path(directory)
             site = root / "site"
             site.mkdir()
-            (site / "index.html").write_text("<h1>Built docs</h1>")
+            (site / "index.html").write_text(
+                '<html><head><link rel="canonical" '
+                'href="https://www.corpusiq.io/docs/"></head>'
+                "<body><h1>Built docs</h1></body></html>"
+            )
             for name in ("vercel.json", "llms.txt", "llms-full.txt"):
                 shutil.copyfile(ROOT / name, root / name)
+            # The no-slash gate step invokes scripts/normalize_site_no_slash.py
+            # from the repo root; give the harness its own copy so the
+            # packaging steps run exactly as the workflow defines them.
+            (root / "scripts").mkdir()
+            shutil.copyfile(
+                ROOT / "scripts" / "normalize_site_no_slash.py",
+                root / "scripts" / "normalize_site_no_slash.py",
+            )
             for step in steps[build + 1:deploy]:
                 subprocess.run(
                     ["bash", "-e", "-c", step["run"]], cwd=root, check=True
