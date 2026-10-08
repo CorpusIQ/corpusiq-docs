@@ -16925,5 +16925,103 @@
     "source": "community_submission",
     "issue": 109,
     "timestamp": "2026-10-07T10:11:45.682711+00:00"
+  },
+  {
+    "repo": "bighamx/RemoteTool",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612183+00:00"
+  },
+  {
+    "repo": "fghdhtfdu/IT--Hermes-Agent-AI-",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612187+00:00"
+  },
+  {
+    "repo": "AetherMesh-AI/eidolon",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612189+00:00"
+  },
+  {
+    "repo": "jdcc1024/sidestep-web-hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612191+00:00"
+  },
+  {
+    "repo": "dark5un/ai-lab-quadlets",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612193+00:00"
+  },
+  {
+    "repo": "Louis-Lastella/berichtsheft-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612195+00:00"
+  },
+  {
+    "repo": "flowradev/skills",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612197+00:00"
+  },
+  {
+    "repo": "artkudr/1c-ninja-kit",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612199+00:00"
+  },
+  {
+    "repo": "mstekh/openclaw-hermes-setup",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612200+00:00"
+  },
+  {
+    "repo": "MusabAli-SUST/Point1_tools",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612202+00:00"
+  },
+  {
+    "repo": "aievolutionpl/AGENT_CZESIEK",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612204+00:00"
+  },
+  {
+    "repo": "lad75020/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612206+00:00"
+  },
+  {
+    "repo": "gakonst/nanocodex",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-08T10:04:05.612208+00:00"
+  },
+  {
+    "repo": "TejasNaik24/Kleos-Models",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-08T10:04:05.612209+00:00"
   }
 ]
