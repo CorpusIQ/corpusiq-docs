@@ -16,12 +16,10 @@ Skills for integrating Hermes Agent with Claude Office. These skills enable auto
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [airtable-automation](/hermes/skills/catalog/claude-office/airtable-automation/) | 2.7K | Airtable base operations. Create, read, update Airtable records programmatically.| |
-| [crm-automation](/hermes/skills/catalog/claude-office/crm-automation/) | 3.2K | CRM data entry and management. Automate CRM workflows including contact management and pipeline updates. |
 | [excel-automation](/hermes/skills/catalog/claude-office/excel-automation/) | 10.2K | Excel file creation and manipulation. Generate and modify spreadsheets programmatically. |
-| [pdf-extraction](/hermes/skills/catalog/claude-office/pdf-extraction/) | 5.8K | Extract and parse PDF content. Pull text, tables, and data from PDF documents.| |
-
-*Roster rebuilt from the catalog on 2026-10-08. The previous roster named eleven skills with no page in this library.*
+| [pdf-extraction](/hermes/skills/catalog/claude-office/pdf-extraction/) | 5.8K | Extract and parse PDF content. Pull text, tables, and data from PDF documents. |
+| [crm-automation](/hermes/skills/catalog/claude-office/crm-automation/) | 3.2K | CRM data entry and management. Automate CRM workflows including contact management and pipeline updates. |
+| [airtable-automation](/hermes/skills/catalog/claude-office/airtable-automation/) | 2.7K | Airtable base operations. Create, read, update Airtable records programmatically. |
 
 ## Related
 

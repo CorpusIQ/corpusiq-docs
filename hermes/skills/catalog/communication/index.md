@@ -16,10 +16,10 @@ Skills for integrating Hermes Agent with Communication. These skills enable auto
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [whatsapp-automation](/hermes/skills/catalog/communication/whatsapp-automation/) | 3.4K | WhatsApp bot and automation. Build WhatsApp messaging workflows and bots.| |
+| [whatsapp-automation](/hermes/skills/catalog/communication/whatsapp-automation/) | 3.4K | WhatsApp bot and automation. Build WhatsApp messaging workflows and bots. |
 | [telegram-bot](/hermes/skills/catalog/communication/telegram-bot/) | 3.1K | Build and deploy Telegram bots. Full Telegram Bot API integration for automated messaging. |
 | [linkedin-automation](/hermes/skills/catalog/communication/linkedin-automation/) | 2.9K | LinkedIn posting and engagement. Automate LinkedIn content publishing and engagement tracking. |
-| [discord-bot](/hermes/skills/catalog/communication/discord-bot/) | 2.8K | Discord server bots. Build and deploy Discord bots for community management.| |
+| [discord-bot](/hermes/skills/catalog/communication/discord-bot/) | 2.8K | Discord server bots. Build and deploy Discord bots for community management. |
 
 ## Related
 

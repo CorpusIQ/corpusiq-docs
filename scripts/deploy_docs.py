@@ -152,12 +152,28 @@ def main():
     else:
         print("   No source fixes needed")
 
-    # 2d. Catalog index gate. Blocks the deploy on a broken skills roster
+    # 2d. Catalog rosters are DERIVED data: a list of the .md files in their own
+    #     directory. Generate them so they cannot drift the way they did (twelve
+    #     pages shipped empty while 49 skill pages sat unlinked beside them).
+    #     Idempotent, so it commits only when something actually changed.
+    print("2d. Generating catalog rosters from directory contents...")
+    run("python3 scripts/generate_catalog_indexes.py --fix")
+    dirty_cat = run("git status --porcelain -- 'hermes/skills/catalog'").strip()
+    if dirty_cat:
+        run("git add -A -- 'hermes/skills/catalog' && git commit -m "
+            "'chore: regenerate catalog rosters from directory contents'")
+        print(f"   Rosters regenerated ({len(dirty_cat.splitlines())} file(s))")
+    else:
+        print("   Rosters already current")
+
+    # 2e. Catalog index gate. Blocks the deploy on a broken skills roster
     #     (an empty "Coming soon" table beside real skill pages, or a row
     #     linking to a page that does not exist). Twelve index pages shipped
     #     with empty rosters and one advertised eleven skills that do not
     #     exist, and nothing caught either. Hard gate, no `|| true`.
-    print("2d. Catalog index gate (skills rosters)...")
+    #     Generation above writes the rosters; this checks the result against
+    #     the same directories, so a bug in either one is still caught.
+    print("2e. Catalog index gate (skills rosters)...")
     run("python3 scripts/validate_catalog_indexes.py")
 
     # 3. Build
