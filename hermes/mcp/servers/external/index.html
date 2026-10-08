@@ -10242,6 +10242,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-7-2026-evening-sweep-6-new-6-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 7, 2026 - Evening Sweep (6 New, 6 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-7-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -24509,6 +24520,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-7-2026-evening-sweep-6-new-6-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 7, 2026 - Evening Sweep (6 New, 6 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-7-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -38494,8 +38516,19 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 7, 2026 (midday supplement) · <strong>Sources:</strong> mcp.so /feed (30 server links) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy + chatmcp/mcpso issues #4907-#4914 · <strong>Catalog:</strong> 865 servers (+751 guides)</p>
+<p><strong>Last updated:</strong> October 7, 2026 (evening sweep) · <strong>Sources:</strong> mcp.so /feed (30 server links) + mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy + chatmcp/mcpso issues #4915-#4928 · <strong>Catalog:</strong> 871 servers (+757 guides)</p>
 </blockquote>
+<h2 id="october-7-2026-evening-sweep-6-new-6-guides">🆕 October 7, 2026 - Evening Sweep (6 New, 6 Guides)<a class="headerlink" href="#october-7-2026-evening-sweep-6-new-6-guides" title="Anchor link to this section">&para;</a></h2>
+<p>Evening sweep over the mcp.so <code>/feed</code> (30 server links), mcpservers.org <code>/all</code> pages 1-2 through the r.jina.ai reader proxy (a fresh 23:39Z regen whose cohort had churned past the October 7 canonical capture; every new-to-us name cross-referenced against the catalog and the full sweep ledger), and the fresh chatmcp/mcpso issue window #4915-#4928, with vendor docs and live endpoint probes for every candidate. Six new business-relevant entries, each catalogued with a guide: an SEO content program, real-estate deal research, CMMS asset management, invoice fetching and spend reports, an AI-rated job board, and keyless stock ratings with mortgage-rate context.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/rankcontrol-mcp">RankControl MCP - SEO Content Program for Agents</a> · hosted Streamable HTTP at <code>api.rctrl.com/mcp</code> with OAuth browser sign-in, plus a local <code>npx rankcontrol mcp</code> server under scoped API keys: 80+ tools across AI-visibility data, the content pipeline (plan, generate, publish to Shopify, Webflow or Framer), repurposing through Buffer and Postiz channels, link building, brand memory and reports, with dry-run-by-default safety and per-caller rate limits. Live probe: POST initialize returns 401 (OAuth).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/realtypad-mcp">RealtyPad MCP - Real Estate Deal Research for Agents</a> · hosted Streamable HTTP at <code>app.realtypad.ai/mcp</code> with account sign-in and a 30-day trial: listings in, researched deal file out - search public listing sites, HUD, auction and distressed inventory (or paste a URL or address), then run scores, comps and appraisal history, market trends, cashflow scenarios, hold projections and buyer matching in the same workspace as the browser. Live probe: POST initialize returns an OAuth sign-in challenge.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/assetlab-mcp">AssetLab MCP - CMMS and Asset Management for Agents</a> · official hosted Streamable HTTP at <code>mcp.assetlab.ca/mcp</code> with scoped API keys (read-only by default, revocable): 480+ tools across work orders, preventive maintenance, assets, condition assessments, capital projects, budgets, contracts and linear infrastructure for the Canadian AssetLab platform, with a 28-tool core profile for tool-capped clients. Live probe: POST initialize returns 401 (bearer token required).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/booksmate-mcp">Booksmate MCP - Invoice Fetching and Spend Reports</a> · hosted Streamable HTTP at <code>mcp.booksmate.com</code> with OAuth 2.1 sign-in: search invoices and receipts by vendor, date, amount, status or category; upload files for extraction; summarise spend by vendor, category and VAT; trigger inbox scans; catch duplicates; and package documents as ZIP exports for Drive, Xero or QuickBooks. Live probe: POST initialize returns 401 (OAuth).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/level-jobs-mcp">Level MCP - AI-Rated Job Board for Agents</a> · keyless Streamable HTTP at <code>jobsbylevel.com/mcp</code>: six read-only tools over an AI job board that rates every listing from Little AI to Builds AI - search with AI-level, remote, city, company and posting-age filters, latest AI jobs, one listing in detail, market stats, companies ranked by AI level and the level definitions. Live probe: POST initialize returns 200, no key.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/market-eyes-mcp">Market Eyes Live MCP - Stock Ratings and Mortgage Rates</a> · keyless Streamable HTTP at <code>marketeyeslive.com/mcp</code>: three read-only tools - MELANY ratings for 11,000+ U.S. listed stocks and ETFs (conviction tier, 0 to 100 composite, eight factor scores, flagged risks and theme context), a 2-5 symbol comparator and a daily mortgage-rate read (10-year Treasury, MBS momentum, rate environment); every result carries a source and the vendor grades published ratings daily. Live probe: POST initialize returns 200, no key.</li>
+</ul>
+<p><strong>Also identified (not catalogued):</strong> on the mcp.so feed, beyond the repeats and prior dispositions from the October 3-7 ledgers (Nitrosend, PubShip, KissCode, SlickTrip, SpicyAPI, mxHERO, Snov.io, ETFIQ, Gastrosync, Leverage, PayPerFax, Ybug, AskOne, Chalet-Montagne, Snipzr, Heard, AI Website Auditor, Localith, looot, Nearius, Signal Six, Kapa, Dataddo and the rest), the fresh entries beside the catalogued ones were: Optimus MCP (a knowledge surface about its own agent system; self-promotional thin-listing class), Clipping Alpha (creator clipping and UGC campaign board; creator-earning marketplace class), 3GPP Scout (cited telecom-spec search; dev-standards niche) and MilliGate (x402 crypto paywall utility; x402 infra class), with x402-list-mcp and the grill planner as prior dispositions. On the mcpservers.org /all pages 1-2 (a fresh regen whose cohort had churned past the October 7 canonical capture), evaluated and held: Fresh402 (x402 freshness checks), Rein Agent Risk Scale (agent-governance self-check; Agentguard class), Chatpack (framework docs utility), conv2pdf (single-purpose document converter; md2doc and Pdfops class), blablabla (consumer rehearsal app), Teleloom (detail-page shell; 404-shell class), Kasar CRM (single-vendor CRM app connector), Endzone (pro sports data), ibara (agent desktops), Ball Ranks (sports fantasy), Dreamwork (career workflow; consumer career class), OperStack (AI-search readiness scoring; class covered by the catalogued geolint and LogNorm surfaces plus the saturated visibility-score precedents), APEX Faucet (crypto faucets), Voidmail (agent email; class saturated per Mektup, Loops, Lumail and assistantmail), Kvickd (geo-niche Swedish accounting per DokladBot and Taokeh), Ta Rodando (uptime dev-infra), Base Payment Assurance and Brasil Data (crypto and x402 rails), OlaChill (consumer travel), CPFHub (geo-niche Brazilian CPF), Datalake-mcp (single-vendor Azure connector), AppScreen (app-store screenshot utility), Lifeguard Training HQ (thin resource site), Laydyne (floor-plan design), TvojeLajky (geo-niche Czech social services), EK Bridge (single-app calendar connector), Favicon Tools (web utility), Probelane (domain and email-security audit utility), Search &amp; Trends (search-infra utility), Rootpublish AI Facts (single-purpose AI-answer fact checker), Olia (French legal practice management; regional vertical connector), Shooter Atlas (consumer gaming), Xonta Docs (geo-niche Russian business documents), Clientell (Salesforce org-metadata and change-context tooling; single-platform admin surface), Session Relay (dev-infra), First100 (GTM suite; social publishing below the PostBazooka and PurrPlan bar with the audit portion in the saturated visibility class), Oxynote (self-hosted docs; adjacent to the catalogued Wiki.js surface), Financial Evidence Research Desk (narrow research utility), APICK (geo-niche Korean data), MapPoster (design utility), Picked by Agents (research-network novelty), Synion (media-generation class) and agentsvc (x402 pay-per-call scraping), with the donniertf UK fleet re-listings, Checkbox, Fast Video Cataloger, VIDIA, sejm-mcp and Hypnothera as prior dispositions. From the issue window #4915-#4928: Realry (fashion price comparison; consumer shopping), dotlink (local sandbox server; dev-infra), Metqo Data (Walmart and Amazon review insights; business-relevant data but distributed purely as Apify actors behind Apify's hosted MCP; Apify-actor class per the Lintlab, Themineworks and TidyTools precedents), WHP Standing (x402 signed standing records; agent-payments class per the steward-mcp dispositions), Forecall Failure KB (MCP failure knowledge base; dev-debugging utility), mcp-roadmapsh (learning roadmaps; dev-content utility), ViaFrei (German mobility data; consumer travel and mobility class), TeamShift (single-vendor workspace connector), Phosphor (macOS terminal for agents; dev-app class) and Hubort (chat-history search for a Windows desktop app; consumer desktop class).</p>
 <h2 id="october-7-2026-midday-supplement-1-new-1-guide">🆕 October 7, 2026 - Midday Supplement (1 New, 1 Guide)<a class="headerlink" href="#october-7-2026-midday-supplement-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
 <p>Midday supplement over the mcp.so <code>/feed</code> (30 server links), mcpservers.org <code>/all</code> pages 1-2 through the r.jina.ai reader proxy (a fresh regen whose page-1 cohort churned past the October 7 canonical capture and was cross-referenced against the catalog and the full sweep ledger), and the fresh chatmcp/mcpso issue window #4907-#4914, with vendor docs fetched for every candidate. One new business-relevant entry, catalogued with a guide: multi-country European company-registry data for KYB and due diligence.</p>
 <ul>
