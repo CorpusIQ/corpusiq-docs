@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 192+ repos, tools, skills, and integrations
-last_updated: "2026-10-07"
+description: Comprehensive directory of the Hermes Agent ecosystem - 193+ repos, tools, skills, and integrations
+last_updated: "2026-10-08"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **192+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 187 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **193+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 188 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **192+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **193+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -29,7 +29,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **192+ reposit
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
-| 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
+| 📦 SDKs & Libraries | 3 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 41 | Desktop apps, web UIs, dashboards, terminals |
@@ -918,6 +918,14 @@ _Client libraries, API wrappers, language bindings_
 
 ---
 
+### [gakonst/nanocodex](https://github.com/gakonst/nanocodex) ⭐ 557
+
+>Building blocks for frontier OpenAI agents in Rust. Nanocodex empowers you with Codex-level performance anywhere.
+
+**Language:** Rust | **Topics:** ai, ai-agent, ai-agents, anthropic, chatgpt, claude, claude-code, codex, hermes, hermes-agent, llm, openai | **Score:** 72/100
+
+---
+
 ## 🛡️ Security & Governance
 
 _Security tools, compliance, audit_
@@ -1632,7 +1640,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*192+ repositories in the Hermes ecosystem. Last updated: 2026-10-07. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*193+ repositories in the Hermes ecosystem. Last updated: 2026-10-08. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

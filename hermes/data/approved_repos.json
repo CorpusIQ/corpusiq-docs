@@ -6315,5 +6315,43 @@
     "discovered_at": "2026-10-02T11:35:34.842753+00:00",
     "status": "approved",
     "approved_at": "2026-10-02T11:37:59.020259+00:00"
+  },
+  {
+    "name": "gakonst/nanocodex",
+    "url": "https://github.com/gakonst/nanocodex",
+    "description": "Building blocks for frontier OpenAI agents in Rust. Nanocodex empowers you with Codex-level performance anywhere.",
+    "stars": 557,
+    "forks": 79,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "openai"
+    ],
+    "updated_at": "2026-10-08T10:00:33Z",
+    "category": "forks",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-08T10:01:57.263145+00:00",
+    "status": "approved",
+    "approved_at": "2026-10-08T10:04:05.612169+00:00"
   }
 ]
