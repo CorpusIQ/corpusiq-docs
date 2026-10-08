@@ -16,9 +16,9 @@ Skills for integrating Hermes Agent with Platform. These skills enable autonomou
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [notion-api](/hermes/skills/catalog/platform/notion-api/) | 42.6K | Full Notion API integration. Pages, databases, blocks  --  complete Notion workspace access. |
-| [seo-geo](/hermes/skills/catalog/platform/seo-geo/) | 29.5K | Geo-targeted SEO strategies. Location-based search optimization for global reach. |
-| [expo-deployment](/hermes/skills/catalog/platform/expo-deployment/) |  | React Native deployment via Expo: build, configure, and ship mobile apps with EAS builds, environment profiles, and automated release flows for agent workflows. |
+| [notion-api](/hermes/skills/catalog/platform/notion-api) | 42.6K | Full Notion API integration. Pages, databases, blocks  --  complete Notion workspace access. |
+| [seo-geo](/hermes/skills/catalog/platform/seo-geo) | 29.5K | Geo-targeted SEO strategies. Location-based search optimization for global reach. |
+| [expo-deployment](/hermes/skills/catalog/platform/expo-deployment) |  | React Native deployment via Expo: build, configure, and ship mobile apps with EAS builds, environment profiles, and automated release flows for agent workflows. |
 
 ## Related
 

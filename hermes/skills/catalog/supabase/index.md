@@ -16,8 +16,8 @@ Skills for integrating Hermes Agent with Supabase. These skills enable autonomou
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [supabase-postgres-best-practices](/hermes/skills/catalog/supabase/supabase-postgres-best-practices/) | 220.9K | Postgres optimization, indexing, and Row Level Security for Supabase. The most installed Supabase skill. |
-| [supabase](/hermes/skills/catalog/supabase/supabase/) | 114.1K | Full Supabase platform: auth, storage, edge functions. Complete Supabase integration for AI agents. |
+| [supabase-postgres-best-practices](/hermes/skills/catalog/supabase/supabase-postgres-best-practices) | 220.9K | Postgres optimization, indexing, and Row Level Security for Supabase. The most installed Supabase skill. |
+| [supabase](/hermes/skills/catalog/supabase/supabase) | 114.1K | Full Supabase platform: auth, storage, edge functions. Complete Supabase integration for AI agents. |
 
 ## Related
 

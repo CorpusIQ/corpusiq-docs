@@ -16,8 +16,8 @@ Skills for integrating Hermes Agent with ElevenLabs. These skills enable autonom
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [text-to-speech](/hermes/skills/catalog/elevenlabs/text-to-speech/) | 6.2K | Generate natural voice audio from text. Convert any text to lifelike speech with ElevenLabs. |
-| [speech-to-text](/hermes/skills/catalog/elevenlabs/speech-to-text/) | 4.5K | Transcribe audio to text. High-accuracy speech recognition for audio and video content. |
+| [text-to-speech](/hermes/skills/catalog/elevenlabs/text-to-speech) | 6.2K | Generate natural voice audio from text. Convert any text to lifelike speech with ElevenLabs. |
+| [speech-to-text](/hermes/skills/catalog/elevenlabs/speech-to-text) | 4.5K | Transcribe audio to text. High-accuracy speech recognition for audio and video content. |
 
 ## Related
 

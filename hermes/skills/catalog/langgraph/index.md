@@ -16,9 +16,9 @@ Skills for integrating Hermes Agent with LangGraph. These skills enable autonomo
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [deep-agents-memory](/hermes/skills/catalog/langgraph/deep-agents-memory/) | 9.9K | Advanced memory architecture for AI agents. Deep memory patterns for long-running agent systems. |
-| [langgraph-persistence](/hermes/skills/catalog/langgraph/langgraph-persistence/) | 8.7K | Long-term memory and checkpointing for LangGraph agents. State persistence across agent sessions. |
-| [langgraph-human-in-the-loop](/hermes/skills/catalog/langgraph/langgraph-human-in-the-loop/) | 8.4K | Human approval workflows for LangGraph. Interrupt and resume agent execution with human input. |
+| [deep-agents-memory](/hermes/skills/catalog/langgraph/deep-agents-memory) | 9.9K | Advanced memory architecture for AI agents. Deep memory patterns for long-running agent systems. |
+| [langgraph-persistence](/hermes/skills/catalog/langgraph/langgraph-persistence) | 8.7K | Long-term memory and checkpointing for LangGraph agents. State persistence across agent sessions. |
+| [langgraph-human-in-the-loop](/hermes/skills/catalog/langgraph/langgraph-human-in-the-loop) | 8.4K | Human approval workflows for LangGraph. Interrupt and resume agent execution with human input. |
 
 ## Related
 

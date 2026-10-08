@@ -16,9 +16,9 @@ Skills for integrating Hermes Agent with Stripe. These skills enable autonomous 
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [stripe-best-practices](/hermes/skills/catalog/stripe/stripe-best-practices/) | 42.2K | Stripe integration patterns. Official Stripe guidance for payment integration, subscription management, and billing APIs. |
-| [upgrade-stripe](/hermes/skills/catalog/stripe/upgrade-stripe/) | 34.9K | Upgrade Stripe SDK versions. Automated migration between Stripe API versions with breaking change detection. |
-| [stripe-projects](/hermes/skills/catalog/stripe/stripe-projects/) | 31.3K | Scaffold Stripe projects. Generate complete Stripe integration projects with best practices built in. |
+| [stripe-best-practices](/hermes/skills/catalog/stripe/stripe-best-practices) | 42.2K | Stripe integration patterns. Official Stripe guidance for payment integration, subscription management, and billing APIs. |
+| [upgrade-stripe](/hermes/skills/catalog/stripe/upgrade-stripe) | 34.9K | Upgrade Stripe SDK versions. Automated migration between Stripe API versions with breaking change detection. |
+| [stripe-projects](/hermes/skills/catalog/stripe/stripe-projects) | 31.3K | Scaffold Stripe projects. Generate complete Stripe integration projects with best practices built in. |
 
 ## Related
 

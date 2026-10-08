@@ -16,9 +16,9 @@ Skills for integrating Hermes Agent with Prisma. These skills enable autonomous 
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
-| [prisma-database-setup](/hermes/skills/catalog/prisma/prisma-database-setup/) | 11.6K | Database schema design and migrations with Prisma. Type-safe database access for TypeScript projects. |
-| [prisma-client-api](/hermes/skills/catalog/prisma/prisma-client-api/) | 10.8K | Type-safe database queries with Prisma Client. Generated query builder with full TypeScript support. |
-| [prisma-cli](/hermes/skills/catalog/prisma/prisma-cli/) | 9.6K | Prisma CLI workflows: migrate, generate, studio. Command-line tools for database management. |
+| [prisma-database-setup](/hermes/skills/catalog/prisma/prisma-database-setup) | 11.6K | Database schema design and migrations with Prisma. Type-safe database access for TypeScript projects. |
+| [prisma-client-api](/hermes/skills/catalog/prisma/prisma-client-api) | 10.8K | Type-safe database queries with Prisma Client. Generated query builder with full TypeScript support. |
+| [prisma-cli](/hermes/skills/catalog/prisma/prisma-cli) | 9.6K | Prisma CLI workflows: migrate, generate, studio. Command-line tools for database management. |
 
 ## Related
 

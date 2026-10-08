@@ -98,7 +98,15 @@ def sort_key(row: tuple[str, str, str, str]) -> float:
 
 def build_table(cat: str, skills: list[Path]) -> str:
     """Roster table with absolute links, matching the house style used by the
-    Related sections on these same pages ([/hermes/skills/catalog](/hermes/skills/catalog))."""
+    Related sections on these same pages ([/hermes/skills/catalog](/hermes/skills/catalog)).
+
+    NO trailing slash on the row links. The site normalizes every page to the
+    no-slash form (the live sitemap is 2479/2479 no-slash), and every row target
+    here is a flat <stem>.md file, so a slash link is a redirect hop (308 ->
+    no-slash) that check_dead_slash_links.py flags as a defect. Keep this form;
+    the Oct 8, 2026 first version shipped with slashes and produced 53 defects
+    across 13 pages.
+    """
     rows = []
     for s in skills:
         fm = frontmatter(s)
@@ -107,7 +115,7 @@ def build_table(cat: str, skills: list[Path]) -> str:
     rows.sort(key=sort_key)
     out = list(TABLE_HEADER)
     for name, inst, desc, stem in rows:
-        out.append(f"| [{name}](/hermes/skills/catalog/{cat}/{stem}/) | {inst} | {desc} |")
+        out.append(f"| [{name}](/hermes/skills/catalog/{cat}/{stem}) | {inst} | {desc} |")
     return "\n".join(out)
 
 
