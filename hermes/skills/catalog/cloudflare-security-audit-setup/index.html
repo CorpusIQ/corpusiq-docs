@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure inference.sh agent skills - 85 skills for AI image/video generation, web search, Twitter automation, LLM access, and growth tools">
+        <meta name="description" content="Setup guide for cloudflare/security-audit-skill: Cloudflare's official security auditor skill - six-phase vulnerability hunting for AI coding agents.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/cloudflare-security-audit-setup">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>inference.sh/skills - Full Setup Guide for Hermes Agents</title>
+    <title>Cloudflare Security Audit Skill - Agent Code Auditing Setup</title>
   
 
     
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/cloudflare-security-audit-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="inference.sh/skills - Full Setup Guide for Hermes Agents">
-  <meta property="og:description" content="Install and configure inference.sh agent skills - 85 skills for AI image/video generation, web search, Twitter automation, LLM access, and growth tools">
+  <meta property="og:title" content="Cloudflare Security Audit Skill - Agent Code Auditing Setup">
+  <meta property="og:description" content="Setup guide for cloudflare/security-audit-skill: Cloudflare's official security auditor skill - six-phase vulnerability hunting for AI coding agents.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="inference.sh/skills - Full Setup Guide for Hermes Agents">
-  <meta name="twitter:description" content="Install and configure inference.sh agent skills - 85 skills for AI image/video generation, web search, Twitter automation, LLM access, and growth tools">
+  <meta name="twitter:title" content="Cloudflare Security Audit Skill - Agent Code Auditing Setup">
+  <meta name="twitter:description" content="Setup guide for cloudflare/security-audit-skill: Cloudflare's official security auditor skill - six-phase vulnerability hunting for AI coding agents.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,9 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "inference.sh/skills - Full Setup Guide for Hermes Agents",
-    "description": "Install and configure inference.sh agent skills - 85 skills for AI image/video generation, web search, Twitter automation, LLM access, and growth tools",
-    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup",
+    "name": "Cloudflare Security Audit Skill - Agent Code Auditing Setup",
+    "description": "Setup guide for cloudflare/security-audit-skill: Cloudflare\u0027s official security auditor skill - six-phase vulnerability hunting for AI coding agents.",
+    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/cloudflare-security-audit-setup",
     
     "datePublished": "2026-10-08",
     "dateModified": "2026-10-08",
@@ -176,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#inferenceshskills-setup-guide" class="md-skip">
+        <a href="#cloudflare-security-audit-skill-setup-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              inference.sh/skills - Full Setup Guide for Hermes Agents
+              Cloudflare Security Audit Skill - Agent Code Auditing Setup
             
           </span>
         </div>
@@ -10503,14 +10503,36 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Installation">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-six-phase-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Six-Phase Workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Six-Phase Workflow">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#cli-setup-required-for-media-generation" class="md-nav__link">
+  <a href="#verdict-semantics" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CLI Setup (required for media generation)
+        Verdict Semantics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operating-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operating Modes
       
     </span>
   </a>
@@ -10523,10 +10545,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#why-this-matters-for-hermes-agents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Why This Matters for Hermes Agents
       
     </span>
   </a>
@@ -10534,82 +10556,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-skills" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Skills
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Skills">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#media-generation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Media Generation
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#agent-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agent Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#growth-marketing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Growth &amp; Marketing
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#corpusiq-use-cases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CorpusIQ Use Cases
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Troubleshooting
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mirror-listings-oct-8-2026-sweep" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Mirror Listings (Oct 8, 2026 sweep)
+        Usage
       
     </span>
   </a>
@@ -10628,10 +10578,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#security" class="md-nav__link">
     <span class="md-ellipsis">
       
-        *
+        Security
       
     </span>
   </a>
@@ -10643,6 +10593,39 @@
     <span class="md-ellipsis">
       
         Integration with CorpusIQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Tips
       
     </span>
   </a>
@@ -10669,245 +10652,157 @@
   
 
 
-<h1 id="inferenceshskills-setup-guide">inference.sh/skills - Setup Guide<a class="headerlink" href="#inferenceshskills-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Source:</strong> <a href="https://skills.sh/halt-catch-fire/skills">halt-catch-fire/skills</a> (706.2K total installs)
-<strong>Category:</strong> Agent Tools / Growth / Media Generation</p>
-<p>A collection of 85 agent skills for AI image and video generation, web search, social media automation, LLM access, and growth workflows. Powered by inference.sh CLI (250+ models). Covers the full agent toolchain - from content creation to distribution.</p>
+<h1 id="cloudflare-security-audit-skill-setup-guide">Cloudflare Security Audit Skill - Setup Guide<a class="headerlink" href="#cloudflare-security-audit-skill-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Source:</strong> <a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill</a> via <a href="https://www.skills.sh/cloudflare/security-audit-skill/security-audit">skills.sh</a> (25.6K installs, first seen Jun 18, 2026; 26,403⭐ on GitHub, MIT LICENSE; last pushed Sep 14, 2026)
+<strong>Skill:</strong> <code>security-audit</code> (single-skill repo; originally from <code>89jobrien/steve</code>, adapted and maintained by Cloudflare)
+<strong>Category:</strong> Security / Code Auditing
+<strong>Quality Tier:</strong> 🟢 Production (official Cloudflare publisher; battle-tested origin as the seed of Cloudflare's vulnerability discovery harness; MIT LICENSE; active development; Gen Agent Trust Hub Pass / Socket Pass / Snyk Warn - verified Oct 8, 2026)</p>
+<p>The official Cloudflare skill that turns any coding agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. It seeded Cloudflare's vulnerability discovery harness, described in <a href="https://blog.cloudflare.com/build-your-own-vulnerability-harness">Build your own vulnerability harness</a>: the harness grew into a multi-stage, fleet-wide system, and this skill is the single-repo starting point it evolved from. The skill is agent-neutral (works with any agent platform) and MIT-licensed; per skills.sh it was originally from <code>89jobrien/steve</code> before Cloudflare adapted it.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>halt-catch-fire/skills
+<div class="highlight"><pre><span></span><code><span class="c1"># Single skill install (this repo ships one skill)</span>
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>cloudflare/security-audit-skill<span class="w"> </span>--skill<span class="w"> </span>security-audit
+
+<span class="c1"># GitHub URL form, as shown in the skill README</span>
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>https://github.com/cloudflare/security-audit-skill<span class="w"> </span>--skill<span class="w"> </span>security-audit
+
+<span class="c1"># User-level installation</span>
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>cloudflare/security-audit-skill<span class="w"> </span>--skill<span class="w"> </span>security-audit<span class="w"> </span>--global
 </code></pre></div>
-<h3 id="cli-setup-required-for-media-generation">CLI Setup (required for media generation)<a class="headerlink" href="#cli-setup-required-for-media-generation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Install inference.sh CLI</span>
-curl<span class="w"> </span>-sL<span class="w"> </span>https://inference.sh/install<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
-belt<span class="w"> </span>login
-belt<span class="w"> </span>app<span class="w"> </span>store
+<p>This is a single skill, not a suite: there is no wildcard family install, just <code>security-audit</code>. Requirements: a coding agent with tool use and parallel sub-agents, Node.js for the zero-dependency validators, and (for full audits) an OS-enforced sandbox for target-controlled builds, tests, processes, browsers, emulators, fuzzers, and fixtures.</p>
+<h2 id="the-six-phase-workflow">The Six-Phase Workflow<a class="headerlink" href="#the-six-phase-workflow" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Output</th>
+<th>What Happens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Reconnaissance</td>
+<td><code>architecture.md</code>, <code>coverage-ledger.json</code></td>
+<td>Map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage</td>
+</tr>
+<tr>
+<td>2. Coverage-led hunting</td>
+<td>hunter records plus critic gap reports</td>
+<td>Assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps</td>
+</tr>
+<tr>
+<td>3. Candidate validation</td>
+<td>validated candidates</td>
+<td>Give every unique candidate to a fresh verifier that tries to disprove it</td>
+</tr>
+<tr>
+<td>4. Structured output</td>
+<td><code>findings.json</code> validated against <code>report-schema.json</code></td>
+<td>Write <code>confirmed</code>, <code>needs_validation</code>, and <code>rejected</code> records</td>
+</tr>
+<tr>
+<td>5. Independent record verification</td>
+<td>verified records</td>
+<td>Fresh agents verify final source claims; material replacements receive another independent verifier</td>
+</tr>
+<tr>
+<td>6. Target-neutral reporting</td>
+<td><code>REPORT.md</code>, <code>FINDINGS-DETAIL.md</code>, <code>NEEDS-VALIDATION.md</code></td>
+<td>Derive reports from the verified records and the coverage ledger</td>
+</tr>
+</tbody>
+</table>
+<p>Helper scripts (zero-dependency, run with Node.js): <code>validate-coverage-ledger.cjs</code> runs after the ledger is created and after each later ledger update; <code>validate-findings.cjs</code> runs in Phase 4 and again after every Phase 5 replacement.</p>
+<h3 id="verdict-semantics">Verdict Semantics<a class="headerlink" href="#verdict-semantics" title="Anchor link to this section">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Verdict</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>confirmed</code></td>
+<td>Complete source trace plus a bounded observed result</td>
+</tr>
+<tr>
+<td><code>needs_validation</code></td>
+<td>Exact unresolved fact; no severity attached</td>
+</tr>
+<tr>
+<td><code>rejected</code></td>
+<td>Candidate disproved during verification</td>
+</tr>
+</tbody>
+</table>
+<p>Multiple runs against the same repo are additive: prior ledgers and findings target gaps, changed source gets revalidated, and stale or unresolved work is never treated as covered.</p>
+<h3 id="operating-modes">Operating Modes<a class="headerlink" href="#operating-modes" title="Anchor link to this section">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>When It Applies</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Guidance (default)</td>
+<td>Security questions and focused vulnerability work</td>
+<td>Uses only the relevant parts of the skill; no automatic full workflow or artifact creation</td>
+</tr>
+<tr>
+<td>Full audit</td>
+<td>An explicit request to audit or pen-test a codebase</td>
+<td>Runs the six-phase workflow and writes report artifacts; an unspecified output directory defaults to <code>~/security-audit-skill/&lt;repo-name&gt;/run-&lt;N&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<p>Full audit mode writes inside the target repository only when you explicitly select a directory that version control ignores.</p>
+<p>Key files: <code>SKILL.md</code> (setup, core principles, anti-patterns) plus hunting-class references such as <code>RECONNAISSANCE.md</code>, <code>HUNTING.md</code>, <code>ATTACK-CLASSES.md</code>, <code>MEMORY-SAFETY-AND-BINARY.md</code>, <code>AI-AND-LLM.md</code> (prompt-injection and agent/tool hunting), <code>WEB-PROTOCOL-AND-AUTH.md</code>, <code>CLIENT-SIDE.md</code>, <code>SUPPLY-CHAIN-AND-RELEASE.md</code>, <code>CLOUD-AND-DEPLOYMENT.md</code>, and <code>VALIDATION-AND-REPORTING.md</code>.</p>
+<h2 id="why-this-matters-for-hermes-agents">Why This Matters for Hermes Agents<a class="headerlink" href="#why-this-matters-for-hermes-agents" title="Anchor link to this section">&para;</a></h2>
+<p>Agents shipping real code need a structured, evidence-first security review loop, not ad hoc pattern matching. This skill is the public distillation of a production vulnerability discovery harness that grew fleet-wide at Cloudflare, packaging the expensive lessons (isolated hunters, adversarial verification, auditable coverage) into a workflow any agent can run on any codebase. It is agent-neutral and MIT-licensed, so it drops into a Hermes fleet with no platform lock-in.</p>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
+<p>Start the agent in (or pointed at) the codebase you want audited, then trigger the skill:</p>
+<div class="highlight"><pre><span></span><code>security audit this codebase
+find security vulnerabilities in ./src
+do a security review, output to ~/audits/my-project
 </code></pre></div>
-<hr />
-<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Requirement</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Hermes Agent</strong></td>
-<td>v0.20.0+</td>
-</tr>
-<tr>
-<td><strong>Node.js</strong></td>
-<td>v18+ for <code>npx</code> install</td>
-</tr>
-<tr>
-<td><strong>inference.sh CLI</strong></td>
-<td>Required for image/video generation skills</td>
-</tr>
-<tr>
-<td><strong>X/Twitter API</strong></td>
-<td>Required for <code>twitter-automation</code></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="key-skills">Key Skills<a class="headerlink" href="#key-skills" title="Anchor link to this section">&para;</a></h2>
-<h3 id="media-generation">Media Generation<a class="headerlink" href="#media-generation" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Skill</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong><code>ai-image-generation</code></strong></td>
-<td>50+ image models (FLUX, Gemini, Reve, Qwen, etc.)</td>
-</tr>
-<tr>
-<td><strong><code>ai-video-generation</code></strong></td>
-<td>40+ video models (Veo, Seedance, Wan, etc.)</td>
-</tr>
-<tr>
-<td><strong><code>ai-avatar-video</code></strong></td>
-<td>AI avatar video creation</td>
-</tr>
-<tr>
-<td><strong><code>remotion-render</code></strong></td>
-<td>Programmatic video rendering with Remotion</td>
-</tr>
-<tr>
-<td><strong><code>image-to-video</code></strong></td>
-<td>Convert images to animated video</td>
-</tr>
-<tr>
-<td><strong><code>image-upscaling</code></strong></td>
-<td>AI-powered image upscaling</td>
-</tr>
-<tr>
-<td><strong><code>text-to-speech</code></strong></td>
-<td>ElevenLabs dialogue generation</td>
-</tr>
-<tr>
-<td><strong><code>speech-to-text</code></strong></td>
-<td>Audio transcription</td>
-</tr>
-</tbody>
-</table>
-<h3 id="agent-tools">Agent Tools<a class="headerlink" href="#agent-tools" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Skill</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong><code>agent-browser</code></strong></td>
-<td>AI-powered browser automation</td>
-</tr>
-<tr>
-<td><strong><code>web-search</code></strong></td>
-<td>Tavily + Exa search integration</td>
-</tr>
-<tr>
-<td><strong><code>python-executor</code></strong></td>
-<td>Agent-controlled Python code execution</td>
-</tr>
-<tr>
-<td><strong><code>llm-models</code></strong></td>
-<td>Access to Claude, Gemini, Kimi, GLM via inference.sh</td>
-</tr>
-<tr>
-<td><strong><code>data-visualization</code></strong></td>
-<td>Chart and graph generation</td>
-</tr>
-</tbody>
-</table>
-<h3 id="growth-marketing">Growth &amp; Marketing<a class="headerlink" href="#growth-marketing" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Skill</th>
-<th>What It Does</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong><code>twitter-automation</code></strong></td>
-<td>X/Twitter API - post, search, engage</td>
-</tr>
-<tr>
-<td><strong><code>landing-page-design</code></strong></td>
-<td>AI landing page generation</td>
-</tr>
-<tr>
-<td><strong><code>competitor-teardown</code></strong></td>
-<td>Competitive analysis framework</td>
-</tr>
-<tr>
-<td><strong><code>product-hunt-launch</code></strong></td>
-<td>PH launch strategy and execution</td>
-</tr>
-<tr>
-<td><strong><code>customer-persona</code></strong></td>
-<td>Buyer persona generation</td>
-</tr>
-<tr>
-<td><strong><code>social-media-carousel</code></strong></td>
-<td>AI carousel creation</td>
-</tr>
-<tr>
-<td><strong><code>ai-content-pipeline</code></strong></td>
-<td>End-to-end content pipeline</td>
-</tr>
-<tr>
-<td><strong><code>product-photography</code></strong></td>
-<td>AI product image generation</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Use Case</th>
-<th>How</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Content creation pipeline</strong></td>
-<td>Use <code>ai-image-generation</code> + <code>ai-content-pipeline</code> for social media assets</td>
-</tr>
-<tr>
-<td><strong>Competitor research</strong></td>
-<td>Use <code>competitor-teardown</code> + <code>web-search</code> for market intelligence</td>
-</tr>
-<tr>
-<td><strong>Launch campaigns</strong></td>
-<td>Use <code>product-hunt-launch</code> + <code>twitter-automation</code> for coordinated launches</td>
-</tr>
-<tr>
-<td><strong>Video marketing</strong></td>
-<td>Use <code>ai-avatar-video</code> + <code>remotion-render</code> for UGC-style content</td>
-</tr>
-<tr>
-<td><strong>Automated research</strong></td>
-<td>Use <code>agent-browser</code> + <code>web-search</code> + <code>python-executor</code> for deep research</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Issue</th>
-<th>Fix</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>belt CLI not found</strong></td>
-<td>Install: <code>curl -sL https://inference.sh/install | bash</code></td>
-</tr>
-<tr>
-<td><strong>Media generation fails</strong></td>
-<td>Run <code>belt login</code> - requires inference.sh account</td>
-</tr>
-<tr>
-<td><strong>Twitter automation blocked</strong></td>
-<td>Check X API credentials in <code>~/.inference.sh/config</code></td>
-</tr>
-<tr>
-<td><strong>Web search returns empty</strong></td>
-<td>Verify Tavily/Exa API keys are configured</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mirror-listings-oct-8-2026-sweep">Mirror Listings (Oct 8, 2026 sweep)<a class="headerlink" href="#mirror-listings-oct-8-2026-sweep" title="Anchor link to this section">&para;</a></h2>
-<p>Re-uploaded mirrors of this skill set circulate on skills.sh under unrelated names, recorded so future sweeps treat them as covered: <code>101-skills/superpowers</code>, <code>magentosh/superpowers</code>, <code>qu-skills/superpowers</code>, <code>skills-shell/superpowers</code>, <code>its-a-skill-issue/superpowers</code> (recorded Sep 7-10, 2026), and <code>bankai-skills/superpowers</code> (first recorded Oct 8, 2026; ~52.4K combined installs across 20 listings, 0 stars, verbatim inference.sh skill content). Combined mirror installs run into six figures - <code>magentosh/superpowers</code> alone shows ~143K across 20 listings in the Oct 8, 2026 trending snapshot. Canonical coverage remains this guide.</p>
+<p>The skill activates automatically on matching requests (security audit, find vulnerabilities, pen-test the code, security review). Focused security questions stay in guidance mode; a direct audit or pen-test request switches to full audit mode. Re-run against the same repo to grow coverage - Cloudflare notes that in its test runs a single run found roughly half of the vulnerabilities that repeated runs found in total.</p>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Verify CLI</span>
-belt<span class="w"> </span>--version
+<div class="highlight"><pre><span></span><code><span class="c1"># Confirm the skill is installed locally</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>security-audit
 
-<span class="c1"># List available models</span>
-belt<span class="w"> </span>app<span class="w"> </span>store
-
-<span class="c1"># Test image generation</span>
-<span class="c1"># In agent: &quot;Generate an image using ai-image-generation&quot;</span>
+<span class="c1"># Confirm the validators are present in the skill directory</span>
+ls<span class="w"> </span>validate-coverage-ledger.cjs<span class="w"> </span>validate-findings.cjs
 </code></pre></div>
-<hr />
-<p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Marketplace</a> →</em>
-<em>Powered by CorpusIQ</em></p>
-<hr />
-<h2 id="_1">*<a class="headerlink" href="#_1" title="Anchor link to this section">&para;</a></h2>
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<p>Smoke test: point the agent at a small repo and ask "security audit this codebase". In full audit mode it should create <code>coverage-ledger.json</code> during reconnaissance and later produce <code>findings.json</code>, <code>REPORT.md</code>, <code>FINDINGS-DETAIL.md</code>, and <code>NEEDS-VALIDATION.md</code> in the output directory. Cross-check install counts and per-skill verdicts on the skills.sh page linked above.</p>
+<h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
+<p>skills.sh security verdicts for <code>security-audit</code> (verified Oct 8, 2026) - check the skill's security page on skills.sh before production use:</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gen Agent Trust Hub</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Socket</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Snyk</td>
+<td>Warn</td>
+</tr>
+</tbody>
+</table>
+<p>Note: the skill writes files, and in full audit mode may execute target-controlled code paths (builds, tests, processes, browsers, emulators, fuzzers, fixtures). Run it on a branch or worktree, keep output out of version control, and use an OS-enforced sandbox before executing target code.</p>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
 already runs on - accounting, payments, CRM, email, files and analytics - and answer
@@ -10918,6 +10813,34 @@ accounts.</p>
 server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
 this one can be combined with a company's own business data in a single answer.</p>
 <p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Two modes matter: guidance mode (the default) does not run the full workflow or create artifacts. Full audit mode must be explicitly requested.</li>
+<li><code>needs_validation</code> is not a severity level. It records an exact unresolved fact for follow-up, so it should not be triaged as a reported vulnerability.</li>
+<li>Full audit mode writes report artifacts and may execute target code paths. Plan for a branch or worktree, an ignored or external output directory, and the README's sandbox requirements (no external networking, sanitized allowlisted environment, resource limits, scratch-only writes).</li>
+<li>Runtime is heavyweight by design: a required coding agent with parallel sub-agents plus Node.js for the validators. This is an audit harness, not a quick linter.</li>
+<li>Snapshot data, verified Oct 8, 2026: 25.6K skills.sh installs; 26,403 GitHub stars; MIT LICENSE; last pushed Sep 14, 2026. Counts will drift over time.</li>
+<li>Authorship note: per the skills.sh listing, the skill was originated by 89jobrien as <code>89jobrien/steve</code> and adapted by Cloudflare; this catalog entry documents the Cloudflare-maintained version.</li>
+</ul>
+<h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/strix-security-skills-setup">Strix Security Skills - Autonomous Pentesting Suite Setup</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-security-setup">trailofbits/skills - Full Setup Guide for Hermes Agents</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/ctf-security-skills-setup">CTF Security Skills - Offensive Security Suite Setup</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Skills Marketplace</a></li>
+</ul>
+<h2 id="pro-tips">Pro Tips<a class="headerlink" href="#pro-tips" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Run a guidance-mode focused pass on your highest-risk area (auth, input parsing, agent tool handling) before committing to a full six-phase audit - it is fast and often surfaces where the real risk lives.</li>
+<li>Keep audit output out of version control: choose an ignored directory or a path outside the repo, and run on a branch or worktree since artifacts land on disk.</li>
+<li>Re-run against the same repo instead of treating one pass as complete. Runs are additive: prior ledgers target gaps and revalidate changed source.</li>
+<li>Do not skip the validators: <code>validate-coverage-ledger.cjs</code> after each ledger update and <code>validate-findings.cjs</code> after Phase 5 replacements keep artifacts schema-clean.</li>
+<li>Treat <code>needs_validation</code> entries as a follow-up queue of exact unresolved facts; clearing them on the next run is where repeated audits earn their keep.</li>
+</ul>
+<hr />
+<p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Skills Marketplace</a> →</em>
+<em>Powered by CorpusIQ</em></p>
 
 
 
