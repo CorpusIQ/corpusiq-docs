@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
-last_updated: "2026-10-07"
+last_updated: "2026-10-08"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
@@ -10,11 +10,11 @@ Current state and ongoing work for the public docs repository.
 
 ## File count (updated October 8, 2026)
 
-- **Total Markdown files:** 2772
+- **Total Markdown files:** 2775
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 549 setup guides for Hermes skills (measured: *setup*.md under hermes/skills; Oct 8 morning added 4 - shadcn (shadcn-ui/ui), Amplitude Agent Skills (amplitude/mcp-marketplace), mbfinotti Business Skills (4 repos), Cloudflare Security Audit (cloudflare/security-audit-skill); Oct 7 evening added 1 - Callstack Agent Skills (callstackincubator/agent-skills); Oct 5 evening, skills-monitor sweep added 1 publisher guide - Goldsky Agent Skills (goldsky-io/goldsky-agent); Oct 4 evening added 1 - Moonlight Lupin Agent Skills (un-parked after growth re-check); Oct 4 morning added 1 - CrewAI Skills (crewAIInc/skills); Oct 2 added 3 - 01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills; prior 534 baseline was stale) (measured: *setup*.md under hermes/skills); marketplace index tracks 1,077+ curated skills
-- **MCP servers:** 1180 total .md under hermes/mcp/; external catalog 865 servers (+751 guides) per Oct 7 midday sweep
+- **MCP servers:** 1196 total .md under hermes/mcp/; external catalog 878 servers (+764 guides) per Oct 8 midday sweep
 - **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -40,6 +40,8 @@ The repo is actively maintained with daily automated updates:
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Docs maintenance ✅ (Oct 8, 2026, docs-mgmt cron):** dead-slash source sweep - the catalog roster generator (commit eb29bb2e0) emitted every row link in directory-slash form (e.g. /hermes/skills/catalog/firecrawl/firecrawl-scrape/), and every row target is a flat <stem>.md file, so all 53 links across 13 category index pages carried the dead-slash defect class (directory-slash form pointing at flat .md files). Fixed at the SOURCE: scripts/generate_catalog_indexes.py now emits no-slash row links, so regeneration can no longer reintroduce the defect, and the 13 rosters were regenerated - 53 changed lines, each differing only by the trailing slash (structural diff check), idempotency recheck 0. Commit 4209616da deployed via deploy_docs.py (Vercel OK; canonical/sitemap/feed/href verify gates all passed; Pages leg queued, expected). All 13 changed pages live-verified HTTP 200 (www) + origin spot-checks. Routine audits clean: 0 broken links (hermes + cross-directory), 0 missing frontmatter, 0 duplicate descriptions, 0 empty pages, dead-slash scanner 53 -> 0 defects, anchor check 0 candidates (9 allowlisted), catalog validator OK, PII = the 3 known false positives, retention gate PASS. PROGRESS.md stats refreshed (2,775 MD, 1,196 hermes/mcp .md, external catalog 878 servers (+764 guides) per Oct 8 midday sweep, 549 setup guides).
 
 - **Docs maintenance ✅ (Oct 7, 2026, docs-mgmt cron):** anchor-integrity sweep - every internal `#fragment` link checked against the built site's heading ids (new reusable scanner; the build is ground truth for what is served). **23 latent fragment links fixed across 16 pages** (each silently landed at the top of its target page when clicked): 10 MCP-guide cross-refs retargeted to the Integration Guides index (`/hermes/mcp/servers/#<tool>`), 6 external-catalog cross-refs corrected to real ids (incl. the dated ENTIA/ChronoVerify sections), 5 catalog setup footers' dead category anchors replaced with the standard `[Skills Catalog] | [Marketplace]` footer, and the merged skill-vetter section anchor on the July 15 update page. Not changed by design: 9 `#repo-unavailable` placeholders (intentional since commit 6fcfac91f). Routine audits clean: 0 broken links (hermes + cross-directory), 0 missing frontmatter, 0 duplicate descriptions, 0 empty pages, dead-slash scan 0; PII scan = the 3 known false positives only; retention gate PASS. Commit 44063eb1b deployed via deploy_docs.py (Vercel OK; canonical/sitemap/feed verify gates passed); all 16 changed pages live-verified HTTP 200 with the corrected links (www + origin spot-checks).
 
@@ -106,7 +108,7 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: October 7, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: October 8, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 
 ## FAQ
 
