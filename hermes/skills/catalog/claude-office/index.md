@@ -1,6 +1,6 @@
 ---
 title: "Claude Office Skills - CorpusIQ Docs"
-description: "Hermes skills for Claude Office integration and automation. Part of the Hermes Skills Library. integrating Agent with Office. These enable autonomous workf."
+description: "Hermes Agent skills for Claude Office. 4 skills with install commands, triggers, and setup steps for each."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/"
 robots: "index,follow"
 last_updated: "2026-09-29"
@@ -14,21 +14,14 @@ Skills for integrating Hermes Agent with Claude Office. These skills enable auto
 
 ## Available Skills
 
-| Skill | Installs | Description | Type |
-|-------|----------|-------------|------|
-| sheets-automation | 4,696 | Google Sheets automation | Automation |
-| gmail-workflows | 4,431 | Gmail workflow automation | Automation |
-| Home Assistant Automation | 4,371 | Home Assistant automation | Automation |
-| hr-automation | 4,328 | HR process automation | Automation |
-| shopify-automation | 4,245 | Shopify store automation | Automation |
-| Microsoft Teams Automation | 4,165 | Teams messaging automation | Automation |
-| Mailchimp Automation | 4,074 | Email campaign automation | Automation |
-| Monday.com Automation | 4,024 | Monday.com board automation | Automation |
-| Intercom Automation | 4,003 | Intercom support automation | Automation |
-| Zendesk Automation | 3,995 | Zendesk ticket automation | Automation |
-| Weather Automation | 3,989 | Weather data automation | Automation |
+| Skill | Installs | Description |
+|-------|----------|-------------|
+| [airtable-automation](/hermes/skills/catalog/claude-office/airtable-automation/) | 2.7K | Airtable base operations. Create, read, update Airtable records programmatically.| |
+| [crm-automation](/hermes/skills/catalog/claude-office/crm-automation/) | 3.2K | CRM data entry and management. Automate CRM workflows including contact management and pipeline updates. |
+| [excel-automation](/hermes/skills/catalog/claude-office/excel-automation/) | 10.2K | Excel file creation and manipulation. Generate and modify spreadsheets programmatically. |
+| [pdf-extraction](/hermes/skills/catalog/claude-office/pdf-extraction/) | 5.8K | Extract and parse PDF content. Pull text, tables, and data from PDF documents.| |
 
-*Roster refreshed in the Sep 29, 2026 sweep.*
+*Roster rebuilt from the catalog on 2026-10-08. The previous roster named eleven skills with no page in this library.*
 
 ## Related
 

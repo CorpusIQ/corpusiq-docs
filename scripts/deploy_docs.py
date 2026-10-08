@@ -152,6 +152,14 @@ def main():
     else:
         print("   No source fixes needed")
 
+    # 2d. Catalog index gate. Blocks the deploy on a broken skills roster
+    #     (an empty "Coming soon" table beside real skill pages, or a row
+    #     linking to a page that does not exist). Twelve index pages shipped
+    #     with empty rosters and one advertised eleven skills that do not
+    #     exist, and nothing caught either. Hard gate, no `|| true`.
+    print("2d. Catalog index gate (skills rosters)...")
+    run("python3 scripts/validate_catalog_indexes.py")
+
     # 3. Build
     print("3. Building mkdocs...")
     out = run("python3 -m mkdocs build --clean", fatal=True)
