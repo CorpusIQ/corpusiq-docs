@@ -17023,5 +17023,145 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-08T10:04:05.612209+00:00"
+  },
+  {
+    "repo": "dragon0816/hermes-agentic-ai-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905279+00:00"
+  },
+  {
+    "repo": "jeromeleeqy-hash/Hermes-Desktop",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905283+00:00"
+  },
+  {
+    "repo": "inigokintana/meteoseek",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905285+00:00"
+  },
+  {
+    "repo": "iamlukethedev/Herald-OS",
+    "score": 76,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-09T10:04:36.905288+00:00"
+  },
+  {
+    "repo": "BenedekMolnarVito/hermes-configurations",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905289+00:00"
+  },
+  {
+    "repo": "SleepingPig114514/rokid-glasses-hermes-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905291+00:00"
+  },
+  {
+    "repo": "fghdhtfdu/IT---10-Hermes-Agent-AI-",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905293+00:00"
+  },
+  {
+    "repo": "Tiybai/tiybai-omnibutler",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905294+00:00"
+  },
+  {
+    "repo": "djalmajr/herdr-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905296+00:00"
+  },
+  {
+    "repo": "thomashuangth/hermes-toolkit",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905298+00:00"
+  },
+  {
+    "repo": "nacke81/hermes-ne-observability",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905300+00:00"
+  },
+  {
+    "repo": "bykaralord25/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905301+00:00"
+  },
+  {
+    "repo": "Joni-Lover/hermes-headroom-monitoring",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905303+00:00"
+  },
+  {
+    "repo": "ElizaChoy/qwen-benchmark-project",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905305+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-toolperf-evals",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905307+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-plugin-tirith",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905308+00:00"
+  },
+  {
+    "repo": "argb6/Hermes-IDE",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905310+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-spotify",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905312+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-homeassistant",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905314+00:00"
+  },
+  {
+    "repo": "wheremymailgo-rgb/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-09T10:04:36.905316+00:00"
   }
 ]

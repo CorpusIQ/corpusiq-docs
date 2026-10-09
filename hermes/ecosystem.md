@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 193+ repos, tools, skills, and integrations
-last_updated: "2026-10-08"
+description: Comprehensive directory of the Hermes Agent ecosystem - 194+ repos, tools, skills, and integrations
+last_updated: "2026-10-09"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,16 +11,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **193+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 188 auto-approved (score >= 70).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **194+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 189 auto-approved (score >= 70).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **193+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **194+ repos indexed.**
 
 ## 📊 Category Overview
 
 || Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 12 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 14 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -50,7 +50,7 @@ _Video, social media, content generation_
 
 ## 🧠 Core Framework
 
-_12 repos_
+_14 repos_
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
 
@@ -121,6 +121,14 @@ _12 repos_
 >🦭 A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment - compatible with Hermes Agent, OpenClaw, Claude Code, Codex, and more.
 
 **Language:** Rust | **Topics:** agent, ai, ai-assistant, cross-device, desktop-app, hermes-agent, mcp, openclaw, personal | **Score:** 75/100
+
+---
+
+### [iamlukethedev/Herald-OS](https://github.com/iamlukethedev/Herald-OS) ⭐ 309
+
+>An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.
+
+**Language:** TypeScript | **Topics:** ai-agent, desktop-environment, fedora, hermes-agent, hyprland, linux, macos, niri, omarchy, operating-system | **Score:** 76/100
 
 ---
 
@@ -1640,7 +1648,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*193+ repositories in the Hermes ecosystem. Last updated: 2026-10-08. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*194+ repositories in the Hermes ecosystem. Last updated: 2026-10-09. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
