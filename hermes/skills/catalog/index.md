@@ -687,6 +687,10 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Amplitude Agent Skills - Product Analytics Setup](/hermes/skills/catalog/amplitude-agent-skills-setup)
 - [mbfinotti Business Skills - Sales, RevOps & Advertising](/hermes/skills/catalog/mbfinotti-skills-setup)
 - [Cloudflare Security Audit Skill - Agent Code Auditing Setup](/hermes/skills/catalog/cloudflare-security-audit-setup)
+- [Limrun Skills - Cloud iOS & Android Simulator Setup](/hermes/skills/catalog/limrun-skills-setup)
+- [TypeSafe AI Skills - Typed AI Judgments Setup](/hermes/skills/catalog/typesafe-ai-setup)
+- [Yomiyasu - Japanese AI Prose Refinement Setup](/hermes/skills/catalog/yomiyasu-setup)
+- [Proseify - Anti-Prose-Slop Book Writing Setup](/hermes/skills/catalog/proseify-setup)
 
 ## Previously unlinked pages (added 2026-10-06)
 
