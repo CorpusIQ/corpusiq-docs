@@ -691,6 +691,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [TypeSafe AI Skills - Typed AI Judgments Setup](/hermes/skills/catalog/typesafe-ai-setup)
 - [Yomiyasu - Japanese AI Prose Refinement Setup](/hermes/skills/catalog/yomiyasu-setup)
 - [Proseify - Anti-Prose-Slop Book Writing Setup](/hermes/skills/catalog/proseify-setup)
+- [Modern Web Guidance - Google Chrome Agent Skill Setup](/hermes/skills/catalog/googlechrome-modern-web-guidance-setup)
 
 ## Previously unlinked pages (added 2026-10-06)
 
