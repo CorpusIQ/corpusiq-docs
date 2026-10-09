@@ -1,9 +1,9 @@
 ---
 title: Hermes Ecosystem  --  Complete Resource Directory
-description: The definitive directory of Hermes Agent resources  --  192+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources  --  192+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-04"
+last_updated: "2026-10-09"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
@@ -173,7 +173,7 @@ Complete official documentation: quickstart, CLI, configuration, messaging gatew
 ### Hermes Official Release Notes
 [github.com/NousResearch/hermes-agent/releases](https://github.com/NousResearch/hermes-agent/releases)
 
-Official changelog with feature highlights, migration notes, and fixes for each version. v0.21.5 is current (September 2026).
+Official changelog with feature highlights, migration notes, and fixes for each version. v0.21.6 is current (October 2026).
 
 ---
 

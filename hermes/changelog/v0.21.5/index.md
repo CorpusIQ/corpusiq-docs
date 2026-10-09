@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent v0.21.5 Patch Release
-description: Hermes Agent v0.21.5 (v2026.9.24) - Patch release rolling up 460 PRs. Desktop plugin SDK wave, Simple/Advanced interface mode, Connectors page, French German Spanish catalogs.
+description: Hermes Agent v0.21.5 - patch release rolling up 460 PRs: Desktop plugin SDK, Simple/Advanced mode, Connectors page, FR/DE/ES catalogs.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.5/"
 robots: "index,follow"
 last_updated: "2026-09-28"
@@ -42,7 +42,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 ---
 
-*← [v0.21.4 - Patch Release](/hermes/changelog/v0.21.4) | [Changelog Home](/hermes/changelog) →*
+*← [v0.21.4 - Patch Release](/hermes/changelog/v0.21.4) | [v0.21.6 - Patch Release](/hermes/changelog/v0.21.6) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

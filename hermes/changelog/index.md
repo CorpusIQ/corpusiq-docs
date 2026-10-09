@@ -3,7 +3,7 @@ title: "Hermes Agent Changelog - CorpusIQ Docs"
 description: Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-10-09"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -16,6 +16,7 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.21.6](/hermes/changelog/v0.21.6) | October 8, 2026 | Patch Release | 2,106 PRs: first release from the new stable pipeline (tested Docker image, receipt tag), plus dashboard auth, git filter, and email gateway sender hardening |
 | [v0.21.5](/hermes/changelog/v0.21.5) | September 24, 2026 | Patch Release | 460 PRs: Desktop plugin SDK wave, Simple/Advanced interface mode, Connectors page replacing the MCP tab, French/German/Spanish catalogs, per-profile lifecycle controls |
 | [v0.21.4](/hermes/changelog/v0.21.4) | September 21, 2026 | Patch Release | 1,812 PRs: host-wide gateway singleton lock, `--format stream-json` CLI, `skills.auto_load`, session_search bounds, LTX 2.5 + Kling O3 video catalogs, plugin and author pages |
 | [v0.21.3](/hermes/changelog/v0.21.3) | September 14, 2026 | Patch Release | Remote dashboard refresh-token coalescing and state.db writer-handle dedup for remote Desktop and Cloud users |
@@ -36,19 +37,20 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 ## How Updates Are Detected
 
-Three crons monitor Hermes Agent releases:
-| Cron | Schedule | Action |
-|------|----------|--------|
-| `hermes-release-monitor` | 02:00, 10:00, 18:00 UTC | Check GitHub releases for new versions |
+Three release checks a day compare the newest Hermes Agent GitHub release against the version documented here:
 
-When a new release is detected, a changelog page is drafted, committed to `CorpusIQ/corpusiq-docs`, and reported via Telegram.
+| Check | Schedule | Action |
+|------|----------|--------|
+| `hermes-release-monitor` | 02:00, 10:00, 18:00 UTC | Poll GitHub releases; draft and publish the changelog page for any new tag |
+
+When a new release is detected, a changelog page is generated, committed to `CorpusIQ/corpusiq-docs`, deployed, and reported by email.
 ---
 
 ## FAQ
 
 ### What is the latest Hermes Agent version?
 
-v0.21.5, published September 24, 2026. It rolls up roughly 460 PRs since v0.21.4, headlined by the Desktop plugin SDK wave and the new Connectors page.
+v0.21.6, published October 8, 2026. It rolls up roughly 2,106 PRs since v0.21.5 and is the first release cut by the new stable pipeline, carrying dashboard auth, git filter, and email gateway sender hardening.
 
 ### How often is the Hermes changelog updated?
 
@@ -68,7 +70,7 @@ Run `hermes update` from the terminal, or install fresh with the official instal
       "name": "What is the latest Hermes Agent version?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "v0.21.5, published September 24, 2026. It rolls up roughly 460 PRs since v0.21.4, headlined by the Desktop plugin SDK wave and the new Connectors page."
+        "text": "v0.21.6, published October 8, 2026. It rolls up roughly 2,106 PRs since v0.21.5 and is the first release cut by the new stable pipeline, carrying dashboard auth, git filter, and email gateway sender hardening."
       }
     },
     {
