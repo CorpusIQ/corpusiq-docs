@@ -70810,5 +70810,472 @@
     ],
     "discovered_at": "2026-10-08T10:02:38.478451+00:00",
     "status": "pending"
+  },
+  {
+    "name": "dragon0816/hermes-agentic-ai-skills",
+    "url": "https://github.com/dragon0816/hermes-agentic-ai-skills",
+    "description": "collect the skills that generate from Hermes agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-09T10:00:33Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:02:11.925743+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jeromeleeqy-hash/Hermes-Desktop",
+    "url": "https://github.com/jeromeleeqy-hash/Hermes-Desktop",
+    "description": "Hermes Agent desktop client for Windows and macOS Apple Silicon \u00b7 \u4f1a\u8bdd\u3001\u4efb\u52a1\u4e2d\u5fc3\u3001\u6587\u4ef6\u5de5\u4f5c\u533a\u4e0e\u684c\u9762\u52a9\u624b",
+    "stars": 4,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-10-09T09:59:05Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "fathah/hermes-desktop",
+      "dodo-reach/hermes-desktop"
+    ],
+    "discovered_at": "2026-10-09T10:02:11.929856+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "inigokintana/meteoseek",
+    "url": "https://github.com/inigokintana/meteoseek",
+    "description": "Euskalmet + Seeketing data into Fabric for posterior and preventive analysis wth Reports in Fabric and Hermes AI agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-10-09T09:58:40Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-10-09T10:02:11.932596+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BenedekMolnarVito/hermes-configurations",
+    "url": "https://github.com/BenedekMolnarVito/hermes-configurations",
+    "description": "This is a registry for multiple Hermes Agent configurations. Separate forlders for separate configs.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T09:56:33Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:02:11.937871+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SleepingPig114514/rokid-glasses-hermes-bridge",
+    "url": "https://github.com/SleepingPig114514/rokid-glasses-hermes-bridge",
+    "description": "Rokid AR Glasses bridge adapter for Hermes Agent - connects official OpenClaw plugin to Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-09T09:55:55Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "goagent123/hermes-composio-bridge"
+    ],
+    "discovered_at": "2026-10-09T10:02:11.940485+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fghdhtfdu/IT---10-Hermes-Agent-AI-",
+    "url": "https://github.com/fghdhtfdu/IT---10-Hermes-Agent-AI-",
+    "description": "\u83b7\u8bfe\uff1aaixuetang.xyz/23658/IT\u7231\u5b66\u5802-\u3010\u5b8c\u7ed310\u7ae0\u3011Hermes Agent\u4ece\u5165\u95e8\u5230AI\u6570\u5b57\u5458\u5de5\u5b9e\u6218",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T09:54:53Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:02:11.942997+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Tiybai/tiybai-omnibutler",
+    "url": "https://github.com/Tiybai/tiybai-omnibutler",
+    "description": "Open-source smart device bridge: let AI agents (Muse / OpenClaw / Hermes) control your devices via MCP, with a deterministic scene engine and safety guardrails.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "matter",
+      "mcp",
+      "model-context-protocol",
+      "open-source",
+      "scene-automation",
+      "smart-home",
+      "tuya",
+      "xiaomi"
+    ],
+    "updated_at": "2026-10-09T07:26:53Z",
+    "category": "mcp",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Bo1202/Aivy-OS",
+      "agentrq/agentrq"
+    ],
+    "discovered_at": "2026-10-09T10:02:19.577529+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "djalmajr/herdr-hermes",
+    "url": "https://github.com/djalmajr/herdr-hermes",
+    "description": "Two-way bridge between a remote job dispatcher and Herdr nodes (CLI, plugin, skill)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T02:26:30Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:02:27.208142+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thomashuangth/hermes-toolkit",
+    "url": "https://github.com/thomashuangth/hermes-toolkit",
+    "description": "Portable French Hermes skills and opt-in Telegram plugins",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-08T23:21:40Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:02:27.210694+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nacke81/hermes-ne-observability",
+    "url": "https://github.com/nacke81/hermes-ne-observability",
+    "description": "Hermes Agent plugin: per-profile token, cron, model, skill, subagent and permission observability with a Desktop page and Kanban board filter.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "hermes-plugin",
+      "observability"
+    ],
+    "updated_at": "2026-10-08T20:00:25Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:02:27.213403+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bykaralord25/hermes-agent",
+    "url": "https://github.com/bykaralord25/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T10:02:28Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-10-09T10:02:35.014367+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Joni-Lover/hermes-headroom-monitoring",
+    "url": "https://github.com/Joni-Lover/hermes-headroom-monitoring",
+    "description": "Read-only Headroom proxy monitoring for Hermes Agent web dashboard and native Desktop. English/Russian UI.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-09T07:35:09Z",
+    "category": "ui",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "sanchomuzax/hermes-webui"
+    ],
+    "discovered_at": "2026-10-09T10:02:50.149197+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ElizaChoy/qwen-benchmark-project",
+    "url": "https://github.com/ElizaChoy/qwen-benchmark-project",
+    "description": "Benchmark project evaluating Qwen3.8-Flash-Next across different AI coding harnesses, including Hermes, DeepSeek and OpenClaw",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-09T02:45:55Z",
+    "category": "benchmarks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:03:13.206733+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-toolperf-evals",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-toolperf-evals",
+    "description": "RDF parse data for NousResearch/hermes-toolperf-evals",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T07:09:25Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:04:06.435249+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-plugin-tirith",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-plugin-tirith",
+    "description": "RDF parse data for NousResearch/hermes-plugin-tirith",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T07:09:01Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:04:06.437918+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "argb6/Hermes-IDE",
+    "url": "https://github.com/argb6/Hermes-IDE",
+    "description": "Hermes-IDE \u2014 Hermes Agent \u672c\u5730\u5316\u79c1\u6709\u7248\uff08\u57fa\u4e8e NousResearch/hermes-agent\uff0cMIT\uff09",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-09T06:09:46Z",
+    "category": "official",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:04:06.440962+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-spotify",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-spotify",
+    "description": "RDF parse data for NousResearch/hermes-spotify",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T03:48:41Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:04:06.443545+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "repolex-forx/NousResearch--hermes-homeassistant",
+    "url": "https://github.com/repolex-forx/NousResearch--hermes-homeassistant",
+    "description": "RDF parse data for NousResearch/hermes-homeassistant",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-09T03:48:36Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-09T10:04:06.446109+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wheremymailgo-rgb/hermes-agent",
+    "url": "https://github.com/wheremymailgo-rgb/hermes-agent",
+    "description": "Hermes Agent by Nous Research \u2014 the self-improving AI agent. Saved from https://github.com/NousResearch/hermes-agent on 2026-10-08. MIT License.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-10-08T23:45:01Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "awesome-hermes-usecases",
+      "hermes-ecosystem",
+      "awesome-hermes-agent",
+      "ksimback/hermes-ecosystem",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-10-09T10:04:06.449180+00:00",
+    "status": "pending"
   }
 ]

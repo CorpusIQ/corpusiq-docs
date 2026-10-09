@@ -6353,5 +6353,43 @@
     "discovered_at": "2026-10-08T10:01:57.263145+00:00",
     "status": "approved",
     "approved_at": "2026-10-08T10:04:05.612169+00:00"
+  },
+  {
+    "name": "iamlukethedev/Herald-OS",
+    "url": "https://github.com/iamlukethedev/Herald-OS",
+    "description": "An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.",
+    "stars": 309,
+    "forks": 43,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agent",
+      "desktop-environment",
+      "fedora",
+      "hermes-agent",
+      "hyprland",
+      "linux",
+      "macos",
+      "niri",
+      "omarchy",
+      "operating-system"
+    ],
+    "updated_at": "2026-10-09T09:57:34Z",
+    "category": "core",
+    "score": 76,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-10-09T10:02:11.935269+00:00",
+    "status": "approved",
+    "approved_at": "2026-10-09T10:04:36.905266+00:00"
   }
 ]

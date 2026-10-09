@@ -1,50 +1,50 @@
 {
-  "run_time": "2026-10-08T10:04:05.665404+00:00",
+  "run_time": "2026-10-09T10:04:36.955561+00:00",
   "new_approved": [
     {
-      "name": "gakonst/nanocodex",
-      "url": "https://github.com/gakonst/nanocodex",
-      "description": "Building blocks for frontier OpenAI agents in Rust. Nanocodex empowers you with Codex-level performance anywhere.",
-      "stars": 557,
-      "forks": 79,
-      "language": "Rust",
+      "name": "iamlukethedev/Herald-OS",
+      "url": "https://github.com/iamlukethedev/Herald-OS",
+      "description": "An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.",
+      "stars": 309,
+      "forks": 43,
+      "language": "TypeScript",
       "topics": [
-        "ai",
         "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "hermes",
+        "desktop-environment",
+        "fedora",
         "hermes-agent",
-        "llm",
-        "openai"
+        "hyprland",
+        "linux",
+        "macos",
+        "niri",
+        "omarchy",
+        "operating-system"
       ],
-      "updated_at": "2026-10-08T10:00:33Z",
-      "category": "forks",
-      "score": 72,
+      "updated_at": "2026-10-09T09:57:34Z",
+      "category": "core",
+      "score": 76,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_topic",
+        "direct_hermes_reference",
         "agent_ecosystem",
         "moderate_stars_100+",
         "detailed_description",
-        "active_week",
-        "has_homepage"
+        "active_week"
       ],
-      "near_duplicates": [],
-      "discovered_at": "2026-10-08T10:01:57.263145+00:00",
+      "near_duplicates": [
+        "Romanescu11/hermes-skill-factory",
+        "ZeroPointRepo/awesome-hermes-skills"
+      ],
+      "discovered_at": "2026-10-09T10:02:11.935269+00:00",
       "status": "approved",
-      "approved_at": "2026-10-08T10:04:05.612169+00:00"
+      "approved_at": "2026-10-09T10:04:36.905266+00:00"
     }
   ],
   "stats": {
-    "total_found": 14,
+    "total_found": 20,
     "auto_approved": 1,
-    "pending_review": 13,
-    "total_approved": 188,
-    "total_pending": 2444
+    "pending_review": 19,
+    "total_approved": 189,
+    "total_pending": 2463
   }
 }
