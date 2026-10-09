@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
+        <meta name="description" content="Hermes Agent v0.21.6 patch release - 2,106 PRs, first cut from the new stable pipeline, plus auth and sender hardening.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.5">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.6">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Index</title>
+    <title>Hermes Agent v0.21.6 Patch Release</title>
   
 
     
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/changelog/v0.21.5">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/changelog/v0.21.6">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Index">
-  <meta property="og:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
+  <meta property="og:title" content="Hermes Agent v0.21.6 Patch Release">
+  <meta property="og:description" content="Hermes Agent v0.21.6 patch release - 2,106 PRs, first cut from the new stable pipeline, plus auth and sender hardening.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Index">
-  <meta name="twitter:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
+  <meta name="twitter:title" content="Hermes Agent v0.21.6 Patch Release">
+  <meta name="twitter:description" content="Hermes Agent v0.21.6 patch release - 2,106 PRs, first cut from the new stable pipeline, plus auth and sender hardening.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,9 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Index",
-    "description": "CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.",
-    "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.21.5",
+    "name": "Hermes Agent v0.21.6 Patch Release",
+    "description": "Hermes Agent v0.21.6 patch release - 2,106 PRs, first cut from the new stable pipeline, plus auth and sender hardening.",
+    "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.21.6",
+    
+    "datePublished": "2026-10-09",
+    "dateModified": "2026-10-09",
     
     "author": {
       "@type": "Organization",
@@ -133,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-09">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -173,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hermes-agent-v0215-v2026924" class="md-skip">
+        <a href="#hermes-agent-v0216" class="md-skip">
           Skip to content
         </a>
       
@@ -209,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              Hermes Agent v0.21.6 Patch Release
             
           </span>
         </div>
@@ -10503,6 +10506,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#security-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Fixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#updating" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10533,41 +10547,49 @@
   
 
 
-<hr />
-<p>title: Hermes Agent v0.21.5 Patch Release
-description: Hermes Agent v0.21.5 - patch release rolling up 460 PRs: Desktop plugin SDK, Simple/Advanced mode, Connectors page, FR/DE/ES catalogs.
-canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.5"
-robots: "index,follow"
-last_updated: "2026-09-28"
-tags: ["hermes agent", "ai agent", "nous research"]</p>
-<hr />
-<h1 id="hermes-agent-v0215-v2026924">Hermes Agent v0.21.5 (v2026.9.24)<a class="headerlink" href="#hermes-agent-v0215-v2026924" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Release Date:</strong> September 24, 2026
-<strong>Since v0.21.4:</strong> 1,610 non-merge commits · 4,828 changed files (+164,132 / −149,440) · 460 merged PRs · 475 closed issues</p>
+<h1 id="hermes-agent-v0216">Hermes Agent v0.21.6<a class="headerlink" href="#hermes-agent-v0216" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Release Date:</strong> October 8, 2026
+<strong>Since v0.21.5:</strong> 8,867 non-merge commits · 8,342 changed files (+772,490 / -225,600) · 2,106 merged PRs · 3,027 closed issues</p>
 <blockquote>
-<p>Patch release. This tag rolls up the ~460 PRs merged since v0.21.4 into a stable tagged release for downstream consumers (Docker images, Hermes Cloud, hosted deployments).</p>
+<p>Patch release. This tag rolls up the ~2,100 PRs merged since v0.21.5 into a stable tagged release for Docker and Hermes Cloud. Full curated notes for this window ship with v0.22.0.</p>
 </blockquote>
 <hr />
 <h2 id="highlights">Highlights<a class="headerlink" href="#highlights" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Desktop plugin SDK wave</strong> - composer draft API, session-list and row-decoration slots, sidebar nav preferences, model-pill label providers, typed settings/skills/toolsets/profiles bridges, a sandboxed embed primitive, an appearance-settings slot, and a public event bridge for plugin backends</li>
-<li><strong>Simple/Advanced interface mode</strong> for the Desktop app</li>
-<li><strong>The Connectors page replaces the MCP tab</strong>, with "Connect now" for a freshly installed plugin's MCP servers, and installed plugins' tools and skills going live in every open chat</li>
-<li><strong>Onboarding that offers catalog plugins</strong> beside connectors</li>
-<li><strong>Complete French, German and Spanish Desktop catalogs</strong> plus an RTL/LTR text direction setting</li>
-<li><strong>Custom model entry</strong> from the composer and Settings pickers</li>
-<li><strong>Function-key and dictation voice shortcuts</strong></li>
-<li><strong>Per-profile stop/start/restart</strong> under the host multiplexer, and <code>gateway.standalone</code> to opt a profile out</li>
+<li><strong>First release cut by the new stable release pipeline</strong> - one attempt ref, a tested Docker image, and a receipt tag at publish</li>
+<li><strong>Ships the tag, the GitHub release, and the Docker image.</strong> The desktop app, Termux packages, and the Microsoft Store stay on their current build and move with the next bundled release</li>
+<li><strong>Also in this window, documented in full with v0.22.0:</strong> live transcription while you speak on CLI/TUI/Desktop (<code>stt.streaming</code>); spoken voice turns routed to their own model (<code>auxiliary.voice_chat</code>); third-party plugins in a per-profile plugin host (<code>plugins.isolation: host</code>); favorite and pinned models in the Desktop picker with a usage chip before a subscription hits its wall; local models in <code>hermes model</code> plus llama.cpp CUDA on Linux x64 and arm64; layered language packs; summary-first <code>hermes status</code> (<code>--short</code>, <code>--full</code>); a review-pane diff scope selector and keep-awake that follows the turn; cron/<code>doctor</code>/home-channel warnings when the cron store goes unwritable; a Discord setup that checks the bot token and prints the invite link; GPT-6.1 Sol and Claude Sonnet 5.5 / Haiku 5.5 in the catalogs; and dozens of new community plugins</li>
 </ul>
 <hr />
-<h2 id="updating">Updating<a class="headerlink" href="#updating" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>update
-<span class="c1"># or fresh install:</span>
-curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.nousresearch.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
-</code></pre></div>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/NousResearch/hermes-agent/compare/v2026.9.21...v2026.9.24">v2026.9.21...v2026.9.24</a></p>
+<h2 id="security-fixes">Security Fixes<a class="headerlink" href="#security-fixes" title="Anchor link to this section">&para;</a></h2>
+<p><strong>Dashboard authentication hardening</strong></p>
+<ul>
+<li>Spoofed <code>X-Forwarded-For</code> headers could reset the password-login rate limit and get around the per-IP cap on native sign-in (#133367)</li>
+<li>Unauthenticated login requests could write unbounded values to the auth audit log (#133369)</li>
+<li>The public <code>/auth/</code> routes had no request-body size limit (#133370)</li>
+<li>Native sign-in could send login codes to a non-loopback redirect, which allowed session takeover (#130685)</li>
+</ul>
+<p>Thanks to Tenable Research for reporting all four issues (TRA-725, TRA-726, TRA-727, TRA-728). The native sign-in redirect issue was also reported independently and fixed by @Froraut. The <code>X-Forwarded-For</code> fix builds on community work by @hinotoi-agent and @BearHuddleston (#40285).</p>
+<p><strong>Repository git filter hardening</strong></p>
+<ul>
+<li>Automatic git calls (session workspace snapshot, subagent worktrees, kanban, worktree cleanup, <code>hermes -w</code>) could run <code>clean</code>/<code>smudge</code>/<code>process</code> filter programs defined by an untrusted repository's own config, before the first prompt (#130661)</li>
+</ul>
+<p>Thanks to 燕涛 for reporting this privately. It was also reported and fixed publicly by @jonpol01 (#126017, #126019) and @JoaoMarcos44 (#126075).</p>
+<p><strong>Email gateway sender hardening</strong></p>
+<ul>
+<li>A quoted display name in the <code>From</code> header (e.g. <code>"Victim &lt;victim@example.com&gt;" &lt;attacker@evil.test&gt;</code>) could make an attacker's message pass the email allowlist as an allowed sender (#125212)</li>
+</ul>
+<p>Thanks to Daniel Steele (@keeltrace) for reporting this and writing the fix (#124322).</p>
 <hr />
-<p><em>← <a href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.4">v0.21.4 - Patch Release</a> | <a href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.6">v0.21.6 - Patch Release</a> →</em></p>
+<h2 id="updating">Updating<a class="headerlink" href="#updating" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Docker / Hermes Cloud: <code>nousresearch/hermes-agent:stable</code> (or <code>:latest</code>)</li>
+<li>CLI (git installs): <code>hermes update</code>, or re-run the installer one-liner</li>
+<li>Desktop app and Termux: no change in this release; they update with the next bundled release</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/NousResearch/hermes-agent/compare/v2026.9.24...v0.21.6">v2026.9.24...v0.21.6</a></p>
+<hr />
+<p><em>← <a href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.5">v0.21.5 - Patch Release</a> | <a href="https://www.corpusiq.io/docs/hermes/changelog">Changelog Home</a> →</em></p>
 <p><em>↑ <a href="https://www.corpusiq.io/docs/hermes/changelog">Changelog Home</a></em></p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
@@ -10577,6 +10599,9 @@ curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.no
 
 
 
+
+  
+  
 
 
 

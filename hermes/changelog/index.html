@@ -113,8 +113,8 @@
     "description": "Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades.",
     "url": "https://www.corpusiq.io/docs/hermes/changelog",
     
-    "datePublished": "2026-09-28",
-    "dateModified": "2026-09-28",
+    "datePublished": "2026-10-09",
+    "dateModified": "2026-10-09",
     
     "author": {
       "@type": "Organization",
@@ -138,7 +138,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-28">
+  <meta name="last-updated" content="2026-10-09">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10516,10 +10516,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#when-a-new-release-is-detected-a-changelog-page-is-drafted-committed-to-corpusiqcorpusiq-docs-and-reported-via-telegram" class="md-nav__link">
+  <a href="#when-a-new-release-is-detected-a-changelog-page-is-generated-committed-to-corpusiqcorpusiq-docs-deployed-and-reported-by-email" class="md-nav__link">
     <span class="md-ellipsis">
       
-        When a new release is detected, a changelog page is drafted, committed to CorpusIQ/corpusiq-docs, and reported via Telegram.
+        When a new release is detected, a changelog page is generated, committed to CorpusIQ/corpusiq-docs, deployed, and reported by email.
       
     </span>
   </a>
@@ -10660,10 +10660,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#when-a-new-release-is-detected-a-changelog-page-is-drafted-committed-to-corpusiqcorpusiq-docs-and-reported-via-telegram" class="md-nav__link">
+  <a href="#when-a-new-release-is-detected-a-changelog-page-is-generated-committed-to-corpusiqcorpusiq-docs-deployed-and-reported-by-email" class="md-nav__link">
     <span class="md-ellipsis">
       
-        When a new release is detected, a changelog page is drafted, committed to CorpusIQ/corpusiq-docs, and reported via Telegram.
+        When a new release is detected, a changelog page is generated, committed to CorpusIQ/corpusiq-docs, deployed, and reported by email.
       
     </span>
   </a>
@@ -10765,6 +10765,12 @@
 </thead>
 <tbody>
 <tr>
+<td><a href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.6">v0.21.6</a></td>
+<td>October 8, 2026</td>
+<td>Patch Release</td>
+<td>2,106 PRs: first release from the new stable pipeline (tested Docker image, receipt tag), plus dashboard auth, git filter, and email gateway sender hardening</td>
+</tr>
+<tr>
 <td><a href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.5">v0.21.5</a></td>
 <td>September 24, 2026</td>
 <td>Patch Release</td>
@@ -10858,14 +10864,27 @@
 </table>
 <hr />
 <h2 id="how-updates-are-detected">How Updates Are Detected<a class="headerlink" href="#how-updates-are-detected" title="Anchor link to this section">&para;</a></h2>
-<p>Three crons monitor Hermes Agent releases:
-| Cron | Schedule | Action |
-|------|----------|--------|
-| <code>hermes-release-monitor</code> | 02:00, 10:00, 18:00 UTC | Check GitHub releases for new versions |</p>
-<h2 id="when-a-new-release-is-detected-a-changelog-page-is-drafted-committed-to-corpusiqcorpusiq-docs-and-reported-via-telegram">When a new release is detected, a changelog page is drafted, committed to <code>CorpusIQ/corpusiq-docs</code>, and reported via Telegram.<a class="headerlink" href="#when-a-new-release-is-detected-a-changelog-page-is-drafted-committed-to-corpusiqcorpusiq-docs-and-reported-via-telegram" title="Anchor link to this section">&para;</a></h2>
+<p>Three release checks a day compare the newest Hermes Agent GitHub release against the version documented here:</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Schedule</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>hermes-release-monitor</code></td>
+<td>02:00, 10:00, 18:00 UTC</td>
+<td>Poll GitHub releases; draft and publish the changelog page for any new tag</td>
+</tr>
+</tbody>
+</table>
+<h2 id="when-a-new-release-is-detected-a-changelog-page-is-generated-committed-to-corpusiqcorpusiq-docs-deployed-and-reported-by-email">When a new release is detected, a changelog page is generated, committed to <code>CorpusIQ/corpusiq-docs</code>, deployed, and reported by email.<a class="headerlink" href="#when-a-new-release-is-detected-a-changelog-page-is-generated-committed-to-corpusiqcorpusiq-docs-deployed-and-reported-by-email" title="Anchor link to this section">&para;</a></h2>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="what-is-the-latest-hermes-agent-version">What is the latest Hermes Agent version?<a class="headerlink" href="#what-is-the-latest-hermes-agent-version" title="Anchor link to this section">&para;</a></h3>
-<p>v0.21.5, published September 24, 2026. It rolls up roughly 460 PRs since v0.21.4, headlined by the Desktop plugin SDK wave and the new Connectors page.</p>
+<p>v0.21.6, published October 8, 2026. It rolls up roughly 2,106 PRs since v0.21.5 and is the first release cut by the new stable pipeline, carrying dashboard auth, git filter, and email gateway sender hardening.</p>
 <h3 id="how-often-is-the-hermes-changelog-updated">How often is the Hermes changelog updated?<a class="headerlink" href="#how-often-is-the-hermes-changelog-updated" title="Anchor link to this section">&para;</a></h3>
 <p>New versions are detected automatically by release monitors that poll the Hermes Agent GitHub repository three times a day, and a changelog page for each release is published within 24 hours of the tag going live.</p>
 <h3 id="how-do-i-update-hermes-agent">How do I update Hermes Agent?<a class="headerlink" href="#how-do-i-update-hermes-agent" title="Anchor link to this section">&para;</a></h3>
@@ -10880,7 +10899,7 @@
       "name": "What is the latest Hermes Agent version?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "v0.21.5, published September 24, 2026. It rolls up roughly 460 PRs since v0.21.4, headlined by the Desktop plugin SDK wave and the new Connectors page."
+        "text": "v0.21.6, published October 8, 2026. It rolls up roughly 2,106 PRs since v0.21.5 and is the first release cut by the new stable pipeline, carrying dashboard auth, git filter, and email gateway sender hardening."
       }
     },
     {
@@ -10951,6 +10970,9 @@
 </li>
 <li>
 <p><a href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.5">Hermes Agent v0.21.5 (v2026.9.24)</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/changelog/v0.21.6">Hermes Agent v0.21.6</a></p>
 </li>
 </ul>
 
