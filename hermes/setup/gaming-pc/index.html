@@ -11025,7 +11025,7 @@
 <li><strong>GPU:</strong> NVIDIA GTX 1060 (6GB) or better  --  RTX 3060+ recommended</li>
 <li><strong>RAM:</strong> 16GB system memory minimum, 32GB+ ideal</li>
 <li><strong>Storage:</strong> 50GB free for models and embeddings</li>
-<li><strong>OS:</strong> Linux (Ubuntu 22.04/24.04) or <a href="windows-wsl">Windows 11 + WSL2</a></li>
+<li><strong>OS:</strong> Linux (Ubuntu 22.04/24.04) or <a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">Windows 11 + WSL2</a></li>
 </ul>
 <h2 id="step-by-step-linux-setup-recommended">Step-by-Step Linux Setup (Recommended)<a class="headerlink" href="#step-by-step-linux-setup-recommended" title="Anchor link to this section">&para;</a></h2>
 <h3 id="step-1-nvidia-drivers-cuda">Step 1: NVIDIA Drivers + CUDA<a class="headerlink" href="#step-1-nvidia-drivers-cuda" title="Anchor link to this section">&para;</a></h3>
@@ -11106,10 +11106,10 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <li><strong>Complete privacy</strong>: Models and data never leave your machine</li>
 <li><strong>No rate limits</strong>: Unlimited inference 24/7</li>
 <li><strong>Multi-GPU ready</strong>: Scale with NVLink for larger models</li>
-<li><strong>Flexible fallback</strong>: Add <a href="cloud-vps">cloud models via OpenRouter</a> for frontier capabilities</li>
+<li><strong>Flexible fallback</strong>: Add <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud models via OpenRouter</a> for frontier capabilities</li>
 </ul>
 <h2 id="windows-wsl2-alternative">Windows + WSL2 Alternative<a class="headerlink" href="#windows-wsl2-alternative" title="Anchor link to this section">&para;</a></h2>
-<p>If you game on Windows, <a href="windows-wsl">follow the WSL2 guide</a>. GPU passthrough works  --  Ollama inside WSL2 sees your NVIDIA GPU via <code>nvidia-smi</code>.</p>
+<p>If you game on Windows, <a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">follow the WSL2 guide</a>. GPU passthrough works  --  Ollama inside WSL2 sees your NVIDIA GPU via <code>nvidia-smi</code>.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="can-my-gaming-pc-run-hermes-agent-while-im-gaming">Can my gaming PC run Hermes Agent while I'm gaming?<a class="headerlink" href="#can-my-gaming-pc-run-hermes-agent-while-im-gaming" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Set <code>OLLAMA_KEEP_ALIVE=10m</code> so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models or wait until you're done.</p>
@@ -11120,8 +11120,8 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  Compare all platforms</li>
-<li><a href="windows-wsl">Windows WSL2 Setup</a>  --  GPU passthrough on Windows</li>
-<li><a href="mac-mini-standalone">Mac Mini M4 Setup</a>  --  Silent alternative</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">Windows WSL2 Setup</a>  --  GPU passthrough on Windows</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone">Mac Mini M4 Setup</a>  --  Silent alternative</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  Choose the right model</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/troubleshooting">Troubleshooting Guide</a>  --  Common GPU issues</li>
 </ul>

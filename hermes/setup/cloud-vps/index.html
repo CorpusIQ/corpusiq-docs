@@ -11131,7 +11131,7 @@ docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </sp
 <span class="w">  </span>--restart<span class="w"> </span>unless-stopped<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>nousresearch/hermes-agent:latest
 </code></pre></div>
-<p>Full setup in the <a href="docker">Docker guide</a>.</p>
+<p>Full setup in the <a href="https://www.corpusiq.io/docs/hermes/setup/docker">Docker guide</a>.</p>
 <h3 id="step-6-systemd-service">Step 6: Systemd Service<a class="headerlink" href="#step-6-systemd-service" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/systemd/system/hermes-gateway.service<span class="w"> </span><span class="s">&lt;&lt; &#39;EOF&#39;</span>
 <span class="s">[Unit]</span>
@@ -11214,7 +11214,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <p>For heavier usage with Claude-level models: ~$15-25/month.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="can-i-run-local-models-on-a-cloud-vps">Can I run local models on a cloud VPS?<a class="headerlink" href="#can-i-run-local-models-on-a-cloud-vps" title="Anchor link to this section">&para;</a></h3>
-<p>No  --  cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a <a href="gaming-pc">gaming PC</a> or <a href="mac-mini-standalone">Mac Mini M4</a>.</p>
+<p>No  --  cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC</a> or <a href="https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone">Mac Mini M4</a>.</p>
 <h3 id="which-cloud-vps-provider-is-best-for-hermes-agent">Which cloud VPS provider is best for Hermes Agent?<a class="headerlink" href="#which-cloud-vps-provider-is-best-for-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Hetzner CX22 offers the best value at €4.51/month with 4GB RAM  --  enough for Hermes Agent + memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces.</p>
 <h3 id="how-do-i-keep-hermes-agent-running-after-reboot">How do I keep Hermes Agent running after reboot?<a class="headerlink" href="#how-do-i-keep-hermes-agent-running-after-reboot" title="Anchor link to this section">&para;</a></h3>
@@ -11222,8 +11222,8 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  All platform options</li>
-<li><a href="docker">Docker Setup</a>  --  Containerized cloud deployment</li>
-<li><a href="raspberry-pi">Raspberry Pi Setup</a>  --  Alternative low-cost 24/7 option</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup/docker">Docker Setup</a>  --  Containerized cloud deployment</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup/raspberry-pi">Raspberry Pi Setup</a>  --  Alternative low-cost 24/7 option</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  API model tiering</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">Cron Design Best Practices</a>  --  24/7 automation</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/troubleshooting">Troubleshooting Guide</a>  --  VPS-specific issues</li>
