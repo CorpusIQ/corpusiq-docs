@@ -115,8 +115,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-08",
-    "dateModified": "2026-10-08",
+    "datePublished": "2026-10-09",
+    "dateModified": "2026-10-09",
     
     "author": {
       "@type": "Organization",
@@ -140,7 +140,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-08">
+  <meta name="last-updated" content="2026-10-09">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10240,6 +10240,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-9-2026-evening-sweep-6-new-6-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 9, 2026 - Evening Sweep (6 New, 6 Guides)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-9-2026-night-sweep-3-new-3-guides" class="md-nav__link">
@@ -24564,6 +24575,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-9-2026-evening-sweep-6-new-6-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 9, 2026 - Evening Sweep (6 New, 6 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-9-2026-night-sweep-3-new-3-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -38604,8 +38626,19 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 9, 2026 (night sweep) · <strong>Sources:</strong> mcp.so /feed (30 server links) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #4976-#5022 · <strong>Catalog:</strong> 883 servers (+769 guides)</p>
+<p><strong>Last updated:</strong> October 9, 2026 (evening sweep) · <strong>Sources:</strong> mcp.so /feed (30 server links) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5023-#5065 · <strong>Catalog:</strong> 889 servers (+775 guides)</p>
 </blockquote>
+<h2 id="october-9-2026-evening-sweep-6-new-6-guides">🆕 October 9, 2026 - Evening Sweep (6 New, 6 Guides)<a class="headerlink" href="#october-9-2026-evening-sweep-6-new-6-guides" title="Anchor link to this section">&para;</a></h2>
+<p>Evening sweep over the mcp.so <code>/feed</code> (30 server links via the direct TanStack fetch), mcpservers.org <code>/all</code> pages 1-5 through the r.jina.ai reader proxy (the fresh cohort diffed against the October 9 r94 canonical capture of 14,917 server URLs and cross-referenced against the catalog and the full sweep ledger), and the fresh chatmcp/mcpso issue window #5023-#5065, with vendor docs and live endpoint probes for every candidate. Six new business-relevant entries, each catalogued with a guide: Amazon market data, German e-invoice checks, wealth-firm operations, survey research, site translation management and official statistics.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/datrace-mcp">Datrace MCP - Amazon Market Data for Your Agent</a> · hosted Streamable HTTP at <code>mcp.datrace.com/mcp</code> with OAuth on a free beta account: 44 tools across category insight (16), keyword opportunities (5), rank and traffic (3) and ASIN performance (20) over 100M+ ASINs, 1M+ keywords and hundreds of thousands of categories; 20,000 credits a month, 7,000 a week, no payment method. Re-checked from the night sweep's flagged hold. Live probe: POST initialize returns 401 (MCPTokenMissing).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/normapi-mcp">NormAPI MCP - German E-Invoices for Your Agent</a> · hosted Streamable HTTP at <code>normapi.com/mcp</code> (or stdio via <code>npx @normapi/mcp</code>) with OAuth 2.1 or an <code>nk_live_</code> API key: three tools - <code>validate_invoice</code> (XRechnung UBL/CII or ZUGFeRD/Factur-X against the official KoSIT rules with plain-language findings), <code>generate_invoice</code> (decimal-exact totals, validated before return, 25 free a month) and <code>explain_rule</code>; validation is unmetered, documents never stored, 5 MB cap. Live probe: keyless initialize returns 200 (<code>normapi</code> v1.0.1).</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/milemarker-mcp">Milemarker MCP - Run a Wealth Platform by Asking</a> · tenant-routed Streamable HTTP (<code>/mcp/{tenant}</code>) with a scoped token from Milemarker: query firm data, deploy dashboards, manage users and run platform-wide projects from chat, every action through the governed APIs, tenant-isolated, audited, SOC 2 Type II, over 140+ connected systems. Live probe: POST initialize returns 401 ("Public MCP requires a tenant-routed /mcp/{tenant} URL").</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/conjointly-mcp">Conjointly MCP - Survey Research in Your Assistant</a> · hosted Streamable HTTP at <code>api.conjoint.ly/mcp</code> with OAuth sign-in (no token) and listed in Claude's connector directory: read experiments, reports, respondents and account data, run report analyses and request exports behind approval; read-only by design - it cannot create, change or delete research. Live probe: 401 ("Unauthenticated.").</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/universally-mcp">Universally MCP - Site Translation Management</a> · hosted Streamable HTTP at <code>mcp.universally.com/platform</code> with OAuth per workspace (or <code>X-API-Key</code>): manage translations, languages, glossary rules and 24-hour analytics for WordPress and Astro sites with role checks and an explicit Allow changes opt-in; no delete tools. Live probe: 401.</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/monitly-mcp">Monitly MCP - Official Statistics for Your Agent</a> · hosted Streamable HTTP at <code>monit.ly/api/mcp</code> with an <code>mcpk_</code> key (keyless public variant at <code>/api/mcp/public</code>): five data tools and sixteen account tools over 100,000+ datasets from Eurostat, the World Bank, the OECD, the IMF and national offices, with watchlists and alerts; free tier 10 queries a month, Pro 500. Live probe: keyless initialize returns 200 (<code>monitly</code> v1.2.0).</li>
+</ul>
+<p><strong>Also identified (not catalogued):</strong> on the mcp.so feed, the fresh entries beside the six catalogued were defade (memecoin rug-pull forensics; crypto class), nullprint (terminal rendering for coding agents; dev utility), kinetune (lyric video generation; media utility), uxmachine (browser page measurement; dev utility), companydata (company search and enrichment; lead-data class dense with Crustdata and EnvoAPI catalogued), boardmark (team issue board; workspace class per the Notion and Monday precedents), your-move-exercise-video-api (consumer fitness video), uxkin (UI reference library for coding agents; dev utility), onsomble (AI-visibility scans and share of voice; held, visibility class saturated per the AIGROW, Beamtrace and AI Website Auditor precedents), shipfound (growth-engine site fixes; held, SEO and GEO class dense), takibi-base (collection Q&amp;A connector; search utility) and trmnl (ePaper display control; hardware utility); nittim, FeedShine, FUSE Health and Shopify SEO Expert remain prior dispositions from the October 8-9 ledgers. On mcpservers.org, the fresh cohort was the site-wide delta since the r94 capture - 126 net-new server URLs, zero removals - and its business-relevant members were dispositioned as follows: AdAce (Google and Meta ads reports with approval-gated changes; ads-operations class dense with Markifact, Get Ads, PaidSync and the AdPlug family), RocketReach (700M+ profile enrichment; lead-data class dense per Crustdata, EnvoAPI and Datacircle), Datacircle (LinkedIn and B2B data; class dense), OutSend (local-business enrichment and B2B leads; class dense), Crustdata, Breakreach and SV Atlas (already catalogued on July 4, August 22 and earlier; /all re-surfaces), PeekPanda and GetAppNiche (app-store intelligence; app-data class adjacent to the catalogued Sonar ASO, two-entrant cohort), Telenow (AI phone calls; voice class dense per Erzycall, PlaceCall, VoiceLabs, VoiceMoat and PhoneScreen), Watchtower and FrontierRoles (job alerts and AI job boards; jobs-data class covered per Worklittle, Jobyap and Level), WorkInsiders (recruiting-tools directory), Mailzzy and Mailyond (email marketing and app-email surfaces; managed-mailbox family per assistantmail and Mektup), MultiLipi (translation management; the translation class was seeded by Universally this sweep), Teletype and CanHelpTo (customer-conversation and support-ticket surfaces; support class per TomTicket and AnswerLoops), xTiles (workspace productivity; class per the Notion and Monday precedents), Auto Poster AI (multi-platform scheduling; below the PostBazooka and PurrPlan publishing bar), AgentPixel (consent-based website pixels; ad-tech infra), SubmitStorm and SaaSCity (directory-submission services; promotion-service class), Mobiscroll and Specify (UI and design tooling; dev utilities), ImgVX, CutLuma, Vyexa, AutoShort, StoryShort, Snap AI Studio, Tancky, Krafto, ArchLang, Super Excalidraw and StudioSphere Pulse (media, design and creative utilities), Storskarvia (writing studio; creator utility), Calcupedia (calculator utility), Puley, rows.page and Utility Matrix (data and reader utilities), FXAPI (FX rates; commodity-data class), Tapetide (single-market Indian stock data; geo-niche), Fermat 360 (Dutch legal research; regional class), StalkChain, StableScan and Wicked (crypto classes per the saturated trading set), StockSharp Odysseus and DesktopDriver (trading and UI-automation dev utilities), Boardroom Revenue Control (sales-CRM operations; class per the Kasar and TeamShift holds), PHION, Agent Harbour and Common (agent-service discovery and agent-social surfaces; agent-infra classes), Verax, Conarium, Cedulon and Tugra (agent governance, data governance, agent-commerce audit and provenance memory; one author, agent-infra family), IamVERA and INAM Protocol (AI-answer and agent-work verification; agent-verification class), aegisgate and sealkeep (secure MCP frameworks and secrets injection; dev-security utilities), AInotate, SnapSweep, Actions to MCP, agend-sh, CompatLab, NotWorking, stickypane, Sesame, memory-lean, ctxstore, ppl, tokenusage, 9Router, GrabGPU, NEXUS AI, CloudWorldModel, LocalCloud (two slug forms), BountyRadar, schemagate, GreatWait, btlabs, NetworkTables and WorkAlong (dev utilities and agent infrastructure; WorkAlong an Apify-actor surface), Mac MCP, terminal-use, ERIUS Phone, Droidline and Computer Use Turbo (computer-use class), ZennoBrowser, RoamProxy and the Chrome-session browser extension (antidetect, proxy and scraping-intake classes), Octocrawl, EuroScrape and Data Gleaner (scraping classes; Octocrawl a prior hold), AIHub (aggregator class per PZERO), Dollea, Practice Pickleball, NuVista Haven, Vaultbeat, Studocu, the YouTube player, LetsFG, Alma, Tanomind, Rooms by Aurmada and the SpendTheBits gift-card surface (consumer classes), OddsRelay and UFCalendar (sports data; held), Campfire SMS and SofortFax (SMS and fax utilities; held), Enzo's (US real-estate search; real-estate class), Faucet (database tooling; dev), TANDIU (regional infrastructure data) and AICD API (civic records; prior hold), with the dev, consumer and regional remainder as class-group holds. From the fresh chatmcp/mcpso issue window #5023-#5065: the six catalogued above, plus held or skipped - Oh My Share (agent HTML sharing; dev utility), ImgVX (image utility), ERIUS PHONE (Android control), xTiles (workspace), ReevesAgents (coding-CLI orchestration; dev), Compabase (Polish company data; geo-niche class), BountyRadar (agent-bounty feed; dev economy), getwowlink (link previews; SEO utility), LocalCloud (dev), Boardroom Revenue Control (CRM hold), Mobiscroll (dev docs), Cursu (job-age checker; utility), affectUI (React components; dev), DataFluxor (review request with a thin published surface; held), JSON to TOON (format utility), the VERAX family - Conarium, Cedulon, Tugra (agent infrastructure), Glongus (agent marketplace; novelty), SofortFax (fax), UFCalendar (sports), ctxstore and ppl (agent memory), Computer Use Turbo (desktop), OddsRelay (odds data), SECOND STRIKE (game), INAM Protocol (agent verification), RegAffairs AI (regulatory data; held pending detail), Shiny Gen (game maker; dev), Faucet (database tooling), AInotate (screenshot annotation; dev), Enzo's (real estate), Droidline (Android), RoamProxy (proxy), schemagate (SQL permissions; dev), TANDIU (regional) and Campfire SMS (SMS utility).</p>
 <h2 id="october-9-2026-night-sweep-3-new-3-guides">🆕 October 9, 2026 - Night Sweep (3 New, 3 Guides)<a class="headerlink" href="#october-9-2026-night-sweep-3-new-3-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Night sweep over the mcp.so <code>/feed</code> (30 server links via the managed extractor), mcpservers.org <code>/all</code> pages 1-5 through the r.jina.ai reader proxy (the fresh cohort diffed against the October 8 r91 canonical capture of 14,913 server URLs), and the fresh chatmcp/mcpso issue window #4976-#5022, with vendor docs and live endpoint probes for every candidate. Three new business-relevant entries, each catalogued with a guide: a finance terminal with quant engines for agents, agent-initiated customer information requests, and agency marketing reporting in chat.</p>
 <ul>
