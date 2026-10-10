@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-10-09"
+last_updated: "2026-10-10"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 ---
 
@@ -11,7 +11,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 9, 2026 (evening sweep) · **Sources:** mcp.so /feed (30 server links) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5023-#5065 · **Catalog:** 889 servers (+775 guides)
+> **Last updated:** October 10, 2026 (night sweep) · **Sources:** mcp.so /feed (30 server links via the direct TanStack fetch) + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5066-#5074 · **Catalog:** 890 servers (+776 guides)
+
+## 🆕 October 10, 2026 - Night Sweep (1 New, 1 Guide)
+
+Night sweep over the mcp.so `/feed` (30 server links via the direct TanStack fetch), mcpservers.org `/all` pages 1-3 through the r.jina.ai reader proxy (the fresh cohort diffed against the October 9 r96 canonical capture of 15,042 server URLs, and a fresh twelve-sitemap refresh confirming zero additions and zero removals), and the fresh chatmcp/mcpso issue window #5066-#5074, with vendor docs and live endpoint probes for every candidate. One new business-relevant entry, catalogued with a guide: eBay sold and active listing data for pricing and product research.
+
+- [SoldFetch MCP - eBay Market Data for Your Agent](/hermes/mcp/servers/external/soldfetch-mcp/) · hosted Streamable HTTP at `soldfetch.com/api/mcp` with a per-user SoldFetch API key (an `API-KEY` header or Bearer; no OAuth): three tools - `search_ebay_sold` (sold or active listings by keyword with category, price and condition filters, up to 200 results a page), `search_ebay_category` and `get_ebay_item` (public item details by ID) - across eight eBay sites, for comps, pricing and product research; discovery is free and each successful data call consumes one request (100 free units on signup; plans from $29). Live probe: POST initialize returns 401 ("Unauthorized"); the public server card matches `tools/list`.
+
+**Also identified (not catalogued):** on the mcp.so feed, the only fresh entry beyond the prior dispositions was Lochless (a hosted text index for LLM apps and agents; search-infra utility class per the takibi-base and Search & Trends holds); the rest of the 30-block feed was repeats or prior dispositions from the October 3-9 ledgers (DeFade, Nullprint, Kinetune, UXMachine, CompanyData, BoardMark, UXKIN, Onsomble, Shipfound, Takibi Base, TRMNL, nittim, FeedShine, FUSE Health, Shopify SEO Expert, Aisle, MarginPad, CovaSyn, Priors, Multi Upload Tool, Rumoro, iDevice Buyer's Guide, Rivalize, EximAgent, Optimus MCP, Clipping Alpha, 3GPP Scout, MilliGate and the rest). On mcpservers.org, the canonical refresh across the twelve sitemaps came back byte-stable against the r96 capture - 15,042 server URLs, zero additions, zero removals - and the /all pages 1-3 sample resolved entirely inside the r96 set: every sample member carries a prior disposition from the October 6-9 ledgers, including the evening sweep's full 126-cohort ledger and its class-group remainder. From the fresh chatmcp/mcpso issue window #5066-#5074: SoldFetch catalogued above; evaluated and held - exit1.dev (uptime monitoring with HTTP, TCP, UDP, WebSocket and ICMP monitors, status pages and email and webhook alerts; the uptime class is covered by the catalogued HostTracker, RealUptime, APIzone, Drumbeats and pingcheck entries - the closest call of the cycle), Varosity (60+ generative media models behind one key; aggregator class per PZERO and Superpowers, media-generation class per bitHuman), ELDRICK (golf club fitting trained on 100,000+ fittings; consumer sports class), netatmo-energy-mcp (smart-home thermostats and radiator valves; consumer home class per the Homey bridge disposition), Jet Browser (a bounded WPE WebKit runtime verifier; dev-testing utility class), remove-ai-label (AI-label and metadata inspection and removal for image and video files; media utility class), Loker Dollar Jobs (worldwide remote jobs with USD pay; jobs-data class covered per Worklittle, Jobyap and Level) and munche-meo (a Korean writing-style checker with a style-guide RAG mode; regional language utility).
 
 ## 🆕 October 9, 2026 - Evening Sweep (6 New, 6 Guides)
 
