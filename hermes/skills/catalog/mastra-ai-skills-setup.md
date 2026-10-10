@@ -72,6 +72,7 @@ The flagship covers the core building blocks: Agents (autonomous decision-making
 - Publisher-page total verified (32.6K across 5 skills); 72 GitHub stars on the skills repo as of the sweep
 - create-mastra, mastra-best-practices, and the two embedded-docs variants are 41-90 installs each - early content
 - The two embedded-docs skills overlap (one is a typo-named earlier variant)
+- **Additional source (Oct 10, 2026 sweep):** the framework repository [mastra-ai/mastra](https://github.com/mastra-ai/mastra) also ships agent skills under `.claude/skills/` (30 indexed listings on skills.sh, ~12,987 combined installs; top: react-best-practices 2,810, ralph-plan 2,619, smoke-test 2,493). Distinct from the mastra-ai/skills suite above - check both when searching for Mastra skills.
 
 ```bash
 npx skills add mastra-ai/skills   # verify install works

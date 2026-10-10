@@ -138,3 +138,6 @@ npx skills list | grep -E "lead-research|youtube-downloader|invoice-organizer"
 - The **lead-research-assistant** and **competitive-ads-extractor** are particularly valuable for growth operations
 - **webapp-testing** overlaps with Anthropic's official webapp-testing skill (121.9K installs) - prefer the official one unless you need Composio-specific integration features
 - Most skills require API keys for external services (LangSmith, Slack, Twitter) - configure before first use
+
+
+- **Successor repo (added Oct 10, 2026):** the actively maintained community edition is [composio-community/awesome-claude-plugins](https://www.skills.sh/composio-community/awesome-claude-plugins) (16.6K combined installs across 23 indexed listings; 1,936 GitHub stars; a curated plugin list for extending Claude Code with custom commands, agents, hooks, and MCP servers; overlapping skill set incl. canvas-design, mcp-builder, theme-factory, senior-frontend). skills.sh serves both sources - prefer the community repo for new installs.
