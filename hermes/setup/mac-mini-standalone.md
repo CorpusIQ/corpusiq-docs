@@ -185,7 +185,7 @@ Full details in the [memory architecture guide](/hermes/knowledge).
 ## FAQ
 
 ### Why is Mac Mini M4 recommended over a gaming PC?
-The Mac Mini M4 offers silent operation, lower power consumption (~20W vs 150W+), unified memory architecture that's ideal for LLM inference, and native macOS support for all Hermes Agent features. A [gaming PC setup](gaming-pc) provides more raw GPU power but at higher cost, noise, and power draw.
+The Mac Mini M4 offers silent operation, lower power consumption (~20W vs 150W+), unified memory architecture that's ideal for LLM inference, and native macOS support for all Hermes Agent features. A [gaming PC setup](gaming-pc.md) provides more raw GPU power but at higher cost, noise, and power draw.
 
 ### Can I use only local models on Mac Mini?
 Yes. With 16GB RAM you can comfortably run models up to ~8B parameters; with 24GB+ you can run 13B-14B models. For heavier workloads, supplement with cloud models via OpenRouter as a fallback.
@@ -194,12 +194,12 @@ Yes. With 16GB RAM you can comfortably run models up to ~8B parameters; with 24G
 Use `caffeinate -dims &` from the terminal or go to System Settings → Battery → Options → Prevent automatic sleeping on power adapter.
 
 ### What if I need more GPU power?
-Add a [gaming PC worker node](gaming-pc) via SSH for GPU-heavy inference, or use [cloud GPU instances](cloud-vps) for burst workloads.
+Add a [gaming PC worker node](gaming-pc.md) via SSH for GPU-heavy inference, or use [cloud GPU instances](cloud-vps.md) for burst workloads.
 
 ## Related Pages
 
 - [Hermes Agent Setup Overview](/hermes/setup)  --  Compare all hardware platforms
-- [Gaming PC Setup](gaming-pc)  --  Maximum GPU performance
+- [Gaming PC Setup](gaming-pc.md)  --  Maximum GPU performance
 - [Model Selection Guide](/hermes/best-practices/model-selection)  --  Tiered model routing
 - [Memory Architecture](/hermes/knowledge)  --  Triple-stack agent memory
 - [MCP Integration Guide](/hermes/mcp)  --  Connect 40+ business platforms

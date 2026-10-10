@@ -152,11 +152,11 @@ Start with the adoption checklist above: version your prompts, define tool schem
 ## Related Pages
 
 - [Best Practices Overview](index)  --  The production reliability entry point
-- [Cron Design](cron-design)  --  Factor 6 and 11 applied to scheduled automation
-- [Memory Management](memory-management)  --  Factor 3: owning the context window
-- [Skill Development](skill-development)  --  Factor 10: small focused agents
-- [Security](security)  --  Factor 7: escalation and approval gates
-- [MCP Server Design](mcp-design)  --  Factor 4: tools as structured outputs
+- [Cron Design](cron-design.md)  --  Factor 6 and 11 applied to scheduled automation
+- [Memory Management](memory-management.md)  --  Factor 3: owning the context window
+- [Skill Development](skill-development.md)  --  Factor 10: small focused agents
+- [Security](security.md)  --  Factor 7: escalation and approval gates
+- [MCP Server Design](mcp-design.md)  --  Factor 4: tools as structured outputs
 
 ---
 

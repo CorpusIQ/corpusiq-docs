@@ -32,7 +32,7 @@ A gaming PC delivers the highest raw inference performance for local AI models. 
 - **GPU:** NVIDIA GTX 1060 (6GB) or better  --  RTX 3060+ recommended
 - **RAM:** 16GB system memory minimum, 32GB+ ideal
 - **Storage:** 50GB free for models and embeddings
-- **OS:** Linux (Ubuntu 22.04/24.04) or [Windows 11 + WSL2](windows-wsl)
+- **OS:** Linux (Ubuntu 22.04/24.04) or [Windows 11 + WSL2](windows-wsl.md)
 
 ## Step-by-Step Linux Setup (Recommended)
 
@@ -135,11 +135,11 @@ sudo apt install libnvidia-gl-550  # For headless GPU rendering
 - **Complete privacy**: Models and data never leave your machine
 - **No rate limits**: Unlimited inference 24/7
 - **Multi-GPU ready**: Scale with NVLink for larger models
-- **Flexible fallback**: Add [cloud models via OpenRouter](cloud-vps) for frontier capabilities
+- **Flexible fallback**: Add [cloud models via OpenRouter](cloud-vps.md) for frontier capabilities
 
 ## Windows + WSL2 Alternative
 
-If you game on Windows, [follow the WSL2 guide](windows-wsl). GPU passthrough works  --  Ollama inside WSL2 sees your NVIDIA GPU via `nvidia-smi`.
+If you game on Windows, [follow the WSL2 guide](windows-wsl.md). GPU passthrough works  --  Ollama inside WSL2 sees your NVIDIA GPU via `nvidia-smi`.
 
 ## FAQ
 
@@ -155,8 +155,8 @@ Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for run
 ## Related Pages
 
 - [Hermes Agent Setup Overview](/hermes/setup)  --  Compare all platforms
-- [Windows WSL2 Setup](windows-wsl)  --  GPU passthrough on Windows
-- [Mac Mini M4 Setup](mac-mini-standalone)  --  Silent alternative
+- [Windows WSL2 Setup](windows-wsl.md)  --  GPU passthrough on Windows
+- [Mac Mini M4 Setup](mac-mini-standalone.md)  --  Silent alternative
 - [Model Selection Guide](/hermes/best-practices/model-selection)  --  Choose the right model
 - [Troubleshooting Guide](/hermes/troubleshooting)  --  Common GPU issues
 ---

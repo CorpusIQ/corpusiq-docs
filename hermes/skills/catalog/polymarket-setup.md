@@ -138,8 +138,8 @@ The agent should return market names, current prices, and 24h volume data.
 
 ## See Also
 
-- [arxiv-setup.md](arxiv-setup) - Academic paper research
-- [llm-wiki-setup.md](llm-wiki-setup) - LLM knowledge base queries
+- [arxiv-setup.md](arxiv-setup.md) - Academic paper research
+- [llm-wiki-setup.md](llm-wiki-setup.md) - LLM knowledge base queries
 
 ---
 

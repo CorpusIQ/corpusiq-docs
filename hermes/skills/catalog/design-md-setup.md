@@ -139,4 +139,4 @@ npx @google/design.md export --format tailwind | head -20
 
 ---
 
-**Related:** [popular-web-designs-setup.md](popular-web-designs-setup)
+**Related:** [popular-web-designs-setup.md](popular-web-designs-setup.md)

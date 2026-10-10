@@ -145,4 +145,4 @@ Expected output for network: `TPS: 3,245 | Epoch: 624 | Validators: 1,987 | Avg 
 
 ---
 
-**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup)
+**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup.md)

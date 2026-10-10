@@ -30,7 +30,7 @@ The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. A
 
 ## Limitations
 
-- **No GPU acceleration** for local LLMs  --  use [API-based cloud models](cloud-vps) or very small quantized models
+- **No GPU acceleration** for local LLMs  --  use [API-based cloud models](cloud-vps.md) or very small quantized models
 - **8GB RAM max**  --  can't run large models locally
 - **ARM64 architecture**  --  some packages may need workarounds
 
@@ -166,7 +166,7 @@ vcgencmd measure_temp
 - Video processing or encoding
 - Multi-agent fleets
 
-For those workloads, use a [cloud VPS](cloud-vps) or [gaming PC](gaming-pc).
+For those workloads, use a [cloud VPS](cloud-vps.md) or [gaming PC](gaming-pc.md).
 
 ## FAQ
 
@@ -182,8 +182,8 @@ Email monitoring, system health checks, lightweight cron jobs, IoT automation, a
 ## Related Pages
 
 - [Hermes Agent Setup Overview](/hermes/setup)  --  Compare all platforms
-- [Cloud VPS Setup](cloud-vps)  --  Alternative always-on option
-- [Docker Setup](docker)  --  Containerized ARM deployment
+- [Cloud VPS Setup](cloud-vps.md)  --  Alternative always-on option
+- [Docker Setup](docker.md)  --  Containerized ARM deployment
 - [Cron Design Best Practices](/hermes/best-practices/cron-design)  --  Lightweight automation
 - [Troubleshooting Guide](/hermes/troubleshooting)  --  Pi-specific issues
 ---

@@ -27,11 +27,11 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 
 | Skill | Installs | Setup Guide |
 |-------|----------|-------------|
-| `claude-design` | 383 | [claude-design-setup.md](claude-design-setup) ✍️ |
-| `llm-wiki` | 369 | [llm-wiki-setup.md](llm-wiki-setup) ✍️ |
-| `excalidraw` | 342 | [excalidraw-setup.md](excalidraw-setup) ✍️ |
-| `ascii-art` | 338 | [ascii-art-setup.md](ascii-art-setup) ✍️ |
-| `imessage` | 331 | [imessage-setup.md](imessage-setup) ✍️ |
+| `claude-design` | 383 | [claude-design-setup.md](claude-design-setup.md) ✍️ |
+| `llm-wiki` | 369 | [llm-wiki-setup.md](llm-wiki-setup.md) ✍️ |
+| `excalidraw` | 342 | [excalidraw-setup.md](excalidraw-setup.md) ✍️ |
+| `ascii-art` | 338 | [ascii-art-setup.md](ascii-art-setup.md) ✍️ |
+| `imessage` | 331 | [imessage-setup.md](imessage-setup.md) ✍️ |
 | `design-md` | 329 | - |
 | `songwriting-and-ai-music` | 324 | - |
 | `architecture-diagram` | 320 | - |
@@ -42,13 +42,13 @@ Automated discovery sweep across the [skills.sh](https://skills.sh) marketplace.
 | `opencode` | 301 | - |
 | `ascii-video` | 291 | - |
 | `manim-video` | 291 | - |
-| `github-code-review` | 281 | [github-code-review-setup.md](github-code-review-setup) ✍️ |
+| `github-code-review` | 281 | [github-code-review-setup.md](github-code-review-setup.md) ✍️ |
 
 ### 📦 Third-Party Skills
 
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
-| `printing-press-library` | 679 | mvanhorn/printing-press-library | [printing-press-library-setup.md](printing-press-library-setup) ✍️ |
+| `printing-press-library` | 679 | mvanhorn/printing-press-library | [printing-press-library-setup.md](printing-press-library-setup.md) ✍️ |
 | `p5js-hermes` | 36 | podo/design-agent-skills | - |
 | `agentiko-hermes` | 16 | uphiago/recon-skills | (already cataloged) |
 | `hermes-learning-loop` | 7 | skills.volces.com | - |
@@ -68,13 +68,13 @@ New skills discovered in second marketplace sweep not covered by the first pass:
 
 | Skill | Installs | Source | Setup Guide |
 |-------|----------|--------|-------------|
-| `hermes` (dandacompany) | 69 | dandacompany/hermes-skill | [hermes-skill-dandacompany-setup.md](hermes-skill-dandacompany-setup) ✍️ |
-| `design-md` | 330 | nousresearch/hermes-agent | [design-md-setup.md](design-md-setup) ✍️ |
-| `architecture-diagram` | 320 | nousresearch/hermes-agent | [architecture-diagram-setup.md](architecture-diagram-setup) ✍️ |
-| `opencode` | 301 | nousresearch/hermes-agent | [opencode-setup.md](opencode-setup) ✍️ |
-| `canvas` | 14 | nousresearch/hermes-agent | [canvas-setup.md](canvas-setup) ✍️ |
-| `solana` | 14 | nousresearch/hermes-agent | [solana-setup.md](solana-setup) ✍️ |
-| `hermes` (iii-hq/workers) | 5 | iii-hq/workers | [iii-workers-hermes-setup.md](iii-workers-hermes-setup) ✍️ |
+| `hermes` (dandacompany) | 69 | dandacompany/hermes-skill | [hermes-skill-dandacompany-setup.md](hermes-skill-dandacompany-setup.md) ✍️ |
+| `design-md` | 330 | nousresearch/hermes-agent | [design-md-setup.md](design-md-setup.md) ✍️ |
+| `architecture-diagram` | 320 | nousresearch/hermes-agent | [architecture-diagram-setup.md](architecture-diagram-setup.md) ✍️ |
+| `opencode` | 301 | nousresearch/hermes-agent | [opencode-setup.md](opencode-setup.md) ✍️ |
+| `canvas` | 14 | nousresearch/hermes-agent | [canvas-setup.md](canvas-setup.md) ✍️ |
+| `solana` | 14 | nousresearch/hermes-agent | [solana-setup.md](solana-setup.md) ✍️ |
+| `hermes` (iii-hq/workers) | 5 | iii-hq/workers | [iii-workers-hermes-setup.md](iii-workers-hermes-setup.md) ✍️ |
 | `hermes` (jaehoonson) | 6 | jaehoonson/tryhermes-skill | - (different product, not Hermes Agent) |
 | `hermes-traj` | 2 | alexai-mcp/hermes-ccc | - (covered by hermes-insights above) |
 

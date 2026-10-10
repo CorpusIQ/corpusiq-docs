@@ -207,10 +207,10 @@ No. Hermes automates classification, routing, knowledge retrieval, and monitorin
 
 ## Related Pages
 
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline management and customer health tracking
-- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce)  --  Order processing and customer communication
-- [Hermes Agent for Professional Services](../case-studies/professional-services)  --  Client onboarding and status reporting
-- [Hermes Agent for Mid-Market](../by-company-size/mid-market)  --  Multi-team support orchestration
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and customer health tracking
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md)  --  Order processing and customer communication
+- [Hermes Agent for Professional Services](../case-studies/professional-services.md)  --  Client onboarding and status reporting
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md)  --  Multi-team support orchestration
 - [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*

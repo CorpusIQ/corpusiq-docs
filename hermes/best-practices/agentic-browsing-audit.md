@@ -108,6 +108,6 @@ Run it on every deploy in CI, and review the full site monthly. Score regression
 
 ## Related Pages
 
-- [MCP Design](mcp-design): designing the tools agents call
-- [Security](security): least privilege and approval gates for agent actions
-- [Agent Capability Audit](agent-capability-audit): the four capabilities test
+- [MCP Design](mcp-design.md): designing the tools agents call
+- [Security](security.md): least privilege and approval gates for agent actions
+- [Agent Capability Audit](agent-capability-audit.md): the four capabilities test

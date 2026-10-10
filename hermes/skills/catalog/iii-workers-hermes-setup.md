@@ -165,4 +165,4 @@ iii invoke hermes::send '{"platform": "telegram", "message": "Test from iii bus"
 
 ---
 
-**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup), [blueprint-orchestration-setup](/hermes/skills/catalog/blueprint-orchestration-setup)
+**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup.md), [blueprint-orchestration-setup](/hermes/skills/catalog/blueprint-orchestration-setup)

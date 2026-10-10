@@ -119,7 +119,7 @@ Hermes: [Returns de-slopped version]
 ## Related Skills
 
 - **[songwriting-and-ai-music](https://skills.sh/nousresearch/hermes-agent/songwriting-and-ai-music)** - AI music generation with similar creative voice control
-- **[ultimate-humanizer](ultimate-humanizer-setup)** - Community alternative with 50 patterns and 5D scoring
+- **[ultimate-humanizer](ultimate-humanizer-setup.md)** - Community alternative with 50 patterns and 5D scoring
 - **[research-paper-writing](https://skills.sh/nousresearch/hermes-agent/research-paper-writing)** - Academic writing with the same anti-AI-slop pass
 
 ---

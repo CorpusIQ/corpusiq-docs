@@ -214,7 +214,7 @@ When your skill is tested and documented:
 3. Submit to your preferred marketplace with the skill directory
 4. Respond to community feedback and update as needed
 
-See the [Skill Marketplaces guide](skill-marketplaces) for publishing instructions for each marketplace.
+See the [Skill Marketplaces guide](skill-marketplaces.md) for publishing instructions for each marketplace.
 
 ## Maintaining Your Skill
 

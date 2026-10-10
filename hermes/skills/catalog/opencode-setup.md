@@ -165,4 +165,4 @@ opencode "Write a hello world function in Python" --max-turns 3
 
 ---
 
-**Related:** [codex-setup.md](codex-setup), [claude-code-skills-setup.md](claude-code-skills-setup), [github-code-review-setup.md](github-code-review-setup)
+**Related:** [codex-setup.md](codex-setup.md), [claude-code-skills-setup.md](claude-code-skills-setup.md), [github-code-review-setup.md](github-code-review-setup.md)

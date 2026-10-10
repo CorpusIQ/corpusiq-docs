@@ -146,4 +146,4 @@ Expected output: JSON object with `version`, `profile`, `gateway_status`, `model
 
 ---
 
-**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup), [hermes-agent-helm-setup.md](hermes-agent-helm-setup)
+**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup.md), [hermes-agent-helm-setup.md](hermes-agent-helm-setup.md)

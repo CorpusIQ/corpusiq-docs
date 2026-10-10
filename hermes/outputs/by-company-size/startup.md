@@ -191,10 +191,10 @@ Hermes scales linearly. The same architecture (profiles, crons, skills) works fr
 
 ## Related Pages
 
-- [Hermes Agent for Mid-Market](../by-company-size/mid-market)  --  Multi-team orchestration for growing companies
-- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce)  --  Inventory and order automation
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline and forecasting for startups
-- [Hermes Agent Customer Support Automation](../case-studies/customer-support)  --  Ticket triage for lean teams
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md)  --  Multi-team orchestration for growing companies
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md)  --  Inventory and order automation
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline and forecasting for startups
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Ticket triage for lean teams
 - [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*

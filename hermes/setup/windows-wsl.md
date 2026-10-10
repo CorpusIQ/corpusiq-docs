@@ -170,8 +170,8 @@ Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep
 ## Related Pages
 
 - [Hermes Agent Setup Overview](/hermes/setup)  --  All platform options
-- [Gaming PC Setup](gaming-pc)  --  Native Linux for max GPU performance
-- [Docker Setup](docker)  --  Alternative Windows deployment
+- [Gaming PC Setup](gaming-pc.md)  --  Native Linux for max GPU performance
+- [Docker Setup](docker.md)  --  Alternative Windows deployment
 - [Model Selection Guide](/hermes/best-practices/model-selection)  --  GPU model sizing
 - [Troubleshooting Guide](/hermes/troubleshooting)  --  WSL2-specific issues
 ---

@@ -97,8 +97,8 @@ Frontier models like Claude Sonnet 4, GPT-4o, and DeepSeek V3 excel at code gene
 
 - [Best Practices Overview](/hermes/best-practices)  --  All guides
 - [Setup Guides](/hermes/setup)  --  Platform-specific model configuration
-- [Memory Management](memory-management)  --  Context optimization for models
-- [MCP Server Design](mcp-design)  --  Design tools for model efficiency
+- [Memory Management](memory-management.md)  --  Context optimization for models
+- [MCP Server Design](mcp-design.md)  --  Design tools for model efficiency
 
 ---
 

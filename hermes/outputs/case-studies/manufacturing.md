@@ -182,10 +182,10 @@ If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects direc
 
 ## Related Pages
 
-- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce)  --  Inventory synchronization and multi-channel management
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations)  --  Pipeline and forecasting automation
-- [Hermes Agent for Mid-Market](../by-company-size/mid-market)  --  Multi-department orchestration
-- [Hermes Agent for Enterprise](../by-company-size/enterprise)  --  Security and governance at scale
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md)  --  Inventory synchronization and multi-channel management
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline and forecasting automation
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md)  --  Multi-department orchestration
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security and governance at scale
 - [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
