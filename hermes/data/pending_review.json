@@ -71277,5 +71277,113 @@
     ],
     "discovered_at": "2026-10-09T10:04:06.449180+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Abhijit7979/agent-stack",
+    "url": "https://github.com/Abhijit7979/agent-stack",
+    "description": "Agentic dev/ops stack: Hermes schedules, OpenCode triages and codes GitHub issues into auto-merged PRs",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-10T10:01:43Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-10T10:02:12.775239+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fghdhtfdu/IT--Hermes-Agent-AI--",
+    "url": "https://github.com/fghdhtfdu/IT--Hermes-Agent-AI--",
+    "description": "\u83b7\u8bfe\uff1aaixuetang.xyz/23658/IT\u7231\u5b66\u5802-Hermes Agent\u4ece\u5165\u95e8\u5230AI\u6570\u5b57\u5458\u5de5\u5b9e\u6218\u843d\u5730\u6559\u7a0b",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-10T10:00:12Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-10T10:02:12.777575+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ekobnews/hermes-config",
+    "url": "https://github.com/ekobnews/hermes-config",
+    "description": "Hermes Agent konfiqurasiya fayllar\u0131",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-10-10T10:00:09Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-10T10:02:12.779129+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tanchunsiong/hermes-agent-zoom-ai-skills-plugin",
+    "url": "https://github.com/tanchunsiong/hermes-agent-zoom-ai-skills-plugin",
+    "description": "Zoom AI Services Scribe, Summarizer, and Translator skills and plugin for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-10T09:19:07Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "kaankacar/stellar-agent-kit",
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-10-10T10:02:28.086847+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pcvelz/hermes-workflows",
+    "url": "https://github.com/pcvelz/hermes-workflows",
+    "description": "A community-ready scaffold for a Hermes-style autonomous software-development workflow (NousResearch hermes-agent + local Qwen3.6-35B cq35).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-09T22:51:09Z",
+    "category": "official",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-10T10:04:07.000795+00:00",
+    "status": "pending"
   }
 ]
