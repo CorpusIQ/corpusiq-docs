@@ -692,6 +692,12 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Yomiyasu - Japanese AI Prose Refinement Setup](/hermes/skills/catalog/yomiyasu-setup)
 - [Proseify - Anti-Prose-Slop Book Writing Setup](/hermes/skills/catalog/proseify-setup)
 - [Modern Web Guidance - Google Chrome Agent Skill Setup](/hermes/skills/catalog/googlechrome-modern-web-guidance-setup)
+- [Baoyu Skills - Content Generation & Publishing Suite Setup](/hermes/skills/catalog/baoyu-skills-setup)
+- [UI Skills - Design Engineer Skill Registry Setup](/hermes/skills/catalog/ibelick-ui-skills-setup)
+- [Meticulous Agent Skills - Visual Regression Testing Setup](/hermes/skills/catalog/meticulous-agent-skills-setup)
+- [Designer Skills - Design Process Suite Setup](/hermes/skills/catalog/designer-skills-setup)
+- [Medusa Agent Skills - Official Ecommerce Platform Setup](/hermes/skills/catalog/medusa-agent-skills-setup)
+- [Garden Skills - ConardLi's Web Video & Design Suite Setup](/hermes/skills/catalog/garden-skills-setup)
 
 ## Previously unlinked pages (added 2026-10-06)
 
