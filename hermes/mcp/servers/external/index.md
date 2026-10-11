@@ -11,7 +11,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 11, 2026 (midday sweep) · **Sources:** mcp.so /feed (30 server links via the direct TanStack fetch) + mcpservers.org /all pages 1-4 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5118-#5132 + canonical window check (r102 to r104: zero additions, zero removals) · **Catalog:** 902 servers (+788 guides)
+> **Last updated:** October 11, 2026 (midday sweep plus targeted addition) · **Sources:** mcp.so /feed (30 server links via the direct TanStack fetch) + mcpservers.org /all pages 1-4 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5118-#5132 + canonical window check (r102 to r104: zero additions, zero removals) · **Catalog:** 903 servers (+789 guides)
+
+## 🆕 October 11, 2026 - Targeted Addition: Watch Skill (1 New, 1 Guide)
+
+Targeted addition from the October 11, 2026 ecosystem watch: Watch Skill, a local-first MCP server that turns video, audio and screen recordings into timestamped frames, transcripts and on-screen text, and verifies work with deterministic contracts over file digests, JSON, SQL, HTTP responses and DOM state instead of a model's opinion. The engine ships 39 MCP tools plus a CLI and a REST API, with OCR and speech models running on the machine.
+
+- [Watch Skill - Video Evidence and Verification for Agents](/hermes/mcp/servers/external/watch-skill-mcp) · local-first stdio MCP server (optional Streamable HTTP on 127.0.0.1) with 39 tools across perception (`watch_video`, `ask_video`, `search_videos`), the library (`library_synthesize`), deterministic verification (`verify_contract`, `get_evidence`), THE LOOP capture-critique-fix-verify (`loop_start`, `loop_iterate`), live watching (`start_live_watch`, `fused_timeline`) and the workspace (`workspace_snapshot`); CLI and REST in the same package; MIT, built by oxbshw. Verified with a stdio MCP client: the initialize handshake completed and all 39 tools were discovered; `watch-skill doctor` reports ffmpeg, yt-dlp and GPU present on Linux.
 
 ## 🆕 October 11, 2026 - Midday Sweep (3 New, 3 Guides)
 
