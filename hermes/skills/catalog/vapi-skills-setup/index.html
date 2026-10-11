@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident">
+        <meta name="description" content="Setup guide for vapiai/skills - 8.0K combined installs. Official Vapi skills: create assistants, calls, tools, squads, and phone numbers.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/anthropic-cybersecurity-skills-setup">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/vapi-skills-setup">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Anthropic Cybersecurity Skills Setup Guide</title>
+    <title>Vapi Skills - Voice AI Agent Building Setup</title>
   
 
     
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/anthropic-cybersecurity-skills-setup">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/vapi-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Anthropic Cybersecurity Skills Setup Guide">
-  <meta property="og:description" content="Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident">
+  <meta property="og:title" content="Vapi Skills - Voice AI Agent Building Setup">
+  <meta property="og:description" content="Setup guide for vapiai/skills - 8.0K combined installs. Official Vapi skills: create assistants, calls, tools, squads, and phone numbers.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Anthropic Cybersecurity Skills Setup Guide">
-  <meta name="twitter:description" content="Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident">
+  <meta name="twitter:title" content="Vapi Skills - Voice AI Agent Building Setup">
+  <meta name="twitter:description" content="Setup guide for vapiai/skills - 8.0K combined installs. Official Vapi skills: create assistants, calls, tools, squads, and phone numbers.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,12 +107,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Anthropic Cybersecurity Skills Setup Guide",
-    "description": "Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident",
-    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/anthropic-cybersecurity-skills-setup",
+    "name": "Vapi Skills - Voice AI Agent Building Setup",
+    "description": "Setup guide for vapiai/skills - 8.0K combined installs. Official Vapi skills: create assistants, calls, tools, squads, and phone numbers.",
+    "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/vapi-skills-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-10",
+    "dateModified": "2026-10-10",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-10">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -176,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#anthropic-cybersecurity-skills-setup-guide" class="md-skip">
+        <a href="#vapi-skills-setup-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Anthropic Cybersecurity Skills Setup Guide
+              Vapi Skills - Voice AI Agent Building Setup
             
           </span>
         </div>
@@ -10495,17 +10495,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-provides" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What It Provides
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10517,10 +10506,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#skill-categories" class="md-nav__link">
+  <a href="#what-it-provides" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Skill Categories
+        What It Provides
       
     </span>
   </a>
@@ -10528,10 +10517,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
+  <a href="#why-this-matters-for-hermes-agents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Configuration
+        Why This Matters for Hermes Agents
       
     </span>
   </a>
@@ -10539,52 +10528,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-workflows" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Workflows
+        Usage
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Key Workflows">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#run-a-threat-scan" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Run a threat scan
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#incident-triage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Incident triage
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#vulnerability-prioritization" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Vulnerability prioritization
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -10600,21 +10550,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pitfalls" class="md-nav__link">
+  <a href="#security" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Pitfalls
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#roster-snapshot-oct-10-2026" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Roster Snapshot (Oct 10, 2026)
+        Security
       
     </span>
   </a>
@@ -10633,10 +10572,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
+  <a href="#limitations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        See Also
+        Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Tips
       
     </span>
   </a>
@@ -10663,118 +10624,177 @@
   
 
 
-<h1 id="anthropic-cybersecurity-skills-setup-guide">Anthropic Cybersecurity Skills - Setup Guide<a class="headerlink" href="#anthropic-cybersecurity-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
-<p>750+ MITRE-mapped cybersecurity skills for AI agents by <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills">mukul975</a>. The largest domain-specific skill pack discovered - production-grade threat detection, incident response, vulnerability assessment, and security operations workflows. All skills mapped to the MITRE ATT&amp;CK framework.</p>
-<h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>Threat Detection</strong> - 200+ skills for identifying active threats across network, endpoint, and cloud</li>
-<li><strong>Incident Response</strong> - 150+ skills for triage, containment, eradication, and recovery</li>
-<li><strong>Vulnerability Assessment</strong> - 120+ skills for scanning, prioritizing, and validating vulnerabilities</li>
-<li><strong>Security Operations</strong> - 100+ skills for SIEM, SOAR, log analysis, and alert triage</li>
-<li><strong>Compliance &amp; Audit</strong> - 80+ skills for SOC 2, ISO 27001, HIPAA, PCI-DSS</li>
-<li><strong>Cloud Security</strong> - 50+ skills for AWS, GCP, Azure security posture</li>
-<li><strong>MITRE ATT&amp;CK Mapping</strong> - every skill tagged with MITRE technique ID</li>
-</ul>
+<h1 id="vapi-skills-setup-guide">Vapi Skills - Setup Guide<a class="headerlink" href="#vapi-skills-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Source:</strong> <a href="https://www.skills.sh/vapiai/skills">vapiai/skills</a> via skills.sh - 8.0K combined installs across 16 indexed listings; first seen Oct 9, 2026 (extended-query probe)
+<strong>GitHub:</strong> <a href="https://github.com/vapiai/skills">vapiai/skills</a> (67 stars, NO LICENSE FILE; pushed 2026-10-08; <code>create-assistant/SKILL.md</code> layout, skill dirs at the repo root)
+<strong>Category:</strong> Voice AI / Agent Building
+<strong>Quality Tier:</strong> 🟡 Beta - official Vapi org; NO LICENSE file; pushed Oct 8, 2026; all sampled verdicts Pass</p>
+<p>Vapi is a developer platform for building voice AI agents, and this is the official skills repository from the Vapi team. The skills follow the Agent Skills specification and run in any compatible assistant (Claude Code, Cursor, VS Code Copilot, Gemini CLI), covering the whole build loop: obtain an API key, create an assistant with models, voices, transcribers, tools, and hooks, attach a phone number from Twilio, Vonage, Telnyx, or Vapi, and place outbound calls, web calls, and batch calls. Squads, webhooks, workflows, campaigns, simulations, and structured post-call extraction round out the set.</p>
+<p>Each skill lives in its own directory at the repo root (<code>create-assistant/SKILL.md</code> and so on), and the repository also ships a Vapi documentation MCP server that gives an agent the full Vapi knowledge base via RAG, auto-detected by Claude Code, Cursor, and VS Code Copilot. The README's quick start is a sensible install order: setup-api-key, then create-assistant, then create-phone-number, then create-call.</p>
+<hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Install via skills.sh</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>https://github.com/mukul975/Anthropic-Cybersecurity-Skills
-
-<span class="c1"># Or manually - clone the full repo (large: 750+ skills)</span>
-git<span class="w"> </span>clone<span class="w"> </span>https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git<span class="w"> </span>~/.hermes/skills/cybersecurity
-
-<span class="c1"># Install specific skill categories only (recommended for smaller footprint)</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>https://github.com/mukul975/Anthropic-Cybersecurity-Skills<span class="w"> </span>--skill<span class="w"> </span>threat-detection
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>https://github.com/mukul975/Anthropic-Cybersecurity-Skills<span class="w"> </span>--skill<span class="w"> </span>incident-response
+<p>Prerequisites: Node.js for the <code>npx</code> skills CLI, plus a Vapi API key at run time. Export it before using any skill:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">VAPI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
 </code></pre></div>
-<h2 id="skill-categories">Skill Categories<a class="headerlink" href="#skill-categories" title="Anchor link to this section">&para;</a></h2>
+<p>Install the full collection (note the case, <code>VapiAI/skills</code>, exactly as the README shows):</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>VapiAI/skills
+</code></pre></div>
+<p>Install only what you need, or target a specific agent:</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>VapiAI/skills<span class="w"> </span>--skill<span class="w"> </span>create-assistant
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>VapiAI/skills<span class="w"> </span>--skill<span class="w"> </span>create-tool
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>VapiAI/skills<span class="w"> </span>--skill<span class="w"> </span>create-campaign
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>VapiAI/skills<span class="w"> </span>-a<span class="w"> </span>claude-code
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>VapiAI/skills<span class="w"> </span>-a<span class="w"> </span>cursor
+</code></pre></div>
+<p>Claude Code can instead use the native plugin flow:</p>
+<div class="highlight"><pre><span></span><code>/plugin marketplace add VapiAI/skills
+/plugin install vapi-voice-ai@vapi-skills
+</code></pre></div>
+<p>The repository also assembles a Codex plugin from the canonical skill directories:</p>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>scripts/build-codex-plugin.py
+python3<span class="w"> </span>scripts/build-codex-plugin.py<span class="w"> </span>--check
+codex<span class="w"> </span>plugin<span class="w"> </span>marketplace<span class="w"> </span>add<span class="w"> </span>.
+codex<span class="w"> </span>plugin<span class="w"> </span>add<span class="w"> </span>vapi-voice-ai@vapi-skills
+</code></pre></div>
+<p>Or copy any skill directory into your project's <code>.claude/skills/</code> (Claude Code), <code>.cursor/skills/</code> (Cursor), or the equivalent directory for your agent.</p>
+<h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
+<p>Install counts from the Oct 10, 2026 skills.sh snapshot:</p>
 <table>
 <thead>
 <tr>
-<th>Category</th>
-<th>Count</th>
-<th>MITRE Coverage</th>
+<th>Skill</th>
+<th>Installs</th>
+<th>Use For</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Threat Detection</td>
-<td>200+</td>
-<td>TA0001-TA0011</td>
+<td>create-assistant</td>
+<td>1,050</td>
+<td>Create voice AI assistants with models, voices, transcribers, tools, and hooks</td>
 </tr>
 <tr>
-<td>Incident Response</td>
-<td>150+</td>
-<td>IR phases 1-4</td>
+<td>create-call</td>
+<td>1,025</td>
+<td>Initiate outbound phone calls, web calls, and batch calls</td>
 </tr>
 <tr>
-<td>Vulnerability Assessment</td>
-<td>120+</td>
-<td>CVE/CWE mapped</td>
+<td>setup-api-key</td>
+<td>930</td>
+<td>Obtain and configure a Vapi API key</td>
 </tr>
 <tr>
-<td>Security Operations</td>
-<td>100+</td>
-<td>SOC workflows</td>
+<td>create-phone-number</td>
+<td>921</td>
+<td>Set up phone numbers from Twilio, Vonage, Telnyx, or Vapi</td>
 </tr>
 <tr>
-<td>Compliance &amp; Audit</td>
-<td>80+</td>
-<td>Framework-specific</td>
+<td>setup-webhook</td>
+<td>915</td>
+<td>Configure server URLs to receive real-time call events</td>
 </tr>
 <tr>
-<td>Cloud Security</td>
-<td>50+</td>
-<td>CSPM/CWPP</td>
+<td>create-tool</td>
+<td>903</td>
+<td>Build custom tools for assistants: function calls, transfers, integrations</td>
+</tr>
+<tr>
+<td>create-squad</td>
+<td>861</td>
+<td>Build multi-assistant squads with handoff workflows</td>
+</tr>
+<tr>
+<td>create-workflow</td>
+<td>611</td>
+<td>Create and manage workflows for voice agent operations</td>
 </tr>
 </tbody>
 </table>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nt">cybersecurity</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">enabled_categories</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">threat-detection</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">incident-response</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vulnerability-assessment</span>
-<span class="w">  </span><span class="nt">mitre_framework_version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;v15&quot;</span>
-<span class="w">  </span><span class="nt">severity_threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;medium&quot;</span><span class="w">     </span><span class="c1"># only load skills for medium+ severity</span>
-<span class="w">  </span><span class="nt">scan_frequency</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;daily&quot;</span>
-<span class="w">  </span><span class="nt">alert_destination</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;siem&quot;</span><span class="w">        </span><span class="c1"># or &quot;slack&quot;, &quot;email&quot;, &quot;pagerduty&quot;</span>
-</code></pre></div>
-<h2 id="key-workflows">Key Workflows<a class="headerlink" href="#key-workflows" title="Anchor link to this section">&para;</a></h2>
-<h3 id="run-a-threat-scan">Run a threat scan<a class="headerlink" href="#run-a-threat-scan" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Run a threat detection scan on our AWS environment. Check for:
-- Exposed S3 buckets
-- Unused IAM access keys
-- Security groups with 0.0.0.0/0
-</code></pre></div>
-<h3 id="incident-triage">Incident triage<a class="headerlink" href="#incident-triage" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>A suspicious login was detected from an unusual location.
-Run the incident-response/triage skill to analyze the event
-and recommend containment actions.
-</code></pre></div>
-<h3 id="vulnerability-prioritization">Vulnerability prioritization<a class="headerlink" href="#vulnerability-prioritization" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Scan our dependency tree for known CVEs.
-Prioritize by CVSS score and exploitability.
-</code></pre></div>
+<p>The remaining 8 indexed listings range from 2 to 273 installs.</p>
+<h2 id="why-this-matters-for-hermes-agents">Why This Matters for Hermes Agents<a class="headerlink" href="#why-this-matters-for-hermes-agents" title="Anchor link to this section">&para;</a></h2>
+<p>Voice is the interface layer most agent stacks treat as an afterthought, and Vapi is one of the platforms where an agent can provision the whole thing end to end: the assistant, its tools, its phone number, its call flows. Because these skills are official, they encode the platform's current API patterns rather than a community paraphrase, and the payload-first structure (conceptual JSON plus separate SDK examples) means an agent can produce a correct call configuration before it commits to a language SDK. The bundled documentation MCP server is the multiplier: when a skill runs out of documented territory, the agent can query the full Vapi knowledge base instead of guessing. For Hermes agents doing client work in voice, this is close to a turnkey toolchain for building and testing phone agents, from API key setup to a verified test call. Two things to hold onto: there is no license file, and the skills deliberately do not invent SDK methods, so revalidating against current Vapi docs belongs in the loop.</p>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>You say</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Create a support assistant that triages billing questions"</td>
+<td>create-assistant scaffolds the assistant with model, voice, transcriber, tools, and hooks</td>
+</tr>
+<tr>
+<td>"Make a test outbound call to our demo line"</td>
+<td>create-call places the call; batch and web calls use the same skill</td>
+</tr>
+<tr>
+<td>"Get our Vapi API key into the project"</td>
+<td>setup-api-key walks through obtaining and configuring the key</td>
+</tr>
+<tr>
+<td>"Attach a phone number for the demo"</td>
+<td>create-phone-number sets one up from Twilio, Vonage, Telnyx, or Vapi</td>
+</tr>
+<tr>
+<td>"Send call events to our backend"</td>
+<td>setup-webhook configures server URLs for real-time call events</td>
+</tr>
+<tr>
+<td>"Give the assistant an order-lookup tool"</td>
+<td>create-tool builds the function call, transfer, or integration the assistant needs</td>
+</tr>
+<tr>
+<td>"Route callers between sales and support"</td>
+<td>create-squad builds the multi-assistant handoff workflow</td>
+</tr>
+</tbody>
+</table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># List installed cybersecurity skills</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;threat\|incident\|vulnerability&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Confirm the install through the skills CLI</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>vapi
 
-<span class="c1"># Test a basic scan</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;Run a quick security posture check on this environment&quot;</span>
+<span class="c1"># Or check the skills directory your agent scans</span>
+ls<span class="w"> </span>.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;create-assistant|create-squad&#39;</span>
+
+<span class="c1"># Review the flagship skill straight from GitHub before installing</span>
+curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/vapiai/skills/main/create-assistant/SKILL.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-20
 </code></pre></div>
-<h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>⚠️ Production systems</strong>: These skills can run destructive actions (blocking IPs, revoking keys, terminating instances). Always run in <code>--dry-run</code> mode first on production environments.</li>
-<li><strong>⚠️ API scope</strong>: Cloud security skills need broad read permissions. Use read-only IAM roles where possible. Never use admin credentials for automated scanning.</li>
-<li><strong>Large install size</strong>: The full pack is 750+ skills. Install only the categories you need. Use the <code>--skill</code> flag for selective install.</li>
-<li><strong>False positives</strong>: Automated threat detection can generate noise. Tune the <code>severity_threshold</code> and always review findings before automated remediation.</li>
-<li><strong>MITRE version</strong>: Skills are mapped to MITRE ATT&amp;CK v15. If your org uses a different version, verify mapping accuracy.</li>
-</ul>
-<h2 id="roster-snapshot-oct-10-2026">Roster Snapshot (Oct 10, 2026)<a class="headerlink" href="#roster-snapshot-oct-10-2026" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>skills.sh serves this family under the lowercase source string <code>mukul975/anthropic-cybersecurity-skills</code>: 94 indexed listings (API page cap), 38,503 combined installs at snapshot time (top: analyzing-api-gateway-access-logs 735; testing-api-security-with-owasp-top-10 711; acquiring-disk-image-with-dd-and-dcfldd 656).</li>
-<li>The case difference matters for coverage checks: this guide links the repo's own capitalization (<code>mukul975/Anthropic-Cybersecurity-Skills</code>), while skills.sh indexes the lowercase form.</li>
-</ul>
+<h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
+<p>skills.sh verdicts for sampled skills (verified Oct 10, 2026) - re-check the security pages on skills.sh before production use:</p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Gen Agent Trust Hub</th>
+<th>Socket</th>
+<th>Snyk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>create-assistant</td>
+<td>Pass</td>
+<td>Pass</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>create-squad</td>
+<td>Pass</td>
+<td>Pass</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>voice-assistant</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p>The scored sample passes on all three engines, but coverage is partial; re-check the security pages on skills.sh before production use.</p>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
 already runs on - accounting, payments, CRM, email, files and analytics - and answer
@@ -10785,15 +10805,33 @@ accounts.</p>
 server and agent-skill ecosystem. Run alongside CorpusIQ, a third-party server like
 this one can be combined with a company's own business data in a single answer.</p>
 <p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
-<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
+<h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills">mukul975/Anthropic-Cybersecurity-Skills repo</a></li>
-<li><a href="https://attack.mitre.org/">MITRE ATT&amp;CK Framework</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-security-setup">Trail of Bits Security Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-security-hardening-setup">OpenClaw Security Hardening</a></li>
+<li>No LICENSE file in the repository; the README's License section states MIT, but with no license file, confirm terms with Vapi before redistribution.</li>
+<li>67 GitHub stars: a young repository, so the community review surface is still small.</li>
+<li>Beta tier: the skills are official but early; revalidate SDK syntax against current Vapi documentation.</li>
+<li>Verdict coverage is partial; only a sample was scored on skills.sh.</li>
+<li>The Codex plugin is skills-only; the repository-level MCP configuration is not declared as a plugin dependency.</li>
+<li>Snapshot data, verified Oct 10, 2026: 7,994 combined installs across 16 indexed listings; 67 GitHub stars; NO LICENSE FILE; last pushed 2026-10-08. Counts drift over time.</li>
+</ul>
+<h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/assistant-ui-skills-setup">Assistant UI Skills - AI Chat Interface Dev Suite Setup</a> - the front-end side of an assistant product</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agent-skill-creator-setup">Agent Skill Creator - Skill Generation and Templating Setup</a> - patterns for writing your own skills like these</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup">Build Mcp Server Setup</a> - build your own docs MCP server, like the one bundled here</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Skills Marketplace</a></li>
+</ul>
+<h2 id="pro-tips">Pro Tips<a class="headerlink" href="#pro-tips" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Install the quick-start four first: setup-api-key, create-assistant, create-phone-number, create-call. That is the README's own path to a working voice agent.</li>
+<li>Export VAPI_API_KEY before running any skill; every skill expects it.</li>
+<li>Let the bundled MCP docs server cover the long tail: the skills handle common workflows, the RAG server handles advanced configuration and SDK detail.</li>
+<li>Compare telephony providers (Twilio, Vonage, Telnyx, Vapi) against your existing account before provisioning a number.</li>
+<li>Revalidate SDK snippets against current docs; the skills intentionally never invent SDK methods.</li>
 </ul>
 <hr />
-<p><em>Setup guide by CorpusIQ. Source: <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills">mukul975/Anthropic-Cybersecurity-Skills</a>.</em></p>
+<p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Skills Marketplace</a> →</em>
+<em>Powered by CorpusIQ</em></p>
 
 
 
