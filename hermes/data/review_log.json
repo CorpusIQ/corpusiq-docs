@@ -17198,5 +17198,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-10T10:04:37.105400+00:00"
+  },
+  {
+    "repo": "olric3015/hermes-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544881+00:00"
+  },
+  {
+    "repo": "GioWick923/hermes-skills-collection",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544894+00:00"
+  },
+  {
+    "repo": "flmaximwang/AgentSkill-UsingHermes",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544896+00:00"
+  },
+  {
+    "repo": "walidb212/sentinel-guard",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544898+00:00"
+  },
+  {
+    "repo": "joymadhu49/marlin",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544900+00:00"
+  },
+  {
+    "repo": "jusso-dev/hermes-cyber-au",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544902+00:00"
+  },
+  {
+    "repo": "jusso-dev/hermes-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544903+00:00"
+  },
+  {
+    "repo": "qiukui666/hermes-ios",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544905+00:00"
+  },
+  {
+    "repo": "pertsevds/kali-pentest",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544907+00:00"
+  },
+  {
+    "repo": "Gotji253/AI_trading_ADA",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544909+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-telegram-business",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544911+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-memory-wiki",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544912+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-desktop-accent-picker",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-11T10:05:08.544914+00:00"
   }
 ]
