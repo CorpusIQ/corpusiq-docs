@@ -110,6 +110,11 @@ hermes chat -q "Run a quick security posture check on this environment"
 - **False positives**: Automated threat detection can generate noise. Tune the `severity_threshold` and always review findings before automated remediation.
 - **MITRE version**: Skills are mapped to MITRE ATT&CK v15. If your org uses a different version, verify mapping accuracy.
 
+## Roster Snapshot (Oct 10, 2026)
+
+- skills.sh serves this family under the lowercase source string `mukul975/anthropic-cybersecurity-skills`: 94 indexed listings (API page cap), 38,503 combined installs at snapshot time (top: analyzing-api-gateway-access-logs 735; testing-api-security-with-owasp-top-10 711; acquiring-disk-image-with-dd-and-dcfldd 656).
+- The case difference matters for coverage checks: this guide links the repo's own capitalization (`mukul975/Anthropic-Cybersecurity-Skills`), while skills.sh indexes the lowercase form.
+
 ## See Also
 
 - [mukul975/Anthropic-Cybersecurity-Skills repo](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)

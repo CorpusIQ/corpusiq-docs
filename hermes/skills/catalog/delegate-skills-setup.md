@@ -107,4 +107,10 @@ The skill handles:
 
 ---
 
+## Same Name, Different Project
+
+Looking for the other Delegate Skills? [AmElnagdy Delegate Skills - CLI Agent Fleet Orchestration](/hermes/skills/catalog/amelnagdy-delegate-skills-setup) (October 2026) is a separate project that shares this name: it dispatches coding tasks to installed implementer CLIs (Codex, Claude Code, Gemini-family, and others) instead of background worktree workers.
+
+---
+
 *This guide is part of the [Hermes Skills Catalog](/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*
