@@ -11,7 +11,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 11, 2026 (night sweep) · **Sources:** mcp.so /feed (30 server links via the direct TanStack fetch) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5109-#5117 + twelve-sitemap canonical refresh (r102: 15,142 URLs, zero additions, zero removals) · **Catalog:** 898 servers (+784 guides)
+> **Last updated:** October 11, 2026 (night sweep plus targeted addition) · **Sources:** mcp.so /feed (30 server links via the direct TanStack fetch) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5109-#5117 + twelve-sitemap canonical refresh (r102: 15,142 URLs, zero additions, zero removals) · **Catalog:** 899 servers (+785 guides)
+
+## 🆕 October 11, 2026 - Targeted Addition: GhidraMCP (1 New, 1 Guide)
+
+Targeted addition from the October 10, 2026 ecosystem discovery scan: GhidraMCP, an MCP server that puts Ghidra 12.1.4 behind 28 local tools for decompilation, symbol listing, cross references and annotations. Version 2.0 (October 10) added headless mode, so the whole pipeline runs without the Ghidra GUI, and nothing leaves the machine: no telemetry, no accounts, no cloud calls.
+
+- [GhidraMCP - Reverse Engineering from Any MCP Client](/hermes/mcp/servers/external/ghidramcp) · local Ghidra plugin plus a Python MCP client (stdio or Streamable HTTP at 127.0.0.1); 28 tools across decompilation (`decompile_function`), listing (`list_methods`, `list_imports`), cross references (`get_xrefs_to`), memory reads and rename and comment helpers; Apache-2.0, built by LaurieWired. Headless import and analysis verified with a real binary, and `decompile_function` returns working C through the MCP client.
 
 ## 🆕 October 11, 2026 - Night Sweep (2 New, 2 Guides)
 
