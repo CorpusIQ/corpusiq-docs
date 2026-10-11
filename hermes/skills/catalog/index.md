@@ -739,6 +739,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Mastepanoski Skills - UX & AI Compliance Audits Setup](/hermes/skills/catalog/mastepanoski-skills-setup)
 - [MagicPath Agent Skills - UI Component Workflow Setup](/hermes/skills/catalog/magicpath-agent-skills-setup)
 - [EvoSkills - Scientific Research Skill Packs Setup](/hermes/skills/catalog/evoskills-setup)
+- [Claude Code Extensions - Agents, Skills & Hooks Setup](/hermes/skills/catalog/nodnarbnitram-claude-code-extensions-setup)
 
 ## Previously unlinked pages (added 2026-10-06)
 
