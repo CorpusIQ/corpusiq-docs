@@ -85,9 +85,15 @@ def fetch_url(url, timeout=10):
 
 def fetch_sitemap(base_url):
     """Fetch and parse sitemap to get all known URLs."""
+    # Build sitemap paths from scheme+host+path ONLY. A query or fragment on the
+    # base URL (e.g. UTM-decorated links) otherwise corrupts the request:
+    # ".../docs?utm=...&campaign=always-on/sitemap.xml" returns HTML, the XML
+    # parse fails, and the audit aborts with "0 URLs found" (Oct 12 2026 fix).
+    _parts = urllib.parse.urlsplit(base_url)
+    base_clean = ("%s://%s%s" % (_parts.scheme, _parts.netloc, _parts.path)).rstrip("/")
     sitemap_urls = [
-        f"{base_url}/sitemap.xml",
-        f"{base_url}/sitemap-index.xml",
+        f"{base_clean}/sitemap.xml",
+        f"{base_clean}/sitemap-index.xml",
     ]
     urls = set()
     for sitemap_url in sitemap_urls:
