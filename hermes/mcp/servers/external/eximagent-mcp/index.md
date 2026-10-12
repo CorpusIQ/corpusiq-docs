@@ -16,7 +16,7 @@ tags: [international-trade, export-import, customs, lead-generation, compliance,
 ```
 Server type: Remote (Streamable HTTP at https://mcp.eximagent.ai/mcp)
 Auth: OAuth (browser sign-in; resource metadata at /.well-known/oauth-protected-resource)
-Docs: https://eximagent.ai/docs
+Docs: https://eximagent.ai/docs/integrations/mcp
 Tools: 81 across buyer discovery, company intelligence, trade analytics, compliance, outreach and evidence
 Coverage: 276M+ shipment records, 578K+ importers identified (vendor-reported)
 Pricing: see https://eximagent.ai/pricing
@@ -26,7 +26,7 @@ Built by: EximAgent
 
 ## Why This Matters for Operators
 
-Exporters, importers, manufacturers and trading companies run on data most CRMs never see: who actually ships what, between which countries, at what price, and how often. EximAgent puts that corpus behind an agent. Ask for the growing importers of an HS6 code into a market that do not yet buy from your region, and the same conversation can research each company, find the sourcing contact, verify the email, draft the outreach and hold it for your go-ahead. It is the workflow of a trade desk, not another dashboard.
+Exporters, importers, manufacturers and trading companies run on data most CRMs never see: who actually ships what, between which countries, at what price, and how often. [EximAgent](https://eximagent.ai/docs/integrations/mcp) puts that corpus behind an agent. Ask for the growing importers of an HS6 code into a market that do not yet buy from your region, and the same conversation can research each company, find the sourcing contact, verify the email, draft the outreach and hold it for your go-ahead. It is the workflow of a trade desk, not another dashboard.
 
 ## Tools & Capabilities
 
