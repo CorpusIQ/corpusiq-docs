@@ -1,20 +1,20 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
-last_updated: "2026-10-11"
+last_updated: "2026-10-12"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated October 11, 2026)
+## File count (updated October 12, 2026)
 
-- **Total Markdown files:** 2862
+- **Total Markdown files:** 2881
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 603 setup guides for Hermes skills (measured: *setup*.md under hermes/skills; Oct 11 evening added 1 - Wayne Sutton Builder Skills (waynesutton/builder-skills); Oct 11 skills-monitor added 1 - Claude Code Extensions (nodnarbnitram/claude-code-extensions); Oct 10 evening added 24 - AmElnagdy Delegate Skills (amElnagdy/delegate-skills), Claude Design Skillstack (freshtechbro/claudedesignskills), Sanyuan Skills (sanyuan0704/sanyuan-skills), Sentimony Skills (sentimony/skills), Ghost Security Skills (ghostsecurity/skills), Some Claude Skills (curiositech/some_claude_skills), Dify Skills (langgenius/dify), CodexSkills (am-will/codex-skills), Agentation (benjitaylor/agentation), Journalism Agent Skills (jamditis/claude-skills-journalism), BuilderOS (buildgreatproducts/builder-os), Platform Design Skills (ehmo/platform-design-skills), CloudBase Skills (tencentcloudbase/cloudbase-skills), ulpi Skills (ulpi-io/skills), Srinitude Skills (srinitude/skills), Antigravity Skill Vault (rmyndharis/antigravity-skills), Mies (deeflect/mies), Vibe Motion Skills (vibe-motion/skills), Vapi Skills (vapiai/skills), Sergiodxa Agent Skills (sergiodxa/agent-skills), Appllama Skills (appllama/appllama-skills), Mastepanoski Skills (mastepanoski/claude-skills), MagicPath Agent Skills (magicpathai/agent-skills), EvoSkills (evoscientist/evoskills); Oct 9 evening added 6 - Baoyu Skills (jimliu/baoyu-skills), UI Skills (ibelick/ui-skills), Meticulous (alwaysmeticulous/skills), Designer Skills (julianoczkowski/designer-skills), Medusa (medusajs/medusa-agent-skills), Garden Skills (ConardLi/garden-skills); Oct 10 morning added 17 - Wondelai Skills (wondelai/skills), Starchild Official Skills (starchild-ai-agent/official-skills), Cargo Skills (getcargohq/cargo-skills), Compound Engineering (everyinc/compound-engineering-plugin), Samber Developer Platform Skills (samber/developer-platform-skills), Open Mercato Skills (open-mercato/skills), Bencium Marketplace (bencium/bencium-marketplace), MiniMax AI Skills (minimax-ai/skills), PM Skills (product-on-purpose/pm-skills), Dimillian Skills (dimillian/skills), Skills for Antigravity (omer-metin/skills-for-antigravity), Three.js Game Skills (majidmanzarpour/threejs-game-skills), Xcode Build Optimization (avdlee/xcode-build-optimization-agent-skill), WordPress Agent Skills (wordpress/agent-skills), Trigger.dev Skills (triggerdotdev/skills), LangSmith Skills (langchain-ai/langsmith-skills), Botpress Skills (botpress/skills); Oct 9 morning added 1 - Modern Web Guidance (googlechrome/modern-web-guidance); Oct 8 evening added 4 - Limrun Skills (limrun-inc/skills), TypeSafe AI Skills (typesafe-ai/skills), Yomiyasu (nanaism/yomiyasu), Proseify (proseify.xyz); Oct 8 morning added 4 - shadcn (shadcn-ui/ui), Amplitude Agent Skills (amplitude/mcp-marketplace), mbfinotti Business Skills (4 repos), Cloudflare Security Audit (cloudflare/security-audit-skill); Oct 7 evening added 1 - Callstack Agent Skills (callstackincubator/agent-skills); Oct 5 evening, skills-monitor sweep added 1 publisher guide - Goldsky Agent Skills (goldsky-io/goldsky-agent); Oct 4 evening added 1 - Moonlight Lupin Agent Skills (un-parked after growth re-check); Oct 4 morning added 1 - CrewAI Skills (crewAIInc/skills); Oct 2 added 3 - 01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills; prior 534 baseline was stale) (measured: *setup*.md under hermes/skills); marketplace index tracks 1,135+ curated skills
-- **MCP servers:** 1214 total .md under hermes/mcp/; external catalog 891 servers (+777 guides) per Oct 10 midday sweep
+- **MCP servers:** 1239 total .md under hermes/mcp/; external catalog 910 servers (+796 guides) per Oct 12 midday supplement
 - **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -40,6 +40,8 @@ The repo is actively maintained with daily automated updates:
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Docs maintenance ✅ (Oct 12, 2026, docs-mgmt cron):** routine audit + release-surface refresh. All scanners clean: 0 broken links (hermes-internal + cross-directory), 0 missing frontmatter, 0 duplicate descriptions, 0 empty pages, orphans 0, dead-slash 0 defects, fragment anchors 0 candidates (9 allowlisted `#repo-unavailable`), built-site unresolved links 0 (docs_perfection exit 0); PII scan = the 3 known false positives only; retention gate PASS. Stale-content fix: `hermes/ecosystem/index.md` current-release figure v0.21.6 -> v0.21.7 (Oct 12 release; `hermes/index.md` + the auto-published changelog were already current; repo-wide scan found no other stale release references). Deployed via deploy_docs_deploy.py (Vercel OK); ecosystem page live-verified HTTP 200 with v0.21.7 (www + origin, cache-busted). Stats refreshed (2,881 MD, 1,239 hermes/mcp .md, external catalog 910 servers (+796 guides) per Oct 12 midday supplement, 603 setup guides).
 
 - **Docs maintenance ✅ (Oct 10, 2026, docs-mgmt cron):** extensionless-relative-link sweep - 160 latent broken links across 49 pages fixed at the source. Every defect was a markdown link written without the `.md` extension (e.g. `](windows-wsl)`, `](../case-studies/compliance-audit)`, `](corpusiq-vs-viktor-pricing)`): MkDocs rewrites only links that resolve to doc files, so these were emitted verbatim and landed one directory below their intended target once the page URL nests - live 404s (verified pre-fix). Fixed by appending `.md` to each source target - fail-closed: 153 (file,link) entries / 160 replacements, structural diff = every changed line differs only by the inserted extension; post-fix rebuild: unresolved-links audit 160 -> 0 (exit 1 -> 0), comprehensive + anchor + dead-slash audits all clean. Deployed via deploy_docs.py (Vercel OK; verify gates passed); all 49 changed pages live-verified HTTP 200 with resolving links (cache-busted www checks + stratified target checks 14/14). PROGRESS.md stats refreshed (2,826 MD, 1,214 hermes/mcp .md, external catalog 891 servers (+777 guides) per Oct 10 midday sweep, 577 setup guides).
 
@@ -117,7 +119,7 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: October 11, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: October 12, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 
 ## FAQ
 
