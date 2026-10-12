@@ -3,7 +3,7 @@ title: "Convex Agent Skills - 46-Skill Backend Platform Setup"
 description: "get-convex/agent-skills - 46 skills, 756.9K combined installs. Quickstart, components, auth, performance audits, migrations, and launch-readiness for the Convex TypeScript backend platform."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/convex-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-13"
+last_updated: "2026-10-11"
 tags: ["hermes skill", "agent skill", "skill setup", "backend"]
 ---
 
@@ -60,3 +60,4 @@ npx skills add get-convex/agent-skills
 - [Neon Agent Skills - Serverless Postgres Setup](/hermes/skills/catalog/neon-agent-skills-setup)
 - [Supabase Agent Skills - Backend Platform Setup](/hermes/skills/catalog/supabase)
 - [Firebase Agent Skills - Google Backend Setup](/hermes/skills/catalog/google-skills-setup)
+- [Wayne Sutton Builder Skills - Convex App Development Setup](/hermes/skills/catalog/waynesutton-builder-skills-setup)

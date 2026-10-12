@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  1,134+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh  --  1,135+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-10-11"
@@ -12,9 +12,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**1,134+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,135+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [🆕 October 11, 2026 (Evening) - Wayne Sutton Builder Skills (waynesutton/builder-skills, 37.6K combined installs, 406⭐ Apache-2.0 - 17 skills for Convex app development plus a PRD-first project workflow loop; top skill convex 5,669) - 1 new publisher cluster, 1 setup guide](/hermes/skills/marketplace/new-oct11-2026-evening-skills)
 - [🆕 October 11, 2026 - Claude Code Extensions (nodnarbnitram/claude-code-extensions, 9.6K combined installs, 23 listings, 16⭐ MIT - 21 modular plugins: 60+ agents, 18 skills, 8 hooks, 11 commands; top skill tauri-v2 7,662) - 1 new publisher cluster, 1 setup guide](/hermes/skills/marketplace/new-oct11-2026-skills)
 - [🆕 October 10, 2026 (Evening) - AmElnagdy Delegate Skills (amElnagdy/delegate-skills, 65.9K combined, 2,355⭐ MIT), Claude Design Skillstack (freshtechbro/claudedesignskills, 60.8K), Sanyuan Skills (30.0K), Sentimony Skills (28.3K), Ghost Security Skills (28.0K), Some Claude Skills (27.1K), Dify Skills (langgenius/dify, 22.6K official), CodexSkills (20.2K), Agentation (20.2K), Journalism Agent Skills (18.9K), BuilderOS (15.7K), Platform Design Skills (12.8K), CloudBase Skills (12.5K official), ulpi Skills (10.7K), Srinitude Skills (10.6K), Antigravity Skill Vault (10.1K), Mies (8.8K), Vibe Motion Skills (8.3K), Vapi Skills (8.0K official), Sergiodxa Agent Skills (7.9K), Appllama Skills (7.6K), Mastepanoski Skills (6.3K), MagicPath Agent Skills (6.3K official), EvoSkills (5.6K) - 24 new publisher clusters (~453K combined); queue fully drained (19/19) + zero-catalog audit converts - 24 setup guides](/hermes/skills/marketplace/new-oct10-2026-evening-skills)
 - [🆕 October 10, 2026 - Wondelai Skills (wondelai/skills, 275.9K), Starchild Official Skills (starchild-ai-agent/official-skills, 179.7K), Cargo Skills (getcargohq/cargo-skills, 142.8K), Compound Engineering (everyinc/compound-engineering-plugin, 124.2K, 25.4K⭐ MIT), Samber Developer Platform Skills (samber/developer-platform-skills, 95.1K), Open Mercato Skills (open-mercato/skills, 79.0K), Bencium Marketplace (bencium/bencium-marketplace, 53.1K), MiniMax AI Skills (minimax-ai/skills, 48.3K), PM Skills (product-on-purpose/pm-skills, 44.7K), Dimillian Skills (dimillian/skills, 33.8K), Skills for Antigravity (omer-metin/skills-for-antigravity, 25.6K), Three.js Game Skills (majidmanzarpour/threejs-game-skills, 24.0K), Xcode Build Optimization (avdlee/xcode-build-optimization-agent-skill, 20.6K), WordPress Agent Skills (wordpress/agent-skills, 17.7K), Trigger.dev Skills (triggerdotdev/skills, 14.6K), LangSmith Skills (langchain-ai/langsmith-skills, 14.4K), Botpress Skills (botpress/skills, 11.2K) - 17 new publisher clusters (~1.2M combined); plus Composio + Mastra source reconciles - 17 setup guides](/hermes/skills/marketplace/new-oct10-2026-skills)
@@ -321,7 +322,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,134+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,135+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -406,7 +407,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,134+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,135+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -426,7 +427,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,134+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,135+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
