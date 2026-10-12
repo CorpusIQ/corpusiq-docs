@@ -59,7 +59,7 @@ Thanks to Daniel Steele (@keeltrace) for reporting this and writing the fix (#12
 
 ---
 
-*← [v0.21.5 - Patch Release](/hermes/changelog/v0.21.5) | [Changelog Home](/hermes/changelog) →*
+*← [v0.21.5 - Patch Release](/hermes/changelog/v0.21.5) | [v0.21.7 - Patch Release](/hermes/changelog/v0.21.7) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 
