@@ -4,7 +4,7 @@ description: "Parcels, owners, assessments, permits and zoning for any US addres
 category: Real Estate Data
 stars: n/a (new listing)
 added: 2026-10-12
-source: "mcp.so /feed (Oct 12, 2026 morning sweep)"
+source: "mcp.so /feed (Oct 12, 2026 midday sweep)"
 relevance: ★★★
 tags: [real-estate, parcels, zoning, permits, due-diligence, land-records, property-data, remote-mcp]
 ---
@@ -20,7 +20,7 @@ Endpoint: https://mcp.placestack.com/mcp
 Tools: 14 (parcels, zoning, permits, cases, jurisdictions, account)
 Pricing: 1 credit per lookup; 1 credit per 20 search results; jurisdictions and suggestions free
 Website: placestack.com (pricing at placestack.com/pricing)
-Listing: mcp.so /feed (Oct 12, 2026 morning sweep)
+Listing: mcp.so /feed (Oct 12, 2026 midday sweep)
 ```
 
 ## Why This Matters for Operators

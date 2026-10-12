@@ -4,7 +4,7 @@ description: "Free keyless answers on ISO 20022 bank transaction codes, message 
 category: Finance
 stars: n/a (new listing)
 added: 2026-10-12
-source: "mcpservers.org /all (Oct 12, 2026 morning sweep)"
+source: "mcpservers.org /all (Oct 12, 2026 midday sweep)"
 relevance: ★★
 tags: [iso-20022, payments, banking, swift, sepa, reference-data, keyless, remote-mcp]
 ---
@@ -21,7 +21,7 @@ Tools: 3 (transaction codes, message details, legacy and scheme mappings)
 Pricing: Free
 Built by: ISO 20022 Navigator (repo github.com/kreativeManish/iso20022-navigator-mcp, MIT)
 Data baseline: a provenance block on every response names the baseline quarter (for example 4Q2025)
-Listing: mcpservers.org /all (Oct 12, 2026 morning sweep)
+Listing: mcpservers.org /all (Oct 12, 2026 midday sweep)
 ```
 
 ## Why This Matters for Operators

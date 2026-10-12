@@ -4,7 +4,7 @@ description: "Priced make-ready estimates and state-statute deposit settlement f
 category: Property Management
 stars: n/a (new listing)
 added: 2026-10-12
-source: "chatmcp/mcpso issue #5189 (Oct 12, 2026 morning sweep)"
+source: "chatmcp/mcpso issue #5189 (Oct 12, 2026 midday sweep)"
 relevance: ★★
 tags: [property-management, rentals, landlord, estimating, deposits, compliance, keyless, remote-mcp]
 ---

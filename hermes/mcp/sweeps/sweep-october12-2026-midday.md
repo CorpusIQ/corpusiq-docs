@@ -1,15 +1,15 @@
 ---
-title: "MCP Server Discovery - October 12, 2026 (Morning Sweep)"
-description: "Morning sweep cataloguing US parcel and zoning due-diligence data, rental turnover and deposit settlement, and ISO 20022 payment code reference servers."
+title: "MCP Server Discovery - October 12, 2026 (Midday Sweep)"
+description: "Midday sweep cataloguing US parcel and zoning due-diligence data, rental turnover and deposit settlement, and ISO 20022 payment code reference servers."
 last_updated: 2026-10-12
-canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october12-2026-morning/"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october12-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 ---
 
-# MCP Server Discovery - October 12, 2026 (Morning Sweep)
+# MCP Server Discovery - October 12, 2026 (Midday Sweep)
 
-Morning sweep over the mcp.so `/feed` (30 server links via the r.jina.ai reader proxy), mcpservers.org `/all` pages 1-5 through the same reader proxy (150 slugs cross-referenced three-way against the catalog headings, guide directories and the October ledgers), the fresh chatmcp/mcpso issue window #5161-#5196 (36 submissions), and the canonical window check on the existing captures (r106 to r109: one addition, zero removals). Three new business-relevant entries, each catalogued with a guide: US parcel and zoning due-diligence data, rental turnover and deposit settlement estimates, and ISO 20022 payment code reference.
+Midday sweep over the mcp.so `/feed` (30 server links via the r.jina.ai reader proxy), mcpservers.org `/all` pages 1-5 through the same reader proxy (150 slugs cross-referenced three-way against the catalog headings, guide directories and the October ledgers), the fresh chatmcp/mcpso issue window #5161-#5196 (36 submissions), and the canonical window check on the existing captures (r106 to r109: one addition, zero removals). Three new business-relevant entries, each catalogued with a guide: US parcel and zoning due-diligence data, rental turnover and deposit settlement estimates, and ISO 20022 payment code reference.
 
 ## New Servers Catalogued
 
