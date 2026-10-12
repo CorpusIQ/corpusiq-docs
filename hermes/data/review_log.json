@@ -17289,5 +17289,103 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-11T10:05:08.544914+00:00"
+  },
+  {
+    "repo": "higorzz/hermes-anki-estudos-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096139+00:00"
+  },
+  {
+    "repo": "abdulraheemnohri/lifeops-selfx",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096149+00:00"
+  },
+  {
+    "repo": "mfiumara/gibbous",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096151+00:00"
+  },
+  {
+    "repo": "glasser-ai/hermes-plugin-glasser",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096153+00:00"
+  },
+  {
+    "repo": "gbonnet65923/hermes-omp-orca-stack",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096154+00:00"
+  },
+  {
+    "repo": "jozrftamson/figma-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096155+00:00"
+  },
+  {
+    "repo": "maurorosero/hermes-common-scripts",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096156+00:00"
+  },
+  {
+    "repo": "SenlerBot/senler-io-user-hermes-plugin",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:03:46.096157+00:00"
+  },
+  {
+    "repo": "Sunshine-SACA/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:05:07.497664+00:00"
+  },
+  {
+    "repo": "itsfedor/esl-automation-suite",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:05:07.497678+00:00"
+  },
+  {
+    "repo": "patinaproject/factory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:05:07.497681+00:00"
+  },
+  {
+    "repo": "dmmeteo/hermes-secret-drop",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:05:07.497683+00:00"
+  },
+  {
+    "repo": "TriBrigadeMars/hermes-profile-sync",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:05:07.497684+00:00"
+  },
+  {
+    "repo": "BigDuLittle/safe-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-12T10:05:07.497686+00:00"
   }
 ]

@@ -71742,5 +71742,397 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-11T10:04:38.420428+00:00",
     "status": "pending"
+  },
+  {
+    "name": "higorzz/hermes-anki-estudos-skills",
+    "url": "https://github.com/higorzz/hermes-anki-estudos-skills",
+    "description": "Hermes Agent skills for Anki/study workflows",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-12T10:00:31Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-12T10:01:23.712952+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "abdulraheemnohri/lifeops-selfx",
+    "url": "https://github.com/abdulraheemnohri/lifeops-selfx",
+    "description": "This specification defines a complete, self-hosted personal AI platform combining LifeOps productivity automation with the Self-X self-evolution engine, inspired by the general capabilities of Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-12T09:59:49Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent"
+    ],
+    "discovered_at": "2026-10-12T10:01:23.714860+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mfiumara/gibbous",
+    "url": "https://github.com/mfiumara/gibbous",
+    "description": "A Hermes-native AI cockpit: a calm, keyboard-first UI for your Hermes agent, on your Mac and iPhone.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-12T09:59:07Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-10-12T10:01:23.716435+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "glasser-ai/hermes-plugin-glasser",
+    "url": "https://github.com/glasser-ai/hermes-plugin-glasser",
+    "description": "Glasser for Hermes Agent: hosted MCP (people, company, SEO, web, social and market data through one key) as a portable Agent Plugins v1 package",
+    "stars": 2,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-12T09:26:37Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MemTensor/memmy-agent",
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-10-12T10:01:31.294625+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gbonnet65923/hermes-omp-orca-stack",
+    "url": "https://github.com/gbonnet65923/hermes-omp-orca-stack",
+    "description": "ENI/Gothbreach agent stack: Hermes + OMP + Orca \u2014 persona, configs, MCP servers, workflows, jailbreaks, 1268 skills (sanitized, no secrets)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-12T09:18:51Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-12T10:01:31.296504+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jozrftamson/figma-mcp",
+    "url": "https://github.com/jozrftamson/figma-mcp",
+    "description": "Figma MCP Server - Model Context Protocol integration for Figma API with Hermes AI Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "api-client",
+      "figma",
+      "hermes",
+      "mcp",
+      "model-context-protocol",
+      "python"
+    ],
+    "updated_at": "2026-10-12T07:41:21Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "goagent123/hermes-composio-bridge",
+      "ahonore42/logios-brain"
+    ],
+    "discovered_at": "2026-10-12T10:01:31.300381+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maurorosero/hermes-common-scripts",
+    "url": "https://github.com/maurorosero/hermes-common-scripts",
+    "description": "Utileria transversal para agentes Hermes: scripts permanentes que no pertenecen a un skill ni a un plugin.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-11T21:19:55Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-12T10:01:38.879433+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SenlerBot/senler-io-user-hermes-plugin",
+    "url": "https://github.com/SenlerBot/senler-io-user-hermes-plugin",
+    "description": "Senler.io User MCP skills and webhook workflows for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-11T18:57:43Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-12T10:01:38.880995+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Sunshine-SACA/cc-switch",
+    "url": "https://github.com/Sunshine-SACA/cc-switch",
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+    "stars": 2,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-10-12T10:03:48Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw"
+    ],
+    "discovered_at": "2026-10-12T10:04:46.189663+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "itsfedor/esl-automation-suite",
+    "url": "https://github.com/itsfedor/esl-automation-suite",
+    "description": "AI automation pipelines for ESL teachers: lesson-guide generator, voice-to-Notion student tracker, video-review summaries, TV-episode homework, test-english adaptation. Installable agent skills, no generic templates.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "automation",
+      "deepgram",
+      "edtech",
+      "education",
+      "english-teaching",
+      "esl",
+      "hermes-agent",
+      "lesson-planning",
+      "notion",
+      "prompts",
+      "teaching",
+      "transcription",
+      "video"
+    ],
+    "updated_at": "2026-10-12T10:03:34Z",
+    "category": "forks",
+    "score": 39,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-12T10:04:46.191357+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "patinaproject/factory",
+    "url": "https://github.com/patinaproject/factory",
+    "description": "Hermes software factory: Linear agent sessions, Hermes Kanban, and Claude Code workers",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-12T10:03:09Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-10-12T10:04:46.193114+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dmmeteo/hermes-secret-drop",
+    "url": "https://github.com/dmmeteo/hermes-secret-drop",
+    "description": "Ask for a secret without putting it in chat. Self-hosted broker + Hermes plugin with origin-bound one-shot links, browser HPKE, and one-time claims for Discord and Telegram. Not security-audited.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "chatops",
+      "discord",
+      "encryption",
+      "hermes",
+      "hermes-agent",
+      "hpke",
+      "nodejs",
+      "rfc9180",
+      "secrets",
+      "secrets-management",
+      "security",
+      "self-hosted",
+      "telegram"
+    ],
+    "updated_at": "2026-10-12T10:02:52Z",
+    "category": "forks",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "niche_specialized"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-10-12T10:04:46.194985+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TriBrigadeMars/hermes-profile-sync",
+    "url": "https://github.com/TriBrigadeMars/hermes-profile-sync",
+    "description": "Hermes Agent profile sync across machines",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-12T10:02:06Z",
+    "category": "forks",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-12T10:04:46.196709+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BigDuLittle/safe-switch",
+    "url": "https://github.com/BigDuLittle/safe-switch",
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-10-12T10:02:02Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "Intelligent-Internet/zenith",
+      "xintaofei/codeg",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw"
+    ],
+    "discovered_at": "2026-10-12T10:04:46.198308+00:00",
+    "status": "pending"
   }
 ]
