@@ -3,7 +3,7 @@ title: "Hermes Agent Changelog - CorpusIQ Docs"
 description: Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/"
 robots: "index,follow"
-last_updated: "2026-10-12"
+last_updated: "2026-10-13"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -16,6 +16,27 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.20.6](/hermes/changelog/v0.20.6) | August 27, 2026 | Patch Release | Patch release. This tag rolls up the ~525 PRs merged since v0.20.5 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs). |
+| [v0.20.5](/hermes/changelog/v0.20.5) | August 21, 2026 | Patch Release | Patch release. This tag rolls up the ~323 PRs merged since v0.20.4 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs). |
+| [v0.20.4](/hermes/changelog/v0.20.4) | August 18, 2026 | Patch Release | Patch release. This tag rolls up the ~74 PRs merged since v0.20.3 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs). |
+| [v0.20.3](/hermes/changelog/v0.20.3) | August 17, 2026 | Patch Release | Patch release. This tag rolls up the ~125 PRs merged since v0.20.2 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs). |
+| [v0.20.2](/hermes/changelog/v0.20.2) | August 16, 2026 | Patch Release | Patch release. This tag rolls up the ~397 PRs merged since v0.20.1 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs). |
+| [v0.15.2](/hermes/changelog/v0.15.2) | May 29, 2026 | Patch Release | - Packaging): ship bundled plugin.yaml manifests in wheel and sdist ([`827f7f07`](https://github.com/NousResearch/hermes-agent/commit/827f7f07825be57108cbea18325e8f5e9fb5d2f2)) |
+| [v0.15.1](/hermes/changelog/v0.15.1) | May 29, 2026 | Patch Release | > **The Patch Release.** A same-day hotfix for v0.15.0. Headline fix: the dashboard infinite-reload loop that hit anyone running v0.15.0 in loopback mode (Docker, hosted Hermes, fresh installs). A handful of... |
+| [v0.15.0](/hermes/changelog/v0.15.0) | May 28, 2026 | Patch Release | > **The Velocity Release.** Hermes gets dramatically faster  -  to start, to run, to ship work, and to grow. The 16,083-line `run_agent.py` collapses to 3,821 (-76%) across 14 cohesive `agent/*` modules. Kanban... |
+| [v0.14.0](/hermes/changelog/v0.14.0) | May 16, 2026 | Patch Release | > The Foundation Release  -  Hermes installs and runs anywhere, ships with the things you actually want to use, and stops shipping the things you don't. xAI Grok lands as a SuperGrok OAuth provider with grok-4.3... |
+| [v0.13.0](/hermes/changelog/v0.13.0) | May 7, 2026 | Patch Release | > The Tenacity Release  -  Hermes Agent now finishes what it starts. Kanban ships as a durable multi-agent board (heartbeat, reclaim, zombie detection, auto-block on incomplete exit, per-task retries... |
+| [v0.12.0](/hermes/changelog/v0.12.0) | April 30, 2026 | Patch Release | > The Curator release  -  Hermes Agent now maintains itself. An autonomous background Curator grades, prunes, and consolidates your skill library on its own schedule. The self-improvement loop that reviews what... |
+| [v0.11.0](/hermes/changelog/v0.11.0) | April 23, 2026 | Patch Release | > The Interface release  -  a full React/Ink rewrite of the interactive CLI, a pluggable transport architecture underneath every provider, native AWS Bedrock support, five new inference paths, a 17th messaging... |
+| [v0.10.0](/hermes/changelog/v0.10.0) | April 16, 2026 | Patch Release | > The Tool Gateway release  -  paid Nous Portal subscribers can now use web search, image generation, text-to-speech, and browser automation through their existing subscription with zero additional API keys. |
+| [v0.9.0](/hermes/changelog/v0.9.0) | April 13, 2026 | Patch Release | > The everywhere release  -  Hermes goes mobile with Termux/Android, adds iMessage and WeChat, ships Fast Mode for OpenAI and Anthropic, introduces background process monitoring, launches a local web dashboard... |
+| [v0.8.0](/hermes/changelog/v0.8.0) | April 8, 2026 | Patch Release | > The intelligence release  -  background task auto-notifications, free MiMo v2 Pro on Nous Portal, live model switching across all platforms, self-optimized GPT/Codex guidance, native Google AI Studio, smart... |
+| [v0.7.0](/hermes/changelog/v0.7.0) | April 3, 2026 | Patch Release | > The resilience release  -  pluggable memory providers, credential pool rotation, Camofox anti-detection browser, inline diff previews, gateway hardening across race conditions and approval routing, and deep... |
+| [v0.6.0](/hermes/changelog/v0.6.0) | March 30, 2026 | Patch Release | > The multi-instance release  -  Profiles for running isolated agent instances, MCP server mode, Docker container, fallback provider chains, two new messaging platforms (Feishu/Lark and WeCom), Telegram webhook... |
+| [v0.5.0](/hermes/changelog/v0.5.0) | March 28, 2026 | Patch Release | > The hardening release  -  Hugging Face provider, /model command overhaul, Telegram Private Chat Topics, native Modal SDK, plugin lifecycle hooks, tool-use enforcement for GPT models, Nix flake, 50+ security... |
+| [v0.4.0](/hermes/changelog/v0.4.0) | March 24, 2026 | Patch Release | > The platform expansion release  -  OpenAI-compatible API server, 6 new messaging adapters, 4 new inference providers, MCP server management with OAuth 2.1, @ context references, gateway prompt caching... |
+| [v0.3.0](/hermes/changelog/v0.3.0) | March 17, 2026 | Patch Release | > The streaming, plugins, and provider release  -  unified real-time token delivery, first-class plugin architecture, rebuilt provider system with Vercel AI Gateway, native Anthropic provider, smart approvals... |
+| [v0.2.0](/hermes/changelog/v0.2.0) | March 12, 2026 | Patch Release | > First tagged release since v0.1.0 (the initial pre-public foundation). In just over two weeks, Hermes Agent went from a small internal project to a full-featured AI agent platform  -  thanks to an explosion of... |
 | [v0.21.7](/hermes/changelog/v0.21.7) | October 12, 2026 | Patch Release | Patch release. This tag rolls up the ~204 PRs merged since v0.21.6 into a stable release for the desktop app (macOS Apple silicon, Windows), the Microsoft Store and MSIX, the installer, Docker and Hermes... |
 | [v0.21.6](/hermes/changelog/v0.21.6) | October 8, 2026 | Patch Release | 2,106 PRs: first release from the new stable pipeline (tested Docker image, receipt tag), plus dashboard auth, git filter, and email gateway sender hardening |
 | [v0.21.5](/hermes/changelog/v0.21.5) | September 24, 2026 | Patch Release | 460 PRs: Desktop plugin SDK wave, Simple/Advanced interface mode, Connectors page replacing the MCP tab, French/German/Spanish catalogs, per-profile lifecycle controls |
@@ -51,7 +72,7 @@ When a new release is detected, a changelog page is generated, committed to `Cor
 
 ### What is the latest Hermes Agent version?
 
-v0.21.7, published October 12, 2026. See the release notes for the full changes.
+v0.20.6, published August 27, 2026. See the release notes for the full changes.
 
 ### How often is the Hermes changelog updated?
 
@@ -71,7 +92,7 @@ Run `hermes update` from the terminal, or install fresh with the official instal
       "name": "What is the latest Hermes Agent version?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "v0.21.7, published October 12, 2026. See the release notes for the full changes."
+        "text": "v0.20.6, published August 27, 2026. See the release notes for the full changes."
       }
     },
     {
