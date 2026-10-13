@@ -39,6 +39,17 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.9.7...v2026.9.11](https://github.com/NousResearch/hermes-agent/compare/v2026.9.7...v2026.9.11)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.2?
+
+Six-PR reliability campaign: no more second writers, healthy databases no longer reported corrupt, safe `doctor --fix`
+
+### When was Hermes Agent v0.21.2 released?
+
+September 11, 2026
+
 ---
 
 *← [v0.21.1 - Patch Release](/hermes/changelog/v0.21.1) | [v0.21.3 - Patch Release](/hermes/changelog/v0.21.3) →*

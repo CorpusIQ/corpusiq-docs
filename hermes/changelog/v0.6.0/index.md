@@ -271,7 +271,7 @@ March 30, 2026
 
 ---
 
-*← [v0.5.0 - Patch Release](/hermes/changelog/v0.5.0) | [Changelog Home](/hermes/changelog) →*
+*← [v0.5.0 - Patch Release](/hermes/changelog/v0.5.0) | [v0.7.0 - Patch Release](/hermes/changelog/v0.7.0) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

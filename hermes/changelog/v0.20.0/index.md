@@ -185,9 +185,20 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.7.20...v2026.8.3](https://github.com/NousResearch/hermes-agent/compare/v2026.7.20...v2026.8.3)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.20.0?
+
+Streaming conversational voice, A2A v1.0, grounded citations, desktop artifacts + plugin SDK, CLI power commands, tool self-recovery, smarter compression - 3,650 commits, 647 contributors
+
+### When was Hermes Agent v0.20.0 released?
+
+August 3, 2026
+
 ---
 
-*← [v0.19.1 - Patch Release](/hermes/changelog/v0.19.1) | [Changelog Home](/hermes/changelog) →*
+*← [v0.19.1 - Patch Release](/hermes/changelog/v0.19.1) | [v0.20.1 - Patch Release](/hermes/changelog/v0.20.1) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

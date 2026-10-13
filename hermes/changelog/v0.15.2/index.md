@@ -31,7 +31,7 @@ Thank you to everyone who contributed to this release!
 
 ### What changed in Hermes Agent v0.15.2?
 
-- Packaging): ship bundled plugin.yaml manifests in wheel and sdist ([`827f7f07`](https://github.com/NousResearch/hermes-agent/commit/827f7f07825be57108cbea18325e8f5e9fb5d2f2))
+Ships bundled plugin.yaml manifests in wheel and sdist ([`827f7f07`](https://github.com/NousResearch/hermes-agent/commit/827f7f07825be57108cbea18325e8f5e9fb5d2f2))
 
 ### When was Hermes Agent v0.15.2 released?
 
@@ -40,7 +40,7 @@ May 29, 2026
 
 ---
 
-*← [v0.15.1 - Patch Release](/hermes/changelog/v0.15.1) | [Changelog Home](/hermes/changelog) →*
+*← [v0.15.1 - Patch Release](/hermes/changelog/v0.15.1) | [v0.16.0 - Patch Release](/hermes/changelog/v0.16.0) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

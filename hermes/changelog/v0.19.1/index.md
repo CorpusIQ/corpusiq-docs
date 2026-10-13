@@ -43,9 +43,20 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.7.20...v2026.7.30](https://github.com/NousResearch/hermes-agent/compare/v2026.7.20...v2026.7.30)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.19.1?
+
+~3,087 commits: gateway stability, voice fixes, Telegram media, FLUX3 video, Buzz/Nostr, installer patches
+
+### When was Hermes Agent v0.19.1 released?
+
+July 30, 2026
+
 ---
 
-*← [v0.19.0 - The Quicksilver Release](/hermes/changelog/v0.19.0) | [Changelog Home](/hermes/changelog) →*
+*← [v0.19.0 - The Quicksilver Release](/hermes/changelog/v0.19.0) | [v0.20.0 - The Herald Release](/hermes/changelog/v0.20.0) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

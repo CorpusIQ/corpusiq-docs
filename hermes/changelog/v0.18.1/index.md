@@ -38,6 +38,17 @@ pip install -U hermes-agent
 
 **Full Changelog**: [v2026.7.1...v2026.7.7](https://github.com/NousResearch/hermes-agent/compare/v2026.7.1...v2026.7.7)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.18.1?
+
+~660 PR roll-up since v0.18.0: installer self-healing, dashboard/gateway fixes, WhatsApp pairing, MCP/provider fixes, stability hardening
+
+### When was Hermes Agent v0.18.1 released?
+
+July 7, 2026
+
 ---
 
 *← [v0.18.0 - The Judgment Release](/hermes/changelog/v0.18.0) | [v0.18.2 - WhatsApp Fix](/hermes/changelog/v0.18.2) →*

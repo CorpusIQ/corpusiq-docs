@@ -204,6 +204,24 @@ The dashboard is now a complete browser-based administration surface:
 - **@helix4u** (6 PRs)  --  gateway service-restart, update guard
 - **@jquesnelle** (4 PRs)  --  installer, desktop tooling
 - **@JimLiu**  --  Simplified Chinese translation + i18n layer
+
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.16.0?
+
+Desktop app, remote gateway, web admin panel, fuzzy model picker, `/undo`, 简体中文, leaner skills, NVIDIA/skills tap
+
+### When was Hermes Agent v0.16.0 released?
+
+June 5, 2026
+
+---
+
+*← [v0.15.2 - Patch Release](/hermes/changelog/v0.15.2) | [v0.17.0 - The Reach Release](/hermes/changelog/v0.17.0) →*
+
+*↑ [Changelog Home](/hermes/changelog)*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

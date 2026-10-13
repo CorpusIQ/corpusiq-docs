@@ -41,9 +41,20 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.8.3...v2026.8.31](https://github.com/NousResearch/hermes-agent/compare/v2026.8.3...v2026.8.31)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.0?
+
+Bot Mode agent society, cron memory and continuity, live subagent steering, MCP command center, desktop browser driving, six new providers
+
+### When was Hermes Agent v0.21.0 released?
+
+August 31, 2026
+
 ---
 
-*← [v0.20.1 - Patch Release](/hermes/changelog/v0.20.1) | [v0.21.1 - Patch Release](/hermes/changelog/v0.21.1) →*
+*← [v0.20.6 - Patch Release](/hermes/changelog/v0.20.6) | [v0.21.1 - Patch Release](/hermes/changelog/v0.21.1) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

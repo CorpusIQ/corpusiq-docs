@@ -219,9 +219,20 @@ Plus 440+ additional contributors - the biggest contributor window yet.
 
 **Full Changelog**: [v2026.7.1...v2026.7.20](https://github.com/NousResearch/hermes-agent/compare/v2026.7.1...v2026.7.20)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.19.0?
+
+~80% first-token speed improvement, terminal billing, Bitwarden/1Password secrets, smart approvals, durable delivery ledger, live subagent transcripts, GPT-5.6/grok-4.5/kimi-k3, 450+ contributors
+
+### When was Hermes Agent v0.19.0 released?
+
+July 20, 2026
+
 ---
 
-*← [v0.18.2 - WhatsApp Baileys Fix](/hermes/changelog/v0.18.2) | [Changelog Home](/hermes/changelog) →*
+*← [v0.18.2 - WhatsApp Baileys Fix](/hermes/changelog/v0.18.2) | [v0.19.1 - Patch Release](/hermes/changelog/v0.19.1) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

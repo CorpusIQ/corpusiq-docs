@@ -312,7 +312,7 @@ April 3, 2026
 
 ---
 
-*← [v0.6.0 - Patch Release](/hermes/changelog/v0.6.0) | [Changelog Home](/hermes/changelog) →*
+*← [v0.6.0 - Patch Release](/hermes/changelog/v0.6.0) | [v0.8.0 - Patch Release](/hermes/changelog/v0.8.0) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

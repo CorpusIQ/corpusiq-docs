@@ -40,6 +40,17 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.9.21...v2026.9.24](https://github.com/NousResearch/hermes-agent/compare/v2026.9.21...v2026.9.24)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.5?
+
+460 PRs: Desktop plugin SDK wave, Simple/Advanced interface mode, Connectors page replacing the MCP tab, French/German/Spanish catalogs, per-profile lifecycle controls
+
+### When was Hermes Agent v0.21.5 released?
+
+September 24, 2026
+
 ---
 
 *← [v0.21.4 - Patch Release](/hermes/changelog/v0.21.4) | [v0.21.6 - Patch Release](/hermes/changelog/v0.21.6) →*

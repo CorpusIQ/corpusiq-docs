@@ -42,6 +42,17 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.8.31...v2026.9.7](https://github.com/NousResearch/hermes-agent/compare/v2026.8.31...v2026.9.7)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.1?
+
+632 PRs: codebase modularization, startup performance, provider and model updates, MCP authorization, cron delivery fixes
+
+### When was Hermes Agent v0.21.1 released?
+
+September 7, 2026
+
 ---
 
 *← [v0.21.0 - The Pantheon Release](/hermes/changelog/v0.21.0) | [v0.21.2 - The state.db Patch Release](/hermes/changelog/v0.21.2) →*

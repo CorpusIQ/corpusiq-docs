@@ -43,6 +43,17 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.9.14...v2026.9.21](https://github.com/NousResearch/hermes-agent/compare/v2026.9.14...v2026.9.21)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.4?
+
+1,812 PRs: host-wide gateway singleton lock, `--format stream-json` CLI, `skills.auto_load`, session_search bounds, LTX 2.5 + Kling O3 video catalogs, plugin and author pages
+
+### When was Hermes Agent v0.21.4 released?
+
+September 21, 2026
+
 ---
 
 *← [v0.21.3 - Patch Release](/hermes/changelog/v0.21.3) | [v0.21.5 - Patch Release](/hermes/changelog/v0.21.5) →*

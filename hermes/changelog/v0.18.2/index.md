@@ -31,9 +31,20 @@ pip install -U hermes-agent
 
 **Full Changelog**: [v2026.7.7...v2026.7.7.2](https://github.com/NousResearch/hermes-agent/compare/v2026.7.7...v2026.7.7.2)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.18.2?
+
+Unpins WhatsApp Baileys bridge from git commit to published npm 7.0.0-rc13, fixing Docker builds
+
+### When was Hermes Agent v0.18.2 released?
+
+July 7, 2026
+
 ---
 
-*← [v0.18.1 - Infrastructure Patch](/hermes/changelog/v0.18.1) | [Changelog Home](/hermes/changelog) →*
+*← [v0.18.1 - Infrastructure Patch](/hermes/changelog/v0.18.1) | [v0.19.0 - The Quicksilver Release](/hermes/changelog/v0.19.0) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

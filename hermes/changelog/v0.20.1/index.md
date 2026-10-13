@@ -42,9 +42,20 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.8.3...v2026.8.13](https://github.com/NousResearch/hermes-agent/compare/v2026.8.3...v2026.8.13)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.20.1?
+
+1,444 commits, ~656 PRs: stabilization across desktop app, gateway platforms, installers, tool system, provider catalogs
+
+### When was Hermes Agent v0.20.1 released?
+
+August 13, 2026
+
 ---
 
-*← [v0.20.0 - The Herald Release](/hermes/changelog/v0.20.0) | [Changelog Home](/hermes/changelog) →*
+*← [v0.20.0 - The Herald Release](/hermes/changelog/v0.20.0) | [v0.20.2 - Patch Release](/hermes/changelog/v0.20.2) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

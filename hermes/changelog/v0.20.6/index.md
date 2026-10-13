@@ -42,7 +42,7 @@ August 27, 2026
 
 ---
 
-*← [v0.20.5 - Patch Release](/hermes/changelog/v0.20.5) | [Changelog Home](/hermes/changelog) →*
+*← [v0.20.5 - Patch Release](/hermes/changelog/v0.20.5) | [v0.21.0 - The Pantheon Release](/hermes/changelog/v0.21.0) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

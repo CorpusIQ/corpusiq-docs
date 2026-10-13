@@ -37,6 +37,17 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 **Full Changelog**: [v2026.9.11...v2026.9.14](https://github.com/NousResearch/hermes-agent/compare/v2026.9.11...v2026.9.14)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.3?
+
+Remote dashboard refresh-token coalescing and state.db writer-handle dedup for remote Desktop and Cloud users
+
+### When was Hermes Agent v0.21.3 released?
+
+September 14, 2026
+
 ---
 
 *← [v0.21.2 - The state.db Patch Release](/hermes/changelog/v0.21.2) | [v0.21.4 - Patch Release](/hermes/changelog/v0.21.4) →*

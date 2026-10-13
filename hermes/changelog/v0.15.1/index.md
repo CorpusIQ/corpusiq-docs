@@ -132,7 +132,7 @@ May 29, 2026
 
 ---
 
-*← [v0.15.0 - Patch Release](/hermes/changelog/v0.15.0) | [Changelog Home](/hermes/changelog) →*
+*← [v0.15.0 - Patch Release](/hermes/changelog/v0.15.0) | [v0.15.2 - Patch Release](/hermes/changelog/v0.15.2) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

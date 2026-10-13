@@ -228,9 +228,20 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 | Contributors | 381 |
 | P0/P1 Open at Release | **0** |
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.18.0?
+
+P0/P1 clean sweep (100% resolved), Mixture-of-Agents as first-class model, verification & completion contracts, `/learn` skill distillation, `/journey` learning timeline, desktop coding Projects, background fan-out, scale-to-zero gateway, Google Vertex AI, security hardening
+
+### When was Hermes Agent v0.18.0 released?
+
+July 1, 2026
+
 ---
 
-*← [v0.17.0 - The Reach Release](/hermes/changelog/v0.17.0) | [Changelog Home](/hermes/changelog) →*
+*← [v0.17.0 - The Reach Release](/hermes/changelog/v0.17.0) | [v0.18.1 - Infrastructure Patch](/hermes/changelog/v0.18.1) →*
 
 ---
 

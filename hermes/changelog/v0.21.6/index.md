@@ -57,6 +57,17 @@ Thanks to Daniel Steele (@keeltrace) for reporting this and writing the fix (#12
 
 **Full Changelog**: [v2026.9.24...v0.21.6](https://github.com/NousResearch/hermes-agent/compare/v2026.9.24...v0.21.6)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.6?
+
+2,106 PRs: first release from the new stable pipeline (tested Docker image, receipt tag), plus dashboard auth, git filter, and email gateway sender hardening
+
+### When was Hermes Agent v0.21.6 released?
+
+October 8, 2026
+
 ---
 
 *← [v0.21.5 - Patch Release](/hermes/changelog/v0.21.5) | [v0.21.7 - Patch Release](/hermes/changelog/v0.21.7) →*

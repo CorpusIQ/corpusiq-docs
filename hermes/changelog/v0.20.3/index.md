@@ -42,7 +42,7 @@ August 17, 2026
 
 ---
 
-*← [v0.20.2 - Patch Release](/hermes/changelog/v0.20.2) | [Changelog Home](/hermes/changelog) →*
+*← [v0.20.2 - Patch Release](/hermes/changelog/v0.20.2) | [v0.20.4 - Patch Release](/hermes/changelog/v0.20.4) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

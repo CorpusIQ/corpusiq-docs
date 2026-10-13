@@ -185,6 +185,24 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 
 **245 community contributors**  --  the largest contributor cohort in Hermes Agent history.
 
+
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.17.0?
+
+iMessage via Photon, Raft agent network, background subagents, image editing, Automation Blueprints, desktop overhaul, Skills Hub rehaul, WhatsApp, Telegram rich text
+
+### When was Hermes Agent v0.17.0 released?
+
+June 19, 2026
+
+---
+
+*← [v0.16.0 - Patch Release](/hermes/changelog/v0.16.0) | [v0.18.0 - The Judgment Release](/hermes/changelog/v0.18.0) →*
+
+*↑ [Changelog Home](/hermes/changelog)*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

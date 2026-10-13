@@ -38,6 +38,17 @@ Also in the window, undocumented here on purpose: plugins running built-in Deskt
 
 **Full Changelog**: [v0.21.6...v0.21.7](https://github.com/NousResearch/hermes-agent/compare/v0.21.6...v0.21.7)
 
+
+## Frequently Asked Questions
+
+### What changed in Hermes Agent v0.21.7?
+
+Patch release. This tag rolls up the ~204 PRs merged since v0.21.6 into a stable release for the desktop app (macOS Apple silicon, Windows), the Microsoft Store and MSIX, the installer, Docker and Hermes...
+
+### When was Hermes Agent v0.21.7 released?
+
+October 12, 2026
+
 ---
 
 *← [v0.21.6 - Patch Release](/hermes/changelog/v0.21.6) | [Changelog Home](/hermes/changelog) →*

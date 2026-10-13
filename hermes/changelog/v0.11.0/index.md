@@ -475,7 +475,7 @@ April 23, 2026
 
 ---
 
-*← [v0.10.0 - Patch Release](/hermes/changelog/v0.10.0) | [Changelog Home](/hermes/changelog) →*
+*← [v0.10.0 - Patch Release](/hermes/changelog/v0.10.0) | [v0.12.0 - Patch Release](/hermes/changelog/v0.12.0) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 
