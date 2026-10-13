@@ -346,7 +346,7 @@ nav:
   - MCP Servers:
     - Overview: hermes/mcp/servers/index.md
     - External Catalog: hermes/mcp/servers/external/index.md
-  - More:
+  - MCP Guides & Resources:
     - MCP Guide: hermes/mcp/index.md
     - MCP '26 Stateless Migration: hermes/mcp/spec/mcp-26-stateless-migration.md
     - MCP Directory Submission Guide: hermes/mcp/directories/submission-guide-2026.md
