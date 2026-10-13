@@ -88,6 +88,11 @@ result with source citations and a reconciliation strip. See the
 [response contract](/hermes/mcp/runbook-response-contract) pages for the
 governance layer behind these answers.
 
+For the product view of the same mechanism, see
+[how CorpusIQ builds a verified answer](https://www.corpusiq.io/mcp?utm_source=docs&utm_medium=organic&utm_campaign=docs-content),
+and the [connector hub](https://www.corpusiq.io/connectors?utm_source=docs&utm_medium=organic&utm_campaign=docs-content)
+for the tools this pipeline reads from.
+
 ## Resources
 
 - [MCP Apps announcement](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/)
