@@ -17387,5 +17387,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-12T10:05:07.497686+00:00"
+  },
+  {
+    "repo": "fyuan833-dev/hermes-agent-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964776+00:00"
+  },
+  {
+    "repo": "fliaping/cranibox",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964790+00:00"
+  },
+  {
+    "repo": "nothing12837-lang/hermes-dropship-ceo",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964793+00:00"
+  },
+  {
+    "repo": "chottokun/hermes-agents-quickstart",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964795+00:00"
+  },
+  {
+    "repo": "tarkilhk/Wing",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964797+00:00"
+  },
+  {
+    "repo": "conrader/torvli",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964799+00:00"
+  },
+  {
+    "repo": "moshehbenavraham/hermes-lab",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964800+00:00"
+  },
+  {
+    "repo": "xxj0228/hermes-doctor-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964802+00:00"
+  },
+  {
+    "repo": "esketids/hermes-dsh-bridge",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964804+00:00"
+  },
+  {
+    "repo": "haykguy/hermes-content-archive",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964806+00:00"
+  },
+  {
+    "repo": "daveey/hermes-mods",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964807+00:00"
+  },
+  {
+    "repo": "channel3-ai/channel3-hermes-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964809+00:00"
+  },
+  {
+    "repo": "Abdillah/nix-hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964811+00:00"
+  },
+  {
+    "repo": "GirionMagKenni/hermes-voice-issue-137318",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-13T10:06:55.964813+00:00"
   }
 ]
