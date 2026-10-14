@@ -143,6 +143,7 @@ CorpusIQ uses the standard Model Context Protocol. Any agent that supports MCP c
 2. Use the `http` transport for direct connections
 3. Use `mcp-remote` for agents that require a local proxy
 4. Complete the OAuth 2.0 device flow when prompted
+5. For Grok, use a Custom connector at [grok.com/connectors](https://grok.com/connectors) with the MCP server URL
 
 **Verify your connection** by asking your agent: "What data sources are connected to CorpusIQ?"
 
@@ -161,7 +162,7 @@ Your agent should list all 36 available business data sources.
 ## Frequently Asked Questions
 
 **Q: Which AI agents work with CorpusIQ?**  
-A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. Any MCP-compatible agent can connect using the standard endpoint.
+A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. ChatGPT, Claude, Perplexity, Google Gemini, and Grok connect as MCP clients, and any other MCP-compatible agent can connect using the standard endpoint. See [Grok integration](/docs/grok-integration) for the Grok steps.
 
 **Q: How do I configure my agent to connect to CorpusIQ?**  
 A: Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.

@@ -75,6 +75,7 @@ nav:
   - ChatGPT: chatgpt-integration.md
   - Perplexity: perplexity-integration.md
   - Google Gemini: gemini-integration.md
+  - Grok: grok-integration.md
   - AI Agent Users: ai-agent-users.md
   - AI Chat Users: ai-chat-users.md
   - Supported Agents: supported-agents.md
