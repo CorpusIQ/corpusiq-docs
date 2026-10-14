@@ -17485,5 +17485,124 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-13T10:06:55.964813+00:00"
+  },
+  {
+    "repo": "HELBOYCODER/hermes-mobile",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528916+00:00"
+  },
+  {
+    "repo": "Mat-rixMJ/Multi-Agent-Marketing-Automation-System",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528929+00:00"
+  },
+  {
+    "repo": "maxpfingsthorn/talaria",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528931+00:00"
+  },
+  {
+    "repo": "nideta231/hermes-mobile-remote",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528934+00:00"
+  },
+  {
+    "repo": "Giton22/herald",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528935+00:00"
+  },
+  {
+    "repo": "coding-hermes/hermes-rs",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528937+00:00"
+  },
+  {
+    "repo": "ElRoscaoJr/hermes-mail-gateway",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528938+00:00"
+  },
+  {
+    "repo": "kerviaHerve/kervia-vault",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528940+00:00"
+  },
+  {
+    "repo": "Veloresearch/velocity-local-services",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528942+00:00"
+  },
+  {
+    "repo": "fishlikeX/Hermes-Dont-fxxking-change-my-skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528944+00:00"
+  },
+  {
+    "repo": "lymeswold/aide-memoire-dashboard-plugin",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528945+00:00"
+  },
+  {
+    "repo": "bilchik/hermes-plugin-marketplace",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528947+00:00"
+  },
+  {
+    "repo": "letsgo999/hermes-session-hub-public",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528949+00:00"
+  },
+  {
+    "repo": "day50-dev/ctools",
+    "score": 36,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528950+00:00"
+  },
+  {
+    "repo": "zajca/pohunek",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528952+00:00"
+  },
+  {
+    "repo": "tobenwarrior/tobenwarrior",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528954+00:00"
+  },
+  {
+    "repo": "zachristmas/hermes-kanban-markdown",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-14T10:05:43.528955+00:00"
   }
 ]
