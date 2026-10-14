@@ -11,7 +11,13 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** October 14, 2026 (night sweep) · **Sources:** mcp.so /feed (30 server links) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5272-#5291 + twelve-sitemap canonical refresh (r117: 15,477 URLs, zero additions) · **Catalog:** 924 servers (+810 guides)
+> **Last updated:** October 14, 2026 (midday sweep) · **Sources:** mcp.so /feed (30 server links) + mcpservers.org /all page 1 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5292-#5392 + sibling canonical check (r117 baseline, 15,477 URLs) · **Catalog:** 925 servers (+811 guides)
+
+## 🆕 October 14, 2026 - Midday Sweep (1 New, 1 Guide)
+
+Midday sweep about 7 hours after the October 14 night sweep: the mcp.so `/feed` (30 server links via the direct TanStack fetch; three cards new to this window - Master Setter, Articos and hedwigai), mcpservers.org `/all` page 1 through the r.jina.ai reader proxy (30 slugs; the fresh delta against the night capture was articos-mcp and the kaiva-bridge re-listing), the fresh chatmcp/mcpso issue window #5292-#5392 (100 numbers: an 84-issue five-country expansion by the donniertf fleet covering US, UK, Canada, Japan and Australia national open-data servers, the mambabuilt job-change trio, and 13 singles), and a sibling canonical check against the r117 baseline (no fresh twelve-sitemap refresh at midday), with vendor docs, evidence checks and class-precedent passes for every candidate. One new business-relevant entry, catalogued with a guide: a local MCP gateway for Siemens TIA Portal engineering.
+
+- [TiaLink MCP - Siemens TIA Portal Engineering](/hermes/mcp/servers/external/tialink-mcp/) · local Streamable HTTP gateway at `http://<gateway-host>:8080/mcp` (Bearer token; runs on the same Windows machine as TIA Portal and connects over the LAN): an agent operates real TIA Portal projects through Siemens Openness - configure hardware and networks (devices, modules, IPs, subnets, IO systems), create FB / FC / DB / UDT blocks, write SCL and import SimaticML, compile and archive, download to S7-PLCSIM Advanced and run test scenarios, then read the project model, block interfaces and hardware tree back. Project data never leaves the local network. Part of the TIA Forge suite by Hubwiz (docs CC BY 4.0, gateway commercial). Evidence: mcpservers.org listing + product page `tia.hubwiz.com/tia-link` 200 + public repo `tia-forge/tialink` (no public endpoint to probe - the gateway is local by design).
 
 ## 🆕 October 14, 2026 - Night Sweep (1 New, 1 Guide)
 
