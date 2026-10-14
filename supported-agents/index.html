@@ -1364,6 +1364,8 @@
       
         
       
+        
+      
     
     
     
@@ -1480,6 +1482,34 @@
     
   
     Google Gemini
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/grok-integration" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grok
   
 
     
@@ -10935,6 +10965,7 @@
 <li>Use the <code>http</code> transport for direct connections</li>
 <li>Use <code>mcp-remote</code> for agents that require a local proxy</li>
 <li>Complete the OAuth 2.0 device flow when prompted</li>
+<li>For Grok, use a Custom connector at <a href="https://grok.com/connectors">grok.com/connectors</a> with the MCP server URL</li>
 </ol>
 <p><strong>Verify your connection</strong> by asking your agent: "What data sources are connected to CorpusIQ?"</p>
 <p>Your agent should list all 36 available business data sources.</p>
@@ -10971,7 +11002,7 @@
 </table>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Which AI agents work with CorpusIQ?</strong><br />
-A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. Any MCP-compatible agent can connect using the standard endpoint.</p>
+A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. ChatGPT, Claude, Perplexity, Google Gemini, and Grok connect as MCP clients, and any other MCP-compatible agent can connect using the standard endpoint. See <a href="/docs/grok-integration">Grok integration</a> for the Grok steps.</p>
 <p><strong>Q: How do I configure my agent to connect to CorpusIQ?</strong><br />
 A: Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.</p>
 <p><strong>Q: How do I verify my agent is connected?</strong><br />
