@@ -1,18 +1,18 @@
 ---
 title: Hermes Ecosystem  --  Complete Resource Directory
-description: The definitive directory of Hermes Agent resources  --  192+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources  --  194+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-12"
+last_updated: "2026-10-14"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 192+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 194+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** October 4, 2026 · **Repos indexed:** 192+ · **Categories:** 14
+> **Last updated:** October 14, 2026 · **Repos indexed:** 194+ · **Categories:** 14
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -173,7 +173,7 @@ Complete official documentation: quickstart, CLI, configuration, messaging gatew
 ### Hermes Official Release Notes
 [github.com/NousResearch/hermes-agent/releases](https://github.com/NousResearch/hermes-agent/releases)
 
-Official changelog with feature highlights, migration notes, and fixes for each version. v0.21.7 is current (October 2026).
+Official changelog with feature highlights, migration notes, and fixes for each version. v0.22.0 is current (October 2026).
 
 ---
 
@@ -392,7 +392,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 192+ repos indexed, 1,073+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 194+ repos indexed, 1,135+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
