@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Marketplace - 192+ Tools & Resources"
+title: "Hermes Agent Marketplace - 194+ Tools & Resources"
 description: "Complete directory of Hermes Agent tools, MCP servers, skills, SDKs, and community resources. The largest collection agents the internet. 232 specialized a."
 canonical: "https://www.corpusiq.io/docs/hermes/agent-marketplace/"
 robots: "index,follow"
