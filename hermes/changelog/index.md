@@ -16,6 +16,7 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.22.2](/hermes/changelog/v0.22.2) | October 15, 2026 | Patch Release | v0.22.1 was built from the wrong commit. It shipped unreleased gateway work, and the Microsoft Store app could stick on "Connecting." 0.22.2 is the release 0.22.1 was meant to be. |
 | [v0.22.1](/hermes/changelog/v0.22.1) | October 14, 2026 | Patch Release | This is a patch release, with a handful of fixes for the Windows Store, plugin updates, and more. |
 | [v0.22.0](/hermes/changelog/v0.22.0) | October 14, 2026 | Patch Release | > **The Threshold Release.** Hermes was the god of thresholds: the doorway, the crossing, the boundary stone. v0.21.0 assembled the pantheon; v0.22.0 is about getting through the door. A fresh desktop install... |
 | [v0.21.7](/hermes/changelog/v0.21.7) | October 12, 2026 | Patch Release | Patch release. This tag rolls up the ~204 PRs merged since v0.21.6 into a stable release for the desktop app (macOS Apple silicon, Windows), the Microsoft Store and MSIX, the installer, Docker and Hermes... |
@@ -74,7 +75,7 @@ When a new release is detected, a changelog page is generated, committed to `Cor
 
 ### What is the latest Hermes Agent version?
 
-v0.22.1, published October 14, 2026. See the release notes for the full changes.
+v0.22.2, published October 15, 2026. See the release notes for the full changes.
 
 ### How often is the Hermes changelog updated?
 
@@ -94,7 +95,7 @@ Run `hermes update` from the terminal, or install fresh with the official instal
       "name": "What is the latest Hermes Agent version?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "v0.22.1, published October 14, 2026. See the release notes for the full changes."
+        "text": "v0.22.2, published October 15, 2026. See the release notes for the full changes."
       }
     },
     {
