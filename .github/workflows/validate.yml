@@ -40,8 +40,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install PyYAML
-        run: python -m pip install --upgrade pyyaml
+      - name: Set up Node for search runtime regression tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install validation dependencies
+        run: python -m pip install --upgrade pyyaml jinja2
+
+      - name: Validate docs search URL resolution
+        run: python -m unittest scripts/test_search_navigation.py
 
       - name: Validate frontmatter
         run: python scripts/validate_frontmatter.py
