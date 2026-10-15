@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, 2.99 USDC per check on Base.">
+        <meta name="description" content="Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, at USD 2.99 by card or 2.99 USDC on Base.">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/seekapi-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="SeekAPI MCP - China Supplier Screening for Agents">
-  <meta property="og:description" content="Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, 2.99 USDC per check on Base.">
+  <meta property="og:description" content="Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, at USD 2.99 by card or 2.99 USDC on Base.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="SeekAPI MCP - China Supplier Screening for Agents">
-  <meta name="twitter:description" content="Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, 2.99 USDC per check on Base.">
+  <meta name="twitter:description" content="Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, at USD 2.99 by card or 2.99 USDC on Base.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,7 +104,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "SeekAPI MCP - China Supplier Screening for Agents",
-    "description": "Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, 2.99 USDC per check on Base.",
+    "description": "Run a China Supply Check from any MCP client: three evidence-backed supplier candidates for RFQ, at USD 2.99 by card or 2.99 USDC on Base.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/seekapi-mcp",
     
     "author": {
@@ -10676,13 +10676,13 @@
 
 
 <h1 id="seekapi-mcp">SeekAPI MCP<a class="headerlink" href="#seekapi-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Public remote MCP server (Streamable HTTP, keyless discovery)</strong> - SeekAPI runs a China Supply Check for agents: give it a product or model, a quantity and must-have specifications, and a successful check returns three distinct, evidence-backed China supplier candidates worth advancing to RFQ. Discovery and brief preparation are free; the paid check is 2.99 USDC on Base via live x402.</p>
+<p><strong>Public remote MCP server (Streamable HTTP, keyless discovery)</strong> - SeekAPI runs a China Supply Check for agents: give it a product or model, a quantity and must-have specifications, and a successful check returns three distinct, evidence-backed China supplier candidates worth advancing to RFQ. Discovery and brief preparation are free. The paid check is USD 2.99 by card at hosted Stripe Checkout on the image-first flow, or 2.99 USDC on Base through live x402 on the text/model flow.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: keyless for discovery and preparation; signed-wallet x402 for purchase and result reads
+Auth: keyless for discovery and preparation; card checkout or signed-wallet x402 for payment; signed-wallet authentication for result reads
 Endpoint: https://api.seekapi.ai/mcp
 Server: seekapi-factory v0.1.2 (initialize + tools/list captured live, unauthenticated)
 Tools: 6 (discover, prepare, purchase, run, status, result - each ..._china_supply_check_v0)
-Price: 2.99 USDC on Base (x402 live); Stripe Checkout USD 2.99 being enabled
+Price: USD 2.99 by card at hosted Stripe Checkout (image-first flow, live); 2.99 USDC on Base via x402 (text/model flow, live)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Sourcing from China is where spec sheets meet uncertainty: which three suppliers are even worth an RFQ, what do listings actually quote once MOQ and tier conditions are read, and how much of a candidate's identity is verified versus assumed. Cross-border sourcing agents usually answer with confident guesses. SeekAPI answers with a structured brief: observed listing prices as dated commercial evidence with currency, unit, tier and MOQ conditions; certification, company and production-versus-trade identity evidence per candidate when available; and explicit unknowns kept attached to their fields.</p>
@@ -10706,11 +10706,11 @@ Price: 2.99 USDC on Base (x402 live); Stripe Checkout USD 2.99 being enabled
 </tr>
 <tr>
 <td><code>purchase_china_supply_check_v0</code></td>
-<td>Buy the exact confirmed brief for 2.99 USDC on Base via official x402. Requires a signed wallet invocation; no supplier execution in the purchase</td>
+<td>Buy the exact confirmed brief for 2.99 USDC on Base via official x402, the text/model payment path. Requires a signed wallet invocation; no supplier execution in the purchase</td>
 </tr>
 <tr>
 <td><code>run_china_supply_check_v0</code></td>
-<td>Execute the settled check (x402 payment path)</td>
+<td>Execute the settled check once payment and entitlement are confirmed</td>
 </tr>
 <tr>
 <td><code>status_china_supply_check_v0</code></td>
@@ -10739,14 +10739,14 @@ Price: 2.99 USDC on Base (x402 live); Stripe Checkout USD 2.99 being enabled
 <li><strong>Screening before outreach</strong>: three candidates worth an RFQ, not a list of fifty maybes - with the reasoning and gaps attached.</li>
 <li><strong>Evidence over vibes</strong>: dated price basis, MOQ fit and identity evidence ships with every candidate; unsupported shortages are reported honestly.</li>
 <li><strong>Staged spend</strong>: free discovery and preparation, one fixed-price check, and a confirmation step between preparation and purchase.</li>
-<li><strong>Agent-native payment</strong>: the x402 flow settles in USDC on Base from a signed wallet, with results gated behind the same wallet authentication.</li>
+<li><strong>Agent-native payment</strong>: the text/model flow settles 2.99 USDC on Base from a signed wallet through x402, and the image-first flow takes USD 2.99 by card at hosted Stripe Checkout; result reads are gated behind signed-wallet authentication either way.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>Procurement and finance answers usually sit apart: what the business spent is inside the ERP, what a new component could cost is outside. An operator can source through SeekAPI's checks and ask CorpusIQ about spend and margins in the same conversation, keeping the supplier evidence one click from the P&amp;L context, with CorpusIQ remaining read-only on the business systems.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>The check screens suppliers; exact product qualification is separate, and supplier outreach, sample follow-up, physical inspection and China-side coordination require separately agreed scope - the human-task API, MCP and WebMCP execution paths are not live.</li>
-<li>x402 is the live payment path (2.99 USDC on Base); Stripe Checkout USD 2.99 is being enabled and is not open for purchase.</li>
+<li>The check screens suppliers; exact product qualification is separate, and supplier outreach, sample follow-up, physical inspection and China-side coordination require separately agreed scope - those human-operated paths are not enabled, while the check itself runs on the live MCP path.</li>
+<li>Per the vendor's live payment contract, the two payment routes are scoped by flow: the image-first flow is paid by card, USD 2.99 at hosted Stripe Checkout, and its x402 leg is off; the text/model flow pays 2.99 USDC on Base via x402, and its card leg is off. Call <code>discover_china_supply_check_v0</code> before buying to read the current state.</li>
 <li>Result and status reads require signed-wallet authentication bound to the settled order; a payment proof or arbitrary order ID alone does not grant report access.</li>
 <li>The server prefers honest gaps over approximations: some candidates arrive with explicit unknowns rather than guessed answers.</li>
 <li>Hosted by SeekAPI and governed by its terms; initialize and tools/list return 200 unauthenticated by design.</li>
@@ -10757,7 +10757,7 @@ Price: 2.99 USDC on Base (x402 live); Stripe Checkout USD 2.99 being enabled
 <h3 id="what-can-an-agent-do-for-free">What can an agent do for free?<a class="headerlink" href="#what-can-an-agent-do-for-free" title="Anchor link to this section">&para;</a></h3>
 <p>Initialize the public MCP endpoint, list tools, call <code>discover_china_supply_check_v0</code> and prepare a normalized Product Brief with <code>prepare_china_supply_check_v0</code>. Preparation does not buy a check or contact a supplier.</p>
 <h3 id="how-much-does-a-check-cost-and-how-is-it-paid">How much does a check cost and how is it paid?<a class="headerlink" href="#how-much-does-a-check-cost-and-how-is-it-paid" title="Anchor link to this section">&para;</a></h3>
-<p>The existing x402 path is live at 2.99 USDC on Base. Stripe Checkout USD 2.99 is being enabled and is not available to buy. Payment scope is confirmed before the purchase and run flow.</p>
+<p>Both routes are live but scoped by flow. The image-first flow is paid by card, USD 2.99 at hosted Stripe Checkout, with its x402 leg off. The text/model flow pays 2.99 USDC on Base via x402, with its card leg off. Call <code>discover_china_supply_check_v0</code> before a purchase to read the state the vendor publishes at that moment, and note that payment scope is confirmed before the purchase and run flow.</p>
 <h3 id="does-the-check-contact-suppliers">Does the check contact suppliers?<a class="headerlink" href="#does-the-check-contact-suppliers" title="Anchor link to this section">&para;</a></h3>
 <p>No. Supplier contact, RFQ execution and human China Desk work are separately scoped services; this server's purchase does not activate them.</p>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
