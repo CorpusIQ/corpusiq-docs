@@ -58,6 +58,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
 | [@CorpusIQ](https://github.com/CorpusIQ) | 262 | 124 | Maintainer |
+| [@louis030195](https://github.com/louis030195) | 1 | 1 | Contributor |
 
 ## Inclusion Criteria
 

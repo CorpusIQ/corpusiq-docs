@@ -19,9 +19,8 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory - th
 ## Contributors
 | Contributor | Submissions | Approved | First Contribution | Last Active |
 |-------------|-------------|----------|--------------------|-------------|
-| - | - | - | - | - |
+| [@louis030195](https://github.com/louis030195) | 1 | 1 | 2026-10-15 | 2026-10-15 |
 
-*No community contributors yet. [Be the first →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review)*
 
 ## How to Contribute
 
