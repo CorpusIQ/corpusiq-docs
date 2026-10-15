@@ -3,7 +3,7 @@ title: "MCP for Legal: AI Access to Contract and Matter Data"
 description: "How legal teams use MCP servers to connect contract, matter, and outside counsel data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for legal", "legal AI analytics", "AI for legal teams", "connect contract data to ChatGPT", "contract renewal tracking", "outside counsel spend"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-legal
 robots: index,follow
 ---
@@ -107,12 +107,12 @@ The renewal calendar. "What auto-renews in the next 90 days, and what is the not
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [MCP for Finance: spend, invoices, and reporting](/docs/mcp-for-finance)
-- [MCP for Procurement: vendor and contract data](/docs/mcp-for-procurement)
-- [AI for document search](/docs/ai-for-document-search)
-- [MCP for Executives: the numbers without the waiting](/docs/mcp-for-executives)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [MCP for Finance: spend, invoices, and reporting](mcp-for-finance.md)
+- [MCP for Procurement: vendor and contract data](mcp-for-procurement.md)
+- [AI for document search](ai-for-document-search.md)
+- [MCP for Executives: the numbers without the waiting](mcp-for-executives.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

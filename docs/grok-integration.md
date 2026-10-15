@@ -106,8 +106,8 @@ to take actions on your behalf, and CorpusIQ does not grant them.
 
 ## Related
 
-- [ChatGPT Integration](/docs/chatgpt-integration)
-- [Perplexity Integration](/docs/perplexity-integration)
-- [Google Gemini Integration](/docs/gemini-integration)
-- [Supported AI Agents](/docs/supported-agents)
-- [MCP Architecture](/docs/how-it-works/mcp-architecture)
+- [ChatGPT Integration](chatgpt-integration.md)
+- [Perplexity Integration](perplexity-integration.md)
+- [Google Gemini Integration](gemini-integration.md)
+- [Supported AI Agents](supported-agents.md)
+- [MCP Architecture](how-it-works/mcp-architecture.md)

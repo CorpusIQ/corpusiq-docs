@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["mcp-platforms", "model-context-protocol", "mcp-comparison", "ai-protocol"]
 canonical: "https://www.corpusiq.io/docs/top-mcp-platforms/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -178,7 +178,7 @@ A: CorpusIQ: from $50/seat/month. Composio: usage-based. Community servers: free
 
 ## Internal Links
 
-- [Best MCP Server for Business  --  Detailed Rankings](/docs/best-mcp-server-for-business)
+- [Best MCP Server for Business  --  Detailed Rankings](best-mcp-server-for-business.md)
 - [Best AI Data Connector  --  Rankings](/connectors)
 - [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/compare)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)

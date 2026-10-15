@@ -3,7 +3,7 @@ title: "MCP for Finance: AI-Powered Data Access"
 description: "How finance teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for finance", "finance AI analytics", "AI for finance teams", "connect business data to ChatGPT", "no-code AI business intelligence", "finance data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-finance
 robots: index,follow
 ---
@@ -141,12 +141,12 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [MCP for Accountants: QuickBooks and Tax](/docs/mcp-for-accountants)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
-- [MCP for Ecommerce: Order and Revenue Analytics](/docs/mcp-for-ecommerce)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [MCP for Accountants: QuickBooks and Tax](mcp-for-accountants.md)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
+- [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
+- [MCP for Ecommerce: Order and Revenue Analytics](mcp-for-ecommerce.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

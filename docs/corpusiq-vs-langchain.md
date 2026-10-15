@@ -5,7 +5,7 @@ category: "Comparison"
 tags: ["corpusiq vs langchain", "langchain alternative", "mcp data connector", "ai business intelligence"]
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-langchain/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 

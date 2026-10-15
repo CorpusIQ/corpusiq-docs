@@ -22,7 +22,7 @@ keywords:
 - CorpusIQ fivetran pricing comparison
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-fivetran/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -168,7 +168,7 @@ Ready to put AI to work on your corpusiq vs fivetran  --  mcp live query vs etl 
 - [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
 - [Best AI Data Connector for Business](/connectors)
 - [Enterprise AI Data Access  --  Architecture Guide](https://www.corpusiq.io/enterprise)
-- [Top MCP Platforms Compared](/docs/top-mcp-platforms)
+- [Top MCP Platforms Compared](top-mcp-platforms.md)
 - [Secure AI Data Connectivity](/security)
 
 ---

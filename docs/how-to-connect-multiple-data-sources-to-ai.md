@@ -9,7 +9,7 @@ category: "How-To Guide"
 tags: ["multi-source-ai", "data-integration", "mcp-platform", "cross-source-analysis"]
 canonical: "https://www.corpusiq.io/docs/how-to-connect-multiple-data-sources-to-ai/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -188,7 +188,7 @@ A: Save the question text in a document or note. The AI will run it fresh each t
 - [CorpusIQ vs Fivetran  --  Live Query vs ETL](/compare)
 - [Best AI Data Connector  --  Rankings](/connectors)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
-- [Top MCP Platforms  --  Comparison](/docs/top-mcp-platforms)
+- [Top MCP Platforms  --  Comparison](top-mcp-platforms.md)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

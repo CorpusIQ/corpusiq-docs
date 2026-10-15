@@ -3,7 +3,7 @@ title: "Secure AI Data Connectivity -- Zero-Trust Business AI"
 description: Connect AI assistants to authorized business data with scoped OAuth, encrypted transport, explicit retention classes, and source-aware results. CASA Tier 2 certified.
 category: Security
 tags: [secure AI connectivity, zero-trust AI, business AI security, read-only external-source retrieval, MCP security, encrypted AI access, AI data governance]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/secure-ai-data-connectivity
 robots: index,follow
 ---
@@ -105,11 +105,11 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 ## Internal Links
 
 - [Enterprise AI Data Access](https://www.corpusiq.io/enterprise)  --  Security at enterprise scale
-- [MCP Security Best Practices](/docs/mcp-security-best-practices)  --  Deep dive on MCP security architecture
+- [MCP Security Best Practices](mcp-security-best-practices.md)  --  Deep dive on MCP security architecture
 - [What is an MCP Server](https://www.corpusiq.io/answers/what-is-an-mcp-server)  --  Understanding the protocol
-- [Benefits of MCP for Business](/docs/benefits-of-mcp-for-business)  --  Why MCP is the secure choice
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)  --  Platform comparison
-- [MCP for Enterprise](/docs/mcp-for-enterprise)  --  Enterprise deployment patterns
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md)  --  Why MCP is the secure choice
+- [Best MCP Server for Business](best-mcp-server-for-business.md)  --  Platform comparison
+- [MCP for Enterprise](mcp-for-enterprise.md)  --  Enterprise deployment patterns
 - [CorpusIQ vs Custom RAG](/compare)  --  Why building in-house is riskier
 - [Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)  --  Getting started
 

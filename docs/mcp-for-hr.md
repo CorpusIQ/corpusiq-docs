@@ -3,7 +3,7 @@ title: "MCP for HR: AI Access to People and Hiring Data"
 description: "How HR teams use MCP servers to connect headcount, recruiting, onboarding, and engagement data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for HR", "HR AI analytics", "AI for HR teams", "connect HR data to ChatGPT", "people analytics", "recruiting data insights"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-hr
 robots: index,follow
 ---
@@ -122,12 +122,12 @@ Start with the weekly report nobody wants to build by hand, usually headcount an
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [MCP for Finance: spend, invoices, and reporting](/docs/mcp-for-finance)
-- [MCP for Operations: workflow and KPI tracking](/docs/mcp-for-operations)
-- [MCP for Executives: the numbers without the waiting](/docs/mcp-for-executives)
-- [AI for KPI monitoring](/docs/ai-for-kpi-monitoring)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [MCP for Finance: spend, invoices, and reporting](mcp-for-finance.md)
+- [MCP for Operations: workflow and KPI tracking](mcp-for-operations.md)
+- [MCP for Executives: the numbers without the waiting](mcp-for-executives.md)
+- [AI for KPI monitoring](ai-for-kpi-monitoring.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

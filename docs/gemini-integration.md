@@ -3,7 +3,7 @@ title: "Google Gemini Integration - CorpusIQ Docs"
 description: "Connect CorpusIQ to Google Gemini as an MCP server. Ask Gemini about revenue, customers, orders, and marketing using live data from 40+ connected business tools."
 canonical: "https://www.corpusiq.io/docs/gemini-integration"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-10-15"
 tags: ["google gemini", "gemini mcp", "gemini mcp server", "connect data to gemini", "mcp", "business data", "ai business intelligence"]
 ---
 

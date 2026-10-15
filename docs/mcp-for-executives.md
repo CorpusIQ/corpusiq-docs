@@ -3,7 +3,7 @@ title: "MCP for Executives: AI-Powered Data Access"
 description: "How executives teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for executives", "executives AI analytics", "AI for executives teams", "connect business data to ChatGPT", "no-code AI business intelligence", "executives data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-executives
 robots: index,follow
 ---
@@ -142,13 +142,13 @@ Yes. Generate data for investor updates, answer diligence questions during fundr
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
-- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
-- [Discover MCP for marketing campaign analytics](/docs/mcp-for-marketing)
-- [MCP for Operations: Workflow and KPIs](/docs/mcp-for-operations)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [Learn about MCP for financial reporting and compliance](mcp-for-finance.md)
+- [MCP for Sales: Pipeline and Forecasting](mcp-for-sales.md)
+- [Discover MCP for marketing campaign analytics](mcp-for-marketing.md)
+- [MCP for Operations: Workflow and KPIs](mcp-for-operations.md)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

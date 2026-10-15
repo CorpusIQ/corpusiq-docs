@@ -3,7 +3,7 @@ title: "MCP vs Data Warehouse: Live Query vs Batch ETL"
 description: "Compare MCP servers with traditional data warehouses: live source queries and scoped operational retention versus batch ETL and persistent analytical storage."
 category: MCP Education
 tags: ["MCP vs data warehouse", "live query vs ETL", "real-time vs batch analytics", "AI business intelligence platform", "scoped retention", "data warehouse alternative"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-vs-data-warehouse
 robots: index,follow
 ---
@@ -124,12 +124,12 @@ MCP queries return data in the source system's native format, and the AI model i
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
-- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
-- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
+- [Understand how MCP servers work with a technical deep dive](how-mcp-servers-work.md)
+- [Compare MCP vs Zapier for real-time business automation](mcp-vs-zapier.md)
+- [Compare MCP vs custom API integrations](mcp-vs-api-integrations.md)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
+- [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
 
 *Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
 

@@ -3,7 +3,7 @@ title: "MCP vs RPA: API Data Access vs Scripted UI Automation"
 description: "Compare MCP servers vs Robotic Process Automation (RPA). MCP offers intelligent read-only API-based data access while RPA relies on fragile UI automation"
 category: MCP Education
 tags: ["MCP vs RPA", "API vs UI automation", "AI data access layer", "RPA alternative for analytics", "intelligent data integration", "screen scraping vs API"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-vs-rpa
 robots: index,follow
 ---
@@ -102,12 +102,12 @@ MCP's API-first approach provides better security characteristics than RPA. MCP 
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
-- [See how MCP compares to traditional data warehouses](/docs/mcp-vs-data-warehouse)
-- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Explore MCP for business operations automation](/docs/mcp-for-operations)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
+- [Compare MCP vs Zapier for real-time business automation](mcp-vs-zapier.md)
+- [See how MCP compares to traditional data warehouses](mcp-vs-data-warehouse.md)
+- [Compare MCP vs custom API integrations](mcp-vs-api-integrations.md)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [Explore MCP for business operations automation](mcp-for-operations.md)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
 
 *Compare MCP vs RPA: Intelligent API Data Access vs Scripted UI Au... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
 

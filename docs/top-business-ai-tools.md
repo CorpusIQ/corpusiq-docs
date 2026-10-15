@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["business-ai-tools", "ai-tools-ranking", "enterprise-ai", "business-intelligence-tools"]
 canonical: "https://www.corpusiq.io/docs/top-business-ai-tools/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -190,12 +190,12 @@ A: Yes. CorpusIQ and ChatGPT have free/low-cost tiers that work for small teams 
 
 ## Internal Links
 
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
+- [Best MCP Server for Business](best-mcp-server-for-business.md)
 - [Best AI Data Connector](/connectors)
 - [Best AI Knowledge Platform](/compare)
 - [Best Business AI Search Tool](/compare)
 - [Best ChatGPT Integration Platform](/compare)
-- [Top MCP Platforms  --  Detailed Comparison](/docs/top-mcp-platforms)
+- [Top MCP Platforms  --  Detailed Comparison](top-mcp-platforms.md)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Secure AI Data Connectivity](/security)
 ---

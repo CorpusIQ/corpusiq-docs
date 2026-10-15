@@ -3,7 +3,7 @@ title: "MCP for Ecommerce: AI-Powered Data Access"
 description: "How ecommerce teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for ecommerce", "ecommerce AI analytics", "AI for ecommerce teams", "connect business data to ChatGPT", "no-code AI business intelligence", "ecommerce data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-ecommerce
 robots: index,follow
 ---
@@ -150,11 +150,11 @@ Those tools focus on marketing attribution. MCP provides broader access  --  mar
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [MCP for Marketing: Campaign Analytics and ROI](/docs/mcp-for-marketing)
-- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
-- [MCP for Operations: Workflow and KPIs](/docs/mcp-for-operations)
-- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [MCP for Marketing: Campaign Analytics and ROI](mcp-for-marketing.md)
+- [MCP for Sales: Pipeline and Forecasting](mcp-for-sales.md)
+- [MCP for Operations: Workflow and KPIs](mcp-for-operations.md)
+- [Learn about MCP for financial reporting and compliance](mcp-for-finance.md)
 - [MCP for Small Business: Quick Setup](https://www.corpusiq.io/mcp-server-small-business)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*

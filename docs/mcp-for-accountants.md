@@ -3,7 +3,7 @@ title: "MCP for Accountants: AI-Powered Data Access"
 description: "How accountants teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for accountants", "accountants AI analytics", "AI for accountants teams", "connect business data to ChatGPT", "no-code AI business intelligence", "accountants data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-accountants
 robots: index,follow
 ---
@@ -161,12 +161,12 @@ CorpusIQ supports QuickBooks today. Support for additional accounting platforms 
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
 - [Explore MCP for small business intelligence](https://www.corpusiq.io/mcp-server-small-business)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [MCP for Finance: Portfolio and Compliance](/docs/mcp-for-finance)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
-- [MCP for Agencies: Client Management](/docs/mcp-for-agencies)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
+- [MCP for Finance: Portfolio and Compliance](mcp-for-finance.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
+- [MCP for Agencies: Client Management](mcp-for-agencies.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

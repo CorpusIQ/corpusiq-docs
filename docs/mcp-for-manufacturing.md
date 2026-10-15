@@ -3,7 +3,7 @@ title: "MCP for Manufacturing: AI Access to Production Data"
 description: "How manufacturers use MCP servers to connect production, inventory, quality, and cost data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for manufacturing", "manufacturing AI analytics", "AI for production teams", "connect ERP data to ChatGPT", "production KPI reporting", "quality data insights"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-manufacturing
 robots: index,follow
 ---
@@ -110,12 +110,12 @@ Schedule risk for the current month: which orders will miss their promise and wh
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [MCP for Operations: workflow and KPI tracking](/docs/mcp-for-operations)
-- [MCP for Logistics: shipment, inventory, and freight cost](/docs/mcp-for-logistics)
-- [MCP for Procurement: vendor and contract data](/docs/mcp-for-procurement)
-- [MCP for Finance: spend, invoices, and reporting](/docs/mcp-for-finance)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [MCP for Operations: workflow and KPI tracking](mcp-for-operations.md)
+- [MCP for Logistics: shipment, inventory, and freight cost](mcp-for-logistics.md)
+- [MCP for Procurement: vendor and contract data](mcp-for-procurement.md)
+- [MCP for Finance: spend, invoices, and reporting](mcp-for-finance.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

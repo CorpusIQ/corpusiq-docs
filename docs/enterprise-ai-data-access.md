@@ -3,7 +3,7 @@ title: "Enterprise AI Data Access: Security, SSO & Audit"
 description: "How enterprises can securely give AI access to business data with SSO/SAML, read-only external-source retrieval, audit trails, live retrieval, and scoped retention."
 category: Enterprise Security
 tags: [Enterprise AI Data Access, SSO, SAML, SOC 2, CASA Tier 2, Data Residency, Audit Trails, Read-Only External-Source Retrieval, Scoped Data Retention]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/enterprise-ai-data-access
 robots: index,follow
 ---
@@ -191,13 +191,13 @@ A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector
 
 ## Internal Links
 
-- [MCP for Enterprise: Scale, Compliance, and Multi-Department Deployment](/docs/mcp-for-enterprise)
-- [MCP Security Best Practices: OAuth, Token Management, and Audit Trails](/docs/mcp-security-best-practices)
+- [MCP for Enterprise: Scale, Compliance, and Multi-Department Deployment](mcp-for-enterprise.md)
+- [MCP Security Best Practices: OAuth, Token Management, and Audit Trails](mcp-security-best-practices.md)
 - [Secure AI Data Connectivity: Encryption and Network Security](/security)
 - [CorpusIQ vs Data Warehouses: Live Query vs Stored Data](/compare)
 - [CorpusIQ vs Custom RAG: 2-Min Setup vs Months of Engineering](/compare)
 - [What Is an MCP Server? Complete Introduction](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Benefits of MCP for Business: Speed, Security, and Simplicity](/docs/benefits-of-mcp-for-business)
+- [Benefits of MCP for Business: Speed, Security, and Simplicity](benefits-of-mcp-for-business.md)
 
 ## Schema Markup
 

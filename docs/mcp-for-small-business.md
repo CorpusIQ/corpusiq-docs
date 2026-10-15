@@ -3,7 +3,7 @@ title: "MCP for Small Business: AI-Powered Data Access"
 description: "How small business teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for small business", "small business AI analytics", "AI for small business teams", "connect business data to ChatGPT", "no-code AI business intelligence", "small business data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-small-business
 robots: index,follow
 ---
@@ -134,12 +134,12 @@ ChatGPT without MCP can only answer from its training data  --  it can't access 
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [MCP for Accountants: QuickBooks and Financial Analysis](/docs/mcp-for-accountants)
-- [MCP for Ecommerce: Shopify and Order Analytics](/docs/mcp-for-ecommerce)
-- [MCP for Marketing: Campaign Analytics and ROI](/docs/mcp-for-marketing)
-- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [MCP for Accountants: QuickBooks and Financial Analysis](mcp-for-accountants.md)
+- [MCP for Ecommerce: Shopify and Order Analytics](mcp-for-ecommerce.md)
+- [MCP for Marketing: Campaign Analytics and ROI](mcp-for-marketing.md)
+- [MCP for Sales: Pipeline and Forecasting](mcp-for-sales.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

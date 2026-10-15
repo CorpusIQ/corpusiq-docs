@@ -3,7 +3,7 @@ title: "MCP for IT: AI Access to Ticket and Systems Data"
 description: "How IT teams use MCP servers to connect ticketing, identity, asset, and database data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for IT", "IT AI analytics", "AI for IT teams", "connect IT data to ChatGPT", "helpdesk ticket insights", "no-code IT reporting"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-it
 robots: index,follow
 ---
@@ -114,12 +114,12 @@ It helps you assemble the answer quickly and with citations, which is what an au
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [What is an MCP server](/docs/what-is-an-mcp-server)
-- [MCP for Operations: workflow and KPI tracking](/docs/mcp-for-operations)
-- [MCP for Customer Support: ticket and SLA intelligence](/docs/mcp-for-customer-support)
-- [MCP for Finance: spend and reporting](/docs/mcp-for-finance)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [What is an MCP server](what-is-an-mcp-server.md)
+- [MCP for Operations: workflow and KPI tracking](mcp-for-operations.md)
+- [MCP for Customer Support: ticket and SLA intelligence](mcp-for-customer-support.md)
+- [MCP for Finance: spend and reporting](mcp-for-finance.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

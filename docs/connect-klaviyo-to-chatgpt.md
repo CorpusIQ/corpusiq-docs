@@ -3,7 +3,7 @@ title: "Connect Klaviyo to ChatGPT via MCP - Live Data"
 description: "Connect Klaviyo to ChatGPT through CorpusIQ MCP. Ask plain-English questions about flows, campaigns, revenue attribution, and list growth, read-only."
 category: ChatGPT Integrations
 tags: ["connect Klaviyo to ChatGPT", "Klaviyo ChatGPT integration", "MCP Klaviyo connector", "Klaviyo data to ChatGPT", "AI for ecommerce email", "CorpusIQ MCP"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/connect-klaviyo-to-chatgpt
 robots: index,follow
 ---
@@ -104,12 +104,12 @@ You need an account with API access and the permission level required to authori
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [MCP for Ecommerce: multi-channel order intelligence](/docs/mcp-for-ecommerce)
-- [Connect Shopify to ChatGPT](/docs/connect-shopify-to-chatgpt)
-- [Connect Google Analytics to ChatGPT](/docs/connect-google-analytics-to-chatgpt)
-- [Benefits of MCP for business](/docs/benefits-of-mcp-for-business)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md)
+- [Benefits of MCP for business](benefits-of-mcp-for-business.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

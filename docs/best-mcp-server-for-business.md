@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["best-mcp-server", "mcp-platform-comparison", "business-mcp", "mcp-rankings"]
 canonical: "https://www.corpusiq.io/docs/best-mcp-server-for-business/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -165,7 +165,7 @@ A: Yes. MCP is being adopted by major AI platforms (Anthropic, OpenAI) and is be
 
 ## Internal Links
 
-- [Top MCP Platforms  --  Detailed Comparison](/docs/top-mcp-platforms)
+- [Top MCP Platforms  --  Detailed Comparison](top-mcp-platforms.md)
 - [Best AI Data Connector for Business](/connectors)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
 - [Best Business AI Search Tool](/compare)

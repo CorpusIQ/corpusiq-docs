@@ -3,7 +3,7 @@ title: "MCP Security Best Practices: OAuth & Token Management"
 description: "Complete guide to MCP server security: OAuth 2.0 scopes, encrypted token management, read-only access defaults, audit trails, TLS encryption, and SOC 2"
 category: MCP Education
 tags: ["MCP security best practices", "secure AI data integration", "OAuth AI authentication", "read-only data access security", "AI audit trails", "SOC 2 AI compliance"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-security-best-practices
 robots: index,follow
 ---
@@ -166,11 +166,11 @@ CorpusIQ maintains a SOC 2 aligned security posture and is CASA Tier 2 certified
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
+- [Understand how MCP servers work with a technical deep dive](how-mcp-servers-work.md)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
+- [Learn about MCP for financial reporting and compliance](mcp-for-finance.md)
+- [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

@@ -3,7 +3,7 @@ title: "MCP for Logistics: AI Access to Shipment and Cost Data"
 description: "How logistics teams use MCP servers to connect shipment, carrier, inventory, and cost data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for logistics", "logistics AI analytics", "AI for supply chain", "connect logistics data to ChatGPT", "freight cost analysis", "shipment exception tracking"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-logistics
 robots: index,follow
 ---
@@ -116,12 +116,12 @@ CorpusIQ does not store raw customer files or full response payloads. It retriev
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [MCP for Operations: workflow and KPI tracking](/docs/mcp-for-operations)
-- [MCP for Ecommerce: multi-channel order intelligence](/docs/mcp-for-ecommerce)
-- [MCP for Finance: spend, invoices, and reporting](/docs/mcp-for-finance)
-- [Connect QuickBooks to ChatGPT](/docs/connect-quickbooks-to-chatgpt)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [MCP for Operations: workflow and KPI tracking](mcp-for-operations.md)
+- [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
+- [MCP for Finance: spend, invoices, and reporting](mcp-for-finance.md)
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

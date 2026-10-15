@@ -3,7 +3,7 @@ title: "MCP for Sales: AI-Powered Data Access"
 description: "How sales teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access without"
 category: MCP Education
 tags: ["MCP for sales", "sales AI analytics", "AI for sales teams", "connect business data to ChatGPT", "no-code AI business intelligence", "sales data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-sales
 robots: index,follow
 ---
@@ -136,12 +136,12 @@ Yes. Connect email, calendar, support platforms, and product usage data to build
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [MCP for Marketing: Campaign Analytics and ROI](/docs/mcp-for-marketing)
-- [MCP for Customer Support: Ticket Analytics](/docs/mcp-for-customer-support)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
-- [MCP for Operations: Workflow and KPIs](/docs/mcp-for-operations)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [MCP for Marketing: Campaign Analytics and ROI](mcp-for-marketing.md)
+- [MCP for Customer Support: Ticket Analytics](mcp-for-customer-support.md)
+- [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
+- [MCP for Operations: Workflow and KPIs](mcp-for-operations.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

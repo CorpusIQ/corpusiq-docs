@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["business-ai-search", "enterprise-search", "ai-search-tool", "business-search"]
 canonical: "https://www.corpusiq.io/docs/best-business-ai-search-tool/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -158,7 +158,7 @@ A: CorpusIQ offers a free tier. Most enterprise solutions offer trials or POCs.
 
 - [How to Search Company Data with AI](https://www.corpusiq.io/answers)
 - [Best AI Knowledge Platform](/compare)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
+- [Best MCP Server for Business](best-mcp-server-for-business.md)
 - [Best ChatGPT Integration Platform](/compare)
 - [CorpusIQ vs Vector Databases  --  Live Query vs Search](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)

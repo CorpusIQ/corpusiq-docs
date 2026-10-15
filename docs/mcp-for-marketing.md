@@ -3,7 +3,7 @@ title: "MCP for Marketing: AI-Powered Data Access"
 description: "How marketing teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for marketing", "marketing AI analytics", "AI for marketing teams", "connect business data to ChatGPT", "no-code AI business intelligence", "marketing data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-marketing
 robots: index,follow
 ---
@@ -143,7 +143,7 @@ MCP queries execute against live APIs. Most ad platforms and analytics tools pro
 <details>
 <summary><strong>Can I use MCP with our agency's client accounts?</strong></summary>
 
-Yes. MCP for agencies supports multi-account management. See our [See how agencies use MCP for client reporting](/docs/mcp-for-agencies) for details on managing client portfolios.
+Yes. MCP for agencies supports multi-account management. See our [See how agencies use MCP for client reporting](mcp-for-agencies.md) for details on managing client portfolios.
 </details>
 
 
@@ -154,12 +154,12 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
-- [MCP for Ecommerce: Order and Revenue Analytics](/docs/mcp-for-ecommerce)
-- [MCP for Agencies: Multi-Client Management](/docs/mcp-for-agencies)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
-- [MCP for Customer Support: Ticket Analytics](/docs/mcp-for-customer-support)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [MCP for Sales: Pipeline and Forecasting](mcp-for-sales.md)
+- [MCP for Ecommerce: Order and Revenue Analytics](mcp-for-ecommerce.md)
+- [MCP for Agencies: Multi-Client Management](mcp-for-agencies.md)
+- [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
+- [MCP for Customer Support: Ticket Analytics](mcp-for-customer-support.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

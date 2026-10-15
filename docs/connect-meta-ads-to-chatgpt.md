@@ -3,7 +3,7 @@ title: "Connect Meta Ads to ChatGPT via MCP - Live Data"
 description: "Connect Facebook and Instagram Ads to ChatGPT through CorpusIQ MCP. Ask plain-English questions about campaigns, audiences, spend, and lead forms."
 category: ChatGPT Integrations
 tags: ["connect Meta Ads to ChatGPT", "Facebook Ads ChatGPT integration", "Instagram Ads MCP connector", "Meta Ads data to ChatGPT", "AI for paid social reporting", "CorpusIQ MCP"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/connect-meta-ads-to-chatgpt
 robots: index,follow
 ---
@@ -104,12 +104,12 @@ You need permission on the ad account that allows authorizing an integration, an
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [Connect Google Ads to ChatGPT](/docs/connect-google-ads-to-chatgpt)
-- [Connect Klaviyo to ChatGPT](/docs/connect-klaviyo-to-chatgpt)
-- [MCP for Marketing: campaign and attribution data](/docs/mcp-for-marketing)
-- [MCP for Ecommerce: multi-channel order intelligence](/docs/mcp-for-ecommerce)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md)
+- [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md)
+- [MCP for Marketing: campaign and attribution data](mcp-for-marketing.md)
+- [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

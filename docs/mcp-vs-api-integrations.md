@@ -3,7 +3,7 @@ title: "MCP vs API Integrations: Tool Discovery vs Custom Code"
 description: "Compare MCP servers vs traditional API integrations. MCP offers automatic AI tool discovery, structured responses, and zero custom code versus manual REST"
 category: MCP Education
 tags: ["MCP vs API", "AI-native integration", "tool discovery AI", "no-code AI data connector", "REST API vs MCP", "connect apps to AI"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-vs-api-integrations
 robots: index,follow
 ---
@@ -164,13 +164,13 @@ Yes. MCP is an open protocol with SDKs available. You can build custom MCP serve
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
-- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
-- [See how MCP compares to traditional data warehouses](/docs/mcp-vs-data-warehouse)
-- [Learn how MCP compares to RPA automation](/docs/mcp-vs-rpa)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
+- [Understand how MCP servers work with a technical deep dive](how-mcp-servers-work.md)
+- [Compare MCP vs Zapier for real-time business automation](mcp-vs-zapier.md)
+- [See how MCP compares to traditional data warehouses](mcp-vs-data-warehouse.md)
+- [Learn how MCP compares to RPA automation](mcp-vs-rpa.md)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
 
 *Compare MCP vs API Integrations: AI-Native Tool Discovery vs Cust... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
 

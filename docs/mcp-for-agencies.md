@@ -3,7 +3,7 @@ title: "MCP for Agencies: AI-Powered Data Access"
 description: "How agencies teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for agencies", "agencies AI analytics", "AI for agencies teams", "connect business data to ChatGPT", "no-code AI business intelligence", "agencies data integration"]
-last_updated: 2026-09-29
+last_updated: 2026-10-15
 canonical: https://www.corpusiq.io/docs/mcp-for-agencies
 robots: index,follow
 ---
@@ -147,12 +147,12 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [MCP for Marketing: Campaign Analytics and ROI](/docs/mcp-for-marketing)
-- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
-- [MCP for Ecommerce: Shopify and Order Analytics](/docs/mcp-for-ecommerce)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [MCP for Marketing: Campaign Analytics and ROI](mcp-for-marketing.md)
+- [MCP for Sales: Pipeline and Forecasting](mcp-for-sales.md)
+- [MCP for Ecommerce: Shopify and Order Analytics](mcp-for-ecommerce.md)
+- [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

@@ -3,7 +3,7 @@ title: "MCP for Real Estate: AI-Powered Data Access"
 description: "How real estate teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for real estate", "real estate AI analytics", "AI for real estate teams", "connect business data to ChatGPT", "no-code AI business intelligence", "real estate data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-real-estate
 robots: index,follow
 ---
@@ -146,12 +146,12 @@ While MCP is primarily an on-demand query interface, you can create saved prompt
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
-- [MCP for Marketing: Campaign Analytics and ROI](/docs/mcp-for-marketing)
-- [MCP for Finance: Portfolio and Compliance](/docs/mcp-for-finance)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [MCP for Sales: Pipeline and Forecasting](mcp-for-sales.md)
+- [MCP for Marketing: Campaign Analytics and ROI](mcp-for-marketing.md)
+- [MCP for Finance: Portfolio and Compliance](mcp-for-finance.md)
 - [MCP for Small Business: Quick Setup](https://www.corpusiq.io/mcp-server-small-business)
-- [MCP for Agencies: Multi-Client Management](/docs/mcp-for-agencies)
+- [MCP for Agencies: Multi-Client Management](mcp-for-agencies.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

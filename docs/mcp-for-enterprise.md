@@ -3,7 +3,7 @@ title: "MCP for Enterprise: AI-Powered Data Access"
 description: "How enterprise teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for enterprise", "enterprise AI analytics", "AI for enterprise teams", "connect business data to ChatGPT", "no-code AI business intelligence", "enterprise data integration"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-enterprise
 robots: index,follow
 ---
@@ -143,12 +143,12 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
-- [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
-- [Explore MCP for business operations automation](/docs/mcp-for-operations)
+- [Understand how MCP servers work with a technical deep dive](how-mcp-servers-work.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
+- [Learn about MCP for financial reporting and compliance](mcp-for-finance.md)
+- [Explore MCP for business operations automation](mcp-for-operations.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

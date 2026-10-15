@@ -3,7 +3,7 @@ title: "How MCP Servers Work: Transport, Tools & Auth"
 description: "Technical deep dive into how MCP servers operate: transport layers (stdio vs HTTP), JSON-RPC protocol, tool discovery, resource management, and OAuth"
 category: MCP Education
 tags: ["how MCP servers work", "MCP server architecture", "JSON-RPC AI protocol", "MCP tool discovery", "MCP transport layer", "AI data connector architecture"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/how-mcp-servers-work
 robots: index,follow
 ---
@@ -292,12 +292,12 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](https://www.corpusiq.io/answers/what-is-an-mcp-server)
-- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
-- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
-- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
-- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
-- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
-- [Explore MCP for business operations automation](/docs/mcp-for-operations)
+- [Compare MCP vs Zapier for real-time business automation](mcp-vs-zapier.md)
+- [Compare MCP vs custom API integrations](mcp-vs-api-integrations.md)
+- [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
+- [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
+- [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
+- [Explore MCP for business operations automation](mcp-for-operations.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

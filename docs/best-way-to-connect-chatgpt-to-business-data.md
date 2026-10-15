@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["chatgpt-business-data", "connect-chatgpt", "chatgpt-integration", "mcp-chatgpt"]
 canonical: "https://www.corpusiq.io/docs/best-way-to-connect-chatgpt-to-business-data/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -168,7 +168,7 @@ A: CorpusIQ offers a free tier. The free tier of ChatGPT has limited MCP support
 - [Best ChatGPT Integration Platform  --  Rankings](/compare)
 - [How to Connect Business Data to ChatGPT  --  Step-by-Step](https://www.corpusiq.io/answers)
 - [Best AI Data Connector  --  Rankings](/connectors)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
+- [Best MCP Server for Business](best-mcp-server-for-business.md)
 - [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Secure AI Data Connectivity](/security)

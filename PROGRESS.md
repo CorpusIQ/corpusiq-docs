@@ -1,21 +1,21 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
-last_updated: "2026-10-13"
+last_updated: "2026-10-15"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated October 13, 2026)
+## File count (updated October 15, 2026)
 
-- **Total Markdown files:** 2915
+- **Total Markdown files:** 2933
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories (plus symlinked section trees) - SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 603 setup guides for Hermes skills (measured: *setup*.md under hermes/skills; Oct 11 evening added 1 - Wayne Sutton Builder Skills (waynesutton/builder-skills); Oct 11 skills-monitor added 1 - Claude Code Extensions (nodnarbnitram/claude-code-extensions); Oct 10 evening added 24 - AmElnagdy Delegate Skills (amElnagdy/delegate-skills), Claude Design Skillstack (freshtechbro/claudedesignskills), Sanyuan Skills (sanyuan0704/sanyuan-skills), Sentimony Skills (sentimony/skills), Ghost Security Skills (ghostsecurity/skills), Some Claude Skills (curiositech/some_claude_skills), Dify Skills (langgenius/dify), CodexSkills (am-will/codex-skills), Agentation (benjitaylor/agentation), Journalism Agent Skills (jamditis/claude-skills-journalism), BuilderOS (buildgreatproducts/builder-os), Platform Design Skills (ehmo/platform-design-skills), CloudBase Skills (tencentcloudbase/cloudbase-skills), ulpi Skills (ulpi-io/skills), Srinitude Skills (srinitude/skills), Antigravity Skill Vault (rmyndharis/antigravity-skills), Mies (deeflect/mies), Vibe Motion Skills (vibe-motion/skills), Vapi Skills (vapiai/skills), Sergiodxa Agent Skills (sergiodxa/agent-skills), Appllama Skills (appllama/appllama-skills), Mastepanoski Skills (mastepanoski/claude-skills), MagicPath Agent Skills (magicpathai/agent-skills), EvoSkills (evoscientist/evoskills); Oct 9 evening added 6 - Baoyu Skills (jimliu/baoyu-skills), UI Skills (ibelick/ui-skills), Meticulous (alwaysmeticulous/skills), Designer Skills (julianoczkowski/designer-skills), Medusa (medusajs/medusa-agent-skills), Garden Skills (ConardLi/garden-skills); Oct 10 morning added 17 - Wondelai Skills (wondelai/skills), Starchild Official Skills (starchild-ai-agent/official-skills), Cargo Skills (getcargohq/cargo-skills), Compound Engineering (everyinc/compound-engineering-plugin), Samber Developer Platform Skills (samber/developer-platform-skills), Open Mercato Skills (open-mercato/skills), Bencium Marketplace (bencium/bencium-marketplace), MiniMax AI Skills (minimax-ai/skills), PM Skills (product-on-purpose/pm-skills), Dimillian Skills (dimillian/skills), Skills for Antigravity (omer-metin/skills-for-antigravity), Three.js Game Skills (majidmanzarpour/threejs-game-skills), Xcode Build Optimization (avdlee/xcode-build-optimization-agent-skill), WordPress Agent Skills (wordpress/agent-skills), Trigger.dev Skills (triggerdotdev/skills), LangSmith Skills (langchain-ai/langsmith-skills), Botpress Skills (botpress/skills); Oct 9 morning added 1 - Modern Web Guidance (googlechrome/modern-web-guidance); Oct 8 evening added 4 - Limrun Skills (limrun-inc/skills), TypeSafe AI Skills (typesafe-ai/skills), Yomiyasu (nanaism/yomiyasu), Proseify (proseify.xyz); Oct 8 morning added 4 - shadcn (shadcn-ui/ui), Amplitude Agent Skills (amplitude/mcp-marketplace), mbfinotti Business Skills (4 repos), Cloudflare Security Audit (cloudflare/security-audit-skill); Oct 7 evening added 1 - Callstack Agent Skills (callstackincubator/agent-skills); Oct 5 evening, skills-monitor sweep added 1 publisher guide - Goldsky Agent Skills (goldsky-io/goldsky-agent); Oct 4 evening added 1 - Moonlight Lupin Agent Skills (un-parked after growth re-check); Oct 4 morning added 1 - CrewAI Skills (crewAIInc/skills); Oct 2 added 3 - 01coder Agent Skills, Steipete Agent Scripts, Callicrate Skills; prior 534 baseline was stale) (measured: *setup*.md under hermes/skills); marketplace index tracks 1,135+ curated skills
-- **MCP servers:** 1252 total .md under hermes/mcp/; external catalog 920 servers (+806 guides) per Oct 13 midday sweep
-- **SEO pages:** 130 top-level landing pages targeting high-intent operator keywords
+- **MCP servers:** 1266 total .md under hermes/mcp/; external catalog 929 servers (+815 guides) per Oct 15 midday sweep
+- **SEO pages:** 141 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
 
@@ -40,6 +40,8 @@ The repo is actively maintained with daily automated updates:
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
+
+- **Docs maintenance ✅ (Oct 15, 2026, docs-mgmt cron):** routine audit + production-404 link repair. Production link audit found 40 unique `/docs/<slug>` targets (207 link instances across 47 top-level docs/ pages) returning HTTP 404: they are site-root-relative links from the docs origin, where `/docs/...` is the MkDocs build source and not a served path. All 207 retargeted to plain relative `.md` links, which MkDocs rewrites to the canonical absolute form `https://www.corpusiq.io/docs/<slug>` (confirmed against a known-working sibling link in the deployed HTML); every one of the 40 targets was verified to exist as a source file before rewriting. 141 stale `last_updated` dates bumped on top-level docs/ SEO pages (cutoff Oct 8; zero-stale rescan 0). docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod refreshed to Oct 15. Internal link resolver: 227 static hits, all site-absolute marketing targets (/compare, /connect/*, /blog, /features) resolving HTTP 200 on the main corpusiq.io site on both hosts, 0 truly broken. Frontmatter validation: 5,407 files scanned, all valid. Frontmatter quote defects 0/0. PII scan clean. Connector-count prose: canonical 40+ consistent (outliers are competitor figures: Airbyte 550+, Zapier 7,000+). PROGRESS.md stats refreshed (2,933 MD, 1,266 hermes/mcp .md, external catalog 929 servers (+815 guides) per Oct 15 midday sweep, 141 SEO pages).
 
 - **Docs maintenance ✅ (Oct 13, 2026, docs-mgmt cron):** changelog completion repair + deploy. The 21-release backfill finished earlier today (17 -> 38 documented releases) and carried three defects that this cycle fixed before they shipped: (1) the Releases table had been built in two misordered blocks (v0.20.6..v0.2.0 above v0.21.7..v0.16.0) - reordered to one strict descending block, 38 rows (v0.21.7 -> v0.2.0); (2) the index FAQ had regressed to "v0.20.6" in both the visible text and the JSON-LD - reset to v0.21.7, and the publisher now only moves the FAQ forward and inserts rows in sorted position (both sandbox-tested); (3) the page nav chain skipped seams (v0.21.0's back link skipped v0.20.2-6; v0.20.6 and v0.15.2 dead-ended at Changelog Home) and v0.16.0/v0.17.0 had no nav at all - all 38 pages now form one continuous older<->newer chain (reusable audit + fix tool added; second run 0 changes). Also retrofitted Frequently Asked Questions blocks onto the 17 pages that carried no question-style headings (v0.16.0 through v0.21.7; each sourced from its own index row), and cleaned the v0.15.2 broken fragment ("- Packaging): ...") in the index cell and page FAQ (upstream body kept verbatim). Routine audits all clean: 0 broken links (hermes + cross-directory), 0 missing frontmatter, 0 duplicate descriptions, 0 empty pages, orphans 0, dead-slash 0 defects, fragment anchors 0 candidates (9 allowlisted), built-site unresolved links 0 (docs_perfection exit 0); PII = the 3 known false positives; retention gate PASS; ops-gate pass on all 38 changed files. Deployed via deploy_docs_deploy.py (Vercel OK); all backfilled + repaired pages live-verified HTTP 200 (cache-busted, www + origin; table order + FAQ + nav seams checked in the served HTML). Stats refreshed (2,915 MD, 1,252 hermes/mcp .md, external catalog 920 servers (+806 guides) per Oct 13 midday sweep, 603 setup guides).
 
@@ -121,7 +123,7 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: October 13, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: October 15, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 
 ## FAQ
 

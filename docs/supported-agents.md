@@ -3,7 +3,7 @@ title: "Supported AI Agents - CorpusIQ Docs"
 description: "Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code. Copy-paste JSON config blocks for instant"
 category: "Documentation"
 tags: ["supported ai agents", "mcp configuration", "claude desktop mcp", "cursor mcp", "hermes agent", "windsurf mcp", "roo code"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 canonical: "https://www.corpusiq.io/docs/supported-agents"
 robots: "index,follow"
 ---
@@ -162,7 +162,7 @@ Your agent should list all 36 available business data sources.
 ## Frequently Asked Questions
 
 **Q: Which AI agents work with CorpusIQ?**  
-A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. ChatGPT, Claude, Perplexity, Google Gemini, and Grok connect as MCP clients, and any other MCP-compatible agent can connect using the standard endpoint. See [Grok integration](/docs/grok-integration) for the Grok steps.
+A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. ChatGPT, Claude, Perplexity, Google Gemini, and Grok connect as MCP clients, and any other MCP-compatible agent can connect using the standard endpoint. See [Grok integration](grok-integration.md) for the Grok steps.
 
 **Q: How do I configure my agent to connect to CorpusIQ?**  
 A: Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.

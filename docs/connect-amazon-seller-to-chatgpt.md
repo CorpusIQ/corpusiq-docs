@@ -3,7 +3,7 @@ title: "Connect Amazon Seller to ChatGPT via MCP - Live Data"
 description: "Connect Amazon Seller Central to ChatGPT through CorpusIQ MCP. Ask plain-English questions about orders, inventory, and sales metrics, read-only."
 category: ChatGPT Integrations
 tags: ["connect Amazon Seller to ChatGPT", "Amazon Seller Central ChatGPT", "MCP Amazon connector", "Amazon data to ChatGPT", "AI for marketplace sellers", "CorpusIQ MCP"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt
 robots: index,follow
 ---
@@ -99,12 +99,12 @@ You need Seller Central access with permission to authorize an integration, and 
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [MCP for Ecommerce: multi-channel order intelligence](/docs/mcp-for-ecommerce)
-- [Connect Shopify to ChatGPT](/docs/connect-shopify-to-chatgpt)
-- [Connect QuickBooks to ChatGPT](/docs/connect-quickbooks-to-chatgpt)
-- [MCP for Logistics: shipment, inventory, and freight cost](/docs/mcp-for-logistics)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt.md)
+- [MCP for Logistics: shipment, inventory, and freight cost](mcp-for-logistics.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

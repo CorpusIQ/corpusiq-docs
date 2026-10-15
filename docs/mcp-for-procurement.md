@@ -3,7 +3,7 @@ title: "MCP for Procurement: AI Access to Vendor and Spend Data"
 description: "How procurement teams use MCP servers to connect vendor, contract, and spend data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for procurement", "procurement AI analytics", "AI for purchasing teams", "connect vendor data to ChatGPT", "spend analysis with AI", "supplier risk tracking"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/mcp-for-procurement
 robots: index,follow
 ---
@@ -104,12 +104,12 @@ The renewal calendar. Knowing what auto-renews in the next 90 days, with the not
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [MCP for Finance: spend, invoices, and reporting](/docs/mcp-for-finance)
-- [MCP for Legal: contract and matter data](/docs/mcp-for-legal)
-- [MCP for Logistics: shipment, inventory, and freight cost](/docs/mcp-for-logistics)
-- [MCP for Operations: workflow and KPI tracking](/docs/mcp-for-operations)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [MCP for Finance: spend, invoices, and reporting](mcp-for-finance.md)
+- [MCP for Legal: contract and matter data](mcp-for-legal.md)
+- [MCP for Logistics: shipment, inventory, and freight cost](mcp-for-logistics.md)
+- [MCP for Operations: workflow and KPI tracking](mcp-for-operations.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

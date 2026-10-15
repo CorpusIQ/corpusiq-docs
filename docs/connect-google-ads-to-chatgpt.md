@@ -3,7 +3,7 @@ title: "Connect Google Ads to ChatGPT via MCP - Live Data"
 description: "Connect Google Ads to ChatGPT through CorpusIQ MCP. Ask plain-English questions about campaigns, keywords, spend, and search terms, read-only."
 category: ChatGPT Integrations
 tags: ["connect Google Ads to ChatGPT", "Google Ads ChatGPT integration", "MCP Google Ads connector", "Google Ads data to ChatGPT", "AI for PPC reporting", "CorpusIQ MCP"]
-last_updated: "2026-10-07"
+last_updated: "2026-10-15"
 canonical: https://www.corpusiq.io/docs/connect-google-ads-to-chatgpt
 robots: index,follow
 ---
@@ -112,12 +112,12 @@ You need access to the Google Ads account that grants permission to authorize th
 
 ## Internal Links
 
-- [Browse all CorpusIQ connectors](/docs/connectors)
-- [Connect Meta Ads to ChatGPT](/docs/connect-meta-ads-to-chatgpt)
-- [Connect Google Analytics to ChatGPT](/docs/connect-google-analytics-to-chatgpt)
-- [MCP for Marketing: campaign and attribution data](/docs/mcp-for-marketing)
-- [AI for marketing analytics](/docs/ai-for-marketing-analytics)
-- [How to connect business data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Browse all CorpusIQ connectors](connectors.md)
+- [Connect Meta Ads to ChatGPT](connect-meta-ads-to-chatgpt.md)
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md)
+- [MCP for Marketing: campaign and attribution data](mcp-for-marketing.md)
+- [AI for marketing analytics](ai-for-marketing-analytics.md)
+- [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 

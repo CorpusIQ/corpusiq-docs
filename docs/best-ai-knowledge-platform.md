@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["ai-knowledge-platform", "knowledge-management", "ai-knowledge-base", "enterprise-knowledge"]
 canonical: "https://www.corpusiq.io/docs/best-ai-knowledge-platform/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-15"
 
 ---
 
@@ -159,7 +159,7 @@ A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live busines
 - [How to Build an AI Knowledge Base  --  Step-by-Step](https://www.corpusiq.io/answers)
 - [How to Centralize Company Knowledge](https://www.corpusiq.io/answers)
 - [Best Business AI Search Tool](/compare)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
+- [Best MCP Server for Business](best-mcp-server-for-business.md)
 - [CorpusIQ vs Vector Databases  --  Live Query vs Search](/compare)
 - [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
