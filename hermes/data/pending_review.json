@@ -70419,28 +70419,6 @@
     "status": "pending"
   },
   {
-    "name": "louis030195/hyperconsciousness",
-    "url": "https://github.com/louis030195/hyperconsciousness",
-    "description": "iCloud for agents. An encrypted, permissioned knowledge layer for humans and agents.",
-    "stars": 7,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "updated_at": "2026-10-06T14:12:46Z",
-    "category": "Memory & Knowledge",
-    "score": 24,
-    "tier": "LOW_PRIORITY",
-    "score_reasons": [
-      "detailed_description",
-      "active_week"
-    ],
-    "submitter": "louis030195",
-    "submitted_at": "2026-10-07T10:11:45.682711+00:00",
-    "status": "pending",
-    "submission_issue": 109,
-    "review_note": "Manual review promotion: on-repo Hermes signals (skills installer targets ~/.hermes/skills and $HERMES_HOME/skills; MCP/HTTP surface) despite low name/description relevance signal; first community submission via new issue template; developer-alpha acknowledged."
-  },
-  {
     "name": "bighamx/RemoteTool",
     "url": "https://github.com/bighamx/RemoteTool",
     "description": "\u57fa\u4e8e .NET 8 \u7684 Web \u8ba1\u7b97\u673a\u8fdc\u7a0b\u7ba1\u7406\u63a7\u5236\u7cfb\u7edf\uff0cCodex+Hermes Agent\u8fdc\u7a0b\u5bf9\u8bdd\uff0c\u914d\u5957\u624b\u673aAPP",

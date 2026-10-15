@@ -6391,5 +6391,24 @@
     "discovered_at": "2026-10-09T10:02:11.935269+00:00",
     "status": "approved",
     "approved_at": "2026-10-09T10:04:36.905266+00:00"
+  },
+  {
+    "name": "louis030195/hyperconsciousness",
+    "url": "https://github.com/louis030195/hyperconsciousness",
+    "description": "iCloud for agents. An encrypted, permissioned knowledge layer for humans and agents.",
+    "stars": 7,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-10-14",
+    "category": "Memory & Knowledge",
+    "score": 24,
+    "tier": "LOW_PRIORITY",
+    "submitter": "louis030195",
+    "submission_issue": 109,
+    "status": "approved",
+    "approved_at": "2026-10-15T01:56:08.565226+00:00",
+    "promotion_note": "Manual promotion over the LOW_PRIORITY score. The rubric reads only name, description and topics, so it scored this 24 and the stock processor would have rejected it; the repo is nevertheless built for Hermes. Verified directly: skills/hyperconsciousness/scripts/install-agent-skill.sh installs into $HOME/.hermes/skills and $HERMES_HOME/skills, the repo documents its local MCP server config, it is MIT licensed, and it was pushed the day of this review. Also the first submission through the new issue template, and an auto-reject of a genuine integration on a rubric that cannot read repo contents is the wrong signal to the channel.",
+    "promoted_from": "LOW_PRIORITY score 24"
   }
 ]
