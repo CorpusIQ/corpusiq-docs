@@ -9,6 +9,13 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
+<!-- NOT PUBLISHED BY THE DOCS BUILD. This file collides with hermes/ecosystem/index.md at
+     the /hermes/ecosystem/ URL and is not emitted by mkdocs; hermes/ecosystem/index.md is
+     the page users see. Add directory entries to hermes/ecosystem/index.md, not here.
+     Root cause recorded 2026-10-16: hyperconsciousness (#109) was promoted here on Oct 14
+     and was never visible on the live site. Update the promotion scripts + the
+     hermes-ecosystem-discovery skill before the next auto-promotion. -->
+
 # Hermes Ecosystem Directory
 
 A comprehensive, curated directory of the Hermes Agent ecosystem. **194+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 190 auto-approved (189 scored >= 70; 1 manually promoted).
