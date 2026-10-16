@@ -10706,6 +10706,25 @@ verifies.</p>
       <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  <script>
+    // MkDocs directory URLs may arrive without their trailing slash through
+    // the frontend proxy. Resolve Material's runtime URLs as directories,
+    // before its bundle reads __config. Keep the current origin/mount so the
+    // docs origin and staging also work; do not rewrite customer /api routes.
+    (function() {
+      var element = document.getElementById('__config');
+      var config = JSON.parse(element.textContent);
+      var pageUrl = new URL(location.href);
+      pageUrl.search = '';
+      pageUrl.hash = '';
+      if (!pageUrl.pathname.endsWith('/') && !pageUrl.pathname.endsWith('.html')) {
+        pageUrl.pathname += '/';
+      }
+      config.base = new URL(config.base, pageUrl).href;
+      config.search = new URL(config.search, pageUrl).href;
+      element.textContent = JSON.stringify(config);
+    })();
+  </script>
   
       <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
