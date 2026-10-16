@@ -111,8 +111,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-15",
-    "dateModified": "2026-10-15",
+    "datePublished": "2026-10-16",
+    "dateModified": "2026-10-16",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-15">
+  <meta name="last-updated" content="2026-10-16">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10266,6 +10266,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-16-2026-night-sweep-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 16, 2026 - Night Sweep (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-15-2026-evening-sweep-2-new-2-guides" class="md-nav__link">
@@ -24810,6 +24821,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-16-2026-night-sweep-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 16, 2026 - Night Sweep (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-15-2026-evening-sweep-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39070,8 +39092,14 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 15, 2026 (evening sweep) · <strong>Sources:</strong> mcp.so /feed (30 server links) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5458-#5491 + twelve-sitemap canonical refresh (r122, 15,835 URLs) · <strong>Catalog:</strong> 931 servers (+817 guides)</p>
+<p><strong>Last updated:</strong> October 16, 2026 (night sweep) · <strong>Sources:</strong> mcp.so /feed (30 server links) + mcpservers.org /all pages 1-5 via the r.jina.ai reader proxy + chatmcp/mcpso issues #5492-#5507 + twelve-sitemap canonical refresh (r124, 15,835 URLs) · <strong>Catalog:</strong> 932 servers (+818 guides)</p>
 </blockquote>
+<h2 id="october-16-2026-night-sweep-1-new-1-guide">🆕 October 16, 2026 - Night Sweep (1 New, 1 Guide)<a class="headerlink" href="#october-16-2026-night-sweep-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
+<p>Night sweep about 6 hours after the October 15 evening sweep: the mcp.so <code>/feed</code> (30 server links via the direct TanStack fetch; two cards fresh past the evening capture - Postdom and the Korea &amp; Asia Everyday Calculators - with Adgentek Ad Server, Pitch Protocol and Reweb rolling off the 30 and the Soundza and Sleek cards re-keyed on their current slugs), mcpservers.org <code>/all</code> pages 1-5 through the r.jina.ai reader proxy (page 1, newest-first, matched the October 15 evening cohort slug for slug, so the surface showed no new listings), the fresh chatmcp/mcpso issue window #5492-#5507 (16 numbers, all live), and the twelve-sitemap canonical refresh (r124: 15,835 EN server URLs; zero additions and zero removals against the r123 capture), with vendor docs and live endpoint probes for every candidate. One new business-relevant entry, catalogued with a guide: a shared growth-experiment memory for teams and their agents.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/hypotize-mcp">Hypotize MCP - Growth Experiment Memory for Agents</a> · hosted Streamable HTTP at <code>https://api.hypotize.ai/mcp</code> (OAuth 2.1; you sign in and choose what the agent may do): a shared experiment memory for teams and their agents - 21 tools over a project's tested backlog, framework-scored ideas (ICE, PIE, RICE or a custom framework), an enforced lifecycle with no skipped stages, and outcomes, evidence and learnings recorded together. Seven tools read the record (projects, project context and writing language, the backlog and pipeline, one experiment with its score and latest comments, learnings, tags and custom frameworks), twelve update it (create and update projects, import a backlog in all-or-nothing batches of 50, create ideas with variants, update experiments without overwriting newer work, record a vote and recalculate priority, transition stages, record the outcome with learning and evidence, add dated comments, set the action plan, create tags and frameworks) and two delete records, off until you grant the delete scope at connection. It keeps the record, not the test runner - Hypotize does not run A/B tests or assign traffic. Ships with three skills (growth experiments, weekly review, backlog import); works with Claude, ChatGPT, Codex, Cursor, Kimi, OpenClaw, Hermes and any MCP client. Publisher: Hypotize (hypotize.ai; plugin repo github.com/viluca94/hypotize-plugin). Live probe: POST initialize to <code>api.hypotize.ai/mcp</code> returns 401 UNAUTHORIZED; <code>/.well-known/oauth-protected-resource</code> returns 200 naming the resource, the <code>hypotize:read</code> / <code>hypotize:write</code> / <code>hypotize:delete</code> scopes and <code>offline_access</code>, and <code>/.well-known/oauth-authorization-server</code> names the authorize, token, revoke and dynamic-registration endpoints.</li>
+</ul>
+<p><strong>Also identified (not catalogued):</strong> on the mcp.so <code>/feed</code> (30 links; two fresh cards), evaluated and held beside the catalogued entry: Postdom (an AI social tool that turns a website into short videos, slideshows and posts and publishes to nine networks; 20 tools over a hosted OAuth endpoint, but it carries its October 5 and October 6 dispositions - the social-publishing class is at saturation and Postdom is itself one of its reference holds alongside PostSider, PostBase, Pith and PostPlanify) held; and Korea &amp; Asia Everyday Calculators (kwhmate - 19 keyless read-only calculators for Korean, Taiwanese, Philippine and Japanese household electricity bills and LED savings, Korean taxi fares, tourist tax refunds and Korean tax and education math; consumer regional utility) held, with Adgentek Ad Server, Pitch Protocol and Reweb rolling off the 30 and the remaining cards as repeats from the October 13-15 ledgers. On mcpservers.org <code>/all</code> pages 1-5, page 1 (newest-first) matched the October 15 evening cohort slug for slug (Marketing MCP by Honeyfield, Soundza, Social Growth Engineers, Shortimize, DBine, App Store Review Intelligence, searxNcrawl, CloneKit, Ganjoor, The Bureau of Lost Context, HiveHall, Phở Research Tools, Kantan, Flavors Engine, SAGA, Yadulink, NullClear, Zinc, CourtlyGo, patlas, VideoBGRemover, Threshold, Hugging Bay, Casafari, Heard, MainWP, Browser Use, Trudex, VaneTools), so no new listings entered the surface this cycle; pages 2-5 carried their prior dispositions from the October 12-15 ledgers, and the canonical refresh confirmed the sitemap itself was unchanged (r123 to r124: zero additions, zero removals). From the fresh chatmcp/mcpso issue window #5492-#5507 (16 numbers), all held beyond the catalogued entry: PaperCheck (AI-text and plagiarism checks for a research paper; education utility), Formquote (published prices and licence fit for email verification, sound-effect packs and font licences; comparison utility), MeshMend (local STL and 3MF mesh check and repair; maker niche), Veilus (anti-detect desktop browser with a 39-tool MCP launcher; browser-automation class densely covered, anti-detect framing outside scope), Jobbi Agent Gigs (#5497, #5498; the agent gig marketplace, already dispositioned), Laplace's Mini World (100+ interactive 3D science models; education novelty), AgentaOS (plans, checkout and billing for AI agents; the agent-payments and agent-infrastructure classes are dense per steward-mcp, Mekler and agpay), Neural Draft (CMS and backend for AI-built sites; dev and CMS utility), Tephra (one shared memory across every connected AI; agent-memory class dense), Ankra (deploy and operate Kubernetes from an AI client; dev-infrastructure class), opendrs (PR blast radius and a 0-1 risk score; dev utility), SpanHound (capture and inspect Python agent traces locally; dev observability utility) and Ludo AI (generate game sprites, 3D models, video, music and voices; media-generation and game-dev classes).</p>
 <h2 id="october-15-2026-evening-sweep-2-new-2-guides">🆕 October 15, 2026 - Evening Sweep (2 New, 2 Guides)<a class="headerlink" href="#october-15-2026-evening-sweep-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Evening sweep about 11 hours after the October 15 midday sweep: the mcp.so <code>/feed</code> (30 server links via the direct TanStack fetch; the newest card 19:04 MST, with SoChain, Radikabunavi, ProLevelMax, Default Privacy, Soundza, Social Growth Engineers, Shortimize, Layro, MySSAgent Social Security Claiming Estimator, InstaBids, Mark agent escrow, Sleek, Reweb and Pexafy Stock Photos fresh past the midday capture), mcpservers.org <code>/all</code> pages 1-5 through the r.jina.ai reader proxy (146 slugs), the fresh chatmcp/mcpso issue window #5458-#5491 (34 numbers, all live), and a fresh twelve-sitemap canonical refresh (r122: 15,835 EN server URLs; 212 additions and 2 removals against the r121 capture), with vendor docs, live endpoint probes and class-precedent passes for every candidate. Two new business-relevant entries, each catalogued with a guide: the full U.S. DOL Form 5500 retirement and welfare plan filing set, and a cited price book for the AI training data market.</p>
 <ul>
