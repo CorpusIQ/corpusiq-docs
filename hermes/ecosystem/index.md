@@ -1,18 +1,18 @@
 ---
 title: Hermes Ecosystem  --  Complete Resource Directory
-description: The definitive directory of Hermes Agent resources  --  194+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources  --  196+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-14"
+last_updated: "2026-10-15"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 194+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 196+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** October 14, 2026 · **Repos indexed:** 194+ · **Categories:** 14
+> **Last updated:** October 15, 2026 · **Repos indexed:** 196+ · **Categories:** 14
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,12 +26,12 @@ The most comprehensive directory of Hermes Agent resources in existence. 194+ re
 | [Documentation & Learning](#documentation-learning) | 9 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 35 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 14 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 30 | [↓](#memory-knowledge) |
+| [Memory & Knowledge](#memory-knowledge) | 31 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 33 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 69 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 57 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 30 | [↓](#orchestration-multi-agent-swarms) |
+| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 31 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 22 | [↓](#deployment-infrastructure) |
 | [Security & Governance](#security-governance) | 6 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
@@ -392,7 +392,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 194+ repos indexed, 1,135+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 196+ repos indexed, 1,135+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -906,6 +906,17 @@ An OpenClaw (2026.4/2026.6+) and Hermes Agent plugin that turns AI conversations
 **Maintainer:** cx2002302-lang
 **Topics:** `knowledge-management`, `zettelkasten`, `mcp-server`, `note-taking`, `second-memory`, `knowledge-graph`
 **Key capabilities:** AI conversation → Zettelkasten, bi-directional linking, MCP tool exposure, SQLite persistence, atomic notes, knowledge distillation
+
+---
+
+### louis030195/hyperconsciousness
+⭐ **7** · `Rust` · [github.com/louis030195/hyperconsciousness](https://github.com/louis030195/hyperconsciousness)
+
+iCloud for agents. An encrypted, permissioned knowledge layer for humans and agents.
+
+**Maintainer:** louis030195
+**Key capabilities:** Encrypted shared memory layer, per-agent permissions, local MCP server, Hermes skill installer targeting `$HOME/.hermes/skills`
+**Related:** [Memory & Knowledge →](#memory-knowledge)
 
 ---
 
@@ -2963,6 +2974,18 @@ Personal intelligence built enterprise-grade: a crew of AI agents on a real org 
 
 **Key capabilities:** Multi-agent crew, shared long-term memory, model switching, self-hosted, no telemetry, Hermes-compatible
 **Related:** [Orchestration →](/hermes/orchestration)
+
+---
+
+### Orkas-AI/Orkas
+⭐ **2,188** · `JavaScript` · [github.com/Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)
+
+Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents and runs your installed coding CLIs  --  Claude Code, Codex, OpenCode, OpenClaw, Hermes  --  as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS, Windows and Linux.
+
+**Maintainer:** Orkas-AI
+**Topics:** `agent-orchestration`, `multi-agent`, `desktop-agent`, `local-first`, `mcp-client`, `self-evolving-agents`
+**Key capabilities:** Desktop agent workspace, commander-plus-specialist orchestration, installed-CLI backends (Hermes, OpenClaw, Claude Code, Codex, OpenCode), parallel and sequential agent runs, local-first, BYO keys
+**Related:** [Orchestration →](#orchestration-multi-agent-swarms)
 
 ---
 
