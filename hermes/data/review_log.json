@@ -17613,5 +17613,290 @@
     "reason": "Manual promotion over the LOW_PRIORITY score. The rubric reads only name, description and topics, so it scored this 24 and the stock processor would have rejected it; the repo is nevertheless built for Hermes. Verified directly: skills/hyperconsciousness/scripts/install-agent-skill.sh installs into $HOME/.hermes/skills and $HERMES_HOME/skills, the repo documents its local MCP server config, it is MIT licensed, and it was pushed the day of this review. Also the first submission through the new issue template, and an auto-reject of a genuine integration on a rubric that cannot read repo contents is the wrong signal to the channel.",
     "issue": 109,
     "timestamp": "2026-10-15T01:56:08.587902+00:00"
+  },
+  {
+    "repo": "lcgm/summa",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459867+00:00"
+  },
+  {
+    "repo": "driphtyio/hermes-tutorials",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459881+00:00"
+  },
+  {
+    "repo": "Sakizu/hermes-agent-termux",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459884+00:00"
+  },
+  {
+    "repo": "jerbao/hermes-kubernetes",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459886+00:00"
+  },
+  {
+    "repo": "Solar2004/Astrea",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459888+00:00"
+  },
+  {
+    "repo": "BkashJEE/hermes-skills-library",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459890+00:00"
+  },
+  {
+    "repo": "tech4biz-yasha/agent-memory-integrity",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459892+00:00"
+  },
+  {
+    "repo": "pradeeptathineni/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459893+00:00"
+  },
+  {
+    "repo": "munch2u-a11y/Helix-AGI",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459895+00:00"
+  },
+  {
+    "repo": "TakamKaji/NemoClaw_docs",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459897+00:00"
+  },
+  {
+    "repo": "xins3c/hermes-desktop-standalone",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459899+00:00"
+  },
+  {
+    "repo": "mickeyttsc/ekko-studio-fpk",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459901+00:00"
+  },
+  {
+    "repo": "roryquarrier/aim",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T04:07:50.459903+00:00"
+  },
+  {
+    "name": "nothingser0/solo-project-lifecycle",
+    "url": "https://github.com/nothingser0/solo-project-lifecycle",
+    "description": "Production-tested SDLC & automated quality-gate framework for solo developers & AI coding agents (Claude Code, Cursor, Hermes). From idea & legal SOW to production.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "ai-agents",
+      "case-studies",
+      "claude-code",
+      "client-projects",
+      "cursor",
+      "framework",
+      "freelancer",
+      "mvp",
+      "patterns",
+      "project-management",
+      "quality-gates",
+      "saas",
+      "sdlc",
+      "solo-developer",
+      "templates"
+    ],
+    "updated_at": "2026-10-16T04:00:59Z",
+    "category": "core",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "VasiHemanth/tokentelemetry"
+    ],
+    "discovered_at": "2026-10-16T04:01:40.520077+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "adilfathi/purchase-hmx",
+    "url": "https://github.com/adilfathi/purchase-hmx",
+    "description": "Dokumentasi User Manual Modul Purchase HashMicro ERP (HMX) dengan Docusaurus. Dibuat, di-push, dan dideploy oleh Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-10-16T04:00:59Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-16T04:01:40.521636+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AndryanZulfi/hermes-server-stack",
+    "url": "https://github.com/AndryanZulfi/hermes-server-stack",
+    "description": "Hermes Agent Production Server Infrastructure Stack (9router, Honcho, Monitoring, Galaxy View)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-16T04:00:50Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-16T04:01:40.523137+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TrebuchetDynamics/hermes-toolset",
+    "url": "https://github.com/TrebuchetDynamics/hermes-toolset",
+    "description": "Shared skills and slash commands for a Hermes Agent profile fleet",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-16T04:00:22Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "codegraphtheory/chainforge",
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-10-16T04:01:40.524874+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "holny/evolve-router",
+    "url": "https://github.com/holny/evolve-router",
+    "description": "Stop burning premium model tokens on simple prompts. Save tokens. Spend them where they matter. Local-first self-evolving LLM router with a decision model + feedback flywheel. Judges each request and picks the right model on the fly. 7MB Rust, zero cloud, fully auditable. Works with OpenAI/Anthropic & agents.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "ai-gateway",
+      "anthropic",
+      "claude-code",
+      "codex",
+      "decision-model",
+      "gateway",
+      "hermes-agent",
+      "jev",
+      "llm",
+      "local-router",
+      "openai",
+      "opencalw",
+      "opencode",
+      "provider",
+      "proxy",
+      "router",
+      "self-hosting"
+    ],
+    "updated_at": "2026-10-16T04:01:55Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-16T04:02:03.679227+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pisces19860207/zhengdao",
+    "url": "https://github.com/pisces19860207/zhengdao",
+    "description": "Android AI agent runtime \u2014 real Debian 13 on your phone, no root, no commands, one tap to run your own CLI agents. \u5b89\u5353\u4e0a\u7684 AI Agent \u8fd0\u884c\u73af\u5883\uff1a\u514d root\u3001\u96f6\u547d\u4ee4\u3001\u4e00\u952e\u5b89\u88c5\u3002Requires Android 16 (API 36) + arm64.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "android",
+      "android-16",
+      "arm64",
+      "claude-code",
+      "cli",
+      "debian",
+      "developer-tools",
+      "hermes-agent",
+      "jetpack-compose",
+      "kotlin",
+      "linux",
+      "llm",
+      "mobile",
+      "no-root",
+      "opencode",
+      "proot",
+      "terminal"
+    ],
+    "updated_at": "2026-10-16T04:01:07Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "jnMetaCode/superpowers-zh",
+      "Bo1202/Aivy-OS",
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-10-16T04:02:03.681424+00:00",
+    "status": "pending"
   }
 ]
