@@ -3,7 +3,7 @@ title: "CorpusIQ Governance and Controls"
 description: "CorpusIQ MSR governance framework: management system of record, data hierarchy, validation process, reconciliation procedures, audit controls, and source"
 category: "Documentation"
 tags: ["corpusiq governance", "msr", "source of truth", "data validation", "reconciliation", "audit controls", "financial governance"]
-last_updated: "2026-08-23"
+last_updated: "2026-10-16"
 canonical: "https://www.corpusiq.io/governance"
 robots: "index,follow"
 ---

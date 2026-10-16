@@ -3,7 +3,7 @@ title: "CorpusIQ API Authentication - CorpusIQ Docs"
 description: "Complete guide to CorpusIQ API authentication. Bearer tokens, OAuth 2.0 device flow, token management, refresh detection, revocation, and security best"
 category: "API Reference"
 tags: ["corpusiq authentication", "api tokens", "bearer token", "oauth 2.0", "api security", "token management", "mcp authentication"]
-last_updated: "2026-08-23"
+last_updated: "2026-10-16"
 canonical: "https://www.corpusiq.io/docs/api/authentication"
 robots: "index,follow"
 ---

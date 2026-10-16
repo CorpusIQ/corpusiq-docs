@@ -5,7 +5,7 @@ description: >-
   when to use it.
 canonical: "https://www.corpusiq.io/docs/chat-apps/what-it-is/"
 robots: "index,follow"
-last_updated: "2026-08-23"
+last_updated: "2026-10-16"
 title: "What the chat app is - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 

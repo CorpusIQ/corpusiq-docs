@@ -5,7 +5,7 @@ description: >-
   more.
 canonical: "https://www.corpusiq.io/docs/chat-apps/asking-questions/"
 robots: "index,follow"
-last_updated: "2026-10-07"
+last_updated: "2026-10-16"
 title: "Asking questions - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 

@@ -1,7 +1,7 @@
 ---
-title: "Hermes Community Hub - 194+ Tools & Resources"
+title: "Hermes Community Hub - 196+ Tools & Resources"
 description: "The largest structured Hermes Agent knowledge base: tools, skills, MCP servers, agents, blueprints, and case studies. Updated daily."
-last_updated: "2026-10-15"
+last_updated: "2026-10-16"
 canonical: "https://www.corpusiq.io/docs/hermes/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -16,7 +16,7 @@ The largest structured collection of Hermes Agent tools, skills, MCP servers, ag
 
 ## Quick Links
 
-- [Ecosystem Map](ecosystem) - 194+ repos across 14 categories
+- [Ecosystem Map](ecosystem) - 196+ repos across 14 categories
 - [Agent Library](agents/index.md) - 10 production agent configurations
 - [Case Studies](outputs/index.md) - 13 industry case studies
 - [Setup Guides](setup/index.md) - Deploy on Mac, PC, VPS, Raspberry Pi
