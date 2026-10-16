@@ -17989,5 +17989,110 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-16T10:03:37.781808+00:00"
+  },
+  {
+    "repo": "rogueki/rogue-friday",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907226+00:00"
+  },
+  {
+    "repo": "qingzen/hermes-agent-ish",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907238+00:00"
+  },
+  {
+    "repo": "fester00/hermes-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907241+00:00"
+  },
+  {
+    "repo": "sporez/nhermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907243+00:00"
+  },
+  {
+    "repo": "Morales46/agentic-os",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907245+00:00"
+  },
+  {
+    "repo": "XavTo/Hermes-Railway",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907246+00:00"
+  },
+  {
+    "repo": "jcaruso8524/oh-my-cassette",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907248+00:00"
+  },
+  {
+    "repo": "TomerBenShimol/apple-music-mcp-server",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907250+00:00"
+  },
+  {
+    "repo": "MohammedSanchez82693/vessel-browser",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907252+00:00"
+  },
+  {
+    "repo": "nocodework/growth-os",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907254+00:00"
+  },
+  {
+    "repo": "N0AH-sve/Hermes-librarian",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907256+00:00"
+  },
+  {
+    "repo": "DeryaMartinez/vessel-browser",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907258+00:00"
+  },
+  {
+    "repo": "rainer715/oh-my-cassette",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907260+00:00"
+  },
+  {
+    "repo": "MervinPraison/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907263+00:00"
+  },
+  {
+    "repo": "JavierIslas/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-16T11:02:51.907265+00:00"
   }
 ]
