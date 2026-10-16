@@ -20,6 +20,7 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory - th
 | Contributor | Submissions | Approved | First Contribution | Last Active |
 |-------------|-------------|----------|--------------------|-------------|
 | [@louis030195](https://github.com/louis030195) | 1 | 1 | 2026-10-15 | 2026-10-15 |
+| [@BlueSkyID666](https://github.com/BlueSkyID666) | 1 | 1 | 2026-10-16 | 2026-10-16 |
 
 
 ## How to Contribute
