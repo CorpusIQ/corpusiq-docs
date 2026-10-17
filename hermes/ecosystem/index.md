@@ -1,6 +1,6 @@
 ---
 title: Hermes Ecosystem  --  Complete Resource Directory
-description: The definitive directory of Hermes Agent resources  --  197+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources  --  199+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 last_updated: "2026-10-17"
@@ -10,9 +10,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 197+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 199+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** October 17, 2026 · **Repos indexed:** 197+ · **Categories:** 14
+> **Last updated:** October 17, 2026 · **Repos indexed:** 199+ · **Categories:** 14
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -923,6 +923,16 @@ iCloud for agents. An encrypted, permissioned knowledge layer for humans and age
 ## 🔌 MCP & Integrations
 
 Model Context Protocol servers and integration bridges for Hermes.
+
+### yun520-1/mark-heartflow-skill
+⭐ **26** · `JavaScript` · [github.com/yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill)
+
+心虫 (HeartFlow) — 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
+
+**Key capabilities:** ai-being, ai-philosophy, ai-psychology, cognitive-engine, decision-engine, decision-routing, hermes-agent, judgment-engine
+**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)
+
+---
 
 ### CorpusIQ MCP Server
 [CorpusIQ](https://corpusiq.io)
@@ -3461,6 +3471,16 @@ AI Agent Security Middleware  --  8-layer defense, DLP data flow, prompt injecti
 
 ---
 
+### codegraphtheory/chainforge
+⭐ **8** · `Python` · [github.com/codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge)
+
+Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
+
+**Key capabilities:** agent-profile, ai-agent, auditing, blockchain, built-from-hermes-profile-template, defi, developer-tools, ethereum
+**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)
+
+---
+
 ### CorpusIQ System Registry
 [Governance →](/hermes/governance)
 
@@ -4154,7 +4174,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence  --  **411+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence  --  **413+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

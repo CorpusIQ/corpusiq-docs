@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 195+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 197+ repos, tools, skills, and integrations
 last_updated: "2026-10-17"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -18,9 +18,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **195+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 191 auto-approved (190 scored >= 70; 1 manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **197+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 191 auto-approved (190 scored >= 70; 1 manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **195+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **197+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -31,13 +31,13 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **195+ reposit
 | 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
-| 🔌 MCP Servers | 7 | Model Context Protocol servers & integrations |
+| 🔌 MCP Servers | 8 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 39 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 3 | Client libraries, API wrappers, language bindings |
-| 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
+| 🛡️ Security & Governance | 5 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 42 | Desktop apps, web UIs, dashboards, terminals |
 
@@ -440,6 +440,14 @@ _Model Context Protocol servers & integrations_
 >心虫 (HeartFlow) - 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
 
 **Language:** JavaScript | **Topics:** ai-being, ai-philosophy, ai-psychology, cognitive-engine, decision-engine | **Score:** 75/100
+
+---
+
+### [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) ⭐ 26
+
+>心虫 (HeartFlow) — 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
+
+**Language:** JavaScript | **Topics:** ai-being, ai-philosophy, ai-psychology, cognitive-engine, decision-engine, decision-routing, hermes-agent, judgment-engine, mcp, nodejs, reinforcement-learning, self-healing
 
 ---
 
@@ -984,6 +992,15 @@ _Security tools, compliance, audit_
 **Language:** Python | **Topics:** agent-profile, ai-agent, auditing, blockchain, built-from-hermes-profile-template | **Score:** 74/100
 
 ---
+
+### [codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge) ⭐ 8
+
+>Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
+
+**Language:** Python | **Topics:** agent-profile, ai-agent, auditing, blockchain, built-from-hermes-profile-template, defi, developer-tools, ethereum, governance, hermes-agent, profile-distribution, security, smart-contracts, solana, solidity, tokenomics, web3
+
+---
+
 
 ## 🔧 Skills & Plugins
 
@@ -1671,7 +1688,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*195+ repositories in the Hermes ecosystem. Last updated: 2026-10-17. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*197+ repositories in the Hermes ecosystem. Last updated: 2026-10-17. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
