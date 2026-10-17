@@ -1,18 +1,18 @@
 ---
 title: Hermes Ecosystem  --  Complete Resource Directory
-description: The definitive directory of Hermes Agent resources  --  196+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources  --  197+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-15"
+last_updated: "2026-10-17"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 196+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 197+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** October 15, 2026 · **Repos indexed:** 196+ · **Categories:** 14
+> **Last updated:** October 17, 2026 · **Repos indexed:** 197+ · **Categories:** 14
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -2946,6 +2946,16 @@ Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to o
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
+
+### stablyai/orca
+⭐ **94,805** · `TypeScript` · [github.com/stablyai/orca](https://github.com/stablyai/orca)
+
+Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
+
+**Key capabilities:** Agent fleet orchestration, agent IDE, git worktrees, desktop + mobile + remote runtime, own-subscription agent execution, Hermes-compatible (hermes-agent topic)
+**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)
+
+---
 
 ### multica-ai/multica
 ⭐ **36,931** · `Python` · [github.com/multica-ai/multica](https://github.com/multica-ai/multica)

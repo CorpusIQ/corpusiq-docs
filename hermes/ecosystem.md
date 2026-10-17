@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 194+ repos, tools, skills, and integrations
-last_updated: "2026-10-16"
+description: Comprehensive directory of the Hermes Agent ecosystem - 195+ repos, tools, skills, and integrations
+last_updated: "2026-10-17"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -18,9 +18,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **194+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 190 auto-approved (189 scored >= 70; 1 manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **195+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 191 auto-approved (190 scored >= 70; 1 manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **194+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **195+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,14 +32,14 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **194+ reposit
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 7 | Model Context Protocol servers & integrations |
-| 💾 Memory & Knowledge | 38 | Persistent memory, knowledge graphs, context systems |
+| 💾 Memory & Knowledge | 39 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 3 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 4 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 41 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 42 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1321,6 +1321,14 @@ _Reusable skills, plugins, extensions, tools_
 
 _Desktop apps, web UIs, dashboards, terminals_
 
+### [stablyai/orca](https://github.com/stablyai/orca) ⭐ 94,805
+
+>Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
+
+**Language:** TypeScript | **Topics:** agent-ide, agent-orchestration, ai-agents, claude-code, codex, hermes-agent, openclaw, opencode, worktrees | **Score:** 75/100
+
+---
+
 ### [tutti-os/tutti](https://github.com/tutti-os/tutti) ⭐ 3,282
 
 >Local-first multi-agent workspace where people and agents build in tune - shared context, MCP support, and agent orchestration. Hermes Agent supported.
@@ -1663,7 +1671,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*194+ repositories in the Hermes ecosystem. Last updated: 2026-10-16. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*195+ repositories in the Hermes ecosystem. Last updated: 2026-10-17. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
