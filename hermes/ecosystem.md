@@ -10,11 +10,11 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 ---
 
 <!-- NOT PUBLISHED BY THE DOCS BUILD. This file collides with hermes/ecosystem/index.md at
-     the /hermes/ecosystem/ URL and is not emitted by mkdocs; hermes/ecosystem/index.md is
-     the page users see. Add directory entries to hermes/ecosystem/index.md, not here.
-     Root cause recorded 2026-10-16: hyperconsciousness (#109) was promoted here on Oct 14
-     and was never visible on the live site. Update the promotion scripts + the
-     hermes-ecosystem-discovery skill before the next auto-promotion. -->
+ the /hermes/ecosystem/ URL and is not emitted by mkdocs; hermes/ecosystem/index.md is
+ the page users see. Add directory entries to hermes/ecosystem/index.md, not here.
+ Root cause recorded 2026-10-16: hyperconsciousness (#109) was promoted here on Oct 14
+ and was never visible on the live site. Update the promotion scripts + the
+ hermes-ecosystem-discovery skill before the next auto-promotion. -->
 
 # Hermes Ecosystem Directory
 
@@ -445,7 +445,7 @@ _Model Context Protocol servers & integrations_
 
 ### [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) ⭐ 26
 
->心虫 (HeartFlow) — 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
+>心虫 (HeartFlow) - 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
 
 **Language:** JavaScript | **Topics:** ai-being, ai-philosophy, ai-psychology, cognitive-engine, decision-engine, decision-routing, hermes-agent, judgment-engine, mcp, nodejs, reinforcement-learning, self-healing
 
