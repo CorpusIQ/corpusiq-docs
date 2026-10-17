@@ -39,6 +39,12 @@ DATA_DIR = REPO_ROOT / "data"
 TOKEN_PATH = Path("/home/hermes/.hermes/profiles/corpusiq/secrets/github.token")
 
 ECOSYSTEM = REPO_ROOT / "ecosystem.md"
+# The page users actually see. ecosystem.md COLLIDES with ecosystem/index.md at
+# the /hermes/ecosystem/ URL and is not emitted by mkdocs, so an entry written
+# only to ecosystem.md is invisible on the live site (root-caused 2026-10-16:
+# the hyperconsciousness promotion of Oct 14 never appeared). Every promotion
+# must write BOTH surfaces.
+PUBLISHED_INDEX = REPO_ROOT / "ecosystem" / "index.md"
 # Two contributor surfaces, two different table shapes. The short table lives on
 # contributors.md; the index page carries its own Top Contributors table. Both
 # have to be credited or the credit is inconsistent depending on which page a
@@ -51,12 +57,15 @@ CATEGORY_HEADINGS = {
     "Core Framework": "## 🧠 Core Framework",
     "Deployment": "## 🚀 Deployment",
     "Forks & Derivatives": "## 🍴 Forks & Derivatives",
+    "Integrations": "## 🔗 Integrations",
     "Memory & Knowledge": "## 💾 Memory & Knowledge",
-    "MCP & Integrations": "## 🔌 MCP & Integrations",
-    "Orchestration & Multi-Agent": "## 🕸 Orchestration & Multi-Agent",
-    "Security & Governance": "## 🔒 Security & Governance",
-    "Skills & Plugins": "## 🧩 Skills & Plugins",
-    "UI & Dashboards": "## 🖥 UI & Dashboards",
+    "MCP & Integrations": "## 🔌 MCP Servers",
+    "Official Resources": "## 🏛️ Official Resources",
+    "Other": "## 📋 Other",
+    "Research & Benchmarks": "## 🔬 Research & Benchmarks",
+    "Security & Governance": "## 🛡️ Security & Governance",
+    "Skills & Plugins": "## 🔧 Skills & Plugins",
+    "UI & Dashboards": "## 🖥️ Interfaces & UI",
 }
 
 
@@ -137,6 +146,100 @@ def insert_into_ecosystem(row):
     prefix = "" if section[:insert_at].endswith("\n\n") or insert_at == 0 else "\n"
     updated = text[:start + insert_at] + prefix + block + "\n" + text[start + insert_at:]
     ECOSYSTEM.write_text(updated)
+    return True
+
+
+PUBLISHED_HEADINGS = {
+    "Content & Media": "## 🎬 Content & Media",
+    "Core Framework": "## 🏛 Core & Official",
+    "Deployment": "## 🚀 Deployment & Infrastructure",
+    "Forks & Derivatives": "## 🔀 Forks & Derivatives",
+    "Memory & Knowledge": "## 🧠 Memory & Knowledge",
+    "MCP & Integrations": "## 🔌 MCP & Integrations",
+    "Orchestration & Multi-Agent": "## 🎯 Orchestration, Multi-Agent & Swarms",
+    "Security & Governance": "## 🔒 Security & Governance",
+    "Skills & Plugins": "## 🛠 Skills & Plugins",
+    "UI & Dashboards": "## 🖥 UI & Dashboards",
+}
+
+
+def published_block(row):
+    """Entry block in the published index's own shape (heading, then star line)."""
+    stars = int(row.get("stars") or 0)
+    lang = row.get("language") or "TypeScript"
+    slug = re.sub(r"^https?://", "", row["url"]).rstrip("/")
+    desc = (row.get("description") or "").replace("\n", " ").strip()
+    topics = row.get("topics") or []
+    caps = ", ".join(topics[:8]) if topics else desc[:120]
+    return (
+        f"### {row['name']}\n"
+        f"⭐ **{stars:,}** · `{lang}` · [{slug}]({row['url']})\n\n"
+        f"{desc}\n\n"
+        f"**Key capabilities:** {caps}\n"
+        f"**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)\n\n---\n\n"
+    )
+
+
+def bump_published_counts(text):
+    """Increment the directory-count stamps so the page does not drift per insert."""
+    text = re.sub(r"(\d+)\+ repos, docs", lambda m: f"{int(m.group(1)) + 1}+ repos, docs", text)
+    text = re.sub(r"(\d+)\+ repositories",
+                  lambda m: f"{int(m.group(1)) + 1}+ repositories", text)
+    text = re.sub(r"\*\*Repos indexed:\*\* (\d+)\+",
+                  lambda m: f"**Repos indexed:** {int(m.group(1)) + 1}+", text)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    text = re.sub(r'last_updated: "\d{4}-\d{2}-\d{2}"',
+                  f'last_updated: "{today}"', text, count=1)
+    text = re.sub(r"\*\*Last updated:\*\* [A-Z][a-z]+ \d{1,2}, \d{4}",
+                  "**Last updated:** " + datetime.now(timezone.utc).strftime("%B %-d, %Y"),
+                  text, count=1)
+    return text
+
+
+def insert_into_published_index(row):
+    """Insert the same entry into ecosystem/index.md, the page that is served.
+
+    ecosystem.md is not emitted by the docs build, so without this the promotion
+    is invisible on the live site. Star-sorted within the mapped section.
+    Returns True when written, False when already present or unmapped.
+    """
+    if not PUBLISHED_INDEX.exists():
+        return False
+    text = PUBLISHED_INDEX.read_text()
+    if row["url"] in text:
+        return False
+    heading = PUBLISHED_HEADINGS.get(row.get("category", ""))
+    if not heading or heading not in text:
+        print(f"WARN: published index has no heading for category {row.get('category')!r}"
+              f" - entry NOT written to {PUBLISHED_INDEX.name}")
+        return False
+
+    start = text.index(heading)
+    nxt = text.find("\n## ", start + 1)
+    section_end = len(text) if nxt == -1 else nxt
+    section = text[start:section_end]
+
+    # Blocks inside the section, each starting at a "### " line.
+    starts = [m.start() for m in re.finditer(r"^### ", section, re.M)]
+    mine = row.get("stars", 0)
+    insert_at = None
+    for off, blk_start in enumerate(starts):
+        blk_end = starts[off + 1] if off + 1 < len(starts) else len(section)
+        blk = section[blk_start:blk_end]
+        m = re.search(r"⭐ \*\*([\d,]+)\*\*", blk)
+        blk_stars = int(m.group(1).replace(",", "")) if m else 0
+        if blk_stars < mine:
+            insert_at = blk_start
+            break
+    if insert_at is None:
+        # Nothing has fewer stars: append after the last block.
+        insert_at = len(section)
+
+    block = published_block(row)
+    updated_section = section[:insert_at] + block + section[insert_at:]
+    updated = text[:start] + updated_section + text[section_end:]
+    updated = bump_published_counts(updated)
+    PUBLISHED_INDEX.write_text(updated)
     return True
 
 
