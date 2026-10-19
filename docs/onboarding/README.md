@@ -15,6 +15,18 @@ CorpusIQ has two access methods. Pick the one that matches your workflow:
 | Chat with AI about my business | [AI Chat Onboarding](#ai-chat-onboarding) | 5 minutes |
 | Connect my AI agent via MCP | [AI Agent Onboarding](#ai-agent-onboarding) | 10 minutes |
 
+## Full Guides
+
+These task-first guides live on the main site and cover the rest of the first month:
+
+- [Your First Day With CorpusIQ](https://www.corpusiq.io/guides/first-day-with-corpusiq)  --  One tool, one verifiable question, one citation checked
+- [Connecting Your Business Tools](https://www.corpusiq.io/guides/connect-your-business-tools)  --  Read-only authorization, product families, expired tokens
+- [Skills and Memory](https://www.corpusiq.io/guides/skills-and-memory)  --  How the right procedure is chosen, what memory holds
+- [Trial, Plan and Billing](https://www.corpusiq.io/guides/trial-plan-and-billing)  --  What the 30-day trial includes, what happens on day 30
+- [Automating Recurring Work](https://www.corpusiq.io/guides/automate-recurring-work)  --  The four rituals worth automating first
+- [How to Ask](https://www.corpusiq.io/how-to-ask)  --  Phrasing, context, and how to read a citation
+- [Developers](https://www.corpusiq.io/developers)  --  MCP endpoint, auth and the read-only guarantee
+
 ---
 
 ## AI Chat Onboarding

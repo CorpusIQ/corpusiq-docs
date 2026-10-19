@@ -14,6 +14,9 @@ robots: "index,follow"
 ## Quick Links
 
 - [Quick Start](quick-start.md)  --  Go from zero to first answer in minutes
+- [Getting Started Guides](https://www.corpusiq.io/guides)  --  First day, connecting tools, skills and memory, trial and billing, recurring work
+- [How to Ask](https://www.corpusiq.io/how-to-ask)  --  Phrasing a question, what context to give, reading a citation
+- [Developers](https://www.corpusiq.io/developers)  --  MCP endpoint, OAuth discovery, device login, read-only guarantee
 - [API Reference](api/overview.md)  --  Full REST API documentation
 - [Connectors](connectors.md)  --  All 40+ supported integrations
 - [Security](security/README.md)  --  Architecture, encryption, compliance
