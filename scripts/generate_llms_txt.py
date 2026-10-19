@@ -75,6 +75,15 @@ INDEX_SECTIONS = [
         "docs/corpusiq-vs-airbyte.md",
         "docs/corpusiq-vs-viktor.md",
     ]),
+    ("Developer Guides", [
+        "how-it-works/mcp-architecture.md",
+        "how-it-works/mcp-auth-failure-classes.md",
+        "how-it-works/connectors-explained.md",
+        "how-it-works/skills-explained.md",
+        "how-it-works/metric-specs.md",
+        "how-it-works/rate-limits-and-quotas.md",
+        "how-it-works/privacy-and-security.md",
+    ]),
     ("Connectors", sorted(ROOT.glob("connectors/*.md"))),
     ("Hermes Hub", [
         "hermes/index.md",
@@ -133,7 +142,7 @@ full_lines.append("> Complete page content for LLM ingestion. Read-only access a
 full_lines.append(f"> Canonical direct-MCP disclosure: {MCP_DATA_HANDLING_SUMMARY}")
 full_lines.append("")
 
-full_paths = sorted(ROOT.glob("docs/**/*.md"))
+full_paths = sorted(ROOT.glob("docs/**/*.md")) + sorted(ROOT.glob("how-it-works/**/*.md"))
 for path in full_paths:
     meta, body = read_frontmatter(path)
     rel = os.path.relpath(path, ROOT).replace(os.sep, '/')

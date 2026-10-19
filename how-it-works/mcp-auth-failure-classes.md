@@ -46,8 +46,8 @@ revoke the whole token family.
 alone:
 
 - The credential record carries `generation`, `rotated_at`, and the
-  refresh token, written temp-file-plus-rename so readers never see a
-  half-written record.
+  refresh token, and is written to a temp file that is renamed into
+  place, which makes the write atomic.
 - A refresh reads generation G, exchanges, and writes G+1.
 - On `invalid_grant`, re-read before acting. If the generation moved,
   another process already rotated: adopt the stored tokens and continue.
