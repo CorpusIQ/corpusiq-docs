@@ -39,6 +39,15 @@
 - [CorpusIQ vs Airbyte: Instant AI vs Data Pipeline](https://www.corpusiq.io/docs/corpusiq-vs-airbyte): Compare CorpusIQ vs Airbyte. Direct AI queries vs ETL pipelines. Real-time answers vs batch processing. Read-only OAuth vs data warehouse.
 - [CorpusIQ vs Viktor AI: Who Actually Controls the Data?](https://www.corpusiq.io/docs/corpusiq-vs-viktor): CorpusIQ owns the full intelligence layer  --  validation, normalization, entity resolution, anti-drift. Viktor outsources its connector layer so it c
 
+## Developer Guides
+- [CorpusIQ MCP architecture](https://www.corpusiq.io/docs/how-it-works/mcp-architecture): For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture 
+- [MCP authentication and connection failure classes](https://www.corpusiq.io/docs/how-it-works/mcp-auth-failure-classes): A field guide to the eight connection and OAuth failures that break MCP servers in production: symptoms, how to tell them apart, and the fix pattern f
+- [Connectors, explained](https://www.corpusiq.io/docs/how-it-works/connectors-explained): A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why d
+- [The skills engine, explained](https://www.corpusiq.io/docs/how-it-works/skills-explained): Skills are what make CorpusIQ answers good. This page explains how the skills router picks the right capability for your question and keeps answers co
+- [Metric Specs](https://www.corpusiq.io/docs/how-it-works/metric-specs): A metric spec is a small, user-declared recipe for one business number. Define ROAS once, and every assistant returns the same definition with the sam
+- [Rate limits & quotas](https://www.corpusiq.io/docs/how-it-works/rate-limits-and-quotas): Every connector has constraints. This page maps them so you know what to expect in production and how to optimize queries..
+- [Privacy and security](https://www.corpusiq.io/docs/how-it-works/privacy-and-security): The short version: CorpusIQ reads your business data when you ask, returns cited answers, and retains no raw customer files. Full privacy model, scope
+
 ## Connectors
 - [Connectors](https://www.corpusiq.io/docs/connectors): CorpusIQ connects 40+ business tools to ChatGPT, Claude, and Perplexity with read-only OAuth. Browse every connector: Shopify, QuickBooks, Stripe, GA4
 - [ActiveCampaign](https://www.corpusiq.io/docs/connectors/activecampaign): ActiveCampaign holds your email contacts, automations, and pipeline deals - the moment-by-moment record of how prospects move from a first open to a c
