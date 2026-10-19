@@ -99,6 +99,7 @@ nav:
   - MCP Connection Errors: troubleshooting/mcp-connection-errors.md
   - Connector Auth Failed: troubleshooting/connector-auth-failed.md
   - Connector Shows No Data: troubleshooting/connector-shows-no-data.md
+  - Numbers Look Stale: troubleshooting/numbers-look-stale.md
   - Claude Can't See CorpusIQ: troubleshooting/claude-cant-see-corpusiq.md
   - ChatGPT Can't See CorpusIQ: troubleshooting/chatgpt-cant-see-corpusiq.md
 - MCP Education:

@@ -1,10 +1,10 @@
 ---
 title: "Troubleshooting - CorpusIQ Docs"
-description: "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors."
+description: "Seven common CorpusIQ problems and their fixes: connection errors, stale numbers, missing data, auth failures, and assistants that miss your connectors."
 ---
 # Troubleshooting
 
-Six pages for the most common things that go sideways.
+Seven pages for the most common things that go sideways.
 
 - [Error codes reference](error-codes-reference.md) - Error codes,
   messages, and fixes organized by type (auth, rate limit, timeout, vendor).
@@ -16,6 +16,8 @@ Six pages for the most common things that go sideways.
   connect Shopify and it failed."
 - [Connector shows no data](connector-shows-no-data.md) - "It says
   connected, but the answers come back empty."
+- [Numbers look stale](numbers-look-stale.md) - "The answer is not empty,
+  it is older than what the vendor dashboard shows."
 - [Claude can't see CorpusIQ](claude-cant-see-corpusiq.md) - "I added
   CorpusIQ to Claude Desktop and nothing happens."
 - [ChatGPT can't see CorpusIQ](chatgpt-cant-see-corpusiq.md) - "I added

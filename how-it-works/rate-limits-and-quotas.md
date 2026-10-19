@@ -374,6 +374,10 @@ Knowing how old the data is matters when interpreting results.
 
 **Implication:** Don't ask "What's my conversion rate today?" if you have Meta or GA4 as the source. Ask about yesterday.
 
+If a returned number is older than you expected, see
+[Numbers look stale](../troubleshooting/numbers-look-stale.md) for the
+diagnostic order.
+
 ---
 
 ## FAQ
