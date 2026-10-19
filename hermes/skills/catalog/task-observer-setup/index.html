@@ -10653,9 +10653,9 @@
 <p>Live-verified Sep 1, 2026: <code>npx skills add rebelytics/one-skill-to-rule-them-all --list</code> reports "Found 1 skill."</p>
 <p><strong>Hermes manual install</strong> (per the publisher's "other systems" guidance - keep the bundle intact wherever your platform expects skills):</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/rebelytics/one-skill-to-rule-them-all.git<span class="w"> </span>/tmp/task-observer
-mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/skills/task-observer
+mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/task-observer
 cp<span class="w"> </span>-r<span class="w"> </span>/tmp/task-observer/SKILL.md<span class="w"> </span>/tmp/task-observer/references<span class="w"> </span>/tmp/task-observer/scripts<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>~/.hermes/profiles/&lt;your-profile&gt;/skills/task-observer/
+<span class="w">  </span>~/.hermes/profiles/corpusiq/skills/task-observer/
 </code></pre></div>
 <p>The skill runs degraded without <code>references/</code> and <code>scripts/</code> - it will tell you which files are missing.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -10723,7 +10723,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/task-observer/SKILL.md<
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li>Install the skill (above)</li>
-<li>Pick a stable workspace path, e.g. <code>~/.hermes/profiles/&lt;your-profile&gt;/vault/</code> - never a cwd inside an ephemeral checkout</li>
+<li>Pick a stable workspace path, e.g. <code>~/.hermes/profiles/corpusiq/vault/</code> - never a cwd inside an ephemeral checkout</li>
 <li>Add an activation instruction to the profile's AGENTS.md (or a session-start hook): invoke task-observer before the first tool call of any session</li>
 <li>Run real work. The observer writes observations as friction happens</li>
 <li>Review <code>skill-updates/</code> periodically (or on the weekly-review cadence) and patch skills accordingly</li>
@@ -10752,7 +10752,7 @@ this one can be combined with a company's own business data in a single answer.<
 <li><strong>Claude-architected content</strong> - the publisher's own words: the SKILL.md format is cross-platform but "the content assumes Claude's architecture" (Claude path conventions like <code>~/.claude/projects/</code>, Cowork shared folders). Hermes shares the <code>&lt;available_skills&gt;</code> convention, but re-pin all workspace paths to a stable Hermes profile path; users have reported successful Hermes and OpenClaw integrations</li>
 <li><strong>Activation is the weak point</strong> - without the AGENTS.md/hook instruction, description matching alone will not reliably trigger the skill</li>
 <li><strong>CC BY 4.0</strong> - share and adapt freely with attribution to Eoghan Henn / rebelytics.com</li>
-<li>Verify install: <code>npx skills list | grep task-observer</code> (CLI) or <code>ls ~/.hermes/profiles/&lt;your-profile&gt;/skills/task-observer/</code> (manual)</li>
+<li>Verify install: <code>npx skills list | grep task-observer</code> (CLI) or <code>ls ~/.hermes/profiles/corpusiq/skills/task-observer/</code> (manual)</li>
 </ul>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p><a href="https://www.skills.sh/rebelytics/one-skill-to-rule-them-all/task-observer/security/agent-trust-hub">Gen Agent Trust Hub: Warn</a> · <a href="https://www.skills.sh/rebelytics/one-skill-to-rule-them-all/task-observer/security/socket">Socket: Pass</a> · <a href="https://www.skills.sh/rebelytics/one-skill-to-rule-them-all/task-observer/security/snyk">Snyk: Pass</a></p>

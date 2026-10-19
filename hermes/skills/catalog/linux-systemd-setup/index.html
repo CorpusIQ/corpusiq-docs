@@ -10750,12 +10750,12 @@
 
 <span class="k">[Service]</span>
 <span class="na">Type</span><span class="o">=</span><span class="s">simple</span>
-<span class="na">ExecStart</span><span class="o">=</span><span class="s">/usr/local/bin/hermes gateway run --profile &lt;your-profile&gt;</span>
+<span class="na">ExecStart</span><span class="o">=</span><span class="s">/usr/local/bin/hermes gateway run --profile corpusiq</span>
 <span class="na">Restart</span><span class="o">=</span><span class="s">on-failure</span>
 <span class="na">RestartSec</span><span class="o">=</span><span class="s">30</span>
 <span class="na">MemoryMax</span><span class="o">=</span><span class="s">4G</span>
 <span class="na">CPUQuota</span><span class="o">=</span><span class="s">200%</span>
-<span class="na">Environment</span><span class="o">=</span><span class="s">HERMES_HOME=/home/&lt;user&gt;/.hermes/profiles/&lt;your-profile&gt;</span>
+<span class="na">Environment</span><span class="o">=</span><span class="s">HERMES_HOME=/home/hermes/.hermes/profiles/corpusiq</span>
 <span class="na">Environment</span><span class="o">=</span><span class="s">PATH=/home/hermes/.hermes/node/bin:/usr/local/bin:/usr/bin:/bin</span>
 
 <span class="k">[Install]</span>
@@ -10778,12 +10778,12 @@ systemctl<span class="w"> </span>--user<span class="w"> </span>status<span class
 <span class="na">Type</span><span class="o">=</span><span class="s">simple</span>
 <span class="na">User</span><span class="o">=</span><span class="s">hermes</span>
 <span class="na">Group</span><span class="o">=</span><span class="s">hermes</span>
-<span class="na">ExecStart</span><span class="o">=</span><span class="s">/usr/local/bin/hermes gateway run --profile &lt;your-profile&gt;</span>
+<span class="na">ExecStart</span><span class="o">=</span><span class="s">/usr/local/bin/hermes gateway run --profile corpusiq</span>
 <span class="na">Restart</span><span class="o">=</span><span class="s">on-failure</span>
 <span class="na">RestartSec</span><span class="o">=</span><span class="s">30</span>
 <span class="na">MemoryMax</span><span class="o">=</span><span class="s">4G</span>
 <span class="na">CPUQuota</span><span class="o">=</span><span class="s">200%</span>
-<span class="na">Environment</span><span class="o">=</span><span class="s">HERMES_HOME=/home/&lt;user&gt;/.hermes/profiles/&lt;your-profile&gt;</span>
+<span class="na">Environment</span><span class="o">=</span><span class="s">HERMES_HOME=/home/hermes/.hermes/profiles/corpusiq</span>
 
 <span class="k">[Install]</span>
 <span class="na">WantedBy</span><span class="o">=</span><span class="s">multi-user.target</span>

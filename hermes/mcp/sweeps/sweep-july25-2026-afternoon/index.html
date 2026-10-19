@@ -10724,7 +10724,7 @@
 </table>
 <h2 id="blockers-encountered">Blockers Encountered<a class="headerlink" href="#blockers-encountered" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>GitHub Search API:</strong> All queries returned "User flagged as spammy" (HTTP 422) this cycle. Individual repo API calls still worked, so discovery continued without the search endpoint.</li>
+<li><strong>GitHub Search API:</strong> All queries return "User flagged as spammy" (HTTP 422). The classic PAT at <code>~/.hermes/profiles/corpusiq/secrets/github.token</code> (prefix ghp_) has been flagged. Individual repo API calls still work but Search endpoint is unavailable.</li>
 <li><strong>mcp.so:</strong> SSR-only, no API endpoint. Homepage scraping yielded categories but not individual server listings.</li>
 <li><strong>mcpservers.org:</strong> SSR-only, but sitemap XML is accessible and was used as primary data source.</li>
 </ul>

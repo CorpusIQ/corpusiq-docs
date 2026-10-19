@@ -10815,20 +10815,20 @@ hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w
 <h2 id="6-corpusiq-use-cases">6. CorpusIQ Use Cases<a class="headerlink" href="#6-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <p><strong>For the CorpusIQ growth agent profile:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install for corpusiq profile</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>ersh123/hermes-ershov<span class="w"> </span>--enable
+hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>ersh123/hermes-ershov<span class="w"> </span>--enable
 
 <span class="c1"># Run nightly review on CorpusIQ sessions</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--since<span class="w"> </span>24h
+hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--since<span class="w"> </span>24h
 
 <span class="c1"># Inspect proposals about growth strategy</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>inspect<span class="w"> </span>&lt;id&gt;
+hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span class="w"> </span>ershov<span class="w"> </span>inspect<span class="w"> </span>&lt;id&gt;
 
 <span class="c1"># Approve high-quality memory proposals</span>
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>approve<span class="w"> </span>&lt;id&gt;
-hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>apply<span class="w"> </span>&lt;id&gt;
+hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span class="w"> </span>ershov<span class="w"> </span>approve<span class="w"> </span>&lt;id&gt;
+hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span class="w"> </span>ershov<span class="w"> </span>apply<span class="w"> </span>&lt;id&gt;
 </code></pre></div>
 <p><strong>CorpusIQ-specific config:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># In ~/.hermes/profiles/&lt;your-profile&gt;/config.yaml</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># In ~/.hermes/profiles/corpusiq/config.yaml</span>
 <span class="nt">ershov</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">backend</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deepseek</span>
 <span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deepseek-chat</span>
@@ -10843,7 +10843,7 @@ hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&
 - Ershov diary serves as a changelog for the memory layer  --  pairs well with Honcho's peer context</p>
 <p><strong>Cron job for nightly review:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add to crontab: run at 3 AM Arizona daily</span>
-<span class="m">0</span><span class="w"> </span><span class="m">3</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--since<span class="w"> </span>24h<span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/logs/ershov.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+<span class="m">0</span><span class="w"> </span><span class="m">3</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--since<span class="w"> </span>24h<span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/profiles/corpusiq/logs/ershov.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
 </code></pre></div>
 <h2 id="7-troubleshooting">7. Troubleshooting<a class="headerlink" href="#7-troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <table>

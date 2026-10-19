@@ -10828,9 +10828,9 @@
 
 <span class="nt">profiles</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">corpusiq</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">skills_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">~/.hermes/profiles/&lt;your-profile&gt;/skills/</span>
-<span class="w">    </span><span class="nt">memory</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">~/.hermes/profiles/&lt;your-profile&gt;/memory/</span>
-<span class="w">    </span><span class="nt">crons</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">~/.hermes/profiles/&lt;your-profile&gt;/cron/</span>
+<span class="w">    </span><span class="nt">skills_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">~/.hermes/profiles/corpusiq/skills/</span>
+<span class="w">    </span><span class="nt">memory</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">~/.hermes/profiles/corpusiq/memory/</span>
+<span class="w">    </span><span class="nt">crons</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">~/.hermes/profiles/corpusiq/cron/</span>
 </code></pre></div>
 <h2 id="production-patterns">Production Patterns<a class="headerlink" href="#production-patterns" title="Anchor link to this section">&para;</a></h2>
 <p>Model routing: default to local models, escalate to API only when needed. Skills: load skill for every task matching its trigger. Memory: persistent across sessions via GBrain. Crons: verify execution, never trust <code>last_status: ok</code>.</p>

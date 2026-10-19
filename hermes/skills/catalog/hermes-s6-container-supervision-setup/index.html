@@ -10722,7 +10722,7 @@ ls<span class="w"> </span>skills/hermes-s6-container-supervision/
 <h3 id="1-create-a-service-definition-for-your-hermes-agent">1. Create a service definition for your Hermes agent<a class="headerlink" href="#1-create-a-service-definition-for-your-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Example: /etc/s6/sv/hermes-agent/run</span>
 <span class="c1">#!/bin/execlineb -P</span>
-hermes<span class="w"> </span>agent<span class="w"> </span>run<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;
+hermes<span class="w"> </span>agent<span class="w"> </span>run<span class="w"> </span>--profile<span class="w"> </span>corpusiq
 </code></pre></div>
 <h3 id="2-enable-the-service">2. Enable the service<a class="headerlink" href="#2-enable-the-service" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Link into the supervision tree</span>
