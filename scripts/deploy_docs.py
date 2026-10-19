@@ -82,6 +82,26 @@ def deploy_vercel():
              "projectName": "corpusiq-docs"},
             f,
         )
+    # Publish a build marker so an external, credential-free check can tell
+    # WHICH commit production is serving. Without it a stale deploy is
+    # invisible: docs.corpusiq.io served an Oct 15 build for four days while
+    # main kept moving (found 2026-10-19). site/ is gitignored, so this file
+    # never enters the repo.
+    try:
+        sha = subprocess.run(
+            "git rev-parse HEAD", shell=True, cwd=REPO_DIR,
+            capture_output=True, text=True,
+        ).stdout.strip()
+        with open("site/build-info.json", "w") as f:
+            json.dump({
+                "commit": sha,
+                "deployed_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "source": "deploy_docs.py",
+            }, f)
+        print(f"   Build marker: {sha[:10]}")
+    except Exception as exc:
+        print(f"   WARNING: could not write build-info.json ({exc})")
+
     out = run(
         f"npx --yes vercel@latest deploy site --yes --token {token} --team {team} --prod"
     )
