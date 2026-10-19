@@ -21521,3 +21521,1669 @@ MCP uses OAuth 2.0 for authentication, supports scoped access tokens, and encryp
 </details>
 
 [Content truncated; see the canonical page for the complete text.]
+
+---
+# How CorpusIQ works
+URL: https://www.corpusiq.io/docs/how-it-works
+
+# How CorpusIQ works
+
+Short reads that explain what's actually happening when you ask CorpusIQ
+a question. No deep tech - just enough to know what you're using.
+
+- [what-is-corpusiq.md](what-is-corpusiq.md) - the elevator pitch and the
+  problem CorpusIQ solves. Start here.
+- [connectors-explained.md](connectors-explained.md) - what a connector is,
+  why authentication is required, and what data flows where.
+- [mcp-architecture.md](mcp-architecture.md) - the developer deep dive: what
+  Model Context Protocol is, how tools are named and scoped, and how to
+  connect any MCP-compatible client to the live-data layer.
+- [skills-explained.md](skills-explained.md) - the skills engine. Why
+  CorpusIQ answers complex questions consistently instead of randomly.
+- [rate-limits-and-quotas.md](rate-limits-and-quotas.md) - API rate limits,
+  data freshness, and performance expectations. Read this before running
+  production queries or dashboards.
+- [reading-files-and-pdfs.md](reading-files-and-pdfs.md) - how CorpusIQ
+  reads the text inside your PDFs, Word, Excel, and PowerPoint files in
+  Google Drive, OneDrive, and Dropbox - and the one limit (scanned
+  images) worth knowing.
+- [privacy-and-security.md](privacy-and-security.md) - what CorpusIQ does
+  and does not do with your data. Read-only, encrypted, disconnect anytime.
+- [metric-specs.md](metric-specs.md) - declare a number once (MRR, AOV,
+  active customers), then ask any AI client for it and get the same answer
+  every time, with a provenance footer and cross-source drift checks.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connectors, explained
+URL: https://www.corpusiq.io/docs/how-it-works/connectors-explained
+
+# Connectors, explained
+
+A **connector** is a one-way, read-only link between CorpusIQ and one of
+your SaaS tools. Today there are 40+ of them. The list grows every month.
+
+## What a connector does
+
+When you authenticate a connector - say, Shopify - three things happen:
+
+1. You're sent to Shopify's login page (not CorpusIQ's). You sign in
+   there, just like you would normally.
+2. Shopify shows you a consent screen listing exactly what CorpusIQ is
+   asking permission to read: orders, products, customers, etc. You
+   approve.
+3. Shopify hands CorpusIQ a token. CorpusIQ stores it encrypted, scoped
+   to your account only. From then on, when you ask a question that
+   involves Shopify, CorpusIQ uses that token to read your data.
+
+That's it. CorpusIQ never sees your Shopify password. The token can be
+revoked from Shopify's admin panel at any time, or by disconnecting the
+connector from inside CorpusIQ.
+
+## Why you have to authenticate
+
+The alternative is screenshots. You log into Shopify, screenshot the
+revenue chart, paste it into Claude, and ask Claude to interpret it. You
+do that across ten tools and the founder's afternoon is gone.
+
+OAuth eliminates the screenshot step. You authenticate once. After that,
+CorpusIQ reads the live data automatically when a question needs it.
+
+## What "OAuth" means
+
+OAuth is a standard handshake - the same one behind every "Sign in with
+Google" button - for letting one app read data from another **without**
+ever sharing your password. You log in directly with the vendor (Google,
+Shopify, QuickBooks), the vendor shows you what's being requested, and
+you approve. The vendor stays in control. You can revoke access from
+their side whenever you want.
+
+If you've ever connected Zapier or Make to a tool, this is the same
+flow.
+
+## Read-only, every time
+
+CorpusIQ asks for **read** scopes only. It can pull your sales data; it
+cannot place an order. It can pull your QuickBooks P&L; it cannot create
+an invoice. It can read Klaviyo lists; it cannot send a campaign.
+
+This is a deliberate product decision. Writing to vendor accounts is the
+single largest source of "agentic AI went wrong" stories. CorpusIQ
+doesn't take that risk on your behalf.
+
+## The 40+ connectors today
+
+Storefronts and finance: Shopify, QuickBooks, Amazon Seller, eBay,
+GunBroker.
+
+Ad platforms: Google Ads, Meta Ads (Facebook + Instagram), TikTok.
+
+Analytics: GA4, Search Console, Semrush, YouTube.
+
+Email and SMS marketing: Klaviyo, Mailchimp, ActiveCampaign, Constant
+Contact, PostScript.
+
+CRM and pipeline: HubSpot, LeadConnector (GoHighLevel), Calendly,
+Monday, Airtable, Odoo.
+
+Productivity: Google Workspace (Drive, Gmail, Sheets, Calendar),
+Microsoft 365 (OneDrive, Outlook), Dropbox, Slack.
+
+Databases: PostgreSQL, MSSQL, MongoDB, Cosmos DB.
+
+The full per-connector setup guides are in
+[../connectors/](../connectors/README.md).
+
+## When a connector isn't enough
+
+Some questions need three or four connectors at once. "What's my real
+CAC?" pulls from every ad platform, GA4, and Shopify or QuickBooks. You
+don't have to know that - the skills engine handles it. See
+[skills-explained.md](skills-explained.md).
+
+## When you want it off
+
+Disconnect any connector from the CorpusIQ status panel. The token is
+removed from CorpusIQ's active connection state, which requires reauthorization before reuse. Provider-side authorization and token expiration remain governed by the provider; manage them in the provider's controls.
+
+You can reconnect at any time. There is no penalty for switching off and
+back on.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# CorpusIQ MCP architecture
+URL: https://www.corpusiq.io/docs/how-it-works/mcp-architecture
+
+# CorpusIQ MCP architecture
+
+This page is for developers. It explains what Model Context Protocol is,
+how CorpusIQ implements it, and how to connect any MCP-compatible client
+to CorpusIQ's live-data layer.
+
+---
+
+## What is MCP?
+
+Model Context Protocol (MCP) is an open standard for connecting AI
+assistants to external data sources and tools. It was introduced by
+Anthropic and is now supported by Claude, a growing list of third-party
+LLM clients, and an ecosystem of server implementations.
+
+The short version: instead of copy-pasting data into a chat window, you
+run an MCP server that the AI can call like a function. The AI asks for
+data, the server fetches it, the AI gets structured results. No prompt
+engineering, no CSV uploads, no stale context.
+
+MCP servers expose **tools** (callable functions with typed inputs and
+outputs) and optionally **resources** (documents or data the AI can
+read). CorpusIQ exposes tools only - one tool per connector action.
+
+Official spec: https://modelcontextprotocol.io
+
+---
+
+## CorpusIQ's MCP endpoint
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+This is a hosted MCP server. You do not run it locally. You point your
+MCP client at this URL and authenticate with your CorpusIQ credentials.
+CorpusIQ handles everything behind that endpoint: connector auth, rate
+limiting, data normalization, and the skills engine.
+
+**Transport:** HTTP with Server-Sent Events (SSE) for streaming.
+**Auth:** Bearer token (your CorpusIQ JWT, obtained after sign-in).
+
+---
+
+## Architecture overview
+
+```
+Your LLM client (Claude, ChatGPT, custom agent)
+        |
+        | MCP protocol (JSON-RPC over HTTP/SSE)
+        v
+https://mcp2.corpusiq.io/mcp   <-- CorpusIQ MCP server
+        |
+        +-- Connector layer (40+ connectors)
+        |       Shopify, QuickBooks, GA4, HubSpot, Meta Ads,
+        |       Klaviyo, Stripe, Slack, Gmail, and 20+ more.
+        |       Each connector holds an encrypted OAuth token
+        |       scoped to your account only.
+        |
+        +-- Skills engine
+        |       Pre-built runbooks that orchestrate multi-connector
+        |       queries (e.g. "executive-snapshot" pulls from 6
+        |       connectors, joins the data, and returns a unified
+        |       business health summary).
+        |
+        +-- Canonical facts store
+                User-declared business facts (pricing, team, decisions)
+                that ground AI answers in stable, verified context.
+```
+
+---
+
+## The connector layer
+
+Each of CorpusIQ's 40+ connectors is an isolated module that:
+
+1. Holds one encrypted OAuth token per user account.
+2. Exposes a set of typed MCP tools (e.g. `get_orders`, `list_campaigns`,
+   `run_report`).
+3. Translates MCP tool calls into vendor API calls, handles pagination,
+   and normalizes the response into consistent JSON.
+
+External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations. Provider scopes vary by connector and documented operation.
+
+When you call a tool like `get_orders`, the flow is:
+
+```
+MCP tool call  -->  CorpusIQ connector  -->  Shopify REST API
+                                         <--  JSON orders array
+       structured result  <--  normalized JSON
+```
+
+The LLM never touches vendor credentials. The connector is the only
+layer that holds and uses the OAuth token.
+
+---
+
+## The skills engine
+
+Some questions require more than one connector. "What is my true CAC?"
+requires every ad platform, GA4, and Shopify or QuickBooks - at minimum
+four separate API calls, with a join step.
+
+The skills engine encodes these multi-step workflows as **runbooks**:
+ordered sequences of tool calls with join logic and presentation rules.
+When an LLM calls `invoke_skill` with a skill name like
+`executive-snapshot`, the skills engine:
+
+1. Calls the appropriate connectors in the correct order.
+2. Joins the results (e.g. ad spend by date + Shopify revenue by date).
+3. Returns a unified, structured result to the LLM.
+
+Skills are the main reason CorpusIQ answers broad business questions
+better than a raw tool list. The LLM doesn't have to figure out which
+five connectors to call and how to join them - the runbook already knows.
+
+Available skills include:
+
+- `executive-snapshot` - business health across finance, sales, and marketing.
+- `ad-spend-truth-report` - cross-platform ROAS from actual revenue data.
+- `financial-command-center` - cash, AR, expenses, anomalies.
+- `ecommerce-command-center` - store health, LTV, CAC, inventory.
+- `email-lifecycle-intel` - email channel health across all ESPs.
+- `board-update-drafter` - investor-update format from live actuals.
+- `customer-health-scorecard` - per-account health scoring.
+
+Call `invoke_skill` or `list_skills` to discover and run them.
+
+---
+
+## The canonical facts store
+
+CorpusIQ includes a small key-value store for user-declared facts:
+pricing, team composition, product positioning, past decisions. These
+are written explicitly by the user (not inferred), and the AI reads them
+at the start of business questions to ground its answers.
+
+MCP tools: `canonical_context_get`, `canonical_facts_get`,
+`canonical_facts_set`, `canonical_decisions_add`.
+
+This is CorpusIQ's answer to the "the AI doesn't know my business"
+problem. Instead of embedding documents, you declare facts once and they
+persist across sessions.
+
+---
+
+## Security model
+
+- **Operation-level permissions.** Retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated.
+- **Per-user token isolation.** OAuth tokens are stored encrypted and
+  scoped per user account. One user's token cannot be used by another.
+- **Scoped direct-MCP retention.** Each tool call fetches live vendor data.
+  CorpusIQ does not retain raw customer files or full connector response
+  payloads; operational logs retain query text, per-user tool-call metadata,
+  and bounded outcome summaries for up to 30 days. Optional indexed search
+  has a separate embeddings and minimal-metadata lifecycle.
+- **Revocable at any time.** Disconnecting a connector commits a durable
+  inactive state before credential cleanup. Cleanup failures are surfaced for
+  retry rather than reported as successful deletion. You can also revoke from
+  the vendor's side (Shopify admin, Google account settings, etc.).
+
+---
+
+## Connecting Claude Desktop
+
+Claude Desktop supports MCP servers natively via `claude_desktop_config.json`.
+
+Add CorpusIQ as a remote server:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "type": "sse",
+      "url": "https://mcp2.corpusiq.io/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_CORPUSIQ_JWT"
+      }
+    }
+  }
+}
+```
+
+Replace `YOUR_CORPUSIQ_JWT` with the token from your CorpusIQ account
+settings. After saving the file and restarting Claude Desktop, the
+CorpusIQ tools will appear in Claude's tool list automatically.
+
+Config file locations:
+- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+
+---
+
+## Connecting ChatGPT (via Actions or custom GPT)
+
+ChatGPT supports MCP-style integrations through Custom GPT Actions.
+
+1. In the GPT editor, go to **Configure > Actions > Add action**.
+2. Import the CorpusIQ OpenAPI schema (available at
+   `https://mcp2.corpusiq.io/openapi.json`).
+3. Set authentication to **Bearer token** and paste your CorpusIQ JWT.
+4. Save and test with a prompt like "list my Shopify orders from last week."
+
+---
+
+## Connecting any MCP client
+
+Any client that implements the MCP specification can connect to
+CorpusIQ. The endpoint supports standard MCP over HTTP+SSE.
+
+Example using the TypeScript MCP SDK:
+
+```typescript
+import { Client } from "@modelcontextprotocol/sdk/client/index.js";
+import { SSEClientTransport } from "@modelcontextprotocol/sdk/client/sse.js";
+
+const transport = new SSEClientTransport(
+  new URL("https://mcp2.corpusiq.io/mcp"),
+  {
+    requestInit: {
+      headers: {
+        Authorization: `Bearer ${process.env.CORPUSIQ_JWT}`,
+      },
+    },
+  }
+);
+
+const client = new Client({ name: "my-agent", version: "1.0.0" }, {});
+await client.connect(transport);
+
+// List available tools
+const { tools } = await client.listTools();
+
+// Call a tool
+const result = await client.callTool({
+  name: "get_orders",
+  arguments: { limit: 50 },
+});
+```
+
+Python MCP SDK example:
+
+```python
+from mcp import ClientSession
+from mcp.client.sse import sse_client
+import os
+
+async with sse_client(
+    "https://mcp2.corpusiq.io/mcp",
+    headers={"Authorization": f"Bearer {os.environ['CORPUSIQ_JWT']}"}
+) as (read, write):
+    async with ClientSession(read, write) as session:
+        await session.initialize()
+        tools = await session.list_tools()
+        result = await session.call_tool("get_orders", {"limit": 50})
+```
+
+---
+
+## Tool naming conventions
+
+CorpusIQ tool names follow the pattern `connector_action`:
+
+- `get_orders` - Shopify or Amazon Seller orders.
+- `list_campaigns` - Meta Ads or Google Ads campaigns.
+- `run_report` - GA4 custom report.
+- `get_profit_loss` - QuickBooks P&L.
+- `invoke_skill` - run a multi-connector skill by name.
+- `resolve_connector` - discover which tools to call for a given intent.
+
+Call `resolve_connector` with a plain-English intent to get back the
+exact tool schemas relevant to your question. This is the fastest way
+to explore what's available without reading every tool definition.
+
+---
+
+## Rate limits and pagination
+
+CorpusIQ does not impose additional rate limits beyond the underlying
+vendor's own limits. Each connector respects the vendor's rate limit
+headers and backs off automatically.
+
+All list tools (`get_orders`, `list_campaigns`, etc.) support `limit`
+and offset-style pagination (`offset`, `starting_after`, `page_index`
+depending on the connector). See each tool's schema for the exact
+parameter names.
+
+---
+
+## Further reading
+
+- [Connectors explained](connectors-explained.md) - how OAuth and
+  connector auth works.
+- [Skills explained](skills-explained.md) - deeper dive on the
+  runbook/skills engine.
+- [Prompts: MCP developer queries](../prompts/mcp-developer-queries.md)
+  - 20+ example prompts for developers.
+- [Quickstart](../quickstart/README.md) - fastest path from zero to first answer.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# MCP authentication and connection failure classes
+URL: https://www.corpusiq.io/docs/how-it-works/mcp-auth-failure-classes
+
+# MCP authentication and connection failure classes
+
+Most MCP connection failures are reported as one thing: "it does not
+authenticate". In practice the failures split into a small number of
+classes, and each class has a different fix. Choosing the wrong class is
+why the same bug gets patched three times.
+
+This page lists the eight classes we see most often across MCP servers,
+SDKs, and bridges, in the order you should rule them out. Each one gives
+the symptom, why it happens, and the fix pattern.
+
+## How to narrow it down first
+
+Before reading further, get four values from the failing run:
+
+1. The HTTP status and error body from the token endpoint.
+2. Whether the request reached the resource server at all.
+3. Which process mutated the credential store, if any.
+4. Whether the failure is local (credential generation) or remote (the
+   server rejected what we sent).
+
+A 401 from the token endpoint is not the same event as a 401 from the
+resource server, and `invalid_grant` is not the same event as
+`invalid_target`. Most misdiagnosis is one of those two conflations.
+
+## 1. `invalid_grant` on refresh: the rotation race
+
+**Symptom.** Two processes share one credential directory. One refreshes,
+the other gets `invalid_grant`, and the client wipes the stored
+credentials. The user is logged out for no visible reason.
+
+**Why.** RFC 6749 section 5.2 returns `invalid_grant` for an expired, a
+revoked, and an already-used refresh token. The client cannot tell
+"another process rotated this a second ago" from "this login is dead" by
+reading the error. Clearing on the first `invalid_grant` turns a routine
+race into a logout. Retrying the same token is worse: servers with reuse
+detection treat a second presentation of a retired token as a breach and
+revoke the whole token family.
+
+**Fix.** Make a generation counter the correctness mechanism, not a lock
+alone:
+
+- The credential record carries `generation`, `rotated_at`, and the
+  refresh token, and is written to a temp file that is renamed into
+  place, which makes the write atomic.
+- A refresh reads generation G, exchanges, and writes G+1.
+- On `invalid_grant`, re-read before acting. If the generation moved,
+  another process already rotated: adopt the stored tokens and continue.
+- Only clear when a re-read shows the same generation and no other
+  process has refreshed recently. A writer may be between the token
+  response and its rename.
+
+Log the observed generation, the token endpoint status and body, plus the
+pid and session id that cleared the login. That last field is what tells
+you which process sent the losing request.
+
+## 2. A local credential helper reported as a remote auth failure
+
+**Symptom.** Every session on the machine loses an HTTP server for 15
+minutes after a `headersHelper` fails once. Editing the helper does not
+help. The failure is fast, not a timeout.
+
+**Why.** The needs-auth cache is keyed by server name and written on the
+shared 401 path. A helper-backed server should never reach that path: a
+helper that produced nothing is a local credential generation failure,
+not a server asking the user to authenticate. The entry is machine-wide,
+time-boxed, and not invalidated when the server block changes.
+
+**Fix.**
+
+- Key the cache by `(server, auth_mode)` and never write an entry for a
+  `headersHelper` server.
+- Separate the local failure reasons. A helper timeout (often a keychain
+  or SSO prompt waiting on a human) should retry once with backoff inside
+  the session, and should never produce an auth requirement.
+- Only treat a 401 as a remote auth failure when the helper did return a
+  token. Store a hash of the header value, not the value, so new helper
+  output invalidates the entry.
+- Put a hash of the server config (url, command, args, env keys) in the
+  key, so a fixed helper takes effect on the next start rather than after
+  the TTL expires.
+
+This matters beyond the single server: the pattern that makes a header
+helper attractive is many HTTP servers with per-tenant credentials, none
+of them OAuth. One failing helper disabling the set looks, from outside,
+like every connector going unauthenticated at once.
+
+## 3. Metadata validation stricter than RFC 8414
+
+**Symptom.** A conformant authorization server with
+`grant_types_supported: ["client_credentials"]` and no
+`authorization_endpoint` is rejected at discovery.
+
+**Why.** RFC 8414 section 2 requires `authorization_endpoint` only when a
+grant type that uses it is supported, and defaults
+`grant_types_supported` to `["authorization_code", "implicit"]` when the
+field is absent. `response_types_supported` is still required, so an
+empty array there is the correct shape, not a shortcut.
+
+**Fix.** Do not make the field optional outright: that moves the failure
+from `connect()` to `startAuthorization()`, after a round trip, where the
+error is worse. Make the requirement grant-conditional and enforce it in
+one place:
+
+- Require `authorization_endpoint` when `grant_types_supported` is absent
+  or contains `authorization_code` or `implicit`.
+- Require `token_endpoint` unless the metadata advertises only `implicit`.
+- When a provider is selected, assert its grant appears in
+  `grant_types_supported` and fail with a typed error naming both the
+  provider and the supported grant list. That also catches the inverse
+  case: a client-credentials provider pointed at an authorization-code
+  server.
+
+Keep the base metadata record permissive. Strict schemas that strip
+unknown keys force later features to re-fetch, and the grant checks read
+better as a separate validation step.
+
+## 4. Resource binding enforced only when the parameter is present
+
+**Symptom.** A refresh token minted for one audience is accepted when it
+is presented against another, or the client silently drops the `resource`
+parameter and binding is never checked.
+
+**Why.** If the handler only validates `resource` when the request
+carries it, omitting the parameter becomes the bypass. Most clients send
+nothing today, so enforcement-by-omission is the common shape of the bug,
+not the rare one. String equality instead of URI normalization also
+produces false mismatches: `https://as.example/mcp/` and
+`https://as.example/mcp` name the same audience.
+
+**Fix.** Compare against the binding already persisted on the grant, not
+against the request alone:
+
+- `resource` present and not matching the stored binding for the refresh
+  token or authorization code is `invalid_target`, not `invalid_grant`.
+  The latter sends integrators to the wrong layer.
+- Normalize both sides before comparing, so a trailing slash does not
+  change the verdict.
+- `resource` absent must fall back to the stored binding and keep
+  enforcing it. No parameter is not the same as no constraint.
+
+## 5. Percent-encoding handled in the string domain
+
+**Symptom.** A URI template round-trips fine in the unit test and then
+raises `UnicodeEncodeError` when the value is serialized into a JSON-RPC
+payload or an HTTP body.
+
+**Why.** `surrogateescape` does not return valid UTF-8. It returns a
+string containing lone surrogates in the U+DC80 to U+DCFF range. Those
+survive `quote` and `unquote` with the same setting, which is why the
+round-trip test passes, and then break the first `.encode("utf-8")`.
+`json.dumps` will happily emit `"\udce9"`, and encoding the result
+raises.
+
+**Fix.** Keep the value in the byte domain: `unquote_to_bytes` on match,
+`quote_from_bytes` on expand. Matching and expansion then never leave
+bytes, which is what RFC 3986 section 2.1 describes, and any lossy
+decision happens once at the boundary where a handler asks for text. If
+`surrogateescape` stays, add the serialization case to the test table:
+`json.dumps({"uri": value}).encode("utf-8")` must not raise.
+
+The test that separates a real fix from a passing one: percent-encode a
+byte that is illegal in UTF-8, expand it, serialize the way the transport
+will, and assert the original octet comes back. String equality alone
+passes for both designs.
+
+## 6. Host and Origin validation by string prefix
+
+**Symptom.** A local-only MCP server accepts requests whose `Host` or
+`Origin` header is not local.
+
+**Why.** A digits-only port check is necessary but not sufficient. Four
+forms still pass it: an empty port (`127.0.0.1:`), an out-of-range or
+zero-padded port (`:0080`, `:99999`), userinfo splicing (`127.0.0.1:80@evil.com`),
+and an unbracketed IPv6 address (`::1:443` read as host `::1`).
+`startsWith` on the raw header also ignores that `Host` is
+case-insensitive.
+
+**Fix.** Stop matching the header string. Parse it into an authority and
+compare components: host exactly, port present and in range, brackets
+mandatory on the IPv6 branch. Parse `Origin` as a full URI and compare
+against the allowed origin the same way. One parse per request closes the
+whole family instead of one regex per call site.
+
+Test with the inputs that look valid: `127.0.0.1:evil.com`,
+`127.0.0.1:80.evil.com`, `127.0.0.1:`, `[::1]:443x`,
+`localhost:3000.evil.com`.
+
+## 7. Bridges and proxies: the destination that was not validated
+
+**Symptom.** A bridge or remote-proxy client is allowed to reach internal
+addresses, or a token is sent to an endpoint the resource server chose.
+
+**Why.** Three gaps recur:
+
+- Redirects are validated at the first hop only. The bypass is the
+  address the redirect resolves to, and a host that answers with a public
+  address for the check and a private one for the connection defeats both
+  checks.
+- `token_endpoint` is attacker-named metadata that receives a secret.
+- Proxy environment variables (`HTTPS_PROXY`) decide where the process
+  actually connects, so a host allow-list enforced before the proxy is
+  chosen can still be routed internally.
+
+**Fix.** Re-validate at each hop and connect to the address that was
+validated rather than re-resolving afterwards. Require the token endpoint
+to be same-origin with the issuer it was selected from, or require
+explicit user confirmation when it is not. State that proxy configuration
+is part of the destination the user must be able to inspect.
+
+## 8. Transport teardown on a late protocol notification
+
+**Symptom.** A progress notification written immediately before a result
+is reported as an unknown token, and the connection is dropped. The same
+call succeeds when the notification is sent earlier.
+
+**Why.** The client keeps an in-flight registry keyed by progress token
+and retires the entry when it dispatches the result. When the
+notification and the result arrive in the same read, the result can be
+handled first, the token retired, and the notification then matches
+nothing. Dropping the connection is the real defect: the call succeeded,
+and a late notification for a completed request should at most be
+ignored. Reusing a JSON-RPC request id as the progress token adds a
+second failure, because a completed request's id can collide with a live
+token if ids are recycled or both spaces share one map.
+
+**Fix.** Retire the token only after the request completes and every
+notification queued for it has been drained, and never let an unmatched
+notification tear down the transport. Use an opaque token per request,
+distinct from the id space.
+
+## A note on ordering
+
+The classes above are not equally likely, and they are cheap to tell
+apart. Token endpoint status first, then whether the resource server was
+reached, then which process wrote the credential store. Reaching for the
+credential store before reading the token endpoint response is how a
+rotation race becomes a logout, and how a broken header helper becomes a
+15-minute outage.
+
+If you are connecting CorpusIQ's MCP server and the failure does not fit
+one of these, the endpoint is `https://mcp2.corpusiq.io/mcp` and the
+[quick start](../quick-start.md) covers the client configuration.
+
+---
+# Metric Specs
+URL: https://www.corpusiq.io/docs/how-it-works/metric-specs
+
+# Metric Specs
+
+A metric spec is a small, user-declared recipe for one business number. You
+write it once. CorpusIQ resolves it live every time anyone asks for that
+number across Claude, ChatGPT, or any other MCP client pointed at your
+account. The number is computed the same way every time, against current
+vendor data, with a one-line audit trail attached.
+
+This page is the onboarding guide. By the end you should be able to declare
+your first spec, ask Claude for its value, read the provenance footer, and
+know what the warnings mean when they show up.
+
+## What is a metric spec?
+
+A metric spec describes **how to compute** a number. The next resolve call
+runs against fresh vendor responses rather than a stored metric value.
+CorpusIQ does not retain raw customer files or full connector response
+payloads; operational logs retain query text, per-user tool-call metadata,
+and bounded outcome summaries for up to 30 days.
+
+A spec has a key (`mrr`), a label (`Monthly Recurring Revenue`), a
+description (the paragraph you wrote so future-you remembers what counted),
+an expression in the mini-DSL (the actual recipe), an expected unit, and
+some optional bookkeeping (ownership, freshness budget, cross-source peers).
+
+Specs are not the same thing as Truth Sources. A Truth Source tells the
+system *where the answer lives* - your finance workbook, your KPI doc,
+your CEO's head. A metric spec tells the system *how to compute the
+answer* from connector data. Both flavors live in the same Canonical
+store, with the same versioning and approval gates. When the same key
+has both a spec and a truth source, the spec wins by default. (There's a
+forward-compat flag for flipping that, covered in the pitfalls section.)
+
+## Why we built this
+
+Anthropic published a story about how they unify analytics on top of a
+single warehouse with a semantic layer that compiles to SQL. The semantic
+layer is the only place "MRR" is defined; every dashboard, prompt, and
+report dereferences the same definition. They call the absence of
+ambiguity "no drift."
+
+We can't ship that architecture. CorpusIQ doesn't have a warehouse, by
+design - direct MCP resolves against 30+ vendor APIs live, on
+every request. Two of those vendors will sometimes disagree about a
+number (your Stripe MRR and your QuickBooks recurring revenue won't
+always reconcile, and that's interesting), and we want to surface that
+honestly rather than pretending one of them is right.
+
+So we kept Anthropic's idea - the user-declared computation is the
+canonical definition - and changed the substrate. The DSL compiles to
+connector tool calls, not SQL. Lineage is a graph of vendor reads, not
+tables. Drift is vendor-vs-vendor disagreement we expose, not stale views.
+
+Same outcome (you trust the number). Smaller surface area. No
+storage-tenet betrayal.
+
+## Anatomy of a spec
+
+Here's `monthly_paid_revenue_stripe.json` from the starter template pack.
+Every field annotated.
+
+```json
+{
+  "key": "monthly_paid_revenue_stripe",
+  "label": "Monthly Paid Revenue (Stripe)",
+  "description": "Sum of successful Stripe charge amounts in the trailing 30 days. Includes one-time charges, recurring subscription charges, and metered overages - anything Stripe successfully captured. Excludes failed, pending, and refunded charges.",
+  "expression": "stripe.list_charges(status=\"succeeded\", days_back=30).aggregate(sum, field=amount)",
+  "expected_unit": "USD",
+  "expected_freshness": "daily",
+  "cross_source_checks": [],
+  "tolerance_percent": 0.0,
+  "owner_email": "",
+  "last_reviewed_at": "",
+  "variables": {},
+  "prefer_truth_source": false
+}
+```
+
+| Field | What it does |
+|---|---|
+| `key` | Stable identifier the AI uses when calling `metric_spec_resolve`. Lowercase, underscores. Pick a name your future-self will recognize. |
+| `label` | Human-readable name that shows up in the provenance footer. |
+| `description` | Free-text paragraph. Write it for a teammate joining six months from now who has to know what counted. |
+| `expression` | The DSL recipe. See the grammar section below. |
+| `expected_unit` | One of `USD`, `count`, `ratio`, `percent`, `days`. Drives how the value is formatted in answers. |
+| `expected_freshness` | One of `realtime`, `daily`, `monthly`. **Metadata only**. The resolver computes the value live instead of reusing a prior resolution, and does not enforce freshness - the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale." |
+| `cross_source_checks` | Other spec keys whose result should agree with this one within `tolerance_percent`. Triggers automatic drift detection. |
+| `tolerance_percent` | How much disagreement is acceptable before drift is flagged. `2.0` means "within 2% is fine." |
+| `owner_email` | Who's responsible for this definition. Surfaces in audits. |
+| `last_reviewed_at` | When the owner last re-attested. Specs older than 90 days get a "stale" annotation in the provenance footer. |
+| `variables` | Per-spec substitution table for `$user.<var>` references in the expression. Lets you parameterize without leaking config into the DSL. |
+| `prefer_truth_source` | Forward-compat flag, currently inert. See pitfalls. |
+
+The two blank fields in the template (`owner_email`, `last_reviewed_at`)
+are intentionally empty - you fill them in when you adopt the spec.
+
+## The mini-DSL grammar
+
+The expression language is small. It covers four operations and nothing
+else, because the entire point of the registry is that you can read a
+spec and know what it does without running it.
+
+```
+expression  := atom | aggregate | union | arith | metric_ref
+atom        := <connector>.<tool>(<kwargs>).<field>?
+aggregate   := <atom>.aggregate(<op>, field=<field>, where=<pred>?)
+union       := union_distinct(<atom>, <atom>, ...)
+arith       := arith(<expr> <op> <expr>)
+metric_ref  := metric(<key>)
+agg_op      := sum | mean | count | min | max
+op          := + | - | * | /
+```
+
+### Connector tool call (atom)
+
+```
+stripe.get_balance().available[0].amount
+```
+
+Calls the connector tool, returns the field path. Atoms are the
+building blocks; everything else composes them.
+
+### Aggregate
+
+```
+stripe.list_charges(status="succeeded", days_back=30).aggregate(
+  sum,
+  field=amount
+)
+```
+
+Calls the tool, pulls every row, applies the op (`sum`, `mean`, `count`,
+`min`, `max`) over the named field. Optional `where=<predicate>` filters
+rows in memory before the aggregate.
+
+### Union (distinct)
+
+```
+union_distinct(
+  shopify.list_orders(financial_status="paid", days_back=30).customer.email,
+  stripe.list_charges(status="succeeded", days_back=30).customer_email
+).count()
+```
+
+Builds a deduplicated set across multiple source lists, then counts it.
+This is the canonical "distinct customers across all my payment rails"
+shape. The trailing `.count()` is a shorthand for
+`.aggregate(count, ...)` when the input is a flat list.
+
+### Arithmetic and metric refs
+
+```
+arith( metric(stripe_revenue) - metric(stripe_refunds) )
+```
+
+`metric(<key>)` resolves another spec and uses its value. `arith(...)`
+lets you combine values with `+ - * /`. Both forms make it cheap to
+build composite numbers (net revenue, gross-minus-fees, blended CAC)
+from primitive specs without restating the underlying recipes.
+
+## Declaring your first spec
+
+You don't write JSON by hand. The flow is conversational.
+
+### Step 1 - Copy a template
+
+Three starter templates ship today, all Stripe-only:
+`monthly_paid_revenue_stripe`, `active_paying_customers_stripe`, and
+`new_customers_last_30_days`. They're intentionally narrow - Stripe is
+the connector we have the cleanest dispatch audit on. A Shopify pack is
+on the short list. Ask `support@corpusiq.io` if you want a copy of a
+specific template up front, or just hand Claude the JSON in §"Anatomy
+of a spec" above and ask it to customize for your use case.
+
+Fill in the two blanks (`owner_email`, `last_reviewed_at`). Edit the
+`key` and `label` if you want something more specific to your business.
+Adjust the description so it reflects what you actually mean by this
+number, not what the template author meant.
+
+### Step 2 - Hand it to Claude
+
+```
+You: Save this as a metric spec.
+
+  {
+    "key": "monthly_paid_revenue_stripe",
+    "label": "Monthly Paid Revenue (Stripe)",
+    "description": "Sum of successful Stripe charges in the trailing 30 days.",
+    "expression": "stripe.list_charges(status=\"succeeded\", days_back=30).aggregate(sum, field=amount)",
+    "expected_unit": "USD",
+    "expected_freshness": "daily",
+    "cross_source_checks": [],
+    "tolerance_percent": 0.0,
+    "owner_email": "you@yourco.com",
+    "last_reviewed_at": "2026-06-05",
+    "variables": {},
+    "prefer_truth_source": false
+  }
+
+Claude: Calling metric_spec_set...
+        Returned pending_write_id pcw_8c3f...
+        validation_warnings: []
+        Do you want to commit this spec? (y/n)
+
+You: yes
+
+Claude: Calling canonical_pending_commit(pending_write_id="pcw_8c3f...")
+        Committed. Spec monthly_paid_revenue_stripe is now active at version 1.
+```
+
+The two-step `metric_spec_set` → `canonical_pending_commit` pattern is
+the same one canonical facts and truth sources use. The first call
+proposes the change and returns a pending-write id plus any
+`validation_warnings`. Nothing is durable until you commit. If the spec
+fails its eval (and there is one - see the soft eval gate section), the
+warnings show up here, before the commit; you get to read them and
+decide whether to ship anyway.
+
+### Step 3 - Confirm it landed
+
+```
+You: list my metric specs
+
+Claude: Calling metric_spec_list...
+        1. monthly_paid_revenue_stripe (USD, daily) v1 - Monthly Paid Revenue (Stripe)
+```
+
+### Step 4 - Use it
+
+```
+You: what is our monthly paid revenue?
+
+Claude: Calling metric_spec_resolve(key="monthly_paid_revenue_stripe")...
+
+        $47,312
+        Monthly Paid Revenue (Stripe) $47,312 · spec v1 · 1 Stripe call (847 rows)
+
+        Powered by CorpusIQ
+```
+
+The value is on its own line. The provenance footer is the italic line
+right below it. Claude is contractually required to render the footer
+verbatim - the data-contract text on the tool response pins that rule
+("Do not paraphrase it, do not split it across lines, do not strip the
+bullet separators. It is the audit trail.").
+
+## The provenance footer
+
+The footer tells you exactly what happened on the last resolve. Here's
+the basic shape:
+
+```
+Monthly Paid Revenue (Stripe) $47,312 · spec v2 (reviewed 23 days ago) · 1 Stripe call (847 rows)
+```
+
+Parsed left to right:
+
+- **Label + value with unit**: `Monthly Paid Revenue (Stripe) $47,312`. USD formats as currency; counts as integers; ratios and percentages format appropriately.
+- **Spec version + review age**: `spec v2 (reviewed 23 days ago)`. The age comes from `last_reviewed_at`. Past 90 days you should re-attest - write the date back and confirm the description still matches your intent.
+- **Source-call summary**: `1 Stripe call (847 rows)`. This is row count and connector count only - never row data. Multiple connectors get grouped with `+`. A spec that hit Stripe twice and QuickBooks once would render `2 Stripe calls (910 rows) + 1 Quickbooks call (84 rows)`.
+
+When `cross_source_checks` is set and the peer disagrees, a drift block
+appends:
+
+```
+MRR $47,312 · spec v3 (reviewed 23 days ago) · 1 Stripe call (847 rows) · drift vs qbo_recurring_revenue: 0.89% (OUTSIDE TOLERANCE)
+```
+
+When `validation_warnings` is non-empty, a warning section appends:
+
+```
+New Customers (Last 30 Days) 42 · spec v1 · 1 Stripe call (42 rows) · ⚠ eval golden value mismatch: expected 38, got 42
+```
+
+The warning marker (`⚠`) is intentional - it makes the surface visible
+when an answer scrolls past in chat. The renderer truncates long
+warnings to 80 chars each and shows at most three, with a `+N more`
+suffix when there are extras.
+
+[Content truncated; see the canonical page for the complete text.]
+
+---
+# Privacy and security
+URL: https://www.corpusiq.io/docs/how-it-works/privacy-and-security
+
+# Privacy and security
+
+The short version: CorpusIQ reads your business data when you ask it to,
+uses scoped retention, and lets you disconnect at any moment.
+It never writes to your vendor accounts. It never sells or resells your
+data to anyone.
+
+This page is plain English. The technical version lives in the
+authentication and architecture docs.
+
+## What CorpusIQ does NOT do
+
+- It does **not** sell your data. There is no advertising business, no
+  third-party data resale, no aggregated-anonymized-data side business.
+- It does **not** use customer data to train CorpusIQ models. Your tokens and
+  query results stay scoped to your account, while conversation handling follows
+  the selected AI provider's plan and settings.
+- It does **not** write to your vendor accounts. Every connector is
+  authenticated with **read-only** scopes. CorpusIQ cannot place an
+  order in Shopify, send an email in Klaviyo, or post a message in
+  Slack.
+- It does **not** retain raw customer files or full connector response
+  payloads for direct MCP requests. Query text, per-user tool-call
+  metadata, and bounded outcome summaries remain in operational logs for
+  up to 30 days. Optional indexed search has a separate embeddings and
+  minimal-metadata lifecycle.
+- It does **not** share data across tenants. Your tokens and data are
+  isolated to your user account. Other CorpusIQ users cannot see them.
+
+## What CorpusIQ does
+
+**Authenticates each connector via OAuth.** You log in with the vendor
+(Google, Shopify, QuickBooks) - not with CorpusIQ. The vendor shows you
+the exact permissions being requested and you approve. CorpusIQ never
+sees your vendor passwords.
+
+**Stores your access tokens encrypted.** Tokens are held in Azure Key
+Vault and encrypted at rest. They are keyed to your CorpusIQ user
+identity and not accessible to other users or to CorpusIQ staff in plain
+text.
+
+**Reads only what a query needs.** When you ask "what were last week's
+Shopify orders?", CorpusIQ asks Shopify for last week's orders.
+Nothing more.
+
+**Refreshes tokens automatically.** Most OAuth tokens expire every hour.
+CorpusIQ uses the refresh-token flow (where the vendor provides one) so
+you don't have to re-authenticate constantly. The refresh token is also
+encrypted at rest.
+
+**Disconnects fail closed.** When a disconnect tombstone commits, CorpusIQ stops selecting the stored grant and requires reauthorization before reuse. Credential cleanup is attempted after the tombstone; provider authorization remains provider-governed and can be managed from the provider admin panel.
+
+## Where the data is
+
+CorpusIQ runs on Microsoft Azure. Tokens are in Azure Key Vault. Operational
+MCP logs are retained for up to 30 days. The infrastructure is multi-tenant
+but the data is single-tenant per user - every read uses your user
+identity to scope the query.
+
+## Authentication, in two layers
+
+There are two authentications happening when you use CorpusIQ. They are
+independent.
+
+**Layer 1 - Who you are to CorpusIQ.** You sign into CorpusIQ once. This
+gives you an identity token. Every request you make from Claude or
+ChatGPT carries that identity so CorpusIQ knows it's you.
+
+**Layer 2 - CorpusIQ's link to each vendor.** Separately, each connector
+holds its own OAuth token scoped to your CorpusIQ identity. When you
+ask a question, CorpusIQ looks up the right vendor token, invokes the documented operation and returns the result.
+
+If Layer 1 fails, you can't use CorpusIQ at all. If Layer 2 fails for a
+specific connector (token expired, vendor revoked, scopes changed),
+only that connector stops working - the others are unaffected.
+
+## What the AI assistant sees
+
+When you ask Claude or ChatGPT a question through CorpusIQ, the
+assistant only sees:
+
+- The tools CorpusIQ exposes to it (the connectors you've authorized).
+- The query results CorpusIQ returns for the specific question.
+
+The assistant does not see your raw tokens. It does not have direct
+network access to Shopify or QuickBooks. Every external call goes
+through CorpusIQ's server, which enforces operation-level routing and safety annotations.
+
+## What to do if something feels wrong
+
+- **Disconnect first, ask questions later.** Disconnecting in CorpusIQ commits inactive connection state and requires reauthorization before reuse. Provider authorization remains provider-governed.
+- **Revoke from the vendor side too.** Google, Microsoft, Shopify, and
+  most other vendors have a "Connected apps" page where you can revoke
+  CorpusIQ's access directly. That's belt and suspenders.
+- **Email security questions to the CorpusIQ team.** They get answered.
+
+## Disconnect anytime
+
+This is the bottom line: CorpusIQ only works for as long as you let it.
+After a disconnect tombstone commits, CorpusIQ stops selecting that connector grant and requires reauthorization before reuse. Optional indexed-search embeddings and minimal metadata
+are removed on connector revocation or account deletion; operational logs
+expire within 30 days, and deletion/compliance receipts may remain for up
+to 24 months.
+
+That's the deal.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Rate limits & quotas
+URL: https://www.corpusiq.io/docs/how-it-works/rate-limits-and-quotas
+
+# Rate limits & quotas
+
+Every connector has constraints. This page maps them so you know what to expect in production and how to optimize queries.
+
+## What you need to know
+
+**Three layers of rate limiting can affect your queries:**
+
+1. **Vendor rate limits** - The underlying API (Shopify, QuickBooks, Google Ads) has per-second or per-day request limits.
+2. **CorpusIQ query limits** - How many records can one query return? How long can a query run?
+3. **Plan limits** (if applicable) - Some vendors (Shopify Plus, Google Workspace enterprise) enforce stricter limits.
+
+You don't usually hit these limits in normal use. But if you're running large-scale queries or automated dashboards, knowing them helps you avoid surprises.
+
+---
+
+## CorpusIQ-level limits
+
+These apply to all queries, regardless of connector.
+
+| Limit | Value | Notes |
+|-------|-------|-------|
+| Query timeout | 60 seconds | If a connector doesn't respond in 60s, the query fails. |
+| Max result records per query | 10,000 | Queries returning >10k records will be truncated. Ask for specific filters (by date, by product, by status) to get subsets. |
+| Concurrent queries per account | No hard limit | CorpusIQ queues requests. If you fire 100 queries simultaneously, they'll run sequentially, but you won't be rate-limited. |
+| Refresh token validity | Vendor-dependent, 30-90 days | Tokens are automatically refreshed; you shouldn't see this unless a token is not used for a very long time. |
+
+---
+
+## Vendor rate limits by connector
+
+### E-commerce & Storefronts
+
+#### Shopify
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 2 req/sec (standard plan); higher on Shopify Plus | Batch requests. If you're hitting this, stagger queries by 500ms. |
+| **Daily API call limit** | None; instead, rate-limited by second | Not a concern for typical use. |
+| **Historical data retention** | Orders: 6 months (standard); 3 years (Plus) | Ask for recent orders. For older data, you'll get no results. |
+| **Result limit per API call** | 250 records | If you need >250 orders, paginate. CorpusIQ handles this automatically. |
+| **Webhook limits** | No customer-facing webhook event contract is currently published | Use the documented request/response APIs. |
+
+**Optimization:** Asking "Orders from last 30 days" is much faster than "All orders ever."
+
+#### eBay
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per day** | 5,000 calls/day (standard seller) | Large batch operations may hit this. Break into smaller queries by date or item. |
+| **Concurrent requests** | 2 simultaneous | Run queries sequentially, not in parallel. |
+| **Historical data** | Last 90 days for some endpoints | Ask for recent activity. |
+
+**Optimization:** Don't ask "Show me all my sales ever." Ask "Show me sales from the last 30 days."
+
+#### Amazon Seller
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API call rate** | 1 req/sec (orders); 0.1 req/sec (inventory) | CorpusIQ respects this. Expect inventory queries to be slower. |
+| **Daily request limit** | 50k calls/day (varies by operation) | Unlikely to hit in normal use. If you do, reach out to Amazon support. |
+
+#### GunBroker
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **Listing data** | Real-time | No delay; queries run instantly. |
+| **Sales history** | Last 1 year | Older sales aren't available. |
+
+---
+
+### Financial & Accounting
+
+#### QuickBooks Online
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per minute** | 120 requests/minute | Very generous. Unlikely to hit. |
+| **Query complexity** | No explicit limit | Large date ranges and complex filters are fine. |
+| **Historical data** | Full history (all years) | No retention limit. |
+| **Batch operations** | Not applicable (read-only) | - |
+
+**Optimization:** QuickBooks is very fast. No special optimization needed.
+
+#### Stripe (if accessed via QuickBooks or database)
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 100 req/sec | Very high. No concern for CorpusIQ use. |
+| **Data retention** | Full history | No limit. |
+
+---
+
+### Advertising Platforms
+
+#### Google Ads
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per day** | 60,000 calls/day | Significant. For large accounts with hundreds of keywords/campaigns, you may approach this. |
+| **Queries per second** | No explicit per-second limit; batched. | CorpusIQ queues requests. |
+| **MCC (Manager Account)** | 60,000 calls/day per manager account | If you manage 100 client accounts, you have 60k across all of them, not per client. Plan accordingly. |
+| **Historical data** | Last 2 years | Can't query pre-2022 data. |
+| **Keyword/campaign count** | No limit | You can have thousands. CorpusIQ handles pagination. |
+
+**Optimization:** 
+- If you have >500 active keywords, don't ask "All keywords." Ask "Top 50 keywords by spend" or "Keywords with <5% CTR."
+- Asking for daily breakdowns ("Sales by day last month") costs more API calls than "Total sales last month." Reserve daily breakdowns for important analyses.
+
+#### Meta Ads (Facebook, Instagram)
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per day** | 120 calls/min (standard); higher for large accounts | Reasonable. You can fire 2 calls/sec. |
+| **Concurrent requests** | No explicit limit | Queue requests. |
+| **Historical data** | Last 28 days (most endpoints) | Can't query campaigns from 2 months ago. |
+| **Conversion data latency** | 6-12 hours | Data is not real-time. Yesterday's conversions may not be visible yet. |
+
+**Optimization:** 
+- Don't ask "All campaigns ever." Ask "Active campaigns from the last 28 days."
+- Expect conversion data to be 1 day behind.
+
+#### TikTok Ads
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per day** | 1,000 calls/day (varies by tier) | Tighter than Google or Meta. Don't fire hundreds of queries in rapid succession. |
+| **Rate limiting** | 429 status if exceeded | CorpusIQ retries automatically. |
+| **Historical data** | Last 90 days | Can't query older campaigns. |
+
+**Optimization:** Batch your queries. Ask 1 question per hour rather than 10 questions per minute.
+
+---
+
+### Analytics & SEO
+
+#### Google Analytics 4 (GA4)
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per day** | 50,000 requests/day per property | High. Won't hit this. |
+| **Rows per report** | 100,000 rows | Asking for "All page paths ever" will return the top 100k. Use filters for specific sections. |
+| **Unique values (dimensions)** | 10 million+ | Not a concern. |
+| **Real-time data** | 30-minute delay typical | Real-time visitor count is available, but conversion data has a ~30 min lag. |
+
+**Optimization:** 
+- GA4 is very fast. No special optimization needed.
+- If you need a breakdown by hundreds of dimensions (e.g., traffic by city, device, browser, source), you might hit row limits. Ask for top 50 or top 100 instead.
+
+#### Google Search Console
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 10 req/sec | High. No concern. |
+| **Data retention** | Last 16 months | Can't query older than 16 months. |
+| **Pages indexed** | No limit | You can have millions. |
+
+**Optimization:** Search Console is very fast.
+
+#### Semrush
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per subscription** | Depends on plan (100-100k calls/month) | Check your Semrush plan. If you hit limits, upgrade. |
+| **Rate limiting** | 10 req/sec | Fast. No concern. |
+| **Data freshness** | 1-2 weeks | Keyword data is not real-time. |
+
+**Optimization:** Don't run Semrush reports daily. Weekly or monthly is typical.
+
+#### YouTube
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API quota** | 1,000,000 units/day | Very high. Won't hit. |
+| **Concurrent requests** | No explicit limit | Queue requests. |
+| **Search limit** | 20 results per search | Pagination handled by CorpusIQ. |
+
+**Optimization:** YouTube is fast and generous.
+
+---
+
+### Email & SMS Marketing
+
+#### Klaviyo
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 3 req/sec (standard); 10 req/sec (Plus) | Moderate. If you're hitting this, space out queries by 300-500ms. |
+| **List size** | No limit | Can have lists with millions of subscribers. |
+| **Historical data** | Full history | No retention limit. |
+
+**Optimization:** Klaviyo is fast. No special tuning needed for typical use.
+
+#### Mailchimp
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 10 req/sec | High. No concern. |
+| **Historical data** | Full history | No retention limit. |
+
+**Optimization:** Mailchimp is fast.
+
+#### Constant Contact & ActiveCampaign
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 10-20 req/sec (varies) | High. No concern. |
+| **Historical data** | Full history | No retention limit. |
+
+---
+
+### CRM & Pipeline
+
+#### HubSpot
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 10 req/sec | High. No concern. |
+| **Contacts limit** | No explicit limit | Can query millions. CorpusIQ paginates automatically. |
+| **Historical data** | Full history | No retention limit. |
+
+**Optimization:** HubSpot is generous. No tuning needed.
+
+#### LeadConnector / GoHighLevel
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 5 req/sec (standard) | Moderate. Stagger queries if needed. |
+| **Contacts limit** | No explicit limit | Paginated. |
+
+---
+
+### Productivity & Files
+
+#### Google Workspace (Gmail, Drive, Calendar, Sheets)
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **Gmail API** | 1M emails/day (standard); higher for enterprise | Won't hit. |
+| **Drive API** | 1M files/day listed | Won't hit. |
+| **Sheets API** | 300 read/write requests/min per project | Reasonable. |
+| **Calendar API** | 1M events/day per calendar | Won't hit. |
+
+**Optimization:** Google Workspace connectors are fast. No special tuning.
+
+#### Microsoft 365 (Outlook, OneDrive, Calendar)
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **Microsoft Graph API** | 1,000 requests/minute per tenant | Very high. Won't hit. |
+| **Email API** | 1M messages/day | Won't hit. |
+
+**Optimization:** Microsoft 365 is fast.
+
+#### Slack
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 1 req/sec (standard); higher for enterprise | Moderate. Stagger if needed. |
+| **Message history** | Last 90 days (free tier); full history (paid) | On free tier, can't search older messages. |
+| **File uploads/retention** | Not applicable (read-only) | - |
+
+**Optimization:** Space out queries on free tier Slack workspaces if you're hitting rate limits.
+
+#### Dropbox
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 2-10 req/sec (varies) | Moderate. |
+| **File listing** | No limit | Pagination handled. |
+
+#### Monday.com
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per month** | Complexity-based rate limiting (not per-call) | Query complexity matters more than count. Aggressive queries use more "points." |
+| **Board size** | No explicit limit | Can have thousands of items. Paginated. |
+
+**Optimization:** Keep queries reasonably scoped. Don't ask for "All fields on all 100k items." Filter by date or status.
+
+#### Airtable
+
+| Limit | Value | Strategy |
+|-------|-------|----------|
+| **API calls per second** | 5 req/sec (standard); higher (enterprise) | Moderate. Stagger if needed. |
+| **Record limit per view** | 100k visible; paginated by CorpusIQ | No concern. |
+
+---
+
+### Databases (PostgreSQL, MSSQL, MongoDB, Cosmos DB)
+
+These are self-hosted or your own cloud accounts, so rate limits depend on your infrastructure.
+
+[Content truncated; see the canonical page for the complete text.]
+
+---
+# Reading files and PDFs
+URL: https://www.corpusiq.io/docs/how-it-works/reading-files-and-pdfs
+
+# Reading files and PDFs
+
+When you connect a file source - Google Drive, OneDrive, or Dropbox -
+CorpusIQ doesn't just see filenames. It reads the text *inside* your
+documents and answers from it. Ask "what's the deadline in the vendor
+contract in my Drive?" and CorpusIQ opens the PDF, pulls the text, and
+answers - citing the file.
+
+This page explains how that text extraction works, and where its limits
+are.
+
+## Which files it reads
+
+Across Google Drive, OneDrive, and Dropbox, CorpusIQ reads the common
+document formats:
+
+- **PDF** - the main one, and the one with the most care behind it
+  (below).
+- **Word** (`.docx`, and older `.doc` where possible).
+- **Excel** (`.xlsx`) - sheets and rows.
+- **PowerPoint** (`.pptx`) - slide text.
+
+The same engine runs no matter which of the three file connectors the
+document lives in. Connect Dropbox or Drive or OneDrive - the reading
+behaves the same way.
+
+## How PDF reading works
+
+PDFs are deceptively hard. A clean-looking invoice can store its text in
+any order, split across columns, or locked inside form fields. CorpusIQ
+uses a three-tier strategy and automatically picks the best one that
+works for each file:
+
+1. **Form-field reading first.** Many business PDFs - tax forms,
+   e-filed paperwork, structured applications - store their real values
+   in named form fields rather than free-flowing text. CorpusIQ reads
+   those fields directly. This is the most reliable data in the
+   document, so it's surfaced first.
+
+2. **Layout-aware extraction.** For everything else, CorpusIQ reads the
+   text using each character's actual position on the page. That's the
+   part that keeps **tables and multi-column pages intact** - a label
+   stays matched to its value instead of getting scrambled the way a
+   plain text dump would. A two-column report or a line-item table comes
+   out readable, not jumbled.
+
+3. **Plain-text fallback.** If the layout-aware pass isn't available for
+   a given file, a straightforward text reader runs as a safety net, so
+   you still get an answer.
+
+You can also point CorpusIQ at a **specific page range** in a long
+document, or have it **search the document for a term** and return only
+the pages that mention it - useful when the file is 200 pages and you
+care about one clause.
+
+## The one limit worth knowing
+
+CorpusIQ reads PDFs that contain real, digital text - the kind produced
+when a document is exported or saved as a PDF. That covers the vast
+majority of business documents.
+
+What it does **not** do today is read a PDF that's purely a *scanned
+image* - a photo or scan of a page with no embedded text behind it. For
+those, CorpusIQ will tell you honestly that there's no extractable text
+rather than guess. Reading text off scanned images is a separate
+capability (optical character recognition), and it isn't part of the
+file connectors today.
+
+If a scanned document doesn't read, the quickest fix is usually to open
+it in the source app and re-save or export it as a text-based PDF, which
+most tools can do.
+
+## What this unlocks
+
+Because CorpusIQ reads the contents and not just the file list, you can
+ask questions that span your documents the same way you ask about your
+sales or marketing data:
+
+- "Summarize the statement of work in the contract in my Drive."
+- "What payment terms are in the latest invoice in Dropbox?"
+- "Find the renewal date in the lease PDF on OneDrive."
+
+The answer comes back with the source file cited through a read-only retrieval tool. Direct MCP does not retain raw customer files or full connector response payloads; operational logs and optional indexed search follow their published lifecycles. See
+[privacy-and-security.md](privacy-and-security.md) for what that means.
+
+---
+# The skills engine, explained
+URL: https://www.corpusiq.io/docs/how-it-works/skills-explained
+
+# The skills engine, explained
+
+This is the part of CorpusIQ that makes the answers good.
+
+## The naive way (which we don't do)
+
+Imagine you ask Claude - without CorpusIQ - "how healthy is my
+business?" It has 40+ connectors available. What does it do?
+
+It guesses. Maybe it asks Shopify for revenue. Maybe it forgets to ask
+QuickBooks. Maybe it pulls GA4 sessions but skips the ad accounts. The
+next time you ask the same question, it makes different guesses. The
+answers don't match. You can't compare last month to this month because
+the model didn't run the same play twice.
+
+That's the failure mode of "agent + a pile of tools." Without structure,
+you get a different shape of answer every time.
+
+## What CorpusIQ does instead
+
+When you ask a broad business question, CorpusIQ routes it to a
+**skill** - an opinionated, multi-step procedure that knows exactly:
+
+- Which connectors to hit (and in what order).
+- What metrics to compute from the raw data.
+- How to present the answer (sections, headings, what goes in the
+  appendix).
+
+Same question, same procedure, same answer shape. Every time. Month
+over month, the numbers are comparable because they came from the same
+play.
+
+## A concrete example
+
+You ask: *"What's my true CAC and ROAS by channel?"*
+
+CorpusIQ routes this to the **ad-spend-truth-report** skill. The runbook
+says:
+
+1. Pull spend, clicks, and self-reported conversions from Google Ads.
+2. Same for Meta Ads.
+3. Same for TikTok.
+4. Pull GA4 sessions and conversion events by source.
+5. Pull actual revenue from Shopify (or QuickBooks if it's a non-store
+   business).
+6. Join ad spend → GA4 sessions → Shopify revenue at the channel level.
+7. Compute CAC and ROAS per channel using **revenue from Shopify**, not
+   the ad platforms' optimistic numbers.
+8. Format as a per-channel matrix with a verdict.
+
+That's 6 connectors and a specific order of operations. The skill knows
+it. You don't have to.
+
+## A few skills in the catalog
+
+Every one of these is a real runbook with a specific output shape:
+
+- **executive-snapshot** - "How healthy is my business?" Cash, revenue,
+  wins, risks, focus list across QuickBooks, Shopify, HubSpot, ad
+  accounts, GA4, email, calendar.
+- **ad-spend-truth-report** - the CAC/ROAS reconciliation above.
+- **board-update-drafter** - "Draft a board update for last quarter."
+  Pulls financials, KPIs, prior updates from Drive for tone, writes the
+  document.
+- **financial-command-center** - full financial health check: cash,
+  concentration risk, expense anomalies, late-payment patterns.
+- **ecommerce-command-center** - full store review across Shopify, ads,
+  GA4, and QuickBooks.
+- **data-discrepancy-detector** - "Why don't my Shopify and QuickBooks
+  numbers match?" Side-by-side with the gaps explained.
+- **customer-health-scorecard** - every active account scored Healthy /
+  At Risk / Critical, with the driving signal.
+
+There are over a hundred more. You don't browse them. CorpusIQ picks the
+right one based on your question.
+
+## When there's no matching skill
+
+If your question is narrow ("show me last week's Shopify orders"),
+there's no skill to route to. CorpusIQ just queries the one connector
+directly and gives you the data.
+
+If your question is huge and ambiguous ("tell me everything"), CorpusIQ
+will ask you to narrow it down or suggest a likely skill to run.
+
+## Why this matters to you
+
+Three things.
+
+**Consistency.** Last month's executive snapshot and this month's were
+produced by the same procedure. Variance is real change, not the
+model's mood.
+
+**Quality.** Each skill was designed by someone who knows what the
+right answer looks like. You're not relying on the model to figure it
+out from scratch.
+
+**Speed.** You don't have to write a 400-word prompt every time. "Run
+the executive snapshot" is enough.
+
+## What's next
+
+- [../prompts/](../prompts/index.md) - the prompts that trigger these skills,
+  organized by the question you're trying to answer.
+- [privacy-and-security.md](privacy-and-security.md) - what happens to
+  the data the skills pull.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# What is CorpusIQ?
+URL: https://www.corpusiq.io/docs/how-it-works/what-is-corpusiq
+
+# What is CorpusIQ?
+
+Every business runs on twelve to twenty SaaS tools. Shopify for the store.
+QuickBooks for the books. Google Ads and Meta Ads for the spend. HubSpot
+for the pipeline. Klaviyo for email. GA4 for traffic. Slack for everything
+else.
+
+None of them talk to each other.
+
+So when you ask the simple question - "how is my business doing?" - there's
+no single place to look. You log into Shopify. Then QuickBooks. Then the
+ad accounts. Then HubSpot. You screenshot a chart from each, paste them
+into a doc, and try to draw a conclusion. It takes hours. You do it once
+a quarter. The rest of the time you're flying on instinct.
+
+CorpusIQ fixes that.
+
+## What it is
+
+CorpusIQ connects to all your business tools (40+ connectors today, more
+every month) and puts an AI agent on top of them. You ask the agent a
+question in plain English, in Claude or ChatGPT, and it figures out which
+systems to query, runs the queries, and gives you the answer.
+
+You don't pick the connectors. You don't write the queries. You don't
+stitch anything together. You ask. It answers.
+
+## The three pieces
+
+**Connectors.** One-way, read-only links to your SaaS tools. You
+authenticate each one once via OAuth (the same flow you've used a hundred
+times - "Sign in with Google" and the like). CorpusIQ then reads your
+data when you ask a question. It never writes back to your tools.
+
+**Skills engine.** When you ask a complex question, CorpusIQ doesn't
+blindly query everything. It routes your question to a *skill* - an
+opinionated procedure that knows which connectors to hit, in what order,
+and how to present the answer. The same question always runs the same
+play. Results are predictable.
+
+**The AI agent.** You talk to CorpusIQ through Claude Desktop or ChatGPT
+(custom GPT). The agent uses CorpusIQ's tools to fetch data, runs the
+skills, and writes the answer in your chat. You can ask follow-ups.
+
+## What it's not
+
+It's not a dashboard. There's no UI to click around in. You ask
+questions; you get answers.
+
+It's not a replicated source-data warehouse. CorpusIQ queries your tools live
+when you ask, does not retain raw customer files or full connector response
+payloads, and keeps operational logs under the published retention schedule.
+
+It's not a replacement for your SaaS tools. Shopify is still the source
+of truth for orders. QuickBooks is still the source of truth for books.
+CorpusIQ just reads them.
+
+## Who it's for
+
+Founders, operators, and finance leads who already use ten or more SaaS
+tools and are tired of the screenshot routine. If your business runs on
+five spreadsheets and one tool, you don't need CorpusIQ yet.
+
+## What's next
+
+- [connectors-explained.md](connectors-explained.md) - what a connector
+  actually is.
+- [skills-explained.md](skills-explained.md) - why the answers are
+  consistent.
+- [privacy-and-security.md](privacy-and-security.md) - what CorpusIQ
+  does and doesn't do with your data.
+- [../quickstart/](../quickstart/README.md) - get connected in 10 minutes.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
