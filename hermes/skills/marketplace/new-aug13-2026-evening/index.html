@@ -10771,7 +10771,7 @@
 </ul>
 <h2 id="sweep-notes">Sweep Notes<a class="headerlink" href="#sweep-notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Mac Mini unreachable this cycle (SSH timeout); sweep ran fully from Spark with the local clone and token at <code>~/.hermes/profiles/corpusiq/secrets/github.token</code> - the documented fallback path</li>
+<li>Worker node unreachable this cycle (SSH timeout); the sweep ran fully from the primary clone, authenticated with a repo-scoped token held in the local secrets store - the documented fallback path</li>
 <li>Cross-reference method: extracted all 128 publisher slugs from the cached full leaderboard, grep-batched against <code>hermes/skills/</code>, zero-hit set then fetched in batches of 5</li>
 <li>Two publisher pages (squirrelscan, wonda) timed out on first fetch and succeeded on retry; Firecrawl 504s are transient</li>
 </ul>

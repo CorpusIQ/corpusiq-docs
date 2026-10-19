@@ -11048,12 +11048,12 @@
 </ul>
 <h3 id="option-a-symlink-development">Option A: Symlink (Development)<a class="headerlink" href="#option-a-symlink-development" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/DeployFaith/Hermes_Agency.git<span class="w"> </span>~/src/hermes-agency
-ln<span class="w"> </span>-s<span class="w"> </span>~/src/hermes-agency/hermes-agency<span class="w"> </span>~/.hermes/profiles/corpusiq/plugins/hermes-agency
+ln<span class="w"> </span>-s<span class="w"> </span>~/src/hermes-agency/hermes-agency<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/plugins/hermes-agency
 </code></pre></div>
 <h3 id="option-b-copy-standalone">Option B: Copy (Standalone)<a class="headerlink" href="#option-b-copy-standalone" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/DeployFaith/Hermes_Agency.git<span class="w"> </span>/tmp/hermes-agency
-mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/profiles/corpusiq/plugins
-cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agency/hermes-agency<span class="w"> </span>~/.hermes/profiles/corpusiq/plugins/hermes-agency
+mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/plugins
+cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agency/hermes-agency<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/plugins/hermes-agency
 </code></pre></div>
 <h3 id="install-the-python-sdk">Install the Python SDK<a class="headerlink" href="#install-the-python-sdk" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>agentanycast

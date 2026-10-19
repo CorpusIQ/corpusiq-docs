@@ -10704,7 +10704,7 @@
 </table>
 <h3 id="optional-github-token-for-higher-rate-limits">Optional: GitHub Token for Higher Rate Limits<a class="headerlink" href="#optional-github-token-for-higher-rate-limits" title="Anchor link to this section">&para;</a></h3>
 <p>Without a token, GitHub API queries are limited to 60/hour. With a token, the limit increases to 5,000/hour:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="k">$(</span>cat<span class="w"> </span>~/.hermes/profiles/corpusiq/secrets/github.token<span class="k">)</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="k">$(</span>cat<span class="w"> </span>~/.hermes/secrets/github.token<span class="k">)</span><span class="w">   </span><span class="c1"># or: export GITHUB_TOKEN=$(gh auth token)</span>
 </code></pre></div>
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
@@ -10784,9 +10784,9 @@ find-skills<span class="w"> </span><span class="s2">&quot;video production&quot;
 <h2 id="example-daily-skill-discovery-automation">Example: Daily Skill Discovery Automation<a class="headerlink" href="#example-daily-skill-discovery-automation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 <span class="c1"># Run daily to discover new Hermes-compatible skills</span>
-<span class="c1"># Save to: ~/.hermes/profiles/corpusiq/cron/daily-skill-discovery.sh</span>
+<span class="c1"># Save to: ~/.hermes/cron/daily-skill-discovery.sh</span>
 
-<span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="k">$(</span>cat<span class="w"> </span>~/.hermes/profiles/corpusiq/secrets/github.token<span class="k">)</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="k">$(</span>cat<span class="w"> </span>~/.hermes/secrets/github.token<span class="k">)</span><span class="w">   </span><span class="c1"># or: export GITHUB_TOKEN=$(gh auth token)</span>
 
 <span class="c1"># Search across categories</span>
 <span class="k">for</span><span class="w"> </span>category<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;browser&quot;</span><span class="w"> </span><span class="s2">&quot;marketing&quot;</span><span class="w"> </span><span class="s2">&quot;mcp&quot;</span><span class="w"> </span><span class="s2">&quot;memory&quot;</span><span class="w"> </span><span class="s2">&quot;monitoring&quot;</span><span class="w"> </span><span class="s2">&quot;video&quot;</span><span class="w"> </span><span class="s2">&quot;growth&quot;</span><span class="w"> </span><span class="s2">&quot;security&quot;</span><span class="w"> </span><span class="s2">&quot;email&quot;</span><span class="w"> </span><span class="s2">&quot;social&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
