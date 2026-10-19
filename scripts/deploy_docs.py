@@ -36,6 +36,20 @@ def run(cmd, cwd=REPO_DIR, fatal=False):
     return r.stdout + r.stderr
 
 
+def _vercel_deploy_ok(out):
+    """Positive-evidence gate for a Vercel deploy.
+
+    The original check was `if "Error" in out`, which passes when the CLI never
+    ran: a missing binary prints "/bin/sh: 1: npx: not found", the word Error
+    never appears, and the pipeline printed "Vercel deploy OK" over a deploy
+    that never happened. Success must be proven by the CLI's own READY state.
+    """
+    low = (out or "").lower()
+    live = ('"readystate": "ready"' in low) or ("aliased" in low)
+    failed = ('"status": "error"' in low) or ("not found" in low) or ("error:" in low)
+    return live and not failed
+
+
 def deploy_vercel():
     """Deploy the site/ build to the Vercel docs project (docs.corpusiq.io).
 
@@ -48,6 +62,11 @@ def deploy_vercel():
         v = json.load(f)
     token = v["token"]
     team = v["team"]
+    # npx lives outside the agent shell PATH on this host. Without it the command
+    # below fails with "npx: not found" before Vercel is ever called.
+    node_bin = os.path.expanduser("~/.hermes/node/bin")
+    if os.path.isdir(node_bin) and node_bin not in os.environ.get("PATH", ""):
+        os.environ["PATH"] = node_bin + os.pathsep + os.environ.get("PATH", "")
     # Copy GEO feeds into the build
     run("cp llms.txt llms-full.txt site/")
     # Copy vercel.json INTO the deployed directory so redirects ship with the build
@@ -67,7 +86,7 @@ def deploy_vercel():
         f"npx --yes vercel@latest deploy site --yes --token {token} --team {team} --prod"
     )
     print(out[-500:] if out else "vercel deploy: no output")
-    if "Error" in out:
+    if not _vercel_deploy_ok(out):
         print("VERCEL DEPLOY FAILED")
         sys.exit(1)
     print("   Vercel deploy OK -> https://docs.corpusiq.io")
