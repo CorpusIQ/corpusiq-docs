@@ -99,7 +99,8 @@ def deploy_vercel():
             "git rev-parse HEAD", shell=True, cwd=REPO_DIR,
             capture_output=True, text=True,
         ).stdout.strip()
-        with open("site/build-info.json", "w") as f:
+        marker_path = os.path.join(REPO_DIR, "site", "build-info.json")
+        with open(marker_path, "w") as f:
             json.dump({
                 "commit": sha,
                 "local_head": local_head,
@@ -108,7 +109,12 @@ def deploy_vercel():
             }, f)
         print(f"   Build marker: {sha[:10]}")
     except Exception as exc:
-        print(f"   WARNING: could not write build-info.json ({exc})")
+        # Fatal on purpose (Oct 19 2026): a relative path made this write land
+        # outside site/ when the wrapper ran us from another cwd, so the deploy
+        # shipped WITHOUT a marker and the freshness guard alerted every
+        # morning. A deploy we cannot attribute is a failed deploy.
+        print(f"FATAL: could not write build-info.json ({exc})")
+        sys.exit(1)
 
     out = run(
         f"npx --yes vercel@latest deploy site --yes --token {token} --team {team} --prod"
