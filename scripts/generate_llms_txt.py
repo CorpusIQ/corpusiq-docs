@@ -142,7 +142,15 @@ full_lines.append("> Complete page content for LLM ingestion. Read-only access a
 full_lines.append(f"> Canonical direct-MCP disclosure: {MCP_DATA_HANDLING_SUMMARY}")
 full_lines.append("")
 
-full_paths = sorted(ROOT.glob("docs/**/*.md")) + sorted(ROOT.glob("how-it-works/**/*.md"))
+# `docs/**` does not descend into the section symlinks (connectors, hermes,
+# how-it-works, ...), so every page reached only through a symlinked section was
+# absent from the full-content feed even when it was listed in llms.txt. Sections
+# are therefore globbed at their real root path. `hermes/` stays out on purpose:
+# ~2.4k files, far too much to inline into a single feed.
+FULL_SECTION_DIRS = ("how-it-works", "connectors")
+full_paths = sorted(ROOT.glob("docs/**/*.md"))
+for _sec in FULL_SECTION_DIRS:
+    full_paths += sorted(ROOT.glob(_sec + "/**/*.md"))
 for path in full_paths:
     meta, body = read_frontmatter(path)
     rel = os.path.relpath(path, ROOT).replace(os.sep, '/')
