@@ -6471,5 +6471,52 @@
     "discovered_at": "2026-10-17T11:32:00.602076+00:00",
     "status": "approved",
     "approved_at": "2026-10-17T11:34:01.614605+00:00"
+  },
+  {
+    "name": "NousResearch/hermes-official-plugins",
+    "url": "https://github.com/NousResearch/hermes-official-plugins",
+    "description": "\u2624 The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
+    "stars": 321,
+    "forks": 42,
+    "language": "Python",
+    "topics": [
+      "agent-plugins",
+      "ai-agents",
+      "claude",
+      "hermes",
+      "hermes-agent",
+      "home-assistant",
+      "llm",
+      "model-provider",
+      "nous-research",
+      "plugins",
+      "spotify"
+    ],
+    "updated_at": "2026-10-19T09:59:09Z",
+    "category": "core",
+    "score": 77,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "tale-project/tale",
+      "awesome-hermes-usecases",
+      "hermeshub",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "MemTensor/memmy-agent",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw"
+    ],
+    "discovered_at": "2026-10-19T10:01:27.263941+00:00",
+    "status": "approved",
+    "approved_at": "2026-10-19T10:03:53.600808+00:00"
   }
 ]
