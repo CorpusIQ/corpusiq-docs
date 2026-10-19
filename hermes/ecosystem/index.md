@@ -686,7 +686,7 @@ See your agent think. Zero-config observability & governance for 30 AI agent run
 ### kaishi00/hermes-conduit
 ⭐ **165** · `Swift` · [github.com/kaishi00/hermes-conduit](https://github.com/kaishi00/hermes-conduit)
 
-Conduit — native SwiftUI iOS client for Hermes Agent
+Conduit - native SwiftUI iOS client for Hermes Agent
 
 **Maintainer:** kaishi00 
 **Topics:** ai-agent, hermes-agent, ios, self-hosted, swiftui 
@@ -789,7 +789,7 @@ The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Ever
 ### MemTensor/memmy-agent
 ⭐ **652** · `TypeScript` · [github.com/MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent)
 
-🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.
+🍙 A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context - all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.
 
 **Maintainer:** MemTensor 
 **Topics:** agent, agentic-ai, ai, ai-agents, chatgpt, claude-code, cli, codex 
@@ -3647,7 +3647,7 @@ A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Herm
 ### kenryu42/cc-safety-net
 ⭐ **1,491** · `TypeScript` · [github.com/kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net)
 
-An AI coding agent guardrail — a CLI hook that blocks destructive git and filesystem commands and secret file access before they execute. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.
+An AI coding agent guardrail - a CLI hook that blocks destructive git and filesystem commands and secret file access before they execute. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.
 
 **Maintainer:** kenryu42 
 **Topics:** ai-agents, ai-safety, antigravity, claude, claude-code, claude-code-plugin, cli, codex 
@@ -4214,7 +4214,7 @@ Agentic training trajectories from Hermes sessions. Distill agent behavior into 
 ### Devin-AXIS/iPolloWork
 ⭐ **3,806** · `HTML` · [github.com/Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork)
 
-A next-generation, source-available AI workspace with a self-evolving agent runtime for editable code, design, presentations, websites, and video—a Codex alternative that integrates DeepSeek Harness for subagent delegation, combining iPolloWork’s complete AI workbench with DSH’s specialized agents and both plugin ecosystems in one workflow.
+A next-generation, source-available AI workspace with a self-evolving agent runtime for editable code, design, presentations, websites, and video - a Codex alternative that integrates DeepSeek Harness for subagent delegation, combining iPolloWork’s complete AI workbench with DSH’s specialized agents and both plugin ecosystems in one workflow.
 
 **Maintainer:** Devin-AXIS 
 **Topics:** agent-collaboration, agent-skills, ai-agents, ai-work, claude-code, codex, deepseek-harness, dsh-plugin 
