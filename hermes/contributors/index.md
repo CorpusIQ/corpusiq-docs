@@ -1,6 +1,6 @@
 ---
 title: "Hermes Contributors and Acknowledgements Guide"
-description: Learn how to contribute to the largest Hermes Agent resource directory. Submit repos, review pending additions, and join the community of contributors. 448 repos indexed.
+description: Learn how to contribute to the largest Hermes Agent resource directory. Submit repos, review pending additions, and join the community of contributors.
 category: Community
 tags:
   - contributors
@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-09-17
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
 robots: "index,follow"
 
@@ -24,11 +24,12 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 | Metric | Value |
 |--------|-------|
-| **Total submissions** | 277 |
-| **Approval rate** | 100% |
+| **Repos indexed** | 424 |
+| **Community contributors credited** | 2 |
 | **Review time** | <48 hours |
-| **Repos indexed** | 448 |
 | **Categories** | 18 |
+
+*Counts as of October 19, 2026. The live repo count is maintained on the [ecosystem directory](/hermes/ecosystem).*
 
 ## How to Contribute
 
@@ -57,9 +58,9 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 262 | 124 | Maintainer |
-| [@louis030195](https://github.com/louis030195) | 1 | 1 | Contributor |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 2628 | 192 | Maintainer |
 | [@BlueSkyID666](https://github.com/BlueSkyID666) | 1 | 1 | Contributor |
+| [@louis030195](https://github.com/louis030195) | 1 | 1 | Contributor |
 
 ## Inclusion Criteria
 
@@ -93,9 +94,9 @@ Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem) 
 
 ## Related Pages
 
-- [Hermes Ecosystem Directory  --  234+ Repos](/hermes/ecosystem)
+- [Hermes Ecosystem Directory  --  424+ Repos](/hermes/ecosystem)
 - [Hermes Knowledge Hub  --  Production Reference](/hermes)
-- [Skills Catalog  --  133+ Skills](/hermes/skills/catalog)
+- [Skills Catalog](/hermes/skills/catalog)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 
 
