@@ -1,6 +1,6 @@
 ---
-title: OpenClaw Backup - Encrypted Agent Workspace Backup for Hermes
-description: Automated AES-256-CBC encrypted backup and restore for Hermes/OpenClaw agent workspace files. Upload to soul-upload.com with auto-generated passwords per backup.
+title: OpenClaw Backup - Encrypted Workspace Backup for Hermes
+description: Automated AES-256-CBC encrypted backup and restore for Hermes/OpenClaw agent workspaces. Upload to soul-upload.com with a unique password per backup.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-backup-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -119,3 +119,21 @@ For Hermes agents, integrate into the session-end ritual:
 - Hermes Backup Recovery Setup - General Hermes backup strategy
 - Hermes Full Backup Setup - Full system backup guide
 - [soul-upload.com](https://soul-upload.com) - Backup storage service
+
+---
+
+## FAQ
+
+### What does OpenClaw Backup encrypt?
+
+Every file in the backup set is encrypted locally with AES-256-CBC before it leaves the machine. The upload service only ever receives ciphertext.
+
+### Where is the recovery password stored?
+
+The password is generated per backup and printed once at creation time. Save it somewhere separate from the backup itself, because a lost password means the archive cannot be decrypted.
+
+### How often should the backup run?
+
+Weekly is the common cadence for workspace files that change slowly. Run it before any upgrade, profile change, or machine migration.
+
+---
