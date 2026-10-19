@@ -9,12 +9,12 @@ tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
 
 # MCP Discovery Sweep - August 31, 2026 (Morning)
 
-- **Run:** Aug 31, 2026 ~10:00 UTC (~03:00 MST), Spark (fresher clone)
+- **Run:** Aug 31, 2026 ~10:00 UTC (~03:00 MST), primary working clone
 - **Shift label:** Morning (~03:00 MST wall-clock convention; first Aug 31 section, no collision)
 - **Issue window:** chatmcp/mcpso #3845-#3847 (cutoff: night sweep high-water mark #3844)
 - **Sources:** chatmcp/mcpso issues, mcp.so homepage (recentServers), mcp.so feed, mcpservers.org homepage
 - **Catalogued:** 1 new server + guide (444 servers, +330 guides)
-- **Commit:** pushed to main from Spark
+- **Commit:** pushed to main
 
 ## Catalogued
 

@@ -32,7 +32,7 @@ Evening sweep: three skills.sh leaderboards (all-time, trending, hot) pulled via
 
 ## Method Notes
 
-- Discovery: all three leaderboards pulled with curl + browser UA from Spark (~940KB/375KB/366KB), slugs extracted with the skill's `ssh_extract_publishers.py` against the Mac Mini docs tree (95 slugs, 11 zero-hit).
+- Discovery: all three leaderboards pulled with curl + browser UA (~940KB/375KB/366KB), slugs extracted with the skill's `ssh_extract_publishers.py` against the docs tree (95 slugs, 11 zero-hit).
 - Skill-name-level re-check caught two near-misses: `mattpocock` (10 hits) and `tanstack` (4 hits) already appear in the tree - the English mattpocock suite is documented (catalog/mattpocock-skills-setup.md + matt-pocock-engineering-setup/), so the zh-CN fork is guided as a variant with cross-links rather than a new workflow set; tanstack mentions were incidental, so the dedicated tanstack-skills cluster is a genuinely new guide.
 - Publisher-page totals are cited in guides (authoritative): insforge 144.5K, vinvcn 138.8K, owl-listener 124.7K, tanstack 36.6K, archify 32.5K, qa-skills 25.3K, paperthin 22.1K, inkeep 17.1K, vigiles 12.3K, hithink 1.8K.
 - Below-20K drafting justifications: hithink-tech on first-party vendor authority (Tonghuashun, 2.1K⭐ official repo) plus A-share data-domain relevance (wind-skills precedent); inkeep on vendor authority (Inkeep) plus knowledge-base domain relevance (basic-memory precedent); vigiles on harness-verification domain relevance to CorpusIQ's own audit stack (trailofbits/review-loop precedent).

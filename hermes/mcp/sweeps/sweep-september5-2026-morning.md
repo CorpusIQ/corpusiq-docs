@@ -48,4 +48,4 @@ All 30 mcp.so feed entries were catalogued repeats (Veriroute, Velarion, Lawstro
 
 ## Repo state
 
-Pushed from Spark clone /home/hermes/corpusiq-docs (fresher clone; Mac Mini SSH denied publickey this shift). Index frontmatter `last_updated` untouched (docs SEO cron territory). Frontmatter gate run locally before commit.
+Pushed from the primary working clone. Index frontmatter `last_updated` untouched (docs SEO cron territory). Frontmatter gate run locally before commit.

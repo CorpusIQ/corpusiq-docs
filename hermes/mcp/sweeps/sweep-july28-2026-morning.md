@@ -76,7 +76,7 @@ Since Firecrawl is down, this sweep used:
 | DDGS | WORKING (but not configured in this session's web_search) |
 | Curl scraping | WORKING - used as primary data source |
 | GBrain | DOWN (per Honcho context - not impacting this task) |
-| GitHub (gh CLI) | WORKING - authenticated as Ben-Home |
+| GitHub (gh CLI) | WORKING - authenticated |
 
 ## Catalog Stats
 

@@ -31,7 +31,7 @@ First sweep of August 18. The API surface stayed fully caught up (40 queries, 3,
 - usestrix/strix surfaced with four skills at +12 installs in one hour; 54.1K GitHub stars on the repo, first seen on skills.sh 11 days before the sweep. Below the 20K guide bar - drafted on repo authority, hot-page momentum, and security relevance to agent operations.
 - wecomteam/wecom-unified is a 1-skill routing layer for wecom-cli (4.4K, 59 stars); drafted on official-vendor brand authority plus its guardrail role for the 153.4K suite.
 - Security audits per flagship: wecom-cli 🟡 (Snyk Warn; GATH and Socket Pass), mastra 🟡 (Snyk Warn; GATH and Socket Pass), strix 🟡 (Socket Warn + Snyk Fail; GATH Pass), wecom-unified 🟡 (GATH Warn + Snyk Warn; Socket Pass).
-- Mac Mini unreachable Day 9 (SSH timeout) - sweep ran entirely from Spark canonical clone, push auth via gh auth token.
+- Worker node unreachable (SSH timeout) - the sweep ran entirely from the primary canonical clone, push auth via gh auth token.
 - Queue carried over unchanged from Aug 17 evening: uni-stack/uniwind 5.4K, amazonappdev 5.2K, asksurf 3.8K, ningzimu 3.6K, dmmulroy/anti-slop 2.4K, streakyc 1.8K, steel-dev 1.3K - all re-verified flat on this sweep's publisher-page pass, re-parked.
 
 ## Notable Signals for CorpusIQ

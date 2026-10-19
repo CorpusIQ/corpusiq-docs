@@ -11,7 +11,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
 
 **Sources:** chatmcp/mcpso issues #3746-#3749 (Aug 25 10:47 - 16:48 UTC), mcp.so homepage + feed (38 slugs), mcpservers.org homepage (15 slugs), mcpservers.org /all pages 1-3 (90 slugs, broad + narrow regex)
 **Prior sweep cutoff:** Aug 25 morning sweep (issues through #3745, .last-sweep 2026-08-25T10:13:27Z)
-**Run location:** Spark (Mac Mini not required this cycle; gh CLI Ben-Home)
+**Published:** automated catalogue sweep, same-day push
 
 ## Catalogued (9 new, 9 guides)
 

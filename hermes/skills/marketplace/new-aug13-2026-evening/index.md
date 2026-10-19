@@ -68,6 +68,6 @@ The ecosystem answer to context loss: persist task plans, findings, and decision
 
 ## Sweep Notes
 
-- Mac Mini unreachable this cycle (SSH timeout); sweep ran fully from Spark with the local clone and token at `~/.hermes/profiles/corpusiq/secrets/github.token` - the documented fallback path
+- Worker node unreachable this cycle (SSH timeout); the sweep ran fully from the primary clone, authenticated with a repo-scoped token held in the local secrets store - the documented fallback path
 - Cross-reference method: extracted all 128 publisher slugs from the cached full leaderboard, grep-batched against `hermes/skills/`, zero-hit set then fetched in batches of 5
 - Two publisher pages (squirrelscan, wonda) timed out on first fetch and succeeded on retry; Firecrawl 504s are transient

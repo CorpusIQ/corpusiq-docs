@@ -9,12 +9,12 @@ tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
 
 # MCP Discovery Sweep - August 30, 2026 (Midday)
 
-- **Run:** Aug 30, 2026 ~18:00 UTC (11:00 MST), Spark (fresher clone; Mac Mini up but stale at Aug 29 night)
+- **Run:** Aug 30, 2026 ~18:00 UTC (11:00 MST), primary working clone
 - **Shift label:** Midday (morning sweep of the same day already committed Relm + Sequel)
 - **Issue window:** chatmcp/mcpso #3835-#3839 (cutoff: morning sweep high-water mark #3834)
 - **Sources:** chatmcp/mcpso issues, mcp.so homepage (recentServers), mcpservers.org /all pages 1-3, mcpservers.org homepage
 - **Catalogued:** 1 new server + guide -> **Laver MCP** (437 servers, +323 guides)
-- **Commit:** pushed to main from Spark
+- **Commit:** pushed to main
 
 ## Catalogued
 

@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
 **Shift:** Midday cron sweep, 11:01 MST start
 **Issue cutoff for next shift:** chatmcp/mcpso issue #3778 (Aug 26 17:59 UTC) - start the next shift's issue scan at #3779
 **Sources:** chatmcp/mcpso issues #3758-#3778, mcpservers.org /all pages 1-3, mcp.so feed page 1 (browser, after web_extract 504 and curl shell)
-**Pushed from:** Spark (fresher clone - Mac Mini sat at Aug 12 / 166 servers)
+**Published:** same-day push from a current working copy
 
 ## Catalogued (6 new, 6 guides)
 

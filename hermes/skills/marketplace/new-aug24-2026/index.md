@@ -13,7 +13,7 @@ guides_drafted: 4
 
 # New Skills - August 24, 2026
 
-Morning sweep of August 24. Full three-board leaderboard extraction (all-time, trending 24h, hot) - direct curl from Spark to skills.sh, then regex slug extraction of every publisher link across all three boards. 68 unique publisher slugs surfaced; cluster-level grep (owner, repo, site-domain, and skill-name variants) against the full hermes/ tree cut that to four genuinely new publisher clusters. Everything else on the boards was already documented across catalog and marketplace pages.
+Morning sweep of August 24. Full three-board leaderboard extraction (all-time, trending 24h, hot) - direct curl to skills.sh, then regex slug extraction of every publisher link across all three boards. 68 unique publisher slugs surfaced; cluster-level grep (owner, repo, site-domain, and skill-name variants) against the full hermes/ tree cut that to four genuinely new publisher clusters. Everything else on the boards was already documented across catalog and marketplace pages.
 
 ## New Publisher Clusters - Guided This Sweep
 

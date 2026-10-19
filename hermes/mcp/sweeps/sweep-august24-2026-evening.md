@@ -31,4 +31,4 @@ tags: ["mcp server", "model context protocol", "hermes mcp", "ecosystem sweep"]
 
 - Ice Juice listing FAQ says "does not require authentication" but the live initialize probe returned HTTP 401 - the auth gate is real and the vendor overview documents OAuth 2.1 DCR+PKCE or first-party API key. Guide written around the verified gate.
 - Agentic Atlas initialize returned no Mcp-Session-Id and tools/list succeeded stateless - MCP '26-style stateless server on protocol 2025-06-18, with expected_revision coherence markers in tool schemas.
-- Internal worker node unreachable this cycle (SSH timeout) - entire sweep run from Spark per fresher-clone doctrine; Spark catalog was already current (Aug 24 midday, 350 servers) and equal to origin/main.
+- Worker node unreachable this cycle (SSH timeout) - entire sweep run from the primary clone per fresher-clone doctrine; that catalogue was already current (Aug 24 midday, 350 servers) and equal to origin/main.

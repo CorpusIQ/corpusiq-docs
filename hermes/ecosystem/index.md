@@ -24,11 +24,11 @@ The most comprehensive directory of Hermes Agent resources in existence. 399+ re
 |----------|-------|------|
 | [Core & Official](#core-official) | 7 | [↓](#core-official) |
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
-| [Community & Awesome Lists](#community-awesome-lists) | 32 | [↓](#community-awesome-lists) |
+| [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 13 | [↓](#ui-dashboards) |
 | [Memory & Knowledge](#memory-knowledge) | 29 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 45 | [↓](#mcp-integrations) |
-| [Skills & Plugins](#skills-plugins) | 98 | [↓](#skills-plugins) |
+| [Skills & Plugins](#skills-plugins) | 99 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 60 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 34 | [↓](#orchestration-multi-agent-swarms) |
@@ -213,15 +213,6 @@ Curated list of awesome skills, tools, integrations, and resources for Hermes Ag
 ⭐ **1,738** · [github.com/SamurAIGPT/awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent)
 
 Curated collection of skills, plugins, tools, integrations, and resources. Includes ecosystem snapshot reviews and maturity labels (production/beta/experimental).
-
----
-
-### Ben-Home/awesome-hermes-agent
-⭐ **0** · github.com/Ben-Home/awesome-hermes-agent
-
-Curated list maintained by CorpusIQ -- cross-linked with this knowledge hub for in-depth production guides.
-
-**Related:** [This repository →](/hermes)
 
 ---
 
@@ -1444,8 +1435,8 @@ Curated collection of 5,400+ OpenClaw skills filtered from the official registry
 
 ---
 
-### coreyhaines31/marketingskills (Ben-Home/marketingskills)
-⭐ **0** · github.com/Ben-Home/marketingskills (repo no longer public)
+### coreyhaines31/marketingskills
+⭐ **55,418** · `JavaScript` · [github.com/coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 
 Complete CMO stack: 45+ marketing skills covering SEO, CRO, copywriting, cold email, ads, analytics, community, launch, pricing, competitors, directory submissions, revops, and content strategy. Includes 51 CLI tools and 200+ directory targets.
 
