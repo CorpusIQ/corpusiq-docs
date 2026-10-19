@@ -18353,5 +18353,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-19T05:25:19.861977+00:00"
+  },
+  {
+    "repo": "cogitor/hermes-hostyourai",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600823+00:00"
+  },
+  {
+    "repo": "iworkforces/ReflectLog",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600827+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-official-plugins",
+    "score": 77,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-19T10:03:53.600830+00:00"
+  },
+  {
+    "repo": "promptclickrun/bighelp",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600833+00:00"
+  },
+  {
+    "repo": "ruqinhu/hermes-search-router",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600835+00:00"
+  },
+  {
+    "repo": "sc28249782/hermes-mcp-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600837+00:00"
+  },
+  {
+    "repo": "adamwardecki/job-hunt-mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600839+00:00"
+  },
+  {
+    "repo": "dexra-dev/template-hermes",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600841+00:00"
+  },
+  {
+    "repo": "knurlybekov/knowledgebase",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600843+00:00"
+  },
+  {
+    "repo": "electricsheephq/lcm-x",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T10:03:53.600845+00:00"
   }
 ]

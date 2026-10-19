@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 399+ repos, tools, skills, and integrations
-last_updated: "2026-10-18"
+description: Comprehensive directory of the Hermes Agent ecosystem - 424+ repos, tools, skills, and integrations
+last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -18,16 +18,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **399+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 191 auto-approved (190 scored >= 70; 1 manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **424+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 192 auto-approved (191 scored >= 70; 1 manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **399+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **424+ repos indexed.**
 
 ## 📊 Category Overview
 
 || Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 14 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 15 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -57,7 +57,7 @@ _Video, social media, content generation_
 
 ## 🧠 Core Framework
 
-_14 repos_
+_15 repos_
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
 
@@ -136,6 +136,14 @@ _14 repos_
 >An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.
 
 **Language:** TypeScript | **Topics:** ai-agent, desktop-environment, fedora, hermes-agent, hyprland, linux, macos, niri, omarchy, operating-system | **Score:** 76/100
+
+---
+
+### [NousResearch/hermes-official-plugins](https://github.com/NousResearch/hermes-official-plugins) ⭐ 321
+
+>☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.
+
+**Language:** Python | **Topics:** agent-plugins, ai-agents, claude, hermes, hermes-agent, home-assistant, llm, model-provider, nous-research, plugins, spotify | **Score:** 77/100
 
 ---
 
@@ -1688,7 +1696,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*399+ repositories in the Hermes ecosystem. Last updated: 2026-10-18. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*424+ repositories in the Hermes ecosystem. Last updated: 2026-10-19. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

@@ -76190,5 +76190,260 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-19T05:24:57.450937+00:00",
     "status": "pending"
+  },
+  {
+    "name": "cogitor/hermes-hostyourai",
+    "url": "https://github.com/cogitor/hermes-hostyourai",
+    "description": "Unofficial Hermes Agent plugins: HostYourAI provider profile and /hyai router commands",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "hostyourai",
+      "plugin"
+    ],
+    "updated_at": "2026-10-19T10:01:05Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T10:01:27.256095+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "iworkforces/ReflectLog",
+    "url": "https://github.com/iworkforces/ReflectLog",
+    "description": "An Agentic Memory Layer For AI Agents. Including Grok, Claude Code, Codex, OpenCode, OpenClaw and Hermes.",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-19T10:00:40Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "yoloshii/ClawMem",
+      "itechmeat/open-second-brain",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "jazzyalex/agent-sessions",
+      "conorbronsdon/avoid-ai-writing",
+      "vivekchand/clawmetry"
+    ],
+    "discovered_at": "2026-10-19T10:01:27.259150+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "promptclickrun/bighelp",
+    "url": "https://github.com/promptclickrun/bighelp",
+    "description": "bighelp: a native iOS app for your personal AI agents on Hermes",
+    "stars": 54,
+    "forks": 9,
+    "language": "Swift",
+    "topics": [
+      "ai-agents",
+      "hermes",
+      "ios",
+      "swiftui"
+    ],
+    "updated_at": "2026-10-19T09:58:27Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf"
+    ],
+    "discovered_at": "2026-10-19T10:01:27.266792+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ruqinhu/hermes-search-router",
+    "url": "https://github.com/ruqinhu/hermes-search-router",
+    "description": "Hermes Agent backend router for DeepSeek, AnySearch, and local scripts: manual switch + ordered failure fallback.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-19T09:58:14Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T10:01:27.269700+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sc28249782/hermes-mcp-bridge",
+    "url": "https://github.com/sc28249782/hermes-mcp-bridge",
+    "description": "Secure MCP bridge connecting ChatGPT to Hermes Agent and permission-gated Codex CLI on WSL2.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-19T09:41:18Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T10:01:34.941089+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "adamwardecki/job-hunt-mcp",
+    "url": "https://github.com/adamwardecki/job-hunt-mcp",
+    "description": "A disciplined, low-volume job search plugin for Claude Code and Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "claude-code",
+      "claude-plugin",
+      "hermes-agent",
+      "job-search",
+      "mcp"
+    ],
+    "updated_at": "2026-10-19T09:29:58Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "Romanescu11/hermes-skill-factory",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-19T10:01:34.944116+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dexra-dev/template-hermes",
+    "url": "https://github.com/dexra-dev/template-hermes",
+    "description": "Hermes Agent skill and MCP trading server for Solana with Dexra checks before every buy. Dry run by default.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "dexra",
+      "hermes-agent",
+      "jupiter",
+      "mcp",
+      "python",
+      "solana",
+      "template",
+      "trading-bot"
+    ],
+    "updated_at": "2026-10-19T09:04:41Z",
+    "category": "mcp",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "JackTheGit/hermes-autonomous-server",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem"
+    ],
+    "discovered_at": "2026-10-19T10:01:34.947807+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "knurlybekov/knowledgebase",
+    "url": "https://github.com/knurlybekov/knowledgebase",
+    "description": "Organizational intelligence platform: permission-aware knowledge sync from Google Drive and SharePoint, hybrid retrieval with citations, Hermes investigations over read-only MCP tools, verified decision records",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-19T07:49:21Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T10:01:34.953035+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "electricsheephq/lcm-x",
+    "url": "https://github.com/electricsheephq/lcm-x",
+    "description": "LCM-X \u2014 Lossless Context Memory eXtension",
+    "stars": 70,
+    "forks": 11,
+    "language": "Python",
+    "topics": [
+      "context-engine",
+      "hermes-agent",
+      "llm-memory",
+      "lossless-context"
+    ],
+    "updated_at": "2026-10-19T10:00:18Z",
+    "category": "forks",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T10:01:50.392476+00:00",
+    "status": "pending"
   }
 ]
