@@ -76445,5 +76445,190 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-19T10:01:50.392476+00:00",
     "status": "pending"
+  },
+  {
+    "name": "abidinyldz06/NEXUS",
+    "url": "https://github.com/abidinyldz06/NEXUS",
+    "description": "Local-first provenance-backed memory foundation for ATLAS on Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-19T10:58:23Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T11:01:19.091059+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "luongs3/skill-forge",
+    "url": "https://github.com/luongs3/skill-forge",
+    "description": "Hermes Agent plugin: forge reusable skills from sessions, keep only the ones a replay proves (Nemotron)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-19T10:57:41Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T11:01:19.094441+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hcsolakoglu/sidekick",
+    "url": "https://github.com/hcsolakoglu/sidekick",
+    "description": "Dependency-free Node.js CLI for persistent background agent sessions across Codex, Devin, Claude and Hermes",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "nodejs",
+      "typescript"
+    ],
+    "updated_at": "2026-10-19T10:56:59Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-10-19T11:01:19.097280+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "manuvamp/hermes-home",
+    "url": "https://github.com/manuvamp/hermes-home",
+    "description": "Alexa+ MCP bridge (Streamable HTTP) to a persistent personal AI agent (Hermes), with an Alexa+ simulator. Amazon Developer Hackathon.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agent",
+      "alexa",
+      "hackathon",
+      "mcp"
+    ],
+    "updated_at": "2026-10-19T10:03:38Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-10-19T11:01:26.963990+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Digitally-Challenged/hermes-webui",
+    "url": "https://github.com/Digitally-Challenged/hermes-webui",
+    "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-19T11:01:16Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nesquena/hermes-webui",
+      "unmodeled-tyler/vessel-browser",
+      "sanchomuzax/hermes-webui",
+      "dodo-reach/hermes-desktop"
+    ],
+    "discovered_at": "2026-10-19T11:01:42.283714+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rustam-python/gbrain",
+    "url": "https://github.com/rustam-python/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-19T10:59:49Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-10-19T11:01:42.287421+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ai-presence-lab/hermes-cockpit",
+    "url": "https://github.com/ai-presence-lab/hermes-cockpit",
+    "description": "Single-screen map of what a personal AI agent can actually reach \u2014 a drift map, not a dashboard.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "ai-agents",
+      "ai-companion",
+      "dashboard",
+      "hermes-agent",
+      "hermes-plugin",
+      "nous-research"
+    ],
+    "updated_at": "2026-10-19T10:59:30Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-19T11:01:42.290239+00:00",
+    "status": "pending"
   }
 ]
