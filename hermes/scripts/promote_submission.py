@@ -409,8 +409,16 @@ def main():
         update_contributors_page(row["submitter"])
 
     inserted = insert_into_ecosystem(row)
+    # The served page is ecosystem/index.md. Writing only ecosystem.md left every
+    # promotion invisible on the live site (root-caused 2026-10-16, #109), and
+    # the inserter alone did not fix it: it has to be CALLED from the promotion
+    # path or the twin keeps absorbing promotions that no reader can see.
+    published = insert_into_published_index(row)
     print(f"approved: {row['name']} ({row['category']}, {row['stars']} stars)")
     print(f"ecosystem.md: {'entry inserted' if inserted else 'already present'}")
+    print(f"ecosystem/index.md: {'entry inserted' if published else 'already present or unmapped'}")
+    if not published:
+        print("WARN: the served directory did not take the entry - check the category heading map")
     print("PROMOTION_OK")
 
 
