@@ -23187,3 +23187,3507 @@ five spreadsheets and one tool, you don't need CorpusIQ yet.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connectors
+URL: https://www.corpusiq.io/docs/connectors
+
+# Connectors
+
+CorpusIQ connects to your business tools through read-only MCP connectors.
+Each connector requires a one-time OAuth authentication - you click Connect,
+approve the permission screen, and your AI tools can query live data immediately.
+
+**Read-only by design.** CorpusIQ is not an AI agent. It cannot write,
+modify, or execute anything in your connected systems, and it does not
+retain raw customer files or full connector response payloads. Data
+passes through on demand and returns to your AI client as read-only
+information. No one at CorpusIQ can access your accounts.
+See the full guarantee: [Security and Read-Only Access](/hermes/security/read-only-and-security)
+
+The external-source connectors in this directory are designed for read-only retrieval and do not write back to connected vendor accounts. Separately annotated CorpusIQ control-plane tools are outside this connector directory.
+
+## What are CorpusIQ connectors?
+
+CorpusIQ connectors are the integration layer between business data and AI assistants. Each connector maps to a SaaS application or database - QuickBooks, Shopify, Stripe, HubSpot, GA4, Salesforce, Slack, Gmail and 40+ others - and exposes its data through one MCP endpoint that ChatGPT, Claude and Perplexity can query in plain English. Every published operation declares whether it is read-only or write-capable, and each connection uses the provider's own OAuth authorization with the scopes shown on screen. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
+
+The connector model matters because the MCP ecosystem is large and uneven. Public registries count more than 9,400 MCP servers with 97M+ SDK downloads, yet many are unmaintained. CorpusIQ's approach is different: 40+ curated connectors to the tools businesses already run, each with documented operations, safety annotations and live status, so an AI assistant answers from a governed source instead of from a random server. For the full interactive connector list with real-time status indicators, visit [corpusiq.io/connectors](https://corpusiq.io/connectors).
+
+## Index
+
+### Commerce & Payments
+- [Shopify](shopify.md) - Orders, products, customers, inventory
+- [Stripe](stripe.md) - Payments, subscriptions, invoices, refunds
+- [eBay](ebay.md) - Listings, orders, marketplace data
+- [Amazon Seller](amazon_seller.md) - Seller Central metrics
+- [GunBroker](gunbroker.md) - Auctions, bids, inventory
+
+### Marketing & Advertising
+- [Google Ads](google_ads.md) - Campaigns, ad groups, keywords, performance
+- [Meta Ads (Facebook & Instagram)](facebook_marketing.md) - Ad accounts, campaigns, ad sets
+- [LinkedIn Ads](linkedin-ads.md) - Campaign performance, audience data
+- [TikTok](tiktok.md) - Ad performance, audience insights
+
+### Web Analytics & SEO
+- [GA4 - Google Analytics 4](ga4.md) - Traffic, conversions, events
+- [Google Search Console](search-console.md) - Rankings, clicks, impressions
+- [Ahrefs](ahrefs.md) - Backlinks, keyword rankings, site audits
+- [Semrush](semrush.md) - Keyword research, competitor analysis
+- [IndexNow](indexnow.md) - Real-time search engine indexing
+- [YouTube](youtube.md) - Channel analytics, video performance
+
+### Email & SMS Marketing
+- [Klaviyo](klaviyo.md) - Campaigns, flows, segments
+- [Mailchimp](mailchimp.md) - Campaigns, audiences, reports
+- [Constant Contact](constantcontact.md) - Email campaigns, contacts
+- [ActiveCampaign](activecampaign.md) - Automations, deals, contacts
+- [Postscript](postscript.md) - SMS campaigns, subscribers
+
+### CRM & Pipeline
+- [HubSpot](hubspot.md) - Deals, contacts, companies, tickets
+- [GoHighLevel (LeadConnector)](gohighlevel.md) - Pipelines, contacts, opportunities
+- [Close](close.md) - Sales pipeline, leads, sequences
+- [Monday.com](monday.md) - Boards, items, workflows
+
+### Finance & Accounting
+- [QuickBooks](quickbooks.md) - P&L, balance sheet, invoices, bills
+- [Odoo](odoo.md) - ERP: accounting, inventory, sales, CRM
+
+### Communication & Productivity
+- [Google Workspace](google_workspace.md) - Gmail, Calendar, Drive, Docs, Sheets
+- [Microsoft Outlook](outlook.md) - Email, Calendar, OneDrive
+- [Slack](slack.md) - Messages, channels, search
+- [Dropbox](dropbox.md) - Files, folders, shared links
+- [OneDrive](onedrive.md) - Files, folders, SharePoint libraries
+- [Notion](notion.md) - Pages, databases, comments
+- [Airtable](airtable.md) - Bases, tables, records
+- [Calendly](calendly.md) - Events, scheduling, invitees
+- [IMAP Email](imap.md) - Read email from any IMAP account
+
+### Databases & Analytics
+- [PostgreSQL](postgres.md) - Relational database queries
+- [Microsoft SQL Server (MSSQL)](mssql.md) - SQL Server queries
+- [MongoDB](mongodb.md) - Document database queries
+- [Azure Cosmos DB](cosmosdb.md) - Multi-model database queries
+- [PostHog](posthog.md) - Product analytics, feature flags
+
+### AI Integration Guides
+- [ChatGPT Business Data Connector](chatgpt-business-data-connector.md)
+- [Perplexity Business Data via MCP](perplexity-business-data-mcp.md)
+- [AI MCP Server for Business Data](ai-mcp-server-for-business-data.md)
+- [MCP Server: Shopify + QuickBooks](mcp-server-shopify-quickbooks.md)
+- [Connect Airtable to Claude](connect-airtable-to-claude.md)
+- [Connect GA4 to Claude](connect-ga4-to-claude.md)
+- [Connect Google Ads to Claude](connect-google-ads-to-claude.md)
+- [Connect HubSpot to Claude](connect-hubspot-to-claude.md)
+- [Connect Klaviyo to ChatGPT](../connect-klaviyo-to-chatgpt.md)
+- [Connect Klaviyo to Claude](connect-klaviyo-to-claude.md)
+- [Connect LinkedIn Ads to Claude](connect-linkedin-ads-to-claude.md)
+- [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md)
+- [Connect QuickBooks to Claude](connect-quickbooks-to-claude.md)
+- [Connect Shopify to Claude](connect-shopify-to-claude.md)
+- [Connect Slack to Claude](connect-slack-to-claude.md)
+- [Connect Stripe to Claude](connect-stripe-to-claude.md)
+
+### Alternatives & Comparisons
+- [Windsor.ai Alternative](windsor-ai-alternative.md)
+- [Adzviser Alternative](adzviser-alternative.md)
+
+## How to connect any connector
+
+1. Open the CorpusIQ **Connectors** page
+2. Click **Connect** next to the tool you want
+3. A browser tab opens to the vendor's login page
+4. Sign in, review the read-only permissions, click **Authorize**
+5. The tab returns to CorpusIQ - the connector shows **Connected**
+
+That's it. Your AI assistant can now query live data from that service.
+
+Connector-specific notes (required plans, admin roles, multi-account setups) are on each individual connector page.
+
+## Frequently Asked Questions
+
+### How many connectors does CorpusIQ support?
+
+CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated.
+
+### How do I connect a new data source?
+
+Open the CorpusIQ Connectors page, click Connect next to the tool you want, approve the vendor's read-only permission screen, and the connector shows Connected. Each connection takes under 60 seconds.
+
+### Are CorpusIQ connectors read-only?
+
+External-source retrieval tools are marked read-only. CorpusIQ is not an AI agent. It cannot write, modify or execute anything in your connected systems, and it does not retain raw customer files or full connector response payloads. Data passes through on demand. No one at CorpusIQ can access your accounts. Operational query text, per-user tool-call metadata and bounded outcome summaries may be retained for up to 30 days; optional indexed search keeps embeddings and minimal metadata until connector revocation or account deletion. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated.
+
+### Does CorpusIQ support database connections?
+
+Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB, all with read-only SQL/query access.
+
+### What if I need a connector that isn't listed?
+
+CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development.
+
+### How do I check which connectors are active?
+
+Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How many connectors does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated."}},
+    {"@type": "Question", "name": "How do I connect a new data source?", "acceptedAnswer": {"@type": "Answer", "text": "Open the CorpusIQ Connectors page, click Connect next to the tool you want, approve the vendor's read-only permission screen, and the connector shows Connected. Each connection takes under 60 seconds."}},
+    {"@type": "Question", "name": "Are CorpusIQ connectors read-only?", "acceptedAnswer": {"@type": "Answer", "text": "External-source retrieval tools are marked read-only. CorpusIQ is not an AI agent. It cannot write, modify or execute anything in your connected systems, and it does not retain raw customer files or full connector response payloads. Data passes through on demand. No one at CorpusIQ can access your accounts. Operational query text, per-user tool-call metadata and bounded outcome summaries may be retained for up to 30 days; optional indexed search keeps embeddings and minimal metadata until connector revocation or account deletion. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated."}},
+    {"@type": "Question", "name": "Does CorpusIQ support database connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB, all with read-only SQL/query access."}},
+    {"@type": "Question", "name": "What if I need a connector that isn't listed?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development."}},
+    {"@type": "Question", "name": "How do I check which connectors are active?", "acceptedAnswer": {"@type": "Answer", "text": "Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators."}}
+  ]
+}
+</script>
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# ActiveCampaign
+URL: https://www.corpusiq.io/docs/connectors/activecampaign
+
+# ActiveCampaign
+
+## What it unlocks
+ActiveCampaign holds your email contacts, automations, and pipeline deals - the moment-by-moment record of how prospects move from a first open to a closed sale. Connecting it lets CorpusIQ answer questions about list health, campaign performance, and which automations are actually pulling weight, alongside revenue data from Shopify, QuickBooks, and GA4.
+
+## Before you connect
+- An ActiveCampaign account with admin access
+- Your ActiveCampaign API URL and API key (Settings → Developer)
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find ActiveCampaign.
+2. Click Connect.
+3. <!-- screenshot: ActiveCampaign credential form in CorpusIQ -->
+4. In a second tab, sign in to ActiveCampaign and go to Settings → Developer.
+5. Copy your API URL and API key.
+6. Paste both into the CorpusIQ form and click Save.
+
+You'll see ActiveCampaign change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Contacts and contact details, with search
+- Lists and tags
+- Email campaigns and per-campaign performance
+- Automations
+- Deals in your pipeline
+- Account info
+
+CorpusIQ never sends mail, edits contacts, or changes automations.
+
+## Questions you can ask
+- "How did my last ActiveCampaign campaign perform?"
+- "Which automations have the most active contacts?"
+- "Show me deals that have been open longer than 30 days."
+- "How big is each of my lists?"
+- "Find every contact tagged 'webinar-april'."
+
+## Troubleshooting
+- **"Invalid API key"** - Regenerate the key in ActiveCampaign (Settings → Developer) and paste the new value.
+- **API URL wrong** - It must be your full account URL like `https://youraccount.api-us1.com`, not the dashboard URL.
+- **Empty campaign list** - Your API user may not have permission for the campaign view; switch to an admin-level key.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Adzviser Alternative: CorpusIQ for Business AI Data
+URL: https://www.corpusiq.io/docs/connectors/adzviser-alternative
+
+# Adzviser Alternative: CorpusIQ for Business AI Data
+
+Looking for an Adzviser alternative? Here is how CorpusIQ compares for connecting your business data to Claude, ChatGPT, and other AI assistants.
+
+## What Adzviser does
+
+Adzviser syncs marketing and ad platform data to ChatGPT, Claude, and Perplexity via MCP. It covers channels like Google Ads, Meta Ads, LinkedIn Ads, and Shopify sales data. Built for marketing teams and agencies that want to ask questions about campaign performance.
+
+## What CorpusIQ does differently
+
+Adzviser answers marketing questions. CorpusIQ answers business questions across your entire stack: finance, operations, sales, fulfillment, and marketing together.
+
+| Category | Adzviser | CorpusIQ |
+|---|---|---|
+| Ad platforms | Google Ads, Meta, LinkedIn, TikTok | Google Ads, Meta, LinkedIn, TikTok |
+| Finance | Not available | QuickBooks, Stripe, PayPal |
+| Ecommerce | Shopify (sales only) | Shopify, eBay, Amazon Seller |
+| CRM | Not available | HubSpot, Close, GoHighLevel |
+| Email marketing | Not available | Klaviyo, Mailchimp, ActiveCampaign |
+| Analytics | GA4 | GA4, Search Console, Semrush |
+| Databases | Not available | PostgreSQL, MongoDB, MSSQL, CosmosDB |
+| Cross-source analysis | Marketing channels only | Full across any combination |
+| AI assistants | ChatGPT, Claude | Claude, ChatGPT, Perplexity |
+| Pre-built reasoning chains | Prompt library | 133+ reasoning chains |
+| Price | Starts ~$19/mo | From $29.95/mo |
+
+## The question that breaks Adzviser
+
+"What is our actual profit on this campaign after ad spend, Shopify fees, product cost, and returns?"
+
+That question needs Google Ads plus Shopify plus QuickBooks plus Stripe simultaneously. Adzviser can not answer it because it does not read your financials or COGS. CorpusIQ can answer it in one query.
+
+## When Adzviser makes sense
+
+If your team only needs marketing channel data and you never need to cross-reference revenue, profit, or operations data, Adzviser covers that well. It has a good prompt library for ad analysis.
+
+## When CorpusIQ makes sense
+
+- You want to connect profit questions to ad spend
+- You need finance, CRM, and marketing in the same answer
+- You run ecommerce and need cross-channel profitability, not just ROAS
+- You want to ask questions like "what drove revenue growth last month" across all sources at once
+
+## How to switch from Adzviser to CorpusIQ
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io)
+2. Connect your ad platforms (Google Ads, Meta, LinkedIn, TikTok)
+3. Add QuickBooks, Shopify, or any other source you want in the same answer
+4. Ask your first cross-source question
+
+30-day free trial. No credit card. Setup takes under 10 minutes.
+
+[Try CorpusIQ free](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Ahrefs
+URL: https://www.corpusiq.io/docs/connectors/ahrefs
+
+# Ahrefs
+
+## What it unlocks
+Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organic keyword rankings, referring domains, competitor intelligence, and top-performing pages - all inside the conversation - so you can size up any domain without opening the Ahrefs dashboard.
+
+## Before you connect
+- An Ahrefs account with API access (Advanced plan or higher)
+- Your Ahrefs API token from the Ahrefs API settings page
+- About 2 minutes
+
+## How to connect
+1. In Ahrefs, navigate to Settings → API and copy your API token.
+<!-- screenshot: Ahrefs API token page -->
+2. Open your CorpusIQ dashboard and click Connections.
+3. Find Ahrefs and click Connect.
+4. Paste the API token and save.
+<!-- screenshot: CorpusIQ Ahrefs API key form -->
+
+You'll see Ahrefs change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Domain overview: Domain Rating (DR), backlink count, organic traffic estimate
+- Top organic keywords any domain ranks for, with positions and search volumes
+- Backlink profile: live backlinks, referring domains, and historical totals
+- Referring domains list with Domain Rating for each
+- Organic competitor domains
+- Top pages by estimated organic traffic
+- Keyword research: search volume, keyword difficulty, and CPC
+
+Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask for.
+
+## Questions you can ask
+- "What's the Domain Rating for competitor.com?"
+- "Which keywords does my domain rank for in the top 10?"
+- "Show me the top referring domains linking to my site."
+- "Who are my top organic competitors?"
+- "What are the highest-traffic pages on competitor.com?"
+
+## Troubleshooting
+- **"API token invalid"** - Confirm your Ahrefs plan includes API access (Advanced or higher) and that the token hasn't been rotated.
+- **"No data for domain"** - Ahrefs may not have crawled the domain yet, or the domain is very new. Try a more established domain to verify the connection works.
+- **Rate limits** - Ahrefs enforces per-token rate limits. If you're querying heavily, space out requests or upgrade your plan.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# The Best MCP Server for Business Data (2026)
+URL: https://www.corpusiq.io/docs/connectors/ai-mcp-server-for-business-data
+
+# The Best MCP Server for Business Data (2026)
+
+If you use Claude, ChatGPT, or Perplexity for business questions, you have hit the wall: the AI is smart but it cannot see your actual data. MCP (Model Context Protocol) fixes that.
+
+## What is an MCP server?
+
+MCP is an open standard that lets AI assistants connect to external data sources. Instead of pasting CSV exports, you connect an MCP server once and your AI queries live data on demand.
+
+## What makes a good business MCP server?
+
+- Breadth: covers tools you actually use (QuickBooks, Shopify, Google Ads, HubSpot, Klaviyo, GA4)
+- Cross-source reasoning: answers questions that span multiple tools at once
+- Read-only: never writes to your systems
+- Fast setup: OAuth in minutes
+- Pre-built skills: reasoning chains so you do not have to prompt-engineer everything
+
+## CorpusIQ: 40+ connectors, one MCP endpoint
+
+CorpusIQ is a live MCP server with 40+ business data connectors built and maintained. Connect once, ask questions across all your tools simultaneously.
+
+MCP endpoint: https://mcp2.corpusiq.io/mcp
+Auth: OAuth 2.1 PKCE device flow
+Tools: 53 live tools across 40+ connectors
+
+## Questions you can ask immediately after connecting
+
+- "What caused revenue to drop last week?" - queries Shopify, Google Ads, GA4
+- "Which invoices are overdue and who owes the most?" - queries QuickBooks and Stripe
+- "What is our true ROAS after returns and fees?" - queries Google Ads, Meta, Shopify
+- "Which deals in HubSpot have had no activity in 2 weeks?" - queries HubSpot CRM
+
+## CorpusIQ vs building your own MCP server
+
+| | CorpusIQ | Build your own |
+|---|---|---|
+| Setup time | 5 minutes | 2-6 months |
+| Connectors | 25+ built | You build each one |
+| Maintenance | We handle it | Your engineering team |
+| Cost | $29.95/mo | $5,000+/mo engineering |
+| Pre-built skills | 133+ | You write your own prompts |
+
+[Start free - 30-day trial, no credit card](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Airtable
+URL: https://www.corpusiq.io/docs/connectors/airtable
+
+# Airtable
+
+## What it unlocks
+Airtable is where a lot of operating data lives that never made it into a "real" SaaS tool - content calendars, hiring pipelines, partnership trackers, product roadmaps. Connecting it means CorpusIQ can pull those records into answers alongside your finance, sales, and marketing data, so a question like "what's blocking shipping this month?" can actually see your Airtable backlog.
+
+## Before you connect
+- An Airtable account with access to the bases you want CorpusIQ to read
+- A personal access token from airtable.com/create/tokens
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Airtable.
+2. Click Connect.
+3. In a second tab, go to airtable.com/create/tokens and create a personal access token.
+4. Give it the scopes `data.records:read` and `schema.bases:read`, and grant access to the specific bases you want CorpusIQ to see.
+5. <!-- screenshot: Airtable token scope selection screen -->
+6. Copy the token and paste it into the CorpusIQ form, then click Save.
+
+You'll see Airtable change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- The list of bases the token can reach
+- Tables inside each base
+- Records inside each table
+- Search across records by keyword
+- A single record by ID
+
+CorpusIQ never writes, edits, or deletes Airtable data.
+
+## Questions you can ask
+- "List my bases."
+- "Show me every record in the Roadmap base where status is Blocked."
+- "Find Airtable records mentioning 'Acme Corp'."
+- "What tables are in my Content Calendar base?"
+- "Pull record recXYZ from the Hiring base."
+
+## Troubleshooting
+- **"Base not found"** - Your token wasn't granted access to that base. Edit the token at airtable.com/create/tokens and add the base.
+- **"Insufficient scope"** - Token is missing `data.records:read` or `schema.bases:read`. Recreate with both.
+- **Records look stale** - Airtable API returns live data; check whether you're looking at the right view or whether a filter has hidden recent rows.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Amazon Seller
+URL: https://www.corpusiq.io/docs/connectors/amazon_seller
+
+# Amazon Seller
+
+## What it unlocks
+If you sell on Amazon, your real revenue picture is split across Shopify (your own store) and Seller Central (the marketplace). Connecting Amazon Seller lets CorpusIQ pull orders and inventory directly into the same view as your Shopify revenue, QuickBooks expenses, and ad spend - so the question "how is my business doing this month" actually includes Amazon.
+
+## Before you connect
+- An Amazon Seller Central account
+- Admin permission to authorize third-party apps in Seller Central
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Amazon Seller.
+2. Click Connect.
+3. Sign in to Seller Central when prompted and follow the standard Amazon SP-API authorization flow.
+4. <!-- screenshot: Amazon Seller authorization consent screen -->
+5. Approve read access to orders and inventory and you'll be redirected back to CorpusIQ.
+
+You'll see Amazon Seller change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Orders, with status, totals, and financial details
+- FBA inventory levels and stock counts
+- Sales metrics derived from order history
+
+CorpusIQ never creates listings, edits inventory, or refunds orders.
+
+## Questions you can ask
+- "How many Amazon orders did I get last week?"
+- "What's my FBA inventory looking like right now?"
+- "Compare my Amazon revenue to Shopify revenue this month."
+- "Which products are running low on Amazon stock?"
+- "Show me Amazon orders over $200 from the last 30 days."
+
+## Troubleshooting
+- **Authorization fails halfway through** - Make sure you're signed in as the primary Seller Central account, not a sub-user without app-authorization rights.
+- **No orders returned** - Confirm the date range. Amazon SP-API only exposes orders from the marketplace region tied to your account.
+- **Inventory empty** - If you don't use FBA, inventory will be empty by design. Use orders to track sell-through instead.
+
+<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Calendly
+URL: https://www.corpusiq.io/docs/connectors/calendly
+
+# Calendly
+
+## What it unlocks
+Your calendar tells one story; your booking link tells another. Calendly knows which prospects actually booked, who showed up, who canceled, and what event type they picked. Connecting it lets CorpusIQ tie booked meetings to HubSpot deals, ad campaigns that drove them, and revenue that followed.
+
+## Before you connect
+- A Calendly account (any paid or free tier)
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Calendly.
+2. Click Connect.
+3. Sign in to Calendly when the consent screen appears.
+4. <!-- screenshot: Calendly OAuth consent screen -->
+5. Approve read access and you'll be returned to CorpusIQ.
+
+You'll see Calendly change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Scheduled events and full event details
+- Event types (your booking links)
+- Invitees on any given event, including their answers to intake questions
+- Your organization's members
+- Your availability schedules
+- Your Calendly profile
+
+CorpusIQ never books, cancels, or modifies events.
+
+## Questions you can ask
+- "How many demos are on my calendar this week?"
+- "Who booked through my discovery-call link in the last 30 days?"
+- "List my upcoming Calendly meetings with their guests."
+- "What event types do I have set up?"
+- "When am I generally available for meetings?"
+
+## Troubleshooting
+- **No events appear** - Check that you connected the right Calendly account; some users have one personal and one work account.
+- **Invitee answers missing** - Calendly only exposes intake answers for event types where you enabled custom questions.
+- **"Token expired"** - Disconnect and reconnect Calendly from Dashboard → Connectors.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect ChatGPT to Your Business Data (2026 Guide)
+URL: https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector
+
+# How to Connect ChatGPT to Your Business Data (2026 Guide)
+
+ChatGPT is smart but it is working blind. It cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to fix that in 5 minutes.
+
+## The problem
+
+ChatGPT cannot answer in real time:
+- "What is my cash position right now?"
+- "Which campaigns are actually profitable this month?"
+- "What products are running low on inventory?"
+
+File uploads are stale exports and lose context across sessions.
+
+## The solution: MCP (Model Context Protocol)
+
+ChatGPT supports MCP servers - live data connections that let it query your actual business systems in real time. You ask a question, ChatGPT pulls the answer from your live data automatically.
+
+## How to connect ChatGPT to your business data
+
+1. Sign up at corpusiq.io - free 30-day trial
+2. Connect your tools (Shopify, QuickBooks, Google Ads, HubSpot, etc.) - 2 minutes each via OAuth
+3. Add the CorpusIQ MCP server to ChatGPT
+4. Ask your first real business question
+
+## What you can ask immediately
+
+- "What is our revenue today vs the same day last month?"
+- "Which customers are most at risk of churning?"
+- "What is our true ROAS across Google and Meta after Shopify returns?"
+- "Show me all invoices overdue more than 30 days."
+
+40+ connectors. 133+ pre-built reasoning chains. Read-only. 5-minute setup.
+
+[Connect ChatGPT to your business data free](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Close
+URL: https://www.corpusiq.io/docs/connectors/close
+
+# Close
+
+## What it unlocks
+Close is where your outbound sales motion lives - leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ pull pipeline health, rep activity, and lead details into the conversation, and tie them to email sequences and revenue data from your other connectors.
+
+## Before you connect
+- A Close CRM account with admin access to generate API keys
+- About 3 minutes
+
+## How to connect
+1. In Close, navigate to Settings → API Keys and generate a new API key (or copy an existing one).
+2. <!-- screenshot: Close API key generation page -->
+3. Open your CorpusIQ dashboard and click Connections.
+4. Find Close and click Connect.
+5. Paste the API key and save.
+<!-- screenshot: CorpusIQ Close API key form -->
+
+You'll see Close change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Leads with statuses, contacts, and addresses
+- Full lead details including custom fields
+- Opportunities (pipeline deals) with values, statuses, and expected close dates
+- Activities: calls, emails, notes, and meetings with timestamps
+- Full-text search across leads, contacts, and opportunities
+- Organization users (sales reps) for activity attribution
+
+CorpusIQ never creates leads, moves opportunities, or logs activities.
+
+## Questions you can ask
+- "How many leads are in active sequence right now?"
+- "Show me opportunities closing this month with value over $10k."
+- "What did my team do last week - calls, emails, and meetings?"
+- "Search Close for any lead or contact mentioning 'Acme Corp'."
+- "Which rep has the most open opportunities?"
+
+## Troubleshooting
+- **"API key invalid"** - Confirm the key was generated in Close under Settings → API Keys and hasn't been revoked.
+- **"No leads returned"** - Your API key may be scoped to a specific user. Try generating a key with organization-wide access.
+- **Search returns unexpected results** - Close search uses its own query language. Try exact phrases or use the full-text search for broader matching.
+- **Auth fails after key rotation** - Update the key in your CorpusIQ Connections dashboard.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connect Airtable to Claude (Plain English Q&A)
+URL: https://www.corpusiq.io/docs/connectors/connect-airtable-to-claude
+
+# Connect Airtable to Claude (Plain English Q&A)
+
+Airtable holds your operational data - projects, inventory, CRM, content calendars. Connect it to Claude through CorpusIQ and ask questions instead of building views and filters manually.
+
+## What you can ask once connected
+
+- "Show me all projects due this week that are still in progress."
+- "Which inventory items are below reorder threshold?"
+- "How many leads did we add to our CRM base this month?"
+- "Find all content pieces scheduled for next week without a writer assigned."
+- "Which client projects are over budget?"
+
+## What CorpusIQ reads from Airtable
+
+- All bases you have access to
+- All tables and records within those bases
+- Field values, linked records, and attachment names
+- Filtered and sorted record sets
+
+Read-only. CorpusIQ never modifies your Airtable bases or records.
+
+## Connect Airtable to Claude in 2 minutes
+
+1. Sign up at corpusiq.io
+2. Click Connections then Airtable then paste your API key
+3. Ask your first question
+
+[Connect Airtable to Claude free](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect GA4 to Claude (Plain English Q&A)
+URL: https://www.corpusiq.io/docs/connectors/connect-ga4-to-claude
+
+# How to Connect GA4 to Claude (Plain English Q&A)
+
+GA4 is powerful and complicated. CorpusIQ connects it to Claude so you can skip the interface entirely and just ask.
+
+## What you can ask Claude once connected
+
+- "What were my top 5 traffic sources this week?"
+- "Which pages have the highest bounce rate this month?"
+- "How many new users signed up from organic search in the last 30 days?"
+- "Compare mobile vs desktop conversion rate."
+- "What's the funnel drop-off between landing page and checkout?"
+
+Real GA4 data. Plain English answers.
+
+## What CorpusIQ reads from GA4
+
+- Sessions, users, pageviews by channel, device, country
+- Acquisition breakdown (organic, paid, direct, referral)
+- Conversion events and goals
+- Ecommerce purchase revenue
+- Real-time active users
+- Page-level performance
+
+Read-only. CorpusIQ never modifies your GA4 property.
+
+## Connect GA4 to Claude in 2 minutes
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io)
+2. Click **Connections** → Google Analytics 4
+3. Authorize with your Google account
+4. Select your GA4 property
+5. Ask your first question
+
+30-day free trial. No credit card.
+
+## The cross-source answer
+
+"Google Ads drove 4,200 clicks last week. How many turned into purchases in GA4, and what was the revenue?" - one question, answered across both platforms in 30 seconds.
+
+[Start free - connect GA4 to Claude](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Google Ads to Claude (Plain English)
+URL: https://www.corpusiq.io/docs/connectors/connect-google-ads-to-claude
+
+# How to Connect Google Ads to Claude (Plain English)
+
+Your Google Ads dashboard shows clicks and spend. It doesn't tell you if you're actually profitable. Connect Google Ads to Claude through CorpusIQ and ask the questions that actually matter.
+
+## What you can ask Claude once connected
+
+- "Which campaigns have the highest ROAS this month?"
+- "What keywords are spending the most with zero conversions?"
+- "Compare this month's CPC to last month by campaign."
+- "Which ad groups are below our target CPA?"
+- "Show me search terms that triggered our ads but aren't in our keyword list."
+
+One question. Real data. No exporting.
+
+## What CorpusIQ reads from Google Ads
+
+- Campaigns (spend, impressions, clicks, conversions, ROAS)
+- Ad groups and individual ads
+- Keywords with quality scores and match types
+- Search terms report
+- Geographic and device breakdown
+- Age and gender demographics
+
+Read-only. CorpusIQ never modifies bids, budgets, or campaigns.
+
+## Connect Google Ads to Claude in 2 minutes
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io) - free 30-day trial
+2. Click **Connections** → Google Ads
+3. Authorize with your Google account
+4. Select the ad account(s) you want to connect
+5. Ask Claude your first question
+
+## Cross-source analysis that changes decisions
+
+Google Ads spend + GA4 sessions + Shopify revenue in one answer:
+
+"I spent $8,400 on Google Ads this month. What revenue did it actually drive in Shopify after accounting for returns?"
+
+That's the question most operators can't answer. CorpusIQ answers it in 30 seconds.
+
+[Start free - connect Google Ads to Claude](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect HubSpot to Claude (Plain English Q&A)
+URL: https://www.corpusiq.io/docs/connectors/connect-hubspot-to-claude
+
+# How to Connect HubSpot to Claude (Plain English Q&A)
+
+Stop building HubSpot reports that no one reads. Connect HubSpot to Claude through CorpusIQ and ask your pipeline questions directly.
+
+## What you can ask Claude once connected
+
+- "What deals are most at risk of not closing this month?"
+- "Which sales rep has the best close rate in Q2?"
+- "Show me all contacts added in the last 7 days and their lead source."
+- "What's our average deal velocity from first touch to close?"
+- "Which deals have had no activity in over 2 weeks?"
+
+Real pipeline data. Plain English answers.
+
+## What CorpusIQ reads from HubSpot
+
+- Contacts (details, activity, lead source, lifecycle stage)
+- Deals (pipeline stage, value, owner, close date)
+- Companies
+- Deal activity and engagement history
+
+Read-only. CorpusIQ never creates or modifies CRM records.
+
+## How to connect HubSpot to Claude
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io)
+2. Click **Connections** → HubSpot
+3. Authorize via HubSpot OAuth
+4. Ask your first pipeline question
+
+30-day free trial. No credit card.
+
+## The question your team keeps asking manually
+
+"Which deals should we focus on this week?" - CorpusIQ pulls deal stage, last activity, close date, and rep notes across your entire pipeline and surfaces the answer in seconds.
+
+[Start free - connect HubSpot to Claude](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Klaviyo to Claude (Plain English)
+URL: https://www.corpusiq.io/docs/connectors/connect-klaviyo-to-claude
+
+# How to Connect Klaviyo to Claude (Plain English)
+
+Klaviyo has the data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your email marketing performance.
+
+## What you can ask Claude once connected
+
+- "Which email campaign drove the most revenue last month?"
+- "What's our abandoned cart flow recovering per month?"
+- "Which list has the highest open rate?"
+- "How many subscribers did we add this week and from which form?"
+- "What's the click-to-conversion rate on our welcome flow?"
+
+No more digging through Klaviyo dashboards.
+
+## What CorpusIQ reads from Klaviyo
+
+- Campaigns (sends, opens, clicks, revenue attributed)
+- Flows and automation performance
+- Lists and segments (growth, health, engagement)
+- Signup forms (submissions, conversion rates)
+- Subscriber health (active, bounced, suppressed)
+- Predictive analytics (CLV, churn risk)
+
+Read-only. CorpusIQ never sends emails or modifies your lists.
+
+## Connect Klaviyo to Claude in 2 minutes
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io)
+2. Click **Connections** → Klaviyo
+3. Paste your Klaviyo private API key
+4. Ask your first question
+
+## Email + ecommerce in one answer
+
+"Which email campaign drove the most Shopify revenue last month - and what was the ROAS?" connects Klaviyo attribution + Shopify orders in one answer.
+
+[Start free - connect Klaviyo to Claude](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect LinkedIn Ads to Claude (Plain English)
+URL: https://www.corpusiq.io/docs/connectors/connect-linkedin-ads-to-claude
+
+# How to Connect LinkedIn Ads to Claude (Plain English)
+
+Stop exporting LinkedIn Ads reports into spreadsheets. Connect LinkedIn Ads to Claude through CorpusIQ and ask your campaign questions directly.
+
+## What you can ask Claude once connected
+
+- "Which LinkedIn campaigns drove the most pipeline last month?"
+- "What is my cost per lead by job title targeting?"
+- "Show me click-through rates by ad creative this quarter."
+- "Which sponsored content posts are getting the best engagement from director-level audiences?"
+- "Compare my LinkedIn Ads spend to Google Ads spend and show me cost per click for each."
+
+Real campaign data. Plain English answers.
+
+## What CorpusIQ reads from LinkedIn Ads
+
+- Campaign performance (impressions, clicks, CTR, spend)
+- Lead gen form submissions and conversion rates
+- Audience breakdown by job title, seniority, industry, company size
+- Creative performance by ad type
+- Historical spend and budget pacing
+
+Read-only. CorpusIQ never creates or modifies your ad campaigns.
+
+## How to connect LinkedIn Ads to Claude
+
+1. Sign up at [corpusiq.io](https://www.corpusiq.io)
+2. Click **Connections** and choose LinkedIn Ads
+3. Authorize via LinkedIn OAuth
+4. Ask your first campaign question
+
+30-day free trial. No credit card.
+
+## The cross-source advantage
+
+LinkedIn Ads alone tells you CPL. LinkedIn Ads plus your CRM tells you which leads actually converted. LinkedIn Ads plus QuickBooks tells you revenue per dollar spent.
+
+CorpusIQ connects LinkedIn Ads alongside HubSpot, Salesforce, Shopify, Google Ads, and 40+ other sources so you can ask the full picture question in one query.
+
+"What is our fully loaded customer acquisition cost from LinkedIn Ads including sales follow-up time?" - that needs LinkedIn Ads, your CRM, and operational data together. CorpusIQ handles it.
+
+## Why operators use CorpusIQ for LinkedIn Ads instead of native reporting
+
+LinkedIn's Campaign Manager shows you platform metrics. It does not show you what those leads turned into. CorpusIQ pulls your ad data and your downstream data into the same question so you stop guessing which campaigns actually drive revenue.
+
+## Common questions from B2B operators
+
+**"We spend $8k/month on LinkedIn Ads but I have no idea if it is working."**
+Connect LinkedIn Ads and HubSpot to CorpusIQ. Ask which campaigns sourced deals that actually closed. Get an answer in under 30 seconds.
+
+**"Our agency sends monthly reports but the numbers never match what we see in HubSpot."**
+CorpusIQ reads both sources directly. Ask the same question from both datasets and see where the discrepancy is.
+
+**"I want to compare LinkedIn Ads to Google Ads performance but the metrics are not apples to apples."**
+CorpusIQ normalizes across platforms. Ask for cost per qualified lead across all paid channels and get a unified view.
+
+[Start free - connect LinkedIn Ads to Claude](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connect Meta Ads (Facebook + Instagram) to Claude
+URL: https://www.corpusiq.io/docs/connectors/connect-meta-ads-to-claude
+
+# Connect Meta Ads (Facebook + Instagram) to Claude
+
+Your Meta Ads dashboard shows spend and reach. It does not tell you if you are profitable. Connect Meta Ads to Claude through CorpusIQ and ask the questions that matter.
+
+## What you can ask once connected
+
+- "What is my true ROAS on Meta this month after Shopify returns?"
+- "Which ad sets are burning budget with no conversions?"
+- "Compare Facebook vs Instagram performance this week."
+- "What is my CPM trend over the last 30 days?"
+- "Which age and gender segment converts best?"
+
+## What CorpusIQ reads from Meta Ads
+
+- Account-level spend, impressions, clicks, reach, CPM, CPC, CTR
+- Campaign and ad set performance
+- Individual ad creative metrics
+- Age, gender, geographic, device breakdowns
+- Daily performance trends
+
+Read-only. CorpusIQ never modifies your campaigns or budgets.
+
+## Connect Meta Ads to Claude in 2 minutes
+
+1. Sign up at corpusiq.io
+2. Click Connections then Meta Ads then authorize with your Facebook account
+3. Select your ad account
+4. Ask Claude your first question
+
+## The cross-source answer Meta cannot give you
+
+"I spent $12,000 on Meta this month. How much Shopify revenue did it actually drive after returns and fees?" - that requires Meta plus Shopify plus Stripe. CorpusIQ answers it in one question.
+
+[Connect Meta Ads to Claude free](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect QuickBooks to Claude (Plain English Q&A)
+URL: https://www.corpusiq.io/docs/connectors/connect-quickbooks-to-claude
+
+# How to Connect QuickBooks to Claude (Plain English Q&A)
+
+Instead of running reports in QuickBooks and copy-pasting into a spreadsheet, connect QuickBooks to Claude through CorpusIQ and just ask.
+
+## What you can ask Claude once connected
+
+- "What's our cash position right now?"
+- "Which invoices are overdue and by how many days?"
+- "Show me P&L for Q1 vs Q2."
+- "Which customers owe us the most money?"
+- "What's our accounts payable total this month?"
+
+Real answers. Real numbers. From your actual QuickBooks data.
+
+## What CorpusIQ reads from QuickBooks
+
+- Profit & Loss reports
+- Balance Sheet
+- Invoices (paid, unpaid, overdue)
+- Payments received
+- Expenses and bills
+- Customers and vendors
+- Accounts Receivable and Payable aging
+
+Read-only. CorpusIQ never creates transactions or modifies your books.
+
+## How to connect QuickBooks to Claude
+
+1. Go to [corpusiq.io](https://www.corpusiq.io) and sign up free
+2. Click **Connections** → find QuickBooks Online
+3. Click **Connect** → Intuit OAuth login
+4. Approve read-only access
+5. Open Claude or ChatGPT and connect the CorpusIQ MCP server
+6. Ask: "What invoices are overdue right now?"
+
+2 minutes. 30-day free trial. No credit card.
+
+## The cross-source power move
+
+QuickBooks alone tells you what happened. CorpusIQ tells you *why*.
+
+"Revenue is down 18% - is it fewer orders, lower AOV, or more refunds?" connects QuickBooks + Shopify + Stripe in one answer.
+
+[Start free - connect QuickBooks to Claude](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Shopify to Claude (Live Data, No CSV Exports)
+URL: https://www.corpusiq.io/docs/connectors/connect-shopify-to-claude
+
+# How to Connect Shopify to Claude (Live Data, No CSV Exports)
+
+Stop exporting CSVs from Shopify to answer basic questions. CorpusIQ connects your live Shopify store to Claude, ChatGPT, or Perplexity - so you can ask plain-English questions and get real answers from your actual store data.
+
+## What you can ask Claude once connected
+
+- "What are my top 10 products by revenue this month?"
+- "Which products have inventory below 20 units?"
+- "What's my average order value this week vs last week?"
+- "Show me orders that haven't shipped in over 3 days."
+- "Which customers spent over $500 total this year?"
+
+You get answers in seconds. No dashboard. No report. Just ask.
+
+## What CorpusIQ connects from Shopify
+
+- Orders (status, revenue, fulfillment, customer)
+- Products and variants (inventory, pricing, SKUs)
+- Customers (lifetime value, order history, location)
+- Refunds and returns
+- Collections
+
+Read-only. CorpusIQ never modifies your store.
+
+## How to connect Shopify to Claude in 2 minutes
+
+1. Go to [corpusiq.io](https://www.corpusiq.io) and create a free account
+2. Click **Connections** and find Shopify
+3. Click **Connect** - you'll be redirected to Shopify OAuth
+4. Approve read-only access
+5. Open Claude Desktop or ChatGPT and connect to the CorpusIQ MCP server
+6. Ask your first question
+
+30-day free trial. No credit card required.
+
+## Why not just use Shopify Analytics?
+
+Shopify Analytics answers Shopify questions. CorpusIQ answers *business* questions - across Shopify, QuickBooks, Google Ads, and GA4 at the same time.
+
+"What's my true profit margin after ad spend, fees, and refunds?" - that requires Shopify + QuickBooks + Google Ads. CorpusIQ does it in one answer.
+
+## Connect Shopify with
+
+- [QuickBooks](quickbooks.md) - reconcile sales vs invoices
+- [Google Ads](https://www.corpusiq.io/connectors/google-ads) - true ROAS per product
+- [GA4](ga4.md) - traffic to purchase funnel
+- [Klaviyo](klaviyo.md) - email revenue attribution
+
+[Start free - connect Shopify to Claude today](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connect Slack to Claude (Search and Analyze Your Workspace)
+URL: https://www.corpusiq.io/docs/connectors/connect-slack-to-claude
+
+# Connect Slack to Claude (Search and Analyze Your Workspace)
+
+Stop searching through Slack manually. Connect Slack to Claude through CorpusIQ and ask questions about your workspace activity, channels, and messages.
+
+## What you can ask once connected
+
+- "What were the main topics discussed in engineering this week?"
+- "Find all messages mentioning the Acme client in the last 30 days."
+- "Which channels are most active?"
+- "What did the team decide about the Q3 roadmap?"
+- "Show me recent messages about the payment bug."
+
+## What CorpusIQ reads from Slack
+
+- Channel list and metadata
+- Message search across all accessible channels
+- Thread context
+- Workspace analytics and top channels
+- File attachment names and links
+
+Read-only. CorpusIQ never posts messages or modifies your workspace.
+
+## Connect Slack to Claude in 2 minutes
+
+1. Sign up at corpusiq.io
+2. Click Connections then Slack then authorize with your workspace
+3. Ask your first question
+
+[Connect Slack to Claude free](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connect Stripe to Claude (Plain English Q&A)
+URL: https://www.corpusiq.io/docs/connectors/connect-stripe-to-claude
+
+# Connect Stripe to Claude (Plain English Q&A)
+
+Stripe holds your revenue data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your payments, payouts, and disputes.
+
+## What you can ask once connected
+
+- "How much revenue did we process this month vs last month?"
+- "Which customers have the highest lifetime spend?"
+- "Show me all failed payments in the last 7 days."
+- "What is our refund rate this quarter?"
+- "Are there any open disputes I need to respond to?"
+
+## What CorpusIQ reads from Stripe
+
+- Charges and payments
+- Customers and lifetime value
+- Payouts and balance transactions
+- Refunds
+- Disputes and chargebacks
+- Current balance (available and pending)
+
+Read-only. CorpusIQ never initiates charges or modifies your Stripe account.
+
+## Connect Stripe to Claude in 2 minutes
+
+1. Sign up at corpusiq.io
+2. Click Connections then Stripe then enter your restricted API key
+3. Ask your first question
+
+## Reconcile Stripe with QuickBooks automatically
+
+"Do our Stripe payouts match what QuickBooks shows as income this month?" - CorpusIQ pulls both and flags any gap. The question most finance teams spend hours on, answered in 30 seconds.
+
+[Connect Stripe to Claude free](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Constant Contact
+URL: https://www.corpusiq.io/docs/connectors/constantcontact
+
+# Constant Contact
+
+## What it unlocks
+If Constant Contact is where your email lives, this connector pulls campaign performance and contact lists into the same view as your Shopify revenue and GA4 sessions. That's what makes questions like "did last week's newsletter actually drive traffic?" answerable.
+
+## Before you connect
+- A Constant Contact account with admin access
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Constant Contact.
+2. Click Connect.
+3. Sign in to Constant Contact when the consent screen appears.
+4. <!-- screenshot: Constant Contact OAuth consent screen -->
+5. Approve read access and you'll be redirected back to CorpusIQ.
+
+You'll see Constant Contact change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Email campaigns and their status (sent, scheduled, draft)
+- Contacts, with search and filtering
+- Contact lists
+
+CorpusIQ never sends mail or edits contacts.
+
+## Questions you can ask
+- "Show me my last 10 Constant Contact campaigns."
+- "How big is each of my email lists?"
+- "Find contacts whose email contains 'gmail.com'."
+- "What's scheduled to send this week?"
+- "Compare my email send days to GA4 traffic spikes."
+
+## Troubleshooting
+- **"Token expired"** - Constant Contact tokens refresh automatically, but if you see this, disconnect and reconnect.
+- **Empty contact list** - Make sure the account you authorized actually owns the lists you're expecting.
+- **Campaign metrics look low** - The connector returns send-level data, not deep engagement metrics; for opens and clicks check the Constant Contact UI directly.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Azure Cosmos DB
+URL: https://www.corpusiq.io/docs/connectors/cosmosdb
+
+# Azure Cosmos DB
+
+## What it unlocks
+Cosmos DB is often where the unglamorous-but-critical data lives: event logs, telemetry, user activity, IoT readings. Connecting it lets CorpusIQ run read-only queries against your container so you can pull operational data into the same answers as your finance and sales sources.
+
+## Before you connect
+- An Azure Cosmos DB account (SQL API)
+- The endpoint URL, database name, and container name
+- Either a primary key, or an AAD identity with Cosmos DB Data Reader role
+- About 3 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Azure Cosmos DB.
+2. Click Configure.
+3. <!-- screenshot: Cosmos DB connection form in CorpusIQ -->
+4. Enter your endpoint (e.g. `https://yourdb.documents.azure.com:443/`), database name, and container name.
+5. Choose your auth method:
+   - **Key** - paste the primary key from the Azure portal → Keys.
+   - **AAD** - paste the user principal and tenant ID; the service account must have the Cosmos DB Data Reader role on the database.
+6. Click Save.
+
+You'll see Cosmos DB change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Connection status
+- A list of containers in the configured database
+- Sample-based insights about your container (field shapes, sample values)
+- Distinct-value counts grouped by a field
+- Arbitrary SELECT queries against your container
+
+CorpusIQ never inserts, updates, or deletes documents.
+
+## Questions you can ask
+- "List the containers in my Cosmos database."
+- "Run this query against Cosmos: SELECT TOP 10 c.event_type, c.timestamp FROM c WHERE c.user_id = 'abc'"
+- "How many distinct event types did we see grouped by day?"
+- "What fields does my events container have?"
+- "Is my Cosmos connection healthy?"
+
+## Troubleshooting
+- **"401 Unauthorized"** - Key is wrong or expired. Get a fresh primary key from Azure portal → Cosmos DB account → Keys.
+- **AAD auth fails** - The principal must hold the Cosmos DB Built-in Data Reader role (not just RBAC on the account).
+- **Cross-partition errors** - Some queries need `cross_partition=true`. Toggle it in the connection settings if your container is partitioned.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Dropbox
+URL: https://www.corpusiq.io/docs/connectors/dropbox
+
+# Dropbox
+
+## What it unlocks
+A lot of operating context - contracts, past board updates, vendor invoices, design files - lives in Dropbox folders. Connecting Dropbox lets CorpusIQ search and read those documents so they can show up in answers alongside live data from your other tools.
+
+## Before you connect
+- A Dropbox account (personal or Business)
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Dropbox.
+2. Click Connect.
+3. Sign in to Dropbox when the consent screen appears.
+4. <!-- screenshot: Dropbox OAuth consent screen -->
+5. Approve read access and you'll be returned to CorpusIQ.
+
+You'll see Dropbox change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Account info and storage quota
+- Files and folders, with search by name or content
+- Recently modified files
+- The contents of Word docs, Excel, PowerPoint, PDFs, and text files
+
+CorpusIQ never uploads, edits, deletes, or moves files.
+
+## Questions you can ask
+- "Find my Dropbox file mentioning 'Q3 board deck'."
+- "What's in my Dropbox /Contracts folder?"
+- "How much Dropbox storage am I using?"
+- "Read the latest agency contract from Dropbox."
+- "Show me Dropbox files I've touched in the last week."
+
+## Troubleshooting
+- **"Token expired"** - Disconnect and reconnect from Dashboard → Connectors.
+- **Can't find a file** - Search uses Dropbox's index, which can lag for very recent uploads. Wait a few minutes and try again.
+- **PDF reads blank** - Image-only PDFs need OCR; CorpusIQ only reads embedded text.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# eBay
+URL: https://www.corpusiq.io/docs/connectors/ebay
+
+# eBay
+
+## What it unlocks
+For eBay sellers, the financial truth sits inside Seller Hub - orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fold marketplace revenue and seller health into the same answers as your other channels, so you can see your full business picture without bouncing between dashboards.
+
+## Before you connect
+- An eBay seller account
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find eBay.
+2. Click Connect.
+3. Sign in to eBay when the consent screen appears.
+4. <!-- screenshot: eBay OAuth consent screen -->
+5. Approve the requested seller scopes and you'll be returned to CorpusIQ.
+
+You'll see eBay change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Orders with GMV, item counts, and fulfillment status
+- Financial transactions (sales, credits, refunds, fees)
+- Seller standards profile
+- Customer service metrics, including INAD and INR rates
+- Listing traffic reports
+- Funds summary - settled, on hold, total balance
+- Seller privileges and entitlements
+
+CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
+
+## Questions you can ask
+- "What's my eBay GMV for the last 30 days?"
+- "How are my seller standards trending?"
+- "Show me eBay funds on hold right now."
+- "Which listings got the most impressions last week?"
+- "What's my refund rate on eBay this quarter?"
+
+## Troubleshooting
+- **"Missing finances scope"** - Disconnect and reconnect; the funds summary requires the `sell.finances` scope which is requested during OAuth.
+- **Traffic report empty** - eBay's traffic data has a 24-48 hour lag. Check yesterday's date, not today's.
+- **Standards profile blank** - New sellers don't have a standards profile yet; eBay requires a minimum order volume.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Meta (Facebook, Instagram, Ads)
+URL: https://www.corpusiq.io/docs/connectors/facebook_marketing
+
+# Meta (Facebook, Instagram, Ads)
+
+## What it unlocks
+Meta Ads is usually one of the largest line items in a SaaS or ecommerce budget, and Meta's own ROAS numbers are notoriously optimistic. Connecting Meta gives CorpusIQ read access to the whole Meta family through one connection: Meta Ads (Facebook and Instagram advertising), your Facebook and Instagram pages, and the content data behind them. You do not connect Facebook, Instagram, and Meta Ads separately - one Meta connector covers all of it.
+
+With it, CorpusIQ can pull spend, impressions, clicks, and platform-reported conversions, then compare them honestly to GA4 sessions and Shopify revenue - so you can see what Meta actually drove, not what Meta claims it drove.
+
+## Before you connect
+- A Meta Business account with access to the ad account(s) you want to read
+- Admin or analyst role on those ad accounts
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Meta.
+2. Click Connect.
+3. Sign in to Facebook when the consent screen appears.
+4. <!-- screenshot: Meta OAuth consent - ad account selector -->
+5. Choose which ad accounts CorpusIQ may read and approve `ads_read` access.
+6. You'll be returned to CorpusIQ.
+
+You'll see Meta change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Ad accounts and their currency, status, and balance
+- Campaigns, ad sets, and individual ads with creative details
+- Account-level insights - impressions, clicks, spend, reach, frequency, CPM, CPC, CTR
+- Campaign-level daily performance
+- Breakdowns by age, gender, geography, device, platform, and placement
+- Facebook and Instagram pages - page info, followers, and page-level content
+
+All of this comes through the one Meta connection. The Meta Business account you sign in with must have access to the pages and ad accounts you want to read.
+
+**Read-only guarantee:** CorpusIQ cannot create, edit, or pause ads, and it cannot change budgets, bidding, or targeting. It only reads. It is not an AI agent and does not retain raw customer files or full connector response payloads; no one at CorpusIQ can access your account. Full details: [Security and Read-Only Access](/hermes/security/read-only-and-security)
+
+CorpusIQ never creates ads, edits budgets, or pauses campaigns.
+
+## Questions you can ask
+- "How much did I spend on Meta Ads last week?"
+- "Which Facebook campaigns have the best CTR?"
+- "Compare my Meta-reported conversions to GA4 conversions."
+- "Show me daily spend on the spring sale campaign."
+- "What's my true ROAS on Meta after attribution through GA4 and Shopify?"
+
+## Troubleshooting
+- **"No ad accounts found"** - Your Facebook user must be added as a person on the ad account in Business Manager. Page-level admin isn't enough.
+- **"Permissions error on insights"** - Reconnect and make sure you approved the `ads_read` permission during OAuth.
+- **Spend looks different than Meta UI** - Meta defaults to a 7-day click attribution window in some places and 1-day in others. CorpusIQ pulls raw spend, which always matches Billing & Payments, not the campaign UI's attributed numbers.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# GA4 - Google Analytics 4
+URL: https://www.corpusiq.io/docs/connectors/ga4
+
+# GA4 - Google Analytics 4
+
+## What the GA4 connector does
+
+The GA4 connector makes your analytics answerable in plain English from any AI assistant. Connect once and ChatGPT, Claude, or Perplexity can query sessions, users, pageviews, traffic sources, conversion events, ecommerce revenue and real-time active users across any date range - and join those numbers to Google Ads spend or Shopify revenue through the same CorpusIQ endpoint. GA4 is part of the Google Workspace connector: sign in with the Google account that has access to the property and select the property to read. The connection is read-only and never modifies your Analytics data, and individual user PII is never exposed. CorpusIQ does not retain raw customer files or full connector response payloads, and operational query logs are bounded. Setup takes about two minutes.
+
+## What it unlocks
+
+Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue - without leaving Claude or ChatGPT.
+
+- **Traffic analysis** - sessions, users, pageviews by channel, device, country
+- **Acquisition breakdown** - which channels drive the most engaged visitors
+- **Conversion tracking** - goal completions, events, funnel performance
+- **Revenue reporting** - ecommerce purchase revenue, ROAS from GA4's perspective
+- **Real-time data** - active users right now, top pages in the last 30 minutes
+- **Cross-source analysis** - GA4 traffic vs Google Ads spend vs Shopify revenue in one answer
+
+## Example prompts
+
+```
+What were my top 5 traffic sources this week and which had the best conversion rate?
+```
+
+```
+How many new users signed up in the last 7 days and where did they come from?
+```
+
+```
+Compare organic vs paid traffic performance over the last 30 days.
+```
+
+```
+What pages have the highest bounce rate this month?
+```
+
+```
+Show me real-time active users right now broken down by device.
+```
+
+## How to connect
+
+GA4 is part of the Google Workspace connector, not a separate connector.
+
+1. Go to **corpusiq.io** → Dashboard → Connectors
+2. Click **Google Workspace**
+3. Sign in with the Google account that has access to your GA4 property
+4. Select the GA4 property you want to read
+5. Done - GA4 data comes through the Google Workspace connection, read-only, and never modifies your Analytics data
+
+## What data CorpusIQ can see
+
+| Data | Available |
+|------|-----------|
+| Sessions, users, pageviews | ✅ |
+| Traffic sources / channels | ✅ |
+| Conversion events | ✅ |
+| Ecommerce revenue | ✅ |
+| Real-time active users | ✅ |
+| Individual user PII | ❌ Never |
+| Raw event stream | ❌ Aggregated only |
+
+## Cross-source power queries
+
+GA4 becomes most powerful when combined with other connectors:
+
+```
+My Google Ads spend was $12,000 this month. What revenue did GA4 attribute to paid search?
+```
+
+```
+Which acquisition channel has the lowest CAC when I combine GA4 conversion data with my ad spend?
+```
+
+```
+Did the email campaign I sent Tuesday cause a traffic spike? Compare Klaviyo send time to GA4 sessions.
+```
+
+## Frequently Asked Questions
+
+### How do I connect GA4 to ChatGPT?
+
+GA4 is part of the Google Workspace connector in CorpusIQ. Sign in with the Google account that has access to your GA4 property, select the property, and then ask your analytics questions in ChatGPT. The data comes through read-only.
+
+### Is the GA4 connection read-only?
+
+Yes. CorpusIQ reads your Analytics data and never modifies it. Individual user PII is never exposed, and raw event streams are aggregated only. Raw customer files or full connector response payloads are not retained.
+
+### Do I need a separate connector for GA4?
+
+No. GA4 is part of the Google Workspace connector, which also covers Gmail, Calendar, Drive, Sheets and Google Ads with one authorization.
+
+### Can CorpusIQ join GA4 data with ad spend?
+
+Yes. The same CorpusIQ endpoint connects Google Ads, Shopify and other tools, so an assistant can compare GA4-attributed conversions with ad spend or store revenue in one query.
+
+### What GA4 data can CorpusIQ see?
+
+Sessions, users, pageviews, traffic sources and channels, conversion events, ecommerce revenue and real-time active users. It never exposes individual user PII and only reads aggregated data.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect GA4 to ChatGPT?", "acceptedAnswer": {"@type": "Answer", "text": "GA4 is part of the Google Workspace connector in CorpusIQ. Sign in with the Google account that has access to your GA4 property, select the property, and then ask your analytics questions in ChatGPT. The data comes through read-only."}},
+    {"@type": "Question", "name": "Is the GA4 connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ reads your Analytics data and never modifies it. Individual user PII is never exposed, and raw event streams are aggregated only. Raw customer files or full connector response payloads are not retained."}},
+    {"@type": "Question", "name": "Do I need a separate connector for GA4?", "acceptedAnswer": {"@type": "Answer", "text": "No. GA4 is part of the Google Workspace connector, which also covers Gmail, Calendar, Drive, Sheets and Google Ads with one authorization."}},
+    {"@type": "Question", "name": "Can CorpusIQ join GA4 data with ad spend?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The same CorpusIQ endpoint connects Google Ads, Shopify and other tools, so an assistant can compare GA4-attributed conversions with ad spend or store revenue in one query."}},
+    {"@type": "Question", "name": "What GA4 data can CorpusIQ see?", "acceptedAnswer": {"@type": "Answer", "text": "Sessions, users, pageviews, traffic sources and channels, conversion events, ecommerce revenue and real-time active users. It never exposes individual user PII and only reads aggregated data."}}
+  ]
+}
+</script>
+
+---
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# GoHighLevel (LeadConnector)
+URL: https://www.corpusiq.io/docs/connectors/gohighlevel
+
+# GoHighLevel (LeadConnector)
+
+## What it unlocks
+If you run an agency or service business on GoHighLevel, this is where contacts, pipelines, appointments, and payments all converge. Connecting it lets CorpusIQ pull that operational data into the same view as your finance and marketing sources, so you can answer questions about pipeline health, conversation volume, and revenue without leaving one tool.
+
+## Before you connect
+- A GoHighLevel sub-account (location) you have admin access to
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find GoHighLevel.
+2. Click Connect.
+3. Follow the standard GoHighLevel OAuth flow when prompted and sign in.
+4. <!-- screenshot: GoHighLevel location selection during OAuth -->
+5. Pick the sub-account (location) you want CorpusIQ to read and approve access.
+6. You'll be returned to CorpusIQ.
+
+You'll see GoHighLevel change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Location info - name, address, phone, timezone, plan
+- Contacts with custom fields and tags, plus search
+- Opportunities (pipeline deals)
+- Calendars and appointments
+- Conversations (SMS, email, calls) and their full message history
+- Payment orders
+- Forms
+
+CorpusIQ never sends messages, books appointments, or charges customers.
+
+## Questions you can ask
+- "How many opportunities are in my pipeline?"
+- "Show me appointments booked this week."
+- "Find the conversation thread with Jane Doe."
+- "List payments collected in the last 30 days."
+- "What forms do I have set up?"
+
+## Troubleshooting
+- **"Location not authorized"** - During OAuth you may have picked the wrong sub-account. Disconnect and reconnect to choose the right one.
+- **No conversations found** - The conversations API requires the `conversations.readonly` scope; reconnect to refresh scopes if you connected before that scope was added.
+- **Empty pipeline** - Make sure your opportunities live in the location you authorized, not a sibling sub-account.
+
+<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Google Ads for agencies: one manager account, one connection
+URL: https://www.corpusiq.io/docs/connectors/google-ads-for-agencies
+
+
+# Google Ads for agencies: one manager account, one connection
+
+An agency should not create a different Google login for every client it manages.
+
+The clean setup is:
+
+```text
+One agency-controlled Google identity
+                  |
+                  v
+Google Ads Manager Account (MCC)
+        |                    |
+        v                    v
+ Client account A       Sub-manager account
+                              |
+                              v
+                       Client account B
+```
+
+Connect that agency identity to CorpusIQ once. CorpusIQ discovers the Google Ads accounts linked beneath the manager account, including accounts beneath sub-manager accounts.
+
+## What the agency needs
+
+Before connecting Google Ads to CorpusIQ, confirm all four requirements:
+
+1. **A Google Ads Manager Account (MCC).** This is a separate Google Ads account built to manage multiple advertiser accounts. An ordinary advertiser account is not converted into an agency account.
+2. **One designated, login-capable Google identity controlled by the agency.** A managed Google Workspace user such as `ads-reporting@youragency.com` is easier to retain when employees change. It must be a real user that can complete Google sign-in, not a Google Group, forwarding alias, or distribution list. Protect it with multifactor authentication and normal company access controls. Do not share its password broadly.
+3. **Every client advertiser account linked to the manager hierarchy.** A client may sit directly beneath the agency's top-level manager account or beneath a linked sub-manager account.
+4. **The designated identity has access at the manager level.** Google Ads roles inherit through the linked hierarchy. Read-only access is enough for CorpusIQ reporting; Standard or Admin access also works, but CorpusIQ still exposes read-only reporting tools.
+
+A Google identity is not itself “configured as an agency.” The agency structure lives in the Google Ads Manager Account. The identity is the user that CorpusIQ authenticates.
+
+## Recommended setup
+
+| Use this | Avoid this |
+|---|---|
+| One Google Ads Manager Account for the agency | A pile of unrelated advertiser accounts with no manager account |
+| One agency-controlled Google identity connected to CorpusIQ | One client email and password per advertiser account |
+| Client accounts linked beneath the MCC | Logging out and reconnecting CorpusIQ as a different client every time |
+| Individual staff keep their own Google users for normal Ads work | A shared password used by the whole agency |
+| Clients retain their own access and control | Asking clients to hand the agency their Google credentials |
+
+The client does not lose access when it links its advertiser account to an MCC. Its existing users continue signing in normally, and an account administrator can unlink the manager relationship later.
+
+## Step 1: Create the manager account
+
+If the agency does not already have an MCC:
+
+1. Open Google's [Manager Account page](https://ads.google.com/home/tools/manager-accounts/).
+2. Sign in with the designated agency Google identity.
+3. Create a manager account and choose the option to manage other people's accounts.
+4. Choose the agency's permanent country, time zone, and currency carefully. Google does not let you change some of these values later.
+
+Google's detailed instructions are in [Create a Google Ads manager account](https://support.google.com/google-ads/answer/7459399).
+
+## Step 2: Link each client account
+
+From the manager account:
+
+1. Open **Accounts** and then **Sub-account settings**.
+2. Select **Link existing account**.
+3. Enter the client's ten-digit Google Ads customer ID.
+4. Send the request.
+5. Ask an administrator on the client account to accept it under **Admin → Access and security → Managers**.
+
+The account appears under the manager account after the client accepts. Repeat this for every client account the agency wants CorpusIQ to report on.
+
+If the agency uses sub-manager accounts, link those beneath the top-level MCC. CorpusIQ supports nested manager hierarchies and resolves the correct manager context when it queries a leaf advertiser account.
+
+Google's current click path is documented in [Link accounts to your manager account](https://support.google.com/google-ads/answer/7459601).
+
+## Step 3: Verify the designated identity
+
+Before opening CorpusIQ, sign in to Google Ads as the designated agency identity and verify that it can see:
+
+- the top-level manager account;
+- any linked sub-manager accounts;
+- every client advertiser account the agency expects to query.
+
+If an account is missing in Google Ads while using that identity, it will also be missing from CorpusIQ. Reconnecting OAuth cannot repair an unaccepted manager link or missing Google Ads access.
+
+## Step 4: Connect Google Ads to CorpusIQ once
+
+1. Open **Dashboard → Connectors** in CorpusIQ.
+2. Select **Google Ads** and click **Connect**.
+3. Sign in with the designated agency Google identity.
+4. Approve the Google Ads access request.
+5. Return to CorpusIQ and confirm that Google Ads shows as connected.
+
+Do not reconnect once per client. The single OAuth connection represents the designated identity, and the MCC hierarchy supplies the client-account access beneath it.
+
+## Step 5: Verify account discovery
+
+Ask your connected AI client:
+
+> Use CorpusIQ to list every Google Ads account I can access. Include customer ID, account name, whether it is a manager account, and its parent manager when available.
+
+The result should include the top-level MCC, sub-manager accounts, and leaf advertiser accounts.
+
+Then test one client:
+
+> Show Google Ads account performance for client customer ID 123-456-7890 for the last 30 days.
+
+CorpusIQ automatically resolves the manager account required for that child account. Advanced callers may pass `login_customer_id` explicitly, but normal agency users should not need to manage that field.
+
+## What happens when the agency uses separate client logins
+
+A CorpusIQ Google Ads connection authenticates one Google identity. It can only discover accounts that identity can access.
+
+If Client A is available only through `client-a@example.com` and Client B only through `client-b@example.com`, connecting one of those users will not make both accounts visible. The agency should either:
+
+- link both advertiser accounts to its MCC; or
+- grant the designated agency identity direct access to the accounts.
+
+If a client will not permit either option, contact [support@corpusiq.io](mailto:support@corpusiq.io) before onboarding that account. Do not send passwords or OAuth codes to support.
+
+## Troubleshooting
+
+### The MCC appears, but a child account does not
+
+Check that the client accepted the link request and that the account appears in Google Ads when signed in as the same identity used for CorpusIQ. A pending invitation is not an active link.
+
+### The account appears, but a query returns `USER_PERMISSION_DENIED`
+
+Confirm the complete path from the top-level MCC through any sub-manager to the advertiser account. Then ask CorpusIQ to list accounts again before retrying the report. If the error remains, send support the manager and advertiser customer IDs, but no credentials.
+
+### Reconnecting did not help
+
+Repeated OAuth consent does not fix a missing MCC link or a Google Ads role problem. Repair the account hierarchy or user access in Google Ads first.
+
+### A former employee owns the connected identity
+
+Move the MCC access to an agency-controlled identity, then reconnect Google Ads in CorpusIQ with that identity. This is why a managed role address is preferable to one employee's personal account.
+
+## What CorpusIQ can and cannot do
+
+CorpusIQ can read account, campaign, ad group, ad, keyword, search-term, geographic, device, demographic, and performance data exposed by Google Ads.
+
+CorpusIQ does not create campaigns, change bids or budgets, pause ads, accept manager links, or change Google Ads user permissions. Those actions remain in Google Ads.
+
+## Official Google references
+
+- [About Google Ads Manager Accounts](https://support.google.com/google-ads/answer/6139186)
+- [Create a Manager Account](https://support.google.com/google-ads/answer/7459399)
+- [Link Client Accounts](https://support.google.com/google-ads/answer/7459601)
+- [Google Ads API access model](https://developers.google.com/google-ads/api/docs/oauth/access-model)
+
+---
+# Google Ads
+URL: https://www.corpusiq.io/docs/connectors/google_ads
+
+# Google Ads
+
+## What it unlocks
+Google Ads is often the single largest acquisition channel, and the platform's reported conversions rarely match what GA4 or your CRM actually see. Connecting Google Ads lets CorpusIQ pull spend, clicks, impressions, and conversions at the campaign, ad group, keyword, and search-term level - then line them up next to GA4 sessions and revenue so you can see your real CAC.
+
+## Before you connect
+- A Google account with access to the Google Ads customer ID you want to read
+- If you use a manager account (MCC), know which login customer ID to use
+- About 2 minutes
+
+## How to connect
+
+Google Ads is part of the Google Workspace connector, not a separate connector.
+
+1. In CorpusIQ, open Dashboard → Connectors and find Google Workspace.
+2. Click Connect.
+3. Sign in with the Google account that has access to your Ads account.
+4. <!-- screenshot: Google Workspace OAuth consent screen -->
+5. Approve read access and you'll be returned to CorpusIQ. Google Ads data comes through the same connection.
+
+You'll see Google Ads change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- All Google Ads accounts your Google user can see
+- Account-level performance summaries
+- Campaigns with impressions, clicks, cost, conversions, CTR, and CPC
+- Ad groups and individual ads
+- Keyword performance with quality scores and impression share
+- Search terms - the actual queries that triggered your ads
+- Breakdowns by geography, device, age, and gender
+- Custom GAQL queries for anything else
+
+CorpusIQ never creates campaigns, changes bids, or pauses ads.
+
+## Questions you can ask
+- "How much did I spend on Google Ads last month?"
+- "Which keywords have the best conversion rate?"
+- "Show me search terms that are wasting budget on brand keywords."
+- "Compare my Google Ads conversions to GA4 conversions by day."
+- "What's my true CAC and ROAS by channel?"
+
+## Troubleshooting
+- **"No accounts found"** - The Google user you signed in with doesn't have access to any Ads account. Add yourself in Google Ads → Tools → Access and Security.
+- **MCC errors** - If you manage accounts through an MCC, you'll need to pass the manager customer ID as `login_customer_id` when querying client accounts.
+- **Conversion counts seem low** - Google Ads only counts conversions configured in the Ads conversion settings. If you rely on GA4 imported conversions, check that the import is active.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Google Workspace - Gmail, Calendar, Drive, GA4, Ads
+URL: https://www.corpusiq.io/docs/connectors/google_workspace
+
+# Google Workspace - Gmail, Calendar, Drive, GA4, Ads
+
+## What it unlocks
+Google Workspace is where most founders actually run their day - email, meetings, contracts, KPIs in a spreadsheet. It is also the single Google connection for everything Google: Analytics (GA4), Google Ads, and Search Console are all read through this one connector. Connecting it gives CorpusIQ read access to all of it in one go, so questions like "what did the agency promise me last month?", "what is my Google Ads spend?", or "what is on my calendar before the board meeting?" can pull straight from the original source.
+
+## Before you connect
+- A Google account (Workspace or personal Gmail both work)
+- About 1 minute
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Google Workspace.
+2. Click Connect.
+3. Sign in with the Google account you use for work.
+4. <!-- screenshot: Google Workspace OAuth consent screen - scope list -->
+5. Approve read access for Gmail, Calendar, and Drive when prompted.
+6. You'll be redirected back to CorpusIQ.
+
+You'll see Google Workspace change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- **Gmail** - list and search messages, read individual messages
+- **Calendar** - list your calendars, list upcoming events, get a specific event, search events by text
+- **Drive** - list and search files, read file contents (Docs, PDFs, text), get Drive storage stats
+- **Sheets** - read ranges from any spreadsheet you have access to
+- **Google Analytics (GA4)** - traffic, sessions, users, conversions, acquisition
+- **Google Ads** - campaigns, ad groups, keywords, spend, clicks, conversions, search terms
+- **Search Console** - organic clicks, impressions, queries, pages, CTR
+
+All of these come through the one Google Workspace connection. You do not connect GA4, Google Ads, or Search Console separately - they are included in this connector. The Google account you sign in with must have access to each Google product you want to read (for Ads, the account must be a user on the Ads customer ID).
+
+## Google Ads permissions (exact scope)
+
+The Google Ads API publishes one permission scope: `https://www.googleapis.com/auth/adwords`. Google offers no read-only variant of this scope, so the consent screen asks for it as-is. The CorpusIQ Google Ads tools are retrieval tools only: they run reporting queries and have no code path that writes, edits, or executes anything in your Ads account. The other Google permissions requested alongside it (Gmail, Drive, Sheets, GA4, Search Console) are Google's explicit `.readonly` scopes.
+
+**Read-only guarantee:** CorpusIQ cannot change campaigns, budgets, bidding, targeting, or keywords. It only reads. It is not an AI agent and does not retain raw customer files or full connector response payloads; no one at CorpusIQ can access your account. Full details: [Security and Read-Only Access](/hermes/security/read-only-and-security)
+
+CorpusIQ never sends mail, creates events, edits files, or shares anything.
+
+## Questions you can ask
+- "Find the email thread from the agency about September spend."
+- "What's on my calendar for next Tuesday?"
+- "Pull the KPI numbers from cell B2:B12 of my Q3 metrics sheet."
+- "How much did I spend on Google Ads last month?"
+- "What were my organic clicks from Search Console last week?"
+- "How many users did my site get this month in GA4?"
+- "Find the latest contract draft in my Drive."
+- "Summarize today's meetings."
+
+## Troubleshooting
+- **"Insufficient permissions"** - Google asks you to approve each scope on a separate checkbox. Reconnect and make sure you tick all of them.
+- **Workspace admin blocks the app** - Some Workspace admins restrict third-party apps. Ask your admin to allow CorpusIQ, or sign in with a personal Google account.
+- **Sheet read returns empty** - Confirm the spreadsheet ID and the range string (e.g. `Sheet1!A1:C10`). The ID is the long token in the sheet URL.
+
+<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# GunBroker
+URL: https://www.corpusiq.io/docs/connectors/gunbroker
+
+# GunBroker
+
+## What it unlocks
+GunBroker is the primary marketplace for firearms sellers, and its data - active listings, watchers, sold revenue, fraud claims - lives nowhere else. Connecting it lets CorpusIQ answer questions about inventory, sell-through, fees, and buyer disputes in plain English, alongside the rest of your business data.
+
+## Before you connect
+- A GunBroker seller account
+- Your GunBroker username and password (used once to generate an API token on your behalf)
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find GunBroker.
+2. Click Connect.
+3. <!-- screenshot: GunBroker credential setup form in CorpusIQ -->
+4. Enter your GunBroker username and password in the secure form.
+5. Click Save. CorpusIQ exchanges the credentials for an API token and discards the password.
+
+You'll see GunBroker change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Your account summary, seller rating, and standing
+- Active listings with bids, watchers, end dates, and title
+- Sold items, unsold (expired) items, and scheduled launches
+- Inventory summary with exact counts
+- Watched items
+- Orders with buyer info, item, amount, and fulfillment status
+- Feedback you've received
+- Open fraud or dispute claims
+- Billing - listing fees, final value fees, account charges
+- Marketplace search and category browsing
+- FFL lookups by buyer ZIP code
+
+CorpusIQ never lists items, edits prices, or contacts buyers.
+
+## Questions you can ask
+- "How many active GunBroker listings do I have right now?"
+- "What did I sell on GunBroker in the last 30 days?"
+- "Show me listings ending in the next 24 hours."
+- "Are there any open fraud claims on my account?"
+- "Find an FFL near ZIP 30303."
+
+## Troubleshooting
+- **"Invalid credentials"** - GunBroker is case-sensitive on username. Double-check capitalization and try again.
+- **Two-factor blocking login** - Temporarily disable 2FA, connect, and re-enable. CorpusIQ keeps a long-lived API token after the first login.
+- **Empty inventory summary** - If you have no active listings, the summary returns zeros. Check active listings directly to confirm.
+
+<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# HubSpot
+URL: https://www.corpusiq.io/docs/connectors/hubspot
+
+# HubSpot
+
+## What the HubSpot connector does
+
+The HubSpot connector makes your CRM answerable in plain English from any AI assistant. Connect once and ChatGPT, Claude, or Perplexity can query contacts, companies, deals and portal metadata, search the CRM by keyword, and pull a full account 360 for any customer by combining HubSpot with email, calendar and billing data from your other connectors. The connection uses HubSpot's OAuth consent flow: sign in, choose the portal, approve read access. CorpusIQ never creates contacts, moves deals, or sends sequences; it does not retain raw customer files or full connector response payloads, and operational query logs are bounded. Setup takes about two minutes with admin access.
+
+## What it unlocks
+
+HubSpot is where your sales pipeline, customer relationships, and deal history live. Connecting it lets CorpusIQ answer "how is my pipeline doing?" and pull a full account 360 for any customer - relationship history, deal state, open items - by combining HubSpot with email, calendar, and billing data from your other connectors.
+
+## Before you connect
+- A HubSpot account with admin access
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find HubSpot.
+2. Click Connect.
+3. Sign in to HubSpot when the consent screen appears.
+4. <!-- screenshot: HubSpot OAuth scope approval screen -->
+5. Choose the HubSpot account (portal) you want to authorize and approve read access.
+6. You'll be returned to CorpusIQ.
+
+You'll see HubSpot change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Account and portal metadata
+- Contacts, with full details and keyword search
+- Companies, with full details
+- Deals, with full details
+
+CorpusIQ never creates contacts, moves deals, or sends sequences.
+
+## Questions you can ask
+- "Pull together everything I need to know about Acme Corp."
+- "How many deals are in the negotiation stage?"
+- "Search HubSpot for contacts at 'Stripe'."
+- "Show me my top 10 deals by amount."
+- "Score my customer portfolio by health."
+
+## Troubleshooting
+- **"Wrong portal"** - HubSpot prompts you to pick a portal during OAuth. If you authorized the wrong one, disconnect and reconnect.
+- **"Insufficient scopes"** - Reconnect and make sure all requested scopes are checked. Free HubSpot accounts may not grant some object scopes.
+- Search returns nothing - HubSpot search indexes a subset of fields. Try the full name or email instead of a partial match.
+
+## Frequently Asked Questions
+
+### How do I connect HubSpot to ChatGPT?
+
+Connect HubSpot in the CorpusIQ dashboard, approve the OAuth consent screen, pick the portal, and then ask your CRM questions in ChatGPT. Contacts, companies, deals and portal metadata become queryable in plain English.
+
+### Is the HubSpot connection read-only?
+
+Yes. CorpusIQ never creates contacts, moves deals, or sends sequences. The connection uses HubSpot OAuth with read access, and raw customer files or full connector response payloads are not retained.
+
+### Can CorpusIQ search my HubSpot contacts?
+
+Yes. Contacts are searchable by keyword, and deals and companies return full details. HubSpot search indexes a subset of fields, so full names and emails work best.
+
+### Can CorpusIQ combine HubSpot with email and billing data?
+
+Yes. The same CorpusIQ endpoint connects Gmail, calendar, Stripe, QuickBooks and other tools, so an assistant can build a customer 360 that spans relationship history, deal state and billing in one query.
+
+### Which HubSpot accounts work with CorpusIQ?
+
+Any HubSpot account with admin access works. Free accounts may not grant some object scopes; reconnect with all requested scopes checked if a tool reports insufficient scopes.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect HubSpot to ChatGPT?", "acceptedAnswer": {"@type": "Answer", "text": "Connect HubSpot in the CorpusIQ dashboard, approve the OAuth consent screen, pick the portal, and then ask your CRM questions in ChatGPT. Contacts, companies, deals and portal metadata become queryable in plain English."}},
+    {"@type": "Question", "name": "Is the HubSpot connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never creates contacts, moves deals, or sends sequences. The connection uses HubSpot OAuth with read access, and raw customer files or full connector response payloads are not retained."}},
+    {"@type": "Question", "name": "Can CorpusIQ search my HubSpot contacts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Contacts are searchable by keyword, and deals and companies return full details. HubSpot search indexes a subset of fields, so full names and emails work best."}},
+    {"@type": "Question", "name": "Can CorpusIQ combine HubSpot with email and billing data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The same CorpusIQ endpoint connects Gmail, calendar, Stripe, QuickBooks and other tools, so an assistant can build a customer 360 that spans relationship history, deal state and billing in one query."}},
+    {"@type": "Question", "name": "Which HubSpot accounts work with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Any HubSpot account with admin access works. Free accounts may not grant some object scopes; reconnect with all requested scopes checked if a tool reports insufficient scopes."}}
+  ]
+}
+</script>
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# IMAP Email
+URL: https://www.corpusiq.io/docs/connectors/imap
+
+# IMAP Email
+
+## What it unlocks
+Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector lets CorpusIQ read your mail the same way it reads Gmail - so search across "all my email" actually means all of it.
+
+## Before you connect
+- An email account that supports IMAP
+- IMAP host, port, and an app password (most providers require an app-specific password, not your main login password)
+- About 3 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find IMAP Email.
+2. Click Configure.
+3. <!-- screenshot: IMAP credential form in CorpusIQ -->
+4. Enter your IMAP host (e.g. `imap.fastmail.com`), port (usually 993), email address, and app password.
+5. Click Save. CorpusIQ verifies the connection by listing your folders.
+
+You'll see IMAP change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Folder list and message counts
+- Recent messages and full message content
+- Keyword search across your mailbox
+
+CorpusIQ never sends mail, deletes messages, or marks anything read.
+
+## Questions you can ask
+- "Find the email from my landlord about the lease."
+- "Show me unread messages in my Inbox."
+- "Search my mail for 'wire transfer'."
+- "What folders are in my mailbox?"
+- "Read the latest message from accounts@stripe.com."
+
+## Troubleshooting
+- **"Authentication failed"** - Most providers (Fastmail, iCloud, Yahoo, Gmail) require an *app password*, not your main account password. Generate one in your provider's security settings.
+- **TLS errors** - Use port 993 with SSL, not 143 plain. If your provider uses STARTTLS on 143, switch to 993.
+- **Folder list looks short** - Some providers hide certain folders (Trash, Spam) unless subscribed. Subscribe to them in your mail client first.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# IndexNow
+URL: https://www.corpusiq.io/docs/connectors/indexnow
+
+# IndexNow
+
+Automatically notify search engines (Bing, Yandex, Seznam, Naver) the moment your URLs
+change - without waiting for a crawler to find them. IndexNow is a push protocol: you submit,
+search engines act, discovery lag drops from days to minutes.
+
+CorpusIQ pairs IndexNow with your existing connectors. When a Shopify product goes live, a
+blog post publishes, or a docs page updates, CorpusIQ can surface those URLs and hand them
+to IndexNow in one step.
+
+## What it unlocks
+
+- **Instant crawl triggers** - submit new/updated/deleted URLs the moment they change
+- **Batch submission** - up to 10,000 URLs per POST, mixing http and https
+- **Verified ownership** - host a single text file once; search engines cache it
+- **Multi-engine reach** - one submission propagates to all IndexNow-compatible engines
+- **SEO closed-loop** - combine with Search Console or Semrush to track ranking improvement
+  after submission
+
+## Before you connect
+
+- Your website domain (e.g. `www.corpusiq.io`)
+- An IndexNow API key - minimum 8 characters, alphanumeric + dashes
+  - Generate a key at [indexnow.org](https://www.indexnow.org) or create your own
+    random hex string (e.g. `openssl rand -hex 16`)
+- Ability to host a `.txt` file at your domain root **or** at a custom path
+- About 5 minutes
+
+No account signup required. IndexNow is an open protocol.
+
+## How to connect
+
+### Step 1 - Generate your key
+
+```bash
+# Generate a 32-hex-character key (recommended length)
+openssl rand -hex 16
+# Example output: a3f9b2c1d4e5f678901234abcdef5678
+```
+
+### Step 2 - Host the key file
+
+Create a UTF-8 text file named `{your-key}.txt` containing only the key on the first line.
+
+**Option A - Root directory (simplest):**
+
+```
+https://www.corpusiq.io/a3f9b2c1d4e5f678901234abcdef5678.txt
+```
+
+File contents:
+```
+a3f9b2c1d4e5f678901234abcdef5678
+```
+
+**Option B - Custom path (specify `keyLocation` in each request):**
+
+Place the file anywhere on the same host and include the full URL as `keyLocation` in your
+IndexNow requests.
+
+### Step 3 - Verify the file is live
+
+```bash
+curl -s https://www.corpusiq.io/a3f9b2c1d4e5f678901234abcdef5678.txt
+# Should return the key string
+```
+
+### Step 4 - Add credentials to CorpusIQ
+
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find IndexNow and click Connect.
+3. Enter your domain and API key.
+4. Save. CorpusIQ validates the key file before storing.
+
+## How IndexNow works
+
+IndexNow is a one-way push protocol. You call the search engine's endpoint; they crawl your
+key file to verify ownership; then they re-index your URL.
+
+**Single URL (GET):**
+```
+https://api.indexnow.org/indexnow?url=https://www.example.com/page&key=your-key
+```
+
+**Batch URLs (POST JSON):**
+```json
+POST https://api.indexnow.org/indexnow
+Content-Type: application/json
+
+{
+  "host": "www.example.com",
+  "key": "your-key",
+  "urlList": [
+    "https://www.example.com/page1",
+    "https://www.example.com/page2"
+  ]
+}
+```
+
+A `200` response means the engine received your submission. It is not a guarantee of
+immediate indexing - it removes the discovery bottleneck.
+
+Supported engines (all reachable via `api.indexnow.org`): Bing, Yandex, Seznam, Naver.
+
+## What CorpusIQ can do with it
+
+| Action | Example prompt |
+|--------|----------------|
+| Submit a single URL | "Submit https://www.corpusiq.io/blog/new-post to IndexNow" |
+| Submit a batch | "IndexNow the 12 Shopify product pages I updated today" |
+| Cross-source submit | "Find GA4 pages with zero impressions and submit them to IndexNow" |
+| SEO loop | "Submit our new blog posts to IndexNow, then check Search Console in 48h" |
+
+## Questions you can ask
+
+```
+Submit https://www.corpusiq.io/changelog to IndexNow so Bing picks it up today.
+```
+
+```
+I updated 5 product pages on Shopify. Submit them all to IndexNow.
+```
+
+```
+Which of our pages have never appeared in Search Console? Submit them to IndexNow.
+```
+
+```
+After submitting to IndexNow, remind me to check Search Console impressions in 2 days.
+```
+
+## Troubleshooting
+
+- **HTTP 400** - URL is malformed or not on the declared host. Verify the `host` field
+  matches the domain in every URL exactly (including `www` prefix if used).
+- **HTTP 403** - Key file not found or content mismatch. Re-check the file is publicly
+  accessible and contains only the key string (no trailing spaces or extra lines).
+- **HTTP 422** - Too many URLs in one request (max 10,000) or key format invalid
+  (must be 8-128 alphanumeric/dash characters).
+- **HTTP 429** - Rate limited. IndexNow guidelines allow up to 10,000 URLs/day per domain.
+  Spread submissions if you have a large site.
+- Key file caching - search engines cache your key file. If you rotate the key, allow
+  up to 24 hours for the new file to be picked up before submissions resume.
+
+## Notes
+
+- IndexNow is read-write from the network's perspective (you are pushing to external
+  endpoints), but CorpusIQ never writes to your CMS or website.
+- Submission acknowledges receipt only - actual re-crawl timing is at the search engine's
+  discretion.
+- Combine with [Search Console](search-console.md) and [Semrush](semrush.md) to measure
+  ranking lift after submission.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Klaviyo
+URL: https://www.corpusiq.io/docs/connectors/klaviyo
+
+# Klaviyo
+
+## What it unlocks
+For ecommerce brands, Klaviyo is where email and SMS revenue actually gets attributed. Connecting it lets CorpusIQ pull campaign performance, flow revenue, abandoned cart recovery, list health, and predictive analytics - and combine them with Shopify and GA4 to answer the only question that matters: how much revenue did email actually drive this month?
+
+## Before you connect
+- A Klaviyo account with admin access
+- A Klaviyo private API key (Account → Settings → API keys)
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find Klaviyo.
+2. Click Connect.
+3. <!-- screenshot: Klaviyo API key form in CorpusIQ -->
+4. In a second tab, go to Klaviyo → Account → Settings → API keys and create a private API key with read scopes on Campaigns, Flows, Lists, Segments, Profiles, Metrics, Forms, and Events.
+5. Copy the key and paste it into the CorpusIQ form.
+6. Click Save.
+
+You'll see Klaviyo change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Campaigns and per-campaign metrics (opens, clicks, revenue, conversions)
+- Top campaigns ranked by any metric
+- Flows, flow performance, and time-series flow data
+- Abandoned cart flow performance - revenue recovered and conversion rate
+- Email and SMS metric summaries
+- Conversion metrics - conversions, revenue, conversion rate
+- Lists, list growth, and current size
+- Segments and segment performance
+- Profile counts and profile growth over time
+- Subscription health - active, unsubscribed, bounced, suppressed
+- Predictive analytics - CLV, churn risk, purchase probability
+- Forms and form performance, including top-performing forms
+- Raw metrics catalog, custom metric aggregates, and recent events
+
+CorpusIQ never sends campaigns, edits flows, or modifies profiles.
+
+## Questions you can ask
+- "How much revenue did my Klaviyo flows generate last month?"
+- "Which campaigns had the highest revenue per recipient?"
+- "How's my abandoned cart flow performing?"
+- "How fast is my email list growing?"
+- "Compare email-driven revenue to my paid ad revenue by day."
+
+## Troubleshooting
+- **"403 Forbidden"** - Your private key is missing scopes. Recreate it and tick every read scope listed above.
+- **No campaigns returned** - Klaviyo separates email and SMS channels. If you only run SMS, switch the channel filter when asking.
+- **Predictive analytics empty** - Predictive CLV needs a minimum order history. New accounts may not have it populated for weeks.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# LinkedIn Ads
+URL: https://www.corpusiq.io/docs/connectors/linkedin-ads
+
+# LinkedIn Ads
+
+## What it unlocks
+LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets CorpusIQ pull campaign performance, creative analytics, and account-level spend - then line them up next to your CRM pipeline and revenue to see which LinkedIn campaigns actually closed deals.
+
+## Before you connect
+- A LinkedIn account with access to the ad accounts you want to read
+- Your LinkedIn user must have at least a "Viewer" role on each ad account
+- About 2 minutes
+
+## How to connect
+1. In CorpusIQ, open Dashboard → Connectors and find LinkedIn Ads.
+2. Click Connect.
+3. Sign in to LinkedIn when the consent screen appears.
+4. <!-- screenshot: LinkedIn Ads OAuth consent screen -->
+5. Approve read access and select the ad accounts you want CorpusIQ to see.
+6. You'll be returned to CorpusIQ.
+
+You'll see LinkedIn Ads change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- Your ad account memberships and roles
+- Sponsored ad accounts with names, currencies, and statuses
+- Campaigns with objectives, budgets, statuses, and campaign groups
+- Ad creatives with statuses and content references
+- Daily campaign analytics: impressions, clicks, cost in local currency, and conversions
+- Account-level lifetime analytics
+
+CorpusIQ never creates campaigns, changes budgets, or modifies ads.
+
+## Questions you can ask
+- "How much did I spend on LinkedIn Ads last month?"
+- "Which LinkedIn campaigns are driving the most clicks?"
+- "Show me daily performance for my enterprise product campaign."
+- "List all my LinkedIn ad accounts and their statuses."
+- "Which creatives are running in my remarketing campaign?"
+
+## Troubleshooting
+- **"No ad accounts found"** - Your LinkedIn user doesn't have Viewer access to any ad account. Ask an account admin to add you in Campaign Manager → Account Settings → Manage Access.
+- **"Insufficient permissions"** - Your role on the ad account may be too restrictive. You need at least Viewer access.
+- **Campaign analytics return zero** - Check the date range. LinkedIn Ads reporting may lag by 24-48 hours.
+- **Auth fails** - Reset the LinkedIn Ads connector in your dashboard and reconnect with the correct LinkedIn account.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Mailchimp
+URL: https://www.corpusiq.io/docs/connectors/mailchimp
+
+# Mailchimp
+
+## What it unlocks
+Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newsletter actually drove sales - not just opens.
+
+## Before you connect
+- A Mailchimp account with admin access.
+- The audience (list) you want analyzed should already exist.
+- About 2 minutes.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find Mailchimp in the list and click Connect.
+<!-- screenshot: CorpusIQ connections page with Mailchimp row highlighted -->
+3. You'll be redirected to Mailchimp. Log in if prompted.
+4. Click Allow on the Mailchimp authorization screen.
+<!-- screenshot: Mailchimp "Allow access" consent screen -->
+5. You'll land back in CorpusIQ.
+
+You'll see Mailchimp change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Your campaigns and their send/open/click rates.
+- Your audiences (lists) with subscriber counts.
+- Per-campaign reports including bounces and unsubscribes.
+
+Read-only. CorpusIQ never sends mail, edits campaigns, or changes your lists.
+
+## Questions you can ask
+- "How did last week's Mailchimp campaign perform?"
+- "Which of my recent campaigns had the highest click rate?"
+- "Show me my Mailchimp audience growth."
+- "Compare my Mailchimp opens to Shopify revenue on the same days."
+
+## Troubleshooting
+- "Authorization failed" - your Mailchimp session expired. Log into Mailchimp in another tab, then retry Connect.
+- No campaigns appear - confirm the campaigns are in Sent status, not Draft.
+- Wrong audience showing - Mailchimp accounts can have multiple audiences. Specify the audience name in your question.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# MCP Server for Shopify and QuickBooks: Ask Both at Once
+URL: https://www.corpusiq.io/docs/connectors/mcp-server-shopify-quickbooks
+
+# MCP Server for Shopify and QuickBooks: Ask Both at Once
+
+The most common financial question in ecommerce: "Does my Shopify revenue match my QuickBooks books?" Most operators spend hours reconciling this manually every month. With CorpusIQ MCP, it is one question.
+
+## The reconciliation question
+
+"Do my Shopify sales for May match what QuickBooks recorded as income? Flag any discrepancies over $100."
+
+CorpusIQ pulls Shopify orders, QuickBooks income entries, reconciles them, and flags gaps. What takes 2 to 3 hours manually takes 30 seconds.
+
+## Other questions that span both systems
+
+- "What is my gross margin by product after COGS from QuickBooks?"
+- "Which Shopify customers have unpaid QuickBooks invoices?"
+- "Show me refunds in Shopify that have not been recorded as credits in QuickBooks."
+- "What is our true net revenue after all fees, returns, and expenses?"
+
+## How to connect
+
+1. Sign up at corpusiq.io
+2. Connect Shopify via OAuth (2 minutes)
+3. Connect QuickBooks via OAuth (2 minutes)
+4. Ask the reconciliation question
+
+30-day free trial. No credit card. Both connectors included in all plans starting at $29.95/mo.
+
+[Start reconciling Shopify and QuickBooks with AI](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Monday.com
+URL: https://www.corpusiq.io/docs/connectors/monday
+
+# Monday.com
+
+## What it unlocks
+Bring your Monday.com boards into conversations about how the business is actually running. Ask which projects are blocked, who owns what, and what's slipping - without opening the app.
+
+## Before you connect
+- A Monday.com account with access to the boards you care about.
+- About 2 minutes.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find Monday.com in the list and click Connect.
+<!-- screenshot: Connections page with Monday.com row -->
+3. Log into Monday.com if you aren't already.
+4. Click Authorize on the consent screen.
+<!-- screenshot: Monday.com OAuth authorize screen -->
+5. You'll return to CorpusIQ.
+
+You'll see Monday.com change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Your workspaces and boards.
+- Board structure: columns, groups, and items (rows/pulses).
+- Item details: status, owners, dates, and column values.
+
+Read-only. CorpusIQ never changes statuses, assigns items, or edits boards.
+
+## Questions you can ask
+- "What Monday.com tasks are overdue?"
+- "Show me everything assigned to Sarah this week."
+- "Which projects are blocked right now?"
+- "Summarize the Q1 roadmap board."
+
+## Troubleshooting
+- Board not showing up - confirm your Monday user has at least View access on that board.
+- "No items returned" on a large board - narrow the question to a specific group or status.
+- Auth fails - reset the Monday connector in your dashboard and reconnect.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# MongoDB
+URL: https://www.corpusiq.io/docs/connectors/mongodb
+
+# MongoDB
+
+## What it unlocks
+Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write one-off queries.
+
+## Before you connect
+- Connection details for the MongoDB cluster you want to query: host, port, username, password, database name.
+- The credentials should be read-only - CorpusIQ never needs write access.
+- A network path: if your cluster is private, allowlist CorpusIQ's outbound IP or use a public read replica.
+- About 5 minutes.
+
+## How to connect
+This is not an OAuth flow. You configure MongoDB directly.
+
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find MongoDB and click Connect.
+<!-- screenshot: MongoDB configuration form in CorpusIQ -->
+3. Paste your MongoDB connection string (or fill in host, port, user, password individually).
+4. Choose the database you want CorpusIQ to query.
+5. Save.
+
+You'll see MongoDB change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- The collections in the database you specified.
+- Document structure and sampled fields.
+- Read-only query results you ask for.
+
+CorpusIQ runs read queries only. It never inserts, updates, or drops anything.
+
+## Questions you can ask
+- "How many users signed up in the last 7 days?"
+- "What's the average order value in the orders collection this month?"
+- "Show me the schema of the events collection."
+- "Find documents in customers where status is churned."
+
+## Troubleshooting
+- "Connection refused" - your MongoDB host is blocking CorpusIQ. Allowlist the IP shown in the dashboard.
+- "Auth failed" - double-check the username and password. Special characters in passwords must be URL-encoded.
+- No collections listed - confirm the user has read access to the database you selected.
+
+<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard MongoDB driver conventions. Verify before publish. -->
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Microsoft SQL Server (MSSQL)
+URL: https://www.corpusiq.io/docs/connectors/mssql
+
+# Microsoft SQL Server (MSSQL)
+
+## What it unlocks
+Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems - ERPs, line-of-business apps, data warehouses.
+
+## Before you connect
+- Connection details: server hostname, port, database name, username, password.
+- A read-only SQL login is strongly recommended.
+- Network access - if the database is on a private network, allowlist CorpusIQ's outbound IP.
+- About 5 minutes.
+
+## How to connect
+This is not an OAuth flow. You configure MSSQL directly.
+
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find MSSQL and click Connect.
+<!-- screenshot: MSSQL configuration form -->
+3. Enter host, port (default 1433), database name, username, and password.
+4. Optionally toggle encryption and certificate trust to match your server's setup.
+5. Save.
+
+You'll see MSSQL change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- The tables in the database you configured.
+- Column schemas for any table you ask about.
+- Read-only results of SELECT queries it builds from your questions.
+
+CorpusIQ runs SELECT queries only. No INSERT, UPDATE, DELETE, or DDL.
+
+## Questions you can ask
+- "List the tables in the warehouse database."
+- "Show me last month's total sales from the Orders table."
+- "How many customers did we add this quarter?"
+- "Describe the schema of the Invoices table."
+
+## Troubleshooting
+- "Login failed" - check that SQL Authentication is enabled on the server (not just Windows Auth) and the credentials are correct.
+- "Cannot open server" - firewall is blocking CorpusIQ. Allowlist the outbound IP from your dashboard.
+- "Encryption error" - toggle "Trust server certificate" if your server uses a self-signed cert.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Notion
+URL: https://www.corpusiq.io/docs/connectors/notion
+
+# Notion
+
+## What it unlocks
+Notion holds a surprising amount of business data that lives outside your SaaS tools - project plans, meeting notes, hiring trackers, product specs. Connecting it lets CorpusIQ search across your workspace, query databases, and read pages, so questions like "what's the status on the Q2 launch plan?" get real answers from your actual Notion docs.
+
+## Before you connect
+- A Notion workspace where you can create internal integrations
+- A Notion Internal Integration Token with read access
+- About 5 minutes (includes granting page access to the integration)
+
+## How to connect
+1. Go to [notion.so/my-integrations](https://www.notion.so/my-integrations) and click **New integration**.
+2. Name it something recognizable (e.g. `CorpusIQ read-only`) and select the workspace you want to connect.
+3. <!-- screenshot: Notion integration creation screen -->
+4. Copy the Internal Integration Token - Notion shows it once.
+5. For each database or page you want CorpusIQ to read, open it in Notion, click the ••• menu, go to Connections, and add your new integration.
+6. <!-- screenshot: Notion connections menu -->
+7. Open your CorpusIQ dashboard and click Connections.
+8. Find Notion and click Connect.
+9. Paste the Internal Integration Token and save.
+<!-- screenshot: CorpusIQ Notion token form -->
+
+You'll see Notion change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- The bot user associated with your integration
+- Workspace users visible to the integration
+- Databases the integration has been granted access to, with full schemas
+- Database rows (pages) with their properties
+- Page content: block trees including paragraphs, headings, lists, and to-dos
+- Full-text search across pages and databases the integration can access
+
+CorpusIQ never creates pages, edits content, or modifies databases.
+
+## Questions you can ask
+- "Search my Notion workspace for 'Q2 launch plan'."
+- "List all databases my Notion integration can access."
+- "What's in the Engineering Projects database?"
+- "Show me the content of the weekly standup notes page."
+- "Who are the users in my Notion workspace?"
+
+## Troubleshooting
+- **"No databases found"** - Your integration token hasn't been granted access to any databases yet. Open each database, go to ••• → Connections, and add the integration.
+- **"Page not found"** - Same issue: the integration needs explicit access to each page. You must invite it via the Connections menu on every page or database individually.
+- **"Integration token invalid"** - The token may have been regenerated. Create a new integration at notion.so/my-integrations and update the token in CorpusIQ.
+- **Block content looks incomplete** - Notion paginates block children. Large pages will return content in pages; CorpusIQ handles pagination automatically, but very large documents may need multiple calls.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Odoo
+URL: https://www.corpusiq.io/docs/connectors/odoo
+
+# Odoo
+
+## What it unlocks
+Pull your Odoo ERP into conversation - sales orders, invoices, CRM pipeline, inventory, projects, employees - without clicking through twenty Odoo screens. Ask questions that span modules in one shot.
+
+## Before you connect
+- An Odoo instance URL (Odoo Online, Odoo.sh, or self-hosted).
+- A username and API key for an Odoo user with read access to the modules you want CorpusIQ to see.
+- The database name.
+- About 3 minutes.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find Odoo and click Connect.
+<!-- screenshot: Odoo configuration form -->
+3. Enter your Odoo URL (e.g., https://yourcompany.odoo.com), database name, login, and API key.
+4. Save. CorpusIQ verifies the connection.
+
+You'll see Odoo change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Partners (customers and vendors).
+- Sale orders and quotations with line items.
+- CRM leads and opportunities by stage.
+- Customer and vendor invoices.
+- Products and on-hand inventory.
+- Stock transfers, journals, payments, taxes.
+- Employees, projects, and project tasks.
+
+Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
+
+## Questions you can ask
+- "What's the value of open quotations in Odoo right now?"
+- "How many opportunities are in the negotiation stage?"
+- "Show me overdue customer invoices."
+- "What's on-hand for SKU X across all warehouses?"
+- "List active projects and their task counts."
+
+## Troubleshooting
+- "Authentication failed" - generate a fresh API key in Odoo (Preferences → Account Security) and retry.
+- "Database not found" - check that the database name exactly matches what Odoo shows on the login screen.
+- A module looks empty - confirm the connected user has access rights to that module's records.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# OneDrive
+URL: https://www.corpusiq.io/docs/connectors/onedrive
+
+# OneDrive
+
+## What it unlocks
+Let CorpusIQ read your OneDrive files when answering questions - contracts, spreadsheets, board decks, prior reports. Stop digging through folders to find the doc you wrote three months ago.
+
+## Before you connect
+- A Microsoft 365 work or personal account.
+- About 1 minute. If you already connected Outlook, OneDrive may already be authorized under the same Microsoft connection.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find OneDrive (or Microsoft 365) and click Connect.
+<!-- screenshot: Microsoft connection card in CorpusIQ -->
+3. Sign in with your Microsoft account.
+4. Review the permissions and click Accept.
+<!-- screenshot: Microsoft consent screen listing OneDrive scope -->
+5. You'll return to CorpusIQ.
+
+You'll see OneDrive change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Your OneDrive file list and folder structure.
+- File contents you ask it to read: Word, Excel, PowerPoint, PDFs, text files.
+- Storage usage, recent files, and files shared with you.
+
+Read-only. CorpusIQ never edits, deletes, or shares your files.
+
+## Questions you can ask
+- "Find my OneDrive file about the Q3 board meeting."
+- "What does the latest pricing spreadsheet say?"
+- "Show me files I opened recently."
+- "Search OneDrive for any contract with Acme Corp."
+
+## Troubleshooting
+- "Consent required" - your Microsoft 365 admin restricts third-party apps. Ask them to approve CorpusIQ for your tenant.
+- File not found - confirm the file lives in OneDrive (not SharePoint or Teams shared libraries).
+- Permission denied on a specific file - that file was shared with restricted access. Open it in OneDrive to confirm.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Outlook
+URL: https://www.corpusiq.io/docs/connectors/outlook
+
+# Outlook
+
+## What it unlocks
+Pull your Outlook inbox and calendar into the conversation. Ask what's on your plate this week, what a customer last emailed you, or what's blocking a deal - without opening Outlook.
+
+## Before you connect
+- A Microsoft 365 or Outlook.com account.
+- About 1 minute. If you already connected OneDrive under Microsoft 365, Outlook may already be authorized.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find Outlook (or Microsoft 365) and click Connect.
+<!-- screenshot: Microsoft connection card -->
+3. Sign in with your Microsoft account.
+4. Review the requested permissions (Mail.Read, Calendars.Read) and click Accept.
+<!-- screenshot: Microsoft permission consent screen -->
+5. You'll return to CorpusIQ.
+
+You'll see Outlook change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Your Outlook emails: list, search, and read full content.
+- Mailbox structure: folders, message counts, unread count.
+- Your Outlook calendars and upcoming events.
+- Event details and search across your calendar.
+
+Read-only. CorpusIQ never sends mail, replies, deletes messages, or creates events.
+
+## Questions you can ask
+- "What's on my calendar this week?"
+- "Find the last email from Acme Corp."
+- "Did anyone email me about the lease renewal?"
+- "Summarize this morning's unread mail."
+
+## Troubleshooting
+- "Admin approval required" - your IT admin must whitelist CorpusIQ in Microsoft Entra. Send them the consent URL from your dashboard.
+- Calendar empty - confirm the events are in your default calendar, not a shared/team calendar.
+- "Token expired" - Microsoft tokens roll over often. Click Reconnect in your dashboard.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connect Perplexity to Your Business Data via MCP
+URL: https://www.corpusiq.io/docs/connectors/perplexity-business-data-mcp
+
+# Connect Perplexity to Your Business Data via MCP
+
+Perplexity is built for real-time information. Combine it with your actual business data via CorpusIQ MCP and you get an AI that answers questions about the world AND your business simultaneously.
+
+## What changes when you connect
+
+Before: "What is the average SaaS churn rate?" gives you a generic industry answer.
+After: "What is our churn rate vs industry average and which customer segment is dragging it down?" gives you your live data plus world knowledge in one answer.
+
+## What you can ask Perplexity once connected
+
+- "How does our ROAS compare to industry benchmarks? Pull our actual numbers."
+- "What is the current Google algorithm update and how does it affect our Search Console traffic?"
+- "Are our Klaviyo open rates above or below current industry averages?"
+
+## How to connect
+
+1. Sign up at corpusiq.io
+2. Connect your tools via OAuth (Shopify, QuickBooks, Google Ads, etc.)
+3. Add the CorpusIQ MCP server to Perplexity
+4. Ask questions that combine your data with world knowledge
+
+[Connect Perplexity to your business data free](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# PostgreSQL
+URL: https://www.corpusiq.io/docs/connectors/postgres
+
+# PostgreSQL
+
+## What it unlocks
+Point CorpusIQ at your production or analytics Postgres database and ask questions about your real data in plain English. Skip the JIRA ticket to engineering for one-off counts.
+
+## Before you connect
+- Connection details: host, port, database name, username, password.
+- A read-only Postgres role is strongly recommended (CREATE USER ... WITH NOLOGIN... GRANT SELECT...).
+- Network access - if the database is in a private VPC, allowlist CorpusIQ's outbound IP.
+- About 5 minutes.
+
+## How to connect
+This is not an OAuth flow. You configure Postgres directly.
+
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find PostgreSQL and click Connect.
+<!-- screenshot: Postgres connection form in CorpusIQ -->
+3. Paste your connection string, or fill in host, port (default 5432), database, user, and password individually.
+4. Save. CorpusIQ tests the connection.
+
+You'll see PostgreSQL change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Tables in the database you configured.
+- Schema and column types for any table you ask about.
+- Read-only results of SELECT queries it builds from your questions.
+
+CorpusIQ runs SELECT queries only. No writes, no schema changes.
+
+## Questions you can ask
+- "How many active subscriptions do we have?"
+- "What's our MRR by plan this month?"
+- "Describe the users table."
+- "Show signups per day for the last 30 days."
+
+## Troubleshooting
+- "Connection refused" - your Postgres host is blocking CorpusIQ. Allowlist the outbound IP shown in the dashboard.
+- "Password authentication failed" - confirm the role exists and the password is correct. URL-encode special characters in passwords.
+- "Permission denied for table" - grant SELECT on the schema to your CorpusIQ user.
+
+<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard Postgres conventions. Verify before publish. -->
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# PostHog - Product Analytics
+URL: https://www.corpusiq.io/docs/connectors/posthog
+
+# PostHog - Product Analytics
+
+Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention - inside Claude or ChatGPT.
+
+## What it unlocks
+
+- **Event analysis** - what events are firing, how often, from which users
+- **Funnel performance** - conversion rates between key product steps
+- **User profiles** - search and inspect person records across your product
+- **Feature adoption** - which features are being used by which segments
+- **Custom HogQL queries** - run SQL-style queries against your PostHog data
+
+## Example prompts
+
+```
+How many users completed the onboarding funnel this week?
+```
+
+```
+What is the conversion rate from signup to first data connector connected?
+```
+
+```
+Which events are firing most frequently in the last 24 hours?
+```
+
+```
+Show me the top 10 users by event count this month.
+```
+
+```
+What percentage of users who signed up last week are still active today?
+```
+
+## How to connect
+
+1. Go to **corpusiq.io** → Dashboard → Connectors
+2. Click **PostHog**
+3. Enter your PostHog Personal API Key (from PostHog → Settings → Personal API Keys)
+4. Enter your PostHog Project ID
+5. Done
+
+## What data CorpusIQ can see
+
+| Data | Available |
+|------|-----------|
+| Events and event definitions | ✅ |
+| Person/user records | ✅ |
+| Funnel conversion data | ✅ |
+| Custom HogQL queries | ✅ |
+| Session recordings | ❌ |
+| Feature flags | ❌ |
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Postscript
+URL: https://www.corpusiq.io/docs/connectors/postscript
+
+# Postscript
+
+## What it unlocks
+Bring your Postscript SMS marketing data into conversation with the rest of your stack. Ask about subscriber growth, opt-in keywords, and how SMS compares to your email and ad channels.
+
+## Before you connect
+- A Postscript account connected to a Shopify store.
+- A Postscript API key with read access. Generate one in Postscript at Settings → API.
+- About 2 minutes.
+
+## How to connect
+1. In Postscript, go to Settings → API and create a new API key (or copy an existing one).
+<!-- screenshot: Postscript API key settings page -->
+2. Open your CorpusIQ dashboard and click Connections.
+3. Find Postscript and click Connect.
+4. Paste the API key into the field and save.
+<!-- screenshot: CorpusIQ Postscript API key form -->
+
+You'll see Postscript change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Your SMS subscriber list with phone numbers and Shopify customer linkage.
+- Subscriber details: opt-in date, source, status.
+- Your active opt-in keywords.
+
+Read-only. CorpusIQ never sends SMS, edits subscribers, or changes keywords.
+
+## Questions you can ask
+- "How many new SMS subscribers did we get last month?"
+- "Show me my active Postscript keywords."
+- "Which Postscript subscribers are also Shopify customers?"
+- "Find SMS opt-ins from the last 7 days."
+
+## Troubleshooting
+- "Invalid API key" - regenerate the key in Postscript and paste it again. Whitespace around the key will break it.
+- No subscribers showing - confirm the API key was issued for the correct Postscript shop.
+- Missing fields - Postscript's API doesn't expose individual message-level metrics here; use Postscript's own dashboard for campaign analytics.
+
+<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + Postscript public API docs. Verify before publish. -->
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# QuickBooks
+URL: https://www.corpusiq.io/docs/connectors/quickbooks
+
+# QuickBooks
+
+## What the QuickBooks connector does
+
+The QuickBooks connector makes your books answerable in plain English from any AI assistant. Connect once and ChatGPT, Claude, or Perplexity can query cash position, profit and loss, balance sheet, overdue invoices with days overdue, AR and AP aging, customer and vendor balances, and spend across any date range - without opening QuickBooks Online or rebuilding the same report you ran last month. The connection uses Intuit's own consent flow: sign in, choose the company file, approve. CorpusIQ never creates invoices, records payments, or changes anything in your books; it does not retain raw customer files or full connector response payloads, and operational query logs are bounded. QuickBooks Online is supported, Desktop is not. Setup takes about two minutes.
+
+## What it unlocks
+
+Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging, customer balances - without opening QuickBooks Online and rebuilding the same report you ran last month.
+
+## Before you connect
+- A QuickBooks Online account (QBO). Desktop is not supported.
+- Admin or Company Admin access - accountants connecting on behalf of a client need the right permission level.
+- About 2 minutes.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find QuickBooks and click Connect.
+<!-- screenshot: QuickBooks card on CorpusIQ connections page -->
+3. Sign into Intuit if prompted.
+4. Choose the QuickBooks company file you want to connect.
+<!-- screenshot: Intuit "Choose a company" picker -->
+5. Click Connect on the consent screen.
+
+You'll see QuickBooks change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Profit and Loss report (any date range).
+- Balance Sheet.
+- Invoices, payments, bills.
+- Overdue invoices with days overdue.
+- AR and AP aging.
+- Customers, vendors, products and services.
+- Chart of accounts.
+- Company profile.
+
+Read-only. CorpusIQ never creates invoices, records payments, or changes anything in your books.
+
+## Questions you can ask
+- "What was our P&L last quarter?"
+- "Show me overdue invoices over $5,000."
+- "How much cash is on the balance sheet?"
+- "Who owes us money - sorted by oldest invoice?"
+- "What did we spend on contractors this year?"
+
+## Troubleshooting
+- "Could not connect to Intuit" - Intuit OAuth occasionally rate-limits. Wait 60 seconds and retry.
+- Wrong company file connected - disconnect QuickBooks in your dashboard and reconnect, picking the correct company.
+- Numbers don't match your accountant's report - make sure you specify accrual vs. cash basis in your question; CorpusIQ uses your QuickBooks default.
+
+## Frequently Asked Questions
+
+### How do I connect QuickBooks to ChatGPT?
+
+Connect QuickBooks in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the books through its MCP endpoint, so ChatGPT can query P&L, balance sheet, invoices and aging in plain English once the connector shows Connected.
+
+### Is the QuickBooks connection read-only?
+
+Yes. CorpusIQ never creates invoices, records payments, or changes anything in your books. The connection uses Intuit's consent flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained.
+
+### Does CorpusIQ work with QuickBooks Desktop?
+
+No. The connector requires QuickBooks Online. Desktop is not supported.
+
+### Can an accountant connect a client's QuickBooks?
+
+Yes, with the right permission level. Accountants connecting on behalf of a client need Company Admin access or the equivalent permission in the client's QuickBooks Online account.
+
+### Why do my numbers not match my accountant's report?
+
+Specify accrual versus cash basis in your question. CorpusIQ uses your QuickBooks default, and each accounting view can report the same activity differently.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect QuickBooks to ChatGPT?", "acceptedAnswer": {"@type": "Answer", "text": "Connect QuickBooks in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the books through its MCP endpoint, so ChatGPT can query P&L, balance sheet, invoices and aging in plain English once the connector shows Connected."}},
+    {"@type": "Question", "name": "Is the QuickBooks connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never creates invoices, records payments, or changes anything in your books. The connection uses Intuit's consent flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained."}},
+    {"@type": "Question", "name": "Does CorpusIQ work with QuickBooks Desktop?", "acceptedAnswer": {"@type": "Answer", "text": "No. The connector requires QuickBooks Online. Desktop is not supported."}},
+    {"@type": "Question", "name": "Can an accountant connect a client's QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with the right permission level. Accountants connecting on behalf of a client need Company Admin access or the equivalent permission in the client's QuickBooks Online account."}},
+    {"@type": "Question", "name": "Why do my numbers not match my accountant's report?", "acceptedAnswer": {"@type": "Answer", "text": "Specify accrual versus cash basis in your question. CorpusIQ uses your QuickBooks default, and each accounting view can report the same activity differently."}}
+  ]
+}
+</script>
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Google Search Console
+URL: https://www.corpusiq.io/docs/connectors/search-console
+
+# Google Search Console
+
+## What it unlocks
+Google Search Console is the ground truth for how your site performs in Google Search - clicks, impressions, average position, and the queries that drive them. Connecting it lets CorpusIQ pull search performance data and line it up next to GA4 traffic, so you can see exactly which search queries turn into engaged visitors.
+
+## Before you connect
+- A Google account that is a verified owner of the Search Console property you want to read
+- About 2 minutes
+
+## How to connect
+
+Search Console is part of the Google Workspace connector, not a separate connector.
+
+1. In CorpusIQ, open Dashboard → Connectors and find Google Workspace.
+2. Click Connect.
+3. Sign in with the Google account that manages your Search Console properties.
+4. <!-- screenshot: Google Workspace OAuth consent screen -->
+5. Approve read access and you'll be returned to CorpusIQ. Search Console data comes through the same connection.
+
+You'll see Google Search Console change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+Read-only access to:
+- All verified sites (properties) in your Search Console account
+- Search performance data: clicks, impressions, CTR, and average position
+- Breakdowns by query, page, country, device, and search type
+- Sitemaps: submitted URLs, indexed URLs, and last-submitted dates
+- URL inspection: index status, coverage state, mobile usability, and rich results
+
+CorpusIQ never submits sitemaps, requests indexing, or modifies properties.
+
+## Questions you can ask
+- "Which search queries drove the most clicks to my site last month?"
+- "What's my average position for brand keywords?"
+- "Show me pages that dropped in impressions week over week."
+- "How many URLs are indexed vs submitted in my sitemap?"
+- "Inspect the index status of our new landing page."
+
+## Troubleshooting
+- **"No properties found"** - Your Google account isn't a verified owner of any Search Console property. Add your account in Search Console → Settings → Users and Permissions.
+- **"Property not available"** - The property may be a Domain property rather than a URL-prefix property. Both are supported; confirm the exact URL in Search Console.
+- **Performance data returns zero** - Google Search Console data can lag by 2-3 days. Try a slightly older date range.
+- **Inspect URL says "URL is not on property"** - The URL must belong to the property you're querying. Double-check the site URL and the inspection URL match.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Semrush
+URL: https://www.corpusiq.io/docs/connectors/semrush
+
+# Semrush
+
+## What it unlocks
+Bring SEO and competitive search data into the conversation. Ask which keywords your competitors rank for, what your backlink profile looks like, and where you're losing organic ground - without leaving the chat.
+
+## Before you connect
+- A Semrush account with API access. The Business plan or higher is required for the API.
+- Your Semrush API key (Settings → API → API units).
+- About 2 minutes.
+
+## How to connect
+1. In Semrush, navigate to your profile → Subscription info → API units, and copy your API key.
+<!-- screenshot: Semrush API key page -->
+2. Open your CorpusIQ dashboard and click Connections.
+3. Find Semrush and click Connect.
+4. Paste the API key and save.
+<!-- screenshot: CorpusIQ Semrush API key form -->
+
+You'll see Semrush change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Domain overview: organic and paid traffic.
+- Top organic keywords any domain ranks for.
+- Top paid (Google Ads) keywords any domain bids on.
+- Organic competitor list.
+- Backlink overview: authority, referring domains.
+- Keyword research: search volume, CPC, difficulty.
+- Domain history (month-by-month snapshots).
+
+Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
+
+## Questions you can ask
+- "What organic keywords does competitor.com rank for?"
+- "Show me my domain's SEO overview."
+- "How does my backlink profile compare to competitor.com?"
+- "What's the search volume and CPC for 'enterprise CRM'?"
+- "Who are my top organic competitors?"
+
+## Troubleshooting
+- "API key invalid" - confirm your Semrush plan includes API access (Business or higher) and that you have remaining API units.
+- "No data for domain" - Semrush data lags reality; very new domains may not be indexed yet.
+- High API unit consumption - each query costs units. Ask narrower questions to control spend.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Shopify
+URL: https://www.corpusiq.io/docs/connectors/shopify
+
+# Shopify
+
+## What the Shopify connector does
+
+The Shopify connector makes your store answerable in plain English from any AI assistant. Connect once and ChatGPT, Claude, or Perplexity can query revenue, orders, average order value, top products, refunds, customer lifetime value and repeat-buyer counts across any date range, and join those numbers to QuickBooks, your ad platforms, and your email tool through the same CorpusIQ endpoint. The connection uses Shopify's own app-install flow: enter your myshopify.com domain, review the requested scopes, and approve. CorpusIQ never creates orders, edits products, refunds anything, or changes prices; it does not retain raw customer files or full connector response payloads, and operational query logs are bounded. Setup takes about two minutes and works on any Shopify plan.
+
+## What it unlocks
+
+Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV - and the same numbers joined to QuickBooks, your ad platforms, and your email tool.
+
+## Before you connect
+- A Shopify store (any plan).
+- Store owner or staff account with permission to install apps.
+- About 2 minutes.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find Shopify and click Connect.
+<!-- screenshot: Shopify card on the CorpusIQ connections page -->
+3. Enter your store's myshopify.com domain (e.g., yourstore.myshopify.com).
+4. You'll be redirected to Shopify. Sign in if prompted.
+5. Review the requested scopes and click Install App.
+<!-- screenshot: Shopify "Install app" approval screen -->
+
+You'll see Shopify change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Orders with line items, totals, customers.
+- Products and variants.
+- Customers and order history.
+- Refunds and discount codes applied.
+- Store-level totals (sales, AOV, order counts) for any date range.
+
+Read-only. CorpusIQ never creates orders, edits products, refunds anything, or changes prices.
+
+## Questions you can ask
+- "What was Shopify revenue last week?"
+- "Who are my top 10 customers by lifetime spend?"
+- "Show me products with the most refunds this month."
+- "What's my AOV trend over the last 90 days?"
+- "How many repeat buyers did we have in Q1?"
+
+## Troubleshooting
+- "Store not found" - make sure you typed the full myshopify.com domain, not your custom domain.
+- "Install rejected" - your account doesn't have app install permission. Ask the store owner to connect, or grant your staff account "manage apps" rights.
+- Numbers seem low - check the date range. Shopify timezone is the store's timezone, not yours.
+
+## Frequently Asked Questions
+
+### How do I connect Shopify to ChatGPT?
+
+Connect Shopify in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the store data through its MCP endpoint, so ChatGPT can query orders, products, customers and store totals in plain English once the connector shows Connected.
+
+### Is the Shopify connection read-only?
+
+Yes. CorpusIQ never creates orders, edits products, refunds anything, or changes prices. The connection uses Shopify's app-install flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained.
+
+### Which Shopify plans work with CorpusIQ?
+
+Any Shopify plan works. You need a store owner account or a staff account with permission to install apps.
+
+### Can CorpusIQ join Shopify data with QuickBooks?
+
+Yes. The same CorpusIQ endpoint also connects QuickBooks, ad platforms and email tools, so an assistant can answer questions that span the store ledger and the accounting system in one query.
+
+### Why do my numbers look different in Shopify?
+
+Check the date range. Shopify reports in the store's timezone, not yours, and each system may define a metric differently. CorpusIQ applies one definition per metric across every connected system so the same question returns the same answer.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How do I connect Shopify to ChatGPT?", "acceptedAnswer": {"@type": "Answer", "text": "Connect Shopify in the CorpusIQ dashboard, then ask your question in ChatGPT. CorpusIQ exposes the store data through its MCP endpoint, so ChatGPT can query orders, products, customers and store totals in plain English once the connector shows Connected."}},
+    {"@type": "Question", "name": "Is the Shopify connection read-only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ never creates orders, edits products, refunds anything, or changes prices. The connection uses Shopify's app-install flow with the requested scopes shown before approval, and raw customer files or full connector response payloads are not retained."}},
+    {"@type": "Question", "name": "Which Shopify plans work with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Any Shopify plan works. You need a store owner account or a staff account with permission to install apps."}},
+    {"@type": "Question", "name": "Can CorpusIQ join Shopify data with QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The same CorpusIQ endpoint also connects QuickBooks, ad platforms and email tools, so an assistant can answer questions that span the store ledger and the accounting system in one query."}},
+    {"@type": "Question", "name": "Why do my numbers look different in Shopify?", "acceptedAnswer": {"@type": "Answer", "text": "Check the date range. Shopify reports in the store's timezone, not yours, and each system may define a metric differently. CorpusIQ applies one definition per metric across every connected system so the same question returns the same answer."}}
+  ]
+}
+</script>
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Slack
+URL: https://www.corpusiq.io/docs/connectors/slack
+
+# Slack
+
+## What it unlocks
+Pull Slack conversations into the answer. Ask what your team discussed about a customer, what was decided in #leadership last Tuesday, or who's been talking about a specific project.
+
+## Before you connect
+- A Slack workspace you're a member of.
+- Workspace admins may need to approve third-party apps depending on your settings.
+- About 2 minutes.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find Slack and click Connect.
+<!-- screenshot: Slack card on CorpusIQ connections page -->
+3. Choose your Slack workspace if you have more than one.
+4. Review the requested scopes and click Allow.
+<!-- screenshot: Slack OAuth approval screen showing scopes -->
+
+You'll see Slack change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Channels you have access to.
+- Messages searchable by keyword.
+- Threads and replies.
+- File attachments (metadata and searchable text).
+- Workspace info and basic analytics.
+
+Read-only. CorpusIQ never posts, replies, joins channels, or DMs anyone.
+
+## Questions you can ask
+- "What did the team say about the Acme deal in Slack?"
+- "Search Slack for 'pricing change'."
+- "Show me the busiest channels this week."
+- "Find any Slack thread mentioning the production incident."
+
+## Troubleshooting
+- "App not approved" - your Slack admin has restricted third-party apps. Send them the install link from your dashboard for approval.
+- Private channels missing - CorpusIQ only sees channels the connecting user is a member of. Add yourself to the channel and reconnect.
+- "Couldn't find that message" - Slack search is limited to messages newer than the workspace's retention window.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Stripe
+URL: https://www.corpusiq.io/docs/connectors/stripe
+
+# Stripe
+
+## What it unlocks
+See your payment activity inside the conversation. Ask which customers paid this month, what your charge history looks like, why your last payout doesn't match the sum of charges, or whether a specific email shows up in your customer list - without leaving the chat or opening the Stripe dashboard.
+
+If you keep your books in QuickBooks, CorpusIQ can now reconcile Stripe payouts against your bank deposits in conversation - the same exercise your bookkeeper does every month, in plain English.
+
+## Before you connect
+- A Stripe account (test or live mode both work).
+- A **restricted API key** with read-only access on the resources listed below. Don't use your secret key - restricted keys are revocable per-scope and safer for AI integrations.
+- About 3 minutes.
+
+## How to connect
+1. Log into [dashboard.stripe.com](https://dashboard.stripe.com).
+2. Pick the account and mode (test or live) you want CorpusIQ to read.
+3. Navigate to **Developers → API keys**.
+4. Scroll to the **Restricted keys** section and click **Create restricted key**.
+<!-- screenshot: Stripe restricted-key creation -->
+5. Name it something recognizable (e.g. `CorpusIQ read-only`).
+6. Set permissions to **None** by default, then flip exactly these rows to **Read**:
+   - **Charges** → Read
+   - **Customers** → Read
+   - **Accounts** → Read
+   - **Balance** → Read
+   - **Balance transactions** → Read
+   - **Payouts** → Read
+   - **Refunds** → Read
+   - **Disputes** → Read
+7. Click **Create key**. Stripe shows the key once - copy it now (it starts with `rk_live_…` in live mode or `rk_test_…` in test mode).
+<!-- screenshot: Stripe key reveal screen -->
+8. Open your CorpusIQ dashboard and click **Connections**.
+9. Find Stripe and click **Connect**.
+10. Paste the restricted key and save.
+<!-- screenshot: CorpusIQ Stripe API key form -->
+
+You'll see Stripe change from gray to green in your CorpusIQ dashboard.
+
+> **Already connected under an older key?** If you set up Stripe before May 2026, your restricted key probably only has Charges, Customers, and Accounts checked. The new reconciliation questions need five additional Read scopes. Edit the existing key in the Stripe dashboard and add Balance, Balance transactions, Payouts, Refunds, and Disputes - or create a fresh key with the full list above. Either path works; no CorpusIQ-side change required.
+
+## What CorpusIQ can see
+- **Account profile** - business name, country, default currency, capabilities.
+- **Charges** - payments collected, with amounts, currency, status (succeeded / pending / failed), customer attribution, and timestamps.
+- **Customers** - customer list with emails, names, balances, and creation dates. Filterable by exact-match email.
+- **Payouts** - money Stripe sent to your bank account. Status (pending / paid / failed / in_transit), arrival date, method (standard or instant), and amount.
+- **Balance transactions** - the canonical Stripe ledger. Every charge, refund, fee, and payout as one continuous timeline. Filterable by payout, which means CorpusIQ can answer "show me exactly what aggregated into yesterday's bank deposit."
+- **Refunds** - refunds as first-class records (amount, reason, status, linked charge), not just a flag on the original charge.
+- **Disputes** - chargebacks with status, reason, and evidence-due-by deadlines.
+- **Balance** - your current available and pending balances, including instant-payout availability if you have it enabled.
+
+Read-only. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side - the connector physically cannot perform write operations even if asked.
+
+## Questions you can ask
+
+### Day-to-day payments
+- "How much did we collect on Stripe last week?"
+- "Show me failed charges from the last 7 days."
+- "Find the Stripe customer with email alice@example.com."
+- "What account am I connected to on Stripe?"
+- "List my 20 newest Stripe customers."
+- "How many charges came in today?"
+
+### Reconciliation
+- "What's my current Stripe balance and how much is pending payout?"
+- "Show me Stripe payouts from October."
+- "When does my next payout arrive in the bank?"
+- "Why doesn't last week's Stripe payout match the sum of charges?"
+- "Show me every fee Stripe charged me in October."
+- "What was in payout `po_1Oa2b3...`?" (the answer is every single charge, refund, and fee that rolled up into that one bank deposit)
+
+### Refunds and disputes
+- "Show me refunds from the last 30 days."
+- "Which charges got refunded last month?"
+- "List open Stripe disputes."
+- "Which disputes need evidence in the next 7 days?"
+- "What was the reason on dispute `du_1Oa2b3...`?"
+
+## Cross-source questions
+Stripe pairs cleanly with other connectors for richer questions:
+- "Reconcile my Stripe payouts against QuickBooks deposits last month" (Stripe + QuickBooks). The reconciliation block makes this real - same exercise your bookkeeper runs at month-end.
+- "Compare Stripe revenue to Shopify orders this week" (Stripe + Shopify)
+- "Show me Shopify orders where the Stripe charge ended up in a dispute" (Stripe + Shopify)
+- "Which Klaviyo email campaigns drove the most Stripe revenue last month?" (Stripe + Klaviyo)
+- "GA4 purchase events vs Stripe successful charges yesterday - where's the gap?" (Stripe + GA4 - surfaces analytics tagging failures)
+- "What's our current cash position across Stripe balance and QuickBooks bank accounts?" (Stripe + QuickBooks)
+
+## Troubleshooting
+
+**"Stripe permission denied" on a specific tool**
+The restricted key may be missing a scope the tool needs. This is the most common error after a connector upgrade - the new reconciliation tools each need their own Read scope (Balance, Balance transactions, Payouts, Refunds, Disputes). The error message will say something like *"Having the 'rak_xxx' permission would allow this request to continue"* - go back to the Stripe dashboard, edit the key, and add the missing scope. Save, then retry.
+
+**`get_stripe_account` returns 403 even though "Accounts → Read" is set**
+This is a known nuance with some Stripe account types. The "Accounts → Read" toggle in the dashboard does not always grant the specific `rak_accounts_kyc_basic_read` permission that `/v1/account` requires. The other Stripe tools work normally - only the account-profile tool is affected. If you need the account details and the toggle isn't enough, contact Stripe support to ask about granting `rak_accounts_kyc_basic_read` explicitly on your account type.
+
+**"API key invalid" or "API key expired"**
+The restricted key was deleted or rotated in the Stripe dashboard. Create a fresh restricted key and re-save it in CorpusIQ via the Connections page.
+
+**"No charges in date range" / "No payouts in date range"**
+Not an error - Stripe genuinely returns zero results when there's no activity in the window you asked about. Try a wider date range or check the Stripe dashboard to confirm.
+
+**Stripe rate limit (429)**
+Stripe allows ~100 requests/second on live mode (~25 on test mode). Heavily paginated queries can hit this. The connector retries automatically with backoff; if it persists, ask narrower questions or limit pagination depth.
+
+**Payout total doesn't match my QuickBooks deposit**
+That's exactly the question the reconciliation tools were built for. Ask CorpusIQ "show me every balance transaction in payout `po_xxx`" - you'll see the charges, refunds, and fees that aggregated into that one deposit, broken out by type. Stripe fees, instant-payout fees, and refunds issued during the payout window are the usual culprits.
+
+## Key revocation
+You control access. To remove CorpusIQ's access to Stripe, go to **Developers → API keys** in your Stripe dashboard, find the restricted key, and click **Delete** (or **Revoke**). CorpusIQ will get a `401 api_key_expired` error on the next call and report it to you - no further coordination needed.
+
+## What's still on the roadmap
+- **Subscriptions and invoices** as first-class objects - for SaaS billing analysis. Planned next.
+- **Single-resource drill-downs** for charges and customers (today you can list them; soon you'll be able to ask for one specific charge or customer's full detail).
+- **Modern payment objects** - payment intents, checkout sessions, payment links. For newer integrations that don't use the legacy charges object directly.
+- **Stripe Connect OAuth** for agencies managing multiple Stripe accounts.
+- **Write tools** for refunds and subscription mutations, gated by an explicit human-approval step.
+- **Webhook ingestion** for real-time payment events (currently pull-only).
+- **Stripe Sigma / custom Reports API** - likely out of scope; ask if you need it.
+
+If you need any of the above sooner, ask CorpusIQ support.
+
+## Frequently Asked Questions
+
+### How do I connect Stripe to CorpusIQ?
+
+Create a restricted API key in the Stripe dashboard with read-only access to Charges, Customers, Accounts, Balance, Balance transactions, Payouts, Refunds and Disputes, then paste it into the CorpusIQ Connections page. Test and live modes both work.
+
+### Is the Stripe connection read-only?
+
+Yes. CorpusIQ never issues refunds, modifies subscriptions, or moves money. The restricted-key scopes enforce this at Stripe's side: the connector physically cannot perform write operations even if asked.
+
+### Which Stripe resources can CorpusIQ read?
+
+Account profile, charges, customers, payouts, balance transactions, refunds, disputes and balance. The balance-transactions ledger is filterable by payout, so CorpusIQ can show exactly what aggregated into a bank deposit.
+
+### Can CorpusIQ reconcile Stripe with QuickBooks?
+
+Yes. Ask CorpusIQ to reconcile Stripe payouts against QuickBooks deposits and it walks the balance-transaction ledger against your books, surfacing charges, refunds and fees that rolled into each deposit.
+
+### How do I revoke CorpusIQ's access to Stripe?
+
+Delete or revoke the restricted key in the Stripe dashboard. CorpusIQ gets a 401 on the next call and reports the connection as failed; no other coordination needed.
+
+### Why does my payout not match the sum of charges?
+
+Stripe fees, instant-payout fees and refunds issued during the payout window are the usual culprits. Ask CorpusIQ to show every balance transaction in the payout and it breaks the deposit down by type.
+
+[Content truncated; see the canonical page for the complete text.]
+
+---
+# TikTok
+URL: https://www.corpusiq.io/docs/connectors/tiktok
+
+# TikTok
+
+## What it unlocks
+Bring your TikTok account analytics into the same view as your other channels. Ask which videos are driving the most engagement and how TikTok stacks up against your other content investments.
+
+## Before you connect
+- A TikTok account (creator or business).
+- About 2 minutes.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find TikTok and click Connect.
+<!-- screenshot: TikTok card on the connections page -->
+3. Log into TikTok if you aren't already.
+4. Review the requested scopes (profile, video list, video analytics) and click Authorize.
+<!-- screenshot: TikTok OAuth authorization screen -->
+
+You'll see TikTok change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Your TikTok profile: username, bio, verified status, follower counts.
+- Your posted videos with views, likes, comments, shares.
+- Aggregate analytics across all your videos.
+- Per-video detail and embed links.
+
+Read-only. CorpusIQ never posts, deletes, comments, or follows.
+
+## Questions you can ask
+- "What are my top 10 TikTok videos by views?"
+- "How many likes did I get this month on TikTok?"
+- "Show my TikTok follower count and total video count."
+- "Which of my videos drove the most engagement per view?"
+
+## Troubleshooting
+- "Authorization denied" - TikTok requires accepting all scopes. Reconnect and approve each requested permission.
+- Video list empty - newly posted videos take a few hours to appear in TikTok's API.
+- Wrong account connected - disconnect TikTok in your dashboard, switch accounts in TikTok's web app, and reconnect.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Windsor.ai Alternative: CorpusIQ for Business AI Data
+URL: https://www.corpusiq.io/docs/connectors/windsor-ai-alternative
+
+# Windsor.ai Alternative: CorpusIQ for Business AI Data
+
+Looking for a Windsor.ai alternative? Here is how CorpusIQ compares for connecting your business data to Claude, ChatGPT, and Perplexity.
+
+## What Windsor.ai does
+
+Windsor.ai syncs marketing data to AI assistants via MCP. Strong on ad platform connectors (Google Ads, Meta, TikTok).
+
+## What CorpusIQ does differently
+
+CorpusIQ is a full business intelligence layer, not just marketing data. It covers your entire business stack.
+
+| Category | Windsor.ai | CorpusIQ |
+|---|---|---|
+| Ad platforms | Google Ads, Meta, TikTok | Google Ads, Meta, TikTok, LinkedIn |
+| Finance | Not available | QuickBooks, Stripe, PayPal |
+| Ecommerce | Shopify | Shopify, eBay, Amazon, GunBroker |
+| CRM | Not available | HubSpot, LeadConnector, Close |
+| Email marketing | Not available | Klaviyo, Mailchimp, ActiveCampaign |
+| Analytics | GA4 | GA4, Search Console, Semrush |
+| Databases | Not available | PostgreSQL, MSSQL, MongoDB, CosmosDB |
+| Pre-built skills | Not available | 133+ reasoning chains |
+| Cross-source analysis | Limited | Full across any combination |
+| Price | Higher tiers | From $29.95/mo |
+
+## The key difference
+
+Windsor.ai answers marketing questions. CorpusIQ answers business questions - across finance, operations, sales, marketing, and ecommerce simultaneously.
+
+"What is our true profit after ad spend, fees, returns, and COGS?" - that needs QuickBooks plus Shopify plus Google Ads plus Meta. CorpusIQ answers it in one question.
+
+[Try CorpusIQ free - 30-day trial, no credit card](https://www.corpusiq.io)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# YouTube
+URL: https://www.corpusiq.io/docs/connectors/youtube
+
+# YouTube
+
+## What it unlocks
+Bring your YouTube channel analytics into conversation alongside your other marketing data. Ask which videos drove traffic, where viewers are coming from, and what's working - without bouncing into YouTube Studio.
+
+## Before you connect
+- A YouTube channel (personal or Brand Account).
+- A Google account that owns or manages the channel.
+- About 2 minutes. If you already connected Google Workspace, YouTube may already be authorized under the same Google connection.
+
+## How to connect
+1. Open your CorpusIQ dashboard and click Connections.
+2. Find YouTube and click Connect.
+<!-- screenshot: YouTube card on the connections page -->
+3. Sign into your Google account.
+4. Pick the channel you want to connect (important if you manage Brand Accounts).
+<!-- screenshot: Google account/channel picker -->
+5. Click Allow on the consent screen.
+
+You'll see YouTube change from gray to green in your CorpusIQ dashboard.
+
+## What CorpusIQ can see
+- Your channel: subscriber count, total views, video count.
+- Your uploaded videos and per-video analytics (views, watch time, likes).
+- Geographic breakdown of your viewers.
+- Transcripts and comments for any public video.
+- General YouTube search results.
+- Brand Account channels you own or manage.
+
+Read-only. CorpusIQ never uploads, edits videos, replies to comments, or changes channel settings.
+
+## Questions you can ask
+- "What are my top YouTube videos this quarter?"
+- "Where are most of my YouTube viewers from geographically?"
+- "Show me the transcript of my latest upload."
+- "How many subscribers did I gain last month?"
+- "What are people saying in the comments of my newest video?"
+
+## Troubleshooting
+- "Channel not found" - Brand Accounts need an extra picker step. Disconnect and reconnect, then choose the correct channel.
+- Analytics empty - YouTube Analytics has a ~48-hour lag for fresh data.
+- Permission error on a Brand Account - your Google login must have at least Manager access on the Brand Account.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
