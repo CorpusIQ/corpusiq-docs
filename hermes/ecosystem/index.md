@@ -1,6 +1,6 @@
 ---
 title: Hermes Ecosystem -- Complete Resource Directory
-description: The definitive directory of Hermes Agent resources -- 199+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources -- 399+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 last_updated: "2026-10-18"
@@ -10,9 +10,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem -- Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 199+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 399+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
 
-> **Last updated:** October 17, 2026 · **Repos indexed:** 199+ · **Categories:** 14
+> **Last updated:** October 17, 2026 · **Repos indexed:** 399+ · **Categories:** 14
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -22,22 +22,22 @@ The most comprehensive directory of Hermes Agent resources in existence. 199+ re
 
 | Category | Count | Jump |
 |----------|-------|------|
-| [Core & Official](#core-official) | 6 | [↓](#core-official) |
-| [Documentation & Learning](#documentation-learning) | 9 | [↓](#documentation-learning) |
-| [Community & Awesome Lists](#community-awesome-lists) | 35 | [↓](#community-awesome-lists) |
-| [UI & Dashboards](#ui-dashboards) | 14 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 31 | [↓](#memory-knowledge) |
-| [MCP & Integrations](#mcp-integrations) | 33 | [↓](#mcp-integrations) |
-| [Skills & Plugins](#skills-plugins) | 69 | [↓](#skills-plugins) |
-| [Tools & Utilities](#tools-utilities) | 57 | [↓](#tools-utilities) |
+| [Core & Official](#core-official) | 7 | [↓](#core-official) |
+| [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
+| [Community & Awesome Lists](#community-awesome-lists) | 32 | [↓](#community-awesome-lists) |
+| [UI & Dashboards](#ui-dashboards) | 13 | [↓](#ui-dashboards) |
+| [Memory & Knowledge](#memory-knowledge) | 29 | [↓](#memory-knowledge) |
+| [MCP & Integrations](#mcp-integrations) | 45 | [↓](#mcp-integrations) |
+| [Skills & Plugins](#skills-plugins) | 98 | [↓](#skills-plugins) |
+| [Tools & Utilities](#tools-utilities) | 60 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 31 | [↓](#orchestration-multi-agent-swarms) |
-| [Deployment & Infrastructure](#deployment-infrastructure) | 22 | [↓](#deployment-infrastructure) |
-| [Security & Governance](#security-governance) | 6 | [↓](#security-governance) |
+| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 34 | [↓](#orchestration-multi-agent-swarms) |
+| [Deployment & Infrastructure](#deployment-infrastructure) | 19 | [↓](#deployment-infrastructure) |
+| [Security & Governance](#security-governance) | 2 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
-| [Content & Media](#content-media) | 8 | [↓](#content-media) |
-| [Platform-Specific](#platform-specific) | 11 | [↓](#platform-specific) |
-| [Domain Applications](#domain-applications) | 22 | [↓](#domain-applications) |
+| [Content & Media](#content-media) | 5 | [↓](#content-media) |
+| [Platform-Specific](#platform-specific) | 12 | [↓](#platform-specific) |
+| [Domain Applications](#domain-applications) | 27 | [↓](#domain-applications) |
 | [Forks & Derivatives](#forks-derivatives) | 9 | [↓](#forks-derivatives) |
 | [Guides](#guides) | 2 | [↓](#guides) |
 
@@ -392,7 +392,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 196+ repos indexed, 1,135+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 399+ repos indexed, 1,135+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -4174,7 +4174,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **413+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **399+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
