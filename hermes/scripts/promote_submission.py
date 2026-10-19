@@ -181,12 +181,23 @@ def published_block(row):
 
 
 def bump_published_counts(text):
-    """Increment the directory-count stamps so the page does not drift per insert."""
-    text = re.sub(r"(\d+)\+ repos, docs", lambda m: f"{int(m.group(1)) + 1}+ repos, docs", text)
-    text = re.sub(r"(\d+)\+ repositories",
-                  lambda m: f"{int(m.group(1)) + 1}+ repositories", text)
-    text = re.sub(r"\*\*Repos indexed:\*\* (\d+)\+",
-                  lambda m: f"**Repos indexed:** {int(m.group(1)) + 1}+", text)
+    """Increment the directory-count stamps so the page does not drift per insert.
+
+    One callback for every stamp shape. Chained `re.sub` calls double-counted:
+    the "repos, docs" pass rewrote a line that the bare "repos" pass then
+    matched and bumped a second time. The published page carries THREE shapes
+    ("N+ repos, docs", "N+ repositories", "N+ repos"), and a pass that only
+    knows two of them leaves the third drifting - which is exactly how the
+    directory ended up advertising 199+ at the top and 196+ further down.
+    """
+    def bump(m):
+        return f"{int(m.group(1)) + 1}+ {m.group(2)}{m.group(3) or ''}"
+
+    def bump_indexed(m):
+        return f"**Repos indexed:** {int(m.group(1)) + 1}+"
+
+    text = re.sub(r"(\d+)\+ (repositories|repos)(, docs)?", bump, text)
+    text = re.sub(r"\*\*Repos indexed:\*\* (\d+)\+", bump_indexed, text)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     text = re.sub(r'last_updated: "\d{4}-\d{2}-\d{2}"',
                   f'last_updated: "{today}"', text, count=1)
