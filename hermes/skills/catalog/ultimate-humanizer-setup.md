@@ -61,7 +61,7 @@ Or direct:
 
 ```bash
 git clone https://github.com/surdijon/ultimate-humanizer.git
-cp ultimate-humanizer/SKILL.md ~/.hermes/profiles/corpusiq/skills/ultimate-humanizer.md
+cp ultimate-humanizer/SKILL.md ~/.hermes/profiles/<your-profile>/skills/ultimate-humanizer.md
 ```
 
 ---

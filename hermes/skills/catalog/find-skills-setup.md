@@ -45,7 +45,7 @@ npx skills search find-skills  # Should show the installed skill
 Without a token, GitHub API queries are limited to 60/hour. With a token, the limit increases to 5,000/hour:
 
 ```bash
-export GITHUB_TOKEN=$(cat ~/.hermes/profiles/corpusiq/secrets/github.token)
+export GITHUB_TOKEN=$(cat ~/.hermes/secrets/github.token)   # or: export GITHUB_TOKEN=$(gh auth token)
 ```
 
 ---
@@ -105,9 +105,9 @@ find-skills "video production" --compatible hermes --min-installs 5000 --json
 ```bash
 #!/bin/bash
 # Run daily to discover new Hermes-compatible skills
-# Save to: ~/.hermes/profiles/corpusiq/cron/daily-skill-discovery.sh
+# Save to: ~/.hermes/cron/daily-skill-discovery.sh
 
-export GITHUB_TOKEN=$(cat ~/.hermes/profiles/corpusiq/secrets/github.token)
+export GITHUB_TOKEN=$(cat ~/.hermes/secrets/github.token)   # or: export GITHUB_TOKEN=$(gh auth token)
 
 # Search across categories
 for category in "browser" "marketing" "mcp" "memory" "monitoring" "video" "growth" "security" "email" "social"; do

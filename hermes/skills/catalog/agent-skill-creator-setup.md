@@ -51,7 +51,7 @@ npx skills add coreyhaines31/marketingskills --skill autonomous-skill-orchestrat
 
 1. `npx skills add coreyhaines31/marketingskills --skill agent-skill-creator`
 2. `"Create a skill for email automation audit with trigger 'email audit'"`
-3. Review generated SKILL.md in ~/.hermes/profiles/corpusiq/skills/
+3. Review generated SKILL.md in ~/.hermes/profiles/<your-profile>/skills/
 4. `hermes skills install ./generated-skill.md`
 
 ## CorpusIQ Use Cases

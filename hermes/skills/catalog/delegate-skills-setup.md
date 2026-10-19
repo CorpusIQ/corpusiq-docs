@@ -56,7 +56,7 @@ Direct clone:
 
 ```bash
 git clone https://github.com/bassemZohdy/delegate-skills.git
-cp -r delegate-skills/skills/* ~/.hermes/profiles/corpusiq/skills/
+cp -r delegate-skills/skills/* ~/.hermes/profiles/<your-profile>/skills/
 ```
 
 ### Prerequisites

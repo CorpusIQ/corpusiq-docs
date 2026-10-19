@@ -98,4 +98,4 @@ mcp.so changed its frontend from Next.js RSC payloads (`__next_f.push`) to a ful
 
 ## GitHub API Note
 
-GitHub search API returned "User flagged as spammy" for all queries. Token at `secrets/github.token` may need rotation. All discovery was via mcp.so/feed only.
+GitHub search API returned "User flagged as spammy" for all queries this cycle. Discovery continued via mcp.so/feed only.

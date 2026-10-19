@@ -144,7 +144,7 @@ The ingestion runs automatically during Hermes sessions when `memory_provider: h
 
 ```bash
 # Start Hermes with hybrid memory
-hermes --profile corpusiq
+hermes --profile <your-profile>
 
 # In a Hermes session, test memory operations:
 # "Remember: the API key for Stripe is sk_live_xxx"

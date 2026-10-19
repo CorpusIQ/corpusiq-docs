@@ -46,12 +46,12 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/hermes gateway run --profile corpusiq
+ExecStart=/usr/local/bin/hermes gateway run --profile <your-profile>
 Restart=on-failure
 RestartSec=30
 MemoryMax=4G
 CPUQuota=200%
-Environment=HERMES_HOME=/home/hermes/.hermes/profiles/corpusiq
+Environment=HERMES_HOME=/home/<user>/.hermes/profiles/<your-profile>
 Environment=PATH=/home/hermes/.hermes/node/bin:/usr/local/bin:/usr/bin:/bin
 
 [Install]
@@ -81,12 +81,12 @@ Wants=network-online.target
 Type=simple
 User=hermes
 Group=hermes
-ExecStart=/usr/local/bin/hermes gateway run --profile corpusiq
+ExecStart=/usr/local/bin/hermes gateway run --profile <your-profile>
 Restart=on-failure
 RestartSec=30
 MemoryMax=4G
 CPUQuota=200%
-Environment=HERMES_HOME=/home/hermes/.hermes/profiles/corpusiq
+Environment=HERMES_HOME=/home/<user>/.hermes/profiles/<your-profile>
 
 [Install]
 WantedBy=multi-user.target

@@ -87,7 +87,7 @@ hermes skill run memory-merger --commit   # Apply changes
 Add to your Hermes profile for automatic memory maintenance:
 
 ```yaml
-# ~/.hermes/profiles/corpusiq/config.yaml
+# ~/.hermes/profiles/<your-profile>/config.yaml
 memory:
   auto_merge: true
   merge_schedule: daily  # or weekly, on_session_end

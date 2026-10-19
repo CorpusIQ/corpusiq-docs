@@ -52,7 +52,7 @@ ls skills/hermes-s6-container-supervision/
 ```bash
 # Example: /etc/s6/sv/hermes-agent/run
 #!/bin/execlineb -P
-hermes agent run --profile corpusiq
+hermes agent run --profile <your-profile>
 ```
 
 ### 2. Enable the service

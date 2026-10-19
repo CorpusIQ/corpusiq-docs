@@ -45,7 +45,7 @@ npx skills add alexei-led/coding-posture
 
 ```bash
 git clone https://github.com/alexei-led/coding-posture.git
-cp coding-posture/SKILL.md ~/.hermes/profiles/corpusiq/skills/coding-posture.md
+cp coding-posture/SKILL.md ~/.hermes/profiles/<your-profile>/skills/coding-posture.md
 ```
 
 ### Manual (Single File)
@@ -53,7 +53,7 @@ cp coding-posture/SKILL.md ~/.hermes/profiles/corpusiq/skills/coding-posture.md
 Download `SKILL.md` and place it in your Hermes skills directory:
 
 ```bash
-curl -o ~/.hermes/profiles/corpusiq/skills/coding-posture.md \
+curl -o ~/.hermes/profiles/<your-profile>/skills/coding-posture.md \
   https://raw.githubusercontent.com/alexei-led/coding-posture/main/SKILL.md
 ```
 

@@ -46,7 +46,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 | +5 others (niche/non-business) | - | - | Various |
 
 ## Blockers Encountered
-- **GitHub Search API:** All queries return "User flagged as spammy" (HTTP 422). The classic PAT at `~/.hermes/profiles/corpusiq/secrets/github.token` (prefix ghp_) has been flagged. Individual repo API calls still work but Search endpoint is unavailable.
+- **GitHub Search API:** All queries returned "User flagged as spammy" (HTTP 422) this cycle. Individual repo API calls still worked, so discovery continued without the search endpoint.
 - **mcp.so:** SSR-only, no API endpoint. Homepage scraping yielded categories but not individual server listings.
 - **mcpservers.org:** SSR-only, but sitemap XML is accessible and was used as primary data source.
 

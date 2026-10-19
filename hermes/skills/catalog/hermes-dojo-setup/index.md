@@ -153,10 +153,10 @@ For CorpusIQ-connected agent workflows, the Hermes Dojo can:
 
 ```bash
 # Weekly skill audit - Monday 6 AM
-0 6 * * 1 hermes skill invoke hermes-dojo --action audit --profile corpusiq
+0 6 * * 1 hermes skill invoke hermes-dojo --action audit --profile <your-profile>
 
 # Daily improvement report - 6 PM
-0 18 * * * hermes skill invoke hermes-dojo --action report --profile corpusiq
+0 18 * * * hermes skill invoke hermes-dojo --action report --profile <your-profile>
 ```
 
 ---

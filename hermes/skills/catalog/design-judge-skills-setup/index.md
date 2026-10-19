@@ -138,7 +138,7 @@ Copy the skill directories to your Hermes profile:
 git clone https://github.com/SeanJ1ang/design-judge-skills.git /tmp/design-judge-skills
 
 # Copy skills to Hermes profile
-cp -r /tmp/design-judge-skills/skills/* ~/.hermes/profiles/corpusiq/skills/
+cp -r /tmp/design-judge-skills/skills/* ~/.hermes/profiles/<your-profile>/skills/
 
 # Clean up
 rm -rf /tmp/design-judge-skills
@@ -167,7 +167,7 @@ After installation, verify skills are loaded:
 
 **Hermes Agent:**
 ```bash
-ls ~/.hermes/profiles/corpusiq/skills/design-*/
+ls ~/.hermes/profiles/<your-profile>/skills/design-*/
 ```
 
 **npx skills:**

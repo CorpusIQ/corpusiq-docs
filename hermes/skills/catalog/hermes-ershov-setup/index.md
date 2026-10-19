@@ -137,23 +137,23 @@ hermes ershov review --offline          # Deterministic replay
 
 ```bash
 # Install for corpusiq profile
-hermes --profile corpusiq plugins install ersh123/hermes-ershov --enable
+hermes --profile <your-profile> plugins install ersh123/hermes-ershov --enable
 
 # Run nightly review on CorpusIQ sessions
-hermes --profile corpusiq ershov review --since 24h
+hermes --profile <your-profile> ershov review --since 24h
 
 # Inspect proposals about growth strategy
-hermes --profile corpusiq ershov inspect <id>
+hermes --profile <your-profile> ershov inspect <id>
 
 # Approve high-quality memory proposals
-hermes --profile corpusiq ershov approve <id>
-hermes --profile corpusiq ershov apply <id>
+hermes --profile <your-profile> ershov approve <id>
+hermes --profile <your-profile> ershov apply <id>
 ```
 
 **CorpusIQ-specific config:**
 
 ```yaml
-# In ~/.hermes/profiles/corpusiq/config.yaml
+# In ~/.hermes/profiles/<your-profile>/config.yaml
 ershov:
   backend: deepseek
   model: deepseek-chat
@@ -172,7 +172,7 @@ ershov:
 
 ```bash
 # Add to crontab: run at 3 AM Arizona daily
-0 3 * * * hermes --profile corpusiq ershov review --since 24h >> ~/.hermes/profiles/corpusiq/logs/ershov.log 2>&1
+0 3 * * * hermes --profile <your-profile> ershov review --since 24h >> ~/.hermes/profiles/<your-profile>/logs/ershov.log 2>&1
 ```
 
 ## 7. Troubleshooting

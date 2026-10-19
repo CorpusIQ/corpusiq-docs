@@ -129,15 +129,15 @@ Hermes profile
 
 ```bash
 git clone https://github.com/DeployFaith/Hermes_Agency.git ~/src/hermes-agency
-ln -s ~/src/hermes-agency/hermes-agency ~/.hermes/profiles/corpusiq/plugins/hermes-agency
+ln -s ~/src/hermes-agency/hermes-agency ~/.hermes/profiles/<your-profile>/plugins/hermes-agency
 ```
 
 ### Option B: Copy (Standalone)
 
 ```bash
 git clone https://github.com/DeployFaith/Hermes_Agency.git /tmp/hermes-agency
-mkdir -p ~/.hermes/profiles/corpusiq/plugins
-cp -r /tmp/hermes-agency/hermes-agency ~/.hermes/profiles/corpusiq/plugins/hermes-agency
+mkdir -p ~/.hermes/profiles/<your-profile>/plugins
+cp -r /tmp/hermes-agency/hermes-agency ~/.hermes/profiles/<your-profile>/plugins/hermes-agency
 ```
 
 ### Install the Python SDK

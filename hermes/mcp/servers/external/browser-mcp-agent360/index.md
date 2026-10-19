@@ -116,8 +116,8 @@ For automatic 2FA code reading:
 # Google Account → Security → App Passwords
 
 # Store securely
-echo "your-gmail-app-password" > ~/.hermes/profiles/corpusiq/secrets/gmail-browser-mcp.token
-chmod 600 ~/.hermes/profiles/corpusiq/secrets/gmail-browser-mcp.token
+echo "your-gmail-app-password" > ~/.hermes/secrets/gmail-browser-mcp.token
+chmod 600 ~/.hermes/profiles/<your-profile>/secrets/gmail-browser-mcp.token
 ```
 
 ## Common Queries via Hermes

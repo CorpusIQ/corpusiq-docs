@@ -40,7 +40,7 @@ Direct clone:
 
 ```bash
 git clone https://github.com/sidhartha1s/clean-slate.git
-cp clean-slate/SKILL.md ~/.hermes/profiles/corpusiq/skills/clean-slate.md
+cp clean-slate/SKILL.md ~/.hermes/profiles/<your-profile>/skills/clean-slate.md
 ```
 
 ---

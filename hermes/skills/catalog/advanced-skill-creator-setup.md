@@ -51,7 +51,7 @@ npx skills add coreyhaines31/marketingskills --skill bocha-skill
 
 1. `npx skills add coreyhaines31/marketingskills --skill advanced-skill-creator`
 2. `"Create a skill for email automation audit with trigger 'email audit'"` 
-3. Review generated SKILL.md in ~/.hermes/profiles/corpusiq/skills/
+3. Review generated SKILL.md in ~/.hermes/profiles/<your-profile>/skills/
 4. `hermes skills install ./my-new-skill.md`
 
 ## CorpusIQ Use Cases

@@ -110,7 +110,7 @@ security:
     allowed_paths:
       - ~/hermes-workspace/
       - ~/corpusiq-docs/
-      - ~/.hermes/profiles/corpusiq/
+      - ~/.hermes/profiles/<your-profile>/
     blocked_paths:
       - ~/.ssh/
       - ~/.aws/

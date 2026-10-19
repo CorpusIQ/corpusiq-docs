@@ -97,7 +97,7 @@ For CorpusIQ Hermes agents, integrate skill-vetter into the governance pipeline:
 
 1. **Pre-install gate**: Run vetting before any `npx skills add` command
 2. **Weekly re-audit**: Re-vet all installed skills every Sunday
-3. **Audit log**: Write vetting results to `~/.hermes/profiles/corpusiq/skill-audits/YYYY-MM-DD.md`
+3. **Audit log**: Write vetting results to `~/.hermes/profiles/<your-profile>/skill-audits/YYYY-MM-DD.md`
 4. **Block escalation**: BLOCK results → notify Telegram Topic 2 immediately
 
 ---

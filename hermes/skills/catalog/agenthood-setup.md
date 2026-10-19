@@ -66,7 +66,7 @@ npx agenthood check      # Verify installation
 
 ```bash
 git clone https://github.com/fworks-tech/agenthood.git
-cp -r agenthood/skills/* ~/.hermes/profiles/corpusiq/skills/
+cp -r agenthood/skills/* ~/.hermes/profiles/<your-profile>/skills/
 ```
 
 ---
@@ -199,7 +199,7 @@ hermes skills list --marketplace | grep agenthood
 npx agenthood run the-scribe "hello"
 
 # Check skill files are accessible
-ls ~/.hermes/profiles/corpusiq/skills/the-reviewer/
+ls ~/.hermes/profiles/<your-profile>/skills/the-reviewer/
 ```
 
 ---

@@ -50,9 +50,9 @@ tools:
 
 profiles:
   corpusiq:
-    skills_dir: ~/.hermes/profiles/corpusiq/skills/
-    memory: ~/.hermes/profiles/corpusiq/memory/
-    crons: ~/.hermes/profiles/corpusiq/cron/
+    skills_dir: ~/.hermes/profiles/<your-profile>/skills/
+    memory: ~/.hermes/profiles/<your-profile>/memory/
+    crons: ~/.hermes/profiles/<your-profile>/cron/
 ```
 
 ## Production Patterns

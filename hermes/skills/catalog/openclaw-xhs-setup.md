@@ -87,7 +87,7 @@ gbrain import ~/xhs-memory.json --type xhs-notes
 Register the XHS MCP server with Hermes:
 
 ```yaml
-# ~/.hermes/profiles/corpusiq/config.yaml
+# ~/.hermes/profiles/<your-profile>/config.yaml
 mcp_servers:
   xiaohongshu:
     transport: stdio

@@ -66,19 +66,19 @@ Create `~/Library/LaunchAgents/com.corpusiq.hermes-gateway.plist`:
     <key>EnvironmentVariables</key>
     <dict>
         <key>HERMES_HOME</key>
-        <string>/Users/media/.hermes/profiles/corpusiq</string>
+        <string>/Users/<you>/.hermes/profiles/<your-profile></string>
         <key>PATH</key>
         <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/Users/media/.hermes/logs/gateway-stdout.log</string>
+    <string>/Users/<you>/.hermes/logs/gateway-stdout.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/media/.hermes/logs/gateway-stderr.log</string>
+    <string>/Users/<you>/.hermes/logs/gateway-stderr.log</string>
 
     <key>WorkingDirectory</key>
-    <string>/Users/media</string>
+    <string>/Users/<you></string>
 </dict>
 </plist>
 ```

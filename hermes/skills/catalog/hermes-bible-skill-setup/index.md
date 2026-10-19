@@ -109,8 +109,8 @@ hermes bundles list                    # Confirm hermes-complete is loaded
 ```bash
 cd /tmp
 git clone https://github.com/DeployFaith/hermes-bible-skill.git
-mkdir -p ~/.hermes/profiles/corpusiq/skills/hermes-bible
-cp -r hermes-bible-skill/SKILL.md hermes-bible-skill/references ~/.hermes/profiles/corpusiq/skills/hermes-bible/
+mkdir -p ~/.hermes/profiles/<your-profile>/skills/hermes-bible
+cp -r hermes-bible-skill/SKILL.md hermes-bible-skill/references ~/.hermes/profiles/<your-profile>/skills/hermes-bible/
 ```
 
 **When the CorpusIQ-connected agent should use this skill:**

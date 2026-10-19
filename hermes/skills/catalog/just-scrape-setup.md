@@ -125,5 +125,5 @@ just-scrape credits
 
 - **Credit-based pricing**: Each operation consumes ScrapeGraph AI credits. Monitor with `just-scrape credits` before large crawls.
 - **Alternatives**: For simple single-page scraping, Hermes' built-in `web_extract` tool may suffice. Use just-scrape when you need structured extraction, multi-page crawling, or scheduled monitoring.
-- **API key**: Store `SGAI_API_KEY` in `~/.hermes/profiles/corpusiq/secrets/` alongside other API keys for consistent secret management.
+- **API key**: Store `SGAI_API_KEY` in `~/.hermes/secrets/` alongside other API keys for consistent secret management.
 - **Complementary skills**: Works well with `firecrawl`, `tavily-research`, and `web-scraping-gooseworks` for a complete web intelligence stack.

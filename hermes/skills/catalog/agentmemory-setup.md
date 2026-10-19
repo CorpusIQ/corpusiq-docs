@@ -61,7 +61,7 @@ AgentMemory builds on the **iii engine** (https://github.com/iii-hq/iii) to prov
 After installation, configure AgentMemory through your Hermes profile:
 
 ```yaml
-# ~/.hermes/profiles/corpusiq/config.yaml
+# ~/.hermes/profiles/<your-profile>/config.yaml
 memory:
   provider: agentmemory
   agentmemory:

@@ -82,7 +82,7 @@ This routes to `hermes-history-ingest` which processes Hermes memories and sessi
 ### Auto-detect from path
 
 ```
-/wiki-history-ingest auto ~/.hermes/profiles/corpusiq/
+/wiki-history-ingest auto ~/.hermes/profiles/<your-profile>/
 ```
 
 The router detects `~/.hermes` in the path and dispatches to `hermes-history-ingest`.

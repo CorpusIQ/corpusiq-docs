@@ -113,8 +113,8 @@ npx skills add letta-ai/letta-code --skill defragmenting-memory
 ```bash
 # Clone and copy skills into Hermes profile
 git clone https://github.com/letta-ai/letta-code.git /tmp/letta-code
-mkdir -p ~/.hermes/profiles/corpusiq/skills/letta/
-cp -r /tmp/letta-code/.skills/* ~/.hermes/profiles/corpusiq/skills/letta/
+mkdir -p ~/.hermes/profiles/<your-profile>/skills/letta/
+cp -r /tmp/letta-code/.skills/* ~/.hermes/profiles/<your-profile>/skills/letta/
 ```
 
 ---

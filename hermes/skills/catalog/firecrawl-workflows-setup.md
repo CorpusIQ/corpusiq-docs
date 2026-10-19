@@ -182,7 +182,7 @@ All workflows can be chained into automated research pipelines:
 ```bash
 #!/bin/bash
 # Weekly competitive intelligence pipeline
-# Save to: ~/.hermes/profiles/corpusiq/cron/weekly-competitive-intel.sh
+# Save to: ~/.hermes/profiles/<your-profile>/cron/weekly-competitive-intel.sh
 
 WEEK=$(date +%Y-W%V)
 OUTDIR=~/corpusiq-brain/research/$WEEK

@@ -257,7 +257,7 @@ nav:
   - Secure AI Data Connectivity: secure-ai-data-connectivity.md
 - 🫡 Hermes Community Hub:
   - Overview: hermes/index.md
-  - Ecosystem: hermes/ecosystem.md
+  - Ecosystem: hermes/ecosystem/index.md
   - Agent Library:
     - Overview: hermes/agents/index.md
     - Sales: hermes/agents/sales-agent.md

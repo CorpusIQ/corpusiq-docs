@@ -222,7 +222,7 @@ mkdir -p "$BACKUP_DIR"
 
 # Backup configs
 cp ~/.hermes/config.yaml "$BACKUP_DIR/"
-cp ~/.hermes/profiles/corpusiq/config.yaml "$BACKUP_DIR/profile-config.yaml"
+cp ~/.hermes/profiles/<your-profile>/config.yaml "$BACKUP_DIR/profile-config.yaml"
 
 # Backup databases
 cp /path/to/*.duckdb "$BACKUP_DIR/"

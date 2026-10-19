@@ -90,7 +90,7 @@ python backup.py delete <backup-id>
 For Hermes agents, integrate into the session-end ritual:
 
 1. Before shutdown, back up all workspace files
-2. Store the recovery password in `~/.hermes/profiles/corpusiq/backup-recovery.json`
+2. Store the recovery password in `~/.hermes/profiles/<your-profile>/backup-recovery.json`
 3. On new session start, verify backup integrity
 4. Schedule weekly full backups via cron
 

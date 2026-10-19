@@ -31,9 +31,9 @@ Live-verified Sep 1, 2026: `npx skills add rebelytics/one-skill-to-rule-them-all
 
 ```bash
 git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git /tmp/task-observer
-mkdir -p ~/.hermes/profiles/corpusiq/skills/task-observer
+mkdir -p ~/.hermes/profiles/<your-profile>/skills/task-observer
 cp -r /tmp/task-observer/SKILL.md /tmp/task-observer/references /tmp/task-observer/scripts \
-  ~/.hermes/profiles/corpusiq/skills/task-observer/
+  ~/.hermes/profiles/<your-profile>/skills/task-observer/
 ```
 
 The skill runs degraded without `references/` and `scripts/` - it will tell you which files are missing.
@@ -61,7 +61,7 @@ The skill runs degraded without `references/` and `scripts/` - it will tell you 
 ## Quick Start
 
 1. Install the skill (above)
-2. Pick a stable workspace path, e.g. `~/.hermes/profiles/corpusiq/vault/` - never a cwd inside an ephemeral checkout
+2. Pick a stable workspace path, e.g. `~/.hermes/profiles/<your-profile>/vault/` - never a cwd inside an ephemeral checkout
 3. Add an activation instruction to the profile's AGENTS.md (or a session-start hook): invoke task-observer before the first tool call of any session
 4. Run real work. The observer writes observations as friction happens
 5. Review `skill-updates/` periodically (or on the weekly-review cadence) and patch skills accordingly
@@ -80,7 +80,7 @@ The skill runs degraded without `references/` and `scripts/` - it will tell you 
 - **Claude-architected content** - the publisher's own words: the SKILL.md format is cross-platform but "the content assumes Claude's architecture" (Claude path conventions like `~/.claude/projects/`, Cowork shared folders). Hermes shares the `<available_skills>` convention, but re-pin all workspace paths to a stable Hermes profile path; users have reported successful Hermes and OpenClaw integrations
 - **Activation is the weak point** - without the AGENTS.md/hook instruction, description matching alone will not reliably trigger the skill
 - **CC BY 4.0** - share and adapt freely with attribution to Eoghan Henn / rebelytics.com
-- Verify install: `npx skills list | grep task-observer` (CLI) or `ls ~/.hermes/profiles/corpusiq/skills/task-observer/` (manual)
+- Verify install: `npx skills list | grep task-observer` (CLI) or `ls ~/.hermes/profiles/<your-profile>/skills/task-observer/` (manual)
 
 ## Security
 
