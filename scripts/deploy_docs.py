@@ -89,12 +89,20 @@ def deploy_vercel():
     # never enters the repo.
     try:
         sha = subprocess.run(
+            "git rev-parse origin/main", shell=True, cwd=REPO_DIR,
+            capture_output=True, text=True,
+        ).stdout.strip() or subprocess.run(
+            "git rev-parse HEAD", shell=True, cwd=REPO_DIR,
+            capture_output=True, text=True,
+        ).stdout.strip()
+        local_head = subprocess.run(
             "git rev-parse HEAD", shell=True, cwd=REPO_DIR,
             capture_output=True, text=True,
         ).stdout.strip()
         with open("site/build-info.json", "w") as f:
             json.dump({
                 "commit": sha,
+                "local_head": local_head,
                 "deployed_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 "source": "deploy_docs.py",
             }, f)
