@@ -18241,5 +18241,117 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-17T11:34:01.614661+00:00"
+  },
+  {
+    "repo": "baliaga-repo/vibe-tools",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861937+00:00"
+  },
+  {
+    "repo": "suradath/Hermes-blender-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861949+00:00"
+  },
+  {
+    "repo": "vhmns14/hermes-skill-audit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861952+00:00"
+  },
+  {
+    "repo": "Franzferdinan51/duckbot-rag-memory",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861955+00:00"
+  },
+  {
+    "repo": "TrebuchetDynamics/autowork",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861957+00:00"
+  },
+  {
+    "repo": "johnazariah/hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861959+00:00"
+  },
+  {
+    "repo": "beh-S4nt05/personal-hermes-agent-behsantos",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861961+00:00"
+  },
+  {
+    "repo": "fanjing188/fast-browser-link",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861963+00:00"
+  },
+  {
+    "repo": "widisaadi/stickynotes-mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861964+00:00"
+  },
+  {
+    "repo": "unwnu/hermes-agent-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861966+00:00"
+  },
+  {
+    "repo": "mateusdka/hermes-quota-check-skill",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861968+00:00"
+  },
+  {
+    "repo": "thcuba/HAOS-hermes-agent",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861970+00:00"
+  },
+  {
+    "repo": "forgeguard-ai/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861972+00:00"
+  },
+  {
+    "repo": "gakonst/nanocode",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861973+00:00"
+  },
+  {
+    "repo": "zachristmas/hermes-kanban-attachment-preview",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861975+00:00"
+  },
+  {
+    "repo": "taskawayfr/hermes-agent-fr",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-19T05:25:19.861977+00:00"
   }
 ]
