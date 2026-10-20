@@ -26691,3 +26691,3129 @@ Read-only. CorpusIQ never uploads, edits videos, replies to comments, or changes
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Troubleshooting
+URL: https://www.corpusiq.io/docs/troubleshooting
+
+# Troubleshooting
+
+Seven pages for the most common things that go sideways.
+
+- [Error codes reference](error-codes-reference.md) - Error codes,
+  messages, and fixes organized by type (auth, rate limit, timeout, vendor).
+  Start here if you see an error.
+- [MCP connection errors](mcp-connection-errors.md) - "My MCP client
+  can't connect to CorpusIQ." Covers connection refused, 401 unauthorized,
+  OAuth device login, tool-not-found, timeout, and rate limit errors.
+- [Connector authentication failed](connector-auth-failed.md) - "I tried to
+  connect Shopify and it failed."
+- [Connector shows no data](connector-shows-no-data.md) - "It says
+  connected, but the answers come back empty."
+- [Numbers look stale](numbers-look-stale.md) - "The answer is not empty,
+  it is older than what the vendor dashboard shows."
+- [Claude can't see CorpusIQ](claude-cant-see-corpusiq.md) - "I added
+  CorpusIQ to Claude Desktop and nothing happens."
+- [ChatGPT can't see CorpusIQ](chatgpt-cant-see-corpusiq.md) - "I added
+  CorpusIQ to a custom GPT and nothing happens."
+
+If your issue isn't on this list, see the "escalate to support" section at the
+bottom of the error codes reference, or email support with: which connector,
+what you asked, what Claude or ChatGPT showed you.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# ChatGPT can't see CorpusIQ
+URL: https://www.corpusiq.io/docs/troubleshooting/chatgpt-cant-see-corpusiq
+
+# ChatGPT can't see CorpusIQ
+
+You set up a custom GPT (or used the ChatGPT MCP connector flow) and
+pointed it at CorpusIQ. But ChatGPT isn't using the CorpusIQ tools.
+Either the connector isn't listed, or it's listed but every query
+fails.
+
+The happy path is in
+[../quick-start.md](../quick-start.md).
+This page covers what to do when it didn't work.
+
+## Cause 1: The custom GPT was saved without the action
+
+When you build a custom GPT in ChatGPT, you have to **add the CorpusIQ
+action and save the GPT**. It's easy to fill out the config and
+navigate away without hitting save.
+
+**Fix:** Open the custom GPT in edit mode. Scroll to the Actions
+section. Confirm the CorpusIQ action is listed. Hit save.
+
+## Cause 2: Wrong MCP endpoint URL
+
+The CorpusIQ MCP endpoint for ChatGPT has a specific URL. If the URL in
+your custom GPT's action config doesn't match what the CorpusIQ team
+gave you, ChatGPT can't reach the server.
+
+**How to check:** Compare the URL in your action config to the exact
+URL in
+[../quick-start.md](../quick-start.md).
+Character for character. Trailing slashes matter. `http` vs `https`
+matters.
+
+## Cause 3: OAuth redirect URL mismatch
+
+When you set up the custom GPT's OAuth, you have to give CorpusIQ the
+exact redirect URL ChatGPT uses. If that URL is registered wrong on
+CorpusIQ's side, the OAuth handshake fails with "redirect URI mismatch."
+
+**Symptom:** You click "Authenticate" inside the custom GPT, get
+bounced to a CorpusIQ login page, sign in, and the redirect back to
+ChatGPT errors out.
+
+**Fix:** The redirect URL CorpusIQ accepts is typically
+`https://chat.openai.com/aip/<your-gpt-id>/oauth/callback`. The
+CorpusIQ team registers this on their side when you set up the
+connector. If the URL ChatGPT generated doesn't match, send it to
+support and they'll update the registration.
+
+## Cause 4: You haven't completed the in-chat OAuth
+
+Even after the GPT is configured correctly, your first message that
+triggers a CorpusIQ tool call will prompt you to authenticate with
+CorpusIQ. You have to click through that - sign in with the email tied
+to your CorpusIQ account - for ChatGPT to get a token.
+
+**Symptom:** The GPT acts like CorpusIQ doesn't exist, or says it can't
+access your data, even though the action is configured.
+
+**Fix:** Ask the GPT something that requires CorpusIQ, like "show me my
+last 5 Shopify orders." If a "Sign in to CorpusIQ" button appears,
+click it and complete the flow.
+
+## Cause 5: The MCP endpoint isn't responding
+
+Sometimes the server is up but a transient error or a specific JWT
+issue blocks the response. ChatGPT will silently treat this as "no
+tools available."
+
+**How to check:** Open the CorpusIQ web app (or wherever you manage
+your CorpusIQ account) and confirm your subscription is active and the
+MCP endpoint is enabled. If everything looks right but ChatGPT still
+can't see tools, email support with your account email and the custom
+GPT name.
+
+## Cause 6: Free-tier ChatGPT plan
+
+Custom GPT actions require a paid ChatGPT plan (Plus, Team, or
+Enterprise) for both the builder and the user. If you're on the free
+plan, actions are not available.
+
+**Fix:** Upgrade, or use Claude Desktop instead - see
+[claude-cant-see-corpusiq.md](claude-cant-see-corpusiq.md) for the
+parallel setup.
+
+## Still stuck
+
+Send support:
+- The custom GPT name and a screenshot of its Actions configuration
+  (redact tokens).
+- The exact message that failed and the response you got.
+- Your CorpusIQ account email.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Claude can't see CorpusIQ
+URL: https://www.corpusiq.io/docs/troubleshooting/claude-cant-see-corpusiq
+
+# Claude can't see CorpusIQ
+
+You added CorpusIQ to Claude Desktop, opened a chat, and nothing
+happens. No tools available. Claude doesn't mention CorpusIQ. Or you
+get an error in the Claude sidebar about a missing MCP server.
+
+The happy path is documented in
+[../quick-start.md](../quick-start.md).
+This page is for when the happy path didn't work.
+
+## Cause 1: Claude Desktop wasn't restarted
+
+Claude Desktop reads its MCP config file once, at startup. If you
+edited the config while Claude was running, Claude is still using the
+old config.
+
+**Fix:** Quit Claude Desktop completely (not just close the window -
+fully quit). Reopen it. Try again.
+
+On Mac: `Cmd-Q` or right-click the dock icon → Quit. On Windows: right-
+click the tray icon → Exit.
+
+## Cause 2: Wrong config file path
+
+The MCP config lives in different places per platform. Make sure you
+edited the right one.
+
+**Mac:**
+`~/Library/Application Support/Claude/claude_desktop_config.json`
+
+**Windows:**
+`%APPDATA%\Claude\claude_desktop_config.json`
+(usually `C:\Users\YourName\AppData\Roaming\Claude\claude_desktop_config.json`)
+
+If the file doesn't exist, create it. The directory should already be
+there if you've launched Claude Desktop at least once.
+
+## Cause 3: JSON syntax error
+
+The config file is JSON. A single missing comma or unbalanced brace
+breaks the whole file, and Claude silently ignores it.
+
+**How to check:** Paste the contents of `claude_desktop_config.json`
+into any JSON validator (search "JSON validator" - there are dozens).
+If it shows an error, fix the syntax.
+
+Common slip-ups:
+- Trailing comma after the last item (illegal in strict JSON).
+- Smart quotes instead of straight quotes (happens if you pasted from
+  a Word doc or rich-text email).
+- Missing closing brace.
+
+## Cause 4: The CorpusIQ server URL or command is wrong
+
+The MCP config tells Claude how to reach CorpusIQ. If the URL or
+command in your config doesn't match what the CorpusIQ team gave you,
+Claude can't connect.
+
+**How to check:** Compare your config entry to the exact snippet in
+[../quick-start.md](../quick-start.md).
+Character by character. URLs, ports, paths, and tokens must match
+exactly.
+
+## Cause 5: You haven't authenticated CorpusIQ inside Claude
+
+Once the MCP server itself is wired up, Claude still needs you to
+authenticate. When you open a new Claude chat, CorpusIQ should show as
+an available MCP server in the connector sidebar with a "Connect" or
+"Sign in" button. Click it and complete the CorpusIQ login.
+
+If you don't see CorpusIQ in the sidebar at all after restarting
+Claude, go back to Cause 1-4.
+
+## Cause 6: Firewall or VPN blocking the connection
+
+Corporate VPNs and some firewalls block outbound connections that look
+unusual. If you're on a managed laptop and everything else above
+checks out, try once on a personal network to confirm.
+
+## Still stuck
+
+Send support:
+- Your operating system (Mac or Windows, version).
+- The contents of `claude_desktop_config.json` (redact any tokens).
+- A screenshot of Claude's MCP/connector panel.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connector authentication failed
+URL: https://www.corpusiq.io/docs/troubleshooting/connector-auth-failed
+
+# Connector authentication failed
+
+You clicked "Connect Shopify" (or any other connector). The browser
+bounced you to the vendor, you signed in, you approved - and CorpusIQ
+came back with an error, or the connector status still shows as not
+connected.
+
+This page walks the four common causes and the fix for each.
+
+## Cause 1: You signed in with the wrong account
+
+The most common one. You have two Google accounts open in the same
+browser, or two Shopify stores under different emails. The OAuth flow
+authorized the wrong one.
+
+**Symptom:** The connection looks like it worked but the data you
+expected isn't there. Or the connection itself failed because the
+account doesn't have permissions for the resource you're trying to read
+(e.g. no Shopify admin access).
+
+**Fix:**
+1. Open a new private/incognito browser window.
+2. Make sure you're signed into **only** the right account.
+3. Reconnect from CorpusIQ. The OAuth screen should clearly show which
+   account is about to be authorized - verify it before approving.
+
+## Cause 2: You denied or skipped a permission scope
+
+Some vendors show several permission toggles on the consent screen and
+let you uncheck them. If you uncheck a scope CorpusIQ needs (e.g.
+"read orders" for Shopify), the connection completes but every query
+fails.
+
+**Symptom:** Connection green. Queries return "permission denied" or
+empty results.
+
+**Fix:**
+1. Disconnect the connector from CorpusIQ.
+2. Reconnect. On the vendor consent screen, **leave every requested
+   scope checked**. CorpusIQ only asks for read scopes - there are no
+   write scopes to worry about.
+
+## Cause 3: The vendor blocked the OAuth request
+
+A few vendors (especially Microsoft 365 in some tenants, Google
+Workspace with admin-managed accounts) will block third-party apps
+unless an admin pre-approves them. Some Shopify Plus stores also
+enforce this.
+
+**Symptom:** The vendor's screen says "Your administrator must approve
+this app" or similar. You never reach the consent screen.
+
+**Fix:** Ask your IT admin (or Google Workspace / Microsoft 365 admin)
+to approve CorpusIQ in the vendor's admin console. Send them the app
+name "CorpusIQ" and the connector you're trying to add. After
+approval, try again from CorpusIQ.
+
+## Cause 4: The token expired or was revoked
+
+If you connected weeks ago and queries used to work, the token has
+likely expired or been revoked from the vendor side (somebody clicked
+"remove" in Google's connected apps page, or the password was changed).
+
+**Symptom:** Connection shows red or "needs reauth." Queries fail with
+"token invalid."
+
+**Fix:**
+1. Disconnect from CorpusIQ.
+2. Reconnect. CorpusIQ will run a fresh OAuth flow and get a new token.
+
+## Still failing
+
+If none of the above worked, collect:
+- The exact connector name.
+- The exact error text you saw (screenshot is fine).
+- The vendor account email you used.
+
+Email support. There's a per-connector page in
+[../connectors/](../connectors/README.md) with vendor-specific quirks worth
+checking too.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Connector is green but answers come back empty
+URL: https://www.corpusiq.io/docs/troubleshooting/connector-shows-no-data
+
+# Connector is green but answers come back empty
+
+The connector status panel shows the connector as connected. Green
+check. But when you ask a question - "show me last week's Shopify
+orders" - Claude or ChatGPT says there's no data, or the answer is
+oddly thin.
+
+This is almost always one of four things.
+
+## Cause 1: You authenticated the wrong account
+
+This is the number-one cause. You have two Shopify stores. You have a
+personal Google account and a work Google account. You have an old
+HubSpot portal you forgot about. The OAuth flow grabbed the wrong one.
+
+**How to check:** Disconnect the connector. Reconnect. On the vendor
+consent screen, look carefully at which account is being authorized -
+account name, email address, store URL. Make sure it's the one with
+your actual business data.
+
+**Fix:** Open an incognito window with only the correct account signed
+in, then reconnect.
+
+## Cause 2: The date range in your question is too narrow
+
+If you ask "show me yesterday's orders" and yesterday was a quiet day,
+you'll genuinely get nothing back. Or if you ask "show me last week's
+GA4 traffic" and the GA4 property only started collecting two days ago,
+last week is empty.
+
+**How to check:** Ask the same question with a wider date range - "last
+30 days" or "last 90 days." If data shows up, the connection is fine;
+the original window was just empty.
+
+## Cause 3: The vendor account itself has no data yet
+
+You connected your QuickBooks sandbox instead of your production
+company. You connected a fresh Klaviyo account that hasn't sent
+campaigns yet. You connected a brand-new GA4 property with no traffic.
+
+The connector works. There's just nothing on the other end to read.
+
+**How to check:** Log directly into the vendor and look. If the data
+isn't there either, it's not a CorpusIQ problem.
+
+**Fix:** If you have a different account that does have data,
+disconnect and reconnect with that one.
+
+## Cause 4: Missing scopes
+
+CorpusIQ asks for read scopes for the data it expects to query. If a
+vendor lets you uncheck individual scopes during OAuth and you
+unchecked one, the connector authenticates but the specific data
+endpoint returns nothing.
+
+**How to check:** The connector is green but queries for one
+*specific* kind of data come back empty, while other queries against
+the same connector work. Example: Shopify customer data returns
+results, but Shopify orders is empty.
+
+**Fix:** Disconnect and reconnect. On the consent screen, leave every
+checkbox checked. CorpusIQ only requests read scopes.
+
+## Still empty
+
+If you've checked all four and the answer is still empty, ask the same
+question through the vendor's own UI to confirm the data exists. Then
+send support the connector name, the question you asked, and what was
+returned.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Error codes & troubleshooting reference
+URL: https://www.corpusiq.io/docs/troubleshooting/error-codes-reference
+
+# Error codes & troubleshooting reference
+
+When something goes wrong, CorpusIQ or a vendor returns an error code or message. This page maps those errors to causes and fixes.
+
+## CorpusIQ errors
+
+### Authentication & token errors
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `401 Unauthorized: Token invalid` | Connector token expired or was revoked. | Disconnect the connector and reconnect. CorpusIQ will fetch a fresh token. |
+| `401 Unauthorized: Token revoked by vendor` | The vendor (Google, Shopify) or an admin removed the app from their connected apps panel. | Disconnect from CorpusIQ, then reconnect. |
+| `403 Forbidden: Insufficient scopes` | The token was granted but some permission scopes were unchecked during OAuth. | Disconnect, reconnect, and leave all scopes checked during the consent screen. |
+| `403 Forbidden: Admin approval required` | Your workspace admin has blocked third-party apps. | Ask your IT/workspace admin to pre-approve "CorpusIQ" in your org's admin console (Google Workspace, Microsoft 365, Shopify Plus). |
+| `MFA/2FA prompt not handled` | You enabled MFA on your account after connecting, or the OAuth flow timed out during 2FA verification. | Use an incognito browser, disconnect, then reconnect while keeping only the right account logged in. |
+
+### Data & query errors
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `404 Not Found: Resource doesn't exist` | The query asked for data that doesn't exist (e.g., Shopify order #999 that was never placed). | Verify the ID or date range in your question. Ask CorpusIQ to "show the data sources" so you see what's actually there. |
+| `Empty results / No data returned` | Either (a) the connector is authenticated but has no data, or (b) the query is valid but returned zero matches. | See [connector-shows-no-data.md](connector-shows-no-data.md). Start by asking a simple question like "Show me my account info" to verify the connector works. |
+| `Type mismatch in results` | The connector returned a different data type than expected (e.g., a date field as a string). | Usually transparent to users; CorpusIQ handles conversion. If the answer looks wrong, ask "Show me the raw data." |
+| `Permission denied on query` | A permission scope was unchecked, or the vendor account doesn't have access to the resource. | See [connector-auth-failed.md](connector-auth-failed.md), Cause 2 (unchecked scopes). Or verify the account you're querying actually has admin access to the data you're asking for. |
+
+### Rate limit & quota errors
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `429 Too Many Requests: Rate limit exceeded` | The vendor (Google, Shopify, Klaviyo) is blocking requests because you've hit their rate limit. | Wait 60 seconds, then retry. For frequent queries, break them into smaller date ranges or filter by account/product subset. See [../how-it-works/rate-limits-and-quotas.md](../how-it-works/rate-limits-and-quotas.md). |
+| `quota exceeded` | Your account or the connector has hit a daily/monthly API call quota. | Check the vendor's dashboard for quota status. For example, Google Ads has a 60k calls/day limit. Contact support for guidance on optimizing queries or upgrading. |
+| `request throttled` | The vendor is slowly rejecting requests to manage load. | This usually resolves itself. CorpusIQ will retry with backoff. If it persists, try the query at a different time (e.g., off-peak hours). |
+
+### Timeout & performance errors
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Timeout: Query exceeded 60 seconds` | The vendor was slow to respond or the query involves a large date range or many records. | Try querying a shorter date range (e.g., last week instead of last year). Or ask a more specific question (e.g., "Top 10 products" instead of "All products"). |
+| `Timeout: No response from vendor` | The vendor's API was unreachable or offline. | Wait a minute and retry. If this is persistent, the vendor may have an outage. Check their status page. |
+| `Partial results: X of Y records returned` | The query hit a record limit and returned a subset. | The data you got is real but not complete. Ask a more specific question or break it into smaller chunks (by date, by product, by region). |
+
+## Vendor-specific errors
+
+### Google (Workspace, Ads, Analytics, Search Console)
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `google_auth_token_invalid` | Your Google account session expired. | Sign in again at google.com, then reconnect the connector in CorpusIQ. |
+| `No accounts found` (Google Ads) | The Google user you signed in with has no access to any Ads account. | Go to google.com/ads, click Settings → Access and Security, and add yourself. |
+| `login_customer_id required` (Google Ads MCC) | You're using a manager account but didn't specify which client account to query. | See [../connectors/google_ads.md](../connectors/google_ads.md) Troubleshooting section. Add the client customer ID to your query. |
+| `Permission denied: read_analytics` | Your Google user doesn't have access to the GA4 property. | Add your account to the GA4 property in Google Analytics → Admin → User management. Requires Editor+ role. |
+| `Search Console: Site not verified` | Your site isn't verified in Google Search Console. | Go to search.google.com/search-console, verify ownership, and try again. |
+
+### Shopify
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Shopify: Invalid API access scope` | The OAuth consent screen was skipped or incomplete. | Disconnect and reconnect; approve all scopes. |
+| `Shopify: Admin API is disabled` | Your Shopify admin has blocked custom app access. | Log into Shopify Admin → Settings → Apps and Integrations → App and sales channel settings, and enable "Allow custom app connections." |
+| `Shopify: Shop is on Plus plan with custom permissions` | Shopify Plus enforces per-user scope management. | Ask your Shopify admin to grant the "CorpusIQ" app access to Orders, Products, Customers scopes. |
+| `Could not connect to Intuit` (if QuickBooks via Shopify sync) | Intuit's OAuth is temporarily rate-limited. | Wait 60 seconds and retry. |
+
+### QuickBooks
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Wrong company file connected` | You authorized the wrong QuickBooks company during OAuth. | Go to Settings → Connected apps in your Intuit account and revoke CorpusIQ. Disconnect from CorpusIQ, reconnect, and choose the correct company. |
+| `No invoice data found` | The QuickBooks company has no invoices yet, or the permission scopes don't include invoices. | Verify the company actually has invoices. Or reconnect and ensure "Invoices" scope is checked. |
+| `Numbers don't match my accountant's report` | CorpusIQ is on a different accounting basis (accrual vs. cash) than you expected. | Ask CorpusIQ: "Show me P&L on accrual basis" or "Show me P&L on cash basis." Check your QuickBooks default in Settings. |
+
+### Klaviyo
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Klaviyo: API key invalid` | The Klaviyo API key was revoked or regenerated. | Go to Klaviyo Account → API Keys, confirm the current key. Disconnect CorpusIQ and reconnect. |
+| `List not found` | You asked about a list that was deleted or is in a different workspace. | Go to Klaviyo and verify the list exists. Or ask CorpusIQ: "Show me all my lists." |
+
+### HubSpot
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `HubSpot: Private app scope insufficient` | If using a private app, not all scopes are granted. | Go to HubSpot Settings → Integrations → Private apps, and grant "read" scopes for contacts, deals, pipelines. |
+| `Deal not found in pipeline` | The deal was deleted or moved to a different pipeline. | Verify it exists in HubSpot. Ask CorpusIQ: "Show me all deals in [pipeline name]." |
+
+### Meta Ads (Facebook, Instagram)
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Meta: Account restriction detected` | Your ad account is under review or has spending limits. | Go to facebook.com/business/help and check your ad account status. Revert any violations and wait for review. |
+| `Campaign archived` | The campaign you asked about is archived. | Ask about active campaigns, or ask CorpusIQ to "Show me archived campaigns" if needed. |
+
+### Zapier / Make / other connectors
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `Connection timeout` | The vendor's API is slow or offline. | Wait 1 minute and retry. Check the vendor's status page for outages. |
+| `Invalid API key or credentials` | The credentials were revoked or incorrect. | Regenerate the API key in the vendor's settings, disconnect from CorpusIQ, and reconnect. |
+
+## Error codes by HTTP status
+
+| HTTP Status | Common Causes | Action |
+|-------------|---------------|--------|
+| 400 Bad Request | Malformed query, invalid date format, unsupported filter | Check your question for typos or unsupported fields. Ask CorpusIQ: "Show me what fields are available." |
+| 401 Unauthorized | Token invalid, expired, revoked | Disconnect and reconnect the connector. |
+| 403 Forbidden | Insufficient permissions, scopes unchecked | Reconnect and ensure all scopes are approved. |
+| 404 Not Found | Resource doesn't exist (order, product, account) | Verify the resource exists in the vendor's dashboard. Try a broader query. |
+| 429 Too Many Requests | Rate limit exceeded | Wait 60 seconds, then retry. Optimize your query for smaller date ranges. |
+| 500 Internal Server Error | Vendor's API is broken | Wait a few minutes. If it persists, contact the vendor's support. |
+| 503 Service Unavailable | Vendor is down for maintenance | Check the vendor's status page. Retry in a few minutes. |
+
+## How to escalate to support
+
+If your error isn't on this page, gather this info and email support:
+
+1. **Exact error text** (screenshot or copy-paste)
+2. **Which connector** (e.g., "Shopify," "Google Ads," "Klaviyo")
+3. **What you asked** (your exact question to Claude/ChatGPT)
+4. **Timestamp** (when did it happen?)
+5. **Connector auth status** (is it showing "Connected" in CorpusIQ?)
+6. **Steps to reproduce** (can you make it happen again?)
+
+---
+
+## Powered by CorpusIQ
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# MCP Connection Errors - Troubleshooting Guide
+URL: https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors
+
+# MCP Connection Errors - Troubleshooting Guide
+
+The most common issues when connecting CorpusIQ to Claude Desktop, ChatGPT, Cursor, or any MCP client. Start here before escalating to support.
+
+## Symptom: "MCP server not found" or "Connection refused"
+
+**What it means:** Your MCP client cannot reach the CorpusIQ server.
+
+**Check these first:**
+
+1. **Is the URL correct?** The CorpusIQ MCP server URL is:
+   ```
+   https://mcp2.corpusiq.io/mcp
+   ```
+   Not `mcp.corpusiq.io` or `api.corpusiq.io`. Verify the exact URL in your config.
+
+2. **Is your internet working?** Run this from your terminal:
+   ```bash
+   curl -I https://mcp2.corpusiq.io/mcp
+   ```
+   You should see `HTTP/2 200`. If you get a timeout or connection refused, check your firewall or VPN.
+
+3. **Is your MCP client config correct?** For Claude Desktop, the config file lives at:
+   - **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+
+   The correct format:
+   ```json
+   {
+     "mcpServers": {
+       "corpusiq": {
+         "url": "https://mcp2.corpusiq.io/mcp",
+         "headers": {
+           "Authorization": "Bearer YOUR_API_KEY"
+         }
+       }
+     }
+   }
+   ```
+
+## Symptom: "401 Unauthorized" or "Authentication failed"
+
+**What it means:** Your API key is missing, expired, or wrong.
+
+**Fix:**
+1. Go to [corpusiq.io/settings/api](https://corpusiq.io/settings/api) and copy your API key
+2. Verify the key starts with `ciq_`
+3. In your MCP config, make sure the header name is exactly `Authorization` and the value is `Bearer YOUR_KEY` (with the word "Bearer" followed by a space)
+4. After updating the config, restart your MCP client completely (quit and reopen, not just reload)
+
+## Symptom: "MCP Server requires OAuth" or "Device login required"
+
+**What it means:** You are connecting with a device or CLI tool that needs OAuth authentication instead of an API key.
+
+**Fix:**
+1. Use the device authorization flow: run your MCP client, it will display a URL and a code
+2. Open the URL in a browser, enter the code
+3. Log in with your CorpusIQ account
+4. The MCP client will automatically receive a token
+
+For CLI tools using device login, the config looks like:
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "url": "https://mcp2.corpusiq.io/mcp",
+      "auth": "oauth"
+    }
+  }
+}
+```
+
+## Symptom: "Tool not found" or "No tools available"
+
+**What it means:** Authentication worked but CorpusIQ isn't exposing any tools to your client.
+
+**Common causes:**
+1. **No connectors configured.** Log into corpusiq.io and connect at least one data source (Shopify, QuickBooks, HubSpot, etc.). CorpusIQ only exposes tools for connected sources.
+2. **Client caching.** Restart your MCP client completely. Some clients cache the tool list and won't pick up changes until restarted.
+3. **Trial expired.** Check your account status at corpusiq.io/settings/billing. Expired trials cannot access tools.
+
+## Symptom: "Timeout" or "Request took too long"
+
+**What it means:** Your query is taking longer than the MCP client's timeout limit.
+
+**Fix:**
+1. For complex cross-source queries, try breaking them into smaller questions
+2. Check if one of your connectors is slow. Disconnect and reconnect the slowest one
+3. Increase the timeout in your MCP client if it supports custom timeouts
+
+## Symptom: "Rate limit exceeded" or "429 Too Many Requests"
+
+**What it means:** You're making too many requests too quickly.
+
+**Fix:**
+1. Wait 60 seconds and try again. CorpusIQ rate limits reset every minute
+2. Spread your queries out instead of firing them rapidly
+3. If you consistently hit rate limits, upgrade your plan at [corpusiq.io/pricing](https://corpusiq.io/pricing)
+
+## Still stuck?
+
+If none of these fixes your issue, email support with:
+- The exact error message (copy and paste, don't paraphrase)
+- Which MCP client you're using (Claude Desktop, Cursor, ChatGPT, etc.)
+- Your operating system
+- What connector(s) you're trying to use
+- The query you ran when the error occurred
+
+---
+# The number is there, but it is older than you expected
+URL: https://www.corpusiq.io/docs/troubleshooting/numbers-look-stale
+
+# The number is there, but it is older than you expected
+
+This is different from an empty answer. The connector works, data comes
+back, and nothing errors. The problem is the value: you know you closed
+three deals this morning and the answer says two.
+
+Almost every case is one of the five below.
+
+## Cause 1: The source itself lags
+
+CorpusIQ does not hold a copy of your business data. Each question is
+resolved against the vendor at the moment you ask, so the age of the
+number is the age of the vendor's own reporting.
+
+Reporting software is rarely live. Advertising platforms settle
+conversions for hours. Analytics platforms finalize a day after it ends.
+Payment data posts as it happens.
+
+| Source | Typical lag | What that means for you |
+|--------|-------------|-------------------------|
+| Shopify, Stripe, HubSpot, Klaviyo | Seconds to a couple of minutes | Safe to ask about today |
+| QuickBooks | A few minutes | Safe to ask about today |
+| Google Ads | Three to six hours | Yesterday's spend is reliable by morning |
+| Meta Ads | Six to twelve hours | Conversions settle late, sometimes the next day |
+| GA4 | One to two days | "Today" in GA4 usually means yesterday |
+| Search Console | Weekly refresh | Treat it as a trend, not a live count |
+
+If the number you expected falls inside one of those windows, the
+answer is correct for the data that exists.
+
+## Cause 2: You are comparing two sources with different clocks
+
+The most common version of this: ads report a sale, the store reports
+the sale, the two do not match. They never will at the same timestamp,
+because the platforms attribute at different speeds and on different
+calendars.
+
+Ask for the comparison over a range that has had time to settle. Last
+week reconciles. The last hour does not.
+
+## Cause 3: You asked a question that closes the period too early
+
+"Revenue today" asked at 9am is a partial day. "Spend this month" on
+the 3rd is three days. Neither is stale, both are incomplete.
+
+Phrase the window the way you would report it: "last full week", "the
+month of September", "yesterday compared with the same day last week".
+
+## Cause 4: The connector authenticated a different account than the one you are looking at
+
+The status is green, the data is real, but it belongs to another
+property, store, or ad account. The tell is a value that is stable but
+wrong by a consistent factor, or a total that matches a secondary
+account.
+
+Disconnect, reconnect, and read the account name on the vendor consent
+screen before approving. Use a browser session where only the intended
+account is signed in.
+
+## Cause 5: The metric definition is not the one you have in mind
+
+"Revenue" is not one number. Gross versus net of refunds and tax.
+Including shipping or not. Attributed revenue versus collected revenue.
+Two dashboards can both be right and disagree.
+
+If a number has been argued about before, write the definition down
+once with Metric Specs and every later answer resolves the same way.
+See [Metric Specs](../how-it-works/metric-specs.md).
+
+## How to confirm in one step
+
+Ask the same question through the vendor's own interface, restricted to
+the same date range. If the two match, the data is current and the
+expectation was off. If they differ, note the source, the question, the
+range, and both values, and send that to support.
+
+## FAQ
+
+### Why does CorpusIQ not cache results to make answers faster?
+
+Because a cached answer is a stale answer with no warning attached.
+Every question is resolved against the source at the moment you ask, so
+two questions thirty seconds apart both read live data. The trade is
+latency for accuracy, and accuracy is the point.
+
+### Is yesterday's data complete?
+
+For most commerce and CRM sources, yes. For advertising and analytics
+sources, usually, but the settlement window can run into the following
+day. Check the same figure once more the next morning before you make a
+decision on it.
+
+### Why do two sources disagree on the same sale?
+
+Attribution. The ad platform credits the click, the store credits the
+order, and each counts at its own speed on its own calendar. Use one
+source as the record of truth per metric rather than averaging them.
+
+### Can I get a warning when a source is behind?
+
+Ask the AI to show the most recent timestamp the source returned for
+that entity. That gives you the data's own clock instead of your
+assumption about it.
+
+## Related
+
+- [Connector shows no data](connector-shows-no-data.md) - when the answer
+  is empty rather than old.
+- [Rate limits and quotas](../how-it-works/rate-limits-and-quotas.md) -
+  the full per-connector latency and limit tables.
+- [Error codes reference](error-codes-reference.md) - when something
+  actually failed.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Recipes
+URL: https://www.corpusiq.io/docs/recipes
+
+# Recipes
+
+Recipes are reusable query patterns for CorpusIQ connectors.
+
+Each recipe captures a specific analytical workflow: which connectors it uses,
+what the query looks like, and what output to expect. Recipes are designed to
+be copied, adapted, and run directly against your CorpusIQ MCP instance.
+
+## What makes a good recipe
+
+- Solves a real operational problem
+- Uses actual CorpusIQ connector field names
+- Includes a concrete example of the expected output
+- Is specific enough to run, not so specific it only works for one team
+
+## Available Recipes
+
+| Recipe | Connectors | Use Case |
+|--------|-----------|----------|
+| [AI Agent MCP Setup](ai-agent-mcp-setup.md) | Any | Connect CorpusIQ to Claude Code, Cursor, Hermes, and other AI coding agents |
+| [SEO Performance Report (GA4 + Search Console)](seo-performance-ga4-search-console.md) | Google Workspace (GSC + GA4) | Weekly organic search reporting: click movers, query opportunities, landing-page checks |
+| [Weekly Ad ROI Report](weekly-ad-roi-report.md) | Google Ads, Meta Ads, GA4 | Cross-source weekly advertising ROI |
+| [Cross-Source Revenue Audit](cross-source-revenue-audit.md) | Stripe, Shopify, GA4 | Revenue numbers reconciled across billing, store, and analytics |
+| [Monthly Close](monthly-close.md) | QuickBooks, Stripe | Books vs processor reconciliation at month end |
+| [Morning Briefing](morning-briefing.md) | Mixed | One prompt that scans the business before your first coffee |
+| [Shopify-QuickBooks Reconciliation](shopify-quickbooks-reconciliation.md) | Shopify, QuickBooks | Daily sales vs invoice reconciliation |
+| [HubSpot-Klaviyo Pipeline](hubspot-klaviyo-pipeline.md) | HubSpot, Klaviyo | Deal pipeline correlated with email engagement |
+| [Meta Ads + Shopify ROAS](meta-ads-shopify-roas.md) | Meta Ads, Shopify | True ROAS down to the product level |
+| [Universal Business Search](universal-business-search.md) | Any | Ask the same question across every connected system |
+| [IndexNow Auto-Submit](indexnow-auto-submit.md) | Any | Push new URLs to search engines the moment they publish |
+
+## Submitting a Recipe
+
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for submission instructions.
+Use [TEMPLATE.md](TEMPLATE.md) as your starting point.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Recipe: [Title]
+URL: https://www.corpusiq.io/docs/recipes/TEMPLATE
+
+# Recipe: [Title]
+
+**Connectors:** [connector-1, connector-2, ...]
+**Category:** [reporting | reconciliation | pipeline | alerting | enrichment]
+**Complexity:** [simple | multi-source | cross-domain]
+
+---
+
+## Use Case
+
+[One paragraph. What problem does this recipe solve? Who runs it and when?
+Be specific - include the decision or action this query enables.]
+
+---
+
+## Prerequisites
+
+- CorpusIQ connectors connected: [list each]
+- Required permissions/scopes per connector: [list any non-default requirements]
+- Frequency: [real-time | daily | weekly | on-demand]
+
+---
+
+## Query
+
+```
+[Paste the exact prompt or query as you'd send it to CorpusIQ via MCP.
+Use real field names. Do not use placeholder schemas.]
+```
+
+---
+
+## Sample Output
+
+```
+[Paste or describe the expected output. Redact real business data but keep structure intact.]
+```
+
+---
+
+## Notes
+
+[Any caveats, known limitations, required date ranges, timezone considerations,
+or common errors and how to handle them.]
+
+---
+
+## Variations
+
+[Optional. List common adaptations - different time windows, additional filters,
+output format changes.]
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Recipe: Connect CorpusIQ to AI Coding Agents (Claude Code, Cursor, Hermes)
+URL: https://www.corpusiq.io/docs/recipes/ai-agent-mcp-setup
+
+# Recipe: Connect CorpusIQ to AI Coding Agents (Claude Code, Cursor, Hermes)
+
+AI coding agents like Claude Code, Cursor, and Hermes can query your business data directly through CorpusIQ. This recipe shows you how to set it up so your agent can answer questions about revenue, customers, campaigns, and operations while you work.
+
+## Why Connect Your Business Data to a Coding Agent
+
+AI coding agents already help you write code, review PRs, and manage infrastructure. With CorpusIQ connected, they can also:
+
+- Answer "how many customers signed up last week" without leaving the terminal
+- Pull real revenue numbers into a PR description
+- Check campaign performance before deploying marketing changes
+- Verify inventory levels when building e-commerce features
+- Pull actual customer counts when writing database migrations
+
+## Setup: Claude Code (Anthropic)
+
+Claude Code supports MCP servers natively. Add CorpusIQ to your Claude Code MCP config.
+
+**Config file location:** `~/.claude/claude_desktop_config.json` or use `claude mcp add`.
+
+```bash
+# Add CorpusIQ as an MCP server
+claude mcp add corpusiq \
+  --url https://mcp2.corpusiq.io/mcp \
+  --header "Authorization: Bearer YOUR_API_KEY"
+```
+
+Replace `YOUR_API_KEY` with your key from [corpusiq.io/settings/api](https://corpusiq.io/settings/api).
+
+**Verify it works:**
+```
+> What's our total Shopify revenue this month?
+```
+Claude Code will call the CorpusIQ Shopify tool and return live data.
+
+## Setup: Cursor
+
+Cursor supports MCP servers through its settings. Add CorpusIQ to your Cursor MCP configuration.
+
+1. Open Cursor Settings → MCP → Add New MCP Server
+2. Enter:
+   - **Name:** CorpusIQ
+   - **URL:** `https://mcp2.corpusiq.io/mcp`
+   - **Auth Header:** `Bearer YOUR_API_KEY`
+
+Or add it directly to `~/.cursor/mcp.json`:
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "url": "https://mcp2.corpusiq.io/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+Restart Cursor after adding the config.
+
+## Setup: Hermes Agent (Nous Research)
+
+Hermes supports MCP servers via its config.yaml. Add CorpusIQ under the `mcp_servers` section.
+
+**Config file:** `~/.hermes/config.yaml`
+
+```yaml
+mcp_servers:
+  corpusiq:
+    url: https://mcp2.corpusiq.io/mcp
+    headers:
+      Authorization: "Bearer YOUR_API_KEY"
+```
+
+Then restart Hermes:
+```bash
+hermes restart
+```
+
+Verify with:
+```
+hermes: which tools do you have from corpusiq?
+```
+
+## Setup: Windsurf
+
+Add to `~/.codeium/windsurf/mcp_config.json`:
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "url": "https://mcp2.corpusiq.io/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+## Useful Agent Prompts
+
+Once connected, try these prompts with your agent:
+
+**Revenue & Finance**
+- "Pull our Shopify revenue by product category for Q2"
+- "Compare this month's QuickBooks profit to last month"
+- "Which customers have unpaid invoices over 30 days?"
+
+**Marketing & Growth**
+- "What's our Meta Ads ROAS this week vs last week?"
+- "Show me our top 5 Google Ads campaigns by conversion rate"
+- "Which email campaigns in Klaviyo drove the most revenue?"
+
+**Operations**
+- "How many support tickets are open in HubSpot right now?"
+- "What's our inventory level for the top 10 Shopify SKUs?"
+- "Show me this week's Stripe refunds over $100"
+
+**Development**
+- "Before I deploy this pricing change, what's our current average order value?"
+- "Pull actual customer counts by plan tier for this migration PR"
+- "What's our API error rate from PostHog for the last 24 hours?"
+
+## Troubleshooting
+
+If your agent says it can't find the CorpusIQ tools:
+
+1. **Restart the agent.** Most MCP clients cache tool lists on startup
+2. **Check your API key.** Make sure it hasn't expired at corpusiq.io/settings/api
+3. **Verify connectors.** CorpusIQ only exposes tools for connected data sources. Log into corpusiq.io and make sure at least one connector is active
+4. **Check the URL.** It must be exactly `https://mcp2.corpusiq.io/mcp`
+
+## Security Note
+
+Your API key grants access to all your connected business data. Store it securely:
+- Use environment variables where possible
+- Never commit the key to a public repository
+- Rotate keys regularly from the CorpusIQ dashboard
+- Use different API keys for development and production agents
+
+---
+# Recipe: Cross-Source Revenue Audit
+URL: https://www.corpusiq.io/docs/recipes/cross-source-revenue-audit
+
+# Recipe: Cross-Source Revenue Audit
+
+**Time to value:** 5 minutes setup, instant answers after that.
+**Connectors needed:** Stripe, QuickBooks, Shopify (any 2 of 3 works)
+**Skill level:** Operator. No code required.
+
+## The problem
+
+You have revenue in Stripe. Orders in Shopify. Invoices in QuickBooks. These numbers should match. They rarely do.
+
+Reconciling them means exporting CSV files from three platforms, loading them into Excel, running VLOOKUPs, and spending 30 minutes to confirm what you already suspected: $2,300 is missing somewhere.
+
+## What you'll ask your AI
+
+After connecting your tools through CorpusIQ, you ask questions like:
+
+- "What's my actual collected revenue this month across Stripe and Shopify? Compare against QuickBooks invoices."
+- "Show me Stripe charges from last week that don't have matching QuickBooks invoices."
+- "Which Shopify orders from yesterday are still pending in Stripe?"
+
+Your AI queries all three tools live and gives you the answer with sources cited. No exports, no spreadsheets, no VLOOKUPs.
+
+## Setup
+
+1. Connect Stripe, QuickBooks, and Shopify in your CorpusIQ dashboard (corpusiq.io/connectors)
+2. Each connection uses read-only external-source retrieval. Your AI can read data, never write or spend.
+3. That's it. No API keys to manage. No code to write.
+
+## Example: Find unmatched Stripe charges
+
+Ask your AI:
+
+> "List Stripe charges from July 1-7 over $100. For each one, check if there's a matching QuickBooks invoice by amount and customer email. Show me the ones without matches."
+
+Your AI queries Stripe's charges endpoint, QuickBooks' invoice endpoint, cross-references by amount and email, and returns only the unmatched items. Source citations for every number.
+
+## Why this matters
+
+The alternative is exporting CSV files from three platforms, merging them manually, and hoping your formulas are right. Most operators do this once a month. Some do it once a quarter. Many never do it at all and just hope the numbers are close enough.
+
+One question. All your tools. Source cited. Done.
+
+---
+
+**Contributed by:** CorpusIQ Growth Agent
+**Related recipe:** [Shopify-QuickBooks Reconciliation](./shopify-quickbooks-reconciliation.md)
+**Connectors used:** `stripe`, `quickbooks`, `shopify`
+
+---
+# Recipe: HubSpot Deal Pipeline Correlated with Klaviyo Email Engagement
+URL: https://www.corpusiq.io/docs/recipes/hubspot-klaviyo-pipeline
+
+# Recipe: HubSpot Deal Pipeline Correlated with Klaviyo Email Engagement
+
+**Connectors:** hubspot, klaviyo
+**Category:** pipeline
+**Complexity:** multi-source
+
+---
+
+## Use Case
+
+Revenue and marketing teams need to understand whether email engagement drives
+or follows deal progression. This recipe correlates HubSpot deal stage movement
+with Klaviyo email opens, clicks, and conversions for the same contacts over
+a rolling 30-day window. It surfaces which deals have gone cold (no email
+engagement), which contacts are actively engaging but haven't advanced in the
+pipeline, and which email flows are generating the most deal movement.
+
+---
+
+## Prerequisites
+
+- CorpusIQ connectors connected: hubspot, klaviyo
+- Required scopes:
+  - HubSpot: crm.objects.deals.read, crm.objects.contacts.read
+  - Klaviyo: read-only (profiles, metrics, campaigns, flows)
+- Frequency: weekly or on-demand
+- Contacts must share email address between HubSpot and Klaviyo for matching
+
+---
+
+## Query
+
+```
+Correlate HubSpot deal pipeline with Klaviyo email engagement over the last 30 days.
+
+From HubSpot: pull all open deals. For each deal give me: deal_id, deal_name,
+deal_stage, amount, close_date, associated contact email(s), days in current stage.
+
+From Klaviyo: for those same contact emails, pull email engagement over the last
+30 days: total emails received, opens, clicks, and any conversion events
+(placed_order or custom conversion metric if configured).
+
+Join on contact email. For each deal show:
+- Deal stage and amount
+- Contact email engagement summary (opens, clicks, conversions)
+- Days since last email open (if any)
+
+Then give me three segments:
+1. Hot - deal in late stage AND contact opened email in last 7 days
+2. At Risk - deal has been in current stage 14+ days AND no email open in 14+ days
+3. Engaged but stalled - contact has 3+ opens in last 14 days but deal hasn't advanced
+
+Sort At Risk by deal amount descending.
+```
+
+---
+
+## Sample Output
+
+```
+HubSpot × Klaviyo Pipeline Correlation - Apr 25 - May 25, 2025
+
+HOT (8 deals)
+Deal: Acme Corp Expansion - Stage: Proposal Sent - $42,000
+  Contact: jane@acme.com - Opens: 6 | Clicks: 3 | Last open: 2 days ago
+
+Deal: Beta Industries Q2 - Stage: Contract Review - $18,500
+  Contact: ops@betaind.com - Opens: 4 | Clicks: 2 | Last open: 1 day ago
+
+[... 6 more]
+
+AT RISK (12 deals - $287,000 at risk)
+Deal: Gamma Corp Platform - Stage: Demo Scheduled - $95,000 - 22 days in stage
+  Contact: it@gammacorp.com - Opens: 0 | Last open: 31 days ago
+
+Deal: Delta Retail Suite - Stage: Qualified - $61,000 - 18 days in stage
+  Contact: buyer@deltaretail.com - Opens: 1 | Last open: 19 days ago
+
+[... 10 more]
+
+ENGAGED BUT STALLED (5 deals)
+Deal: Epsilon Media - Stage: Qualified - $28,000 - 11 days in stage
+  Contact: cmo@epsilonmedia.com - Opens: 9 | Clicks: 4 | Last open: 1 day ago
+  → High engagement, deal not advancing. Consider direct outreach.
+
+[... 4 more]
+```
+
+---
+
+## Notes
+
+- Matching is done by email address. Contacts must have the same email in both
+  HubSpot and Klaviyo. Mismatches (e.g. work vs personal email) will cause
+  contacts to appear with zero Klaviyo engagement even if they're active.
+- Klaviyo "conversion" events depend on how your account defines conversions.
+  By default CorpusIQ uses placed_order. If you use a custom conversion metric,
+  specify it explicitly in the query.
+- HubSpot deals with multiple associated contacts will show engagement for all
+  associated emails. Specify "primary contact only" in the query if you want
+  single-contact matching.
+- "Days in stage" is calculated from the stage_timestamp on the deal record.
+  Deals migrated from other CRMs may have inaccurate stage timestamps.
+
+---
+
+## Variations
+
+- **By deal owner:** Add "group At Risk deals by HubSpot deal owner" to route
+  follow-ups to the right rep
+- **Flow breakdown:** Add "which Klaviyo flow or campaign generated each open"
+  to see which sequences are working
+- **Custom stages:** Replace stage names with your pipeline's actual stage names
+  (e.g. "Discovery", "POC", "Legal Review")
+- **Tighter window:** Change email engagement to 7-day window for higher-velocity sales cycles
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Recipe: Auto-submit changed URLs to IndexNow
+URL: https://www.corpusiq.io/docs/recipes/indexnow-auto-submit
+
+# Recipe: Auto-submit changed URLs to IndexNow
+
+**Connectors:** indexnow, shopify, ga4, search-console, semrush
+**Category:** alerting
+**Complexity:** multi-source
+
+---
+
+## Use Case
+
+Every time a product page, blog post, or landing page changes on your site, search engines
+need to discover the update. By default they find it during their next crawl - which can take
+days. This recipe uses IndexNow to push the updated URL the moment it changes, cutting
+discovery lag from days to minutes.
+
+Works across any combination of Shopify (product + collection pages), your blog/docs, or
+any URL you name manually. Pairs naturally with Search Console and Semrush to close the loop
+on ranking improvement.
+
+Ideal for: ecommerce operators updating product pages frequently, SaaS teams shipping
+changelog entries, content teams publishing blog posts on a schedule.
+
+---
+
+## Prerequisites
+
+- CorpusIQ connectors connected: **IndexNow** (required), plus any of:
+  **Shopify** (to surface updated product URLs), **GA4** (to find zero-impression pages),
+  **Search Console** (to measure post-submission ranking lift)
+- IndexNow key file hosted at your domain root (see [IndexNow connector](../connectors/indexnow.md))
+- Frequency: on-demand after any content publish/update event, or daily batch
+
+---
+
+## Queries
+
+### 1 - Submit a single updated URL
+
+```
+Submit https://www.yoursite.com/blog/post-slug to IndexNow.
+```
+
+### 2 - Submit all Shopify products updated today
+
+```
+List all Shopify products updated in the last 24 hours and submit their URLs to IndexNow.
+```
+
+Expected flow: CorpusIQ queries Shopify for recently modified products, extracts their
+canonical URLs, and POSTs them in a single IndexNow batch.
+
+### 3 - Surface unindexed pages and push them
+
+```
+Which pages on our site have zero impressions in Search Console over the last 90 days?
+Submit the top 20 to IndexNow.
+```
+
+Expected flow: Search Console query → filter for zero-impression pages → batch submit to
+IndexNow. Useful for pages that have never been crawled.
+
+### 4 - Full SEO closed-loop
+
+```
+Step 1: Submit our 5 most recent blog posts to IndexNow.
+Step 2: In 48 hours, check Search Console for impression changes on those URLs.
+Step 3: If any still have zero impressions, resubmit them.
+```
+
+### 5 - Discover low-traffic pages, submit, and track
+
+```
+Find all GA4 pages with fewer than 10 sessions in the last 30 days.
+Submit them to IndexNow.
+Then pull their current Search Console average position.
+```
+
+---
+
+## Sample Output
+
+```
+IndexNow submission complete.
+
+Host: www.example.com
+URLs submitted: 12
+Endpoint: https://api.indexnow.org/indexnow
+Response: HTTP 200 OK
+
+URLs submitted:
+  https://www.example.com/products/widget-pro
+  https://www.example.com/products/widget-lite
+  https://www.example.com/blog/q2-update
+  ... (9 more)
+
+Next step: check Search Console impressions for these URLs in 48 hours.
+```
+
+---
+
+## Notes
+
+- IndexNow `HTTP 200` means the engine received your list, not that re-indexing is complete.
+  Check Search Console 24-72 hours later for confirmation.
+- The same key file is reused across all submissions - no per-request key rotation needed.
+- If you see `HTTP 403`, the key file is either unreachable or its contents do not match the
+  submitted key. Verify with: `curl -s https://your-domain.com/your-key.txt`
+- Maximum 10,000 URLs per POST. For larger batches, CorpusIQ will split into multiple
+  requests automatically.
+- All submitted URLs must share the same `host` value. Cross-domain batch submission is
+  not supported by the protocol.
+
+---
+
+## Variations
+
+- **Scheduled daily batch:** Run this at 11 PM to submit everything published that day.
+- **On-publish webhook:** Trigger via Shopify webhook → CorpusIQ API call → IndexNow submit.
+- **Deleted page handling:** Submit deleted URLs too - IndexNow notifies engines to deindex.
+- **Semrush pair:** After submission, pull Semrush ranking snapshots weekly to measure
+  position improvement tied to the IndexNow push.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+
+## Current Submission Queue
+
+The full list of URLs to submit is maintained in [`indexnow-submission-urls.txt`](./indexnow-submission-urls.txt) - updated from the latest Ahrefs site audit (Jul 15, 2026). Contains 1 docs pages ready for IndexNow submission.
+
+---
+# Recipe: True ROAS Across Meta Ads and Shopify
+URL: https://www.corpusiq.io/docs/recipes/meta-ads-shopify-roas
+
+# Recipe: True ROAS Across Meta Ads and Shopify
+
+**Time to value:** 5 minutes setup.
+**Connectors needed:** Meta Ads, Shopify.
+**Skill level:** Operator. No code.
+
+## The problem
+
+Meta Ads tells you one ROAS number. Shopify tells you another. Neither accounts for returns, discounts, or shipping costs. Your actual ROAS is somewhere between them and you won't know until you export both datasets and merge them in a spreadsheet.
+
+Most operators never do this. They report the Meta Ads ROAS because it's the bigger number.
+
+## What you'll ask your AI
+
+After connecting Meta Ads and Shopify:
+
+- "For each Meta Ads campaign this week, show me the ad spend, the attributed Shopify revenue, and the actual revenue after returns. Calculate real ROAS."
+- "Which campaigns have Meta-reported ROAS above 2.0 but actual ROAS below 1.5 after Shopify returns?"
+- "Compare yesterday's ad spend per campaign against today's Shopify orders from those campaigns."
+
+Your AI queries Meta Ads for spend and attributed conversions, Shopify for actual orders and returns, then calculates the number that matters: what you actually made after returns.
+
+## Setup
+
+1. Connect Meta Ads and Shopify through CorpusIQ
+2. Read-only OAuth for both. Your AI can query data, never adjust budgets or modify orders.
+3. Ask your first question.
+
+## Example
+
+Ask:
+
+> "Show me my Meta Ads campaigns from this week. For each one: total spend, purchases reported by Meta, actual Shopify revenue from those purchases, returns, and real ROAS."
+
+Your AI queries Meta Ads campaign insights, cross-references purchase event values with Shopify order data by timestamp, subtracts returns, and presents a table with the real numbers. Every column is source-cited.
+
+## Why this matters
+
+The difference between Meta-reported ROAS and actual ROAS is often 20 to 40 percent. Returns, canceled orders, and attribution gaps eat into what looks like profit.
+
+If you are spending $10,000 a month on Meta Ads, a 30 percent ROAS gap means $3,000 a month you think you are making but aren't. One question catches that.
+
+---
+
+**Contributed by:** CorpusIQ Growth Agent
+**Related recipe:** [Weekly Ad ROI Report](./weekly-ad-roi-report.md)
+**Connectors used:** `meta_ads`, `shopify`
+
+---
+# Recipe: Monthly Close in Minutes Instead of Days
+URL: https://www.corpusiq.io/docs/recipes/monthly-close
+
+# Recipe: Monthly Close in Minutes Instead of Days
+
+**Time to value:** 5 minutes setup.
+**Connectors needed:** QuickBooks, Stripe. Optional: Shopify.
+**Skill level:** Operator. No code.
+
+## The problem
+
+Monthly close means logging into QuickBooks and running a dozen reports: P&L, balance sheet, AR aging, AP aging, open invoices, unreconciled transactions. Each report takes 3 to 5 minutes to find, set date ranges, export, and review.
+
+Then you do the same thing in Stripe. And Shopify. Then you compare them. Then you realize your QuickBooks P&L total and your Stripe settlement total differ by $847 and you spend 40 minutes finding it.
+
+Your accountant does this every month and bills you for the time.
+
+## What you'll ask your AI
+
+After connecting QuickBooks and Stripe:
+
+- "Run my monthly close for June. Show me P&L summary, outstanding invoices, unreconciled Stripe charges, and any discrepancies between Stripe settlements and QuickBooks deposits."
+- "Which QuickBooks invoices from June are still unpaid? Sort by amount, show me the biggest ones first."
+- "Compare this month's P&L to last month. What changed by more than 20 percent?"
+
+## Setup
+
+1. Connect QuickBooks and Stripe through CorpusIQ
+2. Read-only OAuth for both. Your AI reads financial data, never creates, edits, or deletes anything.
+3. Ask your first close question.
+
+## Example: Full monthly close in one question
+
+Ask:
+
+> "Close June 2026 for me. Show P&L: total revenue, COGS, gross profit, operating expenses, net income. Show AR aging: invoices over 30, 60, 90 days. List Stripe charges from June that don't match any QuickBooks deposit. Flag anything unusual."
+
+Your AI queries QuickBooks for financial statements and AR, Stripe for charges and payouts, cross-references by amount and date, and delivers a complete close package in seconds. Every number has a source citation.
+
+## Why this matters
+
+A typical monthly close for a small business takes 8 to 16 hours. Most of that is pulling reports from different tools and reconciling them. Your AI can do the data gathering and reconciliation in seconds.
+
+You still review the numbers. You still make the calls. But you stop being a report runner and start being an operator.
+
+One question. All your tools. Close done.
+
+---
+
+**Contributed by:** CorpusIQ Growth Agent
+**Connectors used:** `quickbooks`, `stripe`, `shopify` (optional)
+
+---
+# Recipe: Replace Your Morning Dashboard Check With One Question
+URL: https://www.corpusiq.io/docs/recipes/morning-briefing
+
+# Recipe: Replace Your Morning Dashboard Check With One Question
+
+**Time to value:** 5 minutes setup.
+**Connectors needed:** Any 3 of your daily-check tools. GA4, Stripe, Shopify, Klaviyo, Meta Ads, QuickBooks.
+**Skill level:** Operator. No code.
+
+## The problem
+
+Every morning you check the same five dashboards. GA4 for traffic. Stripe for revenue. Klaviyo for email. Meta Ads for spend. Shopify for orders.
+
+Each one takes 2 minutes to load, find the right report, set the date range, and read the numbers. That is 10 minutes every morning. 50 minutes a week. Over 40 hours a year just looking at dashboards.
+
+And half the time you see a number that makes you log into a second tool to verify it. Now you are at 20 minutes.
+
+## What you will ask your AI
+
+After connecting your tools:
+
+"Good morning. Show me yesterday's traffic from GA4, revenue from Stripe, email sends from Klaviyo, ad spend from Meta Ads, and orders from Shopify. Flag anything that changed more than 20 percent from the day before."
+
+Your AI queries all five tools, pulls the numbers, compares against the previous day, and delivers a morning briefing with anomalies flagged. Source cited for every number.
+
+## Setup
+
+1. Connect your daily-check tools in CorpusIQ
+2. Use the connectors' read-only external-source retrieval. Your AI can read the briefing data without writing back to those vendor systems.
+3. Ask your morning question.
+
+## Example briefing
+
+Ask your AI:
+
+"Morning briefing for July 13. Show me GA4 sessions, Stripe net revenue, Klaviyo campaign sends, Meta Ads spend, and Shopify order count. Compare each against July 12. Flag anything outside normal range."
+
+Your AI returns something like:
+
+- GA4 sessions: 2,847 (up 12% from yesterday)
+- Stripe net revenue: $14,230 (up 8%)
+- Klaviyo campaign sends: 18,400 (normal)
+- Meta Ads spend: $342 (down 15% - flag)
+- Shopify orders: 47 (up 4%)
+
+The Meta Ads drop gets flagged. You investigate. Turns out a campaign exhausted its budget overnight. You catch it at 8 AM instead of discovering it at the weekly review. You fix it in 30 seconds.
+
+## Why this matters
+
+You did not learn anything from those dashboards you could not have learned from one question. But you spent 40 hours a year pulling the numbers manually.
+
+One question. All your tools. Morning briefing done in 15 seconds.
+
+---
+
+**Contributed by:** CorpusIQ Growth Agent
+**Connectors used:** `ga4`, `stripe`, `klaviyo`, `meta_ads`, `shopify`, `quickbooks`
+
+---
+# Recipe: SEO Performance Report (GA4 + Search Console)
+URL: https://www.corpusiq.io/docs/recipes/seo-performance-ga4-search-console
+
+# Recipe: SEO Performance Report (GA4 + Search Console)
+
+**Connectors:** Google Workspace (Search Console + GA4)
+**Category:** reporting
+**Complexity:** simple
+
+---
+
+## Use Case
+
+You run one or more websites and report on organic search. Once a week (or month), you want the same three answers without opening two Google tools and a spreadsheet: which pages gained or lost clicks, which queries are moving those pages, and whether the clicks that changed actually show up as sessions in GA4. This recipe turns that loop into one prompt run from your AI client of choice (ChatGPT, Claude, Claude Code, or any MCP client).
+
+---
+
+## Prerequisites
+
+- CorpusIQ connected with the **Google Workspace** connector (one connection covers Search Console AND GA4)
+- Search Console property accessible with your Google account (domain properties like `sc-domain:example.com` and URL-prefix properties both work)
+- GA4 property ID (find it in GA4 under Admin, Property settings; it looks like `properties/123456789`)
+- Frequency: weekly or monthly, on-demand
+
+---
+
+## Query
+
+```
+Compare Search Console performance for sc-domain:example.com, last 28 days
+vs the previous 28 days. Give me:
+
+1. The 10 pages with the biggest click increase and the 10 with the biggest click drop.
+2. For the top 5 movers, the queries driving the change.
+3. Then from GA4 (properties/123456789), sessions and engaged sessions for those
+   same landing pages in the same window, so I can see which movement reached the site.
+```
+
+---
+
+## Sample Output
+
+```
+Search Console - sc-domain:example.com - Sep 5 to Oct 2 vs Aug 8 to Sep 4
+
+Top gainers (clicks)
+  /guides/pricing-benchmarks   +412  (+61%)   queries: "saas pricing benchmark", "pricing page teardown"
+  /blog/churn-metrics          +198  (+44%)   queries: "churn rate benchmark"
+  ...
+
+Top drops (clicks)
+  /features/integrations       -287  (-38%)   queries: "hubspot integration" (position 6 -> 11)
+  /pricing                     -96   (-12%)   queries: "crm pricing" (CTR 4.1% -> 2.6%)
+  ...
+
+GA4 (properties/123456789) - same landing pages, same window
+  /guides/pricing-benchmarks   sessions +38%  engaged sessions +41%
+  /features/integrations       sessions -22%  (matches the drop)
+  ...
+```
+
+Every number is returned with its source (Search Console property or GA4 property) so you can verify before acting.
+
+---
+
+## Notes
+
+- Search Console data lags 2 to 3 days; end your window 3 days before today for stable comparisons.
+- Use full 28-day windows on both sides of the comparison; shorter windows swing hard on low-traffic sites.
+- Domain properties must be passed as `sc-domain:example.com`. URL-prefix properties use the full `https://...` URL.
+- GA4 and Search Console count differently (clicks vs sessions, different attribution). Expect them to disagree slightly; the recipe is about direction and magnitude, not exact parity.
+- Everything is read-only. No writes touch your Google account.
+
+---
+
+## Variations
+
+- **CTR opportunity hunt:** same connector, ask for queries with 500+ impressions, average position 4 to 12, and CTR under 2% - your fastest title/meta wins.
+- **Content decay check:** pages that lost 30%+ clicks quarter over quarter, sorted by previous clicks.
+- **New query discovery:** queries that appeared for the first time in the last 14 days with 50+ impressions.
+- **Multi-site rollup:** run the same prompt per property and ask for a combined table comparing all sites.
+
+## FAQ
+
+### Why do Search Console clicks and GA4 sessions disagree?
+
+They count different things. Search Console counts search-result clicks per query and page; GA4 counts sessions with its own attribution and filtering. Expect differences of 10 to 30 percent. Use Search Console for demand and queries, GA4 for on-site behavior, and never force the two into exact parity.
+
+### How fresh is the data?
+
+Search Console lags 2 to 3 days. GA4 is near real time but some reports settle for 24 to 48 hours. End your comparison windows at least 3 days back from today for stable numbers.
+
+### Does this work for multiple properties?
+
+Yes. Search Console works with domain properties (`sc-domain:example.com`) and URL-prefix properties, and each GA4 property is addressed by its `properties/123456789` ID. Run the recipe per property and ask for a combined rollup table.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Recipe: Shopify-QuickBooks Daily Reconciliation
+URL: https://www.corpusiq.io/docs/recipes/shopify-quickbooks-reconciliation
+
+
+# Recipe: Shopify-QuickBooks Daily Reconciliation
+
+**Connectors:** shopify, quickbooks
+**Category:** reconciliation
+**Complexity:** cross-domain
+
+---
+
+## Use Case
+
+Finance teams need to confirm that every Shopify sale processed yesterday has
+a corresponding invoice or payment entry in QuickBooks. Discrepancies -
+orders that appear in Shopify but not QuickBooks, or QuickBooks entries with
+no matching Shopify order - surface fulfillment issues, payment processing
+failures, and accounting gaps before they compound. Run this daily, first
+thing in the morning for the prior day.
+
+---
+
+## Prerequisites
+
+- CorpusIQ connectors connected: shopify, quickbooks
+- Required scopes:
+  - Shopify: read_orders, read_transactions
+  - QuickBooks: accounting (read)
+- Frequency: daily (run for prior calendar day)
+
+---
+
+## Query
+
+```
+Reconcile yesterday's Shopify orders against QuickBooks.
+
+From Shopify: pull all orders created yesterday with status = any (include
+fulfilled, unfulfilled, cancelled). For each order give me: order_id,
+order_number, created_at, financial_status, total_price, customer email.
+
+From QuickBooks: pull all invoices and payments created or updated yesterday.
+For each give me: doc_number, txn_date, total_amt, customer_name, status.
+
+Match Shopify orders to QuickBooks records by order number (Shopify order_number
+should appear in QuickBooks doc_number or memo field).
+
+Show me three sections:
+1. Matched - Shopify order + QuickBooks record, amounts agree
+2. Matched with discrepancy - amounts differ by more than $0.01
+3. Unmatched - present in one system but not the other (flag which system)
+```
+
+---
+
+## Sample Output
+
+```
+Daily Reconciliation - May 25, 2025
+
+MATCHED (47 orders - $12,840.15 total)
+All amounts agree. No action required.
+
+MATCHED WITH DISCREPANCY (2 orders)
+Order #4821 - Shopify: $149.00 | QuickBooks: $139.00 - Delta: $10.00
+Order #4835 - Shopify: $89.99  | QuickBooks: $89.90  - Delta: $0.09
+
+UNMATCHED (3 records)
+[Shopify only] Order #4802 - $210.00 - financial_status: paid - no QB record found
+[Shopify only] Order #4844 - $55.00  - financial_status: refunded - no QB record found
+[QuickBooks only] Invoice #INV-2891 - $320.00 - customer: Acme Corp - no Shopify match
+```
+
+---
+
+## Notes
+
+- Shopify order_number (e.g. #4821) must appear in QuickBooks doc_number or
+  the transaction memo field for matching to work. This requires your QuickBooks
+  integration (native or third-party) to populate that field consistently.
+- Refunded orders in Shopify often have separate credit memo entries in QuickBooks.
+  If your workflow creates credit memos rather than updated invoices, adjust the
+  query to include QuickBooks credit_memo object type.
+- Cancelled orders with no payment are expected to be Shopify-only. Filter them
+  out by adding "exclude Shopify orders where financial_status = pending" if needed.
+- Currency: if you operate in multiple currencies, add "group by currency" to
+  avoid comparing USD and GBP amounts directly.
+
+---
+
+## Variations
+
+- **Weekly rollup:** Change date range to last 7 days for end-of-week reconciliation
+- **By sales channel:** Add "break down by Shopify sales channel" to separate
+  online store, POS, and wholesale
+- **High-value threshold:** Add "flag any unmatched order over $500" for priority alerting
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Recipe: Search Your Entire Business From One Question
+URL: https://www.corpusiq.io/docs/recipes/universal-business-search
+
+# Recipe: Search Your Entire Business From One Question
+
+**Time to value:** 5 minutes setup.
+**Connectors needed:** Gmail or Outlook, Drive or OneDrive, Slack, Notion, any database.
+**Skill level:** Operator. No code.
+
+## The problem
+
+You need one piece of information. It might be in an email. A Slack thread. A Google Doc. A Notion page. A database record.
+
+You search Gmail. Nothing. You search Slack. Three partial matches. You open Drive and search. Eight documents, none of them the right one. You text a colleague who might remember. They do not. Twenty minutes gone.
+
+The answer exists somewhere in your company. It will take longer to find it than to use it.
+
+## What you will ask your AI
+
+After connecting your tools:
+
+"What was the Q2 budget we discussed with the Stripe integration partner? Search my email, Slack, and Drive."
+
+Your AI searches Gmail for the email thread, Slack for the channel discussion, Drive for any budget documents, and returns the answer with source citations. You click the citation to open the original email.
+
+## Setup
+
+1. Connect Gmail, Slack, and Google Drive through CorpusIQ
+2. Read-only OAuth. Your AI reads messages and files, never sends or modifies.
+3. Ask your question.
+
+## Example
+
+Ask:
+
+"Find me the contract discussion with the Shopify integration vendor from March. I need the pricing terms they proposed."
+
+Your AI searches your Gmail for threads matching "Shopify integration vendor March pricing," cross-references Slack for any related discussions, and checks Drive for contract documents. It returns the answer with direct links to the source emails and documents.
+
+You find the email in 10 seconds. Previously this would have been a 15-minute search across three platforms.
+
+## Why this matters
+
+Enterprise search has been "solved" for 20 years. SharePoint, Google Workspace search, Elastic. But none of them search across all your tools at once. Your email lives in one silo. Your Slack in another. Your documents in a third.
+
+One question. All your tools. Answer found.
+
+---
+
+**Contributed by:** CorpusIQ Growth Agent
+**Connectors used:** `gmail`, `outlook`, `google_drive`, `onedrive`, `slack`, `notion`, `database`
+
+---
+# Recipe: Weekly Ad ROI Report
+URL: https://www.corpusiq.io/docs/recipes/weekly-ad-roi-report
+
+# Recipe: Weekly Ad ROI Report
+
+**Connectors:** google-ads, meta-ads, ga4
+**Category:** reporting
+**Complexity:** multi-source
+
+---
+
+## Use Case
+
+Every Monday morning, marketing and growth operators need a single view of last
+week's advertising performance across paid channels. This recipe pulls spend and
+conversion data from Google Ads and Meta Ads, then joins it with GA4 session
+and revenue data to compute true blended ROI per channel. It answers:
+"Where did we actually make money last week, and where did we burn it?"
+
+---
+
+## Prerequisites
+
+- CorpusIQ connectors connected: google-ads, meta-ads, ga4
+- Required scopes:
+  - Google Ads: read access to campaigns, ad_groups, metrics
+  - Meta Ads: ads_read, business_management
+  - GA4: readonly
+- Frequency: weekly (run Monday for the prior Mon-Sun window)
+
+---
+
+## Query
+
+```
+Pull last week's ad performance across all channels. For each channel (Google Ads
+and Meta Ads), give me: total spend, impressions, clicks, conversions, and
+cost-per-conversion. Then pull GA4 revenue attributed to paid traffic sources
+for the same 7-day window. Calculate ROAS (revenue / spend) per channel.
+Show me a ranked summary, highest ROAS first, with a total blended row at the bottom.
+
+Date range: last 7 complete days (Mon through Sun).
+```
+
+---
+
+## Sample Output
+
+```
+Weekly Ad ROI Report - May 19-25, 2025
+
+Channel        Spend      Revenue    ROAS    Clicks   Conv.   CPC
+---------------------------------------------------------------------------
+Google Ads     $4,210     $18,945    4.50x   3,812    142     $1.10
+Meta Ads       $3,890     $11,280    2.90x   5,104    98      $0.76
+---------------------------------------------------------------------------
+BLENDED        $8,100     $30,225    3.73x   8,916    240     $0.91
+
+Notes:
+- GA4 revenue uses last-click attribution
+- Meta conversions from pixel events: Purchase
+- Google conversions from: Checkout Complete goal
+```
+
+---
+
+## Notes
+
+- GA4 revenue attribution uses last-click by default. If you use data-driven
+  attribution in GA4, note that numbers will differ from channel-reported conversions.
+- Meta Ads reports conversions on a 7-day click / 1-day view window by default.
+  Align your attribution window across connectors before comparing.
+- If GA4 shows no paid traffic, verify UTM parameters are applied to all ad URLs.
+- Time zones: ensure all three connectors are set to the same account timezone
+  in CorpusIQ settings, or specify timezone explicitly in the query.
+
+---
+
+## Variations
+
+- **By campaign:** Add "break down by campaign name" to get per-campaign ROAS
+- **By device:** Add "split by device type" for mobile vs desktop breakdown
+- **Month-to-date:** Change date range to "current month to date" for MTD pacing
+- **Budget pacing:** Add "compare spend to monthly budget" if budgets are set in connectors
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# 1. Create your CorpusIQ account
+URL: https://www.corpusiq.io/docs/quickstart/01-create-account
+
+
+# 1. Create your CorpusIQ account
+
+## What you'll do
+
+Sign up at corpusiq.io, verify your email, land on the dashboard.
+
+[**Start your free trial - create your account**](https://www.corpusiq.io/register?utm_source=docs&utm_medium=docs&utm_campaign=quickstart) *(30-day free trial, no credit card required)*
+
+## Steps
+
+1. Go to **https://www.corpusiq.io/register?utm_source=docs&utm_medium=docs&utm_campaign=quickstart** and create your account.
+2. Use a work email - that's the address your team and connectors will be
+   associated with.
+3. Verify the email from the message we send you.
+4. You'll land on the CorpusIQ dashboard. Bookmark it.
+
+**Screenshot:** CorpusIQ signup page (https://corpusiq.io/signup)  
+**Screenshot:** Dashboard landing view after first login
+
+## What you get
+
+- A CorpusIQ account that holds your authenticated connector tokens.
+- An MCP endpoint URL you'll wire into Claude or ChatGPT in the next step.
+- A connector dashboard showing which data sources are connected (none, yet).
+- Read-only access by default. CorpusIQ never writes to your business tools.
+
+## Next
+
+[2. Connect Claude →](02-connect-claude.md) or
+[3. Connect ChatGPT →](03-connect-chatgpt.md)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# 2. Connect CorpusIQ to Claude
+URL: https://www.corpusiq.io/docs/quickstart/02-connect-claude
+
+# 2. Connect CorpusIQ to Claude
+
+CorpusIQ runs as an **MCP server** - a standard way for AI assistants to talk
+to outside data. Claude Desktop has built-in MCP support, so this takes about
+two minutes.
+
+## Prerequisites
+
+- A CorpusIQ account ([step 1](01-create-account.md)).
+- **Claude Desktop** installed (free download from anthropic.com). The browser
+  version of Claude does not currently support MCP connectors.
+
+## Steps
+
+1. In CorpusIQ, open **Settings → Integrations → Claude Desktop**. Copy the
+   MCP configuration block we generate for you. It contains your personal API
+   token - don't share it.
+2. Open Claude Desktop. Click your name → **Settings → Developer →
+   Edit Config**. This opens `claude_desktop_config.json` in your editor.
+3. Paste the block from CorpusIQ into the `mcpServers` section. If the file
+   was empty, just paste the whole thing.
+4. Save the file and fully quit Claude Desktop (not just close the window -
+   quit it from the menu bar).
+5. Reopen Claude. You should see a small plug/tools icon near the message box
+   indicating MCP tools are available.
+
+<!-- screenshot: CorpusIQ Integrations panel showing Claude config block -->
+<!-- screenshot: Claude Desktop Developer settings -->
+<!-- screenshot: Claude conversation with the MCP tools indicator -->
+
+## Verify it's working
+
+In Claude, type:
+
+> What CorpusIQ connectors do I have configured?
+
+You should get back a status table listing every connector - most marked
+"Not connected" since you haven't authenticated any yet. That's expected.
+
+## Next
+
+[4. Authenticate your first connector →](04-first-connector.md)
+
+## Trouble?
+
+- Claude doesn't show the tools icon → see
+  [Claude can't see CorpusIQ](../troubleshooting/claude-cant-see-corpusiq.md).
+- "Invalid JSON" error → the config block must be valid JSON; re-copy from
+  CorpusIQ instead of hand-editing.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# 3. Connect CorpusIQ to ChatGPT
+URL: https://www.corpusiq.io/docs/quickstart/03-connect-chatgpt
+
+
+# 3. Connect CorpusIQ to ChatGPT
+
+CorpusIQ works with ChatGPT through two paths. Pick whichever fits.
+
+## Option A - CorpusIQ Custom GPT (easiest)
+
+If you have ChatGPT Plus, Pro, or Team:
+
+1. In CorpusIQ, open **Settings → Integrations → ChatGPT**. Click **Open
+   CorpusIQ GPT**. This takes you to our published Custom GPT in the GPT
+   Store.
+2. Click **Start chat**. ChatGPT will ask you to authenticate to CorpusIQ on
+   first use - a single click-through.
+3. After auth, you can ask the GPT business questions and it will use your
+   connected CorpusIQ sources.
+
+<!-- screenshot: CorpusIQ Custom GPT landing page -->
+<!-- screenshot: OAuth approval prompt -->
+
+## Option B - ChatGPT MCP connector (Enterprise / direct)
+
+If you're on ChatGPT Enterprise or want to wire CorpusIQ as a first-class MCP
+tool source:
+
+1. In CorpusIQ, **Settings → Integrations → ChatGPT MCP**. Copy the **MCP
+   server URL** and **personal token**.
+2. In ChatGPT, open **Settings → Connectors → Add MCP server**.
+3. Paste the URL and token. Save.
+4. In a new chat, click the tools icon and confirm "CorpusIQ" is listed.
+
+<!-- screenshot: ChatGPT Connectors settings -->
+
+## Verify it's working
+
+Ask:
+
+> List my CorpusIQ connectors and their status.
+
+You should see a status table. Most connectors will say "Not connected" until
+you authenticate them - that's the next step.
+
+## Next
+
+[4. Authenticate your first connector →](04-first-connector.md)
+
+## Trouble?
+
+See [ChatGPT can't see CorpusIQ](../troubleshooting/chatgpt-cant-see-corpusiq.md).
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# 4. Authenticate your first connector
+URL: https://www.corpusiq.io/docs/quickstart/04-first-connector
+
+
+# 4. Authenticate your first connector
+
+Pick a connector that holds data you actually care about. For most founders,
+that's **QuickBooks** (the money) or **Google Analytics 4** (the traffic). This
+guide uses QuickBooks as the worked example - substitute your tool, the flow
+is the same.
+
+## What's about to happen
+
+You'll click a "Connect" button in CorpusIQ. Your browser will jump to
+QuickBooks (or whichever tool), QuickBooks will ask "Allow CorpusIQ to read
+your data?", you'll click **Allow**, and you'll land back on the CorpusIQ
+dashboard with QuickBooks now marked **Connected**.
+
+CorpusIQ requests **read-only** scopes wherever the vendor offers them. We do
+not post, edit, or delete anything in your accounts.
+
+## Steps
+
+1. In CorpusIQ, open the **Connectors** page.
+2. Find **QuickBooks** in the list. Click **Connect**.
+3. A new browser tab opens to Intuit's login. Sign in with the QuickBooks
+   account that owns your books. If you have multiple companies, you'll pick
+   the right one.
+4. QuickBooks will show a permission screen describing what CorpusIQ wants
+   access to. Click **Connect** / **Authorize**.
+5. The tab closes (or returns to CorpusIQ). The QuickBooks row in your
+   connector list now says **Connected** with a timestamp.
+
+**Screenshot:** CorpusIQ Connectors page with QuickBooks card highlighted  
+**Screenshot:** Intuit OAuth approval/consent screen  
+**Screenshot:** Connector list showing QuickBooks with "Connected" status
+
+## Confirm in Claude or ChatGPT
+
+Open Claude or ChatGPT and ask:
+
+> Show me my QuickBooks company info.
+
+You should get back the company name, address, fiscal year, and industry -
+read live from your QuickBooks. If you do, you're wired up.
+
+## Connect a few more
+
+You'll get the most value from CorpusIQ when at least 3-4 connectors are
+authenticated. Recommended starter set by business type:
+
+| Business type | Recommended starter connectors |
+|---|---|
+| Ecommerce | Shopify, Klaviyo, Google Ads, Meta Ads, GA4, QuickBooks |
+| SaaS | QuickBooks, HubSpot, GA4, Google Workspace (Gmail + Drive), Stripe-in-QB |
+| Agency | QuickBooks, HubSpot, Google Workspace, Slack, Monday |
+| Marketplace seller | Shopify or eBay or Amazon Seller or GunBroker, QuickBooks, Google Workspace |
+
+Each connector has its own page under [connectors/](../connectors/README.md) with
+specific click-paths.
+
+## Next
+
+[5. Fire your first high-impact prompt →](05-first-prompt.md)
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# 5. Fire your first prompt
+URL: https://www.corpusiq.io/docs/quickstart/05-first-prompt
+
+# 5. Fire your first prompt
+
+You're connected. Now ask something useful.
+
+## The starter prompt
+
+Open Claude or ChatGPT (with CorpusIQ wired in) and paste:
+
+> How healthy is my business right now?
+
+That's it. No keywords, no syntax, no parameters. Plain English.
+
+## What happens behind the scenes
+
+1. Claude (or ChatGPT) receives the question and sees it has a CorpusIQ tool
+   available.
+2. CorpusIQ's **skills engine** matches the question to the
+   `executive-snapshot` skill - a pre-built runbook for "give me a one-page
+   business overview".
+3. The runbook fires queries against your connected sources: pulling cash
+   position from QuickBooks, revenue trend from Shopify, ad spend from Google
+   Ads and Meta, pipeline from HubSpot, traffic from GA4 - whatever you have
+   connected.
+4. The assistant synthesizes the results into a readable summary.
+
+You'll see a response shaped roughly like this:
+
+> **Cash position:** [a number with a delta vs last month]
+> **Revenue last 30 days:** [a number with WoW change]
+> **Top wins:** [2-3 bullets, e.g. best-selling SKU, biggest deal closed]
+> **Top risks:** [2-3 bullets, e.g. overdue invoices over $X, ROAS dropping
+> on Channel Y, pipeline stalled at stage Z]
+> **What I'd focus on this week:** [a short prioritized list]
+
+The actual numbers come from your accounts. We don't fake or estimate.
+
+## What if a section is blank?
+
+If CorpusIQ says something like "no ad data - Meta Ads not connected", that's
+just a missing connector. Connect it and re-run the prompt.
+
+## Now explore
+
+The [Prompts library](../prompts/index.md) has 60+ curated prompts grouped by category.
+A few to try next:
+
+- **Money:** [What's blocking our cash flow?](../prompts/revenue-and-finance.md)
+- **Marketing:** [What's my true CAC and ROAS by channel?](../prompts/marketing-roas.md)
+- **Multi-source:** [Draft a board update for last quarter](../prompts/multi-source.md)
+
+## Next step
+
+Ready to unlock the real power of CorpusIQ? Move to
+[6. Your first cross-source query](06-first-cross-source-query.md) - connect a second tool and ask questions that span both.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# 6. Your first multi-connector query
+URL: https://www.corpusiq.io/docs/quickstart/06-first-cross-source-query
+
+
+# 6. Your first multi-connector query
+
+You've authenticated one connector (QuickBooks, Shopify, GA4, etc.). Now you'll connect a second one and ask a question that needs both.
+
+This walk-through uses **GA4 + Shopify**, but the pattern is the same for any pair.
+
+## What you'll do
+
+1. Authenticate GA4 (if you use Shopify)
+2. Ask a question that CorpusIQ answers by reading both connectors
+3. Debug if the answer is empty or wrong
+
+This takes ~5 minutes if both connectors are already live, or 10 if you need to set up the second one.
+
+## Prerequisites
+
+- [Step 4](04-first-connector.md) is done (one connector authenticated)
+- For this example: Shopify **and** GA4 accounts
+- (If you don't have both, substitute your second tool; the pattern is identical)
+
+## Part 1: Authenticate the second connector
+
+Pick a connector that pairs well with your first.
+
+### Common pairings
+
+| First connector | Good second connector | What you can ask |
+|-----------------|----------------------|------------------|
+| Shopify | GA4 | "Which traffic source drives the most orders?" |
+| Google Ads | Shopify or GA4 | "What's my real CAC by campaign?" |
+| QuickBooks | Shopify | "Are my Shopify orders matching my invoice revenue?" |
+| Klaviyo | Shopify | "Which email campaigns drove the most revenue?" |
+| HubSpot | GA4 | "How many MQLs became customers?" |
+
+### Steps to connect the second
+
+1. In CorpusIQ, open **Connectors**.
+2. Find your second tool (e.g., **GA4**). Click **Connect**.
+3. Follow the OAuth flow (same as Step 4):
+   - Sign in with the right account
+   - Approve all permissions
+   - Return to CorpusIQ
+4. Confirm it shows **Connected** with a timestamp.
+
+You now have two connectors authenticated.
+
+## Part 2: Ask your first cross-source question
+
+Open Claude or ChatGPT and ask a question that needs both connectors.
+
+### Example: GA4 + Shopify
+
+> Show me orders from the last 7 days, grouped by traffic source. For each
+> source, tell me: traffic sessions, orders, revenue, and average order value.
+
+**What CorpusIQ does behind the scenes:**
+
+- Queries GA4 for traffic by source (sessions, users)
+- Queries Shopify for orders by timestamp
+- Matches orders to sessions by date and IP/user ID (where possible)
+- Presents results side by side
+
+**Expected output shape:**
+
+```
+Traffic Source | Sessions | Orders | Order Value | AOV
+Direct         | 450      | 45     | $4,500      | $100
+Organic Search | 320      | 32     | $3,200      | $100
+Google Ads     | 210      | 35     | $5,250      | $150
+...
+```
+
+(Numbers are examples; yours will be real from your data.)
+
+### Example: Google Ads + Shopify
+
+> Last month, break down my Google Ads spend by campaign and show me actual
+> orders placed, revenue, and ROAS.
+
+**Expected output:**
+
+```
+Campaign       | Spend  | Orders | Revenue | ROAS
+Brand Keywords | $3,000 | 75     | $9,000  | 3.0
+Product Promo  | $2,500 | 45     | $5,400  | 2.16
+Competitor     | $1,500 | 12     | $1,800  | 1.2
+...
+```
+
+### Example: Klaviyo + Shopify
+
+> Which email campaigns drove the most revenue in Q2? Show me: sends,
+> open rate, click rate, attributed orders, and attributed revenue.
+
+**Expected output:**
+
+```
+Campaign Name       | Sends | Open Rate | Click Rate | Orders | Revenue
+Summer Sale Flash   | 45k   | 28%       | 3.2%       | 180    | $18,000
+New Product Launch  | 32k   | 22%       | 2.1%       | 95     | $9,500
+...
+```
+
+## Part 3: Debug if something goes wrong
+
+### Scenario: Empty results
+
+You asked the question but got back something like:
+
+> "I couldn't find any matching data."
+
+**Troubleshooting:**
+
+1. **Check both connectors are connected** - Go to CorpusIQ Connectors. Both should show **Connected** in green.
+
+2. **Ask a simpler question per connector** - Try:
+   - "Show me my GA4 account name" (tests GA4)
+   - "Show me my Shopify company info" (tests Shopify)
+   
+   If one of these returns data, that connector works. If both fail, see [../troubleshooting/connector-shows-no-data.md](../troubleshooting/connector-shows-no-data.md).
+
+3. **Check date range** - "Show me orders from the last 7 days" works. "Show me orders from 2025" won't (it's May 2026 in this example). Adjust to a date range where you know data exists.
+
+4. **Ask CorpusIQ to show its work** - Follow up with:
+   > "Show me the raw numbers. Which source did you use? GA4, Shopify, or both?"
+   
+   CorpusIQ will explain which connectors it queried and what it got back.
+
+### Scenario: Numbers seem wrong
+
+You got results but they don't match what you see in Shopify or GA4.
+
+**Common causes:**
+
+1. **Time zone mismatch** - GA4 and Shopify may use different timezones. Ask: "Show me the results in [your timezone] (EST / PST / UTC)."
+
+2. **Different date ranges** - You looked at last quarter in Shopify but CorpusIQ queried a different date. Verify the dates in the answer match your question.
+
+3. **Filtering differences** - You filtered by "Paid orders only" in Shopify, but CorpusIQ included all orders. Specify the filter in your question.
+
+4. **Pending/draft orders** - Some tools show pending orders; others only final orders. Ask CorpusIQ: "Show me only completed/shipped orders."
+
+5. **Different attribution** - Shopify tracks orders by order date; GA4 tracks sessions by session date. An order placed on Day 2 came from a session on Day 1. Results may differ by a day. This is normal.
+
+**How to verify:**
+
+Open Shopify and GA4 in parallel tabs. Pick a single metric (e.g., "orders placed on May 20") and verify both tools show the same number. If they don't, you've found the source of the discrepancy.
+
+## Part 4: Tips for great cross-source questions
+
+1. **Be specific about what you want** - "Show me revenue by source" is vague. "Show me revenue from Google Ads campaigns in May" is clear.
+
+2. **Name the sources if multiple** - "Compare Shopify orders to Klaviyo-attributed revenue" tells CorpusIQ which connectors to pull from.
+
+3. **Specify date ranges** - "Last 30 days" is safer than "this quarter" (time zones matter).
+
+4. **Ask for breakdowns** - "Show me ... by [dimension]" is faster than "Show me each one."
+
+5. **Request raw data if the answer seems off** - "Show me the raw numbers and which sources you used" forces CorpusIQ to explain itself.
+
+## What to try next
+
+Now that you have 2+ connectors:
+
+- **[Browse the prompts library](../prompts/index.md)** - See 60+ copy-paste questions organized by business impact. Many use 2-3 connectors.
+- **[Read about skills](../how-it-works/skills-explained.md)** - Learn why complex questions work reliably.
+- **[Check rate limits](../how-it-works/rate-limits-and-quotas.md)** - If you're running production queries, know the bounds.
+- **[Explore advanced usage](#)** (coming soon) - Custom questions, canonical facts, skill invocation.
+
+## Common questions
+
+**Q: If I don't have both connectors, can I still use CorpusIQ?**  
+A: Yes. Every question only uses the connectors you have. If you have only GA4, CorpusIQ can only answer traffic questions. Add more connectors to unlock more questions.
+
+**Q: How long does a cross-source query take?**  
+A: Usually 2-5 seconds for both APIs to respond. If either vendor is slow, it may take up to 30 seconds. Very rarely, 60 seconds.
+
+**Q: Can I ask about more than 2 connectors at once?**  
+A: Yes. Some of the best questions involve 4+ sources (e.g., "What's my real CAC?" = Google Ads + GA4 + Shopify + QuickBooks).
+
+**Q: What if the connectors don't have overlapping data?**  
+A: CorpusIQ will do its best to match them (by date, by customer ID, etc.). Some data won't match. It will tell you.
+
+---
+
+## Next
+
+You've finished the quickstart. From here:
+
+- **Run one of the [prompts](../prompts/index.md)** that matches your business type.
+- **Read [how it works](../how-it-works/README.md)** to understand the substrate.
+- **Troubleshoot** with [troubleshooting guide](../troubleshooting/README.md).
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Quickstart
+URL: https://www.corpusiq.io/docs/quickstart
+
+# Quickstart
+
+Get up and running in 30 minutes. Five steps from signup to your first real question.
+
+## The path
+
+| Step | What | Time |
+|------|------|------|
+| [1. Create account](01-create-account.md) | Sign up at corpusiq.io | 2 min |
+| [2. Connect Claude](02-connect-claude.md) | Plug CorpusIQ into Claude Desktop | 3 min |
+| [3. Connect ChatGPT](03-connect-chatgpt.md) | Or plug into a ChatGPT custom GPT | 3 min |
+| [4. Authenticate first connector](04-first-connector.md) | Connect QuickBooks, Shopify, GA4, etc. | 2 min |
+| [5. Fire first prompt](05-first-prompt.md) | Ask a question, get real data back | 2 min |
+| [6. Your first cross-source query](06-first-cross-source-query.md) | Connect two tools, ask something that needs both | 5 min |
+
+**Total: ~30 minutes** (or 25 if you skip the ChatGPT step).
+
+## Start here
+
+New to CorpusIQ? Start at [step 1](01-create-account.md).
+
+Already signed up? Jump to [step 4](04-first-connector.md) (authenticate a connector).
+
+Already have a connector authenticated? Try [step 6](06-first-cross-source-query.md) (multi-connector queries).
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# CorpusIQ Prompt Library
+URL: https://www.corpusiq.io/docs/prompts
+
+
+# CorpusIQ Prompt Library
+
+Battle-tested prompts for operators using CorpusIQ with Claude and ChatGPT.
+
+## Available Prompts
+
+- **Executive Summary** - Multi-source business health overview across all connected tools
+- **Marketing & ROAS** - Campaign performance across Google Ads, Meta Ads, LinkedIn Ads
+- **Ecommerce Ops** - Shopify + Klaviyo + GA4 combined queries for store operators
+- **Revenue & Finance** - QuickBooks P&L, Stripe revenue, overdue invoices
+- **Customer & CRM** - HubSpot pipeline, lead scoring, deal velocity
+- **Email & SMS** - Klaviyo campaign performance, list health, segmentation
+
+## Getting Started
+
+1. [Create a CorpusIQ account](https://corpusiq.io) (free 30-day trial, no credit card)
+2. [Connect your data sources](/connectors) - one-click OAuth for 40+ platforms
+3. Ask questions in plain English using the prompts above as templates
+
+## Hermes Agent Prompts
+
+For Hermes Agent users, see the [Hermes Prompts Library](/hermes/prompts) with production-ready prompts for code generation, content creation, data analysis, and business operations.
+
+---
+
+*← [CorpusIQ Docs Home](/) | [Hermes Community Hub →](/hermes)*
+
+---
+# Marketing & ROAS Prompts
+URL: https://www.corpusiq.io/docs/prompts/marketing-roas
+
+
+# Marketing & ROAS Prompts
+
+Ask these in Claude or ChatGPT with CorpusIQ connected.
+
+## True ROAS
+
+> What's my true ROAS by channel this month? Pull ad spend from Google Ads, Meta Ads, and LinkedIn. Pull revenue from Shopify and Stripe. Show blended and per-channel.
+
+## Customer Acquisition Cost
+
+> Calculate my CAC for the last 90 days. Include ad spend, agency fees, and tool costs. Break down by channel.
+
+## Campaign Performance
+
+> Which campaigns performed best this week? Show spend, impressions, clicks, conversions, and ROAS for each active campaign across all ad platforms.
+
+## Attribution
+
+> How many sales came from each channel last month? Show first-touch and last-touch attribution using Google Analytics data.
+
+## Email Marketing ROI
+
+> Pull email campaign performance from Klaviyo. Show send volume, open rate, click rate, and revenue per campaign. Compare to last month.
+
+## Funnel Analysis
+
+> Walk me through our marketing funnel from impression to purchase. Where are we losing the most people? What's the biggest bottleneck?
+
+## Budget Allocation
+
+> If I have $50K to spend next month, how should I allocate it across channels based on historical ROAS?
+
+## Custom
+
+Combine any of these questions. CorpusIQ handles multi-source queries natively - just ask.
+
+---
+
+*← [Prompt Library](/prompts) | [CorpusIQ Docs Home →](/)*
+
+---
+# MCP Developer Queries
+URL: https://www.corpusiq.io/docs/prompts/mcp-developer-queries
+
+
+# MCP Developer Queries
+
+Ask these in Claude or ChatGPT with CorpusIQ connected. Each prompt targets a real MCP development task.
+
+## Build a New MCP Server
+
+> I need to build an MCP server for [platform]. Show me the OAuth flow documentation, API rate limits, and data schema. Generate a starter server in TypeScript that exposes [specific endpoints].
+
+## Debug Connector Auth
+
+> The [connector] OAuth is failing with a 401. Check my token scopes, verify the redirect URI, and compare against the vendor's current OAuth requirements.
+
+## Compare API Approaches
+
+> Compare the REST API vs GraphQL endpoint for [platform]. Which one gives me better query flexibility for business data? Show rate limits and pagination differences.
+
+## Schema Design
+
+> I'm building a connector for [platform]. Analyze its API documentation and recommend a normalized data schema. What fields should I expose as tools vs return in structured responses?
+
+## Performance Optimization
+
+> My MCP server for [platform] is timing out on queries with more than 30 days of data. Show me pagination strategies, cursor-based vs offset, and batch request patterns that work for this API.
+
+## Rate Limit Strategy
+
+> What's the optimal rate-limit handling for [platform]? Show me their current limits, recommended backoff strategy, and how to implement request queuing with priority levels.
+
+## Testing MCP Endpoints
+
+> Generate a test suite for my MCP server. I need: connection test, auth token refresh test, rate-limit handling test, and a full query-by-query validation against the vendor's sandbox.
+
+## Multi-Source Query Design
+
+> How do I design a multi-source query that pulls from Shopify orders, Stripe payments, and QuickBooks invoices - then reconciles them into a single response? Show the dependency graph and error handling for partial failures.
+
+## Security Audit
+
+> Audit my MCP server configuration for security issues. Check: token storage, scope minimization, input sanitization, error message leakage, and transport security.
+
+## Deploy to Production
+
+> I'm ready to deploy my MCP server. Show me the hosting options (Docker, Cloudflare Workers, AWS Lambda), environment variable management, and monitoring setup for production traffic.
+
+## Custom
+
+Combine any of these queries. CorpusIQ handles multi-source analysis natively - just describe what you need to build or debug.
+
+---
+
+*← [Prompt Library](/prompts) | [MCP Architecture →](/how-it-works/mcp-architecture)*
+
+---
+# Multi-Source Prompts
+URL: https://www.corpusiq.io/docs/prompts/multi-source
+
+
+# Multi-Source Prompts
+
+Ask these in Claude or ChatGPT with CorpusIQ connected. The real power is asking one question that spans Shopify, QuickBooks, Google Ads, Stripe, and HubSpot simultaneously.
+
+## Board Update
+
+> Draft a board update for last quarter. Pull revenue from Stripe and QuickBooks, growth metrics from Shopify, marketing performance from Google Ads, and pipeline from HubSpot. Keep it to one page.
+
+## Investor Update
+
+> Give me an investor update for this month. Show MRR, growth rate, burn rate, cash runway, top 3 wins, and top 3 risks. Pull data from all connected sources.
+
+## Weekly Business Review
+
+> Run a weekly business review. Show revenue vs target, top campaigns, sales pipeline movement, customer support tickets, and any anomalies across all connected tools.
+
+## Cross-Department Report
+
+> Give me a cross-department snapshot: marketing spend and ROAS, sales pipeline and closed deals, product usage metrics, support ticket volume, and finance runway. One page.
+
+## Growth Health Check
+
+> How healthy is our growth? Show new customers, churned customers, net revenue retention, CAC trends, and LTV trends. Pull from Stripe, Shopify, and HubSpot.
+
+## Monthly Operations Review
+
+> Run a monthly ops review: top 5 selling products, churn rate, support ticket trends, overdue invoices, and headcount costs. Compare to last month.
+
+## Anomaly Detection
+
+> Flag anything unusual across all connected tools. Revenue spikes or drops, unusual ad spend, sudden churn, support ticket surges - anything that looks off.
+
+## Custom
+
+Combine any of these questions. CorpusIQ handles multi-source queries natively - just ask.
+
+---
+
+*← [Prompt Library](/prompts) | [CorpusIQ Docs Home →](/)*
+
+---
+# Revenue & Finance Prompts
+URL: https://www.corpusiq.io/docs/prompts/revenue-and-finance
+
+
+# Revenue & Finance Prompts
+
+Ask these in Claude or ChatGPT with CorpusIQ connected.
+
+## Cash Flow Health
+
+> What's blocking our cash flow right now? Show overdue invoices, upcoming bills, and available cash across all accounts.
+
+## Profit & Loss Snapshot
+
+> Give me a P&L for last month. Break down revenue by channel, COGS, and operating expenses. Compare to the prior month.
+
+## Revenue Trends
+
+> Show revenue trend over the last 6 months. Any channels declining? Which product lines are growing fastest?
+
+## Overdue Invoices
+
+> List all invoices past due by more than 15 days. Who owes the most? Flag anyone over 60 days.
+
+## Stripe MRR
+
+> What's our current MRR from Stripe? Break it down by plan, show churn rate, and highlight any accounts at risk.
+
+## Expense Audit
+
+> Show me the top 10 expense categories from QuickBooks this quarter. Any outliers or unexpected charges?
+
+## Custom
+
+Combine any of these questions. CorpusIQ handles multi-source queries natively - just ask.
+
+---
+
+*← [Prompt Library](/prompts) | [CorpusIQ Docs Home →](/)*
+
+---
+# Examples
+URL: https://www.corpusiq.io/docs/examples
+
+# Examples
+
+Examples are runnable code samples, configs, and integrations for CorpusIQ.
+
+Each example is self-contained: it tells you what it does, what you need,
+and gives you working code or configuration you can run immediately.
+
+## Available Examples
+
+| Example | What it does |
+|---------|-------------|
+| [Cross-Source ROAS Analysis](cross-source-roas-analysis.md) | Calculate true ROAS by connecting Shopify revenue with Meta Ads and Google Ads spend |
+| [Claude Desktop Config](claude-desktop-config.md) | Add CorpusIQ MCP server to Claude Desktop |
+| [Support Triage with HubSpot + Stripe](support-triage-hubspot-stripe.md) | Find open HubSpot tickets from customers with past-due Stripe invoices and prioritize by revenue at risk |
+| [MCP Starter Kit](mcp-starter/README.md) | Minimal MCP server project scaffold for developers building on CorpusIQ |
+
+## Submitting an Example
+
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for submission instructions.
+
+Examples must be tested. Include prerequisites, full working code or config,
+and expected output. Do not submit placeholder or hypothetical examples.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Example: Add CorpusIQ MCP to Claude Desktop
+URL: https://www.corpusiq.io/docs/examples/claude-desktop-config
+
+# Example: Add CorpusIQ MCP to Claude Desktop
+
+**Type:** Configuration
+**Applies to:** Claude Desktop (macOS and Windows)
+**Prerequisite:** Active CorpusIQ account with at least one connector configured
+
+---
+
+## What This Does
+
+Adds the CorpusIQ MCP server to your Claude Desktop configuration so you can
+query your connected data sources directly from Claude. Once configured, Claude
+can access your CorpusIQ connectors (Shopify, GA4, HubSpot, etc.) in real time
+during conversations.
+
+---
+
+## Prerequisites
+
+1. Claude Desktop installed (download at https://claude.ai/download)
+2. CorpusIQ account at https://app.corpusiq.io
+3. Your CorpusIQ API key (Settings → API Keys → Create Key)
+4. At least one connector configured and authorized in CorpusIQ
+
+---
+
+## Step 1: Locate the Claude Desktop Config File
+
+**macOS:**
+```
+~/Library/Application Support/Claude/claude_desktop_config.json
+```
+
+**Windows:**
+```
+%APPDATA%\Claude\claude_desktop_config.json
+```
+
+If the file does not exist, create it. If it exists, you'll merge into it.
+
+---
+
+## Step 2: Add CorpusIQ to the Config
+
+Open `claude_desktop_config.json` in a text editor and add the CorpusIQ server
+entry under `mcpServers`. Replace `YOUR_API_KEY` with your actual CorpusIQ API key.
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@corpusiq/mcp-server"
+      ],
+      "env": {
+        "CORPUSIQ_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+If you already have other MCP servers in your config, add `corpusiq` as an
+additional entry alongside them:
+
+```json
+{
+  "mcpServers": {
+    "existing-server": {
+      "command": "...",
+      "args": ["..."]
+    },
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@corpusiq/mcp-server"
+      ],
+      "env": {
+        "CORPUSIQ_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+---
+
+## Step 3: Restart Claude Desktop
+
+Quit Claude Desktop completely and reopen it. On macOS, use Cmd+Q to ensure
+it fully quits rather than just closing the window.
+
+---
+
+## Step 4: Verify the Connection
+
+In a new Claude conversation, type:
+
+```
+What CorpusIQ connectors do I have connected?
+```
+
+Claude should respond with a list of your configured connectors. If it does,
+the MCP server is working.
+
+---
+
+## Expected Output
+
+```
+You have the following CorpusIQ connectors configured:
+- Shopify (connected, last sync: 2 minutes ago)
+- Google Analytics 4 (connected, last sync: 5 minutes ago)
+- HubSpot (connected, last sync: 1 minute ago)
+
+You can ask me to query any of these sources directly.
+```
+
+---
+
+## Troubleshooting
+
+**Claude doesn't show CorpusIQ tools:**
+- Confirm the JSON is valid (no trailing commas, properly nested)
+- Verify your API key is correct (no extra spaces)
+- Check that `npx` is available in your terminal: `npx --version`
+- On macOS, if npx isn't found, add your Node path to the config:
+  ```json
+  "env": {
+    "CORPUSIQ_API_KEY": "YOUR_API_KEY",
+    "PATH": "/usr/local/bin:/usr/bin:/bin"
+  }
+  ```
+
+**Authentication error from CorpusIQ:**
+- Regenerate your API key in CorpusIQ Settings → API Keys
+- Ensure the key has not been scoped to specific connectors only
+
+**Connector shows as disconnected:**
+- Re-authorize the connector in CorpusIQ app at https://app.corpusiq.io/connectors
+- OAuth tokens expire - reconnecting takes under 30 seconds
+
+---
+
+## Next Steps
+
+Once connected, try a cross-source query:
+
+```
+Pull last week's Shopify revenue and compare it to my GA4 paid traffic sessions.
+What was the revenue per paid session?
+```
+
+See the [recipes/](../recipes/README.md) directory for more query patterns.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Example: Cross-Source ROAS Analysis with Shopify + Meta Ads + Google Ads
+URL: https://www.corpusiq.io/docs/examples/cross-source-roas-analysis
+
+# Example: Cross-Source ROAS Analysis with Shopify + Meta Ads + Google Ads
+
+This example shows how to use CorpusIQ to calculate true Return on Ad Spend by connecting Shopify revenue data with Meta Ads and Google Ads spend data.
+
+Real ROAS in one question. No spreadsheets, no manual data pulls.
+
+## Prerequisites
+
+1. A CorpusIQ account (free trial at [corpusiq.io](https://corpusiq.io))
+2. These connectors connected:
+   - **Shopify** - for revenue, orders, and customer data
+   - **Meta Ads** (Facebook/Instagram) - for ad spend and campaign data
+   - **Google Ads** - for ad spend and campaign data
+3. CorpusIQ added to your AI tool (Claude Desktop, ChatGPT, or Cursor)
+
+## What We're Building
+
+Instead of exporting CSVs from three platforms and building a spreadsheet, you ask one question and get the answer:
+
+> "What was my ROAS last month, broken down by Meta Ads and Google Ads, using revenue data from Shopify?"
+
+## Step 1: Connect Your Data Sources
+
+Log into [corpusiq.io](https://corpusiq.io) and connect:
+- **Shopify:** Click "Connect Shopify" → authorize via OAuth → done in 30 seconds
+- **Meta Ads:** Click "Connect Meta Ads" → select your ad account → authorize
+- **Google Ads:** Click "Connect Google Ads" → select your Google Ads account → authorize
+
+All three connectors should show as "Connected" (green) in your dashboard.
+
+## Step 2: Ask the ROAS Question
+
+Open Claude Desktop (or your preferred AI tool with CorpusIQ connected) and ask:
+
+```
+What was my ROAS last month? I want it broken down by Meta Ads and Google Ads.
+Use actual revenue from Shopify and ad spend from each platform.
+```
+
+## Step 3: What Happens
+
+CorpusIQ runs three queries in parallel:
+
+1. **Shopify:** `SELECT SUM(total_price) FROM orders WHERE created_at >= '2026-06-01' AND created_at < '2026-07-01' AND financial_status = 'paid'`
+2. **Meta Ads:** `SELECT campaign_name, SUM(spend) FROM ad_insights WHERE date_start >= '2026-06-01' AND date_stop < '2026-07-01' GROUP BY campaign_name`
+3. **Google Ads:** `SELECT campaign_name, SUM(cost_micros)/1000000 FROM campaign WHERE segments.date >= '2026-06-01' AND segments.date < '2026-07-01'`
+
+Then it does the math:
+
+```
+Meta Ads ROAS = Shopify Revenue / Meta Spend = $45,200 / $12,800 = 3.53x
+Google Ads ROAS = Shopify Revenue / Google Spend = $45,200 / $8,400 = 5.38x
+Combined ROAS = $45,200 / $21,200 = 2.13x
+```
+
+If you have UTM tracking or campaign attribution set up, you can get even more granular.
+
+## Step 4: Go Deeper
+
+Follow-up questions you can ask:
+
+- "Which Meta Ads campaign had the highest ROAS?"
+- "Show me ROAS by week for the last quarter"
+- "What's the customer acquisition cost (CAC) for customers who came through Google Ads vs Meta Ads?"
+- "Which products generated the most revenue from paid traffic?"
+
+Each of these triggers the same pattern: CorpusIQ queries the relevant connectors, joins the data intelligently, and your AI tool formats the answer.
+
+## Why This Matters
+
+Traditional ROAS analysis requires:
+- Exporting Shopify orders to CSV
+- Exporting Meta Ads data to CSV
+- Exporting Google Ads data to CSV
+- Building a spreadsheet with VLOOKUPs
+- Manual updates every time you want to check
+
+With CorpusIQ, it's one question. Every time. The analysis requests current provider data; freshness follows each provider and CorpusIQ cache behavior.
+
+## Next Steps
+
+- Try the [QuickBooks + Shopify reconciliation example](../recipes/shopify-quickbooks-reconciliation.md)
+- Learn about [cross-source queries](../how-it-works/mcp-architecture.md)
+- Check out the [HubSpot + Klaviyo pipeline example](../recipes/hubspot-klaviyo-pipeline.md)
+
+---
+# CorpusIQ MCP Starter
+URL: https://www.corpusiq.io/docs/examples/mcp-starter
+
+# CorpusIQ MCP Starter
+
+Connect your AI agent to real business data in 60 seconds. No API keys. No dashboards. Just one MCP endpoint.
+
+## Quick Start
+
+```bash
+# 1. Clone this template
+git clone https://github.com/corpusiq/corpusiq-docs.git
+cd corpusiq-docs/examples/mcp-starter
+
+# 2. Add your CorpusIQ MCP endpoint to your agent
+# Claude Code:
+claude mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --header "Authorization: YOUR_API_KEY"
+
+# Cursor / Windsurf:
+# Add to .cursor/mcp.json or .windsurf/mcp.json:
+{
+  "mcpServers": {
+    "corpusiq": {
+      "url": "https://mcp2.corpusiq.io/mcp",
+      "headers": { "Authorization": "YOUR_API_KEY" }
+    }
+  }
+}
+
+# 3. Your agent now has 64+ business data tools
+# Try: "What was our revenue last month?"
+# Try: "Show me all Shopify orders over $500 this week"
+# Try: "Compare Stripe MRR vs QuickBooks expenses"
+```
+
+## No-Code Path (n8n, Make, Zapier)
+```bash
+# n8n users: install the Postiz node then add CorpusIQ as an MCP tool node
+# Point it at https://mcp2.corpusiq.io/mcp with your API key
+```
+
+## What You Get
+
+64+ tools across 40+ data sources. Your AI agent can query:
+- **Ecommerce**: Shopify, Amazon Seller, eBay, WooCommerce
+- **Marketing**: Google Ads, Meta Ads, Mailchimp, Klaviyo, SEMrush
+- **CRM**: HubSpot, GoHighLevel, ActiveCampaign, Monday
+- **Finance**: Stripe, QuickBooks, Odoo
+- **Data**: PostgreSQL, MongoDB, Google Analytics, Airtable
+
+## How It Works
+
+```
+Your AI Agent (Claude, ChatGPT, Cursor)
+     │
+     │ MCP Protocol (JSON-RPC)
+     ▼
+CorpusIQ MCP Server (mcp2.corpusiq.io)
+     │
+     │ Live queries, no ETL
+     ▼
+Your Business Apps (Shopify, Stripe, HubSpot, etc.)
+```
+
+No data warehouse. No ETL pipelines. Direct queries to live data.
+
+## Try It Free
+
+30-day trial. No credit card. Sign up at [corpusiq.io](https://corpusiq.io).
+
+## Community
+
+- [GitHub Discussions](https://github.com/corpusiq/corpusiq-docs/discussions)
+- [Discord](https://discord.gg/corpusiq)
+- [r/mcp on Reddit](https://reddit.com/r/mcp)
+
+## License
+
+MIT - use this template for anything.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Example: Support Triage with HubSpot + Stripe
+URL: https://www.corpusiq.io/docs/examples/support-triage-hubspot-stripe
+
+# Example: Support Triage with HubSpot + Stripe
+
+This example shows how CorpusIQ combines CRM and billing data so support teams
+can find the customers that matter most: open tickets from accounts with
+past-due invoices or a high lifetime value.
+
+No exports, no joining CSVs, no waiting on engineering. One question gets a
+ranked answer from your actual tools.
+
+## Prerequisites
+
+1. A CorpusIQ account (free trial at [corpusiq.io](https://corpusiq.io))
+2. These connectors connected:
+   - **HubSpot** - for tickets, contacts, and companies
+   - **Stripe** - for invoices, subscriptions, and payment status
+
+## The Problem
+
+Support queues are full of tickets, but not all tickets are equal. A bug report
+from a customer with three open invoices is a bigger deal than the same bug
+from a trial account. Figuring out which is which usually means opening two
+apps and comparing spreadsheets.
+
+With CorpusIQ, the comparison happens inside the answer.
+
+## Step 1: Find Tickets from Past-Due Accounts
+
+Ask in plain language:
+
+```
+Show me open HubSpot tickets from customers with past-due Stripe invoices.
+Sort by invoice amount, highest first.
+```
+
+CorpusIQ queries HubSpot for open tickets, resolves each contact to their
+company, then checks Stripe for invoice status. The answer comes back ranked:
+
+```
+Open tickets from past-due accounts (5):
+
+1. Acme Corp - "API rate limit errors" (open 3d) - invoice $1,240 past due
+2. Bluebird Retail - "Missing orders in dashboard" (open 1d) - invoice $860 past due
+3. Northwind Supply - "Webhook not firing" (open 6d) - invoice $450 past due
+4. Lakeside Foods - "Login issues" (open 2d) - invoice $210 past due
+5. Fern & Co - "Export broken" (open 4d) - invoice $95 past due
+```
+
+## Step 2: Prioritize by Revenue at Risk
+
+Refine the same question to focus on the accounts that matter:
+
+```
+Of my open HubSpot tickets, which customers have a Stripe subscription above
+$500 per month AND an open ticket older than 2 days?
+```
+
+This surfaces the accounts where churn would hurt most, so a manager can route
+the senior support rep to those tickets first.
+
+## Step 3: Check Billing History Before Replying
+
+Before replying to a sensitive ticket, pull the customer's full picture:
+
+```
+What is Acme Corp's payment history with us? Have any invoices failed recently?
+```
+
+CorpusIQ reads Stripe invoice and payment-failure data and summarizes it, so
+the reply can acknowledge the customer's situation instead of asking them to
+repeat it.
+
+## Why This Works
+
+Cross-source questions are the default in support, not the exception. The
+information exists in both systems already. CorpusIQ just removes the manual
+join:
+
+- HubSpot knows the ticket and the customer
+- Stripe knows the money and the risk
+- The answer combines both in one step
+
+## Next Steps
+
+- Try the same pattern with **Shopify** (order history) and **Zendesk** or
+  **Intercom** tickets to rank refund requests by order value
+- See the [recipes/](../recipes/README.md) directory for more query patterns
+- Read [CorpusIQ for Customer Support](/ai-for-customer-support) for the
+  full support workflow guide
+
+---
+# Community
+URL: https://www.corpusiq.io/docs/community
+
+# Community
+
+CorpusIQ development happens in the open. If you want a new connector, hit a
+bug, have a question, or just want to see what's coming - this is where that
+conversation lives.
+
+Everything runs on [GitHub Discussions](https://github.com/CorpusIQ/corpusiq-docs/discussions)
+in this repo. No separate signup, no support portal, no ticket queue. If you
+have a GitHub account, you can post.
+
+---
+
+## Where to put what
+
+We use a few categories, and they each do a specific job. Picking the right one
+means your post gets seen by the right person faster.
+
+### 💡 Ideas - "I wish CorpusIQ could…"
+
+This is the one to use for early **feature and connector ideas.** Want us to add
+a connector for a tool you use? Want a new metric, a new prompt, a different
+behavior? Start with an Idea when you want discussion, upvotes, or feedback
+before the team scopes the work.
+
+If you already have a specific connector enhancement with a clear use case,
+current workaround, and business impact, open a tracked
+[Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose)
+instead. That keeps concrete requests aligned with the issue workflow in
+[CONTRIBUTING.md](../CONTRIBUTING.md).
+
+Ideas support **upvotes.** If you see an existing Idea that matches what you
+want, upvote it instead of opening a duplicate - that's the single most useful
+thing you can do. Upvotes are one of the real inputs into what we build next
+(see the [Roadmap](https://github.com/CorpusIQ/corpusiq-docs/tree/main/roadmap) for how priorities get set).
+
+Before you post: skim the [Roadmap](https://github.com/CorpusIQ/corpusiq-docs/tree/main/roadmap) first. The thing you want might
+already be in flight.
+
+### 🙋 Q&A - "How do I…" / "Why is this…"
+
+Use this for **questions and help.** Setup trouble, a connector behaving
+strangely, a prompt that won't return what you expect, "is this supposed to work
+this way" - all Q&A.
+
+Q&A posts can be marked with an accepted answer, so the next person with the
+same question finds it fast. Before posting, the
+[Troubleshooting guide](../troubleshooting/) covers the common cases.
+
+We watch Q&A and answer inbound questions here. If your question is account- or
+billing-specific (something you'd rather not post publicly), email
+**support@corpusiq.io** instead.
+
+### 📣 Announcements - "Here's what changed"
+
+This is a **read-only, maintainers-only** category. New connectors, notable
+releases, and anything you should know about lands here.
+
+You can't post in Announcements, but you can - and should - **subscribe** to it
+if you want to know when things ship. It's the lowest-noise way to follow
+CorpusIQ. The [Changelog](../changelog/) is the written record of the same
+information.
+
+### General, Show and tell, Polls
+
+- **General** - anything that doesn't fit the above. Conversations, feedback,
+  "has anyone else…" threads.
+- **Show and tell** - built something useful on top of CorpusIQ? A killer
+  prompt, a workflow, a dashboard? Share it here. We love these.
+- **Polls** - occasionally we'll ask the community to weigh in on a direction
+  with a poll. Watch for them.
+
+---
+
+## A quick map
+
+| You want to…                          | Go to            |
+| ------------------------------------- | ---------------- |
+| Discuss an early connector or feature idea | **Ideas** 💡 |
+| Submit a specific connector enhancement | [Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose) |
+| Upvote something you also want        | **Ideas** 💡     |
+| Ask how to do something / report a bug| **Q&A** 🙋       |
+| Find out when something ships         | **Announcements** 📣 (subscribe) |
+| Share something you built             | **Show and tell** |
+| Something private / billing           | email support@corpusiq.io |
+
+---
+
+## How we handle what you post
+
+We read all of it. Ideas with traction get pulled into roadmap planning. Q&A
+gets answered. We can't promise every request gets built - the
+[Roadmap](https://github.com/CorpusIQ/corpusiq-docs/tree/main/roadmap) is honest about what's prioritized, planned, and parked -
+but nothing posted here disappears into a void.
+
+Announcements and the public-facing release voice are handled by our team
+directly. The build and support conversation - Ideas and Q&A - is where you'll
+get the fastest engagement.
+
+Powered by CorpusIQ.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
