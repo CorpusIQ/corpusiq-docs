@@ -45,7 +45,7 @@ Yes, provided the instance accepts connections from outside its own network. Man
 <details>
 <summary><strong>How does it handle a large schema?</strong></summary>
 
-It inspects the tables and columns visible to the connecting role. That is why scoping matters: a role limited to the six tables that answer real questions produces sharper answers than a role that sees every table in the instance, including logs and staging copies.
+It exposes the tables and columns visible to the connecting role. That is why scoping matters: a role limited to the six tables that answer real questions produces sharper answers than a role that sees every table in the instance, including logs and staging copies.
 </details>
 
 <details>
@@ -57,7 +57,7 @@ Yes. Joins, aggregates, and date grouping are the reason to connect a database a
 <details>
 <summary><strong>Will answers expose personal data?</strong></summary>
 
-Answers follow the question and cite the tables and columns used. CorpusIQ does not retain raw customer files or full connector response payloads. If a column must never be exposed, revoke it from the connecting role; that is the boundary the connector cannot cross.
+Answers follow the question and come from a read-only SELECT against the connected database. CorpusIQ does not retain raw customer files or full connector response payloads. If a column must never be exposed, revoke it from the connecting role; that is the boundary the connector cannot cross.
 </details>
 
 <details>

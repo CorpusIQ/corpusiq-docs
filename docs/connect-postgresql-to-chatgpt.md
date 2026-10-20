@@ -47,7 +47,7 @@ Yes, if the instance accepts connections from outside its own network. Providers
 <details>
 <summary><strong>How does the assistant know my schema?</strong></summary>
 
-It inspects the tables and columns available to the connecting role before writing a query. That is also why scoping the role matters: what the role cannot see, the assistant cannot answer from. A role with access to 12 schemas will produce worse answers than a role scoped to the 3 that matter.
+It exposes the tables and columns the connecting role can see. That is also why scoping the role matters: what the role cannot see, the assistant cannot answer from. A role with access to 12 schemas will produce worse answers than a role scoped to the 3 that matter.
 </details>
 
 <details>
@@ -59,7 +59,7 @@ Yes. Joins, aggregations, and date bucketing are the point of putting a database
 <details>
 <summary><strong>Will it show raw customer records?</strong></summary>
 
-It answers the question you ask, and answers are cited to the tables and columns used. CorpusIQ does not retain raw customer files or full connector response payloads. If your data policy forbids exposing certain columns at all, exclude them from the connecting role's grants; that is the control that matters.
+It answers the question you ask by running a read-only SELECT against the connected database. CorpusIQ does not retain raw customer files or full connector response payloads. If your data policy forbids exposing certain columns at all, exclude them from the connecting role's grants; that is the control that matters.
 </details>
 
 <details>
@@ -80,7 +80,7 @@ Queries run against your database, so cost follows your own query patterns. Filt
 2. You add the connection in the CorpusIQ dashboard.
 3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
 4. ChatGPT discovers the database tools and calls them when a question needs your data.
-5. Each answer cites the tables and columns behind it.
+5. Only a SELECT runs, and its result is returned live.
 
 ## Setup Guide
 

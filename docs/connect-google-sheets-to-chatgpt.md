@@ -10,7 +10,7 @@ robots: "index,follow"
 
 # How to Connect Google Sheets to ChatGPT with CorpusIQ MCP
 
-Most businesses run a second, unofficial database in Google Sheets: the budget, the hiring plan, the pipeline tracker, the inventory count that someone updates on Fridays. The data is real, and it is invisible to every other system. **Connecting Google Sheets to ChatGPT through CorpusIQ MCP** makes those sheets queryable with a plain-English question, read-only, with the sheet and range cited.
+Most businesses run a second, unofficial database in Google Sheets: the budget, the hiring plan, the pipeline tracker, the inventory count that someone updates on Fridays. The data is real, and it is invisible to every other system. **Connecting Google Sheets to ChatGPT through CorpusIQ MCP** makes those sheets queryable with a plain-English question, read-only, answered from the sheet as it stands.
 
 Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
 
@@ -51,7 +51,7 @@ Yes, and this is the strongest use for a Sheets connector. The budget lives in a
 <details>
 <summary><strong>Does my whole Drive get exposed?</strong></summary>
 
-No. The Sheets connector reads spreadsheet data. Google Drive is a separate connector with its own authorization, and each connector is approved on its own consent screen. Connect only what a question would actually use.
+No. The Sheets connector reads spreadsheet data. Drive appears as a separate connector, and Google's consent screen lists the read-only permissions being requested (Drive, Sheets, Gmail, Analytics and the rest of the Google surfaces you enable) for you to approve in one place. You can revoke any of them later from your Google Account security settings. Connect only what a question would actually use.
 </details>
 
 <details>
