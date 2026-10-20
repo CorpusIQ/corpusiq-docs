@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 424+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 425+ repos, tools, skills, and integrations
 last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -18,9 +18,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **424+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 192 auto-approved (191 scored >= 70; 1 manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **425+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 190 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **424+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **425+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -38,7 +38,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **424+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 3 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 5 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 42 | Reusable skills, plugins, extensions, tools |
+| 🔧 Skills & Plugins | 43 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 42 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
@@ -1236,6 +1236,14 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
+### [cavi-ai/mlx-agent](https://github.com/cavi-ai/mlx-agent) ⭐ 2
+
+>🍏 Discover, verify, and wire local MLX-optimized models on Apple Silicon: plugins for Claude Code, Codex, Antigravity, and OpenCode, skills for OpenClaw and Hermes Agent, plus a portable AgentSkill.
+
+**Language:** Python | **Topics:** agent, agent-skills, agentic-workflow, antigravity, apple-silicon, claude-code, codex, hermes-agent, llm, local-first, local-llm, macos, mlx, mlx-lm, openclaw, opencode, research, research-tools
+
+---
+
 ### [verkyyi/agentfeeds-hermes-plugin](https://github.com/verkyyi/agentfeeds-hermes-plugin) ⭐ 1
 
 >Hermes plugin and skill for Agent Feeds
@@ -1696,7 +1704,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*424+ repositories in the Hermes ecosystem. Last updated: 2026-10-19. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*425+ repositories in the Hermes ecosystem. Last updated: 2026-10-19. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

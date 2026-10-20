@@ -18472,5 +18472,107 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-19T11:03:43.698981+00:00"
+  },
+  {
+    "repo": "tuyen0883/Sibyl-Memory",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211858+00:00"
+  },
+  {
+    "repo": "DECRUX9812/hermes-tauri",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211862+00:00"
+  },
+  {
+    "repo": "muhammad-shameel-ks/hermes-mobile",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211865+00:00"
+  },
+  {
+    "repo": "humanitylabs-org/wizard-agent-service",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211867+00:00"
+  },
+  {
+    "repo": "thehaseebahmed/hermesgots",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211868+00:00"
+  },
+  {
+    "repo": "Raidiant-io/notifai",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211870+00:00"
+  },
+  {
+    "repo": "kMitchell3909/hermes-for-web",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211872+00:00"
+  },
+  {
+    "repo": "DebraAnastasiou40/cli",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211874+00:00"
+  },
+  {
+    "repo": "mArslan14/cli",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211876+00:00"
+  },
+  {
+    "repo": "SteamedClaw/steamedclaw-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211878+00:00"
+  },
+  {
+    "repo": "cavi-ai/mlx-agent",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-20T05:02:58.211880+00:00"
+  },
+  {
+    "repo": "ryanbiddy/uoink-agent-kit",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T05:02:58.211882+00:00"
+  },
+  {
+    "repo": "izillionways/academic-research-skills-hermes",
+    "action": "removed_dead_repo",
+    "reason": "GitHub API 404 (404 Not Found): repo deleted/renamed; never linked into directory",
+    "timestamp": "2026-10-20T05:03:31.052967+00:00"
+  },
+  {
+    "repo": "CogalNocloz/Hermes_evaluation",
+    "action": "removed_dead_repo",
+    "reason": "GitHub API 404 (404 Not Found): repo deleted/renamed; never linked into directory",
+    "timestamp": "2026-10-20T05:03:31.052974+00:00"
+  },
+  {
+    "repo": "Panoramar8046/hermes-agent-metaharness",
+    "action": "removed_dead_repo",
+    "reason": "GitHub API 404 (404 Not Found): repo deleted/renamed; never linked into directory",
+    "timestamp": "2026-10-20T05:03:31.052976+00:00"
   }
 ]
