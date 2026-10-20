@@ -18574,5 +18574,152 @@
     "action": "removed_dead_repo",
     "reason": "GitHub API 404 (404 Not Found): repo deleted/renamed; never linked into directory",
     "timestamp": "2026-10-20T05:03:31.052976+00:00"
+  },
+  {
+    "repo": "traveler3022/Hermes-Pocket",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239035+00:00"
+  },
+  {
+    "repo": "api-evangelist/agentspodium-com",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239057+00:00"
+  },
+  {
+    "repo": "Adolanium/hermes-tripo",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239058+00:00"
+  },
+  {
+    "repo": "Trickaay/i-have-neurodivergence",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239060+00:00"
+  },
+  {
+    "repo": "tandem-ai/mesh-extensions",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239061+00:00"
+  },
+  {
+    "repo": "Rafix4x/godfather",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239062+00:00"
+  },
+  {
+    "repo": "liuhu8207/hermes-memory-governed",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239063+00:00"
+  },
+  {
+    "repo": "lyly-RMB/ProjectLens",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239064+00:00"
+  },
+  {
+    "repo": "jbellsolutions/ghl-super-hub",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239065+00:00"
+  },
+  {
+    "repo": "Marco3458/vessel-browser",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239066+00:00"
+  },
+  {
+    "repo": "supachaigauck78780/cli",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239067+00:00"
+  },
+  {
+    "repo": "YenCatalano/cli",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239069+00:00"
+  },
+  {
+    "repo": "Guillaume4824/Sibyl-Memory",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239070+00:00"
+  },
+  {
+    "repo": "Michelle4206/cli",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239071+00:00"
+  },
+  {
+    "repo": "simin-yuan/hermes-provenance-gate",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239072+00:00"
+  },
+  {
+    "repo": "tonbistudio/hermes-mcp-plugin-creator",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239073+00:00"
+  },
+  {
+    "repo": "antono/glaz",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239074+00:00"
+  },
+  {
+    "repo": "vexclawx31/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239075+00:00"
+  },
+  {
+    "repo": "chris-han/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239076+00:00"
+  },
+  {
+    "repo": "nakad-pixel/sovereign-growth-agent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239077+00:00"
+  },
+  {
+    "repo": "xarvea/zivi",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T10:03:15.239078+00:00"
   }
 ]
