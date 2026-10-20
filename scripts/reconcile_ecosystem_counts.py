@@ -85,6 +85,71 @@ def census(index_text):
     return counts, len(distinct), sum(counts.values())
 
 
+SERVED_ROOT = "hermes"
+SERVED_SKIP_DIRS = {"data", "node_modules", "site", ".git", "__pycache__", "assets"}
+SKIP_FILES = {"PROGRESS.md", "CONTRIBUTING.md"}
+
+# Stamps that describe the ecosystem directory's size. Kept as whole-word
+# patterns so "1,700+ pages" or "40+ connectors" can never be touched.
+REPO_STAMPS = [
+    (re.compile(r"(?<![\d,])(\d{1,4})\+ repos\b"), "repos stamp"),
+    (re.compile(r"(?<![\d,])(\d{1,4})\+ Repos\b"), "Repos link label"),
+    (re.compile(r"(?<![\d,])(\d{1,4})\+ repositories\b"), "repositories stamp"),
+    (re.compile(r"(?<![\d,])(\d{1,4})\+ repo\b"), "single repo stamp"),
+]
+# "N categories" is ambiguous on its own (MCP pages and skill bundles each have
+# their own category counts), so it only counts when the line is talking about
+# the ecosystem directory.
+CATEGORY_STAMP = re.compile(r"(?<![\d,])(\d{1,2}) categories\b")
+ECOSYSTEM_LINE = re.compile(r"[0-9]+\+ repos|[Ee]cosystem [Dd]irectory|Hermes [Ee]cosystem", re.I)
+
+
+def walk_served_stamps(root, total, cat_count, check):
+    """Rewrite every ecosystem count stamp in the served tree from the census.
+
+    Enumerated files rot; a derived sweep cannot. Only the number changes, so
+    prose, links and layout stay exactly as the author left them.
+    """
+    changed = []
+    base = os.path.join(root, SERVED_ROOT)
+    for dirpath, dirnames, filenames in os.walk(base):
+        dirnames[:] = [d for d in dirnames if d not in SERVED_SKIP_DIRS]
+        for fn in filenames:
+            if not fn.endswith(".md") or fn in SKIP_FILES:
+                continue
+            p = os.path.join(dirpath, fn)
+            rel = os.path.relpath(p, root)
+            try:
+                text = open(p, encoding="utf-8").read()
+            except (OSError, UnicodeDecodeError):
+                continue
+            new = text
+            hits = 0
+            for pat, _label in REPO_STAMPS:
+                def sub(m, target=total):
+                    return m.group(0).replace(m.group(1), str(target), 1)
+
+                new, n = pat.subn(sub, new)
+                hits += n
+
+            # Line-scoped category stamps.
+            out_lines = []
+            for line in new.split("\n"):
+                if ECOSYSTEM_LINE.search(line):
+                    line2, n2 = CATEGORY_STAMP.subn(
+                        lambda m: m.group(0).replace(m.group(1), str(cat_count), 1), line)
+                    hits += n2
+                    line = line2
+                out_lines.append(line)
+            new = "\n".join(out_lines)
+
+            if new != text:
+                changed.append((rel, "count stamps", hits))
+                if not check:
+                    open(p, "w", encoding="utf-8").write(new)
+    return changed
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     check = "--check" in sys.argv
@@ -190,6 +255,15 @@ def main():
         changes.append(("hermes/ecosystem/index.md", "quick nav counts", nav_changes))
         if not check:
             open(p, "w", encoding="utf-8").write(new_text)
+
+    # --- repo-wide sweep: every served stamp, not just the hand-listed ones --
+    # Root cause of the 2026-10-20 drift: the fix() list above enumerated files,
+    # so a stamp on a page nobody listed (contributors related-links "424+ Repos",
+    # ecosystem-map "169+ repos / 14 categories", ai-agent-marketplace "370+ repos")
+    # could stay stale for months on a page users and crawlers actually read.
+    # Derive every stamp in the served tree from the same census instead.
+    sweep = walk_served_stamps(root, total, cat_count, check)
+    changes.extend(sweep)
 
     if not changes:
         print("OK: every count stamp already matches the directory")

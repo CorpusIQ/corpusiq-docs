@@ -94,7 +94,7 @@ Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem) 
 
 ## Related Pages
 
-- [Hermes Ecosystem Directory  --  424+ Repos](/hermes/ecosystem)
+- [Hermes Ecosystem Directory  --  425+ Repos](/hermes/ecosystem)
 - [Hermes Knowledge Hub  --  Production Reference](/hermes)
 - [Skills Catalog](/hermes/skills/catalog)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
