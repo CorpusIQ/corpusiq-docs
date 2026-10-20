@@ -147,7 +147,8 @@ full_lines.append("")
 # absent from the full-content feed even when it was listed in llms.txt. Sections
 # are therefore globbed at their real root path. `hermes/` stays out on purpose:
 # ~2.4k files, far too much to inline into a single feed.
-FULL_SECTION_DIRS = ("how-it-works", "connectors")
+FULL_SECTION_DIRS = ("how-it-works", "connectors", "troubleshooting", "recipes",
+                     "quickstart", "prompts", "examples", "community")
 full_paths = sorted(ROOT.glob("docs/**/*.md"))
 for _sec in FULL_SECTION_DIRS:
     full_paths += sorted(ROOT.glob(_sec + "/**/*.md"))
