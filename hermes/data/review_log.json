@@ -18721,5 +18721,40 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-20T10:03:15.239078+00:00"
+  },
+  {
+    "repo": "WizChen-Advantech/hermes-mcp-http-concurrency",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T11:03:00.672266+00:00"
+  },
+  {
+    "repo": "denyatkachenko88-pixel/bronix-georgiy-demo",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T11:03:00.672280+00:00"
+  },
+  {
+    "repo": "bumblei3/trischach",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T11:03:00.672283+00:00"
+  },
+  {
+    "repo": "theidentify/AgentMesh",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T11:03:00.672285+00:00"
+  },
+  {
+    "repo": "ether-btc/inventory-reminder",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-20T11:03:00.672288+00:00"
   }
 ]
