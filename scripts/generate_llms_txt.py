@@ -149,9 +149,13 @@ full_lines.append("")
 # ~2.4k files, far too much to inline into a single feed.
 FULL_SECTION_DIRS = ("how-it-works", "connectors", "troubleshooting", "recipes",
                      "quickstart", "prompts", "examples", "community")
+# Contributor scaffolding is not product content: it describes how to edit this
+# repo, so it is noise in a feed whose readers are answering customer questions.
+FULL_SKIP_NAMES = {"CONTRIBUTING.md", "TEMPLATE.md"}
 full_paths = sorted(ROOT.glob("docs/**/*.md"))
 for _sec in FULL_SECTION_DIRS:
     full_paths += sorted(ROOT.glob(_sec + "/**/*.md"))
+full_paths = [p for p in full_paths if p.name not in FULL_SKIP_NAMES]
 for path in full_paths:
     meta, body = read_frontmatter(path)
     rel = os.path.relpath(path, ROOT).replace(os.sep, '/')
