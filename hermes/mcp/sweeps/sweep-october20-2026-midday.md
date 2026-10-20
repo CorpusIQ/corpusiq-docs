@@ -45,5 +45,5 @@ Two entries were catalogued. The pattern this cycle was narrow and specific: bot
 
 - mcpservers.org `/servers/corpusiq-io` - live, page title and brand content returned through the reader proxy
 - mcp.so - not listed; the four slug forms (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`) all return 404 and the directory remains in its recorded quarantine, so no resubmission
-- Smithery - live at `benoit-p/Cprusiq`
+- Smithery - live at `Cprusiq`
 - Glama - listed under `io.corpusiq/multi-source-mcp`; the tool-description quality grade is already escalated to the engineering owners, so no submission action this cycle

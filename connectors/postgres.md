@@ -43,6 +43,11 @@ CorpusIQ runs SELECT queries only. No writes, no schema changes.
 - "Permission denied for table" - grant SELECT on the schema to your CorpusIQ user.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard Postgres conventions. Verify before publish. -->
+## See also
+
+- [Connect PostgreSQL to ChatGPT](../connect-postgresql-to-chatgpt.md) - the ChatGPT setup, the read-only role pattern and the questions worth asking.
+- [Connect MySQL to ChatGPT](../connect-mysql-to-chatgpt.md) - the same pattern for MySQL.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -150,6 +150,10 @@ nav:
   - Connect Google Ads to ChatGPT: connect-google-ads-to-chatgpt.md
   - Connect Meta Ads to ChatGPT: connect-meta-ads-to-chatgpt.md
   - Connect Amazon Seller to ChatGPT: connect-amazon-seller-to-chatgpt.md
+  - Connect Google Search Console to ChatGPT: connect-google-search-console-to-chatgpt.md
+  - Connect Google Sheets to ChatGPT: connect-google-sheets-to-chatgpt.md
+  - Connect PostgreSQL to ChatGPT: connect-postgresql-to-chatgpt.md
+  - Connect MySQL to ChatGPT: connect-mysql-to-chatgpt.md
 - Claude Integrations:
   - Connect Shopify to Claude: connect-shopify-to-claude.md
   - Connect QuickBooks to Claude: connect-quickbooks-to-claude.md
