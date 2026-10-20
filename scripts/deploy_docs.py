@@ -17,6 +17,36 @@ import time
 import requests
 import yaml
 
+
+def _ensure_mkdocs_interpreter():
+    """Re-exec under a python that can import mkdocs.
+
+    The agent runtime venv python3 (first on PATH in agent and cron shells) has
+    no mkdocs, so step 3 dies with "No module named mkdocs" whenever this script
+    is invoked directly instead of through deploy_docs_deploy.py. Re-exec once
+    with a working interpreter instead of failing; the env guard makes a loop
+    impossible.
+    """
+    if os.environ.get("DEPLOY_DOCS_REEXEC") == "1":
+        return
+    try:
+        import mkdocs  # noqa: F401
+        return
+    except Exception:
+        pass
+    for cand in ("/usr/bin/python3", "/usr/local/bin/python3"):
+        if not os.path.exists(cand):
+            continue
+        if os.path.realpath(cand) == os.path.realpath(sys.executable):
+            continue
+        if subprocess.run([cand, "-c", "import mkdocs"], capture_output=True).returncode != 0:
+            continue
+        env = dict(os.environ, DEPLOY_DOCS_REEXEC="1")
+        os.execve(cand, [cand, os.path.abspath(__file__)] + sys.argv[1:], env)
+
+
+_ensure_mkdocs_interpreter()
+
 REPO_DIR = os.path.expanduser("~/workspace/corpusiq-docs")
 GH_HOSTS = os.path.expanduser("~/.config/gh/hosts.yml")
 
