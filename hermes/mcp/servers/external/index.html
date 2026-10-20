@@ -10328,6 +10328,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-20-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 20, 2026 - Midday Supplement (2 New, 2 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-20-2026-midday-sweep-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -24958,6 +24969,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-20-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 20, 2026 - Midday Supplement (2 New, 2 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-20-2026-midday-sweep-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39306,8 +39328,19 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 20, 2026 (midday sweep) · <strong>Sources:</strong> mcp.so /feed page 1 (26 cards, 3 posted inside the window) + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy (90 cards) + vendor integration and help-centre documentation, the mcp.so tool enumerations and the ReportGem pricing table for every candidate + live probes against the catalogued servers (HTTP initialize and tools/list) · <strong>Catalog:</strong> 948 servers (+834 guides)</p>
+<p><strong>Last updated:</strong> October 20, 2026 (midday supplement) · <strong>Sources:</strong> the chatmcp/mcpso issue window #5713 to #5816 (94 submissions, the window the last two passes recorded as not run) + mcp.so /feed page 1 (30 cards, two posted after the midday capture) + mcpservers.org /all page 1 via the r.jina.ai reader proxy + the MuniSpot MCP, pricing and registry pages + live probes (HTTP initialize on both servers, tools/list and a tools/call on XposedOrNot) · <strong>Catalog:</strong> 950 servers (+836 guides)</p>
 </blockquote>
+<h2 id="october-20-2026-midday-supplement-2-new-2-guides">🆕 October 20, 2026 - Midday Supplement (2 New, 2 Guides)<a class="headerlink" href="#october-20-2026-midday-supplement-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
+<p>A supplement about an hour after the midday capture. Both directory front pages were effectively unchanged, so the delta came from the surface the last two passes each recorded as not run: the chatmcp/mcpso issue window, closed at #5712 on the October 18 night sweep, had 94 submissions behind it.</p>
+<ul>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/munispot-mcp">MuniSpot MCP - Municipal Financial Statements for Agents</a> · remote server at <code>https://www.munispot.com/api/mcp</code>, <code>X-API-Key</code> header, registry <code>com.munispot/municipal-data</code>. Standardized financial statements for 21,000+ US municipalities and 64,700+ fiscal-year reports across 50 states, with a MuniScore rating and factor breakdown plus per-municipality economic indicators. Six tools: <code>search_municipalities</code>, <code>get_municipality</code>, <code>get_financials</code>, <code>get_scores_history</code>, <code>compare_municipalities</code>, <code>get_economy</code>. Live probe: unauthenticated <code>POST initialize</code> returned HTTP 401 <code>{"code":-32000,"message":"Missing API key ..."}</code>. Access: free API tier at 100 calls a month against core endpoints only, 14-day dashboard trial with no card, analyst plans at $6,990 and $19,990 a year, and full statement access under the Professional and Enterprise API plans. <strong>Catalog gap closed:</strong> every government entry here was the money going out (contracts, awards, solicitations); none of it was the money a municipality has already committed, which is what a solvency question needs.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/xposedornot-mcp">XposedOrNot MCP - Breach Intelligence by Domain</a> · keyless remote server at <code>https://api.xposedornot.com/mcp</code>, read-only and free. Live probe: unauthenticated <code>POST initialize</code> returned HTTP 200 (<code>XON_MCP</code>, version 2.0.0), <code>tools/list</code> returned six tools, and a live <code>get_breach_metrics</code> call returned 794 breaches holding 11,717,004,638 records with the last breach added 2026-10-14. The six tools are <code>check_email_breaches</code>, <code>get_breach_analytics</code>, <code>list_breaches</code>, <code>domain_breach_summary</code>, <code>get_breach_metrics</code> and <code>get_recent_breaches</code>. <code>domain_breach_summary</code> is the one that changes a decision: breach count, affected accounts, pastes and trend for a whole domain, which turns a per-address errand into vendor due diligence. <strong>Catalog gap closed:</strong> the breach-check class existed only as one of nine tools inside OpenOSINT MCP, which needs an operator-supplied HaveIBeenPwned key and checks one address at a time.</p>
+</li>
+</ul>
+<p>Held this cycle, with the precedent that decided each: Workspace369 (agency and consultant client-work app; single-vendor connector class per Kasar CRM and TeamShift); KissCode and Saloon (agent social networks, the KissCode disposition); Lebanese Legislation (regional legal, one of the densest classes here per Corpus Law, LEGAION, aka-recht and Zitierfest); Howseen and Searcherries (AI visibility scoring, saturated); MetricDuck (SEC data and XBRL, the fAlpha and Alpha Vantage class with ReportGem catalogued the same day); Chorus, Duchamp and Adflipr (ad operations and e-commerce email); Finch Agent Marketplace, Needhave and ribcage (agent commerce); PostData (IoT sensor telemetry); TidyData (commodity lookup utilities); Terminal Tax, the two Instant Term Sheet servers, DIVID and Venly (single-purpose financial utilities); DeviL, Leadbase, Verified.net, Mobile Phone Waterfall, Agent to Brokerage Resolver and AppTrack Ninja (B2B matching, contact enrichment and app-market data); Waldo, Monito, optics-framework, Rush, cloneproof, accesslumens and Artifact Publisher (browser, QA and developer tooling); Synaplan, sqlite-graph-memory, bantamkit, Squirrel Brain and Screvi (agent memory and reading libraries); Creatify, Levea, Stivio, cuttingfloor, Shotkiln, Voidless, SlickFast and rostrum (media generation); Fettle, OpenUptime and Status Is Down (uptime); K-Stock, MedicineData, AI Guanchao, Trench Report, Grey Ridge Signals, FrontRowTickets, 9bot, NeverApply and ApplyKoala (regional, niche and consumer verticals); and the CloudCorpRecords contribution-workflow fleet with agentmail.</p>
 <h2 id="october-20-2026-midday-sweep-2-new-2-guides">🆕 October 20, 2026 - Midday Sweep (2 New, 2 Guides)<a class="headerlink" href="#october-20-2026-midday-sweep-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Midday delta about seven hours after the night capture. The mcp.so <code>/feed</code> page 1 returned 26 server cards and mcpservers.org <code>/all</code> pages 1 to 3 returned 90, but almost everything in both had already been dispositioned on October 19 and 20, so the cross-reference did the work: two candidates survived it, and both are document libraries a business already pays for in another form.</p>
 <ul>
@@ -46971,6 +47004,8 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/creavores-aeo-mcp">Creavores AEO Audit MCP - Page-Level AEO Scoring</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/fynk-mcp">fynk MCP - Contract Lifecycle Management for Agents</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/reportgem-mcp">ReportGem MCP - 16 Million Investment Bank Reports</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/munispot-mcp">MuniSpot MCP - Municipal Financial Statements for Agents</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/xposedornot-mcp">XposedOrNot MCP - Breach Intelligence by Domain</a></li>
 </ul>
 
 
