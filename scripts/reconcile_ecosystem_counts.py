@@ -150,6 +150,26 @@ def main():
         fix("hermes/README.md", r"\((\d+) auto-approved", approved, "README auto-approved")
         fix("hermes/ecosystem.md", r"(\d+) auto-approved", approved, "twin auto-approved")
 
+    # --- contributors page: maintainer row must track the live ledger -----
+    # contributors.json keeps a LIFETIME approval counter (it never decrements
+    # when a dead repo is pruned), so the hand-maintained table drifted to 192
+    # while the ledger held 190. Derive the cell from the ledger instead.
+    if approved is not None:
+        cp = os.path.join(root, "hermes/contributors/index.md")
+        if os.path.exists(cp):
+            ctext = open(cp, encoding="utf-8").read()
+            # | [@CorpusIQ](...) | 2628 | 192 | Maintainer |  -> submissions kept, approved from ledger
+            cnew, cn = re.subn(r"^(\| \[@CorpusIQ\]\([^)]*\) \| )(\d+)( \| )(\d+)( \| )",
+                               lambda m: f"{m.group(1)}{m.group(2)}{m.group(3)}{approved}{m.group(5)}",
+                               ctext, flags=re.M)
+            # repos-indexed metric row
+            cnew2, cn2 = re.subn(r"^(\| \*\*Repos indexed\*\* \| )\d+( \|)$",
+                                 lambda m: f"{m.group(1)}{total}{m.group(2)}", cnew, flags=re.M)
+            if cnew2 != ctext:
+                changes.append(("hermes/contributors/index.md", "maintainer approved + repos indexed", cn + cn2))
+                if not check:
+                    open(cp, "w", encoding="utf-8").write(cnew2)
+
     # --- quick navigation per-category counts ---------------------------
     p = os.path.join(root, "hermes/ecosystem/index.md")
     text = open(p, encoding="utf-8").read()
