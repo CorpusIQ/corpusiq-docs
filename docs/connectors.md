@@ -104,7 +104,6 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 | **PostgreSQL** | Execute read-only SQL queries, list tables, and describe schemas on PostgreSQL databases. |
 | **SQL Server (MSSQL)** | Read-only SQL queries, table listing, and schema inspection on Microsoft SQL Server databases. |
 | **Azure Cosmos DB** | Read-only SQL queries on Cosmos DB containers, container insights, and distinct counts. |
-| **MongoDB** | Query MongoDB collections with read-only access. |
 
 ## Collaboration & Productivity
 
@@ -172,7 +171,7 @@ Each connector has a dedicated setup guide with required scopes, example questio
 [IMAP Email](/connectors/imap) · [IndexNow](/connectors/indexnow)
 [Klaviyo](/connectors/klaviyo) · [LinkedIn Ads](/connectors/linkedin-ads)
 [Mailchimp](/connectors/mailchimp) · [Monday.com](/connectors/monday)
-[MongoDB](/connectors/mongodb) · [Microsoft SQL Server (MSSQL)](/connectors/mssql)
+[Microsoft SQL Server (MSSQL)](/connectors/mssql)
 [Notion](/connectors/notion) · [Odoo](/connectors/odoo)
 [OneDrive](/connectors/onedrive) · [Outlook](/connectors/outlook)
 [PostgreSQL](/connectors/postgres) · [PostHog](/connectors/posthog)
