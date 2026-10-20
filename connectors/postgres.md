@@ -46,7 +46,6 @@ CorpusIQ runs SELECT queries only. No writes, no schema changes.
 ## See also
 
 - [Connect PostgreSQL to ChatGPT](../connect-postgresql-to-chatgpt.md) - the ChatGPT setup, the read-only role pattern and the questions worth asking.
-- [Connect MySQL to ChatGPT](../connect-mysql-to-chatgpt.md) - the same pattern for MySQL.
 
 ---
 
