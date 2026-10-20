@@ -77954,5 +77954,126 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-20T10:02:44.983778+00:00",
     "status": "pending"
+  },
+  {
+    "name": "WizChen-Advantech/hermes-mcp-http-concurrency",
+    "url": "https://github.com/WizChen-Advantech/hermes-mcp-http-concurrency",
+    "description": "Hermes Agent plugin: let MCP tool calls to HTTP servers run in parallel instead of one at a time",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-20T10:59:30Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-10-20T11:00:27.608007+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "denyatkachenko88-pixel/bronix-georgiy-demo",
+    "url": "https://github.com/denyatkachenko88-pixel/bronix-georgiy-demo",
+    "description": "AI Agent for 1C ERP | Python, Node.js, Hermes, MCP, REST API | Business Process Automation",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-20T10:58:06Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-20T11:00:27.610201+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bumblei3/trischach",
+    "url": "https://github.com/bumblei3/trischach",
+    "description": "TriSchach vibe coded with Google Antigravity and Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-20T10:57:53Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-20T11:00:27.611766+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "theidentify/AgentMesh",
+    "url": "https://github.com/theidentify/AgentMesh",
+    "description": "Local-first memory sync and cross-platform setup scripts for AI agents, connecting Hermes, OMP, Codex, and Claude across devices via peer-to-peer file exchange.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-20T10:57:42Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "EverMind-AI/EverOS",
+      "itechmeat/open-second-brain",
+      "ahonore42/logios-brain",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "jazzyalex/agent-sessions"
+    ],
+    "discovered_at": "2026-10-20T11:00:27.613401+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ether-btc/inventory-reminder",
+    "url": "https://github.com/ether-btc/inventory-reminder",
+    "description": "Live, evidence-backed inventory of what's actually on your host \u2014 repos, skills, tools, apps, models, services. Stdlib-only scanners with drift gate and Hermes plugin adapter.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-20T10:59:26Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "H-Ali13381/hermes-linux-ricing"
+    ],
+    "discovered_at": "2026-10-20T11:00:43.104914+00:00",
+    "status": "pending"
   }
 ]
