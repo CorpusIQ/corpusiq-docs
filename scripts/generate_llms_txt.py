@@ -156,6 +156,26 @@ full_paths = sorted(ROOT.glob("docs/**/*.md"))
 for _sec in FULL_SECTION_DIRS:
     full_paths += sorted(ROOT.glob(_sec + "/**/*.md"))
 full_paths = [p for p in full_paths if p.name not in FULL_SKIP_NAMES]
+
+# Two files can resolve to one URL: `docs/index.md` and `docs/README.md` are both
+# /docs, and `docs/connectors.md` and `connectors/README.md` are both
+# /docs/connectors. Emitting both put the same URL in the feed twice and, because
+# `**` globs sort README first, served the thinner GitHub-facing README at /docs
+# instead of the real landing page. Collapse each URL to one file, preferring the
+# canonical page over the section README.
+def feed_priority(path):
+    if path.name == "index.md":
+        return 0
+    if path.name == "README.md":
+        return 2
+    return 1
+
+_by_url = {}
+for p in full_paths:
+    rel = os.path.relpath(p, ROOT).replace(os.sep, "/")
+    _by_url.setdefault(url_for(rel), []).append(p)
+full_paths = [sorted(v, key=lambda q: (feed_priority(q), str(q)))[0] for v in _by_url.values()]
+
 for path in full_paths:
     meta, body = read_frontmatter(path)
     rel = os.path.relpath(path, ROOT).replace(os.sep, '/')

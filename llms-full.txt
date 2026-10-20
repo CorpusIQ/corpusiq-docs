@@ -5,64 +5,93 @@
 
 
 ---
-# CorpusIQ Documentation
+# Consistent Business Answers You Can Trust
 URL: https://www.corpusiq.io/docs
 
+# Consistent Business Answers You Can Trust
 
-# CorpusIQ Documentation
-
-CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools.
-
-CorpusIQ provides read-only external-source retrieval between authorized SaaS applications and AI assistants. Explicit CorpusIQ control-plane tools that update or remove user-declared state are separately annotated. Direct MCP requests retrieve source records live without retaining raw customer files or full connector response payloads. Operational query text, tool-call metadata, and bounded outcome summaries are retained for up to 30 days. Every response includes citations back to the source tool, so you can verify accuracy in one click.
-
-## Key Capabilities
-
-- **40+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
-- **MCP-native**  --  Designed for AI assistants that speak the Model Context Protocol
-- **Operation-level permissions**  --  External-source retrieval tools are marked read-only; write-capable and CorpusIQ control-plane tools are separately named and annotated
-- **Scoped data handling**  --  Direct MCP uses live retrieval; optional indexed-search features use embeddings and minimal metadata
-- **SOC 2 aligned & CASA Tier 2 certified**  --  formal SOC 2 certification is not claimed; CASA was assessed by DEKRA
+**The same number in ChatGPT, Claude, and Perplexity. Every time.** CorpusIQ is live in the ChatGPT app store, and it connects QuickBooks, Shopify, Stripe, HubSpot, GA4, and 40+ business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. No raw customer files or full connector response payloads retained. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs. In Claude, add CorpusIQ through the custom connector flow using the public MCP endpoint.
 
 ## Quick Links
 
-| Section | Description |
-|---------|-------------|
-| [Quick Start](/quickstart) | Get up and running in under 5 minutes |
-| [API Overview](/api/overview) | Base URL, endpoints, and core concepts |
-| [API Reference](/api/endpoints) | Full endpoint documentation with request/response schemas |
-| [Authentication](/api/authentication) | Bearer token management and security best practices |
-| [Connectors](/connectors) | Complete list of supported integrations |
-| [Security](/security) | Architecture, compliance, and data handling |
-| [Rate Limits](/api/rate-limits) | Per-endpoint rate limits and quotas |
-| [Webhooks](/api/webhooks) | Current webhook-contract availability |
-| [OpenAPI Spec](/api/openapi) | Importable OpenAPI 3.0.3 specification |
-| [Changelog](/blog) | Release history and version notes |
+- [Quick Start](quick-start.md)  --  Go from zero to first answer in minutes
+- [Getting Started Guides](https://www.corpusiq.io/guides)  --  First day, connecting tools, skills and memory, trial and billing, recurring work
+- [How to Ask](https://www.corpusiq.io/how-to-ask)  --  Phrasing a question, what context to give, reading a citation
+- [Developers](https://www.corpusiq.io/developers)  --  MCP endpoint, OAuth discovery, device login, read-only guarantee
+- [API Reference](api/overview.md)  --  Full REST API documentation
+- [Connectors](connectors.md)  --  All 40+ supported integrations
+- [Security](security/README.md)  --  Architecture, encryption, compliance
+- [Changelog](changelog.md)  --  What's new
 
-## Architecture at a Glance
+## Who This Is For
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────────┐
-│  AI Assistant │────▶│  CorpusIQ API │────▶│  Connected Tools  │
-│ (ChatGPT,    │     │ (api.corpusiq │     │ (Gmail, Slack,   │
-│  Claude,     │     │  .io/v1)     │     │  HubSpot, etc.)   │
-│  Perplexity) │◀────│              │◀────│                  │
-└──────────────┘     └──────────────┘     └──────────────────┘
-```
+**Business owners** who need one answer across Stripe, HubSpot, QuickBooks, and Shopify without logging into each system. Ask a plain-English question and get a single, cited answer instead of opening five tabs and reconciling by hand.
 
-CorpusIQ translates AI assistant queries into read-only API calls and returns cited results. Direct MCP requests use live retrieval and do not build embeddings or file indexes. Optional indexed-search features use embeddings and minimal metadata in a per-user namespace. Local AUDIT logs record raw query text and tool parameters plus bounded result summaries; the Azure Log Analytics workspace retains those logs for 30 days.
+**Developers** building AI agents that need governed access to business data. CorpusIQ exposes 40+ connectors through one MCP endpoint with read-only OAuth, so an agent inherits every authorized connector without re-authentication and without credentials leaving the operator's control.
 
-## Getting Help
+**Finance and operations teams** that want a single source of truth their AI can actually query. Every metric is defined once and applied consistently, so ChatGPT, Claude, and Perplexity return the same number for the same question. The same definition, the same validation, the same citations. No dashboards to maintain, no CSV exports to reconcile, no training sets to update.
 
-- **API Support**: api@corpusiq.io
-- **Security Concerns**: security@corpusiq.io
-- **Status Page**: status.corpusiq.io
+## Evidence
 
-For integration partners and enterprise deployments, contact sales@corpusiq.io.
-# sitemap rebuild trigger
+CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude, and live in the ChatGPT app store. The positioning is consistent across both channels: the same number in ChatGPT, Claude, and Perplexity, every time.
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+"The same number in ChatGPT, Claude, and Perplexity. Every time." - CorpusIQ Founder
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+"When a user selects your site as a preferred source, your content is more likely to appear in Top Stories, highlighted with a preferred badge. In AI Mode and AI Overviews, your content can be highlighted with a preferred badge for users who have selected your site as a preferred source." - [Google Search Central documentation](https://developers.google.com/search/docs/appearance/preferred-sources)
+
+The trust model is simple: read-only connections, source-cited answers, and metric definitions that apply everywhere. That combination is why the same question returns the same answer across assistants, and why teams can point auditors at the citations instead of at a spreadsheet.
+
+## Frequently Asked Questions
+
+### What is CorpusIQ?
+CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads.
+
+### How does CorpusIQ connect my business data to AI?
+CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations.
+
+### What data sources does CorpusIQ support?
+CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
+
+### Is my data secure with CorpusIQ?
+Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days. Data-source connections use documented OAuth scopes.
+
+### How quickly can I start using CorpusIQ?
+Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions.
+
+### Which AI assistants work with CorpusIQ?
+CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What is CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads."}},
+    {"@type": "Question", "name": "How does CorpusIQ connect my business data to AI?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ uses MCP (Model Context Protocol), an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations."}},
+    {"@type": "Question", "name": "What data sources does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more. See the full connectors directory."}},
+    {"@type": "Question", "name": "Is my data secure with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days."}},
+    {"@type": "Question", "name": "How quickly can I start using CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions."}},
+    {"@type": "Question", "name": "Which AI assistants work with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io."}}
+  ]
+}
+</script>
+
+
+---
+
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+
+## Internal Links
+
+- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
+
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -15024,98 +15053,6 @@ Ready to unlock AI-powered insights from your CRM data?
 [Content truncated; see the canonical page for the complete text.]
 
 ---
-# Consistent Business Answers You Can Trust
-URL: https://www.corpusiq.io/docs
-
-# Consistent Business Answers You Can Trust
-
-**The same number in ChatGPT, Claude, and Perplexity. Every time.** CorpusIQ is live in the ChatGPT app store, and it connects QuickBooks, Shopify, Stripe, HubSpot, GA4, and 40+ business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. No raw customer files or full connector response payloads retained. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs. In Claude, add CorpusIQ through the custom connector flow using the public MCP endpoint.
-
-## Quick Links
-
-- [Quick Start](quick-start.md)  --  Go from zero to first answer in minutes
-- [Getting Started Guides](https://www.corpusiq.io/guides)  --  First day, connecting tools, skills and memory, trial and billing, recurring work
-- [How to Ask](https://www.corpusiq.io/how-to-ask)  --  Phrasing a question, what context to give, reading a citation
-- [Developers](https://www.corpusiq.io/developers)  --  MCP endpoint, OAuth discovery, device login, read-only guarantee
-- [API Reference](api/overview.md)  --  Full REST API documentation
-- [Connectors](connectors.md)  --  All 40+ supported integrations
-- [Security](security/README.md)  --  Architecture, encryption, compliance
-- [Changelog](changelog.md)  --  What's new
-
-## Who This Is For
-
-**Business owners** who need one answer across Stripe, HubSpot, QuickBooks, and Shopify without logging into each system. Ask a plain-English question and get a single, cited answer instead of opening five tabs and reconciling by hand.
-
-**Developers** building AI agents that need governed access to business data. CorpusIQ exposes 40+ connectors through one MCP endpoint with read-only OAuth, so an agent inherits every authorized connector without re-authentication and without credentials leaving the operator's control.
-
-**Finance and operations teams** that want a single source of truth their AI can actually query. Every metric is defined once and applied consistently, so ChatGPT, Claude, and Perplexity return the same number for the same question. The same definition, the same validation, the same citations. No dashboards to maintain, no CSV exports to reconcile, no training sets to update.
-
-## Evidence
-
-CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude, and live in the ChatGPT app store. The positioning is consistent across both channels: the same number in ChatGPT, Claude, and Perplexity, every time.
-
-"The same number in ChatGPT, Claude, and Perplexity. Every time." - CorpusIQ Founder
-
-"When a user selects your site as a preferred source, your content is more likely to appear in Top Stories, highlighted with a preferred badge. In AI Mode and AI Overviews, your content can be highlighted with a preferred badge for users who have selected your site as a preferred source." - [Google Search Central documentation](https://developers.google.com/search/docs/appearance/preferred-sources)
-
-The trust model is simple: read-only connections, source-cited answers, and metric definitions that apply everywhere. That combination is why the same question returns the same answer across assistants, and why teams can point auditors at the citations instead of at a spreadsheet.
-
-## Frequently Asked Questions
-
-### What is CorpusIQ?
-CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads.
-
-### How does CorpusIQ connect my business data to AI?
-CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations.
-
-### What data sources does CorpusIQ support?
-CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
-
-### Is my data secure with CorpusIQ?
-Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days. Data-source connections use documented OAuth scopes.
-
-### How quickly can I start using CorpusIQ?
-Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions.
-
-### Which AI assistants work with CorpusIQ?
-CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io.
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type": "Question", "name": "What is CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads."}},
-    {"@type": "Question", "name": "How does CorpusIQ connect my business data to AI?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ uses MCP (Model Context Protocol), an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations."}},
-    {"@type": "Question", "name": "What data sources does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more. See the full connectors directory."}},
-    {"@type": "Question", "name": "Is my data secure with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days."}},
-    {"@type": "Question", "name": "How quickly can I start using CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions."}},
-    {"@type": "Question", "name": "Which AI assistants work with CorpusIQ?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io."}}
-  ]
-}
-</script>
-
-
----
-
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
-
-## Internal Links
-
-- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
-
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
----
-
-*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
-
----
 # MCP for Accountants: How to Connect Your Business Data to AI
 URL: https://www.corpusiq.io/docs/mcp-for-accountants
 
@@ -19816,104 +19753,6 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 # Security
 URL: https://www.corpusiq.io/docs/security
 
-
-title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
-description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-level permissions, encryption, audit logging, data handling, and security best practices."
-category: "Documentation"
-tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
-last_updated: "2026-08-12"
-canonical: "https://www.corpusiq.io/security"
-robots: "index,follow"
----
-# Security
-
-CorpusIQ is designed with security as a foundational requirement. External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.
-
-## Authentication
-
-### AI Chat Users
-- Email-based authentication at [demo.corpusiq.io](https://demo.corpusiq.io)
-- Session-based with secure HTTP-only cookies
-- Optional multi-factor authentication
-
-### AI Agent Users
-- OAuth 2.0 Device Authorization Grant (RFC 8628)
-- No browser required for ongoing agent access
-- Refresh token rotation
-- Device verification prevents unauthorized access
-- Dashboard disconnect removes CorpusIQ connection state and requires reauthorization before reuse; provider authorization remains provider-governed
-
-### Data Source Connections
-- OAuth 2.0 authorization for each connected source
-- Scoped access: CorpusIQ requests minimum required permissions
-- CorpusIQ connections can be disconnected individually
-- Credential-based connectors store required secrets encrypted; public responses do not expose them
-
-## Data Access
-
-### Scoped Access Policy
-External-source retrieval tools query connected sources, normalize results, and do not write back. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.
-
-### Data Handling
-- Direct MCP retrieves source records on demand and delivers scoped results to the requesting client
-- Raw customer files and full connector response payloads are not retained by the direct path
-- Operational query text, per-user tool-call metadata, and bounded outcome summaries may be retained for up to 30 days
-- Optional indexed search retains embeddings and minimal metadata until connector revocation or account deletion
-
-## Encryption
-
-- HTTPS/TLS 1.3 for all connections
-- Data in transit encrypted end-to-end
-- MCP protocol runs over HTTPS
-
-## Audit
-
-- All agent queries are logged with timestamps
-- Dashboard shows query history
-- Connection audit trail tracks authorization events
-- Suspicious activity alerts
-
-## Best Practices
-
-- Use device flow for agent authentication (no password exposure)
-- Revoke unused connections
-- Review query logs regularly
-- Use scoped OAuth tokens with minimum permissions
-- Rotate agent tokens periodically
-
-## Reporting Security Issues
-
-Report security concerns to security@corpusiq.io. We respond within 24 hours.
-
-## Frequently Asked Questions
-
-**Q: How does CorpusIQ authenticate users?**  
-A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data-source provider scopes vary by connector and documented operation.
-
-**Q: Is CorpusIQ data access read-only?**
-A: External-source retrieval is read-only and does not write back to connected vendor systems. Explicit CorpusIQ control-plane tools can modify user-declared CorpusIQ state and are separately annotated.
-
-**Q: What encryption does CorpusIQ use?**  
-A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP protocol runs over HTTPS. All connections are encrypted with forward secrecy.
-
-## Internal Links
-
-- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
-
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
----
-
-*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
-
----
-# Security
-URL: https://www.corpusiq.io/docs/security
-
 # Security
 
 CorpusIQ is designed with data privacy as a foundational principle. This page documents the technical and organizational measures applied to protect user data. CorpusIQ LLC, Scottsdale, Arizona. Last updated: March 24, 2026.
@@ -23082,168 +22921,6 @@ five spreadsheets and one tool, you don't need CorpusIQ yet.
 - [privacy-and-security.md](privacy-and-security.md) - what CorpusIQ
   does and doesn't do with your data.
 - [../quickstart/](../quickstart/README.md) - get connected in 10 minutes.
----
-
-*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
-
----
-# Connectors
-URL: https://www.corpusiq.io/docs/connectors
-
-# Connectors
-
-CorpusIQ connects to your business tools through read-only MCP connectors.
-Each connector requires a one-time OAuth authentication - you click Connect,
-approve the permission screen, and your AI tools can query live data immediately.
-
-**Read-only by design.** CorpusIQ is not an AI agent. It cannot write,
-modify, or execute anything in your connected systems, and it does not
-retain raw customer files or full connector response payloads. Data
-passes through on demand and returns to your AI client as read-only
-information. No one at CorpusIQ can access your accounts.
-See the full guarantee: [Security and Read-Only Access](/hermes/security/read-only-and-security)
-
-The external-source connectors in this directory are designed for read-only retrieval and do not write back to connected vendor accounts. Separately annotated CorpusIQ control-plane tools are outside this connector directory.
-
-## What are CorpusIQ connectors?
-
-CorpusIQ connectors are the integration layer between business data and AI assistants. Each connector maps to a SaaS application or database - QuickBooks, Shopify, Stripe, HubSpot, GA4, Salesforce, Slack, Gmail and 40+ others - and exposes its data through one MCP endpoint that ChatGPT, Claude and Perplexity can query in plain English. Every published operation declares whether it is read-only or write-capable, and each connection uses the provider's own OAuth authorization with the scopes shown on screen. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.
-
-The connector model matters because the MCP ecosystem is large and uneven. Public registries count more than 9,400 MCP servers with 97M+ SDK downloads, yet many are unmaintained. CorpusIQ's approach is different: 40+ curated connectors to the tools businesses already run, each with documented operations, safety annotations and live status, so an AI assistant answers from a governed source instead of from a random server. For the full interactive connector list with real-time status indicators, visit [corpusiq.io/connectors](https://corpusiq.io/connectors).
-
-## Index
-
-### Commerce & Payments
-- [Shopify](shopify.md) - Orders, products, customers, inventory
-- [Stripe](stripe.md) - Payments, subscriptions, invoices, refunds
-- [eBay](ebay.md) - Listings, orders, marketplace data
-- [Amazon Seller](amazon_seller.md) - Seller Central metrics
-- [GunBroker](gunbroker.md) - Auctions, bids, inventory
-
-### Marketing & Advertising
-- [Google Ads](google_ads.md) - Campaigns, ad groups, keywords, performance
-- [Meta Ads (Facebook & Instagram)](facebook_marketing.md) - Ad accounts, campaigns, ad sets
-- [LinkedIn Ads](linkedin-ads.md) - Campaign performance, audience data
-- [TikTok](tiktok.md) - Ad performance, audience insights
-
-### Web Analytics & SEO
-- [GA4 - Google Analytics 4](ga4.md) - Traffic, conversions, events
-- [Google Search Console](search-console.md) - Rankings, clicks, impressions
-- [Ahrefs](ahrefs.md) - Backlinks, keyword rankings, site audits
-- [Semrush](semrush.md) - Keyword research, competitor analysis
-- [IndexNow](indexnow.md) - Real-time search engine indexing
-- [YouTube](youtube.md) - Channel analytics, video performance
-
-### Email & SMS Marketing
-- [Klaviyo](klaviyo.md) - Campaigns, flows, segments
-- [Mailchimp](mailchimp.md) - Campaigns, audiences, reports
-- [Constant Contact](constantcontact.md) - Email campaigns, contacts
-- [ActiveCampaign](activecampaign.md) - Automations, deals, contacts
-- [Postscript](postscript.md) - SMS campaigns, subscribers
-
-### CRM & Pipeline
-- [HubSpot](hubspot.md) - Deals, contacts, companies, tickets
-- [GoHighLevel (LeadConnector)](gohighlevel.md) - Pipelines, contacts, opportunities
-- [Close](close.md) - Sales pipeline, leads, sequences
-- [Monday.com](monday.md) - Boards, items, workflows
-
-### Finance & Accounting
-- [QuickBooks](quickbooks.md) - P&L, balance sheet, invoices, bills
-- [Odoo](odoo.md) - ERP: accounting, inventory, sales, CRM
-
-### Communication & Productivity
-- [Google Workspace](google_workspace.md) - Gmail, Calendar, Drive, Docs, Sheets
-- [Microsoft Outlook](outlook.md) - Email, Calendar, OneDrive
-- [Slack](slack.md) - Messages, channels, search
-- [Dropbox](dropbox.md) - Files, folders, shared links
-- [OneDrive](onedrive.md) - Files, folders, SharePoint libraries
-- [Notion](notion.md) - Pages, databases, comments
-- [Airtable](airtable.md) - Bases, tables, records
-- [Calendly](calendly.md) - Events, scheduling, invitees
-- [IMAP Email](imap.md) - Read email from any IMAP account
-
-### Databases & Analytics
-- [PostgreSQL](postgres.md) - Relational database queries
-- [Microsoft SQL Server (MSSQL)](mssql.md) - SQL Server queries
-- [MongoDB](mongodb.md) - Document database queries
-- [Azure Cosmos DB](cosmosdb.md) - Multi-model database queries
-- [PostHog](posthog.md) - Product analytics, feature flags
-
-### AI Integration Guides
-- [ChatGPT Business Data Connector](chatgpt-business-data-connector.md)
-- [Perplexity Business Data via MCP](perplexity-business-data-mcp.md)
-- [AI MCP Server for Business Data](ai-mcp-server-for-business-data.md)
-- [MCP Server: Shopify + QuickBooks](mcp-server-shopify-quickbooks.md)
-- [Connect Airtable to Claude](connect-airtable-to-claude.md)
-- [Connect GA4 to Claude](connect-ga4-to-claude.md)
-- [Connect Google Ads to Claude](connect-google-ads-to-claude.md)
-- [Connect HubSpot to Claude](connect-hubspot-to-claude.md)
-- [Connect Klaviyo to ChatGPT](../connect-klaviyo-to-chatgpt.md)
-- [Connect Klaviyo to Claude](connect-klaviyo-to-claude.md)
-- [Connect LinkedIn Ads to Claude](connect-linkedin-ads-to-claude.md)
-- [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md)
-- [Connect QuickBooks to Claude](connect-quickbooks-to-claude.md)
-- [Connect Shopify to Claude](connect-shopify-to-claude.md)
-- [Connect Slack to Claude](connect-slack-to-claude.md)
-- [Connect Stripe to Claude](connect-stripe-to-claude.md)
-
-### Alternatives & Comparisons
-- [Windsor.ai Alternative](windsor-ai-alternative.md)
-- [Adzviser Alternative](adzviser-alternative.md)
-
-## How to connect any connector
-
-1. Open the CorpusIQ **Connectors** page
-2. Click **Connect** next to the tool you want
-3. A browser tab opens to the vendor's login page
-4. Sign in, review the read-only permissions, click **Authorize**
-5. The tab returns to CorpusIQ - the connector shows **Connected**
-
-That's it. Your AI assistant can now query live data from that service.
-
-Connector-specific notes (required plans, admin roles, multi-account setups) are on each individual connector page.
-
-## Frequently Asked Questions
-
-### How many connectors does CorpusIQ support?
-
-CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated.
-
-### How do I connect a new data source?
-
-Open the CorpusIQ Connectors page, click Connect next to the tool you want, approve the vendor's read-only permission screen, and the connector shows Connected. Each connection takes under 60 seconds.
-
-### Are CorpusIQ connectors read-only?
-
-External-source retrieval tools are marked read-only. CorpusIQ is not an AI agent. It cannot write, modify or execute anything in your connected systems, and it does not retain raw customer files or full connector response payloads. Data passes through on demand. No one at CorpusIQ can access your accounts. Operational query text, per-user tool-call metadata and bounded outcome summaries may be retained for up to 30 days; optional indexed search keeps embeddings and minimal metadata until connector revocation or account deletion. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated.
-
-### Does CorpusIQ support database connections?
-
-Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB, all with read-only SQL/query access.
-
-### What if I need a connector that isn't listed?
-
-CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development.
-
-### How do I check which connectors are active?
-
-Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators.
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type": "Question", "name": "How many connectors does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated."}},
-    {"@type": "Question", "name": "How do I connect a new data source?", "acceptedAnswer": {"@type": "Answer", "text": "Open the CorpusIQ Connectors page, click Connect next to the tool you want, approve the vendor's read-only permission screen, and the connector shows Connected. Each connection takes under 60 seconds."}},
-    {"@type": "Question", "name": "Are CorpusIQ connectors read-only?", "acceptedAnswer": {"@type": "Answer", "text": "External-source retrieval tools are marked read-only. CorpusIQ is not an AI agent. It cannot write, modify or execute anything in your connected systems, and it does not retain raw customer files or full connector response payloads. Data passes through on demand. No one at CorpusIQ can access your accounts. Operational query text, per-user tool-call metadata and bounded outcome summaries may be retained for up to 30 days; optional indexed search keeps embeddings and minimal metadata until connector revocation or account deletion. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated."}},
-    {"@type": "Question", "name": "Does CorpusIQ support database connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB, all with read-only SQL/query access."}},
-    {"@type": "Question", "name": "What if I need a connector that isn't listed?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development."}},
-    {"@type": "Question", "name": "How do I check which connectors are active?", "acceptedAnswer": {"@type": "Answer", "text": "Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators."}}
-  ]
-}
-</script>
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
