@@ -10642,7 +10642,6 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 | **PostgreSQL** | Execute read-only SQL queries, list tables, and describe schemas on PostgreSQL databases. |
 | **SQL Server (MSSQL)** | Read-only SQL queries, table listing, and schema inspection on Microsoft SQL Server databases. |
 | **Azure Cosmos DB** | Read-only SQL queries on Cosmos DB containers, container insights, and distinct counts. |
-| **MongoDB** | Query MongoDB collections with read-only access. |
 
 ## Collaboration & Productivity
 
@@ -10710,7 +10709,7 @@ Each connector has a dedicated setup guide with required scopes, example questio
 [IMAP Email](/connectors/imap) · [IndexNow](/connectors/indexnow)
 [Klaviyo](/connectors/klaviyo) · [LinkedIn Ads](/connectors/linkedin-ads)
 [Mailchimp](/connectors/mailchimp) · [Monday.com](/connectors/monday)
-[MongoDB](/connectors/mongodb) · [Microsoft SQL Server (MSSQL)](/connectors/mssql)
+[Microsoft SQL Server (MSSQL)](/connectors/mssql)
 [Notion](/connectors/notion) · [Odoo](/connectors/odoo)
 [OneDrive](/connectors/onedrive) · [Outlook](/connectors/outlook)
 [PostgreSQL](/connectors/postgres) · [PostHog](/connectors/posthog)
@@ -10719,6 +10718,8 @@ Each connector has a dedicated setup guide with required scopes, example questio
 [Shopify](/connectors/shopify) · [Slack](/connectors/slack)
 [Stripe](/connectors/stripe) · [TikTok](/connectors/tiktok)
 [YouTube](/connectors/youtube)
+
+Looking for something not in this list? See [how to connect a new data source](#how-do-i-connect-a-new-data-source) or browse the [full connector directory](https://corpusiq.io/connectors).
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -25471,46 +25472,36 @@ URL: https://www.corpusiq.io/docs/connectors/mongodb
 
 # MongoDB
 
-## What it unlocks
-Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write one-off queries.
+**Status: planned. Timing to be determined.**
 
-## Before you connect
-- Connection details for the MongoDB cluster you want to query: host, port, username, password, database name.
-- The credentials should be read-only - CorpusIQ never needs write access.
-- A network path: if your cluster is private, allowlist CorpusIQ's outbound IP or use a public read replica.
-- About 5 minutes.
+MongoDB is not available as a CorpusIQ connector today. There is no connect
+flow, no credentials form, and no tool behind it, so this page no longer walks
+you through a setup that does not exist.
 
-## How to connect
-This is not an OAuth flow. You configure MongoDB directly.
+The date is unconfirmed and will be driven by customer demand. If MongoDB is the
+system you need first, tell us at [info@corpusiq.io](mailto:info@corpusiq.io) and
+say which collections and questions matter. That demand is what moves it up the
+list.
 
-1. Open your CorpusIQ dashboard and click Connections.
-2. Find MongoDB and click Connect.
-<!-- screenshot: MongoDB configuration form in CorpusIQ -->
-3. Paste your MongoDB connection string (or fill in host, port, user, password individually).
-4. Choose the database you want CorpusIQ to query.
-5. Save.
+## What it will do when available
 
-You'll see MongoDB change from gray to green in your CorpusIQ dashboard.
+- Read-only queries across the collections you authorize, asked in plain English.
+- Document structure and sampled fields surfaced so you can see what is queryable.
+- Answers that cite the query used, so you can check the result before acting.
 
-## What CorpusIQ can see
-- The collections in the database you specified.
-- Document structure and sampled fields.
-- Read-only query results you ask for.
+It will follow the same model as our live database connectors: read-only access,
+no write operations, no schema changes.
 
-CorpusIQ runs read queries only. It never inserts, updates, or drops anything.
+## Live database connectors today
 
-## Questions you can ask
-- "How many users signed up in the last 7 days?"
-- "What's the average order value in the orders collection this month?"
-- "Show me the schema of the events collection."
-- "Find documents in customers where status is churned."
+These are connectable now:
 
-## Troubleshooting
-- "Connection refused" - your MongoDB host is blocking CorpusIQ. Allowlist the IP shown in the dashboard.
-- "Auth failed" - double-check the username and password. Special characters in passwords must be URL-encoded.
-- No collections listed - confirm the user has read access to the database you selected.
+- [PostgreSQL](/connectors/postgres)
+- [Microsoft SQL Server](/connectors/mssql)
+- [Azure Cosmos DB](/connectors/cosmosdb)
 
-<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard MongoDB driver conventions. Verify before publish. -->
+See the full list on [Connectors](/connectors).
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

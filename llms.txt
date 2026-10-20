@@ -89,7 +89,7 @@
 - [Mailchimp](https://www.corpusiq.io/docs/connectors/mailchimp): Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newslett
 - [MCP Server for Shopify and QuickBooks: Ask Both at Once](https://www.corpusiq.io/docs/connectors/mcp-server-shopify-quickbooks): Does your Shopify revenue match your QuickBooks books? With CorpusIQ MCP, reconciling Shopify and QuickBooks is one question instead of hours of expor
 - [Monday.com](https://www.corpusiq.io/docs/connectors/monday): Bring your Monday.com boards into conversations about how the business is actually running. Ask which projects are blocked, who owns what, and what's.
-- [MongoDB](https://www.corpusiq.io/docs/connectors/mongodb): Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write
+- [MongoDB](https://www.corpusiq.io/docs/connectors/mongodb): MongoDB is a planned CorpusIQ connector, not a live one. Status is to be determined and driven by customer demand.
 - [Microsoft SQL Server (MSSQL)](https://www.corpusiq.io/docs/connectors/mssql): Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems - ERPs, line
 - [Notion](https://www.corpusiq.io/docs/connectors/notion): Notion holds a surprising amount of business data that lives outside your SaaS tools - project plans, meeting notes, hiring trackers, product specs. C
 - [Odoo](https://www.corpusiq.io/docs/connectors/odoo): Pull your Odoo ERP into conversation - sales orders, invoices, CRM pipeline, inventory, projects, employees - without clicking through twenty Odoo scr

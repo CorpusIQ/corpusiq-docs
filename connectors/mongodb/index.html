@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write.">
+        <meta name="description" content="MongoDB is a planned CorpusIQ connector, not a live one. Status is to be determined and driven by customer demand.">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/connectors/mongodb">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="MongoDB - CorpusIQ Docs - CorpusIQ">
-  <meta property="og:description" content="Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write.">
+  <meta property="og:description" content="MongoDB is a planned CorpusIQ connector, not a live one. Status is to be determined and driven by customer demand.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="MongoDB - CorpusIQ Docs - CorpusIQ">
-  <meta name="twitter:description" content="Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write.">
+  <meta name="twitter:description" content="MongoDB is a planned CorpusIQ connector, not a live one. Status is to be determined and driven by customer demand.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,7 +104,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "MongoDB - CorpusIQ Docs - CorpusIQ",
-    "description": "Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write.",
+    "description": "MongoDB is a planned CorpusIQ connector, not a live one. Status is to be determined and driven by customer demand.",
     "url": "https://www.corpusiq.io/docs/connectors/mongodb",
     
     "author": {
@@ -10668,10 +10668,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-unlocks" class="md-nav__link">
+  <a href="#what-it-will-do-when-available" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What it unlocks
+        What it will do when available
       
     </span>
   </a>
@@ -10679,54 +10679,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#before-you-connect" class="md-nav__link">
+  <a href="#live-database-connectors-today" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Before you connect
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-connect" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How to connect
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-corpusiq-can-see" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What CorpusIQ can see
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questions-you-can-ask" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questions you can ask
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Troubleshooting
+        Live database connectors today
       
     </span>
   </a>
@@ -10754,49 +10710,30 @@
 
 
 <h1 id="mongodb">MongoDB<a class="headerlink" href="#mongodb" title="Anchor link to this section">&para;</a></h1>
-<h2 id="what-it-unlocks">What it unlocks<a class="headerlink" href="#what-it-unlocks" title="Anchor link to this section">&para;</a></h2>
-<p>Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write one-off queries.</p>
-<h2 id="before-you-connect">Before you connect<a class="headerlink" href="#before-you-connect" title="Anchor link to this section">&para;</a></h2>
+<p><strong>Status: planned. Timing to be determined.</strong></p>
+<p>MongoDB is not available as a CorpusIQ connector today. There is no connect
+flow, no credentials form, and no tool behind it, so this page no longer walks
+you through a setup that does not exist.</p>
+<p>The date is unconfirmed and will be driven by customer demand. If MongoDB is the
+system you need first, tell us at <a href="mailto:info@corpusiq.io">info@corpusiq.io</a> and
+say which collections and questions matter. That demand is what moves it up the
+list.</p>
+<h2 id="what-it-will-do-when-available">What it will do when available<a class="headerlink" href="#what-it-will-do-when-available" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Connection details for the MongoDB cluster you want to query: host, port, username, password, database name.</li>
-<li>The credentials should be read-only - CorpusIQ never needs write access.</li>
-<li>A network path: if your cluster is private, allowlist CorpusIQ's outbound IP or use a public read replica.</li>
-<li>About 5 minutes.</li>
+<li>Read-only queries across the collections you authorize, asked in plain English.</li>
+<li>Document structure and sampled fields surfaced so you can see what is queryable.</li>
+<li>Answers that cite the query used, so you can check the result before acting.</li>
 </ul>
-<h2 id="how-to-connect">How to connect<a class="headerlink" href="#how-to-connect" title="Anchor link to this section">&para;</a></h2>
-<p>This is not an OAuth flow. You configure MongoDB directly.</p>
-<ol>
-<li>Open your CorpusIQ dashboard and click Connections.</li>
-<li>Find MongoDB and click Connect.</li>
-</ol>
-<!-- screenshot: MongoDB configuration form in CorpusIQ -->
-<ol>
-<li>Paste your MongoDB connection string (or fill in host, port, user, password individually).</li>
-<li>Choose the database you want CorpusIQ to query.</li>
-<li>Save.</li>
-</ol>
-<p>You'll see MongoDB change from gray to green in your CorpusIQ dashboard.</p>
-<h2 id="what-corpusiq-can-see">What CorpusIQ can see<a class="headerlink" href="#what-corpusiq-can-see" title="Anchor link to this section">&para;</a></h2>
+<p>It will follow the same model as our live database connectors: read-only access,
+no write operations, no schema changes.</p>
+<h2 id="live-database-connectors-today">Live database connectors today<a class="headerlink" href="#live-database-connectors-today" title="Anchor link to this section">&para;</a></h2>
+<p>These are connectable now:</p>
 <ul>
-<li>The collections in the database you specified.</li>
-<li>Document structure and sampled fields.</li>
-<li>Read-only query results you ask for.</li>
+<li><a href="https://www.corpusiq.io/docs/connectors/postgres">PostgreSQL</a></li>
+<li><a href="https://www.corpusiq.io/docs/connectors/mssql">Microsoft SQL Server</a></li>
+<li><a href="https://www.corpusiq.io/docs/connectors/cosmosdb">Azure Cosmos DB</a></li>
 </ul>
-<p>CorpusIQ runs read queries only. It never inserts, updates, or drops anything.</p>
-<h2 id="questions-you-can-ask">Questions you can ask<a class="headerlink" href="#questions-you-can-ask" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>"How many users signed up in the last 7 days?"</li>
-<li>"What's the average order value in the orders collection this month?"</li>
-<li>"Show me the schema of the events collection."</li>
-<li>"Find documents in customers where status is churned."</li>
-</ul>
-<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>"Connection refused" - your MongoDB host is blocking CorpusIQ. Allowlist the IP shown in the dashboard.</li>
-<li>"Auth failed" - double-check the username and password. Special characters in passwords must be URL-encoded.</li>
-<li>No collections listed - confirm the user has read access to the database you selected.</li>
-</ul>
-<!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard MongoDB driver conventions. Verify before publish. -->
+<p>See the full list on <a href="https://www.corpusiq.io/docs/connectors">Connectors</a>.</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 
