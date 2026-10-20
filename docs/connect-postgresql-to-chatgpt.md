@@ -93,7 +93,6 @@ Queries run against your database, so cost follows your own query patterns. Filt
 
 ## Related Pages
 
-- [Connect MySQL to ChatGPT](connect-mysql-to-chatgpt.md) -- the same pattern for MySQL
 - [Browse all CorpusIQ connectors](connectors.md) -- the full list
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) -- why the access model differs
 - [CorpusIQ Security Architecture](../security/) -- how credentials and data are handled

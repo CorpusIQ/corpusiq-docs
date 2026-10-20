@@ -103,7 +103,6 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 |-----------|-------------|
 | **PostgreSQL** | Execute read-only SQL queries, list tables, and describe schemas on PostgreSQL databases. |
 | **SQL Server (MSSQL)** | Read-only SQL queries, table listing, and schema inspection on Microsoft SQL Server databases. |
-| **MySQL** | Query MySQL databases with read-only SELECT statements. |
 | **Azure Cosmos DB** | Read-only SQL queries on Cosmos DB containers, container insights, and distinct counts. |
 | **MongoDB** | Query MongoDB collections with read-only access. |
 
@@ -147,7 +146,7 @@ External-source retrieval tools are marked read-only. Write-capable connector-ma
 
 ### Does CorpusIQ support database connections?
 
-Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB  --  all with read-only SQL/query access.
+Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), and Azure Cosmos DB  --  all with read-only SQL/query access.
 
 ### What if I need a connector that isn't listed?
 
@@ -193,7 +192,7 @@ Looking for something not in this list? See [how to connect a new data source](#
     {"@type": "Question", "name": "How many connectors does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated."}},
     {"@type": "Question", "name": "How do I connect a new data source?", "acceptedAnswer": {"@type": "Answer", "text": "Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds."}},
     {"@type": "Question", "name": "Are CorpusIQ connectors read-only?", "acceptedAnswer": {"@type": "Answer", "text": "External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated. Provider scopes vary by connector and are shown during authorization."}},
-    {"@type": "Question", "name": "Does CorpusIQ support database connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB, all with read-only SQL/query access."}},
+    {"@type": "Question", "name": "Does CorpusIQ support database connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), and Azure Cosmos DB, all with read-only SQL/query access."}},
     {"@type": "Question", "name": "What if I need a connector that isn't listed?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development."}},
     {"@type": "Question", "name": "How do I check which connectors are active?", "acceptedAnswer": {"@type": "Answer", "text": "Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators."}}
   ]
