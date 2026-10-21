@@ -11394,7 +11394,7 @@
 <p><strong>How Hermes implements it:</strong> Partially. Error reporting is structured and persistent, and recovery paths are explicit. Formal error compaction -- automatically distilling failure context into the next attempt's context window -- is the top gap on this list. Most failures are handled by policy gates rather than by learned correction.</p>
 <h3 id="10-small-focused-agents">10. Small Focused Agents<a class="headerlink" href="#10-small-focused-agents" title="Anchor link to this section">&para;</a></h3>
 <p><strong>The principle:</strong> One agent, one responsibility. Small agents fail small, are easy to review, and compose into larger systems.</p>
-<p><strong>How Hermes implements it:</strong> Procedural skills are single-responsibility by design, and production work is split into focused agent families -- one for email operations, one for social publishing, one for system health. Each family owns a narrow surface and a shared ledger. A god-agent that does everything is an anti-pattern documented in the <a href="https://www.corpusiq.io/docs/hermes/best-practices/12-factor-agents/index">best practices overview</a>.</p>
+<p><strong>How Hermes implements it:</strong> Procedural skills are single-responsibility by design, and production work is split into focused agent families -- one for email operations, one for social publishing, one for system health. Each family owns a narrow surface and a shared ledger. A god-agent that does everything is an anti-pattern documented in the <a href="https://www.corpusiq.io/docs/hermes/best-practices">best practices overview</a>.</p>
 <h3 id="11-trigger-from-anywhere">11. Trigger from Anywhere<a class="headerlink" href="#11-trigger-from-anywhere" title="Anchor link to this section">&para;</a></h3>
 <p><strong>The principle:</strong> The same workflow can start from a schedule, a webhook, an inbox signal, or an API client. Triggers are external events; agents do not self-loop forever.</p>
 <p><strong>How Hermes implements it:</strong> Workflows are entry-point agnostic. The email operation that runs on a schedule is the same logic an MCP client can invoke directly. Triggering is decoupled from execution, so the agent never needs to run continuously to be alive.</p>
@@ -11432,7 +11432,7 @@
 <p>Start with the adoption checklist above: version your prompts, define tool schemas first, log every external action to an append-only ledger, and wire escalation as a tool call. Those four moves eliminate the majority of production agent incidents regardless of which framework you run.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/12-factor-agents/index">Best Practices Overview</a>  --  The production reliability entry point</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a>  --  The production reliability entry point</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">Cron Design</a>  --  Factor 6 and 11 applied to scheduled automation</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/memory-management">Memory Management</a>  --  Factor 3: owning the context window</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/skill-development">Skill Development</a>  --  Factor 10: small focused agents</li>
