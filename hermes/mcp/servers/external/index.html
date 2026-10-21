@@ -10418,6 +10418,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-21-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 21, 2026 - Midday Supplement (2 New, 2 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-21-2026-midday-sweep-4-new-4-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -25092,6 +25103,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-21-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 21, 2026 - Midday Supplement (2 New, 2 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-21-2026-midday-sweep-4-new-4-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39484,8 +39506,19 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 21, 2026 (midday sweep) · <strong>Sources:</strong> mcp.so /feed page 1 (30 cards) + mcpservers.org /all pages 1-4 through the r.jina.ai reader proxy (116 unique cards) + chatmcp/mcpso submission issues #5862-#5887 with gap fills at #5841 and #5844 + vendor documentation and live JSON-RPC probes against every new endpoint · <strong>Catalog:</strong> 965 servers (+845 guides)</p>
+<p><strong>Last updated:</strong> October 21, 2026 (midday supplement) · <strong>Sources:</strong> mcp.so /feed page 1 recaptured at 18:00Z (30 cards, one posted inside the hour) + mcpservers.org /all pages 1 to 3 through the r.jina.ai reader proxy (89 slugs) + the midday report's carried cards read to detail level + vendor documentation and live JSON-RPC probes against every candidate endpoint · <strong>Catalog:</strong> 967 servers (+847 guides)</p>
 </blockquote>
+<h2 id="october-21-2026-midday-supplement-2-new-2-guides">🆕 October 21, 2026 - Midday Supplement (2 New, 2 Guides)<a class="headerlink" href="#october-21-2026-midday-supplement-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
+<p>A supplement about an hour after the midday capture, run against all three surfaces once more. The directories were unchanged inside the hour, so the delta came from the feed recapture and from the ledger itself: one card was posted past the midday cut at 17:16Z, and three cards the midday report recorded as carried prior dispositions had no ledger entry behind them. All four were read to detail level and every catalogued one was settled by running the endpoint.</p>
+<ul>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/shopify-speed-check-mcp">Shopify Speed Check MCP - Store Speed and Plan Fees</a> · free remote Streamable HTTP server at <code>https://tools.skaidigital.com/mcp</code>, no key and no account, by Skai Digital (skaidigital.com), a headless Shopify agency. Live probe: unauthenticated <code>POST initialize</code> returned HTTP 200 (serverInfo <code>skai-shopify-tools</code> 1.0.0, protocol 2025-06-18) and <code>tools/list</code> returned three tools, counted rather than claimed. <code>check_shopify_store_speed</code> runs PageSpeed Insights on mobile and desktop with real-user Core Web Vitals, returns the bottlenecks ranked, and labels a headless estimate with its assumptions, in 10 to 90 seconds with results cached 24 hours. <code>detect_shopify_store</code> reads the public page only and reports theme store or headless plus the theme name: a live call on allbirds.com returned <code>shopify_theme</code> with theme <code>allbirds-theme</code> and four signals. <code>calculate_shopify_fees</code> prices Basic, Grow, Advanced and Plus for a sales volume and payment mix, with break-even sales between consecutive plans and the requirements only Plus covers; a live call at $250,000 monthly GMV and an $85 average order returned Advanced at $7,766 a month as the cheapest plan that meets the requirements, Basic excluded on staff account limits rather than on price, with break-evens at $30,000, $135,000 and $808,750 in monthly online sales, US prices checked 2026-10-21 and the variable Plus platform fee excluded unless quoted. <strong>Catalog gap named rather than closed:</strong> the speed class is already here through GTmetrix and Sorank, no entry anywhere is Shopify-specific, and nothing here attributed a slow storefront to the apps a merchant pays for or priced the plan decision underneath it.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/iqfluence-mcp">IQFluence MCP - Creator Vetting and Media Plans</a> · remote Streamable HTTP server at <code>https://mcp.iqfluence.io/mcp</code>, OAuth 2.1 in the browser or an API key for scripts and CI, by IQFluence (iqfluence.io). Live probe: unauthenticated <code>POST initialize</code> returned HTTP 401 <code>{"error":"invalid_token","error_description":"Authentication required"}</code>; <code>/.well-known/oauth-authorization-server</code> returned HTTP 200 publishing authorize, token, register and revoke endpoints, <code>authorization_code</code> and <code>refresh_token</code> grants and PKCE S256, while the protected-resource path returns 404. Fifteen tools are named in the vendor's docs with a credit cost on every paid step: <code>search_influencers</code> over 455M Instagram, TikTok and YouTube profiles with audience filters, the first three rows free and the rest hidden; <code>unlock_search_results</code> at 0.02 credits an account; <code>get_influencer_report</code> at 1 credit and free inside 30 days, carrying audience quality, fake-follower signals, engagement, growth and contacts; <code>compare_influencers</code> and <code>audience_overlap</code> at 1 credit per creator or calculation; <code>build_media_plan</code> at 1 credit per creator for expected views, engagements, CPM and cost per engagement; <code>get_contacts</code> at 0.04 an account; creator, hashtag, post and comment reads at 0.02 a page; and the account surface <code>get_account_balance</code>, <code>list_campaigns</code>, <code>get_campaign_stats</code> and <code>list_my_reports</code>. The assistant states the cost of a paid step and asks before any task above 5 credits, a daily credit limit can be set per assistant key, and every paid request is written to the request history with its parameters, cost and time. Plans are Starter $199 for 300 credits and Pro $299 for 500, yearly at 20 percent off, top-ups $0.79 a credit from 50 and valid three months, and the trial is 5 credits once per account. <strong>Catalog gap named rather than closed:</strong> the creator entries here reconcile payouts (ViewsBase) or publish and listen (Maeve Social, SocialBu, UnrealUGC), and the creator-finder class was held twice against thin scrapers; this is the first surface where vetting, audience overlap and a costed plan come from one index.</p>
+</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> FERS (structural finite element analysis, <code>https://ferscloud.com/api/mcp</code>, unauthenticated <code>POST initialize</code> returned HTTP 401 naming its three accepted credentials) held as an engineering computation vertical with no operator data surface, and as a solver the hosted server builds and checks but does not run, returning a browser link instead; Zeptap (a Mac app that lets a desktop agent see, tap and type on a real iPhone, local MCP server, nothing installed on the phone) held as desktop and agent automation infrastructure on the ShadowCursor precedent, with its mcp.so detail page at the bare slug serving a 404, which is the author-path class rather than a finding. On mcpservers.org <code>/all</code> pages 1 to 3, unchanged inside the hour: Mozarkai, Polign, Rollinggo AI, Lucyd Trade and Woven Video served 404 shells through the reader proxy; Octobooks (bookkeeping where the AI proposes entries and a person releases them, every entry in an audit trail, read and propose and upload chosen at connect) held against the dense bookkeeping class carried by Accountable and SuperBooks; Wine Labs held as a single vertical market data surface and BEON PASS as an access wallet, both read at title level only; Agents Handbook held as an agent-playbook knowledge surface; and the fifteen username-shell cards are the sitemap-fresh-but-not-live class.</p>
 <h2 id="october-21-2026-midday-sweep-4-new-4-guides">🆕 October 21, 2026 - Midday Sweep (4 New, 4 Guides)<a class="headerlink" href="#october-21-2026-midday-sweep-4-new-4-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Midday delta about seven hours after the night capture, and this one belonged to mcpservers.org <code>/all</code> rather than the feed: pages 1 to 4 through the r.jina.ai reader proxy carried three of the four entries, the chatmcp/mcpso issue window carried the fourth, and the mcp.so <code>/feed</code> page 1 came back with the night cycle's cards plus not much else. All four were settled by running the endpoint, not by reading a listing.</p>
 <ul>
@@ -47217,7 +47250,13 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 </li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/aistrail-mcp">AIS Trail MCP - Live Vessel Positions and Port Calls</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/viewsbase-mcp">ViewsBase MCP - Creator Payouts for Clipping Campaigns</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/uxarmy-mcp">UXArmy MCP - Run User Research From the Assistant</a></li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/uxarmy-mcp">UXArmy MCP - Run User Research From the Assistant</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/shopify-speed-check-mcp">Shopify Speed Check MCP - Store Speed and Plan Fees</a></p>
+</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/iqfluence-mcp">IQFluence MCP - Creator Vetting and Media Plans</a></li>
 </ul>
 
 
