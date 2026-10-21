@@ -1,7 +1,7 @@
 ---
 title: "Hermes Community Hub - 196+ Tools & Resources"
 description: "The largest structured Hermes Agent knowledge base: tools, skills, MCP servers, agents, blueprints, and case studies. Updated daily."
-last_updated: "2026-10-16"
+last_updated: "2026-10-21"
 canonical: "https://www.corpusiq.io/docs/hermes/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -12,7 +12,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 The largest structured collection of Hermes Agent tools, skills, MCP servers, agents, blueprints, and case studies - all in one organized place. Updated daily.
 
-**Current release:** Hermes Agent v0.22.2 (released October 15, 2026). [Changelog](changelog/index.md).
+**Current release:** Hermes Agent v0.22.3 (released October 21, 2026). [Changelog](changelog/index.md).
 
 ## Quick Links
 
