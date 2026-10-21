@@ -10418,6 +10418,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-20-2026-evening-sweep-7-servers-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 20, 2026 - Evening Sweep (7 Servers, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-20-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -25059,6 +25070,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-20-2026-evening-sweep-7-servers-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 20, 2026 - Evening Sweep (7 Servers, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-20-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39418,8 +39440,14 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 20, 2026 (midday supplement) · <strong>Sources:</strong> the chatmcp/mcpso issue window #5713 to #5816 (94 submissions, the window the last two passes recorded as not run) + mcp.so /feed page 1 (30 cards, two posted after the midday capture) + mcpservers.org /all page 1 via the r.jina.ai reader proxy + the MuniSpot MCP, pricing and registry pages + live probes (HTTP initialize on both servers, tools/list and a tools/call on XposedOrNot) · <strong>Catalog:</strong> 950 servers (+836 guides)</p>
+<p><strong>Last updated:</strong> October 20, 2026 (evening sweep) · <strong>Sources:</strong> mcp.so /feed page 1 (30 cards, 10 posted inside the window) + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy (90 cards) + Copliancy product, pricing and IncidentVault provider documentation for the catalogued entries + live probes against all seven endpoints (unauthenticated initialize) and their OAuth metadata documents · <strong>Catalog:</strong> 957 servers (+837 guides)</p>
 </blockquote>
+<h2 id="october-20-2026-evening-sweep-7-servers-1-guide">🆕 October 20, 2026 - Evening Sweep (7 Servers, 1 Guide)<a class="headerlink" href="#october-20-2026-evening-sweep-7-servers-1-guide" title="Anchor link to this section">&para;</a></h2>
+<p>Evening delta about seven hours after the midday capture. The mcp.so <code>/feed</code> page 1 returned 30 cards and mcpservers.org <code>/all</code> pages 1 to 3 about 90, and one vendor produced the whole cycle: Copliancy Inc published seven product servers inside a single hour, all for the same customer, and together they close a gap this catalog has carried since it began tracking operations software.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/copliancy-mcp">Copliancy MCP Suite - Licenses, Leases and Incidents per Location</a> · seven remote servers from Copliancy Inc (copliancy.com), a US multi-location compliance and record platform used across hospitality, grocery, healthcare, oil and gas, transport, education and construction. <strong>IncidentVault</strong> at <code>https://app.incidentvault.com/api/mcp/apps/server</code> covers incidents, claims, reserves, settlements, legal spend, risk checks, regulatory inspections and tasks in 38 scopes (19 read, 19 write, plus <code>offline_access</code>); its protected-resource document sets <code>bearer_methods_supported: ["header"]</code> and its authorization server publishes authorize, token, registration and revocation endpoints for PKCE S256 with dynamic client registration. <strong>PolicyTrak</strong> at <code>https://app.policytrak.com/api/mcp</code> covers sites, compliance fields, policies, SOPs, laws, acknowledgements, workflows, files, audit trails and imports across 57 scopes. <strong>RetailHardHat</strong> at <code>https://app.retailhardhat.com/api/mcp</code> runs site development from due diligence through permits, bids, RFIs, project budgets, change requests and invoices to opening day in 20 scopes. <strong>CredentialCamp</strong> at <code>https://app.credentialcamp.com/api/mcp</code> tracks credentials, certifications and mandated training in 5. <strong>QuipAssist</strong> at <code>https://app.quipassist.com/api/mcp</code> is the maintenance layer - equipment, work orders, preventive schedules, parts, vendors, IoT readings - in 13 scopes, one of them <code>documents:sensitive</code>. <strong>LeaseCommand</strong> at <code>https://app.leasecommand.com/api/mcp</code> carries leases, rent schedules, critical dates and ASC 842 amortization with journal entries. <strong>SmartShifts</strong> at <code>https://app.smartshifts.com/api/mcp/apps/server</code> covers shifts, coverage, time off and tasks. Verified live this sweep: all seven endpoints answered a <code>POST initialize</code> probe with 401 or 403 and never a 200 without credentials; five publish OAuth protected-resource metadata, SmartShifts returns 404 on that path and LeaseCommand serves its application HTML there, so both are described as declaring scopes without publishing metadata. The design worth reading: every call checks the user's role, location and record limits, so an agent handed to a store manager cannot enumerate another store. IncidentVault documents two surfaces and the difference between them - the operational endpoint returns opaque record IDs, allowlisted status and priority, dates, location IDs and audit percentages while excluding names, narratives, medical details, custom fields and attachments, and the private endpoint keeps the full authorized catalog. Writes are opt-in and every modifying tool produces a saved preview a person approves inside the product; the vendor is explicit that pending or approved is not executed success. MCP Apps hosts render a working dashboard; other hosts get structured facts and source links, and Gemini widget support is not assumed. Free sign-up, tier pricing not published in text. <strong>Catalog gap closed:</strong> A4B, ZenSched and STEADYWRK cover assets, workforce scheduling and field dispatch as single-purpose tools, and nothing here carried license and permit renewals, incident and claims records, ASC 842 lease accounting or credential compliance across locations.</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> on the mcp.so feed window, read and held: superbot (a name and a URL, no statement of what data it reads), Mr BnB Santiago (single-city travel vertical), Health by Dr Brad (consumer health plan builder), Housecall Pro assistant (browser automation over a field-service product rather than a data interface), KissCode, OC Maker, DolphinRadar, Vectoree, Paprika3d and Volley.sh (consumer, creator and developer utilities), Workspace369 (client-work suite whose classes are carried by the catalogued professional-services and invoicing entries), SCDO Agent Ledger (agent payment infrastructure), Organize with AI (personal media management) and FrontRowTickets (single-vertical inventory). On mcpservers.org pages 2 and 3, the new cards: NotebookLM MCP by useapi.net held because it is a third-party paid wrapper at $15 a month that acts on your own Google account; tropia.pl held and recorded for a revisit since it carries board members, shareholders, financial statements and public contracts for the Polish KRS registry and this catalog holds UK, US and multi-country registries but nothing for Poland; Shipday held because the listing points at documentation hosted as an S3 PDF with no verifiable tool list; upcoach held as a narrow coaching-program surface; Hazelchat and BubblaV held as thin website chatbot analytics; MailBeast against the outreach class; Pear against email, calendar and contacts; DomainRef as developer and ops hygiene; NeuralVerge against the aggregator class at 342 tools; Dutify against Taskade and Atwork; anakinio as scraping infrastructure; Timbré on the print-and-post precedent set by MailStream; LLMSlim against a dense memory class; PedalBro, LFG Alarm, EINI, Voidless, Arquimedes, Labreador, RobotBase, ScBee, KIRUPA, lakeboard-converter and Agent Payment Node as consumer, scientific or developer utilities. Carried dispositions from today's earlier captures were not re-litigated.</p>
 <h2 id="october-20-2026-midday-supplement-2-new-2-guides">🆕 October 20, 2026 - Midday Supplement (2 New, 2 Guides)<a class="headerlink" href="#october-20-2026-midday-supplement-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
 <p>A supplement about an hour after the midday capture. Both directory front pages were effectively unchanged, so the delta came from the surface the last two passes each recorded as not run: the chatmcp/mcpso issue window, closed at #5712 on the October 18 night sweep, had 94 submissions behind it.</p>
 <ul>
