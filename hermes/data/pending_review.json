@@ -78361,5 +78361,281 @@
     ],
     "discovered_at": "2026-10-21T04:02:22.190113+00:00",
     "status": "pending"
+  },
+  {
+    "name": "dommango/agentmats",
+    "url": "https://github.com/dommango/agentmats",
+    "description": "Unofficial one-page placemat references for CLI coding agents \u2014 Claude Code, Codex, Kimi Code, Hermes, Antigravity \u2014 kept current daily, verified against each vendor's own docs",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "antigravity",
+      "cheatsheet",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agents",
+      "developer-tools",
+      "hermes-agent",
+      "kimi-code",
+      "reference"
+    ],
+    "updated_at": "2026-10-21T10:00:34Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "kenryu42/cc-safety-net",
+      "VasiHemanth/tokentelemetry"
+    ],
+    "discovered_at": "2026-10-21T10:00:43.984652+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yunze7373/manage-agent-skills",
+    "url": "https://github.com/yunze7373/manage-agent-skills",
+    "description": "On-demand, non-destructive Agent Skills manager for Codex, Claude Code, Copilot CLI, OpenClaw, and Hermes.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-21T10:00:13Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "WEIFENG2333/phistory",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "jazzyalex/agent-sessions",
+      "conorbronsdon/avoid-ai-writing",
+      "cavi-ai/mlx-agent"
+    ],
+    "discovered_at": "2026-10-21T10:00:43.986518+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "getumbrel/murmur",
+    "url": "https://github.com/getumbrel/murmur",
+    "description": "A beautiful home for your Hermes agents. Chat with them one at a time or all together, connect your apps, and reach them from the browser, your Mac or PC, your phone, WhatsApp and Telegram.",
+    "stars": 38,
+    "forks": 11,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "ai-agents",
+      "hermes",
+      "hermes-agent",
+      "umbrel"
+    ],
+    "updated_at": "2026-10-21T09:59:57Z",
+    "category": "core",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "tale-project/tale",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "agentrq/agentrq",
+      "stablyai/orca",
+      "NousResearch/hermes-official-plugins"
+    ],
+    "discovered_at": "2026-10-21T10:00:43.988203+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "100yenadmin/hermes-personal-assistant",
+    "url": "https://github.com/100yenadmin/hermes-personal-assistant",
+    "description": "Personal Assistant for Hermes Agent: trips, bookings and errands prepared up to your explicit yes. Japanese and Korean aware.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "hermes-plugin",
+      "personal-assistant",
+      "travel"
+    ],
+    "updated_at": "2026-10-21T09:59:32Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-10-21T10:00:43.989781+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "seppegadeyne/hermes-wiki-hint",
+    "url": "https://github.com/seppegadeyne/hermes-wiki-hint",
+    "description": "Hermes Agent plugin that nudges the agent to use its llm-wiki during research and proactively file durable findings",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-21T09:59:22Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-10-21T10:00:43.991611+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dreak7/MCPHub",
+    "url": "https://github.com/dreak7/MCPHub",
+    "description": "\u9002\u914dHermes Agent\u7684\u81ea\u5b9a\u4e49MCP\u805a\u5408\u670d\u52a1\u811a\u672c",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-21T09:51:43Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-21T10:00:51.674749+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zhoujungis/NanoHermes",
+    "url": "https://github.com/zhoujungis/NanoHermes",
+    "description": "\u4e00\u4e2a\u7528 Rust \u7f16\u5199\u7684\u8f7b\u91cf\u7ea7\u3001\u4f4e\u5185\u5b58\u7ec8\u7aef\u7f16\u7a0b\u667a\u80fd\u4f53\u3002NanoHermes \u8fde\u63a5\u4efb\u610f\u517c\u5bb9 OpenAI \u534f\u8bae\u7684\u5927\u6a21\u578b\u7aef\u70b9\uff0c\u4e3a\u6a21\u578b\u63d0\u4f9b\u771f\u5b9e\u5de5\u5177\u2014\u2014\u8bfb\u5199\u7f16\u8f91\u6587\u4ef6\u3001\u641c\u7d22\u4ee3\u7801\u5e93\u3001\u6267\u884c shell \u547d\u4ee4\u3001\u5e94\u7528\u8865\u4e01\uff0c\u4ee5\u53ca\u901a\u8fc7\u6a21\u578b\u4e0a\u4e0b\u6587\u534f\u8bae\uff08MCP\uff09\u8c03\u7528\u5916\u90e8\u5de5\u5177",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-10-21T07:54:02Z",
+    "category": "mcp",
+    "score": 43,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-21T10:00:51.680017+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Lheyonk-code/hermes-termux-kit",
+    "url": "https://github.com/Lheyonk-code/hermes-termux-kit",
+    "description": "One-command Hermes Agent setup for Termux: proot-debian, provider chain, Tor proxy fallback, ai-memory + runsv autostart.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-10-21T10:00:44Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-21T10:01:07.217368+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shubham2924/AI-Agents-Evals-Hub",
+    "url": "https://github.com/shubham2924/AI-Agents-Evals-Hub",
+    "description": "A platform that answers this with evidence. Build it on top of Hermes Agent (https://github.com/NousResearch/hermes-agent), an open-source agent harness with skills, memory and tools.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-21T05:06:03Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Anil-matcha/awesome-hermes-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "stablyai/orca"
+    ],
+    "discovered_at": "2026-10-21T10:02:39.113955+00:00",
+    "status": "pending"
   }
 ]

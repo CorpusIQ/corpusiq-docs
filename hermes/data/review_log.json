@@ -18826,5 +18826,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-21T04:02:52.773507+00:00"
+  },
+  {
+    "repo": "dommango/agentmats",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546593+00:00"
+  },
+  {
+    "repo": "yunze7373/manage-agent-skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546597+00:00"
+  },
+  {
+    "repo": "getumbrel/murmur",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546600+00:00"
+  },
+  {
+    "repo": "100yenadmin/hermes-personal-assistant",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546602+00:00"
+  },
+  {
+    "repo": "seppegadeyne/hermes-wiki-hint",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546604+00:00"
+  },
+  {
+    "repo": "rexleimo/aios",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-21T10:03:09.546606+00:00"
+  },
+  {
+    "repo": "dreak7/MCPHub",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546608+00:00"
+  },
+  {
+    "repo": "zhoujungis/NanoHermes",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546609+00:00"
+  },
+  {
+    "repo": "Lheyonk-code/hermes-termux-kit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546611+00:00"
+  },
+  {
+    "repo": "shubham2924/AI-Agents-Evals-Hub",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T10:03:09.546613+00:00"
   }
 ]
