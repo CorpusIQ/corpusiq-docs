@@ -132,7 +132,7 @@ Private phone numbers in 200+ countries for SMS verification. Potentially useful
 
 ## CorpusIQ Angle
 
-The operator visibility stack (Xpoz + LinkedMash + SiteGuru) is directly relevant to CorpusIQ's growth mission. Social listening for operator pain points → LinkedIn content drafting from saved inspiration → SEO optimization of landing pages. CorpusIQ's 37+ business connectors complement this by providing the financial/revenue context that social data alone can't answer.
+The operator visibility stack (Xpoz + LinkedMash + SiteGuru) is directly relevant to CorpusIQ's growth mission. Social listening for operator pain points → LinkedIn content drafting from saved inspiration → SEO optimization of landing pages. CorpusIQ's 40+ business connectors complement this by providing the financial/revenue context that social data alone can't answer.
 
 ## Catalog Status
 

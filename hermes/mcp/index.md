@@ -294,6 +294,11 @@ hermes mcp add my-server -- npx tsx my-server.ts
 hermes mcp add remote-server -- url https://my-mcp-server.com/sse
 ```
 
+### Before you connect a third-party server
+
+A third-party MCP server receives your credential and writes text your model treats as context. Run the ten-minute check in [How to Vet an MCP Server Before You Connect It](/hermes/guides/vetting-an-mcp-server): read the tool list, probe the endpoint, inspect the OAuth discovery document, and narrow the credential before the first call.
+
+
 ---
 
 ## MCP Server Monitoring

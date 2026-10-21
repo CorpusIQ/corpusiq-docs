@@ -1,7 +1,7 @@
 ---
 title: Guides - Hermes Agent Patterns and Research
 description: "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration."
-last_updated: 2026-09-17
+last_updated: 2026-10-21
 canonical: "https://www.corpusiq.io/docs/hermes/guides/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -20,6 +20,7 @@ Hands-on guides and research digests for building and operating AI agents. Each 
 | [Hermes Improvement Pipeline](hermes-improvement-pipeline-aug2026) | Tools that make agents faster: skill recorders, Fable method, human-writing detection |
 | [Trending AI Agent Tools - August 2026](trending-ai-agent-tools-aug2026) | Weekly scan of new open-source agent tools worth investigating |
 | [Use CorpusIQ with Claude Code](corpusiq-claude-code) | Ask business questions from your terminal via MCP |
+| [How to Vet an MCP Server Before You Connect It](vetting-an-mcp-server.md) | Ten-minute check: read the tool list, probe the endpoint, inspect OAuth discovery, narrow the credential |
 
 *← [Hermes Home](/hermes) | [Skills Catalog →](/hermes/skills/catalog)*
 

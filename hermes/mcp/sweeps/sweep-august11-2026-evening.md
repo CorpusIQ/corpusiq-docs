@@ -117,7 +117,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## CorpusIQ Angle
 
-The marketing MCP stack is now complete enough that a CorpusIQ operator could theoretically run their entire growth function through MCP-connected AI agents: competitive ad research (AdWhispr/AdMake AI) → creative generation (AdMake AI) → campaign launch (AdWhispr/OpusGrowth/Meta Ads) → social listening (Xpoz) → SEO audit (SiteGuru) → referral program management (Cello) → cold outreach (JaxSuite AI). The missing piece is unified analytics across all these channels - which is exactly what CorpusIQ's 37+ business connectors provide.
+The marketing MCP stack is now complete enough that a CorpusIQ operator could theoretically run their entire growth function through MCP-connected AI agents: competitive ad research (AdWhispr/AdMake AI) → creative generation (AdMake AI) → campaign launch (AdWhispr/OpusGrowth/Meta Ads) → social listening (Xpoz) → SEO audit (SiteGuru) → referral program management (Cello) → cold outreach (JaxSuite AI). The missing piece is unified analytics across all these channels - which is exactly what CorpusIQ's 40+ business connectors provide.
 
 ## Catalog Status
 
