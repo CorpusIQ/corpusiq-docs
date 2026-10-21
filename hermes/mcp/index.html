@@ -9871,6 +9871,8 @@
       
         
       
+        
+      
     
     
     
@@ -10079,6 +10081,34 @@
     
   
     Agent Plugins 1.0 Opportunity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/guides/vetting-an-mcp-server" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vetting an MCP Server
   
 
     
@@ -10902,6 +10932,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#before-you-connect-a-third-party-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before you connect a third-party server
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -11257,6 +11298,8 @@ mcp_corpusiq_calendar_connector
 <h3 id="option-c-remote-http-mcp">Option C: Remote HTTP MCP<a class="headerlink" href="#option-c-remote-http-mcp" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>remote-server<span class="w"> </span>--<span class="w"> </span>url<span class="w"> </span>https://my-mcp-server.com/sse
 </code></pre></div>
+<h3 id="before-you-connect-a-third-party-server">Before you connect a third-party server<a class="headerlink" href="#before-you-connect-a-third-party-server" title="Anchor link to this section">&para;</a></h3>
+<p>A third-party MCP server receives your credential and writes text your model treats as context. Run the ten-minute check in <a href="https://www.corpusiq.io/docs/hermes/guides/vetting-an-mcp-server">How to Vet an MCP Server Before You Connect It</a>: read the tool list, probe the endpoint, inspect the OAuth discovery document, and narrow the credential before the first call.</p>
 <hr />
 <h2 id="mcp-server-monitoring">MCP Server Monitoring<a class="headerlink" href="#mcp-server-monitoring" title="Anchor link to this section">&para;</a></h2>
 <p>We run three daily monitors to discover new MCP servers:</p>
