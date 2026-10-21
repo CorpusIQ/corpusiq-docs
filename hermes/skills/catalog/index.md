@@ -770,3 +770,4 @@ Linked from this index so the pages are reachable by crawl.
 - [html-ppt-hermes-cyber-terminal - Setup Guide](/hermes/skills/catalog/html-ppt-hermes-cyber-terminal-setup)
 - [taste-skill - Design-to-Code & AI Image Generation for](/hermes/skills/catalog/taste-skill-setup)
 - [web-quality-skills - Google-Grade Web Quality Audits](/hermes/skills/catalog/web-quality-skills-setup)
+- [Dontbesilent dbskill - 35-Skill Business Toolkit Setup](/hermes/skills/catalog/dontbesilent-dbskill-setup)
