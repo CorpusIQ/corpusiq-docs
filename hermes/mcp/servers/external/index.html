@@ -111,8 +111,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-20",
-    "dateModified": "2026-10-20",
+    "datePublished": "2026-10-21",
+    "dateModified": "2026-10-21",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-20">
+  <meta name="last-updated" content="2026-10-21">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10416,6 +10416,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-21-2026-night-sweep-4-new-4-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 21, 2026 - Night Sweep (4 New, 4 Guides)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-20-2026-evening-sweep-7-servers-1-guide" class="md-nav__link">
@@ -25070,6 +25081,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-21-2026-night-sweep-4-new-4-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 21, 2026 - Night Sweep (4 New, 4 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-20-2026-evening-sweep-7-servers-1-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39440,8 +39462,25 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 20, 2026 (evening sweep) · <strong>Sources:</strong> mcp.so /feed page 1 (30 cards, 10 posted inside the window) + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy (90 cards) + Copliancy product, pricing and IncidentVault provider documentation for the catalogued entries + live probes against all seven endpoints (unauthenticated initialize) and their OAuth metadata documents · <strong>Catalog:</strong> 957 servers (+837 guides)</p>
+<p><strong>Last updated:</strong> October 21, 2026 (night sweep) · <strong>Sources:</strong> mcp.so /feed page 1 (30 cards, six posted inside the window) + mcpservers.org /all pages 1-4 through the r.jina.ai reader proxy (120 cards) + chatmcp/mcpso submission issues #5817-#5861 (43 submissions) + vendor documentation and live JSON-RPC probes against every catalogued endpoint · <strong>Catalog:</strong> 961 servers (+841 guides)</p>
 </blockquote>
+<h2 id="october-21-2026-night-sweep-4-new-4-guides">🆕 October 21, 2026 - Night Sweep (4 New, 4 Guides)<a class="headerlink" href="#october-21-2026-night-sweep-4-new-4-guides" title="Anchor link to this section">&para;</a></h2>
+<p>Night delta about six hours after the evening capture, and for the first time this week the three discovery surfaces disagreed with each other: the mcp.so <code>/feed</code> page 1 returned 30 cards with six posted inside the window, mcpservers.org <code>/all</code> pages 1 to 4 returned 120 cards with page 4 run for the first time (both earlier passes recorded it as not run), and the chatmcp/mcpso issue window that the last two passes also recorded as not run had 43 submissions behind it, #5817 through #5861. Four business-relevant entries, each with a guide, and three of the four were settled by running the endpoint rather than by reading a listing.</p>
+<ul>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/tenantback-mcp">Tenantback MCP - CAM Reconciliation Audit</a> · remote server at <code>https://tenantback.com/mcp</code>, no key needed for audits, A2A endpoint alongside it, by Tenantback (tenantback.com). Live probe: unauthenticated <code>POST initialize</code> returned HTTP 200 (serverInfo <code>tenantback</code> 1.0.0 on protocol 2025-06-18) and <code>tools/list</code> returned <code>audit_cam_reconciliation</code> and <code>get_audit_result</code>. A workspace key adds nine more: <code>portfolio_overview</code>, <code>list_locations</code>, <code>get_lease_abstract</code>, <code>search_lease_documents</code>, <code>list_findings</code>, <code>list_deadlines</code>, <code>get_statement</code>, <code>request_audit</code>, <code>get_audit_request</code>, <code>draft_dispute</code> (drafts only, a person approves sending). The audit checks pro-rata share and its denominator, CAM caps cumulative and non-cumulative, admin and management fee rate and base, excluded costs, gross-up above the occupancy threshold, year-over-year variance, the balance due and late statement delivery. The lease quote is verified against the source page and the arithmetic is computed in code, so a finding either balances against the statement line or it does not. Free audits are capped at 5 per sender a day with 10 files per request and 20 MB per file; recovery work is 25% of money actually recovered, and the portfolio plan is $49 per location a month plus 12% of recoveries. <strong>Catalog gap closed:</strong> every commercial-property entry here concerns managing an asset (Hercules Property, Dutch Property Context, AskRent, LucidRents); none audited the expense reconciliation a tenant is billed for.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/pagetovid-mcp">PageToVid MCP - Website to Narrated Video</a> · remote server at <code>https://pagetovid.com/mcp</code>, OAuth on first connect, free plan, by PageToVid. Live probe: unauthenticated <code>POST initialize</code> returned HTTP 200 (serverInfo <code>pagetovid</code> 0.32.0, protocol 2025-06-18, tools and prompts capabilities) and <code>tools/list</code> returned 82 tools, which is the count stated here rather than a vendor claim. The pipeline is end to end rather than one-shot: <code>create_video</code> and <code>generate_site_videos</code> start from a URL, <code>get_storyboard</code> and <code>update_storyboard</code> revise what will be filmed, <code>get_timeline</code>, <code>get_frames</code> and <code>save_scene</code> expose the edit, <code>approve</code> and <code>cancel_video</code> control the run, and <code>create_animation</code> films a storyboard the assistant writes when there is no page. Around that sit <code>get_brand_kit</code> and <code>set_brand_kit</code> and <code>detect_brand</code>, <code>translate_video</code>, <code>create_review_link</code>, <code>upload_asset</code>, <code>set_webhook</code> and <code>rotate_webhook_secret</code>, <code>get_audit_log</code>, <code>validate_format</code> and <code>validate_motion_spec</code>. Pricing: first film free, 3 free films per website with a badge, $3.90 for a single film, Creator $19 a month for 25 films, Pro $49 for 75 films and three seats, Scale $99 for 200 films, with credits at 40 per finished film. <strong>Catalog gap named rather than closed:</strong> Go Rocket makes URL to AI video ads with a synthetic presenter; this one records the real page in a real browser, which is a different mechanism and a different failure mode (the film goes stale when the page changes, unless it is regenerated).</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/zip-codes-mcp">Zip-Codes.com MCP - US ZIP and Address Data</a> · remote stateless read-only server at <code>https://mcp.zip-codes.com/mcp</code>, submitted as issue #5818, registry <code>com.zip-codes/api</code>, by Zip-Codes.com (proprietary). Live probe: unauthenticated <code>POST initialize</code> returned HTTP 200 (<code>zip-codes</code> 1.0.0) and a keyless <code>tools/call</code> on <code>zip_lookup</code> with code 90210 returned real data: Beverly Hills CA, Los Angeles County with FIPS 06037, <code>multi_county: false</code>, coordinates 34.1028 / -118.4160, area codes 310, 323, 424 and 738, elevation 719 ft, metro MSA 4472, 3,516 ZIP+4 records and 10,643 active delivery points split into 1,472 business, 9,301 residential, 6,786 single-family and 2,419 multi-family, plus the Census geography for the code. Eleven tools: <code>zip_lookup</code>, <code>validate_address</code>, <code>quick_zip</code>, <code>radius_search</code>, <code>distance</code>, <code>suggest_places</code>, <code>zip_facts</code>, <code>about_data</code>, <code>city_name_rules</code>, <code>county_reference</code>, <code>metro_area_reference</code>. Data is USPS-derived and rebuilt monthly, boundaries follow carrier routes, and PO Box and single-organisation ZIPs that Census ZCTA files omit are included. Address validation returns no match or a low-confidence match with no ZIP+4 rather than repairing an address that does not exist. Access: keyless shared demo with deeper fields withheld and <code>meta.demo.withheld_count</code> reporting how many, demo codes at full depth, and a free key at 2,500 credits a day; Developer $49 a month for 100,000 credits, Professional $149 a month. <strong>Catalog gap closed:</strong> the only postal entry here was one regional Mexico server; this is the US and Canada surface, with fourteen years of ACS data under one field schema.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/privatrak-mcp">Privatrak MCP - Product Analytics With Undo</a> · remote server at <code>https://api.privatrak.com/mcp</code>, OAuth where the operator chooses which projects the connection sees and whether it may read or also write, API keys for headless agents. Live probe: unauthenticated <code>POST initialize</code> returned HTTP 401 <code>{"error":"missing API key ...","error_code":"auth_invalid_token"}</code>. 44 tools across overview, pages, sources, campaigns, features, insights queries, funnels and trends, user journeys, clicked elements, click problems, project setup and setup runs. Filed as a packaged addition rather than a gap: the analytics class here is already carried by Cookie Free Analytics (read-only cookieless), Clamp Analytics and the GA4 server. What this adds is the write surface, and it is the reason the entry exists: create feature rules that name what people click without touching code, build and validate a funnel before saving it, create dashboards and their charts, and mark click problems fixed or ignored, with every change recorded in a run that can be undone in one step and an undo that leaves later human edits alone. Answers carry the counts behind each percentage and flag periods that would compare against incomplete data. Cookieless with no personal data and no consent banner. Plans: Free at 10,000 events a month, Starter $19, Pro $79, Enterprise custom.</p>
+</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> on the mcp.so feed, read and held: PeopleRouter (people search across LinkedIn, Google Scholar, GitHub, Hugging Face, X, Xiaohongshu, Instagram and Zhihu with cross-platform identity resolution and contact finding, pay per call, bearer key, <code>POST initialize</code> 401 <code>{"error":"unauthorized"}</code>) held against Xverum, which carries people search and enrichment over 750M professional profiles, with the identity-resolution angle recorded as the reason to revisit if that entry thins; Quest: Hire a Human (<code>https://mcp.hireahuman.quest/mcp</code>, three tools <code>postQuest</code>, <code>getQuestsV2</code>, <code>whoAmI</code>, Singapore, Malaysia, the Philippines and San Francisco, 10% taken from the human after a hire) held because the agent can post a task but cannot yet hire, so the loop is incomplete until the hire tool ships; Summer (<code>https://api.gosummer.ai/mcp</code>, 62 tools over guidebooks, article drafts, media, publication and custom guide domains) held as vertical help-center publishing rather than an operator data surface; Scrapling x402 Data Store (four tools, <code>list_datasets</code>, <code>preview_dataset</code>, <code>scrape_url</code>, <code>buy_dataset</code> paid in USDC on Base) held because the endpoint is a personal ngrok tunnel, which is a durability risk no catalog entry should point at; CapSolver carried its August disposition as CAPTCHA-solving developer infrastructure; and superbot, Mr BnB Santiago, Health by Dr Brad, Housecall Pro assistant, Workspace369, KissCode, OC Maker, DolphinRadar, Vectoree, Tokenaissance, Scento, CitySignal AI, Atwork and SCDO Agent Ledger carried their evening dispositions without re-litigation. On the chatmcp/mcpso issue window (#5817-#5861, 43 submissions): marketing-scope-mcp held and noted as the most interesting of the window, a four-tool pre-flight that plans a campaign with kill criteria, scores each offer on an explainable rubric and refuses a plan whose tactics cite no scored offer, filed against the marketing-planning class rather than catalogued because it holds no data surface; Layrcake (<code>https://mcp.layrcake.dev/mcp</code>, 22 tools, 200M B2B contacts, two-stage email verification, buying signals, OAuth 2.1 with dynamic client registration and PKCE, 300 free credits) held against the dense lead and enrichment class carried by Leadbay, LeadGen, DeepLead, Heylead and cold-leads; BankConv (<code>bankconv-mcp</code>, MIT, API key, CSV, OFX, QFX, QBO and Xero CSV output) held against MainBook, which covers PDF bank statement conversion with balance validation; agentstock (license-clean AI stock media with x402 purchase), AICQ (agent messaging network, 14 tools, free), mcp-zotero, Caelo CMS, The Roofing List, hojo-josei.jp Japanese subsidy data, OpenFinance trading, WebExtract, Remembite, WebBase, Mader, OBZDN, Goatcade, SoleScout, Axel flights, OKA Anywhere, Eremos Thai Bible, The Commons and QPost read and classed as consumer, regional, vertical or developer utilities. The <code>pooriaarab</code> burst of thirteen directory servers filed inside three minutes (#5836, #5845-#5857: Agent Wallet Index, AgentSandboxes, CreditUnions, Doulas, Driving Schools, FertilityClinics, ImmigrationHelp, PeptideClinic, PetCremation, Eating Disorder Directory, Dating Coaches Directory, Psilocybin Centers, Sober Bars, Robotaxis) is excluded whole under the single-author burst doctrine rather than cherry-picked. On mcpservers.org <code>/all</code> pages 1 to 4, the cards not named anywhere in this catalog before this cycle: TwinMind (meeting notes and transcripts, read-only) held against the meeting-intelligence class; Visualping (page-change monitoring) held against the uptime and change-monitoring entries; Quickbase MCP by Smart Strategy (plain-language questions over a Quickbase app with the user's own permissions) held as a platform connector whose class is carried by the CRM and internal-tools entries; Tellnod (email campaigns with human-approved sends) held against the outreach class; Avoonta (AI voice agent that calls leads and books meetings) held against the voice and scheduling entries; Seonix and iSearchFrom (SEO project health, keyword clusters and rank plus ad and AI visibility) held against a saturated SEO class; FinzData (point-in-time market data for backtests) held as market data; Toolstile and BEON PASS (managed MCP gateways with per-agent permissions) held as agent infrastructure; KanbanMCP, Biver, POEditor, Perq, PlanLimits, IdeaKiller, Agent Stack Directory, match.bot, knowmesh, Agentline NZ, WRDO, Pixwit, Open Index, Weir, OpenYuri, Fettle, AgentSearch, Geonode, smsverbot, YouTube Transcripts, LFG Alarm, PedalBro, Wine Labs, MedicineData, Grocery Navigator, Treasure Valley, Bay Motors, Apologetics Wiki, SportQuanta, Meshy, Lium, Runcrate, Cursor-adjacent PlanLimits and the remaining cards held as consumer, travel, sports, regional, marketplace or developer utilities.</p>
 <h2 id="october-20-2026-evening-sweep-7-servers-1-guide">🆕 October 20, 2026 - Evening Sweep (7 Servers, 1 Guide)<a class="headerlink" href="#october-20-2026-evening-sweep-7-servers-1-guide" title="Anchor link to this section">&para;</a></h2>
 <p>Evening delta about seven hours after the midday capture. The mcp.so <code>/feed</code> page 1 returned 30 cards and mcpservers.org <code>/all</code> pages 1 to 3 about 90, and one vendor produced the whole cycle: Copliancy Inc published seven product servers inside a single hour, all for the same customer, and together they close a gap this catalog has carried since it began tracking operations software.</p>
 <ul>
@@ -47123,7 +47162,15 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/fynk-mcp">fynk MCP - Contract Lifecycle Management for Agents</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/reportgem-mcp">ReportGem MCP - 16 Million Investment Bank Reports</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/munispot-mcp">MuniSpot MCP - Municipal Financial Statements for Agents</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/xposedornot-mcp">XposedOrNot MCP - Breach Intelligence by Domain</a></li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/xposedornot-mcp">XposedOrNot MCP - Breach Intelligence by Domain</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/tenantback-mcp">Tenantback MCP - CAM Reconciliation Audit</a></p>
+</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/pagetovid-mcp">PageToVid MCP - Website to Narrated Video</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/zip-codes-mcp">Zip-Codes.com MCP - US ZIP and Address Data</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/privatrak-mcp">Privatrak MCP - Product Analytics With Undo</a></li>
 </ul>
 
 
