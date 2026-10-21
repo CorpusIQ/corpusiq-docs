@@ -94,7 +94,7 @@ The twelve factors below read like a checklist for turning a fragile agent proto
 
 **The principle:** One agent, one responsibility. Small agents fail small, are easy to review, and compose into larger systems.
 
-**How Hermes implements it:** Procedural skills are single-responsibility by design, and production work is split into focused agent families -- one for email operations, one for social publishing, one for system health. Each family owns a narrow surface and a shared ledger. A god-agent that does everything is an anti-pattern documented in the [best practices overview](index).
+**How Hermes implements it:** Procedural skills are single-responsibility by design, and production work is split into focused agent families -- one for email operations, one for social publishing, one for system health. Each family owns a narrow surface and a shared ledger. A god-agent that does everything is an anti-pattern documented in the [best practices overview](index.md).
 
 ### 11. Trigger from Anywhere
 
@@ -151,7 +151,7 @@ Start with the adoption checklist above: version your prompts, define tool schem
 
 ## Related Pages
 
-- [Best Practices Overview](index)  --  The production reliability entry point
+- [Best Practices Overview](index.md)  --  The production reliability entry point
 - [Cron Design](cron-design.md)  --  Factor 6 and 11 applied to scheduled automation
 - [Memory Management](memory-management.md)  --  Factor 3: owning the context window
 - [Skill Development](skill-development.md)  --  Factor 10: small focused agents
