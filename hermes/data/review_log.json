@@ -18756,5 +18756,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-20T11:03:00.672288+00:00"
+  },
+  {
+    "repo": "HermesAlfredGuy/hermes-studio",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773478+00:00"
+  },
+  {
+    "repo": "icefairy/hermes-time-context",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773491+00:00"
+  },
+  {
+    "repo": "alabenkhlifa/JobHunter",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773494+00:00"
+  },
+  {
+    "repo": "liangdabiao/hermes-passport",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773496+00:00"
+  },
+  {
+    "repo": "j-zly/keepsake",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773498+00:00"
+  },
+  {
+    "repo": "kruschdev/krusch-companion-skylight-connector",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773500+00:00"
+  },
+  {
+    "repo": "JinYi123456/mnemos-personal-ai",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773502+00:00"
+  },
+  {
+    "repo": "Evanlau1798/hermes-web-mcp",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773504+00:00"
+  },
+  {
+    "repo": "Arturo-Penas-Rial/pm-method",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773505+00:00"
+  },
+  {
+    "repo": "Prasanth595/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-21T04:02:52.773507+00:00"
   }
 ]
