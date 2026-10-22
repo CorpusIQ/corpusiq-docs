@@ -743,6 +743,9 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Claude Code Extensions - Agents, Skills & Hooks Setup](/hermes/skills/catalog/nodnarbnitram-claude-code-extensions-setup)
 - [Wayne Sutton Builder Skills - Convex App Development Setup](/hermes/skills/catalog/waynesutton-builder-skills-setup)
 - [TestDino Playwright Skills - 79-Guide Testing Suite Setup](/hermes/skills/catalog/testdino-playwright-skill-setup)
+- [GMGN Agent Skills - On-Chain Analytics and Trading Setup](/hermes/skills/catalog/gmgn-skills-setup)
+- [Claude Trading Skills - 74-Skill Trading Workflow Setup](/hermes/skills/catalog/claude-trading-skills-setup)
+- [ASO Skills - App Store Optimization Suite Setup](/hermes/skills/catalog/aso-skills-setup)
 
 ## Previously unlinked pages (added 2026-10-06)
 

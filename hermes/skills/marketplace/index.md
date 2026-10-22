@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  1,138+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh  --  1,141+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-10-21"
@@ -12,9 +12,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**1,138+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,141+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [🆕 October 22, 2026 - GMGN Agent Skills (gmgnai/gmgn-skills, 156,181 combined installs, 19 listings, 624⭐ MIT - on-chain analytics and execution across SOL, BSC, Base and ETH: trending and launchpad feeds, holder and wallet forensics, three 0-100 verdict skills, plus swap, sizing and launchpad execution; top skill gmgn-market 17,412), Claude Trading Skills (tradermonty/claude-trading-skills, 233,532 combined, 74 listings, 3,166⭐ MIT - market regime, screening, position sizing, discipline gates, trade journaling and strategy research organised as five workflow manifests and five skillsets; ships a Hermes work package companion; top skill us-stock-analysis 5,563), ASO Skills (appeeky/aso-skills, 106,503 combined, 40 listings, 2,199⭐ MIT - App Store and Play keyword, metadata, screenshot, launch, paywall and retention skills carrying the stores' own character limits, behind an aso-router entry point; top skill aso-audit 4,452) - 3 new publisher clusters, 3 setup guides](/hermes/skills/marketplace/new-oct22-2026-skills)
 - [🆕 October 21, 2026 (Evening) - Ant Design Skills (ant-design/ant-design-cli 5,979 + ant-design/antd-skill 4,098, 11,760 combined across 12 listings, 260⭐ and 136⭐ MIT - official Ant Design agent suite: an offline antd CLI carrying 67 per-version snapshots (v3 to v6) for props, demos, tokens, lint, doctor and migration, plus a v6, Pro 5 and Ant Design X v2 decision guide; also runs as an MCP server with 8 lookup tools) - 1 new publisher cluster, 1 setup guide](/hermes/skills/marketplace/new-oct21-2026-evening-skills)
 - [🆕 October 21, 2026 - Dontbesilent dbskill (dontbesilent2025/dbskill, 725,537 combined installs, 44 listings, 10,831⭐ CC BY-NC 4.0 - 35 Chinese business diagnosis, content, decision and skill-hygiene skills behind a router entry; top skill dbs 29,768) - 1 new publisher cluster, 1 setup guide; 1 above-floor find rejected (Snyk CRITICAL prompt injection)](/hermes/skills/marketplace/new-oct21-2026-skills)
 - [🆕 October 20, 2026 (Evening) - TestDino Playwright Skills (testdino-hq/playwright-skill, 8,684 combined installs, 9 listings, 397⭐ MIT - 79 Playwright 1.64 guides across seven packs: core testing, QA workflows, frontend test hooks, CI, page objects, migration, CLI browser automation; top skill playwright-skill 6,248) - 1 new publisher cluster, 1 setup guide](/hermes/skills/marketplace/new-oct20-2026-evening-skills)
@@ -325,7 +326,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,138+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,141+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -410,7 +411,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,138+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,141+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -430,7 +431,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,138+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,141+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
