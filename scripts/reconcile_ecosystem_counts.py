@@ -150,6 +150,90 @@ def walk_served_stamps(root, total, cat_count, check):
     return changed
 
 
+# --------------------------------------------------------------------------
+# The stats surfaces write bare numbers ("| Total repos indexed | 425 |" and
+# "411 repos · 18 categories · ..."). Every REPO_STAMPS pattern requires a
+# literal "+", so those two sat stale on 2026-10-22 while the rest of the page
+# moved: the directory said 427 distinct repos, the table said 425 and the
+# summary blockquote said 411 - three answers to one question on one page.
+# Derive them from the same census. Idempotent.
+# --------------------------------------------------------------------------
+STAT_ROW_MAP = {
+    "Total repos indexed": "__total__",
+    "Categories": "__categories__",
+    "Community awesome lists": "community-awesome-lists",
+    "UI/Dashboard projects": "ui-dashboards",
+    "Memory systems": "memory-knowledge",
+    "MCP integrations": "mcp-integrations",
+    "Skill collections & plugins": "skills-plugins",
+    "Tools & utilities": "tools-utilities",
+    "Research/benchmark projects": "research-benchmarks",
+    "Deployment & infra projects": "deployment-infrastructure",
+    "Domain applications": "domain-applications",
+    "Forks & derivatives": "forks-derivatives",
+    "Language-specific resources": "platform-specific",
+}
+STAT_ROW = re.compile(r"^\|\s*([^|]+?)\s*\|\s*(\d+)([^|]*)\|$")
+STAT_BLOCKQUOTE = re.compile(
+    r"^(> \*\*\U0001F4CA Ecosystem Stats:\*\* )(\d+) repos · (\d+) categories · "
+    r"(.+?) · (\d+) skill collections · (\d+) MCP integrations · (\d+) domain applications$")
+NOUS_ORG = re.compile(r"github\.com/(NousResearch/[A-Za-z0-9_.-]+)")
+
+
+def reconcile_stats_surface(path, index_text, counts, total, cat_count, check, changes):
+    """Fix the stats table + summary blockquote from the census."""
+    p = os.path.join(path)
+    if not os.path.exists(p):
+        return
+    text = open(p, encoding="utf-8").read()
+    lines = text.split("\n")
+    hits = 0
+    in_stats = False
+    nous_official = len(set(NOUS_ORG.findall(index_text)))
+    for i, line in enumerate(lines):
+        if line.startswith("## ") and "Ecosystem Stats" in line:
+            in_stats = True
+            continue
+        if in_stats and line.startswith("## "):
+            in_stats = False
+        if in_stats:
+            m = STAT_ROW.match(line)
+            if m:
+                label, old, tail = m.group(1), int(m.group(2)), m.group(3)
+                key = STAT_ROW_MAP.get(label)
+                target = None
+                if key == "__total__":
+                    target = total
+                elif key == "__categories__":
+                    target = cat_count
+                elif label == "Official Nous Research repos" and nous_official:
+                    target = nous_official
+                elif key and key in counts:
+                    target = counts[key]
+                if target is not None and target != old:
+                    lines[i] = f"| {label} | {target}{tail}|"
+                    hits += 1
+        mb = STAT_BLOCKQUOTE.match(line)
+        if mb:
+            want = (total, cat_count,
+                    counts.get("skills-plugins", int(mb.group(5))),
+                    counts.get("mcp-integrations", int(mb.group(6))),
+                    counts.get("domain-applications", int(mb.group(7))))
+            have = (int(mb.group(2)), int(mb.group(3)), int(mb.group(5)),
+                    int(mb.group(6)), int(mb.group(7)))
+            if want != have:
+                lines[i] = (f"{mb.group(1)}{want[0]} repos · {want[1]} categories · "
+                            f"{mb.group(4)} · {want[2]} skill collections · "
+                            f"{want[3]} MCP integrations · {want[4]} domain applications")
+                hits += 1
+    new = "\n".join(lines)
+    if hits and new != text:
+        changes.append((path, "stats table + summary blockquote", hits))
+        if not check:
+            open(p, "w", encoding="utf-8").write(new)
+    return hits
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     check = "--check" in sys.argv
@@ -255,6 +339,10 @@ def main():
         changes.append(("hermes/ecosystem/index.md", "quick nav counts", nav_changes))
         if not check:
             open(p, "w", encoding="utf-8").write(new_text)
+
+    # --- ecosystem stats table + summary blockquote (bare-number stamps) --
+    reconcile_stats_surface("hermes/ecosystem/index.md", index_text, counts,
+                            total, cat_count, check, changes)
 
     # --- repo-wide sweep: every served stamp, not just the hand-listed ones --
     # Root cause of the 2026-10-20 drift: the fix() list above enumerated files,
