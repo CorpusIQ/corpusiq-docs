@@ -1,0 +1,23 @@
+{
+  "name": "corpusiq",
+  "version": "1.0.0",
+  "description": "Ask business questions across 40+ connected tools (QuickBooks, Shopify, Stripe, GA4, HubSpot, Gmail and more) from Claude Code. Read-only, permissioned MCP access with source-cited answers.",
+  "author": {
+    "name": "CorpusIQ",
+    "email": "media@corpusiq.io",
+    "url": "https://corpusiq.io"
+  },
+  "homepage": "https://corpusiq.io",
+  "repository": "https://github.com/CorpusIQ/corpusiq-docs",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "business-data",
+    "analytics",
+    "connectors",
+    "quickbooks",
+    "shopify",
+    "stripe",
+    "google-analytics"
+  ]
+}
