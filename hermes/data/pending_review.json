@@ -79410,5 +79410,185 @@
     ],
     "discovered_at": "2026-10-22T10:04:35.650918+00:00",
     "status": "pending"
+  },
+  {
+    "name": "The1UNeed/hexbot",
+    "url": "https://github.com/The1UNeed/hexbot",
+    "description": "Self-hosted multi-agent desktop app. Hard fork of Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-10-22T11:00:42Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-22T11:00:58.554846+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ottobunge/hermes-android",
+    "url": "https://github.com/ottobunge/hermes-android",
+    "description": "Hermes Desktop for Android \u2014 1:1 port of the Hermes Agent desktop app (tablet = desktop layout, phone-adapted)",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-22T10:59:14Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "synthalorian/hermes-wingman",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "raulvidis/hermes-android"
+    ],
+    "discovered_at": "2026-10-22T11:00:58.559161+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "alexander-zimmermann/lares-agent-trigger",
+    "url": "https://github.com/alexander-zimmermann/lares-agent-trigger",
+    "description": "Turns episode events into Hermes runs and writes every run into the agent ledger",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-22T10:58:33Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-10-22T11:00:58.563428+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Shixi216/aiquant-lite",
+    "url": "https://github.com/Shixi216/aiquant-lite",
+    "description": "AI \u539f\u751f A \u80a1\u6295\u7814\u4e2d\u67a2\uff5c\u767e\u4e07\u7ea7\u672c\u5730\u6570\u636e \u00d7 \u91cf\u5316\u5b9e\u9a8c \u00d7 \u591a\u6a21\u578b\u7814\u7a76 \u00d7 \u53ef\u8ffd\u6eaf\u51b3\u7b56\u3002Research deeper. Decide with evidence. \u00b7 Local-first \u00b7 Hermes / MCP.",
+    "stars": 23,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "a-share",
+      "ai-research",
+      "duckdb",
+      "fastapi",
+      "local-first",
+      "mcp",
+      "multi-agent",
+      "paper-trading",
+      "point-in-time",
+      "quantitative-finance",
+      "stock-analysis",
+      "vue3"
+    ],
+    "updated_at": "2026-10-22T10:19:48Z",
+    "category": "mcp",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-22T11:01:06.310231+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "duu261/claude-wannabe-gpt",
+    "url": "https://github.com/duu261/claude-wannabe-gpt",
+    "description": "Production ops discipline skill for fast AI agents: GPT-style strictness on changes, Opus speed on reads.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent-safety",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-opus",
+      "codex",
+      "devops",
+      "guardrails",
+      "hermes-agent",
+      "llm",
+      "production",
+      "prompt-engineering",
+      "sre"
+    ],
+    "updated_at": "2026-10-22T11:01:03Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-22T11:01:21.781704+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "duu261/agent-skills",
+    "url": "https://github.com/duu261/agent-skills",
+    "description": "Agent skills from real work, not toy tasks. Currently: production-ops-discipline, written by claude-opus-5-5 for claude-opus-5-5.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent-safety",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-opus",
+      "codex",
+      "devops",
+      "guardrails",
+      "hermes-agent",
+      "llm",
+      "production",
+      "prompt-engineering",
+      "sre"
+    ],
+    "updated_at": "2026-10-22T10:59:51Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-10-22T11:01:21.786080+00:00",
+    "status": "pending"
   }
 ]

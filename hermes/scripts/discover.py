@@ -191,6 +191,50 @@ def save_db(path, data):
         json.dump(data, f, indent=2, default=str)
 
 
+def sync_contributors(submissions, approved_count):
+    """Write the submission tally to BOTH contributors surfaces.
+
+    contributors.md is a MIRROR: mkdocs serves hermes/contributors/index.md.
+    Updating only the mirror left the live page frozen (served page read 2694
+    while the mirror read 2701). Same published-vs-mirror split that
+    integrate_approved.py closes for ecosystem. Keep both in lockstep here so
+    no nightly run can drift again.
+    """
+    import re
+    today = datetime.now(AZ_TZ).strftime("%Y-%m-%d")
+    row_re = re.compile(
+        r"(\| \[@?CorpusIQ\]\(https://github\.com/CorpusIQ\) \| )(\d+)( \| )(\d+)( \|)"
+    )
+    targets = [
+        REPO_ROOT / "contributors.md",
+        REPO_ROOT / "contributors" / "index.md",
+    ]
+    touched = []
+    for path in targets:
+        if not path.exists():
+            continue
+        text = path.read_text()
+        new_text = row_re.sub(
+            lambda m: m.group(1) + str(submissions) + m.group(3)
+            + str(approved_count) + m.group(5),
+            text,
+        )
+        new_text = re.sub(
+            r"(\*Last updated: )\d{4}-\d{2}-\d{2}(\. Powered by)",
+            lambda m: m.group(1) + today + m.group(2),
+            new_text,
+        )
+        new_text = re.sub(
+            r"(?m)^(last_updated: )\d{4}-\d{2}-\d{2}$",
+            lambda m: m.group(1) + today,
+            new_text,
+        )
+        if new_text != text:
+            path.write_text(new_text)
+            touched.append(path.name)
+    return touched
+
+
 def is_duplicate(repo_full_name, approved, pending, rejected):
     """Check if repo already exists in any database."""
     all_names = set()
@@ -361,6 +405,11 @@ def discover_repos(token, dry_run=False):
     save_db(REVIEW_LOG, review_log)
 
     print(f"\n💾 Saved: {len(approved)} approved, {len(pending)} pending, {len(review_log)} log entries")
+
+    # Keep the submission tally in lockstep on BOTH contributors surfaces.
+    synced = sync_contributors(len(pending), len(approved))
+    if synced:
+        print(f"👥 contributors synced ({len(pending)} submissions, {len(approved)} approved): {', '.join(synced)}")
 
     # Auto-update ecosystem.md with new approved repos
     if auto_approved:
