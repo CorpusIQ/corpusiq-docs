@@ -170,12 +170,10 @@ Under 5 minutes from signup to Slack answers in ChatGPT.
 - [ChatGPT Integration Overview](chatgpt-integration.md)  --  the full integration
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md)  --  why MCP wins
 - [MCP for Operations](mcp-for-operations.md)  --  MCP for ops teams
-- [Slack Connector Reference](connect-slack-to-chatgpt.md)  --  technical details
+- [Slack Connector Reference](connectors/slack.md)  --  technical details
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 
-*Connect Connect Slack to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Slack to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

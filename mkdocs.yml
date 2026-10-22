@@ -145,6 +145,8 @@ nav:
   - Connect Notion to ChatGPT: connect-notion-to-chatgpt.md
   - Connect SharePoint to ChatGPT: connect-sharepoint-to-chatgpt.md
   - Connect Gmail to ChatGPT: connect-gmail-to-chatgpt.md
+  - Connect Google Calendar to ChatGPT: connect-google-calendar-to-chatgpt.md
+  - Connect Google Drive to ChatGPT: connect-google-drive-to-chatgpt.md
   - Connect Outlook to ChatGPT: connect-outlook-to-chatgpt.md
   - Connect Klaviyo to ChatGPT: connect-klaviyo-to-chatgpt.md
   - Connect Google Ads to ChatGPT: connect-google-ads-to-chatgpt.md
@@ -152,6 +154,8 @@ nav:
   - Connect Amazon Seller to ChatGPT: connect-amazon-seller-to-chatgpt.md
   - Connect Google Search Console to ChatGPT: connect-google-search-console-to-chatgpt.md
   - Connect Google Sheets to ChatGPT: connect-google-sheets-to-chatgpt.md
+  - Connect Airtable to ChatGPT: connect-airtable-to-chatgpt.md
+  - Connect Mailchimp to ChatGPT: connect-mailchimp-to-chatgpt.md
   - Connect PostgreSQL to ChatGPT: connect-postgresql-to-chatgpt.md
 - Claude Integrations:
   - Connect Shopify to Claude: connect-shopify-to-claude.md

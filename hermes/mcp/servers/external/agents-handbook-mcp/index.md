@@ -84,5 +84,4 @@ The midday pass read it at title level and held it as an agent-playbook knowledg
 
 ## See Also
 
-- [Runbook v1 - Governed MCP Workflow Contract](/hermes/mcp/runbook-v1/)
-- [TechFabric MCP - Databricks and AI Content Search](/hermes/mcp/servers/external/techfabric-mcp/)
+- [Runbook v1 - Governed MCP Workflow Contract](/hermes/mcp/runbook-v1)

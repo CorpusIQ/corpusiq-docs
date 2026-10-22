@@ -87,5 +87,5 @@ Because the MCP surface is a support operation rather than a clinic tool, and be
 
 ## See Also
 
-- [Runbook v1 - Governed MCP Workflow Contract](/hermes/mcp/runbook-v1/)
+- [Runbook v1 - Governed MCP Workflow Contract](/hermes/mcp/runbook-v1)
 - [Agents Handbook MCP - Tested Playbooks Before the Run](/hermes/mcp/servers/external/agents-handbook-mcp/)

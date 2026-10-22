@@ -172,9 +172,7 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 - [CorpusIQ Security Architecture](../security/)  --  how data stays safe
 
-*Connect Connect Asana to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Asana to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

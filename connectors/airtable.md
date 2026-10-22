@@ -43,6 +43,10 @@ CorpusIQ never writes, edits, or deletes Airtable data.
 - **"Base not found"** - Your token wasn't granted access to that base. Edit the token at airtable.com/create/tokens and add the base.
 - **"Insufficient scope"** - Token is missing `data.records:read` or `schema.bases:read`. Recreate with both.
 - **Records look stale** - Airtable API returns live data; check whether you're looking at the right view or whether a filter has hidden recent rows.
+
+## See also
+
+- [Connect Airtable to ChatGPT](../connect-airtable-to-chatgpt.md) - the ChatGPT setup, the token scopes that matter and the questions worth asking.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

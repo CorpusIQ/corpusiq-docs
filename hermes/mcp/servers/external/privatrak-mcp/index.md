@@ -107,6 +107,6 @@ The free plan is $0 with 10,000 events a month and no card. Starter is $19 a mon
 
 - [Cookie Free Analytics MCP - Cookieless GDPR-First Web](/hermes/mcp/servers/external/cookiefreeanalytics-mcp)
 - [Jitsu MCP](/hermes/mcp/servers/external/jitsu)
-- [Google Analytics MCP](/hermes/mcp/servers/external/google-analytics-mcp/)
+- [Google Analytics MCP](/hermes/mcp/servers/external/google-analytics-mcp)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

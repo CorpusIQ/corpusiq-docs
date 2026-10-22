@@ -99,4 +99,4 @@ Metabase is a BI reader over your warehouse. Muvia is a data platform whose agen
 ## See Also
 
 - [Metabase MCP](/hermes/mcp/servers/external/metabase-mcp/)
-- [MCP Server Discovery - October 22, 2026 (Midday Supplement)](/hermes/mcp/sweeps/sweep-october22-2026-midday-supplement/)
+- [MCP Server Discovery - October 22, 2026 (Midday Supplement)](/hermes/mcp/sweeps/sweep-october22-2026-midday-supplement)
