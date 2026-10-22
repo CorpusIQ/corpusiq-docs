@@ -230,6 +230,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Luxor Claude Marketplace Skills Setup](/hermes/skills/catalog/luxor-claude-marketplace-setup)
 - [Marimo Skills - Notebook Agents Setup](/hermes/skills/catalog/marimo-skills-setup)
 - [Claude Skills Generator - Coding Setup](/hermes/skills/catalog/claude-skills-generator-setup)
+- [Ant Design Skills - Official antd Agent Suite Setup](/hermes/skills/catalog/ant-design-skills-setup)
 - [AntiGravity Lazy Pack Skills Setup](/hermes/skills/catalog/antigravity-lazy-pack-setup)
 - [Microsoft Learn MCP Skills Setup](/hermes/skills/catalog/microsoft-learn-mcp-skills-setup)
 - [Mindrally Skills - 255+ Coding Setup](/hermes/skills/catalog/mindrally-skills-setup)
