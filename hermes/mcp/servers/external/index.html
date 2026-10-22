@@ -10448,6 +10448,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-21-2026-evening-sweep-2-new-2-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 21, 2026 - Evening Sweep (2 New, 2 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-21-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -25133,6 +25144,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-21-2026-evening-sweep-2-new-2-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 21, 2026 - Evening Sweep (2 New, 2 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-21-2026-midday-supplement-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39536,8 +39558,19 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 21, 2026 (midday supplement) · <strong>Sources:</strong> mcp.so /feed page 1 recaptured at 18:00Z (30 cards, one posted inside the hour) + mcpservers.org /all pages 1 to 3 through the r.jina.ai reader proxy (89 slugs) + the midday report's carried cards read to detail level + vendor documentation and live JSON-RPC probes against every candidate endpoint · <strong>Catalog:</strong> 967 servers (+847 guides)</p>
+<p><strong>Last updated:</strong> October 21, 2026 (evening sweep) · <strong>Sources:</strong> mcpservers.org /all pages 1 to 3 newest-first (90 cards) cross-referenced slug by slug against every sweep record from July 19 to October 21 + mcp.so /feed page 1 (30 cards, all matched to prior dispositions) + vendor documentation and live JSON-RPC probes against every candidate endpoint · <strong>Catalog:</strong> 969 servers (+849 guides)</p>
 </blockquote>
+<h2 id="october-21-2026-evening-sweep-2-new-2-guides">🆕 October 21, 2026 - Evening Sweep (2 New, 2 Guides)<a class="headerlink" href="#october-21-2026-evening-sweep-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
+<p>An evening delta eight hours after the midday supplement. The feed page repeated itself in full, all thirty cards matching prior dispositions, while mcpservers.org <code>/all</code> newest-first carried the two genuinely new business-relevant slugs. Both catalogued entries were settled by running the endpoint, and one of them by running a real tool call rather than a handshake.</p>
+<ul>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/unipost-mcp">UniPost MCP - LinkedIn and X Publishing With Approval</a> · remote Streamable HTTP server at <code>https://mcp.unipost.ai/mcp</code>, OAuth in the browser or a workspace API key, by UniPost (unipost.ai). Live probe: unauthenticated <code>POST initialize</code> returned HTTP 401 carrying the server's own message, <code>{"error":{"code":-32001,"message":"Sign in to UniPost, or create an API key in UniPost → API keys."}}</code>. Seven tools are named in the vendor's reference: <code>list_accounts</code>, <code>list_posts</code>, <code>schedule_post</code>, <code>approve_post</code>, <code>cancel_post</code>, <code>get_analytics</code> and <code>get_x_allowance</code>. Scheduling and approving are separate tools on purpose, <code>schedule_post</code> always creates <code>pending_approval</code> and returns an approval link, a post created by another person's agent cannot be approved through the tool at all, and TikTok posts must be approved on the vendor screen because their privacy settings live there. Pricing is graduated per connected account, two free, $3 for accounts 3 to 10, $1 for 11 to 30 and $0.50 above, yearly at ten times monthly. The X credit model is the operationally load-bearing fact: a plain post costs 1 credit, a post containing a link costs 13, the free allowance is 10 credits a month, and a paid workspace gets 50 per X account for its first ten and 20 after, with 10 posts an hour and 25 a day enforced at publish time rather than at schedule time. <strong>Packaged addition, not a gap:</strong> the publishing class is six deep here through PendPost, TimeToPost, BulkPublish, Blog2Social, Chirpie and Maeve Social, and this is recorded for the pricing shape and the two-tool approval split.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agents-handbook-mcp">Agents Handbook MCP - Tested Playbooks Before the Run</a> · keyless remote Streamable HTTP server at <code>https://agentshandbook.com/mcp</code>, no sign-in and no key, by Agents Handbook (agentshandbook.com). Probed live and driven: <code>POST initialize</code> returned HTTP 200 (serverInfo <code>agentshandbook</code> 0.1.0, protocol 2025-06-18, tools, resources and prompts capabilities, plus server instructions), <code>tools/list</code> returned eleven tools counted rather than claimed, and a real <code>tools/call</code> on <code>search_playbooks</code> for "reconcile receipts against bank transactions" at <code>min_trust: corroborated</code> returned one playbook, <code>match-receipts-to-bank-transactions-for-your-accountant</code>, graded corroborated and high risk with the four agents it is written for plus page and markdown URLs. Every playbook carries a trust level from <code>reported</code> through <code>corroborated</code>, <code>tested</code> and <code>confirmed</code>, a risk level, and human checkpoints defined as the steps that spend money, send messages, submit forms or delete data. Failures sit in a separate <code>get_lessons</code> surface, <code>report_run</code> writes a worked, worked-with-changes or failed result into a review queue rather than straight into the record, and <code>submit_playbook</code>, <code>submit_use_case</code>, <code>check_submission</code> and <code>register_contributor</code> carry the contribution side. 54 playbooks across ten categories, a markdown twin on every URL, and a plain search endpoint at <code>/api/v1/search?q=</code>. <strong>Reverses a title-level hold:</strong> the midday supplement held this as an agent-playbook knowledge surface read at title level, and read to detail it earns an entry on mechanism rather than topic, because numbered checkpoints plus an evidence grade per playbook is the closest live analogue to the governance contract this docs set publishes.</p>
+</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> Lead Gen Marketing Intelligence at <code>https://lead-gen-system.upapi.io/api/mcp</code> held on documentation rather than product, because the endpoint is live and gated (HTTP 401 <code>missing authorization header</code>) and the directory promises ten read-only tools across nine social platforms, while <code>/llms.txt</code> and the root both serve the sign-in screen and the listing URL <code>/settings/mcp</code> is a dashboard page returning 307 to login, so an entry would be vendor marketing text with a status code behind it; Polign Recall read this cycle after the midday pass recorded it as a 404 shell, Apache 2.0 with corrections-as-records, <code>as_of</code>, <code>history</code> and <code>diff</code>, held against a dense memory class and noted for sharing the shape of a trust contract; match.bot held as novelty agent infrastructure with no operator data in it; UAIN Research Pilot held as a research marketplace at pilot stage; Waldo held as desktop automation infrastructure on the ShadowCursor and Zeptap precedent; Arquimedes held as a study corpus; and POEditor held as developer tooling. Twenty-six further <code>/all</code> cards carried prior dispositions without re-litigation, and all thirty mcp.so <code>/feed</code> page 1 cards matched an existing sweep record, which is recorded as a source behaviour: at gaps under about twelve hours, <code>/all</code> carries the fresh slugs and the feed repeats.</p>
 <h2 id="october-21-2026-midday-supplement-2-new-2-guides">🆕 October 21, 2026 - Midday Supplement (2 New, 2 Guides)<a class="headerlink" href="#october-21-2026-midday-supplement-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
 <p>A supplement about an hour after the midday capture, run against all three surfaces once more. The directories were unchanged inside the hour, so the delta came from the feed recapture and from the ledger itself: one card was posted past the midday cut at 17:16Z, and three cards the midday report recorded as carried prior dispositions had no ledger entry behind them. All four were read to detail level and every catalogued one was settled by running the endpoint.</p>
 <ul>
@@ -47286,7 +47319,13 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <li>
 <p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/shopify-speed-check-mcp">Shopify Speed Check MCP - Store Speed and Plan Fees</a></p>
 </li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/iqfluence-mcp">IQFluence MCP - Creator Vetting and Media Plans</a></li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/iqfluence-mcp">IQFluence MCP - Creator Vetting and Media Plans</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/unipost-mcp">UniPost MCP - LinkedIn and X Publishing With Approval</a></p>
+</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agents-handbook-mcp">Agents Handbook MCP - Tested Playbooks Before the Run</a></li>
 </ul>
 
 
