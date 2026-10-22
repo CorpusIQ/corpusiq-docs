@@ -3,7 +3,7 @@ title: "Hermes Agent Changelog - CorpusIQ Docs"
 description: Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/"
 robots: "index,follow"
-last_updated: "2026-10-21"
+last_updated: "2026-10-22"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -16,6 +16,7 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.22.4](/hermes/changelog/v0.22.4) | October 21, 2026 | Patch Release | Patch release. Desktop stops showing suggestion pills above the composer, plus small plugin and dashboard fixes, for the CLI and installer, the Microsoft Store app, Docker and Hermes Cloud. |
 | [v0.22.3](/hermes/changelog/v0.22.3) | October 21, 2026 | Patch Release | Patch release. This tag rolls up the ~620 PRs merged since v0.22.2 into a stable release for the CLI and installer, the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship... |
 | [v0.22.2](/hermes/changelog/v0.22.2) | October 15, 2026 | Patch Release | v0.22.1 was built from the wrong commit. It shipped unreleased gateway work, and the Microsoft Store app could stick on "Connecting." 0.22.2 is the release 0.22.1 was meant to be. |
 | [v0.22.1](/hermes/changelog/v0.22.1) | October 14, 2026 | Patch Release | This is a patch release, with a handful of fixes for the Windows Store, plugin updates, and more. |
@@ -76,7 +77,7 @@ When a new release is detected, a changelog page is generated, committed to `Cor
 
 ### What is the latest Hermes Agent version?
 
-v0.22.3, published October 21, 2026. See the release notes for the full changes.
+v0.22.4, published October 21, 2026. See the release notes for the full changes.
 
 ### How often is the Hermes changelog updated?
 
@@ -96,7 +97,7 @@ Run `hermes update` from the terminal, or install fresh with the official instal
       "name": "What is the latest Hermes Agent version?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "v0.22.3, published October 21, 2026. See the release notes for the full changes."
+        "text": "v0.22.4, published October 21, 2026. See the release notes for the full changes."
       }
     },
     {
