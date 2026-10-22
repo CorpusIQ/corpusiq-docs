@@ -111,8 +111,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-21",
-    "dateModified": "2026-10-21",
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-21">
+  <meta name="last-updated" content="2026-10-22">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10446,6 +10446,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-22-2026-night-sweep-3-new-3-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 22, 2026 - Night Sweep (3 New, 3 Guides)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-21-2026-evening-sweep-2-new-2-guides" class="md-nav__link">
@@ -25144,6 +25155,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-22-2026-night-sweep-3-new-3-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 22, 2026 - Night Sweep (3 New, 3 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-21-2026-evening-sweep-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39558,8 +39580,22 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 21, 2026 (evening sweep) · <strong>Sources:</strong> mcpservers.org /all pages 1 to 3 newest-first (90 cards) cross-referenced slug by slug against every sweep record from July 19 to October 21 + mcp.so /feed page 1 (30 cards, all matched to prior dispositions) + vendor documentation and live JSON-RPC probes against every candidate endpoint · <strong>Catalog:</strong> 969 servers (+849 guides)</p>
+<p><strong>Last updated:</strong> October 22, 2026 (night sweep) · <strong>Sources:</strong> mcpservers.org /all pages 1 to 3 newest-first (85 cards, every one a prior disposition) + mcp.so /feed page 1 (30 cards, diffed against the ledger card by card) + vendor documentation and live JSON-RPC probes against every candidate endpoint, with real tool calls on all three catalogued servers · <strong>Catalog:</strong> 972 servers (+852 guides)</p>
 </blockquote>
+<h2 id="october-22-2026-night-sweep-3-new-3-guides">🆕 October 22, 2026 - Night Sweep (3 New, 3 Guides)<a class="headerlink" href="#october-22-2026-night-sweep-3-new-3-guides" title="Anchor link to this section">&para;</a></h2>
+<p>A night delta about six hours after the evening capture. The two surfaces disagreed: mcpservers.org <code>/all</code> pages 1 to 3 returned 85 unique slugs and every one matched a disposition already in the ledger, while the mcp.so <code>/feed</code> page 1 carried eight cards from the previous record's window that no sweep page had ever named. Every catalogued entry below was settled by running a real tool call rather than a handshake, and in one case the real call contradicted the card.</p>
+<ul>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/drurls-mcp">DrUrls MCP - SEO Audit With Fixes and Indexability</a> · remote server at <code>https://drurls.com/mcp</code>, OAuth 2.1 with dynamic client registration, a dashboard API key also accepted, by DrUrls (drurls.com). Live probe: <code>POST initialize</code> returned HTTP 200 (serverInfo <code>drurls</code> 1.0.0, title "DrUrls - SEO intelligence", protocol 2025-03-26) and <code>tools/list</code> returned 11 tools. Driven with a real call: <code>free_page_check</code> on <code>https://corpusiq.io</code> returned score 91, grade A, 149 ms response time, 4,056 words, 133 internal and 11 external links, 85 images with 0 missing alt, and eight open issues with codes such as <code>CORS_WILDCARD</code>, <code>RENDER_BLOCKING_RESOURCES</code>, <code>EXCESSIVE_DOM_SIZE</code>, <code>CSP_UNSAFE_INLINE</code>, <code>IMAGE_FORMAT_NOT_MODERN</code> and <code>CONTENT_LANGUAGE_HEADER_MISSING</code>, each carrying <code>severity</code>, <code>whyItMatters</code> and <code>howToFix</code>. The rest of the surface is a portfolio view: <code>start_scan</code> and <code>get_scan_status</code> for crawls, <code>list_sites</code> for every site with its latest score and grade, <code>find_issues</code> grouped by type with an example page, <code>check_google_visibility</code> for noindex tags, robots blocks, sitemap errors, canonical problems and redirects, <code>get_improvement_plan</code> ranked by pages touched, <code>generate_report</code> for the client-ready version, and <code>list_tester_offers</code> with <code>hire_tester</code> to order a real person on a real device. Credits: scan 1, screenshot 1, AI review 2, test run 2, video 5, tester order 1. Plans: Free $0 with 5 credits a month, Pro $29 ($24 annual) with 250, Agency $79 ($66) with 1250, Enterprise $199 ($166) unlimited, extra credits $0.80 down to $0.20 by tier. <strong>Gap named rather than claimed:</strong> the SEO class here is carried by single-page scorers and content generators; this adds an org-wide crawl with per-site score history, an indexability check that names the specific mechanism blocking Google, and a paid human device test, while closing no content-generation gap.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ruzora-mcp">Ruzora MCP - LATAM Engineering Hire With Compliance</a> · remote server at <code>https://mcp.ruzora.com/mcp</code>, no sign-in for the planning and compliance tools, a two-step work-email code before actions that need a verified buyer, by Ruzora (ruzora.com). Live probe: <code>POST initialize</code> returned HTTP 200 (serverInfo <code>ruzora</code> 1.0.0, protocol 2025-03-26, tools, prompts and resources capabilities) and <code>tools/list</code> returned 35 tools. Driven with a real call: <code>check_pay_transparency</code> with locations California and New York returned three rules, <code>Cal. Lab. Code § 432.3</code> as amended by SB 642 effective 2026-01-01, <code>N.Y. Lab. Law § 194-b</code> with the four-employee test flagged as the operator's to confirm because no headcount was supplied, and N.Y.C. Admin. Code § 8-107(32) as <code>May apply</code>, each with severity, a fix line and a source URL, plus <code>notes: ["Rules as of 2026-10-04."]</code> and an explicit not-legal-advice disclaimer. Planning tools build a role scorecard, calibrate seniority and compare hiring models; compliance tools are <code>lint_job_post</code> and <code>write_job_description</code>; screening runs <code>triage_resumes</code>, <code>review_code_sample</code> and the entry's real differentiator, <code>detect_resume_injection</code>, which screens resume text for hidden instructions and invisible characters aimed at an AI screener; the interview side covers kits, coding assessments, note scoring and reference plans; supply is <code>search_vetted_engineers</code>, <code>check_market_supply</code>, <code>request_vetted_shortlist</code> and <code>verify_ruzora_badge</code>. Terms from the vendor's own pricing page: flat monthly rate per engineer quoted per role, 40 to 60 percent below a fully loaded US hire, three-month initial commitment then month to month on 30 days' notice, 60-day replacement guarantee, payroll through Deel. Filed as an addition to the hiring class carried by Veritahire, OpenHire, Level Jobs and JobYap, which are boards and workflows.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/jenni-mcp">JENNi MCP - Local Shelf Availability and Same-Day Checkout</a> · keyless remote server at <code>https://shop.jennipro.com/mcp</code>, by JENNi (jennipro.com). Live probe: <code>POST initialize</code> returned HTTP 200 (serverInfo <code>jenni-shopping</code> 2.0.0, protocol 2025-03-26) and <code>tools/list</code> returned 5 tools. Driven three times with real calls: <code>search_catalog</code> at ZIP 78205 for a USB-C cable returned priced products carrying <code>shelf_observed_at</code>, per-offer eligibility flags and a delivery promise; <code>get_buying_options</code> on one product at 78205 returned <code>available: true</code>, unit $6.00, <code>local_delivery_fee</code> $9.99, total $15.99 before tax and ETA <code>same_day</code>; the same product at ZIP 85262 returned <code>available: false</code> with <code>reason_code: no_live_offer</code>. That third call is why the entry exists, because a price scraper returns $6.00 for both addresses and the agent then promises a delivery no shelf can make. Coverage at capture was 79 San Antonio ZIP codes, order by 5:00 PM Central Monday to Saturday, $9.99 per order, with <code>tax: added_at_checkout</code>. The server's instructions set the discipline this entry repeats: never present a national fallback as local, and offer only a verified fulfillment mode.</p>
+</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> on the mcp.so feed, read and held: deed.page (<code>https://deed.page</code>, keyless, 200, serverInfo <code>deed.page</code> 1.9.9, 24 tools including <code>publish_site</code>, <code>update_site</code>, <code>rotate_token</code>, custom hostnames and Stripe upgrade links at $3 Hobby and $15 Pro) as static-site publishing and deploy infrastructure, the class carried by Cloudzyro and Lavela; LeadShark Apex (<code>https://apex.leadshark.io</code>, <code>POST initialize</code> HTTP 401 <code>{"error":"API key or Bearer token is required"}</code>, a positive liveness signal) as lead generation against Leadbay, LeadGen, DeepLead and Heylead; CommerceAI as a shopping agent against JENNi, catalogued this cycle with a verified per-ZIP availability answer rather than a catalogue search; Goldsky (<code>https://docs.goldsky.com/mcp</code>, keyless, 200) as developer documentation search against TechFabric, with its own instructions confirming it is read-only and scoped to published docs; Kodza as a developer utility (free UI components in plain HTML, CSS and vanilla JS); DeviceLink as agent file infrastructure (folders shared from a machine, nothing uploaded, available only while the sharing device is connected); OpenCityRecord (<code>https://mcp.opencityrecord.org/mcp</code>, HTTP 401 <code>Missing Authorization: Bearer</code> carrying the server's own message, city council meetings, votes and documents) against the civic data class carried by CivicDataForge and GovGazette; SimpleBackups (<code>https://mcp.simplebackups.ai/mcp</code>, HTTP 401 <code>{"success":false,"message":"Unauthenticated."}</code>) as infrastructure utility rather than an operator data surface; and YesTechie on a 214-byte detail page carrying no product information, the empty-shell class recorded on prior sweeps. PeopleRouter, CapSolver, Scrapling x402 Data Store, Quest: Hire a Human, Summer and superbot carried their previous night's dispositions without re-litigation. On mcpservers.org <code>/all</code> pages 1 to 3, all 85 unique slugs matched a recorded disposition, most of them named in the October 21 night sweep that read pages 1 to 4 for the first time.</p>
 <h2 id="october-21-2026-evening-sweep-2-new-2-guides">🆕 October 21, 2026 - Evening Sweep (2 New, 2 Guides)<a class="headerlink" href="#october-21-2026-evening-sweep-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
 <p>An evening delta eight hours after the midday supplement. The feed page repeated itself in full, all thirty cards matching prior dispositions, while mcpservers.org <code>/all</code> newest-first carried the two genuinely new business-relevant slugs. Both catalogued entries were settled by running the endpoint, and one of them by running a real tool call rather than a handshake.</p>
 <ul>
@@ -47325,7 +47361,14 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <li>
 <p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/unipost-mcp">UniPost MCP - LinkedIn and X Publishing With Approval</a></p>
 </li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agents-handbook-mcp">Agents Handbook MCP - Tested Playbooks Before the Run</a></li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agents-handbook-mcp">Agents Handbook MCP - Tested Playbooks Before the Run</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/drurls-mcp">DrUrls MCP - SEO Audit With Fixes and Indexability</a></p>
+</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ruzora-mcp">Ruzora MCP - LATAM Engineering Hire With Compliance</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/jenni-mcp">JENNi MCP - Local Shelf Availability and Same-Day Checkout</a></li>
 </ul>
 
 
