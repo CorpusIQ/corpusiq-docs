@@ -246,6 +246,31 @@ def main():
     else:
         print("   Rosters already current")
 
+    # 2d-i. Ecosystem count reconciliation. The approved-repo ledger
+    #      (hermes/data/approved_repos.json) is the source of truth; the
+    #      "N auto-approved / N repos indexed / maintainer approved" stamps
+    #      in README.md, ecosystem.md and contributors/index.md are derived
+    #      text that only gets bumped by whoever approves an entry. It drifted
+    #      every approval (192 in the ledger, 191 shipped) and only a manual
+    #      reconcile caught it. Running it here means a drifted stamp can
+    #      never reach production: one rule at the deploy boundary, no
+    #      per-page patching.
+    print("2d-i. Reconciling ecosystem count stamps to the approved ledger...")
+    run("python3 scripts/reconcile_ecosystem_counts.py", fatal=True)
+    dirty_counts = run(
+        "git status --porcelain -- hermes/README.md hermes/ecosystem.md "
+        "'hermes/contributors/index.md'"
+    ).strip()
+    if dirty_counts:
+        run(
+            "git add -- hermes/README.md hermes/ecosystem.md "
+            "'hermes/contributors/index.md' && git commit -m "
+            "'chore: reconcile ecosystem count stamps to approved ledger (auto, deploy)'"
+        )
+        print(f"   Count stamps reconciled ({len(dirty_counts.splitlines())} file(s))")
+    else:
+        print("   Count stamps already agree with the ledger")
+
     # 2e. Catalog index gate. Blocks the deploy on a broken skills roster
     #     (an empty "Coming soon" table beside real skill pages, or a row
     #     linking to a page that does not exist). Twelve index pages shipped
