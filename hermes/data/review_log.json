@@ -19008,5 +19008,54 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-22T05:03:26.476391+00:00"
+  },
+  {
+    "repo": "MikeMoore1337/hermes",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-22T10:03:41.374358+00:00"
+  },
+  {
+    "repo": "ArthurReboulSalze/Sherka-Compagnon",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-22T10:03:41.374370+00:00"
+  },
+  {
+    "repo": "rtrojer/splunk-agentic-demo-hermes",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-22T10:03:41.374373+00:00"
+  },
+  {
+    "repo": "Strongbridge/hermes-profiles",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-22T10:03:41.374376+00:00"
+  },
+  {
+    "repo": "koldfrontier/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-22T10:03:41.374378+00:00"
+  },
+  {
+    "repo": "hirochimi/hermes-agent-study",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-22T10:03:41.374380+00:00"
+  },
+  {
+    "repo": "nradawg/codex-cu-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-22T10:04:35.651968+00:00"
   }
 ]
