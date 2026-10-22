@@ -6194,6 +6194,101 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Airtable to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-airtable-to-chatgpt
+
+
+# How to Connect Airtable to ChatGPT with CorpusIQ MCP
+
+Airtable holds the work that never makes it into a reporting tool: the content calendar, the hiring pipeline, the partnership tracker, the product roadmap. The records are current and the answers are not, because nobody exports a base to answer one question. **Connecting Airtable to ChatGPT through CorpusIQ MCP** makes those bases queryable in plain English, read-only, against the records as they stand.
+
+Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+## What Questions Can You Ask?
+
+- "Which items in the content calendar are still in Draft two weeks before publish?"
+- "Show me every record in the hiring pipeline where stage is Onsite."
+- "How many partnership conversations are waiting on legal?"
+- "Pull the roadmap rows owned by the platform team and list their status."
+- "Which Airtable records mention this customer by name?"
+
+The useful questions are usually the join questions. Airtable holds the commitment; the invoice, the ticket and the campaign hold the consequence. One question across both is the reason to connect the base at all.
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector lists bases, tables, records and single records, and searches records by keyword. It never creates, edits or deletes a record, and it cannot change a base schema.
+</details>
+
+<details>
+<summary><strong>How does the connection authenticate?</strong></summary>
+
+With an Airtable personal access token that you create. The token carries two read scopes, `data.records:read` and `schema.bases:read`, and it is granted access to specific bases. Anything the token cannot reach, the connector cannot see, which makes the token scope the whole permission model.
+</details>
+
+<details>
+<summary><strong>Do I need to share every base?</strong></summary>
+
+No, and you probably should not. Grant the token the bases a question would actually use. A base you never ask about is a base you do not need to expose, and revoking it later is an edit to the token rather than a support request.
+</details>
+
+<details>
+<summary><strong>Can it answer across Airtable and my other systems?</strong></summary>
+
+Yes, and that is the point of putting the base behind an MCP connector rather than opening Airtable in a second tab. "Which blocked roadmap items belong to accounts with an open support ticket" spans Airtable, the CRM and the helpdesk in one answer.
+</details>
+
+<details>
+<summary><strong>What about views and filters?</strong></summary>
+
+The connector reads records from a table. Where a base uses views to hide archived or test rows, say so in the question, for example "active rows only, not the archive view". A view you rely on for filtering becomes a sentence in the question rather than a hidden default.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. When you ask, the connector reads Airtable as it stands. A record edited a minute ago is visible to the next question.
+</details>
+
+<details>
+<summary><strong>Where is my data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational query logs may persist for up to 30 days. See our [security documentation](../security/) for the detail.
+</details>
+
+## How It Works
+
+1. You create an Airtable personal access token, give it the two read scopes and grant it the bases you want visible.
+2. You paste the token into CorpusIQ and the connector turns green.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT discovers the Airtable tools and calls them when a question needs base data.
+5. Answers name the base, table and record they came from.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Create the token.** Airtable, Developer hub, Personal access tokens, then add `data.records:read` and `schema.bases:read` and select the bases.
+3. **Connect Airtable** in the CorpusIQ dashboard with that token.
+4. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+5. **Verify.** Ask "list my bases" first. If the base list is right, the scope is right.
+6. **Explore.** Then ask the pipeline question that has been a manual filter for months.
+
+## Related Pages
+
+- [Airtable connector reference](connectors/airtable.md) - scopes, visible objects and troubleshooting
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other document-shaped knowledge base
+- [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - work tracking in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - records that belong to a customer
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
 # How to Connect Amazon Seller Central to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt
 
@@ -7007,6 +7102,182 @@ Yes. The API returns data based on the property's configured reporting identity 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Google Calendar to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-calendar-to-chatgpt
+
+
+# How to Connect Google Calendar to ChatGPT with CorpusIQ MCP
+
+A calendar is the most accurate record of where a business actually spends its attention. It is also the hardest system to interrogate, because the interface answers one week at a time. **Connecting Google Calendar to ChatGPT through CorpusIQ MCP** turns the calendar into a dataset: what is booked, who keeps appearing, which commitments repeat, and what a decision is going to cost in hours before it is made.
+
+The calendar arrives through the same Google connection as Gmail, Drive, Sheets, Analytics, Ads and Search Console, so it is one authorization rather than a seventh integration to maintain.
+
+Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+## What Questions Can You Ask?
+
+- "What is on my calendar before the board meeting on Thursday?"
+- "How many hours of external meetings did the team have last month, by week?"
+- "Which recurring meetings involve more than six people?"
+- "What did I commit to in my meeting with this customer, and when is the follow-up?"
+- "Find every event with this account in the title over the last six months."
+- "Which days next week have no focus time left?"
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector lists calendars, lists upcoming events, retrieves a single event and searches events by text. It cannot create, edit or delete an event, and it cannot invite anyone.
+</details>
+
+<details>
+<summary><strong>Which calendars can it see?</strong></summary>
+
+The calendars the connected Google account can already open, including calendars shared with that account. Access follows the account, so a calendar the account cannot open stays out of reach.
+</details>
+
+<details>
+<summary><strong>Can it read event descriptions and attendees?</strong></summary>
+
+Event detail is part of the event record, which is why a question like "what did we agree in this meeting" can be answered when the notes were written into the event. Attendee lists are subject to the same read scope as the rest of the event.
+</details>
+
+<details>
+<summary><strong>Does it answer across Gmail and Calendar?</strong></summary>
+
+Yes, and that combination is the practical one. "What did the customer ask for by email, and when are we meeting them" is a single question across both surfaces of the same Google connection.
+</details>
+
+<details>
+<summary><strong>Can it measure meeting load over time?</strong></summary>
+
+Yes. Ask for a period and a grouping, for example external versus internal, or hours by week. The answer is built from the events themselves, so the quality depends on how consistently the team titles and categorizes its events.
+</details>
+
+<details>
+<summary><strong>Where is my data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational query logs may persist for up to 30 days. See our [security documentation](../security/) for the detail.
+</details>
+
+## How It Works
+
+1. You connect Google in CorpusIQ and approve read access on Google's consent screen for the Google surfaces you want, Calendar included.
+2. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+3. ChatGPT discovers the Calendar tools and calls them when a question needs scheduling data.
+4. Answers name the calendar and the event they came from, so a claim can be checked against the entry itself.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Google** in the dashboard and approve the read scopes, Calendar included.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "what is on my calendar tomorrow" and check it against the calendar.
+5. **Explore.** Then ask the meeting-load question, which is where the value usually shows up first.
+
+## Related Pages
+
+- [Google Workspace connector reference](connectors/google_workspace.md) - Gmail, Calendar, Drive and the Google analytics surfaces in one connection
+- [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - the email half of the same connection
+- [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - documents behind the meeting
+- [Connect Google Sheets to ChatGPT](connect-google-sheets-to-chatgpt.md) - the plan beside the calendar
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [AI for Executive Reporting](ai-for-executive-reporting.md) - turning calendar facts into a report
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Google Drive to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-drive-to-chatgpt
+
+
+# How to Connect Google Drive to ChatGPT with CorpusIQ MCP
+
+Every business has a decision that is written down somewhere in Drive and cannot be found again. The contract, the pricing sheet, the policy, the proposal that was approved in March. Search returns filenames; it does not return the clause. **Connecting Google Drive to ChatGPT through CorpusIQ MCP** makes the contents of those files answerable, read-only, with the answer tied to the file it came from.
+
+Drive is the document layer of the same Google connection that carries Gmail, Calendar, Sheets, Analytics, Ads and Search Console, so one authorization covers the surfaces a business actually runs on.
+
+Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+## What Questions Can You Ask?
+
+- "What does the current master services agreement say about termination notice?"
+- "Find the latest pricing sheet and tell me which tier includes analyst seats."
+- "Which proposal did we send to this customer, and what did we quote?"
+- "What is our written policy on expense approval above a threshold?"
+- "Compare the two versions of this document and list what changed."
+- "How much storage is the team using, and which folders are growing?"
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector lists files, searches files, reads file contents and reports storage statistics. It does not upload, edit, move or delete anything, and it does not change sharing.
+</details>
+
+<details>
+<summary><strong>Which file types can be read?</strong></summary>
+
+Google Docs, PDFs and text-based files are the readable set. A scanned image with no text layer is not a document the connector can quote, which is the same limit every text-based tool has.
+</details>
+
+<details>
+<summary><strong>Does it search file names or file contents?</strong></summary>
+
+Both are available: one tool lists and searches files, another reads the contents of a file once it is identified. For a question about what a document says, the useful path is find the file, then read it, and the answer names the file it read.
+</details>
+
+<details>
+<summary><strong>Does my whole Drive get exposed?</strong></summary>
+
+The connector can reach what the connected Google account can open, and nothing else. Files that were never shared with that account stay out of scope. Google's consent screen lists the read-only permissions being requested, and access can be revoked from Google Account security settings at any time.
+</details>
+
+<details>
+<summary><strong>Can it answer across Drive and my other systems?</strong></summary>
+
+Yes, and that is where document search becomes useful. "Which customers with an open deal have a signed order form in Drive" spans Drive and the CRM. "Which contracts are up for renewal this quarter" spans Drive and the billing system.
+</details>
+
+<details>
+<summary><strong>Where is my data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational query logs may persist for up to 30 days. See our [security documentation](../security/) for the detail.
+</details>
+
+## How It Works
+
+1. You connect Google in CorpusIQ and approve read access on Google's consent screen, Drive included.
+2. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+3. ChatGPT discovers the Drive tools and calls them when a question needs a document.
+4. Answers cite the file they read, so a clause can be opened and checked.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Google** in the dashboard and approve the read scopes, Drive included.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "find the most recently modified document in my Drive" and check the file it returns.
+5. **Explore.** Then ask the clause question that usually means opening five PDFs by hand.
+
+## Related Pages
+
+- [Google Workspace connector reference](connectors/google_workspace.md) - Drive, Gmail, Calendar and the Google analytics surfaces in one connection
+- [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - the email half of the same connection
+- [Connect Google Calendar to ChatGPT](connect-google-calendar-to-chatgpt.md) - the meeting behind the document
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other knowledge base
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [AI for Document Search](ai-for-document-search.md) - the document use case in depth
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
 # How to Connect Google Search Console to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-google-search-console-to-chatgpt
 
@@ -7760,6 +8031,91 @@ You need an account with API access and the permission level required to authori
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Mailchimp to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-mailchimp-to-chatgpt
+
+
+# How to Connect Mailchimp to ChatGPT with CorpusIQ MCP
+
+Open rates answer a question nobody asked. The question a business owner asks is whether the send moved anything: revenue, pipeline, repeat orders. That answer lives in two systems, and the campaign report only holds half of it. **Connecting Mailchimp to ChatGPT through CorpusIQ MCP** puts the campaign data in the same conversation as the store and the CRM, so one question can ask what the send was worth.
+
+Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+## What Questions Can You Ask?
+
+- "Which campaign sent in the last quarter had the highest click rate, and which one had the highest revenue behind it?"
+- "Compare opens to orders on the same days for the last six sends."
+- "How has the audience grown since January, and how much of that came from the popup form?"
+- "Which campaigns went to the full list versus a segment?"
+- "Which subscribers are on the list but never opened anything?"
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector reads campaigns, audiences and campaign reports. It does not send mail, edit a campaign, change a list or move a subscriber.
+</details>
+
+<details>
+<summary><strong>Which reports come through?</strong></summary>
+
+Campaign level performance, including sends, opens, clicks, bounces and unsubscribes, plus audience and list details such as subscriber counts. If a report you use lives only in the Mailchimp dashboard and not in the API, it will not appear here.
+</details>
+
+<details>
+<summary><strong>Can it compare Mailchimp to revenue?</strong></summary>
+
+Yes, when a commerce or finance connector is present. "Compare opens to Shopify revenue on the same days" is one question across two systems, and it is the question that tells you whether the list is an asset or a habit.
+</details>
+
+<details>
+<summary><strong>Why does a campaign not appear?</strong></summary>
+
+Drafts and unsent campaigns are not part of the sent-campaign surface. Confirm the campaign actually sent, then ask again. Accounts with several audiences also need the audience named in the question.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Campaign numbers are read when you ask. A report that is still filling in for a send from this morning will read low, which is a timing fact, not a connector fault.
+</details>
+
+<details>
+<summary><strong>Where is my data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational query logs may persist for up to 30 days. See our [security documentation](../security/) for the detail.
+</details>
+
+## How It Works
+
+1. You connect Mailchimp in CorpusIQ and approve the authorization screen.
+2. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+3. ChatGPT discovers the Mailchimp tools and calls them when a question needs campaign data.
+4. Answers name the campaign and the period they came from, so a number can be checked against the dashboard.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Mailchimp.** In the dashboard, open Connectors, find Mailchimp, connect, then approve access on the Mailchimp screen.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "how did my last campaign perform" and check one number against Mailchimp itself.
+5. **Explore.** Then ask the question the campaign report cannot answer on its own.
+
+## Related Pages
+
+- [Mailchimp connector reference](connectors/mailchimp.md) - what is visible and what to check when it is not
+- [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md) - the other email platform, for stores
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - lifecycle and pipeline beside the send
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the revenue side of the comparison
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [AI for Marketing Analytics](ai-for-marketing-analytics.md) - the analysis pattern
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 # How to Connect Meta Ads to ChatGPT with CorpusIQ MCP
@@ -10534,9 +10890,7 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 
 **Next steps:** [Connect Stripe to Claude now →](https://corpusiq.io/connect/stripe)
 
-*Connect Connect Stripe to Claude via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Stripe to Claude via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -23475,6 +23829,10 @@ CorpusIQ never writes, edits, or deletes Airtable data.
 - **"Base not found"** - Your token wasn't granted access to that base. Edit the token at airtable.com/create/tokens and add the base.
 - **"Insufficient scope"** - Token is missing `data.records:read` or `schema.bases:read`. Recreate with both.
 - **Records look stale** - Airtable API returns live data; check whether you're looking at the right view or whether a filter has hidden recent rows.
+
+## See also
+
+- [Connect Airtable to ChatGPT](../connect-airtable-to-chatgpt.md) - the ChatGPT setup, the token scopes that matter and the questions worth asking.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -24876,6 +25234,8 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 ## See also
 
 - [Connect Google Sheets to ChatGPT](../connect-google-sheets-to-chatgpt.md) - sheet data behind a plain-English question.
+- [Connect Google Calendar to ChatGPT](../connect-google-calendar-to-chatgpt.md) - meeting load and commitments as questions.
+- [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - clause-level answers from the documents themselves.
 
 ---
 
@@ -25382,6 +25742,10 @@ Read-only. CorpusIQ never sends mail, edits campaigns, or changes your lists.
 - "Authorization failed" - your Mailchimp session expired. Log into Mailchimp in another tab, then retry Connect.
 - No campaigns appear - confirm the campaigns are in Sent status, not Draft.
 - Wrong audience showing - Mailchimp accounts can have multiple audiences. Specify the audience name in your question.
+
+## See also
+
+- [Connect Mailchimp to ChatGPT](../connect-mailchimp-to-chatgpt.md) - the ChatGPT setup and the campaign questions that connect to revenue.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
