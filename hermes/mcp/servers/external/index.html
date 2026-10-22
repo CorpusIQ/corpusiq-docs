@@ -10448,6 +10448,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-22-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 22, 2026 - Midday Supplement (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-22-2026-midday-sweep-3-new-3-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -25166,6 +25177,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-22-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 22, 2026 - Midday Supplement (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-22-2026-midday-sweep-3-new-3-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39602,8 +39624,14 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 22, 2026 (midday sweep) · <strong>Sources:</strong> mcpservers.org /all pages 1 to 3 newest-first (89 unique slugs, four beyond the night capture) + mcp.so /feed page 1 (30 cards, 26 of them the night pass's own dispositions) + chatmcp/mcpso issue window #5924-#5954 + vendor documentation and live JSON-RPC probes, with real tool calls on all three catalogued servers · <strong>Catalog:</strong> 975 servers (+855 guides)</p>
+<p><strong>Last updated:</strong> October 22, 2026 (midday supplement) · <strong>Sources:</strong> mcpservers.org /all pages 1 to 3 newest-first (86 unique slugs, all previously disposed) + mcp.so /feed page 1 (27 cards, every one already named) + chatmcp/mcpso issue window #5955-#5956 + RFC 9728 OAuth discovery documents and live JSON-RPC probes · <strong>Catalog:</strong> 976 servers (+856 guides)</p>
 </blockquote>
+<h2 id="october-22-2026-midday-supplement-1-new-1-guide">🆕 October 22, 2026 - Midday Supplement (1 New, 1 Guide)<a class="headerlink" href="#october-22-2026-midday-supplement-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
+<p>A one-hour supplement after the midday delta, and the two browsing surfaces had nothing left to give: mcpservers.org <code>/all</code> pages 1 to 3 returned 86 unique slugs and every one matched a disposition already in the ledger, while the mcp.so <code>/feed</code> page 1 carried 27 server cards, all previously named. The only lane that moves at that gap is the submission window, where two issues were filed after the midday capture closed at #5954. Both were probed live; neither could be driven with a tool call because both need an account this sweep does not create, and that gap is stated in the entry rather than hidden.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/muvia-bi-mcp">Muvia BI MCP - Governed Data Platform for Agents</a> · remote server at <code>https://api.muviabi.com/mcp/v1</code>, JSON-RPC 2.0 over HTTP POST with the answer arriving as one SSE data line, protocol 2025-06-18, by Superduck S.r.l. (muviabi.com). Live probe: unauthenticated <code>POST initialize</code> returned HTTP 401 with <code>www-authenticate: Bearer resource_metadata="https://api.muviabi.com/.well-known/oauth-protected-resource/mcp/v1/"</code>; that document returned HTTP 200 with resource <code>https://api.muviabi.com/mcp/v1/</code>, an authorization server on the same host and <code>bearer_methods_supported: ["header"]</code>, and the authorization-server metadata returned authorization, token, registration and revocation endpoints, <code>authorization_code</code> and <code>refresh_token</code> grants, <code>code_challenge_methods_supported: ["S256"]</code> and <code>client_id_metadata_document_supported: true</code>. Tools: 231 from the vendor reference, 113 read and 118 write, the writes split 96 proposal, 12 confirmed in Muvia and 10 not available to API keys, across fourteen modules (Flows 36, Lab 26, Assets 24, Alarms 20, Notebooks 19, Dashboards 18, Sources 18, Analysis 17, Nodes 15, Core 12, Project 8, Annotations 7, Predictors 7, Documents 4). The operator surface is the read half: <code>query_sql</code> and <code>describe_sql</code> over the data lake, <code>read_lineage</code>, <code>run_query_checks</code> and <code>set_query_checks</code>, <code>list_quarantine</code>, <code>list_dataset_readers</code>, <code>list_datasets</code> and <code>read_dataset</code>; <code>list_alarms</code> with <code>describe_alarm</code>, <code>investigate_alarm</code> and <code>shelve_alarm</code>; <code>list_dashboards</code> with <code>create_dashboard</code>, <code>add_widget</code> and <code>convert_chart</code>; <code>list_predictors</code> with <code>promote_predictor_version</code> and <code>reject_predictor_version</code>; and <code>get_action</code> for the outcome of a filed write. What earns the entry is that the governance travels inside the protocol: a write never mutates the platform on the spot, it files a proposal that a person approves in Muvia or the company policy applies, a key writes only when an administrator has turned on writes through assistants for it, an administrator can grant a key only scopes they hold themselves and never <code>superadmin</code>, and the company's enabled modules cap every key. Rate limits are 120 a minute per key and 100,000 a day per company in fixed windows, with <code>X-RateLimit-Limit</code>, <code>-Remaining</code> and <code>-Reset</code> on every response. <strong>Gaps named rather than claimed:</strong> an account is required with the AI connectors module and the only public entry is the 14-day trial at <code>app-demo.muviabi.com/try</code>; <code>/en/pricing</code> and <code>/it/pricing</code> both returned 404, so there is no price list to quote; the protected-resource metadata advertises an empty <code>scopes_supported</code> while the tools declare scopes individually, so scope discovery has to come from <code>tools/list</code>; and <strong>no tool call was made</strong>, which is the difference between this entry and the three catalogued at midday.</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> from the chatmcp/mcpso issue window #5955-#5956, read and held: BootForm (<code>https://mcp.bootform.com/mcp</code>, OAuth 2.1, <code>POST initialize</code> returned HTTP 401 carrying the server's own message, <code>Sign in to BootForm to use this MCP server. Your MCP client opens the browser for you.</code>, 20 tools for creating a form, fetching its HTML snippet, configuring it, reading and moderating submissions, spam checks and routing to email, verified email, Discord, Slack or a webhook) held as website and form infrastructure, since the data behind it is submissions the customer's own page collected and the value is delivery plumbing rather than an operator data surface; pricing from the vendor page is Free at 250 submissions a month with MCP access on every plan, Starter $10, Pro $29 and Business $99. A1 Towing NYC carried its midday disposition as a single-city service site and Pear carried its October 20 disposition as an email, calendar and contacts connector, both checked only because the previous pass classed them in a paragraph rather than in a list.</p>
 <h2 id="october-22-2026-midday-sweep-3-new-3-guides">🆕 October 22, 2026 - Midday Sweep (3 New, 3 Guides)<a class="headerlink" href="#october-22-2026-midday-sweep-3-new-3-guides" title="Anchor link to this section">&para;</a></h2>
 <p>A midday delta about seven hours after the night capture, and the surfaces swapped which one carried the work. mcpservers.org <code>/all</code> pages 1 to 3 returned 89 unique slugs against the night pass's 85: one support operations server, and three cards whose detail pages served 404 shells. The mcp.so <code>/feed</code> page 1 was almost entirely the night sweep's own dispositions, with four cards the ledger had never named. The chatmcp/mcpso issue window #5924-#5954 supplied the two business-data records below. All three catalogued entries were driven with a real tool call, and the first is a reversal of a hold taken twelve hours earlier.</p>
 <ul>
@@ -47411,7 +47439,12 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/summer-mcp">Summer MCP - Support Cases Your Agent Can Work</a></p>
 </li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/disclosedby-mcp">disclosedby MCP - Dated Subprocessor Lists for Agents</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/cnc-compass-mcp">CNC Compass MCP - Sourcing Suppliers From a Brief</a></li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/cnc-compass-mcp">CNC Compass MCP - Sourcing Suppliers From a Brief</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/muvia-bi-mcp">Muvia BI MCP - Governed Data Platform for Agents</a></p>
+</li>
 </ul>
 
 
