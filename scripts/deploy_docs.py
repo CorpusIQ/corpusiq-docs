@@ -257,14 +257,18 @@ def main():
     #      per-page patching.
     print("2d-i. Reconciling ecosystem count stamps to the approved ledger...")
     run("python3 scripts/reconcile_ecosystem_counts.py", fatal=True)
+    # The script rewrites stamps across every page that carries one
+    # (ecosystem/index.md, ecosystem.md, README.md, index.md, the two
+    # marketplace pages), not just the three most obvious ones. Stage the
+    # whole hermes/*.md delta or the leftovers stay dirty and the NEXT
+    # deploy dies on `git pull --rebase` ("cannot pull with rebase"), the
+    # same failure class as the stale-llms.txt case in step 2b.
     dirty_counts = run(
-        "git status --porcelain -- hermes/README.md hermes/ecosystem.md "
-        "'hermes/contributors/index.md'"
+        "git status --porcelain -- 'hermes/**/*.md' 'hermes/*.md'"
     ).strip()
     if dirty_counts:
         run(
-            "git add -- hermes/README.md hermes/ecosystem.md "
-            "'hermes/contributors/index.md' && git commit -m "
+            "git add -A -- 'hermes/**/*.md' 'hermes/*.md' && git commit -m "
             "'chore: reconcile ecosystem count stamps to approved ledger (auto, deploy)'"
         )
         print(f"   Count stamps reconciled ({len(dirty_counts.splitlines())} file(s))")
