@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem - 426+ repos, tools, skills, and integrations
-last_updated: "2026-10-21"
+last_updated: "2026-10-22"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -20,7 +20,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 A comprehensive, curated directory of the Hermes Agent ecosystem. **426+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 192 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **426+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **427+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **426+ reposit
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 8 | Model Context Protocol servers & integrations |
-| 💾 Memory & Knowledge | 39 | Persistent memory, knowledge graphs, context systems |
+| 💾 Memory & Knowledge | 40 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
@@ -416,6 +416,14 @@ _Model Context Protocol servers & integrations_
 >🛠️ The meta-harness for AI agents - scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).
 
 **Language:** TypeScript | **Topics:** agent-harness, agent-harness-generator, agent-scaffolding, agentic-ai, agentic-framework | **Score:** 75/100
+
+---
+
+### [410979729/scope-recall-hermes](https://github.com/410979729/scope-recall-hermes) ⭐ 442
+
+>Local long-term memory for Hermes, Codex, Claude Code, WorkBuddy and dsh agents: one SQLite store, source-backed recall, and tools to inspect, correct or delete what is remembered.
+
+**Language:** Python | **Topics:** agent, ai-memory, claude-code, codex, hermes, hermes-agent, hermes-plugin, hybrid-retrieval, lancedb, mcp, memory, scope-isolation, sqlite, vector-search | **Score:** 70/100
 
 ---
 
@@ -1704,7 +1712,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*426+ repositories in the Hermes ecosystem. Last updated: 2026-10-22. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*427+ repositories in the Hermes ecosystem. Last updated: 2026-10-22. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

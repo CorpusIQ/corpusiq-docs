@@ -10,9 +10,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem -- Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 426+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 427+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
 
-> **Last updated:** October 22, 2026 · **Repos indexed:** 426+ · **Categories:** 18
+> **Last updated:** October 22, 2026 · **Repos indexed:** 427+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,7 +26,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 426+ re
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 20 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 30 | [↓](#memory-knowledge) |
+| [Memory & Knowledge](#memory-knowledge) | 31 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 46 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 103 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
@@ -803,6 +803,17 @@ Open-source cross-agent memory layer for coding agents via MCP. Compatible with 
 
 **Key capabilities:** Cross-agent memory, MCP-native server, local-first sessions, 14+ agent compatibility, TypeScript SDK
 **Related:** [MCP & Integrations →](#mcp-integrations) · [Memory Stack →](/hermes/knowledge)
+
+---
+
+### 410979729/scope-recall-hermes
+⭐ **442** · `Python` · [github.com/410979729/scope-recall-hermes](https://github.com/410979729/scope-recall-hermes)
+
+Bounded local memory core with SQLite as the sole fact authority and rebuildable vector companions (LanceDB by default, sqlite-bruteforce fallback). Hermes, Codex, Claude Code, WorkBuddy and DeepSeek Harness attach to one shared store as entries, and each memory records which agent it came in through. Facts are drawn from accumulated evidence, and only the owner's explicit correction or confirmation changes one.
+
+**Maintainer:** Scope Recall (PyPI package `hermes-scope-recall`, MIT) 
+**Key capabilities:** Single SQLite store, source-backed recall, scope isolation, hybrid retrieval, owner-only fact correction, local management CLI (browse/search/history/correct/mute/delete), portable export with hashes, reproducible recall-quality benchmark 
+**Related:** [Memory Stack →](/hermes/knowledge) · [Knowledge Architecture →](/hermes/knowledge)
 
 ---
 
@@ -4435,7 +4446,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **426+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **427+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
