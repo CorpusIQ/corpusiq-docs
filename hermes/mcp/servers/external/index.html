@@ -3255,6 +3255,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -4017,6 +4023,90 @@
     
   
     Connect PostgreSQL to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-posthog-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect PostHog to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-docs-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Docs to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-youtube-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect YouTube to ChatGPT
   
 
     
@@ -10566,6 +10656,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-23-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 23, 2026 - Midday Supplement (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-23-2026-midday-sweep-2-new-2-guides" class="md-nav__link">
@@ -25330,6 +25431,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-23-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 23, 2026 - Midday Supplement (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-23-2026-midday-sweep-2-new-2-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39810,8 +39922,13 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 23, 2026 (midday sweep) · <strong>Sources:</strong> mcp.so /feed page 1 (30 cards, eight posted after the night capture closed at 09:27Z) + mcpservers.org /all pages 1 to 3 newest-first (89 unique slugs, all prior dispositions) + chatmcp/mcpso issue window #5984-#5992 with full bodies + live JSON-RPC, RFC 9728 and authorization-server probes on eight endpoints · <strong>Catalog:</strong> 980 servers (+860 guides)</p>
+<p><strong>Last updated:</strong> October 23, 2026 (midday supplement) · <strong>Sources:</strong> mcp.so /feed page 1 (one card posted after the midday capture closed at 17:11Z) + mcpservers.org /all pages 1 to 3 newest-first (90 unique slugs, all prior dispositions) + chatmcp/mcpso issue #5993 with full body + live JSON-RPC probes and four real tool calls on the new entry · <strong>Catalog:</strong> 981 servers (+861 guides)</p>
 </blockquote>
+<h2 id="october-23-2026-midday-supplement-1-new-1-guide">🆕 October 23, 2026 - Midday Supplement (1 New, 1 Guide)<a class="headerlink" href="#october-23-2026-midday-supplement-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
+<p>A fifty-minute gap after the midday capture, and the only productive lane was the submission window, which advanced by exactly one issue. The directories had nothing new. That issue is the rare entry that could be driven end to end without an account, and it fills a gap the catalog has been describing for weeks: the public filings that announce a business before it exists, joined and staged so a seller can act on them.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/pourwire-mcp">PourWire MCP - Restaurants and Bars Before They Open</a> · remote Streamable HTTP at <code>https://pourwire.com/mcp</code>, keyless for the public tier, by PourWire (pourwire.com), official registry entry <code>com.pourwire/pourwire</code> 1.0.0 active since <code>2026-10-23T12:44:22Z</code>. Live probe: <code>POST initialize</code> returned HTTP 200 with <code>serverInfo</code> <code>pourwire</code> 1.0.0 on protocol 2025-06-18 and the tools capability, and <code>tools/list</code> returned two read-only tools. <code>search_openings</code> takes a metro (Los Angeles, New York, Austin, Waco-Temple, Dallas-Fort Worth, Houston, San Antonio), an optional stage (<code>new</code>, <code>in_buildout</code>, <code>approved</code>, <code>opened</code>) and a limit that defaults to 20; <code>metro_stats</code> returns tracked totals, new, filed in the last 30 days and the source agencies behind the metro. Four real calls were made: <code>search_openings</code> on Austin returned Proper Ash (PROPER ASH LLC, a bar in Dripping Springs, estimated Dec 2026 to Feb 2027, stage new, confidence 0.6, first filed 2026-09-23) with two dated TX TABC application events, one dated 2026-10-14, plus Fresa's Chicken and Himalayan Flavor in the same shape; <code>metro_stats</code> on Austin returned 237 tracked, 154 new and 33 filed in 30 days from Austin DSD and TX TABC; <code>search_openings</code> on Los Angeles filtered to <code>approved</code> returned chain filings with an empty trade name and the brand inside the legal name (CHIPOTLE MEXICAN GRILL #4864 in Palmdale, confidence 0.8, one CA ABC <code>license_issued</code> event dated 2026-09-23) and PIH GOOD SAM SPORTS LOUNGE under Sodexo America; <code>metro_stats</code> on New York returned 2,819 tracked, 124 new and 204 filed in 30 days from NY SLA, NYC DOB and NYC DOHMH. <strong>Catalog gap closed:</strong> the catalog carried public-records data before, but nothing that answers the prospective question, which company is about to exist in my territory and at what stage. Pricing from the vendor's page: the public tier is free with filings older than 30 days, block-level address and no owner contacts; Scout is $149 per metro per month ($1,490 annual) with the Monday digest, dashboard, full names and CSV; Operator is $249 per metro per month ($2,490 annual) adding the daily digest, owner names and business contacts, a webhook or Zapier into a CRM and REST plus MCP access; annual bills as ten months, the trial is 14 days with no card, and seats are capped at five per trade per metro as a published live table. <strong>Limitations recorded rather than smoothed over:</strong> <code>count</code> in <code>search_openings</code> is the rows returned, not the metro total, and <code>metro_stats</code> is where the totals live; confidence ships as 0.6 or 0.8 with no published definition; chain filings carry <code>business_name: null</code>; coverage is seven metros in three states; and the vendor's CC BY 4.0 CSV has no LICENSE file in its repository despite the claim in the description. <strong>Not verified:</strong> the subscriber tier, which needs an account.</li>
+</ul>
 <h2 id="october-23-2026-midday-sweep-2-new-2-guides">🆕 October 23, 2026 - Midday Sweep (2 New, 2 Guides)<a class="headerlink" href="#october-23-2026-midday-sweep-2-new-2-guides" title="Anchor link to this section">&para;</a></h2>
 <p>A seven-hour gap after the night capture, and the two finds sit at opposite ends of the operator question: one manages what a seller publishes to six marketplaces, the other reads what customers already said about the product. The directory surfaces had nothing new. mcpservers.org <code>/all</code> pages 1 to 3 served the same 89 unique slugs as the night pass, every one carrying a recorded disposition, and the mcp.so feed contributed eight cards past the night cutoff, of which one cleared the bar.</p>
 <ul>
