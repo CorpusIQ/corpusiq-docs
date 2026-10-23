@@ -57,7 +57,7 @@ _Video, social media, content generation_
 
 ## 🧠 Core Framework
 
-_15 repos_
+_17 repos_
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
 
@@ -72,6 +72,14 @@ _15 repos_
 >Minimal Coding Agent Harness over MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw
 
 **Language:** TypeScript | **Topics:** agent-orchestration, chatgpt, claude, claude-code, codex, dyanmic-workflow, pi-coding-agent | **Score:** 75/100
+
+---
+
+### [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) ⭐ 2,145
+
+>Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.
+
+**Language:** JavaScript | **Topics:** agent-collaboration, agent-harness, agent-orchestration, agent-team, agent-workflow, ai-assistant, ai-automation, ai-employee, ai-productivity, local-first, multi-agent, self-evolving-agents, task-automation | **Score:** 81/100
 
 ---
 
@@ -178,6 +186,14 @@ _15 repos_
 >Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.
 
 **Language:** Python | **Topics:** ai-agent, appsec, bug-bounty, cybersecurity, hermes-agent, infosec, llm-security, nuclei, offensive-security, penetration-testing, security-tools, sqlmap, threat-research, vulnerability-scanner | **Score:** 80/100
+
+---
+
+### [rexleimo/aios](https://github.com/rexleimo/aios) ⭐ 54
+
+>The local-first control plane for long-horizon coding agents: cross-session project memory (ContextDB), adaptive workflow routing, multi-agent teams, resumable overnight runs, and verifiable evidence - on top of Codex CLI, Claude Code, Gemini CLI, OpenCode, Hermes, Grok, WorkBuddy, Pi, ZCode, and Qoder.
+
+**Language:** JavaScript | **Topics:** agent-harness, agent-memory, ai-agent, ai-agents, automation, browser-automation, claude-code, cli, codex-cli, coding-agent, contextdb, developer-tools, gemini-cli, local-first, mcp, multi-agent, opencode, playwright, typescript | **Score:** 70/100
 
 ---
 
