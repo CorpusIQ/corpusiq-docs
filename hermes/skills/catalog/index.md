@@ -746,6 +746,11 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [GMGN Agent Skills - On-Chain Analytics and Trading Setup](/hermes/skills/catalog/gmgn-skills-setup)
 - [Claude Trading Skills - 74-Skill Trading Workflow Setup](/hermes/skills/catalog/claude-trading-skills-setup)
 - [ASO Skills - App Store Optimization Suite Setup](/hermes/skills/catalog/aso-skills-setup)
+- [Agent Toolkit - 44 Skills for Coding Agents Setup](/hermes/skills/catalog/agent-toolkit-setup)
+- [CLI Printing Press - Agent-Native CLI Generator Setup](/hermes/skills/catalog/cli-printing-press-setup)
+- [Mapbox Agent Skills - Location Development Suite Setup](/hermes/skills/catalog/mapbox-agent-skills-setup)
+- [ScrapeCreators Social Research Skills - Setup Guide](/hermes/skills/catalog/scrapecreators-social-research-setup)
+- [AI Agent Skills - Creative and Platform Stack Setup](/hermes/skills/catalog/ai-agents-skills-setup)
 
 ## Previously unlinked pages (added 2026-10-06)
 
