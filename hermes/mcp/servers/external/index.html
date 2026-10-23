@@ -111,8 +111,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-22",
-    "dateModified": "2026-10-22",
+    "datePublished": "2026-10-23",
+    "dateModified": "2026-10-23",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-22">
+  <meta name="last-updated" content="2026-10-23">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10566,6 +10566,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-23-2026-night-sweep-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 23, 2026 - Night Sweep (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-22-2026-evening-sweep-1-new-1-guide" class="md-nav__link">
@@ -25308,6 +25319,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-23-2026-night-sweep-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 23, 2026 - Night Sweep (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-22-2026-evening-sweep-1-new-1-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -39766,8 +39788,14 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 22, 2026 (evening sweep) · <strong>Sources:</strong> mcpservers.org /all pages 1 to 3 newest-first (90 unique slugs, sixteen bulk-named cards read to detail) + mcp.so /feed page 1 (27 cards, six past the midday capture) + chatmcp/mcpso issue window #5957-#5973 + RFC 9728 OAuth discovery documents, the vendor server card and live JSON-RPC probes · <strong>Catalog:</strong> 977 servers (+857 guides)</p>
+<p><strong>Last updated:</strong> October 23, 2026 (night sweep) · <strong>Sources:</strong> mcp.so /feed page 1 (27 cards, two posted after the October 22 evening capture) + mcpservers.org /all pages 1 to 3 newest-first (89 unique slugs, all prior dispositions) + chatmcp/mcpso issue window #5974-#5983 + live JSON-RPC probes, the OAuth authorization-server document and 235 documented tool pages · <strong>Catalog:</strong> 978 servers (+858 guides)</p>
 </blockquote>
+<h2 id="october-23-2026-night-sweep-1-new-1-guide">🆕 October 23, 2026 - Night Sweep (1 New, 1 Guide)<a class="headerlink" href="#october-23-2026-night-sweep-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
+<p>A seven-hour overnight delta after the evening capture, and the finding that matters is a directory card contradicted by its own endpoint: mcp.so lists this server as needing no authentication, and the first probe returned <code>401 invalid_token</code>. One entry cleared the bar, and it is the first cross-marketplace research surface in the catalog rather than a twelfth Amazon reader.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/nexscope-mcp">Nexscope MCP - Twelve Marketplaces and Amazon Ads in One Connection</a> · remote server at <code>https://api.nexscope.ai/mcp</code>, Streamable HTTP with OAuth 2.1 authorization code and PKCE <code>S256</code> on scope <code>mcp:tools</code>, by Nexscope (nexscope.ai). Live probe: unauthenticated <code>POST initialize</code> returned HTTP 401 <code>{"error":"invalid_token","error_description":"Authentication is required."}</code> with <code>www-authenticate: Bearer resource_metadata="https://api.nexscope.ai/.well-known/oauth-protected-resource/api/skill-api/v2/mcp"</code>; that advertised path returns HTTP 200 carrying a Kong error body (<code>{"code":99404,"msg":"No static resource .well-known/oauth-protected-resource..."}</code>) instead of a protected-resource document, while <code>https://api.nexscope.ai/.well-known/oauth-authorization-server</code> returns a complete document with authorize, token, JWKS, revoke and introspect endpoints, <code>authorization_code</code> and <code>refresh_token</code> grants, <code>S256</code> and <code>client_id_metadata_document_supported: true</code>. Tools: 235 pages in the vendor's public data directory, each carrying its own parameters, response reference and per-call credit cost under an API &amp; MCP tab, named <code>nexscope_&lt;platform&gt;_&lt;action&gt;</code>; 91 Amazon (55 of them Amazon Ads and Sponsored Products campaign, ad group, keyword, negative keyword, target and budget-rule management, plus report creation and retrieval and custom requests), 61 TikTok Shop (product search and discovery across 16 markets, top-selling rankings by day, week, month and category, batch product detail with sales, price, rating and commission, new-product rank, seller search and detail, product videos, video rank, bulk video detail, download URL resolution and livestream detail), 13 Ozon and Wildberries, 11 Temu, 5 Walmart, 4 Etsy, 4 Google, 4 1688, 2 Shopify, 2 Shopee, 2 Mercado Libre, 1 eBay, plus patent intelligence (15), IP risk detection (6), TRO risk detection and design-registration research. Per-call costs are published per tool rather than per plan: Amazon Search 21 credits base with a recent average of 30 and a 16 to 32 range, TikTok Shop product reviews 38, TikTok product discovery 15, TikTok batch product detail 10, Walmart product detail 29 base and 41 recent average, Shopify product query 25 base with a 10 to 188 range, Ozon keyword back search 17 base and 47 recent. Plans: free 1,000 credits for 3 days with no card and 1 MCP request a second; Starter $29 a month ($14.50 at 50% off the first month, $348 annual) with 30,000 credits and 3 MCP requests a second; Growth $55 ($660 annual) with 75,000 and 5 a second; Pro $129 ($1,548 annual) with 150,000 and 10 a second; credits reset each cycle and do not roll over, and data-only top-up credits cannot be spent on creative generation. The REST face takes <code>Authorization: Bearer nk-...</code> API keys per endpoint. <strong>Gap named rather than claimed:</strong> no tool call was made, because every tool needs an OAuth connection to an account holding credits, so the entry rests on the live 401, the authorization-server metadata, the 235 documented tool pages, the published credit table and the vendor repository <code>nexscope-ai/nexscope-ecommerce-api</code> (17 stars, last push <code>2026-10-20T09:49:26Z</code>).</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> from the two feed cards posted after the evening capture closed at <code>2026-10-23T01:58Z</code>, Cliptude (<code>createdAt 2026-10-23T05:41Z</code>, remote at <code>https://mcp.cliptude.com/mcp</code>, <code>POST initialize</code> returned HTTP 401 <code>{"error": "invalid_token", "error_description": "Authentication required"}</code>, 6-to-60-minute faceless YouTube documentaries with sourced footage, animated maps and charts) held as media production rather than an operator data surface, the class carried by clipkit, InstantClips, Transclipper and YouTube Kit. From the submission window <code>#5974</code> through <code>#5983</code>, ten issues read and held: FormVault (<code>#5981</code>, <code>https://api.formvault.eu/mcp</code> returning HTTP 401 <code>{"error":"Missing bearer token"}</code>, forms and submissions with respondent data behind a separate tool, AES-256-GCM at rest in Nuremberg and a DPA on every plan) held as website and form infrastructure whose class already carries easydocforms, formdall, formlm, formstep, furrow-forms, philforms and BootForm, with the EU-hosting and consent-design angle recorded for reconsideration rather than opened as a seventh entry; Keyword Research API (<code>#5978</code>, an Apify actor) held against the saturated SEO class and our own first-party Search Console and keyword work; Building Permits API (<code>#5979</code>, Apify, French SDES Sitadel with applicant SIREN, NSW and Far North NZ) held as regional construction and planning data; ce-net (<code>#5976</code>, keyless read tools at <code>https://ce-net.com/mcp</code> for 3D prints, CNC, sheet metal and PCBA quotes) held in the sourcing class carried by Next Everything BOM pricing; Car Rental Brain (<code>#5983</code>, keyless at <code>https://app.carrentalbrain.com/mcp</code>, measured hire costs at 120+ airports including second-driver fees, deposits, debit-card acceptance and desk hours) held as travel vertical data; token-verdict (<code>#5974</code>, local stdio, $0.02 USDC per call over x402) held in the crypto screening class; mcp-ssh-exec-cmd (<code>#5982</code>) skipped on shape as a general remote-command surface; Bitlands (<code>#5977</code>, keyless at <code>https://api.bitlands.lol/mcp</code>, four read-only tools over an indie product catalogue) held as an agent-facing product directory; SERVIQO Agents / DistributionOS (<code>#5975</code>) held as an agent referral network; and WRDO (<code>#5980</code>, keyless at <code>https://api.wrdo.co.za/mcp</code>) carried its October 22 night disposition as a regional directory. On mcpservers.org <code>/all</code> pages 1 to 3, 89 unique slugs against 90 at the evening capture with every one a prior disposition, the net one a pagination and featured-slot spillover rather than a removed listing; three slugs resolved to 404 detail pages through the reader proxy (<code>agentsearchhq-coder</code> on page 2, <code>scdolab</code> and <code>justusewaldo</code> on page 3), the same sitemap-fresh-but-not-live class the evening pass recorded five of; and novai-prices (<code>https://aiapi-pro.com/api/mcp</code>, keyless, tools <code>cheapest_models</code>, <code>model_price</code>, <code>list_categories</code> normalising per-token, per-second and per-image prices) held as developer cost routing, the class carried by PlanLimits.</p>
 <h2 id="october-22-2026-evening-sweep-1-new-1-guide">🆕 October 22, 2026 - Evening Sweep (1 New, 1 Guide)<a class="headerlink" href="#october-22-2026-evening-sweep-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
 <p>A ten-hour delta after the midday supplement, and both browsing surfaces were running on ingestion rather than invention: mcpservers.org <code>/all</code> pages 1 to 3 returned 90 unique slugs against 86 at midday with the net four resolving to dispositions already in the ledger, and the mcp.so <code>/feed</code> page 1 carried 27 server cards of which six were posted after the midday capture closed. The productive lane was the submission window, <code>#5957</code> through <code>#5973</code>, seventeen issues read in full. One entry cleared the bar, and it cleared it on the one thing the rest of the ads class does not do: it reads the store's own revenue beside the ad spend and then refuses to change anything without a person.</p>
 <ul>
