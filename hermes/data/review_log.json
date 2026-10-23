@@ -19260,5 +19260,89 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-23T10:03:07.271914+00:00"
+  },
+  {
+    "repo": "nickhechtel/hermes-env-setup",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735151+00:00"
+  },
+  {
+    "repo": "mister-ideas/git-review",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735162+00:00"
+  },
+  {
+    "repo": "vburojevic/hermes",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735165+00:00"
+  },
+  {
+    "repo": "NateWeav/t3code-hermes",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735167+00:00"
+  },
+  {
+    "repo": "ottobunge/hermes-check-in",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735169+00:00"
+  },
+  {
+    "repo": "agentus-org/agentus",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735171+00:00"
+  },
+  {
+    "repo": "AZERDSQ131/Open-Hermes-Bot",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735172+00:00"
+  },
+  {
+    "repo": "lebaoquan-ai/Hermes_setup",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735174+00:00"
+  },
+  {
+    "repo": "roedyrustam/opentalon",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735176+00:00"
+  },
+  {
+    "repo": "jiguang9/geo-audit",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735178+00:00"
+  },
+  {
+    "repo": "Tomvis/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735180+00:00"
+  },
+  {
+    "repo": "QianYan-Art/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T11:02:56.735182+00:00"
   }
 ]
