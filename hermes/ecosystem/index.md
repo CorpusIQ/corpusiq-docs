@@ -1,18 +1,18 @@
 ---
 title: Hermes Ecosystem -- Complete Resource Directory
-description: The definitive directory of Hermes Agent resources -- 427+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources -- 429+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-23"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem -- Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 427+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 429+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
 
-> **Last updated:** October 22, 2026 · **Repos indexed:** 427+ · **Categories:** 18
+> **Last updated:** October 23, 2026 · **Repos indexed:** 429+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -25,9 +25,9 @@ The most comprehensive directory of Hermes Agent resources in existence. 427+ re
 | [Core & Official](#core-official) | 11 | [↓](#core-official) |
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
-| [UI & Dashboards](#ui-dashboards) | 20 | [↓](#ui-dashboards) |
+| [UI & Dashboards](#ui-dashboards) | 21 | [↓](#ui-dashboards) |
 | [Memory & Knowledge](#memory-knowledge) | 31 | [↓](#memory-knowledge) |
-| [MCP & Integrations](#mcp-integrations) | 46 | [↓](#mcp-integrations) |
+| [MCP & Integrations](#mcp-integrations) | 47 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 103 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
@@ -422,7 +422,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 427+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 429+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -561,6 +561,16 @@ Desktop Companion for Hermes Agent. Native desktop application with system tray 
 
 **Maintainer:** fathah 
 **Key capabilities:** Native desktop app, system tray, notifications, always-on
+
+---
+
+### homarr-labs/dashboard-icons
+⭐ **8,915** · `TypeScript` · [github.com/homarr-labs/dashboard-icons](https://github.com/homarr-labs/dashboard-icons)
+
+3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw.
+
+**Maintainer:** homarr-labs 
+**Topics:** ai-agents, claude-code, codex, dashboard, dashboard-icons, dashy, docker, heimdall, homarr, homepage
 
 ---
 
@@ -1501,6 +1511,15 @@ Hermes-first Shopify OAuth connector for agent-safe multi-store access, read-onl
 
 Collection of Grok/xAI tool connectors, MCP integrations, browser-to-api workflows, and utilities for agent systems like Hermes and OpenClaw. Self-hosted Unraid/Home Assistant compatible examples and docs.
 
+---
+
+### davidmosiah/google-health-mcp
+⭐ **71** · `TypeScript` · [github.com/davidmosiah/google-health-mcp](https://github.com/davidmosiah/google-health-mcp)
+
+Local-first MCP server for the Google Health API v4 (Fitbit and Pixel Watch): sleep, activity, heart-rate and body metrics inside Claude, Cursor and Hermes.
+
+**Maintainer:** davidmosiah 
+**Topics:** agent-ready, ai-agent-tools, ai-agents, anthropic, claude, claude-desktop, cursor, fitbit, google-health, google-health-api
 
 ---
 
@@ -4361,13 +4380,13 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 427 |
+| Total repos indexed | 429 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
-| UI/Dashboard projects | 20 |
+| UI/Dashboard projects | 21 |
 | Memory systems | 31 |
-| MCP integrations | 46 |
+| MCP integrations | 47 |
 | Skill collections & plugins | 103 |
 | Tools & utilities | 62 |
 | Research/benchmark projects | 12 |
@@ -4438,7 +4457,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 427 repos · 18 categories · 1M+ community stars · 103 skill collections · 46 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 429 repos · 18 categories · 1M+ community stars · 103 skill collections · 47 MCP integrations · 27 domain applications
 
 ---
 
@@ -4446,7 +4465,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **427+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **429+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

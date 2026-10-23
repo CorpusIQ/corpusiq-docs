@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 427+ repos, tools, skills, and integrations
-last_updated: "2026-10-22"
+description: Comprehensive directory of the Hermes Agent ecosystem - 429+ repos, tools, skills, and integrations
+last_updated: "2026-10-23"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -18,9 +18,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **427+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 193 auto-approved (scored >= 70 or manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **429+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 195 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **427+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **429+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -488,6 +488,14 @@ _Model Context Protocol servers & integrations_
 >Your own digital life form - local AI companion with persistent memory, IDE workspace, MCP support, and 30+ tools. Companion-first alternative to Hermes Agent / OpenClaw / Claude Code.
 
 **Topics:** ai-agent, ai-agents, ai-assistant, ai-companion, ai-os | **Score:** 70/100
+
+---
+
+### [davidmosiah/google-health-mcp](https://github.com/davidmosiah/google-health-mcp) ⭐ 71
+
+>Local-first MCP server for the Google Health API v4 (Fitbit and Pixel Watch): sleep, activity, heart-rate and body metrics inside Claude, Cursor and Hermes.
+
+**Language:** TypeScript | **Topics:** agent-ready, ai-agent-tools, ai-agents, anthropic, claude, claude-desktop, cursor, fitbit, google-health, google-health-api | **Score:** 73/100
 
 ---
 
@@ -1442,6 +1450,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [homarr-labs/dashboard-icons](https://github.com/homarr-labs/dashboard-icons) ⭐ 8,915
+
+>3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw.
+
+**Language:** TypeScript | **Topics:** ai-agents, claude-code, codex, dashboard, dashboard-icons, dashy, docker, heimdall, homarr, homepage | **Score:** 83/100
+
+---
+
 ### [EKKOLearnAI/hermes-studio](https://github.com/EKKOLearnAI/hermes-studio) ⭐ 8,000
 
 >Web dashboard for Hermes Agent - multi-platform AI chat, session management, scheduled jobs, usage analytics 
@@ -1728,7 +1744,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*427+ repositories in the Hermes ecosystem. Last updated: 2026-10-22. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*429+ repositories in the Hermes ecosystem. Last updated: 2026-10-23. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
