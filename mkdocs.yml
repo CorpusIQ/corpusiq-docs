@@ -25,6 +25,7 @@ extra_javascript:
 hooks:
 - hooks/absolute_asset_urls.py
 - hooks/canonical_no_trailing_slash.py
+- hooks/publish_llm_feeds.py
 - scripts/hooks/auto_link_children.py
 - scripts/hooks/truncate_meta_description.py
 - scripts/hooks/corpusiq_credit.py
