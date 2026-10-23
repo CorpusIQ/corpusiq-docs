@@ -158,6 +158,9 @@ nav:
   - Connect Airtable to ChatGPT: connect-airtable-to-chatgpt.md
   - Connect Mailchimp to ChatGPT: connect-mailchimp-to-chatgpt.md
   - Connect PostgreSQL to ChatGPT: connect-postgresql-to-chatgpt.md
+  - Connect PostHog to ChatGPT: connect-posthog-to-chatgpt.md
+  - Connect Google Docs to ChatGPT: connect-google-docs-to-chatgpt.md
+  - Connect YouTube to ChatGPT: connect-youtube-to-chatgpt.md
 - Claude Integrations:
   - Connect Shopify to Claude: connect-shopify-to-claude.md
   - Connect QuickBooks to Claude: connect-quickbooks-to-claude.md

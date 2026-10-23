@@ -54,6 +54,10 @@ What percentage of users who signed up last week are still active today?
 | Custom HogQL queries | ✅ |
 | Session recordings | ❌ |
 | Feature flags | ❌ |
+
+## See also
+
+- [Connect PostHog to ChatGPT](../connect-posthog-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

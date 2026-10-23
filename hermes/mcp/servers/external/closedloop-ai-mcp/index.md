@@ -123,6 +123,6 @@ Yes, with a separate host: `https://eu.mcp.closedloop.sh` for the EU region and 
 
 - [Feedier MCP](/hermes/mcp/servers/external/feedier-mcp)
 - [ParrotNotes MCP](/hermes/mcp/servers/external/parrotnotes-mcp)
-- [Granola MCP](/hermes/mcp/servers/external/granola-mcp/)
+- [Granola MCP](/hermes/mcp/servers/external/granola-mcp)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [CorpusIQ Connectors](/hermes/mcp/connectors/)

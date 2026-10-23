@@ -62,6 +62,7 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - [Connect Google Sheets to ChatGPT](../connect-google-sheets-to-chatgpt.md) - sheet data behind a plain-English question.
 - [Connect Google Calendar to ChatGPT](../connect-google-calendar-to-chatgpt.md) - meeting load and commitments as questions.
 - [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - clause-level answers from the documents themselves.
+- [Connect Google Docs to ChatGPT](../connect-google-docs-to-chatgpt.md) - briefs, contracts and meeting notes behind a plain-English question.
 
 ---
 

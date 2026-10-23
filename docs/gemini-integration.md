@@ -86,7 +86,7 @@ A: Same endpoint, different client. This guide is for using Gemini as the MCP cl
 
 ## Internal Links
 
-- **[Gemini Integration](/gemini-integration)** - connect Gemini to your business data
+- **[Perplexity Integration](perplexity-integration.md)** - the same connection, described for Perplexity
 - **[AI Agent Users Guide](/ai-agent-users)** - MCP direct connection for agents
 - **[Supported Agents](/supported-agents)** - MCP config for Claude, Cursor, Hermes, Windsurf
 - **[CorpusIQ Quick Start](/quick-start)** - get running in under 5 minutes

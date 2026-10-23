@@ -44,6 +44,10 @@ Read-only. CorpusIQ never uploads, edits videos, replies to comments, or changes
 - "Channel not found" - Brand Accounts need an extra picker step. Disconnect and reconnect, then choose the correct channel.
 - Analytics empty - YouTube Analytics has a ~48-hour lag for fresh data.
 - Permission error on a Brand Account - your Google login must have at least Manager access on the Brand Account.
+
+## See also
+
+- [Connect YouTube to ChatGPT](../connect-youtube-to-chatgpt.md) - the ChatGPT setup, the channel questions worth asking and the read-only boundary.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
