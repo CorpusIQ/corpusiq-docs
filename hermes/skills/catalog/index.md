@@ -780,3 +780,7 @@ Linked from this index so the pages are reachable by crawl.
 - [taste-skill - Design-to-Code & AI Image Generation for](/hermes/skills/catalog/taste-skill-setup)
 - [web-quality-skills - Google-Grade Web Quality Audits](/hermes/skills/catalog/web-quality-skills-setup)
 - [Dontbesilent dbskill - 35-Skill Business Toolkit Setup](/hermes/skills/catalog/dontbesilent-dbskill-setup)
+- [Ponytail Skills - Lazy Senior Dev Coding Setup](/hermes/skills/catalog/ponytail-skills-setup)
+- [Stripe Link CLI Skills - Agent Payments Setup](/hermes/skills/catalog/stripe-link-cli-setup)
+- [Anatomy Skill - Isometric SVG Explainer Setup](/hermes/skills/catalog/anatomy-skill-setup)
+- [SEO Skill - Search Console MCP for Agents Setup](/hermes/skills/catalog/iannuttall-seo-setup)
