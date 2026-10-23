@@ -19099,5 +19099,82 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-22T11:03:24.385749+00:00"
+  },
+  {
+    "repo": "yechang1450/hermes-cloud-backup",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908123+00:00"
+  },
+  {
+    "repo": "mydosu/tongxi",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908135+00:00"
+  },
+  {
+    "repo": "c-pompa/s2docs",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908137+00:00"
+  },
+  {
+    "repo": "epinoiahorizon/Merlin-Agent",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908140+00:00"
+  },
+  {
+    "repo": "agusazis/hermes-hub-gateway",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908142+00:00"
+  },
+  {
+    "repo": "Mixar-AI/hermes-mixar",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908144+00:00"
+  },
+  {
+    "repo": "EfeDurmaz16/sardis",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908145+00:00"
+  },
+  {
+    "repo": "vkb1/mcp-fleet-orchestrator",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908147+00:00"
+  },
+  {
+    "repo": "kuehnberger/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908149+00:00"
+  },
+  {
+    "repo": "rauldev-yoru/hermes-alexa-voice",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908151+00:00"
+  },
+  {
+    "repo": "starwashable-eng/https-github.com-NousResearch-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-23T04:03:16.908153+00:00"
   }
 ]

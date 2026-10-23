@@ -79590,5 +79590,328 @@
     ],
     "discovered_at": "2026-10-22T11:01:21.786080+00:00",
     "status": "pending"
+  },
+  {
+    "name": "yechang1450/hermes-cloud-backup",
+    "url": "https://github.com/yechang1450/hermes-cloud-backup",
+    "description": "Back up and restore your entire Hermes Agent (config, credentials, memories, sessions, bots) via your own private GitHub repository. Windows-first, zero dependencies.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "backup",
+      "github",
+      "hermes-agent",
+      "restore",
+      "sync",
+      "windows"
+    ],
+    "updated_at": "2026-10-23T03:57:12Z",
+    "category": "core",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-23T04:00:51.371249+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mydosu/tongxi",
+    "url": "https://github.com/mydosu/tongxi",
+    "description": "\u540c\u5e2d \u00b7 Agent Hub \u2014\u2014 \u628a\u672c\u673a\u7684 Hermes\u3001Codex\u3001DSH \u7b49 agent \u805a\u5230\u4e00\u4e2a\u684c\u9762\u7684\u591a agent \u534f\u4f5c\u7ec8\u7aef\uff08Tauri 2 + TypeScript + Rust\uff09",
+    "stars": 1,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-10-23T03:56:35Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-23T04:00:51.373125+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "c-pompa/s2docs",
+    "url": "https://github.com/c-pompa/s2docs",
+    "description": "Source 2 (CS2, Deadlock) documentation index, web UI and MCP server \u2014 and its Hermes Agent plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-23T03:56:25Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "mlennie/hermes-mcp",
+      "ksimback/hermes-atlas-mcp",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-10-23T04:00:51.374695+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "epinoiahorizon/Merlin-Agent",
+    "url": "https://github.com/epinoiahorizon/Merlin-Agent",
+    "description": "A packaged desktop build of the open-source Hermes Agent (MIT). Provenance, changes and attribution: see NOTICE.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "desktop-app",
+      "fork",
+      "hermes-agent",
+      "mit",
+      "windows"
+    ],
+    "updated_at": "2026-10-23T03:56:18Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-10-23T04:00:51.376423+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agusazis/hermes-hub-gateway",
+    "url": "https://github.com/agusazis/hermes-hub-gateway",
+    "description": "Hermes Hub Gateway (HHG) - Desktop MCP Hub & Watcher for SIMGOSv2 AI Agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-23T03:45:35Z",
+    "category": "mcp",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-23T04:00:59.042766+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Mixar-AI/hermes-mixar",
+    "url": "https://github.com/Mixar-AI/hermes-mixar",
+    "description": "Hermes Agent plugin for Mixar: build, generate, texture, render and export 3D with the Mixar desktop app over MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "Batchfile",
+    "topics": [],
+    "updated_at": "2026-10-23T02:33:57Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "agentchatme/agentchat-hermes",
+      "kaankacar/stellar-agent-kit",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-10-23T04:00:59.045477+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "EfeDurmaz16/sardis",
+    "url": "https://github.com/EfeDurmaz16/sardis",
+    "description": "The open authority layer + SDKs for AI-agent payments. Thin Python/TS clients, an MCP server, framework adapters (LangChain/CrewAI/Hermes/OpenClaw/\u2026), and @sardis/reference \u2014 a pure policy simulator + AP2/TAP/x402 verifiers showing exactly how Sardis decides if an agent may spend. The hosted engine that moves money is private.",
+    "stars": 6,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-payments",
+      "agentic-commerce",
+      "ai-agents",
+      "ap2",
+      "audit-log",
+      "compliance",
+      "fintech",
+      "mcp",
+      "mpc-wallets",
+      "payments",
+      "policy-engine",
+      "python",
+      "sdk",
+      "stablecoin",
+      "typescript",
+      "web3",
+      "x402"
+    ],
+    "updated_at": "2026-10-23T02:04:33Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "zakahadi/llm-eval-cli",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "stephenschoettler/hermes-lcm",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "moonlight-lupin/agent-skills",
+      "stablyai/orca"
+    ],
+    "discovered_at": "2026-10-23T04:00:59.047305+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vkb1/mcp-fleet-orchestrator",
+    "url": "https://github.com/vkb1/mcp-fleet-orchestrator",
+    "description": "MCP server + Hermes-ready orchestrator for onboarding edge nodes and deploying agentic skills (e.g. industrial-edge-insights-multimodal) with per-node MCP servers, driven by natural language.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-23T01:53:59Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-23T04:00:59.048954+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kuehnberger/hermes-agent",
+    "url": "https://github.com/kuehnberger/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-22T04:01:47Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-10-23T04:01:14.626232+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rauldev-yoru/hermes-alexa-voice",
+    "url": "https://github.com/rauldev-yoru/hermes-alexa-voice",
+    "description": "Give your AI agent a voice: proactive Alexa Echo notifications with a custom TTS voice, no Home Assistant needed.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "aiohttp",
+      "alexa",
+      "elevenlabs",
+      "hermes-agent",
+      "python",
+      "smart-home",
+      "tts",
+      "voice-assistant"
+    ],
+    "updated_at": "2026-10-23T03:58:29Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-23T04:01:14.629110+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "starwashable-eng/https-github.com-NousResearch-hermes-agent",
+    "url": "https://github.com/starwashable-eng/https-github.com-NousResearch-hermes-agent",
+    "description": "https://github.com/NousResearch/hermes-agent",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-22T21:12:33Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-23T04:02:46.542343+00:00",
+    "status": "pending"
   }
 ]
