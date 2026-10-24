@@ -1,9 +1,10 @@
 {
-  "commit": "9acfd3194ebae5fdfd50a9062fbd3297b82b842f",
-  "built_at": "2026-10-24T05:07:05Z",
+  "commit": "16b7355c93b9e9da7ade589f1005e64dcc0fb5e7",
+  "built_at": "2026-10-24T05:12:05Z",
   "source": "mkdocs-post-build-hook",
   "feeds": [
     "llms.txt",
-    "llms-full.txt"
+    "llms-full.txt",
+    "llms-install.md"
   ]
 }
