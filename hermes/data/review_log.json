@@ -19407,5 +19407,23 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-24T10:03:35.991221+00:00"
+  },
+  {
+    "repo": "cedricziel/hermes-app",
+    "action": "approved_manual_promotion",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "reason": "nightly review: Flutter client for self-hosted Hermes dashboard (iOS/iPadOS/macOS/Android); directory already lists comparable mobile clients (Conduit, Flutter GUI)",
+    "issue": null,
+    "timestamp": "2026-10-24T10:05:05.225088+00:00"
+  },
+  {
+    "repo": "bablobanov/hermes-agent-telegram-dashboard",
+    "action": "approved_manual_promotion",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "reason": "nightly review: in-gateway read-only Telegram status dashboard plugin for Hermes (freshness, account limits, config drift, backup state); observability surface for self-hosted operators",
+    "issue": null,
+    "timestamp": "2026-10-24T10:05:08.105746+00:00"
   }
 ]

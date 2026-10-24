@@ -1,18 +1,18 @@
 ---
 title: Hermes Ecosystem -- Complete Resource Directory
-description: The definitive directory of Hermes Agent resources -- 429+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources -- 431+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem -- Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 429+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 431+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
 
-> **Last updated:** October 23, 2026 · **Repos indexed:** 429+ · **Categories:** 18
+> **Last updated:** October 24, 2026 · **Repos indexed:** 431+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -24,12 +24,12 @@ The most comprehensive directory of Hermes Agent resources in existence. 429+ re
 |----------|-------|------|
 | [Core & Official](#core-official) | 11 | [↓](#core-official) |
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
-| [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
-| [UI & Dashboards](#ui-dashboards) | 21 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 31 | [↓](#memory-knowledge) |
+| [Community & Awesome Lists](#community-awesome-lists) | 32 | [↓](#community-awesome-lists) |
+| [UI & Dashboards](#ui-dashboards) | 23 | [↓](#ui-dashboards) |
+| [Memory & Knowledge](#memory-knowledge) | 30 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 47 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 103 | [↓](#skills-plugins) |
-| [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
+| [Tools & Utilities](#tools-utilities) | 63 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 35 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 19 | [↓](#deployment-infrastructure) |
@@ -422,7 +422,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 429+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 431+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -700,6 +700,24 @@ Conduit - native SwiftUI iOS client for Hermes Agent
 
 **Maintainer:** kaishi00 
 **Topics:** ai-agent, hermes-agent, ios, self-hosted, swiftui 
+
+---
+
+### bablobanov/hermes-agent-telegram-dashboard
+⭐ **6** · `Python` · [github.com/bablobanov/hermes-agent-telegram-dashboard](https://github.com/bablobanov/hermes-agent-telegram-dashboard)
+
+Read-only status dashboard for Hermes Agent as one pinned Telegram message: freshness, account limits, config drift, last backup. Plugin inside the gateway, no bot token, no Mini App
+
+**Key capabilities:** dashboard, hermes-agent, hermes-plugin, monitoring, observability, telegram, telegram-bot
+
+---
+
+### cedricziel/hermes-app
+⭐ **2** · `Dart` · [github.com/cedricziel/hermes-app](https://github.com/cedricziel/hermes-app)
+
+Unofficial Flutter client for a self-hosted Hermes Agent dashboard. iOS, iPadOS, macOS and Android.
+
+**Key capabilities:** ai-agent, android, apple-watch, dart, flutter, hermes-agent, ios, ipados
 
 ---
 
@@ -4388,7 +4406,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Memory systems | 31 |
 | MCP integrations | 47 |
 | Skill collections & plugins | 103 |
-| Tools & utilities | 62 |
+| Tools & utilities | 63 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 19 |
 | Domain applications | 27 |
@@ -4465,7 +4483,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **429+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **431+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
