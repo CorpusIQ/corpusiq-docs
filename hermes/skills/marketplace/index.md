@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  1,150+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh  --  1,151+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-10-23"
@@ -12,9 +12,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**1,150+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,151+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [🆕 October 23, 2026 (Evening) - Binance Skills Hub (binance/binance-skills-hub, 146,680 combined installs, 35 listings, 1,083⭐, no repository-level LICENSE while four skill directories ship MIT - official Binance suite: spot, futures, margin, Convert, P2P, fiat and payment endpoints behind `binance-cli`, plus Web3 token audits, wallet tracking, smart-money signals, leaderboards and a `baw` wallet CLI; Snyk fails thirteen listings on HIGH-risk credential handling W007 and direct money access W009; top skill square-post 30,544) - 1 new publisher cluster, 1 setup guide](/hermes/skills/marketplace/new-oct23-2026-evening-skills)
 - [🆕 October 23, 2026 - Ponytail Skills (DietrichGebert/ponytail, 321,598 combined installs, 6 listings, 174,315⭐ MIT - the lazy senior dev coding mode plus review, whole-repo audit, a deferred-shortcut ledger, help and a savings scoreboard; all six listings Pass on all three auditors; top skill ponytail 102,473), Stripe Link CLI Skills (stripe/link-cli, 49,047 combined, 4 listings, 869⭐ MIT - official Stripe agent payments: payment credentials from a Link wallet, spending insights and identity attestations; Snyk W009 money access and W011 on the credential skill; US and Canada only; top skill create-payment-credential 19,627), Anatomy Skill (wheresryan22/anatomy, 19,442 combined, 1 listing, 19,426⭐ MIT - builds interactive isometric SVG and WebGL figures that explain a technical idea as a working machine, with a geometry audit and an A4 print path; Gen Agent Trust Hub MEDIUM on a session script that reads local agent logs), SEO Skill (iannuttall/seo, 9,388 combined, 57 listings, 590⭐ Apache-2.0 - Search Console, Analytics and Bing data plus crawl and internal-link work for agents through one MCP server and CLI; Snyk W011 and W012; top skill seo 9,332) - 4 new publisher clusters, 4 setup guides](/hermes/skills/marketplace/new-oct23-2026-skills)
 - [🆕 October 22, 2026 (Evening) - Agent Toolkit (softaworks/agent-toolkit, 136,734 combined installs, 44 listings, 2,587⭐ MIT - documentation, planning, professional communication, React, git hygiene and agent self-management skills; top skill mermaid-diagrams 5,109), CLI Printing Press (mvanhorn/cli-printing-press, 62,315 combined, 20 listings, 4,847⭐ MIT - turns any API into a token-efficient Go CLI plus an agent skill and an MCP server; top skill printing-press 7,508), Mapbox Agent Skills (mapbox/mapbox-agent-skills, 33,869 combined, 20 listings, 82⭐ MIT - official Mapbox suite for web, iOS, Android and Flutter maps, cartography, search, token security and two MCP integrations; top skill mapbox-web-integration-patterns 2,585), ScrapeCreators Social Research Skills (ScrapeCreators/social-media-research-skills, 15,374 combined, 13 listings, 4,538⭐ MIT - outlier posts, comment mining, transcript intelligence, ad library and competitor teardowns across 27+ platforms; top skill trend-discovery 1,271), AI Agent Skills (hoodini/ai-agents-skills, 14,854 combined, 39 listings, 290⭐ no LICENSE - a 16-skill creative stack plus platform skills for OWASP, GitHub trending, Figma, MongoDB, Cloudflare, Vercel and AWS; top skill github-trending 3,220) - 5 new publisher clusters, 5 setup guides](/hermes/skills/marketplace/new-oct22-2026-evening-skills)
 - [🆕 October 22, 2026 - GMGN Agent Skills (gmgnai/gmgn-skills, 156,181 combined installs, 19 listings, 624⭐ MIT - on-chain analytics and execution across SOL, BSC, Base and ETH: trending and launchpad feeds, holder and wallet forensics, three 0-100 verdict skills, plus swap, sizing and launchpad execution; top skill gmgn-market 17,412), Claude Trading Skills (tradermonty/claude-trading-skills, 233,532 combined, 74 listings, 3,166⭐ MIT - market regime, screening, position sizing, discipline gates, trade journaling and strategy research organised as five workflow manifests and five skillsets; ships a Hermes work package companion; top skill us-stock-analysis 5,563), ASO Skills (appeeky/aso-skills, 106,503 combined, 40 listings, 2,199⭐ MIT - App Store and Play keyword, metadata, screenshot, launch, paywall and retention skills carrying the stores' own character limits, behind an aso-router entry point; top skill aso-audit 4,452) - 3 new publisher clusters, 3 setup guides](/hermes/skills/marketplace/new-oct22-2026-skills)
@@ -328,7 +329,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,150+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,151+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -413,7 +414,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,150+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,151+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -433,7 +434,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,150+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,151+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
