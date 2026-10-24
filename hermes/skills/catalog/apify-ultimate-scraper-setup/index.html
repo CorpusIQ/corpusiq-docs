@@ -11194,59 +11194,65 @@ apify<span class="w"> </span>login
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="three-rules-for-every-command">Three Rules for Every Command<a class="headerlink" href="#three-rules-for-every-command" title="Anchor link to this section">&para;</a></h3>
 <ol>
-<li>Always pass <code>--json</code> for machine-readable output</li>
-<li>Pass <code>--user-agent apify-agent-skills/apify-ultimate-scraper</code> for telemetry</li>
-<li>Redirect stderr: <code>2&gt;/dev/null</code> (stderr has progress messages that break JSON)</li>
+<li>Call Actors with <code>apify actors call</code> (or the short form <code>apify call</code>), passing input inline with <code>-i '&lt;json&gt;'</code></li>
+<li>Add <code>-o</code> to print the dataset items, and <code>--json</code> only when you want the run record instead of the data</li>
+<li>Read the Actor input schema before writing JSON: <code>apify actors info &lt;actor&gt; --input</code></li>
 </ol>
+<p>Actor names are store-scoped. Most of the widely used scrapers are published by third-party accounts, not by <code>apify</code>, so always resolve the exact <code>username/actor-name</code> first:</p>
+<div class="highlight"><pre><span></span><code>apify<span class="w"> </span>actors<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;google maps scraper&quot;</span><span class="w"> </span>--json
+</code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="c1"># Instagram profile details</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;resultsType&quot;:&quot;details&quot;,&quot;directUrls&quot;:[&quot;https://www.instagram.com/target_account/&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
+apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;directUrls&quot;:[&quot;https://www.instagram.com/target_account/&quot;],&quot;resultsType&quot;:&quot;details&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># Google Maps lead generation</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>compass/crawler-google-places<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;searchStringsArray&quot;:[&quot;restaurants near me&quot;],&quot;maxCrawledPlacesPerSearch&quot;:50}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
+apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>compass/crawler-google-places<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;searchStringsArray&quot;:[&quot;restaurants near me&quot;],&quot;locationQuery&quot;:&quot;Austin, Texas&quot;,&quot;maxCrawledPlacesPerSearch&quot;:50}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># LinkedIn company data</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>harvestapi/linkedin-company<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;companies&quot;:[&quot;https://www.linkedin.com/company/target&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
+apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>harvestapi/linkedin-company<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;companies&quot;:[&quot;https://www.linkedin.com/company/target&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
-<span class="c1"># Reddit community posts</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;communityNames&quot;:[&quot;SaaS&quot;,&quot;ecommerce&quot;],&quot;maxPostsPerCommunity&quot;:100}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
+<span class="c1"># Reddit subreddit scraping</span>
+apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;startUrls&quot;:[{&quot;url&quot;:&quot;https://www.reddit.com/r/SaaS/&quot;}],&quot;maxPostsPerCommunity&quot;:100}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 </code></pre></div>
-<p>Every Actor name and input key above was verified against the live Apify API on 2026-10-24. Actors are namespaced by their <strong>owner</strong>, which is not always <code>apify/</code> (the Google Maps scraper is <code>compass/crawler-google-places</code>). Search the <a href="https://apify.com/store">Apify Store</a> for the canonical owner before running a new Actor, and check its input schema - field names differ per Actor.</p>
+<p>Every Actor name and input key above was checked against the Apify API on 2026-10-24. Names retire, so a <code>404 record-not-found</code> from <code>GET https://api.apify.com/v2/acts/&lt;user&gt;~&lt;actor&gt;</code> means the Actor is gone and the example needs a new one.</p>
 <hr />
 <h2 id="hermes-integration">Hermes Integration<a class="headerlink" href="#hermes-integration" title="Anchor link to this section">&para;</a></h2>
 <p>For CorpusIQ growth operations:</p>
 <h3 id="lead-generation-pipeline">Lead Generation Pipeline<a class="headerlink" href="#lead-generation-pipeline" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Scrape Shopify app store for merchant leads</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>fatihtahta/shopify-app-store-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;queries&quot;:[&quot;analytics&quot;],&quot;category&quot;:&quot;store-management&quot;,&quot;limit&quot;:100}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;.[] | {name, url, rating}&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>leads-shopify.json
+<div class="highlight"><pre><span></span><code><span class="c1"># Scrape a Shopify App Store category for merchant leads</span>
+apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>applora/shopify-appstore-scraper<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;scrapeType&quot;:&quot;category&quot;,&quot;categoryHandles&quot;:[&quot;analytics&quot;],&quot;maxPages&quot;:5}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span>&gt;<span class="w"> </span>leads-shopify.jsonl
 </code></pre></div>
+<p><code>scrapeType</code> is required: <code>app</code>, <code>review</code>, <code>developer</code>, <code>category</code>, or <code>keyword</code>. For a merchant's own product catalog, use <code>pocesar/shopify-scraper</code> with <code>startUrls</code>.</p>
+<p>One JSON object per line in the output, so <code>jq -s</code> reads the whole file as an array.</p>
 <h3 id="competitor-intelligence">Competitor Intelligence<a class="headerlink" href="#competitor-intelligence" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Monitor competitor social presence</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;resultsType&quot;:&quot;details&quot;,&quot;directUrls&quot;:[&quot;https://www.instagram.com/competitor1/&quot;,&quot;https://www.instagram.com/competitor2/&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
+apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;directUrls&quot;:[&quot;https://www.instagram.com/competitor1/&quot;,&quot;https://www.instagram.com/competitor2/&quot;],&quot;resultsType&quot;:&quot;details&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 </code></pre></div>
 <h3 id="content-research">Content Research<a class="headerlink" href="#content-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Find trending AI content on Reddit</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;communityNames&quot;:[&quot;artificial&quot;,&quot;MachineLearning&quot;,&quot;SaaS&quot;],&quot;maxPostsPerCommunity&quot;:200,&quot;communitySort&quot;:&quot;hot&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span>&gt;<span class="w"> </span>trending-content.json
+apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;startUrls&quot;:[{&quot;url&quot;:&quot;https://www.reddit.com/r/artificial/&quot;},{&quot;url&quot;:&quot;https://www.reddit.com/r/MachineLearning/&quot;}],&quot;maxPostsPerCommunity&quot;:200}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span>&gt;<span class="w"> </span>trending-content.jsonl
 </code></pre></div>
 <hr />
 <h2 id="tips">Tips<a class="headerlink" href="#tips" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Always use <code>--json</code> - stable across CLI versions</li>
-<li>The <code>2&gt;/dev/null</code> redirect is critical for JSON parsing</li>
+<li><code>apify actors call</code> runs the Actor remotely and waits; <code>apify actors start</code> returns immediately and is better for long jobs</li>
+<li><code>-o</code> prints the dataset, <code>--json</code> prints the run record - both are stable across CLI versions</li>
+<li>The <code>2&gt;/dev/null</code> redirect is useful because run logs go to stderr and break JSON parsing</li>
 <li>Check <code>references/actor-index.md</code> in the skill for the full Actor catalog</li>
-<li>Each platform has its own specific Actor - search Apify Store for the best one</li>
+<li>Each platform has its own specific Actor - search Apify Store for the best one, and confirm it resolves before publishing it</li>
 </ul>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
