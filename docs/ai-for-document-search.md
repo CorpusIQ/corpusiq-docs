@@ -1,7 +1,6 @@
 ---
 title: "AI for Document Search - CorpusIQ Docs"
-description: Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade
-  security.
+description: "Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in plain language, reading contents, not filenames."
 url: /docs/ai-for-document-search
 h1: 'AI for Document Search: Find Answers, Not Just Files'
 category: Business Use Cases
@@ -140,9 +139,7 @@ A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not ret
 
 **Next steps:** [Start AI-powered document search →](https://corpusiq.io/register)
 
-*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

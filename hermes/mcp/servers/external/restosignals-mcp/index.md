@@ -1,6 +1,6 @@
 ---
 title: "RestoSignals MCP - Scored Restaurant Opening Leads"
-description: "Remote MCP that returns deduped restaurant locations scored for opening likelihood, with the underlying signals, filterable by state, city and score."
+description: "Remote MCP that returns deduped restaurant locations scored for opening likelihood."
 category: "Sales"
 stars: n/a (hosted platform, restosignals.com)
 added: 2026-10-03

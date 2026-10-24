@@ -1,6 +1,6 @@
 ---
 title: "LinkedMash MCP - LinkedIn saved posts as an AI agent"
-description: "Connect your LinkedIn saved-post library to AI agents. Search, organize, draft, schedule, publish, and analyze LinkedIn content - all through MCP. Hosted at"
+description: "Connect your LinkedIn saved-post library to AI agents. Search, organize, draft, schedule, publish, and analyze LinkedIn content - all through MCP."
 category: mcp
 tags: [mcp-server, social-media, linkedin, content-marketing, scheduling]
 source: mcp.so GitHub issues (#3516)

@@ -1,6 +1,6 @@
 ---
 title: seo-stripe-analytics-ai
-description: "Your Stripe dashboard shows numbers. AI-powered Stripe analytics answers questions:"
+description: "Your Stripe dashboard shows numbers."
 last_updated: "2026-09-28"
 ---
 # Stripe Analytics with AI - Revenue Intelligence Without Dashboards

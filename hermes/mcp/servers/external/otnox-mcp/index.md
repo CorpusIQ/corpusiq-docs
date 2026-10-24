@@ -1,6 +1,6 @@
 ---
 title: "Otnox MCP - Public Procurement With Buyer History"
-description: "Tender notices from 78 national portals normalised into one record, joined to award history and buyer behaviour, with a metered bid verdict."
+description: "Tender notices from 78 national portals normalised into one record, joined to award history and buyer behaviour."
 category: Data & Analytics
 stars: n/a (vendor-hosted; no public repository)
 added: 2026-10-24

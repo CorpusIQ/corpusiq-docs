@@ -1,5 +1,5 @@
 ---
-title: "Linksee Memory MCP - 6-Layer Cross-Agent Memory with"
+title: "Linksee Memory MCP Server"
 description: "Linksee Memory MCP server - local-first cross-agent memory with 6-layer structure, Ebbinghaus-style forgetting curve, and drift detection. Catches when code"
 category: mcp
 tags: [mcp-server, memory, knowledge-management, cross-agent, local-first]

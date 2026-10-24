@@ -1,6 +1,6 @@
 ---
 title: seo-mcp-for-enterprise
-description: "Enterprise companies have the most data. And the hardest time getting answers from it."
+description: "Enterprise companies have the most data. And the hardest time getting answers."
 last_updated: "2026-09-28"
 ---
 # MCP for Enterprise - Security, Scale, and Real-Time Answers

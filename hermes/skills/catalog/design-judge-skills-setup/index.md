@@ -1,6 +1,6 @@
 ---
 title: "Design Judge Skills - Full Setup Guide for Hermes Agent"
-description: "Install and configure SeanJ1ang/design-judge-skills - 5 evidence-driven agent skills for design award research, evaluation, matching, entry writing, and"
+description: "Install and configure SeanJ1ang/design-judge-skills - 5 evidence-driven agent skills for design award research, evaluation, matching."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"

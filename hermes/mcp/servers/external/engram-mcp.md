@@ -1,6 +1,6 @@
 ---
 title: "Engram MCP - Git-Backed Shared Memory Dashboard for AI"
-description: "Engram MCP server - self-hosted memory with dashboard UI backed by a git repository of markdown files. Authoritative search ensures agents always get the"
+description: "Engram MCP server - self-hosted memory with dashboard UI backed by a git repository of markdown files."
 category: mcp
 tags: [mcp-server, memory, knowledge-management, git-backed, self-hosted, dashboard]
 last_updated: 2026-09-17

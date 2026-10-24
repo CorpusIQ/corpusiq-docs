@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Glean: What Each One Does"
-description: "Glean searches your company knowledge. CorpusIQ is the layer that gives AI assistants live access to your business data, alongside 40+ connected tools,..."
+description: "Glean searches your company knowledge. CorpusIQ is the layer that gives AI assistants live access to your business data."
 ---
 
 # CorpusIQ vs Glean: What Each One Does

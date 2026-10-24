@@ -1,6 +1,6 @@
 ---
 title: "Localith MCP - Google Business Profile Data for Agents"
-description: "Google Business Profile data for AI agents: locations, listings, reviews and performance metrics, with review-trend analysis and location comparisons."
+description: "Google Business Profile data for AI agents: locations, listings, reviews and performance metrics."
 category: Marketing
 stars: n/a (new listing)
 added: 2026-10-06

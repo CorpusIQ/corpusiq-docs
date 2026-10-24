@@ -1,6 +1,6 @@
 ---
 title: "Cursor Delegate - Hermes Agent Skill for Cursor CLI"
-description: "Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent - safely delegate coding work to Cursor CLI with"
+description: "Install and configure the cursor-delegate skill (matdev83/hermes-cursor-dispatcher) for Hermes Agent - safely delegate coding work to Cursor."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"

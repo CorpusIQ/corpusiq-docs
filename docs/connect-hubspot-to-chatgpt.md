@@ -1,6 +1,6 @@
 ---
 title: "Connect HubSpot to ChatGPT via MCP -- Live Data, No Code"
-description: "Connect your HubSpot account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your hubspot data and get real-time, source-cited answers"
+description: "Connect your HubSpot account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect HubSpot to ChatGPT", "HubSpot ChatGPT integration", "MCP HubSpot connector", "HubSpot data to ChatGPT", "AI for HubSpot", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -171,9 +171,7 @@ Under 5 minutes from signup to your first CRM query in ChatGPT.
 - [HubSpot Connector Reference](connect-hubspot-to-chatgpt.md)  --  technical details
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 
-*Connect Connect HubSpot to ChatGPT via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect HubSpot to ChatGPT via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

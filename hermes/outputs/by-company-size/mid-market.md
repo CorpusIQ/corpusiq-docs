@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent for Mid-Market - CorpusIQ Docs"
-description: "Deploy cross-department AI automation for mid-market companies (50-500 employees). Marketing, sales, finance, and CS profiles with approval workflows and"
+description: "Deploy cross-department AI automation for mid-market companies (50-500 employees)."
 category: "Company Size"
 tags:
   - mid-market
@@ -213,8 +213,6 @@ A dedicated operations profile monitors all other profiles' cron executions, ale
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and forecasting
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Multi-channel ticket triage and SLA management
 - [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
-
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

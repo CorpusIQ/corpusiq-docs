@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Affiliate Program: 25% Recurring Commission for"
+title: "CorpusIQ Affiliate Program: 25% Recurring Commission for 3"
 description: "You recommend tools to your audience. You should get paid for the ones that deliver real value. value."
 last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/growth/affiliate-program/"

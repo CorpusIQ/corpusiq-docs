@@ -1,6 +1,6 @@
 ---
 title: "AdvisorIQ MCP - Advisor CE and RIA Firm Data"
-description: "Continuing education rules, deadlines and RIA firm data for US financial advisors, with official sources and citations on every answer, keyless."
+description: "Continuing education rules, deadlines and RIA firm data for US financial advisors."
 category: Finance
 stars: n/a (new listing)
 added: 2026-10-06

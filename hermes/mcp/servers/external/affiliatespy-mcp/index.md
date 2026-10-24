@@ -1,6 +1,6 @@
 ---
 title: "AffiliateSpy MCP - Competitor Creator Discovery for Agents"
-description: "AffiliateSpy finds the TikTok, YouTube and Instagram creators and the blogs and roundups already promoting your competitors, with proof, then recruits them from your own inbox."
+description: "AffiliateSpy finds the TikTok, YouTube and Instagram creators and the blogs and roundups already promoting your competitors."
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-28

@@ -1,6 +1,6 @@
 ---
 title: "PubCrawl MCP - PubMed, Drug Labels and Trials for Agents"
-description: "PubMed, Europe PMC, FDA and UK drug labelling and ClinicalTrials.gov for AI assistants, with US-UK label comparison and cited results."
+description: "PubMed, Europe PMC, FDA and UK drug labelling and ClinicalTrials.gov for AI assistants."
 category: Analytics & BI
 stars: 15
 added: 2026-09-29

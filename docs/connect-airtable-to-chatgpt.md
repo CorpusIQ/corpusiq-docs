@@ -1,6 +1,6 @@
 ---
 title: Connect Airtable to ChatGPT via MCP
-description: "Connect Airtable to ChatGPT through CorpusIQ MCP. Ask about bases, tables and records in plain English, read-only, with answers that cite the record they came from."
+description: "Connect Airtable to ChatGPT through CorpusIQ MCP. Ask about bases, tables and records in plain English, read-only."
 category: ChatGPT Integrations
 tags: ["connect Airtable to ChatGPT", "Airtable ChatGPT integration", "MCP Airtable connector", "Airtable records to ChatGPT", "ask questions about Airtable", "CorpusIQ MCP"]
 last_updated: "2026-10-22"

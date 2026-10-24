@@ -1,9 +1,8 @@
 ---
-title: "HubSpot Dashboard with ChatGPT -- Live CRM KPIs &"
+title: "HubSpot Dashboard with ChatGPT"
 url: /docs/hubspot-dashboard-with-chatgpt
 h1: 'HubSpot Dashboard with ChatGPT: Your Real-Time Sales Command Center'
-description: Create a live HubSpot dashboard using ChatGPT and CorpusIQ. Track pipeline health, monitor deal progress, measure rep performance, and get real-time sales alerts  --  all through natural
-  language queries.
+description: "Create a live HubSpot dashboard with ChatGPT and CorpusIQ. Track pipeline health, deal progress, rep performance, and real-time sales alerts in plain English."
 keywords:
 - HubSpot dashboard ChatGPT
 - CRM dashboard AI
@@ -186,8 +185,6 @@ Ready to put AI to work on your hubspot dashboard with chatgpt data?
 A ChatGPT-powered HubSpot dashboard is the fastest, most flexible way to monitor your sales organization. No dashboard configuration. No report building. No data exports. Just real-time sales intelligence, on demand.
 
 **[Set up your sales dashboard now](/quickstart)  --  connect HubSpot in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

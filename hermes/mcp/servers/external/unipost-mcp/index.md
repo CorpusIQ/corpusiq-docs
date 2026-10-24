@@ -1,6 +1,6 @@
 ---
 title: "UniPost MCP - LinkedIn and X Publishing With Approval"
-description: "Schedule posts to LinkedIn profiles, X and TikTok from an agent, with a human approval step before anything publishes and X credits priced per post."
+description: "Schedule posts to LinkedIn profiles, X and TikTok from an agent."
 category: Marketing
 stars: n/a (hosted platform; the agent skill package is MIT)
 added: 2026-10-21

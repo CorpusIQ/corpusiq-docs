@@ -1,6 +1,6 @@
 ---
 title: PostBazooka MCP - Social Publishing with Commit Proof
-description: Remote OAuth MCP server for social publishing across eight networks. A workflow-gated 26-tool schema covers sourced ideas, drafts, media, reactions, feedback and scheduling, with structured commit confirmation on every mutation so agents can verify a post actually persisted before reporting success.
+description: "Remote OAuth MCP server for social publishing across eight networks. A workflow-gated 26-tool schema covers sourced ideas, drafts, media, reactions, feedback and scheduling."
 category: Social Media Management
 stars: n/a (new listing)
 added: 2026-09-05

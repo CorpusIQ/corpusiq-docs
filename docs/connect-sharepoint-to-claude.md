@@ -1,7 +1,6 @@
 ---
 title: "Connect SharePoint to Claude - CorpusIQ Docs"
-description: Connect SharePoint to Claude using CorpusIQ's MCP platform. Search documents, libraries, and enterprise content in natural language. Read-only OAuth, Microsoft 365 integration, enterprise-grade
-  security.
+description: "Connect your SharePoint account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 url: /docs/connect-sharepoint-to-claude
 h1: 'Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence'
 category: Claude Integrations
@@ -158,9 +157,7 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 **Next steps:** [Connect SharePoint to Claude now →](https://corpusiq.io/connect/sharepoint)
 
-*Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

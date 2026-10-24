@@ -1,5 +1,5 @@
 ---
-title: "AI Connectors for Business: Connect ChatGPT to Shopify,"
+title: "AI Connectors for Business"
 description: "Your AI cannot answer basic questions about your business. Not because it is not smart enough. Because it cannot reach your data."
 last_updated: 2026-09-17
 canonical: "https://www.corpusiq.io/docs/hermes/seo/ai-connectors-for-business/"

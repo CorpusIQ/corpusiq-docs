@@ -1,6 +1,6 @@
 ---
 title: "DataBazaar MCP - Dataset Marketplace for Agents"
-description: "Search, sample and retrieve datasets from an agent-first marketplace, with quality scores, one-click purchases and data bounties sellers can fill."
+description: "Search, sample and retrieve datasets from an agent-first marketplace."
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-10-10

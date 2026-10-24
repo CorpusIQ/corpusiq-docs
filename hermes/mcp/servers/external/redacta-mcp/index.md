@@ -1,6 +1,6 @@
 ---
 title: "Redacta MCP - Clinical Pseudonymisation for AI Agents"
-description: "Pseudonymises patient identifiers in clinical documents before AI processing, with a reversal map kept on your side of the boundary."
+description: "Pseudonymises patient identifiers in clinical documents before AI processing."
 category: Compliance
 stars: 9
 added: 2026-09-29

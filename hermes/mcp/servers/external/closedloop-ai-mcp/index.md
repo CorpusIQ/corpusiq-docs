@@ -1,6 +1,6 @@
 ---
 title: "ClosedLoop AI MCP - Customer Evidence, Ranked"
-description: "Product insights built from sales calls, support tickets, surveys and Slack, each ranked by the revenue behind it and traced to the customers who said it."
+description: "Product insights built from sales calls, support tickets, surveys and Slack."
 category: Data & Analytics
 stars: n/a (vendor-hosted; mcp.so card verified and featured)
 added: 2026-10-23

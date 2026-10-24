@@ -1,7 +1,6 @@
 ---
 title: "AI for Audit Readiness - CorpusIQ Docs"
-description: Transform audit preparation with AI. Query financial records, policies, and controls across systems in natural language. Instant evidence gathering, continuous readiness, and automated
-  control testing.
+description: "Transform audit preparation with AI. Query financial records, policies, and controls across systems in plain language for continuous, evidence-backed readiness."
 url: /docs/ai-for-audit-readiness
 h1: 'AI for Audit Readiness: Always Prepared, Never Scrambling'
 category: Business Use Cases
@@ -130,9 +129,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 **Next steps:** [Achieve continuous audit readiness →](https://corpusiq.io/register)
 
-*AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

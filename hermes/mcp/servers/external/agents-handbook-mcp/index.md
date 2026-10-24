@@ -1,6 +1,6 @@
 ---
 title: "Agents Handbook MCP - Tested Playbooks Before the Run"
-description: "Fifty-four agent playbooks with trust grades, risk grades and human checkpoints, readable over a keyless MCP server, with a run report that feeds back."
+description: "Fifty-four agent playbooks with trust grades, risk grades and human checkpoints, readable over a keyless MCP server."
 category: Productivity
 stars: n/a (hosted knowledge surface; playbooks readable as markdown)
 added: 2026-10-21

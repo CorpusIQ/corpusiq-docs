@@ -1,6 +1,6 @@
 ---
 title: mcp-x MCP - Official X API v2 Tools for Agents
-description: Go MCP server exposing the full X (Twitter) API v2 as 42 tools for posts, search, users, lists and media upload over official OAuth 1.0a user context, with destructive hints and cost guards.
+description: "Go MCP server exposing the full X (Twitter) API v2 as 42 tools for posts, search, users, lists and media upload over official OAuth 1.0a user context."
 category: Social Media Management
 stars: 1
 added: 2026-09-10

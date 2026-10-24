@@ -1,6 +1,6 @@
 ---
 title: "Sweep Report - August 18, 2026 (Morning Cron Sweep)"
-description: "MCP discovery sweep for August 18, 2026 (morning): candidates pulled from chatmcp/mcpso issues and mcpservers.org, evaluated against the catalog, with reasons recorded for every skip."
+description: "MCP discovery sweep for August 18, 2026 (morning): candidates pulled from chatmcp/mcpso issues and mcpservers.org, evaluated against the catalog."
 ---
 
 # Sweep Report - August 18, 2026 (Morning Cron Sweep)

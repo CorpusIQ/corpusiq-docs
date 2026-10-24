@@ -131,9 +131,7 @@ MCP queries return data in the source system's native format, and the AI model i
 - [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
 - [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
 
-*Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

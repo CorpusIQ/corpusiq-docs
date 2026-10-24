@@ -1,6 +1,6 @@
 ---
 title: apMZoomAI MCP - Dongdaemun Wholesale Search
-description: "Free read-only MCP server for searching Seoul's Dongdaemun wholesale fashion market, with items, new arrivals and stalls in eight languages."
+description: "Free read-only MCP server for searching Seoul's Dongdaemun wholesale fashion market."
 category: Commerce & E-Commerce
 stars: n/a (hosted service, apmzoom.com)
 added: 2026-10-01

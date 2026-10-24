@@ -1,6 +1,6 @@
 ---
 title: "AgentGrid MCP - Shared Workspace for Agents"
-description: "Anima's hosted workspace where humans and agents build, host, publish and review live apps, docs and files, with every artifact a real git repository."
+description: "Anima's hosted workspace where humans and agents build, host, publish and review live apps, docs and files."
 category: Productivity
 stars: n/a (hosted platform, agentgrid.io)
 added: 2026-10-01

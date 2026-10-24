@@ -1,6 +1,6 @@
 ---
 title: "Connect Google Analytics to Claude via MCP"
-description: "Connect your Google Analytics account to Claude through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time"
+description: "Connect your Google Analytics account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect Google Analytics to Claude", "Google Analytics Claude integration", "MCP Google Analytics connector", "Google Analytics data to Claude", "AI for Google Analytics", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -125,9 +125,7 @@ Yes. The API returns data based on the property's configured reporting identity 
 
 **Next steps:** [Connect Google Analytics to Claude now →](https://corpusiq.io/connect/ga4)
 
-*Connect Connect Google Analytics to Claude via MCP  --  Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Google Analytics to Claude via MCP  --  Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

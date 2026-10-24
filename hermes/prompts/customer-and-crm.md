@@ -115,8 +115,6 @@ activity.
 **Sample answer shape:** Contact list ranked by touchpoint count.
 
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

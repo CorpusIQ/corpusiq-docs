@@ -1,6 +1,6 @@
 ---
 title: "MCP Spec - CorpusIQ Docs"
-description: "MCP specification notes and analysis from the CorpusIQ docs MCP hub, including the stateless migration proposal."
+description: "MCP specification notes and analysis from the CorpusIQ docs MCP hub."
 ---
 
 # MCP Spec

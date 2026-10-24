@@ -1,6 +1,6 @@
 ---
 title: "Cortex MCP - Shared Knowledge Base for Human-Agent Teams"
-description: "Cortex is a shared knowledge base humans and AI agents read and write together, with 70+ permission-checked MCP tools."
+description: "Cortex is a shared knowledge base humans and AI agents read and write together."
 category: Productivity
 stars: n/a (new listing)
 added: 2026-09-28

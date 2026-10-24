@@ -1,6 +1,6 @@
 ---
 title: "upCampo MCP - Farm Management Data for AI Agents"
-description: "upCampo MCP bridges the upCampo farm management system to Claude and ChatGPT over Streamable HTTP with OAuth sign-in. Agents query production and harvest progress, per-hectare yields, rain per field, pest alerts, work orders, stock minimums, fleet fuel consumption, post-harvest bales and cost per hectare, with per-farm read permissions and confirmed write actions."
+description: "upCampo MCP bridges the upCampo farm management system to Claude and ChatGPT over Streamable HTTP with OAuth sign-in. Agents query production and harvest progress, per-hectare yields, rain per field, pest alerts, work orders, stock minimums, fleet fuel consumption, post-harvest bales and cost per hectare."
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-12

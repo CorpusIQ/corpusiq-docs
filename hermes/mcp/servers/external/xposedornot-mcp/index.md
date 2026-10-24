@@ -1,6 +1,6 @@
 ---
 title: "XposedOrNot MCP - Breach Intelligence by Domain"
-description: "XposedOrNot MCP checks an email or a domain against 794 indexed breaches, keyless and free, and returns exposure counts an agent can act on."
+description: "XposedOrNot MCP checks an email or a domain against 794 indexed breaches, keyless and free."
 category: "Security & Intelligence"
 stars: 0
 added: 2026-10-20

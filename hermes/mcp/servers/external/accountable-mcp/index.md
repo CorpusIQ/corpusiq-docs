@@ -1,6 +1,6 @@
 ---
 title: "Accountable MCP - AI Bookkeeping for Startups"
-description: "AI bookkeeping for startups over MCP. Read and update the books from Claude or ChatGPT, with role-based write limits, audit logging and one-click undo."
+description: "AI bookkeeping for startups over MCP. Read and update the books from Claude or ChatGPT."
 category: Finance
 stars: n/a (hosted platform, accountable.im)
 added: 2026-10-05

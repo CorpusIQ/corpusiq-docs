@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Library - CorpusIQ Docs"
-description: "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive. Deploy in"
+description: "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive."
 category: Agents
 tags:
   - agent-library

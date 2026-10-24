@@ -1,6 +1,6 @@
 ---
 title: "ScrapeAtlas MCP - Social Data Access for Agents"
-description: "291 tools over 40 social platforms on one HTTP endpoint: public profiles, posts, videos and conversations, with source context and coverage flags."
+description: "291 tools over 40 social platforms on one HTTP endpoint: public profiles, posts, videos and conversations."
 category: Data & Analytics / Market Intelligence
 stars: n/a (hosted API, scrapeatlas.com)
 added: 2026-10-05

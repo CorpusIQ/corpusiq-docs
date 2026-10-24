@@ -1,6 +1,6 @@
 ---
 title: Listar MCP - Verified B2B Contact Data
-description: Remote MCP that finds a company's decision makers, verified work emails and phone numbers inside an assistant, with nothing billed when nothing is found.
+description: "Remote MCP that finds a company's decision makers, verified work emails and phone numbers inside an assistant."
 category: Marketing
 stars: n/a (new listing)
 added: 2026-10-04

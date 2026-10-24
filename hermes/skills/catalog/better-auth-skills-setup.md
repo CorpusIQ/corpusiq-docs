@@ -1,5 +1,5 @@
 ---
-title: "Better Auth Skills - Authentication Infrastructure for"
+title: "Better Auth Skills - Setup Guide"
 description: Auth best practices, multi-tenancy, 2FA, and security patterns from Better Auth. 203K+ combined installs across 6 skills. Framework-agnostic auth patterns for agent-built applications.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/better-auth-skills-setup/"
 robots: "index,follow"

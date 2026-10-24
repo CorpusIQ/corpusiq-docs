@@ -2,8 +2,7 @@
 title: "QuickBooks Natural Language Queries"
 url: /docs/quickbooks-natural-language-queries
 h1: 'QuickBooks Natural Language Queries: Ask Your Financial Data Anything'
-description: Query QuickBooks in plain English with CorpusIQ MCP. Ask questions like 'Which customers are past due?' or 'What drove our expense increase?' and get instant, accurate answers from your
-  live data.
+description: "Query QuickBooks in plain English with CorpusIQ MCP. Ask 'Which customers are past due?' or 'What drove our expense increase?' and get cited answers."
 keywords:
 - QuickBooks natural language queries
 - ask QuickBooks questions
@@ -165,8 +164,6 @@ Ready to put AI to work on your quickbooks natural language queries data?
 Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data  --  not just the people who know how to run reports  --  financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
 
 **[Start asking your QuickBooks data questions in plain English](/quickstart). Connect in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

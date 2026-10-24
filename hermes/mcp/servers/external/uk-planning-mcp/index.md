@@ -1,6 +1,6 @@
 ---
 title: "UK Planning MCP - Planning Applications by LPA"
-description: "UK planning applications and decisions for an LPA or postcode, with status mixes and coverage flags, as free peeks or one-time packs for property work."
+description: "UK planning applications and decisions for an LPA or postcode."
 category: Real Estate
 stars: n/a (new listing)
 added: 2026-10-06

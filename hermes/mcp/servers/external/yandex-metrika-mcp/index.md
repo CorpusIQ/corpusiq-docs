@@ -1,6 +1,6 @@
 ---
 title: Yandex Metrika MCP - Web Analytics for Agents
-description: Full Yandex Metrika API coverage as MCP tools - 108 Management, Logs and Stat methods generated from the official docs, with a transparency contract and no silent query rewriting.
+description: "Full Yandex Metrika API coverage as MCP tools - 108 Management, Logs and Stat methods generated from the official docs."
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-09

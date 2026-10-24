@@ -1,6 +1,6 @@
 ---
 title: "Skywalk MCP - AppFolio Data for Property Managers"
-description: "Give an AI assistant live AppFolio Property Manager data: properties, units, leases, ledgers and work orders, with scoped writes when you turn them on."
+description: "Give an AI assistant live AppFolio Property Manager data: properties, units, leases, ledgers and work orders."
 category: "Real Estate & Property Management"
 stars: n/a (new listing)
 added: 2026-10-13

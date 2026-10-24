@@ -1,6 +1,6 @@
 ---
 title: seo-mcp-for-churches
-description: "Churches and religious organizations run: Planning Center for members, QuickBooks for finances, Stripe for online giving, Mailchimp for communications, and."
+description: "Churches and religious organizations run: Planning Center for members, QuickBooks for finances, Stripe for online giving."
 last_updated: "2026-09-28"
 ---
 # MCP for Churches and Nonprofits - Donations, Expenses, and Member Data

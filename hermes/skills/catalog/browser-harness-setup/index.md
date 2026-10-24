@@ -1,6 +1,6 @@
 ---
 title: "browser-harness Setup Guide - CorpusIQ Docs"
-description: "Complete setup guide for browser-harness - AI agent browser automation skill from David Ondrej's skills collection. Control browsers through your agent on"
+description: "Complete setup guide for browser-harness - AI agent browser automation skill from David Ondrej's skills collection."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"

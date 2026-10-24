@@ -1,6 +1,6 @@
 ---
 title: "Dados B3 MCP - Auditable Brazilian Stock Fundamentals"
-description: "Point-in-time fundamentals for the Brazilian stock market (B3) with public methodology: ROIC, ROE, margins, multiples, dividends and Piotroski F-Scores for 402 listed companies plus Brazilian REIT rankings, every figure traceable to the CVM filing it came from."
+description: "Point-in-time fundamentals for the Brazilian stock market (B3) with public methodology: ROIC, ROE, margins, multiples."
 category: Finance
 stars: n/a (new listing)
 added: 2026-08-22

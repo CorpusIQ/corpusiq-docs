@@ -1,6 +1,6 @@
 ---
 title: "Connect HubSpot to Claude via MCP -- Live Data, No Code"
-description: "Connect your HubSpot account to Claude through CorpusIQ MCP. Ask natural language questions about your hubspot data and get real-time, source-cited answers"
+description: "Connect your HubSpot account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect HubSpot to Claude", "HubSpot Claude integration", "MCP HubSpot connector", "HubSpot data to Claude", "AI for HubSpot", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -121,9 +121,7 @@ OAuth scopes control access at the object level. For property-level restrictions
 
 **Next steps:** [Connect HubSpot to Claude now →](https://corpusiq.io/connect/hubspot)
 
-*Connect Connect HubSpot to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect HubSpot to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

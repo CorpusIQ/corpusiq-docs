@@ -1,6 +1,6 @@
 ---
 title: "ShopTrueProfit MCP - Marketplace Fee Math for Sellers"
-description: "Itemised Etsy, eBay and Amazon FBA fees, profit, margin, break-even and target price, with a dated fee table behind every line."
+description: "Itemised Etsy, eBay and Amazon FBA fees, profit, margin, break-even and target price."
 category: Commerce & E-Commerce
 stars: 0 (github.com/PravinrajV/shoptrueprofit-fee-mcp, MIT, created 2026-10-17)
 added: 2026-10-23

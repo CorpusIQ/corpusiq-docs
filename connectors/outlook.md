@@ -1,6 +1,6 @@
 ---
 title: "Outlook - CorpusIQ Docs - CorpusIQ"
-description: "Pull your Outlook inbox and calendar into the conversation. Ask what's on your plate this week, what a customer last emailed you, or what's blocking a."
+description: "Pull your Outlook inbox and calendar into the conversation. Ask what's on your plate this week, what a customer last emailed you."
 ---
 # Outlook
 

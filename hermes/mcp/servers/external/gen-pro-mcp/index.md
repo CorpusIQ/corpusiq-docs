@@ -1,6 +1,6 @@
 ---
 title: GEN MCP - Social Video Creation and Publishing
-description: "Hosted MCP for a social video engine: spot trends, write scripts, generate multi-scene videos and schedule posts, with a free editor."
+description: "Hosted MCP for a social video engine: spot trends, write scripts, generate multi-scene videos and schedule posts."
 category: Marketing
 stars: n/a (new listing)
 added: 2026-10-04

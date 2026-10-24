@@ -1,6 +1,6 @@
 ---
 title: death-of-dashboards
-description: "Every company I know has the same problem: they have the data, but nobody looks at it."
+description: "Every company I know has the same problem: they have the data."
 last_updated: "2026-09-28"
 ---
 # Why I Stopped Building Dashboards and Started Asking Questions Instead

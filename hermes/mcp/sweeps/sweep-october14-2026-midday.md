@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Discovery - October 14, 2026 (Midday Sweep)"
-description: "Midday sweep cataloguing a local MCP gateway for Siemens TIA Portal engineering, with the donniertf five-country fleet expansion held as class-covered."
+description: "Midday sweep cataloguing a local MCP gateway for Siemens TIA Portal engineering."
 last_updated: 2026-10-14
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october14-2026-midday/"
 robots: "index,follow"

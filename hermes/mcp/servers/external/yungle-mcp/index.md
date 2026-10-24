@@ -1,6 +1,6 @@
 ---
 title: "Yungle MCP - File Delivery and Receipts for AI Agents"
-description: "Send large files from an AI assistant as private download links, with transfer receipts and approval on every emailed send."
+description: "Send large files from an AI assistant as private download links."
 category: Productivity
 stars: 1
 added: 2026-09-29

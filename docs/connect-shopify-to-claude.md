@@ -1,6 +1,6 @@
 ---
 title: "Connect Shopify to Claude via MCP -- Live Data, No Code"
-description: "Connect your Shopify account to Claude through CorpusIQ MCP. Ask natural language questions about your shopify data and get real-time, source-cited answers"
+description: "Connect your Shopify account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect Shopify to Claude", "Shopify Claude integration", "MCP Shopify connector", "Shopify data to Claude", "AI for Shopify", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -161,9 +161,7 @@ You can connect multiple stores through CorpusIQ and specify which store Claude 
 
 **Next steps:** [Connect Shopify to Claude now →](https://corpusiq.io/connect/shopify) or [learn more about CorpusIQ's MCP platform](what-is-an-mcp-server.md).
 
-*Connect Connect Shopify to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Shopify to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

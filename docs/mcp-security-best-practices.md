@@ -1,6 +1,6 @@
 ---
 title: "MCP Security Best Practices: OAuth & Token Management"
-description: "Complete guide to MCP server security: OAuth 2.0 scopes, encrypted token management, read-only access defaults, audit trails, TLS encryption, and SOC 2"
+description: "MCP server security guide: OAuth 2.0 scopes, encrypted token management, read-only access defaults, audit trails, TLS encryption, and SOC 2 alignment."
 category: MCP Education
 tags: ["MCP security best practices", "secure AI data integration", "OAuth AI authentication", "read-only data access security", "AI audit trails", "SOC 2 AI compliance"]
 last_updated: "2026-10-15"
@@ -171,8 +171,6 @@ CorpusIQ maintains a SOC 2 aligned security posture and is CASA Tier 2 certified
 - [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
 - [Learn about MCP for financial reporting and compliance](mcp-for-finance.md)
 - [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

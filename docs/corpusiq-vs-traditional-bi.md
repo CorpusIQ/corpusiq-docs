@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Traditional BI - CorpusIQ Docs"
-description: "CorpusIQ AI-powered natural language queries vs traditional BI tools like Tableau and Power BI. Instant answers vs dashboard building for business"
+description: "CorpusIQ natural-language queries vs traditional BI tools like Tableau and Power BI: instant answers against live systems instead of dashboard building."
 h1: "CorpusIQ vs Traditional BI  --  Natural Language AI vs Dashboards"
 url: "/docs/corpusiq-vs-traditional-bi"
 author: "CorpusIQ"

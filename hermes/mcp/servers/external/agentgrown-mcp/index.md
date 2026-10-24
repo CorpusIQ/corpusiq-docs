@@ -1,6 +1,6 @@
 ---
 title: "AgentGrown MCP - Search Console and GA4 for Agents"
-description: "AgentGrown gives a coding agent its site's Google Search Console and GA4 data over MCP, with Google sign-in and daily sync."
+description: "AgentGrown gives a coding agent its site's Google Search Console and GA4 data over MCP."
 category: Analytics & BI
 stars: n/a (new listing)
 added: 2026-09-29

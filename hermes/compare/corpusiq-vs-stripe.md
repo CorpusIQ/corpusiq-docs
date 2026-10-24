@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Stripe: What Each One Does"
-description: "Stripe processes payments. CorpusIQ is the layer that gives AI assistants live access to Stripe data, alongside Shopify, QuickBooks, Google Ads, GA4, an..."
+description: "Stripe processes payments. CorpusIQ is the layer that gives AI assistants live access to Stripe data."
 ---
 
 # CorpusIQ vs Stripe: What Each One Does

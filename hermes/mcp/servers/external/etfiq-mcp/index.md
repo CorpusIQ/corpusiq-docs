@@ -1,6 +1,6 @@
 ---
 title: "ETFIQ MCP - US ETF Data for Model Portfolios"
-description: "Independent US-listed ETF and benchmark data for model portfolios, with sources, as-of dates and citations on every figure, keyless and read-only."
+description: "Independent US-listed ETF and benchmark data for model portfolios."
 category: Finance
 stars: n/a (new listing)
 added: 2026-10-06

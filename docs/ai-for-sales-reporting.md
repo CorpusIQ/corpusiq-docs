@@ -136,9 +136,7 @@ A: The CRM retrieval tools documented here do not create opportunities or update
 
 **Next steps:** [Connect your CRM now →](https://corpusiq.io/connect)
 
-*AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

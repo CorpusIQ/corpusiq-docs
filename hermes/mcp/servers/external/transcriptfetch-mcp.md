@@ -1,5 +1,5 @@
 ---
-title: "TranscriptFetch MCP - YouTube Transcript Search &"
+title: "TranscriptFetch MCP Server ★ New (July 16)"
 description: "Fetch YouTube transcripts, search videos, browse channels, and access playlists from any MCP client. Content intelligence for AI agents."
 category: mcp
 tags: [mcp-server, youtube, transcripts, content, search, media-analysis]

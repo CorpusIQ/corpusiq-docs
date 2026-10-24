@@ -1,6 +1,6 @@
 ---
 title: "Mamba Reporting Window Finder MCP - Earnings Dates"
-description: "Resolve a listed company and read its fiscal year end, reporting cadence, next events and an outreach window you define, with US timing rows."
+description: "Resolve a listed company and read its fiscal year end, reporting cadence, next events and an outreach window you define."
 category: Finance
 stars: n/a (npm package, MIT)
 added: 2026-10-07

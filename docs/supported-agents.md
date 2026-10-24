@@ -1,6 +1,6 @@
 ---
 title: "Supported AI Agents - CorpusIQ Docs"
-description: "Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code. Copy-paste JSON config blocks for instant"
+description: "Complete MCP configuration guides for supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, and Roo Code. Copy-paste JSON blocks for instant setup."
 category: "Documentation"
 tags: ["supported ai agents", "mcp configuration", "claude desktop mcp", "cursor mcp", "hermes agent", "windsurf mcp", "roo code"]
 last_updated: "2026-10-15"

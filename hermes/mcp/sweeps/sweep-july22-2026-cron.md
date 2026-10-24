@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Sweep - July 22-23, 2026 (Cron Discovery)"
-description: "Cron-triggered sweep of mcp.so and mcpservers.org. 14 net-new servers discovered (8 not in any prior sweep). 8 integration guides drafted for"
+description: "Cron-triggered sweep of mcp.so and mcpservers.org. 14 net-new servers discovered (8 not in any prior sweep)."
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026, cron]
 last_updated: 2026-09-17

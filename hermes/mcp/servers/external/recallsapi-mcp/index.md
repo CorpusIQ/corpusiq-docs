@@ -1,6 +1,6 @@
 ---
 title: "RecallsAPI MCP - US Product and Vehicle Recall Data"
-description: "Check any product, food, drug, device or vehicle against US recall data from FDA, USDA, CPSC and NHTSA, with a source link on every result."
+description: "Check any product, food, drug, device or vehicle against US recall data from FDA, USDA, CPSC and NHTSA."
 category: Compliance
 stars: n/a (new listing)
 added: 2026-10-12

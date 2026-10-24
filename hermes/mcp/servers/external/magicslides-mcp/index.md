@@ -1,6 +1,6 @@
 ---
 title: "MagicSlides MCP - CorpusIQ Docs"
-description: Presentation generation over MCP - turn any topic into a designed slide deck, document, spreadsheet or meeting notes from chat, with 70+ templates, a hosted share link, an editor, and PPTX/PDF export.
+description: "Presentation generation over MCP - turn any topic into a designed slide deck, document, spreadsheet or meeting notes from chat."
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-16

@@ -1,6 +1,6 @@
 ---
 title: "Plaud MCP - AI Recording Integration for Hermes Agent"
-description: "Connect Plaud.ai recordings to Hermes Agent. Search recordings, read transcripts, generate documents - all from your AI assistant. Official MCP server from"
+description: "Connect Plaud.ai recordings to Hermes Agent. Search recordings, read transcripts, generate documents - all from your AI assistant."
 category: mcp
 tags: [mcp-server, plaud, meeting-notes, transcription, recordings, communication, knowledge-retrieval]
 last_updated: 2026-09-17

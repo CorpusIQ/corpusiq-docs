@@ -1,6 +1,6 @@
 ---
 title: "GLP Audit Proxy MCP - Tamper-Evident Tool-Call Trail"
-description: "MIT stdio proxy that hash-chains every MCP tool call into an append-only audit trail, with deny-by-default allowlists and role separation."
+description: "MIT stdio proxy that hash-chains every MCP tool call into an append-only audit trail."
 category: Compliance
 stars: 0
 added: 2026-10-20

@@ -1,6 +1,6 @@
 ---
 title: ConnectMachine MCP - Digital Business Cards and Contact CRM
-description: Hosted MCP server for the ConnectMachine contact platform - manage contacts, networks, digital business cards and meeting transcripts in natural language, with dedupe detection, CSV export and an AI query tool.
+description: "Hosted MCP server for the ConnectMachine contact platform - manage contacts, networks, digital business cards and meeting transcripts in natural language."
 category: CRM & Sales
 stars: n/a (new listing)
 added: 2026-09-09

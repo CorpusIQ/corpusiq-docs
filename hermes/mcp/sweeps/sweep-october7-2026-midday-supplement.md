@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Discovery - October 7, 2026 (Midday Supplement)"
-description: "Midday supplement sweep cataloguing Prometiam Risk MCP, European company-registry data for KYB and due diligence, with an integration guide."
+description: "Midday supplement sweep cataloguing Prometiam Risk MCP, European company-registry data for KYB and due diligence."
 last_updated: 2026-10-07
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october7-2026-midday-supplement/"
 robots: "index,follow"

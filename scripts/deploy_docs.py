@@ -285,6 +285,17 @@ def main():
     print("2e. Catalog index gate (skills rosters)...")
     run("python3 scripts/validate_catalog_indexes.py")
 
+    # 2f. Page-metadata gate. Blocks the deploy on the corruption classes that
+    #     reached live pages unnoticed (Oct 24 2026): a duplicated closing
+    #     footer line (a footer appender ran twice, so the same italic line
+    #     rendered twice on 150+ pages), and titles/descriptions cut at a raw
+    #     character count that left the last word a connective ("...Live Data,
+    #     No", "...Web Workspace for") which shipped as the <title> tag.
+    #     Recovery scripts: scripts/validate_page_metadata.py --fix repairs
+    #     dangling titles from the page H1. Hard gate, no `|| true`.
+    print("2f. Page-metadata gate (footers, titles, descriptions)...")
+    run("python3 scripts/validate_page_metadata.py")
+
     # 3. Build
     print("3. Building mkdocs...")
     out = run("python3 -m mkdocs build --clean", fatal=True)

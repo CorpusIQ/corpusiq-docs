@@ -1,6 +1,6 @@
 ---
 title: InstaVision MCP - Instagram Creator and Lead Discovery
-description: Remote MCP that finds Instagram creators and leads by niche, city, follower range or lookalike accounts, with spend caps and email enrichment.
+description: "Remote MCP that finds Instagram creators and leads by niche, city, follower range or lookalike accounts."
 category: Marketing
 stars: n/a (new listing)
 added: 2026-10-04

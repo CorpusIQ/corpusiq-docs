@@ -1,6 +1,6 @@
 ---
 title: Comunicate MCP - Press Release Distribution for Agents
-description: 19-tool MCP server for press-release distribution - search a publication catalogue, draft and SEO-check articles, build editorial plans and order publications, with two independent spend locks so an agent cannot drain the account.
+description: "19-tool MCP server for press-release distribution - search a publication catalogue, draft and SEO-check articles, build editorial plans and order publications."
 category: Marketing
 stars: n/a (new listing)
 added: 2026-09-09

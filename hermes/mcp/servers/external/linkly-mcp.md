@@ -1,5 +1,5 @@
 ---
-title: "Linkly MCP - Link Shortener with Geo Redirects &"
+title: "Linkly Link Shortener MCP Server ★ New (July 16)"
 description: "Link management with geo redirects, link rotators, and conversion tracking. MCP-native link operations for AI agents."
 category: mcp
 tags: [mcp-server, marketing, link-management, analytics, conversion-tracking]

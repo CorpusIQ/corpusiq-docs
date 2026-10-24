@@ -1,6 +1,6 @@
 ---
 title: "VeritaHire MCP - Live US Jobs for Agents"
-description: "Keyless remote MCP over US jobs read straight from employer career sites, with full postings, open-status checks and pay benchmarks."
+description: "Keyless remote MCP over US jobs read straight from employer career sites."
 category: "Business Operations"
 stars: n/a (hosted platform, veritahire.com)
 added: 2026-10-02

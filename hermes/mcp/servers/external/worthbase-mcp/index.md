@@ -1,6 +1,6 @@
 ---
 title: Worthbase MCP - Net Worth and Portfolio Tracking for Agents
-description: "OAuth remote MCP server with 28 tools for household net worth, portfolios, cost bases and gains, with every write previewed and undoable."
+description: "OAuth remote MCP server with 28 tools for household net worth, portfolios, cost bases and gains."
 category: Finance
 stars: n/a (hosted service, worthbase.app)
 added: 2026-10-01

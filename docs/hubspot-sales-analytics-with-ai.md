@@ -2,8 +2,7 @@
 url: /docs/hubspot-sales-analytics-with-ai
 h1: 'HubSpot Sales Analytics with AI: Turn Pipeline Data into Revenue Intelligence'
 title: HubSpot Sales Analytics with AI - Complete Guide | CorpusIQ
-description: Learn how to analyze HubSpot sales data with AI. Comprehensive guide to pipeline analysis, deal forecasting, rep performance, win-loss intelligence, and territory optimization using ChatGPT
-  and Claude.
+description: "Analyze HubSpot sales data with AI. Pipeline analysis, deal forecasting, rep performance, win-loss intelligence, and territory optimization in plain English."
 keywords:
 - HubSpot sales analytics AI
 - AI pipeline analysis HubSpot
@@ -210,8 +209,6 @@ Ready to unlock AI-powered insights from your CRM data?
 Your HubSpot CRM is rich with insights waiting to be surfaced. AI-powered sales analytics makes those insights accessible to everyone on your team  --  no sales ops background, no report-building expertise, no spreadsheet wizardry required.
 
 **[Start your AI-powered sales analytics journey](/quickstart). Connect HubSpot in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

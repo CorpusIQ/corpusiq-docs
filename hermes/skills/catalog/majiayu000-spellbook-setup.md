@@ -1,6 +1,6 @@
 ---
 title: "Spellbook Skills - Cross-Runtime Setup"
-description: "Cross-runtime agent skills for Claude Code, Codex, and multi-agent workflows (~6.0k installs), including GitHub trending and app UI design."
+description: "Cross-runtime agent skills for Claude Code, Codex, and multi-agent workflows (~6.0k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/majiayu000-spellbook-setup/"
 robots: "index,follow"
 last_updated: "2026-09-29"

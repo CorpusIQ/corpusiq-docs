@@ -1,6 +1,6 @@
 ---
 title: registry-mcp - Company Registry Data for AI Agents
-description: Company data from national business registries served over MCP and REST. Five tools look up companies by national identifier, search by name, check VAT registration, validate identifier checksums offline, and compute statutory filing deadlines. First module covers Norway (Bronnoysundregistrene / Enhetsregisteret by orgnr), with more countries planned.
+description: "Company data from national business registries served over MCP and REST. Five tools look up companies by national identifier, search by name, check VAT registration, validate identifier checksums offline, and compute statutory filing deadlines. First module covers Norway (Bronnoysundregistrene / Enhetsregisteret by orgnr)."
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-04

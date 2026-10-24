@@ -1,5 +1,5 @@
 ---
-title: "LocalCan MCP - Public URLs & Traffic Inspection for"
+title: "LocalCan MCP Server"
 description: "Give AI agents public URLs (tunnels) for localhost, live HTTP traffic inspection, snapshot publishing, and access control. ngrok alternative for Mac"
 date: 2026-08-12
 source: mcp.so

@@ -1,6 +1,6 @@
 ---
 title: "ISO 20022 Generator MCP - SEPA XML and SWIFT MT103 from Chat"
-description: "Hosted MCP server that generates XSD-validated SEPA pain.001/pain.008 XML and SWIFT MT103 messages from natural-language payment instructions, with validation against official schemas and banking rules."
+description: "Hosted MCP server that generates XSD-validated SEPA pain.001/pain.008 XML and SWIFT MT103 messages from natural-language payment instructions."
 category: Finance
 stars: n/a (hosted, no public repo)
 added: 2026-08-29

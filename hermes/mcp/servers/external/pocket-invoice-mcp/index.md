@@ -1,6 +1,6 @@
 ---
 title: "Pocket Invoice MCP - Invoices and Estimates from Chat"
-description: "Create invoices, estimates and PDFs, track unpaid balances and record payments from your AI assistant, with confirm-gated sends."
+description: "Create invoices, estimates and PDFs, track unpaid balances and record payments from your AI assistant."
 category: Finance / Accounting
 stars: n/a (new listing)
 added: 2026-10-06

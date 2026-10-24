@@ -1,6 +1,6 @@
 ---
 title: "Nacha MCP - ACH File Parsing and Validation"
-description: "Local stdio MCP server that parses NACHA/ACH payment files into structured JSON and validates them structurally and arithmetically: entry hashes, debit/credit totals, and addenda counts recomputed against declared controls, with IAT batch support."
+description: "Local stdio MCP server that parses NACHA/ACH payment files into structured JSON and validates them structurally and arithmetically: entry hashes, debit/credit totals, and addenda counts recomputed against declared controls."
 category: Finance
 stars: 0
 added: 2026-08-25

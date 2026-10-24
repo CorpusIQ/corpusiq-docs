@@ -1,6 +1,6 @@
 ---
 title: "AstroFabric MCP - Agentic Growth Missions for Operators"
-description: "Streamable HTTP MCP from AstroFabric, an agentic OS for growth, revenue and digital operations: one mission_agent tool (or the granular catalog via ?tools=all) runs objectives across SEO site audits, AI-visibility checks, email deliverability audits, Google Search Console data, LinkedIn and Google Ads research and HubSpot CRM writes, with scoped keys and a hard per-run cost cap."
+description: "Streamable HTTP MCP from AstroFabric, an agentic OS for growth, revenue and digital operations: one mission_agent tool (or the granular catalog via ?tools=all) runs objectives across SEO site audits, AI-visibility checks, email deliverability audits, Google Search Console data, LinkedIn and Google Ads research and HubSpot CRM writes."
 category: Marketing
 stars: n/a (hosted)
 added: 2026-08-27

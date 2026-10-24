@@ -1,6 +1,6 @@
 ---
 title: "Vulnify MCP - Runtime Authorization for AI Agents"
-description: "Gate agent actions with ALLOW, REVIEW or BLOCK before they run, from stored policies, with every decision recorded and auditable."
+description: "Gate agent actions with ALLOW, REVIEW or BLOCK before they run, from stored policies."
 category: Security & Governance
 stars: n/a (new listing)
 added: 2026-10-10

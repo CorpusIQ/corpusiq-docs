@@ -1,6 +1,6 @@
 ---
 title: "Adrails MCP - Ad Spend Reconciled to Real Revenue"
-description: "Meta and Google Ads for a Shopify store, read next to Stripe, Klaviyo and PostHog revenue, with every change filed for human approval first."
+description: "Meta and Google Ads for a Shopify store, read next to Stripe, Klaviyo and PostHog revenue."
 category: Marketing
 stars: n/a (new listing)
 added: 2026-10-22

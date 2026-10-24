@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Documentation"
-description: "CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One"
+description: "CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity through the Model Context Protocol."
 canonical: "https://www.corpusiq.io/docs/"
 robots: "index,follow"
 last_updated: "2026-10-15"
@@ -58,8 +58,6 @@ CorpusIQ translates AI assistant queries into read-only API calls and returns ci
 
 For integration partners and enterprise deployments, contact sales@corpusiq.io.
 # sitemap rebuild trigger
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

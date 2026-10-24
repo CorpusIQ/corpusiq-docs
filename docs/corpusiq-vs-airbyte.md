@@ -21,9 +21,7 @@ last_updated: "2026-10-15"
 
 [30-day free trial  --  no credit card →](https://www.corpusiq.io)
 
-*Compare CorpusIQ vs Airbyte  --  MCP-Native vs Traditional Data Pipe... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare CorpusIQ vs Airbyte  --  MCP-Native vs Traditional Data Pipe... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

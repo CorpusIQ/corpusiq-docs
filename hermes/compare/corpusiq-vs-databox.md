@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Databox: What Each One Does"
-description: "Databox builds dashboards from your business tools. CorpusIQ is the layer that gives AI assistants live access to that same data in ChatGPT, Claude, and..."
+description: "Databox builds dashboards from your business tools. CorpusIQ is the layer that gives AI assistants live access to that same data in ChatGPT."
 ---
 
 # CorpusIQ vs Databox: What Each One Does

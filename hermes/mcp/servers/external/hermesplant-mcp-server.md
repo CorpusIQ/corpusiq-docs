@@ -1,6 +1,6 @@
 ---
 title: "Hermes Plant MCP Server - Deterministic Finance & Quant"
-description: "Connect AI agents to provably correct financial calculations, quantitative models, and market analytics via the Hermes Plant MCP server. Paid over x402 with"
+description: "Connect AI agents to provably correct financial calculations, quantitative models, and market analytics via the Hermes Plant MCP server."
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/hermesplant-mcp-server/"
 robots: "index,follow"
 last_updated: "2026-08-12"

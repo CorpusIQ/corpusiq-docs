@@ -1,6 +1,6 @@
 ---
 title: Kapa MCP - Docs and Tickets into an AI Knowledge Base
-description: "Index docs, tickets and wikis into a searchable knowledge base for AI, with 19 source setups and coverage-gap tracking."
+description: "Index docs, tickets and wikis into a searchable knowledge base for AI."
 category: Knowledge Management
 stars: n/a (new listing)
 added: 2026-10-05

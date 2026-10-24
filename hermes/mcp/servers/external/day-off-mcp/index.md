@@ -1,6 +1,6 @@
 ---
 title: "Day Off MCP - PTO and Time Tracking for Agents"
-description: "Remote MCP server for Day Off, the PTO and time-tracking platform used by more than 50,000 companies. Assistants reach leave requests, balances, approvals, attendance, timesheets and team availability over OAuth at mcp.day-off.app/mcp, alongside the platform's Slack, Teams and calendar integrations."
+description: "Remote MCP server for Day Off, the PTO and time-tracking platform used by more than 50,000 companies. Assistants reach leave requests, balances, approvals, attendance, timesheets and team availability over OAuth at mcp.day-off.app/mcp."
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-14

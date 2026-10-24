@@ -1,6 +1,6 @@
 ---
 title: PreVibe MCP - SaaS Product Research and Validation
-description: "Hosted MCP connector for SaaS product research: validate ideas with market, competitor, and audience research from your PreVibe account, with Google sign-in and no API keys."
+description: "Hosted MCP connector for SaaS product research: validate ideas with market, competitor, and audience research from your PreVibe account."
 category: Business Operations
 stars: n/a (hosted, no public repo)
 added: 2026-08-29

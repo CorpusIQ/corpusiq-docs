@@ -1,6 +1,6 @@
 ---
 title: "How MCP Servers Work: Transport, Tools & Auth"
-description: "Technical deep dive into how MCP servers operate: transport layers (stdio vs HTTP), JSON-RPC protocol, tool discovery, resource management, and OAuth"
+description: "Technical deep dive into how MCP servers work: transport layers (stdio vs HTTP), JSON-RPC, tool discovery, resource management, and OAuth authorization."
 category: MCP Education
 tags: ["how MCP servers work", "MCP server architecture", "JSON-RPC AI protocol", "MCP tool discovery", "MCP transport layer", "AI data connector architecture"]
 last_updated: "2026-10-15"

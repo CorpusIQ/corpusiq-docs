@@ -1,6 +1,6 @@
 ---
 title: seo-ai-forecasting
-description: "Traditional forecasting: export pipeline CSV, open Excel, apply close rates, adjust for seasonality, build three scenarios, present to board, be wrong with."
+description: "Traditional forecasting: export pipeline CSV, open Excel, apply close rates, adjust for seasonality, build three scenarios, present to board."
 last_updated: "2026-09-28"
 ---
 # AI for Forecasting - Predict Revenue Without Spreadsheets

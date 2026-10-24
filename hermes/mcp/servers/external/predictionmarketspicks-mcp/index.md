@@ -1,6 +1,6 @@
 ---
 title: "PredictionMarketsPicks MCP - Kalshi and Polymarket Data"
-description: "Keyless remote MCP over live Kalshi and Polymarket contracts, with strike ladders, cross-venue gaps and EV, Kelly and Bayes calculators."
+description: "Keyless remote MCP over live Kalshi and Polymarket contracts."
 category: "Business Operations"
 stars: n/a (hosted platform, predictionmarketspicks.com)
 added: 2026-10-03

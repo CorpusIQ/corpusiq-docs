@@ -1,6 +1,6 @@
 ---
 title: "VoIPstudio MCP - Call Analytics and QA for Agents"
-description: "Official VoIPstudio MCP server that lets AI agents query call recordings, CDRs, live calls and voicemails, with per-user API tokens and optional CX scoring."
+description: "Official VoIPstudio MCP server that lets AI agents query call recordings, CDRs, live calls and voicemails."
 category: Communication
 stars: n/a (new listing)
 added: 2026-09-11

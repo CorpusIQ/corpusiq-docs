@@ -1,6 +1,6 @@
 ---
 title: "geolint MCP - AI Search Readiness Linter for Websites"
-description: "ESLint for AI search. geolint audits a website for AI-search readiness: which of 51 known AI crawler tokens are allowed in robots.txt, llms.txt presence and structure, JSON-LD structured data, citability signals and technical foundations. 51 rules, scored report, a concrete fix for every finding, runnable in CI. MIT, npm @iliasabk/geolint 0.3.2, with a built-in stdio MCP server for AI assistants."
+description: "ESLint for AI search. geolint audits a website for AI-search readiness: which of 51 known AI crawler tokens are allowed in robots.txt, llms.txt presence and structure, JSON-LD structured data, citability signals and technical foundations. 51 rules, scored report, a concrete fix for every finding, runnable in CI. MIT, npm @iliasabk/geolint 0.3.2."
 category: SEO
 stars: open source (MIT, npm)
 added: 2026-09-14

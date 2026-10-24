@@ -1,6 +1,6 @@
 ---
 title: "Connectors - CorpusIQ Docs - CorpusIQ"
-description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more"
+description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more."
 category: "Documentation"
 tags: ["corpusiq connectors", "business tools ai", "chatgpt business data", "oauth connectors", "crm integration", "accounting integration", "analytics connectors", "connect business data to chatgpt", "mcp connectors"]
 last_updated: "2026-10-15"

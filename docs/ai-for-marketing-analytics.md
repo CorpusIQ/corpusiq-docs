@@ -134,9 +134,7 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 **Next steps:** [Transform your marketing analytics →](https://corpusiq.io/register)
 
-*AI-powered AI for Marketing Analytics | CorpusIQ MCP Platform for Ma...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Marketing Analytics | CorpusIQ MCP Platform for Ma...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

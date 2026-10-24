@@ -1,6 +1,6 @@
 ---
 title: Hermes Session Maintenance  --  Setup Guide
-description: Zero-token monthly cleanup for Hermes Agent  --  close zombie sessions, prune old data, VACUUM state.db. Safe, cron-scheduled, with dry-run mode.
+description: "Zero-token monthly cleanup for Hermes Agent  --  close zombie sessions, prune old data, VACUUM state.db. Safe, cron-scheduled."
 author: salt-vrn (Leonid Zolotarev, NeiroHost.ru)
 repo: https://github.com/salt-vrn/hermes-session-maintenance
 license: MIT

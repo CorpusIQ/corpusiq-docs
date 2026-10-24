@@ -1,6 +1,6 @@
 ---
 title: "SignSimple MCP - CorpusIQ Docs"
-description: Free e-signature workflow over MCP - send PDFs for legally binding signature, track status, and use free legal templates, with no per-document fees and no monthly caps.
+description: "Free e-signature workflow over MCP - send PDFs for legally binding signature, track status, and use free legal templates."
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-15

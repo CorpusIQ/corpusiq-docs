@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Scan Results - July 18, 2026"
-description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 4 new servers found, 2 guides created: Vibgrate MCP (dependency drift/CVE intelligence) and"
+description: "Daily MCP server discovery scan from mcp.so + mcpservers.org."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-09-17

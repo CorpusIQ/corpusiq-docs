@@ -1,6 +1,6 @@
 ---
 title: "TheDeskMonitor MCP - Workforce Analytics from Chat"
-description: "Ask who is clocked in, where hours go and what work costs - 24 live workforce tools over MCP, with a no-account demo mode."
+description: "Ask who is clocked in, where hours go and what work costs - 24 live workforce tools over MCP."
 category: Operations
 stars: n/a (hosted platform, thedeskmonitor.com)
 added: 2026-10-05

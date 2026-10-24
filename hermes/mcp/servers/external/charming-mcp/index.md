@@ -1,5 +1,5 @@
 ---
-title: "Charming MCP - Generate & Host Interactive Web Apps via"
+title: "Charming MCP - Generate & Host Interactive Web Apps via AI"
 description: "Hosted MCP server that generates, hosts, and updates interactive web apps. Connect any MCP-compatible AI client, ask it to build an app, and get a live URL"
 category: mcp
 tags: [mcp, development, web-apps, hosted, ui-generation, charming, tambo-labs, hermes-agent]

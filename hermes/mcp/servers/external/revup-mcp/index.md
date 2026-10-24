@@ -1,6 +1,6 @@
 ---
 title: "Revup MCP - Promotions, Forms and Giveaways"
-description: "Create and edit giveaways, contests, forms and surveys from chat, with scoped OAuth, previews and performance reports - hosted MCP."
+description: "Create and edit giveaways, contests, forms and surveys from chat."
 category: Marketing
 stars: n/a (hosted platform, revup.com)
 added: 2026-10-05

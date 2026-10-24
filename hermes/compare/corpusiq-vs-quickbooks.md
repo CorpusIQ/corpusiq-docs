@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs QuickBooks: What Each One Does"
-description: "QuickBooks is accounting software. CorpusIQ is the layer that gives AI assistants live access to QuickBooks data, alongside Shopify, Stripe, GA4, and 40..."
+description: "QuickBooks is accounting software. CorpusIQ is the layer that gives AI assistants live access to QuickBooks data."
 ---
 
 # CorpusIQ vs QuickBooks: What Each One Does

@@ -1,6 +1,6 @@
 ---
 title: "Mamba Outbound Infrastructure Fingerprint MCP"
-description: "Check whether a company runs cold email outbound, on what sending stack and which lookalike domains, with quotable evidence per domain."
+description: "Check whether a company runs cold email outbound, on what sending stack and which lookalike domains."
 category: Sales & Outreach
 stars: n/a (npm package, MIT)
 added: 2026-10-07

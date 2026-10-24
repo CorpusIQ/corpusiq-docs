@@ -1,6 +1,6 @@
 ---
-title: "Connect SharePoint to ChatGPT via MCP -- Live Data, No"
-description: "Connect your SharePoint account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your sharepoint data and get real-time, source-cited"
+title: "Connect SharePoint to ChatGPT via MCP - Live Data"
+description: "Connect your SharePoint account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect SharePoint to ChatGPT", "SharePoint ChatGPT integration", "MCP SharePoint connector", "SharePoint data to ChatGPT", "AI for SharePoint", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -173,9 +173,7 @@ Setup takes under 5 minutes. No SharePoint admin configuration required.
 - [MCP for Operations](mcp-for-operations.md)  --  MCP for ops teams
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 
-*Connect Connect SharePoint to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect SharePoint to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

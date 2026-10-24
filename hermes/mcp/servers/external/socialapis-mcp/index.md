@@ -1,6 +1,6 @@
 ---
 title: "SocialAPIs MCP - Facebook and Instagram Data for Agents"
-description: "47 read-only tools for Facebook and Instagram pages, posts, comments, Ads Library, Marketplace and reels, with a hosted endpoint or local npx install."
+description: "47 read-only tools for Facebook and Instagram pages, posts, comments, Ads Library, Marketplace and reels."
 category: Marketing
 stars: n/a (hosted platform, socialapis.io)
 added: 2026-10-02

@@ -1,6 +1,6 @@
 ---
 title: "AIO.GEO MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Structural AI search readiness over MCP - audit how AI engines see your site, dry-run fixes, rescore, and doctor, with receipts instead of LLM-ranking theater.
+description: "Structural AI search readiness over MCP - audit how AI engines see your site, dry-run fixes, rescore, and doctor."
 category: SEO
 stars: n/a (new listing)
 added: 2026-08-15

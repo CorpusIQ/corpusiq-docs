@@ -1,6 +1,6 @@
 ---
 title: Vibe Prospecting MCP - Live B2B Data for Lead Generation
-description: Live B2B data inside any AI assistant from Explorium - build lead lists, research companies, enrich contacts and personalize outreach, with sample previews before full dataset exports.
+description: "Live B2B data inside any AI assistant from Explorium - build lead lists, research companies, enrich contacts and personalize outreach."
 category: Lead Generation & Web Scraping
 stars: n/a (new listing)
 added: 2026-09-09

@@ -1,5 +1,5 @@
 ---
-title: "Resend Agent Skills - Email API, Inboxes, and"
+title: "Resend Agent Skills - Setup Guide"
 description: Install 5 production-grade Resend email skills (28.8K+ combined installs) for Hermes agents - transactional email API, agent inboxes, React Email templates, CLI operations, and email deliverability best practices.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/resend-skills-setup/"
 robots: "index,follow"

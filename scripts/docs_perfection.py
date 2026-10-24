@@ -60,6 +60,15 @@ def compact(t, limit=60):
         return ' '.join(words).rstrip('.,;:')
 
     if len(s) > limit:
+        # HOUSE RULE (Oct 24 2026): when a subtitle separator is present and the
+        # head alone is already a complete, substantial title, keep the HEAD and
+        # drop the subtitle. The old tail-trim path cut at 60 chars and left
+        # fragments in live titles ("...Live Data, No") that shipped to the SERP.
+        for subsep in ('  --  ', ' -- ', ' | ', ' - ', ': '):
+            if subsep in s:
+                head = s.split(subsep)[0].strip(' -')
+                if 25 <= len(head) <= limit:
+                    return _tidy(head)
         sep = ' - ' if ' - ' in s else (': ' if ': ' in s else None)
         if sep:
             head, _, tail = s.partition(sep)

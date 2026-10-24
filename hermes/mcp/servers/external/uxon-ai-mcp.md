@@ -1,6 +1,6 @@
 ---
-title: "UXON AI MCP - AI-Powered Landing Page Creation for"
-description: "MCP server and API that lets AI agents create landing pages and websites. Essential for marketing operators who want AI-assisted web presence without"
+title: "UXON AI MCP Server ★ New (July 16)"
+description: "MCP server and API that lets AI agents create landing pages and websites."
 category: mcp
 tags: [mcp-server, marketing, landing-pages, web-development, content-creation, design]
 last_updated: 2026-09-17

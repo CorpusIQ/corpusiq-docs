@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Tableau: What Each One Does"
-description: "Tableau builds dashboards. CorpusIQ is the layer that gives AI assistants live access to your business data, alongside 40+ connected tools, in ChatGPT,..."
+description: "Tableau builds dashboards. CorpusIQ is the layer that gives AI assistants live access to your business data."
 ---
 
 # CorpusIQ vs Tableau: What Each One Does

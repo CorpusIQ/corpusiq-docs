@@ -1,6 +1,6 @@
 ---
 title: Gloom MCP - Bloomberg-Style Financial Terminal for AI Agents
-description: "Gloom Cloud's MCP server gives agents quotes, financials, options, SEC filings, macro and news wire, with OAuth or per-agent keys."
+description: "Gloom Cloud's MCP server gives agents quotes, financials, options, SEC filings, macro and news wire."
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-27

@@ -1,6 +1,6 @@
 ---
 title: "ACMP MCP - On-Prem IT Management with Approval Gate"
-description: "MIT MCP server for Aagon ACMP: 118 tools over clients, CVEs, updates, assets and helpdesk, with every write and script gated on human approval."
+description: "MIT MCP server for Aagon ACMP: 118 tools over clients, CVEs, updates, assets and helpdesk."
 category: Business Operations
 stars: 1
 added: 2026-10-19

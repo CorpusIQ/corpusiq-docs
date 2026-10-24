@@ -1,6 +1,6 @@
 ---
 title: Treza MCP - AI Video Pipelines to Social Channels
-description: "Hosted video pipeline platform for agents. Build a pipeline from a brief, run renders on Treza's workers, follow per-node results, and publish finished videos to connected YouTube, TikTok and Instagram channels. Sixteen tools map to producer steps, with schedule triggers, credit estimation before spending, and OAuth sign-in or scoped API keys."
+description: "Hosted video pipeline platform for agents. Build a pipeline from a brief, run renders on Treza's workers, follow per-node results, and publish finished videos to connected YouTube, TikTok and Instagram channels. Sixteen tools map to producer steps."
 category: Content
 stars: n/a (hosted platform)
 added: 2026-09-07

@@ -1,6 +1,6 @@
 ---
 title: "Common Paper Contracts MCP - Agreement Workflow for Agents"
-description: "Find, draft, send, negotiate and void NDAs, DPAs and service agreements from standard templates, with read tools free-running and every send gated on approval."
+description: "Find, draft, send, negotiate and void NDAs, DPAs and service agreements from standard templates."
 category: Legal & Contracts
 stars: n/a (hosted platform, commonpaper.com)
 added: 2026-09-30

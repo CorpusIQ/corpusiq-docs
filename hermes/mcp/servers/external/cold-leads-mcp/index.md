@@ -1,6 +1,6 @@
 ---
 title: Cold Leads MCP - Contact and Outreach Management for Agents
-description: "MCP server letting an agent manage contacts, verify addresses, read conversations and draft outreach campaigns, with sending behind user confirmation."
+description: "MCP server letting an agent manage contacts, verify addresses, read conversations and draft outreach campaigns."
 category: Marketing
 stars: n/a (hosted service, coldleads.app)
 added: 2026-10-01

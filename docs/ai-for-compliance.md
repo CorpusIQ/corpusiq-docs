@@ -1,7 +1,6 @@
 ---
 title: "AI for Compliance - CorpusIQ Docs"
-description: Transform compliance operations with AI. Query financial records, policies, and controls across systems in natural language. Automated compliance checks, audit trail access, and policy
-  verification.
+description: "Transform compliance operations with AI. Query records, policies, and controls across systems in plain language."
 url: /docs/ai-for-compliance
 h1: 'AI for Compliance: Real-Time Regulatory Intelligence'
 category: Business Use Cases
@@ -130,9 +129,7 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 **Next steps:** [Transform your compliance operations →](https://corpusiq.io/register)
 
-*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

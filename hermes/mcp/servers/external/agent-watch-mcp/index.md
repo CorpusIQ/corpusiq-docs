@@ -1,6 +1,6 @@
 ---
 title: Agent Watch MCP - Endpoint Monitoring for the Agent Economy
-description: Continuous liveness, latency, schema-drift and price-integrity monitoring for MCP endpoints, with a free tier for 5 endpoints and a public census of registry liveness.
+description: "Continuous liveness, latency, schema-drift and price-integrity monitoring for MCP endpoints."
 category: DevOps
 stars: n/a (new listing)
 added: 2026-09-09

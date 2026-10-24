@@ -1,6 +1,6 @@
 ---
 title: seo-quickbooks-natural-language
-description: "You shouldn't need to know where the P&L report lives. You should just ask:"
+description: "You shouldn't need to know where the P&L report lives."
 last_updated: "2026-09-28"
 ---
 # Natural Language QuickBooks - Stop Running Reports, Start Asking

@@ -1,6 +1,6 @@
 ---
 title: "DocMake MCP - Template-Driven DOCX and PDF Generation"
-description: "Official MCP server for the DocMake document generation platform: build a template once in a visual editor and render DOCX or PDF files from data, with six tools, MCP resources and a guided render prompt; stdio via npx, MIT."
+description: "Official MCP server for the DocMake document generation platform: build a template once in a visual editor and render DOCX or PDF files from data."
 category: Productivity
 stars: "0 (new listing, docmake-io/mcp)"
 added: 2026-08-31

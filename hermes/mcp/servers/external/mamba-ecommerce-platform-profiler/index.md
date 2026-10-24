@@ -1,6 +1,6 @@
 ---
 title: "Mamba Ecommerce Platform Profiler MCP - Stack Detection"
-description: "Detect the ecommerce platform, payment providers, subscriptions and catalogue size behind a storefront, with confidence and evidence per read."
+description: "Detect the ecommerce platform, payment providers, subscriptions and catalogue size behind a storefront."
 category: E-commerce Intelligence
 stars: n/a (npm package, MIT)
 added: 2026-10-07

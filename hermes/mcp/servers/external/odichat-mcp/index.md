@@ -1,6 +1,6 @@
 ---
 title: Odichat MCP - WhatsApp and Instagram Inbox for Agents
-description: "Odichat's MCP connector gives agents 126 tools over the WhatsApp, Instagram and Facebook business inbox, with sales pipeline updates."
+description: "Odichat's MCP connector gives agents 126 tools over the WhatsApp, Instagram and Facebook business inbox."
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-09-27

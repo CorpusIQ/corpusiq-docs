@@ -1,6 +1,6 @@
 ---
 title: "June 29, 2026 (Update) - OpenClaw/Clawd Ecosystem"
-description: "June 29, 2026 update: 25 new skills discovered across 9 OpenClaw/Clawd ecosystem repos - clawdis (14 skills), clawdirect (2), clawdstrike (1), plus"
+description: "June 29, 2026 update: 25 new skills discovered across 9 OpenClaw/Clawd ecosystem repos - clawdis (14 skills), clawdirect (2)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june29-2026-update/"
 robots: "index,follow"
 last_updated: "2026-08-12"

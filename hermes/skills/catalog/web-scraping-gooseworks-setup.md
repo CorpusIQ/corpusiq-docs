@@ -1,5 +1,5 @@
 ---
-title: "Web Scraping (Gooseworks) - Multi-engine scraping for"
+title: "Web Scraping (Gooseworks)"
 description: Scrape websites, extract structured data, and automate browsers via Scrapegraph, Olostep, Riveter, Brand.dev, and Notte. 35+ installs from gooseworks-ai.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-scraping-gooseworks-setup/"
 robots: "index,follow"

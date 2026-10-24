@@ -1,5 +1,5 @@
 ---
-title: "InvestSights - Indian Stock Research MCP (NSE/BSE, 6000+"
+title: "InvestSights - Indian Stock Research MCP (6000+ NSE/BSE"
 description: "Research-grade Indian stock data for AI agents. Fundamentals, forensic accounting scores, DCF valuation, screening, prices & news for 6000+ NSE/BSE stocks."
 source: github.com/InvestSights/investsights-indian-stock-research-mcp
 stars: 0

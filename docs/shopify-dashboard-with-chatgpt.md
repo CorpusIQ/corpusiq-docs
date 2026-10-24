@@ -2,8 +2,7 @@
 title: "Shopify Dashboard with ChatGPT -- Live Ecommerce KPIs"
 url: /docs/shopify-dashboard-with-chatgpt
 h1: 'Shopify Dashboard with ChatGPT: Your Real-Time Ecommerce Command Center'
-description: Create a live Shopify dashboard using ChatGPT and CorpusIQ. Monitor sales, orders, customers, products, inventory, and marketing performance  --  all in real time through natural language
-  queries.
+description: "Create a live Shopify dashboard with ChatGPT and CorpusIQ. Monitor sales, orders, customers, and inventory in real time, in plain English."
 keywords:
 - Shopify dashboard ChatGPT
 - ecommerce dashboard AI
@@ -192,8 +191,6 @@ Ready to put AI to work on your shopify dashboard with chatgpt data?
 A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor your ecommerce performance. No BI tools to build. No data pipelines to maintain. No reports to export. Just real-time intelligence, on demand.
 
 **[Set up your Shopify dashboard now](/quickstart)  --  connect your store in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

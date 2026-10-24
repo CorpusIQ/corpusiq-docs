@@ -1,6 +1,6 @@
 ---
 title: "Reach MCP - Operate a Real LinkedIn Account from Your Agent"
-description: "Hosted MCP server that lets an AI agent operate a real LinkedIn account: 52 tools for the inbox, invitations, network, profiles, natural-language Sales Navigator search, posts, engagement and publishing, with server-side daily quotas, idempotent writes, signed webhooks and six ready-made playbooks served as MCP prompts."
+description: "Hosted MCP server that lets an AI agent operate a real LinkedIn account: 52 tools for the inbox, invitations, network, profiles, natural-language Sales Navigator search, posts, engagement and publishing."
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-09-10

@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Northbeam: What Each One Does"
-description: "Northbeam does marketing attribution for ecommerce. CorpusIQ is the layer that gives AI assistants live access to your business data, alongside 40+ conn..."
+description: "Northbeam does marketing attribution for ecommerce. CorpusIQ is the layer that gives AI assistants live access to your business data."
 ---
 
 # CorpusIQ vs Northbeam: What Each One Does

@@ -1,6 +1,6 @@
 ---
-title: "Connect QuickBooks to Claude via MCP -- Live Data, No"
-description: "Connect your QuickBooks account to Claude through CorpusIQ MCP. Ask natural language questions about your quickbooks data and get real-time, source-cited"
+title: "Connect QuickBooks to Claude via MCP - Live Data"
+description: "Connect your QuickBooks account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect QuickBooks to Claude", "QuickBooks Claude integration", "MCP QuickBooks connector", "QuickBooks data to Claude", "AI for QuickBooks", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -170,9 +170,7 @@ Yes. CorpusIQ supports multiple QuickBooks company connections, each with indepe
 
 **Next steps:** [Connect QuickBooks to Claude now →](https://corpusiq.io/connect/quickbooks) or [view all integrations](connectors.md).
 
-*Connect Connect QuickBooks to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect QuickBooks to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

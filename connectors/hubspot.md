@@ -1,6 +1,6 @@
 ---
 title: "HubSpot - CorpusIQ Docs - CorpusIQ"
-description: "HubSpot is where your sales pipeline, customer relationships, and deal history live. Connecting it lets CorpusIQ answer \"how is my pipeline doing?\" an."
+description: "HubSpot is where your sales pipeline, customer relationships, and deal history live."
 ---
 # HubSpot
 

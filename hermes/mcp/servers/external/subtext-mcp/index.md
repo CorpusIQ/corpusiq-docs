@@ -1,6 +1,6 @@
 ---
 title: "Subtext - Agent Session Replay MCP"
-description: "Session replay built for AI agents. Captures production sessions and connects them to your coding agent for debugging and analysis. 9 GitHub stars. By"
+description: "Session replay built for AI agents. Captures production sessions and connects them to your coding agent for debugging and analysis."
 category: mcp
 tags: [mcp-server, agent-analytics, session-replay, debugging, monitoring]
 source: mcp.so

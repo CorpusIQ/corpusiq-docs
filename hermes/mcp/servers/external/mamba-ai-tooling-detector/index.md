@@ -1,6 +1,6 @@
 ---
 title: "Mamba AI Tooling Detector MCP - AI Adoption Signals"
-description: "Evidence-backed AI adoption tiers for any company domain: commercialized, deployed, declared or none, with the signals behind every call."
+description: "Evidence-backed AI adoption tiers for any company domain: commercialized, deployed, declared or none."
 category: Competitive Intelligence
 stars: n/a (npm package, MIT)
 added: 2026-10-07

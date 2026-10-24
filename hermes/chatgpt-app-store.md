@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ in the ChatGPT App Store"
-description: "CorpusIQ is an official public plugin in the ChatGPT Plugins store. This is the third distribution surface for the product, alongside the Claude MCP Con..."
+description: "CorpusIQ is an official public plugin in the ChatGPT Plugins store."
 ---
 
 # CorpusIQ in the ChatGPT App Store

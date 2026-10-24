@@ -1,6 +1,6 @@
 ---
-title: "Connect Salesforce to Claude via MCP -- Live Data, No"
-description: "Connect your Salesforce account to Claude through CorpusIQ MCP. Ask natural language questions about your salesforce data and get real-time, source-cited"
+title: "Connect Salesforce to Claude via MCP - Live Data"
+description: "Connect your Salesforce account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect Salesforce to Claude", "Salesforce Claude integration", "MCP Salesforce connector", "Salesforce data to Claude", "AI for Salesforce", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -120,9 +120,7 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 
 **Next steps:** [Connect Salesforce to Claude now →](https://corpusiq.io/connect/salesforce)
 
-*Connect Connect Salesforce to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Salesforce to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

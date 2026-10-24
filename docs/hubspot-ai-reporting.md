@@ -2,8 +2,7 @@
 title: "HubSpot AI Reporting -- Automated CRM Reports & Analytics"
 url: /docs/hubspot-ai-reporting
 h1: 'HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed'
-description: Automate HubSpot reporting with AI. Generate pipeline reports, rep dashboards, deal analytics, contact segments, and campaign attribution reports through natural language  --  no report builder
-  required.
+description: "Automate HubSpot reporting with AI. Generate pipeline reports, rep dashboards, deal analytics, contact segments, and campaign attribution in plain English."
 keywords:
 - HubSpot AI reporting
 - automated CRM reports
@@ -143,8 +142,6 @@ Ready to put AI to work on your hubspot ai reporting data?
 CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical task into a conversational capability. Your team spends less time building reports and more time acting on the intelligence they contain.
 
 **[Start generating AI-powered HubSpot reports](/quickstart)  --  connect your CRM in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

@@ -2,8 +2,7 @@
 title: "Shopify AI Analytics -- Automated Ecommerce Insights"
 url: /docs/shopify-ai-analytics
 h1: 'Shopify AI Analytics: Automated Ecommerce Intelligence at Conversation Speed'
-description: Transform Shopify analytics with AI. Generate sales reports, track product performance, analyze customer behavior, and measure marketing ROI  --  all through natural language queries powered
-  by CorpusIQ MCP.
+description: "Transform Shopify analytics with AI. Generate sales reports, track product performance, analyze customer behavior, and measure marketing ROI in plain English."
 keywords:
 - Shopify AI analytics
 - ecommerce analytics automation
@@ -148,8 +147,6 @@ Ready to put AI to work on your shopify ai analytics data?
 CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don't need a data analyst, a BI tool, or advanced Excel skills. You just need questions  --  and the AI provides answers.
 
 **[Start analyzing your Shopify data with AI](/quickstart)  --  connect your store in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

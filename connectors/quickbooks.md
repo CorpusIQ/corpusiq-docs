@@ -1,6 +1,6 @@
 ---
 title: "QuickBooks - CorpusIQ Docs - CorpusIQ"
-description: "Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging, customer balances - without opening QuickBooks Online and."
+description: "Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging."
 ---
 # QuickBooks
 

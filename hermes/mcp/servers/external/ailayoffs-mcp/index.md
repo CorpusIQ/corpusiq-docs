@@ -1,6 +1,6 @@
 ---
 title: "AI Layoffs MCP - Open AI Job-Loss Data for Agents"
-description: "AI Layoffs serves a source-cited register of AI-attributed layoffs and a live job-loss index over MCP, with no key required."
+description: "AI Layoffs serves a source-cited register of AI-attributed layoffs and a live job-loss index over MCP."
 category: Data & Analytics
 stars: n/a (new listing)
 added: 2026-09-28

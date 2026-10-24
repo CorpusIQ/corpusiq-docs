@@ -1,6 +1,6 @@
 ---
 title: "Social Media Marketing - Agent-Driven Social Strategy"
-description: "329+ installs. Build and execute social media marketing strategies for solopreneur businesses. Platform selection, content planning, engagement tactics, and"
+description: "329+ installs. Build and execute social media marketing strategies for solopreneur businesses."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/social-media-marketing-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"

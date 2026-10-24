@@ -1,5 +1,5 @@
 ---
-title: "MailStream - Physical Mail MCP: Postcards & Letters from"
+title: "MailStream - Physical Mail MCP for AI Agents"
 description: "The first MCP server for physical mail. Send postcards and letters, manage mailing lists and campaigns - all through AI agent commands."
 source: mailstream.app
 stars: 0

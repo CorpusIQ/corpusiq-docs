@@ -1,6 +1,6 @@
 ---
-title: "Connect QuickBooks to ChatGPT via MCP -- Live Data, No"
-description: "Connect your QuickBooks account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your quickbooks data and get real-time, source-cited"
+title: "Connect QuickBooks to ChatGPT via MCP - Live Data"
+description: "Connect your QuickBooks account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect QuickBooks to ChatGPT", "QuickBooks ChatGPT integration", "MCP QuickBooks connector", "QuickBooks data to ChatGPT", "AI for QuickBooks", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -180,9 +180,7 @@ Setup takes under 5 minutes. No code. No CSV exports. No data warehouse configur
 - [QuickBooks Connector Reference](connect-quickbooks-to-chatgpt.md)  --  technical connector details
 - [MCP for Finance](mcp-for-finance.md)  --  MCP for finance teams
 
-*Connect Connect QuickBooks to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect QuickBooks to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

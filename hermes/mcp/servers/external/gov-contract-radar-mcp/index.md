@@ -1,6 +1,6 @@
 ---
 title: GovContract Radar MCP - Federal Contract Alerts
-description: "AI-native MCP server for U.S. federal contract opportunities: filter SAM.gov solicitations by NAICS code and set-aside, with deadlines and agency details."
+description: "AI-native MCP server for U.S. federal contract opportunities: filter SAM.gov solicitations by NAICS code and set-aside."
 category: Sales & Outreach
 stars: n/a (new listing)
 added: 2026-10-05

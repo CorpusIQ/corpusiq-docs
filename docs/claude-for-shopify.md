@@ -2,8 +2,7 @@
 title: "Claude for Shopify -- Advanced Ecommerce AI Analysis"
 url: /docs/claude-for-shopify
 h1: 'Claude for Shopify: Deep Ecommerce Intelligence with Anthropic''s AI'
-description: Use Anthropic's Claude with Shopify via CorpusIQ MCP. Extended context window enables comprehensive sales analysis, customer lifetime value modeling, product portfolio optimization, and
-  inventory forecasting.
+description: "Use Anthropic's Claude with Shopify via CorpusIQ MCP. Extended context enables sales analysis, customer lifetime value modeling, and portfolio optimization."
 keywords:
 - Claude for Shopify
 - Anthropic Claude ecommerce
@@ -136,9 +135,7 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 
 **[Connect Claude to your Shopify store](/quickstart) and run your first deep analysis today.**
 
-*Connect Claude for Shopify  --  Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Claude for Shopify  --  Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

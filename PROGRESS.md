@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Docs Progress"
-description: "Build status and maintenance log for the public CorpusIQ documentation repository, including the MCP catalog and Hermes knowledge base."
+description: "Build status and maintenance log for the public CorpusIQ documentation repository."
 last_updated: "2026-10-24"
 ---
 

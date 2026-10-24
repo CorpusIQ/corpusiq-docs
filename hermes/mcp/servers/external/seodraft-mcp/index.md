@@ -1,6 +1,6 @@
 ---
 title: seodraft MCP - Drafted SEO Content with Rule Checks
-description: "seodraft's remote MCP server gives agents 37 tools for topic proposals, drafts, evidence-bank rules and delivery, with versioned writes."
+description: "seodraft's remote MCP server gives agents 37 tools for topic proposals, drafts, evidence-bank rules and delivery."
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-27

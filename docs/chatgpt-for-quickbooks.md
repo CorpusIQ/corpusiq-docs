@@ -137,9 +137,7 @@ CorpusIQ is the only MCP platform purpose-built for business data integration. U
 
 **Ready to transform your accounting workflow?** [Connect QuickBooks to ChatGPT today](/quickstart) and ask your first financial question in under five minutes.
 
-*Connect ChatGPT for QuickBooks  --  AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect ChatGPT for QuickBooks  --  AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

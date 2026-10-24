@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Scan Results - July 17, 2026"
-description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 1 major new server found, 1 guide created. 1Password ships official MCP - landmark moment for"
+description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 1 major new server found, 1 guide created."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-09-17

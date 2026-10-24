@@ -1,6 +1,6 @@
 ---
 title: "MCP for Customer Support: AI-Powered Data Access"
-description: "How customer support teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data"
+description: "How customer support teams use MCP servers to connect business systems to ChatGPT and Claude."
 category: MCP Education
 tags: ["MCP for customer support", "customer support AI analytics", "AI for customer support teams", "connect business data to ChatGPT", "no-code AI business intelligence", "customer support data integration"]
 last_updated: "2026-10-15"

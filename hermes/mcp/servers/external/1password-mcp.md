@@ -1,5 +1,5 @@
 ---
-title: "1Password MCP - Secrets Management for AI Agents Without"
+title: "1Password MCP Server ★ Official (Beta)"
 description: "Official 1Password MCP server (beta) allowing MCP clients like Codex and Kiro to manage 1Password Environments with secure authorization prompts. Secrets"
 category: mcp
 tags: [mcp-server, security, secrets-management, 1password, official, devops, ai-agents]

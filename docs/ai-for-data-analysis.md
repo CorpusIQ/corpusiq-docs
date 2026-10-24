@@ -141,8 +141,6 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 **Next steps:** [Start AI-powered data analysis →](https://corpusiq.io/register)
 
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -1,6 +1,6 @@
 ---
 title: "Chirpie MCP - Unified Social Posting Across 14 Platforms"
-description: "Chirpie MCP is a unified social media layer for AI agents: one API to post, thread, schedule, delete and pull analytics across X, Bluesky, LinkedIn, Threads, Mastodon, Instagram, Facebook, Telegram and more, with accounts connected through a browser OAuth flow started from the agent so there are no per-platform API keys to manage."
+description: "Chirpie MCP is a unified social media layer for AI agents: one API to post, thread, schedule, delete and pull analytics across X, Bluesky, LinkedIn, Threads, Mastodon, Instagram, Facebook, Telegram and more."
 category: Social Media Management
 stars: 0
 added: 2026-09-07

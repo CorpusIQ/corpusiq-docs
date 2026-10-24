@@ -1,6 +1,6 @@
 ---
 title: "3Dsellers MCP - Six Marketplaces, 150+ Tools"
-description: "One hosted endpoint for eBay, Amazon, Walmart, Etsy, Shopify and TikTok Shop: listings, inventory, orders and buyer messages, with approval on every write."
+description: "One hosted endpoint for eBay, Amazon, Walmart, Etsy, Shopify and TikTok Shop: listings, inventory, orders and buyer messages."
 category: Commerce & E-Commerce
 stars: n/a (vendor-hosted; official registry entry com.3dsellers/mcp v1.0.0)
 added: 2026-10-23

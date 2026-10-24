@@ -1,7 +1,6 @@
 ---
 title: "AI for Business Intelligence - CorpusIQ Docs"
-description: Discover how AI transforms business intelligence. Query data across all your tools in natural language, automate reporting, and democratize analytics with CorpusIQ's MCP platform. Real-time
-  BI for every team.
+description: "How AI transforms business intelligence: query every tool in plain language, automate reporting, and democratize analytics with CorpusIQ's MCP platform."
 url: /docs/ai-for-business-intelligence
 h1: 'AI for Business Intelligence: From Dashboards to Conversations'
 category: Business Use Cases
@@ -159,9 +158,7 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 **Next steps:** [Start your AI-powered BI journey →](https://corpusiq.io/register) or [view all integrations](connectors.md)
 
-*AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

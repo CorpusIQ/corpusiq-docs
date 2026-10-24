@@ -1,7 +1,7 @@
 ---
 name: "Moxie Docs MCP Server Setup Guide"
 title: "Moxie Docs MCP Server Setup Guide"
-description: "GitHub personal access token with repo scope is required for PR workflows. Setup guide for the Moxie Docs MCP server, including token scopes and repo permissions."
+description: "GitHub personal access token with repo scope is required for PR workflows. Setup guide for the Moxie Docs MCP server."
 category: "Developer Tools"
 source: "mcp.so"
 discovered: "2026-07-23"

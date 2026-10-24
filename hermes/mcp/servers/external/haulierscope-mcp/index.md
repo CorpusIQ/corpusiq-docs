@@ -1,6 +1,6 @@
 ---
 title: "HaulierScope MCP - GB Operator Licence Data for Agents"
-description: "Look up any GB goods-vehicle or bus operator licence from DVSA open data, with Companies House, earned-recognition and Traffic Commissioner context."
+description: "Look up any GB goods-vehicle or bus operator licence from DVSA open data."
 category: Logistics
 stars: n/a (new listing)
 added: 2026-10-12

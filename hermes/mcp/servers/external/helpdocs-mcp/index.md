@@ -1,6 +1,6 @@
 ---
 title: "HelpDocs MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Connect AI assistants to your HelpDocs knowledge base. Search, read, draft, and update articles, reorganize categories, and pull analytics on what readers search for.
+description: "Connect AI assistants to your HelpDocs knowledge base. Search, read, draft, and update articles, reorganize categories."
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-14

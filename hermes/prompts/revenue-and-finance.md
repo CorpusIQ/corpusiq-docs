@@ -1,6 +1,6 @@
 ---
 title: "Revenue And Finance - CorpusIQ Docs"
-description: "Revenue and finance prompts for Hermes agents. Query ARR, MRR, churn, cash flow, P&L, and budget vs actuals in plain English using AI connected to your"
+description: "Revenue and finance prompts for Hermes agents. Query ARR, MRR, churn, cash flow, P&L."
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/revenue-and-finance/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -124,8 +124,6 @@ what was actually charged.
 **Behind the scenes:** P&L pulled across the window.
 **Sample answer shape:** Monthly revenue figures with trend
 characterization.
-
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

@@ -1,5 +1,5 @@
 ---
-title: "SiteGuru MCP - SEO audit, ranking, and backlink data for"
+title: "SiteGuru MCP Server"
 description: "Connect SiteGuru's full SEO dataset - prioritized to-do lists, audit data, rankings, backlinks, and indexation status - directly to AI agents via MCP"
 category: mcp
 tags: [mcp-server, seo, marketing, analytics, google-search-console]

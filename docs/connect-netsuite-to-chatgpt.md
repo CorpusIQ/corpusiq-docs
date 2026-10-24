@@ -1,6 +1,6 @@
 ---
 title: "Connect NetSuite to ChatGPT via MCP -- Live Data, No Code"
-description: "Connect your NetSuite account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your netsuite data and get real-time, source-cited"
+description: "Connect your NetSuite account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect NetSuite to ChatGPT", "NetSuite ChatGPT integration", "MCP NetSuite connector", "NetSuite data to ChatGPT", "AI for NetSuite", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -190,9 +190,7 @@ NetSuite setup takes 5-10 minutes of admin time, one time only. After that, any 
 - [MCP for Finance](mcp-for-finance.md)  --  MCP for finance teams
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 
-*Connect Connect NetSuite to ChatGPT via MCP  --  Live Data, No Code ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect NetSuite to ChatGPT via MCP  --  Live Data, No Code ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

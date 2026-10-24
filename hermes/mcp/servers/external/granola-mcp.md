@@ -1,6 +1,6 @@
 ---
 title: "Granola MCP - AI Meeting Notes for Hermes Agent"
-description: "Connect Granola meeting notes to Hermes Agent. Query your notes, search transcripts, and get meeting insights directly from any AI client. Official MCP from"
+description: "Connect Granola meeting notes to Hermes Agent. Query your notes, search transcripts, and get meeting insights directly from any AI client."
 category: mcp
 tags: [mcp-server, granola, meeting-notes, productivity, transcription, knowledge-retrieval, search]
 last_updated: 2026-09-17

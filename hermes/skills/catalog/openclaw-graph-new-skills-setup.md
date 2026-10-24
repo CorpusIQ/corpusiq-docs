@@ -1,5 +1,5 @@
 ---
-title: "OpenClaw Graph New Skills - Procedural Generation,"
+title: "OpenClaw Graph - New Skills Setup Guide"
 description: "Install and use three newly catalogued skills from alphaonedev/openclaw-graph: procedural-generation (noise terrains, BSP dungeons), arkit-advanced (scene"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-graph-new-skills-setup/"
 robots: "index,follow"

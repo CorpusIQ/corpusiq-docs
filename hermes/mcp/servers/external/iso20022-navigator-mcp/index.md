@@ -1,6 +1,6 @@
 ---
 title: "ISO 20022 Navigator MCP - Payment Code Lookups"
-description: "Free keyless answers on ISO 20022 bank transaction codes, message details and legacy mappings like MT103 to pacs.008, with provenance."
+description: "Free keyless answers on ISO 20022 bank transaction codes, message details and legacy mappings like MT103 to pacs.008."
 category: Finance
 stars: n/a (new listing)
 added: 2026-10-12

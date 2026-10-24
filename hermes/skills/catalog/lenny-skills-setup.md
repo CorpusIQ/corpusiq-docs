@@ -1,5 +1,5 @@
 ---
-title: "Lenny Skills - Product Management Methodology from"
+title: "Lenny Skills - Setup Guide"
 description: Product management, competitive analysis, PRD writing, brand storytelling, startup ideation, and vibe coding from Lenny's Newsletter. 18K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lenny-skills-setup/"
 robots: "index,follow"

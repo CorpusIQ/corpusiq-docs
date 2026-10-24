@@ -1,6 +1,6 @@
 ---
 title: "UI Skills - Design Engineer Skill Registry Setup"
-description: "Setup guide for ibelick/ui-skills: 99.1K combined installs. Design-engineer skills for UI review, motion, and accessibility, with CLI and MCP access."
+description: "Setup guide for ibelick/ui-skills: 99.1K combined installs. Design-engineer skills for UI review, motion, and accessibility."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ibelick-ui-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-10-09"

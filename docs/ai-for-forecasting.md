@@ -1,7 +1,6 @@
 ---
 title: "AI for Forecasting - CorpusIQ Docs"
-description: Transform business forecasting with AI. Combine historical data, pipeline, and market signals for accurate predictions. Revenue forecasting, cash flow projections, and demand planning
-  with MCP.
+description: "Transform business forecasting with AI. Combine historical data, pipeline, and market signals for revenue forecasts, cash flow projections, and demand planning."
 url: /docs/ai-for-forecasting
 h1: 'AI for Forecasting: Predictive Intelligence from Live Data'
 category: Business Use Cases
@@ -130,9 +129,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 **Next steps:** [Start AI-powered forecasting →](https://corpusiq.io/register)
 
-*AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

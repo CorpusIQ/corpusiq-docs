@@ -1,6 +1,6 @@
 ---
 title: "FeedbackPulse MCP - Employee Surveys and Reviews"
-description: "Hosted MCP server for employee engagement: 19 tools over surveys, performance and peer reviews, and recognition, with admin-scoped writes and four guided prompts, over OAuth."
+description: "Hosted MCP server for employee engagement: 19 tools over surveys, performance and peer reviews, and recognition."
 category: People Operations
 stars: n/a (new listing)
 added: 2026-10-08

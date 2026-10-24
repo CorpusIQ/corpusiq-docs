@@ -1,7 +1,6 @@
 ---
 title: "Connect Slack to Claude - CorpusIQ Docs"
-description: Connect Slack to Claude using CorpusIQ's MCP platform. Search messages, analyze channels, and surface knowledge from team conversations in natural language. Read-only OAuth, enterprise-grade
-  security.
+description: "Connect your Slack account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 url: /docs/connect-slack-to-claude
 h1: 'Connect Slack to Claude: Unlock Your Team''s Knowledge Base'
 category: Claude Integrations
@@ -137,9 +136,7 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 **Next steps:** [Connect Slack to Claude now →](https://corpusiq.io/connect/slack)
 
-*Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

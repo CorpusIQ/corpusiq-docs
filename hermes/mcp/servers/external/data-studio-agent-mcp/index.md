@@ -1,6 +1,6 @@
 ---
 title: "Data Studio Agent MCP - 70+ SQL & NoSQL databases for AI"
-description: "Connect 70+ SQL databases (PostgreSQL, MySQL, SQL Server, ClickHouse, Snowflake, BigQuery) and NoSQL (Elasticsearch, MongoDB, DynamoDB) to AI agents via"
+description: "Connect 70+ SQL databases (PostgreSQL, MySQL, SQL Server, ClickHouse, Snowflake, BigQuery) and NoSQL (Elasticsearch, MongoDB."
 category: mcp
 tags: [mcp-server, database, sql, nosql, postgresql, mysql, mongodb, elasticsearch, data-platform]
 source: mcp.so

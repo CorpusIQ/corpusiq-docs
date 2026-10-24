@@ -1,5 +1,5 @@
 ---
-title: "Stock Trade Finance MCP - Real-Time Market Data via"
+title: "Stock Trade Finance MCP Server ★ New (July 16)"
 description: "MCP server for stock prices, financial news, forex rates, and fundamental data via Tiingo API. Essential for operators managing investments or building"
 category: mcp
 tags: [mcp-server, finance, stocks, trading, forex, market-data, investment]

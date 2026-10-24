@@ -1,5 +1,5 @@
 ---
-title: "Lawstronaut MCP - Legal & Regulatory Research Across"
+title: "Lawstronaut MCP Server ★ New (July 15)"
 description: "Millions of official legal and regulatory source documents from 155+ jurisdictions accessible via MCP. Structured legal research for AI agents."
 category: mcp
 tags: [mcp-server, legal, compliance, research, regulatory, business-operations]

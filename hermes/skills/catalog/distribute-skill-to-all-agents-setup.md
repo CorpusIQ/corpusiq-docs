@@ -1,6 +1,6 @@
 ---
 title: "distribute-skill-to-all-agents - Setup Guide"
-description: Install, configure, and use the distribute-skill-to-all-agents skill from davidondrej/skills. Sync a skill across Codex, Claude Code, Pi, and Hermes agent folders so all agents see it.
+description: "Install, configure, and use the distribute-skill-to-all-agents skill from davidondrej/skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"

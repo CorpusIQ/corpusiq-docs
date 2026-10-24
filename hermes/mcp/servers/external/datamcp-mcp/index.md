@@ -1,5 +1,5 @@
 ---
-title: "datamcp - Hosted MCP Gateway for PostgreSQL, MySQL &"
+title: "datamcp - Hosted MCP Gateway for Databases & APIs"
 description: "Hosted MCP gateway that connects AI agents to PostgreSQL, MySQL, and OpenAPI endpoints. Server-side credentials, scoped access links, zero local setup."
 source: datamcp.app
 stars: 0

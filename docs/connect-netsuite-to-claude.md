@@ -1,6 +1,6 @@
 ---
 title: "Connect NetSuite to Claude via MCP -- Live Data, No Code"
-description: "Connect your NetSuite account to Claude through CorpusIQ MCP. Ask natural language questions about your netsuite data and get real-time, source-cited"
+description: "Connect your NetSuite account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect NetSuite to Claude", "NetSuite Claude integration", "MCP NetSuite connector", "NetSuite data to Claude", "AI for NetSuite", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -118,9 +118,7 @@ Yes. Configure your NetSuite role's subsidiary restrictions  --  CorpusIQ honors
 
 **Next steps:** [Connect NetSuite to Claude now →](https://corpusiq.io/connect/netsuite)
 
-*Connect Connect NetSuite to Claude via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect NetSuite to Claude via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

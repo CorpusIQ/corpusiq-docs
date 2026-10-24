@@ -1,6 +1,6 @@
 ---
 title: "PourWire MCP - Restaurants and Bars Before They Open"
-description: "Liquor license and permit filings fused into per-metro feeds of venues opening in the next 60 to 120 days, with the filing behind every row."
+description: "Liquor license and permit filings fused into per-metro feeds of venues opening in the next 60 to 120 days."
 category: Data & Analytics
 stars: n/a (vendor API; Tintin-Intellegence-Limited/us-liquor-license-applications has 0)
 added: 2026-10-23

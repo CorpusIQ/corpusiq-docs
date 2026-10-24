@@ -1,6 +1,6 @@
 ---
 title: "Mercury MCP - Business Banking Data for AI Agents"
-description: "Official Mercury MCP server (beta) giving AI agents read-only access to accounts, transactions, balances, and cards via OAuth 2.0. Hosted at"
+description: "Official Mercury MCP server (beta) giving AI agents read-only access to accounts, transactions, balances, and cards via OAuth 2.0."
 category: mcp
 tags: [mcp-server, fintech, banking, mercury, official, finance, startup-operations]
 last_updated: 2026-09-17

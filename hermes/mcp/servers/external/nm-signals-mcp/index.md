@@ -1,6 +1,6 @@
 ---
 title: "NM Signals MCP - AI Crawler Visibility Audits"
-description: "NM Signals audits any URL's AI crawler access from an MCP client, with a bounded audit, fix and verification workflow for coding agents."
+description: "NM Signals audits any URL's AI crawler access from an MCP client."
 category: SEO
 stars: n/a (new listing)
 added: 2026-09-29

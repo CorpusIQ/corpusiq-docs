@@ -29,7 +29,7 @@ mcpservers.org `/all` pages 1 to 3 returned 90 unique slugs against the midday p
 
 ## Listing Verification
 
-Re-checked live this cycle: mcpservers.org `/servers/corpusiq-io` still serves the listing under the page title `CorpusIQ MCP Server | Awesome MCP Servers`, and `glama.ai/mcp/servers/CorpusIQ/corpusiq-docs` returns HTTP 200. mcp.so remains absent on the six slug forms probed in the midday pass (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`, `corpusiq-docs`, `benoit-p`), unchanged since August. The midday pass's correction stands: Smithery is listed on the detail route (`registry.smithery.ai/servers/@benoit-p/Cprusiq`, `qualifiedName` `benoit-p/Cprusiq`, public page titled `CorpusIQ - MCP`), and the PulseMCP beta API stays unclaimed while it is inside its sunset window.
+Re-checked live this cycle: mcpservers.org `/servers/corpusiq-io` still serves the listing under the page title `CorpusIQ MCP Server | Awesome MCP Servers`, and `glama.ai/mcp/servers/CorpusIQ/corpusiq-docs` returns HTTP 200. mcp.so remains absent on the six slug forms probed in the midday pass (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`, `corpusiq-docs`, the publisher handle form), unchanged since August. The midday pass's correction stands: Smithery is listed on the detail route (`registry.smithery.ai/servers/@Cprusiq`, `qualifiedName` `Cprusiq`, public page titled `CorpusIQ - MCP`), and the PulseMCP beta API stays unclaimed while it is inside its sunset window.
 
 For the new entry: mcp.so has no detail page for PourWire yet (`/server/pourwire` returns 404, the submission is still an open issue), mcpservers.org blocks direct detail probes with a 403 to a non-browser client, and the official registry and Glama both answer 200.
 

@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ API Overview - CorpusIQ Docs"
-description: "Complete CorpusIQ REST API overview. Query 40+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and"
+description: "CorpusIQ REST API overview: query 40+ business tools such as HubSpot, QuickBooks, and Stripe through one API. Base URL, endpoints, and authentication."
 category: "API Reference"
 tags: ["corpusiq api", "rest api", "business data api", "mcp api", "api documentation", "query api", "data integration api"]
 last_updated: "2026-10-16"

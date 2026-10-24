@@ -1,6 +1,6 @@
 ---
 title: The Company Atlas MCP - Trade Data and Company Registries
-description: Remote MCP over customs trade data from 36 markets and company registries across eight markets, with free monthly credits.
+description: "Remote MCP over customs trade data from 36 markets and company registries across eight markets."
 category: Business Operations
 stars: n/a (new listing)
 added: 2026-10-04

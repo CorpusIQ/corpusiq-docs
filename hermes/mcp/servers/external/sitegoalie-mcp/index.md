@@ -1,6 +1,6 @@
 ---
 title: "Sitegoalie MCP - WordPress Operations for Agencies"
-description: "Read client WordPress site status from any MCP client and run Safe Updates, client reports and work logs when the workspace allows, with auto-rollback."
+description: "Read client WordPress site status from any MCP client and run Safe Updates, client reports and work logs when the workspace allows."
 category: Business Operations
 stars: n/a (hosted platform, sitegoalie.com)
 added: 2026-10-05

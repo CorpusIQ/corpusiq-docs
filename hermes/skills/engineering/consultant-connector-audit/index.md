@@ -360,8 +360,6 @@ Run this checklist BEFORE clicking merge on any contributor PR introducing or to
 If the contributor pushes back ("this is overkill for a small change"), the right answer is the Mailchimp inventory above. Nine round-trips and a damaged customer relationship is what the alternative costs.
 
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
-
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

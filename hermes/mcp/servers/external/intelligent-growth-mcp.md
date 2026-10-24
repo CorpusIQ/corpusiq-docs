@@ -1,5 +1,5 @@
 ---
-title: "Intelligent Growth MCP - Product Marketing AI for"
+title: "Intelligent Growth: Product Marketing MCP Server ★ New (July"
 description: "Hosted MCP server for product marketing - positioning, messaging, competitive analysis, and launch planning from AI agents. Built for marketing operators"
 category: mcp
 tags: [mcp-server, marketing, competitive-analysis, product-marketing, positioning, go-to-market]

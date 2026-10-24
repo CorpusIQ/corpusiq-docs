@@ -1,5 +1,5 @@
 ---
-title: "license-verify MCP Server - Contractor License &"
+title: "license-verify MCP Server"
 description: "Integration guide for lmaniraruta/license-verify-mcp: verify US contractor licenses, surety bonds, and insurance from official state data. WA L&I live, CA"
 category: legal
 tags: [mcp, contractor-verification, license, insurance, compliance, operations]

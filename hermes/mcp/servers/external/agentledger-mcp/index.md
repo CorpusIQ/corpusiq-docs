@@ -1,6 +1,6 @@
 ---
 title: AgentLedger MCP - Per-Agent Spend Management for Operators
-description: Per-agent spend management for autonomous agents - track x402, MPP and API-key spend, enforce budget caps, catch anomalies and keep a full audit trail, with a free beta tier for up to 3 agents.
+description: "Per-agent spend management for autonomous agents - track x402, MPP and API-key spend, enforce budget caps, catch anomalies and keep a full audit trail."
 category: Finance
 stars: n/a (new listing)
 added: 2026-09-09

@@ -1,6 +1,6 @@
 ---
 title: "Connect Google Analytics to ChatGPT via MCP"
-description: "Connect your Google Analytics account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time"
+description: "Connect your Google Analytics account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect Google Analytics to ChatGPT", "Google Analytics ChatGPT integration", "MCP Google Analytics connector", "Google Analytics data to ChatGPT", "AI for Google Analytics", "CorpusIQ MCP"]
 last_updated: "2026-10-15"
@@ -182,9 +182,7 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 - [GA4 Connector Reference](connect-google-analytics-to-chatgpt.md)  --  technical details
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 
-*Connect Connect Google Analytics to ChatGPT via MCP  --  Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Google Analytics to ChatGPT via MCP  --  Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

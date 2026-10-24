@@ -1,6 +1,6 @@
 ---
 title: "Blog2Social MCP - Multi-Network Social Publishing"
-description: "Blog2Social MCP publishes and schedules to 30+ social, blogging and community networks over OAuth, with per-network post types and media support."
+description: "Blog2Social MCP publishes and schedules to 30+ social, blogging and community networks over OAuth."
 category: Marketing
 stars: n/a (no public repo)
 added: 2026-09-30
