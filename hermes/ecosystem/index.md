@@ -24,12 +24,12 @@ The most comprehensive directory of Hermes Agent resources in existence. 431+ re
 |----------|-------|------|
 | [Core & Official](#core-official) | 11 | [↓](#core-official) |
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
-| [Community & Awesome Lists](#community-awesome-lists) | 32 | [↓](#community-awesome-lists) |
+| [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 23 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 30 | [↓](#memory-knowledge) |
+| [Memory & Knowledge](#memory-knowledge) | 31 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 47 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 103 | [↓](#skills-plugins) |
-| [Tools & Utilities](#tools-utilities) | 63 | [↓](#tools-utilities) |
+| [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 35 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 19 | [↓](#deployment-infrastructure) |
@@ -4398,15 +4398,15 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 429 |
+| Total repos indexed | 431 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
-| UI/Dashboard projects | 21 |
+| UI/Dashboard projects | 23 |
 | Memory systems | 31 |
 | MCP integrations | 47 |
 | Skill collections & plugins | 103 |
-| Tools & utilities | 63 |
+| Tools & utilities | 62 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 19 |
 | Domain applications | 27 |
@@ -4475,7 +4475,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 429 repos · 18 categories · 1M+ community stars · 103 skill collections · 47 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 431 repos · 18 categories · 1M+ community stars · 103 skill collections · 47 MCP integrations · 27 domain applications
 
 ---
 
