@@ -22,9 +22,14 @@ than by a step someone has to remember to add.
 
 Scope
 -----
-Writes exactly three files into ``site_dir``: ``llms.txt``, ``llms-full.txt`` and
-``build-info.json``. It never edits source content and never touches the
-repository root copies.
+Writes exactly four files into ``site_dir``: ``llms.txt``, ``llms-full.txt``,
+``llms-install.md`` and ``build-info.json``. It never edits source content and
+never touches the repository root copies.
+
+``llms-install.md`` is the agent install contract that Cline and other clients
+read before wiring an MCP server. It lives at the repository root, outside
+``docs_dir``, so before this it was only reachable as a raw GitHub URL and the
+site 404'd on ``/llms-install.md``.
 """
 from __future__ import annotations
 
@@ -35,7 +40,7 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-FEEDS = ("llms.txt", "llms-full.txt")
+FEEDS = ("llms.txt", "llms-full.txt", "llms-install.md")
 
 
 def _git_head(repo_root: Path) -> str:
