@@ -296,15 +296,17 @@ def main():
     print("2f. Page-metadata gate (footers, titles, descriptions)...")
     run("python3 scripts/validate_page_metadata.py")
 
-    # 2g. Actor-reference gate. Blocks the deploy on an `apify actor run
-    #     owner/slug` that does not resolve on the live Apify API, or an
-    #     --input key that is not a field of that Actor's schema. The Apify
-    #     setup page shipped four invented slugs and three invented input
-    #     keys (GitHub issue #118, Oct 24 2026): readers got a 404 on step
-    #     one and nothing in the build resolved a single Actor name.
+    # 2g. Vendor-identifier gate (Apify). Blocks the deploy on an Actor slug
+    #     that does not resolve on the live Apify API, a CLI verb the CLI does
+    #     not implement (`apify actor run`), an -i payload whose keys are not in
+    #     that Actor's input schema, or an npm package that does not exist
+    #     (`npx @apify/mcp`). The Apify setup page shipped four invented slugs,
+    #     three invented input keys, a non-existent verb and a non-existent
+    #     package (GitHub issue #118, Oct 24 2026) - readers got a 404 on step
+    #     one and no gate resolved a single vendor identifier.
     #     Network flap is a warning, not a block. Hard gate, no `|| true`.
-    print("2g. Actor-reference gate (Apify slugs + input keys)...")
-    run("python3 scripts/validate_actor_slugs.py")
+    print("2g. Vendor-identifier gate (Apify slugs, verbs, payloads, packages)...")
+    run("python3 scripts/apify_actor_ref_check.py")
 
     # 3. Build
     print("3. Building mkdocs...")

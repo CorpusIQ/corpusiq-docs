@@ -64,33 +64,39 @@ Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Google S
 
 ### Three Rules for Every Command
 
-1. Always pass `--json` for machine-readable output
-2. Pass `--user-agent apify-agent-skills/apify-ultimate-scraper` for telemetry
-3. Redirect stderr: `2>/dev/null` (stderr has progress messages that break JSON)
+1. Call Actors with `apify actors call` (or the short form `apify call`), passing input inline with `-i '<json>'`
+2. Add `-o` to print the dataset items, and `--json` only when you want the run record instead of the data
+3. Read the Actor input schema before writing JSON: `apify actors info <actor> --input`
+
+Actor names are store-scoped. Most of the widely used scrapers are published by third-party accounts, not by `apify`, so always resolve the exact `username/actor-name` first:
+
+```bash
+apify actors search "google maps scraper" --json
+```
 
 ```bash
 # Instagram profile details
-apify actor run apify/instagram-scraper \
-  --input '{"resultsType":"details","directUrls":["https://www.instagram.com/target_account/"]}' \
-  --json 2>/dev/null
+apify actors call apify/instagram-scraper \
+  -i '{"directUrls":["https://www.instagram.com/target_account/"],"resultsType":"details"}' \
+  -o 2>/dev/null
 
 # Google Maps lead generation
-apify actor run compass/crawler-google-places \
-  --input '{"searchStringsArray":["restaurants near me"],"maxCrawledPlacesPerSearch":50}' \
-  --json 2>/dev/null
+apify actors call compass/crawler-google-places \
+  -i '{"searchStringsArray":["restaurants near me"],"locationQuery":"Austin, Texas","maxCrawledPlacesPerSearch":50}' \
+  -o 2>/dev/null
 
 # LinkedIn company data
-apify actor run harvestapi/linkedin-company \
-  --input '{"companies":["https://www.linkedin.com/company/target"]}' \
-  --json 2>/dev/null
+apify actors call harvestapi/linkedin-company \
+  -i '{"companies":["https://www.linkedin.com/company/target"]}' \
+  -o 2>/dev/null
 
-# Reddit community posts
-apify actor run apify/reddit-scraper \
-  --input '{"scrapeMode":"posts","communityNames":["SaaS","ecommerce"],"maxPostsPerCommunity":100}' \
-  --json 2>/dev/null
+# Reddit subreddit scraping
+apify actors call apify/reddit-scraper \
+  -i '{"scrapeMode":"posts","startUrls":[{"url":"https://www.reddit.com/r/SaaS/"}],"maxPostsPerCommunity":100}' \
+  -o 2>/dev/null
 ```
 
-Every Actor name and input key above was verified against the live Apify API on 2026-10-24. Actors are namespaced by their **owner**, which is not always `apify/` (the Google Maps scraper is `compass/crawler-google-places`). Search the [Apify Store](https://apify.com/store) for the canonical owner before running a new Actor, and check its input schema - field names differ per Actor.
+Every Actor name and input key above was checked against the Apify API on 2026-10-24. Names retire, so a `404 record-not-found` from `GET https://api.apify.com/v2/acts/<user>~<actor>` means the Actor is gone and the example needs a new one.
 
 ---
 
@@ -100,36 +106,41 @@ For CorpusIQ growth operations:
 
 ### Lead Generation Pipeline
 ```bash
-# Scrape Shopify app store for merchant leads
-apify actor run fatihtahta/shopify-app-store-scraper \
-  --input '{"queries":["analytics"],"category":"store-management","limit":100}' \
-  --json 2>/dev/null | jq '.[] | {name, url, rating}' > leads-shopify.json
+# Scrape a Shopify App Store category for merchant leads
+apify actors call applora/shopify-appstore-scraper \
+  -i '{"scrapeType":"category","categoryHandles":["analytics"],"maxPages":5}' \
+  -o 2>/dev/null > leads-shopify.jsonl
 ```
+
+`scrapeType` is required: `app`, `review`, `developer`, `category`, or `keyword`. For a merchant's own product catalog, use `pocesar/shopify-scraper` with `startUrls`.
+
+One JSON object per line in the output, so `jq -s` reads the whole file as an array.
 
 ### Competitor Intelligence
 ```bash
 # Monitor competitor social presence
-apify actor run apify/instagram-scraper \
-  --input '{"resultsType":"details","directUrls":["https://www.instagram.com/competitor1/","https://www.instagram.com/competitor2/"]}' \
-  --json 2>/dev/null
+apify actors call apify/instagram-scraper \
+  -i '{"directUrls":["https://www.instagram.com/competitor1/","https://www.instagram.com/competitor2/"],"resultsType":"details"}' \
+  -o 2>/dev/null
 ```
 
 ### Content Research
 ```bash
 # Find trending AI content on Reddit
-apify actor run apify/reddit-scraper \
-  --input '{"scrapeMode":"posts","communityNames":["artificial","MachineLearning","SaaS"],"maxPostsPerCommunity":200,"communitySort":"hot"}' \
-  --json 2>/dev/null > trending-content.json
+apify actors call apify/reddit-scraper \
+  -i '{"scrapeMode":"posts","startUrls":[{"url":"https://www.reddit.com/r/artificial/"},{"url":"https://www.reddit.com/r/MachineLearning/"}],"maxPostsPerCommunity":200}' \
+  -o 2>/dev/null > trending-content.jsonl
 ```
 
 ---
 
 ## Tips
 
-- Always use `--json` - stable across CLI versions
-- The `2>/dev/null` redirect is critical for JSON parsing
+- `apify actors call` runs the Actor remotely and waits; `apify actors start` returns immediately and is better for long jobs
+- `-o` prints the dataset, `--json` prints the run record - both are stable across CLI versions
+- The `2>/dev/null` redirect is useful because run logs go to stderr and break JSON parsing
 - Check `references/actor-index.md` in the skill for the full Actor catalog
-- Each platform has its own specific Actor - search Apify Store for the best one
+- Each platform has its own specific Actor - search Apify Store for the best one, and confirm it resolves before publishing it
 
 ---
 
