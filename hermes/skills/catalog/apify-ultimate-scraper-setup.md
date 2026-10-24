@@ -3,7 +3,7 @@ title: "Apify Ultimate Scraper"
 description: AI-powered web scraper covering Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Reddit, Airbnb, Yelp, and more. 13.6K+ installs. Lead generation, brand monitoring, competitor analysis.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-ultimate-scraper-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -69,26 +69,28 @@ Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Google S
 3. Redirect stderr: `2>/dev/null` (stderr has progress messages that break JSON)
 
 ```bash
-# Instagram profile scraping
+# Instagram profile details
 apify actor run apify/instagram-scraper \
-  --input '{"usernames":["target_account"]}' \
+  --input '{"resultsType":"details","directUrls":["https://www.instagram.com/target_account/"]}' \
   --json 2>/dev/null
 
 # Google Maps lead generation
-apify actor run apify/google-maps-scraper \
-  --input '{"searchStrings":["restaurants near me"],"maxCrawledPlaces":50}' \
+apify actor run compass/crawler-google-places \
+  --input '{"searchStringsArray":["restaurants near me"],"maxCrawledPlacesPerSearch":50}' \
   --json 2>/dev/null
 
 # LinkedIn company data
-apify actor run apify/linkedin-company-scraper \
-  --input '{"companyUrls":["https://linkedin.com/company/target"]}' \
+apify actor run harvestapi/linkedin-company \
+  --input '{"companies":["https://www.linkedin.com/company/target"]}' \
   --json 2>/dev/null
 
-# Reddit subreddit scraping
+# Reddit community posts
 apify actor run apify/reddit-scraper \
-  --input '{"subreddits":["SaaS","ecommerce"],"maxItems":100}' \
+  --input '{"scrapeMode":"posts","communityNames":["SaaS","ecommerce"],"maxPostsPerCommunity":100}' \
   --json 2>/dev/null
 ```
+
+Every Actor name and input key above was verified against the live Apify API on 2026-10-24. Actors are namespaced by their **owner**, which is not always `apify/` (the Google Maps scraper is `compass/crawler-google-places`). Search the [Apify Store](https://apify.com/store) for the canonical owner before running a new Actor, and check its input schema - field names differ per Actor.
 
 ---
 
@@ -99,8 +101,8 @@ For CorpusIQ growth operations:
 ### Lead Generation Pipeline
 ```bash
 # Scrape Shopify app store for merchant leads
-apify actor run apify/shopify-scraper \
-  --input '{"searchUrl":"https://apps.shopify.com/browse/analytics"}' \
+apify actor run fatihtahta/shopify-app-store-scraper \
+  --input '{"queries":["analytics"],"category":"store-management","limit":100}' \
   --json 2>/dev/null | jq '.[] | {name, url, rating}' > leads-shopify.json
 ```
 
@@ -108,7 +110,7 @@ apify actor run apify/shopify-scraper \
 ```bash
 # Monitor competitor social presence
 apify actor run apify/instagram-scraper \
-  --input '{"usernames":["competitor1","competitor2"],"resultsType":"details"}' \
+  --input '{"resultsType":"details","directUrls":["https://www.instagram.com/competitor1/","https://www.instagram.com/competitor2/"]}' \
   --json 2>/dev/null
 ```
 
@@ -116,7 +118,7 @@ apify actor run apify/instagram-scraper \
 ```bash
 # Find trending AI content on Reddit
 apify actor run apify/reddit-scraper \
-  --input '{"subreddits":["artificial","MachineLearning","SaaS"],"maxItems":200,"sort":"hot"}' \
+  --input '{"scrapeMode":"posts","communityNames":["artificial","MachineLearning","SaaS"],"maxPostsPerCommunity":200,"communitySort":"hot"}' \
   --json 2>/dev/null > trending-content.json
 ```
 
