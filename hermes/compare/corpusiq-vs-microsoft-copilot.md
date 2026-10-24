@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Microsoft Copilot: What Each One Does"
-description: "Microsoft Copilot works inside the Microsoft 365 stack. CorpusIQ is the layer that gives AI assistants live access to your business data across."
+description: "Microsoft Copilot works inside Microsoft 365. CorpusIQ gives AI assistants live access to business data across 40+ tools, including non-Microsoft systems."
 ---
 
 # CorpusIQ vs Microsoft Copilot: What Each One Does

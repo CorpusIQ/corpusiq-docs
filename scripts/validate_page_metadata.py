@@ -32,7 +32,29 @@ DANGLING = {
     'a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into',
     'is', 'it', 'its', 'of', 'on', 'or', 'the', 'to', 'via', 'vs', 'with',
     'your', 'that', 'this', 'those', 'without', 'plus',
+    # 2026-10-24: vocabulary gap. "…live access to your business data across."
+    # shipped to a live page because 'across' was not in this set, so the gate
+    # that exists to catch dangling connectives passed it. Only words that can
+    # NEVER end a sentence belong here (adverb-capable words like 'out', 'up',
+    # 'off', 'since' stay out: they end legitimate phrases such as 'ships out').
+    'across', 'over', 'between', 'through', 'within', 'under',
+    'above', 'below', 'behind', 'against', 'among', 'around', 'before',
+    'after', 'during', 'until', 'per', 'than', 'whether', 'nor', 'because',
+    'although', 'unless', 'toward', 'towards', 'onto', 'upon', 'near',
+    'beyond', 'despite', 'except', 'inside', 'outside', 'throughout',
+    'alongside', 'regarding', 'including', 'any',
+    # NOTE 'about' and 'each' are deliberately absent: preposition stranding /
+    # legit ellipsis ("...No One Is Talking About", "...setup steps for each.")
+    # are correct English and would make this gate fail on good copy.
 }
+# Dropped function words inside a phrase: "The largest collection agents the
+# internet." shipped live (the of/on were lost by a bulk writer) and no local
+# check could see it, because the sentence ends on a valid noun. The signature
+# is a head noun, a plural, then a determiner with no preposition between them.
+DROPPED_PREP = re.compile(
+    r'\b(collection|set|range|list|directory|number|group|suite|library|'
+    r'stack|layer|marketplace|choice)\s+[a-z]+s\s+(the|a|an)\b', re.I)
+
 SKIP_DIRS = {'.git', 'site', 'node_modules', '.cache', '__pycache__'}
 MAX_DESC = 160
 MAX_TITLE = 60
@@ -129,11 +151,16 @@ def main(argv):
                 bad_title.append((rel, title))
         elif title and len(title) > MAX_TITLE:
             bad_title.append((rel, 'LEN %d: %s' % (len(title), title)))
+        elif title and DROPPED_PREP.search(title):
+            bad_title.append((rel, 'TITLE DROPPED WORD: ...%s' % title[-50:]))
 
         desc = value(fm, 'description')
         if desc:
             if dangling(desc):
                 bad_title.append((rel, 'DESC DANGLING: ...%s' % desc[-40:]))
+            elif DROPPED_PREP.search(desc):
+                bad_title.append((rel, 'DESC DROPPED WORD: %s'
+                                  % DROPPED_PREP.search(desc).group(0)))
             elif len(desc) > MAX_DESC:
                 long_desc += 1
             elif not re.search(r'[.!?"\')\]]\s*$', desc):
