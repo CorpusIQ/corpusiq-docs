@@ -9,7 +9,7 @@ This file is written for AI agents and coding assistants (Cline, Claude Code, Cu
 
 ## What this server is
 
-CorpusIQ is a remote MCP server that gives an AI client read-only access to a business's own systems: QuickBooks, Shopify, Stripe, GA4, HubSpot, Klaviyo, Slack, and 40+ connectors in total. The client asks a question, CorpusIQ retrieves the records live from the connected source and returns them with the source cited. Nothing is stored.
+CorpusIQ is a remote MCP server that gives an AI client read-only access to a business's own systems: QuickBooks, Shopify, Stripe, GA4, HubSpot, Klaviyo, Slack, and 40+ connectors in total. The client asks a question, CorpusIQ retrieves the records live from the connected source and returns them with the source cited. It does not retain raw customer files or full connector response payloads.
 
 - Transport: Streamable HTTP (remote, no local install, no container, no package)
 - Endpoint: `https://mcp2.corpusiq.io/mcp`
@@ -127,7 +127,7 @@ The server gates every tool behind OAuth. A 401 before the browser flow complete
 
 ### Does CorpusIQ store the data it retrieves?
 
-No. CorpusIQ fetches source records live for the duration of the request and returns them to the client. Query text, per-user tool-call metadata and bounded outcome summaries are retained in operational logs for up to 30 days. Raw connector payloads are not retained and no embeddings or file indexes are built.
+For MCP connector requests, CorpusIQ fetches source records live and returns them to the requesting AI client. It does not retain raw customer files or full connector response payloads, and it does not build embeddings, file indexes, or cached or indexed summaries. Query text, per-user tool-call metadata, and bounded outcome summaries are retained in operational logs for up to 30 days.
 
 ### Which tool should an agent call first?
 
