@@ -98,6 +98,58 @@ def fetch_repo(full_name):
     return json.loads(urllib.request.urlopen(req, timeout=45).read())
 
 
+def _norm_label(s):
+    """Normalise a table label or heading so emoji/markup/link syntax drop out."""
+    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
+    s = re.sub(r"[^A-Za-z0-9 &]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+def sync_category_count(text, heading):
+    """Recount a section's entries and write the true number into its nav row.
+
+    ``bump_published_counts`` only patches the global repo stamps, so the
+    per-category table drifted every time a repo was inserted (the published
+    index advertised 21 UI entries while the section held 23). Recount from the
+    headings themselves so no insert can push the table out of date again.
+    """
+    if heading not in text:
+        return text
+    start = text.index(heading)
+    nxt = text.find("\n## ", start + 1)
+    section = text[start:len(text) if nxt == -1 else nxt]
+    lines = section.split("\n")
+    repo_blocks = 0
+    total_blocks = 0
+    for i, line in enumerate(lines):
+        if not line.startswith("### "):
+            continue
+        total_blocks += 1
+        if "\u2b50" in line:
+            repo_blocks += 1
+            continue
+        for nxt_line in lines[i + 1:]:
+            if not nxt_line.strip():
+                continue
+            if nxt_line.lstrip().startswith("\u2b50"):
+                repo_blocks += 1
+            break
+    # Only trust the recount where the section is uniformly repo entries.
+    # Sections whose items are bullets or prose sub-headings count differently
+    # and a blind rewrite would REPLACE a correct number with a wrong one.
+    if total_blocks == 0 or repo_blocks / total_blocks < 0.9:
+        return text
+    count = repo_blocks
+    target = _norm_label(heading.lstrip("# "))
+
+    def repl(m):
+        if _norm_label(m.group(1)) == target:
+            return "| {} | {} |".format(m.group(1), count)
+        return m.group(0)
+
+    return re.sub(r"(?m)^\| ([^|\n]+?) \| (\d+) \|", repl, text)
+
+
 def entry_block(row):
     stars = row.get("stars", 0)
     topics = row.get("topics") or []
@@ -145,6 +197,7 @@ def insert_into_ecosystem(row):
     block = entry_block(row)
     prefix = "" if section[:insert_at].endswith("\n\n") or insert_at == 0 else "\n"
     updated = text[:start + insert_at] + prefix + block + "\n" + text[start + insert_at:]
+    updated = sync_category_count(updated, heading)
     ECOSYSTEM.write_text(updated)
     return True
 
@@ -176,7 +229,8 @@ def published_block(row):
         f"⭐ **{stars:,}** · `{lang}` · [{slug}]({row['url']})\n\n"
         f"{desc}\n\n"
         f"**Key capabilities:** {caps}\n"
-        f"**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)\n\n---\n\n"
+        + (f"**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)\n" if "mcp" in (row.get("category") or "").lower() else "")
+        + f"\n---\n\n"
     )
 
 
@@ -204,6 +258,8 @@ def bump_published_counts(text):
     text = re.sub(r"\*\*Last updated:\*\* [A-Z][a-z]+ \d{1,2}, \d{4}",
                   "**Last updated:** " + datetime.now(timezone.utc).strftime("%B %-d, %Y"),
                   text, count=1)
+    # Mirror shape: "*429+ repositories in the Hermes ecosystem. Last updated: 2026-10-23.*"
+    text = re.sub(r"(Last updated: )\d{4}-\d{2}-\d{2}", r"\g<1>" + today, text, count=1)
     return text
 
 
@@ -250,8 +306,32 @@ def insert_into_published_index(row):
     updated_section = section[:insert_at] + block + section[insert_at:]
     updated = text[:start] + updated_section + text[section_end:]
     updated = bump_published_counts(updated)
+    updated = sync_category_count(updated, heading)
     PUBLISHED_INDEX.write_text(updated)
+    align_mirror_counts(updated)
     return True
+
+
+def align_mirror_counts(published_text):
+    """Make the mirror's numeric stamps agree with the published page.
+
+    ``bump_published_counts`` increments only the FIRST match of each stamp
+    pattern, so a page carrying several stamps ended up advertising two
+    different totals (430+ at the top, 431+ lower down). The published index is
+    the source of truth; project its number onto every mirror stamp.
+    """
+    m = re.search(r"\*\*Repos indexed:\*\* (\d+)\+", published_text)
+    if not m or not ECOSYSTEM.exists():
+        return
+    count = m.group(1)
+    mirror = ECOSYSTEM.read_text()
+    aligned = re.sub(r"(\d+)\+ (repositories|repos)", r"{}+ \g<2>".format(count), mirror)
+    approved_path = DATA_DIR / "approved_repos.json"
+    if approved_path.exists():
+        n_approved = len(load(approved_path))
+        aligned = re.sub(r"(\d+) auto-approved", r"{} auto-approved".format(n_approved), aligned)
+    if aligned != mirror:
+        ECOSYSTEM.write_text(aligned)
 
 
 def credit_contributor(username):
