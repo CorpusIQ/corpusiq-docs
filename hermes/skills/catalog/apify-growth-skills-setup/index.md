@@ -41,7 +41,7 @@ npx skills add apify/agent-skills
 |---|---|
 | **Apify account** | [console.apify.com](https://console.apify.com) - free tier ($5/mo credit) |
 | **Apify API token** | Apify Console → Settings → Integrations → API token |
-| **Apify MCP server** | `npx @apify/mcp` for MCP-native tool access (recommended) |
+| **Apify MCP server** | `npx @apify/actors-mcp-server` for MCP-native tool access (recommended) |
 
 ```bash
 export APIFY_TOKEN="apify_api_..."
@@ -187,7 +187,7 @@ The three skills form a complete growth pipeline when used together:
 | **Scraper blocked by target site** | Enable proxy rotation: `--proxy residential` (included in Apify platform) |
 | **Lead gen returns empty** | Broaden search terms or try different directory (Google Maps → Yelp) |
 | **Rate limited (429)** | Apify handles rate limiting automatically via the platform |
-| **MCP connection refused** | Start MCP server: `npx @apify/mcp` then configure in Hermes |
+| **MCP connection refused** | Start MCP server: `npx @apify/actors-mcp-server` then configure in Hermes |
 
 ---
 

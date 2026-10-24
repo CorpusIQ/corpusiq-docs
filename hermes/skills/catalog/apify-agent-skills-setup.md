@@ -33,7 +33,7 @@ npx skills add apify/agent-skills
 |---|---|
 | **Apify account** | [console.apify.com](https://console.apify.com) - free tier available ($5/month credit) |
 | **Apify API token** | From Apify Console → Settings → Integrations → API token |
-| **MCP server (optional)** | `npx @apify/mcp` for MCP-native tool access |
+| **MCP server (optional)** | `npx @apify/actors-mcp-server` for MCP-native tool access |
 | **Hermes Agent** | Any version - skills load as instructions; MCP integration available |
 
 Set environment variables:
@@ -88,7 +88,7 @@ Search: Google Search, Bing, DuckDuckGo
 | **APIFY_TOKEN not recognized** | Export as env var or add to `~/.hermes/config.yaml` under `env:` |
 | **Actor timeout** | Increase timeout: `maxResults` and `maxConcurrency` in Actor input |
 | **Rate limited by target site** | Use Apify's built-in proxy rotation (residential + datacenter proxies) |
-| **MCP connection refused** | Start MCP server: `npx @apify/mcp` then configure in Hermes MCP settings |
+| **MCP connection refused** | Start MCP server: `npx @apify/actors-mcp-server` then configure in Hermes MCP settings |
 
 ## Verification
 
