@@ -524,9 +524,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 **Next steps:** [Achieve continuous audit readiness →](https://corpusiq.io/register)
 
-*AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -668,9 +666,7 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 **Next steps:** [Start your AI-powered BI journey →](https://corpusiq.io/register) or [view all integrations](connectors.md)
 
-*AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -783,9 +779,7 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 **Next steps:** [Transform your compliance operations →](https://corpusiq.io/register)
 
-*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -905,9 +899,7 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 **Next steps:** [Transform your support operations →](https://corpusiq.io/register)
 
-*AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -1032,8 +1024,6 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 **Next steps:** [Start AI-powered data analysis →](https://corpusiq.io/register)
 
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -1156,9 +1146,7 @@ A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not ret
 
 **Next steps:** [Start AI-powered document search →](https://corpusiq.io/register)
 
-*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -1282,9 +1270,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 **Next steps:** [Start your AI executive reporting →](https://corpusiq.io/register)
 
-*AI-powered AI for Executive Reporting | CorpusIQ MCP Platform for Le...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Executive Reporting | CorpusIQ MCP Platform for Le...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -1407,9 +1393,7 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 
 **Next steps:** [Connect your financial tools →](https://corpusiq.io/connect)
 
-*AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -1522,9 +1506,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 **Next steps:** [Start AI-powered forecasting →](https://corpusiq.io/register)
 
-*AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -1644,8 +1626,6 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 ---
 
 **Next steps:** [Unlock your organizational knowledge →](https://corpusiq.io/register)
-
-*AI-powered AI for Knowledge Management | CorpusIQ MCP Platform for KM  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 *AI-powered AI for Knowledge Management | CorpusIQ MCP Platform for KM  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
@@ -1772,9 +1752,7 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 **Next steps:** [Start AI-powered KPI monitoring →](https://corpusiq.io/register)
 
-*AI-powered AI for KPI Monitoring | CorpusIQ MCP Platform for Metric ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for KPI Monitoring | CorpusIQ MCP Platform for Metric ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -1892,9 +1870,7 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 **Next steps:** [Transform your marketing analytics →](https://corpusiq.io/register)
 
-*AI-powered AI for Marketing Analytics | CorpusIQ MCP Platform for Ma...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Marketing Analytics | CorpusIQ MCP Platform for Ma...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -2011,9 +1987,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 **Next steps:** [Start your AI PM transformation →](https://corpusiq.io/register)
 
-*AI-powered AI for Project Management | CorpusIQ MCP Platform for PM ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Project Management | CorpusIQ MCP Platform for PM ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -2136,8 +2110,6 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 **Next steps:** [Start your AI RevOps transformation →](https://corpusiq.io/register)
 
 *AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -2257,9 +2229,7 @@ A: The CRM retrieval tools documented here do not create opportunities or update
 
 **Next steps:** [Connect your CRM now →](https://corpusiq.io/connect)
 
-*AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
-*AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -5470,9 +5440,7 @@ ChatGPT for HubSpot through CorpusIQ transforms how your team interacts with CRM
 
 **[Connect HubSpot to ChatGPT](/quickstart) and ask your first CRM question in under 5 minutes.**
 
-*Connect ChatGPT for HubSpot  --  AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect ChatGPT for HubSpot  --  AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -5597,9 +5565,7 @@ CorpusIQ is the only MCP platform purpose-built for business data integration. U
 
 **Ready to transform your accounting workflow?** [Connect QuickBooks to ChatGPT today](/quickstart) and ask your first financial question in under five minutes.
 
-*Connect ChatGPT for QuickBooks  --  AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect ChatGPT for QuickBooks  --  AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -5723,9 +5689,7 @@ ChatGPT for Shopify through CorpusIQ transforms how you interact with your ecomm
 
 **[Connect your Shopify store to ChatGPT](/quickstart) and ask your first question in under 5 minutes.**
 
-*Connect ChatGPT for Shopify  --  AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect ChatGPT for Shopify  --  AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -5933,9 +5897,7 @@ Claude for HubSpot through CorpusIQ brings enterprise-grade sales analytics to o
 
 **[Connect Claude to HubSpot](/quickstart) and run your first deep sales analysis today.**
 
-*Connect Claude for HubSpot  --  Advanced CRM Intelligence & Sales An... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Claude for HubSpot  --  Advanced CRM Intelligence & Sales An... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -6060,9 +6022,7 @@ CorpusIQ is the only MCP platform that provides production-ready QuickBooks tool
 
 **Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/quickstart) and run your first comprehensive financial review today.
 
-*Connect Claude for QuickBooks  --  Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Claude for QuickBooks  --  Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -6186,9 +6146,7 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 
 **[Connect Claude to your Shopify store](/quickstart) and run your first deep analysis today.**
 
-*Connect Claude for Shopify  --  Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Claude for Shopify  --  Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -7094,9 +7052,7 @@ Yes. The API returns data based on the property's configured reporting identity 
 
 **Next steps:** [Connect Google Analytics to Claude now →](https://corpusiq.io/connect/ga4)
 
-*Connect Connect Google Analytics to Claude via MCP  --  Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Google Analytics to Claude via MCP  --  Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -7841,9 +7797,7 @@ OAuth scopes control access at the object level. For property-level restrictions
 
 **Next steps:** [Connect HubSpot to Claude now →](https://corpusiq.io/connect/hubspot)
 
-*Connect Connect HubSpot to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect HubSpot to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -8748,9 +8702,7 @@ Yes. Configure your NetSuite role's subsidiary restrictions  --  CorpusIQ honors
 
 **Next steps:** [Connect NetSuite to Claude now →](https://corpusiq.io/connect/netsuite)
 
-*Connect Connect NetSuite to Claude via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect NetSuite to Claude via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -9008,9 +8960,7 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 
 **Next steps:** [Connect Notion to Claude now →](https://corpusiq.io/connect/notion)
 
-*Connect Connect Notion to Claude | CorpusIQ MCP Integration for K... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Notion to Claude | CorpusIQ MCP Integration for K... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -9668,9 +9618,7 @@ Yes. CorpusIQ supports multiple QuickBooks company connections, each with indepe
 
 **Next steps:** [Connect QuickBooks to Claude now →](https://corpusiq.io/connect/quickbooks) or [view all integrations](connectors.md).
 
-*Connect Connect QuickBooks to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect QuickBooks to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -9942,9 +9890,7 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 
 **Next steps:** [Connect Salesforce to Claude now →](https://corpusiq.io/connect/salesforce)
 
-*Connect Connect Salesforce to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Salesforce to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -10221,9 +10167,7 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 **Next steps:** [Connect SharePoint to Claude now →](https://corpusiq.io/connect/sharepoint)
 
-*Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -10538,9 +10482,7 @@ You can connect multiple stores through CorpusIQ and specify which store Claude 
 
 **Next steps:** [Connect Shopify to Claude now →](https://corpusiq.io/connect/shopify) or [learn more about CorpusIQ's MCP platform](what-is-an-mcp-server.md).
 
-*Connect Connect Shopify to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Shopify to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -10795,9 +10737,7 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 **Next steps:** [Connect Slack to Claude now →](https://corpusiq.io/connect/slack)
 
-*Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
-*Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -11380,9 +11320,7 @@ URL: https://www.corpusiq.io/docs/corpusiq-vs-airbyte
 
 [30-day free trial  --  no credit card →](https://www.corpusiq.io)
 
-*Compare CorpusIQ vs Airbyte  --  MCP-Native vs Traditional Data Pipe... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare CorpusIQ vs Airbyte  --  MCP-Native vs Traditional Data Pipe... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -11852,9 +11790,7 @@ URL: https://www.corpusiq.io/docs/corpusiq-vs-langchain
 
 [30-day free trial  --  no credit card →](https://www.corpusiq.io)
 
-*Compare CorpusIQ vs Langchain  --  MCP-Native vs Traditional Data Pi... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare CorpusIQ vs Langchain  --  MCP-Native vs Traditional Data Pi... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -11876,9 +11812,7 @@ URL: https://www.corpusiq.io/docs/corpusiq-vs-supermetrics
 
 [30-day free trial  --  no credit card →](https://www.corpusiq.io)
 
-*Compare CorpusIQ vs Supermetrics  --  MCP-Native vs Traditional Data... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare CorpusIQ vs Supermetrics  --  MCP-Native vs Traditional Data... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -12230,9 +12164,7 @@ CorpusIQ owns the entire pipeline:
 
 [Try CorpusIQ free →](https://www.corpusiq.io)
 
-*Compare CorpusIQ vs Viktor AI  --  Validated Intelligence vs Outsour... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare CorpusIQ vs Viktor AI  --  Validated Intelligence vs Outsour... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -13659,8 +13591,6 @@ CorpusIQ bills based on tool calls. A simple analysis might use 1-3 tool calls; 
 AI-powered QuickBooks analysis turns hours of manual spreadsheet work into seconds of conversation. Whether you need a quick cash flow check, a deep margin analysis, or a comprehensive financial review, CorpusIQ's MCP platform connects your AI assistant directly to your live financial data.
 
 **[Connect QuickBooks and start your first analysis](/quickstart)  --  setup takes under 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
@@ -15462,8 +15392,6 @@ CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical ta
 **[Start generating AI-powered HubSpot reports](/quickstart)  --  connect your CRM in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -15789,8 +15717,6 @@ Ready to put AI to work on your hubspot dashboard with chatgpt data?
 A ChatGPT-powered HubSpot dashboard is the fastest, most flexible way to monitor your sales organization. No dashboard configuration. No report building. No data exports. Just real-time sales intelligence, on demand.
 
 **[Set up your sales dashboard now](/quickstart)  --  connect HubSpot in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -18939,9 +18865,7 @@ Yes. MCP is an open protocol with SDKs available. You can build custom MCP serve
 - [Read our complete MCP security best practices guide](mcp-security-best-practices.md)
 - [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
 
-*Compare MCP vs API Integrations: AI-Native Tool Discovery vs Cust... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare MCP vs API Integrations: AI-Native Tool Discovery vs Cust... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -19074,9 +18998,7 @@ MCP queries return data in the source system's native format, and the AI model i
 - [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
 - [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
 
-*Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -19187,9 +19109,7 @@ MCP's API-first approach provides better security characteristics than RPA. MCP 
 - [Explore MCP for business operations automation](mcp-for-operations.md)
 - [Learn about MCP for enterprise-scale deployments](mcp-for-enterprise.md)
 
-*Compare MCP vs RPA: Intelligent API Data Access vs Scripted UI Au... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare MCP vs RPA: Intelligent API Data Access vs Scripted UI Au... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -19327,9 +19247,7 @@ CorpusIQ maintains the MCP connectors, so API changes are handled on the platfor
 - [Discover the business benefits of MCP servers](benefits-of-mcp-for-business.md)
 - [Explore MCP for business operations automation](mcp-for-operations.md)
 
-*Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
-
-*Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io)  --  30-day free trial, no credit card.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -19890,8 +19808,6 @@ CorpusIQ's AI Reporting for QuickBooks turns hours of manual report generation i
 **[Start generating AI-powered financial reports](/quickstart)  --  connect QuickBooks in under 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -20227,8 +20143,6 @@ A ChatGPT-powered QuickBooks dashboard is the fastest path to financial visibili
 **[Set up your financial dashboard now](/quickstart)  --  connect QuickBooks in 60 seconds and ask for your first dashboard.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -20380,8 +20294,6 @@ Ready to put AI to work on your quickbooks natural language queries data?
 Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data  --  not just the people who know how to run reports  --  financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
 
 **[Start asking your QuickBooks data questions in plain English](/quickstart). Connect in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -20968,8 +20880,6 @@ CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don
 **[Start analyzing your Shopify data with AI](/quickstart)  --  connect your store in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -21289,8 +21199,6 @@ Ready to put AI to work on your shopify dashboard with chatgpt data?
 A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor your ecommerce performance. No BI tools to build. No data pipelines to maintain. No reports to export. Just real-time intelligence, on demand.
 
 **[Set up your Shopify dashboard now](/quickstart)  --  connect your store in 60 seconds.**
-
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
