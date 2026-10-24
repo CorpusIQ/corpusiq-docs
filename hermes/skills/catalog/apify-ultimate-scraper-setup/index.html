@@ -107,8 +107,8 @@
     "description": "AI-powered web scraper covering Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Reddit, Airbnb, Yelp, and more. 13.6K+ installs.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-ultimate-scraper-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11198,45 +11198,46 @@ apify<span class="w"> </span>login
 <li>Pass <code>--user-agent apify-agent-skills/apify-ultimate-scraper</code> for telemetry</li>
 <li>Redirect stderr: <code>2&gt;/dev/null</code> (stderr has progress messages that break JSON)</li>
 </ol>
-<div class="highlight"><pre><span></span><code><span class="c1"># Instagram profile scraping</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Instagram profile details</span>
 apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;usernames&quot;:[&quot;target_account&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;resultsType&quot;:&quot;details&quot;,&quot;directUrls&quot;:[&quot;https://www.instagram.com/target_account/&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># Google Maps lead generation</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/google-maps-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;searchStrings&quot;:[&quot;restaurants near me&quot;],&quot;maxCrawledPlaces&quot;:50}&#39;</span><span class="w"> </span><span class="se">\</span>
+apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>compass/crawler-google-places<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;searchStringsArray&quot;:[&quot;restaurants near me&quot;],&quot;maxCrawledPlacesPerSearch&quot;:50}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># LinkedIn company data</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/linkedin-company-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;companyUrls&quot;:[&quot;https://linkedin.com/company/target&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
+apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>harvestapi/linkedin-company<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;companies&quot;:[&quot;https://www.linkedin.com/company/target&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
-<span class="c1"># Reddit subreddit scraping</span>
+<span class="c1"># Reddit community posts</span>
 apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;subreddits&quot;:[&quot;SaaS&quot;,&quot;ecommerce&quot;],&quot;maxItems&quot;:100}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;communityNames&quot;:[&quot;SaaS&quot;,&quot;ecommerce&quot;],&quot;maxPostsPerCommunity&quot;:100}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 </code></pre></div>
+<p>Every Actor name and input key above was verified against the live Apify API on 2026-10-24. Actors are namespaced by their <strong>owner</strong>, which is not always <code>apify/</code> (the Google Maps scraper is <code>compass/crawler-google-places</code>). Search the <a href="https://apify.com/store">Apify Store</a> for the canonical owner before running a new Actor, and check its input schema - field names differ per Actor.</p>
 <hr />
 <h2 id="hermes-integration">Hermes Integration<a class="headerlink" href="#hermes-integration" title="Anchor link to this section">&para;</a></h2>
 <p>For CorpusIQ growth operations:</p>
 <h3 id="lead-generation-pipeline">Lead Generation Pipeline<a class="headerlink" href="#lead-generation-pipeline" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Scrape Shopify app store for merchant leads</span>
-apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/shopify-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;searchUrl&quot;:&quot;https://apps.shopify.com/browse/analytics&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
+apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>fatihtahta/shopify-app-store-scraper<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;queries&quot;:[&quot;analytics&quot;],&quot;category&quot;:&quot;store-management&quot;,&quot;limit&quot;:100}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;.[] | {name, url, rating}&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>leads-shopify.json
 </code></pre></div>
 <h3 id="competitor-intelligence">Competitor Intelligence<a class="headerlink" href="#competitor-intelligence" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Monitor competitor social presence</span>
 apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;usernames&quot;:[&quot;competitor1&quot;,&quot;competitor2&quot;],&quot;resultsType&quot;:&quot;details&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;resultsType&quot;:&quot;details&quot;,&quot;directUrls&quot;:[&quot;https://www.instagram.com/competitor1/&quot;,&quot;https://www.instagram.com/competitor2/&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 </code></pre></div>
 <h3 id="content-research">Content Research<a class="headerlink" href="#content-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Find trending AI content on Reddit</span>
 apify<span class="w"> </span>actor<span class="w"> </span>run<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;subreddits&quot;:[&quot;artificial&quot;,&quot;MachineLearning&quot;,&quot;SaaS&quot;],&quot;maxItems&quot;:200,&quot;sort&quot;:&quot;hot&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;communityNames&quot;:[&quot;artificial&quot;,&quot;MachineLearning&quot;,&quot;SaaS&quot;],&quot;maxPostsPerCommunity&quot;:200,&quot;communitySort&quot;:&quot;hot&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span>&gt;<span class="w"> </span>trending-content.json
 </code></pre></div>
 <hr />
