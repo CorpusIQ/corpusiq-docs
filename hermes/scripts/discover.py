@@ -22,7 +22,11 @@ from pathlib import Path
 
 # ── Config ──────────────────────────────────────────────────
 AZ_TZ = timezone(timedelta(hours=-7))  # Arizona = UTC-7 (no DST)
-REPO_ROOT = Path("/tmp/corpusiq-docs/hermes")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+# Fall back to the legacy fixed clone only if this copy has no data root
+# (keeps every existing runner working unchanged).
+if not (REPO_ROOT / "ecosystem.md").exists():
+    REPO_ROOT = Path("/tmp/corpusiq-docs/hermes")
 DATA_DIR = REPO_ROOT / "data"
 TOKEN_PATH = Path(os.path.expanduser("~/.hermes/profiles/corpusiq/secrets/github.token"))
 ECOSYSTEM_MD = REPO_ROOT / "ecosystem.md"
