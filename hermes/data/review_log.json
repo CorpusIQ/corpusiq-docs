@@ -19425,5 +19425,75 @@
     "reason": "nightly review: in-gateway read-only Telegram status dashboard plugin for Hermes (freshness, account limits, config drift, backup state); observability surface for self-hosted operators",
     "issue": null,
     "timestamp": "2026-10-24T10:05:08.105746+00:00"
+  },
+  {
+    "repo": "Sw0rdddd/tmp-NousResearch_hermes-agent__390-1792900871-def88b8d",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317527+00:00"
+  },
+  {
+    "repo": "GuGuDaDaDa/travel-plan-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317538+00:00"
+  },
+  {
+    "repo": "joescars/onedrive-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317541+00:00"
+  },
+  {
+    "repo": "eisene/hermes-gmail-guard",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317543+00:00"
+  },
+  {
+    "repo": "krintcal/dsh-memory-notes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317545+00:00"
+  },
+  {
+    "repo": "yugasurfer/loaded-skills-indicator",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317547+00:00"
+  },
+  {
+    "repo": "lee101/hermes-simplexgen",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317549+00:00"
+  },
+  {
+    "repo": "EXboys/agent-doctor",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317551+00:00"
+  },
+  {
+    "repo": "Sw0rdddd/tmp-NousResearch_hermes-agent__390-1792900981-313f6804",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317553+00:00"
+  },
+  {
+    "repo": "lainiceanuraduc/PraeCode",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-25T04:04:02.317555+00:00"
   }
 ]
