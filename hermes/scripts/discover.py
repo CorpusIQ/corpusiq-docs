@@ -11,6 +11,7 @@ Usage:
 """
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -59,10 +60,42 @@ SEARCH_QUERIES = [
 ]
 
 # ── Scoring Criteria ────────────────────────────────────────
+_SCRATCH_CLONE_RE = re.compile(r"^tmp-.+__\d+-\d{10,}-[0-9a-f]{8}$")
+
+
+def is_scratch_artifact(repo):
+    """True for machine-generated scratch clones that are not real projects.
+
+    GitHub tooling (and agents building throwaway checkouts) create repos named
+    like ``tmp-NousResearch_hermes-agent__390-1792900871-def88b8d``: an ephemeral
+    clone path with a unix timestamp and a hash suffix, no description, no stars,
+    no forks. They match the "hermes-agent" keyword and therefore score into the
+    review queue where they can never be catalogued. Reject at the source so the
+    review queue only carries things a human can act on (2 such rows reached
+    pending_review on 2026-10-24).
+    """
+    name = repo.get("name") or ""
+    full_name = repo.get("full_name") or ""
+    short = full_name.split("/")[-1] if full_name else name
+    if _SCRATCH_CLONE_RE.match(short):
+        return True
+    lowered = short.lower()
+    looks_scratch = lowered.startswith(("tmp-", "tmp_", "test-", "test_"))
+    no_content = (
+        not (repo.get("description") or "").strip()
+        and not repo.get("stargazers_count")
+        and not repo.get("forks_count")
+    )
+    return looks_scratch and no_content
+
+
 def score_repo(repo):
     """Score a repo 0-100 based on relevance, quality, activity, docs, adoption, uniqueness."""
     score = 0
     reasons = []
+
+    if is_scratch_artifact(repo):
+        return 0, ["scratch_artifact"]
 
     # 1. Relevance (0-30): Name/description/topics match
     desc = repo.get("description") or ""
@@ -185,10 +218,34 @@ def load_db(path):
 
 
 def save_db(path, data):
-    """Save data to a JSON database file."""
+    """Save a JSON database file."""
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w") as f:
         json.dump(data, f, indent=2, default=str)
+
+
+def merge_save_db(path, data, key=lambda e: json.dumps(e, sort_keys=True, default=str)):
+    """Union-save a database so a concurrent writer's rows are never dropped.
+
+    The discovery lane runs at 21, 22, 03, 04 and 04:30, so two runs can overlap,
+    and a second clone (or an operator re-run) can commit while a run is still
+    searching. A plain save then writes a stale base + this run's finds and
+    silently deletes whatever the other writer committed in the meantime (observed
+    2026-10-24 22:05: five queued repos and their log rows lost). Merge with what
+    is on disk at save time: our rows win on conflict, anything unknown is kept.
+    """
+    if path.exists():
+        try:
+            existing = load_db(path)
+        except Exception:
+            existing = []
+        if isinstance(existing, list):
+            have = {key(e) for e in data}
+            extra = [e for e in existing if key(e) not in have]
+            if extra:
+                data = list(data) + extra
+    save_db(path, data)
+    return len(data)
 
 
 def sync_contributors(submissions, approved_count):
@@ -331,6 +388,17 @@ def discover_repos(token, dry_run=False):
                 continue
 
             score, reasons = score_repo(repo)
+            if "scratch_artifact" in reasons:
+                # Machine-generated scratch clone: never enters the review queue.
+                review_log.append({
+                    "repo": full_name,
+                    "score": 0,
+                    "tier": "REJECTED",
+                    "action": "skipped_scratch",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                })
+                print(f"  🗑️  scratch: {full_name} (not a project)")
+                continue
             tier, color = score_to_tier(score)
             near = find_near_duplicates(repo, approved)
 
@@ -400,16 +468,16 @@ def discover_repos(token, dry_run=False):
         })
 
     # Save
-    save_db(APPROVED_DB, approved)
-    save_db(PENDING_DB, pending)
-    save_db(REVIEW_LOG, review_log)
+    merged_approved = merge_save_db(APPROVED_DB, approved, key=lambda e: e.get("url") or e.get("name"))
+    merged_pending = merge_save_db(PENDING_DB, pending, key=lambda e: e.get("url") or e.get("name"))
+    merged_log = merge_save_db(REVIEW_LOG, review_log)
 
-    print(f"\n💾 Saved: {len(approved)} approved, {len(pending)} pending, {len(review_log)} log entries")
+    print(f"\n💾 Saved: {merged_approved} approved, {merged_pending} pending, {merged_log} log entries")
 
     # Keep the submission tally in lockstep on BOTH contributors surfaces.
-    synced = sync_contributors(len(pending), len(approved))
+    synced = sync_contributors(merged_pending, merged_approved)
     if synced:
-        print(f"👥 contributors synced ({len(pending)} submissions, {len(approved)} approved): {', '.join(synced)}")
+        print(f"👥 contributors synced ({merged_pending} submissions, {merged_approved} approved): {', '.join(synced)}")
 
     # Auto-update ecosystem.md with new approved repos
     if auto_approved:
