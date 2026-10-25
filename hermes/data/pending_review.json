@@ -81403,5 +81403,347 @@
     ],
     "discovered_at": "2026-10-25T05:03:18.602955+00:00",
     "status": "pending"
+  },
+  {
+    "name": "pauravhp/finney",
+    "url": "https://github.com/pauravhp/finney",
+    "description": "An open-source finance agent for hackathon directors, built with isolated Hermes, Jev, Supabase and a shared web workspace.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T09:59:43Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "unmodeled-tyler/vessel-browser",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "Orkas-AI/Orkas"
+    ],
+    "discovered_at": "2026-10-25T10:01:11.718901+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "turbolego/wcag-skill",
+    "url": "https://github.com/turbolego/wcag-skill",
+    "description": "Skill for AI Agents like Hermes, Openclaw etc. for detecting and fixing wcag violations (universal design)",
+    "stars": 3,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "accessibility",
+      "skill",
+      "skills",
+      "wcag"
+    ],
+    "updated_at": "2026-10-25T09:58:30Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Infisical/agent-vault",
+      "Orkas-AI/Orkas"
+    ],
+    "discovered_at": "2026-10-25T10:01:11.721980+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "trojan-lord/hermes-cuso",
+    "url": "https://github.com/trojan-lord/hermes-cuso",
+    "description": "Hermes Agent config backup: SOUL.md, skills, scripts, cron, memories",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-10-25T09:56:26Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T10:01:11.725405+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "devicodeclaude-web/Rag-hermes-agent-",
+    "url": "https://github.com/devicodeclaude-web/Rag-hermes-agent-",
+    "description": "Lmm ",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T09:55:56Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T10:01:11.728654+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "juev/memcue",
+    "url": "https://github.com/juev/memcue",
+    "description": "Long-term memory for Claude Code and Hermes Agent: atomic facts in SQLite, recalled by words before each prompt, extracted from sessions",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-10-25T09:53:22Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "itechmeat/open-second-brain",
+      "NousResearch/hermes-official-plugins"
+    ],
+    "discovered_at": "2026-10-25T10:01:11.732176+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Spaceburial/plastic-memory",
+    "url": "https://github.com/Spaceburial/plastic-memory",
+    "description": "\u53ef\u5851\u6027\u8bb0\u5fc6 \u2014 \u8ba9 AI \u5b66\u4f1a\u505a\u68a6\u3002\u4f1a\u9057\u5fd8\u3001\u4f1a\u505a\u68a6\u3001\u4f1a\u6539\u4e3b\u610f\u7684\u4e09\u5c42\u8bb0\u5fc6\uff08Hermes \u63d2\u4ef6 / MCP / CLI\uff0c\u7eaf\u6807\u51c6\u5e93\u96f6\u4f9d\u8d56\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "forgetting-curve",
+      "hermes-plugin",
+      "llm",
+      "mcp",
+      "memory",
+      "python"
+    ],
+    "updated_at": "2026-10-25T09:53:10Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T10:01:19.426064+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MiLab-Bit/mcp-shared",
+    "url": "https://github.com/MiLab-Bit/mcp-shared",
+    "description": "MiLab MCP \u5171\u4eab\u6838\u5fc3\u79c1\u6709\u5907\u4efd\uff08\u6e90\uff1aECS /opt/hermes-mcp/workspace\uff1bdb/supabase_client/quant_core + \u5065\u5eb7\u811a\u672c\uff1bSupabase \u65b0\u51ed\u8bc1\u5f85\u63a5\u5165\uff1b\u53ea\u505a\u5feb\u7167\u5907\u4efd\uff0c\u4e0d\u5728\u670d\u52a1\u5668\u4e0a\u5f00\u53d1\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T09:14:08Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T10:01:19.429596+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "keenableai/keenable-hermes-plugin",
+    "url": "https://github.com/keenableai/keenable-hermes-plugin",
+    "description": "Keenable web search and page fetch for Hermes Agent: hosted MCP tools plus research skills, works without an API key",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T06:55:49Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "KSroido/Kagi-Session2API-MCP",
+      "unmodeled-tyler/vessel-browser",
+      "homarr-labs/dashboard-icons"
+    ],
+    "discovered_at": "2026-10-25T10:01:19.435065+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tszlznl/agent-vault-cn",
+    "url": "https://github.com/tszlznl/agent-vault-cn",
+    "description": "A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-10-25T10:00:53Z",
+    "category": "forks",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "iOfficeAI/AionUi",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "jazzyalex/agent-sessions",
+      "Infisical/agent-vault",
+      "conorbronsdon/avoid-ai-writing",
+      "VasiHemanth/tokentelemetry",
+      "vivekchand/clawmetry",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons"
+    ],
+    "discovered_at": "2026-10-25T10:01:34.788822+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Amsal1/autonomous-oss-contributor",
+    "url": "https://github.com/Amsal1/autonomous-oss-contributor",
+    "description": "Self-hosted AI agent that finds, implements and validates open-source contributions from your own GitHub account. Every public action needs your two-tap approval on Telegram. Deterministic gatekeeper, sandboxed LLM runs, dry-run by default.",
+    "stars": 0,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "agent-client-protocol",
+      "ai-agent",
+      "autonomous-agents",
+      "coding-agent",
+      "devtools",
+      "docker",
+      "github-automation",
+      "hermes-agent",
+      "human-in-the-loop",
+      "kiro",
+      "llm",
+      "open-source",
+      "python",
+      "sandbox",
+      "security",
+      "self-hosted",
+      "telegram-bot",
+      "wsl2"
+    ],
+    "updated_at": "2026-10-25T09:59:51Z",
+    "category": "forks",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "niche_specialized"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-10-25T10:01:34.792198+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mutvayzz-sys/Gcaplabs-LPanel",
+    "url": "https://github.com/mutvayzz-sys/Gcaplabs-LPanel",
+    "description": "Open-source, self-hosted control plane for OpenClaw and Hermes AI-agent fleets on Docker/Kubernetes \u2014 REST, CLI, and MCP.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-25T09:58:40Z",
+    "category": "forks",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "rexleimo/aios"
+    ],
+    "discovered_at": "2026-10-25T10:01:34.796644+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "EdgarZhong/hermes-secretary",
+    "url": "https://github.com/EdgarZhong/hermes-secretary",
+    "description": "\u57fa\u4e8e Hermes Agent \u7684\u957f\u671f\u5bf9\u8bdd\u79d8\u4e66\u6269\u5c55\uff1a\u7a33\u5b9a\u5bf9\u8bdd\u8eab\u4efd\u3001\u8de8\u538b\u7f29\u5386\u53f2\u68c0\u7d22\u3001\u540e\u53f0 Noting\u3001\u7ed3\u6784\u5316 Notebook \u4e0e\u5bf9\u8bdd\u5185\u63d0\u9192\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T09:58:22Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T10:01:34.799750+00:00",
+    "status": "pending"
   }
 ]
