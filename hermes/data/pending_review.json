@@ -80965,5 +80965,240 @@
     ],
     "discovered_at": "2026-10-24T10:01:34.513447+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Sw0rdddd/tmp-NousResearch_hermes-agent__390-1792900871-def88b8d",
+    "url": "https://github.com/Sw0rdddd/tmp-NousResearch_hermes-agent__390-1792900871-def88b8d",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T04:01:30Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:01:36.377428+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "GuGuDaDaDa/travel-plan-skill",
+    "url": "https://github.com/GuGuDaDaDa/travel-plan-skill",
+    "description": "Hermes Agent \u7684\u65c5\u884c\u89c4\u5212\u6280\u80fd\uff1a\u628a\u4e00\u6bb5\u81ea\u7136\u8bed\u8a00\u7684\u65c5\u884c\u610f\u613f\uff0c\u53d8\u6210\u53ef\u6267\u884c\u3001\u53ef\u8c03\u6574\u7684\u884c\u7a0b\u65b9\u6848",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T03:58:23Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:01:36.383318+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "joescars/onedrive-mcp",
+    "url": "https://github.com/joescars/onedrive-mcp",
+    "description": "Read-only MCP server for personal OneDrive via Microsoft Graph \u2014 search metadata and download files from Hermes, Open WebUI, or any MCP-compatible agent.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "mcp",
+      "microsoft-graph",
+      "model-context-protocol",
+      "onedrive",
+      "read-only"
+    ],
+    "updated_at": "2026-10-25T03:51:02Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "KSroido/Kagi-Session2API-MCP",
+      "unmodeled-tyler/vessel-browser",
+      "CodeAbra/iai-personal-memory-engine"
+    ],
+    "discovered_at": "2026-10-25T04:01:44.049347+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "eisene/hermes-gmail-guard",
+    "url": "https://github.com/eisene/hermes-gmail-guard",
+    "description": "Hermes plugin: per-inbox human approval for Gmail reads via gmail-multi-mcp",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T02:48:37Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:01:44.051788+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "krintcal/dsh-memory-notes",
+    "url": "https://github.com/krintcal/dsh-memory-notes",
+    "description": "Hermes-style long-term memory (MEMORY.md/USER.md + memory tool + 10-turn review fork + skill_manage + curator) as a DeepSeek Harness cordis plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-25T03:08:18Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:01:51.773648+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yugasurfer/loaded-skills-indicator",
+    "url": "https://github.com/yugasurfer/loaded-skills-indicator",
+    "description": "Hermes Desktop plugin: which skills are loaded into the active conversation, plus the full library with click-to-load.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-25T02:33:55Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:01:51.776609+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lee101/hermes-simplexgen",
+    "url": "https://github.com/lee101/hermes-simplexgen",
+    "description": "SimplexGen plugin for Hermes Agent: hosted MCP server and 3D generation/mesh skills",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-24T22:19:25Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:01:51.779965+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "EXboys/agent-doctor",
+    "url": "https://github.com/EXboys/agent-doctor",
+    "description": "Diagnose, back up, and repair local AI agent runtimes",
+    "stars": 4,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "developer-tools",
+      "evotown",
+      "hermes-agent",
+      "llm",
+      "mcp",
+      "openclaw"
+    ],
+    "updated_at": "2026-10-25T03:59:18Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:01:59.462792+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Sw0rdddd/tmp-NousResearch_hermes-agent__390-1792900981-313f6804",
+    "url": "https://github.com/Sw0rdddd/tmp-NousResearch_hermes-agent__390-1792900981-313f6804",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T04:03:20Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T04:03:31.997457+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lainiceanuraduc/PraeCode",
+    "url": "https://github.com/lainiceanuraduc/PraeCode",
+    "description": "A VSCode extension based on Hermes Agent, by Nous Research - https://github.com/NousResearch/hermes-agent   Made because Hermes Agent deserves a decent VSCode extension..",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-24T19:07:51Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "awesome-hermes-agent",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-10-25T04:03:32.001822+00:00",
+    "status": "pending"
   }
 ]
