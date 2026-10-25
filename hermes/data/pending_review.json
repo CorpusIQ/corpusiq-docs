@@ -81356,5 +81356,52 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-25T05:01:23.200736+00:00",
     "status": "pending"
+  },
+  {
+    "name": "bdaikis/student-twin",
+    "url": "https://github.com/bdaikis/student-twin",
+    "description": "Personal assistant for university students: deadlines, course plans, group projects, voice and Telegram. Built on Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T05:02:12Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-25T05:02:55.609606+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nicoechaniz/daimon-cluster",
+    "url": "https://github.com/nicoechaniz/daimon-cluster",
+    "description": "A constellation of tribe agent embodiments on a single VPS \u2014 always-on Hermes agents in the cloud",
+    "stars": 0,
+    "forks": 2,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-25T05:02:55Z",
+    "category": "forks",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "aiunlocked1412/hermes-agent-pixel",
+      "pyrate-llama/hermes-ui",
+      "stablyai/orca"
+    ],
+    "discovered_at": "2026-10-25T05:03:18.602955+00:00",
+    "status": "pending"
   }
 ]
