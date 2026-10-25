@@ -308,6 +308,16 @@ def main():
     print("2g. Vendor-identifier gate (Apify slugs, verbs, payloads, packages)...")
     run("python3 scripts/apify_actor_ref_check.py")
 
+    # 2h. Count-stamp gate. Blocks the deploy on a page that states two
+    #     different totals for the same fact. The Skills Marketplace served
+    #     1,157+ in its header and "Total: 1,151+" in its own footer on
+    #     2026-10-25 (plus the stale number in the FAQ and JSON-LD) because
+    #     every sweep bumps the header and forgets the rest. Historical
+    #     transitions ("1,151+ to 1,152+") are excluded by the checker.
+    #     Hard gate, no `|| true`.
+    print("2h. Count-stamp gate (page totals agree)...")
+    run("python3 scripts/count_stamp_check.py")
+
     # 3. Build
     print("3. Building mkdocs...")
     out = run("python3 -m mkdocs build --clean", fatal=True)
