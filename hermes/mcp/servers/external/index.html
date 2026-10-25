@@ -10658,6 +10658,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-25-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 25, 2026 - Midday Supplement (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-25-2026-midday-sweep-1-new-1-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -25508,6 +25519,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-25-2026-midday-supplement-1-new-1-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 25, 2026 - Midday Supplement (1 New, 1 Guide)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-25-2026-midday-sweep-1-new-1-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -40076,8 +40098,14 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 25, 2026 (midday sweep) · <strong>Sources:</strong> mcpservers.org <code>/all</code> pages 1, 2 and 3 (90 cards against a directory up again, 17,354 to 17,360 servers inside one day) + mcp.so <code>/feed</code> page 1 (30 cards, newest <code>2026-10-25T13:50:07Z</code>) + the chatmcp/mcpso issue window #6044 to #6104 + live JSON-RPC, OAuth discovery and registry probes on four endpoints.</p>
+<p><strong>Last updated:</strong> October 25, 2026 (midday supplement) · <strong>Sources:</strong> mcpservers.org <code>/all</code> page 1 read twice (29 cards against an unchanged 17,360 servers at the 18:00Z capture) + mcp.so <code>/feed</code> page 1 (30 cards, newest unchanged at <code>2026-10-25T13:50:07Z</code>) + the chatmcp/mcpso issue window #6105 to #6110 read in full + a keyless MCP session with seven executions on one endpoint.</p>
 </blockquote>
+<h2 id="october-25-2026-midday-supplement-1-new-1-guide">🆕 October 25, 2026 - Midday Supplement (1 New, 1 Guide)<a class="headerlink" href="#october-25-2026-midday-supplement-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
+<p>Fifty minutes after the midday pass and neither surface had moved: mcpservers.org served the same 17,360 at the 18:00Z read and the feed's newest card was still the one midday had already read at <code>2026-10-25T13:50:07Z</code>. At a gap that short the breadth work is repetition, so this pass went where the delta actually lands, the submission window, and read the six issues filed after <code>#6104</code> in full. One of them answers without a key, and it does arithmetic no other entry in this catalog performs.</p>
+<ul>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/revclamp-mcp">RevClamp MCP - Stripe Revenue Leakage and Chargeback Proof</a> · remote Streamable HTTP at <code>https://api.revclamp.com/api/mcp</code>, no OAuth (the protected resource document returns 404, so the connection is a workspace key in the client config rather than a consent flow), registry <code>io.github.revclamp/revclamp-mcp</code> active since <code>2026-10-25T02:54:03Z</code>, manifest at <code>https://revclamp.com/.well-known/mcp.json</code> naming npm <code>revclamp-mcp</code> 1.20.6 and a pinned tarball SHA-256, by RevClamp Enterprise (revclamp.com). <strong>Driven end to end without a key</strong>: unauthenticated <code>initialize</code> returned HTTP 200 as <code>revclamp-mcp</code> 1.20.6 on protocol 2025-06-18, <code>tools/list</code> returned nine tools, and seven were executed with real arguments. A 250,000 cent wholesale order paid at 75,000 on Net-30 returned <code>state: DEPOSIT_CLEARED_ACTIVE</code>, <code>requiredDepositCents: 75000</code>, <code>remainingBalanceCents: 175000</code>, <code>releaseHoldAction: true</code> and the tag <code>b2b_net_terms:deposit_cleared</code>; a dispute payload returned <code>utf16CodeUnits: 19113</code> against <code>maxUtf16Ceiling: 18000</code>, <code>withinCeiling: false</code>, <code>overallVerdict: FAIL_UTF16_OVERFLOW</code> while the CE 3.0 rubric itself passed with two prior matches and both IP and device matching, which is the failure that kills an otherwise perfect answer; a Stripe style HMAC verified as <code>signatureValid: true</code> with <code>timingSafeCompared: true</code> and a 300 second tolerance, and the same call with a wrong <code>v1</code> returned <code>HMAC_SIGNATURE_MISMATCH</code>; the replay simulator dropped two copies of an expired event and reported <code>naiveHandlerBug: APPLIED_EXPIRED_REPLAY_OUTSIDE_72H_WINDOW</code> against <code>naiveFinalTier: growth_59</code>, naming the free paid tier a naive webhook handler would have granted; <code>GR123456789</code> normalised to <code>EL123456789</code> and returned <code>FORMAT_VALID_UNVERIFIED</code> with <code>zeroRateAllowed: false</code> rather than a green light; and a past due subscription 40 days past its invoice failure returned <code>isGhostLeak: true</code> with <code>UNPAID_GHOST_USAGE_CONFIRMED</code>. Zero trust guard found in the same session: any argument that looks like a live secret is refused with <code>-32602 LIVE_SECRET_FORBIDDEN_IN_SANDBOX</code>, so a production webhook secret never travels through the chat. Limitations recorded rather than smoothed over: it is not a Stripe connector, since the tools take billing objects as arguments or read telemetry forwarded to <code>POST /v1/events/ingest</code> and nothing lists customers, invoices or revenue; dispute staging is <code>submit: false</code> by design with no mutation of any external system; every VIES mode except <code>LIVE</code> is a deterministic simulation, kept deliberately to rehearse the HTTP 200 soft failure the Commission's service actually produces; scope is B2B net terms in euro cents with no other currency or billing platform; and no tool call to <code>stage_stripe_dispute_ce3</code> was attempted because it needs a live dispute shape across four nested objects. Free tier $0 with 5,000 events and all nine tools, then $19, $59 and $199 a month at 100,000, 1,000,000 and 5,000,000 events, flat rate with a stated 0 percent dispute commission against the 25 to 30 percent contingency an agency charges. Catalogued for the three records nothing else here measures: unpaid usage on a subscription that is still live, dispute evidence against the network rubric rather than against an opinion, and a wholesale order against its deposit gate, beside <code>paidnice-mcp</code> for receivables after the invoice and <code>honest-vies-mcp</code> for VAT number validation.</li>
+</ul>
+<p><strong>Also identified this cycle (not catalogued):</strong> of the six issues filed after the midday cutoff, five were read and held. <code>esmole-mcp</code> (<code>#6106</code>) and <code>dbmole-mcp</code> (<code>#6105</code>) are Elasticsearch and PostgreSQL or MySQL servers where the agent adds and edits its own connections at runtime, with SSH tunnels, host key checks, readonly sessions enforced by the database and a 40 KB result budget, held in the database access class carried by <code>WoWSQL</code> and the AI2SQL and AI for Database dispositions, and recorded as the cleanest implementation of agent managed connections seen so far rather than opened as new entries; PLCWare TIA Openness (<code>#6107</code>, 158 tools with 62 read only over Siemens TIA Portal V21, downloads gated on an explicit human approval of the build plan) held as industrial engineering tooling that needs the vendor's Windows desktop app on the same machine as the portal licence, so an operator's hosted assistant cannot reach it; 3ilm-mcp (<code>#6108</code>, 1,032 reconciled findings from ten audit contests in 12 pattern categories, MIT, keyless) held as developer security reference data; Shootika (<code>#6109</code>, on-model product photography that lists products, shoots frames, and publishes only what an operator approves, 14 tools over OAuth 2.1) held inside the media generation class that held Vadyu, Axiom Lab, Seedance3 and agent-media this month. On the listing side, the first page still carried 29 cards and every one resolves: <strong>BookHotels Direct</strong> (<code>https://bookhotels.direct/mcp</code>, keyless, compares a hotel's own site against Booking.com and says when Booking is cheaper) is the one name no record held, held here as consumer travel price comparison per the SlickTrip and Chucho Book Direct dispositions; <strong>GSC Magic</strong> carries its night sweep hold as Search Console, Bing and GA4 in one against the SEO class; <strong>LFG Atlas</strong> is a free gaming group directory with no key, held as consumer; <strong>Stride</strong>, a backlog server that reads and writes real stories and sprints for Claude Code, held as developer tooling beside the KanbanMCP disposition; and <code>coolsapiens</code>, <code>getremcp</code>, <code>shbernal</code> and <code>leemysw</code> returned 404 detail pages through the reader proxy, the sitemap fresh but not live class rather than a finding.</p>
 <h2 id="october-25-2026-midday-sweep-1-new-1-guide">🆕 October 25, 2026 - Midday Sweep (1 New, 1 Guide)<a class="headerlink" href="#october-25-2026-midday-sweep-1-new-1-guide" title="Anchor link to this section">&para;</a></h2>
 <p>The counter moved a second time in one day, 17,354 to 17,360, which is small enough that the listing body barely changed and large enough that a fresh read was worth it. Ninety slugs on pages one to three produced nine with no record anywhere; six resolved to prior dispositions once their name forms were matched, two were utilities and one filled a gap this catalog had left open all year.</p>
 <ul>
@@ -47977,6 +48005,7 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/3dsellers-mcp">3Dsellers MCP - Six Marketplaces, 150+ Tools</a></p>
 </li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/closedloop-ai-mcp">ClosedLoop AI MCP - Customer Evidence, Ranked</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/revclamp-mcp">RevClamp MCP - Stripe Revenue Leakage and Chargeback Proof</a></li>
 </ul>
 
 
