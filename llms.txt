@@ -74,6 +74,8 @@
 - [Azure Cosmos DB](https://www.corpusiq.io/docs/connectors/cosmosdb): Cosmos DB is often where the unglamorous-but-critical data lives: event logs, telemetry, user activity, IoT readings. Connecting it lets CorpusIQ run.
 - [Dropbox](https://www.corpusiq.io/docs/connectors/dropbox): A lot of operating context - contracts, past board updates, vendor invoices, design files - lives in Dropbox folders. Connecting Dropbox lets CorpusIQ
 - [eBay](https://www.corpusiq.io/docs/connectors/ebay): For eBay sellers, the financial truth sits inside Seller Hub - orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fo
+- [Etsy](https://www.corpusiq.io/docs/connectors/etsy): Query Etsy shop performance, listings, orders, and review trends in plain English, in the same answer as your other sales channels.
+- [Facebook Page](https://www.corpusiq.io/docs/connectors/facebook): Query Facebook Page posts, reach, engagement, and follower trends in plain English, alongside your other channels.
 - [Meta (Facebook, Instagram, Ads)](https://www.corpusiq.io/docs/connectors/facebook_marketing): Meta Ads is one of the largest line items in a SaaS or ecommerce budget. Connect Meta read-only and compare its numbers honestly to GA4 and Shopify.
 - [GA4 - Google Analytics 4](https://www.corpusiq.io/docs/connectors/ga4): Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue - without leaving Cl
 - [GoHighLevel (LeadConnector)](https://www.corpusiq.io/docs/connectors/gohighlevel): If you run an agency or service business on GoHighLevel, this is where contacts, pipelines, appointments, and payments all converge. Connecting it let
@@ -84,6 +86,7 @@
 - [HubSpot](https://www.corpusiq.io/docs/connectors/hubspot): HubSpot is where your sales pipeline, customer relationships, and deal history live.
 - [IMAP Email](https://www.corpusiq.io/docs/connectors/imap): Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector let
 - [IndexNow](https://www.corpusiq.io/docs/connectors/indexnow): Automatically notify Bing, Yandex, Seznam, and other engines when you publish content. The IndexNow connector keeps search engines in sync with your s
+- [Instagram](https://www.corpusiq.io/docs/connectors/instagram): Query Instagram posts, reels, reach, engagement, and follower trends in plain English, next to every other channel you measure.
 - [Klaviyo](https://www.corpusiq.io/docs/connectors/klaviyo): For ecommerce brands, Klaviyo is where email and SMS revenue actually gets attributed. Connecting it lets CorpusIQ pull campaign performance, flow rev
 - [LinkedIn Ads](https://www.corpusiq.io/docs/connectors/linkedin-ads): LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets CorpusIQ pull campaign performance, creative analytics, and account-l
 - [Mailchimp](https://www.corpusiq.io/docs/connectors/mailchimp): Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newslett
@@ -103,6 +106,7 @@
 - [Google Search Console](https://www.corpusiq.io/docs/connectors/search-console): Google Search Console is the ground truth for how your site performs in Google Search - clicks, impressions, average position, and the queries that dr
 - [Semrush](https://www.corpusiq.io/docs/connectors/semrush): Bring SEO and competitive search data into the conversation.
 - [Shopify](https://www.corpusiq.io/docs/connectors/shopify): Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV - and the same numbers joined to QuickBooks, yo
+- [SHOPLINE](https://www.corpusiq.io/docs/connectors/shopline): Query orders, products, inventory, and customers in your SHOPLINE store with plain-English questions and cited answers.
 - [Slack](https://www.corpusiq.io/docs/connectors/slack): Pull Slack conversations into the answer. Ask what your team discussed about a customer, what was decided in #leadership last Tuesday, or who's been t
 - [Stripe](https://www.corpusiq.io/docs/connectors/stripe): See your payment activity inside the conversation. Ask which customers paid this month, what your charge history looks like, why your last payout does
 - [TikTok](https://www.corpusiq.io/docs/connectors/tiktok): Bring your TikTok account analytics into the same view as your other channels. Ask which videos are driving the most engagement and how TikTok stacks.

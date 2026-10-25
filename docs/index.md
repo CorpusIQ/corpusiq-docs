@@ -32,7 +32,7 @@ robots: "index,follow"
 
 ## Evidence
 
-CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude, and live in the ChatGPT app store. The positioning is consistent across both channels: the same number in ChatGPT, Claude, and Perplexity, every time.
+CorpusIQ is live in the ChatGPT app store. In Claude, add the public MCP endpoint through Claude's custom connector flow: CorpusIQ is not yet listed in Anthropic's Connector Directory, so Claude setup is one endpoint paste rather than a directory install. The setup paths differ. The answer does not. The same number in ChatGPT, Claude, and Perplexity, every time.
 
 "The same number in ChatGPT, Claude, and Perplexity. Every time." - CorpusIQ Founder
 
@@ -80,15 +80,18 @@ CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude De
 
 **Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
 
-## Internal Links
+## Browse the documentation
 
-- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
+- **[Quick Start](/quickstart)**  --  Go from zero to first query in 5 minutes
+- **[Connectors](/connectors)**  --  All 40+ supported integrations
+- **[How It Works](/how-it-works/)**  --  Architecture, retrieval path, and citation model
+- **[API Reference](/api/overview)**  --  Full REST API documentation
+- **[Security](/security)**  --  Read-only enforcement, encryption, and compliance posture
+- **[Troubleshooting](/troubleshooting/)**  --  Fixes for the failures people hit first
+- **[Examples and Recipes](/examples/)**  --  Working use cases you can copy
+- **[Changelog](/changelog)**  --  API updates and version history
+- **[Hermes Agent Hub](/hermes/)**  --  Agent patterns, skills, and the MCP ecosystem
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

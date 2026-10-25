@@ -28,6 +28,8 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 ### Commerce & Payments
 - [Shopify](shopify.md) - Orders, products, customers, inventory
 - [Stripe](stripe.md) - Payments, subscriptions, invoices, refunds
+- [Etsy](etsy.md) - Shop performance, listings, orders, review trends
+- [SHOPLINE](shopline.md) - Orders, products, inventory, customers
 - [eBay](ebay.md) - Listings, orders, marketplace data
 - [Amazon Seller](amazon_seller.md) - Seller Central metrics
 - [GunBroker](gunbroker.md) - Auctions, bids, inventory
@@ -36,7 +38,6 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 - [Google Ads](google_ads.md) - Campaigns, ad groups, keywords, performance
 - [Meta Ads (Facebook & Instagram)](facebook_marketing.md) - Ad accounts, campaigns, ad sets
 - [LinkedIn Ads](linkedin-ads.md) - Campaign performance, audience data
-- [TikTok](tiktok.md) - Ad performance, audience insights
 
 ### Web Analytics & SEO
 - [GA4 - Google Analytics 4](ga4.md) - Traffic, conversions, events
@@ -44,6 +45,11 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 - [Ahrefs](ahrefs.md) - Backlinks, keyword rankings, site audits
 - [Semrush](semrush.md) - Keyword research, competitor analysis
 - [IndexNow](indexnow.md) - Real-time search engine indexing
+
+### Content & Social
+- [Instagram](instagram.md) - Posts, reels, reach, engagement, follower trends
+- [Facebook Page](facebook.md) - Page posts, reach, engagement, follower trends
+- [TikTok](tiktok.md) - Account and video analytics
 - [YouTube](youtube.md) - Channel analytics, video performance
 
 ### Email & SMS Marketing

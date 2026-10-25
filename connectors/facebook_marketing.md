@@ -4,6 +4,8 @@ description: "Meta Ads is one of the largest line items in a SaaS or ecommerce b
 ---
 # Meta (Facebook, Instagram, Ads)
 
+Organic Page and Instagram analytics have their own pages: [Facebook Page](facebook.md) and [Instagram](instagram.md). This page covers Meta advertising and the connection model that covers all three.
+
 ## What it unlocks
 Meta Ads is usually one of the largest line items in a SaaS or ecommerce budget, and Meta's own ROAS numbers are notoriously optimistic. Connecting Meta gives CorpusIQ read access to the whole Meta family through one connection: Meta Ads (Facebook and Instagram advertising), your Facebook and Instagram pages, and the content data behind them. You do not connect Facebook, Instagram, and Meta Ads separately - one Meta connector covers all of it.
 

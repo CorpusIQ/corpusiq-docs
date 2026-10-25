@@ -33,7 +33,7 @@ URL: https://www.corpusiq.io/docs
 
 ## Evidence
 
-CorpusIQ is listed in [Anthropic's MCP connector directory](https://claude.com/connectors) for one-click install in Claude, and live in the ChatGPT app store. The positioning is consistent across both channels: the same number in ChatGPT, Claude, and Perplexity, every time.
+CorpusIQ is live in the ChatGPT app store. In Claude, add the public MCP endpoint through Claude's custom connector flow: CorpusIQ is not yet listed in Anthropic's Connector Directory, so Claude setup is one endpoint paste rather than a directory install. The setup paths differ. The answer does not. The same number in ChatGPT, Claude, and Perplexity, every time.
 
 "The same number in ChatGPT, Claude, and Perplexity. Every time." - CorpusIQ Founder
 
@@ -81,15 +81,18 @@ CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude De
 
 **Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
 
-## Internal Links
+## Browse the documentation
 
-- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
+- **[Quick Start](/quickstart)**  --  Go from zero to first query in 5 minutes
+- **[Connectors](/connectors)**  --  All 40+ supported integrations
+- **[How It Works](/how-it-works/)**  --  Architecture, retrieval path, and citation model
+- **[API Reference](/api/overview)**  --  Full REST API documentation
+- **[Security](/security)**  --  Read-only enforcement, encryption, and compliance posture
+- **[Troubleshooting](/troubleshooting/)**  --  Fixes for the failures people hit first
+- **[Examples and Recipes](/examples/)**  --  Working use cases you can copy
+- **[Changelog](/changelog)**  --  API updates and version history
+- **[Hermes Agent Hub](/hermes/)**  --  Agent patterns, skills, and the MCP ecosystem
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
@@ -24931,10 +24934,115 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# Etsy
+URL: https://www.corpusiq.io/docs/connectors/etsy
+
+# Etsy
+
+## What it unlocks
+
+Your Etsy shop in the same answer as everything else you run. Ask which listings convert, how order volume is trending, and what reviewers keep mentioning, without exporting anything out of Etsy's dashboard first. Pair it with Stripe, Shopify, or QuickBooks and the same question spans every channel.
+
+## Before you connect
+
+- An Etsy seller account with at least one listing.
+- The shop owner account, or an account with access to the shop's data.
+- About 2 minutes.
+
+## How to connect
+
+1. Open your CorpusIQ dashboard and click Connectors.
+2. Find Etsy and click Connect.
+3. Sign in to Etsy if you are not already signed in.
+4. Review the read-only permissions on the consent screen and approve them.
+
+The Etsy card changes from gray to Connected. If you run more than one shop, connect each shop separately so the answers stay scoped to the right store.
+
+## What CorpusIQ can see
+
+- Shop performance: visits, views, orders, and revenue summaries.
+- Listings: title, state, price, and per-listing performance.
+- Orders: receipt-level detail for orders placed in the shop.
+- Review trends: ratings and review volume over time.
+
+Read-only. CorpusIQ does not edit listings, change prices, refund orders, or message buyers.
+
+## Questions you can ask
+
+- "Which Etsy listings sold best in the last 30 days?"
+- "How did Etsy revenue trend month over month this year?"
+- "What do my recent reviews complain about most?"
+- "Compare Etsy orders with Shopify orders for the same period."
+
+## Troubleshooting
+
+- No shop found: the Etsy account you authorized does not own a shop. Sign in with the shop owner account and reconnect.
+- New orders not showing: recent orders can take a few hours to appear. If a full day passes with no new orders, disconnect and reconnect the connector.
+- Wrong shop connected: disconnect Etsy in the dashboard, switch accounts on etsy.com, then reconnect.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Facebook Page
+URL: https://www.corpusiq.io/docs/connectors/facebook
+
+# Facebook Page
+
+## What it unlocks
+
+Organic Facebook performance in the same answer as your paid media and your other channels. Ask which Page posts earned reach, how engagement moved after a campaign, and whether Facebook is pulling its weight against Instagram and TikTok for the same period.
+
+This page covers **organic Facebook Page data**. Paid campaigns belong to the [Meta Ads connector](facebook_marketing.md); one Meta connection can cover both.
+
+## Before you connect
+
+- A Facebook Page you manage as an admin or editor.
+- About 2 minutes.
+
+## How to connect
+
+1. Open your CorpusIQ dashboard and click Connectors.
+2. Find Facebook and click Connect. Facebook authorizes through Meta.
+3. Sign in to Meta, select the Page you want to connect, and approve the read-only permissions.
+4. Return to the dashboard. The Facebook card shows Connected.
+
+One Meta connection covers every Meta asset you authorize on it, including Instagram and Meta Ads. To cover a second Page, reconnect and select the additional Page.
+
+## What CorpusIQ can see
+
+- Page posts: text, publish dates, links, and per-post performance.
+- Reach and impressions for the selected period.
+- Engagement: reactions, comments, shares, and clicks.
+- Follower trends over time.
+
+Read-only. CorpusIQ does not publish, delete, comment, message, or change Page settings.
+
+## Questions you can ask
+
+- "Which Facebook Page posts got the most reach this quarter?"
+- "How did engagement change after the last product launch?"
+- "Is Facebook reach growing or shrinking month over month?"
+- "Compare Facebook Page reach with Instagram reach for the same posts."
+
+## Troubleshooting
+
+- Page missing from the picker: your Meta account is not an admin or editor on that Page. Ask for the role in Meta Business Suite, then reconnect.
+- Insights look low: Page insights reflect only the window Meta reports; very recent activity can lag by a few hours.
+- Wrong Page connected: disconnect Facebook in the dashboard, then reconnect and select the correct Page.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # Meta (Facebook, Instagram, Ads)
 URL: https://www.corpusiq.io/docs/connectors/facebook_marketing
 
 # Meta (Facebook, Instagram, Ads)
+
+Organic Page and Instagram analytics have their own pages: [Facebook Page](facebook.md) and [Instagram](instagram.md). This page covers Meta advertising and the connection model that covers all three.
 
 ## What it unlocks
 Meta Ads is usually one of the largest line items in a SaaS or ecommerce budget, and Meta's own ROAS numbers are notoriously optimistic. Connecting Meta gives CorpusIQ read access to the whole Meta family through one connection: Meta Ads (Facebook and Instagram advertising), your Facebook and Instagram pages, and the content data behind them. You do not connect Facebook, Instagram, and Meta Ads separately - one Meta connector covers all of it.
@@ -25783,6 +25891,57 @@ After submitting to IndexNow, remind me to check Search Console impressions in 2
   discretion.
 - Combine with [Search Console](search-console.md) and [Semrush](semrush.md) to measure
   ranking lift after submission.
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# Instagram
+URL: https://www.corpusiq.io/docs/connectors/instagram
+
+# Instagram
+
+## What it unlocks
+
+Instagram performance inside the same answer as your other channels. Ask which posts and reels actually moved reach, how engagement is trending, and how Instagram compares with TikTok or YouTube for the same period. No screenshots, no manual reach math.
+
+## Before you connect
+
+- An Instagram Business or Creator account. Meta does not expose the Instagram API to personal accounts.
+- That Instagram account linked to a Facebook Page you manage.
+- About 2 minutes.
+
+## How to connect
+
+1. Open your CorpusIQ dashboard and click Connectors.
+2. Find Instagram and click Connect. Instagram authorizes through Meta, so the same Meta connection that covers your Facebook Page covers Instagram.
+3. Sign in to Meta, select the Facebook Page and the Instagram account you want to connect, and approve the read-only permissions.
+4. Return to the dashboard. The Instagram card shows Connected.
+
+One Meta connection covers every Meta property you authorize on it. If you add a second Instagram account later, reconnect and select the additional account.
+
+## What CorpusIQ can see
+
+- Posts and reels: captions, publish dates, and per-post performance.
+- Reach and impressions across the selected period.
+- Engagement: likes, comments, saves, and shares per post.
+- Follower trends over time.
+
+Read-only. CorpusIQ does not publish, delete, comment, follow, or send direct messages.
+
+## Questions you can ask
+
+- "Which Instagram reels got the most reach last month?"
+- "How is my Instagram engagement rate trending this quarter?"
+- "Did follower growth improve after the last campaign?"
+- "Compare Instagram reach with TikTok reach for the same posts."
+
+## Troubleshooting
+
+- No Instagram account in the picker: the Instagram account is not a Business or Creator account, or it is not linked to a Facebook Page you manage. Fix the link in Meta Business Suite, then reconnect.
+- Insights look low: Instagram insights reflect only the period Meta reports; very recent activity can lag by a few hours.
+- Wrong account connected: disconnect Instagram in the dashboard, then reconnect and select the correct account.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -26788,6 +26947,58 @@ Check the date range. Shopify reports in the store's timezone, not yours, and ea
   ]
 }
 </script>
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# SHOPLINE
+URL: https://www.corpusiq.io/docs/connectors/shopline
+
+# SHOPLINE
+
+## What it unlocks
+
+Your SHOPLINE store in the same answer as your ads, your payment processor, and your accounting file. Ask what is selling, what is sitting in inventory, and which customers came back, without opening the admin panel.
+
+SHOPLINE is most useful paired with a paid-media connector and an accounting connector: one question then spans demand, stock, and cash.
+
+## Before you connect
+
+- A SHOPLINE store where you have admin access.
+- About 2 minutes.
+
+## How to connect
+
+1. Open your CorpusIQ dashboard and click Connectors.
+2. Find SHOPLINE and click Connect.
+3. Sign in to SHOPLINE as the store admin if you are not already signed in.
+4. Review the read-only permissions and approve them.
+
+The SHOPLINE card changes from gray to Connected. If you run several stores, connect each one separately so answers stay scoped to the right store.
+
+## What CorpusIQ can see
+
+- Orders: order volume, values, and status.
+- Products: catalogue, variants, and pricing.
+- Inventory: stock levels by product and variant.
+- Customers: customer records and purchase history.
+
+Read-only. CorpusIQ does not edit products, change prices, fulfil orders, or message customers.
+
+## Questions you can ask
+
+- "Which SHOPLINE products sold most last month?"
+- "What is out of stock right now that sold last week?"
+- "Which customers ordered more than once this quarter?"
+- "Compare SHOPLINE revenue with Google Ads spend for the same period."
+
+## Troubleshooting
+
+- Store not found: the SHOPLINE account you authorized does not have admin access to the store. Sign in with the store admin account and reconnect.
+- Inventory numbers look stale: stock levels update as SHOPLINE recalculates them; reconnect if a full day passes without changes.
+- Wrong store connected: disconnect SHOPLINE in the dashboard, switch stores in SHOPLINE, then reconnect.
 
 ---
 
