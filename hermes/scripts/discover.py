@@ -11,6 +11,7 @@ Usage:
 """
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -59,10 +60,42 @@ SEARCH_QUERIES = [
 ]
 
 # ── Scoring Criteria ────────────────────────────────────────
+_SCRATCH_CLONE_RE = re.compile(r"^tmp-.+__\d+-\d{10,}-[0-9a-f]{8}$")
+
+
+def is_scratch_artifact(repo):
+    """True for machine-generated scratch clones that are not real projects.
+
+    GitHub tooling (and agents building throwaway checkouts) create repos named
+    like ``tmp-NousResearch_hermes-agent__390-1792900871-def88b8d``: an ephemeral
+    clone path with a unix timestamp and a hash suffix, no description, no stars,
+    no forks. They match the "hermes-agent" keyword and therefore score into the
+    review queue where they can never be catalogued. Reject at the source so the
+    review queue only carries things a human can act on (2 such rows reached
+    pending_review on 2026-10-24).
+    """
+    name = repo.get("name") or ""
+    full_name = repo.get("full_name") or ""
+    short = full_name.split("/")[-1] if full_name else name
+    if _SCRATCH_CLONE_RE.match(short):
+        return True
+    lowered = short.lower()
+    looks_scratch = lowered.startswith(("tmp-", "tmp_", "test-", "test_"))
+    no_content = (
+        not (repo.get("description") or "").strip()
+        and not repo.get("stargazers_count")
+        and not repo.get("forks_count")
+    )
+    return looks_scratch and no_content
+
+
 def score_repo(repo):
     """Score a repo 0-100 based on relevance, quality, activity, docs, adoption, uniqueness."""
     score = 0
     reasons = []
+
+    if is_scratch_artifact(repo):
+        return 0, ["scratch_artifact"]
 
     # 1. Relevance (0-30): Name/description/topics match
     desc = repo.get("description") or ""
@@ -331,6 +364,17 @@ def discover_repos(token, dry_run=False):
                 continue
 
             score, reasons = score_repo(repo)
+            if "scratch_artifact" in reasons:
+                # Machine-generated scratch clone: never enters the review queue.
+                review_log.append({
+                    "repo": full_name,
+                    "score": 0,
+                    "tier": "REJECTED",
+                    "action": "skipped_scratch",
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                })
+                print(f"  🗑️  scratch: {full_name} (not a project)")
+                continue
             tier, color = score_to_tier(score)
             near = find_near_duplicates(repo, approved)
 
