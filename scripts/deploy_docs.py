@@ -283,7 +283,13 @@ def main():
     #     Generation above writes the rosters; this checks the result against
     #     the same directories, so a bug in either one is still caught.
     print("2e. Catalog index gate (skills rosters)...")
-    run("python3 scripts/validate_catalog_indexes.py")
+    # fatal=True: these gates were called without it, so a failure printed
+    # "CMD FAILED" and the deploy carried on - the three gates added to stop
+    # empty rosters, duplicated footers and invented vendor identifiers could
+    # never stop anything. Verified: each script exits 1 on the defect class
+    # and 0 on the current tree; the Apify checker downgrades network flaps to
+    # warnings internally, so a live-API timeout cannot block a deploy.
+    run("python3 scripts/validate_catalog_indexes.py", fatal=True)
 
     # 2f. Page-metadata gate. Blocks the deploy on the corruption classes that
     #     reached live pages unnoticed (Oct 24 2026): a duplicated closing
@@ -294,7 +300,7 @@ def main():
     #     Recovery scripts: scripts/validate_page_metadata.py --fix repairs
     #     dangling titles from the page H1. Hard gate, no `|| true`.
     print("2f. Page-metadata gate (footers, titles, descriptions)...")
-    run("python3 scripts/validate_page_metadata.py")
+    run("python3 scripts/validate_page_metadata.py", fatal=True)
 
     # 2g. Vendor-identifier gate (Apify). Blocks the deploy on an Actor slug
     #     that does not resolve on the live Apify API, a CLI verb the CLI does
@@ -306,7 +312,7 @@ def main():
     #     one and no gate resolved a single vendor identifier.
     #     Network flap is a warning, not a block. Hard gate, no `|| true`.
     print("2g. Vendor-identifier gate (Apify slugs, verbs, payloads, packages)...")
-    run("python3 scripts/apify_actor_ref_check.py")
+    run("python3 scripts/apify_actor_ref_check.py", fatal=True)
 
     # 2h. Count-stamp gate. Blocks the deploy on a page that states two
     #     different totals for the same fact. The Skills Marketplace served
@@ -316,7 +322,7 @@ def main():
     #     transitions ("1,151+ to 1,152+") are excluded by the checker.
     #     Hard gate, no `|| true`.
     print("2h. Count-stamp gate (page totals agree)...")
-    run("python3 scripts/count_stamp_check.py")
+    run("python3 scripts/count_stamp_check.py", fatal=True)
 
     # 3. Build
     print("3. Building mkdocs...")
