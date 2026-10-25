@@ -791,3 +791,6 @@ Linked from this index so the pages are reachable by crawl.
 - [Hypit - AI Video Clone Production Setup](/hermes/skills/catalog/hypit-skills-setup)
 - [Masseater Skills - Engineering Judgment Suite](/hermes/skills/catalog/masseater-skills-setup)
 - [Ultracite - Zero-Config Lint Preset Setup](/hermes/skills/catalog/ultracite-skills-setup)
+- [Waza - Engineering Habit Skills for Coding Agents](/hermes/skills/catalog/waza-skills-setup)
+- [Diagram Design - Editorial HTML and SVG Diagrams](/hermes/skills/catalog/diagram-design-setup)
+- [REA - Reverse Engineer Anything Skill Setup](/hermes/skills/catalog/rea-setup)
