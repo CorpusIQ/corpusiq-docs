@@ -324,6 +324,16 @@ def main():
     print("2h. Count-stamp gate (page totals agree)...")
     run("python3 scripts/count_stamp_check.py", fatal=True)
 
+    # 2i. Claim-truth gate. Blocks the deploy on an affirmative directory
+    #     listing claim we cannot back. docs/index.md shipped "CorpusIQ is
+    #     listed in Anthropic's MCP connector directory for one-click install
+    #     in Claude" on 2026-10-24 while our own changelog said we are not
+    #     listed; api.anthropic.com/api/directory/servers paged to 1,000
+    #     servers returns zero CorpusIQ entries. The checker understands the
+    #     negated form, so honest copy keeps passing. Hard gate, no `|| true`.
+    print("2i. Claim-truth gate (no unsupported directory listings)...")
+    run("python3 scripts/validate_claim_truth.py", fatal=True)
+
     # 3. Build
     print("3. Building mkdocs...")
     out = run("python3 -m mkdocs build --clean", fatal=True)
