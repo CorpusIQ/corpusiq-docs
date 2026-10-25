@@ -81343,7 +81343,7 @@
       "static-site"
     ],
     "updated_at": "2026-10-25T04:59:11Z",
-    "category": "forks",
+    "category": "Skills & Plugins",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -81355,7 +81355,8 @@
     ],
     "near_duplicates": [],
     "discovered_at": "2026-10-25T05:01:23.200736+00:00",
-    "status": "pending"
+    "status": "approved",
+    "approved_at": "2026-10-25T15:03:24.068618+00:00"
   },
   {
     "name": "bdaikis/student-twin",

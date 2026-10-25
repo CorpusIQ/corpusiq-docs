@@ -19642,5 +19642,14 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-25T10:03:36.378204+00:00"
+  },
+  {
+    "repo": "f-o-x11/deed-page-skill",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "manual_approved",
+    "timestamp": "2026-10-25T15:03:35.064105+00:00",
+    "issue": 119,
+    "note": "vendor-disclosed submission (issue #119); license, live service, MCP registry entry and ClawHub listing verified; listed in Skills & Plugins"
   }
 ]
