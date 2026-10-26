@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-05"
+last_updated: "2026-10-26"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -794,3 +794,20 @@ Linked from this index so the pages are reachable by crawl.
 - [Waza - Engineering Habit Skills for Coding Agents](/hermes/skills/catalog/waza-skills-setup)
 - [Diagram Design - Editorial HTML and SVG Diagrams](/hermes/skills/catalog/diagram-design-setup)
 - [REA - Reverse Engineer Anything Skill Setup](/hermes/skills/catalog/rea-setup)
+
+### New - October 26, 2026 Sweep (14 publisher guides)
+
+- [Slavingia Skills - Minimalist Entrepreneur Business Suite](/hermes/skills/catalog/slavingia-skills-setup)
+- [dbt Agent Skills - Official dbt Labs Analytics Suite Setup](/hermes/skills/catalog/dbt-agent-skills-setup)
+- [Arize Skills - LLM Observability and Evaluation Setup](/hermes/skills/catalog/arize-skills-setup)
+- [Longbridge Skills - Brokerage Data and Trading Suite](/hermes/skills/catalog/longbridge-skills-setup)
+- [Dynatrace for AI - Observability Skills Setup](/hermes/skills/catalog/dynatrace-for-ai-setup)
+- [Nuxt Skills - Vue, Nuxt and NuxtHub Agent Setup](/hermes/skills/catalog/onmax-nuxt-skills-setup)
+- [Swift iOS Skills - iOS 26 and SwiftUI Suite Setup](/hermes/skills/catalog/dpearson-swift-ios-skills-setup)
+- [Brand Building Skills - Brand Strategy Suite Setup](/hermes/skills/catalog/arnabbagxd-brand-building-skills-setup)
+- [Sales Skills - B2B Sales Playbook Suite Setup](/hermes/skills/catalog/louisblythe-sales-skills-setup)
+- [Agent Research Skills - Academic Paper Suite Setup](/hermes/skills/catalog/lingzhi227-agent-research-skills-setup)
+- [Nia Skill - Code and Docs Indexing Setup](/hermes/skills/catalog/nozomio-nia-skill-setup)
+- [Recoup Skills - Music Label Agent Suite Setup](/hermes/skills/catalog/recoupable-skills-setup)
+- [NotebookLM Skill - Archived Notebook Query Setup](/hermes/skills/catalog/notebooklm-skill-setup)
+- [AI Labs Claude Skills - 27 Skill Business Suite Setup](/hermes/skills/catalog/ailabs-claude-skills-setup)
