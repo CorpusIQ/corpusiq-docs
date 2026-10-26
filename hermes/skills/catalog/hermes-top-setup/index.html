@@ -107,8 +107,8 @@
     "description": "Install and run hermes-top, a live htop/btop-style terminal dashboard for Hermes Agent that reads state.db directly.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-top-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11265,7 +11265,7 @@ hermes-top<span class="w"> </span>--dump<span class="w"> </span>&gt;<span class=
 hermes-top<span class="w"> </span>--interval<span class="w"> </span>250ms
 
 <span class="c1"># Remote Hermes instance (via SSH)</span>
-ssh<span class="w"> </span>user@server<span class="w"> </span><span class="s1">'HERMES_HOME=/opt/hermes hermes-top --dump'</span>
+ssh<span class="w"> </span>user@server<span class="w"> </span><span class="s1">&#39;HERMES_HOME=/opt/hermes hermes-top --dump&#39;</span>
 </code></pre></div>
 <hr />
 <h2 id="database-location">Database Location<a class="headerlink" href="#database-location" title="Anchor link to this section">&para;</a></h2>
@@ -11403,7 +11403,7 @@ hermes-top<span class="w"> </span>--db<span class="w"> </span>/explicit/path/to/
 <h3 id="running-against-a-remote-hermes">Running against a remote Hermes<a class="headerlink" href="#running-against-a-remote-hermes" title="Anchor link to this section">&para;</a></h3>
 <p><code>hermes-top</code> reads <code>state.db</code> directly - it cannot connect to a remote Hermes over the network. To monitor a remote instance:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Option 1: SSH + local read</span>
-ssh<span class="w"> </span>remote-host<span class="w"> </span><span class="s1">'hermes-top --db /path/to/state.db'</span>
+ssh<span class="w"> </span>remote-host<span class="w"> </span><span class="s1">&#39;hermes-top --db /path/to/state.db&#39;</span>
 
 <span class="c1"># Option 2: Sync state.db locally (read-only copy)</span>
 rsync<span class="w"> </span>-avz<span class="w"> </span>remote-host:~/.hermes/state.db<span class="w"> </span>/tmp/remote-state.db

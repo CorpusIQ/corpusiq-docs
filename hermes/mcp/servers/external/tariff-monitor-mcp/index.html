@@ -107,6 +107,9 @@
     "description": "A US import tariff calculator over 19,856 HTS code lines that stacks MFN, Section 301 and Section 232 duties and prices the exposure in dollars.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tariff-monitor-mcp",
     
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11113,10 +11116,10 @@ Built by: Dale Weaver (0xpi.com)
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Claude Desktop or Cursor, one block:</p>
 <div class="highlight"><pre><span></span><code>{
-  "mcpServers": {
-    "tariffmonitor": {
-      "command": "npx",
-      "args": ["-y", "tariffmonitor-mcp"]
+  &quot;mcpServers&quot;: {
+    &quot;tariffmonitor&quot;: {
+      &quot;command&quot;: &quot;npx&quot;,
+      &quot;args&quot;: [&quot;-y&quot;, &quot;tariffmonitor-mcp&quot;]
     }
   }
 }

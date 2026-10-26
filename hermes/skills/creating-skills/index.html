@@ -111,8 +111,8 @@
     "description": "Complete guide to creating custom Hermes Agent skills. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology",
     "url": "https://www.corpusiq.io/docs/hermes/skills/creating-skills",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11453,21 +11453,21 @@ communication summary.
 Search CRM by name or email. If multiple matches, present options for user
 to select.
 
-Error: No match → "No customer found with that name/email."
+Error: No match → &quot;No customer found with that name/email.&quot;
 Error: Multiple matches → Present a numbered list for user selection.
-Error: CRM unavailable → "CRM connector is not responding. Try again or
-check your connection."
+Error: CRM unavailable → &quot;CRM connector is not responding. Try again or
+check your connection.&quot;
 
 <span class="gu">### Step 2: Gather Profile Data</span>
-Fetch the selected customer's full CRM record.
+Fetch the selected customer&#39;s full CRM record.
 
 Error: Record deleted between search and fetch → Retry search to confirm.
 
 <span class="gu">### Step 3: Gather Billing Data</span>
 Query billing system for recent invoices and payment status.
 
-Error: Billing system unavailable → Show CRM data with note: "Billing data
-unavailable  --  QuickBooks connector not responding."
+Error: Billing system unavailable → Show CRM data with note: &quot;Billing data
+unavailable  --  QuickBooks connector not responding.&quot;
 
 <span class="gu">### Step 4: Gather Support Data</span>
 Check for open support tickets and recent resolved tickets.

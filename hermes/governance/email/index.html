@@ -107,8 +107,8 @@
     "description": "Autonomous email management for dual-account operations. Monitoring, send checklist, HTML templates, response standards.",
     "url": "https://www.corpusiq.io/docs/hermes/governance/email",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11039,7 +11039,7 @@ personal@example.com (personal)
 <h2 id="monitoring">Monitoring<a class="headerlink" href="#monitoring" title="Anchor link to this section">&para;</a></h2>
 <p>A master monitor checks both accounts every 30 minutes:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Dual-account monitor</span>
-<span class="n">accounts</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"team@example.com"</span><span class="p">,</span> <span class="s2">"info@example.com"</span><span class="p">]</span>
+<span class="n">accounts</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;team@example.com&quot;</span><span class="p">,</span> <span class="s2">&quot;info@example.com&quot;</span><span class="p">]</span>
 <span class="k">for</span> <span class="n">account</span> <span class="ow">in</span> <span class="n">accounts</span><span class="p">:</span>
     <span class="n">new_messages</span> <span class="o">=</span> <span class="n">check_inbox</span><span class="p">(</span><span class="n">account</span><span class="p">,</span> <span class="n">since</span><span class="o">=</span><span class="n">last_check</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">new_messages</span><span class="p">:</span>

@@ -107,6 +107,9 @@
     "description": "Official MCP server from Relm: 41 typed tools over contacts, companies, deals, pipelines, automations, sequences, templates and webhooks with OAuth 2.1",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/relm-mcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10985,21 +10988,21 @@
 <h1 id="relm-mcp">Relm MCP<a class="headerlink" href="#relm-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Official MCP server from Relm, an API-first CRM built for AI agents.</strong> 41 typed tools cover contacts, companies, deals, activities, pipelines, automations, drip sequences, email templates and webhooks from a single Streamable HTTP endpoint at <code>api.relmcrm.com/mcp</code>. Everything an agent can do in the dashboard it can also do over the MCP server with the same bearer key - and the error contract is built for agents: every failure is an RFC-9457 problem+JSON response that carries <code>valid_options</code> and a <code>suggestion</code>, so the agent self-corrects instead of guessing.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: OAuth 2.1 (DCR + PKCE, rotating refresh tokens, scope "crm") or bearer key (relm_live_ / relm_test_)
+Auth: OAuth 2.1 (DCR + PKCE, rotating refresh tokens, scope &quot;crm&quot;) or bearer key (relm_live_ / relm_test_)
 Endpoint: https://api.relmcrm.com/mcp
 Tools: 41 (verified via public tools/list, Aug 30, 2026)
-serverInfo: relm v0.17.1 - "Relm CRM" (live-verified)
+serverInfo: relm v0.17.1 - &quot;Relm CRM&quot; (live-verified)
 Pricing: Free 1,000 req/mo · Pro $29/mo (100k) · Scale $249/mo (2M), overage $0.0001/req, spend caps
 A2A: https://api.relmcrm.com/a2a · OpenAPI: https://relmcrm.com/openapi.json
 SDK: npm i relmcrm (zero-dependency TypeScript)
 Built by: Relm (relmcrm.com)
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w"> </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w"> </span><span class="nt">"relm"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w"> </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.relmcrm.com/mcp"</span><span class="p">,</span>
-<span class="w"> </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer relm_live_..."</span><span class="w"> </span><span class="p">}</span>
+<span class="w"> </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;relm&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.relmcrm.com/mcp&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer relm_live_...&quot;</span><span class="w"> </span><span class="p">}</span>
 <span class="w"> </span><span class="p">}</span>
 <span class="w"> </span><span class="p">}</span>
 <span class="p">}</span>

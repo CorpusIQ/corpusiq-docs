@@ -107,8 +107,8 @@
     "description": "Install and configure arxiv, the official Hermes Agent skill for searching academic papers via arXiv\u0027s free REST API.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/arxiv-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11215,32 +11215,32 @@ curl<span class="w"> </span>-o<span class="w"> </span>~/.hermes/skills/arxiv/SKI
 </table>
 <h3 id="api-commands-behind-the-scenes">API Commands (Behind the Scenes)<a class="headerlink" href="#api-commands-behind-the-scenes" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Search papers</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://export.arxiv.org/api/query?search_query=all:GRPO+reinforcement+learning&amp;max_results=5&amp;sortBy=submittedDate&amp;sortOrder=descending"</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://export.arxiv.org/api/query?search_query=all:GRPO+reinforcement+learning&amp;max_results=5&amp;sortBy=submittedDate&amp;sortOrder=descending&quot;</span>
 
 <span class="c1"># Get specific paper</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://export.arxiv.org/api/query?id_list=2402.03300"</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://export.arxiv.org/api/query?id_list=2402.03300&quot;</span>
 
 <span class="c1"># Search by author</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://export.arxiv.org/api/query?search_query=au:lecun&amp;max_results=5"</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://export.arxiv.org/api/query?search_query=au:lecun&amp;max_results=5&quot;</span>
 
 <span class="c1"># Filter by category</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://export.arxiv.org/api/query?search_query=cat:cs.AI+AND+all:attention+mechanism&amp;max_results=5"</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://export.arxiv.org/api/query?search_query=cat:cs.AI+AND+all:attention+mechanism&amp;max_results=5&quot;</span>
 </code></pre></div>
 <h3 id="clean-output-parse-xml">Clean Output (Parse XML)<a class="headerlink" href="#clean-output-parse-xml" title="Anchor link to this section">&para;</a></h3>
 <p>The API returns Atom XML. Hermes auto-parses this, but you can also pipe through Python:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://export.arxiv.org/api/query?search_query=all:GRPO&amp;max_results=3&amp;sortBy=submittedDate&amp;sortOrder=descending"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://export.arxiv.org/api/query?search_query=all:GRPO&amp;max_results=3&amp;sortBy=submittedDate&amp;sortOrder=descending&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">import sys, xml.etree.ElementTree as ET</span>
-<span class="s2">ns = {'atom': 'http://www.w3.org/2005/Atom'}</span>
+<span class="s2">ns = {&#39;atom&#39;: &#39;http://www.w3.org/2005/Atom&#39;}</span>
 <span class="s2">root = ET.fromstring(sys.stdin.read())</span>
-<span class="s2">for entry in root.findall('atom:entry', ns):</span>
-<span class="s2">    title = entry.find('atom:title', ns).text.strip().replace('\n', ' ')</span>
-<span class="s2">    authors = [a.find('atom:name', ns).text for a in entry.findall('atom:author', ns)]</span>
-<span class="s2">    link = entry.find('atom:id', ns).text</span>
-<span class="s2">    print(f'{title}')</span>
-<span class="s2">    print(f'  Authors: {', '.join(authors[:3])}')</span>
-<span class="s2">    print(f'  ID: {link.split('/')[-1]}')</span>
+<span class="s2">for entry in root.findall(&#39;atom:entry&#39;, ns):</span>
+<span class="s2">    title = entry.find(&#39;atom:title&#39;, ns).text.strip().replace(&#39;\n&#39;, &#39; &#39;)</span>
+<span class="s2">    authors = [a.find(&#39;atom:name&#39;, ns).text for a in entry.findall(&#39;atom:author&#39;, ns)]</span>
+<span class="s2">    link = entry.find(&#39;atom:id&#39;, ns).text</span>
+<span class="s2">    print(f&#39;{title}&#39;)</span>
+<span class="s2">    print(f&#39;  Authors: {&#39;, &#39;.join(authors[:3])}&#39;)</span>
+<span class="s2">    print(f&#39;  ID: {link.split(&#39;/&#39;)[-1]}&#39;)</span>
 <span class="s2">    print()</span>
-<span class="s2">"</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="search-tips">Search Tips<a class="headerlink" href="#search-tips" title="Anchor link to this section">&para;</a></h2>
@@ -11336,7 +11336,7 @@ curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>arxiv
 
 <span class="c1"># Test API directly</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://export.arxiv.org/api/query?search_query=all:test&amp;max_results=1"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">"&lt;entry&gt;"</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://export.arxiv.org/api/query?search_query=all:test&amp;max_results=1&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;&lt;entry&gt;&quot;</span>
 <span class="c1"># Expected: 1</span>
 </code></pre></div>
 <hr />

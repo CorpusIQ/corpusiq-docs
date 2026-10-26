@@ -107,8 +107,8 @@
     "description": "42+ installs. Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. Setup guide",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-traffic-guardian-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11098,15 +11098,15 @@
 <p>For security-critical deployments, verify the signed release manifest:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Clone and verify</span>
 <span class="nb">set</span><span class="w"> </span>-euo<span class="w"> </span>pipefail
-<span class="nv">SKILL_NAME</span><span class="o">=</span><span class="s2">"hermes-traffic-guardian"</span>
-<span class="nv">VERSION</span><span class="o">=</span><span class="s2">"0.0.1-beta5"</span>
-<span class="nv">REPO</span><span class="o">=</span><span class="s2">"prompt-security/clawsec"</span>
-<span class="nv">TAG</span><span class="o">=</span><span class="s2">"</span><span class="si">${</span><span class="nv">SKILL_NAME</span><span class="si">}</span><span class="s2">-v</span><span class="si">${</span><span class="nv">VERSION</span><span class="si">}</span><span class="s2">"</span>
-<span class="nv">BASE</span><span class="o">=</span><span class="s2">"https://github.com/</span><span class="si">${</span><span class="nv">REPO</span><span class="si">}</span><span class="s2">/releases/download/</span><span class="si">${</span><span class="nv">TAG</span><span class="si">}</span><span class="s2">"</span>
+<span class="nv">SKILL_NAME</span><span class="o">=</span><span class="s2">&quot;hermes-traffic-guardian&quot;</span>
+<span class="nv">VERSION</span><span class="o">=</span><span class="s2">&quot;0.0.1-beta5&quot;</span>
+<span class="nv">REPO</span><span class="o">=</span><span class="s2">&quot;prompt-security/clawsec&quot;</span>
+<span class="nv">TAG</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">SKILL_NAME</span><span class="si">}</span><span class="s2">-v</span><span class="si">${</span><span class="nv">VERSION</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="nv">BASE</span><span class="o">=</span><span class="s2">&quot;https://github.com/</span><span class="si">${</span><span class="nv">REPO</span><span class="si">}</span><span class="s2">/releases/download/</span><span class="si">${</span><span class="nv">TAG</span><span class="si">}</span><span class="s2">&quot;</span>
 
-curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">"</span><span class="nv">$BASE</span><span class="s2">/checksums.json"</span><span class="w"> </span>-o<span class="w"> </span>checksums.json
-curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">"</span><span class="nv">$BASE</span><span class="s2">/checksums.sig"</span><span class="w"> </span>-o<span class="w"> </span>checksums.sig
-curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">"</span><span class="nv">$BASE</span><span class="s2">/signing-public.pem"</span><span class="w"> </span>-o<span class="w"> </span>signing-public.pem
+curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/checksums.json&quot;</span><span class="w"> </span>-o<span class="w"> </span>checksums.json
+curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/checksums.sig&quot;</span><span class="w"> </span>-o<span class="w"> </span>checksums.sig
+curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/signing-public.pem&quot;</span><span class="w"> </span>-o<span class="w"> </span>signing-public.pem
 <span class="c1"># Verify signature and checksums (see SKILL.md for full verification script)</span>
 </code></pre></div>
 <hr />

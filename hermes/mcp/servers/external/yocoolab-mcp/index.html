@@ -107,6 +107,9 @@
     "description": "Self-hosted stdio MCP server that connects AI coding agents to Yocoolab\u0027s visual feedback platform.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/yocoolab-mcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11077,15 +11080,15 @@ Built by: Yocoolab (github.com/Yocoolab/mcp-server, Apache 2.0)
 <p>The setup wizard detects installed agents and writes the correct MCP config for each; restart the agent and the yocoolab server appears. Requirements: Node.js 20+, a Yocoolab account with JWT (from the Chrome extension settings), and a GitHub PAT with repo scope only if you want the PR tools (auto-detected when the gh CLI is installed and authenticated).</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"yocoolab"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@yocoolab/mcp-server@2"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"YOCOOLAB_API_URL"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://app.yocoolab.com"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"YOCOOLAB_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;your-yocoolab-jwt&gt;"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"YOCOOLAB_BRIDGE_PORT"</span><span class="p">:</span><span class="w"> </span><span class="s2">"9800"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"YOCOOLAB_BRIDGE_WORKSPACE"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/absolute/path/to/your/workspace"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;yocoolab&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@yocoolab/mcp-server@2&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;YOCOOLAB_API_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://app.yocoolab.com&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;YOCOOLAB_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;your-yocoolab-jwt&gt;&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;YOCOOLAB_BRIDGE_PORT&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;9800&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;YOCOOLAB_BRIDGE_WORKSPACE&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/absolute/path/to/your/workspace&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

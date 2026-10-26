@@ -107,8 +107,8 @@
     "description": "AI marketing analyst MCP - connect Google Ads, Meta Ads, GA4, Search Console, and Stripe to audit campaigns, analyze funnels, and catch wasted ad spend",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/1clickreport-mcp",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11105,12 +11105,12 @@
 </ul>
 <h3 id="add-to-hermes-agent">Add to Hermes Agent<a class="headerlink" href="#add-to-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"1clickreport"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@1clickreport/mcp-server"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"ONECLICKREPORT_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_api_key_here"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;1clickreport&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@1clickreport/mcp-server&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;ONECLICKREPORT_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_api_key_here&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11162,33 +11162,33 @@
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-weekly-marketing-audit">1. Weekly Marketing Audit<a class="headerlink" href="#1-weekly-marketing-audit" title="Anchor link to this section">&para;</a></h3>
 <p>Replace the manual Friday-afternoon spreadsheet session:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Run a full audit of all our ad accounts this week.
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Run a full audit of all our ad accounts this week.
 Show me: total spend, revenue (from Stripe), true ROAS by channel,
 top 5 performing campaigns, top 5 worst performers, and total
 wasted spend (keywords/audiences with &gt;$100 spend and 0 conversions).
-Recommend 3 changes that would improve ROAS this weekend."
+Recommend 3 changes that would improve ROAS this weekend.&quot;
 </code></pre></div>
 <h3 id="2-funnel-leak-detection">2. Funnel Leak Detection<a class="headerlink" href="#2-funnel-leak-detection" title="Anchor link to this section">&para;</a></h3>
 <p>Find where prospects drop off:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Analyze our Meta Ads → landing page → checkout funnel.
-Where's the biggest drop-off? Is it the ad creative, the landing page,
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Analyze our Meta Ads → landing page → checkout funnel.
+Where&#39;s the biggest drop-off? Is it the ad creative, the landing page,
 or the checkout flow? Show conversion rate at each step and compare
-to last month."
+to last month.&quot;
 </code></pre></div>
 <h3 id="3-cross-platform-budget-optimization">3. Cross-Platform Budget Optimization<a class="headerlink" href="#3-cross-platform-budget-optimization" title="Anchor link to this section">&para;</a></h3>
 <p>Don't guess - let the data decide:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "We have $500/day to spend. Look at last 30 days'
-performance across Google Ads and Meta Ads. What's the optimal
-split to maximize revenue? If we're hitting diminishing returns
-on one platform, show the reallocation math."
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We have $500/day to spend. Look at last 30 days&#39;
+performance across Google Ads and Meta Ads. What&#39;s the optimal
+split to maximize revenue? If we&#39;re hitting diminishing returns
+on one platform, show the reallocation math.&quot;
 </code></pre></div>
 <h3 id="4-launch-performance-retrospective">4. Launch Performance Retrospective<a class="headerlink" href="#4-launch-performance-retrospective" title="Anchor link to this section">&para;</a></h3>
 <p>Analyze what actually worked:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Our product launch was 2 weeks ago. Pull all ad data,
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Our product launch was 2 weeks ago. Pull all ad data,
 landing page analytics, and Stripe revenue for the launch period.
 What was our blended CAC? Which creative drove the most revenue?
 Which audience had the highest LTV signals? What should we double
-down on for the next launch?"
+down on for the next launch?&quot;
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>1ClickReport MCP + CorpusIQ = complete marketing command center:</p>

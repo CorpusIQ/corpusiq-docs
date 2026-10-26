@@ -107,8 +107,8 @@
     "description": "Setup guide for amplitude/mcp-marketplace: 38 official Amplitude agent skills for product analytics, instrumentation, taxonomy and event discovery.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/amplitude-agent-skills-setup",
     
-    "datePublished": "2026-10-08",
-    "dateModified": "2026-10-08",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-08">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11148,7 +11148,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Spot-check the source repo (expect: 42 stars, pushed 2026-10-08, MIT)</span>
-curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/amplitude/mcp-marketplace<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'"stargazers_count"|"pushed_at"'</span>
+curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/amplitude/mcp-marketplace<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;&quot;stargazers_count&quot;|&quot;pushed_at&quot;&#39;</span>
 </code></pre></div>
 <p>After installing, start with an audit-style workflow - run the <code>taxonomy</code> skill against a sample tracking plan and review its output - before letting the agent touch production instrumentation. No live install test was performed for this guide; counts and verdicts are the Oct 8, 2026 skills.sh snapshot.</p>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

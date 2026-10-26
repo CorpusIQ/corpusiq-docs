@@ -107,8 +107,8 @@
     "description": "Setup guide for conardli/garden-skills: 5 agent skills for web video, web design, image generation, and article design - 26.3K combined installs.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/garden-skills-setup",
     
-    "datePublished": "2026-10-09",
-    "dateModified": "2026-10-09",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-09">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11143,10 +11143,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Confirm the skills are installed</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"web-video-presentation|web-design-engineer|gpt-image-2|kb-retriever|beautiful-article"</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;web-video-presentation|web-design-engineer|gpt-image-2|kb-retriever|beautiful-article&quot;</span>
 
 <span class="c1"># Claude Code / skills-directory agents: check the skills directory</span>
-ls<span class="w"> </span>.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"web-video-presentation|web-design-engineer|gpt-image-2|kb-retriever|beautiful-article"</span>
+ls<span class="w"> </span>.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;web-video-presentation|web-design-engineer|gpt-image-2|kb-retriever|beautiful-article&quot;</span>
 
 <span class="c1"># Review a SKILL.md directly before installing</span>
 curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/ConardLi/garden-skills/main/skills/web-design-engineer/SKILL.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-40

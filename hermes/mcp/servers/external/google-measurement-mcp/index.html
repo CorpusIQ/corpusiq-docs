@@ -107,6 +107,9 @@
     "description": "The Google measurement stack for AI agents. One MCP server exposes GA4, Search Console and Tag Manager with 15 read tools always on and 9 write tools that stay",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-measurement-mcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11069,12 +11072,12 @@ google-measurement-mcp
 <p>First run walks through creating a Google Cloud project, enabling the three APIs, configuring the consent screen, publishing the OAuth app (the vendor explicitly warns not to skip this step) and creating an OAuth client. Agencies and CI can use a service-account setup instead of the interactive flow.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"google-measurement"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"google-measurement-mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"GOOGLE_CLIENT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-client-id"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"GOOGLE_CLIENT_SECRET"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-client-secret"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;google-measurement&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;google-measurement-mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_CLIENT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-client-id&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_CLIENT_SECRET&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-client-secret&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

@@ -107,6 +107,9 @@
     "description": "DrUrls crawls a site, scores it, lists every issue with its fix, checks what blocks Google indexing, and can order a real person to test a device.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/drurls-mcp",
     
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-22">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11091,7 +11094,7 @@
 <p><strong>Most SEO tools tell you a page scores 68. DrUrls tells you the eight things costing the other 32 points, what each one is worth in crawl terms, and which single fix touches the most pages.</strong></p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) at https://drurls.com/mcp
 Auth: OAuth 2.1 with dynamic client registration on first connect; a dashboard API key also works
-Live check: POST initialize returned HTTP 200 (serverInfo drurls 1.0.0, title "DrUrls - SEO intelligence", protocol 2025-03-26, tools capability); tools/list returned 11 tools
+Live check: POST initialize returned HTTP 200 (serverInfo drurls 1.0.0, title &quot;DrUrls - SEO intelligence&quot;, protocol 2025-03-26, tools capability); tools/list returned 11 tools
 Real call: free_page_check on https://corpusiq.io returned HTTP 200 with score 91, grade A, 8 open issues, 133 internal links, 11 external links, 85 images with 0 missing alt, 149 ms response time
 Tools: 11 (audits, issue search, Google visibility, improvement plan, report generation, tester marketplace)
 Pricing: Free $0 with 5 credits a month, Pro $29 ($24 annual) with 250, Agency $79 ($66) with 1250, Enterprise $199 ($166) unlimited; extra credits $0.80 / $0.50 / $0.30 / $0.20 by tier
@@ -11111,10 +11114,10 @@ Vendor: DrUrls (drurls.com)
 <p>The first call opens DrUrls for sign-in and approval. Approval issues a key that works only against the MCP server, carries no team or billing rights, and can be revoked from the dashboard.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"drurls"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://drurls.com/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;drurls&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://drurls.com/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11123,12 +11126,12 @@ Vendor: DrUrls (drurls.com)
 <h2 id="what-a-free-check-actually-returns">What a Free Check Actually Returns<a class="headerlink" href="#what-a-free-check-actually-returns" title="Anchor link to this section">&para;</a></h2>
 <p>Run against this site's own homepage at capture time, <code>free_page_check</code> returned a JSON body rather than a paragraph of prose, which is what makes it usable inside an agent:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"score"</span><span class="p">:</span><span class="w"> </span><span class="mi">91</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"grade"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"responseTimeMs"</span><span class="p">:</span><span class="w"> </span><span class="mi">149</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"wordCount"</span><span class="p">:</span><span class="w"> </span><span class="mi">4056</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"links"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"internal"</span><span class="p">:</span><span class="w"> </span><span class="mi">133</span><span class="p">,</span><span class="w"> </span><span class="nt">"external"</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="nt">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">144</span><span class="p">},</span>
-<span class="w">  </span><span class="nt">"images"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">85</span><span class="p">,</span><span class="w"> </span><span class="nt">"withoutAlt"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">}</span>
+<span class="w">  </span><span class="nt">&quot;score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">91</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;grade&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;responseTimeMs&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">149</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;wordCount&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">4056</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;links&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;internal&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">133</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;external&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;total&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">144</span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;images&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;total&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">85</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;withoutAlt&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>with category scores for crawlability, indexability, metadata, content and internal links, and eight open issues carrying codes such as <code>CORS_WILDCARD</code>, <code>RENDER_BLOCKING_RESOURCES</code>, <code>EXCESSIVE_DOM_SIZE</code>, <code>CSP_UNSAFE_INLINE</code>, <code>IMAGE_FORMAT_NOT_MODERN</code>, <code>IMAGE_MISSING_SRCSET</code>, <code>META_KEYWORDS_PRESENT</code> and <code>CONTENT_LANGUAGE_HEADER_MISSING</code>. Each issue carries <code>severity</code>, <code>category</code>, <code>whyItMatters</code> and <code>howToFix</code>. That structure is the point: an agent can group them, cost them and sequence them without a human reading a PDF.</p>

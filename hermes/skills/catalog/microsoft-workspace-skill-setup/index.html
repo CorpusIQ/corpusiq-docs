@@ -107,8 +107,8 @@
     "description": "Install and configure Andrew-Girgis/microsoft-workspace-skill - Outlook email, calendar, and Microsoft 365 Graph API access for Hermes Agent.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-workspace-skill-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11173,44 +11173,44 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Andre
 </ol>
 <h3 id="step-4-configure-the-skill">Step 4: Configure the Skill<a class="headerlink" href="#step-4-configure-the-skill" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">microsoft_workspace</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">"${MS_CLIENT_ID}"</span>
-<span class="w">  </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">"${MS_CLIENT_SECRET}"</span>
-<span class="w">  </span><span class="nt">tenant_id</span><span class="p">:</span><span class="w"> </span><span class="s">"${MS_TENANT_ID}"</span><span class="w">          </span><span class="c1"># or "common" for multi-tenant</span>
-<span class="w">  </span><span class="nt">redirect_uri</span><span class="p">:</span><span class="w"> </span><span class="s">"http://localhost:8080/callback"</span>
+<span class="w">  </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${MS_CLIENT_ID}&quot;</span>
+<span class="w">  </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${MS_CLIENT_SECRET}&quot;</span>
+<span class="w">  </span><span class="nt">tenant_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${MS_TENANT_ID}&quot;</span><span class="w">          </span><span class="c1"># or &quot;common&quot; for multi-tenant</span>
+<span class="w">  </span><span class="nt">redirect_uri</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://localhost:8080/callback&quot;</span>
 <span class="w">  </span><span class="nt">scopes</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"Mail.ReadWrite"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"Calendars.ReadWrite"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"Contacts.ReadWrite"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"Files.ReadWrite"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"Tasks.ReadWrite"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Mail.ReadWrite&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Calendars.ReadWrite&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Contacts.ReadWrite&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Files.ReadWrite&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Tasks.ReadWrite&quot;</span>
 </code></pre></div>
 <h3 id="step-5-first-authentication">Step 5: First Authentication<a class="headerlink" href="#step-5-first-authentication" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># The first time, Hermes will open a browser for OAuth consent</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"Check my Outlook inbox for unread emails"</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;Check my Outlook inbox for unread emails&quot;</span>
 <span class="c1"># Follow the browser prompt to authorize</span>
 </code></pre></div>
 <p>The access and refresh tokens are stored securely in <code>~/.hermes/secrets/microsoft-workspace.json</code>.</p>
 <h2 id="key-workflows">Key Workflows<a class="headerlink" href="#key-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="email-operations">Email operations<a class="headerlink" href="#email-operations" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Check my Outlook inbox for unread emails from @example.com.
-Send an email to user@example.com with subject "Q3 Planning Update".
+Send an email to user@example.com with subject &quot;Q3 Planning Update&quot;.
 </code></pre></div>
 <h3 id="calendar">Calendar<a class="headerlink" href="#calendar" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>What meetings do I have tomorrow?
 Schedule a 30-minute sync with the dev team on Friday at 10 AM.
 </code></pre></div>
 <h3 id="teams">Teams<a class="headerlink" href="#teams" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Send a message to the "Product" Teams channel: "New skills sweep published - 31 new Hermes skills discovered."
+<div class="highlight"><pre><span></span><code>Send a message to the &quot;Product&quot; Teams channel: &quot;New skills sweep published - 31 new Hermes skills discovered.&quot;
 </code></pre></div>
 <h3 id="file-search">File search<a class="headerlink" href="#file-search" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Find all PowerPoint files in my OneDrive modified this week.
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test authentication</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"List my Outlook folders"</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;List my Outlook folders&quot;</span>
 
 <span class="c1"># Test calendar</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"Show today's calendar events"</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;Show today&#39;s calendar events&quot;</span>
 </code></pre></div>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>

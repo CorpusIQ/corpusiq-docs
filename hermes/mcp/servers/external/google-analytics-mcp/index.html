@@ -107,8 +107,8 @@
     "description": "AI-powered Google Analytics 4 access - pull reports, monitor realtime traffic, and manage GA4 properties directly from Hermes Agent.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-analytics-mcp",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11110,12 +11110,12 @@
 cargo<span class="w"> </span>build<span class="w"> </span>--release
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"google-analytics"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"path/to/mcp-server-google-analytics/target/release/google-analytics-mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"GA4_PROPERTY_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"properties/123456789"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"GOOGLE_APPLICATION_CREDENTIALS"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/to/service-account-key.json"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;google-analytics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;path/to/mcp-server-google-analytics/target/release/google-analytics-mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;GA4_PROPERTY_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;properties/123456789&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_APPLICATION_CREDENTIALS&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/service-account-key.json&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11167,29 +11167,29 @@ cargo<span class="w"> </span>build<span class="w"> </span>--release
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-daily-kpi-summary">1. Daily KPI Summary<a class="headerlink" href="#1-daily-kpi-summary" title="Anchor link to this section">&para;</a></h3>
 <p>Get your key metrics without opening a dashboard:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Give me yesterday's GA4 summary: users, sessions,
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Give me yesterday&#39;s GA4 summary: users, sessions,
 conversion rate, top 5 landing pages, top 3 traffic sources,
-and revenue if ecommerce is tracking. Compare to the same day last week."
+and revenue if ecommerce is tracking. Compare to the same day last week.&quot;
 </code></pre></div>
 <h3 id="2-campaign-landing-page-analysis">2. Campaign Landing Page Analysis<a class="headerlink" href="#2-campaign-landing-page-analysis" title="Anchor link to this section">&para;</a></h3>
 <p>Check if your ad traffic converts:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "I just launched a Google Ads campaign driving traffic
-to /promo. Pull this page's metrics for today: entrances, bounce rate,
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;I just launched a Google Ads campaign driving traffic
+to /promo. Pull this page&#39;s metrics for today: entrances, bounce rate,
 avg session duration, and conversion rate. How does it compare to
-the site average?"
+the site average?&quot;
 </code></pre></div>
 <h3 id="3-content-performance-audit">3. Content Performance Audit<a class="headerlink" href="#3-content-performance-audit" title="Anchor link to this section">&para;</a></h3>
 <p>Find what content actually works:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Show me the top 20 blog posts by organic traffic this month.
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Show me the top 20 blog posts by organic traffic this month.
 For each, show: page views, avg engagement time, and conversion rate.
 Sort by conversions per 1,000 views. Flag any posts in the top 10
-by traffic that have below-average conversion rate - those need CTAs."
+by traffic that have below-average conversion rate - those need CTAs.&quot;
 </code></pre></div>
 <h3 id="4-realtime-launch-monitoring">4. Realtime Launch Monitoring<a class="headerlink" href="#4-realtime-launch-monitoring" title="Anchor link to this section">&para;</a></h3>
 <p>Watch a product launch or campaign go live:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "We just sent the email blast at 10 AM. Monitor GA4 realtime
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We just sent the email blast at 10 AM. Monitor GA4 realtime
 for the next 30 minutes. Alert me if active users spike above 500,
-or if the /launch page error rate goes above 2%."
+or if the /launch page error rate goes above 2%.&quot;
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>Google Analytics MCP + CorpusIQ = complete analytics operations:</p>

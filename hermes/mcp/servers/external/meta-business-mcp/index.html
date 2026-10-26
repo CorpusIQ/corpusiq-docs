@@ -107,8 +107,8 @@
     "description": "Connect AI agents to WhatsApp Business Cloud API via MCP - 24 tools for message orchestration, compliance engine, and error intelligence",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/meta-business-mcp",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11093,13 +11093,13 @@ go<span class="w"> </span>install<span class="w"> </span>github.com/metabusiness
 <h2 id="mcp-client-configuration">MCP Client Configuration<a class="headerlink" href="#mcp-client-configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Add to your MCP client config (<code>claude_desktop_config.json</code>, <code>mcp.json</code>, etc.):</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"meta-business-mcp"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/to/meta-business-mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"WHATSAPP_ACCESS_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-permanent-token"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"WHATSAPP_PHONE_NUMBER_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-phone-number-id"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"WHATSAPP_BUSINESS_ACCOUNT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-waba-id"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;meta-business-mcp&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/meta-business-mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;WHATSAPP_ACCESS_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-permanent-token&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;WHATSAPP_PHONE_NUMBER_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-phone-number-id&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;WHATSAPP_BUSINESS_ACCOUNT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-waba-id&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

@@ -11163,23 +11163,23 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/corpu
 
 <span class="c1"># 2. Add your CorpusIQ MCP endpoint to your agent</span>
 <span class="c1"># Claude Code:</span>
-claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">"Authorization: YOUR_API_KEY"</span>
+claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: YOUR_API_KEY&quot;</span>
 
 <span class="c1"># Cursor / Windsurf:</span>
 <span class="c1"># Add to .cursor/mcp.json or .windsurf/mcp.json:</span>
 <span class="o">{</span>
-<span class="w">  </span><span class="s2">"mcpServers"</span>:<span class="w"> </span><span class="o">{</span>
-<span class="w">    </span><span class="s2">"corpusiq"</span>:<span class="w"> </span><span class="o">{</span>
-<span class="w">      </span><span class="s2">"url"</span>:<span class="w"> </span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span>,
-<span class="w">      </span><span class="s2">"headers"</span>:<span class="w"> </span><span class="o">{</span><span class="w"> </span><span class="s2">"Authorization"</span>:<span class="w"> </span><span class="s2">"YOUR_API_KEY"</span><span class="w"> </span><span class="o">}</span>
+<span class="w">  </span><span class="s2">&quot;mcpServers&quot;</span>:<span class="w"> </span><span class="o">{</span>
+<span class="w">    </span><span class="s2">&quot;corpusiq&quot;</span>:<span class="w"> </span><span class="o">{</span>
+<span class="w">      </span><span class="s2">&quot;url&quot;</span>:<span class="w"> </span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span>,
+<span class="w">      </span><span class="s2">&quot;headers&quot;</span>:<span class="w"> </span><span class="o">{</span><span class="w"> </span><span class="s2">&quot;Authorization&quot;</span>:<span class="w"> </span><span class="s2">&quot;YOUR_API_KEY&quot;</span><span class="w"> </span><span class="o">}</span>
 <span class="w">    </span><span class="o">}</span>
 <span class="w">  </span><span class="o">}</span>
 <span class="o">}</span>
 
 <span class="c1"># 3. Your agent now has 64+ business data tools</span>
-<span class="c1"># Try: "What was our revenue last month?"</span>
-<span class="c1"># Try: "Show me all Shopify orders over $500 this week"</span>
-<span class="c1"># Try: "Compare Stripe MRR vs QuickBooks expenses"</span>
+<span class="c1"># Try: &quot;What was our revenue last month?&quot;</span>
+<span class="c1"># Try: &quot;Show me all Shopify orders over $500 this week&quot;</span>
+<span class="c1"># Try: &quot;Compare Stripe MRR vs QuickBooks expenses&quot;</span>
 </code></pre></div>
 <h2 id="no-code-path-n8n-make-zapier">No-Code Path (n8n, Make, Zapier)<a class="headerlink" href="#no-code-path-n8n-make-zapier" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># n8n users: install the Postiz node then add CorpusIQ as an MCP tool node</span>

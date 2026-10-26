@@ -107,8 +107,8 @@
     "description": "Full setup guide for Crustdata MCP - real-time B2B company and people intelligence with 15+ live data sources covering 1B+ people and 100M+ companies",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/crustdata",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11124,12 +11124,12 @@ npx<span class="w"> </span>-y<span class="w"> </span>crustdata-mcp
 </code></pre></div>
 <h2 id="hermes-claude-desktop-configuration">Hermes / Claude Desktop Configuration<a class="headerlink" href="#hermes-claude-desktop-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"crustdata"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"crustdata-mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"CRUSTDATA_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-api-key"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;crustdata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;crustdata-mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;CRUSTDATA_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-api-key&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11137,23 +11137,23 @@ npx<span class="w"> </span>-y<span class="w"> </span>crustdata-mcp
 </code></pre></div>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-account-research">1. Account Research<a class="headerlink" href="#1-account-research" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Give me a full profile on Acme Corp: company size, funding, key executives, 
-recent news, and current job openings."
+<p><div class="highlight"><pre><span></span><code>&quot;Give me a full profile on Acme Corp: company size, funding, key executives, 
+recent news, and current job openings.&quot;
 </code></pre></div>
 Agent queries Crustdata across all sources and delivers a comprehensive company dossier.</p>
 <h3 id="2-lead-enrichment">2. Lead Enrichment<a class="headerlink" href="#2-lead-enrichment" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Enrich these 20 company names with HQ location, employee count, industry, 
-and the LinkedIn profiles of their CTO and VP of Engineering."
+<p><div class="highlight"><pre><span></span><code>&quot;Enrich these 20 company names with HQ location, employee count, industry, 
+and the LinkedIn profiles of their CTO and VP of Engineering.&quot;
 </code></pre></div>
 Batch enrichment for outbound prospecting - fills CRM gaps automatically.</p>
 <h3 id="3-trigger-based-outreach">3. Trigger-Based Outreach<a class="headerlink" href="#3-trigger-based-outreach" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Set up watchers for these 10 target accounts. Alert me when any of them 
-post new engineering job listings or have leadership changes."
+<p><div class="highlight"><pre><span></span><code>&quot;Set up watchers for these 10 target accounts. Alert me when any of them 
+post new engineering job listings or have leadership changes.&quot;
 </code></pre></div>
 Automated account monitoring replaces manual LinkedIn/alert tracking.</p>
 <h3 id="4-competitive-intelligence">4. Competitive Intelligence<a class="headerlink" href="#4-competitive-intelligence" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Compare the hiring velocity and social presence of our top 3 competitors 
-over the last quarter."
+<p><div class="highlight"><pre><span></span><code>&quot;Compare the hiring velocity and social presence of our top 3 competitors 
+over the last quarter.&quot;
 </code></pre></div>
 Cross-references job postings, social activity, and company updates for competitive analysis.</p>
 <h2 id="operator-value">Operator Value<a class="headerlink" href="#operator-value" title="Anchor link to this section">&para;</a></h2>

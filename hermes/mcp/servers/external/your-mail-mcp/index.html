@@ -107,6 +107,9 @@
     "description": "Self-hosted MCP server that gives AI clients read-only access to IMAP mail (Gmail, iCloud, any provider) through a one-way mbsync mirror indexed by notmuch.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/your-mail-mcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11082,9 +11085,9 @@ Built by: wildsurfer (github.com/wildsurfer/your-mail-mcp)
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Setup is two files (an accounts list and an env file) plus Docker Compose. Three deployment modes, in order of reach: (1) local machine only, <code>PUBLIC_URL=http://127.0.0.1:8080</code>; (2) your machine reachable from anywhere via Tailscale Funnel or Cloudflare Tunnel; (3) a VPS with a public hostname. Once up, connect any client:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"your-mail"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://127.0.0.1:8080/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;your-mail&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://127.0.0.1:8080/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

@@ -107,6 +107,9 @@
     "description": "Publish a business to 80+ directories and maps from one write, manage reviews and Google Business Profile posts, from your agent.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/listings-api-mcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11120,15 +11123,15 @@ Built by: ListingsAPI
 </table>
 <p>The REST v4 API and typed Python and Node SDKs back the same operations for scheduled jobs and dashboards.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude mcp add --transport http listingsapi https://listingsapi.com/mcp --header "Authorization: API &lt;your-api-key&gt;"
+<div class="highlight"><pre><span></span><code>claude mcp add --transport http listingsapi https://listingsapi.com/mcp --header &quot;Authorization: API &lt;your-api-key&gt;&quot;
 </code></pre></div>
 <p>In clients that support OAuth 2.0, skip the key and sign in; approving creates an API key named after the client, visible in your dashboard. Codex, Cursor and Windsurf configuration files are published on the MCP page; stdio-only clients bridge through <code>mcp-remote</code>.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"listingsapi"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://listingsapi.com/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"API &lt;your-api-key&gt;"</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;listingsapi&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://listingsapi.com/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;API &lt;your-api-key&gt;&quot;</span><span class="w"> </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

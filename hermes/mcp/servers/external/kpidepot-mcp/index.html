@@ -107,8 +107,8 @@
     "description": "KPI intelligence for AI agents - access 20,000+ corporate KPI definitions, formulas, and 30,000+ industry benchmarks.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/kpidepot-mcp",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11105,12 +11105,12 @@
 </ul>
 <h3 id="add-to-hermes-agent">Add to Hermes Agent<a class="headerlink" href="#add-to-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"kpidepot"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@kpidepot/mcp-server"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"KPIDEPOT_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_api_key_here"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;kpidepot&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@kpidepot/mcp-server&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;KPIDEPOT_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_api_key_here&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11158,31 +11158,31 @@
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-board-deck-data">1. Board Deck Data<a class="headerlink" href="#1-board-deck-data" title="Anchor link to this section">&para;</a></h3>
 <p>Generate data-backed performance context:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "I'm preparing our Q3 board deck. For our 5 core metrics
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;I&#39;m preparing our Q3 board deck. For our 5 core metrics
 (CAC, LTV, churn, NPS, gross margin), pull SaaS industry benchmarks
 for companies our size ($5-20M ARR). Show our actuals vs 50th and 75th
-percentile. Format as a comparison table."
+percentile. Format as a comparison table.&quot;
 </code></pre></div>
 <h3 id="2-investor-pitch-metrics">2. Investor Pitch Metrics<a class="headerlink" href="#2-investor-pitch-metrics" title="Anchor link to this section">&para;</a></h3>
 <p>Validate your metrics against the market:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "We pitch investors next week. Pull benchmarks for
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We pitch investors next week. Pull benchmarks for
 B2B SaaS Series A companies: CAC payback period, net dollar retention,
 gross margin, and magic number. Where do we need to improve to be
-in the top quartile? What's table stakes for Series A?"
+in the top quartile? What&#39;s table stakes for Series A?&quot;
 </code></pre></div>
 <h3 id="3-kpi-program-design">3. KPI Program Design<a class="headerlink" href="#3-kpi-program-design" title="Anchor link to this section">&para;</a></h3>
 <p>Design a measurement framework for a new initiative:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "We're launching a customer success function. What are
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We&#39;re launching a customer success function. What are
 the standard KPIs for B2B SaaS customer success? Pull the top 10 with
 formulas and benchmarks. Recommend which 5 we should track first
-and what good looks like at our stage."
+and what good looks like at our stage.&quot;
 </code></pre></div>
 <h3 id="4-quarterly-business-review-prep">4. Quarterly Business Review Prep<a class="headerlink" href="#4-quarterly-business-review-prep" title="Anchor link to this section">&para;</a></h3>
 <p>Automate QBR data preparation:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Pull benchmarks for all 12 KPIs in our Q3 scorecard.
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Pull benchmarks for all 12 KPIs in our Q3 scorecard.
 For each, show: our Q3 actual, industry median, top quartile, and
-our percentile rank. Flag any metric where we're below the 25th
-percentile - those need a remediation plan."
+our percentile rank. Flag any metric where we&#39;re below the 25th
+percentile - those need a remediation plan.&quot;
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>KPI Depot MCP + CorpusIQ = data-backed strategy execution:</p>

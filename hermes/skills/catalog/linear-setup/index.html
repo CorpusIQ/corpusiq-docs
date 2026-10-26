@@ -107,8 +107,8 @@
     "description": "Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API - no OAuth, no MCP server - 80",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/linear-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11211,7 +11211,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/pro
 <div class="highlight"><pre><span></span><code>LINEAR_API_KEY=lin_api_your_key_here
 </code></pre></div>
 <p>Or set in your shell:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">LINEAR_API_KEY</span><span class="o">=</span><span class="s2">"lin_api_..."</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">LINEAR_API_KEY</span><span class="o">=</span><span class="s2">&quot;lin_api_...&quot;</span>
 </code></pre></div>
 <h3 id="step-3-verify">Step 3: Verify<a class="headerlink" href="#step-3-verify" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>&gt; Load linear skill
@@ -11220,19 +11220,19 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/pro
 <hr />
 <h2 id="basic-usage">Basic Usage<a class="headerlink" href="#basic-usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="issue-management">Issue management<a class="headerlink" href="#issue-management" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&gt; Create a Linear issue: "Fix auth token refresh" in project ENG, priority high
+<div class="highlight"><pre><span></span><code>&gt; Create a Linear issue: &quot;Fix auth token refresh&quot; in project ENG, priority high
 &gt; Show open bugs assigned to me
-&gt; Move issue ENG-123 to "In Progress"
-&gt; What's the status of ENG-456?
+&gt; Move issue ENG-123 to &quot;In Progress&quot;
+&gt; What&#39;s the status of ENG-456?
 </code></pre></div>
 <h3 id="team-project-queries">Team &amp; project queries<a class="headerlink" href="#team-project-queries" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&gt; What's on my team's plate this sprint?
+<div class="highlight"><pre><span></span><code>&gt; What&#39;s on my team&#39;s plate this sprint?
 &gt; Show all unassigned issues in the Backend project
 &gt; Who has the most open issues right now?
 </code></pre></div>
 <h3 id="search">Search<a class="headerlink" href="#search" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&gt; Search Linear for "rate limiting"
-&gt; Find issues tagged "performance" created this week
+<div class="highlight"><pre><span></span><code>&gt; Search Linear for &quot;rate limiting&quot;
+&gt; Find issues tagged &quot;performance&quot; created this week
 </code></pre></div>
 <hr />
 <h2 id="api-details">API Details<a class="headerlink" href="#api-details" title="Anchor link to this section">&para;</a></h2>

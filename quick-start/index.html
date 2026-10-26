@@ -11410,61 +11410,61 @@
 </ol>
 <p>Store the token securely. Never embed it in client-side code or commit it to version control.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Store in an environment variable</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">CORPUSIQ_TOKEN</span><span class="o">=</span><span class="s2">"your_token_here"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">CORPUSIQ_TOKEN</span><span class="o">=</span><span class="s2">&quot;your_token_here&quot;</span>
 </code></pre></div>
 <h2 id="step-4-make-your-first-query">Step 4: Make Your First Query<a class="headerlink" href="#step-4-make-your-first-query" title="Anchor link to this section">&para;</a></h2>
 <p>Once your tools are connected and you have a token, you can query your data from the terminal, your backend, or any HTTP client.</p>
 <h3 id="basic-curl-example">Basic cURL Example<a class="headerlink" href="#basic-curl-example" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"query": "Show me my 5 most recent emails about budgets"}'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;Show me my 5 most recent emails about budgets&quot;}&#39;</span>
 </code></pre></div>
 <h3 id="example-response">Example Response<a class="headerlink" href="#example-response" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"query_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"qry_a1b2c3d4e5"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Show me my 5 most recent emails about budgets"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"results"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="nt">&quot;query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qry_a1b2c3d4e5&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Show me my 5 most recent emails about budgets&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"connector"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gmail"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"source_label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Gmail"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"chunks"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="nt">&quot;connector&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gmail&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;source_label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Gmail&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;chunks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">"chunk_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"chnk_x1y2"</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Re: Q3 Budget Review  --  Sarah from Finance shared the updated budget spreadsheet. Please review by Friday."</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">"source_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mail.google.com/mail/u/0/#inbox/abc123"</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">"relevance_score"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.96</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">"metadata"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">"subject"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Re: Q3 Budget Review"</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">"from"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sarah@company.com"</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-06-15T09:30:00Z"</span>
+<span class="w">          </span><span class="nt">&quot;chunk_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;chnk_x1y2&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Re: Q3 Budget Review  --  Sarah from Finance shared the updated budget spreadsheet. Please review by Friday.&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;source_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mail.google.com/mail/u/0/#inbox/abc123&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;relevance_score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.96</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;subject&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Re: Q3 Budget Review&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sarah@company.com&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;date&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-15T09:30:00Z&quot;</span>
 <span class="w">          </span><span class="p">}</span>
 <span class="w">        </span><span class="p">}</span>
 <span class="w">      </span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="nt">"search_summary"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"connectors_searched"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"total_chunks_found"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"duration_ms"</span><span class="p">:</span><span class="w"> </span><span class="mi">623</span>
+<span class="w">  </span><span class="nt">&quot;search_summary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;connectors_searched&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;total_chunks_found&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;duration_ms&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">623</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="filter-by-specific-connectors">Filter by Specific Connectors<a class="headerlink" href="#filter-by-specific-connectors" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{</span>
-<span class="s1">    "query": "What are our top selling products this month?",</span>
-<span class="s1">    "connectors": ["shopify"],</span>
-<span class="s1">    "max_results": 10</span>
-<span class="s1">  }'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
+<span class="s1">    &quot;query&quot;: &quot;What are our top selling products this month?&quot;,</span>
+<span class="s1">    &quot;connectors&quot;: [&quot;shopify&quot;],</span>
+<span class="s1">    &quot;max_results&quot;: 10</span>
+<span class="s1">  }&#39;</span>
 </code></pre></div>
 <h3 id="use-idempotency-for-safe-retries">Use Idempotency for Safe Retries<a class="headerlink" href="#use-idempotency-for-safe-retries" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"query": "How many HubSpot deals closed this quarter?"}'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;How many HubSpot deals closed this quarter?&quot;}&#39;</span>
 </code></pre></div>
 <h2 id="using-with-ai-assistants">Using with AI Assistants<a class="headerlink" href="#using-with-ai-assistants" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is MCP-native. Connect it to your AI assistant to query your business tools in natural language:</p>

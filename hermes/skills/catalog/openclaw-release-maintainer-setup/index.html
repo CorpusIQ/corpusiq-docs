@@ -107,8 +107,8 @@
     "description": "Automate OpenClaw skill releases with semantic versioning, changelog generation, tag creation, and GitHub release publishing. Part of the Clawdis ecosystem.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-release-maintainer-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11134,14 +11134,14 @@
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Add your GitHub token to the Hermes environment:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="s2">"ghp_your-token-here"</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="s2">&quot;ghp_your-token-here&quot;</span>
 </code></pre></div>
 <p>Or configure in <code>~/.hermes/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">skills</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">openclaw-release-maintainer</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">github_token</span><span class="p">:</span><span class="w"> </span><span class="s">"${GITHUB_TOKEN}"</span>
-<span class="w">    </span><span class="nt">default_bump</span><span class="p">:</span><span class="w"> </span><span class="s">"patch"</span><span class="w">          </span><span class="c1"># major | minor | patch</span>
-<span class="w">    </span><span class="nt">changelog_format</span><span class="p">:</span><span class="w"> </span><span class="s">"keepachangelog"</span>
+<span class="w">    </span><span class="nt">github_token</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${GITHUB_TOKEN}&quot;</span>
+<span class="w">    </span><span class="nt">default_bump</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;patch&quot;</span><span class="w">          </span><span class="c1"># major | minor | patch</span>
+<span class="w">    </span><span class="nt">changelog_format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;keepachangelog&quot;</span>
 <span class="w">    </span><span class="nt">push_tags</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">    </span><span class="nt">create_release</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
@@ -11151,7 +11151,7 @@
 <span class="nb">cd</span><span class="w"> </span>~/corpusiq-docs/hermes/skills/
 
 <span class="c1"># Bump version and release</span>
-npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>openclaw-release-maintainer<span class="w"> </span>--bump<span class="w"> </span>patch<span class="w"> </span>--message<span class="w"> </span><span class="s2">"fix: correct gateway token validation"</span>
+npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>openclaw-release-maintainer<span class="w"> </span>--bump<span class="w"> </span>patch<span class="w"> </span>--message<span class="w"> </span><span class="s2">&quot;fix: correct gateway token validation&quot;</span>
 </code></pre></div>
 <h3 id="checking-what-would-change-dry-run">Checking What Would Change (Dry Run)<a class="headerlink" href="#checking-what-would-change-dry-run" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>openclaw-release-maintainer<span class="w"> </span>--bump<span class="w"> </span>minor<span class="w"> </span>--dry-run
@@ -11162,7 +11162,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 - Tags that will be created
 - Files that will be modified</p>
 <h3 id="major-release-with-breaking-changes">Major Release with Breaking Changes<a class="headerlink" href="#major-release-with-breaking-changes" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>openclaw-release-maintainer<span class="w"> </span>--bump<span class="w"> </span>major<span class="w"> </span>--breaking<span class="w"> </span><span class="s2">"API: dropped support for legacy OAuth flow"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>openclaw-release-maintainer<span class="w"> </span>--bump<span class="w"> </span>major<span class="w"> </span>--breaking<span class="w"> </span><span class="s2">&quot;API: dropped support for legacy OAuth flow&quot;</span>
 </code></pre></div>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>┌──────────┐     ┌──────────────────┐     ┌───────────┐

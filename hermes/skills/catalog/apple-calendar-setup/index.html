@@ -107,8 +107,8 @@
     "description": "Apple Calendar integration for Hermes agents. Create, read, update, and delete calendar events via CalDAV.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/apple-calendar-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11132,38 +11132,38 @@
 <p>Or via command line (requires admin):</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add Hermes to calendar access</span>
 sudo<span class="w"> </span>sqlite3<span class="w"> </span>~/Library/Application<span class="se">\ </span>Support/com.apple.TCC/TCC.db<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"INSERT OR REPLACE INTO access VALUES('kTCCServiceCalendar','com.hermes.agent',0,2,2,1,NULL,NULL,NULL,'UNUSED',NULL,0,0);"</span>
+<span class="w">  </span><span class="s2">&quot;INSERT OR REPLACE INTO access VALUES(&#39;kTCCServiceCalendar&#39;,&#39;com.hermes.agent&#39;,0,2,2,1,NULL,NULL,NULL,&#39;UNUSED&#39;,NULL,0,0);&quot;</span>
 </code></pre></div>
 <p>Configure in <code>~/.hermes/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">skills</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">apple-calendar</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">default_calendar</span><span class="p">:</span><span class="w"> </span><span class="s">"Work"</span><span class="w">        </span><span class="c1"># Default calendar name</span>
+<span class="w">    </span><span class="nt">default_calendar</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Work&quot;</span><span class="w">        </span><span class="c1"># Default calendar name</span>
 <span class="w">    </span><span class="nt">default_duration_minutes</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">60</span><span class="w">    </span><span class="c1"># Default meeting duration</span>
 <span class="w">    </span><span class="nt">default_alert_minutes</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">15</span><span class="w">       </span><span class="c1"># Default reminder before event</span>
 <span class="w">    </span><span class="nt">working_hours</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="s">"09:00"</span>
-<span class="w">      </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="s">"17:00"</span>
-<span class="w">      </span><span class="nt">timezone</span><span class="p">:</span><span class="w"> </span><span class="s">"America/Phoenix"</span>
+<span class="w">      </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;09:00&quot;</span>
+<span class="w">      </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;17:00&quot;</span>
+<span class="w">      </span><span class="nt">timezone</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;America/Phoenix&quot;</span>
 <span class="w">      </span><span class="nt">days</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">1</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">2</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">3</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">4</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">5</span><span class="p p-Indicator">]</span><span class="w">        </span><span class="c1"># Mon-Fri</span>
 <span class="w">    </span><span class="nt">read_only_calendars</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"Holidays"</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"Birthdays"</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Holidays&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Birthdays&quot;</span>
 </code></pre></div>
 <h2 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Anchor link to this section">&para;</a></h2>
 <h3 id="create-events">Create Events<a class="headerlink" href="#create-events" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Create a calendar event "CorpusIQ Sprint Review" tomorrow at 3pm for 45 minutes
-Schedule "Team Standup" every weekday at 9:30am starting next Monday
-Add "Content Calendar Review" to my Work calendar Friday 2pm with a 10-minute reminder
+<div class="highlight"><pre><span></span><code>Create a calendar event &quot;CorpusIQ Sprint Review&quot; tomorrow at 3pm for 45 minutes
+Schedule &quot;Team Standup&quot; every weekday at 9:30am starting next Monday
+Add &quot;Content Calendar Review&quot; to my Work calendar Friday 2pm with a 10-minute reminder
 </code></pre></div>
 <h3 id="query-availability">Query Availability<a class="headerlink" href="#query-availability" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>What's on my calendar tomorrow?
+<div class="highlight"><pre><span></span><code>What&#39;s on my calendar tomorrow?
 Find a 30-minute slot this week for a meeting with 3 attendees
 Check my availability Thursday afternoon
 </code></pre></div>
 <h3 id="manage-events">Manage Events<a class="headerlink" href="#manage-events" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Reschedule tomorrow's "Sprint Review" to Friday at 11am
-Cancel the "Coffee Chat" on Thursday
-Add "Prep slides" as a reminder for my Monday presentation at 8am
+<div class="highlight"><pre><span></span><code>Reschedule tomorrow&#39;s &quot;Sprint Review&quot; to Friday at 11am
+Cancel the &quot;Coffee Chat&quot; on Thursday
+Add &quot;Prep slides&quot; as a reminder for my Monday presentation at 8am
 </code></pre></div>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>┌──────────┐     ┌──────────────┐     ┌──────────────┐

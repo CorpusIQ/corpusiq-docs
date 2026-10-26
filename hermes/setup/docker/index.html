@@ -111,8 +111,8 @@
     "description": "Deploy Hermes Agent as a Docker container for reproducible AI automation. Docker Compose setup with persistent volumes, MCP server integration, cron",
     "url": "https://www.corpusiq.io/docs/hermes/setup/docker",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11370,7 +11370,7 @@
 <span class="w">  </span>nousresearch/hermes-agent:latest
 </code></pre></div>
 <h2 id="full-docker-composeyml">Full docker-compose.yml<a class="headerlink" href="#full-docker-composeyml" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">"3.8"</span>
+<div class="highlight"><pre><span></span><code><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3.8&quot;</span>
 
 <span class="nt">services</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">hermes</span><span class="p">:</span>
@@ -11392,10 +11392,10 @@
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TZ=${TZ:-UTC}</span>
 
 <span class="w">    </span><span class="nt">ports</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"127.0.0.1:8080:8080"</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;127.0.0.1:8080:8080&quot;</span>
 
 <span class="w">    </span><span class="nt">healthcheck</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">test</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"CMD"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"hermes"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"doctor"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"--check"</span><span class="p p-Indicator">]</span>
+<span class="w">      </span><span class="nt">test</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;CMD&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;hermes&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;doctor&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;--check&quot;</span><span class="p p-Indicator">]</span>
 <span class="w">      </span><span class="nt">interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">60s</span>
 <span class="w">      </span><span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10s</span>
 <span class="w">      </span><span class="nt">retries</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
@@ -11414,14 +11414,14 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 <h2 id="adding-mcp-servers">Adding MCP Servers<a class="headerlink" href="#adding-mcp-servers" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--<span class="w"> </span>url<span class="w"> </span>https://mcp2.corpusiq.io/mcp
 docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer ***"</span>
+<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer ***&quot;</span>
 </code></pre></div>
 <p>See the <a href="https://www.corpusiq.io/docs/hermes/mcp">MCP Integration Guide</a> for all available servers.</p>
 <h2 id="crons-and-persistence">Crons and Persistence<a class="headerlink" href="#crons-and-persistence" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"email-watch"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Check inbox. Summarize unread."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"*/15 * * * *"</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check inbox. Summarize unread.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span>
 </code></pre></div>
 <p>Crons survive container restarts and image updates because they're stored in the <code>hermes_data</code> volume. Follow <a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">cron design best practices</a> for production-grade scheduling.</p>
 <h2 id="production-checklist">Production Checklist<a class="headerlink" href="#production-checklist" title="Anchor link to this section">&para;</a></h2>
@@ -11431,14 +11431,14 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 <span class="c1">#     resources:</span>
 <span class="c1">#       limits:</span>
 <span class="c1">#         memory: 2G</span>
-<span class="c1">#         cpus: "2"</span>
+<span class="c1">#         cpus: &quot;2&quot;</span>
 
 <span class="c1"># 2. Log rotation</span>
 <span class="c1">#   logging:</span>
-<span class="c1">#     driver: "json-file"</span>
+<span class="c1">#     driver: &quot;json-file&quot;</span>
 <span class="c1">#     options:</span>
-<span class="c1">#       max-size: "10m"</span>
-<span class="c1">#       max-file: "3"</span>
+<span class="c1">#       max-size: &quot;10m&quot;</span>
+<span class="c1">#       max-file: &quot;3&quot;</span>
 
 <span class="c1"># 3. Monitor health</span>
 docker<span class="w"> </span>compose<span class="w"> </span>ps

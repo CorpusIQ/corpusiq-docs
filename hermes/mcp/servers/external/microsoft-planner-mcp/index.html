@@ -107,8 +107,8 @@
     "description": "Connect AI agents to Microsoft Planner for task management in Microsoft 365. Create plans, manage tasks, update buckets, and automate project workflows.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/microsoft-planner-mcp",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11163,13 +11163,13 @@
 <h3 id="2-configure-mcp-client">2. Configure MCP Client<a class="headerlink" href="#2-configure-mcp-client" title="Anchor link to this section">&para;</a></h3>
 <p>Add to your <code>claude_desktop_config.json</code> or equivalent:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"microsoft-planner"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@aixolotl/microsoft-planner-mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"AZURE_CLIENT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;your-client-id&gt;"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"AZURE_TENANT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;your-tenant-id&gt;"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;microsoft-planner&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@aixolotl/microsoft-planner-mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;AZURE_CLIENT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;your-client-id&gt;&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;AZURE_TENANT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;your-tenant-id&gt;&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11231,20 +11231,20 @@
 </table>
 <h2 id="operator-workflows">Operator Workflows<a class="headerlink" href="#operator-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="daily-standup-prep">Daily Standup Prep<a class="headerlink" href="#daily-standup-prep" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Show me all my tasks due this week across all plans, sorted by priority"
-→ get_my_tasks(filter: {dueBefore: "2026-07-10"}, sort: "priority")
+<div class="highlight"><pre><span></span><code>Agent: &quot;Show me all my tasks due this week across all plans, sorted by priority&quot;
+→ get_my_tasks(filter: {dueBefore: &quot;2026-07-10&quot;}, sort: &quot;priority&quot;)
 → Returns prioritized task list ready for standup
 </code></pre></div>
 <h3 id="meeting-task-automation">Meeting → Task Automation<a class="headerlink" href="#meeting-task-automation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Create tasks in the Q3 Launch plan from these meeting notes:
+<div class="highlight"><pre><span></span><code>Agent: &quot;Create tasks in the Q3 Launch plan from these meeting notes:
 - Finalize pricing page by Friday (assign to Sarah)
 - Update API docs by next Wednesday (assign to me)
-- Schedule beta demo with Acme Corp by Monday"
+- Schedule beta demo with Acme Corp by Monday&quot;
 → Creates 3 tasks with proper assignments and due dates
 </code></pre></div>
 <h3 id="sprint-retro-prep">Sprint Retro Prep<a class="headerlink" href="#sprint-retro-prep" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Show me all completed tasks in the Engineering plan from last sprint"
-→ list_tasks(plan: "Engineering", status: "completed", completedSince: "2026-06-23")
+<div class="highlight"><pre><span></span><code>Agent: &quot;Show me all completed tasks in the Engineering plan from last sprint&quot;
+→ list_tasks(plan: &quot;Engineering&quot;, status: &quot;completed&quot;, completedSince: &quot;2026-06-23&quot;)
 → Returns completed task list for retro discussion
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>

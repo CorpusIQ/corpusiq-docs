@@ -107,8 +107,8 @@
     "description": "Bridge Hermes Agent with Obsidian vaults for Kanban-style task management - sync agent task boards with your knowledge base.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-kanban-obsidian-integration-setup",
     
-    "datePublished": "2026-09-12",
-    "dateModified": "2026-09-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11200,33 +11200,33 @@
 </code></pre></div>
 <h3 id="step-3-configure-vault-path">Step 3: Configure Vault Path<a class="headerlink" href="#step-3-configure-vault-path" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--config<span class="w"> </span><span class="nv">vault_path</span><span class="o">=</span><span class="s2">"~/Documents/Obsidian/CorpusIQ"</span>
+<span class="w">  </span>--config<span class="w"> </span><span class="nv">vault_path</span><span class="o">=</span><span class="s2">&quot;~/Documents/Obsidian/CorpusIQ&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Create <code>~/.hermes/obsidian/config.yaml</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">vault_path</span><span class="p">:</span><span class="w"> </span><span class="s">"~/Documents/Obsidian/CorpusIQ"</span>
-<span class="nt">kanban_folder</span><span class="p">:</span><span class="w"> </span><span class="s">"Kanban"</span><span class="w">            </span><span class="c1"># Subfolder for Kanban boards</span>
-<span class="nt">default_board</span><span class="p">:</span><span class="w"> </span><span class="s">"Agent</span><span class="nv"> </span><span class="s">Tasks"</span><span class="w">       </span><span class="c1"># Default board name</span>
+<div class="highlight"><pre><span></span><code><span class="nt">vault_path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;~/Documents/Obsidian/CorpusIQ&quot;</span>
+<span class="nt">kanban_folder</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Kanban&quot;</span><span class="w">            </span><span class="c1"># Subfolder for Kanban boards</span>
+<span class="nt">default_board</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Agent</span><span class="nv"> </span><span class="s">Tasks&quot;</span><span class="w">       </span><span class="c1"># Default board name</span>
 <span class="nt">sync_interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">60</span><span class="w">                   </span><span class="c1"># Seconds between sync checks</span>
-<span class="nt">auto_create_boards</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">            </span><span class="c1"># Create boards if they don't exist</span>
+<span class="nt">auto_create_boards</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">            </span><span class="c1"># Create boards if they don&#39;t exist</span>
 <span class="nt">link_style</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wikilink</span><span class="w">                </span><span class="c1"># wikilink | markdown</span>
 </code></pre></div>
 <hr />
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="create-a-task-from-hermes">Create a Task from Hermes<a class="headerlink" href="#create-a-task-from-hermes" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Add a task to research competitors to my Agent Tasks board"
+<div class="highlight"><pre><span></span><code>&quot;Add a task to research competitors to my Agent Tasks board&quot;
 </code></pre></div>
 <p>Hermes translates this to:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--board<span class="w"> </span><span class="s2">"Agent Tasks"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--add<span class="w"> </span><span class="s2">"Research competitors"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--column<span class="w"> </span><span class="s2">"Todo"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--tags<span class="w"> </span><span class="s2">"research,competitors,q3-2026"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--due<span class="w"> </span><span class="s2">"2026-08-07"</span>
+<span class="w">  </span>--board<span class="w"> </span><span class="s2">&quot;Agent Tasks&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--add<span class="w"> </span><span class="s2">&quot;Research competitors&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--column<span class="w"> </span><span class="s2">&quot;Todo&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--tags<span class="w"> </span><span class="s2">&quot;research,competitors,q3-2026&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--due<span class="w"> </span><span class="s2">&quot;2026-08-07&quot;</span>
 </code></pre></div>
 <h3 id="list-tasks-on-a-board">List Tasks on a Board<a class="headerlink" href="#list-tasks-on-a-board" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span>--board<span class="w"> </span><span class="s2">"Agent Tasks"</span><span class="w"> </span>--list
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span>--board<span class="w"> </span><span class="s2">&quot;Agent Tasks&quot;</span><span class="w"> </span>--list
 </code></pre></div>
 <p><strong>Sample Output:</strong>
 <div class="highlight"><pre><span></span><code>Board: Agent Tasks
@@ -11246,15 +11246,15 @@ Done (12):
 </code></pre></div></p>
 <h3 id="move-a-task">Move a Task<a class="headerlink" href="#move-a-task" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--board<span class="w"> </span><span class="s2">"Agent Tasks"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--task<span class="w"> </span><span class="s2">"Research competitors"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--move<span class="w"> </span><span class="s2">"Doing"</span>
+<span class="w">  </span>--board<span class="w"> </span><span class="s2">&quot;Agent Tasks&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--task<span class="w"> </span><span class="s2">&quot;Research competitors&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--move<span class="w"> </span><span class="s2">&quot;Doing&quot;</span>
 </code></pre></div>
 <h3 id="add-context-to-a-task">Add Context to a Task<a class="headerlink" href="#add-context-to-a-task" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--board<span class="w"> </span><span class="s2">"Agent Tasks"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--task<span class="w"> </span><span class="s2">"Research competitors"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--note<span class="w"> </span><span class="s2">"Top 3 competitors identified: Synthex, AgentFlow, TaskPilot. See [[Competitive Analysis]]"</span>
+<span class="w">  </span>--board<span class="w"> </span><span class="s2">&quot;Agent Tasks&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--task<span class="w"> </span><span class="s2">&quot;Research competitors&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--note<span class="w"> </span><span class="s2">&quot;Top 3 competitors identified: Synthex, AgentFlow, TaskPilot. See [[Competitive Analysis]]&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="obsidian-view">Obsidian View<a class="headerlink" href="#obsidian-view" title="Anchor link to this section">&para;</a></h2>
@@ -11276,10 +11276,10 @@ Done (12):
 </ul>
 <h3 id="example-daily-standup-board">Example: Daily Standup Board<a class="headerlink" href="#example-daily-standup-board" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--board<span class="w"> </span><span class="s2">"Daily Standup"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--add-column<span class="w"> </span><span class="s2">"Yesterday"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--add-column<span class="w"> </span><span class="s2">"Today"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--add-column<span class="w"> </span><span class="s2">"Blockers"</span>
+<span class="w">  </span>--board<span class="w"> </span><span class="s2">&quot;Daily Standup&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--add-column<span class="w"> </span><span class="s2">&quot;Yesterday&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--add-column<span class="w"> </span><span class="s2">&quot;Today&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--add-column<span class="w"> </span><span class="s2">&quot;Blockers&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
@@ -11288,9 +11288,9 @@ hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"
 
 <span class="c1"># Create test board</span>
 hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>hermes-kanban-obsidian-integration<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--board<span class="w"> </span><span class="s2">"Test Board"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--add<span class="w"> </span><span class="s2">"Test task from Hermes"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--column<span class="w"> </span><span class="s2">"Todo"</span>
+<span class="w">  </span>--board<span class="w"> </span><span class="s2">&quot;Test Board&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--add<span class="w"> </span><span class="s2">&quot;Test task from Hermes&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--column<span class="w"> </span><span class="s2">&quot;Todo&quot;</span>
 
 <span class="c1"># Verify it appears in Obsidian</span>
 <span class="c1"># Open Obsidian → Kanban folder → Test Board</span>

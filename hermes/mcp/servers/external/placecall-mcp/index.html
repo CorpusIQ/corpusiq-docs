@@ -107,6 +107,9 @@
     "description": "Remote MCP and skill that lets an agent dial US businesses, navigate IVRs and hold, and return a verified outcome with transcript and recording.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/placecall-mcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11069,7 +11072,7 @@ Built by: Voygr (ex-Google Maps and Search team)
 <li><strong>claude.ai chat / ChatGPT:</strong> add a custom connector or MCP app pointing at <code>https://api.voygr.tech/mcp</code>, then sign in with Google or email.</li>
 <li><strong>Any MCP client:</strong>
 <div class="highlight"><pre><span></span><code>claude mcp add --transport http --scope user placecall https://api.voygr.tech/mcp \
-  --header "X-API-Key: &lt;your key&gt;"
+  --header &quot;X-API-Key: &lt;your key&gt;&quot;
 </code></pre></div></li>
 <li><strong>Hermes:</strong>
 <div class="highlight"><pre><span></span><code>hermes mcp add placecall --url https://api.voygr.tech/mcp/ --auth header

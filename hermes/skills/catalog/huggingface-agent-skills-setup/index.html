@@ -107,8 +107,8 @@
     "description": "6 ML/AI skills from HuggingFace covering datasets API, papers research, Transformers.js, vision training, and tool building.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/huggingface-agent-skills-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11166,16 +11166,16 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Search datasets</span>
-curl<span class="w"> </span><span class="s2">"https://datasets-server.huggingface.co/is-valid?dataset=imdb"</span>
+curl<span class="w"> </span><span class="s2">&quot;https://datasets-server.huggingface.co/is-valid?dataset=imdb&quot;</span>
 
 <span class="c1"># List splits</span>
-curl<span class="w"> </span><span class="s2">"https://datasets-server.huggingface.co/splits?dataset=imdb"</span>
+curl<span class="w"> </span><span class="s2">&quot;https://datasets-server.huggingface.co/splits?dataset=imdb&quot;</span>
 
 <span class="c1"># Get first rows</span>
-curl<span class="w"> </span><span class="s2">"https://datasets-server.huggingface.co/first-rows?dataset=imdb&amp;config=default&amp;split=train"</span>
+curl<span class="w"> </span><span class="s2">&quot;https://datasets-server.huggingface.co/first-rows?dataset=imdb&amp;config=default&amp;split=train&quot;</span>
 
 <span class="c1"># Browse trending papers</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://huggingface.co/papers"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-oP<span class="w"> </span><span class="s1">'&lt;h3[^&gt;]*&gt;\s*&lt;a[^&gt;]*&gt;\K[^&lt;]+'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-10
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://huggingface.co/papers&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-oP<span class="w"> </span><span class="s1">&#39;&lt;h3[^&gt;]*&gt;\s*&lt;a[^&gt;]*&gt;\K[^&lt;]+&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-10
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>

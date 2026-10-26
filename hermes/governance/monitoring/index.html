@@ -107,8 +107,8 @@
     "description": "Health monitoring for autonomous agent deployments. Drift detection, alerting, performance audits, system governance.",
     "url": "https://www.corpusiq.io/docs/hermes/governance/monitoring",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11081,7 +11081,7 @@ Layer 3: Quality Health
 <h2 id="drift-detection">Drift Detection<a class="headerlink" href="#drift-detection" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ's metric spec system detects when two sources disagree:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Two sources should agree within 1%</span>
-<span class="n">metric_spec_resolve</span><span class="p">(</span><span class="s2">"leads_this_week"</span><span class="p">)</span>
+<span class="n">metric_spec_resolve</span><span class="p">(</span><span class="s2">&quot;leads_this_week&quot;</span><span class="p">)</span>
 <span class="c1"># Returns: {value: 47, drift: {source_a: 47, source_b: 44, delta_pct: 6.4}}</span>
 <span class="c1"># Flagged: 6.4% &gt; 1% tolerance → investigate</span>
 </code></pre></div>

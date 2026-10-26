@@ -107,8 +107,8 @@
     "description": "Setup guide for antigravity-manager, the Agent Skills skill for Antigravity Manager (31K-star Tauri/Rust tool) that proxies Google and Anthropic accounts",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-manager-setup",
     
-    "datePublished": "2026-09-13",
-    "dateModified": "2026-09-13",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-13">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11220,16 +11220,16 @@
 </tbody>
 </table>
 <p>Example (OpenAI SDK - Gemini through the gateway):</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">openai</span><span class="w"> </span><span class="kn">import</span> <span class="n">OpenAI</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
 
 <span class="n">client</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">(</span>
- <span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"ANTIGRAVITY_API_KEY"</span><span class="p">],</span>
- <span class="n">base_url</span><span class="o">=</span><span class="s2">"http://localhost:8045/v1"</span><span class="p">,</span>
+ <span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;ANTIGRAVITY_API_KEY&quot;</span><span class="p">],</span>
+ <span class="n">base_url</span><span class="o">=</span><span class="s2">&quot;http://localhost:8045/v1&quot;</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">resp</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
- <span class="n">model</span><span class="o">=</span><span class="s2">"gemini-2.5-pro"</span><span class="p">,</span>
- <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Hello"</span><span class="p">}],</span>
+ <span class="n">model</span><span class="o">=</span><span class="s2">&quot;gemini-2.5-pro&quot;</span><span class="p">,</span>
+ <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Hello&quot;</span><span class="p">}],</span>
 <span class="p">)</span>
 </code></pre></div>
 <h2 id="connecting-agent-clients">Connecting Agent Clients<a class="headerlink" href="#connecting-agent-clients" title="Anchor link to this section">&para;</a></h2>
@@ -11290,13 +11290,13 @@ claude
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Gateway responds on the models endpoint</span>
-curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8045/v1/models<span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="si">${</span><span class="nv">ANTIGRAVITY_API_KEY</span><span class="si">}</span><span class="s2">"</span>
+curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8045/v1/models<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="si">${</span><span class="nv">ANTIGRAVITY_API_KEY</span><span class="si">}</span><span class="s2">&quot;</span>
 
 <span class="c1"># Full round-trip through the OpenAI-compatible endpoint</span>
 curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8045/v1/chat/completions<span class="w"> </span><span class="se">\</span>
-<span class="w"> </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="si">${</span><span class="nv">ANTIGRAVITY_API_KEY</span><span class="si">}</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w"> </span>-d<span class="w"> </span><span class="s1">'{"model":"gemini-2.5-pro","messages":[{"role":"user","content":"ping"}]}'</span>
+<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="si">${</span><span class="nv">ANTIGRAVITY_API_KEY</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;model&quot;:&quot;gemini-2.5-pro&quot;,&quot;messages&quot;:[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:&quot;ping&quot;}]}&#39;</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

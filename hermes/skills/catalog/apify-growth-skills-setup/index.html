@@ -107,8 +107,8 @@
     "description": "Production-grade growth automation skills from Apify. Lead generation (2.8K), brand reputation monitoring (2.5K), and ultimate scraper (13.4K).",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-growth-skills-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11220,7 +11220,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">APIFY_TOKEN</span><span class="o">=</span><span class="s2">"apify_api_..."</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">APIFY_TOKEN</span><span class="o">=</span><span class="s2">&quot;apify_api_...&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="skill-1-apify-ultimate-scraper-13400-installs">Skill 1: apify-ultimate-scraper (13,400 installs)<a class="headerlink" href="#skill-1-apify-ultimate-scraper-13400-installs" title="Anchor link to this section">&para;</a></h2>
@@ -11236,17 +11236,17 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <li><strong>Session persistence:</strong> Maintains login state across scraping sessions</li>
 </ul>
 <h3 id="usage-pattern">Usage Pattern<a class="headerlink" href="#usage-pattern" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Scrape a competitor's pricing page</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Scrape a competitor&#39;s pricing page</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-ultimate-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://competitor.com/pricing"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--selectors<span class="w"> </span><span class="s2">".pricing-tier"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"pricing-data.json"</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://competitor.com/pricing&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--selectors<span class="w"> </span><span class="s2">&quot;.pricing-tier&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;pricing-data.json&quot;</span>
 
 <span class="c1"># Scrape with JS rendering (for SPAs)</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-ultimate-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://react-app.example.com"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://react-app.example.com&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--js-rendering<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--wait-for<span class="w"> </span><span class="s2">".content-loaded"</span>
+<span class="w">  </span>--wait-for<span class="w"> </span><span class="s2">&quot;.content-loaded&quot;</span>
 </code></pre></div>
 <h3 id="corpusiq-use-case">CorpusIQ Use Case<a class="headerlink" href="#corpusiq-use-case" title="Anchor link to this section">&para;</a></h3>
 <p>Scrape competitor landing pages, pricing changes, and feature announcements. Feed into competitive intelligence pipeline for product roadmap decisions.</p>
@@ -11266,19 +11266,19 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 <h3 id="usage-pattern_1">Usage Pattern<a class="headerlink" href="#usage-pattern_1" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Find e-commerce brands in SF Bay Area</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-lead-generation<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--directory<span class="w"> </span><span class="s2">"google-maps"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--query<span class="w"> </span><span class="s2">"e-commerce platform"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--location<span class="w"> </span><span class="s2">"San Francisco, CA"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--directory<span class="w"> </span><span class="s2">&quot;google-maps&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--query<span class="w"> </span><span class="s2">&quot;e-commerce platform&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--location<span class="w"> </span><span class="s2">&quot;San Francisco, CA&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--enrich<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"sf-ecommerce-leads.csv"</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;sf-ecommerce-leads.csv&quot;</span>
 
 <span class="c1"># Scrape LinkedIn for decision makers</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-lead-generation<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--directory<span class="w"> </span><span class="s2">"linkedin"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--title<span class="w"> </span><span class="s2">"Head of Growth"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--industry<span class="w"> </span><span class="s2">"SaaS"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--company-size<span class="w"> </span><span class="s2">"10-200"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"growth-leads.json"</span>
+<span class="w">  </span>--directory<span class="w"> </span><span class="s2">&quot;linkedin&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--title<span class="w"> </span><span class="s2">&quot;Head of Growth&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--industry<span class="w"> </span><span class="s2">&quot;SaaS&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--company-size<span class="w"> </span><span class="s2">&quot;10-200&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;growth-leads.json&quot;</span>
 </code></pre></div>
 <h3 id="corpusiq-use-case_1">CorpusIQ Use Case<a class="headerlink" href="#corpusiq-use-case_1" title="Anchor link to this section">&para;</a></h3>
 <p>Power the outbound growth pipeline. Discover e-commerce operators, SaaS founders, and agency owners who need AI-powered business intelligence. Feed qualified leads into the CRM for nurture sequences. The skill handles the "discovery" half - CorpusIQ's <code>corpusiq-cold-outreach</code> skill handles the "engagement" half.</p>
@@ -11298,18 +11298,18 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 <h3 id="usage-pattern_2">Usage Pattern<a class="headerlink" href="#usage-pattern_2" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Set up continuous monitoring for CorpusIQ</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-brand-reputation-monitoring<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--brand<span class="w"> </span><span class="s2">"CorpusIQ"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--platforms<span class="w"> </span><span class="s2">"reddit,twitter,hackernews,producthunt"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--competitors<span class="w"> </span><span class="s2">"competitor1,competitor2"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--alert-slack<span class="w"> </span><span class="s2">"https://hooks.slack.com/..."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"every-6-hours"</span>
+<span class="w">  </span>--brand<span class="w"> </span><span class="s2">&quot;CorpusIQ&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--platforms<span class="w"> </span><span class="s2">&quot;reddit,twitter,hackernews,producthunt&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--competitors<span class="w"> </span><span class="s2">&quot;competitor1,competitor2&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--alert-slack<span class="w"> </span><span class="s2">&quot;https://hooks.slack.com/...&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;every-6-hours&quot;</span>
 
 <span class="c1"># One-time reputation audit</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-brand-reputation-monitoring<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--brand<span class="w"> </span><span class="s2">"CorpusIQ"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--brand<span class="w"> </span><span class="s2">&quot;CorpusIQ&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--audit<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--timeframe<span class="w"> </span><span class="s2">"last-90-days"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"brand-audit-2026-q3.json"</span>
+<span class="w">  </span>--timeframe<span class="w"> </span><span class="s2">&quot;last-90-days&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;brand-audit-2026-q3.json&quot;</span>
 </code></pre></div>
 <h3 id="corpusiq-use-case_2">CorpusIQ Use Case<a class="headerlink" href="#corpusiq-use-case_2" title="Anchor link to this section">&para;</a></h3>
 <p>Core growth infrastructure. Monitor every mention of "CorpusIQ," "Hermes Agent," and competitor names across the platforms where our audience lives. When someone asks "what's the best AI business intelligence tool?" on Reddit or HN - be there with a helpful answer within hours, not days. The <code>cross-platform-commenting-engine</code> skill handles the response; this skill handles the detection.</p>
@@ -11370,18 +11370,18 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>apify
 
 <span class="c1"># Test ultimate scraper with a simple page</span>
-npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-ultimate-scraper<span class="w"> </span>--url<span class="w"> </span><span class="s2">"https://httpbin.org/html"</span>
+npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-ultimate-scraper<span class="w"> </span>--url<span class="w"> </span><span class="s2">&quot;https://httpbin.org/html&quot;</span>
 
 <span class="c1"># Test lead gen with a known business</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-lead-generation<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--directory<span class="w"> </span><span class="s2">"google-maps"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--query<span class="w"> </span><span class="s2">"coffee shop"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--location<span class="w"> </span><span class="s2">"Palo Alto, CA"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--directory<span class="w"> </span><span class="s2">&quot;google-maps&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--query<span class="w"> </span><span class="s2">&quot;coffee shop&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--location<span class="w"> </span><span class="s2">&quot;Palo Alto, CA&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--limit<span class="w"> </span><span class="m">5</span>
 
 <span class="c1"># Test brand monitoring (your own brand - never scrape without permission)</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>apify-brand-reputation-monitoring<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--brand<span class="w"> </span><span class="s2">"CorpusIQ"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--brand<span class="w"> </span><span class="s2">&quot;CorpusIQ&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--audit<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--limit<span class="w"> </span><span class="m">10</span>
 </code></pre></div>

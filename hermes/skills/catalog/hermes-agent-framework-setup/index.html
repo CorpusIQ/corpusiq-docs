@@ -107,8 +107,8 @@
     "description": "176+ installs. Guide to Nous Research\u0027s Hermes Agent framework with self-improving learning loops, three-layer memory, and automatic Skill creation. Setup",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-framework-setup",
     
-    "datePublished": "2026-09-12",
-    "dateModified": "2026-09-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11164,15 +11164,15 @@ cp<span class="w"> </span>.env.example<span class="w"> </span>.env
 <p>Built-in tools: WebSearch, CodeExecutor, FileSystem, APICaller. Custom tools defined via <code>Tool</code> base class with parameter validation.</p>
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">hermes_agent</span><span class="w"> </span><span class="kn">import</span> <span class="n">HermesAgent</span><span class="p">,</span> <span class="n">MemoryConfig</span><span class="p">,</span> <span class="n">LearningConfig</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">hermes_agent</span> <span class="kn">import</span> <span class="n">HermesAgent</span><span class="p">,</span> <span class="n">MemoryConfig</span><span class="p">,</span> <span class="n">LearningConfig</span>
 
 <span class="n">agent</span> <span class="o">=</span> <span class="n">HermesAgent</span><span class="p">(</span>
-    <span class="n">model</span><span class="o">=</span><span class="s2">"gpt-4-turbo"</span><span class="p">,</span>
+    <span class="n">model</span><span class="o">=</span><span class="s2">&quot;gpt-4-turbo&quot;</span><span class="p">,</span>
     <span class="n">memory_config</span><span class="o">=</span><span class="n">MemoryConfig</span><span class="p">(</span>
         <span class="n">episodic_enabled</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
         <span class="n">semantic_enabled</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
         <span class="n">procedural_enabled</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
-        <span class="n">memory_path</span><span class="o">=</span><span class="s2">"~/.hermes/memory"</span>
+        <span class="n">memory_path</span><span class="o">=</span><span class="s2">&quot;~/.hermes/memory&quot;</span>
     <span class="p">),</span>
     <span class="n">learning_config</span><span class="o">=</span><span class="n">LearningConfig</span><span class="p">(</span>
         <span class="n">enable_auto_learning</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
@@ -11181,24 +11181,24 @@ cp<span class="w"> </span>.env.example<span class="w"> </span>.env
     <span class="p">)</span>
 <span class="p">)</span>
 
-<span class="n">response</span> <span class="o">=</span> <span class="n">agent</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span><span class="s2">"Help me analyze this Python code"</span><span class="p">)</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">agent</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span><span class="s2">&quot;Help me analyze this Python code&quot;</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="cli-usage">CLI Usage<a class="headerlink" href="#cli-usage" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>chat<span class="w"> </span><span class="s2">"What's the weather today?"</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>--skill<span class="w"> </span>code-reviewer<span class="w"> </span><span class="s2">"Review my Python script"</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>chat<span class="w"> </span><span class="s2">&quot;What&#39;s the weather today?&quot;</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>--skill<span class="w"> </span>code-reviewer<span class="w"> </span><span class="s2">&quot;Review my Python script&quot;</span>
 hermes<span class="w"> </span>memory<span class="w"> </span>list
 hermes<span class="w"> </span>skills<span class="w"> </span>list
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify installation</span>
-python<span class="w"> </span>-c<span class="w"> </span><span class="s2">"from hermes_agent import HermesAgent; print('OK')"</span>
+python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;from hermes_agent import HermesAgent; print(&#39;OK&#39;)&quot;</span>
 
 <span class="c1"># Start interactive mode</span>
 python<span class="w"> </span>-m<span class="w"> </span>hermes_agent
 
 <span class="c1"># Check memory stats</span>
-python<span class="w"> </span>-c<span class="w"> </span><span class="s2">"from hermes_agent import HermesAgent; a = HermesAgent(model='gpt-4-turbo'); print(a.memory.stats())"</span>
+python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;from hermes_agent import HermesAgent; a = HermesAgent(model=&#39;gpt-4-turbo&#39;); print(a.memory.stats())&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

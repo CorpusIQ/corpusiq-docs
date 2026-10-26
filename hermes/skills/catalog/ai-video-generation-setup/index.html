@@ -107,8 +107,8 @@
     "description": "Install and use 101-skills/skills@ai-video-generation (196K installs) for end-to-end AI video production.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-video-generation-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11132,7 +11132,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span><span class="m">101</span>-skills/skills@ai-avatar-video
 </code></pre></div>
 <p>Verify:
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">"101-skills"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;101-skills&quot;</span>
 </code></pre></div></p>
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -11218,12 +11218,12 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <h3 id="ai-avatars-ai-avatar-video">AI Avatars (<code>ai-avatar-video</code>)<a class="headerlink" href="#ai-avatars-ai-avatar-video" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Generate a product demo with AI presenter</span>
 ai-video<span class="w"> </span>avatar<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--script<span class="w"> </span><span class="s2">"corpusiq-overview.md"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--avatar<span class="w"> </span><span class="s2">"business-casual-male"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--voice<span class="w"> </span><span class="s2">"adam"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--background<span class="w"> </span><span class="s2">"modern-office"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--gestures<span class="w"> </span><span class="s2">"natural"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"corpusiq-demo.mp4"</span>
+<span class="w">  </span>--script<span class="w"> </span><span class="s2">&quot;corpusiq-overview.md&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--avatar<span class="w"> </span><span class="s2">&quot;business-casual-male&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--voice<span class="w"> </span><span class="s2">&quot;adam&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--background<span class="w"> </span><span class="s2">&quot;modern-office&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--gestures<span class="w"> </span><span class="s2">&quot;natural&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;corpusiq-demo.mp4&quot;</span>
 </code></pre></div>
 <p><strong>Available avatar styles:</strong> professional, casual, creative, technical
 <strong>Voice options:</strong> 20+ voices across male/female, accents (US, UK, AU, IN)
@@ -11233,19 +11233,19 @@ ai-video<span class="w"> </span>avatar<span class="w"> </span><span class="se">\
 <span class="nt">scenes</span><span class="p">:</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">duration</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10s</span>
 <span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">intro</span>
-<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">"Logo</span><span class="nv"> </span><span class="s">animation</span><span class="nv"> </span><span class="s">+</span><span class="nv"> </span><span class="s">hook</span><span class="nv"> </span><span class="s">text"</span>
+<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Logo</span><span class="nv"> </span><span class="s">animation</span><span class="nv"> </span><span class="s">+</span><span class="nv"> </span><span class="s">hook</span><span class="nv"> </span><span class="s">text&quot;</span>
 <span class="w">    </span><span class="nt">transition</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">fade-in</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">duration</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">30s</span>
 <span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">presenter</span>
-<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">"Problem</span><span class="nv"> </span><span class="s">statement</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">AI</span><span class="nv"> </span><span class="s">avatar</span><span class="nv"> </span><span class="s">on</span><span class="nv"> </span><span class="s">screen"</span>
+<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Problem</span><span class="nv"> </span><span class="s">statement</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">AI</span><span class="nv"> </span><span class="s">avatar</span><span class="nv"> </span><span class="s">on</span><span class="nv"> </span><span class="s">screen&quot;</span>
 <span class="w">    </span><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">business-casual-male</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">duration</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">40s</span>
 <span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">screen-recording</span>
-<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">"CorpusIQ</span><span class="nv"> </span><span class="s">dashboard</span><span class="nv"> </span><span class="s">walkthrough"</span>
+<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;CorpusIQ</span><span class="nv"> </span><span class="s">dashboard</span><span class="nv"> </span><span class="s">walkthrough&quot;</span>
 <span class="w">    </span><span class="nt">overlay</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">presenter-pip</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">duration</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">15s</span>
 <span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cta</span>
-<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">"Visit</span><span class="nv"> </span><span class="s">corpusiq.io</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">free</span><span class="nv"> </span><span class="s">trial"</span>
+<span class="w">    </span><span class="nt">content</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Visit</span><span class="nv"> </span><span class="s">corpusiq.io</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">free</span><span class="nv"> </span><span class="s">trial&quot;</span>
 <span class="w">    </span><span class="nt">transition</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zoom-out</span>
 </code></pre></div>
 <h3 id="multi-format-export">Multi-Format Export<a class="headerlink" href="#multi-format-export" title="Anchor link to this section">&para;</a></h3>
@@ -11290,40 +11290,40 @@ ai-video<span class="w"> </span>avatar<span class="w"> </span><span class="se">\
 <h3 id="daily-ugc-video-60s-product-tip">Daily UGC Video (60s Product Tip)<a class="headerlink" href="#daily-ugc-video-60s-product-tip" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Generate script → avatar video → social export</span>
 ai-video<span class="w"> </span>script<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--topic<span class="w"> </span><span class="s2">"How to find cash flow leaks with CorpusIQ"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--tone<span class="w"> </span><span class="s2">"technical,helpful"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--topic<span class="w"> </span><span class="s2">&quot;How to find cash flow leaks with CorpusIQ&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--tone<span class="w"> </span><span class="s2">&quot;technical,helpful&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--duration<span class="w"> </span><span class="m">60</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"daily-tip-script.md"</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;daily-tip-script.md&quot;</span>
 
 ai-video<span class="w"> </span>avatar<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--script<span class="w"> </span><span class="s2">"daily-tip-script.md"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--avatar<span class="w"> </span><span class="s2">"technical-expert"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--voice<span class="w"> </span><span class="s2">"marcus"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"daily-tip-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.mp4"</span>
+<span class="w">  </span>--script<span class="w"> </span><span class="s2">&quot;daily-tip-script.md&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--avatar<span class="w"> </span><span class="s2">&quot;technical-expert&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--voice<span class="w"> </span><span class="s2">&quot;marcus&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;daily-tip-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.mp4&quot;</span>
 
 ai-video<span class="w"> </span><span class="nb">export</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s2">"daily-tip-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.mp4"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--platforms<span class="w"> </span><span class="s2">"tiktok,reels,youtube-shorts"</span>
+<span class="w">  </span>--input<span class="w"> </span><span class="s2">&quot;daily-tip-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.mp4&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--platforms<span class="w"> </span><span class="s2">&quot;tiktok,reels,youtube-shorts&quot;</span>
 </code></pre></div>
 <h3 id="product-launch-video-multi-scene">Product Launch Video (Multi-Scene)<a class="headerlink" href="#product-launch-video-multi-scene" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Generate complete launch video with presenter + screen recording</span>
 ai-video<span class="w"> </span>generate<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--script<span class="w"> </span><span class="s2">"launch/corpusiq-v2-announcement.md"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--style<span class="w"> </span><span class="s2">"product-launch"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--avatar<span class="w"> </span><span class="s2">"professional-female"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--screenshots<span class="w"> </span><span class="s2">"launch/screenshots/"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--music<span class="w"> </span><span class="s2">"upbeat-corporate"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--script<span class="w"> </span><span class="s2">&quot;launch/corpusiq-v2-announcement.md&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--style<span class="w"> </span><span class="s2">&quot;product-launch&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--avatar<span class="w"> </span><span class="s2">&quot;professional-female&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--screenshots<span class="w"> </span><span class="s2">&quot;launch/screenshots/&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--music<span class="w"> </span><span class="s2">&quot;upbeat-corporate&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--duration<span class="w"> </span><span class="m">120</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"corpusiq-v2-launch.mp4"</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;corpusiq-v2-launch.mp4&quot;</span>
 </code></pre></div>
 <h3 id="blog-to-video-repurposing">Blog-to-Video Repurposing<a class="headerlink" href="#blog-to-video-repurposing" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Convert blog post to short-form video</span>
 ai-video<span class="w"> </span>generate<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--source<span class="w"> </span><span class="s2">"https://corpusiq.io/blog/ai-for-operators"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--format<span class="w"> </span><span class="s2">"blog-to-video"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--source<span class="w"> </span><span class="s2">&quot;https://corpusiq.io/blog/ai-for-operators&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--format<span class="w"> </span><span class="s2">&quot;blog-to-video&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--duration<span class="w"> </span><span class="m">90</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--platforms<span class="w"> </span><span class="s2">"youtube,linkedin"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"ai-for-operators-video.mp4"</span>
+<span class="w">  </span>--platforms<span class="w"> </span><span class="s2">&quot;youtube,linkedin&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;ai-for-operators-video.mp4&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="integration-with-corpusiq-video-stack">Integration with CorpusIQ Video Stack<a class="headerlink" href="#integration-with-corpusiq-video-stack" title="Anchor link to this section">&para;</a></h2>

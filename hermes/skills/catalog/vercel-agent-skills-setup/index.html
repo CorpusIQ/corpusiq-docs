@@ -107,8 +107,8 @@
     "description": "Install and use Vercel\u0027s official agent skills collection - 4 skills for optimization, React best practices, web design, and writing guidelines.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11233,7 +11233,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </
 npx<span class="w"> </span>vercel<span class="w"> </span>whoami
 
 <span class="c1"># Quick test - check web design guidelines load</span>
-ls<span class="w"> </span><span class="k">$(</span>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import json,sys; d=json.load(sys.stdin); print([s['path'] for s in d if 'web-design' in s.get('name','')][0])"</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="k">)</span>
+ls<span class="w"> </span><span class="k">$(</span>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span>--json<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json,sys; d=json.load(sys.stdin); print([s[&#39;path&#39;] for s in d if &#39;web-design&#39; in s.get(&#39;name&#39;,&#39;&#39;)][0])&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="k">)</span>
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july16-2026">Discovery Page</a> →</em>

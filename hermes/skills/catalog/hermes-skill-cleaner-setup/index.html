@@ -109,8 +109,8 @@
     "description": "Zero-dependency TypeScript CLI to audit Hermes agent skills  --  token budget analysis, duplicate detection, unused skill scanning, description compression.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-skill-cleaner-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -134,7 +134,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11213,7 +11213,7 @@ remaining:      1,150 tokens (29% of budget)
 <div class="highlight"><pre><span></span><code><span class="nv">SCRIPT</span><span class="o">=</span>scripts/hermes-skill-cleaner.ts
 
 <span class="c1"># Quick budget check</span>
-node<span class="w"> </span>--experimental-strip-types<span class="w"> </span><span class="nv">$SCRIPT</span><span class="w"> </span>--no-logs<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-A5<span class="w"> </span><span class="s2">"## Skill Budget"</span>
+node<span class="w"> </span>--experimental-strip-types<span class="w"> </span><span class="nv">$SCRIPT</span><span class="w"> </span>--no-logs<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-A5<span class="w"> </span><span class="s2">&quot;## Skill Budget&quot;</span>
 
 <span class="c1"># Full report</span>
 node<span class="w"> </span>--experimental-strip-types<span class="w"> </span><span class="nv">$SCRIPT</span>
@@ -11229,7 +11229,7 @@ node<span class="w"> </span>--experimental-strip-types<span class="w"> </span><s
 
 <span class="c1"># Find unused skills</span>
 node<span class="w"> </span>--experimental-strip-types<span class="w"> </span><span class="nv">$SCRIPT</span><span class="w"> </span>--deep-logs<span class="w"> </span>--months<span class="w"> </span><span class="m">6</span><span class="w"> </span>--max-log-mb<span class="w"> </span><span class="m">800</span><span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>grep<span class="w"> </span><span class="s2">"usage=\$0, reads=0, text=0"</span>
+<span class="w">  </span>grep<span class="w"> </span><span class="s2">&quot;usage=\$0, reads=0, text=0&quot;</span>
 </code></pre></div>
 <h2 id="recommended-cleanup-workflow">Recommended Cleanup Workflow<a class="headerlink" href="#recommended-cleanup-workflow" title="Anchor link to this section">&para;</a></h2>
 <h3 id="phase-1-remove-duplicates">Phase 1: Remove Duplicates<a class="headerlink" href="#phase-1-remove-duplicates" title="Anchor link to this section">&para;</a></h3>
@@ -11241,7 +11241,7 @@ node<span class="w"> </span>--experimental-strip-types<span class="w"> </span><s
 <p>Re-run after each phase to measure progress.</p>
 <h2 id="installing-as-a-hermes-skill">Installing as a Hermes Skill<a class="headerlink" href="#installing-as-a-hermes-skill" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Symlink into your skills directory</span>
-ln<span class="w"> </span>-s<span class="w"> </span><span class="s2">"</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">"</span><span class="w"> </span>~/.hermes/skills/hermes-skill-cleaner
+ln<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span>~/.hermes/skills/hermes-skill-cleaner
 
 <span class="c1"># Or copy directly</span>
 cp<span class="w"> </span>-r<span class="w"> </span>.<span class="w"> </span>~/.hermes/skills/hermes-skill-cleaner

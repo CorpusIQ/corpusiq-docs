@@ -107,8 +107,8 @@
     "description": "Spanish accounting for AI agents - issue invoices, OCR expense PDFs, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) with Aikount MCP",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/aikount",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11108,12 +11108,12 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </code></pre></div>
 <p>Or manual config:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"aikount"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"aikount-mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"AIKOUNT_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ak_your_api_key"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;aikount&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;aikount-mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;AIKOUNT_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ak_your_api_key&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11157,29 +11157,29 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-automated-invoice-processing">1. Automated Invoice Processing<a class="headerlink" href="#1-automated-invoice-processing" title="Anchor link to this section">&para;</a></h3>
 <p>Have your AI agent handle invoice creation end-to-end:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Issue an invoice to ClienteTech SL (NIF B12345678) 
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Issue an invoice to ClienteTech SL (NIF B12345678) 
 for our consulting work in June: 40 hours at €85/hour. 
-Apply 21% IVA and 15% IRPF withholding. Email to administracion@clientetech.es."
+Apply 21% IVA and 15% IRPF withholding. Email to administracion@clientetech.es.&quot;
 </code></pre></div>
 <h3 id="2-expense-pdf-ocr">2. Expense PDF OCR<a class="headerlink" href="#2-expense-pdf-ocr" title="Anchor link to this section">&para;</a></h3>
 <p>Process a stack of expense receipts automatically:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "OCR these 12 expense PDFs from my June purchases. 
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;OCR these 12 expense PDFs from my June purchases. 
 Categorize them, extract IVA amounts, flag any that are 
-non-deductible, and add them to my Q2 expenses."
+non-deductible, and add them to my Q2 expenses.&quot;
 </code></pre></div>
 <h3 id="3-bank-reconciliation">3. Bank Reconciliation<a class="headerlink" href="#3-bank-reconciliation" title="Anchor link to this section">&para;</a></h3>
 <p>Close the month by reconciling bank movements:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Here's my June bank statement CSV from BBVA. 
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Here&#39;s my June bank statement CSV from BBVA. 
 Reconcile all movements against my June invoices and expenses. 
-Flag any unmatched transactions for manual review."
+Flag any unmatched transactions for manual review.&quot;
 </code></pre></div>
 <h3 id="4-quarterly-vat-return-modelo-303">4. Quarterly VAT Return (Modelo 303)<a class="headerlink" href="#4-quarterly-vat-return-modelo-303" title="Anchor link to this section">&para;</a></h3>
 <p>Prepare the quarterly IVA filing:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Prepare my Q2 2026 Modelo 303. 
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Prepare my Q2 2026 Modelo 303. 
 Calculate IVA repercutido from all issued invoices, 
 IVA soportado from all captured expenses, 
 apply prorrata if applicable, and show the net result 
-(a pagar or a devolver)."
+(a pagar or a devolver).&quot;
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>Aikount + CorpusIQ = complete Spanish business operations:</p>

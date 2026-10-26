@@ -107,6 +107,9 @@
     "description": "Structural AI search readiness over MCP - audit how AI engines see your site, dry-run fixes, rescore, and doctor.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/aio-geo-mcp",
     
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11064,10 +11067,10 @@ npx<span class="w"> </span>@aio-geo/cli@0.3.4<span class="w"> </span>audit<span 
 <p>Hosted equivalents: <code>POST https://www.aiogeoprotocol.com/api/v1/public/audit</code> and <code>/api/v1/public/brief</code>. The platform publishes a full machine catalog - <code>/.well-known/mcp/server-card.json</code>, <code>/.well-known/api-catalog</code>, <code>/.well-known/agent-skills/index.json</code>, plus <code>/llms.txt</code> and <code>/openapi.json</code>.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"aio-geo"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@aio-geo/mcp-server"</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;aio-geo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@aio-geo/mcp-server&quot;</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

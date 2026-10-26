@@ -107,6 +107,9 @@
     "description": "Product insights built from sales calls, support tickets, surveys and Slack.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/closedloop-ai-mcp",
     
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11080,7 +11083,7 @@
 <p><strong>Every company already owns the answer to what to build next. It is scattered across call recordings, support threads and surveys, and nobody has time to read it before the roadmap meeting. This puts that evidence behind a question an assistant can ask.</strong></p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP), US at https://mcp.closedloop.sh, EU at https://eu.mcp.closedloop.sh
 Auth: OAuth 2.1 with dynamic client registration, PKCE S256, private_key_jwt supported (RS256 and ES256) for machine clients; scopes mcp:tools and mcp:read
-Live check: POST initialize without a token returned HTTP 401 {"jsonrpc":"2.0","error":{"code":-32000,"message":"Authorization required"}} with www-authenticate naming resource_metadata="https://mcp.closedloop.sh/.well-known/oauth-protected-resource"
+Live check: POST initialize without a token returned HTTP 401 {&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;error&quot;:{&quot;code&quot;:-32000,&quot;message&quot;:&quot;Authorization required&quot;}} with www-authenticate naming resource_metadata=&quot;https://mcp.closedloop.sh/.well-known/oauth-protected-resource&quot;
 Discovery: that path returns 200 with resource https://mcp.closedloop.sh and authorization server https://mcp.closedloop.sh; /.well-known/oauth-authorization-server returns authorize, token and register endpoints, code, refresh and client_credentials grants
 Tools: 14 documented read tools plus 4 write tools, in the vendor reference
 Pricing: volume-based on customer feedback volume, quoted on contact; unlimited team members and MCP access included
@@ -11109,10 +11112,10 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </
 <p>The vendor's own path for chat clients is a custom connector: name it, paste the regional URL, and leave the advanced client settings empty because the server registers the client itself.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"closedloop"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.closedloop.sh"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;closedloop&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.closedloop.sh&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

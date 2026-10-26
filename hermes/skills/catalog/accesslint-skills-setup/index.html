@@ -107,8 +107,8 @@
     "description": "Setup guide for AccessLint/skills - the official agent skill set from the AccessLint web-accessibility vendor.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/accesslint-skills-setup",
     
-    "datePublished": "2026-09-15",
-    "dateModified": "2026-09-15",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-15">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11027,12 +11027,12 @@
 <p><a href="https://accesslint.com">AccessLint</a> is an established web-accessibility vendor (npm <code>@accesslint/cli</code>, <code>@accesslint/core</code>). Its skills repo ships five Agent Skills that cover the WCAG 2.2 audit workflow end to end: automated scanning, hands-on keyboard and screen-reader checks, WCAG-EM conformance auditing, remediation, and regression diffing. Each finding is graded on two axes - severity (user impact) and evidence basis (● verified / ◐ confirm-with-a-human / ○ human-required) - making this the most audit-rigorous a11y skill set currently on skills.sh. Install is agent-agnostic via the skills CLI; a bundled MCP server (<code>@accesslint/mcp</code>) is optional.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># All 5 skills (verified live Sep 15, 2026: "Found 5 skills")</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># All 5 skills (verified live Sep 15, 2026: &quot;Found 5 skills&quot;)</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>AccessLint/skills
 
 <span class="c1"># Optional: AccessLint MCP server (rule metadata for audit/inspect/fix)</span>
 <span class="c1"># mcpServers entry:</span>
-<span class="c1">#   "accesslint": { "command": "npx", "args": ["-y", "@accesslint/mcp@latest"] }</span>
+<span class="c1">#   &quot;accesslint&quot;: { &quot;command&quot;: &quot;npx&quot;, &quot;args&quot;: [&quot;-y&quot;, &quot;@accesslint/mcp@latest&quot;] }</span>
 </code></pre></div>
 <p>A Claude Code plugin variant exists (<code>claude plugin marketplace add accesslint/skills</code>), but the skills CLI path is the agent-agnostic one.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>

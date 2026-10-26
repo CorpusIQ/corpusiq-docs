@@ -107,8 +107,8 @@
     "description": "Integration guide for hermoso-ai/hermoso: 52-tool AI ad studio that generates video/image/UGC ads and researches competitor ad libraries across Meta",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/hermoso-mcp",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11128,10 +11128,10 @@
 <h3 id="local-stdio">Local (stdio)<a class="headerlink" href="#local-stdio" title="Anchor link to this section">&para;</a></h3>
 <p>Add to your MCP client configuration:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"hermoso"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hermoso"</span><span class="p">,</span><span class="w"> </span><span class="s2">"mcp"</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;hermoso&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;hermoso&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;mcp&quot;</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11139,10 +11139,10 @@
 <h3 id="hosted-remote-http">Hosted (remote HTTP)<a class="headerlink" href="#hosted-remote-http" title="Anchor link to this section">&para;</a></h3>
 <p>Connect directly to the hosted endpoint:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"hermoso"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://app.hermoso.ai/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;hermoso&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://app.hermoso.ai/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11191,18 +11191,18 @@
 </table>
 <h2 id="common-queries">Common Queries<a class="headerlink" href="#common-queries" title="Anchor link to this section">&para;</a></h2>
 <h3 id="competitor-ad-research">Competitor Ad Research<a class="headerlink" href="#competitor-ad-research" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Search the Meta Ad Library for ads from [competitor] running in the last 30 days. Focus on video ads."
-"Find the top-performing Google Ads from [industry] brands this quarter."
-"Analyze LinkedIn Sponsored Content from [competitor] - what messaging angles are they using?"
+<div class="highlight"><pre><span></span><code>&quot;Search the Meta Ad Library for ads from [competitor] running in the last 30 days. Focus on video ads.&quot;
+&quot;Find the top-performing Google Ads from [industry] brands this quarter.&quot;
+&quot;Analyze LinkedIn Sponsored Content from [competitor] - what messaging angles are they using?&quot;
 </code></pre></div>
 <h3 id="ugc-ad-generation">UGC Ad Generation<a class="headerlink" href="#ugc-ad-generation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Generate a 30-second UGC-style video ad for our product. Use a casual, testimonial tone. Include our logo as an end card."
-"Create 3 variations of a Facebook image ad for our summer promotion. A/B test friendly."
-"Make a TikTok-style UGC ad with an AI avatar explaining our value prop in 15 seconds."
+<div class="highlight"><pre><span></span><code>&quot;Generate a 30-second UGC-style video ad for our product. Use a casual, testimonial tone. Include our logo as an end card.&quot;
+&quot;Create 3 variations of a Facebook image ad for our summer promotion. A/B test friendly.&quot;
+&quot;Make a TikTok-style UGC ad with an AI avatar explaining our value prop in 15 seconds.&quot;
 </code></pre></div>
 <h3 id="cross-platform-analysis">Cross-Platform Analysis<a class="headerlink" href="#cross-platform-analysis" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Compare our organic Instagram content performance against [competitor]'s last 20 posts."
-"What YouTube ad formats are working best in our category? Search 10 competitor channels."
+<div class="highlight"><pre><span></span><code>&quot;Compare our organic Instagram content performance against [competitor]&#39;s last 20 posts.&quot;
+&quot;What YouTube ad formats are working best in our category? Search 10 competitor channels.&quot;
 </code></pre></div>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Anchor link to this section">&para;</a></h2>
 <ol>

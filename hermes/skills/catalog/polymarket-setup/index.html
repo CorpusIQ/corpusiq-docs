@@ -107,8 +107,8 @@
     "description": "Install and configure polymarket from nousresearch/hermes-agent. Real-world prediction market data for event forecasting, sentiment analysis, and probabilistic",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/polymarket-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11161,14 +11161,14 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dat
 <hr />
 <h2 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Anchor link to this section">&para;</a></h2>
 <h3 id="check-event-probability">Check Event Probability<a class="headerlink" href="#check-event-probability" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>What's the current probability of a Fed rate cut in September according to Polymarket?
+<div class="highlight"><pre><span></span><code>What&#39;s the current probability of a Fed rate cut in September according to Polymarket?
 </code></pre></div>
 <h3 id="market-research">Market Research<a class="headerlink" href="#market-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Compare Polymarket prices for the 2026 midterm elections across different outcome markets.
 Show me which markets have the highest 24h volume.
 </code></pre></div>
 <h3 id="trend-analysis">Trend Analysis<a class="headerlink" href="#trend-analysis" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Track the price movement on the "AI regulation bill passes in 2026" market over the last 7 days.
+<div class="highlight"><pre><span></span><code>Track the price movement on the &quot;AI regulation bill passes in 2026&quot; market over the last 7 days.
 </code></pre></div>
 <hr />
 <h2 id="available-market-categories">Available Market Categories<a class="headerlink" href="#available-market-categories" title="Anchor link to this section">&para;</a></h2>
@@ -11233,10 +11233,10 @@ Show me which markets have the highest 24h volume.
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="nt">polymarket</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">api_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"free"</span><span class="w">              </span><span class="c1"># or "clob" for trading access</span>
+<span class="w">  </span><span class="nt">api_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;free&quot;</span><span class="w">              </span><span class="c1"># or &quot;clob&quot; for trading access</span>
 <span class="w">  </span><span class="nt">default_markets</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"politics"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"crypto"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;politics&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;crypto&quot;</span>
 <span class="w">  </span><span class="nt">alert_thresholds</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">volume_spike_pct</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">50</span><span class="w">        </span><span class="c1"># Alert on 50%+ volume increase</span>
 <span class="w">    </span><span class="nt">price_move_pct</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span><span class="w">          </span><span class="c1"># Alert on 10%+ price movement</span>

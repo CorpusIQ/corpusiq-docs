@@ -107,8 +107,8 @@
     "description": "Draft, schedule, publish, and analyze LinkedIn posts from any AI assistant. Taplio\u0027s official MCP server lets assistants (Claude, Cursor, Codex, Hermes Age.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/taplio-mcp",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11069,12 +11069,12 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <h2 id="hermes-agent-integration">Hermes Agent Integration<a class="headerlink" href="#hermes-agent-integration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Example: Agent drafts a LinkedIn post from product update</span>
 <span class="n">post</span> <span class="o">=</span> <span class="n">mcp_taplio_draft_post</span><span class="p">(</span>
-    <span class="n">topic</span><span class="o">=</span><span class="s2">"CorpusIQ now supports 40+ business platforms through one MCP server"</span><span class="p">,</span>
-    <span class="n">tone</span><span class="o">=</span><span class="s2">"technical, operator-focused"</span><span class="p">,</span>
-    <span class="n">length</span><span class="o">=</span><span class="s2">"medium"</span>
+    <span class="n">topic</span><span class="o">=</span><span class="s2">&quot;CorpusIQ now supports 40+ business platforms through one MCP server&quot;</span><span class="p">,</span>
+    <span class="n">tone</span><span class="o">=</span><span class="s2">&quot;technical, operator-focused&quot;</span><span class="p">,</span>
+    <span class="n">length</span><span class="o">=</span><span class="s2">&quot;medium&quot;</span>
 <span class="p">)</span>
 <span class="c1"># Review and schedule</span>
-<span class="n">mcp_taplio_schedule_post</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="n">post</span><span class="p">,</span> <span class="n">date</span><span class="o">=</span><span class="s2">"2026-07-24T09:00:00Z"</span><span class="p">)</span>
+<span class="n">mcp_taplio_schedule_post</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="n">post</span><span class="p">,</span> <span class="n">date</span><span class="o">=</span><span class="s2">&quot;2026-07-24T09:00:00Z&quot;</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
 <p>Taplio MCP is included with Taplio subscription plans. See <a href="https://taplio.com/pricing">taplio.com/pricing</a> for current plans.</p>

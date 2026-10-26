@@ -11170,8 +11170,8 @@ claude<span class="w"> </span>plugin<span class="w"> </span>install<span class="
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>skills/measure-dont-guess/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/writing/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/skill-authoring/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/masseater/skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/masseater/skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two skills that will shape your agent's behaviour most before enabling them:</p>
@@ -11180,7 +11180,7 @@ claude<span class="w"> </span>plugin<span class="w"> </span>install<span class="
 <li>https://raw.githubusercontent.com/masseater/skills/main/skills/dont-it-yourself/SKILL.md</li>
 </ul>
 <p>After install, <code>npx skills list</code> should show the skills that were written, and for the plugin path <code>claude plugin details masseater-skills@masseater</code> lists what the marketplace resolved. Confirm the manifest exists if you install as a plugin:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code}\n"</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code}\n&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>https://raw.githubusercontent.com/masseater/skills/main/.claude-plugin/plugin.json
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

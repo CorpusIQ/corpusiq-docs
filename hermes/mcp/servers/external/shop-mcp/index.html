@@ -107,6 +107,9 @@
     "description": "One-file stdlib-only MCP server that gives an agent read-only access to a Shopify store\u0027s catalogue and stock levels, answering what a store sells and what",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/shop-mcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11026,13 +11029,13 @@ Built by: hello532 (glama.ai scored: license A, quality A, maintenance B)
 <p>One Python file, standard library only - no MCP SDK, no GraphQL client dependency, no HTTP client library beyond urllib. The package ships with self-test assertions covering the tool surface.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"shop"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uvx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"shop-mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"SHOPIFY_SHOP_DOMAIN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-shop.myshopify.com"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SHOPIFY_ADMIN_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shpat_..."</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;shop&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uvx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;shop-mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;SHOPIFY_SHOP_DOMAIN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-shop.myshopify.com&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SHOPIFY_ADMIN_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;shpat_...&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

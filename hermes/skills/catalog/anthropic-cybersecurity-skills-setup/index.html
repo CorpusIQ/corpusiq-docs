@@ -107,8 +107,8 @@
     "description": "Install and configure mukul975/Anthropic-Cybersecurity-Skills - 750+ MITRE-mapped security skills for AI agents including threat detection, incident response",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/anthropic-cybersecurity-skills-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11150,10 +11150,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">threat-detection</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">incident-response</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vulnerability-assessment</span>
-<span class="w">  </span><span class="nt">mitre_framework_version</span><span class="p">:</span><span class="w"> </span><span class="s">"v15"</span>
-<span class="w">  </span><span class="nt">severity_threshold</span><span class="p">:</span><span class="w"> </span><span class="s">"medium"</span><span class="w">     </span><span class="c1"># only load skills for medium+ severity</span>
-<span class="w">  </span><span class="nt">scan_frequency</span><span class="p">:</span><span class="w"> </span><span class="s">"daily"</span>
-<span class="w">  </span><span class="nt">alert_destination</span><span class="p">:</span><span class="w"> </span><span class="s">"siem"</span><span class="w">        </span><span class="c1"># or "slack", "email", "pagerduty"</span>
+<span class="w">  </span><span class="nt">mitre_framework_version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;v15&quot;</span>
+<span class="w">  </span><span class="nt">severity_threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;medium&quot;</span><span class="w">     </span><span class="c1"># only load skills for medium+ severity</span>
+<span class="w">  </span><span class="nt">scan_frequency</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;daily&quot;</span>
+<span class="w">  </span><span class="nt">alert_destination</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;siem&quot;</span><span class="w">        </span><span class="c1"># or &quot;slack&quot;, &quot;email&quot;, &quot;pagerduty&quot;</span>
 </code></pre></div>
 <h2 id="key-workflows">Key Workflows<a class="headerlink" href="#key-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="run-a-threat-scan">Run a threat scan<a class="headerlink" href="#run-a-threat-scan" title="Anchor link to this section">&para;</a></h3>
@@ -11173,10 +11173,10 @@ Prioritize by CVSS score and exploitability.
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># List installed cybersecurity skills</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">"threat\|incident\|vulnerability"</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;threat\|incident\|vulnerability&quot;</span>
 
 <span class="c1"># Test a basic scan</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"Run a quick security posture check on this environment"</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;Run a quick security posture check on this environment&quot;</span>
 </code></pre></div>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>

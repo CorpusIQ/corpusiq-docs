@@ -107,6 +107,9 @@
     "description": "Ghidra 12.1.4 behind an MCP server: 28 local tools for decompilation, symbols, cross references and annotations. Headless, no GUI, no cloud calls.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ghidramcp",
     
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11111,10 +11114,10 @@ Built by: LaurieWired (open source, Apache-2.0)
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Prerequisites: Ghidra 12.1.4 and a JDK 21 runtime (the headless path runs Ghidra in process through PyGhidra).</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Python 3.10 to 3.13</span>
-pip<span class="w"> </span>install<span class="w"> </span><span class="s2">"ghidra-mcp[headless] @ git+https://github.com/LaurieWired/GhidraMCP"</span>
+pip<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;ghidra-mcp[headless] @ git+https://github.com/LaurieWired/GhidraMCP&quot;</span>
 </code></pre></div>
 <p>Or with uv, no permanent install:</p>
-<div class="highlight"><pre><span></span><code>uvx<span class="w"> </span>--python<span class="w"> </span><span class="m">3</span>.13<span class="w"> </span>--from<span class="w"> </span><span class="s2">"ghidra-mcp[headless] @ git+https://github.com/LaurieWired/GhidraMCP"</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>uvx<span class="w"> </span>--python<span class="w"> </span><span class="m">3</span>.13<span class="w"> </span>--from<span class="w"> </span><span class="s2">&quot;ghidra-mcp[headless] @ git+https://github.com/LaurieWired/GhidraMCP&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>ghidra-mcp<span class="w"> </span>--headless<span class="w"> </span>--binary<span class="w"> </span>/path/to/target
 </code></pre></div>
 <p>For the GUI route, download the latest release, import the extension zip in Ghidra via File &gt; Install Extensions, restart, and enable the GhidraMCPPlugin under File &gt; Configure &gt; Developer. The plugin then serves on port 8080 and the MCP client connects to it.</p>
@@ -11129,10 +11132,10 @@ ghidra-mcp<span class="w"> </span>--headless<span class="w"> </span>--binary<spa
 </code></pre></div>
 <p>Then add <code>http://127.0.0.1:8097/mcp</code> as a remote server in any MCP client. For command based clients, the stdio form is:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"ghidra"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ghidra-mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"--headless"</span><span class="p">,</span><span class="w"> </span><span class="s2">"--binary"</span><span class="p">,</span><span class="w"> </span><span class="s2">"/path/to/target"</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;ghidra&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ghidra-mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;--headless&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;--binary&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/path/to/target&quot;</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

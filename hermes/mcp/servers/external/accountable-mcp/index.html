@@ -107,6 +107,9 @@
     "description": "AI bookkeeping for startups over MCP. Read and update the books from Claude or ChatGPT.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/accountable-mcp",
     
+    "datePublished": "2026-10-24",
+    "dateModified": "2026-10-24",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-24">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11131,13 +11134,13 @@ Built by: accountable.im
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>accountable<span class="w"> </span>https://accountable.im/mcp
 </code></pre></div>
 <p>The hosted server also installs through the vendor's one-liner:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>add-mcp<span class="w"> </span><span class="s1">'https://accountable.im/mcp'</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>add-mcp<span class="w"> </span><span class="s1">&#39;https://accountable.im/mcp&#39;</span>
 </code></pre></div>
 <p>Cursor and other HTTP-capable clients:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"accountable"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://accountable.im/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;accountable&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://accountable.im/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

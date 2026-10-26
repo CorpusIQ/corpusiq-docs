@@ -107,6 +107,9 @@
     "description": "Official Azquo MCP: a persistent, auditable store where every write is attributed and every figure traces back to its source file, user and change.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/azquo-mcp",
     
+    "datePublished": "2026-10-20",
+    "dateModified": "2026-10-20",
+    
     "author": {
       "@type": "Organization",
       "name": "CorpusIQ",
@@ -129,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="">
+  <meta name="last-updated" content="2026-10-20">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11090,17 +11093,17 @@
 <h1 id="azquo-mcp">Azquo MCP<a class="headerlink" href="#azquo-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>A store built for what agents learn, not just what they are asked</strong> - every write is attributed to the agent and the person behind it, hierarchies are added without a migration, and every single figure traces back through each transformation to the file it came from.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) at https://data.azquo.ai/mcp
-Auth: OAuth 2.1 (bearer header, scope "mcp") for the Claude app custom connector; API key from the Azquo admin site for agent runtimes
-Live check: POST initialize returned HTTP 401 "Unauthorized : no key" with WWW-Authenticate pointing at https://data.azquo.ai/.well-known/oauth-protected-resource
+Auth: OAuth 2.1 (bearer header, scope &quot;mcp&quot;) for the Claude app custom connector; API key from the Azquo admin site for agent runtimes
+Live check: POST initialize returned HTTP 401 &quot;Unauthorized : no key&quot; with WWW-Authenticate pointing at https://data.azquo.ai/.well-known/oauth-protected-resource
 Access: evaluation granted on request, with your own Azquo account
 Vendor: Azquo (azquo.com), a finance-owned consolidation and business-intelligence platform
 </code></pre></div>
 <p>The published resource metadata, read live at probe time:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">"resource"</span><span class="p">:</span><span class="s2">"https://data.azquo.ai/mcp"</span><span class="p">,</span>
-<span class="w"> </span><span class="nt">"authorization_servers"</span><span class="p">:[</span><span class="s2">"https://data.azquo.ai"</span><span class="p">],</span>
-<span class="w"> </span><span class="nt">"bearer_methods_supported"</span><span class="p">:[</span><span class="s2">"header"</span><span class="p">],</span>
-<span class="w"> </span><span class="nt">"scopes_supported"</span><span class="p">:[</span><span class="s2">"mcp"</span><span class="p">],</span>
-<span class="w"> </span><span class="nt">"resource_name"</span><span class="p">:</span><span class="s2">"Azquo"</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;resource&quot;</span><span class="p">:</span><span class="s2">&quot;https://data.azquo.ai/mcp&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;authorization_servers&quot;</span><span class="p">:[</span><span class="s2">&quot;https://data.azquo.ai&quot;</span><span class="p">],</span>
+<span class="w"> </span><span class="nt">&quot;bearer_methods_supported&quot;</span><span class="p">:[</span><span class="s2">&quot;header&quot;</span><span class="p">],</span>
+<span class="w"> </span><span class="nt">&quot;scopes_supported&quot;</span><span class="p">:[</span><span class="s2">&quot;mcp&quot;</span><span class="p">],</span>
+<span class="w"> </span><span class="nt">&quot;resource_name&quot;</span><span class="p">:</span><span class="s2">&quot;Azquo&quot;</span><span class="p">}</span>
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Every agent session starts by re-deriving what the last one worked out. A convention gets discovered ("Q3 revenue excludes intercompany"), the session ends, and the next agent has no way to inherit it. The result is the same recurring cost: a fresh model reading the same CSV and getting the same question slightly differently wrong.</p>
@@ -11155,9 +11158,9 @@ Vendor: Azquo (azquo.com), a finance-owned consolidation and business-intelligen
 <p>For the Claude app there is nothing to install: add <code>https://data.azquo.ai/mcp</code> as a custom connector and sign in with an Azquo login.</p>
 <p>For an agent runtime, point it at the same address with an API key issued from the Azquo admin site. The unauthenticated probe recorded above confirms the endpoint is live and answering; it will not serve a tool call without a credential.</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://data.azquo.ai/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Accept: application/json, text/event-stream"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"probe","version":"1.0"}}}'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Accept: application/json, text/event-stream&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;method&quot;:&quot;initialize&quot;,&quot;params&quot;:{&quot;protocolVersion&quot;:&quot;2025-06-18&quot;,&quot;capabilities&quot;:{},&quot;clientInfo&quot;:{&quot;name&quot;:&quot;probe&quot;,&quot;version&quot;:&quot;1.0&quot;}}}&#39;</span>
 </code></pre></div>
 <p>Adding a system is described as a data-download task, not a migration project: the people who already have access download what they already have access to, and Azquo loads those files. Your databases, permissions and routines stay where they are.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>

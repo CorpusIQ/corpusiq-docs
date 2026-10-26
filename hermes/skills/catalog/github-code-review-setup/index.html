@@ -107,8 +107,8 @@
     "description": "Automate GitHub PR reviews, diffs, and inline comments via gh CLI or REST API for Hermes agents - 281 installs.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/github-code-review-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11117,16 +11117,16 @@ gh<span class="w"> </span>pr<span class="w"> </span>diff<span class="w"> </span>
 gh<span class="w"> </span>pr<span class="w"> </span>view<span class="w"> </span><span class="m">42</span><span class="w"> </span>--json<span class="w"> </span>title,body,author,additions,deletions,files
 
 <span class="c1"># Approve PR</span>
-gh<span class="w"> </span>pr<span class="w"> </span>review<span class="w"> </span><span class="m">42</span><span class="w"> </span>--approve<span class="w"> </span>--body<span class="w"> </span><span class="s2">"LGTM"</span>
+gh<span class="w"> </span>pr<span class="w"> </span>review<span class="w"> </span><span class="m">42</span><span class="w"> </span>--approve<span class="w"> </span>--body<span class="w"> </span><span class="s2">&quot;LGTM&quot;</span>
 
 <span class="c1"># Request changes</span>
-gh<span class="w"> </span>pr<span class="w"> </span>review<span class="w"> </span><span class="m">42</span><span class="w"> </span>--request-changes<span class="w"> </span>--body<span class="w"> </span><span class="s2">"Needs tests"</span>
+gh<span class="w"> </span>pr<span class="w"> </span>review<span class="w"> </span><span class="m">42</span><span class="w"> </span>--request-changes<span class="w"> </span>--body<span class="w"> </span><span class="s2">&quot;Needs tests&quot;</span>
 
 <span class="c1"># Add inline comment</span>
 gh<span class="w"> </span>api<span class="w"> </span>repos/CorpusIQ/corpusiq-docs/pulls/42/comments<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-f<span class="w"> </span><span class="nv">body</span><span class="o">=</span><span class="s2">"Consider using async here"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-f<span class="w"> </span><span class="nv">body</span><span class="o">=</span><span class="s2">&quot;Consider using async here&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-f<span class="w"> </span><span class="nv">commit_id</span><span class="o">=</span>HEAD<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-f<span class="w"> </span><span class="nv">path</span><span class="o">=</span><span class="s2">"src/main.py"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-f<span class="w"> </span><span class="nv">path</span><span class="o">=</span><span class="s2">&quot;src/main.py&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-f<span class="w"> </span><span class="nv">line</span><span class="o">=</span><span class="m">47</span>
 
 <span class="c1"># List open PRs</span>
@@ -11186,7 +11186,7 @@ gh<span class="w"> </span>pr<span class="w"> </span>list<span class="w"> </span>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>github-code-review
 </code></pre></div></p>
 <p>Test with a review request:
-<div class="highlight"><pre><span></span><code>"Review all open PRs on corpusiq-docs and summarize the changes"
+<div class="highlight"><pre><span></span><code>&quot;Review all open PRs on corpusiq-docs and summarize the changes&quot;
 </code></pre></div></p>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is the connector layer that lets AI assistants read the systems a business

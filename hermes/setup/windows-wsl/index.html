@@ -111,8 +111,8 @@
     "description": "Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2. GPU passthrough for NVIDIA CUDA, native Ollama models, systemd persistence, and browser",
     "url": "https://www.corpusiq.io/docs/hermes/setup/windows-wsl",
     
-    "datePublished": "2026-09-17",
-    "dateModified": "2026-09-17",
+    "datePublished": "2026-10-19",
+    "dateModified": "2026-10-19",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-09-17">
+  <meta name="last-updated" content="2026-10-19">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11526,7 +11526,7 @@ ollama<span class="w"> </span>run<span class="w"> </span>llama3.2<span class="w"
 </table>
 <p><strong>Rule:</strong> Keep active Hermes data in <code>/home/</code> for performance. For <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">model selection</a> and memory, WSL2's ext4 filesystem is significantly faster than NTFS.</p>
 <h3 id="step-8-systemd-service">Step 8: Systemd Service<a class="headerlink" href="#step-8-systemd-service" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/systemd/system/hermes-gateway.service<span class="w"> </span><span class="s">&lt;&lt; 'EOF'</span>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/systemd/system/hermes-gateway.service<span class="w"> </span><span class="s">&lt;&lt; &#39;EOF&#39;</span>
 <span class="s">[Unit]</span>
 <span class="s">Description=Hermes Agent Gateway</span>
 <span class="s">After=network-online.target</span>
