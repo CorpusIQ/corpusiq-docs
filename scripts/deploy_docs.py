@@ -334,6 +334,19 @@ def main():
     print("2i. Claim-truth gate (no unsupported directory listings)...")
     run("python3 scripts/validate_claim_truth.py", fatal=True)
 
+    # 2j. Conflict-marker gate. Blocks the deploy on unresolved merge-conflict
+    #     markers in any tracked content file. Two agent lanes share this clone;
+    #     on 2026-10-26 a lane's `git pull --rebase` collided with another lane's
+    #     unpushed commit, the rebase was aborted, and an autofix routine then
+    #     committed the half-resolved tree: four published pages carried
+    #     `<<<<<<<` / `=======` / `>>>>>>>` blocks. mkdocs renders those as body
+    #     text, so the live site would have shown the garbage to readers and no
+    #     gate looked for it. Requires the opening marker plus a separator or
+    #     closing marker, so a setext `=======` underline alone is not flagged.
+    #     Hard gate, no `|| true`.
+    print("2j. Conflict-marker gate (no unresolved merges)...")
+    run("python3 scripts/validate_no_conflict_markers.py", fatal=True)
+
     # 3. Build
     print("3. Building mkdocs...")
     out = run("python3 -m mkdocs build --clean", fatal=True)
