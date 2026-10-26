@@ -1382,6 +1382,14 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
+### [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill) ⭐ 2
+
+>MIT agent skill (SKILL.md) that publishes a file or folder to a permanent `https://<slug>.deed.page/` URL in one request, so a run that ends in "put this online" can return a link instead of a deploy step. Works with Hermes Agent, OpenClaw, Claude Code, Codex, Cursor and Gemini CLI; ships per-agent manifests plus a hosted remote MCP server (`https://deed.page/mcp`, MCP Registry `page.deed/deed-page`, 20+ tools for publish, update, version and roll back). Free plan needs no account (25 sites, 25 MB per site). Vendor-maintained by the deed.page team (Avatar 8 LLC).
+
+**Language:** Unknown | **Topics:** agent-skill, agent-skills, ai-agents, claude-code, claude-code-plugin, claude-skills, codex, codex-skills, deploy, gemini-cli, gemini-cli-extension, hermes-agent, hosting, html, mcp, mcp-server, publish, skill-md, skills, static-site | **Score:** 52/100
+
+---
+
 ## 🖥️ Interfaces & UI
 
 _Desktop apps, web UIs, dashboards, terminals_
