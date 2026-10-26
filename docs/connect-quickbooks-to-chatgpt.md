@@ -3,7 +3,7 @@ title: "Connect QuickBooks to ChatGPT via MCP - Live Data"
 description: "Connect your QuickBooks account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect QuickBooks to ChatGPT", "QuickBooks ChatGPT integration", "MCP QuickBooks connector", "QuickBooks data to ChatGPT", "AI for QuickBooks", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/connect-quickbooks-to-chatgpt
 robots: index,follow
 ---

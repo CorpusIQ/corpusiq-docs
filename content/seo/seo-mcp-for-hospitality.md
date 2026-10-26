@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-hospitality
 description: "You manage a hotel or restaurant group. Your PMS handles reservations. Your POS handles transactions. QuickBooks handles financials."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Hospitality - Every Property, Every System, One Question
 

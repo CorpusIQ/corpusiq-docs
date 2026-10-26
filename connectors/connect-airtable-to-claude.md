@@ -1,6 +1,7 @@
 ---
 title: "Connect Airtable to Claude (Plain English Q&A)"
 description: "Connect Airtable to Claude through CorpusIQ and ask questions about projects, inventory, and CRM records instead of building views and filters manually."
+last_updated: "2026-10-19"
 ---
 # Connect Airtable to Claude (Plain English Q&A)
 

@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-ar-management
 description: "Accounts Receivable is the silent cash killer. Every dollar sitting in AR is a dollar you can't use."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for AR Management - Get Paid Faster
 

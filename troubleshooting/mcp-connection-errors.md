@@ -1,6 +1,7 @@
 ---
 title: "MCP Connection Errors - CorpusIQ Docs"
 description: "The most common issues when connecting CorpusIQ to Claude Desktop, ChatGPT, Cursor, or any MCP client. Start here before escalating to support.."
+last_updated: "2026-10-26"
 ---
 # MCP Connection Errors - Troubleshooting Guide
 

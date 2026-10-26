@@ -1,7 +1,7 @@
 ---
 title: README
 description: "**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use - QuickBooks, Shopify, Stripe, Hu."
-last_updated: "2026-09-28"
+last_updated: "2026-10-26"
 ---
 # CorpusIQ - Stop building reports by hand. Just ask your AI.
 

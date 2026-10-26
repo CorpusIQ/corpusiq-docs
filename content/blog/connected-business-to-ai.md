@@ -1,7 +1,7 @@
 ---
 title: connected-business-to-ai
 description: "I run a business. I use QuickBooks, Shopify, and Stripe."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # I Connected My Entire Business to ChatGPT in 5 Minutes - Here's What Happened
 

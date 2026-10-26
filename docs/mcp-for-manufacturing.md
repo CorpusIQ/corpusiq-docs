@@ -3,7 +3,7 @@ title: "MCP for Manufacturing: AI Access to Production Data"
 description: "How manufacturers use MCP servers to connect production, inventory, quality, and cost data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for manufacturing", "manufacturing AI analytics", "AI for production teams", "connect ERP data to ChatGPT", "production KPI reporting", "quality data insights"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/mcp-for-manufacturing
 robots: index,follow
 ---

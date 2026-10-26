@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-accounting-firms
 description: "Your firm serves 50+ clients. Each uses QuickBooks, some use Stripe, others use Shopify."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Accounting Firms - Every Client, Every System, One Question
 

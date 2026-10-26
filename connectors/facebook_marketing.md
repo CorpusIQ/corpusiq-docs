@@ -1,6 +1,7 @@
 ---
 title: "Meta (Facebook, Instagram, Ads) Connector"
 description: "Meta Ads is one of the largest line items in a SaaS or ecommerce budget. Connect Meta read-only and compare its numbers honestly to GA4 and Shopify."
+last_updated: "2026-10-25"
 ---
 # Meta (Facebook, Instagram, Ads)
 

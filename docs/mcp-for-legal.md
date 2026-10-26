@@ -3,7 +3,7 @@ title: "MCP for Legal: AI Access to Contract and Matter Data"
 description: "How legal teams use MCP servers to connect contract, matter, and outside counsel data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for legal", "legal AI analytics", "AI for legal teams", "connect contract data to ChatGPT", "contract renewal tracking", "outside counsel spend"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/mcp-for-legal
 robots: index,follow
 ---

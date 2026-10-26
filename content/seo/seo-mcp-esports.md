@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-esports
 description: "E-sports organizations run: tournament platforms, QuickBooks for financials, Stripe for merchandise/tickets, social media analytics."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for E-Sports - Tournament Revenue, Sponsorship, Team Performance
 

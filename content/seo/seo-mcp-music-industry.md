@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-music-industry
 description: "Artists and labels manage: DistroKid for streaming, QuickBooks for financials, Stripe for merch, Songtrust for publishing, Bandsintown for touring."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Music Industry - Streaming Revenue, Publishing, Tour Financials
 

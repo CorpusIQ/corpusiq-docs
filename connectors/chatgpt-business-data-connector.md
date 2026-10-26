@@ -1,6 +1,7 @@
 ---
 title: "How to Connect ChatGPT to Your Business Data (2026 Guide)"
 description: "ChatGPT cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to connect your business data in 5 minutes."
+last_updated: "2026-10-19"
 ---
 # How to Connect ChatGPT to Your Business Data (2026 Guide)
 

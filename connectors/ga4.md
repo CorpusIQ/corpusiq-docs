@@ -1,6 +1,7 @@
 ---
 title: "GA4 - Google Analytics 4 - CorpusIQ Docs"
 description: "Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue - without leaving Cl."
+last_updated: "2026-10-19"
 ---
 # GA4 - Google Analytics 4
 

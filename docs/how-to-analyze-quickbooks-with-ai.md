@@ -12,7 +12,7 @@ keywords:
 - financial data analysis AI
 - QuickBooks AI insights
 - accounting analytics AI
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/how-to-analyze-quickbooks-with-ai

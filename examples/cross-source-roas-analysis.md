@@ -1,6 +1,7 @@
 ---
 title: "Cross-Source ROAS Analysis - CorpusIQ Docs"
 description: "This example shows how to use CorpusIQ to calculate true Return on Ad Spend by connecting Shopify revenue data with Meta Ads and Google Ads spend data."
+last_updated: "2026-10-19"
 ---
 # Example: Cross-Source ROAS Analysis with Shopify + Meta Ads + Google Ads
 

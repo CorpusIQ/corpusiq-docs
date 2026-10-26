@@ -3,7 +3,7 @@ title: "MCP Spec GA - What Operators Should Know"
 description: "The Model Context Protocol reached general availability on July 28, 2026. What operators using MCP for business data should know about the spec freeze."
 canonical: "https://www.corpusiq.io/docs/mcp-spec-ga-july-2026/"
 robots: "index,follow"
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "documentation"]
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: seo-ai-revops
 description: "RevOps teams live in the gap between sales and finance. HubSpot says one number. Stripe says another. QuickBooks says a third."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # AI for Revenue Operations - Pipeline to Revenue in One Question
 

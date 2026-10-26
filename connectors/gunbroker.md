@@ -1,6 +1,7 @@
 ---
 title: "GunBroker - CorpusIQ Docs - CorpusIQ"
 description: "GunBroker is the primary marketplace for firearms sellers, and its data - active listings, watchers, sold revenue, fraud claims - lives nowhere else.."
+last_updated: "2026-10-19"
 ---
 # GunBroker
 

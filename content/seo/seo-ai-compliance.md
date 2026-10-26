@@ -1,7 +1,7 @@
 ---
 title: seo-ai-compliance
 description: "Auditors ask for data. You spend two weeks pulling it from five systems, formatting it, and praying the numbers match."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # AI for Compliance - Audit-Ready Answers in Seconds
 

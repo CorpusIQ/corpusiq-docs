@@ -1,6 +1,7 @@
 ---
 title: "How CorpusIQ Works - Full Overview"
 description: "How CorpusIQ works: connectors, MCP architecture, skills, metric specs, and the trust layer that keeps business answers consistent across every AI assistant."
+last_updated: "2026-10-19"
 ---
 # How CorpusIQ works
 

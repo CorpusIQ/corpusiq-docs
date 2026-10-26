@@ -3,7 +3,7 @@ title: "Connect Salesforce to Claude via MCP - Live Data"
 description: "Connect your Salesforce account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect Salesforce to Claude", "Salesforce Claude integration", "MCP Salesforce connector", "Salesforce data to Claude", "AI for Salesforce", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/connect-salesforce-to-claude
 robots: index,follow
 ---

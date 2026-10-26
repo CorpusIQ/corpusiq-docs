@@ -1,6 +1,7 @@
 ---
 title: "Error Codes Reference - CorpusIQ Docs"
 description: "When something goes wrong, CorpusIQ or a vendor returns an error code or message. This page maps those errors to causes and fixes.."
+last_updated: "2026-10-19"
 ---
 # Error codes & troubleshooting reference
 

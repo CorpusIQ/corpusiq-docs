@@ -1,7 +1,7 @@
 ---
 title: seo-connect-google-ads-claude
 description: "Your ad spend lives in Google Ads. Campaigns, keywords, conversions, ROAS. Every optimization decision requires navigating the Google Ads dashboard."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect Google Ads to Claude - Campaign Performance in Plain English
 

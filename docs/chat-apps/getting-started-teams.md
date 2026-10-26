@@ -4,7 +4,7 @@ description: >-
   private answers or intentional sharing in group chats and team channels.
 canonical: "https://www.corpusiq.io/docs/chat-apps/getting-started-teams/"
 robots: "index,follow"
-last_updated: "2026-10-16"
+last_updated: "2026-10-26"
 title: "Getting started in Microsoft Teams"
 tags: ["microsoft teams", "getting started", "documentation"]
 ---

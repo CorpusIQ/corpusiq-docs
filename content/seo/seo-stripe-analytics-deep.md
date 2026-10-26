@@ -1,7 +1,7 @@
 ---
 title: seo-stripe-analytics-deep
 description: "Stripe knows your revenue better than anyone. But the dashboard only shows surface-level numbers."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Stripe Analytics - Know Your Revenue Inside Out
 

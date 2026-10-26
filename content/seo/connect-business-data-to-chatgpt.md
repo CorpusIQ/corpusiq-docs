@@ -1,7 +1,7 @@
 ---
 title: connect-business-data-to-chatgpt
 description: "You already have the data. QuickBooks knows your revenue. Shopify knows your orders. Stripe knows your cash position. HubSpot knows your pipeline."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # How to Connect Business Data to ChatGPT - The 5-Minute Setup
 

@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-influencers
 description: "Influencers manage: brand deal tracking, Stripe for payments, QuickBooks for business expenses, social platform analytics."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Influencers - Brand Deals, Content Revenue, Audience Analytics
 

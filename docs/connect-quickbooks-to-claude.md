@@ -3,7 +3,7 @@ title: "Connect QuickBooks to Claude via MCP - Live Data"
 description: "Connect your QuickBooks account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect QuickBooks to Claude", "QuickBooks Claude integration", "MCP QuickBooks connector", "QuickBooks data to Claude", "AI for QuickBooks", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/connect-quickbooks-to-claude
 robots: index,follow
 ---

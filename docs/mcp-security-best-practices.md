@@ -3,7 +3,7 @@ title: "MCP Security Best Practices: OAuth & Token Management"
 description: "MCP server security guide: OAuth 2.0 scopes, encrypted token management, read-only access defaults, audit trails, TLS encryption, and SOC 2 alignment."
 category: MCP Education
 tags: ["MCP security best practices", "secure AI data integration", "OAuth AI authentication", "read-only data access security", "AI audit trails", "SOC 2 AI compliance"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/mcp-security-best-practices
 robots: index,follow
 ---

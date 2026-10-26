@@ -1,6 +1,7 @@
 ---
 title: "Connect Meta Ads (Facebook + Instagram) to Claude"
 description: "Your Meta Ads dashboard shows spend and reach but not profit. Connect Meta Ads to Claude through CorpusIQ for true ROAS across Shopify and Stripe."
+last_updated: "2026-10-19"
 ---
 # Connect Meta Ads (Facebook + Instagram) to Claude
 

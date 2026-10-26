@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-solar
 description: "Solar companies run: CRM for pipeline, QuickBooks for costs, Stripe for financing payments, and project management for installations."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Solar Companies - Project Pipeline, Installation Costs, and Revenue
 

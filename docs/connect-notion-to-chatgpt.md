@@ -3,7 +3,7 @@ title: "Connect Notion to ChatGPT via MCP -- Live Data, No Code"
 description: "Connect your Notion account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect Notion to ChatGPT", "Notion ChatGPT integration", "MCP Notion connector", "Notion data to ChatGPT", "AI for Notion", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/connect-notion-to-chatgpt
 robots: index,follow
 ---

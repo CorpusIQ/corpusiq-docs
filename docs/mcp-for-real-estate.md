@@ -3,7 +3,7 @@ title: "MCP for Real Estate: AI-Powered Data Access"
 description: "How real estate teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude."
 category: MCP Education
 tags: ["MCP for real estate", "real estate AI analytics", "AI for real estate teams", "connect business data to ChatGPT", "no-code AI business intelligence", "real estate data integration"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/mcp-for-real-estate
 robots: index,follow
 ---

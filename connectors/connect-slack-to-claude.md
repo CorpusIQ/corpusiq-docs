@@ -1,6 +1,7 @@
 ---
 title: "Connect Slack to Claude (Search Your Workspace)"
 description: "Stop searching through Slack manually. Connect Slack to Claude through CorpusIQ and ask questions about your workspace activity, channels, and messages."
+last_updated: "2026-10-19"
 ---
 # Connect Slack to Claude (Search and Analyze Your Workspace)
 

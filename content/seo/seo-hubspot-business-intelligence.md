@@ -1,7 +1,7 @@
 ---
 title: seo-hubspot-business-intelligence
 description: "HubSpot knows your pipeline, customers, and deals. But BI requires exporting data and building analysis elsewhere."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # HubSpot Business Intelligence - CRM Analytics Without the Reports
 

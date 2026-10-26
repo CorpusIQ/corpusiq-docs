@@ -1,7 +1,7 @@
 ---
 title: death-of-dashboards
 description: "Every company I know has the same problem: they have the data."
-last_updated: "2026-09-28"
+last_updated: "2026-10-24"
 ---
 # Why I Stopped Building Dashboards and Started Asking Questions Instead
 

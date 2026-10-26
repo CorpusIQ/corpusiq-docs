@@ -1,6 +1,7 @@
 ---
 title: "Meta Ads + Shopify ROAS - CorpusIQ Docs"
 description: "See true ROAS across Meta Ads and Shopify. Connects ad spend to actual store revenue with source-cited numbers, so you stop trusting platform-reported ROAS blindly."
+last_updated: "2026-10-19"
 ---
 # Recipe: True ROAS Across Meta Ads and Shopify
 

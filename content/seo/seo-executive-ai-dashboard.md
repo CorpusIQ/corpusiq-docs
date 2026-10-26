@@ -1,7 +1,7 @@
 ---
 title: seo-executive-ai-dashboard
 description: "Every executive wants a dashboard. Every BI team spends months building one. Nobody checks it after week two."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Build an Executive AI Dashboard - Without Building Anything
 

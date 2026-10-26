@@ -4,7 +4,7 @@ description: "Connect your SharePoint account to Claude through CorpusIQ MCP. As
 url: /docs/connect-sharepoint-to-claude
 h1: 'Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence'
 category: Claude Integrations
-last_updated: '2026-10-15'
+last_updated: '2026-10-24'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/connect-sharepoint-to-claude
 keywords:

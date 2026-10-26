@@ -4,7 +4,7 @@ description: Transform Revenue Operations with AI. Connect CRM, marketing, billi
 url: /docs/ai-for-revenue-operations
 h1: 'AI for Revenue Operations: Unify Your Revenue Data'
 category: Business Use Cases
-last_updated: '2026-10-15'
+last_updated: '2026-10-26'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-revenue-operations
 keywords:

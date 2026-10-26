@@ -3,7 +3,7 @@ title: "Grok Integration - CorpusIQ Docs"
 description: "Connect CorpusIQ to Grok as a custom MCP server. Ask Grok about revenue, customers, orders, and marketing using live data from 40+ connected business tools."
 canonical: "https://www.corpusiq.io/docs/grok-integration"
 robots: "index,follow"
-last_updated: "2026-10-14"
+last_updated: "2026-10-19"
 tags: ["grok", "grok mcp", "grok mcp server", "grok custom connector", "connect data to grok", "mcp", "business data", "ai business intelligence"]
 ---
 

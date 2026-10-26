@@ -9,8 +9,7 @@ category: "How-To Guide"
 tags: ["ai-data-layer", "mcp-architecture", "data-fabric", "ai-infrastructure"]
 canonical: "https://www.corpusiq.io/docs/how-to-create-an-ai-data-layer/"
 robots: "index,follow"
-last_updated: "2026-10-15"
-
+last_updated: "2026-10-19"
 ---
 
 # How to Create an AI Data Layer

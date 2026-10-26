@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-wedding-venues
 description: "Wedding venues run: Tripleseat for events, QuickBooks for financials, Stripe for payments, CRM for tours and bookings."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Wedding Venues - Event Revenue, Booking Pipeline, Vendor Management
 

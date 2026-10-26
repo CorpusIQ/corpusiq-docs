@@ -1,7 +1,7 @@
 ---
 title: seo-connect-netsuite-claude
 description: "Your ERP runs on NetSuite. Financials, inventory, orders, customers. Every answer requires navigating NetSuite's complex interface."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect NetSuite to Claude - ERP Data in Plain English
 

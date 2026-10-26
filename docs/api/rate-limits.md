@@ -3,7 +3,7 @@ title: "CorpusIQ API Rate Limits - CorpusIQ Docs"
 description: "Complete guide to CorpusIQ API rate limits: per-endpoint quotas, rate limit headers, retry strategies, 429 handling, and fair-use policies."
 category: "API Reference"
 tags: ["corpusiq rate limits", "api quotas", "rate limiting", "429 errors", "api throttling", "enterprise api", "fair use policy"]
-last_updated: "2026-10-16"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/api/rate-limits"
 robots: "index,follow"
 ---

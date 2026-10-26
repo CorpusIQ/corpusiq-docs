@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-coworking
 description: "Coworking operators run: Nexudus/Officernd for space management, QuickBooks for financials, Stripe for payments, HubSpot for tours and pipeline."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Coworking Spaces - Occupancy, Revenue Per Desk, Member Retention
 

@@ -4,7 +4,7 @@ description: >-
   account you're using in Slack and Teams.
 canonical: "https://www.corpusiq.io/docs/chat-apps/commands-and-account/"
 robots: "index,follow"
-last_updated: "2026-10-16"
+last_updated: "2026-10-19"
 title: "Commands and your account - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 

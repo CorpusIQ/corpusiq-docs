@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-car-washes
 description: "Car wash operators run: DRB for POS, QuickBooks for financials, Stripe for payments, membership management."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Car Washes - Wash Volume, Membership, and Revenue Per Site
 

@@ -1,6 +1,7 @@
 ---
 title: "Google Workspace - Gmail, Calendar, Drive, GA4, Ads"
 description: "One Google connection for everything: Gmail, Calendar, Drive, GA4, Google Ads, and Search Console. Ask questions across all of it with cited answers."
+last_updated: "2026-10-23"
 ---
 # Google Workspace - Gmail, Calendar, Drive, GA4, Ads
 

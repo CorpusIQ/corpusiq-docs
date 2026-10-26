@@ -1,7 +1,7 @@
 ---
 title: seo-quickbooks-analytics-deep
 description: "QuickBooks has all your financial data. Getting insights requires knowing which report to run and how."
-last_updated: "2026-09-28"
+last_updated: "2026-10-24"
 ---
 # MCP for QuickBooks Analytics - Financial Intelligence Without Reports
 

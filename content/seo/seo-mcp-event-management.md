@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-event-management
 description: "Event companies run: Eventbrite for tickets, QuickBooks for financials, Stripe for payments, HubSpot for sponsors, and Mailchimp for promotions."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Event Management - Ticket Sales, Sponsors, and Financials
 

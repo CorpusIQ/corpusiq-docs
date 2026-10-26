@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-security
 description: "Security companies run: WinTeam for scheduling, QuickBooks for financials, Stripe for payments, CRM for client pipeline."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Security Companies - Guard Scheduling, Contracts, Billing
 

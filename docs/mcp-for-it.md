@@ -3,7 +3,7 @@ title: "MCP for IT: AI Access to Ticket and Systems Data"
 description: "How IT teams use MCP servers to connect ticketing, identity, asset, and database data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for IT", "IT AI analytics", "AI for IT teams", "connect IT data to ChatGPT", "helpdesk ticket insights", "no-code IT reporting"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/mcp-for-it
 robots: index,follow
 ---

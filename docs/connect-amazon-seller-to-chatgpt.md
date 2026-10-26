@@ -3,7 +3,7 @@ title: "Connect Amazon Seller to ChatGPT via MCP - Live Data"
 description: "Connect Amazon Seller Central to ChatGPT through CorpusIQ MCP. Ask plain-English questions about orders, inventory, and sales metrics, read-only."
 category: ChatGPT Integrations
 tags: ["connect Amazon Seller to ChatGPT", "Amazon Seller Central ChatGPT", "MCP Amazon connector", "Amazon data to ChatGPT", "AI for marketplace sellers", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt
 robots: index,follow
 ---

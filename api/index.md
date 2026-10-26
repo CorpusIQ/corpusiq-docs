@@ -1,7 +1,7 @@
 ---
 title: index
 description: "Programmatic access to the CorpusIQ platform. Manage connectors, run queries, and configure your account via REST API."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # CorpusIQ API
 

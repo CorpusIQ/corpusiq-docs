@@ -1,7 +1,7 @@
 ---
 title: errors
 description: "The CorpusIQ API uses standard HTTP status codes and returns consistent error responses."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # API Errors
 

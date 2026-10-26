@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-executives
 description: "You run a company. Every morning someone sends you a report. It's 24 hours old. It took someone 3 hours to build."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Executives - Stop Waiting for Reports
 

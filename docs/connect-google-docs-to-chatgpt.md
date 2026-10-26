@@ -3,7 +3,7 @@ title: Connect Google Docs to ChatGPT via MCP
 description: "Connect Google Docs to ChatGPT through CorpusIQ MCP. Ask what a brief, contract or meeting note says, read-only."
 category: ChatGPT Integrations
 tags: ["connect Google Docs to ChatGPT", "Google Docs MCP", "Google Docs ChatGPT integration", "ask ChatGPT about a Google Doc", "document search in ChatGPT", "CorpusIQ MCP"]
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/connect-google-docs-to-chatgpt"
 robots: "index,follow"
 ---

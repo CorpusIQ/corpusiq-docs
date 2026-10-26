@@ -1,7 +1,7 @@
 ---
 title: seo-connect-sharepoint-chatgpt
 description: "Your company documents live in SharePoint. Across sites, libraries, and folders. Finding anything means navigating Microsoft's hierarchy."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect SharePoint to ChatGPT - Enterprise Documents, AI-Searchable
 

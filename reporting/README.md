@@ -1,7 +1,7 @@
 ---
 title: README
 description: "CorpusIQ lets you ask questions instead of building reports. But when you need to share insights, here's how."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Reporting
 

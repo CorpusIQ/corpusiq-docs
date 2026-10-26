@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-legal
 description: "Your firm uses Clio for matters, QuickBooks for billing, Stripe for payments, and Gmail for client communications. Four systems."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Legal Teams - Matter Data, Billing, and Client Info in One Place
 

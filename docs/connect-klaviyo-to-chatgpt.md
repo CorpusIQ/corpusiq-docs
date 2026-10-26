@@ -3,7 +3,7 @@ title: "Connect Klaviyo to ChatGPT via MCP - Live Data"
 description: "Connect Klaviyo to ChatGPT through CorpusIQ MCP. Ask plain-English questions about flows, campaigns, revenue attribution, and list growth, read-only."
 category: ChatGPT Integrations
 tags: ["connect Klaviyo to ChatGPT", "Klaviyo ChatGPT integration", "MCP Klaviyo connector", "Klaviyo data to ChatGPT", "AI for ecommerce email", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/connect-klaviyo-to-chatgpt
 robots: index,follow
 ---

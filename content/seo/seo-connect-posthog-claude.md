@@ -1,7 +1,7 @@
 ---
 title: seo-connect-posthog-claude
 description: "Your product analytics run on PostHog. Events, persons, funnels, HogQL. Every insight requires writing queries or building dashboards."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect PostHog to Claude - Product Analytics Without SQL
 

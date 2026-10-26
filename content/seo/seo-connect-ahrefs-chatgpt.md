@@ -1,7 +1,7 @@
 ---
 title: seo-connect-ahrefs-chatgpt
 description: "Your SEO data lives in Ahrefs. Domain rating, backlinks, organic keywords, competitor analysis. Every answer requires navigating multiple reports."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect Ahrefs to ChatGPT - SEO Answers Without the Dashboard
 

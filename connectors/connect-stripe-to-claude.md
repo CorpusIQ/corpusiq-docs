@@ -1,6 +1,7 @@
 ---
 title: "Connect Stripe to Claude (Plain English Q&A)"
 description: "Stripe holds your revenue data. Claude has the reasoning. CorpusIQ connects them so you can ask questions about payments, payouts, and disputes."
+last_updated: "2026-10-19"
 ---
 # Connect Stripe to Claude (Plain English Q&A)
 

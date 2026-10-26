@@ -1,6 +1,7 @@
 ---
 title: "Reporting Guide - CorpusIQ Docs"
 description: "Reporting with CorpusIQ: ask revenue, ROAS, cash flow, and operational questions across connected tools and get one source-cited answer every time. No dashboards needed."
+last_updated: "2026-10-19"
 ---
 # Reporting
 

@@ -1,6 +1,7 @@
 ---
 title: "Amazon Seller - CorpusIQ Docs - CorpusIQ"
 description: "If you sell on Amazon, your real revenue picture is split across Shopify (your own store) and Seller Central (the marketplace). Connecting Amazon Sell."
+last_updated: "2026-10-19"
 ---
 # Amazon Seller
 

@@ -1,7 +1,7 @@
 ---
 title: seo-connect-mssql-chatgpt
 description: "Your enterprise data lives in SQL Server. Tables, stored procedures, complex joins. Every answer requires a DBA writing queries."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect MSSQL to ChatGPT - Enterprise Database in Plain English
 

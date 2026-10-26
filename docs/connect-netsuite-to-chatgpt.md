@@ -3,7 +3,7 @@ title: "Connect NetSuite to ChatGPT via MCP -- Live Data, No Code"
 description: "Connect your NetSuite account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect NetSuite to ChatGPT", "NetSuite ChatGPT integration", "MCP NetSuite connector", "NetSuite data to ChatGPT", "AI for NetSuite", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/connect-netsuite-to-chatgpt
 robots: index,follow
 ---

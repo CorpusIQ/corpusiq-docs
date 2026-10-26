@@ -1,7 +1,7 @@
 ---
 title: seo-connect-airtable-claude
 description: "Your data lives in Airtable. Customer lists, project trackers, content calendars, inventory. Every answer requires filtering views and exporting data."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect Airtable to Claude - Your Database, Queryable by AI
 

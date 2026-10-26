@@ -3,7 +3,7 @@ title: "MCP for Logistics: AI Access to Shipment and Cost Data"
 description: "How logistics teams use MCP servers to connect shipment, carrier, inventory, and cost data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for logistics", "logistics AI analytics", "AI for supply chain", "connect logistics data to ChatGPT", "freight cost analysis", "shipment exception tracking"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/mcp-for-logistics
 robots: index,follow
 ---

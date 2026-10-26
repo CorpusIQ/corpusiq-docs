@@ -3,7 +3,7 @@ title: "Connect Monday.com to ChatGPT via MCP - Live Data"
 description: "Connect your Monday.com account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect Monday.com to ChatGPT", "Monday.com ChatGPT integration", "MCP Monday.com connector", "Monday.com data to ChatGPT", "AI for Monday.com", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/connect-monday-com-to-chatgpt
 robots: index,follow
 ---

@@ -3,7 +3,7 @@ title: "CorpusIQ Architecture Overview"
 description: "Complete CorpusIQ system architecture: MCP endpoint, OAuth 2.0 authentication, 40+ connector adapters, and the data flow from AI agent to business source."
 category: "Documentation"
 tags: ["corpusiq architecture", "mcp endpoint", "connector layer", "data flow", "system design", "ai agent architecture", "oauth architecture"]
-last_updated: "2026-10-16"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/architecture"
 robots: "index,follow"
 ---

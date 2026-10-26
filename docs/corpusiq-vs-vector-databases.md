@@ -22,8 +22,7 @@ keywords:
 - CorpusIQ vector databases pricing comparison
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-vector-databases/"
 robots: "index,follow"
-last_updated: "2026-10-15"
-
+last_updated: "2026-10-26"
 ---
 
 # CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search

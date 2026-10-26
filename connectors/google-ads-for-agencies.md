@@ -3,7 +3,7 @@ title: "Google Ads for Agencies: Manager Account Setup"
 description: "Set up one Google Ads Manager Account and one agency-controlled Google identity so CorpusIQ can report across linked client accounts."
 category: "Connector Guide"
 tags: ["Google Ads agency setup", "Google Ads MCC", "manager account", "client accounts", "Google Ads connector"]
-last_updated: "2026-10-16"
+last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/connectors/google-ads-for-agencies"
 robots: "index,follow"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "MCP Architecture - CorpusIQ Docs"
 description: "For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps answers auditable."
-last_updated: "2026-10-16"
+last_updated: "2026-10-19"
 ---
 # CorpusIQ MCP architecture
 

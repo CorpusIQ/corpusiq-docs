@@ -1,7 +1,7 @@
 ---
 title: mcp-for-saas-founders
 description: "Every SaaS founder I know lives in their Stripe dashboard, their QuickBooks P&L, their HubSpot pipeline, and their GA4 traffic reports."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for SaaS Founders - Stop Guessing. Start Asking.
 

@@ -22,8 +22,7 @@ keywords:
 - CorpusIQ fivetran pricing comparison
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-fivetran/"
 robots: "index,follow"
-last_updated: "2026-10-15"
-
+last_updated: "2026-10-26"
 ---
 
 # CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines

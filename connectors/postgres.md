@@ -1,6 +1,7 @@
 ---
 title: "PostgreSQL - CorpusIQ Docs - CorpusIQ"
 description: "Point CorpusIQ at your production or analytics Postgres database and ask questions about your real data in plain English. Skip the JIRA ticket to engi."
+last_updated: "2026-10-20"
 ---
 # PostgreSQL
 

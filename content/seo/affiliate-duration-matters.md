@@ -1,7 +1,7 @@
 ---
 title: affiliate-duration-matters
 description: "Every affiliate marketer compares commission rates. 20% vs 25% vs 30%. But the number that matters more than rate is duration."
-last_updated: "2026-09-28"
+last_updated: "2026-10-26"
 ---
 # The 3-Year Affiliate Advantage - Why Duration Beats Rate
 

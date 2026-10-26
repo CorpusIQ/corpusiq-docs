@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-developers
 description: "You're building an AI agent. You need it to answer business questions - revenue, pipeline, customer data."
-last_updated: "2026-09-28"
+last_updated: "2026-10-24"
 ---
 # MCP for Developers - Build AI Agents That Actually Know Your Business
 

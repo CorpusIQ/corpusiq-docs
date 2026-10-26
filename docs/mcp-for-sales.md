@@ -3,7 +3,7 @@ title: "MCP for Sales: AI-Powered Data Access"
 description: "How sales teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude."
 category: MCP Education
 tags: ["MCP for sales", "sales AI analytics", "AI for sales teams", "connect business data to ChatGPT", "no-code AI business intelligence", "sales data integration"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/mcp-for-sales
 robots: index,follow
 ---

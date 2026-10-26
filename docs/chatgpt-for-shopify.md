@@ -12,7 +12,7 @@ keywords:
 - MCP platform Shopify
 - Shopify conversational AI
 - AI sales analysis Shopify
-last_updated: "2026-10-15"
+last_updated: "2026-10-26"
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/chatgpt-for-shopify

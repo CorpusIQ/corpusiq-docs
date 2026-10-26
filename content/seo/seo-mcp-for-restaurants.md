@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-restaurants
 description: "Restaurant groups run: Toast/POS for sales, QuickBooks for financials, 7shifts for labor, Stripe for payments, and your inventory system."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Restaurants - Food Cost, Labor, and Multi-Location Performance
 

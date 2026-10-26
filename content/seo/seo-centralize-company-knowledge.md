@@ -1,7 +1,7 @@
 ---
 title: seo-centralize-company-knowledge
 description: "Every company has the same problem: knowledge is scattered. Financial data in QuickBooks. Customer data in HubSpot. Product data in your database."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # How to Centralize Company Knowledge - Without Building a Wiki
 

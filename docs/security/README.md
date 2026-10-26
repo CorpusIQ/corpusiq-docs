@@ -5,7 +5,7 @@ description: >-
   We never write to your systems.
 canonical: "https://www.corpusiq.io/security/"
 robots: "index,follow"
-last_updated: "2026-10-16"
+last_updated: "2026-10-19"
 title: "CorpusIQ Security and Compliance"
 tags: ["hermes agent", "ai agent", "documentation"]
 

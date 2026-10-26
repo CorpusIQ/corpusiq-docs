@@ -1,7 +1,7 @@
 ---
 title: seo-hubspot-ai-reporting
 description: "Your pipeline lives in HubSpot. Getting insights means building reports, setting filters, and exporting data."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # HubSpot AI Reporting - Pipeline Intelligence Without Reports
 

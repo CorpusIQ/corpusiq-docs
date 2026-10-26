@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-salons
 description: "Salon owners run: Booker for appointments, QuickBooks for financials, Stripe for payments, Klaviyo for client marketing."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Salons - Revenue Per Chair, Product Sales, Client Retention
 

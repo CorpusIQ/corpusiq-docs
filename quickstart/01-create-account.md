@@ -1,6 +1,7 @@
 ---
 title: "1. Create your CorpusIQ account - CorpusIQ Docs"
 description: "Sign up for CorpusIQ with a free 30-day trial, verify your email, and land on the dashboard ready to connect your first tool."
+last_updated: "2026-10-26"
 ---
 
 # 1. Create your CorpusIQ account

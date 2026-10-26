@@ -1,7 +1,7 @@
 ---
 title: seo-connect-constant-contact-chatgpt
 description: "Your email marketing runs on Constant Contact. Campaigns, lists, engagement metrics. Reports take time to build."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect Constant Contact to ChatGPT - Email Marketing Answers
 

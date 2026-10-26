@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-law-firms
 description: "Law firms track: Clio for matters, QuickBooks for billing, Stripe for payments, HubSpot for client pipeline."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Law Firms - Billable Hours, Collections, and Client Pipeline
 

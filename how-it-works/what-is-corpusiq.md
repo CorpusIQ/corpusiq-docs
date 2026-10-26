@@ -1,7 +1,7 @@
 ---
 title: "What is CorpusIQ - CorpusIQ Docs"
 description: "Every business runs on twelve to twenty SaaS tools. CorpusIQ connects them all to ChatGPT, Claude, and Perplexity so you get one consistent, cited answer from every assistant."
-last_updated: "2026-10-16"
+last_updated: "2026-10-19"
 ---
 # What is CorpusIQ?
 

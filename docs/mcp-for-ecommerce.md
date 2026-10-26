@@ -3,7 +3,7 @@ title: "MCP for Ecommerce: AI-Powered Data Access"
 description: "How ecommerce teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude."
 category: MCP Education
 tags: ["MCP for ecommerce", "ecommerce AI analytics", "AI for ecommerce teams", "connect business data to ChatGPT", "no-code AI business intelligence", "ecommerce data integration"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/mcp-for-ecommerce
 robots: index,follow
 ---

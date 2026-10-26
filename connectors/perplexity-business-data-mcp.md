@@ -1,6 +1,7 @@
 ---
 title: "Connect Perplexity to Your Business Data via MCP"
 description: "Perplexity answers questions about the world. Connect your actual business data via CorpusIQ MCP and get answers about both at once."
+last_updated: "2026-10-19"
 ---
 # Connect Perplexity to Your Business Data via MCP
 

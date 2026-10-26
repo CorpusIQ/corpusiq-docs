@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-auto-dealers
 description: "Dealerships run: DMS for inventory and service, QuickBooks for financials, Stripe for payments, HubSpot for sales pipeline, and Gmail for customer communic."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Auto Dealerships - Sales, Service, Parts, and Finance in One View
 

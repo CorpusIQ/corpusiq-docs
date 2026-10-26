@@ -3,7 +3,7 @@ title: "Connect Meta Ads to ChatGPT via MCP - Live Data"
 description: "Connect Facebook and Instagram Ads to ChatGPT through CorpusIQ MCP. Ask plain-English questions about campaigns, audiences, spend, and lead forms."
 category: ChatGPT Integrations
 tags: ["connect Meta Ads to ChatGPT", "Facebook Ads ChatGPT integration", "Instagram Ads MCP connector", "Meta Ads data to ChatGPT", "AI for paid social reporting", "CorpusIQ MCP"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/connect-meta-ads-to-chatgpt
 robots: index,follow
 ---

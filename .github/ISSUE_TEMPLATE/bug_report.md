@@ -4,6 +4,7 @@ about: Report incorrect data, connector errors, or unexpected behavior in Corpus
 title: "[Bug] <connector>: <short description>"
 labels: type:bug
 assignees: ''
+last_updated: "2026-10-19"
 ---
 
 ## Connector

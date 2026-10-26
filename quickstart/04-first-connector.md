@@ -1,6 +1,7 @@
 ---
 title: "4. Authenticate your first connector - CorpusIQ Docs"
 description: "Connect QuickBooks, Google Analytics 4, or any other tool to CorpusIQ with OAuth in about 30 seconds. Walks the exact click path for your first connector."
+last_updated: "2026-10-19"
 ---
 
 # 4. Authenticate your first connector

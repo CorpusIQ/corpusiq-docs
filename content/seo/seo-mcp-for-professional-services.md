@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-professional-services
 description: "Professional services firms run: time tracking for billable hours, QuickBooks for invoicing, Stripe for payments, HubSpot for client pipeline, and Gmail fo."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Professional Services - Billable Hours, Utilization, and Revenue
 

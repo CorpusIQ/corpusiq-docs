@@ -3,7 +3,7 @@ title: "MCP for Small Business: AI-Powered Data Access"
 description: "How small business teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude."
 category: MCP Education
 tags: ["MCP for small business", "small business AI analytics", "AI for small business teams", "connect business data to ChatGPT", "no-code AI business intelligence", "small business data integration"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/mcp-for-small-business
 robots: index,follow
 ---

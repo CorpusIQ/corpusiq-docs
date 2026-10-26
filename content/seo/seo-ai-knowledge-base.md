@@ -1,7 +1,7 @@
 ---
 title: seo-ai-knowledge-base
 description: "Traditional AI knowledge base: choose a platform, upload documents, configure embeddings, set up search, maintain the index, retrain when content changes."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Build an AI Knowledge Base - Without Building Anything
 

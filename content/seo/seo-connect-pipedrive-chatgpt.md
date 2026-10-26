@@ -1,7 +1,7 @@
 ---
 title: seo-connect-pipedrive-chatgpt
 description: "Your sales process runs on Pipedrive. Deals, activities, contacts, pipeline stages. Every forecast requires building filtered views."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect Pipedrive to ChatGPT - Sales Pipeline Without Reports
 

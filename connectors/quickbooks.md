@@ -1,6 +1,7 @@
 ---
 title: "QuickBooks - CorpusIQ Docs - CorpusIQ"
 description: "Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging."
+last_updated: "2026-10-24"
 ---
 # QuickBooks
 

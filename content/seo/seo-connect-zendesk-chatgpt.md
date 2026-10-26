@@ -1,7 +1,7 @@
 ---
 title: seo-connect-zendesk-chatgpt
 description: "Your customer support runs on Zendesk. Tickets, macros, SLAs, satisfaction scores. Spotting trends means building reports and digging through views."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect Zendesk to ChatGPT - Support Tickets in Plain English
 

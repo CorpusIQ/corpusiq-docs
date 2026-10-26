@@ -1,6 +1,7 @@
 ---
 title: "How to Connect Google Ads to Claude (Plain English)"
 description: "Your Google Ads dashboard shows clicks and spend but not profit. Connect Google Ads to Claude through CorpusIQ and ask the questions that actually matter."
+last_updated: "2026-10-19"
 ---
 # How to Connect Google Ads to Claude (Plain English)
 

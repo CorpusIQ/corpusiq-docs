@@ -1,7 +1,7 @@
 ---
 title: affiliate-program-detail
 description: "Most SaaS affiliate programs pay 20-30% for 12 months. Some pay for 24. Almost none pay for 3 years."
-last_updated: "2026-09-28"
+last_updated: "2026-10-26"
 ---
 # Earn 25% Recurring Commission for 3 Years - CorpusIQ Affiliate Program
 

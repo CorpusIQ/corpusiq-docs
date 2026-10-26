@@ -1,7 +1,7 @@
 ---
 title: seo-connect-bigquery-claude
 description: "Your analytics run on BigQuery. Petabytes of data, complex SQL, dashboards that need a data team to interpret."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect BigQuery to Claude - Google-Scale Analytics in Plain English
 

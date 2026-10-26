@@ -1,6 +1,7 @@
 ---
 title: "MongoDB - CorpusIQ Docs - CorpusIQ"
 description: "MongoDB is a planned CorpusIQ connector, not a live one. Status is to be determined and driven by customer demand."
+last_updated: "2026-10-20"
 ---
 # MongoDB
 

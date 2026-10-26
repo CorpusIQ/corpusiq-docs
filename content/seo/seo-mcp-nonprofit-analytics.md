@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-nonprofit-analytics
 description: "Non-profits run: donor CRM for contributions, QuickBooks for grant tracking, Stripe for online giving, Mailchimp for campaigns, and GA4 for website analyti."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Non-Profits - Donor Data, Grants, and Financials
 

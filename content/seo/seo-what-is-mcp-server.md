@@ -1,7 +1,7 @@
 ---
 title: seo-what-is-mcp-server
 description: "MCP stands for Model Context Protocol. It's the open standard for connecting AI assistants to external tools and data."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # What is an MCP Server - Plain English Guide
 

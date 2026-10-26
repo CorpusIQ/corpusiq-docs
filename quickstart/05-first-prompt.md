@@ -1,6 +1,7 @@
 ---
 title: "5. Fire your first prompt - CorpusIQ Docs"
 description: "You are connected. Now ask your first real business question and watch CorpusIQ return a cited answer pulled live across all your tools."
+last_updated: "2026-10-19"
 ---
 # 5. Fire your first prompt
 

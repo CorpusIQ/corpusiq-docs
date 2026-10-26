@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ MCP Starter - CorpusIQ Docs"
 description: "Connect your AI agent to real business data in 60 seconds. No API keys. No dashboards. Just one MCP endpoint.."
+last_updated: "2026-10-19"
 ---
 # CorpusIQ MCP Starter
 

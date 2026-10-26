@@ -4,7 +4,7 @@ description: "Transform document search with AI. Find information across SharePo
 url: /docs/ai-for-document-search
 h1: 'AI for Document Search: Find Answers, Not Just Files'
 category: Business Use Cases
-last_updated: '2026-10-15'
+last_updated: '2026-10-26'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-document-search
 keywords:

@@ -3,7 +3,7 @@ title: "MCP for Marketing: AI-Powered Data Access"
 description: "How marketing teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude."
 category: MCP Education
 tags: ["MCP for marketing", "marketing AI analytics", "AI for marketing teams", "connect business data to ChatGPT", "no-code AI business intelligence", "marketing data integration"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-26"
 canonical: https://www.corpusiq.io/docs/mcp-for-marketing
 robots: index,follow
 ---

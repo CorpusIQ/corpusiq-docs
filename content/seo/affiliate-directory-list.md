@@ -1,7 +1,7 @@
 ---
 title: affiliate-directory-list
 description: "Getting affiliates requires being visible where affiliate marketers look for programs. Here are the top platforms to list the CorpusIQ affiliate program."
-last_updated: "2026-09-28"
+last_updated: "2026-10-26"
 ---
 # Affiliate Program Directory - Where to List Your Program
 

@@ -1,7 +1,7 @@
 ---
 title: seo-connect-quickbooks-claude
 description: "You run your business on QuickBooks. P&L, balance sheet, invoices, expenses. Every answer requires running a report."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect QuickBooks to Claude - Financial Answers in Plain English
 

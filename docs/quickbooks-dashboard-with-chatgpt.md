@@ -12,7 +12,7 @@ keywords:
 - ChatGPT QuickBooks visualization
 - live financial reporting
 - MCP dashboard QuickBooks
-last_updated: "2026-10-15"
+last_updated: "2026-10-26"
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-dashboard-with-chatgpt

@@ -1,7 +1,7 @@
 ---
 title: seo-shopify-dashboard-chatgpt
 description: "Forget the Shopify dashboard."
-last_updated: "2026-09-28"
+last_updated: "2026-10-24"
 ---
 # Shopify Dashboard with ChatGPT - Your Store in Plain English
 

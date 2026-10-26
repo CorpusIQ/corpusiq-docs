@@ -1,7 +1,7 @@
 ---
 title: affiliate-content-kit
 description: "Copy-paste these across your channels. No AI voice. Human. Direct."
-last_updated: "2026-09-28"
+last_updated: "2026-10-26"
 ---
 # Affiliate Promotion Content Kit - Ready-to-Post
 

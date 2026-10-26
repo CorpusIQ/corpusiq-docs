@@ -1,7 +1,7 @@
 ---
 title: corpusiq-vs-zapier
 description: "**CorpusIQ:** Live data for AI assistants. Ask questions, get real answers from your actual business tools. **Zapier:** Workflow automation."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # CorpusIQ vs Zapier - Why MCP Changes Everything About Business Automation
 

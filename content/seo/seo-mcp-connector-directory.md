@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-connector-directory
 description: "This is the definitive directory of business data connectors available through MCP."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Complete MCP Connector Directory - 40+ Live Business Data Sources
 

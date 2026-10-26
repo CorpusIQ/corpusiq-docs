@@ -1,7 +1,7 @@
 ---
 title: affiliate-faq
 description: "25% recurring commission for 3 full years (36 months). Average referral at $200/month = $50/month to you = $1,800 total per customer over 3 years."
-last_updated: "2026-09-28"
+last_updated: "2026-10-26"
 ---
 # CorpusIQ Affiliate Program FAQ
 

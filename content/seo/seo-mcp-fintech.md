@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-fintech
 description: "Fintech companies run: Core processing, Stripe for payments, QuickBooks for financials, data warehouse, and compliance systems."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Fintech - Transaction Volume, Fraud, and Unit Economics
 

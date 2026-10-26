@@ -3,7 +3,7 @@ title: "MCP for HR: AI Access to People and Hiring Data"
 description: "How HR teams use MCP servers to connect headcount, recruiting, onboarding, and engagement data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for HR", "HR AI analytics", "AI for HR teams", "connect HR data to ChatGPT", "people analytics", "recruiting data insights"]
-last_updated: "2026-10-15"
+last_updated: "2026-10-19"
 canonical: https://www.corpusiq.io/docs/mcp-for-hr
 robots: index,follow
 ---

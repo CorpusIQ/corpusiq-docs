@@ -4,7 +4,7 @@ description: "Transform business forecasting with AI. Combine historical data, p
 url: /docs/ai-for-forecasting
 h1: 'AI for Forecasting: Predictive Intelligence from Live Data'
 category: Business Use Cases
-last_updated: '2026-10-15'
+last_updated: '2026-10-26'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-forecasting
 keywords:

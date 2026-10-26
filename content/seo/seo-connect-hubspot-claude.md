@@ -1,7 +1,7 @@
 ---
 title: seo-connect-hubspot-claude
 description: "Your pipeline lives in HubSpot. Deals, contacts, companies, tickets. Every forecast meeting starts with 'let me pull the numbers.'"
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect HubSpot to Claude - Pipeline Answers Without Reports
 

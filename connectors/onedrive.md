@@ -1,6 +1,7 @@
 ---
 title: "OneDrive - CorpusIQ Docs - CorpusIQ"
 description: "Let CorpusIQ read your OneDrive files when answering questions - contracts, spreadsheets, board decks, prior reports."
+last_updated: "2026-10-24"
 ---
 # OneDrive
 

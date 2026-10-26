@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-construction
 description: "Construction companies manage: Procore for projects, QuickBooks for job costing, Stripe for progress payments, HubSpot for client pipeline, and Gmail for s."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # MCP for Construction - Job Costs, Project Financials, Vendor Payments
 

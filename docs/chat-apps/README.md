@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ in Slack and Teams - CorpusIQ Docs"
 description: "CorpusIQ runs as an app inside Slack and Microsoft Teams. Ask business questions, get cited answers, and share results without leaving your chat workspace."
+last_updated: "2026-10-19"
 ---
 
 # CorpusIQ in Slack and Teams

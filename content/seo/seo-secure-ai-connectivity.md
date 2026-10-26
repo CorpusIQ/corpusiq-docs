@@ -1,7 +1,7 @@
 ---
 title: seo-secure-ai-connectivity
 description: "The first question when connecting business data to AI is reasonable: 'What can each tool change?'"
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Secure AI Data Connectivity - Operation-Level Permissions
 

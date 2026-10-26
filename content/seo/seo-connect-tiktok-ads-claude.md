@@ -1,7 +1,7 @@
 ---
 title: seo-connect-tiktok-ads-claude
 description: "Your TikTok ad data lives in TikTok Ads Manager. Video performance, audience insights, conversion tracking."
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 ---
 # Connect TikTok Ads to Claude - Campaign Analytics Without the Dashboard
 
