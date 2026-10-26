@@ -79,7 +79,7 @@ CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude De
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-index). No cap, no clawback.
 
 ## Browse the documentation
 
@@ -525,7 +525,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 ---
 
-**Next steps:** [Achieve continuous audit readiness →](https://corpusiq.io/register)
+**Next steps:** [Achieve continuous audit readiness →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-audit-readiness)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -667,7 +667,7 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 ---
 
-**Next steps:** [Start your AI-powered BI journey →](https://corpusiq.io/register) or [view all integrations](connectors.md)
+**Next steps:** [Start your AI-powered BI journey →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-business-intelligence) or [view all integrations](connectors.md)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -780,7 +780,7 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 ---
 
-**Next steps:** [Transform your compliance operations →](https://corpusiq.io/register)
+**Next steps:** [Transform your compliance operations →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-compliance)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -900,7 +900,7 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 ---
 
-**Next steps:** [Transform your support operations →](https://corpusiq.io/register)
+**Next steps:** [Transform your support operations →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-customer-support)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -1024,7 +1024,7 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 
 ---
 
-**Next steps:** [Start AI-powered data analysis →](https://corpusiq.io/register)
+**Next steps:** [Start AI-powered data analysis →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-data-analysis)
 
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
@@ -1147,7 +1147,7 @@ A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not ret
 
 ---
 
-**Next steps:** [Start AI-powered document search →](https://corpusiq.io/register)
+**Next steps:** [Start AI-powered document search →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-document-search)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -1271,7 +1271,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 ---
 
-**Next steps:** [Start your AI executive reporting →](https://corpusiq.io/register)
+**Next steps:** [Start your AI executive reporting →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-executive-reporting)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -1507,7 +1507,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 ---
 
-**Next steps:** [Start AI-powered forecasting →](https://corpusiq.io/register)
+**Next steps:** [Start AI-powered forecasting →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-forecasting)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -1628,7 +1628,7 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 
 ---
 
-**Next steps:** [Unlock your organizational knowledge →](https://corpusiq.io/register)
+**Next steps:** [Unlock your organizational knowledge →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-knowledge-management)
 
 *AI-powered AI for Knowledge Management | CorpusIQ MCP Platform for KM  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
@@ -1753,7 +1753,7 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 ---
 
-**Next steps:** [Start AI-powered KPI monitoring →](https://corpusiq.io/register)
+**Next steps:** [Start AI-powered KPI monitoring →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-kpi-monitoring)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -1871,7 +1871,7 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 ---
 
-**Next steps:** [Transform your marketing analytics →](https://corpusiq.io/register)
+**Next steps:** [Transform your marketing analytics →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-marketing-analytics)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -1988,7 +1988,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 ---
 
-**Next steps:** [Start your AI PM transformation →](https://corpusiq.io/register)
+**Next steps:** [Start your AI PM transformation →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-project-management)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
@@ -2110,7 +2110,7 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 
 ---
 
-**Next steps:** [Start your AI RevOps transformation →](https://corpusiq.io/register)
+**Next steps:** [Start your AI RevOps transformation →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-revenue-operations)
 
 *AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
@@ -3956,7 +3956,7 @@ A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live busines
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-best-ai-knowledge-platform). No cap, no clawback.
 
 ## Internal Links
 
@@ -5066,7 +5066,7 @@ in a personal chat, or explicitly share an answer with a group or team channel.
 
 You need:
 
-- An [active CorpusIQ account](https://www.corpusiq.io/register) with an eligible
+- An [active CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chat-apps-getting-started-teams) with an eligible
   trial or subscription. You will explicitly link this account to your Microsoft
   identity; the two email addresses do not need to match.
 - Permission to access the business data sources you connect to CorpusIQ.
@@ -5096,7 +5096,7 @@ tokens, or provider keys into a Teams conversation.
    ten minutes; if it expires, start a new sign-in. If the bot restarts while
    you are authorizing, the same command resumes the unexpired attempt.
 6. If you do not have a CorpusIQ account, use the
-   [registration link](https://www.corpusiq.io/register), then return to the
+   [registration link](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chat-apps-getting-started-teams), then return to the
    personal chat and send `corpusiq-login` again.
 7. Once connected, resend your question. The bot does not save or automatically
    replay business questions from before sign-in.
@@ -5420,12 +5420,12 @@ Yes. Through CorpusIQ's team accounts, multiple users can connect to the same Hu
 
 Ready to put AI to work on your chatgpt for hubspot data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chatgpt-for-hubspot)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chatgpt-for-hubspot)**
 
 ## Internal Links
 
@@ -5544,12 +5544,12 @@ CorpusIQ queries QuickBooks in real time. When you ask a question, ChatGPT fetch
 
 Ready to put AI to work on your chatgpt for quickbooks data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chatgpt-for-quickbooks)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chatgpt-for-quickbooks)**
 
 ## Internal Links
 
@@ -5669,12 +5669,12 @@ CorpusIQ bills based on tool calls to Shopify's API. A typical question uses 1-3
 
 Ready to put AI to work on your chatgpt for shopify data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chatgpt-for-shopify)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chatgpt-for-shopify)**
 
 ## Internal Links
 
@@ -5877,12 +5877,12 @@ Claude has broad knowledge of common sales methodologies  --  MEDDIC, Challenger
 
 Ready to put AI to work on your claude for hubspot data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-claude-for-hubspot)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-claude-for-hubspot)**
 
 ## Internal Links
 
@@ -6001,12 +6001,12 @@ Claude can format its analysis as markdown tables, CSV-ready text, or structured
 
 Ready to put AI to work on your claude for quickbooks data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-claude-for-quickbooks)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-claude-for-quickbooks)**
 
 ## Internal Links
 
@@ -6126,12 +6126,12 @@ Yes. CorpusIQ exposes the same Shopify tools to both models. Configure both as M
 
 Ready to put AI to work on your claude for shopify data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-claude-for-shopify)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-claude-for-shopify)**
 
 ## Internal Links
 
@@ -11600,12 +11600,12 @@ A: Warehouses offer centralized access control. CorpusIQ inherits permissions fr
 
 Ready to put AI to work on your corpusiq vs data warehouses  --  mcp live query vs stored data data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-data-warehouses)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-data-warehouses)**
 
 ## Internal Links
 
@@ -11754,12 +11754,12 @@ A: CorpusIQ  --  2 minutes to connect, instant AI access. Fivetran  --  hours to
 
 Ready to put AI to work on your corpusiq vs fivetran  --  mcp live query vs etl batch pipelines data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-fivetran)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-fivetran)**
 
 ## Internal Links
 
@@ -12084,12 +12084,12 @@ A: No. Vector databases return text chunks, not aggregated numerical data. If yo
 
 Ready to put AI to work on your corpusiq vs vector databases  --  mcp retrieval vs vector search data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-vector-databases)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-vector-databases)**
 
 ## Internal Links
 
@@ -12341,17 +12341,17 @@ A: Both are designed for non-technical users. CorpusIQ connects in under 2 minut
 
 Ready to put AI to work on your corpusiq vs zapier  --  mcp real-time ai-native vs workflow automation data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-zapier)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-zapier)**
 
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-zapier). No cap, no clawback.
 
 ## Internal Links
 
@@ -15372,12 +15372,12 @@ CorpusIQ respects your HubSpot permissions. Users see only the data they have ac
 
 Ready to put AI to work on your hubspot ai reporting data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-ai-reporting)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-ai-reporting)**
 
 ## Internal Links
 
@@ -15530,12 +15530,12 @@ No configuration. No ETL pipelines. No data engineering required.
 
 Ready to put AI to work on your hubspot business intelligence  --  connect your crm to ai data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-business-intelligence)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-business-intelligence)**
 
 ## Internal Links
 
@@ -15698,12 +15698,12 @@ No  --  it enhances it. ChatGPT dashboards pull data from HubSpot and present it
 
 Ready to put AI to work on your hubspot dashboard with chatgpt data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-dashboard-with-chatgpt)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-dashboard-with-chatgpt)**
 
 ## Internal Links
 
@@ -15897,21 +15897,12 @@ Yes. CorpusIQ is designed for sales organizations of all sizes. Enterprise featu
 
 Ready to unlock AI-powered insights from your CRM data?
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-sales-analytics-with-ai)  --  free plan available.
 2. **Connect your HubSpot CRM**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking sales analytics questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Use the prompt templates** in this guide to analyze your pipeline, reps, deals, and forecasts instantly.
 
-**[Start your AI-powered sales analytics now →](https://corpusiq.io/register)**
-
-## Internal Links
-
-- [ChatGPT for HubSpot: Conversational CRM AI](/connect/hubspot-with-chatgpt)
-- [Claude for HubSpot: Deep CRM Intelligence](/connect/hubspot-with-claude)
-- [HubSpot AI Reporting: Automated Insights](/connect/hubspot-with-chatgpt)
-- [HubSpot Dashboard with ChatGPT](/connect/hubspot-with-chatgpt)
-- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
-- [Shopify Sales Analysis with AI](/connect/shopify-with-chatgpt)
+**[Start your AI-powered sales analytics now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-sales-analytics-with-ai)**
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -16225,7 +16216,7 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-mcp-for-agencies). No cap, no clawback.
 
 ## Internal Links
 
@@ -17783,7 +17774,7 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-mcp-for-marketing). No cap, no clawback.
 
 ## Internal Links
 
@@ -19518,13 +19509,13 @@ Get your first CorpusIQ query running in under five minutes. Connect QuickBooks,
 
 ## Prerequisites
 
-- A [CorpusIQ account](https://corpusiq.io/register)
+- A [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quick-start)
 - At least one connected business tool (Gmail, Google Drive, Slack, Shopify, etc.)
 - A terminal with `curl` installed (for API usage)
 
 ## Step 1: Sign Up
 
-Create an account at [corpusiq.io/register](https://corpusiq.io/register). You can sign up with Google, Microsoft, or email. No credit card is required for the free tier.
+Create an account at [corpusiq.io/register](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quick-start). You can sign up with Google, Microsoft, or email. No credit card is required for the free tier.
 
 ## Step 2: Connect Your Tools
 
@@ -19630,7 +19621,7 @@ CorpusIQ is MCP-native. Connect it to your AI assistant to query your business t
 - **Claude**: Add CorpusIQ as an MCP server in Claude Desktop or the Anthropic API
 - **Perplexity**: Connect via the Perplexity integrations dashboard
 
-See the [MCP Integration Guide](https://corpusiq.io/mcp) for setup instructions.
+See the [MCP Integration Guide](https://www.corpusiq.io/mcp?utm_source=docs&utm_medium=referral&utm_campaign=docs-quick-start) for setup instructions.
 
 ## Next Steps
 
@@ -19788,12 +19779,12 @@ QuickBooks Advanced offers customizable report templates but still requires manu
 
 Ready to put AI to work on your quickbooks ai reporting data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-ai-reporting)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-ai-reporting)**
 
 ## Internal Links
 
@@ -19943,23 +19934,12 @@ Each source authenticates independently through OAuth 2.0 or API keys. CorpusIQ 
 
 Ready to put AI to work on your quickbooks business intelligence data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-business-intelligence)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
-
-## Internal Links
-
-- [ChatGPT for QuickBooks: AI-Powered Accounting](/connect/quickbooks-with-chatgpt)
-- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
-- [QuickBooks AI Reporting: Automated Reports](/connect/quickbooks-with-chatgpt)
-- [QuickBooks Natural Language Queries](/connect/quickbooks-with-chatgpt)
-- [How to Analyze QuickBooks Data with AI](https://www.corpusiq.io/answers)
-- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
-- [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
-- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-business-intelligence)**
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -20121,12 +20101,12 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 
 Ready to put AI to work on your quickbooks dashboard with chatgpt data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-dashboard-with-chatgpt)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-dashboard-with-chatgpt)**
 
 ## Internal Links
 
@@ -20276,12 +20256,12 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 
 Ready to put AI to work on your quickbooks natural language queries data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-natural-language-queries)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-natural-language-queries)**
 
 ## Internal Links
 
@@ -20860,12 +20840,12 @@ Yes, with appropriate review. AI analytics can generate comprehensive board-read
 
 Ready to put AI to work on your shopify ai analytics data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-ai-analytics)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-ai-analytics)**
 
 ## Internal Links
 
@@ -20996,12 +20976,12 @@ Connect your platforms (typically 10-30 minutes per source), define your key met
 
 Ready to put AI to work on your shopify business intelligence data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-business-intelligence)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-business-intelligence)**
 
 ## Internal Links
 
@@ -21180,12 +21160,12 @@ Access your dashboard from anywhere by opening ChatGPT on your phone and asking 
 
 Ready to put AI to work on your shopify dashboard with chatgpt data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-dashboard-with-chatgpt)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-dashboard-with-chatgpt)**
 
 ## Internal Links
 
@@ -21374,12 +21354,12 @@ Start with a shared ChatGPT or Claude workspace where team members can ask quest
 
 Ready to transform your Shopify order data into revenue intelligence?
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-sales-analysis-with-ai)  --  free plan available.
 2. **Connect your Shopify store**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Use the prompt templates** in this guide to run your first revenue, product, and customer analyses today.
 
-**[Start your AI-powered sales analysis now →](https://corpusiq.io/register)**
+**[Start your AI-powered sales analysis now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-shopify-sales-analysis-with-ai)**
 
 ## Internal Links
 
@@ -21390,10 +21370,6 @@ Ready to transform your Shopify order data into revenue intelligence?
 - [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
 - [How to Analyze QuickBooks with AI](https://www.corpusiq.io/answers)
 - [HubSpot Sales Analytics with AI](/connect/hubspot-with-chatgpt)
-
-## From Data Overload to Revenue Intelligence
-
-Your Shopify store generates the data. AI-powered sales analysis turns it into revenue intelligence. Stop exporting CSV files and building pivot tables. Start asking questions and getting answers.
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -27964,7 +27940,7 @@ For CLI tools using device login, the config looks like:
 **Fix:**
 1. Wait 60 seconds and try again. CorpusIQ rate limits reset every minute
 2. Spread your queries out instead of firing them rapidly
-3. If you consistently hit rate limits, upgrade your plan at [corpusiq.io/pricing](https://corpusiq.io/pricing)
+3. If you consistently hit rate limits, upgrade your plan at [corpusiq.io/pricing](https://www.corpusiq.io/pricing?utm_source=docs&utm_medium=referral&utm_campaign=troubleshooting-mcp-connection-errors)
 
 ## Still stuck?
 
@@ -29124,7 +29100,7 @@ Sign up at corpusiq.io, verify your email, land on the dashboard.
 3. Verify the email from the message we send you.
 4. You'll land on the CorpusIQ dashboard. Bookmark it.
 
-**Screenshot:** CorpusIQ signup page (https://corpusiq.io/signup)  
+**Screenshot:** CorpusIQ signup page (https://www.corpusiq.io/signup?utm_source=docs&utm_medium=referral&utm_campaign=quickstart-01-create-account)  
 **Screenshot:** Dashboard landing view after first login
 
 ## What you get
