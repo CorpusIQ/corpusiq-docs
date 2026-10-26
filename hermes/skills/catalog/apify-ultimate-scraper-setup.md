@@ -3,7 +3,7 @@ title: "Apify Ultimate Scraper"
 description: AI-powered web scraper covering Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Reddit, Airbnb, Yelp, and more. 13.6K+ installs. Lead generation, brand monitoring, competitor analysis.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-ultimate-scraper-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-26"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -139,7 +139,7 @@ apify actors call apify/reddit-scraper \
 - `apify actors call` runs the Actor remotely and waits; `apify actors start` returns immediately and is better for long jobs
 - `-o` prints the dataset, `--json` prints the run record - both are stable across CLI versions
 - The `2>/dev/null` redirect is useful because run logs go to stderr and break JSON parsing
-- Check `references/actor-index.md` in the skill for the full Actor catalog
+- Confirm an Actor slug resolves before you publish it: `curl -s -o /dev/null -w '%{http_code}\n' https://api.apify.com/v2/acts/<owner>~<actor>` (200 means it exists, 404 means the slug is dead)
 - Each platform has its own specific Actor - search Apify Store for the best one, and confirm it resolves before publishing it
 
 ---
