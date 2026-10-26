@@ -19651,5 +19651,75 @@
     "timestamp": "2026-10-25T15:03:35.064105+00:00",
     "issue": 119,
     "note": "vendor-disclosed submission (issue #119); license, live service, MCP registry entry and ClawHub listing verified; listed in Skills & Plugins"
+  },
+  {
+    "repo": "lamng3/hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T05:03:36.095344+00:00"
+  },
+  {
+    "repo": "Xia-Ataraxia/obsidian-hermes",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T05:03:36.095355+00:00"
+  },
+  {
+    "repo": "ledgetoptechnologies/Engineering-Hub",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T05:03:36.095356+00:00"
+  },
+  {
+    "repo": "suryavamsi6/hermes-bridge",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T05:03:36.095357+00:00"
+  },
+  {
+    "repo": "XavieraWood/dsh-u-20261026-nousresearch__hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T05:03:36.095359+00:00"
+  },
+  {
+    "repo": "rekurt/cortex-forge",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T05:03:36.095360+00:00"
+  },
+  {
+    "repo": "MYZ8088/NousResearch__hermes-agent",
+    "score": 0,
+    "tier": "REJECTED",
+    "action": "skipped_scratch",
+    "timestamp": "2026-10-26T05:04:30.518722+00:00"
+  },
+  {
+    "repo": "6TcbpVB4h7jSZWz2/NousResearch__hermes-agent",
+    "score": 0,
+    "tier": "REJECTED",
+    "action": "skipped_scratch",
+    "timestamp": "2026-10-26T05:04:30.518722+00:00"
+  },
+  {
+    "repo": "XavieraWood/NousResearch__hermes-agent",
+    "score": 0,
+    "tier": "REJECTED",
+    "action": "skipped_scratch",
+    "timestamp": "2026-10-26T05:04:30.518722+00:00"
+  },
+  {
+    "repo": "XavieraWood/dsh-u-20261026-nousresearch__hermes-agent",
+    "score": 0,
+    "tier": "REJECTED",
+    "action": "skipped_scratch",
+    "timestamp": "2026-10-26T05:04:30.518722+00:00"
   }
 ]
