@@ -27,7 +27,7 @@ MCP (Model Context Protocol) servers are the bridge between Hermes and external 
 hermes mcp list
 
 # Check specific server health
-hermes mcp health corpusiq
+hermes mcp test corpusiq
 
 # Check if the MCP server process is alive
 ps aux | grep mcp
@@ -37,11 +37,11 @@ ps aux | grep mcp
 
 | Cause | Diagnosis | Fix |
 |---|---|---|
-| MCP server process crashed | `hermes mcp list` shows status "offline" | `hermes mcp restart <server>` or restart via systemd |
+| MCP server process crashed | `hermes mcp list` shows status "offline" | Restart with `hermes gateway restart`, then re-run `hermes mcp test <server>` |
 | Port conflict | Server starts then immediately exits | Check `lsof -i :<port>`, change port in config |
 | Python dependency conflict | Server fails to import modules | Check `pip list` in the MCP server's venv, resolve conflicts |
 | Memory exhaustion | Server runs but times out on requests | Check `htop`, increase swap or reduce concurrent connections |
-| Configuration changed | Server starts but tools return errors | `hermes mcp config validate`, check for schema changes |
+| Configuration changed | Server starts but tools return errors | `hermes mcp test <server>`, and `hermes mcp configure` to re-check which tools are enabled |
 
 ### Symptom: Intermittent tool failures ("sometimes works, sometimes doesn't")
 
@@ -49,7 +49,7 @@ ps aux | grep mcp
 
 ```bash
 # Check MCP server logs for timeout patterns
-hermes mcp logs corpusiq --last 100 | grep "timeout\|error\|retry"
+hermes logs agent -n 100 | grep -i "timeout\|mcp\|error"
 
 # Check network latency to MCP server
 ping -c 10 <mcp-server-host>
@@ -67,8 +67,8 @@ ping -c 10 <mcp-server-host>
 This usually means the tool's API credential is expired, its schema changed, or its external service is down.
 
 ```bash
-# Test the specific tool in isolation
-hermes mcp test corpusiq --tool google_ads_connector
+# Test the server connection in isolation
+hermes mcp test corpusiq
 
 # Check credential status
 hermes auth status google_ads
@@ -87,7 +87,7 @@ Token management is the most common operational issue in autonomous systems. Eve
 hermes auth list
 
 # Check when a specific token expires
-hermes auth status google_workspace --verbose
+hermes auth status google_workspace
 ```
 
 ### Token Lifecycle Management
@@ -133,7 +133,7 @@ hermes auth reset google_workspace
 
 # This returns a re-auth URL  --  open it in a browser
 # After re-auth, verify
-hermes auth verify google_workspace
+hermes auth status google_workspace
 ```
 
 ### Common OAuth Pitfalls
@@ -155,13 +155,13 @@ The most dangerous failure mode. Cron tracks process exit, not outcome.
 
 ```bash
 # List recent cron executions with actual output
-hermes cron history --last 20
+hermes cron runs --limit 20
 
 # Check a specific job's full execution log
-hermes cron log <job_name> --last 5
+hermes cron runs --limit 5 <job_id>
 
 # Look for jobs that "succeeded" but produced no output
-hermes cron history --last 50 | grep "status: ok" | grep "output_lines: 0"
+hermes cron runs --limit 50 | grep "status: ok" | grep "output_lines: 0"
 ```
 
 **Fix:** Every cron job must include an outcome validation step:
@@ -191,14 +191,14 @@ def my_cron_job():
 **Diagnosis:**
 
 ```bash
-# Check for concurrent execution
-hermes cron status <job_name> --check-concurrency
+# Check whether a job is still running
+hermes cron status
 
 # Check system resources at scheduled time
 journalctl --since "2026-06-16 03:00" --until "2026-06-16 03:05" | grep -i "memory\|oom"
 
 # Check rate limit logs
-hermes cron log <job_name> --filter "rate_limit\|backoff"
+hermes cron runs --limit 20 <job_id> | grep -i "rate_limit\|backoff"
 ```
 
 **Fix:** Set appropriate concurrency policies per job:
@@ -343,10 +343,10 @@ def safe_interact(url: str, action: callable):
 
 ```bash
 # Check which model was used for recent tasks
-hermes model usage --last 50
+hermes insights --days 7
 
 # Check routing rules
-hermes config list models
+hermes config show
 ```
 
 **Common routing problems:**
@@ -363,17 +363,18 @@ hermes config list models
 
 ```bash
 # Verify provider connection
-hermes model test deepseek
-hermes model test anthropic
-hermes model test openai
+hermes doctor
+hermes auth status deepseek
+hermes auth status anthropic
+hermes auth status openai
 
 # Check rate limit status
-hermes model limits
+hermes usage
 ```
 
 **Fixes:**
 
-- Provider API key expired → Update in `hermes config set provider_key`
+- Provider API key expired → Re-add the credential with `hermes auth add <provider>`, or switch provider with `hermes model`
 - Rate limit hit → Implement exponential backoff in router
 - Model deprecated → Update to newer model version in config
 - Provider outage → Configure fallback provider chain
@@ -383,11 +384,11 @@ hermes model limits
 **Diagnosis:**
 
 ```bash
-# Daily cost breakdown by model tier
-hermes model cost --daily --last 7
+# Token and cost breakdown for the last 7 days
+hermes insights --days 7
 
-# Cost per task type
-hermes model cost --by-task --last 7
+# Same view filtered to one platform
+hermes insights --days 7 --source cli
 ```
 
 **Optimization:**
@@ -438,7 +439,7 @@ htop
 | Memory exhausted | `free -h` shows 98%+ used | Restart gateway, increase swap, investigate memory leak |
 | Disk full | `df -h` shows 100% on any partition | Clean logs (`journalctl --vacuum-size=500M`), remove temp files |
 | Port conflict | Another process bound to gateway port | `lsof -i :<port>`, kill conflicting process, restart gateway |
-| Config parse error | Gateway fails to start after config change | `hermes config validate`, revert last change |
+| Config parse error | Gateway fails to start after config change | `hermes config check`, revert last change |
 | Upstream LLM provider down | Gateway can't reach any model provider | Check provider status pages, enable degraded mode with local models |
 
 ### Symptom: Gateway running but requests hang
@@ -479,10 +480,10 @@ systemctl restart hermes-gateway
 curl -f http://localhost:<gateway_port>/health
 
 # 5. Check all downstream services recovered
-hermes health full
+hermes status --full
 
-# 6. Re-queue any failed requests
-hermes queue retry --since "15 minutes ago"
+# 6. Re-run the affected cron job
+hermes cron run <job_id>
 ```
 
 ## SSH & Worker Node Connectivity
@@ -537,30 +538,30 @@ params:
 
 ```bash
 # Full system health check
-hermes health
+hermes status --full
 
-# Restart all services in correct order
-hermes restart --all
+# Restart the messaging gateway
+hermes gateway restart
 
 # Check what's consuming resources
-hermes diagnostics
+hermes status --deep
 
 # View recent errors across all components
-hermes errors --last 50
+hermes logs errors -n 50
 
-# Test critical path (orchestration → tool → response)
-hermes test e2e
+# Test the project's build/test/start recipe end to end
+hermes verify
 
-# Re-queue failed tasks
-hermes queue retry --failed-only --since "1 hour ago"
+# Re-run a failed cron job
+hermes cron run <job_id>
 ```
 
 ## When All Else Fails
 
-1. **Check the logs:** `hermes diagnostics` gives you a system-wide view
+1. **Check the logs:** `hermes status --full` and `hermes logs errors` give you a system-wide view
 2. **Isolate the failure:** Test each component independently
-3. **Check for recent changes:** `hermes config diff` shows what changed
-4. **Roll back:** If a config change caused the issue, `hermes config rollback`
+3. **Check for recent changes:** `hermes config check` and a `git diff` of the file at `hermes config path` show what changed
+4. **Roll back:** If a config change caused the issue, restore a known-good config (backups come from `hermes backup`, restored with `hermes import`)
 5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully  --  individual features may fail while the core continues operating.
 ---
 

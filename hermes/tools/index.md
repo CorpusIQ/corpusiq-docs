@@ -138,7 +138,7 @@ CorpusIQ MCP alone provides 53 tools across 40+ business platforms. Additional M
 
 ## Messaging Platforms
 
-Hermes connects to 20 messaging platforms:
+Hermes connects to 20+ messaging platforms from one gateway. The most-used ones, all configured through `hermes gateway setup`:
 
 | Platform | Type | Setup |
 |----------|------|-------|

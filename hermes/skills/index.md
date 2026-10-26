@@ -1,5 +1,5 @@
 ---
-title: "Hermes Skills - CorpusIQ Docs - CorpusIQ Docs"
+title: "Hermes Skills - CorpusIQ Docs"
 description: 445+ skills for Hermes agents  --  90 native CorpusIQ skills, 350+ marketplace skills from skills.sh. Reusable, executable agent capabilities.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/"
 robots: "index,follow"
@@ -53,7 +53,7 @@ Native CorpusIQ skills load automatically when the agent profile matches their t
 To view loaded skills in your current profile:
 
 ```bash
-hermes skills list --native
+hermes skills list --source builtin
 ```
 
 ### Marketplace Skills (From skills.sh)
@@ -71,10 +71,10 @@ npx skills add coreyhaines31/marketingskills
 npx skills add nousresearch/hermes-agent@dogfood
 
 # List all installed marketplace skills
-hermes skills list --marketplace
+hermes skills list --source hub
 
 # Remove a skill
-hermes skills remove seo-audit
+hermes skills uninstall seo-audit
 ```
 
 ### Verifying Installation
@@ -85,8 +85,8 @@ After installing, verify the skill loaded correctly:
 # Check skill metadata
 hermes skills inspect seo-audit
 
-# Test the skill with a dry run
-hermes skills test seo-audit --dry-run
+# Audit the skill for safety and correctness
+hermes skills audit seo-audit
 ```
 
 If a skill fails to load, check the Hermes logs for missing dependency errors. Most marketplace skills require specific tools  --  for example, `seo-audit` requires web extraction (`web_extract`) and terminal access. Install any missing tools before retrying.

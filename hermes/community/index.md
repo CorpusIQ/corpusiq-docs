@@ -1,5 +1,5 @@
 ---
-title: "Community - CorpusIQ Docs - CorpusIQ Docs"
+title: "Community - CorpusIQ Docs"
 description: "Community resources, badges, and share cards for the Hermes ecosystem. Resources Agent cards, contribution guides."
 last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/community/"

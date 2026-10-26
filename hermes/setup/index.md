@@ -19,7 +19,7 @@ Hermes Agent runs on everything from a $50 Raspberry Pi to a $20,000 DGX worksta
 
 ## How It Works
 
-Hermes Agent installs via `pip install hermes-agent`, then connects to AI models through one of three paths:
+Hermes Agent installs from a signed desktop package or a one-line install script, then connects to AI models through one of three paths:
 
 | Path | How It Works | Cost |
 |------|-------------|------|
@@ -51,28 +51,32 @@ Three questions to decide:
 
 ## Quick Start (Any Machine)
 
-This gets Hermes Agent running on any system with Python 3.11+.
+This gets Hermes Agent running on any Linux, macOS, or Windows machine. The installer provisions its own pinned Python and toolchain, so a system-wide Python install is not required.
 
 ```bash
-# 1. Install
-pip install hermes-agent
+# 1. Install (Linux, macOS, WSL2)
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+# Windows PowerShell: iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 
 # 2. Create a profile
 hermes profile create my-agent
 hermes profile use my-agent
 
 # 3. Configure a model provider (pick one)
-# Option A: OpenRouter  --  instant access to 200+ models
-hermes config set providers.openrouter.api_key "your-key"
+# Option A: Nous Portal  --  one login covers a model plus the Tool Gateway
+hermes setup --portal
 
-# Option B: Direct provider
-hermes config set providers.anthropic.api_key "your-key"
+# Option B: OpenRouter  --  instant access to 200+ models
+hermes config set OPENROUTER_API_KEY "your-key"
 
-# Option C: Ollama  --  free, local, no API key needed
+# Option C: Direct provider  --  Anthropic, OpenAI, DeepSeek, and others
+hermes config set ANTHROPIC_API_KEY "your-key"
+
+# Option D: Ollama  --  free, local, no API key needed
 ollama pull llama3.2
 
-# 4. Set your default model
-hermes config set model.default openrouter/anthropic/claude-sonnet-4
+# 4. Choose your default model
+hermes model
 
 # 5. Verify
 hermes --version
@@ -83,7 +87,7 @@ That's it. You can now use Hermes Agent interactively. For persistent operation 
 
 ### Option: Hermes Desktop App (macOS / Windows / Linux)
 
-Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships with the Surface Release (v0.16.0+, June 2026) - a native Electron application, not a terminal wrapper:
+Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships as a first-party download alongside the current release line (v0.22.5, released October 23, 2026) - a native Electron application, not a terminal wrapper:
 
 - One-click install from [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/) with in-app self-update
 - Proper chat window with streaming, drag-and-drop files, clipboard image paste
@@ -92,7 +96,7 @@ Prefer a graphical interface over the terminal? The official **Hermes Desktop** 
 - Concurrent multi-profile sessions with cross-profile `@session` links
 - Full Simplified Chinese UI (switchable in Appearance settings)
 
-The Desktop app wraps the same Hermes Agent core, so everything below (crons, MCP, skills, memory) works identically. Note: the official desktop app is distinct from third-party companion projects like `fathah/hermes-desktop`; install the official build from the Nous Research site.
+The Desktop app wraps the same Hermes Agent core, so everything below (crons, MCP, skills, memory) works identically. After a command-line only install, `hermes desktop` builds and launches it. Note: the official desktop app is distinct from third-party companion projects like `fathah/hermes-desktop`; install the official build from the Nous Research site.
 
 ## Benefits of Hermes Agent
 

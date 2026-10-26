@@ -35,7 +35,7 @@ Production agents need dedicated hardware. Here's the architecture pattern.
 │  ├── Business tool connectors (MCP)                              │
 │  ├── Knowledge graph (vector search)                             │
 │  ├── Cross-session context store                                 │
-│  ├── Ollama (local embeddings, lightweight inference)            │
+│  ├── Local vLLM server (Qwen3-8B, lightweight inference)         │
 │  └── LLM provider (primary inference via API)                    │
 │                                                                  │
 │  Model Routing:                                                  │
