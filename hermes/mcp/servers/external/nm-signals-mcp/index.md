@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcpservers.org server page (app.nyman.media)"
 relevance: ★★★
 tags: [seo, aeo, geo, ai-crawlers, audit, llms-txt, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # NM Signals MCP

@@ -3,7 +3,7 @@ title: "Lark & Feishu Skills - Office Suite Automation Setup"
 description: Install the official Lark/Feishu office suite skills - open.feishu.cn (28 skills, 14.8M installs) and larksuite/cli (32 skills, 10.2M installs). Docs, Base, Sheets, IM, Wiki, Calendar, Mail, Meetings, OKR and more, agent-native.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lark-feishu-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

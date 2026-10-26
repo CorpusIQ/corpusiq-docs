@@ -3,7 +3,7 @@ title: "New Skills - August 10, 2026 - CorpusIQ Docs"
 description: 31 newly discovered Hermes Agent skills from skills.sh marketplace sweep - including Obsidian agent skills (44K★), Hermes plugins ecosystem, Nextcloud integration, Microsoft 365 workspace, and 750+ cybersecurity skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug10-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

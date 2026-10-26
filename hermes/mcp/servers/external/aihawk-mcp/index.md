@@ -3,7 +3,7 @@ title: AIHawk MCP - Anti-Detect Browser Agent
 description: "AIHawk MCP server: an open-source anti-detect browser and web browsing agent for coding agents. Stealth browsing, no captchas, plain-language tasks, proxy and profile support."
 category: "MCP Servers"
 tags: ["aihawk", "stealth browser", "anti-detect", "web automation", "mcp server", "browser agent"]
-last_updated: "2026-09-22"
+last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/aihawk-mcp"
 robots: "index,follow"
 ---

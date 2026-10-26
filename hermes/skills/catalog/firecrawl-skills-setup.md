@@ -3,7 +3,7 @@ title: "Firecrawl Skills - Setup Guide"
 description: "Firecrawl's official skills ecosystem - firecrawl/cli (14 skills, 716K installs), firecrawl/skills (41 skills, 252K), firecrawl-workflows (16 skills, 493K), firecrawl/anydoc. Scrape, search, crawl, deep research, SEO audit, market research, and lead-gen workflows for any agent including Hermes."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "web scraping", "firecrawl", "research", "seo"]
 ---
 

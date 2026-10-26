@@ -7,6 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3956"
 relevance: ★★★
 tags: [email, smtp, outbound, human-approval, allowlist, stdio, communication]
+last_updated: "2026-10-19"
 ---
 
 # smtp-mcp - Guardrailed Outbound Email over SMTP for Agents

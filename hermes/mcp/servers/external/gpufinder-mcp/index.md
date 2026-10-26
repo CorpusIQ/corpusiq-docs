@@ -7,6 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on gpufinder.dev/mcp (keyless initialize 200 as gpufinder a6, keyless tools/list 200 with 8 tools, tools/call 401 invalid_credential naming the free key path) + vendor site gpufinder.dev pricing page + mcpservers.org card"
 relevance: ★★★
 tags: [gpu-pricing, cloud-cost, procurement, ai-infrastructure, price-history, availability, finops]
+last_updated: "2026-10-26"
 ---
 
 # GPU Finder MCP

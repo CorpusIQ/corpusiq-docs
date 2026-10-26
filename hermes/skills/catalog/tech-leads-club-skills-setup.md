@@ -3,7 +3,7 @@ title: "Tech Leads Club Skills - Secure Registry Setup"
 description: "Secure, validated skill registry for professional AI coding agents: spec-driven dev, subagents, design docs, and security reviews (~15.9K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tech-leads-club-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "coding agents", "security"]
 ---
 

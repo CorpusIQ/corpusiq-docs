@@ -7,6 +7,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3783"
 relevance: ★★★
 tags: [security, cve, vulnerability, remediation, playbooks, mcp-governance, keyless, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Security Recipes MCP

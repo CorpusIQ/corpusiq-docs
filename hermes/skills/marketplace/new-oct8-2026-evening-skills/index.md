@@ -3,7 +3,7 @@ title: "New Skills - October 8, 2026 (Evening)"
 description: "Skills.sh sweep (Oct 8 evening): 442 skills checked; 4 new publisher guides - Limrun Skills, TypeSafe AI Skills, Yomiyasu, and Proseify."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct8-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-08"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

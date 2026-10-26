@@ -3,7 +3,7 @@ title: "Awesome Cursor Skills - Cursor Agent Setup"
 description: "Curated Cursor skills for visual QA, security auditing, responsive testing, systematic debugging, and rule suggestions (~26K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-cursor-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "cursor", "web testing"]
 ---
 

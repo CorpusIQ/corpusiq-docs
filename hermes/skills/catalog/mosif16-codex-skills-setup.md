@@ -3,7 +3,7 @@ title: "Mosif16 Codex Skills - iOS Design Setup"
 description: "Codex skills for Apple platform design: iOS UX, iPhone and Mac app building, and design guides (~1.4k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mosif16-codex-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "apple"]
 ---
 

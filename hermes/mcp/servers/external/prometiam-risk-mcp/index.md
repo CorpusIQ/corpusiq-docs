@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4912 (Oct 7, 2026 midday-supplement sweep)"
 relevance: ★★★
 tags: [company-data, company-registry, kyb, due-diligence, compliance, europe, sanctions-screening, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Prometiam Risk MCP

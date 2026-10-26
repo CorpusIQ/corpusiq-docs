@@ -7,6 +7,7 @@ added: 2026-10-05
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [workforce, time-tracking, productivity, teams, operations, demo-mode, api-key, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # TheDeskMonitor MCP

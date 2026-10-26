@@ -3,7 +3,7 @@ title: "Owl Listener Designer Skills - 107-Skill Design Suite Setup"
 description: "owl-listener/designer-skills - 107 skills, 124.7K combined installs. Agentic design skills from research to systems: presentation decks, design tokens, typography and color systems, accessibility audits, UX writing, and Gestalt-law-driven layout judgment."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/owl-listener-designer-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design"]
 ---
 

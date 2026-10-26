@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "mcp.so /feed (Oct 7, 2026 midday sweep)"
 relevance: ★★★
 tags: [local-seo, citations, reviews, google-business-profile, listings, agencies, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Listings API MCP

@@ -3,7 +3,7 @@ title: "July 4, 2026 (Update 2) - Hermes Idea Workflow Suite"
 description: "6 new Hermes-relevant skills discovered in a July 4 late-evening sweep: akoliteza/hermes-agent-idea-workflow (4 skills, 235⭐)"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026-update2/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

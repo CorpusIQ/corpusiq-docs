@@ -7,6 +7,7 @@ added: 2026-08-30
 source: "mcp.so GitHub issue #3835"
 relevance: ★★
 tags: [mcp-server, project-management, kanban, tickets, wiki, team, stdio, npm]
+last_updated: "2026-10-19"
 ---
 
 # Laver MCP

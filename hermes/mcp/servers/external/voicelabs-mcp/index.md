@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcpservers.org listing (voicelabs.now)"
 relevance: ★★★
 tags: [text-to-speech, voice-cloning, transcription, audio, media, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # VoiceLabs MCP

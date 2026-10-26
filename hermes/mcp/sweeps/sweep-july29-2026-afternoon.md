@@ -5,7 +5,7 @@ sources: mcpservers.org /all SSR, sitemaps 1-6, mcp.so
 status: complete
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july29-2026-afternoon/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 description: "Afternoon sweep of mcpservers.org JSON-LD data (30 newest servers via SSR), sitemap lastmod dates (July 29 entries), and mcp.so /servers page."
 

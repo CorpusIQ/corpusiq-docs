@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + gloom.sh/docs"
 relevance: ★★★
 tags: [financial-data, market-data, sec-filings, options, macro, equities, research-terminal, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Gloom MCP

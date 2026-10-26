@@ -10,8 +10,7 @@ author: Sugra Systems, Inc.
 github: https://github.com/SugraSystems
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sugra-api-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # Sugra API MCP

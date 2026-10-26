@@ -7,6 +7,7 @@ added: 2026-10-04
 source: mcpservers.org
 relevance: ★★
 tags: [marketing, social-media, video, content-creation, publishing, scheduling, remote-mcp, oauth]
+last_updated: "2026-10-24"
 ---
 
 # GEN MCP

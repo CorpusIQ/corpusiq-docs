@@ -7,6 +7,7 @@ added: 2026-10-16
 source: "chatmcp/mcpso issue #5500 (October 16, 2026 night sweep)"
 relevance: ★★★
 tags: [growth, experimentation, a-b-testing, product, prioritization, ice, rice, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Hypotize MCP

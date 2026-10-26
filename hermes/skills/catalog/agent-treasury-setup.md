@@ -3,7 +3,7 @@ title: Agent Treasury - Agent Resource Management Setup
 description: "Skills from coreyhaines31/marketingskills at skills.sh - agent-treasury for managing agent resources, capabilities, and metadata. 689 github skills related."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-treasury-setup/"
 robots: "index,follow"
-last_updated: "2026-09-17"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "resource-management", "metadata"]
 ---
 

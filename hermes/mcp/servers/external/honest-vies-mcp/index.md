@@ -9,7 +9,7 @@ stars: 0
 tags: [vat, vies, eu, tax, compliance, ecommerce]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/honest-vies-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 description: "Part of the Honest MCP suite. Validates EU VAT numbers through the official VIES (VAT Information Exchange System) and includes a consultation number for l."
 
 ---

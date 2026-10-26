@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (coldleads-app-use-cases)"
 relevance: ★★★
 tags: [crm, contacts, email-verification, outreach, lead-generation, sales, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Cold Leads MCP

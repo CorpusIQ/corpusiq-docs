@@ -7,6 +7,7 @@ added: 2026-10-22
 source: "mcp.so /feed + chatmcp/mcpso issues (October 22, 2026 evening sweep)"
 relevance: ★★★
 tags: [ads, meta-ads, google-ads, shopify, ecommerce, revenue, attribution, oauth, remote-mcp, approval-control]
+last_updated: "2026-10-24"
 ---
 
 # Adrails MCP

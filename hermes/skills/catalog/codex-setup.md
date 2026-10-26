@@ -4,7 +4,7 @@ description: "Install and configure the Codex skill to delegate coding tasks fro
 category: catalog
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/codex-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -9,7 +9,7 @@ stars: 0
 tags: [sap, abap, ecc, s4hana, enterprise, erp]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/abapilot-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 description: "In-system ABAP MCP server for SAP ECC and on-premise S/4HANA. No BTP, no ADT, no RISE required. Runs directly inside the SAP system, giving AI agents nativ."
 
 ---

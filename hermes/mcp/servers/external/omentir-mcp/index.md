@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcpservers.org server page + omentir.com/agents.md"
 relevance: ★★★
 tags: [linkedin, lead-generation, sales, outreach, oauth, open-source, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Omentir MCP

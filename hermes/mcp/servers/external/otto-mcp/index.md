@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 1
 relevance: ★★
 tags: [mcp-server, marketing-analytics, meta-ads, ga4, search-console, website-ops, analytics, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Otto MCP

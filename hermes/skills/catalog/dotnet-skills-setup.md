@@ -3,7 +3,7 @@ title: "Dotnet Skills - .NET AI Coding Setup"
 description: "Official Microsoft .NET team skills for AI coding agents working with C# and .NET; ~206,971 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dotnet-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "dotnet", "csharp"]
 ---
 

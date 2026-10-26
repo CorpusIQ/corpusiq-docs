@@ -4,6 +4,7 @@ description: "Morning MCP catalog sweep: chatmcp/mcpso issues #3864-#3872, catal
 date: 2026-09-01T03:00:00-07:00
 sources: [chatmcp/mcpso, mcp.so]
 status: complete
+last_updated: "2026-10-19"
 ---
 
 # Sweep Report - September 1, 2026 (Morning Cron Sweep)

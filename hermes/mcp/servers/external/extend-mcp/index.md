@@ -7,6 +7,7 @@ added: 2026-09-03
 source: mcp.so
 relevance: ★★★
 tags: [document-processing, ocr, pdf, data-extraction, classification, document-ai, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Extend MCP

@@ -8,7 +8,7 @@ category: google-workspace
 setup: npx skills add googleworkspace/cli@gws-calendar
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-calendar/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Gws Calendar - CorpusIQ Docs - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

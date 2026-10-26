@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcp.so feed + server page (zyte-mcp)"
 relevance: ★★★
 tags: [web-scraping, data-extraction, browser-automation, search, scrapy-cloud, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Zyte MCP

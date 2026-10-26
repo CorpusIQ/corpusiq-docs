@@ -7,6 +7,7 @@ added: 2026-10-09
 source: "mcpservers.org /all pages 1-5 (October 9, 2026 night sweep)"
 relevance: ★★★
 tags: [forms, requests, onboarding, data-collection, signatures, document-collection, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Formstep MCP

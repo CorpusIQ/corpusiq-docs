@@ -7,6 +7,7 @@ added: 2026-10-20
 source: "chatmcp/mcpso issue window #5718 (submitted 2026-10-19T06:18:28Z)"
 relevance: ★★★
 tags: [security, data-breach, vendor-risk, due-diligence, credential-exposure, osint, remote-mcp, keyless]
+last_updated: "2026-10-24"
 ---
 
 # XposedOrNot MCP

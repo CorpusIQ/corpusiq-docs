@@ -7,6 +7,7 @@ added: 2026-08-24
 source: "mcp.so feed + live endpoint probe - refreshed 2026-09-08 for Release v1.0.6 (5 tools verified)"
 relevance: ★★
 tags: [agents, design-patterns, architecture, knowledge, agent-engineering, read-only, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Agentic Atlas MCP

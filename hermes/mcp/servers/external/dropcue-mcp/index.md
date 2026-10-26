@@ -7,6 +7,7 @@ added: 2026-10-24
 source: "chatmcp/mcpso issue #6036 (October 24, 2026 midday sweep) + public install kit built and driven locally"
 relevance: ★★★
 tags: [music, royalties, licensing, publishing, sync, rights, pitch-pipeline, local-mcp, stdio, business-records]
+last_updated: "2026-10-24"
 ---
 
 # DropCue MCP

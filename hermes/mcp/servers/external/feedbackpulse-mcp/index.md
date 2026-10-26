@@ -7,6 +7,7 @@ added: 2026-10-08
 source: "mcpservers.org /all (October 8, 2026 night sweep)"
 relevance: ★★★
 tags: [hr, employee-engagement, surveys, performance-reviews, recognition, people-ops]
+last_updated: "2026-10-24"
 ---
 
 # FeedbackPulse MCP

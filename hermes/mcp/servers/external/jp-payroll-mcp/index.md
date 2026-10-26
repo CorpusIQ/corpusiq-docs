@@ -7,6 +7,7 @@ added: 2026-09-02
 source: "mcp.so GitHub issue #3906"
 relevance: ★★★
 tags: [payroll, japan, social-insurance, hr, labour-law, compliance]
+last_updated: "2026-10-19"
 ---
 
 # jp-payroll-mcp - Japanese Payroll and Social Insurance for Agents

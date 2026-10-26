@@ -3,7 +3,7 @@ title: "AI Dev Standards Skills - Design Setup"
 description: "Design-focused agent skills for animation, brand, 3D, data visualization, and video production; ~15,942 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-dev-standards-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "animation"]
 ---
 

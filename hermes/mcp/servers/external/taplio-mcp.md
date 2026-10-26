@@ -10,7 +10,7 @@ repository: "https://github.com/TaplioOfficial/taplio-linkedin-mcp"
 remote_endpoint: "https://mcp.taplio.com"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/taplio-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 title: "Taplio MCP - LinkedIn Management from AI Agents"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 

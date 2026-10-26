@@ -3,7 +3,7 @@ title: "Hermes Hybrid Memory - Full Setup Guide"
 description: "Install and configure the Hybrid Memory plugin for Hermes Agent - graph + vector + holographic memory in one SQLite file with Hofstadter-inspired analogy"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-hybrid-memory-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★★
 tags: [lead-generation, b2b-data, contact-enrichment, sales-intelligence, prospecting, firmographics, technographics, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Vibe Prospecting MCP

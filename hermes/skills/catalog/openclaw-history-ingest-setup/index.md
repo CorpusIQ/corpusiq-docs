@@ -3,7 +3,7 @@ title: "openclaw-history-ingest Setup Guide"
 description: "Complete setup guide for openclaw-history-ingest - ingest OpenClaw agent conversation history into an Obsidian wiki vault."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-history-ingest-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

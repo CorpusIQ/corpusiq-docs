@@ -3,7 +3,7 @@ title: ArtiBot Cloud MCP - Robot Fleet Management
 description: "ArtiBot Cloud MCP (Zhijiangyun): 15 tools for robot fleet management and GPU workloads, OAuth 2.0."
 category: "MCP Servers"
 tags: ["robotics", "gpu", "cloud", "mcp server", "zhijiangyun"]
-last_updated: "2026-09-22"
+last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/artibot-cloud-mcp"
 robots: "index,follow"
 ---

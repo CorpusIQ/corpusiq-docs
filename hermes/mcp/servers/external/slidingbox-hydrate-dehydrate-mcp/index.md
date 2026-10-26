@@ -7,6 +7,7 @@ added: 2026-09-02
 source: "chatmcp/mcpso issue #3886 (Sep 2, 2026)"
 relevance: ★★
 tags: [mcp-server, security, secrets, encryption, handoff, agents, stdio]
+last_updated: "2026-10-19"
 ---
 
 # Slidingbox Hydrate/Dehydrate

@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "chatmcp/mcpso issue #4834 (Oct 6, 2026 evening sweep)"
 relevance: ★★
 tags: [uk, tenders, procurement, contracts-finder, open-data, remote-mcp, keyless, bid-intelligence]
+last_updated: "2026-10-19"
 ---
 
 # UK Tenders MCP

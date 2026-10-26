@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 23, 2026 (Midday Supplement)"
 description: "A fifty-minute delta that produced one entry: liquor license and permit filings fused into per-metro restaurant openings, driven with real calls."
-last_updated: 2026-10-23
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october23-2026-midday-supplement/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

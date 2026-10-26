@@ -7,6 +7,7 @@ added: 2026-08-22
 source: mcpservers.org
 relevance: ★★★
 tags: [social-media, publishing, scheduling, analytics, brand-voice, oauth, multi-platform, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Antwork MCP

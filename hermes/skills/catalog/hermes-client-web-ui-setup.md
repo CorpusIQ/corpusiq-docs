@@ -3,7 +3,7 @@ title: Hermes Client Web UI - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the hermes-client-web-ui skill from reason-machines/devtools-skills. Web-based chat dashboard for Hermes Agent with multi-profile management, SSE streaming, and terminal integration.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-client-web-ui-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

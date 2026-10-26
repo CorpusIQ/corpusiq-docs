@@ -7,6 +7,7 @@ added: 2026-09-15
 source: "mcp.so feed (Sep 15 morning, submitted 3h before sweep) + vendor page at mcp.so/servers/aard and aard.ai"
 relevance: ★★★
 tags: [macroeconomic-data, world-bank, imf, ecb, eurostat, economic-analysis, provenance, data-skills, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Aard MCP

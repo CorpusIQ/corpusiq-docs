@@ -3,7 +3,7 @@ title: "Callstack Agent Skills - React Native Skill Suite Setup"
 description: "Setup guide for callstackincubator/agent-skills: official Callstack React Native skills - performance, upgrades, navigation, CI, migration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/callstackincubator-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-07"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "react native", "mobile development", "callstack"]
 ---
 

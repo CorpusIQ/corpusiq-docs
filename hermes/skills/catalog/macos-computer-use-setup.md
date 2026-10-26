@@ -3,7 +3,7 @@ title: macos-computer-use Setup Guide
 description: Complete setup guide for the macos-computer-use skill from nousresearch/hermes-agent. Drive macOS desktop automation  --  screenshots, mouse, keyboard, scroll, drag  --  without stealing user focus.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/macos-computer-use-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: "Review Loop Skill - Continuous Code Review Discipline"
 description: "2dmurali/review-loop-skill - 24.6K installs, #1 on the skills.sh hot leaderboard. A self-contained review-loop discipline skill: review code changes, produce actionable feedback, verify fixes. Complements agent coding workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/review-loop-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "workflow"]
 ---
 

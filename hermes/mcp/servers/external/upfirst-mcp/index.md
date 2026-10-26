@@ -7,6 +7,7 @@ added: 2026-08-20
 source: mcpservers.org
 relevance: ★★★
 tags: [ai-receptionist, phone-answering, small-business, call-transcripts, appointment-booking, customer-service, front-office, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Upfirst MCP

@@ -3,7 +3,7 @@ title: "Moonlight Lupin Agent Skills - Hermes Skill Suite Setup"
 description: "Setup guide for moonlight-lupin/agent-skills: 35 Hermes-native skills across research, agent-ops, productivity, creative. 88-star MIT repo, ~3.4K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/moonlight-lupin-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-04"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "hermes agent", "skill suite", "research"]
 ---
 

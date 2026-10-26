@@ -3,7 +3,7 @@ title: Build MCP Server - Anthropic Official Setup Guide
 description: Install and configure build-mcp-server, Anthropic's official guide to building MCP (Model Context Protocol) servers. 3,148 installs, TypeScript + Python examples. From anthropics/claude-plugins-official.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

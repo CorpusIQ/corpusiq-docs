@@ -7,6 +7,7 @@ added: 2026-08-31
 source: "chatmcp/mcpso issue #3849 (Aug 31, 2026 afternoon sweep)"
 relevance: ★★
 tags: [mcp-server, documents, docx, pdf, templates, automation, stdio]
+last_updated: "2026-10-24"
 ---
 
 # DocMake MCP

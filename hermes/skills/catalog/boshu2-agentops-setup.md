@@ -3,7 +3,7 @@ title: "Boshu2 AgentOps Skills - AI Coding Ops Setup"
 description: "DevOps discipline for AI coding agents: shape the work, track it as a graph."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/boshu2-agentops-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ai coding", "agent workflow"]
 ---
 

@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + github.com/sunglasses-dev/sunglasses"
 relevance: ★★★
 tags: [prompt-injection, security, input-firewall, credential-leaks, data-exfiltration, agent-security, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Sunglasses MCP

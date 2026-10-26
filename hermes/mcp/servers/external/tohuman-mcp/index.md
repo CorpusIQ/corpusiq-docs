@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [content, humanizer, writing, ai-content, marketing, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ToHuman MCP

@@ -3,7 +3,7 @@ title: "Delegate Skills - CLI Agent Fleet Orchestration Setup"
 description: "Setup guide for amElnagdy/delegate-skills - 65.9K combined installs. Delegate coding tasks to per-CLI lanes: Codex, Claude, OpenCode, Cursor, and more."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/amelnagdy-delegate-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "multi-agent orchestration", "cli delegation", "coding agents"]
 ---
 

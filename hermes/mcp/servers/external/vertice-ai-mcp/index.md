@@ -7,6 +7,7 @@ added: 2026-08-14
 source: mcpservers.org
 relevance: ★★★
 tags: [procurement, saas-spend, contracts, finops, vendor-management, cost-optimization, finance, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Vertice AI MCP

@@ -3,7 +3,7 @@ title: "ResumeSkills - AI-Powered Resume Optimization & Job"
 description: paramchoudhary's resume skills - ATS optimization, LinkedIn profile enhancement, resume bullet writing, tailoring, cover letters, and tech resume formatting. 13K+ combined installs across 6 skills. Job application engine for AI agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/resumeskills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -7,6 +7,7 @@ added: 2026-09-30
 source: "mcpservers.org server page (abyousef739/signalpipe)"
 relevance: ★★★
 tags: [lead-generation, buying-intent, sales-intelligence, prospect-nurturing, reddit, outreach, approval-gated, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # SignalPipe MCP

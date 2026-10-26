@@ -7,6 +7,7 @@ added: 2026-09-04
 source: "mcp.so feed"
 relevance: ★★★
 tags: [sec-edgar, company-financials, bank-data, nonprofits, federal-spending, evidence-citations, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Factanker MCP

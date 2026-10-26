@@ -3,7 +3,7 @@ title: "July 27, 2026 (Night)"
 description: "Late-night sweep: 4 new Hermes-relevant skills discovered - Reddit Automation (112.9K), OpenTUI (52.8K), DBS Content (17.6K), Monitoring Expert (3.9K)"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july27-2026-night/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

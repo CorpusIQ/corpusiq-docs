@@ -7,6 +7,7 @@ added: 2026-10-09
 source: "mcpservers.org /all + chatmcp/mcpso issues (October 9, 2026 night sweep)"
 relevance: ★★★
 tags: [finance, markets, trading, quant, sec-filings, portfolio, options, backtesting, paper-trading, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Fincept MCP

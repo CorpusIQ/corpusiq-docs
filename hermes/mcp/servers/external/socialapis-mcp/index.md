@@ -7,6 +7,7 @@ added: 2026-10-02
 source: "mcp.so feed (socialapis-facebook-instagram-data)"
 relevance: ★★★
 tags: [marketing, social-media, facebook, instagram, ads-library, competitor-research, marketplace, scraping, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # SocialAPIs MCP

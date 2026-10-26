@@ -3,7 +3,7 @@ title: "Lawstronaut MCP Server ★ New (July 15)"
 description: "Millions of official legal and regulatory source documents from 155+ jurisdictions accessible via MCP. Structured legal research for AI agents."
 category: mcp
 tags: [mcp-server, legal, compliance, research, regulatory, business-operations]
-last_updated: 2026-09-17
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/lawstronaut-mcp/"
 robots: "index,follow"
 

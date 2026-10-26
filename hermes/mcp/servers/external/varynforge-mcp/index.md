@@ -7,6 +7,7 @@ added: 2026-09-08
 source: mcp.so
 relevance: ★★★
 tags: [seo, content-strategy, keyword-research, content-briefs, content-planning, market-radar, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # VarynForge MCP

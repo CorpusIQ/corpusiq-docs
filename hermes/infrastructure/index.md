@@ -3,7 +3,7 @@ title: "Multi-Machine Deployment Architecture"
 description: "Production agent deployment pattern: a GPU primary node for inference and scheduling, plus a worker node for browser automation and content operations."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

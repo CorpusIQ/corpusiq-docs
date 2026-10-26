@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [market-intelligence, financial-news, sentiment, sec-filings, investor-research, alerts, evidence-linked, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Ultralayer MCP

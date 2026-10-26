@@ -7,6 +7,7 @@ added: 2026-10-05
 source: "chatmcp/mcpso issue #4737 (com.plainfreight/quotes)"
 relevance: ★★
 tags: [logistics, freight, imports, china, ecommerce, shipping, keyless, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Plain Freight MCP

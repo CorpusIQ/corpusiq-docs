@@ -7,6 +7,7 @@ added: 2026-08-31
 source: "chatmcp/mcpso issue #3848 (Aug 31, 2026 afternoon sweep)"
 relevance: ★★★
 tags: [mcp-server, sec, edgar, insider-trading, 13f, 13d, filings, finance, remote]
+last_updated: "2026-10-19"
 ---
 
 # Edgrapi MCP

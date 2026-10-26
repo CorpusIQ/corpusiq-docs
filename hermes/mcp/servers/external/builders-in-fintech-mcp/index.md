@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcp.so feed (clients/builders-in-fintech)"
 relevance: ★★★
 tags: [fintech, venture-capital, funding-rounds, investor-data, research, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Builders in Fintech MCP

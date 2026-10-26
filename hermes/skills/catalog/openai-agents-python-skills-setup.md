@@ -3,7 +3,7 @@ title: "OpenAI Agents Python Skills - Multi-Agent Setup"
 description: "Skills for the OpenAI Agents SDK multi-agent framework: knowledge retrieval, test coverage, PR summaries, docs sync, code verification (~1.9K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openai-agents-python-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "python"]
 ---
 

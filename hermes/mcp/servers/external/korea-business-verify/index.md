@@ -7,6 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3741"
 relevance: ★★★
 tags: [mcp-server, korea, kyb, business-verification, compliance, nts, due-diligence]
+last_updated: "2026-10-19"
 ---
 
 # Korea Business Verify (KBV) MCP

@@ -7,6 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (docs-superbooks-io-mcp)"
 relevance: ★★★
 tags: [finance, accounting, bookkeeping, invoices, transactions, reports, burn-rate, runway, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # SuperBooks MCP

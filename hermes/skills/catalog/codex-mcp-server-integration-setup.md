@@ -3,7 +3,7 @@ title: "Codex MCP Server Integration - OpenAI Codex CLI via MCP"
 description: "129+ installs. Bridge Codex CLI into MCP-compatible editors for AI-powered code analysis, generation, review, and web search. Setup guide for Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/codex-mcp-server-integration-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

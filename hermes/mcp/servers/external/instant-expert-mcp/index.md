@@ -7,6 +7,7 @@ added: 2026-10-04
 source: mcp.so feed
 relevance: ★★★
 tags: [business-operations, expert-network, research, customer-discovery, sales, outreach, remote-mcp, oauth]
+last_updated: "2026-10-19"
 ---
 
 # Instant Expert MCP

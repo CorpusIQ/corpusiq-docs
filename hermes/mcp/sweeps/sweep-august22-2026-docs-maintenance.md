@@ -3,6 +3,7 @@ title: "MCP Discovery Sweep - August 22, 2026 (Docs Maintenance)"
 date: 2026-08-22
 tags: [mcp-sweep, discovery, catalog]
 description: "chatmcp/mcpso issues #3689-#3698 (Aug 22 06:24-18:02 UTC); 2 catalogued with guides (Corpus Law, Breakreach), 6 skipped"
+last_updated: "2026-10-19"
 ---
 
 # MCP Discovery Sweep - August 22, 2026 (Docs Maintenance)

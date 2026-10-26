@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [video-generation, image-generation, music-generation, sora, creative-production, marketing-content, credits, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ViewMax MCP

@@ -3,7 +3,7 @@ title: "Alibaba Open Code Review - AI Code Review CLI Setup"
 description: "alibaba/open-code-review - 2 skills, 4.3K installs: Git-diff AI code review with structured line-level comments from Alibaba."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/alibaba-open-code-review-setup/"
 robots: "index,follow"
-last_updated: "2026-08-16"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "alibaba"]
 ---
 

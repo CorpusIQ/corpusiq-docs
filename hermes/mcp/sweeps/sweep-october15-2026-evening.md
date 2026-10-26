@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 15, 2026 (Evening Sweep)"
 description: "Evening sweep cataloguing the full U.S. DOL Form 5500 plan filing set and a cited price book for the AI training data market."
-last_updated: 2026-10-15
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october15-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

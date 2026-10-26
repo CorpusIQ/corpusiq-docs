@@ -7,6 +7,7 @@ added: 2026-09-14
 source: "mcp.so feed (day-off) + vendor listing text"
 relevance: ★★
 tags: [hr, pto, time-tracking, workforce, leave-management, attendance, oauth, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Day Off MCP

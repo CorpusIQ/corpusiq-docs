@@ -3,7 +3,7 @@ title: "Openwork Skills - Agent Workspace Setup"
 description: "Openwork skills for the open-source Claude Cowork alternative powered by opencode; ~4,752 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openwork-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "opencode", "desktop"]
 ---
 

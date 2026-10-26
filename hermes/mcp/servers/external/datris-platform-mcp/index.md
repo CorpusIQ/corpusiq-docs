@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcp.so server page (datris-platform-oss)"
 relevance: ★★★
 tags: [data-platform, data-engineering, etl, mcp, self-hosted, open-source, provenance, credentials, agents]
+last_updated: "2026-10-19"
 ---
 
 # Datris Data Platform MCP

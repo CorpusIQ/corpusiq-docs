@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcp.so server page (mcp.deepledger.ai)"
 relevance: ★★★
 tags: [quickbooks, accounting, bookkeeping, month-end-close, journal-entries, bank-feed, reports, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # DeepLedger MCP

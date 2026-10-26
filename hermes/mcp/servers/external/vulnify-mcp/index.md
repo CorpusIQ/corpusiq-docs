@@ -7,6 +7,7 @@ added: 2026-10-10
 source: "chatmcp/mcpso issue #5083 (submission) + vendor docs docs.vulnify.io/mcp; catalogued at the October 10, 2026 evening sweep"
 relevance: ★★★
 tags: [security, governance, agent-authorization, policy, audit, oauth, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Vulnify MCP

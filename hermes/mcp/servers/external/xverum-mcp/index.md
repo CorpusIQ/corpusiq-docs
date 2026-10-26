@@ -7,6 +7,7 @@ added: 2026-08-20
 source: "mcp.so homepage new arrival (Aug 20)"
 relevance: ★★
 tags: [people-search, talent-sourcing, prospecting, enrichment, hiring, sales-intelligence, remote-mcp, professional-data]
+last_updated: "2026-10-19"
 ---
 
 # Xverum MCP

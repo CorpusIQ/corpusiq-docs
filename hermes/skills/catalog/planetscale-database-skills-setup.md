@@ -3,7 +3,7 @@ title: "PlanetScale Database Skills - MySQL & Postgres"
 description: PlanetScale's official database agent skills - MySQL, Postgres, Vitess, Neki best practices. 15K+ combined installs across 4 skills for database-driven agent workflows.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/planetscale-database-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

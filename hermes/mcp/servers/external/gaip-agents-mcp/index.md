@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (gaipagents.com)"
 relevance: ★★
 tags: [agent-verification, monitoring, receipts, evidence, conformance, a2a, read-only, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # GAIP Agents MCP

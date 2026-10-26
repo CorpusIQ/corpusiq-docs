@@ -3,7 +3,7 @@ title: "Meticulous Agent Skills - Visual Regression Testing Setup"
 description: "Setup guide for alwaysmeticulous/skills - 66.5K combined installs. Official Meticulous skills for reviewing visual diffs and fixing regressions."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/meticulous-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-09"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "visual regression testing", "frontend testing", "meticulous"]
 ---
 

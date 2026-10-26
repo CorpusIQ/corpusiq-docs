@@ -7,6 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (twitterxapi-com-mcp-server)"
 relevance: ★★
 tags: [x, twitter, social-media, search, trends, social-listening, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # TwitterXAPI MCP

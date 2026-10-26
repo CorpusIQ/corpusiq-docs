@@ -8,7 +8,7 @@ category: supabase
 setup: npx skills add supabase/agent-skills@supabase-postgres-best-practices
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/supabase/supabase-postgres-best-practices/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Supabase Postgres Best Practices"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

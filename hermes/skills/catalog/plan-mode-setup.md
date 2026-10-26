@@ -3,7 +3,7 @@ title: Plan Mode - Hermes Skill Setup Guide
 description: Install and configure plan, the official Hermes Agent skill for plan-only execution mode - generates structured markdown plans without executing code - 309 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/plan-mode-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

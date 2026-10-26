@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 1
 relevance: ★★
 tags: [mcp-server, finance, portfolio, correlation, etf, risk-analysis, investing, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # PairBook MCP

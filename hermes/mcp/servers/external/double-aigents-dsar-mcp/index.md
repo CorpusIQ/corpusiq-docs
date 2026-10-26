@@ -7,6 +7,7 @@ added: 2026-10-18
 source: "mcp.so /feed (October 18, 2026 night sweep)"
 relevance: ★★★
 tags: [gdpr, dsar, data-protection, breach-notification, compliance, eu-ai-act, dpia, keyless, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Double AIgents DSAR MCP

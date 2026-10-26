@@ -7,6 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (leadbay/mcp)"
 relevance: ★★★
 tags: [sales, leads, prospecting, outbound, crm, b2b, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Leadbay MCP

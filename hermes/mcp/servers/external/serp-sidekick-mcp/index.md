@@ -7,6 +7,7 @@ added: 2026-09-14
 source: "mcpservers.org /all page 1 (Sep 14 evening crawl) + vendor docs at serpsidekick.com"
 relevance: ★★★
 tags: [seo, geo, aeo, keyword-research, search-console, competitor-analysis, ai-visibility, google-rankings, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Serp Sidekick MCP

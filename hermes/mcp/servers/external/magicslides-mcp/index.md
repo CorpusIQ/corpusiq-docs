@@ -7,6 +7,7 @@ added: 2026-08-16
 source: mcpservers.org
 relevance: ★★
 tags: [presentations, slides, documents, spreadsheets, meeting-notes, office]
+last_updated: "2026-10-24"
 ---
 
 # MagicSlides MCP

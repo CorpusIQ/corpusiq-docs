@@ -7,6 +7,7 @@ added: 2026-10-08
 source: "mcpservers.org /all + mcp.so feed (October 8, 2026 midday sweep)"
 relevance: ★★★
 tags: [competitive-intelligence, competitor-analysis, market-research, pricing, marketing, battlecards]
+last_updated: "2026-10-19"
 ---
 
 # Rivalize MCP

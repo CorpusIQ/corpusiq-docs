@@ -7,6 +7,7 @@ added: 2026-09-11
 source: chatmcp/mcpso issues
 relevance: ★★
 tags: [engineering-analytics, delivery-metrics, developer-tools, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Coderbuds MCP

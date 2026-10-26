@@ -3,7 +3,7 @@ title: "Platform Design Skills - HIG & Material Setup"
 description: "Setup guide for ehmo/platform-design-skills - 12.8K combined installs. 450+ design rules for Apple HIG, Material Design 3, and WCAG 2.2."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform-design-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design systems", "apple hig", "material design", "accessibility"]
 ---
 

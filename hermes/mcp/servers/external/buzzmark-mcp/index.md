@@ -7,6 +7,7 @@ added: 2026-10-25
 source: "mcp.so /feed card (submitted 2026-10-25) + mcpservers.org listing + live 401 probe on the endpoint + vendor pricing page"
 relevance: ★★
 tags: [social-media, content, brand-voice, ghostwriting, scheduling, linkedin, x, instagram, drafts]
+last_updated: "2026-10-25"
 ---
 
 # Buzzmark MCP

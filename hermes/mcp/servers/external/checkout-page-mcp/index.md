@@ -7,6 +7,7 @@ added: 2026-09-15
 source: "mcp.so feed (Sep 15 morning, submitted 2h before sweep) + vendor page at mcp.so/clients/checkout-page-mcp"
 relevance: ★★★
 tags: [checkout, payments, subscriptions, event-tickets, invoices, coupons, webhooks, stripe, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Checkout Page MCP

@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 10, 2026 (Night Sweep)"
 description: "Night sweep cataloguing eBay sold-listing data for pricing research."
-last_updated: 2026-10-10
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october10-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

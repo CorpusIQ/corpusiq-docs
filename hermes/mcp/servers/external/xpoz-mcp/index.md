@@ -13,8 +13,7 @@ transport: Streamable HTTP
 auth: OAuth 2.1
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/xpoz-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # Xpoz MCP Server

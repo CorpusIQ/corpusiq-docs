@@ -3,7 +3,7 @@ title: June 11, 2026  --  Update (19 New Skills)
 description: 19 additional Hermes-relevant skills discovered in afternoon sweep. Agent architecture, UI dashboards, Nous variants, and OpenClaw ecosystem.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june11-2026-update/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

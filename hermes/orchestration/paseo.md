@@ -3,7 +3,7 @@ title: "Paseo -- Cross-Session Agent Orchestration"
 description: "Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile, web, and CLI."
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/paseo/"
 robots: "index,follow"
-last_updated: "2026-08-30"
+last_updated: "2026-10-19"
 tags: ["agent orchestration", "multi-agent", "paseo", "coding agents"]
 
 ---

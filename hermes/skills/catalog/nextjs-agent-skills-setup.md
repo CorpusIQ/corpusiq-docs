@@ -3,7 +3,7 @@ title: "Next.js Agent Skills - Official Vercel Skill Suite Setup"
 description: "vercel/next.js - 5 first-party Agent Skills in the Next.js monorepo: next-dev-loop, cache-components adoption/optimizer, and partial-prefetching adoption/optimizer. 44.4K skills.sh installs. Setup guide for Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nextjs-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-11"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "nextjs", "vercel", "web development", "react"]
 ---
 

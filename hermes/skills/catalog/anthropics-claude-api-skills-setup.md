@@ -3,7 +3,7 @@ title: "Anthropic Claude API Skills - Official Claude API"
 description: Anthropic's official Claude API skill - model IDs, pricing, streaming, tool use, MCP, caching, token counting. 52.6K installs. The definitive Claude API reference for agent development.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/anthropics-claude-api-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

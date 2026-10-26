@@ -3,7 +3,7 @@ title: "rlaope Oh My Hermes - 130-Skill All-in-One Plugin Setup"
 description: "Setup guide for rlaope/oh-my-hermes - 130+ Hermes Agent workflow packages: coding intelligence, long-term memory, ops reviews, research, sales, finance, security."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rlaope-oh-my-hermes-setup/"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "workflow", "agent orchestration", "memory"]
 ---
 

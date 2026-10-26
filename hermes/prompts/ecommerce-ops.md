@@ -3,7 +3,7 @@ title: "Ecommerce Ops - CorpusIQ Docs - CorpusIQ Docs"
 description: "Ecommerce operations prompts for Hermes agents. Monitor Shopify sales, track inventory, analyze customer segments, and optimize pricing using AI connected"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/ecommerce-ops/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes prompt", "prompt engineering", "ai prompt"]
 
 ---

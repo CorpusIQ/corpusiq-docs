@@ -3,7 +3,7 @@ title: "Sanyuan Skills - Production Agent Skills Suite Setup"
 description: "Setup guide for sanyuan0704/sanyuan-skills - 30.0K combined installs. Six production-grade skills: code review, tutoring, and skill authoring."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sanyuan-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "skill authoring", "tutoring"]
 ---
 

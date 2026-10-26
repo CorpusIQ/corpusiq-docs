@@ -7,7 +7,7 @@ language: TypeScript
 transport: stdio
 auth: "None for 147 of 152 tools (keyless-first; 5 tools need a free key)"
 category: Government/Procurement
-last_updated: 2026-09-15
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sam-gov-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

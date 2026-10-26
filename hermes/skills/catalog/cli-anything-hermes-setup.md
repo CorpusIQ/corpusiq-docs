@@ -3,7 +3,7 @@ title: CLI-Anything Hermes - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the cli-anything-hermes skill from hkuds/cli-anything. Orchestrate CLI-Anything harnesses for GUI applications through Hermes Agent - 43K⭐ ecosystem, 70+ application harnesses.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cli-anything-hermes-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: "Meta Business MCP - WhatsApp Business Cloud API"
 description: "Connect AI agents to WhatsApp Business Cloud API via MCP - 24 tools for message orchestration, compliance engine, and error intelligence"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/meta-business-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

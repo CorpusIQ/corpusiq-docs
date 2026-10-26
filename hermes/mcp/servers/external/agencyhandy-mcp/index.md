@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "chatmcp/mcpso issue #4807 (Oct 6, 2026 midday sweep)"
 relevance: ★★★
 tags: [agency, project-management, crm, invoicing, cash-flow, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Agency Handy MCP

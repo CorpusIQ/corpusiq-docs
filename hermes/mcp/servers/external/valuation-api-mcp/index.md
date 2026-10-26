@@ -7,6 +7,7 @@ added: 2026-09-02
 source: "mcp.so GitHub issue #3900"
 relevance: ★★
 tags: [valuation, dcf, irr, npv, wacc, financial-modeling, investing]
+last_updated: "2026-10-19"
 ---
 
 # Valuation API MCP - Deterministic Finance Math for Agents

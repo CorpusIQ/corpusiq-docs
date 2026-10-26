@@ -5,7 +5,7 @@ sources: mcpservers.org sitemaps (1-6 + priority), mcp.so /servers SSR
 status: complete
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july30-2026-morning/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 description: "Morning sweep of mcpservers.org sitemaps (6 server sitemaps + priority sitemap) and mcp.so /servers page (76 servers on first page)."
 

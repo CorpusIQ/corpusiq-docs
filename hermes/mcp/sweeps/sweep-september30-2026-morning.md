@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 30, 2026 (Morning Sweep)"
 description: "Morning sweep over the mcp.so /feed (29 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 11 detail pages fetched. 7 new business-relevant servers catalogued with guides: Vouched MCP, SignalPipe MCP, MentionFox MCP, Kresmion MCP, Family Office Registry MCP, Ownware Catalogue MCP and OceanAlt AML MCP."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-30
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 30, 2026 (Morning Sweep)

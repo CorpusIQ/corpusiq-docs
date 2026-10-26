@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 3
 relevance: ★★★
 tags: [mcp-server, sec-filings, xbrl, 13f, insider-trading, market-data, funds, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Equibles MCP

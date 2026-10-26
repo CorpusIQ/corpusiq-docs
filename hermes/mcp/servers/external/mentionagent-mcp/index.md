@@ -7,6 +7,7 @@ added: 2026-09-11
 source: mcpservers.org /all
 relevance: ★★★
 tags: [outreach, link-building, seo, backlinks, email, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # MentionAgent MCP

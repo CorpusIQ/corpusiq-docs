@@ -3,7 +3,7 @@ title: "Amplitude Agent Skills - Product Analytics Setup"
 description: "Setup guide for amplitude/mcp-marketplace: 38 official Amplitude agent skills for product analytics, instrumentation, taxonomy and event discovery."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/amplitude-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-08"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "amplitude", "analytics", "product data"]
 ---
 

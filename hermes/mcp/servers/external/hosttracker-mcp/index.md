@@ -7,6 +7,7 @@ added: 2026-08-25
 source: mcp.so feed
 relevance: ★★
 tags: [mcp-server, monitoring, uptime, alerts, status-pages, incidents]
+last_updated: "2026-10-19"
 ---
 
 # HostTracker MCP

@@ -11,8 +11,7 @@ discovered: 2026-07-24
 pricing: Free · Open Source (Apache 2.0)
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/gainium-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # Gainium MCP - AI-Powered Crypto Trading Automation

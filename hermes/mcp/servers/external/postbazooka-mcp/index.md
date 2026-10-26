@@ -7,6 +7,7 @@ added: 2026-09-05
 source: mcpservers.org
 relevance: ★★★
 tags: [social-media, publishing, scheduling, content-ops, oauth, remote-mcp, approvals]
+last_updated: "2026-10-24"
 ---
 
 # PostBazooka MCP

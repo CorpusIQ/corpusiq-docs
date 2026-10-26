@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcp.so server page (mcp.databar.ai)"
 relevance: ★★★
 tags: [data-enrichment, b2b-data, email-waterfall, prospect-search, technographics, company-signals, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Databar.ai MCP

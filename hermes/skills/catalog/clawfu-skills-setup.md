@@ -3,7 +3,7 @@ title: ClawFu Skills - Full Setup Guide for Hermes Agents
 description: Install and use ClawFu's 175 expert marketing methodologies for AI agents. MCP-native. Dunford, Schwartz, Cialdini, Ogilvy, Hormozi - encoded as agent-readable skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawfu-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

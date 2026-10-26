@@ -3,7 +3,7 @@ title: "Sergiodxa Agent Skills - Frontend Practice Setup"
 description: "Setup guide for sergiodxa/agent-skills - 7.9K combined installs. Frontend testing, React, accessibility, and security best-practices skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sergiodxa-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "frontend", "react", "accessibility"]
 ---
 

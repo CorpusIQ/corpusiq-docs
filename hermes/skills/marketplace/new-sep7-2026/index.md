@@ -3,7 +3,7 @@ title: "New Skills - September 7, 2026 (Evening)"
 description: "skills.sh evening sweep: designed-by-ai/skills design-mobile-apps (75.1K installs, Sleek AI mobile app design) and axelfreeman/marketing-mindset marketing-mindset (28.8K installs, B2B marketing OS for agents) - 2 new publisher clusters, 2 skills, 2 setup guides."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep7-2026/"
 robots: "index,follow"
-last_updated: "2026-09-07"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills", "design", "marketing"]
 sweep_id: "2026-09-07-evening"
 new_publishers: 2

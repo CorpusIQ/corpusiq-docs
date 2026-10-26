@@ -7,6 +7,7 @@ added: 2026-08-30
 source: "mcp.so feed (listed Jul 21, 2026; first evaluated Aug 30)"
 relevance: ★★
 tags: [mcp-server, documents, ocr, extraction, invoices, contracts, tagging, oauth]
+last_updated: "2026-10-19"
 ---
 
 # Gemina MCP

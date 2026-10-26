@@ -3,7 +3,7 @@ title: "Sep 30, 2026 Morning - 8 New Skill Publisher Clusters"
 description: "Skills.sh sweep: 8 new publisher guides (Official Google Gemini 47.8K, Assistant UI 89.5K, Dot Skills 30.6K, Claude MPM 26.1K, Meta Quest)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep30-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ---
 

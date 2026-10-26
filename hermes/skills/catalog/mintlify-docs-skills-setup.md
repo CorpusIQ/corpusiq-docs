@@ -3,7 +3,7 @@ title: "Mintlify Docs Skills - Documentation Platform Setup"
 description: "mintlify/docs - 5 skills, 9.2K installs: Mintlify documentation authoring, nav updates, and API references from the Mintlify team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mintlify-docs-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "documentation", "mintlify"]
 ---
 

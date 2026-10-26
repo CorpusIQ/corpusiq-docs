@@ -7,6 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3947"
 relevance: ★★★
 tags: [social-media, multi-platform, oauth, scheduling, analytics, remote-mcp, stdio]
+last_updated: "2026-10-24"
 ---
 
 # Chirpie MCP - Unified Social Posting Across 14 Platforms

@@ -3,7 +3,7 @@ title: "James Rochabrun Skills - Creative & Teaching Suite Setup"
 description: "Setup guide for jamesrochabrun/skills - 24 Claude Code skills: PRD generator, Apple HIG designer, teaching, book writing and illustration. 7.3K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jamesrochabrun-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "claude code", "product design", "creative skills"]
 ---
 

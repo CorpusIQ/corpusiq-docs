@@ -2,6 +2,7 @@
 title: "CorpusIQ vs Funnel.io: What Each One Does"
 description: "Funnel.io centralizes marketing data into a warehouse. CorpusIQ is the layer that gives AI assistants live access to business data with validation and citations, no warehouse required."
 tags: [compare, corpusiq, mcp]
+last_updated: "2026-10-19"
 ---
 
 # CorpusIQ vs Funnel.io: What Each One Does

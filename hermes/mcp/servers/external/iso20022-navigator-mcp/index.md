@@ -7,6 +7,7 @@ added: 2026-10-12
 source: "mcpservers.org /all (Oct 12, 2026 midday sweep)"
 relevance: ★★
 tags: [iso-20022, payments, banking, swift, sepa, reference-data, keyless, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # ISO 20022 Navigator MCP

@@ -7,6 +7,7 @@ added: 2026-10-21
 source: "mcpservers.org /all page 3 (agentshandbook-com)"
 relevance: ★★
 tags: [agent-playbooks, runbooks, human-checkpoints, evidence-grading, failure-modes, field-log, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Agents Handbook MCP

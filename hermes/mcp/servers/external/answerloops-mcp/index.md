@@ -7,6 +7,7 @@ added: 2026-09-03
 source: "mcpservers.org /all listing (answerloops/answerloops)"
 relevance: ★★
 tags: [customer-support, community, knowledge-base, tickets, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # AnswerLoops MCP - Community Support Knowledge Base for Agents

@@ -7,6 +7,7 @@ added: 2026-10-21
 source: "mcp.so /feed page 1 (card posted 2026-10-21T06:51:31Z)"
 relevance: ★★
 tags: [web-analytics, product-analytics, funnels, dashboards, cookieless, click-tracking, remote-mcp, oauth]
+last_updated: "2026-10-22"
 ---
 
 # Privatrak MCP

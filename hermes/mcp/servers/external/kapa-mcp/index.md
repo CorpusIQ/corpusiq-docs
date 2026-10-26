@@ -7,6 +7,7 @@ added: 2026-10-05
 source: mcp.so feed (Oct 5, 2026 midday sweep)
 relevance: ★★
 tags: [knowledge-base, support, documentation, indexing, help-center, remote-mcp, oauth]
+last_updated: "2026-10-24"
 ---
 
 # Kapa MCP

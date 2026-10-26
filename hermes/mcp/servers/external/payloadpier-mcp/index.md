@@ -7,6 +7,7 @@ added: 2026-10-18
 source: "chatmcp/mcpso issue #5685 + mcpservers.org /all (October 18, 2026 night sweep)"
 relevance: ★★★
 tags: [procurement, purchasing, supplier-pricing, cogs, unit-cost, margin, finance, api-key, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # PayloadPier MCP

@@ -7,6 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3754"
 relevance: ★★
 tags: [mcp-server, social-analytics, entertainment, instagram, tiktok, influencer]
+last_updated: "2026-10-19"
 ---
 
 # PopOff Data MCP

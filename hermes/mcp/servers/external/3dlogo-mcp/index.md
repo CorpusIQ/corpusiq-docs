@@ -7,6 +7,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3779"
 relevance: ★★★
 tags: [3d, logos, design, creative, image-generation, remote-mcp, oauth, brand-assets]
+last_updated: "2026-10-19"
 ---
 
 # 3dlogo MCP Server

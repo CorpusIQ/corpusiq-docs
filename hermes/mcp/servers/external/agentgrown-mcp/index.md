@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (agentgrown.com)"
 relevance: ★★★
 tags: [seo, google-search-console, ga4, analytics, marketing, coding-agents, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # AgentGrown MCP

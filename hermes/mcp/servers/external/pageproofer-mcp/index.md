@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "mcpservers.org /all page 1 (Oct 7, 2026 midday sweep)"
 relevance: ★★
 tags: [website-feedback, agencies, bug-reports, qa, claude-code, cursor, api-token, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # PageProofer MCP

@@ -9,7 +9,7 @@ stars: 1
 tags: [documentation, github, codebase, drift-detection, developer-tools]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/moxie-docs-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 description: "GitHub personal access token with repo scope is required for PR workflows. Setup guide for the Moxie Docs MCP server."
 
 ---

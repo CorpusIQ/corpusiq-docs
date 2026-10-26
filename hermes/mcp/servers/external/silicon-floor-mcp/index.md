@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [finance, stocks, sec-filings, ownership, insider-trading, semiconductors, free, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Silicon Floor MCP

@@ -3,7 +3,7 @@ title: "AgentMint Skills Setup Guide - CorpusIQ Docs"
 description: Route Hermes delegate_task to persistent AgentMint subagents with cross-call memory  --  wallet-based agent identity and JSON-RPC agent operations
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentmint-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

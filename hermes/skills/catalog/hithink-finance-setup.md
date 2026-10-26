@@ -3,7 +3,7 @@ title: "Hithink Finance - Tonghuashun A-Share Data Skill Setup"
 description: "hithink-tech/financial-api - 2 skills, 1.8K combined installs. Official agent entry to Tonghuashun (同花顺), China's largest retail-investor financial data platform - real-time and historical A-share quotes, fundamentals, indices, and limit-up boards via API, MCP, CLI, or Python."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hithink-finance-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "finance"]
 ---
 

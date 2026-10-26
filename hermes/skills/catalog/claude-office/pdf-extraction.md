@@ -8,7 +8,7 @@ category: claude-office
 setup: npx skills add claude-office-skills/skills@pdf-extraction
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/pdf-extraction/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Pdf Extraction - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

@@ -13,8 +13,7 @@ transport: Streamable HTTP
 auth: Bearer token (instant free key via POST /register)
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nerai-risk-intelligence-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # NERAI Risk Intelligence MCP Server

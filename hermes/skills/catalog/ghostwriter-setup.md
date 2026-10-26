@@ -3,7 +3,7 @@ title: Ghostwriter - Full Setup Guide for Hermes Agents
 description: Install and configure the Ghostwriter skill from okokelly/skill-ghostwriter. Autonomous email auto-reply pipeline with zero-token watchdog and voice-guided processor for VIP inboxes.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ghostwriter-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

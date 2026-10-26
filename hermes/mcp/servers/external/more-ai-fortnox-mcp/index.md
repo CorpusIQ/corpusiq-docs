@@ -7,6 +7,7 @@ added: 2026-10-25
 source: "mcp.so feed card 2026-10-25T19:19:49Z + mcp.so tool listing (15 tools) + live probes on accounting.amore.cloud (401 invalid_token) + RFC 9728 protected resource + official MCP registry cloud.amore.accounting/fortnox 1.0.2 + vendor pricing and security pages"
 relevance: ★★★
 tags: [fortnox, sweden, accounting, bookkeeping, erp, vat, sie, approval-gate, idempotency, finance-ops]
+last_updated: "2026-10-25"
 ---
 
 # More AI Fortnox MCP

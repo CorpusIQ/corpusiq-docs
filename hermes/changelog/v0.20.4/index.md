@@ -3,7 +3,7 @@ title: Hermes Agent v0.20.4 Patch Release
 description: Hermes Agent v0.20.4 patch release - release notes, highlights, and security fixes.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.4/"
 robots: "index,follow"
-last_updated: "2026-10-13"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

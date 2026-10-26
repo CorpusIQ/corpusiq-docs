@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4868 (Oct 7, 2026 morning sweep)"
 relevance: ★★
 tags: [ecommerce, shopify, platform-detection, competitive-intelligence, apify, local-mcp, npm]
+last_updated: "2026-10-24"
 ---
 
 # Mamba Ecommerce Platform Profiler MCP

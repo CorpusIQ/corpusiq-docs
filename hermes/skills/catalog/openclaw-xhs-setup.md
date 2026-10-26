@@ -6,7 +6,7 @@ repo: https://github.com/zhjiang22/openclaw-xhs
 stars: 113
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-xhs-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

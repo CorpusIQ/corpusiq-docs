@@ -3,7 +3,7 @@ title: "Decentraland SDK Skills - Scene Building Setup"
 description: "Six Decentraland SDK7 skills for scene development, UI, multiplayer sync, and game design; ~5,900 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/decentraland-sdk-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "game dev", "decentraland"]
 ---
 

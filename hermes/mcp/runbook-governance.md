@@ -2,6 +2,7 @@
 title: "Prompt Compliance Is Not Governance"
 description: "An MCP server can expose a workflow, but the model decides whether to run it. For enterprise, that is a governance gap. runbook.v1 makes execution required, versioned, and auditable."
 tags: [mcp, governance, runbook, enterprise, agents]
+last_updated: "2026-10-19"
 ---
 
 # Prompt Compliance Is Not Governance

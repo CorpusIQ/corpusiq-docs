@@ -7,6 +7,7 @@ added: 2026-10-24
 source: "mcpservers.org /all p1-20 fresh cohort (late sweep, October 24 2026) + npm package driven locally over stdio"
 relevance: ★★★
 tags: [tariff, hts, customs, imports, duty, section-301, section-232, landed-cost, ecommerce, trade-compliance]
+last_updated: "2026-10-24"
 ---
 
 # Tariff Monitor MCP

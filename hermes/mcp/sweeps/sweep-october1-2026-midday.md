@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 1, 2026 (Midday Sweep)"
 description: "Midday MCP ecosystem sweep: Zyte MCP, Builders in Fintech MCP and AgentGrid MCP catalogued."
-last_updated: 2026-10-01
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-midday"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]
 ---

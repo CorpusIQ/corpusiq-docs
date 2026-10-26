@@ -7,6 +7,7 @@ added: 2026-08-15
 source: mcpservers.org
 relevance: ★★★
 tags: [seo, index-monitoring, google-index, indexnow, search-visibility, sitemaps, technical-seo, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Seomely MCP

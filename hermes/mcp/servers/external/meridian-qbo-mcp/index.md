@@ -7,6 +7,7 @@ added: 2026-09-01
 source: "mcpservers.org homepage (Sep 1, 2026 night sweep)"
 relevance: ★★★
 tags: [mcp-server, quickbooks, qbo, accounting, bookkeeping, finance, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # QuickBooks Connector by Meridian MCP

@@ -3,7 +3,7 @@ title: "Warp Common Skills - Spec-Driven Development Workflow"
 description: "Install warpdotdev/common-skills (411.2K combined installs) - 25 skills from the Warp terminal team: spec-driven implementation, PR review, CI diagnosis, merge conflict resolution, and spec validation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/warpdotdev-common-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

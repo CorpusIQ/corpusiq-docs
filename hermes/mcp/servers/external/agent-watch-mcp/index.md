@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [mcp-monitoring, uptime, latency-tracking, schema-drift, endpoint-health, observability, ai-operations, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Agent Watch MCP

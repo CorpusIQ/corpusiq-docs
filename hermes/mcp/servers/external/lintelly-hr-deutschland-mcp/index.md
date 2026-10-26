@@ -7,6 +7,7 @@ added: 2026-10-24
 source: "mcpservers.org /all page 3 (October 24, 2026 midday supplement sweep) + live JSON-RPC probes and six real tool calls"
 relevance: ★★★
 tags: [hr, employment-law, germany, payroll-costs, notice-periods, mini-job, compliance, leave, keyless, streamable-http]
+last_updated: "2026-10-24"
 ---
 
 # Lintelly HR Deutschland MCP

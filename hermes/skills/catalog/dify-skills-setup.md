@@ -3,7 +3,7 @@ title: "Dify Skills - Official Dev Workflow Suite Setup"
 description: "Setup guide for langgenius/dify - 22.6K combined installs. Official Dify agent skills for frontend code review, testing, and refactoring."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dify-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "dify", "engineering workflows", "code review"]
 ---
 

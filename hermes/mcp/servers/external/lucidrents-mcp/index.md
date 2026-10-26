@@ -7,6 +7,7 @@ added: 2026-08-17
 source: "mcp.so GitHub issue #3612"
 relevance: ★★★
 tags: [real-estate, property-data, landlord, rental-intelligence, public-records, remote-mcp, no-auth]
+last_updated: "2026-10-19"
 ---
 
 # LucidRents Building Intelligence MCP

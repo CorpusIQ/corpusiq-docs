@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + harborrank.com/features/mcp"
 relevance: ★★★
 tags: [seo, keyword-research, serp, search-console, backlinks, rank-tracking, competitor-analysis, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # HarborRank MCP

@@ -3,7 +3,7 @@ title: "OXC Project Skills - Linter & Formatter Migration Setup"
 description: "oxc-project/oxc - 4 skills, 9.9K installs: ESLint-to-Oxlint and formatter migration playbooks from the OXC team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oxc-project-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-16"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "linting", "tooling", "oxc"]
 ---
 

@@ -3,7 +3,7 @@ title: "Claude Code Extensions - Agents, Skills & Hooks Setup"
 description: "Setup guide for nodnarbnitram/claude-code-extensions - 9.6K combined installs. Modular plugin suite: 60+ agents, 18 skills, 8 hooks, 11 commands."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nodnarbnitram-claude-code-extensions-setup/"
 robots: "index,follow"
-last_updated: "2026-10-11"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "claude code", "agent plugins"]
 ---
 

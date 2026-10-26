@@ -7,6 +7,7 @@ added: 2026-10-25
 source: "mcservers.org /all listing (night sweep, October 25 2026) + live 401 probe, RFC 9728 discovery and authorization-server metadata on the endpoint + official registry"
 relevance: ★★
 tags: [hotels, valuation, real-estate, finance, noi, cap-rate, usali, underwriting, oauth, verifiable-receipt]
+last_updated: "2026-10-25"
 ---
 
 # HotelVALORA MCP

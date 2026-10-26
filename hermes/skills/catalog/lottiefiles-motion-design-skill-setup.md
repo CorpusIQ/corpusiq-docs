@@ -3,7 +3,7 @@ title: "Motion Design Skill - LottieFiles Animation Setup"
 description: "lottiefiles/motion-design-skill - 8.1K installs: UI animation, micro-interactions, and motion identity guidance from LottieFiles."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lottiefiles-motion-design-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "motion design", "animation", "lottie"]
 ---
 

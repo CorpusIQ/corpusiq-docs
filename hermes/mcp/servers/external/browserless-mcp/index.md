@@ -8,7 +8,7 @@ github: https://github.com/browserless/browserless-mcp
 date_added: 2026-07-28
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/browserless-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

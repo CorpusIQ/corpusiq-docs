@@ -3,7 +3,7 @@ title: "June 29, 2026 - Coding Posture"
 description: "New Hermes skills discovered June 29, 2026: task-aware coding modes, anti-AI-slop humanizer, session verification, background delegation, self-fine-tuning"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june29-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

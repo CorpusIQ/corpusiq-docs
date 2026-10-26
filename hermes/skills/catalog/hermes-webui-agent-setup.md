@@ -3,7 +3,7 @@ title: "Hermes WebUI Agent - Browser-Based Hermes Agent"
 description: "240+ installs. Deploy, configure, and use Hermes WebUI - a web interface for Hermes Agent with persistent memory, scheduled jobs, and multi-platform"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-webui-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

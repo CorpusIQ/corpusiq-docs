@@ -7,6 +7,7 @@ added: 2026-08-23
 source: "mcpservers.org /all + vendor connector page"
 relevance: ★★★
 tags: [digital-product-passport, eu-compliance, espr, textiles, batteries, sustainability, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # PassportCraft MCP

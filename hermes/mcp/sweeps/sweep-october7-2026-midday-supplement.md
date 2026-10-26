@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 7, 2026 (Midday Supplement)"
 description: "Midday supplement sweep cataloguing Prometiam Risk MCP, European company-registry data for KYB and due diligence."
-last_updated: 2026-10-07
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october7-2026-midday-supplement/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -3,7 +3,7 @@ title: "New Skills - October 5, 2026 (Evening)"
 description: "Skills.sh sweep (Oct 5 evening): 724 skills, 2 NEW; 1 new publisher guide - Goldsky Agent Skills (19 official blockchain pipeline skills, ~19.8K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct5-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-05"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

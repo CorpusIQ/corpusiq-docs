@@ -3,7 +3,7 @@ title: Hermes Agent Self-Evolution - Auto-Learning Skill Framework
 description: reason-machines community skill for Hermes agent self-evolution. Agents learn from past tasks, auto-create reusable skills, and improve over time. 280+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-self-evolution-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

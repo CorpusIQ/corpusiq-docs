@@ -7,6 +7,7 @@ added: 2026-10-22
 source: "mcp.so /feed page 1 (card posted 2026-10-22T05:10:17Z)"
 relevance: ★★★
 tags: [hiring, recruiting, latam, pay-transparency, job-post-compliance, resume-screening, prompt-injection, remote-mcp, mcp-server]
+last_updated: "2026-10-22"
 ---
 
 # Ruzora MCP

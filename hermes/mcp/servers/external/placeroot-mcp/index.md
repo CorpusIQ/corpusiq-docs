@@ -7,6 +7,7 @@ added: 2026-08-18
 source: "mcp.so GitHub issue #3631"
 relevance: ★★
 tags: [geospatial, overture-maps, geocoding, routing, isochrones, real-estate, logistics, keyless, open-source]
+last_updated: "2026-10-19"
 ---
 
 # PlaceRoot MCP

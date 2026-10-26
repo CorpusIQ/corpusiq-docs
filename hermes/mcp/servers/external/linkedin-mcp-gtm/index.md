@@ -8,7 +8,7 @@ github: https://github.com/gtm-api/linkedin-mcp
 date_added: 2026-07-28
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkedin-mcp-gtm/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

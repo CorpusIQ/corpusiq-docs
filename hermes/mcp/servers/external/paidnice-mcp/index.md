@@ -7,6 +7,7 @@ added: 2026-10-15
 source: "mcpservers.org /all (October 15, 2026 midday sweep)"
 relevance: ★★★
 tags: [accounts-receivable, xero, quickbooks, invoicing, collections, finance, oauth]
+last_updated: "2026-10-19"
 ---
 
 # Paidnice MCP

@@ -7,6 +7,7 @@ added: 2026-10-20
 source: "mcpservers.org /all page 1 via the r.jina.ai reader proxy (azquo-mcp)"
 relevance: ★★★
 tags: [business-intelligence, finance, agent-memory, multi-agent, audit-trail, data-lineage, hierarchical-data, remote-mcp, oauth]
+last_updated: "2026-10-20"
 ---
 
 # Azquo MCP

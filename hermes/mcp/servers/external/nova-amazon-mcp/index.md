@@ -7,6 +7,7 @@ added: 2026-09-10
 source: mcp.so feed
 relevance: ★★★
 tags: [amazon-seller, seller-central, vendor-central, amazon-ads, profitability, ppc, inventory, e-commerce, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Nova Amazon MCP

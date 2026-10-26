@@ -6,7 +6,7 @@ installs: 182
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

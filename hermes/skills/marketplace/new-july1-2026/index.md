@@ -3,7 +3,7 @@ title: "July 1, 2026 - Official Hermes Gap Sweep"
 description: "New Hermes skills discovered July 1, 2026: 11 official Hermes Agent skills, 23 Hermes ecosystem skills, 15 ClawSec security skills. First discovery of these"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july1-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

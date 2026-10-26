@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcp.so server page (stackcut.io)"
 relevance: ★★★
 tags: [finops, saas-cost, cost-optimization, subscription-audit, vendor-alternatives, savings, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Stackcut MCP

@@ -13,8 +13,7 @@ transport: stdio (local)
 auth: None (local-first, credentials never leave your machine)
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/data-studio-agent-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-24"
 ---
 
 # Data Studio Agent MCP Server

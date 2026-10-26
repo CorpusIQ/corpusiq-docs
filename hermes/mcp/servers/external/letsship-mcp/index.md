@@ -7,6 +7,7 @@ added: 2026-10-12
 source: "mcp.so /feed (Oct 12, 2026 midday supplement sweep)"
 relevance: ★★
 tags: [ai-coding, coding-agents, software-delivery, pull-requests, code-review, developer-ops, linear, jira, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # SHIP MCP

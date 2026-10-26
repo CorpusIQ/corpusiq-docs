@@ -3,7 +3,7 @@ title: "Wind Skills - 82-Skill Financial Terminal Cluster"
 description: "wind-alice/alicemarket - 71 skills indexed, 174K+ combined installs (Sep 15, 2026 snapshot). The official agent skill set for Wind, China's dominant financial data terminal - MCP data access plus a large library of investment research workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wind-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "finance"]
 ---
 

@@ -7,6 +7,7 @@ added: 2026-09-10
 source: mcpservers.org /all via r.jina.ai
 relevance: ★★★
 tags: [content, trends, youtube, tiktok, creator-research, social-media, remote-mcp, marketing]
+last_updated: "2026-10-24"
 ---
 
 # YoTrends MCP

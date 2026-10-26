@@ -3,7 +3,7 @@ title: "Mobile App UI Design Skill - Mobile Interface Setup"
 description: "ceorkm/mobile-app-ui-design - 6.7K installs: mobile interface design principles modeled on Airbnb, Duolingo, Spotify, and Revolut patterns."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mobile-app-ui-design-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "mobile ui", "design"]
 ---
 

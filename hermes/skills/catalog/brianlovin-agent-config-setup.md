@@ -3,7 +3,7 @@ title: "Brian Lovin Agent Config - Design Engineering Suite Setup"
 description: "brianlovin/agent-config - 19 skills, 33.6K installs: code simplification, UI slop removal (deslop), dependency cleanup (knip), and a full design-engineering workflow suite. 3/3 audit passes on the top skill."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/brianlovin-agent-config-setup/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design engineering", "code quality", "deslop"]
 ---
 

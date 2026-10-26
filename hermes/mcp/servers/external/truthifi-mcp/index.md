@@ -7,6 +7,7 @@ added: 2026-10-05
 source: "mcpservers.org /all"
 relevance: ★★★
 tags: [finance, wealth, household, portfolio, advisors, oauth, registry, read-only, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Truthifi MCP

@@ -7,6 +7,7 @@ added: 2026-08-23
 source: "mcpservers.org /all + GitHub README"
 relevance: ★★
 tags: [ozon, marketplace-ops, ecommerce, multi-seller, advertising, order-management, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Ozon Seller MCP

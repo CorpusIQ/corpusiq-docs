@@ -7,6 +7,7 @@ added: 2026-08-31
 source: "mcp.so homepage recentServers (Aug 31, 2026 evening sweep)"
 relevance: ★★★
 tags: [mcp-server, automotive, vehicle-inventory, used-cars, market-prices, dealership, data, remote]
+last_updated: "2026-10-19"
 ---
 
 # CarChat Inventory MCP

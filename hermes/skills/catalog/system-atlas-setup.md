@@ -3,7 +3,7 @@ title: System Atlas - Explorable Architecture Map
 description: "inkboard/system-atlas - 1 skill, 94 installs, 164 GitHub stars: build an explorable, progressively-disclosed isometric atlas of a system's architecture from one data file, with an interactive page and generated SYSTEM.md."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/system-atlas-setup/"
 robots: "index,follow"
-last_updated: "2026-08-24"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "architecture documentation", "system documentation", "system map"]
 ---
 

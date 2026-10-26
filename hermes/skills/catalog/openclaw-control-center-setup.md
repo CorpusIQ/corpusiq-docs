@@ -3,7 +3,7 @@ title: OpenClaw Control Center - Agent Monitoring Dashboard
 description: Local-first, security-first control center for OpenClaw agents. Visibility dashboard with readonly defaults, token attribution, and collaboration tracing. 4.3K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-control-center-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

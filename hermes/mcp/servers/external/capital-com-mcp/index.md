@@ -10,8 +10,7 @@ author: capital-com-sv
 github: https://github.com/capital-com-sv
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/capital-com-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # Capital.com MCP

@@ -3,7 +3,7 @@ title: "Bagelhole DevOps Security Skills - Setup"
 description: "Agent-ready DevOps, security, infrastructure, and compliance knowledge base with 80+ skills - Kubernetes, Terraform, clouds, hardening."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bagelhole-devops-security-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "devops", "security"]
 ---
 

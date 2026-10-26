@@ -3,7 +3,7 @@ title: "Cargo Skills - GTM Engineering Suite for Agents Setup"
 description: "Setup guide for getcargohq/cargo-skills - 142.8K combined installs. 19 GTM engineering skills: lead lists, enrichment, email, CRM sync, orchestration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cargo-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "gtm engineering", "sales automation", "lead generation"]
 ---
 

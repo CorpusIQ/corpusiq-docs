@@ -3,7 +3,7 @@ title: "Mcp Developer Queries - CorpusIQ Docs"
 description: "MCP developer query prompts for building and debugging MCP servers. Test queries, schema discovery patterns, and performance diagnostics for developers"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/mcp-developer-queries/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes prompt", "prompt engineering", "ai prompt"]
 
 ---

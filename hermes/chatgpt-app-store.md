@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ in the ChatGPT App Store"
 description: "CorpusIQ is an official public plugin in the ChatGPT Plugins store."
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ in the ChatGPT App Store

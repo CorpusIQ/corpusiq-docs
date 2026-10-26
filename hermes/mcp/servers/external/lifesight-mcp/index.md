@@ -7,6 +7,7 @@ added: 2026-09-03
 source: mcpservers.org
 relevance: ★★★
 tags: [marketing-measurement, mmm, attribution, budget-optimization, ad-performance, analytics, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Lifesight MCP

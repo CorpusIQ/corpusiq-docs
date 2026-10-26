@@ -7,6 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [accounting, german, bookkeeping, invoicing, receipts, openapi, mit, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Buchhaltungsbutler MCP - German Accounting for AI Agents

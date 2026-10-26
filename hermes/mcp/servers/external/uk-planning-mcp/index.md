@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "chatmcp/mcpso issue #4833 (Oct 6, 2026 evening sweep)"
 relevance: ★★
 tags: [uk, planning, property, proptech, open-data, remote-mcp, keyless, development]
+last_updated: "2026-10-24"
 ---
 
 # UK Planning MCP

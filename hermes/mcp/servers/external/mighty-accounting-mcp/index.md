@@ -7,6 +7,7 @@ added: 2026-10-24
 source: "mcpservers.org /all p1-20 fresh cohort (late sweep, October 24 2026) + live endpoint probe and vendor documentation"
 relevance: ★★★
 tags: [accounting, uk, limited-company, vat, invoicing, bank-reconciliation, receipts, mileage, corporation-tax, year-end]
+last_updated: "2026-10-24"
 ---
 
 # Mighty Accounting MCP

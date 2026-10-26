@@ -7,6 +7,7 @@ added: 2026-08-23
 source: "mcpservers.org /all + GitHub README"
 relevance: ★★★
 tags: [carbon-accounting, esg, csrd, emission-factors, ghg-protocol, pca-f, sustainability, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # GreenCalculus MCP

@@ -3,7 +3,7 @@ title: "Avoid AI Writing - AI-Pattern Audit & Rewrite Setup"
 description: "conorbronsdon/avoid-ai-writing - 1 skill, 1.6K installs, 3.0K GitHub stars: audit and rewrite content to remove AI writing patterns, with rewrite, flag, and review modes. Installed in the CorpusIQ production profile."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/avoid-ai-writing-setup/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "writing", "content quality", "ai-detection"]
 ---
 

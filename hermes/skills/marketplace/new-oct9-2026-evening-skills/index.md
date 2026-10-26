@@ -3,7 +3,7 @@ title: "New Skills - October 9, 2026 (Evening)"
 description: "Skills.sh sweep (Oct 9 evening): 441 skills checked; 6 new publisher guides incl. Baoyu Skills (594.5K); extended-query probe queues 19 more publishers."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct9-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-09"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

@@ -8,7 +8,7 @@ category: prisma
 setup: npx skills add prisma/skills@prisma-database-setup
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/prisma/prisma-database-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Prisma Database Setup - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

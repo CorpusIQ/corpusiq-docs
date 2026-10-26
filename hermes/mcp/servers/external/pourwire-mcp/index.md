@@ -7,6 +7,7 @@ added: 2026-10-23
 source: "chatmcp/mcpso submission #5993 (2026-10-23T17:06Z), plus the official MCP registry entry com.pourwire/pourwire 1.0.0"
 relevance: ★★★
 tags: [hospitality, restaurant-openings, liquor-license, building-permits, prospecting, lead-generation, public-records, local-data, remote-mcp, keyless]
+last_updated: "2026-10-24"
 ---
 
 # PourWire MCP

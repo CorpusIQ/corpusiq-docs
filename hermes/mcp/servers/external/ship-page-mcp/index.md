@@ -7,6 +7,7 @@ added: 2026-08-22
 source: mcp.so
 relevance: ★★
 tags: [html, hosting, deployment, preview, ci-reports, static-sites, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ship.page MCP

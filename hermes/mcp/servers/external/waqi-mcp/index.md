@@ -7,6 +7,7 @@ added: 2026-08-18
 source: mcp.so homepage
 relevance: ★★
 tags: [privacy, security, pii, redaction, dlp, gdpr, compliance, audit, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Waqi MCP

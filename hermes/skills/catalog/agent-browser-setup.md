@@ -3,7 +3,7 @@ title: Agent Browser - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the agent-browser CLI from Vercel Labs. Fast native Rust browser automation for AI agents - 38K+ GitHub stars.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-browser-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

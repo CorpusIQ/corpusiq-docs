@@ -7,6 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3987"
 relevance: ★★★
 tags: [crypto, token-risk, due-diligence, keyless, remote-mcp, finance]
+last_updated: "2026-10-19"
 ---
 
 # VetAgent MCP - Pre-Trade Token Risk Intelligence for Agents

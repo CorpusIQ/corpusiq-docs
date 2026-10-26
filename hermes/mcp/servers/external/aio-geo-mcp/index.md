@@ -7,6 +7,7 @@ added: 2026-08-15
 source: mcpservers.org
 relevance: ★★★
 tags: [geo, aeo, ai-search, ai-visibility, seo-audit, llms-txt, agent-skills, self-hosted]
+last_updated: "2026-10-24"
 ---
 
 # AIO.GEO MCP

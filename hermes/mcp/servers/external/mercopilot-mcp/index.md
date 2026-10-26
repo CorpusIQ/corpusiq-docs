@@ -7,6 +7,7 @@ added: 2026-08-16
 source: mcpservers.org
 relevance: ★★★
 tags: [shopify, google-ads, ecommerce, advertising, oauth, approvals]
+last_updated: "2026-10-19"
 ---
 
 # Mercopilot MCP

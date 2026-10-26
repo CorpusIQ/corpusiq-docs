@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + odichat.app blog"
 relevance: ★★★
 tags: [whatsapp, instagram, facebook, business-inbox, sales-pipeline, customer-support, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Odichat MCP

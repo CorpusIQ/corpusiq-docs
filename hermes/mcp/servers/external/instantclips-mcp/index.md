@@ -7,6 +7,7 @@ added: 2026-09-08
 source: mcp.so
 relevance: ★★★
 tags: [ecommerce, video-ads, tiktok, instagram-reels, creative-production, social-marketing, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # InstantClips MCP

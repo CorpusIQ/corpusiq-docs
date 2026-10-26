@@ -3,7 +3,7 @@ title: "Nx AI Agents Config - Monorepo Agent Skills Setup"
 description: "nrwl/nx-ai-agents-config - 10 skills, 44.7K installs: official Nx workspace exploration, task running, and CI monitoring skills for agent coding assistants."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nx-ai-agents-config-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "monorepo", "nx", "devtooling"]
 ---
 

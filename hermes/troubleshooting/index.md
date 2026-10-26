@@ -3,7 +3,7 @@ title: "Troubleshooting Guide - CorpusIQ Docs"
 description: "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

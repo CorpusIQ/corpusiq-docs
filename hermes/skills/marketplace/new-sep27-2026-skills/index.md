@@ -3,7 +3,7 @@ title: "Sep 27, 2026 - 11 New Skill Publisher Clusters"
 description: "Skills.sh sweep: 11 new publisher clusters (11 setup guides) + 7 roster reconciles. Book-to-Skill, Samber DevRel, Layer, AE-CLI, AiCoin, A Smart Bear."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep27-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-09-27"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ---
 

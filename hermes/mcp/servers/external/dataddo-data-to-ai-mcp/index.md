@@ -7,6 +7,7 @@ added: 2026-10-05
 source: mcp.so feed (Oct 5, 2026 midday sweep)
 relevance: ★★★
 tags: [business-data, semantic-layer, analytics, data-integration, freshness, masking, remote-mcp, oauth]
+last_updated: "2026-10-19"
 ---
 
 # Dataddo Data to AI MCP

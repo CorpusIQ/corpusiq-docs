@@ -7,6 +7,7 @@ added: 2026-09-28
 source: "mcpservers.org server page (scribase.com)"
 relevance: ★★
 tags: [postgres, database, schema, dev-tools, rls, coding-agents, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Scribase MCP

@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (proposal-biz/mcp)"
 relevance: ★★
 tags: [proposals, sow, nda, sales-documents, agencies, consulting, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Proposal.biz MCP

@@ -7,6 +7,7 @@ added: 2026-09-05
 source: mcp.so
 relevance: ★★★
 tags: [crm, second-brain, prospecting, relationship-management, gmail, hubspot, linkedin, sales-ops, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # YouSpot MCP

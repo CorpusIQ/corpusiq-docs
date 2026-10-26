@@ -7,6 +7,7 @@ added: 2026-10-21
 source: "mcpservers.org /all page 1 (ajhous44/unipost-agent, newest first)"
 relevance: ★★
 tags: [social-publishing, linkedin, x, tiktok, scheduling, approval-gate, x-credits, marketing-ops, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # UniPost MCP

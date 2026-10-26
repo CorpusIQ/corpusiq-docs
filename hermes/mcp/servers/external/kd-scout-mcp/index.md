@@ -7,6 +7,7 @@ added: 2026-08-23
 source: "mcpservers.org /all + GitHub README"
 relevance: ★★
 tags: [keyword-research, seo, content-briefs, difficulty-scoring, content-planning, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # KD Scout MCP

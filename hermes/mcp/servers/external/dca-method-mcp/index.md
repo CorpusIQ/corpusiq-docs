@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [investing, dca, backtesting, crypto, stocks, portfolio, personal-finance, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # DCA Method MCP

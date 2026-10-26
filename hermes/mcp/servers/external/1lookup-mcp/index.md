@@ -7,6 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3747"
 relevance: ★★
 tags: [mcp-server, verification, phone-validation, email-verification, fraud-detection, dnc]
+last_updated: "2026-10-19"
 ---
 
 # 1Lookup MCP

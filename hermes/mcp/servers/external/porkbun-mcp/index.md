@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (porkbun.com)"
 relevance: ★★
 tags: [domains, dns, registrar, hosting, dnssec, remote-mcp, official]
+last_updated: "2026-10-19"
 ---
 
 # Porkbun MCP

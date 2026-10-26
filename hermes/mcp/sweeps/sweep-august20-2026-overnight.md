@@ -3,6 +3,7 @@ title: "MCP Discovery Sweep - August 20, 2026 (Overnight)"
 date: 2026-08-20
 tags: [mcp-sweep, discovery, catalog]
 description: "chatmcp/mcpso GitHub issues filed Aug 19 16:03 through Aug 20 02:00 UTC plus mcp.so and mcpservers.org homepages; 5 catalogued with guides, 6 skipped"
+last_updated: "2026-10-19"
 ---
 
 # MCP Discovery Sweep - August 20, 2026 (Overnight)

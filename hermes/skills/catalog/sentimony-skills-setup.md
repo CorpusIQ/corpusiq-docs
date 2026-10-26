@@ -3,7 +3,7 @@ title: "Sentimony Skills - Dev Workflow & Review Gates Setup"
 description: "Setup guide for sentimony/skills - 28.3K combined installs. 25 dev-workflow skills: TypeScript, testing, debugging, plan crafting, and review gates."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentimony-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "dev workflow", "agent discipline", "testing"]
 ---
 

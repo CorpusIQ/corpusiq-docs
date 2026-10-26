@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [personal-finance, budgeting, investments, evidence-trail, read-only, oauth, finance-workspace, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Candor Finance MCP

@@ -7,6 +7,7 @@ added: 2026-09-07
 source: mcp.so feed
 relevance: ★★★
 tags: [google-ads, ppc, marketing, remote-mcp, oauth, self-hosted, spend-guardrails]
+last_updated: "2026-10-24"
 ---
 
 # LoomaScale Google Ads MCP - Google Ads Management with Guardrails

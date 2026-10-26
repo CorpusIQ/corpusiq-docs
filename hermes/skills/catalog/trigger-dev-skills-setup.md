@@ -3,7 +3,7 @@ title: "Trigger.dev Skills - Background Jobs & Realtime Setup"
 description: "Setup guide for triggerdotdev/skills - 14.6K combined installs. Official Trigger.dev skills for background jobs, tasks, realtime, and config."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/trigger-dev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "background jobs", "durable execution", "realtime"]
 ---
 

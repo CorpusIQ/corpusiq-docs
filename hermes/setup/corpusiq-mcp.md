@@ -3,7 +3,7 @@ title: "How to Add CorpusIQ MCP to Hermes Agent"
 description: "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

@@ -4,6 +4,7 @@ description: "Afternoon MCP catalog sweep: chatmcp/mcpso issues #3848-#3857, cat
 date: 2026-08-31T11:00:00-07:00
 sources: [chatmcp/mcpso, mcp.so]
 status: complete
+last_updated: "2026-10-19"
 ---
 
 # Sweep Report - August 31, 2026 (Afternoon Cron Sweep)

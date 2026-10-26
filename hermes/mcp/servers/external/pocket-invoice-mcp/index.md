@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [invoicing, accounting, finance, invoices, smb, pdf, oauth, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Pocket Invoice MCP

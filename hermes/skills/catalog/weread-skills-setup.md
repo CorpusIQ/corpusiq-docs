@@ -3,7 +3,7 @@ title: "WeRead Skills - Tencent WeChat Reading Agent Skill Setup"
 description: "tencent/wechatreading - official Tencent skill for WeChat Reading (WeRead): book search, bookshelf management, notes and highlights, reading stats, and reviews via a user-bound API key. 41.7K skills.sh installs. Setup guide for Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/weread-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-11"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "reading", "tencent", "productivity", "china"]
 ---
 

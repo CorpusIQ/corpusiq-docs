@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs Google Ads: What Each One Does"
 description: "Google Ads buys your traffic. CorpusIQ is the layer that gives AI assistants live access to Google Ads data."
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ vs Google Ads: What Each One Does

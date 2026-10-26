@@ -7,6 +7,7 @@ added: 2026-10-19
 source: "mcpservers.org /all page 1 (herzog-gmbh/acmp-mcp)"
 relevance: ★★
 tags: [it-asset-management, endpoint-management, helpdesk, patch-management, cve, approvals, self-hosted, on-prem, dach]
+last_updated: "2026-10-24"
 ---
 
 # ACMP MCP

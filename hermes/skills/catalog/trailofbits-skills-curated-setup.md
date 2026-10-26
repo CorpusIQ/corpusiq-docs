@@ -3,7 +3,7 @@ title: Trail of Bits Skills Curated - Agent Security Suite Setup
 description: "trailofbits/skills-curated - 31 skills, 2.4K installs: security research firm Trail of Bits curates Ghidra reverse engineering, ffuf web fuzzing, threat modeling, security review tooling, and OpenAI-branded agent skills (Playwright, PDF, deploy, CI)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-skills-curated-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "reverse engineering", "fuzzing", "threat modeling"]
 ---
 

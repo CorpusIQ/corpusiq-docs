@@ -7,6 +7,7 @@ added: 2026-09-28
 source: "mcpservers.org server page (parrotnotes.app)"
 relevance: ★★
 tags: [meeting-notes, transcription, productivity, notes-search, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ParrotNotes MCP

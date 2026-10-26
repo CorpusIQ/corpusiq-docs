@@ -7,6 +7,7 @@ added: 2026-09-30
 source: "mcp.so feed (Povver - Strength Training)"
 relevance: ★★
 tags: [fitness, personal-data, read-write, oauth, api-key, remote-mcp, productivity]
+last_updated: "2026-10-19"
 ---
 
 # Povver MCP

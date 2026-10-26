@@ -3,7 +3,7 @@ title: "Shopify Development - Full Setup Guide for Hermes Agents"
 description: "sickn33/agentic-awesome-skills - shopify-development, 1,812 installs from the 45,000-star AAS catalog. Platform-agnostic playbook for building Shopify apps, checkout/admin/POS UI extensions, and Liquid themes - GraphQL Admin API, Shopify CLI, Polaris UI, Shopify Functions, validated GraphQL templates, and Python scaffolding scripts."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify-development-setup/"
 robots: "index,follow"
-last_updated: "2026-09-08"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "shopify", "ecommerce", "development"]
 ---
 

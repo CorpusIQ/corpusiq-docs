@@ -11,8 +11,7 @@ discovered: 2026-07-24
 pricing: Free · Open Source (MIT)
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/plur-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # PLUR MCP - Persistent Memory for AI Agents

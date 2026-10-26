@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [tenable, vulnerability-management, mssp, security-ops, cve, enterprise-security, python, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Tenable MSSP MCP

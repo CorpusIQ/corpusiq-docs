@@ -7,6 +7,7 @@ added: 2026-08-22
 source: "mcp.so GitHub issue #3681"
 relevance: ★★
 tags: [estate-planning, legal, wills, trusts, power-of-attorney, compliance, end-of-life]
+last_updated: "2026-10-19"
 ---
 
 # FinalPeace MCP

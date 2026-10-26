@@ -3,7 +3,7 @@ title: "Samber DevRel Skills - Open Source Growth Suite Setup"
 description: "Setup guide for samber/developer-relations-skills - 50 agent skills for open source strategy, community programs, and developer GTM from Samber."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samber-devrel-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "devrel", "open source", "developer marketing"]
 ---
 

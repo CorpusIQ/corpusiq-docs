@@ -7,6 +7,7 @@ added: 2026-08-22
 source: "mcp.so GitHub issue #3684"
 relevance: ★★★
 tags: [stocks, fundamentals, brazil, b3, screener, dividends, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Dados B3 MCP

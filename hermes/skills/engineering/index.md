@@ -3,7 +3,7 @@ title: "Engineering Skills - CorpusIQ Docs"
 description: Platform construction skills for Hermes agents  --  MCP server architecture, connector audits, API development, frontend patterns, scheduled jobs, Honcho memory, and metric specs. Born from operating a 50k+ LOC multi-connector server in production.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcp.so feed (Oct 6, 2026 evening sweep)"
 relevance: ★★
 tags: [local-seo, google-business-profile, reviews, marketing, analytics, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Localith MCP

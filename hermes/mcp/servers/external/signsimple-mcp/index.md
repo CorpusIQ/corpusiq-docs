@@ -7,6 +7,7 @@ added: 2026-08-15
 source: mcpservers.org
 relevance: ★★
 tags: [esignature, document-workflow, contracts, legal-templates, esign-act, pdf-signing, document-automation, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # SignSimple MCP

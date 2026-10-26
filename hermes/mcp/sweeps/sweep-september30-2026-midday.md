@@ -3,6 +3,7 @@ title: "MCP Server Discovery - September 30, 2026 (Midday)"
 description: "Midday sweep of the mcp.so feed and mcpservers.org: four new servers catalogued with integration guides, plus core listing verification."
 category: mcp-directory
 tags: [mcp, discovery, sweep, directories]
+last_updated: "2026-10-19"
 ---
 
 # MCP Server Discovery - September 30, 2026 (Midday)

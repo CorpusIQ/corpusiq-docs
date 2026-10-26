@@ -7,6 +7,7 @@ added: 2026-10-25
 source: "mcp.so feed card 2026-10-26T01:38:44Z + live probes on mcp.leadpages.com (401 on initialize and tools/list) + RFC 9728 protected resource and authorization server metadata + mcp.so listing categories"
 relevance: ★★★
 tags: [leadpages, landing-pages, marketing, oauth, websites, blogs, ads, publishing, conversion]
+last_updated: "2026-10-25"
 ---
 
 # Leadpages MCP

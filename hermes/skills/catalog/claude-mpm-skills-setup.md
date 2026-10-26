@@ -3,7 +3,7 @@ title: "Claude MPM Skills - 96-Skill Dev Toolchain Collection Setup"
 description: "Setup guide for bobmatnyc/claude-mpm-skills - 96 curated dev skills with progressive loading: Drizzle, Playwright, tRPC, LangChain. 26K+ installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-mpm-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "software development", "toolchains", "claude code"]
 ---
 

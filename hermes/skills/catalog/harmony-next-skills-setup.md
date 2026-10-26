@@ -3,7 +3,7 @@ title: "Harmony Next Skills - HarmonyOS NEXT Dev Library Setup"
 description: "Setup guide for linhay/harmony-next.skills - offline HarmonyOS NEXT dev library for AI coding assistants: ArkTS/ArkUI, API 12-26, DevEco. 320 installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/harmony-next-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "harmonyos", "mobile development", "arkts"]
 ---
 

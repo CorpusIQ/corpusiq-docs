@@ -3,7 +3,7 @@ title: Agenthood - 14-Agent AI Engineering Team Setup Guide
 description: Install and configure Agenthood's 14 specialized AI agents for Hermes - code review, security audit, architecture design, testing, and more. Drop-in Markdown skills for any agent runtime.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agenthood-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

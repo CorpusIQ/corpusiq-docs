@@ -7,6 +7,7 @@ added: 2026-10-24
 source: "mcpservers.org /all p1-20 fresh cohort (late sweep, October 24 2026) + live JSON-RPC calls on the endpoint"
 relevance: ★★
 tags: [eu-ai-act, compliance, regulation, obligations, deadlines, legal-text, keyless, governance]
+last_updated: "2026-10-24"
 ---
 
 # EU AI Act Explorer MCP

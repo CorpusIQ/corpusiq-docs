@@ -3,7 +3,7 @@ title: "Intelligent Growth: Product Marketing MCP Server ★ New (July"
 description: "Hosted MCP server for product marketing - positioning, messaging, competitive analysis, and launch planning from AI agents. Built for marketing operators"
 category: mcp
 tags: [mcp-server, marketing, competitive-analysis, product-marketing, positioning, go-to-market]
-last_updated: 2026-09-17
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/intelligent-growth-mcp/"
 robots: "index,follow"
 

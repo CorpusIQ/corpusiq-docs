@@ -3,7 +3,7 @@ title: "Hermes Firebase Skills - CorpusIQ Docs"
 description: "Hermes Agent skills for Firebase. 5 skills with install commands, triggers, and setup steps for each."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

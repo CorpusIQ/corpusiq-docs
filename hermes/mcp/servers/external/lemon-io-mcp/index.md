@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcp.so
 relevance: ★★
 tags: [hiring, job-descriptions, interviews, developer-talent, staffing, recruiting, hr, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Lemon.io MCP

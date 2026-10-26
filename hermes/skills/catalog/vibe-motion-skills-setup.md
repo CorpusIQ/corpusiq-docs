@@ -3,7 +3,7 @@ title: "Vibe Motion Skills - SVG & Motion Renders Setup"
 description: "Setup guide for vibe-motion/skills - 8.3K combined installs. 16 motion and animation skills: SVG, Remotion renders, brand launch videos."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vibe-motion-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "motion", "animation", "remotion"]
 ---
 

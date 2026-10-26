@@ -3,7 +3,7 @@ title: Reflexion  --  Self-Improving Agent Patterns
 description: Building agents that evaluate their own output, detect errors, and adjust strategy  --  production Reflexion patterns with Hermes
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/reflexion/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 
 ---

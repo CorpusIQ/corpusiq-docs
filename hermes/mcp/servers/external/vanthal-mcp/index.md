@@ -7,6 +7,7 @@ added: 2026-10-24
 source: "mcpservers.org /all p1-20 fresh cohort (late sweep, October 24 2026) + live endpoint probe, official registry entry and vendor documentation"
 relevance: ★★★
 tags: [latam, small-business, point-of-sale, cash-register, stock, appointments, customer-accounts, spanish, oauth, argentina]
+last_updated: "2026-10-24"
 ---
 
 # Vanthal MCP

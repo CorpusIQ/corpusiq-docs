@@ -3,7 +3,7 @@ title: "WeCom Unified Skill - WeChat Work Routing Suite Setup"
 description: "wecomteam/wecom-unified - 1 skill, 4.4K installs: the official intent-routing layer that maps natural language to correct WeCom CLI business domains before any command runs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wecom-unified-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-18"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "wecom", "wechat work", "routing", "enterprise"]
 ---
 

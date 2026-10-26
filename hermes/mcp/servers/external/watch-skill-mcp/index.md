@@ -7,6 +7,7 @@ added: 2026-10-11
 source: "Targeted addition from the October 11, 2026 ecosystem watch (oxbshw/watch-skill); installed and wired the same day"
 relevance: ★★★
 tags: [video, evidence, verification, mcp, local-first, ocr, transcription, agents]
+last_updated: "2026-10-19"
 ---
 
 # Watch Skill

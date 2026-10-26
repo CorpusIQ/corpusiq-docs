@@ -7,6 +7,7 @@ added: 2026-09-28
 source: "mcp.so server page (affiliatespy.io)"
 relevance: ★★★
 tags: [affiliate-marketing, influencer-marketing, competitor-research, creator-outreach, sales, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # AffiliateSpy MCP

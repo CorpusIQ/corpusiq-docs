@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [procurement, rfq, suppliers, purchase-orders, operations, smb, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # AuraVMS MCP

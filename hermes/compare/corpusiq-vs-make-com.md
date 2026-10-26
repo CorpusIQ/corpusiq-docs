@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs Make.com: What Each One Does"
 description: "Make.com automates workflows visually. CorpusIQ is the layer that gives AI assistants live access to your business data."
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ vs Make.com: What Each One Does

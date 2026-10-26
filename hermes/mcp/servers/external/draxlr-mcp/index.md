@@ -7,6 +7,7 @@ added: 2026-09-11
 source: mcp.so feed
 relevance: ★★★
 tags: [sql, dashboards, business-intelligence, analytics, read-only, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Draxlr MCP

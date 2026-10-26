@@ -3,7 +3,7 @@ title: "Langfuse Agent Skills - LLM Observability Setup"
 description: "langfuse/skills - 6 skills, 13.1K installs: LLM tracing, prompt management, and observability workflows from the Langfuse team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langfuse-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "llm", "observability", "langfuse"]
 ---
 

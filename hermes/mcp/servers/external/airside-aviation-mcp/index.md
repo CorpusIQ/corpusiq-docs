@@ -7,6 +7,7 @@ added: 2026-09-10
 source: mcp.so feed
 relevance: ★★★
 tags: [aviation, airports, airlines, aircraft, entity-resolution, reference-data, provenance, easa, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Airside Labs Aviation Tools MCP

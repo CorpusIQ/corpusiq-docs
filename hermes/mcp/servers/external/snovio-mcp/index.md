@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcpservers.org /all (Oct 6, 2026 midday sweep)"
 relevance: ★★★
 tags: [lead-generation, email-verification, cold-email, linkedin, unibox, crm, outreach]
+last_updated: "2026-10-19"
 ---
 
 # Snov.io MCP

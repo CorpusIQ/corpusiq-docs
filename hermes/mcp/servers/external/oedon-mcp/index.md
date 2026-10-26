@@ -7,6 +7,7 @@ added: 2026-08-23
 source: "mcp.so GitHub issue #3706 + live endpoint probe"
 relevance: ★★★
 tags: [bitcoin, on-chain-data, crypto-market-data, x402, usdc, remote-mcp, trading-research]
+last_updated: "2026-10-19"
 ---
 
 # OEDON MCP

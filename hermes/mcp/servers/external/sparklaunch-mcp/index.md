@@ -7,6 +7,7 @@ added: 2026-09-02
 source: "mcpservers.org /all JSON-LD (Sep 2, 2026 morning sweep)"
 relevance: ★★
 tags: [mcp-server, founders, startups, incorporation, idea-validation, branding, campaigns]
+last_updated: "2026-10-19"
 ---
 
 # SparkLaunch MCP

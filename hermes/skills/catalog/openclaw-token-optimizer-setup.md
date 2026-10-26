@@ -3,7 +3,7 @@ title: "OpenClaw Token Optimizer Skills - Setup"
 description: "A single skill for finding where your OpenClaw or Hermes agent wastes tokens - read-only audits with a clear, safe improvement plan (398 installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-token-optimizer-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "token optimization", "agent efficiency"]
 ---
 

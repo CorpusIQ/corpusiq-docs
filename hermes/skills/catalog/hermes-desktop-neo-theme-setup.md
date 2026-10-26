@@ -9,7 +9,7 @@ language: TypeScript/CSS
 platforms: [macOS, Linux, Windows]
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

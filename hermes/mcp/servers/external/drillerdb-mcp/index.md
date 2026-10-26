@@ -7,6 +7,7 @@ added: 2026-08-27
 source: "mcp.so GitHub issue #3793"
 relevance: ★★★
 tags: [field-service, drilling, erp, project-management, invoicing, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # DrillerDB MCP

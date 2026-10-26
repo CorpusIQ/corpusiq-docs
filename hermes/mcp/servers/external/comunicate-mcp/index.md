@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [pr, press-release, publishing, editorial, marketing, content, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Comunicate MCP

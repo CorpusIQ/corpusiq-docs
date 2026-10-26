@@ -8,7 +8,7 @@ category: shopify
 setup: npx skills add shopify/shopify-ai-toolkit@shopify-dev
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/shopify-dev/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Shopify Dev - CorpusIQ Docs - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

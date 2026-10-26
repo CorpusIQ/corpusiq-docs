@@ -3,7 +3,7 @@ title: VueJS AI Skills - Vue Best Practices Suite Setup
 description: "vuejs-ai/skills - 11 skills, 129.2K installs: vue-best-practices (36.6K), vue-debug-guides (23.6K), Pinia and Router best practices, composables, testing, JSX, Options API, and VueUse guidance for Vue 3 agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vuejs-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "vue", "pinia", "vue-router", "frontend"]
 ---
 

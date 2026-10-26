@@ -9,7 +9,7 @@ stars: 0
 tags: [llm-gateway, model-routing, openai-compatible, ai-infrastructure, multi-model]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/routara-llm-gateway-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 description: "MCP server providing an **OpenAI-compatible gateway to 787+ chat, image, and video models**. OpenAI-compatible models. Single endpoint for multi-model acce."
 
 ---

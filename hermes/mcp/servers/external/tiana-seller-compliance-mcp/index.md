@@ -7,6 +7,7 @@ added: 2026-10-13
 source: "chatmcp/mcpso issue #5268 + official MCP registry (October 13, 2026 evening sweep)"
 relevance: ★★
 tags: [compliance, ecommerce, marketplace-sellers, amazon, walmart, tiktok-shop, uflpa, ofac, keyless, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Tiana & Co. MCP

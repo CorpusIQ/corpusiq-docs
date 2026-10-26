@@ -7,6 +7,7 @@ added: 2026-08-22
 source: mcpservers.org
 relevance: ★★
 tags: [shortform, tiktok, instagram, youtube, scheduling, publishing, approval-workflow, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Sprkly MCP

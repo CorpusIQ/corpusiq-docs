@@ -7,6 +7,7 @@ added: 2026-09-14
 source: "mcpservers.org /all page 1 (Sep 14 evening crawl) + vendor docs at cherryshot.mintlify.app/guides/mcp"
 relevance: ★★
 tags: [ecommerce, product-photography, video-ads, creative, image-generation, ad-creative, marketplace, remote-mcp, api-key]
+last_updated: "2026-10-19"
 ---
 
 # CherryShot MCP

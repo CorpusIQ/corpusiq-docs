@@ -3,7 +3,7 @@ title: "Steipete Agent Scripts - Portable Agent Skills & Helpers"
 description: "Peter Steinberger's shared agent-skills repo: 54 SKILL.md workflows, sync tooling, and dependency-light helpers for Codex/Claude workspaces. 9.5K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/steipete-agent-scripts-setup/"
 robots: "index,follow"
-last_updated: "2026-10-02"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "codex", "claude", "developer tools", "macos", "swiftui"]
 ---
 

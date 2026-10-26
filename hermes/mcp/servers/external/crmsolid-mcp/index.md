@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 3
 relevance: ★★
 tags: [mcp-server, social-inbox, dm-management, post-scheduling, instagram, whatsapp, linkedin, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # CRM Solid MCP

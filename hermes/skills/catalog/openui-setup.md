@@ -3,7 +3,7 @@ title: "OpenUI Skill - Generative UI Setup"
 description: "OpenUI skill: the open standard for generative UI, with OpenUI Lang streaming rendering and token-efficient UI generation (~1.3K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openui-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "generative ui", "llm"]
 ---
 

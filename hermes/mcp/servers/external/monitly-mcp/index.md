@@ -7,6 +7,7 @@ added: 2026-10-09
 source: "chatmcp/mcpso issues (October 9, 2026 evening sweep)"
 relevance: ★★
 tags: [official-statistics, economic-data, eurostat, world-bank, oecd, imf, api-key, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Monitly MCP

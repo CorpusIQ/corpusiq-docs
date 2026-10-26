@@ -3,7 +3,7 @@ title: "Podo Design Agent Skills - 151-Skill Design Catalog Setup"
 description: "Setup guide for podo/design-agent-skills - a curated design-skill catalog with one install command and profile-based selection (24/92/151 skills). 150 skills indexed on skills.sh, 17.3K combined installs, 149 at 100+. Covers UI craft, motion, Figma, accessibility, data viz, presentations, user research. Agent-agnostic symlink install across 30+ agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/podo-design-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "ui", "figma"]
 ---
 

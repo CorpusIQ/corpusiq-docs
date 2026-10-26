@@ -7,6 +7,7 @@ added: 2026-10-21
 source: "chatmcp/mcpso submission issue #5881 (funCapital)"
 relevance: ★★★
 tags: [creator-marketing, ugc, clipping, payouts, cpm, campaign-ops, affiliate, remote-mcp]
+last_updated: "2026-10-21"
 ---
 
 # ViewsBase MCP

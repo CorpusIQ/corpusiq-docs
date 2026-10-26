@@ -7,6 +7,7 @@ added: 2026-10-21
 source: "mcp.so /feed page 1 (card posted 2026-10-21T06:51:31Z)"
 relevance: ★★★
 tags: [commercial-real-estate, lease-audit, cam-reconciliation, property-management, expense-recovery, finance-ops, remote-mcp, a2a]
+last_updated: "2026-10-21"
 ---
 
 # Tenantback MCP

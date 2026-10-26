@@ -7,6 +7,7 @@ added: 2026-10-20
 source: "mcp.so /feed page 1 (seven Copliancy Inc cards posted 2026-10-21T03:00Z) + vendor provider documentation and live OAuth metadata probes"
 relevance: ★★★
 tags: [operations, multi-location, compliance, lease-accounting, asc-842, incidents, claims, cmms, workforce-scheduling, remote-mcp, oauth, scopes, mcp-apps]
+last_updated: "2026-10-20"
 ---
 
 # Copliancy MCP Suite

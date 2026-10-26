@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcp.so homepage (new arrivals)
 relevance: ★★
 tags: [agent-economy, agent-commerce, marketplace, payments, spending-caps, remote-mcp, agent-transactions]
+last_updated: "2026-10-19"
 ---
 
 # Bitroad MCP

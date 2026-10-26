@@ -7,6 +7,7 @@ added: 2026-10-14
 source: "mcpservers.org /all (October 14, 2026 midday sweep)"
 relevance: ★★
 tags: [manufacturing, industrial-automation, plc, siemens, tia-portal, engineering, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # TiaLink MCP

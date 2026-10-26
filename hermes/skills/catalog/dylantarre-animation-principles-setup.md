@@ -3,7 +3,7 @@ title: "Animation Principles Skills - Motion Setup"
 description: "Claude Code skills for Disney's 12 animation principles applied to motion design; ~54,673 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dylantarre-animation-principles-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "animation", "motion design"]
 ---
 

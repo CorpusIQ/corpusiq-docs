@@ -5,7 +5,7 @@ category: growth-operations
 trigger: Affiliate program promotion at scale, worldwide content push, driving signups through multilingual SEO
 canonical: "https://www.corpusiq.io/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-26"
 title: "Worldwide Affiliate Mass Publishing"
 tags: ["hermes agent", "ai agent", "nous research"]
 

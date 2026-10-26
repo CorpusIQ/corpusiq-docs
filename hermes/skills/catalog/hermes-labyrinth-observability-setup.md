@@ -3,7 +3,7 @@ title: Hermes Labyrinth - Observability Dashboard Plugin
 description: Read-only observability plugin that maps agent journeys, crossings, guideposts, and cron runs. Exportable reports. 187+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

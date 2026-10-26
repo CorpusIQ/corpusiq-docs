@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [finance, activism, governance, sec-filings, research, read-only, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # DEF 14 MCP

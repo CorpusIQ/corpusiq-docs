@@ -7,6 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3975"
 relevance: ★★★
 tags: [uptime, monitoring, status-pages, outages, incident-management, remote-mcp, keyless]
+last_updated: "2026-10-19"
 ---
 
 # RealUptime MCP - Uptime, Status and Outage Intelligence for Agents

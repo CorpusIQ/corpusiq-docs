@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "mcpservers.org /all page 2 (Oct 7, 2026 evening sweep)"
 relevance: ★★★
 tags: [invoices, receipts, bookkeeping, spend-reports, accounting, document-extraction]
+last_updated: "2026-10-19"
 ---
 
 # Booksmate MCP

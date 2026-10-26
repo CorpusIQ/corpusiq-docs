@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "chatmcp/mcpso issue #4831 (Oct 6, 2026 evening sweep)"
 relevance: ★★
 tags: [uk, property, real-estate, land-registry, price-data, open-data, remote-mcp, keyless]
+last_updated: "2026-10-19"
 ---
 
 # UK Land Registry MCP

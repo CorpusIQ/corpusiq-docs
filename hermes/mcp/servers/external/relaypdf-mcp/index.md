@@ -7,6 +7,7 @@ added: 2026-10-04
 source: mcpservers.org
 relevance: ★★★
 tags: [productivity, documents, pdf, conversion, ocr, extraction, remote-mcp, oauth]
+last_updated: "2026-10-19"
 ---
 
 # RelayPDF MCP

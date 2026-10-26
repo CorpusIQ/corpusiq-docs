@@ -4,6 +4,7 @@ description: "Evening MCP catalog sweep: chatmcp/mcpso issues #3918-#3937 plus m
 date: 2026-09-04T19:02:00-07:00
 sources: [chatmcp/mcpso, mcp.so, mcpservers.org]
 status: complete
+last_updated: "2026-10-19"
 ---
 
 # September 4, 2026 - Evening Cron Sweep

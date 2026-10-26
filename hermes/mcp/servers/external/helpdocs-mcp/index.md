@@ -7,6 +7,7 @@ added: 2026-08-14
 source: mcpservers.org
 relevance: ★★
 tags: [knowledge-base, documentation, support, customer-support, analytics, content-ops, productivity, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # HelpDocs MCP

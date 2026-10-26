@@ -3,7 +3,7 @@ title: "Xcode Build Optimization - iOS Build Performance Setup"
 description: "Setup guide for avdlee/xcode-build-optimization-agent-skill - 20.6K combined installs. 6 Xcode build diagnostics and optimization skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/xcode-build-optimization-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "ios development", "xcode", "build performance"]
 ---
 

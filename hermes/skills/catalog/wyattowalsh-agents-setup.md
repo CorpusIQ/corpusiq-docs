@@ -3,7 +3,7 @@ title: Wyatt Walsh Agents - Skill Governance and Orchestration
 description: "wyattowalsh/agents - 85 skills, 2.1K installs: the skills.sh founder's personal agent toolkit covering orchestration, skill lifecycle governance, code conventions, and agent team management."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wyattowalsh-agents-setup/"
 robots: "index,follow"
-last_updated: "2026-08-18"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "orchestration", "skill governance", "agent teams"]
 ---
 

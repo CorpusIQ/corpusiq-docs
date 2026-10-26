@@ -7,6 +7,7 @@ added: 2026-10-10
 source: "chatmcp/mcpso issue #5070; catalogued at the October 10, 2026 night sweep"
 relevance: ★★★
 tags: [ebay, e-commerce, resale, market-research, pricing, marketplace-data, api-key, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # SoldFetch MCP

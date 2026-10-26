@@ -9,7 +9,7 @@ added: 2026-08-10
 source: mcp.so
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/stoxly-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 description: "Stoxly is a free remote MCP server providing stock and ETF fundamental analysis. analysis. delivers 10-point score, verdict, key metrics for any ticker sym."
 

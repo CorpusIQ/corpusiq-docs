@@ -7,6 +7,7 @@ added: 2026-08-15
 source: mcpservers.org
 relevance: ★★
 tags: [multilingual-content, localization, editorial-planning, content-ops, international-seo, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Polyblog MCP

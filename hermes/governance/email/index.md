@@ -3,7 +3,7 @@ title: "Email Operations - CorpusIQ Docs"
 description: Autonomous email management for dual-account operations. Monitoring, send checklist, HTML templates, response standards.
 canonical: "https://www.corpusiq.io/docs/hermes/governance/email/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

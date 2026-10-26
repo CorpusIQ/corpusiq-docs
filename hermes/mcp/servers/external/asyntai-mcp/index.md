@@ -7,6 +7,7 @@ added: 2026-09-03
 source: "mcp.so GitHub issue #3907"
 relevance: ★★
 tags: [customer-support, chatbot, knowledge-base, live-chat, leads]
+last_updated: "2026-10-19"
 ---
 
 # Asyntai MCP - AI Support Agent for Websites

@@ -7,6 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (voygr-tech/placecall)"
 relevance: ★★★
 tags: [automation, voice, phone, agents, bookings, quotes, remote-mcp, real-world]
+last_updated: "2026-10-19"
 ---
 
 # PlaceCall MCP

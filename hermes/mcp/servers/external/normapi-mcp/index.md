@@ -7,6 +7,7 @@ added: 2026-10-09
 source: "mcpservers.org /all + chatmcp/mcpso issues (October 9, 2026 evening sweep)"
 relevance: ★★★
 tags: [e-invoicing, invoicing, germany, xrechnung, zugferd, compliance, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # NormAPI MCP

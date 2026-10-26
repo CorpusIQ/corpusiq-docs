@@ -8,7 +8,7 @@ verified: true
 website: "https://koreanads.com"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/koreanads-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 title: "KoreanAds MCP - Korean Advertising Plans"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 

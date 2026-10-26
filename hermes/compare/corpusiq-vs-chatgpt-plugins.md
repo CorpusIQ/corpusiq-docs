@@ -2,6 +2,7 @@
 title: "CorpusIQ vs ChatGPT Plugins: What Each One Does"
 description: "ChatGPT plugins connect ChatGPT to specific services. CorpusIQ is the layer that gives AI assistants live access to business data across 40+ tools."
 tags: [compare, corpusiq, mcp]
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ vs ChatGPT Plugins: What Each One Does

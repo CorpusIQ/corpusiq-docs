@@ -3,7 +3,7 @@ title: "AntiGravity Lazy Pack Skills Setup"
 description: "AntiGravity lazy packs for AI agents, auto-installing NotebookLM, workflow, GitHub, and drawing tools (~1.1k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-lazy-pack-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "automation", "ai agents"]
 ---
 

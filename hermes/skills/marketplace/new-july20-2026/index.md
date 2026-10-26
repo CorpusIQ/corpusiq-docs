@@ -3,7 +3,7 @@ title: "🆕 July 20, 2026 - Two Sweeps"
 description: "15 skills.sh skills (9,500+ installs) + 13 GitHub repos (288+ stars) - largest single-day Hermes ecosystem expansion. Nous Research official skills"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july20-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

@@ -3,7 +3,7 @@ title: "OKX OnchainOS Skills - Wallet & DEX Setup"
 description: "Skills for AI agents integrating the OKX OnchainOS API: wallet, token discovery, market data, DEX swaps, and transaction broadcasting (~223K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/okx-onchainos-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "crypto wallet", "defi"]
 ---
 

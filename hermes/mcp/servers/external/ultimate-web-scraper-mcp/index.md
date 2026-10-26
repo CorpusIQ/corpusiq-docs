@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcp.so
 relevance: ★★★
 tags: [web-scraping, ecommerce, product-data, lead-lists, sitemap, data-extraction, shopify, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Ultimate Web Scraper MCP

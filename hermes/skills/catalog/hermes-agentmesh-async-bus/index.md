@@ -6,7 +6,7 @@ source: seleman66eeddwegger3-art/hermes-agentmesh
 installs: 1/day trending
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agentmesh-async-bus/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

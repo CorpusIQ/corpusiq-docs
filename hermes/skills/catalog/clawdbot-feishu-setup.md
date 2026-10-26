@@ -3,7 +3,7 @@ title: "ClawDBot Feishu Suite Setup Guide"
 description: "Install and configure the ClawDBot Feishu Suite - 11 skills for the Lark/Feishu enterprise platform covering documents, drive, wiki, messaging, tasks"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdbot-feishu-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

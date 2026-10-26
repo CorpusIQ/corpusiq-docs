@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + github.com/moxno/ztds.ai"
 relevance: ★★
 tags: [pii, data-sanitization, tokenization, privacy, zero-trust, compliance, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # ZTDS Data Sanitizer MCP

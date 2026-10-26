@@ -3,7 +3,7 @@ title: "Oh My Hermes (OMH) Suite - Multi-Agent Orchestration"
 description: "witt3rd/oh-my-hermes - 9 Hermes-native multi-agent orchestration skills (~800 combined installs): consensus planning (ralplan), verified execution (ralph), Socratic requirements interviews, parallel deep research, backlog triage, and end-to-end autopilot. Native Hermes install via hermes skills tap."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "orchestration"]
 ---
 

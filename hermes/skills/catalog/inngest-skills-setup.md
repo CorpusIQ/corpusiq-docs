@@ -3,7 +3,7 @@ title: "Inngest Skills - Durable Workflow Orchestration Setup"
 description: "inngest/inngest-skills - 14 skills, 19.3K installs: event design, durable functions, steps, middleware, and agent workflows from the Inngest team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inngest-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-16"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "workflow", "orchestration", "inngest"]
 ---
 

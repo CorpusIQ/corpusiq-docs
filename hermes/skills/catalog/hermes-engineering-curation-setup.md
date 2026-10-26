@@ -3,7 +3,7 @@ title: Hermes Engineering Curation Setup Guide
 description: Install and use Fahrnetic's professionally-curated Hermes Agent engineering workflow - 104 selected skills, 10 operator profiles, gate matrix, and engineering spine
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-engineering-curation-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

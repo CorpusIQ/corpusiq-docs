@@ -7,6 +7,7 @@ added: 2026-10-05
 source: "mcp.so /feed (Nearius, verified featured listing)"
 relevance: ★★
 tags: [legal, case-law, spain, eu, ecli, citations, compliance, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Nearius MCP

@@ -3,7 +3,7 @@ title: "July 19, 2026 - Hermespace Pocket Workbench, Cursor"
 description: "4 new Hermes-relevant repos discovered: hermespace (46★, persistent agent world), cursor-dispatcher (1★, Cursor CLI delegation), plutus (2★, LLM billing)"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july19-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

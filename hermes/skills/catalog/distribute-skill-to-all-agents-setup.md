@@ -3,7 +3,7 @@ title: "distribute-skill-to-all-agents - Setup Guide"
 description: "Install, configure, and use the distribute-skill-to-all-agents skill from davidondrej/skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

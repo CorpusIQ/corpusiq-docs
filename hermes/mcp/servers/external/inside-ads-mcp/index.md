@@ -7,6 +7,7 @@ added: 2026-08-17
 source: "mcp.so GitHub issue #3618"
 relevance: ★★
 tags: [advertising, audience-validation, cpc, media-planning, launch, remote-mcp, streamable-http]
+last_updated: "2026-10-19"
 ---
 
 # Inside Ads MCP

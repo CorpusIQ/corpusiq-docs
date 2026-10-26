@@ -3,7 +3,7 @@ title: September 11, 2026 Skills.sh Sweep - 7 New Publisher
 description: "Skills.sh sweep September 11, 2026: 7 new publisher clusters (Tencent WeChat Reading, Vercel Next.js, Unity, Cline, Vercel Eve, Alibaba Cloud AIOps, Apidojo Agent Skills) - 452 skills, 7 setup guides, 1 publisher rename (Wind)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep11-2026/"
 robots: "index,follow"
-last_updated: "2026-09-11"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "marketplace", "sweep"]
 ---
 

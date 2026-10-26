@@ -3,7 +3,7 @@ title: "taste-skill - Setup Guide"
 description: "Install and use leonxlnx/taste-skill - convert screenshots to production code, generate web/mobile UI from text."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/taste-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

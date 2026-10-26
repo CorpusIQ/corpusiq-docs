@@ -3,7 +3,7 @@ title: "Hermes Agent Framework - Core Nous Research Agent"
 description: "176+ installs. Guide to Nous Research's Hermes Agent framework with self-improving learning loops, three-layer memory, and automatic Skill creation. Setup"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-framework-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: Generative Media Skills - 153-Skill Media Suite
 description: "calesthio/generative-media-skills - 153 research-backed media production skills (45 skills.sh-indexed, 2.1K combined installs): provider intelligence for image/video/audio/voice models, production craft direction, and deterministic QA scripts. Explicit Hermes support via HERMES.md."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/generative-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-26"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "media production", "video generation", "image generation", "text to speech", "elevenlabs", "hyperframes", "heygen", "ugc video"]
 ---
 

@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcp.so feed (Oct 6, 2026 midday sweep)"
 relevance: ★★
 tags: [catering, events, hospitality, quotes, invoices, operations, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Gastrosync MCP

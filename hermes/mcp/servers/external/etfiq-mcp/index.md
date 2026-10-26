@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcp.so feed (Oct 6, 2026 midday sweep)"
 relevance: ★★★
 tags: [etf, finance, investing, model-portfolios, market-data, remote-mcp, keyless]
+last_updated: "2026-10-24"
 ---
 
 # ETFIQ MCP

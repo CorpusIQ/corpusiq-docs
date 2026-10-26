@@ -3,7 +3,7 @@ title: "MagicPath Agent Skills - UI Component Workflow Setup"
 description: "Setup guide for magicpathai/agent-skills - 6.3K combined installs. Search, preview, export, and edit MagicPath UI components from your agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/magicpath-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "ui components", "design tooling"]
 ---
 

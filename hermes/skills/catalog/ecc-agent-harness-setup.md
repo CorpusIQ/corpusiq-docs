@@ -1,6 +1,7 @@
 ---
 title: "ECC - Agent Harness Performance Optimization"
 description: "ECC is the highest-starred agent skill repository on GitHub (240K stars as of Aug 16, 2026)."
+last_updated: "2026-10-24"
 ---
 
 # ECC - Agent Harness Performance Optimization

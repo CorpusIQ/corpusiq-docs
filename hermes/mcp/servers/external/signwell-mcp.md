@@ -3,7 +3,7 @@ title: "SignWell MCP - Official E-Signature Server for AI Agents"
 description: "Official SignWell MCP server - the first major e-signature platform with native MCP. Create, send, and track legally binding documents from any AI agent."
 category: mcp
 tags: [mcp-server, e-signature, signwell, official, workplace, productivity, contracts, legal]
-last_updated: 2026-09-17
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/signwell-mcp/"
 robots: "index,follow"
 

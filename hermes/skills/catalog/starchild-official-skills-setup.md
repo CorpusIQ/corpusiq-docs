@@ -3,7 +3,7 @@ title: "Starchild Official Skills - Agent Platform Library Setup"
 description: "Setup guide for starchild-ai-agent/official-skills - 179.7K combined installs. Starchild's official skill library for data, trading, and automation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/starchild-official-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "crypto data", "trading automation", "agent platform"]
 ---
 

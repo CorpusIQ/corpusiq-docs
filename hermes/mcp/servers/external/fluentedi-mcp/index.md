@@ -7,6 +7,7 @@ added: 2026-08-23
 source: "mcp.so GitHub issue #3701"
 relevance: ★★★
 tags: [edi, x12, supply-chain, e-commerce, retail, json, remote-mcp, hosted]
+last_updated: "2026-10-19"
 ---
 
 # FluentEDI MCP

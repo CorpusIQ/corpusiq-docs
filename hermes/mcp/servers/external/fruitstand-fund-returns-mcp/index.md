@@ -7,6 +7,7 @@ added: 2026-09-02
 source: "mcp.so GitHub issue #3903"
 relevance: ★★
 tags: [funds, etf, returns, performance, finance, investment]
+last_updated: "2026-10-19"
 ---
 
 # Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data

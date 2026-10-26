@@ -7,6 +7,7 @@ added: 2026-08-13
 source: mcpservers.org
 relevance: ★★★
 tags: [changelogs, product-marketing, release-notes, gtm, content, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Shipstar MCP

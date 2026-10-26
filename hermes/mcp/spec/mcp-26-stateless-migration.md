@@ -3,7 +3,7 @@ title: "MCP '26 - The Stateless Protocol Migration Guide"
 description: "July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist, breaking changes, and what it means for servers and gateways."
 category: "MCP"
 tags: ["mcp", "model context protocol", "stateless mcp", "mcp migration", "session id", "refresh token"]
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration/"
 robots: "index,follow"
 ---

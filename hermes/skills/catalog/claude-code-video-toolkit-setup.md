@@ -3,7 +3,7 @@ title: "Claude Code Video Toolkit - Video Pipeline Skills Setup"
 description: "digitalsamba/claude-code-video-toolkit - 13 skills, 14.5K installs: ffmpeg, Remotion, ElevenLabs, MoviePy, and Playwright recording for agent-driven video production."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-video-toolkit-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "video", "ffmpeg", "remotion"]
 ---
 

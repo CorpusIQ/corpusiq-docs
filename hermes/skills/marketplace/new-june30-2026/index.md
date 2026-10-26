@@ -3,7 +3,7 @@ title: "June 30, 2026 - OpenClaw Ecosystem Expansion"
 description: "New Hermes skills discovered June 30, 2026: 1 Hermes variant, 13 OpenClaw ecosystem skills, 1 Clawdbot skill, 9 MCP development skills. Crosses 7 categories."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

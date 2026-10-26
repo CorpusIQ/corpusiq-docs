@@ -7,6 +7,7 @@ added: 2026-10-18
 source: "mcpservers.org /all page 1 (October 18, 2026 night sweep)"
 relevance: ★★★
 tags: [demand-discovery, social-listening, hacker-news, stack-exchange, bluesky, github, intent, prospecting, local-mcp, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # AskHound MCP

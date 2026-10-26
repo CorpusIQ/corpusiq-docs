@@ -7,6 +7,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3781"
 relevance: ★★★
 tags: [legal, legislation, compliance, point-in-time, git, oauth, remote-mcp, law]
+last_updated: "2026-10-19"
 ---
 
 # Legalize MCP

@@ -3,7 +3,7 @@ title: New Skills Discovery  --  June 9, 2026
 description: 25 newly discovered skills.sh marketplace skills relevant to Hermes agents. Communication bots, Hermes variants, agent infrastructure, DevOps, and platform integrations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

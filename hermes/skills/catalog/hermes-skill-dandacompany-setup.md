@@ -3,7 +3,7 @@ title: Hermes Skill (dandacompany) - Setup Guide
 description: Install, configure, and use the dandacompany/hermes-skill - the most comprehensive third-party Hermes Agent operations guide. 69+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-skill-dandacompany-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -2,6 +2,7 @@
 title: "CorpusIQ vs Claude Enterprise: What Each One Does"
 description: "Claude Enterprise brings AI into the workplace with admin controls. CorpusIQ is the layer that gives Claude live access to your business data, source-cited and validated."
 tags: [compare, corpusiq, mcp]
+last_updated: "2026-10-19"
 ---
 
 # CorpusIQ vs Claude Enterprise: What Each One Does

@@ -3,7 +3,7 @@ title: "AI Berkshire Skills - Value Investing Setup"
 description: "AI Berkshire value investing research skills for Claude Code/Codex: Buffett-Munger-Duan-Li Lu methodology plus multi-agent research."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-berkshire-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "value investing", "finance"]
 ---
 

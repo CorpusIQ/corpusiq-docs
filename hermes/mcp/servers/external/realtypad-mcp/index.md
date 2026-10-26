@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "mcpservers.org /all page 1 (Oct 7, 2026 evening sweep)"
 relevance: ★★
 tags: [real-estate, deal-research, comps, underwriting, investors]
+last_updated: "2026-10-19"
 ---
 
 # RealtyPad MCP

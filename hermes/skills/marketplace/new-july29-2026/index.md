@@ -3,7 +3,7 @@ title: "July 29, 2026 - Media Use Skill (182.7K installs) + 1"
 description: "1 new Hermes-relevant skill discovered: media-use from heygen-com/hyperframes. 182.7K+ installs. Also noted"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july29-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

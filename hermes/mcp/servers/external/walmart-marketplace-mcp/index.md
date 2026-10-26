@@ -7,6 +7,7 @@ added: 2026-08-23
 source: "mcpservers.org /all + GitHub README"
 relevance: ★★★
 tags: [walmart-marketplace, marketplace-ops, ecommerce, oauth2, openapi, multi-seller, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Walmart Marketplace MCP

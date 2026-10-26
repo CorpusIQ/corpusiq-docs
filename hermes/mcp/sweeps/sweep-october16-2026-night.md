@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 16, 2026 (Night Sweep)"
 description: "Night sweep cataloguing a shared growth-experiment memory for teams and their agents - a hosted MCP server with an enforced experiment lifecycle."
-last_updated: 2026-10-16
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october16-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

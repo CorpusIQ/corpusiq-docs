@@ -3,7 +3,7 @@ title: "MCP Cron Sweep - July 23, 2026"
 description: "Automated cron sweep of mcp.so and mcpservers.org. 43 new servers identified, 1 business-operator guide created."
 category: mcp-sweep
 tags: [mcp-sweep, cron, discovery]
-last_updated: 2026-09-17
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july23-2026-cron/"
 robots: "index,follow"
 

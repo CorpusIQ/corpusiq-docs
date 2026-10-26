@@ -7,6 +7,7 @@ added: 2026-10-06
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [energy, data, citations, power, interconnection, ai-infrastructure, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # exascale.build MCP

@@ -3,7 +3,7 @@ title: "LJG Skills Setup Guide for Hermes Agents"
 description: "lijigang/ljg-skills - 124.5K installs across 30 skills, 7.2K stars: veteran Chinese tech blogger Li Jigang's personal knowledge-work suite - content cards, paper reading, writing, learning, and thinking workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ljg-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "productivity", "knowledge management", "writing", "reading"]
 ---
 

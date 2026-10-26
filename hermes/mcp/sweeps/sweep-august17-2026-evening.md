@@ -1,6 +1,7 @@
 ---
 title: "MCP Server Discovery Sweep - August 17, 2026 (Evening)"
 description: "MCP discovery sweep for August 17, 2026 (evening): candidates pulled from chatmcp/mcpso issues and directory homepages, evaluated against the catalog."
+last_updated: "2026-10-24"
 ---
 
 # MCP Server Discovery Sweep - August 17, 2026 (Evening)

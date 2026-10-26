@@ -7,6 +7,7 @@ added: 2026-09-28
 source: "mcp.so server page (mcp.agilehero.io)"
 relevance: ★★★
 tags: [agile, project-management, sprints, roadmap, retrospectives, productivity, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # AgileHero MCP

@@ -3,7 +3,7 @@ title: "Proseify - Anti-Prose-Slop Book Writing Setup"
 description: "Setup guide for Proseify's anti-prose-slop skill: a hosted book-writing MCP with a public-domain corpus, genre recipes, and scored chapter drafting."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/proseify-setup/"
 robots: "index,follow"
-last_updated: "2026-10-08"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "proseify", "book writing", "creative writing", "mcp"]
 ---
 

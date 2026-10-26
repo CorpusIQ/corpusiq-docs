@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 12, 2026 (Night Sweep)"
 description: "Night sweep over the mcp.so feed (30 server blocks, 2 fresh names past the midday cutoff), mcp.so homepage recentServers (8 blocks, all repeats), a fresh mcpservers.org /all page-1 crawl (00:05 UTC) via the r.jina.ai reader proxy and chatmcp/mcpso issues #4087-#4089. 7 new business-relevant servers catalogued with guides: Attensira MCP (AI-search visibility, 33 tools), StayingAPI MCP (cross-OTA accommodation data, 7 tools), stocks.team MCP (point-in-time SEC facts, 47 operations), 0xinsider MCP (Polymarket trader analytics, 57 operations), aiworker-data MCP (x402 pay-per-call data, 20 tools live-probed), moysklad-mcp-ru (MoySklad ERP, 32 tools) and upCampo MCP (farm management, permission-mapped)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-12
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 12, 2026 (Night Sweep)

@@ -3,7 +3,7 @@ title: Blueprint Orchestration Setup Guide
 description: Install and configure aawobdev/hermes-skills  --  a 12-skill multi-agent blueprint orchestration system for Hermes Agent. Architect interviews, cheap models execute.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/blueprint-orchestration-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: "Agent Email CLI Skill - Setup Guide"
 description: "Codex skill for the agent-email CLI: disposable inboxes, polling, reading messages and managing mailbox profiles."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-email-cli-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "email", "cli"]
 ---
 

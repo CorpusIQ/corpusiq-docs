@@ -6,7 +6,7 @@ source: markwang2658/hermes-windows-native
 stars: 20
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-windows-native/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

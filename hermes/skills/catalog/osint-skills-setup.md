@@ -3,7 +3,7 @@ title: "OSINT Skills - 57-Skill Open-Source Intelligence Suite"
 description: "useosint/osint-skills - 57 skills, 285.8K combined installs. Photo verification, deepfake detection, corporate X-rays, data-broker digging, domain recon, and intel brief writing for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/osint-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-13"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "osint"]
 ---
 

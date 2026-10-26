@@ -7,6 +7,7 @@ added: 2026-10-21
 source: "mcpservers.org /all page 1 (card nexteverything-io-docs)"
 relevance: ★★★
 tags: [bill-of-materials, electronics, procurement, supply-chain, component-pricing, manufacturing, inventory, remote-mcp]
+last_updated: "2026-10-21"
 ---
 
 # Next Everything MCP

@@ -13,8 +13,7 @@ transport: Streamable HTTP
 auth: OAuth (one-click) or Bearer API key
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/siteguru-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-24"
 ---
 
 # SiteGuru MCP Server

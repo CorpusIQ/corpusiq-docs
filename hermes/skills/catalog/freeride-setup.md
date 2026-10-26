@@ -3,7 +3,7 @@ title: "FreeRide Skill - Free AI for OpenClaw Setup"
 description: "FreeRide skill: free AI access for OpenClaw, the open-source coding agent (~784 installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/freeride-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "openclaw", "llm"]
 ---
 

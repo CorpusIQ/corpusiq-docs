@@ -3,7 +3,7 @@ title: How to Check an AI Answer Against Your Books
 description: "The five-minute verification habit that turns AI business answers from guesses into decisions. Check the source, check the definition, check the date."
 category: "Guides"
 tags: ["ai answers", "verification", "reconciliation", "business data", "trust"]
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/hermes/guides/check-ai-answer-against-your-books"
 robots: "index,follow"
 ---

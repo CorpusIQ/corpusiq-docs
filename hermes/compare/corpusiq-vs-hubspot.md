@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs HubSpot: What Each One Does"
 description: "HubSpot runs your CRM. CorpusIQ is the layer that gives AI assistants live access to HubSpot data."
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ vs HubSpot: What Each One Does

@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + seodraft.app"
 relevance: ★★★
 tags: [seo, content-drafting, serp-briefs, keyword-topics, evidence-bank, content-rules, oauth, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # seodraft MCP

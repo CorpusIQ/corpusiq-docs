@@ -7,6 +7,7 @@ added: 2026-09-03
 source: "mcp.so feed"
 relevance: ★★★
 tags: [competitive-intelligence, sales-intelligence, icp-scoring, battlecards, prospect-research, remote-mcp, keyless]
+last_updated: "2026-10-19"
 ---
 
 # Klarix Intelligence Engine MCP

@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 29, 2026 (Morning Sweep)"
 description: "Morning sweep over the mcp.so /feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy, with 3 mcp.so detail pages and 8 mcpservers.org detail probes. 6 new business-relevant servers catalogued with guides: systemHUB MCP, AccountHub MCP, AgentGrown MCP, Markifact Google Ads MCP, Markifact Meta Ads MCP and VoiceLabs MCP."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-29
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 29, 2026 (Morning Sweep)

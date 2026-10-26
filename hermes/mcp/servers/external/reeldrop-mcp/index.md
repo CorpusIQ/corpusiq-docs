@@ -7,6 +7,7 @@ added: 2026-09-02
 source: "mcpservers.org /all listing"
 relevance: ★★
 tags: [instagram, reels, scheduling, analytics, social-media, dm-automation]
+last_updated: "2026-10-19"
 ---
 
 # ReelDrop MCP - Instagram Reel Scheduling and Analytics

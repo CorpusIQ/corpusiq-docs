@@ -3,7 +3,7 @@ title: HermesPet macOS AI Companion - Setup Guide
 description: Install and configure hermespet-macos-ai-companion, a desktop pet/companion that brings Hermes Agent to your macOS desktop with persistent presence and visual feedback. 38 installs from reason-machines/hermes-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespet-macos-ai-companion-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

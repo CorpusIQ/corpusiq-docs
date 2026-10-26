@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 12, 2026 (Morning Sweep)"
 description: "Morning sweep over the mcp.so feed (30 server blocks) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 2 new business-relevant servers catalogued with guides, both endpoints live-verified: Pixelesq MCP (official website management, 62 tools, OAuth 2.1 PKCE) and LandLens One MCP (Tamil Nadu property due diligence with cited legal answers). Also fixed two unquoted source values from the Sep 11 evening sweep."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-12
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 12, 2026 (Morning Sweep)

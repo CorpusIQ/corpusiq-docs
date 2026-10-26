@@ -7,6 +7,7 @@ added: 2026-08-21
 source: mcp.so
 relevance: ★★
 tags: [markdown, publishing, docs, share, agent-output, bundles, no-signup, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # lucid.page MCP

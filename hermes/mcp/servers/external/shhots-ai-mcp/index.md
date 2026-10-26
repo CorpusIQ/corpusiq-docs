@@ -7,6 +7,7 @@ added: 2026-08-14
 source: mcpservers.org
 relevance: ★★
 tags: [ugc-ads, ai-video, product-photography, ad-creative, video-generation, ecommerce, content, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Shhots AI MCP

@@ -8,7 +8,7 @@ category: google-workspace
 setup: npx skills add googleworkspace/cli@recipe-save-email-attachments
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-recipe-save-email-attachments/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Gws Recipe Save Email Attachments"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

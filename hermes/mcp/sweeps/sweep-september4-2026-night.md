@@ -4,6 +4,7 @@ description: "Night MCP catalog sweep: mcp.so feed plus mcpservers.org /all page
 date: 2026-09-04T03:14:00-07:00
 sources: [mcp.so, mcpservers.org]
 status: complete
+last_updated: "2026-10-19"
 ---
 
 # September 4, 2026 - Night Cron Sweep

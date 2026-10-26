@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4872 (Oct 7, 2026 morning sweep)"
 relevance: ★★★
 tags: [funding, sec-form-d, companies-house, sales-signals, due-diligence, apify, local-mcp, npm]
+last_updated: "2026-10-19"
 ---
 
 # Mamba Funding Investor Record MCP

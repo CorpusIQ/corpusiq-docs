@@ -3,7 +3,7 @@ title: "Dot Skills - 96-Skill Agent Engineering Collection Setup"
 description: "Setup guide for pproenca/dot-skills - 96 agent skills in the open Agent Skills format: Zod, Vitest, clean architecture, TypeScript. 30.6K+ installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dot-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "software development", "agent skills", "typescript"]
 ---
 

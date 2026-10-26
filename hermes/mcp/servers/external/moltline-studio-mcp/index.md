@@ -7,6 +7,7 @@ added: 2026-08-18
 source: mcp.so GitHub issues
 relevance: ★★
 tags: [business-math, analytics, csv, invoices, sla, governance, remote-mcp, suite]
+last_updated: "2026-10-19"
 ---
 
 # Moltline Studio MCP Suite

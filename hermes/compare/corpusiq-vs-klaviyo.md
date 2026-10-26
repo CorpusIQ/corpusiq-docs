@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs Klaviyo: What Each One Does"
 description: "Klaviyo runs your email and SMS. CorpusIQ is the layer that gives AI assistants live access to Klaviyo data."
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ vs Klaviyo: What Each One Does

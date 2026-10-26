@@ -3,7 +3,7 @@ title: "Seo And Content - CorpusIQ Docs"
 description: "SEO and content marketing prompts for Hermes agents. Analyze Search Console data, track keyword rankings, and generate content insights by connecting SEO"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/seo-and-content/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes prompt", "prompt engineering", "ai prompt"]
 
 ---

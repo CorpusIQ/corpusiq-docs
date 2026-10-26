@@ -3,7 +3,7 @@ title: Hermes Agent v0.21.0 The Pantheon Release
 description: Hermes Agent v0.21.0 (v2026.8.31) - The Pantheon Release. Bot Mode society of agents, cron memory and continuity, live subagent steering, MCP command center, desktop browser driving, 6 new providers.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.0/"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

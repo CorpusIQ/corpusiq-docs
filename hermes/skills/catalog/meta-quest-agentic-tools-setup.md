@@ -3,7 +3,7 @@ title: "Meta Quest Agentic Tools - Horizon OS VR Dev Suite Setup"
 description: "Setup guide for meta-quest/agentic-tools: 39 official Meta agent skills for Quest and Horizon OS VR development. 5.4K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/meta-quest-agentic-tools-setup/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-19"
 tags:
   - hermes skill
   - agent skill

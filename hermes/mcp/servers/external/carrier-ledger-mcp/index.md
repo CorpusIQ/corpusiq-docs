@@ -7,6 +7,7 @@ added: 2026-10-10
 source: "mcpservers.org /all (page 1 cohort) + vendor page (carrier-ledger.neoaethel.workers.dev); catalogued at the October 10, 2026 evening sweep"
 relevance: ★★★
 tags: [logistics, freight, fmcsa, compliance, risk, fraud-prevention, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Carrier Ledger MCP

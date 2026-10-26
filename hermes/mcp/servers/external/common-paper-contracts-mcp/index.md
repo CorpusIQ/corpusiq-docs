@@ -7,6 +7,7 @@ added: 2026-09-30
 source: "mcp.so server page (common-paper-contracts)"
 relevance: ★★★
 tags: [contracts, legal, agreements, e-signature, nda, dpa, document-automation, oauth, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Common Paper Contracts MCP

@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs Power BI: What Each One Does"
 description: "Power BI builds business reports. CorpusIQ is the layer that gives AI assistants live access to your business data."
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ vs Power BI: What Each One Does

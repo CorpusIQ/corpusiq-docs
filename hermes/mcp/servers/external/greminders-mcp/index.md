@@ -7,7 +7,7 @@ language: N/A (Hosted SaaS)
 transport: Streamable HTTP
 auth: OAuth / API Key
 category: Business Operations
-last_updated: 2026-09-17
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/greminders-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

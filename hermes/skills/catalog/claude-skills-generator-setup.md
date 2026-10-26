@@ -3,7 +3,7 @@ title: "Claude Skills Generator - Coding Setup"
 description: "Generated Claude Code skills covering SQLite, GSAP animation, Windows UI automation, UI/UX design, CI/CD, and WebGL (~20.2k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-skills-generator-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "coding", "claude code"]
 ---
 

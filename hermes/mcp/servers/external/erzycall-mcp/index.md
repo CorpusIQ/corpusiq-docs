@@ -7,6 +7,7 @@ added: 2026-09-01
 source: "chatmcp/mcpso issue #3876 (Sep 1, 2026 midday sweep)"
 relevance: ★★
 tags: [mcp-server, phone-calls, voice, whatsapp, contact-management, telephony, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ErzyCall MCP

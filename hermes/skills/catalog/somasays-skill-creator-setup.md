@@ -3,7 +3,7 @@ title: "somasays Skill Creator - Claude Skills Setup"
 description: "create-skills: a skill for authoring new Claude Skills (~207 installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/somasays-skill-creator-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "skill authoring", "claude"]
 ---
 

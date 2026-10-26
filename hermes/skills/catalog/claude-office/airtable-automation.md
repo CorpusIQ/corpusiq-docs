@@ -8,7 +8,7 @@ category: claude-office
 setup: npx skills add claude-office-skills/skills@airtable-automation
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/airtable-automation/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Airtable Automation - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

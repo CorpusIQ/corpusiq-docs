@@ -7,6 +7,7 @@ added: 2026-10-23
 source: "mcp.so /feed page 1 card (posted 2026-10-23T13:23:40Z, submitted by Jiri Kobelka, verified and featured) plus the vendor MCP documentation"
 relevance: ★★★
 tags: [customer-feedback, product-intelligence, voice-of-customer, revenue-at-risk, churn, roadmap, sales-calls, support-tickets, remote-mcp, oauth]
+last_updated: "2026-10-24"
 ---
 
 # ClosedLoop AI MCP

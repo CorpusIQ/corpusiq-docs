@@ -8,7 +8,7 @@ category: shopify
 setup: npx skills add shopify/shopify-ai-toolkit@shopify-storefront-graphql
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/shopify-storefront-graphql/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Shopify Storefront Graphql - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

@@ -7,7 +7,7 @@ stars: 25,207
 license: MIT
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentmemory-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

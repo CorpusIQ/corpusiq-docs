@@ -3,7 +3,7 @@ title: New Skills  --  June 16, 2026  --  Native Hermes Media Skill
 description: Skills.sh sweep discovered youtube-content (160 installs)  --  a native Hermes Agent skill for YouTube transcript extraction and content transformation. Previously undocumented in the skills catalog.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june16-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

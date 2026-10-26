@@ -7,6 +7,7 @@ added: 2026-09-03
 source: "mcp.so GitHub issue #3913"
 relevance: ★★★
 tags: [amazon-ads, ecommerce, advertising, oauth, campaign-management, remote-mcp, pkey]
+last_updated: "2026-10-19"
 ---
 
 # SellerMate MCP

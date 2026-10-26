@@ -7,6 +7,7 @@ added: 2026-08-21
 source: mcp.so
 relevance: ★★
 tags: [design, ui, ux, screens, product, research, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Mobbin MCP

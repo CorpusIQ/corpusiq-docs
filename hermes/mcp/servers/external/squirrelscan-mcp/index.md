@@ -7,7 +7,7 @@ language: Unknown
 transport: stdio
 auth: None
 category: SEO & Web Development
-last_updated: 2026-09-17
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/squirrelscan-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

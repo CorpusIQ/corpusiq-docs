@@ -3,7 +3,7 @@ title: "Aktsmm Agent Skills - Copilot & Claude Setup"
 description: "Agent skills for GitHub Copilot and Claude: PowerPoint automation, OCR, code simplification, book writing, skill discovery, and VS Code extensions."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aktsmm-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "powerpoint", "ocr"]
 ---
 

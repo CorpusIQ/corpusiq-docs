@@ -8,7 +8,7 @@ category: google-workspace
 setup: npx skills add googleworkspace/cli@persona-content-creator
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-persona-content-creator/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Gws Persona Content Creator - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

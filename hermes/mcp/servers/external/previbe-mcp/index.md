@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 3
 relevance: ★★
 tags: [mcp-server, market-research, saas-validation, competitor-research, audience-research, idea-validation, lean-startup, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # PreVibe MCP

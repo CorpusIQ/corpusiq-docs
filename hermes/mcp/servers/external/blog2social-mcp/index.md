@@ -7,6 +7,7 @@ added: 2026-09-30
 source: "mcpservers.org server page (docs.blog2social.com)"
 relevance: ★
 tags: [social-media, publishing, scheduling, oauth, multi-network, remote-mcp, automation]
+last_updated: "2026-10-24"
 ---
 
 # Blog2Social MCP

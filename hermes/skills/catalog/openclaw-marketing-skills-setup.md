@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw Marketing Skills - Setup Guide"
 description: "Install and configure the openclaw-marketing-skills from reason-machines/marketing-skills - campaign management, audience targeting."
-last_updated: 2026-09-17
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-marketing-skills-setup/"
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]

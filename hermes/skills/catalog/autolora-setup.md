@@ -3,7 +3,7 @@ title: AutoLoRA - Self-Fine-Tuning Hermes Skill Setup Guide
 description: Install and configure autolora - a Hermes skill that fine-tunes the agent on its own traces and hot-swaps the new model. Uses RunPod + Unsloth LoRA with Stripe-paid cost control.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/autolora-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

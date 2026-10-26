@@ -7,6 +7,7 @@ added: 2026-10-08
 source: "mcpservers.org /all (October 8, 2026 night sweep)"
 relevance: ★★★
 tags: [finance, bookkeeping, accounting, payments, budgets, reports, agents]
+last_updated: "2026-10-19"
 ---
 
 # Orla MCP

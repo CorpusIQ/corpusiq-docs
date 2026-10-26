@@ -3,7 +3,7 @@ title: "New Skills - October 8, 2026"
 description: "Skills.sh sweep (Oct 8 morning): 440 skills in the standard window plus a trending-page compensation pass; 4 new publisher guides - shadcn, Amplitude, mbfinotti, Cloudflare Security Audit."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct8-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-08"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

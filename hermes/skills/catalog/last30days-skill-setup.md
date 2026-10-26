@@ -3,7 +3,7 @@ title: "last30days Skill - Recent-Activity Research Setup"
 description: "mvanhorn/last30days-skill - 1 core skill, 32.7K installs: find projects, repos, and ecosystem activity from the last 30 days. 58.4K GitHub stars; audit findings named in Limitations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/last30days-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "discovery", "last30days"]
 ---
 

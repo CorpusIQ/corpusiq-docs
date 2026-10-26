@@ -3,7 +3,7 @@ title: "Journalism Agent Skills - Media Workflows Setup"
 description: "Setup guide for jamditis/claude-skills-journalism - 18.9K combined installs. Journalism, FOIA, verification, and data journalism skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-skills-journalism-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "journalism", "research", "media"]
 ---
 

@@ -7,6 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on mcp.gbply.net/v1 (HTTP 401 unauthorized, tools/list 401) + RFC 9728 protected resource + authorization server metadata from the vendor's own OAuth server + vendor AI connector documentation + mcpservers.org card"
 relevance: ★★★
 tags: [google-business-profile, local-seo, reviews, local-marketing, approval-queue, oauth, multi-location, agencies]
+last_updated: "2026-10-26"
 ---
 
 # GBPly MCP

@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [short-links, link-management, privacy, marketing-ops, bulk-shortening, no-tracking, stdio, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Linkonda MCP

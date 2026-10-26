@@ -3,7 +3,7 @@ title: Hermes Agent v0.21.5 Patch Release
 description: "Hermes Agent v0.21.5 - patch release rolling up 460 PRs: Desktop plugin SDK, Simple/Advanced mode, Connectors page, FR/DE/ES catalogs."
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.5/"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

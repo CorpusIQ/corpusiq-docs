@@ -7,7 +7,7 @@ maturity: beta
 source: https://github.com/42-evey/hermes-plugins
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-plugins-42evey-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

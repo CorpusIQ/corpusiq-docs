@@ -7,6 +7,7 @@ added: 2026-09-02
 source: "mcpservers.org /all JSON-LD (Sep 2, 2026 morning sweep)"
 relevance: ★★★
 tags: [mcp-server, social-media, analytics, instagram, tiktok, youtube, linkedin, creator-research]
+last_updated: "2026-10-19"
 ---
 
 # Mysocial MCP

@@ -7,6 +7,7 @@ added: 2026-09-12
 source: "mcp.so feed (craftstory) + npm @craftstory/mcp + github.com/itseez3d/craftstory-mcp"
 relevance: ★★
 tags: [video, talking-avatar, ugc, ads, content-generation, npm]
+last_updated: "2026-10-19"
 ---
 
 # CraftStory MCP

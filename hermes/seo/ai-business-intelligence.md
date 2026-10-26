@@ -1,7 +1,7 @@
 ---
 title: "AI Business Intelligence"
 description: "Setup and usage guide for AI Business Intelligence: Connect Your Tools to ChatGPT, Claude, and Perplexity. Part of the Hermes resource directory."
-last_updated: 2026-09-17
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/seo/ai-business-intelligence/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

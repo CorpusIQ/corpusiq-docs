@@ -9,7 +9,7 @@ added: 2026-08-10
 source: mcp.so
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fca-handbook-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 description: "The primary tool - evaluates which FCA Handbook entries apply to an entity. Metis Harness MCP server gives agents direct access Financial Conduct Authority."
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 

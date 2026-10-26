@@ -3,7 +3,7 @@ title: arXiv - Academic Paper Search Setup Guide
 description: Install and configure arxiv, the official Hermes Agent skill for searching academic papers via arXiv's free REST API. 77 installs, zero dependencies, no API key needed.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/arxiv-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

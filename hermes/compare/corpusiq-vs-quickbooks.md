@@ -1,6 +1,7 @@
 ---
 title: "CorpusIQ vs QuickBooks: What Each One Does"
 description: "QuickBooks is accounting software. CorpusIQ is the layer that gives AI assistants live access to QuickBooks data."
+last_updated: "2026-10-24"
 ---
 
 # CorpusIQ vs QuickBooks: What Each One Does

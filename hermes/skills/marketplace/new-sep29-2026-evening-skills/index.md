@@ -3,7 +3,7 @@ title: "Sep 29, 2026 Evening - 3 New Skill Publisher Clusters"
 description: "Skills.sh sweep: 3 new publisher guides (Riekelt Principal Engineer 120K, OpenSpec 70.7K⭐ un-parked, Dboeckli AI Agent Skills 11K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep29-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ---
 

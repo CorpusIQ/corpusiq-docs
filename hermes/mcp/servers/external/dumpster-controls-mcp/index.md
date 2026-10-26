@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (dumpstercontrols.io)"
 relevance: ★★
 tags: [field-service, dispatch, invoicing, waste-management, business-operations, remote-mcp, oauth]
+last_updated: "2026-10-19"
 ---
 
 # Dumpster Controls MCP

@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 11, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing document paperwork, legal bill review and Google Business Profile management MCP servers."
-last_updated: 2026-10-11
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october11-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

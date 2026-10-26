@@ -3,7 +3,7 @@ title: "New Skills - September 10, 2026 (Morning)"
 description: "skills.sh morning sweep: apidojo-io/social-media-skills (8.0K installs, 3 scraper skills for X, Instagram, and TikTok via Apify) - 1 new publisher cluster, 3 skills, 1 setup guide."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep10-2026/"
 robots: "index,follow"
-last_updated: "2026-09-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills", "social media", "scraping"]
 sweep_id: "2026-09-10-morning"
 new_publishers: 1

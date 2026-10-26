@@ -3,7 +3,7 @@ title: Sanity Agent Toolkit - Headless CMS Operations
 description: Sanity CMS best practices, migration, SEO/AEO, content modeling, experimentation, and Portable Text from Sanity.io. 34K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sanity-agent-toolkit-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -7,6 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [linkedin-ads, ppc, demand-gen, b2b-marketing, campaign-management, conversions, ad-platforms, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # AdPlug LinkedIn Ads MCP - B2B Campaign Control for Agents

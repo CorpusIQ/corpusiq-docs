@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (falpha.ai)"
 relevance: ★★★
 tags: [finance, equity-research, stocks, signals, sec-filings, macro, read-only, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # fAlpha MCP

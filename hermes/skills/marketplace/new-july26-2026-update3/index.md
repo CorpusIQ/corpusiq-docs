@@ -3,7 +3,7 @@ title: "New Skills - July 26, 2026 Marketplace Sweep (Update #3)"
 description: "3 new Hermes-relevant skill publishers discovered on skills.sh - Composio (28 skills, 71K⭐), Addy Osmani (20 skills, 80K⭐), Intellectronica (22 skills, 63K"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july26-2026-update3/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

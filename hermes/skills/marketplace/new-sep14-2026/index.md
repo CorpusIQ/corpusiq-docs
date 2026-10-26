@@ -3,7 +3,7 @@ title: "September 14, 2026 - Skills.sh Sweep"
 description: "Skills.sh sweep September 14, 2026: MiniMax H3 official skill bundle (15.7K installs) + reason-machines/devtools-skills catalog expansion (40 skills at 100+, 9.5K combined) - 2 setup guides, 2 below-bar parks."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep14-2026/"
 robots: "index,follow"
-last_updated: "2026-09-14"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "marketplace", "sweep"]
 ---
 

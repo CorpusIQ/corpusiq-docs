@@ -7,6 +7,7 @@ added: 2026-10-22
 source: "mcp.so /feed page 1 (card posted 2026-10-21T20:50:13Z)"
 relevance: ★★★
 tags: [seo, seo-audit, technical-seo, google-indexing, core-web-vitals, accessibility, site-health, remote-mcp, oauth]
+last_updated: "2026-10-22"
 ---
 
 # DrUrls MCP

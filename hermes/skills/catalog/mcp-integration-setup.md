@@ -3,7 +3,7 @@ title: MCP Integration - MCP Server Integration Setup
 description: "Skills from clawhub at skills.sh - mcp-integration and related MCP server integration tools. 412 clawhub skills related to MCP connectivity and workflow integration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-integration-setup/"
 robots: "index,follow"
-last_updated: "2026-09-17"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "MCP", "integration", "server", "mcp-integration"]
 ---
 

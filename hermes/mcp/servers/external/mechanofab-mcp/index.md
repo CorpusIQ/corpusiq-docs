@@ -7,6 +7,7 @@ added: 2026-10-11
 source: "chatmcp/mcpso issue #5116 + official MCP Registry (com.mechanofab/mechanofab) + live endpoint probe; catalogued at the October 11, 2026 night sweep"
 relevance: ★★★
 tags: [manufacturing, cnc, injection-molding, 3d-printing, engineering, quotes, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # MechanoFab MCP

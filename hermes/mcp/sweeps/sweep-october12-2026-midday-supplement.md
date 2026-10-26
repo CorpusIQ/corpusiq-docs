@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 12, 2026 (Midday Supplement)"
 description: "Midday supplement sweep cataloguing SHIP, an agentic software delivery platform that turns a tracker issue into a reviewed, tested pull request."
-last_updated: 2026-10-12
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october12-2026-midday-supplement/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -3,7 +3,7 @@ title: "Claw Multi-Agent Skill - Setup Guide"
 description: "OpenClaw multi-agent skill: parallel sub-agents, auto-routing and hybrid research-pipeline modes with 50-78% time savings."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claw-multi-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "openclaw"]
 ---
 

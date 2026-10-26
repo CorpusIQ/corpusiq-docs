@@ -7,6 +7,7 @@ added: 2026-10-23
 source: "chatmcp/mcpso submission #6011 (2026-10-24T03:38Z), the official MCP registry entry io.github.PravinrajV/shoptrueprofit-fee-mcp 1.0.0, and a local build of the open-source package driven with five real tool calls"
 relevance: ★★★
 tags: [ecommerce, marketplace-fees, unit-economics, profit-margin, etsy, ebay, amazon-fba, pricing, deterministic, stdio-mcp, open-source, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # ShopTrueProfit MCP

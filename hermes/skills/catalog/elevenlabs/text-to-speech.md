@@ -8,7 +8,7 @@ category: elevenlabs
 setup: npx skills add elevenlabs/skills@text-to-speech
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/elevenlabs/text-to-speech/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Text To Speech - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

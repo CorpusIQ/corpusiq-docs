@@ -7,6 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (a1-x-tech/mcp-google-tagmanager)"
 relevance: ★★★
 tags: [gtm, tag-manager, analytics, tracking, marketing-ops, google, stdio]
+last_updated: "2026-10-19"
 ---
 
 # Google Tagmanager MCP

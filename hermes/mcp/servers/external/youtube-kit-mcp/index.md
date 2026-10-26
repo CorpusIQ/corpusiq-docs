@@ -7,6 +7,7 @@ added: 2026-10-19
 source: "mcpservers.org /all page 1 (eukosh/youtube-kit)"
 relevance: ★★★
 tags: [youtube, video, analytics, content-operations, comment-moderation, uploads, multi-channel, cli, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # YouTube Kit MCP

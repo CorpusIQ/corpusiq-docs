@@ -7,6 +7,7 @@ added: 2026-09-02
 source: mcpservers.org
 relevance: ★★★
 tags: [france, company-data, due-diligence, public-records, b2b-data, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # OpenBase MCP

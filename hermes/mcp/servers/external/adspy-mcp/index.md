@@ -7,6 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on www.adspy.sh/mcp (HTTP 401 invalid_token) + RFC 9728 protected resource and authorization server metadata + vendor pricing page + mcp.so feed card 2026-10-26T09:48Z"
 relevance: ★★★
 tags: [advertising, meta-ads, google-ads, tiktok, creative-research, competitor-analysis, marketing, oauth]
+last_updated: "2026-10-26"
 ---
 
 # Adspy MCP

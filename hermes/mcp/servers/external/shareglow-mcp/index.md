@@ -7,6 +7,7 @@ added: 2026-10-11
 source: "chatmcp/mcpso #5134 (Oct 11, 2026 evening sweep)"
 relevance: ★★
 tags: [link-previews, open-graph, og-images, short-links, marketing, analytics, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Shareglow MCP

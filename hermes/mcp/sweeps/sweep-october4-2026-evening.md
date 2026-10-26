@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 4, 2026 (Evening Sweep)"
 description: "Evening sweep cataloguing 4 new business-relevant MCP servers from the mcp.so feed and mcpservers.org, each with an integration guide."
-last_updated: 2026-10-04
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october4-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

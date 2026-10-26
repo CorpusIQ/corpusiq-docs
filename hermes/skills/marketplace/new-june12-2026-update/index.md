@@ -3,7 +3,7 @@ title: June 12, 2026 (Update)  --  OpenClaw Security Suite
 description: "Afternoon sweep: 13-skill OpenClaw security suite discovered from useai-pro (UseClawPro). Flagship skill-vetter at 19,340 installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june12-2026-update/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

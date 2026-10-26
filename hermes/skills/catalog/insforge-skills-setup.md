@@ -3,7 +3,7 @@ title: "InsForge Skills - AI App Backend-as-a-Service Suite Setup"
 description: "insforge/insforge-skills - 7 skills, 144.5K combined installs. Agent skills for InsForge, the AI-app backend-as-a-service: client SDK integration, CLI-driven infra operations (tables, functions, secrets, storage, payments, crons, deploys), and debug workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/insforge-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "backend"]
 ---
 

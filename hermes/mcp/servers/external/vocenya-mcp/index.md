@@ -7,6 +7,7 @@ added: 2026-10-05
 source: mcp.so feed (Oct 5, 2026 morning sweep)
 relevance: ★★★
 tags: [business-operations, ai-receptionist, phone, calls, leads, bookings, small-business, remote-mcp, oauth]
+last_updated: "2026-10-19"
 ---
 
 # Vocenya MCP

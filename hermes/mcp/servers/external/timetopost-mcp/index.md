@@ -7,6 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3970"
 relevance: ★★★
 tags: [social-media, scheduling, approvals, autoseo, analytics, remote-mcp, oauth]
+last_updated: "2026-10-19"
 ---
 
 # TimeToPost MCP - Social Scheduling with Draft Approval and AutoSEO

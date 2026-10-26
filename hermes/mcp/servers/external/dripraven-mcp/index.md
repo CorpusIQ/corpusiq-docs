@@ -9,8 +9,7 @@ relevance: ★★
 tags: [whatsapp, messaging, campaigns, sms, marketing, automation]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dripraven-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # DripRaven MCP

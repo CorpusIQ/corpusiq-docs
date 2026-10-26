@@ -7,6 +7,7 @@ added: 2026-10-05
 source: "mcpservers.org /all (shadowwalker2014/accountable-plugin, resolved listing)"
 relevance: ★★★
 tags: [finance, accounting, bookkeeping, startups, oauth, guardrails, multi-company, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Accountable MCP

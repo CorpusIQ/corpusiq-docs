@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [crm, contacts, business-cards, networking, meetings, sales, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # ConnectMachine MCP

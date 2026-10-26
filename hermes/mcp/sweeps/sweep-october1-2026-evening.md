@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 1, 2026 (Evening Sweep)"
 description: "Evening MCP sweep: Median, Honest Elf, Cold Leads, Worthbase, Tyton, BioFlow, Proposal.biz and DoDomain catalogued."
-last_updated: 2026-10-01
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october1-2026-evening"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]
 ---

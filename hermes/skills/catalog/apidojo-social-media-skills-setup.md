@@ -3,7 +3,7 @@ title: Apidojo Social Media Skills - 3-Skill Scraper Suite Setup
 description: "apidojo-io/social-media-skills - 3 Agent Skills for scraping X (Twitter), Instagram, and TikTok data at scale via Apify actors. 8.0K skills.sh installs. Setup guide for Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apidojo-social-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "social media", "scraping", "data extraction", "apify", "twitter", "instagram", "tiktok"]
 ---
 

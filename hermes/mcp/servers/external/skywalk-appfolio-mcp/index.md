@@ -7,6 +7,7 @@ added: 2026-10-13
 source: "mcpservers.org /all (Oct 13, 2026 night sweep)"
 relevance: ★★
 tags: [property-management, appfolio, real-estate, leasing, work-orders, owner-reporting, proptech, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Skywalk MCP

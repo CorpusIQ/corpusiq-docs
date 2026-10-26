@@ -3,7 +3,7 @@ title: "OmniRoute Skills - 70.9K⭐ AI Gateway Suite Setup"
 description: "Setup guide for diegosouzapw/OmniRoute - 44 agent skills for the free MIT AI gateway: 359 providers, 1200+ models, token compression, MCP/A2A, skill importing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/omniroute-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "ai gateway", "llm routing", "mcp"]
 ---
 

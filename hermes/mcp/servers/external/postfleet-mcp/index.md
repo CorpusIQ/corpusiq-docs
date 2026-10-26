@@ -7,6 +7,7 @@ added: 2026-09-28
 source: "mcpservers.org server page (postfleet.ai)"
 relevance: ★★★
 tags: [email-infrastructure, inbox-parsing, prompt-injection, mail-automation, communication, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Postfleet MCP

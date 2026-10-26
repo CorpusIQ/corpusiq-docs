@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 9, 2026 (Night Sweep)"
 description: "Night sweep over the mcp.so feed and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy. 10 new business-relevant servers catalogued with guides: ViralHunt (social trending + publishing), Comunicate (press release distribution), CourtListener (US legal research), Soprano Connect (multi-channel messaging), ConnectMachine (contact CRM), mnemiq (tunable text-to-SQL), Sqemo (database schema design), ToHuman (AI text humanizer), Modelglass (AI model pricing) and VenuNite (US events data)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-09
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 9, 2026 (Night Sweep)

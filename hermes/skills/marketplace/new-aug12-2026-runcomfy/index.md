@@ -3,7 +3,7 @@ title: "August 12, 2026 - RunComfy Agent Skills"
 description: "Second skills.sh sweep for Aug 12: prime-skills/runcomfy-agent-skills - AI video generation, image-to-video, avatar video, video editing, music generation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-runcomfy/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

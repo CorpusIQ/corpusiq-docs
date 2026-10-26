@@ -3,7 +3,7 @@ title: "🆕 July 18, 2026 - 4 New Hermes-Agent Skill Repos"
 description: "4 new Hermes-relevant skill repos discovered: SeanJ1ang design-judge-skills (25★, 5 skills for design award workflows), loremaster-ai PM skill pack (11"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july18-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

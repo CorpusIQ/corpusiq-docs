@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (www-honestelf-com-docs-mcp)"
 relevance: ★★
 tags: [legal, e-filing, courts, texas, compliance, legal-ops, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Honest Elf MCP

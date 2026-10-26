@@ -7,6 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (twelfth-ai-developers-mcp)"
 relevance: ★★
 tags: [productivity, workspace, read-only, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Twelfth MCP

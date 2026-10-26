@@ -9,8 +9,7 @@ relevance: ★★★
 tags: [ads, meta, tiktok, pinterest, creative, ugc, marketing, ecommerce]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/admake-ai-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # AdMake AI MCP

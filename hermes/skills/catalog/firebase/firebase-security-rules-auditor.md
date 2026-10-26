@@ -8,7 +8,7 @@ category: firebase
 setup: npx skills add firebase/agent-skills@firebase-security-rules-auditor
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-security-rules-auditor/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Firebase Security Rules Auditor"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

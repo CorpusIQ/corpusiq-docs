@@ -3,7 +3,7 @@ title: "Coinos Skills - AiCoin Crypto Trading Suite Setup"
 description: "Setup guide for aicoincom/coinos-skills - 7 agent skills for the AiCoin crypto toolkit: real-time prices, K-lines, freqtrade, hyperliquid."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/coinos-trading-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-27"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "crypto", "trading", "market data"]
 ---
 

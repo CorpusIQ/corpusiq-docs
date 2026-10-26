@@ -7,6 +7,7 @@ added: 2026-08-27
 source: "mcp.so feed (agendaforge-50742c)"
 relevance: ★★
 tags: [events, event-management, conferences, cfp, speakers, attendees, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # AgendaForge MCP

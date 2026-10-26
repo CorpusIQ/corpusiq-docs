@@ -7,6 +7,7 @@ added: 2026-08-24
 source: mcpservers.org /all page 2
 relevance: ★★
 tags: [procurement, rfq, quoting, erp, electronics, supply-chain, python]
+last_updated: "2026-10-19"
 ---
 
 # Electronics RFQ Agent MCP

@@ -7,6 +7,7 @@ added: 2026-08-31
 source: "mcp.so GitHub issue #3845"
 relevance: ★★
 tags: [mcp-server, jobs, hiring, recruiting, ai-jobs, robotics, workforce-data, stdio-mcp]
+last_updated: "2026-10-19"
 ---
 
 # OpenHire MCP

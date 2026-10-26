@@ -7,6 +7,7 @@ added: 2026-08-14
 source: mcp.so
 relevance: ★★★
 tags: [social-media-management, social-scheduling, unified-inbox, social-listening, hashtag-research, analytics, marketing, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # RADAAR MCP

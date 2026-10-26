@@ -3,7 +3,7 @@ title: "Frames Engineering Skills - Agent Tools Setup"
 description: "Four agent skills - AgentWallet, Frames Registry, websh, and Wordspace - for agent tooling."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/frames-engineering-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "agent tooling"]
 ---
 

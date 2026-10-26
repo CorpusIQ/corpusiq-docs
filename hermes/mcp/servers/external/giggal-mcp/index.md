@@ -7,6 +7,7 @@ added: 2026-08-20
 source: mcpservers.org
 relevance: ★★
 tags: [email-verification, deliverability, catch-all-detection, lead-validation, sales-operations, list-hygiene, remote-mcp, api-key]
+last_updated: "2026-10-19"
 ---
 
 # Giggal.ai MCP

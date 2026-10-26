@@ -9,8 +9,7 @@ relevance: ★★★
 tags: [cold-outreach, email, crm, sales, b2b, deliverability, campaigns]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/jaxsuite-ai-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # JaxSuite AI MCP

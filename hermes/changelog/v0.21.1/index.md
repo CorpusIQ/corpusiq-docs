@@ -3,7 +3,7 @@ title: Hermes Agent v0.21.1 Patch Release
 description: Hermes Agent v0.21.1 (v2026.9.7) - Patch release rolling up 632 PRs since v0.21.0. Modularization, startup performance, provider and model updates, MCP authorization, cron delivery fixes.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.1/"
 robots: "index,follow"
-last_updated: "2026-09-28"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

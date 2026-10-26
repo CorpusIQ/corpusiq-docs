@@ -7,6 +7,7 @@ added: 2026-09-30
 source: "mcpservers.org server page (ownware.io)"
 relevance: ★★
 tags: [erp, self-hosted, procurement, accounting, operations, approval-gated, audit-log, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Ownware Catalogue MCP

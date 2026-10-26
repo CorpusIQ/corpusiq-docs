@@ -3,7 +3,7 @@ title: Hermes Marketing Dashboard
 description: Open-source marketing operations dashboard with CRM, outreach, content ops, and analytics. Next.js + OpenClaw + SQLite. 966+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

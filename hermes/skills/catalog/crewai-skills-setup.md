@@ -3,7 +3,7 @@ title: "CrewAI Skills - Official Agent Design Suite Setup"
 description: "Setup guide for crewAIInc/skills - 4 official CrewAI skills for AI agents: scaffolding, agent design, task design, and docs lookup. ~29.7K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/crewai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-04"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "crewai", "agent framework", "multi-agent"]
 ---
 

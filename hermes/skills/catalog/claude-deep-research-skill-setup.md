@@ -3,7 +3,7 @@ title: "Deep Research Skill - Citation-Tracked Research Setup"
 description: "199-biotechnologies/claude-deep-research-skill - 9.4K installs: structured research pipeline with evidence persistence, source identity management, and claim-level verification."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-deep-research-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "citations"]
 ---
 

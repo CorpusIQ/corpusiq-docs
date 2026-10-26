@@ -3,7 +3,7 @@ title: "Paperthin - Agentic Design Patterns Toolkit Setup"
 description: "lilmgenius/paperthin - 36 skills, 22.1K combined installs. Low-level agentic design patterns: SSOT consolidation, context debloating, fact-checking, Feynman explanations, and a ground-zero reset (re0) workflow family for keeping agents sharp mid-task."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/paperthin-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "context discipline"]
 ---
 

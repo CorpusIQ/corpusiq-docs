@@ -7,6 +7,7 @@ added: 2026-10-10
 source: "mcpservers.org /all (page 2) + vendor page (backworkhealth.com docs); catalogued at the October 10, 2026 evening sweep"
 relevance: ★★★
 tags: [healthcare, medicare, prior-authorization, claims, compliance, clinical-ops, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Backwork MCP

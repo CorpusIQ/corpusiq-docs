@@ -3,7 +3,7 @@ title: "Mastra AI Skills - TypeScript Agent Framework Setup"
 description: "mastra-ai/skills - 5 skills, 32.6K installs: official Mastra reference guide for building agents, workflows, tools, memory, and RAG against current framework APIs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mastra-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-18"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "mastra", "typescript", "ai agents", "workflows"]
 ---
 

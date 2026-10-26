@@ -7,6 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (veritahire-com-for-ai)"
 relevance: ★★★
 tags: [jobs, recruiting, hiring, careers, salary, staffing, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # VeritaHire MCP

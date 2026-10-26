@@ -3,7 +3,7 @@ title: "Redis Agent Skills - Official Data Modeling & Caching Setup"
 description: "Redis' official agent skill collection: data modeling, semantic caching, connections, security, observability, clustering, and search. 19.9K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/redis-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-01"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "redis", "database", "caching", "data"]
 ---
 

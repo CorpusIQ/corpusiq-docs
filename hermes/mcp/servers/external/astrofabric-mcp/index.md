@@ -7,6 +7,7 @@ added: 2026-08-27
 source: "mcpservers.org /all page 2 (www-astrofabric-ai-docs) - upgraded from Aug 26 thin-docs skip, endpoint now verified"
 relevance: ★★★
 tags: [growth-ops, seo-audit, geo, ai-visibility, email-deliverability, hubspot, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # AstroFabric MCP

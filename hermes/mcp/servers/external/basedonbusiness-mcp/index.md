@@ -7,7 +7,7 @@ language: N/A (Hosted SaaS)
 transport: Streamable HTTP
 auth: API Key
 category: Marketing & Lead Gen
-last_updated: 2026-09-17
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/basedonbusiness-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

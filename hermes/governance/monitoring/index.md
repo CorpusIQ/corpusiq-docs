@@ -3,7 +3,7 @@ title: "System Monitoring - CorpusIQ Docs"
 description: Health monitoring for autonomous agent deployments. Drift detection, alerting, performance audits, system governance.
 canonical: "https://www.corpusiq.io/docs/hermes/governance/monitoring/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

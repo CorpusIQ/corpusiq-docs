@@ -7,6 +7,7 @@ added: 2026-10-12
 source: "chatmcp/mcpso issue #5189 (Oct 12, 2026 midday sweep)"
 relevance: ★★
 tags: [property-management, rentals, landlord, estimating, deposits, compliance, keyless, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Tektolo MCP

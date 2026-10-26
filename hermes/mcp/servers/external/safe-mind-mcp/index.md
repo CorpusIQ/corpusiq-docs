@@ -7,6 +7,7 @@ added: 2026-08-28
 source: "mcp.so GitHub issue #3806"
 relevance: ★★
 tags: [mcp-server, compliance, hr, germany, risk-assessment, stdio]
+last_updated: "2026-10-19"
 ---
 
 # Safe Mind MCP

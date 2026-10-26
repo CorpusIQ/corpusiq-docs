@@ -7,6 +7,7 @@ added: 2026-09-02
 source: mcp.so
 relevance: ★★★
 tags: [linkedin, cold-outreach, lead-generation, sales-automation, email, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # CampaignStack MCP

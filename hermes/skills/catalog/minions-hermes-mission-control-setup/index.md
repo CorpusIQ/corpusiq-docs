@@ -6,7 +6,7 @@ installs: 173
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/minions-hermes-mission-control-setup/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -7,6 +7,7 @@ added: 2026-09-03
 source: "mcp.so GitHub issue #3917"
 relevance: ★★★
 tags: [shopify, ecommerce, competitor-analysis, market-research, lead-generation, remote-mcp, api-key]
+last_updated: "2026-10-19"
 ---
 
 # Neonjelly MCP

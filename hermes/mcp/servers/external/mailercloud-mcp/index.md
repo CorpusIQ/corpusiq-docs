@@ -7,6 +7,7 @@ added: 2026-09-08
 source: mcp.so
 relevance: ★★★
 tags: [email-marketing, campaigns, contacts, deliverability, automation, email, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Mailercloud MCP

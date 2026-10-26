@@ -7,6 +7,7 @@ added: 2026-08-29
 source: "chatmcp/mcpso issue #3821"
 relevance: ★★
 tags: [mcp-server, sepa, iso-20022, swift, payments, banking, treasury, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # ISO 20022 Generator MCP

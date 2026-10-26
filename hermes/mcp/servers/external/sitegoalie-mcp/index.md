@@ -7,6 +7,7 @@ added: 2026-10-05
 source: "chatmcp/mcpso issue #4758 (com.sitegoalie/sitegoalie)"
 relevance: ★★★
 tags: [wordpress, agencies, website-management, monitoring, uptime, updates, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Sitegoalie MCP

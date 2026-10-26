@@ -3,7 +3,7 @@ title: "Vercel AI SDK Skills - TypeScript AI Development Setup"
 description: "vercel/ai - 3 skills, 51.1K installs: ai-sdk documentation, v6-to-v7 migration, and framework guidance from the Vercel team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-16"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "ai sdk", "typescript", "vercel"]
 ---
 

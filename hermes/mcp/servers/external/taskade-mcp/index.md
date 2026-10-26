@@ -7,6 +7,7 @@ added: 2026-09-11
 source: "chatmcp/mcpso GitHub issue #4061"
 relevance: ★★★
 tags: [taskade, workspace, project-management, tasks, ai-agents, productivity, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Taskade MCP

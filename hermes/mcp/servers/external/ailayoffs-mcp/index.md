@@ -7,6 +7,7 @@ added: 2026-09-28
 source: "mcpservers.org server page (ailayoffs.org)"
 relevance: ★★
 tags: [job-market, layoffs, labor-data, datasets, research, data-analytics, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # AI Layoffs MCP

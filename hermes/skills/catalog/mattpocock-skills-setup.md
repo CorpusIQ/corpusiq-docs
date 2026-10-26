@@ -3,7 +3,7 @@ title: "19 Matt Pocock TypeScript Skills for Hermes Agent"
 description: "Install 19 Matt Pocock TypeScript and React skills for AI agents. Code review, refactoring, and implementation workflows. 1.7M+ combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 ---
 

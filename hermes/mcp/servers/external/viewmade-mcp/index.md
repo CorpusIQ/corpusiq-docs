@@ -9,8 +9,7 @@ relevance: ★★
 tags: [youtube, seo, video, content-marketing, production]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/viewmade-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # ViewMade MCP

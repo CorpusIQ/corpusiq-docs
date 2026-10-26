@@ -3,7 +3,7 @@ title: "New Skills - July 22, 2026 Marketplace Sweep"
 description: "8 new Hermes-relevant skills discovered on skills.sh - multi-agent orchestration, PR review, web scraping, MCP integration, Docker deployment, session"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july22-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

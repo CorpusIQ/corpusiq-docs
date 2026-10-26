@@ -3,7 +3,7 @@ title: "Impeccable Writing Framework - Setup Guide"
 description: Install, configure, and use pbakaus/impeccable - an AI writing quality framework that teaches Hermes style rules, structure templates, and content arrangement. 90K combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

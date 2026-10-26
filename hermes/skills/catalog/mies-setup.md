@@ -3,7 +3,7 @@ title: "Mies - Design Taste Skill for Interfaces Setup"
 description: "Setup guide for deeflect/mies - 8.8K combined installs. A design-taste skill that strips what a UI does not need, then perfects what is left."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mies-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "ui craft"]
 ---
 

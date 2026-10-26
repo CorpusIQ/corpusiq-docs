@@ -7,6 +7,7 @@ added: 2026-08-13
 source: mcpservers.org
 relevance: ★★★
 tags: [ad-analytics, creative-intelligence, marketing, competitive-intelligence, kpi, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Alison AI MCP

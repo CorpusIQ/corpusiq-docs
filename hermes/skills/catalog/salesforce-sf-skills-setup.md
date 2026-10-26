@@ -3,7 +3,7 @@ title: Salesforce Skills Library (sf-skills) - 330+ Agent Skills
 description: "forcedotcom/sf-skills - Salesforce's official curated agent skills library: Apex, Flow, SOQL, LWC, Agentforce, Experience Cloud, Commerce B2B, Data360, Omnistudio, DX DevOps. 100+ skills indexed on skills.sh, ~500K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/salesforce-sf-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "salesforce", "crm", "apex", "agentforce", "lwc"]
 ---
 

@@ -2,6 +2,7 @@
 title: "CorpusIQ vs Viktor Migration: From Slack App to Data Layer"
 description: "Already using Viktor in Slack? CorpusIQ works alongside it as the data layer, or replaces it. Compare the migration path, costs, and what you keep."
 tags: [compare, migration, viktor, ai employee]
+last_updated: "2026-10-19"
 ---
 
 # CorpusIQ vs Viktor Migration

@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 2
 relevance: ★★
 tags: [mcp-server, web-analytics, cookieless, gdpr, privacy-first, funnels, analytics, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Cookie Free Analytics MCP

@@ -3,7 +3,7 @@ title: "Srinitude Skills - Portable Agent Skills Setup"
 description: "Setup guide for srinitude/skills - 10.6K combined installs. 23 portable skills with validation suites and a bundled local MCP server."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/srinitude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "skill infrastructure", "mcp", "validation"]
 ---
 

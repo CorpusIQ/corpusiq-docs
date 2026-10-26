@@ -7,6 +7,7 @@ added: 2026-09-12
 source: "mcp.so feed (formlm slug) + GitHub formlm/cli"
 relevance: ★★
 tags: [forms, surveys, assessments, quizzes, document-generation, productivity, stdio, npm]
+last_updated: "2026-10-19"
 ---
 
 # FormLM MCP

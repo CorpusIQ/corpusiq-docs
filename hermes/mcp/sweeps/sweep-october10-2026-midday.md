@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 10, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing live packaging cost indices with quote checks and supplier RFQs, plus the full issue-window and directory-source dispositions."
-last_updated: 2026-10-10
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october10-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

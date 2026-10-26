@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 2
 relevance: ★★
 tags: [mcp-server, trading, portfolio, market-data, indian-markets, smartapi, options, self-hosted]
+last_updated: "2026-10-24"
 ---
 
 # AngelOne MCP

@@ -2,6 +2,7 @@
 title: "CorpusIQ vs Viktor Pricing: Flat Plans vs Credit Metering"
 description: "Viktor charges by credits ($50-$50K per month depending on usage). CorpusIQ uses flat monthly plans. Compare the real costs of AI business assistants."
 tags: [compare, pricing, viktor, ai employee]
+last_updated: "2026-10-19"
 ---
 
 # CorpusIQ vs Viktor Pricing

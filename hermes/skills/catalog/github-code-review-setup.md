@@ -3,7 +3,7 @@ title: github-code-review - Setup Guide
 description: Automate GitHub PR reviews, diffs, and inline comments via gh CLI or REST API for Hermes agents - 281 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/github-code-review-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: "mcp-architecture - CorpusIQ Docs"
 description: Field guide for operating a 50k+ LOC MCP server with multi-connector substrate. Where files live, the per-connector pattern, deployment topology, dual-render-path traps, and the discipline that keeps it from rotting silently.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/mcp-architecture/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

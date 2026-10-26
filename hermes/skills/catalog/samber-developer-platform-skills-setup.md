@@ -3,7 +3,7 @@ title: "Samber Developer Platform Skills - API & DX Setup"
 description: "Setup guide for samber/developer-platform-skills - 95.1K combined installs. 32 skills for public APIs, webhooks, SDKs, and the developer portal."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samber-developer-platform-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "developer platform", "api design", "sdk engineering"]
 ---
 

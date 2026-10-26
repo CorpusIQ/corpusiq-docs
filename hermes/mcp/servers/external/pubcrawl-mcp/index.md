@@ -7,6 +7,7 @@ added: 2026-09-29
 source: mcpservers.org
 relevance: ★★★
 tags: [pubmed, drug-labels, clinical-trials, fda, healthcare, citations, literature, self-hosted]
+last_updated: "2026-10-24"
 ---
 
 # PubCrawl MCP

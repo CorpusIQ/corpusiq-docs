@@ -13,8 +13,7 @@ transport: Streamable HTTP
 auth: Bearer token (API key)
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkedmash-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-24"
 ---
 
 # LinkedMash MCP Server

@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 1
 relevance: ★★★
 tags: [mcp-server, referral-marketing, affiliate, growth, rewards, webhooks, analytics, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # GrowSurf MCP

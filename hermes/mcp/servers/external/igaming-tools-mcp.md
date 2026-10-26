@@ -8,7 +8,7 @@ verified: true
 remote_endpoint: "https://i-gaming.tools/docs/mcp/"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/igaming-tools-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 title: "iGaming Tools MCP - Gaming Industry Reference Data"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 

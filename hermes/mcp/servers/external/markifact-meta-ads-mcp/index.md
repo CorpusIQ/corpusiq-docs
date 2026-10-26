@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcpservers.org listing + markifact.com/meta-ads-mcp"
 relevance: ★★★
 tags: [meta-ads, facebook-ads, instagram-ads, marketing, campaign-management, creative, approval-gated, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Markifact Meta Ads MCP

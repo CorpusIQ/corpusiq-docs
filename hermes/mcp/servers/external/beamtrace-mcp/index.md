@@ -7,6 +7,7 @@ added: 2026-09-07
 source: mcp.so feed
 relevance: ★★★
 tags: [geo, ai-visibility, seo, brand-tracking, remote-mcp, elfsight]
+last_updated: "2026-10-19"
 ---
 
 # Beamtrace MCP - AI Visibility Score Analysis for Agents

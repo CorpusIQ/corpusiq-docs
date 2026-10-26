@@ -8,7 +8,7 @@ tags:
   - automation-templates
   - industry-examples
   - hermes-outputs
-last_updated: 2026-09-17
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/"
 robots: "index,follow"
 

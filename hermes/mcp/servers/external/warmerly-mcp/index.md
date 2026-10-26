@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + docs.warmerly.com/ai"
 relevance: ★★★
 tags: [cold-email, b2b-leads, email-verification, deliverability, spf, dkim, dmarc, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Warmerly MCP

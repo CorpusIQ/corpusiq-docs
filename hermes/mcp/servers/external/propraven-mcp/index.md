@@ -7,6 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3953"
 relevance: ★★★
 tags: [real-estate, property-data, parcels, deals, x402, remote-mcp, stdio]
+last_updated: "2026-10-19"
 ---
 
 # PropRaven MCP - US Parcel and Property Intelligence for Agents

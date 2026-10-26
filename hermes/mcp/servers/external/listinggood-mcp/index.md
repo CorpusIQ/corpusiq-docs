@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcp.so
 relevance: ★★
 tags: [amazon, ecommerce, listing-optimization, ai-readiness, amazon-seller, marketplace, compliance, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ListingGood MCP

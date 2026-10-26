@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + github.com/JWPapi/deeplead-mcp"
 relevance: ★★★
 tags: [b2b-data, lead-generation, email-finder, phone-numbers, company-enrichment, decision-makers, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Deeplead MCP

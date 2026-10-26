@@ -7,6 +7,7 @@ added: 2026-10-08
 source: "mcpservers.org /all (October 8, 2026 evening sweep)"
 relevance: ★★★
 tags: [advertising, paid-media, google-ads, microsoft-ads, meta-ads, linkedin-ads, tiktok-ads, ga4, google-tag-manager, campaign-management, approval-gated, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # PaidSync MCP

@@ -7,6 +7,7 @@ added: 2026-08-13
 source: mcp.so
 relevance: ★★
 tags: [domains, domain-registration, branding, business-ops, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Just Domain MCP

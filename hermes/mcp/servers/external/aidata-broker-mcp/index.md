@@ -7,6 +7,7 @@ added: 2026-10-15
 source: "mcpservers.org /all (October 15, 2026 evening sweep)"
 relevance: ★★
 tags: [ai-training-data, data-licensing, market-rates, benchmarking, public-data, keyless, legal]
+last_updated: "2026-10-19"
 ---
 
 # AIData.Broker MCP

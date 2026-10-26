@@ -7,6 +7,7 @@ added: 2026-08-31
 source: "mcpservers.org /all (newest-first page, Aug 31 midday sweep)"
 relevance: ★★★
 tags: [mcp-server, b2b, comparison, saas, voip, email, seo, geo, aeo]
+last_updated: "2026-10-19"
 ---
 
 # Saaskly MCP

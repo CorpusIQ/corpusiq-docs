@@ -3,7 +3,7 @@ title: Claude Video Watch Skill - Agent Video Input Setup
 description: "bradautomates/claude-video - watch (10.1K installs): gives agents a video input via captions, frame extraction, and timestamped transcripts (native captions first, Whisper fallback). Snyk audit: Fail."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-video-watch-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "video", "transcription", "multimodal"]
 ---
 

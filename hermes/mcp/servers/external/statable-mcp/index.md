@@ -7,6 +7,7 @@ added: 2026-09-14
 source: "mcp.so feed (statable) + vendor docs at statable.com/docs/integrations/mcp/"
 relevance: ★★
 tags: [analytics, web-analytics, privacy, cookieless, gdpr, eu, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Statable MCP

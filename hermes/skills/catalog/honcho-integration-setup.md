@@ -3,7 +3,7 @@ title: Honcho Integration  --  Setup Guide for Hermes Agents
 description: Complete setup guide for honcho-integration  --  persistent agent memory, session management, and peer context for Hermes agents via the Honcho MCP server.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/honcho-integration-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

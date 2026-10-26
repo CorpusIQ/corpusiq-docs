@@ -3,7 +3,7 @@ title: "Claude Office Skills - CorpusIQ Docs"
 description: "Hermes Agent skills for Claude Office. 4 skills with install commands, triggers, and setup steps for each."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

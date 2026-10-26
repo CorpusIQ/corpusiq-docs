@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [partners, partner-program, affiliate, commissions, prm, gtm, sales-operations, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # SoundGTM MCP

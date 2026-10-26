@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 2
 relevance: ★★★
 tags: [mcp-server, company-data, french-registry, siren, ownership, due-diligence, business-intelligence, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Insourcia MCP

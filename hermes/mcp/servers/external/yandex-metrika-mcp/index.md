@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [web-analytics, yandex-metrika, traffic-analysis, marketing-analytics, ecommerce-analytics, reporting, self-hosted]
+last_updated: "2026-10-24"
 ---
 
 # Yandex Metrika MCP

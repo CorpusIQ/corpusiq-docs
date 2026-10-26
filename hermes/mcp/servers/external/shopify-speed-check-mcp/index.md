@@ -7,6 +7,7 @@ added: 2026-10-21
 source: "mcp.so /feed page 1 (card shopify-speed-check, posted 17:16Z)"
 relevance: ★★★
 tags: [shopify, ecommerce, web-performance, core-web-vitals, pagespeed, merchant-economics, remote-mcp, keyless]
+last_updated: "2026-10-21"
 ---
 
 # Shopify Speed Check MCP

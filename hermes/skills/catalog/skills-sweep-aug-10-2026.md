@@ -8,7 +8,7 @@ new_skills: 33
 guides_drafted: 14
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-sweep-aug-10-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

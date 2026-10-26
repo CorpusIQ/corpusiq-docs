@@ -3,7 +3,7 @@ title: "Claude Design Skillstack - 3D & Animation Setup"
 description: "Setup guide for freshtechbro/claudedesignskills - 60.8K combined installs. A 3D/WebGL, animation, and modern web design skillstack for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claudedesignskills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "webgl", "animation", "web design"]
 ---
 

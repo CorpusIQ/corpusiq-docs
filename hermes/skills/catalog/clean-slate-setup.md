@@ -3,7 +3,7 @@ title: Clean Slate - Session-End Verification Skill Setup Guide
 description: "Install and configure clean-slate, the session-end verification skill that turns. Source: sidhartha1s/clean-slate."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clean-slate-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

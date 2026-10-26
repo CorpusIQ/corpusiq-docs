@@ -3,7 +3,7 @@ title: "Amplihack Skills - Agentic Coding Setup"
 description: "Agentic-coding framework skills: cybersecurity, legal, and psychology analysts plus Mermaid diagram and PPTX generators (~19.9K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/amplihack-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "agentic coding", "automation"]
 ---
 

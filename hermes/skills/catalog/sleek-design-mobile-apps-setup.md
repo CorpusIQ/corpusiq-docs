@@ -3,7 +3,7 @@ title: "Sleek Design Mobile Apps - AI Mobile App Design Skill Setup"
 description: "designed-by-ai/skills (sleekdotdesign/agent-skills) - design-mobile-apps, 680.6K installs, 572 GitHub stars. Sleek's official agent skill for designing mobile apps and UI screens via the sleek.design REST API - projects, chats, components, and screenshot rendering with device-flow API key auth."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sleek-design-mobile-apps-setup/"
 robots: "index,follow"
-last_updated: "2026-10-08"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "mobile design", "design", "sleek"]
 ---
 

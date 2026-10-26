@@ -9,8 +9,7 @@ relevance: ★★
 tags: [okr, kpi, performance-management, project-management, hr, productivity, oauth]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/flowyteam-okr-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-19"
 ---
 
 # FlowyTeam OKR MCP

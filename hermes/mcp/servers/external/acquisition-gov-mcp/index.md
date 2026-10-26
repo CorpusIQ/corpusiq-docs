@@ -7,6 +7,7 @@ added: 2026-08-24
 source: "chatmcp/mcpso issue #3720"
 relevance: ★★★
 tags: [government, procurement, far, acquisition, compliance, stdio, federal-contracting]
+last_updated: "2026-10-19"
 ---
 
 # Acquisition.gov MCP

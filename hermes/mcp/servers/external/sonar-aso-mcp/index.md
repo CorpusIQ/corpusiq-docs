@@ -7,6 +7,7 @@ added: 2026-08-18
 source: mcp.so homepage
 relevance: ★★
 tags: [aso, app-store, google-play, keyword-research, rank-tracking, reviews, revenue-estimates, marketing]
+last_updated: "2026-10-19"
 ---
 
 # Sonar ASO MCP

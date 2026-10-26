@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 14, 2026 (Evening Sweep)"
 description: "Evening sweep over the mcp.so feed (30 server blocks via the r.jina.ai reader proxy), chatmcp/mcpso issues #4135-#4139, the mcp.so homepage recentServers (14 fresh blocks) and a fresh mcpservers.org /all page-1 crawl via the r.jina.ai reader proxy. 9 new business-relevant servers catalogued with guides: Helio MCP (open-source governance proxy for agent tool calls), geolint MCP (AI-search readiness linter, 51 rules), Serp Sidekick MCP (live SEO and AI-visibility data, 15 tools), Prism MCP (contract deadline reader, 8 tools), Nebelus MCP (governed agent building for regulated industries, ~48 tools), CherryShot MCP (product photography and video ads), Foliyo MCP (branded client reports and proposals), Convert.Online MCP (file conversion across 400+ formats) and RankJot MCP (real Google rankings in one tool)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-14
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 14, 2026 (Evening Sweep)

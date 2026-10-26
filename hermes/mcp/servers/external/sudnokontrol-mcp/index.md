@@ -7,6 +7,7 @@ added: 2026-08-24
 source: "chatmcp/mcpso issue #3733"
 relevance: ★★
 tags: [maritime, vessels, ship-registry, trade-compliance, ukraine, due-diligence, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # SudnoKontrol MCP

@@ -3,7 +3,7 @@ title: "Ognjen Founder Skills - Viral Growth & Content"
 description: Viral hook creation, SOP generation, and brand copywriting with 2.9K+ combined installs. 18 proven hook patterns with psychology-backed trigger words for social media growth.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ognjengt-founder-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

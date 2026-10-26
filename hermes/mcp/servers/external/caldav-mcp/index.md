@@ -7,6 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3958"
 relevance: ★★
 tags: [caldav, calendar, scheduling, stdio, productivity, local]
+last_updated: "2026-10-19"
 ---
 
 # caldav-mcp - Calendar Operations over CalDAV for Agents

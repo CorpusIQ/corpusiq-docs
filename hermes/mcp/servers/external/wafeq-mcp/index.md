@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [accounting, invoicing, bookkeeping, uae-business, vat, financial-operations, erp, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Wafeq MCP

@@ -3,7 +3,7 @@ title: Session Handoff  --  Anti-Amnesia Pattern
 description: How autonomous agents recover context after restart  --  session handoff, auto-recovery, and persistent state across sessions
 canonical: "https://www.corpusiq.io/docs/hermes/knowledge/session-handoff/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

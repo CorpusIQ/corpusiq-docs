@@ -3,7 +3,7 @@ title: "Frontend God Mode - Design Skills Bundle Setup"
 description: "Setup guide for shawnchee/frontend-god-mode - a single skill bundling famous frontend design skills for high-polish UI output."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/frontend-god-mode-setup/"
 robots: "index,follow"
-last_updated: "2026-09-27"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "frontend", "design", "ui"]
 ---
 

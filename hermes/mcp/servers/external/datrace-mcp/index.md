@@ -7,6 +7,7 @@ added: 2026-10-09
 source: "mcpservers.org /all; carried hold re-checked at the October 9, 2026 evening sweep"
 relevance: ★★★
 tags: [amazon, e-commerce, market-research, keyword-research, asin, competitive-intelligence, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Datrace MCP

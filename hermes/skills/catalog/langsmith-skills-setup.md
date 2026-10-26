@@ -3,7 +3,7 @@ title: "LangSmith Skills - LLM Evaluation & Tracing Setup"
 description: "Setup guide for langchain-ai/langsmith-skills - 14.4K combined installs. Official LangSmith skills for tracing, datasets, and evaluation engineering."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langsmith-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "langsmith", "llm observability", "evals", "tracing"]
 ---
 

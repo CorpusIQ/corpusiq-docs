@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 14, 2026 (Evening Sweep)"
 description: "Evening sweep cataloguing a Mitsubishi PLC workbench, an agent-native Delaware C-corp formation rail, and free UK Corporation Tax calculators."
-last_updated: 2026-10-14
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october14-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -6,7 +6,7 @@ repo: https://github.com/salt-vrn/hermes-session-maintenance
 license: MIT
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-session-maintenance-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

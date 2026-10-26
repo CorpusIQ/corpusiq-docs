@@ -7,6 +7,7 @@ added: 2026-08-24
 source: mcpservers.org /all page 3
 relevance: ★★★
 tags: [security, prompt-injection, firewall, sanitization, rag, sybil-defense, fastmcp]
+last_updated: "2026-10-19"
 ---
 
 # Poison Armor MCP

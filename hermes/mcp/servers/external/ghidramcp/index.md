@@ -7,6 +7,7 @@ added: 2026-10-11
 source: "Ecosystem discovery scan (LaurieWired/GhidraMCP); catalogued at the October 11, 2026 targeted addition"
 relevance: ★★★
 tags: [reverse-engineering, ghidra, decompiler, binary-analysis, security, local-first, headless]
+last_updated: "2026-10-19"
 ---
 
 # GhidraMCP

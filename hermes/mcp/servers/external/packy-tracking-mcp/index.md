@@ -7,6 +7,7 @@ added: 2026-08-29
 source: mcpservers.org homepage
 relevance: ★★
 tags: [mcp-server, tracking, logistics, shipping, couriers, webhooks, e-commerce, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Packy Tracking MCP

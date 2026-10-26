@@ -10,7 +10,7 @@ tags:
   - compliance reporting
   - AI agent
   - public sector
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/government/"
 robots: "index,follow"
 

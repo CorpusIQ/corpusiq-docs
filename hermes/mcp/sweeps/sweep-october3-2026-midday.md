@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 3, 2026 (Midday Sweep)"
 description: "Midday sweep of mcp.so and mcpservers.org cataloguing two new business-relevant MCP servers: Toffu for ad account operations and RankOrg for SEO content."
-last_updated: 2026-10-03
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp", "discovery"]

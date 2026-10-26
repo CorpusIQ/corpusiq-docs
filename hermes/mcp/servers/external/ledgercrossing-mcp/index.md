@@ -7,6 +7,7 @@ added: 2026-10-12
 source: "mcpservers.org /all (Oct 12, 2026 evening sweep)"
 relevance: ★★
 tags: [quickbooks, accounting, bookkeeping, desktop, qbxml, erp, finance-ops, local-mcp]
+last_updated: "2026-10-19"
 ---
 
 # LedgerCrossing MCP

@@ -3,7 +3,7 @@ title: "Lenny Skills - Setup Guide"
 description: Product management, competitive analysis, PRD writing, brand storytelling, startup ideation, and vibe coding from Lenny's Newsletter. 18K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lenny-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

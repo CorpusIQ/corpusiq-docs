@@ -7,6 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on podbenchmark.com/api/mcp (initialize 200 on protocol 2025-06-18, tools/list 200 with 10 tools, two executed calls returning supplier and category payloads) + vendor site podbenchmark.com + mcpservers.org card + official MCP registry entry com.podbenchmark/podbenchmark"
 relevance: ★★★
 tags: [print-on-demand, ecommerce, supplier-pricing, product-sourcing, margin, shopify, printful, printify]
+last_updated: "2026-10-26"
 ---
 
 # POD Benchmark MCP

@@ -7,6 +7,7 @@ added: 2026-09-03
 source: mcpservers.org
 relevance: ★★
 tags: [invoicing, time-tracking, spreadsheets, pdf, small-business, finance-ops, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # TheLuckyStrike Ops Suite

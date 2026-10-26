@@ -3,6 +3,7 @@ title: "MCP Discovery Sweep - August 22, 2026 (Evening)"
 date: 2026-08-22
 tags: [mcp-sweep, discovery, catalog]
 description: "mcp.so Feed (newest 30) + mcpservers.org /all pages 1-3 + live endpoint probes; 4 catalogued with guides, 10 skipped"
+last_updated: "2026-10-19"
 ---
 
 # MCP Discovery Sweep - August 22, 2026 (Evening)

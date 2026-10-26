@@ -7,6 +7,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3769"
 relevance: ★★
 tags: [compliance, screening, debarment, sanctions, vendor-due-diligence, audit, stdio, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # ScreenVerity MCP

@@ -3,7 +3,7 @@ title: "CodeStable Skills - AI Coding Workflow Setup"
 description: "Human-in-the-loop AI coding workflow: requirements, architecture, features, issues, and decisions stay controllable and traceable."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/codestable-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "ai coding", "workflow"]
 ---
 

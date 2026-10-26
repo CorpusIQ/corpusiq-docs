@@ -7,6 +7,7 @@ added: 2026-08-30
 source: "mcp.so feed (listed Aug 15, 2026; first evaluated Aug 30)"
 relevance: ★★★
 tags: [mcp-server, meetings, transcripts, meeting-notes, google-meet, zoom, teams, oauth]
+last_updated: "2026-10-19"
 ---
 
 # Tactiq MCP

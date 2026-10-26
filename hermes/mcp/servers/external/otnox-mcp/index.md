@@ -7,6 +7,7 @@ added: 2026-10-24
 source: "mcpservers.org /all page 1 (slug otnox-com-en-claude) plus the vendor's llms.txt, /en/api, /en/pricing and the MCP endpoint root page"
 relevance: ★★★
 tags: [procurement, tenders, b2g, government-contracts, buyer-intelligence, competitive-intelligence, award-history, public-data, remote-mcp, oauth]
+last_updated: "2026-10-24"
 ---
 
 # Otnox MCP

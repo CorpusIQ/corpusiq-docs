@@ -7,6 +7,7 @@ added: 2026-09-11
 source: mcpservers.org scan (docs maintenance backfill)
 relevance: ★★
 tags: [voice, telephony, call-analytics, qa, call-center, remote-mcp, sse]
+last_updated: "2026-10-24"
 ---
 
 # VoIPstudio MCP

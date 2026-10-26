@@ -7,6 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + docs.contentstudio.io"
 relevance: ★★★
 tags: [social-media, scheduling, publishing, approvals, analytics, social-inbox, agencies, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ContentStudio MCP Server

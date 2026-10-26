@@ -7,6 +7,7 @@ added: 2026-09-03
 source: mcpservers.org
 relevance: ★★★
 tags: [document-generation, pdf, docx, templates, proposals, oauth, remote-mcp, brand-automation]
+last_updated: "2026-10-19"
 ---
 
 # Autype MCP

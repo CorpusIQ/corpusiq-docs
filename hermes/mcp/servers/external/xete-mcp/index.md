@@ -7,6 +7,7 @@ added: 2026-08-17
 source: "mcp.so GitHub issue #3614"
 relevance: ★★
 tags: [agent-messaging, encryption, solana, payments, non-custodial, agent-identity, stdio-mcp]
+last_updated: "2026-10-19"
 ---
 
 # xete MCP

@@ -3,7 +3,7 @@ title: "OKX CEX Agent Skills - Exchange Trading Suite Setup"
 description: "Setup guide for okx/agent-skills - 9 official OKX skills for AI agents: market data, spot/perp trading, grid & DCA bots, portfolio, earn, and smart-money analytics."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/okx-cex-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-30"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "crypto exchange", "trading bot", "okx"]
 ---
 

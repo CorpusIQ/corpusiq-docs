@@ -7,6 +7,7 @@ added: 2026-10-25
 source: "mcpservers.org /all p1-6 (night sweep, October 25 2026) + npm package driven locally + live API auth probe"
 relevance: ★★
 tags: [kanban, sla, operations, task-management, agent-workflow, human-in-the-loop, evidence, scoped-tokens]
+last_updated: "2026-10-25"
 ---
 
 # QodFlow MCP

@@ -3,7 +3,7 @@ title: "Some Claude Skills - 180+ Skill Collection Setup"
 description: "Setup guide for curiositech/some_claude_skills - 27.1K combined installs. 180+ skills from Erich Owens across video, design, testing, and data."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/some-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "skill collection", "design", "video"]
 ---
 

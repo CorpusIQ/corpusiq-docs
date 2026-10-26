@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★★
 tags: [multi-agent, task-management, project-management, knowledge-base, handoffs, decision-log, agent-teams, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Ledgenter MCP

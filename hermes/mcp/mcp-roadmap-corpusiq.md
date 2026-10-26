@@ -4,7 +4,7 @@ description: "The new MCP roadmap prioritizes progressive discovery, tool result
 canonical: "/hermes/mcp/mcp-roadmap-corpusiq/"
 robots: "index, follow"
 tags: [mcp, roadmap, progressive-discovery, stateless, agent-identity, answerspec, governance]
-last_updated: "2026-08-22"
+last_updated: "2026-10-19"
 ---
 
 # MCP Roadmap and CorpusIQ

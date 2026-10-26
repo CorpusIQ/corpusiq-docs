@@ -3,7 +3,7 @@ title: "MiniMax H3 Skills - AI Video Prompt Writing & Generation"
 description: Setup guide for the MiniMax H3 skill bundle from the official MiniMax org - portable h3-prompt-writing (agent-agnostic, 7,857 installs) plus 8 MiniMax Hub canvas video generators. 15.6K+ combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/minimax-h3-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-14"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "video generation", "skill setup"]
 ---
 

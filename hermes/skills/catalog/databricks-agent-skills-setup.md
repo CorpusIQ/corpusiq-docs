@@ -3,7 +3,7 @@ title: "Databricks Agent Skills - Data & AI Platform Skills"
 description: Databricks' official agent skills collection - apps, pipelines, lakehouse, model serving, and vector search. 798+ combined installs across 6 skills for building on the Databricks Data Intelligence Platform.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/databricks-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

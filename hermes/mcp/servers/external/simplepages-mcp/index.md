@@ -7,6 +7,7 @@ added: 2026-08-20
 source: mcpservers.org
 relevance: ★★
 tags: [landing-pages, page-builder, conversion-tracking, marketing-websites, no-code, oauth, workspace-scoped, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Simplepages MCP

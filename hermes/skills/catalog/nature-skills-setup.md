@@ -3,7 +3,7 @@ title: "Nature Skills - Academic Writing Setup"
 description: "Router skills for Nature-journal academic writing, scientific figures, citations and paper-to-PPTX conversion. 226k indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nature-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "academic writing", "research"]
 ---
 

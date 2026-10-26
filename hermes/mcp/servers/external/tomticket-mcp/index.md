@@ -7,6 +7,7 @@ added: 2026-08-21
 source: "mcp.so GitHub issue #3679"
 relevance: ★★
 tags: [helpdesk, tickets, support, knowledge-base, tomticket, stdio, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # TomTicket MCP

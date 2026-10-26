@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 29, 2026 (Evening Sweep)"
 description: "Evening sweep over the mcp.so /feed (29 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 9 detail pages fetched and 2 live endpoint probes. 7 new business-relevant servers catalogued with guides: OpenGATE MCP, Redacta MCP, PubCrawl MCP, Applyra MCP, Neleto CMS MCP, Yungle MCP and GAIP Agents MCP."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-29
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 29, 2026 (Evening Sweep)

@@ -3,7 +3,7 @@ title: "New Skills - July 26, 2026 Marketplace Sweep (Update #2)"
 description: "3 new publishers, 3 setup guides created, ~43K+ combined installs. DevOps/observability sweep of skills.sh for Hermes-relevant skills from Datadog"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july26-2026-update2/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

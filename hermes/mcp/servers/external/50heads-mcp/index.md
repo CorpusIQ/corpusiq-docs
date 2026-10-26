@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4892 (Oct 7, 2026 morning sweep)"
 relevance: ★★
 tags: [market-research, surveys, human-data, product-testing, oauth, remote-mcp, npm]
+last_updated: "2026-10-19"
 ---
 
 # 50heads MCP

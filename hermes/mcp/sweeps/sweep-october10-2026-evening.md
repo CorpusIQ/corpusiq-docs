@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 10, 2026 (Evening Sweep)"
 description: "Evening sweep cataloguing agent action authorization, a dataset marketplace, IRS e-filing reads, freight carrier checks and Medicare policy research."
-last_updated: 2026-10-10
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october10-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

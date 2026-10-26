@@ -3,7 +3,7 @@ title: "Claude GTM Plugin Skills - GTM Teams Setup"
 description: "Six go-to-market skills for Claude Code covering market research, social media, funnel analytics, campaigns, CRO, and lead generation (~11.8k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-gtm-plugin-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "go-to-market", "marketing"]
 ---
 

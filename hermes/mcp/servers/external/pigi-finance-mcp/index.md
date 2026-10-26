@@ -3,7 +3,7 @@ title: Pigi Finance MCP - DeFi Vault Intelligence
 description: "Pigi Finance MCP: DeFi vault intelligence for AI agents. 2,000+ vaults across 25+ EVM chains, OAuth 2.0 with wallet auth."
 category: "MCP Servers"
 tags: ["defi", "vaults", "evm", "finance", "mcp server"]
-last_updated: "2026-09-22"
+last_updated: "2026-10-19"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/pigi-finance-mcp"
 robots: "index,follow"
 ---

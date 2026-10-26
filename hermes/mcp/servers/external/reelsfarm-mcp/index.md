@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [social-media, ugc-video, avatars, content-automation, scheduling, publishing, approval-gates, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # ReelsFarm MCP

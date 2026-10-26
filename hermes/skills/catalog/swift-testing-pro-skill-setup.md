@@ -3,7 +3,7 @@ title: Swift Testing Pro Skill - Swift Testing Suite Setup
 description: "twostraws/swift-testing-agent-skill - swift-testing-pro (7.5K installs): write and review Swift Testing code with modern API usage, async tests, confirmations, actor isolation, and XCTest migration guidance from Paul Hudson. All three security audits pass."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/swift-testing-pro-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "swift", "testing", "xctest"]
 ---
 

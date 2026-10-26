@@ -8,7 +8,7 @@ category: stripe
 setup: npx skills add stripe/ai@stripe-best-practices
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stripe/stripe-best-practices/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Stripe Best Practices - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

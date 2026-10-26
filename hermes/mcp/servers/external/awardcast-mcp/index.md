@@ -7,6 +7,7 @@ added: 2026-08-17
 source: "mcp.so GitHub issue #3609"
 relevance: ★★★
 tags: [govcon, federal-contracting, sam-gov, usaspending, procurement, public-data, remote-mcp, no-auth]
+last_updated: "2026-10-19"
 ---
 
 # AwardCast MCP

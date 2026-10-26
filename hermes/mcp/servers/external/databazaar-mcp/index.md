@@ -7,6 +7,7 @@ added: 2026-10-10
 source: "chatmcp/mcpso issue #5093 (submission) + vendor site databazaar.io/integrations; catalogued at the October 10, 2026 evening sweep"
 relevance: ★★★
 tags: [datasets, data-marketplace, data-discovery, bounties, analytics, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # DataBazaar MCP

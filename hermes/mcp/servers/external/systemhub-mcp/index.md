@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (mcp.systemhub.com)"
 relevance: ★★★
 tags: [business-operations, sop-management, knowledge-management, process-documentation, training, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # systemHUB MCP

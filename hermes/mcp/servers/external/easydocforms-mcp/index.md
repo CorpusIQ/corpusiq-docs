@@ -7,6 +7,7 @@ added: 2026-08-13
 source: mcp.so
 relevance: ★★
 tags: [healthcare, forms, document-processing, pdf, phi-safe, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # easydocforms MCP

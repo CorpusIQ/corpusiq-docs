@@ -7,6 +7,7 @@ added: 2026-08-21
 source: mcp.so
 relevance: ★★★
 tags: [quiz, lead-generation, interactive-content, surveys, polls, marketing, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Riddle Quiz Maker MCP

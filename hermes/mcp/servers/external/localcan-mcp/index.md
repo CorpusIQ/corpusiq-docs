@@ -9,7 +9,7 @@ rating: ★
 status: active
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/localcan-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

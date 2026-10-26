@@ -3,7 +3,7 @@ title: "Awesome LLM Apps Skills - Role-Based Agent Skills"
 description: "shubhamsaboo/awesome-llm-apps - 26 skills, 79.7K total installs from the famous awesome-llm-apps repo. fullstack-developer (8.0K), academic-researcher (6.8K), content-creator (4.7K), code-reviewer, technical-writer, project-planner, data-analyst, deep-research, fact-checker, strategy-advisor, email-drafter."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-llm-apps-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "role skills", "research", "content creation"]
 ---
 

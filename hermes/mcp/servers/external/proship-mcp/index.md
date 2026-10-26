@@ -7,6 +7,7 @@ added: 2026-08-18
 source: mcp.so GitHub issues
 relevance: ★
 tags: [shipping, logistics, thailand-post, order-management, tracking, labels, ecommerce, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # ProShip MCP

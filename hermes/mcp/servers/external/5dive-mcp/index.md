@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [agent-fleet, coding-agents, task-queue, agent-ops, digests, cli-adapter, node, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # 5dive MCP

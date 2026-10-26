@@ -3,7 +3,7 @@ title: "July 4, 2026 - agent-sessions (683⭐)"
 description: "24 new Hermes-relevant repos discovered July 4, 2026: agent-sessions macOS session browser (683⭐), Hermes ArXiv Agent (91⭐), memoria-vault research OS"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

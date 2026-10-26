@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 5, 2026 (Midday Supplement)"
 description: "Midday supplement sweep cataloguing 5 new business-relevant MCP servers from the mcp.so feed, mcpservers.org /all and the fresh mcpso issue window."
-last_updated: 2026-10-05
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october5-2026-midday-supplement/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

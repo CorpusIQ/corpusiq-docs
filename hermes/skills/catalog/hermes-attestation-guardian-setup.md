@@ -3,7 +3,7 @@ title: Hermes Attestation Guardian - Security Verification Skill
 description: Install and configure hermes-attestation-guardian, a security attestation skill from prompt-security/clawsec for verifying Hermes CLI, Gateway, and profile-managed deployments - 94 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-attestation-guardian-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

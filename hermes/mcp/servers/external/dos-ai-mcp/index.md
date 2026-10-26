@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [whatsapp, telegram, chatbots, crm, lead-management, messaging, api-key, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # DOS AI MCP

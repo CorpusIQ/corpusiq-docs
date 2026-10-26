@@ -7,6 +7,7 @@ added: 2026-09-30
 source: "mcp.so feed (Aayat AI)"
 relevance: ★★
 tags: [pay-per-use, x402, usdc, web-search, data-enrichment, keyless, remote-mcp, analytics]
+last_updated: "2026-10-19"
 ---
 
 # Aayat AI MCP

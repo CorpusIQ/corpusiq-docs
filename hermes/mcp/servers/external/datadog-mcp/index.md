@@ -7,6 +7,7 @@ added: 2026-08-15
 source: mcpservers.org
 relevance: ★★
 tags: [observability, monitoring, apm, logs, metrics, dashboards, security-signals, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Datadog MCP Server

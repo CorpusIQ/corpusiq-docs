@@ -7,6 +7,7 @@ added: 2026-09-14
 source: "mcpservers.org /all page 1 (Sep 14 evening crawl) + repo docs at github.com/iliasabk/geolint"
 relevance: ★★★
 tags: [seo, aeo, geo, ai-search, llms-txt, robots-txt, structured-data, json-ld, citability, cli, mcp-stdio, open-source]
+last_updated: "2026-10-24"
 ---
 
 # geolint MCP

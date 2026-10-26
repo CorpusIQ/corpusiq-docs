@@ -3,7 +3,7 @@ title: "Git PR Review (skills.sh) - Automated PR description"
 description: Generate concise, structured PR descriptions from commit history with minimal token usage. 34+ installs from sickn33/antigravity-awesome-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/git-pr-review-skills-sh-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

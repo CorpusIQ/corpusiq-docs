@@ -3,7 +3,7 @@ title: Task Observer - Meta-Skill for Continuous Skill Improvement
 description: "rebelytics/one-skill-to-rule-them-all - task-observer, 5.4K installs, 2.2K GitHub stars. The meta-skill that watches work sessions and converts friction, corrections, and workflow insights into reusable skill improvements."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/task-observer-setup/"
 robots: "index,follow"
-last_updated: "2026-09-01"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "meta-skill", "skill improvement", "skill governance"]
 ---
 

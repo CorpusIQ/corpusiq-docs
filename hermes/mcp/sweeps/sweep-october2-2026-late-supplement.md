@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 2, 2026 (Late Supplement)"
 description: "Late supplement MCP ecosystem sweep: 10 new business-relevant servers catalogued, from agent workspaces to live job data."
-last_updated: 2026-10-02
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-late-supplement"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

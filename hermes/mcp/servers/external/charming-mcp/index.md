@@ -11,8 +11,7 @@ discovered: 2026-07-24
 pricing: Free tier available · OAuth with Dynamic Client Registration
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/charming-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
-
+last_updated: "2026-10-24"
 ---
 
 # Charming MCP - Generate & Host Interactive Web Apps via AI Agents

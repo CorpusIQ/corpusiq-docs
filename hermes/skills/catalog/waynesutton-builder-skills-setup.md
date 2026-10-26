@@ -3,7 +3,7 @@ title: "Wayne Sutton Builder Skills - Convex App Development Setup"
 description: "Setup guide for waynesutton/builder-skills - 37.6K combined installs. 17 skills for building Convex apps plus a PRD-first project workflow loop."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/waynesutton-builder-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-11"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "convex", "backend", "developer workflow"]
 ---
 

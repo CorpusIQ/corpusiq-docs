@@ -3,7 +3,7 @@ title: SOUL Grader  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the soul-grader skill from cobibean/soul-grader-skill. Grade, review, and approve Hermes Agent SOUL.md identity files with a research-backed rubric.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/soul-grader-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

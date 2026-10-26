@@ -3,7 +3,7 @@ title: "Phaser 4 GameDev Skills - Game Dev Setup"
 description: "Claude Code plugin for Phaser 4 game development with 4 agents and 6 skills encoding deep Phaser 4 API knowledge."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/phaser4-gamedev-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "game development", "phaser"]
 ---
 

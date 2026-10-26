@@ -3,7 +3,7 @@ title: "Emblem Company Agent Skills - Portfolio & Market Research"
 description: "emblemcompany/agent-skills - 9 skills, 78.6K installs: portfolio tracking, market research, AI agent wallet, and token operations from the Emblem platform team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/emblem-company-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "portfolio", "market research", "fintech"]
 ---
 

@@ -8,7 +8,7 @@ verified: false
 repository: "https://github.com/dokumendiregister/dokumendiregister"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dokumendiregister-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "dokumendiregister MCP - Estonian Public Document Search"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 

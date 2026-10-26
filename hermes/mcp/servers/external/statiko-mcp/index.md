@@ -7,6 +7,7 @@ added: 2026-09-14
 source: "mcp.so feed (statiko) + vendor docs at statiko.io/product/mcp"
 relevance: ★★
 tags: [telegram, osint, trends, social-media, monitoring, analytics, oauth, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Statiko MCP

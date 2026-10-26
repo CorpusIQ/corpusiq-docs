@@ -3,7 +3,7 @@ title: "Automated Video Production - CorpusIQ Docs"
 description: End-to-end video production pipeline  --  script generation, avatar rendering, post-production, and multi-platform distribution with Hermes
 canonical: "https://www.corpusiq.io/docs/hermes/content-ops/video/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

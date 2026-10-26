@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (apmleokeo-gif/apmzoom-mcp)"
 relevance: ★★
 tags: [wholesale, fashion, sourcing, ecommerce, suppliers, dongdaemun, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # apMZoomAI MCP

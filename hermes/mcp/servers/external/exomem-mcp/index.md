@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [memory, knowledge-base, obsidian, markdown, hybrid-search, sqlite-fts5, local-first, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Exomem MCP

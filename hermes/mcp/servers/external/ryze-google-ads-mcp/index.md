@@ -7,6 +7,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [google-ads, advertising, gaql, keyword-planner, marketing-ops, oauth, streamable-http, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Ryze Google Ads MCP

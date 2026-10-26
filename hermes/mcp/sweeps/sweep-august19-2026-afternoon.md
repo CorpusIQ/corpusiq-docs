@@ -1,6 +1,7 @@
 ---
 title: "Sweep Report - August 19, 2026 (Afternoon Cron Sweep)"
 description: "chatmcp/mcpso GitHub issues filed Aug 19 10:55 through 16:03 UTC; 4 catalogued with guides, 1 skipped (sports data)"
+last_updated: "2026-10-19"
 ---
 
 # Sweep Report - August 19, 2026 (Afternoon Cron Sweep)

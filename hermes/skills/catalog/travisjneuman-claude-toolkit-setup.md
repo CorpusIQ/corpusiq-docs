@@ -3,7 +3,7 @@ title: "travisjneuman/.claude Skills - Claude Toolkit Setup"
 description: "Ultimate Claude Code Toolkit: 127 skills, 86 agents, 30 commands as a drop-in ~/.claude config. 23k+ indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/travisjneuman-claude-toolkit-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "claude code", "productivity"]
 ---
 

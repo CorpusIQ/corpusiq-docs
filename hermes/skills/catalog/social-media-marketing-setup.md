@@ -3,7 +3,7 @@ title: "Social Media Marketing - Agent-Driven Social Strategy"
 description: "329+ installs. Build and execute social media marketing strategies for solopreneur businesses."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/social-media-marketing-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

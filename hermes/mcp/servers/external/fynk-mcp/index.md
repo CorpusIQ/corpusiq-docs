@@ -7,6 +7,7 @@ added: 2026-10-20
 source: "mcp.so /feed page 1 (card posted 2026-10-20T15:45:49Z)"
 relevance: ★★★
 tags: [legal, contract-management, clm, e-signature, document-automation, remote-mcp, oauth, compliance]
+last_updated: "2026-10-20"
 ---
 
 # fynk MCP

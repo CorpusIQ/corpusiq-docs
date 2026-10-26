@@ -7,6 +7,7 @@ added: 2026-08-16
 source: mcp.so
 relevance: ★★★
 tags: [email, mailbox, communication, oauth, domain-registration, ai-agents]
+last_updated: "2026-10-19"
 ---
 
 # Mektup MCP

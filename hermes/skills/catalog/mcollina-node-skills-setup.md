@@ -3,7 +3,7 @@ title: "M. Collina Node Skills - Fastify & Node.js Agent Suite Setup"
 description: "mcollina/skills - 12 skills, 52.4K installs: Fastify best practices, Node.js core, and TypeScript guidance from the Fastify lead and Node.js TSC member."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcollina-node-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "nodejs", "fastify", "backend"]
 ---
 

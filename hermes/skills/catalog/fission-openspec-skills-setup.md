@@ -3,7 +3,7 @@ title: "OpenSpec Skills - Spec-Driven Development Suite Setup"
 description: "Setup guide for fission-ai/openspec - 15 spec-driven development skills for AI coding agents from the 70.7K-star MIT OpenSpec project. ~42K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/fission-openspec-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "spec-driven development", "sdd", "openspec"]
 ---
 

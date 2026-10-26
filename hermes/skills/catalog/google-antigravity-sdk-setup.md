@@ -3,7 +3,7 @@ title: "Google Antigravity SDK Skills - Setup Guide"
 description: "Official Google skill teaching agents the Antigravity Python SDK for building Gemini-powered AI agents. 348 installs, stars not indexed."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-antigravity-sdk-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "google", "ai agents"]
 ---
 

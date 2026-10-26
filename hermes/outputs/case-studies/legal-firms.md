@@ -11,7 +11,7 @@ tags:
   - conflict checking
   - AI agent
   - law firm
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/legal-firms/"
 robots: "index,follow"
 

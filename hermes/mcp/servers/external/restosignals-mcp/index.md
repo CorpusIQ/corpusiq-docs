@@ -7,6 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (restosignals-com)"
 relevance: ★★★
 tags: [sales, leads, prospecting, restaurants, hospitality, signals, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # RestoSignals MCP

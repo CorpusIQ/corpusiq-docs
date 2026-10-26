@@ -6,6 +6,7 @@ sources: [mcpservers.org, mcp.so]
 status: complete
 finds: 4
 guides: 3
+last_updated: "2026-10-19"
 ---
 
 # MCP Server Discovery Sweep - August 12, 2026 (Evening)

@@ -8,7 +8,7 @@ category: stripe
 setup: npx skills add stripe/ai@upgrade-stripe
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stripe/upgrade-stripe/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Upgrade Stripe - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

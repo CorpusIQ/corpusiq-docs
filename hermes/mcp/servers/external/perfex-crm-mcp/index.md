@@ -9,7 +9,7 @@ added: 2026-08-10
 source: mcp.so
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/perfex-crm-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 description: "Perfex CRM MCP turns a self-hosted Perfex CRM installation into an MCP-compatible AI workspace. workspace. Every module leads, customers, invoices, tickets."
 

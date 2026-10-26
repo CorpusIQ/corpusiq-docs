@@ -3,7 +3,7 @@ title: gh-stack - GitHub Stacked PRs Skill Setup Guide
 description: "github/gh-stack - 9.6K installs, 1.4K stars: the official GitHub CLI extension for stacked branches and pull requests, packaged as an agent skill - create, rebase, navigate, submit, and merge layered PR chains from a Hermes agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gh-stack-setup/"
 robots: "index,follow"
-last_updated: "2026-08-30"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "github", "git", "pull requests", "cli", "stacked prs", "code review"]
 ---
 

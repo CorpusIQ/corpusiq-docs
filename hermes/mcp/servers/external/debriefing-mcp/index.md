@@ -7,6 +7,7 @@ added: 2026-10-05
 source: "chatmcp/mcpso issues (#4779)"
 relevance: ★★
 tags: [competitive-intelligence, b2b, signals, battlecards, sales, oauth, registry, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Debriefing MCP

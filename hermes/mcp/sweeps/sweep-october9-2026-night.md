@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 9, 2026 (Night Sweep)"
 description: "Night sweep cataloguing a trading terminal for agents, agent-initiated customer requests, and agency marketing reporting in chat."
-last_updated: 2026-10-09
+last_updated: 2026-10-19
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october9-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

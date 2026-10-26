@@ -7,6 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [legal-research, taiwan, statutes, judgments, compliance, government-sources, free, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # Taiwan Law MCP

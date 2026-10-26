@@ -3,7 +3,7 @@ title: Hermes Agent Idea Workflow Suite - Setup Guide
 description: Install and configure the complete idea-to-build pipeline for Hermes Agent. Turn rough ideas into design docs, UI briefs, and implementation plans with 4 chained skills from akoliteza/hermes-agent-idea-workflow (235⭐).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/idea-workflow-suite-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

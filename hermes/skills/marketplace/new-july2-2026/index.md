@@ -3,7 +3,7 @@ title: "July 2, 2026 - Hermes Browser Extension"
 description: "2 new Hermes-relevant skills discovered July 2, 2026: Hermes Browser Extension (439⭐) brings side-panel access to Chrome/Edge, OpenClaw Android (1,649⭐)"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july2-2026/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

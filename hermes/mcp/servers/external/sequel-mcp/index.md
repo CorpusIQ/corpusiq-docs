@@ -7,6 +7,7 @@ added: 2026-08-30
 source: mcpservers.org /all
 relevance: ★★
 tags: [mcp-server, seo, google-search-console, analytics, oauth, hosted, marketing, natural-language]
+last_updated: "2026-10-19"
 ---
 
 # Sequel MCP (Google Search Console)

@@ -3,7 +3,7 @@ title: resolving-merge-conflicts - Merge Resolution Protocol
 description: "Install and use mattpocock/skills@resolving-merge-conflicts (457K+ installs) - a 5-step protocol for resolving in-progress git merge/rebase conflicts: state, sources, hunks, checks, finish. Always resolve, never abort."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/resolving-merge-conflicts-setup/"
 robots: "index,follow"
-last_updated: "2026-09-09"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "git", "merge conflicts"]
 ---
 

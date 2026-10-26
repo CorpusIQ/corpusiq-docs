@@ -3,7 +3,7 @@ title: "Authentication Management - CorpusIQ Docs"
 description: "OAuth token lifecycle, API key rotation, and authentication monitoring for autonomous Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/auth/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

@@ -7,6 +7,7 @@ added: 2026-08-15
 source: mcp.so
 relevance: ★★★
 tags: [ai-writing-audit, content-quality, brand-voice, style-guide, prose-analysis, ci-cd, content-ops, self-hosted]
+last_updated: "2026-10-19"
 ---
 
 # Etincel MCP

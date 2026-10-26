@@ -1,7 +1,7 @@
 ---
 title: "AI Connectors for Business"
 description: "Your AI cannot answer basic questions about your business. Not because it is not smart enough. Because it cannot reach your data."
-last_updated: 2026-09-17
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/seo/ai-connectors-for-business/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

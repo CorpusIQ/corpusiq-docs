@@ -7,6 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★★
 tags: [agent-spend, budget-control, cost-tracking, x402, mpp-payments, ai-operations, audit-trail, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # AgentLedger MCP

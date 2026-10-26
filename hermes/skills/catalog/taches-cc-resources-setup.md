@@ -3,7 +3,7 @@ title: "Taches CC Resources Skills - Claude Tools Setup"
 description: "Six custom Claude Code resources - skill creation, subagents, planning, debugging, meta prompts, slash commands - at ~2,029 combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/taches-cc-resources-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "claude code", "prompt engineering"]
 ---
 

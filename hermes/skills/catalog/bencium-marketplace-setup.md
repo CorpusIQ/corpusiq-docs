@@ -3,7 +3,7 @@ title: "Bencium Marketplace - Design & Product Skills Suite Setup"
 description: "Setup guide for bencium/bencium-marketplace - 53.1K combined installs. 17 design, UX, marketing, and productivity skills from bencium.io."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bencium-marketplace-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "design skills", "ux design", "claude code plugins"]
 ---
 

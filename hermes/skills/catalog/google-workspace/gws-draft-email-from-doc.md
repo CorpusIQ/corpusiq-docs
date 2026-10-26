@@ -8,7 +8,7 @@ category: google-workspace
 setup: npx skills add googleworkspace/cli@recipe-draft-email-from-doc
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-draft-email-from-doc/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-24"
 title: "Gws Draft Email From Doc - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

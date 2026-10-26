@@ -7,6 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (developer.unipile.com)"
 relevance: ★★★
 tags: [linkedin, whatsapp, email, sales-navigator, outreach, remote-mcp, streamable-http]
+last_updated: "2026-10-19"
 ---
 
 # Unipile MCP

@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 28, 2026 (Night Sweep)"
 description: "Night sweep over the mcp.so homepage (New arrivals, Featured servers and Trending this week sections, 23 unique server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy, with 3 mcp.so detail pages and 6 mcpservers.org detail probes. 2 new business-relevant servers catalogued with guides: ohmyho.st MCP and EQIQs MCP."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-28
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 28, 2026 (Night Sweep)

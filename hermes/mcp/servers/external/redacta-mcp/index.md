@@ -7,6 +7,7 @@ added: 2026-09-29
 source: mcpservers.org
 relevance: ★★★
 tags: [pii, pseudonymisation, healthcare, hipaa, gdpr, privacy, clinical, self-hosted]
+last_updated: "2026-10-24"
 ---
 
 # Redacta MCP

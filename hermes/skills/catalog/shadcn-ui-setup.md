@@ -3,7 +3,7 @@ title: "shadcn Skill - shadcn/ui Component Workflows Setup"
 description: "Setup guide for the official shadcn skill from shadcn-ui/ui: project context, component docs, registry search, and always-on UI rules for coding agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shadcn-ui-setup/"
 robots: "index,follow"
-last_updated: "2026-10-08"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "shadcn", "ui components", "frontend"]
 ---
 

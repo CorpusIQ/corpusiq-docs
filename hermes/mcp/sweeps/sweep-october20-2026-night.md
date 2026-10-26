@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 20, 2026 (Night Sweep)"
 description: "Night delta cataloguing audited agent memory, a pre-keyword term radar, a hash-chained GLP audit proxy and a free AEO grader."
-last_updated: 2026-10-20
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october20-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -9,7 +9,7 @@ stars: 0
 tags: [confluence, atlassian, documentation, search, knowledge-retrieval, enterprise]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/confluence2md-mcp/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 description: "Atlassian API token authentication. Generate an API token at https://id.atlassian.com/manage-profile/security/api-tokens."
 
 ---

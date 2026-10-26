@@ -3,7 +3,7 @@ title: "New Skills - October 1, 2026 - HeroUI, Redis, Vercel Plugin"
 description: "Skills.sh sweep (Oct 1, 2026): 3 new publisher guides - heroui-inc/heroui (25.7K), redis/agent-skills (19.9K), vercel/vercel-plugin (4.8K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct1-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-01"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skills.sh", "new skills", "heroui", "redis", "vercel"]
 ---
 

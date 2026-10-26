@@ -7,6 +7,7 @@ added: 2026-10-20
 source: "mcpservers.org /all page 2 via the r.jina.ai reader proxy (antonio-castellon/mcp-glp-audit-proxy)"
 relevance: ★★
 tags: [compliance, audit-trail, glp, 21-cfr-part-11, gmp-annex-11, alcoa, hash-chain, rfc8785, mcp-proxy, python]
+last_updated: "2026-10-24"
 ---
 
 # GLP Audit Proxy MCP

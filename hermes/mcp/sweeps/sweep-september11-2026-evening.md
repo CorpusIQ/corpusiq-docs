@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 11, 2026 (Evening Sweep)"
 description: "Evening sweep over the mcp.so feed, mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy and chatmcp/mcpso issues #4072-#4079. 9 new business-relevant servers catalogued with guides, 7 endpoints live-probed over JSON-RPC."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-09-11
+last_updated: 2026-10-19
 ---
 
 # MCP Server Discovery - September 11, 2026 (Evening Sweep)

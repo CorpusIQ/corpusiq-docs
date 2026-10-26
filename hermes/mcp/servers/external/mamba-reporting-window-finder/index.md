@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4887 (Oct 7, 2026 morning sweep)"
 relevance: ★★
 tags: [earnings, public-companies, sec, finance, reporting, outreach-timing, apify, local-mcp]
+last_updated: "2026-10-24"
 ---
 
 # Mamba Reporting Window Finder MCP

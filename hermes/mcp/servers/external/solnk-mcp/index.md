@@ -7,6 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (solnk-dev/solnk-mcp)"
 relevance: ★★★
 tags: [marketing, social-media, publishing, scheduling, multi-platform, remote-mcp, mit]
+last_updated: "2026-10-19"
 ---
 
 # Solnk MCP

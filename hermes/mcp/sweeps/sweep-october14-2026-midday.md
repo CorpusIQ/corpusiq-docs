@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 14, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing a local MCP gateway for Siemens TIA Portal engineering."
-last_updated: 2026-10-14
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october14-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

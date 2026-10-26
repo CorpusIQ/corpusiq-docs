@@ -3,7 +3,7 @@ title: "CopilotKit Skills - Dev Lifecycle Setup"
 description: "Six CopilotKit agent skills for setup, development, integration, debugging, and v1-to-v2 migration; ~5,519 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/copilotkit-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-29"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "copilotkit", "generative ui"]
 ---
 

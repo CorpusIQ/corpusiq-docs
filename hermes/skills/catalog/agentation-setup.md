@@ -3,7 +3,7 @@ title: "Agentation - Visual Feedback for Agents Setup"
 description: "Setup guide for benjitaylor/agentation - 20.2K combined installs. Click-to-annotate visual feedback that points coding agents at exact code."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentation-setup/"
 robots: "index,follow"
-last_updated: "2026-10-10"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "visual feedback", "frontend", "react"]
 ---
 

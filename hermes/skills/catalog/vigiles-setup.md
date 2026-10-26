@@ -3,7 +3,7 @@ title: "Vigiles - Agent Harness Quality Suite Setup"
 description: "zernie/vigiles - 21 skills, 12.3K combined installs. Lighthouse for your agent harness: verify CLAUDE.md/AGENTS.md files, skills, and hooks are real and tested, then tighten guidance rules into enforced linter rules."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vigiles-setup/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "agent quality"]
 ---
 

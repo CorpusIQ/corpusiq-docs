@@ -7,6 +7,7 @@ added: 2026-08-17
 source: "mcp.so GitHub issue #3621"
 relevance: ★★
 tags: [project-management, agile, backlog, sprints, bug-tracking, atono, stdio-mcp, docker]
+last_updated: "2026-10-19"
 ---
 
 # Atono MCP Server

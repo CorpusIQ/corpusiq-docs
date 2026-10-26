@@ -7,6 +7,7 @@ added: 2026-10-01
 source: "mcp.so feed + server page (agentgrid-io)"
 relevance: ★★★
 tags: [agent-workspace, collaboration, artifacts, publishing, git, review-workflow, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # AgentGrid MCP

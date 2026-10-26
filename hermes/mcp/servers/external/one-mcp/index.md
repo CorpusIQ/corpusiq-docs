@@ -7,6 +7,7 @@ added: 2026-08-21
 source: mcp.so
 relevance: ★★★
 tags: [integration, oauth, automation, multi-app, crm, payments, productivity, remote-mcp]
+last_updated: "2026-10-19"
 ---
 
 # One MCP

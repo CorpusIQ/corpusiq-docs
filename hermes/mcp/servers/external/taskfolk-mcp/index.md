@@ -7,6 +7,7 @@ added: 2026-08-20
 source: "mcpservers.org (taskfolk-ai)"
 relevance: ★★
 tags: [project-management, task-management, remote-mcp, api, teams, sprints, productivity]
+last_updated: "2026-10-19"
 ---
 
 # Taskfolk MCP

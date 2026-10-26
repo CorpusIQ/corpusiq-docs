@@ -7,6 +7,7 @@ added: 2026-10-25
 source: "mcp.so feed card 2026-10-25T21:25:41Z + live keyless MCP session on how.is + HTTP 402 x402 payment terms + tool schemas from tools/list"
 relevance: ★★★
 tags: [domain-trust, dns, whois, tls, dnssec, spf, dkim, dmarc, email-deliverability, blocklists, page-monitoring, x402, security]
+last_updated: "2026-10-25"
 ---
 
 # how.is MCP

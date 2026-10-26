@@ -6,7 +6,7 @@ repo: https://github.com/FavorPan/hermes-skill-cleaner
 license: MIT
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-skill-cleaner-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

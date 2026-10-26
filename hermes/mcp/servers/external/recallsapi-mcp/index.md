@@ -7,6 +7,7 @@ added: 2026-10-12
 source: "mcpservers.org /all (Oct 12, 2026 evening sweep)"
 relevance: ★★
 tags: [recalls, compliance, product-safety, vehicle, fda, cpsc, nhtsa, remote-mcp]
+last_updated: "2026-10-24"
 ---
 
 # RecallsAPI MCP

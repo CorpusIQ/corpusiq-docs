@@ -7,6 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on chargingnear.me/api/mcp (initialize 200 as chargingnearme 1.1.0, tools/list 200 with 6 tools, three executed calls returning city stats, state stats and a DC fast station list) + vendor API documentation + mcpservers.org card"
 relevance: ★★★
 tags: [ev-charging, public-data, site-selection, market-intelligence, doe, geospatial, route-planning, citation]
+last_updated: "2026-10-26"
 ---
 
 # ChargingNear.me MCP

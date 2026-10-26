@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4882 (Oct 7, 2026 morning sweep)"
 relevance: ★★
 tags: [outbound, cold-email, sales-intelligence, deliverability, dns, apify, local-mcp, npm]
+last_updated: "2026-10-24"
 ---
 
 # Mamba Outbound Infrastructure Fingerprint MCP

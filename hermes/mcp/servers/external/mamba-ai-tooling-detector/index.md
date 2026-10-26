@@ -7,6 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4855 (Oct 7, 2026 morning sweep)"
 relevance: ★★
 tags: [ai-adoption, competitive-intelligence, gtm, sales-signals, clay, apify, local-mcp, npm]
+last_updated: "2026-10-24"
 ---
 
 # Mamba AI Tooling Detector MCP

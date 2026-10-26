@@ -7,6 +7,7 @@ added: 2026-10-25
 source: "chatmcp/mcpso submission #6110 (October 25 2026) + live keyless MCP session on api.revclamp.com + official registry entry + vendor manifest, pricing and onboarding pages"
 relevance: ★★★
 tags: [stripe, revenue-leakage, chargebacks, visa-ce3, vies, vat, shopify-b2b, net-terms, webhooks, finance-ops]
+last_updated: "2026-10-25"
 ---
 
 # RevClamp MCP

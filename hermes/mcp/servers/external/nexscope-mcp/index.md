@@ -7,6 +7,7 @@ added: 2026-10-23
 source: "mcp.so /feed page 1 (card posted 2026-10-23T09:27:21Z, submitted by nexscope-ai, marked verified and featured)"
 relevance: ★★★
 tags: [ecommerce, amazon, tiktok-shop, walmart, temu, ozon, shopify, etsy, marketplace-research, amazon-ads, product-data, keyword-research, remote-mcp, oauth]
+last_updated: "2026-10-23"
 ---
 
 # Nexscope MCP

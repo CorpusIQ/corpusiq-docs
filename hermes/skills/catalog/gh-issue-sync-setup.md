@@ -3,7 +3,7 @@ title: gh-issue-sync - Local Markdown GitHub Issues Sync
 description: "mitsuhiko/gh-issue-sync - 1 skill, 2.5K installs, by Armin Ronacher (Flask creator): manage GitHub issues as local Markdown files - triage, search, edit, and create issues without leaving the editor or terminal."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gh-issue-sync-setup/"
 robots: "index,follow"
-last_updated: "2026-08-24"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup", "github", "issue management", "markdown"]
 ---
 

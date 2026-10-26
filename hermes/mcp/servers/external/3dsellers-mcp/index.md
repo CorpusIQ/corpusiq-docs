@@ -7,6 +7,7 @@ added: 2026-10-23
 source: "mcp.so /feed page 1 card (posted 2026-10-23T13:27:33Z, submitted by 3dsellers, verified and featured) plus the vendor README and the official MCP registry"
 relevance: ★★★
 tags: [ecommerce, ebay, amazon, walmart, etsy, shopify, tiktok-shop, multichannel, listings, inventory, orders, helpdesk, automations, remote-mcp, oauth]
+last_updated: "2026-10-24"
 ---
 
 # 3Dsellers MCP

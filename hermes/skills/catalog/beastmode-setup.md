@@ -3,7 +3,7 @@ title: "Beastmode - Mixture of Agents (MofA) for Hermes Workflows"
 description: "Orchestrate multiple Hermes agents with Beastmode's Mixture of Agents framework for cost-optimized parallel work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/beastmode-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

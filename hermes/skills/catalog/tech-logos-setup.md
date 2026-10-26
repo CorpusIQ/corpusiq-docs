@@ -3,7 +3,7 @@ title: Tech Logos - Brand Logo Installer for shadcn/ui
 description: "Install official, theme-aware tech brand logos (154 available) from the Elements shadcn registry. Covers AI providers, auth stacks, social platforms, and payment logos for Next.js + shadcn/ui projects. 100+ installs, 521-star registry."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tech-logos-setup/"
 robots: "index,follow"
-last_updated: "2026-08-25"
+last_updated: "2026-10-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
