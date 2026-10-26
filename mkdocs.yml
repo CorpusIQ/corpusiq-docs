@@ -167,6 +167,7 @@ nav:
   - Connect HubSpot to Claude: connect-hubspot-to-claude.md
   - Connect Salesforce to Claude: connect-salesforce-to-claude.md
   - Connect Google Analytics to Claude: connect-google-analytics-to-claude.md
+  - Connect Gmail to Claude: connect-gmail-to-claude.md
   - Connect Stripe to Claude: connect-stripe-to-claude.md
   - Connect NetSuite to Claude: connect-netsuite-to-claude.md
   - Connect Slack to Claude: connect-slack-to-claude.md

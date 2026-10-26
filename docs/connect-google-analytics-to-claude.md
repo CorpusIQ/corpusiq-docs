@@ -121,6 +121,11 @@ Yes. CorpusIQ supports GA4's real-time reporting API for current active user cou
 Yes. The API returns data based on the property's configured reporting identity and data filters.
 </details>
 
+### Related
+
+- [Connect Gmail to Claude](connect-gmail-to-claude.md) - the same live-data pattern applied to email.
+- [Connect Stripe to Claude](connect-stripe-to-claude.md) - payments, subscriptions, and disputes.
+
 ---
 
 **Next steps:** [Connect Google Analytics to Claude now →](https://corpusiq.io/connect/ga4)

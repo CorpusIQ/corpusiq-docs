@@ -95,6 +95,7 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 - [MCP Server: Shopify + QuickBooks](mcp-server-shopify-quickbooks.md)
 - [Connect Airtable to Claude](connect-airtable-to-claude.md)
 - [Connect GA4 to Claude](connect-ga4-to-claude.md)
+- [Connect Gmail to Claude](../connect-gmail-to-claude.md)
 - [Connect Google Ads to Claude](connect-google-ads-to-claude.md)
 - [Connect HubSpot to Claude](connect-hubspot-to-claude.md)
 - [Connect Klaviyo to ChatGPT](../connect-klaviyo-to-chatgpt.md)
