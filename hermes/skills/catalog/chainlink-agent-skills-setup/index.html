@@ -11088,27 +11088,27 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/smart
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="nt">chainlink</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">network</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ethereum-mainnet&quot;</span><span class="w">    </span><span class="c1"># or polygon, arbitrum, optimism, avalanche</span>
-<span class="w">  </span><span class="nt">rpc_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${ETH_RPC_URL}&quot;</span><span class="w">      </span><span class="c1"># Your RPC endpoint (Alchemy, Infura, etc.)</span>
+<span class="w">  </span><span class="nt">network</span><span class="p">:</span><span class="w"> </span><span class="s">"ethereum-mainnet"</span><span class="w">    </span><span class="c1"># or polygon, arbitrum, optimism, avalanche</span>
+<span class="w">  </span><span class="nt">rpc_url</span><span class="p">:</span><span class="w"> </span><span class="s">"${ETH_RPC_URL}"</span><span class="w">      </span><span class="c1"># Your RPC endpoint (Alchemy, Infura, etc.)</span>
 <span class="w">  </span><span class="nt">data_feeds</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">    </span><span class="nt">default_pairs</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;ETH/USD&quot;</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;BTC/USD&quot;</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;LINK/USD&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"ETH/USD"</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"BTC/USD"</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"LINK/USD"</span>
 <span class="w">  </span><span class="nt">ccip</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span><span class="w">               </span><span class="c1"># Enable only if using cross-chain</span>
-<span class="w">    </span><span class="nt">source_chain</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ethereum-mainnet&quot;</span>
+<span class="w">    </span><span class="nt">source_chain</span><span class="p">:</span><span class="w"> </span><span class="s">"ethereum-mainnet"</span>
 <span class="w">    </span><span class="nt">destination_chains</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;polygon-mainnet&quot;</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;arbitrum-mainnet&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"polygon-mainnet"</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"arbitrum-mainnet"</span>
 <span class="w">  </span><span class="nt">functions</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span><span class="w">               </span><span class="c1"># Requires Functions subscription</span>
-<span class="w">    </span><span class="nt">subscription_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${CHAINLINK_SUBSCRIPTION_ID}&quot;</span>
+<span class="w">    </span><span class="nt">subscription_id</span><span class="p">:</span><span class="w"> </span><span class="s">"${CHAINLINK_SUBSCRIPTION_ID}"</span>
 </code></pre></div>
 <h2 id="key-workflows">Key Workflows<a class="headerlink" href="#key-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="query-price-feeds">Query price feeds<a class="headerlink" href="#query-price-feeds" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>What&#39;s the current ETH/USD price from Chainlink Data Feeds?
+<div class="highlight"><pre><span></span><code>What's the current ETH/USD price from Chainlink Data Feeds?
 Compare BTC/USD across Ethereum and Polygon price feeds.
 </code></pre></div>
 <h3 id="check-proof-of-reserve">Check proof of reserve<a class="headerlink" href="#check-proof-of-reserve" title="Anchor link to this section">&para;</a></h3>
@@ -11116,7 +11116,7 @@ Compare BTC/USD across Ethereum and Polygon price feeds.
 Is WBTC fully backed? Check the proof of reserve.
 </code></pre></div>
 <h3 id="cross-chain-messaging-ccip">Cross-chain messaging (CCIP)<a class="headerlink" href="#cross-chain-messaging-ccip" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Send a CCIP message from Ethereum to Polygon with payload: {&quot;action&quot;: &quot;sync_state&quot;}
+<div class="highlight"><pre><span></span><code>Send a CCIP message from Ethereum to Polygon with payload: {"action": "sync_state"}
 </code></pre></div>
 <h3 id="automation-triggers">Automation triggers<a class="headerlink" href="#automation-triggers" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Set up a Chainlink Automation to check ETH price every hour.
@@ -11124,10 +11124,10 @@ If ETH drops below $2000, trigger an alert.
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test price feed</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;Get the current ETH/USD price from Chainlink&quot;</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"Get the current ETH/USD price from Chainlink"</span>
 
 <span class="c1"># Test network connection</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;What&#39;s the latest block number on Ethereum mainnet?&quot;</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"What's the latest block number on Ethereum mainnet?"</span>
 </code></pre></div>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>

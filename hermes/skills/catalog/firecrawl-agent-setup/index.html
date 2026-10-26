@@ -11079,7 +11079,7 @@
 npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>firecrawl
 
 <span class="c1"># Or run via npx</span>
-npx<span class="w"> </span>firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&quot;your query&quot;</span>
+npx<span class="w"> </span>firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">"your query"</span>
 </code></pre></div>
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -11123,18 +11123,18 @@ npx<span class="w"> </span>firecrawl<span class="w"> </span>agent<span class="w"
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Extract structured data (waits for completion)</span>
-firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&quot;extract all pricing tiers from example.com&quot;</span><span class="w"> </span>--wait<span class="w"> </span>-o<span class="w"> </span>pricing.json
+firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">"extract all pricing tiers from example.com"</span><span class="w"> </span>--wait<span class="w"> </span>-o<span class="w"> </span>pricing.json
 
 <span class="c1"># With JSON schema for predictable output</span>
-firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&quot;extract products&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schema<span class="w"> </span><span class="s1">&#39;{&quot;type&quot;:&quot;object&quot;,&quot;properties&quot;:{&quot;name&quot;:{&quot;type&quot;:&quot;string&quot;},&quot;price&quot;:{&quot;type&quot;:&quot;number&quot;}}}&#39;</span><span class="w"> </span><span class="se">\</span>
+firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">"extract products"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schema<span class="w"> </span><span class="s1">'{"type":"object","properties":{"name":{"type":"string"},"price":{"type":"number"}}}'</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--wait<span class="w"> </span>-o<span class="w"> </span>products.json
 
 <span class="c1"># Focus on specific pages</span>
-firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&quot;get feature list&quot;</span><span class="w"> </span>--urls<span class="w"> </span><span class="s2">&quot;https://example.com/features&quot;</span><span class="w"> </span>--wait<span class="w"> </span>-o<span class="w"> </span>features.json
+firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">"get feature list"</span><span class="w"> </span>--urls<span class="w"> </span><span class="s2">"https://example.com/features"</span><span class="w"> </span>--wait<span class="w"> </span>-o<span class="w"> </span>features.json
 
 <span class="c1"># Pretty-print output</span>
-firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&quot;extract team members&quot;</span><span class="w"> </span>--wait<span class="w"> </span>--pretty
+firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">"extract team members"</span><span class="w"> </span>--wait<span class="w"> </span>--pretty
 </code></pre></div>
 <hr />
 <h2 id="options-reference">Options Reference<a class="headerlink" href="#options-reference" title="Anchor link to this section">&para;</a></h2>
@@ -11184,14 +11184,14 @@ firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&
 <h2 id="hermes-integration">Hermes Integration<a class="headerlink" href="#hermes-integration" title="Anchor link to this section">&para;</a></h2>
 <p>For CorpusIQ growth operations:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Competitor pricing extraction</span>
-firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&quot;extract all pricing plans and features&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--urls<span class="w"> </span><span class="s2">&quot;https://competitor.com/pricing&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schema<span class="w"> </span><span class="s1">&#39;{&quot;type&quot;:&quot;object&quot;,&quot;properties&quot;:{&quot;tiers&quot;:{&quot;type&quot;:&quot;array&quot;,&quot;items&quot;:{&quot;type&quot;:&quot;object&quot;,&quot;properties&quot;:{&quot;name&quot;:{&quot;type&quot;:&quot;string&quot;},&quot;price&quot;:{&quot;type&quot;:&quot;string&quot;},&quot;features&quot;:{&quot;type&quot;:&quot;array&quot;,&quot;items&quot;:{&quot;type&quot;:&quot;string&quot;}}}}}}}&#39;</span><span class="w"> </span><span class="se">\</span>
+firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">"extract all pricing plans and features"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--urls<span class="w"> </span><span class="s2">"https://competitor.com/pricing"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schema<span class="w"> </span><span class="s1">'{"type":"object","properties":{"tiers":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string"},"price":{"type":"string"},"features":{"type":"array","items":{"type":"string"}}}}}}}'</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--wait<span class="w"> </span>-o<span class="w"> </span>~/corpusiq-brain/research/competitor-pricing.json
 
 <span class="c1"># Lead generation from directories</span>
-firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">&quot;extract company name, website, and description for all listings&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--urls<span class="w"> </span><span class="s2">&quot;https://directory.example.com/ai-tools&quot;</span><span class="w"> </span><span class="se">\</span>
+firecrawl<span class="w"> </span>agent<span class="w"> </span><span class="s2">"extract company name, website, and description for all listings"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--urls<span class="w"> </span><span class="s2">"https://directory.example.com/ai-tools"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--max-credits<span class="w"> </span><span class="m">50</span><span class="w"> </span>--wait<span class="w"> </span>-o<span class="w"> </span>leads.json
 </code></pre></div>
 <hr />

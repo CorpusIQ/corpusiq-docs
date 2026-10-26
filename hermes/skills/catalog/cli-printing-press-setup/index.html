@@ -11142,8 +11142,8 @@ cli-printing-press<span class="w"> </span>--version
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>The three anchor skills have SKILL.md files on main, so a cheap install check is to fetch each raw path and expect a 200:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>s<span class="w"> </span><span class="k">in</span><span class="w"> </span>printing-press<span class="w"> </span>printing-press-publish<span class="w"> </span>printing-press-polish<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$s</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/mvanhorn/cli-printing-press/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$s</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/mvanhorn/cli-printing-press/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>The same paths can be read directly when a behavior question comes up:</p>

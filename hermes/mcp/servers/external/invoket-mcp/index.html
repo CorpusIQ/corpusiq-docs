@@ -11023,7 +11023,7 @@
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (stdio, launched by your MCP host)
 Auth: none for discovery-only mode; optional EVM payer key (PAYER_PRIVATE_KEY, read once from env, used only for local EIP-712 / EIP-3009 signatures)
 Endpoint: Invoket x402 gateway via INVOKET_BASE_URL (tools generated live from gateway discovery)
-Tools: 68 typed tools generated from the gateway&#39;s discovery surfaces
+Tools: 68 typed tools generated from the gateway's discovery surfaces
 Pricing: pay-per-call in USDC on Base; first call per day to trial endpoints free; discovery-only mode free
 Category: Compliance
 Built by: Invoket (github.com/Invoket/mcp)
@@ -11073,14 +11073,14 @@ Built by: Invoket (github.com/Invoket/mcp)
 <p>Runs on your machine over stdio, launched by your MCP host. Invoket hosts nothing and never sees your key or your funds.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;invoket&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@invoket/mcp&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;PAYER_PRIVATE_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_evm_key&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;MAX_PRICE_USD&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;0.50&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;SESSION_BUDGET_USD&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;20&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"invoket"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@invoket/mcp"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"PAYER_PRIVATE_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_evm_key"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"MAX_PRICE_USD"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.50"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"SESSION_BUDGET_USD"</span><span class="p">:</span><span class="w"> </span><span class="s2">"20"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

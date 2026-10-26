@@ -11267,57 +11267,57 @@ cp<span class="w"> </span>-r<span class="w"> </span>agenthood/skills/*<span clas
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span>--marketplace<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>agenthood
 </code></pre></div>
 <p>Invoke agents by their role in natural language:</p>
-<div class="highlight"><pre><span></span><code>&quot;Run the-reviewer on the current PR diff&quot;
-&quot;Have the-auditor scan our authentication flow&quot;
-&quot;Ask the-architect to review the proposed database schema&quot;
+<div class="highlight"><pre><span></span><code>"Run the-reviewer on the current PR diff"
+"Have the-auditor scan our authentication flow"
+"Ask the-architect to review the proposed database schema"
 </code></pre></div>
 <h3 id="compose-agent-teams">Compose Agent Teams<a class="headerlink" href="#compose-agent-teams" title="Anchor link to this section">&para;</a></h3>
 <p>For complex workflows, load multiple agents and let Hermes route tasks:</p>
-<div class="highlight"><pre><span></span><code>&quot;Run the full agenthood team on this PR: the-scribe for commit messages,
+<div class="highlight"><pre><span></span><code>"Run the full agenthood team on this PR: the-scribe for commit messages,
 the-reviewer for code quality, the-tester for coverage gaps, and
-the-warden for complexity checks&quot;
+the-warden for complexity checks"
 </code></pre></div>
 <h3 id="autonomous-execution">Autonomous Execution<a class="headerlink" href="#autonomous-execution" title="Anchor link to this section">&para;</a></h3>
 <p>Agenthood includes a TypeScript CLI for running agents independently:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Set LLM provider (Groq free tier, Anthropic, or OpenAI)</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">GROQ_API_KEY</span><span class="o">=</span><span class="s2">&quot;gsk_...&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">GROQ_API_KEY</span><span class="o">=</span><span class="s2">"gsk_..."</span>
 <span class="c1"># Or use Ollama for fully offline execution</span>
 
 <span class="c1"># List available agents</span>
 npx<span class="w"> </span>agenthood<span class="w"> </span>list
 
 <span class="c1"># Run an agent autonomously</span>
-npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-scribe<span class="w"> </span><span class="s2">&quot;write a commit message for the current diff&quot;</span>
-npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-reviewer<span class="w"> </span><span class="s2">&quot;review the changes in the last commit&quot;</span>
-npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-architect<span class="w"> </span><span class="s2">&quot;plan the implementation for issue #42&quot;</span>
+npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-scribe<span class="w"> </span><span class="s2">"write a commit message for the current diff"</span>
+npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-reviewer<span class="w"> </span><span class="s2">"review the changes in the last commit"</span>
+npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-architect<span class="w"> </span><span class="s2">"plan the implementation for issue #42"</span>
 </code></pre></div>
 <hr />
 <h2 id="key-workflows-for-hermes">Key Workflows for Hermes<a class="headerlink" href="#key-workflows-for-hermes" title="Anchor link to this section">&para;</a></h2>
 <h3 id="pr-review-pipeline">PR Review Pipeline<a class="headerlink" href="#pr-review-pipeline" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Review code quality</span>
-hermes<span class="w"> </span>--skill<span class="w"> </span>the-reviewer<span class="w"> </span><span class="s2">&quot;Review the PR at HEAD&quot;</span>
+hermes<span class="w"> </span>--skill<span class="w"> </span>the-reviewer<span class="w"> </span><span class="s2">"Review the PR at HEAD"</span>
 
 <span class="c1"># 2. Check security</span>
-hermes<span class="w"> </span>--skill<span class="w"> </span>the-auditor<span class="w"> </span><span class="s2">&quot;Audit dependencies and auth flow&quot;</span>
+hermes<span class="w"> </span>--skill<span class="w"> </span>the-auditor<span class="w"> </span><span class="s2">"Audit dependencies and auth flow"</span>
 
 <span class="c1"># 3. Verify tests</span>
-hermes<span class="w"> </span>--skill<span class="w"> </span>the-tester<span class="w"> </span><span class="s2">&quot;Check test coverage for changed files&quot;</span>
+hermes<span class="w"> </span>--skill<span class="w"> </span>the-tester<span class="w"> </span><span class="s2">"Check test coverage for changed files"</span>
 
 <span class="c1"># 4. Generate changelog</span>
-hermes<span class="w"> </span>--skill<span class="w"> </span>the-scribe<span class="w"> </span><span class="s2">&quot;Generate changelog entry for this PR&quot;</span>
+hermes<span class="w"> </span>--skill<span class="w"> </span>the-scribe<span class="w"> </span><span class="s2">"Generate changelog entry for this PR"</span>
 </code></pre></div>
 <h3 id="architecture-decision-records">Architecture Decision Records<a class="headerlink" href="#architecture-decision-records" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>--skill<span class="w"> </span>the-architect<span class="w"> </span><span class="s2">&quot;Create an ADR for our caching strategy:</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>--skill<span class="w"> </span>the-architect<span class="w"> </span><span class="s2">"Create an ADR for our caching strategy:</span>
 <span class="s2">- Problem: Repeated expensive queries</span>
 <span class="s2">- Options: Redis vs in-memory vs CDN edge caching</span>
-<span class="s2">- Constraints: &lt;50ms p95 latency, multi-region&quot;</span>
+<span class="s2">- Constraints: &lt;50ms p95 latency, multi-region"</span>
 </code></pre></div>
 <h3 id="security-audit-pipeline">Security Audit Pipeline<a class="headerlink" href="#security-audit-pipeline" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>--skill<span class="w"> </span>the-auditor<span class="w"> </span><span class="s2">&quot;Run full security audit:</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>--skill<span class="w"> </span>the-auditor<span class="w"> </span><span class="s2">"Run full security audit:</span>
 <span class="s2">1. Dependency vulnerability scan</span>
 <span class="s2">2. Auth flow review</span>
 <span class="s2">3. Secret detection in codebase</span>
-<span class="s2">4. API endpoint exposure check&quot;</span>
+<span class="s2">4. API endpoint exposure check"</span>
 </code></pre></div>
 <hr />
 <h2 id="provider-configuration">Provider Configuration<a class="headerlink" href="#provider-configuration" title="Anchor link to this section">&para;</a></h2>
@@ -11349,7 +11349,7 @@ hermes<span class="w"> </span>--skill<span class="w"> </span>the-scribe<span cla
 </table>
 <p>Or use <strong>Ollama</strong> for fully offline execution (no API key required):</p>
 <div class="highlight"><pre><span></span><code>ollama<span class="w"> </span>pull<span class="w"> </span>llama3.3
-npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-reviewer<span class="w"> </span><span class="s2">&quot;review this code&quot;</span><span class="w"> </span>--provider<span class="w"> </span>ollama
+npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-reviewer<span class="w"> </span><span class="s2">"review this code"</span><span class="w"> </span>--provider<span class="w"> </span>ollama
 </code></pre></div>
 <hr />
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Anchor link to this section">&para;</a></h2>
@@ -11366,7 +11366,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span>--marketplace<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>agenthood
 
 <span class="c1"># Test an agent</span>
-npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-scribe<span class="w"> </span><span class="s2">&quot;hello&quot;</span>
+npx<span class="w"> </span>agenthood<span class="w"> </span>run<span class="w"> </span>the-scribe<span class="w"> </span><span class="s2">"hello"</span>
 
 <span class="c1"># Check skill files are accessible</span>
 ls<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/skills/the-reviewer/

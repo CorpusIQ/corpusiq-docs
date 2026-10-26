@@ -11846,7 +11846,7 @@
 hermes<span class="w"> </span>mcp<span class="w"> </span>list
 
 <span class="c1"># Check specific server health</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>health<span class="w"> </span>corpusiq
+hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>corpusiq
 
 <span class="c1"># Check if the MCP server process is alive</span>
 ps<span class="w"> </span>aux<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>mcp
@@ -11864,7 +11864,7 @@ ps<span class="w"> </span>aux<span class="w"> </span><span class="p">|</span><sp
 <tr>
 <td>MCP server process crashed</td>
 <td><code>hermes mcp list</code> shows status "offline"</td>
-<td><code>hermes mcp restart &lt;server&gt;</code> or restart via systemd</td>
+<td>Restart with <code>hermes gateway restart</code>, then re-run <code>hermes mcp test &lt;server&gt;</code></td>
 </tr>
 <tr>
 <td>Port conflict</td>
@@ -11884,14 +11884,14 @@ ps<span class="w"> </span>aux<span class="w"> </span><span class="p">|</span><sp
 <tr>
 <td>Configuration changed</td>
 <td>Server starts but tools return errors</td>
-<td><code>hermes mcp config validate</code>, check for schema changes</td>
+<td><code>hermes mcp test &lt;server&gt;</code>, and <code>hermes mcp configure</code> to re-check which tools are enabled</td>
 </tr>
 </tbody>
 </table>
 <h3 id="symptom-intermittent-tool-failures-sometimes-works-sometimes-doesnt">Symptom: Intermittent tool failures ("sometimes works, sometimes doesn't")<a class="headerlink" href="#symptom-intermittent-tool-failures-sometimes-works-sometimes-doesnt" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Diagnosis:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check MCP server logs for timeout patterns</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>logs<span class="w"> </span>corpusiq<span class="w"> </span>--last<span class="w"> </span><span class="m">100</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;timeout\|error\|retry&quot;</span>
+hermes<span class="w"> </span>logs<span class="w"> </span>agent<span class="w"> </span>-n<span class="w"> </span><span class="m">100</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">"timeout\|mcp\|error"</span>
 
 <span class="c1"># Check network latency to MCP server</span>
 ping<span class="w"> </span>-c<span class="w"> </span><span class="m">10</span><span class="w"> </span>&lt;mcp-server-host&gt;
@@ -11903,8 +11903,8 @@ ping<span class="w"> </span>-c<span class="w"> </span><span class="m">10</span><
 <p><strong>Fix:</strong> Increase MCP timeout in config (<code>mcp_timeout: 60</code>), implement retry with backoff, or add connection pooling.</p>
 <h3 id="symptom-specific-tool-always-fails-while-others-work">Symptom: Specific tool always fails while others work<a class="headerlink" href="#symptom-specific-tool-always-fails-while-others-work" title="Anchor link to this section">&para;</a></h3>
 <p>This usually means the tool's API credential is expired, its schema changed, or its external service is down.</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Test the specific tool in isolation</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>corpusiq<span class="w"> </span>--tool<span class="w"> </span>google_ads_connector
+<div class="highlight"><pre><span></span><code><span class="c1"># Test the server connection in isolation</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>corpusiq
 
 <span class="c1"># Check credential status</span>
 hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w"> </span>google_ads
@@ -11914,10 +11914,12 @@ hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w">
 <h3 id="symptom-401-unauthorized-or-authentication-required-on-previously-working-tools">Symptom: "401 Unauthorized" or "Authentication required" on previously working tools<a class="headerlink" href="#symptom-401-unauthorized-or-authentication-required-on-previously-working-tools" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Diagnosis:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check all connector auth states</span>
-hermes<span class="w"> </span>auth<span class="w"> </span>list
+hermes<span class="w"> </span>connectors<span class="w"> </span>list
+hermes<span class="w"> </span>connectors<span class="w"> </span>accounts
 
-<span class="c1"># Check when a specific token expires</span>
-hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w"> </span>google_workspace<span class="w"> </span>--verbose
+<span class="c1"># Check when a specific provider credential expires</span>
+hermes<span class="w"> </span>auth<span class="w"> </span>list
+hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w"> </span>&lt;provider&gt;
 </code></pre></div>
 <h3 id="token-lifecycle-management">Token Lifecycle Management<a class="headerlink" href="#token-lifecycle-management" title="Anchor link to this section">&para;</a></h3>
 <table>
@@ -11968,21 +11970,27 @@ hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w">
 <span class="w">  </span><span class="nt">connectors</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">google_workspace</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">refresh_interval_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24</span>
-<span class="w">      </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-alerts&quot;</span>
+<span class="w">      </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">"ops-alerts"</span>
 <span class="w">    </span><span class="nt">microsoft</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">refresh_interval_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24</span>
-<span class="w">      </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-alerts&quot;</span>
+<span class="w">      </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">"ops-alerts"</span>
 <span class="w">    </span><span class="nt">slack</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">refresh_interval_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">48</span>
 </code></pre></div>
 <h3 id="manual-token-reset">Manual Token Reset<a class="headerlink" href="#manual-token-reset" title="Anchor link to this section">&para;</a></h3>
-<p>When automated refresh fails, reset the connector:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Reset a specific connector token</span>
-hermes<span class="w"> </span>auth<span class="w"> </span>reset<span class="w"> </span>google_workspace
+<p>When automated refresh fails, reset the credential path:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Clear exhaustion state for a provider's pooled credentials</span>
+hermes<span class="w"> </span>auth<span class="w"> </span>reset<span class="w"> </span>&lt;provider&gt;
 
-<span class="c1"># This returns a re-auth URL  --  open it in a browser</span>
+<span class="c1"># Refresh a pooled OAuth credential and clear its cooldown</span>
+hermes<span class="w"> </span>auth<span class="w"> </span>refresh<span class="w"> </span>&lt;provider&gt;
+
+<span class="c1"># Re-authenticate one OAuth MCP server (or every server with --all)</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>reauth<span class="w"> </span>corpusiq
+
+<span class="c1"># This runs the re-auth flow  --  complete it in the browser</span>
 <span class="c1"># After re-auth, verify</span>
-hermes<span class="w"> </span>auth<span class="w"> </span>verify<span class="w"> </span>google_workspace
+hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>corpusiq
 </code></pre></div>
 <h3 id="common-oauth-pitfalls">Common OAuth Pitfalls<a class="headerlink" href="#common-oauth-pitfalls" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -11997,26 +12005,26 @@ hermes<span class="w"> </span>auth<span class="w"> </span>verify<span class="w">
 <p>The most dangerous failure mode. Cron tracks process exit, not outcome.</p>
 <p><strong>Diagnosis:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># List recent cron executions with actual output</span>
-hermes<span class="w"> </span>cron<span class="w"> </span><span class="nb">history</span><span class="w"> </span>--last<span class="w"> </span><span class="m">20</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>runs<span class="w"> </span>--limit<span class="w"> </span><span class="m">20</span>
 
-<span class="c1"># Check a specific job&#39;s full execution log</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>log<span class="w"> </span>&lt;job_name&gt;<span class="w"> </span>--last<span class="w"> </span><span class="m">5</span>
+<span class="c1"># Check a specific job's full execution log</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>runs<span class="w"> </span>--limit<span class="w"> </span><span class="m">5</span><span class="w"> </span>&lt;job_id&gt;
 
-<span class="c1"># Look for jobs that &quot;succeeded&quot; but produced no output</span>
-hermes<span class="w"> </span>cron<span class="w"> </span><span class="nb">history</span><span class="w"> </span>--last<span class="w"> </span><span class="m">50</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;status: ok&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;output_lines: 0&quot;</span>
+<span class="c1"># Look for jobs that "succeeded" but produced no output</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>runs<span class="w"> </span>--limit<span class="w"> </span><span class="m">50</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">"status: ok"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">"output_lines: 0"</span>
 </code></pre></div>
 <p><strong>Fix:</strong> Every cron job must include an outcome validation step:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Bad: Just tracks exit code</span>
-<span class="k">def</span> <span class="nf">my_cron_job</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">my_cron_job</span><span class="p">():</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">do_something</span><span class="p">()</span>
     <span class="c1"># If do_something() returned None due to an error it caught,</span>
     <span class="c1"># cron sees exit 0 and marks success</span>
 
 <span class="c1"># Good: Validates actual output</span>
-<span class="k">def</span> <span class="nf">my_cron_job</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">my_cron_job</span><span class="p">():</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">do_something</span><span class="p">()</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">result</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;success&quot;</span><span class="p">):</span>
-        <span class="k">raise</span> <span class="n">CronFailureError</span><span class="p">(</span><span class="s2">&quot;Job produced no valid output&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">result</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"success"</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="n">CronFailureError</span><span class="p">(</span><span class="s2">"Job produced no valid output"</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">result</span>
 </code></pre></div>
 <h3 id="symptom-job-skipped-silently">Symptom: Job skipped silently<a class="headerlink" href="#symptom-job-skipped-silently" title="Anchor link to this section">&para;</a></h3>
@@ -12025,46 +12033,46 @@ hermes<span class="w"> </span>cron<span class="w"> </span><span class="nb">histo
 2. <strong>Rate limit:</strong> The job's external service hit a rate limit and the job backed off
 3. <strong>Resource constraint:</strong> Not enough memory/CPU to start the job</p>
 <p><strong>Diagnosis:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Check for concurrent execution</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>status<span class="w"> </span>&lt;job_name&gt;<span class="w"> </span>--check-concurrency
+<div class="highlight"><pre><span></span><code><span class="c1"># Check whether a job is still running</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>status
 
 <span class="c1"># Check system resources at scheduled time</span>
-journalctl<span class="w"> </span>--since<span class="w"> </span><span class="s2">&quot;2026-06-16 03:00&quot;</span><span class="w"> </span>--until<span class="w"> </span><span class="s2">&quot;2026-06-16 03:05&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;memory\|oom&quot;</span>
+journalctl<span class="w"> </span>--since<span class="w"> </span><span class="s2">"2026-06-16 03:00"</span><span class="w"> </span>--until<span class="w"> </span><span class="s2">"2026-06-16 03:05"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">"memory\|oom"</span>
 
 <span class="c1"># Check rate limit logs</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>log<span class="w"> </span>&lt;job_name&gt;<span class="w"> </span>--filter<span class="w"> </span><span class="s2">&quot;rate_limit\|backoff&quot;</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>runs<span class="w"> </span>--limit<span class="w"> </span><span class="m">20</span><span class="w"> </span>&lt;job_id&gt;<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">"rate_limit\|backoff"</span>
 </code></pre></div>
 <p><strong>Fix:</strong> Set appropriate concurrency policies per job:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/&lt;job_name&gt;.yaml</span>
-<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;skip&quot;</span><span class="w">     </span><span class="c1"># skip if already running (default)</span>
+<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">"skip"</span><span class="w">     </span><span class="c1"># skip if already running (default)</span>
 <span class="c1"># or</span>
-<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;queue&quot;</span><span class="w">    </span><span class="c1"># queue and run after current finishes</span>
+<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">"queue"</span><span class="w">    </span><span class="c1"># queue and run after current finishes</span>
 <span class="c1"># or</span>
-<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;replace&quot;</span><span class="w">  </span><span class="c1"># kill current, start new</span>
+<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">"replace"</span><span class="w">  </span><span class="c1"># kill current, start new</span>
 </code></pre></div>
 <h3 id="symptom-upstream-dependency-failed-context_from-chain-broken">Symptom: Upstream dependency failed (context_from chain broken)<a class="headerlink" href="#symptom-upstream-dependency-failed-context_from-chain-broken" title="Anchor link to this section">&para;</a></h3>
 <p>Jobs that depend on other jobs (<code>context_from</code>) fail when the upstream fails.</p>
 <p><strong>Fix:</strong> Make chains resilient:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Instead of hard dependency</span>
-<span class="nt">context_from</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;daily_data_sync&quot;</span>
+<span class="nt">context_from</span><span class="p">:</span><span class="w"> </span><span class="s">"daily_data_sync"</span>
 
 <span class="c1"># Use fallback chain</span>
 <span class="nt">context_from</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">primary</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;daily_data_sync&quot;</span>
-<span class="w">  </span><span class="nt">fallback</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;daily_data_sync_cached&quot;</span><span class="w">  </span><span class="c1"># Uses yesterday&#39;s data</span>
+<span class="w">  </span><span class="nt">primary</span><span class="p">:</span><span class="w"> </span><span class="s">"daily_data_sync"</span>
+<span class="w">  </span><span class="nt">fallback</span><span class="p">:</span><span class="w"> </span><span class="s">"daily_data_sync_cached"</span><span class="w">  </span><span class="c1"># Uses yesterday's data</span>
 <span class="w">  </span><span class="nt">max_staleness_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">48</span><span class="w">             </span><span class="c1"># Alert if fallback is too stale</span>
 </code></pre></div>
 <h3 id="cron-monitoring-setup">Cron Monitoring Setup<a class="headerlink" href="#cron-monitoring-setup" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/monitor_all_crons.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cron_health_monitor</span>
-<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;*/15</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Every 15 minutes</span>
+<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"*/15</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span><span class="w">  </span><span class="c1"># Every 15 minutes</span>
 <span class="nt">task</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">monitor.check_all_crons</span>
 <span class="nt">params</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">alert_on</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;consecutive_failures</span><span class="nv"> </span><span class="s">&gt;=</span><span class="nv"> </span><span class="s">2&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;last_run</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">2x</span><span class="nv"> </span><span class="s">schedule_interval&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;output_size_decreased</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">80%&quot;</span>
-<span class="w">  </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-alerts&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"consecutive_failures</span><span class="nv"> </span><span class="s">&gt;=</span><span class="nv"> </span><span class="s">2"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"last_run</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">2x</span><span class="nv"> </span><span class="s">schedule_interval"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"output_size_decreased</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">80%"</span>
+<span class="w">  </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">"ops-alerts"</span>
 </code></pre></div>
 <h2 id="browser-automation-failures">Browser Automation Failures<a class="headerlink" href="#browser-automation-failures" title="Anchor link to this section">&para;</a></h2>
 <p>Browser automation is inherently fragile. Websites change, CAPTCHAs appear, and network conditions vary.</p>
@@ -12079,8 +12087,8 @@ cat<span class="w"> </span>~/.agent-browser/config.json
 <p><strong>Fix (ARM64/Linux):</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1">// ~/.agent-browser/config.json</span>
 <span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;executablePath&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/chromium-1223/chrome&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;--headless=new&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;--no-sandbox&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;--disable-dev-shm-usage&quot;</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">"executablePath"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/to/chromium-1223/chrome"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"--headless=new"</span><span class="p">,</span><span class="w"> </span><span class="s2">"--no-sandbox"</span><span class="p">,</span><span class="w"> </span><span class="s2">"--disable-dev-shm-usage"</span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>On aarch64 systems, standard Chrome/Chromium paths don't work. Use Playwright's bundled Chromium and specify the path explicitly.</p>
@@ -12099,11 +12107,11 @@ nslookup<span class="w"> </span>target-site.com
 <p><strong>Fix:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Configure browser with appropriate timeouts</span>
 <span class="n">browser_config</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">&quot;navigation_timeout&quot;</span><span class="p">:</span> <span class="mi">60000</span><span class="p">,</span>  <span class="c1"># 60 seconds</span>
-    <span class="s2">&quot;action_timeout&quot;</span><span class="p">:</span> <span class="mi">30000</span><span class="p">,</span>       <span class="c1"># 30 seconds per action</span>
-    <span class="s2">&quot;wait_until&quot;</span><span class="p">:</span> <span class="s2">&quot;networkidle&quot;</span><span class="p">,</span>   <span class="c1"># Wait for network to settle</span>
-    <span class="s2">&quot;retry_on_timeout&quot;</span><span class="p">:</span> <span class="n">true</span><span class="p">,</span>
-    <span class="s2">&quot;max_retries&quot;</span><span class="p">:</span> <span class="mi">2</span>
+    <span class="s2">"navigation_timeout"</span><span class="p">:</span> <span class="mi">60000</span><span class="p">,</span>  <span class="c1"># 60 seconds</span>
+    <span class="s2">"action_timeout"</span><span class="p">:</span> <span class="mi">30000</span><span class="p">,</span>       <span class="c1"># 30 seconds per action</span>
+    <span class="s2">"wait_until"</span><span class="p">:</span> <span class="s2">"networkidle"</span><span class="p">,</span>   <span class="c1"># Wait for network to settle</span>
+    <span class="s2">"retry_on_timeout"</span><span class="p">:</span> <span class="n">true</span><span class="p">,</span>
+    <span class="s2">"max_retries"</span><span class="p">:</span> <span class="mi">2</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="symptom-captcha-or-anti-bot-detection">Symptom: CAPTCHA or anti-bot detection<a class="headerlink" href="#symptom-captcha-or-anti-bot-detection" title="Anchor link to this section">&para;</a></h3>
@@ -12120,11 +12128,11 @@ nslookup<span class="w"> </span>target-site.com
 <h3 id="symptom-target-closed-mid-operation">Symptom: "Target closed" mid-operation<a class="headerlink" href="#symptom-target-closed-mid-operation" title="Anchor link to this section">&para;</a></h3>
 <p>The page navigated away or closed unexpectedly.</p>
 <p><strong>Fix:</strong> Re-navigate and snapshot before interacting:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">safe_interact</span><span class="p">(</span><span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">callable</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">safe_interact</span><span class="p">(</span><span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">callable</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">page</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">navigate</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-            <span class="n">snapshot</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">snapshot</span><span class="p">()</span>  <span class="c1"># Verify we&#39;re on the right page</span>
+            <span class="n">snapshot</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">snapshot</span><span class="p">()</span>  <span class="c1"># Verify we're on the right page</span>
             <span class="k">return</span> <span class="n">action</span><span class="p">(</span><span class="n">page</span><span class="p">)</span>
         <span class="k">except</span> <span class="n">TargetClosedError</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">attempt</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
@@ -12135,10 +12143,10 @@ nslookup<span class="w"> </span>target-site.com
 <h3 id="symptom-wrong-model-used-for-task-type">Symptom: Wrong model used for task type<a class="headerlink" href="#symptom-wrong-model-used-for-task-type" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Diagnosis:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check which model was used for recent tasks</span>
-hermes<span class="w"> </span>model<span class="w"> </span>usage<span class="w"> </span>--last<span class="w"> </span><span class="m">50</span>
+hermes<span class="w"> </span>insights<span class="w"> </span>--days<span class="w"> </span><span class="m">7</span>
 
 <span class="c1"># Check routing rules</span>
-hermes<span class="w"> </span>config<span class="w"> </span>list<span class="w"> </span>models
+hermes<span class="w"> </span>config<span class="w"> </span>show
 </code></pre></div>
 <p><strong>Common routing problems:</strong></p>
 <table>
@@ -12170,43 +12178,44 @@ hermes<span class="w"> </span>config<span class="w"> </span>list<span class="w">
 <h3 id="symptom-model-not-found-or-provider-errors">Symptom: "Model not found" or provider errors<a class="headerlink" href="#symptom-model-not-found-or-provider-errors" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Diagnosis:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify provider connection</span>
-hermes<span class="w"> </span>model<span class="w"> </span><span class="nb">test</span><span class="w"> </span>deepseek
-hermes<span class="w"> </span>model<span class="w"> </span><span class="nb">test</span><span class="w"> </span>anthropic
-hermes<span class="w"> </span>model<span class="w"> </span><span class="nb">test</span><span class="w"> </span>openai
+hermes<span class="w"> </span>doctor
+hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w"> </span>deepseek
+hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w"> </span>anthropic
+hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w"> </span>openai
 
 <span class="c1"># Check rate limit status</span>
-hermes<span class="w"> </span>model<span class="w"> </span>limits
+hermes<span class="w"> </span>usage
 </code></pre></div>
 <p><strong>Fixes:</strong></p>
 <ul>
-<li>Provider API key expired → Update in <code>hermes config set provider_key</code></li>
+<li>Provider API key expired → Re-add the credential with <code>hermes auth add &lt;provider&gt;</code>, or switch provider with <code>hermes model</code></li>
 <li>Rate limit hit → Implement exponential backoff in router</li>
 <li>Model deprecated → Update to newer model version in config</li>
 <li>Provider outage → Configure fallback provider chain</li>
 </ul>
 <h3 id="symptom-high-token-costs">Symptom: High token costs<a class="headerlink" href="#symptom-high-token-costs" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Diagnosis:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Daily cost breakdown by model tier</span>
-hermes<span class="w"> </span>model<span class="w"> </span>cost<span class="w"> </span>--daily<span class="w"> </span>--last<span class="w"> </span><span class="m">7</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Token and cost breakdown for the last 7 days</span>
+hermes<span class="w"> </span>insights<span class="w"> </span>--days<span class="w"> </span><span class="m">7</span>
 
-<span class="c1"># Cost per task type</span>
-hermes<span class="w"> </span>model<span class="w"> </span>cost<span class="w"> </span>--by-task<span class="w"> </span>--last<span class="w"> </span><span class="m">7</span>
+<span class="c1"># Same view filtered to one platform</span>
+hermes<span class="w"> </span>insights<span class="w"> </span>--days<span class="w"> </span><span class="m">7</span><span class="w"> </span>--source<span class="w"> </span>cli
 </code></pre></div>
 <p><strong>Optimization:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/config/models.yaml</span>
 <span class="nt">routing</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">default_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;standard&quot;</span><span class="w">  </span><span class="c1"># Don&#39;t default to premium</span>
+<span class="w">  </span><span class="nt">default_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"standard"</span><span class="w">  </span><span class="c1"># Don't default to premium</span>
 <span class="w">  </span><span class="nt">cost_ceiling_daily</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5.00</span><span class="w">  </span><span class="c1"># Hard stop at $5/day</span>
 
 <span class="w">  </span><span class="nt">rules</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;classification&quot;</span>
-<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;lightweight&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;formatting&quot;</span>
-<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;lightweight&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;summarization&quot;</span>
-<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;standard&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;strategic_analysis&quot;</span>
-<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;premium&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">"classification"</span>
+<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">"lightweight"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">"formatting"</span>
+<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">"lightweight"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">"summarization"</span>
+<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">"standard"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">task_type</span><span class="p">:</span><span class="w"> </span><span class="s">"strategic_analysis"</span>
+<span class="w">      </span><span class="nt">tier</span><span class="p">:</span><span class="w"> </span><span class="s">"premium"</span>
 <span class="w">      </span><span class="nt">max_daily_calls</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">20</span><span class="w">  </span><span class="c1"># Cap premium calls</span>
 </code></pre></div>
 <h2 id="gateway-crashes">Gateway Crashes<a class="headerlink" href="#gateway-crashes" title="Anchor link to this section">&para;</a></h2>
@@ -12214,10 +12223,10 @@ hermes<span class="w"> </span>model<span class="w"> </span>cost<span class="w"> 
 <h3 id="symptom-all-requests-failing-with-502503">Symptom: All requests failing with 502/503<a class="headerlink" href="#symptom-all-requests-failing-with-502503" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Diagnosis:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check gateway process</span>
-systemctl<span class="w"> </span>status<span class="w"> </span>hermes-gateway
+hermes<span class="w"> </span>gateway<span class="w"> </span>status
 
 <span class="c1"># Check gateway logs</span>
-journalctl<span class="w"> </span>-u<span class="w"> </span>hermes-gateway<span class="w"> </span>--since<span class="w"> </span><span class="s2">&quot;5 minutes ago&quot;</span>
+hermes<span class="w"> </span>logs<span class="w"> </span>gateway<span class="w"> </span>-n<span class="w"> </span><span class="m">50</span>
 
 <span class="c1"># Check system resources</span>
 free<span class="w"> </span>-h
@@ -12252,7 +12261,7 @@ htop
 <tr>
 <td>Config parse error</td>
 <td>Gateway fails to start after config change</td>
-<td><code>hermes config validate</code>, revert last change</td>
+<td><code>hermes config check</code>, revert last change</td>
 </tr>
 <tr>
 <td>Upstream LLM provider down</td>
@@ -12266,40 +12275,38 @@ htop
 <div class="highlight"><pre><span></span><code><span class="c1"># Check active connections</span>
 ss<span class="w"> </span>-tunap<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>&lt;gateway_port&gt;
 
-<span class="c1"># Check for hung threads</span>
-<span class="nb">kill</span><span class="w"> </span>-3<span class="w"> </span><span class="k">$(</span>pgrep<span class="w"> </span>-f<span class="w"> </span>hermes-gateway<span class="k">)</span><span class="w">  </span><span class="c1"># Thread dump (Java)</span>
-<span class="c1"># or</span>
-pystack<span class="w"> </span><span class="k">$(</span>pgrep<span class="w"> </span>-f<span class="w"> </span>hermes-gateway<span class="k">)</span><span class="w">   </span><span class="c1"># Python stack trace</span>
+<span class="c1"># Check for hung threads on the Python gateway process</span>
+py-spy<span class="w"> </span>dump<span class="w"> </span>--pid<span class="w"> </span><span class="k">$(</span>pgrep<span class="w"> </span>-f<span class="w"> </span><span class="s2">"hermes gateway"</span><span class="k">)</span>
 </code></pre></div>
 <p><strong>Common causes:</strong>
 - <strong>Connection pool exhaustion:</strong> All connections to an upstream service are in use
 - <strong>Deadlock in model router:</strong> Two requests waiting on each other
-- <strong>GC pause (Java backend):</strong> Garbage collection blocking all threads</p>
-<p><strong>Fix:</strong> Restart gateway with <code>systemctl restart hermes-gateway</code>. For recurring issues, tune connection pool size or GC settings.</p>
+- <strong>Blocked event loop:</strong> A synchronous tool call holding the loop, starving every other request</p>
+<p><strong>Fix:</strong> Restart the gateway with <code>hermes gateway restart</code>. For recurring issues, tune connection pool size and move blocking work off the event loop.</p>
 <h3 id="gateway-recovery-procedure">Gateway Recovery Procedure<a class="headerlink" href="#gateway-recovery-procedure" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># 1. Check what&#39;s wrong</span>
-systemctl<span class="w"> </span>status<span class="w"> </span>hermes-gateway
-journalctl<span class="w"> </span>-u<span class="w"> </span>hermes-gateway<span class="w"> </span>--since<span class="w"> </span><span class="s2">&quot;10 minutes ago&quot;</span><span class="w"> </span>-n<span class="w"> </span><span class="m">50</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. Check what's wrong</span>
+hermes<span class="w"> </span>gateway<span class="w"> </span>status
+hermes<span class="w"> </span>logs<span class="w"> </span>gateway<span class="w"> </span>-n<span class="w"> </span><span class="m">50</span>
 
-<span class="c1"># 2. Attempt graceful restart</span>
-systemctl<span class="w"> </span>reload<span class="w"> </span>hermes-gateway
+<span class="c1"># 2. First try a graceful ensure (starts the local runtime if it is down)</span>
+hermes<span class="w"> </span>gateway<span class="w"> </span>ensure
 
-<span class="c1"># 3. If reload fails, hard restart</span>
-systemctl<span class="w"> </span>restart<span class="w"> </span>hermes-gateway
+<span class="c1"># 3. If ensure fails, hard restart</span>
+hermes<span class="w"> </span>gateway<span class="w"> </span>restart
 
 <span class="c1"># 4. Verify recovery</span>
 curl<span class="w"> </span>-f<span class="w"> </span>http://localhost:&lt;gateway_port&gt;/health
 
 <span class="c1"># 5. Check all downstream services recovered</span>
-hermes<span class="w"> </span>health<span class="w"> </span>full
+hermes<span class="w"> </span>status<span class="w"> </span>--full
 
-<span class="c1"># 6. Re-queue any failed requests</span>
-hermes<span class="w"> </span>queue<span class="w"> </span>retry<span class="w"> </span>--since<span class="w"> </span><span class="s2">&quot;15 minutes ago&quot;</span>
+<span class="c1"># 6. Re-run the affected cron job</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>run<span class="w"> </span>&lt;job_id&gt;
 </code></pre></div>
 <h2 id="ssh-worker-node-connectivity">SSH &amp; Worker Node Connectivity<a class="headerlink" href="#ssh-worker-node-connectivity" title="Anchor link to this section">&para;</a></h2>
 <h3 id="symptom-connection-refused-to-worker-node">Symptom: "Connection refused" to worker node<a class="headerlink" href="#symptom-connection-refused-to-worker-node" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check if SSH is running on the worker</span>
-ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">&quot;echo &#39;SSH is alive&#39;&quot;</span>
+ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">"echo 'SSH is alive'"</span>
 
 <span class="c1"># If not, check worker node status</span>
 ping<span class="w"> </span>worker-node.local
@@ -12319,10 +12326,10 @@ ssh<span class="w"> </span>user@worker-node.local
 <h3 id="worker-node-health-check">Worker Node Health Check<a class="headerlink" href="#worker-node-health-check" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/worker_health.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">worker_node_health</span>
-<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;*/5</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span>
+<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"*/5</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span>
 <span class="nt">task</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">health.check_worker_node</span>
 <span class="nt">params</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;worker-node.local&quot;</span>
+<span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"> </span><span class="s">"worker-node.local"</span>
 <span class="w">  </span><span class="nt">checks</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ssh_connectivity</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">disk_usage</span>
@@ -12330,33 +12337,33 @@ ssh<span class="w"> </span>user@worker-node.local
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">browser_driver_status</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">content_queue_depth</span>
 <span class="w">  </span><span class="nt">alert_on_failure</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-alerts&quot;</span>
+<span class="w">  </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">"ops-alerts"</span>
 </code></pre></div>
 <h2 id="quick-reference-recovery-commands">Quick Reference: Recovery Commands<a class="headerlink" href="#quick-reference-recovery-commands" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Full system health check</span>
-hermes<span class="w"> </span>health
+hermes<span class="w"> </span>status<span class="w"> </span>--full
 
-<span class="c1"># Restart all services in correct order</span>
-hermes<span class="w"> </span>restart<span class="w"> </span>--all
+<span class="c1"># Restart the messaging gateway</span>
+hermes<span class="w"> </span>gateway<span class="w"> </span>restart
 
-<span class="c1"># Check what&#39;s consuming resources</span>
-hermes<span class="w"> </span>diagnostics
+<span class="c1"># Check what's consuming resources</span>
+hermes<span class="w"> </span>status<span class="w"> </span>--deep
 
 <span class="c1"># View recent errors across all components</span>
-hermes<span class="w"> </span>errors<span class="w"> </span>--last<span class="w"> </span><span class="m">50</span>
+hermes<span class="w"> </span>logs<span class="w"> </span>errors<span class="w"> </span>-n<span class="w"> </span><span class="m">50</span>
 
-<span class="c1"># Test critical path (orchestration → tool → response)</span>
-hermes<span class="w"> </span><span class="nb">test</span><span class="w"> </span>e2e
+<span class="c1"># Test the project's build/test/start recipe end to end</span>
+hermes<span class="w"> </span>verify
 
-<span class="c1"># Re-queue failed tasks</span>
-hermes<span class="w"> </span>queue<span class="w"> </span>retry<span class="w"> </span>--failed-only<span class="w"> </span>--since<span class="w"> </span><span class="s2">&quot;1 hour ago&quot;</span>
+<span class="c1"># Re-run a failed cron job</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>run<span class="w"> </span>&lt;job_id&gt;
 </code></pre></div>
 <h2 id="when-all-else-fails">When All Else Fails<a class="headerlink" href="#when-all-else-fails" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Check the logs:</strong> <code>hermes diagnostics</code> gives you a system-wide view</li>
+<li><strong>Check the logs:</strong> <code>hermes status --full</code> and <code>hermes logs errors</code> give you a system-wide view</li>
 <li><strong>Isolate the failure:</strong> Test each component independently</li>
-<li><strong>Check for recent changes:</strong> <code>hermes config diff</code> shows what changed</li>
-<li><strong>Roll back:</strong> If a config change caused the issue, <code>hermes config rollback</code></li>
+<li><strong>Check for recent changes:</strong> <code>hermes config check</code> and a <code>git diff</code> of the file at <code>hermes config path</code> show what changed</li>
+<li><strong>Roll back:</strong> If a config change caused the issue, restore a known-good config (backups come from <code>hermes backup</code>, restored with <code>hermes import</code>)</li>
 <li><strong>Escalate:</strong> Some failures genuinely need human intervention. The system is designed to degrade gracefully  --  individual features may fail while the core continues operating.</li>
 </ol>
 <hr />

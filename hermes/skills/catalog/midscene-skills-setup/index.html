@@ -11204,15 +11204,15 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-natural-language-browser-control">1. Natural Language Browser Control<a class="headerlink" href="#1-natural-language-browser-control" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Fill forms and click buttons with plain English</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">&quot;fill in the email field with &#39;user@example.com&#39; and click Log In&quot;</span>
+npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">"fill in the email field with 'user@example.com' and click Log In"</span>
 
 <span class="c1"># Navigate complex multi-step workflows</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">&quot;complete the multi-step checkout form&quot;</span>
+npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">"complete the multi-step checkout form"</span>
 </code></pre></div>
 <h3 id="2-visual-element-location">2. Visual Element Location<a class="headerlink" href="#2-visual-element-location" title="Anchor link to this section">&para;</a></h3>
 <p>Instead of brittle selectors, Midscene "sees" the page:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Click a specific visual element</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>tap<span class="w"> </span>--locate<span class="w"> </span><span class="s2">&quot;the gear icon in the top-right toolbar&quot;</span>
+npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>tap<span class="w"> </span>--locate<span class="w"> </span><span class="s2">"the gear icon in the top-right toolbar"</span>
 
 <span class="c1"># Take screenshots for verification</span>
 npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>take_screenshot
@@ -11225,7 +11225,7 @@ npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class=
 </ul>
 <div class="highlight"><pre><span></span><code><span class="c1"># Combine both for challenging pages</span>
 npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--deep-locate<span class="w"> </span>--deep-think<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;open settings, go to Preferences, enable dark mode&quot;</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"open settings, go to Preferences, enable dark mode"</span>
 </code></pre></div>
 <h3 id="4-cross-platform">4. Cross-Platform<a class="headerlink" href="#4-cross-platform" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -11239,16 +11239,16 @@ npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class=
 npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>@midscene/web
 
 <span class="c1"># 2. Set API key</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">MIDSCENE_MODEL_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key-here&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">MIDSCENE_MODEL_API_KEY</span><span class="o">=</span><span class="s2">"your-key-here"</span>
 
 <span class="c1"># 3. Navigate and interact</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">&quot;go to google.com and search for &#39;Hermes agent framework&#39;&quot;</span>
+npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">"go to google.com and search for 'Hermes agent framework'"</span>
 
 <span class="c1"># 4. Take a screenshot to verify</span>
 npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>take_screenshot
 
 <span class="c1"># 5. Run browser in CDP mode (more stable)</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--cdp<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">&quot;log into the dashboard&quot;</span>
+npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--cdp<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">"log into the dashboard"</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
@@ -11259,7 +11259,7 @@ npx<span class="w"> </span>@midscene/web<span class="w"> </span>--version
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>midscene
 
 <span class="c1"># Quick smoke test</span>
-npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">&quot;navigate to example.com&quot;</span>
+npx<span class="w"> </span>-y<span class="w"> </span>@midscene/web@1<span class="w"> </span>act<span class="w"> </span>--prompt<span class="w"> </span><span class="s2">"navigate to example.com"</span>
 </code></pre></div>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>

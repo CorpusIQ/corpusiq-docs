@@ -11111,20 +11111,20 @@
 </table>
 <h2 id="setup-macos-messages-automation">Setup: macOS Messages Automation<a class="headerlink" href="#setup-macos-messages-automation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify Messages.app accessibility</span>
-osascript<span class="w"> </span>-e<span class="w"> </span><span class="s1">&#39;tell application &quot;System Events&quot; to get name of process &quot;Messages&quot;&#39;</span>
+osascript<span class="w"> </span>-e<span class="w"> </span><span class="s1">'tell application "System Events" to get name of process "Messages"'</span>
 
 <span class="c1"># Send via AppleScript (fallback when headless)</span>
-osascript<span class="w"> </span>-e<span class="w"> </span><span class="s1">&#39;tell application &quot;Messages&quot; to send &quot;Hello&quot; to buddy &quot;+15551234567&quot; of service &quot;E:user@icloud.com&quot;&#39;</span>
+osascript<span class="w"> </span>-e<span class="w"> </span><span class="s1">'tell application "Messages" to send "Hello" to buddy "+15551234567" of service "E:user@icloud.com"'</span>
 
 <span class="c1"># Read recent messages via SQLite</span>
-sqlite3<span class="w"> </span>~/Library/Messages/chat.db<span class="w"> </span><span class="s2">&quot;</span>
+sqlite3<span class="w"> </span>~/Library/Messages/chat.db<span class="w"> </span><span class="s2">"</span>
 <span class="s2">SELECT m.text, m.date, h.id </span>
 <span class="s2">FROM message m </span>
 <span class="s2">JOIN chat_message_join cmj ON m.ROWID = cmj.message_id </span>
 <span class="s2">JOIN chat c ON cmj.chat_id = c.ROWID </span>
 <span class="s2">JOIN handle h ON m.handle_id = h.ROWID </span>
 <span class="s2">ORDER BY m.date DESC LIMIT 10;</span>
-<span class="s2">&quot;</span>
+<span class="s2">"</span>
 </code></pre></div>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
@@ -11189,7 +11189,7 @@ this one can be combined with a company's own business data in a single answer.<
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>imessage
 </code></pre></div></p>
 <p>Test with a simple send:
-<div class="highlight"><pre><span></span><code>&quot;Send a test iMessage to myself: &#39;Hermes iMessage skill verified&#39;&quot;
+<div class="highlight"><pre><span></span><code>"Send a test iMessage to myself: 'Hermes iMessage skill verified'"
 </code></pre></div></p>
 
 

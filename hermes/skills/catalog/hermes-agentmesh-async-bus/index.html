@@ -11122,11 +11122,11 @@
 </ul>
 <h3 id="step-1-mac-mini-configure-redis-for-lan-access">Step 1: Mac mini  --  Configure Redis for LAN access<a class="headerlink" href="#step-1-mac-mini-configure-redis-for-lan-access" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>sed<span class="w"> </span>-i.bak<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="s1">&#39;s/^bind 127.0.0.1 ::1$/bind 0.0.0.0/&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="s1">&#39;s/^protected-mode yes$/protected-mode no/&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-e<span class="w"> </span><span class="s1">'s/^bind 127.0.0.1 ::1$/bind 0.0.0.0/'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-e<span class="w"> </span><span class="s1">'s/^protected-mode yes$/protected-mode no/'</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>/opt/homebrew/etc/redis.conf
 brew<span class="w"> </span>services<span class="w"> </span>restart<span class="w"> </span>redis
-nc<span class="w"> </span>-z<span class="w"> </span>-w<span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="m">127</span>.0.0.1<span class="w"> </span><span class="m">6379</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;✓ Redis cross-LAN OK&quot;</span>
+nc<span class="w"> </span>-z<span class="w"> </span>-w<span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="m">127</span>.0.0.1<span class="w"> </span><span class="m">6379</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"✓ Redis cross-LAN OK"</span>
 </code></pre></div>
 <h3 id="step-2-install-the-skill">Step 2: Install the skill<a class="headerlink" href="#step-2-install-the-skill" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>seleman66eeddwegger3-art/hermes-agentmesh<span class="w"> </span>--skill<span class="w"> </span>hermes-agentmesh-async-bus
@@ -11140,10 +11140,10 @@ curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;
 <span class="c1"># Edit .env_common with actual IPs and API keys</span>
 </code></pre></div>
 <h3 id="step-4-send-your-first-task">Step 4: Send your first task<a class="headerlink" href="#step-4-send-your-first-task" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">redis</span><span class="o">,</span> <span class="nn">json</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">redis</span><span class="o">.</span><span class="n">Redis</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">&#39;&lt;MAC_MINI_IP&gt;&#39;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">6379</span><span class="p">)</span>
-<span class="n">task</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;analysis&quot;</span><span class="p">,</span> <span class="s2">&quot;payload&quot;</span><span class="p">:</span> <span class="s2">&quot;audit codebase&quot;</span><span class="p">,</span> <span class="s2">&quot;from&quot;</span><span class="p">:</span> <span class="s2">&quot;orchestrator&quot;</span><span class="p">}</span>
-<span class="n">r</span><span class="o">.</span><span class="n">lpush</span><span class="p">(</span><span class="s2">&quot;inbox:worker-1&quot;</span><span class="p">,</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">task</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">redis</span><span class="o">,</span><span class="w"> </span><span class="nn">json</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">redis</span><span class="o">.</span><span class="n">Redis</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">'&lt;MAC_MINI_IP&gt;'</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">6379</span><span class="p">)</span>
+<span class="n">task</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"type"</span><span class="p">:</span> <span class="s2">"analysis"</span><span class="p">,</span> <span class="s2">"payload"</span><span class="p">:</span> <span class="s2">"audit codebase"</span><span class="p">,</span> <span class="s2">"from"</span><span class="p">:</span> <span class="s2">"orchestrator"</span><span class="p">}</span>
+<span class="n">r</span><span class="o">.</span><span class="n">lpush</span><span class="p">(</span><span class="s2">"inbox:worker-1"</span><span class="p">,</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">task</span><span class="p">))</span>
 <span class="c1"># Worker picks it up, processes, writes report back to your machine</span>
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
@@ -11151,7 +11151,7 @@ curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;
 redis-cli<span class="w"> </span>-h<span class="w"> </span>&lt;MAC_MINI_IP&gt;<span class="w"> </span>PING<span class="w">  </span><span class="c1"># Should return PONG</span>
 
 <span class="c1"># Monitor inbox activity</span>
-redis-cli<span class="w"> </span>-h<span class="w"> </span>&lt;MAC_MINI_IP&gt;<span class="w"> </span>MONITOR<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;inbox:&quot;</span>
+redis-cli<span class="w"> </span>-h<span class="w"> </span>&lt;MAC_MINI_IP&gt;<span class="w"> </span>MONITOR<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">"inbox:"</span>
 
 <span class="c1"># Check worker health</span>
 curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;:8080/health

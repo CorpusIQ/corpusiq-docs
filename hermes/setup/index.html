@@ -11160,7 +11160,7 @@
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Don't overthink it.</strong> If you're just getting started, use whatever machine you already have  --  a MacBook, a Windows desktop, or even a $5/month VPS. Hermes Agent is designed to be provider-agnostic and hardware-flexible. You can always migrate later to a different <a href="#hardware-comparison">setup platform</a>.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
-<p>Hermes Agent installs via <code>pip install hermes-agent</code>, then connects to AI models through one of three paths:</p>
+<p>Hermes Agent installs from a signed desktop package or a one-line install script, then connects to AI models through one of three paths:</p>
 <table>
 <thead>
 <tr>
@@ -11259,26 +11259,30 @@
 </tbody>
 </table>
 <h2 id="quick-start-any-machine">Quick Start (Any Machine)<a class="headerlink" href="#quick-start-any-machine" title="Anchor link to this section">&para;</a></h2>
-<p>This gets Hermes Agent running on any system with Python 3.11+.</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># 1. Install</span>
-pip<span class="w"> </span>install<span class="w"> </span>hermes-agent
+<p>This gets Hermes Agent running on any Linux, macOS, or Windows machine. The installer provisions its own pinned Python and toolchain, so a system-wide Python install is not required.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. Install (Linux, macOS, WSL2)</span>
+curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.nousresearch.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
+<span class="c1"># Windows PowerShell: iex (irm https://hermes-agent.nousresearch.com/install.ps1)</span>
 
 <span class="c1"># 2. Create a profile</span>
 hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="w"> </span>my-agent
 hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w"> </span>my-agent
 
 <span class="c1"># 3. Configure a model provider (pick one)</span>
-<span class="c1"># Option A: OpenRouter  --  instant access to 200+ models</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
+<span class="c1"># Option A: Nous Portal  --  one login covers a model plus the Tool Gateway</span>
+hermes<span class="w"> </span>setup<span class="w"> </span>--portal
 
-<span class="c1"># Option B: Direct provider</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.anthropic.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
+<span class="c1"># Option B: OpenRouter  --  instant access to 200+ models</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OPENROUTER_API_KEY<span class="w"> </span><span class="s2">"your-key"</span>
 
-<span class="c1"># Option C: Ollama  --  free, local, no API key needed</span>
+<span class="c1"># Option C: Direct provider  --  Anthropic, OpenAI, DeepSeek, and others</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>ANTHROPIC_API_KEY<span class="w"> </span><span class="s2">"your-key"</span>
+
+<span class="c1"># Option D: Ollama  --  free, local, no API key needed</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>llama3.2
 
-<span class="c1"># 4. Set your default model</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
+<span class="c1"># 4. Choose your default model</span>
+hermes<span class="w"> </span>model
 
 <span class="c1"># 5. Verify</span>
 hermes<span class="w"> </span>--version
@@ -11286,7 +11290,7 @@ hermes<span class="w"> </span>doctor
 </code></pre></div>
 <p>That's it. You can now use Hermes Agent interactively. For persistent operation (crons, gateway, messaging), continue to the setup guide for your platform.</p>
 <h3 id="option-hermes-desktop-app-macos-windows-linux">Option: Hermes Desktop App (macOS / Windows / Linux)<a class="headerlink" href="#option-hermes-desktop-app-macos-windows-linux" title="Anchor link to this section">&para;</a></h3>
-<p>Prefer a graphical interface over the terminal? The official <strong>Hermes Desktop</strong> app ships with the Surface Release (v0.16.0+, June 2026) - a native Electron application, not a terminal wrapper:</p>
+<p>Prefer a graphical interface over the terminal? The official <strong>Hermes Desktop</strong> app ships as a first-party download alongside the current release line (v0.22.5, released October 23, 2026) - a native Electron application, not a terminal wrapper:</p>
 <ul>
 <li>One-click install from <a href="https://hermes-agent.nousresearch.com/">hermes-agent.nousresearch.com</a> with in-app self-update</li>
 <li>Proper chat window with streaming, drag-and-drop files, clipboard image paste</li>
@@ -11295,7 +11299,7 @@ hermes<span class="w"> </span>doctor
 <li>Concurrent multi-profile sessions with cross-profile <code>@session</code> links</li>
 <li>Full Simplified Chinese UI (switchable in Appearance settings)</li>
 </ul>
-<p>The Desktop app wraps the same Hermes Agent core, so everything below (crons, MCP, skills, memory) works identically. Note: the official desktop app is distinct from third-party companion projects like <code>fathah/hermes-desktop</code>; install the official build from the Nous Research site.</p>
+<p>The Desktop app wraps the same Hermes Agent core, so everything below (crons, MCP, skills, memory) works identically. After a command-line only install, <code>hermes desktop</code> builds and launches it. Note: the official desktop app is distinct from third-party companion projects like <code>fathah/hermes-desktop</code>; install the official build from the Nous Research site.</p>
 <h2 id="benefits-of-hermes-agent">Benefits of Hermes Agent<a class="headerlink" href="#benefits-of-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Provider-agnostic</strong>: Switch between Anthropic, OpenAI, DeepSeek, Ollama, and 200+ models without changing your code</li>

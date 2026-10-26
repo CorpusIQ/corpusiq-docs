@@ -11033,15 +11033,15 @@ Built by: TEOS (tppflow.com)
 <p>State coverage as published (llms.txt, Aug 23): California 1,730 notices (latest effective date 2027-02-01), Texas 2,358 (2026-09-30), New York 260 (2027-03-31), Illinois 1,380 (2028-02-01), North Carolina 236 (2027-12-31).</p>
 <p>The same data is available as a plain REST API at <code>api.tppflow.com</code> (<code>GET /api/v1/warn/notices</code>, <code>GET /api/v1/warn/stats</code>) with an OpenAPI spec at <code>api.tppflow.com/.well-known/openapi.json</code>.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>teos-warn<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://mcp.tppflow.com/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer YOUR_API_KEY&quot;</span>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>teos-warn<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://mcp.tppflow.com/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer YOUR_API_KEY"</span>
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;teos-warn&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.tppflow.com/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_API_KEY&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"teos-warn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.tppflow.com/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer YOUR_API_KEY"</span><span class="w"> </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

@@ -11161,24 +11161,24 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="yfinance-data-market-data-fetching">yfinance-data - Market Data Fetching<a class="headerlink" href="#yfinance-data-market-data-fetching" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">yfinance</span> <span class="k">as</span> <span class="nn">yf</span>
+<p><div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">yfinance</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">yf</span>
 
 <span class="c1"># Current stock price</span>
-<span class="n">ticker</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="s2">&quot;AAPL&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">ticker</span><span class="o">.</span><span class="n">info</span><span class="p">[</span><span class="s1">&#39;currentPrice&#39;</span><span class="p">])</span>
+<span class="n">ticker</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="s2">"AAPL"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ticker</span><span class="o">.</span><span class="n">info</span><span class="p">[</span><span class="s1">'currentPrice'</span><span class="p">])</span>
 
 <span class="c1"># Historical data</span>
-<span class="n">hist</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span><span class="n">period</span><span class="o">=</span><span class="s2">&quot;1mo&quot;</span><span class="p">)</span>
+<span class="n">hist</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span><span class="n">period</span><span class="o">=</span><span class="s2">"1mo"</span><span class="p">)</span>
 
 <span class="c1"># Financial statements</span>
 <span class="n">balance_sheet</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">balance_sheet</span>
 <span class="n">income_stmt</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">income_stmt</span>
 
 <span class="c1"># Options chain</span>
-<span class="n">options</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">option_chain</span><span class="p">(</span><span class="s1">&#39;2026-08-21&#39;</span><span class="p">)</span>
+<span class="n">options</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">option_chain</span><span class="p">(</span><span class="s1">'2026-08-21'</span><span class="p">)</span>
 
 <span class="c1"># Multiple tickers</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">download</span><span class="p">([</span><span class="s2">&quot;AAPL&quot;</span><span class="p">,</span> <span class="s2">&quot;MSFT&quot;</span><span class="p">,</span> <span class="s2">&quot;GOOGL&quot;</span><span class="p">],</span> <span class="n">period</span><span class="o">=</span><span class="s2">&quot;6mo&quot;</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">download</span><span class="p">([</span><span class="s2">"AAPL"</span><span class="p">,</span> <span class="s2">"MSFT"</span><span class="p">,</span> <span class="s2">"GOOGL"</span><span class="p">],</span> <span class="n">period</span><span class="o">=</span><span class="s2">"6mo"</span><span class="p">)</span>
 </code></pre></div>
 Covers 19 data categories: stock prices, history, financials, options, dividends, earnings, analyst targets, institutional holders, insider transactions, and more.</p>
 <h3 id="stock-correlation-portfolio-analysis">stock-correlation - Portfolio Analysis<a class="headerlink" href="#stock-correlation-portfolio-analysis" title="Anchor link to this section">&para;</a></h3>
@@ -11192,29 +11192,29 @@ Covers 19 data categories: stock prices, history, financials, options, dividends
 <hr />
 <h2 id="quick-start-for-hermes-agents">Quick Start for Hermes Agents<a class="headerlink" href="#quick-start-for-hermes-agents" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Ensure yfinance is installed</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import yfinance; print(&#39;yfinance&#39;, yfinance.__version__)&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import yfinance; print('yfinance', yfinance.__version__)"</span>
 
 <span class="c1"># 2. Fetch a stock quote</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span>
 <span class="s2">import yfinance as yf</span>
-<span class="s2">aapl = yf.Ticker(&#39;AAPL&#39;)</span>
-<span class="s2">print(f\&quot;AAPL: \${aapl.info.get(&#39;currentPrice&#39;, &#39;N/A&#39;)}\&quot;)</span>
-<span class="s2">print(f\&quot;Market Cap: \${aapl.info.get(&#39;marketCap&#39;, 0)/1e9:.1f}B\&quot;)</span>
-<span class="s2">&quot;</span>
+<span class="s2">aapl = yf.Ticker('AAPL')</span>
+<span class="s2">print(f\"AAPL: \${aapl.info.get('currentPrice', 'N/A')}\")</span>
+<span class="s2">print(f\"Market Cap: \${aapl.info.get('marketCap', 0)/1e9:.1f}B\")</span>
+<span class="s2">"</span>
 
 <span class="c1"># 3. Get S&amp;P 500 sector overview</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span>
 <span class="s2">import yfinance as yf</span>
-<span class="s2">spy = yf.Ticker(&#39;SPY&#39;)</span>
+<span class="s2">spy = yf.Ticker('SPY')</span>
 <span class="s2">info = spy.info</span>
-<span class="s2">print(f\&quot;S&amp;P 500 (SPY): \${info.get(&#39;currentPrice&#39;, &#39;N/A&#39;)}\&quot;)</span>
-<span class="s2">print(f\&quot;50-Day Avg: \${info.get(&#39;fiftyDayAverage&#39;, &#39;N/A&#39;)}\&quot;)</span>
-<span class="s2">&quot;</span>
+<span class="s2">print(f\"S&amp;P 500 (SPY): \${info.get('currentPrice', 'N/A')}\")</span>
+<span class="s2">print(f\"50-Day Avg: \${info.get('fiftyDayAverage', 'N/A')}\")</span>
+<span class="s2">"</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify yfinance is functional</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import yfinance as yf; msft = yf.Ticker(&#39;MSFT&#39;); print(&#39;✓ MSFT:&#39;, msft.info.get(&#39;shortName&#39;, &#39;?&#39;))&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import yfinance as yf; msft = yf.Ticker('MSFT'); print('✓ MSFT:', msft.info.get('shortName', '?'))"</span>
 
 <span class="c1"># Verify installed skills</span>
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>himself65

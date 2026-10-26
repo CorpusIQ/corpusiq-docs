@@ -11088,9 +11088,9 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/adnw-
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="nt">nextcloud</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://cloud.yourdomain.com&quot;</span>
-<span class="w">  </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${NEXTCLOUD_USER}&quot;</span>
-<span class="w">  </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${NEXTCLOUD_APP_PASSWORD}&quot;</span><span class="w">   </span><span class="c1"># Use app password, not main password</span>
+<span class="w">  </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://cloud.yourdomain.com"</span>
+<span class="w">  </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="s">"${NEXTCLOUD_USER}"</span>
+<span class="w">  </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="s">"${NEXTCLOUD_APP_PASSWORD}"</span><span class="w">   </span><span class="c1"># Use app password, not main password</span>
 <span class="w">  </span><span class="nt">verify_ssl</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">  </span><span class="nt">services</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">files</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">       </span><span class="c1"># WebDAV</span>
@@ -11102,26 +11102,26 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/adnw-
 <p><strong>Recommended</strong>: Use a Nextcloud app password (generated in Settings → Security → Devices &amp; sessions) rather than your main account password. This limits the agent's scope and allows easy revocation.</p>
 <h2 id="key-workflows">Key Workflows<a class="headerlink" href="#key-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="file-operations">File operations<a class="headerlink" href="#file-operations" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>List files in my Nextcloud &quot;Projects/CorpusIQ/&quot; folder.
+<div class="highlight"><pre><span></span><code>List files in my Nextcloud "Projects/CorpusIQ/" folder.
 Upload the latest daily report to Nextcloud.
 </code></pre></div>
 <h3 id="notes-management">Notes management<a class="headerlink" href="#notes-management" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Create a meeting note in Nextcloud Notes for today&#39;s standup.
-Search my Nextcloud Notes for &quot;Q3 roadmap&quot;.
+<div class="highlight"><pre><span></span><code>Create a meeting note in Nextcloud Notes for today's standup.
+Search my Nextcloud Notes for "Q3 roadmap".
 </code></pre></div>
 <h3 id="calendar-integration">Calendar integration<a class="headerlink" href="#calendar-integration" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>What&#39;s on my Nextcloud calendar today?
-Create a &quot;Product Review&quot; event for Friday 2-3 PM.
+<div class="highlight"><pre><span></span><code>What's on my Nextcloud calendar today?
+Create a "Product Review" event for Friday 2-3 PM.
 </code></pre></div>
 <h3 id="contact-search">Contact search<a class="headerlink" href="#contact-search" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Find the contact for &quot;Jane Smith&quot; in my Nextcloud contacts.
+<div class="highlight"><pre><span></span><code>Find the contact for "Jane Smith" in my Nextcloud contacts.
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test connection</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;List the root folder contents of my Nextcloud at https://cloud.yourdomain.com&quot;</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"List the root folder contents of my Nextcloud at https://cloud.yourdomain.com"</span>
 
 <span class="c1"># Test notes</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;List my Nextcloud notes&quot;</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"List my Nextcloud notes"</span>
 </code></pre></div>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>

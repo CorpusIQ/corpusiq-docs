@@ -11032,7 +11032,7 @@
 <h1 id="helio-mcp">Helio MCP<a class="headerlink" href="#helio-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Open-source governance proxy for AI agents.</strong> Helio is an MCP proxy that sits between your AI agents and the tools they use. Every tool call passes through it: policies are enforced, risky actions route to human approval, cumulative spend is capped, and every decision is recorded - without changing your agent code or your MCP servers. It governs what agents do to the rest of the world across any MCP-compatible client: Claude, ChatGPT, LangChain, CrewAI or a custom framework.</p>
 <div class="highlight"><pre><span></span><code>Server type: Local proxy (stdio or HTTP upstreams it fronts)
-Auth: none by default (it governs other servers&#39; auth)
+Auth: none by default (it governs other servers' auth)
 Install: npx @gethelio/proxy init
 Version: 0.14.0 (npm, verified)
 License: Apache-2.0
@@ -11092,10 +11092,10 @@ Dashboard: bundled web UI (localhost:3100 by default)
 <p>That single package ships the proxy runtime and the bundled dashboard. Running your agent in a container? <code>npx @gethelio/proxy init --sandbox</code> writes a sidecar layout instead.</p>
 <p><strong>Heads up:</strong> Helio starts in audit-only mode. <code>init</code> scaffolds the <code>policies</code> section commented out, so out of the box it records every tool call but blocks nothing. Uncomment and edit <code>policies</code> to start enforcing.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;1&#39;</span>
+<div class="highlight"><pre><span></span><code><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">'1'</span>
 
 <span class="nt">upstream</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;http://localhost:8080/mcp&#39;</span><span class="w">   </span><span class="c1"># your existing MCP server</span>
+<span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">'http://localhost:8080/mcp'</span><span class="w">   </span><span class="c1"># your existing MCP server</span>
 <span class="w">  </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">streamable-http</span>
 
 <span class="nt">listen</span><span class="p">:</span>
@@ -11104,13 +11104,13 @@ Dashboard: bundled web UI (localhost:3100 by default)
 <span class="nt">policies</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">allow</span>
 <span class="w">  </span><span class="nt">rules</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">match</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> tool</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;delete_*&#39;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">match</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> tool</span><span class="p">:</span><span class="w"> </span><span class="s">'delete_*'</span><span class="w"> </span><span class="p p-Indicator">}</span>
 <span class="w">      </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deny</span>
-<span class="w">      </span><span class="nt">feedback</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> message</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;Destructive</span><span class="nv"> </span><span class="s">operations</span><span class="nv"> </span><span class="s">are</span><span class="nv"> </span><span class="s">disabled&#39;</span><span class="w"> </span><span class="p p-Indicator">}</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">match</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> tool</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;create_payment&#39;</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">      </span><span class="nt">feedback</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> message</span><span class="p">:</span><span class="w"> </span><span class="s">'Destructive</span><span class="nv"> </span><span class="s">operations</span><span class="nv"> </span><span class="s">are</span><span class="nv"> </span><span class="s">disabled'</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">match</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> tool</span><span class="p">:</span><span class="w"> </span><span class="s">'create_payment'</span><span class="w"> </span><span class="p p-Indicator">}</span>
 <span class="w">      </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">spend_limit</span>
 <span class="w">      </span><span class="nt">limits</span><span class="p">:</span>
-<span class="w">        </span><span class="nt">max_spend</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> field</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;$.amount&#39;</span><span class="p p-Indicator">,</span><span class="nt"> limit</span><span class="p">:</span><span class="w"> </span><span class="nv">5000</span><span class="p p-Indicator">,</span><span class="nt"> currency</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;GBP&#39;</span><span class="p p-Indicator">,</span><span class="nt"> window</span><span class="p">:</span><span class="w"> </span><span class="nv">24h</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">        </span><span class="nt">max_spend</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> field</span><span class="p">:</span><span class="w"> </span><span class="s">'$.amount'</span><span class="p p-Indicator">,</span><span class="nt"> limit</span><span class="p">:</span><span class="w"> </span><span class="nv">5000</span><span class="p p-Indicator">,</span><span class="nt"> currency</span><span class="p">:</span><span class="w"> </span><span class="s">'GBP'</span><span class="p p-Indicator">,</span><span class="nt"> window</span><span class="p">:</span><span class="w"> </span><span class="nv">24h</span><span class="w"> </span><span class="p p-Indicator">}</span>
 
 <span class="nt">budgets</span><span class="p">:</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">agent-payments</span>
@@ -11119,8 +11119,8 @@ Dashboard: bundled web UI (localhost:3100 by default)
 <span class="w">    </span><span class="nt">window</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">session</span>
 <span class="w">    </span><span class="nt">on_exceed</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">require_approval</span>
 <span class="w">    </span><span class="nt">contributors</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">match</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> tool</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;stripe_*&#39;</span><span class="w"> </span><span class="p p-Indicator">}</span>
-<span class="w">        </span><span class="nt">field</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;$.amount&#39;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">match</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> tool</span><span class="p">:</span><span class="w"> </span><span class="s">'stripe_*'</span><span class="w"> </span><span class="p p-Indicator">}</span>
+<span class="w">        </span><span class="nt">field</span><span class="p">:</span><span class="w"> </span><span class="s">'$.amount'</span>
 
 <span class="nt">audit</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">storage</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sqlite</span>

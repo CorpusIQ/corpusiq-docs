@@ -11077,10 +11077,10 @@ Built by: TheWhiteWater
 <div class="highlight"><pre><span></span><code>uvx<span class="w"> </span>tube-bridge
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;tube-bridge&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uvx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;tube-bridge&quot;</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"tube-bridge"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uvx"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"tube-bridge"</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11089,10 +11089,10 @@ Built by: TheWhiteWater
 </code></pre></div>
 <p>Requires Python 3.12+. <code>ffmpeg</code> is only needed for <code>youtube_get_frame</code>; the first embedding operation downloads the local model. Alternatives: <code>pip install tube-bridge</code> for a persistent install (stdio, or <code>tube-bridge --http</code> for Streamable HTTP on port 8080), or <code>docker run -p 8080:8080 ghcr.io/thewhitewater/tube-bridge:latest</code> with <code>/health</code> and <code>/mcp</code> endpoints.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">YOUTUBE_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key&quot;</span><span class="w">        </span><span class="c1"># optional - unlocks comments + channel tools</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_PROXY</span><span class="o">=</span><span class="s2">&quot;http://...&quot;</span><span class="w">    </span><span class="c1"># optional - routes yt-dlp/transcript calls via proxy</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_CACHE</span><span class="o">=</span><span class="s2">&quot;/path/to/data&quot;</span><span class="w"> </span><span class="c1"># optional - moves corpus and cache databases</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_AUTH_KEY</span><span class="o">=</span><span class="s2">&quot;long-random&quot;</span><span class="w"> </span><span class="c1"># optional - Bearer-protects self-hosted HTTP routes</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">YOUTUBE_API_KEY</span><span class="o">=</span><span class="s2">"your-key"</span><span class="w">        </span><span class="c1"># optional - unlocks comments + channel tools</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_PROXY</span><span class="o">=</span><span class="s2">"http://..."</span><span class="w">    </span><span class="c1"># optional - routes yt-dlp/transcript calls via proxy</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_CACHE</span><span class="o">=</span><span class="s2">"/path/to/data"</span><span class="w"> </span><span class="c1"># optional - moves corpus and cache databases</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">TUBE_BRIDGE_AUTH_KEY</span><span class="o">=</span><span class="s2">"long-random"</span><span class="w"> </span><span class="c1"># optional - Bearer-protects self-hosted HTTP routes</span>
 </code></pre></div>
 <p>A YouTube Data API v3 key (Google Cloud Console) unlocks the three API-only tools and upgrades search reliability. Corpus storage is SQLite plus sqlite-vec under <code>~/.tube_bridge/corpus.db</code>; embedding inference runs locally after a one-time model download.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>

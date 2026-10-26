@@ -11070,11 +11070,11 @@
 <h3 id="1-connect-the-mcp-server">1. Connect the MCP server<a class="headerlink" href="#1-connect-the-mcp-server" title="Anchor link to this section">&para;</a></h3>
 <p>Sign in at <a href="https://proseify.xyz">proseify.xyz</a> and get a key (plans start at $9/month; a one-time lifetime option also exists). Then add the server to your agent's MCP config:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;proseify&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.proseify.xyz/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_KEY&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"proseify"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.proseify.xyz/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer YOUR_KEY"</span><span class="w"> </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11158,7 +11158,7 @@
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>anti-prose-slop
 
 <span class="c1"># Confirm the MCP endpoint responds (expect an auth challenge without a key)</span>
-curl<span class="w"> </span>-s<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code}&quot;</span><span class="w"> </span>https://mcp.proseify.xyz/mcp
+curl<span class="w"> </span>-s<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code}"</span><span class="w"> </span>https://mcp.proseify.xyz/mcp
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>No skills.sh content-security verdicts were published for this skill at verification time (the source is the product site, and its skills.sh detail page is not available). What is verifiable:</p>

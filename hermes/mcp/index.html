@@ -10915,15 +10915,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-corpusiq-mcp-one-oauth-53-tools-40-platforms" class="md-nav__link">
+  <a href="#the-corpusiq-mcp-one-oauth-121-tools-40-platforms" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The CorpusIQ MCP -- One OAuth, 53 Tools, 40+ Platforms
+        The CorpusIQ MCP -- One OAuth, 121 Tools, 40+ Platforms
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="The CorpusIQ MCP -- One OAuth, 53 Tools, 40+ Platforms">
+    <nav class="md-nav" aria-label="The CorpusIQ MCP -- One OAuth, 121 Tools, 40+ Platforms">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -11231,10 +11231,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-corpusiq-advantage-40-business-platforms-through-one-mcp-server-no-managing-37-api-keys-no-37-different-auth-flows-one-oauth-one-server-53-tools" class="md-nav__link">
+  <a href="#the-corpusiq-advantage-40-business-platforms-through-one-mcp-server-no-managing-42-api-keys-no-42-different-auth-flows-one-oauth-one-server-121-tools" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The CorpusIQ advantage: 40+ business platforms through ONE MCP server. No managing 37 API keys, no 37 different auth flows. One OAuth, one server, 53 tools.
+        The CorpusIQ advantage: 40+ business platforms through ONE MCP server. No managing 42 API keys, no 42 different auth flows. One OAuth, one server, 121 tools.
       
     </span>
   </a>
@@ -11273,19 +11273,19 @@
 
 
 <h1 id="mcp-integration-guide-connect-40-business-platforms-to-hermes-agent">MCP Integration Guide  --  Connect 40+ Business Platforms to Hermes Agent<a class="headerlink" href="#mcp-integration-guide-connect-40-business-platforms-to-hermes-agent" title="Anchor link to this section">&para;</a></h1>
-<h2 id="the-corpusiq-mcp-one-oauth-53-tools-40-platforms">The CorpusIQ MCP  --  One OAuth, 53 Tools, 40+ Platforms<a class="headerlink" href="#the-corpusiq-mcp-one-oauth-53-tools-40-platforms" title="Anchor link to this section">&para;</a></h2>
-<p>The biggest pain point in agent operations: managing 37 different API keys across 37 different platforms. The CorpusIQ MCP server solves this with a single OAuth flow.</p>
+<h2 id="the-corpusiq-mcp-one-oauth-121-tools-40-platforms">The CorpusIQ MCP  --  One OAuth, 121 Tools, 40+ Platforms<a class="headerlink" href="#the-corpusiq-mcp-one-oauth-121-tools-40-platforms" title="Anchor link to this section">&para;</a></h2>
+<p>The biggest pain point in agent operations: managing 42 different API keys across 42 different platforms. The CorpusIQ MCP server solves this with a single OAuth flow.</p>
 <h3 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add to Hermes</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--<span class="w"> </span>url<span class="w"> </span>https://mcp2.corpusiq.io/mcp
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span>--auth<span class="w"> </span>oauth
 
 &gt;<span class="w"> </span>👉<span class="w"> </span>First<span class="w"> </span>create<span class="w"> </span>an<span class="w"> </span>account<span class="w"> </span>at<span class="w"> </span><span class="o">[</span>corpusiq.io<span class="o">](</span>https://corpusiq.io<span class="o">)</span><span class="w"> </span>to<span class="w"> </span>get<span class="w"> </span>your<span class="w"> </span>MCP<span class="w"> </span>endpoint
 
 <span class="c1"># Authenticate (device login flow)</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </span>corpusiq
-<span class="c1"># → Opens browser: Enter code &quot;ABCD-1234&quot;</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>login<span class="w"> </span>corpusiq
+<span class="c1"># → Opens browser: Enter code "ABCD-1234"</span>
 <span class="c1"># → Authenticate with Google</span>
-<span class="c1"># → Done. 53 tools available.</span>
+<span class="c1"># → Done. 121 tools available.</span>
 </code></pre></div>
 <h3 id="available-tools">Available Tools<a class="headerlink" href="#available-tools" title="Anchor link to this section">&para;</a></h3>
 <h4 id="crm-sales">CRM &amp; Sales<a class="headerlink" href="#crm-sales" title="Anchor link to this section">&para;</a></h4>
@@ -11436,77 +11436,77 @@ mcp_corpusiq_calendar_connector
 <h2 id="query-patterns">Query Patterns<a class="headerlink" href="#query-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="cross-source-analysis">Cross-Source Analysis<a class="headerlink" href="#cross-source-analysis" title="Anchor link to this section">&para;</a></h3>
 <p>The real power comes from querying across platforms in a single session:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># &quot;How did our Meta ads perform vs Shopify revenue this week?&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># "How did our Meta ads perform vs Shopify revenue this week?"</span>
 
 <span class="c1"># 1. Get ad spend</span>
 <span class="n">meta_ads</span> <span class="o">=</span> <span class="n">mcp_corpusiq_meta_ads_connector</span><span class="p">(</span>
-    <span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_facebook_account_insights&quot;</span><span class="p">,</span>
-    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-06-09&quot;</span><span class="p">,</span> <span class="s2">&quot;end_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-06-15&quot;</span><span class="p">}</span>
+    <span class="n">action</span><span class="o">=</span><span class="s2">"get_facebook_account_insights"</span><span class="p">,</span>
+    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"start_date"</span><span class="p">:</span> <span class="s2">"2026-06-09"</span><span class="p">,</span> <span class="s2">"end_date"</span><span class="p">:</span> <span class="s2">"2026-06-15"</span><span class="p">}</span>
 <span class="p">)</span>
 
 <span class="c1"># 2. Get revenue (via cross-source connector)</span>
 <span class="n">roas</span> <span class="o">=</span> <span class="n">mcp_corpusiq_cross_source_ads_connector</span><span class="p">(</span>
-    <span class="n">action</span><span class="o">=</span><span class="s2">&quot;correlate_spend_vs_ga4_revenue&quot;</span><span class="p">,</span>
-    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;customer_id&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span> <span class="s2">&quot;property_id&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">}</span>
+    <span class="n">action</span><span class="o">=</span><span class="s2">"correlate_spend_vs_ga4_revenue"</span><span class="p">,</span>
+    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"customer_id"</span><span class="p">:</span> <span class="s2">"..."</span><span class="p">,</span> <span class="s2">"property_id"</span><span class="p">:</span> <span class="s2">"..."</span><span class="p">}</span>
 <span class="p">)</span>
 
 <span class="c1"># 3. Get email attribution</span>
 <span class="n">email</span> <span class="o">=</span> <span class="n">mcp_corpusiq_cross_source_email_connector</span><span class="p">(</span>
-    <span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_channel_attribution_summary&quot;</span>
+    <span class="n">action</span><span class="o">=</span><span class="s2">"get_channel_attribution_summary"</span>
 <span class="p">)</span>
 </code></pre></div>
 <h3 id="automated-reporting">Automated Reporting<a class="headerlink" href="#automated-reporting" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># &quot;Generate a weekly business health report&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># "Generate a weekly business health report"</span>
 
 <span class="c1"># 1. Revenue</span>
-<span class="n">profit_loss</span> <span class="o">=</span> <span class="n">mcp_corpusiq_quickbooks_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_profit_loss&quot;</span><span class="p">)</span>
-<span class="n">stripe</span> <span class="o">=</span> <span class="n">mcp_corpusiq_stripe_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_balance&quot;</span><span class="p">)</span>
+<span class="n">profit_loss</span> <span class="o">=</span> <span class="n">mcp_corpusiq_quickbooks_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_profit_loss"</span><span class="p">)</span>
+<span class="n">stripe</span> <span class="o">=</span> <span class="n">mcp_corpusiq_stripe_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_balance"</span><span class="p">)</span>
 
 <span class="c1"># 2. Traffic</span>
-<span class="n">ga4</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ga4_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;run_report&quot;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span>
-    <span class="s2">&quot;property_id&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;dimensions&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">],</span>
-    <span class="s2">&quot;metrics&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;sessions&quot;</span><span class="p">,</span> <span class="s2">&quot;activeUsers&quot;</span><span class="p">,</span> <span class="s2">&quot;conversions&quot;</span><span class="p">],</span>
-    <span class="s2">&quot;date_ranges&quot;</span><span class="p">:</span> <span class="p">[{</span><span class="s2">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;7daysAgo&quot;</span><span class="p">,</span> <span class="s2">&quot;end_date&quot;</span><span class="p">:</span> <span class="s2">&quot;today&quot;</span><span class="p">}]</span>
+<span class="n">ga4</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ga4_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"run_report"</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">"property_id"</span><span class="p">:</span> <span class="s2">"..."</span><span class="p">,</span>
+    <span class="s2">"dimensions"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"date"</span><span class="p">],</span>
+    <span class="s2">"metrics"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"sessions"</span><span class="p">,</span> <span class="s2">"activeUsers"</span><span class="p">,</span> <span class="s2">"conversions"</span><span class="p">],</span>
+    <span class="s2">"date_ranges"</span><span class="p">:</span> <span class="p">[{</span><span class="s2">"start_date"</span><span class="p">:</span> <span class="s2">"7daysAgo"</span><span class="p">,</span> <span class="s2">"end_date"</span><span class="p">:</span> <span class="s2">"today"</span><span class="p">}]</span>
 <span class="p">})</span>
 
 <span class="c1"># 3. Email</span>
-<span class="n">klaviyo</span> <span class="o">=</span> <span class="n">mcp_corpusiq_klaviyo_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_email_metrics_summary&quot;</span><span class="p">)</span>
+<span class="n">klaviyo</span> <span class="o">=</span> <span class="n">mcp_corpusiq_klaviyo_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_email_metrics_summary"</span><span class="p">)</span>
 
 <span class="c1"># 4. SEO</span>
-<span class="n">ahrefs</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ahrefs_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_domain_overview&quot;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;domain&quot;</span><span class="p">:</span> <span class="s2">&quot;corpusiq.io&quot;</span><span class="p">})</span>
+<span class="n">ahrefs</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ahrefs_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_domain_overview"</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"domain"</span><span class="p">:</span> <span class="s2">"corpusiq.io"</span><span class="p">})</span>
 </code></pre></div>
 <hr />
 <h2 id="adding-your-own-mcp-server">Adding Your Own MCP Server<a class="headerlink" href="#adding-your-own-mcp-server" title="Anchor link to this section">&para;</a></h2>
 <h3 id="option-a-fastmcp-python">Option A: FastMCP (Python)<a class="headerlink" href="#option-a-fastmcp-python" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># my_server.py</span>
-<span class="kn">from</span> <span class="nn">fastmcp</span> <span class="kn">import</span> <span class="n">FastMCP</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">fastmcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">FastMCP</span>
 
-<span class="n">mcp</span> <span class="o">=</span> <span class="n">FastMCP</span><span class="p">(</span><span class="s2">&quot;My Server&quot;</span><span class="p">)</span>
+<span class="n">mcp</span> <span class="o">=</span> <span class="n">FastMCP</span><span class="p">(</span><span class="s2">"My Server"</span><span class="p">)</span>
 
 <span class="nd">@mcp</span><span class="o">.</span><span class="n">tool</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">get_dashboard_metrics</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Return key business metrics&quot;&quot;&quot;</span>
-    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;mrr&quot;</span><span class="p">:</span> <span class="mi">12500</span><span class="p">,</span> <span class="s2">&quot;users&quot;</span><span class="p">:</span> <span class="mi">843</span><span class="p">,</span> <span class="s2">&quot;churn&quot;</span><span class="p">:</span> <span class="mf">0.02</span><span class="p">}</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_dashboard_metrics</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""Return key business metrics"""</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">"mrr"</span><span class="p">:</span> <span class="mi">12500</span><span class="p">,</span> <span class="s2">"users"</span><span class="p">:</span> <span class="mi">843</span><span class="p">,</span> <span class="s2">"churn"</span><span class="p">:</span> <span class="mf">0.02</span><span class="p">}</span>
 
 <span class="n">mcp</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>my-server<span class="w"> </span>--<span class="w"> </span>python<span class="w"> </span>my_server.py
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>my-server<span class="w"> </span>--command<span class="w"> </span>python<span class="w"> </span>--args<span class="w"> </span>my_server.py
 </code></pre></div>
 <h3 id="option-b-typescript">Option B: TypeScript<a class="headerlink" href="#option-b-typescript" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1">// my-server.ts</span>
-<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">McpServer</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@modelcontextprotocol/sdk/server/mcp.js&quot;</span><span class="p">;</span>
+<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">McpServer</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">"@modelcontextprotocol/sdk/server/mcp.js"</span><span class="p">;</span>
 
-<span class="kd">const</span><span class="w"> </span><span class="nx">server</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">McpServer</span><span class="p">({</span><span class="w"> </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;my-server&quot;</span><span class="w"> </span><span class="p">});</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">server</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">McpServer</span><span class="p">({</span><span class="w"> </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">"my-server"</span><span class="w"> </span><span class="p">});</span>
 
-<span class="nx">server</span><span class="p">.</span><span class="nx">tool</span><span class="p">(</span><span class="s2">&quot;get_metrics&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">({</span>
-<span class="w">  </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;text&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">text</span><span class="o">:</span><span class="w"> </span><span class="kt">JSON.stringify</span><span class="p">({</span><span class="w"> </span><span class="nx">mrr</span><span class="o">:</span><span class="w"> </span><span class="kt">12500</span><span class="w"> </span><span class="p">})</span><span class="w"> </span><span class="p">}]</span>
+<span class="nx">server</span><span class="p">.</span><span class="nx">tool</span><span class="p">(</span><span class="s2">"get_metrics"</span><span class="p">,</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">({</span>
+<span class="w">  </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">"text"</span><span class="p">,</span><span class="w"> </span><span class="nx">text</span><span class="o">:</span><span class="w"> </span><span class="kt">JSON.stringify</span><span class="p">({</span><span class="w"> </span><span class="nx">mrr</span><span class="o">:</span><span class="w"> </span><span class="kt">12500</span><span class="w"> </span><span class="p">})</span><span class="w"> </span><span class="p">}]</span>
 <span class="p">}));</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>my-server<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>tsx<span class="w"> </span>my-server.ts
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>my-server<span class="w"> </span>--command<span class="w"> </span>npx<span class="w"> </span>--args<span class="w"> </span>tsx<span class="w"> </span>my-server.ts
 </code></pre></div>
 <h3 id="option-c-remote-http-mcp">Option C: Remote HTTP MCP<a class="headerlink" href="#option-c-remote-http-mcp" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>remote-server<span class="w"> </span>--<span class="w"> </span>url<span class="w"> </span>https://my-mcp-server.com/sse
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>remote-server<span class="w"> </span>--url<span class="w"> </span>https://my-mcp-server.com/sse
 </code></pre></div>
 <h3 id="before-you-connect-a-third-party-server">Before you connect a third-party server<a class="headerlink" href="#before-you-connect-a-third-party-server" title="Anchor link to this section">&para;</a></h3>
 <p>A third-party MCP server receives your credential and writes text your model treats as context. Run the ten-minute check in <a href="https://www.corpusiq.io/docs/hermes/guides/vetting-an-mcp-server">How to Vet an MCP Server Before You Connect It</a>: read the tool list, probe the endpoint, inspect the OAuth discovery document, and narrow the credential before the first call.</p>
@@ -11539,7 +11539,7 @@ mcp_corpusiq_calendar_connector
 </tr>
 </tbody>
 </table>
-<p>New discoveries are reported to Telegram Topic 2 for evaluation.</p>
+<p>New discoveries are reported to the ops email digest for evaluation.</p>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <h3 id="mcp-server-connection-failed">"MCP server connection failed"<a class="headerlink" href="#mcp-server-connection-failed" title="Anchor link to this section">&para;</a></h3>
@@ -11547,21 +11547,21 @@ mcp_corpusiq_calendar_connector
 hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>corpusiq
 
 <span class="c1"># Check auth</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </span>corpusiq<span class="w"> </span>--check
+hermes<span class="w"> </span>mcp<span class="w"> </span>list
 
 <span class="c1"># View logs</span>
-journalctl<span class="w"> </span>--user<span class="w"> </span>-u<span class="w"> </span>hermes-gateway<span class="w"> </span>-n<span class="w"> </span><span class="m">50</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>mcp
+hermes<span class="w"> </span>logs<span class="w"> </span>gateway<span class="w"> </span>-n<span class="w"> </span><span class="m">50</span>
 </code></pre></div>
 <h3 id="tool-not-found">"Tool not found"<a class="headerlink" href="#tool-not-found" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># List all available tools</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span>list
 
-<span class="c1"># Reload MCP config</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>reload
+<span class="c1"># Re-check which tools are enabled for the server</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>configure
 </code></pre></div>
 <h3 id="token-expired">"Token expired"<a class="headerlink" href="#token-expired" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Re-authenticate</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </span>corpusiq<span class="w"> </span>--reauth
+hermes<span class="w"> </span>mcp<span class="w"> </span>reauth<span class="w"> </span>corpusiq
 </code></pre></div>
 <hr />
 <h2 id="architecture-note">Architecture Note<a class="headerlink" href="#architecture-note" title="Anchor link to this section">&para;</a></h2>
@@ -11571,7 +11571,7 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </
 <li><strong>HTTP transport:</strong> Remote, supports OAuth, good for shared servers (CorpusIQ, Honcho)</li>
 <li><strong>Tool registration:</strong> Automatic  --  Hermes discovers tools on connect</li>
 </ul>
-<h2 id="the-corpusiq-advantage-40-business-platforms-through-one-mcp-server-no-managing-37-api-keys-no-37-different-auth-flows-one-oauth-one-server-53-tools"><strong>The CorpusIQ advantage:</strong> 40+ business platforms through ONE MCP server. No managing 37 API keys, no 37 different auth flows. One OAuth, one server, 53 tools.<a class="headerlink" href="#the-corpusiq-advantage-40-business-platforms-through-one-mcp-server-no-managing-37-api-keys-no-37-different-auth-flows-one-oauth-one-server-53-tools" title="Anchor link to this section">&para;</a></h2>
+<h2 id="the-corpusiq-advantage-40-business-platforms-through-one-mcp-server-no-managing-42-api-keys-no-42-different-auth-flows-one-oauth-one-server-121-tools"><strong>The CorpusIQ advantage:</strong> 40+ business platforms through ONE MCP server. No managing 42 API keys, no 42 different auth flows. One OAuth, one server, 121 tools.<a class="headerlink" href="#the-corpusiq-advantage-40-business-platforms-through-one-mcp-server-no-managing-42-api-keys-no-42-different-auth-flows-one-oauth-one-server-121-tools" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 <h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>

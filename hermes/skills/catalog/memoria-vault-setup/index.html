@@ -11292,59 +11292,59 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <h3 id="1-vault-path">1. Vault Path<a class="headerlink" href="#1-vault-path" title="Anchor link to this section">&para;</a></h3>
 <p>Edit <code>config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">vault</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;~/Documents/Obsidian/MyVault&quot;</span><span class="w">  </span><span class="c1"># Absolute path to your vault</span>
+<span class="w">  </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">"~/Documents/Obsidian/MyVault"</span><span class="w">  </span><span class="c1"># Absolute path to your vault</span>
 <span class="w">  </span><span class="nt">exclude</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;.obsidian/&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;.trash/&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;_templates/&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;archive/&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">".obsidian/"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">".trash/"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"_templates/"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"archive/"</span>
 </code></pre></div>
 <h3 id="2-llm-configuration">2. LLM Configuration<a class="headerlink" href="#2-llm-configuration" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">llm</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;openai&quot;</span><span class="w">  </span><span class="c1"># or &quot;anthropic&quot;, &quot;ollama&quot;</span>
-<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o&quot;</span>
-<span class="w">  </span><span class="nt">api_key</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${OPENAI_API_KEY}&quot;</span>
+<span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="s">"openai"</span><span class="w">  </span><span class="c1"># or "anthropic", "ollama"</span>
+<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o"</span>
+<span class="w">  </span><span class="nt">api_key</span><span class="p">:</span><span class="w"> </span><span class="s">"${OPENAI_API_KEY}"</span>
 
 <span class="w">  </span><span class="c1"># For Ollama (local):</span>
-<span class="w">  </span><span class="c1"># provider: &quot;ollama&quot;</span>
-<span class="w">  </span><span class="c1"># model: &quot;llama3.1:8b&quot;</span>
-<span class="w">  </span><span class="c1"># base_url: &quot;http://localhost:11434&quot;</span>
+<span class="w">  </span><span class="c1"># provider: "ollama"</span>
+<span class="w">  </span><span class="c1"># model: "llama3.1:8b"</span>
+<span class="w">  </span><span class="c1"># base_url: "http://localhost:11434"</span>
 </code></pre></div>
 <h3 id="3-agent-configuration">3. Agent Configuration<a class="headerlink" href="#3-agent-configuration" title="Anchor link to this section">&para;</a></h3>
 <p>Each of the seven agents can be configured independently:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">agents</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">researcher</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o&quot;</span><span class="w">           </span><span class="c1"># Uses more capable model for research</span>
+<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o"</span><span class="w">           </span><span class="c1"># Uses more capable model for research</span>
 <span class="w">    </span><span class="nt">max_sources_per_query</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5</span>
 <span class="w">    </span><span class="nt">temperature</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.3</span>
 
 <span class="w">  </span><span class="nt">summarizer</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o-mini&quot;</span><span class="w">      </span><span class="c1"># Lighter model for summarization</span>
+<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o-mini"</span><span class="w">      </span><span class="c1"># Lighter model for summarization</span>
 <span class="w">    </span><span class="nt">max_output_tokens</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">500</span>
-<span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;concise&quot;</span><span class="w">          </span><span class="c1"># or &quot;detailed&quot;, &quot;bullet-points&quot;</span>
+<span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="s">"concise"</span><span class="w">          </span><span class="c1"># or "detailed", "bullet-points"</span>
 
 <span class="w">  </span><span class="nt">linker</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o-mini&quot;</span>
+<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o-mini"</span>
 <span class="w">    </span><span class="nt">similarity_threshold</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.7</span>
 <span class="w">    </span><span class="nt">max_links_per_note</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5</span>
 
 <span class="w">  </span><span class="nt">critic</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o&quot;</span>
+<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o"</span>
 <span class="w">    </span><span class="nt">temperature</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.7</span><span class="w">          </span><span class="c1"># Higher temp for creative criticism</span>
-<span class="w">    </span><span class="nt">critique_style</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;socratic&quot;</span><span class="w"> </span><span class="c1"># or &quot;direct&quot;, &quot;steelman&quot;</span>
+<span class="w">    </span><span class="nt">critique_style</span><span class="p">:</span><span class="w"> </span><span class="s">"socratic"</span><span class="w"> </span><span class="c1"># or "direct", "steelman"</span>
 
 <span class="w">  </span><span class="nt">archivist</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o-mini&quot;</span>
+<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o-mini"</span>
 <span class="w">    </span><span class="nt">auto_organize</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">    </span><span class="nt">folder_structure</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;para&quot;</span><span class="w">  </span><span class="c1"># or &quot;flat&quot;, &quot;zettle&quot;, &quot;custom&quot;</span>
+<span class="w">    </span><span class="nt">folder_structure</span><span class="p">:</span><span class="w"> </span><span class="s">"para"</span><span class="w">  </span><span class="c1"># or "flat", "zettle", "custom"</span>
 
 <span class="w">  </span><span class="nt">publisher</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o-mini&quot;</span>
-<span class="w">    </span><span class="nt">output_formats</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;markdown&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;html&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;pdf&quot;</span><span class="p p-Indicator">]</span>
-<span class="w">    </span><span class="nt">template_dir</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;./templates/publish/&quot;</span>
+<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o-mini"</span>
+<span class="w">    </span><span class="nt">output_formats</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"markdown"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"html"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"pdf"</span><span class="p p-Indicator">]</span>
+<span class="w">    </span><span class="nt">template_dir</span><span class="p">:</span><span class="w"> </span><span class="s">"./templates/publish/"</span>
 
 <span class="w">  </span><span class="nt">orchestrator</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o&quot;</span>
+<span class="w">    </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o"</span>
 <span class="w">    </span><span class="nt">max_concurrent_agents</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
 <span class="w">    </span><span class="nt">workflow_timeout_minutes</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">30</span>
 </code></pre></div>
@@ -11353,7 +11353,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <h3 id="1-researcher">1. Researcher<a class="headerlink" href="#1-researcher" title="Anchor link to this section">&para;</a></h3>
 <p>Reads and extracts information from external sources (URLs, PDFs, APIs) and writes findings into your vault.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Command</span>
-python3<span class="w"> </span>memoria.py<span class="w"> </span>research<span class="w"> </span><span class="s2">&quot;What are the latest advances in RAG architectures?&quot;</span>
+python3<span class="w"> </span>memoria.py<span class="w"> </span>research<span class="w"> </span><span class="s2">"What are the latest advances in RAG architectures?"</span>
 
 <span class="c1"># What it does:</span>
 <span class="c1"># 1. Searches the web / your configured sources</span>
@@ -11362,18 +11362,18 @@ python3<span class="w"> </span>memoria.py<span class="w"> </span>research<span c
 </code></pre></div>
 <h3 id="2-summarizer">2. Summarizer<a class="headerlink" href="#2-summarizer" title="Anchor link to this section">&para;</a></h3>
 <p>Distills long notes or source materials into concise summaries.</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>summarize<span class="w"> </span><span class="s2">&quot;Research/RAG Survey 2026.md&quot;</span>
-<span class="c1"># Output: Adds a &quot;## Summary&quot; section to the note</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>summarize<span class="w"> </span><span class="s2">"Research/RAG Survey 2026.md"</span>
+<span class="c1"># Output: Adds a "## Summary" section to the note</span>
 </code></pre></div>
 <h3 id="3-linker">3. Linker<a class="headerlink" href="#3-linker" title="Anchor link to this section">&para;</a></h3>
 <p>Connects ideas across notes by identifying relationships and creating bidirectional links.</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>link<span class="w"> </span><span class="s2">&quot;Research/RAG Survey 2026.md&quot;</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>link<span class="w"> </span><span class="s2">"Research/RAG Survey 2026.md"</span>
 <span class="c1"># Output: Identifies related notes and adds [[wikilinks]]</span>
 </code></pre></div>
 <h3 id="4-critic">4. Critic<a class="headerlink" href="#4-critic" title="Anchor link to this section">&para;</a></h3>
 <p>Challenges assumptions, finds gaps, and provides counter-arguments.</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>critique<span class="w"> </span><span class="s2">&quot;Projects/Q4 Strategy.md&quot;</span>
-<span class="c1"># Output: Adds a &quot;## Critique&quot; section with challenges and gaps</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>critique<span class="w"> </span><span class="s2">"Projects/Q4 Strategy.md"</span>
+<span class="c1"># Output: Adds a "## Critique" section with challenges and gaps</span>
 </code></pre></div>
 <h3 id="5-archivist">5. Archivist<a class="headerlink" href="#5-archivist" title="Anchor link to this section">&para;</a></h3>
 <p>Organizes and maintains the vault - tags, folders, naming conventions, deduplication.</p>
@@ -11382,32 +11382,32 @@ python3<span class="w"> </span>memoria.py<span class="w"> </span>research<span c
 </code></pre></div>
 <h3 id="6-publisher">6. Publisher<a class="headerlink" href="#6-publisher" title="Anchor link to this section">&para;</a></h3>
 <p>Formats notes for external sharing - blog posts, reports, presentations.</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>publish<span class="w"> </span><span class="s2">&quot;Research/RAG Survey 2026.md&quot;</span><span class="w"> </span>--format<span class="w"> </span>html
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>publish<span class="w"> </span><span class="s2">"Research/RAG Survey 2026.md"</span><span class="w"> </span>--format<span class="w"> </span>html
 <span class="c1"># Output: Creates Research/RAG Survey 2026.html</span>
 </code></pre></div>
 <h3 id="7-orchestrator">7. Orchestrator<a class="headerlink" href="#7-orchestrator" title="Anchor link to this section">&para;</a></h3>
 <p>Coordinates multi-agent workflows. Runs the full research pipeline.</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>orchestrate<span class="w"> </span><span class="s2">&quot;Deep dive into transformer alternatives&quot;</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>memoria.py<span class="w"> </span>orchestrate<span class="w"> </span><span class="s2">"Deep dive into transformer alternatives"</span>
 <span class="c1"># Output: Orchestrates Researcher → Summarizer → Linker → Critic → Publisher</span>
 </code></pre></div>
 <hr />
 <h2 id="usage-patterns">Usage Patterns<a class="headerlink" href="#usage-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="pattern-1-one-shot-research">Pattern 1: One-Shot Research<a class="headerlink" href="#pattern-1-one-shot-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Full pipeline on a single topic</span>
-python3<span class="w"> </span>memoria.py<span class="w"> </span>orchestrate<span class="w"> </span><span class="s2">&quot;State of AI agents in 2026&quot;</span>
+python3<span class="w"> </span>memoria.py<span class="w"> </span>orchestrate<span class="w"> </span><span class="s2">"State of AI agents in 2026"</span>
 </code></pre></div>
 <h3 id="pattern-2-incremental-enrichment">Pattern 2: Incremental Enrichment<a class="headerlink" href="#pattern-2-incremental-enrichment" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Research first</span>
-python3<span class="w"> </span>memoria.py<span class="w"> </span>research<span class="w"> </span><span class="s2">&quot;Mamba architecture&quot;</span>
+python3<span class="w"> </span>memoria.py<span class="w"> </span>research<span class="w"> </span><span class="s2">"Mamba architecture"</span>
 
 <span class="c1"># Link to existing notes</span>
-python3<span class="w"> </span>memoria.py<span class="w"> </span>link<span class="w"> </span><span class="s2">&quot;Research/Mamba.md&quot;</span>
+python3<span class="w"> </span>memoria.py<span class="w"> </span>link<span class="w"> </span><span class="s2">"Research/Mamba.md"</span>
 
 <span class="c1"># Get critical feedback</span>
-python3<span class="w"> </span>memoria.py<span class="w"> </span>critique<span class="w"> </span><span class="s2">&quot;Research/Mamba.md&quot;</span>
+python3<span class="w"> </span>memoria.py<span class="w"> </span>critique<span class="w"> </span><span class="s2">"Research/Mamba.md"</span>
 
 <span class="c1"># Publish when ready</span>
-python3<span class="w"> </span>memoria.py<span class="w"> </span>publish<span class="w"> </span><span class="s2">&quot;Research/Mamba.md&quot;</span>
+python3<span class="w"> </span>memoria.py<span class="w"> </span>publish<span class="w"> </span><span class="s2">"Research/Mamba.md"</span>
 </code></pre></div>
 <h3 id="pattern-3-vault-maintenance">Pattern 3: Vault Maintenance<a class="headerlink" href="#pattern-3-vault-maintenance" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Weekly organization</span>
@@ -11427,29 +11427,29 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/skills/memoria-
 ln<span class="w"> </span>-s<span class="w"> </span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>/memoria.py<span class="w"> </span>~/.hermes/skills/memoria-vault/
 
 <span class="c1"># Hermes can now invoke:</span>
-<span class="c1"># &quot;Research AI agent frameworks and add findings to my Obsidian vault&quot;</span>
-<span class="c1"># &quot;Summarize my meeting notes from this week&quot;</span>
-<span class="c1"># &quot;Find connections between RAG and agent architectures in my vault&quot;</span>
+<span class="c1"># "Research AI agent frameworks and add findings to my Obsidian vault"</span>
+<span class="c1"># "Summarize my meeting notes from this week"</span>
+<span class="c1"># "Find connections between RAG and agent architectures in my vault"</span>
 </code></pre></div>
 <h3 id="cron-based-automation">Cron-Based Automation<a class="headerlink" href="#cron-based-automation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Daily vault maintenance at 2 AM</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;memoria-daily-archive&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 2 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--command<span class="w"> </span><span class="s2">&quot;cd ~/memoria-vault &amp;&amp; python3 memoria.py archive&quot;</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">"memoria-daily-archive"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 2 * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--command<span class="w"> </span><span class="s2">"cd ~/memoria-vault &amp;&amp; python3 memoria.py archive"</span>
 
 <span class="c1"># Weekly research digest</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;memoria-weekly-digest&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 9 * * 1&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--command<span class="w"> </span><span class="s2">&quot;cd ~/memoria-vault &amp;&amp; python3 memoria.py orchestrate &#39;Weekly AI research digest&#39;&quot;</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">"memoria-weekly-digest"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 9 * * 1"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--command<span class="w"> </span><span class="s2">"cd ~/memoria-vault &amp;&amp; python3 memoria.py orchestrate 'Weekly AI research digest'"</span>
 </code></pre></div>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <h3 id="vault-path-not-found">"Vault path not found"<a class="headerlink" href="#vault-path-not-found" title="Anchor link to this section">&para;</a></h3>
 <p>Make sure the path is absolute and uses <code>~</code> expansion:
 <div class="highlight"><pre><span></span><code><span class="nt">vault</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/home/username/Documents/Obsidian/MyVault&quot;</span><span class="w">  </span><span class="c1"># Use absolute path</span>
+<span class="w">  </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">"/home/username/Documents/Obsidian/MyVault"</span><span class="w">  </span><span class="c1"># Use absolute path</span>
 </code></pre></div></p>
 <h3 id="orchestrator-timed-out">"Orchestrator timed out"<a class="headerlink" href="#orchestrator-timed-out" title="Anchor link to this section">&para;</a></h3>
 <p>The default timeout is 30 minutes. For large research tasks:

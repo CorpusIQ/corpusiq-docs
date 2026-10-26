@@ -11395,9 +11395,9 @@
 </ul>
 <p><strong>Pre-Visit Chart Review Cron</strong></p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pre-visit-chart-review</span>
-<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">5</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Daily at 5 AM</span>
+<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"0</span><span class="nv"> </span><span class="s">5</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span><span class="w">  </span><span class="c1"># Daily at 5 AM</span>
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">patient-chart-review</span>
-<span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reviews tomorrow&#39;s appointments for chart completeness</span>
+<span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reviews tomorrow's appointments for chart completeness</span>
 </code></pre></div>
 <p>This skill queries the schedule for the next business day, pulls each patient's chart, and checks: insurance active, recent labs received, referrals attached, demographics current. It produces a per-provider checklist of gaps, delivered to a privacy-compliant Slack channel or secure email.</p>
 <h3 id="appointment-scheduling-automation">Appointment Scheduling Automation<a class="headerlink" href="#appointment-scheduling-automation" title="Anchor link to this section">&para;</a></h3>
@@ -11409,7 +11409,7 @@
 <li>Coordinate multi-provider appointments (specialist + lab + imaging)</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">appointment-backfill</span>
-<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;*/15</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Every 15 minutes</span>
+<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"*/15</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span><span class="w">  </span><span class="c1"># Every 15 minutes</span>
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">schedule-backfill</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Fills canceled appointment slots from waitlist</span>
 </code></pre></div>
@@ -11423,7 +11423,7 @@
 <li>Generate pre-visit financial clearance reports</li>
 </ol>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">insurance-eligibility-check</span>
-<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">6,14</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Twice daily at 6 AM and 2 PM</span>
+<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"0</span><span class="nv"> </span><span class="s">6,14</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span><span class="w">  </span><span class="c1"># Twice daily at 6 AM and 2 PM</span>
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">insurance-verification</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Verifies insurance eligibility for upcoming appointments</span>
 </code></pre></div>
@@ -11435,7 +11435,7 @@ Configure database connector queries with column-level restrictions. Never <code
 <p><strong>Audit Trail</strong>
 Every Hermes action that accesses or processes PHI should log to an immutable audit trail:</p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">hipaa-audit-log</span>
-<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">*/6</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span>
+<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"0</span><span class="nv"> </span><span class="s">*/6</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span>
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">phi-access-audit</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Aggregates all PHI access logs and checks for anomalies</span>
 </code></pre></div>
@@ -11448,7 +11448,7 @@ Every Hermes action that accesses or processes PHI should log to an immutable au
 Monitor for patterns that indicate compromise: unusual query volumes, off-hours PHI access, bulk data exports. Hermes can compare current access patterns against historical baselines and alert on statistical deviations.</p>
 <h3 id="lab-results-notification">Lab Results Notification<a class="headerlink" href="#lab-results-notification" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">lab-result-notifier</span>
-<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">8,12,16,20</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Four times daily</span>
+<span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"0</span><span class="nv"> </span><span class="s">8,12,16,20</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span><span class="w">  </span><span class="c1"># Four times daily</span>
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">lab-result-routing</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Routes new lab results to appropriate providers with urgency flags</span>
 </code></pre></div>

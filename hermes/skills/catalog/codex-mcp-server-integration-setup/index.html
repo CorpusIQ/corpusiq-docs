@@ -11138,7 +11138,7 @@
 <span class="c1"># Verify: codex --version (0.75.0+ required)</span>
 </code></pre></div>
 <h3 id="step-2-authenticate">Step 2: Authenticate<a class="headerlink" href="#step-2-authenticate" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>codex<span class="w"> </span>login<span class="w"> </span>--api-key<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OPENAI_API_KEY</span><span class="s2">&quot;</span>
+<div class="highlight"><pre><span></span><code>codex<span class="w"> </span>login<span class="w"> </span>--api-key<span class="w"> </span><span class="s2">"</span><span class="nv">$OPENAI_API_KEY</span><span class="s2">"</span>
 codex<span class="w"> </span>ping<span class="w">  </span><span class="c1"># Verify</span>
 </code></pre></div>
 <h3 id="step-3-install-mcp-server">Step 3: Install MCP Server<a class="headerlink" href="#step-3-install-mcp-server" title="Anchor link to this section">&para;</a></h3>
@@ -11192,23 +11192,23 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install and configure</span>
 npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>@openai/codex
-codex<span class="w"> </span>login<span class="w"> </span>--api-key<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OPENAI_API_KEY</span><span class="s2">&quot;</span>
+codex<span class="w"> </span>login<span class="w"> </span>--api-key<span class="w"> </span><span class="s2">"</span><span class="nv">$OPENAI_API_KEY</span><span class="s2">"</span>
 claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>codex-cli<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>-y<span class="w"> </span>codex-mcp-server
 
 <span class="c1"># Usage examples (from MCP-compatible editor):</span>
-<span class="c1"># &quot;Use codex to review my uncommitted changes&quot;</span>
-<span class="c1"># &quot;Analyze src/auth/login.ts and suggest improvements&quot;</span>
-<span class="c1"># &quot;Use codex web_search to find React 19 migration docs&quot;</span>
+<span class="c1"># "Use codex to review my uncommitted changes"</span>
+<span class="c1"># "Analyze src/auth/login.ts and suggest improvements"</span>
+<span class="c1"># "Use codex web_search to find React 19 migration docs"</span>
 </code></pre></div>
 <h3 id="mcp-configuration-manual">MCP Configuration (Manual)<a class="headerlink" href="#mcp-configuration-manual" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;codex-cli&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;stdio&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;codex-mcp-server&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;CODEX_MCP_CALLBACK_URI&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://localhost:8080/mcp-callback&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"codex-cli"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stdio"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"codex-mcp-server"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"CODEX_MCP_CALLBACK_URI"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://localhost:8080/mcp-callback"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11224,7 +11224,7 @@ codex<span class="w"> </span>ping
 claude<span class="w"> </span>mcp<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>codex
 
 <span class="c1"># Test with a simple prompt</span>
-codex<span class="w"> </span><span class="s2">&quot;explain this: const x = [1,2,3].map(n =&gt; n * 2)&quot;</span>
+codex<span class="w"> </span><span class="s2">"explain this: const x = [1,2,3].map(n =&gt; n * 2)"</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

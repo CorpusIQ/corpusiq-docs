@@ -11189,7 +11189,7 @@
 1. A Bloomberg Terminal ($2,000+/month) or
 2. Multiple separate data sources (TradingView for rates, ForexFactory for calendar, CFTC for COT, investing.com for commodities)</p>
 <p>Now: AI agent queries everything conversationally:
-<div class="highlight"><pre><span></span><code>Agent: &quot;What&#39;s the EUR/USD outlook given the ECB meeting next week and current COT positioning?&quot;
+<div class="highlight"><pre><span></span><code>Agent: "What's the EUR/USD outlook given the ECB meeting next week and current COT positioning?"
 → FXMacroData returns rate + ECB calendar + COT data → AI synthesizes answer
 </code></pre></div></p>
 <p>For operators running e-commerce, SaaS with international pricing, or any business with FX exposure, this turns your AI agent into a treasury analyst.</p>
@@ -11205,12 +11205,12 @@
 </code></pre></div>
 <h3 id="claude-desktop">Claude Desktop<a class="headerlink" href="#claude-desktop" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;fxmacrodata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-m&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fxmacrodata_mcp&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;FXMACRODATA_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-api-key&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"fxmacrodata"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"fxmacrodata_mcp"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"FXMACRODATA_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-api-key"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11218,12 +11218,12 @@
 </code></pre></div>
 <h3 id="cursor-vs-code">Cursor / VS Code<a class="headerlink" href="#cursor-vs-code" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;fxmacrodata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-m&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fxmacrodata_mcp&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;FXMACRODATA_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${FXMACRODATA_API_KEY}&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"fxmacrodata"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"fxmacrodata_mcp"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"FXMACRODATA_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"${FXMACRODATA_API_KEY}"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11233,9 +11233,9 @@
 <div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">fxmacrodata</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
-<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;-m&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;fxmacrodata_mcp&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"-m"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"fxmacrodata_mcp"</span><span class="p p-Indicator">]</span>
 <span class="w">    </span><span class="nt">env</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">FXMACRODATA_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${FXMACRODATA_API_KEY}&quot;</span>
+<span class="w">      </span><span class="nt">FXMACRODATA_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">"${FXMACRODATA_API_KEY}"</span>
 </code></pre></div>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -11320,23 +11320,23 @@
 </table>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="international-pricing-strategy">International Pricing Strategy<a class="headerlink" href="#international-pricing-strategy" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: &quot;EUR/USD dropped 2% this month. How does that affect our European pricing if we want to maintain USD margins?&quot;
+<div class="highlight"><pre><span></span><code>Agent: "EUR/USD dropped 2% this month. How does that affect our European pricing if we want to maintain USD margins?"
 → get_fx_rate(EUR/USD, 30d history) → calculate margin impact → recommend price adjustment
 </code></pre></div>
 <h3 id="treasury-cash-management">Treasury &amp; Cash Management<a class="headerlink" href="#treasury-cash-management" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: &quot;We hold GBP and EUR balances. Given next week&#39;s Bank of England and ECB meetings, should we convert to USD now or wait?&quot;
+<div class="highlight"><pre><span></span><code>Agent: "We hold GBP and EUR balances. Given next week's Bank of England and ECB meetings, should we convert to USD now or wait?"
 → get_central_bank_calendar(BoE, ECB) → get_cot_report(GBP, EUR) → analyze positioning → recommend
 </code></pre></div>
 <h3 id="importexport-cost-forecasting">Import/Export Cost Forecasting<a class="headerlink" href="#importexport-cost-forecasting" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: &quot;Our copper component costs are tied to LME prices. What&#39;s the 6-month outlook based on COT data and China PMI?&quot;
+<div class="highlight"><pre><span></span><code>Agent: "Our copper component costs are tied to LME prices. What's the 6-month outlook based on COT data and China PMI?"
 → get_commodity_price(copper) → get_cot_report(copper) → get_economic_calendar(China PMI) → forecast
 </code></pre></div>
 <h3 id="saas-multi-currency-billing">SaaS Multi-Currency Billing<a class="headerlink" href="#saas-multi-currency-billing" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: &quot;We bill in 8 currencies. Which ones have moved &gt;1% this week and should we adjust pricing?&quot;
+<div class="highlight"><pre><span></span><code>Agent: "We bill in 8 currencies. Which ones have moved &gt;1% this week and should we adjust pricing?"
 → get_fx_rate(all_pairs) → calculate_weekly_change → flag pairs &gt;1% → recommend adjustments
 </code></pre></div>
 <h3 id="travel-expense-management">Travel &amp; Expense Management<a class="headerlink" href="#travel-expense-management" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: &quot;Our team is traveling to Tokyo next month. Lock in JPY now or wait?&quot;
+<div class="highlight"><pre><span></span><code>Agent: "Our team is traveling to Tokyo next month. Lock in JPY now or wait?"
 → get_fx_rate(USD/JPY) → get_central_bank_calendar(BoJ) → get_cot_report(JPY) → analyze trend → recommend
 </code></pre></div>
 <h2 id="data-sources">Data Sources<a class="headerlink" href="#data-sources" title="Anchor link to this section">&para;</a></h2>

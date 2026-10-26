@@ -11252,7 +11252,7 @@
 ./scripts/smoke_test.sh<span class="w">    </span><span class="c1"># expect 9/9</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="c1"># Python import check</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;from hermespace import Workbench; print(&#39;OK&#39;)&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"from hermespace import Workbench; print('OK')"</span>
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <h3 id="state-directory">State directory<a class="headerlink" href="#state-directory" title="Anchor link to this section">&para;</a></h3>
@@ -11278,27 +11278,27 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 - Access approve/deny, autonomy toggles, ops boot</p>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="quick-start-workbench">Quick start - Workbench<a class="headerlink" href="#quick-start-workbench" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">hermespace</span> <span class="kn">import</span> <span class="n">Workbench</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">hermespace</span><span class="w"> </span><span class="kn">import</span> <span class="n">Workbench</span>
 
-<span class="n">wb</span> <span class="o">=</span> <span class="n">Workbench</span><span class="p">(</span><span class="n">agent_id</span><span class="o">=</span><span class="s2">&quot;hermes&quot;</span><span class="p">,</span> <span class="n">session_id</span><span class="o">=</span><span class="s2">&quot;main&quot;</span><span class="p">)</span>
+<span class="n">wb</span> <span class="o">=</span> <span class="n">Workbench</span><span class="p">(</span><span class="n">agent_id</span><span class="o">=</span><span class="s2">"hermes"</span><span class="p">,</span> <span class="n">session_id</span><span class="o">=</span><span class="s2">"main"</span><span class="p">)</span>
 <span class="n">wb</span><span class="o">.</span><span class="n">enter</span><span class="p">()</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">receive_order</span><span class="p">(</span><span class="s2">&quot;Audit the deployment pipeline&quot;</span><span class="p">,</span> <span class="n">goal</span><span class="o">=</span><span class="s2">&quot;Find bottlenecks&quot;</span><span class="p">,</span> <span class="n">say</span><span class="o">=</span><span class="s2">&quot;Starting audit...&quot;</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">receive_order</span><span class="p">(</span><span class="s2">"Audit the deployment pipeline"</span><span class="p">,</span> <span class="n">goal</span><span class="o">=</span><span class="s2">"Find bottlenecks"</span><span class="p">,</span> <span class="n">say</span><span class="o">=</span><span class="s2">"Starting audit..."</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-<span class="c1"># r[&quot;user_reply&quot;] → what the user sees</span>
-<span class="c1"># r[&quot;model_context&quot;] → dense context for the model (NOT shown to user)</span>
+<span class="c1"># r["user_reply"] → what the user sees</span>
+<span class="c1"># r["model_context"] → dense context for the model (NOT shown to user)</span>
 </code></pre></div>
 <h3 id="cli-turn-interface">CLI turn interface<a class="headerlink" href="#cli-turn-interface" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>./scripts/hs<span class="w"> </span>turn<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Analyze our current social posting cadence&quot;</span><span class="w"> </span>--goal<span class="w"> </span><span class="s2">&quot;Find gaps in our schedule&quot;</span><span class="w"> </span>--say<span class="w"> </span><span class="s2">&quot;On it&quot;</span>
+<div class="highlight"><pre><span></span><code>./scripts/hs<span class="w"> </span>turn<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Analyze our current social posting cadence"</span><span class="w"> </span>--goal<span class="w"> </span><span class="s2">"Find gaps in our schedule"</span><span class="w"> </span>--say<span class="w"> </span><span class="s2">"On it"</span>
 </code></pre></div>
 <h3 id="world-model-persistent-archive">World Model (persistent archive)<a class="headerlink" href="#world-model-persistent-archive" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">hermespace</span> <span class="kn">import</span> <span class="n">WorldModel</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">hermespace</span><span class="w"> </span><span class="kn">import</span> <span class="n">WorldModel</span>
 
-<span class="n">wm</span> <span class="o">=</span> <span class="n">WorldModel</span><span class="p">(</span><span class="n">agent_id</span><span class="o">=</span><span class="s2">&quot;corpusiq-growth&quot;</span><span class="p">)</span>
+<span class="n">wm</span> <span class="o">=</span> <span class="n">WorldModel</span><span class="p">(</span><span class="n">agent_id</span><span class="o">=</span><span class="s2">"corpusiq-growth"</span><span class="p">)</span>
 <span class="n">wm</span><span class="o">.</span><span class="n">enter</span><span class="p">()</span>
-<span class="n">wm</span><span class="o">.</span><span class="n">add_belief</span><span class="p">(</span><span class="s2">&quot;Help-first content outperforms promotional&quot;</span><span class="p">,</span> <span class="mf">0.85</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="s2">&quot;six-month-data&quot;</span><span class="p">)</span>
-<span class="n">wm</span><span class="o">.</span><span class="n">add_landmark</span><span class="p">(</span><span class="s2">&quot;Hit 5,000 monthly reach across platforms&quot;</span><span class="p">)</span>
-<span class="n">wm</span><span class="o">.</span><span class="n">set_trait</span><span class="p">(</span><span class="s2">&quot;operations-minded&quot;</span><span class="p">)</span>
-<span class="n">wm</span><span class="o">.</span><span class="n">set_goal</span><span class="p">(</span><span class="s2">&quot;Grow to 15% MoM&quot;</span><span class="p">,</span> <span class="n">decision</span><span class="o">=</span><span class="s2">&quot;A - increase Reddit presence&quot;</span><span class="p">,</span> <span class="n">plan</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;audit&quot;</span><span class="p">,</span> <span class="s2">&quot;deploy&quot;</span><span class="p">,</span> <span class="s2">&quot;measure&quot;</span><span class="p">])</span>
+<span class="n">wm</span><span class="o">.</span><span class="n">add_belief</span><span class="p">(</span><span class="s2">"Help-first content outperforms promotional"</span><span class="p">,</span> <span class="mf">0.85</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="s2">"six-month-data"</span><span class="p">)</span>
+<span class="n">wm</span><span class="o">.</span><span class="n">add_landmark</span><span class="p">(</span><span class="s2">"Hit 5,000 monthly reach across platforms"</span><span class="p">)</span>
+<span class="n">wm</span><span class="o">.</span><span class="n">set_trait</span><span class="p">(</span><span class="s2">"operations-minded"</span><span class="p">)</span>
+<span class="n">wm</span><span class="o">.</span><span class="n">set_goal</span><span class="p">(</span><span class="s2">"Grow to 15% MoM"</span><span class="p">,</span> <span class="n">decision</span><span class="o">=</span><span class="s2">"A - increase Reddit presence"</span><span class="p">,</span> <span class="n">plan</span><span class="o">=</span><span class="p">[</span><span class="s2">"audit"</span><span class="p">,</span> <span class="s2">"deploy"</span><span class="p">,</span> <span class="s2">"measure"</span><span class="p">])</span>
 <span class="n">wm</span><span class="o">.</span><span class="n">evolve</span><span class="p">()</span>  <span class="c1"># consolidate, detect patterns</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">wm</span><span class="o">.</span><span class="n">render_markdown</span><span class="p">())</span>
 </code></pre></div>
@@ -11337,7 +11337,7 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 <div class="highlight"><pre><span></span><code><span class="n">wb</span> <span class="o">=</span> <span class="n">Workbench</span><span class="p">()</span>
 <span class="n">wb</span><span class="o">.</span><span class="n">enter</span><span class="p">()</span>
 <span class="c1"># Fabric auto-ranks on receive_order</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">receive_order</span><span class="p">(</span><span class="s2">&quot;Debug the gateway crash loop&quot;</span><span class="p">,</span> <span class="n">goal</span><span class="o">=</span><span class="s2">&quot;Fix gateway&quot;</span><span class="p">)</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">wb</span><span class="o">.</span><span class="n">receive_order</span><span class="p">(</span><span class="s2">"Debug the gateway crash loop"</span><span class="p">,</span> <span class="n">goal</span><span class="o">=</span><span class="s2">"Fix gateway"</span><span class="p">)</span>
 <span class="c1"># The model sees ranked skills + relevant MEMORY excerpts</span>
 <span class="c1"># The user only sees the report</span>
 </code></pre></div>
