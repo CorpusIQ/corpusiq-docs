@@ -11110,13 +11110,13 @@ Built by: oxbshw (open source, MIT)
 </table>
 <p>The query tools answer most questions: <code>watch_video</code> indexes a source, <code>ask_video</code> answers follow-ups from the same index, and <code>get_moment</code> zooms into one specific timestamp. The verification tools are the differentiator: <code>verify_contract</code> decides whether a run actually succeeded, <code>get_evidence</code> reads back the evidence bundle and attestation, and <code>execution_plan</code> shows what a run would send and cost before it sends anything.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>uv<span class="w"> </span>tool<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;watch-skill[standard]&quot;</span><span class="w">   </span><span class="c1"># or: pip install &quot;watch-skill[standard]&quot;</span>
+<div class="highlight"><pre><span></span><code>uv<span class="w"> </span>tool<span class="w"> </span>install<span class="w"> </span><span class="s2">"watch-skill[standard]"</span><span class="w">   </span><span class="c1"># or: pip install "watch-skill[standard]"</span>
 watch-skill<span class="w"> </span>doctor
 </code></pre></div>
 <p><code>[standard]</code> is frames, retrieval and the MCP server. Add <code>[ocr]</code> to read on-screen text, <code>[whisper]</code> for local transcription when a source has no captions, <code>[loop]</code> for the browser capture behind THE LOOP, <code>[api]</code> for the REST surface, or take <code>[all]</code>. A bare install gives the CLI and the verifier but cannot extract a frame. <code>watch-skill doctor</code> checks the machine (Python, ffmpeg, yt-dlp, GPU, disk, local model runtime) and repairs what it can.</p>
 <p>A first run is three commands:</p>
 <div class="highlight"><pre><span></span><code>watch-skill<span class="w"> </span>watch<span class="w"> </span>&lt;video-url-or-file&gt;
-watch-skill<span class="w"> </span>ask<span class="w"> </span>&lt;id&gt;<span class="w"> </span><span class="s2">&quot;what changed at 3:12?&quot;</span>
+watch-skill<span class="w"> </span>ask<span class="w"> </span>&lt;id&gt;<span class="w"> </span><span class="s2">"what changed at 3:12?"</span>
 watch-skill<span class="w"> </span>serve<span class="w">            </span><span class="c1"># stdio MCP server, 39 tools</span>
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>

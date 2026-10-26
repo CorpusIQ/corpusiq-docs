@@ -11123,7 +11123,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>~/.agents/skills/<span class
 
 <span class="c1"># Verify all 4 locations show identical byte counts</span>
 <span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>~/.agents/skills/<span class="nv">$SKILL</span><span class="w"> </span>~/.claude/skills/<span class="nv">$SKILL</span><span class="w"> </span>~/.pi/agent/skills/<span class="nv">$SKILL</span><span class="w"> </span>~/.hermes/skills/<span class="nv">$SKILL</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$p</span><span class="s2">: </span><span class="k">$(</span>wc<span class="w"> </span>-c<span class="w"> </span>&lt;<span class="w"> </span><span class="nv">$p</span>/SKILL.md<span class="k">)</span><span class="s2"> bytes&quot;</span>
+<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"</span><span class="nv">$p</span><span class="s2">: </span><span class="k">$(</span>wc<span class="w"> </span>-c<span class="w"> </span>&lt;<span class="w"> </span><span class="nv">$p</span>/SKILL.md<span class="k">)</span><span class="s2"> bytes"</span>
 <span class="k">done</span>
 </code></pre></div>
 <hr />
@@ -11222,11 +11222,11 @@ cp<span class="w"> </span>-r<span class="w"> </span>~/.agents/skills/<span class
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify the 4 agent skill locations exist</span>
 <span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>~/.agents/skills<span class="w"> </span>~/.claude/skills<span class="w"> </span>~/.pi/agent/skills<span class="w"> </span>~/.hermes/skills<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span><span class="o">[</span><span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$p</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;OK: </span><span class="nv">$p</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;MISSING: </span><span class="nv">$p</span><span class="s2">&quot;</span>
+<span class="w">  </span><span class="o">[</span><span class="w"> </span>-d<span class="w"> </span><span class="s2">"</span><span class="nv">$p</span><span class="s2">"</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"OK: </span><span class="nv">$p</span><span class="s2">"</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"MISSING: </span><span class="nv">$p</span><span class="s2">"</span>
 <span class="k">done</span>
 
 <span class="c1"># Verify symlinks (Claude and Pi should be symlinks to .agents)</span>
-ls<span class="w"> </span>-la<span class="w"> </span>~/.claude/skills<span class="w"> </span>~/.pi/agent/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;^l&quot;</span>
+ls<span class="w"> </span>-la<span class="w"> </span>~/.claude/skills<span class="w"> </span>~/.pi/agent/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">"^l"</span>
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july12-2026">Discovery Page</a> →</em>

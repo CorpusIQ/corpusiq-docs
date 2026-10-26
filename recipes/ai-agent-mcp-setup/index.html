@@ -11171,11 +11171,11 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># Add CorpusIQ as an MCP server</span>
 claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer YOUR_API_KEY&quot;</span>
+<span class="w">  </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer YOUR_API_KEY"</span>
 </code></pre></div>
 <p>Replace <code>YOUR_API_KEY</code> with your key from <a href="https://corpusiq.io/settings/api">corpusiq.io/settings/api</a>.</p>
 <p><strong>Verify it works:</strong>
-<div class="highlight"><pre><span></span><code>&gt; What&#39;s our total Shopify revenue this month?
+<div class="highlight"><pre><span></span><code>&gt; What's our total Shopify revenue this month?
 </code></pre></div>
 Claude Code will call the CorpusIQ Shopify tool and return live data.</p>
 <h2 id="setup-cursor">Setup: Cursor<a class="headerlink" href="#setup-cursor" title="Anchor link to this section">&para;</a></h2>
@@ -11189,11 +11189,11 @@ Claude Code will call the CorpusIQ Shopify tool and return live data.</p>
 </ol>
 <p>Or add it directly to <code>~/.cursor/mcp.json</code>:
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_API_KEY&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"corpusiq"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer YOUR_API_KEY"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11207,7 +11207,7 @@ Claude Code will call the CorpusIQ Shopify tool and return live data.</p>
 <span class="w">  </span><span class="nt">corpusiq</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://mcp2.corpusiq.io/mcp</span>
 <span class="w">    </span><span class="nt">headers</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Bearer</span><span class="nv"> </span><span class="s">YOUR_API_KEY&quot;</span>
+<span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s">"Bearer</span><span class="nv"> </span><span class="s">YOUR_API_KEY"</span>
 </code></pre></div>
 <p>Then restart Hermes:
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>restart
@@ -11218,11 +11218,11 @@ Claude Code will call the CorpusIQ Shopify tool and return live data.</p>
 <h2 id="setup-windsurf">Setup: Windsurf<a class="headerlink" href="#setup-windsurf" title="Anchor link to this section">&para;</a></h2>
 <p>Add to <code>~/.codeium/windsurf/mcp_config.json</code>:
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_API_KEY&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"corpusiq"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer YOUR_API_KEY"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

@@ -11152,8 +11152,8 @@ codex<span class="w"> </span>plugin<span class="w"> </span>add<span class="w"> <
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm the install targets exist before installing, and read the rules yourself:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>s<span class="w"> </span><span class="k">in</span><span class="w"> </span>ponytail<span class="w"> </span>ponytail-review<span class="w"> </span>ponytail-audit<span class="w"> </span>ponytail-debt<span class="w"> </span>ponytail-gain<span class="w"> </span>ponytail-help<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$s</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/DietrichGebert/ponytail/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$s</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/DietrichGebert/ponytail/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>The six files can also be read directly:</p>

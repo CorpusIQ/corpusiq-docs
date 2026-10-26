@@ -11104,11 +11104,11 @@ vaultwarden-mcp
 <p>For Claude Desktop, install from a release or from source; for Claude Code, add the server to <code>.mcp.json</code>; any other MCP client can run the stdio binary. The bundled Bitwarden CLI must survive the install - if it does not, re-run <code>npm install --legacy-peer-deps</code> and <code>npm run build</code>. On Linux, <code>zenity</code> or <code>kdialog</code> provides the approval windows.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;vaultwarden&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vaultwarden-mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;VW_MCP_CLIPBOARD_CLEAR_SECONDS&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;30&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"vaultwarden"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vaultwarden-mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"VW_MCP_CLIPBOARD_CLEAR_SECONDS"</span><span class="p">:</span><span class="w"> </span><span class="s2">"30"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

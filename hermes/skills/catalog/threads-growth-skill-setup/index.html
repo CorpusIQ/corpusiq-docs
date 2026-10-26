@@ -11072,13 +11072,13 @@
 </tbody>
 </table>
 <p>Environment variables (if using API mode):</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">THREADS_ACCESS_TOKEN</span><span class="o">=</span><span class="s2">&quot;&lt;your-meta-access-token&gt;&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">THREADS_USER_ID</span><span class="o">=</span><span class="s2">&quot;&lt;your-threads-user-id&gt;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">THREADS_ACCESS_TOKEN</span><span class="o">=</span><span class="s2">"&lt;your-meta-access-token&gt;"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">THREADS_USER_ID</span><span class="o">=</span><span class="s2">"&lt;your-threads-user-id&gt;"</span>
 </code></pre></div>
 <p>Or in <code>~/.hermes/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">env</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">THREADS_ACCESS_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;token&gt;&quot;</span>
-<span class="w">  </span><span class="nt">THREADS_USER_ID</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;id&gt;&quot;</span>
+<span class="w">  </span><span class="nt">THREADS_ACCESS_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="s">"&lt;token&gt;"</span>
+<span class="w">  </span><span class="nt">THREADS_USER_ID</span><span class="p">:</span><span class="w"> </span><span class="s">"&lt;id&gt;"</span>
 </code></pre></div>
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
@@ -11126,13 +11126,13 @@
 </table>
 <h3 id="cli-command-reference">CLI Command Reference<a class="headerlink" href="#cli-command-reference" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Post content to Threads</span>
-bash<span class="w"> </span>SKILL_DIR/scripts/post.sh<span class="w"> </span>--text<span class="w"> </span><span class="s2">&quot;Your content here&quot;</span><span class="w"> </span>--media<span class="w"> </span>image.jpg
+bash<span class="w"> </span>SKILL_DIR/scripts/post.sh<span class="w"> </span>--text<span class="w"> </span><span class="s2">"Your content here"</span><span class="w"> </span>--media<span class="w"> </span>image.jpg
 
 <span class="c1"># Get growth analytics</span>
 bash<span class="w"> </span>SKILL_DIR/scripts/analytics.sh<span class="w"> </span>--period<span class="w"> </span>7d
 
 <span class="c1"># Schedule a post</span>
-bash<span class="w"> </span>SKILL_DIR/scripts/schedule.sh<span class="w"> </span>--text<span class="w"> </span><span class="s2">&quot;Content&quot;</span><span class="w"> </span>--time<span class="w"> </span><span class="s2">&quot;2026-06-29 09:00&quot;</span>
+bash<span class="w"> </span>SKILL_DIR/scripts/schedule.sh<span class="w"> </span>--text<span class="w"> </span><span class="s2">"Content"</span><span class="w"> </span>--time<span class="w"> </span><span class="s2">"2026-06-29 09:00"</span>
 </code></pre></div>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -11203,7 +11203,7 @@ bash<span class="w"> </span>SKILL_DIR/scripts/schedule.sh<span class="w"> </span
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>threads-growth-skill
 
 <span class="c1"># Quick functional test</span>
-<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Test post&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>bash<span class="w"> </span>SKILL_DIR/scripts/post.sh<span class="w"> </span>--dry-run
+<span class="nb">echo</span><span class="w"> </span><span class="s2">"Test post"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>bash<span class="w"> </span>SKILL_DIR/scripts/post.sh<span class="w"> </span>--dry-run
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026">June 28 Discovery</a> →</em>

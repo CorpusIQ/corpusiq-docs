@@ -11061,17 +11061,17 @@
 </ul>
 <h2 id="implementation-standard-recommended">Implementation (standard, recommended)<a class="headerlink" href="#implementation-standard-recommended" title="Anchor link to this section">&para;</a></h2>
 <p>Two lines. Add the library script to the head:</p>
-<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">script</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://news.google.com/swg/js/v1/publisher.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">script</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://news.google.com/swg/js/v1/publisher.js"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </code></pre></div>
 <p>Add the button where you want it in the body:</p>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">google-add-preferred-source-btn</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </code></pre></div>
 <p>That is it. The button is auto-localized and Google-styled.</p>
 <h3 id="dark-theme">Dark theme<a class="headerlink" href="#dark-theme" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">google-add-preferred-source-btn</span> <span class="na">data-theme</span><span class="o">=</span><span class="s">&quot;dark&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">google-add-preferred-source-btn</span> <span class="na">data-theme</span><span class="o">=</span><span class="s">"dark"</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </code></pre></div>
 <h3 id="language-override">Language override<a class="headerlink" href="#language-override" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">google-add-preferred-source-btn</span> <span class="na">data-lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">google-add-preferred-source-btn</span> <span class="na">data-lang</span><span class="o">=</span><span class="s">"en"</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </code></pre></div>
 <h2 id="deeplink-no-code">Deeplink (no code)<a class="headerlink" href="#deeplink-no-code" title="Anchor link to this section">&para;</a></h2>
 <p>For social posts, newsletters, and emails, use the deeplink format:</p>
@@ -11080,9 +11080,9 @@
 <p>Readers click, add your site, and get returned to your page.</p>
 <h2 id="advanced-usage">Advanced usage<a class="headerlink" href="#advanced-usage" title="Anchor link to this section">&para;</a></h2>
 <p>For custom UI, the library also ships as an ES module with a programmatic API:</p>
-<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">preferredSource</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;https://news.google.com/swg/js/v1/publisher.mjs&quot;</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">preferredSource</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">"https://news.google.com/swg/js/v1/publisher.mjs"</span><span class="p">;</span>
 
-<span class="nx">preferredSource</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span><span class="w"> </span><span class="nx">theme</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;dark&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">lang</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;en&quot;</span><span class="w"> </span><span class="p">});</span>
+<span class="nx">preferredSource</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span><span class="w"> </span><span class="nx">theme</span><span class="o">:</span><span class="w"> </span><span class="s2">"dark"</span><span class="p">,</span><span class="w"> </span><span class="nx">lang</span><span class="o">:</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">});</span>
 </code></pre></div>
 <p>Or bind to any click handler:</p>
 <div class="highlight"><pre><span></span><code><span class="nx">button</span><span class="p">.</span><span class="nx">onclick</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">preferredSource</span><span class="p">.</span><span class="nx">addPreferredSource</span><span class="p">();</span><span class="w"> </span><span class="p">};</span>

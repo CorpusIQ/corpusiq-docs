@@ -11274,10 +11274,10 @@
 <p>Create a <code>crew_config.yaml</code> that maps CrewAI roles to Hermes model tiers:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">agents</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">growth_agent</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Growth</span><span class="nv"> </span><span class="s">strategist</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">marketing</span><span class="nv"> </span><span class="s">analyst&quot;</span>
-<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Identify</span><span class="nv"> </span><span class="s">growth</span><span class="nv"> </span><span class="s">opportunities</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">optimize</span><span class="nv"> </span><span class="s">marketing</span><span class="nv"> </span><span class="s">spend&quot;</span>
-<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;You</span><span class="nv"> </span><span class="s">analyze</span><span class="nv"> </span><span class="s">marketing</span><span class="nv"> </span><span class="s">data</span><span class="nv"> </span><span class="s">across</span><span class="nv"> </span><span class="s">channels</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">find</span><span class="nv"> </span><span class="s">scalable</span><span class="nv"> </span><span class="s">growth</span><span class="nv"> </span><span class="s">levers.&quot;</span>
-<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;standard&quot;</span><span class="w">  </span><span class="c1"># Hermes model tier</span>
+<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">"Growth</span><span class="nv"> </span><span class="s">strategist</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">marketing</span><span class="nv"> </span><span class="s">analyst"</span>
+<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">"Identify</span><span class="nv"> </span><span class="s">growth</span><span class="nv"> </span><span class="s">opportunities</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">optimize</span><span class="nv"> </span><span class="s">marketing</span><span class="nv"> </span><span class="s">spend"</span>
+<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">"You</span><span class="nv"> </span><span class="s">analyze</span><span class="nv"> </span><span class="s">marketing</span><span class="nv"> </span><span class="s">data</span><span class="nv"> </span><span class="s">across</span><span class="nv"> </span><span class="s">channels</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">find</span><span class="nv"> </span><span class="s">scalable</span><span class="nv"> </span><span class="s">growth</span><span class="nv"> </span><span class="s">levers."</span>
+<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"standard"</span><span class="w">  </span><span class="c1"># Hermes model tier</span>
 <span class="w">    </span><span class="nt">tools</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">google_ads_connector</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">meta_ads_connector</span>
@@ -11285,54 +11285,54 @@
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">klaviyo_connector</span>
 
 <span class="w">  </span><span class="nt">content_agent</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Content</span><span class="nv"> </span><span class="s">strategist</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">creator&quot;</span>
-<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Create</span><span class="nv"> </span><span class="s">engaging</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">drives</span><span class="nv"> </span><span class="s">audience</span><span class="nv"> </span><span class="s">growth&quot;</span>
-<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;You</span><span class="nv"> </span><span class="s">plan</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">produce</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">across</span><span class="nv"> </span><span class="s">platforms,</span><span class="nv"> </span><span class="s">optimized</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">each</span><span class="nv"> </span><span class="s">audience.&quot;</span>
-<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;standard&quot;</span>
+<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">"Content</span><span class="nv"> </span><span class="s">strategist</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">creator"</span>
+<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">"Create</span><span class="nv"> </span><span class="s">engaging</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">drives</span><span class="nv"> </span><span class="s">audience</span><span class="nv"> </span><span class="s">growth"</span>
+<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">"You</span><span class="nv"> </span><span class="s">plan</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">produce</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">across</span><span class="nv"> </span><span class="s">platforms,</span><span class="nv"> </span><span class="s">optimized</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">each</span><span class="nv"> </span><span class="s">audience."</span>
+<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"standard"</span>
 <span class="w">    </span><span class="nt">tools</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">browser_use</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">youtube_connector</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tiktok_connector</span>
 
 <span class="w">  </span><span class="nt">research_agent</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Deep</span><span class="nv"> </span><span class="s">researcher</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">analyst&quot;</span>
-<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Conduct</span><span class="nv"> </span><span class="s">thorough</span><span class="nv"> </span><span class="s">research</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">synthesize</span><span class="nv"> </span><span class="s">insights&quot;</span>
-<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;You</span><span class="nv"> </span><span class="s">dive</span><span class="nv"> </span><span class="s">deep</span><span class="nv"> </span><span class="s">into</span><span class="nv"> </span><span class="s">topics,</span><span class="nv"> </span><span class="s">gather</span><span class="nv"> </span><span class="s">data</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">multiple</span><span class="nv"> </span><span class="s">sources,</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">produce</span><span class="nv"> </span><span class="s">actionable</span><span class="nv"> </span><span class="s">insights.&quot;</span>
-<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;premium&quot;</span><span class="w">  </span><span class="c1"># Needs stronger reasoning</span>
+<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">"Deep</span><span class="nv"> </span><span class="s">researcher</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">analyst"</span>
+<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">"Conduct</span><span class="nv"> </span><span class="s">thorough</span><span class="nv"> </span><span class="s">research</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">synthesize</span><span class="nv"> </span><span class="s">insights"</span>
+<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">"You</span><span class="nv"> </span><span class="s">dive</span><span class="nv"> </span><span class="s">deep</span><span class="nv"> </span><span class="s">into</span><span class="nv"> </span><span class="s">topics,</span><span class="nv"> </span><span class="s">gather</span><span class="nv"> </span><span class="s">data</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">multiple</span><span class="nv"> </span><span class="s">sources,</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">produce</span><span class="nv"> </span><span class="s">actionable</span><span class="nv"> </span><span class="s">insights."</span>
+<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"premium"</span><span class="w">  </span><span class="c1"># Needs stronger reasoning</span>
 <span class="w">    </span><span class="nt">tools</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web_search</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">browser_use</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">notion_connector</span>
 
 <span class="w">  </span><span class="nt">operations_agent</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Operations</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">governance</span><span class="nv"> </span><span class="s">specialist&quot;</span>
-<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Keep</span><span class="nv"> </span><span class="s">systems</span><span class="nv"> </span><span class="s">running</span><span class="nv"> </span><span class="s">smoothly</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">detect</span><span class="nv"> </span><span class="s">issues</span><span class="nv"> </span><span class="s">early&quot;</span>
-<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;You</span><span class="nv"> </span><span class="s">monitor</span><span class="nv"> </span><span class="s">system</span><span class="nv"> </span><span class="s">health,</span><span class="nv"> </span><span class="s">manage</span><span class="nv"> </span><span class="s">schedules,</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">ensure</span><span class="nv"> </span><span class="s">compliance.&quot;</span>
-<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;lightweight&quot;</span>
+<span class="w">    </span><span class="nt">role</span><span class="p">:</span><span class="w"> </span><span class="s">"Operations</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">governance</span><span class="nv"> </span><span class="s">specialist"</span>
+<span class="w">    </span><span class="nt">goal</span><span class="p">:</span><span class="w"> </span><span class="s">"Keep</span><span class="nv"> </span><span class="s">systems</span><span class="nv"> </span><span class="s">running</span><span class="nv"> </span><span class="s">smoothly</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">detect</span><span class="nv"> </span><span class="s">issues</span><span class="nv"> </span><span class="s">early"</span>
+<span class="w">    </span><span class="nt">backstory</span><span class="p">:</span><span class="w"> </span><span class="s">"You</span><span class="nv"> </span><span class="s">monitor</span><span class="nv"> </span><span class="s">system</span><span class="nv"> </span><span class="s">health,</span><span class="nv"> </span><span class="s">manage</span><span class="nv"> </span><span class="s">schedules,</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">ensure</span><span class="nv"> </span><span class="s">compliance."</span>
+<span class="w">    </span><span class="nt">model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"lightweight"</span>
 <span class="w">    </span><span class="nt">tools</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cron_manager</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slack_connector</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">email_connector</span>
 
 <span class="nt">crew</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">process</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;sequential&quot;</span><span class="w">  </span><span class="c1"># or &quot;hierarchical&quot; for manager-led</span>
+<span class="w">  </span><span class="nt">process</span><span class="p">:</span><span class="w"> </span><span class="s">"sequential"</span><span class="w">  </span><span class="c1"># or "hierarchical" for manager-led</span>
 <span class="w">  </span><span class="nt">verbose</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">  </span><span class="nt">max_rpm</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span><span class="w">  </span><span class="c1"># Rate limit: max requests per minute to LLM provider</span>
 </code></pre></div>
 <h3 id="wiring-crewai-to-hermes">Wiring CrewAI to Hermes<a class="headerlink" href="#wiring-crewai-to-hermes" title="Anchor link to this section">&para;</a></h3>
 <p>Create a custom LLM wrapper that routes CrewAI's model calls through Hermes' multi-model router:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">crewai</span> <span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">Task</span><span class="p">,</span> <span class="n">Crew</span><span class="p">,</span> <span class="n">Process</span>
-<span class="kn">from</span> <span class="nn">hermes.router</span> <span class="kn">import</span> <span class="n">ModelRouter</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">crewai</span><span class="w"> </span><span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">Task</span><span class="p">,</span> <span class="n">Crew</span><span class="p">,</span> <span class="n">Process</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">hermes.router</span><span class="w"> </span><span class="kn">import</span> <span class="n">ModelRouter</span>
 
-<span class="k">class</span> <span class="nc">HermesLLM</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adapter that routes CrewAI LLM calls through Hermes model router.&quot;&quot;&quot;</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">HermesLLM</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Adapter that routes CrewAI LLM calls through Hermes model router."""</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model_tier</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;standard&quot;</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model_tier</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"standard"</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">router</span> <span class="o">=</span> <span class="n">ModelRouter</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">model_tier</span> <span class="o">=</span> <span class="n">model_tier</span>
 
-    <span class="k">def</span> <span class="nf">call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">messages</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;Route the completion through Hermes with appropriate model tier.&quot;&quot;&quot;</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">messages</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">"""Route the completion through Hermes with appropriate model tier."""</span>
         <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">router</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
             <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>
             <span class="n">tier</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">model_tier</span><span class="p">,</span>
@@ -11342,9 +11342,9 @@
 
 <span class="c1"># Initialize agents with Hermes-routed LLMs</span>
 <span class="n">growth_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-    <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">[</span><span class="s2">&quot;agents&quot;</span><span class="p">][</span><span class="s2">&quot;growth_agent&quot;</span><span class="p">],</span>
-    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="n">model_tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span><span class="p">),</span>
-    <span class="n">tools</span><span class="o">=</span><span class="n">load_hermes_tools</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="s2">&quot;agents&quot;</span><span class="p">][</span><span class="s2">&quot;growth_agent&quot;</span><span class="p">][</span><span class="s2">&quot;tools&quot;</span><span class="p">])</span>
+    <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">[</span><span class="s2">"agents"</span><span class="p">][</span><span class="s2">"growth_agent"</span><span class="p">],</span>
+    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="n">model_tier</span><span class="o">=</span><span class="s2">"standard"</span><span class="p">),</span>
+    <span class="n">tools</span><span class="o">=</span><span class="n">load_hermes_tools</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="s2">"agents"</span><span class="p">][</span><span class="s2">"growth_agent"</span><span class="p">][</span><span class="s2">"tools"</span><span class="p">])</span>
 <span class="p">)</span>
 </code></pre></div>
 <h2 id="agent-design-patterns">Agent Design Patterns<a class="headerlink" href="#agent-design-patterns" title="Anchor link to this section">&para;</a></h2>
@@ -11361,7 +11361,7 @@
     <span class="n">agents</span><span class="o">=</span><span class="p">[</span><span class="n">manager_agent</span><span class="p">,</span> <span class="n">growth_agent</span><span class="p">,</span> <span class="n">content_agent</span><span class="p">,</span> <span class="n">research_agent</span><span class="p">],</span>
     <span class="n">tasks</span><span class="o">=</span><span class="p">[],</span>
     <span class="n">process</span><span class="o">=</span><span class="n">Process</span><span class="o">.</span><span class="n">hierarchical</span><span class="p">,</span>  <span class="c1"># Manager-led</span>
-    <span class="n">manager_llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="n">model_tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span><span class="p">),</span>  <span class="c1"># Manager needs strong reasoning</span>
+    <span class="n">manager_llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="n">model_tier</span><span class="o">=</span><span class="s2">"premium"</span><span class="p">),</span>  <span class="c1"># Manager needs strong reasoning</span>
 <span class="p">)</span>
 </code></pre></div>
 <h3 id="pattern-3-sequential-pipeline">Pattern 3: Sequential Pipeline<a class="headerlink" href="#pattern-3-sequential-pipeline" title="Anchor link to this section">&para;</a></h3>
@@ -11376,131 +11376,131 @@
 <h3 id="explicit-delegation">Explicit Delegation<a class="headerlink" href="#explicit-delegation" title="Anchor link to this section">&para;</a></h3>
 <p>Define exactly which agent handles which task upfront:</p>
 <div class="highlight"><pre><span></span><code><span class="n">research_task</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Research top 5 competitors in AI agent space&quot;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"Research top 5 competitors in AI agent space"</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">research_agent</span><span class="p">,</span>  <span class="c1"># Explicit assignment</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Competitor analysis report with market positioning&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Competitor analysis report with market positioning"</span>
 <span class="p">)</span>
 
 <span class="n">content_task</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Write a LinkedIn post about our latest feature&quot;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"Write a LinkedIn post about our latest feature"</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">content_agent</span><span class="p">,</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Engaging LinkedIn post with hook, body, and call-to-action&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Engaging LinkedIn post with hook, body, and call-to-action"</span>
 <span class="p">)</span>
 </code></pre></div>
 <h3 id="dynamic-delegation">Dynamic Delegation<a class="headerlink" href="#dynamic-delegation" title="Anchor link to this section">&para;</a></h3>
 <p>Let CrewAI decide which agent handles a task based on role descriptions and capabilities:</p>
 <div class="highlight"><pre><span></span><code><span class="n">ambiguous_task</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Analyze this market data and create a summary post&quot;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"Analyze this market data and create a summary post"</span><span class="p">,</span>
     <span class="c1"># No agent specified  --  CrewAI will assign based on agent roles</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Analysis summary formatted for social media&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Analysis summary formatted for social media"</span>
 <span class="p">)</span>
 </code></pre></div>
 <p><strong>Best practice:</strong> Use explicit delegation for production workflows where you know the structure. Use dynamic delegation for ad-hoc tasks where routing flexibility adds value.</p>
 <h3 id="context-passing">Context Passing<a class="headerlink" href="#context-passing" title="Anchor link to this section">&para;</a></h3>
 <p>Tasks can pass context forward through the <code>context</code> parameter:</p>
 <div class="highlight"><pre><span></span><code><span class="n">research</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Research AI agent market trends Q2 2026&quot;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"Research AI agent market trends Q2 2026"</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">research_agent</span><span class="p">,</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Trend report with data sources&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Trend report with data sources"</span>
 <span class="p">)</span>
 
 <span class="n">content</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Turn the research into a Twitter thread&quot;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"Turn the research into a Twitter thread"</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">content_agent</span><span class="p">,</span>
     <span class="n">context</span><span class="o">=</span><span class="p">[</span><span class="n">research</span><span class="p">],</span>  <span class="c1"># Receives research task output</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;5-tweet thread with key insights&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"5-tweet thread with key insights"</span>
 <span class="p">)</span>
 
 <span class="n">publish</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Post the thread and track engagement&quot;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"Post the thread and track engagement"</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">operations_agent</span><span class="p">,</span>
     <span class="n">context</span><span class="o">=</span><span class="p">[</span><span class="n">content</span><span class="p">],</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Confirmation of published thread with post URL&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Confirmation of published thread with post URL"</span>
 <span class="p">)</span>
 </code></pre></div>
 <h2 id="production-workflow-content-strategy-pipeline">Production Workflow: Content Strategy Pipeline<a class="headerlink" href="#production-workflow-content-strategy-pipeline" title="Anchor link to this section">&para;</a></h2>
 <p>Here's a complete production example  --  a weekly content strategy workflow:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">crewai</span> <span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">Task</span><span class="p">,</span> <span class="n">Crew</span><span class="p">,</span> <span class="n">Process</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">crewai</span><span class="w"> </span><span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">Task</span><span class="p">,</span> <span class="n">Crew</span><span class="p">,</span> <span class="n">Process</span>
 
 <span class="c1"># ── Agents ──────────────────────────────────────────</span>
 
 <span class="n">analyst</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-    <span class="n">role</span><span class="o">=</span><span class="s2">&quot;Content Performance Analyst&quot;</span><span class="p">,</span>
-    <span class="n">goal</span><span class="o">=</span><span class="s2">&quot;Analyze content performance and identify winning patterns&quot;</span><span class="p">,</span>
-    <span class="n">backstory</span><span class="o">=</span><span class="s2">&quot;You review analytics across platforms to find what resonates.&quot;</span><span class="p">,</span>
-    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">&quot;standard&quot;</span><span class="p">),</span>
-    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;ga4_connector&quot;</span><span class="p">,</span> <span class="s2">&quot;youtube_connector&quot;</span><span class="p">,</span> <span class="s2">&quot;tiktok_connector&quot;</span><span class="p">]</span>
+    <span class="n">role</span><span class="o">=</span><span class="s2">"Content Performance Analyst"</span><span class="p">,</span>
+    <span class="n">goal</span><span class="o">=</span><span class="s2">"Analyze content performance and identify winning patterns"</span><span class="p">,</span>
+    <span class="n">backstory</span><span class="o">=</span><span class="s2">"You review analytics across platforms to find what resonates."</span><span class="p">,</span>
+    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">"standard"</span><span class="p">),</span>
+    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">"ga4_connector"</span><span class="p">,</span> <span class="s2">"youtube_connector"</span><span class="p">,</span> <span class="s2">"tiktok_connector"</span><span class="p">]</span>
 <span class="p">)</span>
 
 <span class="n">strategist</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-    <span class="n">role</span><span class="o">=</span><span class="s2">&quot;Content Strategist&quot;</span><span class="p">,</span>
-    <span class="n">goal</span><span class="o">=</span><span class="s2">&quot;Create data-driven content plans for the week ahead&quot;</span><span class="p">,</span>
-    <span class="n">backstory</span><span class="o">=</span><span class="s2">&quot;You translate performance insights into actionable content briefs.&quot;</span><span class="p">,</span>
-    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">&quot;premium&quot;</span><span class="p">),</span>
-    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;browser_use&quot;</span><span class="p">,</span> <span class="s2">&quot;notion_connector&quot;</span><span class="p">]</span>
+    <span class="n">role</span><span class="o">=</span><span class="s2">"Content Strategist"</span><span class="p">,</span>
+    <span class="n">goal</span><span class="o">=</span><span class="s2">"Create data-driven content plans for the week ahead"</span><span class="p">,</span>
+    <span class="n">backstory</span><span class="o">=</span><span class="s2">"You translate performance insights into actionable content briefs."</span><span class="p">,</span>
+    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">"premium"</span><span class="p">),</span>
+    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">"browser_use"</span><span class="p">,</span> <span class="s2">"notion_connector"</span><span class="p">]</span>
 <span class="p">)</span>
 
 <span class="n">creator</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-    <span class="n">role</span><span class="o">=</span><span class="s2">&quot;Content Creator&quot;</span><span class="p">,</span>
-    <span class="n">goal</span><span class="o">=</span><span class="s2">&quot;Produce platform-optimized content from briefs&quot;</span><span class="p">,</span>
-    <span class="n">backstory</span><span class="o">=</span><span class="s2">&quot;You craft engaging posts, scripts, and captions.&quot;</span><span class="p">,</span>
-    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">&quot;standard&quot;</span><span class="p">),</span>
-    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;browser_use&quot;</span><span class="p">]</span>
+    <span class="n">role</span><span class="o">=</span><span class="s2">"Content Creator"</span><span class="p">,</span>
+    <span class="n">goal</span><span class="o">=</span><span class="s2">"Produce platform-optimized content from briefs"</span><span class="p">,</span>
+    <span class="n">backstory</span><span class="o">=</span><span class="s2">"You craft engaging posts, scripts, and captions."</span><span class="p">,</span>
+    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">"standard"</span><span class="p">),</span>
+    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">"browser_use"</span><span class="p">]</span>
 <span class="p">)</span>
 
 <span class="n">publisher</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-    <span class="n">role</span><span class="o">=</span><span class="s2">&quot;Content Publisher&quot;</span><span class="p">,</span>
-    <span class="n">goal</span><span class="o">=</span><span class="s2">&quot;Schedule and publish content across platforms&quot;</span><span class="p">,</span>
-    <span class="n">backstory</span><span class="o">=</span><span class="s2">&quot;You handle multi-platform scheduling and format compliance.&quot;</span><span class="p">,</span>
-    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">&quot;lightweight&quot;</span><span class="p">),</span>
-    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;browser_use&quot;</span><span class="p">,</span> <span class="s2">&quot;slack_connector&quot;</span><span class="p">]</span>
+    <span class="n">role</span><span class="o">=</span><span class="s2">"Content Publisher"</span><span class="p">,</span>
+    <span class="n">goal</span><span class="o">=</span><span class="s2">"Schedule and publish content across platforms"</span><span class="p">,</span>
+    <span class="n">backstory</span><span class="o">=</span><span class="s2">"You handle multi-platform scheduling and format compliance."</span><span class="p">,</span>
+    <span class="n">llm</span><span class="o">=</span><span class="n">HermesLLM</span><span class="p">(</span><span class="s2">"lightweight"</span><span class="p">),</span>
+    <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="s2">"browser_use"</span><span class="p">,</span> <span class="s2">"slack_connector"</span><span class="p">]</span>
 <span class="p">)</span>
 
 <span class="c1"># ── Tasks ───────────────────────────────────────────</span>
 
 <span class="n">analyze_performance</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">    Analyze last week&#39;s content performance across all platforms.</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"""</span>
+<span class="s2">    Analyze last week's content performance across all platforms.</span>
 <span class="s2">    Extract: top 3 posts by engagement, worst 3, engagement rate trends,</span>
 <span class="s2">    audience growth data, and platform-specific patterns.</span>
-<span class="s2">    &quot;&quot;&quot;</span><span class="p">,</span>
+<span class="s2">    """</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">analyst</span><span class="p">,</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Weekly performance report with data-backed insights&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Weekly performance report with data-backed insights"</span>
 <span class="p">)</span>
 
 <span class="n">create_plan</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"""</span>
 <span class="s2">    Using the performance analysis, create a content plan for next week.</span>
 <span class="s2">    Include: 5 LinkedIn posts, 3 Twitter threads, 2 short-form videos,</span>
 <span class="s2">    1 long-form article. For each: topic, hook, key points, platform format.</span>
 <span class="s2">    Prioritize topics that performed well in analysis.</span>
-<span class="s2">    &quot;&quot;&quot;</span><span class="p">,</span>
+<span class="s2">    """</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">strategist</span><span class="p">,</span>
     <span class="n">context</span><span class="o">=</span><span class="p">[</span><span class="n">analyze_performance</span><span class="p">],</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Weekly content calendar with briefs for each piece&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Weekly content calendar with briefs for each piece"</span>
 <span class="p">)</span>
 
 <span class="n">produce_content</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"""</span>
 <span class="s2">    Produce all content pieces from the plan. Write full drafts for each.</span>
 <span class="s2">    For videos: write scripts. For posts: write complete copy with hooks.</span>
-<span class="s2">    Ensure each piece is optimized for its platform&#39;s format and audience.</span>
-<span class="s2">    &quot;&quot;&quot;</span><span class="p">,</span>
+<span class="s2">    Ensure each piece is optimized for its platform's format and audience.</span>
+<span class="s2">    """</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">creator</span><span class="p">,</span>
     <span class="n">context</span><span class="o">=</span><span class="p">[</span><span class="n">create_plan</span><span class="p">],</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Complete content drafts ready for publishing&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Complete content drafts ready for publishing"</span>
 <span class="p">)</span>
 
 <span class="n">schedule_publishing</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"""</span>
 <span class="s2">    Schedule all produced content across platforms using optimal timing.</span>
 <span class="s2">    LinkedIn: Tue-Thu 8-10am. Twitter: daily 12pm and 5pm.</span>
 <span class="s2">    Videos: Wed 2pm. Article: Thu 9am.</span>
 <span class="s2">    Confirm all posts are queued and return the publishing schedule.</span>
-<span class="s2">    &quot;&quot;&quot;</span><span class="p">,</span>
+<span class="s2">    """</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">publisher</span><span class="p">,</span>
     <span class="n">context</span><span class="o">=</span><span class="p">[</span><span class="n">produce_content</span><span class="p">],</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Confirmed publishing schedule with platform URLs&quot;</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Confirmed publishing schedule with platform URLs"</span>
 <span class="p">)</span>
 
 <span class="c1"># ── Crew ────────────────────────────────────────────</span>
@@ -11519,33 +11519,33 @@
 <p>Use Hermes cron jobs to trigger CrewAI workflows on a schedule:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/content_strategy.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">weekly_content_strategy</span>
-<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">9</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1&quot;</span><span class="w">  </span><span class="c1"># Every Monday at 9am</span>
+<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"0</span><span class="nv"> </span><span class="s">9</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1"</span><span class="w">  </span><span class="c1"># Every Monday at 9am</span>
 <span class="nt">task</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">crewai.kickoff.weekly_content_strategy</span>
 <span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3600</span><span class="w">  </span><span class="c1"># 1 hour max</span>
-<span class="nt">notify_on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;complete&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;failure&quot;</span><span class="p p-Indicator">]</span>
+<span class="nt">notify_on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"complete"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"failure"</span><span class="p p-Indicator">]</span>
 </code></pre></div>
 <h3 id="conditional-coordination">Conditional Coordination<a class="headerlink" href="#conditional-coordination" title="Anchor link to this section">&para;</a></h3>
 <p>Use LangGraph to conditionally invoke CrewAI workflows based on system state:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># In LangGraph, conditionally route to CrewAI</span>
-<span class="k">def</span> <span class="nf">route_to_crew</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;engagement_drop&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.20</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;emergency_content_crew&quot;</span>
-    <span class="k">elif</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;day_of_week&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Monday&quot;</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;weekly_content_crew&quot;</span>
-    <span class="k">return</span> <span class="s2">&quot;skip&quot;</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">route_to_crew</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">state</span><span class="p">[</span><span class="s2">"engagement_drop"</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.20</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"emergency_content_crew"</span>
+    <span class="k">elif</span> <span class="n">state</span><span class="p">[</span><span class="s2">"day_of_week"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Monday"</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">"weekly_content_crew"</span>
+    <span class="k">return</span> <span class="s2">"skip"</span>
 
-<span class="n">workflow</span><span class="o">.</span><span class="n">add_conditional_edges</span><span class="p">(</span><span class="s2">&quot;evaluate&quot;</span><span class="p">,</span> <span class="n">route_to_crew</span><span class="p">,</span> <span class="p">{</span>
-    <span class="s2">&quot;emergency_content_crew&quot;</span><span class="p">:</span> <span class="s2">&quot;crew_reactive&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;weekly_content_crew&quot;</span><span class="p">:</span> <span class="s2">&quot;crew_proactive&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;skip&quot;</span><span class="p">:</span> <span class="s2">&quot;end&quot;</span>
+<span class="n">workflow</span><span class="o">.</span><span class="n">add_conditional_edges</span><span class="p">(</span><span class="s2">"evaluate"</span><span class="p">,</span> <span class="n">route_to_crew</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s2">"emergency_content_crew"</span><span class="p">:</span> <span class="s2">"crew_reactive"</span><span class="p">,</span>
+    <span class="s2">"weekly_content_crew"</span><span class="p">:</span> <span class="s2">"crew_proactive"</span><span class="p">,</span>
+    <span class="s2">"skip"</span><span class="p">:</span> <span class="s2">"end"</span>
 <span class="p">})</span>
 </code></pre></div>
 <h3 id="human-in-the-loop">Human-in-the-Loop<a class="headerlink" href="#human-in-the-loop" title="Anchor link to this section">&para;</a></h3>
 <p>For critical decisions, CrewAI workflows can pause for human approval:</p>
 <div class="highlight"><pre><span></span><code><span class="n">review_task</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
-    <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Review the content plan before production&quot;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s2">"Review the content plan before production"</span><span class="p">,</span>
     <span class="n">agent</span><span class="o">=</span><span class="n">strategist</span><span class="p">,</span>
-    <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Approved content plan&quot;</span><span class="p">,</span>
+    <span class="n">expected_output</span><span class="o">=</span><span class="s2">"Approved content plan"</span><span class="p">,</span>
     <span class="n">human_input</span><span class="o">=</span><span class="kc">True</span>  <span class="c1"># Requires human approval before proceeding</span>
 <span class="p">)</span>
 </code></pre></div>

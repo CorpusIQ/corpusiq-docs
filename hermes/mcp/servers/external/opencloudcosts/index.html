@@ -11107,10 +11107,10 @@
 </code></pre></div>
 <p>Or manual config:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;opencloudcosts&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://opencloudcosts.com/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"opencloudcosts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://opencloudcosts.com/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11149,30 +11149,30 @@
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-architecture-cost-estimation">1. Architecture Cost Estimation<a class="headerlink" href="#1-architecture-cost-estimation" title="Anchor link to this section">&para;</a></h3>
 <p>Before deploying a new service, have your AI agent estimate costs across clouds:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We need to run PostgreSQL with 16GB RAM, 4 vCPUs, 
-500GB storage in us-east-1. What&#39;s the monthly cost on AWS RDS 
+<div class="highlight"><pre><span></span><code>Agent prompt: "We need to run PostgreSQL with 16GB RAM, 4 vCPUs, 
+500GB storage in us-east-1. What's the monthly cost on AWS RDS 
 vs GCP Cloud SQL vs Azure Database? Include enterprise rates 
-(we have an AWS EDP and GCP CUDs).&quot;
+(we have an AWS EDP and GCP CUDs)."
 </code></pre></div>
 <h3 id="2-commitment-purchase-decisions">2. Commitment Purchase Decisions<a class="headerlink" href="#2-commitment-purchase-decisions" title="Anchor link to this section">&para;</a></h3>
 <p>When your finance team asks about RI/Savings Plan purchases:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We run 50 m6i.xlarge instances in us-east-1 24/7. 
+<div class="highlight"><pre><span></span><code>Agent prompt: "We run 50 m6i.xlarge instances in us-east-1 24/7. 
 Compare 1-year all-upfront vs 3-year partial-upfront Reserved 
-Instance costs. Factor in our 12% EDP discount.&quot;
+Instance costs. Factor in our 12% EDP discount."
 </code></pre></div>
 <h3 id="3-cloud-migration-cost-analysis">3. Cloud Migration Cost Analysis<a class="headerlink" href="#3-cloud-migration-cost-analysis" title="Anchor link to this section">&para;</a></h3>
 <p>When evaluating a cloud migration:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We&#39;re moving a 200-instance workload from AWS to GCP. 
+<div class="highlight"><pre><span></span><code>Agent prompt: "We're moving a 200-instance workload from AWS to GCP. 
 Estimate the equivalent GCP Compute Engine costs for our instance 
 fleet and compare with our current AWS spend including our 
-Savings Plan commitments.&quot;
+Savings Plan commitments."
 </code></pre></div>
 <h3 id="4-budget-planning">4. Budget Planning<a class="headerlink" href="#4-budget-planning" title="Anchor link to this section">&para;</a></h3>
 <p>During quarterly budget planning:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Our engineering team wants to add 20% more capacity 
+<div class="highlight"><pre><span></span><code>Agent prompt: "Our engineering team wants to add 20% more capacity 
 next quarter. Based on our current blend of on-demand, RI, and 
 Savings Plan purchasing, estimate the incremental monthly cost 
-for 20 m7i.xlarge instances in us-west-2.&quot;
+for 20 m7i.xlarge instances in us-west-2."
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>Opencloudcosts + CorpusIQ = complete cloud financial operations:</p>

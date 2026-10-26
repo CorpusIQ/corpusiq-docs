@@ -11079,11 +11079,11 @@
 <h1 id="otnox-mcp">Otnox MCP<a class="headerlink" href="#otnox-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>A company that sells to governments loses most of its bids before it writes them. The award record already says who wins a buyer's work, at what price, and how often the same three suppliers keep coming back.</strong></p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) at https://mcp.otnox.com/mcp
-Auth: OAuth 2.1, authorization code with PKCE S256, dynamic client registration, scopes otnox:read and otnox:write, token_endpoint_auth_methods_supported [&quot;none&quot;]
-Live check: POST initialize without a token returned HTTP 401 {&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:null,&quot;error&quot;:{&quot;code&quot;:-32001,&quot;message&quot;:&quot;Authentication required&quot;}} with www-authenticate naming https://mcp.otnox.com/.well-known/oauth-protected-resource
+Auth: OAuth 2.1, authorization code with PKCE S256, dynamic client registration, scopes otnox:read and otnox:write, token_endpoint_auth_methods_supported ["none"]
+Live check: POST initialize without a token returned HTTP 401 {"jsonrpc":"2.0","id":null,"error":{"code":-32001,"message":"Authentication required"}} with www-authenticate naming https://mcp.otnox.com/.well-known/oauth-protected-resource
 Discovery: that document returns 200 with resource https://mcp.otnox.com, authorization server on the same host, bearer in header, and resource_documentation https://mcp.otnox.com/; /.well-known/oauth-authorization-server adds authorize, token, register and revoke endpoints, code and refresh grants, S256, and no client secret
 Tools: 5, documented by the vendor as read-only - search_tenders, get_tender_details, get_buyer_profile, get_competition_signals, qualify_opportunity (the only paid one, priced in AI credits)
-Coverage: 89 markets claimed in the vendor&#39;s coverage snapshot dated 2026-10-19; 78 national markets, 11.43M tenders indexed and 47,000+ classification codes on the data API page
+Coverage: 89 markets claimed in the vendor's coverage snapshot dated 2026-10-19; 78 national markets, 11.43M tenders indexed and 47,000+ classification codes on the data API page
 Pricing: Trial EUR 0 for 7 days with 50 credits and no card; Premium EUR 98 per month plus VAT with 1 market and 200 credits a month; Enterprise with unlimited markets, API access and scheduled exports
 Vendor: Otnox (otnox.com)
 </code></pre></div>
@@ -11135,10 +11135,10 @@ Vendor: Otnox (otnox.com)
 <p>Either client discovers the authorization server from the 401 and runs the OAuth flow itself. Nothing is configured by hand and there is no API key to paste.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;otnox&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.otnox.com/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"otnox"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.otnox.com/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

@@ -11191,18 +11191,18 @@ Useful for debugging Telegram API connectivity, MCP server reachability, and API
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>terminal-skills
 
 <span class="c1"># 2. Inspect current cron jobs (using cron skill knowledge)</span>
-crontab<span class="w"> </span>-l<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;No user crontab&quot;</span>
+crontab<span class="w"> </span>-l<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"No user crontab"</span>
 
 <span class="c1"># 3. Check Hermes gateway service status (using systemd skill knowledge)</span>
 systemctl<span class="w"> </span>--user<span class="w"> </span>status<span class="w"> </span>hermes-gateway-corpusiq.service<span class="w"> </span>--no-pager
 
 <span class="c1"># 4. Network health check (using network-tools skill knowledge)</span>
-ss<span class="w"> </span>-tlnp<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;11434|8080|3000&#39;</span>
+ss<span class="w"> </span>-tlnp<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'11434|8080|3000'</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check skills are installed</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;cron|system-admin|systemd|network-tools|vpn&#39;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'cron|system-admin|systemd|network-tools|vpn'</span>
 
 <span class="c1"># Verify cron knowledge is accessible</span>
 npx<span class="w"> </span>skills<span class="w"> </span>use<span class="w"> </span>chaterm/terminal-skills@cron<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-20

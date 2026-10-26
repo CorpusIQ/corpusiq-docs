@@ -11086,7 +11086,7 @@
 <p>Playwright drives real browsers for posting and comment monitoring on platforms where direct APIs are missing, rate-limited, or require interactive authentication. It is a fallback layer, not the primary tool: use APIs first, browser automation second.</p>
 <hr />
 <h2 id="core-principle-api-first-browser-fallback">Core Principle: API-First, Browser-Fallback<a class="headerlink" href="#core-principle-api-first-browser-fallback" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>Can you use the platform&#39;s API directly?
+<div class="highlight"><pre><span></span><code>Can you use the platform's API directly?
 ├─ YES (credentials configured, client installed) → Use the API
 └─ NO
    ├─ Webhook available (Discord) → Use the webhook
@@ -11098,7 +11098,7 @@
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>playwright
 python3<span class="w"> </span>-m<span class="w"> </span>playwright<span class="w"> </span>install
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import playwright; print(&#39;Playwright ready&#39;)&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import playwright; print('Playwright ready')"</span>
 </code></pre></div>
 <h2 id="browser-choice-by-platform">Browser Choice by Platform<a class="headerlink" href="#browser-choice-by-platform" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -11139,19 +11139,19 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 <h2 id="reliability-patterns">Reliability Patterns<a class="headerlink" href="#reliability-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-wait-for-visibility-before-filling">1. Wait for visibility before filling<a class="headerlink" href="#1-wait-for-visibility-before-filling" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">wait_for_selector</span><span class="p">(</span><span class="n">selector</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
-<span class="k">await</span> <span class="n">element</span><span class="o">.</span><span class="n">wait_for_element_state</span><span class="p">(</span><span class="s1">&#39;visible&#39;</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">element</span><span class="o">.</span><span class="n">wait_for_element_state</span><span class="p">(</span><span class="s1">'visible'</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
 <span class="k">await</span> <span class="n">element</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="2-fuzzy-selector-matching-for-dynamic-forms">2. Fuzzy selector matching for dynamic forms<a class="headerlink" href="#2-fuzzy-selector-matching-for-dynamic-forms" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">async</span> <span class="k">def</span> <span class="nf">find_element_fuzzy</span><span class="p">(</span><span class="n">page</span><span class="p">,</span> <span class="n">selectors</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">5000</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">find_element_fuzzy</span><span class="p">(</span><span class="n">page</span><span class="p">,</span> <span class="n">selectors</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">5000</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">selector</span> <span class="ow">in</span> <span class="n">selectors</span><span class="p">:</span>
         <span class="n">element</span> <span class="o">=</span> <span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">query_selector</span><span class="p">(</span><span class="n">selector</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">element</span><span class="p">:</span>
             <span class="k">return</span> <span class="n">element</span>
-    <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No element found: </span><span class="si">{</span><span class="n">selectors</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">"No element found: </span><span class="si">{</span><span class="n">selectors</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="3-retry-with-exponential-backoff">3. Retry with exponential backoff<a class="headerlink" href="#3-retry-with-exponential-backoff" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">async</span> <span class="k">def</span> <span class="nf">retry_action</span><span class="p">(</span><span class="n">async_fn</span><span class="p">,</span> <span class="n">max_attempts</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">delay</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">retry_action</span><span class="p">(</span><span class="n">async_fn</span><span class="p">,</span> <span class="n">max_attempts</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">delay</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_attempts</span><span class="p">):</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="k">return</span> <span class="k">await</span> <span class="n">async_fn</span><span class="p">()</span>
@@ -11169,23 +11169,23 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 <li>Use <code>launch_persistent_context()</code> so login sessions survive restarts</li>
 </ul>
 <h3 id="5-wait-for-javascript-to-settle">5. Wait for JavaScript to settle<a class="headerlink" href="#5-wait-for-javascript-to-settle" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">wait_until</span><span class="o">=</span><span class="s2">&quot;networkidle&quot;</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">wait_until</span><span class="o">=</span><span class="s2">"networkidle"</span><span class="p">)</span>
 <span class="c1"># or wait for a specific element instead of a fixed sleep</span>
-<span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">wait_for_selector</span><span class="p">(</span><span class="s1">&#39;button[class*=&quot;create&quot;]&#39;</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">page</span><span class="o">.</span><span class="n">wait_for_selector</span><span class="p">(</span><span class="s1">'button[class*="create"]'</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <h2 id="persistent-sessions-for-anti-bot-platforms">Persistent Sessions for Anti-Bot Platforms<a class="headerlink" href="#persistent-sessions-for-anti-bot-platforms" title="Anchor link to this section">&para;</a></h2>
 <p>Some platforms cryptographically bind session cookies to the browser's local keychain. Copying cookies to another browser profile fails with HTTP 403 because the encryption keys no longer match. The fix: log in once inside a persistent profile and reuse that same profile forever.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># One-time setup: headful login</span>
 <span class="n">ctx</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">firefox</span><span class="o">.</span><span class="n">launch_persistent_context</span><span class="p">(</span>
-    <span class="s2">&quot;/tmp/ff_profile&quot;</span><span class="p">,</span>
+    <span class="s2">"/tmp/ff_profile"</span><span class="p">,</span>
     <span class="n">headless</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>               <span class="c1"># user logs in manually</span>
 <span class="p">)</span>
 <span class="n">page</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">new_page</span><span class="p">()</span>
-<span class="n">page</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="s2">&quot;https://platform.com/login&quot;</span><span class="p">)</span>
+<span class="n">page</span><span class="o">.</span><span class="n">goto</span><span class="p">(</span><span class="s2">"https://platform.com/login"</span><span class="p">)</span>
 
 <span class="c1"># All later runs: same profile, cookies AND keys intact</span>
-<span class="n">ctx</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">firefox</span><span class="o">.</span><span class="n">launch_persistent_context</span><span class="p">(</span><span class="s2">&quot;/tmp/ff_profile&quot;</span><span class="p">,</span> <span class="n">headless</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">ctx</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">firefox</span><span class="o">.</span><span class="n">launch_persistent_context</span><span class="p">(</span><span class="s2">"/tmp/ff_profile"</span><span class="p">,</span> <span class="n">headless</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <h2 id="common-errors">Common Errors<a class="headerlink" href="#common-errors" title="Anchor link to this section">&para;</a></h2>

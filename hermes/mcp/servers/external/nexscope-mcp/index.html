@@ -11091,8 +11091,8 @@
 <p><strong>Amazon answers one question. TikTok Shop answers a different one. Nexscope puts both in the same response shape, so an agent stops comparing a marketplace to itself.</strong></p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) at https://api.nexscope.ai/mcp
 Auth: OAuth 2.1 authorization code with PKCE S256, scope mcp:tools; API keys (Bearer nk-...) on the REST face
-Live check: POST initialize without a token returned HTTP 401 {&quot;error&quot;:&quot;invalid_token&quot;,&quot;error_description&quot;:&quot;Authentication is required.&quot;}
-Tools: 235 tool pages in the vendor&#39;s public data directory, each with an API &amp; MCP tab; 61 TikTok Shop, 91 Amazon, 13 Ozon, 11 Temu, 5 Walmart, 4 1688, 4 Etsy, 4 Google, 2 Shopify, 2 Shopee, 2 Mercado Libre, 1 eBay, plus patent and IP-risk classes
+Live check: POST initialize without a token returned HTTP 401 {"error":"invalid_token","error_description":"Authentication is required."}
+Tools: 235 tool pages in the vendor's public data directory, each with an API &amp; MCP tab; 61 TikTok Shop, 91 Amazon, 13 Ozon, 11 Temu, 5 Walmart, 4 1688, 4 Etsy, 4 Google, 2 Shopify, 2 Shopee, 2 Mercado Libre, 1 eBay, plus patent and IP-risk classes
 Pricing: Free 1,000 credits for 3 days (no card), Starter $29/mo with 30,000 credits, Growth $55 with 75,000, Pro $129 with 150,000; per-call costs published per tool
 Vendor: Nexscope (nexscope.ai)
 </code></pre></div>
@@ -11115,10 +11115,10 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </
 <p>The vendor's own path is a setup prompt copied from the connector section of <code>nexscope.ai/mcp</code> and pasted into a compatible client, which walks the account sign-in and authorization.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;nexscope&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.nexscope.ai/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"nexscope"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.nexscope.ai/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

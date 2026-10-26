@@ -11180,46 +11180,46 @@ pip<span class="w"> </span>install<span class="w"> </span>mcp
 <span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">my-custom-server</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">node</span>
-<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;dist/index.js&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"dist/index.js"</span><span class="p p-Indicator">]</span>
 <span class="w">    </span><span class="c1"># or for Python:</span>
 <span class="w">    </span><span class="c1"># command: python3</span>
-<span class="w">    </span><span class="c1"># args: [&quot;server.py&quot;]</span>
+<span class="w">    </span><span class="c1"># args: ["server.py"]</span>
 </code></pre></div>
 <p>Hermes will auto-discover the server's tools and make them available to all agents.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify the server is connected</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>list<span class="w">  </span><span class="c1"># should show your server&#39;s tools</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>list<span class="w">  </span><span class="c1"># should show your server's tools</span>
 </code></pre></div>
 <hr />
 <h2 id="core-patterns">Core Patterns<a class="headerlink" href="#core-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="tool-registration-typescript">Tool Registration (TypeScript)<a class="headerlink" href="#tool-registration-typescript" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nx">server</span><span class="p">.</span><span class="nx">setRequestHandler</span><span class="p">(</span><span class="nx">ListToolsRequestSchema</span><span class="p">,</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">({</span>
 <span class="w">  </span><span class="nx">tools</span><span class="o">:</span><span class="w"> </span><span class="p">[{</span>
-<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;get_weather&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Get current weather for a city&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">"get_weather"</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">"Get current weather for a city"</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">inputSchema</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span>
 <span class="w">      </span><span class="nx">properties</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nx">city</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;string&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;City name&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">        </span><span class="nx">city</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">"City name"</span><span class="w"> </span><span class="p">}</span>
 <span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="nx">required</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;city&quot;</span><span class="p">]</span>
+<span class="w">      </span><span class="nx">required</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"city"</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}]</span>
 <span class="p">}));</span>
 </code></pre></div>
 <h3 id="tool-registration-python">Tool Registration (Python)<a class="headerlink" href="#tool-registration-python" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nd">@server</span><span class="o">.</span><span class="n">list_tools</span><span class="p">()</span>
-<span class="k">async</span> <span class="k">def</span> <span class="nf">list_tools</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">Tool</span><span class="p">]:</span>
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">list_tools</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">Tool</span><span class="p">]:</span>
     <span class="k">return</span> <span class="p">[</span>
         <span class="n">Tool</span><span class="p">(</span>
-            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;get_weather&quot;</span><span class="p">,</span>
-            <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Get current weather for a city&quot;</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">"get_weather"</span><span class="p">,</span>
+            <span class="n">description</span><span class="o">=</span><span class="s2">"Get current weather for a city"</span><span class="p">,</span>
             <span class="n">inputSchema</span><span class="o">=</span><span class="p">{</span>
-                <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;object&quot;</span><span class="p">,</span>
-                <span class="s2">&quot;properties&quot;</span><span class="p">:</span> <span class="p">{</span>
-                    <span class="s2">&quot;city&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;string&quot;</span><span class="p">}</span>
+                <span class="s2">"type"</span><span class="p">:</span> <span class="s2">"object"</span><span class="p">,</span>
+                <span class="s2">"properties"</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">"city"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"type"</span><span class="p">:</span> <span class="s2">"string"</span><span class="p">}</span>
                 <span class="p">},</span>
-                <span class="s2">&quot;required&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;city&quot;</span><span class="p">]</span>
+                <span class="s2">"required"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"city"</span><span class="p">]</span>
             <span class="p">}</span>
         <span class="p">)</span>
     <span class="p">]</span>

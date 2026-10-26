@@ -11019,7 +11019,7 @@
 <p><strong>A programmable email inbox built for agents, not humans clicking through setup.</strong> Atomic Mail gives an agent its own mailbox - register an <code>@atomicmail.ai</code> address hands-free through proof-of-work signup, send and receive mail, and keep threads going - through a local stdio MCP proxy that speaks JMAP. For company domains, a human dashboard acts as the control plane: verify <code>support@yourcompany.com</code> once, and the agent sends with a domain-aligned From address from then on.</p>
 <div class="highlight"><pre><span></span><code>Server type: Local stdio proxy (npx) over a hosted JMAP backend
 Package: @atomicmail/mcp-github (npm, v0.3.26)
-Registry: &quot;Atomic Mail&quot; on registry.modelcontextprotocol.io (v0.3.14)
+Registry: "Atomic Mail" on registry.modelcontextprotocol.io (v0.3.14)
 Repo: github.com/Atomic-Mail/atomic-mail-agentic (MIT, 255 stars)
 Website: atomicmail.ai · Dashboard: dashboard.atomicmail.ai
 Auth: Proof-of-work signup for default inboxes; API key or OAuth for custom domains
@@ -11064,10 +11064,10 @@ Transport: JMAP under the hood; embedded docs and presets ship with the CLI
 </code></pre></div>
 <p>MCP host config:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;atomicmail&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@atomicmail/mcp-github&quot;</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"atomicmail"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@atomicmail/mcp-github"</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

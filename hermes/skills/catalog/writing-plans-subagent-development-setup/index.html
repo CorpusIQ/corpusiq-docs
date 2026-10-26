@@ -11147,15 +11147,15 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 
 <span class="c1"># Manual invocation pattern:</span>
 <span class="c1"># 1. Ask Hermes to write a plan</span>
-<span class="c1"># &quot;Write an implementation plan for adding dark mode to the dashboard&quot;</span>
+<span class="c1"># "Write an implementation plan for adding dark mode to the dashboard"</span>
 <span class="c1"># → writing-plans skill activates, produces numbered task list</span>
 
 <span class="c1"># 2. Execute the plan</span>
-<span class="c1"># &quot;Execute the dark mode plan&quot;</span>
+<span class="c1"># "Execute the dark mode plan"</span>
 <span class="c1"># → subagent-driven-development activates, spawns workers</span>
 
 <span class="c1"># 3. Review progress</span>
-<span class="c1"># &quot;Show me the status of the dark mode implementation&quot;</span>
+<span class="c1"># "Show me the status of the dark mode implementation"</span>
 <span class="c1"># → Agent reconciles subagent results, shows completion state</span>
 </code></pre></div>
 <h2 id="5-corpusiq-use-cases">5. CorpusIQ Use Cases<a class="headerlink" href="#5-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -11218,10 +11218,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <p><strong>Verification:</strong>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify skills installed</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;writing-plans|subagent-driven-development&quot;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"writing-plans|subagent-driven-development"</span>
 
 <span class="c1"># Test plan generation</span>
-<span class="c1"># In a Hermes session: &quot;Write a plan for adding a hello-world endpoint&quot;</span>
+<span class="c1"># In a Hermes session: "Write a plan for adding a hello-world endpoint"</span>
 <span class="c1"># Should produce: numbered tasks with file paths and dependencies</span>
 </code></pre></div></p>
 <h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>

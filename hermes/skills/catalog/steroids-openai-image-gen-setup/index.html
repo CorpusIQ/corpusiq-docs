@@ -11061,7 +11061,7 @@
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Clone into Hermes plugin root</span>
-<span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">HERMES_HOME</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.hermes</span><span class="si">}</span><span class="s2">/plugins&quot;</span>
+<span class="nb">cd</span><span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">HERMES_HOME</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.hermes</span><span class="si">}</span><span class="s2">/plugins"</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/eve-ai-dev/steroids-openai-image-gen.git
 hermes<span class="w"> </span>plugins<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>steroids-openai-image-gen
 
@@ -11069,7 +11069,7 @@ hermes<span class="w"> </span>plugins<span class="w"> </span><span class="nb">en
 hermes<span class="w"> </span>gateway<span class="w"> </span>restart
 </code></pre></div>
 <p>For profile-specific installs:
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">HERMES_HOME</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.hermes</span><span class="si">}</span><span class="s2">/profiles/&lt;profile&gt;/plugins&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">HERMES_HOME</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.hermes</span><span class="si">}</span><span class="s2">/profiles/&lt;profile&gt;/plugins"</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/eve-ai-dev/steroids-openai-image-gen.git
 </code></pre></div></p>
 <hr />
@@ -11108,26 +11108,26 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/eve-a
 <h2 id="enhanced-tool-schema">Enhanced Tool Schema<a class="headerlink" href="#enhanced-tool-schema" title="Anchor link to this section">&para;</a></h2>
 <p>The plugin registers an extended <code>image_generate</code> schema:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;prompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;make the red square blue&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;aspect_ratio&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;square&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;quality&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;medium&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;image_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/source.png&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;reference_image_urls&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;/path/ref.png&quot;</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">"prompt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"make the red square blue"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"aspect_ratio"</span><span class="p">:</span><span class="w"> </span><span class="s2">"square"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"quality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"medium"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"image_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/source.png"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"reference_image_urls"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"/path/ref.png"</span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
 <hr />
 <h2 id="background-job-processing">Background Job Processing<a class="headerlink" href="#background-job-processing" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1">// Single job</span>
 <span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;prompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;generate hero image for landing page&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;aspect_ratio&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;landscape&quot;</span>
+<span class="w">  </span><span class="nt">"prompt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"generate hero image for landing page"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"aspect_ratio"</span><span class="p">:</span><span class="w"> </span><span class="s2">"landscape"</span>
 <span class="p">}</span>
 
 <span class="c1">// Batch jobs</span>
 <span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;jobs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="p">{</span><span class="nt">&quot;prompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hero image&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;aspect_ratio&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;landscape&quot;</span><span class="p">},</span>
-<span class="w">    </span><span class="p">{</span><span class="nt">&quot;prompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;logo variant&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;aspect_ratio&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;square&quot;</span><span class="p">}</span>
+<span class="w">  </span><span class="nt">"jobs"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span><span class="nt">"prompt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hero image"</span><span class="p">,</span><span class="w"> </span><span class="nt">"aspect_ratio"</span><span class="p">:</span><span class="w"> </span><span class="s2">"landscape"</span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="nt">"prompt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"logo variant"</span><span class="p">,</span><span class="w"> </span><span class="nt">"aspect_ratio"</span><span class="p">:</span><span class="w"> </span><span class="s2">"square"</span><span class="p">}</span>
 <span class="w">  </span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>

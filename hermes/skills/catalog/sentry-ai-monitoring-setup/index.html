@@ -11231,7 +11231,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">SENTRY_DSN</span><span class="o">=</span><span class="s2">&quot;https://xxxxxx@sentry.io/project-id&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">SENTRY_DSN</span><span class="o">=</span><span class="s2">"https://xxxxxx@sentry.io/project-id"</span>
 <span class="c1"># Or add to ~/.hermes/config.yaml under env:</span>
 </code></pre></div>
 <hr />
@@ -11250,9 +11250,9 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <div class="highlight"><pre><span></span><code><span class="c1"># In ~/.hermes/config.yaml</span>
 <span class="nt">monitoring</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">sentry</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">dsn</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${SENTRY_DSN}&quot;</span>
-<span class="w">    </span><span class="nt">release</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;hermes-${HERMES_VERSION}&quot;</span>
-<span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;production&quot;</span>
+<span class="w">    </span><span class="nt">dsn</span><span class="p">:</span><span class="w"> </span><span class="s">"${SENTRY_DSN}"</span>
+<span class="w">    </span><span class="nt">release</span><span class="p">:</span><span class="w"> </span><span class="s">"hermes-${HERMES_VERSION}"</span>
+<span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w"> </span><span class="s">"production"</span>
 <span class="w">    </span><span class="nt">feature_flags</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">progressive_rollout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">      </span><span class="nt">canary_percentage</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span>
@@ -11261,16 +11261,16 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </code></pre></div>
 <h3 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Tag current deployment</span>
-npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>sentry-feature-setup<span class="w"> </span>--tag-release<span class="w"> </span><span class="s2">&quot;v2.4.1-skills-update&quot;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>sentry-feature-setup<span class="w"> </span>--tag-release<span class="w"> </span><span class="s2">"v2.4.1-skills-update"</span>
 
 <span class="c1"># Start canary rollout of new skill</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>sentry-feature-setup<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--canary<span class="w"> </span><span class="s2">&quot;apify-lead-generation&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--canary<span class="w"> </span><span class="s2">"apify-lead-generation"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--percentage<span class="w"> </span><span class="m">10</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--monitor-duration<span class="w"> </span><span class="s2">&quot;24h&quot;</span>
+<span class="w">  </span>--monitor-duration<span class="w"> </span><span class="s2">"24h"</span>
 
 <span class="c1"># Check skill health</span>
-npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>sentry-feature-setup<span class="w"> </span>--health-check<span class="w"> </span><span class="s2">&quot;apify-lead-generation&quot;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>sentry-feature-setup<span class="w"> </span>--health-check<span class="w"> </span><span class="s2">"apify-lead-generation"</span>
 </code></pre></div>
 <hr />
 <h2 id="skill-2-sentry-node-sdk-2600-installs">Skill 2: sentry-node-sdk (2,600 installs)<a class="headerlink" href="#skill-2-sentry-node-sdk-2600-installs" title="Anchor link to this section">&para;</a></h2>
@@ -11317,11 +11317,11 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 </table>
 <h3 id="integration">Integration<a class="headerlink" href="#integration" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1">// In any Hermes tool or skill</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">Sentry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;@sentry/node&#39;</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">Sentry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s1">'@sentry/node'</span><span class="p">);</span>
 
 <span class="nx">Sentry</span><span class="p">.</span><span class="nx">init</span><span class="p">({</span>
 <span class="w">  </span><span class="nx">dsn</span><span class="o">:</span><span class="w"> </span><span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">SENTRY_DSN</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">environment</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;production&#39;</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">environment</span><span class="o">:</span><span class="w"> </span><span class="s1">'production'</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">tracesSampleRate</span><span class="o">:</span><span class="w"> </span><span class="mf">0.1</span><span class="p">,</span><span class="w">  </span><span class="c1">// 10% of agent sessions</span>
 <span class="p">});</span>
 
@@ -11375,23 +11375,23 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 </table>
 <h3 id="alert-rules-pre-configured">Alert Rules (Pre-Configured)<a class="headerlink" href="#alert-rules-pre-configured" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">alerts</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Agent</span><span class="nv"> </span><span class="s">error</span><span class="nv"> </span><span class="s">spike&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Agent</span><span class="nv"> </span><span class="s">error</span><span class="nv"> </span><span class="s">spike"</span>
 <span class="w">    </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">error_rate &gt; 5% over 15min window</span>
 <span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slack</span><span class="w"> </span><span class="c1">#hermes-alerts</span>
 
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Tool</span><span class="nv"> </span><span class="s">timeout</span><span class="nv"> </span><span class="s">cascade&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Tool</span><span class="nv"> </span><span class="s">timeout</span><span class="nv"> </span><span class="s">cascade"</span>
 <span class="w">    </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tool_timeout_count &gt; 10 in 5min window</span>
 <span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slack</span><span class="w"> </span><span class="c1">#hermes-alerts + auto-pause agent</span>
 
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Context</span><span class="nv"> </span><span class="s">window</span><span class="nv"> </span><span class="s">near</span><span class="nv"> </span><span class="s">limit&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Context</span><span class="nv"> </span><span class="s">window</span><span class="nv"> </span><span class="s">near</span><span class="nv"> </span><span class="s">limit"</span>
 <span class="w">    </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">token_usage &gt; 85% of max</span>
 <span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">log + auto-compact</span>
 
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;MCP</span><span class="nv"> </span><span class="s">connection</span><span class="nv"> </span><span class="s">flapping&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"MCP</span><span class="nv"> </span><span class="s">connection</span><span class="nv"> </span><span class="s">flapping"</span>
 <span class="w">    </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mcp_reconnect_count &gt; 5 in 10min</span>
 <span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slack</span><span class="w"> </span><span class="c1">#infra-alerts</span>
 
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Model</span><span class="nv"> </span><span class="s">degradation&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Model</span><span class="nv"> </span><span class="s">degradation"</span>
 <span class="w">    </span><span class="nt">condition</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">model_error_rate &gt; 2% over 30min</span>
 <span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slack</span><span class="w"> </span><span class="c1">#hermes-alerts + auto-switch-model</span>
 </code></pre></div>
@@ -11402,12 +11402,12 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 <span class="c1"># Configure alerts</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>sentry-setup-ai-monitoring<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--configure-alerts<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--slack-webhook<span class="w"> </span><span class="s2">&quot;https://hooks.slack.com/...&quot;</span>
+<span class="w">  </span>--slack-webhook<span class="w"> </span><span class="s2">"https://hooks.slack.com/..."</span>
 
 <span class="c1"># Export agent reliability report</span>
 npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </span>sentry-setup-ai-monitoring<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--report<span class="w"> </span>weekly<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;agent-reliability-</span><span class="k">$(</span>date<span class="w"> </span>+%Y-%m-%d<span class="k">)</span><span class="s2">.pdf&quot;</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">"agent-reliability-</span><span class="k">$(</span>date<span class="w"> </span>+%Y-%m-%d<span class="k">)</span><span class="s2">.pdf"</span>
 </code></pre></div>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>

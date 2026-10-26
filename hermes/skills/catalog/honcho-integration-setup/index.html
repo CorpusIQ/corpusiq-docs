@@ -11101,10 +11101,10 @@ pip<span class="w"> </span>install<span class="w"> </span>honcho-ai
 <span class="w">  </span><span class="nt">servers</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">honcho</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
-<span class="w">      </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;-m&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;honcho.mcp.server&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">      </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"-m"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"honcho.mcp.server"</span><span class="p p-Indicator">]</span>
 <span class="w">      </span><span class="nt">env</span><span class="p">:</span>
-<span class="w">        </span><span class="nt">HONCHO_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${HONCHO_API_KEY}&quot;</span>
-<span class="w">        </span><span class="nt">HONCHO_BASE_URL</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://localhost:8000&quot;</span>
+<span class="w">        </span><span class="nt">HONCHO_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">"${HONCHO_API_KEY}"</span>
+<span class="w">        </span><span class="nt">HONCHO_BASE_URL</span><span class="p">:</span><span class="w"> </span><span class="s">"http://localhost:8000"</span>
 </code></pre></div>
 <h2 id="5-cli-reference">5. CLI Reference<a class="headerlink" href="#5-cli-reference" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -11143,10 +11143,10 @@ pip<span class="w"> </span>install<span class="w"> </span>honcho-ai
 </table>
 <h2 id="6-corpusiq-production-pattern">6. CorpusIQ Production Pattern<a class="headerlink" href="#6-corpusiq-production-pattern" title="Anchor link to this section">&para;</a></h2>
 <p>The CorpusIQ session start ritual uses Honcho as the primary anti-amnesia mechanism:</p>
-<div class="highlight"><pre><span></span><code>1. honcho_get_peer_context(peer_id=&quot;hermes&quot;, target_peer_id=&quot;hermes&quot;)
+<div class="highlight"><pre><span></span><code>1. honcho_get_peer_context(peer_id="hermes", target_peer_id="hermes")
    → Returns: channel bans, token expiry, cron state, active rules
 
-2. honcho_chat(peer_id=&quot;hermes&quot;, query=&quot;What channels are blocked?&quot;)
+2. honcho_chat(peer_id="hermes", query="What channels are blocked?")
    → Returns: current blocker status, resolution paths
 
 3. After session: honcho_create_conclusions()

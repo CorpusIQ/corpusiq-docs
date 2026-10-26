@@ -11116,19 +11116,19 @@
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Set up credentials</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">GOOSEWORKS_API_KEY</span><span class="o">=</span><span class="k">$(</span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json;print(json.load(open(&#39;</span><span class="nv">$HOME</span><span class="s2">/.gooseworks/credentials.json&#39;))[&#39;api_key&#39;])&quot;</span><span class="k">)</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">GOOSEWORKS_API_KEY</span><span class="o">=</span><span class="k">$(</span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import json;print(json.load(open('</span><span class="nv">$HOME</span><span class="s2">/.gooseworks/credentials.json'))['api_key'])"</span><span class="k">)</span>
 
 <span class="c1"># AI-powered extraction (Scrapegraph)</span>
-curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$GOOSEWORKS_API_BASE</span><span class="s2">/v1/proxy/orthogonal/run&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$GOOSEWORKS_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;api&quot;:&quot;scrapegraph&quot;,&quot;path&quot;:&quot;/v1/smartscraper&quot;,&quot;body&quot;:{&quot;website_url&quot;:&quot;https://example.com&quot;,&quot;user_prompt&quot;:&quot;Extract all product names and prices&quot;}}&#39;</span>
+curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"</span><span class="nv">$GOOSEWORKS_API_BASE</span><span class="s2">/v1/proxy/orthogonal/run"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$GOOSEWORKS_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"api":"scrapegraph","path":"/v1/smartscraper","body":{"website_url":"https://example.com","user_prompt":"Extract all product names and prices"}}'</span>
 
 <span class="c1"># Brand assets (Brand.dev)</span>
-curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$GOOSEWORKS_API_BASE</span><span class="s2">/v1/proxy/orthogonal/run&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$GOOSEWORKS_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;api&quot;:&quot;brand-dev&quot;,&quot;path&quot;:&quot;/v1/brand/retrieve&quot;,&quot;query&quot;:{&quot;domain&quot;:&quot;stripe.com&quot;}}&#39;</span>
+curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"</span><span class="nv">$GOOSEWORKS_API_BASE</span><span class="s2">/v1/proxy/orthogonal/run"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$GOOSEWORKS_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"api":"brand-dev","path":"/v1/brand/retrieve","query":{"domain":"stripe.com"}}'</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
@@ -11139,10 +11139,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </
 ls<span class="w"> </span>~/.gooseworks/credentials.json
 
 <span class="c1"># Test API connectivity</span>
-curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://api.gooseworks.ai/v1/proxy/orthogonal/search&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="k">$(</span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json;print(json.load(open(&#39;</span><span class="nv">$HOME</span><span class="s2">/.gooseworks/credentials.json&#39;))[&#39;api_key&#39;])&quot;</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;prompt&quot;:&quot;scrapegraph API endpoints&quot;}&#39;</span>
+curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"https://api.gooseworks.ai/v1/proxy/orthogonal/search"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="k">$(</span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import json;print(json.load(open('</span><span class="nv">$HOME</span><span class="s2">/.gooseworks/credentials.json'))['api_key'])"</span><span class="k">)</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"prompt":"scrapegraph API endpoints"}'</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

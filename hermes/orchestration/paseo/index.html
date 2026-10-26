@@ -11103,23 +11103,23 @@ paseo
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span>--name<span class="w"> </span>paseo<span class="w"> </span><span class="se">\</span>
 <span class="w"> </span>-p<span class="w"> </span><span class="m">6767</span>:6767<span class="w"> </span><span class="se">\</span>
 <span class="w"> </span>-e<span class="w"> </span><span class="nv">PASEO_PASSWORD</span><span class="o">=</span>change-me<span class="w"> </span><span class="se">\</span>
-<span class="w"> </span>-v<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PWD</span><span class="s2">/paseo-home:/home/paseo&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w"> </span>-v<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PWD</span><span class="s2">:/workspace&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-v<span class="w"> </span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">/paseo-home:/home/paseo"</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-v<span class="w"> </span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">:/workspace"</span><span class="w"> </span><span class="se">\</span>
 <span class="w"> </span>ghcr.io/getpaseo/paseo:latest
 </code></pre></div>
 <p>Open <code>http://localhost:6767</code> after it starts. Extend the base image with the agent CLIs you use, then provide credentials through environment variables or the persistent <code>/home/paseo</code> volume.</p>
 <h3 id="desktop-app">Desktop app<a class="headerlink" href="#desktop-app" title="Anchor link to this section">&para;</a></h3>
 <p>Download from <a href="https://paseo.sh/download">paseo.sh/download</a> or the GitHub releases page. The app starts the daemon automatically. To connect from your phone: Settings → your host → Pair Device.</p>
 <h2 id="cli-reference">CLI Reference<a class="headerlink" href="#cli-reference" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>paseo<span class="w"> </span>run<span class="w"> </span>--provider<span class="w"> </span>claude/opus-4.6<span class="w"> </span><span class="s2">&quot;implement user authentication&quot;</span>
-paseo<span class="w"> </span>run<span class="w"> </span>--provider<span class="w"> </span>codex/gpt-5.5<span class="w"> </span>--worktree<span class="w"> </span>feature-x<span class="w"> </span><span class="s2">&quot;implement feature X&quot;</span>
+<div class="highlight"><pre><span></span><code>paseo<span class="w"> </span>run<span class="w"> </span>--provider<span class="w"> </span>claude/opus-4.6<span class="w"> </span><span class="s2">"implement user authentication"</span>
+paseo<span class="w"> </span>run<span class="w"> </span>--provider<span class="w"> </span>codex/gpt-5.5<span class="w"> </span>--worktree<span class="w"> </span>feature-x<span class="w"> </span><span class="s2">"implement feature X"</span>
 
 paseo<span class="w"> </span>ls<span class="w"> </span><span class="c1"># list running agents</span>
 paseo<span class="w"> </span>attach<span class="w"> </span>abc123<span class="w"> </span><span class="c1"># stream live output</span>
-paseo<span class="w"> </span>send<span class="w"> </span>abc123<span class="w"> </span><span class="s2">&quot;also add tests&quot;</span><span class="w"> </span><span class="c1"># follow-up task</span>
+paseo<span class="w"> </span>send<span class="w"> </span>abc123<span class="w"> </span><span class="s2">"also add tests"</span><span class="w"> </span><span class="c1"># follow-up task</span>
 
 <span class="c1"># run on a remote daemon; --cwd is a path on that host</span>
-paseo<span class="w"> </span>run<span class="w"> </span>--host<span class="w"> </span>workstation.local:6767<span class="w"> </span>--cwd<span class="w"> </span>/workspace<span class="w"> </span><span class="s2">&quot;run the full test suite&quot;</span>
+paseo<span class="w"> </span>run<span class="w"> </span>--host<span class="w"> </span>workstation.local:6767<span class="w"> </span>--cwd<span class="w"> </span>/workspace<span class="w"> </span><span class="s2">"run the full test suite"</span>
 </code></pre></div>
 <h2 id="evaluation-notes-2026-08-30">Evaluation Notes (2026-08-30)<a class="headerlink" href="#evaluation-notes-2026-08-30" title="Anchor link to this section">&para;</a></h2>
 <ul>

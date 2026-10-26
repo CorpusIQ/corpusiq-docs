@@ -11135,19 +11135,19 @@ Built by: hourtick.com
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Cursor (<code>~/.cursor/mcp.json</code>):</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;hourtick&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://hourtick.com/api/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer ht_your_token&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"hourtick"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://hourtick.com/api/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer ht_your_token"</span><span class="w"> </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>Codex (<code>~/.codex/config.toml</code>):</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># export HOURTICK_TOKEN=&quot;ht_your_token&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># export HOURTICK_TOKEN="ht_your_token"</span>
 <span class="k">[mcp_servers.hourtick]</span>
-<span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;https://hourtick.com/api/mcp&quot;</span>
-<span class="n">bearer_token_env_var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;HOURTICK_TOKEN&quot;</span>
+<span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://hourtick.com/api/mcp"</span>
+<span class="n">bearer_token_env_var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"HOURTICK_TOKEN"</span>
 </code></pre></div>
 <p>Claude Desktop, via the stdio bridge, with <code>npx -y mcp-remote https://hourtick.com/api/mcp --header "Authorization:Bearer ht_your_token"</code>. The transport is Streamable HTTP (MCP 2026-07-28, stateless) with a fallback for 2025-era clients.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>

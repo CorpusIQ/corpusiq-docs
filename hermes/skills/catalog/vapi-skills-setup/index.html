@@ -11050,7 +11050,7 @@
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Prerequisites: Node.js for the <code>npx</code> skills CLI, plus a Vapi API key at run time. Export it before using any skill:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">VAPI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">VAPI_API_KEY</span><span class="o">=</span><span class="s2">"your-api-key"</span>
 </code></pre></div>
 <p>Install the full collection (note the case, <code>VapiAI/skills</code>, exactly as the README shows):</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>VapiAI/skills
@@ -11173,7 +11173,7 @@ codex<span class="w"> </span>plugin<span class="w"> </span>add<span class="w"> <
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>vapi
 
 <span class="c1"># Or check the skills directory your agent scans</span>
-ls<span class="w"> </span>.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;create-assistant|create-squad&#39;</span>
+ls<span class="w"> </span>.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'create-assistant|create-squad'</span>
 
 <span class="c1"># Review the flagship skill straight from GitHub before installing</span>
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/vapiai/skills/main/create-assistant/SKILL.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-20

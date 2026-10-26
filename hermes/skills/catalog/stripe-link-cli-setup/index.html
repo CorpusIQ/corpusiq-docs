@@ -11063,7 +11063,7 @@ hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="
 hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>stripe/link-cli/use-link-identity<span class="w"> </span>--yes
 </code></pre></div>
 <p>Sign in once, and name the agent so the approval screen is readable:</p>
-<div class="highlight"><pre><span></span><code>link-cli<span class="w"> </span>auth<span class="w"> </span>login<span class="w"> </span>--client-name<span class="w"> </span><span class="s2">&quot;Hermes Agent&quot;</span>
+<div class="highlight"><pre><span></span><code>link-cli<span class="w"> </span>auth<span class="w"> </span>login<span class="w"> </span>--client-name<span class="w"> </span><span class="s2">"Hermes Agent"</span>
 </code></pre></div>
 <p>With <code>--client-name</code>, the Link app shows the connecting agent on the approval screen instead of the generic CLI name. <code>--interval 5 --timeout 300</code> polls for the approval inside the same call, which is what an agent wants when it cannot hold a session open.</p>
 <p>The CLI ships a local MCP server. It binds to <code>127.0.0.1</code> by default and answers <code>POST /mcp</code>, with skill discovery at <code>/.well-known/skills/index.json</code> and <code>/.well-known/skills/{skill-name}/SKILL.md</code>. Do not raise <code>--host</code> unless the network is trusted and isolated: anyone who reaches the port can use the CLI's authenticated Link session.</p>
@@ -11142,8 +11142,8 @@ hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm the three skill paths exist on main, then read the credential rules before granting anything:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>s<span class="w"> </span><span class="k">in</span><span class="w"> </span>create-payment-credential<span class="w"> </span>financial-insights<span class="w"> </span>use-link-identity<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$s</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/stripe/link-cli/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$s</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/stripe/link-cli/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>The credential skill is the one to read in full:</p>

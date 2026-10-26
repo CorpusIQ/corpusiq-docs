@@ -11164,7 +11164,7 @@ Tools: role dependent. qa, approver and admin see glp_verify_chain, glp_search_a
 </code></pre></div>
 <p>The <code>mcp</code> dependency is pinned to <code>&gt;=2.2.0,&lt;3</code>, a floor chosen to sit outside GHSA-84m7-p3x7-pcfv, and the process refuses to start on an older SDK.</p>
 <div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">GLP_PRINCIPAL_ID</span><span class="o">=</span>operator-1
-<span class="nb">export</span><span class="w"> </span><span class="nv">GLP_PRINCIPAL_NAME</span><span class="o">=</span><span class="s2">&quot;Ada Analyst&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">GLP_PRINCIPAL_NAME</span><span class="o">=</span><span class="s2">"Ada Analyst"</span>
 <span class="nb">export</span><span class="w"> </span><span class="nv">GLP_PRINCIPAL_ROLE</span><span class="o">=</span>operator
 mcp-glp-audit-proxy<span class="w"> </span>--config<span class="w"> </span>config.json
 </code></pre></div>

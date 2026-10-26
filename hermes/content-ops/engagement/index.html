@@ -11170,7 +11170,7 @@
   <a href="#def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        def review_response_quality(): &quot;&quot;&quot;Analyze which responses are working and which aren&#39;t.&quot;&quot;&quot; # Find responses that led to follow-ups (incomplete) follow_up_threads = fetch_threads_with_follow_ups(days=7) # Find responses that resolved the conversation resolved_threads = fetch_resolved_threads(days=7) # Compare patterns analysis = hermes_llm.complete( messages=[ {&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;Analyze these support threads. What patterns make responses effective vs ineffective?&quot;}, {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: f&quot;&quot;&quot; Responses needing follow-up ({len(follow_up_threads)}): {json.dumps(follow_up_threads[:10])} Responses that resolved cleanly ({len(resolved_threads)}): {json.dumps(resolved_threads[:10])} &quot;&quot;&quot;} ], tier=&quot;premium&quot; ) # Update response templates based on findings update_response_templates(analysis)
+        def review_response_quality(): """Analyze which responses are working and which aren't.""" # Find responses that led to follow-ups (incomplete) follow_up_threads = fetch_threads_with_follow_ups(days=7) # Find responses that resolved the conversation resolved_threads = fetch_resolved_threads(days=7) # Compare patterns analysis = hermes_llm.complete( messages=[ {"role": "system", "content": "Analyze these support threads. What patterns make responses effective vs ineffective?"}, {"role": "user", "content": f""" Responses needing follow-up ({len(follow_up_threads)}): {json.dumps(follow_up_threads[:10])} Responses that resolved cleanly ({len(resolved_threads)}): {json.dumps(resolved_threads[:10])} """} ], tier="premium" ) # Update response templates based on findings update_response_templates(analysis)
       
     </span>
   </a>
@@ -11214,12 +11214,12 @@
 <li><strong>Can this be answered from existing knowledge?</strong> (FAQ, docs, known solutions = yes → auto)</li>
 <li><strong>Does this require judgment, empathy, or authority?</strong> (Sensitive topics, complaints, legal = yes → human)</li>
 </ol>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">classify_inbound</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Classify an inbound community message.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">classify_inbound</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Classify an inbound community message."""</span>
 
     <span class="n">classification</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Classify this community message into exactly one category:</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""Classify this community message into exactly one category:</span>
 
 <span class="s2">            - spam: Unsolicited promotion, bot-like, irrelevant links</span>
 <span class="s2">            - faq: Common question answerable from documentation</span>
@@ -11228,12 +11228,12 @@
 <span class="s2">            - complaint: Negative experience, needs empathy and resolution</span>
 <span class="s2">            - praise: Positive feedback, testimonial</span>
 <span class="s2">            - sensitive: Contains legal, safety, or PR risk implications</span>
-<span class="s2">            - conversation: General discussion, doesn&#39;t need a specific answer</span>
+<span class="s2">            - conversation: General discussion, doesn't need a specific answer</span>
 
-<span class="s2">            Return ONLY the category name.&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]}</span>
+<span class="s2">            Return ONLY the category name."""</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">"text"</span><span class="p">]}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;lightweight&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"lightweight"</span>
     <span class="p">)</span>
 
     <span class="k">return</span> <span class="n">classification</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
@@ -11301,24 +11301,24 @@
 </table>
 <h2 id="response-patterns">Response Patterns<a class="headerlink" href="#response-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="faq-auto-response">FAQ Auto-Response<a class="headerlink" href="#faq-auto-response" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_faq</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Auto-respond to FAQ using knowledge base retrieval.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">handle_faq</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Auto-respond to FAQ using knowledge base retrieval."""</span>
 
     <span class="c1"># Search knowledge base for relevant answers</span>
     <span class="n">results</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">query_knowledge_base</span><span class="p">(</span>
-        <span class="n">query</span><span class="o">=</span><span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">],</span>
+        <span class="n">query</span><span class="o">=</span><span class="n">message</span><span class="p">[</span><span class="s2">"text"</span><span class="p">],</span>
         <span class="n">top_k</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
         <span class="n">min_score</span><span class="o">=</span><span class="mf">0.7</span>
     <span class="p">)</span>
 
     <span class="k">if</span> <span class="ow">not</span> <span class="n">results</span><span class="p">:</span>
-        <span class="c1"># Can&#39;t answer confidently  --  escalate</span>
+        <span class="c1"># Can't answer confidently  --  escalate</span>
         <span class="k">return</span> <span class="n">escalate_to_support</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
 
     <span class="c1"># Generate a helpful, human-sounding response</span>
     <span class="n">response</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;You are a helpful community manager. </span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""You are a helpful community manager. </span>
 <span class="s2">            Answer this question using the provided knowledge base results. </span>
 
 <span class="s2">            Rules:</span>
@@ -11327,38 +11327,38 @@
 <span class="s2">            - Include a link to the full documentation if applicable</span>
 <span class="s2">            - Ask if they need further clarification</span>
 <span class="s2">            - Never make up information not in the knowledge base</span>
-<span class="s2">            - If the answer is uncertain, say so and offer to escalate&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">            Question: </span><span class="si">{</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span><span class="si">}</span>
+<span class="s2">            - If the answer is uncertain, say so and offer to escalate"""</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">            Question: </span><span class="si">{</span><span class="n">message</span><span class="p">[</span><span class="s1">'text'</span><span class="p">]</span><span class="si">}</span>
 
 <span class="s2">            Knowledge base results:</span>
 <span class="s2">            </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="si">}</span>
-<span class="s2">            &quot;&quot;&quot;</span><span class="p">}</span>
+<span class="s2">            """</span><span class="p">}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
     <span class="p">)</span>
 
     <span class="k">return</span> <span class="n">response</span>
 </code></pre></div>
 <h3 id="complaint-handling">Complaint Handling<a class="headerlink" href="#complaint-handling" title="Anchor link to this section">&para;</a></h3>
 <p>Complaints require care. The goal is de-escalation and resolution:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_complaint</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Draft a complaint response for human review before sending.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">handle_complaint</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Draft a complaint response for human review before sending."""</span>
 
     <span class="c1"># Analyze complaint sentiment and specifics</span>
     <span class="n">analysis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Analyze this complaint:</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""Analyze this complaint:</span>
 <span class="s2">            1. What specifically is the user upset about?</span>
 <span class="s2">            2. How severe is this? (1-10)</span>
 <span class="s2">            3. Is this a one-off issue or systemic?</span>
 <span class="s2">            4. What would resolve this for the user?</span>
 <span class="s2">            5. Does this pose any PR or legal risk?</span>
 
-<span class="s2">            Return as JSON.&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]}</span>
+<span class="s2">            Return as JSON."""</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">"text"</span><span class="p">]}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
     <span class="p">)</span>
 
     <span class="n">analysis_data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">analysis</span><span class="p">)</span>
@@ -11366,37 +11366,37 @@
     <span class="c1"># Draft response</span>
     <span class="n">draft</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Draft a response to this complaint.</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""Draft a response to this complaint.</span>
 
 <span class="s2">            Structure:</span>
 <span class="s2">            1. Acknowledge and validate their frustration</span>
-<span class="s2">            2. Apologize for the specific issue (not generic &quot;sorry for inconvenience&quot;)</span>
-<span class="s2">            3. Explain what happened (if known) or what you&#39;ll do to find out</span>
+<span class="s2">            2. Apologize for the specific issue (not generic "sorry for inconvenience")</span>
+<span class="s2">            3. Explain what happened (if known) or what you'll do to find out</span>
 <span class="s2">            4. Offer a concrete next step or resolution</span>
 <span class="s2">            5. Provide a way to follow up directly</span>
 
-<span class="s2">            Tone: Empathetic, professional, action-oriented. Never defensive.&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]}</span>
+<span class="s2">            Tone: Empathetic, professional, action-oriented. Never defensive."""</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">"text"</span><span class="p">]}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>  <span class="c1"># Complaints deserve the best model</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"premium"</span>  <span class="c1"># Complaints deserve the best model</span>
     <span class="p">)</span>
 
     <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;hold_for_review&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;severity&quot;</span><span class="p">:</span> <span class="n">analysis_data</span><span class="p">[</span><span class="s2">&quot;severity&quot;</span><span class="p">],</span>
-        <span class="s2">&quot;draft_response&quot;</span><span class="p">:</span> <span class="n">draft</span><span class="p">,</span>
-        <span class="s2">&quot;requires_human&quot;</span><span class="p">:</span> <span class="n">analysis_data</span><span class="p">[</span><span class="s2">&quot;severity&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">7</span><span class="p">,</span>
-        <span class="s2">&quot;analysis&quot;</span><span class="p">:</span> <span class="n">analysis_data</span>
+        <span class="s2">"action"</span><span class="p">:</span> <span class="s2">"hold_for_review"</span><span class="p">,</span>
+        <span class="s2">"severity"</span><span class="p">:</span> <span class="n">analysis_data</span><span class="p">[</span><span class="s2">"severity"</span><span class="p">],</span>
+        <span class="s2">"draft_response"</span><span class="p">:</span> <span class="n">draft</span><span class="p">,</span>
+        <span class="s2">"requires_human"</span><span class="p">:</span> <span class="n">analysis_data</span><span class="p">[</span><span class="s2">"severity"</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">7</span><span class="p">,</span>
+        <span class="s2">"analysis"</span><span class="p">:</span> <span class="n">analysis_data</span>
     <span class="p">}</span>
 </code></pre></div>
 <h3 id="conversation-engagement">Conversation Engagement<a class="headerlink" href="#conversation-engagement" title="Anchor link to this section">&para;</a></h3>
 <p>Not every message needs a solution  --  some just need engagement:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">engage_conversation</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Engage with general conversation naturally.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">engage_conversation</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Engage with general conversation naturally."""</span>
 
     <span class="n">response</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;You&#39;re participating in a community conversation.</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""You're participating in a community conversation.</span>
 
 <span class="s2">            Guidelines:</span>
 <span class="s2">            - Be genuinely interested and engaging</span>
@@ -11404,15 +11404,15 @@
 <span class="s2">            - Keep it brief (2-3 sentences typically)</span>
 <span class="s2">            - Match the tone of the community</span>
 <span class="s2">            - Never be argumentative or dismissive</span>
-<span class="s2">            - Don&#39;t force product mentions unless natural</span>
-<span class="s2">            - If they share something personal, acknowledge it warmly&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">            Community context: </span><span class="si">{</span><span class="n">context</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;channel_description&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;General discussion&#39;</span><span class="p">)</span><span class="si">}</span>
-<span class="s2">            Message: </span><span class="si">{</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span><span class="si">}</span>
-<span class="s2">            Recent thread context: </span><span class="si">{</span><span class="n">context</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;recent_messages&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">[])</span><span class="si">}</span>
-<span class="s2">            &quot;&quot;&quot;</span><span class="p">}</span>
+<span class="s2">            - Don't force product mentions unless natural</span>
+<span class="s2">            - If they share something personal, acknowledge it warmly"""</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">            Community context: </span><span class="si">{</span><span class="n">context</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'channel_description'</span><span class="p">,</span><span class="w"> </span><span class="s1">'General discussion'</span><span class="p">)</span><span class="si">}</span>
+<span class="s2">            Message: </span><span class="si">{</span><span class="n">message</span><span class="p">[</span><span class="s1">'text'</span><span class="p">]</span><span class="si">}</span>
+<span class="s2">            Recent thread context: </span><span class="si">{</span><span class="n">context</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'recent_messages'</span><span class="p">,</span><span class="w"> </span><span class="p">[])</span><span class="si">}</span>
+<span class="s2">            """</span><span class="p">}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
     <span class="p">)</span>
 
     <span class="k">return</span> <span class="n">response</span>
@@ -11427,12 +11427,12 @@
 - Share relevant experience or data
 - Keep responses professional but personable
 - Tag relevant connections sparingly and only when genuinely relevant</p>
-<div class="highlight"><pre><span></span><code><span class="n">linkedin_voice</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="n">linkedin_voice</span> <span class="o">=</span> <span class="s2">"""</span>
 <span class="s2">Tone: Professional, insightful, collaborative</span>
 <span class="s2">Do: Share industry perspective, ask thoughtful questions, cite experience</span>
-<span class="s2">Don&#39;t: Overly casual, self-promotional in others&#39; threads, engage with controversial topics</span>
+<span class="s2">Don't: Overly casual, self-promotional in others' threads, engage with controversial topics</span>
 <span class="s2">Response time target: 4 business hours</span>
-<span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">"""</span>
 </code></pre></div>
 <h3 id="xtwitter">X/Twitter<a class="headerlink" href="#xtwitter" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Audience:</strong> Fast-moving, opinionated, rewards wit.
@@ -11443,12 +11443,12 @@
 - Authenticity matters more than polish
 - Don't engage with obvious trolls
 - Quote-tweet for adding substantial commentary</p>
-<div class="highlight"><pre><span></span><code><span class="n">twitter_voice</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="n">twitter_voice</span> <span class="o">=</span> <span class="s2">"""</span>
 <span class="s2">Tone: Concise, authentic, sometimes playful</span>
 <span class="s2">Do: Respond quickly, be helpful, show personality</span>
-<span class="s2">Don&#39;t: Overly formal, ignore legitimate questions, feed trolls</span>
+<span class="s2">Don't: Overly formal, ignore legitimate questions, feed trolls</span>
 <span class="s2">Response time target: 2 hours</span>
-<span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">"""</span>
 </code></pre></div>
 <h3 id="reddit">Reddit<a class="headerlink" href="#reddit" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Audience:</strong> Skeptical, values substance over marketing.
@@ -11460,13 +11460,13 @@
 - Accept criticism gracefully
 - Follow subreddit rules meticulously
 - Upvote good content from others</p>
-<div class="highlight"><pre><span></span><code><span class="n">reddit_voice</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="n">reddit_voice</span> <span class="o">=</span> <span class="s2">"""</span>
 <span class="s2">Tone: Transparent, helpful, humble</span>
 <span class="s2">Do: Disclose affiliation, provide deep value, respect community norms</span>
-<span class="s2">Don&#39;t: Market or sell, argue defensively, brigade or manipulate votes</span>
+<span class="s2">Don't: Market or sell, argue defensively, brigade or manipulate votes</span>
 <span class="s2">Response time target: 6 hours</span>
-<span class="s2">CRITICAL: Always disclose you&#39;re representing the product.</span>
-<span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">CRITICAL: Always disclose you're representing the product.</span>
+<span class="s2">"""</span>
 </code></pre></div>
 <h3 id="youtube-comments">YouTube Comments<a class="headerlink" href="#youtube-comments" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Audience:</strong> Engaged viewers, often asking follow-up questions.
@@ -11479,58 +11479,58 @@
 - Address constructive criticism professionally</p>
 <h2 id="sentiment-detection">Sentiment Detection<a class="headerlink" href="#sentiment-detection" title="Anchor link to this section">&para;</a></h2>
 <p>Monitor overall community sentiment, not just individual messages:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">analyze_community_sentiment</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">24</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Analyze sentiment trends across community interactions.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">analyze_community_sentiment</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">24</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Analyze sentiment trends across community interactions."""</span>
 
     <span class="n">messages</span> <span class="o">=</span> <span class="n">fetch_recent_messages</span><span class="p">(</span><span class="n">platform</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="ow">not</span> <span class="n">messages</span><span class="p">:</span>
-        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;no_data&quot;</span><span class="p">}</span>
+        <span class="k">return</span> <span class="p">{</span><span class="s2">"status"</span><span class="p">:</span> <span class="s2">"no_data"</span><span class="p">}</span>
 
     <span class="c1"># Classify sentiment for each message</span>
-    <span class="n">sentiment_distribution</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;positive&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;neutral&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;negative&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
-    <span class="n">topics</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="k">lambda</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;positive&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;negative&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;mentions&quot;</span><span class="p">:</span> <span class="p">[]})</span>
+    <span class="n">sentiment_distribution</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"positive"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">"neutral"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">"negative"</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+    <span class="n">topics</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="k">lambda</span><span class="p">:</span> <span class="p">{</span><span class="s2">"positive"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">"negative"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">"mentions"</span><span class="p">:</span> <span class="p">[]})</span>
 
     <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">messages</span><span class="p">:</span>
         <span class="n">sentiment</span> <span class="o">=</span> <span class="n">classify_sentiment</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-        <span class="n">sentiment_distribution</span><span class="p">[</span><span class="n">sentiment</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">sentiment_distribution</span><span class="p">[</span><span class="n">sentiment</span><span class="p">[</span><span class="s2">"label"</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
 
-        <span class="k">for</span> <span class="n">topic</span> <span class="ow">in</span> <span class="n">sentiment</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;topics&quot;</span><span class="p">,</span> <span class="p">[]):</span>
-            <span class="n">topics</span><span class="p">[</span><span class="n">topic</span><span class="p">][</span><span class="n">sentiment</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
-            <span class="n">topics</span><span class="p">[</span><span class="n">topic</span><span class="p">][</span><span class="s2">&quot;mentions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">][:</span><span class="mi">200</span><span class="p">])</span>
+        <span class="k">for</span> <span class="n">topic</span> <span class="ow">in</span> <span class="n">sentiment</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"topics"</span><span class="p">,</span> <span class="p">[]):</span>
+            <span class="n">topics</span><span class="p">[</span><span class="n">topic</span><span class="p">][</span><span class="n">sentiment</span><span class="p">[</span><span class="s2">"label"</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">topics</span><span class="p">[</span><span class="n">topic</span><span class="p">][</span><span class="s2">"mentions"</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="s2">"text"</span><span class="p">][:</span><span class="mi">200</span><span class="p">])</span>
 
     <span class="c1"># Calculate trend (comparing to previous period)</span>
     <span class="n">prev_distribution</span> <span class="o">=</span> <span class="n">get_sentiment_distribution</span><span class="p">(</span><span class="n">platform</span><span class="p">,</span> <span class="n">lookback_hours</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">)</span>
 
     <span class="n">trend</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">label</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;positive&quot;</span><span class="p">,</span> <span class="s2">&quot;neutral&quot;</span><span class="p">,</span> <span class="s2">&quot;negative&quot;</span><span class="p">]:</span>
+    <span class="k">for</span> <span class="n">label</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"positive"</span><span class="p">,</span> <span class="s2">"neutral"</span><span class="p">,</span> <span class="s2">"negative"</span><span class="p">]:</span>
         <span class="n">current_pct</span> <span class="o">=</span> <span class="n">sentiment_distribution</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-        <span class="n">prev_pct</span> <span class="o">=</span> <span class="n">prev_distribution</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">prev_distribution</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;total&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+        <span class="n">prev_pct</span> <span class="o">=</span> <span class="n">prev_distribution</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">prev_distribution</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"total"</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
         <span class="n">trend</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
-            <span class="s2">&quot;current&quot;</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">current_pct</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
-            <span class="s2">&quot;change&quot;</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">current_pct</span> <span class="o">-</span> <span class="n">prev_pct</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="s2">"current"</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">current_pct</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+            <span class="s2">"change"</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">current_pct</span> <span class="o">-</span> <span class="n">prev_pct</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
         <span class="p">}</span>
 
     <span class="c1"># Flag concerning patterns</span>
     <span class="n">alerts</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">if</span> <span class="n">trend</span><span class="p">[</span><span class="s2">&quot;negative&quot;</span><span class="p">][</span><span class="s2">&quot;change&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span>
-        <span class="n">alerts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;⚠️ Negative sentiment spiking (+</span><span class="si">{</span><span class="n">trend</span><span class="p">[</span><span class="s1">&#39;negative&#39;</span><span class="p">][</span><span class="s1">&#39;change&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">trend</span><span class="p">[</span><span class="s2">"negative"</span><span class="p">][</span><span class="s2">"change"</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span>
+        <span class="n">alerts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">"⚠️ Negative sentiment spiking (+</span><span class="si">{</span><span class="n">trend</span><span class="p">[</span><span class="s1">'negative'</span><span class="p">][</span><span class="s1">'change'</span><span class="p">]</span><span class="si">}</span><span class="s2">%)"</span><span class="p">)</span>
 
     <span class="c1"># Identify hot topics</span>
     <span class="n">hot_topics</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
         <span class="n">topics</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span>
-        <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;negative&quot;</span><span class="p">]</span> <span class="o">-</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;positive&quot;</span><span class="p">],</span>
+        <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">"negative"</span><span class="p">]</span> <span class="o">-</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">"positive"</span><span class="p">],</span>
         <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span>
     <span class="p">)[:</span><span class="mi">3</span><span class="p">]</span>
 
     <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">&quot;period&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Last </span><span class="si">{</span><span class="n">lookback_hours</span><span class="si">}</span><span class="s2">h&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;total_messages&quot;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">messages</span><span class="p">),</span>
-        <span class="s2">&quot;sentiment_distribution&quot;</span><span class="p">:</span> <span class="n">sentiment_distribution</span><span class="p">,</span>
-        <span class="s2">&quot;trend&quot;</span><span class="p">:</span> <span class="n">trend</span><span class="p">,</span>
-        <span class="s2">&quot;alerts&quot;</span><span class="p">:</span> <span class="n">alerts</span><span class="p">,</span>
-        <span class="s2">&quot;top_concerns&quot;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;topic&quot;</span><span class="p">:</span> <span class="n">t</span><span class="p">,</span> <span class="s2">&quot;sentiment_ratio&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">d</span><span class="p">[</span><span class="s1">&#39;positive&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">d</span><span class="p">[</span><span class="s1">&#39;negative&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">}</span>
+        <span class="s2">"period"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Last </span><span class="si">{</span><span class="n">lookback_hours</span><span class="si">}</span><span class="s2">h"</span><span class="p">,</span>
+        <span class="s2">"total_messages"</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">messages</span><span class="p">),</span>
+        <span class="s2">"sentiment_distribution"</span><span class="p">:</span> <span class="n">sentiment_distribution</span><span class="p">,</span>
+        <span class="s2">"trend"</span><span class="p">:</span> <span class="n">trend</span><span class="p">,</span>
+        <span class="s2">"alerts"</span><span class="p">:</span> <span class="n">alerts</span><span class="p">,</span>
+        <span class="s2">"top_concerns"</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span><span class="s2">"topic"</span><span class="p">:</span> <span class="n">t</span><span class="p">,</span> <span class="s2">"sentiment_ratio"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">d</span><span class="p">[</span><span class="s1">'positive'</span><span class="p">]</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">d</span><span class="p">[</span><span class="s1">'negative'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">}</span>
             <span class="k">for</span> <span class="n">t</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">hot_topics</span>
         <span class="p">]</span>
     <span class="p">}</span>
@@ -11538,17 +11538,17 @@
 <h3 id="sentiment-alert-thresholds">Sentiment Alert Thresholds<a class="headerlink" href="#sentiment-alert-thresholds" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">sentiment_alerts</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">negative_spike</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;+10%</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">24</span><span class="nv"> </span><span class="s">hours&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Alert</span><span class="nv"> </span><span class="s">community</span><span class="nv"> </span><span class="s">team,</span><span class="nv"> </span><span class="s">review</span><span class="nv"> </span><span class="s">recent</span><span class="nv"> </span><span class="s">posts</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">trigger&quot;</span>
+<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">"+10%</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">24</span><span class="nv"> </span><span class="s">hours"</span>
+<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">"Alert</span><span class="nv"> </span><span class="s">community</span><span class="nv"> </span><span class="s">team,</span><span class="nv"> </span><span class="s">review</span><span class="nv"> </span><span class="s">recent</span><span class="nv"> </span><span class="s">posts</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">trigger"</span>
 <span class="w">  </span><span class="nt">positive_spike</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;+20%</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">24</span><span class="nv"> </span><span class="s">hours&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Identify</span><span class="nv"> </span><span class="s">what&#39;s</span><span class="nv"> </span><span class="s">working,</span><span class="nv"> </span><span class="s">consider</span><span class="nv"> </span><span class="s">amplifying&quot;</span>
+<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">"+20%</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">24</span><span class="nv"> </span><span class="s">hours"</span>
+<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">"Identify</span><span class="nv"> </span><span class="s">what's</span><span class="nv"> </span><span class="s">working,</span><span class="nv"> </span><span class="s">consider</span><span class="nv"> </span><span class="s">amplifying"</span>
 <span class="w">  </span><span class="nt">sustained_negative</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&gt;30%</span><span class="nv"> </span><span class="s">negative</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">48</span><span class="nv"> </span><span class="s">hours&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Escalate</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">leadership,</span><span class="nv"> </span><span class="s">pause</span><span class="nv"> </span><span class="s">scheduled</span><span class="nv"> </span><span class="s">posts,</span><span class="nv"> </span><span class="s">investigate&quot;</span>
+<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">"&gt;30%</span><span class="nv"> </span><span class="s">negative</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">48</span><span class="nv"> </span><span class="s">hours"</span>
+<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">"Escalate</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">leadership,</span><span class="nv"> </span><span class="s">pause</span><span class="nv"> </span><span class="s">scheduled</span><span class="nv"> </span><span class="s">posts,</span><span class="nv"> </span><span class="s">investigate"</span>
 <span class="w">  </span><span class="nt">topic_emergence</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;New</span><span class="nv"> </span><span class="s">topic</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">&gt;10</span><span class="nv"> </span><span class="s">mentions</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">&gt;50%</span><span class="nv"> </span><span class="s">negative&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Investigate</span><span class="nv"> </span><span class="s">immediately</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">may</span><span class="nv"> </span><span class="s">indicate</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">product</span><span class="nv"> </span><span class="s">issue&quot;</span>
+<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">"New</span><span class="nv"> </span><span class="s">topic</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">&gt;10</span><span class="nv"> </span><span class="s">mentions</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">&gt;50%</span><span class="nv"> </span><span class="s">negative"</span>
+<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">"Investigate</span><span class="nv"> </span><span class="s">immediately</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">may</span><span class="nv"> </span><span class="s">indicate</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">product</span><span class="nv"> </span><span class="s">issue"</span>
 </code></pre></div>
 <h2 id="measurement-framework">Measurement Framework<a class="headerlink" href="#measurement-framework" title="Anchor link to this section">&para;</a></h2>
 <h3 id="key-metrics">Key Metrics<a class="headerlink" href="#key-metrics" title="Anchor link to this section">&para;</a></h3>
@@ -11601,73 +11601,73 @@
 </tbody>
 </table>
 <h3 id="weekly-community-health-dashboard">Weekly Community Health Dashboard<a class="headerlink" href="#weekly-community-health-dashboard" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">community_health_report</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate weekly community health dashboard.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">community_health_report</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Generate weekly community health dashboard."""</span>
 
-    <span class="n">platforms</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;linkedin&quot;</span><span class="p">,</span> <span class="s2">&quot;twitter&quot;</span><span class="p">,</span> <span class="s2">&quot;reddit&quot;</span><span class="p">,</span> <span class="s2">&quot;youtube&quot;</span><span class="p">]</span>
+    <span class="n">platforms</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"linkedin"</span><span class="p">,</span> <span class="s2">"twitter"</span><span class="p">,</span> <span class="s2">"reddit"</span><span class="p">,</span> <span class="s2">"youtube"</span><span class="p">]</span>
     <span class="n">report</span> <span class="o">=</span> <span class="p">{}</span>
     <span class="n">overall</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">&quot;total_interactions&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="s2">&quot;total_responses&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="s2">&quot;avg_response_time_minutes&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="s2">&quot;sentiment_ratio&quot;</span><span class="p">:</span> <span class="mi">0</span>
+        <span class="s2">"total_interactions"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">"total_responses"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">"avg_response_time_minutes"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">"sentiment_ratio"</span><span class="p">:</span> <span class="mi">0</span>
     <span class="p">}</span>
 
     <span class="k">for</span> <span class="n">platform</span> <span class="ow">in</span> <span class="n">platforms</span><span class="p">:</span>
         <span class="n">data</span> <span class="o">=</span> <span class="n">fetch_platform_engagement_data</span><span class="p">(</span><span class="n">platform</span><span class="p">,</span> <span class="n">days</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
 
         <span class="n">report</span><span class="p">[</span><span class="n">platform</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
-            <span class="s2">&quot;interactions&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;total_messages&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;responses_sent&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;responses&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;response_rate&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;responses&quot;</span><span class="p">]</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;total_messages&quot;</span><span class="p">],</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span>
-            <span class="s2">&quot;avg_response_time_min&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;avg_response_time&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;sentiment&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;sentiment_distribution&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;top_issues&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;top_topics&quot;</span><span class="p">][:</span><span class="mi">5</span><span class="p">],</span>
-            <span class="s2">&quot;human_escalations&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;escalation_count&quot;</span><span class="p">]</span>
+            <span class="s2">"interactions"</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">"total_messages"</span><span class="p">],</span>
+            <span class="s2">"responses_sent"</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">"responses"</span><span class="p">],</span>
+            <span class="s2">"response_rate"</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">"responses"</span><span class="p">]</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">"total_messages"</span><span class="p">],</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span>
+            <span class="s2">"avg_response_time_min"</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">"avg_response_time"</span><span class="p">],</span>
+            <span class="s2">"sentiment"</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">"sentiment_distribution"</span><span class="p">],</span>
+            <span class="s2">"top_issues"</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">"top_topics"</span><span class="p">][:</span><span class="mi">5</span><span class="p">],</span>
+            <span class="s2">"human_escalations"</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">"escalation_count"</span><span class="p">]</span>
         <span class="p">}</span>
 
-        <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_interactions&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;total_messages&quot;</span><span class="p">]</span>
-        <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_responses&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;responses&quot;</span><span class="p">]</span>
+        <span class="n">overall</span><span class="p">[</span><span class="s2">"total_interactions"</span><span class="p">]</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="s2">"total_messages"</span><span class="p">]</span>
+        <span class="n">overall</span><span class="p">[</span><span class="s2">"total_responses"</span><span class="p">]</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="s2">"responses"</span><span class="p">]</span>
 
-    <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;response_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_responses&quot;</span><span class="p">]</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_interactions&quot;</span><span class="p">],</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+    <span class="n">overall</span><span class="p">[</span><span class="s2">"response_rate"</span><span class="p">]</span> <span class="o">=</span> <span class="n">overall</span><span class="p">[</span><span class="s2">"total_responses"</span><span class="p">]</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">overall</span><span class="p">[</span><span class="s2">"total_interactions"</span><span class="p">],</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
 
     <span class="c1"># Generate executive summary</span>
     <span class="n">summary</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Summarize this community health report in 3-5 bullet points for leadership. Focus on trends, concerns, and wins.&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">({</span><span class="s2">&quot;overall&quot;</span><span class="p">:</span> <span class="n">overall</span><span class="p">,</span> <span class="s2">&quot;by_platform&quot;</span><span class="p">:</span> <span class="n">report</span><span class="p">})}</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Summarize this community health report in 3-5 bullet points for leadership. Focus on trends, concerns, and wins."</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">({</span><span class="s2">"overall"</span><span class="p">:</span> <span class="n">overall</span><span class="p">,</span> <span class="s2">"by_platform"</span><span class="p">:</span> <span class="n">report</span><span class="p">})}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"premium"</span>
     <span class="p">)</span>
 
     <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">&quot;period&quot;</span><span class="p">:</span> <span class="s2">&quot;Last 7 days&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;summary&quot;</span><span class="p">:</span> <span class="n">summary</span><span class="p">,</span>
-        <span class="s2">&quot;overall&quot;</span><span class="p">:</span> <span class="n">overall</span><span class="p">,</span>
-        <span class="s2">&quot;by_platform&quot;</span><span class="p">:</span> <span class="n">report</span>
+        <span class="s2">"period"</span><span class="p">:</span> <span class="s2">"Last 7 days"</span><span class="p">,</span>
+        <span class="s2">"summary"</span><span class="p">:</span> <span class="n">summary</span><span class="p">,</span>
+        <span class="s2">"overall"</span><span class="p">:</span> <span class="n">overall</span><span class="p">,</span>
+        <span class="s2">"by_platform"</span><span class="p">:</span> <span class="n">report</span>
     <span class="p">}</span>
 </code></pre></div>
 <h2 id="human-escalation-rules">Human Escalation Rules<a class="headerlink" href="#human-escalation-rules" title="Anchor link to this section">&para;</a></h2>
 <p>Some things should never be automated:</p>
 <div class="highlight"><pre><span></span><code><span class="n">MUST_ESCALATE_PATTERNS</span> <span class="o">=</span> <span class="p">[</span>
     <span class="c1"># Legal risks</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(sue|lawsuit|legal action|attorney|lawyer)&quot;</span><span class="p">,</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(GDPR|CCPA|data privacy violation|personal data)&quot;</span><span class="p">,</span>
+    <span class="sa">r</span><span class="s2">"(?i)(sue|lawsuit|legal action|attorney|lawyer)"</span><span class="p">,</span>
+    <span class="sa">r</span><span class="s2">"(?i)(GDPR|CCPA|data privacy violation|personal data)"</span><span class="p">,</span>
 
     <span class="c1"># Safety concerns</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(threat|harm|danger|emergency|suicide|self-harm)&quot;</span><span class="p">,</span>
+    <span class="sa">r</span><span class="s2">"(?i)(threat|harm|danger|emergency|suicide|self-harm)"</span><span class="p">,</span>
 
     <span class="c1"># Serious product failures</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(data loss|corrupted|deleted all|lost everything)&quot;</span><span class="p">,</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(billing fraud|unauthorized charge|stolen)&quot;</span><span class="p">,</span>
+    <span class="sa">r</span><span class="s2">"(?i)(data loss|corrupted|deleted all|lost everything)"</span><span class="p">,</span>
+    <span class="sa">r</span><span class="s2">"(?i)(billing fraud|unauthorized charge|stolen)"</span><span class="p">,</span>
 
     <span class="c1"># PR risks</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(discrimination|harassment|hate speech)&quot;</span><span class="p">,</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(security breach|hacked|vulnerability|exploit)&quot;</span><span class="p">,</span>
+    <span class="sa">r</span><span class="s2">"(?i)(discrimination|harassment|hate speech)"</span><span class="p">,</span>
+    <span class="sa">r</span><span class="s2">"(?i)(security breach|hacked|vulnerability|exploit)"</span><span class="p">,</span>
 <span class="p">]</span>
 
-<span class="k">def</span> <span class="nf">check_escalation_triggers</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Check if a message triggers mandatory human escalation.&quot;&quot;&quot;</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">check_escalation_triggers</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Check if a message triggers mandatory human escalation."""</span>
     <span class="k">for</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">MUST_ESCALATE_PATTERNS</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
             <span class="k">return</span> <span class="kc">True</span>
@@ -11676,8 +11676,8 @@
 <h2 id="continuous-improvement">Continuous Improvement<a class="headerlink" href="#continuous-improvement" title="Anchor link to this section">&para;</a></h2>
 <h3 id="feedback-loop">Feedback Loop<a class="headerlink" href="#feedback-loop" title="Anchor link to this section">&para;</a></h3>
 <p>Every week, review auto-responses that received follow-up questions (indicating incomplete answers) and those that received no further engagement (indicating resolved issues):</p>
-<h2 id="def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis"><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">review_response_quality</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Analyze which responses are working and which aren&#39;t.&quot;&quot;&quot;</span>
+<h2 id="def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis"><div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">review_response_quality</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">"""Analyze which responses are working and which aren't."""</span>
 
     <span class="c1"># Find responses that led to follow-ups (incomplete)</span>
     <span class="n">follow_up_threads</span> <span class="o">=</span> <span class="n">fetch_threads_with_follow_ups</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
@@ -11688,16 +11688,16 @@
     <span class="c1"># Compare patterns</span>
     <span class="n">analysis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Analyze these support threads. What patterns make responses effective vs ineffective?&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Analyze these support threads. What patterns make responses effective vs ineffective?"</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"""</span>
 <span class="s2">            Responses needing follow-up (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">follow_up_threads</span><span class="p">)</span><span class="si">}</span><span class="s2">):</span>
 <span class="s2">            </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">follow_up_threads</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span><span class="si">}</span>
 
 <span class="s2">            Responses that resolved cleanly (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">resolved_threads</span><span class="p">)</span><span class="si">}</span><span class="s2">):</span>
 <span class="s2">            </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">resolved_threads</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span><span class="si">}</span>
-<span class="s2">            &quot;&quot;&quot;</span><span class="p">}</span>
+<span class="s2">            """</span><span class="p">}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"premium"</span>
     <span class="p">)</span>
 
     <span class="c1"># Update response templates based on findings</span>

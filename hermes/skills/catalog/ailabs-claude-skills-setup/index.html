@@ -11210,7 +11210,7 @@ npm<span class="w"> </span>run<span class="w"> </span>gen:index
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;travel-planner|finance-manager|pitch-deck&quot;</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"travel-planner|finance-manager|pitch-deck"</span>
 </code></pre></div>
 <p>Read a skill before trusting it. Note the filename case: this repo has no <code>README.md</code>, the file is <code>ReadMe.md</code>, so a lowercase probe returns 404. Every URL below returned 200 when checked with <code>curl</code> on Oct 26, 2026, and <code>.../main/README.md</code> returned 404 on the same date:</p>
 <div class="highlight"><pre><span></span><code><span class="nv">B</span><span class="o">=</span>https://raw.githubusercontent.com/ailabs-393/ai-labs-claude-skills/main
@@ -11223,8 +11223,8 @@ curl<span class="w"> </span>-sL<span class="w"> </span><span class="nv">$B</span
 curl<span class="w"> </span>-sL<span class="w"> </span><span class="nv">$B</span>/install-skills.mjs
 </code></pre></div>
 <p>Prove the Python side imports before a task depends on it:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import pandas, numpy, plotly, dash; print(&#39;viz ok&#39;)&quot;</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import pptx, pypdf; print(&#39;docs ok&#39;)&quot;</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import pandas, numpy, plotly, dash; print('viz ok')"</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import pptx, pypdf; print('docs ok')"</span>
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>skills.sh verdicts for sampled skills (verified Oct 26, 2026) - re-check the security pages on skills.sh before production use:</p>
