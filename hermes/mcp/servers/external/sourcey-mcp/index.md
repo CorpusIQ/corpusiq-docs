@@ -11,9 +11,9 @@ tags: [mcp-server, startup-credits, saas-deals, agent-readiness, grants, evidenc
 
 # Sourcey MCP
 
-The public registry and docs live at [Sourcey](https://sourcey.com/).
-
 **A hosted MCP server that lets agents find and compare evidence-backed startup offers - cloud credits, SaaS discounts, free tiers, grants, and partner deals - plus Agent Readiness report cards for API and SaaS products.** Every offer carries inspectable provenance with exact revisions and a signed change feed, so the catalog is auditable rather than a wall of marketing claims. Public catalog reads are keyless; paid HTTP and x402 services are discoverable without settling payments inside MCP.
+
+Vendor site, with the documentation and the browsable catalog of startup offers: [Sourcey](https://sourcey.com/).
 
 ```
 Server type: Remote (Streamable HTTP), hosted + stdio bridge (npx @sourcey/mcp-server)
