@@ -65,6 +65,13 @@ SEARCH_QUERIES = [
 
 # ── Scoring Criteria ────────────────────────────────────────
 _SCRATCH_CLONE_RE = re.compile(r"^tmp-.+__\d+-\d{10,}-[0-9a-f]{8}$")
+# Checkout paths of the form ``<prefix>__<owner>_<repo>``
+# (e.g. ``dsh-u-20261026-nousresearch__hermes-agent``) are throwaway copies of an
+# upstream repo: the right-hand side of ``__`` names the source slug. No real
+# project is named ``owner__repo``; 4 such rows had reached pending_review by
+# 2026-10-25 while 0 reached the approved database.
+_SCRATCH_COPY_RE = re.compile(r"^.{0,80}__[a-z0-9][a-z0-9._-]*$", re.I)
+_CLONE_SOURCE_SLUGS = ("hermes-agent", "hermes_agent", "hermes")
 
 
 def is_scratch_artifact(repo):
@@ -83,6 +90,11 @@ def is_scratch_artifact(repo):
     short = full_name.split("/")[-1] if full_name else name
     if _SCRATCH_CLONE_RE.match(short):
         return True
+    # ``<prefix>__<owner>_<upstream>`` checkout paths are never real projects.
+    if _SCRATCH_COPY_RE.match(short):
+        suffix = short.rsplit("__", 1)[-1].lower()
+        if any(suffix == slug or suffix.endswith(slug) for slug in _CLONE_SOURCE_SLUGS):
+            return True
     lowered = short.lower()
     looks_scratch = lowered.startswith(("tmp-", "tmp_", "test-", "test_"))
     no_content = (
