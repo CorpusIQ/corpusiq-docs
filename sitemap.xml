@@ -2373,6 +2373,10 @@
          <lastmod>2026-10-26</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/adspy-mcp</loc>
+         <lastmod>2026-10-26</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/adtest-mcp</loc>
          <lastmod>2026-10-26</lastmod>
     </url>
@@ -2930,6 +2934,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cite42-mcp</loc>
+         <lastmod>2026-10-26</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/citedby-mcp</loc>
          <lastmod>2026-10-26</lastmod>
     </url>
     <url>
@@ -3630,6 +3638,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/gastrosync-mcp</loc>
+         <lastmod>2026-10-26</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/gbply-mcp</loc>
          <lastmod>2026-10-26</lastmod>
     </url>
     <url>
@@ -6774,6 +6786,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october25-2026-night</loc>
+         <lastmod>2026-10-26</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-morning</loc>
          <lastmod>2026-10-26</lastmod>
     </url>
     <url>
