@@ -19721,5 +19721,68 @@
     "tier": "REJECTED",
     "action": "skipped_scratch",
     "timestamp": "2026-10-26T05:04:30.518722+00:00"
+  },
+  {
+    "repo": "yechang1450/hermes-hook-prompt",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164228+00:00"
+  },
+  {
+    "repo": "esoyuince/AlazHarness",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164241+00:00"
+  },
+  {
+    "repo": "trenthalden/hermes-ops",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164244+00:00"
+  },
+  {
+    "repo": "lgtm-hq/bunq",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164247+00:00"
+  },
+  {
+    "repo": "patrickbdevaney/hermes-max",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164249+00:00"
+  },
+  {
+    "repo": "AbdullahXDeveloper/hermes-aws-diagnostics-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164251+00:00"
+  },
+  {
+    "repo": "aleqth/ankle-hermes-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164253+00:00"
+  },
+  {
+    "repo": "fmd98534-hub/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164255+00:00"
+  },
+  {
+    "repo": "speedn8/claude-mem",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-26T10:03:41.164256+00:00"
   }
 ]
