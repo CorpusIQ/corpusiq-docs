@@ -107,8 +107,8 @@
     "description": "Hermes agent scheduling and governance reference. Configure cron jobs, task queues, and automated workflows with guardrails for production AI agent",
     "url": "https://www.corpusiq.io/docs/hermes/governance/scheduling",
     
-    "datePublished": "2026-10-19",
-    "dateModified": "2026-10-19",
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-19">
+  <meta name="last-updated" content="2026-10-26">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11245,13 +11245,13 @@
 <hr />
 <h2 id="complete-cron-registry">Complete Cron Registry<a class="headerlink" href="#complete-cron-registry" title="Anchor link to this section">&para;</a></h2>
 <h3 id="email-operations">Email Operations<a class="headerlink" href="#email-operations" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>eef64b6eed8e  */15 * * * *     email-monitor           no_agent    Telegram T2
-              └─ Check team@ + info@ every 15 min
+<div class="highlight"><pre><span></span><code>eef64b6eed8e  */15 * * * *     email-monitor           no_agent    email      
+              └─ Check media@ + info@ every 15 min
               └─ 4-tier classification: HIGH_VALUE, QUALIFIED, INTERESTED, SPAM
-              └─ HIGH_VALUE → instant Telegram alert → 30min SLA
+              └─ HIGH_VALUE → instant email alert → 30min SLA
 
 577abcb19c93  */15 * * * *     forward-handler         no_agent    local
-              └─ Forward job replies: team@ → personal inbox
+              └─ Forward job replies: media@ → personal inbox
 
 d6c65b56ba64  */30 * * * *     email-responder         AI agent    local
               └─ AI-powered HTML responses to qualified leads
@@ -11279,7 +11279,7 @@ e9c856a66eca  0 8,16 * * 1-5   github-mcp-promotion    AI agent    local
               └─ HeyGen v2 API → FFmpeg → Email for review → Postiz publish
               └─ 10 scenario library, 6-avatar rotation, 14-day no-repeat
 
-fc7d32e3d588  0 8,11,14,17,20  cross-platform-monitor  AI agent    Telegram T2
+fc7d32e3d588  0 8,11,14,17,20  cross-platform-monitor  AI agent    email      
               └─ 5x daily: Check all platforms for new comments/messages
 </code></pre></div>
 <h3 id="community-engagement">Community Engagement<a class="headerlink" href="#community-engagement" title="Anchor link to this section">&para;</a></h3>
@@ -11292,20 +11292,20 @@ fc7d32e3d588  0 8,11,14,17,20  cross-platform-monitor  AI agent    Telegram T2
               └─ 4x daily: Help-first on high-value issues
               └─ 5 AM, 7 AM, 10 AM, 5 PM AZ
 
-2269fb270a77  0 8 * * *         daily-channel-scan      AI agent    Telegram T2
+2269fb270a77  0 8 * * *         daily-channel-scan      AI agent    email      
               └─ Scan all platforms for mentions, comments, engagement
 
-aa2fafce8d80  0 10,15 * * *     ig-comment-monitor      AI agent    Telegram T2
+aa2fafce8d80  0 10,15 * * *     ig-comment-monitor      AI agent    email      
               └─ Instagram comment monitoring + helpful replies
 </code></pre></div>
 <h3 id="research-discovery">Research &amp; Discovery<a class="headerlink" href="#research-discovery" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>c3e3df5974f2  0 */6 * * *       tech-research           AI agent    local
               └─ Every 6 hours: Discover new tools, AI developments
 
-834a43fb1148  0 3,11,19 * * *   mcp-server-monitor      AI agent    Telegram T2
+834a43fb1148  0 3,11,19 * * *   mcp-server-monitor      AI agent    email      
               └─ 3x daily: Check mcp.so, mcpservers.org for new servers
 
-48d37f56d35c  0 4,12,20 * * *   skills-monitor          AI agent    Telegram T2
+48d37f56d35c  0 4,12,20 * * *   skills-monitor          AI agent    email      
               └─ 3x daily: Check skills.sh for new skills
 
 9ad1f43ff06b  0 9 * * *         github-daily-discovery  AI agent    local
@@ -11315,13 +11315,13 @@ d3bb38ade338  15 */2 * * *      ph-rss-monitor          no_agent    local
               └─ Every 2 hours: Product Hunt RSS for competitor launches
 </code></pre></div>
 <h3 id="governance">Governance<a class="headerlink" href="#governance" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>5ad87b93dc3b  0 22 * * *        system-health-monitor   AI agent    Telegram T2
+<div class="highlight"><pre><span></span><code>5ad87b93dc3b  0 22 * * *        system-health-monitor   AI agent    email      
               └─ 10 PM: Verify all crons, tokens, APIs operational
 
 5a837c3d87f9  0 23 * * *        daily-self-improvement  AI agent    local
               └─ 11 PM: Review mistakes, patch skills, update memory
 
-4c5a50f21ea2  0 1 * * *         drift-prevention        AI agent    Telegram T2
+4c5a50f21ea2  0 1 * * *         drift-prevention        AI agent    email      
               └─ 1 AM: Governance integrity  --  registry, skills, memory sync
 
 f44fa8b3b0b1  0 7 * * *         auth-health-check       no_agent    local
@@ -11338,26 +11338,26 @@ d87b726f0c7c  0 10 * * *        mcp-directory-check     AI agent    local
               └─ 3 AM: Memory consolidation  --  merge, deduplicate, strengthen
 </code></pre></div>
 <h3 id="growth">Growth<a class="headerlink" href="#growth" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>57d13bdb4201  0 7,19 * * *      organic-discovery       AI agent    Telegram T2
+<div class="highlight"><pre><span></span><code>57d13bdb4201  0 7,19 * * *      organic-discovery       AI agent    email      
               └─ 7 AM + 7 PM: Find organic promotion opportunities
 
-c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    Telegram T2
+c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    email      
               └─ 7 AM: Growth tools + GEO directory maintenance
 </code></pre></div>
 <h3 id="job-search">Job Search<a class="headerlink" href="#job-search" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>06f4f056ade8  0 7 * * *         executive-job-search       AI agent    Telegram T2
+<div class="highlight"><pre><span></span><code>06f4f056ade8  0 7 * * *         executive-job-search       AI agent    email      
               └─ 7 AM: Search for executive roles, generate resumes
               └─ CONFIDENTIAL  --  never mention CorpusIQ
 </code></pre></div>
 <h3 id="github-automation">GitHub Automation<a class="headerlink" href="#github-automation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>7a6a4007c834  * * * * *         github-issue-poll       no_agent    Telegram T2
+<div class="highlight"><pre><span></span><code>7a6a4007c834  * * * * *         github-issue-poll       no_agent    email      
               └─ Every minute: Poll GitHub issues
 
-2d3a157ec92c  0 */6 * * *       auto-ack-issues         no_agent    Telegram T2
+2d3a157ec92c  0 */6 * * *       auto-ack-issues         no_agent    email      
               └─ Every 6 hours: Auto-ack enhancement issues (draft)
 </code></pre></div>
 <h3 id="hermes-release">Hermes Release<a class="headerlink" href="#hermes-release" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>be2bee6a3f05  0 2,10,18 * * *   hermes-release-monitor  AI agent    Telegram T2
+<div class="highlight"><pre><span></span><code>be2bee6a3f05  0 2,10,18 * * *   hermes-release-monitor  AI agent    email      
               └─ 3x daily: Check for new Hermes releases
 </code></pre></div>
 <hr />
@@ -11392,75 +11392,72 @@ c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    Telegram T2
 <hr />
 <h2 id="cron-patterns">Cron Patterns<a class="headerlink" href="#cron-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="pattern-1-ai-agent-cron-complex-reasoning">Pattern 1: AI Agent Cron (complex reasoning)<a class="headerlink" href="#pattern-1-ai-agent-cron-complex-reasoning" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Your self-contained task prompt here"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--skills<span class="w"> </span><span class="s2">"skill-one,skill-two"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 6 * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"telegram:-100CHATID:TOPICID"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--enabled-toolsets<span class="w"> </span><span class="s2">"terminal,web,file,skills,send_message"</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 6 * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">"Your self-contained task prompt here"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">"daily-brief"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--skill<span class="w"> </span>skill-one<span class="w"> </span>--skill<span class="w"> </span>skill-two<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
 </code></pre></div>
 <p><strong>When to use:</strong> Anything needing reasoning  --  social posting, email response, research, content generation.</p>
+<p><code>--skill</code> is repeatable; the schedule and prompt are positional arguments, not flags.</p>
 <h3 id="pattern-2-no-agent-script-mechanical-tasks">Pattern 2: No-Agent Script (mechanical tasks)<a class="headerlink" href="#pattern-2-no-agent-script-mechanical-tasks" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"*/15 * * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">"email-monitor"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--script<span class="w"> </span><span class="s2">"email-monitor.py"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"*/15 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--no-agent<span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"telegram:-100CHATID:TOPICID"</span>
+<span class="w">  </span>--no-agent<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
 </code></pre></div>
-<p><strong>When to use:</strong> Mechanical polling  --  email checks, GitHub polling, RSS monitoring. Faster, cheaper (no LLM), more reliable.</p>
+<p><strong>When to use:</strong> Mechanical polling  --  email checks, GitHub polling, RSS monitoring. Faster, cheaper (no LLM), more reliable. <code>--script</code> paths resolve under <code>~/.hermes/scripts/</code>, and empty stdout means the run stays silent.</p>
 <h3 id="pattern-3-script-agent-pipeline">Pattern 3: Script + Agent Pipeline<a class="headerlink" href="#pattern-3-script-agent-pipeline" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Job A: Collect data (no-agent script, runs every hour)</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 * * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">"collect-metrics"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--script<span class="w"> </span><span class="s2">"collect-metrics.py"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--no-agent<span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--no-agent<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
 
-<span class="c1"># Job B: Process data (AI agent, runs after Job A, injects its output)</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Analyze the metrics collected below and identify anomalies"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"5 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--context-from<span class="w"> </span><span class="s2">"job-a-id"</span>
+<span class="c1"># Job B: Analyze (AI agent, runs after Job A)</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"5 * * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">"analyze-metrics"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">"Analyze the metrics collected below and identify anomalies"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--continuity
 </code></pre></div>
-<p><strong>When to use:</strong> Data collection + analysis pipeline. Saves tokens on collection, uses LLM only for insight.</p>
+<p><strong>When to use:</strong> Data collection + analysis pipeline. Saves tokens on collection, uses LLM only for insight. <code>--continuity</code> gives a job its own previous output each run; injecting a <em>different</em> job's output is the job's <code>context_from</code> field rather than a create flag.</p>
 <hr />
 <h2 id="health-monitoring">Health Monitoring<a class="headerlink" href="#health-monitoring" title="Anchor link to this section">&para;</a></h2>
 <p>The 10 PM system health monitor checks:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># What it verifies nightly:</span>
 <span class="n">check_1</span> <span class="o">=</span> <span class="n">cronjob_list</span><span class="p">()</span>                    <span class="c1"># All crons running?</span>
-<span class="n">check_2</span> <span class="o">=</span> <span class="n">gmail_token_valid</span><span class="p">()</span>              <span class="c1"># team@ + info@ tokens</span>
+<span class="n">check_2</span> <span class="o">=</span> <span class="n">gmail_token_valid</span><span class="p">()</span>              <span class="c1"># media@ + info@ tokens</span>
 <span class="n">check_3</span> <span class="o">=</span> <span class="n">github_token_valid</span><span class="p">()</span>             <span class="c1"># Classic PAT</span>
 <span class="n">check_4</span> <span class="o">=</span> <span class="n">heygen_token_valid</span><span class="p">()</span>             <span class="c1"># Video pipeline</span>
 <span class="n">check_5</span> <span class="o">=</span> <span class="n">postiz_integrations_alive</span><span class="p">()</span>      <span class="c1"># X + LinkedIn + TikTok + Instagram</span>
-<span class="n">check_6</span> <span class="o">=</span> <span class="n">corpusiq_mcp_connected</span><span class="p">()</span>         <span class="c1"># 53 tools available</span>
+<span class="n">check_6</span> <span class="o">=</span> <span class="n">corpusiq_mcp_connected</span><span class="p">()</span>         <span class="c1"># 121 tools available</span>
 <span class="n">check_7</span> <span class="o">=</span> <span class="n">honcho_connected</span><span class="p">()</span>               <span class="c1"># Peer memory</span>
 <span class="n">check_8</span> <span class="o">=</span> <span class="n">gbrain_indexing</span><span class="p">()</span>                <span class="c1"># Organizational memory</span>
 <span class="n">check_9</span> <span class="o">=</span> <span class="n">disk_space</span><span class="p">()</span>                     <span class="c1"># &gt;10% free</span>
 <span class="n">check_10</span> <span class="o">=</span> <span class="n">memory_usage</span><span class="p">()</span>                  <span class="c1"># &lt;90%</span>
 </code></pre></div>
-<p>Failures are reported to Telegram Topic 2. The 1 AM drift prevention cron does a deeper integrity check.</p>
+<p>Failures are emailed to media@ (critical failures also to benoit.p@). The 1 AM drift prevention cron does a deeper integrity check.</p>
 <hr />
 <h2 id="creating-your-first-cron">Creating Your First Cron<a class="headerlink" href="#creating-your-first-cron" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Start simple  --  check your email every 15 minutes</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"*/15 * * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">"Check Gmail for unread messages. Summarize new emails in one sentence each. Be silent if inbox is empty."</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--name<span class="w"> </span><span class="s2">"my-email-watch"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Check Gmail for unread messages. Summarize new emails in one sentence each. Be silent if inbox is empty."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"*/15 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--enabled-toolsets<span class="w"> </span><span class="s2">"terminal,web,file,send_message"</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
 
 <span class="c1"># 2. Add a daily report</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 18 * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">"Generate a bullet-point summary of everything that happened today. What worked? What broke? What should I know for tomorrow?"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--name<span class="w"> </span><span class="s2">"my-daily-report"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Generate a bullet-point summary of everything that happened today. What worked? What broke? What should I know for tomorrow?"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 18 * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--enabled-toolsets<span class="w"> </span><span class="s2">"terminal,web,file,send_message"</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
 
 <span class="c1"># 3. Add nightly self-improvement</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 23 * * *"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">"Review today's tasks. What could be improved? Update relevant skills with learned patterns."</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--name<span class="w"> </span><span class="s2">"my-self-improvement"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Review today's tasks. What could be improved? Update relevant skills with learned patterns."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 23 * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--enabled-toolsets<span class="w"> </span><span class="s2">"terminal,file,skills"</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
 </code></pre></div>
 <hr />
 <h2 id="lessons-learned">Lessons Learned<a class="headerlink" href="#lessons-learned" title="Anchor link to this section">&para;</a></h2>
@@ -11468,7 +11465,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <li><strong>No-agent scripts for polling</strong>  --  mechanical tasks don't need LLMs. Save tokens.</li>
 <li><strong>Rate limit awareness</strong>  --  X is limited to ~10/day, LinkedIn Page to 2/day. Build schedules around it.</li>
 <li><strong>Error loops kill crons</strong>  --  if a platform is down, STOP. Don't retry. Log and move on.</li>
-<li><strong>Delivery targets matter</strong>  --  Telegram T2 for human-readable reports, <code>local</code> for machine-readable logs.</li>
+<li><strong>Delivery targets matter</strong>  --  email for human-readable reports, <code>local</code> for machine-readable logs.</li>
 <li><strong>Context-from is powerful</strong>  --  chain crons: collect data with a script, analyze with an agent.</li>
 <li><strong>Mass pauses are a symptom</strong>  --  if you pause 15 crons at once, something cascaded. Find the root cause.</li>
 </ol>

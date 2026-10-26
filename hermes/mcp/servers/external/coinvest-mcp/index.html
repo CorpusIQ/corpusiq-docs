@@ -107,8 +107,8 @@
     "description": "Connect Co-Invest to Hermes Agent. Research, analyze, and manage investments directly from AI assistants. Invest with Claude and other AI agents.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/coinvest-mcp",
     
-    "datePublished": "2026-10-19",
-    "dateModified": "2026-10-19",
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-19">
+  <meta name="last-updated" content="2026-10-26">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11055,10 +11055,12 @@
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add to Hermes (remote endpoint)</span>
+<span class="c1"># Verified 2026-10-26: api.liquid.trade does not resolve. Confirm the current</span>
+<span class="c1"># MCP endpoint with Liquid Trade before installing.</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>coinvest<span class="w"> </span>--url<span class="w"> </span>https://api.liquid.trade/coinvest/mcp
 
 <span class="c1"># Authenticate</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </span>coinvest
+hermes<span class="w"> </span>mcp<span class="w"> </span>login<span class="w"> </span>coinvest
 </code></pre></div>
 <h2 id="manual-configuration">Manual Configuration<a class="headerlink" href="#manual-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
