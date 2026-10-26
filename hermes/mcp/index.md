@@ -324,10 +324,10 @@ New discoveries are reported to Telegram Topic 2 for evaluation.
 hermes mcp test corpusiq
 
 # Check auth
-hermes mcp auth corpusiq --check
+hermes mcp list
 
 # View logs
-journalctl --user -u hermes-gateway -n 50 | grep mcp
+hermes logs gateway -n 50
 ```
 
 ### "Tool not found"
@@ -336,15 +336,15 @@ journalctl --user -u hermes-gateway -n 50 | grep mcp
 # List all available tools
 hermes mcp list
 
-# Reload MCP config
-hermes mcp reload
+# Re-check which tools are enabled for the server
+hermes mcp configure
 ```
 
 ### "Token expired"
 
 ```bash
 # Re-authenticate
-hermes mcp auth corpusiq --reauth
+hermes mcp reauth corpusiq
 ```
 
 ---
