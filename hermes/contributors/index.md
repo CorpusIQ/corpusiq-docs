@@ -29,7 +29,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 | **Review time** | <48 hours |
 | **Categories** | 18 |
 
-*Counts as of October 19, 2026. The live repo count is maintained on the [ecosystem directory](/hermes/ecosystem). Approved counts reflect repos currently live in the directory; repos later pruned as dead or archived are removed from the count.*
+*Counts as of October 26, 2026. The live repo count is maintained on the [ecosystem directory](/hermes/ecosystem). Approved counts reflect repos currently live in the directory; repos later pruned as dead or archived are removed from the count.*
 
 ## How to Contribute
 
@@ -100,7 +100,7 @@ Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem) 
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  427+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  435+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
