@@ -1,6 +1,6 @@
 ---
 title: Hermes Ecosystem -- Complete Resource Directory
-description: The definitive directory of Hermes Agent resources -- 432+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources -- 435+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 last_updated: "2026-10-26"
@@ -10,9 +10,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem -- Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 432+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 435+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
 
-> **Last updated:** October 26, 2026 · **Repos indexed:** 432+ · **Categories:** 18
+> **Last updated:** October 26, 2026 · **Repos indexed:** 435+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -22,11 +22,11 @@ The most comprehensive directory of Hermes Agent resources in existence. 432+ re
 
 | Category | Count | Jump |
 |----------|-------|------|
-| [Core & Official](#core-official) | 11 | [↓](#core-official) |
+| [Core & Official](#core-official) | 12 | [↓](#core-official) |
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 23 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 31 | [↓](#memory-knowledge) |
+| [Memory & Knowledge](#memory-knowledge) | 33 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 47 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 104 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
@@ -101,11 +101,21 @@ Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered 
 
 ---
 
+### OnlyTerp/hermes-optimization-guide
+⭐ **706** · `Python` · [github.com/OnlyTerp/hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide)
+
+Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide
+
+**Key capabilities:** Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide
+
+---
+
 ### NousResearch/Hermes-Bot-Mode
-⭐ **660** · `JavaScript` · [github.com/NousResearch/Hermes-Bot-Mode](https://github.com/NousResearch/Hermes-Bot-Mode)
+⭐ **670** · `JavaScript` · [github.com/NousResearch/Hermes-Bot-Mode](https://github.com/NousResearch/Hermes-Bot-Mode)
 
 Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Ships as a desktop plugin with no core patches, so the Hermes core stays untouched while each bot keeps its own conversation space and schedule.
 
+**Status:** Archived by Nous Research in August 2026. The repository is read-only, so treat it as reference material rather than a maintained plugin: no new features, fixes or compatibility work should be expected.
 **Maintainer:** Nous Research 
 **Key capabilities:** Named agent roster, per-bot chats and avatars, routines, bot-to-bot messaging, plugin-only (no core patches) 
 **Related:** [Hermes Desktop →](/hermes/setup) · [Multi-Agent →](#orchestration-multi-agent-swarms)
@@ -422,7 +432,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 432+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 435+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -834,6 +844,15 @@ Open-source cross-agent memory layer for coding agents via MCP. Compatible with 
 
 ---
 
+### chandra447/pi-hermes-memory
+⭐ **502** · `TypeScript` · [github.com/chandra447/pi-hermes-memory](https://github.com/chandra447/pi-hermes-memory)
+
+Hermes-style persistent memory and learning loop for Pi coding agent
+
+**Key capabilities:** context-engineering, harness, harness-engineering, memory, pi
+
+---
+
 ### 410979729/scope-recall-hermes
 ⭐ **442** · `Python` · [github.com/410979729/scope-recall-hermes](https://github.com/410979729/scope-recall-hermes)
 
@@ -842,6 +861,15 @@ Bounded local memory core with SQLite as the sole fact authority and rebuildable
 **Maintainer:** Scope Recall (PyPI package `hermes-scope-recall`, MIT) 
 **Key capabilities:** Single SQLite store, source-backed recall, scope isolation, hybrid retrieval, owner-only fact correction, local management CLI (browse/search/history/correct/mute/delete), portable export with hashes, reproducible recall-quality benchmark 
 **Related:** [Memory Stack →](/hermes/knowledge) · [Knowledge Architecture →](/hermes/knowledge)
+
+---
+
+### Signet-AI/signetai
+⭐ **313** · `TypeScript` · [github.com/Signet-AI/signetai](https://github.com/Signet-AI/signetai)
+
+Sync and store memories, transcripts, institutional knowledge, and secrets between all of your favorite harnesses and models.
+
+**Key capabilities:** agent-memory, ai-memory, claude-code, codex, hermes-agent, hermes-agent-plugin, hermes-plugin, oh-my-pi
 
 ---
 
@@ -4406,12 +4434,12 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 432 |
+| Total repos indexed | 435 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
 | UI/Dashboard projects | 23 |
-| Memory systems | 31 |
+| Memory systems | 33 |
 | MCP integrations | 47 |
 | Skill collections & plugins | 104 |
 | Tools & utilities | 62 |
@@ -4483,7 +4511,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 432 repos · 18 categories · 1M+ community stars · 104 skill collections · 47 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 435 repos · 18 categories · 1M+ community stars · 104 skill collections · 47 MCP integrations · 27 domain applications
 
 ---
 
@@ -4491,11 +4519,11 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **432+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **435+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
-Browse the [Quick Navigation](#quick-navigation) table above to jump to any of 18 categories: Core & Official, Documentation, UIs, Memory, MCP, Skills, Tools, Orchestration, Deployment, Security, Research, Content, Platform-Specific, Domain Applications, and more. Each entry includes star counts, maintainers, descriptions, and key capabilities.
+Browse the [Quick Navigation](#quick-navigation) table above to jump to any of 18 categories: Core & Official, Documentation, UIs, Memory, MCP, Skills, Tools, Orchestration, Deployment, Security, Research, Content, Platform-Specific, Domain Applications, and more. Each entry includes a maintainer, a description and its key capabilities, with star counts shown wherever they are available.
 
 ### How do I submit my Hermes project to the ecosystem?
 

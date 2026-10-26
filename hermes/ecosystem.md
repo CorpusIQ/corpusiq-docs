@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 432+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 435+ repos, tools, skills, and integrations
 last_updated: "2026-10-26"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -18,21 +18,21 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **432+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 198 auto-approved (scored >= 70 or manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **435+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 201 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **432+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **435+ repos indexed.**
 
 ## 📊 Category Overview
 
 || Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 17 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 18 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 10 | Model Context Protocol servers & integrations |
-| 💾 Memory & Knowledge | 39 | Persistent memory, knowledge graphs, context systems |
+| 💾 Memory & Knowledge | 41 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
@@ -96,6 +96,14 @@ _17 repos_
 >Lossless Context Management plugin for Hermes Agent - DAG-based context engine that never loses a message
 
 **Language:** Python | **Score:** 75/100
+
+---
+
+### [OnlyTerp/hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) ⭐ 706
+
+>Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide
+
+**Language:** Python
 
 ---
 
@@ -607,6 +615,14 @@ _Persistent memory, knowledge graphs, context systems_
 
 ---
 
+### [chandra447/pi-hermes-memory](https://github.com/chandra447/pi-hermes-memory) ⭐ 502
+
+>Hermes-style persistent memory and learning loop for Pi coding agent
+
+**Language:** TypeScript | **Topics:** context-engineering, harness, harness-engineering, memory, pi
+
+---
+
 ### [WEIFENG2333/phistory](https://github.com/WEIFENG2333/phistory) ⭐ 364
 
 >📸 Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes Agent - track prompt evolution and debug agent behavior.
@@ -628,6 +644,14 @@ _Persistent memory, knowledge graphs, context systems_
 >Personal dotfiles repo: OpenWrt router configuration and shell setup files.
 
 **Language:** Shell
+
+---
+
+### [Signet-AI/signetai](https://github.com/Signet-AI/signetai) ⭐ 313
+
+>Sync and store memories, transcripts, institutional knowledge, and secrets between all of your favorite harnesses and models.
+
+**Language:** TypeScript | **Topics:** agent-memory, ai-memory, claude-code, codex, hermes-agent, hermes-agent-plugin, hermes-plugin, oh-my-pi, openclaw, opencode, opencode-plugin, pi-coding-agent, pi-extension, self-hosted
 
 ---
 
@@ -1768,7 +1792,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*432+ repositories in the Hermes ecosystem. Last updated: 2026-10-26. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*435+ repositories in the Hermes ecosystem. Last updated: 2026-10-26. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

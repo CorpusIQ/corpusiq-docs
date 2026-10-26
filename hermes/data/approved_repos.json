@@ -6942,5 +6942,86 @@
     "approved_at": "2026-10-25T15:03:24.068618+00:00",
     "promotion_note": "manual review of issue #119: MIT skill repo (deed.page team, disclosed); live service 200 on /, /docs and /mcp; official MCP Registry entry page.deed/deed-page active (streamable-http remote); ClawHub listing 200; active same week; 20 topical tags. Accepted as a Skills & Plugins entry with vendor authorship stated in the entry.",
     "promoted_from": "submission"
+  },
+  {
+    "name": "chandra447/pi-hermes-memory",
+    "url": "https://github.com/chandra447/pi-hermes-memory",
+    "description": "Hermes-style persistent memory and learning loop for Pi coding agent",
+    "stars": 502,
+    "forks": 130,
+    "language": "TypeScript",
+    "topics": [
+      "context-engineering",
+      "harness",
+      "harness-engineering",
+      "memory",
+      "pi"
+    ],
+    "updated_at": "2026-10-25T06:22:51Z",
+    "category": "Memory & Knowledge",
+    "score": 68,
+    "tier": "MANUAL_APPROVED",
+    "score_reasons": [
+      "monitor_cycle_review_2026_10_26"
+    ],
+    "verified_at": "2026-10-26T10:30:00Z",
+    "archived": false,
+    "license": "MIT",
+    "near_duplicates": []
+  },
+  {
+    "name": "OnlyTerp/hermes-optimization-guide",
+    "url": "https://github.com/OnlyTerp/hermes-optimization-guide",
+    "description": "Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide",
+    "stars": 706,
+    "forks": 58,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-24T02:37:22Z",
+    "category": "Core Framework",
+    "score": 68,
+    "tier": "MANUAL_APPROVED",
+    "score_reasons": [
+      "monitor_cycle_review_2026_10_26"
+    ],
+    "verified_at": "2026-10-26T10:30:00Z",
+    "archived": false,
+    "license": "MIT",
+    "near_duplicates": []
+  },
+  {
+    "name": "Signet-AI/signetai",
+    "url": "https://github.com/Signet-AI/signetai",
+    "description": "Sync and store memories, transcripts, institutional knowledge, and secrets between all of your favorite harnesses and models.",
+    "stars": 313,
+    "forks": 43,
+    "language": "TypeScript",
+    "topics": [
+      "agent-memory",
+      "ai-memory",
+      "claude-code",
+      "codex",
+      "hermes-agent",
+      "hermes-agent-plugin",
+      "hermes-plugin",
+      "oh-my-pi",
+      "openclaw",
+      "opencode",
+      "opencode-plugin",
+      "pi-coding-agent",
+      "pi-extension",
+      "self-hosted"
+    ],
+    "updated_at": "2026-10-26T04:23:01Z",
+    "category": "Memory & Knowledge",
+    "score": 68,
+    "tier": "MANUAL_APPROVED",
+    "score_reasons": [
+      "monitor_cycle_review_2026_10_26"
+    ],
+    "verified_at": "2026-10-26T10:30:00Z",
+    "archived": false,
+    "license": "NOASSERTION",
+    "near_duplicates": []
   }
 ]

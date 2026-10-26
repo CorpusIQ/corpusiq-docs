@@ -319,6 +319,23 @@ def main():
                 if not check:
                     open(cp, "w", encoding="utf-8").write(cnew2)
 
+    # --- contributors.md carries the SAME maintainer cell in its own shape -
+    # Two contributor pages, two table shapes, one ledger. Only the index page
+    # was derived from the ledger, so the short page kept whatever
+    # discover.py's review_log resync wrote and the two pages could state
+    # different approval counts (198 vs 201 on 2026-10-26). Derive both.
+    if approved is not None:
+        sp = os.path.join(root, "hermes/contributors.md")
+        if os.path.exists(sp):
+            stext = open(sp, encoding="utf-8").read()
+            snew, sn = re.subn(r"^(\| \[CorpusIQ\]\([^)]*\) \| )(\d+)( \| )(\d+)( \| )",
+                               lambda m: f"{m.group(1)}{m.group(2)}{m.group(3)}{approved}{m.group(5)}",
+                               stext, flags=re.M)
+            if snew != stext:
+                changes.append(("hermes/contributors.md", "maintainer approved", sn))
+                if not check:
+                    open(sp, "w", encoding="utf-8").write(snew)
+
     # --- quick navigation per-category counts ---------------------------
     p = os.path.join(root, "hermes/ecosystem/index.md")
     text = open(p, encoding="utf-8").read()
