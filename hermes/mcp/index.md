@@ -11,23 +11,23 @@ robots: "index,follow"
 
 # MCP Integration Guide  --  Connect 40+ Business Platforms to Hermes Agent
 
-## The CorpusIQ MCP  --  One OAuth, 53 Tools, 40+ Platforms
+## The CorpusIQ MCP  --  One OAuth, 121 Tools, 40+ Platforms
 
-The biggest pain point in agent operations: managing 37 different API keys across 37 different platforms. The CorpusIQ MCP server solves this with a single OAuth flow.
+The biggest pain point in agent operations: managing 42 different API keys across 42 different platforms. The CorpusIQ MCP server solves this with a single OAuth flow.
 
 ### Quick Start
 
 ```bash
 # Add to Hermes
-hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
+hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --auth oauth
 
 > 👉 First create an account at [corpusiq.io](https://corpusiq.io) to get your MCP endpoint
 
 # Authenticate (device login flow)
-hermes mcp auth corpusiq
+hermes mcp login corpusiq
 # → Opens browser: Enter code "ABCD-1234"
 # → Authenticate with Google
-# → Done. 53 tools available.
+# → Done. 121 tools available.
 ```
 
 ### Available Tools

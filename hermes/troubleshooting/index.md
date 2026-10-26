@@ -84,10 +84,12 @@ Token management is the most common operational issue in autonomous systems. Eve
 
 ```bash
 # Check all connector auth states
-hermes auth list
+hermes connectors list
+hermes connectors accounts
 
-# Check when a specific token expires
-hermes auth status google_workspace
+# Check when a specific provider credential expires
+hermes auth list
+hermes auth status <provider>
 ```
 
 ### Token Lifecycle Management
@@ -125,15 +127,21 @@ token_management:
 
 ### Manual Token Reset
 
-When automated refresh fails, reset the connector:
+When automated refresh fails, reset the credential path:
 
 ```bash
-# Reset a specific connector token
-hermes auth reset google_workspace
+# Clear exhaustion state for a provider's pooled credentials
+hermes auth reset <provider>
 
-# This returns a re-auth URL  --  open it in a browser
+# Refresh a pooled OAuth credential and clear its cooldown
+hermes auth refresh <provider>
+
+# Re-authenticate one OAuth MCP server (or every server with --all)
+hermes mcp reauth corpusiq
+
+# This runs the re-auth flow  --  complete it in the browser
 # After re-auth, verify
-hermes auth status google_workspace
+hermes mcp test corpusiq
 ```
 
 ### Common OAuth Pitfalls
@@ -421,10 +429,10 @@ The API gateway is the entry point for all agent requests. When it goes down, ev
 
 ```bash
 # Check gateway process
-systemctl status hermes-gateway
+hermes gateway status
 
 # Check gateway logs
-journalctl -u hermes-gateway --since "5 minutes ago"
+hermes logs gateway -n 50
 
 # Check system resources
 free -h
@@ -450,31 +458,29 @@ htop
 # Check active connections
 ss -tunap | grep <gateway_port>
 
-# Check for hung threads
-kill -3 $(pgrep -f hermes-gateway)  # Thread dump (Java)
-# or
-pystack $(pgrep -f hermes-gateway)   # Python stack trace
+# Check for hung threads on the Python gateway process
+py-spy dump --pid $(pgrep -f "hermes gateway")
 ```
 
 **Common causes:**
 - **Connection pool exhaustion:** All connections to an upstream service are in use
 - **Deadlock in model router:** Two requests waiting on each other
-- **GC pause (Java backend):** Garbage collection blocking all threads
+- **Blocked event loop:** A synchronous tool call holding the loop, starving every other request
 
-**Fix:** Restart gateway with `systemctl restart hermes-gateway`. For recurring issues, tune connection pool size or GC settings.
+**Fix:** Restart the gateway with `hermes gateway restart`. For recurring issues, tune connection pool size and move blocking work off the event loop.
 
 ### Gateway Recovery Procedure
 
 ```bash
 # 1. Check what's wrong
-systemctl status hermes-gateway
-journalctl -u hermes-gateway --since "10 minutes ago" -n 50
+hermes gateway status
+hermes logs gateway -n 50
 
-# 2. Attempt graceful restart
-systemctl reload hermes-gateway
+# 2. First try a graceful ensure (starts the local runtime if it is down)
+hermes gateway ensure
 
-# 3. If reload fails, hard restart
-systemctl restart hermes-gateway
+# 3. If ensure fails, hard restart
+hermes gateway restart
 
 # 4. Verify recovery
 curl -f http://localhost:<gateway_port>/health
