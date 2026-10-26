@@ -60,8 +60,8 @@ metric_spec_resolve("leads_this_week")
 
 | Severity | Channel | Example |
 |----------|---------|---------|
-| Critical | Ops email digest (media@) + Benoit DM | API key expired |
-| Warning | Ops email digest (media@) | Cron failure |
+| Critical | Ops email digest + on-call DM | API key expired |
+| Warning | Ops email digest | Cron failure |
 | Info | Logged to activity-log.jsonl | Daily stats |
 
 ## System Audit
