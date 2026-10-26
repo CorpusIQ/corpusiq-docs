@@ -107,8 +107,8 @@
     "description": "AI-powered web scraper covering Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Reddit, Airbnb, Yelp, and more. 13.6K+ installs.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-ultimate-scraper-setup",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-26">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11281,7 +11281,7 @@ apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> 
 <li><code>apify actors call</code> runs the Actor remotely and waits; <code>apify actors start</code> returns immediately and is better for long jobs</li>
 <li><code>-o</code> prints the dataset, <code>--json</code> prints the run record - both are stable across CLI versions</li>
 <li>The <code>2&gt;/dev/null</code> redirect is useful because run logs go to stderr and break JSON parsing</li>
-<li>Check <code>references/actor-index.md</code> in the skill for the full Actor catalog</li>
+<li>Confirm an Actor slug resolves before you publish it: <code>curl -s -o /dev/null -w '%{http_code}\n' https://api.apify.com/v2/acts/&lt;owner&gt;~&lt;actor&gt;</code> (200 means it exists, 404 means the slug is dead)</li>
 <li>Each platform has its own specific Actor - search Apify Store for the best one, and confirm it resolves before publishing it</li>
 </ul>
 <hr />
