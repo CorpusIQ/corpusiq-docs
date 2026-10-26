@@ -3,7 +3,7 @@ title: "MCP Integration Guide for Hermes Agent"
 description: Complete Hermes Agent MCP integration guide. Connect 40+ business platforms through one CorpusIQ OAuth flow. CRM, email, analytics, advertising, databases, ecommerce, payments. Custom MCP server development and cross-source analysis.
 category: mcp
 tags: [hermes-agent, mcp, model-context-protocol, integration, corpusiq, crm, analytics, email, database, cross-source]
-last_updated: 2026-10-21
+last_updated: 2026-10-26
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/"
 robots: "index,follow"
 
@@ -268,7 +268,7 @@ mcp.run()
 ```
 
 ```bash
-hermes mcp add my-server -- python my_server.py
+hermes mcp add my-server --command python --args my_server.py
 ```
 
 ### Option B: TypeScript
@@ -285,13 +285,13 @@ server.tool("get_metrics", async () => ({
 ```
 
 ```bash
-hermes mcp add my-server -- npx tsx my-server.ts
+hermes mcp add my-server --command npx --args tsx my-server.ts
 ```
 
 ### Option C: Remote HTTP MCP
 
 ```bash
-hermes mcp add remote-server -- url https://my-mcp-server.com/sse
+hermes mcp add remote-server --url https://my-mcp-server.com/sse
 ```
 
 ### Before you connect a third-party server
@@ -311,7 +311,7 @@ We run three daily monitors to discover new MCP servers:
 | hermes-release-monitor | GitHub releases | 2 AM, 10 AM, 6 PM |
 | skills-monitor | skills.sh | 4 AM, 12 PM, 8 PM |
 
-New discoveries are reported to Telegram Topic 2 for evaluation.
+New discoveries are reported to the ops email digest for evaluation.
 
 ---
 
@@ -357,7 +357,7 @@ MCP servers run as subprocesses managed by Hermes. Each server:
 - **HTTP transport:** Remote, supports OAuth, good for shared servers (CorpusIQ, Honcho)
 - **Tool registration:** Automatic  --  Hermes discovers tools on connect
 
-**The CorpusIQ advantage:** 40+ business platforms through ONE MCP server. No managing 37 API keys, no 37 different auth flows. One OAuth, one server, 53 tools.
+**The CorpusIQ advantage:** 40+ business platforms through ONE MCP server. No managing 42 API keys, no 42 different auth flows. One OAuth, one server, 121 tools.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

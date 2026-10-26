@@ -3,7 +3,7 @@ title: "SEOforGPT MCP - AI Visibility & Engine Optimization"
 description: "Connect SEOforGPT to Hermes Agent. Audit AI visibility across ChatGPT, Claude, Perplexity, Gemini. Track competitors, generate AI-optimized content, publish"
 category: mcp
 tags: [mcp-server, seo, geo, ai-visibility, marketing, content-generation, competitor-tracking]
-last_updated: 2026-10-19
+last_updated: 2026-10-26
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/seoforgpt/"
 robots: "index,follow"
 
@@ -30,10 +30,12 @@ SEOforGPT is the first purpose-built Generative Engine Optimization (GEO) platfo
 
 ```bash
 # Add to Hermes
+# Verified 2026-10-26: api.seoforgpt.com answers DNS but serves no TLS vhost,
+# so the handshake fails. Confirm the current MCP endpoint with SEOforGPT.
 hermes mcp add seoforgpt --url https://api.seoforgpt.com/mcp
 
 # Authenticate
-hermes mcp auth seoforgpt
+hermes mcp login seoforgpt
 # → Connects to your SEOforGPT workspace
 # → Done. All client workspaces available.
 ```

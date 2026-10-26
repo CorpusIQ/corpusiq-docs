@@ -3,7 +3,7 @@ title: "agentiko-hermes - Setup Guide - CorpusIQ Docs"
 description: Hermes Agent features guide for the agentiko Telegram setup - cron, delegation, memory, automation, YOLO mode, dual-agent hunting, and slash commands.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentiko-hermes-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-26"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -57,7 +57,7 @@ The skill provides a reference guide. Key patterns documented:
 
 ## CorpusIQ Use Cases
 
-1. **Telegram agent operations** - Reference guide for CorpusIQ-connected agents operating via Telegram Topic 2
+1. **Agent operations reference** - Reference guide for CorpusIQ-connected agents operating across the ops email digest and CLI sessions
 2. **Cron management** - Best practices for multi-cron agent operations
 3. **Delegation patterns** - Multi-agent workflows for parallel task execution
 4. **Memory architecture** - Persistent memory patterns across CorpusIQ-connected agent sessions

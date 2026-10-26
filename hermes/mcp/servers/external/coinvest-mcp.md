@@ -3,7 +3,7 @@ title: "Co-Invest MCP - AI-Powered Investment Management"
 description: "Connect Co-Invest to Hermes Agent. Research, analyze, and manage investments directly from AI assistants. Invest with Claude and other AI agents."
 category: mcp
 tags: [mcp-server, co-invest, finance, investing, trading, portfolio-management, ai-agent]
-last_updated: 2026-10-19
+last_updated: 2026-10-26
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/coinvest-mcp/"
 robots: "index,follow"
 
@@ -30,10 +30,12 @@ Co-Invest MCP (`co-invest-mcp`) enables AI agents to participate in investment r
 
 ```bash
 # Add to Hermes (remote endpoint)
+# Verified 2026-10-26: api.liquid.trade does not resolve. Confirm the current
+# MCP endpoint with Liquid Trade before installing.
 hermes mcp add coinvest --url https://api.liquid.trade/coinvest/mcp
 
 # Authenticate
-hermes mcp auth coinvest
+hermes mcp login coinvest
 ```
 
 ## Manual Configuration

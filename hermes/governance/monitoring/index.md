@@ -3,7 +3,7 @@ title: "System Monitoring - CorpusIQ Docs"
 description: Health monitoring for autonomous agent deployments. Drift detection, alerting, performance audits, system governance.
 canonical: "https://www.corpusiq.io/docs/hermes/governance/monitoring/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-26"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -60,8 +60,8 @@ metric_spec_resolve("leads_this_week")
 
 | Severity | Channel | Example |
 |----------|---------|---------|
-| Critical | Telegram Topic 2 (dev) + DM | API key expired |
-| Warning | Telegram Topic 2 (dev) | Cron failure |
+| Critical | Ops email digest (media@) + Benoit DM | API key expired |
+| Warning | Ops email digest (media@) | Cron failure |
 | Info | Logged to activity-log.jsonl | Daily stats |
 
 ## System Audit
