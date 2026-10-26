@@ -35,4 +35,4 @@ The AI tool market is exploding. Content creators who review and recommend AI to
 
 ---
 
-*Join: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*Join: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-best-ai-programs)*

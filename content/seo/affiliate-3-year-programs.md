@@ -34,4 +34,4 @@ The difference: when a HubSpot referral hits month 13, your commission stops. Wh
 
 ---
 
-*CorpusIQ: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-3-year-programs)*

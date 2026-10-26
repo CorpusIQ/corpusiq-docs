@@ -31,4 +31,4 @@ Refer 20 companies. Earn $1,000/month. Over 3 years, that's $36,000 - from 20 re
 
 ---
 
-*CorpusIQ MCP Affiliate: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ MCP Affiliate: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-mcp-category)*

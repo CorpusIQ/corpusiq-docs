@@ -127,7 +127,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 ---
 
-**Next steps:** [Start AI-powered forecasting →](https://corpusiq.io/register)
+**Next steps:** [Start AI-powered forecasting →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-forecasting)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

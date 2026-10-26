@@ -13,13 +13,13 @@ Get your first CorpusIQ query running in under five minutes. Connect QuickBooks,
 
 ## Prerequisites
 
-- A [CorpusIQ account](https://corpusiq.io/register)
+- A [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quick-start)
 - At least one connected business tool (Gmail, Google Drive, Slack, Shopify, etc.)
 - A terminal with `curl` installed (for API usage)
 
 ## Step 1: Sign Up
 
-Create an account at [corpusiq.io/register](https://corpusiq.io/register). You can sign up with Google, Microsoft, or email. No credit card is required for the free tier.
+Create an account at [corpusiq.io/register](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quick-start). You can sign up with Google, Microsoft, or email. No credit card is required for the free tier.
 
 ## Step 2: Connect Your Tools
 
@@ -125,7 +125,7 @@ CorpusIQ is MCP-native. Connect it to your AI assistant to query your business t
 - **Claude**: Add CorpusIQ as an MCP server in Claude Desktop or the Anthropic API
 - **Perplexity**: Connect via the Perplexity integrations dashboard
 
-See the [MCP Integration Guide](https://corpusiq.io/mcp) for setup instructions.
+See the [MCP Integration Guide](https://www.corpusiq.io/mcp?utm_source=docs&utm_medium=referral&utm_campaign=docs-quick-start) for setup instructions.
 
 ## Next Steps
 

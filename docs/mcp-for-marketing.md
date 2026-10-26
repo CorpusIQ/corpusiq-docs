@@ -149,7 +149,7 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-mcp-for-marketing). No cap, no clawback.
 
 ## Internal Links
 

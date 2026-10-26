@@ -138,7 +138,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 ---
 
-**Next steps:** [Start your AI executive reporting →](https://corpusiq.io/register)
+**Next steps:** [Start your AI executive reporting →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-executive-reporting)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

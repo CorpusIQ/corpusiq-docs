@@ -131,7 +131,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 ---
 
-**Next steps:** [Start your AI PM transformation →](https://corpusiq.io/register)
+**Next steps:** [Start your AI PM transformation →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-project-management)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

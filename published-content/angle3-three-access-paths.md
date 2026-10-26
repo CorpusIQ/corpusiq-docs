@@ -30,6 +30,6 @@ mcpServers:
 
 🔗 https://corpusiq.io
 🎮 Demo: https://demo.corpusiq.io
-📖 MCP docs: https://corpusiq.io/mcp
+📖 MCP docs: https://www.corpusiq.io/mcp?utm_source=docs&utm_medium=referral&utm_campaign=published-content-angle3-three-access-paths
 
 #MCP #AIAgents #CorpusIQ #Slack #ChatGPT

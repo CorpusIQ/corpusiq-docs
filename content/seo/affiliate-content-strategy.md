@@ -45,4 +45,4 @@ Write 5 articles like this. That's $2,500-10,000/month. Recurring. For 3 years.
 
 ---
 
-*CorpusIQ affiliate: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ affiliate: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-content-strategy)*

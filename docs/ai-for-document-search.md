@@ -137,7 +137,7 @@ A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not ret
 
 ---
 
-**Next steps:** [Start AI-powered document search →](https://corpusiq.io/register)
+**Next steps:** [Start AI-powered document search →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-document-search)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

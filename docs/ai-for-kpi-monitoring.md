@@ -139,7 +139,7 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 ---
 
-**Next steps:** [Start AI-powered KPI monitoring →](https://corpusiq.io/register)
+**Next steps:** [Start AI-powered KPI monitoring →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-kpi-monitoring)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

@@ -18,7 +18,7 @@ in a personal chat, or explicitly share an answer with a group or team channel.
 
 You need:
 
-- An [active CorpusIQ account](https://www.corpusiq.io/register) with an eligible
+- An [active CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chat-apps-getting-started-teams) with an eligible
   trial or subscription. You will explicitly link this account to your Microsoft
   identity; the two email addresses do not need to match.
 - Permission to access the business data sources you connect to CorpusIQ.
@@ -48,7 +48,7 @@ tokens, or provider keys into a Teams conversation.
    ten minutes; if it expires, start a new sign-in. If the bot restarts while
    you are authorizing, the same command resumes the unexpired attempt.
 6. If you do not have a CorpusIQ account, use the
-   [registration link](https://www.corpusiq.io/register), then return to the
+   [registration link](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-chat-apps-getting-started-teams), then return to the
    personal chat and send `corpusiq-login` again.
 7. Once connected, resend your question. The bot does not save or automatically
    replay business questions from before sign-in.

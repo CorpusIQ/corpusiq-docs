@@ -127,7 +127,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 ---
 
-**Next steps:** [Achieve continuous audit readiness →](https://corpusiq.io/register)
+**Next steps:** [Achieve continuous audit readiness →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-audit-readiness)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

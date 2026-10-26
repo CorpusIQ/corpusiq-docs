@@ -156,7 +156,7 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 ---
 
-**Next steps:** [Start your AI-powered BI journey →](https://corpusiq.io/register) or [view all integrations](connectors.md)
+**Next steps:** [Start your AI-powered BI journey →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-business-intelligence) or [view all integrations](connectors.md)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

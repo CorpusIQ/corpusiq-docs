@@ -142,7 +142,7 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-mcp-for-agencies). No cap, no clawback.
 
 ## Internal Links
 

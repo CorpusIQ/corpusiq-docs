@@ -48,7 +48,7 @@ Use unique codes per language to prevent overwrites. Pattern: `[batch]_[lang_cod
 ## Pitfalls
 - Rentry rate limits after ~20 rapid POSTs - batch in groups of 10-15 with pauses
 - Non-Latin characters in edit_code can fail - use ASCII codes only
-- Always use full URL: https://www.corpusiq.io/affiliate
+- Always use full URL: https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=hermes-skills-growth-operations-worldwide-affiliate-mass-pub
 - Each page should be a complete landing page, not just a link
 
 ## HARD BLOCKS (non-negotiable)

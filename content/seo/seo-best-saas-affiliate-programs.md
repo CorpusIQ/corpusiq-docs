@@ -48,7 +48,7 @@ Three things make the CorpusIQ affiliate program different:
 
 ## How to apply
 
-https://www.corpusiq.io/affiliate - Free to join. Real-time dashboard. Monthly payouts.
+https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-seo-best-saas-affiliate-programs - Free to join. Real-time dashboard. Monthly payouts.
 
 ## What to look for in any program
 

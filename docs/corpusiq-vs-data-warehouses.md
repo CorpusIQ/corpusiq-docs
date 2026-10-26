@@ -151,12 +151,12 @@ A: Warehouses offer centralized access control. CorpusIQ inherits permissions fr
 
 Ready to put AI to work on your corpusiq vs data warehouses  --  mcp live query vs stored data data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-data-warehouses)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-data-warehouses)**
 
 ## Internal Links
 

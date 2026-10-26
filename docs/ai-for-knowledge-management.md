@@ -135,7 +135,7 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 
 ---
 
-**Next steps:** [Unlock your organizational knowledge →](https://corpusiq.io/register)
+**Next steps:** [Unlock your organizational knowledge →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-knowledge-management)
 
 *AI-powered AI for Knowledge Management | CorpusIQ MCP Platform for KM  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

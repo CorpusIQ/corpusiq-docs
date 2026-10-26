@@ -134,7 +134,7 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 ---
 
-**Next steps:** [Transform your support operations →](https://corpusiq.io/register)
+**Next steps:** [Transform your support operations →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-customer-support)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

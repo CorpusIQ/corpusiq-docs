@@ -29,4 +29,4 @@ A 25% commission for 36 months beats a 40% commission for 12 months. Every time.
 
 ---
 
-*CorpusIQ affiliate: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ affiliate: 25% for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-duration-matters)*

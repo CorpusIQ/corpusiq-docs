@@ -9,7 +9,7 @@ You have an audience. You want to earn. Here's exactly how.
 
 ## Step 1: Join
 
-Go to [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate). Sign up through Reditus or FirstPromoter. Get your unique tracking link.
+Go to [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-how-to-earn). Sign up through Reditus or FirstPromoter. Get your unique tracking link.
 
 ## Step 2: Pick your channel
 
@@ -42,4 +42,4 @@ And these customers stay for 3 years - your earnings compound.
 
 ---
 
-*Start earning: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*Start earning: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-how-to-earn)*

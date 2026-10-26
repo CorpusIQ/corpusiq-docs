@@ -57,7 +57,7 @@ Most SaaS tools cap affiliate commissions at 12 months. CorpusIQ pays 25% recurr
 
 The product connects business data to AI (37 tools, 5-minute setup). Operators ask questions in plain English instead of building reports.
 
-If you're looking for a SaaS affiliate program that actually rewards long-term referrals: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)
+If you're looking for a SaaS affiliate program that actually rewards long-term referrals: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-content-kit)
 
 ---
 
@@ -77,4 +77,4 @@ Answer helpfully first. Mention CorpusIQ naturally. If they ask for a link: "Her
 
 ---
 
-*CorpusIQ Affiliate Program: 25% recurring for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ Affiliate Program: 25% recurring for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-content-kit)*

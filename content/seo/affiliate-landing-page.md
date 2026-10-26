@@ -48,4 +48,4 @@ Questions: support@corpusiq.io
 
 ---
 
-Ready to earn? [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)
+Ready to earn? [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-landing-page)

@@ -54,7 +54,7 @@ Once you have the agents, connect them to your actual business.
 
 **40+ connectors. Read-only OAuth. CASA Tier 2. 30-day free trial. No credit card.**
 
-[Get CorpusIQ](https://corpusiq.io/register) | [View All Connectors](https://corpusiq.io/connectors)
+[Get CorpusIQ](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=hermes-agent-marketplace) | [View All Connectors](https://corpusiq.io/connectors)
 
 ---
 

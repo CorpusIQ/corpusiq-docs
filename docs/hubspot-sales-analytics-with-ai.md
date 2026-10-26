@@ -188,12 +188,12 @@ Yes. CorpusIQ is designed for sales organizations of all sizes. Enterprise featu
 
 Ready to unlock AI-powered insights from your CRM data?
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-sales-analytics-with-ai)  --  free plan available.
 2. **Connect your HubSpot CRM**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking sales analytics questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Use the prompt templates** in this guide to analyze your pipeline, reps, deals, and forecasts instantly.
 
-**[Start your AI-powered sales analytics now →](https://corpusiq.io/register)**
+**[Start your AI-powered sales analytics now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-sales-analytics-with-ai)**
 
 ## Internal Links
 

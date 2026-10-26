@@ -45,4 +45,4 @@ HubSpot pays more per month but stops at 12 months. CorpusIQ pays for 3 years. T
 
 ---
 
-*Join: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*Join: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-comparison-table)*

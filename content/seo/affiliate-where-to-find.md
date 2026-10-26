@@ -35,4 +35,4 @@ CorpusIQ: 25% recurring for 3 years, 90-day cookie, $200 average monthly plan = 
 
 ---
 
-*Sign up: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*Sign up: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-where-to-find)*

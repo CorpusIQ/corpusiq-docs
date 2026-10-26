@@ -127,7 +127,7 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 ---
 
-**Next steps:** [Transform your compliance operations →](https://corpusiq.io/register)
+**Next steps:** [Transform your compliance operations →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-compliance)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---

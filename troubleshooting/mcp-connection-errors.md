@@ -99,7 +99,7 @@ For CLI tools using device login, the config looks like:
 **Fix:**
 1. Wait 60 seconds and try again. CorpusIQ rate limits reset every minute
 2. Spread your queries out instead of firing them rapidly
-3. If you consistently hit rate limits, upgrade your plan at [corpusiq.io/pricing](https://corpusiq.io/pricing)
+3. If you consistently hit rate limits, upgrade your plan at [corpusiq.io/pricing](https://www.corpusiq.io/pricing?utm_source=docs&utm_medium=referral&utm_campaign=troubleshooting-mcp-connection-errors)
 
 ## Still stuck?
 

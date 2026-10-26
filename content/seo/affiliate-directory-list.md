@@ -47,4 +47,4 @@ Getting affiliates requires being visible where affiliate marketers look for pro
 
 ---
 
-*CorpusIQ Affiliate Program: 25% recurring for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ Affiliate Program: 25% recurring for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-directory-list)*

@@ -51,4 +51,4 @@ Email support@corpusiq.io. Real humans, not bots.
 
 ---
 
-*Join: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*Join: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-faq)*

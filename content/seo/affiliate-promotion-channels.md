@@ -41,4 +41,4 @@ Low effort, persistent visibility. Every email you send is an opportunity. Linkt
 
 ---
 
-*CorpusIQ pays 25% recurring for 3 years. Start earning: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ pays 25% recurring for 3 years. Start earning: [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-promotion-channels)*

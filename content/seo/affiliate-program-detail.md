@@ -43,4 +43,4 @@ Questions: support@corpusiq.io
 
 ---
 
-*CorpusIQ Affiliate Program: 25% recurring for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate)*
+*CorpusIQ Affiliate Program: 25% recurring for 3 years. [corpusiq.io/affiliate](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=content-seo-affiliate-program-detail)*

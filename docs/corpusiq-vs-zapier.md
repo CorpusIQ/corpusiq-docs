@@ -143,17 +143,17 @@ A: Both are designed for non-technical users. CorpusIQ connects in under 2 minut
 
 Ready to put AI to work on your corpusiq vs zapier  --  mcp real-time ai-native vs workflow automation data? 
 
-1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-zapier)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://corpusiq.io/register)**
+**[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-zapier)**
 
 
 ---
 
-**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate?utm_source=docs&utm_medium=referral&utm_campaign=docs-corpusiq-vs-zapier). No cap, no clawback.
 
 ## Internal Links
 
