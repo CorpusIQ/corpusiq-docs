@@ -24,7 +24,6 @@ Production crons run this agent autonomously 24/7. This is the complete referenc
 | Governance | 6 | Health monitoring, self-improvement, drift prevention, auth checks, directories |
 | Memory | 1 | Nightly dream cycle for knowledge consolidation |
 | Growth | 2 | Organic discovery, GEO tools |
-| Job Search | 1 | Daily executive job search (confidential) |
 | GitHub | 2 | Issue polling, auto-acknowledgment |
 | Release Monitor | 1 | Hermes Agent version tracking |
 
@@ -35,34 +34,29 @@ Production crons run this agent autonomously 24/7. This is the complete referenc
 ### Email Operations
 
 ```
-eef64b6eed8e  */15 * * * *     email-monitor           no_agent    email      
-              └─ Check media@ + info@ every 15 min
+*/15 * * * *     email-monitor           no_agent    email      
+              └─ Check both team mailboxes every 15 min
               └─ 4-tier classification: HIGH_VALUE, QUALIFIED, INTERESTED, SPAM
               └─ HIGH_VALUE → instant email alert → 30min SLA
 
-577abcb19c93  */15 * * * *     forward-handler         no_agent    local
-              └─ Forward job replies: media@ → personal inbox
-
-d6c65b56ba64  */30 * * * *     email-responder         AI agent    local
+*/30 * * * *     email-responder         AI agent    local
               └─ AI-powered HTML responses to qualified leads
               └─ Loads corpusiq-email-operating-rules + execution-discipline
 
-5497eb2abf2c  */30 * * * *     job-reply-forwarder     no_agent    local
-              └─ Backup forward handler for job search replies
 ```
 
 ### Social Publishing
 
 ```
-16ab362e7ca9  0 6,9,15 * * *   social-posting          AI agent    local
+0 6,9,15 * * *   social-posting          AI agent    local
               └─ 3x daily: 6 AM, 9 AM, 3 PM AZ
-              └─ X + LinkedIn Page via Postiz on Mac Mini
+              └─ X + LinkedIn Page via Postiz on a separate publishing node
               └─ Loads social-cadence-engine + execution-discipline
 
-225a69ff30da  0 7,14 * * *     daily-rotation          AI agent    local
+0 7,14 * * *     daily-rotation          AI agent    local
               └─ 2 X posts promoting CorpusIQ via Postiz
 
-e9c856a66eca  0 8,16 * * 1-5   github-mcp-promotion    AI agent    local
+0 8,16 * * 1-5   github-mcp-promotion    AI agent    local
               └─ Weekdays: 8 AM, 4 PM AZ
               └─ GitHub contributions + natural CorpusIQ mentions
 ```
@@ -70,114 +64,106 @@ e9c856a66eca  0 8,16 * * 1-5   github-mcp-promotion    AI agent    local
 ### Content Operations
 
 ```
-8ec41d554bc6  0 6 * * *        video-pipeline          AI agent    local
+0 6 * * *        video-pipeline          AI agent    local
               └─ Daily 6 AM: UGC video generation
               └─ HeyGen v2 API → FFmpeg → Email for review → Postiz publish
               └─ 10 scenario library, 6-avatar rotation, 14-day no-repeat
 
-fc7d32e3d588  0 8,11,14,17,20  cross-platform-monitor  AI agent    email      
+0 8,11,14,17,20  cross-platform-monitor  AI agent    email      
               └─ 5x daily: Check all platforms for new comments/messages
 ```
 
 ### Community Engagement
 
 ```
-ddacec4011bd  0 6,8,10,12,15,17 help-first-commenting  AI agent    local
+0 6,8,10,12,15,17 help-first-commenting  AI agent    local
               └─ 6x daily: Find operators asking questions
               └─ Answer helpfully  --  mention product only if relevant
               └─ Skip banned platforms (Reddit, HN)
 
-079b3604c42e  0 5,7,10,17 * * * github-issue-engagement AI agent   local
+0 5,7,10,17 * * * github-issue-engagement AI agent   local
               └─ 4x daily: Help-first on high-value issues
               └─ 5 AM, 7 AM, 10 AM, 5 PM AZ
 
-2269fb270a77  0 8 * * *         daily-channel-scan      AI agent    email      
+0 8 * * *         daily-channel-scan      AI agent    email      
               └─ Scan all platforms for mentions, comments, engagement
 
-aa2fafce8d80  0 10,15 * * *     ig-comment-monitor      AI agent    email      
+0 10,15 * * *     ig-comment-monitor      AI agent    email      
               └─ Instagram comment monitoring + helpful replies
 ```
 
 ### Research & Discovery
 
 ```
-c3e3df5974f2  0 */6 * * *       tech-research           AI agent    local
+0 */6 * * *       tech-research           AI agent    local
               └─ Every 6 hours: Discover new tools, AI developments
 
-834a43fb1148  0 3,11,19 * * *   mcp-server-monitor      AI agent    email      
+0 3,11,19 * * *   mcp-server-monitor      AI agent    email      
               └─ 3x daily: Check mcp.so, mcpservers.org for new servers
 
-48d37f56d35c  0 4,12,20 * * *   skills-monitor          AI agent    email      
+0 4,12,20 * * *   skills-monitor          AI agent    email      
               └─ 3x daily: Check skills.sh for new skills
 
-9ad1f43ff06b  0 9 * * *         github-daily-discovery  AI agent    local
+0 9 * * *         github-daily-discovery  AI agent    local
               └─ Find new GitHub directories to submit CorpusIQ to
 
-d3bb38ade338  15 */2 * * *      ph-rss-monitor          no_agent    local
+15 */2 * * *      ph-rss-monitor          no_agent    local
               └─ Every 2 hours: Product Hunt RSS for competitor launches
 ```
 
 ### Governance
 
 ```
-5ad87b93dc3b  0 22 * * *        system-health-monitor   AI agent    email      
+0 22 * * *        system-health-monitor   AI agent    email      
               └─ 10 PM: Verify all crons, tokens, APIs operational
 
-5a837c3d87f9  0 23 * * *        daily-self-improvement  AI agent    local
+0 23 * * *        daily-self-improvement  AI agent    local
               └─ 11 PM: Review mistakes, patch skills, update memory
 
-4c5a50f21ea2  0 1 * * *         drift-prevention        AI agent    email      
+0 1 * * *         drift-prevention        AI agent    email      
               └─ 1 AM: Governance integrity  --  registry, skills, memory sync
 
-f44fa8b3b0b1  0 7 * * *         auth-health-check       no_agent    local
+0 7 * * *         auth-health-check       no_agent    local
               └─ 7 AM: Verify all OAuth tokens and API keys
 
-d87b726f0c7c  0 10 * * *        mcp-directory-check     AI agent    local
+0 10 * * *        mcp-directory-check     AI agent    local
               └─ Verify MCP directory listings still live
 
-0de31ae4fd9b  0 * * * *         docs-repo-monitor       no_agent    local
+0 * * * *         docs-repo-monitor       no_agent    local
               └─ Hourly: Monitor corpusiq-docs for new PRs/issues
 ```
 
 ### Memory
 
 ```
-be6ee0113368  0 3 * * *         gbrain-dream            AI agent    local
+0 3 * * *         gbrain-dream            AI agent    local
               └─ 3 AM: Memory consolidation  --  merge, deduplicate, strengthen
 ```
 
 ### Growth
 
 ```
-57d13bdb4201  0 7,19 * * *      organic-discovery       AI agent    email      
+0 7,19 * * *      organic-discovery       AI agent    email      
               └─ 7 AM + 7 PM: Find organic promotion opportunities
 
-c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    email      
+0 7 * * *         daily-growth-geo        AI agent    email      
               └─ 7 AM: Growth tools + GEO directory maintenance
-```
-
-### Job Search
-
-```
-06f4f056ade8  0 7 * * *         executive-job-search       AI agent    email      
-              └─ 7 AM: Search for executive roles, generate resumes
-              └─ CONFIDENTIAL  --  never mention CorpusIQ
 ```
 
 ### GitHub Automation
 
 ```
-7a6a4007c834  * * * * *         github-issue-poll       no_agent    email      
+* * * * *         github-issue-poll       no_agent    email      
               └─ Every minute: Poll GitHub issues
 
-2d3a157ec92c  0 */6 * * *       auto-ack-issues         no_agent    email      
+0 */6 * * *       auto-ack-issues         no_agent    email      
               └─ Every 6 hours: Auto-ack enhancement issues (draft)
 ```
 
 ### Hermes Release
 
 ```
-be2bee6a3f05  0 2,10,18 * * *   hermes-release-monitor  AI agent    email      
+0 2,10,18 * * *   hermes-release-monitor  AI agent    email      
               └─ 3x daily: Check for new Hermes releases
 ```
 
