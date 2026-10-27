@@ -11348,63 +11348,63 @@
 </tbody>
 </table>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our top 5 Shopify orders this month?&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;connectors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;shopify&quot;</span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;max_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span>
+<span class="w">  </span><span class="nt">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"What were our top 5 Shopify orders this month?"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"connectors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"shopify"</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">"max_results"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="response">Response<a class="headerlink" href="#response" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qry_a1b2c3d4e5f6&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our top 5 Shopify orders this month?&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="nt">"query_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"qry_a1b2c3d4e5f6"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"What were our top 5 Shopify orders this month?"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"results"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;connector&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;shopify&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;source_label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Shopify Orders&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;chunks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="nt">"connector"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shopify"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"source_label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shopify Orders"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"chunks"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;chunk_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;chnk_x1y2&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;source_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://admin.shopify.com/store/.../orders/12345&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;relevance_score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.98</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;order_total&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;4299.00&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;currency&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;customer_email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;customer@example.com&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-14T10:30:00Z&quot;</span>
+<span class="w">          </span><span class="nt">"chunk_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"chnk_x1y2"</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com"</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">"source_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://admin.shopify.com/store/.../orders/12345"</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">"relevance_score"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.98</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">"metadata"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">"order_total"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4299.00"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"currency"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USD"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"customer_email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"customer@example.com"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-06-14T10:30:00Z"</span>
 <span class="w">          </span><span class="p">}</span>
 <span class="w">        </span><span class="p">}</span>
 <span class="w">      </span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;search_summary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;connectors_searched&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;total_chunks_found&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;duration_ms&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">847</span>
+<span class="w">  </span><span class="nt">"search_summary"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"connectors_searched"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"total_chunks_found"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"duration_ms"</span><span class="p">:</span><span class="w"> </span><span class="mi">847</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="code-examples">Code Examples<a class="headerlink" href="#code-examples" title="Anchor link to this section">&para;</a></h3>
 <p><strong>cURL</strong></p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-<span class="s1">    &quot;query&quot;: &quot;Show me recent HubSpot deals over $10,000&quot;,</span>
-<span class="s1">    &quot;connectors&quot;: [&quot;hubspot&quot;],</span>
-<span class="s1">    &quot;max_results&quot;: 5</span>
-<span class="s1">  }&#39;</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer &lt;token&gt;"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{</span>
+<span class="s1">    "query": "Show me recent HubSpot deals over $10,000",</span>
+<span class="s1">    "connectors": ["hubspot"],</span>
+<span class="s1">    "max_results": 5</span>
+<span class="s1">  }'</span>
 </code></pre></div>
 <p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">"POST"</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;Content-Type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"Content-Type"</span><span class="o">:</span><span class="w"> </span><span class="s2">"application/json"</span><span class="p">,</span>
 <span class="w">  </span><span class="p">},</span>
 <span class="w">  </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
-<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">connectors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;hubspot&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">"Show me recent HubSpot deals over $10,000"</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">connectors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"hubspot"</span><span class="p">],</span>
 <span class="w">    </span><span class="nx">max_results</span><span class="o">:</span><span class="w"> </span><span class="mf">5</span><span class="p">,</span>
 <span class="w">  </span><span class="p">}),</span>
 <span class="p">});</span>
@@ -11413,25 +11413,25 @@
 <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">results</span><span class="p">);</span>
 </code></pre></div>
 <p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
+    <span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
     <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
+        <span class="s2">"Authorization"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="s2">"Content-Type"</span><span class="p">:</span> <span class="s2">"application/json"</span><span class="p">,</span>
     <span class="p">},</span>
     <span class="n">json</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;connectors&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hubspot&quot;</span><span class="p">],</span>
-        <span class="s2">&quot;max_results&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+        <span class="s2">"query"</span><span class="p">:</span> <span class="s2">"Show me recent HubSpot deals over $10,000"</span><span class="p">,</span>
+        <span class="s2">"connectors"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"hubspot"</span><span class="p">],</span>
+        <span class="s2">"max_results"</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
     <span class="p">},</span>
 <span class="p">)</span>
 
 <span class="n">data</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">]:</span>
-    <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">result</span><span class="p">[</span><span class="s2">&quot;chunks&quot;</span><span class="p">]:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">chunk</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">])</span>
+<span class="k">for</span> <span class="n">result</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">"results"</span><span class="p">]:</span>
+    <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">result</span><span class="p">[</span><span class="s2">"chunks"</span><span class="p">]:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">chunk</span><span class="p">[</span><span class="s2">"content"</span><span class="p">])</span>
 </code></pre></div>
 <hr />
 <h2 id="post-deep_search">POST /deep_search<a class="headerlink" href="#post-deep_search" title="Anchor link to this section">&para;</a></h2>
@@ -11478,66 +11478,66 @@
 </tbody>
 </table>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;max_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;date_from&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span>
+<span class="w">  </span><span class="nt">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Q3 revenue projections"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"max_results"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"date_from"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-01-01T00:00:00Z"</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="response_1">Response<a class="headerlink" href="#response_1" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ds_a1b2c3d4e5&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;archive_results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="nt">"query_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ds_a1b2c3d4e5"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Q3 revenue projections"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"archive_results"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;original_query_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qry_abc123&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;original_query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What were our Q2 revenue projections from QuickBooks?&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;matched_chunk&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Q2 projected revenue: $847,200 based on invoiced orders...&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;source_connector&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;quickbooks&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;queried_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-04-15T14:22:00Z&quot;</span>
+<span class="w">      </span><span class="nt">"original_query_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"qry_abc123"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"original_query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"What were our Q2 revenue projections from QuickBooks?"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"matched_chunk"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Q2 projected revenue: $847,200 based on invoiced orders..."</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"source_connector"</span><span class="p">:</span><span class="w"> </span><span class="s2">"quickbooks"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"queried_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-04-15T14:22:00Z"</span>
 <span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="nt">&quot;similarity_score&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.87</span>
+<span class="w">      </span><span class="nt">"similarity_score"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.87</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;total_matches&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;duration_ms&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">312</span>
+<span class="w">  </span><span class="nt">"total_matches"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"duration_ms"</span><span class="p">:</span><span class="w"> </span><span class="mi">312</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="code-examples_1">Code Examples<a class="headerlink" href="#code-examples_1" title="Anchor link to this section">&para;</a></h3>
 <p><strong>cURL</strong></p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
-<span class="s1">    &quot;query&quot;: &quot;Q3 revenue projections&quot;,</span>
-<span class="s1">    &quot;max_results&quot;: 10,</span>
-<span class="s1">    &quot;date_from&quot;: &quot;2026-01-01T00:00:00Z&quot;</span>
-<span class="s1">  }&#39;</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer &lt;token&gt;"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{</span>
+<span class="s1">    "query": "Q3 revenue projections",</span>
+<span class="s1">    "max_results": 10,</span>
+<span class="s1">    "date_from": "2026-01-01T00:00:00Z"</span>
+<span class="s1">  }'</span>
 </code></pre></div>
 <p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">"POST"</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;Content-Type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"Content-Type"</span><span class="o">:</span><span class="w"> </span><span class="s2">"application/json"</span><span class="p">,</span>
 <span class="w">  </span><span class="p">},</span>
 <span class="w">  </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
-<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">"Q3 revenue projections"</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">max_results</span><span class="o">:</span><span class="w"> </span><span class="mf">10</span><span class="p">,</span>
-<span class="w">    </span><span class="nx">date_from</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">date_from</span><span class="o">:</span><span class="w"> </span><span class="s2">"2026-01-01T00:00:00Z"</span><span class="p">,</span>
 <span class="w">  </span><span class="p">}),</span>
 <span class="p">});</span>
 </code></pre></div>
 <p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">},</span>
+    <span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
+    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">"Authorization"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"Content-Type"</span><span class="p">:</span> <span class="s2">"application/json"</span><span class="p">},</span>
     <span class="n">json</span><span class="o">=</span><span class="p">{</span>
-        <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;max_results&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
-        <span class="s2">&quot;date_from&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-01-01T00:00:00Z&quot;</span><span class="p">,</span>
+        <span class="s2">"query"</span><span class="p">:</span> <span class="s2">"Q3 revenue projections"</span><span class="p">,</span>
+        <span class="s2">"max_results"</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+        <span class="s2">"date_from"</span><span class="p">:</span> <span class="s2">"2026-01-01T00:00:00Z"</span><span class="p">,</span>
     <span class="p">},</span>
 <span class="p">)</span>
 </code></pre></div>

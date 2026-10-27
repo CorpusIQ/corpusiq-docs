@@ -11120,7 +11120,7 @@ openssl<span class="w"> </span>pkey<span class="w"> </span>-in<span class="w"> <
 </code></pre></div>
 <p>Write credentials to the global config file yourself rather than passing them on a command line:</p>
 <div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>-p<span class="w"> </span>~/.config/gmgn
-<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;GMGN_API_KEY=&lt;your_key&gt;&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>~/.config/gmgn/.env
+<span class="nb">echo</span><span class="w"> </span><span class="s1">'GMGN_API_KEY=&lt;your_key&gt;'</span><span class="w"> </span>&gt;<span class="w"> </span>~/.config/gmgn/.env
 chmod<span class="w"> </span><span class="m">600</span><span class="w"> </span>~/.config/gmgn/.env
 </code></pre></div>
 <p>The README's own flow pipes the key through <code>gmgn-cli config --apply &lt;KEY&gt;</code> and generates the key pair in <code>/tmp</code>. Both are the exact behaviours Snyk flags below, so write the env file directly and generate the PEM outside <code>/tmp</code> if the machine is shared. <code>GMGN_PRIVATE_KEY</code> is only needed for swap, order and launch skills, and the publisher states plainly that it is a request-signing key for the API, not a blockchain wallet private key.</p>

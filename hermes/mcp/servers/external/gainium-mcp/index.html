@@ -11195,13 +11195,13 @@ docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> 
 <p>This spins up the full stack: API server, strategy engine, database, Redis, and frontend.</p>
 <h3 id="2-configure-your-mcp-client">2. Configure Your MCP Client<a class="headerlink" href="#2-configure-your-mcp-client" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;gainium&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;docker&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;exec&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;-i&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;gainium-mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;node&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/app/mcp-server.js&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;GAINIUM_API_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://localhost:3001&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;GAINIUM_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-api-key&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"gainium"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"docker"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"exec"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-i"</span><span class="p">,</span><span class="w"> </span><span class="s2">"gainium-mcp"</span><span class="p">,</span><span class="w"> </span><span class="s2">"node"</span><span class="p">,</span><span class="w"> </span><span class="s2">"/app/mcp-server.js"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"GAINIUM_API_URL"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://localhost:3001"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"GAINIUM_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-api-key"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11216,11 +11216,11 @@ docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> 
 <div class="highlight"><pre><span></span><code><span class="c1"># ~/.hermes/config.yaml</span>
 <span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">gainium</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;docker&quot;</span>
-<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;exec&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;-i&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;gainium-mcp&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;node&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;/app/mcp-server.js&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="s">"docker"</span>
+<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"exec"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"-i"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"gainium-mcp"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"node"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"/app/mcp-server.js"</span><span class="p p-Indicator">]</span>
 <span class="w">    </span><span class="nt">env</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">GAINIUM_API_URL</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://localhost:3001&quot;</span>
-<span class="w">      </span><span class="nt">GAINIUM_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${GAINIUM_API_KEY}&quot;</span>
+<span class="w">      </span><span class="nt">GAINIUM_API_URL</span><span class="p">:</span><span class="w"> </span><span class="s">"http://localhost:3001"</span>
+<span class="w">      </span><span class="nt">GAINIUM_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">"${GAINIUM_API_KEY}"</span>
 </code></pre></div>
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <ol>

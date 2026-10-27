@@ -11212,18 +11212,18 @@ agent-browser<span class="w"> </span>upgrade
 agent-browser<span class="w"> </span>open<span class="w"> </span>example.com
 agent-browser<span class="w"> </span>snapshot
 agent-browser<span class="w"> </span>click<span class="w"> </span>@e2
-agent-browser<span class="w"> </span>fill<span class="w"> </span>@e3<span class="w"> </span><span class="s2">&quot;test@example.com&quot;</span>
+agent-browser<span class="w"> </span>fill<span class="w"> </span>@e3<span class="w"> </span><span class="s2">"test@example.com"</span>
 agent-browser<span class="w"> </span>get<span class="w"> </span>text<span class="w"> </span>@e1
 agent-browser<span class="w"> </span>screenshot<span class="w"> </span>page.png
 agent-browser<span class="w"> </span>close
 
 <span class="c1"># Traditional selectors</span>
-agent-browser<span class="w"> </span>click<span class="w"> </span><span class="s2">&quot;#submit&quot;</span>
-agent-browser<span class="w"> </span>fill<span class="w"> </span><span class="s2">&quot;input[name=&#39;email&#39;]&quot;</span><span class="w"> </span><span class="s2">&quot;user@test.com&quot;</span>
+agent-browser<span class="w"> </span>click<span class="w"> </span><span class="s2">"#submit"</span>
+agent-browser<span class="w"> </span>fill<span class="w"> </span><span class="s2">"input[name='email']"</span><span class="w"> </span><span class="s2">"user@test.com"</span>
 
 <span class="c1"># JavaScript evaluation</span>
-agent-browser<span class="w"> </span><span class="nb">eval</span><span class="w"> </span><span class="s2">&quot;document.title&quot;</span>
-agent-browser<span class="w"> </span><span class="nb">eval</span><span class="w"> </span><span class="s2">&quot;JSON.stringify(window.__NEXT_DATA__)&quot;</span>
+agent-browser<span class="w"> </span><span class="nb">eval</span><span class="w"> </span><span class="s2">"document.title"</span>
+agent-browser<span class="w"> </span><span class="nb">eval</span><span class="w"> </span><span class="s2">"JSON.stringify(window.__NEXT_DATA__)"</span>
 
 <span class="c1"># Daemon mode for persistent sessions</span>
 agent-browser<span class="w"> </span>daemon<span class="w"> </span>--port<span class="w"> </span><span class="m">3000</span>

@@ -11212,12 +11212,12 @@
 3. <strong>SSH overhead</strong>  --  Remote process execution requires SSH; reports must be scp'd</p>
 <h3 id="the-solution-drop-in-mailbox-dont-call">The Solution: "Drop in Mailbox, Don't Call"<a class="headerlink" href="#the-solution-drop-in-mailbox-dont-call" title="Anchor link to this section">&para;</a></h3>
 <p>AgentMesh replaces synchronous HTTP with <strong>Redis-backed named inboxes</strong> (<code>inbox:&lt;NODE_NAME&gt;</code>). Any node pushes a task to any inbox; workers listen and process asynchronously. The mailbox is the protocol.</p>
-<div class="highlight"><pre><span></span><code>HTTP Synchronous (&quot;phone call&quot;)     Redis Queue (&quot;mailbox&quot;)
-requests.post(url, timeout=600)     redis.lpush(&quot;inbox:bobo&quot;, task_json)
+<div class="highlight"><pre><span></span><code>HTTP Synchronous ("phone call")     Redis Queue ("mailbox")
+requests.post(url, timeout=600)     redis.lpush("inbox:bobo", task_json)
 Client blocks waiting               Client returns immediately
 Timeout at 5-10 minutes             Hours-long tasks OK
 Cross-machine needs SSH             0 SSH  --  shared Redis + HTTP LLM
-Report must be scp&#39;d                Report lands on initiator&#39;s machine
+Report must be scp'd                Report lands on initiator's machine
 </code></pre></div>
 <h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>┌─────────── Mac mini (central hub) ───────────┐
@@ -11250,7 +11250,7 @@ Report must be scp&#39;d                Report lands on initiator&#39;s machine
 <div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">://</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">markwang2658</span><span class="p">/</span><span class="n">hermes-windows-native</span><span class="p">.</span><span class="n">git</span> <span class="n">hermes-windows</span>
 <span class="nb">cd </span><span class="n">hermes-windows</span>
 <span class="n">python</span> <span class="n">-m</span> <span class="n">venv</span> <span class="p">.</span><span class="n">venv</span>
-<span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span><span class="p">.</span><span class="n">exe</span> <span class="n">-m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">-e</span> <span class="s2">&quot;.[all]&quot;</span>  <span class="c"># Agent</span>
+<span class="p">.\.</span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">python</span><span class="p">.</span><span class="n">exe</span> <span class="n">-m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">-e</span> <span class="s2">".[all]"</span>  <span class="c"># Agent</span>
 <span class="c"># Install WebUI deps, then:</span>
 <span class="p">.\</span><span class="n">hermes-start</span><span class="p">\</span><span class="n">hermes-start</span><span class="p">.</span><span class="n">ps1</span>  <span class="c"># One-click startup</span>
 </code></pre></div>

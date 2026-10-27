@@ -11317,35 +11317,35 @@ parallel-cli<span class="w"> </span>auth<span class="w"> </span>login
 <h3 id="competitive-monitoring">Competitive Monitoring<a class="headerlink" href="#competitive-monitoring" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Monitor competitor pricing pages for changes</span>
 /parallel:monitor<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://competitor.com/pricing&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://competitor.com/pricing"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--check-interval<span class="w"> </span>6h<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--alert-on<span class="w"> </span><span class="s2">&quot;price change&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--alert-on<span class="w"> </span><span class="s2">"price change"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--notify<span class="w"> </span>telegram
 
 <span class="c1"># Monitor competitor blog for new posts</span>
 /parallel:monitor<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://competitor.com/blog&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://competitor.com/blog"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--check-interval<span class="w"> </span>24h<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--alert-on<span class="w"> </span><span class="s2">&quot;new article&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--alert-on<span class="w"> </span><span class="s2">"new article"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--extract-title-and-summary
 </code></pre></div>
 <h3 id="market-research">Market Research<a class="headerlink" href="#market-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Deep research on a market segment</span>
 /parallel:deep-research<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--topic<span class="w"> </span><span class="s2">&quot;AI agent orchestration platforms 2026&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--topic<span class="w"> </span><span class="s2">"AI agent orchestration platforms 2026"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--sources<span class="w"> </span><span class="m">10</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--output<span class="w"> </span>market-research.md
 
 <span class="c1"># Search for specific intel</span>
 /parallel:search<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--query<span class="w"> </span><span class="s2">&quot;CorpusIQ competitors funding announcements 2026&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--query<span class="w"> </span><span class="s2">"CorpusIQ competitors funding announcements 2026"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--max-results<span class="w"> </span><span class="m">15</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--output<span class="w"> </span>competitor-intel.json
 </code></pre></div>
 <h3 id="content-research">Content Research<a class="headerlink" href="#content-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Extract content from multiple URLs for blog research</span>
 /parallel:extract<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--urls<span class="w"> </span><span class="s2">&quot;https://example1.com,https://example2.com,https://example3.com&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--urls<span class="w"> </span><span class="s2">"https://example1.com,https://example2.com,https://example3.com"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--format<span class="w"> </span>markdown<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--output<span class="w"> </span>research-notes.md
 
@@ -11359,7 +11359,7 @@ parallel-cli<span class="w"> </span>auth<span class="w"> </span>login
 <h3 id="social-media-monitoring">Social Media Monitoring<a class="headerlink" href="#social-media-monitoring" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Monitor brand mentions (combined with web search)</span>
 /parallel:monitor<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--search<span class="w"> </span><span class="s2">&quot;CorpusIQ&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--search<span class="w"> </span><span class="s2">"CorpusIQ"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--sources<span class="w"> </span>web,news,social<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--check-interval<span class="w"> </span>12h<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--output-dir<span class="w"> </span>./brand-monitoring/
@@ -11440,15 +11440,15 @@ parallel-cli<span class="w"> </span>auth<span class="w"> </span>login
 <h2 id="integration-with-hermes-agent">Integration with Hermes Agent<a class="headerlink" href="#integration-with-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <h3 id="direct-cli-usage">Direct CLI Usage<a class="headerlink" href="#direct-cli-usage" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># From Hermes terminal</span>
-parallel-cli<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;hermes agent plugins&quot;</span><span class="w"> </span>--max-results<span class="w"> </span><span class="m">10</span>
-parallel-cli<span class="w"> </span>extract<span class="w"> </span><span class="s2">&quot;https://example.com&quot;</span><span class="w"> </span>--format<span class="w"> </span>markdown
-parallel-cli<span class="w"> </span>monitor<span class="w"> </span>--url<span class="w"> </span><span class="s2">&quot;https://target.com&quot;</span><span class="w"> </span>--interval<span class="w"> </span>6h
+parallel-cli<span class="w"> </span>search<span class="w"> </span><span class="s2">"hermes agent plugins"</span><span class="w"> </span>--max-results<span class="w"> </span><span class="m">10</span>
+parallel-cli<span class="w"> </span>extract<span class="w"> </span><span class="s2">"https://example.com"</span><span class="w"> </span>--format<span class="w"> </span>markdown
+parallel-cli<span class="w"> </span>monitor<span class="w"> </span>--url<span class="w"> </span><span class="s2">"https://target.com"</span><span class="w"> </span>--interval<span class="w"> </span>6h
 </code></pre></div>
 <h3 id="via-claude-code-plugin">Via Claude Code Plugin<a class="headerlink" href="#via-claude-code-plugin" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Interactive within Hermes Claude Code session</span>
-/parallel:search<span class="w"> </span>--query<span class="w"> </span><span class="s2">&quot;latest AI agent frameworks&quot;</span><span class="w"> </span>--max<span class="w"> </span><span class="m">5</span>
-/parallel:deep-research<span class="w"> </span>--topic<span class="w"> </span><span class="s2">&quot;agent memory systems comparison&quot;</span>
-/parallel:monitor<span class="w"> </span>--url<span class="w"> </span><span class="s2">&quot;https://competitor.com&quot;</span><span class="w"> </span>--interval<span class="w"> </span>12h
+/parallel:search<span class="w"> </span>--query<span class="w"> </span><span class="s2">"latest AI agent frameworks"</span><span class="w"> </span>--max<span class="w"> </span><span class="m">5</span>
+/parallel:deep-research<span class="w"> </span>--topic<span class="w"> </span><span class="s2">"agent memory systems comparison"</span>
+/parallel:monitor<span class="w"> </span>--url<span class="w"> </span><span class="s2">"https://competitor.com"</span><span class="w"> </span>--interval<span class="w"> </span>12h
 </code></pre></div>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>

@@ -11177,18 +11177,18 @@ hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w
 <span class="w">  </span><span class="c1"># Backend-specific configs (only one needed):</span>
 <span class="w">  </span><span class="nt">deepseek</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEEPSEEK_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://api.deepseek.com/v1&quot;</span>
+<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://api.deepseek.com/v1"</span>
 
 <span class="w">  </span><span class="nt">openrouter</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OPENROUTER_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://openrouter.ai/api/v1&quot;</span>
+<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://openrouter.ai/api/v1"</span>
 
 <span class="w">  </span><span class="nt">openai_compatible</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OPENAI_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${OPENAI_BASE_URL}&quot;</span>
+<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">"${OPENAI_BASE_URL}"</span>
 
 <span class="w">  </span><span class="nt">ollama</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://localhost:11434&quot;</span>
+<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">"http://localhost:11434"</span>
 </code></pre></div>
 <h2 id="4-capabilities">4. Capabilities<a class="headerlink" href="#4-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -11248,7 +11248,7 @@ hermes<span class="w"> </span>ershov<span class="w"> </span>review<span class="w
 hermes<span class="w"> </span>ershov<span class="w"> </span>inspect<span class="w"> </span>&lt;proposal-id&gt;<span class="w">     </span><span class="c1"># View full diff</span>
 hermes<span class="w"> </span>ershov<span class="w"> </span>validate<span class="w"> </span>&lt;proposal-id&gt;<span class="w">    </span><span class="c1"># Validate against constraints</span>
 hermes<span class="w"> </span>ershov<span class="w"> </span>approve<span class="w"> </span>&lt;proposal-id&gt;<span class="w">     </span><span class="c1"># Approve for application</span>
-hermes<span class="w"> </span>ershov<span class="w"> </span>reject<span class="w"> </span>&lt;proposal-id&gt;<span class="w"> </span>--reason<span class="w"> </span><span class="s2">&quot;factually incorrect&quot;</span>
+hermes<span class="w"> </span>ershov<span class="w"> </span>reject<span class="w"> </span>&lt;proposal-id&gt;<span class="w"> </span>--reason<span class="w"> </span><span class="s2">"factually incorrect"</span>
 hermes<span class="w"> </span>ershov<span class="w"> </span>apply<span class="w"> </span>&lt;proposal-id&gt;<span class="w">       </span><span class="c1"># Write to live memory</span>
 
 <span class="c1"># Rollback</span>
@@ -11284,7 +11284,7 @@ hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&
 <span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deepseek-chat</span>
 <span class="w">  </span><span class="nt">deepseek</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">api_key_env</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEEPSEEK_API_KEY</span>
-<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://api.deepseek.com/v1&quot;</span>
+<span class="w">    </span><span class="nt">base_url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://api.deepseek.com/v1"</span>
 </code></pre></div>
 <p><strong>Integration with CorpusIQ's existing memory stack:</strong>
 - Ershov complements (doesn't replace) Hermes' built-in <code>memory</code> tool

@@ -11114,7 +11114,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 <div class="highlight"><pre><span></span><code><span class="c1"># ~/.hermes/config.yaml  </span>
 <span class="nt">plugins</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">agentcairn</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">vault_path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;~/Documents/Obsidian&quot;</span><span class="w">  </span><span class="c1"># Path to your Obsidian vault</span>
+<span class="w">    </span><span class="nt">vault_path</span><span class="p">:</span><span class="w"> </span><span class="s">"~/Documents/Obsidian"</span><span class="w">  </span><span class="c1"># Path to your Obsidian vault</span>
 <span class="w">    </span><span class="nt">auto_index</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">                     </span><span class="c1"># Index vault on Hermes start</span>
 <span class="w">    </span><span class="nt">injection_mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">context</span><span class="w">              </span><span class="c1"># context | prompt | both</span>
 <span class="w">    </span><span class="nt">max_tokens</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">4000</span><span class="w">                     </span><span class="c1"># Max tokens to inject per session</span>
@@ -11125,10 +11125,10 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 agentcairn<span class="w"> </span>index<span class="w"> </span>--vault<span class="w"> </span>~/Documents/Obsidian
 
 <span class="c1"># Search memories</span>
-agentcairn<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;python async patterns&quot;</span>
+agentcairn<span class="w"> </span>search<span class="w"> </span><span class="s2">"python async patterns"</span>
 
 <span class="c1"># See what AgentCairn knows about a topic</span>
-agentcairn<span class="w"> </span>context<span class="w"> </span><span class="s2">&quot;CorpusIQ deployment&quot;</span>
+agentcairn<span class="w"> </span>context<span class="w"> </span><span class="s2">"CorpusIQ deployment"</span>
 
 <span class="c1"># Start MCP server for other agents</span>
 agentcairn<span class="w"> </span>serve<span class="w"> </span>--port<span class="w"> </span><span class="m">9090</span>
@@ -11138,7 +11138,7 @@ agentcairn<span class="w"> </span>serve<span class="w"> </span>--port<span class
 agentcairn<span class="w"> </span>index<span class="w"> </span>--vault<span class="w"> </span>~/Documents/Obsidian<span class="w"> </span>--dry-run
 
 <span class="c1"># Test search</span>
-agentcairn<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;test query&quot;</span>
+agentcairn<span class="w"> </span>search<span class="w"> </span><span class="s2">"test query"</span>
 
 <span class="c1"># Check plugin status</span>
 hermes<span class="w"> </span>plugins<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>agentcairn

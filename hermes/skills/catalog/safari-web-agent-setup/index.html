@@ -11194,8 +11194,8 @@
 </table>
 <h3 id="macos-permissions-setup">macOS Permissions Setup<a class="headerlink" href="#macos-permissions-setup" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Enable Safari remote automation</span>
-<span class="c1"># Safari → Settings → Advanced → &quot;Show features for web developers&quot;</span>
-<span class="c1"># Safari → Develop → &quot;Allow Remote Automation&quot;</span>
+<span class="c1"># Safari → Settings → Advanced → "Show features for web developers"</span>
+<span class="c1"># Safari → Develop → "Allow Remote Automation"</span>
 
 <span class="c1"># Grant Accessibility permission to Terminal</span>
 <span class="c1"># System Settings → Privacy &amp; Security → Accessibility → enable Terminal</span>
@@ -11203,19 +11203,19 @@
 <hr />
 <h2 id="usage-with-hermes-agent">Usage with Hermes Agent<a class="headerlink" href="#usage-with-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <h3 id="basic-navigation">Basic Navigation<a class="headerlink" href="#basic-navigation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&quot;Open Safari and go to app.corpusiq.io/dashboard&quot;
-&quot;Log into Stripe dashboard in Safari and download the monthly report&quot;
-&quot;Check my Shopify orders page in Safari&quot;
+<div class="highlight"><pre><span></span><code>"Open Safari and go to app.corpusiq.io/dashboard"
+"Log into Stripe dashboard in Safari and download the monthly report"
+"Check my Shopify orders page in Safari"
 </code></pre></div>
 <h3 id="advanced-automation">Advanced Automation<a class="headerlink" href="#advanced-automation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&quot;Open Safari, navigate to Twitter/X, scroll through my timeline, and screenshot trending topics&quot;
-&quot;Log into my bank in Safari and check the last 3 transactions&quot;
-&quot;Open Gmail in Safari, search for &#39;invoice&#39;, and extract all attachment filenames&quot;
+<div class="highlight"><pre><span></span><code>"Open Safari, navigate to Twitter/X, scroll through my timeline, and screenshot trending topics"
+"Log into my bank in Safari and check the last 3 transactions"
+"Open Gmail in Safari, search for 'invoice', and extract all attachment filenames"
 </code></pre></div>
 <hr />
 <h2 id="commands">Commands<a class="headerlink" href="#commands" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Navigate to URL</span>
-osascript<span class="w"> </span>-e<span class="w"> </span><span class="s1">&#39;tell application &quot;Safari&quot; to open location &quot;https://example.com&quot;&#39;</span>
+osascript<span class="w"> </span>-e<span class="w"> </span><span class="s1">'tell application "Safari" to open location "https://example.com"'</span>
 
 <span class="c1"># Get current page source</span>
 SKILL_DIR/scripts/get-source.sh
@@ -11224,7 +11224,7 @@ SKILL_DIR/scripts/get-source.sh
 SKILL_DIR/scripts/screenshot.sh<span class="w"> </span>--output<span class="w"> </span>~/Desktop/page.png
 
 <span class="c1"># Execute JavaScript in page</span>
-SKILL_DIR/scripts/execute-js.sh<span class="w"> </span>--code<span class="w"> </span><span class="s2">&quot;document.title&quot;</span>
+SKILL_DIR/scripts/execute-js.sh<span class="w"> </span>--code<span class="w"> </span><span class="s2">"document.title"</span>
 </code></pre></div>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>

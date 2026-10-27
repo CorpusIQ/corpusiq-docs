@@ -11113,21 +11113,21 @@
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>install<span class="w"> </span>agentation<span class="w"> </span>-D
 </code></pre></div>
 <p>Render it next to your app, as the README shows:</p>
-<div class="highlight"><pre><span></span><code>import { Agentation } from &#39;agentation&#39;;
+<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Agentation</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">'agentation'</span><span class="p">;</span>
 
-function App() {
-  return (
-    &lt;&gt;
-      &lt;YourApp /&gt;
-      &lt;Agentation /&gt;
-    &lt;/&gt;
-  );
-}
+<span class="kd">function</span><span class="w"> </span><span class="nx">App</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="p">&lt;&gt;</span>
+<span class="w">      </span><span class="p">&lt;</span><span class="nt">YourApp</span><span class="w"> </span><span class="p">/&gt;</span>
+<span class="w">      </span><span class="p">&lt;</span><span class="nt">Agentation</span><span class="w"> </span><span class="p">/&gt;</span>
+<span class="w">    </span><span class="p">&lt;/&gt;</span>
+<span class="w">  </span><span class="p">);</span>
+<span class="p">}</span>
 </code></pre></div>
 <p>For direct sync with a coding agent, register the MCP server and point the toolbar at its endpoint:</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>agentation-mcp<span class="w"> </span>server
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>&lt;Agentation endpoint=&quot;http://localhost:4747&quot; /&gt;
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">Agentation</span><span class="w"> </span><span class="na">endpoint</span><span class="o">=</span><span class="s">"http://localhost:4747"</span><span class="w"> </span><span class="p">/&gt;</span>
 </code></pre></div>
 <p>The repository also follows the standard skills layout, so skills-compatible agents can install it with the skills CLI:</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>benjitaylor/agentation

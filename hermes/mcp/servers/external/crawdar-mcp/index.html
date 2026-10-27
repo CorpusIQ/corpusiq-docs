@@ -11081,7 +11081,7 @@
 <h1 id="crawdar-mcp-qualified-prospect-research-for-agents">Crawdar MCP - Qualified Prospect Research for Agents<a class="headerlink" href="#crawdar-mcp-qualified-prospect-research-for-agents" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Remote MCP server (Streamable HTTP)</strong> - Crawdar converts "find companies that match this" into qualified prospects: each result carries why the company matches, criterion-level decisions, a classified public contact route and the supporting sources. A versioned JSON API and a browser-capable interface sit alongside the MCP surface.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: Tool surface served anonymously (probe-verified); search capacity via the vendor&#39;s plans
+Auth: Tool surface served anonymously (probe-verified); search capacity via the vendor's plans
 Endpoint: https://crawdar.com/api/mcp (probe-verified live; 9 tools)
 Tools: 9 (research_businesses, search_businesses, sandbox_businesses, lead-search job lifecycle, explain_crawdar)
 Pricing: Plans at crawdar.com
@@ -11141,10 +11141,10 @@ Built by: Crawdar (crawdar.com)
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Point any Streamable HTTP client at the endpoint. Start with sandbox_businesses to validate schemas and agent loops without consuming live search capacity.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;crawdar&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://crawdar.com/api/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"crawdar"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://crawdar.com/api/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

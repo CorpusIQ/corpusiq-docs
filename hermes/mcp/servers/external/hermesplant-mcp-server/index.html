@@ -11245,13 +11245,13 @@
 </code></pre></div>
 <h2 id="mcp-client-configuration">MCP Client Configuration<a class="headerlink" href="#mcp-client-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;hermesplant&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;hermesplant-mcp-server&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;X402_WALLET_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-wallet-private-key&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;X402_RPC_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mainnet.base.org&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"hermesplant"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hermesplant-mcp-server"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"X402_WALLET_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-wallet-private-key"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"X402_RPC_URL"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mainnet.base.org"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11282,7 +11282,7 @@ Agent → Hermes Plant → Returns: Enterprise Value = $189.4M (provably correct
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>After setup, verify the server is working:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test from MCP client</span>
-<span class="c1"># &quot;What is the present value of $1000 received in 5 years at 7% discount rate?&quot;</span>
+<span class="c1"># "What is the present value of $1000 received in 5 years at 7% discount rate?"</span>
 <span class="c1"># Should return: $712.99 (deterministic, verifiable)</span>
 </code></pre></div>
 <h2 id="complements-corpusiq">Complements CorpusIQ<a class="headerlink" href="#complements-corpusiq" title="Anchor link to this section">&para;</a></h2>

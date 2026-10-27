@@ -11154,7 +11154,7 @@
 <p><strong>The names that are starting to surge, caught where they are said first</strong> - a daily radar over X, Hugging Face trending, GitHub breakouts, directory sitemaps, Reddit asks and your own Search Console, then a keyword table that sizes the demand behind each new name and decides whether to build for it.</p>
 <div class="highlight"><pre><span></span><code>Server type: Local stdio (Python), installed as an extra of the CLI package
 Package: new-term-radar 0.4.0 on PyPI (Python 3.10 or newer, MIT)
-Install: pip install &quot;new-term-radar[mcp]&quot;
+Install: pip install "new-term-radar[mcp]"
 Command: new-term-radar-mcp
 Env: AISA_API_KEY, RADAR_CONFIG (absolute path to config.json), RADAR_STATE (absolute path to the state directory)
 Repo: github.com/zhuyansen/new-term-radar, default branch main, created 2026-10-12, last push 2026-10-18, 1,218 stars, 436 forks, 2 open issues
@@ -11250,16 +11250,16 @@ Tools: 3 - recent_leads, keyword_table, run_radar
 </table>
 <p>The keyword table is the output worth reading. For each new name it writes the generic search terms behind it - what people do with the new thing, not the brand - sizes each one, checks page one for room, and gives a decision: prioritize, watch, or skip.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;new-term-radar[mcp]&quot;</span>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span><span class="s2">"new-term-radar[mcp]"</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;new-term-radar&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;new-term-radar-mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;AISA_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;...&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;RADAR_CONFIG&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/absolute/path/to/config.json&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;RADAR_STATE&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/absolute/path/to/state&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"new-term-radar"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"new-term-radar-mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"AISA_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"..."</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"RADAR_CONFIG"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/absolute/path/to/config.json"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"RADAR_STATE"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/absolute/path/to/state"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

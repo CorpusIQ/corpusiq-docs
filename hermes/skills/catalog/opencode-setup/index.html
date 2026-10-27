@@ -11213,7 +11213,7 @@ brew<span class="w"> </span>install<span class="w"> </span>anomalyco/tap/opencod
 <h3 id="hermes-opencode-integration">Hermes ↔ OpenCode Integration<a class="headerlink" href="#hermes-opencode-integration" title="Anchor link to this section">&para;</a></h3>
 <p>OpenCode runs as a subprocess managed by Hermes's terminal tools:</p>
 <div class="highlight"><pre><span></span><code>Hermes (orchestrator)
-  ├── terminal(&quot;opencode &#39;implement auth module&#39;&quot;, pty=true)
+  ├── terminal("opencode 'implement auth module'", pty=true)
   ├── OpenCode (autonomous coding)
   │   ├── Reads codebase
   │   ├── Plans implementation
@@ -11233,11 +11233,11 @@ opencode<span class="w"> </span>auth<span class="w"> </span>list
 
 <span class="c1"># 3. Basic usage via Hermes</span>
 <span class="c1"># In a Hermes session:</span>
-opencode<span class="w"> </span><span class="s2">&quot;Add input validation to src/auth/login.ts&quot;</span>
+opencode<span class="w"> </span><span class="s2">"Add input validation to src/auth/login.ts"</span>
 
 <span class="c1"># 4. Long-running task with progress checks</span>
 opencode<span class="w"> </span>--model<span class="w"> </span>anthropic/claude-sonnet-4-20250514<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">&quot;Refactor the database layer to use connection pooling&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">"Refactor the database layer to use connection pooling"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>tee<span class="w"> </span>opencode_output.log
 </code></pre></div>
 <hr />
@@ -11248,8 +11248,8 @@ git<span class="w"> </span>worktree<span class="w"> </span>add<span class="w"> <
 git<span class="w"> </span>worktree<span class="w"> </span>add<span class="w"> </span>../feature-api<span class="w"> </span>feature/api
 
 <span class="c1"># Dispatch OpenCode to both</span>
-<span class="nb">cd</span><span class="w"> </span>../feature-auth<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>opencode<span class="w"> </span><span class="s2">&quot;Implement OAuth flow&quot;</span><span class="w"> </span><span class="p">&amp;</span>
-<span class="nb">cd</span><span class="w"> </span>../feature-api<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>opencode<span class="w"> </span><span class="s2">&quot;Build REST endpoints&quot;</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="nb">cd</span><span class="w"> </span>../feature-auth<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>opencode<span class="w"> </span><span class="s2">"Implement OAuth flow"</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="nb">cd</span><span class="w"> </span>../feature-api<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>opencode<span class="w"> </span><span class="s2">"Build REST endpoints"</span><span class="w"> </span><span class="p">&amp;</span>
 
 <span class="c1"># Wait for both, then review</span>
 <span class="nb">wait</span>
@@ -11294,7 +11294,7 @@ opencode<span class="w"> </span>--version
 opencode<span class="w"> </span>auth<span class="w"> </span>list
 
 <span class="c1"># Run a simple test</span>
-opencode<span class="w"> </span><span class="s2">&quot;Write a hello world function in Python&quot;</span><span class="w"> </span>--max-turns<span class="w"> </span><span class="m">3</span>
+opencode<span class="w"> </span><span class="s2">"Write a hello world function in Python"</span><span class="w"> </span>--max-turns<span class="w"> </span><span class="m">3</span>
 </code></pre></div>
 <hr />
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>

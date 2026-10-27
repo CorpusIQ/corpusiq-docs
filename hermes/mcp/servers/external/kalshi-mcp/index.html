@@ -11127,22 +11127,22 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/onofr
 npm<span class="w"> </span>install
 
 <span class="c1"># Configure environment</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">KALSHI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-kalshi-api-key&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">KALSHI_PRIVATE_KEY</span><span class="o">=</span><span class="s2">&quot;your-private-key-path&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">KALSHI_API_KEY</span><span class="o">=</span><span class="s2">"your-kalshi-api-key"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">KALSHI_PRIVATE_KEY</span><span class="o">=</span><span class="s2">"your-private-key-path"</span>
 
 <span class="c1"># Add to Hermes</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>kalshi<span class="w"> </span>--command<span class="w"> </span><span class="s2">&quot;node&quot;</span><span class="w"> </span>--args<span class="w"> </span><span class="s2">&quot;dist/index.js&quot;</span><span class="w"> </span>--workdir<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>kalshi<span class="w"> </span>--command<span class="w"> </span><span class="s2">"node"</span><span class="w"> </span>--args<span class="w"> </span><span class="s2">"dist/index.js"</span><span class="w"> </span>--workdir<span class="w"> </span><span class="s2">"</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--env<span class="w"> </span>KALSHI_API_KEY<span class="w"> </span>KALSHI_PRIVATE_KEY
 </code></pre></div>
 <h2 id="manual-configuration">Manual Configuration<a class="headerlink" href="#manual-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;kalshi&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;node&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;dist/index.js&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;KALSHI_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-kalshi-api-key&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;KALSHI_PRIVATE_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/private-key.pem&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"kalshi"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"dist/index.js"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"KALSHI_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-kalshi-api-key"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"KALSHI_PRIVATE_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/to/private-key.pem"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

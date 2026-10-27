@@ -11116,9 +11116,9 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <span class="nb">command</span><span class="w"> </span>-v<span class="w"> </span>curl<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">command</span><span class="w"> </span>-v<span class="w"> </span>jq
 
 <span class="c1"># API key: either environment variable or config file</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">NIA_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">NIA_API_KEY</span><span class="o">=</span><span class="s2">"your-api-key"</span>
 <span class="c1"># alternative, lower precedence than the environment variable</span>
-mkdir<span class="w"> </span>-p<span class="w"> </span>~/.config/nia<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;your-api-key&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>~/.config/nia/api_key
+mkdir<span class="w"> </span>-p<span class="w"> </span>~/.config/nia<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"your-api-key"</span><span class="w"> </span>&gt;<span class="w"> </span>~/.config/nia/api_key
 </code></pre></div>
 <p>A key comes from signing up at trynia.ai, from the guided setup wizard the README names (<code>npx nia-wizard@latest</code>), or programmatically through the bundled auth script:</p>
 <div class="highlight"><pre><span></span><code>./scripts/auth.sh<span class="w"> </span>signup<span class="w"> </span>&lt;email&gt;<span class="w"> </span>&lt;password&gt;<span class="w"> </span>&lt;organization_name&gt;
@@ -11126,7 +11126,7 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/.config/nia<span class=
 ./scripts/auth.sh<span class="w"> </span>login-key<span class="w"> </span>&lt;email&gt;<span class="w"> </span>&lt;password&gt;
 </code></pre></div>
 <p>Indexing a first source is what makes the skill useful, and index jobs take one to five minutes according to <code>SKILL.md</code>:</p>
-<div class="highlight"><pre><span></span><code>./scripts/repos.sh<span class="w"> </span>index<span class="w"> </span><span class="s2">&quot;owner/repo&quot;</span>
+<div class="highlight"><pre><span></span><code>./scripts/repos.sh<span class="w"> </span>index<span class="w"> </span><span class="s2">"owner/repo"</span>
 ./scripts/nia.sh<span class="w"> </span>sources
 </code></pre></div>
 <h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
@@ -11200,7 +11200,7 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/.config/nia<span class=
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/nozomio-labs/nia-skill/master/README.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-40
 </code></pre></div>
 <p>Prove the key and the API path work before trusting a workflow. <code>scripts/usage.sh</code> is a single <code>GET $BASE_URL/usage</code>, so calling it directly isolates the credential from the wrapper:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$NIA_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span>https://apigcp.trynia.ai/v2/usage<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span>.
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$NIA_API_KEY</span><span class="s2">"</span><span class="w"> </span>https://apigcp.trynia.ai/v2/usage<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span>.
 ./scripts/usage.sh
 </code></pre></div>
 <p>A request to that URL with no header returned HTTP 500 rather than 404 on Oct 26, 2026, which confirms the path exists but says nothing about your key. Run <code>usage.sh</code> first and check that numbers come back before indexing anything.</p>

@@ -11282,7 +11282,7 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/sheld
 pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 
 <span class="c1"># Verify installation</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import hybrid_memory; print(&#39;OK&#39;)&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import hybrid_memory; print('OK')"</span>
 </code></pre></div>
 <h2 id="step-3-configure-hermes-agent">Step 3: Configure Hermes Agent<a class="headerlink" href="#step-3-configure-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <p>Add to your <code>~/.hermes/config.yaml</code>:</p>
@@ -11344,14 +11344,14 @@ python3<span class="w"> </span>~/.hermes/plugins/hermes-hybrid-memory/memory_ing
 hermes<span class="w"> </span>--profile<span class="w"> </span>&lt;your-profile&gt;
 
 <span class="c1"># In a Hermes session, test memory operations:</span>
-<span class="c1"># &quot;Remember: the API key for Stripe is sk_live_xxx&quot;</span>
-<span class="c1"># &quot;What&#39;s our Stripe API key?&quot;</span>
-<span class="c1"># &quot;What else do you know about our payment infrastructure?&quot;</span>
+<span class="c1"># "Remember: the API key for Stripe is sk_live_xxx"</span>
+<span class="c1"># "What's our Stripe API key?"</span>
+<span class="c1"># "What else do you know about our payment infrastructure?"</span>
 
 <span class="c1"># Check the memory store directly</span>
 python3<span class="w"> </span>~/.hermes/plugins/hermes-hybrid-memory/scripts/query_store.py<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--db-path<span class="w"> </span>~/.hermes/memory/memory_store.db<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--query<span class="w"> </span><span class="s2">&quot;Stripe payment&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--query<span class="w"> </span><span class="s2">"Stripe payment"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--mode<span class="w"> </span>hybrid<span class="w">  </span><span class="c1"># uses keyword + vector + graph</span>
 </code></pre></div>
 <h2 id="step-7-brain-visualization">Step 7: Brain Visualization<a class="headerlink" href="#step-7-brain-visualization" title="Anchor link to this section">&para;</a></h2>
@@ -11403,7 +11403,7 @@ pip<span class="w"> </span>install<span class="w"> </span>git+https://github.com
 <h3 id="memory-store-locked">"Memory store locked"<a class="headerlink" href="#memory-store-locked" title="Anchor link to this section">&para;</a></h3>
 <p>The store uses WAL mode for concurrent reads. If you get a lock error:
 <div class="highlight"><pre><span></span><code><span class="c1"># Check for stale locks</span>
-sqlite3<span class="w"> </span>~/.hermes/memory/memory_store.db<span class="w"> </span><span class="s2">&quot;PRAGMA wal_checkpoint(TRUNCATE);&quot;</span>
+sqlite3<span class="w"> </span>~/.hermes/memory/memory_store.db<span class="w"> </span><span class="s2">"PRAGMA wal_checkpoint(TRUNCATE);"</span>
 </code></pre></div></p>
 <h3 id="empty-retrieval-results">"Empty retrieval results"<a class="headerlink" href="#empty-retrieval-results" title="Anchor link to this section">&para;</a></h3>
 <ol>

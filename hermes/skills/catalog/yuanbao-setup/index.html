@@ -11182,9 +11182,9 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <li>Include <code>@nickname</code> in your reply text - the gateway handles the rest</li>
 </ol>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre><span></span><code>User: &quot;帮我艾特元宝&quot;
+<div class="highlight"><pre><span></span><code>User: "帮我艾特元宝"
 
-Agent calls: yb_query_group_members({ group_code: &quot;328306697&quot;, action: &quot;find&quot;, name: &quot;元宝&quot;, mention: true })
+Agent calls: yb_query_group_members({ group_code: "328306697", action: "find", name: "元宝", mention: true })
 
 Agent reply (this gets sent to the group):
 @元宝 你好，有人找你！
@@ -11203,23 +11203,23 @@ Agent reply (this gets sent to the group):
 </ol>
 <p><strong>Example - Text DM:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="err">yb_se</span><span class="kc">n</span><span class="err">d_dm(</span><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;group_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;535168412&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;用户aea3&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hello&quot;</span>
+<span class="w">  </span><span class="nt">"group_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"535168412"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"用户aea3"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hello"</span>
 <span class="p">}</span><span class="err">)</span>
 </code></pre></div>
 <p><strong>Example - DM with Media:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="err">yb_se</span><span class="kc">n</span><span class="err">d_dm(</span><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;group_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;535168412&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;用户aea3&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Here is the image&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;media_files&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="nt">&quot;path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/tmp/photo.jpg&quot;</span><span class="p">}]</span>
+<span class="w">  </span><span class="nt">"group_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"535168412"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"用户aea3"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Here is the image"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"media_files"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="nt">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/tmp/photo.jpg"</span><span class="p">}]</span>
 <span class="p">}</span><span class="err">)</span>
 </code></pre></div>
 <p><strong>Supported media</strong>: Images (.jpg/.png/.gif/.webp/.bmp) sent as image messages; other files sent as documents.</p>
 <hr />
 <h2 id="query-group-info">Query Group Info<a class="headerlink" href="#query-group-info" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="err">yb_query_group_i</span><span class="kc">nf</span><span class="err">o(</span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;group_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;328306697&quot;</span><span class="w"> </span><span class="p">}</span><span class="err">)</span>
+<div class="highlight"><pre><span></span><code><span class="err">yb_query_group_i</span><span class="kc">nf</span><span class="err">o(</span><span class="p">{</span><span class="w"> </span><span class="nt">"group_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"328306697"</span><span class="w"> </span><span class="p">}</span><span class="err">)</span>
 </code></pre></div>
 <p>Returns: group name, owner, member count.</p>
 <hr />

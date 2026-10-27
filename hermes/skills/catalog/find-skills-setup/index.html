@@ -11207,22 +11207,22 @@
 </table>
 <h3 id="search-syntax">Search Syntax<a class="headerlink" href="#search-syntax" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Basic search</span>
-find-skills<span class="w"> </span><span class="s2">&quot;browser automation&quot;</span>
+find-skills<span class="w"> </span><span class="s2">"browser automation"</span>
 
 <span class="c1"># Filter by marketplace</span>
-find-skills<span class="w"> </span><span class="s2">&quot;memory&quot;</span><span class="w"> </span>--source<span class="w"> </span>skills.sh
+find-skills<span class="w"> </span><span class="s2">"memory"</span><span class="w"> </span>--source<span class="w"> </span>skills.sh
 
 <span class="c1"># Hermes-compatible only</span>
-find-skills<span class="w"> </span><span class="s2">&quot;email&quot;</span><span class="w"> </span>--compatible<span class="w"> </span>hermes
+find-skills<span class="w"> </span><span class="s2">"email"</span><span class="w"> </span>--compatible<span class="w"> </span>hermes
 
 <span class="c1"># With minimum install threshold</span>
-find-skills<span class="w"> </span><span class="s2">&quot;monitoring&quot;</span><span class="w"> </span>--min-installs<span class="w"> </span><span class="m">1000</span>
+find-skills<span class="w"> </span><span class="s2">"monitoring"</span><span class="w"> </span>--min-installs<span class="w"> </span><span class="m">1000</span>
 
 <span class="c1"># JSON output for scripting</span>
-find-skills<span class="w"> </span><span class="s2">&quot;growth&quot;</span><span class="w"> </span>--json<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;.results[] | {name, installs, source}&#39;</span>
+find-skills<span class="w"> </span><span class="s2">"growth"</span><span class="w"> </span>--json<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">'.results[] | {name, installs, source}'</span>
 
 <span class="c1"># Combined filters</span>
-find-skills<span class="w"> </span><span class="s2">&quot;video production&quot;</span><span class="w"> </span>--compatible<span class="w"> </span>hermes<span class="w"> </span>--min-installs<span class="w"> </span><span class="m">5000</span><span class="w"> </span>--json
+find-skills<span class="w"> </span><span class="s2">"video production"</span><span class="w"> </span>--compatible<span class="w"> </span>hermes<span class="w"> </span>--min-installs<span class="w"> </span><span class="m">5000</span><span class="w"> </span>--json
 </code></pre></div>
 <hr />
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
@@ -11239,11 +11239,11 @@ find-skills<span class="w"> </span><span class="s2">&quot;video production&quot;
 <span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="k">$(</span>gh<span class="w"> </span>auth<span class="w"> </span>token<span class="k">)</span>
 
 <span class="c1"># Search across categories</span>
-<span class="k">for</span><span class="w"> </span>category<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;browser&quot;</span><span class="w"> </span><span class="s2">&quot;marketing&quot;</span><span class="w"> </span><span class="s2">&quot;mcp&quot;</span><span class="w"> </span><span class="s2">&quot;memory&quot;</span><span class="w"> </span><span class="s2">&quot;monitoring&quot;</span><span class="w"> </span><span class="s2">&quot;video&quot;</span><span class="w"> </span><span class="s2">&quot;growth&quot;</span><span class="w"> </span><span class="s2">&quot;security&quot;</span><span class="w"> </span><span class="s2">&quot;email&quot;</span><span class="w"> </span><span class="s2">&quot;social&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;=== </span><span class="nv">$category</span><span class="s2"> ===&quot;</span>
-<span class="w">    </span>find-skills<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$category</span><span class="s2">&quot;</span><span class="w"> </span>--compatible<span class="w"> </span>hermes<span class="w"> </span>--min-installs<span class="w"> </span><span class="m">500</span><span class="w"> </span>--json<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="se">\</span>
-<span class="w">        </span>jq<span class="w"> </span>-r<span class="w"> </span><span class="s1">&#39;.results[] | &quot;\(.name) - \(.installs) installs - npx skills add \(.ref)&quot;&#39;</span>
-<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+<span class="k">for</span><span class="w"> </span>category<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">"browser"</span><span class="w"> </span><span class="s2">"marketing"</span><span class="w"> </span><span class="s2">"mcp"</span><span class="w"> </span><span class="s2">"memory"</span><span class="w"> </span><span class="s2">"monitoring"</span><span class="w"> </span><span class="s2">"video"</span><span class="w"> </span><span class="s2">"growth"</span><span class="w"> </span><span class="s2">"security"</span><span class="w"> </span><span class="s2">"email"</span><span class="w"> </span><span class="s2">"social"</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"=== </span><span class="nv">$category</span><span class="s2"> ==="</span>
+<span class="w">    </span>find-skills<span class="w"> </span><span class="s2">"</span><span class="nv">$category</span><span class="s2">"</span><span class="w"> </span>--compatible<span class="w"> </span>hermes<span class="w"> </span>--min-installs<span class="w"> </span><span class="m">500</span><span class="w"> </span>--json<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="se">\</span>
+<span class="w">        </span>jq<span class="w"> </span>-r<span class="w"> </span><span class="s1">'.results[] | "\(.name) - \(.installs) installs - npx skills add \(.ref)"'</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">""</span>
 <span class="k">done</span>
 </code></pre></div>
 <hr />

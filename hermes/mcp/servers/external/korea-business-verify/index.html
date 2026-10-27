@@ -11083,7 +11083,7 @@
 <div class="highlight"><pre><span></span><code>Server type: Remote Streamable HTTP (Google Cloud Run, Seoul)
 Auth: None required
 Endpoint: https://kbv-server-f7vfitmlkq-du.a.run.app/mcp
-Health: GET /health returns {&quot;ok&quot;:true}
+Health: GET /health returns {"ok":true}
 Repo: github.com/Wonderfulian/kbv-server (MIT, Aug 2026)
 Tools: 2 verified by live probe (check_korean_business_status, verify_korean_business)
 Price: Free during pilot; pay-per-call planned
@@ -11117,9 +11117,9 @@ Data: Korea National Tax Service open data, no usage restrictions
 </code></pre></div>
 <p>For Cursor, add to <code>.cursor/mcp.json</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;korea-business-verify&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://kbv-server-f7vfitmlkq-du.a.run.app/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"korea-business-verify"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://kbv-server-f7vfitmlkq-du.a.run.app/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

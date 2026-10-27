@@ -11132,24 +11132,24 @@ Endpoint: https://api.primateintelligence.ai/mcp
 </code></pre></div>
 <h3 id="hermes-agent-configuration">Hermes Agent Configuration<a class="headerlink" href="#hermes-agent-configuration" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;primate-intelligence&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.primateintelligence.ai/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;auth&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;oauth2&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;authorization_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.primateintelligence.ai/oauth/authorize&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;token_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.primateintelligence.ai/oauth/token&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;client_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;YOUR_CLIENT_ID&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;scopes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;video:read&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;video:analyze&quot;</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"primate-intelligence"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.primateintelligence.ai/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"auth"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oauth2"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"authorization_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.primateintelligence.ai/oauth/authorize"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"token_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.primateintelligence.ai/oauth/token"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"client_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"YOUR_CLIENT_ID"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"scopes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"video:read"</span><span class="p">,</span><span class="w"> </span><span class="s2">"video:analyze"</span><span class="p">]</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="environment-variables">Environment Variables<a class="headerlink" href="#environment-variables" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">PRIMATE_INTELLIGENCE_CLIENT_ID</span><span class="o">=</span><span class="s2">&quot;pi_...&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">PRIMATE_INTELLIGENCE_CLIENT_SECRET</span><span class="o">=</span><span class="s2">&quot;pi_secret_...&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">PRIMATE_INTELLIGENCE_CLIENT_ID</span><span class="o">=</span><span class="s2">"pi_..."</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">PRIMATE_INTELLIGENCE_CLIENT_SECRET</span><span class="o">=</span><span class="s2">"pi_secret_..."</span>
 </code></pre></div>
 <h2 id="key-tools">Key Tools<a class="headerlink" href="#key-tools" title="Anchor link to this section">&para;</a></h2>
 <p>Primate Intelligence exposes 10 tools with full MCP annotations:</p>

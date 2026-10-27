@@ -11286,25 +11286,25 @@ cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root
 <p>Example full install on macOS:</p>
 <div class="highlight"><pre><span></span><code><span class="nv">HERMES_SRC</span><span class="o">=</span>~/hermes-agent
 <span class="nv">THEME_DIR</span><span class="o">=</span>~/hermes-desktop-neo-theme
-<span class="nv">APP_ASAR</span><span class="o">=</span><span class="s2">&quot;/Applications/Hermes.app/Contents/Resources/app.asar&quot;</span>
+<span class="nv">APP_ASAR</span><span class="o">=</span><span class="s2">"/Applications/Hermes.app/Contents/Resources/app.asar"</span>
 
 <span class="c1"># Backup original asar</span>
-cp<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">.bak-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d-%H%M<span class="k">)</span><span class="s2">&quot;</span>
+cp<span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">"</span><span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">.bak-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d-%H%M<span class="k">)</span><span class="s2">"</span>
 
 <span class="c1"># Copy theme files</span>
-cp<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$THEME_DIR</span><span class="s2">/presets.ts&quot;</span><span class="w">  </span><span class="s2">&quot;</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop/src/themes/presets.ts&quot;</span>
-cp<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$THEME_DIR</span><span class="s2">/styles.css&quot;</span><span class="w">  </span><span class="s2">&quot;</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop/src/styles.css&quot;</span>
-cp<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$THEME_DIR</span><span class="s2">/context.tsx&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop/src/themes/context.tsx&quot;</span>
+cp<span class="w"> </span><span class="s2">"</span><span class="nv">$THEME_DIR</span><span class="s2">/presets.ts"</span><span class="w">  </span><span class="s2">"</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop/src/themes/presets.ts"</span>
+cp<span class="w"> </span><span class="s2">"</span><span class="nv">$THEME_DIR</span><span class="s2">/styles.css"</span><span class="w">  </span><span class="s2">"</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop/src/styles.css"</span>
+cp<span class="w"> </span><span class="s2">"</span><span class="nv">$THEME_DIR</span><span class="s2">/context.tsx"</span><span class="w"> </span><span class="s2">"</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop/src/themes/context.tsx"</span>
 
 <span class="c1"># Build</span>
-<span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop&quot;</span>
+<span class="nb">cd</span><span class="w"> </span><span class="s2">"</span><span class="nv">$HERMES_SRC</span><span class="s2">/apps/desktop"</span>
 npm<span class="w"> </span>run<span class="w"> </span>build
 
 <span class="c1"># Pack</span>
 rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span>/tmp/neo-asar-root
 cp<span class="w"> </span>-r<span class="w"> </span>dist<span class="w"> </span>assets<span class="w"> </span>electron<span class="w"> </span>public<span class="w"> </span>/tmp/neo-asar-root/
 cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root/
-<span class="nb">cd</span><span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>npx<span class="w"> </span>asar<span class="w"> </span>pack<span class="w"> </span>.<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">&quot;</span>
+<span class="nb">cd</span><span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>npx<span class="w"> </span>asar<span class="w"> </span>pack<span class="w"> </span>.<span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">"</span>
 
 <span class="c1"># Restart Hermes Desktop → Cmd+K → /skin neo</span>
 </code></pre></div>
@@ -11325,13 +11325,13 @@ cp<span class="w"> </span>context.tsx<span class="w">  </span>&lt;hermes-agent&g
 npm<span class="w"> </span>run<span class="w"> </span>build
 
 <span class="c1"># 4. Backup current asar (always!)</span>
-cp<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">.bak-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d-%H%M<span class="k">)</span><span class="s2">&quot;</span>
+cp<span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">"</span><span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">.bak-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d-%H%M<span class="k">)</span><span class="s2">"</span>
 
 <span class="c1"># 5. Pack complete asar (NOT just dist/)</span>
 rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span>/tmp/neo-asar-root
 cp<span class="w"> </span>-r<span class="w"> </span>dist<span class="w"> </span>assets<span class="w"> </span>electron<span class="w"> </span>public<span class="w"> </span>/tmp/neo-asar-root/
 cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root/
-<span class="nb">cd</span><span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>npx<span class="w"> </span>asar<span class="w"> </span>pack<span class="w"> </span>.<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">&quot;</span>
+<span class="nb">cd</span><span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>npx<span class="w"> </span>asar<span class="w"> </span>pack<span class="w"> </span>.<span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">"</span>
 
 <span class="c1"># 6. Restart Hermes Desktop → Cmd+K → /skin neo</span>
 </code></pre></div>
@@ -11382,10 +11382,10 @@ cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root
 <div class="highlight"><pre><span></span><code>rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span>/tmp/neo-asar-root
 cp<span class="w"> </span>-r<span class="w"> </span>dist<span class="w"> </span>assets<span class="w"> </span>electron<span class="w"> </span>public<span class="w"> </span>/tmp/neo-asar-root/
 cp<span class="w"> </span>package.json<span class="w"> </span>/tmp/neo-asar-root/
-<span class="nb">cd</span><span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>npx<span class="w"> </span>asar<span class="w"> </span>pack<span class="w"> </span>.<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">&quot;</span>
+<span class="nb">cd</span><span class="w"> </span>/tmp/neo-asar-root<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>npx<span class="w"> </span>asar<span class="w"> </span>pack<span class="w"> </span>.<span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">"</span>
 </code></pre></div></p>
 <p><strong>Recovery:</strong> Restore the backup:
-<div class="highlight"><pre><span></span><code>cp<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">.bak-YYYYMMDD-HHMM&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$APP_ASAR</span><span class="s2">&quot;</span>
+<div class="highlight"><pre><span></span><code>cp<span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">.bak-YYYYMMDD-HHMM"</span><span class="w"> </span><span class="s2">"</span><span class="nv">$APP_ASAR</span><span class="s2">"</span>
 </code></pre></div></p>
 <h3 id="theme-doesnt-activate">Theme doesn't activate<a class="headerlink" href="#theme-doesnt-activate" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Symptom:</strong> <code>/skin neo</code> returns "Unknown skin."</p>

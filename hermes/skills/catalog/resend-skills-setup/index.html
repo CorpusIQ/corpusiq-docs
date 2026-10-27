@@ -11227,14 +11227,14 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>resend/resend-skills<span class="w"> </span>--skill<span class="w"> </span>resend
 
 <span class="c1"># 2. Set API key</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">RESEND_API_KEY</span><span class="o">=</span><span class="s2">&quot;re_xxxx&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">RESEND_API_KEY</span><span class="o">=</span><span class="s2">"re_xxxx"</span>
 
 <span class="c1"># 3. Install CLI (optional)</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>resend/resend-skills<span class="w"> </span>--skill<span class="w"> </span>resend-cli
 
 <span class="c1"># 4. Send a test email (via resend-cli skill)</span>
-resend<span class="w"> </span>email<span class="w"> </span>send<span class="w"> </span>--from<span class="w"> </span><span class="s2">&quot;onboarding@resend.dev&quot;</span><span class="w"> </span>--to<span class="w"> </span><span class="s2">&quot;your@email.com&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--subject<span class="w"> </span><span class="s2">&quot;Hello from Hermes&quot;</span><span class="w"> </span>--text<span class="w"> </span><span class="s2">&quot;Email sent via Resend skills.&quot;</span>
+resend<span class="w"> </span>email<span class="w"> </span>send<span class="w"> </span>--from<span class="w"> </span><span class="s2">"onboarding@resend.dev"</span><span class="w"> </span>--to<span class="w"> </span><span class="s2">"your@email.com"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--subject<span class="w"> </span><span class="s2">"Hello from Hermes"</span><span class="w"> </span>--text<span class="w"> </span><span class="s2">"Email sent via Resend skills."</span>
 
 <span class="c1"># 5. Set up agent inbox (if receiving email)</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>resend/resend-skills<span class="w"> </span>--skill<span class="w"> </span>agent-email-inbox
@@ -11246,8 +11246,8 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>resend
 
 <span class="c1"># Verify API key works</span>
-curl<span class="w"> </span>-s<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$RESEND_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>https://api.resend.com/domains<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;.data | length&#39;</span>
+curl<span class="w"> </span>-s<span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$RESEND_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>https://api.resend.com/domains<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">'.data | length'</span>
 
 <span class="c1"># Test CLI</span>
 resend<span class="w"> </span>domains<span class="w"> </span>list

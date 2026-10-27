@@ -11225,7 +11225,7 @@
 <div class="highlight"><pre><span></span><code>&lt;source&gt;.&lt;method&gt;(&lt;args&gt;).aggregate(&lt;op&gt;, field=&lt;field&gt;)
 </code></pre></div>
 <p>Example:</p>
-<div class="highlight"><pre><span></span><code>stripe.list_subscriptions(status=&quot;active&quot;).aggregate(sum, field=plan.amount)
+<div class="highlight"><pre><span></span><code>stripe.list_subscriptions(status="active").aggregate(sum, field=plan.amount)
 </code></pre></div>
 <p>The DSL parses to a typed AST. The resolver compiles each <code>&lt;source&gt;.&lt;method&gt;(&lt;args&gt;)</code> to a real MCP connector tool call (<code>stripe.list_subscriptions</code> → the <code>list_subscriptions</code> tool on the stripe connector). The aggregate operation runs in the resolver.</p>
 <p>Soft eval gate: a spec whose expression fails to parse is still saved, but the resolver emits <code>validation_warnings</code> every time it tries to resolve. The warnings show in the user's answer. Don't reject at write time  --  the user might be drafting an expression they'll fix later, and rejecting forces them to throw away the description text they wrote. Soft gate at read time is the right discipline.</p>

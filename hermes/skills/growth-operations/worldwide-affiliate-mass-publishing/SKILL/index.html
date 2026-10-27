@@ -11088,10 +11088,10 @@
 <li>Drove measurable signup conversion</li>
 </ul>
 <h2 id="quick-execute">Quick Execute<a class="headerlink" href="#quick-execute" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>--max-time<span class="w"> </span><span class="m">8</span><span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://rentry.co/api/new&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;edit_code=UNIQUE_CODE&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;text=# TITLE\n\n**https://www.corpusiq.io/affiliate**\n\nDESCRIPTION&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json,sys; print(json.load(sys.stdin).get(&#39;url&#39;,&#39;?&#39;))&quot;</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>--max-time<span class="w"> </span><span class="m">8</span><span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"https://rentry.co/api/new"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s2">"edit_code=UNIQUE_CODE"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s2">"text=# TITLE\n\n**https://www.corpusiq.io/affiliate**\n\nDESCRIPTION"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import json,sys; print(json.load(sys.stdin).get('url','?'))"</span>
 </code></pre></div>
 <h2 id="template">Template<a class="headerlink" href="#template" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code># [Affiliate Program Name in Language]

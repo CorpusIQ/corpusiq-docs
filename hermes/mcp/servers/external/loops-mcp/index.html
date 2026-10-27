@@ -11137,9 +11137,9 @@ claude<span class="w"> </span>plugin<span class="w"> </span>install<span class="
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>The vendor's agent guide points MCP users at the in-app "Add the Loops MCP server" flow rather than a copy-paste JSON block. For non-MCP automations, the REST API is the contract:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://app.loops.so/api/v1/transactional<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$LOOPS_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;transactionalId&quot;: &quot;YOUR_ID&quot;, &quot;email&quot;: &quot;user@example.com&quot;, &quot;dataVariables&quot;: {&quot;firstName&quot;: &quot;Alex&quot;}}&#39;</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$LOOPS_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"transactionalId": "YOUR_ID", "email": "user@example.com", "dataVariables": {"firstName": "Alex"}}'</span>
 </code></pre></div>
 <p>Auth notes: Loops account credentials and API keys are managed in the Loops app (app.loops.so/settings).</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>

@@ -11173,9 +11173,9 @@
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-add-to-mcp-client">1. Add to MCP Client<a class="headerlink" href="#1-add-to-mcp-client" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;charming&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.charming.mcp.so/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"charming"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.charming.mcp.so/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11198,7 +11198,7 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># ~/.hermes/config.yaml</span>
 <span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">charming</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://api.charming.mcp.so/mcp&quot;</span>
+<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://api.charming.mcp.so/mcp"</span>
 </code></pre></div>
 <p>First connection triggers OAuth consent in your browser - one-time only.</p>
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
@@ -11227,24 +11227,24 @@ this one can be combined with a company's own business data in a single answer.<
 <li><strong>Hosted only</strong>: No self-hosted option currently - apps live on Charming's infrastructure</li>
 </ul>
 <h2 id="example-building-a-dashboard">Example: Building a Dashboard<a class="headerlink" href="#example-building-a-dashboard" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>User: &quot;Build me a sales dashboard with a bar chart showing monthly revenue&quot;
+<div class="highlight"><pre><span></span><code>User: "Build me a sales dashboard with a bar chart showing monthly revenue"
 
 Agent → charming_create_app({
-  name: &quot;Sales Dashboard&quot;,
-  description: &quot;Monthly revenue bar chart with filters&quot;,
-  requirements: &quot;Bar chart, dark theme, responsive, month filter&quot;
+  name: "Sales Dashboard",
+  description: "Monthly revenue bar chart with filters",
+  requirements: "Bar chart, dark theme, responsive, month filter"
 })
 
-Charming → { app_id: &quot;abc123&quot;, url: &quot;https://abc123.charming.app&quot; }
+Charming → { app_id: "abc123", url: "https://abc123.charming.app" }
 
-User: &quot;Add a line chart for customer growth and make the background white&quot;
+User: "Add a line chart for customer growth and make the background white"
 
 Agent → charming_update_app({
-  app_id: &quot;abc123&quot;,
-  changes: &quot;Add line chart overlay for customer growth, switch to light theme&quot;
+  app_id: "abc123",
+  changes: "Add line chart overlay for customer growth, switch to light theme"
 })
 
-Charming → { url: &quot;https://abc123.charming.app&quot; }  // Updated live
+Charming → { url: "https://abc123.charming.app" }  // Updated live
 </code></pre></div>
 <h2 id="category">Category<a class="headerlink" href="#category" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Development</strong> - Charming bridges the gap between AI agent capabilities and deployed, interactive web applications. It's a "deploy target" for agents, similar to how Vercel is a deploy target for developers.</p>

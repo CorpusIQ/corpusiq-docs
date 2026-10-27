@@ -11109,11 +11109,11 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </ul>
 <h2 id="hermes-agent-integration">Hermes Agent Integration<a class="headerlink" href="#hermes-agent-integration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Agent checks store status</span>
-<span class="n">tasks</span> <span class="o">=</span> <span class="n">mcp_taskerarmy_get_pending_tasks</span><span class="p">(</span><span class="n">store</span><span class="o">=</span><span class="s2">&quot;my-store&quot;</span><span class="p">)</span>
-<span class="n">health</span> <span class="o">=</span> <span class="n">mcp_taskerarmy_get_store_health</span><span class="p">(</span><span class="n">store</span><span class="o">=</span><span class="s2">&quot;my-store&quot;</span><span class="p">)</span>
+<span class="n">tasks</span> <span class="o">=</span> <span class="n">mcp_taskerarmy_get_pending_tasks</span><span class="p">(</span><span class="n">store</span><span class="o">=</span><span class="s2">"my-store"</span><span class="p">)</span>
+<span class="n">health</span> <span class="o">=</span> <span class="n">mcp_taskerarmy_get_store_health</span><span class="p">(</span><span class="n">store</span><span class="o">=</span><span class="s2">"my-store"</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">task</span><span class="o">.</span><span class="n">priority</span> <span class="o">==</span> <span class="s2">&quot;high&quot;</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;⚠️ High priority: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">title</span><span class="si">}</span><span class="s2"> - impact: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">estimated_impact</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">task</span><span class="o">.</span><span class="n">priority</span> <span class="o">==</span> <span class="s2">"high"</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"⚠️ High priority: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">title</span><span class="si">}</span><span class="s2"> - impact: </span><span class="si">{</span><span class="n">task</span><span class="o">.</span><span class="n">estimated_impact</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <p><em>Discovered via <a href="https://mcpservers.org">mcpservers.org</a> sweep. Listed in the <a href="https://corpusiq-docs/hermes/mcp/">CorpusIQ MCP Catalog</a>.</em></p>

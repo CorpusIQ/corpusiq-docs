@@ -11132,32 +11132,32 @@ cp<span class="w"> </span>-r<span class="w"> </span>hermes_tweet<span class="w">
 </code></pre></div>
 <ol>
 <li>Set environment variables:
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_API_KEY</span><span class="o">=</span><span class="s2">&quot;your_key&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_API_SECRET</span><span class="o">=</span><span class="s2">&quot;your_secret&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_ACCESS_TOKEN</span><span class="o">=</span><span class="s2">&quot;your_token&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_ACCESS_SECRET</span><span class="o">=</span><span class="s2">&quot;your_token_secret&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_API_KEY</span><span class="o">=</span><span class="s2">"your_key"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_API_SECRET</span><span class="o">=</span><span class="s2">"your_secret"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_ACCESS_TOKEN</span><span class="o">=</span><span class="s2">"your_token"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">XQUIK_ACCESS_SECRET</span><span class="o">=</span><span class="s2">"your_token_secret"</span>
 </code></pre></div></li>
 </ol>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
 <p>The plugin auto-loads when Hermes starts if configured. Use these skill commands:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Post a tweet</span>
-<span class="n">hermes_tweet</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;Check out CorpusIQ for AI-powered business operations!&quot;</span><span class="p">)</span>
+<span class="n">hermes_tweet</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">"Check out CorpusIQ for AI-powered business operations!"</span><span class="p">)</span>
 
 <span class="c1"># Read timeline</span>
 <span class="n">timeline</span> <span class="o">=</span> <span class="n">hermes_tweet</span><span class="o">.</span><span class="n">home_timeline</span><span class="p">(</span><span class="n">limit</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
 
 <span class="c1"># Search</span>
-<span class="n">results</span> <span class="o">=</span> <span class="n">hermes_tweet</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;hermes agent&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">hermes_tweet</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">"hermes agent"</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 
 <span class="c1"># Reply to a tweet</span>
-<span class="n">hermes_tweet</span><span class="o">.</span><span class="n">reply</span><span class="p">(</span><span class="n">tweet_id</span><span class="o">=</span><span class="s2">&quot;1234567890&quot;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s2">&quot;Great point!&quot;</span><span class="p">)</span>
+<span class="n">hermes_tweet</span><span class="o">.</span><span class="n">reply</span><span class="p">(</span><span class="n">tweet_id</span><span class="o">=</span><span class="s2">"1234567890"</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s2">"Great point!"</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test the plugin loads</span>
 hermes<span class="w"> </span>plugins<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>hermes-tweet
 
 <span class="c1"># Run a quick smoke test</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;from hermes_tweet import TwitterPlugin; print(&#39;OK&#39;)&quot;</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"from hermes_tweet import TwitterPlugin; print('OK')"</span>
 </code></pre></div>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>

@@ -11455,7 +11455,7 @@
 <p>Prompt caching is the single largest cost lever in a long-running agent, and it is almost never a setting you turn on. A high cache hit rate falls out of how the prompt is built: a large, byte-stable prefix that gets re-sent every turn, and a small delta on top of it. Get the structure right and the hit rate sits at 96 to 99 percent by construction. Get it wrong and it collapses toward zero without any error being raised.</p>
 <p>This page documents the mechanics and the measurement method used on a production Hermes Agent deployment (running DeepSeek V4.1 Flash and V4 Pro), so you can reproduce the numbers on your own install.</p>
 <h2 id="measured-result">Measured result<a class="headerlink" href="#measured-result" title="Anchor link to this section">&para;</a></h2>
-<p>Measured over a two-day production window covering several hundred agent sessions:</p>
+<p>Measured on a production Hermes Agent deployment over a two-day window:</p>
 <table>
 <thead>
 <tr>
@@ -11514,7 +11514,7 @@ cache read per API call       =  about 103,000 tokens
 </code></pre></div>
 <p>Read that last line again. Every turn ships a prefix of roughly 100,000 tokens, and the provider charges the cached rate for about 98,700 of them. The cost driver is prefix volume, not per-token price, and the prefix is nearly free.</p>
 <h3 id="hit-versus-miss-pricing">Hit versus miss pricing<a class="headerlink" href="#hit-versus-miss-pricing" title="Anchor link to this section">&para;</a></h3>
-<p>DeepSeek V4.1 bills cache hits at a small fraction of misses. Off-peak Flash pricing is $0.003 per million cached input tokens against $0.15 per million uncached  --  a 50x gap. Pro widens it to $0.022 against $0.66.</p>
+<p>DeepSeek V4.1 bills cache hits at a small fraction of misses. Off-peak Flash pricing is $0.003 per million cached input tokens against $0.15 per million uncached  --  a 50x gap. Pro charges more on both sides ($0.022 cached against $0.66 uncached), so the ratio narrows to 30x while the dollar spread widens from about 15 cents to about 64 cents per million tokens.</p>
 <p>Applied to a window where the cache covered 98.7 percent of input, the bill lands at roughly 3 to 4 percent of what the same traffic would cost uncached. That is what the hit rate buys. Anthropic's prompt caching shows the same shape at different absolute numbers: cache reads bill at roughly 10% of base input, and cache writes carry a small premium, so the crossover comes after a couple of turns rather than immediately.</p>
 <h2 id="the-four-structural-rules">The four structural rules<a class="headerlink" href="#the-four-structural-rules" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-keep-a-large-byte-stable-prefix">1. Keep a large byte-stable prefix<a class="headerlink" href="#1-keep-a-large-byte-stable-prefix" title="Anchor link to this section">&para;</a></h3>
@@ -11558,8 +11558,8 @@ cache read per API call       =  about 103,000 tokens
 <span class="k">limit</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>sqlite3<span class="w"> </span>-readonly<span class="w"> </span>~/.hermes/profiles/&lt;profile&gt;/state.db<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">&quot;select model, sum(api_call_count), sum(input_tokens), sum(cache_read_tokens) \</span>
-<span class="s2">   from session_model_usage group by model;&quot;</span>
+<span class="w">  </span><span class="s2">"select model, sum(api_call_count), sum(input_tokens), sum(cache_read_tokens) \</span>
+<span class="s2">   from session_model_usage group by model;"</span>
 </code></pre></div>
 <p>Three readings matter:</p>
 <ol>

@@ -11315,14 +11315,14 @@
 <li><strong>Community Feedback:</strong> Analyze comments and engagement for direct audience signals</li>
 </ul>
 <h3 id="hermes-implementation">Hermes Implementation<a class="headerlink" href="#hermes-implementation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">research_video_topics</span><span class="p">(</span><span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">competitors</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Research video topics using Hermes tools and knowledge base.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">research_video_topics</span><span class="p">(</span><span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">competitors</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">"""Research video topics using Hermes tools and knowledge base."""</span>
 
     <span class="c1"># Analyze own channel performance</span>
     <span class="n">own_analytics</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">get_youtube_analytics</span><span class="p">(</span>
         <span class="n">channel_id</span><span class="o">=</span><span class="n">channel_id</span><span class="p">,</span>
-        <span class="n">dimensions</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;video&quot;</span><span class="p">],</span>
-        <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;views&quot;</span><span class="p">,</span> <span class="s2">&quot;watchTime&quot;</span><span class="p">,</span> <span class="s2">&quot;subscribersGained&quot;</span><span class="p">]</span>
+        <span class="n">dimensions</span><span class="o">=</span><span class="p">[</span><span class="s2">"video"</span><span class="p">],</span>
+        <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s2">"views"</span><span class="p">,</span> <span class="s2">"watchTime"</span><span class="p">,</span> <span class="s2">"subscribersGained"</span><span class="p">]</span>
     <span class="p">)</span>
 
     <span class="c1"># Analyze competitors</span>
@@ -11337,15 +11337,15 @@
     <span class="c1"># Synthesize recommendations</span>
     <span class="n">recommendations</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Analyze channel performance and competitor data.</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""Analyze channel performance and competitor data.</span>
 <span class="s2">            Identify 5 video topic opportunities. For each: topic, estimated performance,</span>
-<span class="s2">            rationale based on data, suggested format (tutorial, review, commentary, etc.).&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">            rationale based on data, suggested format (tutorial, review, commentary, etc.)."""</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"""</span>
 <span class="s2">            Own performance: </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">own_analytics</span><span class="p">)</span><span class="si">}</span>
 <span class="s2">            Competitor topics: </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">competitor_topics</span><span class="p">)</span><span class="si">}</span>
-<span class="s2">            &quot;&quot;&quot;</span><span class="p">}</span>
+<span class="s2">            """</span><span class="p">}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"premium"</span>
     <span class="p">)</span>
 
     <span class="k">return</span> <span class="n">recommendations</span>
@@ -11353,10 +11353,10 @@
 <h3 id="scheduling-research">Scheduling Research<a class="headerlink" href="#scheduling-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/video_topic_research.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">video_topic_research</span>
-<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">9</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1,4&quot;</span><span class="w">  </span><span class="c1"># Monday and Thursday</span>
+<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"0</span><span class="nv"> </span><span class="s">9</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1,4"</span><span class="w">  </span><span class="c1"># Monday and Thursday</span>
 <span class="nt">task</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">video.research.topics</span>
 <span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">600</span>
-<span class="nt">notify_on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;failure&quot;</span><span class="p p-Indicator">]</span>
+<span class="nt">notify_on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"failure"</span><span class="p p-Indicator">]</span>
 </code></pre></div>
 <h2 id="stage-2-script-generation">Stage 2: Script Generation<a class="headerlink" href="#stage-2-script-generation" title="Anchor link to this section">&para;</a></h2>
 <p>The script is the foundation. A well-structured script makes the rest of the pipeline predictable.</p>
@@ -11381,12 +11381,12 @@
 </code></pre></div>
 <h3 id="script-generation-with-reflexion">Script Generation with Reflexion<a class="headerlink" href="#script-generation-with-reflexion" title="Anchor link to this section">&para;</a></h3>
 <p>Use Reflexion to ensure script quality before rendering:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">generate_video_script</span><span class="p">(</span><span class="n">topic</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">target_duration_seconds</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">360</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate a video script with quality refinement.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">generate_video_script</span><span class="p">(</span><span class="n">topic</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">target_duration_seconds</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">360</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Generate a video script with quality refinement."""</span>
 
     <span class="n">script</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;Write a video script following this structure:</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"""Write a video script following this structure:</span>
 <span class="s2">            HOOK (15 sec): Attention-grabbing opening</span>
 <span class="s2">            CONTEXT (30 sec): Why this matters</span>
 <span class="s2">            MAIN (80% of time): 3 key points with examples</span>
@@ -11397,35 +11397,35 @@
 <span class="s2">            Style: Conversational, engaging, no jargon without explanation.</span>
 <span class="s2">            Include visual notes [in brackets] for the editor.</span>
 
-<span class="s2">            Topic: </span><span class="si">{</span><span class="n">topic</span><span class="si">}</span><span class="s2">&quot;&quot;&quot;</span><span class="p">}</span>
+<span class="s2">            Topic: </span><span class="si">{</span><span class="n">topic</span><span class="si">}</span><span class="s2">"""</span><span class="p">}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
     <span class="p">)</span>
 
     <span class="c1"># Reflexion: Evaluate script quality</span>
     <span class="n">evaluation</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Evaluate this video script:</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""Evaluate this video script:</span>
 <span class="s2">            1. Does the hook grab attention in the first 5 seconds?</span>
 <span class="s2">            2. Is the structure clear (hook → context → points → recap → CTA)?</span>
 <span class="s2">            3. Are there 3 distinct, actionable points?</span>
 <span class="s2">            4. Is the language conversational and engaging?</span>
 <span class="s2">            5. Would this hold viewer attention for the full duration?</span>
 
-<span class="s2">            Return PASS or FAIL with specific feedback for each criterion.&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">script</span><span class="p">}</span>
+<span class="s2">            Return PASS or FAIL with specific feedback for each criterion."""</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">script</span><span class="p">}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;lightweight&quot;</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">"lightweight"</span>
     <span class="p">)</span>
 
-    <span class="k">if</span> <span class="s2">&quot;FAIL&quot;</span> <span class="ow">in</span> <span class="n">evaluation</span><span class="p">:</span>
+    <span class="k">if</span> <span class="s2">"FAIL"</span> <span class="ow">in</span> <span class="n">evaluation</span><span class="p">:</span>
         <span class="c1"># Refine with feedback</span>
         <span class="n">script</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
             <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Improve this script based on feedback. Keep the same topic and structure.&quot;</span><span class="p">},</span>
-                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Script: </span><span class="si">{</span><span class="n">script</span><span class="si">}</span><span class="se">\n</span><span class="s2">Feedback: </span><span class="si">{</span><span class="n">evaluation</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">}</span>
+                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Improve this script based on feedback. Keep the same topic and structure."</span><span class="p">},</span>
+                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Script: </span><span class="si">{</span><span class="n">script</span><span class="si">}</span><span class="se">\n</span><span class="s2">Feedback: </span><span class="si">{</span><span class="n">evaluation</span><span class="si">}</span><span class="s2">"</span><span class="p">}</span>
             <span class="p">],</span>
-            <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
+            <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
         <span class="p">)</span>
 
     <span class="k">return</span> <span class="n">script</span>
@@ -11477,20 +11477,20 @@
 <h2 id="stage-3-media-creation-avatar-rendering">Stage 3: Media Creation / Avatar Rendering<a class="headerlink" href="#stage-3-media-creation-avatar-rendering" title="Anchor link to this section">&para;</a></h2>
 <h3 id="option-a-heygen-avatar-videos">Option A: HeyGen Avatar Videos<a class="headerlink" href="#option-a-heygen-avatar-videos" title="Anchor link to this section">&para;</a></h3>
 <p>For talking-head style content without filming:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">create_avatar_video</span><span class="p">(</span><span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate an AI avatar video using HeyGen.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">create_avatar_video</span><span class="p">(</span><span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Generate an AI avatar video using HeyGen."""</span>
 
     <span class="c1"># Prepare the script for HeyGen</span>
     <span class="n">segments</span> <span class="o">=</span> <span class="n">parse_script_to_segments</span><span class="p">(</span><span class="n">script</span><span class="p">)</span>  <span class="c1"># Split by visual cues</span>
 
     <span class="c1"># Generate avatar video</span>
     <span class="n">video</span> <span class="o">=</span> <span class="n">heygen_client</span><span class="o">.</span><span class="n">create_video</span><span class="p">(</span>
-        <span class="n">avatar_id</span><span class="o">=</span><span class="s2">&quot;default_professional&quot;</span><span class="p">,</span>
-        <span class="n">voice_id</span><span class="o">=</span><span class="s2">&quot;natural_male_1&quot;</span><span class="p">,</span>
-        <span class="n">background</span><span class="o">=</span><span class="s2">&quot;#1a1a2e&quot;</span><span class="p">,</span>  <span class="c1"># Dark tech background</span>
+        <span class="n">avatar_id</span><span class="o">=</span><span class="s2">"default_professional"</span><span class="p">,</span>
+        <span class="n">voice_id</span><span class="o">=</span><span class="s2">"natural_male_1"</span><span class="p">,</span>
+        <span class="n">background</span><span class="o">=</span><span class="s2">"#1a1a2e"</span><span class="p">,</span>  <span class="c1"># Dark tech background</span>
         <span class="n">script</span><span class="o">=</span><span class="n">segments</span><span class="p">,</span>
-        <span class="n">resolution</span><span class="o">=</span><span class="s2">&quot;1080p&quot;</span><span class="p">,</span>
-        <span class="n">output_format</span><span class="o">=</span><span class="s2">&quot;mp4&quot;</span>
+        <span class="n">resolution</span><span class="o">=</span><span class="s2">"1080p"</span><span class="p">,</span>
+        <span class="n">output_format</span><span class="o">=</span><span class="s2">"mp4"</span>
     <span class="p">)</span>
 
     <span class="c1"># Download and store</span>
@@ -11505,7 +11505,7 @@
 <h3 id="option-b-remotion-programmatic-video">Option B: Remotion Programmatic Video<a class="headerlink" href="#option-b-remotion-programmatic-video" title="Anchor link to this section">&para;</a></h3>
 <p>For data-driven, code-generated videos:</p>
 <div class="highlight"><pre><span></span><code><span class="c1">// Remotion composition for data visualization videos</span>
-<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Composition</span><span class="p">,</span><span class="w"> </span><span class="nx">useCurrentFrame</span><span class="p">,</span><span class="w"> </span><span class="nx">useVideoConfig</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;remotion&#39;</span><span class="p">;</span>
+<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Composition</span><span class="p">,</span><span class="w"> </span><span class="nx">useCurrentFrame</span><span class="p">,</span><span class="w"> </span><span class="nx">useVideoConfig</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">'remotion'</span><span class="p">;</span>
 
 <span class="kd">const</span><span class="w"> </span><span class="nx">DataVideo</span><span class="o">:</span><span class="w"> </span><span class="kt">React.FC</span><span class="o">&lt;</span><span class="p">{</span><span class="nx">data</span><span class="o">:</span><span class="w"> </span><span class="kt">ChartData</span><span class="p">}</span><span class="o">&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">({</span><span class="nx">data</span><span class="p">})</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">frame</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useCurrentFrame</span><span class="p">();</span>
@@ -11513,7 +11513,7 @@
 <span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">seconds</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">frame</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nx">fps</span><span class="p">;</span>
 
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span>
-<span class="w">        </span><span class="o">&lt;</span><span class="nx">div</span><span class="w"> </span><span class="nx">style</span><span class="o">=</span><span class="p">{{</span><span class="nx">background</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;#0f0f23&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;white&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">padding</span><span class="o">:</span><span class="w"> </span><span class="kt">40</span><span class="p">}}</span><span class="o">&gt;</span>
+<span class="w">        </span><span class="o">&lt;</span><span class="nx">div</span><span class="w"> </span><span class="nx">style</span><span class="o">=</span><span class="p">{{</span><span class="nx">background</span><span class="o">:</span><span class="w"> </span><span class="s1">'#0f0f23'</span><span class="p">,</span><span class="w"> </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">'white'</span><span class="p">,</span><span class="w"> </span><span class="nx">padding</span><span class="o">:</span><span class="w"> </span><span class="kt">40</span><span class="p">}}</span><span class="o">&gt;</span>
 <span class="w">            </span><span class="o">&lt;</span><span class="nx">h1</span><span class="w"> </span><span class="nx">style</span><span class="o">=</span><span class="p">{{</span><span class="nx">opacity</span><span class="o">:</span><span class="w"> </span><span class="kt">Math.min</span><span class="p">(</span><span class="nx">seconds</span><span class="p">,</span><span class="w"> </span><span class="mf">1</span><span class="p">)}}</span><span class="o">&gt;</span><span class="p">{</span><span class="nx">data</span><span class="p">.</span><span class="nx">title</span><span class="p">}</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
 <span class="w">            </span><span class="o">&lt;</span><span class="nx">AnimatedChart</span>
 <span class="w">                </span><span class="nx">data</span><span class="o">=</span><span class="p">{</span><span class="nx">data</span><span class="p">.</span><span class="nx">values</span><span class="p">}</span>
@@ -11534,22 +11534,22 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-i<span class="w"> </span>intro.mp4<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-i<span class="w"> </span>content.mp4<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-i<span class="w"> </span>outro.mp4<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-filter_complex<span class="w"> </span><span class="s2">&quot;</span>
+<span class="w">  </span>-filter_complex<span class="w"> </span><span class="s2">"</span>
 <span class="s2">    [0:v]scale=1920:1080,setdar=16/9[v0];</span>
 <span class="s2">    [1:v]scale=1920:1080,setdar=16/9[v1];</span>
 <span class="s2">    [2:v]scale=1920:1080,setdar=16/9[v2];</span>
 <span class="s2">    [v0][v1]xfade=transition=fade:duration=1:offset=4[f0];</span>
 <span class="s2">    [f0][v2]xfade=transition=fade:duration=1:offset=304[f1]</span>
-<span class="s2">  &quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-map<span class="w"> </span><span class="s2">&quot;[f1]&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="s2">  "</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-map<span class="w"> </span><span class="s2">"[f1]"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-c:v<span class="w"> </span>libx264<span class="w"> </span>-preset<span class="w"> </span>medium<span class="w"> </span>-crf<span class="w"> </span><span class="m">23</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-c:a<span class="w"> </span>aac<span class="w"> </span>-b:a<span class="w"> </span>128k<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>final_video.mp4
 </code></pre></div>
 <h2 id="stage-4-post-production">Stage 4: Post-Production<a class="headerlink" href="#stage-4-post-production" title="Anchor link to this section">&para;</a></h2>
 <h3 id="automated-caption-generation">Automated Caption Generation<a class="headerlink" href="#automated-caption-generation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">generate_captions</span><span class="p">(</span><span class="n">video_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate and burn captions into the video.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">generate_captions</span><span class="p">(</span><span class="n">video_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Generate and burn captions into the video."""</span>
 
     <span class="c1"># Extract audio and transcribe</span>
     <span class="n">transcript</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">transcribe_audio</span><span class="p">(</span><span class="n">video_path</span><span class="p">)</span>
@@ -11558,11 +11558,11 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
     <span class="n">srt_content</span> <span class="o">=</span> <span class="n">format_as_srt</span><span class="p">(</span><span class="n">transcript</span><span class="p">)</span>
 
     <span class="c1"># Burn captions into video using FFmpeg</span>
-    <span class="n">captioned_path</span> <span class="o">=</span> <span class="n">video_path</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.mp4&quot;</span><span class="p">,</span> <span class="s2">&quot;_captioned.mp4&quot;</span><span class="p">)</span>
+    <span class="n">captioned_path</span> <span class="o">=</span> <span class="n">video_path</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">".mp4"</span><span class="p">,</span> <span class="s2">"_captioned.mp4"</span><span class="p">)</span>
     <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">([</span>
-        <span class="s2">&quot;ffmpeg&quot;</span><span class="p">,</span> <span class="s2">&quot;-i&quot;</span><span class="p">,</span> <span class="n">video_path</span><span class="p">,</span>
-        <span class="s2">&quot;-vf&quot;</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;subtitles=</span><span class="si">{</span><span class="n">srt_path</span><span class="si">}</span><span class="s2">:force_style=&#39;FontSize=24,PrimaryColour=&amp;H00FFFFFF,OutlineColour=&amp;H00000000,BorderStyle=3&#39;&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;-c:a&quot;</span><span class="p">,</span> <span class="s2">&quot;copy&quot;</span><span class="p">,</span>
+        <span class="s2">"ffmpeg"</span><span class="p">,</span> <span class="s2">"-i"</span><span class="p">,</span> <span class="n">video_path</span><span class="p">,</span>
+        <span class="s2">"-vf"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"subtitles=</span><span class="si">{</span><span class="n">srt_path</span><span class="si">}</span><span class="s2">:force_style='FontSize=24,PrimaryColour=&amp;H00FFFFFF,OutlineColour=&amp;H00000000,BorderStyle=3'"</span><span class="p">,</span>
+        <span class="s2">"-c:a"</span><span class="p">,</span> <span class="s2">"copy"</span><span class="p">,</span>
         <span class="n">captioned_path</span>
     <span class="p">])</span>
 
@@ -11570,19 +11570,19 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 </code></pre></div>
 <h3 id="thumbnail-generation">Thumbnail Generation<a class="headerlink" href="#thumbnail-generation" title="Anchor link to this section">&para;</a></h3>
 <p>Thumbnails drive click-through rate. Automate A/B thumbnail testing:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">generate_thumbnails</span><span class="p">(</span><span class="n">video_title</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate multiple thumbnail options for A/B testing.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">generate_thumbnails</span><span class="p">(</span><span class="n">video_title</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">"""Generate multiple thumbnail options for A/B testing."""</span>
 
     <span class="n">thumbnails</span> <span class="o">=</span> <span class="p">[]</span>
 
-    <span class="k">for</span> <span class="n">style</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;bold_text&quot;</span><span class="p">,</span> <span class="s2">&quot;face_reaction&quot;</span><span class="p">,</span> <span class="s2">&quot;comparison&quot;</span><span class="p">,</span> <span class="s2">&quot;question&quot;</span><span class="p">]:</span>
+    <span class="k">for</span> <span class="n">style</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"bold_text"</span><span class="p">,</span> <span class="s2">"face_reaction"</span><span class="p">,</span> <span class="s2">"comparison"</span><span class="p">,</span> <span class="s2">"question"</span><span class="p">]:</span>
         <span class="n">thumbnail</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">generate_image</span><span class="p">(</span>
-            <span class="n">prompt</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;&quot;&quot;YouTube thumbnail in </span><span class="si">{</span><span class="n">style</span><span class="si">}</span><span class="s2"> style.</span>
+            <span class="n">prompt</span><span class="o">=</span><span class="sa">f</span><span class="s2">"""YouTube thumbnail in </span><span class="si">{</span><span class="n">style</span><span class="si">}</span><span class="s2"> style.</span>
 <span class="s2">            Title: </span><span class="si">{</span><span class="n">video_title</span><span class="si">}</span>
 <span class="s2">            Key visual: </span><span class="si">{</span><span class="n">script</span><span class="p">[:</span><span class="mi">200</span><span class="p">]</span><span class="si">}</span>
 <span class="s2">            Requirements: High contrast, readable text, 1280x720, compelling.</span>
-<span class="s2">            No clickbait. Professional but eye-catching.&quot;&quot;&quot;</span><span class="p">,</span>
-            <span class="n">dimensions</span><span class="o">=</span><span class="s2">&quot;1280x720&quot;</span>
+<span class="s2">            No clickbait. Professional but eye-catching."""</span><span class="p">,</span>
+            <span class="n">dimensions</span><span class="o">=</span><span class="s2">"1280x720"</span>
         <span class="p">)</span>
         <span class="n">thumbnails</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">thumbnail</span><span class="p">)</span>
 
@@ -11603,7 +11603,7 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/content/video_distribution.yaml</span>
 <span class="nt">videos</span><span class="p">:</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">platform</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">youtube</span>
-<span class="w">    </span><span class="nt">title_template</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;{topic}:</span><span class="nv"> </span><span class="s">{hook_summary}&quot;</span>
+<span class="w">    </span><span class="nt">title_template</span><span class="p">:</span><span class="w"> </span><span class="s">"{topic}:</span><span class="nv"> </span><span class="s">{hook_summary}"</span>
 <span class="w">    </span><span class="nt">description_template</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
 <span class="w">      </span><span class="no">{full_description}</span>
 
@@ -11615,20 +11615,20 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 
 <span class="w">      </span><span class="no">#hashtag1 #hashtag2 #hashtag3</span>
 <span class="w">    </span><span class="nt">tags</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">tag1</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">tag2</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">tag3</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">tag4</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">tag5</span><span class="p p-Indicator">]</span>
-<span class="w">    </span><span class="nt">category</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Science</span><span class="nv"> </span><span class="s">&amp;</span><span class="nv"> </span><span class="s">Technology&quot;</span>
-<span class="w">    </span><span class="nt">privacy</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;private&quot;</span><span class="w">  </span><span class="c1"># Start private, review, then public</span>
-<span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;optimal_time&quot;</span><span class="w">  </span><span class="c1"># Based on audience analytics</span>
+<span class="w">    </span><span class="nt">category</span><span class="p">:</span><span class="w"> </span><span class="s">"Science</span><span class="nv"> </span><span class="s">&amp;</span><span class="nv"> </span><span class="s">Technology"</span>
+<span class="w">    </span><span class="nt">privacy</span><span class="p">:</span><span class="w"> </span><span class="s">"private"</span><span class="w">  </span><span class="c1"># Start private, review, then public</span>
+<span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"optimal_time"</span><span class="w">  </span><span class="c1"># Based on audience analytics</span>
 
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">platform</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tiktok</span>
 <span class="w">    </span><span class="nt">clip_duration</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">60</span><span class="w">  </span><span class="c1"># Extract best 60 seconds</span>
-<span class="w">    </span><span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;{hook}</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">full</span><span class="nv"> </span><span class="s">video</span><span class="nv"> </span><span class="s">on</span><span class="nv"> </span><span class="s">YouTube</span><span class="nv"> </span><span class="s">🔗&quot;</span>
+<span class="w">    </span><span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="s">"{hook}</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">full</span><span class="nv"> </span><span class="s">video</span><span class="nv"> </span><span class="s">on</span><span class="nv"> </span><span class="s">YouTube</span><span class="nv"> </span><span class="s">🔗"</span>
 <span class="w">    </span><span class="nt">hashtags</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">fyp</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">viral_topic</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">niche_hashtag</span><span class="p p-Indicator">]</span>
-<span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;+2h&quot;</span><span class="w">  </span><span class="c1"># 2 hours after YouTube</span>
+<span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"+2h"</span><span class="w">  </span><span class="c1"># 2 hours after YouTube</span>
 
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">platform</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">instagram_reels</span>
 <span class="w">    </span><span class="nt">clip_duration</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">90</span>
-<span class="w">    </span><span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;{topic}</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">watch</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">full</span><span class="nv"> </span><span class="s">breakdown</span><span class="nv"> </span><span class="s">👆</span><span class="nv"> </span><span class="s">link</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">bio&quot;</span>
-<span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;+4h&quot;</span>
+<span class="w">    </span><span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="s">"{topic}</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">watch</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">full</span><span class="nv"> </span><span class="s">breakdown</span><span class="nv"> </span><span class="s">👆</span><span class="nv"> </span><span class="s">link</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">bio"</span>
+<span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"+4h"</span>
 </code></pre></div>
 <h3 id="cross-platform-content-strategy">Cross-Platform Content Strategy<a class="headerlink" href="#cross-platform-content-strategy" title="Anchor link to this section">&para;</a></h3>
 <p>Don't upload the same video everywhere. Adapt:</p>
@@ -11642,43 +11642,43 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 </ol>
 <h3 id="scheduling-optimization">Scheduling Optimization<a class="headerlink" href="#scheduling-optimization" title="Anchor link to this section">&para;</a></h3>
 <p>Post times matter. Analyze your audience data:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_optimal_post_time</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Determine best posting time based on historical engagement data.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">get_optimal_post_time</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">"""Determine best posting time based on historical engagement data."""</span>
 
     <span class="n">analytics</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">get_youtube_analytics</span><span class="p">(</span>
         <span class="n">channel_id</span><span class="o">=</span><span class="n">channel_id</span><span class="p">,</span>
-        <span class="n">dimensions</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;dayOfWeek&quot;</span><span class="p">,</span> <span class="s2">&quot;hour&quot;</span><span class="p">],</span>
-        <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;views&quot;</span><span class="p">,</span> <span class="s2">&quot;averageViewDuration&quot;</span><span class="p">]</span>
+        <span class="n">dimensions</span><span class="o">=</span><span class="p">[</span><span class="s2">"dayOfWeek"</span><span class="p">,</span> <span class="s2">"hour"</span><span class="p">],</span>
+        <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s2">"views"</span><span class="p">,</span> <span class="s2">"averageViewDuration"</span><span class="p">]</span>
     <span class="p">)</span>
 
     <span class="c1"># Find the day-hour combination with highest engagement</span>
-    <span class="n">best_slot</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">analytics</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s2">&quot;views&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="s2">&quot;averageViewDuration&quot;</span><span class="p">])</span>
+    <span class="n">best_slot</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">analytics</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s2">"views"</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="s2">"averageViewDuration"</span><span class="p">])</span>
 
-    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">best_slot</span><span class="p">[</span><span class="s1">&#39;dayOfWeek&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> at </span><span class="si">{</span><span class="n">best_slot</span><span class="p">[</span><span class="s1">&#39;hour&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">:00&quot;</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">best_slot</span><span class="p">[</span><span class="s1">'dayOfWeek'</span><span class="p">]</span><span class="si">}</span><span class="s2"> at </span><span class="si">{</span><span class="n">best_slot</span><span class="p">[</span><span class="s1">'hour'</span><span class="p">]</span><span class="si">}</span><span class="s2">:00"</span>
 </code></pre></div>
 <h3 id="performance-tracking">Performance Tracking<a class="headerlink" href="#performance-tracking" title="Anchor link to this section">&para;</a></h3>
 <p>Automate post-publish monitoring:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">track_video_performance</span><span class="p">(</span><span class="n">video_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">platforms</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Track video performance for the first 72 hours.&quot;&quot;&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">track_video_performance</span><span class="p">(</span><span class="n">video_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">platforms</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]):</span>
+<span class="w">    </span><span class="sd">"""Track video performance for the first 72 hours."""</span>
 
     <span class="c1"># Schedule hourly checks for the first 24 hours</span>
     <span class="k">for</span> <span class="n">hour</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">73</span><span class="p">):</span>
         <span class="n">metrics</span> <span class="o">=</span> <span class="p">{}</span>
 
-        <span class="k">if</span> <span class="s2">&quot;youtube&quot;</span> <span class="ow">in</span> <span class="n">platforms</span><span class="p">:</span>
+        <span class="k">if</span> <span class="s2">"youtube"</span> <span class="ow">in</span> <span class="n">platforms</span><span class="p">:</span>
             <span class="n">yt_data</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">get_youtube_video_analytics</span><span class="p">(</span><span class="n">video_id</span><span class="p">)</span>
-            <span class="n">metrics</span><span class="p">[</span><span class="s2">&quot;youtube&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
-                <span class="s2">&quot;views&quot;</span><span class="p">:</span> <span class="n">yt_data</span><span class="p">[</span><span class="s2">&quot;views&quot;</span><span class="p">],</span>
-                <span class="s2">&quot;watch_time&quot;</span><span class="p">:</span> <span class="n">yt_data</span><span class="p">[</span><span class="s2">&quot;estimatedMinutesWatched&quot;</span><span class="p">],</span>
-                <span class="s2">&quot;retention&quot;</span><span class="p">:</span> <span class="n">yt_data</span><span class="p">[</span><span class="s2">&quot;averageViewDuration&quot;</span><span class="p">],</span>
-                <span class="s2">&quot;ctr&quot;</span><span class="p">:</span> <span class="n">yt_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;clickThroughRate&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="n">metrics</span><span class="p">[</span><span class="s2">"youtube"</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s2">"views"</span><span class="p">:</span> <span class="n">yt_data</span><span class="p">[</span><span class="s2">"views"</span><span class="p">],</span>
+                <span class="s2">"watch_time"</span><span class="p">:</span> <span class="n">yt_data</span><span class="p">[</span><span class="s2">"estimatedMinutesWatched"</span><span class="p">],</span>
+                <span class="s2">"retention"</span><span class="p">:</span> <span class="n">yt_data</span><span class="p">[</span><span class="s2">"averageViewDuration"</span><span class="p">],</span>
+                <span class="s2">"ctr"</span><span class="p">:</span> <span class="n">yt_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"clickThroughRate"</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
             <span class="p">}</span>
 
         <span class="c1"># Alert on anomalies</span>
-        <span class="k">if</span> <span class="n">hour</span> <span class="o">==</span> <span class="mi">24</span> <span class="ow">and</span> <span class="n">metrics</span><span class="p">[</span><span class="s2">&quot;youtube&quot;</span><span class="p">][</span><span class="s2">&quot;ctr&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">0.04</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">hour</span> <span class="o">==</span> <span class="mi">24</span> <span class="ow">and</span> <span class="n">metrics</span><span class="p">[</span><span class="s2">"youtube"</span><span class="p">][</span><span class="s2">"ctr"</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">0.04</span><span class="p">:</span>
             <span class="n">hermes_tools</span><span class="o">.</span><span class="n">send_alert</span><span class="p">(</span>
-                <span class="n">channel</span><span class="o">=</span><span class="s2">&quot;content-ops&quot;</span><span class="p">,</span>
-                <span class="n">message</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;⚠️ Video </span><span class="si">{</span><span class="n">video_id</span><span class="si">}</span><span class="s2"> CTR below 4% at 24h. Consider thumbnail change.&quot;</span>
+                <span class="n">channel</span><span class="o">=</span><span class="s2">"content-ops"</span><span class="p">,</span>
+                <span class="n">message</span><span class="o">=</span><span class="sa">f</span><span class="s2">"⚠️ Video </span><span class="si">{</span><span class="n">video_id</span><span class="si">}</span><span class="s2"> CTR below 4% at 24h. Consider thumbnail change."</span>
             <span class="p">)</span>
 
         <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3600</span><span class="p">)</span>  <span class="c1"># Check hourly</span>

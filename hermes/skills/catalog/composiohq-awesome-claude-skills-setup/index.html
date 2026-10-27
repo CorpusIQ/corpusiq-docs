@@ -11342,8 +11342,8 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>composiohq/awesome-claude-skills<span class="w"> </span>--skill<span class="w"> </span>youtube-downloader
 
 <span class="c1"># 2. Use in Hermes - these skills auto-load when their trigger conditions match</span>
-<span class="c1"># Example: &quot;Research this lead for me&quot; triggers lead-research-assistant</span>
-<span class="c1"># Example: &quot;Download this YouTube video&quot; triggers youtube-downloader</span>
+<span class="c1"># Example: "Research this lead for me" triggers lead-research-assistant</span>
+<span class="c1"># Example: "Download this YouTube video" triggers youtube-downloader</span>
 
 <span class="c1"># 3. List installed skills to verify</span>
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>composiohq
@@ -11351,10 +11351,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check skills are installed</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;lead-research|youtube-downloader|invoice-organizer&quot;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"lead-research|youtube-downloader|invoice-organizer"</span>
 
 <span class="c1"># Test a skill - ask Hermes a relevant question to trigger it</span>
-<span class="c1"># &quot;Research this company as a potential lead: stripe.com&quot;</span>
+<span class="c1"># "Research this company as a potential lead: stripe.com"</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

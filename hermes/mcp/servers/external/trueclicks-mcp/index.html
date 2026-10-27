@@ -11081,7 +11081,7 @@
 <h1 id="trueclicks-mcp-ppc-audit-intelligence-for-agents">TrueClicks MCP - PPC Audit Intelligence for Agents<a class="headerlink" href="#trueclicks-mcp-ppc-audit-intelligence-for-agents" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Remote MCP server (Streamable HTTP, OAuth)</strong> - a hosted, read-only connector from TrueClicks (trueclicks.com) that puts the platform's PPC audit and monitoring layer in front of an agent: the agent can ask questions across a whole portfolio of Google, Microsoft and Meta Ads accounts instead of clicking through them one at a time, and it sees only the accounts the signed-in TrueClicks user can already see.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: OAuth (browser sign-in with the user&#39;s own TrueClicks login; per-user account scoping)
+Auth: OAuth (browser sign-in with the user's own TrueClicks login; per-user account scoping)
 Endpoint: https://data.trueclicks.com/mcp
 Tools: Read-only audit, score, alert, budget and performance queries across Google, Microsoft and Meta Ads accounts
 Pricing: Requires an active TrueClicks account with at least one connected ad account
@@ -11132,10 +11132,10 @@ Built by: TrueClicks (trueclicks.com)
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;trueclicks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://data.trueclicks.com/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"trueclicks"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://data.trueclicks.com/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

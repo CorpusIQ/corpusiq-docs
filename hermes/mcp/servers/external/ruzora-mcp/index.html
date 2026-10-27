@@ -11157,7 +11157,7 @@ Auth: none for the read and planning tools; a work-email code is required before
 Live check: POST initialize returned HTTP 200 (serverInfo ruzora 1.0.0, protocol 2025-03-26, tools, prompts and resources capabilities); tools/list returned 35 tools
 Real call: check_pay_transparency with locations [California, New York] returned three applicable rules with statute citations and source URLs, rules stated as of 2026-10-04
 Tools: 35 (role scorecards, pay-transparency, job-post lint, resume triage and injection detection, interview kits, coding assessments, vetted-engineer search, shortlist and project requests)
-Pricing: flat monthly rate per engineer, quoted per role; vendor states 40 to 60 percent below a fully loaded US hire, a three-month initial commitment then month to month on 30 days&#39; notice, and a 60-day replacement guarantee
+Pricing: flat monthly rate per engineer, quoted per role; vendor states 40 to 60 percent below a fully loaded US hire, a three-month initial commitment then month to month on 30 days' notice, and a 60-day replacement guarantee
 Vendor: Ruzora (ruzora.com), senior software engineers in Latin America
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
@@ -11176,10 +11176,10 @@ Vendor: Ruzora (ruzora.com), senior software engineers in Latin America
 <p>No sign-in is required for the planning and compliance tools. Actions that need a verified buyer use a two-step email code, <code>verify_work_email</code> then <code>confirm_work_email</code>, so no password or account is handed to the client.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;ruzora&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.ruzora.com/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"ruzora"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.ruzora.com/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11187,10 +11187,10 @@ Vendor: Ruzora (ruzora.com), senior software engineers in Latin America
 <h2 id="what-a-pay-transparency-call-actually-returns">What a Pay-Transparency Call Actually Returns<a class="headerlink" href="#what-a-pay-transparency-call-actually-returns" title="Anchor link to this section">&para;</a></h2>
 <p><code>check_pay_transparency</code> with locations California and New York returned three rules, each with a label rather than a verdict:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;severity&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;high&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Applies&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;California&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;fix&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Cal. Lab. Code § 432.3 (as amended by SB 642, effective 2026-01-01), since 2023-01-01&quot;</span>
+<span class="w">  </span><span class="nt">"severity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"high"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Applies"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"California"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"fix"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Cal. Lab. Code § 432.3 (as amended by SB 642, effective 2026-01-01), since 2023-01-01"</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>and for New York State, <code>N.Y. Lab. Law § 194-b</code> with a note that the law covers employers with four or more employees and that the headcount was not supplied, so that test is the operator's to confirm. New York City came back as <code>May apply</code>, explaining that the city law also applies if the role is performed there.</p>

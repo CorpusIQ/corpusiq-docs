@@ -11110,14 +11110,14 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <h2 id="hermes-agent-integration">Hermes Agent Integration<a class="headerlink" href="#hermes-agent-integration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Agent creates a review page</span>
 <span class="n">page</span> <span class="o">=</span> <span class="n">mcp_twocents_share_page</span><span class="p">(</span>
-    <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Q3 Content Calendar Draft&quot;</span><span class="p">,</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">"Q3 Content Calendar Draft"</span><span class="p">,</span>
     <span class="n">content</span><span class="o">=</span><span class="n">calendar_markdown</span><span class="p">,</span>
-    <span class="n">feedback_type</span><span class="o">=</span><span class="s2">&quot;approve_or_revise&quot;</span>
+    <span class="n">feedback_type</span><span class="o">=</span><span class="s2">"approve_or_revise"</span>
 <span class="p">)</span>
 <span class="c1"># Later: check for feedback</span>
 <span class="n">feedback</span> <span class="o">=</span> <span class="n">mcp_twocents_get_feedback</span><span class="p">(</span><span class="n">page_id</span><span class="o">=</span><span class="n">page</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">feedback</span><span class="o">.</span><span class="n">status</span> <span class="o">==</span> <span class="s2">&quot;approved&quot;</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Calendar approved - proceeding with scheduling&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">feedback</span><span class="o">.</span><span class="n">status</span> <span class="o">==</span> <span class="s2">"approved"</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Calendar approved - proceeding with scheduling"</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <p><em>Discovered via <a href="https://mcp.so">mcp.so</a> sweep. Listed in the <a href="https://corpusiq-docs/hermes/mcp/">CorpusIQ MCP Catalog</a>.</em></p>
