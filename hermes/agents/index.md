@@ -8,7 +8,7 @@ tags:
   - hermes-agents
   - role-configurations
   - production-agents
-last_updated: 2026-10-24
+last_updated: 2026-10-26
 canonical: "https://www.corpusiq.io/docs/hermes/agents/"
 robots: "index,follow"
 
@@ -24,15 +24,15 @@ Agents in this library run on the [Hermes Agent framework](/hermes) by Nous Rese
 
 | # | Agent | Primary Use Case | Recommended Model | Connector Footprint |
 |---|-------|-----------------|-------------------|---------------------|
-| 1 | [Sales Agent](./sales-agent) | Lead qualification, pipeline management, outreach sequences | DeepSeek V3 / Claude Sonnet 4 | CRM, Calendly, Email, Slack |
-| 2 | [Marketing Agent](./marketing-agent) | Content analytics, SEO monitoring, campaign performance | Claude Sonnet 4 / GPT-4o | GA4, Search Console, Ahrefs, Klaviyo, Meta Ads |
-| 3 | [DevOps Agent](./devops-agent) | Infrastructure monitoring, incident response, deployment tracking | Claude Sonnet 4 / DeepSeek V3 | Database, Slack, Email, Observability APIs |
-| 4 | [Support Agent](./support-agent) | Ticket triage, knowledge base search, SLA monitoring | Claude Sonnet 4 / GPT-4o | CRM, Slack, Email, Stripe, Notion |
-| 5 | [Finance Agent](./finance-agent) | Invoice processing, reconciliation, financial reporting | Claude Sonnet 4 / DeepSeek V3 | QuickBooks, Stripe, Slack, Email, Drive |
-| 6 | [HR Agent](./hr-agent) | Resume screening, onboarding, policy Q&A, compliance | Claude Sonnet 4 / GPT-4o | Calendly, Email, Slack, Notion, Drive |
-| 7 | [Research Agent](./research-agent) | Competitive intel, market analysis, literature review | Claude Sonnet 4 / DeepSeek V3 | Ahrefs, Semrush, GA4, YouTube, Notion |
-| 8 | [Legal Agent](./legal-agent) | Contract review, regulatory monitoring, audit prep | Claude Sonnet 4 / GPT-4o | Drive, OneDrive, Notion, Slack, Email |
-| 9 | [Executive Agent](./executive-agent) | Calendar management, inbox triage, daily briefings | Claude Sonnet 4 / GPT-4o | Calendar, Calendly, Email, Slack, Notion |
+| 1 | [Sales Agent](./sales-agent) | Lead qualification, pipeline management, outreach sequences | DeepSeek V4.1 / Claude Sonnet 5.5 | CRM, Calendly, Email, Slack |
+| 2 | [Marketing Agent](./marketing-agent) | Content analytics, SEO monitoring, campaign performance | Claude Sonnet 5.5 / GPT-5.6 | GA4, Search Console, Ahrefs, Klaviyo, Meta Ads |
+| 3 | [DevOps Agent](./devops-agent) | Infrastructure monitoring, incident response, deployment tracking | Claude Sonnet 5.5 / DeepSeek V4.1 | Database, Slack, Email, Observability APIs |
+| 4 | [Support Agent](./support-agent) | Ticket triage, knowledge base search, SLA monitoring | Claude Sonnet 5.5 / GPT-5.6 | CRM, Slack, Email, Stripe, Notion |
+| 5 | [Finance Agent](./finance-agent) | Invoice processing, reconciliation, financial reporting | Claude Sonnet 5.5 / DeepSeek V4.1 | QuickBooks, Stripe, Slack, Email, Drive |
+| 6 | [HR Agent](./hr-agent) | Resume screening, onboarding, policy Q&A, compliance | Claude Sonnet 5.5 / GPT-5.6 | Calendly, Email, Slack, Notion, Drive |
+| 7 | [Research Agent](./research-agent) | Competitive intel, market analysis, literature review | Claude Sonnet 5.5 / DeepSeek V4.1 | Ahrefs, Semrush, GA4, YouTube, Notion |
+| 8 | [Legal Agent](./legal-agent) | Contract review, regulatory monitoring, audit prep | Claude Sonnet 5.5 / GPT-5.6 | Drive, OneDrive, Notion, Slack, Email |
+| 9 | [Executive Agent](./executive-agent) | Calendar management, inbox triage, daily briefings | Claude Sonnet 5.5 / GPT-5.6 | Calendar, Calendly, Email, Slack, Notion |
 
 ## How It Works
 
@@ -42,7 +42,7 @@ Each agent file is a **self-contained configuration**. Read the role description
 
 ### 2. Connect Your Tools
 
-Before an agent can work, its MCP connectors need to be authenticated. Run `hermes setup connectors` and follow the prompts to connect each service the agent requires. You only need to connect the services you actually use  --  skip connectors for platforms you don't have.
+Before an agent can work, its MCP connectors need to be authenticated. Run `hermes mcp add` to connect each server (discovery-first install), then `hermes mcp list` to confirm what is wired up. If a server uses OAuth, `hermes mcp login` forces re-authentication; `hermes mcp test` checks the connection. You only need to connect the services you actually use  --  skip connectors for platforms you don't have.
 
 ### 3. Customize the Cron Schedule
 
@@ -54,13 +54,7 @@ hermes config edit --profile sales
 
 ### 4. Add Your Business Context
 
-Agents work best when they understand your business. Use [canonical facts](/hermes/governance) to store key definitions:
-
-```bash
-hermes canonical set --profile sales \
-  --key icp_criteria \
-  --value "B2B SaaS, 50-500 employees, US/Canada, marketing or sales tech stack"
-```
+Agents work best when they understand your business. Use [canonical facts](/hermes/governance) to store key definitions once and reuse them everywhere. On the CorpusIQ MCP surface, `canonical_facts_set` takes a key, value, and category; it stages the write and returns a `pending_write_id`, and `canonical_pending_commit` applies it once you confirm. `canonical_facts_get` reads a fact back by key.
 
 ### 5. Test and Iterate
 
@@ -70,13 +64,13 @@ Start with **one agent**. Run it manually for a few days, review the output, ref
 
 | Model | Best For | Trade-offs |
 |-------|----------|------------|
-| **Claude Sonnet 4** | General-purpose agent work; nuance, contracts, multi-source synthesis | Higher cost per token |
-| **DeepSeek V3 / V4 Pro** | Structured analysis, financial data, research synthesis | May need more explicit formatting |
-| **GPT-4o** | Natural language generation, creative briefs, customer-facing drafts | Cost comparable to Claude |
-| **Claude Haiku** | Always-on monitoring, alert classification, simple Q&A | Less capable at multi-step reasoning |
-| **GPT-4o Mini** | Cost-sensitive deployments, high-volume classification | Less nuanced; pair with larger model |
+| **Claude Sonnet 5.5** | General-purpose agent work; nuance, contracts, multi-source synthesis | Higher cost per token |
+| **DeepSeek V4.1 / V4 Pro** | Structured analysis, financial data, research synthesis | May need more explicit formatting |
+| **GPT-5.6** | Natural language generation, creative briefs, customer-facing drafts | Cost comparable to Claude |
+| **Claude Haiku 5.5** | Always-on monitoring, alert classification, simple Q&A | Less capable at multi-step reasoning |
+| **GPT-5.4 mini / nano** | Cost-sensitive deployments, high-volume classification | Less nuanced; pair with larger model |
 
-**Recommendation:** Use Claude Sonnet 4 or GPT-4o for agents that draft communications or analyze complex multi-source data. Use DeepSeek V3/V4 for structured data analysis. Use Haiku or GPT-4o Mini for always-on monitoring skills.
+**Recommendation:** Use Claude Sonnet 5.5 or GPT-5.6 for agents that draft communications or analyze complex multi-source data. Use DeepSeek V4.1/V4 Pro for structured data analysis. Use Haiku or a mini/nano tier for always-on monitoring skills. Model IDs rotate every few weeks  --  confirm the exact slug in the `/model` picker before you pin one.
 
 ## Extending Agents
 
@@ -96,7 +90,7 @@ The **Hermes Agent Library** provides 9 production-ready, role-specific agent co
 
 ### How do I deploy a Hermes agent from this library?
 
-1. Pick the agent matching your role from the table above 2. Run the Quick-Start command from the agent's page 3. Authenticate the required connectors with `hermes setup connectors` 4. Customize the cron schedule for your timezone 5. Test manually, then enable the cron.
+1. Pick the agent matching your role from the table above 2. Run the Quick-Start command from the agent's page 3. Authenticate the required connectors with `hermes mcp add` 4. Customize the cron schedule for your timezone 5. Test manually, then enable the cron.
 
 ### Which agent should I deploy first?
 
@@ -108,7 +102,7 @@ Yes. Deploy as many agents as you need. They run as separate Hermes profiles wit
 
 ### How much does running these agents cost?
 
-Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku** costs pennies per day. Full-featured agents with **Claude Sonnet 4** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/hermes/best-practices/model-selection) for optimization tips.
+Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku 5.5** costs pennies per day. Full-featured agents with **Claude Sonnet 5.5** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/hermes/best-practices/model-selection) for optimization tips.
 
 ## Related Pages
 

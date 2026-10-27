@@ -3,7 +3,7 @@ title: "Model Selection Guide for Hermes Agent"
 description: Hermes Agent model selection best practices. Task-to-model mapping, cost optimization, local vs cloud tradeoffs, fallback chains, and decision tree. Save latency and cost with tiered model routing for every task type.
 category: best-practices
 tags: [hermes-agent, model-selection, ai-models, cost-optimization, ollama, openrouter, local-models, cloud-models]
-last_updated: 2026-10-19
+last_updated: 2026-10-26
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/model-selection/"
 robots: "index,follow"
 
@@ -15,7 +15,7 @@ Choosing the right model for each task is one of the highest-leverage decisions 
 
 ## Overview
 
-Hermes Agent supports 200+ models across Ollama (local), OpenRouter, and direct provider APIs. Following [best practices](/hermes/best-practices) for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.
+Hermes Agent runs models from local Ollama, OpenRouter, Nous Portal, and direct provider APIs. Nous Portal serves 300+ models under a single subscription, and OpenRouter's catalogue currently lists 400+. Following [best practices](/hermes/best-practices) for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.
 
 ## How It Works
 
@@ -91,7 +91,7 @@ Use local models (Ollama) for classification, extraction, and data-sensitive tas
 Implement caching for repeated queries, use prompt compression before expensive calls, batch non-urgent tasks, and create fallback chains that try cheaper models first. Track cost per successful task, not per token.
 
 ### What's the best model for code generation?
-Frontier models like Claude Sonnet 4, GPT-4o, and DeepSeek V3 excel at code generation. For boilerplate or simple functions, smaller local models like CodeLlama or DeepSeek Coder handle it efficiently at zero cost.
+Frontier models carry the hard work: Claude Sonnet 5.5 or Opus 5.5, GPT-5.6, and DeepSeek V4.1 are all live in the OpenRouter catalogue as of October 2026. For boilerplate or simple functions, a smaller coder model such as Qwen3-Coder 30B handles it at zero marginal cost when served locally. Model names rotate every few weeks, so confirm the exact ID in the `/model` picker instead of trusting a table.
 
 ## Related Pages
 
