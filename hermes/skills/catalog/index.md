@@ -811,3 +811,14 @@ Linked from this index so the pages are reachable by crawl.
 - [Recoup Skills - Music Label Agent Suite Setup](/hermes/skills/catalog/recoupable-skills-setup)
 - [NotebookLM Skill - Archived Notebook Query Setup](/hermes/skills/catalog/notebooklm-skill-setup)
 - [AI Labs Claude Skills - 27 Skill Business Suite Setup](/hermes/skills/catalog/ailabs-claude-skills-setup)
+
+### New - October 26, 2026 Evening Sweep (8 publisher guides)
+
+- [Yaklang Hack Skills - Offensive Security Toolkit Setup](/hermes/skills/catalog/hack-skills-setup)
+- [Dev Event Organizer Skills - Conferences and Meetups Setup](/hermes/skills/catalog/dev-event-organizer-skills-setup)
+- [Aaron Marketing Skills - Full Marketing Department Setup](/hermes/skills/catalog/aaron-marketing-skills-setup)
+- [Markdown Viewer Skills - Diagrams, Charts and Cards Setup](/hermes/skills/catalog/markdown-viewer-skills-setup)
+- [Reddit Research Skills - Market Research Setup Guide](/hermes/skills/catalog/reddit-research-skills-setup)
+- [Indexion Skills - Source Code Exploration for Agents Setup](/hermes/skills/catalog/indexion-skills-setup)
+- [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
+- [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
