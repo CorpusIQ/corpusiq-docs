@@ -11345,15 +11345,15 @@ git<span class="w"> </span>worktree<span class="w"> </span>add<span class="w"> <
 </code></pre></div>
 <h3 id="step-3-write-prompt-to-file">Step 3: Write Prompt to File<a class="headerlink" href="#step-3-write-prompt-to-file" title="Anchor link to this section">&para;</a></h3>
 <p>Write the exact prompt to a temporary file (never inline in shell):</p>
-<div class="highlight"><pre><span></span><code><span class="n">prompt</span> <span class="o">=</span> <span class="s2">"""Task: Refactor the database connection pool in src/db/pool.py</span>
+<div class="highlight"><pre><span></span><code><span class="n">prompt</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Task: Refactor the database connection pool in src/db/pool.py</span>
 <span class="s2">Context: Current implementation has a race condition under high concurrency.</span>
 <span class="s2">Requirements:</span>
 <span class="s2">1. Use connection-per-thread pattern</span>
 <span class="s2">2. Add timeout on acquisition</span>
 <span class="s2">3. Maintain backward compatibility with existing callers</span>
 <span class="s2">4. Run existing tests: pytest tests/db/ -x</span>
-<span class="s2">"""</span>
-<span class="n">write_file</span><span class="p">(</span><span class="s2">"/tmp/cursor_prompt.txt"</span><span class="p">,</span> <span class="n">prompt</span><span class="p">)</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="n">write_file</span><span class="p">(</span><span class="s2">&quot;/tmp/cursor_prompt.txt&quot;</span><span class="p">,</span> <span class="n">prompt</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="step-4-invoke-the-wrapper">Step 4: Invoke the Wrapper<a class="headerlink" href="#step-4-invoke-the-wrapper" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>python3<span class="w"> </span><span class="nv">$HERMES_HOME</span>/skills/cursor-delegate/scripts/cursor_delegate.py<span class="w"> </span><span class="se">\</span>
@@ -11364,11 +11364,11 @@ git<span class="w"> </span>worktree<span class="w"> </span>add<span class="w"> <
 </code></pre></div>
 <p>The wrapper returns structured JSON:
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"exit_code"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"stdout_tail"</span><span class="p">:</span><span class="w"> </span><span class="s2">"..."</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"stderr_tail"</span><span class="p">:</span><span class="w"> </span><span class="s2">"..."</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"timeout"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"log_file"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/tmp/cursor_delegate_20260719_120000.log"</span>
+<span class="w">  </span><span class="nt">&quot;exit_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;stdout_tail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;...&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;stderr_tail&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;...&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;timeout&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;log_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/tmp/cursor_delegate_20260719_120000.log&quot;</span>
 <span class="p">}</span>
 </code></pre></div></p>
 <h3 id="step-5-diff-review">Step 5: Diff Review<a class="headerlink" href="#step-5-diff-review" title="Anchor link to this section">&para;</a></h3>
@@ -11443,7 +11443,7 @@ pytest<span class="w"> </span>tests/db/<span class="w"> </span>-x<span class="w"
 - Accepting Cursor's report without inspecting actual changes</p>
 <h2 id="error-recovery">Error Recovery<a class="headerlink" href="#error-recovery" title="Anchor link to this section">&para;</a></h2>
 <h3 id="cursor-cli-not-found">Cursor CLI not found<a class="headerlink" href="#cursor-cli-not-found" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>which<span class="w"> </span>agent<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"Cursor CLI not installed. Install from cursor.com/cli"</span>
+<div class="highlight"><pre><span></span><code>which<span class="w"> </span>agent<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Cursor CLI not installed. Install from cursor.com/cli&quot;</span>
 </code></pre></div>
 <h3 id="timeout">Timeout<a class="headerlink" href="#timeout" title="Anchor link to this section">&para;</a></h3>
 <p>The wrapper has a configurable timeout (default: 600s). If exceeded:

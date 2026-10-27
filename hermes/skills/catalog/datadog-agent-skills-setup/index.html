@@ -11439,35 +11439,35 @@ pup<span class="w"> </span>auth<span class="w"> </span>status
 </table>
 <h3 id="llmo-mcp-requirements">LLMO MCP Requirements<a class="headerlink" href="#llmo-mcp-requirements" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Required for all LLMO skills</span>
-claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--scope<span class="w"> </span>user<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span><span class="s2">"datadog-llmo-mcp"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s1">'https://mcp.datadoghq.com/api/unstable/mcp-server/mcp?toolsets=llmobs'</span>
+claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--scope<span class="w"> </span>user<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span><span class="s2">&quot;datadog-llmo-mcp&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s1">&#39;https://mcp.datadoghq.com/api/unstable/mcp-server/mcp?toolsets=llmobs&#39;</span>
 
 <span class="c1"># Required for experiment-analyzer (notebook export) and session-classify (RUM signals)</span>
-claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--scope<span class="w"> </span>user<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span><span class="s2">"datadog-mcp-core"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s1">'https://mcp.datadoghq.com/api/unstable/mcp-server/mcp?toolsets=core'</span>
+claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--scope<span class="w"> </span>user<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span><span class="s2">&quot;datadog-mcp-core&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s1">&#39;https://mcp.datadoghq.com/api/unstable/mcp-server/mcp?toolsets=core&#39;</span>
 </code></pre></div>
 <h2 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Anchor link to this section">&para;</a></h2>
 <h3 id="monitor-management">Monitor Management<a class="headerlink" href="#monitor-management" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Search Datadog logs for errors in the last hour"
-"Create a monitor for API response time exceeding 500ms"
-"List all monitors and mute the staging ones"
-"Investigate why CPU spiked on the production cluster at 3am"
+<div class="highlight"><pre><span></span><code>&quot;Search Datadog logs for errors in the last hour&quot;
+&quot;Create a monitor for API response time exceeding 500ms&quot;
+&quot;List all monitors and mute the staging ones&quot;
+&quot;Investigate why CPU spiked on the production cluster at 3am&quot;
 </code></pre></div>
 <h3 id="llm-observability">LLM Observability<a class="headerlink" href="#llm-observability" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Analyze agent session quality from yesterday's traces"
-"Root-cause why 15% of agent sessions failed yesterday"
-"Generate eval code from the production failure patterns"
-"Set up an experiment comparing two prompt variants for the support agent"
-"Classify this week's agent sessions by user satisfaction"
+<div class="highlight"><pre><span></span><code>&quot;Analyze agent session quality from yesterday&#39;s traces&quot;
+&quot;Root-cause why 15% of agent sessions failed yesterday&quot;
+&quot;Generate eval code from the production failure patterns&quot;
+&quot;Set up an experiment comparing two prompt variants for the support agent&quot;
+&quot;Classify this week&#39;s agent sessions by user satisfaction&quot;
 </code></pre></div>
 <h3 id="cicd">CI/CD<a class="headerlink" href="#cicd" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Unblock the main branch PR pipeline - check what's failing"
-"Triage the flaky test in the auth service"
+<div class="highlight"><pre><span></span><code>&quot;Unblock the main branch PR pipeline - check what&#39;s failing&quot;
+&quot;Triage the flaky test in the auth service&quot;
 </code></pre></div>
 <h3 id="audit">Audit<a class="headerlink" href="#audit" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Show who changed the production database monitor"
-"Audit API key usage for SOC 2 compliance evidence"
-"Investigate the AWS cost spike at 2am - who deployed what"
+<div class="highlight"><pre><span></span><code>&quot;Show who changed the production database monitor&quot;
+&quot;Audit API key usage for SOC 2 compliance evidence&quot;
+&quot;Investigate the AWS cost spike at 2am - who deployed what&quot;
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify pup CLI is working</span>
@@ -11481,7 +11481,7 @@ pup<span class="w"> </span>monitors<span class="w"> </span>list<span class="w"> 
 
 <span class="c1"># LLMO: verify MCP tools are available</span>
 <span class="c1"># After adding the MCP servers, restart the agent and query:</span>
-<span class="s2">"List my Datadog LLM Observability experiments"</span>
+<span class="s2">&quot;List my Datadog LLM Observability experiments&quot;</span>
 </code></pre></div>
 <h2 id="pro-tips">Pro Tips<a class="headerlink" href="#pro-tips" title="Anchor link to this section">&para;</a></h2>
 <ol>

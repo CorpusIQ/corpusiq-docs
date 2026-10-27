@@ -11081,11 +11081,11 @@ Docs for agents: https://canarics.com/api-for-ai-assistants.html
 <p>With no key at all: <code>start_signup</code> and <code>check_signup_status</code>, so an assistant can set Canarics up for a company with no account yet. The human claims the signup with one link (sign in, verify phone, accept terms); the trial provisions itself with a demo voice agent generated from the company website, and the assistant receives a read-only API key when it is live.</p>
 <h2 id="connection">Connection<a class="headerlink" href="#connection" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>{
-  "mcpServers": {
-    "canarics": {
-      "type": "http",
-      "url": "https://canarics.com/mcp",
-      "headers": { "Authorization": "Bearer cnr_YOUR_API_KEY" }
+  &quot;mcpServers&quot;: {
+    &quot;canarics&quot;: {
+      &quot;type&quot;: &quot;http&quot;,
+      &quot;url&quot;: &quot;https://canarics.com/mcp&quot;,
+      &quot;headers&quot;: { &quot;Authorization&quot;: &quot;Bearer cnr_YOUR_API_KEY&quot; }
     }
   }
 }

@@ -11259,7 +11259,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>update
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm the install and list what landed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-Ei<span class="w"> </span><span class="s2">"swift|ios"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-Ei<span class="w"> </span><span class="s2">&quot;swift|ios&quot;</span>
 ls<span class="w"> </span>~/.claude/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-30
 </code></pre></div>
 <p>Read a skill before trusting it in a build. All six URLs below returned HTTP 200 when checked with curl on Oct 26, 2026:</p>
@@ -11271,7 +11271,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/dpearson2699/swift-ios-skills/main/skills/widgetkit/SKILL.md
 </code></pre></div>
 <p>Check the version boundary a skill claims before applying it, since the suite targets iOS 26 only:</p>
-<div class="highlight"><pre><span></span><code>grep<span class="w"> </span>-m3<span class="w"> </span>-i<span class="w"> </span><span class="s2">"iOS 26\|Swift 6.3\|availability"</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>grep<span class="w"> </span>-m3<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;iOS 26\|Swift 6.3\|availability&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>~/.claude/skills/swiftui-liquid-glass/SKILL.md
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

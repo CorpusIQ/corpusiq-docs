@@ -11422,34 +11422,34 @@ c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    email
 <hr />
 <h2 id="cron-patterns">Cron Patterns<a class="headerlink" href="#cron-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="pattern-1-ai-agent-cron-complex-reasoning">Pattern 1: AI Agent Cron (complex reasoning)<a class="headerlink" href="#pattern-1-ai-agent-cron-complex-reasoning" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 6 * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Your self-contained task prompt here"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"daily-brief"</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 6 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Your self-contained task prompt here&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;daily-brief&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--skill<span class="w"> </span>skill-one<span class="w"> </span>--skill<span class="w"> </span>skill-two<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;local&quot;</span>
 </code></pre></div>
 <p><strong>When to use:</strong> Anything needing reasoning  --  social posting, email response, research, content generation.</p>
 <p><code>--skill</code> is repeatable; the schedule and prompt are positional arguments, not flags.</p>
 <h3 id="pattern-2-no-agent-script-mechanical-tasks">Pattern 2: No-Agent Script (mechanical tasks)<a class="headerlink" href="#pattern-2-no-agent-script-mechanical-tasks" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"*/15 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"email-monitor"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--script<span class="w"> </span><span class="s2">"email-monitor.py"</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;email-monitor&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--script<span class="w"> </span><span class="s2">&quot;email-monitor.py&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--no-agent<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;local&quot;</span>
 </code></pre></div>
 <p><strong>When to use:</strong> Mechanical polling  --  email checks, GitHub polling, RSS monitoring. Faster, cheaper (no LLM), more reliable. <code>--script</code> paths resolve under <code>~/.hermes/scripts/</code>, and empty stdout means the run stays silent.</p>
 <h3 id="pattern-3-script-agent-pipeline">Pattern 3: Script + Agent Pipeline<a class="headerlink" href="#pattern-3-script-agent-pipeline" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Job A: Collect data (no-agent script, runs every hour)</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"collect-metrics"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--script<span class="w"> </span><span class="s2">"collect-metrics.py"</span><span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;collect-metrics&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--script<span class="w"> </span><span class="s2">&quot;collect-metrics.py&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--no-agent<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;local&quot;</span>
 
 <span class="c1"># Job B: Analyze (AI agent, runs after Job A)</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"5 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"analyze-metrics"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Analyze the metrics collected below and identify anomalies"</span><span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;5 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;analyze-metrics&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Analyze the metrics collected below and identify anomalies&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--continuity
 </code></pre></div>
 <p><strong>When to use:</strong> Data collection + analysis pipeline. Saves tokens on collection, uses LLM only for insight. <code>--continuity</code> gives a job its own previous output each run; injecting a <em>different</em> job's output is the job's <code>context_from</code> field rather than a create flag.</p>
@@ -11472,22 +11472,22 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <hr />
 <h2 id="creating-your-first-cron">Creating Your First Cron<a class="headerlink" href="#creating-your-first-cron" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Start simple  --  check your email every 15 minutes</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"*/15 * * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Check Gmail for unread messages. Summarize new emails in one sentence each. Be silent if inbox is empty."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"my-email-watch"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Check Gmail for unread messages. Summarize new emails in one sentence each. Be silent if inbox is empty.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;my-email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;local&quot;</span>
 
 <span class="c1"># 2. Add a daily report</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 18 * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Generate a bullet-point summary of everything that happened today. What worked? What broke? What should I know for tomorrow?"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"my-daily-report"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 18 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Generate a bullet-point summary of everything that happened today. What worked? What broke? What should I know for tomorrow?&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;my-daily-report&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;local&quot;</span>
 
 <span class="c1"># 3. Add nightly self-improvement</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 23 * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Review today's tasks. What could be improved? Update relevant skills with learned patterns."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"my-self-improvement"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">"local"</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 23 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Review today&#39;s tasks. What could be improved? Update relevant skills with learned patterns.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;my-self-improvement&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;local&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="lessons-learned">Lessons Learned<a class="headerlink" href="#lessons-learned" title="Anchor link to this section">&para;</a></h2>

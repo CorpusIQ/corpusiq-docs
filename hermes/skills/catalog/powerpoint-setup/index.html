@@ -11152,7 +11152,7 @@
 npm<span class="w"> </span>install<span class="w"> </span>pptxgenjs
 
 <span class="c1"># Python dependencies</span>
-pip<span class="w"> </span>install<span class="w"> </span><span class="s2">"markitdown[pptx]"</span><span class="w"> </span>Pillow<span class="w"> </span>defusedxml<span class="w"> </span>lxml
+pip<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;markitdown[pptx]&quot;</span><span class="w"> </span>Pillow<span class="w"> </span>defusedxml<span class="w"> </span>lxml
 
 <span class="c1"># System dependencies (Linux)</span>
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>libreoffice<span class="w"> </span>poppler-utils
@@ -11212,7 +11212,7 @@ brew<span class="w"> </span>install<span class="w"> </span>libreoffice<span clas
 </code></pre></div>
 <p>Then extract, edit, and repack:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Unpack</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import sys,zipfile; zipfile.ZipFile(sys.argv[1]).extractall('unpacked')"</span><span class="w"> </span>deck.pptx
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import sys,zipfile; zipfile.ZipFile(sys.argv[1]).extractall(&#39;unpacked&#39;)&quot;</span><span class="w"> </span>deck.pptx
 
 <span class="c1"># Duplicate a slide</span>
 python<span class="w"> </span>scripts/add_slide.py<span class="w"> </span>unpacked/<span class="w"> </span>slide2.xml<span class="w"> </span>--after<span class="w"> </span>slide2.xml

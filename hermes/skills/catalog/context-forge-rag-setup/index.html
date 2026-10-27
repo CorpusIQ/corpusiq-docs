@@ -11197,8 +11197,8 @@ python3<span class="w"> </span>-m<span class="w"> </span>py_compile<span class="
 </code></pre></div>
 <h3 id="generator-smoke-test">Generator Smoke Test<a class="headerlink" href="#generator-smoke-test" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nv">out</span><span class="o">=</span><span class="k">$(</span>mktemp<span class="w"> </span>-d<span class="w"> </span>/tmp/context-forge-rag.XXXXXX<span class="k">)</span>
-python3<span class="w"> </span>scripts/generate_profile.py<span class="w"> </span>--params<span class="w"> </span>templates/profile.params.yaml<span class="w"> </span>--output<span class="w"> </span><span class="s2">"</span><span class="nv">$out</span><span class="s2">"</span>
-python3<span class="w"> </span><span class="s2">"</span><span class="nv">$out</span><span class="s2">/scripts/validate_profile.py"</span><span class="w"> </span><span class="s2">"</span><span class="nv">$out</span><span class="s2">"</span>
+python3<span class="w"> </span>scripts/generate_profile.py<span class="w"> </span>--params<span class="w"> </span>templates/profile.params.yaml<span class="w"> </span>--output<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$out</span><span class="s2">&quot;</span>
+python3<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$out</span><span class="s2">/scripts/validate_profile.py&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$out</span><span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="4-first-prompts">4. First Prompts<a class="headerlink" href="#4-first-prompts" title="Anchor link to this section">&para;</a></h2>

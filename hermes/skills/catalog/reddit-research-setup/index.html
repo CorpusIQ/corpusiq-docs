@@ -11157,24 +11157,24 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <h3 id="semantic-search-reddapi">Semantic Search (reddapi)<a class="headerlink" href="#semantic-search-reddapi" title="Anchor link to this section">&para;</a></h3>
 <p>Natural language search across millions of Reddit posts - no keyword matching, meaning-based:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Market research</span>
-curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"https://reddapi.dev/api/v1/search/semantic"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"query": "best productivity tools for remote teams", "limit": 100}'</span>
+curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/search/semantic&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;best productivity tools for remote teams&quot;, &quot;limit&quot;: 100}&#39;</span>
 
-<span class="c1"># Pain point discovery - "I wish there was an app that"</span>
-curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"https://reddapi.dev/api/v1/search/semantic"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"query": "I wish there was an app that", "limit": 100}'</span>
+<span class="c1"># Pain point discovery - &quot;I wish there was an app that&quot;</span>
+curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/search/semantic&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;I wish there was an app that&quot;, &quot;limit&quot;: 100}&#39;</span>
 
 <span class="c1"># Competitor complaints</span>
-curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"https://reddapi.dev/api/v1/search/semantic"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"query": "COMPETITOR_NAME problems complaints", "limit": 200}'</span>
+curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/search/semantic&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;COMPETITOR_NAME problems complaints&quot;, &quot;limit&quot;: 200}&#39;</span>
 </code></pre></div>
 <h3 id="trend-analysis-reddapi">Trend Analysis (reddapi)<a class="headerlink" href="#trend-analysis-reddapi" title="Anchor link to this section">&para;</a></h3>
 <p>Discover trending topics with engagement metrics and sentiment:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span><span class="s2">"https://reddapi.dev/api/v1/trends"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/trends&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span>
 </code></pre></div>
 <p>Response includes: <code>post_count</code>, <code>total_upvotes</code>, <code>avg_sentiment</code> (-1 to 1), <code>trending_keywords</code>, <code>growth_rate</code>.</p>
 <h3 id="b2b-lead-discovery-reddit-leads">B2B Lead Discovery (reddit-leads)<a class="headerlink" href="#b2b-lead-discovery-reddit-leads" title="Anchor link to this section">&para;</a></h3>
@@ -11211,37 +11211,37 @@ curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </spa
 </table>
 <h3 id="subreddit-discovery-reddapi">Subreddit Discovery (reddapi)<a class="headerlink" href="#subreddit-discovery-reddapi" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># List popular subreddits</span>
-curl<span class="w"> </span><span class="s2">"https://reddapi.dev/api/subreddits?limit=100"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span>
+curl<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/subreddits?limit=100&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span>
 
 <span class="c1"># Get specific subreddit info</span>
-curl<span class="w"> </span><span class="s2">"https://reddapi.dev/api/subreddits/programming"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span>
+curl<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/subreddits/programming&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="quick-start-hermes-agent">Quick Start - Hermes Agent<a class="headerlink" href="#quick-start-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Set API key</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">REDDAPI_API_KEY</span><span class="o">=</span><span class="s2">"your_key"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">REDDAPI_API_KEY</span><span class="o">=</span><span class="s2">&quot;your_key&quot;</span>
 
 <span class="c1"># Discover trending topics in SaaS</span>
-curl<span class="w"> </span><span class="s2">"https://reddapi.dev/api/v1/trends"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-m<span class="w"> </span>json.tool<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-30
+curl<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/trends&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-m<span class="w"> </span>json.tool<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-30
 
-<span class="c1"># Find leads for "AI business tools"</span>
-curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"https://reddapi.dev/api/v1/leads/search"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"query": "AI business operations tools for SMB", "limit": 10}'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-m<span class="w"> </span>json.tool
+<span class="c1"># Find leads for &quot;AI business tools&quot;</span>
+curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/leads/search&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;AI business operations tools for SMB&quot;, &quot;limit&quot;: 10}&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-m<span class="w"> </span>json.tool
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test API key</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://reddapi.dev/api/me"</span><span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/me&quot;</span><span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span>
 
 <span class="c1"># Run a quick search</span>
-curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">"https://reddapi.dev/api/v1/search/semantic"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"query": "test", "limit": 1}'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import json,sys; d=json.load(sys.stdin); print(f'OK: {d.get(\"total\",0)} results')"</span>
+curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span><span class="s2">&quot;https://reddapi.dev/api/v1/search/semantic&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$REDDAPI_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;test&quot;, &quot;limit&quot;: 1}&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json,sys; d=json.load(sys.stdin); print(f&#39;OK: {d.get(\&quot;total\&quot;,0)} results&#39;)&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

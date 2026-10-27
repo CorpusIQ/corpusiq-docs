@@ -11086,7 +11086,7 @@
 </code></pre></div>
 <p>Then set the credentials in the shell that runs the calls. The skill files are explicit that the operator sets these once and the agent never reads or transports the key:</p>
 <div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">REDDAPI_API_KEY</span><span class="o">=</span>...<span class="w">                          </span><span class="c1"># from https://reddapi.dev/account</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">REDDAPI_AUTH</span><span class="o">=</span><span class="s2">"Authorization: Bearer ***"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">REDDAPI_AUTH</span><span class="o">=</span><span class="s2">&quot;Authorization: Bearer ***&quot;</span>
 </code></pre></div>
 <p>API access requires a paid reddapi.dev plan, and the monthly allowance is a single shared pool across web-app searches, API calls and lead searches: Lite at $19.9/mo gives 500 calls at 50 per minute, Starter at $49 gives 5,000 at 50 per minute, Pro at $99 gives 15,000 at 100 per minute, and Team at $249 gives 50,000 at 200 per minute. The Free plan gets 3 web-app searches and no API access, so a Free key returns HTTP 429 on every call.</p>
 <p>There is also a bundled shell wrapper that handles the <code>Content-Type</code> header, error hints and trends date defaults. It is optional, since the skills issue their own requests.</p>
@@ -11168,15 +11168,15 @@
 </tbody>
 </table>
 <p>The bundled wrapper mirrors the same calls if you prefer a shell:</p>
-<div class="highlight"><pre><span></span><code>./scripts/reddapi-cli.sh<span class="w"> </span>search<span class="w"> </span><span class="s2">"productivity tools"</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">100</span>
-./scripts/reddapi-cli.sh<span class="w"> </span>search<span class="w"> </span><span class="s2">"productivity tools"</span><span class="w"> </span>--start-date<span class="w"> </span><span class="m">2026</span>-07-01<span class="w"> </span>--end-date<span class="w"> </span><span class="m">2026</span>-07-30
+<div class="highlight"><pre><span></span><code>./scripts/reddapi-cli.sh<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;productivity tools&quot;</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">100</span>
+./scripts/reddapi-cli.sh<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;productivity tools&quot;</span><span class="w"> </span>--start-date<span class="w"> </span><span class="m">2026</span>-07-01<span class="w"> </span>--end-date<span class="w"> </span><span class="m">2026</span>-07-30
 ./scripts/reddapi-cli.sh<span class="w"> </span>trends<span class="w"> </span>--start-date<span class="w"> </span><span class="m">2026</span>-07-01<span class="w"> </span>--end-date<span class="w"> </span><span class="m">2026</span>-07-30
 ./scripts/reddapi-cli.sh<span class="w"> </span>subreddits<span class="w"> </span>--limit<span class="w"> </span><span class="m">50</span>
 </code></pre></div>
 <p>One behavioural detail worth knowing before you prompt: semantic search is the default and returns exact result counts up to a limit of 100, but it takes no date filter. Only vector search supports a date range, which is the mode the CLI switches to automatically when you pass <code>--start-date</code> and <code>--end-date</code>.</p>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"reddit-research|reddit-leads|reddapi"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;reddit-research|reddit-leads|reddapi&quot;</span>
 </code></pre></div>
 <p>Read the skill files before installing. The five URLs below returned 200 with <code>curl -s -o /dev/null -w "%{http_code}"</code> when checked on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/lignertys/reddit-research-skills/main/README.md
@@ -11186,7 +11186,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/lignertys/reddit-research-skills/main/skills/reddit-search-api/SKILL.md
 </code></pre></div>
 <p>The directory listing behind the install index also returned 200 on the same date, and shows the fifth skill directory that carries no listing:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/lignertys/reddit-research-skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">'"name"'</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/lignertys/reddit-research-skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;&quot;name&quot;&#39;</span>
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>skills.sh verdicts for sampled skills (verified Oct 26, 2026) - re-check the security pages on skills.sh before production use:</p>

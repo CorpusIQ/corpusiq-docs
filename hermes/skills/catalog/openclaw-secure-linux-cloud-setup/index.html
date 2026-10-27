@@ -11238,7 +11238,7 @@
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>openclaw-secure-linux-cloud
 
 <span class="c1"># After deployment, verify hardening</span>
-ssh<span class="w"> </span>root@&lt;instance&gt;<span class="w"> </span><span class="s2">"ufw status verbose &amp;&amp; systemctl status openclaw &amp;&amp; fail2ban-client status sshd"</span>
+ssh<span class="w"> </span>root@&lt;instance&gt;<span class="w"> </span><span class="s2">&quot;ufw status verbose &amp;&amp; systemctl status openclaw &amp;&amp; fail2ban-client status sshd&quot;</span>
 
 <span class="c1"># Check TLS</span>
 curl<span class="w"> </span>-sI<span class="w"> </span>https://&lt;domain&gt;<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-1

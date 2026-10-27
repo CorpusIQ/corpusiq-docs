@@ -11433,7 +11433,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/letta-code/.skills/*<sp
 <p>Letta's <code>converting-mcps-to-skills</code> is directly applicable to Hermes:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Convert an MCP server to a portable skill</span>
 letta<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>https://github.com/letta-ai/letta-code
-<span class="c1"># Then invoke: "convert this MCP server to a skills.sh-compatible SKILL.md"</span>
+<span class="c1"># Then invoke: &quot;convert this MCP server to a skills.sh-compatible SKILL.md&quot;</span>
 </code></pre></div>
 <h3 id="memory-defragmentation">Memory Defragmentation<a class="headerlink" href="#memory-defragmentation" title="Anchor link to this section">&para;</a></h3>
 <p>Hermes agents accumulate context over long sessions. Letta's memory management patterns are instructive:</p>
@@ -11454,10 +11454,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <h3 id="self-improving-agent-loops">Self-Improving Agent Loops<a class="headerlink" href="#self-improving-agent-loops" title="Anchor link to this section">&para;</a></h3>
 <p>Letta agents can modify their own harness:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Agent rewrites its own skills</span>
-letta<span class="w"> </span><span class="s2">"Create a new skill for validating JSON schemas"</span>
+letta<span class="w"> </span><span class="s2">&quot;Create a new skill for validating JSON schemas&quot;</span>
 
 <span class="c1"># Agent modifies its system prompt</span>
-letta<span class="w"> </span><span class="s2">"Update your memory to prioritize response latency over verbosity"</span>
+letta<span class="w"> </span><span class="s2">&quot;Update your memory to prioritize response latency over verbosity&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="architecture-comparison-letta-vs-hermes">Architecture Comparison: Letta vs Hermes<a class="headerlink" href="#architecture-comparison-letta-vs-hermes" title="Anchor link to this section">&para;</a></h2>
@@ -11524,7 +11524,7 @@ which<span class="w"> </span>letta
 letta<span class="w"> </span>--version
 
 <span class="c1"># Test with tutorial agent</span>
-letta<span class="w"> </span>--new-agent<span class="w"> </span>--personality<span class="w"> </span>tutorial<span class="w"> </span>--message<span class="w"> </span><span class="s2">"Hello, who are you?"</span>
+letta<span class="w"> </span>--new-agent<span class="w"> </span>--personality<span class="w"> </span>tutorial<span class="w"> </span>--message<span class="w"> </span><span class="s2">&quot;Hello, who are you?&quot;</span>
 
 <span class="c1"># List installed skills</span>
 letta<span class="w"> </span>skills<span class="w"> </span>list

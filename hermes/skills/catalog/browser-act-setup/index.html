@@ -11246,15 +11246,15 @@ playwright<span class="w"> </span>install<span class="w"> </span>chromium
 <div class="highlight"><pre><span></span><code><span class="c1"># Template: check-twitter-mentions.yaml</span>
 <span class="nt">steps</span><span class="p">:</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">navigate</span>
-<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://twitter.com/{{</span><span class="nv"> </span><span class="s">account</span><span class="nv"> </span><span class="s">}}"</span>
+<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://twitter.com/{{</span><span class="nv"> </span><span class="s">account</span><span class="nv"> </span><span class="s">}}&quot;</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">click</span>
-<span class="w">    </span><span class="nt">selector</span><span class="p">:</span><span class="w"> </span><span class="s">"[data-testid='mentions-tab']"</span>
+<span class="w">    </span><span class="nt">selector</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;[data-testid=&#39;mentions-tab&#39;]&quot;</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">extract</span>
-<span class="w">    </span><span class="nt">selector</span><span class="p">:</span><span class="w"> </span><span class="s">"[data-testid='tweet']"</span>
+<span class="w">    </span><span class="nt">selector</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;[data-testid=&#39;tweet&#39;]&quot;</span>
 <span class="w">    </span><span class="nt">fields</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">author</span><span class="p">:</span><span class="w"> </span><span class="s">"[data-testid='User-Name']"</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">"[data-testid='tweetText']"</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">time</span><span class="p">:</span><span class="w"> </span><span class="s">"time"</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">author</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;[data-testid=&#39;User-Name&#39;]&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;[data-testid=&#39;tweetText&#39;]&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">time</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;time&quot;</span>
 
 <span class="c1"># Replay for different accounts:</span>
 <span class="l l-Scalar l-Scalar-Plain">browser-act run check-twitter-mentions --account CorpusIQ</span>
@@ -11310,15 +11310,15 @@ playwright<span class="w"> </span>install<span class="w"> </span>chromium
 <h2 id="common-templates-for-corpusiq">Common Templates for CorpusIQ<a class="headerlink" href="#common-templates-for-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="social-media-monitoring">Social Media Monitoring<a class="headerlink" href="#social-media-monitoring" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Record: Login → check notifications → extract mentions → reply</span>
-browser-act<span class="w"> </span>record<span class="w"> </span>--name<span class="w"> </span><span class="s2">"social-check"</span><span class="w"> </span>--start-url<span class="w"> </span><span class="s2">"https://twitter.com/notifications"</span>
+browser-act<span class="w"> </span>record<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;social-check&quot;</span><span class="w"> </span>--start-url<span class="w"> </span><span class="s2">&quot;https://twitter.com/notifications&quot;</span>
 </code></pre></div>
 <h3 id="competitive-research">Competitive Research<a class="headerlink" href="#competitive-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Record: Visit competitor page → screenshot pricing → extract features</span>
-browser-act<span class="w"> </span>record<span class="w"> </span>--name<span class="w"> </span><span class="s2">"competitor-analysis"</span><span class="w"> </span>--params<span class="w"> </span><span class="s2">"url,company_name"</span>
+browser-act<span class="w"> </span>record<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;competitor-analysis&quot;</span><span class="w"> </span>--params<span class="w"> </span><span class="s2">&quot;url,company_name&quot;</span>
 </code></pre></div>
 <h3 id="platform-health-check">Platform Health Check<a class="headerlink" href="#platform-health-check" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Record: Login to Postiz → check scheduled posts → verify publishing status</span>
-browser-act<span class="w"> </span>record<span class="w"> </span>--name<span class="w"> </span><span class="s2">"postiz-health"</span><span class="w"> </span>--start-url<span class="w"> </span><span class="s2">"https://app.postiz.com"</span>
+browser-act<span class="w"> </span>record<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;postiz-health&quot;</span><span class="w"> </span>--start-url<span class="w"> </span><span class="s2">&quot;https://app.postiz.com&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="comparison-browser-act-vs-agent-browser">Comparison: browser-act vs agent-browser<a class="headerlink" href="#comparison-browser-act-vs-agent-browser" title="Anchor link to this section">&para;</a></h2>

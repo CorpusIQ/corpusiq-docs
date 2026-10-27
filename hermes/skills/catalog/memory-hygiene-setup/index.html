@@ -11134,7 +11134,7 @@
 <h2 id="cli-reference">CLI Reference<a class="headerlink" href="#cli-reference" title="Anchor link to this section">&para;</a></h2>
 <h3 id="audit-memory">Audit Memory<a class="headerlink" href="#audit-memory" title="Anchor link to this section">&para;</a></h3>
 <p>Check what's currently stored in vector memory:
-<div class="highlight"><pre><span></span><code>memory_recall query="*" limit=50
+<div class="highlight"><pre><span></span><code>memory_recall query=&quot;*&quot; limit=50
 </code></pre></div></p>
 <h3 id="wipe-memory">Wipe Memory<a class="headerlink" href="#wipe-memory" title="Anchor link to this section">&para;</a></h3>
 <p>Clear all vector memory when it's bloated with junk:
@@ -11143,17 +11143,17 @@ clawdbot<span class="w"> </span>gateway<span class="w"> </span>restart
 </code></pre></div></p>
 <h3 id="reseed-critical-facts">Reseed Critical Facts<a class="headerlink" href="#reseed-critical-facts" title="Anchor link to this section">&para;</a></h3>
 <p>After wiping, re-store essential facts from your MEMORY.md:
-<div class="highlight"><pre><span></span><code>memory_store text="&lt;key fact&gt;" category="preference|fact|decision" importance=0.9
+<div class="highlight"><pre><span></span><code>memory_store text=&quot;&lt;key fact&gt;&quot; category=&quot;preference|fact|decision&quot; importance=0.9
 </code></pre></div></p>
 <h3 id="disable-auto-capture-recommended">Disable Auto-Capture (Recommended)<a class="headerlink" href="#disable-auto-capture-recommended" title="Anchor link to this section">&para;</a></h3>
 <p>The primary source of memory bloat is <code>autoCapture: true</code>. Disable it while keeping auto-recall:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"plugins"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"entries"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"memory-lancedb"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"config"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">"autoCapture"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">"autoRecall"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="w">  </span><span class="nt">&quot;plugins&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;entries&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;memory-lancedb&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;config&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;autoCapture&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;autoRecall&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
 <span class="w">        </span><span class="p">}</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>

@@ -11081,7 +11081,7 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># skills.sh install, using the source string this guide is indexed from</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>louisblythe/sales-skills
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="c1"># The README's own CLI form, which still uses the repository's original name</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># The README&#39;s own CLI form, which still uses the repository&#39;s original name</span>
 npx<span class="w"> </span>add-skill<span class="w"> </span>louisblythe/salesskills
 
 <span class="c1"># Install only the skills you want</span>
@@ -11181,7 +11181,7 @@ npx<span class="w"> </span>add-skill<span class="w"> </span>louisblythe/sales-sk
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what landed in the skills directory:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"closing|objection|pricing"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;closing|objection|pricing&quot;</span>
 </code></pre></div>
 <p>Read the top skills before installing. All four URLs below returned HTTP 200 when checked with curl on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/louisblythe/Sales-Skills/main/README.md
@@ -11191,7 +11191,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 </code></pre></div>
 <p>Check the repo really is markdown-only before you trust it with a sales process:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>--depth<span class="w"> </span><span class="m">1</span><span class="w"> </span>https://github.com/louisblythe/Sales-Skills.git
-find<span class="w"> </span>Sales-Skills<span class="w"> </span>-type<span class="w"> </span>f<span class="w"> </span>!<span class="w"> </span>-name<span class="w"> </span><span class="s1">'*.md'</span><span class="w"> </span>!<span class="w"> </span>-name<span class="w"> </span><span class="s1">'*.json'</span>
+find<span class="w"> </span>Sales-Skills<span class="w"> </span>-type<span class="w"> </span>f<span class="w"> </span>!<span class="w"> </span>-name<span class="w"> </span><span class="s1">&#39;*.md&#39;</span><span class="w"> </span>!<span class="w"> </span>-name<span class="w"> </span><span class="s1">&#39;*.json&#39;</span>
 </code></pre></div>
 <p>The command returns nothing: there are no scripts, no hooks and no config beyond <code>marketplace.json</code>.</p>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

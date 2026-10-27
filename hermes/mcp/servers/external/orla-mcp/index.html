@@ -11102,7 +11102,7 @@
 <p><strong>Hosted MCP server that puts your books in your AI assistant, with the signatures kept on the human side.</strong> The personal connection reads accounts, transactions, budgets and reports, and records reversible bookings; by design it cannot move money. A separate agent door mints an agent with its own wallet and hard ceilings, where every payment proposal waits for a person to sign.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP - personal door at https://app.orla.finance/api/mcp/personal; agent door at https://app.orla.finance/api/mcp)
 Auth: browser sign-in and Orla consent page (per-client revocation; card numbers and IBANs masked by default)
-Tools: read accounts, transactions, budgets, net worth, settle-up, the assistant's reports and the approval queue; record transactions, categories, budgets and shared expenses
+Tools: read accounts, transactions, budgets, net worth, settle-up, the assistant&#39;s reports and the approval queue; record transactions, categories, budgets and shared expenses
 Pricing: free plan; paid plans from $25/mo; personal connections take no agent seat
 Category: Finance
 Built by: Orla
@@ -11136,9 +11136,9 @@ Built by: Orla
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>orla<span class="w"> </span>https://app.orla.finance/api/mcp/personal
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"orla"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://app.orla.finance/api/mcp/personal"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;orla&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://app.orla.finance/api/mcp/personal&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

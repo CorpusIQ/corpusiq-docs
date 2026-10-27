@@ -11165,20 +11165,20 @@
 <h3 id="hosted-remote">Hosted (Remote)<a class="headerlink" href="#hosted-remote" title="Anchor link to this section">&para;</a></h3>
 <p>The server is hosted and requires no local installation:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"llm-prices"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://llm-prices-cn.example.com/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;llm-prices&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://llm-prices-cn.example.com/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="local">Local<a class="headerlink" href="#local" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"llm-prices"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"llm_prices_cn"</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;llm-prices&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-m&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;llm_prices_cn&quot;</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11288,19 +11288,19 @@
 <p><em>Pricing verified daily. Last verification date included in every response.</em></p>
 <h2 id="common-queries">Common Queries<a class="headerlink" href="#common-queries" title="Anchor link to this section">&para;</a></h2>
 <h3 id="cost-estimation">Cost Estimation<a class="headerlink" href="#cost-estimation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Estimate my monthly LLM costs: 500K input tokens/day, 100K output tokens/day. Compare GPT-4o vs Claude Sonnet 4."
-"What's the cheapest model that can handle 128K context for my document processing pipeline?"
-"If I switch from Claude Opus 4 to DeepSeek V4-Pro, how much will I save monthly?"
+<div class="highlight"><pre><span></span><code>&quot;Estimate my monthly LLM costs: 500K input tokens/day, 100K output tokens/day. Compare GPT-4o vs Claude Sonnet 4.&quot;
+&quot;What&#39;s the cheapest model that can handle 128K context for my document processing pipeline?&quot;
+&quot;If I switch from Claude Opus 4 to DeepSeek V4-Pro, how much will I save monthly?&quot;
 </code></pre></div>
 <h3 id="provider-comparison">Provider Comparison<a class="headerlink" href="#provider-comparison" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Compare input/output pricing for all Chinese LLM providers. I need 1M tokens/day."
-"Show me the pricing history for GPT-4o over the last 3 months - has it changed?"
-"Which provider has the best price/performance ratio for coding tasks?"
+<div class="highlight"><pre><span></span><code>&quot;Compare input/output pricing for all Chinese LLM providers. I need 1M tokens/day.&quot;
+&quot;Show me the pricing history for GPT-4o over the last 3 months - has it changed?&quot;
+&quot;Which provider has the best price/performance ratio for coding tasks?&quot;
 </code></pre></div>
 <h3 id="budget-planning">Budget Planning<a class="headerlink" href="#budget-planning" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"I have a $500/month LLM budget. How many tokens can I process with each provider?"
-"Alert me if any provider changes prices by more than 5%."
-"What's the total cost difference between using OpenAI exclusively vs a multi-provider setup?"
+<div class="highlight"><pre><span></span><code>&quot;I have a $500/month LLM budget. How many tokens can I process with each provider?&quot;
+&quot;Alert me if any provider changes prices by more than 5%.&quot;
+&quot;What&#39;s the total cost difference between using OpenAI exclusively vs a multi-provider setup?&quot;
 </code></pre></div>
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Anchor link to this section">&para;</a></h2>
 <ol>

@@ -11140,15 +11140,15 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/codeC
 npm<span class="w"> </span>install
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"freshbooks"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"path/to/mcp-server-freshbooks/index.js"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"FRESHBOOKS_CLIENT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_client_id"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"FRESHBOOKS_CLIENT_SECRET"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_client_secret"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"FRESHBOOKS_REDIRECT_URI"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://localhost:3000/callback"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"FRESHBOOKS_ACCOUNT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_account_id"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;freshbooks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;node&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;path/to/mcp-server-freshbooks/index.js&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;FRESHBOOKS_CLIENT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_client_id&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;FRESHBOOKS_CLIENT_SECRET&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_client_secret&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;FRESHBOOKS_REDIRECT_URI&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://localhost:3000/callback&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;FRESHBOOKS_ACCOUNT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_account_id&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11208,28 +11208,28 @@ npm<span class="w"> </span>install
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-automated-client-invoicing">1. Automated Client Invoicing<a class="headerlink" href="#1-automated-client-invoicing" title="Anchor link to this section">&para;</a></h3>
 <p>Have your agent generate and send invoices based on completed work:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "We just finished the website redesign for Acme Corp.
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We just finished the website redesign for Acme Corp.
 Create a FreshBooks invoice for $4,500 - 50% deposit already paid.
 Line items: Design ($2,000), Development ($2,000), Project Management ($500).
-Send to billing@acmecorp.com with net-30 terms."
+Send to billing@acmecorp.com with net-30 terms.&quot;
 </code></pre></div>
 <h3 id="2-expense-reconciliation">2. Expense Reconciliation<a class="headerlink" href="#2-expense-reconciliation" title="Anchor link to this section">&para;</a></h3>
 <p>Feed receipts to your agent for automatic logging:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "I have 15 receipts from my business trip. Extract the amounts,
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;I have 15 receipts from my business trip. Extract the amounts,
 categorize them (travel, meals, software, office), and log each
-as a FreshBooks expense against the correct client project."
+as a FreshBooks expense against the correct client project.&quot;
 </code></pre></div>
 <h3 id="3-cash-flow-monitoring">3. Cash Flow Monitoring<a class="headerlink" href="#3-cash-flow-monitoring" title="Anchor link to this section">&para;</a></h3>
 <p>Get real-time financial visibility:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "What's my cash position? Show me all outstanding invoices
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;What&#39;s my cash position? Show me all outstanding invoices
 over 30 days, total unbilled work, and upcoming expenses for the next 2 weeks.
-Flag any clients who are 60+ days past due."
+Flag any clients who are 60+ days past due.&quot;
 </code></pre></div>
 <h3 id="4-tax-preparation">4. Tax Preparation<a class="headerlink" href="#4-tax-preparation" title="Anchor link to this section">&para;</a></h3>
 <p>Pull categorized financials for tax season:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Pull my full-year 2026 P&amp;L broken down by category.
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Pull my full-year 2026 P&amp;L broken down by category.
 Export all expenses with receipts for my CPA. Flag any large
-uncategorized transactions."
+uncategorized transactions.&quot;
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>FreshBooks MCP + CorpusIQ = complete financial operations:</p>

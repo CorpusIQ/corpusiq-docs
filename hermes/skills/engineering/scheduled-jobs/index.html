@@ -11130,7 +11130,7 @@
 <h2 id="reinstalling-the-gateway">Reinstalling the gateway<a class="headerlink" href="#reinstalling-the-gateway" title="Anchor link to this section">&para;</a></h2>
 <p>If you ever need to fully reinstall the Hermes cron gateway (e.g. after a system update broke something):</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Will prompt twice for confirmation</span>
-<span class="nb">printf</span><span class="w"> </span><span class="s2">"Y\nY\n"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>hermes<span class="w"> </span>-p<span class="w"> </span>default<span class="w"> </span>gateway<span class="w"> </span>install<span class="w"> </span>--system
+<span class="nb">printf</span><span class="w"> </span><span class="s2">&quot;Y\nY\n&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>hermes<span class="w"> </span>-p<span class="w"> </span>default<span class="w"> </span>gateway<span class="w"> </span>install<span class="w"> </span>--system
 </code></pre></div>
 <p>For a named profile, replace <code>default</code> with the profile name. Verify both gateways are still running afterwards.</p>
 <h2 id="status-discipline">Status discipline<a class="headerlink" href="#status-discipline" title="Anchor link to this section">&para;</a></h2>
@@ -11141,8 +11141,8 @@
 <p>For any job whose output has a known shape, write a tiny assertion at the end of the script:</p>
 <div class="highlight"><pre><span></span><code><span class="n">result</span> <span class="o">=</span> <span class="n">do_the_work</span><span class="p">()</span>
 <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span>
-<span class="k">assert</span> <span class="s2">"summary"</span> <span class="ow">in</span> <span class="n">result</span>
-<span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="s2">"items"</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span>  <span class="c1"># if you expect items every run</span>
+<span class="k">assert</span> <span class="s2">&quot;summary&quot;</span> <span class="ow">in</span> <span class="n">result</span>
+<span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">[</span><span class="s2">&quot;items&quot;</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span>  <span class="c1"># if you expect items every run</span>
 </code></pre></div>
 <p>A failing assertion exits non-zero, the cron watchdog surfaces it, you get a real signal.</p>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>

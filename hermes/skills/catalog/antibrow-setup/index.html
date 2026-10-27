@@ -11147,38 +11147,38 @@
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="real-device-fingerprints">Real-Device Fingerprints<a class="headerlink" href="#real-device-fingerprints" title="Anchor link to this section">&para;</a></h3>
 <p>Each launch fetches a real fingerprint collected from actual devices. Filter by OS, browser, device type:</p>
-<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">AntiDetectBrowser</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">'anti-detect-browser'</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">ab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">AntiDetectBrowser</span><span class="p">({</span><span class="w"> </span><span class="nx">key</span><span class="o">:</span><span class="w"> </span><span class="s1">'your-api-key'</span><span class="w"> </span><span class="p">})</span>
+<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">AntiDetectBrowser</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;anti-detect-browser&#39;</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">ab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">AntiDetectBrowser</span><span class="p">({</span><span class="w"> </span><span class="nx">key</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;your-api-key&#39;</span><span class="w"> </span><span class="p">})</span>
 
 <span class="c1">// Windows Chrome</span>
 <span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">page</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span>
-<span class="w">  </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">'Windows 10'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Chrome'</span><span class="p">],</span><span class="w"> </span><span class="nx">minBrowserVersion</span><span class="o">:</span><span class="w"> </span><span class="kt">130</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;Windows 10&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Chrome&#39;</span><span class="p">],</span><span class="w"> </span><span class="nx">minBrowserVersion</span><span class="o">:</span><span class="w"> </span><span class="kt">130</span><span class="w"> </span><span class="p">},</span>
 <span class="p">})</span>
 
 <span class="c1">// Mac Safari</span>
-<span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">'Apple Mac'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Safari'</span><span class="p">]</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">})</span>
+<span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;Apple Mac&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Safari&#39;</span><span class="p">]</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">})</span>
 
 <span class="c1">// Mobile Android</span>
-<span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">'Android'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Mobile'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Chrome'</span><span class="p">]</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">})</span>
+<span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;Android&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Mobile&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Chrome&#39;</span><span class="p">]</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">})</span>
 </code></pre></div>
 <p>Available tags: <code>Microsoft Windows</code>, <code>Apple Mac</code>, <code>Android</code>, <code>Linux</code>, <code>iPad</code>, <code>iPhone</code>, <code>Edge</code>, <code>Chrome</code>, <code>Safari</code>, <code>Firefox</code>, <code>Desktop</code>, <code>Mobile</code>.</p>
 <h3 id="persistent-profiles">Persistent Profiles<a class="headerlink" href="#persistent-profiles" title="Anchor link to this section">&para;</a></h3>
 <p>Profiles save cookies, localStorage, and session data across launches - stay logged in between sessions:</p>
 <div class="highlight"><pre><span></span><code><span class="c1">// First launch - log in</span>
-<span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">page</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">'shop-01'</span><span class="w"> </span><span class="p">})</span>
-<span class="k">await</span><span class="w"> </span><span class="nx">page</span><span class="p">.</span><span class="kr">goto</span><span class="p">(</span><span class="s1">'https://shop.example.com/login'</span><span class="p">)</span>
+<span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">page</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;shop-01&#39;</span><span class="w"> </span><span class="p">})</span>
+<span class="k">await</span><span class="w"> </span><span class="nx">page</span><span class="p">.</span><span class="kr">goto</span><span class="p">(</span><span class="s1">&#39;https://shop.example.com/login&#39;</span><span class="p">)</span>
 <span class="k">await</span><span class="w"> </span><span class="nx">browser</span><span class="p">.</span><span class="nx">close</span><span class="p">()</span>
 
 <span class="c1">// Later - session restored</span>
-<span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">page</span><span class="o">:</span><span class="w"> </span><span class="kt">p2</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">'shop-01'</span><span class="w"> </span><span class="p">})</span>
-<span class="k">await</span><span class="w"> </span><span class="nx">p2</span><span class="p">.</span><span class="kr">goto</span><span class="p">(</span><span class="s1">'https://shop.example.com/dashboard'</span><span class="p">)</span><span class="w"> </span><span class="c1">// already logged in</span>
+<span class="kd">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">page</span><span class="o">:</span><span class="w"> </span><span class="kt">p2</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span><span class="w"> </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;shop-01&#39;</span><span class="w"> </span><span class="p">})</span>
+<span class="k">await</span><span class="w"> </span><span class="nx">p2</span><span class="p">.</span><span class="kr">goto</span><span class="p">(</span><span class="s1">&#39;https://shop.example.com/dashboard&#39;</span><span class="p">)</span><span class="w"> </span><span class="c1">// already logged in</span>
 </code></pre></div>
 <h3 id="proxy-integration">Proxy Integration<a class="headerlink" href="#proxy-integration" title="Anchor link to this section">&para;</a></h3>
 <p>Route each browser through a different proxy for geo-targeting or IP rotation:</p>
 <div class="highlight"><pre><span></span><code><span class="k">await</span><span class="w"> </span><span class="nx">ab</span><span class="p">.</span><span class="nx">launch</span><span class="p">({</span>
-<span class="w">  </span><span class="nx">proxy</span><span class="o">:</span><span class="w"> </span><span class="s1">'socks5://user:pass@us-proxy.example.com:1080'</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">'Windows 10'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Chrome'</span><span class="p">]</span><span class="w"> </span><span class="p">},</span>
-<span class="w">  </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">'us-account'</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">proxy</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;socks5://user:pass@us-proxy.example.com:1080&#39;</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;Windows 10&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Chrome&#39;</span><span class="p">]</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;us-account&#39;</span><span class="p">,</span>
 <span class="p">})</span>
 </code></pre></div>
 <h3 id="mcp-server-mode-ai-agent-control">MCP Server Mode - AI Agent Control<a class="headerlink" href="#mcp-server-mode-ai-agent-control" title="Anchor link to this section">&para;</a></h3>
@@ -11187,12 +11187,12 @@
 </code></pre></div>
 <h3 id="inject-into-existing-playwright">Inject Into Existing Playwright<a class="headerlink" href="#inject-into-existing-playwright" title="Anchor link to this section">&para;</a></h3>
 <p>Add fingerprints without changing your workflow:</p>
-<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">applyFingerprint</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">'anti-detect-browser'</span>
+<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">applyFingerprint</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;anti-detect-browser&#39;</span>
 <span class="kd">const</span><span class="w"> </span><span class="nx">context</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">browser</span><span class="p">.</span><span class="nx">newContext</span><span class="p">()</span>
 <span class="k">await</span><span class="w"> </span><span class="nx">applyFingerprint</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">key</span><span class="o">:</span><span class="w"> </span><span class="s1">'your-api-key'</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">'Windows 10'</span><span class="p">,</span><span class="w"> </span><span class="s1">'Chrome'</span><span class="p">]</span><span class="w"> </span><span class="p">},</span>
-<span class="w">  </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">'my-profile'</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">key</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;your-api-key&#39;</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">fingerprint</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">tags</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;Windows 10&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Chrome&#39;</span><span class="p">]</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">profile</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;my-profile&#39;</span><span class="p">,</span>
 <span class="p">})</span>
 </code></pre></div>
 <h3 id="live-view">Live View<a class="headerlink" href="#live-view" title="Anchor link to this section">&para;</a></h3>
@@ -11201,7 +11201,7 @@
 <span class="w">  </span><span class="nx">headless</span><span class="o">:</span><span class="w"> </span><span class="kt">true</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">liveView</span><span class="o">:</span><span class="w"> </span><span class="kt">true</span><span class="p">,</span>
 <span class="p">})</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Watch live:'</span><span class="p">,</span><span class="w"> </span><span class="nx">liveView</span><span class="p">.</span><span class="nx">viewUrl</span><span class="p">)</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Watch live:&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">liveView</span><span class="p">.</span><span class="nx">viewUrl</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <h2 id="quick-start-hermes-agent">Quick Start - Hermes Agent<a class="headerlink" href="#quick-start-hermes-agent" title="Anchor link to this section">&para;</a></h2>
@@ -11209,20 +11209,20 @@
 npm<span class="w"> </span>install<span class="w"> </span>anti-detect-browser
 
 <span class="c1"># Create a profile for Instagram (example)</span>
-node<span class="w"> </span>-e<span class="w"> </span><span class="s2">"</span>
-<span class="s2">const { AntiDetectBrowser } = require('anti-detect-browser');</span>
+node<span class="w"> </span>-e<span class="w"> </span><span class="s2">&quot;</span>
+<span class="s2">const { AntiDetectBrowser } = require(&#39;anti-detect-browser&#39;);</span>
 <span class="s2">const ab = new AntiDetectBrowser({ key: process.env.ANTIBROW_KEY });</span>
 <span class="s2">(async () =&gt; {</span>
 <span class="s2">  const { page } = await ab.launch({</span>
-<span class="s2">    fingerprint: { tags: ['Windows 10', 'Chrome'] },</span>
-<span class="s2">    profile: 'instagram-corpusiq',</span>
+<span class="s2">    fingerprint: { tags: [&#39;Windows 10&#39;, &#39;Chrome&#39;] },</span>
+<span class="s2">    profile: &#39;instagram-corpusiq&#39;,</span>
 <span class="s2">  });</span>
-<span class="s2">  await page.goto('https://instagram.com');</span>
-<span class="s2">  console.log('Ready - fingerprint:', await page.evaluate(() =&gt; navigator.userAgent));</span>
-<span class="s2">  await page.screenshot({ path: '/tmp/ig-screenshot.png' });</span>
+<span class="s2">  await page.goto(&#39;https://instagram.com&#39;);</span>
+<span class="s2">  console.log(&#39;Ready - fingerprint:&#39;, await page.evaluate(() =&gt; navigator.userAgent));</span>
+<span class="s2">  await page.screenshot({ path: &#39;/tmp/ig-screenshot.png&#39; });</span>
 <span class="s2">  await page.context().browser().close();</span>
 <span class="s2">})();</span>
-<span class="s2">"</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
@@ -11230,7 +11230,7 @@ node<span class="w"> </span>-e<span class="w"> </span><span class="s2">"</span>
 npm<span class="w"> </span>ls<span class="w"> </span>anti-detect-browser
 
 <span class="c1"># Test API key</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://antibrow.com/api/v1/profiles"</span><span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$ANTIBROW_KEY</span><span class="s2">"</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://antibrow.com/api/v1/profiles&quot;</span><span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$ANTIBROW_KEY</span><span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

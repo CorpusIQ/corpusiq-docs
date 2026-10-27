@@ -11320,9 +11320,9 @@
 </code></pre></div>
 <p><code>custom-paths.json</code> example:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"hermes_home"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/opt/hermes"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"backup_dir"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/mnt/backups/hermes"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"exclude"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"sessions/archive"</span><span class="p">,</span><span class="w"> </span><span class="s2">"logs"</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">&quot;hermes_home&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/opt/hermes&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;backup_dir&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/mnt/backups/hermes&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;exclude&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;sessions/archive&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;logs&quot;</span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="scheduled-daily-backup-cron">Scheduled daily backup (cron)<a class="headerlink" href="#scheduled-daily-backup-cron" title="Anchor link to this section">&para;</a></h3>
@@ -11433,7 +11433,7 @@ Guárdalo en un lugar seguro. No lo compartas ni lo subas a repositorios públic
 python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>--quick
 
 <span class="c1"># Or use --json-config to specify the path</span>
-python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>--json-config<span class="w"> </span>&lt;<span class="o">(</span><span class="nb">echo</span><span class="w"> </span><span class="s1">'{"hermes_home": "/custom/path"}'</span><span class="o">)</span>
+python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>--json-config<span class="w"> </span>&lt;<span class="o">(</span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;{&quot;hermes_home&quot;: &quot;/custom/path&quot;}&#39;</span><span class="o">)</span>
 </code></pre></div>
 <h3 id="permission-denied-on-env-or-authjson">"Permission denied" on .env or auth.json<a class="headerlink" href="#permission-denied-on-env-or-authjson" title="Anchor link to this section">&para;</a></h3>
 <p>The backup reads these files. Ensure they're readable by your user:</p>

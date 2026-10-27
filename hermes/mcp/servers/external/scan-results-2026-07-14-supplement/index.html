@@ -11220,8 +11220,8 @@
 <h2 id="new-discovery-channel-mcpserversorg">New Discovery Channel: mcpservers.org<a class="headerlink" href="#new-discovery-channel-mcpserversorg" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Important:</strong> mcpservers.org is now accessible for data extraction. The morning scan reported it as unavailable due to raw curl returning only SolidJS shell HTML. A browser-identifying User-Agent (<code>Mozilla/5.0 Chrome/120.0.0.0</code>) triggers the server to include the full hydration payload with inline data. This unlocks a second discovery channel beyond mcp.so.</p>
 <p><strong>Pattern for future scans:</strong>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>-H<span class="w"> </span><span class="s2">"User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"https://mcpservers.org"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-oP<span class="w"> </span><span class="s1">'"latest":\K[^]]+\]'</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;https://mcpservers.org&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-oP<span class="w"> </span><span class="s1">&#39;&quot;latest&quot;:\K[^]]+\]&#39;</span>
 </code></pre></div></p>
 <p>mcpservers.org lists 9,800+ servers vs mcp.so's ~500. The <code>latest</code> array provides the most recent submissions, complementing mcp.so's feed.</p>
 <h2 id="trends-supplemental">Trends (Supplemental)<a class="headerlink" href="#trends-supplemental" title="Anchor link to this section">&para;</a></h2>

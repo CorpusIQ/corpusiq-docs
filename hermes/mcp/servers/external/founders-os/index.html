@@ -11135,14 +11135,14 @@ npx<span class="w"> </span>-y<span class="w"> </span>founders-os-mcp
 </code></pre></div>
 <h2 id="hermes-claude-desktop-configuration">Hermes / Claude Desktop Configuration<a class="headerlink" href="#hermes-claude-desktop-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"founders-os"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"path/to/founders-os/build/index.js"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"CRM_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-crm-key"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"FINANCIALS_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-finance-key"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"TASKS_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-tasks-key"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;founders-os&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;node&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;path/to/founders-os/build/index.js&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;CRM_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-crm-key&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;FINANCIALS_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-finance-key&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;TASKS_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-tasks-key&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11150,18 +11150,18 @@ npx<span class="w"> </span>-y<span class="w"> </span>founders-os-mcp
 </code></pre></div>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-daily-business-standup">1. Daily Business Standup<a class="headerlink" href="#1-daily-business-standup" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Give me a business standup: what's in my pipeline, any overdue invoices, 
-and what tasks are due today?"
+<p><div class="highlight"><pre><span></span><code>&quot;Give me a business standup: what&#39;s in my pipeline, any overdue invoices, 
+and what tasks are due today?&quot;
 </code></pre></div>
 The agent queries CRM for pipeline, financials for overdue invoices, and tasks for due items - all in one prompt.</p>
 <h3 id="2-client-health-check">2. Client Health Check<a class="headerlink" href="#2-client-health-check" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Show me all clients who haven't been contacted in 30+ days and have 
-outstanding invoices"
+<p><div class="highlight"><pre><span></span><code>&quot;Show me all clients who haven&#39;t been contacted in 30+ days and have 
+outstanding invoices&quot;
 </code></pre></div>
 Cross-references CRM contact dates with financial data to surface at-risk accounts.</p>
 <h3 id="3-decision-support">3. Decision Support<a class="headerlink" href="#3-decision-support" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"I'm considering raising prices for Plan B. Show me current Plan B customers, 
-their usage patterns, and whether any have complained recently."
+<p><div class="highlight"><pre><span></span><code>&quot;I&#39;m considering raising prices for Plan B. Show me current Plan B customers, 
+their usage patterns, and whether any have complained recently.&quot;
 </code></pre></div>
 Combines CRM segmentation, usage analytics, and support history.</p>
 <h2 id="operator-value">Operator Value<a class="headerlink" href="#operator-value" title="Anchor link to this section">&para;</a></h2>

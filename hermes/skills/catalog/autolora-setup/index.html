@@ -11124,15 +11124,15 @@
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">RUNPOD_API_KEY</span><span class="o">=</span><span class="s2">"&lt;your-key&gt;"</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">STRIPE_API_KEY</span><span class="o">=</span><span class="s2">"&lt;your-stripe-key&gt;"</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">AUTOLORA_SPEND_CAP</span><span class="o">=</span><span class="s2">"25"</span><span class="w">  </span><span class="c1"># USD max per training run</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">RUNPOD_API_KEY</span><span class="o">=</span><span class="s2">&quot;&lt;your-key&gt;&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">STRIPE_API_KEY</span><span class="o">=</span><span class="s2">&quot;&lt;your-stripe-key&gt;&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">AUTOLORA_SPEND_CAP</span><span class="o">=</span><span class="s2">&quot;25&quot;</span><span class="w">  </span><span class="c1"># USD max per training run</span>
 </code></pre></div>
 <p>Or in <code>~/.hermes/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">env</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">RUNPOD_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">"&lt;key&gt;"</span>
-<span class="w">  </span><span class="nt">STRIPE_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">"&lt;key&gt;"</span>
-<span class="w">  </span><span class="nt">AUTOLORA_SPEND_CAP</span><span class="p">:</span><span class="w"> </span><span class="s">"25"</span>
+<span class="w">  </span><span class="nt">RUNPOD_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;key&gt;&quot;</span>
+<span class="w">  </span><span class="nt">STRIPE_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;key&gt;&quot;</span>
+<span class="w">  </span><span class="nt">AUTOLORA_SPEND_CAP</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;25&quot;</span>
 
 <span class="nt">skills</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">autolora</span><span class="p">:</span>
@@ -11141,9 +11141,9 @@
 </code></pre></div>
 <hr />
 <h2 id="usage-with-hermes-agent">Usage with Hermes Agent<a class="headerlink" href="#usage-with-hermes-agent" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>"Run autolora - fine-tune on my last 100 sessions with a 0.90 benchmark target"
-"Show autolora training status"
-"Hot-swap to the latest autolora adapter"
+<div class="highlight"><pre><span></span><code>&quot;Run autolora - fine-tune on my last 100 sessions with a 0.90 benchmark target&quot;
+&quot;Show autolora training status&quot;
+&quot;Hot-swap to the latest autolora adapter&quot;
 </code></pre></div>
 <h3 id="commands">Commands<a class="headerlink" href="#commands" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Start a fine-tuning run</span>

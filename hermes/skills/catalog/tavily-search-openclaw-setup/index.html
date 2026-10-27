@@ -11153,18 +11153,18 @@
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Get your API key from <a href="https://app.tavily.com">tavily.com</a> and configure:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"tavily"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"apiKey"</span><span class="p">:</span><span class="w"> </span><span class="s2">"${TAVILY_API_KEY}"</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"searchDepth"</span><span class="p">:</span><span class="w"> </span><span class="s2">"advanced"</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"maxResults"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"includeAnswer"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"includeRawContent"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"includeImages"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">"searchDomain"</span><span class="p">:</span><span class="w"> </span><span class="s2">"general"</span>
+<span class="w">  </span><span class="nt">&quot;tavily&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;apiKey&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${TAVILY_API_KEY}&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;searchDepth&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;advanced&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;maxResults&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;includeAnswer&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;includeRawContent&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;includeImages&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;searchDomain&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;general&quot;</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">TAVILY_API_KEY</span><span class="o">=</span><span class="s2">"tvly-..."</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">TAVILY_API_KEY</span><span class="o">=</span><span class="s2">&quot;tvly-...&quot;</span>
 </code></pre></div>
 <table>
 <thead>
@@ -11238,16 +11238,16 @@ tavily-search answer &lt;query&gt;  Get AI-generated answer only
 </code></pre></div>
 <h2 id="example-usage">Example Usage<a class="headerlink" href="#example-usage" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Basic search</span>
-tavily-search<span class="w"> </span><span class="s2">"latest Hermes agent updates 2026"</span>
+tavily-search<span class="w"> </span><span class="s2">&quot;latest Hermes agent updates 2026&quot;</span>
 
 <span class="c1"># News search (time-sensitive)</span>
-tavily-search<span class="w"> </span>news<span class="w"> </span><span class="s2">"OpenAI GPT-5 announcement"</span>
+tavily-search<span class="w"> </span>news<span class="w"> </span><span class="s2">&quot;OpenAI GPT-5 announcement&quot;</span>
 
 <span class="c1"># Extract content from a specific page</span>
-tavily-search<span class="w"> </span>extract<span class="w"> </span><span class="s2">"https://hermes-agent.nousresearch.com/docs"</span>
+tavily-search<span class="w"> </span>extract<span class="w"> </span><span class="s2">&quot;https://hermes-agent.nousresearch.com/docs&quot;</span>
 
 <span class="c1"># Get topic analysis</span>
-tavily-search<span class="w"> </span>topics<span class="w"> </span><span class="s2">"autonomous AI agent deployment patterns"</span>
+tavily-search<span class="w"> </span>topics<span class="w"> </span><span class="s2">&quot;autonomous AI agent deployment patterns&quot;</span>
 </code></pre></div>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -11263,9 +11263,9 @@ tavily-search<span class="w"> </span>topics<span class="w"> </span><span class="
 <span class="nb">echo</span><span class="w"> </span><span class="nv">$TAVILY_API_KEY</span>
 
 <span class="c1"># Test directly</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://api.tavily.com/search"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"api_key":"'</span><span class="nv">$TAVILY_API_KEY</span><span class="s1">'","query":"test"}'</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://api.tavily.com/search&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;api_key&quot;:&quot;&#39;</span><span class="nv">$TAVILY_API_KEY</span><span class="s1">&#39;&quot;,&quot;query&quot;:&quot;test&quot;}&#39;</span>
 </code></pre></div>
 <h3 id="search-returns-empty">Search returns empty<a class="headerlink" href="#search-returns-empty" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -11275,9 +11275,9 @@ curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://
 </ul>
 <h3 id="rate-limiting">Rate limiting<a class="headerlink" href="#rate-limiting" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check remaining quota</span>
-curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">"https://api.tavily.com/usage"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"api_key":"'</span><span class="nv">$TAVILY_API_KEY</span><span class="s1">'"}'</span>
+curl<span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;https://api.tavily.com/usage&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;api_key&quot;:&quot;&#39;</span><span class="nv">$TAVILY_API_KEY</span><span class="s1">&#39;&quot;}&#39;</span>
 </code></pre></div>
 <p>Free tier: 1,000 searches/month. Upgrade for higher limits.</p>
 <hr />

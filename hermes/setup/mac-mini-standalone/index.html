@@ -11472,8 +11472,8 @@
 </table>
 <h2 id="step-by-step-installation">Step-by-Step Installation<a class="headerlink" href="#step-by-step-installation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="step-1-macos-prerequisites">Step 1: macOS Prerequisites<a class="headerlink" href="#step-1-macos-prerequisites" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Install Homebrew if you don't have it</span>
-/bin/bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">"</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Install Homebrew if you don&#39;t have it</span>
+/bin/bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&quot;</span>
 
 <span class="c1"># Dependencies</span>
 brew<span class="w"> </span>install<span class="w"> </span>python@3.12<span class="w"> </span>ffmpeg<span class="w"> </span>node<span class="w"> </span>git
@@ -11497,9 +11497,9 @@ ollama<span class="w"> </span>pull<span class="w"> </span>qwen2.5:14b<span class
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>ollama/llama3.2
 </code></pre></div>
 <p><strong>Cloud Models (OpenRouter  --  Pay-per-use):</strong></p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">"your-key"</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span><span class="s2">"openrouter/qwen/qwen3-235b-a22b:free"</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span><span class="s2">&quot;openrouter/qwen/qwen3-235b-a22b:free&quot;</span>
 </code></pre></div>
 <p><strong>Strategy:</strong> Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">model selection guide</a> for detailed tiering strategies.</p>
 <h3 id="step-4-browser-automation">Step 4: Browser Automation<a class="headerlink" href="#step-4-browser-automation" title="Anchor link to this section">&para;</a></h3>
@@ -11508,7 +11508,7 @@ hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set
 playwright<span class="w"> </span>install<span class="w"> </span>chromium
 
 <span class="c1"># Test</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"from playwright.sync_api import sync_playwright; print('OK')"</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;from playwright.sync_api import sync_playwright; print(&#39;OK&#39;)&quot;</span>
 </code></pre></div>
 <p>For sites with Cloudflare protection, add patchright:</p>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>patchright
@@ -11530,15 +11530,15 @@ hermes<span class="w"> </span>gateway<span class="w"> </span>status
 <p><strong>Cron Jobs:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Email monitoring every 15 minutes</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"email-watch"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Check inbox for unread. Summarize new emails. Silent if empty."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"*/15 * * * *"</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check inbox for unread. Summarize new emails. Silent if empty.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span>
 
 <span class="c1"># Daily summary at 6 PM</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"daily-report"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Summarize today's activity. What happened? What's pending?"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 18 * * *"</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;daily-report&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Summarize today&#39;s activity. What happened? What&#39;s pending?&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 18 * * *&quot;</span>
 </code></pre></div>
 <p>See <a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">cron design best practices</a> for production-grade scheduling patterns.</p>
 <p><strong>Keep Alive:</strong></p>
@@ -11550,8 +11550,8 @@ caffeinate<span class="w"> </span>-dims<span class="w"> </span><span class="p">&
 <h3 id="step-7-memory-stack">Step 7: Memory Stack<a class="headerlink" href="#step-7-memory-stack" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Honcho  --  peer memory (2 min)</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer your-h...ken"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">"X-Honcho-Workspace-ID: your-workspace"</span>
+<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer your-h...ken&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;X-Honcho-Workspace-ID: your-workspace&quot;</span>
 
 <span class="c1"># GBrain  --  project memory (10 min)</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/garrytan/gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>./setup.sh

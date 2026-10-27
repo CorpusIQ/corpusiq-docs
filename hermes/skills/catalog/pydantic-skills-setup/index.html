@@ -11206,8 +11206,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>skills/plugins/logfire<span 
 <span class="w">         </span>skills/logfire-instrumentation/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/pydantic/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/logfire-query/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/pydantic/skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/pydantic/skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>The plugin copies live one level deeper, for example <code>plugins/ai/skills/building-pydantic-ai-agents/SKILL.md</code> and <code>plugins/logfire/skills/logfire-instrumentation/SKILL.md</code>. Read the two that touch credentials or capture before installing them:</p>

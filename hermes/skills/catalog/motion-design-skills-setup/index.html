@@ -11198,8 +11198,8 @@
 <span class="w">         </span>skills/shot-composition/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/after-effects/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/remotion-video/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/iart-ai/motion-design-skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/iart-ai/motion-design-skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>All five return 200, and the same path resolves for the other four (beat-sync-editing, logo-animation, color-motion, motion-background). Read the <code>SKILL.md</code> of the skill you intend to rely on before granting anything broad: it is short, and it tells you exactly what the skill will produce.</p>

@@ -11108,14 +11108,14 @@ python<span class="w"> </span>-m<span class="w"> </span>angelone_mcp.server
 <p>Prerequisites: an Angel One trading account with SmartAPI access, a SmartAPI app (for the API key), and the TOTP base32 secret from the authenticator setup. The repo documents per-client MCP config (Claude Desktop, Claude Code).</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"angelone"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"angelone_mcp.server"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"SMARTAPI_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-key"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SMARTAPI_CLIENT_CODE"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-client-code"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SMARTAPI_TOTP_SECRET"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-base32-secret"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;angelone&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-m&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;angelone_mcp.server&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;SMARTAPI_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-key&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SMARTAPI_CLIENT_CODE&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-client-code&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SMARTAPI_TOTP_SECRET&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-base32-secret&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

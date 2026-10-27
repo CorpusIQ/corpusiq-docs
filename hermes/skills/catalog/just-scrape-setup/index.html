@@ -11163,28 +11163,28 @@
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
 <h3 id="search-find-pages-on-a-topic">Search - Find pages on a topic<a class="headerlink" href="#search-find-pages-on-a-topic" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>search<span class="w"> </span><span class="s2">"hermes agent autonomous workflows"</span><span class="w"> </span>--num-results<span class="w"> </span><span class="m">5</span><span class="w"> </span>--json
+<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;hermes agent autonomous workflows&quot;</span><span class="w"> </span>--num-results<span class="w"> </span><span class="m">5</span><span class="w"> </span>--json
 </code></pre></div>
 Use when you have no specific URL but need to discover sources.</p>
 <h3 id="scrape-get-page-content">Scrape - Get page content<a class="headerlink" href="#scrape-get-page-content" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>scrape<span class="w"> </span><span class="s2">"https://example.com"</span><span class="w"> </span>--json
+<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>scrape<span class="w"> </span><span class="s2">&quot;https://example.com&quot;</span><span class="w"> </span>--json
 </code></pre></div>
 Extracts markdown, HTML, screenshots, links, images, summaries, or branding from a single URL. Perfect for competitive analysis and content research.</p>
 <h3 id="extract-structured-json-from-known-urls">Extract - Structured JSON from known URLs<a class="headerlink" href="#extract-structured-json-from-known-urls" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>extract<span class="w"> </span><span class="s2">"https://example.com/products"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Extract product names and prices"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schema<span class="w"> </span><span class="s1">'{"products": [{"name": "string", "price": "number"}]}'</span><span class="w"> </span><span class="se">\</span>
+<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>extract<span class="w"> </span><span class="s2">&quot;https://example.com/products&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Extract product names and prices&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schema<span class="w"> </span><span class="s1">&#39;{&quot;products&quot;: [{&quot;name&quot;: &quot;string&quot;, &quot;price&quot;: &quot;number&quot;}]}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json
 </code></pre></div>
 AI-powered extraction with custom prompt and optional JSON schema for structured data.</p>
 <h3 id="crawl-bulk-extract-site-sections">Crawl - Bulk extract site sections<a class="headerlink" href="#crawl-bulk-extract-site-sections" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>crawl<span class="w"> </span><span class="s2">"https://docs.example.com"</span><span class="w"> </span>--max-pages<span class="w"> </span><span class="m">50</span><span class="w"> </span>--json
+<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>crawl<span class="w"> </span><span class="s2">&quot;https://docs.example.com&quot;</span><span class="w"> </span>--max-pages<span class="w"> </span><span class="m">50</span><span class="w"> </span>--json
 </code></pre></div>
 Crawls entire documentation sites, blogs, or product catalogs.</p>
 <h3 id="monitor-track-page-changes-over-time">Monitor - Track page changes over time<a class="headerlink" href="#monitor-track-page-changes-over-time" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>monitor<span class="w"> </span><span class="s2">"https://example.com/pricing"</span><span class="w"> </span><span class="se">\</span>
+<p><div class="highlight"><pre><span></span><code>just-scrape<span class="w"> </span>monitor<span class="w"> </span><span class="s2">&quot;https://example.com/pricing&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--interval<span class="w"> </span>1h<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--webhook<span class="w"> </span><span class="s2">"https://hooks.example.com/scrapegraph"</span>
+<span class="w">  </span>--webhook<span class="w"> </span><span class="s2">&quot;https://hooks.example.com/scrapegraph&quot;</span>
 </code></pre></div>
 Schedule recurring scraping with optional webhook notifications when pages change.</p>
 <hr />
@@ -11196,14 +11196,14 @@ just-scrape<span class="w"> </span>validate
 just-scrape<span class="w"> </span>credits
 
 <span class="c1"># 3. Test search</span>
-just-scrape<span class="w"> </span>search<span class="w"> </span><span class="s2">"CorpusIQ AI business platform"</span><span class="w"> </span>--num-results<span class="w"> </span><span class="m">3</span><span class="w"> </span>--json
+just-scrape<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;CorpusIQ AI business platform&quot;</span><span class="w"> </span>--num-results<span class="w"> </span><span class="m">3</span><span class="w"> </span>--json
 
 <span class="c1"># 4. Test scrape</span>
-just-scrape<span class="w"> </span>scrape<span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span>--format<span class="w"> </span>markdown<span class="w"> </span>--json
+just-scrape<span class="w"> </span>scrape<span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span>--format<span class="w"> </span>markdown<span class="w"> </span>--json
 
 <span class="c1"># 5. Test extract</span>
-just-scrape<span class="w"> </span>extract<span class="w"> </span><span class="s2">"https://news.ycombinator.com"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Extract top 10 post titles and URLs"</span><span class="w"> </span><span class="se">\</span>
+just-scrape<span class="w"> </span>extract<span class="w"> </span><span class="s2">&quot;https://news.ycombinator.com&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Extract top 10 post titles and URLs&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--json
 </code></pre></div>
 <hr />
@@ -11212,7 +11212,7 @@ just-scrape<span class="w"> </span>extract<span class="w"> </span><span class="s
 <span class="nb">command</span><span class="w"> </span>-v<span class="w"> </span>just-scrape<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>just-scrape<span class="w"> </span>--version
 
 <span class="c1"># Verify API connectivity</span>
-just-scrape<span class="w"> </span>validate<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"✓ API key valid"</span>
+just-scrape<span class="w"> </span>validate<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;✓ API key valid&quot;</span>
 
 <span class="c1"># Verify credit balance</span>
 just-scrape<span class="w"> </span>credits

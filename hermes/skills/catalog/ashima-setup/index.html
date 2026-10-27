@@ -11174,7 +11174,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>ashima/duet<span class="w"> 
 cp<span class="w"> </span>-r<span class="w"> </span>ashima/chorus<span class="w"> </span>~/.hermes/skills/chorus
 </code></pre></div>
 <h3 id="verify-installation">Verify Installation<a class="headerlink" href="#verify-installation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"ashima|aria|duet|chorus"</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;ashima|aria|duet|chorus&quot;</span>
 </code></pre></div>
 <p>Expected output:
 <div class="highlight"><pre><span></span><code>ashima     - Ashima Orchestration Router
@@ -11205,12 +11205,12 @@ npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </s
 <h2 id="5-usage">5. Usage<a class="headerlink" href="#5-usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="manual-invocation">Manual Invocation<a class="headerlink" href="#manual-invocation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Route to specific voice</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">"ashima aria - implement the auth module"</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">"ashima duet - compare microservices vs monolith"</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">"ashima chorus - write release notes for last 5 commits"</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima aria - implement the auth module&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima duet - compare microservices vs monolith&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima chorus - write release notes for last 5 commits&quot;</span>
 
 <span class="c1"># Auto-route (ashima detects task type)</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">"ashima - help me refactor the database layer"</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>ashima<span class="w"> </span><span class="s2">&quot;ashima - help me refactor the database layer&quot;</span>
 </code></pre></div>
 <h3 id="from-within-a-session">From Within a Session<a class="headerlink" href="#from-within-a-session" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>/skill ashima aria - fix the race condition in queue.py

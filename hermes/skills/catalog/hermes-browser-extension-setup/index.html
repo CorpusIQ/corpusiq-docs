@@ -11391,12 +11391,12 @@ curl<span class="w"> </span>http://127.0.0.1:8642/api/health
 <div class="highlight"><pre><span></span><code><span class="c1"># In Hermes config.yaml, add under gateway section:</span>
 <span class="c1"># cors:</span>
 <span class="c1">#   allowed_origins:</span>
-<span class="c1">#     - "chrome-extension://*"</span>
-<span class="c1">#     - "https://your-domain.com"</span>
+<span class="c1">#     - &quot;chrome-extension://*&quot;</span>
+<span class="c1">#     - &quot;https://your-domain.com&quot;</span>
 </code></pre></div>
 <h3 id="api-key-remote-setups">API Key (Remote Setups)<a class="headerlink" href="#api-key-remote-setups" title="Anchor link to this section">&para;</a></h3>
 <p>For remote Hermes connections, generate an API key:</p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>auth<span class="w"> </span>create-key<span class="w"> </span>--name<span class="w"> </span><span class="s2">"browser-extension"</span><span class="w"> </span>--expires<span class="w"> </span>90d
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>auth<span class="w"> </span>create-key<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;browser-extension&quot;</span><span class="w"> </span>--expires<span class="w"> </span>90d
 </code></pre></div>
 <hr />
 <h2 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Anchor link to this section">&para;</a></h2>

@@ -11263,15 +11263,15 @@ during conversations.</p>
 <p>Open <code>claude_desktop_config.json</code> in a text editor and add the CorpusIQ server
 entry under <code>mcpServers</code>. Replace <code>YOUR_API_KEY</code> with your actual CorpusIQ API key.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"corpusiq"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="s2">"-y"</span><span class="p">,</span>
-<span class="w">        </span><span class="s2">"@corpusiq/mcp-server"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;-y&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;@corpusiq/mcp-server&quot;</span>
 <span class="w">      </span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"CORPUSIQ_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"YOUR_API_KEY"</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;CORPUSIQ_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;YOUR_API_KEY&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11280,19 +11280,19 @@ entry under <code>mcpServers</code>. Replace <code>YOUR_API_KEY</code> with your
 <p>If you already have other MCP servers in your config, add <code>corpusiq</code> as an
 additional entry alongside them:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"existing-server"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"..."</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"..."</span><span class="p">]</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;existing-server&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;...&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;...&quot;</span><span class="p">]</span>
 <span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">"corpusiq"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="s2">"-y"</span><span class="p">,</span>
-<span class="w">        </span><span class="s2">"@corpusiq/mcp-server"</span>
+<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;-y&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;@corpusiq/mcp-server&quot;</span>
 <span class="w">      </span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"CORPUSIQ_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"YOUR_API_KEY"</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;CORPUSIQ_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;YOUR_API_KEY&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11325,9 +11325,9 @@ You can ask me to query any of these sources directly.
 - Verify your API key is correct (no extra spaces)
 - Check that <code>npx</code> is available in your terminal: <code>npx --version</code>
 - On macOS, if npx isn't found, add your Node path to the config:
-  <div class="highlight"><pre><span></span><code><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nt">"CORPUSIQ_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"YOUR_API_KEY"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"PATH"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/usr/local/bin:/usr/bin:/bin"</span>
+  <div class="highlight"><pre><span></span><code><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;CORPUSIQ_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;YOUR_API_KEY&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;PATH&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/usr/local/bin:/usr/bin:/bin&quot;</span>
 <span class="p">}</span>
 </code></pre></div></p>
 <p><strong>Authentication error from CorpusIQ:</strong>
@@ -11339,7 +11339,7 @@ You can ask me to query any of these sources directly.
 <hr />
 <h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Anchor link to this section">&para;</a></h2>
 <p>Once connected, try a cross-source query:</p>
-<div class="highlight"><pre><span></span><code>Pull last week's Shopify revenue and compare it to my GA4 paid traffic sessions.
+<div class="highlight"><pre><span></span><code>Pull last week&#39;s Shopify revenue and compare it to my GA4 paid traffic sessions.
 What was the revenue per paid session?
 </code></pre></div>
 <h2 id="see-the-recipes-directory-for-more-query-patterns">See the <a href="https://www.corpusiq.io/docs/recipes">recipes/</a> directory for more query patterns.<a class="headerlink" href="#see-the-recipes-directory-for-more-query-patterns" title="Anchor link to this section">&para;</a></h2>

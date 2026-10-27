@@ -11178,27 +11178,27 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Verify prerequisites</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">import os</span>
 <span class="s2">from dotenv import load_dotenv; load_dotenv()</span>
 <span class="s2">from apify_client import ApifyClient</span>
 <span class="s2">from google import genai</span>
-<span class="s2">assert os.environ.get('APIFY_TOKEN'), 'APIFY_TOKEN not set'</span>
-<span class="s2">assert os.environ.get('GEMINI_API_KEY'), 'GEMINI_API_KEY not set'</span>
-<span class="s2">print('Prerequisites OK')</span>
-<span class="s2">"</span>
+<span class="s2">assert os.environ.get(&#39;APIFY_TOKEN&#39;), &#39;APIFY_TOKEN not set&#39;</span>
+<span class="s2">assert os.environ.get(&#39;GEMINI_API_KEY&#39;), &#39;GEMINI_API_KEY not set&#39;</span>
+<span class="s2">print(&#39;Prerequisites OK&#39;)</span>
+<span class="s2">&quot;</span>
 
 <span class="c1"># 2. Run Instagram research</span>
-<span class="nv">RUN_FOLDER</span><span class="o">=</span><span class="s2">"instagram-research/</span><span class="k">$(</span>date<span class="w"> </span>+%Y-%m-%d_%H%M%S<span class="k">)</span><span class="s2">"</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">"</span><span class="nv">$RUN_FOLDER</span><span class="s2">"</span>
+<span class="nv">RUN_FOLDER</span><span class="o">=</span><span class="s2">&quot;instagram-research/</span><span class="k">$(</span>date<span class="w"> </span>+%Y-%m-%d_%H%M%S<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$RUN_FOLDER</span><span class="s2">&quot;</span>
 python3<span class="w"> </span>.claude/skills/instagram-research/scripts/fetch_instagram.py<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--type<span class="w"> </span>reels<span class="w"> </span>--days<span class="w"> </span><span class="m">30</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">50</span><span class="w"> </span>--output<span class="w"> </span><span class="s2">"</span><span class="nv">$RUN_FOLDER</span><span class="s2">/raw.json"</span>
+<span class="w">  </span>--type<span class="w"> </span>reels<span class="w"> </span>--days<span class="w"> </span><span class="m">30</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">50</span><span class="w"> </span>--output<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$RUN_FOLDER</span><span class="s2">/raw.json&quot;</span>
 python3<span class="w"> </span>.claude/skills/instagram-research/scripts/analyze_posts.py<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--input<span class="w"> </span><span class="s2">"</span><span class="nv">$RUN_FOLDER</span><span class="s2">/raw.json"</span><span class="w"> </span>--output<span class="w"> </span><span class="s2">"</span><span class="nv">$RUN_FOLDER</span><span class="s2">/outliers.json"</span><span class="w"> </span>--threshold<span class="w"> </span><span class="m">2</span>.0
+<span class="w">  </span>--input<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$RUN_FOLDER</span><span class="s2">/raw.json&quot;</span><span class="w"> </span>--output<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$RUN_FOLDER</span><span class="s2">/outliers.json&quot;</span><span class="w"> </span>--threshold<span class="w"> </span><span class="m">2</span>.0
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>bradautomates/head-of-content
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"from apify_client import ApifyClient; print('Apify OK')"</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;from apify_client import ApifyClient; print(&#39;Apify OK&#39;)&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

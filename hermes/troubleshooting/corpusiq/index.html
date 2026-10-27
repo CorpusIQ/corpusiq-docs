@@ -11044,10 +11044,10 @@
 <p><strong>Root cause:</strong> The CorpusIQ JWT access token expires after 60 minutes. Cron jobs that run infrequently will have an expired token.</p>
 <p><strong>Fix:</strong> Use the refresh token flow. The server now mints a 30-day refresh token alongside the 60-minute access token. Save both from the device OAuth response. When the access token expires, POST <code>grant_type=refresh_token</code> to <code>/oauth/token</code>:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/oauth/token<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s2">"grant_type=refresh_token&amp;refresh_token=&lt;saved_value&gt;"</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;grant_type=refresh_token&amp;refresh_token=&lt;saved_value&gt;&quot;</span>
 </code></pre></div>
 <p>For crons, run the refresh guard:
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>refresh_mcp_jwt.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"your cron task"</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>refresh_mcp_jwt.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;your cron task&quot;</span>
 </code></pre></div></p>
 <p>The guard script refreshes using the saved refresh token and updates <code>config.yaml</code> automatically.</p>
 <p>If you are still on an older JWT obtained before July 28, 2026, do one device OAuth reconnect to receive the refresh token.</p>
@@ -11056,21 +11056,21 @@
 <p><strong>Root cause:</strong> Tool call parameters are passed flat alongside <code>action</code> instead of nested inside <code>params</code>.</p>
 <p><strong>Fix:</strong> All CorpusIQ MCP tool calls must nest query parameters inside the <code>params</code> key:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># CORRECT</span>
-<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">"search_console_connector"</span><span class="p">,</span> <span class="p">{</span>
-    <span class="s2">"action"</span><span class="p">:</span> <span class="s2">"get_performance"</span><span class="p">,</span>
-    <span class="s2">"params"</span><span class="p">:</span> <span class="p">{</span>
-        <span class="s2">"site_url"</span><span class="p">:</span> <span class="s2">"sc-domain:corpusiq.io"</span><span class="p">,</span>
-        <span class="s2">"start_date"</span><span class="p">:</span> <span class="s2">"2026-07-01"</span><span class="p">,</span>
-        <span class="s2">"end_date"</span><span class="p">:</span> <span class="s2">"2026-07-28"</span><span class="p">,</span>
-        <span class="s2">"dimensions"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"query"</span><span class="p">],</span>
-        <span class="s2">"row_limit"</span><span class="p">:</span> <span class="mi">10</span>
+<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;search_console_connector&quot;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;get_performance&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;params&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;site_url&quot;</span><span class="p">:</span> <span class="s2">&quot;sc-domain:corpusiq.io&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-07-01&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;end_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-07-28&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;dimensions&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;query&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;row_limit&quot;</span><span class="p">:</span> <span class="mi">10</span>
     <span class="p">}</span>
 <span class="p">})</span>
 
 <span class="c1"># WRONG - flat params silently fail</span>
-<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">"search_console_connector"</span><span class="p">,</span> <span class="p">{</span>
-    <span class="s2">"action"</span><span class="p">:</span> <span class="s2">"get_performance"</span><span class="p">,</span>
-    <span class="s2">"site_url"</span><span class="p">:</span> <span class="s2">"sc-domain:corpusiq.io"</span><span class="p">,</span>
+<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;search_console_connector&quot;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;get_performance&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;site_url&quot;</span><span class="p">:</span> <span class="s2">&quot;sc-domain:corpusiq.io&quot;</span><span class="p">,</span>
     <span class="o">...</span>
 <span class="p">})</span>
 </code></pre></div>
@@ -11080,8 +11080,8 @@
 <p><strong>Fix:</strong> Verify the MCP config entry:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">corpusiq</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://mcp2.corpusiq.io/mcp"</span>
-<span class="w">    </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="s">"streamable-http"</span>
+<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://mcp2.corpusiq.io/mcp&quot;</span>
+<span class="w">    </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;streamable-http&quot;</span>
 </code></pre></div>
 <p>Run <code>hermes mcp list</code> to verify it's registered.</p>
 <h2 id="oauth-device-link-expired">OAuth device link expired<a class="headerlink" href="#oauth-device-link-expired" title="Anchor link to this section">&para;</a></h2>

@@ -11821,7 +11821,7 @@
 <p>The agent compiles the collected data into a structured briefing:</p>
 <div class="highlight"><pre><span></span><code><span class="gh"># Morning Briefing  --  [DATE]</span>
 
-<span class="gu">## Today's Calendar ([N] events)</span>
+<span class="gu">## Today&#39;s Calendar ([N] events)</span>
 | Time | Event | Attendees | Location | Prep Needed? |
 |---|---|---|---|---|
 | 09:00 | Sprint Planning | Team (6) | Zoom | Review backlog |
@@ -11899,7 +11899,7 @@ Blockers: [0-1 items]
 | Metric | Open | Close | Day Change |
 |---|---|---|---|
 
-<span class="gu">## Tomorrow's Draft Plan</span>
+<span class="gu">## Tomorrow&#39;s Draft Plan</span>
 <span class="k">1.</span> [Top priority for tomorrow]
 <span class="k">2.</span> [Second priority]
 <span class="k">3.</span> [Third priority]
@@ -11915,28 +11915,28 @@ Blockers: [0-1 items]
 <h3 id="working-hours">Working Hours<a class="headerlink" href="#working-hours" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">working_hours</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">days</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">1</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">2</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">3</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">4</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">5</span><span class="p p-Indicator">]</span><span class="w">  </span><span class="c1"># Monday-Friday</span>
-<span class="w">  </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="s">"09:00"</span>
-<span class="w">  </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="s">"17:00"</span>
-<span class="w">  </span><span class="nt">timezone</span><span class="p">:</span><span class="w"> </span><span class="s">"America/Chicago"</span>
+<span class="w">  </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;09:00&quot;</span>
+<span class="w">  </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;17:00&quot;</span>
+<span class="w">  </span><span class="nt">timezone</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;America/Chicago&quot;</span>
 </code></pre></div>
 <h3 id="priority-senders">Priority Senders<a class="headerlink" href="#priority-senders" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">priority_senders</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"ceo@example.com"</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"key_client@example.com"</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"investor@example.com"</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;ceo@example.com&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;key_client@example.com&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;investor@example.com&quot;</span>
 </code></pre></div>
 <h3 id="key-daily-metrics">Key Daily Metrics<a class="headerlink" href="#key-daily-metrics" title="Anchor link to this section">&para;</a></h3>
 <p>Define which metrics to track morning and evening. These can come from database queries, analytics platforms, or CRM:
 <div class="highlight"><pre><span></span><code><span class="nt">daily_metrics</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Revenue"</span>
-<span class="w">    </span><span class="nt">source</span><span class="p">:</span><span class="w"> </span><span class="s">"database"</span>
-<span class="w">    </span><span class="nt">query</span><span class="p">:</span><span class="w"> </span><span class="s">"select</span><span class="nv"> </span><span class="s">sum(amount)</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">orders</span><span class="nv"> </span><span class="s">where</span><span class="nv"> </span><span class="s">created_at::date</span><span class="nv"> </span><span class="s">=</span><span class="nv"> </span><span class="s">current_date"</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"New</span><span class="nv"> </span><span class="s">Signups"</span>
-<span class="w">    </span><span class="nt">source</span><span class="p">:</span><span class="w"> </span><span class="s">"analytics"</span>
-<span class="w">    </span><span class="nt">metric</span><span class="p">:</span><span class="w"> </span><span class="s">"signups"</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Support</span><span class="nv"> </span><span class="s">Tickets"</span>
-<span class="w">    </span><span class="nt">source</span><span class="p">:</span><span class="w"> </span><span class="s">"crm"</span>
-<span class="w">    </span><span class="nt">query</span><span class="p">:</span><span class="w"> </span><span class="s">"support_tickets_created_today"</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Revenue&quot;</span>
+<span class="w">    </span><span class="nt">source</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;database&quot;</span>
+<span class="w">    </span><span class="nt">query</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;select</span><span class="nv"> </span><span class="s">sum(amount)</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">orders</span><span class="nv"> </span><span class="s">where</span><span class="nv"> </span><span class="s">created_at::date</span><span class="nv"> </span><span class="s">=</span><span class="nv"> </span><span class="s">current_date&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;New</span><span class="nv"> </span><span class="s">Signups&quot;</span>
+<span class="w">    </span><span class="nt">source</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;analytics&quot;</span>
+<span class="w">    </span><span class="nt">metric</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;signups&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Support</span><span class="nv"> </span><span class="s">Tickets&quot;</span>
+<span class="w">    </span><span class="nt">source</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;crm&quot;</span>
+<span class="w">    </span><span class="nt">query</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;support_tickets_created_today&quot;</span>
 </code></pre></div></p>
 <h2 id="implementation-notes">Implementation Notes<a class="headerlink" href="#implementation-notes" title="Anchor link to this section">&para;</a></h2>
 <h3 id="resilience">Resilience<a class="headerlink" href="#resilience" title="Anchor link to this section">&para;</a></h3>

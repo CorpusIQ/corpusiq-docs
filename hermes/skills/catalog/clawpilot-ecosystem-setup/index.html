@@ -11274,13 +11274,13 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify all ClawPilot skills installed</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"clawpilot|clawpilot-pair|clawpilot-send|clawpilot-config|clawpilot-doctor"</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;clawpilot|clawpilot-pair|clawpilot-send|clawpilot-config|clawpilot-doctor&quot;</span>
 
 <span class="c1"># Check Hermes API server is running</span>
-curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8888/health<span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="k">$(</span>grep<span class="w"> </span>API_SERVER_KEY<span class="w"> </span>~/.hermes/.env<span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="o">=</span><span class="w"> </span>-f2<span class="k">)</span><span class="s2">"</span>
+curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8888/health<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="k">$(</span>grep<span class="w"> </span>API_SERVER_KEY<span class="w"> </span>~/.hermes/.env<span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="o">=</span><span class="w"> </span>-f2<span class="k">)</span><span class="s2">&quot;</span>
 
 <span class="c1"># Test pairing readiness (loads clawpilot-config)</span>
-hermes<span class="w"> </span>--skills<span class="w"> </span>clawpilot-config<span class="w"> </span><span class="s2">"Check if this host is ready for PocketClaw pairing"</span>
+hermes<span class="w"> </span>--skills<span class="w"> </span>clawpilot-config<span class="w"> </span><span class="s2">&quot;Check if this host is ready for PocketClaw pairing&quot;</span>
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june16-2026">Discovery Page</a> →</em></p>

@@ -11051,7 +11051,7 @@
 <h1 id="formdall-mcp-gdpr-form-backend-for-agents">Formdall MCP - GDPR Form Backend for Agents<a class="headerlink" href="#formdall-mcp-gdpr-form-backend-for-agents" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Remote MCP server (Streamable HTTP, OAuth)</strong> - a German-hosted form backend (formdall.de) with DSGVO compliance as architecture rather than a checkbox. The assistant creates the form, defines the field schema, wires email or webhook notifications, and receives the finished embed snippet - the operator's static site just posts to Formdall, which validates, filters spam, encrypts and notifies.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
-Auth: OAuth browser login with the operator's Formdall account (no API key needed); submissions:read is a separate consent scope
+Auth: OAuth browser login with the operator&#39;s Formdall account (no API key needed); submissions:read is a separate consent scope
 Endpoint: https://app.formdall.de/mcp
 Tools: 10 (create_form, update_form_fields, create_action, get_embed, get_form, list_forms, list_actions, list_organizations, list_submissions, get_submission)
 Pricing: Free to start, no credit card
@@ -11112,10 +11112,10 @@ Built by: Formdall (formdall.de), hosting in Germany
 <p>A Formdall account (free, no credit card) is required. On the first tool call the client opens a browser window for OAuth login, where the operator confirms the permissions - including the optional <code>submissions:read</code> scope. <code>claude mcp login formdall</code> starts the sign-in immediately.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"formdall"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://app.formdall.de/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;formdall&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://app.formdall.de/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

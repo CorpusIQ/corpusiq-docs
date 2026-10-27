@@ -11174,7 +11174,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--all
 
 <span class="c1"># Vet a specific skill</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--name<span class="w"> </span><span class="s2">"corpusiq-email-standards"</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;corpusiq-email-standards&quot;</span>
 
 <span class="c1"># Vet with security deep scan</span>
 hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--all<span class="w"> </span>--security-deep
@@ -11185,11 +11185,11 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
 <h2 id="what-gets-checked">What Gets Checked<a class="headerlink" href="#what-gets-checked" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-dependency-validation">1. Dependency Validation<a class="headerlink" href="#1-dependency-validation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>✅ corpusiq-email-standards: all 3 dependencies available (himalaya, terminal, memory)
-❌ seo-audit: missing dependency 'web_extract' - web tools not configured
-⚠️  browser-automation: optional dependency 'playwright' not installed
+❌ seo-audit: missing dependency &#39;web_extract&#39; - web tools not configured
+⚠️  browser-automation: optional dependency &#39;playwright&#39; not installed
 </code></pre></div>
 <h3 id="2-trigger-conflict-detection">2. Trigger Conflict Detection<a class="headerlink" href="#2-trigger-conflict-detection" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>⚠️  CONFLICT: 'email' keyword triggered by 5 skills:
+<div class="highlight"><pre><span></span><code>⚠️  CONFLICT: &#39;email&#39; keyword triggered by 5 skills:
    - corpusiq-email-standards
    - corpusiq-email-operating-rules
    - corpusiq-email-send-checklist
@@ -11198,31 +11198,31 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
    → First-match wins: corpusiq-email-standards
 </code></pre></div>
 <h3 id="3-security-anti-pattern-scan">3. Security Anti-Pattern Scan<a class="headerlink" href="#3-security-anti-pattern-scan" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>🔴 CRITICAL: skill 'metamask-openclaw-security' - executes downloaded binaries
-🟡 WARNING: skill 'browser-automation' - spawns headless browser with network access
-🟢 SAFE: skill 'memory-hygiene' - file operations on LanceDB only, no network
+<div class="highlight"><pre><span></span><code>🔴 CRITICAL: skill &#39;metamask-openclaw-security&#39; - executes downloaded binaries
+🟡 WARNING: skill &#39;browser-automation&#39; - spawns headless browser with network access
+🟢 SAFE: skill &#39;memory-hygiene&#39; - file operations on LanceDB only, no network
 </code></pre></div>
 <h3 id="4-structure-validation">4. Structure Validation<a class="headerlink" href="#4-structure-validation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>❌ skill 'untitled-skill': missing YAML frontmatter
-❌ skill 'draft-skill': missing 'description' field
-⚠️  skill 'old-skill': no verification gates defined
-✅ skill 'corpusiq-email-standards': all structural requirements met
+<div class="highlight"><pre><span></span><code>❌ skill &#39;untitled-skill&#39;: missing YAML frontmatter
+❌ skill &#39;draft-skill&#39;: missing &#39;description&#39; field
+⚠️  skill &#39;old-skill&#39;: no verification gates defined
+✅ skill &#39;corpusiq-email-standards&#39;: all structural requirements met
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Add to <code>~/.hermes/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">skill_vetter</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">"1.0.0"</span><span class="w">                   </span><span class="c1"># Which vetter version to use</span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1.0.0&quot;</span><span class="w">                   </span><span class="c1"># Which vetter version to use</span>
 <span class="w">  </span><span class="nt">auto_vet_on_install</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">          </span><span class="c1"># Vet skills immediately after install</span>
-<span class="w">  </span><span class="nt">security_scan_depth</span><span class="p">:</span><span class="w"> </span><span class="s">"standard"</span><span class="w">    </span><span class="c1"># standard | deep</span>
+<span class="w">  </span><span class="nt">security_scan_depth</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;standard&quot;</span><span class="w">    </span><span class="c1"># standard | deep</span>
 <span class="w">  </span><span class="nt">blocked_patterns</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"rm</span><span class="nv"> </span><span class="s">-rf"</span><span class="w">                       </span><span class="c1"># Block skills containing destructive commands</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"curl</span><span class="nv"> </span><span class="s">|</span><span class="nv"> </span><span class="s">bash"</span><span class="w">                  </span><span class="c1"># Block pipe-to-bash patterns</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"eval("</span><span class="w">                        </span><span class="c1"># Block dynamic code execution</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;rm</span><span class="nv"> </span><span class="s">-rf&quot;</span><span class="w">                       </span><span class="c1"># Block skills containing destructive commands</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;curl</span><span class="nv"> </span><span class="s">|</span><span class="nv"> </span><span class="s">bash&quot;</span><span class="w">                  </span><span class="c1"># Block pipe-to-bash patterns</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;eval(&quot;</span><span class="w">                        </span><span class="c1"># Block dynamic code execution</span>
 <span class="w">  </span><span class="nt">warning_patterns</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"sudo"</span><span class="w">                         </span><span class="c1"># Warn on privilege escalation</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"chmod</span><span class="nv"> </span><span class="s">777"</span><span class="w">                    </span><span class="c1"># Warn on permissive file permissions</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;sudo&quot;</span><span class="w">                         </span><span class="c1"># Warn on privilege escalation</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;chmod</span><span class="nv"> </span><span class="s">777&quot;</span><span class="w">                    </span><span class="c1"># Warn on permissive file permissions</span>
 <span class="w">  </span><span class="nt">ignore_skills</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"corpusiq-system-tools"</span><span class="w">        </span><span class="c1"># Trusted internal skills to skip</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;corpusiq-system-tools&quot;</span><span class="w">        </span><span class="c1"># Trusted internal skills to skip</span>
 </code></pre></div>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
@@ -11246,8 +11246,8 @@ hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> 
 <p>Add to your Hermes session start hook:</p>
 <div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 <span class="c1"># ~/.hermes/hooks/session-start.sh</span>
-<span class="nb">echo</span><span class="w"> </span><span class="s2">"Vetting installed skills..."</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--all<span class="w"> </span>--quiet<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"⚠️  Skill vetting found issues - check logs"</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Vetting installed skills...&quot;</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>vet<span class="w"> </span>--all<span class="w"> </span>--quiet<span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;⚠️  Skill vetting found issues - check logs&quot;</span>
 </code></pre></div>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <table>
