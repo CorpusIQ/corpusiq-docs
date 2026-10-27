@@ -3,7 +3,7 @@ title: skill-creator - Anthropic's Skill Creation Framework
 description: Install and use anthropics/skills@skill-creator (317K installs) to author production-quality Hermes agent skills. Workflow scoping, YAML frontmatter, error handling patterns, verification gates, and marketplace publishing.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-creator-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

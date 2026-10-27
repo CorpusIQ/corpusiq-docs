@@ -7,7 +7,7 @@ added: 2026-08-24
 source: "chatmcp/mcpso issue #3734"
 relevance: ★★★
 tags: [consumer-insights, cultural-intelligence, social-media-research, brand-strategy, audience-research, marketing, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Social Glass MCP

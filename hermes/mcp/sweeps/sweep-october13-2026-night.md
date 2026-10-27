@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 13, 2026 (Night Sweep)"
 description: "Night sweep cataloguing a live AppFolio Property Manager connection for AI agents, plus a full disposition pass across all discovery surfaces."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october13-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

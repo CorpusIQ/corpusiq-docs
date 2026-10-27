@@ -7,7 +7,7 @@ added: 2026-08-27
 source: "mcp.so feed (ransack)"
 relevance: ★★
 tags: [search, research, citations, web-fetch, reports, permits, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Ransack MCP

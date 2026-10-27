@@ -7,7 +7,7 @@ added: 2026-08-23
 source: "mcp.so GitHub issue #3711 + official MCP registry record"
 relevance: ★★★
 tags: [supply-chain, compliance, ofac, fda, organic-certification, oauth, remote-mcp, trade-verification]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Atlas Verified MCP

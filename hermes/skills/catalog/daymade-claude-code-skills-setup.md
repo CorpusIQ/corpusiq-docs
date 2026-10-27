@@ -3,7 +3,7 @@ title: "Daymade Claude Code Skills Setup Guide for Hermes Agents"
 description: "daymade/claude-code-skills - 58.4K installs across 106 skills, 1.4K stars: a broad general-purpose agent skill suite - X reading, deep research, QA, prompt optimization, docs, slides, and troubleshooting."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/daymade-claude-code-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "productivity", "qa", "docs", "x twitter"]
 ---
 

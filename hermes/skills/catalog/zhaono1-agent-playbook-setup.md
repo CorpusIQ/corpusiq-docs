@@ -3,7 +3,7 @@ title: "Zhaono1 Agent Playbook - 24-Role Agent Workflow Suite Setup"
 description: "zhaono1/agent-playbook - 24 skills, 50.4K installs: self-improving agent loop, planning, security audit, and full lifecycle roles from PRD to deployment."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/zhaono1-agent-playbook-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "agent workflows", "self-improvement"]
 ---
 

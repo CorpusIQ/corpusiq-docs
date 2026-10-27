@@ -7,7 +7,7 @@ added: 2026-10-06
 source: "chatmcp/mcpso issue #4813 (Oct 6, 2026 midday sweep)"
 relevance: ★★
 tags: [medtech, funding, grants, fda, business-development, research, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Whimbrel MedTech Analyst MCP

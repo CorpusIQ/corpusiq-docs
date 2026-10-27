@@ -7,7 +7,7 @@ added: 2026-10-14
 source: "mcpservers.org /all (October 14, 2026 evening sweep)"
 relevance: ★★
 tags: [manufacturing, industrial-automation, plc, mitsubishi, gx-works2, ladder, structured-text, engineering]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # GX Works Agent MCP

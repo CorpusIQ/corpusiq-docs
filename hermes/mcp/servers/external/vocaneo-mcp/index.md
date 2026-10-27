@@ -7,7 +7,7 @@ added: 2026-08-28
 source: "mcp.so GitHub issue #3804"
 relevance: ★★
 tags: [mcp-server, jobs, training, france, hr, workforce-data, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Vocaneo MCP

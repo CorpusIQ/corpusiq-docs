@@ -7,7 +7,7 @@ added: 2026-10-05
 source: mcpservers.org /all (Oct 5, 2026 midday sweep)
 relevance: ★★★
 tags: [gtm, seo, lead-enrichment, serp, backlinks, outbound, pay-per-call, remote-mcp, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # RouterGrowth MCP

@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "mcp.so feed (Sep 15 morning) + vendor docs at whatsmcp.com/docs/mcp (re-check promoted after the Sep 14 evening disposition)"
 relevance: ★★★
 tags: [whatsapp, messaging, webhooks, customer-communication, numbers, oauth, api-key, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # WhatsMCP MCP

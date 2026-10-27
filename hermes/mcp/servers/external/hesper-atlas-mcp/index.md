@@ -7,7 +7,7 @@ added: 2026-09-01
 source: "chatmcp/mcpso issue #3877 (Sep 1, 2026 night sweep)"
 relevance: ★★
 tags: [mcp-server, finance, stock-signals, verification, provenance, backtesting, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Hesper Atlas Evidence MCP

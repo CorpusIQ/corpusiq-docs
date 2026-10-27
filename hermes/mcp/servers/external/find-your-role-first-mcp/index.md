@@ -7,7 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (find-your-role-first-mcp)"
 relevance: ★★
 tags: [job-search, hiring, recruiting, career-sites, labor-market, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Find Your Role First MCP

@@ -7,7 +7,7 @@ added: 2026-10-21
 source: "chatmcp/mcpso issue #5818 (submitted 2026-10-20T18:23Z)"
 relevance: ★★★
 tags: [location-intelligence, zip-codes, address-validation, census-data, demographics, local-marketing, remote-mcp, read-only]
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 ---
 
 # Zip-Codes.com MCP

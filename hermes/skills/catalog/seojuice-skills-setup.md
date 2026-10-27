@@ -3,7 +3,7 @@ title: SEOJuice Skills - SEO Suite Setup Guide for Hermes Agents
 description: "calm-north/seojuice-skills - 14 skills, 51.8K total installs. find-keywords (6.9K), optimize-for-ai (6.6K), build-links (6.5K), brief, audit, rank-local, audit-speed, diagnose-seo, beat-competitors, migrate-site, recover-content, build-clusters, fix-linking, target-serp."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/seojuice-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "seo", "geo", "keyword research", "link building"]
 ---
 

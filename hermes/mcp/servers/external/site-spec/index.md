@@ -7,7 +7,7 @@ added: 2026-08-29
 source: mcpservers.org /all page 1
 relevance: ★★★
 tags: [mcp-server, seo, geo, structured-data, accessibility, llms-txt, site-audit, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # site-spec MCP

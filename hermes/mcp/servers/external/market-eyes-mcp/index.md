@@ -7,7 +7,7 @@ added: 2026-10-07
 source: "mcpservers.org /all page 2 (Oct 7, 2026 evening sweep)"
 relevance: ★★
 tags: [stocks, etfs, ratings, mortgage-rates, market-data, research]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Market Eyes Live MCP

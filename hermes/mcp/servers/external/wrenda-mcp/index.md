@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "mcpservers.org /all page 1 + vendor page at wrenda.ai"
 relevance: ★★★
 tags: [geo, ai-visibility, edge-proxy, prerendering, schema-markup, citation-tracking, search-console, ab-testing, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Wrenda MCP

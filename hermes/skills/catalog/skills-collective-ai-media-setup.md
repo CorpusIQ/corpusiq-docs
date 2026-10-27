@@ -3,7 +3,7 @@ title: "Skills Collective AI Media - Image & Video Generation"
 description: AI image generation, image-to-video conversion, and video editing. 100K+ combined installs across 2 new skills from skills-collective (plus ai-video-generation already catalogued).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-collective-ai-media-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: "Automated Social Publishing - CorpusIQ Docs"
 description: Multi-platform social media publishing pipeline  --  strategy, scheduling, content rotation, engagement tracking, and rate limit handling
 canonical: "https://www.corpusiq.io/docs/hermes/content-ops/social/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

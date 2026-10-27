@@ -3,7 +3,7 @@ title: "Bright Data Agent Skills - Web Scraping & Research Setup"
 description: "brightdata/skills - 22 skills, 26.9K installs: web scraping, search, SEO audit, competitive intelligence, and brand listening from the Bright Data team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/brightdata-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "web scraping", "research", "seo"]
 ---
 

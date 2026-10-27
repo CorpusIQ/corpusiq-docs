@@ -7,7 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [asset-management, maintenance, cmms, oauth, audit-logging, multi-tenant, operations, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # A4B CMMS MCP

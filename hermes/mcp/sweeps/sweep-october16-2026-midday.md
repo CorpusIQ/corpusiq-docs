@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 16, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing a hosted omnichannel business inbox and the GB standard steel section reference for AI assistants."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october16-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -3,7 +3,7 @@ title: "Gemini Skills - Official Google AI Development Suite Setup"
 description: "Setup guide for google-gemini/gemini-skills: official Google skills for Gemini API, Live API, Omni Flash, and Vertex AI development. 47.8K+ installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gemini-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags:
   - hermes skill
   - agent skill

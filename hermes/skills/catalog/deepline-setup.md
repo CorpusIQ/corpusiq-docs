@@ -3,7 +3,7 @@ title: Deepline - GTM Platform Skills for Hermes Agents
 description: Six GTM platform skills for TAM building, portfolio prospecting, niche signal discovery, LinkedIn URL lookup, feedback analysis, and Clay integration. 92K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deepline-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

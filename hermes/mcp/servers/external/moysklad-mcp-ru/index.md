@@ -7,7 +7,7 @@ added: 2026-09-12
 source: "mcpservers.org /all page 1 (night crawl) + GitHub repo ilyautov/moysklad-mcp-ru (MIT, pushed 2026-09-12)"
 relevance: ★★★
 tags: [erp, moysklad, inventory, accounting, russia, stdio, uvx, write-gates]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # moysklad-mcp-ru MCP

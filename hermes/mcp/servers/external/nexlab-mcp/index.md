@@ -7,7 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [data-intelligence, citations, regulatory, legal-research, corporate-research, due-diligence, api, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Nexlab MCP - Cited Data Intelligence Across 23 Servers

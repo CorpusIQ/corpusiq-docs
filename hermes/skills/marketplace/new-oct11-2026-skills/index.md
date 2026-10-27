@@ -3,7 +3,7 @@ title: "New Skills - October 11, 2026"
 description: "Skills.sh sweep (Oct 11): 892 skills checked; 1 new publisher guide - Claude Code Extensions (9.6K combined, 21 plugins, 60+ agents)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct11-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

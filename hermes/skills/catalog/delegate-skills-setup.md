@@ -3,7 +3,7 @@ title: Delegate Skills - Background Agent Delegation Setup Guide
 description: Install and configure delegate-skills to spawn background agent workers with git worktree isolation and self-healing monitoring. Works with Hermes and any AI with shell access.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/delegate-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -7,7 +7,7 @@ added: 2026-08-18
 source: "mcp.so GitHub issue #3623"
 relevance: ★★
 tags: [ugc, video-ads, ai-video, creators, voices, marketing, async-generation, remote-mcp, video-generation]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # UnrealUGC MCP

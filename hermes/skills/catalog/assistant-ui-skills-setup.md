@@ -3,7 +3,7 @@ title: "Assistant UI Skills - AI Chat Interface Dev Suite Setup"
 description: "Setup guide for assistant-ui/skills: 17 agent skills for building AI chat interfaces with assistant-ui. 89.4K+ combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/assistant-ui-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags:
   - hermes skill
   - agent skill

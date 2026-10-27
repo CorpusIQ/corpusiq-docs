@@ -7,7 +7,7 @@ added: 2026-10-22
 source: "chatmcp/mcpso issue #5949 (disclosedby, October 22, 2026 midday sweep)"
 relevance: ★★
 tags: [gdpr, subprocessors, vendor-risk, dpia, compliance-evidence, data-processing, remote-mcp, keyless]
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 ---
 
 # disclosedby MCP

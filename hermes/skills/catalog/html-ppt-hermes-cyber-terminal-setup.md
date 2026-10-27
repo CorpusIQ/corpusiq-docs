@@ -3,7 +3,7 @@ title: html-ppt-hermes-cyber-terminal - Setup Guide
 description: Cyber-terminal themed HTML/PPT presentation skill for Hermes Agent from the nexu-io/open-design repo (82.7K⭐). Generate slide decks and terminal-styled presentations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/html-ppt-hermes-cyber-terminal-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

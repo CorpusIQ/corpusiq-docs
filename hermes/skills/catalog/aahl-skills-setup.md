@@ -3,7 +3,7 @@ title: "AAHL Skills - Smart Home & TTS Setup"
 description: "Practical agent skills: Home Assistant smart-home control, Edge TTS, DuckDuckGo search, crypto data, weather, Lark/Feishu, video search, and price compare."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aahl-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "smart home", "text-to-speech"]
 ---
 

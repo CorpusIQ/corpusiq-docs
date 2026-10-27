@@ -7,7 +7,7 @@ added: 2026-08-24
 source: "chatmcp/mcpso issue #3729"
 relevance: ★★
 tags: [flights, travel, fares, airline-pricing, price-insights, travel-procurement, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Google Flights MCP

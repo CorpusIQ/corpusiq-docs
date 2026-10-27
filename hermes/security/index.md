@@ -4,7 +4,7 @@ description: "CorpusIQ security model: read-only OAuth access on every connector
 canonical: "/hermes/security/"
 robots: "index, follow"
 tags: [security, read-only, privacy, no-storage, oauth, governance]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Security and Read-Only Access

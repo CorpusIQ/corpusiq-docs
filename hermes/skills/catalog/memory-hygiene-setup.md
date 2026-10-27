@@ -3,7 +3,7 @@ title: "Memory Hygiene - Setup Guide - CorpusIQ Docs"
 description: Audit, clean, and optimize Hermes/Clawdbot vector memory to prevent token waste and performance degradation from memory bloat.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/memory-hygiene-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -7,7 +7,7 @@ added: 2026-10-20
 source: "chatmcp/mcpso issue window #5811 (submitted 2026-10-20T15:41:00Z)"
 relevance: ★★★
 tags: [finance, municipal-finance, public-sector, financial-statements, credit-risk, local-government, remote-mcp, api-key]
-last_updated: "2026-10-20"
+last_updated: "2026-10-24"
 ---
 
 # MuniSpot MCP

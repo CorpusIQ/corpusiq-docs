@@ -3,7 +3,7 @@ title: "CrewAI + Hermes Integration - CorpusIQ Docs"
 description: Production guide for multi-agent orchestration with CrewAI and Hermes  --  agent definitions, task delegation, coordination strategies
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/crewai/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 
 ---

@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 10, 2026 (Midday Sweep)"
 description: "Midday sweep over chatmcp/mcpso issues #4033-#4035 plus mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy and the mcp.so homepage. 1 new business-relevant server catalogued with a guide: APIzone MCP (keyless hosted status and uptime monitoring for 294 popular third-party APIs, live-verified over JSON-RPC)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 10, 2026 (Midday Sweep)

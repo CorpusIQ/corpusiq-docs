@@ -7,7 +7,7 @@ added: 2026-10-20
 source: "mcpservers.org /all page 3 via the r.jina.ai reader proxy (tresor4k/creavores-aeo-mcp)"
 relevance: ★★
 tags: [seo, aeo, geo, llms-txt, json-ld, eeat, agentic-browsing, ai-citation, mcp-server, nodejs]
-last_updated: "2026-10-20"
+last_updated: "2026-10-24"
 ---
 
 # Creavores AEO Audit MCP

@@ -3,7 +3,7 @@ title: "Make Skills - Automation Platform Suite Setup"
 description: "Setup guide for integromat/make-skills - 5 official Make.com agent skills: scenario building, MCP reference, module configuring, E2B code execution."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/make-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "make", "automation", "integromat", "mcp"]
 ---
 

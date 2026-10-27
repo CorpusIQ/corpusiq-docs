@@ -7,7 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★★
 tags: [legal, courtlistener, case-law, regulations, compliance, research, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # CourtListener MCP

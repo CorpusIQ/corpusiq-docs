@@ -3,7 +3,7 @@ title: "A Smart Bear Skills - Positioning & PMF Suite Setup"
 description: "Setup guide for asmartbear/asb-skills - 21 agent skills from A Smart Bear (Jason Cohen) on positioning, problem discovery, and product-market fit."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/asmartbear-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "positioning", "product-market fit", "strategy"]
 ---
 

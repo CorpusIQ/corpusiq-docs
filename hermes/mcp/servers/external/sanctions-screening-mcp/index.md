@@ -9,7 +9,7 @@ stars: 0
 tags: [sanctions, ofac, compliance, aml, kyc, fintech]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sanctions-screening-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 description: "MCP server for OFAC, EU, UK, and UN sanctions screening. Hosted on MCPize. Enables AI agents to perform compliance checks directly - essential for fintech."
 
 ---

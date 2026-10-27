@@ -7,7 +7,7 @@ added: 2026-10-21
 source: "mcp.so /feed page 1 (card posted 2026-10-21T09:31:16Z)"
 relevance: ★★★
 tags: [video-generation, website-to-video, product-demo, screen-recording, text-to-speech, marketing-content, remote-mcp, oauth]
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 ---
 
 # PageToVid MCP

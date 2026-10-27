@@ -3,7 +3,7 @@ title: "Antigravity Manager - Multi-Account LLM Proxy & Rotation"
 description: Setup guide for antigravity-manager, the Agent Skills skill for Antigravity Manager (31K-star Tauri/Rust tool) that proxies Google and Anthropic accounts as OpenAI/Anthropic/Gemini API endpoints with rotation and quota tracking. 1,396+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-manager-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

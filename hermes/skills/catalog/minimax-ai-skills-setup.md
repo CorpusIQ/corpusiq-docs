@@ -3,7 +3,7 @@ title: "MiniMax AI Skills - Official Dev & Document Suite Setup"
 description: "Setup guide for minimax-ai/skills - 48.3K combined installs. Official MiniMax dev suite: web scaffolds plus pptx, docx, pdf, and xlsx generators."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/minimax-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "minimax", "document generation", "frontend development"]
 ---
 

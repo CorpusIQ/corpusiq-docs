@@ -3,7 +3,7 @@ title: "Dimillian Skills - Apple Platform Engineering Suite Setup"
 description: "Setup guide for dimillian/skills - 33.8K combined installs. SwiftUI, iOS, and Apple platform engineering skills from Thomas Ricouard."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dimillian-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "swiftui", "apple platforms", "ios development"]
 ---
 

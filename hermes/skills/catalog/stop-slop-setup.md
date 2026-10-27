@@ -3,7 +3,7 @@ title: "Stop Slop - AI-Prose Pattern Cleaner Setup"
 description: "hardikpandya/stop-slop - 1 skill, 10.6K installs: eliminates predictable AI writing patterns from prose. 15.7K GitHub stars, 3/3 security audit passes."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stop-slop-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "writing", "content quality", "anti-slop"]
 ---
 

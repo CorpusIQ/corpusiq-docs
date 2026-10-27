@@ -3,7 +3,7 @@ title: "New Skills - August 17, 2026 - CorpusIQ Docs"
 description: "skills.sh sweep: Brian Lovin Agent Config (33.6K, 19), last30days (32.7K, 3), Herdr (28.1K, 5), Web Access (15.7K), Stop Slop (10.6K), Avoid AI Writing (1.6K, locally installed) - 6 publisher clusters, 30 skills, 6 setup guides."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug17-2026/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-17"
 new_publishers: 6

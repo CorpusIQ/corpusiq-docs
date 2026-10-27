@@ -3,7 +3,7 @@ title: trailofbits/skills - Full Setup Guide for Hermes Agents
 description: Install and configure Trail of Bits security skills - 78 plugins for code auditing, vulnerability scanning, fuzzing, static analysis, and smart contract security. 243K installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/trailofbits-security-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

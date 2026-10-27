@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 10, 2026 (Night Sweep)"
 description: "Night sweep over chatmcp/mcpso issues #3999-#4031, mcp.so homepage recentServers and mcpservers.org /all pages 1-2. 6 new business-relevant servers catalogued with guides: mcp-x (official X API v2), Shop MCP (read-only Shopify), WaitingForPower (US energy permitting), Mellow Hub (multi-network publishing), Parlel (keyless professional network search) and Capslane (timestamped YouTube transcripts)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 10, 2026 (Night Sweep)

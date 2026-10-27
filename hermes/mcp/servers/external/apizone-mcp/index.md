@@ -7,7 +7,7 @@ added: 2026-09-10
 source: "chatmcp/mcpso issue #4035"
 relevance: ★★★
 tags: [uptime, monitoring, status-pages, outages, incident-response, remote-mcp, keyless]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # APIzone MCP - Live API Status and Uptime Monitoring for Agents

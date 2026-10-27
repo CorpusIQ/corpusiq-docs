@@ -7,7 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3738"
 relevance: ★★
 tags: [mcp-server, executive-compensation, proxy-data, finance, research, public-companies]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # RentSeek Evidence MCP

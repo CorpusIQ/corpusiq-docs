@@ -3,7 +3,7 @@ title: "Cloudflare Security Audit Skill - Agent Code Auditing Setup"
 description: "Setup guide for cloudflare/security-audit-skill: Cloudflare's official security auditor skill - six-phase vulnerability hunting for AI coding agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cloudflare-security-audit-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "audit", "cloudflare"]
 ---
 

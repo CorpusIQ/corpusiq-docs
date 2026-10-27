@@ -7,7 +7,7 @@ added: 2026-10-13
 source: "chatmcp/mcpso issue #5242 + official MCP registry (Oct 13, 2026 midday sweep)"
 relevance: ★★
 tags: [electrical, engineering, diagrams, nf-c15-100, iec-60364, construction, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # uniwire MCP

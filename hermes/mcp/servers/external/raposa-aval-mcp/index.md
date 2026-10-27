@@ -7,7 +7,7 @@ added: 2026-09-03
 source: "mcp.so GitHub issue #3914"
 relevance: ★★★
 tags: [approval-gate, human-in-the-loop, audit-log, governance, compliance, stdio, api-key]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Raposa Aval MCP

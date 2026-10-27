@@ -3,7 +3,7 @@ title: "New Skills - July 30, 2026 - CorpusIQ Docs"
 description: 11 newly discovered Hermes Agent skills from skills.sh marketplace sweep - including HTML/Cyber Terminal presentations, X/Twitter automation, agent dashboard, and Telegram setup guides.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july30-2026/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

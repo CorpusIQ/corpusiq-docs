@@ -7,7 +7,7 @@ added: 2026-10-07
 source: "mcp.so /feed (Oct 7, 2026 midday sweep)"
 relevance: ★★
 tags: [test-management, qa, testing, test-cases, coverage, teams, api-key, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Testiny MCP

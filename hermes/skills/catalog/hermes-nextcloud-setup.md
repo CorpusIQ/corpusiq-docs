@@ -7,7 +7,7 @@ maturity: beta
 source: https://github.com/adnw-vinc/hermes-nextcloud
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-nextcloud-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

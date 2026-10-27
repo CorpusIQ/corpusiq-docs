@@ -3,7 +3,7 @@ title: "Baoyu Skills - Content Generation & Publishing Suite Setup"
 description: "Setup guide for jimliu/baoyu-skills - 594.5K combined installs. A 21-skill content suite for illustration, infographics, and multi-platform publishing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/baoyu-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "content generation", "publishing", "image generation", "wechat"]
 ---
 

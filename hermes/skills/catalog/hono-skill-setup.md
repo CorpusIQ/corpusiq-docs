@@ -3,7 +3,7 @@ title: "Hono Skill - Edge Web Framework Setup by the Hono Author"
 description: "yusukebe/hono-skill - 1 skill, 11.7K installs: inline Hono framework knowledge plus the npx hono request endpoint-testing CLI, authored by Hono's creator."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hono-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "hono", "web framework", "edge", "api"]
 ---
 

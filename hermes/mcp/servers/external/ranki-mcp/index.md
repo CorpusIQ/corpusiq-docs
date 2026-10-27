@@ -7,7 +7,7 @@ added: 2026-09-01
 source: "mcpservers.org /all page 1 - rankdelta-ai listing (Sep 1, 2026 morning sweep)"
 relevance: ★★★
 tags: [mcp-server, seo, aeo, geo, core-web-vitals, llms-txt, image-optimization, audits]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Ranki MCP

@@ -7,7 +7,7 @@ added: 2026-08-14
 source: mcp.so
 relevance: ★★
 tags: [cost-segregation, real-estate, tax, depreciation, accounting, finance, cpa, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Cost Seg Smart MCP

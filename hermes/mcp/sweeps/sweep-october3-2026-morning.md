@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 3, 2026 (Morning)"
 description: "Morning MCP sweep: 5 new business-relevant servers catalogued, from voice AI and predication markets to a multi-agent backlog."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-morning"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

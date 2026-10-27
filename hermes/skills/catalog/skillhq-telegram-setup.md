@@ -3,7 +3,7 @@ title: Telegram CLI - Native Telegram Client for Hermes Agents
 description: Full-featured Telegram CLI for reading, searching, sending messages, managing groups, and syncing chat history. 425 installs. Fast native MTProto client - no bot API limitations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skillhq-telegram-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

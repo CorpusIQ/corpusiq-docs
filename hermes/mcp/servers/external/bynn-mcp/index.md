@@ -7,7 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [kyc, fraud-detection, identity-verification, content-moderation, age-verification, compliance, autodoc, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Bynn MCP - KYC and Document Fraud Detection for Agents

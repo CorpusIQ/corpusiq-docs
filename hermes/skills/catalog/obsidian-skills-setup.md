@@ -10,7 +10,7 @@ skills_sh: https://skills.sh/kepano/obsidian-skills
 source: https://github.com/kepano/obsidian-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/obsidian-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

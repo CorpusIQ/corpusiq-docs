@@ -7,7 +7,7 @@ added: 2026-09-03
 source: mcp.so
 relevance: ★★★
 tags: [compliance, gdpr, privacy, cookie-consent, legal, terms-and-conditions, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # iubenda MCP

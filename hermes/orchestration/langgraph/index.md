@@ -3,7 +3,7 @@ title: LangGraph + Hermes Integration
 description: Stateful graph-based agent workflows  --  conditional routing, persistence, and production patterns with LangGraph and Hermes
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/langgraph/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 
 ---

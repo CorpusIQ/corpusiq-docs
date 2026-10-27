@@ -3,7 +3,7 @@ title: "Luxor Claude Marketplace Skills Setup"
 description: "Professional Claude Code marketplace with 140 development tools: 67 skills, 28 commands, 30 agents, and 15 workflows (~36.0k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/luxor-claude-marketplace-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "developer tools", "claude code"]
 ---
 

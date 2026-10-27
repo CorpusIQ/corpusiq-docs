@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 7, 2026 (Night Sweep)"
 description: "Night sweep over the mcp.so feed plus mcpservers.org /all page 1. One new business-relevant server catalogued with a guide (TrueClicks MCP), one skip (studiofromthesea)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 7, 2026 (Night Sweep)

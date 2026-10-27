@@ -3,7 +3,7 @@ title: "Fetcher Skills - Social Platform API Cluster Setup"
 description: Install the fetcher-sh/fetcher-skills cluster (971 installs, 7 skills) - twitter-api, x-api, instagram-api, tiktok-api plus scraper variants for agent-driven social platform data access.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/fetcher-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

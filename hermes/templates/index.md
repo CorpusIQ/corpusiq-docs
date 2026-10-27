@@ -3,7 +3,7 @@ title: "Templates - CorpusIQ Docs - CorpusIQ Docs"
 description: Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.
 canonical: "https://www.corpusiq.io/docs/hermes/templates/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes template", "agent template", "skill template"]
 
 ---

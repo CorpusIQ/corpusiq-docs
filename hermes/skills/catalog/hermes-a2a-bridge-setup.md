@@ -7,7 +7,7 @@ compatibility: Hermes Agent v0.20.0+
 installs: New (June 2026)
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-a2a-bridge-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

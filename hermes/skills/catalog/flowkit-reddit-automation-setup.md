@@ -3,7 +3,7 @@ title: "FlowKit Reddit Automation - Community Engagement Skill"
 description: Install flowkit-labs/skills reddit-automation (5.4K installs) - help-first Reddit posting, subreddit monitoring, and engagement workflows for agents. One of the hottest skills on skills.sh right now.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/flowkit-reddit-automation-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

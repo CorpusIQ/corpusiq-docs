@@ -9,7 +9,7 @@ stars: 0
 tags: [agent-orchestration, governance, task-management, productivity, ai-operations]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/featureboard-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 description: "MCP server for **automatic agentic governance, management, orchestration, task planning, and tracking**."
 
 ---

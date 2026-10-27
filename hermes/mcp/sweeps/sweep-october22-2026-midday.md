@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 22, 2026 (Midday Sweep)"
 description: "Midday delta cataloguing three operational surfaces with real tool calls: support cases with approval gates, dated subprocessor records, CNC sourcing."
-last_updated: 2026-10-22
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october22-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

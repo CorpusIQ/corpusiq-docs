@@ -7,7 +7,7 @@ added: 2026-08-21
 source: "mcp.so GitHub issue #3669"
 relevance: ★★
 tags: [email, imap, self-hosted, read-only, notmuch, oauth, docker, inbox, triage, privacy]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # your-mail-mcp

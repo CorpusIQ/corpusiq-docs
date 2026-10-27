@@ -3,7 +3,7 @@ title: "Context Engineering Skills Setup"
 description: "Agent skills for context engineering, multi-agent architectures, and production agent systems (~7.2k installs across the collection)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/context-engineering-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "context engineering", "multi-agent"]
 ---
 

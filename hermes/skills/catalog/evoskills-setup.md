@@ -3,7 +3,7 @@ title: "EvoSkills - Scientific Research Skill Packs Setup"
 description: "Setup guide for evoscientist/evoskills - 5.6K combined installs. Research skill packs: paper planning, review, rebuttal, experiment pipelines."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/evoskills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "academic writing"]
 ---
 

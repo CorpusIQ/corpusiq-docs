@@ -7,7 +7,7 @@ added: 2026-09-11
 source: "chatmcp/mcpso issue #4077"
 relevance: ★★★
 tags: [legal, contracts, nda, privacy-policy, startup, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ClauseAI MCP

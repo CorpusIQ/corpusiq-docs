@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 30, 2026 (Night)"
 description: "Night sweep of the mcp.so feed and mcpservers.org: three new servers catalogued with integration guides."
 category: mcp-directory
 tags: [mcp, discovery, sweep, directories]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MCP Server Discovery - September 30, 2026 (Night)

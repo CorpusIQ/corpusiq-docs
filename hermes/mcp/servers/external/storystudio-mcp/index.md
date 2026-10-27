@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "mcp.so feed (Sep 15 midday) + mcp.so detail page + vendor site storystudio.cc"
 relevance: ★★
 tags: [video-generation, image-generation, voice, music, character-consistency, mp4-export, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # StoryStudio MCP

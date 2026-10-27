@@ -10,7 +10,7 @@ author: patsnap
 github: https://github.com/patsnap
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/patsnap-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Patsnap Patent Literature Search MCP

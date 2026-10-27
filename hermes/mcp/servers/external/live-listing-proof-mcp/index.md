@@ -7,7 +7,7 @@ added: 2026-08-18
 source: "mcp.so GitHub issue #3630"
 relevance: ★★
 tags: [verification, trust, commerce, marketplace, x402, agent-safety, fail-closed, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Live Listing Proof MCP

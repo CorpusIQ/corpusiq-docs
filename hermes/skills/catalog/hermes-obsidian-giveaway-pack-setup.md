@@ -11,7 +11,7 @@ canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-obsidian-g
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Hermes Obsidian Integration: Self-Organizing Vault Setup

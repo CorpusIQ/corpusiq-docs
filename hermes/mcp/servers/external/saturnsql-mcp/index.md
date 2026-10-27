@@ -7,7 +7,7 @@ added: 2026-10-08
 source: "mcpservers.org /all (October 8, 2026 evening sweep)"
 relevance: ★★★
 tags: [database, sql, postgresql, mysql, bigquery, analytics, data-access, read-only, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SaturnSQL MCP

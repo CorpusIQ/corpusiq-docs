@@ -3,7 +3,7 @@ title: pp-mercury - Mercury Banking CLI Setup Guide
 description: "mvanhorn/printing-press-library - pp-mercury skill, 124 installs: drive the Mercury banking API from a Hermes agent - accounts, transactions, transfers, cards, treasury, AR invoicing, webhooks - with a read-only payment-plan approval workflow before any money moves."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pp-mercury-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "banking", "fintech", "mercury", "payments", "cli"]
 ---
 

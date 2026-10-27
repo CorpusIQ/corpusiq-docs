@@ -7,7 +7,7 @@ added: 2026-09-04
 source: "mcp.so feed"
 relevance: ★★★
 tags: [compliance, soc2, iso-27001, cmmc, governance, audit-trail, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Nizh MCP

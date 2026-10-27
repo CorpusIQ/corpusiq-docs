@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 13, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing electrical diagram design with NF C 15-100 and IEC 60364 checks, plus a full disposition pass across all discovery surfaces."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october13-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -3,7 +3,7 @@ title: "WeCom CLI Skills - Enterprise WeChat Agent Suite Setup"
 description: "wecomteam/wecom-cli - 28 skills, 153.4K installs: official WeChat Work (WeCom) docs, meetings, contacts, todos, messages, and smartsheet skills for agent assistants."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wecom-cli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "wecom", "wechat work", "enterprise", "productivity"]
 ---
 

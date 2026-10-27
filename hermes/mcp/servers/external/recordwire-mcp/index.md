@@ -7,7 +7,7 @@ added: 2026-09-11
 source: "mcp.so feed + chatmcp/mcpso issue #4079"
 relevance: ★★★
 tags: [business-data, company-registry, change-events, due-diligence, compliance, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Recordwire MCP

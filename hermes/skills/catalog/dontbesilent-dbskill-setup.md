@@ -3,7 +3,7 @@ title: "Dontbesilent dbskill - 35-Skill Business Toolkit Setup"
 description: "dontbesilent2025/dbskill: 725.5K combined installs across 44 listings. 35 Chinese business diagnosis, content and decision skills behind a router."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dontbesilent-dbskill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "business diagnosis", "content operations", "chinese"]
 ---
 

@@ -3,7 +3,7 @@ title: "Hermes Ecosystem - September 2026 Discoveries"
 description: "New Hermes-ecosystem discoveries from September 2026: OpenCompany and other agent orchestration, governance and automation repos surfaced by the nightly ecosystem discovery."
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/september-2026/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes ecosystem", "agent ecosystem", "september 2026"]
 ---
 

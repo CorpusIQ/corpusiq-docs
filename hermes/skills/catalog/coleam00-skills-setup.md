@@ -3,7 +3,7 @@ title: "Coleam00 Skills - PIV Loop & AI Layer Setup"
 description: "The PIV loop, planning, worktrees, and meta-skills for building your own AI Layer on coding agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/coleam00-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ai coding", "piv loop"]
 ---
 

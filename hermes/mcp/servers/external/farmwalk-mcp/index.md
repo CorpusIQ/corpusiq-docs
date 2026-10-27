@@ -7,7 +7,7 @@ added: 2026-09-03
 source: mcpservers.org
 relevance: ★★
 tags: [agriculture, farm-management, compliance, subsidies, operations, land-data, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Regeno Farmwalk MCP

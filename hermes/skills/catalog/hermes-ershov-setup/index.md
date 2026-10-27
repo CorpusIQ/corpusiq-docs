@@ -3,7 +3,7 @@ title: Hermes Ershov Memory Engine Setup
 description: Install and configure Ershov  --  a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ershov-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

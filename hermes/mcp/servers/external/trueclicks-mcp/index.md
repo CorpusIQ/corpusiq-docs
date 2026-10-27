@@ -7,7 +7,7 @@ added: 2026-09-07
 source: mcp.so feed
 relevance: ★★★
 tags: [ppc, google-ads, microsoft-ads, meta-ads, audit, budget-monitoring, ad-operations, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # TrueClicks MCP - PPC Audit Intelligence for Agents

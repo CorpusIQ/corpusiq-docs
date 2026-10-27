@@ -7,7 +7,7 @@ added: 2026-09-30
 source: "mcp.so server page (genchi)"
 relevance: ★★★
 tags: [project-management, engineering-leadership, deadline-risk, team-signals, slack, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Genchi MCP

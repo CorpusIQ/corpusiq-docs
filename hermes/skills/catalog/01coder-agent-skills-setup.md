@@ -3,7 +3,7 @@ title: "01coder Agent Skills - Content, Publishing & Security"
 description: "VerySmallWoods' 01coder marketplace: Chinese content creation, multi-platform publishing, subtitle tooling, and security scanning. 21.5K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "content", "publishing", "chinese", "security", "video"]
 ---
 

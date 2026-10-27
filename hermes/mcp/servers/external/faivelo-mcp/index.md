@@ -7,7 +7,7 @@ added: 2026-09-28
 source: "mcp.so server page (faivelo.com)"
 relevance: ★★
 tags: [email, mailboxes, dns, aliases, business-email, communication, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Faivelo MCP

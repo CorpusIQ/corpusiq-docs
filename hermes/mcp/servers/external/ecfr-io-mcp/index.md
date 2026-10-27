@@ -7,7 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (lrehmann/ecfr-mcp)"
 relevance: ★★★
 tags: [regulations, compliance, federal-law, legal-research, ecfr, government, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # eCFR.io MCP

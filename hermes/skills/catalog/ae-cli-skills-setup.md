@@ -3,7 +3,7 @@ title: "AE-CLI Skills - AgenticEngine Platform Suite Setup"
 description: "Setup guide for thinkingaiagenticengine/ae-cli - 34 agent skills for the ThinkingAI AgenticEngine platform: analysis, engagement, dataops, community."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ae-cli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "agentic platform", "cli", "engagement"]
 ---
 

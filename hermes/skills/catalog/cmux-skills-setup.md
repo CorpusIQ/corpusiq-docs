@@ -3,7 +3,7 @@ title: CMUX Skills - Agent Terminal Multiplexer Setup
 description: "manaflow-ai/cmux - 22 skills at 76.3K installs for the cmux macOS window/workspace/pane/surface multiplexer (26.1K GitHub stars): browser panels, testing, dev workflow, backend, customization, diagnostics, and keyboard shortcuts."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cmux-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "terminal", "multiplexer"]
 ---
 

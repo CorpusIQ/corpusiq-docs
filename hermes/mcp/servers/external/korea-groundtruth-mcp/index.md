@@ -7,7 +7,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3776"
 relevance: ★★★
 tags: [korea, business-verification, government-data, dart, corporate-registry, kyb, law, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Korea Ground-Truth MCP

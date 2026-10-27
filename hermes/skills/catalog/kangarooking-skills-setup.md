@@ -3,7 +3,7 @@ title: "Kangarooking Skills - Agent Harness Suite Setup"
 description: "Setup guide for kangarooking/kangarooking-skills - 19 custom agent skills: twitter monitor, book illustration, harness engineering, multi-agent image."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/kangarooking-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "twitter", "harness", "multi-agent"]
 ---
 

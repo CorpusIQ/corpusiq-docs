@@ -3,7 +3,7 @@ title: "Cursor Plugins Skills - Engineering Discipline Suite Setup"
 description: "cursor/plugins - 79 skills, 72.0K installs: thermo-nuclear code review, CI loop tools, and engineering-principle skills from the Cursor team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cursor-plugins-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "cursor", "engineering"]
 ---
 

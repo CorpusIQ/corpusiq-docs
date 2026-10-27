@@ -7,7 +7,7 @@ added: 2026-09-11
 source: mcpservers.org /all
 relevance: ★★★
 tags: [lead-generation, b2b-sales, state-filings, outreach, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # GoodLeads MCP

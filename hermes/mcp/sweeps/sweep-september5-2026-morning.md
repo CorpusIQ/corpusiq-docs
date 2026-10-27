@@ -4,7 +4,7 @@ description: "Morning MCP catalog sweep: mcpservers.org /all pages 1-3 plus the 
 date: 2026-09-05T03:10:00-07:00
 sources: [mcpservers.org, mcp.so]
 status: complete
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # September 5, 2026 - Morning Cron Sweep

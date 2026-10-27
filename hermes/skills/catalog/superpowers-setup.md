@@ -3,7 +3,7 @@ title: "Superpowers - Agentic Skills Framework & Development"
 description: Obra's Superpowers framework - the most-installed agent skills system with 1.2M+ combined installs. Brainstorming, systematic debugging, TDD, code review, and planning workflows for AI coding agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/superpowers-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

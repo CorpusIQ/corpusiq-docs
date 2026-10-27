@@ -3,7 +3,7 @@ title: "Book-to-Skill - Book to Agent Skill Converter Setup"
 description: "Setup guide for virgiliojr94/book-to-skill - turn any technical book PDF into an installable Claude Code / Hermes agent skill. 32.8K stars, 6.1K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/book-to-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "books", "knowledge", "skill creation"]
 ---
 

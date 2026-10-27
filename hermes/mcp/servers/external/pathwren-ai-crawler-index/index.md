@@ -7,7 +7,7 @@ added: 2026-09-01
 source: "mcpservers.org homepage (Sep 1, 2026 night sweep)"
 relevance: ★★
 tags: [mcp-server, seo, aeo, robots-txt, ai-crawlers, webmaster, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AI Crawler Index MCP

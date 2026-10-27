@@ -3,7 +3,7 @@ title: Webhook Subscriptions - Skill Setup Guide
 description: Install and configure webhook-subscriptions, the Hermes Agent skill for triggering agent runs from external services via webhook POST endpoints - 80 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/webhook-subscriptions-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

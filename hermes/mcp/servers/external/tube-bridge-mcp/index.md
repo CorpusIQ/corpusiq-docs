@@ -7,7 +7,7 @@ added: 2026-08-20
 source: "mcp.so GitHub issue #3655"
 relevance: ★★
 tags: [youtube, transcripts, research, semantic-search, local-first, video-analysis, corpus, self-hosted, stdio-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # tube-bridge MCP

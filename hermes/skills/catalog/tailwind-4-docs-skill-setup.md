@@ -3,7 +3,7 @@ title: Tailwind 4 Docs Skill - Local Docs Snapshot Setup
 description: "lombiq/tailwind-agent-skills - tailwind-4-docs (10.1K installs): navigate a locally synced Tailwind CSS v4 documentation snapshot for development, migration, and review questions with official guidance. Snyk audit: Warn."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tailwind-4-docs-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "tailwind", "css", "documentation"]
 ---
 

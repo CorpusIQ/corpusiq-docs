@@ -7,7 +7,7 @@ added: 2026-08-30
 source: "mcp.so GitHub issue #3840"
 relevance: ★★
 tags: [mcp-server, wiki, knowledge-base, self-hosted, documentation, stdio, npm]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Wiki.js MCP

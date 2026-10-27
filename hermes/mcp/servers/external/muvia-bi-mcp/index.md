@@ -7,7 +7,7 @@ added: 2026-10-22
 source: "chatmcp/mcpso issue #5955 (Muvia BI, October 22, 2026 midday supplement)"
 relevance: ★★
 tags: [business-intelligence, analytics, sql, data-lake, dashboards, alarms, predictors, lineage, oauth, remote-mcp]
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 ---
 
 # Muvia BI MCP

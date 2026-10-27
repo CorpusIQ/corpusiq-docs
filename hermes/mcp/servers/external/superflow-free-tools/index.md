@@ -7,7 +7,7 @@ added: 2026-08-21
 source: "mcp.so GitHub issue #3668"
 relevance: ★★
 tags: [seo, ai-visibility, llms-txt, robots-txt, json-ld, social-previews, tech-stack, utm, website-qa, remote-mcp, geo]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Superflow Free Tools MCP

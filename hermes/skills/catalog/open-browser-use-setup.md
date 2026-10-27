@@ -3,7 +3,7 @@ title: "Open Browser Use Skills - Browser Automation Setup"
 description: "Browser-extension + CLI automation layer, runtime-neutral; JS, Python, Go SDKs. Open-source alternative to Chrome Browser Use. 446 installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/open-browser-use-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "agent runtimes"]
 ---
 

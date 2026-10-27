@@ -7,7 +7,7 @@ added: 2026-09-14
 source: "chatmcp/mcpso issue #4137 (Sep 14) + PyPI rankjot-mcp 0.1.0 verified"
 relevance: ★★
 tags: [seo, google-rankings, rank-tracking, keyword-tracking, stdio, pypi, mcp-stdio, open-source, mit, free-tier]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # RankJot MCP

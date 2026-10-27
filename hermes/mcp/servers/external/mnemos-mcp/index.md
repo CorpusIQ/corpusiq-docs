@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + github.com/pushkarrmandot/mnemos"
 relevance: ★★
 tags: [meeting-notes, transcription, action-items, meeting-memory, local-first, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Mnemos MCP

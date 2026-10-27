@@ -3,7 +3,7 @@ title: "Goldsky Agent Skills - Blockchain Data Pipeline Setup"
 description: "Setup guide for goldsky-io/goldsky-agent: 19 official Goldsky skills for AI agents building, deploying, and debugging blockchain data pipelines."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/goldsky-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "blockchain", "data pipeline", "goldsky"]
 ---
 

@@ -3,7 +3,7 @@ title: "ScrapeCreators Social Research Skills - Setup Guide"
 description: "ScrapeCreators Social Research Skills: 15.4K combined installs. 13 skills for outlier posts, comment mining and competitor teardowns."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/scrapecreators-social-research-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "social media research", "content research", "marketing"]
 ---
 

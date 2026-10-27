@@ -3,7 +3,7 @@ title: "Makerskills - Personal Operator Agent Suite Setup"
 description: "coreyhaines31/makerskills - 23-skill suite for the personal operator's craft (4.7K installs, 681 stars): second-brain and company-brain knowledge vaults, deep-research, decide, business-brainstorm, CFO skills, content and PM workflows, plus meta-skills for authoring your own. Platform-agnostic SKILL.md playbooks load natively in Hermes Agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/makerskills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "second brain", "knowledge management", "business operations"]
 ---
 

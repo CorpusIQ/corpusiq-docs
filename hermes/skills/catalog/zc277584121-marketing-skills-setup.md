@@ -3,7 +3,7 @@ title: "zc277584121 Marketing Skills - Content Ops Setup"
 description: "Reusable coding-agent skills: AI-style removal, content rewrite, browser automation, screenshots, Mermaid and image generation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/zc277584121-marketing-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "content", "browser automation"]
 ---
 

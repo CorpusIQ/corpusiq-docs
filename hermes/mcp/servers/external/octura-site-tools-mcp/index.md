@@ -7,7 +7,7 @@ added: 2026-08-23
 source: "mcpservers.org /all + GitHub README + live endpoint probe"
 relevance: ★★★
 tags: [odoo, erp, sales-tax, payroll, inventory-planning, roi, calculators, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Octura Site Tools MCP

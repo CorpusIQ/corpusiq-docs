@@ -7,7 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (accounthub.ai)"
 relevance: ★★★
 tags: [productivity, gmail, google-calendar, google-drive, slack, notion, workspace, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AccountHub MCP

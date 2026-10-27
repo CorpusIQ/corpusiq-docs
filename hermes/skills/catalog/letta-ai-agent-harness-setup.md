@@ -3,7 +3,7 @@ title: Letta Code - 24-Skill Stateful Agent Harness Setup Guide
 description: Install and configure Letta Code's 24-skill agent harness for Hermes - persistent memory, MCP-to-skills conversion, self-improving agents, multi-agent orchestration. Built on MemGPT research.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/letta-ai-agent-harness-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

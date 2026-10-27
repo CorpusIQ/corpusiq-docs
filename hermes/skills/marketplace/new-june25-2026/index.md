@@ -3,7 +3,7 @@ title: New June 25, 2026 - 33 GBrain Skills Discovered
 description: 33 newly catalogued GBrain skills from garrytan/gbrain - agent identity, orchestration, quality gates, scheduling, research, and brain management tools for Hermes Agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june25-2026/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

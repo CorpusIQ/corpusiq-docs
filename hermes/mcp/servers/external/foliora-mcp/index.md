@@ -7,7 +7,7 @@ added: 2026-08-27
 source: "chatmcp/mcpso issue #3794"
 relevance: ★★
 tags: [geo, aeo, ai-search, llm-visibility, citations, preview, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Foliora MCP

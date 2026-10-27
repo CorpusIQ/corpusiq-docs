@@ -7,7 +7,7 @@ added: 2026-09-10
 source: "chatmcp/mcpso issue #4011"
 relevance: ★★★
 tags: [energy, permitting, infrastructure, policy, public-data, remote-mcp, keyless]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # WaitingForPower MCP

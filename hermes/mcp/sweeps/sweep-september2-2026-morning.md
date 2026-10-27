@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 2, 2026 (Morning Sweep)"
 description: "Morning cron sweep over chatmcp/mcpso issues #3886-#3891 plus mcpservers.org /all JSON-LD and mcp.so homepage recentServers - 5 new business-relevant MCP servers catalogued with guides, 3 endpoints verified live."
 category: mcp
 tags: [mcp-servers, daily-scan, morning-sweep, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 2, 2026 (Morning Sweep)

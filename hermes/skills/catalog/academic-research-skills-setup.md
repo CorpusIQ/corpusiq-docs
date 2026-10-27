@@ -3,7 +3,7 @@ title: Academic Research Skills - Paper Pipeline for Agents Setup
 description: "imbad0202/academic-research-skills - 4 skills at 26.4K installs: academic-paper, academic-paper-reviewer, deep-research, and academic-pipeline for literature review, paper drafting, review, and research workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/academic-research-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "academic", "deep research"]
 ---
 

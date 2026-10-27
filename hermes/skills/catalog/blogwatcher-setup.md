@@ -4,7 +4,7 @@ description: "Install and configure the blogwatcher-cli skill for RSS/Atom feed 
 category: catalog
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/blogwatcher-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

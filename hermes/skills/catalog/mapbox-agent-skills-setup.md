@@ -3,7 +3,7 @@ title: "Mapbox Agent Skills - Location Development Suite Setup"
 description: "Mapbox Agent Skills: 33.9K combined installs. 20 official skills for web, iOS, Android and Flutter maps, styles, search and token security."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mapbox-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "maps", "geospatial", "location"]
 ---
 

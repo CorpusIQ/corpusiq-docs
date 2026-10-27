@@ -3,7 +3,7 @@ title: "Lighthouse Agentic Browsing: The AI-Readiness Audit Standard"
 description: "How to audit a site for Google's Lighthouse Agentic Browsing category: the four signals (llms.txt, WebMCP, accessibility tree, layout stability), fix patterns, and a repeatable checklist."
 category: best-practices
 tags: [hermes-agent, agentic-browsing, llms-txt, webmcp, lighthouse, accessibility, seo, geo]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/agentic-browsing-audit/"
 robots: "index,follow"
 ---

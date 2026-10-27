@@ -3,7 +3,7 @@ title: "HeroUI Skills - React & React Native UI Component Setup"
 description: "Official HeroUI agent skills: v3 React (Tailwind v4 + React Aria) and Native component libraries plus a v2-to-v3 migration guide. 25.7K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/heroui-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "react", "ui", "heroui", "tailwind"]
 ---
 

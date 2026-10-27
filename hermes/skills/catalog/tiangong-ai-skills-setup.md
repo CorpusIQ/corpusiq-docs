@@ -3,7 +3,7 @@ title: "Tiangong AI Skills - Email & Research Data Fetching Suite"
 description: "tiangong-ai/skills - 58 skills, 9.0K installs: email SMTP send and IMAP fetch, plus a research data-fetching suite over GDELT, regulations.gov, NASA FIRMS, Open-Meteo, EPA AirNow, USGS, Bluesky, YouTube, scientific journals, and Figshare."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tiangong-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "email", "smtp", "imap", "research", "data fetching"]
 ---
 

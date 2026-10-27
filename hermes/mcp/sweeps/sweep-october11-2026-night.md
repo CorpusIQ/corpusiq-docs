@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 11, 2026 (Night Sweep)"
 description: "Night sweep cataloguing Automattic's official WordPress.com MCP server and a manufacturing capability graph with instant quotes."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october11-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

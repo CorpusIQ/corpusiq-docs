@@ -7,7 +7,7 @@ added: 2026-10-09
 source: "mcpservers.org /all (October 9, 2026 evening sweep)"
 relevance: ★★
 tags: [survey-research, conjoint-analysis, market-research, respondent-data, analytics, oauth, read-only, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Conjointly MCP

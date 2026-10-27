@@ -3,7 +3,7 @@ title: Firecrawl Agent - AI-Powered Structured Data Extraction
 description: Autonomous data extraction that navigates complex sites and returns structured JSON. 73.9K+ installs. Use for pricing extraction, product listings, directory scraping, and any multi-page structured data extraction.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

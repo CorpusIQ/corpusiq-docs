@@ -3,7 +3,7 @@ title: "AccessLint Skills - WCAG 2.2 Accessibility Audit Suite Setup"
 description: "Setup guide for AccessLint/skills - the official agent skill set from the AccessLint web-accessibility vendor. 5 skills cover the WCAG 2.2 audit workflow end to end: automated scanning, manual keyboard/screen-reader inspection, WCAG-EM conformance auditing, remediation, and regression diffing. 5.1K+ combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/accesslint-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "accessibility", "a11y", "wcag"]
 ---
 

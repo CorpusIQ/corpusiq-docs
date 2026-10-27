@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + shipwork.io/api-docs"
 relevance: ★★★
 tags: [seo, technical-seo, site-audit, sitemap, canonical, structured-data, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Shipwork SEO Checks

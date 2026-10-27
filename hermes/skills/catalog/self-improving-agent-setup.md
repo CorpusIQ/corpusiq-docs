@@ -3,7 +3,7 @@ title: "Self-Improving Agent - Universal Agent Self-Evolution"
 description: "32.2K+ installs. Multi-memory architecture (semantic + episodic + working) with hooks-based self-correction for AI agents that learn from every interaction"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/self-improving-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: "Digital Marketing Pro - AI Marketing OS Setup"
 description: "Setup guide for indranilbanerjee/digital-marketing-pro - 50-skill open-source AI marketing operating system: SEO, AEO/GEO, paid media, content, CRM."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/digital-marketing-pro-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "seo", "geo", "funnels"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3739"
 relevance: ★★
 tags: [mcp-server, jobs, hiring, labor-market, recruiting, job-search, workforce]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Worklittle Jobs MCP

@@ -3,7 +3,7 @@ title: "Agent Toolkit - 44 Skills for Coding Agents Setup"
 description: "Softaworks Agent Toolkit: 136.7K combined installs. 44 skills for diagrams, writing, QA plans, React, commit hygiene and agent handoffs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-toolkit-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "agent toolkit", "developer tooling", "coding agents"]
 ---
 

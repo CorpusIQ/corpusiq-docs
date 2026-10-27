@@ -3,7 +3,7 @@ title: "React Native Update Skill - OTA Update Integration Setup"
 description: "Setup guide for reactnativecn/react-native-update-skill - host-neutral agent skill for react-native-update OTA integration with Pushy and Cresc (230 installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/react-native-update-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "react native", "ota updates", "mobile"]
 ---
 

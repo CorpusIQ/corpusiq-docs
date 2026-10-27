@@ -3,7 +3,7 @@ title: "CTF Security Skills - Offensive Security Suite Setup"
 description: "ljagiello/ctf-skills - 12 skills, 71.6K installs: reverse engineering, web exploitation, OSINT, forensics, cryptography, and AI/ML challenge skills for security work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ctf-security-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "ctf", "osint"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Hermes Improvement Pipeline - August 2026
 description: "Tools and methodologies that can make Hermes agents faster, smarter, and more reliable. Discovered through proactive GitHub research."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

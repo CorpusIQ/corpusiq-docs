@@ -3,7 +3,7 @@ title: "Flightclaw Skills - Flight Agent Setup"
 description: "Flight search, price tracking, and booking skill for AI agents via the mcp.flightclaw.com MCP server; ~1,082 installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/flightclaw-agents-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "travel", "mcp"]
 ---
 

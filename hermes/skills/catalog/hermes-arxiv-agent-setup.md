@@ -7,7 +7,7 @@ difficulty: Medium
 platforms: [Linux, macOS]
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-arxiv-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

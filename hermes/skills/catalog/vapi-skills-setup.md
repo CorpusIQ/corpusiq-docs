@@ -3,7 +3,7 @@ title: "Vapi Skills - Voice AI Agent Building Setup"
 description: "Setup guide for vapiai/skills - 8.0K combined installs. Official Vapi skills: create assistants, calls, tools, squads, and phone numbers."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vapi-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "voice ai", "voice agents", "mcp"]
 ---
 

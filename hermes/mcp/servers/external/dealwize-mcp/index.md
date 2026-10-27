@@ -7,7 +7,7 @@ added: 2026-09-04
 source: "mcp.so feed"
 relevance: ★★★
 tags: [deal-intelligence, b2b-sales, sales-intelligence, meddic, mutual-action-plans, crm, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Dealwize MCP

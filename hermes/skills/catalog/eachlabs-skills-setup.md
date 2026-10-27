@@ -3,7 +3,7 @@ title: "Eachlabs Skills - Creative Generation Setup"
 description: "Creative generation skills for posters, 3D models, Instagram content, interiors, and more; ~33,828 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/eachlabs-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "creative generation", "design"]
 ---
 

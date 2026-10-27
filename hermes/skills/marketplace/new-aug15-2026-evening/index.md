@@ -3,7 +3,7 @@ title: "New Skills - August 15, 2026 (Evening Sweep)"
 description: "skills.sh evening sweep: Sentry Agent Skills (85.3K, 31), Three.js Agent Skills (80.0K, 10), Emblem Company Agent Skills (78.6K, 9), CTF Security Skills (71.6K, 12), Bright Data Agent Skills (26.9K, 22), plus 6 more clusters - 11 publisher clusters, 111 skills, 11 setup guides."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug15-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-15-evening"
 new_publishers: 11

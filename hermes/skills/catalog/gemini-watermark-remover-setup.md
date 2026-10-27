@@ -3,7 +3,7 @@ title: "Gemini Watermark Remover Skills - Setup Guide"
 description: "Client-side JavaScript tool (5,615⭐, 12.8K installs) that removes Gemini AI image and video watermarks via Reverse Alpha Blending."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gemini-watermark-remover-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "media processing", "javascript"]
 ---
 

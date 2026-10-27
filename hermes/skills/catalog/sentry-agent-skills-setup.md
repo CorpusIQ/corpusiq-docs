@@ -3,7 +3,7 @@ title: "Sentry Agent Skills - Security & Code Review Suite Setup"
 description: "getsentry/skills - 31 skills, 85.3K installs: security review, code simplification, bug finding, PR automation, and GitHub Actions security review from the Sentry team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "code review", "sentry"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-08-13
 source: mcpservers.org
 relevance: ★★★
 tags: [voice-ai, telephony, outbound-calls, sales, campaigns, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # DialNexa MCP

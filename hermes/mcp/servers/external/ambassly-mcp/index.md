@@ -7,7 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3969"
 relevance: ★★★
 tags: [affiliate, referral, commissions, payouts, marketing, remote-mcp, hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Ambassly MCP - Affiliate Program Operations for Agents

@@ -7,7 +7,7 @@ difficulty: Easy
 platforms: [macOS]
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-sessions-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

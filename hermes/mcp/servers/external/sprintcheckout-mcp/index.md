@@ -7,7 +7,7 @@ added: 2026-08-27
 source: "mcpservers.org /all page 1 (docs-sprintcheckout-com-mcp-server)"
 relevance: ★★★
 tags: [payments, payment-links, orders, receipts, usdc, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SprintCheckout MCP

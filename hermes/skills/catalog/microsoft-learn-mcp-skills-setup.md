@@ -3,7 +3,7 @@ title: "Microsoft Learn MCP Skills Setup"
 description: "Official Microsoft Learn MCP skills powering agents with real-time Microsoft docs, code references, and skill creation (~3.7k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-learn-mcp-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "microsoft", "documentation"]
 ---
 

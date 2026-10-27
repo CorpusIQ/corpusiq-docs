@@ -3,7 +3,7 @@ title: OpenCLI Skills - Agent CLI with Browser Automation Setup
 description: "jackwener/opencli - 14 skills at 97.8K installs: opencli-usage, opencli-browser, opencli-autofix, smart-search, opencli-adapter-author, sitemap browsing, explorer, oneshot and operate modes for an agent command line."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opencli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "cli", "browser automation"]
 ---
 

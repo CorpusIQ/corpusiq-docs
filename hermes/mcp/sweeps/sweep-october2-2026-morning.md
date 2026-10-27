@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 2, 2026 (Morning Sweep)"
 description: "Morning MCP ecosystem sweep: 1 new business-relevant server catalogued, covering Facebook and Instagram data tools for agents."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october2-2026-morning"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcp.so server page (openadlibrary)"
 relevance: ★★
 tags: [ads, advertising, creative, marketing, competitive-research, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # OpenAdLibrary MCP

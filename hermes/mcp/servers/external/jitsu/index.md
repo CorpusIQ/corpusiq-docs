@@ -7,7 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3740"
 relevance: ★★★
 tags: [mcp-server, cdp, customer-data, data-pipelines, jitsu, analytics, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Jitsu MCP

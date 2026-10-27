@@ -3,7 +3,7 @@ title: "Better UI Skills - Interface Polish Suite Setup Guide"
 description: "jakubkrehel suite: 310.6K combined installs across three repos - better-ui, typography, colors, accessibility, and make-interfaces-feel-better."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/better-ui-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ui design", "typography", "accessibility", "design polish"]
 ---
 

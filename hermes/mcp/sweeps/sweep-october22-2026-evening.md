@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 22, 2026 (Evening Sweep)"
 description: "Cataloguing Adrails, ad spend read beside Stripe and Shopify revenue behind human approval, plus seventeen submissions dispositioned."
-last_updated: 2026-10-22
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october22-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

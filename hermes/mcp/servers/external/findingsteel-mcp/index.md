@@ -7,7 +7,7 @@ added: 2026-10-16
 source: "chatmcp/mcpso issue #5522 (October 16, 2026 midday sweep)"
 relevance: ★★
 tags: [manufacturing, steel, construction, engineering, reference-data, calculator, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # FindingSteel MCP

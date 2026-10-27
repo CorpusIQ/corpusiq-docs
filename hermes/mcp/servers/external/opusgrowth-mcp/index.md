@@ -7,7 +7,7 @@ created: 2026-07-25
 topics: ads, ppc, marketing, google-ads, linkedin-ads, tiktok-ads, microsoft-advertising
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/opusgrowth-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

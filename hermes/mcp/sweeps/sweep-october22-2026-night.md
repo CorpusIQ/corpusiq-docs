@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 22, 2026 (Night Sweep)"
 description: "Night delta cataloguing three business servers with guides and real tool calls: SEO audits, LATAM hiring compliance, and per-ZIP shelf availability."
-last_updated: 2026-10-22
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october22-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

@@ -7,7 +7,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3646"
 relevance: ★★
 tags: [connectivity, oauth, gateway, slack, salesforce, github, integrations, remote-mcp, productivity]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MCPGRAM MCP

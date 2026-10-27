@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "mcp.so feed (Sep 15 midday, submitted ~5h before the sweep) + mcp.so detail page via the r.jina.ai reader proxy"
 relevance: ★★★
 tags: [banking, psd2, open-banking, bookkeeping, reconciliation, transactions, europe, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Zenith MCP

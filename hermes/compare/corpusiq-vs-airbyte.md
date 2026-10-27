@@ -3,7 +3,7 @@ title: "CorpusIQ vs Airbyte: What Each One Does"
 description: "Airbyte is an open-source ELT platform that moves data from sources to warehouses. CorpusIQ is the layer that gives AI assistants live access to that same data."
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-airbyte/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["airbyte alternative", "elt tools", "data integration", "ai business tools"]
 ---
 

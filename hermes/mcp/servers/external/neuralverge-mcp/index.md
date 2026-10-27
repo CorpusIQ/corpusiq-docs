@@ -7,7 +7,7 @@ added: 2026-09-03
 source: mcpservers.org
 relevance: ★★★
 tags: [sales-intelligence, lead-enrichment, email-finder, linkedin, company-data, prospecting, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # NeuralVerge MCP

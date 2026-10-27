@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 14, 2026 (Night Sweep)"
 description: "Night sweep cataloguing photo-based property maintenance triage - a keyless remote MCP that turns one resident photo into urgency, trade and message."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october14-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

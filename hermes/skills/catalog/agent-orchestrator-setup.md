@@ -3,7 +3,7 @@ title: Agent Orchestrator - Multi-Agent Coordination Setup
 description: "Skills from coreyhaines31/marketingskills at skills.sh - autonomous-skill-orchestrator for multi-agent coordination and task orchestration. 689 github skills related."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-orchestrator-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "orchestration", "multi-agent", "automation"]
 ---
 

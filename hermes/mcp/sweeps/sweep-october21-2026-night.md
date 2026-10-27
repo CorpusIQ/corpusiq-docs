@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 21, 2026 (Night Sweep)"
 description: "Night delta cataloguing four business servers with guides and live probes: a tenant lease audit, real-site video, US postal data and analytics that write."
-last_updated: 2026-10-21
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october21-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

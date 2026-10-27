@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 8, 2026 (Night Sweep)"
 description: "Night sweep over the mcp.so feed (30 server blocks) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 1 new business-relevant server catalogued with a guide: Fluenta MCP, hosted idea validation with Launch Readiness Scores."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 8, 2026 (Night Sweep)

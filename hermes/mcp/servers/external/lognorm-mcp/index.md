@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (lognorm/lognorm-mcp)"
 relevance: ★★★
 tags: [marketing, seo, geo, growth, audit, llms-txt, agent-backlog, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # LogNorm MCP

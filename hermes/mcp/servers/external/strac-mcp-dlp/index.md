@@ -7,7 +7,7 @@ added: 2026-09-03
 source: "mcp.so feed"
 relevance: ★★
 tags: [dlp, data-protection, pii-redaction, compliance, security, stdio, api-key]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Strac MCP DLP

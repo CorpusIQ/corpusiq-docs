@@ -3,7 +3,7 @@ title: "OpenClaw on Android - Full Setup Guide"
 description: "Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

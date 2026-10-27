@@ -3,7 +3,7 @@ title: Design Doc Mermaid Skill - Diagram & Documentation Setup
 description: "spillwavesolutions/design-doc-mermaid - design-doc-mermaid (34.2K installs): Mermaid Architect skill for hierarchical diagrams, decision trees, code-to-diagram workflows, high-contrast styling, and documentation systems."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-doc-mermaid-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "mermaid", "diagrams", "documentation"]
 ---
 

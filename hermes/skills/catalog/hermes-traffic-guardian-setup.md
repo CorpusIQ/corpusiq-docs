@@ -3,7 +3,7 @@ title: "Hermes Traffic Guardian - Runtime Traffic Monitoring"
 description: "42+ installs. Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. Setup guide"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-traffic-guardian-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

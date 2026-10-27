@@ -3,7 +3,7 @@ title: GPT-Image-2 Style Library - Prompt and Style Templates
 description: "freestylefly/awesome-gpt-image-2 - gpt-image-2-style-library skill, 1.5K installs, 14.7K GitHub stars: choose GPT-Image-2 visual styles and industrial prompt templates from a 530+ case reverse-engineered library."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gpt-image-2-style-library-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "image generation", "gpt-image-2", "prompt engineering", "style library"]
 ---
 

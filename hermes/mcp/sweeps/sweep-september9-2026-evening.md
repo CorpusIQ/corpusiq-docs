@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 9, 2026 (Evening Sweep)"
 description: "Evening sweep over the mcp.so feed (30 server blocks) and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 8 new business-relevant servers catalogued with guides: AgentLedger (agent spend management), Vibe Prospecting (Explorium B2B data), Wafeq (accounting books), Agent Watch (endpoint monitoring), Ultralayer (market intelligence), TrustScan (MCP security scanning), Yandex Metrika (web analytics) and Site Passport (AI-agent readiness checks)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 9, 2026 (Evening Sweep)

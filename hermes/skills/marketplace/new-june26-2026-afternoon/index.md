@@ -3,7 +3,7 @@ title: "June 26, 2026 (Afternoon) - Agenthood 14-Agent Team"
 description: 38 newly catalogued skills - Agenthood's full AI engineering team (14 specialized agent roles) and Letta Code's complete 24-skill agent harness. Multi-agent architecture, memory systems, and self-improving agent infrastructure.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june26-2026-afternoon/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

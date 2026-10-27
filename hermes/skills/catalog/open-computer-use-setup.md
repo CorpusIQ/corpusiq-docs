@@ -3,7 +3,7 @@ title: "Open Computer Use Skills - Codex Alternative Setup"
 description: "Open Computer Use - an open-source alternative to Codex Computer Use, published by ifuryst with 2,278⭐ and ~1,432 installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/open-computer-use-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "computer use", "automation"]
 ---
 

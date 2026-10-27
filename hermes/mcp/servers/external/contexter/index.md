@@ -7,7 +7,7 @@ added: 2026-08-29
 source: "mcp.so GitHub issue #3812"
 relevance: ★★
 tags: [mcp-server, collaboration, knowledge, context-sharing, telegram, productivity, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Contexter MCP

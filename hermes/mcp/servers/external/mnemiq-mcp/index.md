@@ -7,7 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★★
 tags: [text-to-sql, business-intelligence, sql, database, analytics, self-hosted, open-source]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # mnemiq MCP

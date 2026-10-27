@@ -3,7 +3,7 @@ title: Monitoring Expert - Setup Guide for Hermes Agents
 description: "Configure monitoring systems, implement observability pipelines, create dashboards - 3.9K+ installs. Source: jeffallan/claude-skills (Community)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/monitoring-expert-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

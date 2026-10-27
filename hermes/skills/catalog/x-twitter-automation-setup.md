@@ -3,7 +3,7 @@ title: X/Twitter Automation Setup Guide
 description: Design safe X/Twitter automation workflows for tweet search, reply reads, monitoring, posting, and agent-operated social media actions. From cosmicstack-labs/mercury-agent-skills (364⭐).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/x-twitter-automation-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -3,7 +3,7 @@ title: "Appllama Skills - Mobile App Design Patterns Setup"
 description: "Setup guide for appllama/appllama-skills - 7.6K combined installs. Skills that turn top-grossing app patterns into native-quality screens."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/appllama-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "mobile app design", "ui patterns"]
 ---
 

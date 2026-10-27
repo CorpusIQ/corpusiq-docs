@@ -3,7 +3,7 @@ title: Sentry Dev Skill - Official Sentry CLI Setup Guide
 description: "sentry/dev - the official Sentry skill: sentry-cli (127.3K installs). Error monitoring, release management, sourcemap uploads, event querying, and project administration from the agent via the Sentry CLI."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-dev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "sentry", "error monitoring", "observability"]
 ---
 

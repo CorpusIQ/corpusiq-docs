@@ -3,7 +3,7 @@ title: Stably Orca - Agent Orchestration CLI Setup Guide
 description: "Install stablyai/orca (317.5K combined installs) - 15 skills for the Orca agent orchestration CLI: orca-cli (125K), orchestration (104.2K), computer-use (77.3K), Linear integration, emulators, and auto PR workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stablyai-orca-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

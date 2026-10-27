@@ -7,7 +7,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3640"
 relevance: ★★
 tags: [ai-models, model-catalog, api-bridge, cost-tracking, dev-tools, npm, local-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SandBase CLI

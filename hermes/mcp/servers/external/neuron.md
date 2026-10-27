@@ -3,7 +3,7 @@ title: "Neuron MCP Server - CorpusIQ Docs"
 description: "Neuron MCP server integration guide for Hermes. Connect autonomous AI agents to enterprise data sources through the Neuron protocol - reference setup"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/neuron/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

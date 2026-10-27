@@ -3,7 +3,7 @@ title: "Angular Skills - Framework Development Setup"
 description: "angular/skills - 2 skills, 40.1K installs: version-aware Angular code generation and new-project scaffolding from the Angular team."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/angular-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "angular", "frontend"]
 ---
 

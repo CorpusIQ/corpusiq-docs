@@ -3,7 +3,7 @@ title: "HTML Pub MCP - Integration Guide"
 description: "Publish AI-generated HTML to live pages on your own domain. MCP server by Leadpages. Remote endpoint: https://mcp.htmlpub.com/mcp."
 category: mcp
 tags: [mcp-server, content-publishing, html, leadpages, cms]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/htmlpub-mcp/"
 robots: "index,follow"
 

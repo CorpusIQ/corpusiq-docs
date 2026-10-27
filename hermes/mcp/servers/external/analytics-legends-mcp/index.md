@@ -7,7 +7,7 @@ added: 2026-08-20
 source: "mcp.so GitHub issue #3651"
 relevance: ★★
 tags: [sap, market-intelligence, consulting-rates, research, business-intelligence, remote-mcp, day-rates, sap-analytics-cloud]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Analytics Legends MCP

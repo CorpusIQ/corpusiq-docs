@@ -7,7 +7,7 @@ added: 2026-08-21
 source: "mcp.so GitHub issue #3675"
 relevance: ★★
 tags: [conversion, cro, website, lead-capture, ai-agent, provisioning, marketing, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ClaraConverts MCP

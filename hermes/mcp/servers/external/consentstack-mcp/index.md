@@ -7,7 +7,7 @@ added: 2026-08-31
 source: "mcpservers.org homepage latest (Aug 31, 2026 evening sweep)"
 relevance: ★★★
 tags: [mcp-server, consent-management, gdpr, ccpa, privacy, compliance, cookies, remote]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ConsentStack MCP

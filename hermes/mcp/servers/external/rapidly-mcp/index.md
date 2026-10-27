@@ -7,7 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3756"
 relevance: ★★
 tags: [mcp-server, lean-canvas, pretotyping, validation, strategy, product]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Rapidly MCP

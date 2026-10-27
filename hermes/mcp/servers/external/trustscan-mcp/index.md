@@ -7,7 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★
 tags: [mcp-security, prompt-injection, supply-chain-security, vulnerability-scanning, ai-security, code-scanning, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # TrustScan MCP

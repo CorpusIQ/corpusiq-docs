@@ -7,7 +7,7 @@ added: 2026-09-11
 source: mcp.so feed
 relevance: ★★
 tags: [sms, texting, business-communication, marketing, notifications, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Mobile Text Alerts MCP

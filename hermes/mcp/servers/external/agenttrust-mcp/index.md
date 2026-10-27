@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (getagenttrust-com)"
 relevance: ★★
 tags: [agent-trust, security, reliability, a2a, agent-registry, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AgentTrust MCP

@@ -3,7 +3,7 @@ title: "New Skills - October 4, 2026"
 description: "Skills.sh sweep for October 4, 2026: 733 skills collected, 15 NEW, 1 new publisher guide (CrewAI Skills - official agent design suite, ~29.7K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct4-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace"]
 ---
 

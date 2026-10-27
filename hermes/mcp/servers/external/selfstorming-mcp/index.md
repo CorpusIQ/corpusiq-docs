@@ -7,7 +7,7 @@ added: 2026-09-28
 source: "mcp.so server page (selfstorming.com)"
 relevance: ★★★
 tags: [marketing, campaign-research, ideation, copywriting, brand-strategy, remote-mcp, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Selfstorming MCP

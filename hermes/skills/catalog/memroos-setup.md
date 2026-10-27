@@ -3,7 +3,7 @@ title: "MemroOS - Memory OS & Governance Layer for AI Agents"
 description: "Deploy MemroOS for agent memory, governance, and context continuity across Hermes, OpenClaw, and Codex sessions."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/memroos-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -7,7 +7,7 @@ added: 2026-10-12
 source: "chatmcp/mcpso issue #5215 (Oct 12, 2026 evening sweep)"
 relevance: ★★
 tags: [real-estate, property-data, owners, llc, foreclosure, mortgages, investor-leads, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Hercules MCP

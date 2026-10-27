@@ -3,7 +3,7 @@ title: "Anatomy Skill - Isometric SVG Explainer Setup"
 description: "Anatomy: 19.4K combined installs. One skill that builds interactive isometric SVG figures that explain a technical idea as a working machine."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/anatomy-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "isometric", "svg", "technical illustration"]
 ---
 

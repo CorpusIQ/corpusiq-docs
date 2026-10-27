@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 21, 2026 (Midday Sweep)"
 description: "Midday delta cataloguing four business servers with guides and live probes: BOM pricing, live AIS, creator payouts and real participant research."
-last_updated: 2026-10-21
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october21-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

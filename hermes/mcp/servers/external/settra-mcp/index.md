@@ -7,7 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★
 tags: [postgresql, semantic-layer, data-governance, google-sheets, bi, dlt, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Settra MCP - Governed Tabular Data for AI Agents

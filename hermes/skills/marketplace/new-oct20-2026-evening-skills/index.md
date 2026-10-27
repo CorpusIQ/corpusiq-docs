@@ -3,7 +3,7 @@ title: "New Skills - October 20, 2026 (Evening)"
 description: "Skills.sh sweep (Oct 20 evening): 887 skills checked; 1 new publisher guide - TestDino Playwright Skills (8.7K combined, 79 Playwright 1.64 guides across seven packs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct20-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-20"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

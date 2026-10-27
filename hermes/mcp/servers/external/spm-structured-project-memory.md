@@ -3,7 +3,7 @@ title: "SPM - Structured Project Memory MCP for Agent Governance"
 description: "Project-scoped memory for AI agents with context packs, provenance tracking, and access control. Delivered as a remote MCP connector - agents get auditable"
 category: mcp
 tags: [mcp-server, agent-memory, project-memory, governance, context-packs, provenance, agent-infrastructure]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/spm-structured-project-memory/"
 robots: "index,follow"
 

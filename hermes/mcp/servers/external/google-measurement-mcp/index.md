@@ -7,7 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [ga4, search-console, tag-manager, analytics, google, oauth, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Google Measurement MCP - GA4, Search Console and Tag Manager

@@ -7,7 +7,7 @@ added: 2026-10-20
 source: "mcpservers.org /all page 2 via the r.jina.ai reader proxy (zhuyansen/new-term-radar)"
 relevance: ★★★
 tags: [seo, keyword-research, trend-detection, ai-search, github, huggingface, reddit, mcp-server, python]
-last_updated: "2026-10-20"
+last_updated: "2026-10-24"
 ---
 
 # New Term Radar MCP

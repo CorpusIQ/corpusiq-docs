@@ -3,7 +3,7 @@ title: "Ghost Security Skills - AppSec Agent Plugin Setup"
 description: "Setup guide for ghostsecurity/skills - 28.0K combined installs. AppSec plugin suite: secret, dependency, and code scanning inside the agent workflow."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ghostsecurity-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "appsec", "security scanning", "devsecops"]
 ---
 

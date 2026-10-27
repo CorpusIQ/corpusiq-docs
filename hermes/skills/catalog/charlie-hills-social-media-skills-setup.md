@@ -3,7 +3,7 @@ title: Charlie Hills Social Media Skills - 17-Skill Content System
 description: "charlie947/social-media-skills - the complete 17-skill content system behind Charlie Hills' 415K-follower operation: voice-builder foundation, LinkedIn posts, carousels, hook generation, post scoring, Reels scripting, thumbnails. 17.2K skills.sh installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "social media", "content system", "linkedin", "brand voice"]
 ---
 

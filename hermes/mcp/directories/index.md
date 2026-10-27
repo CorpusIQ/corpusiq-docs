@@ -1,7 +1,7 @@
 ---
 title: "MCP Directories - CorpusIQ Docs"
 description: "Directory submission guidance for MCP servers: where to list, how to get approved, and listing best practices."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MCP Directories

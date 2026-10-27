@@ -3,7 +3,7 @@ title: Blacktwist Social Media Skills - 14-Skill Content Suite
 description: "blacktwist/social-media-skills - 14 Agent Skills for social media content strategy, creation, and analysis across LinkedIn, X, Threads, Bluesky, Instagram, TikTok, and more. 21.4K skills.sh installs, all security audits pass."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "social media", "content strategy", "linkedin", "twitter"]
 ---
 

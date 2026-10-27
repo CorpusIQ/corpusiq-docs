@@ -3,7 +3,7 @@ title: "New Skills - October 7, 2026 (Evening)"
 description: "Skills.sh sweep (Oct 7 evening): 441 skills checked; 1 new publisher guide - Callstack Agent Skills (official React Native suite, ~80.7K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct7-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

@@ -3,7 +3,7 @@ title: Intellectronica - 22-Skill Agent Toolkit for Hermes
 description: Versatile agent skills collection covering Notion API, YouTube transcripts, Anki flashcards, Context7 docs lookup, Tavily search, Copilot SDK, Mermaid diagrams, Todoist tasks, Google Workspace (gog CLI), Upstash Redis, and more. 63.1K+ combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/intellectronica-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

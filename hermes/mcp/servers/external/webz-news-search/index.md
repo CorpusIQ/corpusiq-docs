@@ -7,7 +7,7 @@ added: 2026-08-21
 source: "mcpservers.org /all (Aug 21 overnight sweep)"
 relevance: ★★
 tags: [news, media-monitoring, market-research, current-events, remote-mcp, sentiment, journalism, brand-monitoring]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Webz.io News Search MCP

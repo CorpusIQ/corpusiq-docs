@@ -3,7 +3,7 @@ title: "CorpusIQ vs Fivetran: What Each One Does"
 description: "Fivetran is a managed data integration platform that automates pipelines into warehouses. CorpusIQ is the layer that gives AI assistants live access to that same data."
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-fivetran/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["fivetran alternative", "elt tools", "data integration", "ai business tools"]
 ---
 

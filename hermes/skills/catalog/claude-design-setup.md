@@ -3,7 +3,7 @@ title: "claude-design - Setup Guide - CorpusIQ Docs"
 description: Apply Claude/Apple design philosophy to any project - interface design, fluid physics, and animation principles for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-design-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

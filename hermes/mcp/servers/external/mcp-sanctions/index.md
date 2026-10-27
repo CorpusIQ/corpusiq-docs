@@ -7,7 +7,7 @@ added: 2026-09-02
 source: "mcp.so GitHub issue #3896"
 relevance: ★★★
 tags: [sanctions, watchlist, aml, kyc, ofac, compliance]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # mcp-sanctions - Watchlist Screening for KYC and AML

@@ -7,7 +7,7 @@ added: 2026-08-13
 source: mcpservers.org
 relevance: ★★
 tags: [procurement, tenders, government-contracts, eu, apify, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # TED Tender Monitor

@@ -7,7 +7,7 @@ added: 2026-09-14
 source: "mcpservers.org /all page 1 (Sep 14 evening crawl) + repo docs at github.com/gethelio/helio"
 relevance: ★★★
 tags: [governance, security, policy, audit, approval, spend-limits, mcp-proxy, open-source, apache-2, agent-infrastructure]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Helio MCP

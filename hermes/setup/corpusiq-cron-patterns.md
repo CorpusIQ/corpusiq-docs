@@ -3,7 +3,7 @@ title: "Running CorpusIQ Cron Jobs - Autonomous Business"
 description: "Patterns for running CorpusIQ cron jobs with Hermes Agent - daily KPI reports, AR aging alerts, anomaly detection, and multi-client agency reporting."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-cron-patterns/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

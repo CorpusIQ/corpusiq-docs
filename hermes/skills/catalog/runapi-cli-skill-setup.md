@@ -7,7 +7,7 @@ maturity: beta
 source: https://github.com/runapi-ai/cli-skill
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/runapi-cli-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

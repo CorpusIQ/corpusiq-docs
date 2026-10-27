@@ -3,7 +3,7 @@ title: Hermes Agent v0.18.1 - Infrastructure Patch
 description: Stable tagged release rolling up ~660 PRs merged since v0.18.0. Bug fixes, hardening, and in-progress feature work for Docker images, hosted deployments, and PyPI installs. July 7, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.1/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

@@ -3,7 +3,7 @@ title: "Compound Engineering Plugin - Every Inc Workflow Suite Setup"
 description: "Setup guide for everyinc/compound-engineering-plugin - 124.2K combined installs. Every Inc's compound engineering workflow suite for coding agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/compound-engineering-plugin-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "agent engineering", "development workflow", "code review"]
 ---
 

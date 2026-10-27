@@ -3,7 +3,7 @@ title: "Hermes Agent Helm Chart - Kubernetes Deployment"
 description: "Deploy Hermes Agent on Kubernetes using the community Helm chart with persistence, ingress, and auto-scaling."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-helm-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

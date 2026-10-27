@@ -3,7 +3,7 @@ title: "Buzz Skills - Hermes Agent on Nostr via Block's Buzz Setup"
 description: "tonbistudio/buzz-skills - 3 skills, 250 GitHub stars: connect a Hermes Agent to the Buzz messaging community (block/buzz, Nostr-based) as a native agent with NIP-OA attestation, deliver local media as native Buzz attachments, and self-host a Buzz relay."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/buzz-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "buzz", "nostr", "messaging gateway", "self-hosting", "media delivery"]
 ---
 

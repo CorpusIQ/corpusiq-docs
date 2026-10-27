@@ -1,7 +1,7 @@
 ---
 title: "MCP Server for Business Data - CorpusIQ Docs"
 description: "A practical guide to using Model Context Protocol (MCP) servers for business data access, and how CorpusIQ fits.."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP Server for Business Data
 

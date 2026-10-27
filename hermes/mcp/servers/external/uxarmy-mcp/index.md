@@ -7,7 +7,7 @@ added: 2026-10-21
 source: "mcpservers.org /all page 1 (card uxarmy-com-mcp-server)"
 relevance: ★★★
 tags: [user-research, usability-testing, surveys, participant-recruitment, product-management, voice-of-customer, remote-mcp]
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 ---
 
 # UXArmy MCP

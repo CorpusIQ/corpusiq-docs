@@ -3,7 +3,7 @@ title: "Agent Governance - CorpusIQ Docs"
 description: Production governance for autonomous agents  --  system registry, email ops, cron management, monitoring
 canonical: "https://www.corpusiq.io/docs/hermes/governance/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

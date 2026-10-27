@@ -3,7 +3,7 @@ title: Finance Skills - Financial Analysis for Hermes Agents
 description: Collection of financial analysis skills (yfinance, stock correlation, options, generative UI) with 8.6K+ combined installs. Enables Hermes agents to fetch market data, analyze stocks, and generate financial visualizations for business operators.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/finance-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

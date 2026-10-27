@@ -3,7 +3,7 @@ title: "June 27, 2026 - Skills Gallery (1,672"
 description: "9 newly discovered Hermes Agent repos - Skills Gallery mega-collection (1,672+ skills across 49 categories), Agent-to-Agent Protocol bridge, autonomy flight"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june27-2026/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

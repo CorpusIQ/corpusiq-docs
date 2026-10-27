@@ -3,7 +3,7 @@ title: "Datadog Agent Skills Setup Guide"
 description: "Install and configure Datadog agent skills for monitoring, logging, APM, LLM observability, and audit - 20+ skills, ~12K installs"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/datadog-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

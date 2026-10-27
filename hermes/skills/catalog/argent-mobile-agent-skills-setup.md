@@ -3,7 +3,7 @@ title: Argent Skills - Mobile Dev Agent Toolkit Setup
 description: "software-mansion/argent - 20 skills, 154.0K installs: Android emulator and iOS simulator setup, React Native workflows, device interaction, profilers, screenshot diffing, and QA flows from the creators of react-native-reanimated."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/argent-mobile-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "react-native", "mobile development", "emulator", "simulator", "qa"]
 ---
 

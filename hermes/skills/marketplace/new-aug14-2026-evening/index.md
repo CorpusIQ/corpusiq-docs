@@ -3,7 +3,7 @@ title: "New Skills - August 14, 2026 (Evening)"
 description: "skills.sh evening sweep - 8 new publisher clusters with setup guides: Flutter Agent Plugins (538.2K, official), ECC Engineering Suite (466.2K, 292 skills), Sentry CLI (127.3K, official), Awesome LLM Apps (79.7K), Pexo Video (62.5K), SEOJuice (51.8K), Better UI (51.3K), CodeRabbit (15.9K, official)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug14-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill marketplace", "skills.sh"]
 sweep_id: aug-14-2026-evening
 new_publishers: 8

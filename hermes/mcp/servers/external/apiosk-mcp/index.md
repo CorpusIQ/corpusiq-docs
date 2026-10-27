@@ -9,7 +9,7 @@ rating: ★★
 status: active
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/apiosk-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

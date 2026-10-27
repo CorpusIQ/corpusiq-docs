@@ -7,7 +7,7 @@ added: 2026-10-12
 source: "chatmcp/mcpso issue #5218 (Oct 12, 2026 evening sweep)"
 relevance: ★★
 tags: [compliance, frameworks, iso-27001, nist, pci-dss, crosswalk, controls, audit, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # The Art of Service Compliance Intelligence MCP

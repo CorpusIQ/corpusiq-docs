@@ -3,7 +3,7 @@ title: "cantinaxyz/clawdstrike - Agent Red-Team Security Testing"
 description: "Complete setup guide for clawdstrike: automated vulnerability scanning and security testing for Hermes/OpenClaw agent deployments."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdstrike-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

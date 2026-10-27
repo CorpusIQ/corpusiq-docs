@@ -7,7 +7,7 @@ added: 2026-10-21
 source: "mcpservers.org /all page 1 (card aistrail-com-docs-mcp)"
 relevance: ★★★
 tags: [maritime, ais, vessel-tracking, port-calls, sanctions-screening, supply-chain, trade-compliance, remote-mcp]
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 ---
 
 # AIS Trail MCP

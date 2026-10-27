@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 8, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing sourced competitor teardowns and an official LinkedIn data API for people, company, job and post lookups."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october8-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]

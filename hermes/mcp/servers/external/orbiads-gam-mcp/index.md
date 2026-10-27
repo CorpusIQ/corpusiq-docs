@@ -7,7 +7,7 @@ language: Python
 transport: Streamable HTTP (hosted)
 auth: OAuth 2.0 (Google Ad Manager)
 category: Marketing/AdTech
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/orbiads-gam-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

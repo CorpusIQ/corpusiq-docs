@@ -7,7 +7,7 @@ added: 2026-09-30
 source: "mcpservers.org server page (adviserry.com)"
 relevance: ★★
 tags: [research, newsletters, knowledge-base, bearer-token, read-write, sso-free, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Adviserry MCP

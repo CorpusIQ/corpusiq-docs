@@ -7,7 +7,7 @@ added: 2026-09-03
 source: "mcpservers.org /all listing (buska-io/buska-mcp)"
 relevance: ★★★
 tags: [social-listening, lead-generation, buying-signals, sales, outreach]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Buska MCP - Social Listening and Buying Signals for AI Agents

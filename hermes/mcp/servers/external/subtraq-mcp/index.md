@@ -7,7 +7,7 @@ added: 2026-10-06
 source: "chatmcp/mcpso issue #4798"
 relevance: ★★
 tags: [marketing, attribution, links, utm, analytics, ecommerce, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Subtraq MCP

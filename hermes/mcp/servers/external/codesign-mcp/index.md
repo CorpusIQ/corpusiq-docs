@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "mcp.so feed (Sep 15 midday) + mcp.so detail page + vendor overview at img.ly (CE.SDK)"
 relevance: ★★
 tags: [design, graphics, brand-kit, templates, batch-automation, pdf, print-ready, stdio]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # CoDesign MCP

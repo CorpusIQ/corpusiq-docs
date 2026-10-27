@@ -6,7 +6,7 @@ stars: 0
 language: TypeScript
 transport: stdio
 category: Knowledge & Memory
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ai-footprints-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

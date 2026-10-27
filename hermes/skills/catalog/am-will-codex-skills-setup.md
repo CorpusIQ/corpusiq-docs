@@ -3,7 +3,7 @@ title: "CodexSkills - Agent Orchestration Skills Setup"
 description: "Setup guide for am-will/codex-skills - 20.2K combined installs. 19 skills: planners, parallel task runners, docs access, and frontend design."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/am-will-codex-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "agent orchestration", "codex", "parallel agents"]
 ---
 

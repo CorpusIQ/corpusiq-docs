@@ -7,7 +7,7 @@ added: 2026-08-16
 source: mcpservers.org
 relevance: ★★
 tags: [legal, research, compliance, contracts, case-law, citations]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Legalcode MCP

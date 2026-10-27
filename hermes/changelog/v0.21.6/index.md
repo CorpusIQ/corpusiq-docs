@@ -3,7 +3,7 @@ title: Hermes Agent v0.21.6 Patch Release
 description: Hermes Agent v0.21.6 patch release - 2,106 PRs, first cut from the new stable pipeline, plus auth and sender hardening.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.6/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 ---
 

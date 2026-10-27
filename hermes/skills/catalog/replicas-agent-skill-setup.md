@@ -3,7 +3,7 @@ title: Replicas Agent Skill - Cloud Workspace Coding Agent Setup
 description: "replicas-group/skill - replicas-agent (34.7K installs): background coding agent guide for Replicas cloud workspaces with previews, Slack, Linear, GitHub, Google Workspace, Docker, and media sharing integrations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/replicas-agent-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "cloud workspace", "coding agent"]
 ---
 

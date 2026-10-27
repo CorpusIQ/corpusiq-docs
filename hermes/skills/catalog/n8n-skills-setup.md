@@ -3,7 +3,7 @@ title: "n8n Skills - Workflow Automation for Business"
 description: "n8n automation skills - czlonkowski/n8n-skills (15 skills, 48.4K installs) plus the official n8n-io/skills (14 skills). Workflow patterns, node configuration, MCP tool integration, JavaScript/Python code nodes, subworkflows, self-hosting, error handling for agents building n8n automations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/n8n-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "n8n", "workflow automation", "business operations"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★
 tags: [email, mailboxes, allowlist, consent, retention, hermes, openclaw, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AssistantMail MCP - Managed Mailboxes for AI Agents

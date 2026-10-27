@@ -7,7 +7,7 @@ added: 2026-08-25
 source: mcp.so homepage
 relevance: ★★★
 tags: [mcp-server, healthcare, providers, market-sizing, clinical-trials, life-sciences]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Alpha Sophia MCP

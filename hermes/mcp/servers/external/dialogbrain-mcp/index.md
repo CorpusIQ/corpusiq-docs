@@ -7,7 +7,7 @@ added: 2026-10-16
 source: "chatmcp/mcpso issue #5515 (October 16, 2026 midday sweep)"
 relevance: ★★★
 tags: [customer-inbox, whatsapp, telegram, instagram, email, sms, calls, crm, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # DialogBrain MCP

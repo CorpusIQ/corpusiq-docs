@@ -7,7 +7,7 @@ added: 2026-08-21
 source: "mcp.so GitHub issue #3670"
 relevance: ★★
 tags: [rss, news-monitoring, semantic-search, research, opml, digests, hosted-mcp, competitive-intel, feeds]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Newsmind MCP

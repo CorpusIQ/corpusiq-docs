@@ -7,7 +7,7 @@ added: 2026-09-12
 source: "chatmcp/mcpso #4083 + vendor page instantreply.co/mcp + npm @instantreply.co/mcp"
 relevance: ★★
 tags: [instagram, whatsapp, messenger, inbox, customer-support, sales, npm]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # InstantReply MCP

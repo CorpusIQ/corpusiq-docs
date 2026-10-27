@@ -3,7 +3,7 @@ title: "New Hermes Skill Repo - CorpusIQ Docs"
 description: "12 newly discovered Hermes Agent skills from aawobdev/hermes-skills  --  a complete multi-agent blueprint orchestration system: Architect, Developer"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june22-2026-late/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

@@ -7,7 +7,7 @@ added: 2026-09-30
 source: "mcp.so server page (oceanalt.com)"
 relevance: ★★
 tags: [compliance, aml, sanctions, payments, risk-screening, evidence, crypto, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # OceanAlt AML MCP

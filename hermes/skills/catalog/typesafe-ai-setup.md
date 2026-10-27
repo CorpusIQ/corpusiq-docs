@@ -3,7 +3,7 @@ title: "TypeSafe AI Skills - Typed AI Judgments Setup"
 description: "Setup guide for the official TypeSafe skill: build with System One models that turn natural language into typed judgments and probabilities for code."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/typesafe-ai-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "typesafe", "structured decisions", "ai infrastructure"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-10-22
 source: "chatmcp/mcpso issue #5925 (CNC Compass, October 22, 2026 midday sweep)"
 relevance: ★★
 tags: [sourcing, manufacturing, cnc-machining, suppliers, procurement, china-suppliers, remote-mcp, keyless]
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 ---
 
 # CNC Compass MCP

@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 12, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing US parcel and zoning due-diligence data, rental turnover and deposit settlement, and ISO 20022 payment code reference servers."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october12-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

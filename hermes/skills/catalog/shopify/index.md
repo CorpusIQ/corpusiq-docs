@@ -3,7 +3,7 @@ title: "Hermes Shopify Skills - CorpusIQ Docs"
 description: "Hermes Agent skills for Shopify. 6 skills with install commands, triggers, and setup steps for each."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

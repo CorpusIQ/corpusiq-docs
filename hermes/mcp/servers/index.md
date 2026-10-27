@@ -3,7 +3,7 @@ title: "MCP Server Guides - CorpusIQ Docs"
 description: Integration guides for 40+ MCP servers connected to CorpusIQ  --  GA4, Stripe, Shopify, QuickBooks, and more
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

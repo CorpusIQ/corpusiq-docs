@@ -3,7 +3,7 @@ title: "WordPress Agent Skills - Official WP Development Setup"
 description: "Setup guide for wordpress/agent-skills - 17.7K combined installs. Official WordPress skills for Playground, blueprints, and plugin development."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wordpress-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "wordpress", "gutenberg", "plugin development"]
 ---
 

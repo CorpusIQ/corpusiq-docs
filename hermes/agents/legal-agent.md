@@ -8,7 +8,7 @@ tags:
   - compliance-monitoring
   - regulatory-tracking
   - ai-legal-assistant
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/agents/legal-agent/"
 robots: "index,follow"
 

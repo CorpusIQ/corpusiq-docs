@@ -7,7 +7,7 @@ added: 2026-08-15
 source: mcpservers.org
 relevance: ★★
 tags: [tamper-evident-logging, audit-trail, eu-ai-act, hash-chain, agent-governance, compliance, artifact-binding, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Arcaeon Ledger MCP

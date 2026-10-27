@@ -7,7 +7,7 @@ added: 2026-08-31
 source: "mcpservers.org /all (newest-first page, Aug 31 midday sweep)"
 relevance: ★★★
 tags: [mcp-server, sec, edgar, filings, finance, research, apify]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SEC EDGAR Full-Text Search MCP

@@ -3,7 +3,7 @@ title: "DashaMail MCP"
 description: "DashaMail email marketing MCP for AI agents."
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dashamail-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: [mcp server, model context protocol, hermes mcp, email, marketing]
 ---
 # DashaMail MCP

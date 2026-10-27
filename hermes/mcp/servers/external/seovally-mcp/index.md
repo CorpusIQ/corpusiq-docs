@@ -7,7 +7,7 @@ added: 2026-09-10
 source: mcpservers.org /all via r.jina.ai
 relevance: ★★★
 tags: [seo, ai-search, audits, domain-comparison, technical-seo, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SEOVally MCP

@@ -7,7 +7,7 @@ added: 2026-08-18
 source: mcp.so GitHub issues
 relevance: ★★
 tags: [gitlab, devops, merge-requests, issues, pipelines, project-management, self-hosted, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # GitLab MCP (zereight/gitlab-mcp)

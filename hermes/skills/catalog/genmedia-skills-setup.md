@@ -3,7 +3,7 @@ title: "GenMedia Skills - AI Media Generation Cluster Setup"
 description: Install the genmedia-labs/skills cluster (42.5K installs) - video-edit, ai-music, ai-video-generation, ai-image-generation, image-to-video plus 25 model-specific generation skills (FLUX, Kling, GPT Image, Seedance, Wan, Nano Banana).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/genmedia-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

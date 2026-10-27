@@ -7,7 +7,7 @@ added: 2026-09-02
 source: mcp.so
 relevance: ★★★
 tags: [stocks, korea, sec-edgar, screeners, backtesting, fred, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # FinBridge MCP

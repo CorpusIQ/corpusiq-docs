@@ -7,7 +7,7 @@ added: 2026-08-29
 source: "mcp.so GitHub issue #3816"
 relevance: ★★
 tags: [mcp-server, automation, workflow, no-code, ai-agents, integration, productivity, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # NoClick MCP

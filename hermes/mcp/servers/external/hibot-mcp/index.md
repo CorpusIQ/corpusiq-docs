@@ -7,7 +7,7 @@ added: 2026-09-03
 source: mcp.so
 relevance: ★★★
 tags: [aeo, ai-visibility, brand-monitoring, answer-engines, marketing, analytics, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # HiBot MCP

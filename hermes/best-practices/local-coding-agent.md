@@ -3,7 +3,7 @@ title: "Run a Local Coding Agent: OpenCode + Nemotron on GPU"
 description: "Set up opencode as a free local coding agent: Nemotron served by vLLM, sandbox discipline, and the directory-pinning gotcha that saves your repos."
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["local llm", "coding agent", "opencode", "vllm", "dgx spark"]
 ---
 

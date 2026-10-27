@@ -3,7 +3,7 @@ title: "Nexscope E-Commerce Skills - Shopify, Etsy, TikTok"
 description: "nexscope-ai/ecommerce-skills - 121 skills, 126.1K installs. Cross-border e-commerce (62.2K), Shopify marketing/dropshipping, Etsy SEO, TikTok Shop research, eBay/Walmart/Amazon brand protection, PPC planning, email marketing for agents serving e-commerce operators."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nexscope-ecommerce-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ecommerce", "shopify", "etsy", "tiktok shop", "growth"]
 ---
 

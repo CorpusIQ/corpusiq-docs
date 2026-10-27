@@ -7,7 +7,7 @@ added: 2026-09-14
 source: "mcp.so feed (Sep 14 evening, submitted 7h before sweep) + vendor docs at mcp.so/clients/prism"
 relevance: ★★★
 tags: [contracts, legal, deadlines, lease, mortgage, insurance, hoa, document-intelligence, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Prism MCP

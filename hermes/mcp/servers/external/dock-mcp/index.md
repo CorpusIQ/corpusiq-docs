@@ -7,7 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (try-dock-ai/mcp)"
 relevance: ★★★
 tags: [workspace, docs, tables, collaboration, agents, project-management, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Dock MCP

@@ -7,7 +7,7 @@ added: 2026-08-30
 source: "mcpservers.org /all pages 1-3 (Aug 30 night sweep; deferred as catch-up Aug 29 midday)"
 relevance: ★★
 tags: [mcp-server, market-data, real-estate, hospitality, hiring, ecommerce, serp, scraping, api-key]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # HasData MCP

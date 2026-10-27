@@ -3,7 +3,7 @@ title: ClawPilot Ecosystem  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the ClawPilot ecosystem (clawpilot, clawpilot-pair, clawpilot-send, clawpilot-config, clawpilot-doctor) to connect PocketClaw mobile app to Hermes Agent hosts.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawpilot-ecosystem-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

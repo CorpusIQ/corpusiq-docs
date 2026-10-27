@@ -7,7 +7,7 @@ added: 2026-09-29
 source: mcpservers.org
 relevance: ★★★
 tags: [rag, grounding, evaluation, verification, ci-cd, document-qa, hallucination, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # OpenGATE MCP

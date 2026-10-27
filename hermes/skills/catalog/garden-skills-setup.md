@@ -3,7 +3,7 @@ title: "Garden Skills - ConardLi's Web Video & Design Suite Setup"
 description: "Setup guide for conardli/garden-skills: 5 agent skills for web video, web design, image generation, and article design - 26.3K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/garden-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "web design", "video presentation", "image generation", "content production"]
 ---
 

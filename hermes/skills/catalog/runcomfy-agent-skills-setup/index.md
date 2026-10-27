@@ -3,7 +3,7 @@ title: "RunComfy Agent Skills - AI Video & Image Generation"
 description: 30 production-grade media skills from prime-skills/runcomfy-agent-skills - AI video generation, avatar video, video editing, music generation. 11.5M+ combined installs via RunComfy cloud GPU platform (Oct 8, 2026 snapshot).
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/runcomfy-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

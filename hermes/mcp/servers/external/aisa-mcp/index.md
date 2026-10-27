@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "mcp.so feed (Sep 15 morning, submitted 5h before sweep) + vendor page at mcp.so/servers/aisa"
 relevance: ★★★
 tags: [seo, ai-visibility, finance, social-data, sales-intelligence, web-search, agent-mail, data-aggregation, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AIsa MCP

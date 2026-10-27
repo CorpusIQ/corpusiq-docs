@@ -3,7 +3,7 @@ title: "Three.js Game Skills - 3D Game Development Suite Setup"
 description: "Setup guide for majidmanzarpour/threejs-game-skills - 24.0K combined installs. 9 Three.js skills covering game UI, graphics, and gameplay systems."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threejs-game-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "three.js", "browser games", "game development"]
 ---
 

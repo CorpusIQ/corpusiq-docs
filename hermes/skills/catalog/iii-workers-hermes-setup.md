@@ -3,7 +3,7 @@ title: III Workers Hermes Bridge - Setup Guide
 description: Put the Hermes agent on the iii bus - omnichannel front door wiring Hermes's 27+ messaging platforms to the entire iii function registry.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/iii-workers-hermes-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

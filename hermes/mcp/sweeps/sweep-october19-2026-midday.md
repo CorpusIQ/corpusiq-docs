@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 19, 2026 (Midday Sweep)"
 description: "Midday delta cataloguing a YouTube channel operations server that closes a real gap in the catalog, and a Philippine government form filler that refuses wrong values instead of repairing them."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october19-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

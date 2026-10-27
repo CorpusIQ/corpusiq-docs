@@ -3,7 +3,7 @@ title: wiki-history-ingest Setup Guide
 description: Complete setup guide for wiki-history-ingest - unified agent history ingestion router for Hermes, OpenClaw, Claude, Codex, Copilot, and Pi agents into an Obsidian wiki vault.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wiki-history-ingest-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

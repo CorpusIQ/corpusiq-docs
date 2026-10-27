@@ -3,7 +3,7 @@ title: codebase-design - Deep Module Design Vocabulary
 description: "Install and use mattpocock/skills@codebase-design (584K+ installs) - shared vocabulary for designing deep modules: interfaces, seams, adapters, depth, leverage and locality for AI-navigable codebases."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/codebase-design-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "codebase design", "architecture"]
 ---
 

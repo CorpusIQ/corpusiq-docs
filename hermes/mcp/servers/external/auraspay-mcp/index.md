@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "chatmcp/mcpso issue #4150 + vendor docs at mcp.auraspay.com"
 relevance: ★★★
 tags: [payments, payment-links, merchant, fintech, oauth, scoped-permissions, review-gated, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AurasPay Merchant MCP

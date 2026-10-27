@@ -3,7 +3,7 @@ title: Agent Architect - Agent System Design Setup
 description: "Skills from coreyhaines31/marketingskills at skills.sh - agent-architect for agent system architecture design and patterns. 689 github skills related."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-architect-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "architecture", "system-design", "agent-architect"]
 ---
 

@@ -3,7 +3,7 @@ title: "Genkit Skills - Firebase Genkit AI Framework Setup"
 description: "genkit-ai/skills - 4 skills, 57.3K combined installs. Official Firebase Genkit development skills for building AI features in JavaScript, Dart, Go, and Python."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/genkit-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ai-framework"]
 ---
 

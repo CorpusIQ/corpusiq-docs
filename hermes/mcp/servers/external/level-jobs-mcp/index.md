@@ -7,7 +7,7 @@ added: 2026-10-07
 source: "chatmcp/mcpso issue #4918 (Oct 7, 2026 evening sweep)"
 relevance: ★★
 tags: [jobs, careers, labor-market, ai-adoption, market-data]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Level MCP

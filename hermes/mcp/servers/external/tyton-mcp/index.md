@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcp.so server page (usetyton.com)"
 relevance: ★★★
 tags: [meta-pixel, conversions-api, tracking-audit, meta-ads, deduplication, marketing-analytics, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Tyton MCP

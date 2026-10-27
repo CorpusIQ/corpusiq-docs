@@ -3,7 +3,7 @@ title: Production Autonomous Agent Architecture
 description: Complete architecture for a production autonomous agent platform  --  six layers, data flow, failure modes, scaling strategies, and architectural decisions
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

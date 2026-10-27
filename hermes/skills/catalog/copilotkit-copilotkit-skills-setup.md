@@ -3,7 +3,7 @@ title: "CopilotKit Skills - Agent Frontend Stack Setup"
 description: "Install CopilotKit agent frontend skills for React, Angular, Mobile, and Slack generative UI; ~34,500 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/copilotkit-copilotkit-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "generative ui", "ag-ui"]
 ---
 

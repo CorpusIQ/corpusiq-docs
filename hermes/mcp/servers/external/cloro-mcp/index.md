@@ -9,7 +9,7 @@ relevance: ★★★
 tags: [geo, aeo, ai-visibility, brand-monitoring, serp, market-research, remote-mcp]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/cloro-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # cloro MCP

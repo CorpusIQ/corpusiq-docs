@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + startupperks.co/mcp-server"
 relevance: ★★★
 tags: [startup-credits, perks, aws-activate, startup-programs, cost-savings, free-tier, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # StartupPerks MCP

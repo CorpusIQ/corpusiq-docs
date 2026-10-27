@@ -3,7 +3,7 @@ title: MCP Directory Submission Guide - Where to List a Server
 description: "Field-tested walkthrough of every major MCP directory: free vs paid, form vs GitHub, sign-in requirements, and what actually works. Updated August 2026 from real submissions."
 category: "MCP"
 tags: ["mcp", "directory", "submission", "listing", "discovery", "registry", "marketing"]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/directories/submission-guide-2026/"
 robots: "index,follow"
 ---

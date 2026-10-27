@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + github.com/AddisonHoff/sendsets"
 relevance: ★★★
 tags: [cold-email, mailbox-warmup, email-campaigns, deliverability, lead-management, reply-triage, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Sendsets MCP

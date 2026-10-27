@@ -7,7 +7,7 @@ added: 2026-10-06
 source: "chatmcp/mcpso issue #4797"
 relevance: ★★
 tags: [seo, keywords, serp, backlinks, rank-tracking, search-console, marketing, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MisarSEO MCP

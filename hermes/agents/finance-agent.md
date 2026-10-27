@@ -8,7 +8,7 @@ tags:
   - invoice-processing
   - reconciliation
   - ai-finance-assistant
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/agents/finance-agent/"
 robots: "index,follow"
 

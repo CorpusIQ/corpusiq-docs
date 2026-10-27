@@ -7,7 +7,7 @@ added: 2026-08-16
 source: mcpservers.org
 relevance: ★★★
 tags: [web-scraping, data-extraction, browser-automation, proxy, pricing-intelligence, hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Import.io MCP

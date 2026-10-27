@@ -7,7 +7,7 @@ added: 2026-10-10
 source: "mcpservers.org /all (page 2) + vendor page (api.boomtax.com docs); catalogued at the October 10, 2026 evening sweep"
 relevance: ★★★
 tags: [tax, e-filing, compliance, accounting, finance, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # BoomTax MCP

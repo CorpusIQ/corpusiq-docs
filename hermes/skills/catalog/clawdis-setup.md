@@ -3,7 +3,7 @@ title: "steipete/clawdis - 14 OpenClaw Skills"
 description: "Complete setup guide for the clawdis skill collection: tmux, openai-whisper, ordercli, peekaboo, himalaya, clawhub, video-frames, session-logs, healthcheck"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdis-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

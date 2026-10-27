@@ -7,7 +7,7 @@ added: 2026-09-02
 source: "chatmcp/mcpso GitHub issue #3891 (Sep 2, 2026 morning sweep)"
 relevance: ★★★
 tags: [mcp-server, jobs, hiring, recruiting, salary-data, h1b, visa-sponsorship, application-tracking]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # FoundRole MCP

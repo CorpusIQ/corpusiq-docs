@@ -3,7 +3,7 @@ title: New Skills - July 14, 2026 (Update)
 description: 4 additional OpenClaw/Hermes ecosystem skills discovered July 14, 2026 - wiki-history-ingest (2,744 installs), vps-server-management, and 2 agent plugin skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july14-2026-update/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

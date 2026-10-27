@@ -11,7 +11,7 @@ canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/herman-skill-play
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Herman's Skill Playbook - Setup Guide

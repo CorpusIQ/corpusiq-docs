@@ -7,7 +7,7 @@ added: 2026-09-29
 source: "mcpservers.org server page (smat.chat docs)"
 relevance: ★★★
 tags: [instagram, facebook, social-media, publishing, scheduling, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SMAT MCP

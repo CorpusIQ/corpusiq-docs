@@ -3,7 +3,7 @@ title: "Wonda CLI - AI Content Creation from the Terminal"
 description: "degausai/wonda - 74.6K installs. Terminal-first AI content creation CLI: images, video, and media workflows agents can drive without a browser."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wonda-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "media"]
 ---
 

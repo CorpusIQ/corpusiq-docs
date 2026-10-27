@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 15, 2026 (Midday Sweep)"
 description: "Midday sweep over the mcp.so feed (fresh blocks past the morning cutoff via the r.jina.ai reader proxy: Zenith, StoryStudio, Agent Margin Router, Glasser, CoDesign), chatmcp/mcpso issues #4148-#4153 and an mcpservers.org /all pages 1-3 re-check. 6 new business-relevant servers catalogued with guides: Zenith MCP (PSD2 bank sync), Glasser MCP (pay-per-use data APIs), AurasPay Merchant MCP (scoped payment review and links), CoDesign MCP (editable design engine), StoryStudio MCP (AI media studio) and Litescrape MCP (keyless search)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 15, 2026 (Midday Sweep)

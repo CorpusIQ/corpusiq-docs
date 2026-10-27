@@ -7,7 +7,7 @@ added: 2026-08-22
 source: "mcp.so GitHub issue #3691"
 relevance: ★★★
 tags: [social-media, scheduling, publishing, analytics, multi-platform, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Breakreach MCP

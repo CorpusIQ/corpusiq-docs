@@ -3,7 +3,7 @@ title: "Skills for Antigravity - Game & Research Collection Setup"
 description: "Setup guide for omer-metin/skills-for-antigravity - 25.6K combined installs. Skills for Google Antigravity: game UI, pixel art, quant research, 3D."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-for-antigravity-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "antigravity ide", "game development", "quant research"]
 ---
 

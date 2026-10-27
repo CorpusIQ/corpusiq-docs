@@ -7,7 +7,7 @@ added: 2026-10-05
 source: "mcp.so /feed (verified, featured)"
 relevance: ★★★
 tags: [data, enrichment, seo, scraping, social, pay-per-call, oauth, gateway, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # looot MCP

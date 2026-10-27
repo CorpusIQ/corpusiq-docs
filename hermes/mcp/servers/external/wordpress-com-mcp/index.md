@@ -7,7 +7,7 @@ added: 2026-10-11
 source: "mcp.so /feed (top card, Verified Featured) + Automattic developer docs; catalogued at the October 11, 2026 night sweep"
 relevance: ★★★
 tags: [wordpress, content-management, website, oauth, official, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # WordPress.com MCP

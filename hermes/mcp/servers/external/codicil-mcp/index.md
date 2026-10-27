@@ -7,7 +7,7 @@ language: Python
 transport: stdio
 auth: None
 category: Knowledge & Documentation
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/codicil-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

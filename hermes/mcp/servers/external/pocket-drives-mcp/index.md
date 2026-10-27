@@ -7,7 +7,7 @@ added: 2026-08-22
 source: "mcp.so GitHub issue #3680"
 relevance: ★★
 tags: [travel, car-rental, marketplace, vehicles, booking, read-only, peer-to-peer]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Pocket Drives MCP

@@ -3,7 +3,7 @@ title: "Open WebSearch Skills - Agent Web Search Setup"
 description: "Multi-engine MCP server, CLI, and local daemon for agent web search and content retrieval - skill-guided workflows, no API keys."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/open-websearch-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "web search", "mcp"]
 ---
 

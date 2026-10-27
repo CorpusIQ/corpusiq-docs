@@ -7,7 +7,7 @@ added: 2026-09-28
 source: "mcp.so server page (mcp.imario.ai)"
 relevance: ★★★
 tags: [market-research, synthetic-audiences, consumer-insights, product-validation, data-analytics, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # iMario MCP

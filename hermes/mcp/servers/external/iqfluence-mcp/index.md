@@ -7,7 +7,7 @@ added: 2026-10-21
 source: "mcp.so /feed page 1 (card iqfluence-mcp, posted 16:27Z)"
 relevance: ★★★
 tags: [influencer-marketing, creator-vetting, audience-overlap, fake-followers, media-planning, instagram, tiktok, youtube, remote-mcp]
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 ---
 
 # IQFluence MCP

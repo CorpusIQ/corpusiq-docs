@@ -3,7 +3,7 @@ title: Advanced Skill Creator - Custom Skill Generation Setup
 description: "Skills from coreyhaines31/marketingskills at skills.sh - advanced-skill-creator for generating custom Hermes skills from descriptions. 689 github skills related."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/advanced-skill-creator-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill creation", "automation", "skill-development"]
 ---
 

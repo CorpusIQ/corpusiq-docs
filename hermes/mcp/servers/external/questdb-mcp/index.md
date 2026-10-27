@@ -9,7 +9,7 @@ relevance: ★★
 tags: [database, time-series, analytics, sql, questdb, stdio]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/questdb-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # QuestDB MCP Server

@@ -3,7 +3,7 @@ title: "Antigravity Skill Vault - 300+ Skills Setup"
 description: "Setup guide for rmyndharis/antigravity-skills - 10.1K combined installs. 300+ skills for Google Antigravity, ported from wshobson/agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-skill-vault-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "google antigravity", "skill collection", "developer agents"]
 ---
 

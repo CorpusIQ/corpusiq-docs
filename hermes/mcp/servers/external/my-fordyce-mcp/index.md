@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (fordycecg-com-products-myfordyce-mcp)"
 relevance: ★★★
 tags: [project-management, backlog, multi-agent, orchestration, tracking, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # My Fordyce MCP

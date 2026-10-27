@@ -3,7 +3,7 @@ title: "Limrun Skills - Cloud iOS & Android Simulator Setup"
 description: "Setup guide for Limrun's official agent skills: cloud iOS simulators and Android emulators for agents - Xcode, Gradle, Detox, Maestro, and Expo workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/limrun-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "limrun", "mobile development", "ios simulator", "android emulator"]
 ---
 

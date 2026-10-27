@@ -3,7 +3,7 @@ title: "MCP Discovery Sweep - August 23, 2026 (Morning)"
 date: 2026-08-23
 tags: [mcp-sweep, discovery, catalog]
 description: "chatmcp/mcpso issues #3701-#3703 (Aug 23 04:42-07:48 UTC), mcp.so homepage recentServers + feed, mcpservers.org homepage; 4 catalogued with guides (FluentEDI, Domain MCP, Kirah Local Services, Truth Bear GAUGE), 5 skipped"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MCP Discovery Sweep - August 23, 2026 (Morning)

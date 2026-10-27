@@ -3,7 +3,7 @@ title: Interface Design Skill - Non-Templated Product UI Setup
 description: "dammyjay93/interface-design - interface-design (23.6K installs): intent-first interface design for dashboards, admin panels, and SaaS tools that avoids generic AI-templated output through domain exploration and systemic craft. All three security audits pass."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/interface-design-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ui design", "dashboards", "design system"]
 ---
 

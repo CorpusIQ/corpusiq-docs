@@ -3,7 +3,7 @@ title: "Ponytail Skills - Lazy Senior Dev Coding Setup"
 description: "Ponytail: 321.6K combined installs. Six skills that make an agent write the smallest complete change, review code and track deferred shortcuts."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ponytail-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "code quality", "yagni", "code review"]
 ---
 

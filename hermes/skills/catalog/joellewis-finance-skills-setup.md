@@ -3,7 +3,7 @@ title: "Finance Skills - Financial Services Suite Setup"
 description: "81-91 finance skills across 7 domain plugins: investment management, compliance, advisory, trading, operations. ~53.8K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/joellewis-finance-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "finance", "compliance"]
 ---
 

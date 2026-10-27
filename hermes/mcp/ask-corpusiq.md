@@ -4,7 +4,7 @@ description: "ask_corpusiq is the high-level MCP tool that routes business quest
 canonical: "/hermes/mcp/ask-corpusiq/"
 robots: "index, follow"
 tags: [mcp, corpusiq, ask-corpusiq, router, runbook, deterministic, tool]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ask_corpusiq: Deterministic Single-Tool Access to Business Data

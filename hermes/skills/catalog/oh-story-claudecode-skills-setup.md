@@ -3,7 +3,7 @@ title: "Oh Story ClaudeCode Skills - Long-Form Writing & Browser CDP"
 description: "zenstory-ai/oh-story-claudecode (formerly worldwonderer) - 13 skills, 146.6K installs: story long/short write, analyze, scan, and deslop pipelines plus browser-cdp automation, covers, setup, review, and import for agent-driven long-form writing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-story-claudecode-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "writing", "long-form content", "browser automation", "cdp"]
 ---
 

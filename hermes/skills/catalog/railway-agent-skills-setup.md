@@ -3,7 +3,7 @@ title: "Railway Agent Skills Setup Guide"
 description: "Install and configure Railway agent skills for infrastructure deployment - 5,500+ installs, official Railway plugin"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/railway-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

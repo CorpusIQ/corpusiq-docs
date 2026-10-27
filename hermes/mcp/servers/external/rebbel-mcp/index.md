@@ -7,7 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (rebbel.io)"
 relevance: ★★★
 tags: [social-media, marketing, content, approval-gated, small-business, remote-mcp, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Rebbel MCP

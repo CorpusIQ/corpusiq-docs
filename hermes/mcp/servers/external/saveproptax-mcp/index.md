@@ -7,7 +7,7 @@ added: 2026-08-20
 source: "mcp.so homepage new arrival (Aug 20, 2026)"
 relevance: ★★
 tags: [property-tax, real-estate, tax-appeals, california, proposition-8, remote-mcp, keyless]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SavePropTax MCP

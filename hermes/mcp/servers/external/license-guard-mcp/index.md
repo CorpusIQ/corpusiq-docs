@@ -7,7 +7,7 @@ added: 2026-08-20
 source: "mcp.so GitHub issue #3658"
 relevance: ★★★
 tags: [license-compliance, open-source-licensing, dependency-audit, legal-compliance, agpl, gpl, supply-chain, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # LicenseGuard MCP

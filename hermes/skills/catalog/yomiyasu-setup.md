@@ -3,7 +3,7 @@ title: "Yomiyasu - Japanese AI Prose Refinement Setup"
 description: "Setup guide for yomiyasu, the agent skill that refines AI-generated Japanese into natural prose - meaning-preserving edits for technical and business docs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/yomiyasu-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "yomiyasu", "japanese", "writing", "editing"]
 ---
 

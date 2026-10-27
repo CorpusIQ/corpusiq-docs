@@ -3,7 +3,7 @@ title: "Matt Pocock Engineering Skills - Setup Guide"
 description: "Install and configure the 5-skill Matt Pocock engineering suite: architecture review, PRD generation, issue decomposition, repo setup, and adversarial plan"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/matt-pocock-engineering-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

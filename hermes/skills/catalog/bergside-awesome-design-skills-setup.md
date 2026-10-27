@@ -3,7 +3,7 @@ title: "Bergside Design Skills - Design Systems Setup"
 description: "67 awesome DESIGN.md and SKILL.md design system files for agentic tools like Claude Design, Google Stitch, Codex, and Cursor."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bergside-awesome-design-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "design systems", "ui design"]
 ---
 

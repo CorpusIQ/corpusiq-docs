@@ -7,7 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (asogenic-com-docs)"
 relevance: ★★
 tags: [aso, app-store, keywords, mobile, metadata, apple, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ASOgenic MCP

@@ -13,7 +13,7 @@ transport: Streamable HTTP
 auth: None required to start (free verification)
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/flint-network-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # FLINT Network MCP Server

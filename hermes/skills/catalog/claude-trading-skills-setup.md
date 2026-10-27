@@ -3,7 +3,7 @@ title: "Claude Trading Skills - 74-Skill Trading Workflow Setup"
 description: "Claude Trading Skills: 233.5K combined installs. 74 skills for market regime, screening, position sizing, discipline gates and trade journaling."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-trading-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "trading", "investing", "market research"]
 ---
 

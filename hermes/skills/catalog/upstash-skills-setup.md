@@ -3,7 +3,7 @@ title: "Upstash Skills - Serverless Backend Setup"
 description: "Official Upstash skills for Redis, Rate Limit, QStash and Workflow SDKs in Claude Code agents. 40k+ indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/upstash-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "serverless", "redis"]
 ---
 

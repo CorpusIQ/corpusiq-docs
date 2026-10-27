@@ -3,7 +3,7 @@ title: "Mastepanoski Skills - UX & AI Compliance Audits Setup"
 description: "Setup guide for mastepanoski/claude-skills - 6.3K combined installs. UX audits, accessibility checks, and AI governance reviews: WCAG, OWASP, and NIST."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mastepanoski-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ux audit", "accessibility", "ai governance"]
 ---
 

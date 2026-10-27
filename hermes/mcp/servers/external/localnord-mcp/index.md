@@ -7,7 +7,7 @@ added: 2026-10-11
 source: "mcpservers.org /all (Oct 11, 2026 midday sweep)"
 relevance: ★★
 tags: [local-seo, google-business-profile, reviews, agencies, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Localnord MCP

@@ -7,7 +7,7 @@ added: 2026-10-06
 source: "mcp.so feed (Oct 6, 2026 midday sweep)"
 relevance: ★★
 tags: [q-and-a, polls, events, webinars, meetings, moderation, stdio]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AskOne MCP

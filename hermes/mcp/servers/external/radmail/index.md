@@ -3,7 +3,7 @@ title: "RadMail MCP Integration Guide - CorpusIQ Docs"
 description: Full setup guide for RadMail - the email operating system for AI agents with inbox search, commitment tracking, and reviewable draft replies
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/radmail/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

@@ -3,7 +3,7 @@ title: "Botpress Skills - Agent Development Kit (ADK) Setup"
 description: "Setup guide for botpress/skills - 11.2K combined installs. Official Botpress ADK skills for building, debugging, and evaluating agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/botpress-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "botpress", "agent development", "chatbots", "typescript"]
 ---
 

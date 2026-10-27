@@ -3,7 +3,7 @@ title: "Agent Capability Audit - the 4 must-install plugins test"
 description: "A creator's 4 must-install plugin test for Hermes agents, audited against the CorpusIQ stack: cost control, model picker, goal management, agent bridge."
 category: best-practices
 tags: [hermes-agent, agent-capabilities, cost-control, model-routing, memory, mcp]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/agent-capability-audit/"
 robots: "index,follow"
 ---

@@ -3,7 +3,7 @@ title: "ulpi Skills - Browse, SEO & Dev Utilities Setup"
 description: "Setup guide for ulpi-io/skills - 10.7K combined installs. 60 skills: stealth browsing, SEO/AEO/GEO audits, Laravel toolkit, dev workflow."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ulpi-io-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "seo", "developer workflow"]
 ---
 

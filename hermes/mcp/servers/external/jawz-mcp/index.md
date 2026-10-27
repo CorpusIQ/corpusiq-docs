@@ -7,7 +7,7 @@ added: 2026-08-27
 source: "chatmcp/mcpso issue #3800 + jawz.ai/docs/mcp"
 relevance: ★★
 tags: [macro, economics, financial-conditions, central-banks, etf, market-data, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Jawz MCP

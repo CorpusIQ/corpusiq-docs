@@ -7,7 +7,7 @@ added: 2026-08-22
 source: "mcp.so GitHub issue #3686"
 relevance: ★★
 tags: [addresses, geocoding, japan, data-cleaning, normalization, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Staddress AI MCP

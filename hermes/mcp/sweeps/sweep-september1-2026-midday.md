@@ -4,7 +4,7 @@ description: "Midday MCP catalog sweep: chatmcp/mcpso issues #3873-#3876, catalo
 date: 2026-09-01T11:02:00-07:00
 sources: [chatmcp/mcpso, mcpservers.org]
 status: complete
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Sweep Report - September 1, 2026 (Midday Cron Sweep)

@@ -3,7 +3,7 @@ title: "June 30, 2026 (Update 2) - xurl X/Twitter"
 description: "12 additional Hermes-relevant skills discovered June 30, 2026 evening sweep: xurl (X/Twitter from Nous Research), TimesFM forecasting (Google), and 10"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026-update2/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

@@ -3,7 +3,7 @@ title: "Picsart Gen-AI Skills - Generative Media Suite Setup"
 description: "Setup guide for picsart/gen-ai-skills - 19 agent skills for Picsart's gen-ai CLI: text-to-visual, product photos, headshots, app assets, ads."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/picsart-gen-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "picsart", "image generation", "creative"]
 ---
 

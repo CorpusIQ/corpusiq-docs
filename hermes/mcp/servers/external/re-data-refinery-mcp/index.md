@@ -7,7 +7,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3648"
 relevance: ★★
 tags: [real-estate, property-data, investment-analysis, x402, usdc, base, zillow, flipping, wholesale]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # RE Data Refinery MCP

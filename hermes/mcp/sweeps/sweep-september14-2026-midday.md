@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 14, 2026 (Midday Sweep)"
 description: "First sweep after the September 13-14 network outage. Midday sweep over the mcp.so feed (30 server blocks via the r.jina.ai reader proxy), chatmcp/mcpso issues #4090-#4134 and a fresh mcpservers.org /all page-1 crawl. 6 new business-relevant servers catalogued with guides: Statable MCP (cookieless web analytics, 25 tools), Day Off MCP (PTO and time tracking), Gambot MCP (WhatsApp Business messaging and CRM, 77 tools), Radicado Uno MCP (Colombian company due diligence, 6 tools), Statiko MCP (Telegram channel intelligence, 10 tools) and Hilead MCP (signal-based B2B prospecting)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 14, 2026 (Midday Sweep)

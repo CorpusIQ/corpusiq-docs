@@ -3,7 +3,7 @@ title: Figma MCP Server Guide - Design-to-Code Workflows
 description: Figma's official MCP server guide skills - implement designs, use Figma, generate designs/libraries, code connect. 23K+ combined installs across 6 skills for design-to-code automation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/figma-mcp-server-guide-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

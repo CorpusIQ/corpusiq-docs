@@ -3,7 +3,7 @@ title: Ultimate Humanizer - Anti-AI-Slop Skill Setup Guide
 description: Install and configure ultimate-humanizer - 50 anti-AI-slop patterns, 2-pass self-audit, 5D scoring, and auto-evolution. Works with Hermes, Claude Code, and Open Code.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ultimate-humanizer-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

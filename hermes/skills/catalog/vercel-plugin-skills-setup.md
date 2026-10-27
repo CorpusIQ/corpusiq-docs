@@ -3,7 +3,7 @@ title: "Vercel Plugin Skills - Full Vercel Ecosystem Agent Setup"
 description: "Comprehensive Vercel ecosystem plugin: 50 skills across AI Gateway, AI SDK, Functions, flags, auth, CDN, and agent-building guidance. 4.8K installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-plugin-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "vercel", "nextjs", "ai sdk", "deployment"]
 ---
 

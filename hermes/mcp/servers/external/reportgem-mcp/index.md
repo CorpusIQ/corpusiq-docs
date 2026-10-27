@@ -7,7 +7,7 @@ added: 2026-10-20
 source: "mcp.so /feed page 1 (card posted 2026-10-20T01:40:36Z)"
 relevance: ★★★
 tags: [finance, investment-research, equity-research, sec-filings, earnings-calls, document-search, remote-mcp, oauth]
-last_updated: "2026-10-20"
+last_updated: "2026-10-24"
 ---
 
 # ReportGem MCP

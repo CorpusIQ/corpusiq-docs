@@ -7,7 +7,7 @@ added: 2026-08-19
 source: "mcp.so GitHub issue #3639"
 relevance: ★★
 tags: [sales, outbound, lead-generation, email-verification, cold-outreach, pipeline, remote-mcp, npm]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MisarReach MCP

@@ -7,7 +7,7 @@ added: 2026-08-24
 source: "mcp.so feed + live endpoint probe (HTTP 401 auth gate)"
 relevance: ★★
 tags: [alpaca, automated-trading, algorithmic-trading, backtesting, trading-bot, finance, paper-trading, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Ice Juice Trading MCP

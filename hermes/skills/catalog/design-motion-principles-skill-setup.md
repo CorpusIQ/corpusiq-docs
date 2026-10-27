@@ -3,7 +3,7 @@ title: Design Motion Principles Skill - Motion & Interaction Setup
 description: "kylezantos/design-motion-principles - design-motion-principles (7.8K installs): create and audit purposeful UI motion across HTML/CSS, React, Framer Motion, and native transitions. All three security audits pass."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-motion-principles-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "motion design", "animation", "interaction design"]
 ---
 

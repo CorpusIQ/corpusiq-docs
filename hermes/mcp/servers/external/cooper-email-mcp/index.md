@@ -7,7 +7,7 @@ added: 2026-09-28
 source: "mcpservers.org server page (cooperemail.com)"
 relevance: ★★
 tags: [email, inbox, oauth, mail-automation, communication, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Cooper Email MCP

@@ -7,7 +7,7 @@ added: 2026-08-25
 source: mcpservers.org /all listing
 relevance: ★★
 tags: [mcp-server, email, sms, push, notifications, templates, transactional]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SenderKit MCP

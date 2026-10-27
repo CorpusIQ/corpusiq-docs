@@ -4,7 +4,7 @@ description: "Night MCP catalog sweep: chatmcp/mcpso issues #3892-#3906 plus reg
 date: 2026-09-02T19:01:00-07:00
 sources: [chatmcp/mcpso, mcpservers.org, mcp.so]
 status: complete
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Sweep Report - September 2, 2026 - Night Cron Sweep

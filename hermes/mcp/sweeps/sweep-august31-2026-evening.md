@@ -4,7 +4,7 @@ description: "Evening MCP catalog sweep: mcp.so recentServers + mcpservers.org l
 date: 2026-08-31T19:00:00-07:00
 sources: [mcp.so, mcpservers.org]
 status: complete
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Sweep Report - August 31, 2026 (Evening Cron Sweep)

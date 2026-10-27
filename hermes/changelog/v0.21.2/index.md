@@ -3,7 +3,7 @@ title: Hermes Agent v0.21.2 state.db Patch Release
 description: Hermes Agent v0.21.2 (v2026.9.11) - The state.db patch release. Six PRs fix second-writer lock cancellation, false corruption reports, and bad-row crashes in the session store.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.2/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

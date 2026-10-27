@@ -7,7 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (sendnow-live)"
 relevance: ★★★
 tags: [documents, proposals, data-room, e-signature, analytics, sales-enablement, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SendNow MCP

@@ -7,7 +7,7 @@ source: mcp.so
 repo: fullstorydev/fullstory-skills
 stars: 9
 discovered: 2026-07-23
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fullstory-mcp/"
 robots: "index,follow"
 

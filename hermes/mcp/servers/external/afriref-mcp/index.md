@@ -7,7 +7,7 @@ added: 2026-10-12
 source: "chatmcp/mcpso issue #5198 (Oct 12, 2026 evening sweep)"
 relevance: ★★
 tags: [tax, vat, payroll, compliance, international, government-data, reference-data, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Afriref MCP

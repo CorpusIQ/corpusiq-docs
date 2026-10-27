@@ -7,7 +7,7 @@ added: 2026-09-28
 source: "mcp.so server page (docs.ohmyho.st)"
 relevance: ★★★
 tags: [deployment, hosting, postgres, transactional-email, domains, devops, stdio-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ohmyho.st MCP

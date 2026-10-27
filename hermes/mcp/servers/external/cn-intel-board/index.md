@@ -7,7 +7,7 @@ added: 2026-08-29
 source: "mcp.so GitHub issue #3814"
 relevance: ★★
 tags: [mcp-server, supply-chain, china, semiconductors, research, market-intelligence, finance, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # CN Intel Board MCP

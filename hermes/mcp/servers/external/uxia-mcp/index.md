@@ -7,7 +7,7 @@ added: 2026-09-28
 source: "mcp.so server page (uxia.app)"
 relevance: ★★★
 tags: [user-research, usability-testing, ux-research, product-validation, remote-mcp, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Uxia MCP

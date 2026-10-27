@@ -3,7 +3,7 @@ title: "NemoClaw User Guide - Security Setup"
 description: Install and use the NemoClaw security user guide from nvidia/skills (99 installs). Enterprise-grade security best practices for autonomous Hermes agent deployments.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nemoclaw-user-guide-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

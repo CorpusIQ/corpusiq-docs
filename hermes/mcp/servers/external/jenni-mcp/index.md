@@ -7,7 +7,7 @@ added: 2026-10-22
 source: "mcp.so /feed page 1 (card posted 2026-10-21T10:38:15Z)"
 relevance: ★★★
 tags: [commerce, local-inventory, same-day-delivery, product-availability, checkout, retail, agentic-commerce, remote-mcp, keyless]
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 ---
 
 # JENNi MCP

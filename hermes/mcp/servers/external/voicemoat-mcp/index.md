@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (prateeks367/voicemoat-mcp)"
 relevance: ★★★
 tags: [marketing, social-media, twitter, linkedin, content, publishing, voice, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # VoiceMoat MCP

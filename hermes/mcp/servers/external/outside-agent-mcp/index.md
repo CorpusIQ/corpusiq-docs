@@ -9,7 +9,7 @@ stars: 0
 tags: [agent-deployment, sms, web, phone, communication, production]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/outside-agent-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 description: "API key authentication. Create an account at the Outside Agent platform and generate an API key. Remote MCP server for building publishing production-ready."
 
 ---

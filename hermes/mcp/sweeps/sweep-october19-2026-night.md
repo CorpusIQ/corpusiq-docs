@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 19, 2026 (Night Sweep)"
 description: "Night sweep cataloguing a self-hosted Aagon ACMP server where every write, script run and delete waits for named human approval."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october19-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

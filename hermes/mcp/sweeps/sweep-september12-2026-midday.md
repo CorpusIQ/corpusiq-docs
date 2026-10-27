@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 12, 2026 (Midday Sweep)"
 description: "Midday sweep over the mcp.so feed (30 server blocks), mcpservers.org /all page 1 via the r.jina.ai reader proxy (26 slugs batch-classified) and chatmcp/mcpso issues #4083-#4085. 3 new business-relevant servers catalogued with guides: B2B Creators MCP (multi-profile LinkedIn content operations), CraftStory MCP (talking-avatar and UGC video generation) and InstantReply MCP (Instagram, WhatsApp and Messenger inbox with 29 tools)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 12, 2026 (Midday Sweep)

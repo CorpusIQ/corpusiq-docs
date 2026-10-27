@@ -7,7 +7,7 @@ added: 2026-10-06
 source: "mcp.so feed (Oct 6, 2026 midday sweep)"
 relevance: ★★
 tags: [enterprise, email-archive, search, governance, compliance, read-only, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # mxHERO Mail2Cloud MCP

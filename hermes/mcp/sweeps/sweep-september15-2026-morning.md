@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 15, 2026 (Morning Sweep)"
 description: "Morning sweep over the mcp.so feed (30 server blocks via the r.jina.ai reader proxy - four fresh names above the Sep 14 evening cutoff: AIsa 5h, qrp-mcp 4h, Aard 3h, Checkout Page 2h), chatmcp/mcpso issues #4140-#4147 and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 8 new business-relevant servers catalogued with guides: AIsa MCP (950+ data APIs behind one OAuth key), Aard MCP (macroeconomic data from 170+ official publishers), Checkout Page MCP (40-tool Stripe-native commerce), Cite42 MCP (26-tool AI visibility tracker), Umami MCP (official 23-tool analytics), Get Ads MCP (388 tools across 9 ad sources), Wrenda MCP (per-domain edge MCP with AI citation tracking) and WhatsMCP MCP (WhatsApp numbers for agents, re-check promoted)."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 15, 2026 (Morning Sweep)

@@ -7,7 +7,7 @@ added: 2026-09-29
 source: mcpservers.org
 relevance: ★★
 tags: [cms, website-management, content, pages, blog, oauth, eu-hosting, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Neleto CMS MCP

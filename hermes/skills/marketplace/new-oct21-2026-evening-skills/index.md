@@ -3,7 +3,7 @@ title: "New Skills - October 21, 2026 (Evening)"
 description: "Skills.sh evening sweep (Oct 21): 887 skills checked, 105 new. Ant Design joins the catalog with a 11.8K-install official antd suite across two repos."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct21-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

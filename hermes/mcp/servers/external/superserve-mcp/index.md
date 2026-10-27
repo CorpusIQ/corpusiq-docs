@@ -3,7 +3,7 @@ title: "Superserve MCP - Sandbox Infrastructure for AI Agents"
 description: "Integration guide for superserve-ai/superserve. Create and control isolated cloud sandboxes via MCP. 413 stars."
 category: mcp
 tags: [mcp-server, sandbox, cloud, infrastructure, dev-environments, hermes-agent]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 mcp_server: superserve-ai/superserve
 stars: 413
 source: mcpservers.org

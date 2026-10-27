@@ -7,7 +7,7 @@ added: 2026-09-04
 source: "mcp.so GitHub issue #3921"
 relevance: ★★
 tags: [ozon, marketplace, e-commerce, seller-api, russia, stdio, self-hosted, multi-store]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Ozon MCP Server

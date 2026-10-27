@@ -3,7 +3,7 @@ title: "mbfinotti Business Skills - Sales, RevOps & Advertising"
 description: "Setup guide to the mbfinotti family: 108 interview-based sales, RevOps, advertising, and partnerships skills across 4 MIT repos, ~637K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mbfinotti-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "sales", "revops", "advertising"]
 ---
 

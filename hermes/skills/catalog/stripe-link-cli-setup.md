@@ -3,7 +3,7 @@ title: "Stripe Link CLI Skills - Agent Payments Setup"
 description: "Stripe Link CLI: 49.0K combined installs. Four skills for agent payments, wallet credentials, spending insights and identity claims."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stripe-link-cli-setup/"
 robots: "index,follow"
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "payments", "stripe", "agent commerce"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-09-29
 source: "mcp.so server page (heylead.dev)"
 relevance: ★★★
 tags: [linkedin, outreach, lead-generation, sales, recruiting, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # HeyLead MCP

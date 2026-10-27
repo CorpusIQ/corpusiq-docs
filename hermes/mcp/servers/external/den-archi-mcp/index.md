@@ -7,7 +7,7 @@ added: 2026-08-21
 source: "mcp.so GitHub issue #3671"
 relevance: ★
 tags: [korean-standards, construction, kds, kcs, compliance, building-codes, aec, remote-mcp, regulation]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # den MCP

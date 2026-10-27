@@ -7,7 +7,7 @@ added: 2026-08-24
 source: "chatmcp/mcpso issue #3724"
 relevance: ★★
 tags: [meetings, transcription, memory, local-first, macos, decisions, stdio]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Lavox MCP

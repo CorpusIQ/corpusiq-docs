@@ -3,7 +3,7 @@ title: "New Skills - August 26, 2026"
 description: "skills.sh 15-query tiered sweep (605 unique skills): Generative Media Skills (calesthio, 137⭐ MIT, 153 skills, 2.1K indexed installs) - a full media production brain for Hermes agents with explicit HERMES.md support - 1 new publisher cluster, 1 setup guide."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug26-2026/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-26"
 new_publishers: 1

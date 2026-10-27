@@ -7,7 +7,7 @@ added: 2026-08-24
 source: "chatmcp/mcpso issue #3730"
 relevance: ★★★
 tags: [linkedin, sales, crm, prospecting, outreach, lead-generation, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Salesbot MCP

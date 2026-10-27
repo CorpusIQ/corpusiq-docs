@@ -7,7 +7,7 @@ added: 2026-10-08
 source: "mcpservers.org /all (October 8, 2026 midday sweep)"
 relevance: ★★★
 tags: [linkedin, data-enrichment, sales, recruiting, prospecting, b2b, people-search]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # EnvoAPI LinkedIn Data MCP

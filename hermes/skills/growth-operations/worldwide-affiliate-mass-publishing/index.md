@@ -3,7 +3,7 @@ title: Worldwide Affiliate Mass Publishing
 description: Mass-publish affiliate program pages in 100+ languages via Rentry.co API. Drive signups through multilingual SEO.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

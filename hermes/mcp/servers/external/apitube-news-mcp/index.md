@@ -7,7 +7,7 @@ added: 2026-08-16
 source: mcpservers.org
 relevance: ★★
 tags: [news, media-monitoring, sentiment, entities, research, breaking-news]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # APITube News MCP

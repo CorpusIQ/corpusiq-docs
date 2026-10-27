@@ -7,7 +7,7 @@ added: 2026-10-11
 source: "mcp.so /feed (Oct 11, 2026 evening sweep)"
 relevance: ★★★
 tags: [travel, tax-residency, schengen, day-counts, expenses, compliance, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # TripLedger MCP

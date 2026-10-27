@@ -7,7 +7,7 @@ added: 2026-10-11
 source: "chatmcp/mcpso issue #5128 (Oct 11, 2026 midday sweep)"
 relevance: ★★
 tags: [legal, legal-ops, invoices, spend-management, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # CounselAudit MCP

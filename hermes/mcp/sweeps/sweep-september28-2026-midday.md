@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 28, 2026 (Midday Sweep)"
 description: "Midday sweep over the mcp.so feed (30 server blocks, direct fetch) and mcpservers.org /all page 1 via the r.jina.ai reader proxy, with 4 detail pages fetched. 2 new business-relevant servers catalogued with guides: Uxia MCP and Selfstorming MCP."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 28, 2026 (Midday Sweep)

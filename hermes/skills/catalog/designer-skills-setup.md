@@ -3,7 +3,7 @@ title: "Designer Skills - Design Process Suite Setup"
 description: "Setup guide for julianoczkowski/designer-skills: 8 design-process skills from brief to reviewed frontend - 43.0K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/designer-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "design process", "frontend", "design tokens", "product design"]
 ---
 

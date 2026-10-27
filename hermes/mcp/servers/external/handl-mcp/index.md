@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcp.so server page (mcp.handl.works)"
 relevance: ★★★
 tags: [invoicing, billing, quotes, payment-links, accounts-receivable, scope-management, cash-flow, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Handl MCP

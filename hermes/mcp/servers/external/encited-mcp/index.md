@@ -7,7 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★★
 tags: [seo, ai-visibility, geo, aeo, search-console, content-planning, technical-audit, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Encited MCP - SEO and AI Visibility for Agents

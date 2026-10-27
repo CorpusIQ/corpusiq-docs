@@ -7,7 +7,7 @@ language: TypeScript
 transport: stdio
 auth: x402 micropayments (USDC on Base)
 category: Security
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/bug-bounty-intelligence-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

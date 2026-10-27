@@ -3,7 +3,7 @@ title: RampStack Claude Skills - Growth & Marketing Suite Setup
 description: "rampstackco/claude-skills - 103 skills, 15.7K installs: a complete growth-marketing suite covering SEO/AEO/GEO, CRO, email deliverability and sequences, funnel architecture, programmatic SEO, content strategy, brand systems, and product marketing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rampstack-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "seo", "cro", "email marketing", "growth"]
 ---
 

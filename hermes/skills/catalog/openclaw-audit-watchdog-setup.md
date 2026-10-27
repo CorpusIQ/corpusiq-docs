@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw Audit Watchdog - Setup Guide"
 description: "Install and configure the openclaw-audit-watchdog from prompt-security/clawsec - security auditing and misconfiguration detection for Hermes/OpenClaw agent"
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup/"
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]

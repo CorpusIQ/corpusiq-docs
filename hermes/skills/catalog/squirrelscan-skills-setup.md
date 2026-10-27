@@ -3,7 +3,7 @@ title: SquirrelScan Skills - Website Audit Tool Setup Guide
 description: "squirrelscan/skills - 2 skills, 71.4K combined installs. Agent-driven website audits (SEO, performance, accessibility) via the SquirrelScan audit tool."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/squirrelscan-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "seo"]
 ---
 

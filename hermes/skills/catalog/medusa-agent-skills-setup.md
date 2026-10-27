@@ -3,7 +3,7 @@ title: "Medusa Agent Skills - Official Ecommerce Platform Setup"
 description: "Setup guide for medusajs/medusa-agent-skills: 39.4K combined installs. Official Medusa skills for building, deploying, and learning the ecommerce platform."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/medusa-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ecommerce", "medusa", "storefront"]
 ---
 

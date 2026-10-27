@@ -3,7 +3,7 @@ title: "Confluent MCP - Apache Kafka for AI Agents"
 description: "Connect AI agents to Apache Kafka via the official Confluent MCP server. Real-time event streaming, topic management, schema registry, and consumer group"
 category: mcp
 tags: [mcp-server]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/confluent-mcp/"
 robots: "index,follow"
 

@@ -3,7 +3,7 @@ title: "Ant Design Skills - Official antd Agent Suite Setup"
 description: "ant-design official skills: 11.8K combined installs. Offline antd CLI metadata for props, demos, lint and migration, plus a v6 and Pro decision guide."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ant-design-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-21"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ant design", "react", "frontend"]
 ---
 

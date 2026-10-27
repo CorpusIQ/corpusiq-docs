@@ -7,7 +7,7 @@ added: 2026-10-02
 source: "mcpservers.org server page (mcp-mailsenpai-com)"
 relevance: ★★
 tags: [email-marketing, campaigns, newsletters, subscribers, crm, eu-hosting, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MailSenpai MCP

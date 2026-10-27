@@ -3,7 +3,7 @@ title: "New Skills - October 22, 2026"
 description: "Skills.sh sweep (Oct 22): 887 skills checked, 103 new. Three publisher clusters join the catalog: GMGN Agent Skills (156.2K), Claude Trading Skills (233.5K), ASO Skills (106.5K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct22-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

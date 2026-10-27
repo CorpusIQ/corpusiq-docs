@@ -3,7 +3,7 @@ title: "Skill From Masters - Domain Expert Methodology Suite Setup"
 description: "Setup guide for gbsoss/skill-from-masters - convert proven methodologies from expert GitHub repos and notebooks into reusable agent skills. 2K+ installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-from-masters-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "skill authoring", "knowledge extraction", "github"]
 ---
 

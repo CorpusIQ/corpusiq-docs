@@ -3,7 +3,7 @@ title: "New Skills - October 10, 2026"
 description: "Skills.sh sweep (Oct 10): 894 skills checked; 17 new publisher guides (~1.2M combined) incl. Wondelai (275.9K), Starchild (179.7K), Cargo (142.8K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct10-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

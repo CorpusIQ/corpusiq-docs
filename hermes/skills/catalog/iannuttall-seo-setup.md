@@ -3,7 +3,7 @@ title: "SEO Skill - Search Console MCP for Agents Setup"
 description: "SEO Skill: 9.4K combined installs. Search Console, Analytics and Bing data for agents through one MCP server and CLI, grounded in real numbers."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/iannuttall-seo-setup/"
 robots: "index,follow"
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "seo", "search console", "mcp"]
 ---
 

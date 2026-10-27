@@ -3,7 +3,7 @@ title: Business Intelligence for the Era of AI
 description: "Why connecting business data to AI is becoming free, and trusting the answers is not. The case for a read-only layer with sources on every answer."
 category: "Guides"
 tags: ["business intelligence", "ai answers", "trust layer", "read-only", "mcp"]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/hermes/guides/business-intelligence-era-of-ai"
 robots: "index,follow"
 ---

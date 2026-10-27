@@ -3,7 +3,7 @@ title: Agentic MCP - Agent-MCP Integration Setup
 description: "Skills from heygen-com/hyperframes at skills.sh - agentic-mcp for agent-to-MCP bridging and context synchronization. 359 clawhub skills related."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-mcp-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "MCP", "integration", "agentic-mcp"]
 ---
 

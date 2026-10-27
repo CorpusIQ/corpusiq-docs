@@ -7,7 +7,7 @@ added: 2026-10-05
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [invoices, accounting, extraction, excel, finance, oauth, free-trial, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # InvoiceParser Pro MCP

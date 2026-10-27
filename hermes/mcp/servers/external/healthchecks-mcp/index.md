@@ -7,7 +7,7 @@ added: 2026-08-29
 source: "chatmcp/mcpso issue #3822"
 relevance: ★★
 tags: [mcp-server, cron-monitoring, uptime, healthchecks, ops, devops, alerts, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # healthchecks-mcp

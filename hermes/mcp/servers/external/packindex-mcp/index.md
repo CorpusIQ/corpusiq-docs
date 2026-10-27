@@ -7,7 +7,7 @@ added: 2026-10-10
 source: "mcpservers.org /all (page 2) + vendor site opnplatform.com; catalogued at the October 10, 2026 midday sweep"
 relevance: ★★★
 tags: [packaging, supply-chain, e-commerce, procurement, market-data, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # PackIndex MCP

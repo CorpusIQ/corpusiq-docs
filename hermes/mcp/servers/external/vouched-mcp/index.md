@@ -7,7 +7,7 @@ added: 2026-09-30
 source: "mcpservers.org server page (muditjuneja/vouched)"
 relevance: ★★★
 tags: [seo, search-console, ga4, keywords, backlinks, ai-visibility, open-source, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Vouched MCP

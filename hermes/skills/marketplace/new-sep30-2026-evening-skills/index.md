@@ -3,7 +3,7 @@ title: New Skills - September 30, 2026 (Evening) - OKX CEX Agent
 description: "Skills.sh sweep (Sep 30, 2026 evening): 1 new publisher cluster - okx/agent-skills, 9 official OKX CEX skills, 79K combined installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep30-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "new skills", "okx", "trading"]
 ---
 

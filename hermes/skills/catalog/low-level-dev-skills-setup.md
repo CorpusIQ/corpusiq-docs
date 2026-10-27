@@ -3,7 +3,7 @@ title: "Low-Level Dev Skills Setup Guide for Hermes Agents"
 description: "mohitmishra786/low-level-dev-skills - 41.5K installs across 142 skills: systems programming guidance for agents - CMake, LLVM, GDB, eBPF, Rust unsafe, assembly, kernel modules, and performance analysis."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/low-level-dev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "systems", "c", "cpp", "rust", "linux", "debugging", "ebpf"]
 ---
 

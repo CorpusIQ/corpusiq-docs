@@ -3,7 +3,7 @@ title: New Skills - August 13, 2026 (Evening)
 description: "skills.sh sweep - 12 new publisher clusters, 244 skills, 3.5M+ installs: Emil Kowalski design engineering (694K), Convex backend (757K), UI/UX Pro Max (611K), Higgsfield AI video (577K), OSINT (286K), Wind financial (133K), Momentic QA (119K), Planning With Files (91K), Wonda CLI (75K), SquirrelScan (71K), Solana (58K), Genkit (57K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug13-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill marketplace", "skills.sh"]
 sweep_id: aug-13-2026-evening
 new_publishers: 12

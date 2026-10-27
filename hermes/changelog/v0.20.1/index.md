@@ -3,7 +3,7 @@ title: Hermes Agent v0.20.1 Patch Release
 description: Hermes Agent v0.20.1 (v2026.8.13) - Patch release rolling up 1,444 commits and ~656 merged PRs since v0.20.0. Stabilization across the desktop app, gateway platforms, installers, tool system, and provider catalogs. August 13, 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.1/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

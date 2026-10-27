@@ -3,7 +3,7 @@ title: "August 12, 2026 - OpenClaw/Clawd/Hermes Ecosystem Sweep"
 description: "Skills.sh sweep for Aug 12: openclaw/carapace design system (2.3K installs), Volces Hermes skills, OpenClaw Graph additions, official MCP OAuth remote"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

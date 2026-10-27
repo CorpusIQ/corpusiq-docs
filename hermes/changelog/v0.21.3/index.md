@@ -3,7 +3,7 @@ title: Hermes Agent v0.21.3 Patch Release
 description: Hermes Agent v0.21.3 (v2026.9.14) - Patch release for remote Desktop and Cloud users. Fixes refresh-token replay that expired dashboard sessions, and duplicate state.db writer handles.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.3/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

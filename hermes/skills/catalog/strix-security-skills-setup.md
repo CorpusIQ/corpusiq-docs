@@ -3,7 +3,7 @@ title: "Strix Security Skills - Autonomous Pentesting Suite Setup"
 description: "usestrix/strix - 8 skills, 9.6K installs, 54.1K GitHub stars: autonomous AI pentesting, CI security scanning, and vulnerability fixing with validated proof-of-concept findings."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/strix-security-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "pentesting", "ci", "strix"]
 ---
 

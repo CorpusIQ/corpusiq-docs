@@ -3,7 +3,7 @@ title: Agent Pulse Skill - Local AI Agent Activity Monitor Setup
 description: "jane-o-o-o-o/agent-pulse-skill - agent-pulse (32.4K installs): CLI source of truth for local AI-agent activity via the agentpulse-cli PyPI package; monitors agent runs, sessions, and activity."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-pulse-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "monitoring", "cli", "observability"]
 ---
 

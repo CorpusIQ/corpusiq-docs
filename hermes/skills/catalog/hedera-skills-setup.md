@@ -3,7 +3,7 @@ title: "Hedera Skills - Hedera Web3 Dev Tools Setup"
 description: "Hedera Web3 dev skills: token & consensus services, hackathon PRD and submission validation, session management. ~3,255 installs, 28⭐."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hedera-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "web3", "hedera"]
 ---
 

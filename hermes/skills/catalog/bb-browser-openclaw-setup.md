@@ -3,7 +3,7 @@ title: "bb-browser-openclaw - Setup Guide"
 description: "Full setup guide for bb-browser-openclaw: integrate Blackbox Browser (5,931⭐) with OpenClaw/Hermes agents for Chrome automation with real login state."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bb-browser-openclaw-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

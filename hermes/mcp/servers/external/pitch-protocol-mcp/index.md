@@ -7,7 +7,7 @@ added: 2026-10-13
 source: "mcp.so feed (October 13, 2026 evening sweep)"
 relevance: ★★
 tags: [venture-capital, fundraising, founders, pre-seed, seed, agent-native, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Pitch Protocol MCP

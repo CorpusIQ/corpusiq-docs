@@ -3,7 +3,7 @@ title: "K-Skill - Korean Agent Skills Setup"
 description: "Korean-language agent skill collection covering HWP documents, KakaoTalk, Daiso search, delivery tracking, and law (~425.5k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/k-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "korean", "automation"]
 ---
 

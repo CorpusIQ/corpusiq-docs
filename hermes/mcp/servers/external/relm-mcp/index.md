@@ -7,7 +7,7 @@ added: 2026-08-30
 source: mcpservers.org /all
 relevance: ★★★
 tags: [mcp-server, crm, sales, pipeline, automation, sequences, webhooks, oauth, remote-mcp, streamable-http]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Relm MCP

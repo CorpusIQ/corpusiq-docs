@@ -7,7 +7,7 @@ language: N/A (Hosted)
 transport: Streamable HTTP
 auth: API Key
 category: Communication & Email
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mermail-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

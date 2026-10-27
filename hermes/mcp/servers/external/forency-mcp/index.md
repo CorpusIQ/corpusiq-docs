@@ -7,7 +7,7 @@ added: 2026-08-28
 source: mcp.so homepage new arrivals
 relevance: ★★
 tags: [mcp-server, tech-stack, competitive-intelligence, prospecting, web-analysis, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Forency MCP

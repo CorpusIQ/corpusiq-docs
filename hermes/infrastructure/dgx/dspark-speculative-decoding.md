@@ -3,7 +3,7 @@ title: DSpark Speculative Decoding on DGX Spark
 description: "DSpark speculative decoding for DeepSeek-class models on DGX Spark hardware - a verified two-node vLLM recipe with 1M context and nvfp4 KV."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/dgx/dspark-speculative-decoding/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes agent", "dspark", "speculative decoding", "dgx spark", "vllm", "inference"]
 ---
 

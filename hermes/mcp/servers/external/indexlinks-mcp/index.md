@@ -7,7 +7,7 @@ added: 2026-10-06
 source: "mcpservers.org /all"
 relevance: ★★
 tags: [seo, indexing, crawlers, indexnow, search-console, bing, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # IndexLinks MCP

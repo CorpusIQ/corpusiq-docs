@@ -7,7 +7,7 @@ added: 2026-10-14
 source: "mcp.so feed (October 14, 2026 night sweep)"
 relevance: ★★
 tags: [property-management, maintenance, triage, landlords, field-service, remote-mcp, keyless]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # fixRAgent MCP

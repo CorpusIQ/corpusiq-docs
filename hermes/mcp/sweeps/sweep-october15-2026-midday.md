@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 15, 2026 (Midday Sweep)"
 description: "Midday sweep cataloguing an accounts-receivable MCP layer for Xero and QuickBooks Online."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october15-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

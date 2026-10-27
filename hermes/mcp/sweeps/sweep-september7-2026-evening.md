@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 7, 2026 (Evening Sweep)"
 description: "Evening sweep over the mcp.so feed (30 server blocks) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 5 new business-relevant servers catalogued with guides across sales intelligence, German e-invoicing, human judgment markets, video pipeline and GDPR form classes."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 7, 2026 (Evening Sweep)

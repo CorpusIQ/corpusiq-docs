@@ -3,7 +3,7 @@ title: "GD Agentic Skills - Godot 4 Agent Setup"
 description: "Long-term memory library of 99 expert skills and 27 genre blueprints for Godot 4.7+ AI agents: GDScript, shaders, UI, animation (~33.5K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gd-agentic-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "godot", "game dev"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-08-12
 source: mcpservers.org
 relevance: ★★★
 tags: [erp, field-service, construction, accounting, crm, scheduling, payroll, double-entry, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ATLASS OS MCP

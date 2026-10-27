@@ -7,7 +7,7 @@ added: 2026-09-02
 source: mcp.so
 relevance: ★★★
 tags: [ecommerce, product-feeds, marketplaces, amazon, ebay, feed-management, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Koongo MCP

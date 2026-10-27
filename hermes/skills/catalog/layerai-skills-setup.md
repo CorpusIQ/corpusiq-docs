@@ -3,7 +3,7 @@ title: "Layer Skills - AI Game Asset Creation Suite Setup"
 description: "Setup guide for layerai/skills - 15 agent skills for Layer's AI game asset creation: image editing, 3D, pixel art, audio, video, and art direction."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/layerai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "game assets", "image generation", "3d"]
 ---
 

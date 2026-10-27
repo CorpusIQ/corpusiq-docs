@@ -3,7 +3,7 @@ title: "LaunchDarkly MCP - Feature Flag Management for AI Agents"
 description: "Connect AI agents to LaunchDarkly via the official MCP server. Toggle features, manage progressive rollouts, run experiments, and audit flag changes."
 category: mcp
 tags: [mcp-server]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/launchdarkly-mcp/"
 robots: "index,follow"
 

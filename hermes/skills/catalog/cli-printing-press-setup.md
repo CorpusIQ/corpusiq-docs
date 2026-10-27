@@ -3,7 +3,7 @@ title: "CLI Printing Press - Agent-Native CLI Generator Setup"
 description: "CLI Printing Press: 62.3K combined installs. 20 skills that turn any API into a token-efficient Go CLI, an agent skill and an MCP server."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cli-printing-press-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "cli generation", "api tooling", "go"]
 ---
 

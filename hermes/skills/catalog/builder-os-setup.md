@@ -3,7 +3,7 @@ title: "BuilderOS - Product Builder Workflow Suite Setup"
 description: "Setup guide for buildgreatproducts/builder-os - 15.7K combined installs. Ideation to launch: validators, planners, design system, build loops."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/builder-os-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "product development", "build workflow", "planning"]
 ---
 

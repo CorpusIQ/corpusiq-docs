@@ -7,7 +7,7 @@ added: 2026-08-23
 source: "mcpservers.org /all + GitHub README + vendor page"
 relevance: ★★★
 tags: [background-screening, public-records, safety-compliance, hr-screening, registry-search, staffing, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # OffenderSearch MCP

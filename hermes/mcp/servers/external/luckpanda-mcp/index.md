@@ -7,7 +7,7 @@ added: 2026-10-11
 source: "mcpservers.org /all (Oct 11, 2026 midday sweep)"
 relevance: ★★★
 tags: [invoicing, documents, gst, vat, pdf, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # LuckPanda MCP

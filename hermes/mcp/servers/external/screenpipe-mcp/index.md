@@ -7,7 +7,7 @@ added: 2026-08-18
 source: "mcp.so GitHub issue #3626"
 relevance: ★★★
 tags: [screen-recording, workflow-memory, local-first, audio-transcription, productivity, agent-context, meeting-notes, ocr]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Screenpipe MCP

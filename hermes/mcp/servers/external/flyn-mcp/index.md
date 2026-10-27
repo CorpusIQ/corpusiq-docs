@@ -7,7 +7,7 @@ added: 2026-08-27
 source: "mcpservers.org /all page 2 (www-flyn-to-ai)"
 relevance: ★★
 tags: [url-shortener, link-analytics, qr-codes, click-tracking, marketing-ops, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Flyn MCP

@@ -8,7 +8,7 @@ verified: true
 remote_endpoint: "https://dashboard.taskerarmy.com/mcp"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/taskerarmy-agent-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 title: "TaskerArmy Agent MCP - Shopify Optimization Tasks"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 

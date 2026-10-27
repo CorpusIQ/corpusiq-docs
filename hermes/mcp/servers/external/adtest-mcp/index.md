@@ -7,7 +7,7 @@ added: 2026-09-01
 source: "chatmcp/mcpso issue #3884 (Sep 1, 2026 night sweep)"
 relevance: ★★
 tags: [mcp-server, advertising, ad-creative, scoring, marketing-analytics, stdio]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AdTest.AI MCP

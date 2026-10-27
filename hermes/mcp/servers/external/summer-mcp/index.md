@@ -7,7 +7,7 @@ added: 2026-10-22
 source: "mcpservers.org /all page 1 (summer-mcp, October 22, 2026 midday sweep)"
 relevance: ★★
 tags: [customer-support, helpdesk, cases, investigations, human-approval, knowledge-base, telehealth, remote-mcp, oauth]
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 ---
 
 # Summer MCP

@@ -3,7 +3,7 @@ title: "New Skills - August 18, 2026 Evening"
 description: "skills.sh sweep: Claude for Legal (54.4K, 118), PCL Domain Experts (36.2K, 104), VTEX Skills (32.6K, 51), Genshijin (19.2K, 7), Hono Skill (11.7K, 1), Capawesome (11.4K, 37), Wyatt Walsh Agents (2.1K, 85) - 7 publisher clusters, 403 skills, 7 setup guides."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug18-2026-evening/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh", "new skills"]
 sweep_id: "2026-08-18-evening"
 new_publishers: 7

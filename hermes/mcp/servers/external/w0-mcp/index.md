@@ -7,7 +7,7 @@ added: 2026-08-26
 source: "mcp.so GitHub issue #3758"
 relevance: ★★★
 tags: [geo, aeo, brand-monitoring, ai-search, analytics, marketing, seo, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # w0 MCP Server

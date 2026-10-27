@@ -7,7 +7,7 @@ added: 2026-09-14
 source: "chatmcp/mcpso issue #4099 + vendor site hilead.co"
 relevance: ★★
 tags: [sales, prospecting, leads, b2b, gtm, signals, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Hilead MCP

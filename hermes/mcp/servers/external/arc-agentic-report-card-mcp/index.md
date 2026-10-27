@@ -7,7 +7,7 @@ added: 2026-10-13
 source: "mcp.so feed + official MCP registry (ai.arcreport/mcp; October 13, 2026 evening sweep)"
 relevance: ★★★
 tags: [agentic-commerce, checkout, agent-readiness, ecommerce, ucp, keyless, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ARC Agentic Report Card MCP

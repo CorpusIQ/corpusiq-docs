@@ -1,7 +1,7 @@
 ---
 title: "Growth - Affiliate Program - CorpusIQ Docs"
 description: "CorpusIQ affiliate program: 25 percent recurring commission for three years on every referral. Public program details."
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/growth/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

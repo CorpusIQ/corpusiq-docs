@@ -7,7 +7,7 @@ added: 2026-09-04
 source: "mcp.so GitHub issue #3937"
 relevance: ★★★
 tags: [human-in-the-loop, approvals, notifications, handoffs, agent-ops, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # PingRoom MCP

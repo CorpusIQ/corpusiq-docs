@@ -3,7 +3,7 @@ title: find-skills - Skill Discovery Tool for Hermes Agents
 description: Install and use vercel-labs/skills@find-skills (2.5M installs) to search across skills.sh, agentskills.io, npm, and GitHub for Hermes-compatible agent skills in a single query.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/find-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

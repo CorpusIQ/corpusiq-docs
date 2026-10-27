@@ -7,7 +7,7 @@ added: 2026-08-26
 source: mcp.so feed
 relevance: ★★★
 tags: [mcp-server, e-commerce, amazon, data-layer, read-only, seller-tools, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Hologrow MCP

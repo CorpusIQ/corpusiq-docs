@@ -3,7 +3,7 @@ title: "CorpusIQ MCP Connectors - CorpusIQ Docs"
 description: Complete catalog of all available CorpusIQ MCP connectors for Hermes agents. Updated as connectors are added.
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/connectors/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

@@ -7,7 +7,7 @@ added: 2026-10-08
 source: "mcpservers.org /all (October 8, 2026 night sweep)"
 relevance: ★★★
 tags: [seo, search-engine-modeling, ai-visibility, content, crawl, analytics]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Market Brew MCP

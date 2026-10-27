@@ -7,7 +7,7 @@ added: 2026-08-22
 source: "mcp.so GitHub issue #3698"
 relevance: ★★★
 tags: [legal, compliance, business-formation, llc, nonprofit, naics, law-search, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Corpus Law MCP

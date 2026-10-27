@@ -7,7 +7,7 @@ added: 2026-09-02
 source: "mcp.so GitHub issue #3893"
 relevance: ★★
 tags: [social-media, publishing, scheduling, analytics, multi-platform, content]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # BulkPublish MCP - Multi-Platform Social Publishing for Agents

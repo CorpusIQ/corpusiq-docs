@@ -3,7 +3,7 @@ title: "ASO Skills - App Store Optimization Suite Setup"
 description: "ASO Skills: 106.5K combined installs. 40 skills for store keyword research, metadata, screenshots, launch, paywall and retention work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aso-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "app store optimization", "mobile growth", "marketing"]
 ---
 

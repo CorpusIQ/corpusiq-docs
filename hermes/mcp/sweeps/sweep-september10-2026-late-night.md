@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 10, 2026 (Late-Night Sweep)"
 description: "Late-night sweep over the mcp.so feed (30 blocks), mcpservers.org /all pages 1-2 via r.jina.ai and chatmcp/mcpso issues #4036-#4054. 7 new business-relevant servers catalogued with guides, all endpoints live-probed over JSON-RPC: Reach MCP (LinkedIn account ops), Nova Amazon MCP (Seller Central profit analytics), Canarics (sales call analytics), Airside Labs (aviation reference data), YoTrends (trend content packs), SEOVally (SEO audits) and GramClaw (Telegram outreach). Plus a HasData guide refresh for 5 new per-connector listings."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 10, 2026 (Late-Night Sweep)

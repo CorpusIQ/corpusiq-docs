@@ -7,7 +7,7 @@ added: 2026-08-18
 source: "mcp.so GitHub issue #3637"
 relevance: ★★
 tags: [financial-data, sec-filings, insider-trading, 13f, market-intelligence, remote-mcp, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Profitelligence MCP

@@ -7,7 +7,7 @@ added: 2026-08-17
 source: "mcp.so GitHub issue #3611"
 relevance: ★★
 tags: [content, ai-detection, de-ai, voice, copywriting, linkedin, cold-email, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Personhood MCP

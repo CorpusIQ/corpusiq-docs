@@ -7,7 +7,7 @@ added: 2026-10-12
 source: "mcp.so /feed (Oct 12, 2026 midday sweep)"
 relevance: ★★★
 tags: [real-estate, parcels, zoning, permits, due-diligence, land-records, property-data, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Placestack MCP

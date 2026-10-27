@@ -3,7 +3,7 @@ title: MongoDB Agent Skills - Database Skills for Hermes Agents
 description: MongoDB's official agent skills - schema design, natural language querying, search and AI, Atlas Stream Processing. 3.5K+ combined installs across 6 skills for building with MongoDB.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mongodb-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

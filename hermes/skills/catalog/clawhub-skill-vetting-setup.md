@@ -3,7 +3,7 @@ title: "ClawHub Skill Vetting - Security Scanner Setup"
 description: "Skill security scanner for Clawhub - scan and vet skills before install. ~1,656 installs, 5⭐."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawhub-skill-vetting-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "skill vetting"]
 ---
 

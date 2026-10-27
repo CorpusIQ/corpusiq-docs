@@ -3,7 +3,7 @@ title: "New Skills - October 9, 2026"
 description: "Skills.sh sweep (Oct 9 morning): 442 skills checked; 1 new publisher guide - Modern Web Guidance, official Google Chrome web best-practices skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct9-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

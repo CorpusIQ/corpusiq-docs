@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "mcpservers.org /all page 3 + vendor page at mcpservers.org/servers/get-mcp-ads"
 relevance: ★★★
 tags: [google-ads, meta-ads, tiktok-ads, ga4, search-console, ad-operations, campaign-management, read-only-free, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Get Ads MCP

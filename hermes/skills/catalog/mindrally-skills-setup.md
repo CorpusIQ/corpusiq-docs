@@ -3,7 +3,7 @@ title: "Mindrally Skills - 255+ Coding Setup"
 description: "255+ Claude Code skills converted from Cursor rules with expert coding guidelines for every major framework and language (~133.8k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mindrally-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "coding", "frameworks"]
 ---
 

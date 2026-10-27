@@ -3,7 +3,7 @@ title: "AI Agent Skills - Creative and Platform Stack Setup"
 description: "AI Agent Skills: 14.9K combined installs. 39 skills for OWASP security, GitHub trending, Figma, MongoDB, cloud deploys and AI video."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-agents-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "developer tooling", "creative stack", "cloud deploy"]
 ---
 

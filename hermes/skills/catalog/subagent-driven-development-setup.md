@@ -3,7 +3,7 @@ title: Subagent-Driven Development - Skill Setup Guide
 description: Install and configure subagent-driven-development, the official Hermes Agent skill for dispatching parallel subagents per task with systematic two-stage review - 88 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/subagent-driven-development-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

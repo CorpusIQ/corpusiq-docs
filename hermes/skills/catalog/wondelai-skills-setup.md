@@ -3,7 +3,7 @@ title: "Wondelai Skills - Book Framework Business & Design Setup"
 description: "Setup guide for wondelai/skills - 275.9K combined installs. 65 skills: 51 frameworks from bestselling business and design books plus 14 metaskills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wondelai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "business frameworks", "ux design", "software design"]
 ---
 

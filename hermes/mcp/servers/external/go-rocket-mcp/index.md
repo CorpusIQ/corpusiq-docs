@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcpservers.org + go-rocket.ai"
 relevance: ★★★
 tags: [video-ads, ai-video, url-to-video, vertical-video, ad-creative, presenter, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Go Rocket MCP

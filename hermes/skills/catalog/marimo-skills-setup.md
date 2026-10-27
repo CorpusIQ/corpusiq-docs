@@ -3,7 +3,7 @@ title: "Marimo Skills - Notebook Agents Setup"
 description: "Official Marimo skills for coding agents: notebooks, batch execution, anywidget, Jupyter migration, and WASM compatibility (~28.4k installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/marimo-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "data science", "notebooks"]
 ---
 

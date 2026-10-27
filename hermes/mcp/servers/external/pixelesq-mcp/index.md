@@ -7,7 +7,7 @@ added: 2026-09-12
 source: mcpservers.org official listing (pixelesq-mcp)
 relevance: ★★★
 tags: [website-management, cms, seo, google-search-console, analytics, content, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Pixelesq MCP

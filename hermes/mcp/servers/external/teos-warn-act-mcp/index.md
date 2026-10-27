@@ -7,7 +7,7 @@ added: 2026-08-23
 source: "mcp.so feed (Aug 23) + tppflow.com/llms.txt"
 relevance: ★★★
 tags: [warn-act, layoffs, labor-market-data, corporate-distress, alternative-data, hr-compliance, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # TEOS WARN Act Layoff Intelligence MCP

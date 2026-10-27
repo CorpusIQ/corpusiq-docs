@@ -7,7 +7,7 @@ added: 2026-08-17
 source: "mcp.so GitHub issue #3607"
 relevance: ★★★
 tags: [app-store, google-play, app-store-connect, aso, app-operations, vitals, stdio-mcp, open-source]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # StorePilot MCP

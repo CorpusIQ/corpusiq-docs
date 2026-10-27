@@ -3,7 +3,7 @@ title: "PluggyAI Agent Skills - Open Finance Setup"
 description: "Skills for building with Pluggy open finance APIs: integration guidance, payments, and connector health diagnostics (~1.5K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pluggyai-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "open finance", "fintech"]
 ---
 

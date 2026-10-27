@@ -3,7 +3,7 @@ title: "CloudBase Skills - Tencent Full-Stack Apps Setup"
 description: "Setup guide for tencentcloudbase/cloudbase-skills - 12.5K combined installs. Official Tencent CloudBase skills for web, mini program, and app."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cloudbase-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "cloud development", "tencent cloudbase", "miniprogram"]
 ---
 

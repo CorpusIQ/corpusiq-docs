@@ -3,7 +3,7 @@ title: "Modern Web Guidance - Google Chrome Agent Skill Setup"
 description: "Setup guide for googlechrome/modern-web-guidance: official Google Chrome skills for modern web best practices and Chrome extension development."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/googlechrome-modern-web-guidance-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "google chrome", "web development", "frontend", "chrome extensions"]
 ---
 

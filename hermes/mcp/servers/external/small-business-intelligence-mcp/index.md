@@ -7,7 +7,7 @@ added: 2026-08-31
 source: "chatmcp/mcpso issue #3856 (Aug 31, 2026 afternoon sweep)"
 relevance: ★★★
 tags: [mcp-server, small-business, market-research, public-records, real-estate, local-intelligence, keyless]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Small Business Intelligence MCP (by Brick & Mortar)

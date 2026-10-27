@@ -7,7 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [web-search, scraping, duckduckgo, markdown-extraction, no-api-key, research-tools, go, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # mcp-retrieval

@@ -3,7 +3,7 @@ title: "Hallmark Design Skill Setup Guide for Hermes Agents"
 description: "nutlope/hallmark - 48.6K installs, 27.6K stars: Hassan El Mghari's anti-AI-slop design skill that makes agent-generated UIs look made, not generated - structural variety, tactile rebellion, opinionated layout rules."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hallmark-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "design", "frontend", "anti-ai-slop", "ui"]
 ---
 

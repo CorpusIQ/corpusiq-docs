@@ -7,7 +7,7 @@ added: 2026-08-15
 source: mcp.so
 relevance: ★★★
 tags: [options, volatility, greeks, gamma-exposure, options-chain, trading-analytics, quantitative-finance, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # ApexVol MCP

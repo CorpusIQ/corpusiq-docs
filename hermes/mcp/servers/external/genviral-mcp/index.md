@@ -7,7 +7,7 @@ added: 2026-08-29
 source: mcp.so feed
 relevance: ★★★
 tags: [mcp-server, social-media, content-creation, scheduling, publishing, analytics, oauth, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Genviral MCP

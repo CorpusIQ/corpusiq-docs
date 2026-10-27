@@ -1,7 +1,7 @@
 ---
 title: Guides - Hermes Agent Patterns and Research
 description: "Practical guides for Hermes agents: AI memory systems, MCP servers for business operators, trending agent tools, and Claude Code integration."
-last_updated: 2026-10-21
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/guides/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

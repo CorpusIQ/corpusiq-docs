@@ -3,7 +3,7 @@ title: New Skills  --  June 19, 2026 Batch 2 (15 repos, 20+ skills)
 description: Second June 19 sweep  --  15 new repos including workspace memory management, session maintenance, skill auditing, MAX Bot bridge, GitHub launch pipeline, agent apprenticeship, and Feishu rendering patches.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june19-2026-batch2/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

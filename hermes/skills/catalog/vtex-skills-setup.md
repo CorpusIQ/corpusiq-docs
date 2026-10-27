@@ -3,7 +3,7 @@ title: "VTEX Skills - Commerce Platform Development Suite Setup"
 description: "vtex/skills - 51 skills, 32.6K installs: VTEX's official ecommerce development suite covering VTEX IO apps, FastStore storefronts, headless BFFs, payments, and marketplace integrations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vtex-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "ecommerce", "vtex", "faststore", "marketplace"]
 ---
 

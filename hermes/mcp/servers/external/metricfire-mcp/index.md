@@ -7,7 +7,7 @@ added: 2026-08-26
 source: mcpservers.org
 relevance: ★★
 tags: [mcp-server, monitoring, graphite, alerts, metrics, observability, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # MetricFire MCP

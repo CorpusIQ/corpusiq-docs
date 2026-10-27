@@ -7,7 +7,7 @@ added: 2026-09-27
 source: "mcp.so server page (mcp.paperoffice.ai)"
 relevance: ★★★
 tags: [dms, document-management, ocr, invoice-capture, e-signature, audit-trail, eu-hosting, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # PaperOffice AI MCP

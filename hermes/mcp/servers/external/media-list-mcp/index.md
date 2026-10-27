@@ -7,7 +7,7 @@ added: 2026-10-12
 source: "chatmcp/mcpso issue #5211 (Oct 12, 2026 evening sweep)"
 relevance: ★★
 tags: [pr, public-relations, journalists, media-contacts, podcasts, outreach, marketing, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Media List MCP

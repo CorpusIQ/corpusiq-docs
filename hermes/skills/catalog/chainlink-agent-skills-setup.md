@@ -7,7 +7,7 @@ maturity: production
 source: https://github.com/smartcontractkit/chainlink-agent-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/chainlink-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

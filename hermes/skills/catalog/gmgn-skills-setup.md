@@ -3,7 +3,7 @@ title: "GMGN Agent Skills - On-Chain Analytics and Trading Setup"
 description: "GMGN Agent Skills: 156.2K combined installs. 19 skills for multi-chain token analytics, smart-money tracking, contract scoring and on-chain swaps."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gmgn-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-22"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "crypto", "on-chain data", "trading"]
 ---
 

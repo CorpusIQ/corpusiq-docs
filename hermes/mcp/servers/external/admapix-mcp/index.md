@@ -7,7 +7,7 @@ added: 2026-08-20
 source: "mcp.so GitHub issue #3663"
 relevance: ★★
 tags: [ad-intelligence, competitor-research, ad-creatives, marketing-intelligence, advertising-data, creative-research, stdio-mcp, api-key]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # AdMapix MCP

@@ -3,7 +3,7 @@ title: Autonnel Skills - Conversion and Funnel Optimization
 description: "autonnel/autonnel-skills - 6 skills, 147.5K combined installs: landing page conversion audits, sales funnel blueprints, server-side conversion tracking, funnel platform selection, post-purchase upsell flows, and self-hosted funnel launches."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/autonnel-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "conversion optimization", "sales funnel", "landing page", "server-side tracking", "upsell"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-10-04
 source: mcpservers.org
 relevance: ★★★
 tags: [marketing, social-media, content, analytics, x, linkedin, remote-mcp, oauth]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # LinkIntel MCP

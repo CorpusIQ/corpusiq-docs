@@ -7,7 +7,7 @@ added: 2026-08-18
 source: "mcp.so GitHub issue #3625"
 relevance: ★★★
 tags: [social-media, tiktok, instagram, youtube, video-posting, managed-accounts, scheduling, analytics, marketing, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # TokPortal MCP

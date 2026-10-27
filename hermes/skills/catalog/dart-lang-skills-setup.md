@@ -3,7 +3,7 @@ title: "Dart Language Skills Setup Guide for Hermes Agents"
 description: "dart-lang/skills - 144.0K installs across 30 skills, official Dart org: the Dart team's first-party agent skills for testing, static analysis, package conflicts, FFI, CLI apps, and idiomatic Dart and Flutter development."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dart-lang-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "dart", "flutter", "testing", "static analysis", "ffi"]
 ---
 

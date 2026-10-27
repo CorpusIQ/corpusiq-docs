@@ -7,7 +7,7 @@ added: 2026-09-30
 source: "mcp.so feed #1 (pixeldojo-3159cd)"
 relevance: ★★
 tags: [creative, image-generation, video-generation, audio, media-pipeline, remote-mcp, stdio, oauth, mit]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # PixelDojo MCP

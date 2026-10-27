@@ -7,7 +7,7 @@ added: 2026-09-30
 source: "mcp.so server page (manifold-mcp)"
 relevance: ★★★
 tags: [marketing, seo, serp, backlinks, ai-visibility, social-data, ad-library, lead-enrichment, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Manifold MCP

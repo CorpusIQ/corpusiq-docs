@@ -3,7 +3,7 @@ title: "Herdr Skills - Terminal Workspace Orchestration Setup"
 description: "herdrdev/herdr - 5 skills, 28.1K installs: terminal workspaces, tabs, panes, and agent-aware session control exposed through the herdr CLI. 29.7K GitHub stars, 3/3 security audit passes."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/herdr-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "terminal", "orchestration", "herdr"]
 ---
 

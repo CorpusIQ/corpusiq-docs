@@ -7,7 +7,7 @@ added: 2026-09-15
 source: "chatmcp/mcpso issues #4152/#4153 + vendor site litescrape.com"
 relevance: ★★
 tags: [search, serp, google, bing, duckduckgo, google-maps, keyless, stdio]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Litescrape MCP

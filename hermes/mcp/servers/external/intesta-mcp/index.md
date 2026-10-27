@@ -7,7 +7,7 @@ added: 2026-08-27
 source: "chatmcp/mcpso issue #3801"
 relevance: ★★
 tags: [entity-verification, trust-ladder, business-data, attestation, fact-passports, kyv, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Intesta MCP

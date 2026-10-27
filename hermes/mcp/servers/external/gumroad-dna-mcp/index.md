@@ -7,7 +7,7 @@ added: 2026-10-05
 source: "chatmcp/mcpso issues (#4791)"
 relevance: ★★
 tags: [gumroad, ecommerce, creators, products, sales, license-keys, stdio, self-hosted, mit]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # GumroadDNA MCP

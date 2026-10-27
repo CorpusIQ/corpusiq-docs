@@ -3,7 +3,7 @@ title: "Open Mercato Skills - Enterprise ERP Engineering Setup"
 description: "Setup guide for open-mercato/skills - 79.0K combined installs. 63 enterprise ERP engineering skills: PR loops, upgrades, modules, and conventions."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/open-mercato-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "erp engineering", "pr automation", "code review"]
 ---
 

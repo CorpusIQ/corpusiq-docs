@@ -2,7 +2,7 @@
 title: "runbook.v1: Governed Workflow Execution for MCP"
 description: "runbook.v1 is an application-layer contract for MCP that makes enterprise workflow execution required, versioned, and auditable. Deterministic at the host boundary, free reasoning between checkpoints. Schema, reference implementation, and conformance suite."
 tags: [mcp, runbook, governance, workflows, enterprise]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # runbook.v1: Governed Workflow Execution for MCP

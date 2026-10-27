@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcp.so server page (cartesia-mcp)"
 relevance: ★★★
 tags: [voice, text-to-speech, tts, audio, phone, agents, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Cartesia MCP

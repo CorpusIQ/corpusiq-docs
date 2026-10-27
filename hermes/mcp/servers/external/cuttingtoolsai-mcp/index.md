@@ -7,7 +7,7 @@ added: 2026-08-21
 source: "mcp.so GitHub issue #3666"
 relevance: ★★
 tags: [manufacturing, machining, carbide, procurement, industrial-data, cross-reference, remote-mcp, cnc]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # CuttingToolsAI MCP

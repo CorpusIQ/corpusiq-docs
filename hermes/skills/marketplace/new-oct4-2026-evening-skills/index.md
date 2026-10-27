@@ -3,7 +3,7 @@ title: "New Skills - October 4, 2026 (Evening)"
 description: "Skills.sh sweep (Oct 4 evening): 708 skills, 9 NEW below floor; 1 un-parked guide - Moonlight Lupin Agent Skills (35-skill Hermes suite, ~3.4K installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct4-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

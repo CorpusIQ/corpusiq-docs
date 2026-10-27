@@ -3,7 +3,7 @@ title: "TestDino Playwright Skills - 79-Guide Testing Suite Setup"
 description: "testdino-hq/playwright-skill: 8.7K combined installs across 9 listings. 79 Playwright 1.64 guides for E2E, QA, CI, CLI automation, and migration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/testdino-playwright-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-20"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "playwright", "testing", "browser automation"]
 ---
 

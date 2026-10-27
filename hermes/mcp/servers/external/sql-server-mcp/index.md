@@ -7,7 +7,7 @@ added: 2026-09-11
 source: mcpservers.org /all via r.jina.ai
 relevance: ★★
 tags: [sql-server, dba, database, execution-plans, indexes, multi-instance, self-hosted]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # SQL Server MCP

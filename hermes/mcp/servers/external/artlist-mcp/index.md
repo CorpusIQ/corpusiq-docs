@@ -7,7 +7,7 @@ added: 2026-09-09
 source: mcp.so
 relevance: ★★★
 tags: [image-generation, video-generation, music-generation, voice-over, creative, media-production, content-creation, remote-mcp]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Artlist MCP

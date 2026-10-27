@@ -12,7 +12,7 @@ discovered: 2026-07-24
 pricing: Pro $49/mo · Operating $149/mo · Studio $299/mo · 14-day free trial
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/groundwork-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Groundwork MCP - Company-State Feed for AI Agents

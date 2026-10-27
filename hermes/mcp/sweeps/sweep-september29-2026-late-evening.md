@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 29, 2026 (Late Evening)"
 description: "Late evening sweep over the mcp.so /feed (29 server blocks, direct fetch) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy, with 7 detail pages fetched. 5 new business-relevant servers catalogued with guides: Unipile MCP, Rebbel MCP, fAlpha MCP, Porkbun MCP and Dumpster Controls MCP."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 29, 2026 (Late Evening)

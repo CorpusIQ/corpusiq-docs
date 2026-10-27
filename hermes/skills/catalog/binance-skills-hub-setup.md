@@ -3,7 +3,7 @@ title: "Binance Skills Hub - Crypto Trading Skills Setup"
 description: "Binance Skills Hub: 146.7K combined installs. 35 skills for spot and futures orders, Web3 wallets, token audits and on-chain signals."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/binance-skills-hub-setup/"
 robots: "index,follow"
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "crypto", "trading", "binance", "web3"]
 ---
 

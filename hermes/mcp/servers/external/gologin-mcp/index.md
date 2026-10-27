@@ -10,7 +10,7 @@ created: 2025-06-18
 repository: "https://github.com/gologinapp/gologin-mcp"
 category: "Social Media / Automation"
 priority: "★★"
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/gologin-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

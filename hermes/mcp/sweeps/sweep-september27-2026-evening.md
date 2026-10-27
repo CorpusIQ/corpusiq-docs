@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 27, 2026 (Evening Sweep)"
 description: "Evening sweep over the mcp.so feed (30 server blocks, direct fetch with TanStack Router refs) and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy, with 18 detail pages fetched. 22 new business-relevant servers catalogued with guides: Warmerly MCP, HarborRank MCP, seodraft MCP, Shipwork SEO Checks, Deeplead MCP, Sendsets MCP, ContentStudio MCP Server, Go Rocket MCP, Gloom MCP, DeepLedger MCP, Handl MCP, Stackcut MCP, PaperOffice AI MCP, Databar.ai MCP, Tyton MCP, Sunglasses MCP, StartupPerks MCP, Odichat MCP, Userport MCP, Mnemos MCP, ZTDS MCP and MediaFast MCP."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 27, 2026 (Evening Sweep)

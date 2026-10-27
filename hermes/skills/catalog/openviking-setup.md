@@ -3,7 +3,7 @@ title: "OpenViking Skills - Agent Context Database Setup"
 description: "OpenViking agent skills: context database memory, experience memory, recall and cron jobs for AI agents. 3.8k indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openviking-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "agent memory", "context database"]
 ---
 

@@ -7,7 +7,7 @@ compatibility: Hermes Agent, Claude Code, Codex, Gemini CLI, OpenClaw, Cursor, W
 installs: New (June 2026)
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-gallery-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

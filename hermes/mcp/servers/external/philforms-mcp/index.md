@@ -7,7 +7,7 @@ added: 2026-10-19
 source: "mcpservers.org /all page 1 (philforms/philforms-mcp)"
 relevance: ★★
 tags: [philippines, bir, government-forms, payroll, compliance, pdf, tax-forms, tamper-evident, mit-client]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # PhilForms MCP

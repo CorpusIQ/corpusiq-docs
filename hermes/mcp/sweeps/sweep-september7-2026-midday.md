@@ -3,7 +3,7 @@ title: "MCP Server Discovery - September 7, 2026 (Midday Sweep)"
 description: "Midday sweep over chatmcp/mcpso issues #3938-3990, the mcp.so feed and homepage recentServers, and mcpservers.org /all page 1. 19 new business-relevant servers catalogued with guides across marketing, SEO/GEO, real estate, monitoring, email, productivity, social publishing, marketplace and lead-gen classes."
 category: mcp
 tags: [mcp-servers, daily-scan, september-2026]
-last_updated: 2026-10-19
+last_updated: 2026-10-24
 ---
 
 # MCP Server Discovery - September 7, 2026 (Midday Sweep)

@@ -3,7 +3,7 @@ title: Petr Kindlmann QA Skills - 50-Skill Test Suite
 description: "petrkindlmann/qa-skills - 50 skills, 25.3K combined installs. QA and test-automation skills for any Agent Skills Standard runtime: Playwright and Cypress automation, API/visual/accessibility testing, AI test generation, and release readiness."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/petrkindlmann-qa-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup", "qa"]
 ---
 

@@ -3,7 +3,7 @@ title: Simplify Code - Skill Setup Guide
 description: Install and configure simplify-code, the official Hermes Agent skill for parallel code review and cleanup with four focused reviewers - 187 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/simplify-code-setup/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
