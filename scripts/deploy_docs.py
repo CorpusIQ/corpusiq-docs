@@ -254,12 +254,22 @@ def main():
     #     without manual checks (hard rule: the docs repo must always be perfect).
     print("2c. Perfection pass (dashes/titles autofix)...")
     run("python3 scripts/docs_perfection.py --fix || true")
-    dirty_perf = run("git status --porcelain -- '*.md' '*.html'").strip()
+    # Stage ONLY tracked files the perfection pass modified. A blanket
+    # `git add -A` swept an unrelated UNTRACKED page into this chore commit on
+    # 2026-10-27 (hermes/best-practices/prompt-caching.md), shipping new content
+    # under a maintenance message and out of review. Untracked files belong to
+    # whichever session wrote them; a deploy run must never publish them.
+    dirty_perf = run("git diff --name-only -- '*.md' '*.html'").strip()
     if dirty_perf:
-        run("git add -A -- '*.md' '*.html' && git commit -m 'chore: docs perfection autofix (dashes/titles)'")
+        run("git add -u -- '*.md' '*.html' && git commit -m 'chore: docs perfection autofix (dashes/titles)'")
         print(f"   Perfection fixes committed ({len(dirty_perf.splitlines())} file(s))")
     else:
         print("   No source fixes needed")
+    untracked_perf = run("git ls-files --others --exclude-standard -- '*.md' '*.html'").strip()
+    if untracked_perf:
+        print("   Left untracked on purpose (another writer's files, not staged):")
+        for path in untracked_perf.splitlines():
+            print(f"     {path}")
 
     # 2d. Catalog rosters are DERIVED data: a list of the .md files in their own
     #     directory. Generate them so they cannot drift the way they did (twelve
