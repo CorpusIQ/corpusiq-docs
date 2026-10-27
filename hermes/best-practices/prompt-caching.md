@@ -17,7 +17,7 @@ This page documents the mechanics and the measurement method used on a productio
 
 ## Measured result
 
-Measured over a two-day production window covering several hundred agent sessions:
+Measured on a production Hermes Agent deployment over a two-day window:
 
 | Model | Hit rate |
 |---|---:|
@@ -50,7 +50,7 @@ Read that last line again. Every turn ships a prefix of roughly 100,000 tokens, 
 
 ### Hit versus miss pricing
 
-DeepSeek V4.1 bills cache hits at a small fraction of misses. Off-peak Flash pricing is $0.003 per million cached input tokens against $0.15 per million uncached  --  a 50x gap. Pro widens it to $0.022 against $0.66.
+DeepSeek V4.1 bills cache hits at a small fraction of misses. Off-peak Flash pricing is $0.003 per million cached input tokens against $0.15 per million uncached  --  a 50x gap. Pro charges more on both sides ($0.022 cached against $0.66 uncached), so the ratio narrows to 30x while the dollar spread widens from about 15 cents to about 64 cents per million tokens.
 
 Applied to a window where the cache covered 98.7 percent of input, the bill lands at roughly 3 to 4 percent of what the same traffic would cost uncached. That is what the hit rate buys. Anthropic's prompt caching shows the same shape at different absolute numbers: cache reads bill at roughly 10% of base input, and cache writes carry a small premium, so the crossover comes after a couple of turns rather than immediately.
 
