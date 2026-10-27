@@ -111,8 +111,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-26",
-    "dateModified": "2026-10-26",
+    "datePublished": "2026-10-27",
+    "dateModified": "2026-10-27",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-26">
+  <meta name="last-updated" content="2026-10-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10686,6 +10686,28 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-27-2026-night-sweep-6-new-6-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 27, 2026 - Night Sweep (6 New, 6 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directory-status-re-verified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directory Status Re-Verified
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-26-2026-late-sweep-5-new-5-guides" class="md-nav__link">
@@ -25593,6 +25615,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-27-2026-night-sweep-6-new-6-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 27, 2026 - Night Sweep (6 New, 6 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#directory-status-re-verified" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directory Status Re-Verified
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-26-2026-late-sweep-5-new-5-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -40216,8 +40260,38 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 26, 2026 (late sweep) · <strong>Sources:</strong> mcpservers.org <code>/all</code> page 1 read through the r.jina.ai reader proxy at the 04:01Z stamp (30 cards, counter 17,525 against 17,522 at the midday read, page one in the same order) + mcp.so <code>/feed</code> page 1 read from the raw page with a browser user agent (30 cards, newest <code>2026-10-27T02:25:04Z</code>) + the chatmcp/mcpso issue window #6177 to #6196 over the authenticated GitHub API (20 issues, no gaps) + live JSON-RPC probes on four endpoints, all four gated on <code>initialize</code> with HTTP 401 and one returning a structured 405 that states its own stateless contract, with the capability read from each server's RFC 9728 and RFC 8414 discovery documents + the official MCP registry and vendor-generated tool references for the two servers that could not be probed.</p>
+<p><strong>Last updated:</strong> October 27, 2026 (night sweep) · <strong>Sources:</strong> mcpservers.org <code>/all</code> pages 1 to 3 read through the r.jina.ai reader proxy at the 08:20Z stamp (90 slugs, counter 17,714 against 17,525 at the late pass, page one rotated) + mcp.so <code>/feed</code> page 1 read from the raw page with a browser user agent (28 server cards, newest <code>2026-10-27T09:15:01Z</code>) + the chatmcp/mcpso issue window #6197 to #6214 over the authenticated GitHub API (18 issues, one self-declared duplicate) + live JSON-RPC probes on six endpoints, where Veyra answers unauthenticated <code>initialize</code> and <code>tools/list</code> with seven tools, Zovo serves a 400-tool discovery document at its hosted root, and Reachkit publishes an RFC 7591 registration endpoint and PKCE S256 in its RFC 8414 document + the official MCP registry records for four of the six and the vendor tool references for the two that could not be probed.</p>
 </blockquote>
+<h2 id="october-27-2026-night-sweep-6-new-6-guides">🆕 October 27, 2026 - Night Sweep (6 New, 6 Guides)<a class="headerlink" href="#october-27-2026-night-sweep-6-new-6-guides" title="Anchor link to this section">&para;</a></h2>
+<p>Six hours after the late pass the listing moved further than it had in the previous three passes combined: 17,525 to 17,714, which is 189 servers, and page one rotated rather than repeating for the first time in this stretch. The feed was the quieter surface at two server cards, so the weight went to the submission window, which advanced from <code>#6196</code> to <code>#6214</code> with eighteen issues and one self-declared duplicate, and to the endpoints themselves, where three of the six finds answer unauthenticated <code>initialize</code> with a refusal and two answer with their tool surface already open.</p>
+<ul>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/reachkit-mcp">Reachkit MCP - Cold Email Campaigns an Assistant Can Run</a> · remote Streamable HTTP at <code>https://reachkit.ai/mcp</code>, registry <code>ai.reachkit/reachkit</code> 1.0.0, by Reachkit. <code>initialize</code> returned HTTP 401 <code>{"error":"unauthorized"}</code> with no challenge header, so the contract came from the two discovery documents: <code>/.well-known/oauth-protected-resource</code> returned 200 with one resource, its own authorization server, header bearer tokens and <code>scopes_supported: ["mcp"]</code>; <code>/.well-known/oauth-authorization-server</code> returned 200 with an <strong>RFC 7591 registration endpoint</strong> at <code>/oauth/register</code>, <code>token_endpoint_auth_methods_supported: ["none"]</code> for a public client, PKCE <code>S256</code> only, authorization code and refresh grants, a userinfo endpoint and identity claims <code>sub</code>, <code>email</code>, <code>email_verified</code>. Vendor-documented surface in six flows: search 500M+ people and 70M+ companies by title, seniority, industry, location, size and technology, import contacts with verified work emails at one credit each with a refund when no verified email is found, research a list row by row into merge-tag columns, write sequences with A/B variants, merge tags and spintax plus a preview of every email as it sends, attach inboxes and schedule, pause and read analytics, and list, label and answer Unibox conversations. <strong>The spending path is sending reputation rather than money</strong>: a launched campaign goes out from inboxes attached to the operator's domains, and the vendor keeps the approval step in the client's behaviour while the token carries a single <code>mcp</code> scope, which is the honest arrangement recorded here rather than a scope-level containment. Catalogued because cold outreach is the one acquisition channel where every step is mechanical and the handoffs are where campaigns die. Held details: reply handling needs the Scale plan, and one scope means an agent that reads analytics can also launch.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/zovo-mcp-servers">Zovo MCP Servers - 58 Back-Office Servers for Small Business</a> · MIT, local stdio through a <code>.mcpb</code> bundle or a source build, 41 of them also hosted, by theluckystrike. The hosted root <code>https://mcp.zovo.one/mcp</code> answers a plain <code>GET</code> with a JSON discovery document rather than a challenge, and a bare child endpoint (<code>/mcp/time-tracker</code>) answers <code>initialize</code> with HTTP 200, so the whole surface was read without a credential: <strong>41 endpoints and more than 400 tool names</strong> across invoice (12 tools, <code>invoice_create</code>, <code>invoice_from_hours</code>), bank-statement (15, <code>statement_import</code> and <code>transactions_search</code>), cash-book (8, <code>ledger_build</code>, <code>trial_balance</code>, <code>month_close</code>), asset-register (8, depreciation schedules and the journal and gain on sale), billing-docs (14, credit notes and purchase orders), statement-of-account (8, <code>statement_aging</code>, <code>dunning_text</code>), dunning-letters (11), work-order and change-order (11 to 12 each), per-diem, mileage-log, deposits, petty-cash and amortization (8 to 10 each), plus spreadsheet with <code>sheet_query</code>, pdf, docx, zip and barcode. <strong>The pricing is the plainest in this catalog</strong>: free tier on every server, Pro as a <strong>one-time $19 per server or $39 for the bundle, lifetime</strong>, no subscription. Auth is a static bearer token with no OAuth at all, in three forms - header, <code>/t/&lt;token&gt;</code> path segment or <code>?token=</code> query - with the header taking precedence, an anonymous <code>anon_</code> token minting free at 600 calls an hour and 30 day retention, and Pro tokens verifying offline with Ed25519 at 6000 calls an hour. Containment recorded: local servers keep every record on the machine, the README states a bare hosted endpoint can initialize and list tools but does not authorize tool calls, and money arithmetic is computed to the minor unit rather than estimated. Limitations recorded: npm is not an install path because the packages were never published, a token in a path or query string makes the URL itself the credential, the tax rules are jurisdiction specific, and one maintainer holds all 58 servers.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/veyra-mcp">Veyra MCP - Spend Limits for an Agent That Can Pay</a> · remote Streamable HTTP at <code>https://veyra.money/api/mcp</code>, registry <code>io.github.zapxlabs/veyra</code> 0.1.0, non-custodial USDC on Base. This is the rare remote endpoint that answers more than it refuses: <code>initialize</code> returned HTTP 200 as server <code>veyra</code> 0.1.0 on protocol <code>2025-06-18</code>, <code>tools/list</code> returned 200 with seven tools (<code>get_capabilities</code>, <code>get_budget</code>, <code>list_payment_sources</code>, <code>create_payment</code>, <code>get_payment</code>, <code>list_payments</code>, <code>cancel_payment</code>), and only <code>tools/call</code> returned 401 <code>MISSING_CREDENTIAL</code>, so the schema is public and the account is not. <strong>The containment model is the reason it is catalogued</strong>, and the vendor states its own limits plainly: limits must stay consistent (auto-approve at or below ask, ask at or below per-payment, per-payment at or below daily) and a policy that violates that is rejected at edit time with a reason; payments under auto-max proceed with no prompt, the ask band returns <code>awaiting_approval</code> with a one-time link that lapses after 24 hours, and anything over the ask band or the daily cap is blocked server-side. Auto-pay works through a capped ERC-20 <code>approve</code> to a relayer the vendor operates, and the documentation is blunt that the token contract caps <strong>how much</strong> the relayer may move but not <strong>who</strong> it may move funds to, which is the policy engine, with the recipient allowlist as the only control on destination. Also recorded: a simulated rail that returns <code>confirmed_simulated</code> with <code>simulated: true</code> and is labelled in the API, the dashboard and the tool description so it can never be reported as a real payment, an audit log of 7 days on Free and 90 on Pro and a year on Team with the events that widen authority named (<code>source.allowance_granted</code>, <code>agent.policy_updated</code> with limits before and after, <code>agent.credential_rotated</code>), and USDC on Base only so policy limits stay exact without a price feed. Held to no money being moved in this pass: no payment was created, and the approval page is authenticated by possession of the token plus the matching wallet rather than by a login.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/pr-cy-mcp">PR-CY MCP - 69 SEO Tools, Search Console and Yandex</a> · remote Streamable HTTP at <code>https://mcp-server.pr-cy.ru</code>, registry <code>io.github.vlad4vic-creator/pr-cy-mcp</code> 1.30.0, your own PR-CY API key. <code>initialize</code> without a key returned 401 <code>{"error": "invalid_token", "error_description": "Authentication required"}</code>, and the <code>.well-known</code> path is gated the same way, so the evidence is the published interface documentation, which is better than most paid vendors publish: input types, required fields, enum values, defaults, behavioural limits, a JSON-RPC example and an output schema for all <strong>69 tools</strong>, with the README recording that count checked against the live <code>tools/list</code> on 2026-10-27. Surface groups: account and project tools, keywords and project rankings with <code>check_positions</code> launching a rank check, keyword groups, search and demand (<code>get_wordstat</code> for monthly demand and related phrases, <code>get_serp</code>, <code>get_position</code> for several comma-separated phrases in one request, <code>get_keywords_by_url</code>), crawler audits where <strong><code>get_changed_crawler_pages</code> finds audited pages whose tracked field changed inside a date range</strong>, Search Console and Yandex Webmaster summaries plus historical clicks, impressions and positions by day, week or month, nine Yandex Metrika tools, and twenty-four article and HTML-artifact tools with revision IDs, diff, revert and validation before finalizing. Limitations recorded: <code>get_serp</code> supports <code>google</code> and <code>yandexLive</code> with the <code>language</code> parameter fixed to <code>ru</code>, so it is not a general SERP tool for English; the deepest analytics are Yandex rather than Google; the key is all-or-nothing per account, so an agent wired to it can also create keywords, launch checks and rewrite articles.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ad-library-intelligence-mcp">Ad Library Intelligence MCP - Competitor Ads on Demand</a> · remote Streamable HTTP at <code>https://ad-library-intelligence.mcpize.run/mcp</code>, hosted through mcpize by <code>benthepythondev</code>, free 50 calls a month then $9 for 1,000 or $29 for 5,000. <code>initialize</code> without a key returned HTTP 401 as a <strong>JSON-RPC error</strong> (<code>{"code":-32603,"message":"Bearer token required"}</code>) rather than an HTML wall, which is the shape a client can surface to the operator. Eight documented tools: <code>search_meta_ads</code> (Facebook and Instagram ads by keyword or Page id, with ad text, link, images, videos, platforms, start date and spend and reach where Meta publishes them), <code>search_google_ads_transparency</code> (by domain, brand or advertiser id, with format, first and last day shown and optional EU regional impressions), <code>search_linkedin_ads</code> (headline, text, media, optional landing page, impressions and targeting), <code>get_ads_txt</code> and <code>get_app_ads_txt</code> (every authorised seller line for a publisher or an app developer), plus Framer marketplace, Openverse media and Substack post tools. Limits recorded: 50 records and 10 domains or queries per call, 2 to 90 seconds per call, and spend, reach and impressions exist only where the platforms publish them, which in practice means political and EU advertising. <strong>The best question it answers is a date question</strong>: the creative and the first-seen date together state both the message and how long the advertiser has kept paying for it. Held details: no official registry record, so there is no version to check against, and the EU ad-library obligations widen around January 2027, which changes what the Meta and Google tools can return for European advertisers.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/commentkeyword-mcp">CommentKeyword MCP - Instagram Comment-to-DM Automations</a> · local stdio through <code>npx -y github:commentkeyword/agent-toolkit#v0.2.0</code>, MIT, Node 18+, registry <code>com.commentkeyword/mcp</code> 0.2.0 with an <code>mcpb</code> package. Six tools and a permission model that is the point: <code>create_keyword</code> (with <code>target</code> of <code>next_post</code>, <code>all_posts</code> or <code>specific_posts</code>, DM variants, optional public replies, link tracking and an optional AI agent), <code>update_keyword</code>, <code>list_keywords</code>, <code>get_keyword</code>, <code>delete_keyword</code> and <code>list_agents</code>, gated by <code>keywords:read</code>, <code>keywords:write</code>, <code>keywords:delete</code> and <code>agents:read</code> on the operator's own API token, so a read-only token lets an agent look and not arm anything. The <code>next_post</code> target is what makes it usable in an editing workflow: no media ID is needed and the automation attaches itself to the next post or reel the account publishes, so the DM exists before the Reel does. Containment recorded: DMs go out through Meta's <strong>official Instagram API</strong> on a connected Business or Creator account and the agent never logs in to Instagram, only commenters receive the DM, and the tool descriptions and the bundled Agent Skill instruct the agent to show the keyword, the DM and the target and wait for approval. <strong>Recorded because it corrects a claim this catalog is careful about</strong>: as of October 2026 Meta publishes an official MCP server for ads and not for organic posts, comments or DMs, so every Instagram MCP server is third-party and this one is a third-party platform on Meta's official API rather than a scraper. Held details: there is no remote endpoint, so claude.ai and the ChatGPT web connector cannot attach it, and AI-agent conversation handoff needs a paid plan.</p>
+</li>
+</ul>
+<p><strong>Also read and held.</strong> Of the eighteen issues filed between <code>#6197</code> and <code>#6214</code>, the rest were dispositioned on class: <code>GhostPaw Souls</code> (<code>#6213</code>) keeps an agent's persona as traits that cite the observations justifying them in one SQLite file, held in the agent-memory class this window does not need a fifth of; <code>ScreenVerb</code> (<code>#6206</code>) searches a screenshot library with OCR behind scoped <code>screenshots:read</code> and <code>screenshots:write</code>, held as a consumer capture utility with a well-built OAuth surface; <code>Agent Payment Node</code> (<code>#6205</code>) is a local macOS payment runtime where transfers require foreground owner approval, held beside Veyra because the local-stdio shape cannot be driven without the hardware; <code>cemainou</code> (<code>#6204</code>) is a self-hosted work log that a team's coding agents write into with a <code>/upd</code> confirmation step, held as developer team infrastructure even though the confirmation pattern is the same one this catalog rewards; <code>SocialBlade Creator Stats</code> (<code>#6202</code>), <code>Business Data: Open Data, Crypto &amp; Startups</code> (<code>#6201</code>) and <code>Web Data Tools</code> (<code>#6203</code>) are one publisher's mcpize fleet, held as a fleet with creator stats, public-dataset and scraping classes already carried; <code>Zovo</code> also arrived as issue <code>#6210</code>, catalogued above from its own discovery document; <code>chrome-use</code> (<code>#6198</code>) is the third agent-browser this week after Tabhand and Lilo, a whole window's worth of agents borrowing a signed-in Chrome session, held on saturation; <code>NEM Explorer</code> (<code>#6197</code>) serves Australian electricity market data, held as an energy vertical; <code>Talindrew</code> (<code>#6199</code>) is molecular biology. On <code>/all</code> pages 1 to 3, 90 slugs yielded 68 the catalog does not carry, and the business-relevant remainder was held on class rather than on evidence: <code>FlipProfit</code> (resale marketplace fee calculator for eBay, Poshmark, Mercari, Etsy, Whatnot and Depop) beside <code>Seller Profit Doctor</code> (Etsy, Shopify and Amazon fee and break-even calculators), both keyless and both free, which is a real distinction this pass did not have room to document properly and should be picked up next cycle rather than half-done; <code>KARTA</code> (per-task budget, kill switch and signed receipts for agent spend) beside Veyra and the catalogued AgentLedger; <code>OpenGMB</code> (multi-location Google reviews, posts and profile edits where rules check each change and a person approves it) held beside the catalogued GBPly rather than beside it as a duplicate; <code>CrakSEO</code> in the SEO data class this pass covers with PR-CY; <code>Aiso</code> against the AI-visibility class; <code>Radar</code> (WhatsApp CRM with 100+ tools) and <code>Hoplix</code> (print-on-demand product browsing, quoting and order placement) as CRM and commerce classes already carried; <code>tableski</code> (spreadsheets as SQL tables) and <code>pgwarden</code> (self-hosted Postgres MCP gateway with per-user roles and approval writes) as data infrastructure; <code>nullwire-mcp</code> (credential-scrubbing diagnostic proxy) and <code>KEVwire</code> as security infrastructure; <code>beliefstate</code> and <code>Taxy</code> as finance verticals; <code>CiteRocket Reddit</code> as a social-data reader of the same shape as the catalogued Reddit tools; <code>Privi</code>'s four servers as agent payment infrastructure priced in USDC with no published verification of the chain claims; <code>mcpize</code> and Apify actor listings as publisher fleets; and the consumer, geography and media remainder (Ménage Parfait, Hlídač spoření, Glacier Planner, WhereItGoes, tri-train, The Old Ways Library, DogsLife, VibeFeud, LoreKeeper, Helios, SoKal, Autoza UK, Abmahnexperte, Feeling Search, NetArz, apiclaw, AgentPad, TRNCH, AgentFarm, LobsterMatch, AgentShare, ReplySlip, Ask a Human, CloudHike, Cloady, Bindry, apiverve, buildutilities, Inkra, FreezeText, Distill, Lighthouse MermaidDesk, Acard, Surehand, DESIGN:OS pair, Kerno, LogBrew, ClipSpeed, SeedViral, Levea, Shelfcanvas, Director, agent-media, thumbs, Flaghand, Postey, Postkey, GC Airport Transfers, Calculator for Grading, Mirabello, sports-odds, Privi Quantum, AI Agents Listing, Honcho, Lilo, Tabhand, VLRdevAPI). Carried-but-unledgered check applied: every named hold above is either absent from this catalog by design or already present, and no name above was carried from an earlier report without a disposition of its own.</p>
+<h2 id="directory-status-re-verified">Directory Status Re-Verified<a class="headerlink" href="#directory-status-re-verified" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>mcpservers.org: CorpusIQ listed at <code>/servers/corpusiq-io</code>. A direct curl returns 403 as a bot challenge; the same page through the reader proxy returns HTTP 200 with the listing intact.</li>
+<li>Smithery: <code>https://smithery.ai/server/corpusiq</code> returns 308 to <code>/servers/corpusiq</code>.</li>
+<li>Glama: <code>https://glama.ai/mcp/connectors/io.corpusiq/multi-source-mcp</code> returns HTTP 200 on the connector route.</li>
+<li>mcp.so: absent on the slug probed, HTTP 404.</li>
+</ul>
 <h2 id="october-26-2026-late-sweep-5-new-5-guides">🆕 October 26, 2026 - Late Sweep (5 New, 5 Guides)<a class="headerlink" href="#october-26-2026-late-sweep-5-new-5-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Eleven hours after the midday pass the listing had moved by three, 17,522 to 17,525, with page one in the identical order, so breadth was repetition and the pass spent its weight where a delta lands at this gap: the submission window, which advanced from <code>#6176</code> to <code>#6196</code> with no gaps, the feed, which rotated cards in at the top, and the endpoints themselves. Four of the five finds answer <code>initialize</code> with HTTP 401, which made the discovery documents the primary evidence: a protected-resource document names the resource and the scopes an agent can hold, an authorization-server document states whether a client can register itself and whether PKCE is mandatory, and the difference between a server publishing six separate scopes and one publishing a single coarse scope is visible before anyone signs in.</p>
 <ul>
@@ -48190,7 +48264,17 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/axl-mcp">AXL MCP - Courses, CRM, Checkout and Email Behind One Agent Surface</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/customermates-mcp">Customermates MCP - An Open-Source CRM an Assistant Can Operate</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/rus-sh-mcp">Rus.sh MCP - Short Links, QR Codes and Click Analytics in the Assistant</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/app-store-connect-mcp">App Store Connect MCP - Sales, Proceeds, Reviews and Releases From Apple's Own API</a></li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/app-store-connect-mcp">App Store Connect MCP - Sales, Proceeds, Reviews and Releases From Apple's Own API</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/reachkit-mcp">Reachkit MCP - Cold Email Campaigns an Assistant Can Run</a></p>
+</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/zovo-mcp-servers">Zovo MCP Servers - 58 Back-Office Servers for Small Business</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/veyra-mcp">Veyra MCP - Spend Limits for an Agent That Can Pay</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/pr-cy-mcp">PR-CY MCP - 69 SEO Tools, Search Console and Yandex</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ad-library-intelligence-mcp">Ad Library Intelligence MCP - Competitor Ads on Demand</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/commentkeyword-mcp">CommentKeyword MCP - Instagram Comment-to-DM Automations</a></li>
 </ul>
 
 

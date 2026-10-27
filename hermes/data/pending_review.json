@@ -82609,5 +82609,183 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-27T04:03:36.916267+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ScuraUrsa/hermes-enhancements",
+    "url": "https://github.com/ScuraUrsa/hermes-enhancements",
+    "description": "Hermes Agent enhancements \u2014 research, POVs, and roadmap",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-27T10:01:38Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-27T10:01:44.743449+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "isihigameKoudai/hermes-skills",
+    "url": "https://github.com/isihigameKoudai/hermes-skills",
+    "description": "hermes agent skills",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-27T10:00:59Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-10-27T10:01:44.745477+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yechang1450/open-tui-orchestrator",
+    "url": "https://github.com/yechang1450/open-tui-orchestrator",
+    "description": "Windows-only orchestrator for agent CLIs \u2014 lossless task ledger, memory-fit parallel TUI windows, evidence-verified results. Works with Codex / pi / opencode / Kimi Code / Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent-cli",
+      "automation",
+      "cli",
+      "coding-agents",
+      "headless",
+      "multi-agent",
+      "orchestrator",
+      "parallel-execution",
+      "recovery",
+      "todo-list",
+      "tui",
+      "windows",
+      "windows-terminal"
+    ],
+    "updated_at": "2026-10-27T10:00:32Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nexu-io/open-design",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-10-27T10:01:44.747196+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "luuthaohoa-bot/thinh-vuong-hermes-agent",
+    "url": "https://github.com/luuthaohoa-bot/thinh-vuong-hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-27T09:55:26Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-27T10:01:44.748604+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SHOGO391/higgsfield-cm-mcp",
+    "url": "https://github.com/SHOGO391/higgsfield-cm-mcp",
+    "description": "Higgsfield Seedance\u3067CM\u98a8\u306e\u77ed\u5c3a\u52d5\u753b\u3092\u4f5c\u308b\u305f\u3081\u306eHermes skill\uff08\u624b\u9806\u66f8\uff09\u306e\u914d\u5e03\u30ea\u30dd\u30b8\u30c8\u30ea",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent-skills",
+      "commercial-video",
+      "hermes",
+      "higgsfield",
+      "seedance",
+      "video-generation"
+    ],
+    "updated_at": "2026-10-27T07:55:48Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-27T10:01:53.239608+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Zabat-code/hermes-music-daw",
+    "url": "https://github.com/Zabat-code/hermes-music-daw",
+    "description": "Python MIDI composition with executable arrangement gates + headless MCP server for offline mixing/mastering",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-26T21:25:22Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-27T10:01:53.245779+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "asktt1770/hermes-agent-cachix",
+    "url": "https://github.com/asktt1770/hermes-agent-cachix",
+    "description": "Nix binary cache (Cachix) for NousResearch/hermes-agent: drop-in flake for NixOS hosts too small to build it themselves",
+    "stars": 0,
+    "forks": 0,
+    "language": "Nushell",
+    "topics": [
+      "cachix",
+      "hermes-agent",
+      "nix",
+      "nix-flake",
+      "nixos"
+    ],
+    "updated_at": "2026-10-27T07:40:42Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-27T10:03:44.204486+00:00",
+    "status": "pending"
   }
 ]
