@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 435+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 436+ repos, tools, skills, and integrations
 last_updated: "2026-10-26"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -18,16 +18,16 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **435+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 201 auto-approved (scored >= 70 or manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **436+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 202 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **435+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **436+ repos indexed.**
 
 ## 📊 Category Overview
 
 || Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 18 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 19 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -57,7 +57,7 @@ _Video, social media, content generation_
 
 ## 🧠 Core Framework
 
-_17 repos_
+_19 repos_
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo) ⭐ 64,353
 
@@ -120,6 +120,14 @@ _17 repos_
 >Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides. 
 
 **Language:** TypeScript | **Topics:** ai-agent, desktop-app, hermes-agent, react, rust | **Score:** 84/100
+
+---
+
+### [Adolanium/hermes-gadget-sdk](https://github.com/Adolanium/hermes-gadget-sdk) ⭐ 447
+
+>Build voice and text devices for your Hermes Agent, with ESP32 firmware, a Linux client, and a desktop simulator.
+
+**Language:** C++ | **Topics:** cpp17, embedded, esp-idf, esp32, esp32-s3, hermes-agent, iot, linux, push-to-talk, python, raspberry-pi, sdk, simulator, voice-assistant, websocket
 
 ---
 
@@ -1792,7 +1800,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*435+ repositories in the Hermes ecosystem. Last updated: 2026-10-26. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*436+ repositories in the Hermes ecosystem. Last updated: 2026-10-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
