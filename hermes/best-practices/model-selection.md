@@ -96,6 +96,7 @@ Frontier models carry the hard work: Claude Sonnet 5.5 or Opus 5.5, GPT-5.6, and
 ## Related Pages
 
 - [Best Practices Overview](/hermes/best-practices)  --  All guides
+- [Prompt Caching](prompt-caching.md)  --  How a stable prefix holds a 98 percent hit rate
 - [Setup Guides](/hermes/setup)  --  Platform-specific model configuration
 - [Memory Management](memory-management.md)  --  Context optimization for models
 - [MCP Server Design](mcp-design.md)  --  Design tools for model efficiency

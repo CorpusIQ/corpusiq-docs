@@ -13,17 +13,17 @@ robots: "index,follow"
 
 Prompt caching is the single largest cost lever in a long-running agent, and it is almost never a setting you turn on. A high cache hit rate falls out of how the prompt is built: a large, byte-stable prefix that gets re-sent every turn, and a small delta on top of it. Get the structure right and the hit rate sits at 96 to 99 percent by construction. Get it wrong and it collapses toward zero without any error being raised.
 
-This page documents the mechanics and the measurement method used on a production Hermes Agent deployment (the CorpusIQ growth agent, running DeepSeek V4.1 Flash and V4 Pro), so you can reproduce the numbers on your own install.
+This page documents the mechanics and the measurement method used on a production Hermes Agent deployment (running DeepSeek V4.1 Flash and V4 Pro), so you can reproduce the numbers on your own install.
 
 ## Measured result
 
-Window: 2026-10-25 01:14 UTC to 2026-10-27 13:03 UTC  --  450 sessions, 15,389 API calls.
+Measured over a two-day production window covering several hundred agent sessions:
 
-| Model | Calls | Cache miss (input) | Cache read | Hit rate |
-|---|---|---:|---:|---:|
-| deepseek-flash | 14,924 | 20.3M tokens | 1,546.0M tokens | 98.70% |
-| deepseek-v4-pro | 444 | 0.99M tokens | 29.9M tokens | 96.81% |
-| **Total** | **15,389** | **21.3M tokens** | **1,575.9M tokens** | **98.67%** |
+| Model | Hit rate |
+|---|---:|
+| deepseek-flash | 98.70% |
+| deepseek-v4-pro | 96.81% |
+| **All traffic** | **98.67%** |
 
 The hit rate is not uniform across sessions, and the distribution is the useful part:
 
@@ -38,12 +38,12 @@ Every session in the bottom tail is a short one (one to three API calls). A sess
 
 ## Why 98% is structural, not tuned
 
-The miss tokens are almost exactly one cold prefix per session:
+The miss tokens come out at almost exactly one cold prefix per session:
 
 ```
-21.3M miss tokens  /  450 sessions  =  47,300 tokens per session
-miss share of all tokens sent       =  1.33%
-cache read per API call (Flash)     =  103,590 tokens
+miss tokens per session       =  one prefix  (about 47,000 tokens here)
+miss share of all tokens sent =  1.33%
+cache read per API call       =  about 103,000 tokens
 ```
 
 Read that last line again. Every turn ships a prefix of roughly 100,000 tokens, and the provider charges the cached rate for about 98,700 of them. The cost driver is prefix volume, not per-token price, and the prefix is nearly free.
@@ -52,15 +52,7 @@ Read that last line again. Every turn ships a prefix of roughly 100,000 tokens, 
 
 DeepSeek V4.1 bills cache hits at a small fraction of misses. Off-peak Flash pricing is $0.003 per million cached input tokens against $0.15 per million uncached  --  a 50x gap. Pro widens it to $0.022 against $0.66.
 
-Applying that to the measured window:
-
-| | Cost |
-|---|---:|
-| Actually paid (cached) | $9.00 |
-| Same traffic, no cache | $255.35 |
-| **Saved** | **$246.36 (96.5%)** |
-
-1.6 billion tokens of traffic for nine dollars. That is what the hit rate buys. Anthropic's prompt caching shows the same shape at different absolute numbers: cache reads bill at roughly 10% of base input, and cache writes carry a small premium, so the crossover comes after a couple of turns rather than immediately.
+Applied to a window where the cache covered 98.7 percent of input, the bill lands at roughly 3 to 4 percent of what the same traffic would cost uncached. That is what the hit rate buys. Anthropic's prompt caching shows the same shape at different absolute numbers: cache reads bill at roughly 10% of base input, and cache writes carry a small premium, so the crossover comes after a couple of turns rather than immediately.
 
 ## The four structural rules
 
@@ -141,7 +133,7 @@ Three readings matter:
 
 **Compressing aggressively on short sessions.** Compression on a session that is about to end rewrites the prefix for no benefit. Compress at natural boundaries on long sessions.
 
-**Assuming caching is off because the invoice is high.** At 1.6 billion tokens, an invoice that looks large is usually volume, not a caching failure. Multiply tokens by the miss price to see what the cache is already saving you.
+**Assuming caching is off because the invoice is high.** At a billion tokens of monthly traffic, an invoice that looks large is usually volume, not a caching failure. Multiply tokens by the miss price to see what the cache is already saving you.
 
 ## FAQ
 

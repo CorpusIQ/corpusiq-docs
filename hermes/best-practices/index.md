@@ -124,6 +124,7 @@ Follow [cron design best practices](cron-design): make every cron idempotent, im
 
 - [Cron Design Best Practices](cron-design)  --  Reliable scheduled automation
 - [Model Selection Guide](model-selection)  --  Task-aware model routing
+- [Prompt Caching](prompt-caching)  --  Holding a 96 to 99 percent cache hit rate
 - [Memory Management](memory-management)  --  Context optimization strategies
 - [Security Best Practices](security)  --  Token management and approval gates
 - [Skill Development](skill-development)  --  Building reusable skills
