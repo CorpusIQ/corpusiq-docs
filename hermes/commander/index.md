@@ -1,7 +1,7 @@
 ---
 title: "Commander Common Sense Gate - CorpusIQ Docs"
 description: "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory. judgment verification layer that inspects every proposed acti."
-last_updated: 2026-10-24
+last_updated: 2026-10-27
 canonical: "https://www.corpusiq.io/docs/hermes/commander/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -31,12 +31,13 @@ Commander runs as the master controller. Every task enters through Commander fir
 
 ## Hard Rules
 
-16 hard rules run on every action. Pattern-matched in milliseconds:
+17 hard rules run on every action. Pattern-matched in milliseconds:
 
 - No em dashes in public content
 - No internal analytics data in posts
 - No AI buzzwords
 - Content formula enforcement
+- No "Operator" wording in posts  --  use "business owner" or "professional"
 - No posting to personal LinkedIn
 - URL verification required
 - Check [INTERNAL] folder before INBOX
@@ -47,10 +48,12 @@ Commander runs as the master controller. Every task enters through Commander fir
 - Search knowledge stores before asking the team
 - Check both email accounts
 - No CID-embedded images in emails
+- McKinsey format required for email reports
+- Model pricing is a cost signal, never a reason to delay work
 
 ## Failure Dataset
 
-239 structured records from real Hermes mistakes. Each record maps to one or more of 12 capability categories: completeness, causal reasoning, physical reality, temporal reasoning, social reasoning, scope control, risk judgment, evidence discipline, memory application, uncertainty, resource judgment, security judgment.
+312 structured records from real Hermes mistakes. Each record maps to one or more of 12 capability categories: completeness, causal reasoning, physical reality, temporal reasoning, social reasoning, scope control, risk judgment, evidence discipline, memory application, uncertainty, resource judgment, security judgment.
 
 ## Training Loop
 
