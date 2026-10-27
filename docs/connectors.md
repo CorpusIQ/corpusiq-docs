@@ -3,7 +3,7 @@ title: "Connectors - CorpusIQ Docs - CorpusIQ"
 description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more."
 category: "Documentation"
 tags: ["corpusiq connectors", "business tools ai", "chatgpt business data", "oauth connectors", "crm integration", "accounting integration", "analytics connectors", "connect business data to chatgpt", "mcp connectors"]
-last_updated: "2026-10-24"
+last_updated: "2026-10-27"
 canonical: "https://www.corpusiq.io/docs/connectors"
 robots: "index,follow"
 ---
@@ -69,6 +69,7 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 | Connector | Description |
 |-----------|-------------|
 | **Shopify** | Orders, products, customers, inventory, and store analytics. Query order history, revenue, and product performance. |
+| **SHOPLINE** | Orders, products, inventory, and customer records from a SHOPLINE store, queried in plain English with cited answers. |
 | **Amazon Seller Central** | Orders, inventory, sales metrics, financial events, and marketplace participations. |
 | **eBay** | Seller orders, transactions, performance overview, seller standards, customer service metrics, traffic reports, and funds summary. |
 | **Etsy** | Shop orders, listings, revenue data, and seller performance metrics. |
@@ -164,7 +165,7 @@ Each connector has a dedicated setup guide with required scopes, example questio
 [Amazon Seller](/connectors/amazon_seller) · [Calendly](/connectors/calendly)
 [Close](/connectors/close) · [Constant Contact](/connectors/constantcontact)
 [Azure Cosmos DB](/connectors/cosmosdb) · [Dropbox](/connectors/dropbox)
-[eBay](/connectors/ebay) · [Meta (Facebook, Instagram, Ads)](/connectors/facebook_marketing)
+[eBay](/connectors/ebay) · [Etsy](/connectors/etsy) · [Meta (Facebook, Instagram, Ads)](/connectors/facebook_marketing)
 [GA4](/connectors/ga4) · [GoHighLevel (LeadConnector)](/connectors/gohighlevel)
 [Google Ads](/connectors/google_ads) · [Google Workspace](/connectors/google_workspace)
 [GunBroker](/connectors/gunbroker) · [HubSpot](/connectors/hubspot)
@@ -177,11 +178,13 @@ Each connector has a dedicated setup guide with required scopes, example questio
 [PostgreSQL](/connectors/postgres) · [PostHog](/connectors/posthog)
 [Postscript](/connectors/postscript) · [QuickBooks](/connectors/quickbooks)
 [Google Search Console](/connectors/search-console) · [Semrush](/connectors/semrush)
-[Shopify](/connectors/shopify) · [Slack](/connectors/slack)
+[Shopify](/connectors/shopify) · [SHOPLINE](/connectors/shopline) · [Slack](/connectors/slack)
 [Stripe](/connectors/stripe) · [TikTok](/connectors/tiktok)
 [YouTube](/connectors/youtube)
 
 Looking for something not in this list? See [how to connect a new data source](#how-do-i-connect-a-new-data-source) or browse the [full connector directory](https://corpusiq.io/connectors).
+
+Planned, not live yet: [MongoDB](/connectors/mongodb). Status is driven by customer demand, so the page documents the intended scope rather than a shipping integration.
 
 <script type="application/ld+json">
 {

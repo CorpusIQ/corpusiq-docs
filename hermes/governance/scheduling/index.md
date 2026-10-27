@@ -272,7 +272,7 @@ The 10 PM system health monitor checks:
 ```python
 # What it verifies nightly:
 check_1 = cronjob_list()                    # All crons running?
-check_2 = gmail_token_valid()              # media@ + info@ tokens
+check_2 = gmail_token_valid()              # Both mailbox tokens
 check_3 = github_token_valid()             # Classic PAT
 check_4 = heygen_token_valid()             # Video pipeline
 check_5 = postiz_integrations_alive()      # X + LinkedIn + TikTok + Instagram
@@ -283,7 +283,7 @@ check_9 = disk_space()                     # >10% free
 check_10 = memory_usage()                  # <90%
 ```
 
-Failures are emailed to media@ (critical failures also to benoit.p@). The 1 AM drift prevention cron does a deeper integrity check.
+Failures are emailed to the ops mailbox, with critical failures also sent to the on-call operator. The 1 AM drift prevention cron does a deeper integrity check.
 
 ---
 

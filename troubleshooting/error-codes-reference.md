@@ -18,6 +18,10 @@ When something goes wrong, CorpusIQ or a vendor returns an error code or message
 | `403 Forbidden: Insufficient scopes` | The token was granted but some permission scopes were unchecked during OAuth. | Disconnect, reconnect, and leave all scopes checked during the consent screen. |
 | `403 Forbidden: Admin approval required` | Your workspace admin has blocked third-party apps. | Ask your IT/workspace admin to pre-approve "CorpusIQ" in your org's admin console (Google Workspace, Microsoft 365, Shopify Plus). |
 | `MFA/2FA prompt not handled` | You enabled MFA on your account after connecting, or the OAuth flow timed out during 2FA verification. | Use an incognito browser, disconnect, then reconnect while keeping only the right account logged in. |
+| `403 TRIAL_EXPIRED` | The trial ended and no active subscription covers the account, either your own or your team owner's. The response carries the evaluated date as `details.trial_ends_at`. | Start a plan, then retry. See [trial-expired.md](trial-expired.md) for team coverage and data-retention details. |
+| `MCP_REFRESH_DISABLED` | Refresh tokens are switched off for this deployment, so connected clients cannot renew access. | Reconnect the client, or use the device login flow to issue a new access token. |
+| `401 INVALID_REFRESH_TOKEN` | The refresh token was already rotated, expired, or revoked. | Reconnect the MCP client so it obtains a new refresh token. |
+| `403 ACCOUNT_NOT_ELIGIBLE` | The account exists but is deactivated or its email is not verified. | Verify the email address, then retry. Reactivation may need support if the account was deactivated by a failed trial check. |
 
 ### Data & query errors
 

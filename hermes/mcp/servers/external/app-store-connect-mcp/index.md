@@ -28,7 +28,7 @@ Registry:    io.github.idoo/app-store-connect-mcp, latest 0.13.0
 
 ## Why This Matters for Operators
 
-An app business has two data problems that look like one. The first is marketing: what is happening in the store, which keywords move, what competitors look like. The second is money: units, proceeds by currency, refunds, subscription revenue, and the funnel from impression to install. The catalog already carries the first problem through [AppSigma's public App Store data](/hermes/mcp/servers/external/appsigma-app-store-data-mcp/), which reads the store as a market.
+An app business has two data problems that look like one. The first is marketing: what is happening in the store, which keywords move, what competitors look like. The second is money: units, proceeds by currency, refunds, subscription revenue, and the funnel from impression to install. The catalog already carries the first problem through [AppSigma's public App Store data](/hermes/mcp/servers/external/appsigma-app-store-data-mcp), which reads the store as a market.
 
 This server answers the second problem from the account side, through Apple's own App Store Connect API. The distinction matters because a third-party estimate cannot reconcile to a payout, and a keyword rank is useless next to a proceeds figure that came from somewhere else.
 
@@ -70,7 +70,7 @@ The release side is a full workflow rather than a bag of REST calls: `release_pr
 ## FAQ
 
 ### How is this different from the App Store data server already in this catalog?
-[AppSigma](/hermes/mcp/servers/external/appsigma-app-store-data-mcp/) reads the public store: competitor rankings, keyword data, sponsored slots, reviews of any app. This one reads your account: your units, your proceeds, your reviews, your releases. One is market research, the other is bookkeeping and operations.
+[AppSigma](/hermes/mcp/servers/external/appsigma-app-store-data-mcp) reads the public store: competitor rankings, keyword data, sponsored slots, reviews of any app. This one reads your account: your units, your proceeds, your reviews, your releases. One is market research, the other is bookkeeping and operations.
 
 ### Can my agent ship a release on its own?
 No. Submission, publishing, phased-release changes and cancellation are destructive-class tools that require an explicit confirmation plus human approval in the client. Metadata edits preview as a plan first.
@@ -80,6 +80,6 @@ For reporting, yes: sales, proceeds, the funnel and reviews are all readable fro
 
 ## See Also
 
-- [AppSigma App Store Data MCP - ASO and app analytics](/hermes/mcp/servers/external/appsigma-app-store-data-mcp/)
+- [AppSigma App Store Data MCP - ASO and app analytics](/hermes/mcp/servers/external/appsigma-app-store-data-mcp)
 - [External MCP Server Catalog](/hermes/mcp/servers/external/)
 - [CorpusIQ analytics and advertising connectors](/hermes/mcp/)

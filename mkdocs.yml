@@ -104,6 +104,7 @@ nav:
   - Numbers Look Stale: troubleshooting/numbers-look-stale.md
   - Claude Can't See CorpusIQ: troubleshooting/claude-cant-see-corpusiq.md
   - ChatGPT Can't See CorpusIQ: troubleshooting/chatgpt-cant-see-corpusiq.md
+  - Trial Expired (403 TRIAL_EXPIRED): troubleshooting/trial-expired.md
 - MCP Education:
   - What is an MCP Server: what-is-an-mcp-server.md
   - MCP Spec GA (July 2026): mcp-spec-ga-july-2026.md

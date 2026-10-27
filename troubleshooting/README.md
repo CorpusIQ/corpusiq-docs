@@ -1,11 +1,11 @@
 ---
 title: "Troubleshooting - CorpusIQ Docs"
-description: "Seven common CorpusIQ problems and their fixes: connection errors, stale numbers, missing data, auth failures, and assistants that miss your connectors."
-last_updated: "2026-10-19"
+description: "Eight common CorpusIQ problems and fixes: connection errors, stale numbers, missing data, auth failures, expired trials, and assistants that miss your connectors."
+last_updated: "2026-10-27"
 ---
 # Troubleshooting
 
-Seven pages for the most common things that go sideways.
+Eight pages for the most common things that go sideways.
 
 - [Error codes reference](error-codes-reference.md) - Error codes,
   messages, and fixes organized by type (auth, rate limit, timeout, vendor).
@@ -23,6 +23,9 @@ Seven pages for the most common things that go sideways.
   CorpusIQ to Claude Desktop and nothing happens."
 - [ChatGPT can't see CorpusIQ](chatgpt-cant-see-corpusiq.md) - "I added
   CorpusIQ to a custom GPT and nothing happens."
+- [Trial expired](trial-expired.md) - "Everything worked yesterday and
+  now I get 403 TRIAL_EXPIRED." Covers the trial gate, team coverage,
+  and restoring access without reauthorising anything.
 
 If your issue isn't on this list, see the "escalate to support" section at the
 bottom of the error codes reference, or email support with: which connector,
