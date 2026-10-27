@@ -107,8 +107,8 @@
     "description": "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory. judgment verification layer that inspects every proposed acti.",
     "url": "https://www.corpusiq.io/docs/hermes/commander",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-27",
+    "dateModified": "2026-10-27",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-27">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11033,12 +11033,13 @@
 <li>Should the action be approved, modified, clarified, escalated, or blocked</li>
 </ol>
 <h2 id="hard-rules">Hard Rules<a class="headerlink" href="#hard-rules" title="Anchor link to this section">&para;</a></h2>
-<p>16 hard rules run on every action. Pattern-matched in milliseconds:</p>
+<p>17 hard rules run on every action. Pattern-matched in milliseconds:</p>
 <ul>
 <li>No em dashes in public content</li>
 <li>No internal analytics data in posts</li>
 <li>No AI buzzwords</li>
 <li>Content formula enforcement</li>
+<li>No "Operator" wording in posts  --  use "business owner" or "professional"</li>
 <li>No posting to personal LinkedIn</li>
 <li>URL verification required</li>
 <li>Check [INTERNAL] folder before INBOX</li>
@@ -11049,9 +11050,11 @@
 <li>Search knowledge stores before asking the team</li>
 <li>Check both email accounts</li>
 <li>No CID-embedded images in emails</li>
+<li>McKinsey format required for email reports</li>
+<li>Model pricing is a cost signal, never a reason to delay work</li>
 </ul>
 <h2 id="failure-dataset">Failure Dataset<a class="headerlink" href="#failure-dataset" title="Anchor link to this section">&para;</a></h2>
-<p>239 structured records from real Hermes mistakes. Each record maps to one or more of 12 capability categories: completeness, causal reasoning, physical reality, temporal reasoning, social reasoning, scope control, risk judgment, evidence discipline, memory application, uncertainty, resource judgment, security judgment.</p>
+<p>312 structured records from real Hermes mistakes. Each record maps to one or more of 12 capability categories: completeness, causal reasoning, physical reality, temporal reasoning, social reasoning, scope control, risk judgment, evidence discipline, memory application, uncertainty, resource judgment, security judgment.</p>
 <h2 id="training-loop">Training Loop<a class="headerlink" href="#training-loop" title="Anchor link to this section">&para;</a></h2>
 <p>Commander improves with every decision. The cycle: submit, review, approve/block, execute, verify, learn.</p>
 
