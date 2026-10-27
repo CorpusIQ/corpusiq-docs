@@ -85,6 +85,11 @@ INDEX_SECTIONS = [
         "how-it-works/privacy-and-security.md",
     ]),
     ("Connectors", sorted(ROOT.glob("connectors/*.md"))),
+    # Error and fix pages are high-volume assistant queries ("why does my
+    # connector show no data", "what is 403 TRIAL_EXPIRED"). They were in
+    # llms-full.txt but absent from this index, so index-only readers had no
+    # route to them. Added Oct 27 2026.
+    ("Troubleshooting", sorted(ROOT.glob("troubleshooting/*.md"))),
     ("Hermes Hub", [
         "hermes/index.md",
         "hermes/ecosystem.md",
