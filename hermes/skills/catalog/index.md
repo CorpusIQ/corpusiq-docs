@@ -822,3 +822,11 @@ Linked from this index so the pages are reachable by crawl.
 - [Indexion Skills - Source Code Exploration for Agents Setup](/hermes/skills/catalog/indexion-skills-setup)
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
+
+### New - October 27, 2026 Morning Sweep (5 publisher guides)
+
+- [Anthropic Financial Services Skills - Deal Workflow Suite](/hermes/skills/catalog/anthropics-financial-services-setup)
+- [Motion Design Skills - After Effects and Remotion Setup](/hermes/skills/catalog/motion-design-skills-setup)
+- [Astronomer Agents - Airflow Data Engineering Setup](/hermes/skills/catalog/astronomer-agents-setup)
+- [Deep Agents - Batteries-Included Agent Harness Setup](/hermes/skills/catalog/deepagents-setup)
+- [Pydantic Skills - Logfire and Pydantic AI Suite Setup](/hermes/skills/catalog/pydantic-skills-setup)
