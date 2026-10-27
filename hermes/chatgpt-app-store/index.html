@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ is an official public plugin in the ChatGPT Plugins store.">
+        <meta name="description" content="CorpusIQ is an official public app in the ChatGPT app store.">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/chatgpt-app-store">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="CorpusIQ in the ChatGPT App Store">
-  <meta property="og:description" content="CorpusIQ is an official public plugin in the ChatGPT Plugins store.">
+  <meta property="og:description" content="CorpusIQ is an official public app in the ChatGPT app store.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CorpusIQ in the ChatGPT App Store">
-  <meta name="twitter:description" content="CorpusIQ is an official public plugin in the ChatGPT Plugins store.">
+  <meta name="twitter:description" content="CorpusIQ is an official public app in the ChatGPT app store.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,11 +104,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "CorpusIQ in the ChatGPT App Store",
-    "description": "CorpusIQ is an official public plugin in the ChatGPT Plugins store.",
+    "description": "CorpusIQ is an official public app in the ChatGPT app store.",
     "url": "https://www.corpusiq.io/docs/hermes/chatgpt-app-store",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-26">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11008,7 +11008,7 @@
 <p><strong>Status:</strong> LIVE, verified Aug 16 2026; new version approved Sep 30 2026
 <strong>Direct link:</strong> https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426 (browse: chatgpt.com/plugins?q=corpusiq)
 <strong>Listing:</strong> "CorpusIQ - Ask questions across files"</p>
-<p>CorpusIQ is an official public plugin in the ChatGPT Plugins store. This is the third distribution surface for the product, alongside the Claude MCP Connectors Directory and the web app at corpusiq.io.</p>
+<p>CorpusIQ is an official public app in the ChatGPT app store (the surface that replaced the Plugins store). This is the third distribution surface for the product, alongside MCP access inside Claude (you add the CorpusIQ connector yourself, there is no directory listing) and the web app at corpusiq.io.</p>
 <h2 id="what-the-listing-gives-users">What the listing gives users<a class="headerlink" href="#what-the-listing-gives-users" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>One-click install inside ChatGPT</li>
@@ -11017,21 +11017,22 @@
 <li>Zero data stored, validated answers with citations</li>
 </ul>
 <h2 id="why-it-matters">Why it matters<a class="headerlink" href="#why-it-matters" title="Anchor link to this section">&para;</a></h2>
-<p>The same product is now discoverable in the three places business users actually look:</p>
+<p>The same product is now reachable in the three places business users actually look:</p>
 <ol>
-<li>ChatGPT Plugins store (search "corpusiq")</li>
-<li>Claude connector directory (one-click install)</li>
+<li>ChatGPT app store (search "corpusiq")</li>
+<li>Claude, by adding the CorpusIQ MCP connector in Claude's connector settings</li>
 <li>corpusiq.io web app</li>
 </ol>
 <p>The consistent-answer promise is the point: the same number in ChatGPT, Claude, and Perplexity. Every time. The store listing makes that promise literal.</p>
 <h2 id="usage-in-promotion">Usage in promotion<a class="headerlink" href="#usage-in-promotion" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Mention the ChatGPT store listing in social content (verified Aug 16, 2026)</li>
-<li>Affiliate and outreach emails can say "available in ChatGPT and Claude with one-click install"</li>
+<li>Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt; re-checked Oct 26, 2026)</li>
+<li>Affiliate and outreach emails can say "available in the ChatGPT app store, and inside Claude through our MCP connector". Never claim a Claude directory listing or a one-click Claude install  --  Anthropic's public directory API returns no CorpusIQ entry.</li>
 <li>Docs links should use the direct plugin link above</li>
 </ul>
 <h2 id="verification-method">Verification method<a class="headerlink" href="#verification-method" title="Anchor link to this section">&para;</a></h2>
-<p>curl the llms.txt at corpusiq.io (it documents the listing), then confirm via browser search at chatgpt.com/plugins?q=corpusiq. The listing card reads "CorpusIQ - Ask questions across files" and is public (no login required to see the search result).</p>
+<p>curl the llms.txt at corpusiq.io (it documents the listing), then confirm via browser search at chatgpt.com/plugins?q=corpusiq. The listing card reads "CorpusIQ - Ask questions across files" and is public. A plain curl of the direct plugin URL returns 403 for non-browser clients, which is bot filtering, not a missing listing  --  check it in a browser.</p>
+<p>For the Claude side, curl https://api.anthropic.com/api/directory/servers and search for "corpusiq". As of Oct 26, 2026 the response contains no CorpusIQ entry, so Claude access is described as a custom MCP connector, never as a directory listing.</p>
 
 
 

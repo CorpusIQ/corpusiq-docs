@@ -107,8 +107,8 @@
     "description": "Bot Mode turns your Hermes agent profiles into a roster of named bots.",
     "url": "https://www.corpusiq.io/docs/hermes/bot-mode",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-26">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11005,14 +11005,14 @@
 
 
 <h1 id="hermes-bot-mode-desktop-plugin">Hermes Bot Mode (Desktop Plugin)<a class="headerlink" href="#hermes-bot-mode-desktop-plugin" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Status:</strong> Early beta - announced Aug 16, 2026 by Nous Research
-<strong>Repo:</strong> github.com/NousResearch/Hermes-Bot-Mode (MIT, JavaScript)
-<strong>Type:</strong> Desktop-app plugin. No core patches, no background daemons, no extra storage.</p>
-<p>Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot gets its own chat, avatar, personality, routine schedule, and the ability to message other bots.</p>
+<p><strong>Status:</strong> Ships built into the Hermes desktop app and is on by default  --  no install needed. Announced Aug 16, 2026 by Nous Research.
+<strong>Repo:</strong> github.com/NousResearch/Hermes-Bot-Mode (MIT, JavaScript)  --  the original plugin, now bundled into the app.
+<strong>Type:</strong> Desktop UI over the profile primitive. No core patches, no background daemons, no extra storage.</p>
+<p>Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot gets its own chat, avatar, personality, routine schedule, and the ability to message other bots. It appears as a <strong>Bots</strong> tab next to Sessions in the left sidebar, with a <strong>Routines</strong> tile docked beside the conversation while that tab is active.</p>
 <h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Bots pane</strong> - left-side roster, one row per agent profile with avatar, latest message preview, timestamp. Click to enter its chat. Sessions view filters a profile's 200 most recent stored conversations.</li>
-<li><strong>Active now</strong> - presence strip showing every bot currently working (gateway-busy profile plus any bot that wrote in the last 90 seconds).</li>
+<li><strong>Bots tab</strong> - left-side roster, one row per agent profile with avatar, latest message preview, timestamp. Click to enter its chat. The roster searches as you type, and right-click gives "open recent session".</li>
+<li><strong>Active now</strong> - activity filter over the roster: the owner of the focused live turn, bots that wrote in the last 90 seconds, and bots with a recent worker heartbeat. A connected gateway alone does not mean a bot is working.</li>
 <li><strong>New Agent</strong> - create a bot in seconds: name, title, description. Advanced mode opens the full profile config: clone an existing profile, pin a provider/model, write a custom SOUL.md, skip bundled skills.</li>
 <li><strong>Groups</strong> - organize the roster into labeled sections. Group chats (2-6 bots) are shared rooms where bots coordinate: @mentions pull bots in, @user escalates to a human with a "needs you" badge, hard caps (10 messages per turn, 3 rounds) stop runaway loops.</li>
 <li><strong>Bot-to-bot messaging</strong> - every bot has a persistent Bot Chat. Bots message each other with attribution, and their SOUL.md teaches them the protocol.</li>
@@ -11024,13 +11024,13 @@
 <ul>
 <li>Chats and sessions use profile-aware navigation</li>
 <li>Creation and editing ride the <code>profiles.*</code> gateway RPCs</li>
-<li>Routines are plain Hermes cron jobs namespaced <code>[bot:&lt;name&gt;] &lt;routine&gt;</code></li>
-<li>Bot-to-bot messages are real CLI handoffs: <code>hermes -p &lt;bot&gt; chat --in ~ -c "Bot Chat" -Q -q "Message from ..."</code></li>
+<li>Routines are plain Hermes cron jobs, so they show up in <code>hermes cron list</code></li>
+<li>Bot-to-bot messages are real CLI handoffs between profiles  --  the same agent <code>hermes -p &lt;bot&gt; chat</code> opens  --  and across connected machines they route through the Desktop relay</li>
 </ul>
 <h2 id="why-it-matters-for-operators">Why it matters for operators<a class="headerlink" href="#why-it-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Bot Mode is the first mainstream implementation of multi-agent operations inside a desktop app. A business can run a roster of specialized agents: one for email, one for finance questions, one for social, each with its own identity, memory, and credentials, coordinating on shared rooms. This is the agent-team model applied to operations, and it is the same pattern CorpusIQ's governed intelligence layer feeds: named agents with scoped identity and data access.</p>
 <h2 id="install">Install<a class="headerlink" href="#install" title="Anchor link to this section">&para;</a></h2>
-<p>Installs where the Hermes Desktop app runs. See the repo README for current install steps (early beta, plugin installation path).</p>
+<p>Nothing to install. Open the Hermes desktop app and use the <strong>Bots</strong> tab; Bot Mode is on by default. From a terminal, <code>hermes -p &lt;bot&gt; chat</code> opens the same agent, and that bot's routines appear in <code>hermes cron list</code>. Bots live under <code>~/.hermes/profiles/&lt;name&gt;/</code>, so config, memory, skills, and credentials stay where they always were.</p>
 
 
 

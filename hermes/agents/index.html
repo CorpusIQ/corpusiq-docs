@@ -111,8 +111,8 @@
     "description": "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive.",
     "url": "https://www.corpusiq.io/docs/hermes/agents",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-26",
+    "dateModified": "2026-10-26",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-26">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11193,63 +11193,63 @@
 <td>1</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/sales-agent">Sales Agent</a></td>
 <td>Lead qualification, pipeline management, outreach sequences</td>
-<td>DeepSeek V3 / Claude Sonnet 4</td>
+<td>DeepSeek V4.1 / Claude Sonnet 5.5</td>
 <td>CRM, Calendly, Email, Slack</td>
 </tr>
 <tr>
 <td>2</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/marketing-agent">Marketing Agent</a></td>
 <td>Content analytics, SEO monitoring, campaign performance</td>
-<td>Claude Sonnet 4 / GPT-4o</td>
+<td>Claude Sonnet 5.5 / GPT-5.6</td>
 <td>GA4, Search Console, Ahrefs, Klaviyo, Meta Ads</td>
 </tr>
 <tr>
 <td>3</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/devops-agent">DevOps Agent</a></td>
 <td>Infrastructure monitoring, incident response, deployment tracking</td>
-<td>Claude Sonnet 4 / DeepSeek V3</td>
+<td>Claude Sonnet 5.5 / DeepSeek V4.1</td>
 <td>Database, Slack, Email, Observability APIs</td>
 </tr>
 <tr>
 <td>4</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/support-agent">Support Agent</a></td>
 <td>Ticket triage, knowledge base search, SLA monitoring</td>
-<td>Claude Sonnet 4 / GPT-4o</td>
+<td>Claude Sonnet 5.5 / GPT-5.6</td>
 <td>CRM, Slack, Email, Stripe, Notion</td>
 </tr>
 <tr>
 <td>5</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/finance-agent">Finance Agent</a></td>
 <td>Invoice processing, reconciliation, financial reporting</td>
-<td>Claude Sonnet 4 / DeepSeek V3</td>
+<td>Claude Sonnet 5.5 / DeepSeek V4.1</td>
 <td>QuickBooks, Stripe, Slack, Email, Drive</td>
 </tr>
 <tr>
 <td>6</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/hr-agent">HR Agent</a></td>
 <td>Resume screening, onboarding, policy Q&amp;A, compliance</td>
-<td>Claude Sonnet 4 / GPT-4o</td>
+<td>Claude Sonnet 5.5 / GPT-5.6</td>
 <td>Calendly, Email, Slack, Notion, Drive</td>
 </tr>
 <tr>
 <td>7</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/research-agent">Research Agent</a></td>
 <td>Competitive intel, market analysis, literature review</td>
-<td>Claude Sonnet 4 / DeepSeek V3</td>
+<td>Claude Sonnet 5.5 / DeepSeek V4.1</td>
 <td>Ahrefs, Semrush, GA4, YouTube, Notion</td>
 </tr>
 <tr>
 <td>8</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/legal-agent">Legal Agent</a></td>
 <td>Contract review, regulatory monitoring, audit prep</td>
-<td>Claude Sonnet 4 / GPT-4o</td>
+<td>Claude Sonnet 5.5 / GPT-5.6</td>
 <td>Drive, OneDrive, Notion, Slack, Email</td>
 </tr>
 <tr>
 <td>9</td>
 <td><a href="https://www.corpusiq.io/docs/hermes/agents/executive-agent">Executive Agent</a></td>
 <td>Calendar management, inbox triage, daily briefings</td>
-<td>Claude Sonnet 4 / GPT-4o</td>
+<td>Claude Sonnet 5.5 / GPT-5.6</td>
 <td>Calendar, Calendly, Email, Slack, Notion</td>
 </tr>
 </tbody>
@@ -11258,17 +11258,13 @@
 <h3 id="1-pick-your-agent">1. Pick Your Agent<a class="headerlink" href="#1-pick-your-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Each agent file is a <strong>self-contained configuration</strong>. Read the role description to confirm it matches your needs, then follow the Quick-Start command at the bottom. The command creates the agent in your Hermes installation with the specified profile, skills, and connectors.</p>
 <h3 id="2-connect-your-tools">2. Connect Your Tools<a class="headerlink" href="#2-connect-your-tools" title="Anchor link to this section">&para;</a></h3>
-<p>Before an agent can work, its MCP connectors need to be authenticated. Run <code>hermes setup connectors</code> and follow the prompts to connect each service the agent requires. You only need to connect the services you actually use  --  skip connectors for platforms you don't have.</p>
+<p>Before an agent can work, its MCP connectors need to be authenticated. Run <code>hermes mcp add</code> to connect each server (discovery-first install), then <code>hermes mcp list</code> to confirm what is wired up. If a server uses OAuth, <code>hermes mcp login</code> forces re-authentication; <code>hermes mcp test</code> checks the connection. You only need to connect the services you actually use  --  skip connectors for platforms you don't have.</p>
 <h3 id="3-customize-the-cron-schedule">3. Customize the Cron Schedule<a class="headerlink" href="#3-customize-the-cron-schedule" title="Anchor link to this section">&para;</a></h3>
 <p>The sample cron schedules are sensible defaults but should be tuned to your timezone, working hours, and operational cadence. Edit them in your agent's profile configuration:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span>edit<span class="w"> </span>--profile<span class="w"> </span>sales
 </code></pre></div>
 <h3 id="4-add-your-business-context">4. Add Your Business Context<a class="headerlink" href="#4-add-your-business-context" title="Anchor link to this section">&para;</a></h3>
-<p>Agents work best when they understand your business. Use <a href="https://www.corpusiq.io/docs/hermes/governance">canonical facts</a> to store key definitions:</p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>canonical<span class="w"> </span><span class="nb">set</span><span class="w"> </span>--profile<span class="w"> </span>sales<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--key<span class="w"> </span>icp_criteria<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--value<span class="w"> </span><span class="s2">"B2B SaaS, 50-500 employees, US/Canada, marketing or sales tech stack"</span>
-</code></pre></div>
+<p>Agents work best when they understand your business. Use <a href="https://www.corpusiq.io/docs/hermes/governance">canonical facts</a> to store key definitions once and reuse them everywhere. On the CorpusIQ MCP surface, <code>canonical_facts_set</code> takes a key, value, and category; it stages the write and returns a <code>pending_write_id</code>, and <code>canonical_pending_commit</code> applies it once you confirm. <code>canonical_facts_get</code> reads a fact back by key.</p>
 <h3 id="5-test-and-iterate">5. Test and Iterate<a class="headerlink" href="#5-test-and-iterate" title="Anchor link to this section">&para;</a></h3>
 <p>Start with <strong>one agent</strong>. Run it manually for a few days, review the output, refine thresholds, then enable the cron schedule. Once confident, deploy the next agent.</p>
 <h2 id="model-selection-guide">Model Selection Guide<a class="headerlink" href="#model-selection-guide" title="Anchor link to this section">&para;</a></h2>
@@ -11282,33 +11278,33 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Claude Sonnet 4</strong></td>
+<td><strong>Claude Sonnet 5.5</strong></td>
 <td>General-purpose agent work; nuance, contracts, multi-source synthesis</td>
 <td>Higher cost per token</td>
 </tr>
 <tr>
-<td><strong>DeepSeek V3 / V4 Pro</strong></td>
+<td><strong>DeepSeek V4.1 / V4 Pro</strong></td>
 <td>Structured analysis, financial data, research synthesis</td>
 <td>May need more explicit formatting</td>
 </tr>
 <tr>
-<td><strong>GPT-4o</strong></td>
+<td><strong>GPT-5.6</strong></td>
 <td>Natural language generation, creative briefs, customer-facing drafts</td>
 <td>Cost comparable to Claude</td>
 </tr>
 <tr>
-<td><strong>Claude Haiku</strong></td>
+<td><strong>Claude Haiku 5.5</strong></td>
 <td>Always-on monitoring, alert classification, simple Q&amp;A</td>
 <td>Less capable at multi-step reasoning</td>
 </tr>
 <tr>
-<td><strong>GPT-4o Mini</strong></td>
+<td><strong>GPT-5.4 mini / nano</strong></td>
 <td>Cost-sensitive deployments, high-volume classification</td>
 <td>Less nuanced; pair with larger model</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Recommendation:</strong> Use Claude Sonnet 4 or GPT-4o for agents that draft communications or analyze complex multi-source data. Use DeepSeek V3/V4 for structured data analysis. Use Haiku or GPT-4o Mini for always-on monitoring skills.</p>
+<p><strong>Recommendation:</strong> Use Claude Sonnet 5.5 or GPT-5.6 for agents that draft communications or analyze complex multi-source data. Use DeepSeek V4.1/V4 Pro for structured data analysis. Use Haiku or a mini/nano tier for always-on monitoring skills. Model IDs rotate every few weeks  --  confirm the exact slug in the <code>/model</code> picker before you pin one.</p>
 <h2 id="extending-agents">Extending Agents<a class="headerlink" href="#extending-agents" title="Anchor link to this section">&para;</a></h2>
 <p>Every agent in this library is a starting point. Common extensions:</p>
 <ul>
@@ -11323,14 +11319,14 @@
 <p>The <strong>Hermes Agent Library</strong> provides 9 production-ready, role-specific agent configurations for common business roles. Each includes skills, MCP connectors, cron schedules, model recommendations, and quick-start commands  --  ready to deploy in minutes on the Hermes Agent framework.</p>
 <h3 id="how-do-i-deploy-a-hermes-agent-from-this-library">How do I deploy a Hermes agent from this library?<a class="headerlink" href="#how-do-i-deploy-a-hermes-agent-from-this-library" title="Anchor link to this section">&para;</a></h3>
 <ol>
-<li>Pick the agent matching your role from the table above 2. Run the Quick-Start command from the agent's page 3. Authenticate the required connectors with <code>hermes setup connectors</code> 4. Customize the cron schedule for your timezone 5. Test manually, then enable the cron.</li>
+<li>Pick the agent matching your role from the table above 2. Run the Quick-Start command from the agent's page 3. Authenticate the required connectors with <code>hermes mcp add</code> 4. Customize the cron schedule for your timezone 5. Test manually, then enable the cron.</li>
 </ol>
 <h3 id="which-agent-should-i-deploy-first">Which agent should I deploy first?<a class="headerlink" href="#which-agent-should-i-deploy-first" title="Anchor link to this section">&para;</a></h3>
 <p>Start with the agent that solves your <strong>most painful manual process</strong>. For most businesses, that's the <a href="https://www.corpusiq.io/docs/hermes/agents/sales-agent">Sales Agent</a> (pipeline management), <a href="https://www.corpusiq.io/docs/hermes/agents/marketing-agent">Marketing Agent</a> (SEO monitoring), or <a href="https://www.corpusiq.io/docs/hermes/agents/executive-agent">Executive Agent</a> (daily briefings).</p>
 <h3 id="can-i-run-multiple-agents-simultaneously">Can I run multiple agents simultaneously?<a class="headerlink" href="#can-i-run-multiple-agents-simultaneously" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Deploy as many agents as you need. They run as separate Hermes profiles with isolated skills, crons, and configurations. Chain agents together for cross-role workflows (e.g., Sales Agent reports feed into Executive Agent briefings).</p>
 <h3 id="how-much-does-running-these-agents-cost">How much does running these agents cost?<a class="headerlink" href="#how-much-does-running-these-agents-cost" title="Anchor link to this section">&para;</a></h3>
-<p>Cost varies by model and frequency. Lightweight monitoring with <strong>Claude Haiku</strong> costs pennies per day. Full-featured agents with <strong>Claude Sonnet 4</strong> may cost $1-5/day depending on frequency. See the <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a> for optimization tips.</p>
+<p>Cost varies by model and frequency. Lightweight monitoring with <strong>Claude Haiku 5.5</strong> costs pennies per day. Full-featured agents with <strong>Claude Sonnet 5.5</strong> may cost $1-5/day depending on frequency. See the <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a> for optimization tips.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes">Hermes Knowledge Hub  --  Architecture &amp; Deployment</a></li>
