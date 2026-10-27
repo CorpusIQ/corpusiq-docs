@@ -2064,6 +2064,8 @@
       
         
       
+        
+      
     
     
     
@@ -2536,6 +2538,34 @@
     
   
     ChatGPT Can't See CorpusIQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/troubleshooting/trial-expired" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trial Expired (403 TRIAL_EXPIRED)
   
 
     
@@ -11454,6 +11484,26 @@
 <td><code>MFA/2FA prompt not handled</code></td>
 <td>You enabled MFA on your account after connecting, or the OAuth flow timed out during 2FA verification.</td>
 <td>Use an incognito browser, disconnect, then reconnect while keeping only the right account logged in.</td>
+</tr>
+<tr>
+<td><code>403 TRIAL_EXPIRED</code></td>
+<td>The trial ended and no active subscription covers the account, either your own or your team owner's. The response carries the evaluated date as <code>details.trial_ends_at</code>.</td>
+<td>Start a plan, then retry. See <a href="https://www.corpusiq.io/docs/troubleshooting/trial-expired">trial-expired.md</a> for team coverage and data-retention details.</td>
+</tr>
+<tr>
+<td><code>MCP_REFRESH_DISABLED</code></td>
+<td>Refresh tokens are switched off for this deployment, so connected clients cannot renew access.</td>
+<td>Reconnect the client, or use the device login flow to issue a new access token.</td>
+</tr>
+<tr>
+<td><code>401 INVALID_REFRESH_TOKEN</code></td>
+<td>The refresh token was already rotated, expired, or revoked.</td>
+<td>Reconnect the MCP client so it obtains a new refresh token.</td>
+</tr>
+<tr>
+<td><code>403 ACCOUNT_NOT_ELIGIBLE</code></td>
+<td>The account exists but is deactivated or its email is not verified.</td>
+<td>Verify the email address, then retry. Reactivation may need support if the account was deactivated by a failed trial check.</td>
 </tr>
 </tbody>
 </table>

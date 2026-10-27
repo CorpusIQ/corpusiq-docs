@@ -2058,6 +2058,8 @@
       
         
       
+        
+      
     
     
     
@@ -2297,6 +2299,34 @@
     
   
     ChatGPT Can't See CorpusIQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/troubleshooting/trial-expired" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trial Expired (403 TRIAL_EXPIRED)
   
 
     
@@ -11488,7 +11518,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <p>The 10 PM system health monitor checks:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># What it verifies nightly:</span>
 <span class="n">check_1</span> <span class="o">=</span> <span class="n">cronjob_list</span><span class="p">()</span>                    <span class="c1"># All crons running?</span>
-<span class="n">check_2</span> <span class="o">=</span> <span class="n">gmail_token_valid</span><span class="p">()</span>              <span class="c1"># media@ + info@ tokens</span>
+<span class="n">check_2</span> <span class="o">=</span> <span class="n">gmail_token_valid</span><span class="p">()</span>              <span class="c1"># Both mailbox tokens</span>
 <span class="n">check_3</span> <span class="o">=</span> <span class="n">github_token_valid</span><span class="p">()</span>             <span class="c1"># Classic PAT</span>
 <span class="n">check_4</span> <span class="o">=</span> <span class="n">heygen_token_valid</span><span class="p">()</span>             <span class="c1"># Video pipeline</span>
 <span class="n">check_5</span> <span class="o">=</span> <span class="n">postiz_integrations_alive</span><span class="p">()</span>      <span class="c1"># X + LinkedIn + TikTok + Instagram</span>
@@ -11498,7 +11528,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <span class="n">check_9</span> <span class="o">=</span> <span class="n">disk_space</span><span class="p">()</span>                     <span class="c1"># &gt;10% free</span>
 <span class="n">check_10</span> <span class="o">=</span> <span class="n">memory_usage</span><span class="p">()</span>                  <span class="c1"># &lt;90%</span>
 </code></pre></div>
-<p>Failures are emailed to media@ (critical failures also to benoit.p@). The 1 AM drift prevention cron does a deeper integrity check.</p>
+<p>Failures are emailed to the ops mailbox, with critical failures also sent to the on-call operator. The 1 AM drift prevention cron does a deeper integrity check.</p>
 <hr />
 <h2 id="creating-your-first-cron">Creating Your First Cron<a class="headerlink" href="#creating-your-first-cron" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Start simple  --  check your email every 15 minutes</span>
