@@ -219,6 +219,35 @@ def main():
             "git commit -m 'chore: regenerate llms feeds (auto, deploy)'"
         )
         print(f"   Committed regenerated feeds ({len(dirty_feeds.splitlines())} file(s))")
+        # 2026-10-27: this commit used to stay LOCAL. Both GitHub deploy workflows
+        # gate on `git diff --exit-code -- llms.txt llms-full.txt`, so while the
+        # feeds commit sat unpushed, main was unbuildable and every push that
+        # touched a page failed both deploys (three failures in 83 minutes on
+        # 2026-10-27). Production then served stale docs for 4h25m, until the
+        # feeds were pushed by hand. Publish the fix so the gate passes for
+        # everyone; one rebase retry absorbs a concurrent sweep push.
+        # Guard: push only when THIS feeds commit is the sole unpushed commit, so
+        # the deploy cron can never publish unrelated local work to main.
+        ahead = [ln for ln in run("git log --oneline origin/main..HEAD").strip().splitlines() if ln.strip()]
+        if len(ahead) == 1:
+            push_out = run("git push origin main")
+            if "-> main" not in push_out:
+                run("git pull --rebase origin main")
+                push_out = run("git push origin main")
+            if "-> main" in push_out:
+                print("   Feeds commit pushed to main (GitHub deploys unblocked)")
+            else:
+                print(
+                    "   !! WARNING: regenerated feeds were NOT pushed to main; GitHub "
+                    "deploys stay blocked until they are. Output:\n"
+                    + push_out.strip()[-400:]
+                )
+        else:
+            print(
+                "   !! RETAINED LOCALLY: %d unpushed commit(s) in the deploy clone - "
+                "not pushing the feeds commit, because that would publish the others "
+                "to main. GitHub deploys stay blocked until the feeds land." % len(ahead)
+            )
 
     # 2c. Perfection pass - auto-fix house-rule drift (em/en dashes, titles over
     #     60 chars) in SOURCE before every build, so the live site stays clean
