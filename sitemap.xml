@@ -2589,6 +2589,10 @@
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/app-store-connect-mcp</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/appambit-mcp</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
@@ -2718,6 +2722,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/awardcast-mcp</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/axl-mcp</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -3154,6 +3162,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cueprecise-mcp</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/customermates-mcp</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -4893,6 +4905,10 @@
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/pickfu-mcp</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/pigi-finance-mcp</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
@@ -5238,6 +5254,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/routergrowth-mcp</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/rus-sh-mcp</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -6805,6 +6825,10 @@
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-late</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-midday</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
@@ -7378,6 +7402,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/aahl-skills-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/aaron-marketing-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -8041,6 +8069,10 @@
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/darwin-skill-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/databricks-agent-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
@@ -8102,6 +8134,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/designer-skills-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/dev-event-organizer-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -8358,6 +8394,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/gtm-agents-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hack-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -8653,6 +8693,10 @@
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/indexion-skills-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
@@ -8846,6 +8890,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/marimo-skills-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/markdown-viewer-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -9369,6 +9417,10 @@
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-research-skills-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/redis-agent-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
@@ -9666,6 +9718,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/subagent-driven-development-setup</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/superagent-skills-setup</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>
@@ -10926,6 +10982,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct25-2026-morning-skills</loc>
+         <lastmod>2026-10-27</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct26-2026-evening-skills</loc>
          <lastmod>2026-10-27</lastmod>
     </url>
     <url>

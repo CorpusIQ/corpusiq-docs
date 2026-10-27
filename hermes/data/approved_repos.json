@@ -7023,5 +7023,50 @@
     "archived": false,
     "license": "NOASSERTION",
     "near_duplicates": []
+  },
+  {
+    "name": "Adolanium/hermes-gadget-sdk",
+    "url": "https://github.com/Adolanium/hermes-gadget-sdk",
+    "description": "Build voice and text devices for your Hermes Agent, with ESP32 firmware, a Linux client, and a desktop simulator.",
+    "stars": 447,
+    "forks": 74,
+    "language": "C++",
+    "topics": [
+      "cpp17",
+      "embedded",
+      "esp-idf",
+      "esp32",
+      "esp32-s3",
+      "hermes-agent",
+      "iot",
+      "linux",
+      "push-to-talk",
+      "python",
+      "raspberry-pi",
+      "sdk",
+      "simulator",
+      "voice-assistant",
+      "websocket"
+    ],
+    "updated_at": "2026-10-27T03:57:10Z",
+    "category": "core",
+    "score": 80,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "zszszszsz/.config",
+      "unmodeled-tyler/vessel-browser",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-10-27T04:01:39.332544+00:00",
+    "status": "approved",
+    "approved_at": "2026-10-27T04:04:07.743871+00:00"
   }
 ]
