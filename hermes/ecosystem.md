@@ -1800,7 +1800,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*436+ repositories in the Hermes ecosystem. Last updated: 2026-10-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*436+ repositories in the Hermes ecosystem. Last updated: 2026-10-26. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
