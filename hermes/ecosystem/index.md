@@ -24,16 +24,16 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 |----------|-------|------|
 | [Core & Official](#core-official) | 13 | [↓](#core-official) |
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
-| [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
+| [Community & Awesome Lists](#community-awesome-lists) | 33 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 25 | [↓](#ui-dashboards) |
 | [Memory & Knowledge](#memory-knowledge) | 34 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 50 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 106 | [↓](#skills-plugins) |
-| [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
+| [Tools & Utilities](#tools-utilities) | 63 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 35 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 21 | [↓](#deployment-infrastructure) |
-| [Security & Governance](#security-governance) | 4 | [↓](#security-governance) |
+| [Security & Governance](#security-governance) | 5 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
 | [Content & Media](#content-media) | 5 | [↓](#content-media) |
 | [Platform-Specific](#platform-specific) | 12 | [↓](#platform-specific) |
