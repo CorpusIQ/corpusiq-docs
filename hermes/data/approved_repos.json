@@ -4438,12 +4438,13 @@
     "approved_at": "2026-07-22T05:06:17.612096+00:00"
   },
   {
-    "name": "xintaofei/codeg",
-    "url": "https://github.com/xintaofei/codeg",
+    "name": "spacering-net/codeg",
+    "url": "https://github.com/spacering-net/codeg",
+    "renamed_from": "xintaofei/codeg",
     "description": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.",
-    "stars": 2326,
+    "stars": 4181,
     "forks": 278,
-    "language": "TypeScript",
+    "language": "Rust",
     "topics": [
       "acp",
       "agent",
