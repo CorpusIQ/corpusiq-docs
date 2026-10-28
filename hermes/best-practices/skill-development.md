@@ -3,7 +3,7 @@ title: "Skill Development Guide for Hermes Agent"
 description: Complete Hermes Agent skill development guide. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, lifecycle management, and publishing. Create production-ready reusable AI agent skills.
 category: best-practices
 tags: [hermes-agent, skill-development, skills, reusable-workflows, testing, triggers, error-handling, publishing]
-last_updated: 2026-10-24
+last_updated: 2026-10-28
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/skill-development/"
 robots: "index,follow"
 
@@ -34,13 +34,16 @@ name: my-skill-name
 description: One-sentence purpose
 version: 1.0.0
 author: your-handle
-tags: [tag1, tag2]
-required_connectors: [connector-a]
-quality_tier: beta
+license: MIT                      # optional
+platforms: [macos, linux]         # optional - restrict to specific OS platforms
+metadata:
+  hermes:
+    tags: [tag1, tag2]
+    category: best-practices
 ---
 ```
 
-Followed by: What This Skill Does, When to Use, Required Setup, Step-by-Step Workflow (with error handling per step), Example Output, Troubleshooting, Changelog.
+Hermes skills follow the [agentskills.io specification](https://agentskills.io/specification) and load by progressive disclosure: only the frontmatter name and description sit in every prompt, and the body plus any `references/`, `templates/`, or `scripts/` files load on demand. Prefix the body with the standard sections: `## When to Use`, `## Procedure`, `## Pitfalls`, `## Verification`.
 
 ### Trigger Patterns
 

@@ -3,7 +3,7 @@ title: "Model Selection Guide for Hermes Agent"
 description: Hermes Agent model selection best practices. Task-to-model mapping, cost optimization, local vs cloud tradeoffs, fallback chains, and decision tree. Save latency and cost with tiered model routing for every task type.
 category: best-practices
 tags: [hermes-agent, model-selection, ai-models, cost-optimization, ollama, openrouter, local-models, cloud-models]
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/model-selection/"
 robots: "index,follow"
 
@@ -15,7 +15,7 @@ Choosing the right model for each task is one of the highest-leverage decisions 
 
 ## Overview
 
-Hermes Agent runs models from local Ollama, OpenRouter, Nous Portal, and direct provider APIs. Nous Portal serves 300+ models under a single subscription, and OpenRouter's catalogue currently lists 400+. Following [best practices](/hermes/best-practices) for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.
+Hermes Agent runs models from local Ollama, OpenRouter, Nous Portal, and direct provider APIs. Nous Portal serves 300+ models under a single subscription, and OpenRouter's catalogue lists more than 450 model IDs (464 listed on 2026-10-28). Following [best practices](/hermes/best-practices) for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.
 
 ## How It Works
 
@@ -48,7 +48,7 @@ Ask three questions before every model selection:
 
 ## Local vs Cloud: The Real Tradeoffs
 
-**Local models (Ollama) win when:** data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See [gaming PC setup](/hermes/setup/gaming-pc) or [Mac Mini setup](/hermes/setup/mac-mini-standalone).
+**Local models (Ollama) win when:** data privacy is non-negotiable, latency must stay sub-second, high volume makes fixed hardware cost cheaper than per-token pricing. See [gaming PC setup](/hermes/setup/gaming-pc) or [Mac Mini setup](/hermes/setup/mac-mini-standalone).
 
 **Cloud models (OpenRouter/Anthropic/OpenAI) win when:** you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See [cloud VPS setup](/hermes/setup/cloud-vps).
 
@@ -91,7 +91,7 @@ Use local models (Ollama) for classification, extraction, and data-sensitive tas
 Implement caching for repeated queries, use prompt compression before expensive calls, batch non-urgent tasks, and create fallback chains that try cheaper models first. Track cost per successful task, not per token.
 
 ### What's the best model for code generation?
-Frontier models carry the hard work: Claude Sonnet 5.5 or Opus 5.5, GPT-5.6, and DeepSeek V4.1 are all live in the OpenRouter catalogue as of October 2026. For boilerplate or simple functions, a smaller coder model such as Qwen3-Coder 30B handles it at zero marginal cost when served locally. Model names rotate every few weeks, so confirm the exact ID in the `/model` picker instead of trusting a table.
+Frontier models carry the hard work: Claude Sonnet 5.5 (`anthropic/claude-sonnet-5.5`) or Opus 5.5 (`anthropic/claude-opus-5.5`), the GPT-5.6 variants (`openai/gpt-5.6-luna`, `-terra`, `-sol`), and DeepSeek V4.1 Flash (`deepseek/deepseek-v4.1-flash`) were all listed in the OpenRouter catalogue when this page was verified on 2026-10-28. For boilerplate or simple functions, a smaller coder model such as Qwen3-Coder 30B (`qwen/qwen3-coder-30b-a3b-instruct`) handles it at zero marginal cost when served locally. Model names rotate every few weeks, so confirm the exact ID in the `/model` picker instead of trusting a table.
 
 ## Related Pages
 

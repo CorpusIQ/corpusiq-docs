@@ -3,7 +3,7 @@ title: CorpusIQ in the MCP Ecosystem - Directories and Rankings
 description: Where to find CorpusIQ across the MCP ecosystem. Listed on Glama, ranked on MCP Toplist, submitted to mcpservers.org. Cross-source AI business intelligence with 40+ read-only connectors.
 canonical: "https://www.corpusiq.io/docs/hermes/mcp-ecosystem/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-28"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -18,7 +18,7 @@ CorpusIQ is an AI intelligence layer connecting 40+ business tools to every AI a
 |-----------|--------|---------|
 | [Glama.ai](https://glama.ai/mcp/servers/CorpusIQ/corpusiq-docs) | ✅ Listed | 16 ⭐, categories: RAG Systems, Search, Data Platforms |
 | [mcpservers.org](https://mcpservers.org) | ⏳ In Review | Submitted July 30 - 12-hour review window |
-| [Smithery.ai](https://smithery.ai) | ⏳ Pending | Submission requires authentication |
+| [Smithery.ai](https://smithery.ai) | ✅ Listed | Published as `benoit-p/Cprusiq` and deployed |
 | [MCP.so](https://mcp.so) | ⏳ Pending | Directory listing in progress |
 
 ## Rankings

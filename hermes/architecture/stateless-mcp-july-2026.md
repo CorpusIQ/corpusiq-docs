@@ -1,7 +1,7 @@
 ---
 title: Stateless MCP - What the July 2026 Spec Means
 description: "Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory."
-last_updated: 2026-10-24
+last_updated: 2026-10-28
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/stateless-mcp-july-2026/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Stateless MCP - What the July 2026 Spec Means for Business AI
 
-The MCP specification update on July 28, 2026 eliminated sessions, handshakes, and persistent connections. MCP is now fully stateless - every request carries its own protocol version, method, and authentication.
+The MCP specification update on July 28, 2026 retired the `initialize`/`initialized` handshake and the `Mcp-Session-Id` header that used to follow it. MCP now has a stateless protocol core - every request carries its own protocol version, client identity, and capabilities, so a tool call needs no prior session context.
 
 This matters for business operators because it removes the single biggest barrier to connecting real business data to AI: infrastructure complexity.
 
@@ -32,11 +32,15 @@ POST /mcp HTTP/1.1
 MCP-Protocol-Version: 2026-07-28
 Mcp-Method: tools/call
 Mcp-Name: search
-Authorization: Bearer <token>
+Content-Type: application/json
+Accept: application/json, text/event-stream
 
 {"jsonrpc":"2.0","id":1,"method":"tools/call",
- "params":{"name":"search","arguments":{"q":"current revenue"}}}
+ "params":{"name":"search","arguments":{"q":"current revenue"},
+ "_meta":{"io.modelcontextprotocol/clientInfo":{"name":"my-app","version":"1.0"}}}}
 ```
+
+Clients that want to know what a server supports before calling it can make an optional `server/discover` call instead of handshaking.
 
 This is the same pattern REST APIs have used for decades. Any HTTP server can serve MCP. Any load balancer can distribute requests. Any CDN can cache where appropriate.
 
@@ -66,7 +70,7 @@ The stateless MCP spec makes this architecture possible at scale. No connection 
 
 ## The Industry Shift
 
-Amazon Bedrock AgentCore adopted stateless MCP immediately. Google published scaling guidance. Simon Willison called it the update that "recaptured his interest" in MCP.
+Amazon Bedrock AgentCore Gateway added 2026-07-28 to the protocol versions it serves, opt-in per gateway. Google published scaling guidance. Simon Willison wrote that stateless MCP has "recaptured my interest" and built three MCP tools off the new spec.
 
 The direction is clear: AI data access is moving toward stateless, authenticated, per-request patterns. The same architecture that made REST APIs the backbone of the web is now coming to AI tool access.
 

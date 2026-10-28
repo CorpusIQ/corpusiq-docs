@@ -8,7 +8,7 @@ tags:
   - lead-qualification
   - crm-automation
   - ai-sales-assistant
-last_updated: 2026-10-24
+last_updated: 2026-10-28
 canonical: "https://www.corpusiq.io/docs/hermes/agents/sales-agent/"
 robots: "index,follow"
 
