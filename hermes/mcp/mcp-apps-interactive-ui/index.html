@@ -946,6 +946,8 @@
       
         
       
+        
+      
     
     
     
@@ -1073,6 +1075,34 @@
     
   
     MCP Auth Failure Classes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/mcp-apps" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Apps (Interactive UI)
   
 
     
@@ -11134,10 +11164,16 @@ server tools, update the model context, and send follow-up messages.</p>
 <h2 id="client-support">Client support<a class="headerlink" href="#client-support" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Claude: available on web and desktop since launch</li>
-<li>ChatGPT: supported via the Apps SDK and MCP Apps compatibility</li>
+<li>ChatGPT: uses OpenAI's own Apps SDK surface rather than the MCP Apps
+  extension, so the same server ships both paths</li>
 <li>Visual Studio Code: supported</li>
 <li>Goose: supported</li>
 </ul>
+<p>Support is per client and moves with client releases. Check the
+<a href="https://modelcontextprotocol.io/extensions/client-matrix">client matrix</a>
+before relying on rendering in any host. For the full mechanism, the
+security model, and the checks worth running before trusting an
+"interactive" claim, see <a href="/docs/mcp-apps">MCP Apps in the product docs</a>.</p>
 <h2 id="security-model">Security model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Iframe sandboxing: all UI content runs in sandboxed iframes with
