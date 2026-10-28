@@ -30,12 +30,12 @@ Research → Draft → Review → Schedule → Post → Monitor → Engage
 
 | Platform | Tool | Content Type |
 |----------|------|-------------|
-| TikTok | HeyGen video agent | UGC-style AI videos |
+| TikTok | HeyGen video agent + Postiz CLI | UGC-style AI videos |
 | Instagram | Postiz CLI | Video + image posts |
-| X/Twitter | xurl CLI | Technical threads |
+| X/Twitter | Postiz CLI | Technical threads |
 | Reddit | PRAW | Helpful comments + posts |
 | Discord | Native API | Community engagement |
-| LinkedIn | API + Playwright | Professional content |
+| LinkedIn | Postiz CLI | Professional content |
 | HN | Playwright | Technical discussion |
 
 ## Rotation Schedule

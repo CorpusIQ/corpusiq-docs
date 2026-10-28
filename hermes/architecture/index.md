@@ -35,7 +35,7 @@ The brain stem. This layer handles task decomposition, agent routing, model sele
 
 The muscle system. This layer provides domain-specific capabilities  --  everything the agents can actually *do*.
 
-**Components:** 70+ skills across marketing, engineering, operations, and content; 65+ CLI tools; MCP infrastructure with 50+ operational tools; FastMCP validation layer
+**Components:** 95+ skills across marketing, engineering, operations, and content; 65+ CLI tools; MCP infrastructure with 50+ operational tools; FastMCP validation layer
 
 **Key responsibility:** Translate agent actions into concrete API calls, database queries, file operations, and external service interactions.
 
@@ -68,7 +68,7 @@ The voice. Everything the system produces for external consumption.
 
 The memory. Persistent knowledge that accumulates and compounds over time.
 
-**Components:** GraphRAG (entity-relationship retrieval), persistent knowledge base (700+ indexed files, vector embeddings, semantic search), dream cycle (nightly consolidation at 03:00), Honcho (conversation memory and peer modeling)
+**Components:** GraphRAG (entity-relationship retrieval), persistent knowledge base (6,000+ indexed pages, vector embeddings, semantic search), dream cycle (nightly consolidation at 03:00), Honcho (conversation memory and peer modeling)
 
 **Key responsibility:** Store everything learned. Retrieve relevant context instantly. Consolidate knowledge nightly. Never forget.
 
@@ -79,7 +79,7 @@ The memory. Persistent knowledge that accumulates and compounds over time.
 
 The immune system. Monitoring, validation, scheduling, and compliance.
 
-**Components:** System registry (pre-creation validation), email operations (inbox monitoring for team@ and info@), cron scheduler (38+ scheduled processes), token lifecycle management, model usage tracking
+**Components:** System registry (pre-creation validation), email operations (inbox monitoring for team@ and info@), cron scheduler (140+ scheduled processes), token lifecycle management, model usage tracking
 
 **Key responsibility:** Ensure everything runs correctly. Detect failures early. Enforce policies. Provide audit trails.
 

@@ -17,7 +17,7 @@ Layer 1: Hermes Agent      →  Execution kernel (tool loop, skills, session mgm
 Layer 2: CrewAI            →  Multi-agent coordination (delegate, parallel work)
 Layer 3: LangGraph         →  Stateful workflows (checkpoints, conditional routing)
 Layer 4: Reflexion         →  Self-improvement loops (evaluate, reflect, retry)
-Layer 5: Cron + Scheduling →  Persistent operations (24 recurring jobs)
+Layer 5: Cron + Scheduling →  Persistent operations (140+ recurring jobs)
 Layer 6: Governance        →  Safety rules, monitoring, drift detection
 ```
 

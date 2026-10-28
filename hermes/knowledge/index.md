@@ -30,11 +30,21 @@ These aren't competitors  --  they solve different problems. Run all three.
 **Setup (2 minutes):**
 
 ```bash
-# Add Honcho MCP to Hermes
-hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev \
-  --header "Authorization: Bearer YOUR_HONCHO_API_KEY" \
-  --header "X-Honcho-Workspace-ID: your-workspace" \
-  --header "X-Honcho-User-Name: your-agent-name"
+# Register the hosted Honcho MCP endpoint (Bearer auth via headers)
+hermes mcp add honcho --url https://mcp.honcho.dev --auth header
+```
+
+Then supply the three headers in the server block of `config.yaml`:
+
+```yaml
+mcp_servers:
+  honcho:
+    url: https://mcp.honcho.dev
+    headers:
+      Authorization: Bearer YOUR_HONCHO_KEY
+      X-Honcho-Workspace-ID: your-workspace
+      X-Honcho-User-Name: your-agent-name
+    enabled: true
 ```
 
 **What it stores:**
@@ -56,10 +66,10 @@ Peer: corpusiq-agent
 **Key Honcho tools in Hermes:**
 
 ```
-mcp_honcho_get_peer_context     --  Load everything about a peer
-mcp_honcho_chat                 --  Ask questions about peer knowledge
-mcp_honcho_search               --  Semantic search across conversations
-mcp_honcho_schedule_dream       --  Queue memory consolidation
+mcp__honcho__get_peer_context     --  Load everything about a peer
+mcp__honcho__chat                 --  Ask questions about peer knowledge
+mcp__honcho__search               --  Semantic search across conversations
+mcp__honcho__schedule_dream       --  Queue memory consolidation
 ```
 
 **Pattern: Pre-flight gate**
@@ -81,9 +91,9 @@ peer = honcho_get_peer_context(target_peer_id="user")
 **Setup (10 minutes):**
 
 ```bash
-git clone https://github.com/garrytan/gbrain
-cd gbrain
-./setup.sh
+# Requires Bun 1.4.4+. GBrain is not on npm - install from the repo:
+bun install -g github:garrytan/gbrain
+gbrain init --pglite --no-embedding
 # GBrain indexes your project files into pglite with 768d embeddings
 ```
 
@@ -91,7 +101,7 @@ cd gbrain
 
 ```
 Organization: CorpusIQ
-├── Files: 729 indexed (code, docs, configs, scripts)
+├── Pages: 6,000+ indexed (code, docs, configs, scripts)
 ├── Embeddings: nomic-embed-text, 768-dimension
 ├── Categories: infrastructure, video, governance, email, social
 └── Relationships: "heygen-video-generator.py" → depends on → "heygen.json"
@@ -126,11 +136,14 @@ Nightly consolidation:
 **Setup (5 minutes):**
 
 ```bash
-pip install memcore-cloud
-memcore-cloud init
+# memcore ships as a Hermes plugin (read-only recall of raw sources via a
+# pre-turn hook). It is not distributed on PyPI - enable it as a plugin:
+hermes plugins enable memcore_yifanchen
 
-# It runs as a background service
-# Injects context into every Hermes turn automatically
+# The cross-session layer used in this deployment is Sibyl, which registers
+# as the memory provider and stores everything in local SQLite (FTS5):
+pip install sibyl-memory-hermes
+# Store: ~/.hermes/profiles/<profile>/sibyl/profiles/<profile>/memory.db
 ```
 
 **Architecture:**
@@ -192,10 +205,13 @@ graphrag index --root ./graphrag-data
 **How to use:**
 
 ```bash
-# Search past sessions from CLI
-hermes session search "heyGen video failed"
+# List recent sessions from the CLI
+hermes sessions list
 
-# From within a session, use session_search tool
+# Browse and search session history interactively
+hermes sessions browse
+
+# From within a session, use the session_search tool
 session_search(query="email campaign June")
 ```
 
@@ -262,12 +278,12 @@ SESSION END (or every 30 min)
 
 ## Production Numbers
 
-From our deployment (as of June 16, 2026):
+From our deployment (verified October 27, 2026):
 
 | System | Data Volume | Query Speed |
 |--------|------------|-------------|
 | Honcho | 200+ peer conclusions, 50+ sessions | <100ms semantic search |
-| GBrain | 729 indexed files, 768d vectors | <200ms search |
+| GBrain | 6,133 indexed pages / 14,293 chunks, 768d vectors | <200ms search |
 | memcore-cloud | Cross-session context auto-injected | Per-turn, transparent |
 | Session DB | 50K+ messages across sessions | FTS5 instant |
 ---

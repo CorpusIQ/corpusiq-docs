@@ -7,7 +7,7 @@ added: 2026-10-26
 source: "vendor repository idoo/app-store-connect-mcp read at 2026-10-26 (README, docs/TOOLS.md generated tool reference listing 76 tools with read/write/destructive classes and confirm modes) + brew tap idoo/homebrew-tap answering HTTP 200 + official MCP registry entry io.github.idoo/app-store-connect-mcp, latest 0.13.0 + chatmcp/mcpso submission #6189. Not probed live: the server is local stdio and needs an App Store Connect API key."
 relevance: ★★★
 tags: [app-store, ios, mobile, sales-reports, proceeds, reviews, testflight, app-analytics, local-stdio]
-last_updated: "2026-10-26"
+last_updated: "2026-10-27"
 ---
 
 # App Store Connect MCP

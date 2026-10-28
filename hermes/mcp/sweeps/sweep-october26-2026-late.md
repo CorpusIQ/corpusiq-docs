@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 26, 2026 (Late Sweep)"
 description: "Five finds eleven hours after the midday pass, four of them business systems that publish their contract in an OAuth document and one that puts a paid consumer panel inside the chat."
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-late/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
