@@ -111,8 +111,8 @@
     "description": "Curated catalog of notable third-party MCP servers for business operators -- finance, analytics, document intelligence, security, and productivity",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external",
     
-    "datePublished": "2026-10-27",
-    "dateModified": "2026-10-27",
+    "datePublished": "2026-10-28",
+    "dateModified": "2026-10-28",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-27">
+  <meta name="last-updated" content="2026-10-28">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10746,6 +10746,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#october-28-2026-morning-sweep-5-new-5-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 28, 2026 - Morning Sweep (5 New, 5 Guides)
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#october-27-2026-late-sweep-6-new-6-guides" class="md-nav__link">
@@ -25708,6 +25719,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#october-28-2026-morning-sweep-5-new-5-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆕 October 28, 2026 - Morning Sweep (5 New, 5 Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#october-27-2026-late-sweep-6-new-6-guides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -40386,8 +40408,28 @@
 <h1 id="external-mcp-server-catalog">External MCP Server Catalog<a class="headerlink" href="#external-mcp-server-catalog" title="Anchor link to this section">&para;</a></h1>
 <p>Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators -- curated from <a href="https://mcp.so">mcp.so</a> and <a href="https://mcpservers.org">mcpservers.org</a>.</p>
 <blockquote>
-<p><strong>Last updated:</strong> October 27, 2026 (late sweep) · <strong>Sources:</strong> mcpservers.org <code>/all</code> pages 1 to 3 read through the r.jina.ai reader proxy at the 02:04:34 GMT stamp (90 unique slugs, counter 17,913 against 17,721 at the midday read) + mcp.so <code>/feed</code> page 1 read from the raw page with a browser user agent (30 server cards, newest <code>2026-10-27T22:39:16Z</code>, three filed after the prior cutoff) + the chatmcp/mcpso issue window #6244 to #6271 over the authenticated GitHub API (27 issues, <code>#6247</code> absent) + live probes on four hosted endpoints and four repository reads, where SendNF, Metis Check and DocsAutomator answer <code>initialize</code> with a 401 that names its own auth, Receipts Index answers a read-only GET with 200 and a 405 on POST, and bokio-mcp, Recued and SendNF were read from their own repositories and npm records.</p>
+<p><strong>Last updated:</strong> October 28, 2026 (morning sweep) · <strong>Sources:</strong> mcpservers.org <code>/all</code> pages 1 to 3 read through the r.jina.ai reader proxy at the 10:05 GMT stamp (90 unique slugs, counter 17,913, unchanged from the 02:04:34 GMT read and page one in the identical order, the first zero-move window since October 24) + mcp.so <code>/feed</code> page 1 read through web_extract (30 cards, newest submitted about an hour before the read, against a prior newest of <code>2026-10-27T22:39:16Z</code>) + the chatmcp/mcpso issue window <code>#6272</code> to <code>#6286</code> over the authenticated GitHub API (15 issues, <code>#6272</code> and <code>#6273</code> opened by mistake) + live probes on four hosted endpoints, where Crevio and AEO Engine answer <code>initialize</code> with 200 keyless, AhaSend answers 401 naming the missing bearer token and PressBotics answers 401 naming OAuth, plus the npm and PyPI records behind the two local servers.</p>
 </blockquote>
+<h2 id="october-28-2026-morning-sweep-5-new-5-guides">🆕 October 28, 2026 - Morning Sweep (5 New, 5 Guides)<a class="headerlink" href="#october-28-2026-morning-sweep-5-new-5-guides" title="Anchor link to this section">&para;</a></h2>
+<p>Eight hours after the late pass the mcpservers.org counter had not moved at all, 17,913 against 17,913 at the 02:04 GMT read, with ninety slugs across pages one to three and page one in the identical order, the first zero-move window on that surface since October 24. Breadth therefore cost three fetches and returned nothing, and the delta came from the two surfaces that do move at this gap: the feed, whose newest card was about an hour old, and the submission window, which advanced from <code>#6271</code> to <code>#6286</code>. Three of the five finds answer the same operator question from different angles, what do my own numbers say and which one should I work on first.</p>
+<ul>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/crevio-mcp">Crevio MCP - Delegate Business Work to an Agent</a> · remote Streamable HTTP at <code>https://mcp.crevio.co/mcp</code>, <strong>OAuth 2.1 with dynamic client registration on any plan including Free</strong>, API tokens only on Business, by Crevio (crevio.co). A bare <code>initialize</code> returned <strong>HTTP 200</strong> as <code>crevio-api</code> 2.0.0 on protocol <code>2025-06-18</code> advertising tools, resources and the skills, events and tasks extensions, and <code>tools/list</code> returned <strong>twenty tools</strong> each carrying read-only and destructive hints. The pair that matters is <code>ask_crevio</code>, which hands a job to Crevio's own agent and waits for the result, and <code>run_script</code>, which runs JavaScript with bun on the account's computer so hundreds of calls across the Crevio API and <strong>3,000+ connected apps</strong> happen in one step with no agent turn between them, returning its last expression as the result with artifacts capped at 20 files of 50 MB. Writes pause a run in <code>needs_input</code> with pending approval ids and <code>resolve_approvals</code> is the only path forward, at most four script runs are in flight per user, run ids do not expire, and every action lands in <code>list_audit_events</code>. The one failure that costs money is re-calling <code>run_script</code> after a wait times out, which runs it twice unless the <code>idempotency_key</code> is reused.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/seo-audit-console-mcp">SEO Audit Console MCP - 143 Checks on Your Own Data</a> · local stdio through <code>npx -y @houtini/seo-audit-console</code>, npm <strong>0.17.0</strong> published 2026-08-03 and modified 2026-10-25, <strong>Apache-2.0</strong>, source <code>github.com/houtini-ai/seo-audit</code>, on the feed at 09:00Z. It joins three sources on a <strong>normalised URL in local SQLite</strong>: Search Console history for a property you own, a polite first-party crawl of that site, and DataForSEO on demand, then ranks <strong>143 checks by recoverable clicks</strong> across <strong>64 tools</strong> spanning crawlability, indexation, canonicals, redirects, hreflang, structured data, Core Web Vitals, internal PageRank, cannibalisation, soft 404s and AI-answer readiness. Every finding is labelled <strong>deterministic</strong>, backed by the bytes it cites, or <strong>judgement</strong>, and the output carries the fix rather than only the finding: JSON-LD to paste, a 301 map, internal-link suggestions, plus a portfolio view that puts measured Search Console clicks beside estimated traffic, referring domains and AI mentions from AI Overviews and ChatGPT. Search Console and the crawl are free, DataForSEO is optional and cached for 20 days at about $0.22 for a weekly eight-site refresh, Majestic and the free CrUX key add Trust Flow and real-user vitals, and a Docker MCP gateway sidecar exists for long crawls. No endpoint exists to probe, which the entry states rather than works around.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dottide-mcp">dotTide MCP - Read Only Numbers for Every Site</a> · local stdio through <code>uvx dottide</code>, PyPI <strong>0.3.1</strong> across three releases, MIT, repository <code>dotbrainhq/dottide</code>, filed as submission <code>#6274</code> at <code>05:37:12Z</code>. One Google service account reads Search Console and GA4 for every site it has been granted <strong>even when the properties sit under different Google accounts</strong>, plus Bing Webmaster Tools, WordPress.org, Firefox Add-ons and GitHub numbers with no key. Nine read-only tools (<code>sites</code>, <code>search_queries</code>, <code>traffic</code>, <code>opportunities</code>, <code>index_health</code>, <code>core_web_vitals</code>, <code>bing_queries</code>, <code>store_stats</code>, <code>discover</code>) and three prompts, Weekly review, What to work on and Index check. The two details worth the entry are that GA4 traffic counts <strong>AI assistant referrals separately</strong>, and that the Google credential and any Bing key live in the operating system secret store rather than the config file. <code>discover</code> writes the configuration from the properties the key can actually read, and no tool can change a site, Search Console, GA4 or Bing.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/aeo-engine-mcp">AEO Engine MCP - How AI Engines Describe a Site</a> · remote Streamable HTTP at <code>https://aeoengine.ai/mcp</code>, <strong>no auth at all</strong>, free on the public path, by AEO Engine (aeoengine.ai). <strong>Driven end to end without a key</strong>: <code>initialize</code> returned HTTP 200 as <code>aeo-engine-aeo-report</code> 2.0.0 on protocol <code>2025-03-26</code>, and <code>tools/list</code> returned exactly two tools with full schemas. <code>run_aeo_report</code> requires a domain and a <strong>real work email that is MX validated with disposable domains rejected</strong>, waits inline up to about 50 seconds on a job that can take ten minutes, accepts 5 to 20 <code>customQuestions</code> preserved verbatim, pins one competitor on the public path with up to five behind an agency key, takes a vertical hint, city and up to eight focus terms, and returns a per-engine breakdown with provenance, competitor gaps, the measured questions, evidence, a named share of voice, a shareable <code>report_url</code> and a <code>markdown_summary</code> written to be read aloud. <code>get_aeo_report_status</code> polls one job and its status vocabulary keeps <code>needs_review</code> and <code>running</code> apart from terminal <code>complete</code>, <code>partial</code> and <code>failed</code>, which is the honest half of any measurement that can come back incomplete.</p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ahasend-mcp">AhaSend MCP - Transactional Email From an Agent</a> · remote Streamable HTTP at <code>https://mcp.ahasend.com/mcp</code>, <strong>OAuth 2.1 in the browser with no key to copy</strong>, by AhaSend (ahasend.com), server MIT at <code>github.com/AhaSend/ahasend-mcp</code> on the Go SDK <code>ahasend-go</code>. A bare <code>initialize</code> returned <strong>HTTP 401 with the body <code>no bearer token</code></strong>, the correct account-gated shape, so the surface is the vendor documentation. The design decisions carry it: a single send is capped at <strong>50 recipients by default</strong>, bulk mail goes through campaigns that show the details and send only after the user confirms, received email is <strong>hidden from the agent unless enabled and then marked untrusted</strong>, tool exposure is scoped by the API key with a read-only mode, and the free plan is <strong>1,000 emails a month</strong> on the vendor's own servers in the EEA under ISO 27001. Diagnostics are the operator half: list and inspect messages, explain why one failed, read deliverability, bounce and delivery-time statistics, manage sending domains with a DNS check, and version templates as AhaML or MJML. A local developer binary, <code>cmd/ahasend-mcp-dev</code>, takes <code>AHASEND_API_KEY</code> and <code>AHASEND_ACCOUNT_ID</code>.</p>
+</li>
+</ul>
+<p><strong>Also read and held.</strong> Fifteen issues arrived between <code>#6272</code> and <code>#6286</code>, two of them opened by mistake, and twelve of the thirteen substantive ones were read and held on class or shape rather than left to drift. <strong>OneStore</strong> (<code>#6286</code>) is the near miss: 43 tools for App Store and Play Store management advertised at <code>https://www.onestore.so/en/mcp</code>, but that URL answers <strong>GET 200 as a page and POST 405</strong> and <code>https://onestore.so/mcp</code> only 307-redirects to it, so no JSON-RPC surface could be confirmed and the claim stays a claim. <strong>PressBotics</strong> on the feed has a real endpoint, <code>https://mcp.pressbotics.com/mcp</code> returning <strong>HTTP 401 with the body <code>Unauthorized: connect Pressbotics via OAuth.</code></strong>, but no published tool reference behind it. <strong>Signal Feed API</strong> sells daily market-regime context per call at 0.10 USDC on Base through x402 with rules drawn from the seller's own paper research accounts, first issue 2026-10-26, so it is held on class as an unproven paid signal feed. <strong>GhostPaw Affinity</strong> (<code>#6283</code>) keeps local relationship memory with affinity and trust scores and a contact cadence, held as personal memory rather than an operator record. <strong>Conciergr Timetable</strong> (<code>#6281</code>), <strong>Kite</strong> (<code>#6278</code>), <strong>MediaLit</strong> (<code>#6277</code>), <strong>Nhost</strong> (<code>#6284</code>), <strong>WTFM</strong> (<code>#6285</code>), <strong>godspeed</strong> (<code>#6282</code>), <strong>Inbox eSIM</strong> (<code>#6276</code>) and <strong>PlushSource</strong> (<code>#6275</code>) were held on class as one vertical timetable app, hosted Discord bot building, storage and CDN infrastructure, managed backend tooling, help-guide generation from source, a desktop study app, consumer travel eSIM purchase over the Machine Payments Protocol, and a single-niche manufacturer directory on bundled data. <strong>Seller Fees Calculator</strong> (<code>#6279</code>) and <strong>US Freelancer Tax Calculator 2026</strong> (<code>#6280</code>) are local deterministic math on bundled tables, held because marketplace fee math is already carried by FlipProfit and Seller Profit Doctor and the tax package carries its year in its name. <strong>imageat</strong>, <strong>Gemini MCP</strong>, <strong>getimg</strong> and <strong>Cardboard AI</strong> are creative generation behind credits, held on class, with the Houtini server noted for one pattern rather than its tools: thirteen tools that preview images, SVGs and video <strong>inline through MCP Apps</strong> instead of returning a path. Carried and already dispositioned in earlier passes: TruLata, RelayLink, TestWell Lab Tests, LoreKeeper, Mythex, Launchdog, drop.media, PixelFlow, Pidgeon and Ask a human expert.</p>
 <h2 id="october-27-2026-late-sweep-6-new-6-guides">🆕 October 27, 2026 - Late Sweep (6 New, 6 Guides)<a class="headerlink" href="#october-27-2026-late-sweep-6-new-6-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Ten hours after the midday supplement the listing moved by 192 servers, 17,721 to 17,913, the largest gap on this surface since the October 26 late pass and roughly twenty times the midday window, with page one fully rotated, three feed cards after its cutoff and a submission window that advanced from <code>#6243</code> to <code>#6271</code> with twenty-seven issues and no <code>#6247</code>. Three of the six finds sit where a wrong number becomes a filing, a book entry or a client document, and the other three answer measurement questions the catalog was short of.</p>
 <ul>
@@ -48469,7 +48511,16 @@ Midday supplement sourced from the mcp.so feed (30 server blocks via the r.jina.
 <li>
 <p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/tradingagentstack-mcp">TradingAgentStack MCP - Who Places the Order</a></p>
 </li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/postbye-mcp">Postbye MCP - How to Cancel Any Subscription</a></li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/postbye-mcp">Postbye MCP - How to Cancel Any Subscription</a></p>
+</li>
+<li>
+<p><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/crevio-mcp">Crevio MCP - Delegate Business Work to an Agent</a></p>
+</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/seo-audit-console-mcp">SEO Audit Console MCP - 143 Checks on Your Own Data</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/dottide-mcp">dotTide MCP - Read Only Numbers for Every Site</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/aeo-engine-mcp">AEO Engine MCP - How AI Engines Describe a Site</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/ahasend-mcp">AhaSend MCP - Transactional Email From an Agent</a></li>
 </ul>
 
 
