@@ -82953,5 +82953,276 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-27T11:01:06.506035+00:00",
     "status": "pending"
+  },
+  {
+    "name": "WilliamWang6586/hermes-skills",
+    "url": "https://github.com/WilliamWang6586/hermes-skills",
+    "description": "\u738b\u5b50\u6db5\u7684 Hermes Agent \u6280\u80fd\u5305\u5408\u96c6\uff0843 \u4e2a\u6280\u80fd\uff0c\u542b\u4e00\u952e\u5b89\u88c5\u811a\u672c\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-28T05:00:56Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-10-28T05:00:58.967291+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nateofspades/Hyperframes_Arcade_Games_Showcase",
+    "url": "https://github.com/nateofspades/Hyperframes_Arcade_Games_Showcase",
+    "description": "HyperFrames video showcase featuring eight browser-based arcade games developed with Hermes AI Agent and Codex.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-10-28T05:00:54Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T05:00:58.969076+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "axellageraldinc/aixell",
+    "url": "https://github.com/axellageraldinc/aixell",
+    "description": "Self-hosted web UI for Hermes Agent: chat, plus a pluggable AI-curated Feed.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "hermes-agent",
+      "llm",
+      "rss",
+      "self-hosted"
+    ],
+    "updated_at": "2026-10-28T05:00:24Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T05:00:58.970918+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tykkkkkkan/hermes-pet",
+    "url": "https://github.com/tykkkkkkan/hermes-pet",
+    "description": "\u8d6b\u5c14\u58a8\u5179 \u00b7 Hermes \u684c\u5ba0\uff5cElectron \u900f\u660e\u7f6e\u9876\u684c\u5ba0\uff0c\u5b9e\u65f6\u540c\u6b65 Agent \u4efb\u52a1\u72b6\u6001",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-28T04:59:17Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T05:00:58.973208+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "omoresearch/omo-space",
+    "url": "https://github.com/omoresearch/omo-space",
+    "description": "Omo Space: real AI agents, terminals and web pages inside Minecraft. Claude Code + Hermes. MIT.",
+    "stars": 5,
+    "forks": 0,
+    "language": "Java",
+    "topics": [],
+    "updated_at": "2026-10-28T04:58:37Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T05:00:58.974799+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SnoobieJunes/hermes-muse-harness",
+    "url": "https://github.com/SnoobieJunes/hermes-muse-harness",
+    "description": "Hermes plugin: drive local Muse Code over MSP so Wonder Full can call MCP tools",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-28T05:00:25Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T05:01:06.837214+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "harrylabsj/hermes-plugin-kiwi",
+    "url": "https://github.com/harrylabsj/hermes-plugin-kiwi",
+    "description": "Hermes plugin for Kiwi: buyer-side supplier discovery, RFQ and negotiation through the Kiwi Buyer MCP server, with the kiwi-buyer workflow skill bundled. Portable Agent Plugins v1 package.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-28T04:16:34Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "verkyyi/agentfeeds-hermes-plugin",
+      "kaankacar/stellar-agent-kit",
+      "Salomondiei08/oh-my-hermes",
+      "ruvnet/metaharness",
+      "moonlight-lupin/agent-skills",
+      "NousResearch/hermes-official-plugins"
+    ],
+    "discovered_at": "2026-10-28T05:01:06.840397+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DarylAndrian/Mnemosyne",
+    "url": "https://github.com/DarylAndrian/Mnemosyne",
+    "description": "Shared GraphRAG memory MCP server for Hermes agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-28T03:09:44Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "AxDSan/mnemosyne",
+      "mnemosyne-oss/mnemosyne"
+    ],
+    "discovered_at": "2026-10-28T05:01:06.847882+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "scavio-ai/scavio-hermes-skill",
+    "url": "https://github.com/scavio-ai/scavio-hermes-skill",
+    "description": "Community Scavio plugin for Hermes Agent (not affiliated with Nous Research): structured web data across 31 platforms via hosted MCP, plus 5 workflow skills.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-27T19:18:58Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "hermeshub"
+    ],
+    "discovered_at": "2026-10-28T05:01:14.629446+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pd90506/hermesapp",
+    "url": "https://github.com/pd90506/hermesapp",
+    "description": "Native macOS & iOS clients for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "updated_at": "2026-10-28T05:01:00Z",
+    "category": "forks",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf"
+    ],
+    "discovered_at": "2026-10-28T05:01:22.421858+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "abhaymettu/read-the-room",
+    "url": "https://github.com/abhaymettu/read-the-room",
+    "description": "Group chat manners for personal AI agents: knows when you're talking to it, stays quiet otherwise, works with other agents without loops. iMessage, WhatsApp, Telegram, Discord, Slack, Signal. Built on Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "discord",
+      "group-chat",
+      "hermes-agent",
+      "imessage",
+      "llm",
+      "multi-agent",
+      "telegram",
+      "whatsapp"
+    ],
+    "updated_at": "2026-10-28T00:55:05Z",
+    "category": "messaging",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334"
+    ],
+    "discovered_at": "2026-10-28T05:02:47.973301+00:00",
+    "status": "pending"
   }
 ]

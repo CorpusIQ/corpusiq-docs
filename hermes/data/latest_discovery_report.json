@@ -1,50 +1,51 @@
 {
-  "run_time": "2026-10-27T04:04:07.800614+00:00",
+  "run_time": "2026-10-28T05:03:26.656929+00:00",
   "new_approved": [
     {
-      "name": "Adolanium/hermes-gadget-sdk",
-      "url": "https://github.com/Adolanium/hermes-gadget-sdk",
-      "description": "Build voice and text devices for your Hermes Agent, with ESP32 firmware, a Linux client, and a desktop simulator.",
-      "stars": 447,
-      "forks": 74,
-      "language": "C++",
+      "name": "Ikalus1988/MisakaNet",
+      "url": "https://github.com/Ikalus1988/MisakaNet",
+      "description": "Re-debugging Solved Failures? No Way. 500+ Evidence-graded fix lessons, One MCP Call-->https://misakanet.org",
+      "stars": 543,
+      "forks": 227,
+      "language": "Python",
       "topics": [
-        "cpp17",
-        "embedded",
-        "esp-idf",
-        "esp32",
-        "esp32-s3",
+        "ai-agents",
+        "claude-code-plugin",
+        "codex",
+        "codex-plugin",
+        "d1",
+        "debugging",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "failure-injection",
+        "failure-memory",
+        "github-actions",
         "hermes-agent",
-        "iot",
-        "linux",
-        "push-to-talk",
-        "python",
-        "raspberry-pi",
-        "sdk",
-        "simulator",
-        "voice-assistant",
-        "websocket"
+        "knowledge-base",
+        "mcp",
+        "mcp-server",
+        "opencode-plugin",
+        "sqlite",
+        "stackoverflow"
       ],
-      "updated_at": "2026-10-27T03:57:10Z",
-      "category": "core",
-      "score": 80,
+      "updated_at": "2026-10-28T05:01:12Z",
+      "category": "forks",
+      "score": 75,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "direct_hermes_reference",
+        "hermes_topic",
+        "agent_ecosystem",
         "moderate_stars_100+",
         "detailed_description",
         "active_week",
         "has_homepage"
       ],
-      "near_duplicates": [
-        "Romanescu11/hermes-skill-factory",
-        "zszszszsz/.config",
-        "unmodeled-tyler/vessel-browser",
-        "tale-project/tale"
-      ],
-      "discovered_at": "2026-10-27T04:01:39.332544+00:00",
+      "near_duplicates": [],
+      "discovered_at": "2026-10-28T05:01:22.418485+00:00",
       "status": "approved",
-      "approved_at": "2026-10-27T04:04:07.743871+00:00"
+      "approved_at": "2026-10-28T05:03:26.599431+00:00"
     }
   ],
   "integration": {
@@ -53,10 +54,10 @@
     "note": "hermes/ecosystem.md is NOT emitted by the mkdocs build and collides with hermes/ecosystem/index.md at /hermes/ecosystem/. Add every approved repo to hermes/ecosystem/index.md (the page users see). Mirror into ecosystem.md only to keep the two files in sync."
   },
   "stats": {
-    "total_found": 9,
+    "total_found": 12,
     "auto_approved": 1,
-    "pending_review": 8,
-    "total_approved": 202,
-    "total_pending": 2795
+    "pending_review": 11,
+    "total_approved": 203,
+    "total_pending": 2817
   }
 }

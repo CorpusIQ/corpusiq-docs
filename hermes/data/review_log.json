@@ -19938,5 +19938,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-27T11:03:30.062515+00:00"
+  },
+  {
+    "repo": "WilliamWang6586/hermes-skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599443+00:00"
+  },
+  {
+    "repo": "nateofspades/Hyperframes_Arcade_Games_Showcase",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599445+00:00"
+  },
+  {
+    "repo": "axellageraldinc/aixell",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599447+00:00"
+  },
+  {
+    "repo": "tykkkkkkan/hermes-pet",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599448+00:00"
+  },
+  {
+    "repo": "omoresearch/omo-space",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599449+00:00"
+  },
+  {
+    "repo": "SnoobieJunes/hermes-muse-harness",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599450+00:00"
+  },
+  {
+    "repo": "harrylabsj/hermes-plugin-kiwi",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599451+00:00"
+  },
+  {
+    "repo": "DarylAndrian/Mnemosyne",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599452+00:00"
+  },
+  {
+    "repo": "scavio-ai/scavio-hermes-skill",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599453+00:00"
+  },
+  {
+    "repo": "Ikalus1988/MisakaNet",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-28T05:03:26.599454+00:00"
+  },
+  {
+    "repo": "pd90506/hermesapp",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599455+00:00"
+  },
+  {
+    "repo": "abhaymettu/read-the-room",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T05:03:26.599456+00:00"
   }
 ]

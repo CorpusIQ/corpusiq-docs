@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 436+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 437+ repos, tools, skills, and integrations
 last_updated: "2026-10-27"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -18,9 +18,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **436+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 202 auto-approved (scored >= 70 or manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **437+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 203 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **436+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **437+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **436+ reposit
 | 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 10 | Model Context Protocol servers & integrations |
-| 💾 Memory & Knowledge | 41 | Persistent memory, knowledge graphs, context systems |
+| 💾 Memory & Knowledge | 42 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
@@ -620,6 +620,14 @@ _Persistent memory, knowledge graphs, context systems_
 >Native macOS and iOS App for the Hermes AI agent - multi-window, multi-server (local + remote over SSH). Chat, dashboard, sessions, memory, cron, MCP, and more.
 
 **Language:** Swift | **Topics:** ai-agent, gui, hermes, macos, macos-app
+
+---
+
+### [Ikalus1988/MisakaNet](https://github.com/Ikalus1988/MisakaNet) ⭐ 543
+
+>Git-backed failure memory for coding agents. Every debugging lesson is a Markdown file graded by evidence level (E0 intake to E4 observed reuse), so an agent retrieves a fix somebody already verified instead of re-debugging the same failure. 500+ lessons across Docker, MCP, CI, network, WSL, Windows and RAG, served by an 8-tool MCP endpoint at misakanet.org/mcp.
+
+**Language:** Python | **Topics:** hermes-agent, mcp-server, failure-memory, knowledge-base, debugging, claude-code-plugin, codex-plugin, opencode-plugin, sqlite | **License:** Apache-2.0 | **Homepage:** [misakanet.org](https://misakanet.org)
 
 ---
 
@@ -1800,7 +1808,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*436+ repositories in the Hermes ecosystem. Last updated: 2026-10-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*437+ repositories in the Hermes ecosystem. Last updated: 2026-10-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
