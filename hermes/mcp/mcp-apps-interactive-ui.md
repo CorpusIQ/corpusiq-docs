@@ -64,9 +64,16 @@ server tools, update the model context, and send follow-up messages.
 ## Client support
 
 - Claude: available on web and desktop since launch
-- ChatGPT: supported via the Apps SDK and MCP Apps compatibility
+- ChatGPT: uses OpenAI's own Apps SDK surface rather than the MCP Apps
+  extension, so the same server ships both paths
 - Visual Studio Code: supported
 - Goose: supported
+
+Support is per client and moves with client releases. Check the
+[client matrix](https://modelcontextprotocol.io/extensions/client-matrix)
+before relying on rendering in any host. For the full mechanism, the
+security model, and the checks worth running before trusting an
+"interactive" claim, see [MCP Apps in the product docs](/docs/mcp-apps/).
 
 ## Security model
 

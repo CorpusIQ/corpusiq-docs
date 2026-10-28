@@ -15,6 +15,9 @@ a question. No deep tech - just enough to know what you're using.
 - [mcp-architecture.md](mcp-architecture.md) - the developer deep dive: what
   Model Context Protocol is, how tools are named and scoped, and how to
   connect any MCP-compatible client to the live-data layer.
+- [mcp-apps.md](../mcp-apps.md) - interactive app views. How an MCP server
+  returns a rendered interface inside the chat, the sandbox that makes it
+  safe, and the four checks that separate a live view from a picture.
 - [skills-explained.md](skills-explained.md) - the skills engine. Why
   CorpusIQ answers complex questions consistently instead of randomly.
 - [rate-limits-and-quotas.md](rate-limits-and-quotas.md) - API rate limits,

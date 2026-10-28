@@ -12,28 +12,25 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 CorpusIQ is an AI intelligence layer connecting 40+ business tools to every AI assistant through the Model Context Protocol. Here is where we appear across the MCP ecosystem.
 
-## MCP Directories
+## MCP directories
 
-| Directory | Status | Details |
-|-----------|--------|---------|
-| [Glama.ai](https://glama.ai/mcp/servers/CorpusIQ/corpusiq-docs) | ✅ Listed | 16 ⭐, categories: RAG Systems, Search, Data Platforms |
-| [mcpservers.org](https://mcpservers.org) | ⏳ In Review | Submitted July 30 - 12-hour review window |
-| [Smithery.ai](https://smithery.ai) | ✅ Listed | Published as `benoit-p/Cprusiq` and deployed |
-| [MCP.so](https://mcp.so) | ⏳ Pending | Directory listing in progress |
+| Directory | Where CorpusIQ appears |
+|-----------|------------------------|
+| [Glama.ai](https://glama.ai/mcp/servers/CorpusIQ/corpusiq-docs) | Server page with tool list, under RAG Systems, Search, and Data Platforms |
+| [Smithery.ai](https://smithery.ai) | Server listed as `Cprusiq` |
+| [mcpservers.org](https://mcpservers.org) | Directory index |
+| [MCP Toplist](https://mcptoplist.com) | Ranked index, position moves with vote count |
+| [MCP.so](https://mcp.so) | Directory index |
 
-## Rankings
+Directory rankings are point-in-time readings and shift constantly. Use the links above rather than a quoted rank.
 
-| Platform | Rank | Total Listed |
-|----------|------|-------------|
-| [MCP Toplist](https://mcptoplist.com) | #2,707 | 94,094 servers |
+## AI tool directories
 
-## AI Tool Directories
-
-| Directory | Status |
-|-----------|--------|
-| [Product Hunt](https://www.producthunt.com/search?q=corpusiq) | ⏳ Planned |
-| [There's An AI For That](https://theresanaiforthat.com/ai/corpusiq) | ✅ Listed |
-| [Futurepedia](https://futurepedia.io) | ✅ Listed |
+| Directory | Where CorpusIQ appears |
+|-----------|------------------------|
+| [There's An AI For That](https://theresanaiforthat.com/ai/corpusiq) | Product listing |
+| [Futurepedia](https://futurepedia.io) | Product listing |
+| [Product Hunt](https://www.producthunt.com/search?q=corpusiq) | Search results |
 
 ## What CorpusIQ Does
 

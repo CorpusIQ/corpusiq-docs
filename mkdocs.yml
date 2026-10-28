@@ -66,6 +66,7 @@ nav:
   - What is CorpusIQ: how-it-works/what-is-corpusiq.md
   - MCP Architecture: how-it-works/mcp-architecture.md
   - MCP Auth Failure Classes: how-it-works/mcp-auth-failure-classes.md
+  - MCP Apps (Interactive UI): mcp-apps.md
   - Connectors Explained: how-it-works/connectors-explained.md
   - Skills Engine: how-it-works/skills-explained.md
   - Metric Specs: how-it-works/metric-specs.md
