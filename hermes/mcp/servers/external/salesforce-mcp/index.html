@@ -11263,16 +11263,16 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 </code></pre></div>
 <h3 id="mcp-client-config">MCP Client Config<a class="headerlink" href="#mcp-client-config" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"salesforce"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"mcp_salesforce"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"SF_CLIENT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-connected-app-client-id"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SF_CLIENT_SECRET"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-connected-app-client-secret"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SF_USERNAME"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-salesforce-username"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SF_PASSWORD"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-password-plus-token"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SF_INSTANCE_URL"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://your-instance.salesforce.com"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;salesforce&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-m&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;mcp_salesforce&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;SF_CLIENT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-connected-app-client-id&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SF_CLIENT_SECRET&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-connected-app-client-secret&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SF_USERNAME&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-salesforce-username&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SF_PASSWORD&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-password-plus-token&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SF_INSTANCE_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://your-instance.salesforce.com&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11350,23 +11350,23 @@ pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </s
 <p><code>execute_soql</code> gives full read access to any object via SOQL queries - the most powerful tool. Agents can query any standard or custom object with relationship traversal.</p>
 <h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-pipeline-review">1. Pipeline Review<a class="headerlink" href="#1-pipeline-review" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Show me all opportunities closing this month over $50K, grouped by stage"
+<div class="highlight"><pre><span></span><code>User: &quot;Show me all opportunities closing this month over $50K, grouped by stage&quot;
 Agent: [executes SOQL, returns pipeline table with stage, amount, close date, owner]
 </code></pre></div>
 <h3 id="2-activity-logging">2. Activity Logging<a class="headerlink" href="#2-activity-logging" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Log a call with Acme Corp - discussed Q3 renewal, they're interested in upgrading to Enterprise"
+<div class="highlight"><pre><span></span><code>User: &quot;Log a call with Acme Corp - discussed Q3 renewal, they&#39;re interested in upgrading to Enterprise&quot;
 Agent: [finds Acme account, creates task with call details, updates opportunity notes]
 </code></pre></div>
 <h3 id="3-lead-qualification">3. Lead Qualification<a class="headerlink" href="#3-lead-qualification" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Pull all new leads from this week from the webinar campaign and score them"
+<div class="highlight"><pre><span></span><code>User: &quot;Pull all new leads from this week from the webinar campaign and score them&quot;
 Agent: [queries leads by source/date, returns ranked list by custom scoring criteria]
 </code></pre></div>
 <h3 id="4-report-analyze">4. Report + Analyze<a class="headerlink" href="#4-report-analyze" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Run the monthly sales forecast report and flag any reps below 80% of quota"
+<div class="highlight"><pre><span></span><code>User: &quot;Run the monthly sales forecast report and flag any reps below 80% of quota&quot;
 Agent: [runs forecast report, computes attainment %, highlights at-risk reps]
 </code></pre></div>
 <h3 id="5-account-research">5. Account Research<a class="headerlink" href="#5-account-research" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Before my call with Globex, show me their open opportunities, recent cases, and last 5 activities"
+<div class="highlight"><pre><span></span><code>User: &quot;Before my call with Globex, show me their open opportunities, recent cases, and last 5 activities&quot;
 Agent: [pulls account 360 view across objects, returns briefing summary]
 </code></pre></div>
 <h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Anchor link to this section">&para;</a></h2>

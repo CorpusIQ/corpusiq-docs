@@ -11250,9 +11250,9 @@
 <div class="highlight"><pre><span></span><code>chrome-devtools<span class="w"> </span>list_pages
 chrome-devtools<span class="w"> </span>take_snapshot<span class="w">          </span><span class="c1"># uid-based element snapshot</span>
 chrome-devtools<span class="w"> </span>click<span class="w"> </span>--uid<span class="w"> </span>1_3
-chrome-devtools<span class="w"> </span>fill<span class="w"> </span>--uid<span class="w"> </span>1_4<span class="w"> </span>--value<span class="w"> </span><span class="s2">"hello@example.com"</span>
+chrome-devtools<span class="w"> </span>fill<span class="w"> </span>--uid<span class="w"> </span>1_4<span class="w"> </span>--value<span class="w"> </span><span class="s2">&quot;hello@example.com&quot;</span>
 chrome-devtools<span class="w"> </span>navigate_page<span class="w"> </span>--url<span class="w"> </span>https://www.corpusiq.io/docs/
-chrome-devtools<span class="w"> </span>evaluate_script<span class="w"> </span>--function<span class="w"> </span><span class="s2">"() =&gt; document.title"</span>
+chrome-devtools<span class="w"> </span>evaluate_script<span class="w"> </span>--function<span class="w"> </span><span class="s2">&quot;() =&gt; document.title&quot;</span>
 </code></pre></div>
 <p>The CLI starts the background server implicitly - do not run <code>start</code>/<code>status</code>/<code>stop</code> before each use. State persists across commands.</p>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
@@ -11314,7 +11314,7 @@ this one can be combined with a company's own business data in a single answer.<
 hermes<span class="w"> </span>mcp<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>chrome-devtools
 
 <span class="c1"># Functional test via CLI</span>
-chrome-devtools<span class="w"> </span>navigate_page<span class="w"> </span>--url<span class="w"> </span><span class="s2">"https://example.com"</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>chrome-devtools<span class="w"> </span>take_snapshot
+chrome-devtools<span class="w"> </span>navigate_page<span class="w"> </span>--url<span class="w"> </span><span class="s2">&quot;https://example.com&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>chrome-devtools<span class="w"> </span>take_snapshot
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <ul>

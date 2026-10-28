@@ -11140,11 +11140,11 @@
 <p>The repository is Apache-2.0 and explicitly usable without Astro. The README states that the MCP server works against any Airflow 2.x or 3.x REST API, that skills are tool-agnostic, and that open-source users should point <code>AIRFLOW_API_URL</code> at their own instance and use Docker Compose or the Helm chart for deployment.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>The skills install through skills.sh. The README's quick start takes the whole collection:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>astronomer/agents<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>astronomer/agents<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span>
 </code></pre></div>
 <p>The command prompts you to pick which agents to install into. Omitting <code>--skill</code> makes the CLI prompt you per skill instead, which is the documented way to take a subset. There is no per-skill install flag in the README, so for a single skill either use that prompt path or copy <code>skills/&lt;name&gt;/</code> out of the repository after cloning it.</p>
 <p>Cursor gets its own target, and the README notes the skills land in <code>.cursor/skills/</code>:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>astronomer/agents<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span><span class="w"> </span>-a<span class="w"> </span>cursor
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>astronomer/agents<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span><span class="w"> </span>-a<span class="w"> </span>cursor
 </code></pre></div>
 <p>Claude Code users are pointed at the plugin instead, because it wires the MCP server and hooks in one step:</p>
 <div class="highlight"><pre><span></span><code>claude<span class="w"> </span>plugin<span class="w"> </span>marketplace<span class="w"> </span>add<span class="w"> </span>astronomer/agents
@@ -11160,7 +11160,7 @@ claude<span class="w"> </span>plugin<span class="w"> </span>install<span class="
 uvx<span class="w"> </span>astro-airflow-mcp<span class="w"> </span>--transport<span class="w"> </span>stdio
 </code></pre></div>
 <p>The <code>af</code> CLI ships from the same package. The README suggests an alias for frequent use:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">alias</span><span class="w"> </span><span class="nv">af</span><span class="o">=</span><span class="s1">'uvx --from astro-airflow-mcp af'</span>
+<div class="highlight"><pre><span></span><code><span class="nb">alias</span><span class="w"> </span><span class="nv">af</span><span class="o">=</span><span class="s1">&#39;uvx --from astro-airflow-mcp af&#39;</span>
 </code></pre></div>
 <p>Warehouse connections are configured in <code>~/.astro/agents/warehouse.yml</code> with credentials in <code>~/.astro/agents/.env</code>. Snowflake, Postgres and BigQuery have built-in connectors; the <code>sqlalchemy</code> type auto-detects drivers for 25 or more databases, and it is the one type that requires the <code>databases</code> list.</p>
 <h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
@@ -11343,8 +11343,8 @@ uvx<span class="w"> </span>astro-airflow-mcp<span class="w"> </span>--transport<
 <span class="w">         </span>skills/analyzing-data/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/blueprint/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/troubleshooting-astro-deployments/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/astronomer/agents/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/astronomer/agents/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the entry point before you install, because it defines the routing the rest of the collection depends on:</p>

@@ -11308,8 +11308,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>developer-kit/plugins/develo
 <span class="w">         </span>plugins/developer-kit-java/skills/spring-boot-security-jwt/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/developer-kit-ai/skills/prompt-engineering/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/developer-kit-core/hooks/hooks.json<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/giuseppe-trisciuoglio/developer-kit/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/giuseppe-trisciuoglio/developer-kit/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two that touch credentials and authentication before installing them:</p>
@@ -11318,7 +11318,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>developer-kit/plugins/develo
 <li>https://raw.githubusercontent.com/giuseppe-trisciuoglio/developer-kit/main/plugins/developer-kit-core/hooks/hooks.json</li>
 </ul>
 <p>After a copy install, confirm what actually landed, since the copy step decides what is present:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">'^(shadcn-ui|tailwind-css-patterns|react-|nextjs-|spring-)'</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">&#39;^(shadcn-ui|tailwind-css-patterns|react-|nextjs-|spring-)&#39;</span>
 head<span class="w"> </span>-5<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/shadcn-ui/SKILL.md
 </code></pre></div>
 <p>The <code>head</code> output should show <code>name: shadcn-ui</code>, which is also the name the install index uses, so a mismatch there means you copied a different directory. Check counts against the source rather than against the index: the clone holds 119 <code>SKILL.md</code> files and the index lists 130.</p>

@@ -11250,15 +11250,15 @@
 </code></pre></div></p>
 <h3 id="mcp-client-config">MCP Client Config<a class="headerlink" href="#mcp-client-config" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"meta-ads"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"@pipeboard-co/meta-ads-mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"META_APP_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-app-id"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"META_APP_SECRET"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-app-secret"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"META_ACCESS_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-access-token"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"META_AD_ACCOUNT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"act_123456789"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;meta-ads&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;@pipeboard-co/meta-ads-mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;META_APP_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-app-id&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;META_APP_SECRET&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-app-secret&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;META_ACCESS_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-access-token&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;META_AD_ACCOUNT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;act_123456789&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11315,19 +11315,19 @@
 </table>
 <h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-performance-monitoring">1. Performance Monitoring<a class="headerlink" href="#1-performance-monitoring" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Which campaigns have ROAS below 1.5x this week?"
+<div class="highlight"><pre><span></span><code>User: &quot;Which campaigns have ROAS below 1.5x this week?&quot;
 Agent: [queries all active campaigns, filters by ROAS, flags underperformers with spend and recommendations]
 </code></pre></div>
 <h3 id="2-budget-optimization">2. Budget Optimization<a class="headerlink" href="#2-budget-optimization" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "If I have $5,000 more budget, where should I put it?"
+<div class="highlight"><pre><span></span><code>User: &quot;If I have $5,000 more budget, where should I put it?&quot;
 Agent: [analyzes marginal ROAS across ad sets, recommends allocation with projected impact]
 </code></pre></div>
 <h3 id="3-creative-analysis">3. Creative Analysis<a class="headerlink" href="#3-creative-analysis" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Which ad creative performed best in the prospecting campaign?"
+<div class="highlight"><pre><span></span><code>User: &quot;Which ad creative performed best in the prospecting campaign?&quot;
 Agent: [pulls creative-level breakdown by CTR, CVR, CPA; ranks creatives; notes common elements in top performers]
 </code></pre></div>
 <h3 id="4-audience-insights">4. Audience Insights<a class="headerlink" href="#4-audience-insights" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "What's the overlap between my 5% lookalike and my email list audience?"
+<div class="highlight"><pre><span></span><code>User: &quot;What&#39;s the overlap between my 5% lookalike and my email list audience?&quot;
 Agent: [runs audience overlap analysis, returns overlap percentage and size]
 </code></pre></div>
 <h3 id="5-automated-scaling-rules">5. Automated Scaling Rules<a class="headerlink" href="#5-automated-scaling-rules" title="Anchor link to this section">&para;</a></h3>

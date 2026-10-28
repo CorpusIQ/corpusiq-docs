@@ -11157,7 +11157,7 @@
 <p>The install index and the tree do not line up, and the gap is large. The 150 indexed listings read as a broad topic library (<code>financial-operations-expert</code> at 1,710 installs, <code>youtube-video-analyst</code> at 1,043), and none of those names has a directory in the current tree or in the repository's commit history. The tree is the 14 routers below. Install by the router names you can read in <code>skills/</code>, not by the index entry that brought you here.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>The README documents the skills.sh CLI. All skills, globally, for the three hosts it targets:</p>
-<div class="highlight"><pre><span></span><code>bunx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>shipshitdev/skills<span class="w"> </span>-g<span class="w"> </span>--agent<span class="w"> </span>claude-code<span class="w"> </span>codex<span class="w"> </span>cursor<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span><span class="w"> </span>-y
+<div class="highlight"><pre><span></span><code>bunx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>shipshitdev/skills<span class="w"> </span>-g<span class="w"> </span>--agent<span class="w"> </span>claude-code<span class="w"> </span>codex<span class="w"> </span>cursor<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span><span class="w"> </span>-y
 </code></pre></div>
 <p>One skill:</p>
 <div class="highlight"><pre><span></span><code>bunx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>shipshitdev/skills<span class="w"> </span>-g<span class="w"> </span>--skill<span class="w"> </span>git<span class="w"> </span>-y
@@ -11424,8 +11424,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>shipshitdev-skills/skills/is
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm the paths before you copy anything. The branch is <code>master</code>, so every raw URL carries it:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>skills/issue/SKILL.md<span class="w"> </span>skills/git/SKILL.md<span class="w"> </span>skills/qa/SKILL.md<span class="w"> </span>skills/check/SKILL.md<span class="w"> </span>README.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/shipshitdev/skills/master/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/shipshitdev/skills/master/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>All five returned 200 when checked on 2026-10-27. The same probes against <code>main</code> return 404, which is how the branch was confirmed.</p>

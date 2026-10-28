@@ -11111,7 +11111,7 @@
 <h1 id="elium-mcp">Elium MCP<a class="headerlink" href="#elium-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Remote MCP server (per-instance endpoint, OAuth)</strong> - bridges an Elium knowledge base to AI assistants like ChatGPT and Claude. An assistant can query company content, answer questions with sources, summarise documentation and provide context-aware support without manual copy or export, and every result is bound by the authenticated user's permissions.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (per-instance endpoint)
-Auth: OAuth (every tool runs with the authenticated user's permissions)
+Auth: OAuth (every tool runs with the authenticated user&#39;s permissions)
 Endpoint: https://your-platform-name.elium.com/services/mcp
 Tools: 5 (all read-only)
 Pricing: Platform plans from EUR 15/mo per user (Team, minimum 10 users)
@@ -11158,9 +11158,9 @@ Built by: Elium (elium.com, ISO 27001 certified, EU-hosted)
 <p>Replace <code>your-platform-name</code> with the Elium platform subdomain. Complete the OAuth sign-in with an Elium account; the connection then inherits that account's permissions.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"elium"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://your-platform-name.elium.com/services/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;elium&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://your-platform-name.elium.com/services/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

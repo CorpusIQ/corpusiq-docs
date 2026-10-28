@@ -11106,9 +11106,9 @@ Mcp-Name: search
 Content-Type: application/json
 Accept: application/json, text/event-stream
 
-{"jsonrpc":"2.0","id":1,"method":"tools/call",
- "params":{"name":"search","arguments":{"q":"current revenue"},
- "_meta":{"io.modelcontextprotocol/clientInfo":{"name":"my-app","version":"1.0"}}}}
+{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;method&quot;:&quot;tools/call&quot;,
+ &quot;params&quot;:{&quot;name&quot;:&quot;search&quot;,&quot;arguments&quot;:{&quot;q&quot;:&quot;current revenue&quot;},
+ &quot;_meta&quot;:{&quot;io.modelcontextprotocol/clientInfo&quot;:{&quot;name&quot;:&quot;my-app&quot;,&quot;version&quot;:&quot;1.0&quot;}}}}
 </code></pre></div>
 <p>Clients that want to know what a server supports before calling it can make an optional <code>server/discover</code> call instead of handshaking.</p>
 <p>This is the same pattern REST APIs have used for decades. Any HTTP server can serve MCP. Any load balancer can distribute requests. Any CDN can cache where appropriate.</p>

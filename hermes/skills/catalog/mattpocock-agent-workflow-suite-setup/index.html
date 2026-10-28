@@ -11395,10 +11395,10 @@ this one can be combined with a company's own business data in a single answer.<
 <p><a href="/docs/connectors">See what CorpusIQ connects</a></p>
 <h2 id="limitations-verification">Limitations / Verification<a class="headerlink" href="#limitations-verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify skills installed</span>
-hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"grill-me|tdd|handoff|triage|to-spec"</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;grill-me|tdd|handoff|triage|to-spec&quot;</span>
 
 <span class="c1"># Functional test</span>
-<span class="c1"># "Grill me about this plan" -&gt; invokes grill-me -&gt; dispatches to grilling</span>
+<span class="c1"># &quot;Grill me about this plan&quot; -&gt; invokes grill-me -&gt; dispatches to grilling</span>
 </code></pre></div>
 <ul>
 <li><code>grill-me</code> sets <code>disable-model-invocation: true</code> - it is invoked via the Skill tool, not by the model directly</li>

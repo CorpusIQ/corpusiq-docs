@@ -11484,7 +11484,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/launchdarkly/ai-tooling.git
 <span class="nb">cd</span><span class="w"> </span>ai-tooling
 
-<span class="c1"># Copy specific skills to your agent's skills directory</span>
+<span class="c1"># Copy specific skills to your agent&#39;s skills directory</span>
 cp<span class="w"> </span>-r<span class="w"> </span>skills/feature-flags/launchdarkly-flag-cleanup<span class="w"> </span>~/.hermes/skills/
 cp<span class="w"> </span>-r<span class="w"> </span>skills/experiments/launchdarkly-experiment-setup<span class="w"> </span>~/.hermes/skills/
 </code></pre></div>
@@ -11533,34 +11533,34 @@ cp<span class="w"> </span>-r<span class="w"> </span>skills/experiments/launchdar
 </table>
 <h2 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Anchor link to this section">&para;</a></h2>
 <h3 id="feature-flag-lifecycle">Feature Flag Lifecycle<a class="headerlink" href="#feature-flag-lifecycle" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Audit all feature flags in this repo - which ones are stale?"
-"Create a boolean flag called 'new-search-ui' following our existing patterns"
-"Wire the flag into the search component and create a PR with the flag change"
-"Roll out new-search-ui to 10% of users, monitor for errors"
-"Clean up the 'old-search-backend' flag - it's 100% launched everywhere"
+<div class="highlight"><pre><span></span><code>&quot;Audit all feature flags in this repo - which ones are stale?&quot;
+&quot;Create a boolean flag called &#39;new-search-ui&#39; following our existing patterns&quot;
+&quot;Wire the flag into the search component and create a PR with the flag change&quot;
+&quot;Roll out new-search-ui to 10% of users, monitor for errors&quot;
+&quot;Clean up the &#39;old-search-backend&#39; flag - it&#39;s 100% launched everywhere&quot;
 </code></pre></div>
 <h3 id="experimentation">Experimentation<a class="headerlink" href="#experimentation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Set up an A/B experiment: new recommendation algo vs current - measure conversion rate"
-"Choose the right metric type for measuring signup completion rate"
-"Instrument the signup flow with a conversion tracking event"
+<div class="highlight"><pre><span></span><code>&quot;Set up an A/B experiment: new recommendation algo vs current - measure conversion rate&quot;
+&quot;Choose the right metric type for measuring signup completion rate&quot;
+&quot;Instrument the signup flow with a conversion tracking event&quot;
 </code></pre></div>
 <h3 id="agentcontrol-ai-agent-configuration">AgentControl (AI Agent Configuration)<a class="headerlink" href="#agentcontrol-ai-agent-configuration" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>"Migrate our customer support agent's hardcoded system prompt to AgentControl"
-"Create a prompt variation for the support agent with a more empathetic tone"
-"Attach an LLM-as-judge evaluator to measure response quality"
-"Set up an agent graph: triage agent → routes to product/support/billing specialist agents"
-"Create a reusable prompt snippet for our brand voice guidelines"
+<div class="highlight"><pre><span></span><code>&quot;Migrate our customer support agent&#39;s hardcoded system prompt to AgentControl&quot;
+&quot;Create a prompt variation for the support agent with a more empathetic tone&quot;
+&quot;Attach an LLM-as-judge evaluator to measure response quality&quot;
+&quot;Set up an agent graph: triage agent → routes to product/support/billing specialist agents&quot;
+&quot;Create a reusable prompt snippet for our brand voice guidelines&quot;
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify MCP server is configured</span>
 <span class="c1"># In Claude Code: /status should show launchdarkly MCP connected</span>
 
 <span class="c1"># Quick smoke test - ask the agent:</span>
-<span class="s2">"List my LaunchDarkly feature flags"</span>
-<span class="s2">"Show me any stale flags in production"</span>
+<span class="s2">&quot;List my LaunchDarkly feature flags&quot;</span>
+<span class="s2">&quot;Show me any stale flags in production&quot;</span>
 
 <span class="c1"># AgentControl: verify config management</span>
-<span class="s2">"Show my AgentControl projects"</span>
+<span class="s2">&quot;Show my AgentControl projects&quot;</span>
 </code></pre></div>
 <h2 id="pro-tips">Pro Tips<a class="headerlink" href="#pro-tips" title="Anchor link to this section">&para;</a></h2>
 <ol>

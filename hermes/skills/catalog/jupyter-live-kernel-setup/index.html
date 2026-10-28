@@ -11439,17 +11439,17 @@ Hermes: [Authenticates once, then iterates through repos in the same kernel]
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>jupyter-live-kernel
 
 <span class="c1"># Verify Jupyter is running</span>
-curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8888/api/status<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import sys,json; print(json.load(sys.stdin).get('started','NOT RUNNING'))"</span>
+curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8888/api/status<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import sys,json; print(json.load(sys.stdin).get(&#39;started&#39;,&#39;NOT RUNNING&#39;))&quot;</span>
 
 <span class="c1"># Test kernel launch</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">from jupyter_client import BlockingKernelClient</span>
 <span class="s2">kc = BlockingKernelClient()</span>
-<span class="s2">kc.load_connection_file('.agent-skills/hamelnb/kernel.json')</span>
+<span class="s2">kc.load_connection_file(&#39;.agent-skills/hamelnb/kernel.json&#39;)</span>
 <span class="s2">kc.start_channels()</span>
-<span class="s2">kc.execute('print(1+1)')</span>
-<span class="s2">print('Kernel OK')</span>
-<span class="s2">"</span>
+<span class="s2">kc.execute(&#39;print(1+1)&#39;)</span>
+<span class="s2">print(&#39;Kernel OK&#39;)</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>

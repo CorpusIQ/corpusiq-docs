@@ -11268,7 +11268,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/recoupable/skills/main/.claude-plugin/plugin.json
 </code></pre></div>
 <p>The routing table is the fastest way to see whether a skill you want exists, and it is served from the same branch:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/recoupable/skills/main/RESOLVER.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s1">'catalog'</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/recoupable/skills/main/RESOLVER.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s1">&#39;catalog&#39;</span>
 </code></pre></div>
 <p>Then prove the connection does real work with a read-only call. The README's own check is <code>list_artists</code>: ask the host for "list my artists" after OAuth consent and confirm real rows come back rather than a permission error. A connected server only proves transport and authentication, not that your workspace is authorized for the business tools.</p>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

@@ -11149,8 +11149,8 @@ Built by: Opportunity Atlas (supabase-hosted, public beta)
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Register an agent first (key returned once, shown only at registration):</span>
 curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://zmxwkvmxcfjgwbrtxxhl.supabase.co/functions/v1/scout-agent-api<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"content-type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"tool":"register_agent","arguments":{"agent_name":"your-agent-name"}}'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;content-type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;tool&quot;:&quot;register_agent&quot;,&quot;arguments&quot;:{&quot;agent_name&quot;:&quot;your-agent-name&quot;}}&#39;</span>
 
 <span class="c1"># Connect the MCP endpoint:</span>
 claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>opportunity-atlas<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span><span class="se">\</span>
@@ -11158,10 +11158,10 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </code></pre></div>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"opportunity-atlas"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://zmxwkvmxcfjgwbrtxxhl.supabase.co/functions/v1/scout-mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;opportunity-atlas&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://zmxwkvmxcfjgwbrtxxhl.supabase.co/functions/v1/scout-mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

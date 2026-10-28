@@ -11280,14 +11280,14 @@ python3<span class="w"> </span>SKILL_DIR/scripts/forecast.py<span class="w"> </s
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>timesfm-forecasting
 
 <span class="c1"># Quick test with sample data</span>
-python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span>
+python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">import pandas as pd</span>
 <span class="s2">import numpy as np</span>
-<span class="s2">dates = pd.date_range('2026-01-01', periods=100, freq='D')</span>
+<span class="s2">dates = pd.date_range(&#39;2026-01-01&#39;, periods=100, freq=&#39;D&#39;)</span>
 <span class="s2">values = np.sin(np.arange(100) * 0.3) + np.random.normal(0, 0.1, 100) + np.arange(100) * 0.05</span>
-<span class="s2">pd.DataFrame({'ds': dates, 'y': values}).to_csv('/tmp/test_series.csv', index=False)</span>
-<span class="s2">print('Sample data written to /tmp/test_series.csv')</span>
-<span class="s2">"</span>
+<span class="s2">pd.DataFrame({&#39;ds&#39;: dates, &#39;y&#39;: values}).to_csv(&#39;/tmp/test_series.csv&#39;, index=False)</span>
+<span class="s2">print(&#39;Sample data written to /tmp/test_series.csv&#39;)</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026-update2">June 30 Update 2 Discovery</a> →</em>

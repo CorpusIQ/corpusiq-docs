@@ -11343,7 +11343,7 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/yakla
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed, and that it installed the routers rather than a single deep topic:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"hack|api-sec|auth-sec|injection-checking"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;hack|api-sec|auth-sec|injection-checking&quot;</span>
 </code></pre></div>
 <p>Read the master entry before installing anything. The five URLs below returned 200 with <code>curl -s -o /dev/null -w "%{http_code}"</code> when checked on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/yaklang/hack-skills/main/README.md
@@ -11353,7 +11353,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/yaklang/hack-skills/main/skills/llm-prompt-injection/SKILL.md
 </code></pre></div>
 <p>The directory listing behind the install index also returned 200 on the same date, and it is the quickest way to see which listed skills actually exist in the tree:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/yaklang/hack-skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">'"name"'</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/yaklang/hack-skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;&quot;name&quot;&#39;</span>
 </code></pre></div>
 <p>This is offensive-security content. Verify the skills in a lab or a scoped engagement target before pointing them at anything that matters, and read the master entry's own operating doctrine rather than skipping to a deep topic.</p>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

@@ -11245,10 +11245,10 @@
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Confirm the install through the skills CLI</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s1">'claude-typer|disney'</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s1">&#39;claude-typer|disney&#39;</span>
 
 <span class="c1"># Or check the skills directory your agent scans</span>
-ls<span class="w"> </span>~/.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'claude-typer|procedural-fish-render|threejs-earth-render'</span>
+ls<span class="w"> </span>~/.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;claude-typer|procedural-fish-render|threejs-earth-render&#39;</span>
 
 <span class="c1"># Review a current skill straight from GitHub before installing</span>
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/vibe-motion/skills/main/disney-animation-rule-skill/SKILL.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-20

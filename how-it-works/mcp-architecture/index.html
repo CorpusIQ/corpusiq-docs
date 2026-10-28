@@ -11401,7 +11401,7 @@ https://mcp2.corpusiq.io/mcp   &lt;-- CorpusIQ MCP server
         |
         +-- Skills engine
         |       Pre-built runbooks that orchestrate multi-connector
-        |       queries (e.g. "executive-snapshot" pulls from 6
+        |       queries (e.g. &quot;executive-snapshot&quot; pulls from 6
         |       connectors, joins the data, and returns a unified
         |       business health summary).
         |
@@ -11487,12 +11487,12 @@ persist across sessions.</p>
 <p>Claude Desktop supports MCP servers natively via <code>claude_desktop_config.json</code>.</p>
 <p>Add CorpusIQ as a remote server:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"corpusiq"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sse"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer YOUR_CORPUSIQ_JWT"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sse&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_CORPUSIQ_JWT&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11519,11 +11519,11 @@ CorpusIQ tools will appear in Claude's tool list automatically.</p>
 <p>Any client that implements the MCP specification can connect to
 CorpusIQ. The endpoint supports standard MCP over HTTP+SSE.</p>
 <p>Example using the TypeScript MCP SDK:</p>
-<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Client</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">"@modelcontextprotocol/sdk/client/index.js"</span><span class="p">;</span>
-<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">SSEClientTransport</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">"@modelcontextprotocol/sdk/client/sse.js"</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Client</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@modelcontextprotocol/sdk/client/index.js&quot;</span><span class="p">;</span>
+<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">SSEClientTransport</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@modelcontextprotocol/sdk/client/sse.js&quot;</span><span class="p">;</span>
 
 <span class="kd">const</span><span class="w"> </span><span class="nx">transport</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">SSEClientTransport</span><span class="p">(</span>
-<span class="w">  </span><span class="ow">new</span><span class="w"> </span><span class="nx">URL</span><span class="p">(</span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">),</span>
+<span class="w">  </span><span class="ow">new</span><span class="w"> </span><span class="nx">URL</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">),</span>
 <span class="w">  </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">requestInit</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
@@ -11533,7 +11533,7 @@ CorpusIQ. The endpoint supports standard MCP over HTTP+SSE.</p>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">);</span>
 
-<span class="kd">const</span><span class="w"> </span><span class="nx">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Client</span><span class="p">({</span><span class="w"> </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">"my-agent"</span><span class="p">,</span><span class="w"> </span><span class="nx">version</span><span class="o">:</span><span class="w"> </span><span class="s2">"1.0.0"</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="p">{});</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Client</span><span class="p">({</span><span class="w"> </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;my-agent&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">version</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="p">{});</span>
 <span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="nx">transport</span><span class="p">);</span>
 
 <span class="c1">// List available tools</span>
@@ -11541,23 +11541,23 @@ CorpusIQ. The endpoint supports standard MCP over HTTP+SSE.</p>
 
 <span class="c1">// Call a tool</span>
 <span class="kd">const</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">client</span><span class="p">.</span><span class="nx">callTool</span><span class="p">({</span>
-<span class="w">  </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">"get_orders"</span><span class="p">,</span>
-<span class="w">  </span><span class="nb">arguments</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">limit</span><span class="o">:</span><span class="w"> </span><span class="kt">50</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;get_orders&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">arguments</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">limit</span><span class="o">:</span><span class="w"> </span><span class="kt">50</span><span class="w"> </span><span class="p">},</span>
 <span class="p">});</span>
 </code></pre></div>
 <p>Python MCP SDK example:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">mcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">ClientSession</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">mcp.client.sse</span><span class="w"> </span><span class="kn">import</span> <span class="n">sse_client</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">mcp</span> <span class="kn">import</span> <span class="n">ClientSession</span>
+<span class="kn">from</span> <span class="nn">mcp.client.sse</span> <span class="kn">import</span> <span class="n">sse_client</span>
+<span class="kn">import</span> <span class="nn">os</span>
 
 <span class="k">async</span> <span class="k">with</span> <span class="n">sse_client</span><span class="p">(</span>
-    <span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">"Authorization"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Bearer </span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'CORPUSIQ_JWT'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">}</span>
+    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
+    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;CORPUSIQ_JWT&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">}</span>
 <span class="p">)</span> <span class="k">as</span> <span class="p">(</span><span class="n">read</span><span class="p">,</span> <span class="n">write</span><span class="p">):</span>
     <span class="k">async</span> <span class="k">with</span> <span class="n">ClientSession</span><span class="p">(</span><span class="n">read</span><span class="p">,</span> <span class="n">write</span><span class="p">)</span> <span class="k">as</span> <span class="n">session</span><span class="p">:</span>
         <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">initialize</span><span class="p">()</span>
         <span class="n">tools</span> <span class="o">=</span> <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">list_tools</span><span class="p">()</span>
-        <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">"get_orders"</span><span class="p">,</span> <span class="p">{</span><span class="s2">"limit"</span><span class="p">:</span> <span class="mi">50</span><span class="p">})</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;get_orders&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;limit&quot;</span><span class="p">:</span> <span class="mi">50</span><span class="p">})</span>
 </code></pre></div>
 <hr />
 <h2 id="tool-naming-conventions">Tool naming conventions<a class="headerlink" href="#tool-naming-conventions" title="Anchor link to this section">&para;</a></h2>

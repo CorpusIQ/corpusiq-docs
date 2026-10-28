@@ -11246,16 +11246,16 @@
 </table>
 <h3 id="cli-command-reference">CLI Command Reference<a class="headerlink" href="#cli-command-reference" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># JSON output with metadata</span>
-uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">"https://youtube.com/watch?v=VIDEO_ID"</span>
+uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">&quot;https://youtube.com/watch?v=VIDEO_ID&quot;</span>
 
 <span class="c1"># Plain text for piping</span>
-uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">"URL"</span><span class="w"> </span>--text-only
+uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">&quot;URL&quot;</span><span class="w"> </span>--text-only
 
 <span class="c1"># Timestamped output</span>
-uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">"URL"</span><span class="w"> </span>--timestamps
+uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">&quot;URL&quot;</span><span class="w"> </span>--timestamps
 
 <span class="c1"># Language fallback chain</span>
-uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">"URL"</span><span class="w"> </span>--language<span class="w"> </span>tr,en
+uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>SKILL_DIR/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">&quot;URL&quot;</span><span class="w"> </span>--language<span class="w"> </span>tr,en
 </code></pre></div>
 <h3 id="processing-workflow">Processing Workflow<a class="headerlink" href="#processing-workflow" title="Anchor link to this section">&para;</a></h3>
 <ol>
@@ -11338,7 +11338,7 @@ uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </s
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>youtube-content
 
 <span class="c1"># Quick functional test</span>
-uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>~/.hermes/skills/media/youtube-content/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">"dQw4w9WgXcQ"</span><span class="w"> </span>--text-only<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-5
+uv<span class="w"> </span>run<span class="w"> </span>python3<span class="w"> </span>~/.hermes/skills/media/youtube-content/scripts/fetch_transcript.py<span class="w"> </span><span class="s2">&quot;dQw4w9WgXcQ&quot;</span><span class="w"> </span>--text-only<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-5
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Marketplace</a> →</em>

@@ -11278,8 +11278,8 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Each skill has its own SKILL.md on main, so a raw fetch is enough to confirm the install target exists:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>s<span class="w"> </span><span class="k">in</span><span class="w"> </span>mapbox-web-integration-patterns<span class="w"> </span>mapbox-web-performance-patterns<span class="w"> </span>mapbox-style-patterns<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$s</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/mapbox/mapbox-agent-skills/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$s</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/mapbox/mapbox-agent-skills/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>The three paths can also be read directly when a pattern question comes up:</p>

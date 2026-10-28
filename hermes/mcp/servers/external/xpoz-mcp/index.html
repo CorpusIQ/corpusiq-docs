@@ -11200,9 +11200,9 @@
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Anchor link to this section">&para;</a></h2>
 <h3 id="claude-desktop">Claude Desktop<a class="headerlink" href="#claude-desktop" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"xpoz"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.xpoz.ai/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;xpoz&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.xpoz.ai/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11210,9 +11210,9 @@
 <p>OAuth 2.1 flow handles authentication - no API key to copy. On first connection, Xpoz opens a browser window for authorization.</p>
 <h3 id="claude-code-cursor-codex">Claude Code / Cursor / Codex<a class="headerlink" href="#claude-code-cursor-codex" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"xpoz"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.xpoz.ai/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;xpoz&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.xpoz.ai/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11220,13 +11220,13 @@
 <h3 id="python-sdk-for-programmatic-use">Python SDK (for programmatic use)<a class="headerlink" href="#python-sdk-for-programmatic-use" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>xpoz
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">xpoz</span><span class="w"> </span><span class="kn">import</span> <span class="n">XpozClient</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">xpoz</span> <span class="kn">import</span> <span class="n">XpozClient</span>
 
 <span class="n">client</span> <span class="o">=</span> <span class="n">XpozClient</span><span class="p">()</span>
 <span class="n">results</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
-    <span class="n">query</span><span class="o">=</span><span class="s2">"AI business tools"</span><span class="p">,</span>
-    <span class="n">platform</span><span class="o">=</span><span class="s2">"twitter"</span><span class="p">,</span>
-    <span class="n">timeframe</span><span class="o">=</span><span class="s2">"last_30_days"</span>
+    <span class="n">query</span><span class="o">=</span><span class="s2">&quot;AI business tools&quot;</span><span class="p">,</span>
+    <span class="n">platform</span><span class="o">=</span><span class="s2">&quot;twitter&quot;</span><span class="p">,</span>
+    <span class="n">timeframe</span><span class="o">=</span><span class="s2">&quot;last_30_days&quot;</span>
 <span class="p">)</span>
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>

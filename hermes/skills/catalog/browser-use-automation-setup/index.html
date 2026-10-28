@@ -11130,16 +11130,16 @@ pip<span class="w"> </span>install<span class="w"> </span>browser-use
 python3<span class="w"> </span>-m<span class="w"> </span>playwright<span class="w"> </span>install<span class="w"> </span>chromium<span class="w">   </span><span class="c1"># browser-use drives Playwright under the hood</span>
 </code></pre></div>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span><span class="o">,</span><span class="w"> </span><span class="nn">os</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">browser_use</span><span class="w"> </span><span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">ChatAnthropic</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">asyncio</span><span class="o">,</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">browser_use</span> <span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">ChatAnthropic</span>
 
-<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
     <span class="n">llm</span> <span class="o">=</span> <span class="n">ChatAnthropic</span><span class="p">(</span>
-        <span class="n">model</span><span class="o">=</span><span class="s2">"claude-sonnet-4-20250514"</span><span class="p">,</span>
-        <span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">"ANTHROPIC_API_KEY"</span><span class="p">),</span>
+        <span class="n">model</span><span class="o">=</span><span class="s2">&quot;claude-sonnet-4-20250514&quot;</span><span class="p">,</span>
+        <span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;ANTHROPIC_API_KEY&quot;</span><span class="p">),</span>
     <span class="p">)</span>
     <span class="n">agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-        <span class="n">task</span><span class="o">=</span><span class="s2">"Go to linkedin.com/login, log in, navigate to jobs"</span><span class="p">,</span>
+        <span class="n">task</span><span class="o">=</span><span class="s2">&quot;Go to linkedin.com/login, log in, navigate to jobs&quot;</span><span class="p">,</span>
         <span class="n">llm</span><span class="o">=</span><span class="n">llm</span><span class="p">,</span>
     <span class="p">)</span>
     <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">agent</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
@@ -11193,7 +11193,7 @@ python3<span class="w"> </span>-m<span class="w"> </span>playwright<span class="
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import browser_use; print('browser-use ready')"</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import browser_use; print(&#39;browser-use ready&#39;)&quot;</span>
 </code></pre></div>
 <p>A successful smoke test: run the Quick Start against a public site and confirm the agent extracts the expected data.</p>
 <hr />

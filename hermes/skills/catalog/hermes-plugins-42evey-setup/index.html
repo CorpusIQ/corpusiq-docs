@@ -11217,32 +11217,32 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/42-ev
 <h3 id="goals-plugin">Goals Plugin<a class="headerlink" href="#goals-plugin" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">goals</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">storage</span><span class="p">:</span><span class="w"> </span><span class="s">"~/.hermes/goals.json"</span>
+<span class="w">  </span><span class="nt">storage</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;~/.hermes/goals.json&quot;</span>
 <span class="w">  </span><span class="nt">max_active</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5</span>
 <span class="w">  </span><span class="nt">auto_archive</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
 <h3 id="inter-agent-bridge">Inter-Agent Bridge<a class="headerlink" href="#inter-agent-bridge" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">bridge</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">protocol</span><span class="p">:</span><span class="w"> </span><span class="s">"stdio"</span><span class="w">       </span><span class="c1"># or "http" for remote agents</span>
+<span class="w">  </span><span class="nt">protocol</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;stdio&quot;</span><span class="w">       </span><span class="c1"># or &quot;http&quot; for remote agents</span>
 <span class="w">  </span><span class="nt">peer_agents</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"dev-hermes"</span>
-<span class="w">      </span><span class="nt">endpoint</span><span class="p">:</span><span class="w"> </span><span class="s">"http://agent-a.local:9090"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"ops-hermes"</span>
-<span class="w">      </span><span class="nt">endpoint</span><span class="p">:</span><span class="w"> </span><span class="s">"http://agent-b.local:9090"</span>
-<span class="w">  </span><span class="nt">auth_token</span><span class="p">:</span><span class="w"> </span><span class="s">"${BRIDGE_AUTH_TOKEN}"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;dev-hermes&quot;</span>
+<span class="w">      </span><span class="nt">endpoint</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://agent-a.local:9090&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-hermes&quot;</span>
+<span class="w">      </span><span class="nt">endpoint</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://agent-b.local:9090&quot;</span>
+<span class="w">  </span><span class="nt">auth_token</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${BRIDGE_AUTH_TOKEN}&quot;</span>
 </code></pre></div>
 <h3 id="model-selection">Model Selection<a class="headerlink" href="#model-selection" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">model_selector</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">default_model</span><span class="p">:</span><span class="w"> </span><span class="s">"sonnet"</span>
+<span class="w">  </span><span class="nt">default_model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;sonnet&quot;</span>
 <span class="w">  </span><span class="nt">routing_rules</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pattern</span><span class="p">:</span><span class="w"> </span><span class="s">"refactor|debug|test|build"</span>
-<span class="w">      </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"sonnet"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pattern</span><span class="p">:</span><span class="w"> </span><span class="s">"research|strategy|architecture|board"</span>
-<span class="w">      </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"opus"</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pattern</span><span class="p">:</span><span class="w"> </span><span class="s">"social|post|tweet|reddit"</span>
-<span class="w">      </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"sonnet"</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pattern</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;refactor|debug|test|build&quot;</span>
+<span class="w">      </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;sonnet&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pattern</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;research|strategy|architecture|board&quot;</span>
+<span class="w">      </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;opus&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">pattern</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;social|post|tweet|reddit&quot;</span>
+<span class="w">      </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;sonnet&quot;</span>
 <span class="w">    </span><span class="c1"># Never route to haiku</span>
 <span class="w">  </span><span class="nt">cost_budget_daily</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">50.00</span><span class="w">   </span><span class="c1"># USD</span>
 </code></pre></div>
@@ -11256,11 +11256,11 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/42-ev
 </code></pre></div>
 <h2 id="key-workflows">Key Workflows<a class="headerlink" href="#key-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="set-and-track-a-goal">Set and track a goal<a class="headerlink" href="#set-and-track-a-goal" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>/hermes-plugins goal-create "Deploy CorpusIQ MCP server to production"
+<div class="highlight"><pre><span></span><code>/hermes-plugins goal-create &quot;Deploy CorpusIQ MCP server to production&quot;
 /hermes-plugins goal-status
 </code></pre></div>
 <h3 id="send-a-task-to-another-agent">Send a task to another agent<a class="headerlink" href="#send-a-task-to-another-agent" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>/hermes-plugins bridge-send dev-hermes "Run the test suite on the latest PR"
+<div class="highlight"><pre><span></span><code>/hermes-plugins bridge-send dev-hermes &quot;Run the test suite on the latest PR&quot;
 </code></pre></div>
 <h3 id="check-cost-status">Check cost status<a class="headerlink" href="#check-cost-status" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>/hermes-plugins cost-status
@@ -11270,10 +11270,10 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/42-ev
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>hermes-plugins
 
 <span class="c1"># Test goals plugin</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"/hermes-plugins goal-list"</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;/hermes-plugins goal-list&quot;</span>
 
 <span class="c1"># Test bridge</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"/hermes-plugins bridge-status"</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;/hermes-plugins bridge-status&quot;</span>
 </code></pre></div>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>

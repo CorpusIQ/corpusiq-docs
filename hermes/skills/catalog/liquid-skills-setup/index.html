@@ -11234,8 +11234,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>liquid-skills/skills/liquid-
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>skills/shopify-liquid-themes/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/liquid-theme-standards/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/liquid-theme-a11y/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/benjaminsehl/liquid-skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/benjaminsehl/liquid-skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the manifest and the README directly if you are installing through Claude Code, since the plugin name and marketplace name have to match:</p>
@@ -11250,7 +11250,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>liquid-skills/skills/liquid-
 <li>https://raw.githubusercontent.com/benjaminsehl/liquid-skills/main/skills/liquid-theme-a11y/SKILL.md</li>
 </ul>
 <p>After install, the skills directory should hold one folder per skill, each with its reference files intact:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"shopify-liquid-themes|liquid-theme-standards|liquid-theme-a11y"</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;shopify-liquid-themes|liquid-theme-standards|liquid-theme-a11y&quot;</span>
 ls<span class="w"> </span>~/.hermes/skills/liquid-theme-a11y/references
 </code></pre></div>
 <p>The second listing should show <code>component-patterns.md</code> and <code>focus-and-keyboard.md</code>. If the folder exists but <code>references/</code> is empty, the copy skipped a level and the skill will fall back to guessing.</p>

@@ -11266,7 +11266,7 @@
 <p>Confirms all providers are accessible and the skill is ready.</p>
 <h3 id="2-resolve-your-first-asset">2. Resolve Your First Asset<a class="headerlink" href="#2-resolve-your-first-asset" title="Anchor link to this section">&para;</a></h3>
 <p>The <code>resolve</code> verb is the single entry point for all media types:</p>
-<div class="highlight"><pre><span></span><code>node<span class="w"> </span>&lt;SKILL_DIR&gt;/scripts/resolve.mjs<span class="w"> </span>--type<span class="w"> </span>&lt;type&gt;<span class="w"> </span>--intent<span class="w"> </span><span class="s2">"&lt;description&gt;"</span><span class="w"> </span>--project<span class="w"> </span>&lt;dir&gt;
+<div class="highlight"><pre><span></span><code>node<span class="w"> </span>&lt;SKILL_DIR&gt;/scripts/resolve.mjs<span class="w"> </span>--type<span class="w"> </span>&lt;type&gt;<span class="w"> </span>--intent<span class="w"> </span><span class="s2">&quot;&lt;description&gt;&quot;</span><span class="w"> </span>--project<span class="w"> </span>&lt;dir&gt;
 </code></pre></div>
 <p>Returns one line: <code>resolved &lt;id&gt; → &lt;path&gt; (&lt;type&gt;, &lt;metadata&gt;)</code>.</p>
 <h3 id="3-supported-media-types">3. Supported Media Types<a class="headerlink" href="#3-supported-media-types" title="Anchor link to this section">&para;</a></h3>
@@ -11331,26 +11331,26 @@
 <h3 id="voiceover-from-script">Voiceover from Script<a class="headerlink" href="#voiceover-from-script" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Generate TTS voiceover from a script</span>
 node<span class="w"> </span>&lt;SKILL_DIR&gt;/scripts/resolve.mjs<span class="w"> </span>--type<span class="w"> </span>voice<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--intent<span class="w"> </span><span class="s2">"narrate: 'Welcome to CorpusIQ. Let me show you how...'"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--intent<span class="w"> </span><span class="s2">&quot;narrate: &#39;Welcome to CorpusIQ. Let me show you how...&#39;&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--project<span class="w"> </span>./my-video
 </code></pre></div>
 <h3 id="background-music-for-video">Background Music for Video<a class="headerlink" href="#background-music-for-video" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Search the 10K+ track HeyGen music catalog</span>
 node<span class="w"> </span>&lt;SKILL_DIR&gt;/scripts/resolve.mjs<span class="w"> </span>--type<span class="w"> </span>bgm<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--intent<span class="w"> </span><span class="s2">"cinematic ambient, 120bpm, strings and piano"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--intent<span class="w"> </span><span class="s2">&quot;cinematic ambient, 120bpm, strings and piano&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--project<span class="w"> </span>./my-video
 </code></pre></div>
 <h3 id="color-grade-for-footage">Color Grade for Footage<a class="headerlink" href="#color-grade-for-footage" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Measure and propose a corrective grade</span>
 node<span class="w"> </span>&lt;SKILL_DIR&gt;/scripts/resolve.mjs<span class="w"> </span>--type<span class="w"> </span>grade<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--for<span class="w"> </span><span class="s2">"the hero shot feels underexposed and flat"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--for<span class="w"> </span><span class="s2">&quot;the hero shot feels underexposed and flat&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--project<span class="w"> </span>./my-video
 </code></pre></div>
 <p>The skill inspects the actual footage, proposes one correction, and persists it. It never silently mutates - you approve before application.</p>
 <h3 id="icon-resolution">Icon Resolution<a class="headerlink" href="#icon-resolution" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Resolve an icon (transparent PNG)</span>
 node<span class="w"> </span>&lt;SKILL_DIR&gt;/scripts/resolve.mjs<span class="w"> </span>--type<span class="w"> </span>icon<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--intent<span class="w"> </span><span class="s2">"chart line graph, minimal, blue"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--intent<span class="w"> </span><span class="s2">&quot;chart line graph, minimal, blue&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--project<span class="w"> </span>./dashboard
 </code></pre></div>
 <hr />

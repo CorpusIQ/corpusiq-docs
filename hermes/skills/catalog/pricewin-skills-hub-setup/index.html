@@ -11245,8 +11245,8 @@ bash<span class="w"> </span>install.sh
 <p>Probe the paths before you install from them. All five URLs below returned 200 when this guide was written on 2026-10-28, on branch main:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>pricewin-hotel-deal-finder<span class="w"> </span>pricewin-flight-search<span class="w"> </span>pricewin-price-comparison<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>pricewin-hotel-search<span class="w"> </span>pricewin-booking-assistant<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/Price-Win/pricewin-skills-hub/main/skills/</span><span class="nv">$p</span><span class="s2">/SKILL.md"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/Price-Win/pricewin-skills-hub/main/skills/</span><span class="nv">$p</span><span class="s2">/SKILL.md&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two that touch money and guest data before installing them:</p>
@@ -11255,16 +11255,16 @@ bash<span class="w"> </span>install.sh
 <li>https://raw.githubusercontent.com/Price-Win/pricewin-skills-hub/main/skills/pricewin-hotel-deal-finder/SKILL.md</li>
 </ul>
 <p>After install, confirm what actually landed, since <code>skills add</code> and <code>hermes skills install</code> copy different granularity:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'^pricewin-'</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;^pricewin-&#39;</span>
 head<span class="w"> </span>-4<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/pricewin-hotel-deal-finder/SKILL.md
 </code></pre></div>
 <p>The frontmatter name should read <code>pricewin-hotel-deal-finder</code>, the same name the install index uses. If it reads <code>pricewin-deal-finder</code> you are looking at the retired slug.</p>
 <p>For the MCP route, check the server answers before blaming the skill. The hosted endpoint issues no session id and rejects requests that omit the protocol version header with a 400 that reads like the server being down:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp.price.win/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s1">'content-type: application/json'</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s1">'accept: application/json, text/event-stream'</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s1">'mcp-protocol-version: 2025-06-18'</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"jsonrpc":"2.0","id":1,"method":"tools/list"}'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;content-type: application/json&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;accept: application/json, text/event-stream&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;mcp-protocol-version: 2025-06-18&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;method&quot;:&quot;tools/list&quot;}&#39;</span>
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>skills.sh verdicts for sampled skills (verified 2026-10-28) - re-check the security pages on skills.sh before production use:</p>

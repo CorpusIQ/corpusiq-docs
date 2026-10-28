@@ -11271,14 +11271,14 @@ hermes<span class="w"> </span>skills<span class="w"> </span>audit<span class="w"
 <h2 id="creating-custom-skills">Creating Custom Skills<a class="headerlink" href="#creating-custom-skills" title="Anchor link to this section">&para;</a></h2>
 <p>You can create your own skills for any repeatable workflow. The fastest path is to let Hermes generate the skill from a working session:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># After completing a task manually, tell Hermes to create a skill from it</span>
-<span class="s2">"Create a skill from the last task I just did  --  audit our email automations"</span>
+<span class="s2">&quot;Create a skill from the last task I just did  --  audit our email automations&quot;</span>
 
 <span class="c1"># Hermes will write the skill file and offer to install it</span>
 </code></pre></div>
 <p>To author a skill manually, create a markdown file with this structure:</p>
 <div class="highlight"><pre><span></span><code>---
-trigger_keywords: ["email audit", "automation check"]
-<span class="gu">required_tools: ["email_connector", "terminal"]</span>
+trigger_keywords: [&quot;email audit&quot;, &quot;automation check&quot;]
+<span class="gu">required_tools: [&quot;email_connector&quot;, &quot;terminal&quot;]</span>
 <span class="gu">---</span>
 
 <span class="gh"># Email Automation Audit</span>
@@ -11301,7 +11301,7 @@ Output markdown table: automation name, last run, status, issues found.
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>./my-skills/email-audit.md
 </code></pre></div>
 <p>The skill is now available for any Hermes session in your profile. Invoke it by mentioning the trigger keywords or calling it explicitly:</p>
-<div class="highlight"><pre><span></span><code>"Run the email automation audit"
+<div class="highlight"><pre><span></span><code>&quot;Run the email automation audit&quot;
 </code></pre></div>
 <h2 id="marketplace-discovery">Marketplace Discovery<a class="headerlink" href="#marketplace-discovery" title="Anchor link to this section">&para;</a></h2>
 <p>The Hermes community hub includes a curated <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Skills Marketplace</a> with 290+ community-contributed skills. New skills are discovered through automated sweeps of skills.sh and added weekly. Browse by category, check install counts to see what's trending, and submit your own skills for inclusion.</p>

@@ -11293,8 +11293,8 @@ cp<span class="w"> </span>-R<span class="w"> </span><span class="m">365</span>-s
 <span class="w">         </span>plugins/asta/skills/asta-skill/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/semanticscholar/skills/semanticscholar-skill/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/mermaid/skills/mermaid-skill/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/Agents365-ai/365-skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/Agents365-ai/365-skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>The two separately hosted skills have their own paths, both confirmed at 200:</p>
@@ -11304,7 +11304,7 @@ cp<span class="w"> </span>-R<span class="w"> </span><span class="m">365</span>-s
 </ul>
 <p>Read the ones that touch credentials, paywalls or vendor APIs before installing them: <code>paper-fetch</code>, <code>asta-skill</code>, <code>ttscn</code>, <code>imagencn</code> and <code>videogencn</code>.</p>
 <p>After install, confirm what actually landed. The frontmatter <code>name</code> is what the install index matches on, and it does not always equal the directory name, so check both:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">'^(plantuml|paper-fetch|asta|semanticscholar|mermaid)'</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">&#39;^(plantuml|paper-fetch|asta|semanticscholar|mermaid)&#39;</span>
 head<span class="w"> </span>-3<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/asta-skill/SKILL.md
 </code></pre></div>
 <p>The clone carries 36 <code>SKILL.md</code> files, so a count well above that after an install means the same skill landed twice, which happens when the CLI and a manual copy both run.</p>

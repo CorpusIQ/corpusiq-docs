@@ -11251,24 +11251,24 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/NousR
 <h3 id="1-cli-invocation">1. CLI Invocation<a class="headerlink" href="#1-cli-invocation" title="Anchor link to this section">&para;</a></h3>
 <p>Run Hermes from any agent or script:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># One-shot task execution</span>
-hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"Analyze this CSV file and generate a summary report"</span>
+hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;Analyze this CSV file and generate a summary report&quot;</span>
 
 <span class="c1"># With specific model</span>
-hermes<span class="w"> </span>run<span class="w"> </span>--model<span class="w"> </span>claude-sonnet-4-6<span class="w"> </span><span class="s2">"Review this PR diff"</span>
+hermes<span class="w"> </span>run<span class="w"> </span>--model<span class="w"> </span>claude-sonnet-4-6<span class="w"> </span><span class="s2">&quot;Review this PR diff&quot;</span>
 
 <span class="c1"># With skill pre-loading</span>
-hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-execution-discipline<span class="w"> </span><span class="s2">"Audit system health"</span>
+hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-execution-discipline<span class="w"> </span><span class="s2">&quot;Audit system health&quot;</span>
 </code></pre></div>
 <h3 id="2-subagent-delegation">2. Subagent Delegation<a class="headerlink" href="#2-subagent-delegation" title="Anchor link to this section">&para;</a></h3>
 <p>Isolate complex subtasks into independent contexts:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Delegate research task</span>
-hermes<span class="w"> </span>delegate<span class="w"> </span><span class="s2">"Research top 5 MCP server implementations and compare features"</span>
+hermes<span class="w"> </span>delegate<span class="w"> </span><span class="s2">&quot;Research top 5 MCP server implementations and compare features&quot;</span>
 
 <span class="c1"># Parallel delegation (up to 3 concurrent)</span>
 hermes<span class="w"> </span>delegate<span class="w"> </span>--parallel<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Check X mentions"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Scan Reddit for CorpusIQ threads"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"Review HN front page for relevant discussions"</span>
+<span class="w">  </span><span class="s2">&quot;Check X mentions&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Scan Reddit for CorpusIQ threads&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Review HN front page for relevant discussions&quot;</span>
 </code></pre></div>
 <p>Subagents get their own conversation, terminal session, and toolset. Results flow back as summaries - intermediate tool output never floods context.</p>
 <h3 id="3-persistent-memory">3. Persistent Memory<a class="headerlink" href="#3-persistent-memory" title="Anchor link to this section">&para;</a></h3>
@@ -11278,10 +11278,10 @@ hermes<span class="w"> </span>delegate<span class="w"> </span>--parallel<span cl
 <li><strong>LLM summaries</strong> - semantic compression of key facts, preferences, and patterns</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="c1"># Search past sessions</span>
-hermes<span class="w"> </span>session<span class="w"> </span>search<span class="w"> </span><span class="s2">"MCP server deployment"</span>
+hermes<span class="w"> </span>session<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;MCP server deployment&quot;</span>
 
 <span class="c1"># Save durable facts</span>
-hermes<span class="w"> </span>memory<span class="w"> </span>add<span class="w"> </span><span class="s2">"Project uses PostgreSQL 17 with PGLite for dev"</span>
+hermes<span class="w"> </span>memory<span class="w"> </span>add<span class="w"> </span><span class="s2">&quot;Project uses PostgreSQL 17 with PGLite for dev&quot;</span>
 </code></pre></div>
 <h3 id="4-self-improving-skills">4. Self-Improving Skills<a class="headerlink" href="#4-self-improving-skills" title="Anchor link to this section">&para;</a></h3>
 <p>Agents learn from completed tasks:</p>
@@ -11320,33 +11320,33 @@ hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</
 <h2 id="common-patterns">Common Patterns<a class="headerlink" href="#common-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="pattern-research-synthesize-report">Pattern: Research → Synthesize → Report<a class="headerlink" href="#pattern-research-synthesize-report" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Delegate research (runs in background)</span>
-hermes<span class="w"> </span>delegate<span class="w"> </span><span class="s2">"Research competitor pricing for AI data connectors"</span>
+hermes<span class="w"> </span>delegate<span class="w"> </span><span class="s2">&quot;Research competitor pricing for AI data connectors&quot;</span>
 
 <span class="c1"># 2. While research runs, prepare report template</span>
-hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"Create a competitive analysis report template"</span>
+hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;Create a competitive analysis report template&quot;</span>
 
 <span class="c1"># 3. When research completes, synthesize</span>
-hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"Merge research findings into the report template"</span>
+hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;Merge research findings into the report template&quot;</span>
 </code></pre></div>
 <h3 id="pattern-code-review-pipeline">Pattern: Code Review Pipeline<a class="headerlink" href="#pattern-code-review-pipeline" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Delegate deep code review</span>
-hermes<span class="w"> </span>delegate<span class="w"> </span>--skill<span class="w"> </span>github-code-review<span class="w"> </span><span class="s2">"Review PR #42 in corpusiq-docs"</span>
+hermes<span class="w"> </span>delegate<span class="w"> </span>--skill<span class="w"> </span>github-code-review<span class="w"> </span><span class="s2">&quot;Review PR #42 in corpusiq-docs&quot;</span>
 
 <span class="c1"># 2. Parallel: check for security issues</span>
-hermes<span class="w"> </span>delegate<span class="w"> </span>--skill<span class="w"> </span>security-audit<span class="w"> </span><span class="s2">"Audit PR #42 for vulnerabilities"</span>
+hermes<span class="w"> </span>delegate<span class="w"> </span>--skill<span class="w"> </span>security-audit<span class="w"> </span><span class="s2">&quot;Audit PR #42 for vulnerabilities&quot;</span>
 
 <span class="c1"># 3. Merge findings</span>
-hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"Combine code review and security audit into unified PR feedback"</span>
+hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;Combine code review and security audit into unified PR feedback&quot;</span>
 </code></pre></div>
 <h3 id="pattern-daily-operations">Pattern: Daily Operations<a class="headerlink" href="#pattern-daily-operations" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Morning health check</span>
-hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-system-auditor<span class="w"> </span><span class="s2">"Run system health check"</span>
+hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-system-auditor<span class="w"> </span><span class="s2">&quot;Run system health check&quot;</span>
 
 <span class="c1"># Midday social sweep</span>
-hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-organic-discovery<span class="w"> </span><span class="s2">"Check all platforms for mentions"</span>
+hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-organic-discovery<span class="w"> </span><span class="s2">&quot;Check all platforms for mentions&quot;</span>
 
 <span class="c1"># Evening report</span>
-hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-daily-html-reporting<span class="w"> </span><span class="s2">"Generate daily report"</span>
+hermes<span class="w"> </span>run<span class="w"> </span>--skill<span class="w"> </span>corpusiq-daily-html-reporting<span class="w"> </span><span class="s2">&quot;Generate daily report&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="cost-awareness">Cost Awareness<a class="headerlink" href="#cost-awareness" title="Anchor link to this section">&para;</a></h2>

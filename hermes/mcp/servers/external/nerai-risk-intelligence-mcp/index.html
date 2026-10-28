@@ -11190,11 +11190,11 @@
 <h3 id="claude-desktop-claude-code">Claude Desktop / Claude Code<a class="headerlink" href="#claude-desktop-claude-code" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Get your free key first</span>
 curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://nerai-mcp.neraicorp.workers.dev/register<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s1">'content-type: application/json'</span><span class="w"> </span>-d<span class="w"> </span><span class="s1">'{"email":"you@company.com"}'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;content-type: application/json&#39;</span><span class="w"> </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;email&quot;:&quot;you@company.com&quot;}&#39;</span>
 
 <span class="c1"># Connect</span>
 claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>nerai<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://nerai-mcp.neraicorp.workers.dev/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer YOUR_KEY"</span>
+<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer YOUR_KEY&quot;</span>
 </code></pre></div>
 <h3 id="claudeai-custom-connectors">Claude.ai (custom connectors)<a class="headerlink" href="#claudeai-custom-connectors" title="Anchor link to this section">&para;</a></h3>
 <p>Use the key-in-URL format for clients without header fields:
@@ -11202,12 +11202,12 @@ claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </code></pre></div></p>
 <h3 id="any-mcp-client">Any MCP Client<a class="headerlink" href="#any-mcp-client" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"nerai"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://nerai-mcp.neraicorp.workers.dev/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer YOUR_KEY"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;nerai&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://nerai-mcp.neraicorp.workers.dev/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_KEY&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

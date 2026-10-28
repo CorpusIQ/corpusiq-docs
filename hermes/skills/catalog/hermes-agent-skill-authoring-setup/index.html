@@ -11230,7 +11230,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <p>Every skill is a single <code>SKILL.md</code> file with YAML frontmatter and Markdown body:</p>
 <div class="highlight"><pre><span></span><code><span class="nn">---</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hermes Agent Skill Authoring - Official Guide for Writing</span>
-<span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Clear,</span><span class="nv"> </span><span class="s">concise</span><span class="nv"> </span><span class="s">description</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">what</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">skill</span><span class="nv"> </span><span class="s">does."</span>
+<span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Clear,</span><span class="nv"> </span><span class="s">concise</span><span class="nv"> </span><span class="s">description</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">what</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">skill</span><span class="nv"> </span><span class="s">does.&quot;</span>
 <span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.0.0</span>
 <span class="nt">platforms</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">linux</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">macos</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">windows</span><span class="p p-Indicator">]</span>
 <span class="nt">metadata</span><span class="p">:</span>
@@ -11245,7 +11245,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <span class="l l-Scalar l-Scalar-Plain">What the skill does and when to use it.</span>
 
 <span class="l l-Scalar l-Scalar-Plain">## Prerequisites</span>
-<span class="l l-Scalar l-Scalar-Plain">What's needed before using this skill.</span>
+<span class="l l-Scalar l-Scalar-Plain">What&#39;s needed before using this skill.</span>
 
 <span class="l l-Scalar l-Scalar-Plain">## Workflow</span>
 <span class="l l-Scalar l-Scalar-Plain">Step-by-step instructions.</span>
@@ -11324,7 +11324,7 @@ SOLUTION: Regenerate the token and update the environment variable.
 <h3 id="5-verification-section">5. Verification Section<a class="headerlink" href="#5-verification-section" title="Anchor link to this section">&para;</a></h3>
 <p>How to confirm the skill worked:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Check output file exists and is non-empty</span>
-<span class="nb">test</span><span class="w"> </span>-s<span class="w"> </span>output/report.md<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"PASS"</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"FAIL"</span>
+<span class="nb">test</span><span class="w"> </span>-s<span class="w"> </span>output/report.md<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;PASS&quot;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;FAIL&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="skill-quality-checklist">Skill Quality Checklist<a class="headerlink" href="#skill-quality-checklist" title="Anchor link to this section">&para;</a></h2>
@@ -11354,7 +11354,7 @@ git<span class="w"> </span>init<span class="w"> </span>my-hermes-skill
 <span class="nb">cd</span><span class="w"> </span>my-hermes-skill
 <span class="c1"># Create SKILL.md with proper frontmatter</span>
 git<span class="w"> </span>add<span class="w"> </span>SKILL.md
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Initial skill: my-hermes-skill"</span>
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Initial skill: my-hermes-skill&quot;</span>
 gh<span class="w"> </span>repo<span class="w"> </span>create<span class="w"> </span>my-hermes-skill<span class="w"> </span>--public<span class="w"> </span>--push
 gh<span class="w"> </span>repo<span class="w"> </span>edit<span class="w"> </span>--add-topic<span class="w"> </span>hermes-agent
 </code></pre></div>

@@ -11362,7 +11362,7 @@ mcp__honcho__schedule_dream       --  Queue memory consolidation
 </code></pre></div>
 <p><strong>Pattern: Pre-flight gate</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Before EVERY external action, check Honcho</span>
-<span class="n">peer</span> <span class="o">=</span> <span class="n">honcho_get_peer_context</span><span class="p">(</span><span class="n">target_peer_id</span><span class="o">=</span><span class="s2">"user"</span><span class="p">)</span>
+<span class="n">peer</span> <span class="o">=</span> <span class="n">honcho_get_peer_context</span><span class="p">(</span><span class="n">target_peer_id</span><span class="o">=</span><span class="s2">&quot;user&quot;</span><span class="p">)</span>
 <span class="c1"># Check: Is this platform banned?</span>
 <span class="c1"># Check: Any rules about this action?</span>
 <span class="c1"># Check: Was this already done?</span>
@@ -11381,14 +11381,14 @@ gbrain<span class="w"> </span>init<span class="w"> </span>--pglite<span class="w
 ├── Pages: 6,000+ indexed (code, docs, configs, scripts)
 ├── Embeddings: nomic-embed-text, 768-dimension
 ├── Categories: infrastructure, video, governance, email, social
-└── Relationships: "heygen-video-generator.py" → depends on → "heygen.json"
+└── Relationships: &quot;heygen-video-generator.py&quot; → depends on → &quot;heygen.json&quot;
 </code></pre></div>
 <p><strong>Query pattern:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># "What videos did we generate this week?"</span>
-<span class="n">gbrain</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">"video pipeline generated files MP4 week June 2026"</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># &quot;What videos did we generate this week?&quot;</span>
+<span class="n">gbrain</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;video pipeline generated files MP4 week June 2026&quot;</span><span class="p">)</span>
 
-<span class="c1"># "Where is the email template?"</span>
-<span class="n">gbrain</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">"HTML email template operator time waste campaign"</span><span class="p">)</span>
+<span class="c1"># &quot;Where is the email template?&quot;</span>
+<span class="n">gbrain</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;HTML email template operator time waste campaign&quot;</span><span class="p">)</span>
 </code></pre></div>
 <p><strong>Dream Cycle (3 AM daily):</strong></p>
 <div class="highlight"><pre><span></span><code>Nightly consolidation:
@@ -11461,7 +11461,7 @@ graphrag<span class="w"> </span>init<span class="w"> </span>--root<span class="w
 graphrag<span class="w"> </span>index<span class="w"> </span>--root<span class="w"> </span>./graphrag-data
 </code></pre></div>
 <p><strong>Query pattern:</strong></p>
-<div class="highlight"><pre><span></span><code>"Which cron jobs depend on the Gmail API token?"
+<div class="highlight"><pre><span></span><code>&quot;Which cron jobs depend on the Gmail API token?&quot;
 → Returns: Email Monitor, Email Responder, Forward Handler, Job Reply Forwarder
 → With: Token location, refresh schedule, failure handling per cron
 </code></pre></div>
@@ -11476,7 +11476,7 @@ hermes<span class="w"> </span>sessions<span class="w"> </span>list
 hermes<span class="w"> </span>sessions<span class="w"> </span>browse
 
 <span class="c1"># From within a session, use the session_search tool</span>
-session_search<span class="o">(</span><span class="nv">query</span><span class="o">=</span><span class="s2">"email campaign June"</span><span class="o">)</span>
+session_search<span class="o">(</span><span class="nv">query</span><span class="o">=</span><span class="s2">&quot;email campaign June&quot;</span><span class="o">)</span>
 </code></pre></div>
 <p><strong>What's stored:</strong>
 - Every message (user + assistant)
@@ -11491,12 +11491,12 @@ session_search<span class="o">(</span><span class="nv">query</span><span class="
     │       └── Who is the user? What are the rules? What platforms are banned?
     │
     ├── 2. GBrain: Query organizational knowledge
-    │       └── Where are the files? What was built? What's the architecture?
+    │       └── Where are the files? What was built? What&#39;s the architecture?
     │
     ├── 3. memcore-cloud: Inject cross-session context
-    │       └── What happened last session? What was decided? What's pending?
+    │       └── What happened last session? What was decided? What&#39;s pending?
     │
-    ├── 4. Session DB: Load today's conversation
+    ├── 4. Session DB: Load today&#39;s conversation
     │       └── What have we already discussed this session?
     │
     ▼

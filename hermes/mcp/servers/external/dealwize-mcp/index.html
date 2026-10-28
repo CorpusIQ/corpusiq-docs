@@ -11163,15 +11163,15 @@ Built by: Dealwize
 </table>
 <p>Example prompts: "Who are the key stakeholders, and who are we missing?", "What's the most important thing I should do next?", "Give me the brutal truth about this opportunity."</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>dealwize<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://api.dealwize.co/api/v1/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer dw_live_YOUR_API_KEY"</span>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>dealwize<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://api.dealwize.co/api/v1/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer dw_live_YOUR_API_KEY&quot;</span>
 </code></pre></div>
 <p>The same endpoint works in Claude Code, Codex, Cursor, VS Code and any Streamable HTTP MCP client.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"dealwize"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.dealwize.co/api/v1/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;dealwize&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.dealwize.co/api/v1/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

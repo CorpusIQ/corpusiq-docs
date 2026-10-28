@@ -11300,7 +11300,7 @@ codex<span class="w"> </span>plugin<span class="w"> </span>add<span class="w"> <
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-Ei<span class="w"> </span><span class="s2">"nuxt|vue"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-Ei<span class="w"> </span><span class="s2">&quot;nuxt|vue&quot;</span>
 </code></pre></div>
 <p>Read the load-bearing skills before installing. All six URLs below returned HTTP 200 when checked with curl on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/onmax/nuxt-skills/main/README.md
@@ -11311,7 +11311,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxthub/SKILL.md
 </code></pre></div>
 <p>The version statements are the fastest way to see if a skill matches your project:</p>
-<div class="highlight"><pre><span></span><code>grep<span class="w"> </span>-m1<span class="w"> </span><span class="s2">"Based on\|generated at\|Current version"</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>grep<span class="w"> </span>-m1<span class="w"> </span><span class="s2">&quot;Based on\|generated at\|Current version&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>~/.claude/skills/nuxt/SKILL.md<span class="w"> </span>~/.claude/skills/vite/SKILL.md
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

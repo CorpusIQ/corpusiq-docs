@@ -11374,18 +11374,18 @@ cp<span class="w"> </span>/tmp/herman-playbook/scripts/backup.sh<span class="w">
 cp<span class="w"> </span>/tmp/herman-playbook/herman-skill-playbook.md<span class="w"> </span>~/.hermes/skills/herman-playbook/SKILL.md
 
 <span class="c1"># Load in any Hermes session</span>
-skill_view<span class="o">(</span><span class="nv">name</span><span class="o">=</span><span class="s1">'herman-playbook'</span><span class="o">)</span>
+skill_view<span class="o">(</span><span class="nv">name</span><span class="o">=</span><span class="s1">&#39;herman-playbook&#39;</span><span class="o">)</span>
 </code></pre></div>
 <hr />
 <h2 id="skill-details">Skill Details<a class="headerlink" href="#skill-details" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-github-install">1. GitHub Install<a class="headerlink" href="#1-github-install" title="Anchor link to this section">&para;</a></h3>
 <p>Inspect a repo's structure before cloning and install the skill/plugin.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Inspect repo structure</span>
-python<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import urllib.request, json</span>
-<span class="s2">url='https://api.github.com/repos/&lt;owner&gt;/&lt;repo&gt;/contents/'</span>
-<span class="s2">req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})</span>
+python<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import urllib.request, json</span>
+<span class="s2">url=&#39;https://api.github.com/repos/&lt;owner&gt;/&lt;repo&gt;/contents/&#39;</span>
+<span class="s2">req = urllib.request.Request(url, headers={&#39;User-Agent&#39;:&#39;Mozilla/5.0&#39;})</span>
 <span class="s2">data = json.load(urllib.request.urlopen(req))</span>
-<span class="s2">print('\n'.join(f\"{item['name']}|{item['type']}\" for item in data))"</span>
+<span class="s2">print(&#39;\n&#39;.join(f\&quot;{item[&#39;name&#39;]}|{item[&#39;type&#39;]}\&quot; for item in data))&quot;</span>
 
 <span class="c1"># Clone &amp; install shallow</span>
 git<span class="w"> </span>clone<span class="w"> </span>--depth<span class="w"> </span><span class="m">1</span><span class="w"> </span>&lt;repo-url&gt;<span class="w"> </span>/tmp/&lt;repo-name&gt;
@@ -11404,52 +11404,52 @@ ls<span class="w"> </span>-la<span class="w"> </span>~/.hermes/plugins/&lt;plugi
 terminal<span class="o">(</span><span class="nv">background</span><span class="o">=</span>true,<span class="w"> </span><span class="nv">notify_on_complete</span><span class="o">=</span><span class="nb">false</span><span class="o">)</span><span class="w"> </span>&lt;command&gt;
 
 <span class="c1"># Check status</span>
-process<span class="o">(</span><span class="nv">action</span><span class="o">=</span><span class="s1">'poll'</span>,<span class="w"> </span><span class="nv">session_id</span><span class="o">=</span><span class="s1">'proc_xxx'</span><span class="o">)</span>
+process<span class="o">(</span><span class="nv">action</span><span class="o">=</span><span class="s1">&#39;poll&#39;</span>,<span class="w"> </span><span class="nv">session_id</span><span class="o">=</span><span class="s1">&#39;proc_xxx&#39;</span><span class="o">)</span>
 
 <span class="c1"># Health check</span>
 curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:&lt;port&gt;/<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-c<span class="w"> </span><span class="m">200</span>
-ss<span class="w"> </span>-ltnp<span class="w"> </span><span class="p">|</span><span class="w"> </span>rg<span class="w"> </span><span class="s1">':&lt;port&gt;'</span>
+ss<span class="w"> </span>-ltnp<span class="w"> </span><span class="p">|</span><span class="w"> </span>rg<span class="w"> </span><span class="s1">&#39;:&lt;port&gt;&#39;</span>
 </code></pre></div>
 <h3 id="4-database-operations">4. Database Operations<a class="headerlink" href="#4-database-operations" title="Anchor link to this section">&para;</a></h3>
 <p>DuckDB query, backup, and CSV import.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Query</span>
-duckdb<span class="w"> </span>/path/to/db.duckdb<span class="w"> </span>-c<span class="w"> </span><span class="s2">"SELECT * FROM table LIMIT 5"</span>
+duckdb<span class="w"> </span>/path/to/db.duckdb<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;SELECT * FROM table LIMIT 5&quot;</span>
 
 <span class="c1"># Backup before modification</span>
 cp<span class="w"> </span>/path/to/db.duckdb<span class="w"> </span>/path/to/db.duckdb.bak.<span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span>
 
 <span class="c1"># CSV import</span>
 duckdb<span class="w"> </span>/path/to/db.duckdb<span class="w"> </span>-c<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"CREATE TABLE IF NOT EXISTS data AS SELECT * FROM read_csv_auto('/path/to/file.csv')"</span>
+<span class="w">  </span><span class="s2">&quot;CREATE TABLE IF NOT EXISTS data AS SELECT * FROM read_csv_auto(&#39;/path/to/file.csv&#39;)&quot;</span>
 </code></pre></div>
 <h3 id="5-api-configuration">5. API Configuration<a class="headerlink" href="#5-api-configuration" title="Anchor link to this section">&para;</a></h3>
 <p>Configure Hermes provider/model via CLI.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Set config</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.provider<span class="w"> </span><span class="s1">''</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.base_url<span class="w"> </span><span class="s1">'http://localhost:20128/v1'</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.api_key<span class="w"> </span><span class="s1">'&lt;api-key&gt;'</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span><span class="s1">'&lt;provider&gt;/&lt;model-id&gt;'</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.provider<span class="w"> </span><span class="s1">&#39;&#39;</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.base_url<span class="w"> </span><span class="s1">&#39;http://localhost:20128/v1&#39;</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.api_key<span class="w"> </span><span class="s1">&#39;&lt;api-key&gt;&#39;</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span><span class="s1">&#39;&lt;provider&gt;/&lt;model-id&gt;&#39;</span>
 </code></pre></div>
 <h3 id="6-data-analysis">6. Data Analysis<a class="headerlink" href="#6-data-analysis" title="Anchor link to this section">&para;</a></h3>
 <p>Multi-dimensional analysis using DuckDB - division, month, department, outlet.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Example: Sales analysis by division and month</span>
-duckdb<span class="w"> </span>/path/to/db.duckdb<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span>
-<span class="s2">  SELECT division, strftime('%Y-%m', date) as month, SUM(amount) as total</span>
+duckdb<span class="w"> </span>/path/to/db.duckdb<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
+<span class="s2">  SELECT division, strftime(&#39;%Y-%m&#39;, date) as month, SUM(amount) as total</span>
 <span class="s2">  FROM sales</span>
 <span class="s2">  GROUP BY division, month</span>
 <span class="s2">  ORDER BY division, month</span>
-<span class="s2">"</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <h3 id="7-memory-management">7. Memory Management<a class="headerlink" href="#7-memory-management" title="Anchor link to this section">&para;</a></h3>
 <p>Cross-session fact persistence using Hermes' <code>memory</code> tool.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Save a fact</span>
-<span class="n">memory</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">'add'</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">'memory'</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="s1">'User prefers concise responses'</span><span class="p">)</span>
+<span class="n">memory</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;add&#39;</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;memory&#39;</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="s1">&#39;User prefers concise responses&#39;</span><span class="p">)</span>
 
 <span class="c1"># Update a fact</span>
-<span class="n">memory</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">'replace'</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">'memory'</span><span class="p">,</span> <span class="n">old_text</span><span class="o">=</span><span class="s1">'User prefers...'</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="s1">'Updated...'</span><span class="p">)</span>
+<span class="n">memory</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;replace&#39;</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;memory&#39;</span><span class="p">,</span> <span class="n">old_text</span><span class="o">=</span><span class="s1">&#39;User prefers...&#39;</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="s1">&#39;Updated...&#39;</span><span class="p">)</span>
 
 <span class="c1"># Remove outdated</span>
-<span class="n">memory</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">'remove'</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">'memory'</span><span class="p">,</span> <span class="n">old_text</span><span class="o">=</span><span class="s1">'Outdated fact...'</span><span class="p">)</span>
+<span class="n">memory</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s1">&#39;remove&#39;</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;memory&#39;</span><span class="p">,</span> <span class="n">old_text</span><span class="o">=</span><span class="s1">&#39;Outdated fact...&#39;</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="8-upload-gdrive">8. Upload GDrive<a class="headerlink" href="#8-upload-gdrive" title="Anchor link to this section">&para;</a></h3>
 <p>rclone-based Google Drive sync.</p>
@@ -11468,18 +11468,18 @@ rclone<span class="w"> </span>ls<span class="w"> </span>gdrive:folder/<span clas
 <div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 <span class="c1"># Copy to crontab: 0 2 * * * /home/hermes/.hermes/scripts/backup.sh</span>
 
-<span class="nv">BACKUP_DIR</span><span class="o">=</span><span class="s2">"/home/hermes/backups/</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">"</span>
-mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">"</span><span class="nv">$BACKUP_DIR</span><span class="s2">"</span>
+<span class="nv">BACKUP_DIR</span><span class="o">=</span><span class="s2">&quot;/home/hermes/backups/</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">&quot;</span>
+mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BACKUP_DIR</span><span class="s2">&quot;</span>
 
 <span class="c1"># Backup configs</span>
-cp<span class="w"> </span>~/.hermes/config.yaml<span class="w"> </span><span class="s2">"</span><span class="nv">$BACKUP_DIR</span><span class="s2">/"</span>
-cp<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/config.yaml<span class="w"> </span><span class="s2">"</span><span class="nv">$BACKUP_DIR</span><span class="s2">/profile-config.yaml"</span>
+cp<span class="w"> </span>~/.hermes/config.yaml<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BACKUP_DIR</span><span class="s2">/&quot;</span>
+cp<span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/config.yaml<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BACKUP_DIR</span><span class="s2">/profile-config.yaml&quot;</span>
 
 <span class="c1"># Backup databases</span>
-cp<span class="w"> </span>/path/to/*.duckdb<span class="w"> </span><span class="s2">"</span><span class="nv">$BACKUP_DIR</span><span class="s2">/"</span>
+cp<span class="w"> </span>/path/to/*.duckdb<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BACKUP_DIR</span><span class="s2">/&quot;</span>
 
 <span class="c1"># Upload to GDrive (optional)</span>
-rclone<span class="w"> </span>copy<span class="w"> </span><span class="s2">"</span><span class="nv">$BACKUP_DIR</span><span class="s2">"</span><span class="w"> </span>gdrive:hermes-backups/<span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span>/
+rclone<span class="w"> </span>copy<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BACKUP_DIR</span><span class="s2">&quot;</span><span class="w"> </span>gdrive:hermes-backups/<span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span>/
 </code></pre></div>
 <hr />
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Anchor link to this section">&para;</a></h2>

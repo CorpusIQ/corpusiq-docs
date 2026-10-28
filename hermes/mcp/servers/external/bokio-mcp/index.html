@@ -11178,10 +11178,10 @@ Runtime:      Node.js 22 or later
 <li><strong>Recent and lightly used.</strong> One star and a first publication in the same week as this sweep. The API surface is real; the operational history is not.</li>
 </ul>
 <h2 id="wiring-it-up">Wiring It Up<a class="headerlink" href="#wiring-it-up" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"bokio"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"bokio-mcp"</span><span class="p">],</span>
-<span class="w">  </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"BOKIO_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"YOUR_TOKEN"</span><span class="p">,</span><span class="w"> </span><span class="nt">"BOKIO_COMPANY_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"YOUR_ID"</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;bokio&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;bokio-mcp&quot;</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;BOKIO_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;YOUR_TOKEN&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;BOKIO_COMPANY_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;YOUR_ID&quot;</span><span class="p">}</span>
 <span class="p">}}}</span>
 </code></pre></div>
 <p>Leave <code>BOKIO_ALLOW_WRITES</code> unset for the first weeks. The questions that justify the connection are all read-only ones.</p>

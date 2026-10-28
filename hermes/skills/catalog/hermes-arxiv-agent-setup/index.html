@@ -11288,7 +11288,7 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cs.LG</span><span class="w">        </span><span class="c1"># Machine Learning</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">stat.ML</span><span class="w">      </span><span class="c1"># Machine Learning (Statistics)</span>
 <span class="w">  </span><span class="nt">max_results</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">50</span>
-<span class="w">  </span><span class="nt">fetch_time</span><span class="p">:</span><span class="w"> </span><span class="s">"08:00"</span><span class="w">  </span><span class="c1"># Daily fetch time (UTC)</span>
+<span class="w">  </span><span class="nt">fetch_time</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;08:00&quot;</span><span class="w">  </span><span class="c1"># Daily fetch time (UTC)</span>
 </code></pre></div>
 <p>Common categories:
 | Code | Field |
@@ -11303,25 +11303,25 @@ pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </s
 <h3 id="2-ai-summary-provider">2. AI Summary Provider<a class="headerlink" href="#2-ai-summary-provider" title="Anchor link to this section">&para;</a></h3>
 <p>Configure the AI backend for generating summaries:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">ai</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="s">"openai"</span><span class="w">  </span><span class="c1"># or "deepseek", "ollama", "anthropic"</span>
-<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"gpt-4o"</span>
-<span class="w">  </span><span class="nt">api_key</span><span class="p">:</span><span class="w"> </span><span class="s">"${OPENAI_API_KEY}"</span>
-<span class="w">  </span><span class="nt">summary_language</span><span class="p">:</span><span class="w"> </span><span class="s">"zh"</span><span class="w">  </span><span class="c1"># "zh" for Chinese, "en" for English</span>
+<span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;openai&quot;</span><span class="w">  </span><span class="c1"># or &quot;deepseek&quot;, &quot;ollama&quot;, &quot;anthropic&quot;</span>
+<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;gpt-4o&quot;</span>
+<span class="w">  </span><span class="nt">api_key</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${OPENAI_API_KEY}&quot;</span>
+<span class="w">  </span><span class="nt">summary_language</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;zh&quot;</span><span class="w">  </span><span class="c1"># &quot;zh&quot; for Chinese, &quot;en&quot; for English</span>
 <span class="w">  </span><span class="nt">max_tokens</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">500</span>
 </code></pre></div>
 <h3 id="3-feishulark-notification-optional">3. Feishu/Lark Notification (Optional)<a class="headerlink" href="#3-feishulark-notification-optional" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">feishu</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">webhook_url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://open.feishu.cn/open-apis/bot/v2/hook/xxxxx"</span>
-<span class="w">  </span><span class="nt">secret</span><span class="p">:</span><span class="w"> </span><span class="s">"your-bot-secret"</span>
+<span class="w">  </span><span class="nt">webhook_url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://open.feishu.cn/open-apis/bot/v2/hook/xxxxx&quot;</span>
+<span class="w">  </span><span class="nt">secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-bot-secret&quot;</span>
 </code></pre></div>
 <h3 id="4-local-website">4. Local Website<a class="headerlink" href="#4-local-website" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">website</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">output_dir</span><span class="p">:</span><span class="w"> </span><span class="s">"./public"</span>
-<span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"> </span><span class="s">"0.0.0.0"</span>
+<span class="w">  </span><span class="nt">output_dir</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;./public&quot;</span>
+<span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0.0.0.0&quot;</span>
 <span class="w">  </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">8080</span>
-<span class="w">  </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">"My</span><span class="nv"> </span><span class="s">ArXiv</span><span class="nv"> </span><span class="s">Feed"</span>
+<span class="w">  </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;My</span><span class="nv"> </span><span class="s">ArXiv</span><span class="nv"> </span><span class="s">Feed&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
@@ -11348,9 +11348,9 @@ python3<span class="w"> </span>notify.py
 <h3 id="scheduled-via-hermes-cron">Scheduled via Hermes Cron<a class="headerlink" href="#scheduled-via-hermes-cron" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Create a daily cron job</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"arxiv-daily-fetch"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 8 * * *"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--command<span class="w"> </span><span class="s2">"cd ~/hermes-arxiv-agent &amp;&amp; python3 fetch.py &amp;&amp; python3 summarize.py &amp;&amp; python3 notify.py"</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;arxiv-daily-fetch&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 8 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--command<span class="w"> </span><span class="s2">&quot;cd ~/hermes-arxiv-agent &amp;&amp; python3 fetch.py &amp;&amp; python3 summarize.py &amp;&amp; python3 notify.py&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="output-structure">Output Structure<a class="headerlink" href="#output-structure" title="Anchor link to this section">&para;</a></h2>
@@ -11392,7 +11392,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <h3 id="chinese-summaries-are-low-quality">"Chinese summaries are low quality"<a class="headerlink" href="#chinese-summaries-are-low-quality" title="Anchor link to this section">&para;</a></h3>
 <p>Try a different model or increase max_tokens:
 <div class="highlight"><pre><span></span><code><span class="nt">ai</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">"deepseek-chat"</span><span class="w">  </span><span class="c1"># Strong Chinese performance</span>
+<span class="w">  </span><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;deepseek-chat&quot;</span><span class="w">  </span><span class="c1"># Strong Chinese performance</span>
 <span class="w">  </span><span class="nt">max_tokens</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">800</span>
 </code></pre></div></p>
 <h3 id="static-site-not-rendering">"Static site not rendering"<a class="headerlink" href="#static-site-not-rendering" title="Anchor link to this section">&para;</a></h3>

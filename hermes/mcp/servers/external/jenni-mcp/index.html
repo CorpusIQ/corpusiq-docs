@@ -11185,7 +11185,7 @@
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) at https://shop.jennipro.com/mcp
 Auth: none
 Live check: POST initialize returned HTTP 200 (serverInfo jenni-shopping 2.0.0, protocol 2025-03-26); tools/list returned 5 tools
-Real call 1: search_catalog at ZIP 78205 for "usb-c cable" returned priced products with shelf_observed_at timestamps, local_delivery and checkout eligibility flags, and a delivery promise
+Real call 1: search_catalog at ZIP 78205 for &quot;usb-c cable&quot; returned priced products with shelf_observed_at timestamps, local_delivery and checkout eligibility flags, and a delivery promise
 Real call 2: get_buying_options on one product at 78205 returned available true, unit price $6.00, delivery fee $9.99, total $15.99 before tax, same-day ETA
 Real call 3: the same product at ZIP 85262 returned available false, reason_code no_live_offer
 Tools: 5 (search_catalog, get_product, get_buying_options, start_checkout, get_order_status)
@@ -11206,10 +11206,10 @@ Vendor: JENNi (jennipro.com)
 <p>No key, no account, no OAuth. The endpoint answers anonymously, and the shopping session itself is what carries state.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"jenni"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://shop.jennipro.com/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;jenni&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://shop.jennipro.com/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11217,23 +11217,23 @@ Vendor: JENNi (jennipro.com)
 <h2 id="what-the-two-buying-options-calls-actually-return">What the Two Buying-Options Calls Actually Return<a class="headerlink" href="#what-the-two-buying-options-calls-actually-return" title="Anchor link to this section">&para;</a></h2>
 <p>The same product, two ZIPs, at capture time. San Antonio, where the shelf exists:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"fulfillment_mode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"local_delivery"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"available"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"delivery_promise"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Get it today"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"unit_price"</span><span class="p">:</span><span class="w"> </span><span class="s2">"$6.00"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"fee_kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"local_delivery_fee"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"fee"</span><span class="p">:</span><span class="w"> </span><span class="s2">"$9.99"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"eta"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"same_day"</span><span class="p">},</span>
-<span class="w">  </span><span class="nt">"total"</span><span class="p">:</span><span class="w"> </span><span class="s2">"$15.99"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"tax"</span><span class="p">:</span><span class="w"> </span><span class="s2">"added_at_checkout"</span>
+<span class="w">  </span><span class="nt">&quot;fulfillment_mode&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;local_delivery&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;available&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;delivery_promise&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Get it today&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;unit_price&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;$6.00&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;fee_kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;local_delivery_fee&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;fee&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;$9.99&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;eta&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;kind&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;same_day&quot;</span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;total&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;$15.99&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;tax&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;added_at_checkout&quot;</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>A Scottsdale ZIP, where it does not:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"fulfillment_mode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"local_delivery"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"available"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"reason_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"no_live_offer"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"note"</span><span class="p">:</span><span class="w"> </span><span class="s2">"No source can sell this product for that destination right now."</span>
+<span class="w">  </span><span class="nt">&quot;fulfillment_mode&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;local_delivery&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;available&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;reason_code&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;no_live_offer&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;note&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;No source can sell this product for that destination right now.&quot;</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>That second response is the whole point of the entry. A price scraper would have returned the same $6.00 for both, and the agent would have promised a same-day delivery to an address no shelf can reach. The published coverage list at capture was 79 ZIP codes, all in the San Antonio area, so a <code>search_catalog</code> hit at an out-of-area ZIP is a candidate rather than a promise until <code>get_buying_options</code> confirms it.</p>

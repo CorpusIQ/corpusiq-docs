@@ -11683,18 +11683,18 @@ storage-tenet betrayal.</p>
 <p>Here's <code>monthly_paid_revenue_stripe.json</code> from the starter template pack.
 Every field annotated.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"monthly_paid_revenue_stripe"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Monthly Paid Revenue (Stripe)"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sum of successful Stripe charge amounts in the trailing 30 days. Includes one-time charges, recurring subscription charges, and metered overages - anything Stripe successfully captured. Excludes failed, pending, and refunded charges."</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"expression"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stripe.list_charges(status=\"succeeded\", days_back=30).aggregate(sum, field=amount)"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"expected_unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USD"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"expected_freshness"</span><span class="p">:</span><span class="w"> </span><span class="s2">"daily"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"cross_source_checks"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
-<span class="w">  </span><span class="nt">"tolerance_percent"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"owner_email"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"last_reviewed_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span>
-<span class="w">  </span><span class="nt">"prefer_truth_source"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
+<span class="w">  </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;monthly_paid_revenue_stripe&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Monthly Paid Revenue (Stripe)&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sum of successful Stripe charge amounts in the trailing 30 days. Includes one-time charges, recurring subscription charges, and metered overages - anything Stripe successfully captured. Excludes failed, pending, and refunded charges.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;expression&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;stripe.list_charges(status=\&quot;succeeded\&quot;, days_back=30).aggregate(sum, field=amount)&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;expected_unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;expected_freshness&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;daily&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;cross_source_checks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<span class="w">  </span><span class="nt">&quot;tolerance_percent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;owner_email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;last_reviewed_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;variables&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span>
+<span class="w">  </span><span class="nt">&quot;prefer_truth_source&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
 <span class="p">}</span>
 </code></pre></div>
 <table>
@@ -11776,7 +11776,7 @@ op          := + | - | * | /
 <p>Calls the connector tool, returns the field path. Atoms are the
 building blocks; everything else composes them.</p>
 <h3 id="aggregate">Aggregate<a class="headerlink" href="#aggregate" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>stripe.list_charges(status="succeeded", days_back=30).aggregate(
+<div class="highlight"><pre><span></span><code>stripe.list_charges(status=&quot;succeeded&quot;, days_back=30).aggregate(
   sum,
   field=amount
 )
@@ -11786,8 +11786,8 @@ building blocks; everything else composes them.</p>
 rows in memory before the aggregate.</p>
 <h3 id="union-distinct">Union (distinct)<a class="headerlink" href="#union-distinct" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>union_distinct(
-  shopify.list_orders(financial_status="paid", days_back=30).customer.email,
-  stripe.list_charges(status="succeeded", days_back=30).customer_email
+  shopify.list_orders(financial_status=&quot;paid&quot;, days_back=30).customer.email,
+  stripe.list_charges(status=&quot;succeeded&quot;, days_back=30).customer_email
 ).count()
 </code></pre></div>
 <p>Builds a deduplicated set across multiple source lists, then counts it.
@@ -11819,18 +11819,18 @@ number, not what the template author meant.</p>
 <div class="highlight"><pre><span></span><code>You: Save this as a metric spec.
 
   {
-    "key": "monthly_paid_revenue_stripe",
-    "label": "Monthly Paid Revenue (Stripe)",
-    "description": "Sum of successful Stripe charges in the trailing 30 days.",
-    "expression": "stripe.list_charges(status=\"succeeded\", days_back=30).aggregate(sum, field=amount)",
-    "expected_unit": "USD",
-    "expected_freshness": "daily",
-    "cross_source_checks": [],
-    "tolerance_percent": 0.0,
-    "owner_email": "you@yourco.com",
-    "last_reviewed_at": "2026-06-05",
-    "variables": {},
-    "prefer_truth_source": false
+    &quot;key&quot;: &quot;monthly_paid_revenue_stripe&quot;,
+    &quot;label&quot;: &quot;Monthly Paid Revenue (Stripe)&quot;,
+    &quot;description&quot;: &quot;Sum of successful Stripe charges in the trailing 30 days.&quot;,
+    &quot;expression&quot;: &quot;stripe.list_charges(status=\&quot;succeeded\&quot;, days_back=30).aggregate(sum, field=amount)&quot;,
+    &quot;expected_unit&quot;: &quot;USD&quot;,
+    &quot;expected_freshness&quot;: &quot;daily&quot;,
+    &quot;cross_source_checks&quot;: [],
+    &quot;tolerance_percent&quot;: 0.0,
+    &quot;owner_email&quot;: &quot;you@yourco.com&quot;,
+    &quot;last_reviewed_at&quot;: &quot;2026-06-05&quot;,
+    &quot;variables&quot;: {},
+    &quot;prefer_truth_source&quot;: false
   }
 
 Claude: Calling metric_spec_set...
@@ -11840,7 +11840,7 @@ Claude: Calling metric_spec_set...
 
 You: yes
 
-Claude: Calling canonical_pending_commit(pending_write_id="pcw_8c3f...")
+Claude: Calling canonical_pending_commit(pending_write_id=&quot;pcw_8c3f...&quot;)
         Committed. Spec monthly_paid_revenue_stripe is now active at version 1.
 </code></pre></div>
 <p>The two-step <code>metric_spec_set</code> → <code>canonical_pending_commit</code> pattern is
@@ -11859,7 +11859,7 @@ Claude: Calling metric_spec_list...
 <h3 id="step-4-use-it">Step 4 - Use it<a class="headerlink" href="#step-4-use-it" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>You: what is our monthly paid revenue?
 
-Claude: Calling metric_spec_resolve(key="monthly_paid_revenue_stripe")...
+Claude: Calling metric_spec_resolve(key=&quot;monthly_paid_revenue_stripe&quot;)...
 
         $47,312
         Monthly Paid Revenue (Stripe) $47,312 · spec v1 · 1 Stripe call (847 rows)
@@ -11902,23 +11902,23 @@ contract was stripped somewhere upstream. Both are worth filing.</p>
 when they don't:</p>
 <div class="highlight"><pre><span></span><code><span class="c1">// spec 1</span>
 <span class="p">{</span>
-<span class="w">  </span><span class="nt">"key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stripe_recurring_revenue"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Stripe Recurring Revenue (30d)"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"expression"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stripe.list_subscriptions(status=\"active,trialing\").aggregate(sum, field=plan.amount_monthly_normalized)"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"expected_unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USD"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"cross_source_checks"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"qbo_recurring_revenue"</span><span class="p">],</span>
-<span class="w">  </span><span class="nt">"tolerance_percent"</span><span class="p">:</span><span class="w"> </span><span class="mf">2.0</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;stripe_recurring_revenue&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Stripe Recurring Revenue (30d)&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;expression&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;stripe.list_subscriptions(status=\&quot;active,trialing\&quot;).aggregate(sum, field=plan.amount_monthly_normalized)&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;expected_unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;cross_source_checks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;qbo_recurring_revenue&quot;</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;tolerance_percent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">2.0</span><span class="p">,</span>
 <span class="w">  </span><span class="err">...</span>
 <span class="p">}</span>
 
 <span class="c1">// spec 2</span>
 <span class="p">{</span>
-<span class="w">  </span><span class="nt">"key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"qbo_recurring_revenue"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"label"</span><span class="p">:</span><span class="w"> </span><span class="s2">"QBO Recurring Revenue (30d)"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"expression"</span><span class="p">:</span><span class="w"> </span><span class="s2">"quickbooks.report_pnl(account=\"4000-recurring\", days_back=30).aggregate(sum, field=amount)"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"expected_unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USD"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"cross_source_checks"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"stripe_recurring_revenue"</span><span class="p">],</span>
-<span class="w">  </span><span class="nt">"tolerance_percent"</span><span class="p">:</span><span class="w"> </span><span class="mf">2.0</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;qbo_recurring_revenue&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;QBO Recurring Revenue (30d)&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;expression&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;quickbooks.report_pnl(account=\&quot;4000-recurring\&quot;, days_back=30).aggregate(sum, field=amount)&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;expected_unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;cross_source_checks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;stripe_recurring_revenue&quot;</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;tolerance_percent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">2.0</span><span class="p">,</span>
 <span class="w">  </span><span class="err">...</span>
 <span class="p">}</span>
 </code></pre></div>

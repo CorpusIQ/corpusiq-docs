@@ -11282,8 +11282,8 @@ claude<span class="w"> </span>plugin<span class="w"> </span>install<span class="
 <span class="w">  </span>plugins/vertical-plugins/financial-analysis/skills/audit-xls/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>plugins/partner-built/lseg/skills/equity-research/SKILL.md<span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/anthropics/financial-services/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/anthropics/financial-services/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Five probes, all HTTP 200 when this guide was written on 2026-10-27. Read three skills before granting a spreadsheet or a data connector:</p>

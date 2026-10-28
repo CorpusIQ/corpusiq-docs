@@ -11224,14 +11224,14 @@
 </code></pre></div>
 <p>Or add to your MCP client config:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"tableau"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"@tableau/mcp-server"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"TABLEAU_SITE_URL"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://your-site.tableau.com"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"TABLEAU_PAT_NAME"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-token-name"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"TABLEAU_PAT_SECRET"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-token-secret"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;tableau&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;@tableau/mcp-server&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;TABLEAU_SITE_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://your-site.tableau.com&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;TABLEAU_PAT_NAME&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-token-name&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;TABLEAU_PAT_SECRET&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-token-secret&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11292,15 +11292,15 @@
 </table>
 <h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-ad-hoc-analytics">1. Ad-Hoc Analytics<a class="headerlink" href="#1-ad-hoc-analytics" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Show me revenue by product line for Q2, compared to Q1"
+<div class="highlight"><pre><span></span><code>User: &quot;Show me revenue by product line for Q2, compared to Q1&quot;
 Agent: [queries Tableau sales data source, computes YoY change, returns table + insight]
 </code></pre></div>
 <h3 id="2-pipeline-review">2. Pipeline Review<a class="headerlink" href="#2-pipeline-review" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "What's our current sales pipeline by stage and rep?"
+<div class="highlight"><pre><span></span><code>User: &quot;What&#39;s our current sales pipeline by stage and rep?&quot;
 Agent: [queries CRM-published Tableau data source, returns breakdown]
 </code></pre></div>
 <h3 id="3-kpi-monitoring">3. KPI Monitoring<a class="headerlink" href="#3-kpi-monitoring" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>User: "Which regions are below forecast this month?"
+<div class="highlight"><pre><span></span><code>User: &quot;Which regions are below forecast this month?&quot;
 Agent: [queries finance workbook, compares actuals vs forecast, flags underperformers]
 </code></pre></div>
 <h3 id="4-automated-reporting">4. Automated Reporting<a class="headerlink" href="#4-automated-reporting" title="Anchor link to this section">&para;</a></h3>

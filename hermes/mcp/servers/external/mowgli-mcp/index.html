@@ -11234,17 +11234,17 @@
 <h3 id="1-get-api-key">1. Get API Key<a class="headerlink" href="#1-get-api-key" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># In Mowgli dashboard:</span>
 <span class="c1"># Settings → API → Generate Key</span>
-<span class="c1"># Copy the key - it's shown once</span>
+<span class="c1"># Copy the key - it&#39;s shown once</span>
 </code></pre></div>
 <h3 id="2-configure-mcp-client">2. Configure MCP Client<a class="headerlink" href="#2-configure-mcp-client" title="Anchor link to this section">&para;</a></h3>
 <p>Add to your <code>claude_desktop_config.json</code> or equivalent:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"mowgli"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sse"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://app.mowgli.ai/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer &lt;your-api-key&gt;"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;mowgli&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;sse&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://app.mowgli.ai/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer &lt;your-api-key&gt;&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11252,13 +11252,13 @@
 </code></pre></div>
 <p>For Claude Code or terminal-based clients:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"mowgli"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@mowgli/mcp-server"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"MOWGLI_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;your-api-key&gt;"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"MOWGLI_PROJECT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;your-project-id&gt;"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;mowgli&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@mowgli/mcp-server&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;MOWGLI_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;your-api-key&gt;&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;MOWGLI_PROJECT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;your-project-id&gt;&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11317,30 +11317,30 @@
 </table>
 <h2 id="operator-workflows">Operator Workflows<a class="headerlink" href="#operator-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="design-review-code">Design Review → Code<a class="headerlink" href="#design-review-code" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Review the onboarding flow in canvas and suggest improvements."
-→ get_canvas(flow: "onboarding")
-→ suggest_improvements(screen: "onboarding-step-2")
-Agent: "Apply the suggestion to add a progress indicator and update the CTA text."
-→ update_component(screen: "onboarding-step-2", component: "cta-button", text: "Continue to Step 3")
-→ add_component(screen: "onboarding-step-2", type: "progress-bar", position: "top")
-Agent: "Now generate the React code for this updated screen."
-→ export_for_code(screen: "onboarding-step-2", framework: "react")
+<div class="highlight"><pre><span></span><code>Agent: &quot;Review the onboarding flow in canvas and suggest improvements.&quot;
+→ get_canvas(flow: &quot;onboarding&quot;)
+→ suggest_improvements(screen: &quot;onboarding-step-2&quot;)
+Agent: &quot;Apply the suggestion to add a progress indicator and update the CTA text.&quot;
+→ update_component(screen: &quot;onboarding-step-2&quot;, component: &quot;cta-button&quot;, text: &quot;Continue to Step 3&quot;)
+→ add_component(screen: &quot;onboarding-step-2&quot;, type: &quot;progress-bar&quot;, position: &quot;top&quot;)
+Agent: &quot;Now generate the React code for this updated screen.&quot;
+→ export_for_code(screen: &quot;onboarding-step-2&quot;, framework: &quot;react&quot;)
 </code></pre></div>
 <h3 id="rapid-prototyping">Rapid Prototyping<a class="headerlink" href="#rapid-prototyping" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Create a settings page with profile, notifications, and billing sections."
-→ create_screen(name: "Settings", sections: ["profile", "notifications", "billing"])
-Agent: "Add email notification toggles: marketing, product updates, security alerts."
-→ add_component(screen: "Settings", section: "notifications", type: "toggle-group", items: ["marketing", "product-updates", "security-alerts"])
-Agent: "Use the project's design tokens for consistent styling."
+<div class="highlight"><pre><span></span><code>Agent: &quot;Create a settings page with profile, notifications, and billing sections.&quot;
+→ create_screen(name: &quot;Settings&quot;, sections: [&quot;profile&quot;, &quot;notifications&quot;, &quot;billing&quot;])
+Agent: &quot;Add email notification toggles: marketing, product updates, security alerts.&quot;
+→ add_component(screen: &quot;Settings&quot;, section: &quot;notifications&quot;, type: &quot;toggle-group&quot;, items: [&quot;marketing&quot;, &quot;product-updates&quot;, &quot;security-alerts&quot;])
+Agent: &quot;Use the project&#39;s design tokens for consistent styling.&quot;
 → get_design_tokens()
 → [Applies tokens to new components]
 </code></pre></div>
 <h3 id="design-drift-detection">Design Drift Detection<a class="headerlink" href="#design-drift-detection" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Compare the current checkout screen in code against the Mowgli canvas."
-→ get_canvas(flow: "checkout")
+<div class="highlight"><pre><span></span><code>Agent: &quot;Compare the current checkout screen in code against the Mowgli canvas.&quot;
+→ get_canvas(flow: &quot;checkout&quot;)
 → [Agent compares against codebase]
-Agent: "Found 3 discrepancies: button color, spacing in form, missing loading state. Update code to match canvas."
-→ export_for_code(screen: "checkout", format: "diff")
+Agent: &quot;Found 3 discrepancies: button color, spacing in form, missing loading state. Update code to match canvas.&quot;
+→ export_for_code(screen: &quot;checkout&quot;, format: &quot;diff&quot;)
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is the connector layer that lets AI assistants read the systems a business

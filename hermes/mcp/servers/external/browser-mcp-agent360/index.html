@@ -11340,8 +11340,8 @@ npm<span class="w"> </span>install
 <span class="w">    </span><span class="nt">args</span><span class="p">:</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/path/to/browser-mcp/server.js</span>
 <span class="w">    </span><span class="nt">env</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">CHROME_DEBUG_PORT</span><span class="p">:</span><span class="w"> </span><span class="s">"9222"</span>
-<span class="w">      </span><span class="nt">GMAIL_REFRESH_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="s">"${GMAIL_REFRESH_TOKEN}"</span><span class="w">  </span><span class="c1"># For OTP reading</span>
+<span class="w">      </span><span class="nt">CHROME_DEBUG_PORT</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;9222&quot;</span>
+<span class="w">      </span><span class="nt">GMAIL_REFRESH_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${GMAIL_REFRESH_TOKEN}&quot;</span><span class="w">  </span><span class="c1"># For OTP reading</span>
 </code></pre></div>
 <h3 id="step-4-gmail-otp-setup-optional">Step 4: Gmail OTP Setup (Optional)<a class="headerlink" href="#step-4-gmail-otp-setup-optional" title="Anchor link to this section">&para;</a></h3>
 <p>For automatic 2FA code reading:</p>
@@ -11349,7 +11349,7 @@ npm<span class="w"> </span>install
 <span class="c1"># Google Account → Security → App Passwords</span>
 
 <span class="c1"># Store securely</span>
-<span class="nb">echo</span><span class="w"> </span><span class="s2">"your-gmail-app-password"</span><span class="w"> </span>&gt;<span class="w"> </span>~/.hermes/secrets/gmail-browser-mcp.token
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;your-gmail-app-password&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>~/.hermes/secrets/gmail-browser-mcp.token
 chmod<span class="w"> </span><span class="m">600</span><span class="w"> </span>~/.hermes/profiles/&lt;your-profile&gt;/secrets/gmail-browser-mcp.token
 </code></pre></div>
 <h2 id="common-queries-via-hermes">Common Queries via Hermes<a class="headerlink" href="#common-queries-via-hermes" title="Anchor link to this section">&para;</a></h2>

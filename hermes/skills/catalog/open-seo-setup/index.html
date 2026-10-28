@@ -11141,8 +11141,8 @@
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>The skills.sh CLI installs the repository into an agent's skills directory. The project docs list three spellings: interactive, everything, and filtered by agent:</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>every-app/open-seo
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>every-app/open-seo<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>every-app/open-seo<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span><span class="w"> </span>--agent<span class="w"> </span>codex
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>every-app/open-seo<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>every-app/open-seo<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span><span class="w"> </span>--agent<span class="w"> </span>codex
 </code></pre></div>
 <p>The README's own single-skill example, used for the contributor workflow, filters by name:</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>every-app/open-seo<span class="w"> </span>--skill<span class="w"> </span>simple-issue-description
@@ -11289,8 +11289,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>open-seo/plugins/openseo/ski
 <span class="w">         </span>plugins/openseo/skills/seo-project-setup/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>.agents/skills/simple-issue-description/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>.agents/skills/setup-openseo/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/every-app/open-seo/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/every-app/open-seo/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>The two to read first are the audit and the project setup skill, because one decides what to crawl and the other decides what every later skill believes about the business:</p>
@@ -11299,7 +11299,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>open-seo/plugins/openseo/ski
 <li>https://raw.githubusercontent.com/every-app/open-seo/main/plugins/openseo/skills/seo-project-setup/SKILL.md</li>
 </ul>
 <p>After install, confirm what actually landed. The installer decides which directories it copies, and the index name and the frontmatter name should match:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">'^(seo-|keyword-|ai-|link-|local-|competit)'</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">&#39;^(seo-|keyword-|ai-|link-|local-|competit)&#39;</span>
 head<span class="w"> </span>-5<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/seo-audit/SKILL.md
 </code></pre></div>
 <p>For the MCP side, ask the agent to run <code>whoami</code> against the project. A successful call returns the account and credit state without spending anything, which separates a broken connection from an authorization problem before you start a crawl.</p>

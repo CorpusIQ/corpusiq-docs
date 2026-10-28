@@ -11359,13 +11359,13 @@ npm<span class="w"> </span>install
 <h3 id="step-2-configure-auth">Step 2: Configure Auth<a class="headerlink" href="#step-2-configure-auth" title="Anchor link to this section">&para;</a></h3>
 <p>XActions uses cookie-based authentication (extracted from browser session):</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Option A: Export cookies from your browser</span>
-<span class="c1"># (Chrome: use "EditThisCookie" extension, export as JSON)</span>
+<span class="c1"># (Chrome: use &quot;EditThisCookie&quot; extension, export as JSON)</span>
 <span class="c1"># Save to ~/.xactions/cookies.json</span>
 
 <span class="c1"># Option B: Use credentials directly (less reliable)</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_USERNAME</span><span class="o">=</span><span class="s2">"your-username"</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_PASSWORD</span><span class="o">=</span><span class="s2">"your-password"</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_EMAIL</span><span class="o">=</span><span class="s2">"your-email@example.com"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">X_USERNAME</span><span class="o">=</span><span class="s2">&quot;your-username&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">X_PASSWORD</span><span class="o">=</span><span class="s2">&quot;your-password&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">X_EMAIL</span><span class="o">=</span><span class="s2">&quot;your-email@example.com&quot;</span>
 </code></pre></div>
 <h3 id="step-3-register-with-hermes">Step 3: Register with Hermes<a class="headerlink" href="#step-3-register-with-hermes" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>xactions<span class="w"> </span>--<span class="w"> </span>node<span class="w"> </span>~/mcp-servers/xactions/mcp-server/dist/index.js

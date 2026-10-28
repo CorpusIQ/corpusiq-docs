@@ -11194,12 +11194,12 @@
 </code></pre></div>
 <h2 id="hermes-claude-desktop-configuration">Hermes / Claude Desktop Configuration<a class="headerlink" href="#hermes-claude-desktop-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"veritylayer"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@veritylayer/mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"VERITYLAYER_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-key"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;veritylayer&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@veritylayer/mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;VERITYLAYER_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11207,18 +11207,18 @@
 </code></pre></div>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-agent-output-sanitization">1. Agent Output Sanitization<a class="headerlink" href="#1-agent-output-sanitization" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Before sending this agent-generated email to the client, run redact_pii 
-and moderate_content on the draft. Only release if both pass."
+<p><div class="highlight"><pre><span></span><code>&quot;Before sending this agent-generated email to the client, run redact_pii 
+and moderate_content on the draft. Only release if both pass.&quot;
 </code></pre></div>
 Production safety gate for agent-generated customer communications.</p>
 <h3 id="2-prompt-injection-defense">2. Prompt Injection Defense<a class="headerlink" href="#2-prompt-injection-defense" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Run detect_injection on every user input before it reaches the agent's 
-context window. Block any flagged inputs."
+<p><div class="highlight"><pre><span></span><code>&quot;Run detect_injection on every user input before it reaches the agent&#39;s 
+context window. Block any flagged inputs.&quot;
 </code></pre></div>
 Security layer for customer-facing AI agent deployments.</p>
 <h3 id="3-compliance-audit-trail">3. Compliance Audit Trail<a class="headerlink" href="#3-compliance-audit-trail" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Show me all VerityLayer verdicts from the last 24 hours - which actions 
-passed, which were blocked, and why."
+<p><div class="highlight"><pre><span></span><code>&quot;Show me all VerityLayer verdicts from the last 24 hours - which actions 
+passed, which were blocked, and why.&quot;
 </code></pre></div>
 Compliance-ready audit trail for regulated industries.</p>
 <h2 id="operator-value">Operator Value<a class="headerlink" href="#operator-value" title="Anchor link to this section">&para;</a></h2>

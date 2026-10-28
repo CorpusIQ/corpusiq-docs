@@ -11267,7 +11267,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"skill-security|ci-cd-security|authz-security"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;skill-security|ci-cd-security|authz-security&quot;</span>
 </code></pre></div>
 <p>Read the skills before installing, especially the two that ship executable scanners. The four URLs below returned 200 with <code>curl -s -o /dev/null -w "%{http_code}"</code> when checked on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/superagent-ai/skills/main/README.md
@@ -11276,7 +11276,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/superagent-ai/skills/main/skills/repo-security-posture/SKILL.md
 </code></pre></div>
 <p>The directory listing behind the install index also returned 200 on the same date, and shows 14 skill directories:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/superagent-ai/skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">'"name"'</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/superagent-ai/skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;&quot;name&quot;&#39;</span>
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>skills.sh verdicts for sampled skills (verified Oct 26, 2026) - re-check the security pages on skills.sh before production use:</p>

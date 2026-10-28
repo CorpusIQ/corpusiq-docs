@@ -11141,11 +11141,11 @@
 <p>The Python library is the shortest path to the harness. The README documents one command and a factory call:</p>
 <div class="highlight"><pre><span></span><code>uv<span class="w"> </span>add<span class="w"> </span>deepagents
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">deepagents</span><span class="w"> </span><span class="kn">import</span> <span class="n">create_deep_agent</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">deepagents</span> <span class="kn">import</span> <span class="n">create_deep_agent</span>
 
 <span class="n">agent</span> <span class="o">=</span> <span class="n">create_deep_agent</span><span class="p">(</span>
-    <span class="n">model</span><span class="o">=</span><span class="s2">"openai:gpt-6-astra"</span><span class="p">,</span>
-    <span class="n">system_prompt</span><span class="o">=</span><span class="s2">"You are a research assistant."</span><span class="p">,</span>
+    <span class="n">model</span><span class="o">=</span><span class="s2">&quot;openai:gpt-6-astra&quot;</span><span class="p">,</span>
+    <span class="n">system_prompt</span><span class="o">=</span><span class="s2">&quot;You are a research assistant.&quot;</span><span class="p">,</span>
 <span class="p">)</span>
 </code></pre></div>
 <p>The terminal coding agent, Deep Agents Code, is a pre-built agent shipped from the same repository. The README gives the installer verbatim:</p>
@@ -11268,8 +11268,8 @@ dcode<span class="w"> </span>skills<span class="w"> </span>create<span class="w"
 <span class="w">         </span>libs/code/deepagents_code/built_in_skills/skill-creator/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>examples/text-to-sql-agent/skills/query-writing/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>examples/text-to-sql-agent/skills/schema-exploration/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/langchain-ai/deepagents/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/langchain-ai/deepagents/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>To see what the index resolves for a name before writing anything, run the per-skill form and stop at the prompt:</p>

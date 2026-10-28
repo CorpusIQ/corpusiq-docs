@@ -11181,7 +11181,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>firecrawl/anydoc
 </code></pre></div>
 <p>Set the API key in the environment:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">FIRECRAWL_API_KEY</span><span class="o">=</span><span class="s2">"fc-..."</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">FIRECRAWL_API_KEY</span><span class="o">=</span><span class="s2">&quot;fc-...&quot;</span>
 </code></pre></div>
 <p>A free tier is available (trial credits); paid tiers add higher rate limits, concurrency, and advanced extraction (JSON schema output, <code>interact</code>, <code>monitor</code>).</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -11347,8 +11347,8 @@ this one can be combined with a company's own business data in a single answer.<
 <li>Skills are agent-agnostic markdown - they work in Hermes sessions the same way as Claude Code</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify key works (free tier)</span>
-curl<span class="w"> </span>-s<span class="w"> </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer </span><span class="nv">$FIRECRAWL_API_KEY</span><span class="s2">"</span><span class="w"> </span>https://api.firecrawl.dev/v1/scrape<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{"url":"https://example.com","formats":["markdown"]}'</span><span class="w"> </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-c<span class="w"> </span><span class="m">300</span>
+curl<span class="w"> </span>-s<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$FIRECRAWL_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span>https://api.firecrawl.dev/v1/scrape<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;url&quot;:&quot;https://example.com&quot;,&quot;formats&quot;:[&quot;markdown&quot;]}&#39;</span><span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-c<span class="w"> </span><span class="m">300</span>
 </code></pre></div>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>

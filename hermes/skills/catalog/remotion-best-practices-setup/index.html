@@ -11270,7 +11270,7 @@ brew<span class="w"> </span>install<span class="w"> </span>ffmpeg
 </tbody>
 </table>
 <h3 id="audio-workflow">Audio Workflow<a class="headerlink" href="#audio-workflow" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">useAudioData</span><span class="p">,</span><span class="w"> </span><span class="nx">visualizeAudio</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">'@remotion/media-utils'</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">useAudioData</span><span class="p">,</span><span class="w"> </span><span class="nx">visualizeAudio</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;@remotion/media-utils&#39;</span><span class="p">;</span>
 
 <span class="c1">// ✅ CORRECT: Proper audio loading with error handling</span>
 <span class="kd">const</span><span class="w"> </span><span class="nx">audioData</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useAudioData</span><span class="p">(</span><span class="nx">audioSrc</span><span class="p">);</span>
@@ -11285,7 +11285,7 @@ brew<span class="w"> </span>install<span class="w"> </span>ffmpeg
 <span class="p">});</span>
 
 <span class="c1">// ❌ WRONG: Blocking audio load on main thread</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">audio</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Audio</span><span class="p">(</span><span class="nx">src</span><span class="p">);</span><span class="w"> </span><span class="c1">// Don't use browser Audio API</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">audio</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Audio</span><span class="p">(</span><span class="nx">src</span><span class="p">);</span><span class="w"> </span><span class="c1">// Don&#39;t use browser Audio API</span>
 </code></pre></div>
 <h3 id="caption-generation">Caption Generation<a class="headerlink" href="#caption-generation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1">// ✅ CORRECT: Word-level timing with animation</span>
@@ -11295,7 +11295,7 @@ brew<span class="w"> </span>install<span class="w"> </span>ffmpeg
 <span class="p">);</span>
 
 <span class="c1">// ❌ WRONG: Manual timing calculations (off-by-one prone)</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">time</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">frame</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nx">fps</span><span class="p">;</span><span class="w"> </span><span class="c1">// Doesn't account for SRT millisecond offsets</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">time</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">frame</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nx">fps</span><span class="p">;</span><span class="w"> </span><span class="c1">// Doesn&#39;t account for SRT millisecond offsets</span>
 </code></pre></div>
 <hr />
 <h2 id="common-pitfalls">Common Pitfalls<a class="headerlink" href="#common-pitfalls" title="Anchor link to this section">&para;</a></h2>
