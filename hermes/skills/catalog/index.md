@@ -823,6 +823,18 @@ Linked from this index so the pages are reachable by crawl.
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
 
+### New - October 27, 2026 Evening Sweep (9 publisher guides)
+
+- [Capgo Skills - Capacitor Mobile Release Suite Setup](/hermes/skills/catalog/capgo-skills-setup)
+- [Agent Skills - UI, Design and Shipping Suite Setup](/hermes/skills/catalog/mblode-agent-skills-setup)
+- [Ship Shit Dev Skills - 14 Command Routers Setup](/hermes/skills/catalog/shipshitdev-skills-setup)
+- [Sumsub Agent Skills - KYC and AML Platform Setup](/hermes/skills/catalog/sumsub-agent-skills-setup)
+- [Qdrant Skills - Vector Search, Retrieval and Memory Setup](/hermes/skills/catalog/qdrant-skills-setup)
+- [Customware Skills - Low-Code App Builder Suite Setup](/hermes/skills/catalog/customware-ai-skills-setup)
+- [Liquid Skills - Shopify Theme Standards and A11y Setup](/hermes/skills/catalog/liquid-skills-setup)
+- [Claude Code Next.js Skills - Next.js 16 and AI SDK Setup](/hermes/skills/catalog/claude-code-nextjs-skills-setup)
+- [Melodic Software Claude Code Plugins - Marketplace Setup](/hermes/skills/catalog/melodic-claude-code-plugins-setup)
+
 ### New - October 27, 2026 Morning Sweep (5 publisher guides)
 
 - [Anthropic Financial Services Skills - Deal Workflow Suite](/hermes/skills/catalog/anthropics-financial-services-setup)
