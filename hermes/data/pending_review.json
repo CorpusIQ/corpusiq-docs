@@ -83704,5 +83704,221 @@
     ],
     "discovered_at": "2026-10-28T10:01:39.315838+00:00",
     "status": "pending"
+  },
+  {
+    "name": "NavidSH47/Hermes-Personal_Assistant",
+    "url": "https://github.com/NavidSH47/Hermes-Personal_Assistant",
+    "description": "An Android app for assisting me in my daily tasks and entertainment routines; Written by Hermes Agent and mostly Gemini-3.8-flash-high ",
+    "stars": 0,
+    "forks": 0,
+    "language": "Dart",
+    "topics": [],
+    "updated_at": "2026-10-28T11:00:34Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-10-28T11:00:57.214726+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jtenniswood/athena",
+    "url": "https://github.com/jtenniswood/athena",
+    "description": "Athena is a web app and installable PWA for using Hermes Agent in a browser. It uses the Hermes Desktop as the engine, creating a web interface optimised for desktop and mobile.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "hermes-agent",
+      "mobile",
+      "tablet",
+      "web"
+    ],
+    "updated_at": "2026-10-28T10:58:15Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "aiunlocked1412/hermes-agent-pixel",
+      "synthalorian/hermes-wingman",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "zakahadi/llm-eval-cli",
+      "codegraphtheory/chainforge",
+      "PatterAI/Patter",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "moonlight-lupin/agent-skills",
+      "stablyai/orca",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-10-28T11:00:57.219401+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ni3do/artifact-publisher-skill",
+    "url": "https://github.com/ni3do/artifact-publisher-skill",
+    "description": "Public portable Agent Skill for Artifact Publisher (ClawHub/Hermes). Markdown + MCP wiring only.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-28T10:57:43Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T11:00:57.222211+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ruwwww/agent-skills",
+    "url": "https://github.com/ruwwww/agent-skills",
+    "description": "Universal agent skills and superpowers for coding agents (Claude Code, Codex, Hermes)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-28T10:57:36Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-10-28T11:00:57.225017+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zappotex/BonysAgents",
+    "url": "https://github.com/zappotex/BonysAgents",
+    "description": "Virtuelle Agent-PCs mit Brave, Telegram und Hermes Agent \u2013 f\u00fcr Linux, macOS und Windows",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-28T10:56:46Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T11:00:57.228359+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TRL-Official/ruflo",
+    "url": "https://github.com/TRL-Official/ruflo",
+    "description": "\ud83c\udf0a The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-10-27T12:10:58Z",
+    "category": "forks",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nexu-io/open-design",
+      "1Panel-dev/1Panel",
+      "jnMetaCode/superpowers-zh",
+      "awizemann/scarf",
+      "longyunfeigu/learn-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "BBridgeers/hermes-skills",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "ruvnet/ruflo",
+      "shiwenwen/hope-agent",
+      "MemTensor/memmy-agent",
+      "VasiHemanth/tokentelemetry"
+    ],
+    "discovered_at": "2026-10-28T11:01:20.973271+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AndiAtom/hermes-usage-history-rpc",
+    "url": "https://github.com/AndiAtom/hermes-usage-history-rpc",
+    "description": "Server-side usage.history/usage.totals RPC module for the Hermes Agent gateway (persistent token/cost analytics from state.db)",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-28T11:01:00Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T11:01:20.975319+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "khantayaba5555-lgtm/iex-irm-https-raw.githubusercontent.com-NousResearch-hermes-agent-main-scripts-install.ps1-",
+    "url": "https://github.com/khantayaba5555-lgtm/iex-irm-https-raw.githubusercontent.com-NousResearch-hermes-agent-main-scripts-install.ps1-",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-28T10:15:27Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-28T11:02:55.066246+00:00",
+    "status": "pending"
   }
 ]
