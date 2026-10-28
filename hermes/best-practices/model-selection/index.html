@@ -111,8 +111,8 @@
     "description": "Hermes Agent model selection best practices. Task-to-model mapping, cost optimization, local vs cloud tradeoffs, fallback chains, and decision tree.",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/model-selection",
     
-    "datePublished": "2026-10-27",
-    "dateModified": "2026-10-27",
+    "datePublished": "2026-10-28",
+    "dateModified": "2026-10-28",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-27">
+  <meta name="last-updated" content="2026-10-28">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11428,7 +11428,7 @@
 <h1 id="model-selection-guide-choose-the-right-ai-model-every-time">Model Selection Guide  --  Choose the Right AI Model Every Time<a class="headerlink" href="#model-selection-guide-choose-the-right-ai-model-every-time" title="Anchor link to this section">&para;</a></h1>
 <p>Choosing the right model for each task is one of the highest-leverage decisions you make with Hermes Agent. A well-chosen model saves latency, cost, and context  --  missteps waste all three. This model selection guide covers task-to-model mapping, cost optimization, local vs cloud tradeoffs, and fallback chain patterns.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Hermes Agent runs models from local Ollama, OpenRouter, Nous Portal, and direct provider APIs. Nous Portal serves 300+ models under a single subscription, and OpenRouter's catalogue currently lists 400+. Following <a href="https://www.corpusiq.io/docs/hermes/best-practices">best practices</a> for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.</p>
+<p>Hermes Agent runs models from local Ollama, OpenRouter, Nous Portal, and direct provider APIs. Nous Portal serves 300+ models under a single subscription, and OpenRouter's catalogue lists more than 450 model IDs (464 listed on 2026-10-28). Following <a href="https://www.corpusiq.io/docs/hermes/best-practices">best practices</a> for model selection means using the cheapest model that reliably handles each task, reserving frontier models for complex reasoning.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-decision-framework">The Decision Framework<a class="headerlink" href="#the-decision-framework" title="Anchor link to this section">&para;</a></h3>
 <p>Ask three questions before every model selection:</p>
@@ -11475,7 +11475,7 @@
 <p><strong>Task batching.</strong> Process similar records together  --  many providers offer 50% discounts on batch endpoints.</p>
 <p><strong>Model fallback chains.</strong> Try cheapest model first → if confidence low, escalate to mid-tier → if still uncertain, invoke frontier. This "progressive enhancement" gives frontier quality on hard cases while keeping average cost low.</p>
 <h2 id="local-vs-cloud-the-real-tradeoffs">Local vs Cloud: The Real Tradeoffs<a class="headerlink" href="#local-vs-cloud-the-real-tradeoffs" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Local models (Ollama) win when:</strong> data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC setup</a> or <a href="https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone">Mac Mini setup</a>.</p>
+<p><strong>Local models (Ollama) win when:</strong> data privacy is non-negotiable, latency must stay sub-second, high volume makes fixed hardware cost cheaper than per-token pricing. See <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC setup</a> or <a href="https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone">Mac Mini setup</a>.</p>
 <p><strong>Cloud models (OpenRouter/Anthropic/OpenAI) win when:</strong> you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud VPS setup</a>.</p>
 <p><strong>Hybrid for most teams:</strong> Classify/extract with local models (free, private); reason/generate with cloud models. Configure Hermes Agent with <a href="https://www.corpusiq.io/docs/hermes/setup">Ollama as primary and OpenRouter as fallback</a>.</p>
 <h2 id="the-fallback-chain-pattern">The Fallback Chain Pattern<a class="headerlink" href="#the-fallback-chain-pattern" title="Anchor link to this section">&para;</a></h2>
@@ -11509,7 +11509,7 @@ Data sensitive/regulated? → Local or approved cloud with BAA
 <h3 id="how-do-i-reduce-my-api-costs-with-hermes-agent">How do I reduce my API costs with Hermes Agent?<a class="headerlink" href="#how-do-i-reduce-my-api-costs-with-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Implement caching for repeated queries, use prompt compression before expensive calls, batch non-urgent tasks, and create fallback chains that try cheaper models first. Track cost per successful task, not per token.</p>
 <h3 id="whats-the-best-model-for-code-generation">What's the best model for code generation?<a class="headerlink" href="#whats-the-best-model-for-code-generation" title="Anchor link to this section">&para;</a></h3>
-<p>Frontier models carry the hard work: Claude Sonnet 5.5 or Opus 5.5, GPT-5.6, and DeepSeek V4.1 are all live in the OpenRouter catalogue as of October 2026. For boilerplate or simple functions, a smaller coder model such as Qwen3-Coder 30B handles it at zero marginal cost when served locally. Model names rotate every few weeks, so confirm the exact ID in the <code>/model</code> picker instead of trusting a table.</p>
+<p>Frontier models carry the hard work: Claude Sonnet 5.5 (<code>anthropic/claude-sonnet-5.5</code>) or Opus 5.5 (<code>anthropic/claude-opus-5.5</code>), the GPT-5.6 variants (<code>openai/gpt-5.6-luna</code>, <code>-terra</code>, <code>-sol</code>), and DeepSeek V4.1 Flash (<code>deepseek/deepseek-v4.1-flash</code>) were all listed in the OpenRouter catalogue when this page was verified on 2026-10-28. For boilerplate or simple functions, a smaller coder model such as Qwen3-Coder 30B (<code>qwen/qwen3-coder-30b-a3b-instruct</code>) handles it at zero marginal cost when served locally. Model names rotate every few weeks, so confirm the exact ID in the <code>/model</code> picker instead of trusting a table.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a>  --  All guides</li>

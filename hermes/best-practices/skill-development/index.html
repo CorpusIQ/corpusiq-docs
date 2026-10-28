@@ -111,8 +111,8 @@
     "description": "Complete Hermes Agent skill development guide. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, lifecycle",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/skill-development",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-28",
+    "dateModified": "2026-10-28",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-28">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11441,12 +11441,15 @@
 <span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">One-sentence purpose</span>
 <span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.0.0</span>
 <span class="nt">author</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-handle</span>
-<span class="nt">tags</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">tag1</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">tag2</span><span class="p p-Indicator">]</span>
-<span class="nt">required_connectors</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">connector-a</span><span class="p p-Indicator">]</span>
-<span class="nt">quality_tier</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">beta</span>
+<span class="nt">license</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MIT</span><span class="w">                      </span><span class="c1"># optional</span>
+<span class="nt">platforms</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">macos</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">linux</span><span class="p p-Indicator">]</span><span class="w">         </span><span class="c1"># optional - restrict to specific OS platforms</span>
+<span class="nt">metadata</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">hermes</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">tags</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">tag1</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">tag2</span><span class="p p-Indicator">]</span>
+<span class="w">    </span><span class="nt">category</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">best-practices</span>
 <span class="nn">---</span>
 </code></pre></div>
-<p>Followed by: What This Skill Does, When to Use, Required Setup, Step-by-Step Workflow (with error handling per step), Example Output, Troubleshooting, Changelog.</p>
+<p>Hermes skills follow the <a href="https://agentskills.io/specification">agentskills.io specification</a> and load by progressive disclosure: only the frontmatter name and description sit in every prompt, and the body plus any <code>references/</code>, <code>templates/</code>, or <code>scripts/</code> files load on demand. Prefix the body with the standard sections: <code>## When to Use</code>, <code>## Procedure</code>, <code>## Pitfalls</code>, <code>## Verification</code>.</p>
 <h3 id="trigger-patterns">Trigger Patterns<a class="headerlink" href="#trigger-patterns" title="Anchor link to this section">&para;</a></h3>
 <p>Write 5-10 trigger patterns covering different ways users might ask. <strong>Good:</strong> "Check our marketing performance this week"  --  specific enough to avoid false positives but broad enough to catch real intent. <strong>Bad:</strong> "marketing" (too broad) or overly specific variations.</p>
 <h3 id="verification-between-steps">Verification Between Steps<a class="headerlink" href="#verification-between-steps" title="Anchor link to this section">&para;</a></h3>
