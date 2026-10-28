@@ -113,6 +113,17 @@
 - [Windsor.ai Alternative: CorpusIQ for Business AI Data](https://www.corpusiq.io/docs/connectors/windsor-ai-alternative): Looking for a Windsor.ai alternative? See how CorpusIQ connects business data to Claude, ChatGPT, and Perplexity with cited answers from live systems.
 - [YouTube](https://www.corpusiq.io/docs/connectors/youtube): Bring your YouTube channel analytics into conversation alongside your other marketing data. Ask which videos drove traffic, where viewers are coming f
 
+## Troubleshooting
+- [Troubleshooting](https://www.corpusiq.io/docs/troubleshooting): Eight common CorpusIQ problems and fixes: connection errors, stale numbers, missing data, auth failures, expired trials, and assistants that miss your
+- [ChatGPT can't see CorpusIQ](https://www.corpusiq.io/docs/troubleshooting/chatgpt-cant-see-corpusiq): You set up a custom GPT or the ChatGPT MCP connector but ChatGPT cannot see your CorpusIQ data. Step-by-step fixes for the most common integration fai
+- [Claude can't see CorpusIQ](https://www.corpusiq.io/docs/troubleshooting/claude-cant-see-corpusiq): You added CorpusIQ to Claude Desktop but Claude says it cannot see your data. Here is the fix path: connector status, MCP config, permissions, and the
+- [Connector authentication failed](https://www.corpusiq.io/docs/troubleshooting/connector-auth-failed): You clicked Connect, the OAuth flow started, and then it failed. Here is how to diagnose and fix connector authentication errors in CorpusIQ step by s
+- [Connector is green but answers come back empty](https://www.corpusiq.io/docs/troubleshooting/connector-shows-no-data): Your connector shows connected but returns no data. This guide walks through sync state, scopes, permission levels, and the checks that find the real 
+- [Error codes & troubleshooting reference](https://www.corpusiq.io/docs/troubleshooting/error-codes-reference): When something goes wrong, CorpusIQ or a vendor returns an error code or message. This page maps those errors to causes and fixes..
+- [MCP Connection Errors - Troubleshooting Guide](https://www.corpusiq.io/docs/troubleshooting/mcp-connection-errors): The most common issues when connecting CorpusIQ to Claude Desktop, ChatGPT, Cursor, or any MCP client. Start here before escalating to support..
+- [The number is there, but it is older than you expected](https://www.corpusiq.io/docs/troubleshooting/numbers-look-stale): The answer is not empty, it is old. Why a connected source can return numbers that lag behind what the vendor shows, and how to read the delay correct
+- [Trial expired (403 TRIAL_EXPIRED)](https://www.corpusiq.io/docs/troubleshooting/trial-expired): CorpusIQ returns 403 TRIAL_EXPIRED. What the error means, where it appears, how team coverage works, and how to restore access without losing data.
+
 ## Hermes Hub
 - [🫡 Hermes Community Hub](https://www.corpusiq.io/docs/hermes): The largest structured Hermes Agent knowledge base: tools, skills, MCP servers, agents, blueprints, and case studies. Updated daily.
 - [Hermes Ecosystem Directory](https://www.corpusiq.io/docs/hermes/ecosystem): Comprehensive directory of the Hermes Agent ecosystem - 436+ repos, tools, skills, and integrations

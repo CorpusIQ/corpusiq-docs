@@ -11328,11 +11328,18 @@
 <h2 id="layer-1-honcho-peer-memory">Layer 1: Honcho  --  Peer Memory<a class="headerlink" href="#layer-1-honcho-peer-memory" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it solves:</strong> Persistent identity. Who the user is, what platforms are banned, what decisions were made, what rules apply.</p>
 <p><strong>Setup (2 minutes):</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Add Honcho MCP to Hermes</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer YOUR_HONCHO_API_KEY"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">"X-Honcho-Workspace-ID: your-workspace"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">"X-Honcho-User-Name: your-agent-name"</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Register the hosted Honcho MCP endpoint (Bearer auth via headers)</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--url<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span>--auth<span class="w"> </span>header
+</code></pre></div>
+<p>Then supply the three headers in the server block of <code>config.yaml</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">honcho</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://mcp.honcho.dev</span>
+<span class="w">    </span><span class="nt">headers</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearer YOUR_HONCHO_KEY</span>
+<span class="w">      </span><span class="nt">X-Honcho-Workspace-ID</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-workspace</span>
+<span class="w">      </span><span class="nt">X-Honcho-User-Name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-agent-name</span>
+<span class="w">    </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
 <p><strong>What it stores:</strong></p>
 <div class="highlight"><pre><span></span><code>Peer: user
@@ -11348,10 +11355,10 @@ Peer: corpusiq-agent
 └── Improvement log: Skills patched, patterns discovered
 </code></pre></div>
 <p><strong>Key Honcho tools in Hermes:</strong></p>
-<div class="highlight"><pre><span></span><code>mcp_honcho_get_peer_context     --  Load everything about a peer
-mcp_honcho_chat                 --  Ask questions about peer knowledge
-mcp_honcho_search               --  Semantic search across conversations
-mcp_honcho_schedule_dream       --  Queue memory consolidation
+<div class="highlight"><pre><span></span><code>mcp__honcho__get_peer_context     --  Load everything about a peer
+mcp__honcho__chat                 --  Ask questions about peer knowledge
+mcp__honcho__search               --  Semantic search across conversations
+mcp__honcho__schedule_dream       --  Queue memory consolidation
 </code></pre></div>
 <p><strong>Pattern: Pre-flight gate</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Before EVERY external action, check Honcho</span>
@@ -11364,14 +11371,14 @@ mcp_honcho_schedule_dream       --  Queue memory consolidation
 <h2 id="layer-2-gbrain-organizational-knowledge">Layer 2: GBrain  --  Organizational Knowledge<a class="headerlink" href="#layer-2-gbrain-organizational-knowledge" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it solves:</strong> Where are the files, what code does what, what was built when. Organizational knowledge that persists.</p>
 <p><strong>Setup (10 minutes):</strong></p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/garrytan/gbrain
-<span class="nb">cd</span><span class="w"> </span>gbrain
-./setup.sh
+<div class="highlight"><pre><span></span><code><span class="c1"># Requires Bun 1.4.4+. GBrain is not on npm - install from the repo:</span>
+bun<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>github:garrytan/gbrain
+gbrain<span class="w"> </span>init<span class="w"> </span>--pglite<span class="w"> </span>--no-embedding
 <span class="c1"># GBrain indexes your project files into pglite with 768d embeddings</span>
 </code></pre></div>
 <p><strong>What it stores:</strong></p>
 <div class="highlight"><pre><span></span><code>Organization: CorpusIQ
-├── Files: 729 indexed (code, docs, configs, scripts)
+├── Pages: 6,000+ indexed (code, docs, configs, scripts)
 ├── Embeddings: nomic-embed-text, 768-dimension
 ├── Categories: infrastructure, video, governance, email, social
 └── Relationships: "heygen-video-generator.py" → depends on → "heygen.json"
@@ -11394,11 +11401,14 @@ mcp_honcho_schedule_dream       --  Queue memory consolidation
 <h2 id="layer-3-memcore-cloud-cross-session-recall">Layer 3: memcore-cloud  --  Cross-Session Recall<a class="headerlink" href="#layer-3-memcore-cloud-cross-session-recall" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it solves:</strong> "What happened last session?" Full conversation recall with raw source tracking.</p>
 <p><strong>Setup (5 minutes):</strong></p>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>memcore-cloud
-memcore-cloud<span class="w"> </span>init
+<div class="highlight"><pre><span></span><code><span class="c1"># memcore ships as a Hermes plugin (read-only recall of raw sources via a</span>
+<span class="c1"># pre-turn hook). It is not distributed on PyPI - enable it as a plugin:</span>
+hermes<span class="w"> </span>plugins<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>memcore_yifanchen
 
-<span class="c1"># It runs as a background service</span>
-<span class="c1"># Injects context into every Hermes turn automatically</span>
+<span class="c1"># The cross-session layer used in this deployment is Sibyl, which registers</span>
+<span class="c1"># as the memory provider and stores everything in local SQLite (FTS5):</span>
+pip<span class="w"> </span>install<span class="w"> </span>sibyl-memory-hermes
+<span class="c1"># Store: ~/.hermes/profiles/&lt;profile&gt;/sibyl/profiles/&lt;profile&gt;/memory.db</span>
 </code></pre></div>
 <p><strong>Architecture:</strong></p>
 <div class="highlight"><pre><span></span><code>Session N-1                    Session N
@@ -11459,10 +11469,13 @@ graphrag<span class="w"> </span>index<span class="w"> </span>--root<span class="
 <h2 id="layer-5-session-db-hermes-built-in">Layer 5: Session DB  --  Hermes Built-In<a class="headerlink" href="#layer-5-session-db-hermes-built-in" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it is:</strong> SQLite database at <code>~/.hermes/profiles/&lt;profile&gt;/state.db</code> with FTS5 full-text search. Every conversation, every tool call, every result.</p>
 <p><strong>How to use:</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Search past sessions from CLI</span>
-hermes<span class="w"> </span>session<span class="w"> </span>search<span class="w"> </span><span class="s2">"heyGen video failed"</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># List recent sessions from the CLI</span>
+hermes<span class="w"> </span>sessions<span class="w"> </span>list
 
-<span class="c1"># From within a session, use session_search tool</span>
+<span class="c1"># Browse and search session history interactively</span>
+hermes<span class="w"> </span>sessions<span class="w"> </span>browse
+
+<span class="c1"># From within a session, use the session_search tool</span>
 session_search<span class="o">(</span><span class="nv">query</span><span class="o">=</span><span class="s2">"email campaign June"</span><span class="o">)</span>
 </code></pre></div>
 <p><strong>What's stored:</strong>
@@ -11546,7 +11559,7 @@ SESSION END (or every 30 min)
 <p><strong>The cost of NOT running all three:</strong> Your agent forgets who it's talking to, can't find its own files, and repeats the same research every session.</p>
 <hr />
 <h2 id="production-numbers">Production Numbers<a class="headerlink" href="#production-numbers" title="Anchor link to this section">&para;</a></h2>
-<p>From our deployment (as of June 16, 2026):</p>
+<p>From our deployment (verified October 27, 2026):</p>
 <table>
 <thead>
 <tr>
@@ -11563,7 +11576,7 @@ SESSION END (or every 30 min)
 </tr>
 <tr>
 <td>GBrain</td>
-<td>729 indexed files, 768d vectors</td>
+<td>6,133 indexed pages / 14,293 chunks, 768d vectors</td>
 <td>&lt;200ms search</td>
 </tr>
 <tr>
