@@ -20022,5 +20022,82 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-28T05:03:26.599456+00:00"
+  },
+  {
+    "repo": "ArthurReboulSalze/ChipLoom",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141036+00:00"
+  },
+  {
+    "repo": "sarthakguptadev/appubot",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141048+00:00"
+  },
+  {
+    "repo": "0xRayAI/xray",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141051+00:00"
+  },
+  {
+    "repo": "arthur-fontaine/personal-server-nixconfig",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141054+00:00"
+  },
+  {
+    "repo": "xiao-hans/pi-hermes-memory-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141056+00:00"
+  },
+  {
+    "repo": "openma-ai/backchat",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141058+00:00"
+  },
+  {
+    "repo": "alvenstudio/seller-ai-plugin",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141060+00:00"
+  },
+  {
+    "repo": "lynnarize/liner-code",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141062+00:00"
+  },
+  {
+    "repo": "zbdulee/memvane",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141064+00:00"
+  },
+  {
+    "repo": "hackhead95/ruflo",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141065+00:00"
+  },
+  {
+    "repo": "hackhead95/claude-mem",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-28T10:03:46.141067+00:00"
   }
 ]
