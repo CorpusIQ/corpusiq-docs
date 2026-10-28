@@ -76,6 +76,7 @@ INDEX_SECTIONS = [
         "docs/corpusiq-vs-viktor.md",
     ]),
     ("Developer Guides", [
+        "docs/mcp-apps.md",
         "how-it-works/mcp-architecture.md",
         "how-it-works/mcp-auth-failure-classes.md",
         "how-it-works/connectors-explained.md",
