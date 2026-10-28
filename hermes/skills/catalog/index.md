@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-10-28"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -822,6 +822,18 @@ Linked from this index so the pages are reachable by crawl.
 - [Indexion Skills - Source Code Exploration for Agents Setup](/hermes/skills/catalog/indexion-skills-setup)
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
+
+### New - October 28, 2026 Morning Sweep (9 publisher guides)
+
+- [Developer Kit - Java and TypeScript Skill Suite Setup](/hermes/skills/catalog/developer-kit-setup)
+- [BMad Method Skills - Agile AI Development Suite Setup](/hermes/skills/catalog/bmad-method-setup)
+- [PStack Skills - Engineering Discipline Suite Setup](/hermes/skills/catalog/pstack-setup)
+- [PixiJS Skills - 2D WebGL and WebGPU Rendering Suite Setup](/hermes/skills/catalog/pixijs-skills-setup)
+- [MSW AI Coding Plugins - MapleStory Worlds Suite Setup](/hermes/skills/catalog/msw-ai-coding-plugins-setup)
+- [ClickHouse Agent Skills - Official Analytics Suite Setup](/hermes/skills/catalog/clickhouse-agent-skills-setup)
+- [PriceWin Skills - Hotel Deal and Flight Search Setup](/hermes/skills/catalog/pricewin-skills-hub-setup)
+- [365 Skills - Diagram, Research and Media Suite Setup](/hermes/skills/catalog/agents365-skills-setup)
+- [OpenSEO - Self-Hosted SEO Platform, MCP and Skills Setup](/hermes/skills/catalog/open-seo-setup)
 
 ### New - October 27, 2026 Evening Sweep (9 publisher guides)
 
