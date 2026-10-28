@@ -26,7 +26,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 437+ re
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 23 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 35 | [↓](#memory-knowledge) |
+| [Memory & Knowledge](#memory-knowledge) | 34 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 47 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 104 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
@@ -4459,7 +4459,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
 | UI/Dashboard projects | 23 |
-| Memory systems | 35 |
+| Memory systems | 34 |
 | MCP integrations | 47 |
 | Skill collections & plugins | 104 |
 | Tools & utilities | 62 |
@@ -4531,7 +4531,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 436 repos · 18 categories · 1M+ community stars · 104 skill collections · 47 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 437 repos · 18 categories · 1M+ community stars · 104 skill collections · 47 MCP integrations · 27 domain applications
 
 ---
 
