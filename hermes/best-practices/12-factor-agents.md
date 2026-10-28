@@ -162,7 +162,7 @@ Start with the adoption checklist above: version your prompts, define tool schem
 
 Start with factors 1 through 4. They convert the "prompt plus tools plus loop" prototype into software. The rest follows.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  437+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  445+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

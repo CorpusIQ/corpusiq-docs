@@ -86,6 +86,28 @@ def census(index_text):
 
 
 SERVED_ROOT = "hermes"
+
+
+def duplicate_entries(index_text):
+    """Entry names that appear more than once anywhere in the directory.
+
+    Sweeps append what they found; none of them checked whether the repo was
+    already listed. By 2026-10-28 six repos were listed twice (three within one
+    category, three in two categories). That inflated the heading count, and the
+    visible double listing is what pushed a hand-bump of the Quick Navigation
+    numbers to 33/63/5 against a 31/62/4 census: two answers to one question.
+    Counting cannot hide a duplicate -- the census is a distinct set -- so this
+    reports them instead. Fix with scripts/dedupe_ecosystem_entries.py.
+    """
+    seen = {}
+    for line in index_text.split("\n"):
+        m = re.match(r"^###\s+(.+?)\s*$", line)
+        if not m:
+            continue
+        name = m.group(1)
+        seen[name] = seen.get(name, 0) + 1
+    return {name: n for name, n in seen.items() if n > 1}
+
 # "data" was skipped wholesale, but hermes/data holds served pages too
 # (inclusion_criteria.md returns 200 and carried the same 406+ footer stamp on
 # 2026-10-28). The walk only opens .md files, so big JSON costs nothing to skip.
@@ -269,6 +291,12 @@ def main():
     cat_count = len(counts)
     changes = []
 
+    dupes = duplicate_entries(index_text)
+    if dupes:
+        for name, n in dupes.items():
+            print(f"DUPLICATE ENTRY: {name} listed {n}x")
+        print("  fix: python3 scripts/dedupe_ecosystem_entries.py  (first occurrence wins)")
+
     def fix(path, pattern, replacement_count, label, flags=0, count_guard=None):
         """Replace group-1 numbers with replacement_count; record whether changed."""
         p = os.path.join(root, path)
@@ -386,7 +414,7 @@ def main():
 
     if not changes:
         print("OK: every count stamp already matches the directory")
-        return 0
+        return 1 if (check and dupes) else 0
     for path, label, n in changes:
         print(f"  {'WOULD FIX' if check else 'fixed'}: {path}: {label} ({n})")
     return 1 if check else 0
