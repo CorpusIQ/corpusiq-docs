@@ -86,7 +86,10 @@ def census(index_text):
 
 
 SERVED_ROOT = "hermes"
-SERVED_SKIP_DIRS = {"data", "node_modules", "site", ".git", "__pycache__", "assets"}
+# "data" was skipped wholesale, but hermes/data holds served pages too
+# (inclusion_criteria.md returns 200 and carried the same 406+ footer stamp on
+# 2026-10-28). The walk only opens .md files, so big JSON costs nothing to skip.
+SERVED_SKIP_DIRS = {"node_modules", "site", ".git", "__pycache__", "assets"}
 SKIP_FILES = {"PROGRESS.md", "CONTRIBUTING.md"}
 
 # Stamps that describe the ecosystem directory's size. Kept as whole-word
@@ -102,6 +105,12 @@ REPO_STAMPS = [
 # the ecosystem directory.
 CATEGORY_STAMP = re.compile(r"(?<![\d,])(\d{1,2}) categories\b")
 ECOSYSTEM_LINE = re.compile(r"[0-9]+\+ repos|[Ee]cosystem [Dd]irectory|Hermes [Ee]cosystem", re.I)
+# The shared page footer ("Curated in the Hermes Community Hub -- N+ tools,
+# skills, and agents") describes the same collection as the directory, but it
+# carries no "repos" noun, so REPO_STAMPS never matched it. On 2026-10-28 that
+# left 30 live pages stamped 406+ and one at 436+ against a 437-repo directory.
+# Derive it from the same census; the "+" keeps it a true lower bound.
+HUB_STAMP = re.compile(r"(?<![\d,])(\d{1,4})\+ tools, skills, and agents\b")
 
 
 def walk_served_stamps(root, total, cat_count, check):
@@ -131,6 +140,11 @@ def walk_served_stamps(root, total, cat_count, check):
 
                 new, n = pat.subn(sub, new)
                 hits += n
+
+            # Shared footer stamp (no "repos" noun, same collection).
+            new, n_hub = HUB_STAMP.subn(
+                lambda m, target=total: m.group(0).replace(m.group(1), str(target), 1), new)
+            hits += n_hub
 
             # Line-scoped category stamps.
             out_lines = []
