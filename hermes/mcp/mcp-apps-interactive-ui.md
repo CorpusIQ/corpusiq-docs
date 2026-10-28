@@ -64,8 +64,8 @@ server tools, update the model context, and send follow-up messages.
 ## Client support
 
 - Claude: available on web and desktop since launch
-- ChatGPT: uses OpenAI's own Apps SDK surface rather than the MCP Apps
-  extension, so the same server ships both paths
+- ChatGPT: not listed for the extension. ChatGPT renders widgets through
+  OpenAI's own Apps SDK, so the same server ships both paths
 - Visual Studio Code: supported
 - Goose: supported
 

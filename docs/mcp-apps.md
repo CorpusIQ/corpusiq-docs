@@ -80,7 +80,7 @@ An app view runs code written by the server author inside a client the user trus
 
 ## Which clients support it
 
-Support is an extension-level property, and it moves. At the time of writing the clients documented as supporting MCP Apps include Claude, Claude Desktop, VS Code GitHub Copilot, Microsoft 365 Copilot, Goose, Postman, MCPJam, and Archestra.AI. ChatGPT is not on that list, because ChatGPT ships its own app and widget platform rather than the extension.
+Support is an extension-level property, and it moves. At the time of writing, the clients documented as supporting MCP Apps are Claude, Claude Desktop, VS Code GitHub Copilot, Microsoft 365 Copilot, Goose, Postman, MCPJam, and Archestra.AI. ChatGPT does not appear in that list. ChatGPT renders app widgets through OpenAI's own Apps SDK instead, which is why a server that wants to look the same everywhere ships both paths.
 
 Two rules follow from that:
 
