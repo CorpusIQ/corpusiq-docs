@@ -11544,7 +11544,7 @@ nvidia-smi
 </code></pre></div>
 <h3 id="step-2-install-ollama-with-gpu-acceleration">Step 2: Install Ollama with GPU Acceleration<a class="headerlink" href="#step-2-install-ollama-with-gpu-acceleration" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://ollama.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
-ollama<span class="w"> </span>run<span class="w"> </span>llama3.2<span class="w"> </span><span class="s2">&quot;say hello&quot;</span>
+ollama<span class="w"> </span>run<span class="w"> </span>llama3.2<span class="w"> </span><span class="s2">"say hello"</span>
 <span class="c1"># Check: nvidia-smi should show ollama using GPU memory</span>
 </code></pre></div>
 <h3 id="step-3-pull-models-that-fit-your-vram">Step 3: Pull Models That Fit Your VRAM<a class="headerlink" href="#step-3-pull-models-that-fit-your-vram" title="Anchor link to this section">&para;</a></h3>
@@ -11581,7 +11581,7 @@ sudo<span class="w"> </span>nvidia-smi<span class="w"> </span>-pm<span class="w"
 <span class="nb">export</span><span class="w"> </span><span class="nv">OLLAMA_KEEP_ALIVE</span><span class="o">=</span>10m
 </code></pre></div>
 <h3 id="step-6-persistent-operation">Step 6: Persistent Operation<a class="headerlink" href="#step-6-persistent-operation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/systemd/system/hermes-gateway.service<span class="w"> </span><span class="s">&lt;&lt; &#39;EOF&#39;</span>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/systemd/system/hermes-gateway.service<span class="w"> </span><span class="s">&lt;&lt; 'EOF'</span>
 <span class="s">[Unit]</span>
 <span class="s">Description=Hermes Agent Gateway</span>
 <span class="s">After=network.target</span>

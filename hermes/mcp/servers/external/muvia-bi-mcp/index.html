@@ -11151,7 +11151,7 @@
 <p><strong>Most BI assistants read a dashboard and stop. Muvia exposes the whole data operation to an agent: query the lake, read lineage, check a query, open an alarm, propose a dashboard widget, and every write lands as a proposal a person approves instead of a change that already happened.</strong></p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP, JSON-RPC 2.0 over POST, SSE response)
 Endpoint: https://api.muviabi.com/mcp/v1
-Auth: OAuth 2.1 (PKCE S256, dynamic client registration) for a person&#39;s assistant, or an mvk_ API key as Bearer
+Auth: OAuth 2.1 (PKCE S256, dynamic client registration) for a person's assistant, or an mvk_ API key as Bearer
 Live check: unauthenticated POST initialize returned HTTP 401 with www-authenticate pointing at /.well-known/oauth-protected-resource/mcp/v1/ (HTTP 200, resource https://api.muviabi.com/mcp/v1/)
 Tools: 231 from the vendor reference (113 read, 118 write: 96 proposal, 12 confirmed in Muvia, 10 not for API keys)
 Protocol version: 2025-06-18
@@ -11250,10 +11250,10 @@ Built by: Superduck S.r.l. (muviabi.com)
 <p>The tool inventory and the write modes above come from the vendor's published reference at <code>developers.muviabi.com/mcp-tools</code>, which states the same 231 tool count the submission quoted. <strong>No tool call was made:</strong> every tool needs an OAuth session or an <code>mvk_</code> key, and this sweep does not create accounts. That is the gap in this entry, stated rather than papered over.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;muvia&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.muviabi.com/mcp/v1&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"muvia"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.muviabi.com/mcp/v1"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

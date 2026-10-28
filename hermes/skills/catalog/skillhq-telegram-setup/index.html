@@ -11211,32 +11211,32 @@ telegram<span class="w"> </span><span class="nb">logout</span><span class="w">  
 <div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>inbox<span class="w">                   </span><span class="c1"># Unread messages summary</span>
 telegram<span class="w"> </span>chats<span class="w">                   </span><span class="c1"># List all chats</span>
 telegram<span class="w"> </span>chats<span class="w"> </span>--type<span class="w"> </span>group<span class="w">      </span><span class="c1"># Filter: user, group, supergroup, channel</span>
-telegram<span class="w"> </span><span class="nb">read</span><span class="w"> </span><span class="s2">&quot;ChatName&quot;</span><span class="w"> </span>-n<span class="w"> </span><span class="m">50</span><span class="w">   </span><span class="c1"># Read last 50 messages</span>
-telegram<span class="w"> </span><span class="nb">read</span><span class="w"> </span><span class="s2">&quot;ChatName&quot;</span><span class="w"> </span>--since<span class="w"> </span><span class="s2">&quot;1h&quot;</span><span class="w">  </span><span class="c1"># Messages from last hour</span>
+telegram<span class="w"> </span><span class="nb">read</span><span class="w"> </span><span class="s2">"ChatName"</span><span class="w"> </span>-n<span class="w"> </span><span class="m">50</span><span class="w">   </span><span class="c1"># Read last 50 messages</span>
+telegram<span class="w"> </span><span class="nb">read</span><span class="w"> </span><span class="s2">"ChatName"</span><span class="w"> </span>--since<span class="w"> </span><span class="s2">"1h"</span><span class="w">  </span><span class="c1"># Messages from last hour</span>
 telegram<span class="w"> </span><span class="nb">read</span><span class="w"> </span>@username<span class="w"> </span>-n<span class="w"> </span><span class="m">20</span><span class="w">    </span><span class="c1"># Read DM with user</span>
 </code></pre></div>
 <h3 id="searching">Searching<a class="headerlink" href="#searching" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;query&quot;</span><span class="w"> </span>--chat<span class="w"> </span><span class="s2">&quot;ChatName&quot;</span><span class="w">   </span><span class="c1"># Search within a specific chat</span>
-telegram<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;query&quot;</span><span class="w"> </span>--all<span class="w">               </span><span class="c1"># Search all chats globally</span>
-telegram<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;query&quot;</span><span class="w"> </span>-n<span class="w"> </span><span class="m">20</span><span class="w">               </span><span class="c1"># Limit results</span>
+<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>search<span class="w"> </span><span class="s2">"query"</span><span class="w"> </span>--chat<span class="w"> </span><span class="s2">"ChatName"</span><span class="w">   </span><span class="c1"># Search within a specific chat</span>
+telegram<span class="w"> </span>search<span class="w"> </span><span class="s2">"query"</span><span class="w"> </span>--all<span class="w">               </span><span class="c1"># Search all chats globally</span>
+telegram<span class="w"> </span>search<span class="w"> </span><span class="s2">"query"</span><span class="w"> </span>-n<span class="w"> </span><span class="m">20</span><span class="w">               </span><span class="c1"># Limit results</span>
 </code></pre></div>
 <h3 id="sending-messages">Sending Messages<a class="headerlink" href="#sending-messages" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>send<span class="w"> </span>@username<span class="w"> </span><span class="s2">&quot;Hello&quot;</span><span class="w">             </span><span class="c1"># Send DM</span>
-telegram<span class="w"> </span>send<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w"> </span><span class="s2">&quot;Message&quot;</span><span class="w">         </span><span class="c1"># Send to group</span>
-telegram<span class="w"> </span>reply<span class="w"> </span><span class="s2">&quot;ChatName&quot;</span><span class="w"> </span><span class="m">12345</span><span class="w"> </span><span class="s2">&quot;Response&quot;</span><span class="w">  </span><span class="c1"># Reply to specific message ID</span>
+<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>send<span class="w"> </span>@username<span class="w"> </span><span class="s2">"Hello"</span><span class="w">             </span><span class="c1"># Send DM</span>
+telegram<span class="w"> </span>send<span class="w"> </span><span class="s2">"GroupName"</span><span class="w"> </span><span class="s2">"Message"</span><span class="w">         </span><span class="c1"># Send to group</span>
+telegram<span class="w"> </span>reply<span class="w"> </span><span class="s2">"ChatName"</span><span class="w"> </span><span class="m">12345</span><span class="w"> </span><span class="s2">"Response"</span><span class="w">  </span><span class="c1"># Reply to specific message ID</span>
 </code></pre></div>
 <h3 id="group-management">Group Management<a class="headerlink" href="#group-management" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>members<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w">                </span><span class="c1"># List members</span>
-telegram<span class="w"> </span>members<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w"> </span>-n<span class="w"> </span><span class="m">500</span><span class="w">         </span><span class="c1"># Fetch up to 500 members</span>
-telegram<span class="w"> </span>admins<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w">                 </span><span class="c1"># List admins only</span>
-telegram<span class="w"> </span>mute<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w">                   </span><span class="c1"># Mute noisy group</span>
-telegram<span class="w"> </span>unmute<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w">                 </span><span class="c1"># Unmute</span>
-telegram<span class="w"> </span>kick<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w"> </span>@user<span class="w">             </span><span class="c1"># Remove user</span>
-telegram<span class="w"> </span>promote<span class="w"> </span><span class="s2">&quot;GroupName&quot;</span><span class="w"> </span>@user<span class="w">          </span><span class="c1"># Promote to admin</span>
+<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>members<span class="w"> </span><span class="s2">"GroupName"</span><span class="w">                </span><span class="c1"># List members</span>
+telegram<span class="w"> </span>members<span class="w"> </span><span class="s2">"GroupName"</span><span class="w"> </span>-n<span class="w"> </span><span class="m">500</span><span class="w">         </span><span class="c1"># Fetch up to 500 members</span>
+telegram<span class="w"> </span>admins<span class="w"> </span><span class="s2">"GroupName"</span><span class="w">                 </span><span class="c1"># List admins only</span>
+telegram<span class="w"> </span>mute<span class="w"> </span><span class="s2">"GroupName"</span><span class="w">                   </span><span class="c1"># Mute noisy group</span>
+telegram<span class="w"> </span>unmute<span class="w"> </span><span class="s2">"GroupName"</span><span class="w">                 </span><span class="c1"># Unmute</span>
+telegram<span class="w"> </span>kick<span class="w"> </span><span class="s2">"GroupName"</span><span class="w"> </span>@user<span class="w">             </span><span class="c1"># Remove user</span>
+telegram<span class="w"> </span>promote<span class="w"> </span><span class="s2">"GroupName"</span><span class="w"> </span>@user<span class="w">          </span><span class="c1"># Promote to admin</span>
 </code></pre></div>
 <h3 id="contacts-history">Contacts &amp; History<a class="headerlink" href="#contacts-history" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>contact<span class="w"> </span>@username<span class="w">                  </span><span class="c1"># Get contact info</span>
-telegram<span class="w"> </span><span class="nb">export</span><span class="w"> </span><span class="s2">&quot;ChatName&quot;</span><span class="w"> </span>--format<span class="w"> </span>json<span class="w">    </span><span class="c1"># Export chat history</span>
+telegram<span class="w"> </span><span class="nb">export</span><span class="w"> </span><span class="s2">"ChatName"</span><span class="w"> </span>--format<span class="w"> </span>json<span class="w">    </span><span class="c1"># Export chat history</span>
 telegram<span class="w"> </span>folders<span class="w">                            </span><span class="c1"># List chat folders</span>
 </code></pre></div>
 <hr />
@@ -11254,12 +11254,12 @@ telegram<span class="w"> </span>whoami
 telegram<span class="w"> </span>inbox
 
 <span class="c1"># Monitor CorpusIQ Team topic</span>
-telegram<span class="w"> </span><span class="nb">read</span><span class="w"> </span><span class="s2">&quot;CorpusIQ Team&quot;</span><span class="w"> </span>-n<span class="w"> </span><span class="m">10</span>
+telegram<span class="w"> </span><span class="nb">read</span><span class="w"> </span><span class="s2">"CorpusIQ Team"</span><span class="w"> </span>-n<span class="w"> </span><span class="m">10</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>check<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Telegram CLI: OK&quot;</span>
-telegram<span class="w"> </span>whoami<span class="w"> </span>--json<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;import json,sys; d=json.load(sys.stdin); print(f&#39;Logged in as: {d.get(\&quot;first_name\&quot;,\&quot;?\&quot;)}&#39;)&quot;</span>
+<div class="highlight"><pre><span></span><code>telegram<span class="w"> </span>check<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"Telegram CLI: OK"</span>
+telegram<span class="w"> </span>whoami<span class="w"> </span>--json<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">"import json,sys; d=json.load(sys.stdin); print(f'Logged in as: {d.get(\"first_name\",\"?\")}')"</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

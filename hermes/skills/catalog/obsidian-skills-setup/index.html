@@ -11194,9 +11194,9 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/kepan
 <p>The skill needs the path to your Obsidian vault:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># In your Hermes profile config</span>
 <span class="nt">obsidian</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">vault_path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;~/Documents/Obsidian&quot;</span><span class="w">  </span><span class="c1"># or your vault location</span>
-<span class="w">  </span><span class="nt">daily_notes_folder</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Daily&quot;</span>
-<span class="w">  </span><span class="nt">templates_folder</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Templates&quot;</span>
+<span class="w">  </span><span class="nt">vault_path</span><span class="p">:</span><span class="w"> </span><span class="s">"~/Documents/Obsidian"</span><span class="w">  </span><span class="c1"># or your vault location</span>
+<span class="w">  </span><span class="nt">daily_notes_folder</span><span class="p">:</span><span class="w"> </span><span class="s">"Daily"</span>
+<span class="w">  </span><span class="nt">templates_folder</span><span class="p">:</span><span class="w"> </span><span class="s">"Templates"</span>
 </code></pre></div>
 <h2 id="key-workflows">Key Workflows<a class="headerlink" href="#key-workflows" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-create-a-linked-note">1. Create a linked note<a class="headerlink" href="#1-create-a-linked-note" title="Anchor link to this section">&para;</a></h3>
@@ -11212,14 +11212,14 @@ Show me all notes connected to [[CorpusIQ]].
 <div class="highlight"><pre><span></span><code>Create a new project note using the Project template in my vault.
 </code></pre></div>
 <h3 id="4-daily-notes-integration">4. Daily notes integration<a class="headerlink" href="#4-daily-notes-integration" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Add today&#39;s tasks to my daily note and link any active projects.
+<div class="highlight"><pre><span></span><code>Add today's tasks to my daily note and link any active projects.
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test that the skill loads</span>
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>obsidian
 
 <span class="c1"># Test vault access</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;List the top-level folders in my Obsidian vault at ~/Documents/Obsidian&quot;</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"List the top-level folders in my Obsidian vault at ~/Documents/Obsidian"</span>
 </code></pre></div>
 <h2 id="compatibility">Compatibility<a class="headerlink" href="#compatibility" title="Anchor link to this section">&para;</a></h2>
 <ul>

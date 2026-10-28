@@ -11171,7 +11171,7 @@ Layer 3: Quality Health
 <h2 id="drift-detection">Drift Detection<a class="headerlink" href="#drift-detection" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ's metric spec system detects when two sources disagree:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Two sources should agree within 1%</span>
-<span class="n">metric_spec_resolve</span><span class="p">(</span><span class="s2">&quot;leads_this_week&quot;</span><span class="p">)</span>
+<span class="n">metric_spec_resolve</span><span class="p">(</span><span class="s2">"leads_this_week"</span><span class="p">)</span>
 <span class="c1"># Returns: {value: 47, drift: {source_a: 47, source_b: 44, delta_pct: 6.4}}</span>
 <span class="c1"># Flagged: 6.4% &gt; 1% tolerance → investigate</span>
 </code></pre></div>

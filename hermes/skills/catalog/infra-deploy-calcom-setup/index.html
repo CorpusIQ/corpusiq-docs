@@ -11201,8 +11201,8 @@
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Preflight: verify GCP config</span>
-<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;CALCOM_GCP_PROJECT: </span><span class="si">${</span><span class="nv">CALCOM_GCP_PROJECT</span><span class="k">:-</span><span class="nv">NOT_SET</span><span class="si">}</span><span class="s2">&quot;</span>
-gcloud<span class="w"> </span>auth<span class="w"> </span>list<span class="w"> </span>--filter<span class="o">=</span><span class="s2">&quot;status=ACTIVE&quot;</span><span class="w"> </span>--format<span class="o">=</span><span class="s2">&quot;value(account)&quot;</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">"CALCOM_GCP_PROJECT: </span><span class="si">${</span><span class="nv">CALCOM_GCP_PROJECT</span><span class="k">:-</span><span class="nv">NOT_SET</span><span class="si">}</span><span class="s2">"</span>
+gcloud<span class="w"> </span>auth<span class="w"> </span>list<span class="w"> </span>--filter<span class="o">=</span><span class="s2">"status=ACTIVE"</span><span class="w"> </span>--format<span class="o">=</span><span class="s2">"value(account)"</span>
 
 <span class="c1"># Local dev with Docker Compose</span>
 <span class="nb">cd</span><span class="w"> </span>~/fork-tools/cal.com
@@ -11210,8 +11210,8 @@ docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> 
 
 <span class="c1"># Deploy to Cloud Run</span>
 docker<span class="w"> </span>build<span class="w"> </span>-t<span class="w"> </span>calcom-self-hosted<span class="w"> </span>.
-docker<span class="w"> </span>tag<span class="w"> </span>calcom-self-hosted<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">REGION</span><span class="si">}</span><span class="s2">-docker.pkg.dev/</span><span class="si">${</span><span class="nv">PROJECT</span><span class="si">}</span><span class="s2">/calcom/calcom:latest&quot;</span>
-docker<span class="w"> </span>push<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">REGION</span><span class="si">}</span><span class="s2">-docker.pkg.dev/</span><span class="si">${</span><span class="nv">PROJECT</span><span class="si">}</span><span class="s2">/calcom/calcom:latest&quot;</span>
+docker<span class="w"> </span>tag<span class="w"> </span>calcom-self-hosted<span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">REGION</span><span class="si">}</span><span class="s2">-docker.pkg.dev/</span><span class="si">${</span><span class="nv">PROJECT</span><span class="si">}</span><span class="s2">/calcom/calcom:latest"</span>
+docker<span class="w"> </span>push<span class="w"> </span><span class="s2">"</span><span class="si">${</span><span class="nv">REGION</span><span class="si">}</span><span class="s2">-docker.pkg.dev/</span><span class="si">${</span><span class="nv">PROJECT</span><span class="si">}</span><span class="s2">/calcom/calcom:latest"</span>
 gcloud<span class="w"> </span>run<span class="w"> </span>deploy<span class="w"> </span>calcom<span class="w"> </span>--image<span class="o">=</span>...<span class="w"> </span>--region<span class="o">=</span>...<span class="w"> </span>--platform<span class="o">=</span>managed
 </code></pre></div>
 <hr />
@@ -11220,10 +11220,10 @@ gcloud<span class="w"> </span>run<span class="w"> </span>deploy<span class="w"> 
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>infra-deploy
 
 <span class="c1"># Verify GCP APIs</span>
-gcloud<span class="w"> </span>services<span class="w"> </span>list<span class="w"> </span>--enabled<span class="w"> </span>--project<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CALCOM_GCP_PROJECT</span><span class="s2">&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;run|artifact|build&quot;</span>
+gcloud<span class="w"> </span>services<span class="w"> </span>list<span class="w"> </span>--enabled<span class="w"> </span>--project<span class="o">=</span><span class="s2">"</span><span class="nv">$CALCOM_GCP_PROJECT</span><span class="s2">"</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"run|artifact|build"</span>
 
 <span class="c1"># Check Supabase connection</span>
-psql<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$DATABASE_URL</span><span class="s2">&quot;</span><span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;SELECT version();&quot;</span>
+psql<span class="w"> </span><span class="s2">"</span><span class="nv">$DATABASE_URL</span><span class="s2">"</span><span class="w"> </span>-c<span class="w"> </span><span class="s2">"SELECT version();"</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

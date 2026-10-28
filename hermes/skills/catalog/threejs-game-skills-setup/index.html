@@ -11140,10 +11140,10 @@
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install all nine skills for Codex</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>majidmanzarpour/threejs-game-skills<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span><span class="w"> </span>-a<span class="w"> </span>codex<span class="w"> </span>-g<span class="w"> </span>-y
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>majidmanzarpour/threejs-game-skills<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span><span class="w"> </span>-a<span class="w"> </span>codex<span class="w"> </span>-g<span class="w"> </span>-y
 
 <span class="c1"># Install all nine skills for Claude Code</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>majidmanzarpour/threejs-game-skills<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span><span class="w"> </span>-a<span class="w"> </span>claude-code<span class="w"> </span>-g<span class="w"> </span>-y
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>majidmanzarpour/threejs-game-skills<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span><span class="w"> </span>-a<span class="w"> </span>claude-code<span class="w"> </span>-g<span class="w"> </span>-y
 </code></pre></div>
 <p>From a cloned checkout, the local installer offers the same targets: <code>./install.sh --codex</code>, <code>./install.sh --claude</code>, or <code>./install.sh --all</code> (add <code>--force</code> to overwrite same-named skills; it never removes unrelated skills unless <code>--prune-managed</code> is passed).</p>
 <p>Where the skills land once installed:</p>
@@ -11152,9 +11152,9 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <li>Codex discovers global skills in <code>~/.agents/skills</code>; each skill's <code>agents/openai.yaml</code> supplies a <code>$skill-name</code> kickoff prompt. Avoid installing duplicate copies in both root locations.</li>
 </ul>
 <p>Optional API keys are only needed for generated assets and go in your shell profile:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">TRIPO_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="w">      </span><span class="c1"># threejs-3d-generator (3D models)</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">GEMINI_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="w">     </span><span class="c1"># threejs-image-generator (images)</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">ELEVENLABS_API_KEY</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="w"> </span><span class="c1"># threejs-audio-generator (audio)</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">TRIPO_API_KEY</span><span class="o">=</span><span class="s2">"..."</span><span class="w">      </span><span class="c1"># threejs-3d-generator (3D models)</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">GEMINI_API_KEY</span><span class="o">=</span><span class="s2">"..."</span><span class="w">     </span><span class="c1"># threejs-image-generator (images)</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">ELEVENLABS_API_KEY</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="c1"># threejs-audio-generator (audio)</span>
 </code></pre></div>
 <h2 id="what-it-provides">What It Provides<a class="headerlink" href="#what-it-provides" title="Anchor link to this section">&para;</a></h2>
 <table>

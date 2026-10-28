@@ -11281,12 +11281,12 @@
 </ol>
 <h3 id="claude-desktop-configuration">Claude Desktop Configuration<a class="headerlink" href="#claude-desktop-configuration" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;perfex-crm&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://your-perfex-install.com/api/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;X-API-Key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-generated-key&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"perfex-crm"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://your-perfex-install.com/api/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"X-API-Key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-generated-key"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11294,12 +11294,12 @@
 </code></pre></div>
 <h3 id="claude-code-cursor-vs-code-stdio">Claude Code / Cursor / VS Code (stdio)<a class="headerlink" href="#claude-code-cursor-vs-code-stdio" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;perfex-crm&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;perfex-mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;PERFEX_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-generated-key&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;PERFEX_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://your-perfex-install.com&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"perfex-crm"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"perfex-mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"PERFEX_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-generated-key"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"PERFEX_URL"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://your-perfex-install.com"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11419,16 +11419,16 @@
 </table>
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="daily-operations">Daily Operations<a class="headerlink" href="#daily-operations" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&gt; &quot;Summarize every open support ticket for Acme Ltd and tell me which one has been sitting longest.&quot;
+<div class="highlight"><pre><span></span><code>&gt; "Summarize every open support ticket for Acme Ltd and tell me which one has been sitting longest."
 </code></pre></div>
 <h3 id="financial-oversight">Financial Oversight<a class="headerlink" href="#financial-oversight" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&gt; &quot;Which clients have overdue invoices older than 45 days, and how much do they owe in total?&quot;
+<div class="highlight"><pre><span></span><code>&gt; "Which clients have overdue invoices older than 45 days, and how much do they owe in total?"
 </code></pre></div>
 <h3 id="sales-pipeline">Sales Pipeline<a class="headerlink" href="#sales-pipeline" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&gt; &quot;Show me all leads in &#39;Proposal Sent&#39; status that haven&#39;t been followed up in 7 days.&quot;
+<div class="highlight"><pre><span></span><code>&gt; "Show me all leads in 'Proposal Sent' status that haven't been followed up in 7 days."
 </code></pre></div>
 <h3 id="automation-with-n8n">Automation (with n8n)<a class="headerlink" href="#automation-with-n8n" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&gt; n8n workflow: &quot;When a new lead is created, have the AI draft a personalized welcome email, create a task for the account manager, and schedule a follow-up.&quot;
+<div class="highlight"><pre><span></span><code>&gt; n8n workflow: "When a new lead is created, have the AI draft a personalized welcome email, create a task for the account manager, and schedule a follow-up."
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is the connector layer that lets AI assistants read the systems a business

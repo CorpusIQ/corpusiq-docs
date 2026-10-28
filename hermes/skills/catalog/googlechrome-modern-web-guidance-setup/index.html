@@ -11206,10 +11206,10 @@ npx<span class="w"> </span>modern-web-guidance@latest<span class="w"> </span>ins
 <p>The modern-web-guidance workflow is three steps: search with an action-oriented query, inspect the ranked results, then retrieve the full guide by id and implement.</p>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Confirm the skills are installed</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;modern-web-guidance|chrome-extensions&quot;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"modern-web-guidance|chrome-extensions"</span>
 
 <span class="c1"># Smoke test the search CLI directly (works without installing)</span>
-npx<span class="w"> </span>-y<span class="w"> </span>modern-web-guidance@latest<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;animate a dialog modal backdrop&quot;</span>
+npx<span class="w"> </span>-y<span class="w"> </span>modern-web-guidance@latest<span class="w"> </span>search<span class="w"> </span><span class="s2">"animate a dialog modal backdrop"</span>
 </code></pre></div>
 <p>Working output is ranked JSON: each match carries an id, category, features used, token count, and similarity score. Retrieve a full guide by id, for example <code>npx -y modern-web-guidance@latest retrieve "animate-to-from-top-layer"</code>, and browse everything with <code>npx -y modern-web-guidance@latest list</code>.</p>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

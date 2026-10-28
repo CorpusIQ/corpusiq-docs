@@ -11314,18 +11314,18 @@ npm<span class="w"> </span>install
 npm<span class="w"> </span>run<span class="w"> </span>build
 
 <span class="c1"># Add to Hermes</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>tradier<span class="w"> </span>--command<span class="w"> </span><span class="s2">&quot;node&quot;</span><span class="w"> </span>--args<span class="w"> </span><span class="s2">&quot;dist/index.js&quot;</span><span class="w"> </span>--workdir<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--env<span class="w"> </span><span class="nv">TRADIER_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key&quot;</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>tradier<span class="w"> </span>--command<span class="w"> </span><span class="s2">"node"</span><span class="w"> </span>--args<span class="w"> </span><span class="s2">"dist/index.js"</span><span class="w"> </span>--workdir<span class="w"> </span><span class="s2">"</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--env<span class="w"> </span><span class="nv">TRADIER_API_KEY</span><span class="o">=</span><span class="s2">"your-key"</span>
 </code></pre></div>
 <h2 id="manual-configuration-example-tradier">Manual Configuration (Example: Tradier)<a class="headerlink" href="#manual-configuration-example-tradier" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;tradier&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;node&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;dist/index.js&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;workdir&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/mcp-tradier&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;TRADIER_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-tradier-api-key&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"tradier"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"dist/index.js"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"workdir"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/to/mcp-tradier"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"TRADIER_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-tradier-api-key"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

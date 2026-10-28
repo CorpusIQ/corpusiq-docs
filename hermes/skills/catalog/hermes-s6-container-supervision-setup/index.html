@@ -11261,7 +11261,7 @@ ln<span class="w"> </span>-s<span class="w"> </span>/etc/s6/sv/hermes-agent<span
 <span class="k">COPY</span><span class="w"> </span>s6-services/<span class="w"> </span>/etc/s6/service/
 
 <span class="c"># s6 as PID 1</span>
-<span class="k">ENTRYPOINT</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;/usr/bin/s6-svscan&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;/etc/s6/service&quot;</span><span class="p">]</span>
+<span class="k">ENTRYPOINT</span><span class="w"> </span><span class="p">[</span><span class="s2">"/usr/bin/s6-svscan"</span><span class="p">,</span><span class="w"> </span><span class="s2">"/etc/s6/service"</span><span class="p">]</span>
 </code></pre></div>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <table>

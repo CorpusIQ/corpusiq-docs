@@ -11154,17 +11154,17 @@
 </tbody>
 </table>
 <p>Set credentials in your Hermes environment:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">X_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_API_KEY_SECRET</span><span class="o">=</span><span class="s2">&quot;your-api-key-secret&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_ACCESS_TOKEN</span><span class="o">=</span><span class="s2">&quot;your-access-token&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">X_ACCESS_TOKEN_SECRET</span><span class="o">=</span><span class="s2">&quot;your-access-token-secret&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">X_API_KEY</span><span class="o">=</span><span class="s2">"your-api-key"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">X_API_KEY_SECRET</span><span class="o">=</span><span class="s2">"your-api-key-secret"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">X_ACCESS_TOKEN</span><span class="o">=</span><span class="s2">"your-access-token"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">X_ACCESS_TOKEN_SECRET</span><span class="o">=</span><span class="s2">"your-access-token-secret"</span>
 </code></pre></div>
 <p>Or in <code>~/.hermes/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">env</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">X_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-api-key&quot;</span>
-<span class="w">  </span><span class="nt">X_API_KEY_SECRET</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-api-key-secret&quot;</span>
-<span class="w">  </span><span class="nt">X_ACCESS_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-access-token&quot;</span>
-<span class="w">  </span><span class="nt">X_ACCESS_TOKEN_SECRET</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;your-access-token-secret&quot;</span>
+<span class="w">  </span><span class="nt">X_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="s">"your-api-key"</span>
+<span class="w">  </span><span class="nt">X_API_KEY_SECRET</span><span class="p">:</span><span class="w"> </span><span class="s">"your-api-key-secret"</span>
+<span class="w">  </span><span class="nt">X_ACCESS_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="s">"your-access-token"</span>
+<span class="w">  </span><span class="nt">X_ACCESS_TOKEN_SECRET</span><span class="p">:</span><span class="w"> </span><span class="s">"your-access-token-secret"</span>
 </code></pre></div>
 <hr />
 <h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
@@ -11212,19 +11212,19 @@
 </table>
 <h3 id="cli-command-reference">CLI Command Reference<a class="headerlink" href="#cli-command-reference" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Post a tweet</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">&quot;Hello from Hermes&quot;</span>
+hermes<span class="w"> </span>xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">"Hello from Hermes"</span>
 
 <span class="c1"># Search recent tweets</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;hermes agent&quot;</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">10</span>
+hermes<span class="w"> </span>xurl<span class="w"> </span>search<span class="w"> </span><span class="s2">"hermes agent"</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">10</span>
 
 <span class="c1"># Get user timeline</span>
 hermes<span class="w"> </span>xurl<span class="w"> </span>timeline<span class="w"> </span>@username<span class="w"> </span>--count<span class="w"> </span><span class="m">20</span>
 
 <span class="c1"># Send DM</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>dm<span class="w"> </span>@username<span class="w"> </span><span class="s2">&quot;Message text&quot;</span>
+hermes<span class="w"> </span>xurl<span class="w"> </span>dm<span class="w"> </span>@username<span class="w"> </span><span class="s2">"Message text"</span>
 
 <span class="c1"># Upload and post media</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>media<span class="w"> </span>--file<span class="w"> </span>/path/to/image.png<span class="w"> </span>--text<span class="w"> </span><span class="s2">&quot;Check this out&quot;</span>
+hermes<span class="w"> </span>xurl<span class="w"> </span>media<span class="w"> </span>--file<span class="w"> </span>/path/to/image.png<span class="w"> </span>--text<span class="w"> </span><span class="s2">"Check this out"</span>
 </code></pre></div>
 <hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -11292,7 +11292,7 @@ hermes<span class="w"> </span>xurl<span class="w"> </span>media<span class="w"> 
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>xurl
 
 <span class="c1"># Quick functional test - post a test tweet</span>
-hermes<span class="w"> </span>xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">&quot;xurl setup verified - CorpusIQ-connected agent reporting for duty&quot;</span>
+hermes<span class="w"> </span>xurl<span class="w"> </span>post<span class="w"> </span><span class="s2">"xurl setup verified - CorpusIQ-connected agent reporting for duty"</span>
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026-update2">June 30 Update 2 Discovery</a> →</em>

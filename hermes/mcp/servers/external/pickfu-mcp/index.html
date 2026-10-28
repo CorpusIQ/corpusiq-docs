@@ -11155,7 +11155,7 @@ Transport:   JSON-RPC over POST
 Auth:        OAuth via WorkOS (authorization code with PKCE, client ID metadata
              document, device code grant) or a PickFu API key
 Tools:       survey, project, media and synthetic-audience tools, read from the
-             vendor&#39;s own MCP reference
+             vendor's own MCP reference
 Built by:    PickFu (pickfu.com)
 Registry:    com.pickfu/mcp version 1.0.0, plus an mcp.so listing
 </code></pre></div>
@@ -11165,9 +11165,9 @@ Registry:    com.pickfu/mcp version 1.0.0, plus an mcp.so listing
 <p>That last part is the difference between this and prompting a model for an opinion. The reasons are what an operator can act on, and the vendor makes an explanation mandatory on every response.</p>
 <h2 id="what-it-actually-does">What It Actually Does<a class="headerlink" href="#what-it-actually-does" title="Anchor link to this section">&para;</a></h2>
 <p><code>initialize</code> without a token returned HTTP 401 with a body rather than a wall:</p>
-<div class="highlight"><pre><span></span><code>{&quot;error&quot;:&quot;authentication_required&quot;,
- &quot;error_description&quot;:&quot;Authentication required. Include a valid bearer token in the Authorization header.&quot;,
- &quot;resource_metadata&quot;:&quot;https://mcp.pickfu.com/.well-known/oauth-protected-resource&quot;}
+<div class="highlight"><pre><span></span><code>{"error":"authentication_required",
+ "error_description":"Authentication required. Include a valid bearer token in the Authorization header.",
+ "resource_metadata":"https://mcp.pickfu.com/.well-known/oauth-protected-resource"}
 </code></pre></div>
 <p>The discovery documents answer without an account:</p>
 <ul>

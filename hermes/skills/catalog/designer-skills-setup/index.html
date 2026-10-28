@@ -11243,10 +11243,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Confirm the skills are installed</span>
-npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;design-flow|grill-me|design-brief|information-architecture|design-tokens|brief-to-tasks|frontend-design|design-review&quot;</span>
+npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"design-flow|grill-me|design-brief|information-architecture|design-tokens|brief-to-tasks|frontend-design|design-review"</span>
 
 <span class="c1"># Claude Code / skills-directory agents - confirm the skills landed</span>
-ls<span class="w"> </span>~/.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;design-|grill-me|brief-to-tasks&quot;</span>
+ls<span class="w"> </span>~/.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s2">"design-|grill-me|brief-to-tasks"</span>
 
 <span class="c1"># Review a SKILL.md directly before installing</span>
 curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/julianoczkowski/designer-skills/main/design-brief/SKILL.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-40

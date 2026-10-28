@@ -11171,7 +11171,7 @@
 
 <h1 id="uniwire-mcp">uniwire MCP<a class="headerlink" href="#uniwire-mcp" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Remote MCP server (Streamable HTTP, no account or API key)</strong> - electrical diagrams as code: an assistant describes an installation in plain words, writes it as a <code>*.uniwire.json</code> document, and gets back a validated, rule-checked drawing and a PDF.</p>
-<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP); local option via pip install &quot;uniwire[mcp]&quot;
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP); local option via pip install "uniwire[mcp]"
 Auth: None required (the hosted server is public; result documents kept for 30 days so links stay short)
 Endpoint: https://mcp.uniwire.sh/mcp
 Tools: 14 (reference card, types, validate, check, describe, patch, render, links, wiring, BOM, examples, normalize)
@@ -11247,10 +11247,10 @@ Listing: chatmcp/mcpso issue #5242; official MCP registry io.github.uniwire-dev/
 <p>Any MCP client that speaks Streamable HTTP can add the same URL, with no sign-in. For private documents or offline work, run the server locally: <code>pip install "uniwire[mcp,pdf]"</code>, then <code>uniwire-mcp</code> (stdio).</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;uniwire&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.uniwire.sh/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"uniwire"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.uniwire.sh/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

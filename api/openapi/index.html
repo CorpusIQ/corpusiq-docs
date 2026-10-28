@@ -11321,10 +11321,10 @@
 <h3 id="swagger-ui-redoc">Swagger UI / Redoc<a class="headerlink" href="#swagger-ui-redoc" title="Anchor link to this section">&para;</a></h3>
 <p>Visit <code>https://mcp2.corpusiq.io/mcp</code> for an interactive Swagger UI with live "Try it out" functionality.</p>
 <h2 id="full-specification">Full Specification<a class="headerlink" href="#full-specification" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nt">openapi</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3.0.3&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nt">openapi</span><span class="p">:</span><span class="w"> </span><span class="s">"3.0.3"</span>
 <span class="nt">info</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;CorpusIQ</span><span class="nv"> </span><span class="s">API&quot;</span>
-<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1.0.0&quot;</span>
+<span class="w">  </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">"CorpusIQ</span><span class="nv"> </span><span class="s">API"</span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">"1.0.0"</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
 <span class="w">    </span><span class="no">Private AI acceleration layer connecting 40+ business tools to ChatGPT, Claude,</span>
 <span class="w">    </span><span class="no">and Perplexity via MCP. Direct MCP uses read-only live retrieval and does not</span>
@@ -11332,256 +11332,256 @@
 <span class="w">    </span><span class="no">retain query text, per-user tool-call metadata, and bounded outcome summaries</span>
 <span class="w">    </span><span class="no">for up to 30 days.</span>
 <span class="w">  </span><span class="nt">contact</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;CorpusIQ</span><span class="nv"> </span><span class="s">API</span><span class="nv"> </span><span class="s">Support&quot;</span>
-<span class="w">    </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;api@corpusiq.io&quot;</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"CorpusIQ</span><span class="nv"> </span><span class="s">API</span><span class="nv"> </span><span class="s">Support"</span>
+<span class="w">    </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s">"api@corpusiq.io"</span>
 <span class="w">  </span><span class="nt">license</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Proprietary&quot;</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Proprietary"</span>
 <span class="nt">servers</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://mcp2.corpusiq.io/mcp&quot;</span>
-<span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Production</span><span class="nv"> </span><span class="s">API&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://mcp2.corpusiq.io/mcp"</span>
+<span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Production</span><span class="nv"> </span><span class="s">API"</span>
 <span class="nt">security</span><span class="p">:</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">BearerAuth</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[]</span>
 <span class="nt">paths</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">/query</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">post</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Search</span><span class="nv"> </span><span class="s">connected</span><span class="nv"> </span><span class="s">data</span><span class="nv"> </span><span class="s">sources&quot;</span>
+<span class="w">      </span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s">"Search</span><span class="nv"> </span><span class="s">connected</span><span class="nv"> </span><span class="s">data</span><span class="nv"> </span><span class="s">sources"</span>
 <span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
 <span class="w">        </span><span class="no">Execute a natural-language query across all or specified connected business</span>
 <span class="w">        </span><span class="no">tools. Returns semantically ranked, cited results from each connector.</span>
-<span class="w">      </span><span class="nt">operationId</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;searchQuery&quot;</span>
+<span class="w">      </span><span class="nt">operationId</span><span class="p">:</span><span class="w"> </span><span class="s">"searchQuery"</span>
 <span class="w">      </span><span class="nt">requestBody</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">        </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">            </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
-<span class="w">              </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;query&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
+<span class="w">              </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"query"</span><span class="p p-Indicator">]</span>
 <span class="w">              </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">                </span><span class="nt">query</span><span class="p">:</span>
-<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Natural-language</span><span class="nv"> </span><span class="s">question</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">search</span><span class="nv"> </span><span class="s">across</span><span class="nv"> </span><span class="s">connected</span><span class="nv"> </span><span class="s">tools&quot;</span>
-<span class="w">                  </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;What</span><span class="nv"> </span><span class="s">were</span><span class="nv"> </span><span class="s">our</span><span class="nv"> </span><span class="s">top</span><span class="nv"> </span><span class="s">5</span><span class="nv"> </span><span class="s">Shopify</span><span class="nv"> </span><span class="s">orders</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">month?&quot;</span>
+<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Natural-language</span><span class="nv"> </span><span class="s">question</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">search</span><span class="nv"> </span><span class="s">across</span><span class="nv"> </span><span class="s">connected</span><span class="nv"> </span><span class="s">tools"</span>
+<span class="w">                  </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">"What</span><span class="nv"> </span><span class="s">were</span><span class="nv"> </span><span class="s">our</span><span class="nv"> </span><span class="s">top</span><span class="nv"> </span><span class="s">5</span><span class="nv"> </span><span class="s">Shopify</span><span class="nv"> </span><span class="s">orders</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">month?"</span>
 <span class="w">                </span><span class="nt">connectors</span><span class="p">:</span>
-<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;array&quot;</span>
+<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"array"</span>
 <span class="w">                  </span><span class="nt">items</span><span class="p">:</span>
-<span class="w">                    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Connector</span><span class="nv"> </span><span class="s">IDs</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">scope</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">search.</span><span class="nv"> </span><span class="s">Omit</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">search</span><span class="nv"> </span><span class="s">all.&quot;</span>
-<span class="w">                  </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;shopify&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;hubspot&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">                    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Connector</span><span class="nv"> </span><span class="s">IDs</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">scope</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">search.</span><span class="nv"> </span><span class="s">Omit</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">search</span><span class="nv"> </span><span class="s">all."</span>
+<span class="w">                  </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"shopify"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"hubspot"</span><span class="p p-Indicator">]</span>
 <span class="w">                </span><span class="nt">max_results</span><span class="p">:</span>
-<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">                  </span><span class="nt">minimum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
 <span class="w">                  </span><span class="nt">maximum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">100</span>
 <span class="w">                  </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span>
-<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Maximum</span><span class="nv"> </span><span class="s">results</span><span class="nv"> </span><span class="s">per</span><span class="nv"> </span><span class="s">connector&quot;</span>
+<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Maximum</span><span class="nv"> </span><span class="s">results</span><span class="nv"> </span><span class="s">per</span><span class="nv"> </span><span class="s">connector"</span>
 <span class="w">      </span><span class="nt">responses</span><span class="p">:</span>
-<span class="w">        </span><span class="s">&quot;200&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Query</span><span class="nv"> </span><span class="s">results&quot;</span>
+<span class="w">        </span><span class="s">"200"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Query</span><span class="nv"> </span><span class="s">results"</span>
 <span class="w">          </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">            </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">              </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">                </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/QueryResponse&quot;</span>
-<span class="w">        </span><span class="s">&quot;400&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/BadRequest&quot;</span>
-<span class="w">        </span><span class="s">&quot;401&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/Unauthorized&quot;</span>
-<span class="w">        </span><span class="s">&quot;429&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/RateLimited&quot;</span>
-<span class="w">        </span><span class="s">&quot;500&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/ServerError&quot;</span>
+<span class="w">                </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/QueryResponse"</span>
+<span class="w">        </span><span class="s">"400"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/BadRequest"</span>
+<span class="w">        </span><span class="s">"401"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/Unauthorized"</span>
+<span class="w">        </span><span class="s">"429"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/RateLimited"</span>
+<span class="w">        </span><span class="s">"500"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/ServerError"</span>
 <span class="w">  </span><span class="nt">/deep_search</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">post</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Search</span><span class="nv"> </span><span class="s">encrypted</span><span class="nv"> </span><span class="s">archive&quot;</span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Search</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">encrypted</span><span class="nv"> </span><span class="s">archive</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">previously</span><span class="nv"> </span><span class="s">executed</span><span class="nv"> </span><span class="s">queries</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">their</span><span class="nv"> </span><span class="s">results.&quot;</span>
-<span class="w">      </span><span class="nt">operationId</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;deepSearch&quot;</span>
+<span class="w">      </span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s">"Search</span><span class="nv"> </span><span class="s">encrypted</span><span class="nv"> </span><span class="s">archive"</span>
+<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Search</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">encrypted</span><span class="nv"> </span><span class="s">archive</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">previously</span><span class="nv"> </span><span class="s">executed</span><span class="nv"> </span><span class="s">queries</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">their</span><span class="nv"> </span><span class="s">results."</span>
+<span class="w">      </span><span class="nt">operationId</span><span class="p">:</span><span class="w"> </span><span class="s">"deepSearch"</span>
 <span class="w">      </span><span class="nt">requestBody</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">        </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">            </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
-<span class="w">              </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;query&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
+<span class="w">              </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"query"</span><span class="p p-Indicator">]</span>
 <span class="w">              </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">                </span><span class="nt">query</span><span class="p">:</span>
-<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Search</span><span class="nv"> </span><span class="s">term</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">match</span><span class="nv"> </span><span class="s">against</span><span class="nv"> </span><span class="s">archived</span><span class="nv"> </span><span class="s">queries&quot;</span>
-<span class="w">                  </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Q3</span><span class="nv"> </span><span class="s">revenue</span><span class="nv"> </span><span class="s">projections&quot;</span>
+<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Search</span><span class="nv"> </span><span class="s">term</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">match</span><span class="nv"> </span><span class="s">against</span><span class="nv"> </span><span class="s">archived</span><span class="nv"> </span><span class="s">queries"</span>
+<span class="w">                  </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">"Q3</span><span class="nv"> </span><span class="s">revenue</span><span class="nv"> </span><span class="s">projections"</span>
 <span class="w">                </span><span class="nt">max_results</span><span class="p">:</span>
-<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">                  </span><span class="nt">minimum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
 <span class="w">                  </span><span class="nt">maximum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">50</span>
 <span class="w">                  </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">20</span>
 <span class="w">                </span><span class="nt">date_from</span><span class="p">:</span>
-<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">                  </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;date-time&quot;</span>
-<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ISO</span><span class="nv"> </span><span class="s">8601</span><span class="nv"> </span><span class="s">start</span><span class="nv"> </span><span class="s">date</span><span class="nv"> </span><span class="s">filter&quot;</span>
+<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">                  </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">"date-time"</span>
+<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"ISO</span><span class="nv"> </span><span class="s">8601</span><span class="nv"> </span><span class="s">start</span><span class="nv"> </span><span class="s">date</span><span class="nv"> </span><span class="s">filter"</span>
 <span class="w">                </span><span class="nt">date_to</span><span class="p">:</span>
-<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">                  </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;date-time&quot;</span>
-<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ISO</span><span class="nv"> </span><span class="s">8601</span><span class="nv"> </span><span class="s">end</span><span class="nv"> </span><span class="s">date</span><span class="nv"> </span><span class="s">filter&quot;</span>
+<span class="w">                  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">                  </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">"date-time"</span>
+<span class="w">                  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"ISO</span><span class="nv"> </span><span class="s">8601</span><span class="nv"> </span><span class="s">end</span><span class="nv"> </span><span class="s">date</span><span class="nv"> </span><span class="s">filter"</span>
 <span class="w">      </span><span class="nt">responses</span><span class="p">:</span>
-<span class="w">        </span><span class="s">&quot;200&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Archive</span><span class="nv"> </span><span class="s">search</span><span class="nv"> </span><span class="s">results&quot;</span>
+<span class="w">        </span><span class="s">"200"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Archive</span><span class="nv"> </span><span class="s">search</span><span class="nv"> </span><span class="s">results"</span>
 <span class="w">          </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">            </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">              </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">                </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/DeepSearchResponse&quot;</span>
-<span class="w">        </span><span class="s">&quot;400&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/BadRequest&quot;</span>
-<span class="w">        </span><span class="s">&quot;401&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/Unauthorized&quot;</span>
-<span class="w">        </span><span class="s">&quot;429&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/RateLimited&quot;</span>
-<span class="w">        </span><span class="s">&quot;500&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/ServerError&quot;</span>
+<span class="w">                </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/DeepSearchResponse"</span>
+<span class="w">        </span><span class="s">"400"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/BadRequest"</span>
+<span class="w">        </span><span class="s">"401"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/Unauthorized"</span>
+<span class="w">        </span><span class="s">"429"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/RateLimited"</span>
+<span class="w">        </span><span class="s">"500"</span><span class="p p-Indicator">:</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/responses/ServerError"</span>
 <span class="nt">components</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">securitySchemes</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">BearerAuth</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http&quot;</span>
-<span class="w">      </span><span class="nt">scheme</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;bearer&quot;</span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;API</span><span class="nv"> </span><span class="s">token</span><span class="nv"> </span><span class="s">obtained</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">CorpusIQ</span><span class="nv"> </span><span class="s">Dashboard.</span><span class="nv"> </span><span class="s">60-minute</span><span class="nv"> </span><span class="s">expiry.&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"http"</span>
+<span class="w">      </span><span class="nt">scheme</span><span class="p">:</span><span class="w"> </span><span class="s">"bearer"</span>
+<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"API</span><span class="nv"> </span><span class="s">token</span><span class="nv"> </span><span class="s">obtained</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">CorpusIQ</span><span class="nv"> </span><span class="s">Dashboard.</span><span class="nv"> </span><span class="s">60-minute</span><span class="nv"> </span><span class="s">expiry."</span>
 <span class="w">  </span><span class="nt">schemas</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">Chunk</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">chunk_id</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;chnk_x1y2z3&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">"chnk_x1y2z3"</span>
 <span class="w">        </span><span class="nt">content</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Order</span><span class="nv"> </span><span class="s">#12345</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">$4,299.00</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">Placed</span><span class="nv"> </span><span class="s">2026-06-14&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">"Order</span><span class="nv"> </span><span class="s">#12345</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">$4,299.00</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">Placed</span><span class="nv"> </span><span class="s">2026-06-14"</span>
 <span class="w">        </span><span class="nt">source_url</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">          </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;uri&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">          </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">"uri"</span>
 <span class="w">        </span><span class="nt">relevance_score</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;number&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"number"</span>
 <span class="w">          </span><span class="nt">minimum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
 <span class="w">          </span><span class="nt">maximum</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
 <span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.98</span>
 <span class="w">        </span><span class="nt">metadata</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">          </span><span class="nt">additionalProperties</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">    </span><span class="nt">ConnectorResult</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">connector</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;shopify&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">"shopify"</span>
 <span class="w">        </span><span class="nt">source_label</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Shopify</span><span class="nv"> </span><span class="s">Orders&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">"Shopify</span><span class="nv"> </span><span class="s">Orders"</span>
 <span class="w">        </span><span class="nt">chunks</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;array&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"array"</span>
 <span class="w">          </span><span class="nt">items</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/Chunk&quot;</span>
+<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/Chunk"</span>
 <span class="w">    </span><span class="nt">SearchSummary</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">connectors_searched</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">        </span><span class="nt">total_chunks_found</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">        </span><span class="nt">duration_ms</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">    </span><span class="nt">QueryResponse</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">query_id</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;qry_a1b2c3d4e5f6&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">"qry_a1b2c3d4e5f6"</span>
 <span class="w">        </span><span class="nt">query</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">        </span><span class="nt">results</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;array&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"array"</span>
 <span class="w">          </span><span class="nt">items</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/ConnectorResult&quot;</span>
+<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/ConnectorResult"</span>
 <span class="w">        </span><span class="nt">search_summary</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/SearchSummary&quot;</span>
+<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/SearchSummary"</span>
 <span class="w">    </span><span class="nt">ArchiveResult</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">original_query_id</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">        </span><span class="nt">original_query</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">        </span><span class="nt">matched_chunk</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">          </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">            </span><span class="nt">content</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">            </span><span class="nt">source_connector</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">            </span><span class="nt">queried_at</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">              </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;date-time&quot;</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
+<span class="w">              </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">"date-time"</span>
 <span class="w">        </span><span class="nt">similarity_score</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;number&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"number"</span>
 <span class="w">    </span><span class="nt">DeepSearchResponse</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">query_id</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">        </span><span class="nt">query</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">        </span><span class="nt">archive_results</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;array&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"array"</span>
 <span class="w">          </span><span class="nt">items</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/ArchiveResult&quot;</span>
+<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/ArchiveResult"</span>
 <span class="w">        </span><span class="nt">total_matches</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">        </span><span class="nt">duration_ms</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">    </span><span class="nt">ApiError</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">error</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">          </span><span class="nt">properties</span><span class="p">:</span>
 <span class="w">            </span><span class="nt">type</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">              </span><span class="nt">enum</span><span class="p">:</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;bad_request&quot;</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;unauthorized&quot;</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;forbidden&quot;</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;not_found&quot;</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;conflict&quot;</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;payload_too_large&quot;</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;rate_limited&quot;</span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;server_error&quot;</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"bad_request"</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"unauthorized"</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"forbidden"</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"not_found"</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"conflict"</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"payload_too_large"</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"rate_limited"</span>
+<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"server_error"</span>
 <span class="w">            </span><span class="nt">message</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"string"</span>
 <span class="w">            </span><span class="nt">retry_after_seconds</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"integer"</span>
 <span class="w">            </span><span class="nt">details</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
+<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"object"</span>
 <span class="w">  </span><span class="nt">responses</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">BadRequest</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Invalid</span><span class="nv"> </span><span class="s">request&quot;</span>
+<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Invalid</span><span class="nv"> </span><span class="s">request"</span>
 <span class="w">      </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/ApiError&quot;</span>
+<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/ApiError"</span>
 <span class="w">    </span><span class="nt">Unauthorized</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Authentication</span><span class="nv"> </span><span class="s">required&quot;</span>
+<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Authentication</span><span class="nv"> </span><span class="s">required"</span>
 <span class="w">      </span><span class="nt">headers</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">X-Token-Expired</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;boolean&quot;</span>
+<span class="w">            </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">"boolean"</span>
 <span class="w">      </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/ApiError&quot;</span>
+<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/ApiError"</span>
 <span class="w">    </span><span class="nt">RateLimited</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Rate</span><span class="nv"> </span><span class="s">limit</span><span class="nv"> </span><span class="s">exceeded&quot;</span>
+<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Rate</span><span class="nv"> </span><span class="s">limit</span><span class="nv"> </span><span class="s">exceeded"</span>
 <span class="w">      </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/ApiError&quot;</span>
+<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/ApiError"</span>
 <span class="w">    </span><span class="nt">ServerError</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Internal</span><span class="nv"> </span><span class="s">server</span><span class="nv"> </span><span class="s">error&quot;</span>
+<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Internal</span><span class="nv"> </span><span class="s">server</span><span class="nv"> </span><span class="s">error"</span>
 <span class="w">      </span><span class="nt">content</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">application/json</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/ApiError&quot;</span>
+<span class="w">            </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">"#/components/schemas/ApiError"</span>
 </code></pre></div>
 <h2 id="download">Download<a class="headerlink" href="#download" title="Anchor link to this section">&para;</a></h2>
 <p>The spec is also available as a downloadable file:</p>

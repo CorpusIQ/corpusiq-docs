@@ -11206,12 +11206,12 @@
 </ul>
 <h3 id="add-to-hermes-agent">Add to Hermes Agent<a class="headerlink" href="#add-to-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;tendfeed&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamableHttp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://tendfeed.eu/api/mcp/tendfeed&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;x-api-key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_api_key&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"tendfeed"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamableHttp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://tendfeed.eu/api/mcp/tendfeed"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"x-api-key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_api_key"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11262,31 +11262,31 @@ node<span class="w"> </span>index.js
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-bidno-bid-decision">1. Bid/No-Bid Decision<a class="headerlink" href="#1-bidno-bid-decision" title="Anchor link to this section">&para;</a></h3>
 <p>Stop bidding on everything - bid where the data says you win:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We&#39;re an SME cybersecurity consultancy in Berlin.
+<div class="highlight"><pre><span></span><code>Agent prompt: "We're an SME cybersecurity consultancy in Berlin.
 Show me all open EU tenders in our space this quarter. For each,
-what&#39;s the typical competition, where do winning bids land on price,
-and what&#39;s our beachhead ranking?&quot;
+what's the typical competition, where do winning bids land on price,
+and what's our beachhead ranking?"
 </code></pre></div>
 <h3 id="2-price-to-win-analysis">2. Price-To-Win Analysis<a class="headerlink" href="#2-price-to-win-analysis" title="Anchor link to this section">&para;</a></h3>
 <p>Price your bid inside the observed corridor:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;I&#39;m bidding on a €500K IT infrastructure tender in France.
-Show me the price corridor for similar contracts - what&#39;s the
+<div class="highlight"><pre><span></span><code>Agent prompt: "I'm bidding on a €500K IT infrastructure tender in France.
+Show me the price corridor for similar contracts - what's the
 p25, median, and p75 winning bid? How many bidders typically compete?
-Am I pricing too high or too low?&quot;
+Am I pricing too high or too low?"
 </code></pre></div>
 <h3 id="3-market-entry-strategy">3. Market Entry Strategy<a class="headerlink" href="#3-market-entry-strategy" title="Anchor link to this section">&para;</a></h3>
 <p>Find your beachhead in a new EU market:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;We want to expand from Germany into the Dutch public
+<div class="highlight"><pre><span></span><code>Agent prompt: "We want to expand from Germany into the Dutch public
 sector. What tenders in our category (CPV 72000000 - IT services)
 are open in the Netherlands? Which ones have high SME-fit scores?
-Show me a beachhead ranking sorted by our likely win probability.&quot;
+Show me a beachhead ranking sorted by our likely win probability."
 </code></pre></div>
 <h3 id="4-competitive-landscape-monitoring">4. Competitive Landscape Monitoring<a class="headerlink" href="#4-competitive-landscape-monitoring" title="Anchor link to this section">&para;</a></h3>
 <p>Track what your competitors are winning:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Which companies have won the most cybersecurity
+<div class="highlight"><pre><span></span><code>Agent prompt: "Which companies have won the most cybersecurity
 tenders in the EU this year? Show me their win patterns -
 countries, contract sizes, competition levels. Are there
-underserved segments where we&#39;d face less competition?&quot;
+underserved segments where we'd face less competition?"
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>TendFeed + CorpusIQ = complete procurement operations:</p>

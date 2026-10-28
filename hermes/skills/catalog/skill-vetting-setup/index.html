@@ -11155,10 +11155,10 @@ uv<span class="w"> </span>venv<span class="w"> </span>.venv<span class="w"> </sp
 make<span class="w"> </span>install
 
 <span class="c1"># Make available system-wide</span>
-sudo<span class="w"> </span>bash<span class="w"> </span>-c<span class="w"> </span><span class="s1">&#39;cat &gt; /usr/local/bin/skillspector &lt;&lt; &#39;</span><span class="s2">&quot;&#39;&quot;</span><span class="s1">&#39;EOF&#39;</span><span class="s2">&quot;&#39;&quot;</span><span class="s1">&#39;</span>
+sudo<span class="w"> </span>bash<span class="w"> </span>-c<span class="w"> </span><span class="s1">'cat &gt; /usr/local/bin/skillspector &lt;&lt; '</span><span class="s2">"'"</span><span class="s1">'EOF'</span><span class="s2">"'"</span><span class="s1">'</span>
 <span class="s1">#!/bin/bash</span>
-<span class="s1">exec ~/skillspector/.venv/bin/skillspector &quot;$@&quot;</span>
-<span class="s1">EOF&#39;</span>
+<span class="s1">exec ~/skillspector/.venv/bin/skillspector "$@"</span>
+<span class="s1">EOF'</span>
 sudo<span class="w"> </span>chmod<span class="w"> </span>+x<span class="w"> </span>/usr/local/bin/skillspector
 </code></pre></div>
 <p>Verify:</p>
@@ -11175,8 +11175,8 @@ sudo<span class="w"> </span>chmod<span class="w"> </span>+x<span class="w"> </sp
 <hr />
 <h2 id="4-set-up-weekly-audit-cron-optional">4. Set Up Weekly Audit Cron (Optional)<a class="headerlink" href="#4-set-up-weekly-audit-cron-optional" title="Anchor link to this section">&para;</a></h2>
 <p>Automatically re-scan all installed skills every Monday at noon:</p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 12 * * 1&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Run the skill-vetting periodic audit: scan all installed skills at ~/.hermes/skills/ and report new findings to Telegram&quot;</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">"0 12 * * 1"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Run the skill-vetting periodic audit: scan all installed skills at ~/.hermes/skills/ and report new findings to Telegram"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--skill<span class="w"> </span>skill-vetting<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--toolsets<span class="w"> </span>terminal
 </code></pre></div>

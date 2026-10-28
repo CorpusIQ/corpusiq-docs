@@ -11274,8 +11274,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>msw-ai-coding-plugins-offici
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>plugins/msw-maker-base-skill/skills/msw-general/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/msw-maker-base-skill/skills/msw-scripting/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/msw-maker-content-skill/skills/maplestory-skill-maker/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/msw-git/msw-ai-coding-plugins-official/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/msw-git/msw-ai-coding-plugins-official/main/</span><span class="nv">$p</span><span class="s2">"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the foundation skill and the scripting skill before installing the set, because the read-order rules they impose change how the agent behaves on every later turn:</p>
@@ -11284,7 +11284,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>msw-ai-coding-plugins-offici
 <li>https://raw.githubusercontent.com/msw-git/msw-ai-coding-plugins-official/main/plugins/msw-maker-base-skill/skills/msw-scripting/SKILL.md</li>
 </ul>
 <p>After install, confirm what actually landed. The frontmatter name should match the directory name, which is also the name the install index uses:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;^msw-&#39;</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'^msw-'</span>
 head<span class="w"> </span>-3<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/msw-general/SKILL.md
 </code></pre></div>
 <p>A directory without a <code>references/</code> folder is an incomplete copy: most of the depth in these skills lives in reference files, and <code>msw-general</code> reads several of them in full as a precondition to edits.</p>

@@ -11163,8 +11163,8 @@
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Endpoint: https://mcp.unipost.ai/mcp
 Auth: OAuth in the browser, or a workspace API key for scripts and CI
-Live check: unauthenticated POST initialize returned HTTP 401 {&quot;error&quot;:{&quot;code&quot;:-32001,&quot;message&quot;:&quot;Sign in to UniPost, or create an API key in UniPost → API keys.&quot;}}
-Tools: 7, named in the vendor&#39;s tool reference with parameters and results
+Live check: unauthenticated POST initialize returned HTTP 401 {"error":{"code":-32001,"message":"Sign in to UniPost, or create an API key in UniPost → API keys."}}
+Tools: 7, named in the vendor's tool reference with parameters and results
 Vendor: UniPost (unipost.ai)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
@@ -11192,10 +11192,10 @@ Vendor: UniPost (unipost.ai)
 <p>Setup pages exist per client, including ChatGPT as a custom MCP app on OAuth, Codex, Cursor, Claude Code and Gemini CLI, at https://unipost.ai/agents.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;unipost&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.unipost.ai/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"unipost"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.unipost.ai/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

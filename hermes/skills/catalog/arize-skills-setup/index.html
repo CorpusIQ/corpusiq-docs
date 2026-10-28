@@ -11138,8 +11138,8 @@
 <strong>Category:</strong> AI Observability / LLM Evaluation
 <strong>Quality Tier:</strong> 🟢 Production - official Arize repo under MIT, all 18 indexed listings resolve to a real skill directory, a pytest suite plus CI skill validation, versioned releases at 1.2.0, and sampled verdicts Pass except a Snyk warn on arize-trace</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Install every skill non-interactively, which is what the README&#39;s own prompt does</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>Arize-ai/arize-skills<span class="w"> </span>--skill<span class="w"> </span><span class="s2">&quot;*&quot;</span><span class="w"> </span>--yes
+<div class="highlight"><pre><span></span><code><span class="c1"># Install every skill non-interactively, which is what the README's own prompt does</span>
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>Arize-ai/arize-skills<span class="w"> </span>--skill<span class="w"> </span><span class="s2">"*"</span><span class="w"> </span>--yes
 
 <span class="c1"># Or run the interactive wizard and pick skills, agent and scope</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>Arize-ai/arize-skills
@@ -11147,10 +11147,10 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <div class="highlight"><pre><span></span><code><span class="c1"># Prerequisite: the ax CLI, plus one authenticated profile</span>
 uv<span class="w"> </span>tool<span class="w"> </span>install<span class="w"> </span>arize-ax-cli
 ax<span class="w"> </span>profiles<span class="w"> </span>create<span class="w"> </span>--api-key<span class="w"> </span>YOUR_API_KEY
-<span class="nb">export</span><span class="w"> </span><span class="nv">ARIZE_SPACE</span><span class="o">=</span><span class="s2">&quot;my-workspace&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">ARIZE_SPACE</span><span class="o">=</span><span class="s2">"my-workspace"</span>
 
 <span class="c1"># Or skip profiles and use environment variables directly</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">ARIZE_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-api-key&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">ARIZE_API_KEY</span><span class="o">=</span><span class="s2">"your-api-key"</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="c1"># Git clone path, which also installs the ax CLI if it is missing</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Arize-ai/arize-skills.git

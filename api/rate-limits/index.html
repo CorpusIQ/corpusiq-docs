@@ -11418,10 +11418,10 @@
 <h2 id="exceeding-limits">Exceeding Limits<a class="headerlink" href="#exceeding-limits" title="Anchor link to this section">&para;</a></h2>
 <p>When you exceed a rate limit, the API returns a <code>429 Too Many Requests</code> response:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;rate_limited&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Rate limit exceeded for /query. Try again in 34 seconds.&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;retry_after_seconds&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span>
+<span class="w">  </span><span class="nt">"error"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rate_limited"</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Rate limit exceeded for /query. Try again in 34 seconds."</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"retry_after_seconds"</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
@@ -11429,10 +11429,10 @@
 <h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Anchor link to this section">&para;</a></h2>
 <h3 id="monitor-header-usage">Monitor Header Usage<a class="headerlink" href="#monitor-header-usage" title="Anchor link to this section">&para;</a></h3>
 <p>Check <code>X-RateLimit-Remaining-Minute</code> before making burst requests. If remaining is low, pace your requests or wait for the window to reset.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
 
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
-<span class="n">remaining</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;X-RateLimit-Remaining-Minute&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+<span class="n">remaining</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"X-RateLimit-Remaining-Minute"</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
 
 <span class="k">if</span> <span class="n">remaining</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
     <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># Let the rate limit window catch up</span>

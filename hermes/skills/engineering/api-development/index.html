@@ -11188,10 +11188,10 @@
 <p>Recipe: insert UserSubscription with a placeholder stripe_customer_id like <code>cus_test_&lt;id&gt;</code> for free-tier fixtures, or make the column nullable if the model supports it.</p>
 <h2 id="self-destructing-admin-migration-endpoint-pattern">Self-destructing admin migration endpoint pattern<a class="headerlink" href="#self-destructing-admin-migration-endpoint-pattern" title="Anchor link to this section">&para;</a></h2>
 <p>For live DB changes that need to run once in prod without a full migration cycle:</p>
-<div class="highlight"><pre><span></span><code><span class="nd">@router</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;/admin/migrations/&lt;name&gt;&quot;</span><span class="p">)</span>
-<span class="k">async</span> <span class="k">def</span> <span class="nf">run_migration_</span><span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="nd">@router</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">"/admin/migrations/&lt;name&gt;"</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">run_migration_</span><span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
     <span class="c1"># 1. Auth: require admin role + signed migration token</span>
-    <span class="c1"># 2. Idempotency: read a marker row; if present, return 200 &quot;already ran&quot;</span>
+    <span class="c1"># 2. Idempotency: read a marker row; if present, return 200 "already ran"</span>
     <span class="c1"># 3. Run the migration</span>
     <span class="c1"># 4. Write the marker row</span>
     <span class="c1"># 5. Log to audit_logs with full context (who, when, rows affected)</span>
@@ -11202,14 +11202,14 @@
 <h2 id="deploy-verification">Deploy verification<a class="headerlink" href="#deploy-verification" title="Anchor link to this section">&para;</a></h2>
 <p>Cloud Run deploys complete in 2-4 minutes. After a merge, verify the deploy actually shipped your code:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Confirm the deploy workflow finished successfully</span>
-gh<span class="w"> </span>run<span class="w"> </span>list<span class="w"> </span>--workflow<span class="o">=</span><span class="s2">&quot;deploy.yml&quot;</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">1</span>
+gh<span class="w"> </span>run<span class="w"> </span>list<span class="w"> </span>--workflow<span class="o">=</span><span class="s2">"deploy.yml"</span><span class="w"> </span>--limit<span class="w"> </span><span class="m">1</span>
 
 <span class="c1"># 2. Fetch the live OpenAPI spec</span>
-curl<span class="w"> </span>-s<span class="w"> </span>https://api.&lt;your-domain&gt;/openapi.json<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;.paths | keys[] | select(test(&quot;&lt;new-path&gt;&quot;))&#39;</span>
+curl<span class="w"> </span>-s<span class="w"> </span>https://api.&lt;your-domain&gt;/openapi.json<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">'.paths | keys[] | select(test("&lt;new-path&gt;"))'</span>
 
 <span class="c1"># 3. If you added a docstring to a new endpoint, the FastAPI-generated spec</span>
-<span class="c1">#    will surface that docstring. Grep for it as a &quot;yes, the new code is live&quot; probe.</span>
-curl<span class="w"> </span>-s<span class="w"> </span>https://api.&lt;your-domain&gt;/openapi.json<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;&lt;unique docstring phrase&gt;&quot;</span>
+<span class="c1">#    will surface that docstring. Grep for it as a "yes, the new code is live" probe.</span>
+curl<span class="w"> </span>-s<span class="w"> </span>https://api.&lt;your-domain&gt;/openapi.json<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">"&lt;unique docstring phrase&gt;"</span>
 </code></pre></div>
 <p>The FastAPI docstring trick is the simplest "is my code actually deployed" verification. It works because FastAPI generates the OpenAPI spec from live introspection of the running app, not from a file in the repo. If the docstring is in the response, the new code is running.</p>
 <h2 id="database-backend">Database backend<a class="headerlink" href="#database-backend" title="Anchor link to this section">&para;</a></h2>

@@ -11283,7 +11283,7 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/nesqu
 pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 
 <span class="c1"># Set a strong password</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">HERMES_WEBUI_PASSWORD</span><span class="o">=</span><span class="s2">&quot;your-strong-password-here&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">HERMES_WEBUI_PASSWORD</span><span class="o">=</span><span class="s2">"your-strong-password-here"</span>
 
 <span class="c1"># Start the server</span>
 python<span class="w"> </span>main.py
@@ -11315,7 +11315,7 @@ cloudflared<span class="w"> </span>tunnel<span class="w"> </span>--url<span clas
 <span class="w">        </span><span class="kn">proxy_pass</span><span class="w"> </span><span class="s">http://127.0.0.1:8787</span><span class="p">;</span>
 <span class="w">        </span><span class="kn">proxy_http_version</span><span class="w"> </span><span class="mi">1</span><span class="s">.1</span><span class="p">;</span>
 <span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">Upgrade</span><span class="w"> </span><span class="nv">$http_upgrade</span><span class="p">;</span>
-<span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">Connection</span><span class="w"> </span><span class="s">&quot;upgrade&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">Connection</span><span class="w"> </span><span class="s">"upgrade"</span><span class="p">;</span>
 <span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">Host</span><span class="w"> </span><span class="nv">$host</span><span class="p">;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11328,7 +11328,7 @@ tailscale<span class="w"> </span>up
 <span class="c1"># On your iPhone: install Tailscale app, connect to same tailnet</span>
 
 <span class="c1"># Run hermes-webui bound to all interfaces</span>
-<span class="nv">HERMES_WEBUI_PASSWORD</span><span class="o">=</span><span class="s2">&quot;your-password&quot;</span><span class="w"> </span>python<span class="w"> </span>main.py<span class="w"> </span>--host<span class="w"> </span><span class="m">0</span>.0.0.0
+<span class="nv">HERMES_WEBUI_PASSWORD</span><span class="o">=</span><span class="s2">"your-password"</span><span class="w"> </span>python<span class="w"> </span>main.py<span class="w"> </span>--host<span class="w"> </span><span class="m">0</span>.0.0.0
 
 <span class="c1"># In Hermex: connect to http://&lt;tailnet-ip&gt;:8787</span>
 </code></pre></div>

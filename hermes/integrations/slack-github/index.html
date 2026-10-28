@@ -11399,7 +11399,7 @@
 <h2 id="mcp-server-setup">MCP Server Setup<a class="headerlink" href="#mcp-server-setup" title="Anchor link to this section">&para;</a></h2>
 <h3 id="github-tools">GitHub Tools<a class="headerlink" href="#github-tools" title="Anchor link to this section">&para;</a></h3>
 <p>Configure your Hermes environment with a GitHub personal access token:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="s2">&quot;ghp_xxxxxxxxxxxx&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">GITHUB_TOKEN</span><span class="o">=</span><span class="s2">"ghp_xxxxxxxxxxxx"</span>
 </code></pre></div>
 <p>Required scopes: <code>repo</code> (private repos), <code>read:org</code> (organization access), <code>notifications</code> (for polling).</p>
 <p>The key tools you'll use:
@@ -11409,7 +11409,7 @@
 - Read commit history and diffs</p>
 <h3 id="slack-tools">Slack Tools<a class="headerlink" href="#slack-tools" title="Anchor link to this section">&para;</a></h3>
 <p>Configure a Slack bot token:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">SLACK_BOT_TOKEN</span><span class="o">=</span><span class="s2">&quot;xoxb-xxxxxxxxxxxx&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">SLACK_BOT_TOKEN</span><span class="o">=</span><span class="s2">"xoxb-xxxxxxxxxxxx"</span>
 </code></pre></div>
 <p>Required scopes: <code>chat:write</code>, <code>channels:read</code>, <code>channels:history</code>, <code>users:read</code>.</p>
 <p>Key tools:
@@ -11426,7 +11426,7 @@
 3. If new, post a notification with: PR title, author, branch, lines changed, link, and time open
 4. If aging (&gt;24 hours without review), escalate with @channel mention</p>
 <p><strong>Hermes Prompt:</strong>
-<div class="highlight"><pre><span></span><code>Check GitHub for open pull requests in [ORG/REPO]. For each PR that hasn&#39;t been reviewed within [HOURS], post a notification to Slack #[CHANNEL]. Skip PRs we&#39;ve already notified about. Format: PR title, author, link, lines changed, hours since creation. Escalate PRs older than 24h.
+<div class="highlight"><pre><span></span><code>Check GitHub for open pull requests in [ORG/REPO]. For each PR that hasn't been reviewed within [HOURS], post a notification to Slack #[CHANNEL]. Skip PRs we've already notified about. Format: PR title, author, link, lines changed, hours since creation. Escalate PRs older than 24h.
 </code></pre></div></p>
 <h3 id="issue-triage-assistant">Issue Triage Assistant<a class="headerlink" href="#issue-triage-assistant" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Goal:</strong> Route new GitHub issues to the right Slack channel based on labels.</p>

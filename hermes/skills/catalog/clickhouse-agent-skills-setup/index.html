@@ -11274,8 +11274,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>agent-skills/skills/clickhou
 <span class="w">         </span>skills/chdb-sql/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/infra-clickhouse/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/clickhouse-js-node-rowbinary/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/clickhouse/agent-skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/clickhouse/agent-skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two that touch a live account before installing them:</p>
@@ -11284,7 +11284,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>agent-skills/skills/clickhou
 <li>https://raw.githubusercontent.com/clickhouse/agent-skills/main/skills/infra-postgres/SKILL.md</li>
 </ul>
 <p>After install, confirm what landed rather than trusting the installer's summary:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">&#39;^(clickhouse|chdb|clickstack|infra)-&#39;</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">'^(clickhouse|chdb|clickstack|infra)-'</span>
 head<span class="w"> </span>-5<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/clickhouse-best-practices/SKILL.md
 </code></pre></div>
 <p>The <code>head</code> output should show the frontmatter name <code>clickhouse-best-practices</code>, which is also the name the install index uses. For the Python side, the chDB skills ship their own environment check, a local script that verifies the Python version, imports chdb, runs a basic query, checks DataFrame output and exercises <code>Session</code> and a parametrized query:</p>

@@ -11272,7 +11272,7 @@
 <span class="w">    </span><span class="nt">max_tasks</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5</span>
 
 <span class="nt">notifications</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">telegram_topic</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;CorpusIQ</span><span class="nv"> </span><span class="s">Team/2&quot;</span>
+<span class="w">  </span><span class="nt">telegram_topic</span><span class="p">:</span><span class="w"> </span><span class="s">"CorpusIQ</span><span class="nv"> </span><span class="s">Team/2"</span>
 <span class="w">  </span><span class="nt">on_complete</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">  </span><span class="nt">on_error</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
@@ -11280,7 +11280,7 @@
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="dispatch-a-swarm-task">Dispatch a Swarm Task<a class="headerlink" href="#dispatch-a-swarm-task" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>minions-hermes-mission-control<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--dispatch<span class="w"> </span><span class="s2">&quot;Research top 5 AI agent trends for Q3 2026&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--dispatch<span class="w"> </span><span class="s2">"Research top 5 AI agent trends for Q3 2026"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--agents<span class="w"> </span>corpusiq-growth,corpusiq-research<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--board<span class="w"> </span>trends-research
 </code></pre></div>
@@ -11345,11 +11345,11 @@
 </ul>
 <h3 id="example-overnight-content-sweep">Example: Overnight Content Sweep<a class="headerlink" href="#example-overnight-content-sweep" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>minions-hermes-mission-control<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--dispatch<span class="w"> </span><span class="s2">&quot;Full overnight sweep: skills.sh + social mining + email check&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--dispatch<span class="w"> </span><span class="s2">"Full overnight sweep: skills.sh + social mining + email check"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--agents<span class="w"> </span>corpusiq-growth,corpusiq-research<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--strategy<span class="w"> </span>scatter<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--board<span class="w"> </span>overnight-sweep<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 2 * * *&quot;</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 2 * * *"</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
@@ -11358,7 +11358,7 @@ hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"
 
 <span class="c1"># Test with a simple dispatch</span>
 hermes<span class="w"> </span>skill<span class="w"> </span>invoke<span class="w"> </span>minions-hermes-mission-control<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--dispatch<span class="w"> </span><span class="s2">&quot;Self-test: echo &#39;hello&#39; and return&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--dispatch<span class="w"> </span><span class="s2">"Self-test: echo 'hello' and return"</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--agents<span class="w"> </span>corpusiq-growth<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--board<span class="w"> </span>test-board
 

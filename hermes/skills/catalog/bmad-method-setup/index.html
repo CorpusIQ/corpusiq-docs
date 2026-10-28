@@ -11139,7 +11139,7 @@
 <p>The suite ships on two lines. The stable v6.12 release is installed by the npm installer and frozen aside from bug fixes, while the skills on this branch are the V7 preview alpha, which the README says changes often and expects breaking changes from. Both routes want <code>uv</code> for setup and for the Python scripts the skills call. The v6.11.0 changelog entry explains how the current catalog got its shape: core dropped from fourteen skills to eight, six older review and editorial skills became <code>bmad-review</code> lenses (<code>adversarial</code>, <code>edge-case-hunter</code>, <code>verification-gap</code>, <code>structure</code>, <code>prose</code>), the research trio consolidated into <code>bmad-deep-recon</code>, and the preview branch has since handed <code>bmad-spec</code>, <code>bmad-ticket</code> and <code>bmad-correct-course</code> to Sofia the product owner.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>The README leads with the skills.sh CLI for the V7 preview. Run it in the project you want BMad to work on:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>bmad-code-org/BMAD-METHOD<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>bmad-code-org/BMAD-METHOD<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span>
 </code></pre></div>
 <p><code>--skill '*'</code> installs the full method and asks which coding tools to install to. To pick skills instead, run the command without <code>--skill '*'</code> and include <code>bmad</code> for setup and help, plus the module record for each module you take skills from: <code>bmod-method</code> and <code>bmod-core-tools</code>.</p>
 <p>The stable line is a different installer, with Node.js 20.12+ and Python 3.10+:</p>
@@ -11373,8 +11373,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>bmad-method/skills/bmod-meth
 <span class="w">         </span>skills/bmad-party-mode/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/bmad-review/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/bmod-method/bmod.toml<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/bmad-code-org/bmad-method/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/bmad-code-org/bmad-method/main/</span><span class="nv">$p</span><span class="s2">"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the hub before installing the rest, since it is the one that writes <code>_bmad/</code>:</p>
@@ -11383,7 +11383,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>bmad-method/skills/bmod-meth
 <li>https://raw.githubusercontent.com/bmad-code-org/bmad-method/main/skills/bmad/references/setup.md</li>
 </ul>
 <p>After install, confirm what landed. The install index names match the frontmatter <code>name</code> field, so a mismatch means you are reading a stale copy:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">&#39;^(bmad|bmod)-&#39;</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">'^(bmad|bmod)-'</span>
 head<span class="w"> </span>-5<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/bmad/SKILL.md
 </code></pre></div>
 <p>Then run the hub once in a scratch project and ask for <code>bmad status</code>. It writes nothing, and it is the cheapest way to see whether <code>_bmad/</code> and the module records line up.</p>

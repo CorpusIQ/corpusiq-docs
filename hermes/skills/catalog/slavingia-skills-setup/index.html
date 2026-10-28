@@ -11141,7 +11141,7 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># Install all 10 skills with the skills CLI</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>slavingia/skills
 
-<span class="c1"># Or use the repo README&#39;s own Claude Code plugin path</span>
+<span class="c1"># Or use the repo README's own Claude Code plugin path</span>
 /plugin<span class="w"> </span>marketplace<span class="w"> </span>add<span class="w"> </span>slavingia/skills
 /plugin<span class="w"> </span>install<span class="w"> </span>minimalist-entrepreneur
 </code></pre></div>
@@ -11260,7 +11260,7 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/slavi
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;validate-idea|minimalist-review|processize&quot;</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"validate-idea|minimalist-review|processize"</span>
 </code></pre></div>
 <p>Read the skills before installing. The five URLs below returned 200 with <code>curl -s -o /dev/null -w "%{http_code}"</code> when checked on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/slavingia/skills/main/README.md
@@ -11270,7 +11270,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/slavingia/skills/main/skills/minimalist-review/SKILL.md
 </code></pre></div>
 <p>The directory listing behind the install index also returned 200 on the same date:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/slavingia/skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;&quot;name&quot;&#39;</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/slavingia/skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">'"name"'</span>
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>skills.sh verdicts for sampled skills (verified Oct 26, 2026) - re-check the security pages on skills.sh before production use:</p>

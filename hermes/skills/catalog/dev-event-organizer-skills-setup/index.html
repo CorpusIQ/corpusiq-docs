@@ -11141,7 +11141,7 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># Install the whole suite: the README explicitly warns against installing one skill</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>samber/dev-event-organizer-skills
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="c1"># Claude Code, from the README&#39;s own plugin path</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Claude Code, from the README's own plugin path</span>
 /plugin<span class="w"> </span>marketplace<span class="w"> </span>add<span class="w"> </span>samber/dev-event-organizer-skills
 /plugin<span class="w"> </span>install<span class="w"> </span>dev-event-organizer-skills@dev-event-organizer-skills
 
@@ -11311,7 +11311,7 @@ gemini<span class="w"> </span>extensions<span class="w"> </span>install<span cla
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;dev-event-kickoff|event-budget|event-sponsor-pricing&quot;</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"dev-event-kickoff|event-budget|event-sponsor-pricing"</span>
 </code></pre></div>
 <p>Read the skills before installing. All five URLs below returned 200 with <code>curl -s -o /dev/null -w "%{http_code}"</code> when checked on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/samber/dev-event-organizer-skills/main/README.md
@@ -11321,7 +11321,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/samber/dev-event-organizer-skills/main/skills/hackathon-brief-design/SKILL.md
 </code></pre></div>
 <p>The directory listing behind the install index also returned 200 on the same date, and is the fastest way to see which skills exist today:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/samber/dev-event-organizer-skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;&quot;name&quot;&#39;</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/samber/dev-event-organizer-skills/contents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">'"name"'</span>
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>skills.sh verdicts for sampled skills (verified Oct 26, 2026) - re-check the security pages on skills.sh before production use:</p>

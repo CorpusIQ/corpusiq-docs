@@ -11207,12 +11207,12 @@ Built by: Solnk (solnk.com)
 <h2 id="connect">Connect<a class="headerlink" href="#connect" title="Anchor link to this section">&para;</a></h2>
 <p>Clients with native Streamable HTTP connect directly to <code>https://mcp.solnk.com/mcp</code> with an <code>Authorization: Bearer &lt;key&gt;</code> header. Clients that reach remote servers through <code>mcp-remote</code> use:</p>
 <div class="highlight"><pre><span></span><code>{
-  &quot;mcpServers&quot;: {
-    &quot;solnk&quot;: {
-      &quot;command&quot;: &quot;npx&quot;,
-      &quot;args&quot;: [&quot;-y&quot;, &quot;mcp-remote&quot;, &quot;https://mcp.solnk.com/mcp&quot;,
-               &quot;--header&quot;, &quot;Authorization:Bearer &lt;key&gt;&quot;],
-      &quot;env&quot;: { &quot;SOLNK_API_KEY&quot;: &quot;&lt;key&gt;&quot; }
+  "mcpServers": {
+    "solnk": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.solnk.com/mcp",
+               "--header", "Authorization:Bearer &lt;key&gt;"],
+      "env": { "SOLNK_API_KEY": "&lt;key&gt;" }
     }
   }
 }

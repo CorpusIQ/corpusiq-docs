@@ -11290,7 +11290,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>hermes-skills/three-agent-br
 <span class="nt">three_agent_bridge</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">bridge_path</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/mnt/shared/hermes/bridge-chat.jsonl</span>
 <span class="w">  </span><span class="nt">poll_interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2</span><span class="w">  </span><span class="c1"># seconds</span>
-<span class="w">  </span><span class="nt">my_name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;desktop&quot;</span><span class="w">  </span><span class="c1"># unique per agent: &quot;desktop&quot; or &quot;vps&quot;</span>
+<span class="w">  </span><span class="nt">my_name</span><span class="p">:</span><span class="w"> </span><span class="s">"desktop"</span><span class="w">  </span><span class="c1"># unique per agent: "desktop" or "vps"</span>
 </code></pre></div>
 <h3 id="option-b-vps-hosted-ssh-polling">Option B: VPS-Hosted (SSH Polling)<a class="headerlink" href="#option-b-vps-hosted-ssh-polling" title="Anchor link to this section">&para;</a></h3>
 <p>Desktop polls VPS via SSH:</p>
@@ -11299,12 +11299,12 @@ cp<span class="w"> </span>-r<span class="w"> </span>hermes-skills/three-agent-br
 <span class="w">  </span><span class="nt">ssh_host</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">user@vps-ip</span>
 <span class="w">  </span><span class="nt">bridge_path</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/root/.hermes/shared/bridge-chat.jsonl</span>
 <span class="w">  </span><span class="nt">polling_script</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
-<span class="w">    </span><span class="no">ssh user@vps &quot;tail -20 /root/.hermes/shared/bridge-chat.jsonl&quot; &gt; /tmp/bridge-snapshot.jsonl</span>
+<span class="w">    </span><span class="no">ssh user@vps "tail -20 /root/.hermes/shared/bridge-chat.jsonl" &gt; /tmp/bridge-snapshot.jsonl</span>
 <span class="w">  </span><span class="nt">poll_interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="c1"># Start polling as background process</span>
 <span class="k">while</span><span class="w"> </span>true<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>ssh<span class="w"> </span>user@vps<span class="w"> </span><span class="s2">&quot;tail -20 /root/.hermes/shared/bridge-chat.jsonl&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>/tmp/bridge-snapshot.jsonl
+<span class="w">  </span>ssh<span class="w"> </span>user@vps<span class="w"> </span><span class="s2">"tail -20 /root/.hermes/shared/bridge-chat.jsonl"</span><span class="w"> </span>&gt;<span class="w"> </span>/tmp/bridge-snapshot.jsonl
 <span class="w">  </span>sleep<span class="w"> </span><span class="m">2</span>
 <span class="k">done</span>
 </code></pre></div>
@@ -11318,17 +11318,17 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/hermes-bridge
 
 <span class="c1"># Configure in Syncthing UI (http://localhost:8384):</span>
 <span class="c1"># - Add ~/hermes-bridge to both devices</span>
-<span class="c1"># - Enable &quot;Send &amp; Accept&quot; on both sides</span>
-<span class="c1"># - Set to &quot;File Versioning: Trash Can File Versioning&quot;</span>
+<span class="c1"># - Enable "Send &amp; Accept" on both sides</span>
+<span class="c1"># - Set to "File Versioning: Trash Can File Versioning"</span>
 
 <span class="c1"># Both agents write/read from ~/hermes-bridge/bridge-chat.jsonl</span>
 </code></pre></div>
 <h2 id="5-bridge-file-protocol">5. Bridge File Protocol<a class="headerlink" href="#5-bridge-file-protocol" title="Anchor link to this section">&para;</a></h2>
 <h3 id="message-format">Message Format<a class="headerlink" href="#message-format" title="Anchor link to this section">&para;</a></h3>
 <p>Each line in <code>bridge-chat.jsonl</code> is a JSON object:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;desktop&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Starting deployment pipeline...&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-24T14:30:00Z&quot;</span><span class="p">}</span>
-<span class="p">{</span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vps&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Pipeline received. Executing step 1...&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-24T14:30:02Z&quot;</span><span class="p">}</span>
-<span class="p">{</span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;human&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Hold deployment - I need to review the config first&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-24T14:30:05Z&quot;</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">"sender"</span><span class="p">:</span><span class="w"> </span><span class="s2">"desktop"</span><span class="p">,</span><span class="w"> </span><span class="nt">"level"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="nt">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Starting deployment pipeline..."</span><span class="p">,</span><span class="w"> </span><span class="nt">"ts"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-06-24T14:30:00Z"</span><span class="p">}</span>
+<span class="p">{</span><span class="nt">"sender"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vps"</span><span class="p">,</span><span class="w"> </span><span class="nt">"level"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="nt">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Pipeline received. Executing step 1..."</span><span class="p">,</span><span class="w"> </span><span class="nt">"ts"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-06-24T14:30:02Z"</span><span class="p">}</span>
+<span class="p">{</span><span class="nt">"sender"</span><span class="p">:</span><span class="w"> </span><span class="s2">"human"</span><span class="p">,</span><span class="w"> </span><span class="nt">"level"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="nt">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Hold deployment - I need to review the config first"</span><span class="p">,</span><span class="w"> </span><span class="nt">"ts"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-06-24T14:30:05Z"</span><span class="p">}</span>
 </code></pre></div>
 <h3 id="priority-levels">Priority Levels<a class="headerlink" href="#priority-levels" title="Anchor link to this section">&para;</a></h3>
 <table>
@@ -11365,25 +11365,25 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/hermes-bridge
 <h3 id="conversation-mirroring">Conversation Mirroring<a class="headerlink" href="#conversation-mirroring" title="Anchor link to this section">&para;</a></h3>
 <p>Each agent mirrors its Telegram conversation to the bridge:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Pseudocode for conversation mirroring</span>
-<span class="k">def</span> <span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
     <span class="n">bridge_entry</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">&quot;sender&quot;</span><span class="p">:</span> <span class="n">AGENT_NAME</span><span class="p">,</span>
-        <span class="s2">&quot;level&quot;</span><span class="p">:</span> <span class="n">infer_priority</span><span class="p">(</span><span class="n">msg</span><span class="p">),</span>
-        <span class="s2">&quot;text&quot;</span><span class="p">:</span> <span class="n">msg</span><span class="o">.</span><span class="n">text</span><span class="p">,</span>
-        <span class="s2">&quot;ts&quot;</span><span class="p">:</span> <span class="n">current_timestamp</span><span class="p">()</span>
+        <span class="s2">"sender"</span><span class="p">:</span> <span class="n">AGENT_NAME</span><span class="p">,</span>
+        <span class="s2">"level"</span><span class="p">:</span> <span class="n">infer_priority</span><span class="p">(</span><span class="n">msg</span><span class="p">),</span>
+        <span class="s2">"text"</span><span class="p">:</span> <span class="n">msg</span><span class="o">.</span><span class="n">text</span><span class="p">,</span>
+        <span class="s2">"ts"</span><span class="p">:</span> <span class="n">current_timestamp</span><span class="p">()</span>
     <span class="p">}</span>
     <span class="n">append_to_bridge</span><span class="p">(</span><span class="n">bridge_entry</span><span class="p">)</span>
 </code></pre></div>
 <p>The other agent polls the bridge file and reacts accordingly.</p>
 <h2 id="6-usage">6. Usage<a class="headerlink" href="#6-usage" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Load the skill and configure bridge</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span class="w"> </span><span class="s2">&quot;Set up bridge at /mnt/shared/hermes/bridge-chat.jsonl as desktop agent&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span class="w"> </span><span class="s2">"Set up bridge at /mnt/shared/hermes/bridge-chat.jsonl as desktop agent"</span>
 
 <span class="c1"># Send a message to the other agent</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span class="w"> </span><span class="s2">&quot;Send to vps: deploy the latest release candidate&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span class="w"> </span><span class="s2">"Send to vps: deploy the latest release candidate"</span>
 
 <span class="c1"># Check bridge for pending messages from the other agent</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span class="w"> </span><span class="s2">&quot;Check bridge for messages since last read&quot;</span>
+hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span class="w"> </span><span class="s2">"Check bridge for messages since last read"</span>
 </code></pre></div>
 <h2 id="7-corpusiq-use-cases">7. CorpusIQ Use Cases<a class="headerlink" href="#7-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <table>

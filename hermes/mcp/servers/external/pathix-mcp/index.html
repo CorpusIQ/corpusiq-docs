@@ -11106,17 +11106,17 @@
 <p>Pathix is a forensics platform for Microsoft Dynamics 365 and the Dataverse. It scans an environment and parses compiled plugin IL, classic workflow XAML, Power Automate flow definition JSON, form scripts, canvas app Power Fx, dataflows, and the security model. The resulting dependency graph is exposed as read-only MCP tools.</p>
 <p><strong>For operators in Microsoft-ecosystem enterprises:</strong> Pathix answers the questions the native Dataverse MCP cannot: what writes a given column, what reads it, what breaks if you change a table, who can actually reach it, and which recent deployment explains a field behaving differently.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Self-hosted, commercial - runs in customer&#39;s Azure subscription</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Self-hosted, commercial - runs in customer's Azure subscription</span>
 <span class="c1"># No public endpoint or standalone install</span>
 <span class="c1"># Deployment via Azure Marketplace: https://pathix.app</span>
 </code></pre></div>
 <h2 id="claude-desktop-hermes-config">Claude Desktop / Hermes Config<a class="headerlink" href="#claude-desktop-hermes-config" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;pathix&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://YOUR-PATHIX-DEPLOYMENT.azurewebsites.net/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;auth&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;oauth&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"pathix"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://YOUR-PATHIX-DEPLOYMENT.azurewebsites.net/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"auth"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oauth"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

@@ -11146,7 +11146,7 @@ npm<span class="w"> </span>install<span class="w"> </span>--global<span class="w
 meticulous<span class="w"> </span>auth<span class="w"> </span>login
 
 <span class="c1"># 3. Install the skills into your project</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>alwaysmeticulous/skills<span class="w"> </span>--skill<span class="w"> </span><span class="s2">&quot;*&quot;</span><span class="w"> </span>--agent<span class="w"> </span>claude-code<span class="w"> </span>--agent<span class="w"> </span>codex<span class="w"> </span>--agent<span class="w"> </span>cursor<span class="w"> </span>-y
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>alwaysmeticulous/skills<span class="w"> </span>--skill<span class="w"> </span><span class="s2">"*"</span><span class="w"> </span>--agent<span class="w"> </span>claude-code<span class="w"> </span>--agent<span class="w"> </span>codex<span class="w"> </span>--agent<span class="w"> </span>cursor<span class="w"> </span>-y
 </code></pre></div>
 <p>Claude Code plugin (installs all skills and connects the hosted MCP server):</p>
 <div class="highlight"><pre><span></span><code>/plugin marketplace add alwaysmeticulous/skills
@@ -11268,7 +11268,7 @@ codex<span class="w"> </span>mcp<span class="w"> </span>login<span class="w"> </
 <div class="highlight"><pre><span></span><code><span class="c1"># Claude Code and skills-directory agents - check the skills landed</span>
 ls<span class="w"> </span>~/.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>meticulous
 
-<span class="c1"># Review a skill&#39;s SKILL.md straight from GitHub before installing</span>
+<span class="c1"># Review a skill's SKILL.md straight from GitHub before installing</span>
 curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/alwaysmeticulous/skills/main/skills/meticulous-review/SKILL.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-20
 </code></pre></div>
 <p>Skills installed via the plugin are namespaced as <code>/meticulous:&lt;skill-name&gt;</code>; skills installed via <code>npx</code> land in the directory your agent scans.</p>

@@ -11291,26 +11291,26 @@ skills-gallery
 skills-gallery<span class="w"> </span>categories
 
 <span class="c1"># Browse skills in a category</span>
-skills-gallery<span class="w"> </span>browse<span class="w"> </span>--category<span class="w"> </span><span class="s2">&quot;Agent Systems&quot;</span>
+skills-gallery<span class="w"> </span>browse<span class="w"> </span>--category<span class="w"> </span><span class="s2">"Agent Systems"</span>
 
 <span class="c1"># Search for specific skills</span>
-skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;memory context&quot;</span>
+skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">"memory context"</span>
 
 <span class="c1"># Install a specific skill to Hermes</span>
 skills-gallery<span class="w"> </span>install<span class="w"> </span>--skill<span class="w"> </span>memory-bridge<span class="w"> </span>--agent<span class="w"> </span>hermes
 
 <span class="c1"># Install all skills from a category</span>
-skills-gallery<span class="w"> </span>install<span class="w"> </span>--category<span class="w"> </span><span class="s2">&quot;Security&quot;</span><span class="w"> </span>--agent<span class="w"> </span>hermes
+skills-gallery<span class="w"> </span>install<span class="w"> </span>--category<span class="w"> </span><span class="s2">"Security"</span><span class="w"> </span>--agent<span class="w"> </span>hermes
 </code></pre></div>
 <h3 id="method-2-programmatic-api">Method 2: Programmatic API<a class="headerlink" href="#method-2-programmatic-api" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1">// In your own tooling</span>
-<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">catalog</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;skills-gallery&#39;</span><span class="p">;</span>
+<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">catalog</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">'skills-gallery'</span><span class="p">;</span>
 
 <span class="c1">// Get all skills compatible with Hermes Agent</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">hermesSkills</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">catalog</span><span class="p">.</span><span class="nx">filterByAgent</span><span class="p">(</span><span class="s1">&#39;hermes-agent&#39;</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">hermesSkills</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">catalog</span><span class="p">.</span><span class="nx">filterByAgent</span><span class="p">(</span><span class="s1">'hermes-agent'</span><span class="p">);</span>
 
 <span class="c1">// Search skills</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">memorySkills</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">catalog</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="s1">&#39;memory management&#39;</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">memorySkills</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">catalog</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="s1">'memory management'</span><span class="p">);</span>
 
 <span class="c1">// Get category breakdown</span>
 <span class="kd">const</span><span class="w"> </span><span class="nx">categories</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">catalog</span><span class="p">.</span><span class="nx">getCategories</span><span class="p">();</span>
@@ -11383,18 +11383,18 @@ skills-gallery<span class="w"> </span>list<span class="w"> </span>--agent<span c
 <h2 id="use-cases-for-corpusiq">Use Cases for CorpusIQ<a class="headerlink" href="#use-cases-for-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-growth-operations-automation">1. Growth Operations Automation<a class="headerlink" href="#1-growth-operations-automation" title="Anchor link to this section">&para;</a></h3>
 <p>Install marketing, social media, and content creation skills to automate growth workflows:</p>
-<div class="highlight"><pre><span></span><code>skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">&quot;Social &amp; Media&quot;</span>
-skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">&quot;Content &amp; Docs&quot;</span>
+<div class="highlight"><pre><span></span><code>skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">"Social &amp; Media"</span>
+skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">"Content &amp; Docs"</span>
 </code></pre></div>
 <h3 id="2-lead-qualification-pipeline">2. Lead Qualification Pipeline<a class="headerlink" href="#2-lead-qualification-pipeline" title="Anchor link to this section">&para;</a></h3>
 <p>Combine CRM, data analysis, and automation skills:</p>
-<div class="highlight"><pre><span></span><code>skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;CRM lead qualification&quot;</span>
-skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;data enrichment&quot;</span>
+<div class="highlight"><pre><span></span><code>skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">"CRM lead qualification"</span>
+skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">"data enrichment"</span>
 </code></pre></div>
 <h3 id="3-agent-infrastructure">3. Agent Infrastructure<a class="headerlink" href="#3-agent-infrastructure" title="Anchor link to this section">&para;</a></h3>
 <p>Enhance Hermes with memory, coordination, and evaluation skills:</p>
-<div class="highlight"><pre><span></span><code>skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">&quot;Agent Systems&quot;</span>
-skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">&quot;AI &amp; ML&quot;</span>
+<div class="highlight"><pre><span></span><code>skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">"Agent Systems"</span>
+skills-gallery<span class="w"> </span>install<span class="w"> </span>--agent<span class="w"> </span>hermes<span class="w"> </span>--category<span class="w"> </span><span class="s2">"AI &amp; ML"</span>
 </code></pre></div>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
@@ -11436,7 +11436,7 @@ skills-gallery<span class="w"> </span>stats
 skills-gallery<span class="w"> </span>list<span class="w"> </span>--agent<span class="w"> </span>hermes
 
 <span class="c1"># Test search</span>
-skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;context window&quot;</span>
+skills-gallery<span class="w"> </span>search<span class="w"> </span><span class="s2">"context window"</span>
 </code></pre></div>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://github.com/uthumany/Skills-Gallery">Skills Gallery on GitHub</a> →</em></p>

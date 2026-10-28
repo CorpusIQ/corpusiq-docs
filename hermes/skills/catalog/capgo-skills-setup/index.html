@@ -11328,8 +11328,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>capgo-skills/skills/capgo-li
 <span class="w">         </span>skills/capacitor-mcp/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/capacitor-best-practices/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/capgo-cloud/skills/capgo-live-updates/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/Cap-go/capgo-skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/Cap-go/capgo-skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two that touch credentials and remote state before installing them:</p>
@@ -11338,7 +11338,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>capgo-skills/skills/capgo-li
 <li>https://raw.githubusercontent.com/Cap-go/capgo-skills/main/skills/capacitor-security/SKILL.md</li>
 </ul>
 <p>After install, each skill appears as one directory with its own <code>SKILL.md</code>. Confirm what actually landed before relying on a skill being present, since the CLI decides what it copies:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">&#39;^(capacitor|capgo)-&#39;</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-cE<span class="w"> </span><span class="s1">'^(capacitor|capgo)-'</span>
 head<span class="w"> </span>-5<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/capgo-live-updates/SKILL.md
 </code></pre></div>
 <p>The <code>head</code> output should show the frontmatter name <code>capgo-live-updates</code>, which is also the name the install index uses, so a mismatch there means you are reading a stale copy.</p>

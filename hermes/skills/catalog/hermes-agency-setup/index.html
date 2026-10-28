@@ -11655,23 +11655,23 @@ hermes<span class="w"> </span>agency<span class="w"> </span>demote<span class="w
 <h3 id="agent-1-receiver">Agent 1 (Receiver)<a class="headerlink" href="#agent-1-receiver" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># In a Hermes session on Machine 1</span>
 <span class="o">/</span><span class="n">agency</span> <span class="n">start</span>
-<span class="c1"># → &quot;Node running - Peer ID: 12D3KooW...&quot;</span>
+<span class="c1"># → "Node running - Peer ID: 12D3KooW..."</span>
 </code></pre></div>
 <h3 id="agent-2-sender">Agent 2 (Sender)<a class="headerlink" href="#agent-2-sender" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># In a Hermes session on Machine 2 (same LAN)</span>
 <span class="o">/</span><span class="n">agency</span> <span class="n">start</span>
 <span class="o">/</span><span class="n">agency</span> <span class="n">discover</span> <span class="n">echo</span>
-<span class="c1"># → &quot;Found: EchoAgent (12D3KooW...)&quot;</span>
+<span class="c1"># → "Found: EchoAgent (12D3KooW...)"</span>
 
-<span class="o">/</span><span class="n">agency</span> <span class="n">send</span> <span class="n">peer_id</span><span class="o">=</span><span class="mi">12</span><span class="n">D3KooW</span><span class="o">...</span> <span class="s2">&quot;Hello from Agent 2!&quot;</span>
-<span class="c1"># → &quot;Result: Echo: Hello from Agent 2!&quot;</span>
+<span class="o">/</span><span class="n">agency</span> <span class="n">send</span> <span class="n">peer_id</span><span class="o">=</span><span class="mi">12</span><span class="n">D3KooW</span><span class="o">...</span> <span class="s2">"Hello from Agent 2!"</span>
+<span class="c1"># → "Result: Echo: Hello from Agent 2!"</span>
 </code></pre></div>
 <h3 id="cli-equivalent">CLI Equivalent<a class="headerlink" href="#cli-equivalent" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Direct</span>
-agentanycast<span class="w"> </span>send<span class="w"> </span>12D3KooW...<span class="w"> </span><span class="s2">&quot;Hello!&quot;</span>
+agentanycast<span class="w"> </span>send<span class="w"> </span>12D3KooW...<span class="w"> </span><span class="s2">"Hello!"</span>
 
 <span class="c1"># By skill (anycast)</span>
-agentanycast<span class="w"> </span>send<span class="w"> </span>--skill<span class="w"> </span>translate<span class="w"> </span><span class="s2">&quot;Bonjour!&quot;</span>
+agentanycast<span class="w"> </span>send<span class="w"> </span>--skill<span class="w"> </span>translate<span class="w"> </span><span class="s2">"Bonjour!"</span>
 
 <span class="c1"># Discovery</span>
 agentanycast<span class="w"> </span>discover<span class="w"> </span>translate
@@ -11679,48 +11679,48 @@ agentanycast<span class="w"> </span>discover<span class="w"> </span>translate
 <hr />
 <h2 id="three-ways-to-send-a-task">Three Ways to Send a Task<a class="headerlink" href="#three-ways-to-send-a-task" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Direct - by Peer ID</span>
-<span class="k">await</span> <span class="n">node</span><span class="o">.</span><span class="n">send_task</span><span class="p">(</span><span class="n">peer_id</span><span class="o">=</span><span class="s2">&quot;12D3KooW...&quot;</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">msg</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">node</span><span class="o">.</span><span class="n">send_task</span><span class="p">(</span><span class="n">peer_id</span><span class="o">=</span><span class="s2">"12D3KooW..."</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">msg</span><span class="p">)</span>
 
 <span class="c1"># 2. Anycast - by skill (relay resolves the target)</span>
-<span class="k">await</span> <span class="n">node</span><span class="o">.</span><span class="n">send_task</span><span class="p">(</span><span class="n">skill</span><span class="o">=</span><span class="s2">&quot;translate&quot;</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">msg</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">node</span><span class="o">.</span><span class="n">send_task</span><span class="p">(</span><span class="n">skill</span><span class="o">=</span><span class="s2">"translate"</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">msg</span><span class="p">)</span>
 
 <span class="c1"># 3. HTTP Bridge - to standard HTTP A2A agents</span>
-<span class="k">await</span> <span class="n">node</span><span class="o">.</span><span class="n">send_task</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s2">&quot;https://agent.example.com&quot;</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">msg</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">node</span><span class="o">.</span><span class="n">send_task</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s2">"https://agent.example.com"</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="n">msg</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <h2 id="framework-adapters">Framework Adapters<a class="headerlink" href="#framework-adapters" title="Anchor link to this section">&para;</a></h2>
 <p>Turn existing frameworks into P2P agents with one function call:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">agentanycast.adapters.crewai</span> <span class="kn">import</span> <span class="n">serve_crew</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.langgraph</span> <span class="kn">import</span> <span class="n">serve_graph</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.adk</span> <span class="kn">import</span> <span class="n">serve_adk_agent</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.openai_agents</span> <span class="kn">import</span> <span class="n">serve_openai_agent</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.claude_agent</span> <span class="kn">import</span> <span class="n">serve_claude_agent</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.strands</span> <span class="kn">import</span> <span class="n">serve_strands_agent</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.crewai</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_crew</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.langgraph</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_graph</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.adk</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_adk_agent</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.openai_agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_openai_agent</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.claude_agent</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_claude_agent</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.strands</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_strands_agent</span>
 
-<span class="k">await</span> <span class="n">serve_crew</span><span class="p">(</span><span class="n">crew</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
-<span class="k">await</span> <span class="n">serve_graph</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
-<span class="k">await</span> <span class="n">serve_adk_agent</span><span class="p">(</span><span class="n">agent</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
-<span class="k">await</span> <span class="n">serve_openai_agent</span><span class="p">(</span><span class="n">agent</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
-<span class="k">await</span> <span class="n">serve_claude_agent</span><span class="p">(</span><span class="n">prompt_template</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">serve_crew</span><span class="p">(</span><span class="n">crew</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">"..."</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">serve_graph</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">"..."</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">serve_adk_agent</span><span class="p">(</span><span class="n">agent</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">"..."</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">serve_openai_agent</span><span class="p">(</span><span class="n">agent</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">"..."</span><span class="p">)</span>
+<span class="k">await</span> <span class="n">serve_claude_agent</span><span class="p">(</span><span class="n">prompt_template</span><span class="o">=</span><span class="s2">"..."</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">)</span>
 <span class="k">await</span> <span class="n">serve_strands_agent</span><span class="p">(</span><span class="n">agent</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">)</span>
 </code></pre></div>
 <hr />
 <h2 id="interoperability">Interoperability<a class="headerlink" href="#interoperability" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># W3C DID</span>
-<span class="kn">from</span> <span class="nn">agentanycast.did</span> <span class="kn">import</span> <span class="n">peer_id_to_did_key</span><span class="p">,</span> <span class="n">did_key_to_peer_id</span>
-<span class="n">did</span> <span class="o">=</span> <span class="n">peer_id_to_did_key</span><span class="p">(</span><span class="s2">&quot;12D3KooW...&quot;</span><span class="p">)</span>      <span class="c1"># &quot;did:key:z6Mk...&quot;</span>
-<span class="n">pid</span> <span class="o">=</span> <span class="n">did_key_to_peer_id</span><span class="p">(</span><span class="s2">&quot;did:key:z6Mk...&quot;</span><span class="p">)</span>  <span class="c1"># &quot;12D3KooW...&quot;</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.did</span><span class="w"> </span><span class="kn">import</span> <span class="n">peer_id_to_did_key</span><span class="p">,</span> <span class="n">did_key_to_peer_id</span>
+<span class="n">did</span> <span class="o">=</span> <span class="n">peer_id_to_did_key</span><span class="p">(</span><span class="s2">"12D3KooW..."</span><span class="p">)</span>      <span class="c1"># "did:key:z6Mk..."</span>
+<span class="n">pid</span> <span class="o">=</span> <span class="n">did_key_to_peer_id</span><span class="p">(</span><span class="s2">"did:key:z6Mk..."</span><span class="p">)</span>  <span class="c1"># "12D3KooW..."</span>
 
 <span class="c1"># MCP Tool ↔ A2A Skill mapping</span>
-<span class="kn">from</span> <span class="nn">agentanycast.mcp</span> <span class="kn">import</span> <span class="n">mcp_tools_to_agent_card</span>
-<span class="n">card</span> <span class="o">=</span> <span class="n">mcp_tools_to_agent_card</span><span class="p">(</span><span class="n">mcp_tools</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;MCPAgent&quot;</span><span class="p">)</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.mcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">mcp_tools_to_agent_card</span>
+<span class="n">card</span> <span class="o">=</span> <span class="n">mcp_tools_to_agent_card</span><span class="p">(</span><span class="n">mcp_tools</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"MCPAgent"</span><span class="p">)</span>
 
 <span class="c1"># A2A v1.0 JSON format</span>
-<span class="kn">from</span> <span class="nn">agentanycast.compat.a2a_v1</span> <span class="kn">import</span> <span class="n">task_to_a2a_json</span><span class="p">,</span> <span class="n">task_from_a2a_json</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.compat.a2a_v1</span><span class="w"> </span><span class="kn">import</span> <span class="n">task_to_a2a_json</span><span class="p">,</span> <span class="n">task_from_a2a_json</span>
 
 <span class="c1"># OASF / AGNTCY Directory</span>
-<span class="kn">from</span> <span class="nn">agentanycast.compat.oasf</span> <span class="kn">import</span> <span class="n">card_to_oasf_record</span>
-<span class="kn">from</span> <span class="nn">agentanycast.compat.agntcy</span> <span class="kn">import</span> <span class="n">AGNTCYDirectory</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.compat.oasf</span><span class="w"> </span><span class="kn">import</span> <span class="n">card_to_oasf_record</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.compat.agntcy</span><span class="w"> </span><span class="kn">import</span> <span class="n">AGNTCYDirectory</span>
 </code></pre></div>
 <hr />
 <h2 id="validation">Validation<a class="headerlink" href="#validation" title="Anchor link to this section">&para;</a></h2>

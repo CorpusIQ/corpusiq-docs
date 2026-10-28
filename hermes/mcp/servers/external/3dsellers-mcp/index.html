@@ -11173,7 +11173,7 @@
 <p><strong>A seller who runs six storefronts does not have six businesses. They have one catalog and six places it has to agree with itself. This is the first MCP entry in this catalog that treats the catalog as the unit and the marketplaces as outputs.</strong></p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) at https://api.3dsellers.com/mcp
 Auth: OAuth 2.1 authorization code with PKCE S256, client_secret_post at the token endpoint, or a bearer token minted on the 3Dsellers API / MCP page
-Live check: POST initialize without a token returned HTTP 401 {&quot;statusCode&quot;:401,&quot;error&quot;:&quot;Unauthorized&quot;,&quot;message&quot;:&quot;This MCP server requires a bearer token. Discover the authorization server at https://api.3dsellers.com/.well-known/oauth-protected-resource/mcp&quot;}
+Live check: POST initialize without a token returned HTTP 401 {"statusCode":401,"error":"Unauthorized","message":"This MCP server requires a bearer token. Discover the authorization server at https://api.3dsellers.com/.well-known/oauth-protected-resource/mcp"}
 Discovery: that advertised path returns 200 with resource https://api.3dsellers.com/mcp, 14 scopes and client_id_metadata_document_supported true; /.well-known/oauth-authorization-server returns authorize and token endpoints, code and refresh grants, S256
 Tools: 150+ across products and catalog, listings and publishing, inventory, orders, bulk actions, CSV import, export and reports, categories and field mapping, helpdesk and messages, automations, offers, listing designer and selling accounts
 Pricing: MCP included in every 3Dsellers plan including the free trial; data reads free; AI actions sold in advance at $9 for 2,000 a month, $20 for 5,000, $29 for 10,000
@@ -11203,10 +11203,10 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </
 <p>The vendor documents four connect paths: Claude with a sign-in and no token to copy, ChatGPT, Grok, and developer tools such as Cursor, VS Code and Claude Code with a bearer token from Settings &gt; Profile &gt; API / MCP.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;3dsellers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.3dsellers.com/mcp&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"3dsellers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.3dsellers.com/mcp"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

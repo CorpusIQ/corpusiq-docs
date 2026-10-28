@@ -11184,14 +11184,14 @@ blogwatcher<span class="w"> </span>add<span class="w"> </span>https://www.anthro
 </code></pre></div></p>
 <h3 id="3-content-discovery-for-social-media">3. Content Discovery for Social Media<a class="headerlink" href="#3-content-discovery-for-social-media" title="Anchor link to this section">&para;</a></h3>
 <p>Find shareable content for automated social posting:
-<div class="highlight"><pre><span></span><code>blogwatcher<span class="w"> </span>check<span class="w"> </span>--since<span class="w"> </span>24h<span class="w"> </span>--format<span class="w"> </span>json<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;.[].title&#39;</span>
+<div class="highlight"><pre><span></span><code>blogwatcher<span class="w"> </span>check<span class="w"> </span>--since<span class="w"> </span>24h<span class="w"> </span>--format<span class="w"> </span>json<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">'.[].title'</span>
 </code></pre></div></p>
 <h2 id="integration-with-hermes-cron-jobs">Integration with Hermes Cron Jobs<a class="headerlink" href="#integration-with-hermes-cron-jobs" title="Anchor link to this section">&para;</a></h2>
 <p>Create a cron job to check feeds daily:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;blogwatcher-daily-check&quot;</span><span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 8 * * *&quot;</span><span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--command<span class="w"> </span><span class="s2">&quot;blogwatcher check --since 24h&quot;</span><span class="w"> </span><span class="se">\\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">"blogwatcher-daily-check"</span><span class="w"> </span><span class="se">\\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 8 * * *"</span><span class="w"> </span><span class="se">\\</span>
+<span class="w">  </span>--command<span class="w"> </span><span class="s2">"blogwatcher check --since 24h"</span><span class="w"> </span><span class="se">\\</span>
 <span class="w">  </span>--deliver<span class="w"> </span>telegram
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>

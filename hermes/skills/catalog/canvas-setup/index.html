@@ -11244,8 +11244,8 @@
 <span class="nv">CANVAS_INSTANCE_URL</span><span class="o">=</span>https://your-school.instructure.com
 </code></pre></div>
 <p>Or add it to your profile's <code>.env</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;CANVAS_API_TOKEN=your_token_here&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/.env
-<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;CANVAS_INSTANCE_URL=https://your-school.instructure.com&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/.env
+<div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="s1">'CANVAS_API_TOKEN=your_token_here'</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/.env
+<span class="nb">echo</span><span class="w"> </span><span class="s1">'CANVAS_INSTANCE_URL=https://your-school.instructure.com'</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/.env
 </code></pre></div>
 <h3 id="step-3-verify-connection">Step 3: Verify Connection<a class="headerlink" href="#step-3-verify-connection" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>python3<span class="w"> </span>&lt;skill-dir&gt;/scripts/canvas_api.py<span class="w"> </span>--check
@@ -11295,8 +11295,8 @@
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>nousresearch/hermes-agent@canvas
 
 <span class="c1"># 2. Configure environment</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">CANVAS_API_TOKEN</span><span class="o">=</span><span class="s2">&quot;your_token&quot;</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">CANVAS_INSTANCE_URL</span><span class="o">=</span><span class="s2">&quot;https://canvas.yourschool.edu&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">CANVAS_API_TOKEN</span><span class="o">=</span><span class="s2">"your_token"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">CANVAS_INSTANCE_URL</span><span class="o">=</span><span class="s2">"https://canvas.yourschool.edu"</span>
 
 <span class="c1"># 3. List your courses</span>
 python3<span class="w"> </span>&lt;skill-dir&gt;/scripts/canvas_api.py<span class="w"> </span>list-courses

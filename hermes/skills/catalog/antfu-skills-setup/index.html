@@ -11147,8 +11147,8 @@ pnpx<span class="w"> </span>skills-npm<span class="w"> </span>setup
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>antfu/skills
 </code></pre></div>
 <p>To take every skill in the repository without prompts, and optionally globally:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>antfu/skills<span class="w"> </span>--skill<span class="o">=</span><span class="s1">&#39;*&#39;</span>
-npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>antfu/skills<span class="w"> </span>--skill<span class="o">=</span><span class="s1">&#39;*&#39;</span><span class="w"> </span>-g
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>antfu/skills<span class="w"> </span>--skill<span class="o">=</span><span class="s1">'*'</span>
+npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>antfu/skills<span class="w"> </span>--skill<span class="o">=</span><span class="s1">'*'</span><span class="w"> </span>-g
 </code></pre></div>
 <p>Each directory under <code>skills/</code> is self contained, with a short <code>SKILL.md</code> and a <code>references/</code> folder the agent loads only when a task reaches it. Copying one directory into your agent's skills folder works the same way as the CLI install.</p>
 <p>If you want your own version of this collection, the README documents the generator: fork the repository, run <code>pnpm install</code>, edit <code>meta.ts</code> with your projects and documentation sources, then <code>pnpm start cleanup</code>, <code>pnpm start init</code> and <code>pnpm start sync</code> before asking an agent to generate a skill per project.</p>
@@ -11310,8 +11310,8 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <span class="w">         </span>skills/vite/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/vitest/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/antfu/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/antfu/skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/antfu/skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two workflow skills before granting repository access, because both act on GitHub:</p>

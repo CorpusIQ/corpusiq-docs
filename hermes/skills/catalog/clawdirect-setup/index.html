@@ -11166,13 +11166,13 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <div class="highlight"><pre><span></span><code><span class="c1"># ~/.hermes/config.yaml</span>
 <span class="nt">skills</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">clawdirect</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">worktree_root</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/tmp/clawdirect-worktrees&quot;</span>
+<span class="w">    </span><span class="nt">worktree_root</span><span class="p">:</span><span class="w"> </span><span class="s">"/tmp/clawdirect-worktrees"</span>
 <span class="w">    </span><span class="nt">max_parallel</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">4</span>
 <span class="w">    </span><span class="nt">timeout_seconds</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1800</span>
 <span class="w">  </span><span class="nt">clawdirect-dev</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">test_command</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;pytest&quot;</span>
-<span class="w">    </span><span class="nt">lint_command</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ruff</span><span class="nv"> </span><span class="s">check&quot;</span>
-<span class="w">    </span><span class="nt">deploy_branch_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;deploy/&quot;</span>
+<span class="w">    </span><span class="nt">test_command</span><span class="p">:</span><span class="w"> </span><span class="s">"pytest"</span>
+<span class="w">    </span><span class="nt">lint_command</span><span class="p">:</span><span class="w"> </span><span class="s">"ruff</span><span class="nv"> </span><span class="s">check"</span>
+<span class="w">    </span><span class="nt">deploy_branch_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">"deploy/"</span>
 </code></pre></div>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
@@ -11182,7 +11182,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <li><strong>Self-healing workflows</strong>: Failed directives automatically retry or escalate</li>
 </ol>
 <h2 id="workflow-example">Workflow Example<a class="headerlink" href="#workflow-example" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>Agent receives: &quot;Add dark mode toggle to settings&quot;
+<div class="highlight"><pre><span></span><code>Agent receives: "Add dark mode toggle to settings"
   → clawdirect creates directive with acceptance criteria
   → clawdirect-dev spawns worktree, checks out feature branch
   → Agent implements changes, runs tests

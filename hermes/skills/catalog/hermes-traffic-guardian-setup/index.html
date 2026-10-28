@@ -11188,15 +11188,15 @@
 <p>For security-critical deployments, verify the signed release manifest:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Clone and verify</span>
 <span class="nb">set</span><span class="w"> </span>-euo<span class="w"> </span>pipefail
-<span class="nv">SKILL_NAME</span><span class="o">=</span><span class="s2">&quot;hermes-traffic-guardian&quot;</span>
-<span class="nv">VERSION</span><span class="o">=</span><span class="s2">&quot;0.0.1-beta5&quot;</span>
-<span class="nv">REPO</span><span class="o">=</span><span class="s2">&quot;prompt-security/clawsec&quot;</span>
-<span class="nv">TAG</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">SKILL_NAME</span><span class="si">}</span><span class="s2">-v</span><span class="si">${</span><span class="nv">VERSION</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="nv">BASE</span><span class="o">=</span><span class="s2">&quot;https://github.com/</span><span class="si">${</span><span class="nv">REPO</span><span class="si">}</span><span class="s2">/releases/download/</span><span class="si">${</span><span class="nv">TAG</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="nv">SKILL_NAME</span><span class="o">=</span><span class="s2">"hermes-traffic-guardian"</span>
+<span class="nv">VERSION</span><span class="o">=</span><span class="s2">"0.0.1-beta5"</span>
+<span class="nv">REPO</span><span class="o">=</span><span class="s2">"prompt-security/clawsec"</span>
+<span class="nv">TAG</span><span class="o">=</span><span class="s2">"</span><span class="si">${</span><span class="nv">SKILL_NAME</span><span class="si">}</span><span class="s2">-v</span><span class="si">${</span><span class="nv">VERSION</span><span class="si">}</span><span class="s2">"</span>
+<span class="nv">BASE</span><span class="o">=</span><span class="s2">"https://github.com/</span><span class="si">${</span><span class="nv">REPO</span><span class="si">}</span><span class="s2">/releases/download/</span><span class="si">${</span><span class="nv">TAG</span><span class="si">}</span><span class="s2">"</span>
 
-curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/checksums.json&quot;</span><span class="w"> </span>-o<span class="w"> </span>checksums.json
-curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/checksums.sig&quot;</span><span class="w"> </span>-o<span class="w"> </span>checksums.sig
-curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/signing-public.pem&quot;</span><span class="w"> </span>-o<span class="w"> </span>signing-public.pem
+curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">"</span><span class="nv">$BASE</span><span class="s2">/checksums.json"</span><span class="w"> </span>-o<span class="w"> </span>checksums.json
+curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">"</span><span class="nv">$BASE</span><span class="s2">/checksums.sig"</span><span class="w"> </span>-o<span class="w"> </span>checksums.sig
+curl<span class="w"> </span>-fsSL<span class="w"> </span><span class="s2">"</span><span class="nv">$BASE</span><span class="s2">/signing-public.pem"</span><span class="w"> </span>-o<span class="w"> </span>signing-public.pem
 <span class="c1"># Verify signature and checksums (see SKILL.md for full verification script)</span>
 </code></pre></div>
 <hr />

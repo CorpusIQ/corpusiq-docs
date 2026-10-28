@@ -11258,19 +11258,19 @@
 <h2 id="mcp-client-configuration">MCP Client Configuration<a class="headerlink" href="#mcp-client-configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Add vrules as a proxy between your agents and their MCP servers:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;vrules-proxy&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@ops-ping/vrules&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;VRULES_POLICY_PATH&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/policies&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;VRULES_MODE&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;enforce&quot;</span>
+<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"vrules-proxy"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"@ops-ping/vrules"</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"VRULES_POLICY_PATH"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/to/policies"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"VRULES_MODE"</span><span class="p">:</span><span class="w"> </span><span class="s2">"enforce"</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;proxy&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vrules-proxy&quot;</span>
+<span class="w">    </span><span class="nt">"corpusiq"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">"proxy"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vrules-proxy"</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11280,36 +11280,36 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># policy: block-destructive-db.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">block-destructive-db</span>
 <span class="nt">match</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">semantic</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;drop</span><span class="nv"> </span><span class="s">database&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;delete</span><span class="nv"> </span><span class="s">all</span><span class="nv"> </span><span class="s">records&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;truncate</span><span class="nv"> </span><span class="s">table&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;rm</span><span class="nv"> </span><span class="s">-rf</span><span class="nv"> </span><span class="s">/data&quot;</span><span class="p p-Indicator">]</span>
-<span class="w">  </span><span class="nt">tools</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;database_query&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;terminal&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">  </span><span class="nt">semantic</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"drop</span><span class="nv"> </span><span class="s">database"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"delete</span><span class="nv"> </span><span class="s">all</span><span class="nv"> </span><span class="s">records"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"truncate</span><span class="nv"> </span><span class="s">table"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"rm</span><span class="nv"> </span><span class="s">-rf</span><span class="nv"> </span><span class="s">/data"</span><span class="p p-Indicator">]</span>
+<span class="w">  </span><span class="nt">tools</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"database_query"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"terminal"</span><span class="p p-Indicator">]</span>
 <span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">require_human_approval</span>
-<span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Destructive</span><span class="nv"> </span><span class="s">database</span><span class="nv"> </span><span class="s">operation</span><span class="nv"> </span><span class="s">detected.</span><span class="nv"> </span><span class="s">Human</span><span class="nv"> </span><span class="s">approval</span><span class="nv"> </span><span class="s">required.&quot;</span>
+<span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s">"Destructive</span><span class="nv"> </span><span class="s">database</span><span class="nv"> </span><span class="s">operation</span><span class="nv"> </span><span class="s">detected.</span><span class="nv"> </span><span class="s">Human</span><span class="nv"> </span><span class="s">approval</span><span class="nv"> </span><span class="s">required."</span>
 </code></pre></div>
 <h3 id="enforce-spend-limits">Enforce spend limits<a class="headerlink" href="#enforce-spend-limits" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># policy: spend-limits.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">enforce-spend-limits</span>
 <span class="nt">match</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">tools</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;stripe_charge&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;create_payment&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;x402_pay&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">  </span><span class="nt">tools</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"stripe_charge"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"create_payment"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"x402_pay"</span><span class="p p-Indicator">]</span>
 <span class="w">  </span><span class="nt">conditions</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">field</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">amount</span>
 <span class="w">      </span><span class="nt">operator</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gt</span>
 <span class="w">      </span><span class="nt">value</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">100</span>
 <span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">block</span>
-<span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Payment</span><span class="nv"> </span><span class="s">exceeds</span><span class="nv"> </span><span class="s">$100</span><span class="nv"> </span><span class="s">limit.</span><span class="nv"> </span><span class="s">Request</span><span class="nv"> </span><span class="s">manager</span><span class="nv"> </span><span class="s">approval.&quot;</span>
+<span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s">"Payment</span><span class="nv"> </span><span class="s">exceeds</span><span class="nv"> </span><span class="s">$100</span><span class="nv"> </span><span class="s">limit.</span><span class="nv"> </span><span class="s">Request</span><span class="nv"> </span><span class="s">manager</span><span class="nv"> </span><span class="s">approval."</span>
 </code></pre></div>
 <h3 id="pii-redaction">PII redaction<a class="headerlink" href="#pii-redaction" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># policy: pii-redaction.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">redact-pii</span>
 <span class="nt">match</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">patterns</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;\\b\\d{3}-\\d{2}-\\d{4}\\b&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">  </span><span class="nt">patterns</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"\\b\\d{3}-\\d{2}-\\d{4}\\b"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b"</span><span class="p p-Indicator">]</span>
 <span class="w">  </span><span class="nt">scope</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">all_outputs</span>
 <span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">redact</span>
-<span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;PII</span><span class="nv"> </span><span class="s">detected</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">redacted</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">agent</span><span class="nv"> </span><span class="s">output.&quot;</span>
+<span class="nt">message</span><span class="p">:</span><span class="w"> </span><span class="s">"PII</span><span class="nv"> </span><span class="s">detected</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">redacted</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">agent</span><span class="nv"> </span><span class="s">output."</span>
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>After setup, verify vrules is intercepting:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Test that a blocked action is caught</span>
-<span class="c1"># In your MCP client, try: &quot;Delete all test data from the database&quot;</span>
+<span class="c1"># In your MCP client, try: "Delete all test data from the database"</span>
 <span class="c1"># The agent should respond with the vrules rejection message</span>
 </code></pre></div>
 <h2 id="complements-corpusiq">Complements CorpusIQ<a class="headerlink" href="#complements-corpusiq" title="Anchor link to this section">&para;</a></h2>

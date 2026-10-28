@@ -11263,8 +11263,8 @@ codex<span class="w"> </span>plugin<span class="w"> </span>add<span class="w"> <
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm the layout on main before installing; every in-tree skill uses <code>skills/&lt;name&gt;/SKILL.md</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>s<span class="w"> </span><span class="k">in</span><span class="w"> </span>think<span class="w"> </span>check<span class="w"> </span>hunt<span class="w"> </span>read<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/tw93/Waza/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/tw93/Waza/main/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two skills that touch credentials and commands before you enable them:</p>

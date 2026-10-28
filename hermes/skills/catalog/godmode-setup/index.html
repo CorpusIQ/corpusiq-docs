@@ -11219,13 +11219,13 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 </code></pre></div>
 <p>Once godmode is active, Hermes executes without asking for confirmation:</p>
 <div class="highlight"><pre><span></span><code># Without godmode:
-&quot;Delete all unused Docker images.&quot;
-→ &quot;I found 47 unused images. Confirm deletion? [y/N]&quot;
+"Delete all unused Docker images."
+→ "I found 47 unused images. Confirm deletion? [y/N]"
 
 # With godmode:
-&quot;Delete all unused Docker images.&quot;
+"Delete all unused Docker images."
 → [Immediately executes docker image prune -a]
-→ &quot;Deleted 47 unused images. Reclaimed 12.3 GB.&quot;
+→ "Deleted 47 unused images. Reclaimed 12.3 GB."
 </code></pre></div>
 <hr />
 <h2 id="safety-recommendations">Safety Recommendations<a class="headerlink" href="#safety-recommendations" title="Anchor link to this section">&para;</a></h2>
@@ -11271,12 +11271,12 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 <div class="highlight"><pre><span></span><code><span class="nt">godmode</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">  </span><span class="nt">scope</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;file_operations&quot;</span><span class="w">    </span><span class="c1"># Allow: read/write/delete files</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;git_operations&quot;</span><span class="w">     </span><span class="c1"># Allow: commit/push/merge</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;shell_commands&quot;</span><span class="w">     </span><span class="c1"># Allow: arbitrary terminal commands</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"file_operations"</span><span class="w">    </span><span class="c1"># Allow: read/write/delete files</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"git_operations"</span><span class="w">     </span><span class="c1"># Allow: commit/push/merge</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"shell_commands"</span><span class="w">     </span><span class="c1"># Allow: arbitrary terminal commands</span>
 <span class="w">  </span><span class="nt">exclude</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;production_deploy&quot;</span><span class="w">  </span><span class="c1"># Never auto-approve production deploys</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;database_migration&quot;</span><span class="w"> </span><span class="c1"># Never auto-approve DB changes</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"production_deploy"</span><span class="w">  </span><span class="c1"># Never auto-approve production deploys</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">"database_migration"</span><span class="w"> </span><span class="c1"># Never auto-approve DB changes</span>
 <span class="w">  </span><span class="nt">max_session_duration</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3600</span><span class="w">  </span><span class="c1"># Auto-disable after 1 hour</span>
 </code></pre></div>
 <hr />
@@ -11286,7 +11286,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>/tmp/hermes-agent/skills/dev
 mkdir<span class="w"> </span>/tmp/godmode-test
 
 <span class="c1"># Test godmode execution</span>
-hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;Enable godmode. Create a file called test.txt in /tmp/godmode-test with the text &#39;godmode works&#39;.&quot;</span>
+hermes<span class="w"> </span>chat<span class="w"> </span>-q<span class="w"> </span><span class="s2">"Enable godmode. Create a file called test.txt in /tmp/godmode-test with the text 'godmode works'."</span>
 
 <span class="c1"># Verify the file was created without confirmation</span>
 cat<span class="w"> </span>/tmp/godmode-test/test.txt

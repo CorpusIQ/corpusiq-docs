@@ -11262,8 +11262,8 @@ claude<span class="w"> </span>plugin<span class="w"> </span>update<span class="w
 <span class="w">         </span>skills/postgres-semantic-search/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/next-best-practices/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/cache-components/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/laguagu/claude-code-nextjs-skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/laguagu/claude-code-nextjs-skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>All six returned 200 on 2026-10-27. Read two of them before installing, because they set the scope of what the rest of the suite will do to a repository:</p>
