@@ -2797,6 +2797,10 @@
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/bokio-mcp</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/bolddesk-mcp</loc>
          <lastmod>2026-10-28</lastmod>
     </url>
@@ -3314,6 +3318,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/docmake-mcp</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/docsautomator-mcp</loc>
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
@@ -4501,6 +4509,10 @@
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/metis-check-mcp</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/metricfire-mcp</loc>
          <lastmod>2026-10-28</lastmod>
     </url>
@@ -5209,11 +5221,19 @@
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/receipts-index-mcp</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/rechnungslotse-mcp</loc>
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/recordwire-mcp</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/recued-mcp</loc>
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
@@ -5406,6 +5426,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/senderkit-mcp</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sendnf-mcp</loc>
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
@@ -6894,6 +6918,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-morning</loc>
+         <lastmod>2026-10-28</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october27-2026-late</loc>
          <lastmod>2026-10-28</lastmod>
     </url>
     <url>
