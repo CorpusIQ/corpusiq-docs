@@ -31,12 +31,25 @@ import json
 import re
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
 TOKEN_PATH = Path("/home/hermes/.hermes/profiles/corpusiq/secrets/github.token")
+# Arizona has no DST (UTC-7 year round). Every human-facing "Last updated" /
+# contribution stamp uses this, not UTC: a run at 22:00 AZ is already the next
+# UTC day, so UTC stamps published tomorrow's date on the directory overnight.
+AZ_TZ = timezone(timedelta(hours=-7))
+
+
+def az_now():
+    return datetime.now(AZ_TZ)
+
+
+def az_today():
+    return az_now().strftime("%Y-%m-%d")
+
 
 ECOSYSTEM = REPO_ROOT / "ecosystem.md"
 # The page users actually see. ecosystem.md COLLIDES with ecosystem/index.md at
@@ -252,11 +265,11 @@ def bump_published_counts(text):
 
     text = re.sub(r"(\d+)\+ (repositories|repos)(, docs)?", bump, text)
     text = re.sub(r"\*\*Repos indexed:\*\* (\d+)\+", bump_indexed, text)
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = az_today()
     text = re.sub(r'last_updated: "\d{4}-\d{2}-\d{2}"',
                   f'last_updated: "{today}"', text, count=1)
     text = re.sub(r"\*\*Last updated:\*\* [A-Z][a-z]+ \d{1,2}, \d{4}",
-                  "**Last updated:** " + datetime.now(timezone.utc).strftime("%B %-d, %Y"),
+                  "**Last updated:** " + az_now().strftime("%B ") + str(az_now().day) + ", " + str(az_now().year),
                   text, count=1)
     # Mirror shape: "*429+ repositories in the Hermes ecosystem. Last updated: 2026-10-23.*"
     text = re.sub(r"(Last updated: )\d{4}-\d{2}-\d{2}", r"\g<1>" + today, text, count=1)
@@ -337,7 +350,7 @@ def align_mirror_counts(published_text):
 def credit_contributor(username):
     path = DATA_DIR / "contributors.json"
     contributors = load(path)
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = az_today()
     for c in contributors:
         if c.get("github_user") == username:
             c["submissions"] = c.get("submissions", 0) + 1
@@ -360,7 +373,7 @@ def credit_contributor(username):
 
 def update_contributors_pages(username):
     """Credit the submitter on both contributor surfaces, tol erantly."""
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = az_today()
     link = f"[@{username}](https://github.com/{username})"
 
     # contributors.md: replace the empty-row placeholder, or append to the table.

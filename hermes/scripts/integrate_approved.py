@@ -89,7 +89,35 @@ def main():
             print(f"    WARN: nothing written for {row['name']} - check category heading")
 
     print("DRY_RUN_OK" if args.dry_run else "INTEGRATE_OK")
+    if not args.dry_run:
+        regenerate_llms_txt()
     return 0
+
+
+def regenerate_llms_txt():
+    """Rebuild llms.txt after a write.
+
+    Every insert bumps the "N+ repos" counters, and llms.txt embeds that
+    description verbatim. CI regenerates llms.txt and then requires a clean
+    `git diff`, so an un-regenerated file fails the docs build and the whole
+    directory stops deploying (first hit 2026-10-27).
+    """
+    import subprocess
+    # generate_llms_txt.py lives at the REPO root (one level above hermes/),
+    # while REPO_ROOT here is the hermes/ directory.
+    for root in (p.REPO_ROOT.parent, p.REPO_ROOT):
+        script = root / "scripts" / "generate_llms_txt.py"
+        if script.exists():
+            break
+    else:
+        print("  WARN: generate_llms_txt.py not found - llms.txt may be stale")
+        return
+    res = subprocess.run([sys.executable, str(script)], cwd=str(script.parent.parent),
+                         capture_output=True, text=True)
+    for line in (res.stdout or "").strip().splitlines()[-2:]:
+        print("  llms: " + line)
+    if res.returncode != 0:
+        print("  WARN: llms.txt regeneration failed: " + (res.stderr or "")[-300:])
 
 
 if __name__ == "__main__":
