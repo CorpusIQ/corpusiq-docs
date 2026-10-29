@@ -93,6 +93,10 @@ def is_scratch_artifact(repo):
     # ``<prefix>__<owner>_<upstream>`` checkout paths are never real projects.
     if _SCRATCH_COPY_RE.match(short):
         suffix = short.rsplit("__", 1)[-1].lower()
+        # Checkout tooling appends a date stamp to the source slug
+        # (``...__hermes-agent-20261029``). Strip it before matching, otherwise the
+        # dated variant scores into pending_review where it can never be catalogued.
+        suffix = re.sub(r"[-_.]?\d{6,}$", "", suffix)
         if any(suffix == slug or suffix.endswith(slug) for slug in _CLONE_SOURCE_SLUGS):
             return True
     lowered = short.lower()

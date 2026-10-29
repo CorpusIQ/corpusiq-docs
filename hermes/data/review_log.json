@@ -20155,5 +20155,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-28T11:03:25.958815+00:00"
+  },
+  {
+    "repo": "tommyjtl/hermes-modular-provider",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133504+00:00"
+  },
+  {
+    "repo": "engmahmoudmajed/-hermes-agent-handbook",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133518+00:00"
+  },
+  {
+    "repo": "rhtevan/agentfs",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133521+00:00"
+  },
+  {
+    "repo": "Aowen-Nowor/hermes-lark-streaming",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133523+00:00"
+  },
+  {
+    "repo": "DHRlabs/session-lights",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133525+00:00"
+  },
+  {
+    "repo": "mojomast/comfyrizz-hermes",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133527+00:00"
+  },
+  {
+    "repo": "blaspat/hermes-node",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133529+00:00"
+  },
+  {
+    "repo": "andrewalhaj/custom-hermesagent",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133531+00:00"
+  },
+  {
+    "repo": "DeliaHicks/dsh-limited-nousresearch__hermes-agent-20261029",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133533+00:00"
+  },
+  {
+    "repo": "AgentSparko/hermes-imagination-director",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T04:03:23.133534+00:00"
   }
 ]
