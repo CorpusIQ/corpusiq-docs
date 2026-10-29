@@ -11618,8 +11618,8 @@ cache read per API call       =  about 103,000 tokens
 <span class="k">limit</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>sqlite3<span class="w"> </span>-readonly<span class="w"> </span>~/.hermes/profiles/&lt;profile&gt;/state.db<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"select model, sum(api_call_count), sum(input_tokens), sum(cache_read_tokens) \</span>
-<span class="s2">   from session_model_usage group by model;"</span>
+<span class="w">  </span><span class="s2">&quot;select model, sum(api_call_count), sum(input_tokens), sum(cache_read_tokens) \</span>
+<span class="s2">   from session_model_usage group by model;&quot;</span>
 </code></pre></div>
 <p>Three readings matter:</p>
 <ol>

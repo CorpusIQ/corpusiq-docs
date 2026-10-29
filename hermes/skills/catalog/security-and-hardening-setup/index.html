@@ -11386,14 +11386,14 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/hermes-workspace
 chmod<span class="w"> </span><span class="m">700</span><span class="w"> </span>~/hermes-workspace
 
 <span class="c1"># 3. Audit current state</span>
-find<span class="w"> </span>~/.hermes<span class="w"> </span>-name<span class="w"> </span><span class="s2">"*.env"</span><span class="w"> </span>-o<span class="w"> </span>-name<span class="w"> </span><span class="s2">"*token*"</span><span class="w"> </span>-o<span class="w"> </span>-name<span class="w"> </span><span class="s2">"*secret*"</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
+find<span class="w"> </span>~/.hermes<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*.env&quot;</span><span class="w"> </span>-o<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*token*&quot;</span><span class="w"> </span>-o<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*secret*&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
 find<span class="w"> </span>~/.hermes<span class="w"> </span>-type<span class="w"> </span>f<span class="w"> </span>-perm<span class="w"> </span>/o+r<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># 4. Set restrictive umask</span>
-<span class="nb">echo</span><span class="w"> </span><span class="s2">"umask 077"</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;umask 077&quot;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
 
 <span class="c1"># 5. Verify no world-readable sensitive files</span>
-find<span class="w"> </span>~/.hermes/profiles<span class="w"> </span>-name<span class="w"> </span><span class="s2">"*.yaml"</span><span class="w"> </span>-perm<span class="w"> </span>/o+r<span class="w"> </span><span class="m">2</span>&gt;/dev/null
+find<span class="w"> </span>~/.hermes/profiles<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*.yaml&quot;</span><span class="w"> </span>-perm<span class="w"> </span>/o+r<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 </code></pre></div>
 <h3 id="filesystem-sandbox-configuration">Filesystem Sandbox Configuration<a class="headerlink" href="#filesystem-sandbox-configuration" title="Anchor link to this section">&para;</a></h3>
 <p>Add to <code>~/.hermes/config.yaml</code>:</p>
@@ -11477,7 +11477,7 @@ find<span class="w"> </span>~/.hermes<span class="w"> </span>-type<span class="w
 <span class="c1"># Should return nothing - no world-readable files</span>
 
 <span class="c1"># Check for exposed credentials</span>
-grep<span class="w"> </span>-r<span class="w"> </span><span class="s2">"API_KEY\|TOKEN\|SECRET\|PASSWORD"</span><span class="w"> </span>~/.hermes/profiles/<span class="w"> </span>--include<span class="o">=</span><span class="s2">"*.yaml"</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
+grep<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;API_KEY\|TOKEN\|SECRET\|PASSWORD&quot;</span><span class="w"> </span>~/.hermes/profiles/<span class="w"> </span>--include<span class="o">=</span><span class="s2">&quot;*.yaml&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
 <span class="c1"># Should return nothing - credentials should be in env vars, not config files</span>
 </code></pre></div>
 <hr />

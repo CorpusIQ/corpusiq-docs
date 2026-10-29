@@ -11203,7 +11203,7 @@
 <p><strong>Self-hosted MCP server for Aagon ACMP, the German client and asset management platform, built around a four-eyes approval gate</strong> - one Windows executable on your own ACMP server that turns the ACMP Public API, the ACMP database and the kiosk into 118 MCP tools, where reads run immediately and anything that writes, executes or deletes freezes as a request until a person approves it in a browser.</p>
 <div class="highlight"><pre><span></span><code>Server type: Self-hosted (Streamable HTTP, JSON-RPC 2.0, protocol 2025-06-18)
 Endpoint: http://&lt;HOST&gt;:8765/ on your own ACMP server (binds 127.0.0.1 by default)
-Auth: One personal API key per operator (Bearer), optionally bound to that person's own ACMP identity
+Auth: One personal API key per operator (Bearer), optionally bound to that person&#39;s own ACMP identity
 Approvals: read = immediate; write = 1 named approver; execute/delete = 2 different approvers
 Tools: 118 across 10 areas, plus acmp_call for all 167 Public API commands
 Requirements: ACMP 6.9 or 6.10 with AESB/SICS and the Public API enabled; Windows Server with .NET Framework 4.8
@@ -11283,7 +11283,7 @@ Pricing: The server is free; you still need an ACMP licence
 </code></pre></div>
 <p>Nine steps, each explained before it runs: prerequisite check (SICS, port 3950, .NET, free port), the Public API toggle in the ACMP console, install to <code>C:\ProgramData\AcmpMcp</code>, the SICS user, the service and a login test, your admin and approver account, optional ACMP identity binding, optional features, then the LAN binding. <code>.\install.ps1 -CheckOnly</code> verifies without changing anything; <code>.\install.ps1 -NonInteractive</code> runs unattended with the password in <code>$env:ACMP_SICS_PASSWORD</code>.</p>
 <p>Connect a client:</p>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>acmp<span class="w"> </span>http://&lt;HOST&gt;:8765/<span class="w"> </span>--header<span class="w"> </span><span class="s2">"Authorization: Bearer &lt;personal-api-key&gt;"</span>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>acmp<span class="w"> </span>http://&lt;HOST&gt;:8765/<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;personal-api-key&gt;&quot;</span>
 </code></pre></div>
 <p>Claude Desktop has a packaged <code>.mcpb</code> extension (<code>mcpb-v1.0.0</code>, published October 18, 2026). Clients that only speak stdio bridge through <code>mcp-remote</code>. Configurations for Claude Code, Claude Desktop, Codex CLI, VS Code/GitHub Copilot, Cursor and Gemini CLI are in <code>docs/CLIENTS.md</code>.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>

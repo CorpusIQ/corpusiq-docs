@@ -11284,7 +11284,7 @@
 </ul>
 <h2 id="why-it-matters-for-operators">Why It Matters for Operators<a class="headerlink" href="#why-it-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Browserless is already the production standard for headless Chrome at scale. This MCP removes the final barrier - instead of writing Playwright scripts:
-<div class="highlight"><pre><span></span><code>Agent: "Go to competitor.com/pricing, find their enterprise plan price, and tell me if it changed since last week"
+<div class="highlight"><pre><span></span><code>Agent: &quot;Go to competitor.com/pricing, find their enterprise plan price, and tell me if it changed since last week&quot;
 → Browserless navigates → extracts pricing table → compares to stored value → reports delta
 </code></pre></div></p>
 <p>No more <code>page.goto()</code>, <code>page.waitForSelector()</code>, or CSS selector debugging. The AI agent handles the intent; Browserless handles the browser.</p>
@@ -11297,12 +11297,12 @@
 </ul>
 <h3 id="claude-desktop">Claude Desktop<a class="headerlink" href="#claude-desktop" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"browserless"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://chrome.browserless.io/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer YOUR_BROWSERLESS_TOKEN"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;browserless&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://chrome.browserless.io/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_BROWSERLESS_TOKEN&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11310,11 +11310,11 @@
 </code></pre></div>
 <h3 id="self-hosted">Self-Hosted<a class="headerlink" href="#self-hosted" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"browserless"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://localhost:3000/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;browserless&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://localhost:3000/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11323,9 +11323,9 @@
 <div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">browserless</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">streamable-http</span>
-<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://chrome.browserless.io/mcp"</span>
+<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://chrome.browserless.io/mcp&quot;</span>
 <span class="w">    </span><span class="nt">headers</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s">"Bearer</span><span class="nv"> </span><span class="s">${BROWSERLESS_TOKEN}"</span>
+<span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Bearer</span><span class="nv"> </span><span class="s">${BROWSERLESS_TOKEN}&quot;</span>
 </code></pre></div>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -11392,32 +11392,32 @@
 <p>Self-hosted: Free (open source, Docker: <code>docker run -p 3000:3000 browserless/chrome</code>)</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="competitive-price-monitoring">Competitive Price Monitoring<a class="headerlink" href="#competitive-price-monitoring" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Every Monday at 8 AM, scrape the pricing pages of our top 5 competitors and alert me if anything changed"
+<div class="highlight"><pre><span></span><code>Agent: &quot;Every Monday at 8 AM, scrape the pricing pages of our top 5 competitors and alert me if anything changed&quot;
 → navigate to each → extract pricing → diff against baseline → alert
 </code></pre></div>
 <h3 id="seo-content-audits">SEO &amp; Content Audits<a class="headerlink" href="#seo-content-audits" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Check our top 20 landing pages for Core Web Vitals issues and list the 10 slowest"
+<div class="highlight"><pre><span></span><code>Agent: &quot;Check our top 20 landing pages for Core Web Vitals issues and list the 10 slowest&quot;
 → navigate → performance for each → sort by LCP → report
 </code></pre></div>
 <h3 id="form-automation">Form Automation<a class="headerlink" href="#form-automation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Register us for this industry conference - my email is [x], use the early bird code"
+<div class="highlight"><pre><span></span><code>Agent: &quot;Register us for this industry conference - my email is [x], use the early bird code&quot;
 → navigate to registration → type form fields → click submit → screenshot confirmation
 </code></pre></div>
 <h3 id="data-extraction-at-scale">Data Extraction at Scale<a class="headerlink" href="#data-extraction-at-scale" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "From this list of 100 company URLs, extract the CEO name and contact email from each"
+<div class="highlight"><pre><span></span><code>Agent: &quot;From this list of 100 company URLs, extract the CEO name and contact email from each&quot;
 → batch_navigate → scrape contact pages → extract email patterns → return CSV
 </code></pre></div>
 <h3 id="visual-regression-testing">Visual Regression Testing<a class="headerlink" href="#visual-regression-testing" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Agent: "Take screenshots of our checkout flow on mobile and desktop and compare to last week's baseline"
+<div class="highlight"><pre><span></span><code>Agent: &quot;Take screenshots of our checkout flow on mobile and desktop and compare to last week&#39;s baseline&quot;
 → navigate to checkout → screenshot(mobile) → screenshot(desktop) → diff against baseline
 </code></pre></div>
 <h2 id="self-hosting">Self-Hosting<a class="headerlink" href="#self-hosting" title="Anchor link to this section">&para;</a></h2>
 <p>Browserless is open source. For operators who want full control:</p>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-p<span class="w"> </span><span class="m">3000</span>:3000<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="s2">"CONCURRENT=10"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="s2">"TOKEN=your-secret-token"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="s2">"MAX_QUEUE_LENGTH=100"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-e<span class="w"> </span><span class="s2">&quot;CONCURRENT=10&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-e<span class="w"> </span><span class="s2">&quot;TOKEN=your-secret-token&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-e<span class="w"> </span><span class="s2">&quot;MAX_QUEUE_LENGTH=100&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>browserless/chrome:latest
 </code></pre></div>
 <p>Then point the MCP at <code>http://localhost:3000/mcp</code>.</p>

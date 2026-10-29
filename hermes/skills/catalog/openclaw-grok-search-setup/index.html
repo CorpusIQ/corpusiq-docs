@@ -11243,25 +11243,25 @@
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Add your xAI API key to the Hermes environment:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add to ~/.hermes/.env or export in session</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">XAI_API_KEY</span><span class="o">=</span><span class="s2">"xai-your-key-here"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">XAI_API_KEY</span><span class="o">=</span><span class="s2">&quot;xai-your-key-here&quot;</span>
 </code></pre></div>
 <p>Or configure in <code>~/.hermes/config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">skills</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">openclaw-grok-search</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">api_key</span><span class="p">:</span><span class="w"> </span><span class="s">"${XAI_API_KEY}"</span>
-<span class="w">    </span><span class="nt">default_depth</span><span class="p">:</span><span class="w"> </span><span class="s">"quick"</span><span class="w">       </span><span class="c1"># quick | deep</span>
+<span class="w">    </span><span class="nt">api_key</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;${XAI_API_KEY}&quot;</span>
+<span class="w">    </span><span class="nt">default_depth</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;quick&quot;</span><span class="w">       </span><span class="c1"># quick | deep</span>
 <span class="w">    </span><span class="nt">max_results</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span>
 <span class="w">    </span><span class="nt">timeout_seconds</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">30</span>
 </code></pre></div>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
 <h3 id="basic-search">Basic Search<a class="headerlink" href="#basic-search" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Search for "AI business automation trends 2026" using Grok
+<div class="highlight"><pre><span></span><code>Search for &quot;AI business automation trends 2026&quot; using Grok
 </code></pre></div>
 <h3 id="deep-research-mode">Deep Research Mode<a class="headerlink" href="#deep-research-mode" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Deep research: compare CorpusIQ with leading AI business platforms
 </code></pre></div>
 <h3 id="competitive-analysis">Competitive Analysis<a class="headerlink" href="#competitive-analysis" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Grok search: "competitors to CorpusIQ business automation" - synthesize findings into a SWOT analysis
+<div class="highlight"><pre><span></span><code>Grok search: &quot;competitors to CorpusIQ business automation&quot; - synthesize findings into a SWOT analysis
 </code></pre></div>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>┌──────────┐     ┌──────────────┐     ┌───────────┐

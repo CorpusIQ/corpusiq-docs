@@ -11206,10 +11206,10 @@ Built by:     SendNF (sendnf.com)
 <li><strong>Fiscal liability does not transfer.</strong> An accepted note creates a real obligation. The approval step protects against an agent issuing one, not against a person approving a wrong one.</li>
 </ul>
 <h2 id="wiring-it-up">Wiring It Up<a class="headerlink" href="#wiring-it-up" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"sendnf"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.sendnf.com/mcp"</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer nt_test_YOUR_KEY"</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;sendnf&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.sendnf.com/mcp&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer nt_test_YOUR_KEY&quot;</span><span class="p">}</span>
 <span class="p">}}}</span>
 </code></pre></div>
 <p>Start on a test key, run <code>preview_nfse</code> until it validates clean, then issue one test note and read <code>go_live_status</code> before the key is swapped for a production one.</p>

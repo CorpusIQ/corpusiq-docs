@@ -11308,7 +11308,7 @@ curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercont
 curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/ScrapeCreators/social-media-research-skills/main/skills/ad-library-teardown/SKILL.md<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-40
 </code></pre></div>
 <p>Check that the key is visible to the process and that one live call works before scheduling anything:</p>
-<div class="highlight"><pre><span></span><code><span class="nb">test</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">"</span><span class="nv">$SCRAPECREATORS_API_KEY</span><span class="s2">"</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span>key<span class="w"> </span><span class="nb">set</span>
+<div class="highlight"><pre><span></span><code><span class="nb">test</span><span class="w"> </span>-n<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$SCRAPECREATORS_API_KEY</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span>key<span class="w"> </span><span class="nb">set</span>
 </code></pre></div>
 <p>If a workflow skill returns an outline instead of extracted posts, check the key first. Without a working key there is no data behind the workflow, and that is a faster diagnosis than editing prompts.</p>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>

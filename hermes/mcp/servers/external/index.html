@@ -47323,21 +47323,21 @@
 <h2 id="how-to-use-external-mcp-servers">How to Use External MCP Servers<a class="headerlink" href="#how-to-use-external-mcp-servers" title="Anchor link to this section">&para;</a></h2>
 <p>Most MCP clients (Claude Desktop, Cursor, Windsurf, Hermes) support multiple MCP server connections simultaneously. To add an external server alongside CorpusIQ:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w"> </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w"> </span><span class="nt">"corpusiq"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w"> </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp2.corpusiq.io/mcp"</span><span class="p">,</span>
-<span class="w"> </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span>
+<span class="w"> </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span>
 <span class="w"> </span><span class="p">},</span>
-<span class="w"> </span><span class="nt">"firecrawl"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w"> </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w"> </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"firecrawl-mcp"</span><span class="p">],</span>
-<span class="w"> </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w"> </span><span class="nt">"FIRECRAWL_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"fc-YOUR_KEY"</span>
+<span class="w"> </span><span class="nt">&quot;firecrawl&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;firecrawl-mcp&quot;</span><span class="p">],</span>
+<span class="w"> </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;FIRECRAWL_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;fc-YOUR_KEY&quot;</span>
 <span class="w"> </span><span class="p">}</span>
 <span class="w"> </span><span class="p">},</span>
-<span class="w"> </span><span class="nt">"playwright"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w"> </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w"> </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"@playwright/mcp@latest"</span><span class="p">]</span>
+<span class="w"> </span><span class="nt">&quot;playwright&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;@playwright/mcp@latest&quot;</span><span class="p">]</span>
 <span class="w"> </span><span class="p">}</span>
 <span class="w"> </span><span class="p">}</span>
 <span class="p">}</span>

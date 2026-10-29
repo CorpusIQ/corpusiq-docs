@@ -11184,9 +11184,9 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <h2 id="hermes-agent-integration">Hermes Agent Integration<a class="headerlink" href="#hermes-agent-integration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Agent triggers QA on a new feature</span>
 <span class="n">result</span> <span class="o">=</span> <span class="n">mcp_argus_start_test_session</span><span class="p">(</span>
-    <span class="n">target_url</span><span class="o">=</span><span class="s2">"https://staging.corpusiq.io/dashboard"</span><span class="p">,</span>
-    <span class="n">test_depth</span><span class="o">=</span><span class="s2">"deep"</span><span class="p">,</span>
-    <span class="n">browser</span><span class="o">=</span><span class="s2">"chromium"</span>
+    <span class="n">target_url</span><span class="o">=</span><span class="s2">&quot;https://staging.corpusiq.io/dashboard&quot;</span><span class="p">,</span>
+    <span class="n">test_depth</span><span class="o">=</span><span class="s2">&quot;deep&quot;</span><span class="p">,</span>
+    <span class="n">browser</span><span class="o">=</span><span class="s2">&quot;chromium&quot;</span>
 <span class="p">)</span>
 <span class="c1"># Review bugs found</span>
 <span class="n">bugs</span> <span class="o">=</span> <span class="n">mcp_argus_report_bug</span><span class="p">(</span><span class="n">session_id</span><span class="o">=</span><span class="n">result</span><span class="o">.</span><span class="n">session_id</span><span class="p">)</span>

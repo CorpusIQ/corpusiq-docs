@@ -11209,25 +11209,25 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/null-
 pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 
 <span class="c1"># Configure</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">NEO4J_URI</span><span class="o">=</span><span class="s2">"bolt://localhost:7687"</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">NEO4J_USER</span><span class="o">=</span><span class="s2">"neo4j"</span>
-<span class="nb">export</span><span class="w"> </span><span class="nv">NEO4J_PASSWORD</span><span class="o">=</span><span class="s2">"password"</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">NEO4J_URI</span><span class="o">=</span><span class="s2">&quot;bolt://localhost:7687&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">NEO4J_USER</span><span class="o">=</span><span class="s2">&quot;neo4j&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">NEO4J_PASSWORD</span><span class="o">=</span><span class="s2">&quot;password&quot;</span>
 
 <span class="c1"># Add to Hermes</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>memory<span class="w"> </span>--command<span class="w"> </span><span class="s2">"python"</span><span class="w"> </span>--args<span class="w"> </span><span class="s2">"server.py"</span><span class="w"> </span>--workdir<span class="w"> </span><span class="s2">"</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>memory<span class="w"> </span>--command<span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="w"> </span>--args<span class="w"> </span><span class="s2">&quot;server.py&quot;</span><span class="w"> </span>--workdir<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--env<span class="w"> </span>NEO4J_URI<span class="w"> </span>NEO4J_USER<span class="w"> </span>NEO4J_PASSWORD
 </code></pre></div>
 <h2 id="manual-configuration">Manual Configuration<a class="headerlink" href="#manual-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"memory"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"server.py"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"workdir"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/path/to/mcp-long-term-memory"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"NEO4J_URI"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bolt://localhost:7687"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"NEO4J_USER"</span><span class="p">:</span><span class="w"> </span><span class="s2">"neo4j"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"NEO4J_PASSWORD"</span><span class="p">:</span><span class="w"> </span><span class="s2">"password"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;memory&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;server.py&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;workdir&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/mcp-long-term-memory&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;NEO4J_URI&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;bolt://localhost:7687&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;NEO4J_USER&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;neo4j&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;NEO4J_PASSWORD&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;password&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

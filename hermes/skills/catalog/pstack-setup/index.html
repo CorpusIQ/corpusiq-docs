@@ -11337,8 +11337,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>pstack/skills/poteto-mode<sp
 <span class="w">         </span>skills/setup-pstack/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/create-verification-skill/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>agents/poteto-agent.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/backnotprop/pstack/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/backnotprop/pstack/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read three of them before installing:</p>
@@ -11349,7 +11349,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>pstack/skills/poteto-mode<sp
 </ul>
 <p><code>poteto-mode</code> owns the playbooks and the principles index, <code>no-comments</code> carries one of the two community fixes this mirror adds on top of upstream, and the delegation principle governs what a skill will do without asking.</p>
 <p>After install, check what landed. The principle set is the cheapest count to confirm if you installed <code>poteto-mode</code> with the skills it routes into, and the router's frontmatter should match the name the install index uses:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-c<span class="w"> </span><span class="s1">'^principle-'</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-c<span class="w"> </span><span class="s1">&#39;^principle-&#39;</span>
 head<span class="w"> </span>-5<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/poteto-mode/SKILL.md
 </code></pre></div>
 <p>The <code>head</code> output should show <code>name: poteto-mode</code> and <code>disable-model-invocation: true</code>, which means the skill is not auto-invoked from a description match. If the count is not 24, the principle set is incomplete and the router is reading an index it cannot follow.</p>

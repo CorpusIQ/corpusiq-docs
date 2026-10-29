@@ -11179,7 +11179,7 @@
 codex<span class="w"> </span>plugin<span class="w"> </span>add<span class="w"> </span>journalism-core@claude-skills-journalism
 </code></pre></div>
 <p>The skills CLI installs standards-based skills into the agent's skills directory. Codex example from the README:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills@latest<span class="w"> </span>add<span class="w"> </span>https://github.com/jamditis/claude-skills-journalism/tree/master/journalism-core<span class="w"> </span>--skill<span class="w"> </span><span class="s1">'*'</span><span class="w"> </span>--agent<span class="w"> </span>codex<span class="w"> </span>--copy<span class="w"> </span>-g<span class="w"> </span>-y
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills@latest<span class="w"> </span>add<span class="w"> </span>https://github.com/jamditis/claude-skills-journalism/tree/master/journalism-core<span class="w"> </span>--skill<span class="w"> </span><span class="s1">&#39;*&#39;</span><span class="w"> </span>--agent<span class="w"> </span>codex<span class="w"> </span>--copy<span class="w"> </span>-g<span class="w"> </span>-y
 </code></pre></div>
 <p>To install a single skill instead:</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills@latest<span class="w"> </span>add<span class="w"> </span>jamditis/claude-skills-journalism<span class="w"> </span>--skill<span class="w"> </span>fact-check-workflow<span class="w"> </span>--agent<span class="w"> </span>codex<span class="w"> </span>--copy<span class="w"> </span>-g<span class="w"> </span>-y
@@ -11265,7 +11265,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>claude-skills-journalism/dev
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Claude Code: plugin skills land under the skills directory</span>
-ls<span class="w"> </span>~/.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>-E<span class="w"> </span><span class="s2">"verification|foia|fact-check"</span>
+ls<span class="w"> </span>~/.claude/skills/<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>-E<span class="w"> </span><span class="s2">&quot;verification|foia|fact-check&quot;</span>
 
 <span class="c1"># Codex: user-level install target used by the skills CLI route</span>
 ls<span class="w"> </span>~/.agents/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>fact-check

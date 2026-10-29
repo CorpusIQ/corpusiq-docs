@@ -11291,29 +11291,29 @@ GET /reports/{journey_id}.md
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>http://127.0.0.1:9119/api/plugins/hermes-labyrinth/journeys<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span>.
 </code></pre></div>
 <h3 id="example-export-a-journey-report">Example: Export a Journey Report<a class="headerlink" href="#example-export-a-journey-report" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="nv">JOURNEY_ID</span><span class="o">=</span><span class="s2">"your-journey-id"</span>
-curl<span class="w"> </span><span class="s2">"http://127.0.0.1:9119/api/plugins/hermes-labyrinth/reports/</span><span class="si">${</span><span class="nv">JOURNEY_ID</span><span class="si">}</span><span class="s2">.md"</span><span class="w"> </span>&gt;<span class="w"> </span>report.md
+<div class="highlight"><pre><span></span><code><span class="nv">JOURNEY_ID</span><span class="o">=</span><span class="s2">&quot;your-journey-id&quot;</span>
+curl<span class="w"> </span><span class="s2">&quot;http://127.0.0.1:9119/api/plugins/hermes-labyrinth/reports/</span><span class="si">${</span><span class="nv">JOURNEY_ID</span><span class="si">}</span><span class="s2">.md&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>report.md
 </code></pre></div>
 <h3 id="health-check">Health Check<a class="headerlink" href="#health-check" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>http://127.0.0.1:9119/api/plugins/hermes-labyrinth/health
 </code></pre></div>
 <hr />
 <h2 id="python-api-client">Python API Client<a class="headerlink" href="#python-api-client" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">urllib.request</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">urllib.request</span>
+<span class="kn">import</span> <span class="nn">json</span>
 
-<span class="n">BASE</span> <span class="o">=</span> <span class="s2">"http://127.0.0.1:9119/api/plugins/hermes-labyrinth"</span>
+<span class="n">BASE</span> <span class="o">=</span> <span class="s2">&quot;http://127.0.0.1:9119/api/plugins/hermes-labyrinth&quot;</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_journeys</span><span class="p">():</span>
-    <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/journeys"</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">get_journeys</span><span class="p">():</span>
+    <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/journeys&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_crossings</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-    <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/journeys/</span><span class="si">{</span><span class="n">journey_id</span><span class="si">}</span><span class="s2">/crossings"</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">get_crossings</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/journeys/</span><span class="si">{</span><span class="n">journey_id</span><span class="si">}</span><span class="s2">/crossings&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">get_report_json</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-    <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/reports/</span><span class="si">{</span><span class="n">journey_id</span><span class="si">}</span><span class="s2">.json"</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">get_report_json</span><span class="p">(</span><span class="n">journey_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE</span><span class="si">}</span><span class="s2">/reports/</span><span class="si">{</span><span class="n">journey_id</span><span class="si">}</span><span class="s2">.json&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">r</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
 </code></pre></div>
 <hr />
@@ -11321,10 +11321,10 @@ curl<span class="w"> </span><span class="s2">"http://127.0.0.1:9119/api/plugins/
 <div class="highlight"><pre><span></span><code><span class="c1"># After installing plugin and starting dashboard</span>
 curl<span class="w"> </span>http://127.0.0.1:9119/api/plugins/hermes-labyrinth/health
 
-<span class="c1"># Should return: {"status": "ok"}</span>
+<span class="c1"># Should return: {&quot;status&quot;: &quot;ok&quot;}</span>
 
 <span class="c1"># Check journeys endpoint</span>
-curl<span class="w"> </span>http://127.0.0.1:9119/api/plugins/hermes-labyrinth/journeys<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">'. | length'</span>
+curl<span class="w"> </span>http://127.0.0.1:9119/api/plugins/hermes-labyrinth/journeys<span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;. | length&#39;</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

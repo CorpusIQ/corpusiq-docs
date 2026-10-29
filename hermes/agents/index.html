@@ -11351,7 +11351,12 @@
 <p>Before an agent can work, its MCP connectors need to be authenticated. Run <code>hermes mcp add</code> to connect each server (discovery-first install), then <code>hermes mcp list</code> to confirm what is wired up. If a server uses OAuth, <code>hermes mcp login</code> forces re-authentication; <code>hermes mcp test</code> checks the connection. You only need to connect the services you actually use  --  skip connectors for platforms you don't have.</p>
 <h3 id="3-customize-the-cron-schedule">3. Customize the Cron Schedule<a class="headerlink" href="#3-customize-the-cron-schedule" title="Anchor link to this section">&para;</a></h3>
 <p>The sample cron schedules are sensible defaults but should be tuned to your timezone, working hours, and operational cadence. Edit them in your agent's profile configuration:</p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span>edit<span class="w"> </span>--profile<span class="w"> </span>sales
+<div class="highlight"><pre><span></span><code><span class="c1"># edit a specific profile&#39;s config</span>
+hermes<span class="w"> </span>-p<span class="w"> </span>sales<span class="w"> </span>config<span class="w"> </span>edit
+
+<span class="c1"># or make it sticky, then edit</span>
+hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w"> </span>sales
+hermes<span class="w"> </span>config<span class="w"> </span>edit
 </code></pre></div>
 <h3 id="4-add-your-business-context">4. Add Your Business Context<a class="headerlink" href="#4-add-your-business-context" title="Anchor link to this section">&para;</a></h3>
 <p>Agents work best when they understand your business. Use <a href="https://www.corpusiq.io/docs/hermes/governance">canonical facts</a> to store key definitions once and reuse them everywhere. On the CorpusIQ MCP surface, <code>canonical_facts_set</code> takes a key, value, and category; it stages the write and returns a <code>pending_write_id</code>, and <code>canonical_pending_commit</code> applies it once you confirm. <code>canonical_facts_get</code> reads a fact back by key.</p>

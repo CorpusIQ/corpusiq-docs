@@ -40,6 +40,7 @@
 - [CorpusIQ vs Viktor AI: Who Actually Controls the Data?](https://www.corpusiq.io/docs/corpusiq-vs-viktor): CorpusIQ owns the full intelligence layer: validation, normalization, entity resolution, and anti-drift. Viktor outsources its connector layer instead
 
 ## Developer Guides
+- [MCP Apps: interactive answers instead of walls of text](https://www.corpusiq.io/docs/mcp-apps): MCP Apps render an interactive HTML interface inside the AI chat. How the extension works, its sandbox security model, client support, and what to ver
 - [CorpusIQ MCP architecture](https://www.corpusiq.io/docs/how-it-works/mcp-architecture): For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture 
 - [MCP authentication and connection failure classes](https://www.corpusiq.io/docs/how-it-works/mcp-auth-failure-classes): A field guide to the eight connection and OAuth failures that break MCP servers in production: symptoms, how to tell them apart, and the fix pattern f
 - [Connectors, explained](https://www.corpusiq.io/docs/how-it-works/connectors-explained): A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why d

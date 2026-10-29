@@ -11228,10 +11228,10 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </code></pre></div>
 <p>Or manual config:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"sixta"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://sixta.dev/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;sixta&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://sixta.dev/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11266,28 +11266,28 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-pre-production-sql-review">1. Pre-Production SQL Review<a class="headerlink" href="#1-pre-production-sql-review" title="Anchor link to this section">&para;</a></h3>
 <p>Before deploying a query to production, have your AI agent review it with SIXTA:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Review this query for performance issues. 
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Review this query for performance issues. 
 We run PostgreSQL 16 on RDS with 32GB RAM.
-[ paste query ]"
+[ paste query ]&quot;
 </code></pre></div>
 <h3 id="2-slow-query-optimization">2. Slow Query Optimization<a class="headerlink" href="#2-slow-query-optimization" title="Anchor link to this section">&para;</a></h3>
 <p>When pg_stat_statements flags a slow query, paste the EXPLAIN output:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "This query has gone from 50ms to 8s after our 
-data volume doubled. Here's the EXPLAIN ANALYZE output. 
-What should we change?"
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;This query has gone from 50ms to 8s after our 
+data volume doubled. Here&#39;s the EXPLAIN ANALYZE output. 
+What should we change?&quot;
 </code></pre></div>
 <h3 id="3-migration-safety-check">3. Migration Safety Check<a class="headerlink" href="#3-migration-safety-check" title="Anchor link to this section">&para;</a></h3>
 <p>Before running a schema migration, get a safety review:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Review this migration for safety. We have 
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Review this migration for safety. We have 
 12M rows in the users table and need zero downtime.
-[ paste migration SQL ]"
+[ paste migration SQL ]&quot;
 </code></pre></div>
 <h3 id="4-error-diagnosis">4. Error Diagnosis<a class="headerlink" href="#4-error-diagnosis" title="Anchor link to this section">&para;</a></h3>
 <p>When your application logs a database error, diagnose it instantly:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Our app is throwing this PostgreSQL error. 
-What's the root cause and how do we fix it?
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Our app is throwing this PostgreSQL error. 
+What&#39;s the root cause and how do we fix it?
 ERROR: could not serialize access due to 
-read/write dependencies among transactions"
+read/write dependencies among transactions&quot;
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>SIXTA Connect + CorpusIQ = complete database operations intelligence:</p>

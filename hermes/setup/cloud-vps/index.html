@@ -11651,7 +11651,7 @@ hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w">
 </code></pre></div>
 <h3 id="step-4-configure-cloud-models">Step 4: Configure Cloud Models<a class="headerlink" href="#step-4-configure-cloud-models" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># OpenRouter  --  free tier models available</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">"your-key"</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/qwen/qwen3-235b-a22b:free
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
 </code></pre></div>
@@ -11663,13 +11663,13 @@ sudo<span class="w"> </span>usermod<span class="w"> </span>-aG<span class="w"> <
 
 docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span>--name<span class="w"> </span>hermes-agent<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-v<span class="w"> </span>~/.hermes:/home/hermes/.hermes<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="nv">OPENROUTER_API_KEY</span><span class="o">=</span><span class="s2">"your-key"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-e<span class="w"> </span><span class="nv">OPENROUTER_API_KEY</span><span class="o">=</span><span class="s2">&quot;your-key&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--restart<span class="w"> </span>unless-stopped<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>nousresearch/hermes-agent:latest
 </code></pre></div>
 <p>Full setup in the <a href="https://www.corpusiq.io/docs/hermes/setup/docker">Docker guide</a>.</p>
 <h3 id="step-6-systemd-service">Step 6: Systemd Service<a class="headerlink" href="#step-6-systemd-service" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/systemd/system/hermes-gateway.service<span class="w"> </span><span class="s">&lt;&lt; 'EOF'</span>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/systemd/system/hermes-gateway.service<span class="w"> </span><span class="s">&lt;&lt; &#39;EOF&#39;</span>
 <span class="s">[Unit]</span>
 <span class="s">Description=Hermes Agent Gateway</span>
 <span class="s">After=network-online.target</span>
@@ -11693,21 +11693,21 @@ sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">en
 <h3 id="step-7-cron-persistence">Step 7: Cron Persistence<a class="headerlink" href="#step-7-cron-persistence" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Email monitoring</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"email-watch"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Check inbox for unread. Summarize. Silent if empty."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"*/15 * * * *"</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check inbox for unread. Summarize. Silent if empty.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span>
 
 <span class="c1"># Daily health check</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">"health-check"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">"Verify services running. Check disk space. Report issues."</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">"0 8 * * *"</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;health-check&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Verify services running. Check disk space. Report issues.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 8 * * *&quot;</span>
 </code></pre></div>
 <h3 id="step-8-security-hardening">Step 8: Security Hardening<a class="headerlink" href="#step-8-security-hardening" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>ufw<span class="w"> </span>allow<span class="w"> </span><span class="m">22</span>/tcp
 sudo<span class="w"> </span>ufw<span class="w"> </span><span class="nb">enable</span>
 ssh-copy-id<span class="w"> </span>hermes@your-server-ip
-sudo<span class="w"> </span>sed<span class="w"> </span>-i<span class="w"> </span><span class="s1">'s/#PasswordAuthentication yes/PasswordAuthentication no/'</span><span class="w"> </span>/etc/ssh/sshd_config
+sudo<span class="w"> </span>sed<span class="w"> </span>-i<span class="w"> </span><span class="s1">&#39;s/#PasswordAuthentication yes/PasswordAuthentication no/&#39;</span><span class="w"> </span>/etc/ssh/sshd_config
 sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>sshd
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>unattended-upgrades
 </code></pre></div>

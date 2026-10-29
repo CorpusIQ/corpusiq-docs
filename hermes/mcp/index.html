@@ -11403,7 +11403,7 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 
 <span class="c1"># Authenticate (device login flow)</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span>login<span class="w"> </span>corpusiq
-<span class="c1"># → Opens browser: Enter code "ABCD-1234"</span>
+<span class="c1"># → Opens browser: Enter code &quot;ABCD-1234&quot;</span>
 <span class="c1"># → Authenticate with Google</span>
 <span class="c1"># → Done. 121 tools available.</span>
 </code></pre></div>
@@ -11556,58 +11556,58 @@ mcp_corpusiq_calendar_connector
 <h2 id="query-patterns">Query Patterns<a class="headerlink" href="#query-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="cross-source-analysis">Cross-Source Analysis<a class="headerlink" href="#cross-source-analysis" title="Anchor link to this section">&para;</a></h3>
 <p>The real power comes from querying across platforms in a single session:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># "How did our Meta ads perform vs Shopify revenue this week?"</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># &quot;How did our Meta ads perform vs Shopify revenue this week?&quot;</span>
 
 <span class="c1"># 1. Get ad spend</span>
 <span class="n">meta_ads</span> <span class="o">=</span> <span class="n">mcp_corpusiq_meta_ads_connector</span><span class="p">(</span>
-    <span class="n">action</span><span class="o">=</span><span class="s2">"get_facebook_account_insights"</span><span class="p">,</span>
-    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"start_date"</span><span class="p">:</span> <span class="s2">"2026-06-09"</span><span class="p">,</span> <span class="s2">"end_date"</span><span class="p">:</span> <span class="s2">"2026-06-15"</span><span class="p">}</span>
+    <span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_facebook_account_insights&quot;</span><span class="p">,</span>
+    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-06-09&quot;</span><span class="p">,</span> <span class="s2">&quot;end_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-06-15&quot;</span><span class="p">}</span>
 <span class="p">)</span>
 
 <span class="c1"># 2. Get revenue (via cross-source connector)</span>
 <span class="n">roas</span> <span class="o">=</span> <span class="n">mcp_corpusiq_cross_source_ads_connector</span><span class="p">(</span>
-    <span class="n">action</span><span class="o">=</span><span class="s2">"correlate_spend_vs_ga4_revenue"</span><span class="p">,</span>
-    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"customer_id"</span><span class="p">:</span> <span class="s2">"..."</span><span class="p">,</span> <span class="s2">"property_id"</span><span class="p">:</span> <span class="s2">"..."</span><span class="p">}</span>
+    <span class="n">action</span><span class="o">=</span><span class="s2">&quot;correlate_spend_vs_ga4_revenue&quot;</span><span class="p">,</span>
+    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;customer_id&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span> <span class="s2">&quot;property_id&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">}</span>
 <span class="p">)</span>
 
 <span class="c1"># 3. Get email attribution</span>
 <span class="n">email</span> <span class="o">=</span> <span class="n">mcp_corpusiq_cross_source_email_connector</span><span class="p">(</span>
-    <span class="n">action</span><span class="o">=</span><span class="s2">"get_channel_attribution_summary"</span>
+    <span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_channel_attribution_summary&quot;</span>
 <span class="p">)</span>
 </code></pre></div>
 <h3 id="automated-reporting">Automated Reporting<a class="headerlink" href="#automated-reporting" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># "Generate a weekly business health report"</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># &quot;Generate a weekly business health report&quot;</span>
 
 <span class="c1"># 1. Revenue</span>
-<span class="n">profit_loss</span> <span class="o">=</span> <span class="n">mcp_corpusiq_quickbooks_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_profit_loss"</span><span class="p">)</span>
-<span class="n">stripe</span> <span class="o">=</span> <span class="n">mcp_corpusiq_stripe_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_balance"</span><span class="p">)</span>
+<span class="n">profit_loss</span> <span class="o">=</span> <span class="n">mcp_corpusiq_quickbooks_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_profit_loss&quot;</span><span class="p">)</span>
+<span class="n">stripe</span> <span class="o">=</span> <span class="n">mcp_corpusiq_stripe_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_balance&quot;</span><span class="p">)</span>
 
 <span class="c1"># 2. Traffic</span>
-<span class="n">ga4</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ga4_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"run_report"</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span>
-    <span class="s2">"property_id"</span><span class="p">:</span> <span class="s2">"..."</span><span class="p">,</span>
-    <span class="s2">"dimensions"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"date"</span><span class="p">],</span>
-    <span class="s2">"metrics"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"sessions"</span><span class="p">,</span> <span class="s2">"activeUsers"</span><span class="p">,</span> <span class="s2">"conversions"</span><span class="p">],</span>
-    <span class="s2">"date_ranges"</span><span class="p">:</span> <span class="p">[{</span><span class="s2">"start_date"</span><span class="p">:</span> <span class="s2">"7daysAgo"</span><span class="p">,</span> <span class="s2">"end_date"</span><span class="p">:</span> <span class="s2">"today"</span><span class="p">}]</span>
+<span class="n">ga4</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ga4_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;run_report&quot;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;property_id&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;dimensions&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;metrics&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;sessions&quot;</span><span class="p">,</span> <span class="s2">&quot;activeUsers&quot;</span><span class="p">,</span> <span class="s2">&quot;conversions&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;date_ranges&quot;</span><span class="p">:</span> <span class="p">[{</span><span class="s2">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;7daysAgo&quot;</span><span class="p">,</span> <span class="s2">&quot;end_date&quot;</span><span class="p">:</span> <span class="s2">&quot;today&quot;</span><span class="p">}]</span>
 <span class="p">})</span>
 
 <span class="c1"># 3. Email</span>
-<span class="n">klaviyo</span> <span class="o">=</span> <span class="n">mcp_corpusiq_klaviyo_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_email_metrics_summary"</span><span class="p">)</span>
+<span class="n">klaviyo</span> <span class="o">=</span> <span class="n">mcp_corpusiq_klaviyo_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_email_metrics_summary&quot;</span><span class="p">)</span>
 
 <span class="c1"># 4. SEO</span>
-<span class="n">ahrefs</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ahrefs_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">"get_domain_overview"</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"domain"</span><span class="p">:</span> <span class="s2">"corpusiq.io"</span><span class="p">})</span>
+<span class="n">ahrefs</span> <span class="o">=</span> <span class="n">mcp_corpusiq_ahrefs_connector</span><span class="p">(</span><span class="n">action</span><span class="o">=</span><span class="s2">&quot;get_domain_overview&quot;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;domain&quot;</span><span class="p">:</span> <span class="s2">&quot;corpusiq.io&quot;</span><span class="p">})</span>
 </code></pre></div>
 <hr />
 <h2 id="adding-your-own-mcp-server">Adding Your Own MCP Server<a class="headerlink" href="#adding-your-own-mcp-server" title="Anchor link to this section">&para;</a></h2>
 <h3 id="option-a-fastmcp-python">Option A: FastMCP (Python)<a class="headerlink" href="#option-a-fastmcp-python" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># my_server.py</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">fastmcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">FastMCP</span>
+<span class="kn">from</span> <span class="nn">fastmcp</span> <span class="kn">import</span> <span class="n">FastMCP</span>
 
-<span class="n">mcp</span> <span class="o">=</span> <span class="n">FastMCP</span><span class="p">(</span><span class="s2">"My Server"</span><span class="p">)</span>
+<span class="n">mcp</span> <span class="o">=</span> <span class="n">FastMCP</span><span class="p">(</span><span class="s2">&quot;My Server&quot;</span><span class="p">)</span>
 
 <span class="nd">@mcp</span><span class="o">.</span><span class="n">tool</span><span class="p">()</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">get_dashboard_metrics</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">"""Return key business metrics"""</span>
-    <span class="k">return</span> <span class="p">{</span><span class="s2">"mrr"</span><span class="p">:</span> <span class="mi">12500</span><span class="p">,</span> <span class="s2">"users"</span><span class="p">:</span> <span class="mi">843</span><span class="p">,</span> <span class="s2">"churn"</span><span class="p">:</span> <span class="mf">0.02</span><span class="p">}</span>
+<span class="k">def</span> <span class="nf">get_dashboard_metrics</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Return key business metrics&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;mrr&quot;</span><span class="p">:</span> <span class="mi">12500</span><span class="p">,</span> <span class="s2">&quot;users&quot;</span><span class="p">:</span> <span class="mi">843</span><span class="p">,</span> <span class="s2">&quot;churn&quot;</span><span class="p">:</span> <span class="mf">0.02</span><span class="p">}</span>
 
 <span class="n">mcp</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </code></pre></div>
@@ -11615,12 +11615,12 @@ mcp_corpusiq_calendar_connector
 </code></pre></div>
 <h3 id="option-b-typescript">Option B: TypeScript<a class="headerlink" href="#option-b-typescript" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1">// my-server.ts</span>
-<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">McpServer</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">"@modelcontextprotocol/sdk/server/mcp.js"</span><span class="p">;</span>
+<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">McpServer</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@modelcontextprotocol/sdk/server/mcp.js&quot;</span><span class="p">;</span>
 
-<span class="kd">const</span><span class="w"> </span><span class="nx">server</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">McpServer</span><span class="p">({</span><span class="w"> </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">"my-server"</span><span class="w"> </span><span class="p">});</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">server</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">McpServer</span><span class="p">({</span><span class="w"> </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;my-server&quot;</span><span class="w"> </span><span class="p">});</span>
 
-<span class="nx">server</span><span class="p">.</span><span class="nx">tool</span><span class="p">(</span><span class="s2">"get_metrics"</span><span class="p">,</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">({</span>
-<span class="w">  </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">"text"</span><span class="p">,</span><span class="w"> </span><span class="nx">text</span><span class="o">:</span><span class="w"> </span><span class="kt">JSON.stringify</span><span class="p">({</span><span class="w"> </span><span class="nx">mrr</span><span class="o">:</span><span class="w"> </span><span class="kt">12500</span><span class="w"> </span><span class="p">})</span><span class="w"> </span><span class="p">}]</span>
+<span class="nx">server</span><span class="p">.</span><span class="nx">tool</span><span class="p">(</span><span class="s2">&quot;get_metrics&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">({</span>
+<span class="w">  </span><span class="nx">content</span><span class="o">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;text&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">text</span><span class="o">:</span><span class="w"> </span><span class="kt">JSON.stringify</span><span class="p">({</span><span class="w"> </span><span class="nx">mrr</span><span class="o">:</span><span class="w"> </span><span class="kt">12500</span><span class="w"> </span><span class="p">})</span><span class="w"> </span><span class="p">}]</span>
 <span class="p">}));</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>my-server<span class="w"> </span>--command<span class="w"> </span>npx<span class="w"> </span>--args<span class="w"> </span>tsx<span class="w"> </span>my-server.ts

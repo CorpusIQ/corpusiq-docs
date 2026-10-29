@@ -11219,7 +11219,7 @@
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Run on current branch vs main</span>
-git<span class="w"> </span>log<span class="w"> </span>--no-merges<span class="w"> </span>--pretty<span class="o">=</span>format:<span class="s2">"%h|%s"</span><span class="w"> </span>main..HEAD
+git<span class="w"> </span>log<span class="w"> </span>--no-merges<span class="w"> </span>--pretty<span class="o">=</span>format:<span class="s2">&quot;%h|%s&quot;</span><span class="w"> </span>main..HEAD
 
 <span class="c1"># The skill processes commit history and produces:</span>
 <span class="c1"># - Title: feat(auth): implement JWT authentication</span>
@@ -11233,7 +11233,7 @@ git<span class="w"> </span>log<span class="w"> </span>--no-merges<span class="w"
 npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>git-pr-review
 
 <span class="c1"># Test with recent commits</span>
-git<span class="w"> </span>log<span class="w"> </span>--no-merges<span class="w"> </span>--pretty<span class="o">=</span>format:<span class="s2">"%h|%s"</span><span class="w"> </span>main..HEAD<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-10
+git<span class="w"> </span>log<span class="w"> </span>--no-merges<span class="w"> </span>--pretty<span class="o">=</span>format:<span class="s2">&quot;%h|%s&quot;</span><span class="w"> </span>main..HEAD<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-10
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>

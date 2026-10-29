@@ -11291,18 +11291,18 @@ netlify<span class="w"> </span>deploy<span class="w"> </span>--prod
 
 <span class="c1"># Create a serverless function</span>
 mkdir<span class="w"> </span>-p<span class="w"> </span>netlify/functions
-cat<span class="w"> </span>&gt;<span class="w"> </span>netlify/functions/hello.ts<span class="w"> </span><span class="s">&lt;&lt; 'EOF'</span>
-<span class="s">import type { Context, Config } from "@netlify/functions";</span>
+cat<span class="w"> </span>&gt;<span class="w"> </span>netlify/functions/hello.ts<span class="w"> </span><span class="s">&lt;&lt; &#39;EOF&#39;</span>
+<span class="s">import type { Context, Config } from &quot;@netlify/functions&quot;;</span>
 <span class="s">export default async (req: Request, context: Context) =&gt; {</span>
-<span class="s">  return new Response(JSON.stringify({ message: "Hello from Hermes" }), {</span>
-<span class="s">    headers: { "Content-Type": "application/json" },</span>
+<span class="s">  return new Response(JSON.stringify({ message: &quot;Hello from Hermes&quot; }), {</span>
+<span class="s">    headers: { &quot;Content-Type&quot;: &quot;application/json&quot; },</span>
 <span class="s">  });</span>
 <span class="s">};</span>
-<span class="s">export const config: Config = { path: "/api/hello" };</span>
+<span class="s">export const config: Config = { path: &quot;/api/hello&quot; };</span>
 <span class="s">EOF</span>
 
 <span class="c1"># Deploy</span>
-git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Add hello function"</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>push
+git<span class="w"> </span>add<span class="w"> </span>.<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Add hello function&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>push
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>

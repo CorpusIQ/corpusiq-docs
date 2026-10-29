@@ -11235,10 +11235,10 @@
 </code></pre></div>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <p>Create <code>~/Library/LaunchAgents/com.corpusiq.hermes-gateway.plist</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
-<span class="cp">&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"</span>
-<span class="cp">  "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;</span>
-<span class="nt">&lt;plist</span><span class="w"> </span><span class="na">version=</span><span class="s">"1.0"</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="cp">&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot;</span>
+<span class="cp">  &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</span>
+<span class="nt">&lt;plist</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;</span>
 <span class="nt">&lt;dict&gt;</span>
 <span class="w">    </span><span class="nt">&lt;key&gt;</span>Label<span class="nt">&lt;/key&gt;</span>
 <span class="w">    </span><span class="nt">&lt;string&gt;</span>com.corpusiq.hermes-gateway<span class="nt">&lt;/string&gt;</span>
@@ -11284,7 +11284,7 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># Load the plist (registers with launchd)</span>
 launchctl<span class="w"> </span>bootstrap<span class="w"> </span>gui/<span class="k">$(</span>id<span class="w"> </span>-u<span class="k">)</span><span class="w"> </span>~/Library/LaunchAgents/com.corpusiq.hermes-gateway.plist
 
-<span class="c1"># Verify it's running</span>
+<span class="c1"># Verify it&#39;s running</span>
 launchctl<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>com.corpusiq.hermes-gateway
 
 <span class="c1"># Check logs</span>
@@ -11331,7 +11331,7 @@ tail<span class="w"> </span>-f<span class="w"> </span>~/.hermes/logs/gateway-std
 <span class="nt">&lt;/dict&gt;</span>
 </code></pre></div>
 <h3 id="log-file-management">Log File Management<a class="headerlink" href="#log-file-management" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Rotate logs (launchd doesn't auto-rotate)</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Rotate logs (launchd doesn&#39;t auto-rotate)</span>
 mv<span class="w"> </span>~/.hermes/logs/gateway-stdout.log<span class="w"> </span>~/.hermes/logs/gateway-stdout.log.1
 <span class="c1"># Reload the agent to pick up new log file</span>
 launchctl<span class="w"> </span>kickstart<span class="w"> </span>gui/<span class="k">$(</span>id<span class="w"> </span>-u<span class="k">)</span>/com.corpusiq.hermes-gateway

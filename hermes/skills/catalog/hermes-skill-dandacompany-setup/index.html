@@ -11304,9 +11304,9 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 python3<span class="w"> </span>&lt;skill-dir&gt;/scripts/hermes_check.py<span class="w"> </span>--json
 
 <span class="c1"># 3. Load the skill in your agent</span>
-skill_view<span class="o">(</span><span class="nv">name</span><span class="o">=</span><span class="s2">"hermes"</span><span class="o">)</span>
+skill_view<span class="o">(</span><span class="nv">name</span><span class="o">=</span><span class="s2">&quot;hermes&quot;</span><span class="o">)</span>
 
-<span class="c1"># 4. Follow the skill's guidance for your specific task</span>
+<span class="c1"># 4. Follow the skill&#39;s guidance for your specific task</span>
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
@@ -11314,7 +11314,7 @@ skill_view<span class="o">(</span><span class="nv">name</span><span class="o">=<
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span>--marketplace<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>hermes
 </code></pre></div>
 <p>Then run the health check:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span><span class="k">$(</span>find<span class="w"> </span>~/.hermes<span class="w"> </span>-name<span class="w"> </span><span class="s2">"hermes_check.py"</span><span class="w"> </span>-path<span class="w"> </span><span class="s2">"*/dandacompany*"</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-1<span class="k">)</span><span class="w"> </span>--json
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span><span class="k">$(</span>find<span class="w"> </span>~/.hermes<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;hermes_check.py&quot;</span><span class="w"> </span>-path<span class="w"> </span><span class="s2">&quot;*/dandacompany*&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-1<span class="k">)</span><span class="w"> </span>--json
 </code></pre></div>
 <p>Expected output: JSON object with <code>version</code>, <code>profile</code>, <code>gateway_status</code>, <code>models</code>, <code>mcp_connections</code>, <code>cron_jobs_count</code>.</p>
 <hr />

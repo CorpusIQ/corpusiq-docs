@@ -11267,7 +11267,7 @@ docker-compose<span class="w"> </span>up<span class="w"> </span>-d
 <span class="nb">cd</span><span class="w"> </span>hermes-workspace
 pnpm<span class="w"> </span>install
 cp<span class="w"> </span>.env.example<span class="w"> </span>.env
-<span class="nb">echo</span><span class="w"> </span><span class="s1">'HERMES_API_URL=http://127.0.0.1:8642'</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>.env
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;HERMES_API_URL=http://127.0.0.1:8642&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>.env
 pnpm<span class="w"> </span>dev
 </code></pre></div>
 <hr />
@@ -11341,9 +11341,9 @@ pnpm<span class="w"> </span>swarm:start
 <span class="c1"># Configure roles in UI: Settings → Swarm → Configure Roles</span>
 </code></pre></div>
 <h3 id="remote-access-via-tailscale">Remote Access via Tailscale<a class="headerlink" href="#remote-access-via-tailscale" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="s1">'HERMES_API_URL=http://100.x.y.z:8642'</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>.env
+<div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;HERMES_API_URL=http://100.x.y.z:8642&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>.env
 <span class="c1"># Gateway must bind to 0.0.0.0</span>
-<span class="nb">echo</span><span class="w"> </span><span class="s1">'API_SERVER_HOST=0.0.0.0'</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/.env
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;API_SERVER_HOST=0.0.0.0&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/.env
 </code></pre></div>
 <hr />
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>

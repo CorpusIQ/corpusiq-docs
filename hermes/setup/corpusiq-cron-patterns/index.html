@@ -11120,35 +11120,35 @@
 <p>CorpusIQ connects business data to Hermes Agent. Combine with cron jobs for autonomous monitoring.</p>
 <h2 id="pattern-daily-kpi-report">Pattern: Daily KPI Report<a class="headerlink" href="#pattern-daily-kpi-report" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 8 * * * (8 AM daily)</span>
-hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"Query Stripe MRR, QuickBooks cash position, HubSpot pipeline. Email summary to ceo@company.com"</span>
+hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;Query Stripe MRR, QuickBooks cash position, HubSpot pipeline. Email summary to ceo@company.com&quot;</span>
 </code></pre></div>
 <h2 id="pattern-ar-aging-alert">Pattern: AR Aging Alert<a class="headerlink" href="#pattern-ar-aging-alert" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 9 * * MON (Monday 9 AM)</span>
-python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"</span>
+python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">  Query QuickBooks for all overdue invoices. </span>
 <span class="s2">  Sort by amount and days overdue. </span>
-<span class="s2">  Email the top 10 to finance@company.com with subject 'Weekly AR Alert'</span>
-<span class="s2">"</span>
+<span class="s2">  Email the top 10 to finance@company.com with subject &#39;Weekly AR Alert&#39;</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <h2 id="pattern-anomaly-detection">Pattern: Anomaly Detection<a class="headerlink" href="#pattern-anomaly-detection" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 */6 * * * (every 6 hours)</span>
-python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"</span>
+python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">  Check Stripe for:</span>
 <span class="s2">  - Failed payments in last 6 hours</span>
 <span class="s2">  - Unusual churn pattern (&gt;2 standard deviations from 30-day average)</span>
 <span class="s2">  - Revenue outside expected range</span>
 <span class="s2">  Alert on Telegram if any anomalies found.</span>
-<span class="s2">"</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <h2 id="pattern-multi-client-agency-report">Pattern: Multi-Client Agency Report<a class="headerlink" href="#pattern-multi-client-agency-report" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 7 * * * (7 AM daily)</span>
-python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"</span>
+python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">  For each client connected:</span>
 <span class="s2">  - Query their ad platform ROAS</span>
 <span class="s2">  - Check their email campaign performance  </span>
 <span class="s2">  - Verify their revenue vs target</span>
 <span class="s2">  Generate a morning briefing with flags for underperforming clients.</span>
-<span class="s2">"</span>
+<span class="s2">&quot;</span>
 </code></pre></div>
 <h2 id="token-refresh-guard">Token Refresh Guard<a class="headerlink" href="#token-refresh-guard" title="Anchor link to this section">&para;</a></h2>
 <p>Always prefix CorpusIQ cron tasks with the token guard. The JWT expires hourly.</p>

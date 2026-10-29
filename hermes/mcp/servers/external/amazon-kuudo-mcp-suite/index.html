@@ -11141,7 +11141,7 @@
 <h1 id="kuudo-amazon-mcp-suite-selling-partner-and-vendor-central-operations">Kuudo Amazon MCP Suite - Selling Partner and Vendor Central Operations<a class="headerlink" href="#kuudo-amazon-mcp-suite-selling-partner-and-vendor-central-operations" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Remote MCP server pair (Streamable HTTP, deployed in the operator's own cloud)</strong> - Kuudo publishes two Amazon MCP servers: one over the Selling Partner API (orders, listings, pricing, FBA, reimbursements, A+ Content, Data Kiosk, AWD, EasyShip) and one over Vendor Central (Direct Fulfillment, Retail Procurement, Data Kiosk, Retail Analytics, A+ Content). Both deploy through the Kuudo Community plan into the operator's cloud, and the client connects to that deployment.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) per deployment; catalog-only stub images available
-Auth: Kuudo API key as bearer header against the operator's deployment host
+Auth: Kuudo API key as bearer header against the operator&#39;s deployment host
 Endpoints: https://&lt;your-host&gt;/mcp per deployment
 Tools: Full SP-API and Vendor Central catalogs (hundreds of read and write operations, catalog published)
 Pricing: Kuudo Community plan plus pricing at kuudo.com/pricing.md
@@ -11173,11 +11173,11 @@ Built by: Kuudo (kuudo.com); metadata repos github.com/KuudoAI/amazon-selling-pa
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Deploy one instance of each server into your cloud through the Kuudo Community plan, then point any Streamable HTTP client at the deployment host.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"amazon-vendor-central-mcp"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://&lt;your-host&gt;/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer &lt;your Kuudo API key&gt;"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;amazon-vendor-central-mcp&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://&lt;your-host&gt;/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer &lt;your Kuudo API key&gt;&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

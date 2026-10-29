@@ -11181,17 +11181,17 @@ Built by: Fundz LLC (app.fundz.net)
 </table>
 <p>The live tool list was probe-verified keyless: <code>events_for_icp</code> carries <code>readOnlyHint</code>, <code>idempotentHint</code> and <code>openWorldHint</code> annotations, and accepts industries, states, employee-band, <code>lookback_days</code> (default 90) and <code>min_signals</code> filters.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>fundz-agent-api<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://api.fundz.net/v1/agent/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">"X-Fundz-Key: YOUR_KEY"</span>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>fundz-agent-api<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://api.fundz.net/v1/agent/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;X-Fundz-Key: YOUR_KEY&quot;</span>
 </code></pre></div>
 <p>Discovery is keyless - <code>initialize</code> and <code>tools/list</code> need no credential, so a client can inspect the server before a key is handed over. Only <code>tools/call</code> requires the key.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"fundz-agent-api"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.fundz.net/v1/agent/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"X-Fundz-Key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"YOUR_KEY"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;fundz-agent-api&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.fundz.net/v1/agent/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;X-Fundz-Key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;YOUR_KEY&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>

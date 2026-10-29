@@ -11411,44 +11411,44 @@ ls<span class="w"> </span>/dev/cu.*<span class="w">       </span><span class="c1
 meshtastic<span class="w"> </span>--info<span class="w">    </span><span class="c1"># Verify connection</span>
 
 <span class="c1"># Set a short name for your node</span>
-meshtastic<span class="w"> </span>--set-owner<span class="w"> </span><span class="s2">"Hermes-Node"</span>
+meshtastic<span class="w"> </span>--set-owner<span class="w"> </span><span class="s2">&quot;Hermes-Node&quot;</span>
 
 <span class="c1"># Configure channel (must match your mesh)</span>
-meshtastic<span class="w"> </span>--setchan<span class="w"> </span>name<span class="w"> </span><span class="s2">"HermesMesh"</span><span class="w"> </span>--setchan<span class="w"> </span>psk<span class="w"> </span><span class="s2">"base64:your-preshared-key"</span>
+meshtastic<span class="w"> </span>--setchan<span class="w"> </span>name<span class="w"> </span><span class="s2">&quot;HermesMesh&quot;</span><span class="w"> </span>--setchan<span class="w"> </span>psk<span class="w"> </span><span class="s2">&quot;base64:your-preshared-key&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <h3 id="adapter-config">Adapter Config<a class="headerlink" href="#adapter-config" title="Anchor link to this section">&para;</a></h3>
 <p>Edit <code>config.yaml</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">meshtastic</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="s">"/dev/ttyUSB0"</span><span class="w">          </span><span class="c1"># Serial port for device</span>
+<span class="w">  </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/dev/ttyUSB0&quot;</span><span class="w">          </span><span class="c1"># Serial port for device</span>
 <span class="w">  </span><span class="c1"># or use TCP for network-connected devices:</span>
-<span class="w">  </span><span class="c1"># host: "agent-a.local"</span>
+<span class="w">  </span><span class="c1"># host: &quot;agent-a.local&quot;</span>
 
 <span class="nt">hermes</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">message_format</span><span class="p">:</span><span class="w"> </span><span class="s">"plain"</span><span class="w">        </span><span class="c1"># "plain" or "json"</span>
-<span class="w">  </span><span class="nt">respond_to_all</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span><span class="w">          </span><span class="c1"># Only respond to messages prefixed with "Hermes:"</span>
-<span class="w">  </span><span class="nt">response_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">"🤖</span><span class="nv"> </span><span class="s">"</span><span class="w">        </span><span class="c1"># Prefix for all bot responses</span>
+<span class="w">  </span><span class="nt">message_format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;plain&quot;</span><span class="w">        </span><span class="c1"># &quot;plain&quot; or &quot;json&quot;</span>
+<span class="w">  </span><span class="nt">respond_to_all</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span><span class="w">          </span><span class="c1"># Only respond to messages prefixed with &quot;Hermes:&quot;</span>
+<span class="w">  </span><span class="nt">response_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;🤖</span><span class="nv"> </span><span class="s">&quot;</span><span class="w">        </span><span class="c1"># Prefix for all bot responses</span>
 <span class="w">  </span><span class="nt">max_message_length</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">200</span><span class="w">        </span><span class="c1"># Meshtastic has message size limits</span>
 
 <span class="nt">filters</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">allowed_nodes</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[]</span><span class="w">              </span><span class="c1"># Empty = respond to all. List node IDs to restrict.</span>
 <span class="w">  </span><span class="nt">blocked_nodes</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[]</span><span class="w">              </span><span class="c1"># Never respond to these nodes</span>
-<span class="w">  </span><span class="nt">require_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">"Hermes:"</span><span class="w">      </span><span class="c1"># Messages must start with this to trigger response</span>
+<span class="w">  </span><span class="nt">require_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Hermes:&quot;</span><span class="w">      </span><span class="c1"># Messages must start with this to trigger response</span>
 
 <span class="nt">logging</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">file</span><span class="p">:</span><span class="w"> </span><span class="s">"meshtastic_adapter.log"</span>
-<span class="w">  </span><span class="nt">level</span><span class="p">:</span><span class="w"> </span><span class="s">"INFO"</span>
+<span class="w">  </span><span class="nt">file</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;meshtastic_adapter.log&quot;</span>
+<span class="w">  </span><span class="nt">level</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;INFO&quot;</span>
 </code></pre></div>
 <h3 id="hermes-integration">Hermes Integration<a class="headerlink" href="#hermes-integration" title="Anchor link to this section">&para;</a></h3>
 <p>Register as a Hermes plugin:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># In ~/.hermes/config.yaml</span>
 <span class="nt">plugins</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">meshtastic</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">"/path/to/hermes-meshtastic-adapter"</span>
+<span class="w">    </span><span class="nt">path</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/path/to/hermes-meshtastic-adapter&quot;</span>
 <span class="w">    </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">    </span><span class="nt">config</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="s">"/dev/ttyUSB0"</span>
+<span class="w">      </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/dev/ttyUSB0&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
@@ -11458,7 +11458,7 @@ python3<span class="w"> </span>adapter.py
 
 <span class="c1"># Output:</span>
 <span class="c1"># [INFO] Connected to Meshtastic device on /dev/ttyUSB0</span>
-<span class="c1"># [INFO] Listening for messages on channel 'HermesMesh'</span>
+<span class="c1"># [INFO] Listening for messages on channel &#39;HermesMesh&#39;</span>
 <span class="c1"># [INFO] Node ID: !a1b2c3d4</span>
 </code></pre></div>
 <h3 id="message-flow">Message Flow<a class="headerlink" href="#message-flow" title="Anchor link to this section">&para;</a></h3>
@@ -11475,7 +11475,7 @@ User (LoRa Device) &lt;--[radio]-- Mesh &lt;--[radio]-- Your Node &lt;--[USB]-- 
 </code></pre></div>
 <h3 id="example-interaction">Example Interaction<a class="headerlink" href="#example-interaction" title="Anchor link to this section">&para;</a></h3>
 <p><strong>User (on Meshtastic device):</strong>
-<div class="highlight"><pre><span></span><code>Hermes: What's the weather forecast for tomorrow?
+<div class="highlight"><pre><span></span><code>Hermes: What&#39;s the weather forecast for tomorrow?
 </code></pre></div></p>
 <p><strong>Hermes (response over mesh):</strong>
 <div class="highlight"><pre><span></span><code>🤖 Tomorrow: Partly cloudy, high of 72°F, low of 55°F. 15% chance of rain.
@@ -11545,7 +11545,7 @@ meshtastic<span class="w"> </span>--port<span class="w"> </span>/dev/ttyACM0<spa
 <h3 id="response-prefix-not-working">"Response prefix not working"<a class="headerlink" href="#response-prefix-not-working" title="Anchor link to this section">&para;</a></h3>
 <p>Check the exact prefix in config - it's case-sensitive:
 <div class="highlight"><pre><span></span><code><span class="nt">filters</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">require_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">"Hermes:"</span><span class="w">  </span><span class="c1"># Must match exactly</span>
+<span class="w">  </span><span class="nt">require_prefix</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Hermes:&quot;</span><span class="w">  </span><span class="c1"># Must match exactly</span>
 </code></pre></div></p>
 <hr />
 <h2 id="range-performance">Range &amp; Performance<a class="headerlink" href="#range-performance" title="Anchor link to this section">&para;</a></h2>

@@ -11313,16 +11313,16 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="c1"># Full WCAG 2.1 AA audit</span>
 web-quality<span class="w"> </span>accessibility<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io/docs"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--level<span class="w"> </span><span class="s2">"AA"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/a11y-report.md"</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io/docs&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--level<span class="w"> </span><span class="s2">&quot;AA&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/a11y-report.md&quot;</span>
 
 <span class="c1"># AAA audit (stricter, includes AA violations)</span>
 web-quality<span class="w"> </span>accessibility<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--level<span class="w"> </span><span class="s2">"AAA"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--level<span class="w"> </span><span class="s2">&quot;AAA&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--include-warnings<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/a11y-aaa.md"</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/a11y-aaa.md&quot;</span>
 </code></pre></div>
 <p><strong>Audit coverage:</strong>
 - Color contrast (text, non-text, focus indicators)
@@ -11335,14 +11335,14 @@ web-quality<span class="w"> </span>accessibility<span class="w"> </span><span cl
 <h3 id="seo-technical-seo-structured-data">seo: Technical SEO + Structured Data<a class="headerlink" href="#seo-technical-seo-structured-data" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Full technical SEO audit</span>
 web-quality<span class="w"> </span>seo<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--crawl-depth<span class="w"> </span><span class="m">3</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/seo-report.md"</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/seo-report.md&quot;</span>
 
 <span class="c1"># Check specific pages</span>
 web-quality<span class="w"> </span>seo<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io/docs/hermes/skills/catalog/"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--check<span class="w"> </span><span class="s2">"meta,structured-data,core-web-vitals,mobile-friendly"</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io/docs/hermes/skills/catalog/&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--check<span class="w"> </span><span class="s2">&quot;meta,structured-data,core-web-vitals,mobile-friendly&quot;</span>
 </code></pre></div>
 <p><strong>Audit coverage:</strong></p>
 <table>
@@ -11386,17 +11386,17 @@ web-quality<span class="w"> </span>seo<span class="w"> </span><span class="se">\
 <h3 id="performance-lighthouse-bundle-analysis">performance: Lighthouse + Bundle Analysis<a class="headerlink" href="#performance-lighthouse-bundle-analysis" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Lighthouse performance audit</span>
 web-quality<span class="w"> </span>performance<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--device<span class="w"> </span><span class="s2">"mobile"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--throttling<span class="w"> </span><span class="s2">"4g"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/perf-report.md"</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--device<span class="w"> </span><span class="s2">&quot;mobile&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--throttling<span class="w"> </span><span class="s2">&quot;4g&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/perf-report.md&quot;</span>
 
 <span class="c1"># Bundle analysis (requires local build)</span>
 web-quality<span class="w"> </span>performance<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--mode<span class="w"> </span><span class="s2">"bundle"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--build-dir<span class="w"> </span><span class="s2">"corpusiq-docs/site/"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/bundle-report.md"</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--mode<span class="w"> </span><span class="s2">&quot;bundle&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--build-dir<span class="w"> </span><span class="s2">&quot;corpusiq-docs/site/&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/bundle-report.md&quot;</span>
 </code></pre></div>
 <p><strong>Performance metrics:</strong>
 - FCP (First Contentful Paint)
@@ -11414,9 +11414,9 @@ web-quality<span class="w"> </span>performance<span class="w"> </span><span clas
 <h3 id="web-quality-audit-combined-prioritized">web-quality-audit: Combined + Prioritized<a class="headerlink" href="#web-quality-audit-combined-prioritized" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Run all audits in one pass</span>
 web-quality<span class="w"> </span>audit<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--checks<span class="w"> </span><span class="s2">"accessibility,seo,performance"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/combined-report-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.md"</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--checks<span class="w"> </span><span class="s2">&quot;accessibility,seo,performance&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/combined-report-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.md&quot;</span>
 </code></pre></div>
 <p><strong>Combined report structure:</strong>
 1. <strong>Executive summary</strong> - overall score, critical issues count, estimated fix time
@@ -11430,21 +11430,21 @@ web-quality<span class="w"> </span>audit<span class="w"> </span><span class="se"
 <h3 id="pre-deployment-quality-gate">Pre-Deployment Quality Gate<a class="headerlink" href="#pre-deployment-quality-gate" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Run combined audit before every docs deployment</span>
 web-quality<span class="w"> </span>audit<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--checks<span class="w"> </span><span class="s2">"accessibility,seo,performance"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--threshold<span class="w"> </span><span class="s2">"90"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--checks<span class="w"> </span><span class="s2">&quot;accessibility,seo,performance&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--threshold<span class="w"> </span><span class="s2">&quot;90&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--block-on-critical<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/pre-deploy-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d-%H%M<span class="k">)</span><span class="s2">.md"</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/pre-deploy-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d-%H%M<span class="k">)</span><span class="s2">.md&quot;</span>
 
 <span class="c1"># Exit code 1 if critical issues found → CI fails</span>
 </code></pre></div>
 <h3 id="weekly-seo-health-check">Weekly SEO Health Check<a class="headerlink" href="#weekly-seo-health-check" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Scheduled SEO audit for corpusiq-docs</span>
 web-quality<span class="w"> </span>seo<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--url<span class="w"> </span><span class="s2">"https://corpusiq.io/docs/"</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--url<span class="w"> </span><span class="s2">&quot;https://corpusiq.io/docs/&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--crawl-depth<span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--compare<span class="w"> </span><span class="s2">"audits/seo-baseline.md"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--output<span class="w"> </span><span class="s2">"audits/seo-weekly-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.md"</span>
+<span class="w">  </span>--compare<span class="w"> </span><span class="s2">&quot;audits/seo-baseline.md&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="w"> </span><span class="s2">&quot;audits/seo-weekly-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.md&quot;</span>
 </code></pre></div>
 <p>The <code>--compare</code> flag diffs against a baseline to catch regressions:
 - New broken links since last week
@@ -11452,10 +11452,10 @@ web-quality<span class="w"> </span>seo<span class="w"> </span><span class="se">\
 - Structured data that stopped validating</p>
 <h3 id="competitor-quality-comparison">Competitor Quality Comparison<a class="headerlink" href="#competitor-quality-comparison" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Compare corpusiq.io against competitors</span>
-<span class="k">for</span><span class="w"> </span>site<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">"https://corpusiq.io"</span><span class="w"> </span><span class="s2">"https://competitor1.com"</span><span class="w"> </span><span class="s2">"https://competitor2.com"</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<span class="k">for</span><span class="w"> </span>site<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;https://corpusiq.io&quot;</span><span class="w"> </span><span class="s2">&quot;https://competitor1.com&quot;</span><span class="w"> </span><span class="s2">&quot;https://competitor2.com&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
 <span class="w">  </span>web-quality<span class="w"> </span>audit<span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>--url<span class="w"> </span><span class="s2">"</span><span class="nv">$site</span><span class="s2">"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>--output<span class="w"> </span><span class="s2">"audits/</span><span class="k">$(</span><span class="nb">echo</span><span class="w"> </span><span class="nv">$site</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">'s|https://||'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">'s|/|-|g'</span><span class="k">)</span><span class="s2">-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.md"</span>
+<span class="w">    </span>--url<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$site</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--output<span class="w"> </span><span class="s2">&quot;audits/</span><span class="k">$(</span><span class="nb">echo</span><span class="w"> </span><span class="nv">$site</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s|https://||&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s|/|-|g&#39;</span><span class="k">)</span><span class="s2">-</span><span class="k">$(</span>date<span class="w"> </span>+%Y%m%d<span class="k">)</span><span class="s2">.md&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <h3 id="ci-integration">CI Integration<a class="headerlink" href="#ci-integration" title="Anchor link to this section">&para;</a></h3>
@@ -11463,11 +11463,11 @@ web-quality<span class="w"> </span>seo<span class="w"> </span><span class="se">\
 <span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Web Quality Audit</span>
 <span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
 <span class="w">    </span><span class="no">npx skills run addyosmani/web-quality-skills@web-quality-audit \</span>
-<span class="w">      </span><span class="no">--url "${{ secrets.STAGING_URL }}" \</span>
-<span class="w">      </span><span class="no">--checks "accessibility,seo,performance" \</span>
-<span class="w">      </span><span class="no">--threshold "90" \</span>
+<span class="w">      </span><span class="no">--url &quot;${{ secrets.STAGING_URL }}&quot; \</span>
+<span class="w">      </span><span class="no">--checks &quot;accessibility,seo,performance&quot; \</span>
+<span class="w">      </span><span class="no">--threshold &quot;90&quot; \</span>
 <span class="w">      </span><span class="no">--block-on-critical \</span>
-<span class="w">      </span><span class="no">--output "audits/ci-${GITHUB_SHA}.md"</span>
+<span class="w">      </span><span class="no">--output &quot;audits/ci-${GITHUB_SHA}.md&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="quality-score-thresholds">Quality Score Thresholds<a class="headerlink" href="#quality-score-thresholds" title="Anchor link to this section">&para;</a></h2>

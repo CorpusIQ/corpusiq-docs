@@ -11369,8 +11369,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>pixijs-skills/skills/pixijs-
 <span class="w">         </span>skills/pixijs-application/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/pixijs-performance/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/pixijs/references/index.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/pixijs/pixijs-skills/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/pixijs/pixijs-skills/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the router before installing anything else, because it is the file that tells an agent which of the other 25 to open:</p>
@@ -11379,7 +11379,7 @@ cp<span class="w"> </span>-R<span class="w"> </span>pixijs-skills/skills/pixijs-
 <li>https://raw.githubusercontent.com/pixijs/pixijs-skills/main/skills/pixijs/references/index.md</li>
 </ul>
 <p>After a copy install, each skill is one directory with its own <code>SKILL.md</code>. Confirm what actually landed, since a partial copy is silent:</p>
-<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-c<span class="w"> </span><span class="s1">'^pixijs'</span>
+<div class="highlight"><pre><span></span><code>ls<span class="w"> </span>~/.hermes/profiles/corpusiq/skills<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-c<span class="w"> </span><span class="s1">&#39;^pixijs&#39;</span>
 head<span class="w"> </span>-4<span class="w"> </span>~/.hermes/profiles/corpusiq/skills/pixijs/SKILL.md
 </code></pre></div>
 <p>The count should match the number of directories you copied, and the <code>head</code> output should show the frontmatter name <code>pixijs</code>, which is also the name the install index uses. A different name means you are reading a stale copy.</p>

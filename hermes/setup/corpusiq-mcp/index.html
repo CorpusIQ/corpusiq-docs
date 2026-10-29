@@ -11165,10 +11165,10 @@
 <p>Add this to your Hermes Agent config (<code>~/.hermes/config.yaml</code>):</p>
 <div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">corpusiq</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">"https://mcp2.corpusiq.io/mcp"</span>
-<span class="w">    </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="s">"streamable-http"</span>
+<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://mcp2.corpusiq.io/mcp&quot;</span>
+<span class="w">    </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;streamable-http&quot;</span>
 <span class="w">    </span><span class="nt">headers</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s">"Bearer</span><span class="nv"> </span><span class="s">&lt;jwt&gt;"</span>
+<span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Bearer</span><span class="nv"> </span><span class="s">&lt;jwt&gt;&quot;</span>
 </code></pre></div>
 <p>The <code>Authorization</code> header carries the JWT obtained during device authentication. The transport must be <code>streamable-http</code> (not <code>sse</code> or <code>stdio</code>).</p>
 <p>Or if using <code>hermes mcp</code> CLI:</p>
@@ -11186,27 +11186,27 @@
 <p>For the Python device login script, see <code>device_login.py</code> in the corpusiq-docs repository.</p>
 <p>When the access token expires, refresh silently:
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/oauth/token<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s2">"grant_type=refresh_token&amp;refresh_token=&lt;saved_refresh_token&gt;"</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;grant_type=refresh_token&amp;refresh_token=&lt;saved_refresh_token&gt;&quot;</span>
 </code></pre></div></p>
 <p>The refresh token flow is live in production. One device OAuth reconnect after July 28, 2026 mints the 30-day refresh credential. No hourly babysitting required.</p>
 <h2 id="5-call-tools-correctly">5. Call tools correctly<a class="headerlink" href="#5-call-tools-correctly" title="Anchor link to this section">&para;</a></h2>
 <p>All CorpusIQ MCP tool calls must nest query parameters inside the <code>params</code> key:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># CORRECT - params nested</span>
-<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">"search_console_connector"</span><span class="p">,</span> <span class="p">{</span>
-    <span class="s2">"action"</span><span class="p">:</span> <span class="s2">"get_performance"</span><span class="p">,</span>
-    <span class="s2">"params"</span><span class="p">:</span> <span class="p">{</span>
-        <span class="s2">"site_url"</span><span class="p">:</span> <span class="s2">"sc-domain:corpusiq.io"</span><span class="p">,</span>
-        <span class="s2">"start_date"</span><span class="p">:</span> <span class="s2">"2026-07-01"</span><span class="p">,</span>
-        <span class="s2">"end_date"</span><span class="p">:</span> <span class="s2">"2026-07-28"</span><span class="p">,</span>
-        <span class="s2">"dimensions"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"query"</span><span class="p">],</span>
-        <span class="s2">"row_limit"</span><span class="p">:</span> <span class="mi">10</span>
+<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;search_console_connector&quot;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;get_performance&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;params&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;site_url&quot;</span><span class="p">:</span> <span class="s2">&quot;sc-domain:corpusiq.io&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-07-01&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;end_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2026-07-28&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;dimensions&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;query&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;row_limit&quot;</span><span class="p">:</span> <span class="mi">10</span>
     <span class="p">}</span>
 <span class="p">})</span>
 
 <span class="c1"># WRONG - flat params silently return empty or fail</span>
-<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">"search_console_connector"</span><span class="p">,</span> <span class="p">{</span>
-    <span class="s2">"action"</span><span class="p">:</span> <span class="s2">"get_performance"</span><span class="p">,</span>
-    <span class="s2">"site_url"</span><span class="p">:</span> <span class="s2">"..."</span><span class="p">,</span>
+<span class="k">await</span> <span class="n">session</span><span class="o">.</span><span class="n">call_tool</span><span class="p">(</span><span class="s2">&quot;search_console_connector&quot;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;get_performance&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;site_url&quot;</span><span class="p">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
     <span class="o">...</span>
 <span class="p">})</span>
 </code></pre></div>
@@ -11225,7 +11225,7 @@
 <h2 id="token-refresh-for-crons">Token refresh for crons<a class="headerlink" href="#token-refresh-for-crons" title="Anchor link to this section">&para;</a></h2>
 <p>The refresh token (30-day expiry) is now available in production. Save both <code>access_token</code> and <code>refresh_token</code> from the device OAuth response. When the access token expires, POST <code>grant_type=refresh_token</code> to <code>/oauth/token</code> for a new one. Never overwrite the refresh token when updating the access token.</p>
 <p>For cron jobs, run the refresh guard before every execution:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>refresh_mcp_jwt.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">"your task"</span>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>refresh_mcp_jwt.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;your task&quot;</span>
 </code></pre></div>
 <p>The guard script checks token validity, refreshes using the saved refresh token if expired, and updates <code>config.yaml</code> automatically.</p>
 <hr />

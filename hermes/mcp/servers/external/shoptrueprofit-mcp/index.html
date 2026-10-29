@@ -11214,7 +11214,7 @@
 <p><strong>Every seller knows the price and the unit cost. Almost none can say what the marketplace actually takes, and the answer changes by category, by shipping weight, by the day of the year, and by which of three marketplaces the same product is listed on.</strong></p>
 <div class="highlight"><pre><span></span><code>Server type: Local (stdio, or Streamable HTTP from the same build) and hosted on Apify Standby
 Auth: None for the local build; an Apify API token (Authorization: Bearer) for the hosted endpoint
-Live check: hosted endpoint https://mcp.apify.com/?tools=vncntlabs/shoptrueprofit-fee-mcp returned HTTP 401 {"error":"invalid_token","error_description":"Missing or invalid access token. Pass an Apify API token in the Authorization: Bearer header."}
+Live check: hosted endpoint https://mcp.apify.com/?tools=vncntlabs/shoptrueprofit-fee-mcp returned HTTP 401 {&quot;error&quot;:&quot;invalid_token&quot;,&quot;error_description&quot;:&quot;Missing or invalid access token. Pass an Apify API token in the Authorization: Bearer header.&quot;}
 Local build: cloned the MIT repository, npm install, npm run build, PORT=3311 node dist/http.js, POST initialize returned HTTP 200 with serverInfo shoptrueprofit-fee-mcp 1.0.0 on protocol 2025-06-18 and tools/list returned 13 tools
 Tools: 13, all read-only arithmetic over published fee schedules (no logins, no scraping, nothing stored)
 Pricing: pay per event on Apify, one fee-calculation event per successful calculation; the list_* lookups and rejected inputs are free; the local build is free and offline
@@ -11343,21 +11343,21 @@ node<span class="w"> </span>dist/stdio.js<span class="w">                 </span
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <p>Local, for Hermes or any client that takes an HTTP MCP server:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"shoptrueprofit-fees"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://127.0.0.1:3311/mcp"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;shoptrueprofit-fees&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://127.0.0.1:3311/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>Hosted, on Apify Standby, where the URL is the standby endpoint from the actor's Endpoints tab:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"shoptrueprofit-fees"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://&lt;standby-url&gt;/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"headers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"Authorization"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bearer ${APIFY_TOKEN}"</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;shoptrueprofit-fees&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://&lt;standby-url&gt;/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer ${APIFY_TOKEN}&quot;</span><span class="w"> </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

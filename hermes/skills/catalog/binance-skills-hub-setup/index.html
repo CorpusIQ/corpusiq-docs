@@ -11174,7 +11174,7 @@
 </code></pre></div>
 <p>The exchange family drives <code>binance-cli</code>, which the skill installs for you and which you can install directly. If an old global npm package is present below 2.0.0, remove it first:</p>
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>uninstall<span class="w"> </span>-g<span class="w"> </span>@binance/binance-cli
-curl<span class="w"> </span>--proto<span class="w"> </span><span class="s1">'=https'</span><span class="w"> </span>--tlsv1.2<span class="w"> </span>-LsSf<span class="w"> </span><span class="se">\</span>
+curl<span class="w"> </span>--proto<span class="w"> </span><span class="s1">&#39;=https&#39;</span><span class="w"> </span>--tlsv1.2<span class="w"> </span>-LsSf<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>https://github.com/binance/binance-cli/releases/latest/download/binance-cli-installer.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
 binance-cli<span class="w"> </span>--version
 </code></pre></div>
@@ -11407,8 +11407,8 @@ binance-cli<span class="w"> </span>profile<span class="w"> </span>list
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>p<span class="w"> </span><span class="k">in</span><span class="w"> </span>skills/binance/square-post/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/binance/binance/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>skills/binance-web3/trading-signal/SKILL.md<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/binance/binance-skills-hub/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/binance/binance-skills-hub/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the credential rules in full before granting anything:</p>

@@ -11183,7 +11183,7 @@
 Endpoint:    https://duelpilot.com/api/mcp
 Auth:        Bearer token dpl_... scoped to one site, or OAuth in the browser
 Docs server: https://duelpilot.com/agent/mcp (no auth, 3 tools)
-Guard:       approve_and_launch, ship_winner, resume_experiment need a person's yes
+Guard:       approve_and_launch, ship_winner, resume_experiment need a person&#39;s yes
 Site:        duelpilot.com
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
@@ -11192,8 +11192,8 @@ Site:        duelpilot.com
 <p>That division is the reason to catalogue it. Hypotize in this catalogue plans experiments and does not run them; Duelpilot is the first surface tracked here where the test actually launches, receives traffic and concludes.</p>
 <h2 id="what-it-returns-verified">What It Returns, Verified<a class="headerlink" href="#what-it-returns-verified" title="Anchor link to this section">&para;</a></h2>
 <p>The account endpoint is gated in the shape its documentation describes. A bare <code>initialize</code> on <code>https://duelpilot.com/api/mcp</code> returned <strong>HTTP 401</strong> with:</p>
-<div class="highlight"><pre><span></span><code>{"jsonrpc":"2.0","error":{"code":-32001,
- "message":"Missing or invalid Duelpilot token (Authorization: Bearer ..."}}
+<div class="highlight"><pre><span></span><code>{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;error&quot;:{&quot;code&quot;:-32001,
+ &quot;message&quot;:&quot;Missing or invalid Duelpilot token (Authorization: Bearer ...&quot;}}
 </code></pre></div>
 <p>The separate documentation server is open: <code>https://duelpilot.com/agent/mcp</code> answered <code>initialize</code> with <strong>HTTP 200</strong>, <code>serverInfo</code> name <code>duelpilot.com-site-search</code>, version <code>1.0.0</code>, and <code>tools/list</code> returned three tools, <code>search_site</code>, <code>get_page</code> and <code>report_missing</code>, so the vendor's own guidance can be read by an agent before it holds a token.</p>
 <p>The working surface, taken from the vendor's agent instructions:</p>

@@ -11239,8 +11239,8 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/where
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>The skill is the repository root, so a single fetch confirms the install target:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} SKILL.md\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span><span class="s2">"https://raw.githubusercontent.com/wheresryan22/anatomy/main/SKILL.md"</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} SKILL.md\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;https://raw.githubusercontent.com/wheresryan22/anatomy/main/SKILL.md&quot;</span>
 </code></pre></div>
 <p>Read the skill and the two references that decide quality before the first real figure:</p>
 <ul>

@@ -11823,7 +11823,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 </table>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm what the skills CLI installed:</p>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">"keyword-research|content-quality-auditor|launch-day-conductor"</span>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s2">&quot;keyword-research|content-quality-auditor|launch-day-conductor&quot;</span>
 </code></pre></div>
 <p>Read the skills before installing. All five URLs below returned 200 with <code>curl -s -o /dev/null -w "%{http_code}"</code> when checked on Oct 26, 2026:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/main/README.md
@@ -11833,7 +11833,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/main/launch/assemble/message-house-builder/SKILL.md
 </code></pre></div>
 <p>Note the nesting: skills are not under a flat <code>skills/</code> directory, they sit at <code>&lt;discipline&gt;/&lt;phase&gt;/&lt;name&gt;/SKILL.md</code>, with the protocol layer at <code>protocol/&lt;registry&gt;/SKILL.md</code>. The registry file <code>skills.sh.json</code> lists every skill grouped by discipline and is the fastest way to see the current tree:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/main/skills.sh.json<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">'"title"'</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/aaron-he-zhu/aaron-marketing-skills/main/skills.sh.json<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;&quot;title&quot;&#39;</span>
 </code></pre></div>
 <h2 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <p>skills.sh verdicts for sampled skills (verified Oct 26, 2026) - re-check the security pages on skills.sh before production use:</p>

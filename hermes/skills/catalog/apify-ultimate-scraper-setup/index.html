@@ -11319,26 +11319,26 @@ apify<span class="w"> </span>login
 <li>Read the Actor input schema before writing JSON: <code>apify actors info &lt;actor&gt; --input</code></li>
 </ol>
 <p>Actor names are store-scoped. Most of the widely used scrapers are published by third-party accounts, not by <code>apify</code>, so always resolve the exact <code>username/actor-name</code> first:</p>
-<div class="highlight"><pre><span></span><code>apify<span class="w"> </span>actors<span class="w"> </span>search<span class="w"> </span><span class="s2">"google maps scraper"</span><span class="w"> </span>--json
+<div class="highlight"><pre><span></span><code>apify<span class="w"> </span>actors<span class="w"> </span>search<span class="w"> </span><span class="s2">&quot;google maps scraper&quot;</span><span class="w"> </span>--json
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="c1"># Instagram profile details</span>
 apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-i<span class="w"> </span><span class="s1">'{"directUrls":["https://www.instagram.com/target_account/"],"resultsType":"details"}'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;directUrls&quot;:[&quot;https://www.instagram.com/target_account/&quot;],&quot;resultsType&quot;:&quot;details&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># Google Maps lead generation</span>
 apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>compass/crawler-google-places<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-i<span class="w"> </span><span class="s1">'{"searchStringsArray":["restaurants near me"],"locationQuery":"Austin, Texas","maxCrawledPlacesPerSearch":50}'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;searchStringsArray&quot;:[&quot;restaurants near me&quot;],&quot;locationQuery&quot;:&quot;Austin, Texas&quot;,&quot;maxCrawledPlacesPerSearch&quot;:50}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># LinkedIn company data</span>
 apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>harvestapi/linkedin-company<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-i<span class="w"> </span><span class="s1">'{"companies":["https://www.linkedin.com/company/target"]}'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;companies&quot;:[&quot;https://www.linkedin.com/company/target&quot;]}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 
 <span class="c1"># Reddit subreddit scraping</span>
 apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-i<span class="w"> </span><span class="s1">'{"scrapeMode":"posts","startUrls":[{"url":"https://www.reddit.com/r/SaaS/"}],"maxPostsPerCommunity":100}'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;startUrls&quot;:[{&quot;url&quot;:&quot;https://www.reddit.com/r/SaaS/&quot;}],&quot;maxPostsPerCommunity&quot;:100}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 </code></pre></div>
 <p>Every Actor name and input key above was checked against the Apify API on 2026-10-24. Names retire, so a <code>404 record-not-found</code> from <code>GET https://api.apify.com/v2/acts/&lt;user&gt;~&lt;actor&gt;</code> means the Actor is gone and the example needs a new one.</p>
@@ -11348,7 +11348,7 @@ apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> 
 <h3 id="lead-generation-pipeline">Lead Generation Pipeline<a class="headerlink" href="#lead-generation-pipeline" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Scrape a Shopify App Store category for merchant leads</span>
 apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>applora/shopify-appstore-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-i<span class="w"> </span><span class="s1">'{"scrapeType":"category","categoryHandles":["analytics"],"maxPages":5}'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;scrapeType&quot;:&quot;category&quot;,&quot;categoryHandles&quot;:[&quot;analytics&quot;],&quot;maxPages&quot;:5}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span>&gt;<span class="w"> </span>leads-shopify.jsonl
 </code></pre></div>
 <p><code>scrapeType</code> is required: <code>app</code>, <code>review</code>, <code>developer</code>, <code>category</code>, or <code>keyword</code>. For a merchant's own product catalog, use <code>pocesar/shopify-scraper</code> with <code>startUrls</code>.</p>
@@ -11356,13 +11356,13 @@ apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> 
 <h3 id="competitor-intelligence">Competitor Intelligence<a class="headerlink" href="#competitor-intelligence" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Monitor competitor social presence</span>
 apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/instagram-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-i<span class="w"> </span><span class="s1">'{"directUrls":["https://www.instagram.com/competitor1/","https://www.instagram.com/competitor2/"],"resultsType":"details"}'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;directUrls&quot;:[&quot;https://www.instagram.com/competitor1/&quot;,&quot;https://www.instagram.com/competitor2/&quot;],&quot;resultsType&quot;:&quot;details&quot;}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null
 </code></pre></div>
 <h3 id="content-research">Content Research<a class="headerlink" href="#content-research" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Find trending AI content on Reddit</span>
 apify<span class="w"> </span>actors<span class="w"> </span>call<span class="w"> </span>apify/reddit-scraper<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-i<span class="w"> </span><span class="s1">'{"scrapeMode":"posts","startUrls":[{"url":"https://www.reddit.com/r/artificial/"},{"url":"https://www.reddit.com/r/MachineLearning/"}],"maxPostsPerCommunity":200}'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-i<span class="w"> </span><span class="s1">&#39;{&quot;scrapeMode&quot;:&quot;posts&quot;,&quot;startUrls&quot;:[{&quot;url&quot;:&quot;https://www.reddit.com/r/artificial/&quot;},{&quot;url&quot;:&quot;https://www.reddit.com/r/MachineLearning/&quot;}],&quot;maxPostsPerCommunity&quot;:200}&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-o<span class="w"> </span><span class="m">2</span>&gt;/dev/null<span class="w"> </span>&gt;<span class="w"> </span>trending-content.jsonl
 </code></pre></div>
 <hr />

@@ -11231,15 +11231,15 @@
 cargo<span class="w"> </span>build<span class="w"> </span>--release
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"google-ads"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"path/to/mcp-server-google-adwords/target/release/google-ads-mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"GOOGLE_ADS_CLIENT_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_client_id"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"GOOGLE_ADS_CLIENT_SECRET"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_client_secret"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"GOOGLE_ADS_DEVELOPER_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_dev_token"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"GOOGLE_ADS_CUSTOMER_ID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1234567890"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"GOOGLE_ADS_REFRESH_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your_refresh_token"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;google-ads&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;path/to/mcp-server-google-adwords/target/release/google-ads-mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_ADS_CLIENT_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_client_id&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_ADS_CLIENT_SECRET&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_client_secret&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_ADS_DEVELOPER_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_dev_token&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_ADS_CUSTOMER_ID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1234567890&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;GOOGLE_ADS_REFRESH_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your_refresh_token&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11299,27 +11299,27 @@ cargo<span class="w"> </span>build<span class="w"> </span>--release
 <h2 id="use-cases-for-business-operators">Use Cases for Business Operators<a class="headerlink" href="#use-cases-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-campaign-health-check">1. Campaign Health Check<a class="headerlink" href="#1-campaign-health-check" title="Anchor link to this section">&para;</a></h3>
 <p>Daily performance scan in one command:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Check all my Google Ads campaigns. Flag any with
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Check all my Google Ads campaigns. Flag any with
 CPA above $50, CTR below 1%, or daily budget fully consumed
-before 2 PM. Recommend what to pause or adjust."
+before 2 PM. Recommend what to pause or adjust.&quot;
 </code></pre></div>
 <h3 id="2-budget-rebalancing">2. Budget Rebalancing<a class="headerlink" href="#2-budget-rebalancing" title="Anchor link to this section">&para;</a></h3>
 <p>Shift spend based on performance:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Campaign A has a 3.2 ROAS, Campaign B has 0.8 ROAS.
-Move $50/day from Campaign B to Campaign A. If Campaign A's ROAS
-drops below 2.5 in the next 3 days, revert the change."
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Campaign A has a 3.2 ROAS, Campaign B has 0.8 ROAS.
+Move $50/day from Campaign B to Campaign A. If Campaign A&#39;s ROAS
+drops below 2.5 in the next 3 days, revert the change.&quot;
 </code></pre></div>
 <h3 id="3-negative-keyword-discovery">3. Negative Keyword Discovery<a class="headerlink" href="#3-negative-keyword-discovery" title="Anchor link to this section">&para;</a></h3>
 <p>Prevent wasted spend automatically:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "Pull this week's search term report for all campaigns.
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;Pull this week&#39;s search term report for all campaigns.
 Find queries that spent over $20 with zero conversions.
-Add them as negative keywords. Show me what you blocked."
+Add them as negative keywords. Show me what you blocked.&quot;
 </code></pre></div>
 <h3 id="4-performance-max-monitoring">4. Performance Max Monitoring<a class="headerlink" href="#4-performance-max-monitoring" title="Anchor link to this section">&para;</a></h3>
 <p>Track PMax campaign performance:</p>
-<div class="highlight"><pre><span></span><code>Agent prompt: "How's my Performance Max campaign doing vs last week?
+<div class="highlight"><pre><span></span><code>Agent prompt: &quot;How&#39;s my Performance Max campaign doing vs last week?
 Show me impressions, clicks, conversions, and cost by asset group.
-Flag any asset groups with below-average performance."
+Flag any asset groups with below-average performance.&quot;
 </code></pre></div>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>Google Ads MCP + CorpusIQ = complete marketing operations:</p>

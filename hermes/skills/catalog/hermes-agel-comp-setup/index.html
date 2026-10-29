@@ -11444,16 +11444,16 @@
 <p><strong>Example:</strong> Agent reads <code>passwords.txt</code> and gets "Permission denied" → learns <code>requires_approval(X) :- contains_secrets(X)</code> and <code>contains_secrets(passwords_txt)</code> → next time, any file reading triggers an NTP check and is blocked if secrets are suspected.</p>
 <h3 id="queryable-world-model">Queryable world model<a class="headerlink" href="#queryable-world-model" title="Anchor link to this section">&para;</a></h3>
 <p>The <code>agel_comp</code> Hermes tool provides 10 actions for querying and extending the Causal Program Graph:</p>
-<div class="highlight"><pre><span></span><code>agel_comp(action="bootstrap")          # Load foundational knowledge
-agel_comp(action="prove", head="...")   # NTP verification of safety rules
-agel_comp(action="learn_from", ...)     # Run MCS+ILP learning from an error
-agel_comp(action="list_rules")          # Show all CPG rules
-agel_comp(action="query_rule", id=...)  # Inspect a specific rule
-agel_comp(action="status")             # CPG statistics and health
-agel_comp(action="export")             # Export rules to JSON
-agel_comp(action="import", ...)        # Import rules from JSON
-agel_comp(action="reset")              # Clear all learned rules
-agel_comp(action="explain", id=...)    # Explain a rule's derivation
+<div class="highlight"><pre><span></span><code>agel_comp(action=&quot;bootstrap&quot;)          # Load foundational knowledge
+agel_comp(action=&quot;prove&quot;, head=&quot;...&quot;)   # NTP verification of safety rules
+agel_comp(action=&quot;learn_from&quot;, ...)     # Run MCS+ILP learning from an error
+agel_comp(action=&quot;list_rules&quot;)          # Show all CPG rules
+agel_comp(action=&quot;query_rule&quot;, id=...)  # Inspect a specific rule
+agel_comp(action=&quot;status&quot;)             # CPG statistics and health
+agel_comp(action=&quot;export&quot;)             # Export rules to JSON
+agel_comp(action=&quot;import&quot;, ...)        # Import rules from JSON
+agel_comp(action=&quot;reset&quot;)              # Clear all learned rules
+agel_comp(action=&quot;explain&quot;, id=...)    # Explain a rule&#39;s derivation
 </code></pre></div>
 <hr />
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -11529,41 +11529,41 @@ cp<span class="w"> </span>agel_comp_tool.py<span class="w"> </span><span class="
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <h3 id="default-safety-rules-built-in">Default safety rules (built-in)<a class="headerlink" href="#default-safety-rules-built-in" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1">% Secret file patterns</span>
-<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">".env"</span><span class="p">).</span>
-<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"credentials.json"</span><span class="p">).</span>
-<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"api_key.*"</span><span class="p">).</span>
-<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"*.pem"</span><span class="p">).</span>
-<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"id_rsa*"</span><span class="p">).</span>
+<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;.env&quot;</span><span class="p">).</span>
+<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;credentials.json&quot;</span><span class="p">).</span>
+<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;api_key.*&quot;</span><span class="p">).</span>
+<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;*.pem&quot;</span><span class="p">).</span>
+<span class="nf">block_read</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;id_rsa*&quot;</span><span class="p">).</span>
 
 <span class="c1">% Destructive commands</span>
-<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"rm -rf /"</span><span class="p">).</span>
-<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"git reset --hard"</span><span class="p">).</span>
-<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"DROP TABLE"</span><span class="p">).</span>
-<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"shutdown -h now"</span><span class="p">).</span>
+<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;rm -rf /&quot;</span><span class="p">).</span>
+<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;git reset --hard&quot;</span><span class="p">).</span>
+<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;DROP TABLE&quot;</span><span class="p">).</span>
+<span class="nf">block_exec</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">contains_substring</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;shutdown -h now&quot;</span><span class="p">).</span>
 
 <span class="c1">% Write protection</span>
-<span class="nf">block_write</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"/etc/*"</span><span class="p">).</span>
-<span class="nf">block_write</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">"~/.ssh/*"</span><span class="p">).</span>
+<span class="nf">block_write</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;/etc/*&quot;</span><span class="p">).</span>
+<span class="nf">block_write</span><span class="p">(</span><span class="nv">X</span><span class="p">)</span> <span class="p">:-</span> <span class="nf">matches_pattern</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="s2">&quot;~/.ssh/*&quot;</span><span class="p">).</span>
 </code></pre></div>
 <h3 id="adding-custom-rules">Adding custom rules<a class="headerlink" href="#adding-custom-rules" title="Anchor link to this section">&para;</a></h3>
 <p>Use the <code>agel_comp</code> tool from within a Hermes session:</p>
-<div class="highlight"><pre><span></span><code>agel_comp(action="learn_from",
-          tool="terminal",
-          error="Permission denied: cannot delete /etc/hosts",
-          context="Agent attempted to modify system file")
+<div class="highlight"><pre><span></span><code>agel_comp(action=&quot;learn_from&quot;,
+          tool=&quot;terminal&quot;,
+          error=&quot;Permission denied: cannot delete /etc/hosts&quot;,
+          context=&quot;Agent attempted to modify system file&quot;)
 
 # Or import from JSON
-agel_comp(action="import",
-          rules='[{"head": "block_exec(X)", "body": "matches_pattern(X, \\"sudo rm\\")"}]')
+agel_comp(action=&quot;import&quot;,
+          rules=&#39;[{&quot;head&quot;: &quot;block_exec(X)&quot;, &quot;body&quot;: &quot;matches_pattern(X, \\&quot;sudo rm\\&quot;)&quot;}]&#39;)
 </code></pre></div>
 <hr />
 <h2 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Anchor link to this section">&para;</a></h2>
 <h3 id="bootstrap-the-safety-layer">Bootstrap the safety layer<a class="headerlink" href="#bootstrap-the-safety-layer" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>agel_comp(action="bootstrap")
+<p><div class="highlight"><pre><span></span><code>agel_comp(action=&quot;bootstrap&quot;)
 </code></pre></div>
 Loads foundational safety knowledge into the CPG. Run once after install.</p>
 <h3 id="check-safety-status">Check safety status<a class="headerlink" href="#check-safety-status" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>agel_comp(action="status")
+<p><div class="highlight"><pre><span></span><code>agel_comp(action=&quot;status&quot;)
 </code></pre></div>
 Returns:
 <div class="highlight"><pre><span></span><code>CPG Status:
@@ -11574,22 +11574,22 @@ Returns:
   Storage: $HERMES_HOME/agel_comp/cpg.db (1.2 MB)
 </code></pre></div></p>
 <h3 id="list-all-rules">List all rules<a class="headerlink" href="#list-all-rules" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>agel_comp(action="list_rules")
+<p><div class="highlight"><pre><span></span><code>agel_comp(action=&quot;list_rules&quot;)
 </code></pre></div>
 Returns all active Horn clause rules with their derivation source (built-in, learned, imported).</p>
 <h3 id="verify-a-proposed-action">Verify a proposed action<a class="headerlink" href="#verify-a-proposed-action" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>agel_comp(action="prove", head="block_exec(rm -rf /tmp/cache)")
+<p><div class="highlight"><pre><span></span><code>agel_comp(action=&quot;prove&quot;, head=&quot;block_exec(rm -rf /tmp/cache)&quot;)
 </code></pre></div>
 Returns <code>true</code> (blocked) or <code>false</code> (allowed) with the matched rule.</p>
 <h3 id="learn-from-a-mistake">Learn from a mistake<a class="headerlink" href="#learn-from-a-mistake" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>agel_comp(action="learn_from",
-          tool="read_file",
-          error="Permission denied: /home/user/.aws/credentials",
-          context="Agent attempted to read AWS credentials file")
+<p><div class="highlight"><pre><span></span><code>agel_comp(action=&quot;learn_from&quot;,
+          tool=&quot;read_file&quot;,
+          error=&quot;Permission denied: /home/user/.aws/credentials&quot;,
+          context=&quot;Agent attempted to read AWS credentials file&quot;)
 </code></pre></div>
 The MCS+ILP pipeline runs and adds: <code>block_read(X) :- matches_pattern(X, ".aws/credentials")</code>.</p>
 <h3 id="export-rules-for-sharing">Export rules for sharing<a class="headerlink" href="#export-rules-for-sharing" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>agel_comp(action="export")
+<p><div class="highlight"><pre><span></span><code>agel_comp(action=&quot;export&quot;)
 </code></pre></div>
 Returns a JSON array of all rules that can be imported into another Hermes instance.</p>
 <hr />
@@ -11602,7 +11602,7 @@ tail<span class="w"> </span>-100<span class="w"> </span><span class="nv">$HERMES
 ls<span class="w"> </span>-la<span class="w"> </span><span class="nv">$HERMES_HOME</span>/plugins/agel-comp/
 
 <span class="c1"># Check config.yaml</span>
-grep<span class="w"> </span>-A5<span class="w"> </span><span class="s2">"agel-comp"</span><span class="w"> </span><span class="nv">$HERMES_HOME</span>/config.yaml
+grep<span class="w"> </span>-A5<span class="w"> </span><span class="s2">&quot;agel-comp&quot;</span><span class="w"> </span><span class="nv">$HERMES_HOME</span>/config.yaml
 </code></pre></div>
 <h3 id="cpg-not-persisting">CPG not persisting<a class="headerlink" href="#cpg-not-persisting" title="Anchor link to this section">&para;</a></h3>
 <p>The CPG is stored at <code>$HERMES_HOME/agel_comp/cpg.db</code>. Ensure the directory is writable:</p>
@@ -11612,12 +11612,12 @@ chmod<span class="w"> </span><span class="m">755</span><span class="w"> </span><
 <h3 id="too-many-false-positives">Too many false positives<a class="headerlink" href="#too-many-false-positives" title="Anchor link to this section">&para;</a></h3>
 <p>If the safety layer is blocking legitimate operations:</p>
 <div class="highlight"><pre><span></span><code># Review recent blocks
-agel_comp(action="list_rules")
+agel_comp(action=&quot;list_rules&quot;)
 
 # Remove an over-aggressive rule
-agel_comp(action="query_rule", id=12)
-# If it's a learned rule →
-agel_comp(action="reset", rule_id=12)
+agel_comp(action=&quot;query_rule&quot;, id=12)
+# If it&#39;s a learned rule →
+agel_comp(action=&quot;reset&quot;, rule_id=12)
 </code></pre></div>
 <h3 id="agent-bypassing-the-safety-layer">Agent bypassing the safety layer<a class="headerlink" href="#agent-bypassing-the-safety-layer" title="Anchor link to this section">&para;</a></h3>
 <p>AGEL-Comp works through Hermes plugin hooks - the agent cannot disable it. If the agent appears to be bypassing blocks, check:</p>

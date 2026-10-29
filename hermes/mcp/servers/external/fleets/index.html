@@ -11221,15 +11221,15 @@
 <p>Pairs with the Fleets CLI (npm: <code>fleets</code>) for additional management.</p>
 <h2 id="hermes-claude-desktop-configuration">Hermes / Claude Desktop Configuration<a class="headerlink" href="#hermes-claude-desktop-configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"fleets"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-y"</span><span class="p">,</span><span class="w"> </span><span class="s2">"fleets-mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"GA4_PROPERTY_IDS"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prop1,prop2,prop3"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"GSC_SITE_URLS"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://site1.com,https://site2.com"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"CLOUDFLARE_API_TOKEN"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-cf-token"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"CLOUDFLARE_ZONE_IDS"</span><span class="p">:</span><span class="w"> </span><span class="s2">"zone1,zone2"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;fleets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;fleets-mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;GA4_PROPERTY_IDS&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;prop1,prop2,prop3&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;GSC_SITE_URLS&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://site1.com,https://site2.com&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;CLOUDFLARE_API_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-cf-token&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;CLOUDFLARE_ZONE_IDS&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;zone1,zone2&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11237,19 +11237,19 @@
 </code></pre></div>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-weekly-traffic-audit">1. Weekly Traffic Audit<a class="headerlink" href="#1-weekly-traffic-audit" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Compare traffic across all my sites this week vs last week. Which sites 
+<p><div class="highlight"><pre><span></span><code>&quot;Compare traffic across all my sites this week vs last week. Which sites 
 dropped more than 10%? Check their Search Console and PageSpeed - give 
-me paste-ready fixes for the top 3 issues."
+me paste-ready fixes for the top 3 issues.&quot;
 </code></pre></div>
 Automated weekly audit that previously required checking 4+ dashboards.</p>
 <h3 id="2-seo-health-check">2. SEO Health Check<a class="headerlink" href="#2-seo-health-check" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"Show me all pages with declining search rankings, their current Core Web 
-Vitals, and whether Cloudflare shows any edge errors for those URLs."
+<p><div class="highlight"><pre><span></span><code>&quot;Show me all pages with declining search rankings, their current Core Web 
+Vitals, and whether Cloudflare shows any edge errors for those URLs.&quot;
 </code></pre></div>
 Cross-references GSC rankings with PageSpeed performance and CDN health.</p>
 <h3 id="3-launch-monitoring">3. Launch Monitoring<a class="headerlink" href="#3-launch-monitoring" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>"We launched the new landing page yesterday. Show me GA4 traffic, GSC 
-indexing status, and PageSpeed score for that specific URL."
+<p><div class="highlight"><pre><span></span><code>&quot;We launched the new landing page yesterday. Show me GA4 traffic, GSC 
+indexing status, and PageSpeed score for that specific URL.&quot;
 </code></pre></div>
 Post-launch monitoring across all analytics surfaces.</p>
 <h2 id="operator-value">Operator Value<a class="headerlink" href="#operator-value" title="Anchor link to this section">&para;</a></h2>

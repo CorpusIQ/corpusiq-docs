@@ -11202,7 +11202,7 @@ Source:      github.com/AhaSend/ahasend-mcp (MIT)
 <li><strong>Sub-accounts are the platform path.</strong> Isolating each customer's sending reputation means provisioning sub-accounts, which is an architecture decision made before the first send.</li>
 </ul>
 <h2 id="wiring-it-up">Wiring It Up<a class="headerlink" href="#wiring-it-up" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"ahasend"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.ahasend.com/mcp"</span><span class="p">}}}</span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;ahasend&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.ahasend.com/mcp&quot;</span><span class="p">}}}</span>
 </code></pre></div>
 <p>Authenticate in the browser on first connect; there is no key to paste. For local work, build <code>cmd/ahasend-mcp-dev</code> and pass <code>AHASEND_API_KEY</code> and <code>AHASEND_ACCOUNT_ID</code>, which is also the safest place to test a template before a domain is involved.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>

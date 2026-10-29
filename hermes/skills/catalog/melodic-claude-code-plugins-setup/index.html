@@ -11354,8 +11354,8 @@ cp<span class="w"> </span>-R<span class="w"> </span>claude-code-plugins/plugins/
 <span class="w">         </span>plugins/harness-config/skills/audit-permission-grants/SKILL.md<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/context-guard/hooks/hooks.json<span class="w"> </span><span class="se">\</span>
 <span class="w">         </span>plugins/miro/.mcp.json<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} </span><span class="nv">$p</span><span class="s2">\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/</span><span class="nv">$p</span><span class="s2">"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} </span><span class="nv">$p</span><span class="s2">\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/melodic-software/claude-code-plugins/main/</span><span class="nv">$p</span><span class="s2">&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the two that run code before installing anything that uses them: the context-guard hook manifest and the miro MCP server definition.</p>

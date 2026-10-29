@@ -11307,48 +11307,48 @@
 <h2 id="pattern-1-output-quality-reflexion">Pattern 1: Output Quality Reflexion<a class="headerlink" href="#pattern-1-output-quality-reflexion" title="Anchor link to this section">&para;</a></h2>
 <p>The most common pattern. After generating output, evaluate it against criteria, and refine if needed.</p>
 <h3 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">reflexion_loop</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">criteria</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">max_iterations</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">"""</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">reflexion_loop</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">criteria</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">max_iterations</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Execute a task with Reflexion-based quality improvement.</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">        task: The task description</span>
 <span class="sd">        criteria: List of quality criteria to evaluate against</span>
 <span class="sd">        max_iterations: Maximum refinement attempts</span>
-<span class="sd">    """</span>
-    <span class="n">strategy_notes</span> <span class="o">=</span> <span class="s2">""</span>  <span class="c1"># Accumulated improvement notes</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">strategy_notes</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>  <span class="c1"># Accumulated improvement notes</span>
 
     <span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_iterations</span><span class="p">):</span>
         <span class="c1"># Step 1: Execute with current strategy</span>
         <span class="n">output</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
             <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Complete this task: </span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">Strategy notes from previous attempts:</span><span class="se">\n</span><span class="si">{</span><span class="n">strategy_notes</span><span class="si">}</span><span class="s2">"</span><span class="p">},</span>
-                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">task</span><span class="p">}</span>
+                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Complete this task: </span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">Strategy notes from previous attempts:</span><span class="se">\n</span><span class="si">{</span><span class="n">strategy_notes</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">},</span>
+                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">task</span><span class="p">}</span>
             <span class="p">],</span>
-            <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
+            <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
         <span class="p">)</span>
 
         <span class="c1"># Step 2: Evaluate against criteria</span>
         <span class="n">evaluation</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
             <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"""Evaluate this output against the following criteria.</span>
+                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;Evaluate this output against the following criteria.</span>
 <span class="s2">                For each criterion, score PASS or FAIL. If FAIL, explain why.</span>
 
 <span class="s2">                Criteria:</span>
-<span class="s2">                </span><span class="si">{</span><span class="nb">chr</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="sa">f</span><span class="s1">'- </span><span class="si">{</span><span class="n">c</span><span class="si">}</span><span class="s1">'</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">criteria</span><span class="p">)</span><span class="si">}</span>
+<span class="s2">                </span><span class="si">{</span><span class="nb">chr</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;- </span><span class="si">{</span><span class="n">c</span><span class="si">}</span><span class="s1">&#39;</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">criteria</span><span class="p">)</span><span class="si">}</span>
 
 <span class="s2">                Output to evaluate:</span>
-<span class="s2">                </span><span class="si">{</span><span class="n">output</span><span class="si">}</span><span class="s2">"""</span><span class="p">},</span>
+<span class="s2">                </span><span class="si">{</span><span class="n">output</span><span class="si">}</span><span class="s2">&quot;&quot;&quot;</span><span class="p">},</span>
             <span class="p">],</span>
-            <span class="n">tier</span><span class="o">=</span><span class="s2">"lightweight"</span>  <span class="c1"># Evaluation is cheap</span>
+            <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;lightweight&quot;</span>  <span class="c1"># Evaluation is cheap</span>
         <span class="p">)</span>
 
         <span class="c1"># Step 3: Check if all criteria passed</span>
-        <span class="k">if</span> <span class="s2">"FAIL"</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">evaluation</span><span class="p">:</span>
+        <span class="k">if</span> <span class="s2">&quot;FAIL&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">evaluation</span><span class="p">:</span>
             <span class="k">return</span> <span class="n">output</span>  <span class="c1"># Success!</span>
 
         <span class="c1"># Step 4: Extract improvement notes for next attempt</span>
-        <span class="n">strategy_notes</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Iteration </span><span class="si">{</span><span class="n">iteration</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2"> feedback: </span><span class="si">{</span><span class="n">evaluation</span><span class="si">}</span><span class="s2">"</span>
+        <span class="n">strategy_notes</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Iteration </span><span class="si">{</span><span class="n">iteration</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2"> feedback: </span><span class="si">{</span><span class="n">evaluation</span><span class="si">}</span><span class="s2">&quot;</span>
 
     <span class="c1"># Return best attempt if max iterations reached</span>
     <span class="k">return</span> <span class="n">output</span>  <span class="c1"># With a warning flag</span>
@@ -11375,8 +11375,8 @@
 <h3 id="production-config">Production Config<a class="headerlink" href="#production-config" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="nt">reflexion</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">quality</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">evaluator_model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"lightweight"</span><span class="w">  </span><span class="c1"># Cheap evaluation</span>
-<span class="w">    </span><span class="nt">executor_model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">"standard"</span><span class="w">      </span><span class="c1"># Main work</span>
+<span class="w">    </span><span class="nt">evaluator_model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;lightweight&quot;</span><span class="w">  </span><span class="c1"># Cheap evaluation</span>
+<span class="w">    </span><span class="nt">executor_model_tier</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;standard&quot;</span><span class="w">      </span><span class="c1"># Main work</span>
 <span class="w">    </span><span class="nt">max_iterations</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
 <span class="w">    </span><span class="nt">early_exit_threshold</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.85</span><span class="w">           </span><span class="c1"># If 85%+ criteria pass, accept</span>
 <span class="w">    </span><span class="nt">criteria_weights</span><span class="p">:</span><span class="w">                    </span><span class="c1"># Not all criteria are equal</span>
@@ -11386,43 +11386,43 @@
 </code></pre></div>
 <h2 id="pattern-2-factual-verification-reflexion">Pattern 2: Factual Verification Reflexion<a class="headerlink" href="#pattern-2-factual-verification-reflexion" title="Anchor link to this section">&para;</a></h2>
 <p>For outputs where factual accuracy is critical  --  claims must be verified against sources.</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">factual_reflexion</span><span class="p">(</span><span class="n">claim</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sources</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">"""</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">factual_reflexion</span><span class="p">(</span><span class="n">claim</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sources</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Verify claims against sources and refine if necessary.</span>
-<span class="sd">    Returns: {"output": str, "verified": bool, "issues": list}</span>
-<span class="sd">    """</span>
+<span class="sd">    Returns: {&quot;output&quot;: str, &quot;verified&quot;: bool, &quot;issues&quot;: list}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
         <span class="c1"># Step 1: Generate output with source citations</span>
         <span class="n">output</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
             <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Generate analysis citing specific sources for each claim. Format: [Claim] (Source: [citation])"</span><span class="p">},</span>
-                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Analyze: </span><span class="si">{</span><span class="n">claim</span><span class="si">}</span><span class="se">\n</span><span class="s2">Sources: </span><span class="si">{</span><span class="n">sources</span><span class="si">}</span><span class="s2">"</span><span class="p">}</span>
+                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Generate analysis citing specific sources for each claim. Format: [Claim] (Source: [citation])&quot;</span><span class="p">},</span>
+                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Analyze: </span><span class="si">{</span><span class="n">claim</span><span class="si">}</span><span class="se">\n</span><span class="s2">Sources: </span><span class="si">{</span><span class="n">sources</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">}</span>
             <span class="p">],</span>
-            <span class="n">tier</span><span class="o">=</span><span class="s2">"premium"</span>
+            <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>
         <span class="p">)</span>
 
         <span class="c1"># Step 2: Cross-reference each claim against sources</span>
         <span class="n">verification</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
             <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"""For each claim in the output, verify it against the original sources.</span>
-<span class="s2">                Return JSON with 'verified' (bool) and 'issues' (array of problematic claims).</span>
+                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;For each claim in the output, verify it against the original sources.</span>
+<span class="s2">                Return JSON with &#39;verified&#39; (bool) and &#39;issues&#39; (array of problematic claims).</span>
 
 <span class="s2">                Sources:</span>
-<span class="s2">                """</span> <span class="o">+</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">---</span><span class="se">\n</span><span class="s2">"</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sources</span><span class="p">)},</span>
-                <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">output</span><span class="p">}</span>
+<span class="s2">                &quot;&quot;&quot;</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">---</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sources</span><span class="p">)},</span>
+                <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">output</span><span class="p">}</span>
             <span class="p">],</span>
-            <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
+            <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
         <span class="p">)</span>
 
         <span class="n">verification_data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">verification</span><span class="p">)</span>
 
-        <span class="k">if</span> <span class="n">verification_data</span><span class="p">[</span><span class="s2">"verified"</span><span class="p">]:</span>
-            <span class="k">return</span> <span class="p">{</span><span class="s2">"output"</span><span class="p">:</span> <span class="n">output</span><span class="p">,</span> <span class="s2">"verified"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">"issues"</span><span class="p">:</span> <span class="p">[]}</span>
+        <span class="k">if</span> <span class="n">verification_data</span><span class="p">[</span><span class="s2">&quot;verified&quot;</span><span class="p">]:</span>
+            <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;output&quot;</span><span class="p">:</span> <span class="n">output</span><span class="p">,</span> <span class="s2">&quot;verified&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s2">&quot;issues&quot;</span><span class="p">:</span> <span class="p">[]}</span>
 
         <span class="c1"># Step 3: Feed issues back for correction</span>
-        <span class="n">sources</span> <span class="o">=</span> <span class="n">sources</span> <span class="o">+</span> <span class="p">[</span><span class="sa">f</span><span class="s2">"CORRECTION NEEDED: </span><span class="si">{</span><span class="n">verification_data</span><span class="p">[</span><span class="s1">'issues'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">]</span>
+        <span class="n">sources</span> <span class="o">=</span> <span class="n">sources</span> <span class="o">+</span> <span class="p">[</span><span class="sa">f</span><span class="s2">&quot;CORRECTION NEEDED: </span><span class="si">{</span><span class="n">verification_data</span><span class="p">[</span><span class="s1">&#39;issues&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">]</span>
 
-    <span class="k">return</span> <span class="p">{</span><span class="s2">"output"</span><span class="p">:</span> <span class="n">output</span><span class="p">,</span> <span class="s2">"verified"</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">"issues"</span><span class="p">:</span> <span class="n">verification_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"issues"</span><span class="p">,</span> <span class="p">[])}</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;output&quot;</span><span class="p">:</span> <span class="n">output</span><span class="p">,</span> <span class="s2">&quot;verified&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;issues&quot;</span><span class="p">:</span> <span class="n">verification_data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;issues&quot;</span><span class="p">,</span> <span class="p">[])}</span>
 </code></pre></div>
 <h3 id="when-to-use">When to Use<a class="headerlink" href="#when-to-use" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -11435,49 +11435,49 @@
 <p>Factual verification adds 1-2 additional LLM calls per iteration. For high-stakes content, this is negligible compared to the cost of publishing incorrect information.</p>
 <h2 id="pattern-3-strategy-adjustment-reflexion">Pattern 3: Strategy Adjustment Reflexion<a class="headerlink" href="#pattern-3-strategy-adjustment-reflexion" title="Anchor link to this section">&para;</a></h2>
 <p>Instead of just fixing the output, the agent changes <em>how</em> it approaches the task.</p>
-<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">StrategyReflexion</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">"""</span>
-<span class="sd">    The agent maintains a strategy stack. On failure, it doesn't just</span>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">StrategyReflexion</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The agent maintains a strategy stack. On failure, it doesn&#39;t just</span>
 <span class="sd">    tweak the output  --  it changes the strategy.</span>
-<span class="sd">    """</span>
+<span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="n">STRATEGIES</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="s2">"direct_answer"</span><span class="p">,</span>        <span class="c1"># Answer directly from knowledge</span>
-        <span class="s2">"research_first"</span><span class="p">,</span>       <span class="c1"># Research before answering</span>
-        <span class="s2">"decompose"</span><span class="p">,</span>            <span class="c1"># Break into sub-tasks</span>
-        <span class="s2">"analogy"</span><span class="p">,</span>              <span class="c1"># Use analogies to explain</span>
-        <span class="s2">"step_by_step"</span><span class="p">,</span>         <span class="c1"># Chain-of-thought reasoning</span>
-        <span class="s2">"examples_driven"</span><span class="p">,</span>      <span class="c1"># Lead with concrete examples</span>
-        <span class="s2">"counterfactual"</span><span class="p">,</span>       <span class="c1"># Explore what-if scenarios</span>
+        <span class="s2">&quot;direct_answer&quot;</span><span class="p">,</span>        <span class="c1"># Answer directly from knowledge</span>
+        <span class="s2">&quot;research_first&quot;</span><span class="p">,</span>       <span class="c1"># Research before answering</span>
+        <span class="s2">&quot;decompose&quot;</span><span class="p">,</span>            <span class="c1"># Break into sub-tasks</span>
+        <span class="s2">&quot;analogy&quot;</span><span class="p">,</span>              <span class="c1"># Use analogies to explain</span>
+        <span class="s2">&quot;step_by_step&quot;</span><span class="p">,</span>         <span class="c1"># Chain-of-thought reasoning</span>
+        <span class="s2">&quot;examples_driven&quot;</span><span class="p">,</span>      <span class="c1"># Lead with concrete examples</span>
+        <span class="s2">&quot;counterfactual&quot;</span><span class="p">,</span>       <span class="c1"># Explore what-if scenarios</span>
     <span class="p">]</span>
 
-    <span class="k">def</span><span class="w"> </span><span class="nf">execute</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">execute</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="n">attempted_strategies</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">best_output</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="n">best_score</span> <span class="o">=</span> <span class="mi">0</span>
 
         <span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-            <span class="c1"># Select strategy based on what hasn't worked</span>
+            <span class="c1"># Select strategy based on what hasn&#39;t worked</span>
             <span class="n">strategy</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_select_strategy</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="n">attempted_strategies</span><span class="p">)</span>
 
             <span class="c1"># Execute with strategy prompt</span>
             <span class="n">output</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
                 <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-                    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Strategy: </span><span class="si">{</span><span class="n">strategy</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">"</span>
-                     <span class="sa">f</span><span class="s2">"Previously attempted strategies and their issues:</span><span class="se">\n</span><span class="s2">"</span>
-                     <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">_format_history</span><span class="p">(</span><span class="n">attempted_strategies</span><span class="p">)</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">"</span>
-                     <span class="sa">f</span><span class="s2">"Try a different approach this time."</span><span class="p">},</span>
-                    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">task</span><span class="p">}</span>
+                    <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Strategy: </span><span class="si">{</span><span class="n">strategy</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+                     <span class="sa">f</span><span class="s2">&quot;Previously attempted strategies and their issues:</span><span class="se">\n</span><span class="s2">&quot;</span>
+                     <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">_format_history</span><span class="p">(</span><span class="n">attempted_strategies</span><span class="p">)</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+                     <span class="sa">f</span><span class="s2">&quot;Try a different approach this time.&quot;</span><span class="p">},</span>
+                    <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">task</span><span class="p">}</span>
                 <span class="p">],</span>
-                <span class="n">tier</span><span class="o">=</span><span class="s2">"premium"</span>
+                <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>
             <span class="p">)</span>
 
             <span class="c1"># Evaluate</span>
             <span class="n">score</span><span class="p">,</span> <span class="n">feedback</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_evaluate</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
             <span class="n">attempted_strategies</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-                <span class="s2">"strategy"</span><span class="p">:</span> <span class="n">strategy</span><span class="p">,</span>
-                <span class="s2">"score"</span><span class="p">:</span> <span class="n">score</span><span class="p">,</span>
-                <span class="s2">"feedback"</span><span class="p">:</span> <span class="n">feedback</span>
+                <span class="s2">&quot;strategy&quot;</span><span class="p">:</span> <span class="n">strategy</span><span class="p">,</span>
+                <span class="s2">&quot;score&quot;</span><span class="p">:</span> <span class="n">score</span><span class="p">,</span>
+                <span class="s2">&quot;feedback&quot;</span><span class="p">:</span> <span class="n">feedback</span>
             <span class="p">})</span>
 
             <span class="k">if</span> <span class="n">score</span> <span class="o">&gt;</span> <span class="n">best_score</span><span class="p">:</span>
@@ -11490,25 +11490,25 @@
         <span class="k">return</span> <span class="n">best_output</span>
 </code></pre></div>
 <h3 id="strategy-selection-logic">Strategy Selection Logic<a class="headerlink" href="#strategy-selection-logic" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">_select_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">history</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-    <span class="n">tried</span> <span class="o">=</span> <span class="p">{</span><span class="n">h</span><span class="p">[</span><span class="s2">"strategy"</span><span class="p">]</span> <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">history</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">_select_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">history</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">tried</span> <span class="o">=</span> <span class="p">{</span><span class="n">h</span><span class="p">[</span><span class="s2">&quot;strategy&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">history</span><span class="p">}</span>
 
     <span class="c1"># Analyze the task to determine appropriate strategies</span>
     <span class="n">task_analysis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Classify this task: simple_factual, complex_reasoning, creative, analytical, instructional"</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">task</span><span class="p">}</span>
+            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Classify this task: simple_factual, complex_reasoning, creative, analytical, instructional&quot;</span><span class="p">},</span>
+            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">task</span><span class="p">}</span>
         <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">"lightweight"</span>
+        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;lightweight&quot;</span>
     <span class="p">)</span>
 
     <span class="c1"># Map task types to preferred strategy order</span>
     <span class="n">strategy_order</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">"simple_factual"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"direct_answer"</span><span class="p">,</span> <span class="s2">"research_first"</span><span class="p">],</span>
-        <span class="s2">"complex_reasoning"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"step_by_step"</span><span class="p">,</span> <span class="s2">"decompose"</span><span class="p">,</span> <span class="s2">"analogy"</span><span class="p">],</span>
-        <span class="s2">"creative"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"examples_driven"</span><span class="p">,</span> <span class="s2">"analogy"</span><span class="p">,</span> <span class="s2">"counterfactual"</span><span class="p">],</span>
-        <span class="s2">"analytical"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"decompose"</span><span class="p">,</span> <span class="s2">"step_by_step"</span><span class="p">,</span> <span class="s2">"research_first"</span><span class="p">],</span>
-        <span class="s2">"instructional"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"step_by_step"</span><span class="p">,</span> <span class="s2">"examples_driven"</span><span class="p">,</span> <span class="s2">"analogy"</span><span class="p">],</span>
+        <span class="s2">&quot;simple_factual&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;direct_answer&quot;</span><span class="p">,</span> <span class="s2">&quot;research_first&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;complex_reasoning&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;step_by_step&quot;</span><span class="p">,</span> <span class="s2">&quot;decompose&quot;</span><span class="p">,</span> <span class="s2">&quot;analogy&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;creative&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;examples_driven&quot;</span><span class="p">,</span> <span class="s2">&quot;analogy&quot;</span><span class="p">,</span> <span class="s2">&quot;counterfactual&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;analytical&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;decompose&quot;</span><span class="p">,</span> <span class="s2">&quot;step_by_step&quot;</span><span class="p">,</span> <span class="s2">&quot;research_first&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;instructional&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;step_by_step&quot;</span><span class="p">,</span> <span class="s2">&quot;examples_driven&quot;</span><span class="p">,</span> <span class="s2">&quot;analogy&quot;</span><span class="p">],</span>
     <span class="p">}</span>
 
     <span class="k">for</span> <span class="n">strategy</span> <span class="ow">in</span> <span class="n">strategy_order</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">task_analysis</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">STRATEGIES</span><span class="p">):</span>
@@ -11520,19 +11520,19 @@
 <h2 id="pattern-4-multi-evaluator-reflexion">Pattern 4: Multi-Evaluator Reflexion<a class="headerlink" href="#pattern-4-multi-evaluator-reflexion" title="Anchor link to this section">&para;</a></h2>
 <p>Use multiple evaluators with different perspectives for robust quality assessment:</p>
 <div class="highlight"><pre><span></span><code><span class="n">EVALUATORS</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"accuracy"</span><span class="p">:</span> <span class="s2">"Evaluate factual accuracy. Are all claims correct and supported?"</span><span class="p">,</span>
-    <span class="s2">"clarity"</span><span class="p">:</span> <span class="s2">"Evaluate clarity and readability. Would the target audience understand this?"</span><span class="p">,</span>
-    <span class="s2">"completeness"</span><span class="p">:</span> <span class="s2">"Evaluate completeness. Does this fully answer the question?"</span><span class="p">,</span>
-    <span class="s2">"bias"</span><span class="p">:</span> <span class="s2">"Evaluate for bias or one-sidedness. Are multiple perspectives fairly represented?"</span><span class="p">,</span>
-    <span class="s2">"actionability"</span><span class="p">:</span> <span class="s2">"Evaluate actionability. Can the reader act on this information?"</span><span class="p">,</span>
+    <span class="s2">&quot;accuracy&quot;</span><span class="p">:</span> <span class="s2">&quot;Evaluate factual accuracy. Are all claims correct and supported?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;clarity&quot;</span><span class="p">:</span> <span class="s2">&quot;Evaluate clarity and readability. Would the target audience understand this?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;completeness&quot;</span><span class="p">:</span> <span class="s2">&quot;Evaluate completeness. Does this fully answer the question?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;bias&quot;</span><span class="p">:</span> <span class="s2">&quot;Evaluate for bias or one-sidedness. Are multiple perspectives fairly represented?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;actionability&quot;</span><span class="p">:</span> <span class="s2">&quot;Evaluate actionability. Can the reader act on this information?&quot;</span><span class="p">,</span>
 <span class="p">}</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">multi_evaluator_reflexion</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">active_evaluators</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">"""Run Reflexion with multiple evaluator perspectives."""</span>
+<span class="k">def</span> <span class="nf">multi_evaluator_reflexion</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">active_evaluators</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Run Reflexion with multiple evaluator perspectives.&quot;&quot;&quot;</span>
     <span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
         <span class="n">output</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-            <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">task</span><span class="p">}],</span>
-            <span class="n">tier</span><span class="o">=</span><span class="s2">"standard"</span>
+            <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">task</span><span class="p">}],</span>
+            <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
         <span class="p">)</span>
 
         <span class="n">all_pass</span> <span class="o">=</span> <span class="kc">True</span>
@@ -11542,20 +11542,20 @@
             <span class="n">eval_prompt</span> <span class="o">=</span> <span class="n">EVALUATORS</span><span class="p">[</span><span class="n">evaluator_name</span><span class="p">]</span>
             <span class="n">result</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
                 <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-                    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">eval_prompt</span><span class="si">}</span><span class="se">\n</span><span class="s2">Score PASS or FAIL with explanation."</span><span class="p">},</span>
-                    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">output</span><span class="p">}</span>
+                    <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">eval_prompt</span><span class="si">}</span><span class="se">\n</span><span class="s2">Score PASS or FAIL with explanation.&quot;</span><span class="p">},</span>
+                    <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">output</span><span class="p">}</span>
                 <span class="p">],</span>
-                <span class="n">tier</span><span class="o">=</span><span class="s2">"lightweight"</span>
+                <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;lightweight&quot;</span>
             <span class="p">)</span>
 
-            <span class="k">if</span> <span class="s2">"FAIL"</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
+            <span class="k">if</span> <span class="s2">&quot;FAIL&quot;</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
                 <span class="n">all_pass</span> <span class="o">=</span> <span class="kc">False</span>
-                <span class="n">feedback</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">"[</span><span class="si">{</span><span class="n">evaluator_name</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+                <span class="n">feedback</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;[</span><span class="si">{</span><span class="n">evaluator_name</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">all_pass</span><span class="p">:</span>
             <span class="k">return</span> <span class="n">output</span>
 
-        <span class="n">task</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">Previous attempt feedback:</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">feedback</span><span class="p">)</span>
+        <span class="n">task</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">Previous attempt feedback:</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">feedback</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="n">output</span>
 </code></pre></div>
@@ -11608,15 +11608,15 @@
 
 <span class="w">  </span><span class="nt">model_mapping</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">execution</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">creative</span><span class="p">:</span><span class="w"> </span><span class="s">"standard"</span>
-<span class="w">      </span><span class="nt">analytical</span><span class="p">:</span><span class="w"> </span><span class="s">"premium"</span>
-<span class="w">      </span><span class="nt">simple</span><span class="p">:</span><span class="w"> </span><span class="s">"lightweight"</span>
+<span class="w">      </span><span class="nt">creative</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;standard&quot;</span>
+<span class="w">      </span><span class="nt">analytical</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;premium&quot;</span>
+<span class="w">      </span><span class="nt">simple</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;lightweight&quot;</span>
 <span class="w">    </span><span class="nt">evaluation</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="s">"lightweight"</span><span class="w">  </span><span class="c1"># Always use cheapest capable model</span>
+<span class="w">      </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;lightweight&quot;</span><span class="w">  </span><span class="c1"># Always use cheapest capable model</span>
 
 <span class="w">  </span><span class="nt">failure_handling</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">max_iterations_reached</span><span class="p">:</span><span class="w"> </span><span class="s">"return_with_warning"</span><span class="w">  </span><span class="c1"># or "raise_error"</span>
-<span class="w">    </span><span class="nt">cost_ceiling_reached</span><span class="p">:</span><span class="w"> </span><span class="s">"return_best_so_far"</span>
+<span class="w">    </span><span class="nt">max_iterations_reached</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;return_with_warning&quot;</span><span class="w">  </span><span class="c1"># or &quot;raise_error&quot;</span>
+<span class="w">    </span><span class="nt">cost_ceiling_reached</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;return_best_so_far&quot;</span>
 
 <span class="w">  </span><span class="nt">logging</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">trace_all_iterations</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
@@ -11626,14 +11626,14 @@
 <p>Schedule Reflexion-based quality checks:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/content_quality_check.yaml</span>
 <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">content_quality_reflexion</span>
-<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">"0</span><span class="nv"> </span><span class="s">8,14,20</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*"</span><span class="w">  </span><span class="c1"># Three times daily</span>
+<span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">8,14,20</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Three times daily</span>
 <span class="nt">task</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">reflexion.quality_check.recent_content</span>
 <span class="nt">params</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">lookback_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">6</span>
 <span class="w">  </span><span class="nt">evaluators</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">accuracy</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">clarity</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">bias</span><span class="p p-Indicator">]</span>
 <span class="w">  </span><span class="nt">auto_fix</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">  </span><span class="c1"># Automatically apply corrections</span>
 <span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">600</span>
-<span class="nt">notify_on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"failure"</span><span class="p p-Indicator">]</span>
+<span class="nt">notify_on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;failure&quot;</span><span class="p p-Indicator">]</span>
 </code></pre></div>
 <h3 id="monitoring-reflexion-performance">Monitoring Reflexion Performance<a class="headerlink" href="#monitoring-reflexion-performance" title="Anchor link to this section">&para;</a></h3>
 <p>Track these metrics to optimize your Reflexion setup:</p>

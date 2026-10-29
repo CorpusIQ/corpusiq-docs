@@ -11418,12 +11418,12 @@ curl<span class="w"> </span>http://127.0.0.1:8765/.well-known/agent-card.json
 <h3 id="send-a-task-to-another-agent">Send a Task to Another Agent<a class="headerlink" href="#send-a-task-to-another-agent" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># From another A2A-compatible agent:</span>
 curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>http://127.0.0.1:8765/tasks<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Authorization: Bearer &lt;token&gt;"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{</span>
-<span class="s1">    "prompt": "Analyze the Q2 growth metrics and suggest 3 optimizations",</span>
-<span class="s1">    "context": {"company": "CorpusIQ", "domain": "growth"}</span>
-<span class="s1">  }'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
+<span class="s1">    &quot;prompt&quot;: &quot;Analyze the Q2 growth metrics and suggest 3 optimizations&quot;,</span>
+<span class="s1">    &quot;context&quot;: {&quot;company&quot;: &quot;CorpusIQ&quot;, &quot;domain&quot;: &quot;growth&quot;}</span>
+<span class="s1">  }&#39;</span>
 </code></pre></div>
 <h3 id="discover-remote-agents">Discover Remote Agents<a class="headerlink" href="#discover-remote-agents" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>a2a<span class="w"> </span>discover
@@ -11446,8 +11446,8 @@ hermes<span class="w"> </span>a2a<span class="w"> </span>agents
 <p>Run specialized agents in parallel - one for social monitoring, one for lead research, one for content - coordinated via A2A:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>a2a<span class="w"> </span>serve<span class="w"> </span><span class="p">&amp;</span>
 hermes<span class="w"> </span>a2a<span class="w"> </span>discover
-hermes<span class="w"> </span>a2a<span class="w"> </span>task<span class="w"> </span>--agent<span class="w"> </span>social-agent<span class="w"> </span><span class="s2">"Monitor Reddit for SaaS growth discussions"</span>
-hermes<span class="w"> </span>a2a<span class="w"> </span>task<span class="w"> </span>--agent<span class="w"> </span>research-agent<span class="w"> </span><span class="s2">"Research lead from @acmecorp"</span>
+hermes<span class="w"> </span>a2a<span class="w"> </span>task<span class="w"> </span>--agent<span class="w"> </span>social-agent<span class="w"> </span><span class="s2">&quot;Monitor Reddit for SaaS growth discussions&quot;</span>
+hermes<span class="w"> </span>a2a<span class="w"> </span>task<span class="w"> </span>--agent<span class="w"> </span>research-agent<span class="w"> </span><span class="s2">&quot;Research lead from @acmecorp&quot;</span>
 </code></pre></div>
 <h3 id="2-cross-team-agent-collaboration">2. Cross-Team Agent Collaboration<a class="headerlink" href="#2-cross-team-agent-collaboration" title="Anchor link to this section">&para;</a></h3>
 <p>Enable the CorpusIQ growth agent to delegate specialized tasks to other Hermes instances:</p>
@@ -11465,7 +11465,7 @@ Growth Agent → A2A → Data Agent (pipeline metrics)
 
 <span class="c1"># On Mac Mini: growth agent discovers and tasks cloud agent</span>
 <span class="l l-Scalar l-Scalar-Plain">hermes a2a discover --network</span>
-<span class="l l-Scalar l-Scalar-Plain">hermes a2a task --agent research.corpusiq.io "..."</span>
+<span class="l l-Scalar l-Scalar-Plain">hermes a2a task --agent research.corpusiq.io &quot;...&quot;</span>
 </code></pre></div>
 <hr />
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>

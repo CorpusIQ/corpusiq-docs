@@ -11265,8 +11265,8 @@ rea<span class="w"> </span>--help
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Confirm the layout on main before installing; every skill lives under <code>.agents/skills/</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>s<span class="w"> </span><span class="k">in</span><span class="w"> </span>reverse-engineer-anything<span class="w"> </span>rea-tool-design<span class="w"> </span>rea-analysis-optimization<span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">"%{http_code} .agents/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md\n"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span><span class="s2">"https://raw.githubusercontent.com/morluto/rea/main/.agents/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md"</span>
+<span class="w">  </span>curl<span class="w"> </span>-sL<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;%{http_code} .agents/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s2">&quot;https://raw.githubusercontent.com/morluto/rea/main/.agents/skills/</span><span class="nv">$s</span><span class="s2">/SKILL.md&quot;</span>
 <span class="k">done</span>
 </code></pre></div>
 <p>Read the main skill before you let an agent loose on a target, because it decides which analysis path runs:</p>

@@ -11209,19 +11209,19 @@
 <h3 id="dynamic-client-registration-for-app-developers">Dynamic Client Registration (For App Developers)<a class="headerlink" href="#dynamic-client-registration-for-app-developers" title="Anchor link to this section">&para;</a></h3>
 <p>Mercury supports OAuth 2.0 Dynamic Client Registration (RFC 7591). Register your client:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp.mercury.com/register<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">"Content-Type: application/json"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">'{</span>
-<span class="s1">    "redirect_uris": ["https://your-app.com/callback"],</span>
-<span class="s1">    "client_name": "Your App Name"</span>
-<span class="s1">  }'</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
+<span class="s1">    &quot;redirect_uris&quot;: [&quot;https://your-app.com/callback&quot;],</span>
+<span class="s1">    &quot;client_name&quot;: &quot;Your App Name&quot;</span>
+<span class="s1">  }&#39;</span>
 </code></pre></div>
 <p>You'll receive a <code>client_id</code> and <code>client_secret</code> for the standard OAuth authorization code flow. Client names must not contain "Mercury."</p>
 <h3 id="hermesclaude-code-config">Hermes/Claude Code Config<a class="headerlink" href="#hermesclaude-code-config" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"mercury"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://mcp.mercury.com/mcp"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"transport"</span><span class="p">:</span><span class="w"> </span><span class="s2">"streamable-http"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;mercury&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.mercury.com/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;streamable-http&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>

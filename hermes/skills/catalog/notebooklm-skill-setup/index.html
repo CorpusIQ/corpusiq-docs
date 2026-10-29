@@ -11251,7 +11251,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercon
 curl<span class="w"> </span>-sL<span class="w"> </span>https://raw.githubusercontent.com/PleasePrompto/notebooklm-skill/master/scripts/run.py<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-40
 </code></pre></div>
 <p>Confirm the archived state yourself rather than trusting this page:</p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/PleasePrompto/notebooklm-skill<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">'"archived"|"pushed_at"'</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>https://api.github.com/repos/PleasePrompto/notebooklm-skill<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-E<span class="w"> </span><span class="s1">&#39;&quot;archived&quot;|&quot;pushed_at&quot;&#39;</span>
 </code></pre></div>
 <p>Then check the runtime inside the cloned folder. <code>status</code> reports whether a saved session exists; <code>setup</code> is the only step that needs a human:</p>
 <div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>~/.claude/skills/notebooklm

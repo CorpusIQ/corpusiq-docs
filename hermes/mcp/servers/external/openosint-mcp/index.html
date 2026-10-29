@@ -11292,7 +11292,7 @@
 3. Copy-paste results into a document
 4. Repeat for the next vendor</p>
 <p>Now:
-<div class="highlight"><pre><span></span><code>Agent: "Run full OSINT on vendor.com before we sign the contract"
+<div class="highlight"><pre><span></span><code>Agent: &quot;Run full OSINT on vendor.com before we sign the contract&quot;
 → OpenOSINT runs all 9 tools → returns consolidated report in one response
 </code></pre></div></p>
 <p>For competitive research, security assessments, and domain acquisitions, this turns hours of manual OSINT into seconds of conversation.</p>
@@ -11308,13 +11308,13 @@
 </code></pre></div>
 <h3 id="claude-desktop">Claude Desktop<a class="headerlink" href="#claude-desktop" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"openosint"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"openosint_mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">"HIBP_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"optional-haveibeenpwned-key"</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">"SHODAN_API_KEY"</span><span class="p">:</span><span class="w"> </span><span class="s2">"optional-shodan-key"</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;openosint&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-m&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;openosint_mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;HIBP_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;optional-haveibeenpwned-key&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;SHODAN_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;optional-shodan-key&quot;</span>
 <span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
@@ -11322,11 +11322,11 @@
 </code></pre></div>
 <h3 id="cursor-vs-code">Cursor / VS Code<a class="headerlink" href="#cursor-vs-code" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">"mcpServers"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">"openosint"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">"command"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"-m"</span><span class="p">,</span><span class="w"> </span><span class="s2">"openosint_mcp"</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span>
+<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;openosint&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-m&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;openosint_mcp&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -11335,7 +11335,7 @@
 <div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">openosint</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
-<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"-m"</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">"openosint_mcp"</span><span class="p p-Indicator">]</span>
+<span class="w">    </span><span class="nt">args</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;-m&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;openosint_mcp&quot;</span><span class="p p-Indicator">]</span>
 <span class="w">    </span><span class="nt">env</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{}</span>
 </code></pre></div>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Anchor link to this section">&para;</a></h2>
@@ -11397,28 +11397,28 @@
 </table>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="vendor-due-diligence">Vendor Due Diligence<a class="headerlink" href="#vendor-due-diligence" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>Agent: "We're about to sign a $50K contract with vendor.com. Run full OSINT - anything concerning?"
-→ whois_lookup(vendor.com) → subdomain_enum → email_lookup(contact emails) → breach_check(vendor.com) → google_dorks("site:vendor.com confidential") → paste_search("vendor.com") → consolidated report
+<p><div class="highlight"><pre><span></span><code>Agent: &quot;We&#39;re about to sign a $50K contract with vendor.com. Run full OSINT - anything concerning?&quot;
+→ whois_lookup(vendor.com) → subdomain_enum → email_lookup(contact emails) → breach_check(vendor.com) → google_dorks(&quot;site:vendor.com confidential&quot;) → paste_search(&quot;vendor.com&quot;) → consolidated report
 </code></pre></div>
 Result: "vendor.com registered 2019, clean WHOIS, no breaches, but found exposed .env backup on staging.vendor.com (Google dorks hit) and one employee email in a 2024 breach - flag for security review."</p>
 <h3 id="competitive-intelligence">Competitive Intelligence<a class="headerlink" href="#competitive-intelligence" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>Agent: "What subdomains does competitor.com have and what tech stack is on each?"
+<p><div class="highlight"><pre><span></span><code>Agent: &quot;What subdomains does competitor.com have and what tech stack is on each?&quot;
 → subdomain_enum(competitor.com) → ip_lookup for each → identify hosting/CDN/tech stack → report
 </code></pre></div>
 Result: 24 subdomains found - staging, api, admin, analytics, internal wiki, partner portal. Tech stack: AWS + Cloudflare + React.</p>
 <h3 id="domain-acquisition-research">Domain Acquisition Research<a class="headerlink" href="#domain-acquisition-research" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>Agent: "The domain we want is registered. Who owns it and when does it expire?"
+<p><div class="highlight"><pre><span></span><code>Agent: &quot;The domain we want is registered. Who owns it and when does it expire?&quot;
 → whois_lookup(domain.com) → email_lookup(registrant email) → username_search(registrant name)
 </code></pre></div>
 Result: Registered to [company], expires 2027-03-15, registrant is VP Engineering, also owns 12 related domains.</p>
 <h3 id="hiring-background-checks">Hiring &amp; Background Checks<a class="headerlink" href="#hiring-background-checks" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>Agent: "We're hiring a senior engineer. Run OSINT on their email and public profiles"
+<p><div class="highlight"><pre><span></span><code>Agent: &quot;We&#39;re hiring a senior engineer. Run OSINT on their email and public profiles&quot;
 → email_lookup(candidate@email.com) → breach_check(email) → username_search(known usernames)
 </code></pre></div>
 Result: Profiles found on GitHub, LinkedIn, Stack Overflow, Twitter. One breach hit from 2023 (Adobe). Clean otherwise.</p>
 <h3 id="security-posture-assessment">Security Posture Assessment<a class="headerlink" href="#security-posture-assessment" title="Anchor link to this section">&para;</a></h3>
-<p><div class="highlight"><pre><span></span><code>Agent: "Check our own domain for any exposed information we should know about"
-→ subdomain_enum(ourcompany.com) → google_dorks("site:ourcompany.com filetype:pdf confidential") → paste_search("ourcompany.com") → breach_check("ourcompany.com")
+<p><div class="highlight"><pre><span></span><code>Agent: &quot;Check our own domain for any exposed information we should know about&quot;
+→ subdomain_enum(ourcompany.com) → google_dorks(&quot;site:ourcompany.com filetype:pdf confidential&quot;) → paste_search(&quot;ourcompany.com&quot;) → breach_check(&quot;ourcompany.com&quot;)
 </code></pre></div>
 Result: 18 subdomains, 2 staging servers exposed, 1 PDF with API keys found via dorks (critical), no paste leaks. Take down the PDF immediately.</p>
 <h2 id="privacy-ethics">Privacy &amp; Ethics<a class="headerlink" href="#privacy-ethics" title="Anchor link to this section">&para;</a></h2>
