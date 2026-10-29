@@ -1,6 +1,6 @@
 ---
-title: "MCP Apps Enterprise Adoption: Who Supports It and Why"
-description: "Enterprise platforms adopting MCP Apps: Airia, Willow, WorkOS, and the gateway players. How the rendering standard commoditizes and why verification becomes the differentiator."
+title: "MCP Apps Adoption: Who Supports It and Why It Matters"
+description: "Enterprise platforms adopting MCP Apps: Airia, Willow, WorkOS, and the gateway players. Why verification becomes the differentiator."
 canonical: "/hermes/mcp/mcp-apps-enterprise-adoption/"
 robots: "index, follow"
 tags: [mcp, apps, enterprise, adoption, gateways, airia, willow, governance, interactive]
