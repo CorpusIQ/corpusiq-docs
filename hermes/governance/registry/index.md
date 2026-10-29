@@ -3,7 +3,7 @@ title: "System Registry - CorpusIQ Docs"
 description: "Preventing duplication and sprawl in autonomous agent systems through component registration. systems, uncontrolled creation leads chaos. The System Regist."
 canonical: "https://www.corpusiq.io/docs/hermes/governance/registry/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-10-29"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

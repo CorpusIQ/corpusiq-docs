@@ -3,7 +3,7 @@ title: "How to Add CorpusIQ MCP to Hermes Agent"
 description: "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: 2026-10-29
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -53,12 +53,12 @@ hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --transport streamabl
 CorpusIQ uses OAuth 2.0 Device Authorization Grant for CLI tools and agent loops. The flow:
 
 1. Generate a device code: `POST https://mcp2.corpusiq.io/oauth/device/authorize`
-2. Open the verification URL in a browser and approve
+2. Open the returned `verification_uri` (`https://mcp2.corpusiq.io/oauth/device/verify`) in a browser, enter the `user_code`, and approve
 3. Exchange the device code for tokens: `POST https://mcp2.corpusiq.io/oauth/token` with form data containing ONLY `grant_type=urn:ietf:params:oauth:grant-type:device_code` and `device_code=<code>`. Do NOT include `client_id`.
 4. Save both `access_token` (60-min expiry) and `refresh_token` (30-day expiry) to `mcp_tokens.json`
 5. Set the JWT in config: `headers.Authorization: Bearer <access_token>`
 
-For the Python device login script, see `device_login.py` in the corpusiq-docs repository.
+For the Python device login script, see the account's own token store (`mcp_tokens.json`) and the device flow above.
 
 When the access token expires, refresh silently:
 ```bash
@@ -117,13 +117,20 @@ External-source retrieval tools are marked read-only. Write-capable connector-ma
 
 The refresh token (30-day expiry) is now available in production. Save both `access_token` and `refresh_token` from the device OAuth response. When the access token expires, POST `grant_type=refresh_token` to `/oauth/token` for a new one. Never overwrite the refresh token when updating the access token.
 
-For cron jobs, run the refresh guard before every execution:
+For cron jobs, wrap the task so the token is refreshed before the run, then call the one-shot mode:
 
 ```bash
-python3 refresh_mcp_jwt.py && hermes run "your task"
+# 1. refresh (returns a new access_token; keep the refresh_token unchanged)
+curl -s -X POST https://mcp2.corpusiq.io/oauth/token \
+  -d "grant_type=refresh_token&refresh_token=<saved_refresh_token>"
+
+# 2. write the returned access_token into headers.Authorization in config.yaml
+
+# 3. run the task
+hermes -z "your task"
 ```
 
-The guard script checks token validity, refreshes using the saved refresh token if expired, and updates `config.yaml` automatically.
+Your wrapper script owns steps 1 and 2; the agent only ever sees a valid JWT.
 
 ---
 

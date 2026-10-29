@@ -3,7 +3,7 @@ title: "Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright"
 description: "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference."
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone/"
 robots: "index,follow"
 
@@ -32,18 +32,21 @@ The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it 
 
 ### Step 1: macOS Prerequisites
 
+Tier-1 support on macOS is Apple Silicon. Intel Macs are best-effort only: `pip install` is not a supported install method for any platform, and Intel desktop bundles ship only for releases cut with `--with macos-intel`. The installer brings its own pinned Python 3.14, Node.js, ripgrep and FFmpeg, so Homebrew is only needed for extras.
+
 ```bash
 # Install Homebrew if you don't have it
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Dependencies
-brew install python@3.12 ffmpeg node git
+# Optional extras
+brew install ffmpeg git
 ```
 
 ### Step 2: Install Hermes Agent
 
 ```bash
-pip install hermes-agent
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+source ~/.zshrc
 hermes --version
 ```
 
@@ -63,16 +66,18 @@ ollama pull nomic-embed-text   # Embeddings for memory
 ollama pull qwen2.5:14b        # Heavier tasks (if 24GB+ RAM)
 
 # Configure Hermes to use Ollama
-hermes config set model.default ollama/llama3.2
+hermes config set model.provider ollama
+hermes config set model.default llama3.2
 ```
 
 **Cloud Models (OpenRouter  --  Pay-per-use):**
 
 ```bash
-hermes config set providers.openrouter.api_key "your-key"
-hermes config set model.default openrouter/anthropic/claude-sonnet-4
-hermes config set model.fallback "openrouter/qwen/qwen3-235b-a22b:free"
+hermes config set OPENROUTER_API_KEY "your-key"   # written to ~/.hermes/.env
+hermes model                                      # pick provider + default model
 ```
+
+Model ids are provider-relative: `llama3.2` under `ollama`, `anthropic/claude-sonnet-4.6` under `openrouter`. Do not prefix the id with the provider name. For a fallback chain, edit `fallback_providers` in `config.yaml` (a YAML list that `hermes config set` cannot build).
 
 **Strategy:** Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our [model selection guide](/hermes/best-practices/model-selection) for detailed tiering strategies.
 

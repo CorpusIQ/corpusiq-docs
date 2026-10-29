@@ -3,7 +3,7 @@ title: "Windows 11 WSL2 Hermes Agent Setup"
 description: Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2. GPU passthrough for NVIDIA CUDA, native Ollama models, systemd persistence, and browser automation. Free if you already own a Windows PC.
 category: setup
 tags: [windows, wsl2, hermes-agent, setup-guide, nvidia, gpu-passthrough, ollama, linux-on-windows]
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/setup/windows-wsl/"
 robots: "index,follow"
 
@@ -69,9 +69,16 @@ sudo apt install nvidia-utils-550  # If not found
 
 ### Step 4: Install Dependencies
 
+The Hermes installer provisions its own pinned Python 3.14, Node.js, ripgrep and FFmpeg, so you only need the base utilities:
+
 ```bash
 sudo apt update
-sudo apt install -y python3 python3-pip python3-venv nodejs npm git curl ffmpeg
+sudo apt install -y git curl tar ffmpeg
+```
+
+Install Node.js separately only if your own tooling needs a system-wide copy:
+
+```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
@@ -79,11 +86,18 @@ sudo apt install -y nodejs
 ### Step 5: Install Hermes Agent
 
 ```bash
-pip install hermes-agent
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+source ~/.bashrc
 hermes profile create wsl-agent
 hermes profile use wsl-agent
-hermes config set providers.openrouter.api_key ***
-hermes config set model.default openrouter/anthropic/claude-sonnet-4
+hermes setup                              # provider, API keys, model
+```
+
+To set values non-interactively:
+
+```bash
+hermes config set OPENROUTER_API_KEY sk-or-...   # written to ~/.hermes/.env
+hermes model                                     # interactive provider + model picker
 ```
 
 ### Step 6: Local Models with Ollama
@@ -162,7 +176,7 @@ For headed browsing, install a Windows X server like VcXsrv and `export DISPLAY=
 Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference  --  same speed as native Linux.
 
 ### Why not just use Windows native Hermes Agent?
-WSL2 provides a real Linux environment with systemd, ext4 filesystem, and native package management. Many MCP servers and developer tools expect Linux. WSL2 delivers this without dual-booting.
+Native Windows is supported: grab the MSIX desktop package, or run `iex (irm https://hermes-agent.nousresearch.com/install.ps1)` in PowerShell for a command-line install. WSL2 is still the better fit for 24/7 server-style operation because it gives you systemd, an ext4 filesystem, and native Linux package management, and many MCP servers and developer tools assume Linux. Pick native Windows for the desktop app, WSL2 for an always-on agent host.
 
 ### How do I prevent WSL2 from shutting down?
 Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep infinity` at startup, or ensure the Hermes systemd service has `Restart=always`.

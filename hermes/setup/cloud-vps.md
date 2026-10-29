@@ -3,7 +3,7 @@ title: "Cloud VPS Hermes Agent Setup - CorpusIQ Docs"
 description: Deploy Hermes Agent on a cloud VPS for always-on AI automation. Step-by-step setup for Hetzner, DigitalOcean, AWS, Vultr. API-based models, systemd persistence, security hardening. $5/month budget deployment.
 category: setup
 tags: [cloud-vps, hermes-agent, setup-guide, hetzner, digitalocean, openrouter, systemd, 24/7-automation]
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/setup/cloud-vps/"
 robots: "index,follow"
 
@@ -55,17 +55,18 @@ su - hermes
 
 ### Step 2: Install Dependencies
 
+The Hermes installer provisions its own pinned Python 3.14, Node.js, ripgrep and FFmpeg, so you only need the base utilities:
+
 ```bash
 sudo apt update
-sudo apt install -y python3 python3-pip python3-venv nodejs npm git curl
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
+sudo apt install -y git curl tar
 ```
 
 ### Step 3: Install Hermes Agent
 
 ```bash
-pip install hermes-agent
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+source ~/.bashrc
 hermes profile create cloud-agent
 hermes profile use cloud-agent
 ```
@@ -74,10 +75,11 @@ hermes profile use cloud-agent
 
 ```bash
 # OpenRouter  --  free tier models available
-hermes config set providers.openrouter.api_key "your-key"
-hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
-hermes config set model.fallback openrouter/anthropic/claude-sonnet-4
+hermes config set OPENROUTER_API_KEY "your-key"   # written to ~/.hermes/.env
+hermes model                                      # provider + default model picker
 ```
+
+`hermes model` writes `model.provider` and `model.default` for you. A model id is provider-relative (`qwen/qwen3-235b-a22b:free` under the `openrouter` provider), not prefixed with the provider name. For multi-model fallback chains, edit `fallback_providers` in `config.yaml` (a YAML list that `hermes config set` cannot build).
 
 See our [model selection guide](/hermes/best-practices/model-selection) for tiered routing strategies.
 
@@ -89,14 +91,15 @@ For containerized deployment:
 curl -fsSL https://get.docker.com | sh
 sudo usermod -aG docker hermes
 
-docker run -d --name hermes-agent \
-  -v ~/.hermes:/home/hermes/.hermes \
-  -e OPENROUTER_API_KEY="your-key" \
+mkdir -p ~/.hermes
+docker run -d --name hermes \
+  -v ~/.hermes:/opt/data \
+  -p 8642:8642 \
   --restart unless-stopped \
-  nousresearch/hermes-agent:latest
+  nousresearch/hermes-agent gateway run
 ```
 
-Full setup in the [Docker guide](docker.md).
+Run `docker run -it --rm -v ~/.hermes:/opt/data nousresearch/hermes-agent setup` once first to write your API keys into `~/.hermes/.env`. Full setup in the [Docker guide](docker.md).
 
 ### Step 6: Systemd Service
 
@@ -125,18 +128,18 @@ sudo systemctl enable --now hermes-gateway
 
 ### Step 7: Cron Persistence
 
+The schedule and the prompt are positional arguments; `--name` and `--deliver` are flags:
+
 ```bash
 # Email monitoring
-hermes cron create \
-  --name "email-watch" \
-  --prompt "Check inbox for unread. Summarize. Silent if empty." \
-  --schedule "*/15 * * * *"
+hermes cron create "*/15 * * * *" \
+  "Check inbox for unread. Summarize. Silent if empty." \
+  --name email-watch
 
 # Daily health check
-hermes cron create \
-  --name "health-check" \
-  --prompt "Verify services running. Check disk space. Report issues." \
-  --schedule "0 8 * * *"
+hermes cron create "0 8 * * *" \
+  "Verify services running. Check disk space. Report issues." \
+  --name health-check
 ```
 
 ### Step 8: Security Hardening

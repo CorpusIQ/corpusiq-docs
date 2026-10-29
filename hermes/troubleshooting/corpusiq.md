@@ -3,7 +3,7 @@ title: "CorpusIQ MCP Troubleshooting - CorpusIQ Docs"
 description: "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: 2026-10-29
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -25,12 +25,15 @@ curl -X POST https://mcp2.corpusiq.io/oauth/token \
   -d "grant_type=refresh_token&refresh_token=<saved_value>"
 ```
 
-For crons, run the refresh guard:
+For crons, refresh first, write the new access token into `config.yaml`, then run the one-shot:
+
 ```bash
-python3 refresh_mcp_jwt.py && hermes run "your cron task"
+curl -s -X POST https://mcp2.corpusiq.io/oauth/token \
+  -d "grant_type=refresh_token&refresh_token=<saved_value>"
+hermes -z "your cron task"
 ```
 
-The guard script refreshes using the saved refresh token and updates `config.yaml` automatically.
+The wrapper around the cron owns the refresh and the `config.yaml` write, so the agent always starts with a valid JWT.
 
 If you are still on an older JWT obtained before July 28, 2026, do one device OAuth reconnect to receive the refresh token.
 

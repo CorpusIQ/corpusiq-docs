@@ -3,7 +3,7 @@ title: "Running CorpusIQ Cron Jobs - Autonomous Business"
 description: "Patterns for running CorpusIQ cron jobs with Hermes Agent - daily KPI reports, AR aging alerts, anomaly detection, and multi-client agency reporting."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-cron-patterns/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: 2026-10-29
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -16,14 +16,14 @@ CorpusIQ connects business data to Hermes Agent. Combine with cron jobs for auto
 
 ```bash
 # Crontab: 0 8 * * * (8 AM daily)
-hermes run "Query Stripe MRR, QuickBooks cash position, HubSpot pipeline. Email summary to ceo@company.com"
+hermes -z "Query Stripe MRR, QuickBooks cash position, HubSpot pipeline. Email summary to ceo@company.com"
 ```
 
 ## Pattern: AR Aging Alert
 
 ```bash
 # Crontab: 0 9 * * MON (Monday 9 AM)
-python3 token_refresh_guard.py && hermes run "
+hermes -z "
   Query QuickBooks for all overdue invoices. 
   Sort by amount and days overdue. 
   Email the top 10 to finance@company.com with subject 'Weekly AR Alert'
@@ -34,7 +34,7 @@ python3 token_refresh_guard.py && hermes run "
 
 ```bash
 # Crontab: 0 */6 * * * (every 6 hours)
-python3 token_refresh_guard.py && hermes run "
+hermes -z "
   Check Stripe for:
   - Failed payments in last 6 hours
   - Unusual churn pattern (>2 standard deviations from 30-day average)
@@ -47,7 +47,7 @@ python3 token_refresh_guard.py && hermes run "
 
 ```bash
 # Crontab: 0 7 * * * (7 AM daily)
-python3 token_refresh_guard.py && hermes run "
+hermes -z "
   For each client connected:
   - Query their ad platform ROAS
   - Check their email campaign performance  
@@ -58,13 +58,26 @@ python3 token_refresh_guard.py && hermes run "
 
 ## Token Refresh Guard
 
-Always prefix CorpusIQ cron tasks with the token guard. The JWT expires hourly.
+A CorpusIQ JWT access token expires after 60 minutes, so any cron that runs less often than that needs a fresh credential before it starts.
 
-Download the guard script:
+The simplest setup is to let Hermes own the token. Register the server with OAuth instead of pasting a JWT into `config.yaml`:
+
 ```bash
-curl -O https://raw.githubusercontent.com/CorpusIQ/corpusiq-docs/main/hermes/scripts/token_refresh_guard.py
-chmod +x token_refresh_guard.py
+hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --auth oauth
+hermes mcp login corpusiq          # add --flow device for a headless host
+hermes mcp test corpusiq
 ```
+
+The server publishes OAuth 2.0 authorization-server and protected-resource metadata, so Hermes runs the flow once and keeps the credential in its own token store. Re-authenticate with `hermes mcp reauth corpusiq` when the 30-day refresh credential lapses.
+
+If you keep the header-auth setup instead, refresh before the task and write the new access token into `config.yaml`:
+
+```bash
+curl -s -X POST https://mcp2.corpusiq.io/oauth/token \
+  -d "grant_type=refresh_token&refresh_token=<saved_refresh_token>"
+```
+
+A wrapper script is the right place for that: refresh, patch `headers.Authorization`, then call `hermes -z "<task>"` in the same run.
 
 ## Rate Limits
 

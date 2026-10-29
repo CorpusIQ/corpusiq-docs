@@ -3,7 +3,7 @@ title: "MCP Server Design Guide for Hermes Agent"
 description: MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle. Build production-ready Model Context Protocol servers for AI agent tools.
 category: best-practices
 tags: [hermes-agent, mcp-design, mcp-server, tool-design, model-context-protocol, error-handling, testing]
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design/"
 robots: "index,follow"
 
@@ -51,6 +51,10 @@ MCP servers are how Hermes Agent connects to external systems. Each server expos
 - **Bulk operations:** Provide batch endpoints for multi-record operations
 - **Caching with care:** Document freshness guarantees
 
+### Protocol Revision
+
+Target the current revision of the specification (`2026-07-28`, per the official schema). Clients and servers announce their version during initialization and settle on one both implement, so a server that also answers an older revision keeps older clients working. Check the revision before publishing and state it in your README.
+
 ## Server Lifecycle
 
 **Development** → **Beta** (real creds, limited access, 1+ week monitoring) → **Production** (full monitoring, stable schemas) → **Maintenance** (upstream API updates, deprecation with 30+ day notice) → **Sunset**
@@ -71,7 +75,7 @@ No. If the integration is a single API call with simple parameters, a [skill ste
 Always support `limit`/`offset` or cursor-based pagination for any tool that can return more than 50 items. Return pagination metadata (total count, next cursor) so callers know when more data is available.
 
 ### How do I test an MCP server before publishing?
-Validate schema compliance with the MCP validator. Unit test each tool with valid/invalid inputs and edge cases. Integration test against a sandbox environment. Performance test typical queries. Complete a security review for credential exposure and data logging.
+Point the official inspector at it: `npx @modelcontextprotocol/inspector`. It opens a UI that lists your tools and schemas and lets you call them with hand-written arguments, which catches schema mistakes that unit tests pass over. Then unit test each tool with valid/invalid inputs and edge cases, integration test against a sandbox environment, and complete a security review for credential exposure and data logging.
 
 ## Related Pages
 
