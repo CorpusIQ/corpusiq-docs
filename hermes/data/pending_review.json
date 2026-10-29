@@ -83920,5 +83920,259 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-28T11:02:55.066246+00:00",
     "status": "pending"
+  },
+  {
+    "name": "tommyjtl/hermes-modular-provider",
+    "url": "https://github.com/tommyjtl/hermes-modular-provider",
+    "description": "Modular Cloud model-provider plugin for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-29T04:00:30Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-29T04:00:55.433859+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "engmahmoudmajed/-hermes-agent-handbook",
+    "url": "https://github.com/engmahmoudmajed/-hermes-agent-handbook",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-10-29T03:59:39Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-29T04:00:55.435089+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rhtevan/agentfs",
+    "url": "https://github.com/rhtevan/agentfs",
+    "description": "Shared agent scaffolding with skills, knowledge bundles, and cross-agent context for AI agents (Goose, Hermes, Claude Code, etc.)",
+    "stars": 2,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-10-29T03:59:15Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "Infisical/agent-vault",
+      "conorbronsdon/avoid-ai-writing",
+      "VasiHemanth/tokentelemetry",
+      "vivekchand/clawmetry",
+      "agentrq/agentrq",
+      "Orkas-AI/Orkas"
+    ],
+    "discovered_at": "2026-10-29T04:00:55.436677+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Aowen-Nowor/hermes-lark-streaming",
+    "url": "https://github.com/Aowen-Nowor/hermes-lark-streaming",
+    "description": "\u98de\u884c\u793e\u91ce\u751f\u51fa\u54c1\u7684 Hermes-agent \u98de\u4e66/Lark Channel \u63d2\u4ef6",
+    "stars": 40,
+    "forks": 13,
+    "language": "Python",
+    "topics": [
+      "cardkit",
+      "feishu",
+      "hermes",
+      "lark",
+      "plugins"
+    ],
+    "updated_at": "2026-10-29T03:57:38Z",
+    "category": "core",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-29T04:00:55.438185+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DHRlabs/session-lights",
+    "url": "https://github.com/DHRlabs/session-lights",
+    "description": "A status emoji at the front of each AI agent session's title: working, waiting on you, or done. For the Claude desktop app and Hermes.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-29T03:57:27Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "varunlakshmaiah/hermes-compose",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "MemTensor/memmy-agent",
+      "moonlight-lupin/agent-skills",
+      "stablyai/orca",
+      "rexleimo/aios",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons"
+    ],
+    "discovered_at": "2026-10-29T04:00:55.440061+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mojomast/comfyrizz-hermes",
+    "url": "https://github.com/mojomast/comfyrizz-hermes",
+    "description": "Hermes Agent portable plugin for Comfyrizz \u2014 chat-as-frontend film pipeline (MCP + skill).",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-28T22:41:41Z",
+    "category": "skills",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-29T04:01:11.236912+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "blaspat/hermes-node",
+    "url": "https://github.com/blaspat/hermes-node",
+    "description": "Standalone Go node binary: pairs with a Hermes Agent brain over WSS for remote shell + filesystem access",
+    "stars": 4,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "hermes",
+      "hermes-agent",
+      "hermes-agent-plugin"
+    ],
+    "updated_at": "2026-10-29T04:01:04Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf"
+    ],
+    "discovered_at": "2026-10-29T04:01:18.987617+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "andrewalhaj/custom-hermesagent",
+    "url": "https://github.com/andrewalhaj/custom-hermesagent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "claude",
+      "hermes-agent",
+      "llm-agent",
+      "plugins",
+      "skills"
+    ],
+    "updated_at": "2026-10-29T03:59:53Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-29T04:01:18.988479+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AgentSparko/hermes-imagination-director",
+    "url": "https://github.com/AgentSparko/hermes-imagination-director",
+    "description": "A fully autonomous, fully local video-generation pipeline: [Hermes](https://github.com/NousResearch/hermes-agent) directs [Imagination Studio](https://github.com/wassermanproductions/imagination-studio) (Wasserman Slate AI Studio) on a DGX Spark, with the LFM3 family as its own brains \u2014 no Qwen, no cloud.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-29T04:01:41Z",
+    "category": "official",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ruvnet/metaharness",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-29T04:02:52.168288+00:00",
+    "status": "pending"
   }
 ]
