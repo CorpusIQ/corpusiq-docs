@@ -1,5 +1,5 @@
 ---
-title: CRM Solid MCP - Social DM Inbox and Scheduling Across 12
+title: CRM Solid MCP - DM Inbox and Scheduling on 12 Networks
 description: "Social DM inbox and post scheduling MCP server across 12 networks from Claude, Cursor, or ChatGPT."
 category: Social Media
 stars: 3

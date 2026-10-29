@@ -95,7 +95,26 @@ def dangling(title):
     if s.endswith('...') or s[-1] in '&|,;:/-+':
         return True
     last = re.split(r'\s+', s)[-1].strip('.,:;').lower()
-    return last in DANGLING or not last
+    if last in DANGLING or not last:
+        return True
+    # 2026-10-29: a bare count after a function word is a title cut at 60 chars
+    # ("...25% Recurring Commission for 3" - the "Years" was lost). A number is
+    # not a dangling connective, so the vocabulary set could never see this.
+    toks = [t.strip('.,:;') for t in re.split(r'\s+', s) if t.strip()]
+    if len(toks) >= 2 and re.fullmatch(r'\d+', toks[-1]) and \
+            toks[-2].lower() in ('for', 'of', 'to', 'in', 'with', 'at', 'by',
+                                 'within', 'across', 'over', 'up', 'from'):
+        return True
+    # 2026-10-29: a phrase cut in front of an interrogative ("...Manual Reports
+    # - What", "...and Why") ends on a word that can legitimately close a title
+    # ("No One Is Talking About" style), so the vocabulary set missed it too.
+    # The tell is the separator or conjunction immediately before it.
+    core = re.sub(r'\s*\([^()]*\)\s*$', '', s).strip()
+    if re.search(r'[-:|]\s*(what|why|how|who|when|which|where)$', core, re.I):
+        return True
+    if re.search(r'\b(and|or|but)\s+(what|why|how|who|when|which|where)$', core, re.I):
+        return True
+    return False
 
 
 def retitle(title, h1):
