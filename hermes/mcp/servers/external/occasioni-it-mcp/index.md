@@ -1,6 +1,6 @@
 ---
 title: "occasioni.it MCP - Italian Business Grants and Incentives"
-description: "Search Italian national, regional and chamber-of-commerce grants for a business, match one profile to the open calls and see which deadlines are near."
+description: "Search Italian national, regional and chamber-of-commerce grants for a business, match a profile to open calls and track each closing date."
 category: Finance
 stars: ★★ (200 keyless, full tools/list verified)
 added: 2026-10-28
