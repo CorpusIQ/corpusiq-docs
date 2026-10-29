@@ -84,6 +84,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - the email half of the same connection
 - [Connect Google Calendar to ChatGPT](connect-google-calendar-to-chatgpt.md) - the meeting behind the document
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other knowledge base
+- [Connect Google Drive to Claude](connect-google-drive-to-claude.md) - the same document answers for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [AI for Document Search](ai-for-document-search.md) - the document use case in depth
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup

@@ -73,7 +73,7 @@ Support is per client and moves with client releases. Check the
 [client matrix](https://modelcontextprotocol.io/extensions/client-matrix)
 before relying on rendering in any host. For the full mechanism, the
 security model, and the checks worth running before trusting an
-"interactive" claim, see [MCP Apps in the product docs](/docs/mcp-apps/).
+"interactive" claim, see [MCP Apps in the product docs](/docs/mcp-apps).
 
 ## Security model
 

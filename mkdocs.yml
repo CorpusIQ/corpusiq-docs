@@ -172,6 +172,10 @@ nav:
   - Connect Salesforce to Claude: connect-salesforce-to-claude.md
   - Connect Google Analytics to Claude: connect-google-analytics-to-claude.md
   - Connect Gmail to Claude: connect-gmail-to-claude.md
+  - Connect Google Sheets to Claude: connect-google-sheets-to-claude.md
+  - Connect Google Drive to Claude: connect-google-drive-to-claude.md
+  - Connect Google Calendar to Claude: connect-google-calendar-to-claude.md
+  - Connect Mailchimp to Claude: connect-mailchimp-to-claude.md
   - Connect Stripe to Claude: connect-stripe-to-claude.md
   - Connect NetSuite to Claude: connect-netsuite-to-claude.md
   - Connect Slack to Claude: connect-slack-to-claude.md

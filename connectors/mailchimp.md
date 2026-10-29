@@ -45,6 +45,7 @@ Read-only. CorpusIQ never sends mail, edits campaigns, or changes your lists.
 ## See also
 
 - [Connect Mailchimp to ChatGPT](../connect-mailchimp-to-chatgpt.md) - the ChatGPT setup and the campaign questions that connect to revenue.
+- [Connect Mailchimp to Claude](../connect-mailchimp-to-claude.md) - the same campaign questions, set up in Claude Desktop.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

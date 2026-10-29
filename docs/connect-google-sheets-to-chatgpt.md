@@ -91,6 +91,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 - [Google Workspace connectors](connectors/google_workspace.md) -- Drive, Gmail, Calendar and Sheets
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) -- traffic beside the plan
+- [Connect Google Sheets to Claude](connect-google-sheets-to-claude.md) -- the same sheet data for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) -- the full list
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) -- the general setup
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) -- why the access model differs

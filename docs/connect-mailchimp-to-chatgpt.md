@@ -81,6 +81,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md) - the other email platform, for stores
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - lifecycle and pipeline beside the send
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the revenue side of the comparison
+- [Connect Mailchimp to Claude](connect-mailchimp-to-claude.md) - the same campaign questions for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [AI for Marketing Analytics](ai-for-marketing-analytics.md) - the analysis pattern
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
