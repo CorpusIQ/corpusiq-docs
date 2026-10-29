@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-10-29"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -822,6 +822,21 @@ Linked from this index so the pages are reachable by crawl.
 - [Indexion Skills - Source Code Exploration for Agents Setup](/hermes/skills/catalog/indexion-skills-setup)
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
+
+### New - October 29, 2026 Morning Sweep (10 publisher guides)
+
+Ten publisher clusters documented from the queue the previous fire left behind, plus one find the trending board understated 66x, for **109,244 combined installs across 14 indexed listings**:
+
+- [Transitions.dev Skills - CSS Motion Suite Setup](/hermes/skills/catalog/transitions-dev-setup) - 34,026 combined installs across 5 listings; 5,888 stars; crafted CSS transitions, a polish skill and a generation reveal, from a repository that is the product website as well as the skills; non-OSI licence
+- [NotebookLM - Unofficial Gemini Notebook CLI and Skill Setup](/hermes/skills/catalog/notebooklm-py-setup) - 9,973 installs; 19,968 stars; MIT; an unofficial Python API and CLI for Google Gemini Notebook wrapped in one agent operating contract
+- [PDF Converter (MinerU) - PDF to Markdown Skill Setup](/hermes/skills/catalog/pdf-converter-mineru-setup) - 9,620 installs; 55 stars; no licence file; a thin instruction file over the MinerU Open API CLI, and the weakest security profile in the batch with two auditor FAILs
+- [Unlazy - Completion Gates and Depth Tree Setup](/hermes/skills/catalog/unlazy-setup) - 9,609 installs; 4,168 stars; MIT; a gate ledger with runnable CHECK and EXPECT pairs, approval bound to the exact command, and the Depth Tree decomposition
+- [Groundcover CLI - Observability API Setup Guide](/hermes/skills/catalog/groundcover-cli-setup) - 9,602 installs; 1 star; MIT; a Go CLI plus a 512-line skill for Groundcover dashboards, monitors, logs, traces and Kubernetes queries, with a Gen Agent Trust Hub FAIL the guide leads with
+- [incident.io CLI - Incident and On-Call API Setup](/hermes/skills/catalog/incidentio-cli-setup) - 9,298 installs; 0 stars; no licence file; 324 OpenAPI-generated commands and the batch's only Snyk FAIL, on credential handling
+- [Elestio Skill - Managed DevOps Deployment Setup](/hermes/skills/catalog/elestio-skill-setup) - 7,467 installs; 1 star; no licence file; the vendor's own managed hosting skill with a 24-row CLI-to-MCP map and a Trust Hub FAIL on an infrastructure-granting file
+- [Chrome DevTools AXI - Agent Browser CLI Setup](/hermes/skills/catalog/chrome-devtools-axi-setup) - 7,072 installs; 445 stars; MIT; a snapshot-first CLI over the Chrome DevTools Protocol with stale-reference checks and performance traces
+- [Playwright Skill - Code-First Browser Automation Setup](/hermes/skills/catalog/playwright-skill-setup) - 7,056 installs; 3,250 stars; MIT; the agent writes and runs real Playwright programs, with dev-server detection and CDP attach, from a different publisher than the TestDino guide
+- [Autopilot Skill - End-to-End Build Orchestration Setup](/hermes/skills/catalog/nick-vels-skills-setup) - 5,521 installs; 564 stars; MIT; a dictated idea through eight build stages to blind acceptance, and the only three-pass verdict set in the batch
 
 ### New - October 28, 2026 Evening Sweep (12 publisher guides)
 
