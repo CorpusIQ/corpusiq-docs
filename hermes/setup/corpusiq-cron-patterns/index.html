@@ -107,8 +107,8 @@
     "description": "Patterns for running CorpusIQ cron jobs with Hermes Agent - daily KPI reports, AR aging alerts, anomaly detection, and multi-client agency reporting.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-cron-patterns",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11120,11 +11120,11 @@
 <p>CorpusIQ connects business data to Hermes Agent. Combine with cron jobs for autonomous monitoring.</p>
 <h2 id="pattern-daily-kpi-report">Pattern: Daily KPI Report<a class="headerlink" href="#pattern-daily-kpi-report" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 8 * * * (8 AM daily)</span>
-hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;Query Stripe MRR, QuickBooks cash position, HubSpot pipeline. Email summary to ceo@company.com&quot;</span>
+hermes<span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;Query Stripe MRR, QuickBooks cash position, HubSpot pipeline. Email summary to ceo@company.com&quot;</span>
 </code></pre></div>
 <h2 id="pattern-ar-aging-alert">Pattern: AR Aging Alert<a class="headerlink" href="#pattern-ar-aging-alert" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 9 * * MON (Monday 9 AM)</span>
-python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;</span>
+hermes<span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">  Query QuickBooks for all overdue invoices. </span>
 <span class="s2">  Sort by amount and days overdue. </span>
 <span class="s2">  Email the top 10 to finance@company.com with subject &#39;Weekly AR Alert&#39;</span>
@@ -11132,7 +11132,7 @@ python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><sp
 </code></pre></div>
 <h2 id="pattern-anomaly-detection">Pattern: Anomaly Detection<a class="headerlink" href="#pattern-anomaly-detection" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 */6 * * * (every 6 hours)</span>
-python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;</span>
+hermes<span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">  Check Stripe for:</span>
 <span class="s2">  - Failed payments in last 6 hours</span>
 <span class="s2">  - Unusual churn pattern (&gt;2 standard deviations from 30-day average)</span>
@@ -11142,7 +11142,7 @@ python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><sp
 </code></pre></div>
 <h2 id="pattern-multi-client-agency-report">Pattern: Multi-Client Agency Report<a class="headerlink" href="#pattern-multi-client-agency-report" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Crontab: 0 7 * * * (7 AM daily)</span>
-python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;</span>
+hermes<span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span>
 <span class="s2">  For each client connected:</span>
 <span class="s2">  - Query their ad platform ROAS</span>
 <span class="s2">  - Check their email campaign performance  </span>
@@ -11151,11 +11151,18 @@ python3<span class="w"> </span>token_refresh_guard.py<span class="w"> </span><sp
 <span class="s2">&quot;</span>
 </code></pre></div>
 <h2 id="token-refresh-guard">Token Refresh Guard<a class="headerlink" href="#token-refresh-guard" title="Anchor link to this section">&para;</a></h2>
-<p>Always prefix CorpusIQ cron tasks with the token guard. The JWT expires hourly.</p>
-<p>Download the guard script:
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-O<span class="w"> </span>https://raw.githubusercontent.com/CorpusIQ/corpusiq-docs/main/hermes/scripts/token_refresh_guard.py
-chmod<span class="w"> </span>+x<span class="w"> </span>token_refresh_guard.py
-</code></pre></div></p>
+<p>A CorpusIQ JWT access token expires after 60 minutes, so any cron that runs less often than that needs a fresh credential before it starts.</p>
+<p>The simplest setup is to let Hermes own the token. Register the server with OAuth instead of pasting a JWT into <code>config.yaml</code>:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span>--auth<span class="w"> </span>oauth
+hermes<span class="w"> </span>mcp<span class="w"> </span>login<span class="w"> </span>corpusiq<span class="w">          </span><span class="c1"># add --flow device for a headless host</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>corpusiq
+</code></pre></div>
+<p>The server publishes OAuth 2.0 authorization-server and protected-resource metadata, so Hermes runs the flow once and keeps the credential in its own token store. Re-authenticate with <code>hermes mcp reauth corpusiq</code> when the 30-day refresh credential lapses.</p>
+<p>If you keep the header-auth setup instead, refresh before the task and write the new access token into <code>config.yaml</code>:</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/oauth/token<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;grant_type=refresh_token&amp;refresh_token=&lt;saved_refresh_token&gt;&quot;</span>
+</code></pre></div>
+<p>A wrapper script is the right place for that: refresh, patch <code>headers.Authorization</code>, then call <code>hermes -z "&lt;task&gt;"</code> in the same run.</p>
 <h2 id="rate-limits">Rate Limits<a class="headerlink" href="#rate-limits" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Stripe: 100 req/sec (read-only, no practical limit)</li>

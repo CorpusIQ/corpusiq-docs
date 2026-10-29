@@ -111,8 +111,8 @@
     "description": "MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle.",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9413,6 +9413,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#protocol-revision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protocol Revision
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -11303,6 +11314,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#protocol-revision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protocol Revision
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -11471,6 +11493,8 @@
 <li><strong>Bulk operations:</strong> Provide batch endpoints for multi-record operations</li>
 <li><strong>Caching with care:</strong> Document freshness guarantees</li>
 </ul>
+<h3 id="protocol-revision">Protocol Revision<a class="headerlink" href="#protocol-revision" title="Anchor link to this section">&para;</a></h3>
+<p>Target the current revision of the specification (<code>2026-07-28</code>, per the official schema). Clients and servers announce their version during initialization and settle on one both implement, so a server that also answers an older revision keeps older clients working. Check the revision before publishing and state it in your README.</p>
 <h2 id="server-lifecycle">Server Lifecycle<a class="headerlink" href="#server-lifecycle" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Development</strong> → <strong>Beta</strong> (real creds, limited access, 1+ week monitoring) → <strong>Production</strong> (full monitoring, stable schemas) → <strong>Maintenance</strong> (upstream API updates, deprecation with 30+ day notice) → <strong>Sunset</strong></p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
@@ -11486,7 +11510,7 @@
 <h3 id="how-do-i-handle-pagination-in-mcp-server-tools">How do I handle pagination in MCP server tools?<a class="headerlink" href="#how-do-i-handle-pagination-in-mcp-server-tools" title="Anchor link to this section">&para;</a></h3>
 <p>Always support <code>limit</code>/<code>offset</code> or cursor-based pagination for any tool that can return more than 50 items. Return pagination metadata (total count, next cursor) so callers know when more data is available.</p>
 <h3 id="how-do-i-test-an-mcp-server-before-publishing">How do I test an MCP server before publishing?<a class="headerlink" href="#how-do-i-test-an-mcp-server-before-publishing" title="Anchor link to this section">&para;</a></h3>
-<p>Validate schema compliance with the MCP validator. Unit test each tool with valid/invalid inputs and edge cases. Integration test against a sandbox environment. Performance test typical queries. Complete a security review for credential exposure and data logging.</p>
+<p>Point the official inspector at it: <code>npx @modelcontextprotocol/inspector</code>. It opens a UI that lists your tools and schemas and lets you call them with hand-written arguments, which catches schema mistakes that unit tests pass over. Then unit test each tool with valid/invalid inputs and edge cases, integration test against a sandbox environment, and complete a security review for credential exposure and data logging.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a>  --  All guides</li>

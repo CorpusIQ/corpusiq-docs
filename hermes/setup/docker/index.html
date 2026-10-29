@@ -111,8 +111,8 @@
     "description": "Deploy Hermes Agent as a Docker container for reproducible AI automation. Docker Compose setup with persistent volumes, MCP server integration, cron",
     "url": "https://www.corpusiq.io/docs/hermes/setup/docker",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11446,7 +11446,30 @@
 <h1 id="docker-hermes-agent-setup-reproducible-container-deployment">Docker Hermes Agent Setup  --  Reproducible Container Deployment<a class="headerlink" href="#docker-hermes-agent-setup-reproducible-container-deployment" title="Anchor link to this section">&para;</a></h1>
 <p>Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell  --  just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Docker deployment is the most portable way to run Hermes Agent. The official <code>nousresearch/hermes-agent:latest</code> image ships with all dependencies pre-installed. Mount your config as a volume for persistence, set API keys as environment variables, and you're running in under 2 minutes.</p>
+<p>Docker deployment is the most portable way to run Hermes Agent. The official <code>nousresearch/hermes-agent</code> image ships with all dependencies pre-installed (Python 3.14, Node.js, Chromium). Mount your data directory as a volume for persistence, set API keys as environment variables, and you're running in under 2 minutes.</p>
+<p>The image is <strong>stateless</strong>: every piece of mutable state lives in the single data directory mounted from the host at <code>/opt/data</code>. The installed application tree at <code>/opt/hermes</code> is root-owned and read-only to the runtime user, so a plain image pull upgrades the agent without touching your config.</p>
+<table>
+<thead>
+<tr>
+<th>Image tag</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>latest</code> / <code>stable</code></td>
+<td>Accepted by the stable release gate</td>
+</tr>
+<tr>
+<td><code>main</code></td>
+<td>Development image built from the main branch</td>
+</tr>
+<tr>
+<td><code>X.Y.Z</code></td>
+<td>Versioned stable image; pin a digest for exact deployments</td>
+</tr>
+</tbody>
+</table>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -11458,23 +11481,23 @@
 <tbody>
 <tr>
 <td><strong>Hermes binary</strong></td>
-<td>Pre-installed in container image</td>
+<td>Pre-installed at <code>/opt/hermes</code> in the container image</td>
 </tr>
 <tr>
 <td><strong>Configuration</strong></td>
-<td>Persistent named volume (<code>hermes_data</code>)</td>
+<td>Host directory mounted at <code>/opt/data</code> (<code>~/.hermes</code> by default)</td>
 </tr>
 <tr>
 <td><strong>API keys</strong></td>
-<td>Environment variables in <code>.env</code> file</td>
+<td><code>/opt/data/.env</code> inside the container, or environment variables</td>
 </tr>
 <tr>
 <td><strong>Skills</strong></td>
-<td>Mount local <code>./skills</code> directory (read-only)</td>
+<td>Under <code>/opt/data/skills</code> in the mounted volume</td>
 </tr>
 <tr>
 <td><strong>Crons</strong></td>
-<td>Stored in volume, survive restarts</td>
+<td>Stored in the volume, survive restarts</td>
 </tr>
 <tr>
 <td><strong>MCP servers</strong></td>
@@ -11483,67 +11506,84 @@
 </tbody>
 </table>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span>--name<span class="w"> </span>hermes-agent<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-v<span class="w"> </span>~/.hermes:/home/hermes/.hermes<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="nv">OPENROUTER_API_KEY</span><span class="o">=</span>***<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--restart<span class="w"> </span>unless-stopped<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>nousresearch/hermes-agent:latest
+<p>Run the setup wizard once to write your keys to <code>~/.hermes/.env</code>:</p>
+<div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes
+docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>--rm<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-v<span class="w"> </span>~/.hermes:/opt/data<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>nousresearch/hermes-agent<span class="w"> </span>setup
 </code></pre></div>
+<p>Then start the container as a persistent gateway:</p>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span>--name<span class="w"> </span>hermes<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--restart<span class="w"> </span>unless-stopped<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-v<span class="w"> </span>~/.hermes:/opt/data<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-p<span class="w"> </span><span class="m">8642</span>:8642<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>nousresearch/hermes-agent<span class="w"> </span>gateway<span class="w"> </span>run
+</code></pre></div>
+<p>Port 8642 exposes the gateway's OpenAI-compatible API server and health endpoint. It is optional if you only use chat platforms, and required if you want the dashboard or external tools to reach the gateway. Inside the official image the gateway is supervised by s6-overlay, so a crash restarts it in seconds without losing the container.</p>
 <h2 id="full-docker-composeyml">Full docker-compose.yml<a class="headerlink" href="#full-docker-composeyml" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3.8&quot;</span>
-
-<span class="nt">services</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="nt">services</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">hermes</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">nousresearch/hermes-agent:latest</span>
-<span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">hermes-agent</span>
+<span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">hermes</span>
 <span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unless-stopped</span>
 
+<span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;gateway&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;run&quot;</span><span class="p p-Indicator">]</span>
+
 <span class="w">    </span><span class="nt">volumes</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">hermes_data:/home/hermes/.hermes</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./skills:/home/hermes/skills:ro</span>
+<span class="w">      </span><span class="c1"># All mutable state lives here: config, .env, skills, sessions, crons.</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">~/.hermes:/opt/data</span>
 
 <span class="w">    </span><span class="nt">environment</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OPENROUTER_API_KEY=${OPENROUTER_API_KEY}</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OPENAI_API_KEY=${OPENAI_API_KEY:-}</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HERMES_PROFILE=${HERMES_PROFILE:-docker}</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HERMES_DEFAULT_MODEL=${HERMES_DEFAULT_MODEL:-openrouter/anthropic/claude-sonnet-4}</span>
+<span class="w">      </span><span class="c1"># Keep files created in the container owned by your host user.</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HERMES_UID=${HERMES_UID:-10000}</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HERMES_GID=${HERMES_GID:-10000}</span>
 <span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TZ=${TZ:-UTC}</span>
 
 <span class="w">    </span><span class="nt">ports</span><span class="p">:</span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;127.0.0.1:8080:8080&quot;</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;127.0.0.1:8642:8642&quot;</span><span class="w">   </span><span class="c1"># OpenAI-compatible API server (optional)</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;127.0.0.1:9119:9119&quot;</span><span class="w">   </span><span class="c1"># dashboard (only with HERMES_DASHBOARD=1)</span>
 
 <span class="w">    </span><span class="nt">healthcheck</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">test</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;CMD&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;hermes&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;doctor&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;--check&quot;</span><span class="p p-Indicator">]</span>
+<span class="w">      </span><span class="c1"># Liveness only. `hermes doctor` exits non-zero on advisories such as</span>
+<span class="w">      </span><span class="c1"># npm vulnerability notices, so it would mark a working container</span>
+<span class="w">      </span><span class="c1"># unhealthy. Use it interactively, not as a healthcheck.</span>
+<span class="w">      </span><span class="nt">test</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;CMD&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;hermes&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;--version&quot;</span><span class="p p-Indicator">]</span>
 <span class="w">      </span><span class="nt">interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">60s</span>
 <span class="w">      </span><span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10s</span>
 <span class="w">      </span><span class="nt">retries</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
 <span class="w">      </span><span class="nt">start_period</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">30s</span>
-
-<span class="nt">volumes</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">hermes_data</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">driver</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">local</span>
 </code></pre></div>
+<p>The top-level <code>version:</code> key is obsolete in Compose v2 and is omitted here; Docker Compose warns about it and ignores the value.</p>
 <h2 id="launch">Launch<a class="headerlink" href="#launch" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>cp<span class="w"> </span>providers.env.example<span class="w"> </span>.env<span class="w">  </span><span class="c1"># Edit with your API keys</span>
+<div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes
+<span class="nb">export</span><span class="w"> </span><span class="nv">HERMES_UID</span><span class="o">=</span><span class="k">$(</span>id<span class="w"> </span>-u<span class="k">)</span><span class="w"> </span><span class="nv">HERMES_GID</span><span class="o">=</span><span class="k">$(</span>id<span class="w"> </span>-g<span class="k">)</span>
 docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> </span>-d
 docker<span class="w"> </span>compose<span class="w"> </span>logs<span class="w"> </span>-f<span class="w"> </span>hermes
 docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>doctor
 </code></pre></div>
+<p>The model is a config value, not an environment variable. Set it inside the container:</p>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>model<span class="w">          </span><span class="c1"># interactive picker</span>
+docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span><span class="s2">&quot;anthropic/claude-sonnet-4.6&quot;</span>
+</code></pre></div>
 <h2 id="adding-mcp-servers">Adding MCP Servers<a class="headerlink" href="#adding-mcp-servers" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--<span class="w"> </span>url<span class="w"> </span>https://mcp2.corpusiq.io/mcp
-docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer ***&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Remote HTTP/SSE server</span>
+docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp
+
+<span class="c1"># Remote server that needs a bearer token (prompts for the key, saves it to /opt/data/.env)</span>
+docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--url<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span>--auth<span class="w"> </span>header
+
+<span class="c1"># Stdio server: --args must be the last option</span>
+docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>github<span class="w"> </span>--command<span class="w"> </span>npx<span class="w"> </span>--args<span class="w"> </span>@modelcontextprotocol/server-github
 </code></pre></div>
-<p>See the <a href="https://www.corpusiq.io/docs/hermes/mcp">MCP Integration Guide</a> for all available servers.</p>
+<p>Verify with <code>docker compose exec hermes hermes mcp test corpusiq</code>. See the <a href="https://www.corpusiq.io/docs/hermes/mcp">MCP Integration Guide</a> for all available servers.</p>
 <h2 id="crons-and-persistence">Crons and Persistence<a class="headerlink" href="#crons-and-persistence" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check inbox. Summarize unread.&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span>
+<p>The schedule and the prompt are positional arguments; <code>--name</code> and <code>--deliver</code> are flags:</p>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Check inbox. Summarize unread.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span>email-watch<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="nb">local</span>
 </code></pre></div>
-<p>Crons survive container restarts and image updates because they're stored in the <code>hermes_data</code> volume. Follow <a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">cron design best practices</a> for production-grade scheduling.</p>
+<p>Crons survive container restarts and image updates because they're stored under <code>/opt/data</code> in the mounted volume. Follow <a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">cron design best practices</a> for production-grade scheduling.</p>
 <h2 id="production-checklist">Production Checklist<a class="headerlink" href="#production-checklist" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Resource limits</span>
 <span class="c1"># Add to docker-compose.yml:</span>
@@ -11596,7 +11636,7 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 <li><strong>Reproducible</strong>: Identical behavior everywhere</li>
 <li><strong>No dependency conflicts</strong>: Everything bundled in container</li>
 <li><strong>Portable</strong>: Same Compose file works on laptop, VPS, or CI/CD</li>
-<li><strong>Persistent</strong>: Named volumes survive updates and restarts</li>
+<li><strong>Persistent</strong>: The mounted data directory survives updates and restarts</li>
 <li><strong>Production-ready</strong>: Health checks, restart policies, log rotation built in</li>
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
@@ -11605,7 +11645,7 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 <h3 id="can-i-run-gpu-accelerated-models-in-docker">Can I run GPU-accelerated models in Docker?<a class="headerlink" href="#can-i-run-gpu-accelerated-models-in-docker" title="Anchor link to this section">&para;</a></h3>
 <p>Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass <code>--gpus all</code> to <code>docker run</code> or add <code>deploy.resources.reservations.devices</code> in Compose.</p>
 <h3 id="how-do-i-add-custom-skills-to-docker-hermes">How do I add custom skills to Docker Hermes?<a class="headerlink" href="#how-do-i-add-custom-skills-to-docker-hermes" title="Anchor link to this section">&para;</a></h3>
-<p>Mount your skills directory: <code>- ./skills:/home/hermes/skills:ro</code>. New skills are immediately available. See the <a href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">custom skills guide</a>.</p>
+<p>Put them in the mounted data directory: <code>~/.hermes/skills/</code> on the host is <code>/opt/data/skills</code> in the container. No extra mount is needed, and new skills are picked up on the next session. See the <a href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">custom skills guide</a>.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  All platform options</li>

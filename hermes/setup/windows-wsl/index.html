@@ -111,8 +111,8 @@
     "description": "Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2. GPU passthrough for NVIDIA CUDA, native Ollama models, systemd persistence, and browser",
     "url": "https://www.corpusiq.io/docs/hermes/setup/windows-wsl",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11603,17 +11603,24 @@
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>nvidia-utils-550<span class="w">  </span><span class="c1"># If not found</span>
 </code></pre></div>
 <h3 id="step-4-install-dependencies">Step 4: Install Dependencies<a class="headerlink" href="#step-4-install-dependencies" title="Anchor link to this section">&para;</a></h3>
+<p>The Hermes installer provisions its own pinned Python 3.14, Node.js, ripgrep and FFmpeg, so you only need the base utilities:</p>
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
-sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>python3<span class="w"> </span>python3-pip<span class="w"> </span>python3-venv<span class="w"> </span>nodejs<span class="w"> </span>npm<span class="w"> </span>git<span class="w"> </span>curl<span class="w"> </span>ffmpeg
-curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.com/setup_20.x<span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>-E<span class="w"> </span>bash<span class="w"> </span>-
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>git<span class="w"> </span>curl<span class="w"> </span>tar<span class="w"> </span>ffmpeg
+</code></pre></div>
+<p>Install Node.js separately only if your own tooling needs a system-wide copy:</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.com/setup_20.x<span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>-E<span class="w"> </span>bash<span class="w"> </span>-
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>nodejs
 </code></pre></div>
 <h3 id="step-5-install-hermes-agent">Step 5: Install Hermes Agent<a class="headerlink" href="#step-5-install-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>hermes-agent
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.nousresearch.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
+<span class="nb">source</span><span class="w"> </span>~/.bashrc
 hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="w"> </span>wsl-agent
 hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w"> </span>wsl-agent
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span>***
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
+hermes<span class="w"> </span>setup<span class="w">                              </span><span class="c1"># provider, API keys, model</span>
+</code></pre></div>
+<p>To set values non-interactively:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OPENROUTER_API_KEY<span class="w"> </span>sk-or-...<span class="w">   </span><span class="c1"># written to ~/.hermes/.env</span>
+hermes<span class="w"> </span>model<span class="w">                                     </span><span class="c1"># interactive provider + model picker</span>
 </code></pre></div>
 <h3 id="step-6-local-models-with-ollama">Step 6: Local Models with Ollama<a class="headerlink" href="#step-6-local-models-with-ollama" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://ollama.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
@@ -11689,7 +11696,7 @@ playwright<span class="w"> </span>install-deps<span class="w"> </span>chromium
 <h3 id="does-ollama-gpu-acceleration-work-in-wsl2">Does Ollama GPU acceleration work in WSL2?<a class="headerlink" href="#does-ollama-gpu-acceleration-work-in-wsl2" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference  --  same speed as native Linux.</p>
 <h3 id="why-not-just-use-windows-native-hermes-agent">Why not just use Windows native Hermes Agent?<a class="headerlink" href="#why-not-just-use-windows-native-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<p>WSL2 provides a real Linux environment with systemd, ext4 filesystem, and native package management. Many MCP servers and developer tools expect Linux. WSL2 delivers this without dual-booting.</p>
+<p>Native Windows is supported: grab the MSIX desktop package, or run <code>iex (irm https://hermes-agent.nousresearch.com/install.ps1)</code> in PowerShell for a command-line install. WSL2 is still the better fit for 24/7 server-style operation because it gives you systemd, an ext4 filesystem, and native Linux package management, and many MCP servers and developer tools assume Linux. Pick native Windows for the desktop app, WSL2 for an always-on agent host.</p>
 <h3 id="how-do-i-prevent-wsl2-from-shutting-down">How do I prevent WSL2 from shutting down?<a class="headerlink" href="#how-do-i-prevent-wsl2-from-shutting-down" title="Anchor link to this section">&para;</a></h3>
 <p>Create a Windows Task Scheduler task that runs <code>wsl.exe -d Ubuntu-24.04 -e sleep infinity</code> at startup, or ensure the Hermes systemd service has <code>Restart=always</code>.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>

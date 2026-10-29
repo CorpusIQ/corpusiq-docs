@@ -107,8 +107,8 @@
     "description": "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11178,12 +11178,12 @@
 <p>CorpusIQ uses OAuth 2.0 Device Authorization Grant for CLI tools and agent loops. The flow:</p>
 <ol>
 <li>Generate a device code: <code>POST https://mcp2.corpusiq.io/oauth/device/authorize</code></li>
-<li>Open the verification URL in a browser and approve</li>
+<li>Open the returned <code>verification_uri</code> (<code>https://mcp2.corpusiq.io/oauth/device/verify</code>) in a browser, enter the <code>user_code</code>, and approve</li>
 <li>Exchange the device code for tokens: <code>POST https://mcp2.corpusiq.io/oauth/token</code> with form data containing ONLY <code>grant_type=urn:ietf:params:oauth:grant-type:device_code</code> and <code>device_code=&lt;code&gt;</code>. Do NOT include <code>client_id</code>.</li>
 <li>Save both <code>access_token</code> (60-min expiry) and <code>refresh_token</code> (30-day expiry) to <code>mcp_tokens.json</code></li>
 <li>Set the JWT in config: <code>headers.Authorization: Bearer &lt;access_token&gt;</code></li>
 </ol>
-<p>For the Python device login script, see <code>device_login.py</code> in the corpusiq-docs repository.</p>
+<p>For the Python device login script, see the account's own token store (<code>mcp_tokens.json</code>) and the device flow above.</p>
 <p>When the access token expires, refresh silently:
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/oauth/token<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;grant_type=refresh_token&amp;refresh_token=&lt;saved_refresh_token&gt;&quot;</span>
@@ -11224,10 +11224,17 @@
 <p>External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated; provider scopes vary by connector. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.</p>
 <h2 id="token-refresh-for-crons">Token refresh for crons<a class="headerlink" href="#token-refresh-for-crons" title="Anchor link to this section">&para;</a></h2>
 <p>The refresh token (30-day expiry) is now available in production. Save both <code>access_token</code> and <code>refresh_token</code> from the device OAuth response. When the access token expires, POST <code>grant_type=refresh_token</code> to <code>/oauth/token</code> for a new one. Never overwrite the refresh token when updating the access token.</p>
-<p>For cron jobs, run the refresh guard before every execution:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>refresh_mcp_jwt.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;your task&quot;</span>
+<p>For cron jobs, wrap the task so the token is refreshed before the run, then call the one-shot mode:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. refresh (returns a new access_token; keep the refresh_token unchanged)</span>
+curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/oauth/token<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;grant_type=refresh_token&amp;refresh_token=&lt;saved_refresh_token&gt;&quot;</span>
+
+<span class="c1"># 2. write the returned access_token into headers.Authorization in config.yaml</span>
+
+<span class="c1"># 3. run the task</span>
+hermes<span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;your task&quot;</span>
 </code></pre></div>
-<p>The guard script checks token validity, refreshes using the saved refresh token if expired, and updates <code>config.yaml</code> automatically.</p>
+<p>Your wrapper script owns steps 1 and 2; the agent only ever sees a valid JWT.</p>
 <hr />
 <p><em>Complete docs: <a href="https://github.com/CorpusIQ/corpusiq-docs">github.com/CorpusIQ/corpusiq-docs</a></em></p>
 

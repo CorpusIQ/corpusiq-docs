@@ -107,8 +107,8 @@
     "description": "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.",
     "url": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11136,10 +11136,12 @@
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/oauth/token<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;grant_type=refresh_token&amp;refresh_token=&lt;saved_value&gt;&quot;</span>
 </code></pre></div>
-<p>For crons, run the refresh guard:
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>refresh_mcp_jwt.py<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>hermes<span class="w"> </span>run<span class="w"> </span><span class="s2">&quot;your cron task&quot;</span>
-</code></pre></div></p>
-<p>The guard script refreshes using the saved refresh token and updates <code>config.yaml</code> automatically.</p>
+<p>For crons, refresh first, write the new access token into <code>config.yaml</code>, then run the one-shot:</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/oauth/token<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s2">&quot;grant_type=refresh_token&amp;refresh_token=&lt;saved_value&gt;&quot;</span>
+hermes<span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;your cron task&quot;</span>
+</code></pre></div>
+<p>The wrapper around the cron owns the refresh and the <code>config.yaml</code> write, so the agent always starts with a valid JWT.</p>
 <p>If you are still on an older JWT obtained before July 28, 2026, do one device OAuth reconnect to receive the refresh token.</p>
 <h2 id="tool-calls-return-empty-or-tool-execution-failed">Tool calls return empty or "Tool execution failed"<a class="headerlink" href="#tool-calls-return-empty-or-tool-execution-failed" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Symptom:</strong> CorpusIQ tools return "Retrieved 0 results" or "Tool execution failed" even when data exists on other clients (e.g., Claude.ai).</p>

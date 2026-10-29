@@ -111,8 +111,8 @@
     "description": "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11562,14 +11562,16 @@
 </table>
 <h2 id="step-by-step-installation">Step-by-Step Installation<a class="headerlink" href="#step-by-step-installation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="step-1-macos-prerequisites">Step 1: macOS Prerequisites<a class="headerlink" href="#step-1-macos-prerequisites" title="Anchor link to this section">&para;</a></h3>
+<p>Tier-1 support on macOS is Apple Silicon. Intel Macs are best-effort only: <code>pip install</code> is not a supported install method for any platform, and Intel desktop bundles ship only for releases cut with <code>--with macos-intel</code>. The installer brings its own pinned Python 3.14, Node.js, ripgrep and FFmpeg, so Homebrew is only needed for extras.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install Homebrew if you don&#39;t have it</span>
 /bin/bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&quot;</span>
 
-<span class="c1"># Dependencies</span>
-brew<span class="w"> </span>install<span class="w"> </span>python@3.12<span class="w"> </span>ffmpeg<span class="w"> </span>node<span class="w"> </span>git
+<span class="c1"># Optional extras</span>
+brew<span class="w"> </span>install<span class="w"> </span>ffmpeg<span class="w"> </span>git
 </code></pre></div>
 <h3 id="step-2-install-hermes-agent">Step 2: Install Hermes Agent<a class="headerlink" href="#step-2-install-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>hermes-agent
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.nousresearch.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
+<span class="nb">source</span><span class="w"> </span>~/.zshrc
 hermes<span class="w"> </span>--version
 </code></pre></div>
 <h3 id="step-3-model-setup">Step 3: Model Setup<a class="headerlink" href="#step-3-model-setup" title="Anchor link to this section">&para;</a></h3>
@@ -11584,13 +11586,14 @@ ollama<span class="w"> </span>pull<span class="w"> </span>nomic-embed-text<span 
 ollama<span class="w"> </span>pull<span class="w"> </span>qwen2.5:14b<span class="w">        </span><span class="c1"># Heavier tasks (if 24GB+ RAM)</span>
 
 <span class="c1"># Configure Hermes to use Ollama</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>ollama/llama3.2
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.provider<span class="w"> </span>ollama
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>llama3.2
 </code></pre></div>
 <p><strong>Cloud Models (OpenRouter  --  Pay-per-use):</strong></p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span><span class="s2">&quot;openrouter/qwen/qwen3-235b-a22b:free&quot;</span>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OPENROUTER_API_KEY<span class="w"> </span><span class="s2">&quot;your-key&quot;</span><span class="w">   </span><span class="c1"># written to ~/.hermes/.env</span>
+hermes<span class="w"> </span>model<span class="w">                                      </span><span class="c1"># pick provider + default model</span>
 </code></pre></div>
+<p>Model ids are provider-relative: <code>llama3.2</code> under <code>ollama</code>, <code>anthropic/claude-sonnet-4.6</code> under <code>openrouter</code>. Do not prefix the id with the provider name. For a fallback chain, edit <code>fallback_providers</code> in <code>config.yaml</code> (a YAML list that <code>hermes config set</code> cannot build).</p>
 <p><strong>Strategy:</strong> Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">model selection guide</a> for detailed tiering strategies.</p>
 <h3 id="step-4-browser-automation">Step 4: Browser Automation<a class="headerlink" href="#step-4-browser-automation" title="Anchor link to this section">&para;</a></h3>
 <p>Playwright runs directly on the Mac. No worker node needed.</p>
