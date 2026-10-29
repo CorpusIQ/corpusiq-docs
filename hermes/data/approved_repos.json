@@ -7115,5 +7115,39 @@
     "discovered_at": "2026-10-28T05:01:22.418485+00:00",
     "status": "approved",
     "approved_at": "2026-10-28T05:03:26.599431+00:00"
+  },
+  {
+    "name": "rusty4444/hermes-android",
+    "url": "https://github.com/rusty4444/hermes-android",
+    "description": "Android client for Hermes Agent - chat with your Hermes sessions from a phone or tablet over local Wi-Fi or a private Tailscale network.",
+    "stars": 455,
+    "forks": 93,
+    "language": "Dart",
+    "topics": [
+      "ai-assistant",
+      "android",
+      "chat",
+      "dart",
+      "flutter",
+      "hermes-agent"
+    ],
+    "updated_at": "2026-10-29T09:58:39Z",
+    "category": "core",
+    "score": 74,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "raulvidis/hermes-android"
+    ],
+    "discovered_at": "2026-10-29T10:01:38.253742+00:00",
+    "status": "approved",
+    "approved_at": "2026-10-29T10:04:09.322262+00:00"
   }
 ]
