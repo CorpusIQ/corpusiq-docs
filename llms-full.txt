@@ -7311,12 +7311,174 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - the email half of the same connection
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - documents behind the meeting
 - [Connect Google Sheets to ChatGPT](connect-google-sheets-to-chatgpt.md) - the plan beside the calendar
+- [Connect Google Calendar to Claude](connect-google-calendar-to-claude.md) - the same meeting-load questions for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 - [AI for Executive Reporting](ai-for-executive-reporting.md) - turning calendar facts into a report
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Google Calendar to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-calendar-to-claude
+
+
+# How to Connect Google Calendar to Claude with CorpusIQ MCP
+
+A calendar is a record of where the company spent its most expensive resource, and almost nobody reads it that way. It answers questions the calendar app never asks: how much of the week went to internal meetings, which customer keeps coming back, what got booked after the last contract call.
+
+Connecting Google Calendar through CorpusIQ MCP turns that record into something you can question in plain language.
+
+### Why Connect Google Calendar to Claude?
+
+- **Time allocation.** "How many hours went to internal meetings versus customer meetings last month?"
+- **Meeting load.** "Who on the team has more than 20 hours of meetings a week?"
+- **Customer history.** "When did we last meet this account, and who attended?"
+- **Booking sprawl.** "Which recurring meetings have no agenda and have not changed in a quarter?"
+- **Cross-source timing.** "For meetings with accounts that have open deals, what was discussed?" (with notes or CRM connected)
+- **Read-only by scope.** The connection reads calendar events. It cannot create, move, or cancel anything.
+
+### How It Works
+
+1. **Connect Google Calendar to CorpusIQ** through Google OAuth and approve the read-only calendar scopes.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** the question into calendar queries, retrieves the matching events, and returns titles, times, attendees, and descriptions.
+4. **Claude answers** from that retrieved content, with the events it used.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Calendar** (or the Google Workspace connector to include Drive, Sheets, and Gmail).
+3. Sign in to Google and approve the read-only scopes.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Where the time went**
+
+- "How many hours went to internal meetings versus customer meetings last month?"
+- "Which meetings took more than 90 minutes, and who organised them?"
+- "Show the weekly meeting load for each person on the revenue team."
+
+**Customer contact**
+
+- "When did we last meet this account, and who was in the room?"
+- "How many times have we met a customer in the last 30 days?"
+- "Which accounts have had no meeting since the deal closed?"
+
+**Meeting hygiene**
+
+- "Which recurring meetings have no agenda attached?"
+- "List meetings this week with no description and more than six attendees."
+- "Which series has run unchanged for more than a quarter?"
+
+**Cross-source**
+
+- "For meetings with accounts that have open invoices, what was discussed?" (requires billing and notes sources)
+- "Did the quarterly review for this customer happen before or after the renewal date in the CRM?" (requires the CRM connector)
+
+### Security
+
+- **Read scope only.** The connection requests Google's read-only calendar scopes. Claude cannot create, move, or cancel an event.
+- **Account-scoped.** Access follows the Google account you approve. Calendars that account cannot see stay out of reach.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Claude.
+
+### Comparison: Calendar App vs Calendar Through Claude
+
+| Aspect | The calendar app | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Scrolling days and weeks | A question about a period |
+| Output | Events in a grid | An answer with totals and the events used |
+| History | You page back | Asked across a quarter or a year |
+| Attendees | You open each event | Aggregated per person or account |
+| Cross-source | Manual cross-check | Asked across connectors |
+| Write access | Yes, by you | None, read-only scope |
+
+The calendar app is the right tool when you need to book something. Claude is the right tool when you need to know what the bookings cost you.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude create or cancel meetings through this connection?</strong></summary>
+
+No. The connection is read-only. Claude lists and reads events. Creating, moving, inviting, and cancelling are not available, and no write scope is requested.
+</details>
+
+<details>
+<summary><strong>Whose calendars can it read?</strong></summary>
+
+The calendars the connected Google account can already see, including calendars shared with it. Each account is authorized independently, so a work and a personal calendar can be connected without sharing a login, and you can connect only the account a question needs.
+</details>
+
+<details>
+<summary><strong>Can it see meeting notes or recordings?</strong></summary>
+
+It reads what the event carries: title, time, attendees, description, and location. Notes stored in another system come from that system's connector, and recordings are not part of this connector.
+</details>
+
+<details>
+<summary><strong>Does it work with Microsoft 365 calendars?</strong></summary>
+
+This page covers Google Calendar. Microsoft 365 and Outlook calendars are a separate connector with their own authorization.
+</details>
+
+<details>
+<summary><strong>How far back can it go?</strong></summary>
+
+As far back as the connected calendars hold events. Ask for the period explicitly: "last quarter", "the last 90 days", or a date range, so the query stays tight and the answer stays fast.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Events are read at the moment you ask, so a meeting booked an hour ago is visible to the next question.
+</details>
+
+<details>
+<summary><strong>Where is my calendar data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational logs may persist for up to 30 days. See the [security documentation](../security/) for detail.
+</details>
+
+---
+
+**Next steps:** [Connect Google Calendar to Claude now](https://corpusiq.io/connect/google-calendar-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Google Docs to ChatGPT with CorpusIQ MCP
@@ -7493,12 +7655,177 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md) - the email half of the same connection
 - [Connect Google Calendar to ChatGPT](connect-google-calendar-to-chatgpt.md) - the meeting behind the document
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other knowledge base
+- [Connect Google Drive to Claude](connect-google-drive-to-claude.md) - the same document answers for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [AI for Document Search](ai-for-document-search.md) - the document use case in depth
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Google Drive to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-drive-to-claude
+
+
+# How to Connect Google Drive to Claude with CorpusIQ MCP
+
+Every company has a decision written down somewhere in Drive that nobody can find again. The contract, the pricing sheet, the policy, the proposal that was approved in March.
+
+Drive search returns filenames. It does not return the clause. That gap is where people give up and ask whoever was there at the time.
+
+Connecting Google Drive through CorpusIQ MCP makes the contents of those files answerable. You ask what the document says, and Claude answers with the file it read.
+
+### Why Connect Google Drive to Claude?
+
+- **Contract questions.** "What is the termination notice period in the Acme agreement?"
+- **Version confusion.** "Which pricing sheet is the current one, and what changed?"
+- **Policy lookup.** "What does our refund policy say about opened items?"
+- **Deal rooms.** "Summarize the proposal folder for this account, with open questions."
+- **Cross-source checks.** "Does the signed contract match the terms in the CRM record?"
+- **Read-only by scope.** The connection reads files the connected account can open. It cannot edit, move, or delete anything.
+
+### How It Works
+
+1. **Connect Google Drive to CorpusIQ** through Google OAuth and approve the read-only Drive scopes.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ searches** the files that answer the question, reads the relevant documents, and returns the passages.
+4. **Claude answers** from that retrieved content, naming the file it used.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Drive** (or the Google Workspace connector to add Calendar, Sheets, and Gmail to the same connection).
+3. Sign in to Google and approve the read-only scopes.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Contracts and terms**
+
+- "What is the renewal date and notice period in the Acme agreement?"
+- "Which of these two contract versions has the better payment terms for us?"
+- "List every obligation that falls on us in this MSA."
+
+**Pricing and proposals**
+
+- "Which pricing sheet is the most recent, and what changed in it?"
+- "Summarize the proposal we sent this account, with the assumptions it relies on."
+- "Find the discount policy and tell me whether this deal needs an exception."
+
+**Operations**
+
+- "What does the onboarding checklist require before a customer goes live?"
+- "Find the current brand guidelines and list the approved colours."
+- "Which document defines the escalation path for support incidents?"
+
+**Cross-source**
+
+- "Compare the signed contract terms with the deal record in the CRM." (requires the CRM connector)
+- "Which invoices in billing have no matching purchase order file in Drive?" (requires the billing connector)
+
+### Security
+
+- **Read scope only.** The connection requests Google's read-only Drive scopes. Claude can open and read. It cannot edit, move, share, or delete.
+- **Account-scoped access.** Only files the connected Google account can already open are reachable. Files never shared with that account stay out of scope.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Claude.
+
+### Comparison: Drive Search vs Drive Through Claude
+
+| Aspect | Drive search | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A filename, a guess at the words | A question about the content |
+| Output | A list of files | A synthesized answer with the file named |
+| Reading | You open each file | Claude reads the passages that answer it |
+| Versions | You compare by date | It reports which file it read |
+| Contracts | Manual clause hunting | The clause, quoted, with its source |
+| Combining sources | Export and paste | Asked across connectors |
+| Write access | Yes, by you | None, read-only scope |
+
+Drive search is the right tool when you remember the file. Claude is the right tool when you remember the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude edit or move files in my Drive?</strong></summary>
+
+No. The connection is read-only. Claude can search and read files the connected account can open. It cannot create, edit, move, share, or delete anything in Drive.
+</details>
+
+<details>
+<summary><strong>Does it read PDFs and Word documents?</strong></summary>
+
+Text-based formats are read, which covers the common business set: Docs, PDFs with a text layer, Word files, plain text, and spreadsheets. Scanned images without a text layer are referenced rather than parsed, because there is no text to read.
+</details>
+
+<details>
+<summary><strong>How does it handle multiple versions of the same document?</strong></summary>
+
+Ask for the current one explicitly: "the latest signed version of the Acme agreement". The connector reads files as they stand, so a document edited this morning is what the next answer sees. When two files could match, the answer names the file it used so you can check it.
+</details>
+
+<details>
+<summary><strong>Can it read files in shared drives?</strong></summary>
+
+Yes, where the connected account has access to that shared drive. Access follows the Google account you approved, and the shared drive's own restrictions still apply.
+</details>
+
+<details>
+<summary><strong>Can it combine Drive with my CRM or accounting?</strong></summary>
+
+Yes. This is where document search stops being a search box. "Does the contract match what the CRM says about this account?" is one question across both sources instead of two manual checks.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Files are read at the moment you ask. Raw customer files are not retained, and scoped operational logs may persist for up to 30 days.
+</details>
+
+<details>
+<summary><strong>Where is my document data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational logs may persist for up to 30 days. See the [security documentation](../security/) for detail.
+</details>
+
+---
+
+**Next steps:** [Connect Google Drive to Claude now](https://corpusiq.io/connect/google-drive-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Google Search Console to ChatGPT with CorpusIQ MCP
@@ -7687,6 +8014,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 - [Google Workspace connectors](connectors/google_workspace.md) -- Drive, Gmail, Calendar and Sheets
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) -- traffic beside the plan
+- [Connect Google Sheets to Claude](connect-google-sheets-to-claude.md) -- the same sheet data for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) -- the full list
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) -- the general setup
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) -- why the access model differs
@@ -7694,6 +8022,174 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) -- the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Google Sheets to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-sheets-to-claude
+
+
+# How to Connect Google Sheets to Claude with CorpusIQ MCP
+
+Half of a business lives in spreadsheets nobody designed as a database. The budget, the hiring plan, the pipeline tracker, the inventory count somebody updates on Fridays.
+
+Claude can read that data and answer questions about it, but only if the data reaches Claude. Copying a tab into a chat works once and is stale by the next question.
+
+Connecting Google Sheets through CorpusIQ MCP closes that gap. You ask a question, Claude reads the sheet as it stands, and the answer names the spreadsheet and the tab it came from.
+
+### Why Connect Google Sheets to Claude?
+
+- **Questions over formulas.** "Which cost centres are over budget this quarter?" instead of building another pivot.
+- **Tracker reads.** "Which deals in the pipeline tracker have not moved in 30 days?"
+- **Reconciliation.** "Compare the budget sheet to actuals in the accounting system, by category." Two sources, one question.
+- **Change detection.** "What changed in the hiring plan since the last version?"
+- **Threshold checks.** "Which SKUs in the inventory count are below the reorder point?"
+- **Read-only by scope.** The connection reads spreadsheets. It cannot edit a cell, add a row, or change sharing.
+
+### How It Works
+
+1. **Connect Google Sheets to CorpusIQ** through Google OAuth and approve the read-only scopes on Google's consent screen.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into spreadsheet reads, opens the tabs and ranges that answer it, and returns the values.
+4. **Claude answers** from that retrieved content, naming the sheet and tab used.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Sheets** (or the Google Workspace connector if you want Drive, Calendar, and Gmail alongside it).
+3. Sign in to Google and approve the read-only scopes.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Budget and spend**
+
+- "What is total spend in the Q4 budget tab, by category?"
+- "Which departments are more than 10 percent over plan?"
+- "Show the three largest line items and who owns each one."
+
+**Pipeline and operations**
+
+- "Which deals in the pipeline tracker have not moved in 30 days?"
+- "Sum open pipeline by stage and compare it with last month."
+- "Which rows in the inventory count are below the reorder threshold?"
+
+**People and planning**
+
+- "Sum the headcount plan by department and compare it to actual headcount."
+- "Which roles are approved but not yet opened?"
+
+**Cross-source**
+
+- "Compare the budget tab to actuals in QuickBooks for last quarter." (requires the accounting connector)
+- "Which customers in the tracker have open invoices in billing?" (requires the billing connector)
+
+### Security
+
+- **Read scope only.** The connection requests Google's read-only spreadsheet scopes. There is no write path from Claude into a sheet.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Account-scoped.** Access follows the Google account you approve. A sheet that account cannot open stays out of reach.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Claude.
+
+### Comparison: Spreadsheet Search vs Sheets Through Claude
+
+| Aspect | Searching a sheet | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Ctrl+F, or a filter you rebuild | A question in plain language |
+| Output | Rows you then read | A summarized answer with the tab named |
+| Cross-tab | Manual, one tab at a time | Asked once across tabs |
+| Formulas | You read the cell | Read as computed values |
+| Combining sources | Export and merge | Asked across connectors |
+| Write access | Yes, by you | None, read-only scope |
+
+Spreadsheet search is the right tool when you know the row. Claude is the right tool when you know the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude edit my spreadsheet through this connection?</strong></summary>
+
+No. The connection reads spreadsheet data. Cells, rows, and sharing settings are untouched. Any write-capable path would be a separate decision with a separate credential, and it is not part of this connector.
+</details>
+
+<details>
+<summary><strong>Does the whole file come through, or one tab?</strong></summary>
+
+The connector can read a spreadsheet's tabs and ranges. For a large workbook, naming the tab in the question gives the tightest answer: "the FY26 budget tab" rather than "the budget file".
+</details>
+
+<details>
+<summary><strong>Do merged cells and formulas break the answers?</strong></summary>
+
+Formulas come through as their computed values, which is what you want. Merged cells and multi-row headers are the usual cause of a wrong answer, because the header no longer labels the right column. A clean tab with a single header row fixes it in a minute.
+</details>
+
+<details>
+<summary><strong>Can it combine a sheet with QuickBooks or Stripe?</strong></summary>
+
+Yes, and this is the strongest use of a Sheets connector. The plan lives in a sheet and the actuals live in accounting. "Compare budget to actual by category for last quarter" becomes one question instead of a manual reconciliation.
+</details>
+
+<details>
+<summary><strong>Does connecting Sheets expose my whole Drive?</strong></summary>
+
+No. Sheets is its own connector. Google's consent screen lists the read-only permissions being requested, and you approve them in one place. Revoke any of them later from your Google Account security settings. Connect only what a question would actually use.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. When you ask, the connector reads the sheet as it stands. A number typed a minute ago is visible to the next question. There is no nightly copy behind the answers.
+</details>
+
+<details>
+<summary><strong>What about sheets owned by somebody else?</strong></summary>
+
+Access follows the Google account you authorized. If that account can open the sheet, the connector can read it. A link-restricted share keeps its restriction.
+</details>
+
+<details>
+<summary><strong>Where is my spreadsheet data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational logs may persist for up to 30 days. See the [security documentation](../security/) for detail.
+</details>
+
+---
+
+**Next steps:** [Connect Google Sheets to Claude now](https://corpusiq.io/connect/google-sheets-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect HubSpot to ChatGPT with CorpusIQ MCP
@@ -8331,12 +8827,174 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md) - the other email platform, for stores
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - lifecycle and pipeline beside the send
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - the revenue side of the comparison
+- [Connect Mailchimp to Claude](connect-mailchimp-to-claude.md) - the same campaign questions for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) - the full list
 - [AI for Marketing Analytics](ai-for-marketing-analytics.md) - the analysis pattern
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Mailchimp to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-mailchimp-to-claude
+
+
+# How to Connect Mailchimp to Claude with CorpusIQ MCP
+
+Email marketing reports answer the easy question. Open rate, click rate, unsubscribes. They do not answer the one the business actually has: did this campaign make money?
+
+That answer lives across Mailchimp and whatever holds the orders. Connecting Mailchimp through CorpusIQ MCP puts the campaign record in the same conversation as the revenue record, so the question can be asked once.
+
+### Why Connect Mailchimp to Claude?
+
+- **Campaign to revenue.** "Which campaign drove the most orders in the last quarter?" (with the commerce connector)
+- **Audience movement.** "How did the list grow last month, and which signup source contributed most?"
+- **Segment performance.** "Which segment has the highest click rate across the last ten campaigns?"
+- **Content learning.** "What subject lines performed best, and what do the winners have in common?"
+- **Churn signals.** "Which subscribers stopped opening in the last 60 days?"
+- **Read-only by scope.** The connection reads campaigns, audiences, and reports. It cannot send, edit, or change a list.
+
+### How It Works
+
+1. **Connect Mailchimp to CorpusIQ** with a read-only API key or OAuth, whichever your account supports.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ queries** campaigns, reports, audiences, and segments as the question requires.
+4. **Claude answers** from that retrieved content, with the campaigns it used.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Mailchimp**.
+3. Authorize the connection with a read-only key, or through OAuth if your Mailchimp plan supports it.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Campaign performance**
+
+- "Compare the last five campaigns on click rate and revenue per recipient."
+- "Which campaign had the highest unsubscribe rate, and what was different about it?"
+- "How did the last send perform against the previous one?"
+
+**Audience and growth**
+
+- "How did the audience grow last month, by source?"
+- "Which segment has the highest engagement over the last ten sends?"
+- "Which subscribers have not opened anything in 60 days?"
+
+**Content learning**
+
+- "What subject lines got the best open rate this quarter?"
+- "Which send day performs better, Tuesday or Thursday?"
+- "List the campaigns that mentioned a discount and compare their click rates."
+
+**Cross-source**
+
+- "Which campaign drove the most orders in the last quarter?" (requires the commerce connector)
+- "Did the audience that clicked the launch email convert into paying customers?" (requires billing or CRM)
+
+### Security
+
+- **Read scope only.** The connection reads campaigns and reports. Claude cannot send a campaign, edit a list, or change automation.
+- **Revocable at any time.** Mailchimp, Account, Extras, API keys. Revoking the key ends the connection.
+- **Scoped to the authorized account.** Access follows the Mailchimp account or key you approve, and nothing outside it is reachable.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Mailchimp, CorpusIQ, and Claude.
+
+### Comparison: Mailchimp Reports vs Mailchimp Through Claude
+
+| Aspect | The Mailchimp report | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Pick a campaign and a date range | A question across campaigns |
+| Output | Charts and tables | An answer with the campaigns named |
+| Revenue | A separate system | Asked beside order data |
+| Trend work | Export and build a sheet | Asked across a quarter |
+| Comparison | One campaign at a time | Ranked across many |
+| Write access | Yes, by you | None, read-only |
+
+The Mailchimp report is the right tool when you want this campaign's numbers. Claude is the right tool when you want to know which campaigns actually worked.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Claude send a campaign through this connection?</strong></summary>
+
+No. The connection is read-only. Claude reads campaigns, audiences, segments, and reports. Sending, editing, and automation changes are not available.
+</details>
+
+<details>
+<summary><strong>Which Mailchimp plans does this work with?</strong></summary>
+
+The connector uses Mailchimp's API, which is available across their paid plans. Some reporting detail depends on what your plan exposes, so the answer is limited to the data your account can already show you in the Mailchimp interface.
+</details>
+
+<details>
+<summary><strong>Does it read subscribers, including personal data?</strong></summary>
+
+It can read audience and segment data, which includes subscriber records. That is why the scope is read-only and revocable, and why the connector should be authorized on an account whose data you are allowed to query. Retrieval is on demand, with no warehouse of subscriber records behind it.
+</details>
+
+<details>
+<summary><strong>Can it compare campaigns with revenue?</strong></summary>
+
+Yes, once a commerce or billing connector is also connected. "Which campaign drove the most orders last quarter" is one question across Mailchimp and the order system, instead of an export and a manual match.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Campaign reports are read at the moment you ask. A send from this morning is visible to the next question, though some Mailchimp metrics settle over the first day.
+</details>
+
+<details>
+<summary><strong>Does it cover automations and journeys?</strong></summary>
+
+Campaign and audience reporting is the core of this connector. Ask a question that names an automation or a journey and see whether the returned answer is scoped to it. If it is not, the answer will say what it did read rather than guessing.
+</details>
+
+<details>
+<summary><strong>Where is my marketing data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational logs may persist for up to 30 days. See the [security documentation](../security/) for detail.
+</details>
+
+---
+
+**Next steps:** [Connect Mailchimp to Claude now](https://corpusiq.io/connect/mailchimp-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Meta Ads to ChatGPT with CorpusIQ MCP
@@ -25823,6 +26481,9 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - [Connect Google Sheets to ChatGPT](../connect-google-sheets-to-chatgpt.md) - sheet data behind a plain-English question.
 - [Connect Google Calendar to ChatGPT](../connect-google-calendar-to-chatgpt.md) - meeting load and commitments as questions.
 - [Connect Google Drive to ChatGPT](../connect-google-drive-to-chatgpt.md) - clause-level answers from the documents themselves.
+- [Connect Google Sheets to Claude](../connect-google-sheets-to-claude.md) - the same sheet questions, set up in Claude Desktop.
+- [Connect Google Drive to Claude](../connect-google-drive-to-claude.md) - document answers in Claude Desktop from the same connection.
+- [Connect Google Calendar to Claude](../connect-google-calendar-to-claude.md) - meeting load and commitments for Claude Desktop.
 - [Connect Google Docs to ChatGPT](../connect-google-docs-to-chatgpt.md) - briefs, contracts and meeting notes behind a plain-English question.
 
 ---
@@ -26385,6 +27046,7 @@ Read-only. CorpusIQ never sends mail, edits campaigns, or changes your lists.
 ## See also
 
 - [Connect Mailchimp to ChatGPT](../connect-mailchimp-to-chatgpt.md) - the ChatGPT setup and the campaign questions that connect to revenue.
+- [Connect Mailchimp to Claude](../connect-mailchimp-to-claude.md) - the same campaign questions, set up in Claude Desktop.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
