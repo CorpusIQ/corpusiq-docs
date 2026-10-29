@@ -49,7 +49,12 @@ Before an agent can work, its MCP connectors need to be authenticated. Run `herm
 The sample cron schedules are sensible defaults but should be tuned to your timezone, working hours, and operational cadence. Edit them in your agent's profile configuration:
 
 ```bash
-hermes config edit --profile sales
+# edit a specific profile's config
+hermes -p sales config edit
+
+# or make it sticky, then edit
+hermes profile use sales
+hermes config edit
 ```
 
 ### 4. Add Your Business Context
