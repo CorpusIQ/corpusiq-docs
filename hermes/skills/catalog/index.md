@@ -823,6 +823,21 @@ Linked from this index so the pages are reachable by crawl.
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
 
+### New - October 28, 2026 Evening Sweep (12 publisher guides)
+
+- [Pilio Skills - Image and PDF Utility API Skills Setup](/hermes/skills/catalog/pilioai-skills-setup)
+- [QianWen AI Skills - Alibaba Qwen Multimodal Suite Setup](/hermes/skills/catalog/qianwen-ai-setup)
+- [NestJS Best Practices - 40-Rule Agent Skill Setup Guide](/hermes/skills/catalog/agent-nestjs-skills-setup)
+- [Ejiro Agent Skills - Svelte, Vue, NestJS and Exa Setup](/hermes/skills/catalog/ejirocodes-agent-skills-setup)
+- [Java Development Plugin - 12-Skill Java Engineering Setup](/hermes/skills/catalog/custom-plugin-java-setup)
+- [Proactive Agent - WAL Memory and Compaction Recovery Setup](/hermes/skills/catalog/proactive-agent-setup)
+- [Kami - PDF, PNG and Editable PPTX Layout Skill Setup](/hermes/skills/catalog/kami-setup)
+- [ego lite - AI Agent Browser and ego-browser Skill Setup](/hermes/skills/catalog/ego-lite-setup)
+- [Refero Design - Research-First UI Design Skill Setup](/hermes/skills/catalog/refero-design-setup)
+- [OpenCode Workflows - Command and Agent Template Suite Setup](/hermes/skills/catalog/opencode-workflows-setup)
+- [Fallow Skills - Codebase Intelligence for TS and JS Setup](/hermes/skills/catalog/fallow-rs-fallow-skills-setup)
+- [Composio - SDK Monorepo and Agent Toolkit Setup Guide](/hermes/skills/catalog/composiohq-composio-setup)
+
 ### New - October 28, 2026 Morning Sweep (9 publisher guides)
 
 - [Developer Kit - Java and TypeScript Skill Suite Setup](/hermes/skills/catalog/developer-kit-setup)
