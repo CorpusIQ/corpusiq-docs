@@ -1,51 +1,39 @@
 {
-  "run_time": "2026-10-28T05:03:26.656929+00:00",
+  "run_time": "2026-10-29T10:04:09.380564+00:00",
   "new_approved": [
     {
-      "name": "Ikalus1988/MisakaNet",
-      "url": "https://github.com/Ikalus1988/MisakaNet",
-      "description": "Re-debugging Solved Failures? No Way. 500+ Evidence-graded fix lessons, One MCP Call-->https://misakanet.org",
-      "stars": 543,
-      "forks": 227,
-      "language": "Python",
+      "name": "rusty4444/hermes-android",
+      "url": "https://github.com/rusty4444/hermes-android",
+      "description": "Android client for Hermes Agent - chat with your Hermes sessions from a phone or tablet over local Wi-Fi or a private Tailscale network.",
+      "stars": 455,
+      "forks": 93,
+      "language": "Dart",
       "topics": [
-        "ai-agents",
-        "claude-code-plugin",
-        "codex",
-        "codex-plugin",
-        "d1",
-        "debugging",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugins",
-        "failure-injection",
-        "failure-memory",
-        "github-actions",
-        "hermes-agent",
-        "knowledge-base",
-        "mcp",
-        "mcp-server",
-        "opencode-plugin",
-        "sqlite",
-        "stackoverflow"
+        "ai-assistant",
+        "android",
+        "chat",
+        "dart",
+        "flutter",
+        "hermes-agent"
       ],
-      "updated_at": "2026-10-28T05:01:12Z",
-      "category": "forks",
-      "score": 75,
+      "updated_at": "2026-10-29T09:58:39Z",
+      "category": "core",
+      "score": 74,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_topic",
-        "agent_ecosystem",
+        "direct_hermes_reference",
         "moderate_stars_100+",
         "detailed_description",
-        "active_week",
-        "has_homepage"
+        "active_week"
       ],
-      "near_duplicates": [],
-      "discovered_at": "2026-10-28T05:01:22.418485+00:00",
+      "near_duplicates": [
+        "Romanescu11/hermes-skill-factory",
+        "unmodeled-tyler/vessel-browser",
+        "raulvidis/hermes-android"
+      ],
+      "discovered_at": "2026-10-29T10:01:38.253742+00:00",
       "status": "approved",
-      "approved_at": "2026-10-28T05:03:26.599431+00:00"
+      "approved_at": "2026-10-29T10:04:09.322262+00:00"
     }
   ],
   "integration": {
@@ -54,10 +42,10 @@
     "note": "hermes/ecosystem.md is NOT emitted by the mkdocs build and collides with hermes/ecosystem/index.md at /hermes/ecosystem/. Add every approved repo to hermes/ecosystem/index.md (the page users see). Mirror into ecosystem.md only to keep the two files in sync."
   },
   "stats": {
-    "total_found": 12,
+    "total_found": 7,
     "auto_approved": 1,
-    "pending_review": 11,
-    "total_approved": 203,
-    "total_pending": 2817
+    "pending_review": 6,
+    "total_approved": 204,
+    "total_pending": 2851
   }
 }

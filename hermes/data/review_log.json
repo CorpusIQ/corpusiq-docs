@@ -20225,5 +20225,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-29T04:03:23.133534+00:00"
+  },
+  {
+    "repo": "DeliaHicks/dsh-limited-nousresearch__hermes-agent-20261029",
+    "score": 0,
+    "tier": "REJECTED",
+    "action": "skipped_scratch",
+    "timestamp": "2026-10-29T10:03:38.116744+00:00"
+  },
+  {
+    "repo": "askdkc/dsh-cli",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T10:04:09.322274+00:00"
+  },
+  {
+    "repo": "t033yV/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T10:04:09.322276+00:00"
+  },
+  {
+    "repo": "SenZh/hermes-aura",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T10:04:09.322277+00:00"
+  },
+  {
+    "repo": "rusty4444/hermes-android",
+    "score": 74,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-29T10:04:09.322279+00:00"
+  },
+  {
+    "repo": "foyelle/foyelle",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T10:04:09.322280+00:00"
+  },
+  {
+    "repo": "AlekseiUL/codex-plus-hermes-team",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T10:04:09.322281+00:00"
+  },
+  {
+    "repo": "boldandigital/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-29T10:04:09.322282+00:00"
   }
 ]
