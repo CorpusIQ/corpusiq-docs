@@ -1,5 +1,5 @@
 ---
-title: "NexaLayer MCP - Proxies With a Spend Cap Built In"
+title: "NexaLayer MCP - Proxy Sessions That Cap Their Spend"
 description: "Residential proxy sessions an agent can open and close, with sticky exit IPs and soft spend caps that stop a loop overnight."
 category: Infrastructure
 stars: ★★ (package and guardrail model verified, v0.2.0, MIT)
