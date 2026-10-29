@@ -1,5 +1,5 @@
 ---
-title: "SpyWinAds MCP - How Old a Video Ad Really Is"
+title: "SpyWinAds MCP - The Real Age of a Video Ad"
 description: "Meta ad intelligence from the public Ad Library: a video ad's true age, every store running the same creative, and a Shopify export."
 category: Marketing
 stars: ★★★ (keyless 200 verified, 5 tools listed live)
