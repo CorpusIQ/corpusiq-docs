@@ -107,8 +107,8 @@
     "description": "Utility scripts for ecosystem discovery, agent stack installation, submission processing, and link auditing",
     "url": "https://www.corpusiq.io/docs/hermes/scripts",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11237,7 +11237,9 @@
 <h3 id="discoverpy-ecosystem-discovery-engine"><code>discover.py</code> - Ecosystem Discovery Engine<a class="headerlink" href="#discoverpy-ecosystem-discovery-engine" title="Anchor link to this section">&para;</a></h3>
 <p>Scans GitHub for new Hermes-compatible repositories across multiple search queries. Scores repos by relevance (stars, activity, topic match) and outputs a ranked list. Used by the <a href="https://www.corpusiq.io/docs/hermes/ecosystem">Ecosystem Discovery Engine</a>.</p>
 <p><strong>Usage:</strong></p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>discover.py<span class="w"> </span>--since<span class="w"> </span><span class="m">2026</span>-07-01<span class="w"> </span>--output<span class="w"> </span>discovery-results.json
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>discover.py<span class="w">                    </span><span class="c1"># Full discovery run</span>
+python3<span class="w"> </span>discover.py<span class="w"> </span>--dry-run<span class="w">          </span><span class="c1"># Show what would be added</span>
+python3<span class="w"> </span>discover.py<span class="w"> </span>--score-only<span class="w"> </span>REPO<span class="w">  </span><span class="c1"># Score a single repository</span>
 </code></pre></div>
 <h3 id="install-agent-stacksh-one-command-setup"><code>install-agent-stack.sh</code> - One-Command Setup<a class="headerlink" href="#install-agent-stacksh-one-command-setup" title="Anchor link to this section">&para;</a></h3>
 <p>Installs the complete Hermes Agent stack on a fresh Linux machine: Node.js, Python dependencies, Playwright browsers, and the Hermes CLI. Used by the <a href="https://www.corpusiq.io/docs/hermes/setup">Setup Guide</a>.</p>
@@ -11247,7 +11249,7 @@
 <h3 id="process_submissionspy-community-submission-pipeline"><code>process_submissions.py</code> - Community Submission Pipeline<a class="headerlink" href="#process_submissionspy-community-submission-pipeline" title="Anchor link to this section">&para;</a></h3>
 <p>Validates and ingests community-submitted repositories, skills, and MCP servers. Checks for duplicates, validates metadata, and generates pull requests for approved submissions.</p>
 <p><strong>Usage:</strong></p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>process_submissions.py<span class="w"> </span>--input<span class="w"> </span>submissions.jsonl<span class="w"> </span>--validate
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>process_submissions.py<span class="w"> </span>--test<span class="w">   </span><span class="c1"># Score a sample submission end to end</span>
 </code></pre></div>
 <h2 id="integration">Integration<a class="headerlink" href="#integration" title="Anchor link to this section">&para;</a></h2>
 <p>These scripts are referenced by the <a href="https://www.corpusiq.io/docs/hermes/infrastructure">Infrastructure</a> and <a href="https://www.corpusiq.io/docs/hermes/governance">Governance</a> documentation. See the <a href="https://www.corpusiq.io/docs/hermes/setup">Setup Guide</a> for installation patterns.</p>

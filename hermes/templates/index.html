@@ -23,7 +23,7 @@
     
     
   
-    <title>Templates - CorpusIQ Docs - CorpusIQ Docs</title>
+    <title>Templates - CorpusIQ Docs</title>
   
 
     
@@ -67,13 +67,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/templates">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Templates - CorpusIQ Docs - CorpusIQ Docs">
+  <meta property="og:title" content="Templates - CorpusIQ Docs">
   <meta property="og:description" content="Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Templates - CorpusIQ Docs - CorpusIQ Docs">
+  <meta name="twitter:title" content="Templates - CorpusIQ Docs">
   <meta name="twitter:description" content="Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -103,12 +103,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Templates - CorpusIQ Docs - CorpusIQ Docs",
+    "name": "Templates - CorpusIQ Docs",
     "description": "Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.",
     "url": "https://www.corpusiq.io/docs/hermes/templates",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -208,7 +208,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Templates - CorpusIQ Docs - CorpusIQ Docs
+              Templates - CorpusIQ Docs
             
           </span>
         </div>
@@ -11291,33 +11291,30 @@ Brief overview of what this skill covers.
 </code></pre></div>
 <h2 id="config-template">Config Template<a class="headerlink" href="#config-template" title="Anchor link to this section">&para;</a></h2>
 <p>Minimal <code>config.yaml</code> for a new Hermes Agent setup:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sonnet</span>
-<span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">anthropic</span>
+<div class="highlight"><pre><span></span><code><span class="nt">model</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">anthropic/claude-sonnet-5.5</span>
+<span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">openrouter</span>
 
-<span class="nt">tools</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">shell</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web_search</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web_extract</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">read_file</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">write_file</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">patch</span>
-
-<span class="nt">cron</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">toolsets</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">terminal</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">file</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">memory</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">skills</span>
 
 <span class="nt">memory</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">backend</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sqlite</span>
+<span class="w">  </span><span class="nt">memory_enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">  </span><span class="nt">user_profile_enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
 <h2 id="cron-template">Cron Template<a class="headerlink" href="#cron-template" title="Anchor link to this section">&para;</a></h2>
-<p>Schedule recurring tasks with <code>cronjob</code>:</p>
+<p>Schedule recurring tasks with <code>hermes cron create</code>. The schedule and the prompt are positional arguments, not flags:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Daily at 9 AM</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;daily-report&quot;</span><span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 9 * * *&quot;</span><span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Generate the daily activity report and email it&quot;</span><span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--deliver<span class="w"> </span>email:reports@example.com<span class="w"> </span><span class="se">\\</span>
-<span class="w">  </span>--profile<span class="w"> </span>default
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 9 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Generate the daily activity report and email it&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;daily-report&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span><span class="nb">local</span>
 </code></pre></div>
+<p><code>--deliver</code> accepts <code>origin</code>, <code>local</code>, <code>telegram</code>, <code>discord</code>, <code>signal</code>, <code>platform:chat_id</code>, or <code>bot-chat[:profile]</code>. To run the job under a different profile, pass the global flag before the subcommand: <code>hermes --profile default cron create ...</code>. Add <code>--skill &lt;name&gt;</code> (repeatable) to attach skills, or <code>--script &lt;file&gt; --no-agent</code> for a script-only job that never wakes the model.</p>
 <hr />
 <p><em>More templates are added regularly from the Hermes community.</em></p>
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes">Hermes Home</a> | <a href="https://www.corpusiq.io/docs/hermes/scripts">Scripts</a> →</em></p>

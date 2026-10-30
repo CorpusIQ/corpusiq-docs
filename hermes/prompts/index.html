@@ -111,8 +111,8 @@
     "description": "Curated Hermes Agent prompt templates for code generation, content creation, data analysis, business operations, research, and creative work.",
     "url": "https://www.corpusiq.io/docs/hermes/prompts",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-29",
+    "dateModified": "2026-10-29",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-29">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11483,23 +11483,24 @@
 <h2 id="model-selection-guide">Model Selection Guide<a class="headerlink" href="#model-selection-guide" title="Anchor link to this section">&para;</a></h2>
 <p>Not all prompts work equally well with all models. Here's a general guide:</p>
 <h3 id="code-generation-and-debugging">Code Generation and Debugging<a class="headerlink" href="#code-generation-and-debugging" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Best with:</strong> Claude 3.5 Sonnet, GPT-4o, DeepSeek V3, Gemini 2.5 Pro
-<strong>Why:</strong> These models excel at structured reasoning, syntax accuracy, and following detailed technical specifications. For simple boilerplate, smaller local models like CodeLlama or DeepSeek Coder can handle it efficiently.</p>
+<p><strong>Best with:</strong> Claude Sonnet 5.5, GPT-6 Astra, DeepSeek V4 Pro, Gemini 3.1 Pro
+<strong>Why:</strong> These models excel at structured reasoning, syntax accuracy, and following detailed technical specifications. For simple boilerplate, smaller local models such as Qwen3-Coder can handle it efficiently.</p>
 <h3 id="content-creation">Content Creation<a class="headerlink" href="#content-creation" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Best with:</strong> Claude 3.5 Sonnet, GPT-4o
+<p><strong>Best with:</strong> Claude Sonnet 5.5, GPT-5.5
 <strong>Why:</strong> Strong prose generation, tone control, and brand voice consistency. For high-volume social content, smaller models fine-tuned on your brand voice can be more cost-effective.</p>
 <h3 id="data-analysis">Data Analysis<a class="headerlink" href="#data-analysis" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Best with:</strong> Claude 3.5 Sonnet (long context for schemas), GPT-4o
+<p><strong>Best with:</strong> Claude Sonnet 5.5 (long context for schemas), GPT-6 Astra
 <strong>Why:</strong> SQL generation accuracy, ability to reason about complex schemas, and thorough edge-case handling. Provide actual schema definitions  --  don't summarize them.</p>
 <h3 id="business-operations">Business Operations<a class="headerlink" href="#business-operations" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Best with:</strong> Claude 3.5 Sonnet, GPT-4o, Gemini Flash
+<p><strong>Best with:</strong> Claude Sonnet 5.5, GPT-5.5, Gemini 3.8 Flash
 <strong>Why:</strong> Email and meeting tasks benefit from nuanced understanding of professional context and relationship dynamics. For quick drafts, smaller/faster models work well; for sensitive communications, use a frontier model.</p>
 <h3 id="research">Research<a class="headerlink" href="#research" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Best with:</strong> Claude 3.5 Sonnet (200K context for document analysis), GPT-4o with web search
+<p><strong>Best with:</strong> Claude Sonnet 5.5 (long context for document analysis), GPT-6 Astra with web search
 <strong>Why:</strong> Research tasks often involve synthesizing large amounts of information. Long-context models handle document dumps better. Web-enabled models can pull in current data.</p>
 <h3 id="creative-work">Creative Work<a class="headerlink" href="#creative-work" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Best with:</strong> Claude 3.5 Sonnet, GPT-4, Gemini
+<p><strong>Best with:</strong> Claude Opus 5.5, GPT-6 Astra, Gemini 4
 <strong>Why:</strong> Creative tasks benefit from models that take interesting "risks" in their outputs. Temperature settings matter  --  try 0.8-1.0 for brainstorming, 0.5-0.7 for refined creative output.</p>
+<p>Model IDs follow the Hermes model catalog (<code>https://hermes-agent.nousresearch.com/docs/api/model-catalog.json</code>). The picker in <code>hermes model</code> lists exactly what your configured providers and credentials can reach.</p>
 <hr />
 <h2 id="prompt-chaining-strategies">Prompt Chaining Strategies<a class="headerlink" href="#prompt-chaining-strategies" title="Anchor link to this section">&para;</a></h2>
 <h3 id="sequential-refinement">Sequential Refinement<a class="headerlink" href="#sequential-refinement" title="Anchor link to this section">&para;</a></h3>
