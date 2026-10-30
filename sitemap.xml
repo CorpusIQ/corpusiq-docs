@@ -185,6 +185,10 @@
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-google-docs-to-claude</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-google-drive-to-chatgpt</loc>
          <lastmod>2026-10-30</lastmod>
     </url>
@@ -257,11 +261,23 @@
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-outlook-to-claude</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-postgresql-to-chatgpt</loc>
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-postgresql-to-claude</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-posthog-to-chatgpt</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-posthog-to-claude</loc>
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
@@ -2977,6 +2993,10 @@
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/casus-mcp</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cdnmn-mcp</loc>
          <lastmod>2026-10-30</lastmod>
     </url>
@@ -4498,6 +4518,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/marketplaces-mcp-ru</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/marketprint-print-on-demand</loc>
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
@@ -6145,6 +6169,10 @@
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tuqui-odoo-mcp</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/twelfth-mcp</loc>
          <lastmod>2026-10-30</lastmod>
     </url>
@@ -7146,6 +7174,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october3-2026-morning</loc>
+         <lastmod>2026-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october30-2026-late-morning</loc>
          <lastmod>2026-10-30</lastmod>
     </url>
     <url>
