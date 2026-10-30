@@ -1,6 +1,6 @@
 ---
 title: Casus MCP - French Tax and Legal Corpus in Chat
-description: "Remote MCP over the French tax and legal corpus: code articles at a chosen date, BOFiP doctrine and 3.4M court decisions, with citation checking built in."
+description: "Remote MCP over the French tax and legal corpus: code articles at a chosen date, BOFiP doctrine and 3.4M court decisions, with built-in citation checking."
 category: Legal and Compliance
 stars: n/a (new listing)
 added: 2026-10-30

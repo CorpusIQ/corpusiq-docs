@@ -6032,7 +6032,7 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 |--------|----------|-------------|
 | MentionsAPI ★ New | Marketing/GEO | Track brand mentions, ranks, and citations across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews, AI Mode, and Bing Copilot. MCP-native, pay-as-you-go, $1 free signup credit. Essential for operators investing in AI-engine visibility and brand monitoring. `npx -y @mentionsapi/mcp` |
 | Yapp ★ New | Productivity/Publishing | Turn "build me a page" into a live URL. Connect once (browser OAuth or token) and your AI can publish HTML, PDFs, ZIP sites, images, and landing pages to a public slug.yapp.page URL in seconds. Essential for operators who need AI agents to ship pages, proposals, and reports instantly. `https://yapp.page/mcp` |
-| Note2IT ★ New | Productivity/Knowledge | Keep work in notebooks, sections, and nested pages with a fast slash-command editor. Record meetings for automatic transcripts + structured summaries with action items. Connect Claude over MCP so AI can search, read, and make precise, undoable edits to pages. Essential for operators managing knowledge work with AI agent access. `npx -y @note2it/mcp` |
+| note2it ★ New | Productivity/Knowledge | Keep work in notebooks, sections, and nested pages with a fast slash-command editor. Meeting pages carry the transcript and the structured summary, so an agent reads them like any other page. Any MCP client - Claude, ChatGPT, Perplexity - can search, read, and make precise undoable edits, either through a local bridge or by connecting straight to the hosted server. 14 tools, Premium or Pro plan. Essential for operators managing knowledge work with AI agent access. `npx -y @note2it/mcp` |
 | Advanced Patent Search ★ New | Research/Legal | PatSnap Advanced Patent Search MCP - semantic, similarity, image, patent-number, nested-query, analytics, and sequence search. Connects AI agents to professional patent intelligence. Essential for IP-heavy operators and innovation teams. `https://mcp.patsnap.com` |
 | Chaiz MCP ★ New | Commerce/Insurance | Search live vehicle service contract (extended warranty) quotes by VIN, license plate, or make/model/year - with plan prices, coverage tiers, expert ratings, and checkout links. Read-only, works anonymously. Niche but valuable for fleet operators and automotive businesses. `npx -y @chaiz/mcp` |
 | OrcaLayer MCP ★ New | Financial Data/Crypto | Polymarket whale tracking and smart-money analytics MCP. Filtered leaderboard (airdrop-farmers excluded), hedge detection, NegRisk correction, and unique Ukraine territorial markets with ISW frontline overlay. 5 tools, 4 prompts, 3 resources. `npx mcp-remote https://orcalayer.com/mcp` |
@@ -6390,7 +6390,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Mowgli MCP - Integration Guide](/hermes/mcp/servers/external/mowgli-mcp)
 - [NaturalMelo MCP - AI Content Detection for Agents](/hermes/mcp/servers/external/naturalmelo-mcp)
 - [Neuron MCP Server](/hermes/mcp/servers/external/neuron)
-- [Note2It](/hermes/mcp/servers/external/note2it)
+- [note2it](/hermes/mcp/servers/external/note2it)
 - [Integration Guide: NotHumanSearch - AI Agent Search Engine for Operator Visibility](/hermes/mcp/servers/external/nothumansearch)
 - [Odoo MCP - Zero-Setup ERP Connector for AI Agents](/hermes/mcp/servers/external/odoo-mcp)
 - [Opencloudcosts](/hermes/mcp/servers/external/opencloudcosts)
