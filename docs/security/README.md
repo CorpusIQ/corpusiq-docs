@@ -77,7 +77,7 @@ External-source retrieval tools query connected sources, normalize results, and 
 
 ## Reporting Security Issues
 
-Report security concerns to security@corpusiq.io. We respond within 24 hours.
+Report security concerns to media@corpusiq.io. We respond within 24 hours.
 
 ## Frequently Asked Questions
 

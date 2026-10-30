@@ -33,7 +33,7 @@ All CorpusIQ API errors follow a consistent JSON structure with a machine-readab
 | **409** | `conflict` | The request conflicts with the current resource state. Inspect the response details before retrying. |
 | **413** | `payload_too_large` | The request body exceeds the maximum allowed size of 1 MB. Reduce `max_results` or split the query. |
 | **429** | `rate_limited` | The rate limit for the endpoint has been exceeded. A `retry_after_seconds` field indicates when to retry. See [Rate Limits](/api/rate-limits). |
-| **500** | `server_error` | An unexpected internal error occurred on the CorpusIQ side. Retry with exponential backoff. If errors persist, contact api@corpusiq.io. |
+| **500** | `server_error` | An unexpected internal error occurred on the CorpusIQ side. Retry with exponential backoff. If errors persist, contact media@corpusiq.io. |
 
 ## Handling Errors Programmatically
 

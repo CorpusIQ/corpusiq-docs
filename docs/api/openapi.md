@@ -42,7 +42,7 @@ info:
     for up to 30 days.
   contact:
     name: "CorpusIQ API Support"
-    email: "api@corpusiq.io"
+    email: "media@corpusiq.io"
   license:
     name: "Proprietary"
 servers:
