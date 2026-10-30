@@ -823,6 +823,23 @@ Linked from this index so the pages are reachable by crawl.
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
 
+### New - October 29, 2026 Evening Sweep (12 publisher guides)
+
+Twelve publisher clusters found by a widened 47-query topic probe after the standing window (top row 295) and the trending board (600 entries, 77 sources, all covered) both came back empty, for **821,254 combined installs across 372 indexed listings**:
+
+- [Elastic Agent Skills - Elasticsearch and Kibana Suite](/hermes/skills/catalog/elastic-agent-skills-setup) - 128,923 combined installs across 54 listings; 603 stars; Apache-2.0; the official Elastic suite where 62 in-tree files are 31 skills mirrored across two trees, and 23 indexed names were removed in v0.6.0 while still carrying install counts
+- [claude-mem - Persistent Memory for Coding Agents Setup](/hermes/skills/catalog/claude-mem-setup) - 101,470 installs across 34 listings; 104,989 stars; Apache-2.0; session history compressed into a searchable memory store, with search, explore, plan and report skills on top of it
+- [Claude Ads - Paid Media Skill Suite Setup](/hermes/skills/catalog/claude-ads-setup) - 98,745 installs across 34 listings; 10,586 stars; MIT; a conductor plus per-platform specialists for Meta, Google, TikTok, X, Amazon and Apple, with the Snyk warns on the skills that touch live ad accounts
+- [AI Research Skills - 100-Skill ML Research Library Setup](/hermes/skills/catalog/ai-research-skills-setup) - 97,018 installs across 100 listings; 14,111 stars; MIT; 98 atomic ML research skills across eleven numbered topic directories, installed a category at a time by a CLI whose positional argument matches category ids
+- [K2F - Document Generation Skills Setup](/hermes/skills/catalog/k2f-setup) - 62,502 installs across 42 listings; 3 stars; Apache-2.0; semantic JSON compiled into Word, PowerPoint, fillable PDF and IDML, with a schema, a template catalog and a pack verifier behind the core skill
+- [Roblox Brain - Roblox Studio Development Skills Setup](/hermes/skills/catalog/roblox-brain-setup) - 61,628 installs across 37 listings; 143 stars; MIT; 29 Roblox Studio skills covering Luau, architecture, building, lighting, animation, GUI, economy, testing and publishing, with a FAIL on the testing listing the guide leads with
+- [Bailian CLI - Alibaba Model Studio Agent Skills Setup](/hermes/skills/catalog/modelstudio-cli-setup) - 59,841 installs across 9 listings; 366 stars; Apache-2.0; Alibaba Cloud's own `bl` CLI taught by nine skills for generation, fine-tuning, managed agents, web search and knowledge bases, documented from INSTALL.md because the README carries no skills commands
+- [Coralogix cx CLI - Observability Agent Skills Setup](/hermes/skills/catalog/coralogix-cx-cli-setup) - 58,206 installs across 32 listings; 233 stars; Apache-2.0; 19 end-user observability skills plus four contributor-only skills under `.claude/skills/` that must never be presented as product skills; master branch
+- [Sent Plugin - Messaging and Verification Skills Setup](/hermes/skills/catalog/sent-plugin-setup) - 54,176 installs across 21 listings; 49 stars; MIT; SMS, WhatsApp and RCS messaging, compliance and migration in 84 files that are the same 21 skills across four adapter layouts, with a 27-tool remote MCP endpoint
+- [Base44 Skills - AI App Builder Platform Suite Setup](/hermes/skills/catalog/base44-skills-setup) - 51,043 installs across 6 listings; 92 stars; MIT; SDK, CLI, remote dev, sandbox and production troubleshooting for the platform, on pre-release manifests with one plugin's skills dir shipped as a git symlink
+- [SwiftUI Agent Skill - Apple UI Development Setup](/hermes/skills/catalog/avdlee-swiftui-agent-skill-setup) - 37,853 installs across 2 listings; 3,791 stars; MIT; the batch's only Production-tier guide, all verdicts Pass: one expert skill with 33 reference files and a checklist, plus an Apple docs rescan skill under a soft-deprecation rule
+- [Slack CLI Skill - Agent-Driven Workspace Automation Setup](/hermes/skills/catalog/paymog-slack-cli-setup) - 9,849 installs across 1 listing; 0 stars; MIT; a Go CLI giving agents JSON reads and writes on a workspace without a resident MCP server, from the publisher behind the Groundcover and incident.io CLI guides
+
 ### New - October 29, 2026 Morning Sweep (10 publisher guides)
 
 Ten publisher clusters documented from the queue the previous fire left behind, plus one find the trending board understated 66x, for **109,244 combined installs across 14 indexed listings**:
