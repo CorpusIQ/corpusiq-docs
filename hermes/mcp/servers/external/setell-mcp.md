@@ -3,7 +3,7 @@ title: "Setell MCP - Quote-to-Cash Agent for Small Service"
 description: "Setell MCP server - vertical AI agent for quote-to-cash workflows in small service businesses (machine shops, contractors, field services). Generate quotes"
 category: mcp
 tags: [mcp-server, finance, quote-to-cash, service-business, smb, operations]
-last_updated: 2026-10-24
+last_updated: 2026-10-30
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/setell-mcp/"
 robots: "index,follow"
 
@@ -52,13 +52,35 @@ npx setell-mcp
 
 ## Key Tools
 
+25 tools, all prefixed `setell_`.
+
 | Tool | Description |
 |------|-------------|
-| `create_quote` | Generate a priced quote from service templates and historical data |
-| `list_quotes` | Browse active and past quotes with status filters |
-| `convert_to_order` | Convert an accepted quote into a work order |
-| `track_payment` | Check payment status on outstanding invoices |
-| `get_customer_history` | Retrieve quote and order history for a specific client |
+| `setell_get_health` | Setell connection health |
+| `setell_find_jobs` | Find Setell jobs |
+| `setell_get_quote` | Get a Setell quote |
+| `setell_find_customer` | Find Setell customers |
+| `setell_get_morning_brief` | Setell morning brief |
+| `setell_get_pricing_signal` | Setell pricing signal |
+| `setell_propose_parts_list` | Setell parts-list proposal |
+| `setell_get_autonomy` | Setell autonomy modes |
+| `setell_set_autonomy` | Set autonomy mode |
+| `setell_get_shop_profile` | Setell shop profile |
+| `setell_update_shop_profile` | Update shop profile |
+| `setell_get_customer_baseline` | Customer pricing baseline |
+| `setell_get_customer_memory` | Customer memory list |
+| `setell_save_customer_memory` | Save customer memory |
+| `setell_get_learning_coverage` | Learning-loop coverage |
+| `setell_get_pricing_calibration` | Pricing report card |
+| `setell_get_quote_tiers` | List quote tiers |
+| `setell_generate_quote_tiers` | Generate quote tiers |
+| `setell_select_quote_tier` | Select a quote tier |
+| `setell_compose_quote` | Compose a quote email |
+| `setell_send_quote` | Send a quote |
+| `setell_schedule_send` | Schedule a quote send |
+| `setell_cancel_scheduled_send` | Cancel a scheduled send |
+| `setell_get_job_margin` | Realized job margin |
+| `setell_get_margin_summary` | Margin summary |
 
 ## Authentication
 
