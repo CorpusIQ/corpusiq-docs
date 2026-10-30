@@ -20281,5 +20281,131 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-29T10:04:09.322282+00:00"
+  },
+  {
+    "repo": "RobinBeraud/hermes-skills",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532930+00:00"
+  },
+  {
+    "repo": "atostivint/hermes-adaptive-effort",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532934+00:00"
+  },
+  {
+    "repo": "UlyssesLeoLee/MAGOS",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532937+00:00"
+  },
+  {
+    "repo": "viminizer/germes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532939+00:00"
+  },
+  {
+    "repo": "KunalSiyag/linkedin-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532941+00:00"
+  },
+  {
+    "repo": "subasmk/viktor",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532943+00:00"
+  },
+  {
+    "repo": "z0nam/hermes-slackbot",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532945+00:00"
+  },
+  {
+    "repo": "georgeslane/Hermes-indexing-mcp-server",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532947+00:00"
+  },
+  {
+    "repo": "codeofaxel/Kiln",
+    "score": 82,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-30T10:04:46.532949+00:00"
+  },
+  {
+    "repo": "DadaDevelopment/hermes-project-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532951+00:00"
+  },
+  {
+    "repo": "brunosouzas/hermes-day-panel",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532956+00:00"
+  },
+  {
+    "repo": "SpIvanM/hermes-agy-acp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532958+00:00"
+  },
+  {
+    "repo": "thealps01-netizen/hermes-skill-branches",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532960+00:00"
+  },
+  {
+    "repo": "lkshrk/agent-stack",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532962+00:00"
+  },
+  {
+    "repo": "jytx/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532964+00:00"
+  },
+  {
+    "repo": "Astoltzweb/hermes-console",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532965+00:00"
+  },
+  {
+    "repo": "ricardoafo/hermes",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532967+00:00"
+  },
+  {
+    "repo": "Voevoda91/https-github.com-NousResearch-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-30T10:04:46.532969+00:00"
   }
 ]

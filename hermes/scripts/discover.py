@@ -306,9 +306,36 @@ def sync_contributors(submissions, approved_count):
             lambda m: m.group(1) + today,
             new_text,
         )
+        # Last Active column: the maintainer row carries two dates and only the
+        # trailing one means "last active". Without this the row sat a day behind
+        # the page dates on every run.
+        new_text = re.sub(
+            r"(\| \[@?CorpusIQ\]\(https://github\.com/CorpusIQ\) \| \d+ \| \d+ \| [^|]+ \| \d{4}-\d{2}-\d{2} \| )\d{4}-\d{2}-\d{2}( \|)",
+            lambda m: m.group(1) + today + m.group(2),
+            new_text,
+        )
         if new_text != text:
             path.write_text(new_text)
             touched.append(path.name)
+    # data/contributors.json is the machine-readable tally the dashboards and the
+    # dup-fire consistency battery read. It was never written here, so four
+    # consecutive pipeline runs each needed a hand reconcile after the markdown
+    # surfaces had already moved. Write it from the same call that writes them.
+    if CONTRIBUTORS_DB.exists():
+        try:
+            entries = load_db(CONTRIBUTORS_DB)
+        except Exception:
+            entries = []
+        touched_json = False
+        for entry in entries:
+            if entry.get("github_user") == "CorpusIQ":
+                entry["submissions"] = submissions
+                entry["approved"] = approved_count
+                entry["last_contribution"] = today
+                touched_json = True
+        if touched_json:
+            save_db(CONTRIBUTORS_DB, entries)
+            touched.append(CONTRIBUTORS_DB.name)
     return touched
 
 
