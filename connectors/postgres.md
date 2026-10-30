@@ -46,6 +46,7 @@ CorpusIQ runs SELECT queries only. No writes, no schema changes.
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard Postgres conventions. Verify before publish. -->
 ## See also
 
+- [Connect PostgreSQL to Claude](../connect-postgresql-to-claude.md) - the Claude Desktop setup, the read-only role pattern and the questions worth asking.
 - [Connect PostgreSQL to ChatGPT](../connect-postgresql-to-chatgpt.md) - the ChatGPT setup, the read-only role pattern and the questions worth asking.
 
 ---

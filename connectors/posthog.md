@@ -58,6 +58,7 @@ What percentage of users who signed up last week are still active today?
 
 ## See also
 
+- [Connect PostHog to Claude](../connect-posthog-to-claude.md) - the Claude Desktop setup, the questions worth asking and the read-only boundary.
 - [Connect PostHog to ChatGPT](../connect-posthog-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
 ---
 

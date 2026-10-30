@@ -86,6 +86,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect Google Docs to Claude](connect-google-docs-to-claude.md) - the same documents, set up for Claude Desktop
 - [Google Workspace connector reference](connectors/google_workspace.md) - the single Google connection and its read-only guarantees
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - files, storage and search
 - [Connect Google Sheets to ChatGPT](connect-google-sheets-to-chatgpt.md) - the numbers beside the prose

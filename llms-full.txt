@@ -7563,6 +7563,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect Google Docs to Claude](connect-google-docs-to-claude.md) - the same documents, set up for Claude Desktop
 - [Google Workspace connector reference](connectors/google_workspace.md) - the single Google connection and its read-only guarantees
 - [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - files, storage and search
 - [Connect Google Sheets to ChatGPT](connect-google-sheets-to-chatgpt.md) - the numbers beside the prose
@@ -7573,6 +7574,182 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Google Docs to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-docs-to-claude
+
+
+# How to Connect Google Docs to Claude with CorpusIQ MCP
+
+The decisions live in documents. The pricing brief, the board notes, the onboarding checklist, the contract redline. Finding the sentence you half remember means opening Drive, guessing at the title, and scrolling until it looks familiar.
+
+Connecting Google Docs through CorpusIQ MCP makes that text askable. You describe the document, Claude finds it and reads it, and the answer points back at the passage it came from.
+
+### Why Connect Google Docs to Claude?
+
+- **Recall instead of search.** "Which document recorded the decision to move the launch date?"
+- **Summaries you can check.** "Summarize the pricing brief we updated last week, and quote the paragraph that sets the discount."
+- **Instruction lookup.** "What does the onboarding checklist say about connecting a data source?"
+- **Extraction.** "Pull the open questions out of the board notes and group them by owner."
+- **Comparison.** "What changed between the v2 and v3 versions of the implementation plan?"
+- **Read-only by scope.** The connection lists and reads files. It cannot edit, rename, move, share, or comment.
+
+### How It Works
+
+1. **Connect Google Workspace to CorpusIQ** once and approve the read scopes on Google's consent screen.
+2. **The documents you can open become reachable** through the Drive file tools, which is the layer that reaches Google Docs content.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **CorpusIQ finds and reads** the file the question points at and returns the text.
+5. **Claude answers** from that text, naming the document so the claim can be checked against the source.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Workspace**. This one connection covers Gmail, Calendar, Drive, Sheets, Google Analytics, Google Ads, and Search Console behind a single sign-in.
+3. Sign in to Google and approve the read-only scopes.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+9. Verify with a question whose answer you can see yourself: "find the documents I edited this week". If the file names look right, Drive access is working.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Finding the document**
+
+- "Which document records the decision to move the launch date?"
+- "Find every doc that mentions the Acme renewal."
+- "What did I edit in Drive this week?"
+
+**Reading it**
+
+- "Summarize the pricing brief we updated last week in five bullets."
+- "What does the onboarding checklist say about connecting a data source?"
+- "Quote the section of the services agreement that covers notice periods."
+
+**Working across documents**
+
+- "Pull the open questions from the board notes and group them by owner."
+- "Compare the v2 and v3 implementation plans and list what changed."
+- "Which docs mention the Acme renewal, and what did we promise in each?"
+
+**Cross-source**
+
+- "Does the renewal date in the contract doc match the close date in the CRM?" (requires the CRM connector)
+- "Which documents mention invoices that are still open in QuickBooks?" (requires the accounting connector)
+
+### Security
+
+- **Read scope only.** The connection lists and reads files. There is no write path from Claude into a document.
+- **Comments and revisions stay out.** The connection reads content, so ask what a document says rather than who changed it.
+- **Account-scoped.** It reads what the signed-in Google account can open. A restricted share keeps its restriction.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Claude.
+
+### Comparison: Drive Search vs Documents Through Claude
+
+| Aspect | Drive search | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A title you half remember | A question about the content |
+| Output | A list of files | The passage, plus the file it came from |
+| Across documents | One file at a time | Asked once across a set |
+| Summarising | You read the whole document | Asked directly, with quotes |
+| Spreadsheets next door | Separate tool | Same connection, read by range |
+| Write access | Yes, by you | None, read-only scope |
+
+Search is the right tool when you know the file name. Claude is the right tool when you know the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is there a separate Google Docs connector?</strong></summary>
+
+No, and you do not need one. Google Docs is read through the Google Workspace connector, which covers Gmail, Calendar, Drive, Sheets, Google Analytics, Google Ads, and Search Console in a single sign-in. Drive is the layer that reaches your documents.
+</details>
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector lists and searches files and reads file contents. It cannot create, edit, rename, move, share, or delete a document, and it never leaves a comment or accepts a suggestion.
+</details>
+
+<details>
+<summary><strong>What file types can it read?</strong></summary>
+
+Documents, PDFs, and plain text files through Drive content reading. Spreadsheets are read through the Sheets tools by range, which keeps a large workbook predictable instead of dumping the whole file into a conversation.
+</details>
+
+<details>
+<summary><strong>Can it read documents shared with me but owned by someone else?</strong></summary>
+
+It reads what the signed-in Google account can open. A document shared with your account is visible. A document you have no access to is not. The Google permission model stays the permission model.
+</details>
+
+<details>
+<summary><strong>Can it tell me who edited a document or what changed?</strong></summary>
+
+No. The connection reads document content. Comments, suggestions, and revision history are outside it, so ask what the document says rather than who changed it.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. When you ask, the connector reads the document as it stands. An edit made a minute ago is visible to the next question.
+</details>
+
+<details>
+<summary><strong>Does connecting Docs expose my whole Drive?</strong></summary>
+
+The Workspace connection reaches the files the account can open, which in practice is the whole Drive for that account. If that is too broad, connect with an account scoped to the team whose documents you actually need. Revoke any permission later from Google Account settings.
+</details>
+
+<details>
+<summary><strong>Where is my document data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational logs may persist for up to 30 days. See the [security documentation](../security/) for detail.
+</details>
+
+<details>
+<summary><strong>Why Claude for documents rather than a search box?</strong></summary>
+
+A search box returns files. Claude reads them, compares them, and answers the question the files were meant to answer. The saving is not the search, it is the reading that used to happen afterwards.
+</details>
+
+---
+
+**Next steps:** [Connect Google Docs to Claude now](https://corpusiq.io/connect/google-docs-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Google Drive to ChatGPT with CorpusIQ MCP
@@ -9931,6 +10108,186 @@ The Outlook integration's security is enforced by Microsoft's permission framewo
 [Content truncated; see the canonical page for the complete text.]
 
 ---
+# How to Connect Outlook to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-outlook-to-claude
+
+
+# How to Connect Outlook to Claude with CorpusIQ MCP
+
+Most of what a business agreed to is written down in email. The delivery date, the discount that was approved, the reason the last invoice was disputed. Finding it means opening Outlook, trying three spellings of a name, and reading a thread backwards.
+
+Connecting Outlook through CorpusIQ MCP makes the mailbox askable. You describe what you are looking for, Claude searches the folders and reads the thread, and the answer comes back with the message it came from.
+
+### Why Connect Outlook to Claude?
+
+- **Thread recall.** "What did the client say about the delivery timeline?"
+- **Search without spelling guesses.** "Find every email from the Microsoft account team this quarter."
+- **Summaries.** "Summarize the unread mail from this morning, grouped by sender."
+- **Action extraction.** "Pull the action items out of this week's project updates."
+- **Relationship questions.** "When did I last email the vendor contact, and what did we agree?"
+- **Calendar context.** "What is on my calendar this week that relates to the Acme renewal?"
+- **Read-only by permission.** Microsoft Graph `Mail.Read` and `Calendars.Read`. Claude cannot send, delete, move, or create anything.
+
+### How It Works
+
+1. **Connect Outlook to CorpusIQ** through Microsoft's consent screen and accept the read-only permissions.
+2. **CorpusIQ reads Microsoft Graph** on your behalf: folder structure, message content, attachments metadata, calendar events.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **Claude searches and reads** the messages that answer the question, with Graph pagination and decoding handled behind the scenes.
+5. **The answer cites the message** it came from, so the claim can be checked against the thread.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connections**.
+2. Find **Outlook** (or **Microsoft 365**) and click **Connect**. If OneDrive is already connected under Microsoft 365, Outlook may already be authorized.
+3. Sign in with your Microsoft account and review the requested permissions: `Mail.Read` and `Calendars.Read`. Click **Accept**.
+4. You return to CorpusIQ and the Outlook card turns green.
+5. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+6. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+7. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+8. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+9. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+10. Verify with "show me my Outlook folders". If the folder names look right, mailbox access is working.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Search**
+
+- "Find all emails from the Microsoft account team this quarter."
+- "Search my inbox for anything about the compliance audit."
+- "Show me emails with attachments sent last week."
+- "Which messages mention the contract negotiation?"
+
+**Reading**
+
+- "What did the client say about the delivery timeline?"
+- "Summarize the thread about the budget approval and list what was agreed."
+- "Pull the action items out of this week's project status emails."
+
+**Folders and mailbox state**
+
+- "How many unread emails do I have, by folder?"
+- "Show me the messages in the Projects folder."
+- "Which folders hold the most mail?"
+
+**Relationships and calendar**
+
+- "When did I last email the vendor contact?"
+- "Show my email history with Acme over the last 12 months."
+- "What is on my calendar this week?"
+
+**Cross-source**
+
+- "Which open deals in the CRM have no email in the last 30 days?" (requires the CRM connector)
+- "Does the invoice amount in the email match what QuickBooks shows?" (requires the accounting connector)
+
+### Security
+
+- **Read permissions only.** `Mail.Read` and `Calendars.Read`. `Mail.Read` does not include any write capability, so there is no path from Claude into a message.
+- **No sending.** The connection never sends mail, replies, deletes a message, moves a folder, or creates an event.
+- **Tenant-controlled.** In a Microsoft 365 tenant, an administrator can require approval before any third-party application is granted access. The consent URL is in your dashboard.
+- **Revocable two ways.** Click **Reconnect** to refresh a lapsed token, or revoke the application in Microsoft Entra to end access.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Microsoft Graph, CorpusIQ, and Claude.
+
+### Comparison: Outlook Search vs Mail Through Claude
+
+| Aspect | Outlook search | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A keyword or a sender name | A question about what was said |
+| Output | A list of messages | A summary with the message cited |
+| Across folders | One folder at a time | Asked once, all folders |
+| Thread reading | You read top to bottom | Asked directly, key points out |
+| Attachments | Open each one | Filename, type, and size surfaced |
+| Calendar plus mail | Two searches | One question, both sources |
+| Write access | Yes, by you | None, read-only permission |
+
+Search finds the message. Claude is what tells you what it means across forty of them.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is the connection read-only?</strong></summary>
+
+Yes. CorpusIQ requests the `Mail.Read` and `Calendars.Read` delegated permissions from Microsoft Graph. Claude can search, list, and read mail across folders and read calendar events. It cannot send an email, delete a message, move one between folders, change categories, or create an event.
+</details>
+
+<details>
+<summary><strong>What Outlook data can Claude access?</strong></summary>
+
+Messages across the folders the signed-in account can open: Inbox, Sent Items, custom folders, and archive folders. Message properties include sender, recipients, subject, date, body, categories, flags, and importance. Folder structure with message and unread counts. Attachment metadata with filename, type, and size. Calendar events and their details.
+</details>
+
+<details>
+<summary><strong>Can it search a specific folder?</strong></summary>
+
+Yes. "Search the Client Projects folder for emails about the Q3 deliverables" works, and so does a search across all folders. Folder targeting adds precision in a large mailbox, which is usually the difference between a clean answer and a noisy one.
+</details>
+
+<details>
+<summary><strong>My folder structure is nested and messy. Does that break it?</strong></summary>
+
+No. Claude can discover the folder structure first, then search within the folder it found. You do not need to remember where something lives any more than you do in a chat with a colleague who knows your filing habits.
+</details>
+
+<details>
+<summary><strong>Does it read attachments?</strong></summary>
+
+It surfaces attachment metadata: filename, type, and size. The contents of a document attached to a message are a different read, and for Google or Microsoft documents the file tools are the right route.
+</details>
+
+<details>
+<summary><strong>What if the mailbox is a shared or team mailbox?</strong></summary>
+
+Access follows the account you authorize. A shared mailbox the account can open is reachable. One it cannot open stays out of reach. Folder targeting is the practical way to keep a shared mailbox answerable without mixing it into personal mail.
+</details>
+
+<details>
+<summary><strong>My IT admin blocks connections. What happens?</strong></summary>
+
+Microsoft Entra can require admin approval before any third-party application is granted permissions. If that happens, the connector reports "admin approval required" and your dashboard has the consent URL to send to the administrator. Nothing is half-connected in the meantime.
+</details>
+
+<details>
+<summary><strong>Why Claude rather than Outlook's own search?</strong></summary>
+
+Outlook search returns messages. Claude reads them, reconciles what three people said, and states what was actually agreed. For a thread of forty messages that is the difference between an afternoon and a question.
+</details>
+
+---
+
+**Next steps:** [Connect Outlook to Claude now](https://corpusiq.io/connect/outlook-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect PostgreSQL to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-postgresql-to-chatgpt
 
@@ -10020,6 +10377,7 @@ Queries run against your database, so cost follows your own query patterns. Filt
 
 ## Related Pages
 
+- [Connect PostgreSQL to Claude](connect-postgresql-to-claude.md) -- the same connection, set up for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md) -- the full list
 - [MCP vs API Integrations](mcp-vs-api-integrations.md) -- why the access model differs
 - [CorpusIQ Security Architecture](../security/) -- how credentials and data are handled
@@ -10028,6 +10386,186 @@ Queries run against your database, so cost follows your own query patterns. Filt
 - [Rate Limits and Quotas](how-it-works/rate-limits-and-quotas.md) -- the operational limits
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect PostgreSQL to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-postgresql-to-claude
+
+
+# How to Connect PostgreSQL to Claude with CorpusIQ MCP
+
+A PostgreSQL database holds the operational truth of a business: orders, customers, invoices, inventory, events. Almost nobody in the company can read it. Everyone else waits for a report, and the report is out of date the day it arrives.
+
+Connecting PostgreSQL through CorpusIQ MCP puts the read side of that database behind a plain-language question. You ask, Claude reads the tables as they stand, and the answer names what it looked at.
+
+### Why Connect PostgreSQL to Claude?
+
+- **Counts without a ticket.** "How many orders did we take last week, by day?" instead of a request to engineering.
+- **Customer questions.** "Which accounts are above 10,000 in revenue over the last 90 days?"
+- **Inventory state.** "Which SKUs have stock on hand below the reorder point?"
+- **Behaviour questions.** "What is the average time between signup and first order?"
+- **Schema-aware SQL.** Claude reads the tables and columns the connecting role can see, then writes the join instead of describing how to write it.
+- **Read-only by scope.** The connection reads. It does not update, delete, or run schema changes.
+
+### How It Works
+
+1. **Create a read-only role in PostgreSQL** and grant SELECT on the schemas you want reachable.
+2. **Connect PostgreSQL to CorpusIQ** in the dashboard with the host, database name, and that role's credentials.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **CorpusIQ translates** the question into a read-only query, runs it against your instance, and returns the rows.
+5. **Claude answers** from the result, naming the tables and columns it used.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In PostgreSQL**
+
+1. Create a role for this purpose. Do not reuse the application's owner account.
+2. Grant SELECT on the schemas that hold the data you want answerable, and nothing else.
+3. Confirm the instance accepts connections from outside its own network. An allowlist has to include the connector before anything else can work.
+
+**In CorpusIQ**
+
+4. Log in and open **Connections**.
+5. Select **PostgreSQL** and enter the host, database name, and the read-only credentials.
+6. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Trading and revenue**
+
+- "How many orders did we take last week, by day?"
+- "Show revenue by month for the last 12 months and tell me which month broke the trend."
+- "Which customers spent more than 10,000 in the last 90 days?"
+
+**Operations and stock**
+
+- "Which SKUs are below the reorder point right now, sorted by how far below?"
+- "What is the median time from order to shipment, by warehouse?"
+- "Which orders are still open after 14 days?"
+
+**Schema and exploration**
+
+- "List the tables in the public schema and tell me which ones look transactional."
+- "Which columns join the orders table to the customers table?"
+- "Write the query that answers the last question, then run it."
+
+**Cross-source**
+
+- "Compare the orders table total for last month against Stripe payouts." (requires the Stripe connector)
+- "Which accounts in the CRM have no rows in the orders table?" (requires the CRM connector)
+
+### Security
+
+- **Read-only role.** SELECT on scoped schemas. The credential cannot write, and the MCP path does not try.
+- **Credential stays in CorpusIQ.** Connection details are entered once in the dashboard and are not exposed to the assistant.
+- **Visible is answerable.** What the role cannot see, the answer cannot contain. Scoping the role is the control that matters.
+- **Revocable in minutes.** Drop the role or revoke the connection and access ends.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between your database host, CorpusIQ, and Claude.
+
+### Comparison: A Reporting Tool vs Postgres Through Claude
+
+| Aspect | Dashboard or BI tool | CorpusIQ MCP with Claude |
+|---|---|---|
+| Who can ask | Whoever was trained on the tool | Anyone who can write a sentence |
+| New question | A new chart or a request | A question, answered live |
+| Joins | Modelled in advance | Written per question |
+| Across sources | Warehouse or export first | Asked in one pass |
+| Latency to first answer | Days to weeks | Under a minute |
+| Write access | As configured | None, read-only role |
+
+The BI tool is the right home for numbers you check every Monday. The connector is the right tool for the question nobody has asked before.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is the connection read-only?</strong></summary>
+
+Yes. The retrieval path reads. It does not update or delete rows, and it does not run schema changes. A write-capable path for an application is a different credential with a different purpose, and it is not part of this connector.
+</details>
+
+<details>
+<summary><strong>What do I need to connect a database?</strong></summary>
+
+A reachable PostgreSQL instance and a role that can read the schemas you want exposed. The standard practice is a dedicated read-only role scoped to those schemas rather than your application's owner account. Connection details go in once, in the CorpusIQ dashboard.
+</details>
+
+<details>
+<summary><strong>Does it work with hosted Postgres?</strong></summary>
+
+Yes, if the instance accepts connections from outside its own network. Supabase, Neon, RDS, and Cloud SQL all support this, and providers that restrict inbound access to an allowlist need that allowance added before the connector can reach the database.
+</details>
+
+<details>
+<summary><strong>How does Claude know my schema?</strong></summary>
+
+It sees the tables and columns the connecting role can see, which is also why scoping the role matters. A role with access to twelve schemas produces worse answers than a role scoped to the three that matter, because irrelevant tables compete for attention and invite the wrong join.
+</details>
+
+<details>
+<summary><strong>Can it join tables?</strong></summary>
+
+Yes. Joins, aggregations, and date bucketing are the reason to put a database behind this interface. "Revenue by month by channel" usually means three tables and a join nobody in the room would have written by hand.
+</details>
+
+<details>
+<summary><strong>Will it show raw customer records?</strong></summary>
+
+It runs a read-only SELECT for the question you ask. CorpusIQ does not retain raw customer files or full connector response payloads. If your data policy forbids exposing certain columns at all, exclude them from the connecting role's grants. That is the control that holds, not a prompt instruction.
+</details>
+
+<details>
+<summary><strong>Can I combine database data with Shopify, Stripe, or QuickBooks?</strong></summary>
+
+Yes. "Does our Stripe revenue match the orders table for last month" reads both sources in one pass, and that comparison is usually the reason a database connector is worth connecting at all.
+</details>
+
+<details>
+<summary><strong>What about performance?</strong></summary>
+
+Queries run against your database, so cost follows your own query patterns. Filter by date range and select the columns you need, exactly as you would in any client. A read replica is the safest target if the primary is load sensitive.
+</details>
+
+<details>
+<summary><strong>Why Claude rather than the database console?</strong></summary>
+
+Claude reads the schema, holds the whole question, and writes the query while explaining what it assumed. The console gives you an empty prompt. For one-off questions from people who do not live in SQL, that difference is the product.
+</details>
+
+---
+
+**Next steps:** [Connect PostgreSQL to Claude now](https://corpusiq.io/connect/postgresql-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect PostHog to ChatGPT with CorpusIQ MCP
@@ -10114,6 +10652,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect PostHog to Claude](connect-posthog-to-claude.md) - the same project, set up for Claude Desktop
 - [PostHog connector reference](connectors/posthog.md) - visible data, prompts and the read-only boundary
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - traffic alongside product usage
 - [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - put revenue next to activation
@@ -10125,6 +10664,186 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect PostHog to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-posthog-to-claude
+
+
+# How to Connect PostHog to Claude with CorpusIQ MCP
+
+PostHog answers the product question. The revenue question needs the same facts next to the CRM, the billing system, and the support desk, and that is where the answer usually stops.
+
+Connecting PostHog through CorpusIQ MCP puts events, funnels, person records, and HogQL in the same conversation as everything else you run the business on. You ask, Claude reads the project as it stands, and the answer names the events it counted.
+
+### Why Connect PostHog to Claude?
+
+- **Funnel questions.** "How many users completed onboarding this week, and where do the rest stop?"
+- **Activation questions.** "What is the conversion rate from signup to first data source connected?"
+- **Live behaviour.** "Which events fired most in the last 24 hours?"
+- **Segment questions.** "Which accounts from last month's cohort are still active today?"
+- **HogQL when the question needs it.** "Run a HogQL query that groups weekly active accounts by plan."
+- **Read-only by key.** The personal API key reads. It cannot capture an event, change a person record, alter a feature flag, or touch session recordings.
+
+### How It Works
+
+1. **Create a personal API key in PostHog** and note the project ID you want visible.
+2. **Connect PostHog to CorpusIQ** with that key and project ID. Anything the key cannot reach is invisible to the connector.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **CorpusIQ queries the project**: events, event definitions, person records, funnel results, and HogQL results.
+5. **Claude answers** from those results, naming the events and the window it used.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In PostHog**
+
+1. Open **Settings**, then **Personal API keys**, and create a key for this purpose. Do not reuse a key that is already embedded in your application.
+2. Note the **project ID** for the project you want answerable.
+3. If the key has scopes, grant read access to the project resources you need and nothing else.
+
+**In CorpusIQ**
+
+4. Log in and open **Connections**.
+5. Select **PostHog** and paste the personal API key with the project ID.
+6. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+11. Verify with "which events fired most in the last 24 hours". If the event names are real, the key is working.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Funnels and activation**
+
+- "How many users completed the onboarding funnel this week?"
+- "What is the conversion rate from signup to first data source connected?"
+- "Where in the funnel do most users stop, and what event precedes the drop?"
+
+**Events and definitions**
+
+- "Which events fired most in the last 24 hours?"
+- "Which events are defined but have not fired in 30 days?"
+- "Show the properties we send with the signup event."
+
+**People and cohorts**
+
+- "Which accounts signed up last month and are still active today?"
+- "How many distinct accounts hit the report event last week?"
+- "Which plan is the most active cohort right now?"
+
+**HogQL**
+
+- "Run a HogQL query that groups weekly active accounts by plan."
+- "Write a HogQL query for activation rate by signup week, then run it."
+
+**Cross-source**
+
+- "Which accounts are heavy product users in PostHog but on the lowest plan in Stripe?" (requires the billing connector)
+- "Do accounts that churned in the CRM show a usage drop two weeks earlier?" (requires the CRM connector)
+
+### Security
+
+- **Read-only key.** The connector reads events, event definitions, person records, funnel data, and HogQL results. It cannot capture an event, edit a person record, change a feature flag, or read session recordings through this path.
+- **Scoped by key.** What the personal API key cannot reach, the connector cannot answer from. Create a key for this purpose rather than reusing an application key.
+- **Revocable immediately.** Delete the key in PostHog under **Settings, Personal API keys** and access ends at once.
+- **Project-scoped.** The project ID bounds what is visible. A second project needs its own connection.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between PostHog, CorpusIQ, and Claude.
+
+### Comparison: The PostHog UI vs PostHog Through Claude
+
+| Aspect | PostHog interface | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A chart or an insight you configure | A question, with the window stated |
+| Output | A graph to interpret | A number plus the events counted |
+| HogQL | You write it | Written and run for you |
+| Across sources | Export, then reconcile | Asked across connectors |
+| New question | Build another insight | Ask again |
+| Write access | Yes, by you | None, read-only key |
+
+The PostHog interface is the right place for the dashboard you open every morning. Claude is the right place for the question that arrives once and needs an answer today.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector reads events and event definitions, person records, funnel conversion data, and HogQL query results. It cannot capture an event, change a person record, alter a feature flag, or touch session recordings.
+</details>
+
+<details>
+<summary><strong>How does the connection authenticate?</strong></summary>
+
+With a PostHog personal API key plus the project ID you want visible. Both are created in PostHog under **Settings**, then **Personal API keys**. Anything the key cannot reach is invisible to the connector, and revoking the key in PostHog ends access immediately.
+</details>
+
+<details>
+<summary><strong>Do I need to know HogQL?</strong></summary>
+
+No. Most questions are answered from events, funnels, and person records without any query language. When a question needs HogQL, Claude writes it and runs it, so you can read the query it produced and check the logic rather than authoring it yourself.
+</details>
+
+<details>
+<summary><strong>Does it see session recordings or replays?</strong></summary>
+
+No. Session recordings are outside this connection. The path reads events, persons, funnels, and query results, not screen recordings.
+</details>
+
+<details>
+<summary><strong>Can Claude change a feature flag?</strong></summary>
+
+No. Feature flags are outside this connection entirely, so Claude can neither read flag state nor change it. Rolling out a flag is a deliberate human action in PostHog.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live against the project when you ask. PostHog itself has ingestion lag on very recent events, so a question about the last five minutes can read lower than reality. Ask over a completed day or week when the number matters.
+</details>
+
+<details>
+<summary><strong>Which project does it read?</strong></summary>
+
+The project ID you entered. If you run separate projects for production and staging, connect production and keep staging out of range entirely.
+</details>
+
+<details>
+<summary><strong>Why connect product analytics to Claude at all?</strong></summary>
+
+Because the useful questions are rarely about product data alone. "Which heavy users are on the lowest plan" spans PostHog and billing. "Did usage drop before churn" spans PostHog and the CRM. A product analytics tool answers the first half of those questions well.
+</details>
+
+---
+
+**Next steps:** [Connect PostHog to Claude now](https://corpusiq.io/connect/posthog-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect QuickBooks to ChatGPT with CorpusIQ MCP
@@ -26485,6 +27204,7 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - [Connect Google Drive to Claude](../connect-google-drive-to-claude.md) - document answers in Claude Desktop from the same connection.
 - [Connect Google Calendar to Claude](../connect-google-calendar-to-claude.md) - meeting load and commitments for Claude Desktop.
 - [Connect Google Docs to ChatGPT](../connect-google-docs-to-chatgpt.md) - briefs, contracts and meeting notes behind a plain-English question.
+- [Connect Google Docs to Claude](../connect-google-docs-to-claude.md) - document answers in Claude Desktop from the same connection.
 
 ---
 
@@ -27410,6 +28130,11 @@ Read-only. CorpusIQ never sends mail, replies, deletes messages, or creates even
 - "Admin approval required" - your IT admin must whitelist CorpusIQ in Microsoft Entra. Send them the consent URL from your dashboard.
 - Calendar empty - confirm the events are in your default calendar, not a shared/team calendar.
 - "Token expired" - Microsoft tokens roll over often. Click Reconnect in your dashboard.
+
+## See also
+
+- [Connect Outlook to Claude](../connect-outlook-to-claude.md) - the Claude Desktop setup, the questions worth asking and the read-only boundary.
+- [Connect Outlook to ChatGPT](../connect-outlook-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -27492,6 +28217,7 @@ CorpusIQ runs SELECT queries only. No writes, no schema changes.
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard Postgres conventions. Verify before publish. -->
 ## See also
 
+- [Connect PostgreSQL to Claude](../connect-postgresql-to-claude.md) - the Claude Desktop setup, the read-only role pattern and the questions worth asking.
 - [Connect PostgreSQL to ChatGPT](../connect-postgresql-to-chatgpt.md) - the ChatGPT setup, the read-only role pattern and the questions worth asking.
 
 ---
@@ -27557,6 +28283,7 @@ What percentage of users who signed up last week are still active today?
 
 ## See also
 
+- [Connect PostHog to Claude](../connect-posthog-to-claude.md) - the Claude Desktop setup, the questions worth asking and the read-only boundary.
 - [Connect PostHog to ChatGPT](../connect-posthog-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
 ---
 

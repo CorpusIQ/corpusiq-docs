@@ -181,6 +181,10 @@ nav:
   - Connect Slack to Claude: connect-slack-to-claude.md
   - Connect Notion to Claude: connect-notion-to-claude.md
   - Connect SharePoint to Claude: connect-sharepoint-to-claude.md
+  - Connect Google Docs to Claude: connect-google-docs-to-claude.md
+  - Connect Outlook to Claude: connect-outlook-to-claude.md
+  - Connect PostgreSQL to Claude: connect-postgresql-to-claude.md
+  - Connect PostHog to Claude: connect-posthog-to-claude.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md

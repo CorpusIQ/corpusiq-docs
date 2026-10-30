@@ -67,6 +67,7 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - [Connect Google Drive to Claude](../connect-google-drive-to-claude.md) - document answers in Claude Desktop from the same connection.
 - [Connect Google Calendar to Claude](../connect-google-calendar-to-claude.md) - meeting load and commitments for Claude Desktop.
 - [Connect Google Docs to ChatGPT](../connect-google-docs-to-chatgpt.md) - briefs, contracts and meeting notes behind a plain-English question.
+- [Connect Google Docs to Claude](../connect-google-docs-to-claude.md) - document answers in Claude Desktop from the same connection.
 
 ---
 

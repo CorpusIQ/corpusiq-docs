@@ -164,6 +164,7 @@ Under 5 minutes from signup to enterprise email intelligence in ChatGPT.
 
 ## Related Pages
 
+- [Connect Outlook to Claude](connect-outlook-to-claude.md)  --  the same mailbox, set up for Claude Desktop
 - [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt.md)  --  Google email in ChatGPT
 - [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt.md)  --  Microsoft intranet in ChatGPT
 - [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
@@ -172,7 +173,7 @@ Under 5 minutes from signup to enterprise email intelligence in ChatGPT.
 - [ChatGPT Integration Overview](chatgpt-integration.md)  --  the full integration
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md)  --  why MCP wins
 - [MCP for Enterprise](mcp-for-enterprise.md)  --  enterprise deployment
-- [Outlook Connector Reference](connect-outlook-to-chatgpt.md)  --  technical details
+- [Outlook Connector Reference](connectors/outlook.md)  --  technical details
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*

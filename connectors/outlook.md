@@ -41,6 +41,11 @@ Read-only. CorpusIQ never sends mail, replies, deletes messages, or creates even
 - "Admin approval required" - your IT admin must whitelist CorpusIQ in Microsoft Entra. Send them the consent URL from your dashboard.
 - Calendar empty - confirm the events are in your default calendar, not a shared/team calendar.
 - "Token expired" - Microsoft tokens roll over often. Click Reconnect in your dashboard.
+
+## See also
+
+- [Connect Outlook to Claude](../connect-outlook-to-claude.md) - the Claude Desktop setup, the questions worth asking and the read-only boundary.
+- [Connect Outlook to ChatGPT](../connect-outlook-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only boundary.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
