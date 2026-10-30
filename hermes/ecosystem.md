@@ -407,11 +407,11 @@ _Platform connectors, bridges, adapters_
 
 ---
 
-### [xintaofei/codeg](https://github.com/xintaofei/codeg) ⭐ 2,326
+### [spacering-net/codeg](https://github.com/spacering-net/codeg) ⭐ 4,181
 
 >Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.
 
-**Language:** TypeScript | **Topics:** acp, agent, claude-code, codex, hermes-agent, openclaw, opencode, gui | **Score:** 80/100 | **License:** Apache-2.0
+**Language:** Rust | **Topics:** acp, agent, claude-code, codex, hermes-agent, openclaw, opencode, gui | **Score:** 80/100 | **License:** Apache-2.0
 
 ---
 
@@ -1747,6 +1747,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 >The safest, simplest way to manage Hermes from your Mac. Pure SSH. No gateways, no exposed ports, no browser layer.
 
 **Language:** Swift | **Topics:** agent-tools, apple-silicon, developer-tools, hermes, hermes-agent, macos, remote-development, ssh, swift, swiftui, terminal | **Score:** 73/100
+
+---
+
+### [rusty4444/hermes-android](https://github.com/rusty4444/hermes-android) ⭐ 455
+
+>Android client for Hermes Agent - chat with your Hermes sessions from a phone or tablet over local Wi-Fi or a private Tailscale network.
+
+**Language:** Dart | **Topics:** ai-assistant, android, chat, dart, flutter, hermes-agent | **Score:** 74/100
 
 ---
 
