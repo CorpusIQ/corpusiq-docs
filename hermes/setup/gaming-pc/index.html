@@ -111,8 +111,8 @@
     "description": "Run Hermes Agent on your gaming PC with NVIDIA CUDA acceleration. Local LLM inference at 50-200 tokens/sec, zero API costs.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/gaming-pc",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11714,12 +11714,13 @@ ollama<span class="w"> </span>pull<span class="w"> </span>codestral:22b<span cla
 ollama<span class="w"> </span>pull<span class="w"> </span>nomic-embed-text<span class="w">   </span><span class="c1"># ~274MB</span>
 </code></pre></div>
 <h3 id="step-4-install-hermes-agent">Step 4: Install Hermes Agent<a class="headerlink" href="#step-4-install-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>hermes-agent
+<div class="highlight"><pre><span></span><code><span class="c1"># Official installer  --  brings its own pinned Python and toolchain</span>
+curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.nousresearch.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
 
 hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="w"> </span>gpu-agent
 hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w"> </span>gpu-agent
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>ollama/qwen2.5:14b
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
+hermes<span class="w"> </span>fallback<span class="w"> </span>add<span class="w">    </span><span class="c1"># cloud fallback, tried on rate-limit/overload/connection errors</span>
 </code></pre></div>
 <h3 id="step-5-maximize-gpu-performance">Step 5: Maximize GPU Performance<a class="headerlink" href="#step-5-maximize-gpu-performance" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Set GPU to persistence mode</span>
@@ -11751,8 +11752,8 @@ sudo<span class="w"> </span>nvidia-smi<span class="w"> </span>-pm<span class="w"
 sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>--now<span class="w"> </span>hermes-gateway
 </code></pre></div>
 <h3 id="step-7-browser-automation">Step 7: Browser Automation<a class="headerlink" href="#step-7-browser-automation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>playwright
-playwright<span class="w"> </span>install<span class="w"> </span>chromium
+<div class="highlight"><pre><span></span><code><span class="c1"># Hermes installs a pinned Chromium for local browsing; verify it is healthy</span>
+hermes<span class="w"> </span>doctor
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>libnvidia-gl-550<span class="w">  </span><span class="c1"># For headless GPU rendering</span>
 </code></pre></div>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>

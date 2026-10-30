@@ -111,8 +111,8 @@
     "description": "Complete guide to creating custom Hermes Agent skills. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology",
     "url": "https://www.corpusiq.io/docs/hermes/skills/creating-skills",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11575,12 +11575,15 @@
 <p>Every skill lives in a directory with a <code>SKILL.md</code> file at its root. Here is the complete anatomy:</p>
 <div class="highlight"><pre><span></span><code>---
 name: my-skill-name
-description: A one-sentence description of what this skill does
+description: One sentence on what this does and when to use it
 version: 1.0.0
 author: your-handle
-tags: [tag1, tag2, category]
-required_connectors: [connector-a, connector-b]
-<span class="gu">quality_tier: beta</span>
+platforms: [macos, linux]          # Optional - restrict to specific OS platforms
+metadata:
+  hermes:
+    tags: [tag1, tag2, category]
+    category: support
+<span class="gu">    requires_toolsets: [terminal]  # Optional - conditional activation</span>
 <span class="gu">---</span>
 
 <span class="gh"># Skill Name</span>
@@ -11621,7 +11624,7 @@ Common issues and how to resolve them.
 <span class="gu">## Changelog</span>
 <span class="k">-</span><span class="w"> </span>1.0.0: Initial release
 </code></pre></div>
-<p>Don't skip the metadata block. The <code>required_connectors</code> field lets Hermes verify everything is available before starting. The <code>tags</code> field makes your skill discoverable.</p>
+<p>Don't skip the metadata block. <code>name</code> and <code>description</code> are the required fields; everything else lives under <code>metadata.hermes</code>. The <code>tags</code> list makes your skill discoverable, and <code>requires_toolsets</code> / <code>fallback_for_toolsets</code> control when Hermes offers the skill based on which toolsets are active.</p>
 <h2 id="trigger-patterns">Trigger Patterns<a class="headerlink" href="#trigger-patterns" title="Anchor link to this section">&para;</a></h2>
 <p>Trigger patterns determine when your skill activates. They should be specific enough to avoid false positives but broad enough to catch real user intent.</p>
 <p><strong>Good trigger patterns:</strong>
@@ -11675,9 +11678,9 @@ name: customer-insight
 description: Generates a unified customer profile from CRM, billing, and support data
 version: 1.0.0
 author: community
-tags: [customer, crm, support, billing]
-required_connectors: [crm, quickbooks, email]
-<span class="gu">quality_tier: beta</span>
+metadata:
+  hermes:
+<span class="gu">    tags: [customer, crm, support, billing]</span>
 <span class="gu">---</span>
 
 <span class="gh"># Customer Insight</span>
@@ -11722,11 +11725,20 @@ Format into sections: Contact, Billing, Support, Recent Activity.
 <p>When your skill is tested and documented:</p>
 <ol>
 <li>Verify it works with example.com placeholder data (no real credentials or data)</li>
-<li>Choose the appropriate quality tier based on your testing</li>
-<li>Submit to your preferred marketplace with the skill directory</li>
+<li>Confirm the frontmatter validates (<code>name</code> plus a <code>description</code> that says when to use it)</li>
+<li>Publish by installing from the source, whatever it is:</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="c1"># Push a skill directory to a registry Hermes can install from</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>publish<span class="w"> </span>./my-skill<span class="w"> </span>--to<span class="w"> </span>github<span class="w"> </span>--repo<span class="w"> </span>your-org/skills
+hermes<span class="w"> </span>skills<span class="w"> </span>publish<span class="w"> </span>./my-skill<span class="w"> </span>--to<span class="w"> </span>clawhub
+
+<span class="c1"># Or share a direct URL; Hermes accepts a raw SKILL.md</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>https://example.com/SKILL.md<span class="w"> </span>--name<span class="w"> </span>my-skill
+</code></pre></div>
+<ol>
 <li>Respond to community feedback and update as needed</li>
 </ol>
-<p>See the <a href="https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces">Skill Marketplaces guide</a> for publishing instructions for each marketplace.</p>
+<p>See the <a href="https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces">Skill Marketplaces guide</a> for how the registries differ, and <code>hermes skills --help</code> for the full source list (<code>official</code>, <code>skills-sh</code>, <code>well-known</code>, <code>url</code>, <code>github</code>, <code>clawhub</code>, <code>lobehub</code>, <code>browse-sh</code>).</p>
 <h2 id="maintaining-your-skill">Maintaining Your Skill<a class="headerlink" href="#maintaining-your-skill" title="Anchor link to this section">&para;</a></h2>
 <p>Skills need maintenance. Plan to:</p>
 <ul>

@@ -111,8 +111,8 @@
     "description": "Run Hermes Agent on Raspberry Pi 5 for under $80 hardware and $5/month ongoing. Always-on email monitoring, cron jobs, and lightweight AI automation.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/raspberry-pi",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11745,14 +11745,18 @@ curl<span class="w"> </span>-fsSL<span class="w"> </span>https://deb.nodesource.
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>nodejs
 </code></pre></div>
 <h3 id="step-3-install-hermes-agent">Step 3: Install Hermes Agent<a class="headerlink" href="#step-3-install-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>hermes-agent
+<div class="highlight"><pre><span></span><code><span class="c1"># Official installer  --  provisions its own pinned Python and toolchain,</span>
+<span class="c1"># so no system pip or venv setup is required on the Pi</span>
+curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.nousresearch.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
+
 hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="w"> </span>pi-agent
 hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w"> </span>pi-agent
 </code></pre></div>
 <h3 id="step-4-model-strategy">Step 4: Model Strategy<a class="headerlink" href="#step-4-model-strategy" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Primary: Cloud Models (Recommended)</strong></p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/qwen/qwen3-235b-a22b:free
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OPENROUTER_API_KEY<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
+<span class="c1"># qwen3-235b-a22b-2507 is the current 235B variant on OpenRouter</span>
+hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/qwen/qwen3-235b-a22b-2507
 </code></pre></div>
 <p><strong>Optional: Tiny Local Models</strong></p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://ollama.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
@@ -11792,14 +11796,15 @@ sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">en
 </code></pre></div>
 <h3 id="step-7-lightweight-crons">Step 7: Lightweight Crons<a class="headerlink" href="#step-7-lightweight-crons" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Email check  --  uses cloud model, no local compute</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check for new emails. Summarize in one sentence.&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/30 * * * *&quot;</span>
+<span class="c1"># schedule and prompt are positional; --name is a flag</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;*/30 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Check for new emails. Summarize in one sentence.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span>email-watch
 
 <span class="c1"># System health  --  light, local-only</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;pi-health&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check temperature, disk, memory. Report if &gt;80%.&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 * * * *&quot;</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Check temperature, disk, memory. Report if &gt;80%.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span>pi-health
 </code></pre></div>
 <h3 id="step-8-cooling-and-power">Step 8: Cooling and Power<a class="headerlink" href="#step-8-cooling-and-power" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>vcgencmd<span class="w"> </span>measure_temp

@@ -107,8 +107,8 @@
     "description": "The July 28 2026 MCP specification release: full JSON Schema 2020-12 for tool input and output schemas, stateless protocol, structuredContent, and migration",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/mcp-spec-2026-07-28",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11239,8 +11239,11 @@
 <h1 id="mcp-2026-07-28-spec-json-schema-2020-12-stateless-protocol-and-what-changed">MCP 2026-07-28 Spec: JSON Schema 2020-12, Stateless Protocol, and What Changed<a class="headerlink" href="#mcp-2026-07-28-spec-json-schema-2020-12-stateless-protocol-and-what-changed" title="Anchor link to this section">&para;</a></h1>
 <p>The MCP specification released on July 28, 2026 introduced significant
 changes: full JSON Schema 2020-12 support for tool schemas, a stateless
-protocol, structured output, and renamed primitives. This page summarizes
-what changed and what it means for server and client developers.</p>
+protocol, structured output, and renamed primitives. It is still the current
+protocol revision listed on modelcontextprotocol.io as of October 30, 2026,
+alongside the final 2025 revisions (2025-11-25, 2025-06-18, 2025-03-26). This
+page summarizes what changed and what it means for server and client
+developers.</p>
 <h2 id="tool-schemas-full-json-schema-2020-12">Tool schemas: full JSON Schema 2020-12<a class="headerlink" href="#tool-schemas-full-json-schema-2020-12" title="Anchor link to this section">&para;</a></h2>
 <p>Tool <code>inputSchema</code> and <code>outputSchema</code> now support the full JSON Schema
 2020-12 vocabulary (SEP-2106).</p>
@@ -11256,9 +11259,14 @@ declares its output schema, and clients can validate the structured content
 against it before rendering.</p>
 <h2 id="stateless-protocol">Stateless protocol<a class="headerlink" href="#stateless-protocol" title="Anchor link to this section">&para;</a></h2>
 <p>The 2026-07-28 release removed protocol-level sessions. The handshake is
-stateless. Requests carry the protocol version in the <code>MCP-Protocol-Version</code>
-header instead of a session handshake. This simplifies horizontally scaled
-deployments.</p>
+stateless. Each request declares its version in <code>_meta</code> under the key
+<code>io.modelcontextprotocol/protocolVersion</code>, and on Streamable HTTP the same
+value also travels in the <code>MCP-Protocol-Version</code> header instead of a session
+handshake. The server accepts or rejects each request independently, answering
+with an <code>UnsupportedProtocolVersionError</code> when it does not support the
+requested version. <code>server/discover</code> returns a server's supported versions,
+capabilities, and identity in one request, so a client can pick a version up
+front rather than fail first. This simplifies horizontally scaled deployments.</p>
 <h2 id="structured-output">Structured output<a class="headerlink" href="#structured-output" title="Anchor link to this section">&para;</a></h2>
 <p><code>CallToolResult</code> now includes a <code>structuredContent</code> field. Servers return
 machine-readable structured data alongside or instead of text content.

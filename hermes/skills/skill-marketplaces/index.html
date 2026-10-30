@@ -111,8 +111,8 @@
     "description": "Navigate Hermes Agent skill marketplaces for discovering and publishing skills. Quality tiers, marketplace comparison, publishing guides, community standards",
     "url": "https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10799,10 +10799,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hermeshub" class="md-nav__link">
+  <a href="#official-optional-skills-hermes-catalog" class="md-nav__link">
     <span class="md-ellipsis">
       
-        hermeshub
+        Official optional skills (Hermes catalog)
       
     </span>
   </a>
@@ -11417,10 +11417,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hermeshub" class="md-nav__link">
+  <a href="#official-optional-skills-hermes-catalog" class="md-nav__link">
     <span class="md-ellipsis">
       
-        hermeshub
+        Official optional skills (Hermes catalog)
       
     </span>
   </a>
@@ -11607,17 +11607,17 @@
 </tr>
 <tr>
 <td><a href="https://agentskills.io">agentskills.io</a></td>
-<td>Curated quality</td>
-<td>Moderate review</td>
-<td>Free + Premium</td>
-<td>Well-documented, tested skills</td>
+<td>Open skill standard</td>
+<td>Public spec, no gatekeeping</td>
+<td>Free</td>
+<td>Portable, standard-compliant skills</td>
 </tr>
 <tr>
-<td><a href="https://hermeshub.nousresearch.com">hermeshub</a></td>
-<td>Official registry</td>
-<td>Maintained</td>
+<td><a href="https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog">Official optional skills</a></td>
+<td>Hermes repo catalog</td>
+<td>Maintained by Nous Research</td>
 <td>Free</td>
-<td>Hermes-native integration, verified</td>
+<td>Verified, Hermes-native</td>
 </tr>
 <tr>
 <td><a href="https://skilldock.io">skilldock.io</a></td>
@@ -11647,24 +11647,28 @@
 - Quality tier badge (Production, Beta, Community)</p>
 <p><strong>When to choose skills.sh:</strong> You want maximum selection and are comfortable doing your own due diligence before installing.</p>
 <h2 id="agentskillsio">agentskills.io<a class="headerlink" href="#agentskillsio" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Best for:</strong> Curated, well-documented skills. Higher quality bar than open marketplaces.</p>
-<p><strong>Discovery:</strong> Curated collections by use case (Marketing, Engineering, Operations, Sales, Finance). Each skill has a detailed page with documentation, screenshots, example output, and community reviews. Premium skills include priority support and guaranteed maintenance.</p>
-<p><strong>Publishing:</strong> Skills undergo a review process checking for documentation completeness, error handling, security considerations, and code quality. The review takes 3-5 business days. Premium skills are revenue-shared with authors.</p>
+<p><strong>Best for:</strong> Understanding the format your skill has to satisfy. agentskills.io publishes the open Agent Skills standard that Hermes skills are compatible with.</p>
+<p><strong>Discovery:</strong> The site is documentation, not a paid catalog: an overview, the specification, a client showcase, and authoring guidance (quickstart, best practices, optimizing descriptions, evaluating skills, using scripts). Read the <a href="https://agentskills.io/specification">specification</a> before you write a SKILL.md, because the frontmatter and directory layout it defines are what Hermes and other clients parse.</p>
+<p><strong>Publishing:</strong> There is no submission queue. You publish by distributing a standard-compliant skill directory wherever you like (your own repo, a hub, or a direct URL), and any client that implements the standard can load it.</p>
 <p><strong>Quality indicators to look for:</strong>
-- Review score and number of reviews
-- Premium badge (indicates financial incentive for the author to maintain)
-- Documentation depth (screenshots, example output, troubleshooting section)
-- Response time to issues in the discussion</p>
-<p><strong>When to choose agentskills.io:</strong> You want pre-vetted skills and are willing to pay for premium quality in critical workflows.</p>
-<h2 id="hermeshub">hermeshub<a class="headerlink" href="#hermeshub" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Best for:</strong> Skills that integrate deeply with Hermes-specific features. Official registry maintained by the Hermes team.</p>
-<p><strong>Discovery:</strong> Skills are organized by Hermes feature area (Memory, Cron, Plugin, Connector). Each skill is tested against the current Hermes release to verify compatibility. The "Verified" badge means the Hermes team has validated the skill works correctly.</p>
-<p><strong>Publishing:</strong> Submit through the contribution process on the Hermes GitHub repository. Skills are reviewed by community maintainers. Publication cadence is weekly  --  submissions by Wednesday are reviewed and published by Friday.</p>
+- Conformance with the published specification (frontmatter, layout, references)
+- Description quality, which the site documents as the single biggest lever on activation
+- Documentation depth (example output, troubleshooting section)
+- Evidence the author evaluated the skill against real tasks</p>
+<p><strong>When to choose agentskills.io:</strong> You are authoring a skill and want it to work across Hermes and other Agent Skills clients, not just one registry.</p>
+<h2 id="official-optional-skills-hermes-catalog">Official optional skills (Hermes catalog)<a class="headerlink" href="#official-optional-skills-hermes-catalog" title="Anchor link to this section">&para;</a></h2>
+<p><strong>Best for:</strong> Skills that integrate deeply with Hermes-specific features, maintained inside the Hermes repository itself. These install with built-in trust.</p>
+<p><strong>Discovery:</strong> The catalog ships with Hermes under <code>optional-skills/</code> in the repo and is browsable from the CLI:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>browse<span class="w"> </span>--source<span class="w"> </span>official
+hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>official/security/1password
+</code></pre></div>
+<p><strong>Publishing:</strong> Contribute to the Hermes repository; the skills are reviewed and released with Hermes rather than through a separate submission queue.</p>
 <p><strong>Quality indicators to look for:</strong>
-- Hermes Verified badge (team-validated compatibility)
-- Compatibility matrix (tested against which Hermes versions)
+- Shipped in the official catalog (maintained alongside Hermes)
+- Compatibility with your Hermes version, since the catalog is released with it
 - Integration depth (uses Hermes-native features like memory, skills chaining, cron triggers)</p>
-<p><strong>When to choose hermeshub:</strong> You want maximum compatibility with your Hermes setup and trust the official review process.</p>
+<p><strong>Note on hermeshub:</strong> the registry previously linked from this section, <code>hermeshub.nousresearch.com</code>, no longer resolves (checked October 30, 2026). Hermes's own documentation lists the integrated sources as the official catalog, skills.sh, well-known <code>/.well-known/skills/index.json</code> endpoints, direct SKILL.md URLs, GitHub, ClawHub, lobehub, and browse.sh.</p>
+<p><strong>When to choose the official catalog:</strong> You want maximum compatibility with your Hermes setup and trust the maintainers' review process.</p>
 <h2 id="skilldockio">skilldock.io<a class="headerlink" href="#skilldockio" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Best for:</strong> Enterprise teams with compliance requirements, SLAs, and support needs.</p>
 <p><strong>Discovery:</strong> Skills are organized by enterprise use case and compliance certification (SOC 2, HIPAA, GDPR-ready). Every skill has a support SLA, documented data handling practices, and a security review summary.</p>
@@ -11716,8 +11720,8 @@
 <h3 id="4-choose-your-marketplace">4. Choose Your Marketplace<a class="headerlink" href="#4-choose-your-marketplace" title="Anchor link to this section">&para;</a></h3>
 <p>Match your skill to the right marketplace based on your goals:
 - Maximum reach and community feedback → skills.sh
-- Quality recognition and curation → agentskills.io
-- Hermes-native integration → hermeshub
+- Quality recognition and curation → agentskills.io (write to the spec)
+- Hermes-native integration → the official optional skills catalog
 - Enterprise/compliance focus → skilldock.io
 - Open-source collaboration → GitHub</p>
 <h3 id="5-submit-and-engage">5. Submit and Engage<a class="headerlink" href="#5-submit-and-engage" title="Anchor link to this section">&para;</a></h3>
@@ -11756,7 +11760,7 @@
 <th>Signal</th>
 <th>skills.sh</th>
 <th>agentskills.io</th>
-<th>hermeshub</th>
+<th>official catalog</th>
 <th>skilldock.io</th>
 <th>GitHub</th>
 </tr>
@@ -11813,7 +11817,7 @@
 <li><strong>Skill composition:</strong> Chaining multiple community skills into workflows without manual integration</li>
 <li><strong>Reputation systems:</strong> Author reputation carrying across marketplaces</li>
 </ul>
-<p>The marketplaces are complementary, not competitive. A skill published on skills.sh might later graduate to hermeshub's verified catalog. A premium skill on agentskills.io might have its source on GitHub. Navigate them based on your needs, not marketplace loyalty.</p>
+<p>The marketplaces are complementary, not competitive. A skill published on skills.sh might later graduate into the official Hermes catalog. A skill you distribute standalone can still be fully spec-compliant on agentskills.io. Navigate them based on your needs, not marketplace loyalty.</p>
 <p>One skill ecosystem, many entry points. Find what works, build what's missing, and share what you create.</p>
 <h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
