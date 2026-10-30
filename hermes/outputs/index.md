@@ -8,7 +8,7 @@ tags:
   - automation-templates
   - industry-examples
   - hermes-outputs
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/"
 robots: "index,follow"
 
@@ -112,7 +112,7 @@ The community grows stronger with every documented use case. If you've built a H
 - [Copy-Paste Cron Templates  --  Deploy in Minutes](workflows/templates)
 - [Agent Library  --  9 Role Configurations](/hermes/agents)
 - [Architecture  --  6-Layer Production Model](/hermes/architecture)
-- [Cron Scheduling Guide  --  38 Production Crons](/hermes/governance/scheduling)
+- [Cron Scheduling Guide  --  production cron patterns](/hermes/governance/scheduling)
 - [Contributor Guide  --  Share Your Patterns](/hermes/contributors)
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*

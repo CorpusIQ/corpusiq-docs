@@ -1,9 +1,9 @@
 ---
-title: "Templates - CorpusIQ Docs - CorpusIQ Docs"
+title: "Templates - CorpusIQ Docs"
 description: Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.
 canonical: "https://www.corpusiq.io/docs/hermes/templates/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-29"
 tags: ["hermes template", "agent template", "skill template"]
 
 ---
@@ -69,37 +69,35 @@ your-verification-command
 Minimal `config.yaml` for a new Hermes Agent setup:
 
 ```yaml
-model: sonnet
-provider: anthropic
+model:
+  default: anthropic/claude-sonnet-5.5
+  provider: openrouter
 
-tools:
-  - shell
-  - web_search
-  - web_extract
-  - read_file
-  - write_file
-  - patch
-
-cron:
-  enabled: true
+toolsets:
+  - terminal
+  - web
+  - file
+  - memory
+  - skills
 
 memory:
-  backend: sqlite
+  memory_enabled: true
+  user_profile_enabled: true
 ```
 
 ## Cron Template
 
-Schedule recurring tasks with `cronjob`:
+Schedule recurring tasks with `hermes cron create`. The schedule and the prompt are positional arguments, not flags:
 
 ```bash
 # Daily at 9 AM
-hermes cron create \\
-  --name "daily-report" \\
-  --schedule "0 9 * * *" \\
-  --prompt "Generate the daily activity report and email it" \\
-  --deliver email:reports@example.com \\
-  --profile default
+hermes cron create "0 9 * * *" \
+  "Generate the daily activity report and email it" \
+  --name "daily-report" \
+  --deliver local
 ```
+
+`--deliver` accepts `origin`, `local`, `telegram`, `discord`, `signal`, `platform:chat_id`, or `bot-chat[:profile]`. To run the job under a different profile, pass the global flag before the subcommand: `hermes --profile default cron create ...`. Add `--skill <name>` (repeatable) to attach skills, or `--script <file> --no-agent` for a script-only job that never wakes the model.
 
 ---
 

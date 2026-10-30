@@ -3,7 +3,7 @@ title: "Hermes Agent Prompt Library - CorpusIQ Docs"
 description: Curated Hermes Agent prompt templates for code generation, content creation, data analysis, business operations, research, and creative work. Customization guide, model selection, chaining strategies, and common pitfalls.
 category: prompts
 tags: [hermes-agent, prompts, prompt-templates, code-generation, content-creation, data-analysis, ai-prompts]
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/"
 robots: "index,follow"
 
@@ -63,28 +63,30 @@ These prompts are designed to be chained. Common pipelines include:
 Not all prompts work equally well with all models. Here's a general guide:
 
 ### Code Generation and Debugging
-**Best with:** Claude 3.5 Sonnet, GPT-4o, DeepSeek V3, Gemini 2.5 Pro
-**Why:** These models excel at structured reasoning, syntax accuracy, and following detailed technical specifications. For simple boilerplate, smaller local models like CodeLlama or DeepSeek Coder can handle it efficiently.
+**Best with:** Claude Sonnet 5.5, GPT-6 Astra, DeepSeek V4 Pro, Gemini 3.1 Pro
+**Why:** These models excel at structured reasoning, syntax accuracy, and following detailed technical specifications. For simple boilerplate, smaller local models such as Qwen3-Coder can handle it efficiently.
 
 ### Content Creation
-**Best with:** Claude 3.5 Sonnet, GPT-4o
+**Best with:** Claude Sonnet 5.5, GPT-5.5
 **Why:** Strong prose generation, tone control, and brand voice consistency. For high-volume social content, smaller models fine-tuned on your brand voice can be more cost-effective.
 
 ### Data Analysis
-**Best with:** Claude 3.5 Sonnet (long context for schemas), GPT-4o
+**Best with:** Claude Sonnet 5.5 (long context for schemas), GPT-6 Astra
 **Why:** SQL generation accuracy, ability to reason about complex schemas, and thorough edge-case handling. Provide actual schema definitions  --  don't summarize them.
 
 ### Business Operations
-**Best with:** Claude 3.5 Sonnet, GPT-4o, Gemini Flash
+**Best with:** Claude Sonnet 5.5, GPT-5.5, Gemini 3.8 Flash
 **Why:** Email and meeting tasks benefit from nuanced understanding of professional context and relationship dynamics. For quick drafts, smaller/faster models work well; for sensitive communications, use a frontier model.
 
 ### Research
-**Best with:** Claude 3.5 Sonnet (200K context for document analysis), GPT-4o with web search
+**Best with:** Claude Sonnet 5.5 (long context for document analysis), GPT-6 Astra with web search
 **Why:** Research tasks often involve synthesizing large amounts of information. Long-context models handle document dumps better. Web-enabled models can pull in current data.
 
 ### Creative Work
-**Best with:** Claude 3.5 Sonnet, GPT-4, Gemini
+**Best with:** Claude Opus 5.5, GPT-6 Astra, Gemini 4
 **Why:** Creative tasks benefit from models that take interesting "risks" in their outputs. Temperature settings matter  --  try 0.8-1.0 for brainstorming, 0.5-0.7 for refined creative output.
+
+Model IDs follow the Hermes model catalog (`https://hermes-agent.nousresearch.com/docs/api/model-catalog.json`). The picker in `hermes model` lists exactly what your configured providers and credentials can reach.
 
 ---
 

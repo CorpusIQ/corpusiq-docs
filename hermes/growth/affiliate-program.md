@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ Affiliate Program: 25% Recurring for 3 Years"
 description: "You recommend tools to your audience. You should get paid for the ones that deliver real value."
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/growth/affiliate-program/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

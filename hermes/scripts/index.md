@@ -1,7 +1,7 @@
 ---
 title: "Automation Scripts - CorpusIQ Docs"
 description: Utility scripts for ecosystem discovery, agent stack installation, submission processing, and link auditing
-last_updated: 2026-10-24
+last_updated: 2026-10-29
 canonical: "https://www.corpusiq.io/docs/hermes/scripts/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -21,7 +21,9 @@ Scans GitHub for new Hermes-compatible repositories across multiple search queri
 **Usage:**
 
 ```bash
-python3 discover.py --since 2026-07-01 --output discovery-results.json
+python3 discover.py                    # Full discovery run
+python3 discover.py --dry-run          # Show what would be added
+python3 discover.py --score-only REPO  # Score a single repository
 ```
 
 ### `install-agent-stack.sh` - One-Command Setup
@@ -41,7 +43,7 @@ Validates and ingests community-submitted repositories, skills, and MCP servers.
 **Usage:**
 
 ```bash
-python3 process_submissions.py --input submissions.jsonl --validate
+python3 process_submissions.py --test   # Score a sample submission end to end
 ```
 
 ## Integration

@@ -4,7 +4,7 @@ description: "Enterprise platforms adopting MCP Apps: Airia, Willow, WorkOS, and
 canonical: "/hermes/mcp/mcp-apps-enterprise-adoption/"
 robots: "index, follow"
 tags: [mcp, apps, enterprise, adoption, gateways, airia, willow, governance, interactive]
-last_updated: "2026-10-24"
+last_updated: "2026-10-29"
 ---
 
 # MCP Apps Enterprise Adoption: Who Supports It and Why It Matters
