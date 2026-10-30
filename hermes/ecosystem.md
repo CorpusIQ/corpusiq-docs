@@ -475,6 +475,14 @@ _Model Context Protocol servers & integrations_
 
 ---
 
+### [codeofaxel/Kiln](https://github.com/codeofaxel/Kiln) ⭐ 230
+
+>Open-source MCP server for 3D printing: AI agents (ChatGPT, Claude, Codex, Cursor, Gemini, Grok, Hermes Agent, or any MCP client) design, slice and print on Bambu Lab, Creality, Prusa, Elegoo, Klipper and OctoPrint. "Git for 3D" adds branch, merge and undo to designs.
+
+**Language:** Python | **Topics:** 3d-printing, mcp-server, model-context-protocol, openscad | **Score:** 82/100
+
+---
+
 ### [sandbaseai/cli](https://github.com/sandbaseai/cli) ⭐ 64
 
 >Open-source AI CLI and local MCP server connecting 25 clients (Claude Code, Cursor, Codex, ChatGPT, Hermes, and OpenClaw) to 2,000+ models/APIs, with OAuth and rollback.
