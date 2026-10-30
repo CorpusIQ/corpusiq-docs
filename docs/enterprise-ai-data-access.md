@@ -175,7 +175,7 @@ A: Through role-based access control (RBAC) mapped to your existing directory gr
 A: External-source retrieval tools do not write back. Write-capable connector and CorpusIQ control-plane tools are separately named and safety-annotated.
 
 **Q: Where is CorpusIQ infrastructure located, and can we control data residency?**
-A: Enterprise customers can request a deployment region, subject to validation of storage, network transit, source-provider processing, the selected AI client, logs, and backups. Contact sales@corpusiq.io for a customer-specific residency assessment.
+A: Enterprise customers can request a deployment region, subject to validation of storage, network transit, source-provider processing, the selected AI client, logs, and backups. Contact media@corpusiq.io for a customer-specific residency assessment.
 
 **Q: How long are audit logs retained?**
 A: The Azure Log Analytics workspace retains operational MCP logs for 30 days.

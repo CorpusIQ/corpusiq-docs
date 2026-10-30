@@ -52,11 +52,11 @@ CorpusIQ translates AI assistant queries into read-only API calls and returns ci
 
 ## Getting Help
 
-- **API Support**: api@corpusiq.io
-- **Security Concerns**: security@corpusiq.io
+- **API Support**: media@corpusiq.io
+- **Security Concerns**: media@corpusiq.io
 - **Status Page**: status.corpusiq.io
 
-For integration partners and enterprise deployments, contact sales@corpusiq.io.
+For integration partners and enterprise deployments, contact media@corpusiq.io.
 # sitemap rebuild trigger
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*

@@ -21,7 +21,7 @@ CorpusIQ is designed with data privacy as a foundational principle. This page do
 | **Encryption** | AES-256 at rest, TLS 1.3 in transit |
 | **Access Model** | Read-only external-source retrieval; explicit CorpusIQ control-plane writes are separately annotated |
 
-Contact: security@corpusiq.io · privacy@corpusiq.io
+Contact: media@corpusiq.io · privacy@corpusiq.io
 
 ## 1. Product Scope
 
@@ -122,7 +122,7 @@ Users can:
 
 ## 11. Reporting Vulnerabilities
 
-If you discover a security vulnerability, report to security@corpusiq.io. We follow a coordinated disclosure process and aim to acknowledge reports within 24 hours. Please do not publicly disclose before we have had an opportunity to address them.
+If you discover a security vulnerability, open a private report at https://github.com/CorpusIQ/corpusiq-docs/security/advisories/new or email media@corpusiq.io. We follow a coordinated disclosure process and aim to acknowledge reports within 24 hours. Please do not publicly disclose before we have had an opportunity to address them.
 
 ## Frequently Asked Questions
 
@@ -136,10 +136,10 @@ A: Direct MCP requests retrieve source records live without retaining raw custom
 A: Contact privacy@corpusiq.io to request deletion of account data. CorpusIQ responds to privacy requests within 30 days. Operational MCP query logs remain subject to the 30-day Azure Log Analytics retention window.
 
 **Q: Where is CorpusIQ infrastructure hosted?**  
-A: Infrastructure runs on Microsoft Azure. Regional deployment terms are not part of the current public contract; contact sales@corpusiq.io for current availability.
+A: Infrastructure runs on Microsoft Azure. Regional deployment terms are not part of the current public contract; contact media@corpusiq.io for current availability.
 
 **Q: How do I report a security vulnerability?**  
-A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue.
+A: Report to media@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue.
 
 ## Internal Links
 

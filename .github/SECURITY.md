@@ -10,7 +10,7 @@ problem.
 form under the Security tab. The report stays private between you and the
 maintainers until a fix is ready and a disclosure date is agreed.
 
-You can also email **security@corpusiq.io**, which is the contact published on
+You can also email **media@corpusiq.io**, which is the contact published on
 [the CorpusIQ security page](https://www.corpusiq.io/docs/security).
 
 We aim to acknowledge reports within 24 hours. Please give us a chance to
@@ -30,9 +30,9 @@ Reports that belong here:
 - A way to inject content into a served page
 
 Reports about the CorpusIQ product, the MCP endpoint, connector
-authorization, authentication, or customer data belong with the security team
-at **security@corpusiq.io**, not in this repository. If you are unsure, use the
-private form above and we will route it.
+authorization, authentication, or customer data belong with the security team.
+Reach that team at **media@corpusiq.io**, or use the private form above and we
+will route it.
 
 ## What to include
 

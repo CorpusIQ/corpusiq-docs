@@ -84,11 +84,11 @@ Rather than making many small queries, combine related questions into a single w
 
 ### Plan for Daily Quotas
 
-The daily limits reset at midnight UTC. For high-volume use cases, distribute queries throughout the day. If you consistently approach daily limits, contact sales@corpusiq.io to discuss higher-tier plans.
+The daily limits reset at midnight UTC. For high-volume use cases, distribute queries throughout the day. If you consistently approach daily limits, contact media@corpusiq.io to discuss higher-tier plans.
 
 ## Rate Limit Increases
 
-Enterprise plans include higher rate limits and custom quotas. For details, contact sales@corpusiq.io.
+Enterprise plans include higher rate limits and custom quotas. For details, contact media@corpusiq.io.
 
 ## Frequently Asked Questions
 
