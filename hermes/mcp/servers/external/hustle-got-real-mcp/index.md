@@ -71,4 +71,4 @@ Token usage is metered through the account (`hgr_get_user_gettokenbalance` and `
 
 - [ShopSynch MCP - E-Commerce Operations for AI Agents](/hermes/mcp/servers/external/shopsynch-mcp/) - the adjacent operations layer this control loop complements
 - [Shop MCP - Read-Only Shopify Catalogue and Stock](/hermes/mcp/servers/external/shop-mcp/) - catalogue and stock reads on another platform
-- [Store Canary MCP - A WooCommerce Check From Outside](/hermes/mcp/servers/external/store-canary-mcp/) - the outside-in health check that pairs with this inside-out control loop
+- [Store Canary MCP - WooCommerce Store Health Check](/hermes/mcp/servers/external/store-canary-mcp/) - the outside-in health check that pairs with this inside-out control loop

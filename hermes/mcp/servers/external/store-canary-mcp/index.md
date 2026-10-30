@@ -1,5 +1,5 @@
 ---
-title: Store Canary MCP - A WooCommerce Check From Outside
+title: Store Canary MCP - WooCommerce Store Health Check
 description: "Keyless remote MCP that audits a WooCommerce store from the outside: HTTPS, cart, checkout, payment markers, speed, products and policies in one call."
 category: Commerce & Marketplace Operations
 stars: n/a (new listing)
