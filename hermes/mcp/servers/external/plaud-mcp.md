@@ -3,7 +3,7 @@ title: "Plaud MCP - AI Recording Integration for Hermes Agent"
 description: "Connect Plaud.ai recordings to Hermes Agent. Search recordings, read transcripts, generate documents - all from your AI assistant."
 category: mcp
 tags: [mcp-server, plaud, meeting-notes, transcription, recordings, communication, knowledge-retrieval]
-last_updated: 2026-10-24
+last_updated: 2026-10-30
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/plaud-mcp/"
 robots: "index,follow"
 
@@ -41,13 +41,24 @@ hermes mcp add plaud --url https://api.plaud.ai/mcp
 
 ## Tools
 
+14 tools, all prefixed `plaud_`.
+
 | Tool | Description |
 |------|-------------|
-| `search_recordings` | Search your Plaud recording library by keyword, date, or tag |
-| `get_transcript` | Retrieve full transcript for a specific recording |
-| `get_summary` | Get AI-generated summary of a recording |
-| `list_recordings` | List recent recordings with metadata (date, duration, speakers) |
-| `generate_document` | Create meeting notes, action items, or summary docs from a recording |
+| `plaud_list_files` | List recordings, optionally filtered by transcription status |
+| `plaud_get_file` | Get detailed metadata for a specific file |
+| `plaud_search_files` | Search recordings by keyword or date range |
+| `plaud_get_transcript` | Fetch raw or polished transcript text |
+| `plaud_get_summary` | Fetch AI-generated summary |
+| `plaud_export_transcript` | Export transcript as TXT or SRT with optional timestamps |
+| `plaud_generate` | Generate transcript and summary for a file |
+| `plaud_name_speakers` | Rename speakers in a transcript |
+| `plaud_rename_file` | Rename a single file |
+| `plaud_batch_rename` | Rename multiple files at once (rate-limited) |
+| `plaud_move_to_folder` | Move a file to a folder |
+| `plaud_list_folders` | List all folders and tags |
+| `plaud_trash_file` | Move a file to trash |
+| `plaud_get_user` | Get current user profile |
 
 ## Use Cases for Operators
 

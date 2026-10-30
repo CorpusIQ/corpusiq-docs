@@ -3,7 +3,7 @@ title: "Engram MCP - Git-Backed Shared Memory Dashboard for AI"
 description: "Engram MCP server - self-hosted memory with dashboard UI backed by a git repository of markdown files."
 category: mcp
 tags: [mcp-server, memory, knowledge-management, git-backed, self-hosted, dashboard]
-last_updated: 2026-10-24
+last_updated: 2026-10-30
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/engram-mcp/"
 robots: "index,follow"
 
@@ -25,43 +25,59 @@ Most vector-based memory solutions have a fundamental problem: the embedding and
 
 ## Installation
 
-```bash
-# Clone and run via Docker
-git clone https://github.com/rwnalds/engram
-cd engram
-docker-compose up -d
+Engram is a self-hosted server with a persistent volume, so run it as a container - Railway, Render,
+Fly, or your own box. Serverless (Vercel) will not work: Engram holds a volume, a file watcher and an
+in-memory index that a serverless function cannot keep alive.
 
-# Or run directly
-npm install -g engram-mcp
-npx engram-mcp
+```bash
+# Prebuilt image (the -app image serves HTTP; plain `engram:latest` is the stdio server)
+docker run -d \
+  -p 3000:3000 \
+  -v engram-data:/data \
+  -e ENGRAM_DATA_DIR=/data \
+  ghcr.io/rwnalds/engram-app:latest
 ```
 
-## Claude Desktop / Hermes Configuration
+Then open the dashboard, connect your vault repo under **Workspaces** (by URL + token, or GitHub
+OAuth), and create an MCP token on the **Connect** page.
 
-```json
-{
-  "mcpServers": {
-    "engram": {
-      "command": "npx",
-      "args": ["engram-mcp"],
-      "env": {
-        "ENGRAM_REPO_PATH": "~/.engram/memory",
-        "ENGRAM_PORT": "3001"
-      }
-    }
-  }
-}
+Note on the package name: `npm install -g engram-mcp` is a **different, unrelated product** (ngrm.ai).
+It is not this server and does not expose these tools.
+
+## Connecting an MCP Client
+
+Engram speaks HTTP at `POST /api/mcp` with a bearer token. Token scope decides what the agent sees: a
+`read` token never sees the write tools.
+
+```bash
+claude mcp add --transport http engram https://<your-host>/api/mcp \
+  --header "Authorization: Bearer <token>"
 ```
 
 ## Key Tools
 
-| Tool | Description |
-|------|-------------|
-| `write_memory` | Commit a new memory as a markdown file |
-| `search_memory` | Authoritative search - always returns HEAD version |
-| `edit_memory` | Modify an existing memory (creates a new commit) |
-| `list_memories` | Browse all stored memories with metadata |
-| `get_history` | View git log for a specific memory file |
+15 tools, split by token scope. `brain_capture` appears only when the Curator is set to `full`.
+
+| Tool | Access | Description |
+|------|--------|-------------|
+| `brain_search` | read | Search the active vault |
+| `brain_read` | read | Read a note |
+| `brain_list` | read | List notes in a folder |
+| `brain_recent` | read | Recently changed notes |
+| `brain_tree` | read | Folder tree for the vault |
+| `brain_backlinks` | read | Inbound links to a note |
+| `brain_graph` | read | Link graph around a note |
+| `brain_schema` | read | Vault schema and conventions |
+| `brain_write` | write | Create a note |
+| `brain_edit` | write | Edit an existing note |
+| `brain_append` | write | Append to a note |
+| `brain_move` | write | Move or re-file a note |
+| `brain_supersede` | write | Replace a note, keeping the prior version |
+| `brain_create_folder` | write | Create a folder |
+| `brain_delete` | write | Delete a note |
+
+The read/write split is enforced server-side: an agent holding a read-scope token cannot call the
+write tools at all.
 
 ## Dashboard
 
