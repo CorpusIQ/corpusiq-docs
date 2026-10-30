@@ -3,7 +3,7 @@ title: "Creating Custom Skills for Hermes Agent"
 description: Complete guide to creating custom Hermes Agent skills. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, and publishing. Build reusable AI agent workflows step by step.
 category: skills
 tags: [hermes-agent, skills, custom-skills, skill-development, triggers, testing, publishing, reusable-workflows]
-last_updated: 2026-10-24
+last_updated: "2026-10-30"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/creating-skills/"
 robots: "index,follow"
 
@@ -29,12 +29,15 @@ Every skill lives in a directory with a `SKILL.md` file at its root. Here is the
 ```markdown
 ---
 name: my-skill-name
-description: A one-sentence description of what this skill does
+description: One sentence on what this does and when to use it
 version: 1.0.0
 author: your-handle
-tags: [tag1, tag2, category]
-required_connectors: [connector-a, connector-b]
-quality_tier: beta
+platforms: [macos, linux]          # Optional - restrict to specific OS platforms
+metadata:
+  hermes:
+    tags: [tag1, tag2, category]
+    category: support
+    requires_toolsets: [terminal]  # Optional - conditional activation
 ---
 
 # Skill Name
@@ -76,7 +79,7 @@ Common issues and how to resolve them.
 - 1.0.0: Initial release
 ```
 
-Don't skip the metadata block. The `required_connectors` field lets Hermes verify everything is available before starting. The `tags` field makes your skill discoverable.
+Don't skip the metadata block. `name` and `description` are the required fields; everything else lives under `metadata.hermes`. The `tags` list makes your skill discoverable, and `requires_toolsets` / `fallback_for_toolsets` control when Hermes offers the skill based on which toolsets are active.
 
 ## Trigger Patterns
 
@@ -160,9 +163,9 @@ name: customer-insight
 description: Generates a unified customer profile from CRM, billing, and support data
 version: 1.0.0
 author: community
-tags: [customer, crm, support, billing]
-required_connectors: [crm, quickbooks, email]
-quality_tier: beta
+metadata:
+  hermes:
+    tags: [customer, crm, support, billing]
 ---
 
 # Customer Insight
@@ -210,11 +213,21 @@ This skill demonstrates the key pattern: each step has explicit error handling, 
 When your skill is tested and documented:
 
 1. Verify it works with example.com placeholder data (no real credentials or data)
-2. Choose the appropriate quality tier based on your testing
-3. Submit to your preferred marketplace with the skill directory
+2. Confirm the frontmatter validates (`name` plus a `description` that says when to use it)
+3. Publish by installing from the source, whatever it is:
+
+```bash
+# Push a skill directory to a registry Hermes can install from
+hermes skills publish ./my-skill --to github --repo your-org/skills
+hermes skills publish ./my-skill --to clawhub
+
+# Or share a direct URL; Hermes accepts a raw SKILL.md
+hermes skills install https://example.com/SKILL.md --name my-skill
+```
+
 4. Respond to community feedback and update as needed
 
-See the [Skill Marketplaces guide](skill-marketplaces.md) for publishing instructions for each marketplace.
+See the [Skill Marketplaces guide](skill-marketplaces.md) for how the registries differ, and `hermes skills --help` for the full source list (`official`, `skills-sh`, `well-known`, `url`, `github`, `clawhub`, `lobehub`, `browse-sh`).
 
 ## Maintaining Your Skill
 

@@ -3,7 +3,7 @@ title: "Raspberry Pi 5 Hermes Agent Setup"
 description: Run Hermes Agent on Raspberry Pi 5 for under $80 hardware and $5/month ongoing. Always-on email monitoring, cron jobs, and lightweight AI automation. Step-by-step Pi setup with cloud models and external storage.
 category: setup
 tags: [raspberry-pi, hermes-agent, setup-guide, low-cost, always-on, arm64, cron-automation, budget-ai]
-last_updated: 2026-10-24
+last_updated: "2026-10-30"
 canonical: "https://www.corpusiq.io/docs/hermes/setup/raspberry-pi/"
 robots: "index,follow"
 
@@ -58,7 +58,10 @@ sudo apt install -y nodejs
 ### Step 3: Install Hermes Agent
 
 ```bash
-pip install hermes-agent
+# Official installer  --  provisions its own pinned Python and toolchain,
+# so no system pip or venv setup is required on the Pi
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+
 hermes profile create pi-agent
 hermes profile use pi-agent
 ```
@@ -68,8 +71,9 @@ hermes profile use pi-agent
 **Primary: Cloud Models (Recommended)**
 
 ```bash
-hermes config set providers.openrouter.api_key "your-key"
-hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
+hermes config set OPENROUTER_API_KEY "your-key"
+# qwen3-235b-a22b-2507 is the current 235B variant on OpenRouter
+hermes config set model.default openrouter/qwen/qwen3-235b-a22b-2507
 ```
 
 **Optional: Tiny Local Models**
@@ -121,14 +125,15 @@ sudo systemctl enable --now hermes-gateway
 
 ```bash
 # Email check  --  uses cloud model, no local compute
-hermes cron create --name "email-watch" \
-  --prompt "Check for new emails. Summarize in one sentence." \
-  --schedule "*/30 * * * *"
+# schedule and prompt are positional; --name is a flag
+hermes cron create "*/30 * * * *" \
+  "Check for new emails. Summarize in one sentence." \
+  --name email-watch
 
 # System health  --  light, local-only
-hermes cron create --name "pi-health" \
-  --prompt "Check temperature, disk, memory. Report if >80%." \
-  --schedule "0 * * * *"
+hermes cron create "0 * * * *" \
+  "Check temperature, disk, memory. Report if >80%." \
+  --name pi-health
 ```
 
 ### Step 8: Cooling and Power

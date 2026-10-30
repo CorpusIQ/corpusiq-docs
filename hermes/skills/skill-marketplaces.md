@@ -3,7 +3,7 @@ title: "Hermes Agent Skill Marketplaces"
 description: Navigate Hermes Agent skill marketplaces for discovering and publishing skills. Quality tiers, marketplace comparison, publishing guides, community standards, and how to find the best community-built AI agent skills.
 category: skills
 tags: [hermes-agent, skills, marketplace, publishing, quality-tiers, community, discovery, curation]
-last_updated: 2026-10-24
+last_updated: "2026-10-30"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces/"
 robots: "index,follow"
 
@@ -16,8 +16,8 @@ robots: "index,follow"
 | Marketplace | Focus | Curation Level | Cost Model | Best For |
 |------------|--------|---------------|------------|----------|
 | [skills.sh](https://skills.sh) | Open community | Light moderation | Free | Broadest selection, diverse categories |
-| [agentskills.io](https://agentskills.io) | Curated quality | Moderate review | Free + Premium | Well-documented, tested skills |
-| [hermeshub](https://hermeshub.nousresearch.com) | Official registry | Maintained | Free | Hermes-native integration, verified |
+| [agentskills.io](https://agentskills.io) | Open skill standard | Public spec, no gatekeeping | Free | Portable, standard-compliant skills |
+| [Official optional skills](https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog) | Hermes repo catalog | Maintained by Nous Research | Free | Verified, Hermes-native |
 | [skilldock.io](https://skilldock.io) | Enterprise focus | Strict review | Subscription | Compliance-ready, SLAs, support |
 | GitHub (`hermes-skill-*`) | Open source | None (self-serve) | Free | Custom forks, bleeding edge, community |
 
@@ -40,34 +40,41 @@ robots: "index,follow"
 
 ## agentskills.io
 
-**Best for:** Curated, well-documented skills. Higher quality bar than open marketplaces.
+**Best for:** Understanding the format your skill has to satisfy. agentskills.io publishes the open Agent Skills standard that Hermes skills are compatible with.
 
-**Discovery:** Curated collections by use case (Marketing, Engineering, Operations, Sales, Finance). Each skill has a detailed page with documentation, screenshots, example output, and community reviews. Premium skills include priority support and guaranteed maintenance.
+**Discovery:** The site is documentation, not a paid catalog: an overview, the specification, a client showcase, and authoring guidance (quickstart, best practices, optimizing descriptions, evaluating skills, using scripts). Read the [specification](https://agentskills.io/specification) before you write a SKILL.md, because the frontmatter and directory layout it defines are what Hermes and other clients parse.
 
-**Publishing:** Skills undergo a review process checking for documentation completeness, error handling, security considerations, and code quality. The review takes 3-5 business days. Premium skills are revenue-shared with authors.
-
-**Quality indicators to look for:**
-- Review score and number of reviews
-- Premium badge (indicates financial incentive for the author to maintain)
-- Documentation depth (screenshots, example output, troubleshooting section)
-- Response time to issues in the discussion
-
-**When to choose agentskills.io:** You want pre-vetted skills and are willing to pay for premium quality in critical workflows.
-
-## hermeshub
-
-**Best for:** Skills that integrate deeply with Hermes-specific features. Official registry maintained by the Hermes team.
-
-**Discovery:** Skills are organized by Hermes feature area (Memory, Cron, Plugin, Connector). Each skill is tested against the current Hermes release to verify compatibility. The "Verified" badge means the Hermes team has validated the skill works correctly.
-
-**Publishing:** Submit through the contribution process on the Hermes GitHub repository. Skills are reviewed by community maintainers. Publication cadence is weekly  --  submissions by Wednesday are reviewed and published by Friday.
+**Publishing:** There is no submission queue. You publish by distributing a standard-compliant skill directory wherever you like (your own repo, a hub, or a direct URL), and any client that implements the standard can load it.
 
 **Quality indicators to look for:**
-- Hermes Verified badge (team-validated compatibility)
-- Compatibility matrix (tested against which Hermes versions)
+- Conformance with the published specification (frontmatter, layout, references)
+- Description quality, which the site documents as the single biggest lever on activation
+- Documentation depth (example output, troubleshooting section)
+- Evidence the author evaluated the skill against real tasks
+
+**When to choose agentskills.io:** You are authoring a skill and want it to work across Hermes and other Agent Skills clients, not just one registry.
+
+## Official optional skills (Hermes catalog)
+
+**Best for:** Skills that integrate deeply with Hermes-specific features, maintained inside the Hermes repository itself. These install with built-in trust.
+
+**Discovery:** The catalog ships with Hermes under `optional-skills/` in the repo and is browsable from the CLI:
+
+```bash
+hermes skills browse --source official
+hermes skills install official/security/1password
+```
+
+**Publishing:** Contribute to the Hermes repository; the skills are reviewed and released with Hermes rather than through a separate submission queue.
+
+**Quality indicators to look for:**
+- Shipped in the official catalog (maintained alongside Hermes)
+- Compatibility with your Hermes version, since the catalog is released with it
 - Integration depth (uses Hermes-native features like memory, skills chaining, cron triggers)
 
-**When to choose hermeshub:** You want maximum compatibility with your Hermes setup and trust the official review process.
+**Note on hermeshub:** the registry previously linked from this section, `hermeshub.nousresearch.com`, no longer resolves (checked October 30, 2026). Hermes's own documentation lists the integrated sources as the official catalog, skills.sh, well-known `/.well-known/skills/index.json` endpoints, direct SKILL.md URLs, GitHub, ClawHub, lobehub, and browse.sh.
+
+**When to choose the official catalog:** You want maximum compatibility with your Hermes setup and trust the maintainers' review process.
 
 ## skilldock.io
 
@@ -142,8 +149,8 @@ Your documentation should answer these questions for someone who has never met y
 
 Match your skill to the right marketplace based on your goals:
 - Maximum reach and community feedback → skills.sh
-- Quality recognition and curation → agentskills.io
-- Hermes-native integration → hermeshub
+- Quality recognition and curation → agentskills.io (write to the spec)
+- Hermes-native integration → the official optional skills catalog
 - Enterprise/compliance focus → skilldock.io
 - Open-source collaboration → GitHub
 
@@ -175,7 +182,7 @@ Before installing any skill from any marketplace:
 
 When comparing the same skill across marketplaces, weigh these signals differently:
 
-| Signal | skills.sh | agentskills.io | hermeshub | skilldock.io | GitHub |
+| Signal | skills.sh | agentskills.io | official catalog | skilldock.io | GitHub |
 |--------|-----------|----------------|-----------|-------------|--------|
 | Community rating | High weight | High weight | Medium | Medium | Low |
 | Curator review | Low | High | High | Highest | None |
@@ -193,7 +200,7 @@ The skill ecosystem is evolving toward:
 - **Skill composition:** Chaining multiple community skills into workflows without manual integration
 - **Reputation systems:** Author reputation carrying across marketplaces
 
-The marketplaces are complementary, not competitive. A skill published on skills.sh might later graduate to hermeshub's verified catalog. A premium skill on agentskills.io might have its source on GitHub. Navigate them based on your needs, not marketplace loyalty.
+The marketplaces are complementary, not competitive. A skill published on skills.sh might later graduate into the official Hermes catalog. A skill you distribute standalone can still be fully spec-compliant on agentskills.io. Navigate them based on your needs, not marketplace loyalty.
 
 One skill ecosystem, many entry points. Find what works, build what's missing, and share what you create.
 
