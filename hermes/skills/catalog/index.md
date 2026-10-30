@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-10-30"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -822,6 +822,30 @@ Linked from this index so the pages are reachable by crawl.
 - [Indexion Skills - Source Code Exploration for Agents Setup](/hermes/skills/catalog/indexion-skills-setup)
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
+
+### New - October 30, 2026 Morning Sweep (19 publisher guides)
+
+Nineteen repository-scoped clusters drained from the queue the October 29 evening probe left behind, for **345,882 combined installs across 264 indexed listings**:
+
+- [Remotion Framework Skills - Programmatic Video Setup](/hermes/skills/catalog/remotion-framework-skills-setup) - 47,489 combined installs across 73 listings; 69,018 stars; NOASSERTION while LICENSE.md carries the two-tier Remotion License; the React video framework's own skill library: 13 public skills around a router plus 63 internal maintainer skills, 88 `SKILL.md` files in three layouts, and four indexed names with no directory at main
+- [Auth0 Agent Skills - Identity and OAuth Setup](/hermes/skills/catalog/auth0-agent-skills-setup) - 28,077 combined installs across 47 listings; 55 stars; Apache-2.0; official Auth0 identity skill consolidated into a single skill and a 144-file reference set, against 47 indexed per-framework names that are the retired ones
+- [Upstash Context7 - Versioned Library Docs Setup](/hermes/skills/catalog/upstash-context7-setup) - 25,472 combined installs across 8 listings; 63,945 stars; MIT; Context7 documentation retrieval as four skills over the cx7 CLI and the remote MCP endpoint, master branch, with three listings that have no directory in the tree
+- [Svelte AI Tools - Official Svelte and SvelteKit Setup](/hermes/skills/catalog/svelte-ai-tools-setup) - 24,570 combined installs across 2 listings; 335 stars; MIT; the official Svelte MCP in two skills, `svelte-code-writer` and `svelte-core-bestpractices`, shipped across five harness layouts with a static autofixer CLI
+- [Prisma Next Skills - Typed Database Access Setup](/hermes/skills/catalog/prisma-next-skills-setup) - 23,921 combined installs across 40 listings; 411 stars; Apache-2.0; Prisma Next as 13 published skills plus 18 contributor skills, with migration review, upgrade walkthroughs and per-transition codemods
+- [Axiom Skills - Observability and Event Queries Setup](/hermes/skills/catalog/axiom-skills-setup) - 23,872 combined installs across 15 listings; 17 stars; MIT; official Axiom observability skills for APL queries, dashboards, alerting, SPL conversion and cost control, where v1.2.0 renamed the skills with an `axiom-` prefix
+- [Lavish AXI - Agent Experience Interface Setup](/hermes/skills/catalog/lavish-axi-setup) - 23,474 combined installs across 3 listings; 4,358 stars; MIT; one agent-facing UI skill backed by a CLI: a design vocabulary, hook and plugin targets, and a publish path to a hosted page
+- [Multi-Agent Review - Adversarial Code Review Setup](/hermes/skills/catalog/multi-agent-review-setup) - 19,509 combined installs across 1 listing; 82 stars; no licence file; a four-adversary review protocol with a synthesis pass that turns competing critiques of a spec or plan into one decision list
+- [Pulumi Agent Skills - Infrastructure as Code Setup](/hermes/skills/catalog/pulumi-agent-skills-setup) - 16,370 combined installs across 17 listings; 78 stars; Apache-2.0; official Pulumi IaC skills in four plugin groups: authoring and ESC secrets, five migration converters for Terraform, CDK, CloudFormation, ARM and Bicep, provider maintenance and Neo handoff
+- [components.build - UI Component Standards Setup](/hermes/skills/catalog/vercel-components-build-setup) - 14,813 combined installs across 1 listing; 802 stars; NOASSERTION while the LICENSE file is Apache-2.0 and the README says MIT; the components.build specification as a skill: 16 spec pages, 19 languages of translations and an accessibility reference set
+- [Kapso Agent Skills - WhatsApp Business Setup](/hermes/skills/catalog/gokapso-agent-skills-setup) - 13,788 combined installs across 9 listings; 195 stars; no licence file; Kapso WhatsApp Business skills for integration, automation, calls and observability, master branch, with five indexed listings that have no directory
+- [Dotneet Claude Code Marketplace - Plugin Collection Setup](/hermes/skills/catalog/dotneet-claude-code-marketplace-setup) - 12,917 combined installs across 10 listings; 3 stars; no licence file; a six-plugin marketplace for review, prompt improvement and agent session work, where `call-claude` fails Snyk and the guide leads with it
+- [Swift Concurrency Skill - Structured Concurrency Setup](/hermes/skills/catalog/swift-concurrency-skill-setup) - 12,209 combined installs across 1 listing; 578 stars; MIT; twostraws' Swift 6 concurrency expert: tasks, actors and isolation, with 12 reference files covering hotspots, diagnostics and migration
+- [Vectorize Hindsight Skills - Agent Memory Setup](/hermes/skills/catalog/vectorize-hindsight-skills-setup) - 11,470 combined installs across 15 listings; 56,373 stars; MIT; agent memory as 20 skills plus a first-class Hermes memory-provider plugin, with self-hosted and cloud deployment paths
+- [Amazon Devices Agent Skills - Fire TV and Vega Setup](/hermes/skills/catalog/amazon-devices-agent-skills-setup) - 10,978 combined installs across 2 listings; 6 stars; MIT; Amazon's own Fire TV and Vega skills: a five-phase multi-TV migration with templates and a validation checklist, plus React Native TV UI rules
+- [Vinta Django AI Plugins - Django and Celery Setup](/hermes/skills/catalog/vintasoftware-django-ai-plugins-setup) - 8,390 combined installs across 5 listings; 166 stars; no licence file; Django and Celery experts with safe-migration and reviewer skills from a Django consultancy, five skills over ten `SKILL.md` files
+- [Vercel Chat SDK Skills - Chat Bot Development Setup](/hermes/skills/catalog/vercel-chat-sdk-skills-setup) - 6,118 combined installs across 3 listings; 2,434 stars; MIT; the Chat SDK and its adapter-writing workflow, with four byte-identical `SKILL.md` copies and a published agent-skills index
+- [Better Icons - Icon Search Skill Setup](/hermes/skills/catalog/better-auth-better-icons-setup) - 6,047 combined installs across 1 listing; 1,445 stars; MIT; icon search and selection as one skill over a CLI with preferences, history and a library-wide naming convention
+- [Google ADK Docs - Agent Development Kit Setup](/hermes/skills/catalog/google-adk-docs-setup) - 16,398 combined installs across 11 listings; 1,530 stars; Apache-2.0; Google's Agent Development Kit documentation as six skills covering the dev guide, cheatsheet, evaluation, deployment, streaming and observability, where the indexed names outrun the tree
 
 ### New - October 29, 2026 Evening Sweep (12 publisher guides)
 
