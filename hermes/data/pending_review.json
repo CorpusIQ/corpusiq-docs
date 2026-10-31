@@ -85289,5 +85289,336 @@
     ],
     "discovered_at": "2026-10-31T05:01:18.401894+00:00",
     "status": "pending"
+  },
+  {
+    "name": "tsrman/AurumAI",
+    "url": "https://github.com/tsrman/AurumAI",
+    "description": "Self-hosted AI chat and agent platform: models, agents, knowledge bases, skills, multi-agent workflows and a sandboxed Hermes Agent. Keycloak, Temporal, PostgreSQL RLS. AGPL-3.0.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T09:59:27Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "yang1989haoa-gif/synapse-studio",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-31T10:00:59.446175+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Noelune/unified-agent-memory",
+    "url": "https://github.com/Noelune/unified-agent-memory",
+    "description": "Unified fleet-wide agent memory system for DeepSeek Harness \u2014 shared Obsidian Vault for dsh, Codex, Claude Code & Hermes with dependency-free Python FTS5 core.",
+    "stars": 7,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "dsh-plugin",
+      "hermes",
+      "knowledge-base",
+      "multi-agent",
+      "obsidian",
+      "sqlite-fts5"
+    ],
+    "updated_at": "2026-10-31T09:55:53Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Intelligent-Internet/zenith",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-10-31T10:00:59.449308+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "haesol-shin/hermes-taskwatch",
+    "url": "https://github.com/haesol-shin/hermes-taskwatch",
+    "description": "Hermes Agent Kanban plugin: delegate and walk away. Nothing gets dropped, nothing unchecked gets through.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T09:55:34Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T10:00:59.450885+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "alexmi256/rea-agent-docker",
+    "url": "https://github.com/alexmi256/rea-agent-docker",
+    "description": "REA (Reverse Engineer Anything) in Docker: one image per analysis engine (Ghidra / Hopper / IDA) with a full reverse-engineering toolchain, MCP-ready for Hermes and other agents.",
+    "stars": 14,
+    "forks": 4,
+    "language": "Shell",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "decompilation",
+      "docker",
+      "docker-compose",
+      "docker-image",
+      "mcp",
+      "mcp-server",
+      "rea",
+      "reverse-engineer",
+      "reverse-engineering",
+      "static-analysis"
+    ],
+    "updated_at": "2026-10-31T09:53:59Z",
+    "category": "mcp",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-10-31T10:01:07.288528+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maciej-makowski/mcp-servers",
+    "url": "https://github.com/maciej-makowski/mcp-servers",
+    "description": "MCP servers monorepo: shared bearer-auth shim + google/outlook (Graph/Gmail) streamable-HTTP servers, containerised for a locked-down MCP host. Part of the Hermes MCP isolation project.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T09:03:59Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T10:01:07.291439+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NostrDanish/hermes-nanogpt-provider",
+    "url": "https://github.com/NostrDanish/hermes-nanogpt-provider",
+    "description": "Hermes Agent skill + plugin that adds NanoGPT to the provider list, with per-account key rows",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T08:59:52Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "jinlio/feishu-table-patch"
+    ],
+    "discovered_at": "2026-10-31T10:01:15.160299+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NostrDanish/hermes-pollinations-provider",
+    "url": "https://github.com/NostrDanish/hermes-pollinations-provider",
+    "description": "Hermes skill + model-provider plugin for Pollinations (gen.pollinations.ai)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T08:02:12Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T10:01:15.162903+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kshitijk4poor/hermes-rex-plugin",
+    "url": "https://github.com/kshitijk4poor/hermes-rex-plugin",
+    "description": "Rex terminal multiplexer integration for Hermes Agent: session/pane context + rex skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T07:26:05Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T10:01:15.164788+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agentready-tech/hermes-agent",
+    "url": "https://github.com/agentready-tech/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T10:00:26Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-10-31T10:01:23.034958+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "creatiVision/hermes-drive-index",
+    "url": "https://github.com/creatiVision/hermes-drive-index",
+    "description": "Private local Google Drive full-text search index and Hermes Agent plugin powered by SQLite FTS5",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T09:59:13Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T10:01:23.036819+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aakash-env/hermes-agent",
+    "url": "https://github.com/aakash-env/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T09:59:15Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-10-31T10:01:23.038290+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vighneshkumbhar/hermes-cognitive-bridge",
+    "url": "https://github.com/vighneshkumbhar/hermes-cognitive-bridge",
+    "description": "A local integration bridge connecting ChatGPT Web with Hermes Agent CLI through a Chromium extension and authenticated local gateway.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T06:13:40Z",
+    "category": "integrations",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "mlennie/hermes-mcp"
+    ],
+    "discovered_at": "2026-10-31T10:01:31.099297+00:00",
+    "status": "pending"
   }
 ]

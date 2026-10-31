@@ -20507,5 +20507,89 @@
     "reason": "Real Hermes inference-provider plugin (Google Antigravity / Cloud Code Assist). Scored 69 - half a point below the auto-approve bar - but it is a working model-provider integration with 34 stars, live commits and a Hermes-specific description, in a lane the directory under-covers.",
     "issue": null,
     "timestamp": "2026-10-31T05:04:48.875583+00:00"
+  },
+  {
+    "repo": "tsrman/AurumAI",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785138+00:00"
+  },
+  {
+    "repo": "Noelune/unified-agent-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785151+00:00"
+  },
+  {
+    "repo": "haesol-shin/hermes-taskwatch",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785154+00:00"
+  },
+  {
+    "repo": "alexmi256/rea-agent-docker",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785156+00:00"
+  },
+  {
+    "repo": "maciej-makowski/mcp-servers",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785158+00:00"
+  },
+  {
+    "repo": "NostrDanish/hermes-nanogpt-provider",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785160+00:00"
+  },
+  {
+    "repo": "NostrDanish/hermes-pollinations-provider",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785162+00:00"
+  },
+  {
+    "repo": "kshitijk4poor/hermes-rex-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785163+00:00"
+  },
+  {
+    "repo": "agentready-tech/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785165+00:00"
+  },
+  {
+    "repo": "creatiVision/hermes-drive-index",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785167+00:00"
+  },
+  {
+    "repo": "aakash-env/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785168+00:00"
+  },
+  {
+    "repo": "vighneshkumbhar/hermes-cognitive-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785170+00:00"
   }
 ]
