@@ -26,7 +26,7 @@ robots: "index,follow"
 
 <p align="center">
   <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/Submit_a_Repo-Add_your_resource-brightgreen" alt="Submit"></a>
-  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/docs/hermes/ecosystem/"><img src="https://img.shields.io/badge/Ecosystem-449+_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/ecosystem/"><img src="https://img.shields.io/badge/Ecosystem-449+_repos-blue" alt="Ecosystem"></a>
   <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/Star_us-Contribute-gold" alt="Star"></a>
 </p>
 
@@ -118,7 +118,7 @@ The biggest gap between a chat agent and an autonomous operator is persistent kn
 |--------|------|----------|-------|
 | **[Honcho](https://mcp.honcho.dev)** | Peer memory | Identity, preferences, conversation history, decisions | - |
 | **[GBrain](https://github.com/garrytan/gbrain)** | Knowledge base | File indexing, code understanding | 23K+ |
-| **[memcore-cloud](https://github.com/memcore-cloud)** | Cross-session | Context injection, raw source tracking, FTS5 recall | - |
+| **[memcore](/hermes/knowledge)** (Hermes plugin) | Cross-session | Context injection, raw source tracking, FTS5 recall | - |
 | **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving | Long-term memory evolution | 7.5K+ |
 | **[claude-mem](https://github.com/thedotmack/claude-mem)** | Session persistence | Persistent context across sessions | 82K+ |
 

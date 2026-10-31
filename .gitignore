@@ -8,3 +8,6 @@ build_out/
 
 # Agent state files
 .last_processed_release
+
+# external link checker probe cache
+.link-check-cache.json
