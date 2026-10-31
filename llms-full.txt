@@ -14132,101 +14132,63 @@ A: Same endpoint, different client. This guide is for using Gemini as the MCP cl
 *Powered by CorpusIQ - one MCP endpoint for all your business tools.*
 
 ---
-# MSR Source of Truth Governance
+# MSR Governance
 URL: https://www.corpusiq.io/docs/governance
 
-# MSR Source of Truth Governance
+# MSR Governance
 
-MSR (Management System of Record) is the authoritative source of truth for all financial and business metrics at CorpusIQ.
+MSR means the **Metric Spec Registry**. It is where a business number is defined once for an account: MRR, average order value, new customers, or any other number you want every assistant to answer the same way.
 
-## Data Hierarchy
+A metric spec is a small, user-declared recipe. You write it once. Every later question resolves that same recipe against current vendor data, with a one-line provenance footer attached to the answer.
 
-```
-MSR (Authoritative Source)
-  └── CorpusIQ Platform Data
-       └── Connected Source Data (Stripe, Shopify, Quickbooks, etc.)
-```
+## What the registry holds
 
-## Scope of Authority
+| Item | What it defines |
+|------|-----------------|
+| Key | Stable identifier such as `mrr` |
+| Label | Human-readable name shown in the provenance footer |
+| Description | Your own paragraph on what counted and what did not |
+| Expression | The recipe, compiled to connector calls |
+| Unit | USD, count, ratio, percent, or days |
+| Cross-source peers | Other specs whose value should agree |
+| Tolerance | How much disagreement is allowed before drift is flagged |
 
-MSR is the definitive source for:
+## How a value is resolved
 
-| Category | Examples |
-|----------|----------|
-| Financial Reporting | Revenue, expenses, P&L |
-| KPI Reporting | MRR, churn, LTV, CAC |
-| Executive Reporting | Board decks, investor updates |
-| Forecasting | Revenue projections, growth models |
-| Numerical Business Metrics | All quantified business data |
+1. The question names a number, for example "what is our MRR".
+2. The registry resolves the matching spec against live connector data.
+3. The value returns with a provenance footer: label, value, spec version, review age, and the connector calls with row counts.
+4. When cross-source peers are declared and disagree beyond tolerance, a drift block is appended to the same answer.
 
-CorpusIQ is NOT the source of truth for financial numbers. CorpusIQ surfaces data from connected sources. MSR validates and governs that data.
+Resolution is bounded by connector coverage. Starter templates ship for Stripe first, and a spec can only reference tools that exist in the connector layer.
 
-## Validation Process
+## What the registry does not do
 
-1. Data is retrieved from connected sources via CorpusIQ
-2. MSR validates data against known baselines
-3. Discrepancies are flagged for reconciliation
-4. Validated data enters MSR as the official record
-5. All downstream reporting pulls from MSR
+- **No warehouse and no replicated source data.** Every resolve calls the vendor.
+- **No result caching.** Two calls thirty seconds apart both hit the source.
+- **No semantic correctness guarantee.** The registry computes the recipe you wrote. If the recipe is wrong, the number is wrong, which is why the description and the review date exist.
+- **No automatic spec writing.** An assistant can draft one, but every save passes through a pending-write commit that the account owner approves.
 
-## Reconciliation Procedures
+## Versioning and audit trail
 
-When CorpusIQ data differs from MSR:
+Every committed spec change increments a version number, and that version appears in the provenance footer of each answer that uses it. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for a limited retention window. Raw customer files and full connector response payloads are not retained.
 
-1. Verify the connected source is correctly configured
-2. Check data freshness (last sync timestamp)
-3. Compare query parameters (date ranges, filters)
-4. Review connector status for errors
-5. Escalate unresolved discrepancies
+## When two sources disagree
 
-## Governance Standards
+1. Read the drift block. It names the peer spec, both values, and the percent difference.
+2. Check that both specs describe the same period, the same filters, and the same field.
+3. Add a hypothesis to the spec when the disagreement is known and expected, for example one vendor including trialing subscriptions while the other excludes them.
+4. Re-attest the spec with a new review date once the definition is correct.
 
-- All financial reports must cite MSR as source
-- CorpusIQ queries used for exploration and analysis
-- MSR used for official reporting and decisions
-- Monthly reconciliation between CorpusIQ and MSR
-- Audit trail maintained for all reconciliations
+## Related pages
 
-## Audit Controls
+- **[Metric Specs](/how-it-works/metric-specs)** - full onboarding guide, expression grammar, and pitfalls
+- **[CorpusIQ Architecture](/architecture)** - MCP endpoint and connector layer design
+- **[CorpusIQ Security Overview](/security)** - authentication and encryption
+- **[CorpusIQ Reporting](/reporting)** - instant reports and trend analysis
+- **[CorpusIQ Onboarding Guide](/onboarding)** - AI chat and agent setup in 10 minutes
 
-- Query logs timestamped and retained
-- Connection history tracked
-- Data changes logged
-- Access controls enforced
-- Regular security reviews
-
-## Source Precedence Rules
-
-1. **MSR** is always authoritative for financial metrics
-2. **Connected source data** via CorpusIQ is authoritative for operational metrics
-3. **Manual entry** is deprecated and requires MSR override
-4. **Third-party exports** are not authoritative unless validated by MSR
-
-## Contact
-
-For MSR access or reconciliation questions, contact the finance team.
-
-## Frequently Asked Questions
-
-**Q: What is MSR and how does it relate to CorpusIQ?**  
-A: MSR (Management System of Record) is the authoritative source of truth for all financial and business metrics. CorpusIQ surfaces operational data from connected sources; MSR validates, governs, and serves as the official record for reporting and decisions.
-
-**Q: How does the data validation process work?**  
-A: Data is retrieved from connected sources via CorpusIQ → MSR validates against known baselines → Discrepancies are flagged for reconciliation → Validated data enters MSR as the official record → All downstream reporting pulls from MSR.
-
-**Q: What are the source precedence rules?**  
-A: MSR is always authoritative for financial metrics. Connected source data via CorpusIQ is authoritative for operational metrics. Manual entry is deprecated. Third-party exports are not authoritative unless validated by MSR.
-
-## Internal Links
-
-- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
-
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - business answers you can trust, cited from your own sources.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -22028,7 +21990,7 @@ A: Instant reports (ask and get answers immediately), comparative reports (Q1 vs
 A: Yes. Copy results to clipboard, export as CSV, share via link, or save frequent queries. Scheduled recurring reports delivered to email or Slack are coming soon.
 
 **Q: What is MSR governance and how does it relate to reporting?**  
-A: MSR (Management System of Record) is the authoritative source for official financial metrics and board reporting. CorpusIQ surfaces operational data for exploration and analysis; MSR validates and governs data for official reporting.
+A: MSR is the Metric Spec Registry. You declare a business number once, and every later question resolves that same recipe against current vendor data with a provenance footer attached, so a report and a chat answer use the same definition.
 
 ## Internal Links
 
@@ -22037,7 +21999,7 @@ A: MSR (Management System of Record) is the authoritative source for official fi
 - **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
 - **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
 - **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
+- **[MSR Governance](/governance)**  --  Metric Spec Registry, versioning, and audit trail  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

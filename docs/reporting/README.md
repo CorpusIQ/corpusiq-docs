@@ -61,7 +61,7 @@ A: Instant reports (ask and get answers immediately), comparative reports (Q1 vs
 A: Yes. Copy results to clipboard, export as CSV, share via link, or save frequent queries. Scheduled recurring reports delivered to email or Slack are coming soon.
 
 **Q: What is MSR governance and how does it relate to reporting?**  
-A: MSR (Management System of Record) is the authoritative source for official financial metrics and board reporting. CorpusIQ surfaces operational data for exploration and analysis; MSR validates and governs data for official reporting.
+A: MSR is the Metric Spec Registry. You declare a business number once, and every later question resolves that same recipe against current vendor data with a provenance footer attached, so a report and a chat answer use the same definition.
 
 ## Internal Links
 
@@ -70,7 +70,7 @@ A: MSR (Management System of Record) is the authoritative source for official fi
 - **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
 - **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
 - **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
+- **[MSR Governance](/governance)**  --  Metric Spec Registry, versioning, and audit trail  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
