@@ -3,7 +3,7 @@ title: "Community Badge - CorpusIQ Docs"
 description: "Shareable badge for Hermes ecosystem contributors and community members. Add this your project README:."
 canonical: "https://www.corpusiq.io/docs/hermes/community/badge/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-10-31"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

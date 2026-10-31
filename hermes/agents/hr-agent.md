@@ -8,7 +8,7 @@ tags:
   - people-operations
   - resume-screening
   - ai-hr-assistant
-last_updated: 2026-10-30
+last_updated: 2026-10-31
 canonical: "https://www.corpusiq.io/docs/hermes/agents/hr-agent/"
 robots: "index,follow"
 

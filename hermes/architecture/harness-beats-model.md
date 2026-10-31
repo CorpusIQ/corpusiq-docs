@@ -1,7 +1,7 @@
 ---
 title: "The Harness Beats the Model - Why AI Infrastructure"
 description: "The biggest insight in AI right now is not about models. It is about the harness around them. Why structure, tooling, and evaluation beat model choice in agent systems."
-last_updated: 2026-10-24
+last_updated: 2026-10-31
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/harness-beats-model/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -44,7 +44,7 @@ CorpusIQ is that harness for business data. The connector layer. The read-only e
 
 ## The Industry Shift
 
-Harness engineering is now a recognized discipline. The awesome-harness-engineering repository on GitHub has 3,500 stars and 400 forks. It catalogs harness primitives: context, tools, planning, permissions, memory, verification, observability, and orchestration.
+Harness engineering is now a recognized discipline. The awesome-harness-engineering repositories on GitHub catalog harness primitives: context, tools, planning, permissions, memory, verification, observability, and orchestration.
 
 MCP (Model Context Protocol) is a harness standard. It defines how tools are described, discovered, and invoked. The July 2026 stateless MCP spec made harnesses simpler and more scalable.
 

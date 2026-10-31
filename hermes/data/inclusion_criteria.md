@@ -3,7 +3,7 @@ title: "Ecosystem Inclusion Criteria - CorpusIQ Docs"
 description: "Criteria for including repositories and tools in the Hermes Ecosystem Directory. Every submission scored 0-100 across six dimensions:."
 canonical: "https://www.corpusiq.io/docs/hermes/data/inclusion_criteria/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-10-31"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

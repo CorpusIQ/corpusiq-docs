@@ -3,7 +3,7 @@ title: "Hermes Agent Marketplace - 196+ Tools & Resources"
 description: "Complete directory of Hermes Agent tools, MCP servers, skills, SDKs, and community resources. The largest collection of agents on the internet."
 canonical: "https://www.corpusiq.io/docs/hermes/agent-marketplace/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-10-31"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

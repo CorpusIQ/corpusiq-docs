@@ -3,7 +3,7 @@ title: "Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright"
 description: "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference."
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
-last_updated: 2026-10-29
+last_updated: 2026-10-31
 canonical: "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone/"
 robots: "index,follow"
 
@@ -160,8 +160,8 @@ hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev \
 # GBrain  --  project memory (10 min)
 git clone https://github.com/garrytan/gbrain && cd gbrain && ./setup.sh
 
-# memcore-cloud  --  cross-session context (5 min)
-pip install memcore-cloud && memcore-cloud init
+# memcore  --  cross-session context (5 min)
+hermes plugins enable memcore_yifanchen
 ```
 
 Full details in the [memory architecture guide](/hermes/knowledge).
