@@ -1,7 +1,7 @@
 ---
 title: README
 description: "Welcome to CorpusIQ. Here's how to get your team up and running."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Onboarding
 

@@ -1,7 +1,7 @@
 ---
 title: index
 description: "Targeted landing pages and content optimized for search engines, covering MCP integration with specific business tools and platforms."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # SEO Content Library
 

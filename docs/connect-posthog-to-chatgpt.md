@@ -3,7 +3,7 @@ title: Connect PostHog to ChatGPT via MCP
 description: "Connect PostHog to ChatGPT through CorpusIQ MCP. Ask about events, funnels, person records and HogQL in plain English, read-only."
 category: ChatGPT Integrations
 tags: ["connect PostHog to ChatGPT", "PostHog MCP", "PostHog ChatGPT integration", "product analytics in ChatGPT", "HogQL questions", "CorpusIQ MCP"]
-last_updated: "2026-10-24"
+last_updated: "2026-10-30"
 canonical: "https://www.corpusiq.io/docs/connect-posthog-to-chatgpt"
 robots: "index,follow"
 ---

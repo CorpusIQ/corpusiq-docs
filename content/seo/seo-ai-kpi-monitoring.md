@@ -1,7 +1,7 @@
 ---
 title: seo-ai-kpi-monitoring
 description: "KPIs are supposed to tell you when something's wrong."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # AI for KPI Monitoring - Know Your Numbers Before They Know You
 

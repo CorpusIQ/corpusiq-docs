@@ -1,7 +1,7 @@
 ---
 title: "Stripe - CorpusIQ Docs - CorpusIQ"
 description: "See your payment activity inside the conversation. Ask which customers paid this month, what your charge history looks like, why your last payout does."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Stripe
 

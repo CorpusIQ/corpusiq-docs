@@ -3,7 +3,7 @@ title: Connect Google Search Console to ChatGPT via MCP
 description: "Connect Google Search Console to ChatGPT through CorpusIQ MCP. Ask about queries, pages, clicks and position and get cited answers from live data."
 category: ChatGPT Integrations
 tags: ["connect Google Search Console to ChatGPT", "Search Console ChatGPT integration", "MCP Search Console connector", "GSC data to ChatGPT", "SEO data in ChatGPT", "CorpusIQ MCP"]
-last_updated: "2026-10-20"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/connect-google-search-console-to-chatgpt"
 robots: "index,follow"
 ---

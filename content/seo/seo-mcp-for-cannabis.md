@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-cannabis
 description: "Cannabis operators run: Metrc for compliance, QuickBooks for financials (where possible), POS for sales, and spreadsheets for everything else."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Cannabis - Compliance, Inventory, and Multi-Location Ops
 

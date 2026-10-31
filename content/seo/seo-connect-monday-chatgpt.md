@@ -1,7 +1,7 @@
 ---
 title: seo-connect-monday-chatgpt
 description: "Your work lives in Monday.com. Boards, tasks, owners, statuses, deadlines. Every status check means opening Monday and clicking through boards."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Monday.com to ChatGPT - Work Management in Plain English
 

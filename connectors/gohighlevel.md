@@ -1,7 +1,7 @@
 ---
 title: "GoHighLevel (LeadConnector) - CorpusIQ Docs"
 description: "If you run an agency or service business on GoHighLevel, this is where contacts, pipelines, appointments, and payments all converge. Connecting it let."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # GoHighLevel (LeadConnector)
 

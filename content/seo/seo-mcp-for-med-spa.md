@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-med-spa
 description: "Med spas run: booking platform for appointments, QuickBooks for financials, Stripe for payments, and Klaviyo for client communications."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Med Spas - Revenue Per Room, Product Sales, and Client Retention
 

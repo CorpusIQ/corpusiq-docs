@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-cleaning
 description: "Cleaning companies run: Janitorial software for scheduling, QuickBooks for financials, Stripe for payments, CRM for commercial bids."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Cleaning Services - Contracts, Crews, and Revenue
 

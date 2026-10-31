@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-insurance
 description: "Insurance agencies manage: policy management systems, QuickBooks for commissions, Stripe for premium payments, HubSpot for client relationships, and Gmail."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Insurance - Policy Data, Claims, and Financials in One Question
 

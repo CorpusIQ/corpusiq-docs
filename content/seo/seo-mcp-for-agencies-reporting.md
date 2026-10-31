@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-agencies-reporting
 description: "Your agency serves 10+ clients. Each has different tools. Every month you spend 40+ hours pulling reports."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Agencies - Client Reporting Without the All-Nighter
 

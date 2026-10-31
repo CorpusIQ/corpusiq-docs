@@ -4,7 +4,7 @@ about: Request new fields, endpoints, or capabilities for an existing CorpusIQ c
 title: "[Enhancement] <connector>: <short description>"
 labels: type:enhancement
 assignees: ''
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 ## Connector Name

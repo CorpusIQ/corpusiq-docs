@@ -1,7 +1,7 @@
 ---
 title: seo-corpusiq-vs-airbyte
 description: "Airbyte is the leading open-source data integration platform. CorpusIQ queries your tools live via MCP."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # CorpusIQ vs Airbyte - Live Queries or ETL Pipelines
 

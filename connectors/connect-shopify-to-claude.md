@@ -1,7 +1,7 @@
 ---
 title: "Connect Shopify to Claude (Live Data, No CSV Exports)"
 description: "Stop exporting CSVs from Shopify to answer basic questions. CorpusIQ connects your live Shopify store to Claude, ChatGPT, and Perplexity for real answers."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # How to Connect Shopify to Claude (Live Data, No CSV Exports)
 

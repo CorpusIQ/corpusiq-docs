@@ -9,7 +9,7 @@ category: "How-To Guide"
 tags: ["ai-knowledge-base", "knowledge-management", "mcp-knowledge", "business-ai"]
 canonical: "https://www.corpusiq.io/docs/how-to-build-an-ai-knowledge-base/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # How to Build an AI Knowledge Base

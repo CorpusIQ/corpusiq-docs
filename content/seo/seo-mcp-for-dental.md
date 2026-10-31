@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-dental
 description: "Dental practices run: Dentrix/Eaglesoft for clinical, QuickBooks for financials, Stripe for patient payments, and HubSpot for new patient pipeline."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Dental Practices - Production, Collections, and Patient Pipeline
 

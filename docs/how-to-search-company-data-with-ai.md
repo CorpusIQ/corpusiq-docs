@@ -9,7 +9,7 @@ category: "How-To Guide"
 tags: ["ai-search", "company-data", "natural-language-search", "business-intelligence"]
 canonical: "https://www.corpusiq.io/docs/how-to-search-company-data-with-ai/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # How to Search Company Data with AI

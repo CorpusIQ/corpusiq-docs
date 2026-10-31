@@ -1,7 +1,7 @@
 ---
 title: "Connector Auth Failed - CorpusIQ Docs"
 description: "You clicked Connect, the OAuth flow started, and then it failed. Here is how to diagnose and fix connector authentication errors in CorpusIQ step by step."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connector authentication failed
 

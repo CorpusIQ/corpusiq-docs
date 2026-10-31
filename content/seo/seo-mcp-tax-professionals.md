@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-tax-professionals
 description: "Tax professionals serve 100+ clients. Each uses QuickBooks, some use Stripe, others use Shopify. Answering 'what's my client's Q3 estimated tax?'."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Tax Professionals - Client Financials in One Question
 

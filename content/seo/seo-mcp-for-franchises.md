@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-franchises
 description: "Franchisors and multi-unit operators manage: POS for sales, QuickBooks per location, Stripe for payments, HubSpot for franchisee pipeline, and your operati."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Franchises - Multi-Unit Performance in One View
 

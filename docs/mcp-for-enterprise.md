@@ -3,7 +3,7 @@ title: "MCP for Enterprise: AI-Powered Data Access"
 description: "How enterprise teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude."
 category: MCP Education
 tags: ["MCP for enterprise", "enterprise AI analytics", "AI for enterprise teams", "connect business data to ChatGPT", "no-code AI business intelligence", "enterprise data integration"]
-last_updated: "2026-10-24"
+last_updated: "2026-10-30"
 canonical: https://www.corpusiq.io/docs/mcp-for-enterprise
 robots: index,follow
 ---

@@ -3,7 +3,7 @@ title: Connect PostgreSQL to ChatGPT via MCP
 description: "Connect a PostgreSQL database to ChatGPT through CorpusIQ MCP. Ask about tables, orders and customers in plain English with cited answers."
 category: ChatGPT Integrations
 tags: ["connect PostgreSQL to ChatGPT", "Postgres ChatGPT integration", "MCP database connector", "SQL data to ChatGPT", "ask questions about a database", "CorpusIQ MCP"]
-last_updated: "2026-10-20"
+last_updated: "2026-10-30"
 canonical: "https://www.corpusiq.io/docs/connect-postgresql-to-chatgpt"
 robots: "index,follow"
 ---

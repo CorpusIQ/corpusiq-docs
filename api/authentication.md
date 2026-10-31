@@ -1,7 +1,7 @@
 ---
 title: authentication
 description: "The CorpusIQ API uses API keys for authentication. All requests must include your API key in the `Authorization` header."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # API Authentication
 

@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-support
 description: "A customer emails: 'Where's my order?' You open Shopify. Find the order. Check the tracking. Open the email thread. Find the last response."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Customer Support - Know Everything Before You Respond
 

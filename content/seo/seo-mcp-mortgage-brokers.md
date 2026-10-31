@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-mortgage-brokers
 description: "Mortgage brokers track: loan pipeline in your LOS, commissions in QuickBooks, client communications in Gmail, leads in HubSpot."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Mortgage Brokers - Pipeline, Commissions, and Client Data
 

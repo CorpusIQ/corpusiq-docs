@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-nonprofits
 description: "Your nonprofit runs on QuickBooks (grants and expenses), Stripe (donations), HubSpot (donor relationships), and Mailchimp (campaigns). Four systems."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Nonprofits - Do More Mission Work, Less Data Work
 

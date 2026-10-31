@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-manufacturing
 description: "Manufacturing companies run: ERP for production, QuickBooks for financials, Shopify for DTC sales, Stripe for payments, and HubSpot for B2B pipeline."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Manufacturing - Production, Inventory, and Financials Unified
 

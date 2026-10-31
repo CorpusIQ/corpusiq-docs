@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-marketing-agencies
 description: "You manage campaigns for 10+ clients across Google Ads, Meta, LinkedIn, TikTok, Klaviyo, and GA4. That's 60+ platforms to check every week."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Marketing Agencies - Every Client Campaign in One View
 

@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-logistics
 description: "Logistics companies run: TMS for shipments, QuickBooks for costs, Stripe for billing, HubSpot for client relationships, and Gmail for carrier communication."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Logistics - Shipments, Costs, and Customers in Real Time
 

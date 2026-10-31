@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-small-business
 description: "You run a small business. You don't have a data team. You don't have a warehouse."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Small Business - Enterprise-Grade Answers Without the Enterprise Price Tag
 

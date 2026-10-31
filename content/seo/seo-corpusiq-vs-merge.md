@@ -1,7 +1,7 @@
 ---
 title: seo-corpusiq-vs-merge
 description: "Merge.dev provides unified APIs for HR, payroll, accounting, and recruiting. CorpusIQ connects business tools to AI assistants via MCP."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # CorpusIQ vs Merge - MCP Queries vs Unified APIs
 

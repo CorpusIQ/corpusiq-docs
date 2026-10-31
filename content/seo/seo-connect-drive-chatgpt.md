@@ -1,7 +1,7 @@
 ---
 title: seo-connect-drive-chatgpt
 description: "Your company documents live in Google Drive. Contracts, proposals, reports, spreadsheets. Finding 'the Q3 marketing plan' means searching Drive manually."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Google Drive to ChatGPT - Your Files, Searchable by AI
 

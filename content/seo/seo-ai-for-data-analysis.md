@@ -1,7 +1,7 @@
 ---
 title: seo-ai-for-data-analysis
 description: "Data analysis used to mean: export CSV, open Excel, build pivot table, create chart, interpret results, present findings. Time: 2-4 hours per question."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # AI for Data Analysis - Stop Exporting, Start Asking
 

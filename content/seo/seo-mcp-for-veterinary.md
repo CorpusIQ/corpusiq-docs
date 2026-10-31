@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-veterinary
 description: "Veterinary practices run: Avimark/Cornerstone for clinical, QuickBooks for financials, Stripe for payments, and your client communication platform."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Veterinary Practices - Clinical Revenue, Inventory, and Client Data
 

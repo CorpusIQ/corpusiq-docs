@@ -1,7 +1,7 @@
 ---
 title: seo-connect-bamboohr-chatgpt
 description: "Your employee data lives in BambooHR. Headcount, time off, performance, hiring pipeline. Every report requires building a custom view."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect BambooHR to ChatGPT - HR Data in Plain English
 

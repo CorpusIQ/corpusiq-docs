@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-hr
 description: "HR teams juggle: BambooHR for headcount, Greenhouse for recruiting, QuickBooks for payroll budget, Slack for team communications."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for HR Teams - Headcount, Hiring, and Budget in One Question
 

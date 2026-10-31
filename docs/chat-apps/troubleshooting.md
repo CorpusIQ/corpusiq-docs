@@ -4,7 +4,7 @@ description: >-
   not linked, no AI key, a tool that isn't connected, or the wrong account.
 canonical: "https://www.corpusiq.io/docs/chat-apps/troubleshooting/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 title: "Troubleshooting - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 

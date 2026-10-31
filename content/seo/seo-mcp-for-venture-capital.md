@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-venture-capital
 description: "VC firms track: portfolio company financials (QuickBooks/Stripe), pipeline (HubSpot/Affinity), fund performance (spreadsheets), LP reporting (everything ma."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Venture Capital - Portfolio Metrics Across Every Company
 

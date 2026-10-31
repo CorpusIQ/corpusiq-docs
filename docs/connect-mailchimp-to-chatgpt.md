@@ -3,7 +3,7 @@ title: Connect Mailchimp to ChatGPT via MCP
 description: "Connect Mailchimp to ChatGPT through CorpusIQ MCP. Ask whether the newsletter moved revenue, not just opens, read-only and answered from your live campaign data."
 category: ChatGPT Integrations
 tags: ["connect Mailchimp to ChatGPT", "Mailchimp ChatGPT integration", "MCP Mailchimp connector", "campaign performance in ChatGPT", "email marketing analytics", "CorpusIQ MCP"]
-last_updated: "2026-10-22"
+last_updated: "2026-10-29"
 canonical: "https://www.corpusiq.io/docs/connect-mailchimp-to-chatgpt"
 robots: "index,follow"
 ---

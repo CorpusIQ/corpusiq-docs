@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Can't See CorpusIQ - CorpusIQ Docs"
 description: "You set up a custom GPT or the ChatGPT MCP connector but ChatGPT cannot see your CorpusIQ data. Step-by-step fixes for the most common integration failures."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # ChatGPT can't see CorpusIQ
 

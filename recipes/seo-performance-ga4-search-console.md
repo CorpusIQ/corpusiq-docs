@@ -1,7 +1,7 @@
 ---
 title: "SEO Performance Report (GA4 + Search Console)"
 description: "Weekly SEO reporting across every site you run: biggest click movers, query opportunities, and GA4 landing-page checks in one cited answer."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Recipe: SEO Performance Report (GA4 + Search Console)
 

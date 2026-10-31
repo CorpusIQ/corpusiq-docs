@@ -1,7 +1,7 @@
 ---
 title: "Examples and Templates - CorpusIQ Docs"
 description: "Runnable examples and templates: Claude Desktop config, cross-source ROAS analysis, and the MCP starter for developers building on CorpusIQ."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Examples
 

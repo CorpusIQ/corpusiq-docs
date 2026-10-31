@@ -1,7 +1,7 @@
 ---
 title: seo-connect-mailchimp-chatgpt
 description: "Your email marketing lives in Mailchimp. Campaigns, audiences, open rates, click rates. Every performance check requires navigating Mailchimp's reports."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Mailchimp to ChatGPT - Campaign Analytics Without Reports
 

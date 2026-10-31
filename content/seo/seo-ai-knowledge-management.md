@@ -1,7 +1,7 @@
 ---
 title: seo-ai-knowledge-management
 description: "Your company's knowledge is scattered across QuickBooks (financials), HubSpot (customers), Google Drive (docs), Slack (decisions), and Gmail (conversations."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # AI for Knowledge Management - Your Company's Brain
 

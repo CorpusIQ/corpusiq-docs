@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-plumbing
 description: "Plumbing companies run: ServiceTitan/Housecall Pro for dispatch, QuickBooks for financials, Stripe for payments."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Plumbing - Dispatch, Revenue, and Tech Performance
 

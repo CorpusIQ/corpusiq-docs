@@ -1,7 +1,7 @@
 ---
 title: seo-quickbooks-dashboard-chatgpt
 description: "You don't need a dashboard. You need answers."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # QuickBooks Dashboard with ChatGPT - Real-Time Financial View
 

@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-insurance-brokers
 description: "Independent brokers manage policies across 10+ carriers. Commissions, renewals, claims - spread across carrier portals and your agency management system."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Insurance Brokers - Every Policy, Every Client, One View
 

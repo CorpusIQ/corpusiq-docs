@@ -1,7 +1,7 @@
 ---
 title: seo-connect-salesforce-chatgpt
 description: "Your pipeline lives in Salesforce. Reports take 20 minutes to build. Questions take hours to answer."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Salesforce to ChatGPT - Enterprise CRM Meets AI
 

@@ -3,7 +3,7 @@ title: Connect Google Sheets to ChatGPT via MCP
 description: "Connect Google Sheets to ChatGPT through CorpusIQ MCP. Ask about budgets, pipelines and trackers in plain English with cited answers."
 category: ChatGPT Integrations
 tags: ["connect Google Sheets to ChatGPT", "Google Sheets ChatGPT integration", "MCP Sheets connector", "spreadsheet data to ChatGPT", "ask questions about a spreadsheet", "CorpusIQ MCP"]
-last_updated: "2026-10-20"
+last_updated: "2026-10-29"
 canonical: "https://www.corpusiq.io/docs/connect-google-sheets-to-chatgpt"
 robots: "index,follow"
 ---

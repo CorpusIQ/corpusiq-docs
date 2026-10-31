@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-film-production
 description: "Film productions track: Movie Magic for budgeting, QuickBooks for actuals, payroll for talent, distribution platforms for revenue."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Film Production - Budget vs Actuals, Talent Costs, Distribution Revenue
 

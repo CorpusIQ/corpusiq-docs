@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-ecommerce-guide
 description: "MCP (Model Context Protocol) connects your ecommerce tools to AI assistants."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Ecommerce - What Is It and Why Every Store Needs It
 

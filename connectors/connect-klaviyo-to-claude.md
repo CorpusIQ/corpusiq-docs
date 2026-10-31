@@ -1,7 +1,7 @@
 ---
 title: "How to Connect Klaviyo to Claude (Plain English)"
 description: "Klaviyo has the data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your email marketing performance."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # How to Connect Klaviyo to Claude (Plain English)
 

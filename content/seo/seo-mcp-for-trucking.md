@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-trucking
 description: "Trucking companies run: TMS for loads, QuickBooks for costs, Stripe for billing, HubSpot for shipper pipeline, and ELD for driver logs."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Trucking - Fleet Metrics, Costs, and Customer Data
 

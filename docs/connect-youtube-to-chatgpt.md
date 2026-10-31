@@ -3,7 +3,7 @@ title: Connect YouTube to ChatGPT via MCP
 description: "Connect YouTube to ChatGPT through CorpusIQ MCP. Ask which videos earned watch time, where viewers came from and what the comments say, read-only."
 category: ChatGPT Integrations
 tags: ["connect YouTube to ChatGPT", "YouTube MCP", "YouTube ChatGPT integration", "YouTube analytics in ChatGPT", "channel analytics questions", "CorpusIQ MCP"]
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/connect-youtube-to-chatgpt"
 robots: "index,follow"
 ---

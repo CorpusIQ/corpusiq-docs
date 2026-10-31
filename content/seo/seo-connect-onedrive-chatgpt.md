@@ -1,7 +1,7 @@
 ---
 title: seo-connect-onedrive-chatgpt
 description: "Your documents live in OneDrive. Word, Excel, PowerPoint, PDFs. Finding the right file means navigating Microsoft's folder structure."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect OneDrive to ChatGPT - Microsoft Files, AI-Searchable
 

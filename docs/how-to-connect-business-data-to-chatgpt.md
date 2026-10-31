@@ -9,7 +9,7 @@ category: "How-To Guide"
 tags: ["chatgpt-integration", "connect-data-to-ai", "mcp-setup", "business-data"]
 canonical: "https://www.corpusiq.io/docs/how-to-connect-business-data-to-chatgpt/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # How to Connect Business Data to ChatGPT

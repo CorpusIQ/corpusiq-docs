@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-healthcare
 description: "Healthcare organizations manage: EHR for patients, QuickBooks for financials, Stripe for payments, HubSpot for referrals, and Gmail for provider communicat."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Healthcare - Patient Data, Billing, and Compliance Unified
 

@@ -1,7 +1,7 @@
 ---
 title: "Connector Shows No Data - CorpusIQ Docs"
 description: "Your connector shows connected but returns no data. This guide walks through sync state, scopes, permission levels, and the checks that find the real cause."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connector is green but answers come back empty
 

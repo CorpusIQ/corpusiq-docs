@@ -1,7 +1,7 @@
 ---
 title: README
 description: "Search across your connected business tools with natural language."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Search
 

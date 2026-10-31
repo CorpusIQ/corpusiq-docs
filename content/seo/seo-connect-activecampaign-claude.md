@@ -1,7 +1,7 @@
 ---
 title: seo-connect-activecampaign-claude
 description: "Your marketing automation runs on ActiveCampaign. Automations, deals, contacts, campaigns. Every question requires navigating multiple sections."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect ActiveCampaign to Claude - Marketing Automation Answers
 

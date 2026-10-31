@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-self-storage
 description: "Self-storage operators run: SiteLink for management, QuickBooks for financials, Stripe for payments, marketing platforms."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Self-Storage - Occupancy, Revenue Per Unit, Rate Management
 

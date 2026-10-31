@@ -1,7 +1,7 @@
 ---
 title: seo-connect-cosmosdb-claude
 description: "Your NoSQL application data lives in Cosmos DB. Documents, containers, partition keys. Every answer requires writing queries."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Cosmos DB to Claude - Azure Data in Plain English
 

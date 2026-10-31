@@ -1,7 +1,7 @@
 ---
 title: seo-connect-mixpanel-chatgpt
 description: "Your product analytics run on Mixpanel. Events, funnels, retention, cohorts. Every insight requires building reports and interpreting charts."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Mixpanel to ChatGPT - Product Analytics in Plain English
 

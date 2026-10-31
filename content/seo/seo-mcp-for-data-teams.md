@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-data-teams
 description: "Your data team built the warehouse. Modeled the data. Maintains the pipelines."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Data Teams - Stop Being the Company's SQL Help Desk
 

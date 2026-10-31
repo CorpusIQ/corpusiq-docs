@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-dry-cleaners
 description: "Dry cleaning operators run: POS for orders, QuickBooks for financials, Stripe for payments, CRM for customer preferences."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Dry Cleaners - Revenue Per Store, Garment Volume, Customer Data
 

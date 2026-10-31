@@ -1,7 +1,7 @@
 ---
 title: "The Best MCP Server for Business Data (2026)"
 description: "Your AI is smart but blind to your actual data. See how an MCP server for business data connects Claude, ChatGPT, and Perplexity to live systems."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # The Best MCP Server for Business Data (2026)
 

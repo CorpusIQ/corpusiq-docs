@@ -1,7 +1,7 @@
 ---
 title: seo-perplexity-business-data
 description: "Perplexity can now query your business data through MCP. Financials, pipeline, analytics - with citations."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Perplexity for Business Data - Research-Grade Answers from Your Tools
 

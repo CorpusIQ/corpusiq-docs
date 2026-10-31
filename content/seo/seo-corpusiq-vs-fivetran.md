@@ -1,7 +1,7 @@
 ---
 title: seo-corpusiq-vs-fivetran
 description: "Fivetran moves data from your tools into a warehouse. CorpusIQ queries your tools live. Two different philosophies. Here's when to use which."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # CorpusIQ vs Fivetran - Live Queries Beat Batch Pipelines
 

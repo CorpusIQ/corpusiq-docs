@@ -3,7 +3,7 @@ title: "CorpusIQ Documentation"
 description: "CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity through the Model Context Protocol."
 canonical: "https://www.corpusiq.io/docs/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-30"
 tags: ["hermes agent", "ai agent", "documentation"]
 
 ---

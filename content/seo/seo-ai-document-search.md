@@ -1,7 +1,7 @@
 ---
 title: seo-ai-document-search
 description: "Your contracts are in Google Drive. Your invoices are in QuickBooks. Your customer emails are in Gmail. Your proposals are in HubSpot."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # AI for Document Search - Find Anything Across All Your Systems
 

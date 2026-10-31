@@ -9,7 +9,7 @@ category: "How-To Guide"
 tags: ["multi-source-ai", "data-integration", "mcp-platform", "cross-source-analysis"]
 canonical: "https://www.corpusiq.io/docs/how-to-connect-multiple-data-sources-to-ai/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # How to Connect Multiple Data Sources to AI

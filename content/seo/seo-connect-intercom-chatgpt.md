@@ -1,7 +1,7 @@
 ---
 title: seo-connect-intercom-chatgpt
 description: "Your customer relationships live in Intercom. Conversations, help articles, customer data, campaigns."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Intercom to ChatGPT - Customer Conversations, Analyzed by AI
 

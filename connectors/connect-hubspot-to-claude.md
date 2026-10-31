@@ -1,7 +1,7 @@
 ---
 title: "How to Connect HubSpot to Claude (Plain English Q&A)"
 description: "Stop building HubSpot reports that no one reads. Connect HubSpot to Claude through CorpusIQ and ask your pipeline and deal questions directly."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # How to Connect HubSpot to Claude (Plain English Q&A)
 

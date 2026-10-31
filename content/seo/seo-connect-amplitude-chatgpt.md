@@ -1,7 +1,7 @@
 ---
 title: seo-connect-amplitude-chatgpt
 description: "Your product analytics run on Amplitude. Behavioral cohorts, path analysis, experimentation, predictions."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Amplitude to ChatGPT - Advanced Product Analytics in Plain English
 

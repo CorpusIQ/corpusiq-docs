@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-saas-pricing
 description: "Your pricing data is scattered: Stripe knows MRR. QuickBooks knows costs. HubSpot knows deal sizes. Your product analytics knows feature adoption."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for SaaS Pricing - Know Your Unit Economics in Real Time
 

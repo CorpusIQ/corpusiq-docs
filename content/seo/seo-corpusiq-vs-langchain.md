@@ -1,7 +1,7 @@
 ---
 title: seo-corpusiq-vs-langchain
 description: "LangChain is the most popular framework for building LLM applications. CorpusIQ connects business data to AI assistants via MCP."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # CorpusIQ vs LangChain - MCP Protocol or LLM Framework
 

@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-community-banks
 description: "Community banks run: Jack Henry/Fiserv for core, QuickBooks for holding company financials, CRM for business development."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Community Banks - Loan Pipeline, Deposits, Branch Performance
 

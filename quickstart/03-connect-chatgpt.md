@@ -1,7 +1,7 @@
 ---
 title: "3. Connect CorpusIQ to ChatGPT - CorpusIQ Docs"
 description: "Use CorpusIQ inside ChatGPT through two paths: the published Custom GPT for ChatGPT Plus, Pro, and Team, or the MCP server route for desktop and custom GPTs."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # 3. Connect CorpusIQ to ChatGPT

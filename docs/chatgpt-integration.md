@@ -5,7 +5,7 @@ description: >-
   cited answers without leaving the chat.
 canonical: "https://www.corpusiq.io/docs/chatgpt-integration/"
 robots: "index,follow"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 title: "ChatGPT Integration - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 

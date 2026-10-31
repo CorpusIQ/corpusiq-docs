@@ -1,7 +1,7 @@
 ---
 title: "Adzviser Alternative: CorpusIQ for Business AI Data"
 description: "Looking for an Adzviser alternative? See how CorpusIQ connects business data to Claude, ChatGPT, and Perplexity with cited answers from live systems."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Adzviser Alternative: CorpusIQ for Business AI Data
 

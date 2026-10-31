@@ -1,7 +1,7 @@
 ---
 title: seo-connect-mongodb-claude
 description: "Your application data lives in MongoDB. Documents, collections, aggregations. Every answer requires writing MongoDB queries or using Compass."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect MongoDB to Claude - NoSQL Queries in Plain English
 

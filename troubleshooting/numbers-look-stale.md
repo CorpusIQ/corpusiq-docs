@@ -1,7 +1,7 @@
 ---
 title: "Numbers Look Stale - CorpusIQ Docs"
 description: "The answer is not empty, it is old. Why a connected source can return numbers that lag behind what the vendor shows, and how to read the delay correctly."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # The number is there, but it is older than you expected
 

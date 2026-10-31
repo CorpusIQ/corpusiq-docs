@@ -1,7 +1,7 @@
 ---
 title: corpusiq-vs-bi
 description: "A VP of Finance once told me: 'We have 47 dashboards. Nobody looks at any of them.'"
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # CorpusIQ vs Traditional BI - Why Dashboards Are Dying
 

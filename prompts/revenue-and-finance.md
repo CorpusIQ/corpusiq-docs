@@ -1,7 +1,7 @@
 ---
 title: "Revenue & Finance Prompts - CorpusIQ Docs"
 description: "CorpusIQ prompts for QuickBooks P&L, Stripe revenue, cash flow, and overdue invoices. Ask these Claude ChatGPT with connected."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 
 # Revenue & Finance Prompts

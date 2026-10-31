@@ -1,7 +1,7 @@
 ---
 title: seo-connect-xero-chatgpt
 description: "Your accounting runs on Xero. Invoices, bills, bank reconciliation, P&L, balance sheet. Every answer requires running reports."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Xero to ChatGPT - Accounting Answers Without Reports
 

@@ -3,7 +3,7 @@ title: "Search CorpusIQ Documentation Library"
 description: "Search the full CorpusIQ documentation library: connectors, recipes, troubleshooting, and developer guides for the data trust layer."
 category: "Documentation"
 tags: ["corpusiq search", "natural language search", "cross-source queries", "business data search", "real-time queries", "trend analysis", "data aggregation"]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/search"
 robots: "index,follow"
 ---

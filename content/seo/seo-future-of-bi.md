@@ -1,7 +1,7 @@
 ---
 title: seo-future-of-bi
 description: "Business Intelligence is dying. Not the concept - knowing what's happening in your business. That's more important than ever."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Why MCP Is the Future of Business Intelligence
 

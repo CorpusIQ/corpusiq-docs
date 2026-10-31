@@ -1,7 +1,7 @@
 ---
 title: seo-quickbooks-pl-chatgpt
 description: "Your P&L lives in QuickBooks. But getting a clear answer means running the report, setting date ranges, and interpreting rows of numbers."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # QuickBooks P&L with ChatGPT - Financial Answers Without Reports
 

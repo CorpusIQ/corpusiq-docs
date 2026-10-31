@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-govcon
 description: "Government contractors manage: Deltek for project accounting, QuickBooks for financials, Stripe for payments, HubSpot for BD pipeline, and SharePoint for c."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Government Contractors - DCAA Compliance, Project Costs, and Revenue
 

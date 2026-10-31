@@ -1,7 +1,7 @@
 ---
 title: "AI Agent MCP Setup - CorpusIQ Docs"
 description: "AI coding agents like Claude Code, Cursor, and Hermes can query your business data directly through CorpusIQ. This recipe shows you how to set it up s."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Recipe: Connect CorpusIQ to AI Coding Agents (Claude Code, Cursor, Hermes)
 

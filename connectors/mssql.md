@@ -1,7 +1,7 @@
 ---
 title: "Microsoft SQL Server (MSSQL) - CorpusIQ Docs"
 description: "Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems - ERPs, line."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Microsoft SQL Server (MSSQL)
 

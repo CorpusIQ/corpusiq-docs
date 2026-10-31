@@ -1,7 +1,7 @@
 ---
 title: "How to Connect GA4 to Claude (Plain English Q&A)"
 description: "GA4 is powerful and complicated. CorpusIQ connects it to Claude so you can skip the interface entirely and just ask plain-English questions about traffic."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # How to Connect GA4 to Claude (Plain English Q&A)
 

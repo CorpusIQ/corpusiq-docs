@@ -1,7 +1,7 @@
 ---
 title: seo-connect-postscript-chatgpt
 description: "Your SMS marketing runs on Postscript. Subscribers, keywords, campaigns, analytics. Every performance check requires navigating multiple views."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Postscript to ChatGPT - SMS Marketing Answers
 

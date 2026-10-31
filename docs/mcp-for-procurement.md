@@ -3,7 +3,7 @@ title: "MCP for Procurement: AI Access to Vendor and Spend Data"
 description: "How procurement teams use MCP servers to connect vendor, contract, and spend data to ChatGPT and Claude, read-only and source-cited."
 category: MCP Education
 tags: ["MCP for procurement", "procurement AI analytics", "AI for purchasing teams", "connect vendor data to ChatGPT", "spend analysis with AI", "supplier risk tracking"]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/mcp-for-procurement
 robots: index,follow
 ---

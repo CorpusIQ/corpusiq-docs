@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-real-estate
 description: "You manage 20 properties. Each has its own P&L in QuickBooks. Rent payments hit Stripe. Maintenance tickets live in your property management software."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Real Estate - Know Your Numbers Across Every Property
 

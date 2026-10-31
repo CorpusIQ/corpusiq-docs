@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-finance
 description: "Month-end close. Three words that make every finance team groan."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Finance Teams - Close the Books in Minutes, Not Days
 

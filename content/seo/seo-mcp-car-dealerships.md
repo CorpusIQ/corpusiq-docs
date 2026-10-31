@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-car-dealerships
 description: "Dealerships run: CDK/Reynolds for DMS, QuickBooks for financials, CRM for sales pipeline, digital retail platforms."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Car Dealerships - Sales, F&I, Service, Parts Performance
 

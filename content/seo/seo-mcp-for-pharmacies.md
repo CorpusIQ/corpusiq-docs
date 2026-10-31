@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-pharmacies
 description: "Independent pharmacies run: PMS for prescriptions, QuickBooks for financials, Stripe for patient payments, and inventory management."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Pharmacies - Rx Data, Inventory, and Financial Performance
 

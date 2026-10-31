@@ -1,7 +1,7 @@
 ---
 title: seo-connect-brevo-chatgpt
 description: "Your email and SMS marketing runs on Brevo (formerly Sendinblue). Campaigns, automations, contacts, transactional emails."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Brevo to ChatGPT - Email and SMS Marketing Answers
 

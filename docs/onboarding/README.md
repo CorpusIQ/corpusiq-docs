@@ -1,7 +1,7 @@
 ---
 title: "Onboarding Guide - CorpusIQ Docs"
 description: "First time using CorpusIQ? This guide walks through account setup, connecting your first business tools, and asking your first cross-source question in minutes."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Onboarding Guide
 

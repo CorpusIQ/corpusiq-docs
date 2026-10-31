@@ -3,7 +3,7 @@ title: "Connect Google Ads to ChatGPT via MCP - Live Data"
 description: "Connect Google Ads to ChatGPT through CorpusIQ MCP. Ask plain-English questions about campaigns, keywords, spend, and search terms, read-only."
 category: ChatGPT Integrations
 tags: ["connect Google Ads to ChatGPT", "Google Ads ChatGPT integration", "MCP Google Ads connector", "Google Ads data to ChatGPT", "AI for PPC reporting", "CorpusIQ MCP"]
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 canonical: https://www.corpusiq.io/docs/connect-google-ads-to-chatgpt
 robots: index,follow
 ---

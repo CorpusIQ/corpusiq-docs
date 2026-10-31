@@ -3,7 +3,7 @@ title: Connect Google Calendar to ChatGPT via MCP
 description: "Connect Google Calendar to ChatGPT through CorpusIQ MCP. Ask what is booked, what was agreed and what it costs in time, read-only, from your live calendars."
 category: ChatGPT Integrations
 tags: ["connect Google Calendar to ChatGPT", "Google Calendar ChatGPT integration", "MCP Calendar connector", "calendar data to ChatGPT", "meeting load analysis", "CorpusIQ MCP"]
-last_updated: "2026-10-22"
+last_updated: "2026-10-29"
 canonical: "https://www.corpusiq.io/docs/connect-google-calendar-to-chatgpt"
 robots: "index,follow"
 ---

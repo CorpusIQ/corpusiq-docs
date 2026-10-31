@@ -1,7 +1,7 @@
 ---
 title: seo-connect-odoo-chatgpt
 description: "Your business runs on Odoo. CRM, sales, inventory, accounting, projects. Every module has its own reports and views."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Odoo to ChatGPT - ERP Answers in Plain English
 

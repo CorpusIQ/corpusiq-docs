@@ -1,7 +1,7 @@
 ---
 title: seo-ai-data-layer
 description: "An AI data layer sits between your business tools and your AI assistant. It translates 'how are we doing?'."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # How to Create an AI Data Layer - Without Building One
 

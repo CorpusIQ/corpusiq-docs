@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-staffing
 description: "Staffing agencies run: Bullhorn for placements, QuickBooks for payroll, Stripe for billing, HubSpot for client pipeline, and Gmail for candidate communicat."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Staffing Agencies - Placements, Margins, and Client Pipeline
 

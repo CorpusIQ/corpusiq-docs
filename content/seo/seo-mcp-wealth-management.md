@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-wealth-management
 description: "Wealth managers track: portfolio performance, client cash flows, fee revenue, AUM growth. All in different systems."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Wealth Management - Portfolio Analytics Without Manual Reports
 

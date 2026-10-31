@@ -1,7 +1,7 @@
 ---
 title: seo-connect-shopify-chatgpt
 description: "Your store runs on Shopify. Orders, customers, products, inventory. Every question requires filtering, exporting, and building a report."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Shopify to ChatGPT - Your Store Data in Plain English
 

@@ -1,7 +1,7 @@
 ---
 title: seo-quickbooks-business-intelligence
 description: "QuickBooks has the data. Finding it requires knowing which report to run, which date range to set, and which columns to include."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # QuickBooks Business Intelligence - Financial Answers Without the Learning Curve
 

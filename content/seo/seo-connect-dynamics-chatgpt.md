@@ -1,7 +1,7 @@
 ---
 title: seo-connect-dynamics-chatgpt
 description: "Your enterprise ERP is Dynamics 365. Financials, supply chain, sales, customer service. Every answer requires navigating complex modules."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Microsoft Dynamics to ChatGPT - ERP Data in Plain English
 

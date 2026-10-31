@@ -1,7 +1,7 @@
 ---
 title: rate-limits
 description: "The CorpusIQ API enforces rate limits to ensure fair usage across all customers."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Rate Limits
 

@@ -1,7 +1,7 @@
 ---
 title: CorpusIQ MCP install instructions for agents
 description: "Install the CorpusIQ MCP server in Cline, Claude Code, Cursor, VS Code, Gemini CLI or any remote MCP client. One HTTP endpoint, OAuth 2.1, no package to install."
-last_updated: "2026-10-23"
+last_updated: "2026-10-24"
 ---
 # CorpusIQ MCP: install instructions for agents
 

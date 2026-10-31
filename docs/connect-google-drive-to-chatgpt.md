@@ -3,7 +3,7 @@ title: Connect Google Drive to ChatGPT via MCP
 description: "Connect Google Drive to ChatGPT through CorpusIQ MCP. Ask what a contract says, find the current version of a document and get cited answers from your live files."
 category: ChatGPT Integrations
 tags: ["connect Google Drive to ChatGPT", "Google Drive ChatGPT integration", "MCP Drive connector", "search documents with ChatGPT", "document Q&A", "CorpusIQ MCP"]
-last_updated: "2026-10-22"
+last_updated: "2026-10-29"
 canonical: "https://www.corpusiq.io/docs/connect-google-drive-to-chatgpt"
 robots: "index,follow"
 ---

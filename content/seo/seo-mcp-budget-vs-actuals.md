@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-budget-vs-actuals
 description: "Budget vs actuals is the most important financial report nobody checks until month-end."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # MCP for Budget vs Actuals - Know Where You Stand Every Day
 

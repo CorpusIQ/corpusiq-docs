@@ -1,7 +1,7 @@
 ---
 title: "Claude Can't See CorpusIQ - CorpusIQ Docs"
 description: "You added CorpusIQ to Claude Desktop but Claude says it cannot see your data. Here is the fix path: connector status, MCP config, permissions, and the most common misconfigurations."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Claude can't see CorpusIQ
 

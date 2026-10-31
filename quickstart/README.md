@@ -1,7 +1,7 @@
 ---
 title: "Quickstart - Get Started With CorpusIQ"
 description: "Get started with CorpusIQ in minutes: create an account, connect your first business tools, and ask your first cross-source question with cited answers."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Quickstart
 

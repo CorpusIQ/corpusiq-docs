@@ -1,7 +1,7 @@
 ---
 title: seo-connect-ga4-chatgpt
 description: "Your website analytics live in GA4. Traffic, conversions, user behavior. Every question requires navigating the GA4 interface."
-last_updated: "2026-10-19"
+last_updated: "2026-10-24"
 ---
 # Connect Google Analytics to ChatGPT - Traffic Answers Without Reports
 
