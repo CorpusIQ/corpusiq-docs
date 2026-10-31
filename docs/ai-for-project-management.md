@@ -28,15 +28,15 @@ robots: "index,follow"
 
 # AI for Project Management: From Status Meetings to Instant Answers
 
-Project managers spend an estimated 60% of their time gathering status  --  attending standups, chasing updates in Slack, checking project boards, and compiling reports. The irony is that all the information they need already exists across their tools; it's just fragmented and hard to assemble. AI-powered project management through CorpusIQ's MCP platform collapses that fragmentation by making every project tool queryable in natural language.
+Project managers spend an estimated 60% of their time gathering status - attending standups, chasing updates in Slack, checking project boards, and compiling reports. The irony is that all the information they need already exists across their tools; it's just fragmented and hard to assemble. AI-powered project management through CorpusIQ's MCP platform collapses that fragmentation by making every project tool queryable in natural language.
 
-Ask Claude "What's the status of the Q3 product launch?", "Which tasks are blocked and who owns them?", or "Summarize this week's progress across all active projects" and receive synthesized answers pulled from Monday.com, Notion, Slack, calendars, and more  --  in seconds.
+Ask Claude "What's the status of the Q3 product launch?", "Which tasks are blocked and who owns them?", or "Summarize this week's progress across all active projects" and receive synthesized answers pulled from Monday.com, Notion, Slack, calendars, and more - in seconds.
 
 ## What AI Brings to Project Management
 
 **Instant Status Reports**
 
-The weekly status report is a ritual that consumes hours of PM time. AI can generate it instantly: "Give me a status update for the mobile app redesign  --  completed tasks, in-progress work, blockers, and upcoming milestones." Claude pulls data from your project management tool and delivers a formatted, comprehensive update.
+The weekly status report is a ritual that consumes hours of PM time. AI can generate it instantly: "Give me a status update for the mobile app redesign - completed tasks, in-progress work, blockers, and upcoming milestones." Claude pulls data from your project management tool and delivers a formatted, comprehensive update.
 
 **Blocker Identification**
 
@@ -56,16 +56,16 @@ Status meetings can be shorter and more productive when AI has already gathered 
 
 ## How CorpusIQ MCP Enables AI-Powered PM
 
-- **Project management tools:** Monday.com  --  boards, items, statuses, owners, and timelines.
-- **Knowledge management:** Notion  --  project docs, specs, meeting notes, and databases.
-- **Communication:** Slack  --  project channel discussions, decisions, and updates.
-- **Calendars:** Google Calendar, Outlook  --  meetings, deadlines, and milestones.
-- **Documents:** Google Drive, SharePoint  --  project plans, requirements, and deliverables.
+- **Project management tools:** Monday.com - boards, items, statuses, owners, and timelines.
+- **Knowledge management:** Notion - project docs, specs, meeting notes, and databases.
+- **Communication:** Slack - project channel discussions, decisions, and updates.
+- **Calendars:** Google Calendar, Outlook - meetings, deadlines, and milestones.
+- **Documents:** Google Drive, SharePoint - project plans, requirements, and deliverables.
 
 ## Example Project Management Queries
 
 **Status & Reporting:**
-- "Give me a status update for [project]  --  progress, blockers, and next steps."
+- "Give me a status update for [project] - progress, blockers, and next steps."
 - "What was accomplished across all projects this week?"
 - "Show me all tasks due this week across every project."
 - "Which milestones are at risk of being missed?"
@@ -92,18 +92,18 @@ Status meetings can be shorter and more productive when AI has already gathered 
 
 ## Implementation Steps
 
-1. **Connect project tools**  --  Monday.com, Notion, Slack, calendars.
+1. **Connect project tools** - Monday.com, Notion, Slack, calendars.
 2. **Define project query templates** for common PM questions.
-3. **Integrate into status workflows**  --  replace manual status gathering with AI queries.
-4. **Enable self-service for stakeholders**  --  execs and team leads ask their own project questions.
-5. **Automate routine reporting**  --  weekly status, milestone tracking, resource analysis.
+3. **Integrate into status workflows** - replace manual status gathering with AI queries.
+4. **Enable self-service for stakeholders** - execs and team leads ask their own project questions.
+5. **Automate routine reporting** - weekly status, milestone tracking, resource analysis.
 
 ## ROI for PM Teams
 
 - **50-70% reduction** in time spent gathering status.
-- **Shorter, more productive status meetings**  --  AI provides the update, meetings focus on decisions.
-- **Earlier blocker detection**  --  AI surfaces issues before they're reported.
-- **Better stakeholder visibility**  --  anyone can query project status without asking the PM.
+- **Shorter, more productive status meetings** - AI provides the update, meetings focus on decisions.
+- **Earlier blocker detection** - AI surfaces issues before they're reported.
+- **Better stakeholder visibility** - anyone can query project status without asking the PM.
 
 ## FAQ
 
@@ -133,7 +133,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 **Next steps:** [Start your AI PM transformation →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-project-management)
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

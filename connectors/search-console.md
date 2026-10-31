@@ -49,6 +49,7 @@ CorpusIQ never submits sitemaps, requests indexing, or modifies properties.
 ## See also
 
 - [Connect Google Search Console to ChatGPT](../connect-google-search-console-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only model.
+- [Connect Google Search Console to Claude](../connect-google-search-console-to-claude.md) - the same setup in Claude, with the verified config block.
 
 ---
 

@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows
+# Windows 11 WSL2 Hermes Agent Setup - Linux AI Agent on Windows
 
-Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2  --  no dual-booting required. Get NVIDIA GPU acceleration for local models through CUDA passthrough, native Linux filesystem performance, and all Hermes Agent features. This Windows WSL2 setup guide covers everything from installation to persistent 24/7 operation.
+Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2 - no dual-booting required. Get NVIDIA GPU acceleration for local models through CUDA passthrough, native Linux filesystem performance, and all Hermes Agent features. This Windows WSL2 setup guide covers everything from installation to persistent 24/7 operation.
 
 ## Overview
 
@@ -24,8 +24,8 @@ WSL2 provides a real Linux kernel inside Windows, enabling Hermes Agent to run e
 | Linux kernel | Real Linux, not emulation |
 | GPU passthrough | NVIDIA CUDA works inside WSL2 |
 | Filesystem | ext4 inside, accessible from Windows via `\\wsl$` |
-| Networking | Shared with Windows  --  no VM networking hassle |
-| Systemd | Supported  --  run Hermes Agent as a service |
+| Networking | Shared with Windows - no VM networking hassle |
+| Systemd | Supported - run Hermes Agent as a service |
 
 ## Step-by-Step Installation
 
@@ -56,7 +56,7 @@ Apply: `wsl --shutdown` in PowerShell, then reopen WSL.
 ### Step 3: GPU Passthrough (NVIDIA)
 
 ```powershell
-# In PowerShell  --  install NVIDIA WSL2 driver
+# In PowerShell - install NVIDIA WSL2 driver
 winget install --id=Nvidia.CUDA -e
 ```
 
@@ -173,7 +173,7 @@ For headed browsing, install a Windows X server like VcXsrv and `export DISPLAY=
 ## FAQ
 
 ### Does Ollama GPU acceleration work in WSL2?
-Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference  --  same speed as native Linux.
+Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference - same speed as native Linux.
 
 ### Why not just use Windows native Hermes Agent?
 Native Windows is supported: grab the MSIX desktop package, or run `iex (irm https://hermes-agent.nousresearch.com/install.ps1)` in PowerShell for a command-line install. WSL2 is still the better fit for 24/7 server-style operation because it gives you systemd, an ext4 filesystem, and native Linux package management, and many MCP servers and developer tools assume Linux. Pick native Windows for the desktop app, WSL2 for an always-on agent host.
@@ -183,11 +183,11 @@ Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup)  --  All platform options
-- [Gaming PC Setup](gaming-pc.md)  --  Native Linux for max GPU performance
-- [Docker Setup](docker.md)  --  Alternative Windows deployment
-- [Model Selection Guide](/hermes/best-practices/model-selection)  --  GPU model sizing
-- [Troubleshooting Guide](/hermes/troubleshooting)  --  WSL2-specific issues
+- [Hermes Agent Setup Overview](/hermes/setup) - All platform options
+- [Gaming PC Setup](gaming-pc.md) - Native Linux for max GPU performance
+- [Docker Setup](docker.md) - Alternative Windows deployment
+- [Model Selection Guide](/hermes/best-practices/model-selection) - GPU model sizing
+- [Troubleshooting Guide](/hermes/troubleshooting) - WSL2-specific issues
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

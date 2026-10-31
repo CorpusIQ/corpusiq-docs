@@ -1,6 +1,6 @@
 ---
-title: Steroids OpenAI Image Gen  --  Hermes Plugin Setup Guide
-description: Install and configure the steroids-openai-image-gen provider plugin for Hermes Agent  --  OpenAI-compatible endpoints or direct Codex Auth image generation.
+title: Steroids OpenAI Image Gen - Hermes Plugin Setup Guide
+description: Install and configure the steroids-openai-image-gen provider plugin for Hermes Agent - OpenAI-compatible endpoints or direct Codex Auth image generation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/steroids-openai-image-gen-setup/"
 robots: "index,follow"
 last_updated: "2026-10-24"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# Steroids OpenAI Image Gen  --  Setup Guide
+# Steroids OpenAI Image Gen - Setup Guide
 
 **Plugin:** `eve-ai-dev/steroids-openai-image-gen`  
 **Purpose:** Hermes image generation using OpenAI-compatible endpoints or Codex OAuth  
@@ -20,8 +20,8 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Adds a Hermes image generation provider with two modes:
 
-1. **OpenAI-compatible**  --  any endpoint with `/v1/images/generations` and `/v1/images/edits` routes
-2. **Codex Auth**  --  uses Codex/OpenAI OAuth token directly
+1. **OpenAI-compatible** - any endpoint with `/v1/images/generations` and `/v1/images/edits` routes
+2. **Codex Auth** - uses Codex/OpenAI OAuth token directly
 
 Also provides `image_generate_background` for batch/slow jobs via Hermes' process registry completion queue.
 
@@ -83,7 +83,7 @@ image_gen:
     max_reference_images: 16
 ```
 
-Uses Hermes' internal Codex auth helper  --  no external image endpoint needed.
+Uses Hermes' internal Codex auth helper - no external image endpoint needed.
 
 ---
 
@@ -122,9 +122,9 @@ The plugin registers an extended `image_generate` schema:
 ```
 
 Jobs persist at `${HERMES_HOME}/steroids_openai_image_gen/jobs/<job_id>/`:
-- `status.json`  --  current state
-- `result.json`  --  on completion
-- `delivery_event.json`  --  routing metadata
+- `status.json` - current state
+- `result.json` - on completion
+- `delivery_event.json` - routing metadata
 
 Check job status with `image_generate_background_status` using the returned `job_id`.
 

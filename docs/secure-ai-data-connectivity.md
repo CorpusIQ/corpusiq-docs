@@ -1,5 +1,5 @@
 ---
-title: "Secure AI Data Connectivity -- Zero-Trust Business AI"
+title: "Secure AI Data Connectivity - Zero-Trust Business AI"
 description: Connect AI assistants to authorized business data with scoped OAuth, encrypted transport, explicit retention classes, and source-aware results. CASA Tier 2 certified.
 category: Security
 tags: [secure AI connectivity, zero-trust AI, business AI security, read-only external-source retrieval, MCP security, encrypted AI access, AI data governance]
@@ -104,14 +104,14 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 
 ## Internal Links
 
-- [Enterprise AI Data Access](https://www.corpusiq.io/enterprise)  --  Security at enterprise scale
-- [MCP Security Best Practices](mcp-security-best-practices.md)  --  Deep dive on MCP security architecture
-- [What is an MCP Server](https://www.corpusiq.io/answers/what-is-an-mcp-server)  --  Understanding the protocol
-- [Benefits of MCP for Business](benefits-of-mcp-for-business.md)  --  Why MCP is the secure choice
-- [Best MCP Server for Business](best-mcp-server-for-business.md)  --  Platform comparison
-- [MCP for Enterprise](mcp-for-enterprise.md)  --  Enterprise deployment patterns
-- [CorpusIQ vs Custom RAG](/compare)  --  Why building in-house is riskier
-- [Connect Business Data to ChatGPT](https://www.corpusiq.io/answers)  --  Getting started
+- [Enterprise AI Data Access](https://www.corpusiq.io/enterprise) - Security at enterprise scale
+- [MCP Security Best Practices](mcp-security-best-practices.md) - Deep dive on MCP security architecture
+- [What is an MCP Server](https://www.corpusiq.io/answers/what-is-an-mcp-server) - Understanding the protocol
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - Why MCP is the secure choice
+- [Best MCP Server for Business](best-mcp-server-for-business.md) - Platform comparison
+- [MCP for Enterprise](mcp-for-enterprise.md) - Enterprise deployment patterns
+- [CorpusIQ vs Custom RAG](/compare) - Why building in-house is riskier
+- [Connect Business Data to ChatGPT](https://www.corpusiq.io/answers) - Getting started
 
 ---
 
@@ -121,7 +121,7 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Secure AI Data Connectivity  --  Zero-Trust Business AI Access",
+  "headline": "Secure AI Data Connectivity - Zero-Trust Business AI Access",
   "description": "How CorpusIQ connects AI assistants to authorized business data using scoped OAuth, encrypted transport, explicit retention classes, and source-aware results.",
   "about": {
     "@type": "Thing",

@@ -26,7 +26,7 @@ last_updated: "2026-10-24"
 
 ## Skipped (issues)
 
-- **#3864 MCPg** - resubmission of the Aug 19 prose-catalogued PostgreSQL entry (index line "MCPg -- Production PostgreSQL MCP ★ New", repo devopam/MCPg). BuyWhere precedent.
+- **#3864 MCPg** - resubmission of the Aug 19 prose-catalogued PostgreSQL entry (index line "MCPg - Production PostgreSQL MCP ★ New", repo devopam/MCPg). BuyWhere precedent.
 - **#3865 Fastcrawl** - Firecrawl alternative cloud scraping API. Saturated web-scraping class per the rasterly precedent (#3676).
 - **#3866 agent-identity-mcp** - throwaway email plus UK phone identity for agents. Identity/OTP plumbing class.
 - **#3867 sms-florin-mcp** - rent a real UK number for SMS/OTP receipt. Same plumbing class, gray-area.

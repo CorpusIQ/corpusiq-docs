@@ -1,5 +1,5 @@
 ---
-title: ClawPilot Ecosystem  --  Full Setup Guide for Hermes Agents
+title: ClawPilot Ecosystem - Full Setup Guide for Hermes Agents
 description: Install, configure, and use the ClawPilot ecosystem (clawpilot, clawpilot-pair, clawpilot-send, clawpilot-config, clawpilot-doctor) to connect PocketClaw mobile app to Hermes Agent hosts.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawpilot-ecosystem-setup/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# ClawPilot Ecosystem  --  Setup Guide
+# ClawPilot Ecosystem - Setup Guide
 
 **Source:** [kcchien/clawpilot](https://skills.sh/kcchien/clawpilot) (241 installs) + [rethinking-studio/clawpilot-skills](https://skills.sh/rethinking-studio/clawpilot-skills) (29/22/21/20 installs)
 **Category:** Mobile Agent Interface, Infrastructure
 
-ClawPilot bridges PocketClaw (iOS/macOS mobile app) to AI agent runtimes  --  including **Hermes Agent**. Once paired, operators can chat with their Hermes agents, send files, receive reports, run diagnostics, and manage configuration  --  all from their phone.
+ClawPilot bridges PocketClaw (iOS/macOS mobile app) to AI agent runtimes - including **Hermes Agent**. Once paired, operators can chat with their Hermes agents, send files, receive reports, run diagnostics, and manage configuration - all from their phone.
 
 ---
 
@@ -73,7 +73,7 @@ API_SERVER_PORT=8888
 3. Agent verifies host readiness
 4. Agent generates a pairing code
 5. Enter code in PocketClaw iOS app
-6. Connection established  --  chat from mobile
+6. Connection established - chat from mobile
 
 ### Sending Files to Mobile
 
@@ -92,7 +92,7 @@ Supports: reports, screenshots, generated images, log files, data exports.
 |---|---|
 | **Mobile agent check-in** | Load `clawpilot-pair`, pair phone, chat with CorpusIQ-connected agent from anywhere |
 | **Receive daily reports on mobile** | Agent generates report, uses `clawpilot-send` to deliver to PocketClaw |
-| **Remote diagnostics** | Load `clawpilot-doctor` when agent goes unresponsive  --  diagnose from phone |
+| **Remote diagnostics** | Load `clawpilot-doctor` when agent goes unresponsive - diagnose from phone |
 | **Config validation before pairing** | Load `clawpilot-config` to verify Hermes API server before attempting pairing |
 | **Security audit on demand** | Load `clawpilot` to run security audit against OpenClaw gateway from mobile |
 

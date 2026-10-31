@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# Model Selection Guide  --  Choose the Right AI Model Every Time
+# Model Selection Guide - Choose the Right AI Model Every Time
 
-Choosing the right model for each task is one of the highest-leverage decisions you make with Hermes Agent. A well-chosen model saves latency, cost, and context  --  missteps waste all three. This model selection guide covers task-to-model mapping, cost optimization, local vs cloud tradeoffs, and fallback chain patterns.
+Choosing the right model for each task is one of the highest-leverage decisions you make with Hermes Agent. A well-chosen model saves latency, cost, and context - missteps waste all three. This model selection guide covers task-to-model mapping, cost optimization, local vs cloud tradeoffs, and fallback chain patterns.
 
 ## Overview
 
@@ -23,9 +23,9 @@ Hermes Agent runs models from local Ollama, OpenRouter, Nous Portal, and direct 
 
 Ask three questions before every model selection:
 
-1. **What does the task require?**  --  Reasoning depth, factual precision, creative generation, or tool orchestration?
-2. **What is the latency budget?**  --  Real-time interaction, batch processing, or background work?
-3. **What is the cost tolerance?**  --  Per-request budget, daily volume, or fixed monthly spend?
+1. **What does the task require?** - Reasoning depth, factual precision, creative generation, or tool orchestration?
+2. **What is the latency budget?** - Real-time interaction, batch processing, or background work?
+3. **What is the cost tolerance?** - Per-request budget, daily volume, or fixed monthly spend?
 
 ### Task-to-Model Mapping
 
@@ -42,7 +42,7 @@ Ask three questions before every model selection:
 
 **Prompt compression.** Summarize conversation history before expensive calls. Strip irrelevant tool output.
 
-**Task batching.** Process similar records together  --  many providers offer 50% discounts on batch endpoints.
+**Task batching.** Process similar records together - many providers offer 50% discounts on batch endpoints.
 
 **Model fallback chains.** Try cheapest model first → if confidence low, escalate to mid-tier → if still uncertain, invoke frontier. This "progressive enhancement" gives frontier quality on hard cases while keeping average cost low.
 
@@ -56,11 +56,11 @@ Ask three questions before every model selection:
 
 ## The Fallback Chain Pattern
 
-1. **Check cache**  --  identical query answered recently? Return cached.
-2. **Try primary model**  --  send to default model for this task class
-3. **Validate output**  --  check structure, completeness, confidence
-4. **Escalate if needed**  --  retry with stronger model
-5. **Track fallback rate**  --  if >10%, primary model is too weak
+1. **Check cache** - identical query answered recently? Return cached.
+2. **Try primary model** - send to default model for this task class
+3. **Validate output** - check structure, completeness, confidence
+4. **Escalate if needed** - retry with stronger model
+5. **Track fallback rate** - if >10%, primary model is too weak
 
 ## Practical Decision Tree
 
@@ -85,7 +85,7 @@ Data sensitive/regulated? → Local or approved cloud with BAA
 ## FAQ
 
 ### When should I use a local model vs a cloud model?
-Use local models (Ollama) for classification, extraction, and data-sensitive tasks  --  they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a [hybrid approach](/hermes/setup).
+Use local models (Ollama) for classification, extraction, and data-sensitive tasks - they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a [hybrid approach](/hermes/setup).
 
 ### How do I reduce my API costs with Hermes Agent?
 Implement caching for repeated queries, use prompt compression before expensive calls, batch non-urgent tasks, and create fallback chains that try cheaper models first. Track cost per successful task, not per token.
@@ -95,18 +95,18 @@ Frontier models carry the hard work: Claude Sonnet 5.5 (`anthropic/claude-sonnet
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices)  --  All guides
-- [Prompt Caching](prompt-caching.md)  --  How a stable prefix holds a 98 percent hit rate
-- [Setup Guides](/hermes/setup)  --  Platform-specific model configuration
-- [Memory Management](memory-management.md)  --  Context optimization for models
-- [MCP Server Design](mcp-design.md)  --  Design tools for model efficiency
+- [Best Practices Overview](/hermes/best-practices) - All guides
+- [Prompt Caching](prompt-caching.md) - How a stable prefix holds a 98 percent hit rate
+- [Setup Guides](/hermes/setup) - Platform-specific model configuration
+- [Memory Management](memory-management.md) - Context optimization for models
+- [MCP Server Design](mcp-design.md) - Design tools for model efficiency
 
 ---
 
-Revisit model choices monthly  --  model quality and pricing change fast.
+Revisit model choices monthly - model quality and pricing change fast.
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

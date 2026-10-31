@@ -14,15 +14,15 @@ robots: "index,follow"
 
 ---
 
-# Hermes DevOps Agent  --  Autonomous Infrastructure Monitoring & SRE
+# Hermes DevOps Agent - Autonomous Infrastructure Monitoring & SRE
 
-The **Hermes DevOps Agent** is your embedded **SRE teammate**  --  it monitors **infrastructure health**, triages incidents, analyzes logs, tracks deployment health, and automates routine operations tasks. Deploy in minutes to get real-time operational intelligence without context-switching between dashboards.
+The **Hermes DevOps Agent** is your embedded **SRE teammate** - it monitors **infrastructure health**, triages incidents, analyzes logs, tracks deployment health, and automates routine operations tasks. Deploy in minutes to get real-time operational intelligence without context-switching between dashboards.
 
 This agent connects to your observability stack, CI/CD pipelines, cloud providers, and incident management tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors). It surfaces issues before they become outages, correlates deployment events with metric anomalies, and accelerates root-cause analysis.
 
 ## Overview
 
-**The DevOps Agent eliminates manual infrastructure checking.** Instead of toggling between Datadog, Grafana, and PagerDuty, your engineering team receives proactive alerts with context  --  CPU anomalies correlated with recent deploys, SSL certs expiring in 14 days, and deployment health reports with DORA metrics.
+**The DevOps Agent eliminates manual infrastructure checking.** Instead of toggling between Datadog, Grafana, and PagerDuty, your engineering team receives proactive alerts with context - CPU anomalies correlated with recent deploys, SSL certs expiring in 14 days, and deployment health reports with DORA metrics.
 
 | Capability | What It Does |
 |-----------|-------------|
@@ -36,24 +36,24 @@ This agent connects to your observability stack, CI/CD pipelines, cloud provider
 
 ## How It Works
 
-1. **Connect your infrastructure**  --  PostgreSQL, MSSQL, MongoDB databases; Stripe for payment health
-2. **Configure alert routing**  --  Which severity goes to which Slack channel or on-call rotation
-3. **Load the skills**  --  Infra health, deployment monitor, incident response, log analysis
-4. **Schedule the crons**  --  Every-15-minute health checks, daily deployment reports, weekly cost scans
-5. **Receive context-rich alerts**  --  Not just "CPU high" but "CPU spike correlates with deploy #4523 10 min ago"
+1. **Connect your infrastructure** - PostgreSQL, MSSQL, MongoDB databases; Stripe for payment health
+2. **Configure alert routing** - Which severity goes to which Slack channel or on-call rotation
+3. **Load the skills** - Infra health, deployment monitor, incident response, log analysis
+4. **Schedule the crons** - Every-15-minute health checks, daily deployment reports, weekly cost scans
+5. **Receive context-rich alerts** - Not just "CPU high" but "CPU spike correlates with deploy #4523 10 min ago"
 
 ## Key Features
 
 - **Every-15-minute infrastructure health checks** with anomaly detection
-- **Database health monitoring**  --  slow queries, connection pools, replication lag
+- **Database health monitoring** - slow queries, connection pools, replication lag
 - **Deployment DORA metrics** tracked daily: lead time, deployment frequency, change failure rate
-- **Automatic log correlation** during incidents  --  pulls relevant logs from the alert window
+- **Automatic log correlation** during incidents - pulls relevant logs from the alert window
 - **SSL certificate expiration tracking** with weekly renewal reminders
 - **Weekly cost optimization** scans for idle resources, oversized instances, unattached volumes
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **DeepSeek V3**  --  precise technical reasoning, log pattern recognition, and multi-system event correlation. Use **Claude Haiku** for always-on monitoring and simple alert classification.
+**Claude Sonnet 4** or **DeepSeek V3** - precise technical reasoning, log pattern recognition, and multi-system event correlation. Use **Claude Haiku** for always-on monitoring and simple alert classification.
 
 ## MCP Connectors Needed
 
@@ -103,7 +103,7 @@ hermes agent create devops \
 - Define **alert routing rules** (severity → Slack channel/on-call rotation) in canonical facts
 - Store **runbook URLs and escalation policies** for incident notifications
 - Configure **log sources** and their locations for cross-service correlation
-- Set **anomaly detection thresholds per service**  --  a 10% CPU spike on a batch worker differs from the API
+- Set **anomaly detection thresholds per service** - a 10% CPU spike on a batch worker differs from the API
 
 ## Extending
 
@@ -116,11 +116,11 @@ hermes agent create devops \
 
 ### What does the Hermes DevOps Agent do?
 
-The **Hermes DevOps Agent** autonomously monitors infrastructure health every 15 minutes, tracks deployment metrics (DORA), analyzes logs for error patterns, manages incident response with context-rich alerts, and scans for cost optimization opportunities  --  all delivered to Slack on schedule.
+The **Hermes DevOps Agent** autonomously monitors infrastructure health every 15 minutes, tracks deployment metrics (DORA), analyzes logs for error patterns, manages incident response with context-rich alerts, and scans for cost optimization opportunities - all delivered to Slack on schedule.
 
 ### How does infrastructure health monitoring work?
 
-The agent checks CPU, memory, disk, and network metrics across instances every 15 minutes. When anomalies are detected, it correlates them with recent deployments or traffic changes and alerts with context  --  not just raw metrics.
+The agent checks CPU, memory, disk, and network metrics across instances every 15 minutes. When anomalies are detected, it correlates them with recent deployments or traffic changes and alerts with context - not just raw metrics.
 
 ### Can the DevOps agent help during incidents?
 
@@ -132,19 +132,19 @@ The agent tracks four key **DORA metrics**: deployment frequency, lead time for 
 
 ### How does the agent handle cost optimization?
 
-Every Friday, the agent scans for **idle load balancers, oversized instances, unattached volumes, and reserved instance coverage gaps**  --  delivering a prioritized list of savings opportunities.
+Every Friday, the agent scans for **idle load balancers, oversized instances, unattached volumes, and reserved instance coverage gaps** - delivering a prioritized list of savings opportunities.
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
-- [Finance Agent  --  Reconciliation & Financial Reporting](/hermes/agents/finance-agent)
-- [Support Agent  --  Ticket Triage & SLA Monitoring](/hermes/agents/support-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
-- [Database Connectors  --  PostgreSQL, MSSQL, MongoDB](/hermes/mcp/servers)
+- [Agent Library - All 9 Role Configurations](/hermes/agents)
+- [Finance Agent - Reconciliation & Financial Reporting](/hermes/agents/finance-agent)
+- [Support Agent - Ticket Triage & SLA Monitoring](/hermes/agents/support-agent)
+- [CorpusIQ MCP Connectors - 40+ Business Tools](/hermes/mcp/connectors)
+- [Database Connectors - PostgreSQL, MSSQL, MongoDB](/hermes/mcp/servers)
 - [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

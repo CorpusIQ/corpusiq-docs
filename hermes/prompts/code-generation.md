@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Code Generation Prompts  --  AI-Powered Development Templates
+# Code Generation Prompts - AI-Powered Development Templates
 
 ## How to Use These Prompts
 
@@ -75,7 +75,7 @@ Use best practices for the chosen stack. Include package.json/requirements.txt w
 
 ```
 Refactor the following [LANGUAGE] code for readability and maintainability.
-Do not change the external behavior  --  only improve internal structure.
+Do not change the external behavior - only improve internal structure.
 
 [PASTE CODE HERE]
 
@@ -140,11 +140,11 @@ You are a lead engineer conducting a code review. Review the following [LANGUAGE
 [PASTE DIFF OR CODE]
 
 Evaluate across these dimensions (1-10 scale with specifics):
-1. Correctness  --  does it handle edge cases?
-2. Security  --  injection risks, auth bypass, data exposure?
-3. Performance  --  algorithmic complexity, query efficiency?
-4. Maintainability  --  naming, coupling, testability?
-5. Test coverage  --  what scenarios are missing?
+1. Correctness - does it handle edge cases?
+2. Security - injection risks, auth bypass, data exposure?
+3. Performance - algorithmic complexity, query efficiency?
+4. Maintainability - naming, coupling, testability?
+5. Test coverage - what scenarios are missing?
 
 Highlight the top 3 issues that must be fixed before merge, and 2-3 suggestions for improvement that are non-blocking.
 ```
@@ -178,7 +178,7 @@ For each finding, categorize as Critical/High/Medium/Low with remediation code.
 - **Use system role.** Set the model's system prompt to define its persona (e.g., "You are a Rust expert").
 - **Chain prompts.** Use code generation → code review → test generation as a pipeline for higher quality output.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

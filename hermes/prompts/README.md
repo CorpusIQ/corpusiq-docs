@@ -16,12 +16,12 @@ Claude or ChatGPT.
 
 Every prompt lists:
 
-- **What this does**  --  plain English explanation.
-- **Connectors used**  --  which integrations need to be authenticated.
-- **Behind the scenes**  --  the skill runbook id, when one exists. You don't
+- **What this does** - plain English explanation.
+- **Connectors used** - which integrations need to be authenticated.
+- **Behind the scenes** - the skill runbook id, when one exists. You don't
   need to know this, but if you're curious how CorpusIQ chose its approach,
   the name is here.
-- **Sample answer shape**  --  what you'll get back (a description of structure,
+- **Sample answer shape** - what you'll get back (a description of structure,
   not invented numbers).
 
 ## Categories
@@ -36,7 +36,7 @@ Every prompt lists:
 | [ecommerce-ops.md](ecommerce-ops) | Orders, inventory, top SKUs, marketplace sellers |
 | [seo-and-content.md](seo-and-content) | Search Console, Semrush, YouTube, ranking drift |
 | [productivity-and-files.md](productivity-and-files) | Inbox triage, calendar, file search, missed emails |
-| [multi-source.md](multi-source) | The moat  --  prompts that fire across 3+ connectors |
+| [multi-source.md](multi-source) | The moat - prompts that fire across 3+ connectors |
 
 ## Tips
 
@@ -48,7 +48,7 @@ Every prompt lists:
 - **If the answer is wrong**, ask CorpusIQ to show its work: "What sources
   did you use? Show me the raw numbers." It will.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

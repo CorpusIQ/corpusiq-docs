@@ -20,13 +20,13 @@ CorpusIQ has two access methods. Pick the one that matches your workflow:
 
 These task-first guides live on the main site and cover the rest of the first month:
 
-- [Your First Day With CorpusIQ](https://www.corpusiq.io/guides/first-day-with-corpusiq)  --  One tool, one verifiable question, one citation checked
-- [Connecting Your Business Tools](https://www.corpusiq.io/guides/connect-your-business-tools)  --  Read-only authorization, product families, expired tokens
-- [Skills and Memory](https://www.corpusiq.io/guides/skills-and-memory)  --  How the right procedure is chosen, what memory holds
-- [Trial, Plan and Billing](https://www.corpusiq.io/guides/trial-plan-and-billing)  --  What the 30-day trial includes, what happens on day 30
-- [Automating Recurring Work](https://www.corpusiq.io/guides/automate-recurring-work)  --  The four rituals worth automating first
-- [How to Ask](https://www.corpusiq.io/how-to-ask)  --  Phrasing, context, and how to read a citation
-- [Developers](https://www.corpusiq.io/developers)  --  MCP endpoint, auth and the read-only guarantee
+- [Your First Day With CorpusIQ](https://www.corpusiq.io/guides/first-day-with-corpusiq) - One tool, one verifiable question, one citation checked
+- [Connecting Your Business Tools](https://www.corpusiq.io/guides/connect-your-business-tools) - Read-only authorization, product families, expired tokens
+- [Skills and Memory](https://www.corpusiq.io/guides/skills-and-memory) - How the right procedure is chosen, what memory holds
+- [Trial, Plan and Billing](https://www.corpusiq.io/guides/trial-plan-and-billing) - What the 30-day trial includes, what happens on day 30
+- [Automating Recurring Work](https://www.corpusiq.io/guides/automate-recurring-work) - The four rituals worth automating first
+- [How to Ask](https://www.corpusiq.io/how-to-ask) - Phrasing, context, and how to read a citation
+- [Developers](https://www.corpusiq.io/developers) - MCP endpoint, auth and the read-only guarantee
 
 ---
 
@@ -147,14 +147,14 @@ A: Device login takes approximately 45 seconds from start to finish. Your agent 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/architecture)** - MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/security)** - Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/search)** - Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting)** - Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding)** - AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/governance)** - Source of truth and audit controls  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

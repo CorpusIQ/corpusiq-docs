@@ -9,13 +9,13 @@ robots: "index,follow"
 
 ---
 
-# Skill Development Guide  --  Build Reusable AI Agent Skills
+# Skill Development Guide - Build Reusable AI Agent Skills
 
-Skills are Hermes Agent's superpower  --  they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting. This skill development guide covers everything from your first SKILL.md to publishing.
+Skills are Hermes Agent's superpower - they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting. This skill development guide covers everything from your first SKILL.md to publishing.
 
 ## Overview
 
-Custom skills capture repeatable workflows  --  tool calls, validations, and output formatting  --  into a package you, your team, or the community can reuse. Following [best practices](/hermes/best-practices) for skill development ensures your skills are testable, maintainable, and production-ready.
+Custom skills capture repeatable workflows - tool calls, validations, and output formatting - into a package you, your team, or the community can reuse. Following [best practices](/hermes/best-practices) for skill development ensures your skills are testable, maintainable, and production-ready.
 
 ## How It Works
 
@@ -47,7 +47,7 @@ Hermes skills follow the [agentskills.io specification](https://agentskills.io/s
 
 ### Trigger Patterns
 
-Write 5-10 trigger patterns covering different ways users might ask. **Good:** "Check our marketing performance this week"  --  specific enough to avoid false positives but broad enough to catch real intent. **Bad:** "marketing" (too broad) or overly specific variations.
+Write 5-10 trigger patterns covering different ways users might ask. **Good:** "Check our marketing performance this week" - specific enough to avoid false positives but broad enough to catch real intent. **Bad:** "marketing" (too broad) or overly specific variations.
 
 ### Verification Between Steps
 
@@ -59,7 +59,7 @@ Write 5-10 trigger patterns covering different ways users might ask. **Good:** "
 ### Error Recovery Patterns
 
 - **Transient errors:** Retry with exponential backoff (max 3 attempts, include jitter)
-- **Auth errors:** Don't retry  --  return clear re-auth message
+- **Auth errors:** Don't retry - return clear re-auth message
 - **Data errors:** Return partial results with clear caveats
 - **Partial failures:** Return successes + failure summary
 
@@ -97,10 +97,10 @@ Good triggers are specific enough to avoid false positives but broad enough to c
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices)  --  All guides
-- [Creating Custom Skills](/hermes/skills/creating-skills)  --  Full walkthrough with example
-- [Skill Marketplaces](/hermes/skills/skill-marketplaces)  --  Where to publish
-- [MCP Server Design](mcp-design.md)  --  Build tools your skills call
+- [Best Practices Overview](/hermes/best-practices) - All guides
+- [Creating Custom Skills](/hermes/skills/creating-skills) - Full walkthrough with example
+- [Skill Marketplaces](/hermes/skills/skill-marketplaces) - Where to publish
+- [MCP Server Design](mcp-design.md) - Build tools your skills call
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

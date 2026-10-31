@@ -17,7 +17,7 @@ with **GA4** for traffic and **Shopify/QuickBooks** for revenue attribution.
 
 ### "Which pages lost organic traffic this week?"
 
-**What this does:** Search Console diff  --  pages where clicks or
+**What this does:** Search Console diff - pages where clicks or
 impressions dropped most.
 **Connectors used:** Search Console.
 **Behind the scenes:** `get_search_console_performance` with a
@@ -41,8 +41,8 @@ attributed revenue, and top organic landing pages by revenue.
 
 ### "Find me keyword opportunities I can win quickly."
 
-**What this does:** Striking-distance keywords  --  ones ranking on page 2
-with real impression volume  --  plus competitor keywords you're missing.
+**What this does:** Striking-distance keywords - ones ranking on page 2
+with real impression volume - plus competitor keywords you're missing.
 **Connectors used:** Search Console, Semrush (optional).
 **Behind the scenes:** `keyword-opportunity-finder` skill.
 **Sample answer shape:** Ranked keyword list with current position,
@@ -66,7 +66,7 @@ average position.
 **Connectors used:** Search Console.
 **Behind the scenes:** `get_search_console_performance` over two
 windows.
-**Sample answer shape:** Movers list  --  biggest gains and biggest losses
+**Sample answer shape:** Movers list - biggest gains and biggest losses
 by position.
 
 ---
@@ -77,7 +77,7 @@ by position.
 **Connectors used:** Semrush.
 **Behind the scenes:** `get_semrush_domain_overview` +
 `get_semrush_competitors`.
-**Sample answer shape:** Side-by-side domain metrics  --  traffic, keyword
+**Sample answer shape:** Side-by-side domain metrics - traffic, keyword
 count, authority score.
 
 ---
@@ -94,7 +94,7 @@ count, authority score.
 
 ### "How's my YouTube channel performing?"
 
-**What this does:** Channel-level YouTube analytics  --  views,
+**What this does:** Channel-level YouTube analytics - views,
 subscribers, watch time, top videos.
 **Connectors used:** YouTube.
 **Behind the scenes:** `get_my_youtube_analytics` +
@@ -112,7 +112,7 @@ subscribers, watch time, top videos.
 
 ---
 
-### "Inspect this URL  --  is it indexed properly?"
+### "Inspect this URL - is it indexed properly?"
 
 **What this does:** Runs Google's URL Inspection API on a specific URL.
 **Connectors used:** Search Console.
@@ -120,7 +120,7 @@ subscribers, watch time, top videos.
 **Sample answer shape:** Index status, coverage state, mobile usability,
 last-crawl info.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

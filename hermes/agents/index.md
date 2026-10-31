@@ -14,11 +14,11 @@ robots: "index,follow"
 
 ---
 
-# Hermes Agent Library  --  9 Production-Ready AI Agent Blueprints
+# Hermes Agent Library - 9 Production-Ready AI Agent Blueprints
 
-The **Hermes Agent Library** is a curated collection of **production-ready agent configurations** for common business roles. Each agent is a complete configuration blueprint  --  not a demo or stub  --  that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes role description, recommended model, skills to load, MCP connectors, cron schedule, and quick-start command.
+The **Hermes Agent Library** is a curated collection of **production-ready agent configurations** for common business roles. Each agent is a complete configuration blueprint - not a demo or stub - that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes role description, recommended model, skills to load, MCP connectors, cron schedule, and quick-start command.
 
-Agents in this library run on the [Hermes Agent framework](/hermes) by Nous Research. They combine **LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools** through [CorpusIQ MCP connectors](/hermes/mcp/connectors). An agent isn't just a prompt  --  it's an **always-on teammate** that monitors, analyzes, drafts, alerts, and reports on a schedule you define.
+Agents in this library run on the [Hermes Agent framework](/hermes) by Nous Research. They combine **LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools** through [CorpusIQ MCP connectors](/hermes/mcp/connectors). An agent isn't just a prompt - it's an **always-on teammate** that monitors, analyzes, drafts, alerts, and reports on a schedule you define.
 
 ## Overview
 
@@ -42,7 +42,7 @@ Each agent file is a **self-contained configuration**. Read the role description
 
 ### 2. Connect Your Tools
 
-Before an agent can work, its MCP connectors need to be authenticated. Run `hermes mcp add` to connect each server (discovery-first install), then `hermes mcp list` to confirm what is wired up. If a server uses OAuth, `hermes mcp login` forces re-authentication; `hermes mcp test` checks the connection. You only need to connect the services you actually use  --  skip connectors for platforms you don't have.
+Before an agent can work, its MCP connectors need to be authenticated. Run `hermes mcp add` to connect each server (discovery-first install), then `hermes mcp list` to confirm what is wired up. If a server uses OAuth, `hermes mcp login` forces re-authentication; `hermes mcp test` checks the connection. You only need to connect the services you actually use - skip connectors for platforms you don't have.
 
 ### 3. Customize the Cron Schedule
 
@@ -75,7 +75,7 @@ Start with **one agent**. Run it manually for a few days, review the output, ref
 | **Claude Haiku 5.5** | Always-on monitoring, alert classification, simple Q&A | Less capable at multi-step reasoning |
 | **GPT-5.4 mini / nano** | Cost-sensitive deployments, high-volume classification | Less nuanced; pair with larger model |
 
-**Recommendation:** Use Claude Sonnet 5.5 or GPT-5.6 for agents that draft communications or analyze complex multi-source data. Use DeepSeek V4.1/V4 Pro for structured data analysis. Use Haiku or a mini/nano tier for always-on monitoring skills. Model IDs rotate every few weeks  --  confirm the exact slug in the `/model` picker before you pin one.
+**Recommendation:** Use Claude Sonnet 5.5 or GPT-5.6 for agents that draft communications or analyze complex multi-source data. Use DeepSeek V4.1/V4 Pro for structured data analysis. Use Haiku or a mini/nano tier for always-on monitoring skills. Model IDs rotate every few weeks - confirm the exact slug in the `/model` picker before you pin one.
 
 ## Extending Agents
 
@@ -85,13 +85,13 @@ Every agent in this library is a starting point. Common extensions:
 - **Chain agents:** Have the Sales Agent's pipeline report feed into the Executive Agent's daily briefing
 - **Add web search:** Enable browser automation or web search tools for real-time external data
 - **Custom connectors:** Build MCP connectors for your proprietary tools
-- **Multi-model routing:** Use Haiku for classification and Sonnet for drafting  --  same agent, optimized cost
+- **Multi-model routing:** Use Haiku for classification and Sonnet for drafting - same agent, optimized cost
 
 ## FAQ
 
 ### What is the Hermes Agent Library?
 
-The **Hermes Agent Library** provides 9 production-ready, role-specific agent configurations for common business roles. Each includes skills, MCP connectors, cron schedules, model recommendations, and quick-start commands  --  ready to deploy in minutes on the Hermes Agent framework.
+The **Hermes Agent Library** provides 9 production-ready, role-specific agent configurations for common business roles. Each includes skills, MCP connectors, cron schedules, model recommendations, and quick-start commands - ready to deploy in minutes on the Hermes Agent framework.
 
 ### How do I deploy a Hermes agent from this library?
 
@@ -111,15 +111,15 @@ Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku 5
 
 ## Related Pages
 
-- [Hermes Knowledge Hub  --  Architecture & Deployment](/hermes)
-- [Skills Catalog  --  133+ Production Skills](/hermes/skills/catalog)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Hermes Knowledge Hub - Architecture & Deployment](/hermes)
+- [Skills Catalog - 133+ Production Skills](/hermes/skills/catalog)
+- [CorpusIQ MCP Connectors - 40+ Business Tools](/hermes/mcp/connectors)
 - [Cron Scheduling Guide](/hermes/governance/scheduling)
-- [Canonical Facts  --  Store Business Definitions](/hermes/governance)
+- [Canonical Facts - Store Business Definitions](/hermes/governance)
 - [Model Selection Best Practices](/hermes/best-practices/model-selection)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

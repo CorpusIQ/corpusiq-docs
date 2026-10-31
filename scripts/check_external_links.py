@@ -18,7 +18,9 @@ Classification:
   OK       2xx/3xx
   DEAD     404/410 (a real, actionable defect)
   BLOCKED  401/403/429/451/999 (auth-walled or bot-walled: not proof of death)
-  ERROR    timeout / DNS / TLS (retry later, not proof of death)
+  ERROR    timeout / DNS / TLS / unparseable (retry later, not proof of death)
+  skipped  URL-shaped prose placeholders (`http://localhost:port`) that cannot
+           be probed at all; reported separately, never counted as links
 
 Only DEAD fails --strict. BLOCKED and ERROR are reported but never block, so
 third-party bot walls (Cloudflare, LinkedIn, X) cannot wedge a deploy.
@@ -28,6 +30,7 @@ stay cheap; pass --refresh to re-probe everything.
 from __future__ import annotations
 
 import argparse
+import http.client
 import json
 import random
 import re
@@ -35,6 +38,7 @@ import ssl
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -67,9 +71,36 @@ def normalise(url: str) -> str:
     return url
 
 
+def unprobeable(url: str) -> str | None:
+    """Return a reason string when a URL cannot be probed, else None.
+
+    Guides contain URL-shaped placeholders in prose (`http://localhost:port`,
+    `http://user:pass@host`, `http://127.0.0.1:PORT`). urllib raises
+    http.client.InvalidURL from deep inside open() for a non-numeric port, and
+    that is NOT an OSError, so one placeholder used to abort the whole sweep
+    with a traceback and no report. Classify them up front instead.
+    """
+    try:
+        parts = urllib.parse.urlsplit(url)
+        _ = parts.port  # raises ValueError when the port is not numeric
+    except ValueError as e:
+        return f"unparseable ({e})"
+    host = parts.hostname or ""
+    if not host:
+        return "no host"
+    if "<" in host or ">" in host:
+        return "angle-bracket placeholder"
+    return None
+
+
 def iter_urls(paths: list[Path], github_only: bool):
-    """Map url -> {"file": ..., "fenced": every occurrence sits in a code block}."""
+    """Map url -> {"file": ..., "fenced": every occurrence sits in a code block}.
+
+    Returns (seen, skipped) where skipped maps url -> {"file": …, "why": …} for
+    URL-shaped strings that cannot be probed (prose placeholders).
+    """
     seen: dict[str, dict] = {}
+    skipped: dict[str, dict] = {}
     for p in paths:
         files = [p] if p.is_file() else sorted(p.rglob("*.md"))
         for f in files:
@@ -92,13 +123,17 @@ def iter_urls(paths: list[Path], github_only: bool):
                         continue
                     if host in SKIP_HOSTS:
                         continue
+                    why = unprobeable(u)
+                    if why:
+                        skipped.setdefault(u, {"file": str(f.relative_to(REPO)), "why": why})
+                        continue
                     entry = seen.get(u)
                     if entry is None:
                         seen[u] = {"file": str(f.relative_to(REPO)), "fenced": fenced}
                     elif not fenced:
                         # one prose occurrence is enough to make it clickable
                         entry["fenced"] = False
-    return seen
+    return seen, skipped
 
 
 def probe(url: str) -> tuple[str, int | str]:
@@ -132,7 +167,10 @@ def probe(url: str) -> tuple[str, int | str]:
         if 300 <= code < 400:
             return "OK", code
         return "ERROR", code
-    except (urllib.error.URLError, TimeoutError, ssl.SSLError, OSError) as e:
+    except (urllib.error.URLError, TimeoutError, ssl.SSLError, OSError,
+            ValueError, http.client.InvalidURL, http.client.HTTPException) as e:
+        # InvalidURL/ValueError = prose placeholder survived the pre-filter; it is
+        # a content nit, not a dead link. Never let it abort the sweep.
         return "ERROR", str(e)[:80]
 
 
@@ -192,7 +230,7 @@ def main() -> int:
         print("no input paths", file=sys.stderr)
         return 2
 
-    urls = iter_urls(paths, args.github_only)
+    urls, skipped = iter_urls(paths, args.github_only)
     if args.limit:
         urls = dict(list(urls.items())[: args.limit])
 
@@ -257,6 +295,12 @@ def main() -> int:
     print(f"\nOK: {sum(1 for m in merged.values() if m['verdict'] == 'OK')}"
           f" | DEAD (clickable): {len(dead)} | DEAD (in code): {len(dead_fenced)}"
           f" | PATH: {len(pathish)} | BLOCKED: {len(blocked)} | ERROR: {len(errors)}")
+    if skipped:
+        print(f"skipped placeholders (URL-shaped prose, not links): {len(skipped)}")
+        for u, m in sorted(skipped.items())[:10]:
+            print(f"  {u}  [{m['why']}]  <- {m['file']}")
+        if len(skipped) > 10:
+            print(f"  ... {len(skipped) - 10} more")
 
     if dead:
         print("\nDEAD links (clickable, repo root 404/410):")

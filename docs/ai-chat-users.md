@@ -98,25 +98,25 @@ The CorpusIQ AI chat provides natural language access to your connected business
 ## Frequently Asked Questions
 
 **Q: What is the CorpusIQ AI chat?**  
-A: The CorpusIQ AI chat at demo.corpusiq.io provides natural-language access to all your connected business data. Ask questions like 'What was our MRR last month?' and get answers from live data  --  no SQL or coding required.
+A: The CorpusIQ AI chat at demo.corpusiq.io provides natural-language access to all your connected business data. Ask questions like 'What was our MRR last month?' and get answers from live data - no SQL or coding required.
 
 **Q: What types of questions can I ask in the AI chat?**  
-A: Revenue analysis, customer intelligence, order management, marketing analytics, financial reporting, inventory tracking, and cross-source correlation  --  e.g., 'Compare Stripe revenue to Shopify orders for March.'
+A: Revenue analysis, customer intelligence, order management, marketing analytics, financial reporting, inventory tracking, and cross-source correlation - e.g., 'Compare Stripe revenue to Shopify orders for March.'
 
 **Q: How do I get started with the AI chat?**  
 A: Go to demo.corpusiq.io, sign in with your email, connect your first data source via OAuth (Stripe, Shopify, or QuickBooks recommended), and start asking questions in plain English.
 
 ## Internal Links
 
-- **[ChatGPT Integration with CorpusIQ](/connectors)**  --  Connect ChatGPT to your business data  
-- **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  MCP direct connection for AI agents  
-- **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/features)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/quickstart)**  --  Get running in under 5 minutes  
-- **[CorpusIQ Connectors Directory](/connectors)**  --  All 40+ data source integrations  
-- **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, and a SOC 2 aligned posture
+- **[ChatGPT Integration with CorpusIQ](/connectors)** - Connect ChatGPT to your business data  
+- **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)** - MCP direct connection for AI agents  
+- **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)** - Natural language queries at demo.corpusiq.io  
+- **[Supported AI Agents](/features)** - MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[CorpusIQ Quick Start](/quickstart)** - Get running in under 5 minutes  
+- **[CorpusIQ Connectors Directory](/connectors)** - All 40+ data source integrations  
+- **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)** - SSO, SAML, and a SOC 2 aligned posture
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

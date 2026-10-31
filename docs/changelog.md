@@ -13,7 +13,7 @@ All notable changes to the CorpusIQ API are documented here. This project follow
 
 ---
 
-## August 2026  --  Distribution Milestones
+## August 2026 - Distribution Milestones
 
 ### Claude Custom Connector Support
 
@@ -25,7 +25,7 @@ The MCP server now mints a 30-day refresh token after a successful device or Goo
 
 ---
 
-## v1.0  --  March 2026
+## v1.0 - March 2026
 
 ### Initial API Release
 
@@ -33,9 +33,9 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### New Endpoints
 
-- **`POST /v1/query`**  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and returns semantically ranked, cited results from each matching connector.
+- **`POST /v1/query`** - Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and returns semantically ranked, cited results from each matching connector.
 
-- **`POST /v1/deep_search`**  --  Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.
+- **`POST /v1/deep_search`** - Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.
 
 
 ### Authentication
@@ -103,15 +103,15 @@ A: As of the v1.0 release (March 2026), CorpusIQ supports 40+ native connectors 
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/quickstart)** - Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)** - Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)** - All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)** - Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/blog)** - API updates and version history  
+- **[Secure AI Data Connectivity](/security)** - Encryption and network security  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

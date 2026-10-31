@@ -28,7 +28,7 @@ robots: "index,follow"
 
 # AI for Business Intelligence: From Dashboards to Conversations
 
-Business intelligence has a problem: most organizations invest heavily in BI tools, data warehouses, and analytics teams, yet business decisions are still made with incomplete information. The reason is that traditional BI requires knowing what questions to ask, how to build the right report, and how to interpret the results  --  skills concentrated in a small number of analysts. AI changes this dynamic by making business intelligence conversational.
+Business intelligence has a problem: most organizations invest heavily in BI tools, data warehouses, and analytics teams, yet business decisions are still made with incomplete information. The reason is that traditional BI requires knowing what questions to ask, how to build the right report, and how to interpret the results - skills concentrated in a small number of analysts. AI changes this dynamic by making business intelligence conversational.
 
 With CorpusIQ's MCP platform, business intelligence becomes something every team member can access. Instead of submitting a ticket and waiting days for an analyst to build a report, anyone can ask an AI like Claude "What's our revenue trend by product line?", "Which customer segments are growing fastest?", or "Show me our top-performing marketing channels by ROI" and receive accurate, real-time answers backed by live data.
 
@@ -38,38 +38,38 @@ Traditional BI is bottlenecked by report creation. AI removes that bottleneck en
 
 **Instant Answers to Business Questions**
 
-The most transformative capability AI brings to BI is immediacy. When a VP of Sales asks "What's our pipeline coverage for Q3?", the traditional answer is "I'll build a report and get back to you tomorrow." With AI connected to live data via MCP, the answer arrives in seconds. This speed fundamentally changes how organizations use data  --  from periodic report review to continuous, on-demand intelligence.
+The most transformative capability AI brings to BI is immediacy. When a VP of Sales asks "What's our pipeline coverage for Q3?", the traditional answer is "I'll build a report and get back to you tomorrow." With AI connected to live data via MCP, the answer arrives in seconds. This speed fundamentally changes how organizations use data - from periodic report review to continuous, on-demand intelligence.
 
 **Cross-Source Intelligence Without a Data Warehouse**
 
-One of the hardest problems in BI is correlating data from different systems  --  CRM, ERP, marketing automation, analytics, and finance. Traditionally, this requires building and maintaining a data warehouse with ETL pipelines. CorpusIQ's MCP platform eliminates that requirement. AI can pull data from Salesforce, QuickBooks, Google Analytics, and Stripe simultaneously and present unified insights  --  no data warehouse needed.
+One of the hardest problems in BI is correlating data from different systems - CRM, ERP, marketing automation, analytics, and finance. Traditionally, this requires building and maintaining a data warehouse with ETL pipelines. CorpusIQ's MCP platform eliminates that requirement. AI can pull data from Salesforce, QuickBooks, Google Analytics, and Stripe simultaneously and present unified insights - no data warehouse needed.
 
 **Democratized Analytics**
 
-When BI becomes conversational, anyone can be an analyst. A customer success manager can ask "Which of my accounts haven't logged in this month?" A marketing coordinator can ask "Which ad creative is performing best by conversion rate?" A finance associate can ask "What's our cash burn rate?"  --  all without SQL, report builder training, or analyst support.
+When BI becomes conversational, anyone can be an analyst. A customer success manager can ask "Which of my accounts haven't logged in this month?" A marketing coordinator can ask "Which ad creative is performing best by conversion rate?" A finance associate can ask "What's our cash burn rate?" - all without SQL, report builder training, or analyst support.
 
 **Automated Insight Generation**
 
-AI doesn't just answer questions  --  it can proactively surface insights. Ask Claude "What should I be paying attention to in our business right now?" and it will scan your connected data, identify anomalies, highlight trends, and flag issues you might have missed.
+AI doesn't just answer questions - it can proactively surface insights. Ask Claude "What should I be paying attention to in our business right now?" and it will scan your connected data, identify anomalies, highlight trends, and flag issues you might have missed.
 
 ## How CorpusIQ MCP Enables AI-Powered BI
 
 The CorpusIQ MCP platform is purpose-built for AI-powered business intelligence. Here's what makes it different from traditional BI approaches:
 
-1. **Universal connector library.** Pre-built, secure connectors to 40+ business tools  --  CRM, ERP, analytics, marketing, finance, e-commerce. Connect in minutes, not months.
+1. **Universal connector library.** Pre-built, secure connectors to 40+ business tools - CRM, ERP, analytics, marketing, finance, e-commerce. Connect in minutes, not months.
 
 2. **MCP-native architecture.** Built on the Model Context Protocol, an open standard for AI-to-tool communication. Any MCP-compatible AI (Claude, ChatGPT, and others) can use CorpusIQ connectors.
 
 3. **Operation-level security model.** External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.
 
-4. **Cross-source query engine.** Ask one question that spans five tools. "How did our Facebook ad spend correlate with Shopify revenue and Google Analytics traffic last month?"  --  answered in a single response.
+4. **Cross-source query engine.** Ask one question that spans five tools. "How did our Facebook ad spend correlate with Shopify revenue and Google Analytics traffic last month?" - answered in a single response.
 
 5. **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ## Example BI Queries Through CorpusIQ MCP
 
 **Executive Intelligence:**
-- "Give me a complete business health summary  --  revenue, pipeline, churn, and key metrics."
+- "Give me a complete business health summary - revenue, pipeline, churn, and key metrics."
 - "How are we tracking against our quarterly targets across all departments?"
 - "What are the top 3 things I should be focused on right now based on the data?"
 
@@ -79,7 +79,7 @@ The CorpusIQ MCP platform is purpose-built for AI-powered business intelligence.
 - "Which products have the highest and lowest gross margins?"
 
 **Marketing Performance:**
-- "What's the ROI of each marketing channel  --  spend vs. attributed revenue?"
+- "What's the ROI of each marketing channel - spend vs. attributed revenue?"
 - "Which campaigns drove the most pipeline and actual closed revenue?"
 - "How does our paid search performance compare to organic?"
 
@@ -96,7 +96,7 @@ The CorpusIQ MCP platform is purpose-built for AI-powered business intelligence.
 ## Implementation Steps for AI-Powered BI
 
 **Step 1: Identify Your Key Data Sources**
-Start with the 3-5 tools that contain your most important business data  --  typically CRM, ERP, analytics, billing, and marketing. Connect them to CorpusIQ first.
+Start with the 3-5 tools that contain your most important business data - typically CRM, ERP, analytics, billing, and marketing. Connect them to CorpusIQ first.
 
 **Step 2: Define Your Core Questions**
 What questions does your leadership team ask repeatedly? What reports take the longest to build? Prioritize addressing those pain points with AI-powered answers.
@@ -119,20 +119,20 @@ Organizations implementing AI-powered BI through CorpusIQ typically see:
 
 - **70-90% reduction** in time spent building routine reports.
 - **5-10x increase** in the number of data questions answered per week.
-- **Faster decision-making**  --  from days of analysis to minutes of conversation.
-- **Democratized data access**  --  3-5x more employees actively querying business data.
-- **Reduced analytics backlog**  --  analytics teams freed from routine report requests to focus on strategic analysis.
+- **Faster decision-making** - from days of analysis to minutes of conversation.
+- **Democratized data access** - 3-5x more employees actively querying business data.
+- **Reduced analytics backlog** - analytics teams freed from routine report requests to focus on strategic analysis.
 
 ## FAQ
 
 **Q: How is this different from traditional BI tools like Tableau or Power BI?**
-A: Traditional BI tools require building dashboards and reports. AI-powered BI through CorpusIQ is conversational  --  you ask questions in natural language and get answers immediately. CorpusIQ complements BI tools by providing on-demand, cross-source answers that don't require dashboard building.
+A: Traditional BI tools require building dashboards and reports. AI-powered BI through CorpusIQ is conversational - you ask questions in natural language and get answers immediately. CorpusIQ complements BI tools by providing on-demand, cross-source answers that don't require dashboard building.
 
 **Q: Do I need a data warehouse?**
 A: No. CorpusIQ queries live data from your tools directly. No ETL, no data warehouse, no data replication needed.
 
 **Q: Can this replace my analytics team?**
-A: No  --  it amplifies them. AI handles routine queries, freeing analysts to focus on strategic analysis, modeling, and insight generation.
+A: No - it amplifies them. AI handles routine queries, freeing analysts to focus on strategic analysis, modeling, and insight generation.
 
 **Q: How secure is this approach?**
 A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
@@ -145,20 +145,20 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 ## Internal Links
 
-- [Connect Shopify to Claude](/connect/shopify-with-claude)  --  E-commerce BI.
-- [Connect QuickBooks to Claude](/connect/quickbooks-with-claude)  --  Financial BI.
-- [Connect Salesforce to Claude](/connectors)  --  CRM intelligence.
-- [Connect Google Analytics to Claude](/connect/google-analytics-with-claude)  --  Web analytics BI.
-- [AI for Executive Reporting](https://www.corpusiq.io/private-ai-for-business)  --  Leadership dashboards.
-- [AI for KPI Monitoring](https://www.corpusiq.io/private-ai-for-business)  --  Real-time KPI tracking.
-- [AI for Data Analysis](https://www.corpusiq.io/private-ai-for-business)  --  Advanced analytics with AI.
-- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
+- [Connect Shopify to Claude](/connect/shopify-with-claude) - E-commerce BI.
+- [Connect QuickBooks to Claude](/connect/quickbooks-with-claude) - Financial BI.
+- [Connect Salesforce to Claude](/connectors) - CRM intelligence.
+- [Connect Google Analytics to Claude](/connect/google-analytics-with-claude) - Web analytics BI.
+- [AI for Executive Reporting](https://www.corpusiq.io/private-ai-for-business) - Leadership dashboards.
+- [AI for KPI Monitoring](https://www.corpusiq.io/private-ai-for-business) - Real-time KPI tracking.
+- [AI for Data Analysis](https://www.corpusiq.io/private-ai-for-business) - Advanced analytics with AI.
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server) - Understanding the Model Context Protocol.
 
 ---
 
 **Next steps:** [Start your AI-powered BI journey →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-ai-for-business-intelligence) or [view all integrations](connectors.md)
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

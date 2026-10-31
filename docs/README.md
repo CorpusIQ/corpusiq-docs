@@ -16,11 +16,11 @@ CorpusIQ provides read-only external-source retrieval between authorized SaaS ap
 
 ## Key Capabilities
 
-- **40+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
-- **MCP-native**  --  Designed for AI assistants that speak the Model Context Protocol
-- **Operation-level permissions**  --  External-source retrieval tools are marked read-only; write-capable and CorpusIQ control-plane tools are separately named and annotated
-- **Scoped data handling**  --  Direct MCP uses live retrieval; optional indexed-search features use embeddings and minimal metadata
-- **SOC 2 aligned & CASA Tier 2 certified**  --  formal SOC 2 certification is not claimed; CASA was assessed by DEKRA
+- **40+ native connectors** - Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
+- **MCP-native** - Designed for AI assistants that speak the Model Context Protocol
+- **Operation-level permissions** - External-source retrieval tools are marked read-only; write-capable and CorpusIQ control-plane tools are separately named and annotated
+- **Scoped data handling** - Direct MCP uses live retrieval; optional indexed-search features use embeddings and minimal metadata
+- **SOC 2 aligned & CASA Tier 2 certified** - formal SOC 2 certification is not claimed; CASA was assessed by DEKRA
 
 ## Quick Links
 
@@ -59,7 +59,7 @@ CorpusIQ translates AI assistant queries into read-only API calls and returns ci
 For integration partners and enterprise deployments, contact media@corpusiq.io.
 # sitemap rebuild trigger
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

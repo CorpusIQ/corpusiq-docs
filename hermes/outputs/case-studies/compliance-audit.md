@@ -22,9 +22,9 @@ Hermes Agent can automate control monitoring and audit-evidence collection for c
 
 ## Overview
 
-Compliance monitoring is one of the highest-value use cases for agent-based automation. Regulatory frameworks like SOC 2, HIPAA, GDPR, and PCI-DSS demand continuous evidence collection, audit trail maintenance, and timely reporting  --  exactly the kind of repetitive, cross-system work Hermes Agent excels at.
+Compliance monitoring is one of the highest-value use cases for agent-based automation. Regulatory frameworks like SOC 2, HIPAA, GDPR, and PCI-DSS demand continuous evidence collection, audit trail maintenance, and timely reporting - exactly the kind of repetitive, cross-system work Hermes Agent excels at.
 
-Most organizations handle compliance through periodic manual reviews. A team member logs into cloud consoles, screenshots configurations, exports logs, and compiles evidence into a spreadsheet or document. This approach has three fatal flaws: it's labor-intensive, it captures a single point in time (missing drift that happens between reviews), and it's inconsistent  --  different team members document things differently.
+Most organizations handle compliance through periodic manual reviews. A team member logs into cloud consoles, screenshots configurations, exports logs, and compiles evidence into a spreadsheet or document. This approach has three fatal flaws: it's labor-intensive, it captures a single point in time (missing drift that happens between reviews), and it's inconsistent - different team members document things differently.
 
 Hermes Agent transforms this into continuous, automated compliance monitoring that runs daily or hourly.
 
@@ -118,19 +118,19 @@ Beyond collection, Hermes compiles compliance reports on schedule. A monthly exe
 
 ## Benefits
 
-- **Continuous control monitoring**  --  evidence collected daily instead of quarterly fire drills
-- **Auditor-ready documentation**  --  timestamped evidence logs with complete change history
-- **Reduced manual effort**  --  security teams reclaim hours of screenshot-and-spreadsheet work
-- **Faster breach detection**  --  anomalous access patterns flagged in near real-time
-- **Framework flexibility**  --  same infrastructure supports SOC 2, HIPAA, GDPR, PCI-DSS, and ISO 27001
-- **Immutable evidence storage**  --  write evidence to versioned, WORM-compliant storage systems
+- **Continuous control monitoring** - evidence collected daily instead of quarterly fire drills
+- **Auditor-ready documentation** - timestamped evidence logs with complete change history
+- **Reduced manual effort** - security teams reclaim hours of screenshot-and-spreadsheet work
+- **Faster breach detection** - anomalous access patterns flagged in near real-time
+- **Framework flexibility** - same infrastructure supports SOC 2, HIPAA, GDPR, PCI-DSS, and ISO 27001
+- **Immutable evidence storage** - write evidence to versioned, WORM-compliant storage systems
 
 ## Getting Started
 
 1. **Map your controls first.** List every compliance requirement and the system it touches.
 2. **Start with one monitor.** Pick the highest-risk control and build a single cron + skill pair. Run it for a week, tune the thresholds, then expand.
-3. **Use database and API connectors.** Hermes's MCP architecture means you don't need to build custom integrations  --  connect to your databases, cloud providers, and SaaS tools directly.
-4. **Route alerts to where your team works.** Slack, email, ticketing systems  --  Hermes can write to any connected channel.
+3. **Use database and API connectors.** Hermes's MCP architecture means you don't need to build custom integrations - connect to your databases, cloud providers, and SaaS tools directly.
+4. **Route alerts to where your team works.** Slack, email, ticketing systems - Hermes can write to any connected channel.
 5. **Store evidence in versioned storage.** Write evidence to Google Drive, OneDrive, or a Git repository so auditors have a complete, immutable history.
 
 The result: audit readiness becomes a byproduct of operations rather than a quarterly fire drill.
@@ -159,13 +159,13 @@ Hermes enforces minimum necessary access at the connector level, logs all PHI ac
 
 ## Related Pages
 
-- [Hermes Agent for Healthcare](../case-studies/healthcare.md)  --  Healthcare workflow and HIPAA-control patterns
-- [Hermes Agent for Financial Services](../case-studies/financial-services.md)  --  Regulatory filing automation and fraud detection
-- [Hermes Agent for Government](../case-studies/government.md)  --  FOIA processing and public records compliance
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  SOC 2, segregation of duties, and audit-grade logging
-- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent for Healthcare](../case-studies/healthcare.md) - Healthcare workflow and HIPAA-control patterns
+- [Hermes Agent for Financial Services](../case-studies/financial-services.md) - Regulatory filing automation and fraud detection
+- [Hermes Agent for Government](../case-studies/government.md) - FOIA processing and public records compliance
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) - SOC 2, segregation of duties, and audit-grade logging
+- [Hermes Agent Overview](../../index.md) - Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) - real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

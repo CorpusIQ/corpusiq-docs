@@ -9,13 +9,13 @@ robots: "index,follow"
 
 ---
 
-# Hermes Agent Setup & Installation Guide  --  Get Started Fast
+# Hermes Agent Setup & Installation Guide - Get Started Fast
 
 Hermes Agent runs on everything from a $50 Raspberry Pi to a $20,000 DGX workstation. This setup guide helps you pick the right hardware platform, install Hermes Agent in under 5 minutes, and choose the best model configuration for your needs.
 
 ## Overview
 
-**Don't overthink it.** If you're just getting started, use whatever machine you already have  --  a MacBook, a Windows desktop, or even a $5/month VPS. Hermes Agent is designed to be provider-agnostic and hardware-flexible. You can always migrate later to a different [setup platform](#hardware-comparison).
+**Don't overthink it.** If you're just getting started, use whatever machine you already have - a MacBook, a Windows desktop, or even a $5/month VPS. Hermes Agent is designed to be provider-agnostic and hardware-flexible. You can always migrate later to a different [setup platform](#hardware-comparison).
 
 ## How It Works
 
@@ -24,7 +24,7 @@ Hermes Agent installs from a signed desktop package or a one-line install script
 | Path | How It Works | Cost |
 |------|-------------|------|
 | **Ollama (local)** | Run open-source models directly on your hardware via [Ollama](https://ollama.com) | Free |
-| **OpenRouter** | Access 200+ models through a single API gateway  --  pay-per-token | $0-$20+/month |
+| **OpenRouter** | Access 200+ models through a single API gateway - pay-per-token | $0-$20+/month |
 | **Direct provider** | Connect directly to Anthropic, OpenAI, DeepSeek, or other model providers | Varies by provider |
 
 After installation, Hermes Agent uses **skills** (reusable workflows), **crons** (scheduled automation), **MCP servers** (external tool connections), and **memory systems** to operate autonomously.
@@ -63,16 +63,16 @@ hermes profile create my-agent
 hermes profile use my-agent
 
 # 3. Configure a model provider (pick one)
-# Option A: Nous Portal  --  one login covers a model plus the Tool Gateway
+# Option A: Nous Portal - one login covers a model plus the Tool Gateway
 hermes setup --portal
 
-# Option B: OpenRouter  --  instant access to 200+ models
+# Option B: OpenRouter - instant access to 200+ models
 hermes config set OPENROUTER_API_KEY "your-key"
 
-# Option C: Direct provider  --  Anthropic, OpenAI, DeepSeek, and others
+# Option C: Direct provider - Anthropic, OpenAI, DeepSeek, and others
 hermes config set ANTHROPIC_API_KEY "your-key"
 
-# Option D: Ollama  --  free, local, no API key needed
+# Option D: Ollama - free, local, no API key needed
 ollama pull llama3.2
 
 # 4. Choose your default model
@@ -110,26 +110,26 @@ The Desktop app wraps the same Hermes Agent core, so everything below (crons, MC
 
 Choose your hardware:
 
-- **[Mac Mini M4 (Standalone)](mac-mini-standalone)**  --  All-in-one: models, browser automation, crons. Best for solo founders.
-- **[Gaming PC / Desktop](gaming-pc)**  --  Max GPU performance with CUDA. Best for developers with powerful rigs.
-- **[Cloud VPS](cloud-vps)**  --  $5-20/month, always-on. Best for budget production use.
-- **[Raspberry Pi 5](raspberry-pi)**  --  Ultra-low-cost 24/7 agent. Best for lightweight automation.
-- **[Docker](docker)**  --  Containerized deployment. Best for reproducibility and CI/CD.
-- **[Windows 11 + WSL2](windows-wsl)**  --  Windows users, Linux-native experience. Best for Windows desktops.
+- **[Mac Mini M4 (Standalone)](mac-mini-standalone)** - All-in-one: models, browser automation, crons. Best for solo founders.
+- **[Gaming PC / Desktop](gaming-pc)** - Max GPU performance with CUDA. Best for developers with powerful rigs.
+- **[Cloud VPS](cloud-vps)** - $5-20/month, always-on. Best for budget production use.
+- **[Raspberry Pi 5](raspberry-pi)** - Ultra-low-cost 24/7 agent. Best for lightweight automation.
+- **[Docker](docker)** - Containerized deployment. Best for reproducibility and CI/CD.
+- **[Windows 11 + WSL2](windows-wsl)** - Windows users, Linux-native experience. Best for Windows desktops.
 
 ## After Setup
 
 Once Hermes Agent is running, add capabilities:
 
-- **[MCP Integration](/hermes/mcp)**  --  Connect to Gmail, Slack, databases, and 40+ platforms
-- **[CorpusIQ MCP Setup](corpusiq-mcp)**  --  Connect 40+ business tools to Hermes in 5 minutes
-- **[CorpusIQ Cron Patterns](corpusiq-cron-patterns)**  --  Autonomous business monitoring with Hermes + CorpusIQ
-- **[CorpusIQ Troubleshooting](/hermes/troubleshooting/corpusiq)**  --  Token refresh, 401 errors, fork restrictions
-- **[Cron Scheduling](/hermes/governance/scheduling)**  --  Schedule autonomous tasks with [cron design best practices](/hermes/best-practices/cron-design)
-- **[Skills Marketplace](/hermes/skills)**  --  Add community-built capabilities and [create custom skills](/hermes/skills/creating-skills)
-- **[Memory Architecture](/hermes/knowledge)**  --  Honcho, GBrain, memcore-cloud triple stack
-- **[Blueprints](/hermes/blueprints)**  --  End-to-end automation workflows for business processes
-- **[Prompt Library](/hermes/prompts)**  --  Curated templates for code generation, analysis, content, and more
+- **[MCP Integration](/hermes/mcp)** - Connect to Gmail, Slack, databases, and 40+ platforms
+- **[CorpusIQ MCP Setup](corpusiq-mcp)** - Connect 40+ business tools to Hermes in 5 minutes
+- **[CorpusIQ Cron Patterns](corpusiq-cron-patterns)** - Autonomous business monitoring with Hermes + CorpusIQ
+- **[CorpusIQ Troubleshooting](/hermes/troubleshooting/corpusiq)** - Token refresh, 401 errors, fork restrictions
+- **[Cron Scheduling](/hermes/governance/scheduling)** - Schedule autonomous tasks with [cron design best practices](/hermes/best-practices/cron-design)
+- **[Skills Marketplace](/hermes/skills)** - Add community-built capabilities and [create custom skills](/hermes/skills/creating-skills)
+- **[Memory Architecture](/hermes/knowledge)** - Honcho, GBrain, memcore-cloud triple stack
+- **[Blueprints](/hermes/blueprints)** - End-to-end automation workflows for business processes
+- **[Prompt Library](/hermes/prompts)** - Curated templates for code generation, analysis, content, and more
 
 ## FAQ
 
@@ -143,7 +143,7 @@ Yes. Install Hermes Agent on your existing hardware, pull free models from Ollam
 The [Mac Mini M4](mac-mini-standalone) is the recommended all-in-one platform. For budget 24/7 operation, a [cloud VPS](cloud-vps) at $5-20/month works well. For maximum GPU performance, use a [gaming PC](gaming-pc) with CUDA.
 
 ### How do I connect Hermes Agent to business data?
-Use the [MCP Integration Guide](/hermes/mcp) to connect 40+ business platforms  --  CRM, email, analytics, databases, advertising, and more  --  through a single OAuth flow with CorpusIQ MCP.
+Use the [MCP Integration Guide](/hermes/mcp) to connect 40+ business platforms - CRM, email, analytics, databases, advertising, and more - through a single OAuth flow with CorpusIQ MCP.
 
 ### What's the difference between Ollama and OpenRouter?
 Ollama runs models locally on your hardware (free, private, limited to smaller models). OpenRouter provides API access to 200+ models including frontier models like Claude and GPT-4o (pay-per-use, no hardware requirements).
@@ -156,12 +156,12 @@ Extend Hermes Agent through [MCP servers](/hermes/mcp) for external tools, [skil
 
 ## Related Pages
 
-- [Mac Mini M4 Setup](mac-mini-standalone)  --  Recommended standalone platform
-- [Cloud VPS Setup](cloud-vps)  --  Budget always-on deployment
-- [Model Selection Guide](/hermes/best-practices/model-selection)  --  Choose the right AI model
-- [MCP Integration Guide](/hermes/mcp)  --  Connect external tools and data
-- [Cron Design Best Practices](/hermes/best-practices/cron-design)  --  Reliable scheduled automation
-- [Troubleshooting Guide](/hermes/troubleshooting)  --  Common issues and fixes
+- [Mac Mini M4 Setup](mac-mini-standalone) - Recommended standalone platform
+- [Cloud VPS Setup](cloud-vps) - Budget always-on deployment
+- [Model Selection Guide](/hermes/best-practices/model-selection) - Choose the right AI model
+- [MCP Integration Guide](/hermes/mcp) - Connect external tools and data
+- [Cron Design Best Practices](/hermes/best-practices/cron-design) - Reliable scheduled automation
+- [Troubleshooting Guide](/hermes/troubleshooting) - Common issues and fixes
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

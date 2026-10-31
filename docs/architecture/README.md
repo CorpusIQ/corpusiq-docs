@@ -82,18 +82,18 @@ A: CorpusIQ uses a three-layer architecture: AI clients (Claude, ChatGPT, Cursor
 A: AI agent sends query via MCP → MCP endpoint authenticates request → Tool registry maps query to connectors → Connector retrieves data from source API → Data is normalized and returned → Agent presents answer to user. All steps are logged for audit.
 
 **Q: Is CorpusIQ self-hosted or a managed service?**  
-A: CorpusIQ is a fully managed hosted service with automatic scaling and high availability. The MCP endpoint runs on production infrastructure  --  no servers to manage, no software to install.
+A: CorpusIQ is a fully managed hosted service with automatic scaling and high availability. The MCP endpoint runs on production infrastructure - no servers to manage, no software to install.
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/architecture)** - MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/security)** - Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/search)** - Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting)** - Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding)** - AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/governance)** - Source of truth and audit controls  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

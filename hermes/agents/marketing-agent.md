@@ -14,9 +14,9 @@ robots: "index,follow"
 
 ---
 
-# Hermes Marketing Agent  --  Autonomous SEO, Content & Campaign Analytics
+# Hermes Marketing Agent - Autonomous SEO, Content & Campaign Analytics
 
-The **Hermes Marketing Agent** is your **autonomous content and campaign operations assistant**. It monitors **SEO performance**, schedules and analyzes social media content, tracks **email campaign metrics**, generates content briefs, and surfaces **competitive intelligence**  --  all on autopilot. Whether you're a solo marketer or leading a growth team, this agent handles the recurring work: weekly performance reports, ranking drop alerts, content refresh suggestions, and competitor domain comparisons.
+The **Hermes Marketing Agent** is your **autonomous content and campaign operations assistant**. It monitors **SEO performance**, schedules and analyzes social media content, tracks **email campaign metrics**, generates content briefs, and surfaces **competitive intelligence** - all on autopilot. Whether you're a solo marketer or leading a growth team, this agent handles the recurring work: weekly performance reports, ranking drop alerts, content refresh suggestions, and competitor domain comparisons.
 
 This agent connects to your analytics, SEO tools, email platforms, and project boards through [CorpusIQ MCP connectors](/hermes/mcp/connectors) to create a unified marketing command center.
 
@@ -36,24 +36,24 @@ This agent connects to your analytics, SEO tools, email platforms, and project b
 
 ## How It Works
 
-1. **Connect your marketing stack**  --  GA4, Search Console, Ahrefs, Klaviyo, Meta Ads via [CorpusIQ connectors](/hermes/mcp/connectors)
-2. **Define your competitors and KPIs**  --  Store target competitors, brand keywords, and conversion events in canonical facts
-3. **Load the skills**  --  SEO monitor, content performance, campaign analytics, competitive brief
-4. **Schedule the crons**  --  Weekly SEO reports, daily anomaly checks, monthly competitive audits
-5. **Receive in Slack/Email**  --  Traffic alerts, ranking changes, campaign wrap-ups
+1. **Connect your marketing stack** - GA4, Search Console, Ahrefs, Klaviyo, Meta Ads via [CorpusIQ connectors](/hermes/mcp/connectors)
+2. **Define your competitors and KPIs** - Store target competitors, brand keywords, and conversion events in canonical facts
+3. **Load the skills** - SEO monitor, content performance, campaign analytics, competitive brief
+4. **Schedule the crons** - Weekly SEO reports, daily anomaly checks, monthly competitive audits
+5. **Receive in Slack/Email** - Traffic alerts, ranking changes, campaign wrap-ups
 
 ## Key Features
 
 - **Weekly SEO reports** every Monday with ranking changes, CTR shifts, and indexing issues
-- **Daily traffic anomaly detection**  --  alerts when organic traffic drops >20% on key pages
-- **Content decay scanning**  --  identifies pages losing traffic over 6+ months for refresh prioritization
+- **Daily traffic anomaly detection** - alerts when organic traffic drops >20% on key pages
+- **Content decay scanning** - identifies pages losing traffic over 6+ months for refresh prioritization
 - **Cross-channel campaign analytics** with ROAS calculation across email, social, and paid
 - **Monthly competitive audits** covering keyword gaps, backlink opportunities, and share-of-voice
-- **Email health monitoring**  --  list growth, deliverability, unsubscribe spikes, A/B test results
+- **Email health monitoring** - list growth, deliverability, unsubscribe spikes, A/B test results
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **GPT-4o**  --  strong natural language generation for content briefs, copy suggestions, and competitive narratives. Use **Claude Haiku** for always-on monitoring and alerts.
+**Claude Sonnet 4** or **GPT-4o** - strong natural language generation for content briefs, copy suggestions, and competitive narratives. Use **Claude Haiku** for always-on monitoring and alerts.
 
 ## MCP Connectors Needed
 
@@ -102,8 +102,8 @@ hermes agent create marketing \
 
 - Define **target competitors, brand keywords, and key conversion events** in canonical facts
 - Set **alert thresholds** (traffic drop %, CPC spike %, unsubscribe rate)
-- The agent pulls content calendars from **Airtable or Notion**  --  ensure read access
-- Configure **report distribution channels**  --  Slack channels, email recipients
+- The agent pulls content calendars from **Airtable or Notion** - ensure read access
+- Configure **report distribution channels** - Slack channels, email recipients
 
 ## Extending
 
@@ -115,7 +115,7 @@ hermes agent create marketing \
 
 ### What does the Hermes Marketing Agent do?
 
-The **Hermes Marketing Agent** autonomously monitors SEO rankings, tracks content performance, analyzes email and paid campaigns, generates competitive intelligence briefs, and alerts on traffic anomalies  --  all on scheduled crons delivered to Slack or email.
+The **Hermes Marketing Agent** autonomously monitors SEO rankings, tracks content performance, analyzes email and paid campaigns, generates competitive intelligence briefs, and alerts on traffic anomalies - all on scheduled crons delivered to Slack or email.
 
 ### How does the marketing agent monitor SEO?
 
@@ -127,7 +127,7 @@ Yes. The **daily anomaly detection skill** checks organic traffic for key pages 
 
 ### How does competitive intelligence work with this agent?
 
-The agent runs **monthly competitive audits** that compare your domain against configurable competitors  --  covering keyword gaps, backlink opportunities, content strategy differences, and share-of-voice changes over time.
+The agent runs **monthly competitive audits** that compare your domain against configurable competitors - covering keyword gaps, backlink opportunities, content strategy differences, and share-of-voice changes over time.
 
 ### Which marketing tools does the marketing agent integrate with?
 
@@ -135,15 +135,15 @@ The agent integrates with **GA4, Google Search Console, Ahrefs, Semrush, Klaviyo
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/hermes/agents)
-- [Sales Agent  --  Pipeline & Outreach Automation](/hermes/agents/sales-agent)
-- [Research Agent  --  Competitive Intelligence](/hermes/agents/research-agent)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors)
+- [Agent Library - All 9 Role Configurations](/hermes/agents)
+- [Sales Agent - Pipeline & Outreach Automation](/hermes/agents/sales-agent)
+- [Research Agent - Competitive Intelligence](/hermes/agents/research-agent)
+- [CorpusIQ MCP Connectors - 40+ Business Tools](/hermes/mcp/connectors)
 - [Cron Scheduling Guide](/hermes/governance/scheduling)
 - [Content Operations Guide](/hermes/content-ops)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

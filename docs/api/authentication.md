@@ -19,7 +19,7 @@ Include the token in every API request:
 Authorization: Bearer <token>
 ```
 
-Tokens have a **60-minute expiry** from the time of issuance. The API supports server-side token refresh  --  clients that receive a `401 Unauthorized` response with an `X-Token-Expired` header should request a new token rather than retrying with the expired one.
+Tokens have a **60-minute expiry** from the time of issuance. The API supports server-side token refresh - clients that receive a `401 Unauthorized` response with an `X-Token-Expired` header should request a new token rather than retrying with the expired one.
 
 ### Token Refresh
 
@@ -39,7 +39,7 @@ Clients should then obtain a fresh token. There is no refresh-token flow; simply
 1. Log in to the [CorpusIQ Dashboard](https://corpusiq.io/dashboard)
 2. Navigate to **Settings → API**
 3. Click **Generate Token**
-4. Copy the token  --  it will only be displayed once
+4. Copy the token - it will only be displayed once
 
 ### Via ChatGPT Actions
 
@@ -92,28 +92,28 @@ A `200` response indicates a valid token. A `401` means the token is expired or 
 ## Frequently Asked Questions
 
 **Q: How do I get a CorpusIQ API token?**  
-A: Generate an API token from your CorpusIQ Dashboard under Settings → API. Tokens are displayed once  --  store them securely and never commit them to version control.
+A: Generate an API token from your CorpusIQ Dashboard under Settings → API. Tokens are displayed once - store them securely and never commit them to version control.
 
 **Q: How long do CorpusIQ API tokens last?**  
 A: API tokens expire after 60 minutes with server-side refresh detection. Use refresh tokens for persistent agent access, or regenerate from the Dashboard for manual workflows.
 
 **Q: What is the OAuth 2.0 device flow for AI agents?**  
-A: AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token  --  no browser needed for ongoing access.
+A: AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token - no browser needed for ongoing access.
 
 **Q: How do I revoke a CorpusIQ API token?**  
 A: Disconnect the connector from the CorpusIQ Dashboard. The service commits an inactive state before credential cleanup and surfaces cleanup failures for retry; provider-side revocation is also available through the source platform. To request deletion of account data, contact privacy@corpusiq.io; CorpusIQ responds to privacy requests within 30 days.
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/api/overview)**  --  Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/api/endpoints)**  --  Complete request/response schemas and code examples  
-- **[API Rate Limits](/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/api/webhooks)**  --  Current webhook-contract availability
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/api/overview)** - Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)** - Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)** - Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)** - Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)** - Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)** - Encryption, network security, and compliance  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

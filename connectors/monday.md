@@ -40,6 +40,12 @@ Read-only. CorpusIQ never changes statuses, assigns items, or edits boards.
 - Board not showing up - confirm your Monday user has at least View access on that board.
 - "No items returned" on a large board - narrow the question to a specific group or status.
 - Auth fails - reset the Monday connector in your dashboard and reconnect.
+
+## See also
+
+- [Connect Monday.com to ChatGPT](../connect-monday-com-to-chatgpt.md) - the ChatGPT setup, the questions worth asking and the read-only model.
+- [Connect Monday.com to Claude](../connect-monday-com-to-claude.md) - the same setup in Claude, with the verified config block.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

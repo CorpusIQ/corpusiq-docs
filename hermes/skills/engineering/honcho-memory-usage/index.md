@@ -1,6 +1,6 @@
 ---
 title: "honcho-memory-usage - CorpusIQ Docs"
-description: When and how to read/write Honcho  --  the catalog memory-provider plugin for server-side semantic memory that complements (does not replace) MEMORY.md and USER.md. The cold-storage pattern that survives session reset.
+description: When and how to read/write Honcho - the catalog memory-provider plugin for server-side semantic memory that complements (does not replace) MEMORY.md and USER.md. The cold-storage pattern that survives session reset.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage/"
 robots: "index,follow"
 last_updated: "2026-10-30"
@@ -18,13 +18,13 @@ Two rules follow from that. Only **one** external memory provider can be active 
 
 | Layer | What it holds | Cost | Latency |
 |---|---|---|---|
-| MEMORY.md / USER.md | ~12KB hand-curated declarative facts | injected every turn (in token bill) | zero  --  already in prompt |
+| MEMORY.md / USER.md | ~12KB hand-curated declarative facts | injected every turn (in token bill) | zero - already in prompt |
 | Skills | Procedural runbooks loaded on demand | one tool call when loaded | ~1s |
 | session_search (SQLite FTS5) | Past conversation transcripts | one tool call | ~100ms local |
 | **Honcho (this skill)** | Semantic representation built from messages the provider syncs | one provider roundtrip + Honcho processing | ~500ms-2s per call |
 | Honcho `honcho_reasoning` (dialectic) | Theory-of-mind queries against the representation | model call inside Honcho | ~2-5s |
 
-Honcho is empty by default. It only knows what we tell it. Querying an empty workspace returns nothing useful  --  by design.
+Honcho is empty by default. It only knows what we tell it. Querying an empty workspace returns nothing useful - by design.
 
 ## When to WRITE to Honcho
 
@@ -53,7 +53,7 @@ Read when:
 - The user references a past decision you don't have in MEMORY.md
 - You're starting work on a domain where Honcho might have stored context (e.g. "let's pick up the Stripe migration" → query for Stripe-related facts)
 
-Don't read on every turn  --  Honcho roundtrips cost real latency. Use it like a card catalog, not like a system prompt.
+Don't read on every turn - Honcho roundtrips cost real latency. Use it like a card catalog, not like a system prompt.
 
 ## API shape (provider tools)
 
@@ -71,9 +71,9 @@ If Honcho is instead wired as a plain MCP server rather than the memory provider
 
 ## Workspace + peer naming
 
-Each Hermes profile maps to a Honcho **workspace**. Multiple agents/sessions inside the same profile share a workspace. The **peer** identifies a single real human  --  typically the user's email or a stable identifier.
+Each Hermes profile maps to a Honcho **workspace**. Multiple agents/sessions inside the same profile share a workspace. The **peer** identifies a single real human - typically the user's email or a stable identifier.
 
-Confusing the boundary leads to "I queried Honcho and got nothing useful"  --  usually because you queried the wrong workspace or wrong peer.
+Confusing the boundary leads to "I queried Honcho and got nothing useful" - usually because you queried the wrong workspace or wrong peer.
 
 ## Cost discipline
 
@@ -81,21 +81,21 @@ Honcho is not free. Each dialectic call (`honcho_reasoning`) invokes a model ins
 
 - Default reasoning level: `low` or `medium` for most queries
 - Use `high` or `max` only when the query is genuinely complex and the answer matters
-- `honcho_search` is cheaper than `honcho_reasoning`  --  prefer it when you want raw matched facts, not a synthesized answer
+- `honcho_search` is cheaper than `honcho_reasoning` - prefer it when you want raw matched facts, not a synthesized answer
 - The `dialecticCadence` and `dialecticDepth` settings in `honcho.json` cap how often the LLM call fires and how many passes it makes (1-3)
 
 ## When NOT to use Honcho
 
-- You're trying to remember WHAT happened in a past session  --  use `session_search` against the local SQLite FTS5 store. Honcho's job is "what does Hermes know about the user/topic," not "what did we discuss on Tuesday."
-- The fact is a one-liner  --  use MEMORY.md.
-- You're building procedural knowledge ("how to do X")  --  use a skill, not Honcho.
-- You need the fact in every turn's prompt  --  use MEMORY.md.
+- You're trying to remember WHAT happened in a past session - use `session_search` against the local SQLite FTS5 store. Honcho's job is "what does Hermes know about the user/topic," not "what did we discuss on Tuesday."
+- The fact is a one-liner - use MEMORY.md.
+- You're building procedural knowledge ("how to do X") - use a skill, not Honcho.
+- You need the fact in every turn's prompt - use MEMORY.md.
 
 ## Related
 
-- [scheduled-jobs](../scheduled-jobs/)  --  cron jobs that need cross-session memory often want Honcho rather than ad-hoc state files
+- [scheduled-jobs](../scheduled-jobs/) - cron jobs that need cross-session memory often want Honcho rather than ad-hoc state files
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) - 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

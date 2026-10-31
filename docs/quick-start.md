@@ -31,16 +31,16 @@ Create an account at [corpusiq.io/register](https://www.corpusiq.io/register?utm
 Provider scopes vary by connector and are displayed on the authorization screen. External-source retrieval tools are marked read-only; write-capable management/control-plane tools are separately named and annotated.
 
 Popular first connections:
-- **Gmail**  --  Search your email history
-- **Google Drive**  --  Query across documents and spreadsheets
-- **Slack**  --  Search messages and threads
-- **HubSpot**  --  Look up deals and contacts
+- **Gmail** - Search your email history
+- **Google Drive** - Query across documents and spreadsheets
+- **Slack** - Search messages and threads
+- **HubSpot** - Look up deals and contacts
 
 ## Step 3: Get Your API Token
 
 1. In the Dashboard, go to **Settings → API**
 2. Click **Generate Token**
-3. Copy the token  --  it will only be displayed once
+3. Copy the token - it will only be displayed once
 
 Store the token securely. Never embed it in client-side code or commit it to version control.
 
@@ -75,7 +75,7 @@ curl -X POST https://mcp2.corpusiq.io/mcp \
       "chunks": [
         {
           "chunk_id": "chnk_x1y2",
-          "content": "Re: Q3 Budget Review  --  Sarah from Finance shared the updated budget spreadsheet. Please review by Friday.",
+          "content": "Re: Q3 Budget Review - Sarah from Finance shared the updated budget spreadsheet. Please review by Friday.",
           "source_url": "https://mail.google.com/mail/u/0/#inbox/abc123",
           "relevance_score": 0.96,
           "metadata": {
@@ -129,11 +129,11 @@ See the [MCP Integration Guide](https://www.corpusiq.io/mcp?utm_source=docs&utm_
 
 ## Next Steps
 
-- [API Overview](/api/overview)  --  Understand the full API surface
-- [Endpoints Reference](/api/endpoints)  --  Detailed request/response schemas
-- [Connectors](/connectors)  --  Browse all 40+ integrations
-- [Authentication](/api/authentication)  --  Token management and best practices
-- [Rate Limits](/api/rate-limits)  --  Understand quotas and how to stay within them
+- [API Overview](/api/overview) - Understand the full API surface
+- [Endpoints Reference](/api/endpoints) - Detailed request/response schemas
+- [Connectors](/connectors) - Browse all 40+ integrations
+- [Authentication](/api/authentication) - Token management and best practices
+- [Rate Limits](/api/rate-limits) - Understand quotas and how to stay within them
 
 ## Frequently Asked Questions
 
@@ -164,12 +164,12 @@ Go to Dashboard → Settings → API, click Generate Token, and copy it. Store i
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/quickstart)** - Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)** - Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)** - All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)** - Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/blog)** - API updates and version history  
+- **[Secure AI Data Connectivity](/security)** - Encryption and network security  
 
 *Powered by CorpusIQ.*

@@ -28,7 +28,7 @@ robots: "index,follow"
 
 # AI for Sales Reporting: Pipeline Intelligence in Real Time
 
-Sales reporting is one of the most time-consuming activities in any revenue organization. Sales leaders spend hours building pipeline reports, analyzing rep performance, and preparing forecast presentations  --  time they could spend coaching their teams and closing deals. AI-powered sales reporting through CorpusIQ's MCP platform eliminates that overhead by making CRM data conversational.
+Sales reporting is one of the most time-consuming activities in any revenue organization. Sales leaders spend hours building pipeline reports, analyzing rep performance, and preparing forecast presentations - time they could spend coaching their teams and closing deals. AI-powered sales reporting through CorpusIQ's MCP platform eliminates that overhead by making CRM data conversational.
 
 Instead of building a report in Salesforce or HubSpot, sales leaders can simply ask Claude "What's our pipeline coverage for Q3?", "Which deals are at risk of slipping?", or "Show me each rep's performance against quota" and receive instant, accurate answers drawn from live CRM data.
 
@@ -36,11 +36,11 @@ Instead of building a report in Salesforce or HubSpot, sales leaders can simply 
 
 **Instant Pipeline Visibility**
 
-The most fundamental sales question  --  "What's our pipeline?"  --  traditionally requires navigating CRM dashboards, applying filters, and interpreting multiple views. With AI, pipeline visibility is instant and conversational. "Show me our pipeline by stage, by rep, and by close date"  --  answered in seconds.
+The most fundamental sales question - "What's our pipeline?" - traditionally requires navigating CRM dashboards, applying filters, and interpreting multiple views. With AI, pipeline visibility is instant and conversational. "Show me our pipeline by stage, by rep, and by close date" - answered in seconds.
 
 **Intelligent Deal Inspection**
 
-AI doesn't just report pipeline numbers  --  it can analyze deal health. Ask Claude "Which deals haven't had activity in the last 14 days?" or "Which opportunities are below our average deal size?" to identify risks before they become lost deals.
+AI doesn't just report pipeline numbers - it can analyze deal health. Ask Claude "Which deals haven't had activity in the last 14 days?" or "Which opportunities are below our average deal size?" to identify risks before they become lost deals.
 
 **Automated Rep Performance Analysis**
 
@@ -61,7 +61,7 @@ CorpusIQ connects AI to your CRM and related systems:
 - **Salesforce integration:** Accounts, opportunities, leads, cases, activities, and custom objects.
 - **HubSpot integration:** Contacts, companies, deals, pipeline stages, and activity history.
 - **Close CRM integration:** Leads, opportunities, activities, and sales rep performance.
-- **Cross-source correlation:** CRM + ERP + billing + marketing  --  unified revenue intelligence.
+- **Cross-source correlation:** CRM + ERP + billing + marketing - unified revenue intelligence.
 - **Operation-level safety:** Retrieval tools are marked read-only; write-capable connector and control-plane tools are separately named and annotated.
 
 ## Example Sales Reporting Queries
@@ -85,7 +85,7 @@ CorpusIQ connects AI to your CRM and related systems:
 
 **Forecasting:**
 - "Based on historical close rates, what's our projected revenue for this quarter?"
-- "What's our forecast category breakdown  --  commit, best case, pipeline?"
+- "What's our forecast category breakdown - commit, best case, pipeline?"
 - "How does this quarter's pipeline compare to the same quarter last year?"
 
 **Cross-Source Revenue Intelligence:**
@@ -95,23 +95,23 @@ CorpusIQ connects AI to your CRM and related systems:
 
 ## Implementation Steps
 
-1. **Connect your CRM** to CorpusIQ  --  Salesforce, HubSpot, or Close CRM (5-minute OAuth).
-2. **Connect supporting systems**  --  billing (Stripe, QuickBooks), marketing (HubSpot, Google Ads), analytics.
+1. **Connect your CRM** to CorpusIQ - Salesforce, HubSpot, or Close CRM (5-minute OAuth).
+2. **Connect supporting systems** - billing (Stripe, QuickBooks), marketing (HubSpot, Google Ads), analytics.
 3. **Start asking sales questions** through Claude.
-4. **Integrate into weekly workflows**  --  pipeline reviews, forecast calls, 1:1s.
-5. **Define canonical metrics**  --  pipeline coverage ratio, win rate, quota attainment  --  for consistent reporting.
+4. **Integrate into weekly workflows** - pipeline reviews, forecast calls, 1:1s.
+5. **Define canonical metrics** - pipeline coverage ratio, win rate, quota attainment - for consistent reporting.
 
 ## ROI for Sales Teams
 
 - **5+ hours per week saved** per sales manager on report building.
-- **Faster pipeline reviews**  --  from hours of preparation to real-time conversation.
-- **Better deal visibility**  --  AI surfaces at-risk deals that manual review might miss.
-- **More coaching time**  --  managers freed from reporting to focus on rep development.
+- **Faster pipeline reviews** - from hours of preparation to real-time conversation.
+- **Better deal visibility** - AI surfaces at-risk deals that manual review might miss.
+- **More coaching time** - managers freed from reporting to focus on rep development.
 
 ## FAQ
 
 **Q: Does this replace our CRM dashboards?**
-A: No  --  it complements them. CRM dashboards are great for standard views. AI provides on-demand, ad-hoc answers to questions that don't have pre-built dashboards.
+A: No - it complements them. CRM dashboards are great for standard views. AI provides on-demand, ad-hoc answers to questions that don't have pre-built dashboards.
 
 **Q: Can AI analyze custom CRM objects and fields?**
 A: Yes. CorpusIQ queries the standard REST API, so custom objects and fields accessible via API are queryable through Claude.
@@ -124,19 +124,19 @@ A: The CRM retrieval tools documented here do not create opportunities or update
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/connectors)  --  Salesforce in AI.
-- [Connect HubSpot to Claude](/connect/hubspot-with-claude)  --  HubSpot in AI.
-- [AI for Revenue Operations](https://www.corpusiq.io/private-ai-for-business)  --  RevOps intelligence.
-- [AI for Forecasting](https://www.corpusiq.io/private-ai-for-business)  --  Predictive sales analytics.
-- [AI for Executive Reporting](https://www.corpusiq.io/private-ai-for-business)  --  Leadership reporting.
-- [AI for KPI Monitoring](https://www.corpusiq.io/private-ai-for-business)  --  Real-time metrics.
+- [Connect Salesforce to Claude](/connectors) - Salesforce in AI.
+- [Connect HubSpot to Claude](/connect/hubspot-with-claude) - HubSpot in AI.
+- [AI for Revenue Operations](https://www.corpusiq.io/private-ai-for-business) - RevOps intelligence.
+- [AI for Forecasting](https://www.corpusiq.io/private-ai-for-business) - Predictive sales analytics.
+- [AI for Executive Reporting](https://www.corpusiq.io/private-ai-for-business) - Leadership reporting.
+- [AI for KPI Monitoring](https://www.corpusiq.io/private-ai-for-business) - Real-time metrics.
 - [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)
 
 ---
 
 **Next steps:** [Connect your CRM now →](https://corpusiq.io/connect)
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

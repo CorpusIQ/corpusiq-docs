@@ -26,7 +26,7 @@ tags: ["hermes agent", "ai agent", "documentation"]
 
 For decades, extracting answers from accounting software has required specialized knowledge: understanding report parameters, navigating menu hierarchies, learning query syntax, or writing SQL. **CorpusIQ's natural language query capability for QuickBooks fundamentally changes this paradigm.**
 
-Through the MCP platform, you can now ask your QuickBooks data questions the way you'd ask a colleague: in plain English, with natural phrasing, and with the expectation of a direct, accurate answer. The AI interprets your intent, retrieves the relevant data from QuickBooks, and presents it in a human-readable format  --  all in seconds.
+Through the MCP platform, you can now ask your QuickBooks data questions the way you'd ask a colleague: in plain English, with natural phrasing, and with the expectation of a direct, accurate answer. The AI interprets your intent, retrieves the relevant data from QuickBooks, and presents it in a human-readable format - all in seconds.
 
 ## How It Works
 
@@ -39,7 +39,7 @@ When you ask "Which customers haven't paid their invoices from last quarter?", t
 - **Time period**: Last quarter
 - **Desired output**: A list
 
-The AI maps these semantic elements to specific QuickBooks tools and parameters  --  in this case, the AR aging report filtered for the relevant period.
+The AI maps these semantic elements to specific QuickBooks tools and parameters - in this case, the AR aging report filtered for the relevant period.
 
 ### 2. Tool Selection and Parameter Mapping
 CorpusIQ exposes QuickBooks functionality as discrete tools (APIs with defined inputs and outputs). The AI selects the right tool(s) and populates parameters automatically:
@@ -49,7 +49,7 @@ CorpusIQ exposes QuickBooks functionality as discrete tools (APIs with defined i
 - "What's overdue right now?" → `get_overdue_invoices()`
 
 ### 3. Data Retrieval and Normalization
-The selected tool executes against your live QuickBooks data. CorpusIQ handles authentication, pagination (for large result sets), rate limiting, and response normalization  --  converting QuickBooks' API responses into clean, structured data that the AI can work with.
+The selected tool executes against your live QuickBooks data. CorpusIQ handles authentication, pagination (for large result sets), rate limiting, and response normalization - converting QuickBooks' API responses into clean, structured data that the AI can work with.
 
 ### 4. Natural Language Response
 The AI transforms raw data into a conversational answer, often including:
@@ -64,7 +64,7 @@ The AI transforms raw data into a conversational answer, often including:
 Your team doesn't need to learn QuickBooks report navigation, SQL, or any query language. If someone can articulate what they want to know, they can query QuickBooks. This democratizes financial data access across your organization.
 
 ### Complex Multi-Step Queries
-Natural language queries can chain multiple QuickBooks data retrievals. "Compare our top 5 customers by revenue this year to last year, and show me which ones have outstanding invoices"  --  the AI executes multiple tool calls, synthesizes the results, and delivers a coherent answer.
+Natural language queries can chain multiple QuickBooks data retrievals. "Compare our top 5 customers by revenue this year to last year, and show me which ones have outstanding invoices" - the AI executes multiple tool calls, synthesizes the results, and delivers a coherent answer.
 
 ### Iterative Exploration
 Natural language is inherently conversational. You can start broad ("How's our financial health?") and progressively narrow ("Break down revenue by product line" → "Show me the ones with declining margins" → "Drill into the Widget product COGS"). Each follow-up adds precision without restarting.
@@ -80,17 +80,17 @@ The AI maintains conversation context, so you can use pronouns and references: "
 ### Cash Flow Investigation
 **Query**: "Why is our cash balance lower this month than last month even though revenue was up?"
 
-The AI pulls the P&L (to verify revenue increase), the cash flow statement (to identify cash movements), and AR/AP aging (to spot working capital changes). It synthesizes: "Revenue increased $45,000, but accounts receivable grew by $62,000  --  meaning you billed more than you collected. Additionally, you paid down $28,000 in AP. Your cash conversion cycle stretched from 34 to 47 days."
+The AI pulls the P&L (to verify revenue increase), the cash flow statement (to identify cash movements), and AR/AP aging (to spot working capital changes). It synthesizes: "Revenue increased $45,000, but accounts receivable grew by $62,000 - meaning you billed more than you collected. Additionally, you paid down $28,000 in AP. Your cash conversion cycle stretched from 34 to 47 days."
 
 ### Customer Profitability Analysis
 **Query**: "Which of our top 20 customers by revenue actually have the lowest gross margins?"
 
-The AI retrieves customer-level revenue and COGS data, computes margins, ranks by margin, and identifies customers where high revenue doesn't translate to high profitability  --  flagging ones that may need pricing renegotiation.
+The AI retrieves customer-level revenue and COGS data, computes margins, ranks by margin, and identifies customers where high revenue doesn't translate to high profitability - flagging ones that may need pricing renegotiation.
 
 ### Expense Anomaly Detection
 **Query**: "Are there any expense categories where Q3 spending was significantly higher than the trend from the previous four quarters?"
 
-The AI pulls monthly expense data by category, computes rolling averages, identifies statistical outliers, and presents the anomalous categories with dollar amounts and percentage deviations  --  helping catch errors or unexpected cost increases early.
+The AI pulls monthly expense data by category, computes rolling averages, identifies statistical outliers, and presents the anomalous categories with dollar amounts and percentage deviations - helping catch errors or unexpected cost increases early.
 
 ### Tax Preparation Query
 **Query**: "What was our total spend on independent contractors this year, broken down by vendor, and which ones need 1099s?"
@@ -100,7 +100,7 @@ The AI searches vendor payments categorized as contractor expenses, aggregates b
 ### Month-End Reconciliation Check
 **Query**: "Are there any uncleared transactions older than 60 days, and do any of our bank account balances in QuickBooks not match the last reconciled balance?"
 
-The AI checks transaction clearing status, compares book balances to last reconciled balances, and flags discrepancies  --  accelerating the reconciliation process.
+The AI checks transaction clearing status, compares book balances to last reconciled balances, and flags discrepancies - accelerating the reconciliation process.
 
 ### Revenue Forecasting Input
 **Query**: "Based on our recurring revenue contracts and historical churn, what's our projected revenue for the next three months?"
@@ -110,7 +110,7 @@ The AI pulls recurring invoice schedules, computes historical churn from custome
 ## Frequently Asked Questions
 
 ### How does natural language querying differ from QuickBooks' search bar?
-QuickBooks' built-in search finds transactions by name, amount, or date  --  it's a keyword search, not a query engine. Natural language queries interpret meaning: "customers who spend more this year than last" requires computation and comparison that keyword search cannot perform.
+QuickBooks' built-in search finds transactions by name, amount, or date - it's a keyword search, not a query engine. Natural language queries interpret meaning: "customers who spend more this year than last" requires computation and comparison that keyword search cannot perform.
 
 ### What happens if my question is ambiguous?
 The AI will ask for clarification rather than guessing. For example, if you ask "Show me revenue by region" and your QuickBooks uses both "Location" and "Class" tracking, the AI will ask which dimension you mean. This prevents misinterpretation of your financial data.
@@ -122,7 +122,7 @@ Yes. Through CorpusIQ, you can save frequently used queries as templates. "Show 
 The AI can handle multi-step queries involving 5-10 QuickBooks tool calls. Examples include: full financial health analysis (P&L + balance sheet + cash flow + AR/AP aging + key ratios), cross-entity consolidation queries, and cohort analyses. Claude's 200K context window is especially suited for the most complex queries.
 
 ### Can I use natural language queries on mobile?
-Yes. If you access ChatGPT or Claude through their mobile apps, you can query QuickBooks from your phone. "What's today's cash balance?" or "Did Acme Corp's payment come in?"  --  financial answers wherever you are.
+Yes. If you access ChatGPT or Claude through their mobile apps, you can query QuickBooks from your phone. "What's today's cash balance?" or "Did Acme Corp's payment come in?" - financial answers wherever you are.
 
 ### How does the AI handle date references like "last quarter" or "YTD"?
 The AI interprets relative date references using the current date as context. "Last quarter" resolves to the previous fiscal quarter. "Year to date" resolves to the current fiscal year. You can also use specific dates: "between January 1 and March 31, 2026."
@@ -134,7 +134,7 @@ Your CorpusIQ plan determines the monthly tool call allowance. Each question typ
 Yes, on the Enterprise plan. You can ask questions like "Compare Q2 revenue across all three of our subsidiaries" and the AI will pull data from each company file and produce a consolidated comparison.
 
 ### What if my QuickBooks has custom fields or unusual account structures?
-The AI discovers your chart of accounts and custom fields dynamically. It doesn't rely on a predefined schema  --  it reads what's actually in your QuickBooks. Custom fields are exposed as filterable dimensions.
+The AI discovers your chart of accounts and custom fields dynamically. It doesn't rely on a predefined schema - it reads what's actually in your QuickBooks. Custom fields are exposed as filterable dimensions.
 
 ### How secure are my queries? Does the AI store my financial data?
 CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
@@ -143,10 +143,10 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 
 Ready to put AI to work on your quickbooks natural language queries data? 
 
-1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-natural-language-queries)  --  free plan available.
-2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
-3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
-4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-natural-language-queries) - free plan available.
+2. **Connect your data** - OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions** - use ChatGPT, Claude, or any MCP-compatible AI assistant.
+4. **Scale your usage** - add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-quickbooks-natural-language-queries)**
 
@@ -161,11 +161,11 @@ Ready to put AI to work on your quickbooks natural language queries data?
 
 ## The End of Financial Data Gatekeeping
 
-Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data  --  not just the people who know how to run reports  --  financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
+Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data - not just the people who know how to run reports - financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
 
 **[Start asking your QuickBooks data questions in plain English](/quickstart). Connect in 60 seconds.**
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

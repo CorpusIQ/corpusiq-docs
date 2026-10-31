@@ -9,13 +9,13 @@ robots: "index,follow"
 
 ---
 
-# MCP Server Design Guide  --  Build Custom AI Agent Tools
+# MCP Server Design Guide - Build Custom AI Agent Tools
 
 Model Context Protocol (MCP) servers extend Hermes Agent with custom tools and data sources. Designing an MCP server well means respecting both the protocol constraints and the expectations of the Hermes community. This MCP server design guide covers tool design, error handling, performance, testing, and the full server lifecycle.
 
 ## Overview
 
-MCP servers are how Hermes Agent connects to external systems. Each server exposes tools  --  typed, documented functions that the agent can call. Following [MCP design best practices](/hermes/best-practices) ensures your server is reliable, performant, and easy for the community to adopt.
+MCP servers are how Hermes Agent connects to external systems. Each server exposes tools - typed, documented functions that the agent can call. Following [MCP design best practices](/hermes/best-practices) ensures your server is reliable, performant, and easy for the community to adopt.
 
 ## How It Works
 
@@ -79,11 +79,11 @@ Point the official inspector at it: `npx @modelcontextprotocol/inspector`. It op
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices)  --  All guides
-- [MCP Integration Guide](/hermes/mcp)  --  Connect existing MCP servers
-- [Skill Development](skill-development.md)  --  Skills that call MCP tools
-- [Security](security.md)  --  Secure MCP server auth patterns
-- [Creating Custom Skills](/hermes/skills/creating-skills)  --  When skills are better than MCP servers
+- [Best Practices Overview](/hermes/best-practices) - All guides
+- [MCP Integration Guide](/hermes/mcp) - Connect existing MCP servers
+- [Skill Development](skill-development.md) - Skills that call MCP tools
+- [Security](security.md) - Secure MCP server auth patterns
+- [Creating Custom Skills](/hermes/skills/creating-skills) - When skills are better than MCP servers
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

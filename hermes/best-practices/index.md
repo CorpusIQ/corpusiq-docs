@@ -9,13 +9,13 @@ robots: "index,follow"
 
 ---
 
-# Hermes Agent Best Practices  --  Build Reliable AI Automation
+# Hermes Agent Best Practices - Build Reliable AI Automation
 
 Hermes Agent best practices capture what the community has learned about building reliable, secure, and maintainable AI agent setups. Whether you're running your first cron or managing a team deployment, these best practices help you avoid the mistakes we've already made in production.
 
 ## Overview
 
-This guide serves as the entry point to the Hermes Agent best practices collection. Each companion guide (cron design, model selection, memory management, security, skill development, MCP design) stands alone  --  read the ones relevant to your current work.
+This guide serves as the entry point to the Hermes Agent best practices collection. Each companion guide (cron design, model selection, memory management, security, skill development, MCP design) stands alone - read the ones relevant to your current work.
 
 ## How It Works
 
@@ -35,16 +35,16 @@ These patterns cause the majority of production incidents. Avoid them.
 
 | Anti-Pattern | Why It Hurts | What to Do Instead |
 |---|---|---|
-| Hardcoded credentials in skills | Breach on first share | [Security best practices](security)  --  secrets manager or env vars |
-| God crons that do everything | One failure cascades | [Cron design](cron-design)  --  single-responsibility crons |
+| Hardcoded credentials in skills | Breach on first share | [Security best practices](security) - secrets manager or env vars |
+| God crons that do everything | One failure cascades | [Cron design](cron-design) - single-responsibility crons |
 | Silent error swallowing | False confidence | Alert on persistent failure |
-| No approval on write ops | Unintended external actions | [Security](security)  --  tiered confirmation gates |
+| No approval on write ops | Unintended external actions | [Security](security) - tiered confirmation gates |
 | Unbounded database queries | Timeouts, resource exhaustion | Pagination and limits |
-| Memory as dumping ground | Context pollution, staleness | [Memory management](memory-management)  --  curated, pruned memories |
-| Copy-pasted skill logic | Bug propagation | [Skill development](skill-development)  --  shared utility skills |
+| Memory as dumping ground | Context pollution, staleness | [Memory management](memory-management) - curated, pruned memories |
+| Copy-pasted skill logic | Bug propagation | [Skill development](skill-development) - shared utility skills |
 | Console-only logging | No audit trail | Structured persistent logging |
 | Auto-updating dependencies | Supply-chain risk | Version pinning in production |
-| Model selection by habit | Cost/latency waste | [Model selection](model-selection)  --  task-aware routing |
+| Model selection by habit | Cost/latency waste | [Model selection](model-selection) - task-aware routing |
 
 ## Maturity Model
 
@@ -122,22 +122,22 @@ Follow [cron design best practices](cron-design): make every cron idempotent, im
 
 ## Related Pages
 
-- [Cron Design Best Practices](cron-design)  --  Reliable scheduled automation
-- [Model Selection Guide](model-selection)  --  Task-aware model routing
-- [Prompt Caching](prompt-caching)  --  Holding a 96 to 99 percent cache hit rate
-- [Memory Management](memory-management)  --  Context optimization strategies
-- [Security Best Practices](security)  --  Token management and approval gates
-- [Skill Development](skill-development)  --  Building reusable skills
-- [MCP Server Design](mcp-design)  --  Custom tool development
-- [Agent Capability Audit](agent-capability-audit)  --  The 4 must-install capabilities, audited
-- [Setup Guides](/hermes/setup)  --  Platform-specific installation
+- [Cron Design Best Practices](cron-design) - Reliable scheduled automation
+- [Model Selection Guide](model-selection) - Task-aware model routing
+- [Prompt Caching](prompt-caching) - Holding a 96 to 99 percent cache hit rate
+- [Memory Management](memory-management) - Context optimization strategies
+- [Security Best Practices](security) - Token management and approval gates
+- [Skill Development](skill-development) - Building reusable skills
+- [MCP Server Design](mcp-design) - Custom tool development
+- [Agent Capability Audit](agent-capability-audit) - The 4 must-install capabilities, audited
+- [Setup Guides](/hermes/setup) - Platform-specific installation
 
 ---
 
 Start where you are, automate what hurts most, and share what you learn. The rest follows.
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

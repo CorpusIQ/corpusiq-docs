@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Hermes Agent Automation Blueprints  --  End-to-End AI Workflows
+# Hermes Agent Automation Blueprints - End-to-End AI Workflows
 
 Hermes Agent automation blueprints provide complete, cron-anchored workflows for recurring business processes. Each blueprint orchestrates multiple tools and human decision gates to run a specific business function reliably and autonomously.
 
@@ -46,11 +46,11 @@ Cron expressions are the heartbeat of every blueprint. They define when automati
 
 ### The Human Gate Pattern
 
-Every blueprint includes explicit human decision points. Automation handles data gathering, computation, and formatting  --  but critical decisions require human judgment. The gates are positioned where:
+Every blueprint includes explicit human decision points. Automation handles data gathering, computation, and formatting - but critical decisions require human judgment. The gates are positioned where:
 
 1. **Approval is needed** before an action with consequences (sending external communication, publishing content, closing books)
 2. **Judgment is required** that automation can't reliably provide (assessing creative quality, evaluating nuanced risk)
-3. **Accountability matters**  --  a person needs to sign off (financial reports, incident severity classification)
+3. **Accountability matters** - a person needs to sign off (financial reports, incident severity classification)
 
 The pattern: automation prepares everything, presents a clear decision point, and awaits approval before proceeding to the next stage.
 
@@ -94,7 +94,7 @@ The daily morning briefing pulls customer health data from the lifecycle pipelin
 The content pipeline's weekly performance sweep feeds into the daily operations briefing on Monday mornings. Content that's underperforming or overperforming is flagged. The task triage system suggests whether content needs a refresh, promotion boost, or is fine as-is.
 
 **Incident Response + Daily Operations:**
-When an incident fires, it interrupts the daily operations flow. The scheduled briefing still runs but flags "active incident  --  daily brief superseded by incident channel." Post-incident, the postmortem action items are fed into daily task triage as high-priority tasks.
+When an incident fires, it interrupts the daily operations flow. The scheduled briefing still runs but flags "active incident - daily brief superseded by incident channel." Post-incident, the postmortem action items are fed into daily task triage as high-priority tasks.
 
 **Financial Close + All Blueprints:**
 The financial close consumes data from customer lifecycle (churn, expansion revenue), content pipeline (content marketing spend vs return), and daily operations (operational metrics that have cost implications). The close package then feeds forward-looking adjustments into all other blueprints for the next month.
@@ -117,7 +117,7 @@ Start with the blueprint that addresses your most painful manual process:
 
 1. **Week 1:** Read the blueprint end-to-end. Understand every cron job and human gate.
 2. **Week 2:** Set up the MCP servers and data connections the blueprint requires.
-3. **Week 3:** Run the blueprint in dry-run mode  --  observe what it would do without executing.
+3. **Week 3:** Run the blueprint in dry-run mode - observe what it would do without executing.
 4. **Week 4:** Enable the first automation (the lowest-risk one). Monitor closely.
 5. **Week 5-6:** Enable remaining automations one at a time with 48-hour observation periods.
 6. **Week 7-8:** Tune thresholds, customize outputs, and refine based on what's working.
@@ -137,17 +137,17 @@ These blueprints are starting points, not finished products. Every organization 
 
 Every blueprint follows this fundamental loop:
 1. **Pull data** from connected systems on a schedule
-2. **Compute** something useful  --  metrics, scores, rankings, summaries
-3. **Take action**  --  post a message, create a task, update a record, send a notification
+2. **Compute** something useful - metrics, scores, rankings, summaries
+3. **Take action** - post a message, create a task, update a record, send a notification
 4. **Log** what happened for audit and improvement
 
 ### Escalation Patterns
 
 When things go wrong, blueprints escalate predictably:
-1. **Automated retry**  --  transient failures get a second attempt
-2. **Notification**  --  persistent failures alert a human
-3. **Escalation**  --  unresolved after timeout → escalate to next level
-4. **Fallback**  --  if all else fails, degrade gracefully (partial report > no report)
+1. **Automated retry** - transient failures get a second attempt
+2. **Notification** - persistent failures alert a human
+3. **Escalation** - unresolved after timeout → escalate to next level
+4. **Fallback** - if all else fails, degrade gracefully (partial report > no report)
 
 ### Health Monitoring
 
@@ -160,7 +160,7 @@ Every blueprint should monitor its own health:
 ## Blueprint Design Principles
 
 **1. Start with the outcome, not the automation.**
-Design begins with "what does the human need to know or do?"  --  not "what can we automate?" The automation serves the outcome.
+Design begins with "what does the human need to know or do?" - not "what can we automate?" The automation serves the outcome.
 
 **2. Automate the tedious, gate the consequential.**
 Data gathering, formatting, computation, and routing are automated. Decisions with meaningful consequences have human gates.
@@ -176,7 +176,7 @@ Track time saved, errors caught, and process speed for each blueprint. Use those
 
 ## Contributing
 
-These blueprints represent generalized patterns. As you adapt them to your organization's tools and processes, you'll discover improvements  --  different cron cadences, additional data sources, smarter scoring models. Document what works for your context and share the patterns back with the community.
+These blueprints represent generalized patterns. As you adapt them to your organization's tools and processes, you'll discover improvements - different cron cadences, additional data sources, smarter scoring models. Document what works for your context and share the patterns back with the community.
 
 ## FAQ
 
@@ -190,20 +190,20 @@ Adjust cron times to match your team's working hours, replace tool references wi
 Start with the blueprint that addresses your most painful manual process. If morning context switching is the problem, start with [Daily Operations](daily-ops). For reactive account management, use [Customer Lifecycle](customer-lifecycle). For inconsistent publishing, use [Content Pipeline](content-pipeline).
 
 ### How do blueprints handle errors and failures?
-Every blueprint follows a predictable escalation pattern: automated retry (transient failures), notification (persistent failures alert a human), escalation (unresolved after timeout escalates to next level), and fallback (degrade gracefully  --  partial report is better than no report).
+Every blueprint follows a predictable escalation pattern: automated retry (transient failures), notification (persistent failures alert a human), escalation (unresolved after timeout escalates to next level), and fallback (degrade gracefully - partial report is better than no report).
 
 ## Related Pages
 
-- [Daily Operations Blueprint](daily-ops)  --  Morning briefing through evening wrap-up
-- [Customer Lifecycle Blueprint](customer-lifecycle)  --  Onboarding, engagement, retention, win-back
-- [Content Pipeline Blueprint](content-pipeline)  --  Research, draft, review, publish, promote
-- [Financial Close Blueprint](financial-close)  --  Monthly reconciliation and reporting
-- [Incident Response Blueprint](incident-response)  --  Detection, triage, remediation, postmortem
-- [Cron Design Best Practices](/hermes/best-practices/cron-design)  --  Reliable scheduled automation
-- [Integration Examples](/hermes/integrations)  --  Tool connection patterns for blueprints
+- [Daily Operations Blueprint](daily-ops) - Morning briefing through evening wrap-up
+- [Customer Lifecycle Blueprint](customer-lifecycle) - Onboarding, engagement, retention, win-back
+- [Content Pipeline Blueprint](content-pipeline) - Research, draft, review, publish, promote
+- [Financial Close Blueprint](financial-close) - Monthly reconciliation and reporting
+- [Incident Response Blueprint](incident-response) - Detection, triage, remediation, postmortem
+- [Cron Design Best Practices](/hermes/best-practices/cron-design) - Reliable scheduled automation
+- [Integration Examples](/hermes/integrations) - Tool connection patterns for blueprints
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

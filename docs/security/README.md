@@ -11,7 +11,7 @@ tags: ["hermes agent", "ai agent", "documentation"]
 
 ---
 
-title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
+title: "CorpusIQ Security Overview - Authentication, Encryption, and Read-Only Access"
 description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-level permissions, encryption, audit logging, data handling, and security best practices."
 category: "Documentation"
 tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
@@ -92,14 +92,14 @@ A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/architecture)** - MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/security)** - Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/search)** - Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting)** - Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding)** - AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/governance)** - Source of truth and audit controls  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -16,11 +16,11 @@ last_updated: "2026-10-24"
 
 ## The Problem
 
-You have critical business data spread across multiple tools  --  HubSpot for CRM, QuickBooks for accounting, Stripe for payments, Google Analytics for web traffic, Google Ads for marketing spend. You want to use ChatGPT to analyze this data, ask questions, and get insights. But ChatGPT can't natively access your business tools. You're stuck copy-pasting exports, building custom integrations, or worse  --  not using AI for business intelligence at all.
+You have critical business data spread across multiple tools - HubSpot for CRM, QuickBooks for accounting, Stripe for payments, Google Analytics for web traffic, Google Ads for marketing spend. You want to use ChatGPT to analyze this data, ask questions, and get insights. But ChatGPT can't natively access your business tools. You're stuck copy-pasting exports, building custom integrations, or worse - not using AI for business intelligence at all.
 
 ## The Solution: CorpusIQ MCP
 
-CorpusIQ bridges this gap using the **Model Context Protocol (MCP)**  --  an open standard developed by Anthropic that lets AI assistants discover and use external tools. CorpusIQ provides pre-built MCP connectors for 40+ business data sources. Connect in 2 minutes, start asking ChatGPT about your business data immediately.
+CorpusIQ bridges this gap using the **Model Context Protocol (MCP)** - an open standard developed by Anthropic that lets AI assistants discover and use external tools. CorpusIQ provides pre-built MCP connectors for 40+ business data sources. Connect in 2 minutes, start asking ChatGPT about your business data immediately.
 
 ## What You'll Need
 
@@ -40,7 +40,7 @@ CorpusIQ bridges this gap using the **Model Context Protocol (MCP)**  --  an ope
 ### Step 2: Connect Your Data Sources
 
 1. From the CorpusIQ dashboard, click **Add Connector**
-2. Select your first data source  --  for example, **HubSpot**
+2. Select your first data source - for example, **HubSpot**
 3. Click **Connect** to initiate the OAuth flow
 4. Log in to HubSpot and authorize CorpusIQ to access your data (read-only)
 5. Repeat for additional sources: QuickBooks, Stripe, GA4, Google Ads, Slack, etc.
@@ -125,7 +125,7 @@ A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not ret
 A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier of ChatGPT has limited MCP capabilities.
 
 **Q: What if ChatGPT misunderstands my question?**  
-A: You can refine your question  --  just like any conversation. Be specific about what data you want and which source to query.
+A: You can refine your question - just like any conversation. Be specific about what data you want and which source to query.
 
 **Q: How many data sources can I connect?**  
 A: CorpusIQ supports 40+ connectors, and you can connect as many as you need. Multi-source queries work seamlessly.
@@ -154,7 +154,7 @@ A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you nee
 - [How to Connect Multiple Data Sources to AI](https://www.corpusiq.io/answers)
 - [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
 - [Best Way to Connect ChatGPT to Business Data](/connectors)
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
+- [CorpusIQ vs Custom RAG - 2-Min Setup vs Engineering](/compare)
 - [Best ChatGPT Integration Platform](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [HubSpot Business Intelligence with CorpusIQ](/connect/hubspot-with-chatgpt)

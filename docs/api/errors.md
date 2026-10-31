@@ -102,15 +102,15 @@ A: A 400 error means your request body or parameters are malformed. Check that r
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/api/overview)**  --  Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/api/endpoints)**  --  Complete request/response schemas and code examples  
-- **[API Rate Limits](/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/api/webhooks)**  --  Current webhook-contract availability
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/api/overview)** - Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)** - Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)** - Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)** - Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)** - Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)** - Encryption, network security, and compliance  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

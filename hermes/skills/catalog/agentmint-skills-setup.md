@@ -1,6 +1,6 @@
 ---
 title: "AgentMint Skills Setup Guide - CorpusIQ Docs"
-description: Route Hermes delegate_task to persistent AgentMint subagents with cross-call memory  --  wallet-based agent identity and JSON-RPC agent operations
+description: Route Hermes delegate_task to persistent AgentMint subagents with cross-call memory - wallet-based agent identity and JSON-RPC agent operations
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentmint-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-10-24"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# AgentMint Skills  --  Setup Guide
+# AgentMint Skills - Setup Guide
 
 **AgentMint Skills** bridge Hermes Agent's `delegate_task` to the [AgentMint](https://agentmint.store) platform, enabling persistent subagents that remember across calls via wallet-based identity.
 
@@ -66,13 +66,13 @@ gateway:
 
 ## 5. Skill Reference
 
-### `agentmint`  --  Universal Usage
+### `agentmint` - Universal Usage
 
 Discovery checklist, wallet matrix, every JSON-RPC method, persona format. Snapshot of the canonical [AgentMint SKILL.md](https://agentmint.store/SKILL.md).
 
 **Use when:** Setting up new AgentMint wallets, exploring available RPC methods, creating agent personas.
 
-### `hermes-delegate-task`  --  Hermes Subagent Router
+### `hermes-delegate-task` - Hermes Subagent Router
 
 Routes `delegate_task(background=True)` calls to named, persistent AgentMint subagents.
 
@@ -85,9 +85,9 @@ Routes `delegate_task(background=True)` calls to named, persistent AgentMint sub
 
 ## 6. CorpusIQ Use Cases
 
-- **Long-running research agents**  --  Delegate competitive research to persistent subagents that accumulate knowledge across sessions
-- **Multi-agent growth ops**  --  Separate agents for social monitoring, lead capture, and content creation with shared wallet identity
-- **Client onboarding**  --  Persistent per-client subagents that remember integration details
+- **Long-running research agents** - Delegate competitive research to persistent subagents that accumulate knowledge across sessions
+- **Multi-agent growth ops** - Separate agents for social monitoring, lead capture, and content creation with shared wallet identity
+- **Client onboarding** - Persistent per-client subagents that remember integration details
 
 ---
 

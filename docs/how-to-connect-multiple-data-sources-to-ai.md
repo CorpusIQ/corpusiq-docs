@@ -1,5 +1,5 @@
 ---
-title: "How to Connect Multiple Data Sources to AI -- Unified MCP"
+title: "How to Connect Multiple Data Sources to AI - Unified MCP"
 description: "Connect multiple business data sources to AI simultaneously with CorpusIQ MCP. CRM, accounting, analytics, and more in one unified AI interface."
 h1: "How to Connect Multiple Data Sources to AI"
 url: "/docs/how-to-connect-multiple-data-sources-to-ai"
@@ -16,13 +16,13 @@ last_updated: "2026-10-24"
 
 ## The Problem
 
-Your business runs on multiple systems. HubSpot for CRM, QuickBooks for accounting, Stripe for payments, Google Analytics for web traffic, Google Ads for marketing spend, Slack for communication. Each tool provides valuable data  --  but in isolation. The real insights come from connecting the dots: How does marketing spend translate to pipeline? Which customers with open deals have overdue invoices? How does website traffic correlate with revenue?
+Your business runs on multiple systems. HubSpot for CRM, QuickBooks for accounting, Stripe for payments, Google Analytics for web traffic, Google Ads for marketing spend, Slack for communication. Each tool provides valuable data - but in isolation. The real insights come from connecting the dots: How does marketing spend translate to pipeline? Which customers with open deals have overdue invoices? How does website traffic correlate with revenue?
 
 Traditional approaches require data warehousing, ETL pipelines, and months of engineering. That's too slow, too expensive, and too complex for most teams.
 
 ## The Solution
 
-CorpusIQ's MCP platform connects multiple data sources to AI simultaneously. One question can query five different tools, and the AI combines the results into a coherent answer  --  all in seconds, without building an ETL warehouse of raw customer files or full connector payloads.
+CorpusIQ's MCP platform connects multiple data sources to AI simultaneously. One question can query five different tools, and the AI combines the results into a coherent answer - all in seconds, without building an ETL warehouse of raw customer files or full connector payloads.
 
 ## What You'll Need
 
@@ -42,7 +42,7 @@ Before connecting, identify which data sources matter most for your questions:
 | **Financial Intelligence** | QuickBooks + Stripe + HubSpot |
 | **Marketing Intelligence** | GA4 + Google Ads + Meta Ads + HubSpot |
 | **Customer Intelligence** | HubSpot + Stripe + Gmail + Intercom/Zendesk |
-| **Executive Intelligence** | ALL of the above  --  unified business view |
+| **Executive Intelligence** | ALL of the above - unified business view |
 
 ### Step 2: Connect All Sources Through CorpusIQ
 
@@ -54,19 +54,19 @@ For each data source, the process is identical and takes under 60 seconds:
 4. **Repeat** for every source you want to connect
 
 Connect in this order for the best initial experience:
-1. CRM (HubSpot/Salesforce)  --  customer and pipeline data
-2. Accounting (QuickBooks)  --  financial data
-3. Payments (Stripe)  --  transaction data
-4. Web Analytics (GA4)  --  traffic and conversion data
-5. Advertising (Google Ads, Meta Ads)  --  marketing spend and performance
-6. Communication (Gmail, Slack)  --  conversations and context
+1. CRM (HubSpot/Salesforce) - customer and pipeline data
+2. Accounting (QuickBooks) - financial data
+3. Payments (Stripe) - transaction data
+4. Web Analytics (GA4) - traffic and conversion data
+5. Advertising (Google Ads, Meta Ads) - marketing spend and performance
+6. Communication (Gmail, Slack) - conversations and context
 
 ### Step 3: Configure Cross-Source Access
 
 In your AI assistant:
 1. Add your CorpusIQ MCP Server URL
 2. The AI discovers ALL connected data sources as available tools
-3. No additional configuration needed  --  the AI automatically determines which sources to query for each question
+3. No additional configuration needed - the AI automatically determines which sources to query for each question
 
 ### Step 4: Master Cross-Source Questions
 
@@ -117,7 +117,7 @@ Document your most valuable cross-source questions so your team can reuse them:
 
 **AI Response:**
 ```
-JUNE 2026 BUSINESS PERFORMANCE  --  CROSS-SOURCE SUMMARY
+JUNE 2026 BUSINESS PERFORMANCE - CROSS-SOURCE SUMMARY
 
 SALES (HubSpot):
 - New Deals Created: 47 ($890,000 total value)
@@ -139,18 +139,18 @@ FINANCE (QuickBooks + Stripe):
 - Gross Margin: 68%
 - Cash Position: $1,240,000
 
-KEY INSIGHT: Marketing efficiency improving  --  CPA down 15% from May while pipeline contribution up 8%.
+KEY INSIGHT: Marketing efficiency improving - CPA down 15% from May while pipeline contribution up 8%.
 ```
 
 ## CorpusIQ's Role
 
 CorpusIQ makes multi-source AI queries possible by:
 
-1. **Unifying authentication**  --  one platform, one OAuth flow per source
-2. **Parallel query execution**  --  hitting all relevant APIs simultaneously
-3. **Structured data return**  --  typed, AI-ready JSON from every source
-4. **Live data access**  --  no warehouse, no ETL, no batch windows
-5. **Intelligent routing**  --  the AI chooses which sources to query based on the question
+1. **Unifying authentication** - one platform, one OAuth flow per source
+2. **Parallel query execution** - hitting all relevant APIs simultaneously
+3. **Structured data return** - typed, AI-ready JSON from every source
+4. **Live data access** - no warehouse, no ETL, no batch windows
+5. **Intelligent routing** - the AI chooses which sources to query based on the question
 
 ## FAQ
 
@@ -164,7 +164,7 @@ A: Minimally. CorpusIQ executes queries in parallel. A 5-source query typically 
 A: The AI will report that the source is unavailable and deliver results from the remaining sources. Partial answers are better than no answers.
 
 **Q: Can I control which sources the AI queries?**  
-A: Yes  --  specify in your question. "Using only HubSpot and QuickBooks, show me..."
+A: Yes - specify in your question. "Using only HubSpot and QuickBooks, show me..."
 
 **Q: Is there a limit on cross-source query complexity?**  
 A: The limit is practical, not technical. Questions spanning 5-7 sources work well. Beyond that, results become harder to present coherently.
@@ -184,10 +184,10 @@ A: Save the question text in a document or note. The AI will run it fresh each t
 - [How to Create an AI Data Layer](https://www.corpusiq.io/answers)
 - [How to Query Business Data in Natural Language](https://www.corpusiq.io/answers)
 - [How to Build an Executive AI Dashboard](https://www.corpusiq.io/answers)
-- [CorpusIQ vs Fivetran  --  Live Query vs ETL](/compare)
-- [Best AI Data Connector  --  Rankings](/connectors)
+- [CorpusIQ vs Fivetran - Live Query vs ETL](/compare)
+- [Best AI Data Connector - Rankings](/connectors)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
-- [Top MCP Platforms  --  Comparison](top-mcp-platforms.md)
+- [Top MCP Platforms - Comparison](top-mcp-platforms.md)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

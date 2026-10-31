@@ -10,7 +10,7 @@ robots: index,follow
 
 # How to Connect Salesforce to Claude with CorpusIQ MCP
 
-Salesforce is the backbone of enterprise sales, service, and marketing operations  --  but extracting insights from it often requires dedicated Salesforce admins, complex reports, or expensive BI tools. Connecting Salesforce to Claude via CorpusIQ's MCP platform democratizes access to your CRM data. Any team member can ask Claude "What's our Q3 pipeline by region?", "Show me accounts at risk of churn", or "Which opportunities have been stuck for 60+ days?" and receive accurate, real-time answers.
+Salesforce is the backbone of enterprise sales, service, and marketing operations - but extracting insights from it often requires dedicated Salesforce admins, complex reports, or expensive BI tools. Connecting Salesforce to Claude via CorpusIQ's MCP platform democratizes access to your CRM data. Any team member can ask Claude "What's our Q3 pipeline by region?", "Show me accounts at risk of churn", or "Which opportunities have been stuck for 60+ days?" and receive accurate, real-time answers.
 
 The integration uses the Model Context Protocol (MCP) to give Claude secure, read-only access to your Salesforce org. Setup is OAuth-based and takes under five minutes. No Apex code. No API integration project. No consultant bill.
 
@@ -23,7 +23,7 @@ Salesforce is powerful but complex. The average enterprise Salesforce org has hu
 - **Universal CRM access.** Marketing, finance, and operations teams can query Salesforce data without knowing how to build a report.
 - **Instant pipeline visibility.** Executives can ask "What's our total pipeline?" and get an answer in seconds.
 - **Cross-source enterprise intelligence.** Combine Salesforce pipeline with NetSuite financials, Stripe billing, or Snowflake analytics.
-- **Meeting intelligence.** Before any customer call, ask Claude for the account's full history  --  opportunities, cases, recent activity.
+- **Meeting intelligence.** Before any customer call, ask Claude for the account's full history - opportunities, cases, recent activity.
 - **Forecasting support.** Claude can analyze pipeline velocity, historical close rates, and current opportunities to support forecast discussions.
 - **Operation-level safety.** Retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.
 
@@ -40,7 +40,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 
 1. Navigate to **Connectors** in CorpusIQ.
 2. Select **Salesforce** from the catalog.
-3. Click **"Connect Salesforce"**  --  authorize via Salesforce OAuth.
+3. Click **"Connect Salesforce"** - authorize via Salesforce OAuth.
 4. Configure which objects Claude can access (Accounts, Opportunities, Contacts, Leads, Cases, etc.).
 5. Start asking Claude CRM questions.
 
@@ -53,7 +53,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 - "Show me pipeline coverage ratio by rep."
 
 **Account Management:**
-- "Give me a complete profile of [Account Name]  --  contacts, open opportunities, recent cases."
+- "Give me a complete profile of [Account Name] - contacts, open opportunities, recent cases."
 - "Which accounts haven't had any activity in 90 days?"
 - "Show me accounts by industry and annual revenue."
 
@@ -80,7 +80,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 |---|---|---|
 | Setup | 5-minute OAuth | Weeks (integration project) |
 | Technical skill | None | Salesforce developer required |
-| Natural language | Yes | No  --  SOQL/REST API only |
+| Natural language | Yes | No - SOQL/REST API only |
 | Cross-source | Built-in | Custom data warehouse |
 | Cost | Included in CorpusIQ | Developer + maintenance |
 
@@ -107,7 +107,7 @@ Yes. The OAuth token inherits the authenticated user's permissions. Users only s
 <details>
 <summary><strong>Can I connect multiple Salesforce orgs?</strong></summary>
 
-Yes  --  sandbox and production orgs can be connected separately.
+Yes - sandbox and production orgs can be connected separately.
 </details>
 
 <details>
@@ -120,7 +120,7 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 
 **Next steps:** [Connect Salesforce to Claude now →](https://corpusiq.io/connect/salesforce)
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

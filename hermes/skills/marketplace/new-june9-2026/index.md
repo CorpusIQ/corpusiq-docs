@@ -1,5 +1,5 @@
 ---
-title: New Marketplace Skills  --  June 9, 2026
+title: New Marketplace Skills - June 9, 2026
 description: 30+ newly discovered skills.sh marketplace skills relevant to Hermes agents. Web scraping, MCP building, testing, Stripe, Shopify, LangGraph extensions, and more.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june9-2026/"
 robots: "index,follow"
@@ -8,13 +8,13 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# 🆕 Marketplace Skills  --  June 9, 2026 Discovery
+# 🆕 Marketplace Skills - June 9, 2026 Discovery
 
-30+ skills from [skills.sh](https://skills.sh) discovered in the June 9 batch sweep  --  all relevant to CorpusIQ Hermes agents. Install with `npx skills add <owner/repo@skill>`.
+30+ skills from [skills.sh](https://skills.sh) discovered in the June 9 batch sweep - all relevant to CorpusIQ Hermes agents. Install with `npx skills add <owner/repo@skill>`.
 
 ---
 
-## Web Scraping & Data Extraction  --  6 skills
+## Web Scraping & Data Extraction - 6 skills
 
 Essential for market research, competitor monitoring, and content extraction. All from [firecrawl/cli](https://skills.sh/firecrawl/cli).
 
@@ -35,9 +35,9 @@ npx skills add firecrawl/cli  # installs all 6
 
 ---
 
-## MCP Server Development  --  4 skills
+## MCP Server Development - 4 skills
 
-Build and deploy MCP servers  --  critical for CorpusIQ connector expansion.
+Build and deploy MCP servers - critical for CorpusIQ connector expansion.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -55,7 +55,7 @@ npx skills add github/awesome-copilot@typescript-mcp-server-generator
 
 ---
 
-## Testing & QA  --  5 skills
+## Testing & QA - 5 skills
 
 Testing patterns for agent-built software. Essential for maintaining CorpusIQ reliability.
 
@@ -75,7 +75,7 @@ npx skills add wshobson/agents  # installs all testing patterns
 
 ---
 
-## Stripe Integration  --  3 skills
+## Stripe Integration - 3 skills
 
 Payment infrastructure for CorpusIQ monetization.
 
@@ -91,7 +91,7 @@ npx skills add stripe/ai  # installs all 3
 
 ---
 
-## Shopify Development  --  6 skills
+## Shopify Development - 6 skills
 
 For CorpusIQ ecommerce operator integrations.
 
@@ -110,7 +110,7 @@ npx skills add shopify/shopify-ai-toolkit  # installs all 6
 
 ---
 
-## LangGraph Extensions  --  3 skills
+## LangGraph Extensions - 3 skills
 
 Advanced LangGraph patterns for multi-agent workflows.
 
@@ -128,7 +128,7 @@ npx skills add langchain-ai/deepagents@langgraph-docs
 
 ---
 
-## Database & Infrastructure  --  4 skills
+## Database & Infrastructure - 4 skills
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -146,7 +146,7 @@ npx skills add wshobson/agents@postgresql-table-design
 
 ---
 
-## Productivity & Business  --  4 skills
+## Productivity & Business - 4 skills
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -164,7 +164,7 @@ npx skills add googleworkspace/cli@recipe-draft-email-from-doc
 
 ---
 
-## Hermes Ecosystem  --  4 skills
+## Hermes Ecosystem - 4 skills
 
 Additional Hermes-specific marketplace skills.
 
@@ -184,7 +184,7 @@ npx skills add aradotso/marketing-skills@hermes-marketing-dashboard
 
 ---
 
-## TTS & Audio  --  3 skills
+## TTS & Audio - 3 skills
 
 Text-to-speech for video and voice agents.
 

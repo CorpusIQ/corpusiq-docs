@@ -57,14 +57,14 @@ days overdue.
 prior month.
 **Connectors used:** QuickBooks.
 **Behind the scenes:** `get_quickbooks_profit_loss`.
-**Sample answer shape:** Standard P&L  --  revenue lines, COGS, gross
+**Sample answer shape:** Standard P&L - revenue lines, COGS, gross
 profit, operating expenses, net income.
 
 ---
 
 ### "How's our AR aging?"
 
-**What this does:** Accounts receivable aging report  --  current, 30, 60,
+**What this does:** Accounts receivable aging report - current, 30, 60,
 90+ buckets.
 **Connectors used:** QuickBooks.
 **Behind the scenes:** `get_quickbooks_ar_aging`.
@@ -74,7 +74,7 @@ profit, operating expenses, net income.
 
 ### "How's our AP aging? Anything urgent to pay?"
 
-**What this does:** Accounts payable aging  --  bills coming due and
+**What this does:** Accounts payable aging - bills coming due and
 overdue.
 **Connectors used:** QuickBooks.
 **Behind the scenes:** `get_quickbooks_ap_aging`.
@@ -95,7 +95,7 @@ oldest invoice age.
 
 ### "Run a full financial health check."
 
-**What this does:** Comprehensive financial review  --  operating report,
+**What this does:** Comprehensive financial review - operating report,
 cash flow stress test, customer concentration risk, late payment patterns,
 expense anomalies, tax/revenue forecasts.
 **Connectors used:** QuickBooks, Shopify, Email, Drive.
@@ -125,7 +125,7 @@ what was actually charged.
 **Sample answer shape:** Monthly revenue figures with trend
 characterization.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

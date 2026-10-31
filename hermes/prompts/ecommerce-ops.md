@@ -16,7 +16,7 @@ For **Shopify**, **eBay**, **Amazon Seller**, and **GunBroker** operators.
 
 ### "How's my store doing?"
 
-**What this does:** Full ecommerce review  --  cash, ad performance,
+**What this does:** Full ecommerce review - cash, ad performance,
 inventory, product profitability, refunds, abandoned carts, LTV, CAC.
 **Connectors used:** Shopify, Google Ads, Meta Ads, TikTok, GA4,
 QuickBooks.
@@ -80,7 +80,7 @@ breakdown.
 
 ### "How's my eBay seller account doing?"
 
-**What this does:** Full eBay seller pulse  --  standards profile,
+**What this does:** Full eBay seller pulse - standards profile,
 GMV, listing traffic, customer service metrics, funds.
 **Connectors used:** eBay.
 **Behind the scenes:** `ebay-marketplace-pulse` skill.
@@ -126,10 +126,10 @@ plus revenue total.
 **Connectors used:** Amazon Seller.
 **Behind the scenes:** `get_amazon_seller_orders`.
 **Sample answer shape:** Recent order list and revenue total. Note:
-Amazon's API exposes a smaller surface than Shopify or eBay  --  this is a
+Amazon's API exposes a smaller surface than Shopify or eBay - this is a
 high-level view, not a deep dive.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

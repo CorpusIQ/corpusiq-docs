@@ -15,9 +15,9 @@ CorpusIQ is designed with data privacy as a foundational principle. This page do
 
 | Standard | Status |
 |----------|--------|
-| **CASA Tier 2** | Certified by DEKRA  --  OWASP Top 10 Verified |
-| **SOC 2** | Aligned  --  formal certification is not claimed; controls are reviewed quarterly |
-| **GDPR** | Aligned  --  data minimization, user consent, deletion rights |
+| **CASA Tier 2** | Certified by DEKRA - OWASP Top 10 Verified |
+| **SOC 2** | Aligned - formal certification is not claimed; controls are reviewed quarterly |
+| **GDPR** | Aligned - data minimization, user consent, deletion rights |
 | **Encryption** | AES-256 at rest, TLS 1.3 in transit |
 | **Access Model** | Read-only external-source retrieval; explicit CorpusIQ control-plane writes are separately annotated |
 
@@ -63,7 +63,7 @@ Private subnets, deny-by-default, WAF and rate limits on all public endpoints.
 External-source connectors use the documented retrieval scopes and do not write back to vendor systems. Explicit CorpusIQ control-plane tools that mutate user-declared CorpusIQ state are separately annotated. Vendor scopes remain visible on the OAuth authorization screen during connection setup.
 
 ### Authentication
-API tokens have 60-minute expiry with server-side refresh detection. Tokens are never embedded in client-side code  --  server-side usage only. Disconnect commits an inactive state before credential cleanup; cleanup failures are surfaced for retry.
+API tokens have 60-minute expiry with server-side refresh detection. Tokens are never embedded in client-side code - server-side usage only. Disconnect commits an inactive state before credential cleanup; cleanup failures are surfaced for retry.
 
 ### Webhook Security
 CorpusIQ does not currently publish a customer-facing webhook event contract. Event schemas, authentication, and delivery guarantees will be documented only after their production routes are verified.
@@ -143,15 +143,15 @@ A: Report to media@corpusiq.io. CorpusIQ follows coordinated disclosure and aims
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/quickstart)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/quickstart)** - Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)** - Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)** - All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)** - Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/blog)** - API updates and version history  
+- **[Secure AI Data Connectivity](/security)** - Encryption and network security  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

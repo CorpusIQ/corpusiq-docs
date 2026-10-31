@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Hermes Agent Memory Architecture  --  The Triple Stack for Persistent AI Memory
+# Hermes Agent Memory Architecture - The Triple Stack for Persistent AI Memory
 
 ## Why Three Systems?
 
@@ -19,11 +19,11 @@ robots: "index,follow"
 | "Where is that file?" | Agent can't find code/docs it created | Organizational knowledge indexing | **GBrain** |
 | "What happened last session?" | Agent repeats work, misses context | Cross-session context injection | **memcore-cloud** |
 
-These aren't competitors  --  they solve different problems. Run all three.
+These aren't competitors - they solve different problems. Run all three.
 
 ---
 
-## Layer 1: Honcho  --  Peer Memory
+## Layer 1: Honcho - Peer Memory
 
 **What it solves:** Persistent identity. Who the user is, what platforms are banned, what decisions were made, what rules apply.
 
@@ -66,10 +66,10 @@ Peer: corpusiq-agent
 **Key Honcho tools in Hermes:**
 
 ```
-mcp__honcho__get_peer_context     --  Load everything about a peer
-mcp__honcho__chat                 --  Ask questions about peer knowledge
-mcp__honcho__search               --  Semantic search across conversations
-mcp__honcho__schedule_dream       --  Queue memory consolidation
+mcp__honcho__get_peer_context - Load everything about a peer
+mcp__honcho__chat - Ask questions about peer knowledge
+mcp__honcho__search - Semantic search across conversations
+mcp__honcho__schedule_dream - Queue memory consolidation
 ```
 
 **Pattern: Pre-flight gate**
@@ -84,7 +84,7 @@ peer = honcho_get_peer_context(target_peer_id="user")
 
 ---
 
-## Layer 2: GBrain  --  Organizational Knowledge
+## Layer 2: GBrain - Organizational Knowledge
 
 **What it solves:** Where are the files, what code does what, what was built when. Organizational knowledge that persists.
 
@@ -129,7 +129,7 @@ Nightly consolidation:
 
 ---
 
-## Layer 3: memcore-cloud  --  Cross-Session Recall
+## Layer 3: memcore-cloud - Cross-Session Recall
 
 **What it solves:** "What happened last session?" Full conversation recall with raw source tracking.
 
@@ -164,15 +164,15 @@ memcore-cloud ──► injects ──► Hermes turn
 | Without memcore-cloud | With memcore-cloud |
 |----------------------|-------------------|
 | "What did I do yesterday?" → Blank stare | "You generated a video, posted 3 tweets, replied to 2 emails" |
-| Repeats the same research | "Already researched this  --  here's what we found" |
+| Repeats the same research | "Already researched this - here's what we found" |
 | Forgets tool quirks | "HeyGen background URLs are broken, use default" |
 | Requires user to re-explain | Remembers preferences across sessions |
 
 ---
 
-## Layer 4: GraphRAG  --  Relationship Memory
+## Layer 4: GraphRAG - Relationship Memory
 
-**What it solves:** How entities and concepts connect  --  not just what documents say.
+**What it solves:** How entities and concepts connect - not just what documents say.
 
 **When to use:**
 - Complex codebases where files reference each other
@@ -198,7 +198,7 @@ graphrag index --root ./graphrag-data
 
 ---
 
-## Layer 5: Session DB  --  Hermes Built-In
+## Layer 5: Session DB - Hermes Built-In
 
 **What it is:** SQLite database at `~/.hermes/profiles/<profile>/state.db` with FTS5 full-text search. Every conversation, every tool call, every result.
 
@@ -268,9 +268,9 @@ SESSION END (or every 30 min)
 |----------|----------|----------|
 | Single Vector DB | Semantic document search | Peer identity, conversation history, cross-session context |
 | Honcho only | Peer modeling, conversations | Code/document indexing, file relationships |
-| GBrain only | File/code knowledge | "Who is the user?"  --  no peer modeling |
+| GBrain only | File/code knowledge | "Who is the user?" - no peer modeling |
 | memcore-cloud only | Cross-session recall | Organizational knowledge indexing |
-| **All three** | Complete agent memory | Nothing  --  this is the production stack |
+| **All three** | Complete agent memory | Nothing - this is the production stack |
 
 **The cost of NOT running all three:** Your agent forgets who it's talking to, can't find its own files, and repeats the same research every session.
 

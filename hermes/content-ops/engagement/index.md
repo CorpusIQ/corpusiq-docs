@@ -1,6 +1,6 @@
 ---
 title: Community Engagement Automation
-description: Help-first community engagement strategy  --  platform-specific approaches, response patterns, sentiment detection, and measurement
+description: Help-first community engagement strategy - platform-specific approaches, response patterns, sentiment detection, and measurement
 canonical: "https://www.corpusiq.io/docs/hermes/content-ops/engagement/"
 robots: "index,follow"
 last_updated: "2026-10-24"
@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Community Engagement Automation
 
-Community engagement is the difference between broadcasting into a void and building an audience that trusts you. But genuine engagement at scale requires systems that can listen, classify, respond, and escalate  --  without sounding like a bot.
+Community engagement is the difference between broadcasting into a void and building an audience that trusts you. But genuine engagement at scale requires systems that can listen, classify, respond, and escalate - without sounding like a bot.
 
 This guide covers building an automated community engagement system with Hermes: help-first strategy, platform-specific response patterns, sentiment detection, escalation rules, and measurement frameworks.
 
@@ -24,7 +24,7 @@ Ignore ─── Auto-Respond ─── Agent-Assisted ─── Human Required
   Spam         Common Qs       Complex Qs        Crisis/Sensitive
 ```
 
-The help-first strategy means: when in doubt, be helpful. An imperfect helpful response beats a perfect silence. But "being helpful" doesn't mean answering everything  --  it means routing correctly.
+The help-first strategy means: when in doubt, be helpful. An imperfect helpful response beats a perfect silence. But "being helpful" doesn't mean answering everything - it means routing correctly.
 
 ### Decision Framework
 
@@ -89,7 +89,7 @@ def handle_faq(message: dict) -> str:
     )
     
     if not results:
-        # Can't answer confidently  --  escalate
+        # Can't answer confidently - escalate
         return escalate_to_support(message)
     
     # Generate a helpful, human-sounding response
@@ -173,7 +173,7 @@ def handle_complaint(message: dict) -> dict:
 
 ### Conversation Engagement
 
-Not every message needs a solution  --  some just need engagement:
+Not every message needs a solution - some just need engagement:
 
 ```python
 def engage_conversation(message: dict, context: dict) -> str:
@@ -185,7 +185,7 @@ def engage_conversation(message: dict, context: dict) -> str:
             
             Guidelines:
             - Be genuinely interested and engaging
-            - Add value  --  insight, humor, or a useful question
+            - Add value - insight, humor, or a useful question
             - Keep it brief (2-3 sentences typically)
             - Match the tone of the community
             - Never be argumentative or dismissive
@@ -231,7 +231,7 @@ Response time target: 4 business hours
 **Response style:** Concise, timely, authentic.
 **Best practices:**
 - Respond within 1-2 hours (the platform moves fast)
-- Be concise  --  threads are for depth, replies are for engagement
+- Be concise - threads are for depth, replies are for engagement
 - Authenticity matters more than polish
 - Don't engage with obvious trolls
 - Quote-tweet for adding substantial commentary
@@ -251,7 +251,7 @@ Response time target: 2 hours
 **Response style:** Thorough, transparent, helpful.
 **Best practices:**
 - Disclose affiliation transparently
-- Provide genuine value  --  tutorials, explanations, data
+- Provide genuine value - tutorials, explanations, data
 - Never astroturf or use fake accounts
 - Accept criticism gracefully
 - Follow subreddit rules meticulously
@@ -355,7 +355,7 @@ sentiment_alerts:
     action: "Escalate to leadership, pause scheduled posts, investigate"
   topic_emergence:
     threshold: "New topic with >10 mentions and >50% negative"
-    action: "Investigate immediately  --  may indicate a product issue"
+    action: "Investigate immediately - may indicate a product issue"
 ```
 
 ## Measurement Framework

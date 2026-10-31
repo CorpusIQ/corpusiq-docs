@@ -1,5 +1,5 @@
 ---
-title: New Skills Discovery  --  June 9, 2026
+title: New Skills Discovery - June 9, 2026
 description: 25 newly discovered skills.sh marketplace skills relevant to Hermes agents. Communication bots, Hermes variants, agent infrastructure, DevOps, and platform integrations.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june-2026/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# New Skills Discovery  --  June 9, 2026
+# New Skills Discovery - June 9, 2026
 
 Batch scan of [skills.sh](https://skills.sh) discovered **25 new skills** not previously cataloged. All are relevant to Hermes agent operations across 5 new categories.
 
@@ -20,7 +20,7 @@ Additional variants of `nousresearch/hermes-agent` beyond the base `hermes-agent
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
-| `nousresearch/hermes-agent@dogfood` | 3.6K | Dogfood/edge build of Hermes Agent  --  latest features |
+| `nousresearch/hermes-agent@dogfood` | 3.6K | Dogfood/edge build of Hermes Agent - latest features |
 | `nousresearch/hermes-agent@yuanbao` | 443 | Hermes + Yuanbao (Tencent AI) integration |
 | `nousresearch/hermes-agent@popular-web-designs` | 169 | Web design generation patterns via Hermes |
 | `nousresearch/hermes-agent@llm-wiki` | 156 | LLM knowledge base / wiki integration |
@@ -47,7 +47,7 @@ Install: `npx skills add claude-office-skills/skills@<platform>-<action>`
 
 ---
 
-## 3. Agent Infrastructure  --  Orchestration & RAG (6)
+## 3. Agent Infrastructure - Orchestration & RAG (6)
 
 New orchestration patterns and RAG implementations for multi-agent systems.
 
@@ -72,7 +72,7 @@ Production infrastructure skills for deploying and monitoring agent systems.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
-| `neondatabase/agent-skills@neon-postgres` | 40.3K | Serverless Postgres  --  ideal for agent state storage |
+| `neondatabase/agent-skills@neon-postgres` | 40.3K | Serverless Postgres - ideal for agent state storage |
 | `sickn33/antigravity-awesome-skills@docker-expert` | 18.9K | Docker containerization for agent services |
 | `jeffallan/claude-skills@kubernetes-specialist` | 10.2K | K8s deployment patterns for agent clusters |
 | `wshobson/agents@deployment-pipeline-design` | 9.2K | CI/CD pipeline design for agent deployments |
@@ -122,7 +122,7 @@ All skills installable via `npx skills add <owner/repo>@<skill>`. No additional 
 
 *↑ [Skills Home](/hermes/skills)*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) - 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -95,7 +95,7 @@ hermes mnemosyne version   # provider version
 - [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)
 - [Knowledge Architecture](/hermes/knowledge)
 - [Skills Catalog](/hermes/skills/catalog)
-- [Hermes Changelog](/hermes/changelog)  --  Latest agent releases and features
-- [Skills Marketplace](/hermes/skills/marketplace)  --  946+ community skills
+- [Hermes Changelog](/hermes/changelog) - Latest agent releases and features
+- [Skills Marketplace](/hermes/skills/marketplace) - 946+ community skills
 
 *Powered by CorpusIQ*

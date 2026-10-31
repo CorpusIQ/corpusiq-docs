@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Customer Lifecycle Automation Blueprint  --  Onboarding to Win-Back
+# Customer Lifecycle Automation Blueprint - Onboarding to Win-Back
 
 ## Lifecycle Stages
 
@@ -18,7 +18,7 @@ ONBOARDING → ENGAGEMENT → RETENTION → WIN-BACK
   (Days 0-30)  (Days 31-90)  (Day 91+)  (Churned)
 ```
 
-Each stage has its own cron schedule, triggers, and automated actions. The pipeline is designed to move customers smoothly from acquisition to advocacy  --  and to detect and intervene when they drift toward churn.
+Each stage has its own cron schedule, triggers, and automated actions. The pipeline is designed to move customers smoothly from acquisition to advocacy - and to detect and intervene when they drift toward churn.
 
 ## Architecture Overview
 
@@ -50,7 +50,7 @@ Each stage has its own cron schedule, triggers, and automated actions. The pipel
 
 ### Triggers and Detection
 - **New customer detection:** Monitor CRM for new contacts tagged "customer" or deals moved to "closed-won." Run every 4 hours.
-- **Cron:** `0 */4 * * *`  --  checks for new customers to onboard.
+- **Cron:** `0 */4 * * *` - checks for new customers to onboard.
 
 ### Automated Actions
 
@@ -87,7 +87,7 @@ A customer graduates from onboarding when:
 - At least one key workflow is operational
 - At least [N] team members are active (for team products)
 
-**Cron:** `0 8 * * *`  --  daily onboarding health sweep.
+**Cron:** `0 8 * * *` - daily onboarding health sweep.
 
 ## Stage 2: Engagement (Days 31-90)
 
@@ -98,14 +98,14 @@ A customer graduates from onboarding when:
 - Active daily or weekly users
 - Customers showing feature expansion signals
 
-**Cron:** `0 9 * * 1,3,5`  --  engagement pulse check on Monday, Wednesday, Friday.
+**Cron:** `0 9 * * 1,3,5` - engagement pulse check on Monday, Wednesday, Friday.
 
 ### Automated Actions
 
 **Feature Adoption Campaign:**
 1. Weekly: identify the top 3 features used by the customer's industry peers but not by them
 2. Queue a personalized email suggesting each feature with a use case relevant to their business
-3. Track click-through on feature suggestion emails  --  clicks indicate interest worth following up on
+3. Track click-through on feature suggestion emails - clicks indicate interest worth following up on
 
 **Usage Deepening Triggers:**
 | Signal | Action |
@@ -133,7 +133,7 @@ When identified:
 3. Push to CRM as a note on the account
 4. Draft quarterly business review presentation for accounts above threshold
 
-**Cron:** `0 7 1 * *`  --  monthly account health reports.
+**Cron:** `0 7 1 * *` - monthly account health reports.
 
 ## Stage 3: Retention (Day 91+)
 
@@ -153,20 +153,20 @@ risk_score = (login_decline × 20)       # Login frequency dropped > 30%
 ```
 
 Risk categories:
-- **0-30:** Healthy  --  standard engagement workflow
-- **31-50:** At Risk  --  initiate retention playbook
-- **51+:** Critical  --  executive escalation
+- **0-30:** Healthy - standard engagement workflow
+- **31-50:** At Risk - initiate retention playbook
+- **51+:** Critical - executive escalation
 
-**Cron:** `0 7 * * 1-5`  --  daily churn risk sweep.
+**Cron:** `0 7 * * 1-5` - daily churn risk sweep.
 
 ### Retention Playbook
 
 **At Risk (31-50):**
-1. Notify account manager with risk score breakdown  --  which specific signals triggered the alert
+1. Notify account manager with risk score breakdown - which specific signals triggered the alert
 2. Schedule a check-in call within 5 business days
 3. Send curated content addressing the specific area of concern (e.g., if feature usage dropped, send training material for the dropped features)
 4. Offer an extended trial of a premium feature relevant to their use case
-5. Create a 14-day monitoring plan  --  if score doesn't improve, escalate
+5. Create a 14-day monitoring plan - if score doesn't improve, escalate
 
 **Critical (51+):**
 1. Immediate notification to account manager, their manager, and customer success leadership
@@ -191,7 +191,7 @@ For subscription businesses, renewal automation kicks in 90 days before contract
 - If no renewal conversation scheduled, escalate
 - Generate renewal proposal with pricing and terms
 
-**Cron:** `0 8 * * *`  --  renewal pipeline sweep.
+**Cron:** `0 8 * * *` - renewal pipeline sweep.
 
 ## Stage 4: Win-Back (Post-Churn)
 
@@ -219,10 +219,10 @@ For subscription businesses, renewal automation kicks in 90 days before contract
 3. If major new features shipped that address their exit reason, highlight those
 
 **180 Days Post-Churn:**
-1. Final re-engagement attempt: "A lot has changed  --  here's what's new"
+1. Final re-engagement attempt: "A lot has changed - here's what's new"
 2. If no response, move to archival nurture (quarterly newsletter only)
 
-**Cron:** `0 10 * * 1`  --  weekly churned customer sweep.
+**Cron:** `0 10 * * 1` - weekly churned customer sweep.
 
 ## Full Cron Schedule
 
@@ -257,7 +257,7 @@ Lifecycle automation is only as good as the data feeding it. Weekly reconciliati
 - Add **NPS surveys** at key lifecycle transitions (end of onboarding, 6-month mark, renewal)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

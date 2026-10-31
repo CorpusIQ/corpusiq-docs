@@ -52,7 +52,7 @@ Authorization: Bearer <token>
       "chunks": [
         {
           "chunk_id": "chnk_x1y2",
-          "content": "Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com",
+          "content": "Order #12345 - $4,299.00 - Placed 2026-06-14 by customer@example.com",
           "source_url": "https://admin.shopify.com/store/.../orders/12345",
           "relevance_score": 0.98,
           "metadata": {
@@ -238,7 +238,7 @@ response = requests.post(
 A: POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results.
 
 **Q: What does POST /deep_search do?**  
-A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls  --  it searches only your query history for pattern discovery and auditing.
+A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls - it searches only your query history for pattern discovery and auditing.
 
 
 **Q: How do I scope queries to specific connectors?**  
@@ -246,15 +246,15 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/api/overview)**  --  Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/api/endpoints)**  --  Complete request/response schemas and code examples  
-- **[API Rate Limits](/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/api/webhooks)**  --  Current webhook-contract availability
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/api/overview)** - Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)** - Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)** - Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)** - Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)** - Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)** - Encryption, network security, and compliance  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

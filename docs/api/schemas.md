@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ API Schemas  --  Data Models and JSON Reference"
+title: "CorpusIQ API Schemas - Data Models and JSON Reference"
 description: "CorpusIQ API schemas and data models: request and response JSON for query, deep_search, connectors, chunks, metadata, errors, and webhooks."
 category: "API Reference"
 tags: ["corpusiq schemas", "api data models", "json schemas", "api reference", "response format", "request format", "data structures"]
@@ -20,7 +20,7 @@ A `Chunk` represents a single relevant result fragment returned from a connected
 ```json
 {
   "chunk_id": "chnk_x1y2z3",
-  "content": "Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com",
+  "content": "Order #12345 - $4,299.00 - Placed 2026-06-14 by customer@example.com",
   "source_url": "https://admin.shopify.com/store/.../orders/12345",
   "relevance_score": 0.98,
   "metadata": {
@@ -98,15 +98,15 @@ A: Errors use a consistent format: {"error": {"type": "error_category", "message
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/api/overview)**  --  Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/api/endpoints)**  --  Complete request/response schemas and code examples  
-- **[API Rate Limits](/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/api/webhooks)**  --  Current webhook-contract availability
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/security)**  --  Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/api/overview)** - Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)** - Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)** - Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)** - Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)** - Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)** - Encryption, network security, and compliance  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

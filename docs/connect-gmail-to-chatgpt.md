@@ -1,5 +1,5 @@
 ---
-title: "Connect Gmail to ChatGPT via MCP -- Live Data, No Code"
+title: "Connect Gmail to ChatGPT via MCP - Live Data, No Code"
 description: "Connect your Gmail account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect Gmail to ChatGPT", "Gmail ChatGPT integration", "MCP Gmail connector", "Gmail data to ChatGPT", "AI for Gmail", "CorpusIQ MCP"]
@@ -10,9 +10,9 @@ robots: index,follow
 
 # How to Connect Gmail to ChatGPT with CorpusIQ MCP
 
-Your **Gmail** account holds critical business data  --  but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Gmail to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Gmail data directly  --  you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
+Your **Gmail** account holds critical business data - but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Gmail to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Gmail data directly - you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
 
-Once connected, ChatGPT can query your live Gmail inbox  --  search messages, read email content, and retrieve threads using Gmail's powerful search syntax. You ask questions in plain English and get cited answers from your actual email history in real time.
+Once connected, ChatGPT can query your live Gmail inbox - search messages, read email content, and retrieve threads using Gmail's powerful search syntax. You ask questions in plain English and get cited answers from your actual email history in real time.
 
 This page covers the connection architecture, what you can ask, email intelligence use cases, security, and how MCP compares to Gmail's built-in search and Gmail API.
 
@@ -39,11 +39,11 @@ Yes. CorpusIQ requests read-only Gmail scopes: gmail.readonly. ChatGPT can searc
 <details>
 <summary><strong>What Gmail data can ChatGPT access?</strong></summary>
 
-Email messages with sender, recipients, subject, date, body content, and labels. Email threads with full conversation history. Attachment metadata (filenames, types, sizes  --  content reading is available for text-based attachments in supported formats). Gmail labels and categorization. All messages the authenticated user has access to in their Gmail account.
+Email messages with sender, recipients, subject, date, body content, and labels. Email threads with full conversation history. Attachment metadata (filenames, types, sizes - content reading is available for text-based attachments in supported formats). Gmail labels and categorization. All messages the authenticated user has access to in their Gmail account.
 </details>
 
 <details>
-<summary><strong>How does ChatGPT search Gmail  --  do I need to learn Gmail search syntax?</strong></summary>
+<summary><strong>How does ChatGPT search Gmail - do I need to learn Gmail search syntax?</strong></summary>
 
 You don't need to learn Gmail search syntax, but it's available if you want precision. You can ask "Find emails from john@example.com with attachments from this month" in natural language, and ChatGPT constructs the equivalent Gmail search query (`from:john@example.com has:attachment newer_than:30d`). You get the precision of Gmail search syntax without needing to learn it. If you already know Gmail search operators, you can use them directly in your questions.
 </details>
@@ -51,7 +51,7 @@ You don't need to learn Gmail search syntax, but it's available if you want prec
 <details>
 <summary><strong>Can ChatGPT summarize long email threads?</strong></summary>
 
-Yes  --  this is one of the most powerful capabilities. "Summarize the 40-message thread about the API migration decision" reads the entire thread and produces a summary with key points, decision outcomes, and action items. What would take 15 minutes of reading becomes a 5-second ChatGPT answer.
+Yes - this is one of the most powerful capabilities. "Summarize the 40-message thread about the API migration decision" reads the entire thread and produces a summary with key points, decision outcomes, and action items. What would take 15 minutes of reading becomes a 5-second ChatGPT answer.
 </details>
 
 <details>
@@ -63,17 +63,17 @@ Yes. "Extract all dates, amounts, and vendor names from the invoices in my inbox
 <details>
 <summary><strong>Can ChatGPT combine Gmail data with other business tools?</strong></summary>
 
-Absolutely  --  this is where MCP transforms email from an isolated communication tool to a connected business intelligence source. "Show me Gmail conversations with customers who have open HubSpot deals." "Find vendor emails about invoices that match overdue QuickBooks bills." "Search for client feedback emails and cross-reference with their recent Shopify orders." "What internal Gmail discussions reference the Jira issues that are blocking the current sprint?" Email becomes connected to your CRM, financials, ecommerce, and project tools. This cross-source capability is unique to [MCP platforms like CorpusIQ](benefits-of-mcp-for-business.md).
+Absolutely - this is where MCP transforms email from an isolated communication tool to a connected business intelligence source. "Show me Gmail conversations with customers who have open HubSpot deals." "Find vendor emails about invoices that match overdue QuickBooks bills." "Search for client feedback emails and cross-reference with their recent Shopify orders." "What internal Gmail discussions reference the Jira issues that are blocking the current sprint?" Email becomes connected to your CRM, financials, ecommerce, and project tools. This cross-source capability is unique to [MCP platforms like CorpusIQ](benefits-of-mcp-for-business.md).
 </details>
 
 <details>
 <summary><strong>How is this different from Gmail's built-in search?</strong></summary>
 
-Gmail's built-in search is keyword-based and returns message lists. It doesn't read message content and synthesize answers. With ChatGPT connected via MCP, you can ask "What did the client decide about the delivery schedule?" and get an answer extracted from the email body  --  not just a list of matching messages. ChatGPT reads the actual email content, understands context, and answers your question directly.
+Gmail's built-in search is keyword-based and returns message lists. It doesn't read message content and synthesize answers. With ChatGPT connected via MCP, you can ask "What did the client decide about the delivery schedule?" and get an answer extracted from the email body - not just a list of matching messages. ChatGPT reads the actual email content, understands context, and answers your question directly.
 </details>
 
 <details>
-<summary><strong>What about privacy  --  can ChatGPT see all my emails?</strong></summary>
+<summary><strong>What about privacy - can ChatGPT see all my emails?</strong></summary>
 
 ChatGPT reads emails only in response to questions you ask. Google's OAuth consent screen shows the exact read-only permissions, and you can revoke access from Google Account security settings at any time. Direct MCP requests fetch Gmail records live; CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
@@ -86,7 +86,7 @@ ChatGPT reads emails only in response to questions you ask. Google's OAuth conse
 
 3. **Ask email questions.** ChatGPT translates your natural language into Gmail search queries, retrieves matching messages, reads content, and returns cited answers.
 
-4. **Drill down.** "Show me the full thread" or "What did they reply?"  --  follow-ups maintain context across your email history.
+4. **Drill down.** "Show me the full thread" or "What did they reply?" - follow-ups maintain context across your email history.
 
 No Gmail search syntax required. No inbox scrolling. No manual thread reading.
 
@@ -100,7 +100,7 @@ No Gmail search syntax required. No inbox scrolling. No manual thread reading.
 
 **Automated information extraction.** "Extract all meeting times proposed in emails this week." "List every budget number mentioned in emails from the finance team." Information buried in email bodies becomes structured and actionable.
 
-**Meeting and call preparation.** "What email conversations have I had with Acme Corp in the last 30 days?" Arrive at meetings with complete email context  --  no manual inbox searching.
+**Meeting and call preparation.** "What email conversations have I had with Acme Corp in the last 30 days?" Arrive at meetings with complete email context - no manual inbox searching.
 
 ## Use Cases
 
@@ -132,7 +132,7 @@ The Gmail integration's security is enforced by Google's own permission system:
 - **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit between Gmail, CorpusIQ, and ChatGPT is encrypted.
 - **Google Account Controls.** Revoke access at any time from your Google Account → Security → Third-party apps with account access.
-- **Consent Screen Transparency.** Google's OAuth consent screen shows exactly which permissions are granted  --  gmail.readonly only.
+- **Consent Screen Transparency.** Google's OAuth consent screen shows exactly which permissions are granted - gmail.readonly only.
 
 For individuals and organizations concerned about email privacy, Gmail remains the authoritative source. CorpusIQ retrieves permitted email content through direct MCP; scoped operational retention applies and access can be revoked.
 
@@ -143,16 +143,16 @@ For individuals and organizations concerned about email privacy, Gmail remains t
 | **Search method** | Keyword matching with search operators | Natural language with automatic operator translation |
 | **Result format** | Message list with preview snippets | Synthesized answers with source message citations |
 | **Content understanding** | Surface keyword matching | Reads and comprehends email body content |
-| **Thread summarization** | Manual  --  read through thread | Automatic  --  AI reads and summarizes |
-| **Information extraction** | Manual  --  read emails and extract data | Automatic  --  extract dates, amounts, action items |
+| **Thread summarization** | Manual - read through thread | Automatic - AI reads and summarizes |
+| **Information extraction** | Manual - read emails and extract data | Automatic - extract dates, amounts, action items |
 | **Cross-source** | Gmail-only | Connect with CRM, financials, projects, ecommerce |
-| **Learning curve** | Learn Gmail search operators | No learning  --  ask in plain English |
+| **Learning curve** | Learn Gmail search operators | No learning - ask in plain English |
 
-Gmail's built-in search is fast and effective for finding known messages. MCP with ChatGPT excels at answering questions from email content  --  understanding what's in the messages, not just finding them by keyword.
+Gmail's built-in search is fast and effective for finding known messages. MCP with ChatGPT excels at answering questions from email content - understanding what's in the messages, not just finding them by keyword.
 
 ## Setup Guide
 
-1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) - free 30-day trial.
 2. **Connect Gmail.** Dashboard → Connections → Google Workspace → sign into Google → authorize gmail.readonly.
 3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start.md).
 4. **Verify.** Ask "Show me my recent emails from today" to confirm.
@@ -162,17 +162,17 @@ Under 5 minutes from signup to email intelligence in ChatGPT.
 
 ## Related Pages
 
-- [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md)  --  Microsoft email in ChatGPT
-- [Connect Gmail to Claude](connect-gmail-to-claude.md)  --  the same inbox, queried from Claude
-- [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt.md)  --  enterprise CRM in ChatGPT
-- [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md)  --  knowledge base in ChatGPT
-- [ChatGPT Integration Overview](chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Customer Support](mcp-for-customer-support.md)  --  MCP for support teams
-- [CorpusIQ Security Architecture](../security/)  --  how data stays safe
-- [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt.md) - Microsoft email in ChatGPT
+- [Connect Gmail to Claude](connect-gmail-to-claude.md) - the same inbox, queried from Claude
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md) - team communication in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - CRM data in ChatGPT
+- [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt.md) - enterprise CRM in ChatGPT
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - knowledge base in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration.md) - the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - why MCP wins
+- [MCP for Customer Support](mcp-for-customer-support.md) - MCP for support teams
+- [CorpusIQ Security Architecture](../security/) - how data stays safe
+- [MCP vs. API Integrations](mcp-vs-api-integrations.md) - detailed comparison
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 ---

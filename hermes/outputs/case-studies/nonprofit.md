@@ -22,7 +22,7 @@ Hermes Agent automates donor intelligence, grant tracking, volunteer coordinatio
 
 ## Overview
 
-Nonprofits operate with constrained resources, mission-driven metrics, and complex stakeholder relationships. Hermes automation amplifies lean teams by handling repetitive administrative work, improving donor relationships, and demonstrating impact to funders. The nonprofit sector runs on relationships  --  Hermes handles the data so humans can focus on the connection.
+Nonprofits operate with constrained resources, mission-driven metrics, and complex stakeholder relationships. Hermes automation amplifies lean teams by handling repetitive administrative work, improving donor relationships, and demonstrating impact to funders. The nonprofit sector runs on relationships - Hermes handles the data so humans can focus on the connection.
 
 ## How It Works
 
@@ -56,7 +56,7 @@ Grants fund most nonprofit programs but the administrative overhead of tracking 
 - Upcoming deadlines (applications, reports, renewals) in a prioritized calendar view
 - Requirements checklist per grant (financial report, narrative report, metrics, board sign-off)
 - Historical win/loss data to inform pursuit decisions
-- Grant writer workload balance  --  who is writing what, and what's the pipeline capacity?
+- Grant writer workload balance - who is writing what, and what's the pipeline capacity?
 
 **Grant report assembly.** When a grant report is due, a skill gathers the required components:
 
@@ -65,7 +65,7 @@ Grants fund most nonprofit programs but the administrative overhead of tracking 
 3. Narrative highlights from program reports and success stories
 4. Compliance checklist verification
 
-The skill assembles a draft report matching the funder's template. Program staff review, add qualitative context, and submit  --  saving hours of data gathering per report.
+The skill assembles a draft report matching the funder's template. Program staff review, add qualitative context, and submit - saving hours of data gathering per report.
 
 ### Volunteer Coordination
 
@@ -75,7 +75,7 @@ Volunteer management involves matching skills to opportunities, tracking hours, 
 
 **Hour tracking and recognition.** A cron aggregates volunteer hours monthly by program. When volunteers hit milestones (50 hours, 100 hours, one-year anniversary), the skill generates recognition messages and alerts the volunteer coordinator.
 
-**No-show follow-up.** When a volunteer misses a scheduled shift, the skill sends a gentle check-in (not automated  --  queued for coordinator review) asking if everything is okay and offering to reschedule. The tone is support, not scolding.
+**No-show follow-up.** When a volunteer misses a scheduled shift, the skill sends a gentle check-in (not automated - queued for coordinator review) asking if everything is okay and offering to reschedule. The tone is support, not scolding.
 
 ### Impact Reporting
 
@@ -89,18 +89,18 @@ Demonstrating impact is how nonprofits attract funding and maintain trust. Herme
 - Cost per outcome (calculated: total program spend / outcomes achieved)
 - Comparison to previous quarter and same quarter last year
 
-**Annual report assembly.** A skill that gathers the year's data  --  financials, program metrics, donor recognition lists, board member listings, success stories  --  and produces a draft annual report structured for the organization's template. The communications team adds polish and design, but the data gathering is automated.
+**Annual report assembly.** A skill that gathers the year's data - financials, program metrics, donor recognition lists, board member listings, success stories - and produces a draft annual report structured for the organization's template. The communications team adds polish and design, but the data gathering is automated.
 
 **Grant proposal data.** When a grant application asks "how many people did you serve last year?" the answer lives in spreadsheets, program databases, and volunteer logs. A skill aggregates this across sources so grant writers aren't hunting through files.
 
 ## Benefits
 
-- **Stronger donor relationships**  --  comprehensive profiles delivered before every major donor meeting
-- **Higher donor retention**  --  timely, personalized gift acknowledgments and lapsed donor reactivation
-- **Less grant administration**  --  automated deadline tracking, report assembly, and compliance verification
-- **Better volunteer engagement**  --  skills-based matching and milestone recognition
-- **Compelling impact stories**  --  automated dashboards and annual report data gathering
-- **More time for mission**  --  program staff reclaim 20-30% of time spent on administrative tracking
+- **Stronger donor relationships** - comprehensive profiles delivered before every major donor meeting
+- **Higher donor retention** - timely, personalized gift acknowledgments and lapsed donor reactivation
+- **Less grant administration** - automated deadline tracking, report assembly, and compliance verification
+- **Better volunteer engagement** - skills-based matching and milestone recognition
+- **Compelling impact stories** - automated dashboards and annual report data gathering
+- **More time for mission** - program staff reclaim 20-30% of time spent on administrative tracking
 
 ## Common Nonprofit Patterns
 
@@ -150,13 +150,13 @@ Hermes pulls data from program databases, survey tools, and financial systems to
 
 ## Related Pages
 
-- [Hermes Agent for Education](../case-studies/education.md)  --  Student progress tracking and administrative workflows
-- [Hermes Agent for Government](../case-studies/government.md)  --  Public sector compliance and constituent services
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and reporting
-- [Hermes Agent for Startups](../by-company-size/startup.md)  --  Lean automation for small teams
-- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
+- [Hermes Agent for Education](../case-studies/education.md) - Student progress tracking and administrative workflows
+- [Hermes Agent for Government](../case-studies/government.md) - Public sector compliance and constituent services
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) - Pipeline management and reporting
+- [Hermes Agent for Startups](../by-company-size/startup.md) - Lean automation for small teams
+- [Hermes Agent Overview](../../index.md) - Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) - real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

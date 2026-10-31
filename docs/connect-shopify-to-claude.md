@@ -1,5 +1,5 @@
 ---
-title: "Connect Shopify to Claude via MCP -- Live Data, No Code"
+title: "Connect Shopify to Claude via MCP - Live Data, No Code"
 description: "Connect your Shopify account to Claude through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: Claude Integrations
 tags: ["connect Shopify to Claude", "Shopify Claude integration", "MCP Shopify connector", "Shopify data to Claude", "AI for Shopify", "CorpusIQ MCP"]
@@ -10,20 +10,20 @@ robots: index,follow
 
 # How to Connect Shopify to Claude with CorpusIQ MCP
 
-Connecting Shopify to Claude transforms how e-commerce teams interact with their store data. Instead of logging into the Shopify admin, running reports, exporting CSVs, and manually cross-referencing numbers, teams can ask Claude direct questions  --  "What were our top-selling products last month?", "Show me orders that haven't shipped yet", "Compare revenue this quarter to last quarter"  --  and receive accurate, real-time answers backed by live Shopify data.
+Connecting Shopify to Claude transforms how e-commerce teams interact with their store data. Instead of logging into the Shopify admin, running reports, exporting CSVs, and manually cross-referencing numbers, teams can ask Claude direct questions - "What were our top-selling products last month?", "Show me orders that haven't shipped yet", "Compare revenue this quarter to last quarter" - and receive accurate, real-time answers backed by live Shopify data.
 
 CorpusIQ makes this connection possible through the Model Context Protocol (MCP), an open standard that gives AI models like Claude secure, read-only access to your business tools. The integration takes under five minutes to set up and requires zero engineering work.
 
 ### Why Connect Shopify to Claude?
 
-Shopify stores generate enormous volumes of data  --  orders, customers, products, inventory levels, revenue, discounts, refunds, and more. Most of that data sits unused because accessing it requires navigating dashboards, building reports, or writing SQL. Claude changes that by giving every team member a natural language interface to their Shopify data.
+Shopify stores generate enormous volumes of data - orders, customers, products, inventory levels, revenue, discounts, refunds, and more. Most of that data sits unused because accessing it requires navigating dashboards, building reports, or writing SQL. Claude changes that by giving every team member a natural language interface to their Shopify data.
 
 **Key benefits of connecting Shopify to Claude via CorpusIQ:**
 
 - **Instant answers to business questions.** Ask Claude "What was our average order value last week?" instead of building a report.
 - **Cross-source correlation.** Combine Shopify revenue data with Google Analytics traffic, Facebook Ads spend, or Klaviyo email metrics in a single Claude conversation.
 - **Zero training required.** Anyone who can type a question can query Shopify data through Claude. No SQL, no report builder, no analytics training.
-- **Always up to date.** CorpusIQ queries Shopify's live API  --  Claude always returns current data, not stale exports or cached reports.
+- **Always up to date.** CorpusIQ queries Shopify's live API - Claude always returns current data, not stale exports or cached reports.
 - **Enterprise security.** OAuth 2.0 authentication with read-only scope. Claude can query your Shopify data but can never modify orders, customers, or products.
 
 ### How the Integration Works
@@ -31,7 +31,7 @@ Shopify stores generate enormous volumes of data  --  orders, customers, product
 CorpusIQ acts as the secure bridge between Claude and Shopify. Here's the architecture:
 
 1. **You connect Shopify once** via OAuth. CorpusIQ stores an encrypted token with read-only permissions to your store's orders, products, customers, and analytics endpoints.
-2. **Claude sends a query** when you ask a Shopify-related question  --  for example, "How many orders did we get yesterday?"
+2. **Claude sends a query** when you ask a Shopify-related question - for example, "How many orders did we get yesterday?"
 3. **CorpusIQ translates** your natural language question into the appropriate Shopify API calls, executes them with your stored credentials, and returns only the relevant data.
 4. **Claude synthesizes** the response from the returned data, presenting it in natural language with context and recommendations.
 
@@ -43,7 +43,7 @@ Setting up the Shopify-to-Claude connection through CorpusIQ takes less than fiv
 
 1. **Log into CorpusIQ** and navigate to the Connectors page.
 2. **Select Shopify** from the list of available integrations.
-3. **Click "Connect Shopify"**  --  you'll be redirected to Shopify's OAuth consent screen.
+3. **Click "Connect Shopify"** - you'll be redirected to Shopify's OAuth consent screen.
 4. **Authorize the connection.** CorpusIQ requests read-only access to Orders, Products, Customers, and Analytics. Review the scopes and approve.
 5. **Return to CorpusIQ.** The connection is immediately active. You can now ask Claude Shopify-related questions.
 
@@ -81,7 +81,7 @@ Once connected, Claude can answer an enormous range of Shopify questions. Here a
 Shopify provider scopes vary by documented operation. The retrieval tools described here are marked read-only:
 
 - **Claude can read** your orders, products, customers, and analytics.
-- **Claude can never write**  --  it cannot create, update, or delete anything in your Shopify store.
+- **Claude can never write** - it cannot create, update, or delete anything in your Shopify store.
 - **You can revoke access** at any time from Shopify's admin panel or from CorpusIQ's connector management page.
 - **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Token encryption** ensures your Shopify credentials are protected at rest.
@@ -91,10 +91,10 @@ Shopify provider scopes vary by documented operation. The retrieval tools descri
 | Aspect | CorpusIQ MCP | Direct Shopify API |
 |---|---|---|
 | Setup time | Under 5 minutes | Hours to days (API key, scopes, code) |
-| Technical skill required | None  --  point and click | Developer required |
-| Natural language interface | Yes  --  ask Claude in plain English | No  --  requires API calls or code |
+| Technical skill required | None - point and click | Developer required |
+| Natural language interface | Yes - ask Claude in plain English | No - requires API calls or code |
 | Cross-source correlation | Built-in (combine Shopify + GA4 + Ads + email) | Must build custom ETL pipeline |
-| Maintenance | Zero  --  CorpusIQ handles API versioning | Ongoing  --  API changes, deprecations |
+| Maintenance | Zero - CorpusIQ handles API versioning | Ongoing - API changes, deprecations |
 | Security model | Read-only OAuth, encrypted at rest | Depends on your implementation |
 
 ### Cross-Source Power: Shopify + Other Tools
@@ -116,7 +116,7 @@ No. The OAuth flow is point-and-click. Anyone with Shopify admin access can conn
 </details>
 
 <details>
-<summary><strong>Can Claude modify my Shopify store  --  create products, update orders, or change prices?</strong></summary>
+<summary><strong>Can Claude modify my Shopify store - create products, update orders, or change prices?</strong></summary>
 
 The advertised Shopify retrieval tools are read-only and do not change the store. Write-capable tools, when available, are separately named and annotated.
 </details>
@@ -161,7 +161,7 @@ You can connect multiple stores through CorpusIQ and specify which store Claude 
 
 **Next steps:** [Connect Shopify to Claude now →](https://corpusiq.io/connect/shopify) or [learn more about CorpusIQ's MCP platform](what-is-an-mcp-server.md).
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

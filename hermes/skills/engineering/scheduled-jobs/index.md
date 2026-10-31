@@ -1,6 +1,6 @@
 ---
 title: "scheduled-jobs - CorpusIQ Docs"
-description: Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the one-gateway host model, profile timezone semantics, no-agent script rules, and the discipline that keeps cron from rotting silently.
+description: Operate, debug, and verify recurring agent work - daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the one-gateway host model, profile timezone semantics, no-agent script rules, and the discipline that keeps cron from rotting silently.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/scheduled-jobs/"
 robots: "index,follow"
 last_updated: "2026-10-30"
@@ -10,9 +10,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Scheduled Jobs (Hermes Cron)
 
-Operate and debug a Hermes agent's recurring work  --  the daily audit email, support-inbox monitor, agent-to-agent watchdogs, vendor sync jobs, end-of-day digests. All of it runs on Hermes cron and the rules here apply to every job in that family.
+Operate and debug a Hermes agent's recurring work - the daily audit email, support-inbox monitor, agent-to-agent watchdogs, vendor sync jobs, end-of-day digests. All of it runs on Hermes cron and the rules here apply to every job in that family.
 
-## Canonical tooling  --  use it, don't hand-edit jobs.json
+## Canonical tooling - use it, don't hand-edit jobs.json
 
 Profile-local cron management belongs to two scripts:
 
@@ -57,7 +57,7 @@ Verify afterwards with `hermes gateway list`: one entry running, the rest shown 
 
 ## The "no_agent" cron pattern
 
-Some jobs don't need an LLM at all  --  they're just scripts that produce a notification when they detect something. Examples:
+Some jobs don't need an LLM at all - they're just scripts that produce a notification when they detect something. Examples:
 
 - Watchdog: memory > 90%, send Telegram alert
 - API poller: fetch a status endpoint, alert if degraded
@@ -74,7 +74,7 @@ hermes cron create "every 5m" \
 ```
 
 - Stdout from the script becomes the message body
-- **Empty stdout = silent** (the watchdog pattern  --  only notify when there's something to notify about)
+- **Empty stdout = silent** (the watchdog pattern - only notify when there's something to notify about)
 - Non-zero exit code or a timeout triggers an error alert (so a broken watchdog can't fail silently)
 - `{"wakeAgent": false}` on the last line is the same silent-tick gate LLM jobs use
 
@@ -86,7 +86,7 @@ When to use no-agent mode:
 - CI notifications, API pollers with a fixed output shape
 
 When to use the default (LLM-driven):
-- Anything that needs reasoning  --  summarize a feed, draft a daily briefing, pick interesting items, rephrase data for a human
+- Anything that needs reasoning - summarize a feed, draft a daily briefing, pick interesting items, rephrase data for a human
 - Conditional logic based on content
 
 ## In-prompt curl is a trap (use a script instead)
@@ -108,13 +108,13 @@ printf "Y\nY\n" | sudo hermes gateway install --system
 
 ## Status discipline
 
-Every job should write its last result to a status file (`scripts/<job>_status.json` or similar) AND log to your standard log path. The cron daemon tracks `last_status` per job, but that's a coarse "ok / error"  --  the status file is where the operator looks when they need to diagnose "why did this job report ok but the email never arrived?"
+Every job should write its last result to a status file (`scripts/<job>_status.json` or similar) AND log to your standard log path. The cron daemon tracks `last_status` per job, but that's a coarse "ok / error" - the status file is where the operator looks when they need to diagnose "why did this job report ok but the email never arrived?"
 
 Pattern: structure the status file as `{"timestamp": ..., "summary": ..., "details": {...}}`. The watchdog skill (above) reads these files and surfaces anomalies before they compound.
 
 ## Drift detection
 
-A recurring problem with crontabs: jobs that USED to work but silently degraded  --  the API they call moved endpoints, the script's dependencies got upgraded, the auth token expired. The watchdog catches the loudest failures, but the subtle ones (job runs, exits 0, produces wrong output) need active drift detection.
+A recurring problem with crontabs: jobs that USED to work but silently degraded - the API they call moved endpoints, the script's dependencies got upgraded, the auth token expired. The watchdog catches the loudest failures, but the subtle ones (job runs, exits 0, produces wrong output) need active drift detection.
 
 For any job whose output has a known shape, write a tiny assertion at the end of the script:
 
@@ -129,10 +129,10 @@ A failing assertion exits non-zero, the cron watchdog surfaces it, you get a rea
 
 ## Related
 
-- [api-development](../api-development/)  --  when your cron job hits a Cloud Run API, the deploy-verification patterns apply
-- [honcho-memory-usage](../honcho-memory-usage/)  --  for cron jobs that need cross-session memory
+- [api-development](../api-development/) - when your cron job hits a Cloud Run API, the deploy-verification patterns apply
+- [honcho-memory-usage](../honcho-memory-usage/) - for cron jobs that need cross-session memory
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) - 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Email Operations
 
-CorpusIQ agents manage multiple email accounts autonomously  --  monitoring, responding, and sending with strict quality gates.
+CorpusIQ agents manage multiple email accounts autonomously - monitoring, responding, and sending with strict quality gates.
 
 ## Dual Account Architecture
 
@@ -50,7 +50,7 @@ Before ANY outbound email, verify:
 1. ✅ Correct from address (team@ for business, personal@ for personal)
 2. ✅ Correct signature and phone number policy
 3. ✅ HTML formatting validates
-4. ✅ No emdashes ( -- )  --  use hyphens only
+4. ✅ No emdashes ( - ) - use hyphens only
 5. ✅ No AI buzzwords or detectable patterns
 6. ✅ Links are live and correct
 7. ✅ Recipient domain verified (not a competitor)

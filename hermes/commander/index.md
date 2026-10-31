@@ -37,7 +37,7 @@ Commander runs as the master controller. Every task enters through Commander fir
 - No internal analytics data in posts
 - No AI buzzwords
 - Content formula enforcement
-- No "Operator" wording in posts  --  use "business owner" or "professional"
+- No "Operator" wording in posts - use "business owner" or "professional"
 - No posting to personal LinkedIn
 - URL verification required
 - Check [INTERNAL] folder before INBOX

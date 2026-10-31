@@ -1,5 +1,5 @@
 ---
-title: "Paseo -- Cross-Session Agent Orchestration"
+title: "Paseo - Cross-Session Agent Orchestration"
 description: "Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile, web, and CLI."
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/paseo/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["agent orchestration", "multi-agent", "paseo", "coding agents"]
 
 ---
 
-# Paseo -- Cross-Session Agent Orchestration
+# Paseo - Cross-Session Agent Orchestration
 
 Paseo (getpaseo/paseo) is a self-hosted orchestration layer for coding agents. It runs a local daemon that manages multiple agents in parallel, and exposes one interface across desktop, mobile, web, and CLI. It fills the gap between single-session agent loops and full platform orchestration: you spin agents up, watch them work, attach to live output, and send follow-up tasks without opening a terminal per agent.
 

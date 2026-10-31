@@ -172,15 +172,15 @@ A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list
 
 ## Internal Links
 
-- **[ChatGPT Integration with CorpusIQ](/connectors)**  --  Connect ChatGPT to your business data  
-- **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  MCP direct connection for AI agents  
-- **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)**  --  Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/features)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/quickstart)**  --  Get running in under 5 minutes  
-- **[CorpusIQ Connectors Directory](/connectors)**  --  All 40+ data source integrations  
-- **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)**  --  SSO, SAML, and a SOC 2 aligned posture
+- **[ChatGPT Integration with CorpusIQ](/connectors)** - Connect ChatGPT to your business data  
+- **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)** - MCP direct connection for AI agents  
+- **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)** - Natural language queries at demo.corpusiq.io  
+- **[Supported AI Agents](/features)** - MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[CorpusIQ Quick Start](/quickstart)** - Get running in under 5 minutes  
+- **[CorpusIQ Connectors Directory](/connectors)** - All 40+ data source integrations  
+- **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)** - SSO, SAML, and a SOC 2 aligned posture
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

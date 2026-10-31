@@ -93,7 +93,7 @@ ready to answer follow-up questions about it.
 
 ### "How busy is my calendar this week?"
 
-**What this does:** Calendar density  --  meeting hours, focus blocks,
+**What this does:** Calendar density - meeting hours, focus blocks,
 overcommitted days.
 **Connectors used:** Calendar.
 **Behind the scenes:** `list_my_calendar_events` over the week.
@@ -119,7 +119,7 @@ activity.
 **Sample answer shape:** Matching messages with channel, user, and
 timestamp.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

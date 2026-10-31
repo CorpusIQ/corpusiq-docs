@@ -35,7 +35,7 @@
 - [AI for Sales Reporting: Pipeline Intelligence in Real Time](https://www.corpusiq.io/docs/ai-for-sales-reporting): Transform sales reporting with AI. Query Salesforce, HubSpot, Close CRM in natural language. Instant pipeline analysis, rep performance, and forecasti
 
 ## Comparison Pages
-- [CorpusIQ vs Zapier  --  MCP Real-Time AI-Native vs Workflow Automation](https://www.corpusiq.io/docs/corpusiq-vs-zapier): CorpusIQ MCP platform vs Zapier workflow automation: real-time AI-native data access vs trigger-action pipelines. Fair comparison with strengths of ea
+- [CorpusIQ vs Zapier - MCP Real-Time AI-Native vs Workflow Automation](https://www.corpusiq.io/docs/corpusiq-vs-zapier): CorpusIQ MCP platform vs Zapier workflow automation: real-time AI-native data access vs trigger-action pipelines. Fair comparison with strengths of ea
 - [CorpusIQ vs Airbyte: Instant AI vs Data Pipeline](https://www.corpusiq.io/docs/corpusiq-vs-airbyte): Compare CorpusIQ vs Airbyte. Direct AI queries vs ETL pipelines. Real-time answers vs batch processing. Read-only OAuth vs data warehouse.
 - [CorpusIQ vs Viktor AI: Who Actually Controls the Data?](https://www.corpusiq.io/docs/corpusiq-vs-viktor): CorpusIQ owns the full intelligence layer: validation, normalization, entity resolution, and anti-drift. Viktor outsources its connector layer instead
 
@@ -128,7 +128,7 @@
 ## Hermes Hub
 - [🫡 Hermes Community Hub](https://www.corpusiq.io/docs/hermes): The largest structured Hermes Agent knowledge base: tools, skills, MCP servers, agents, blueprints, and case studies. Updated daily.
 - [Hermes Ecosystem Directory](https://www.corpusiq.io/docs/hermes/ecosystem): Comprehensive directory of the Hermes Agent ecosystem - 449+ repos, tools, skills, and integrations
-- [Skills Marketplace](https://www.corpusiq.io/docs/hermes/skills/marketplace): Discover and install community skills from skills.sh  --  1,288+ curated skills across 22 categories. Browse by category, check trending skills, submi
-- [Hermes Agent Library  --  9 Production-Ready AI Agent Blueprints](https://www.corpusiq.io/docs/hermes/agents): Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive.
+- [Skills Marketplace](https://www.corpusiq.io/docs/hermes/skills/marketplace): Discover and install community skills from skills.sh - 1,288+ curated skills across 22 categories. Browse by category, check trending skills, submit y
+- [Hermes Agent Library - 9 Production-Ready AI Agent Blueprints](https://www.corpusiq.io/docs/hermes/agents): Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive.
 - [Templates](https://www.corpusiq.io/docs/hermes/templates): Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.
 

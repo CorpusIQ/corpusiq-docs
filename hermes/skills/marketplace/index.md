@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh  --  1,288+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh - 1,288+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-10-31"
@@ -10,7 +10,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 # Skills Marketplace
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh) - install with a single command and use immediately.
 
 **1,288+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
@@ -167,7 +167,7 @@ Install count is the best signal of a skill's usefulness. Here are the top marke
 | `seo-audit` | 132K | Full SEO audit |
 | `copywriting` | 122K | Marketing copy generation |
 
-New skills take time to accumulate installs. Don't dismiss a 500-install skill  --  it might be the best tool for a specific problem. Check the skill's README and `SKILL.md` for quality signals: clear trigger conditions, specific tools required, concrete outputs.
+New skills take time to accumulate installs. Don't dismiss a 500-install skill - it might be the best tool for a specific problem. Check the skill's README and `SKILL.md` for quality signals: clear trigger conditions, specific tools required, concrete outputs.
 
 ### Search by Use Case
 
@@ -248,13 +248,13 @@ npx skills publish ./my-skill-repo
 
 Once published on skills.sh, your skill can be added to the Hermes community hub marketplace. The curation criteria:
 
-- **Production readiness**  --  Has the skill been tested with real agent invocations? (Not required, but strongly preferred)
-- **Clear value proposition**  --  Is it obvious what problem the skill solves?
-- **Complete trigger conditions**  --  Does the skill activate under well-defined circumstances?
-- **Verification steps**  --  Does the skill include checks that confirm success?
-- **No duplication**  --  Is this distinct from existing marketplace skills?
+- **Production readiness** - Has the skill been tested with real agent invocations? (Not required, but strongly preferred)
+- **Clear value proposition** - Is it obvious what problem the skill solves?
+- **Complete trigger conditions** - Does the skill activate under well-defined circumstances?
+- **Verification steps** - Does the skill include checks that confirm success?
+- **No duplication** - Is this distinct from existing marketplace skills?
 
-Submit via the [Hermes community GitHub repository](https://github.com/nousresearch/hermes-agent)  --  create an issue with the `skill-submission` label, linking to your skills.sh page.
+Submit via the [Hermes community GitHub repository](https://github.com/nousresearch/hermes-agent) - create an issue with the `skill-submission` label, linking to your skills.sh page.
 
 ### 3. What Happens Next
 
@@ -301,17 +301,17 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 June 27, 2026 - Skills Gallery (1,672+ skills), A2A Bridge, Flight Recorder + 6 more (9 repos)](/hermes/skills/marketplace/new-june27-2026)
 - [🆕 June 26, 2026 (Afternoon) - Agenthood 14-Agent Team + Letta AI Full 24-Skill Harness (2 repos, 38 skills)](/hermes/skills/marketplace/new-june26-2026-afternoon)
 - [🆕 June 26, 2026 - Matt Pocock Toolkit, OpenClaw Ecosystem, Impeccable, CLI-Anything Harnesses (9 repos, 43 skills)](/hermes/skills/marketplace/new-june26-2026)
-- [🆕 June 22, 2026 (Late Sweep)  --  Blueprint Orchestration (1 repo, 12 skills)](/hermes/skills/marketplace/new-june22-2026-late)
-- [🆕 June 20-22, 2026  --  Hermes Bible, Steroids Image Gen, Ershov Memory Engine (6 repos, 15 skills)](/hermes/skills/marketplace/new-june20-22-2026)
+- [🆕 June 22, 2026 (Late Sweep) - Blueprint Orchestration (1 repo, 12 skills)](/hermes/skills/marketplace/new-june22-2026-late)
+- [🆕 June 20-22, 2026 - Hermes Bible, Steroids Image Gen, Ershov Memory Engine (6 repos, 15 skills)](/hermes/skills/marketplace/new-june20-22-2026)
 - [🆕 June 25, 2026 (Update) - CLI-Anything, Hermes Web UI, X/Twitter Scraper (3 repos, 3 skills)](/hermes/skills/marketplace/new-june25-2026-update)
 - [🆕 June 25, 2026 - GBrain Operations Expansion (1 repo, 33 skills)](/hermes/skills/marketplace/new-june25-2026)
 - [🆕 June 24, 2026 (Evening) - Hermes Agency, ContextForge RAG, Advanced Memory (4 setup guides)](/hermes/skills/marketplace/new-june24-2026-evening)
 - [🆕 June 24, 2026 - Ashima, SG Arrival Card, Perfectloop, Three-Agent Bridge (4 setup guides, 22 repos discovered)](/hermes/skills/marketplace/new-june24-2026)
-- [🆕 June 23, 2026  --  Engineering Curation, Ghostwriter, Cron Workflow, StepFun (8 repos, 3 setup guides)](/hermes/skills/marketplace/new-june24-2026)
-- [🆕 June 19-20, 2026  --  Ponytail, SkillSpector, AgentMint (12 skills)](/hermes/skills/marketplace/new-june19-20-2026)
-- [🆕 June 19, 2026 (Batch 2)  --  Infrastructure, Platform, Tools (15 repos, 20+ skills)](/hermes/skills/marketplace/new-june19-2026-batch2)
-- [🆕 June 19, 2026 (Update)  --  ECC-Hermes 36-Pack, SkillSpector Vetting, AgentMint (6 repos, 60+ skills)](/hermes/skills/marketplace/new-june19-2026-update)
-- [🆕 June 19, 2026  --  AgentMesh Async Bus + Windows Native (4 skills)](/hermes/skills/marketplace/new-june19-2026)
+- [🆕 June 23, 2026 - Engineering Curation, Ghostwriter, Cron Workflow, StepFun (8 repos, 3 setup guides)](/hermes/skills/marketplace/new-june24-2026)
+- [🆕 June 19-20, 2026 - Ponytail, SkillSpector, AgentMint (12 skills)](/hermes/skills/marketplace/new-june19-20-2026)
+- [🆕 June 19, 2026 (Batch 2) - Infrastructure, Platform, Tools (15 repos, 20+ skills)](/hermes/skills/marketplace/new-june19-2026-batch2)
+- [🆕 June 19, 2026 (Update) - ECC-Hermes 36-Pack, SkillSpector Vetting, AgentMint (6 repos, 60+ skills)](/hermes/skills/marketplace/new-june19-2026-update)
+- [🆕 June 19, 2026 - AgentMesh Async Bus + Windows Native (4 skills)](/hermes/skills/marketplace/new-june19-2026)
 - [🆕 June 28, 2026 (Update) - Skills.sh Late Sweep (3 repos)](/hermes/skills/marketplace/new-june28-2026-update)
 - [🆕 June 28, 2026 - Skills Ecosystem Expansion (12 repos, 30+ skills)](/hermes/skills/marketplace/new-june28-2026)
 - [🆕 June 27, 2026 - Hermes Ecosystem Discovery (10 repos, 28+ skills)](/hermes/skills/marketplace/new-june27-2026)
@@ -325,21 +325,21 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 June 22, 2026 (Late) - Late Evening Sweep (3 repos, 8+ skills)](/hermes/skills/marketplace/new-june22-2026-late)
 - [🆕 June 20-22, 2026 - Weekend Discovery (8 repos, 18+ skills)](/hermes/skills/marketplace/new-june20-22-2026)
 
-- [🆕 June 18, 2026 (Final Sweep)  --  OpenClaw Extensions (8 skills)](/hermes/skills/marketplace/new-june18-2026-final-sweep)
-- [🆕 June 18, 2026 (Update 2)  --  HyperFrames Video Ecosystem (6 skills)](/hermes/skills/marketplace/new-june18-2026-update2)
-- [🆕 June 18, 2026 (Batch 2)  --  Full Catalog Sweep (107 skills)](/hermes/skills/marketplace/new-june18-2026-batch2)
-- [🆕 June 18, 2026 (Ecosystem)  --  Honcho + GBrain Skills (12 skills)](/hermes/skills/marketplace/new-june18-2026-ecosystem)
-- [🆕 June 18, 2026 (Batch 1)  --  nousresearch/hermes-agent (32 skills)](/hermes/skills/marketplace/new-june18-2026)
-- [🆕 June 17, 2026  --  nousresearch/hermes-agent (6 skills)](/hermes/skills/marketplace/new-june17-2026)
-- [🆕 June 16, 2026  --  ClawPilot ecosystem (5 skills)](/hermes/skills/marketplace/new-june16-2026)
-- [June 15, 2026  --  Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026)
-- [June 12, 2026 Update  --  OpenClaw Security Suite (13 skills)](/hermes/skills/marketplace/new-june12-2026-update)
-- [June 12, 2026  --  Hermes Security Attestation (3 skills)](/hermes/skills/marketplace/new-june12-2026)
-- [June 11, 2026 Update 2  --  OpenClaw Ecosystem (23 skills)](/hermes/skills/marketplace/new-june11-2026-update2)
-- [June 11, 2026 Update  --  Agent Architecture (19 skills)](/hermes/skills/marketplace/new-june11-2026-update)
-- [June 11, 2026  --  Hermes Ecosystem (38 skills)](/hermes/skills/marketplace/new-june11-2026)
-- [June 10, 2026  --  Web Scraping, MCP, Testing, Stripe (42 skills)](/hermes/skills/marketplace/new-june10-2026)
-- [June 9, 2026  --  Initial Marketplace Discovery (42 skills)](/hermes/skills/marketplace/new-june9-2026)
+- [🆕 June 18, 2026 (Final Sweep) - OpenClaw Extensions (8 skills)](/hermes/skills/marketplace/new-june18-2026-final-sweep)
+- [🆕 June 18, 2026 (Update 2) - HyperFrames Video Ecosystem (6 skills)](/hermes/skills/marketplace/new-june18-2026-update2)
+- [🆕 June 18, 2026 (Batch 2) - Full Catalog Sweep (107 skills)](/hermes/skills/marketplace/new-june18-2026-batch2)
+- [🆕 June 18, 2026 (Ecosystem) - Honcho + GBrain Skills (12 skills)](/hermes/skills/marketplace/new-june18-2026-ecosystem)
+- [🆕 June 18, 2026 (Batch 1) - nousresearch/hermes-agent (32 skills)](/hermes/skills/marketplace/new-june18-2026)
+- [🆕 June 17, 2026 - nousresearch/hermes-agent (6 skills)](/hermes/skills/marketplace/new-june17-2026)
+- [🆕 June 16, 2026 - ClawPilot ecosystem (5 skills)](/hermes/skills/marketplace/new-june16-2026)
+- [June 15, 2026 - Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026)
+- [June 12, 2026 Update - OpenClaw Security Suite (13 skills)](/hermes/skills/marketplace/new-june12-2026-update)
+- [June 12, 2026 - Hermes Security Attestation (3 skills)](/hermes/skills/marketplace/new-june12-2026)
+- [June 11, 2026 Update 2 - OpenClaw Ecosystem (23 skills)](/hermes/skills/marketplace/new-june11-2026-update2)
+- [June 11, 2026 Update - Agent Architecture (19 skills)](/hermes/skills/marketplace/new-june11-2026-update)
+- [June 11, 2026 - Hermes Ecosystem (38 skills)](/hermes/skills/marketplace/new-june11-2026)
+- [June 10, 2026 - Web Scraping, MCP, Testing, Stripe (42 skills)](/hermes/skills/marketplace/new-june10-2026)
+- [June 9, 2026 - Initial Marketplace Discovery (42 skills)](/hermes/skills/marketplace/new-june9-2026)
 
 ---
 
@@ -377,7 +377,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [New June11 2026](/hermes/skills/marketplace/new-june11-2026)
 - [New June11 2026 Update](/hermes/skills/marketplace/new-june11-2026-update)
 - [New Skills - July 28, 2026](new-july28-2026/) - 8 new skills from Anthropic Knowledge Work Plugins (23.5K+ installs)
-- [June 11, 2026  --  Update #2 (28 New Skills)](/hermes/skills/marketplace/new-june11-2026-update2)
+- [June 11, 2026 - Update #2 (28 New Skills)](/hermes/skills/marketplace/new-june11-2026-update2)
 - [New June12 2026](/hermes/skills/marketplace/new-june12-2026)
 - [New June12 2026 Update](/hermes/skills/marketplace/new-june12-2026-update)
 - [New June15 2026](/hermes/skills/marketplace/new-june15-2026)
@@ -393,7 +393,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [New June19 2026 Batch2](/hermes/skills/marketplace/new-june19-2026-batch2)
 - [New June19 2026 Update](/hermes/skills/marketplace/new-june19-2026-update)
 - [New June20 22 2026](/hermes/skills/marketplace/new-june20-22-2026)
-- [New Hermes Skill Repo  --  aawobdev/hermes-skills (Blueprint Orchestration)](/hermes/skills/marketplace/new-june22-2026-late)
+- [New Hermes Skill Repo - aawobdev/hermes-skills (Blueprint Orchestration)](/hermes/skills/marketplace/new-june22-2026-late)
 - [New June23 2026](/hermes/skills/marketplace/new-june23-2026)
 - [New June24 2026](/hermes/skills/marketplace/new-june24-2026)
 - [New June24 2026 Evening](/hermes/skills/marketplace/new-june24-2026-evening)

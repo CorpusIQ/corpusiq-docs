@@ -16,13 +16,13 @@ last_updated: "2026-10-24"
 
 ## The Problem
 
-Company knowledge is fragmented. Policies live in Google Drive. Customer history lives in HubSpot. Financial decisions live in email threads. Product specs live in Notion. Tribal knowledge lives in Slack channels. When someone needs to know "What's our enterprise pricing model and which customers are on which plan?" they need to check 5+ different systems  --  or ask 5 different people.
+Company knowledge is fragmented. Policies live in Google Drive. Customer history lives in HubSpot. Financial decisions live in email threads. Product specs live in Notion. Tribal knowledge lives in Slack channels. When someone needs to know "What's our enterprise pricing model and which customers are on which plan?" they need to check 5+ different systems - or ask 5 different people.
 
-Traditional solutions  --  wikis, intranets, knowledge bases  --  try to solve this by creating yet another place where information lives. But they require manual updates, constant curation, and still become stale within weeks.
+Traditional solutions - wikis, intranets, knowledge bases - try to solve this by creating yet another place where information lives. But they require manual updates, constant curation, and still become stale within weeks.
 
 ## The Solution: AI-Powered Knowledge Centralization
 
-CorpusIQ takes a fundamentally different approach. Instead of asking you to move your knowledge into a new system, it connects to ALL your existing systems and makes them AI-queryable. No migration. No manual updates. No stale information. Just connect your tools and ask questions  --  the AI finds answers across every connected source.
+CorpusIQ takes a fundamentally different approach. Instead of asking you to move your knowledge into a new system, it connects to ALL your existing systems and makes them AI-queryable. No migration. No manual updates. No stale information. Just connect your tools and ask questions - the AI finds answers across every connected source.
 
 ## What You'll Need
 
@@ -51,11 +51,11 @@ Map where each type of knowledge currently lives:
 
 Connect your highest-priority sources first:
 
-1. **Document storage:** Google Drive, OneDrive, or Dropbox  --  policies, SOPs, specs
-2. **Wiki/Notes:** Notion  --  team documentation, project specs
-3. **CRM:** HubSpot  --  customer records, deal history, account context
-4. **Communication:** Slack, Gmail  --  decisions, discussions, tribal knowledge
-5. **Project Management:** Monday.com  --  project status, tasks, owners
+1. **Document storage:** Google Drive, OneDrive, or Dropbox - policies, SOPs, specs
+2. **Wiki/Notes:** Notion - team documentation, project specs
+3. **CRM:** HubSpot - customer records, deal history, account context
+4. **Communication:** Slack, Gmail - decisions, discussions, tribal knowledge
+5. **Project Management:** Monday.com - project status, tasks, owners
 
 Each connection: CorpusIQ Dashboard → Add Connector → OAuth → Done (60 seconds).
 
@@ -89,7 +89,7 @@ Define the types of questions each team should be able to answer:
 An AI-powered knowledge system is only as good as its source data. Establish practices:
 
 1. **Single source of truth:** For each knowledge type, designate one authoritative source
-2. **Update, don't duplicate:** When a policy changes, update the source document  --  don't create a new one
+2. **Update, don't duplicate:** When a policy changes, update the source document - don't create a new one
 3. **Archive, don't delete:** Old policies should be archived, not deleted, so historical questions can still be answered
 4. **Consistent naming:** Use clear, searchable names for documents and folders
 
@@ -110,7 +110,7 @@ Track the impact of centralized knowledge:
 ```
 ENTERPRISE PRICING OVERVIEW
 
-Current Pricing (from Pricing Sheet, Google Drive  --  updated June 1, 2026):
+Current Pricing (from Pricing Sheet, Google Drive - updated June 1, 2026):
 • Starter: $5,000/month (up to 50 users)
 • Growth: $12,000/month (up to 200 users)
 • Enterprise: Custom pricing (200+ users, dedicated support, SLA)
@@ -125,9 +125,9 @@ Enterprise Plan Includes (from Enterprise Overview, Notion):
 • 24/7 priority support
 
 Current Enterprise Customers (from HubSpot):
-• Acme Corp  --  $45,000/month (since March 2024)
-• BetaMax Inc  --  $32,000/month (since January 2025)
-• GammaTech  --  $28,000/month (since September 2025)
+• Acme Corp - $45,000/month (since March 2024)
+• BetaMax Inc - $32,000/month (since January 2025)
+• GammaTech - $28,000/month (since September 2025)
 • [8 more enterprise customers]
 
 Recent Pricing Discussions (from Slack #sales):
@@ -144,20 +144,20 @@ Related Documents:
 
 CorpusIQ centralizes knowledge by:
 
-1. **Connecting all knowledge sources**  --  documents, CRM, communications, project tools
-2. **Eliminating data migration**  --  no copying content into a new system
-3. **Querying live data**  --  always current, never stale
-4. **Cross-referencing sources**  --  one query searches across all connected tools
-5. **Providing AI-powered search**  --  natural language, not keyword matching
-6. **Respecting permissions**  --  users only see what they're authorized to access
+1. **Connecting all knowledge sources** - documents, CRM, communications, project tools
+2. **Eliminating data migration** - no copying content into a new system
+3. **Querying live data** - always current, never stale
+4. **Cross-referencing sources** - one query searches across all connected tools
+5. **Providing AI-powered search** - natural language, not keyword matching
+6. **Respecting permissions** - users only see what they're authorized to access
 
 ## FAQ
 
 **Q: How is this different from a company wiki?**  
-A: A wiki requires manual content creation and maintenance. CorpusIQ queries your existing tools  --  no migration, no extra work to keep things updated.
+A: A wiki requires manual content creation and maintenance. CorpusIQ queries your existing tools - no migration, no extra work to keep things updated.
 
 **Q: Do I need to move all my documents to one place?**  
-A: No. That's the key advantage. Connect your existing tools  --  Google Drive, Notion, HubSpot, Slack  --  and the AI queries them all.
+A: No. That's the key advantage. Connect your existing tools - Google Drive, Notion, HubSpot, Slack - and the AI queries them all.
 
 **Q: What if information conflicts across sources?**  
 A: The AI will present information from multiple sources and note discrepancies. Establish a single source of truth for critical information.
@@ -172,7 +172,7 @@ A: The AI can search Slack conversations and email threads where tribal knowledg
 A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can this replace our intranet?**  
-A: For question-answering  --  yes. For browseable, curated content  --  you may still want a lightweight intranet. They serve different consumption modes.
+A: For question-answering - yes. For browseable, curated content - you may still want a lightweight intranet. They serve different consumption modes.
 
 **Q: How long until this is useful?**  
 A: Connect your first 3-5 sources (30 minutes). Start asking questions immediately. Value increases with each additional source connected.
@@ -183,10 +183,10 @@ A: Connect your first 3-5 sources (30 minutes). Start asking questions immediate
 - [How to Search Company Data with AI](https://www.corpusiq.io/answers)
 - [How to Use AI with Business Data](https://www.corpusiq.io/answers)
 - [How to Create an AI Data Layer](https://www.corpusiq.io/answers)
-- [Best AI Knowledge Platform  --  Rankings](/compare)
+- [Best AI Knowledge Platform - Rankings](/compare)
 - [Best Business AI Search Tool](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
-- [Top Business AI Tools  --  Rankings](/compare)
+- [Top Business AI Tools - Rankings](/compare)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -1,6 +1,6 @@
 ---
-title: "June 15, 2026 -- Nous Research Hermes Agent Expansion"
-description: Daily sweep found 23 unlisted nousresearch/hermes-agent skills with 131-158 installs each. Creative tools, macOS automation, dev workflows  --  all from the official repo.
+title: "June 15, 2026 - Nous Research Hermes Agent Expansion"
+description: Daily sweep found 23 unlisted nousresearch/hermes-agent skills with 131-158 installs each. Creative tools, macOS automation, dev workflows - all from the official repo.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june15-2026/"
 robots: "index,follow"
 last_updated: "2026-10-24"
@@ -8,9 +8,9 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
 
-# June 15, 2026  --  Nous Research Hermes Agent Expansion
+# June 15, 2026 - Nous Research Hermes Agent Expansion
 
-Daily sweep surfaced **23 unlisted skills** from the official `nousresearch/hermes-agent` repository  --  all with **131-158 installs** each. These skills were present in the June 13 massive expansion (72 skills catalogued) but were missed during that sweep. This fills the gap.
+Daily sweep surfaced **23 unlisted skills** from the official `nousresearch/hermes-agent` repository - all with **131-158 installs** each. These skills were present in the June 13 massive expansion (72 skills catalogued) but were missed during that sweep. This fills the gap.
 
 The skills span 7 categories: Creative & Media (11), Development & Testing (4), macOS Automation (3), Data & ML (2), Productivity (2), and Smart Home (1).
 
@@ -18,7 +18,7 @@ The skills span 7 categories: Creative & Media (11), Development & Testing (4), 
 
 ---
 
-## Creative & Media  --  11 skills
+## Creative & Media - 11 skills
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
@@ -30,9 +30,9 @@ The skills span 7 categories: Creative & Media (11), Development & Testing (4), 
 | `ascii-video` | 149 | ASCII video: convert video/audio to colored ASCII MP4/GIF |
 | `songwriting-and-ai-music` | 148 | Songwriting craft and Suno AI music prompts |
 | `p5js` | 146 | p5.js sketches: gen art, shaders, interactive, 3D |
-| `touchdesigner-mcp` | 140 | Control TouchDesigner via twozero MCP  --  operators, real-time visuals |
-| `comfyui` | 137 | Generate images/video/audio with ComfyUI  --  install, launch, workflows |
-| `pretext` | 136 | Creative browser demos with @chenglou/pretext  --  DOM-free text layout |
+| `touchdesigner-mcp` | 140 | Control TouchDesigner via twozero MCP - operators, real-time visuals |
+| `comfyui` | 137 | Generate images/video/audio with ComfyUI - install, launch, workflows |
+| `pretext` | 136 | Creative browser demos with @chenglou/pretext - DOM-free text layout |
 
 **Install all creative skills:**
 ```bash
@@ -51,7 +51,7 @@ npx skills add nousresearch/hermes-agent@pretext -y
 
 ---
 
-## Development & Testing  --  4 skills
+## Development & Testing - 4 skills
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
@@ -70,7 +70,7 @@ npx skills add nousresearch/hermes-agent@nano-pdf -y
 
 ---
 
-## Data & ML  --  2 skills
+## Data & ML - 2 skills
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
@@ -85,7 +85,7 @@ npx skills add nousresearch/hermes-agent@huggingface-hub -y
 
 ---
 
-## macOS Automation  --  3 skills
+## macOS Automation - 3 skills
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
@@ -102,7 +102,7 @@ npx skills add nousresearch/hermes-agent@findmy -y
 
 ---
 
-## Productivity  --  2 skills
+## Productivity - 2 skills
 
 | Skill | Installs | Description |
 |-------|----------|-------------|
@@ -117,7 +117,7 @@ npx skills add nousresearch/hermes-agent@gif-search -y
 
 ---
 
-## Smart Home  --  1 skill
+## Smart Home - 1 skill
 
 | Skill | Installs | Description |
 |-------|----------|-------------|

@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Hermes Agent Prompt Library  --  Curated AI Prompt Templates
+# Hermes Agent Prompt Library - Curated AI Prompt Templates
 
 ---
 
@@ -72,7 +72,7 @@ Not all prompts work equally well with all models. Here's a general guide:
 
 ### Data Analysis
 **Best with:** Claude Sonnet 5.5 (long context for schemas), GPT-6 Astra
-**Why:** SQL generation accuracy, ability to reason about complex schemas, and thorough edge-case handling. Provide actual schema definitions  --  don't summarize them.
+**Why:** SQL generation accuracy, ability to reason about complex schemas, and thorough edge-case handling. Provide actual schema definitions - don't summarize them.
 
 ### Business Operations
 **Best with:** Claude Sonnet 5.5, GPT-5.5, Gemini 3.8 Flash
@@ -84,7 +84,7 @@ Not all prompts work equally well with all models. Here's a general guide:
 
 ### Creative Work
 **Best with:** Claude Opus 5.5, GPT-6 Astra, Gemini 4
-**Why:** Creative tasks benefit from models that take interesting "risks" in their outputs. Temperature settings matter  --  try 0.8-1.0 for brainstorming, 0.5-0.7 for refined creative output.
+**Why:** Creative tasks benefit from models that take interesting "risks" in their outputs. Temperature settings matter - try 0.8-1.0 for brainstorming, 0.5-0.7 for refined creative output.
 
 Model IDs follow the Hermes model catalog (`https://hermes-agent.nousresearch.com/docs/api/model-catalog.json`). The picker in `hermes model` lists exactly what your configured providers and credentials can reach.
 
@@ -99,7 +99,7 @@ Start with a broad prompt, evaluate the output, then follow up with targeted ref
 3. "Shorten everything by 20% and add subheadings." → tightens and structures
 
 ### Parallel Generation
-For creative tasks, run the same prompt 3-5 times (or ask for 3-5 variants in one prompt) and select the best. Models are non-deterministic  --  different runs produce different ideas.
+For creative tasks, run the same prompt 3-5 times (or ask for 3-5 variants in one prompt) and select the best. Models are non-deterministic - different runs produce different ideas.
 
 ### Role-Based Chaining
 Use different system prompts for different stages:
@@ -125,9 +125,9 @@ Use different system prompts for different stages:
 
 ## Contributing
 
-These prompts are starting points. As you discover effective variations, adapt them to your workflow. The best prompt is the one that consistently produces useful output for your specific context  --  invest in refining it over time.
+These prompts are starting points. As you discover effective variations, adapt them to your workflow. The best prompt is the one that consistently produces useful output for your specific context - invest in refining it over time.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

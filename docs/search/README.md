@@ -64,24 +64,24 @@ Cross-source queries correlate data from multiple sources:
 ## Frequently Asked Questions
 
 **Q: How does CorpusIQ search work?**  
-A: You ask a question in plain English, CorpusIQ identifies which data sources can answer it, executes queries against relevant sources, normalizes and combines results, and presents the answer with source attribution  --  all in real time.
+A: You ask a question in plain English, CorpusIQ identifies which data sources can answer it, executes queries against relevant sources, normalizes and combines results, and presents the answer with source attribution - all in real time.
 
 **Q: What are cross-source queries?**  
-A: Cross-source queries let you correlate data from multiple sources in one question. Example: 'Compare Meta Ads campaign ROAS to actual Stripe revenue' or 'Which HubSpot leads became Shopify customers?'  --  one question, multiple sources, one answer.
+A: Cross-source queries let you correlate data from multiple sources in one question. Example: 'Compare Meta Ads campaign ROAS to actual Stripe revenue' or 'Which HubSpot leads became Shopify customers?' - one question, multiple sources, one answer.
 
 **Q: What types of searches does CorpusIQ support?**  
-A: Single-source queries, cross-source correlation, trend analysis, date-range filtering, aggregation and summarization, and exception detection. All using natural language  --  no SQL required.
+A: Single-source queries, cross-source correlation, trend analysis, date-range filtering, aggregation and summarization, and exception detection. All using natural language - no SQL required.
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/governance)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/architecture)** - MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/security)** - Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/search)** - Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting)** - Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding)** - AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/governance)** - Source of truth and audit controls  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

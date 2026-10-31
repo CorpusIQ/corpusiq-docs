@@ -1708,7 +1708,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [praveenkay/Hermes_Portal](https://github.com/praveenkay/Hermes_Portal) ⭐ 1
 
->Hermes Agent Web UI -- cross-platform dashboard: sessions, agents, desktop, projects.
+>Hermes Agent Web UI - cross-platform dashboard: sessions, agents, desktop, projects.
 
 **Language:** Python
 

@@ -12,7 +12,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 Production agent systems fail in predictable ways. This guide catalogs the most common failure modes across the Hermes stack and provides clear resolution paths.
 
-Each section includes symptoms, diagnosis steps, and fixes  --  organized from most likely to least likely cause.
+Each section includes symptoms, diagnosis steps, and fixes - organized from most likely to least likely cause.
 
 ## MCP Connection Issues
 
@@ -139,7 +139,7 @@ hermes auth refresh <provider>
 # Re-authenticate one OAuth MCP server (or every server with --all)
 hermes mcp reauth corpusiq
 
-# This runs the re-auth flow  --  complete it in the browser
+# This runs the re-auth flow - complete it in the browser
 # After re-auth, verify
 hermes mcp test corpusiq
 ```
@@ -322,7 +322,7 @@ browser_config = {
 4. **Rotating user agents:** Change user agent periodically to avoid fingerprinting
 5. **Residential proxies:** For high-value targets, route through residential IPs
 
-**When CAPTCHA appears:** The task fails and is retried. If CAPTCHA persists across 3 retries, the task is escalated for human review. The browser automation cannot solve CAPTCHAs by design  --  attempting to would violate most platforms' terms of service.
+**When CAPTCHA appears:** The task fails and is retried. If CAPTCHA persists across 3 retries, the task is escalated for human review. The browser automation cannot solve CAPTCHAs by design - attempting to would violate most platforms' terms of service.
 
 ### Symptom: "Target closed" mid-operation
 
@@ -568,7 +568,7 @@ hermes cron run <job_id>
 2. **Isolate the failure:** Test each component independently
 3. **Check for recent changes:** `hermes config check` and a `git diff` of the file at `hermes config path` show what changed
 4. **Roll back:** If a config change caused the issue, restore a known-good config (backups come from `hermes backup`, restored with `hermes import`)
-5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully  --  individual features may fail while the core continues operating.
+5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully - individual features may fail while the core continues operating.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

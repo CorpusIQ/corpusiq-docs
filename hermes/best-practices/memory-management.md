@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Memory Management Best Practices  --  Persistent AI Agent Context
+# Memory Management Best Practices - Persistent AI Agent Context
 
 Memory is what separates a stateless tool from a persistent AI assistant in Hermes Agent. But memory also consumes context, increases latency, and introduces staleness risks. These memory management best practices cover when and how to use each memory tier for optimal agent performance.
 
@@ -76,7 +76,7 @@ When context windows fill up:
 ## FAQ
 
 ### What's the difference between Honcho and GBrain memory?
-Honcho stores peer identity  --  who the user is, preferences, decisions, bans. GBrain indexes organizational knowledge  --  where files are, what code does what, project relationships. They solve different problems and should both be used in production.
+Honcho stores peer identity - who the user is, preferences, decisions, bans. GBrain indexes organizational knowledge - where files are, what code does what, project relationships. They solve different problems and should both be used in production.
 
 ### How do I prevent my Hermes Agent memory from getting stale?
 Prune memories periodically (monthly review), add expiration to project-specific memories, audit for contradictions, and use the dream cycle (nightly consolidation) to merge duplicates and strengthen frequently accessed paths.
@@ -86,10 +86,10 @@ You can, but you'll have gaps. Hermes allows one external memory provider at a t
 
 ## Related Pages
 
-- [Memory Architecture Guide](/hermes/knowledge)  --  Full triple-stack documentation
-- [Best Practices Overview](/hermes/best-practices)  --  All guides
-- [Security](security.md)  --  Don't store credentials in memory
-- [Skill Development](skill-development.md)  --  Procedural knowledge vs memory
+- [Memory Architecture Guide](/hermes/knowledge) - Full triple-stack documentation
+- [Best Practices Overview](/hermes/best-practices) - All guides
+- [Security](security.md) - Don't store credentials in memory
+- [Skill Development](skill-development.md) - Procedural knowledge vs memory
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -24,9 +24,9 @@ tags: ["hermes agent", "ai agent", "documentation"]
 
 # HubSpot Sales Analytics with AI: Turn Pipeline Data into Revenue Intelligence
 
-Your HubSpot CRM contains the complete story of your sales organization  --  every deal pursued, every customer interaction, every win and every loss. But extracting strategic intelligence from that data has traditionally required dedicated sales operations analysts, complex reporting, and hours of spreadsheet analysis. **CorpusIQ's AI-powered sales analytics for HubSpot democratizes sales intelligence.**
+Your HubSpot CRM contains the complete story of your sales organization - every deal pursued, every customer interaction, every win and every loss. But extracting strategic intelligence from that data has traditionally required dedicated sales operations analysts, complex reporting, and hours of spreadsheet analysis. **CorpusIQ's AI-powered sales analytics for HubSpot democratizes sales intelligence.**
 
-This guide walks you through how to use ChatGPT and Claude to perform comprehensive sales analytics on your HubSpot data. From basic pipeline health checks to advanced forecasting, rep performance analysis, and territory optimization  --  you'll learn the techniques, prompts, and frameworks that turn CRM data into revenue intelligence.
+This guide walks you through how to use ChatGPT and Claude to perform comprehensive sales analytics on your HubSpot data. From basic pipeline health checks to advanced forecasting, rep performance analysis, and territory optimization - you'll learn the techniques, prompts, and frameworks that turn CRM data into revenue intelligence.
 
 ## Setting Up AI Sales Analytics
 
@@ -44,7 +44,7 @@ Start simple: "How many open deals do we have?" or "What's our pipeline value fo
 
 ### 1. Pipeline Analysis
 
-Pipeline analysis is the foundation of sales intelligence  --  but most teams only scratch the surface.
+Pipeline analysis is the foundation of sales intelligence - but most teams only scratch the surface.
 
 **Pipeline Health Assessment:**
 ```
@@ -161,25 +161,25 @@ HubSpot's analytics are pre-built reports and dashboards. AI sales analytics all
 Yes. AI can build forecasts using multiple methods (weighted pipeline, historical conversion, rep-level adjustments, seasonal factors) and compare them. More importantly, it can analyze historical forecast accuracy to identify biases and improve future forecasts.
 
 ### Do I need a sales operations background to use this?
-No. If you can describe what you want to know in English, you can use AI sales analytics. The AI handles the technical execution  --  data retrieval, calculations, statistical analysis, and formatting. Sales leaders without ops backgrounds can directly access sophisticated analytics.
+No. If you can describe what you want to know in English, you can use AI sales analytics. The AI handles the technical execution - data retrieval, calculations, statistical analysis, and formatting. Sales leaders without ops backgrounds can directly access sophisticated analytics.
 
 ### Can I analyze sales data alongside marketing data?
 Yes, through CorpusIQ's multi-source capabilities. Connect HubSpot with Google Ads, Meta Ads, Klaviyo, and GA4 to analyze the complete marketing-to-sales funnel. "What's our cost per SQL by channel?" or "Which campaigns generate the highest win-rate pipeline?"
 
 ### How do I ensure the AI isn't making up numbers?
-Every analytical response includes source attribution  --  the AI states which HubSpot data it queried. All figures can be independently verified in your HubSpot portal. Computed metrics (conversion rates, velocity, forecasts) are clearly labeled as calculations with methodology explained.
+Every analytical response includes source attribution - the AI states which HubSpot data it queried. All figures can be independently verified in your HubSpot portal. Computed metrics (conversion rates, velocity, forecasts) are clearly labeled as calculations with methodology explained.
 
 ### What's the most valuable analysis most sales teams aren't doing?
-Deal velocity by stage and rep. Most teams know total pipeline and win rate, but few track how fast deals move through each stage  --  and velocity is often the highest-leverage metric. Slow stage progression is an early warning signal that surfaces deals at risk weeks before they'd otherwise be flagged.
+Deal velocity by stage and rep. Most teams know total pipeline and win rate, but few track how fast deals move through each stage - and velocity is often the highest-leverage metric. Slow stage progression is an early warning signal that surfaces deals at risk weeks before they'd otherwise be flagged.
 
 ### Can AI help with territory design?
-Yes. Claude's extended context window is particularly valuable here. Load all account and deal data, and Claude can analyze: territory balance (pipeline per rep), geographic concentration, account distribution, and growth potential  --  then recommend territory adjustments.
+Yes. Claude's extended context window is particularly valuable here. Load all account and deal data, and Claude can analyze: territory balance (pipeline per rep), geographic concentration, account distribution, and growth potential - then recommend territory adjustments.
 
 ### How often should I run these analyses?
 Daily: pipeline pulse and deal risk checks. Weekly: rep activity and pipeline generation. Monthly: full rep performance scorecards and forecast updates. Quarterly: comprehensive win-loss, territory, and strategic analyses.
 
 ### Can I benchmark my metrics against industry standards?
-The AI has broad knowledge of B2B SaaS sales benchmarks  --  win rates, pipeline coverage ratios, sales cycle lengths, quota attainment distributions. It can compare your metrics to industry ranges and flag significant deviations.
+The AI has broad knowledge of B2B SaaS sales benchmarks - win rates, pipeline coverage ratios, sales cycle lengths, quota attainment distributions. It can compare your metrics to industry ranges and flag significant deviations.
 
 ### Is this suitable for enterprise sales organizations?
 Yes. CorpusIQ is designed for sales organizations of all sizes. Enterprise features include: multi-pipeline analytics, role-based access controls, team-level and individual rep analytics, scheduled report delivery, and integration with your full tech stack for cross-source intelligence.
@@ -188,9 +188,9 @@ Yes. CorpusIQ is designed for sales organizations of all sizes. Enterprise featu
 
 Ready to unlock AI-powered insights from your CRM data?
 
-1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-sales-analytics-with-ai)  --  free plan available.
-2. **Connect your HubSpot CRM**  --  OAuth 2.0 authentication takes under 60 seconds.
-3. **Start asking sales analytics questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
+1. **Sign up** for a [CorpusIQ account](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-sales-analytics-with-ai) - free plan available.
+2. **Connect your HubSpot CRM** - OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking sales analytics questions** - use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Use the prompt templates** in this guide to analyze your pipeline, reps, deals, and forecasts instantly.
 
 **[Start your AI-powered sales analytics now →](https://www.corpusiq.io/register?utm_source=docs&utm_medium=referral&utm_campaign=docs-hubspot-sales-analytics-with-ai)**
@@ -206,11 +206,11 @@ Ready to unlock AI-powered insights from your CRM data?
 
 ## From CRM Data to Revenue Intelligence
 
-Your HubSpot CRM is rich with insights waiting to be surfaced. AI-powered sales analytics makes those insights accessible to everyone on your team  --  no sales ops background, no report-building expertise, no spreadsheet wizardry required.
+Your HubSpot CRM is rich with insights waiting to be surfaced. AI-powered sales analytics makes those insights accessible to everyone on your team - no sales ops background, no report-building expertise, no spreadsheet wizardry required.
 
 **[Start your AI-powered sales analytics journey](/quickstart). Connect HubSpot in 60 seconds.**
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

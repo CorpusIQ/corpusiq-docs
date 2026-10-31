@@ -1,6 +1,6 @@
 ---
 title: "AI Employees Need Data Access - CorpusIQ Docs"
-description: "Why AI employees stall after the demo: they cannot see your systems."
+description: "Why AI employees stall after the demo: they cannot see your systems. How read-only data access, scoped permissions, and source citations make an AI employee useful on day 30."
 category: "Guides"
 tags: ["ai employee", "ai for business", "data access", "mcp data connector", "ai assistant"]
 canonical: "https://www.corpusiq.io/docs/ai-employee-data-access"

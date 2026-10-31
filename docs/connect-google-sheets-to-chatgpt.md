@@ -81,7 +81,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Setup Guide
 
-1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) -- the 30-day trial needs no credit card.
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) - the 30-day trial needs no credit card.
 2. **Connect Google Sheets.** Dashboard, Connections, Google Sheets, then approve the read scope.
 3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
 4. **Verify.** Ask "how many tabs does the budget spreadsheet have?" to confirm the connection.
@@ -89,13 +89,13 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
-- [Google Workspace connectors](connectors/google_workspace.md) -- Drive, Gmail, Calendar and Sheets
-- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) -- traffic beside the plan
-- [Connect Google Sheets to Claude](connect-google-sheets-to-claude.md) -- the same sheet data for Claude Desktop
-- [Browse all CorpusIQ connectors](connectors.md) -- the full list
-- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) -- the general setup
-- [MCP vs API Integrations](mcp-vs-api-integrations.md) -- why the access model differs
-- [AI for Financial Analysis](ai-for-financial-analysis.md) -- the analysis use case
-- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) -- the operating argument
+- [Google Workspace connectors](connectors/google_workspace.md) - Drive, Gmail, Calendar and Sheets
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - traffic beside the plan
+- [Connect Google Sheets to Claude](connect-google-sheets-to-claude.md) - the same sheet data for Claude Desktop
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+- [AI for Financial Analysis](ai-for-financial-analysis.md) - the analysis use case
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*

@@ -7,13 +7,13 @@ last_updated: "2026-10-24"
 canonical: "https://www.corpusiq.io/docs/ai-agent-users"
 robots: "index,follow"
 ---
-# MCP Direct Connection  --  Any AI, Any Model
+# MCP Direct Connection - Any AI, Any Model
 
 **CorpusIQ doesn't care which AI you use.**
 
 ChatGPT. Claude. Perplexity. A local Ollama model. OpenRouter. Any MCP-compatible client. If it speaks MCP, it works with CorpusIQ.
 
-You don't need a ChatGPT Plus subscription. You don't need a Claude account. CorpusIQ is a standalone MCP server at `https://mcp2.corpusiq.io/mcp`  --  connect any AI that supports the Model Context Protocol.
+You don't need a ChatGPT Plus subscription. You don't need a Claude account. CorpusIQ is a standalone MCP server at `https://mcp2.corpusiq.io/mcp` - connect any AI that supports the Model Context Protocol.
 
 40+ connectors. 150+ pre-built skills. Nearly 500 tools. All through one MCP endpoint.
 
@@ -44,7 +44,7 @@ You don't need a ChatGPT Plus subscription. You don't need a Claude account. Cor
     └──────────────────────────────────────────┘
 ```
 
-No platform lock. No vendor gate. CorpusIQ is the validation layer between your AI and your data  --  whichever AI you choose.
+No platform lock. No vendor gate. CorpusIQ is the validation layer between your AI and your data - whichever AI you choose.
 
 ## Agent Authentication Process
 
@@ -105,7 +105,7 @@ Your AI can query across 40+ connectors through the MCP endpoint:
 - Query MongoDB collections
 - Query Azure CosmosDB
 
-**Full connector list: 34 total  --  view in your [CorpusIQ dashboard](https://www.corpusiq.io/dashboard) after signing up.**
+**Full connector list: 34 total - view in your [CorpusIQ dashboard](https://www.corpusiq.io/dashboard) after signing up.**
 
 ## Security Considerations
 
@@ -137,7 +137,7 @@ Your AI can query across 40+ connectors through the MCP endpoint:
 ## Frequently Asked Questions
 
 **Q: How does an AI agent connect to CorpusIQ?**  
-A: Connect via `https://mcp2.corpusiq.io/mcp` using OAuth 2.0 Device Flow. Your agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token  --  takes ~45 seconds.
+A: Connect via `https://mcp2.corpusiq.io/mcp` using OAuth 2.0 Device Flow. Your agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token - takes ~45 seconds.
 
 **Q: What AIs work with CorpusIQ?**  
 A: Any MCP-compatible client. Claude, ChatGPT, Perplexity, local Ollama models, OpenRouter, Cursor, Hermes, Windsurf, and any custom Python/Node.js client using the MCP protocol.

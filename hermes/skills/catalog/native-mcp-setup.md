@@ -1,5 +1,5 @@
 ---
-title: native-mcp  --  Full Setup Guide for Hermes Agents
+title: native-mcp - Full Setup Guide for Hermes Agents
 description: Install and configure the native-mcp skill from nousresearch/hermes-agent. Connect Hermes Agent to MCP servers over stdio and HTTP, auto-discover tools, and manage server lifecycles.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/native-mcp-setup/"
 robots: "index,follow"
@@ -8,12 +8,12 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# native-mcp  --  Setup Guide
+# native-mcp - Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent) (79 installs)
 **Category:** Infrastructure / MCP
 
-The native MCP client skill enables Hermes Agent to connect to Model Context Protocol (MCP) servers over stdio and HTTP transports. It handles server discovery, tool registration, and lifecycle management  --  the foundation for building tool-rich AI agents.
+The native MCP client skill enables Hermes Agent to connect to Model Context Protocol (MCP) servers over stdio and HTTP transports. It handles server discovery, tool registration, and lifecycle management - the foundation for building tool-rich AI agents.
 
 ---
 
@@ -69,13 +69,13 @@ mcp_servers:
 | **Connect to MCP server** | Configure in `config.yaml` → Hermes auto-connects on startup | stdio and HTTP transports supported |
 | **Auto-discover tools** | Connected servers expose tools automatically | Tools appear in `hermes tools list` |
 | **List connected servers** | `hermes mcp list` | Shows transport, status, tool count |
-| **Reconnect on failure** | Automatic  --  handles disconnects gracefully | Exponential backoff for HTTP |
+| **Reconnect on failure** | Automatic - handles disconnects gracefully | Exponential backoff for HTTP |
 | **Tool registration** | Automatic on connect | No manual registration needed |
 
 ### Configuration Reference
 
 ```yaml
-# ~/.hermes/config.yaml  --  MCP server configuration
+# ~/.hermes/config.yaml - MCP server configuration
 mcp_servers:
   - name: "corpusiq-mcp"
     transport: "http"
@@ -97,7 +97,7 @@ mcp_servers:
 | Use Case | How |
 |---|---|
 | **CorpusIQ MCP integration** | Connect Hermes agents to the CorpusIQ MCP server (40+ data connectors) for live business data access |
-| **Multi-server orchestration** | Connect to 3+ MCP servers simultaneously  --  analytics, CRM, and email  --  for cross-source workflow automation |
+| **Multi-server orchestration** | Connect to 3+ MCP servers simultaneously - analytics, CRM, and email - for cross-source workflow automation |
 | **Development toolchain** | Connect to local MCP servers (filesystem, git, database) for agent-powered development workflows |
 | **Customer deployments** | Configure customer-specific MCP servers with scoped tool access for white-label agent deployments |
 | **Tool discovery** | Use `hermes mcp list` to audit which tools are available across all connected servers before building automation |
@@ -110,9 +110,9 @@ mcp_servers:
 |---|---|
 | **Server connection refused** | Verify the MCP server is running: `curl http://localhost:3000/health` |
 | **Tools not appearing** | Check server logs for tool registration errors. Run `hermes mcp test <server-name>` |
-| **HTTP timeout** | Increase `timeout` in config.yaml. Default is 30s  --  large tool payloads may need 60+ |
+| **HTTP timeout** | Increase `timeout` in config.yaml. Default is 30s - large tool payloads may need 60+ |
 | **stdio server exits** | Check command path and args. Run the command manually to verify it stays alive |
-| **Auth header not sent** | Use env var syntax `${VAR}` in config  --  Hermes expands at connection time |
+| **Auth header not sent** | Use env var syntax `${VAR}` in config - Hermes expands at connection time |
 
 ## Verification
 

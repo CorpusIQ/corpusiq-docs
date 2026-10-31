@@ -24,7 +24,7 @@ tags: ["hermes agent", "ai agent", "documentation"]
 
 # How to Analyze QuickBooks Data with AI: A Complete Step-by-Step Guide
 
-QuickBooks holds a wealth of financial intelligence  --  but accessing that intelligence has traditionally required manual report generation, spreadsheet analysis, and significant accounting expertise. **AI-powered analysis through CorpusIQ changes the equation entirely.** This guide walks you through how to analyze QuickBooks data using AI, from basic queries to advanced multi-dimensional analysis.
+QuickBooks holds a wealth of financial intelligence - but accessing that intelligence has traditionally required manual report generation, spreadsheet analysis, and significant accounting expertise. **AI-powered analysis through CorpusIQ changes the equation entirely.** This guide walks you through how to analyze QuickBooks data using AI, from basic queries to advanced multi-dimensional analysis.
 
 Whether you're a business owner checking financial health, an accountant preparing client deliverables, or a financial analyst digging into performance drivers, this guide covers the techniques, prompts, and analytical frameworks you need.
 
@@ -127,7 +127,7 @@ Controlling costs is fundamental to profitability. AI analysis surfaces ineffici
 "Check if any vendors were paid twice for the same amount within a 30-day window in the last 6 months."
 ```
 
-**What the AI does**: The AI queries vendor bills and payments, analyzes spending patterns, compares across time periods, and identifies anomalies  --  tasks that would take hours of manual spreadsheet work.
+**What the AI does**: The AI queries vendor bills and payments, analyzes spending patterns, compares across time periods, and identifies anomalies - tasks that would take hours of manual spreadsheet work.
 
 ### 5. Financial Forecasting and Modeling
 
@@ -168,7 +168,7 @@ Compute and interpret key financial ratios automatically.
 ## Frequently Asked Questions
 
 ### Do I need accounting expertise to analyze QuickBooks with AI?
-No. While accounting knowledge helps you ask better questions, the AI handles the technical execution  --  retrieving data, computing ratios, and presenting findings. A business owner can ask "Is my business financially healthy?" and receive a meaningful analysis without understanding accounting mechanics.
+No. While accounting knowledge helps you ask better questions, the AI handles the technical execution - retrieving data, computing ratios, and presenting findings. A business owner can ask "Is my business financially healthy?" and receive a meaningful analysis without understanding accounting mechanics.
 
 ### How is this different from QuickBooks' built-in analytics?
 QuickBooks' built-in analytics (like the Insights tab) provide pre-built visualizations and limited metrics. AI analysis is open-ended: you define the analysis, not the software. You can ask novel questions, create custom computations, and explore data in ways QuickBooks' fixed dashboards don't support.
@@ -189,13 +189,13 @@ Yes. Analysis outputs (tables, narratives, recommendations) can be copied from y
 The AI has broad knowledge of industry benchmarks, common metrics, and regulatory requirements. You can ask for SaaS metrics (MRR, churn, LTV), retail metrics (inventory turnover, GMROI), construction metrics (job costing, WIP), and more. The AI applies industry context to your QuickBooks data.
 
 ### Is AI analysis suitable for audit purposes?
-AI analysis can support audit preparation by identifying anomalies, generating workpapers, and organizing data  --  but it does not replace professional audit judgment. Always have a qualified auditor review AI-generated analysis before using it in an audit context.
+AI analysis can support audit preparation by identifying anomalies, generating workpapers, and organizing data - but it does not replace professional audit judgment. Always have a qualified auditor review AI-generated analysis before using it in an audit context.
 
 ### Can the AI prepare financial statements for external reporting?
 The AI can format financial data into standard statement layouts (GAAP-format P&L, classified balance sheet, indirect method cash flow), but a CPA should review before external distribution. AI-generated statements include source notes so reviewers can trace every figure.
 
 ### How does billing work for analysis queries?
-CorpusIQ bills based on tool calls. A simple analysis might use 1-3 tool calls; a comprehensive financial health analysis might use 10-20. Most plans include hundreds of tool calls per month  --  sufficient for daily analysis across your finance team.
+CorpusIQ bills based on tool calls. A simple analysis might use 1-3 tool calls; a comprehensive financial health analysis might use 10-20. Most plans include hundreds of tool calls per month - sufficient for daily analysis across your finance team.
 
 ## Internal Links
 
@@ -211,9 +211,9 @@ CorpusIQ bills based on tool calls. A simple analysis might use 1-3 tool calls; 
 
 AI-powered QuickBooks analysis turns hours of manual spreadsheet work into seconds of conversation. Whether you need a quick cash flow check, a deep margin analysis, or a comprehensive financial review, CorpusIQ's MCP platform connects your AI assistant directly to your live financial data.
 
-**[Connect QuickBooks and start your first analysis](/quickstart)  --  setup takes under 60 seconds.**
+**[Connect QuickBooks and start your first analysis](/quickstart) - setup takes under 60 seconds.**
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

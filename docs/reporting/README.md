@@ -55,7 +55,7 @@ For official financial reporting, see [MSR Governance](../governance/README.md).
 ## Frequently Asked Questions
 
 **Q: What types of reports can I generate with CorpusIQ?**  
-A: Instant reports (ask and get answers immediately), comparative reports (Q1 vs Q2, Stripe vs Shopify), and trend reports (MRR over 6 months, customer acquisition by channel). No configuration needed  --  just ask in natural language.
+A: Instant reports (ask and get answers immediately), comparative reports (Q1 vs Q2, Stripe vs Shopify), and trend reports (MRR over 6 months, customer acquisition by channel). No configuration needed - just ask in natural language.
 
 **Q: Can I export CorpusIQ reports?**  
 A: Yes. Copy results to clipboard, export as CSV, share via link, or save frequent queries. Scheduled recurring reports delivered to email or Slack are coming soon.
@@ -65,14 +65,14 @@ A: MSR is the Metric Spec Registry. You declare a business number once, and ever
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/architecture)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/security)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/search)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/reporting)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/onboarding)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance](/governance)**  --  Metric Spec Registry, versioning, and audit trail  
+- **[CorpusIQ Architecture](/architecture)** - MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/security)** - Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/search)** - Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/reporting)** - Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/onboarding)** - AI chat and agent setup in 10 minutes  
+- **[MSR Governance](/governance)** - Metric Spec Registry, versioning, and audit trail  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

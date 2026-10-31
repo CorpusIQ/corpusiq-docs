@@ -1,5 +1,5 @@
 ---
-title: "How to Create an AI Data Layer  --  MCP Architecture"
+title: "How to Create an AI Data Layer - MCP Architecture"
 description: "Create an AI-accessible data layer with CorpusIQ MCP. Connect all business data sources to AI without ETL, warehouses, or custom code. Architecture guide."
 h1: "How to Create an AI Data Layer"
 url: "/docs/how-to-create-an-ai-data-layer"
@@ -16,9 +16,9 @@ last_updated: "2026-10-24"
 
 ## The Problem
 
-Your organization has data everywhere  --  CRM, accounting, analytics, payments, email, documents, databases. But your AI assistants can't access any of it. Building custom integrations for each source is expensive and fragile. Data warehousing solves the analytics problem but not the AI accessibility problem. You need a layer that makes ALL business data available to AI  --  seamlessly, securely, and in real time.
+Your organization has data everywhere - CRM, accounting, analytics, payments, email, documents, databases. But your AI assistants can't access any of it. Building custom integrations for each source is expensive and fragile. Data warehousing solves the analytics problem but not the AI accessibility problem. You need a layer that makes ALL business data available to AI - seamlessly, securely, and in real time.
 
-That layer is the **AI Data Layer**  --  and CorpusIQ makes it achievable in hours, not months.
+That layer is the **AI Data Layer** - and CorpusIQ makes it achievable in hours, not months.
 
 ## What Is an AI Data Layer?
 
@@ -69,17 +69,17 @@ List every system that contains business data your AI should access:
 
 Not all sources need to be connected on day one. Prioritize by business impact:
 
-**Tier 1  --  Connect immediately:**
+**Tier 1 - Connect immediately:**
 - CRM (most business questions involve customers)
 - Accounting (revenue is the universal metric)
 - Payments (cash position and transaction data)
 
-**Tier 2  --  Connect within week 1:**
+**Tier 2 - Connect within week 1:**
 - Analytics (marketing and product questions)
 - Advertising (ROI and attribution questions)
 - Email (communication context)
 
-**Tier 3  --  Connect as needed:**
+**Tier 3 - Connect as needed:**
 - Database (custom application data)
 - Documents (policies, procedures)
 - Project management (Monday.com, etc.)
@@ -145,11 +145,11 @@ The direct-query path can call live sources without a raw-file/full-payload ware
 
 CorpusIQ IS the AI data layer. It provides:
 
-1. **Standardized protocol (MCP)**  --  any AI can connect, discover, and query
-2. **40+ pre-built connectors**  --  CRM, accounting, analytics, payments, comms, files
-3. **Zero infrastructure**  --  fully managed, no servers to run
-4. **Real-time queries**  --  no ETL, no warehouse, no batch windows
-5. **Cross-source orchestration**  --  one question, multiple sources, unified answer
+1. **Standardized protocol (MCP)** - any AI can connect, discover, and query
+2. **40+ pre-built connectors** - CRM, accounting, analytics, payments, comms, files
+3. **Zero infrastructure** - fully managed, no servers to run
+4. **Real-time queries** - no ETL, no warehouse, no batch windows
+5. **Cross-source orchestration** - one question, multiple sources, unified answer
 6. **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ## FAQ
@@ -158,7 +158,7 @@ CorpusIQ IS the AI data layer. It provides:
 A: A data warehouse stores copies for analytics. A direct-query AI data layer uses live, read-only access without a raw-file/full-payload warehouse; scoped operational logs may still be retained.
 
 **Q: Do I still need a data warehouse?**  
-A: For formal BI reporting, historical analysis, and ML  --  yes. For AI-powered business queries  --  the AI data layer may be sufficient.
+A: For formal BI reporting, historical analysis, and ML - yes. For AI-powered business queries - the AI data layer may be sufficient.
 
 **Q: Can I add custom data sources?**  
 A: CorpusIQ supports custom database connections (PostgreSQL, MSSQL, MongoDB). For unsupported APIs, request a new connector or use the database connector as a bridge.
@@ -167,7 +167,7 @@ A: CorpusIQ supports custom database connections (PostgreSQL, MSSQL, MongoDB). F
 A: The AI data layer queries live sources, so changes are reflected immediately. No sync lag, no stale data.
 
 **Q: Is this a replacement for API integrations?**  
-A: For AI access to data  --  yes. For application-to-application integration  --  no. Zapier or custom APIs are still needed for automated workflows.
+A: For AI access to data - yes. For application-to-application integration - no. Zapier or custom APIs are still needed for automated workflows.
 
 **Q: How does this work with multiple AI assistants?**  
 A: The same CorpusIQ MCP server works with ChatGPT, Claude, and custom MCP clients simultaneously. One data layer, many AI consumers.
@@ -180,9 +180,9 @@ A: Direct MCP retrieves required records from the source and sends the result th
 - [How to Connect Multiple Data Sources to AI](https://www.corpusiq.io/answers)
 - [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
 - [How to Centralize Company Knowledge](https://www.corpusiq.io/answers)
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/compare)
-- [Best AI Data Connector  --  Rankings](/connectors)
+- [CorpusIQ vs Data Warehouses - Live Query vs Stored Data](/compare)
+- [CorpusIQ vs Custom RAG - 2-Min Setup vs Engineering](/compare)
+- [Best AI Data Connector - Rankings](/connectors)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Secure AI Data Connectivity](/security)
 ---

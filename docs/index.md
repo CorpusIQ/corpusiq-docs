@@ -13,14 +13,14 @@ robots: "index,follow"
 
 ## Quick Links
 
-- [Quick Start](quick-start.md)  --  Go from zero to first answer in minutes
-- [Getting Started Guides](https://www.corpusiq.io/guides)  --  First day, connecting tools, skills and memory, trial and billing, recurring work
-- [How to Ask](https://www.corpusiq.io/how-to-ask)  --  Phrasing a question, what context to give, reading a citation
-- [Developers](https://www.corpusiq.io/developers)  --  MCP endpoint, OAuth discovery, device login, read-only guarantee
-- [API Reference](api/overview.md)  --  Full REST API documentation
-- [Connectors](connectors.md)  --  All 40+ supported integrations
-- [Security](security/README.md)  --  Architecture, encryption, compliance
-- [Changelog](changelog.md)  --  What's new
+- [Quick Start](quick-start.md) - Go from zero to first answer in minutes
+- [Getting Started Guides](https://www.corpusiq.io/guides) - First day, connecting tools, skills and memory, trial and billing, recurring work
+- [How to Ask](https://www.corpusiq.io/how-to-ask) - Phrasing a question, what context to give, reading a citation
+- [Developers](https://www.corpusiq.io/developers) - MCP endpoint, OAuth discovery, device login, read-only guarantee
+- [API Reference](api/overview.md) - Full REST API documentation
+- [Connectors](connectors.md) - All 40+ supported integrations
+- [Security](security/README.md) - Architecture, encryption, compliance
+- [Changelog](changelog.md) - What's new
 
 ## Who This Is For
 
@@ -46,10 +46,10 @@ The trust model is simple: read-only connections, source-cited answers, and metr
 CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads.
 
 ### How does CorpusIQ connect my business data to AI?
-CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations.
+CorpusIQ uses MCP (Model Context Protocol) - an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations.
 
 ### What data sources does CorpusIQ support?
-CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
+CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more - see the full connectors directory.
 
 ### Is my data secure with CorpusIQ?
 Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days. Data-source connections use documented OAuth scopes.
@@ -82,18 +82,18 @@ CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude De
 
 ## Browse the documentation
 
-- **[Quick Start](/quickstart)**  --  Go from zero to first query in 5 minutes
-- **[Connectors](/connectors)**  --  All 40+ supported integrations
-- **[How It Works](/how-it-works/)**  --  Architecture, retrieval path, and citation model
-- **[API Reference](/api/overview)**  --  Full REST API documentation
-- **[Security](/security)**  --  Read-only enforcement, encryption, and compliance posture
-- **[Troubleshooting](/troubleshooting/)**  --  Fixes for the failures people hit first
-- **[Examples and Recipes](/examples/)**  --  Working use cases you can copy
-- **[Changelog](/changelog)**  --  API updates and version history
-- **[Hermes Agent Hub](/hermes/)**  --  Agent patterns, skills, and the MCP ecosystem
-- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)**  --  SSO, SOC 2, data residency
+- **[Quick Start](/quickstart)** - Go from zero to first query in 5 minutes
+- **[Connectors](/connectors)** - All 40+ supported integrations
+- **[How It Works](/how-it-works/)** - Architecture, retrieval path, and citation model
+- **[API Reference](/api/overview)** - Full REST API documentation
+- **[Security](/security)** - Read-only enforcement, encryption, and compliance posture
+- **[Troubleshooting](/troubleshooting/)** - Fixes for the failures people hit first
+- **[Examples and Recipes](/examples/)** - Working use cases you can copy
+- **[Changelog](/changelog)** - API updates and version history
+- **[Hermes Agent Hub](/hermes/)** - Agent patterns, skills, and the MCP ecosystem
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SOC 2, data residency
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

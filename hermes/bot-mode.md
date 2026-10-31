@@ -6,9 +6,9 @@ last_updated: "2026-10-28"
 
 # Hermes Bot Mode (Desktop Plugin)
 
-**Status:** Ships built into the Hermes desktop app and is on by default  --  no install needed. Announced Aug 16, 2026 by Nous Research.
+**Status:** Ships built into the Hermes desktop app and is on by default - no install needed. Announced Aug 16, 2026 by Nous Research.
 **Official docs:** [hermes-agent.nousresearch.com/docs/user-guide/bot-mode](https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode)
-**Repo:** github.com/NousResearch/Hermes-Bot-Mode (MIT, JavaScript)  --  the original standalone plugin, now bundled into the app and archived upstream.
+**Repo:** github.com/NousResearch/Hermes-Bot-Mode (MIT, JavaScript) - the original standalone plugin, now bundled into the app and archived upstream.
 **Type:** Desktop UI over the profile primitive. No core patches, no background daemons, no extra storage.
 
 Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot gets its own chat, avatar, personality, routine schedule, and the ability to message other bots. It appears as a **Bots** tab next to Sessions in the left sidebar, with a **Routines** tile docked beside the conversation while that tab is active.
@@ -30,7 +30,7 @@ A bot **is** a Hermes profile: isolated config, memory, skills, credentials, and
 - Chats and sessions use profile-aware navigation
 - Creation and editing ride the `profiles.*` gateway RPCs
 - Routines are plain Hermes cron jobs, so they show up in `hermes cron list`
-- Bot-to-bot messages are real CLI handoffs between profiles  --  the same agent `hermes -p <bot> chat` opens  --  and across connected machines they route through the Desktop relay
+- Bot-to-bot messages are real CLI handoffs between profiles - the same agent `hermes -p <bot> chat` opens - and across connected machines they route through the Desktop relay
 
 ## Why it matters for operators
 

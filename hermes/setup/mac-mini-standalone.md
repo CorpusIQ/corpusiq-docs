@@ -11,7 +11,7 @@ robots: "index,follow"
 
 # Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright
 
-The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging  --  no worker nodes, no SSH keys, no multi-machine complexity.
+The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging - no worker nodes, no SSH keys, no multi-machine complexity.
 
 ## Overview
 
@@ -54,7 +54,7 @@ hermes --version
 
 Pick one or both strategies:
 
-**Local Models (Ollama  --  Free):**
+**Local Models (Ollama - Free):**
 
 ```bash
 # Install Ollama
@@ -70,7 +70,7 @@ hermes config set model.provider ollama
 hermes config set model.default llama3.2
 ```
 
-**Cloud Models (OpenRouter  --  Pay-per-use):**
+**Cloud Models (OpenRouter - Pay-per-use):**
 
 ```bash
 hermes config set OPENROUTER_API_KEY "your-key"   # written to ~/.hermes/.env
@@ -152,15 +152,15 @@ Or go to **System Settings → Battery → Options → Prevent automatic sleepin
 ### Step 7: Memory Stack
 
 ```bash
-# Honcho  --  peer memory (2 min)
+# Honcho - peer memory (2 min)
 hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev \
   --header "Authorization: Bearer your-h...ken" \
   --header "X-Honcho-Workspace-ID: your-workspace"
 
-# GBrain  --  project memory (10 min)
+# GBrain - project memory (10 min)
 git clone https://github.com/garrytan/gbrain && cd gbrain && ./setup.sh
 
-# memcore  --  cross-session context (5 min)
+# memcore - cross-session context (5 min)
 hermes plugins enable memcore_yifanchen
 ```
 
@@ -169,10 +169,10 @@ Full details in the [memory architecture guide](/hermes/knowledge).
 ## Benefits of Mac Mini M4 + Hermes Agent
 
 - **Single-box simplicity**: No worker nodes, no SSH, no multi-machine coordination
-- **Unified memory**: 16-32GB shared between CPU and GPU  --  ideal for local LLM inference
-- **Silent operation**: ~20W idle, ~40W under load  --  leave it running 24/7
+- **Unified memory**: 16-32GB shared between CPU and GPU - ideal for local LLM inference
+- **Silent operation**: ~20W idle, ~40W under load - leave it running 24/7
 - **Native browser automation**: Playwright and patchright run directly on macOS
-- **Developer ecosystem**: Homebrew, Python, Node.js  --  everything just works
+- **Developer ecosystem**: Homebrew, Python, Node.js - everything just works
 - **Cost efficiency**: $599 one-time hardware, free local models, ~$3/month electricity
 
 ## Cost Summary
@@ -203,14 +203,14 @@ Add a [gaming PC worker node](gaming-pc.md) via SSH for GPU-heavy inference, or 
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup)  --  Compare all hardware platforms
-- [Gaming PC Setup](gaming-pc.md)  --  Maximum GPU performance
-- [Model Selection Guide](/hermes/best-practices/model-selection)  --  Tiered model routing
-- [Memory Architecture](/hermes/knowledge)  --  Triple-stack agent memory
-- [MCP Integration Guide](/hermes/mcp)  --  Connect 40+ business platforms
-- [Troubleshooting Guide](/hermes/troubleshooting)  --  Common Mac Mini issues
-- [Hermes Changelog](/hermes/changelog)  --  Latest agent releases and features
-- [Skills Marketplace](/hermes/skills/marketplace)  --  946+ community skills
+- [Hermes Agent Setup Overview](/hermes/setup) - Compare all hardware platforms
+- [Gaming PC Setup](gaming-pc.md) - Maximum GPU performance
+- [Model Selection Guide](/hermes/best-practices/model-selection) - Tiered model routing
+- [Memory Architecture](/hermes/knowledge) - Triple-stack agent memory
+- [MCP Integration Guide](/hermes/mcp) - Connect 40+ business platforms
+- [Troubleshooting Guide](/hermes/troubleshooting) - Common Mac Mini issues
+- [Hermes Changelog](/hermes/changelog) - Latest agent releases and features
+- [Skills Marketplace](/hermes/skills/marketplace) - 946+ community skills
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

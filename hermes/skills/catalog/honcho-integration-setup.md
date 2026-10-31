@@ -1,6 +1,6 @@
 ---
-title: Honcho Integration  --  Setup Guide for Hermes Agents
-description: Complete setup guide for honcho-integration  --  persistent agent memory, session management, and peer context for Hermes agents via the Honcho MCP server.
+title: Honcho Integration - Setup Guide for Hermes Agents
+description: Complete setup guide for honcho-integration - persistent agent memory, session management, and peer context for Hermes agents via the Honcho MCP server.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/honcho-integration-setup/"
 robots: "index,follow"
 last_updated: "2026-10-24"
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Skill:** `honcho-integration` from [plastic-labs/honcho](https://skills.sh/plastic-labs/honcho/honcho-integration)
 **Installs:** 534+
 **Category:** Agent Memory & Context Management
-**Hermes Compatibility:** Full  --  used in production by CorpusIQ Hermes agents
+**Hermes Compatibility:** Full - used in production by CorpusIQ Hermes agents
 
 ## 1. Prerequisites
 
@@ -25,7 +25,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Honcho provides persistent, cross-session memory for AI agents:
 
-- **Session Memory:** Every conversation is stored and searchable  --  agents recover context after restarts
+- **Session Memory:** Every conversation is stored and searchable - agents recover context after restarts
 - **Peer Context:** Track what agents know about users, other agents, and themselves
 - **Conclusion Derivation:** Automatically distill conversations into durable facts
 - **Dream Cycle:** Background memory consolidation (analogous to human sleep)
@@ -117,7 +117,7 @@ npx skills add plastic-labs/honcho --skill migrate-honcho-ts
 | Symptom | Cause | Fix |
 |---------|-------|-----|
 | `honcho_get_peer_context` returns "None" | New peer, no conclusions saved yet | Fall back to GBrain + session_search, then save conclusions |
-| Honcho MCP tools time out (120s) | `get_connector_status` is slow | Use `hermes mcp test corpusiq` instead  --  returns in <1s |
+| Honcho MCP tools time out (120s) | `get_connector_status` is slow | Use `hermes mcp test corpusiq` instead - returns in <1s |
 | Dream cycle not completing | Background queue backed up | Check `honcho_get_queue_status`, schedule dream manually |
 
 ---

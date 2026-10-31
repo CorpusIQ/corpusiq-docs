@@ -28,9 +28,9 @@ robots: "index,follow"
 
 # Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence
 
-Microsoft SharePoint is the document management backbone for most Fortune 500 companies  --  hosting millions of documents, policies, reports, and presentations. But finding the right document often means navigating complex folder structures, remembering exact file names, or relying on SharePoint's limited search capabilities. Connecting SharePoint to Claude via CorpusIQ's MCP platform transforms your enterprise document library into an AI-queryable knowledge repository.
+Microsoft SharePoint is the document management backbone for most Fortune 500 companies - hosting millions of documents, policies, reports, and presentations. But finding the right document often means navigating complex folder structures, remembering exact file names, or relying on SharePoint's limited search capabilities. Connecting SharePoint to Claude via CorpusIQ's MCP platform transforms your enterprise document library into an AI-queryable knowledge repository.
 
-Ask Claude "Find the Q3 financial close presentation", "What does our data retention policy say about customer PII?", or "Show me all documents related to the [Project Name] initiative" and Claude will search your SharePoint libraries, read relevant documents, and synthesize answers  --  all in seconds.
+Ask Claude "Find the Q3 financial close presentation", "What does our data retention policy say about customer PII?", or "Show me all documents related to the [Project Name] initiative" and Claude will search your SharePoint libraries, read relevant documents, and synthesize answers - all in seconds.
 
 ## Why Connect SharePoint to Claude?
 
@@ -39,8 +39,8 @@ SharePoint stores your organization's most important documents, but accessing th
 **Key benefits:**
 
 - **Content-level search, not just metadata.** Claude reads Word documents, PowerPoint presentations, Excel spreadsheets, and PDFs stored in SharePoint, not just file names and titles.
-- **Policy and compliance instant answers.** "What's our travel reimbursement policy for international trips?"  --  Claude reads the actual policy document and answers specifically.
-- **Cross-document synthesis.** "Compare our Q2 and Q3 strategy presentations"  --  Claude reads both files and delivers a synthesized comparison.
+- **Policy and compliance instant answers.** "What's our travel reimbursement policy for international trips?" - Claude reads the actual policy document and answers specifically.
+- **Cross-document synthesis.** "Compare our Q2 and Q3 strategy presentations" - Claude reads both files and delivers a synthesized comparison.
 - **Enterprise search democratized.** Any employee can find institutional knowledge without knowing which folder or site it lives in.
 - **Meeting preparation.** Before a client meeting, ask Claude to find and summarize all relevant documents stored in SharePoint.
 - **Read-only Microsoft Graph integration.** Claude can search and read but can never modify, delete, or upload documents.
@@ -58,7 +58,7 @@ Claude accesses documents that the authenticated user has permission to view. Sh
 
 1. Navigate to **Connectors** in CorpusIQ.
 2. Select **SharePoint** (under Microsoft 365 integrations).
-3. Click **"Connect SharePoint"**  --  authorize via Microsoft OAuth.
+3. Click **"Connect SharePoint"** - authorize via Microsoft OAuth.
 4. Review permissions: Sites.Read.All, Files.Read.All (read-only access to SharePoint sites and files).
 5. Start asking Claude about your enterprise documents.
 
@@ -117,7 +117,7 @@ For large organizations deploying SharePoint integration across teams:
 | Aspect | CorpusIQ MCP | SharePoint API Direct |
 |---|---|---|
 | Setup | 5-minute OAuth | Developer + Azure AD app registration |
-| Natural language | Yes  --  AI reads and understands documents | No  --  API calls return file listings |
+| Natural language | Yes - AI reads and understands documents | No - API calls return file listings |
 | Content understanding | Reads document contents, not just metadata | Requires custom parsing |
 | Cross-source | Built-in (SharePoint + Teams + Outlook) | Custom development |
 | Non-technical access | Any employee | Developers and SharePoint admins |
@@ -145,19 +145,19 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 ## Internal Links
 
-- [Connect Notion to Claude](/connectors)  --  Knowledge management in Claude.
-- [Connect Slack to Claude](/connect/slack-with-claude)  --  Team communication in Claude.
-- [Connect Microsoft Teams to Claude](/connectors)  --  Teams data in Claude via Microsoft 365 integration.
-- [AI for Document Search](https://www.corpusiq.io/private-ai-for-business)  --  AI-powered document intelligence.
-- [AI for Knowledge Management](https://www.corpusiq.io/private-ai-for-business)  --  Enterprise knowledge retrieval.
-- [AI for Compliance](https://www.corpusiq.io/private-ai-for-business)  --  Document compliance with AI.
-- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
+- [Connect Notion to Claude](/connectors) - Knowledge management in Claude.
+- [Connect Slack to Claude](/connect/slack-with-claude) - Team communication in Claude.
+- [Connect Microsoft Teams to Claude](/connectors) - Teams data in Claude via Microsoft 365 integration.
+- [AI for Document Search](https://www.corpusiq.io/private-ai-for-business) - AI-powered document intelligence.
+- [AI for Knowledge Management](https://www.corpusiq.io/private-ai-for-business) - Enterprise knowledge retrieval.
+- [AI for Compliance](https://www.corpusiq.io/private-ai-for-business) - Document compliance with AI.
+- [What is MCP?](https://www.corpusiq.io/answers/what-is-an-mcp-server) - Understanding the Model Context Protocol.
 
 ---
 
 **Next steps:** [Connect SharePoint to Claude now →](https://corpusiq.io/connect/sharepoint)
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

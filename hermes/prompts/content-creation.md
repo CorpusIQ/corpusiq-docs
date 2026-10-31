@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Content Creation Prompts  --  Blog, Social, Email & SEO Templates
+# Content Creation Prompts - Blog, Social, Email & SEO Templates
 
 ---
 
@@ -20,7 +20,7 @@ robots: "index,follow"
 ```
 Write a [WORD COUNT]-word blog post about [TOPIC].
 
-Target audience: [DESCRIBE AUDIENCE  --  e.g., "engineering managers at mid-size SaaS companies"]
+Target audience: [DESCRIBE AUDIENCE - e.g., "engineering managers at mid-size SaaS companies"]
 Tone: [e.g., authoritative but conversational, technical but approachable]
 Goal: [e.g., educate readers about X so they try Y]
 
@@ -66,10 +66,10 @@ Generate a coordinated set of social media posts for [ANNOUNCEMENT/CONTENT PIECE
 Source material: [LINK OR PASTE KEY POINTS]
 
 Create variations for:
-1. LinkedIn (1300 characters max)  --  professional tone, 3-5 hashtags
-2. Twitter/X (280 characters)  --  punchy, 1-2 hashtags
-3. Facebook (ideal 80-120 characters)  --  conversational, emoji-friendly
-4. Instagram caption (2200 characters max)  --  visual-first description, 5-10 hashtags
+1. LinkedIn (1300 characters max) - professional tone, 3-5 hashtags
+2. Twitter/X (280 characters) - punchy, 1-2 hashtags
+3. Facebook (ideal 80-120 characters) - conversational, emoji-friendly
+4. Instagram caption (2200 characters max) - visual-first description, 5-10 hashtags
 
 Each post should highlight a different angle of the same content so followers on multiple platforms don't see identical copy.
 
@@ -97,11 +97,11 @@ Format each as: the post text, then the intended engagement mechanism (poll, ope
 ### Nurture Sequence
 
 ```
-Design a [N]-email nurture sequence for [PURPOSE  --  e.g., onboarding, re-engagement, product education].
+Design a [N]-email nurture sequence for [PURPOSE - e.g., onboarding, re-engagement, product education].
 
 Subscriber context: [WHAT THEY SIGNED UP FOR / WHERE THEY ARE IN THE JOURNEY]
 Goal: [DESIRED ACTION AFTER THE SEQUENCE]
-Brand voice: [DESCRIBE  --  e.g., "friendly, jargon-free, slightly playful"]
+Brand voice: [DESCRIBE - e.g., "friendly, jargon-free, slightly playful"]
 
 For each email provide:
 1. Subject line (with A/B test variant)
@@ -120,7 +120,7 @@ Create a reusable email newsletter template for [BRAND/COMPANY].
 Sections (in order):
 1. Personal note from [SENDER ROLE] (200-400 characters)
 2. Featured content block (headline + 2-sentence teaser + link)
-3. "What we're reading"  --  3 curated links with one-line commentary
+3. "What we're reading" - 3 curated links with one-line commentary
 4. Community spotlight or customer story (if applicable)
 5. Clear unsubscribe footer with brand personality
 
@@ -169,7 +169,7 @@ Include:
 The brief should be complete enough to hand to a writer unfamiliar with the topic.
 ```
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) - production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# MCP Integration Guide  --  Connect 40+ Business Platforms to Hermes Agent
+# MCP Integration Guide - Connect 40+ Business Platforms to Hermes Agent
 
-## The CorpusIQ MCP  --  One OAuth, 121 Tools, 40+ Platforms
+## The CorpusIQ MCP - One OAuth, 121 Tools, 40+ Platforms
 
 The biggest pain point in agent operations: managing 42 different API keys across 42 different platforms. The CorpusIQ MCP server solves this with a single OAuth flow.
 
@@ -355,7 +355,7 @@ MCP servers run as subprocesses managed by Hermes. Each server:
 
 - **stdio transport:** Local, zero-latency, no network dependency (recommended for custom servers)
 - **HTTP transport:** Remote, supports OAuth, good for shared servers (CorpusIQ, Honcho)
-- **Tool registration:** Automatic  --  Hermes discovers tools on connect
+- **Tool registration:** Automatic - Hermes discovers tools on connect
 
 **The CorpusIQ advantage:** 40+ business platforms through ONE MCP server. No managing 42 API keys, no 42 different auth flows. One OAuth, one server, 121 tools.
 ---

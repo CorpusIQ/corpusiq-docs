@@ -24,6 +24,13 @@ FIX = '--fix' in sys.argv
 SOURCE_ONLY = '--source' in sys.argv
 
 DASH = re.compile('[\u2014\u2013]')
+# Em-dash replacement artifact: an older bulk scrub rewrote U+2014 as a padded
+# " -- ", so hundreds of published pages render a double hyphen mid-sentence.
+# House rule is no dash debris; one spaced hyphen reads correctly.
+ARTIFACT_DASH = re.compile(r'[ \t]+--[ \t]+')
+# Padded on BOTH sides with two or more spaces. No command line produces that,
+# so it is unambiguously the artifact and can be rewritten even in code.
+ARTIFACT_DASH_WIDE = re.compile(r'[ \t]{2,}--[ \t]{2,}')
 
 def _tidy(s):
     s = re.sub(r'\s{2,}', ' ', s)
@@ -80,6 +87,86 @@ def compact(t, limit=60):
         else:
             s = wbtrim(s, limit)
     return _tidy(s)
+
+def artifact_dash_fix(dry=False):
+    """Collapse the padded ' -- ' em-dash artifact to ' - ' in Markdown source.
+
+    A bulk scrub once rewrote U+2014 as ' -- ', so hundreds of published pages
+    render a double hyphen mid-sentence. House rule is no dash debris, and one
+    spaced hyphen reads correctly. Fenced code blocks and inline code spans are
+    left untouched: a CLI flag, a SQL comment or a YAML marker can legitimately
+    contain a double hyphen.
+    """
+    changed = []
+    for root, dirs, files in os.walk('.'):
+        if any(x in root for x in ('/.git', '/site', '/node_modules', '/.cache', '/published-content')):
+            continue
+        for f in files:
+            if not f.endswith('.md'):
+                continue
+            fp = os.path.join(root, f)
+            try:
+                lines = open(fp, encoding='utf-8', errors='replace').read().split('\n')
+            except OSError:
+                continue
+            n, fenced, out, touched = 0, False, [], False
+            for line in lines:
+                st = line.lstrip()
+                if st.startswith('```') or st.startswith('~~~'):
+                    fenced = not fenced
+                    out.append(line)
+                    continue
+                if fenced and not st.startswith('#'):
+                    # Inside a code block a bare '--' can be a flag or an
+                    # end-of-options marker, so only comments and the wide,
+                    # double-padded artifact below are rewritten.
+                    if ARTIFACT_DASH_WIDE.search(line):
+                        n += len(ARTIFACT_DASH_WIDE.findall(line))
+                        s = line
+                        while ARTIFACT_DASH_WIDE.search(s):
+                            s = ARTIFACT_DASH_WIDE.sub(' - ', s)
+                        out.append(s)
+                        touched = True
+                        continue
+                    out.append(line)
+                    continue
+                if ARTIFACT_DASH_WIDE.search(line):
+                    n += len(ARTIFACT_DASH_WIDE.findall(line))
+                    s = line
+                    while ARTIFACT_DASH_WIDE.search(s):
+                        s = ARTIFACT_DASH_WIDE.sub(' - ', s)
+                    out.append(s)
+                    touched = True
+                    continue
+                if '--' not in line:
+                    out.append(line)
+                    continue
+                if fenced:
+                    # comment line inside a code block: rewrite as one span
+                    seg = [line]
+                else:
+                    seg = line.split('`')
+                hit = 0
+                for i in range(0, len(seg), 2):  # even indexes sit outside inline code
+                    c = len(ARTIFACT_DASH.findall(seg[i]))
+                    if not c:
+                        continue
+                    s = seg[i]
+                    while ARTIFACT_DASH.search(s):
+                        s = ARTIFACT_DASH.sub(' - ', s)
+                    seg[i], hit = s, hit + c
+                if hit:
+                    n += hit
+                    touched = True
+                    out.append('`'.join(seg))
+                else:
+                    out.append(line)
+            if touched:
+                changed.append((fp, n))
+                if not dry:
+                    open(fp, 'w', encoding='utf-8').write('\n'.join(out))
+    return changed
+
 
 def dash_fix_sources():
     changed = []
@@ -218,6 +305,8 @@ def title_fix():
 def main():
     rc = 0
     if FIX:
+        ac = artifact_dash_fix()
+        print(f'dash artifacts fixed: {len(ac)} files, {sum(c for _, c in ac)} occurrences')
         dc = dash_fix_sources()
         print(f'dashes fixed: {len(dc)} files')
         fixed, leftovers = title_fix()
@@ -238,6 +327,14 @@ def main():
     for k in ('title_long', 'h1', 'desc', 'canon', 'img', 'unresolved'):
         for item in issues[k][:25]:
             print(f'   [{k}] {item}')
+    if not FIX:
+        ac = artifact_dash_fix(dry=True)
+        print(f"  source dash artifacts (' -- '): {len(ac)} files, "
+              f"{sum(c for _, c in ac)} occurrences  (fix: --fix)")
+        for fp, c in sorted(ac, key=lambda x: -x[1])[:10]:
+            print(f'   [artifact] {fp} ({c})')
+        if ac and '--strict' in sys.argv:
+            rc = 1
     if any(issues.values()):
         rc = 1
     sys.exit(rc)

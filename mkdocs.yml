@@ -171,6 +171,8 @@ nav:
   - Connect HubSpot to Claude: connect-hubspot-to-claude.md
   - Connect Salesforce to Claude: connect-salesforce-to-claude.md
   - Connect Google Analytics to Claude: connect-google-analytics-to-claude.md
+  - Connect Google Search Console to Claude: connect-google-search-console-to-claude.md
+  - Connect Monday.com to Claude: connect-monday-com-to-claude.md
   - Connect Gmail to Claude: connect-gmail-to-claude.md
   - Connect Google Sheets to Claude: connect-google-sheets-to-claude.md
   - Connect Google Drive to Claude: connect-google-drive-to-claude.md

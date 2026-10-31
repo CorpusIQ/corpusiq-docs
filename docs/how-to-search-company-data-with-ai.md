@@ -20,7 +20,7 @@ Your company's data is scattered across dozens of tools: customer records in Hub
 
 ## The Solution
 
-CorpusIQ's MCP platform creates a unified AI search layer across all your business tools. Instead of searching each tool individually, you ask natural-language questions and the AI queries every connected source simultaneously  --  returning answers in seconds.
+CorpusIQ's MCP platform creates a unified AI search layer across all your business tools. Instead of searching each tool individually, you ask natural-language questions and the AI queries every connected source simultaneously - returning answers in seconds.
 
 ## What You'll Need
 
@@ -105,7 +105,7 @@ When you find valuable information, save it:
 **AI Response (powered by CorpusIQ):**
 
 ```
-GLOBALTECH INC  --  Account Overview
+GLOBALTECH INC - Account Overview
 
 CRM (HubSpot):
 - Company: GlobalTech Inc | Industry: SaaS | Employees: 250-500
@@ -115,7 +115,7 @@ CRM (HubSpot):
 
 Email (Gmail):
 - 23 emails in the last 90 days across 4 threads
-- Latest: "Re: Q3 Platform Expansion  --  Proposal Review" (June 12)
+- Latest: "Re: Q3 Platform Expansion - Proposal Review" (June 12)
 - Key thread: Contract negotiation with legal team (May 28 - June 8)
 
 Financial (QuickBooks):
@@ -135,7 +135,7 @@ CorpusIQ is the engine that makes this possible. It:
 
 1. **Unifies data access** across all your tools through a single MCP endpoint
 2. **Translates natural language** into structured API queries across each source
-3. **Orchestrates parallel queries**  --  searching CRM, email, accounting, and support tools simultaneously
+3. **Orchestrates parallel queries** - searching CRM, email, accounting, and support tools simultaneously
 4. **Returns structured data** that AI can format into coherent, readable answers
 5. **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
@@ -157,7 +157,7 @@ A: Yes. CorpusIQ queries live APIs with read-only access. Direct MCP does not re
 A: Yes. Most connectors support date filtering. Ask "Show me deals from Q2 2026" or "Find emails from last week about the budget."
 
 **Q: What if the search returns too many results?**  
-A: Refine your query with more specifics  --  add date ranges, dollar amounts, people, or departments. The AI helps you narrow results interactively.
+A: Refine your query with more specifics - add date ranges, dollar amounts, people, or departments. The AI helps you narrow results interactively.
 
 **Q: Can non-technical team members use this?**  
 A: Absolutely. If you can type a question, you can search. No SQL, no search syntax, no training required.
@@ -171,10 +171,10 @@ A: Yes. Any AI assistant with MCP support on mobile can search your company data
 - [How to Analyze Company Data with ChatGPT](https://www.corpusiq.io/answers)
 - [How to Centralize Company Knowledge](https://www.corpusiq.io/answers)
 - [How to Build an AI Knowledge Base](https://www.corpusiq.io/answers)
-- [Best Business AI Search Tool  --  Rankings](/compare)
-- [Best AI Knowledge Platform  --  Comparison](/compare)
+- [Best Business AI Search Tool - Rankings](/compare)
+- [Best AI Knowledge Platform - Comparison](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
-- [Top Business AI Tools  --  Rankings](/compare)
+- [Top Business AI Tools - Rankings](/compare)
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

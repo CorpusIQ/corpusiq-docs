@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# Docker Hermes Agent Setup  --  Reproducible Container Deployment
+# Docker Hermes Agent Setup - Reproducible Container Deployment
 
-Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell  --  just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.
+Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell - just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.
 
 ## Overview
 
@@ -185,7 +185,7 @@ docker compose exec hermes hermes gateway status
 ## FAQ
 
 ### Do I need to rebuild the Docker image for updates?
-No  --  `docker compose pull` fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted volume.
+No - `docker compose pull` fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted volume.
 
 ### Can I run GPU-accelerated models in Docker?
 Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass `--gpus all` to `docker run` or add `deploy.resources.reservations.devices` in Compose.
@@ -195,11 +195,11 @@ Put them in the mounted data directory: `~/.hermes/skills/` on the host is `/opt
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup)  --  All platform options
-- [Cloud VPS Setup](cloud-vps.md)  --  Docker on cloud
-- [Gaming PC Setup](gaming-pc.md)  --  Docker with GPU passthrough
-- [MCP Integration Guide](/hermes/mcp)  --  Connect tools inside containers
-- [Creating Custom Skills](/hermes/skills/creating-skills)  --  Mount skills in Docker
+- [Hermes Agent Setup Overview](/hermes/setup) - All platform options
+- [Cloud VPS Setup](cloud-vps.md) - Docker on cloud
+- [Gaming PC Setup](gaming-pc.md) - Docker with GPU passthrough
+- [MCP Integration Guide](/hermes/mcp) - Connect tools inside containers
+- [Creating Custom Skills](/hermes/skills/creating-skills) - Mount skills in Docker
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -9,7 +9,7 @@ robots: "index,follow"
 
 ---
 
-# Hermes Agent Integration Examples  --  Connect Your Business Tools
+# Hermes Agent Integration Examples - Connect Your Business Tools
 
 ## What's Inside
 
@@ -78,7 +78,7 @@ Silent failures are worse than no automation. Every integration includes:
 ## Getting Started
 
 ### Step 1: Choose Your First Integration
-Start with the lowest-risk, highest-visibility integration. For most teams, that's **Slack + GitHub**  --  it's immediately useful, non-destructive, and easy to verify.
+Start with the lowest-risk, highest-visibility integration. For most teams, that's **Slack + GitHub** - it's immediately useful, non-destructive, and easy to verify.
 
 ### Step 2: Set Up MCP Servers
 Each integration guide lists the MCP servers you need. Configure them with read-only credentials wherever possible:
@@ -127,7 +127,7 @@ These four integrations are examples of a generalizable pattern. You can apply t
 The pattern is always: **read from sources → compute/enrich/detect → write to destinations → alert on anomalies → log everything.**
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 449+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

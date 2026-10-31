@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Guides - CorpusIQ Docs"
-description: Integration guides for 40+ MCP servers connected to CorpusIQ  --  GA4, Stripe, Shopify, QuickBooks, and more
+description: Integration guides for 40+ MCP servers connected to CorpusIQ - GA4, Stripe, Shopify, QuickBooks, and more
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/"
 robots: "index,follow"
 last_updated: "2026-10-24"
@@ -95,9 +95,9 @@ CorpusIQ's cross-source connectors correlate data across platforms: Google Ads s
 
 ## External MCP Servers
 
-Beyond CorpusIQ's built-in connectors, the MCP ecosystem has 22,000+ third-party servers. See our curated catalog of the most relevant external MCP servers for business operators  --  finance, analytics, document intelligence, security, and more.
+Beyond CorpusIQ's built-in connectors, the MCP ecosystem has 22,000+ third-party servers. See our curated catalog of the most relevant external MCP servers for business operators - finance, analytics, document intelligence, security, and more.
 
-→ **[External MCP Server Catalog](/hermes/mcp/servers/external)**  --  Third-party servers from mcp.so & mcpservers.org
+→ **[External MCP Server Catalog](/hermes/mcp/servers/external)** - Third-party servers from mcp.so & mcpservers.org
 
 ---
 
@@ -105,7 +105,7 @@ Beyond CorpusIQ's built-in connectors, the MCP ecosystem has 22,000+ third-party
 
 *↑ [MCP Documentation](/hermes/mcp)*
 
-*Powered by CorpusIQ  --  40+ MCP connectors, unified business intelligence*
+*Powered by CorpusIQ - 40+ MCP connectors, unified business intelligence*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

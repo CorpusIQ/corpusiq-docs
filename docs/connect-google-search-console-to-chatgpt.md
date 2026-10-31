@@ -84,7 +84,7 @@ It is not. Retrieval happens on demand against the live API. CorpusIQ does not r
 
 ## Setup Guide
 
-1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) -- the 30-day trial needs no credit card.
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) - the 30-day trial needs no credit card.
 2. **Connect Search Console.** Dashboard, Connections, Google Search Console, then choose the property and approve.
 3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
 4. **Verify.** Ask "How many clicks did the site get last month?" and check the answer against the Search Console UI.
@@ -92,12 +92,13 @@ It is not. Retrieval happens on demand against the live API. CorpusIQ does not r
 
 ## Related Pages
 
-- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) -- the outcome layer beside the query layer
-- [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) -- paid search beside organic
-- [Browse all CorpusIQ connectors](connectors.md) -- the full list
-- [MCP vs API Integrations](mcp-vs-api-integrations.md) -- why the access model differs
-- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) -- the general setup
-- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) -- the operating argument
-- [AI for Marketing Analytics](ai-for-marketing-analytics.md) -- the reporting use case
+- [Connect Google Search Console to Claude](connect-google-search-console-to-claude.md) - the same connector in Claude
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the outcome layer beside the query layer
+- [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - paid search beside organic
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
+- [AI for Marketing Analytics](ai-for-marketing-analytics.md) - the reporting use case
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*

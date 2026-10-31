@@ -85,7 +85,7 @@ Queries run against your database, so cost follows your own query patterns. Filt
 ## Setup Guide
 
 1. **Create a read-only role.** Grant SELECT on the schemas you want exposed, nothing more.
-2. **Sign up** at [corpusiq.io](https://www.corpusiq.io) -- the 30-day trial needs no credit card.
+2. **Sign up** at [corpusiq.io](https://www.corpusiq.io) - the 30-day trial needs no credit card.
 3. **Connect PostgreSQL.** Dashboard, Connections, PostgreSQL, then enter the host, database, and the read-only credentials.
 4. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
 5. **Verify.** Ask a question whose answer you already know, for example last month's order count.
@@ -93,12 +93,12 @@ Queries run against your database, so cost follows your own query patterns. Filt
 
 ## Related Pages
 
-- [Connect PostgreSQL to Claude](connect-postgresql-to-claude.md) -- the same connection, set up for Claude Desktop
-- [Browse all CorpusIQ connectors](connectors.md) -- the full list
-- [MCP vs API Integrations](mcp-vs-api-integrations.md) -- why the access model differs
-- [CorpusIQ Security Architecture](../security/) -- how credentials and data are handled
-- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) -- the general setup
-- [AI for Data Analysis](ai-for-data-analysis.md) -- the analysis use case
-- [Rate Limits and Quotas](how-it-works/rate-limits-and-quotas.md) -- the operational limits
+- [Connect PostgreSQL to Claude](connect-postgresql-to-claude.md) - the same connection, set up for Claude Desktop
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+- [CorpusIQ Security Architecture](../security/) - how credentials and data are handled
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [AI for Data Analysis](ai-for-data-analysis.md) - the analysis use case
+- [Rate Limits and Quotas](how-it-works/rate-limits-and-quotas.md) - the operational limits
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*

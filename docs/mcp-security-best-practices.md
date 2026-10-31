@@ -10,7 +10,7 @@ robots: index,follow
 
 # MCP Security Best Practices: How to Safely Connect Business Data to AI
 
-Security is the first question every business leader asks about AI data integration  --  and rightly so. Connecting an AI model to your financial systems, CRM, and analytics platforms creates a new data access surface that must be secured deliberately. **MCP's security model** combines OAuth 2.0 authentication, read-only access defaults, encrypted token storage, comprehensive audit trails, and stateless architecture to protect business data at every layer.
+Security is the first question every business leader asks about AI data integration - and rightly so. Connecting an AI model to your financial systems, CRM, and analytics platforms creates a new data access surface that must be secured deliberately. **MCP's security model** combines OAuth 2.0 authentication, read-only access defaults, encrypted token storage, comprehensive audit trails, and stateless architecture to protect business data at every layer.
 
 ## The MCP Security Model
 
@@ -48,7 +48,7 @@ OAuth tokens are the keys to your data. Managing them securely is critical:
 
 **Token revocation.** Users can disconnect a connected platform through the CorpusIQ dashboard. The service commits an inactive state before credential cleanup; cleanup failures are surfaced for retry rather than reported as successful deletion. Provider-side revocation remains available through the connected platform.
 
-**Cross-user isolation.** Each user's tokens are cryptographically isolated. User A's Shopify token cannot be used to access User B's data, even if both users are in the same CorpusIQ organization. This isolation extends to the database layer  --  tokens are stored with user-scoped encryption keys.
+**Cross-user isolation.** Each user's tokens are cryptographically isolated. User A's Shopify token cannot be used to access User B's data, even if both users are in the same CorpusIQ organization. This isolation extends to the database layer - tokens are stored with user-scoped encryption keys.
 
 ## Tool Boundary Architecture Deep Dive
 
@@ -68,24 +68,24 @@ This defense-in-depth approach makes write-capable operations visible and bounde
 
 Every tool call through CorpusIQ's MCP server is logged, creating a complete audit trail:
 
-- **Timestamp**  --  when the query was executed
-- **User identity**  --  who asked the question
-- **Tool name**  --  which connector and operation was called
-- **Parameters**  --  what filters and arguments were used
-- **Source system**  --  which platform was queried
-- **Response status**  --  success, error, or timeout
+- **Timestamp** - when the query was executed
+- **User identity** - who asked the question
+- **Tool name** - which connector and operation was called
+- **Parameters** - what filters and arguments were used
+- **Source system** - which platform was queried
+- **Response status** - success, error, or timeout
 
 This audit trail serves multiple purposes:
-- **Security monitoring**  --  detect unusual query patterns that might indicate compromise
-- **Compliance**  --  demonstrate data access controls for SOC 2, GDPR, and other frameworks
-- **Debugging**  --  trace why a particular answer was returned
-- **Usage analytics**  --  understand which data sources are most frequently accessed
+- **Security monitoring** - detect unusual query patterns that might indicate compromise
+- **Compliance** - demonstrate data access controls for SOC 2, GDPR, and other frameworks
+- **Debugging** - trace why a particular answer was returned
+- **Usage analytics** - understand which data sources are most frequently accessed
 
 Audit logs are retained according to the user's plan and can be exported for integration with SIEM systems or compliance reporting.
 
 ## Data Minimization
 
-MCP's stateless architecture naturally enforces data minimization  --  the principle that you should only process the data you need, for as long as you need it.
+MCP's stateless architecture naturally enforces data minimization - the principle that you should only process the data you need, for as long as you need it.
 
 CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
@@ -101,7 +101,7 @@ This data minimization approach narrows the retained data classes that must be h
 
 **API gateway.** All inbound requests pass through an API gateway that provides rate limiting, request validation, and DDoS protection.
 
-**VPC isolation.** CorpusIQ's production infrastructure runs in a virtual private cloud with network segmentation between services. The MCP server layer has outbound internet access (to reach source APIs) but no inbound access from the public internet  --  all client requests route through the API gateway.
+**VPC isolation.** CorpusIQ's production infrastructure runs in a virtual private cloud with network segmentation between services. The MCP server layer has outbound internet access (to reach source APIs) but no inbound access from the public internet - all client requests route through the API gateway.
 
 **IP allowlisting (Enterprise).** Enterprise customers can restrict access to their CorpusIQ instance to specific IP ranges, ensuring that only requests from their corporate network are accepted.
 
@@ -125,7 +125,7 @@ Beyond what CorpusIQ provides, users should follow these practices:
 
 **3. Rotate credentials after personnel changes.** If an employee with access to your CorpusIQ account leaves the organization, rotate OAuth tokens for all connected platforms.
 
-**4. Monitor audit logs.** Periodically review the audit trail for unusual query patterns  --  queries at unusual times, against unexpected data sources, or with unusual parameters.
+**4. Monitor audit logs.** Periodically review the audit trail for unusual query patterns - queries at unusual times, against unexpected data sources, or with unusual parameters.
 
 **5. Enable multi-factor authentication.** Use MFA on your CorpusIQ account and on all connected platforms to prevent unauthorized access.
 
@@ -172,7 +172,7 @@ CorpusIQ maintains a SOC 2 aligned security posture and is CASA Tier 2 certified
 - [Learn about MCP for financial reporting and compliance](mcp-for-finance.md)
 - [See how executives use MCP for AI-powered dashboards](mcp-for-executives.md)
 
-*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
