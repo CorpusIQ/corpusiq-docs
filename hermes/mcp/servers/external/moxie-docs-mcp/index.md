@@ -2,17 +2,19 @@
 title: "Moxie Docs MCP Server Setup Guide"
 subtitle: Automated codebase documentation with MCP context for AI agents
 source: mcp.so
-github: https://github.com/Jackalope-Dev/moxie-docs
+github: Jackalope-Dev/moxie-docs (repo no longer public)
 created: 2026-07-21
 category: Documentation
 stars: 1
 tags: [documentation, github, codebase, drift-detection, developer-tools]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/moxie-docs-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 description: "GitHub personal access token with repo scope is required for PR workflows. Setup guide for the Moxie Docs MCP server."
 
 ---
+
+> **Upstream status (2026-10-31):** `Jackalope-Dev/moxie-docs` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Moxie Docs MCP Server
 

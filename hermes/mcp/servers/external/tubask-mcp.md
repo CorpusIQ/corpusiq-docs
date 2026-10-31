@@ -3,11 +3,13 @@ title: "Tubask MCP - Hosted YouTube Intelligence for AI Agents"
 description: "Search YouTube videos, extract transcripts, analyze content, and retrieve metadata - all from a hosted MCP endpoint. Designed for Claude & Cursor with zero"
 category: mcp
 tags: [mcp-server, youtube, transcripts, content-analysis, video-search, research, content-marketing]
-last_updated: 2026-10-24
+last_updated: 2026-10-31
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tubask-mcp/"
 robots: "index,follow"
 
 ---
+
+> **Upstream status (2026-10-31):** `Amorizz/tubask-mcp` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Tubask MCP Server ★ New (July 2 PM)
 

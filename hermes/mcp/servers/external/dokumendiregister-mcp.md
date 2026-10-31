@@ -5,14 +5,16 @@ category: "Data & Analytics"
 source: "mcp.so"
 discovered: "2026-07-23"
 verified: false
-repository: "https://github.com/dokumendiregister/dokumendiregister"
+repository: "dokumendiregister/dokumendiregister (repo no longer public)"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dokumendiregister-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 title: "dokumendiregister MCP - Estonian Public Document Search"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
+
+> **Upstream status (2026-10-31):** `dokumendiregister/dokumendiregister` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # dokumendiregister MCP - Estonian Public Document Search
 

@@ -3,10 +3,12 @@ title: "vrules - Agent Governance & LLM Guardrails Integration"
 description: "Connect AI agents to vrules for policy-as-code governance, guardrail enforcement, and programmable agent fleet control. Vendor-neutral, open-source"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/vrules/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
+
+> **Upstream status (2026-10-31):** `ops-ping/vrules` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # vrules - Agent Governance & LLM Guardrails
 

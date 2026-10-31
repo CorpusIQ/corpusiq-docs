@@ -3,10 +3,12 @@ title: "New Hermes Skill Repo - CorpusIQ Docs"
 description: "12 newly discovered Hermes Agent skills from aawobdev/hermes-skills  --  a complete multi-agent blueprint orchestration system: Architect, Developer"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june22-2026-late/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
+
+> **Upstream status (2026-10-31):** `aawobdev/hermes-skills` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # New Skills: June 22, 2026 (Late Sweep)  --  aawobdev/hermes-skills
 

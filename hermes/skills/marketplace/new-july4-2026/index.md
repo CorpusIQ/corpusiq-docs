@@ -3,10 +3,12 @@ title: "July 4, 2026 - agent-sessions (683⭐)"
 description: "24 new Hermes-relevant repos discovered July 4, 2026: agent-sessions macOS session browser (683⭐), Hermes ArXiv Agent (91⭐), memoria-vault research OS"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
+
+> **Upstream status (2026-10-31):** `national-jamesii265/omnilimb` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # 🆕 July 4, 2026 - 24 New Repos Discovered
 
@@ -291,7 +293,7 @@ pip install -r requirements.txt
 
 #### omnilimb (1⭐)
 
-**Repo:** [national-jamesii265/omnilimb](https://github.com/national-jamesii265/omnilimb)
+**Repo:** national-jamesii265/omnilimb (repo no longer public)
 
 Connect Hermes agents to physical hardware with a modular device abstraction layer. Framework for bridging agent actions to real-world devices, sensors, and actuators.
 

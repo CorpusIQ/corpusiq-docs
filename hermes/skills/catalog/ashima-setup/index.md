@@ -3,10 +3,12 @@ title: Ashima Meta-Routing Orchestration Setup Guide
 description: Install and configure doucoo/ashima - a 4-skill meta-routing package for Hermes Agent with Aria (coding), Duet (dual-perspective reasoning), and Chorus (documentation orchestration)
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ashima-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
+
+> **Upstream status (2026-10-31):** `doucoo/ashima` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Ashima - Meta-Routing Orchestrator Setup
 

@@ -3,10 +3,12 @@ title: "July 4, 2026 (Update) - hermes-top Dashboard"
 description: "5 new Hermes-relevant repos discovered in late July 4 sweep: hermes-top terminal dashboard (1⭐), Neo Desktop Theme (2⭐), Hermes Full Backup (1⭐), IC-sd"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026-update/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
+
+> **Upstream status (2026-10-31):** `IC-sd/hermes-agent-skills` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # 🆕 July 4, 2026 (Update) - 5 New Repos (Late Sweep)
 

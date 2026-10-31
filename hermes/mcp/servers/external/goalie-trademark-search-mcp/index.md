@@ -2,17 +2,19 @@
 title: Goalie Trademark Search MCP Server
 subtitle: 14M+ USPTO trademark records searchable from AI agents
 source: mcp.so
-github: https://github.com/goalie-mcp/goalie-trademark-search-mcp
+github: goalie-mcp/goalie-trademark-search-mcp (repo no longer public)
 created: 2026-07-23
 category: IP/Legal
 stars: 0
 tags: [trademark, uspto, ip, legal, brand-protection, search]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/goalie-trademark-search-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 description: "MCP server for searching **14M+ USPTO trademark records** directly from AI agents. 14M+ records agents. Not TSDR lookup this dedicated search tool optimize."
 
 ---
+
+> **Upstream status (2026-10-31):** `goalie-mcp/goalie-trademark-search-mcp` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Goalie Trademark Search MCP Server
 

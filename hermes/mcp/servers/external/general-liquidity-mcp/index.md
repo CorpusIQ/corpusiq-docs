@@ -2,17 +2,19 @@
 title: "General Liquidity MCP Server - CorpusIQ Docs"
 subtitle: Machine economy API - resolve, pay, verify, disclose
 source: general-liquidity-mcp
-github: https://github.com/general-liquidity/general-liquidity-mcp
+github: general-liquidity/general-liquidity-mcp (repo no longer public)
 created: 2026-07-22
 category: Fintech / Payments
 stars: 0
 tags: [payments, machine-economy, fintech, api, settlement]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/general-liquidity-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 description: "MCP server for the General Liquidity machine economy API. Enables AI agents to resolve, pay, verify."
 
 ---
+
+> **Upstream status (2026-10-31):** `general-liquidity/general-liquidity-mcp` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # General Liquidity MCP Server
 

@@ -3,14 +3,14 @@ title: "Marketing Mindset - B2B Marketing OS for AI Agents Setup"
 description: "axelfreeman/marketing-mindset - marketing-mindset skill, 28.8K installs, 52 GitHub stars. A 15-year B2B marketer's operating framework for agents: six decision principles, three-month horizons, and client-stage playbooks that turn 'should I do X to get Y' questions into testable marketing actions. Hermes explicitly listed in the adapter table."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/marketing-mindset-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "growth", "b2b", "positioning"]
 ---
 
 # Marketing Mindset - Setup Guide
 
 **Source:** [skills.sh](https://www.skills.sh/axelfreeman/marketing-mindset) (28.8K installs)
-**GitHub:** [axelfreeman/marketing-mindset](https://github.com/axelfreeman/marketing-mindset) (52⭐, MIT)
+**GitHub:** axelfreeman/marketing-mindset (repo no longer public) (52⭐, MIT)
 **Category:** Marketing / Growth Strategy
 **First Seen:** Sep 2026 (repo created Sep 1, 2026)
 **Quality Tier:** 🟢 Production (Gen Agent Trust Hub Pass / Socket Pass / Snyk Pass)
