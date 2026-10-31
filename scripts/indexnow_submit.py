@@ -31,7 +31,7 @@ def submit(urls):
     urls = [u for u in dict.fromkeys(urls)]  # dedupe, keep order
     if not urls:
         print('indexnow: nothing to submit')
-        return True
+        return True, 0
     total = 0
     ok = True
     for i in range(0, len(urls), 10000):
@@ -62,7 +62,7 @@ def submit(urls):
         total += len(chunk)
         ok = ok and code in (200, 202)
     print(f'indexnow: submitted {total} url(s)')
-    return ok
+    return ok, total
 
 
 FEEDS = {'llms.txt', 'llms-full.txt'}  # root crawler files, served at /docs/<name>
@@ -94,6 +94,7 @@ def url_for_md(path):
 
 
 def main():
+    changed = []
     if '--all' in sys.argv or not os.path.exists(MARKER):
         if not os.path.exists(SITEMAP):
             print('indexnow: no site/sitemap.xml (run a build first), skipping bootstrap')
@@ -102,7 +103,7 @@ def main():
         urls = re.findall(r'<loc>([^<]+)</loc>', xml)
         urls = [u for u in urls if '/docs/' in u]
         print(f'indexnow: bootstrap mode, {len(urls)} sitemap urls')
-        ok = submit(urls)
+        ok, sent = submit(urls)
     else:
         last = open(MARKER).read().strip()
         try:
@@ -111,17 +112,29 @@ def main():
         except Exception as e:
             print(f'indexnow: diff failed ({e}), skipping')
             return
+        changed = [l.strip() for l in out.splitlines() if l.strip()]
         urls = []
-        for line in out.splitlines():
-            u = url_for_md(line.strip())
+        unmapped = []
+        for line in changed:
+            u = url_for_md(line)
             if u:
                 urls.append(u)
-        print(f'indexnow: {len(urls)} changed page(s) since {last[:10]}')
-        ok = submit(urls)
-    # advance marker only when the ping was actually accepted; a failed submit
-    # must NOT silently swallow the changed pages (marker would skip them forever)
+            elif line in FEEDS:
+                unmapped.append(line)
+        print(f'indexnow: {len(urls)} changed page(s) since {last[:10]}'
+              f' ({len(changed)} file(s) changed)')
+        if unmapped:
+            print(f'indexnow: WARNING feed(s) changed but not mapped: {unmapped}')
+        ok, sent = submit(urls)
+    # Advance the marker only when a ping was actually accepted AND something was
+    # submitted. Defect fixed 2026-10-31: an empty URL list counted as success and
+    # advanced the marker past the commit that changed the files, and because the
+    # diff base is exclusive those pages could never be submitted again.
     if not ok:
         print('indexnow: submit NOT accepted, marker held so the next run retries')
+        return
+    if sent == 0 and changed:
+        print('indexnow: changed files mapped to 0 urls, marker held (nothing lost)')
         return
     try:
         head = subprocess.run(['git', 'rev-parse', 'HEAD'], capture_output=True,
