@@ -85620,5 +85620,203 @@
     ],
     "discovered_at": "2026-10-31T10:01:31.099297+00:00",
     "status": "pending"
+  },
+  {
+    "name": "juev/hermes-macos",
+    "url": "https://github.com/juev/hermes-macos",
+    "description": "A native macOS client for the Hermes Agent dashboard: chats, search, attachments and hermes-push, over the tailnet",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "ai-agent",
+      "hermes",
+      "macos",
+      "ntfy",
+      "swift",
+      "swiftui",
+      "tailscale",
+      "web-push"
+    ],
+    "updated_at": "2026-10-31T11:00:15Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "zakahadi/llm-eval-cli",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "cedricziel/hermes-app",
+      "rusty4444/hermes-android"
+    ],
+    "discovered_at": "2026-10-31T11:00:56.536933+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Esmien/hermes-state",
+    "url": "https://github.com/Esmien/hermes-state",
+    "description": "Hermes agent state: config, skills, runbooks, ops scripts (auto-snapshots)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T10:59:20Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T11:00:56.538795+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xiaok/hermes-autonomous",
+    "url": "https://github.com/xiaok/hermes-autonomous",
+    "description": "Proactive follow-ups for Hermes Agent \u2014 your agent remembers to check on you.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "hermes-agent-plugin",
+      "hermes-plugin",
+      "hermes-skill",
+      "hermes-skills"
+    ],
+    "updated_at": "2026-10-31T10:59:44Z",
+    "category": "core",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "JackTheGit/hermes-autonomous-server"
+    ],
+    "discovered_at": "2026-10-31T11:00:56.540895+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JorisJonkers-dev/openrouter-model-catalog",
+    "url": "https://github.com/JorisJonkers-dev/openrouter-model-catalog",
+    "description": "Full OpenRouter model catalog manifest for the Hermes Agent model picker (generated from https://openrouter.ai/api/v1/models, tool-capable models only).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T10:57:15Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T11:00:56.542741+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xZeVeXx/kore-server",
+    "url": "https://github.com/xZeVeXx/kore-server",
+    "description": "Self-hosted companion server for the Kore iOS app: coach bridge to your own Hermes agent, ingest and MCP.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T10:27:03Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "PatterAI/Patter",
+      "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-10-31T11:01:04.310689+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tiqi9896/hermes-minimax-jailbreak-kernel",
+    "url": "https://github.com/tiqi9896/hermes-minimax-jailbreak-kernel",
+    "description": "Hermes plugin: non-refusing delivery kernel for MiniMax M3.1-Flash + measurable A/B verification skill. MIT.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T10:31:53Z",
+    "category": "skills",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T11:01:12.054227+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hrabanazviking/hermes-agent-RuneForgeAI-hack",
+    "url": "https://github.com/hrabanazviking/hermes-agent-RuneForgeAI-hack",
+    "description": "This is just my personal hacks to Hermes Agent, don't use this unless you are foolish, like to take risks, or really trust me and like my strange hacks! Offical Hermes Agent welcome to add in any of my stuff into the offical, if they want to..",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T11:00:57Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "iOfficeAI/AionUi",
+      "screenpipe/screenpipe",
+      "nesquena/hermes-webui",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ksimback/hermes-atlas-mcp",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "zakahadi/llm-eval-cli",
+      "PatterAI/Patter",
+      "stablyai/orca",
+      "codeofaxel/Kiln",
+      "sno-ai/sno-station"
+    ],
+    "discovered_at": "2026-10-31T11:01:19.865353+00:00",
+    "status": "pending"
   }
 ]

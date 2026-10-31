@@ -20591,5 +20591,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-31T10:03:26.785170+00:00"
+  },
+  {
+    "repo": "juev/hermes-macos",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456191+00:00"
+  },
+  {
+    "repo": "Esmien/hermes-state",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456200+00:00"
+  },
+  {
+    "repo": "xiaok/hermes-autonomous",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456202+00:00"
+  },
+  {
+    "repo": "JorisJonkers-dev/openrouter-model-catalog",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456203+00:00"
+  },
+  {
+    "repo": "xZeVeXx/kore-server",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456204+00:00"
+  },
+  {
+    "repo": "tiqi9896/hermes-minimax-jailbreak-kernel",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456205+00:00"
+  },
+  {
+    "repo": "hrabanazviking/hermes-agent-RuneForgeAI-hack",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456206+00:00"
   }
 ]
