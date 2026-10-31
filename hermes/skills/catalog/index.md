@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-10-31"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -822,6 +822,27 @@ Linked from this index so the pages are reachable by crawl.
 - [Indexion Skills - Source Code Exploration for Agents Setup](/hermes/skills/catalog/indexion-skills-setup)
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
+
+### New - October 31, 2026 Morning Sweep (16 publisher guides)
+
+Sixteen repository clusters from the queue the October 30 evening probe left behind, documented for **536,147 combined installs across 835 indexed listings**:
+
+- [Jaganpro SF Skills - Salesforce Agent Suite](/hermes/skills/catalog/jaganpro-sf-skills-setup) - 43,852 combined installs across 46 listings; 424 stars; MIT; Apex, LWC, Flow, SOQL, metadata, deploy and Agentforce skills scored against fixed point budgets, where the repository is archived with a documented successor at forcedotcom/afv-library and nine indexed names have no directory
+- [Anti-Slop - AI Copywriting Quality Skill](/hermes/skills/catalog/anti-slop-setup) - 41,307 combined installs across 6 listings; 7,670 stars; MIT; Six skills that strip generic AI tells from UI, copy, mobile layout and code comments, with a contrast checker script, a Hermes-aware installer and a Trust Hub Warn on the core skill the others reference
+- [Browserbase Skills - Agent Browser Automation](/hermes/skills/catalog/browserbase-skills-setup) - 40,127 combined installs across 20 listings; 3,747 stars; no LICENSE file; the official Browserbase suite: sessions, fetch, search, tracing, UI testing and agent functions, where one sampled skill fails Gen Agent Trust Hub
+- [JEO Skills - Presentation and Document Suite](/hermes/skills/catalog/jeo-skills-setup) - 37,915 combined installs across 112 listings; 53 stars; no LICENSE file; a 112-listing flat .agent-skills tree weighted toward presentations and office deliverables, where rtk fails Gen Agent Trust Hub and the guide leads with it
+- [CCFA Skills - Academic Paper and Research Suite](/hermes/skills/catalog/ccfa-skills-setup) - 33,935 combined installs across 24 listings; 3,358 stars; MIT; academic paper work across 24 listings: literature search, LaTeX templates for 141 venues, reviewer simulation and rebuttal, with six indexed names that have no directory
+- [TanStack Agent Skills - Query and Router Setup](/hermes/skills/catalog/deckardger-tanstack-agent-skills-setup) - 32,849 combined installs across 4 listings; 228 stars; MIT; TanStack Query, Router, Start and integration conventions as four skills, each with a rules folder of numbered documents, all sampled verdicts clean
+- [Chris Banes Skills - Compose and Kotlin Suite](/hermes/skills/catalog/chrisbanes-skills-setup) - 32,776 combined installs across 35 listings; 1,133 stars; Apache-2.0; Compose, coroutines, Gradle and Kotlin Multiplatform skills from a Compose maintainer, 20 directories against 35 indexed names with a README migration table covering 13 of the gaps
+- [Paul Berg Agent Skills - Solidity and Foundry](/hermes/skills/catalog/paulrberg-agent-skills-setup) - 32,742 combined installs across 97 listings; 104 stars; MIT; Solidity and Foundry engineering skills plus code polish, commit and dependency-bump tooling over 43 directories against 97 indexed listings
+- [Maggy Skills - Android and Kotlin Agent Suite](/hermes/skills/catalog/maggy-skills-setup) - 32,037 combined installs across 73 listings; 710 stars; MIT; 73 Android and Kotlin skills with 25 slash commands, 13 hooks, 9 conditional rules and a Cortex MCP server, every indexed listing present in the tree
+- [SAP Skills - BTP, CAP and ABAP Agent Suite](/hermes/skills/catalog/sap-skills-setup) - 31,778 combined installs across 45 listings; 482 stars; GPL-3.0; SAP BTP, CAP, ABAP and integration skills, 40 of them shipped as plugins with their own commands, agents and marketplace manifest
+- [Tencent CloudBase Agent Skills - WeChat Dev](/hermes/skills/catalog/tencent-cloudbase-agent-skills-setup) - 30,797 combined installs across 37 listings; 80 stars; MIT; WeChat mini-program and CloudBase skills from Tencent, a separate repository from the cloudbase-skills guide already in the catalog, with one Snyk Fail inside the sample
+- [OrchestKit - Orchestration and DevOps Skills](/hermes/skills/catalog/orchestkit-skills-setup) - 30,386 combined installs across 151 listings; 300 stars; MIT; 115 orchestration and delivery skills with 161 hooks, 36 agents and a build mirror of the same skill set, aimed at plan, deploy, review and release gates
+- [Cypress AI Toolkit - E2E Testing Skills](/hermes/skills/catalog/cypress-ai-toolkit-setup) - 30,426 combined installs across 5 listings; 46 stars; MIT; the official Cypress end-to-end testing toolkit as five skills plus a streamable-http MCP endpoint, with Snyk Warns on the authoring and cloud skills
+- [Asyraf Hussin Skills - Clean Code Suite](/hermes/skills/catalog/asyrafhussin-agent-skills-setup) - 29,010 combined installs across 24 listings; 95 stars; MIT; 24 engineering-standards skills, each with a rules folder and metadata, carrying no scripts and no hooks, with one Socket Warn in the sample
+- [Tigris Data Skills - Object Storage for Agents](/hermes/skills/catalog/tigrisdata-skills-setup) - 28,128 combined installs across 19 listings; 2 stars; MIT; Tigris object storage as 19 skills, where all 18 directories are paired with a .zip distribution package and the sample carries one Socket Warn
+- [Xiaohongshu Skills - RED Content Operations](/hermes/skills/catalog/xiaohongshu-skills-setup) - 28,082 combined installs across 137 listings; 515 stars; no LICENSE file; 137 RED content-operation skills in nine Chinese-named category folders, with three disagreeing counts between the README, the plugin manifest and the tree
 
 ### New - October 30, 2026 Evening Sweep (16 publisher guides)
 
