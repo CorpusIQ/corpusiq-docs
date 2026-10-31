@@ -20407,5 +20407,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-30T10:04:46.532969+00:00"
+  },
+  {
+    "repo": "convergentaru/hermes-local-model-docs",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430936+00:00"
+  },
+  {
+    "repo": "FlyingViet/CantripIOS",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430940+00:00"
+  },
+  {
+    "repo": "amurlaniakea/hermes-crew-hybrid",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430943+00:00"
+  },
+  {
+    "repo": "eyeoverthink/chandra-fraymus",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430945+00:00"
+  },
+  {
+    "repo": "phamtruonghung/hermes-office",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430947+00:00"
+  },
+  {
+    "repo": "Corebrum/corebrum-synapse",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430949+00:00"
+  },
+  {
+    "repo": "wfca-mz/token-optimizer",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430951+00:00"
+  },
+  {
+    "repo": "sno-ai/sno-station",
+    "score": 88,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-31T04:03:25.430953+00:00"
+  },
+  {
+    "repo": "sinkerine/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430955+00:00"
+  },
+  {
+    "repo": "Tsurgcom/hermes-web-markdown-new",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430957+00:00"
   }
 ]

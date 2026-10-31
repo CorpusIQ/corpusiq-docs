@@ -84975,5 +84975,264 @@
     "near_duplicates": [],
     "discovered_at": "2026-10-30T10:04:15.510954+00:00",
     "status": "pending"
+  },
+  {
+    "name": "convergentaru/hermes-local-model-docs",
+    "url": "https://github.com/convergentaru/hermes-local-model-docs",
+    "description": "Documentation and experiments for Hermes Agent with local LLMs on Ubuntu.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-10-31T04:00:38Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "Sibyl-Labs/Sibyl-Memory"
+    ],
+    "discovered_at": "2026-10-31T04:00:56.785491+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "FlyingViet/CantripIOS",
+    "url": "https://github.com/FlyingViet/CantripIOS",
+    "description": "Hermes agent iOS client \u2014 voice + chat",
+    "stars": 0,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "updated_at": "2026-10-31T03:59:26Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T04:00:56.788706+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "amurlaniakea/hermes-crew-hybrid",
+    "url": "https://github.com/amurlaniakea/hermes-crew-hybrid",
+    "description": "Arquitectura h\u00edbrida: Hermes como Director de Orquesta + micro-tripulaciones CrewAI en Docker aislado + Agent Fixer Stage como gateway de seguridad",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-security",
+      "crewai",
+      "docker",
+      "litellm",
+      "multi-agent",
+      "ollama",
+      "orchestration",
+      "python"
+    ],
+    "updated_at": "2026-10-31T03:58:32Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T04:00:56.792948+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "eyeoverthink/chandra-fraymus",
+    "url": "https://github.com/eyeoverthink/chandra-fraymus",
+    "description": "Autonomous AI agent workspace \u2014 Chandra runtime + FRAYMUS master system. Ed25519 identity, 7-format encoding, v13 signed mesh, Ouroboros RSI, Hermes 30-skill fleet, Motor compute dispatch, OpenClaw gateway, Kuramoto phase sync. Full autonomy.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-10-31T03:54:44Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "qingchencloud/clawpanel",
+      "longyunfeigu/learn-hermes-agent",
+      "anomaliagent007-hue/hermes-mimo-bridge"
+    ],
+    "discovered_at": "2026-10-31T04:00:56.796926+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "phamtruonghung/hermes-office",
+    "url": "https://github.com/phamtruonghung/hermes-office",
+    "description": "Headless LibreOffice MCP server for Hermes/Claude Code + document share",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T02:30:12Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T04:01:04.630000+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Corebrum/corebrum-synapse",
+    "url": "https://github.com/Corebrum/corebrum-synapse",
+    "description": "ROS plugin for OpenClaw, Claude (Code,Desktop,Dispatch), Codex, Google Gemini, Hermes, MCP, etc.",
+    "stars": 179,
+    "forks": 25,
+    "language": "C",
+    "topics": [
+      "ai",
+      "anthropic",
+      "claude-code",
+      "codex",
+      "gemini",
+      "openclaw",
+      "physical-ai",
+      "robotics",
+      "ros"
+    ],
+    "updated_at": "2026-10-31T02:20:01Z",
+    "category": "mcp",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem"
+    ],
+    "discovered_at": "2026-10-31T04:01:04.632731+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wfca-mz/token-optimizer",
+    "url": "https://github.com/wfca-mz/token-optimizer",
+    "description": "Reversible token auto-optimizer for AI coding agents: parks MCP servers, plugins and skills that go unused, stops idle sessions, nudges /clear. Claude Code, Codex, Hermes, Gemini. Stdlib-only Python.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-30T20:32:04Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "sandbaseai/cli",
+      "jazzyalex/agent-sessions",
+      "Infisical/agent-vault",
+      "conorbronsdon/avoid-ai-writing",
+      "VasiHemanth/tokentelemetry",
+      "vivekchand/clawmetry",
+      "cavi-ai/mlx-agent",
+      "rexleimo/aios",
+      "Orkas-AI/Orkas",
+      "410979729/scope-recall-hermes",
+      "homarr-labs/dashboard-icons"
+    ],
+    "discovered_at": "2026-10-31T04:01:12.449120+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sinkerine/hermes-agent",
+    "url": "https://github.com/sinkerine/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-31T04:01:01Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-10-31T04:01:20.264318+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Tsurgcom/hermes-web-markdown-new",
+    "url": "https://github.com/Tsurgcom/hermes-web-markdown-new",
+    "description": "[DEPRECATED \u2014 archived] Unmaintained. Use the community plugin 'markdown-new': https://hermes-agent.nousresearch.com/docs/plugins/markdown-new (same web_extract path, actively maintained)",
+    "stars": 4,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-10-30T17:33:33Z",
+    "category": "official",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-10-31T04:02:54.537679+00:00",
+    "status": "pending"
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: Hermes Ecosystem -- Complete Resource Directory
-description: The definitive directory of Hermes Agent resources -- 447+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources -- 448+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 last_updated: "2026-10-30"
@@ -10,9 +10,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem -- Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 447+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 448+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research -- all organized and cross-referenced.
 
-> **Last updated:** October 30, 2026 · **Repos indexed:** 447+ · **Categories:** 18
+> **Last updated:** October 30, 2026 · **Repos indexed:** 448+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -38,7 +38,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 447+ re
 | [Content & Media](#content-media) | 5 | [↓](#content-media) |
 | [Platform-Specific](#platform-specific) | 12 | [↓](#platform-specific) |
 | [Domain Applications](#domain-applications) | 27 | [↓](#domain-applications) |
-| [Forks & Derivatives](#forks-derivatives) | 14 | [↓](#forks-derivatives) |
+| [Forks & Derivatives](#forks-derivatives) | 15 | [↓](#forks-derivatives) |
 | [Guides](#guides) | 1 | [↓](#guides) |
 
 ---
@@ -441,7 +441,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 447+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 448+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -4312,6 +4312,15 @@ A production-grade, open-source SaaS platform for predictive maintenance. This p
 
 Notable forks and derivative projects building on Hermes Agent.
 
+### sno-ai/sno-station
+⭐ **1,086** · `TypeScript` · [github.com/sno-ai/sno-station](https://github.com/sno-ai/sno-station)
+
+When Claude Code hits its usage limit, Codex picks the task up from the same memory. Sno Station puts Codex, Claude Code, Cursor, Hermes Agent and OpenClaw on one squad: they hand work to each other and review each other's code. Open source, runs on your computer.
+
+**Key capabilities:** agent-memory, agent-orchestration, agentic-coding, ai-code-review, ai-coding-agent, ai-memory, claude-code, claude-code-skills
+
+---
+
 ### nativ3ai/hermes-agent-camel
 ⭐ **community** · `Python` · [github.com/nativ3ai/hermes-agent-camel](https://github.com/nativ3ai/hermes-agent-camel)
 
@@ -4483,7 +4492,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 21 |
 | Domain applications | 27 |
-| Forks & derivatives | 14 |
+| Forks & derivatives | 15 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
 | Total community stars | 1M+ across all indexed repos |
 
@@ -4556,7 +4565,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **447+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence -- **448+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

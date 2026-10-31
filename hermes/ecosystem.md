@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 447+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 448+ repos, tools, skills, and integrations
 last_updated: "2026-10-30"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -18,9 +18,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **447+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 205 auto-approved (scored >= 70 or manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **448+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 206 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **447+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **448+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -29,7 +29,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **447+ reposit
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 19 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
-| 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
+| 🍴 Forks & Derivatives | 10 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 10 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 42 | Persistent memory, knowledge graphs, context systems |
@@ -328,6 +328,14 @@ _Community forks with significant changes_
 >Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.
 
 **Language:** Rust | **Topics:** ai-coding, claude, claude-code, codex, hermes-agent, orchestrator | **Score:** 72/100
+
+---
+
+### [sno-ai/sno-station](https://github.com/sno-ai/sno-station) ⭐ 1086
+
+>When Claude Code hits its usage limit, Codex picks the task up from the same memory. Sno Station puts Codex, Claude Code, Cursor, Hermes Agent and OpenClaw on one squad: they hand work to each other and review each other's code. Open source, runs on your computer.
+
+**Language:** TypeScript | **Topics:** agent-memory, agent-orchestration, agentic-coding, ai-code-review, ai-coding-agent, ai-memory, claude-code, claude-code-skills, code-review, codex, codex-cli, codex-skills, cursor, hermes-agent, llm-agents, multi-agent-system, openai-codex, openclaw, self-learning, vibe-coding
 
 ---
 
@@ -1824,7 +1832,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*447+ repositories in the Hermes ecosystem. Last updated: 2026-10-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*448+ repositories in the Hermes ecosystem. Last updated: 2026-10-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
