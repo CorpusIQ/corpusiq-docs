@@ -4236,6 +4236,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4410,6 +4414,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -6513,7 +6573,7 @@
   <a href="#get-started-with-corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Get Started with CorpusIQ vs Vector Databases -- MCP Retrieval vs Vector Search
+        Get Started with CorpusIQ vs Vector Databases - MCP Retrieval vs Vector Search
       
     </span>
   </a>
@@ -11547,7 +11607,7 @@
   <a href="#get-started-with-corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Get Started with CorpusIQ vs Vector Databases -- MCP Retrieval vs Vector Search
+        Get Started with CorpusIQ vs Vector Databases - MCP Retrieval vs Vector Search
       
     </span>
   </a>
@@ -11585,9 +11645,9 @@
   
 
 
-<h1 id="corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search">CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search<a class="headerlink" href="#corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search" title="Anchor link to this section">&para;</a></h1>
+<h1 id="corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search">CorpusIQ vs Vector Databases - MCP Retrieval vs Vector Search<a class="headerlink" href="#corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search" title="Anchor link to this section">&para;</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Anchor link to this section">&para;</a></h2>
-<p>Vector databases (Pinecone, Weaviate, Milvus, Chroma) and CorpusIQ both enable AI to access data  --  but through completely different mechanisms. Vector databases store embeddings of your data and find semantically similar content. CorpusIQ uses the MCP protocol to query live APIs in real time. Understanding the difference is critical for choosing the right architecture for your AI data layer.</p>
+<p>Vector databases (Pinecone, Weaviate, Milvus, Chroma) and CorpusIQ both enable AI to access data - but through completely different mechanisms. Vector databases store embeddings of your data and find semantically similar content. CorpusIQ uses the MCP protocol to query live APIs in real time. Understanding the difference is critical for choosing the right architecture for your AI data layer.</p>
 <p>The short version: <strong>vector databases are for pre-indexed, static content; CorpusIQ is for live, transactional business data.</strong></p>
 <h2 id="how-vector-databases-work">How Vector Databases Work<a class="headerlink" href="#how-vector-databases-work" title="Anchor link to this section">&para;</a></h2>
 <ol>
@@ -11600,7 +11660,7 @@
 <h2 id="how-corpusiq-works">How CorpusIQ Works<a class="headerlink" href="#how-corpusiq-works" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Connect:</strong> Authenticate a data source (HubSpot, QuickBooks, GA4) through OAuth.</li>
-<li><strong>Discover:</strong> The AI assistant discovers available MCP tools  --  typed functions for querying contacts, deals, transactions, metrics.</li>
+<li><strong>Discover:</strong> The AI assistant discovers available MCP tools - typed functions for querying contacts, deals, transactions, metrics.</li>
 <li><strong>Query:</strong> The AI constructs a structured API call based on the user's natural-language question.</li>
 <li><strong>Return:</strong> Live, accurate data flows back to the AI for presentation.</li>
 </ol>
@@ -11627,8 +11687,8 @@
 </tr>
 <tr>
 <td><strong>Accuracy</strong></td>
-<td>Exact  --  returns specific records</td>
-<td>Approximate  --  returns similar content</td>
+<td>Exact - returns specific records</td>
+<td>Approximate - returns similar content</td>
 </tr>
 <tr>
 <td><strong>Freshness</strong></td>
@@ -11679,7 +11739,7 @@
 <li><strong>Analytics:</strong> "Which ad campaign had the highest ROAS this week?"</li>
 <li><strong>Cross-source analysis:</strong> "Compare Google Ads spend to GA4 conversion revenue"</li>
 </ul>
-<p>CorpusIQ is the right tool when your question requires exact, current, complete data  --  not similar content.</p>
+<p>CorpusIQ is the right tool when your question requires exact, current, complete data - not similar content.</p>
 <h2 id="the-rag-architecture-debate">The RAG Architecture Debate<a class="headerlink" href="#the-rag-architecture-debate" title="Anchor link to this section">&para;</a></h2>
 <p>Many organizations implementing RAG (Retrieval-Augmented Generation) default to vector databases. But for structured business data, this creates unnecessary complexity:</p>
 <p><strong>Vector DB approach for business data:</strong>
@@ -11690,7 +11750,7 @@
 <div class="highlight"><pre><span></span><code>AI → MCP Protocol → Live API → Source → Exact Results → LLM
 (Advantages: fresh data, exact results, aggregation, 2-min setup)
 </code></pre></div></p>
-<p>For structured business data, the vector approach adds latency, cost, and inaccuracy without benefit. You don't need "invoices similar to $500"  --  you need "invoice #12345 for $500."</p>
+<p>For structured business data, the vector approach adds latency, cost, and inaccuracy without benefit. You don't need "invoices similar to $500" - you need "invoice #12345 for $500."</p>
 <h2 id="a-combined-architecture">A Combined Architecture<a class="headerlink" href="#a-combined-architecture" title="Anchor link to this section">&para;</a></h2>
 <p>The most sophisticated AI implementations use both:</p>
 <ul>
@@ -11700,37 +11760,37 @@
 <p>The AI assistant routes questions appropriately: semantic queries go to the vector store, exact queries go to CorpusIQ's MCP connectors. This hybrid approach gives users the best of both worlds.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Can CorpusIQ replace Pinecone or Weaviate?</strong><br />
-A: For structured business data queries  --  yes. For semantic search over unstructured text  --  no. They serve different data types and query patterns.</p>
+A: For structured business data queries - yes. For semantic search over unstructured text - no. They serve different data types and query patterns.</p>
 <p><strong>Q: Does CorpusIQ use vector embeddings?</strong><br />
 A: No. CorpusIQ uses structured API calls, not vector similarity search. This gives exact results for transactional business data.</p>
 <p><strong>Q: Which is faster for business questions?</strong><br />
-A: CorpusIQ  --  queries complete in 1-5 seconds with exact results. Vector databases require pre-indexing and return approximate top-k results.</p>
+A: CorpusIQ - queries complete in 1-5 seconds with exact results. Vector databases require pre-indexing and return approximate top-k results.</p>
 <p><strong>Q: Can I use both together?</strong><br />
 A: Yes, and this is a recommended architecture. Vector DB handles unstructured content; CorpusIQ handles structured business data. The AI routes queries to the right system.</p>
 <p><strong>Q: Do I need to re-index data with CorpusIQ?</strong>
 A: Not for direct MCP, which queries live sources without building an index. Optional indexed search is a separate mode with an embeddings and minimal-metadata lifecycle.</p>
 <p><strong>Q: What about hybrid search (vector + keyword)?</strong><br />
-A: Vector databases support hybrid search for text. CorpusIQ isn't a search engine  --  it's a protocol layer for structured data access. They're different categories.</p>
+A: Vector databases support hybrid search for text. CorpusIQ isn't a search engine - it's a protocol layer for structured data access. They're different categories.</p>
 <p><strong>Q: Which is more expensive?</strong><br />
 A: Vector databases charge for storage, embeddings, and query compute. CorpusIQ charges per seat. For business intelligence use cases, CorpusIQ is typically more cost-effective.</p>
 <p><strong>Q: Can I do aggregations with a vector database?</strong><br />
 A: No. Vector databases return text chunks, not aggregated numerical data. If you need "total revenue by quarter," you need a structured data system like CorpusIQ.</p>
-<h2 id="get-started-with-corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search">Get Started with CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search<a class="headerlink" href="#get-started-with-corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search" title="Anchor link to this section">&para;</a></h2>
-<p>Ready to put AI to work on your corpusiq vs vector databases  --  mcp retrieval vs vector search data? </p>
+<h2 id="get-started-with-corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search">Get Started with CorpusIQ vs Vector Databases - MCP Retrieval vs Vector Search<a class="headerlink" href="#get-started-with-corpusiq-vs-vector-databases-mcp-retrieval-vs-vector-search" title="Anchor link to this section">&para;</a></h2>
+<p>Ready to put AI to work on your corpusiq vs vector databases - mcp retrieval vs vector search data? </p>
 <ol>
-<li><strong>Sign up</strong> for a <a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-corpusiq-vs-vector-databases">CorpusIQ account</a>  --  free plan available.</li>
-<li><strong>Connect your data</strong>  --  OAuth 2.0 authentication takes under 60 seconds.</li>
-<li><strong>Start asking questions</strong>  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.</li>
-<li><strong>Scale your usage</strong>  --  add team members, connect more sources, and automate recurring reports.</li>
+<li><strong>Sign up</strong> for a <a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-corpusiq-vs-vector-databases">CorpusIQ account</a> - free plan available.</li>
+<li><strong>Connect your data</strong> - OAuth 2.0 authentication takes under 60 seconds.</li>
+<li><strong>Start asking questions</strong> - use ChatGPT, Claude, or any MCP-compatible AI assistant.</li>
+<li><strong>Scale your usage</strong> - add team members, connect more sources, and automate recurring reports.</li>
 </ol>
 <p><strong><a href="https://www.corpusiq.io/register?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=docs-corpusiq-vs-vector-databases">Get started now →</a></strong></p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/compare">CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering</a></li>
-<li><a href="/compare">CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data</a></li>
-<li><a href="/compare">CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework</a></li>
+<li><a href="/compare">CorpusIQ vs Custom RAG - 2-Min Setup vs Engineering</a></li>
+<li><a href="/compare">CorpusIQ vs Data Warehouses - Live Query vs Stored Data</a></li>
+<li><a href="/compare">CorpusIQ vs LangChain - MCP Protocol vs AI Framework</a></li>
 <li><a href="https://www.corpusiq.io/answers">How to Build an AI Knowledge Base</a></li>
-<li><a href="/compare">Best Business AI Search Tool  --  Rankings</a></li>
+<li><a href="/compare">Best Business AI Search Tool - Rankings</a></li>
 <li><a href="https://www.corpusiq.io/answers">How to Search Company Data with AI</a></li>
 <li><a href="https://www.corpusiq.io/answers">How to Query Business Data in Natural Language</a></li>
 <li><a href="https://www.corpusiq.io/enterprise">Enterprise AI Data Access Guide</a></li>

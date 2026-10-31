@@ -4234,6 +4234,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4408,6 +4412,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11466,7 +11526,7 @@
   <a href="#curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub -- 449+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub - 449+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -11504,9 +11564,9 @@
   
 
 
-<h1 id="hermes-agent-library-9-production-ready-ai-agent-blueprints">Hermes Agent Library  --  9 Production-Ready AI Agent Blueprints<a class="headerlink" href="#hermes-agent-library-9-production-ready-ai-agent-blueprints" title="Anchor link to this section">&para;</a></h1>
-<p>The <strong>Hermes Agent Library</strong> is a curated collection of <strong>production-ready agent configurations</strong> for common business roles. Each agent is a complete configuration blueprint  --  not a demo or stub  --  that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes role description, recommended model, skills to load, MCP connectors, cron schedule, and quick-start command.</p>
-<p>Agents in this library run on the <a href="https://www.corpusiq.io/docs/hermes">Hermes Agent framework</a> by Nous Research. They combine <strong>LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools</strong> through <a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ MCP connectors</a>. An agent isn't just a prompt  --  it's an <strong>always-on teammate</strong> that monitors, analyzes, drafts, alerts, and reports on a schedule you define.</p>
+<h1 id="hermes-agent-library-9-production-ready-ai-agent-blueprints">Hermes Agent Library - 9 Production-Ready AI Agent Blueprints<a class="headerlink" href="#hermes-agent-library-9-production-ready-ai-agent-blueprints" title="Anchor link to this section">&para;</a></h1>
+<p>The <strong>Hermes Agent Library</strong> is a curated collection of <strong>production-ready agent configurations</strong> for common business roles. Each agent is a complete configuration blueprint - not a demo or stub - that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes role description, recommended model, skills to load, MCP connectors, cron schedule, and quick-start command.</p>
+<p>Agents in this library run on the <a href="https://www.corpusiq.io/docs/hermes">Hermes Agent framework</a> by Nous Research. They combine <strong>LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools</strong> through <a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ MCP connectors</a>. An agent isn't just a prompt - it's an <strong>always-on teammate</strong> that monitors, analyzes, drafts, alerts, and reports on a schedule you define.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -11588,7 +11648,7 @@
 <h3 id="1-pick-your-agent">1. Pick Your Agent<a class="headerlink" href="#1-pick-your-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Each agent file is a <strong>self-contained configuration</strong>. Read the role description to confirm it matches your needs, then follow the Quick-Start command at the bottom. The command creates the agent in your Hermes installation with the specified profile, skills, and connectors.</p>
 <h3 id="2-connect-your-tools">2. Connect Your Tools<a class="headerlink" href="#2-connect-your-tools" title="Anchor link to this section">&para;</a></h3>
-<p>Before an agent can work, its MCP connectors need to be authenticated. Run <code>hermes mcp add</code> to connect each server (discovery-first install), then <code>hermes mcp list</code> to confirm what is wired up. If a server uses OAuth, <code>hermes mcp login</code> forces re-authentication; <code>hermes mcp test</code> checks the connection. You only need to connect the services you actually use  --  skip connectors for platforms you don't have.</p>
+<p>Before an agent can work, its MCP connectors need to be authenticated. Run <code>hermes mcp add</code> to connect each server (discovery-first install), then <code>hermes mcp list</code> to confirm what is wired up. If a server uses OAuth, <code>hermes mcp login</code> forces re-authentication; <code>hermes mcp test</code> checks the connection. You only need to connect the services you actually use - skip connectors for platforms you don't have.</p>
 <h3 id="3-customize-the-cron-schedule">3. Customize the Cron Schedule<a class="headerlink" href="#3-customize-the-cron-schedule" title="Anchor link to this section">&para;</a></h3>
 <p>The sample cron schedules are sensible defaults but should be tuned to your timezone, working hours, and operational cadence. Edit them in your agent's profile configuration:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># edit a specific profile&#39;s config</span>
@@ -11639,7 +11699,7 @@ hermes<span class="w"> </span>config<span class="w"> </span>edit
 </tr>
 </tbody>
 </table>
-<p><strong>Recommendation:</strong> Use Claude Sonnet 5.5 or GPT-5.6 for agents that draft communications or analyze complex multi-source data. Use DeepSeek V4.1/V4 Pro for structured data analysis. Use Haiku or a mini/nano tier for always-on monitoring skills. Model IDs rotate every few weeks  --  confirm the exact slug in the <code>/model</code> picker before you pin one.</p>
+<p><strong>Recommendation:</strong> Use Claude Sonnet 5.5 or GPT-5.6 for agents that draft communications or analyze complex multi-source data. Use DeepSeek V4.1/V4 Pro for structured data analysis. Use Haiku or a mini/nano tier for always-on monitoring skills. Model IDs rotate every few weeks - confirm the exact slug in the <code>/model</code> picker before you pin one.</p>
 <h2 id="extending-agents">Extending Agents<a class="headerlink" href="#extending-agents" title="Anchor link to this section">&para;</a></h2>
 <p>Every agent in this library is a starting point. Common extensions:</p>
 <ul>
@@ -11647,11 +11707,11 @@ hermes<span class="w"> </span>config<span class="w"> </span>edit
 <li><strong>Chain agents:</strong> Have the Sales Agent's pipeline report feed into the Executive Agent's daily briefing</li>
 <li><strong>Add web search:</strong> Enable browser automation or web search tools for real-time external data</li>
 <li><strong>Custom connectors:</strong> Build MCP connectors for your proprietary tools</li>
-<li><strong>Multi-model routing:</strong> Use Haiku for classification and Sonnet for drafting  --  same agent, optimized cost</li>
+<li><strong>Multi-model routing:</strong> Use Haiku for classification and Sonnet for drafting - same agent, optimized cost</li>
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="what-is-the-hermes-agent-library">What is the Hermes Agent Library?<a class="headerlink" href="#what-is-the-hermes-agent-library" title="Anchor link to this section">&para;</a></h3>
-<p>The <strong>Hermes Agent Library</strong> provides 9 production-ready, role-specific agent configurations for common business roles. Each includes skills, MCP connectors, cron schedules, model recommendations, and quick-start commands  --  ready to deploy in minutes on the Hermes Agent framework.</p>
+<p>The <strong>Hermes Agent Library</strong> provides 9 production-ready, role-specific agent configurations for common business roles. Each includes skills, MCP connectors, cron schedules, model recommendations, and quick-start commands - ready to deploy in minutes on the Hermes Agent framework.</p>
 <h3 id="how-do-i-deploy-a-hermes-agent-from-this-library">How do I deploy a Hermes agent from this library?<a class="headerlink" href="#how-do-i-deploy-a-hermes-agent-from-this-library" title="Anchor link to this section">&para;</a></h3>
 <ol>
 <li>Pick the agent matching your role from the table above 2. Run the Quick-Start command from the agent's page 3. Authenticate the required connectors with <code>hermes mcp add</code> 4. Customize the cron schedule for your timezone 5. Test manually, then enable the cron.</li>
@@ -11664,14 +11724,14 @@ hermes<span class="w"> </span>config<span class="w"> </span>edit
 <p>Cost varies by model and frequency. Lightweight monitoring with <strong>Claude Haiku 5.5</strong> costs pennies per day. Full-featured agents with <strong>Claude Sonnet 5.5</strong> may cost $1-5/day depending on frequency. See the <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a> for optimization tips.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes">Hermes Knowledge Hub  --  Architecture &amp; Deployment</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog  --  133+ Production Skills</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ MCP Connectors  --  40+ Business Tools</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes">Hermes Knowledge Hub - Architecture &amp; Deployment</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog - 133+ Production Skills</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp/connectors">CorpusIQ MCP Connectors - 40+ Business Tools</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/governance/scheduling">Cron Scheduling Guide</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/governance">Canonical Facts  --  Store Business Definitions</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/governance">Canonical Facts - Store Business Definitions</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Best Practices</a></li>
 </ul>
-<h2 id="curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  449+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<h2 id="curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> - 449+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 <h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>

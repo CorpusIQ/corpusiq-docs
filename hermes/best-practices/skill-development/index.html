@@ -4234,6 +4234,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4408,6 +4412,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11695,10 +11755,10 @@
   
 
 
-<h1 id="skill-development-guide-build-reusable-ai-agent-skills">Skill Development Guide  --  Build Reusable AI Agent Skills<a class="headerlink" href="#skill-development-guide-build-reusable-ai-agent-skills" title="Anchor link to this section">&para;</a></h1>
-<p>Skills are Hermes Agent's superpower  --  they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting. This skill development guide covers everything from your first SKILL.md to publishing.</p>
+<h1 id="skill-development-guide-build-reusable-ai-agent-skills">Skill Development Guide - Build Reusable AI Agent Skills<a class="headerlink" href="#skill-development-guide-build-reusable-ai-agent-skills" title="Anchor link to this section">&para;</a></h1>
+<p>Skills are Hermes Agent's superpower - they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting. This skill development guide covers everything from your first SKILL.md to publishing.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Custom skills capture repeatable workflows  --  tool calls, validations, and output formatting  --  into a package you, your team, or the community can reuse. Following <a href="https://www.corpusiq.io/docs/hermes/best-practices">best practices</a> for skill development ensures your skills are testable, maintainable, and production-ready.</p>
+<p>Custom skills capture repeatable workflows - tool calls, validations, and output formatting - into a package you, your team, or the community can reuse. Following <a href="https://www.corpusiq.io/docs/hermes/best-practices">best practices</a> for skill development ensures your skills are testable, maintainable, and production-ready.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-rule-of-three">The Rule of Three<a class="headerlink" href="#the-rule-of-three" title="Anchor link to this section">&para;</a></h3>
 <p>Before creating a skill, perform the task manually at least three times:
@@ -11721,7 +11781,7 @@
 </code></pre></div>
 <p>Hermes skills follow the <a href="https://agentskills.io/specification">agentskills.io specification</a> and load by progressive disclosure: only the frontmatter name and description sit in every prompt, and the body plus any <code>references/</code>, <code>templates/</code>, or <code>scripts/</code> files load on demand. Prefix the body with the standard sections: <code>## When to Use</code>, <code>## Procedure</code>, <code>## Pitfalls</code>, <code>## Verification</code>.</p>
 <h3 id="trigger-patterns">Trigger Patterns<a class="headerlink" href="#trigger-patterns" title="Anchor link to this section">&para;</a></h3>
-<p>Write 5-10 trigger patterns covering different ways users might ask. <strong>Good:</strong> "Check our marketing performance this week"  --  specific enough to avoid false positives but broad enough to catch real intent. <strong>Bad:</strong> "marketing" (too broad) or overly specific variations.</p>
+<p>Write 5-10 trigger patterns covering different ways users might ask. <strong>Good:</strong> "Check our marketing performance this week" - specific enough to avoid false positives but broad enough to catch real intent. <strong>Bad:</strong> "marketing" (too broad) or overly specific variations.</p>
 <h3 id="verification-between-steps">Verification Between Steps<a class="headerlink" href="#verification-between-steps" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>Schema verification:</strong> Does response have expected shape?</li>
@@ -11732,7 +11792,7 @@
 <h3 id="error-recovery-patterns">Error Recovery Patterns<a class="headerlink" href="#error-recovery-patterns" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>Transient errors:</strong> Retry with exponential backoff (max 3 attempts, include jitter)</li>
-<li><strong>Auth errors:</strong> Don't retry  --  return clear re-auth message</li>
+<li><strong>Auth errors:</strong> Don't retry - return clear re-auth message</li>
 <li><strong>Data errors:</strong> Return partial results with clear caveats</li>
 <li><strong>Partial failures:</strong> Return successes + failure summary</li>
 </ul>
@@ -11785,10 +11845,10 @@
 <p>Good triggers are specific enough to avoid false positives but broad enough to catch natural variations. Write 5-10 patterns covering different formality levels, time windows, and specificity. Avoid single-word triggers and overly specific patterns.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a>  --  All guides</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">Creating Custom Skills</a>  --  Full walkthrough with example</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces">Skill Marketplaces</a>  --  Where to publish</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/mcp-design">MCP Server Design</a>  --  Build tools your skills call</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a> - All guides</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">Creating Custom Skills</a> - Full walkthrough with example</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/skill-marketplaces">Skill Marketplaces</a> - Where to publish</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/mcp-design">MCP Server Design</a> - Build tools your skills call</li>
 </ul>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

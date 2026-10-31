@@ -4230,6 +4230,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4404,6 +4408,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11357,11 +11417,11 @@
 <h2 id="usage-in-promotion">Usage in promotion<a class="headerlink" href="#usage-in-promotion" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt; re-checked Oct 26, 2026)</li>
-<li>Affiliate and outreach emails can say "available in the ChatGPT app store, and inside Claude through our MCP connector". Never claim a Claude directory listing or a one-click Claude install  --  Anthropic's public directory API returns no CorpusIQ entry.</li>
+<li>Affiliate and outreach emails can say "available in the ChatGPT app store, and inside Claude through our MCP connector". Never claim a Claude directory listing or a one-click Claude install - Anthropic's public directory API returns no CorpusIQ entry.</li>
 <li>Docs links should use the direct plugin link above</li>
 </ul>
 <h2 id="verification-method">Verification method<a class="headerlink" href="#verification-method" title="Anchor link to this section">&para;</a></h2>
-<p>curl the llms.txt at corpusiq.io (it documents the listing), then confirm via browser search at chatgpt.com/plugins?q=corpusiq. The listing card reads "CorpusIQ - Ask questions across files" and is public. A plain curl of the direct plugin URL returns 403 for non-browser clients, which is bot filtering, not a missing listing  --  check it in a browser.</p>
+<p>curl the llms.txt at corpusiq.io (it documents the listing), then confirm via browser search at chatgpt.com/plugins?q=corpusiq. The listing card reads "CorpusIQ - Ask questions across files" and is public. A plain curl of the direct plugin URL returns 403 for non-browser clients, which is bot filtering, not a missing listing - check it in a browser.</p>
 <p>For the Claude side, curl https://api.anthropic.com/api/directory/servers and search for "corpusiq". As of Oct 26, 2026 the response contains no CorpusIQ entry, so Claude access is described as a custom MCP connector, never as a directory listing.</p>
 
 

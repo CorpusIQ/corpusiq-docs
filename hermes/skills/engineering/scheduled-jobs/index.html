@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts.">
+        <meta name="description" content="Operate, debug, and verify recurring agent work - daily audits, inbox monitors, watchdogs, no-agent scripts.">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/engineering/scheduled-jobs">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="scheduled-jobs - CorpusIQ Docs">
-  <meta property="og:description" content="Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts.">
+  <meta property="og:description" content="Operate, debug, and verify recurring agent work - daily audits, inbox monitors, watchdogs, no-agent scripts.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="scheduled-jobs - CorpusIQ Docs">
-  <meta name="twitter:description" content="Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts.">
+  <meta name="twitter:description" content="Operate, debug, and verify recurring agent work - daily audits, inbox monitors, watchdogs, no-agent scripts.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,7 +104,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "scheduled-jobs - CorpusIQ Docs",
-    "description": "Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts.",
+    "description": "Operate, debug, and verify recurring agent work - daily audits, inbox monitors, watchdogs, no-agent scripts.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/engineering/scheduled-jobs",
     
     "datePublished": "2026-10-30",
@@ -4230,6 +4230,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4404,6 +4408,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11274,7 +11334,7 @@
   <a href="#canonical-tooling-use-it-dont-hand-edit-jobsjson" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Canonical tooling -- use it, don't hand-edit jobs.json
+        Canonical tooling - use it, don't hand-edit jobs.json
       
     </span>
   </a>
@@ -11373,7 +11433,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library - 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -11401,8 +11461,8 @@
 
 
 <h1 id="scheduled-jobs-hermes-cron">Scheduled Jobs (Hermes Cron)<a class="headerlink" href="#scheduled-jobs-hermes-cron" title="Anchor link to this section">&para;</a></h1>
-<p>Operate and debug a Hermes agent's recurring work  --  the daily audit email, support-inbox monitor, agent-to-agent watchdogs, vendor sync jobs, end-of-day digests. All of it runs on Hermes cron and the rules here apply to every job in that family.</p>
-<h2 id="canonical-tooling-use-it-dont-hand-edit-jobsjson">Canonical tooling  --  use it, don't hand-edit jobs.json<a class="headerlink" href="#canonical-tooling-use-it-dont-hand-edit-jobsjson" title="Anchor link to this section">&para;</a></h2>
+<p>Operate and debug a Hermes agent's recurring work - the daily audit email, support-inbox monitor, agent-to-agent watchdogs, vendor sync jobs, end-of-day digests. All of it runs on Hermes cron and the rules here apply to every job in that family.</p>
+<h2 id="canonical-tooling-use-it-dont-hand-edit-jobsjson">Canonical tooling - use it, don't hand-edit jobs.json<a class="headerlink" href="#canonical-tooling-use-it-dont-hand-edit-jobsjson" title="Anchor link to this section">&para;</a></h2>
 <p>Profile-local cron management belongs to two scripts:</p>
 <table>
 <thead>
@@ -11443,7 +11503,7 @@ hermes<span class="w"> </span>gateway<span class="w"> </span>migrate<span class=
 </code></pre></div>
 <p>Verify afterwards with <code>hermes gateway list</code>: one entry running, the rest shown as not running because the host gateway serves them. A job reporting "dead" is usually a job whose profile the gateway is not serving, not a broken schedule.</p>
 <h2 id="the-no_agent-cron-pattern">The "no_agent" cron pattern<a class="headerlink" href="#the-no_agent-cron-pattern" title="Anchor link to this section">&para;</a></h2>
-<p>Some jobs don't need an LLM at all  --  they're just scripts that produce a notification when they detect something. Examples:</p>
+<p>Some jobs don't need an LLM at all - they're just scripts that produce a notification when they detect something. Examples:</p>
 <ul>
 <li>Watchdog: memory &gt; 90%, send Telegram alert</li>
 <li>API poller: fetch a status endpoint, alert if degraded</li>
@@ -11458,7 +11518,7 @@ hermes<span class="w"> </span>gateway<span class="w"> </span>migrate<span class=
 </code></pre></div>
 <ul>
 <li>Stdout from the script becomes the message body</li>
-<li><strong>Empty stdout = silent</strong> (the watchdog pattern  --  only notify when there's something to notify about)</li>
+<li><strong>Empty stdout = silent</strong> (the watchdog pattern - only notify when there's something to notify about)</li>
 <li>Non-zero exit code or a timeout triggers an error alert (so a broken watchdog can't fail silently)</li>
 <li><code>{"wakeAgent": false}</code> on the last line is the same silent-tick gate LLM jobs use</li>
 </ul>
@@ -11468,7 +11528,7 @@ hermes<span class="w"> </span>gateway<span class="w"> </span>migrate<span class=
 - Memory/disk/GPU watchdogs, threshold alerts, heartbeats
 - CI notifications, API pollers with a fixed output shape</p>
 <p>When to use the default (LLM-driven):
-- Anything that needs reasoning  --  summarize a feed, draft a daily briefing, pick interesting items, rephrase data for a human
+- Anything that needs reasoning - summarize a feed, draft a daily briefing, pick interesting items, rephrase data for a human
 - Conditional logic based on content</p>
 <h2 id="in-prompt-curl-is-a-trap-use-a-script-instead">In-prompt curl is a trap (use a script instead)<a class="headerlink" href="#in-prompt-curl-is-a-trap-use-a-script-instead" title="Anchor link to this section">&para;</a></h2>
 <p>When you're writing a job's prompt and you want it to send a Telegram or Slack message, the natural instinct is to embed a <code>curl</code> invocation in the prompt body. <strong>Don't.</strong> Hermes' tool-approval layer may block the in-prompt curl, AND the ticker UX (the "agent is working..." indicator) gets killed when an unapproved tool fires.</p>
@@ -11480,10 +11540,10 @@ hermes<span class="w"> </span>gateway<span class="w"> </span>migrate<span class=
 </code></pre></div>
 <p><code>--system</code> installs a Linux system-level service that starts at boot; <code>--force</code> reinstalls over an existing unit, and <code>--force-unit-path</code> repoints a unit that still pins another <code>HERMES_HOME</code>. One host gateway serves every profile, so run this once - do not repeat it per profile.</p>
 <h2 id="status-discipline">Status discipline<a class="headerlink" href="#status-discipline" title="Anchor link to this section">&para;</a></h2>
-<p>Every job should write its last result to a status file (<code>scripts/&lt;job&gt;_status.json</code> or similar) AND log to your standard log path. The cron daemon tracks <code>last_status</code> per job, but that's a coarse "ok / error"  --  the status file is where the operator looks when they need to diagnose "why did this job report ok but the email never arrived?"</p>
+<p>Every job should write its last result to a status file (<code>scripts/&lt;job&gt;_status.json</code> or similar) AND log to your standard log path. The cron daemon tracks <code>last_status</code> per job, but that's a coarse "ok / error" - the status file is where the operator looks when they need to diagnose "why did this job report ok but the email never arrived?"</p>
 <p>Pattern: structure the status file as <code>{"timestamp": ..., "summary": ..., "details": {...}}</code>. The watchdog skill (above) reads these files and surfaces anomalies before they compound.</p>
 <h2 id="drift-detection">Drift detection<a class="headerlink" href="#drift-detection" title="Anchor link to this section">&para;</a></h2>
-<p>A recurring problem with crontabs: jobs that USED to work but silently degraded  --  the API they call moved endpoints, the script's dependencies got upgraded, the auth token expired. The watchdog catches the loudest failures, but the subtle ones (job runs, exits 0, produces wrong output) need active drift detection.</p>
+<p>A recurring problem with crontabs: jobs that USED to work but silently degraded - the API they call moved endpoints, the script's dependencies got upgraded, the auth token expired. The watchdog catches the loudest failures, but the subtle ones (job runs, exits 0, produces wrong output) need active drift detection.</p>
 <p>For any job whose output has a known shape, write a tiny assertion at the end of the script:</p>
 <div class="highlight"><pre><span></span><code><span class="n">result</span> <span class="o">=</span> <span class="n">do_the_work</span><span class="p">()</span>
 <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span>
@@ -11493,10 +11553,10 @@ hermes<span class="w"> </span>gateway<span class="w"> </span>migrate<span class=
 <p>A failing assertion exits non-zero, the cron watchdog surfaces it, you get a real signal.</p>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/engineering/api-development">api-development</a>  --  when your cron job hits a Cloud Run API, the deploy-verification patterns apply</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage">honcho-memory-usage</a>  --  for cron jobs that need cross-session memory</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/engineering/api-development">api-development</a> - when your cron job hits a Cloud Run API, the deploy-verification patterns apply</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage">honcho-memory-usage</a> - for cron jobs that need cross-session memory</li>
 </ul>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> - 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 
 

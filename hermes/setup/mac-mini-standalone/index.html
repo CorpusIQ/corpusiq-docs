@@ -4234,6 +4234,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4408,6 +4412,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11762,7 +11822,7 @@
 
 
 <h1 id="mac-mini-m4-ai-server-setup-ollama-mlx-playwright">Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright<a class="headerlink" href="#mac-mini-m4-ai-server-setup-ollama-mlx-playwright" title="Anchor link to this section">&para;</a></h1>
-<p>The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging  --  no worker nodes, no SSH keys, no multi-machine complexity.</p>
+<p>The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging - no worker nodes, no SSH keys, no multi-machine complexity.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it uniquely suited for running local AI models. Combined with silent operation (~20W idle) and native macOS support for Playwright browser automation, it's the recommended <a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent setup</a> platform for solo operators who want a single-box solution.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
@@ -11816,7 +11876,7 @@ hermes<span class="w"> </span>--version
 </code></pre></div>
 <h3 id="step-3-model-setup">Step 3: Model Setup<a class="headerlink" href="#step-3-model-setup" title="Anchor link to this section">&para;</a></h3>
 <p>Pick one or both strategies:</p>
-<p><strong>Local Models (Ollama  --  Free):</strong></p>
+<p><strong>Local Models (Ollama - Free):</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Install Ollama</span>
 curl<span class="w"> </span>-fsSL<span class="w"> </span>https://ollama.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
 
@@ -11829,7 +11889,7 @@ ollama<span class="w"> </span>pull<span class="w"> </span>qwen2.5:14b<span class
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.provider<span class="w"> </span>ollama
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>llama3.2
 </code></pre></div>
-<p><strong>Cloud Models (OpenRouter  --  Pay-per-use):</strong></p>
+<p><strong>Cloud Models (OpenRouter - Pay-per-use):</strong></p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>OPENROUTER_API_KEY<span class="w"> </span><span class="s2">&quot;your-key&quot;</span><span class="w">   </span><span class="c1"># written to ~/.hermes/.env</span>
 hermes<span class="w"> </span>model<span class="w">                                      </span><span class="c1"># pick provider + default model</span>
 </code></pre></div>
@@ -11881,25 +11941,25 @@ caffeinate<span class="w"> </span>-dims<span class="w"> </span><span class="p">&
 </code></pre></div>
 <p>Or go to <strong>System Settings → Battery → Options → Prevent automatic sleeping on power adapter</strong>.</p>
 <h3 id="step-7-memory-stack">Step 7: Memory Stack<a class="headerlink" href="#step-7-memory-stack" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Honcho  --  peer memory (2 min)</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Honcho - peer memory (2 min)</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer your-h...ken&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;X-Honcho-Workspace-ID: your-workspace&quot;</span>
 
-<span class="c1"># GBrain  --  project memory (10 min)</span>
+<span class="c1"># GBrain - project memory (10 min)</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/garrytan/gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>./setup.sh
 
-<span class="c1"># memcore  --  cross-session context (5 min)</span>
+<span class="c1"># memcore - cross-session context (5 min)</span>
 hermes<span class="w"> </span>plugins<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>memcore_yifanchen
 </code></pre></div>
 <p>Full details in the <a href="https://www.corpusiq.io/docs/hermes/knowledge">memory architecture guide</a>.</p>
 <h2 id="benefits-of-mac-mini-m4-hermes-agent">Benefits of Mac Mini M4 + Hermes Agent<a class="headerlink" href="#benefits-of-mac-mini-m4-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Single-box simplicity</strong>: No worker nodes, no SSH, no multi-machine coordination</li>
-<li><strong>Unified memory</strong>: 16-32GB shared between CPU and GPU  --  ideal for local LLM inference</li>
-<li><strong>Silent operation</strong>: ~20W idle, ~40W under load  --  leave it running 24/7</li>
+<li><strong>Unified memory</strong>: 16-32GB shared between CPU and GPU - ideal for local LLM inference</li>
+<li><strong>Silent operation</strong>: ~20W idle, ~40W under load - leave it running 24/7</li>
 <li><strong>Native browser automation</strong>: Playwright and patchright run directly on macOS</li>
-<li><strong>Developer ecosystem</strong>: Homebrew, Python, Node.js  --  everything just works</li>
+<li><strong>Developer ecosystem</strong>: Homebrew, Python, Node.js - everything just works</li>
 <li><strong>Cost efficiency</strong>: $599 one-time hardware, free local models, ~$3/month electricity</li>
 </ul>
 <h2 id="cost-summary">Cost Summary<a class="headerlink" href="#cost-summary" title="Anchor link to this section">&para;</a></h2>
@@ -11945,14 +12005,14 @@ hermes<span class="w"> </span>plugins<span class="w"> </span><span class="nb">en
 <p>Add a <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC worker node</a> via SSH for GPU-heavy inference, or use <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud GPU instances</a> for burst workloads.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  Compare all hardware platforms</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">Gaming PC Setup</a>  --  Maximum GPU performance</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  Tiered model routing</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/knowledge">Memory Architecture</a>  --  Triple-stack agent memory</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp">MCP Integration Guide</a>  --  Connect 40+ business platforms</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/troubleshooting">Troubleshooting Guide</a>  --  Common Mac Mini issues</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/changelog">Hermes Changelog</a>  --  Latest agent releases and features</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Skills Marketplace</a>  --  946+ community skills</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a> - Compare all hardware platforms</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">Gaming PC Setup</a> - Maximum GPU performance</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a> - Tiered model routing</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/knowledge">Memory Architecture</a> - Triple-stack agent memory</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/mcp">MCP Integration Guide</a> - Connect 40+ business platforms</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/troubleshooting">Troubleshooting Guide</a> - Common Mac Mini issues</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/changelog">Hermes Changelog</a> - Latest agent releases and features</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Skills Marketplace</a> - 946+ community skills</li>
 </ul>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

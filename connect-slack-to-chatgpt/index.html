@@ -27,7 +27,7 @@
     
     
   
-    <title>Connect Slack to ChatGPT via MCP -- Live Data, No Code</title>
+    <title>Connect Slack to ChatGPT via MCP - Live Data, No Code</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/connect-slack-to-chatgpt">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Connect Slack to ChatGPT via MCP -- Live Data, No Code">
+  <meta property="og:title" content="Connect Slack to ChatGPT via MCP - Live Data, No Code">
   <meta property="og:description" content="Connect your Slack account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Connect Slack to ChatGPT via MCP -- Live Data, No Code">
+  <meta name="twitter:title" content="Connect Slack to ChatGPT via MCP - Live Data, No Code">
   <meta name="twitter:description" content="Connect your Slack account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Connect Slack to ChatGPT via MCP -- Live Data, No Code",
+    "name": "Connect Slack to ChatGPT via MCP - Live Data, No Code",
     "description": "Connect your Slack account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers.",
     "url": "https://www.corpusiq.io/docs/connect-slack-to-chatgpt",
     
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Connect Slack to ChatGPT via MCP -- Live Data, No Code
+              Connect Slack to ChatGPT via MCP - Live Data, No Code
             
           </span>
         </div>
@@ -4441,6 +4441,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4615,6 +4619,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11662,8 +11722,8 @@
 
 
 <h1 id="how-to-connect-slack-to-chatgpt-with-corpusiq-mcp">How to Connect Slack to ChatGPT with CorpusIQ MCP<a class="headerlink" href="#how-to-connect-slack-to-chatgpt-with-corpusiq-mcp" title="Anchor link to this section">&para;</a></h1>
-<p>Your <strong>Slack</strong> account holds critical business data  --  but accessing insights usually means logging in, navigating dashboards, and running manual reports. <strong>Connecting Slack to ChatGPT through CorpusIQ MCP</strong> eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Slack data directly  --  you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.</p>
-<p>Once connected, ChatGPT can query your live Slack workspace  --  channels, messages, threads, files, and workspace analytics. You ask questions in plain English and get cited answers from your actual Slack history in real time.</p>
+<p>Your <strong>Slack</strong> account holds critical business data - but accessing insights usually means logging in, navigating dashboards, and running manual reports. <strong>Connecting Slack to ChatGPT through CorpusIQ MCP</strong> eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Slack data directly - you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.</p>
+<p>Once connected, ChatGPT can query your live Slack workspace - channels, messages, threads, files, and workspace analytics. You ask questions in plain English and get cited answers from your actual Slack history in real time.</p>
 <p>This page covers the connection architecture, what you can ask, knowledge retrieval use cases, security considerations, and how MCP compares to Slack's built-in search and API.</p>
 <h2 id="faq-common-questions">FAQ: Common Questions<a class="headerlink" href="#faq-common-questions" title="Anchor link to this section">&para;</a></h2>
 <details>
@@ -11675,7 +11735,7 @@ Channel questions: "What channels am I in?", "Show me public channels sorted by 
 <details>
 <summary><strong>How does the connection work?</strong></summary>
 
-CorpusIQ connects to your Slack workspace via OAuth 2.0. You authorize read-only access with specific scopes, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Slack tools  --  channel listing, message search, thread retrieval, file search, and workspace analytics  --  and calls them when you ask a question. The MCP server handles Slack's pagination, rate limiting, and message formatting.
+CorpusIQ connects to your Slack workspace via OAuth 2.0. You authorize read-only access with specific scopes, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Slack tools - channel listing, message search, thread retrieval, file search, and workspace analytics - and calls them when you ask a question. The MCP server handles Slack's pagination, rate limiting, and message formatting.
 </details>
 
 <details>
@@ -11687,43 +11747,43 @@ Yes. CorpusIQ requests read-only external-source retrieval scopes from Slack. Ch
 <details>
 <summary><strong>What Slack data can ChatGPT access?</strong></summary>
 
-Public channels and their metadata. Messages (in public channels and private channels the authorizing user belongs to) with text, timestamps, and reactions. Thread replies. Shared files with names and metadata. Workspace analytics (member counts, message volume, top channels). Note: Direct messages and private channels the authorizing user is not a member of are not accessible  --  Slack's permission model is respected.
+Public channels and their metadata. Messages (in public channels and private channels the authorizing user belongs to) with text, timestamps, and reactions. Thread replies. Shared files with names and metadata. Workspace analytics (member counts, message volume, top channels). Note: Direct messages and private channels the authorizing user is not a member of are not accessible - Slack's permission model is respected.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT combine Slack data with data from other tools?</strong></summary>
 
-Yes  --  and this is where MCP creates workflows that isolated Slack search cannot. "Show me Slack discussions about Customer X and cross-reference with HubSpot deal data" combines communication with CRM. "What Slack decisions were made about projects that have overdue Jira issues?" spans communication and project management. "Summarize this week's Slack activity about our product launch and compare with GA4 traffic data" crosses communication with analytics. The cross-source capability of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business.md) connects team conversations to business data.
+Yes - and this is where MCP creates workflows that isolated Slack search cannot. "Show me Slack discussions about Customer X and cross-reference with HubSpot deal data" combines communication with CRM. "What Slack decisions were made about projects that have overdue Jira issues?" spans communication and project management. "Summarize this week's Slack activity about our product launch and compare with GA4 traffic data" crosses communication with analytics. The cross-source capability of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business.md) connects team conversations to business data.
 </details>
 
 <details>
 <summary><strong>How is this different from Slack's built-in search?</strong></summary>
 
-Slack's built-in search is keyword-based and returns message snippets. It doesn't understand context, can't summarize discussions, and can't connect Slack conversations to external business data. With ChatGPT connected via MCP, you can ask "What was the consensus about the pricing change?" and get a synthesized answer from multiple messages across channels  --  something Slack search cannot do. You can also ask follow-up questions that build on previous search results.
+Slack's built-in search is keyword-based and returns message snippets. It doesn't understand context, can't summarize discussions, and can't connect Slack conversations to external business data. With ChatGPT connected via MCP, you can ask "What was the consensus about the pricing change?" and get a synthesized answer from multiple messages across channels - something Slack search cannot do. You can also ask follow-up questions that build on previous search results.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT access private channels and DMs?</strong></summary>
 
-ChatGPT can only access channels and conversations that the authorizing Slack user has access to. If you're a member of a private channel, ChatGPT can search it. If you're not, it can't. Direct messages follow the same rule  --  ChatGPT can access DMs that include the authorizing user. This permission model means the MCP connection doesn't expand anyone's Slack access beyond what they already have.
+ChatGPT can only access channels and conversations that the authorizing Slack user has access to. If you're a member of a private channel, ChatGPT can search it. If you're not, it can't. Direct messages follow the same rule - ChatGPT can access DMs that include the authorizing user. This permission model means the MCP connection doesn't expand anyone's Slack access beyond what they already have.
 </details>
 
 <details>
 <summary><strong>What about Slack Connect channels with external organizations?</strong></summary>
 
-Channels shared via Slack Connect that the authorizing user has access to are included. The same permission rules apply  --  if you can see it in Slack, ChatGPT can query it. External organization members' messages appear with source attribution.
+Channels shared via Slack Connect that the authorizing user has access to are included. The same permission rules apply - if you can see it in Slack, ChatGPT can query it. External organization members' messages appear with source attribution.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT glean decisions and action items from Slack conversations?</strong></summary>
 
-Yes  --  this is one of the most valuable natural language capabilities. Instead of searching for keywords and reading through messages yourself, ask ChatGPT: "What decisions were made in the product-launch channel in the last two weeks?" or "Extract action items from yesterday's standup thread in the engineering channel." ChatGPT reads the messages, identifies decisions and action items, and presents them in summary form.
+Yes - this is one of the most valuable natural language capabilities. Instead of searching for keywords and reading through messages yourself, ask ChatGPT: "What decisions were made in the product-launch channel in the last two weeks?" or "Extract action items from yesterday's standup thread in the engineering channel." ChatGPT reads the messages, identifies decisions and action items, and presents them in summary form.
 </details>
 
 <details>
 <summary><strong>How does this handle large workspaces with thousands of channels?</strong></summary>
 
-ChatGPT can list channels and narrow searches to specific channels or date ranges. "Search the sales channel for discussions about pricing this month" targets a specific channel and timeframe. For workspace analytics, ChatGPT provides aggregate views: "What are our 10 most active channels?" You're not searching across thousands of channels  --  you're asking targeted questions.
+ChatGPT can list channels and narrow searches to specific channels or date ranges. "Search the sales channel for discussions about pricing this month" targets a specific channel and timeframe. For workspace analytics, ChatGPT provides aggregate views: "What are our 10 most active channels?" You're not searching across thousands of channels - you're asking targeted questions.
 </details>
 
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
@@ -11738,14 +11798,14 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 <p><strong>Ask communication questions.</strong> ChatGPT maps your natural language to Slack search syntax, retrieves messages and threads, and synthesizes answers.</p>
 </li>
 <li>
-<p><strong>Drill down.</strong> "Show me the full thread on that pricing discussion" or "Who else weighed in on that decision?"  --  follow-ups maintain conversational context.</p>
+<p><strong>Drill down.</strong> "Show me the full thread on that pricing discussion" or "Who else weighed in on that decision?" - follow-ups maintain conversational context.</p>
 </li>
 </ol>
 <p>No Slack search syntax to learn. No scrolling through message history. No manual summarization of long threads.</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Conversational search that understands intent.</strong> Instead of searching Slack for "pricing update" and clicking through message results, ask "What did the team decide about the pricing update?" and get a synthesized answer. ChatGPT reads messages, identifies the decision point, and summarizes  --  something keyword search cannot do.</p>
+<p><strong>Conversational search that understands intent.</strong> Instead of searching Slack for "pricing update" and clicking through message results, ask "What did the team decide about the pricing update?" and get a synthesized answer. ChatGPT reads messages, identifies the decision point, and summarizes - something keyword search cannot do.</p>
 <p><strong>Automated knowledge extraction.</strong> "What were the key takeaways from this week's product sync?" "Summarize the Q&amp;A from the all-hands channel." "What action items came out of the marketing planning thread?" Knowledge that would require reading dozens of messages becomes a single ChatGPT answer.</p>
-<p><strong>Decision archaeology.</strong> "When did we decide to deprecate the v1 API and what was the reasoning?" ChatGPT can trace decision history across channels and threads, surfacing the original discussion, participants, and rationale  --  knowledge that would normally require searching through months of Slack history.</p>
+<p><strong>Decision archaeology.</strong> "When did we decide to deprecate the v1 API and what was the reasoning?" ChatGPT can trace decision history across channels and threads, surfacing the original discussion, participants, and rationale - knowledge that would normally require searching through months of Slack history.</p>
 <p><strong>Cross-source context.</strong> "Show me Slack discussions about Customer X alongside their HubSpot deal status and recent support tickets." Team communication becomes connected to CRM data, support systems, and project management tools. This is the unique capability of <a href="https://www.corpusiq.io/docs/benefits-of-mcp-for-business">MCP platforms like CorpusIQ</a>.</p>
 <p><strong>Meeting and thread preparation.</strong> "Summarize the design-team channel's discussion about the homepage redesign for my meeting in 10 minutes." Arrive at conversations prepared with context from the actual Slack history.</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -11754,7 +11814,7 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 <h3 id="decision-tracking">Decision Tracking<a class="headerlink" href="#decision-tracking" title="Anchor link to this section">&para;</a></h3>
 <p>"What decisions were made in the procurement channel about vendor selection?" "Who approved the marketing budget increase and when?" Decision history becomes searchable and summarizable.</p>
 <h3 id="onboarding-and-knowledge-transfer">Onboarding and Knowledge Transfer<a class="headerlink" href="#onboarding-and-knowledge-transfer" title="Anchor link to this section">&para;</a></h3>
-<p>"What's the history of the authentication system discussion in the backend channel?" New team members can ask ChatGPT for context on past decisions and discussions  --  accelerating onboarding without burdening teammates.</p>
+<p>"What's the history of the authentication system discussion in the backend channel?" New team members can ask ChatGPT for context on past decisions and discussions - accelerating onboarding without burdening teammates.</p>
 <h3 id="cross-functional-context">Cross-Functional Context<a class="headerlink" href="#cross-functional-context" title="Anchor link to this section">&para;</a></h3>
 <p>"Show me Slack discussions about the Q3 product launch alongside the corresponding Jira epic status." Product managers connect team communication with development progress.</p>
 <h3 id="customer-context">Customer Context<a class="headerlink" href="#customer-context" title="Anchor link to this section">&para;</a></h3>
@@ -11791,13 +11851,13 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 </tr>
 <tr>
 <td><strong>Decision extraction</strong></td>
-<td>Manual  --  read messages and infer</td>
-<td>Automatic  --  AI identifies decisions and actions</td>
+<td>Manual - read messages and infer</td>
+<td>Automatic - AI identifies decisions and actions</td>
 </tr>
 <tr>
 <td><strong>Thread summarization</strong></td>
-<td>Manual  --  click through thread</td>
-<td>Automatic  --  AI reads and summarizes threads</td>
+<td>Manual - click through thread</td>
+<td>Automatic - AI reads and summarizes threads</td>
 </tr>
 <tr>
 <td><strong>Cross-source</strong></td>
@@ -11807,7 +11867,7 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 <tr>
 <td><strong>Follow-up</strong></td>
 <td>Start new search each time</td>
-<td>Conversational  --  build on previous results</td>
+<td>Conversational - build on previous results</td>
 </tr>
 <tr>
 <td><strong>File search</strong></td>
@@ -11816,10 +11876,10 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 </tr>
 </tbody>
 </table>
-<p>Slack's built-in search is fast and effective for known-item retrieval  --  "find the message where John shared the Q3 deck." MCP with ChatGPT excels at unknown-item discovery  --  "what was discussed about the Q3 plan?"  --  and at synthesizing answers from multiple messages across channels.</p>
+<p>Slack's built-in search is fast and effective for known-item retrieval - "find the message where John shared the Q3 deck." MCP with ChatGPT excels at unknown-item discovery - "what was discussed about the Q3 plan?" - and at synthesizing answers from multiple messages across channels.</p>
 <h2 id="setup-guide">Setup Guide<a class="headerlink" href="#setup-guide" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Sign up</strong> at <a href="https://www.corpusiq.io">corpusiq.io</a>  --  free 30-day trial.</li>
+<li><strong>Sign up</strong> at <a href="https://www.corpusiq.io">corpusiq.io</a> - free 30-day trial.</li>
 <li><strong>Connect Slack.</strong> Dashboard → Connections → Slack → sign into Slack workspace → authorize read-only scopes.</li>
 <li><strong>Connect ChatGPT.</strong> Add the CorpusIQ MCP server. See our <a href="https://www.corpusiq.io/docs/quick-start">Quick Start guide</a>.</li>
 <li><strong>Verify.</strong> Ask "What public channels are in my Slack workspace?" to confirm.</li>
@@ -11828,16 +11888,16 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 <p>Under 5 minutes from signup to Slack answers in ChatGPT.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/connect-gmail-to-chatgpt">Connect Gmail to ChatGPT</a>  --  email data in ChatGPT</li>
-<li><a href="https://www.corpusiq.io/docs/connect-outlook-to-chatgpt">Connect Outlook to ChatGPT</a>  --  Microsoft email in ChatGPT</li>
-<li><a href="https://www.corpusiq.io/docs/connect-notion-to-chatgpt">Connect Notion to ChatGPT</a>  --  documentation in ChatGPT</li>
-<li><a href="https://www.corpusiq.io/docs/connect-jira-to-chatgpt">Connect Jira to ChatGPT</a>  --  development tracking in ChatGPT</li>
-<li><a href="https://www.corpusiq.io/docs/connect-hubspot-to-chatgpt">Connect HubSpot to ChatGPT</a>  --  CRM data in ChatGPT</li>
-<li><a href="https://www.corpusiq.io/docs/chatgpt-integration">ChatGPT Integration Overview</a>  --  the full integration</li>
-<li><a href="https://www.corpusiq.io/docs/benefits-of-mcp-for-business">Benefits of MCP for Business</a>  --  why MCP wins</li>
-<li><a href="https://www.corpusiq.io/docs/mcp-for-operations">MCP for Operations</a>  --  MCP for ops teams</li>
-<li><a href="https://www.corpusiq.io/docs/connectors/slack">Slack Connector Reference</a>  --  technical details</li>
-<li><a href="https://www.corpusiq.io/docs/mcp-vs-api-integrations">MCP vs. API Integrations</a>  --  detailed comparison</li>
+<li><a href="https://www.corpusiq.io/docs/connect-gmail-to-chatgpt">Connect Gmail to ChatGPT</a> - email data in ChatGPT</li>
+<li><a href="https://www.corpusiq.io/docs/connect-outlook-to-chatgpt">Connect Outlook to ChatGPT</a> - Microsoft email in ChatGPT</li>
+<li><a href="https://www.corpusiq.io/docs/connect-notion-to-chatgpt">Connect Notion to ChatGPT</a> - documentation in ChatGPT</li>
+<li><a href="https://www.corpusiq.io/docs/connect-jira-to-chatgpt">Connect Jira to ChatGPT</a> - development tracking in ChatGPT</li>
+<li><a href="https://www.corpusiq.io/docs/connect-hubspot-to-chatgpt">Connect HubSpot to ChatGPT</a> - CRM data in ChatGPT</li>
+<li><a href="https://www.corpusiq.io/docs/chatgpt-integration">ChatGPT Integration Overview</a> - the full integration</li>
+<li><a href="https://www.corpusiq.io/docs/benefits-of-mcp-for-business">Benefits of MCP for Business</a> - why MCP wins</li>
+<li><a href="https://www.corpusiq.io/docs/mcp-for-operations">MCP for Operations</a> - MCP for ops teams</li>
+<li><a href="https://www.corpusiq.io/docs/connectors/slack">Slack Connector Reference</a> - technical details</li>
+<li><a href="https://www.corpusiq.io/docs/mcp-vs-api-integrations">MCP vs. API Integrations</a> - detailed comparison</li>
 </ul>
 <h2 id="part-of-the-mcp-knowledge-base-at-corpusiqio-connect-40-business-tools-to-ai"><em>Part of the MCP knowledge base at <a href="https://www.corpusiq.io">corpusiq.io</a> - connect 40+ business tools to AI.</em><a class="headerlink" href="#part-of-the-mcp-knowledge-base-at-corpusiqio-connect-40-business-tools-to-ai" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

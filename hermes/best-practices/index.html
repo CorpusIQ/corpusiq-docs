@@ -4234,6 +4234,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4408,6 +4412,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11477,7 +11537,7 @@
   <a href="#curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub -- 449+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub - 449+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -11515,10 +11575,10 @@
   
 
 
-<h1 id="hermes-agent-best-practices-build-reliable-ai-automation">Hermes Agent Best Practices  --  Build Reliable AI Automation<a class="headerlink" href="#hermes-agent-best-practices-build-reliable-ai-automation" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-best-practices-build-reliable-ai-automation">Hermes Agent Best Practices - Build Reliable AI Automation<a class="headerlink" href="#hermes-agent-best-practices-build-reliable-ai-automation" title="Anchor link to this section">&para;</a></h1>
 <p>Hermes Agent best practices capture what the community has learned about building reliable, secure, and maintainable AI agent setups. Whether you're running your first cron or managing a team deployment, these best practices help you avoid the mistakes we've already made in production.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>This guide serves as the entry point to the Hermes Agent best practices collection. Each companion guide (cron design, model selection, memory management, security, skill development, MCP design) stands alone  --  read the ones relevant to your current work.</p>
+<p>This guide serves as the entry point to the Hermes Agent best practices collection. Each companion guide (cron design, model selection, memory management, security, skill development, MCP design) stands alone - read the ones relevant to your current work.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <p>The best practices follow four core principles that apply across every aspect of Hermes Agent operation:</p>
 <p><strong>Explicit over implicit.</strong> Hermes Agent should do what you told it to do, not what it guessed you meant. Explicit tools, explicit permissions, explicit confirmations. The best Hermes setup is the one where you never wonder "why did it do that?"</p>
@@ -11539,12 +11599,12 @@
 <tr>
 <td>Hardcoded credentials in skills</td>
 <td>Breach on first share</td>
-<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/security">Security best practices</a>  --  secrets manager or env vars</td>
+<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/security">Security best practices</a> - secrets manager or env vars</td>
 </tr>
 <tr>
 <td>God crons that do everything</td>
 <td>One failure cascades</td>
-<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">Cron design</a>  --  single-responsibility crons</td>
+<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">Cron design</a> - single-responsibility crons</td>
 </tr>
 <tr>
 <td>Silent error swallowing</td>
@@ -11554,7 +11614,7 @@
 <tr>
 <td>No approval on write ops</td>
 <td>Unintended external actions</td>
-<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/security">Security</a>  --  tiered confirmation gates</td>
+<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/security">Security</a> - tiered confirmation gates</td>
 </tr>
 <tr>
 <td>Unbounded database queries</td>
@@ -11564,12 +11624,12 @@
 <tr>
 <td>Memory as dumping ground</td>
 <td>Context pollution, staleness</td>
-<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/memory-management">Memory management</a>  --  curated, pruned memories</td>
+<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/memory-management">Memory management</a> - curated, pruned memories</td>
 </tr>
 <tr>
 <td>Copy-pasted skill logic</td>
 <td>Bug propagation</td>
-<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/skill-development">Skill development</a>  --  shared utility skills</td>
+<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/skill-development">Skill development</a> - shared utility skills</td>
 </tr>
 <tr>
 <td>Console-only logging</td>
@@ -11584,7 +11644,7 @@
 <tr>
 <td>Model selection by habit</td>
 <td>Cost/latency waste</td>
-<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model selection</a>  --  task-aware routing</td>
+<td><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model selection</a> - task-aware routing</td>
 </tr>
 </tbody>
 </table>
@@ -11663,19 +11723,19 @@
 <p>Follow <a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">cron design best practices</a>: make every cron idempotent, implement retry with backoff, alert on persistent failure, and never run unbounded queries.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">Cron Design Best Practices</a>  --  Reliable scheduled automation</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  Task-aware model routing</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/prompt-caching">Prompt Caching</a>  --  Holding a 96 to 99 percent cache hit rate</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/memory-management">Memory Management</a>  --  Context optimization strategies</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/security">Security Best Practices</a>  --  Token management and approval gates</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/skill-development">Skill Development</a>  --  Building reusable skills</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/mcp-design">MCP Server Design</a>  --  Custom tool development</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/agent-capability-audit">Agent Capability Audit</a>  --  The 4 must-install capabilities, audited</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup">Setup Guides</a>  --  Platform-specific installation</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">Cron Design Best Practices</a> - Reliable scheduled automation</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a> - Task-aware model routing</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/prompt-caching">Prompt Caching</a> - Holding a 96 to 99 percent cache hit rate</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/memory-management">Memory Management</a> - Context optimization strategies</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/security">Security Best Practices</a> - Token management and approval gates</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/skill-development">Skill Development</a> - Building reusable skills</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/mcp-design">MCP Server Design</a> - Custom tool development</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/agent-capability-audit">Agent Capability Audit</a> - The 4 must-install capabilities, audited</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup">Setup Guides</a> - Platform-specific installation</li>
 </ul>
 <hr />
 <p>Start where you are, automate what hurts most, and share what you learn. The rest follows.</p>
-<h2 id="curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  449+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<h2 id="curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> - 449+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-449-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 <h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>

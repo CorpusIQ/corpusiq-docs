@@ -4234,6 +4234,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4408,6 +4412,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11761,8 +11821,8 @@
   
 
 
-<h1 id="gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation">Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation<a class="headerlink" href="#gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation" title="Anchor link to this section">&para;</a></h1>
-<p>Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for developers and power users. Run models locally at full speed with CUDA acceleration  --  no per-token API costs, no latency, no rate limits. This gaming PC setup guide covers everything from NVIDIA drivers to persistent operation.</p>
+<h1 id="gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation">Gaming PC Hermes Agent Setup - CUDA-Accelerated AI Workstation<a class="headerlink" href="#gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation" title="Anchor link to this section">&para;</a></h1>
+<p>Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for developers and power users. Run models locally at full speed with CUDA acceleration - no per-token API costs, no latency, no rate limits. This gaming PC setup guide covers everything from NVIDIA drivers to persistent operation.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>A gaming PC delivers the highest raw inference performance for local AI models. With 8-24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50-200 tokens per second. Combined with Hermes Agent's <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">model selection</a> capabilities, you get a powerful AI workstation.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
@@ -11798,7 +11858,7 @@
 </table>
 <h2 id="minimum-specs">Minimum Specs<a class="headerlink" href="#minimum-specs" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>GPU:</strong> NVIDIA GTX 1060 (6GB) or better  --  RTX 3060+ recommended</li>
+<li><strong>GPU:</strong> NVIDIA GTX 1060 (6GB) or better - RTX 3060+ recommended</li>
 <li><strong>RAM:</strong> 16GB system memory minimum, 32GB+ ideal</li>
 <li><strong>Storage:</strong> 50GB free for models and embeddings</li>
 <li><strong>OS:</strong> Linux (Ubuntu 22.04/24.04) or <a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">Windows 11 + WSL2</a></li>
@@ -11834,7 +11894,7 @@ ollama<span class="w"> </span>pull<span class="w"> </span>codestral:22b<span cla
 ollama<span class="w"> </span>pull<span class="w"> </span>nomic-embed-text<span class="w">   </span><span class="c1"># ~274MB</span>
 </code></pre></div>
 <h3 id="step-4-install-hermes-agent">Step 4: Install Hermes Agent<a class="headerlink" href="#step-4-install-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Official installer  --  brings its own pinned Python and toolchain</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Official installer - brings its own pinned Python and toolchain</span>
 curl<span class="w"> </span>-fsSL<span class="w"> </span>https://hermes-agent.nousresearch.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>bash
 
 hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="w"> </span>gpu-agent
@@ -11886,7 +11946,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <li><strong>Flexible fallback</strong>: Add <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud models via OpenRouter</a> for frontier capabilities</li>
 </ul>
 <h2 id="windows-wsl2-alternative">Windows + WSL2 Alternative<a class="headerlink" href="#windows-wsl2-alternative" title="Anchor link to this section">&para;</a></h2>
-<p>If you game on Windows, <a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">follow the WSL2 guide</a>. GPU passthrough works  --  Ollama inside WSL2 sees your NVIDIA GPU via <code>nvidia-smi</code>.</p>
+<p>If you game on Windows, <a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">follow the WSL2 guide</a>. GPU passthrough works - Ollama inside WSL2 sees your NVIDIA GPU via <code>nvidia-smi</code>.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="can-my-gaming-pc-run-hermes-agent-while-im-gaming">Can my gaming PC run Hermes Agent while I'm gaming?<a class="headerlink" href="#can-my-gaming-pc-run-hermes-agent-while-im-gaming" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Set <code>OLLAMA_KEEP_ALIVE=10m</code> so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models or wait until you're done.</p>
@@ -11896,11 +11956,11 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <p>Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for running 32B+ models. Multiple GPUs can be combined with NVLink.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  Compare all platforms</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">Windows WSL2 Setup</a>  --  GPU passthrough on Windows</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone">Mac Mini M4 Setup</a>  --  Silent alternative</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  Choose the right model</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/troubleshooting">Troubleshooting Guide</a>  --  Common GPU issues</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a> - Compare all platforms</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup/windows-wsl">Windows WSL2 Setup</a> - GPU passthrough on Windows</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone">Mac Mini M4 Setup</a> - Silent alternative</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a> - Choose the right model</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/troubleshooting">Troubleshooting Guide</a> - Common GPU issues</li>
 </ul>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

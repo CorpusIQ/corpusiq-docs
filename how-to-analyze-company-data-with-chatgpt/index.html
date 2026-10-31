@@ -4236,6 +4236,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4410,6 +4414,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11643,10 +11703,10 @@
 
 <h1 id="how-to-analyze-company-data-with-chatgpt">How to Analyze Company Data with ChatGPT<a class="headerlink" href="#how-to-analyze-company-data-with-chatgpt" title="Anchor link to this section">&para;</a></h1>
 <h2 id="the-problem">The Problem<a class="headerlink" href="#the-problem" title="Anchor link to this section">&para;</a></h2>
-<p>Your company data holds the answers to critical business questions  --  but accessing those answers is hard. Sales data is in HubSpot, financials in QuickBooks, marketing in GA4, customer data scattered across tools. To analyze anything, you need to extract data from each system, combine it in Excel, build pivot tables, and hope your formulas are correct. Or you wait for the data team to build a report.</p>
-<p>ChatGPT can analyze data brilliantly  --  but only if it can access it. Without a connection to your business systems, ChatGPT is analyzing your copy-pasted spreadsheets, not your live business.</p>
+<p>Your company data holds the answers to critical business questions - but accessing those answers is hard. Sales data is in HubSpot, financials in QuickBooks, marketing in GA4, customer data scattered across tools. To analyze anything, you need to extract data from each system, combine it in Excel, build pivot tables, and hope your formulas are correct. Or you wait for the data team to build a report.</p>
+<p>ChatGPT can analyze data brilliantly - but only if it can access it. Without a connection to your business systems, ChatGPT is analyzing your copy-pasted spreadsheets, not your live business.</p>
 <h2 id="the-solution">The Solution<a class="headerlink" href="#the-solution" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ connects ChatGPT to your live business data through the MCP protocol. Instead of exporting and uploading CSVs, you ask ChatGPT natural-language questions and it queries your live systems  --  delivering real-time analysis formatted exactly how you need it.</p>
+<p>CorpusIQ connects ChatGPT to your live business data through the MCP protocol. Instead of exporting and uploading CSVs, you ask ChatGPT natural-language questions and it queries your live systems - delivering real-time analysis formatted exactly how you need it.</p>
 <h2 id="what-youll-need">What You'll Need<a class="headerlink" href="#what-youll-need" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>CorpusIQ account with connected data sources</li>
@@ -11745,7 +11805,7 @@ with conversion rates between each stage&quot;
 <h2 id="example-analysis">Example Analysis<a class="headerlink" href="#example-analysis" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Query:</strong> "Analyze our sales performance and identify our biggest problems."</p>
 <p><strong>ChatGPT Response (powered by CorpusIQ):</strong>
-<div class="highlight"><pre><span></span><code>SALES PERFORMANCE ANALYSIS  --  Q2 2026
+<div class="highlight"><pre><span></span><code>SALES PERFORMANCE ANALYSIS - Q2 2026
 
 OVERALL: $1,580,000 closed (91 deals, 38% win rate). Target: $1,500,000. 
 Status: ABOVE TARGET (+5.3%).
@@ -11765,7 +11825,7 @@ IDENTIFIED PROBLEMS:
 2. WIN RATE DECLINE IN SMB SEGMENT
 • SMB win rate dropped from 28% (Q1) to 21% (Q2)
 • Average sales cycle increased from 18 to 27 days
-• Possible competitive pressure  --  worth investigating
+• Possible competitive pressure - worth investigating
 
 3. PIPELINE COVERAGE GAP IN AUGUST
 • July pipeline: $1.2M (healthy)
@@ -11774,7 +11834,7 @@ IDENTIFIED PROBLEMS:
 
 4. REP PERFORMANCE VARIANCE
 • Top rep (Sarah): $425K | Bottom rep (David): $295K
-• Gap is larger than typical  --  David&#39;s win rate dropped 12pp from Q1
+• Gap is larger than typical - David&#39;s win rate dropped 12pp from Q1
 • Recommend: review David&#39;s pipeline quality and provide coaching
 
 RECOMMENDED ACTIONS:
@@ -11816,13 +11876,13 @@ RECOMMENDED ACTIONS:
 </table>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Can ChatGPT really analyze data as well as a human analyst?</strong><br />
-A: For most business analysis tasks  --  trends, comparisons, segmentation, anomaly detection  --  yes. For highly specialized statistical modeling, a human analyst may still be needed.</p>
+A: For most business analysis tasks - trends, comparisons, segmentation, anomaly detection - yes. For highly specialized statistical modeling, a human analyst may still be needed.</p>
 <p><strong>Q: How do I know the analysis is accurate?</strong><br />
-A: ChatGPT queries live data through CorpusIQ  --  the numbers are exact. The interpretation (identifying problems, suggesting actions) is AI-generated and should be reviewed.</p>
+A: ChatGPT queries live data through CorpusIQ - the numbers are exact. The interpretation (identifying problems, suggesting actions) is AI-generated and should be reviewed.</p>
 <p><strong>Q: Can it handle sensitive financial data?</strong><br />
 A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: What's the difference between this and uploading a CSV to ChatGPT?</strong><br />
-A: CSV uploads are static  --  the data is already old. CorpusIQ provides live data that reflects your current business state. No exports, no uploads.</p>
+A: CSV uploads are static - the data is already old. CorpusIQ provides live data that reflects your current business state. No exports, no uploads.</p>
 <p><strong>Q: Can I analyze data from multiple companies or subsidiaries?</strong><br />
 A: Yes. Connect multiple instances of the same tool (e.g., two HubSpot accounts) to analyze across entities.</p>
 <p><strong>Q: How detailed can the analysis get?</strong><br />
@@ -11837,7 +11897,7 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 <li><a href="https://www.corpusiq.io/answers">How to Build an Executive AI Dashboard</a></li>
 <li><a href="/compare">Best ChatGPT Integration Platform</a></li>
 <li><a href="https://www.corpusiq.io/docs/connectors">Best Way to Connect ChatGPT to Business Data</a></li>
-<li><a href="/compare">Top Business AI Tools  --  Rankings</a></li>
+<li><a href="/compare">Top Business AI Tools - Rankings</a></li>
 <li><a href="https://www.corpusiq.io/enterprise">Enterprise AI Data Access Guide</a></li>
 </ul>
 <hr />

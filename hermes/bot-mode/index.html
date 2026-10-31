@@ -4230,6 +4230,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4404,6 +4408,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11335,9 +11395,9 @@
 
 
 <h1 id="hermes-bot-mode-desktop-plugin">Hermes Bot Mode (Desktop Plugin)<a class="headerlink" href="#hermes-bot-mode-desktop-plugin" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Status:</strong> Ships built into the Hermes desktop app and is on by default  --  no install needed. Announced Aug 16, 2026 by Nous Research.
+<p><strong>Status:</strong> Ships built into the Hermes desktop app and is on by default - no install needed. Announced Aug 16, 2026 by Nous Research.
 <strong>Official docs:</strong> <a href="https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode">hermes-agent.nousresearch.com/docs/user-guide/bot-mode</a>
-<strong>Repo:</strong> github.com/NousResearch/Hermes-Bot-Mode (MIT, JavaScript)  --  the original standalone plugin, now bundled into the app and archived upstream.
+<strong>Repo:</strong> github.com/NousResearch/Hermes-Bot-Mode (MIT, JavaScript) - the original standalone plugin, now bundled into the app and archived upstream.
 <strong>Type:</strong> Desktop UI over the profile primitive. No core patches, no background daemons, no extra storage.</p>
 <p>Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot gets its own chat, avatar, personality, routine schedule, and the ability to message other bots. It appears as a <strong>Bots</strong> tab next to Sessions in the left sidebar, with a <strong>Routines</strong> tile docked beside the conversation while that tab is active.</p>
 <h2 id="what-it-does">What it does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
@@ -11356,7 +11416,7 @@
 <li>Chats and sessions use profile-aware navigation</li>
 <li>Creation and editing ride the <code>profiles.*</code> gateway RPCs</li>
 <li>Routines are plain Hermes cron jobs, so they show up in <code>hermes cron list</code></li>
-<li>Bot-to-bot messages are real CLI handoffs between profiles  --  the same agent <code>hermes -p &lt;bot&gt; chat</code> opens  --  and across connected machines they route through the Desktop relay</li>
+<li>Bot-to-bot messages are real CLI handoffs between profiles - the same agent <code>hermes -p &lt;bot&gt; chat</code> opens - and across connected machines they route through the Desktop relay</li>
 </ul>
 <h2 id="why-it-matters-for-operators">Why it matters for operators<a class="headerlink" href="#why-it-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Bot Mode is the first mainstream implementation of multi-agent operations inside a desktop app. A business can run a roster of specialized agents: one for email, one for finance questions, one for social, each with its own identity, memory, and credentials, coordinating on shared rooms. This is the agent-team model applied to operations, and it is the same pattern CorpusIQ's governed intelligence layer feeds: named agents with scoped identity and data access.</p>

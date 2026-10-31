@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ MSR governance framework: management system of record, data hierarchy, validation, reconciliation, audit controls, and source-of-truth rules.">
+        <meta name="description" content="CorpusIQ MSR governance: the Metric Spec Registry, how a business number is defined once, how resolution works, drift detection, versioning, and what the audit">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/governance">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="CorpusIQ Governance and Controls">
-  <meta property="og:description" content="CorpusIQ MSR governance framework: management system of record, data hierarchy, validation, reconciliation, audit controls, and source-of-truth rules.">
+  <meta property="og:description" content="CorpusIQ MSR governance: the Metric Spec Registry, how a business number is defined once, how resolution works, drift detection, versioning, and what the audit">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CorpusIQ Governance and Controls">
-  <meta name="twitter:description" content="CorpusIQ MSR governance framework: management system of record, data hierarchy, validation, reconciliation, audit controls, and source-of-truth rules.">
+  <meta name="twitter:description" content="CorpusIQ MSR governance: the Metric Spec Registry, how a business number is defined once, how resolution works, drift detection, versioning, and what the audit">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,11 +108,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "CorpusIQ Governance and Controls",
-    "description": "CorpusIQ MSR governance framework: management system of record, data hierarchy, validation, reconciliation, audit controls, and source-of-truth rules.",
+    "description": "CorpusIQ MSR governance: the Metric Spec Registry, how a business number is defined once, how resolution works, drift detection, versioning, and what the audit",
     "url": "https://www.corpusiq.io/docs/governance",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-31",
+    "dateModified": "2026-10-31",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-31">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -176,7 +176,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#msr-source-of-truth-governance" class="md-skip">
+        <a href="#msr-governance" class="md-skip">
           Skip to content
         </a>
       
@@ -2078,10 +2078,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#data-hierarchy" class="md-nav__link">
+  <a href="#what-the-registry-holds" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Data Hierarchy
+        What the registry holds
       
     </span>
   </a>
@@ -2089,10 +2089,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#scope-of-authority" class="md-nav__link">
+  <a href="#how-a-value-is-resolved" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Scope of Authority
+        How a value is resolved
       
     </span>
   </a>
@@ -2100,10 +2100,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#validation-process" class="md-nav__link">
+  <a href="#what-the-registry-does-not-do" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Validation Process
+        What the registry does not do
       
     </span>
   </a>
@@ -2111,10 +2111,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#reconciliation-procedures" class="md-nav__link">
+  <a href="#versioning-and-audit-trail" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Reconciliation Procedures
+        Versioning and audit trail
       
     </span>
   </a>
@@ -2122,10 +2122,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#governance-standards" class="md-nav__link">
+  <a href="#when-two-sources-disagree" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Governance Standards
+        When two sources disagree
       
     </span>
   </a>
@@ -2133,10 +2133,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#audit-controls" class="md-nav__link">
+  <a href="#related-pages" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Audit Controls
+        Related pages
       
     </span>
   </a>
@@ -2144,54 +2144,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#source-precedence-rules" class="md-nav__link">
+  <a href="#powered-by-corpusiq-business-answers-you-can-trust-cited-from-your-own-sources" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Source Precedence Rules
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contact" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Contact
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
+        Powered by CorpusIQ - business answers you can trust, cited from your own sources.
       
     </span>
   </a>
@@ -4402,6 +4358,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4576,6 +4536,62 @@
     
   
     Connect Google Analytics to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-google-search-console-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Google Search Console to Claude
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-monday-com-to-claude" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Monday.com to Claude
   
 
     
@@ -11443,10 +11459,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#data-hierarchy" class="md-nav__link">
+  <a href="#what-the-registry-holds" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Data Hierarchy
+        What the registry holds
       
     </span>
   </a>
@@ -11454,10 +11470,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#scope-of-authority" class="md-nav__link">
+  <a href="#how-a-value-is-resolved" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Scope of Authority
+        How a value is resolved
       
     </span>
   </a>
@@ -11465,10 +11481,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#validation-process" class="md-nav__link">
+  <a href="#what-the-registry-does-not-do" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Validation Process
+        What the registry does not do
       
     </span>
   </a>
@@ -11476,10 +11492,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#reconciliation-procedures" class="md-nav__link">
+  <a href="#versioning-and-audit-trail" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Reconciliation Procedures
+        Versioning and audit trail
       
     </span>
   </a>
@@ -11487,10 +11503,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#governance-standards" class="md-nav__link">
+  <a href="#when-two-sources-disagree" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Governance Standards
+        When two sources disagree
       
     </span>
   </a>
@@ -11498,10 +11514,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#audit-controls" class="md-nav__link">
+  <a href="#related-pages" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Audit Controls
+        Related pages
       
     </span>
   </a>
@@ -11509,54 +11525,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#source-precedence-rules" class="md-nav__link">
+  <a href="#powered-by-corpusiq-business-answers-you-can-trust-cited-from-your-own-sources" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Source Precedence Rules
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contact" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Contact
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
+        Powered by CorpusIQ - business answers you can trust, cited from your own sources.
       
     </span>
   </a>
@@ -11583,105 +11555,81 @@
   
 
 
-<h1 id="msr-source-of-truth-governance">MSR Source of Truth Governance<a class="headerlink" href="#msr-source-of-truth-governance" title="Anchor link to this section">&para;</a></h1>
-<p>MSR (Management System of Record) is the authoritative source of truth for all financial and business metrics at CorpusIQ.</p>
-<h2 id="data-hierarchy">Data Hierarchy<a class="headerlink" href="#data-hierarchy" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>MSR (Authoritative Source)
-  └── CorpusIQ Platform Data
-       └── Connected Source Data (Stripe, Shopify, Quickbooks, etc.)
-</code></pre></div>
-<h2 id="scope-of-authority">Scope of Authority<a class="headerlink" href="#scope-of-authority" title="Anchor link to this section">&para;</a></h2>
-<p>MSR is the definitive source for:</p>
+<h1 id="msr-governance">MSR Governance<a class="headerlink" href="#msr-governance" title="Anchor link to this section">&para;</a></h1>
+<p>MSR means the <strong>Metric Spec Registry</strong>. It is where a business number is defined once for an account: MRR, average order value, new customers, or any other number you want every assistant to answer the same way.</p>
+<p>A metric spec is a small, user-declared recipe. You write it once. Every later question resolves that same recipe against current vendor data, with a one-line provenance footer attached to the answer.</p>
+<h2 id="what-the-registry-holds">What the registry holds<a class="headerlink" href="#what-the-registry-holds" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Category</th>
-<th>Examples</th>
+<th>Item</th>
+<th>What it defines</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Financial Reporting</td>
-<td>Revenue, expenses, P&amp;L</td>
+<td>Key</td>
+<td>Stable identifier such as <code>mrr</code></td>
 </tr>
 <tr>
-<td>KPI Reporting</td>
-<td>MRR, churn, LTV, CAC</td>
+<td>Label</td>
+<td>Human-readable name shown in the provenance footer</td>
 </tr>
 <tr>
-<td>Executive Reporting</td>
-<td>Board decks, investor updates</td>
+<td>Description</td>
+<td>Your own paragraph on what counted and what did not</td>
 </tr>
 <tr>
-<td>Forecasting</td>
-<td>Revenue projections, growth models</td>
+<td>Expression</td>
+<td>The recipe, compiled to connector calls</td>
 </tr>
 <tr>
-<td>Numerical Business Metrics</td>
-<td>All quantified business data</td>
+<td>Unit</td>
+<td>USD, count, ratio, percent, or days</td>
+</tr>
+<tr>
+<td>Cross-source peers</td>
+<td>Other specs whose value should agree</td>
+</tr>
+<tr>
+<td>Tolerance</td>
+<td>How much disagreement is allowed before drift is flagged</td>
 </tr>
 </tbody>
 </table>
-<p>CorpusIQ is NOT the source of truth for financial numbers. CorpusIQ surfaces data from connected sources. MSR validates and governs that data.</p>
-<h2 id="validation-process">Validation Process<a class="headerlink" href="#validation-process" title="Anchor link to this section">&para;</a></h2>
+<h2 id="how-a-value-is-resolved">How a value is resolved<a class="headerlink" href="#how-a-value-is-resolved" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li>Data is retrieved from connected sources via CorpusIQ</li>
-<li>MSR validates data against known baselines</li>
-<li>Discrepancies are flagged for reconciliation</li>
-<li>Validated data enters MSR as the official record</li>
-<li>All downstream reporting pulls from MSR</li>
+<li>The question names a number, for example "what is our MRR".</li>
+<li>The registry resolves the matching spec against live connector data.</li>
+<li>The value returns with a provenance footer: label, value, spec version, review age, and the connector calls with row counts.</li>
+<li>When cross-source peers are declared and disagree beyond tolerance, a drift block is appended to the same answer.</li>
 </ol>
-<h2 id="reconciliation-procedures">Reconciliation Procedures<a class="headerlink" href="#reconciliation-procedures" title="Anchor link to this section">&para;</a></h2>
-<p>When CorpusIQ data differs from MSR:</p>
+<p>Resolution is bounded by connector coverage. Starter templates ship for Stripe first, and a spec can only reference tools that exist in the connector layer.</p>
+<h2 id="what-the-registry-does-not-do">What the registry does not do<a class="headerlink" href="#what-the-registry-does-not-do" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><strong>No warehouse and no replicated source data.</strong> Every resolve calls the vendor.</li>
+<li><strong>No result caching.</strong> Two calls thirty seconds apart both hit the source.</li>
+<li><strong>No semantic correctness guarantee.</strong> The registry computes the recipe you wrote. If the recipe is wrong, the number is wrong, which is why the description and the review date exist.</li>
+<li><strong>No automatic spec writing.</strong> An assistant can draft one, but every save passes through a pending-write commit that the account owner approves.</li>
+</ul>
+<h2 id="versioning-and-audit-trail">Versioning and audit trail<a class="headerlink" href="#versioning-and-audit-trail" title="Anchor link to this section">&para;</a></h2>
+<p>Every committed spec change increments a version number, and that version appears in the provenance footer of each answer that uses it. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for a limited retention window. Raw customer files and full connector response payloads are not retained.</p>
+<h2 id="when-two-sources-disagree">When two sources disagree<a class="headerlink" href="#when-two-sources-disagree" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li>Verify the connected source is correctly configured</li>
-<li>Check data freshness (last sync timestamp)</li>
-<li>Compare query parameters (date ranges, filters)</li>
-<li>Review connector status for errors</li>
-<li>Escalate unresolved discrepancies</li>
+<li>Read the drift block. It names the peer spec, both values, and the percent difference.</li>
+<li>Check that both specs describe the same period, the same filters, and the same field.</li>
+<li>Add a hypothesis to the spec when the disagreement is known and expected, for example one vendor including trialing subscriptions while the other excludes them.</li>
+<li>Re-attest the spec with a new review date once the definition is correct.</li>
 </ol>
-<h2 id="governance-standards">Governance Standards<a class="headerlink" href="#governance-standards" title="Anchor link to this section">&para;</a></h2>
+<h2 id="related-pages">Related pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>All financial reports must cite MSR as source</li>
-<li>CorpusIQ queries used for exploration and analysis</li>
-<li>MSR used for official reporting and decisions</li>
-<li>Monthly reconciliation between CorpusIQ and MSR</li>
-<li>Audit trail maintained for all reconciliations</li>
+<li><strong><a href="https://www.corpusiq.io/docs/how-it-works/metric-specs">Metric Specs</a></strong> - full onboarding guide, expression grammar, and pitfalls</li>
+<li><strong><a href="https://www.corpusiq.io/docs/architecture">CorpusIQ Architecture</a></strong> - MCP endpoint and connector layer design</li>
+<li><strong><a href="https://www.corpusiq.io/docs/security">CorpusIQ Security Overview</a></strong> - authentication and encryption</li>
+<li><strong><a href="https://www.corpusiq.io/docs/reporting">CorpusIQ Reporting</a></strong> - instant reports and trend analysis</li>
+<li><strong><a href="https://www.corpusiq.io/docs/onboarding">CorpusIQ Onboarding Guide</a></strong> - AI chat and agent setup in 10 minutes</li>
 </ul>
-<h2 id="audit-controls">Audit Controls<a class="headerlink" href="#audit-controls" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>Query logs timestamped and retained</li>
-<li>Connection history tracked</li>
-<li>Data changes logged</li>
-<li>Access controls enforced</li>
-<li>Regular security reviews</li>
-</ul>
-<h2 id="source-precedence-rules">Source Precedence Rules<a class="headerlink" href="#source-precedence-rules" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li><strong>MSR</strong> is always authoritative for financial metrics</li>
-<li><strong>Connected source data</strong> via CorpusIQ is authoritative for operational metrics</li>
-<li><strong>Manual entry</strong> is deprecated and requires MSR override</li>
-<li><strong>Third-party exports</strong> are not authoritative unless validated by MSR</li>
-</ol>
-<h2 id="contact">Contact<a class="headerlink" href="#contact" title="Anchor link to this section">&para;</a></h2>
-<p>For MSR access or reconciliation questions, contact the finance team.</p>
-<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Q: What is MSR and how does it relate to CorpusIQ?</strong><br />
-A: MSR (Management System of Record) is the authoritative source of truth for all financial and business metrics. CorpusIQ surfaces operational data from connected sources; MSR validates, governs, and serves as the official record for reporting and decisions.</p>
-<p><strong>Q: How does the data validation process work?</strong><br />
-A: Data is retrieved from connected sources via CorpusIQ → MSR validates against known baselines → Discrepancies are flagged for reconciliation → Validated data enters MSR as the official record → All downstream reporting pulls from MSR.</p>
-<p><strong>Q: What are the source precedence rules?</strong><br />
-A: MSR is always authoritative for financial metrics. Connected source data via CorpusIQ is authoritative for operational metrics. Manual entry is deprecated. Third-party exports are not authoritative unless validated by MSR.</p>
-<h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong><a href="https://www.corpusiq.io/docs/architecture">CorpusIQ Architecture</a></strong>  --  MCP endpoint and connector layer design  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/security">CorpusIQ Security Overview</a></strong>  --  Authentication and encryption  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/search">CorpusIQ Search Capabilities</a></strong>  --  Natural language and cross-source queries  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/reporting">CorpusIQ Reporting</a></strong>  --  Instant reports and trend analysis  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/onboarding">CorpusIQ Onboarding Guide</a></strong>  --  AI chat and agent setup in 10 minutes  </li>
-<li><strong><a href="https://www.corpusiq.io/docs/governance">MSR Governance Framework</a></strong>  --  Source of truth and audit controls  </li>
-</ul>
-<h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>
+<h2 id="powered-by-corpusiq-business-answers-you-can-trust-cited-from-your-own-sources"><em>Powered by CorpusIQ - business answers you can trust, cited from your own sources.</em><a class="headerlink" href="#powered-by-corpusiq-business-answers-you-can-trust-cited-from-your-own-sources" title="Anchor link to this section">&para;</a></h2>
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 
 
