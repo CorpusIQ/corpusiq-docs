@@ -112,7 +112,7 @@ MCP_DATA_HANDLING_SUMMARY = (
     "metadata, and bounded outcome summaries are retained in operational logs for "
     "up to 30 days."
 )
-lines.append("# CorpusIQ Documentation — AI Assistant Index")
+lines.append("# CorpusIQ Documentation: AI Assistant Index")
 lines.append("")
 lines.append("> Index for LLMs and coding agents. Full page content at llms-full.txt.")
 lines.append("> CorpusIQ connects 40+ business tools to AI clients through read-only MCP access.")
@@ -142,7 +142,7 @@ index_txt = "\n".join(lines) + "\n"
 
 # --- llms-full.txt: full content of docs/ tree (market + guides) ---
 full_lines = []
-full_lines.append("# CorpusIQ Documentation — Full Content")
+full_lines.append("# CorpusIQ Documentation: Full Content")
 full_lines.append("")
 full_lines.append("> Complete page content for LLM ingestion. Read-only access and cited answers.")
 full_lines.append(f"> Canonical direct-MCP disclosure: {MCP_DATA_HANDLING_SUMMARY}")

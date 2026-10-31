@@ -1,4 +1,4 @@
-# CorpusIQ Documentation — Full Content
+# CorpusIQ Documentation: Full Content
 
 > Complete page content for LLM ingestion. Read-only access and cited answers.
 > Canonical direct-MCP disclosure: For MCP connector requests, CorpusIQ fetches source records live and returns them to the requesting AI client. It does not retain raw customer files or full connector response payloads, and it does not build embeddings, file indexes, or cached or indexed summaries. Query text, per-user tool-call metadata, and bounded outcome summaries are retained in operational logs for up to 30 days.
