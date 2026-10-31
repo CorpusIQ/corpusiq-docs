@@ -155,6 +155,7 @@ The repo is actively maintained with daily automated updates:
 - **Sitemap dates ✅ (Aug 14, 2026):** Updated hermes-sitemap.xml (193 URLs) + sitemap-index.xml from 2026-06-17 to 2026-08-14.
 - **Stale dates ✅ (Aug 14, 2026):** 43 top-level docs/ SEO pages refreshed from 2026-07 → 2026-08-14.
 - **Sanitization ✅ (Aug 14, 2026):** Removed invented example private IPs from hermes-plugins-42evey-setup.md (not in upstream repo) → replaced with agent-a.local/agent-b.local. A third-party meshtastic example private IP was verified as upstream content, kept.
+- **Crawler feed submission ✅ (Oct 31, 2026):** The IndexNow submitter mapped markdown pages only, so changes to the root llms.txt and llms-full.txt feeds (served at /docs/) produced zero URLs, and the marker advanced to HEAD regardless of the response - a failed ping skipped those pages permanently. Feeds now map to their public URLs and the marker advances only on HTTP 200/202. Both changed feeds submitted and accepted (HTTP 200).
 
 ---
 
