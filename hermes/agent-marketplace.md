@@ -84,4 +84,4 @@ Agents provide the personality and workflow. CorpusIQ provides the real data. To
 
 ---
 
-*Part of the [CorpusIQ Hermes ecosystem](https://github.com/CorpusIQ/corpusiq-docs) - 447+ repos indexed.*
+*Part of the [CorpusIQ Hermes ecosystem](https://github.com/CorpusIQ/corpusiq-docs) - 449+ repos indexed.*
