@@ -107,8 +107,8 @@
     "description": "Connect Plaud.ai recordings to Hermes Agent. Search recordings, read transcripts, generate documents - all from your AI assistant.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/plaud-mcp",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11402,6 +11402,7 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 <li>Authenticate via OAuth - your client will open a browser for one-time authorization</li>
 </ol>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Anchor link to this section">&para;</a></h2>
+<p>14 tools, all prefixed <code>plaud_</code>.</p>
 <table>
 <thead>
 <tr>
@@ -11411,24 +11412,60 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
 </thead>
 <tbody>
 <tr>
-<td><code>search_recordings</code></td>
-<td>Search your Plaud recording library by keyword, date, or tag</td>
+<td><code>plaud_list_files</code></td>
+<td>List recordings, optionally filtered by transcription status</td>
 </tr>
 <tr>
-<td><code>get_transcript</code></td>
-<td>Retrieve full transcript for a specific recording</td>
+<td><code>plaud_get_file</code></td>
+<td>Get detailed metadata for a specific file</td>
 </tr>
 <tr>
-<td><code>get_summary</code></td>
-<td>Get AI-generated summary of a recording</td>
+<td><code>plaud_search_files</code></td>
+<td>Search recordings by keyword or date range</td>
 </tr>
 <tr>
-<td><code>list_recordings</code></td>
-<td>List recent recordings with metadata (date, duration, speakers)</td>
+<td><code>plaud_get_transcript</code></td>
+<td>Fetch raw or polished transcript text</td>
 </tr>
 <tr>
-<td><code>generate_document</code></td>
-<td>Create meeting notes, action items, or summary docs from a recording</td>
+<td><code>plaud_get_summary</code></td>
+<td>Fetch AI-generated summary</td>
+</tr>
+<tr>
+<td><code>plaud_export_transcript</code></td>
+<td>Export transcript as TXT or SRT with optional timestamps</td>
+</tr>
+<tr>
+<td><code>plaud_generate</code></td>
+<td>Generate transcript and summary for a file</td>
+</tr>
+<tr>
+<td><code>plaud_name_speakers</code></td>
+<td>Rename speakers in a transcript</td>
+</tr>
+<tr>
+<td><code>plaud_rename_file</code></td>
+<td>Rename a single file</td>
+</tr>
+<tr>
+<td><code>plaud_batch_rename</code></td>
+<td>Rename multiple files at once (rate-limited)</td>
+</tr>
+<tr>
+<td><code>plaud_move_to_folder</code></td>
+<td>Move a file to a folder</td>
+</tr>
+<tr>
+<td><code>plaud_list_folders</code></td>
+<td>List all folders and tags</td>
+</tr>
+<tr>
+<td><code>plaud_trash_file</code></td>
+<td>Move a file to trash</td>
+</tr>
+<tr>
+<td><code>plaud_get_user</code></td>
+<td>Get current user profile</td>
 </tr>
 </tbody>
 </table>

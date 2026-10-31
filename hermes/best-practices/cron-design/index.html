@@ -111,8 +111,8 @@
     "description": "Production-grade cron design for Hermes Agent scheduled automation. Idempotency, error handling with retry/backoff, rate limiting, monitoring, delivery",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/cron-design",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9441,6 +9441,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-hermes-cron-actually-gives-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Hermes cron actually gives you
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-cardinal-rule-idempotency" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11504,6 +11515,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-hermes-cron-actually-gives-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Hermes cron actually gives you
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-cardinal-rule-idempotency" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11671,6 +11693,16 @@
                                                          ↓
                                                     ERROR → RETRY → DEAD-LETTER → ALERT
 </code></pre></div>
+<h2 id="what-hermes-cron-actually-gives-you">What Hermes cron actually gives you<a class="headerlink" href="#what-hermes-cron-actually-gives-you" title="Anchor link to this section">&para;</a></h2>
+<p>Verified against the official cron documentation and the CLI (<code>hermes cron --help</code>) on Hermes Agent v0.22.5, checked 2026-10-30:</p>
+<ul>
+<li><strong>Schedules run in your profile's timezone</strong> (<code>timezone:</code> in <code>config.yaml</code>), not raw UTC. A job can pin its own zone: <code>hermes cron create "0 9 * * 1-5" --timezone America/New_York "US market open brief"</code>.</li>
+<li><strong>Script-only jobs skip the model entirely:</strong> <code>hermes cron create "every 5m" --no-agent --script memory-watchdog.sh --name memory-watchdog</code>. Stdout is delivered verbatim, empty stdout is a silent tick, and a non-zero exit or timeout raises an alert.</li>
+<li><strong><code>--script</code> is always a file, never a command line.</strong> It must resolve inside <code>$HERMES_HOME/scripts/</code>; <code>--script "echo hi"</code> is refused at creation time.</li>
+<li><strong>Catch-up is bounded:</strong> a missed occurrence runs late only inside half the job's period, clamped to 2 minutes - 2 hours. <code>--grace-minutes</code> (0-1440) overrides that per job.</li>
+<li><strong>No recursion:</strong> cron-run sessions cannot create more cron jobs, so a runaway scheduler cannot build itself out.</li>
+<li><strong>Failure isolation:</strong> <code>hermes cron cancel</code> stops a run in flight without touching the job's schedule; <code>hermes pause</code> halts the whole fleet.</li>
+</ul>
 <h2 id="the-cardinal-rule-idempotency">The Cardinal Rule: Idempotency<a class="headerlink" href="#the-cardinal-rule-idempotency" title="Anchor link to this section">&para;</a></h2>
 <p>Every cron should be safe to run multiple times with the same inputs. Cron schedulers can drift, containers can restart, and manual re-runs happen during debugging. If your cron writes to a database, use upsert semantics. If it sends notifications, track sent status. If it generates reports, use deterministic filenames.</p>
 <p>A good litmus test: could you run this cron three times back-to-back without breaking anything?</p>

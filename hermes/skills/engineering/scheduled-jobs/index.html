@@ -107,8 +107,8 @@
     "description": "Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/engineering/scheduled-jobs",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11282,10 +11282,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#server-local-time-not-utc" class="md-nav__link">
+  <a href="#profile-timezone-not-utc" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Server-local time, not UTC
+        Profile timezone, not UTC
       
     </span>
   </a>
@@ -11293,10 +11293,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-profile-vs-default-profile-split" class="md-nav__link">
+  <a href="#one-host-gateway-per-profile-job-stores" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The profile vs default-profile split
+        One host gateway, per-profile job stores
       
     </span>
   </a>
@@ -11418,22 +11418,30 @@
 </tr>
 <tr>
 <td><code>scripts/cron_health_watchdog.py</code> (a recurring job in itself)</td>
-<td>Scans profile jobs only. Alerts to your team's status channel via Telegram or Slack with 24h dedup on sustained outages. Silent unless something needs attention. Exits 0 on its own internal failures (no flaky-watchdog noise).</td>
+<td>Scans profile jobs only. Alerts the team by email (our fleet retired Telegram delivery) with 24h dedup on sustained outages. Silent unless something needs attention. Exits 0 on its own internal failures (no flaky-watchdog noise).</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Rule:</strong> NEVER write directly to <code>~/.hermes/cron/jobs.json</code> or the profile equivalent. Hand-edits lose the auto-backup, bypass the duplicate-name guard, and silently break the in-memory state of the running cron daemon.</p>
-<h2 id="server-local-time-not-utc">Server-local time, not UTC<a class="headerlink" href="#server-local-time-not-utc" title="Anchor link to this section">&para;</a></h2>
-<p>This is the single biggest source of confusion in cron scheduling. Hermes cron evaluates schedule expressions in <strong>server-local time</strong>, not UTC. If your dev box is in Arizona (GMT-7 year-round, no DST) and you write <code>0 13 * * *</code> expecting 1 PM UTC, the job will fire at 1 PM Arizona time (which is 20:00 UTC).</p>
-<p>Confirm via <code>next_run_at</code> in the job's status output  --  it shows the resolved next-fire-time in UTC, so you can compare against your intent.</p>
+<h2 id="profile-timezone-not-utc">Profile timezone, not UTC<a class="headerlink" href="#profile-timezone-not-utc" title="Anchor link to this section">&para;</a></h2>
+<p>This is the single biggest source of confusion in cron scheduling. A job's schedule expression is read in <strong>your profile's timezone</strong> (<code>timezone:</code> in <code>config.yaml</code>), which defaults to the host's local time. If your dev box is in Arizona (GMT-7 year-round, no DST) and you write <code>0 13 * * *</code> expecting 1 PM UTC, the job fires at 1 PM Arizona time (20:00 UTC).</p>
+<p>Pin a zone per job when the profile zone is not the one you mean:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 9 * * 1-5&quot;</span><span class="w"> </span>--timezone<span class="w"> </span>America/New_York<span class="w"> </span><span class="s2">&quot;US market open brief&quot;</span>
+</code></pre></div>
+<p>The expression is then that zone's wall clock and stays put across that zone's DST changes. Confirm via <code>next_run_at</code> in the job's status output: it shows the resolved next-fire-time in UTC, so you can compare it against your intent.</p>
 <p>For a job that should fire at 9 AM Arizona / 16:00 UTC, write <code>0 9 * * *</code> and confirm <code>next_run_at</code> resolves to 16:00 UTC on the next day matching the day-of-week constraint.</p>
-<h2 id="the-profile-vs-default-profile-split">The profile vs default-profile split<a class="headerlink" href="#the-profile-vs-default-profile-split" title="Anchor link to this section">&para;</a></h2>
-<p>If your Hermes installation has multiple profiles (e.g. <code>default</code> + a named profile per workstream), each profile has its OWN <code>jobs.json</code> and its OWN cron daemon. Confusing them is a common failure mode:</p>
+<h2 id="one-host-gateway-per-profile-job-stores">One host gateway, per-profile job stores<a class="headerlink" href="#one-host-gateway-per-profile-job-stores" title="Anchor link to this section">&para;</a></h2>
+<p>Hermes runs <strong>one gateway per host</strong>, and that single gateway serves every profile. Per-profile gateways are no longer a supported topology: each one is a supervisor unit, a scheduler and a set of duplicated bot tokens waiting to collide.</p>
+<p>The job definitions themselves stay per profile:</p>
 <ul>
-<li>The default profile's cron: <code>~/.hermes/cron/jobs.json</code>, managed by <code>hermes -p default gateway</code></li>
-<li>A named profile's cron: <code>~/.hermes/profiles/&lt;name&gt;/cron/jobs.json</code>, managed by <code>hermes -p &lt;name&gt; gateway</code></li>
+<li>The default profile's cron: <code>~/.hermes/cron/jobs.json</code></li>
+<li>A named profile's cron: <code>~/.hermes/profiles/&lt;name&gt;/cron/jobs.json</code></li>
 </ul>
-<p><strong>Important:</strong> if you only see one of the two gateways running and you reinstall, you may orphan jobs from the other. Two gateways is the normal state. Verify both are running before assuming a job is dead.</p>
+<p>If you inherited a host with several profile gateways running, converge it rather than deleting units by hand:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>gateway<span class="w"> </span>migrate<span class="w"> </span>--dry-run<span class="w">    </span><span class="c1"># prints the plan and any blockers</span>
+hermes<span class="w"> </span>gateway<span class="w"> </span>migrate<span class="w">              </span><span class="c1"># stop + uninstall secondary gateways, restart the host gateway</span>
+</code></pre></div>
+<p>Verify afterwards with <code>hermes gateway list</code>: one entry running, the rest shown as not running because the host gateway serves them. A job reporting "dead" is usually a job whose profile the gateway is not serving, not a broken schedule.</p>
 <h2 id="the-no_agent-cron-pattern">The "no_agent" cron pattern<a class="headerlink" href="#the-no_agent-cron-pattern" title="Anchor link to this section">&para;</a></h2>
 <p>Some jobs don't need an LLM at all  --  they're just scripts that produce a notification when they detect something. Examples:</p>
 <ul>
@@ -11441,13 +11449,21 @@
 <li>API poller: fetch a status endpoint, alert if degraded</li>
 <li>Build monitor: check CI, post to Slack on failure</li>
 </ul>
-<p>For these, set <code>no_agent: true</code> in the job definition. The cron daemon will execute the script directly without spinning up an agent loop:</p>
+<p>For these, create the job in no-agent mode. The cron daemon executes the script directly without spinning up an agent loop:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;every 5m&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--no-agent<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--script<span class="w"> </span>memory-watchdog.sh<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--deliver<span class="w"> </span>telegram<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;memory-watchdog&quot;</span>
+</code></pre></div>
 <ul>
 <li>Stdout from the script becomes the message body</li>
 <li><strong>Empty stdout = silent</strong> (the watchdog pattern  --  only notify when there's something to notify about)</li>
-<li>Non-zero exit code triggers an error alert (so a broken watchdog can't fail silently)</li>
+<li>Non-zero exit code or a timeout triggers an error alert (so a broken watchdog can't fail silently)</li>
+<li><code>{"wakeAgent": false}</code> on the last line is the same silent-tick gate LLM jobs use</li>
 </ul>
-<p>When to use <code>no_agent: true</code>:
+<p><code>--script</code> is always a <strong>file</strong>, never a command line: <code>--script "echo hi"</code> is refused at creation. The resolved path must stay inside <code>$HERMES_HOME/scripts/</code>, so write the logic into a script there and pass the filename. Script subprocesses get a sanitized environment - Hermes-managed provider credentials are not inherited, so a script that needs a token must declare it in the profile <code>config.yaml</code> and define the value in that profile's <code>.env</code>.</p>
+<p>When to use no-agent mode:
 - Recurring script-only pings where the script itself produces the exact message text
 - Memory/disk/GPU watchdogs, threshold alerts, heartbeats
 - CI notifications, API pollers with a fixed output shape</p>
@@ -11458,11 +11474,11 @@
 <p>When you're writing a job's prompt and you want it to send a Telegram or Slack message, the natural instinct is to embed a <code>curl</code> invocation in the prompt body. <strong>Don't.</strong> Hermes' tool-approval layer may block the in-prompt curl, AND the ticker UX (the "agent is working..." indicator) gets killed when an unapproved tool fires.</p>
 <p>Pattern: write a small script (<code>scripts/post_to_&lt;channel&gt;.sh</code>) that takes a message as <code>$1</code> and handles the curl. Reference the script from the prompt. The script runs through normal <code>terminal()</code> invocation, no approval gate, no ticker disruption.</p>
 <h2 id="reinstalling-the-gateway">Reinstalling the gateway<a class="headerlink" href="#reinstalling-the-gateway" title="Anchor link to this section">&para;</a></h2>
-<p>If you ever need to fully reinstall the Hermes cron gateway (e.g. after a system update broke something):</p>
+<p>If a Hermes update or a moved <code>HERMES_HOME</code> leaves the host gateway broken, reinstall it rather than starting a second one:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Will prompt twice for confirmation</span>
-<span class="nb">printf</span><span class="w"> </span><span class="s2">&quot;Y\nY\n&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>hermes<span class="w"> </span>-p<span class="w"> </span>default<span class="w"> </span>gateway<span class="w"> </span>install<span class="w"> </span>--system
+<span class="nb">printf</span><span class="w"> </span><span class="s2">&quot;Y\nY\n&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>hermes<span class="w"> </span>gateway<span class="w"> </span>install<span class="w"> </span>--system
 </code></pre></div>
-<p>For a named profile, replace <code>default</code> with the profile name. Verify both gateways are still running afterwards.</p>
+<p><code>--system</code> installs a Linux system-level service that starts at boot; <code>--force</code> reinstalls over an existing unit, and <code>--force-unit-path</code> repoints a unit that still pins another <code>HERMES_HOME</code>. One host gateway serves every profile, so run this once - do not repeat it per profile.</p>
 <h2 id="status-discipline">Status discipline<a class="headerlink" href="#status-discipline" title="Anchor link to this section">&para;</a></h2>
 <p>Every job should write its last result to a status file (<code>scripts/&lt;job&gt;_status.json</code> or similar) AND log to your standard log path. The cron daemon tracks <code>last_status</code> per job, but that's a coarse "ok / error"  --  the status file is where the operator looks when they need to diagnose "why did this job report ok but the email never arrived?"</p>
 <p>Pattern: structure the status file as <code>{"timestamp": ..., "summary": ..., "details": {...}}</code>. The watchdog skill (above) reads these files and surfaces anomalies before they compound.</p>

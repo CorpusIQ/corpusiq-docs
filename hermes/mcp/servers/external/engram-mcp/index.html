@@ -107,8 +107,8 @@
     "description": "Engram MCP server - self-hosted memory with dashboard UI backed by a git repository of markdown files.",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/engram-mcp",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11293,10 +11293,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#claude-desktop-hermes-configuration" class="md-nav__link">
+  <a href="#connecting-an-mcp-client" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Claude Desktop / Hermes Configuration
+        Connecting an MCP Client
       
     </span>
   </a>
@@ -11377,60 +11377,116 @@
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Anchor link to this section">&para;</a></h2>
 <p>Most vector-based memory solutions have a fundamental problem: the embedding and the source document drift apart. Engram solves this by making the source of truth a git repository of markdown files - every write is a commit, every read is from HEAD. The dashboard lets humans audit what agents are writing, edit memories directly, and roll back bad writes via git.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Clone and run via Docker</span>
-git<span class="w"> </span>clone<span class="w"> </span>https://github.com/rwnalds/engram
-<span class="nb">cd</span><span class="w"> </span>engram
-docker-compose<span class="w"> </span>up<span class="w"> </span>-d
-
-<span class="c1"># Or run directly</span>
-npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>engram-mcp
-npx<span class="w"> </span>engram-mcp
+<p>Engram is a self-hosted server with a persistent volume, so run it as a container - Railway, Render,
+Fly, or your own box. Serverless (Vercel) will not work: Engram holds a volume, a file watcher and an
+in-memory index that a serverless function cannot keep alive.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Prebuilt image (the -app image serves HTTP; plain `engram:latest` is the stdio server)</span>
+docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-p<span class="w"> </span><span class="m">3000</span>:3000<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-v<span class="w"> </span>engram-data:/data<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-e<span class="w"> </span><span class="nv">ENGRAM_DATA_DIR</span><span class="o">=</span>/data<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>ghcr.io/rwnalds/engram-app:latest
 </code></pre></div>
-<h2 id="claude-desktop-hermes-configuration">Claude Desktop / Hermes Configuration<a class="headerlink" href="#claude-desktop-hermes-configuration" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;engram&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;engram-mcp&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;ENGRAM_REPO_PATH&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;~/.engram/memory&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;ENGRAM_PORT&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;3001&quot;</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
+<p>Then open the dashboard, connect your vault repo under <strong>Workspaces</strong> (by URL + token, or GitHub
+OAuth), and create an MCP token on the <strong>Connect</strong> page.</p>
+<p>Note on the package name: <code>npm install -g engram-mcp</code> is a <strong>different, unrelated product</strong> (ngrm.ai).
+It is not this server and does not expose these tools.</p>
+<h2 id="connecting-an-mcp-client">Connecting an MCP Client<a class="headerlink" href="#connecting-an-mcp-client" title="Anchor link to this section">&para;</a></h2>
+<p>Engram speaks HTTP at <code>POST /api/mcp</code> with a bearer token. Token scope decides what the agent sees: a
+<code>read</code> token never sees the write tools.</p>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>engram<span class="w"> </span>https://&lt;your-host&gt;/api/mcp<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span>
 </code></pre></div>
 <h2 id="key-tools">Key Tools<a class="headerlink" href="#key-tools" title="Anchor link to this section">&para;</a></h2>
+<p>15 tools, split by token scope. <code>brain_capture</code> appears only when the Curator is set to <code>full</code>.</p>
 <table>
 <thead>
 <tr>
 <th>Tool</th>
+<th>Access</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>write_memory</code></td>
-<td>Commit a new memory as a markdown file</td>
+<td><code>brain_search</code></td>
+<td>read</td>
+<td>Search the active vault</td>
 </tr>
 <tr>
-<td><code>search_memory</code></td>
-<td>Authoritative search - always returns HEAD version</td>
+<td><code>brain_read</code></td>
+<td>read</td>
+<td>Read a note</td>
 </tr>
 <tr>
-<td><code>edit_memory</code></td>
-<td>Modify an existing memory (creates a new commit)</td>
+<td><code>brain_list</code></td>
+<td>read</td>
+<td>List notes in a folder</td>
 </tr>
 <tr>
-<td><code>list_memories</code></td>
-<td>Browse all stored memories with metadata</td>
+<td><code>brain_recent</code></td>
+<td>read</td>
+<td>Recently changed notes</td>
 </tr>
 <tr>
-<td><code>get_history</code></td>
-<td>View git log for a specific memory file</td>
+<td><code>brain_tree</code></td>
+<td>read</td>
+<td>Folder tree for the vault</td>
+</tr>
+<tr>
+<td><code>brain_backlinks</code></td>
+<td>read</td>
+<td>Inbound links to a note</td>
+</tr>
+<tr>
+<td><code>brain_graph</code></td>
+<td>read</td>
+<td>Link graph around a note</td>
+</tr>
+<tr>
+<td><code>brain_schema</code></td>
+<td>read</td>
+<td>Vault schema and conventions</td>
+</tr>
+<tr>
+<td><code>brain_write</code></td>
+<td>write</td>
+<td>Create a note</td>
+</tr>
+<tr>
+<td><code>brain_edit</code></td>
+<td>write</td>
+<td>Edit an existing note</td>
+</tr>
+<tr>
+<td><code>brain_append</code></td>
+<td>write</td>
+<td>Append to a note</td>
+</tr>
+<tr>
+<td><code>brain_move</code></td>
+<td>write</td>
+<td>Move or re-file a note</td>
+</tr>
+<tr>
+<td><code>brain_supersede</code></td>
+<td>write</td>
+<td>Replace a note, keeping the prior version</td>
+</tr>
+<tr>
+<td><code>brain_create_folder</code></td>
+<td>write</td>
+<td>Create a folder</td>
+</tr>
+<tr>
+<td><code>brain_delete</code></td>
+<td>write</td>
+<td>Delete a note</td>
 </tr>
 </tbody>
 </table>
+<p>The read/write split is enforced server-side: an agent holding a read-scope token cannot call the
+write tools at all.</p>
 <h2 id="dashboard">Dashboard<a class="headerlink" href="#dashboard" title="Anchor link to this section">&para;</a></h2>
 <p>Engram includes a web dashboard at <code>http://localhost:3001</code> where humans can:
 - Browse all agent-written memories

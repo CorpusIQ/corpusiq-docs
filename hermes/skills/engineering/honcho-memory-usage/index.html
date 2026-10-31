@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="When and how to read/write Honcho via the honcho MCP server  --  server-side semantic memory that complements (does not replace) MEMORY.md and USER.md.">
+        <meta name="description" content="When and how to read/write Honcho -- the catalog memory-provider plugin for server-side semantic memory that complements (does not replace) MEMORY.md">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="honcho-memory-usage - CorpusIQ Docs">
-  <meta property="og:description" content="When and how to read/write Honcho via the honcho MCP server  --  server-side semantic memory that complements (does not replace) MEMORY.md and USER.md.">
+  <meta property="og:description" content="When and how to read/write Honcho -- the catalog memory-provider plugin for server-side semantic memory that complements (does not replace) MEMORY.md">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="honcho-memory-usage - CorpusIQ Docs">
-  <meta name="twitter:description" content="When and how to read/write Honcho via the honcho MCP server  --  server-side semantic memory that complements (does not replace) MEMORY.md and USER.md.">
+  <meta name="twitter:description" content="When and how to read/write Honcho -- the catalog memory-provider plugin for server-side semantic memory that complements (does not replace) MEMORY.md">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,11 +104,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "honcho-memory-usage - CorpusIQ Docs",
-    "description": "When and how to read/write Honcho via the honcho MCP server  --  server-side semantic memory that complements (does not replace) MEMORY.md and USER.md.",
+    "description": "When and how to read/write Honcho -- the catalog memory-provider plugin for server-side semantic memory that complements (does not replace) MEMORY.md",
     "url": "https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11304,10 +11304,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#api-shape-mcp-exposed-tools" class="md-nav__link">
+  <a href="#api-shape-provider-tools" class="md-nav__link">
     <span class="md-ellipsis">
       
-        API shape (MCP-exposed tools)
+        API shape (provider tools)
       
     </span>
   </a>
@@ -11390,7 +11390,8 @@
 
 
 <h1 id="honcho-memory-usage">Honcho Memory Usage<a class="headerlink" href="#honcho-memory-usage" title="Anchor link to this section">&para;</a></h1>
-<p>Honcho is a server-side semantic memory store wired into Hermes as an <strong>MCP server</strong>, NOT as the active memory provider. The built-in MEMORY.md + USER.md remain the hot path (injected into every system prompt for free). Honcho is the cold path: server-side semantic store you query on-demand via tool calls.</p>
+<p>Honcho is a server-side semantic memory store. It ships as a <strong>catalog memory-provider plugin</strong> maintained by Plastic Labs, so it is installed rather than bundled: <code>hermes plugins install honcho</code> (which pulls the <code>honcho-ai</code> SDK), then <code>hermes memory setup</code> and pick honcho. <code>hermes memory status</code> shows whether it is the active provider.</p>
+<p>Two rules follow from that. Only <strong>one</strong> external memory provider can be active at a time, so Honcho either is the provider or it is not. And the built-in MEMORY.md + USER.md remain the hot path (injected into every system prompt for free); Honcho is the cold path - a server-side semantic store you query on demand.</p>
 <h2 id="mental-model">Mental model<a class="headerlink" href="#mental-model" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -11422,12 +11423,12 @@
 </tr>
 <tr>
 <td><strong>Honcho (this skill)</strong></td>
-<td>Semantic representation built from messages we explicitly write</td>
-<td>one MCP roundtrip + Honcho processing</td>
+<td>Semantic representation built from messages the provider syncs</td>
+<td>one provider roundtrip + Honcho processing</td>
 <td>~500ms-2s per call</td>
 </tr>
 <tr>
-<td>Honcho <code>chat</code> (dialectic)</td>
+<td>Honcho <code>honcho_reasoning</code> (dialectic)</td>
 <td>Theory-of-mind queries against the representation</td>
 <td>model call inside Honcho</td>
 <td>~2-5s</td>
@@ -11457,8 +11458,8 @@
 - The user references a past decision you don't have in MEMORY.md
 - You're starting work on a domain where Honcho might have stored context (e.g. "let's pick up the Stripe migration" → query for Stripe-related facts)</p>
 <p>Don't read on every turn  --  Honcho roundtrips cost real latency. Use it like a card catalog, not like a system prompt.</p>
-<h2 id="api-shape-mcp-exposed-tools">API shape (MCP-exposed tools)<a class="headerlink" href="#api-shape-mcp-exposed-tools" title="Anchor link to this section">&para;</a></h2>
-<p>The Honcho MCP server exposes (depending on configuration):</p>
+<h2 id="api-shape-provider-tools">API shape (provider tools)<a class="headerlink" href="#api-shape-provider-tools" title="Anchor link to this section">&para;</a></h2>
+<p>An active Honcho provider adds five tools (verified against the official memory-providers docs on Hermes Agent v0.22.5, 2026-10-30):</p>
 <table>
 <thead>
 <tr>
@@ -11468,40 +11469,38 @@
 </thead>
 <tbody>
 <tr>
-<td><code>mcp_honcho_add_messages_to_session</code></td>
-<td>Append messages to a session (the substrate Honcho builds the representation from)</td>
+<td><code>honcho_profile</code></td>
+<td>Read or update the peer card - the compact biographical fact list</td>
 </tr>
 <tr>
-<td><code>mcp_honcho_query_conclusions</code></td>
-<td>Semantic search over derived conclusions (facts/observations about a peer)</td>
+<td><code>honcho_search</code></td>
+<td>Semantic search across what Honcho knows</td>
 </tr>
 <tr>
-<td><code>mcp_honcho_chat</code></td>
-<td>Natural-language Q&amp;A against the representation ("what does Honcho know about <topic>?")</td>
+<td><code>honcho_context</code></td>
+<td>Session context: summary, representation, peer card, recent messages</td>
 </tr>
 <tr>
-<td><code>mcp_honcho_get_peer_card</code></td>
-<td>Compact biographical fact list</td>
+<td><code>honcho_reasoning</code></td>
+<td>LLM-synthesized answer about the peer (the dialectic)</td>
 </tr>
 <tr>
-<td><code>mcp_honcho_get_peer_context</code></td>
-<td>Combines representation + peer card</td>
-</tr>
-<tr>
-<td><code>mcp_honcho_create_conclusions</code></td>
-<td>Manually inject conclusions (use for facts not derived from messages)</td>
+<td><code>honcho_conclude</code></td>
+<td>Create or delete conclusions - use for facts not derived from messages</td>
 </tr>
 </tbody>
 </table>
+<p>If Honcho is instead wired as a plain MCP server rather than the memory provider, the same capabilities surface as MCP tools named after the server (for example <code>add_messages_to_session</code>, <code>query_conclusions</code>, <code>get_peer_context</code>, <code>get_peer_card</code>, <code>create_conclusions</code>). Check <code>hermes memory status</code> and the tool list before assuming which shape you have - the query patterns below apply to both.</p>
 <h2 id="workspace-peer-naming">Workspace + peer naming<a class="headerlink" href="#workspace-peer-naming" title="Anchor link to this section">&para;</a></h2>
 <p>Each Hermes profile maps to a Honcho <strong>workspace</strong>. Multiple agents/sessions inside the same profile share a workspace. The <strong>peer</strong> identifies a single real human  --  typically the user's email or a stable identifier.</p>
 <p>Confusing the boundary leads to "I queried Honcho and got nothing useful"  --  usually because you queried the wrong workspace or wrong peer.</p>
 <h2 id="cost-discipline">Cost discipline<a class="headerlink" href="#cost-discipline" title="Anchor link to this section">&para;</a></h2>
-<p>Honcho is not free. Each <code>chat</code> call invokes a model inside Honcho's substrate, so:</p>
+<p>Honcho is not free. Each dialectic call (<code>honcho_reasoning</code>) invokes a model inside Honcho's substrate, so:</p>
 <ul>
 <li>Default reasoning level: <code>low</code> or <code>medium</code> for most queries</li>
 <li>Use <code>high</code> or <code>max</code> only when the query is genuinely complex and the answer matters</li>
-<li><code>query_conclusions</code> is cheaper than <code>chat</code>  --  prefer it when you want raw matched facts, not a synthesized answer</li>
+<li><code>honcho_search</code> is cheaper than <code>honcho_reasoning</code>  --  prefer it when you want raw matched facts, not a synthesized answer</li>
+<li>The <code>dialecticCadence</code> and <code>dialecticDepth</code> settings in <code>honcho.json</code> cap how often the LLM call fires and how many passes it makes (1-3)</li>
 </ul>
 <h2 id="when-not-to-use-honcho">When NOT to use Honcho<a class="headerlink" href="#when-not-to-use-honcho" title="Anchor link to this section">&para;</a></h2>
 <ul>

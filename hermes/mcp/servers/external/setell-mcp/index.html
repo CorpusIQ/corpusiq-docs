@@ -107,8 +107,8 @@
     "description": "Setell MCP server - vertical AI agent for quote-to-cash workflows in small service businesses (machine shops, contractors, field services). Generate quotes",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/setell-mcp",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11398,6 +11398,7 @@ npx<span class="w"> </span>setell-mcp
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="key-tools">Key Tools<a class="headerlink" href="#key-tools" title="Anchor link to this section">&para;</a></h2>
+<p>25 tools, all prefixed <code>setell_</code>.</p>
 <table>
 <thead>
 <tr>
@@ -11407,24 +11408,104 @@ npx<span class="w"> </span>setell-mcp
 </thead>
 <tbody>
 <tr>
-<td><code>create_quote</code></td>
-<td>Generate a priced quote from service templates and historical data</td>
+<td><code>setell_get_health</code></td>
+<td>Setell connection health</td>
 </tr>
 <tr>
-<td><code>list_quotes</code></td>
-<td>Browse active and past quotes with status filters</td>
+<td><code>setell_find_jobs</code></td>
+<td>Find Setell jobs</td>
 </tr>
 <tr>
-<td><code>convert_to_order</code></td>
-<td>Convert an accepted quote into a work order</td>
+<td><code>setell_get_quote</code></td>
+<td>Get a Setell quote</td>
 </tr>
 <tr>
-<td><code>track_payment</code></td>
-<td>Check payment status on outstanding invoices</td>
+<td><code>setell_find_customer</code></td>
+<td>Find Setell customers</td>
 </tr>
 <tr>
-<td><code>get_customer_history</code></td>
-<td>Retrieve quote and order history for a specific client</td>
+<td><code>setell_get_morning_brief</code></td>
+<td>Setell morning brief</td>
+</tr>
+<tr>
+<td><code>setell_get_pricing_signal</code></td>
+<td>Setell pricing signal</td>
+</tr>
+<tr>
+<td><code>setell_propose_parts_list</code></td>
+<td>Setell parts-list proposal</td>
+</tr>
+<tr>
+<td><code>setell_get_autonomy</code></td>
+<td>Setell autonomy modes</td>
+</tr>
+<tr>
+<td><code>setell_set_autonomy</code></td>
+<td>Set autonomy mode</td>
+</tr>
+<tr>
+<td><code>setell_get_shop_profile</code></td>
+<td>Setell shop profile</td>
+</tr>
+<tr>
+<td><code>setell_update_shop_profile</code></td>
+<td>Update shop profile</td>
+</tr>
+<tr>
+<td><code>setell_get_customer_baseline</code></td>
+<td>Customer pricing baseline</td>
+</tr>
+<tr>
+<td><code>setell_get_customer_memory</code></td>
+<td>Customer memory list</td>
+</tr>
+<tr>
+<td><code>setell_save_customer_memory</code></td>
+<td>Save customer memory</td>
+</tr>
+<tr>
+<td><code>setell_get_learning_coverage</code></td>
+<td>Learning-loop coverage</td>
+</tr>
+<tr>
+<td><code>setell_get_pricing_calibration</code></td>
+<td>Pricing report card</td>
+</tr>
+<tr>
+<td><code>setell_get_quote_tiers</code></td>
+<td>List quote tiers</td>
+</tr>
+<tr>
+<td><code>setell_generate_quote_tiers</code></td>
+<td>Generate quote tiers</td>
+</tr>
+<tr>
+<td><code>setell_select_quote_tier</code></td>
+<td>Select a quote tier</td>
+</tr>
+<tr>
+<td><code>setell_compose_quote</code></td>
+<td>Compose a quote email</td>
+</tr>
+<tr>
+<td><code>setell_send_quote</code></td>
+<td>Send a quote</td>
+</tr>
+<tr>
+<td><code>setell_schedule_send</code></td>
+<td>Schedule a quote send</td>
+</tr>
+<tr>
+<td><code>setell_cancel_scheduled_send</code></td>
+<td>Cancel a scheduled send</td>
+</tr>
+<tr>
+<td><code>setell_get_job_margin</code></td>
+<td>Realized job margin</td>
+</tr>
+<tr>
+<td><code>setell_get_margin_summary</code></td>
+<td>Margin summary</td>
 </tr>
 </tbody>
 </table>

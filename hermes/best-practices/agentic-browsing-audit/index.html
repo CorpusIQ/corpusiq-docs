@@ -111,8 +111,8 @@
     "description": "How to audit a site for Google\u0027s Lighthouse Agentic Browsing category: the four signals (llms.txt, WebMCP, accessibility tree, layout stability), fix patterns",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/agentic-browsing-audit",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11652,8 +11652,9 @@
 
 
 <h1 id="lighthouse-agentic-browsing-the-ai-readiness-audit-standard">Lighthouse Agentic Browsing: The AI-Readiness Audit Standard<a class="headerlink" href="#lighthouse-agentic-browsing-the-ai-readiness-audit-standard" title="Anchor link to this section">&para;</a></h1>
-<p><em>Last updated: 2026-10-06</em></p>
-<p>Google added an <strong>Agentic Browsing</strong> category to Lighthouse in May 2026. Instead of measuring how a page performs for human visitors, it measures how ready a page is for AI agents and agentic browsers: can an agent find a machine-readable summary of the site, call its tools, parse its structure, and render it without layout fighting?</p>
+<p><em>Last updated: 2026-10-30</em></p>
+<p>Google added an <strong>Agentic Browsing</strong> category to Lighthouse in Lighthouse 13.3 (7 May 2026). Instead of measuring how a page performs for human visitors, it measures how ready a page is for AI agents and agentic browsers: can an agent find a machine-readable summary of the site, call its tools, parse its structure, and render it without layout fighting?</p>
+<p>The category is experimental and based on proposed standards. It requires Chrome 150 or later, and the WebMCP audits require registering for the <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring">WebMCP origin trial</a>.</p>
 <p>For anyone working on GEO (generative engine optimization) and AEO (answer engine optimization), this is the first standardized, checkable target. You can audit a site in one command and track the score the same way teams track Core Web Vitals.</p>
 <h2 id="the-four-signals">The four signals<a class="headerlink" href="#the-four-signals" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -11692,7 +11693,7 @@
 <p>Run Lighthouse with the agentic browsing category enabled:</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>lighthouse<span class="w"> </span>https://example.com<span class="w"> </span>--view<span class="w"> </span>--only-categories<span class="o">=</span>agentic-browsing
 </code></pre></div>
-<p>Lighthouse reports a 0 to 100 score per signal plus an overall score and letter grade. You can also score a single page with any tool that implements the same four checks, which is useful in CI to fail a build that regresses.</p>
+<p>This category is not scored like Performance, Accessibility, Best Practices or SEO. Lighthouse reports a <strong>fractional pass ratio</strong> (how many of the agentic readiness checks pass), a <strong>pass/fail status per audit</strong>, and informational counts in the category header. There is no weighted 0 to 100 score and no letter grade, because the standards for the agentic web are still emerging. Track the pass ratio as the number to move. You can also score a single page with any tool that implements the same four checks, which is useful in CI to fail a build that regresses.</p>
 <h2 id="fix-patterns">Fix patterns<a class="headerlink" href="#fix-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-llmstxt">1. llms.txt<a class="headerlink" href="#1-llmstxt" title="Anchor link to this section">&para;</a></h3>
 <p>Publish a plain-text summary at your site root. Keep it short, structured, and linked:</p>

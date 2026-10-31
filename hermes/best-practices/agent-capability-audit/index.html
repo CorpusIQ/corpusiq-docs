@@ -107,8 +107,8 @@
     "description": "A creator\u0027s 4 must-install plugin test for Hermes agents, audited against the CorpusIQ stack: cost control, model picker, goal management, agent bridge.",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/agent-capability-audit",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11324,7 +11324,7 @@
 
 
 <h1 id="agent-capability-audit-the-4-must-install-plugins-test">Agent Capability Audit - the "4 must-install plugins" test<a class="headerlink" href="#agent-capability-audit-the-4-must-install-plugins-test" title="Anchor link to this section">&para;</a></h1>
-<p><em>Last updated: 2026-09-15</em></p>
+<p><em>Last updated: 2026-10-30</em></p>
 <p>A popular Hermes-ecosystem creator published a checklist video: "Do not run Hermes
 Agent another week without installing these 4 plugins first." The video names no
 products - it names four <strong>capabilities</strong>. We transcribed the video and audited the
@@ -11369,8 +11369,8 @@ CorpusIQ stack against each one.</p>
 </tr>
 <tr>
 <td>Agent bridge</td>
-<td>MCP server for tool sharing across agents + Telegram channel for human delivery</td>
-<td>Partial - no WhatsApp/Discord voice bridges</td>
+<td>MCP server for tool sharing across agents + email delivery for human-facing reports</td>
+<td>Partial - no WhatsApp voice bridge (Hermes covers Discord voice channels natively)</td>
 </tr>
 </tbody>
 </table>
@@ -11378,9 +11378,10 @@ CorpusIQ stack against each one.</p>
 <p>The checklist is satisfied by Hermes-native capabilities (cost tracking, model
 routing, persistent memory, MCP) - no third-party plugin is required to cover the
 four categories. The one genuine gap versus the creator's suite is the <strong>WhatsApp
-and Discord voice bridge</strong> layer; the CorpusIQ fleet currently delivers through
-Telegram. If agent reach on WhatsApp/Discord becomes a priority, that layer is the
-addition to make.</p>
+voice bridge</strong>: Hermes voice mode covers the CLI and live conversations in Discord
+voice channels natively, so Discord is not a gap. The CorpusIQ fleet delivers its
+agent-to-human output by email. If agent reach on WhatsApp becomes a priority, that
+bridge is the addition to make.</p>
 
 
 

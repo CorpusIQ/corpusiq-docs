@@ -111,8 +111,8 @@
     "description": "Hermes Agent security best practices. Token and credential management, least-privilege access, tiered approval gates, audit logging, secrets management, plugin",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/security",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9554,6 +9554,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#what-hermes-enforces-natively" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Hermes enforces natively
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#credential-management" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11500,6 +11511,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#what-hermes-enforces-natively" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Hermes enforces natively
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#credential-management" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11656,6 +11678,16 @@
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>Security with Hermes Agent follows the <a href="https://www.corpusiq.io/docs/hermes/best-practices">least-privilege principle</a>: start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface  --  managing tokens and permissions correctly is non-negotiable.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
+<h3 id="what-hermes-enforces-natively">What Hermes enforces natively<a class="headerlink" href="#what-hermes-enforces-natively" title="Anchor link to this section">&para;</a></h3>
+<p>Verified against the official security documentation on Hermes Agent v0.22.5, checked 2026-10-30. The model has eight layers: user authorization, dangerous-command approval, file-write safety, container isolation, MCP credential filtering, context-file scanning, cross-session isolation, and input sanitization. The approval layer is configuration, not advice - set it deliberately in <code>~/.hermes/config.yaml</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">approvals</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">smart</span><span class="w">              </span><span class="c1"># smart | manual | off</span>
+<span class="w">  </span><span class="nt">timeout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">300</span><span class="w">             </span><span class="c1"># seconds to wait for a human reply</span>
+<span class="w">  </span><span class="nt">cron_mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deny</span><span class="w">          </span><span class="c1"># deny | approve - unattended cron runs</span>
+<span class="w">  </span><span class="nt">single_query_mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deny</span><span class="w">  </span><span class="c1"># deny | approve - one-shot `hermes chat -q`</span>
+<span class="w">  </span><span class="nt">unattended_mode</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deny</span><span class="w">    </span><span class="c1"># deny | approve - webhook / API sessions</span>
+</code></pre></div>
+<p>The three unattended modes default to <code>deny</code>. That is the safe default: a cron job, one-shot query or webhook session that trips a dangerous-command prompt is blocked, and the agent has to find another path instead of auto-approving its way through. Leave them at <code>deny</code> unless you have a specific, documented reason.</p>
 <h3 id="credential-management">Credential Management<a class="headerlink" href="#credential-management" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Never hardcode credentials</strong> in skills, crons, or prompt templates. Use environment variables or a secrets manager. A skill reading <code>api_key = "sk-abc123"</code> is a breach waiting to happen.</p>
 <p><strong>Least privilege for every connector.</strong> Grant only the permissions Hermes Agent actually needs. Read-only Gmail scope, SELECT-only database role, scoped API keys with explicit boundaries.</p>

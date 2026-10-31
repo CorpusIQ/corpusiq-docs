@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hermes Agent memory management guide. Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB.">
+        <meta name="description" content="Hermes Agent memory management: built-in MEMORY.md, one external memory provider (Honcho or others), GBrain-style indexes, session search, compaction">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/best-practices/memory-management">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Memory Management Best Practices for Hermes Agent">
-  <meta property="og:description" content="Hermes Agent memory management guide. Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB.">
+  <meta property="og:description" content="Hermes Agent memory management: built-in MEMORY.md, one external memory provider (Honcho or others), GBrain-style indexes, session search, compaction">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Memory Management Best Practices for Hermes Agent">
-  <meta name="twitter:description" content="Hermes Agent memory management guide. Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB.">
+  <meta name="twitter:description" content="Hermes Agent memory management: built-in MEMORY.md, one external memory provider (Honcho or others), GBrain-style indexes, session search, compaction">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,11 +108,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Memory Management Best Practices for Hermes Agent",
-    "description": "Hermes Agent memory management guide. Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB.",
+    "description": "Hermes Agent memory management: built-in MEMORY.md, one external memory provider (Honcho or others), GBrain-style indexes, session search, compaction",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/memory-management",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-10-30",
+    "dateModified": "2026-10-30",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-10-30">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11632,7 +11632,15 @@
 <h1 id="memory-management-best-practices-persistent-ai-agent-context">Memory Management Best Practices  --  Persistent AI Agent Context<a class="headerlink" href="#memory-management-best-practices-persistent-ai-agent-context" title="Anchor link to this section">&para;</a></h1>
 <p>Memory is what separates a stateless tool from a persistent AI assistant in Hermes Agent. But memory also consumes context, increases latency, and introduces staleness risks. These memory management best practices cover when and how to use each memory tier for optimal agent performance.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Hermes Agent provides a <a href="https://www.corpusiq.io/docs/hermes/knowledge">triple-stack memory architecture</a>: <strong>Honcho</strong> for peer identity and preferences, <strong>GBrain</strong> for organizational knowledge indexing, and <strong>memcore-cloud</strong> for cross-session conversation recall. Each solves a different problem, and production deployments run all three.</p>
+<p>Hermes Agent layers memory instead of storing one blob. Four tiers ship with the agent, and one external provider can be added on top of them:</p>
+<ul>
+<li><strong>Built-in memory</strong> - MEMORY.md and USER.md, injected into every turn for free.</li>
+<li><strong>Session search</strong> - past transcripts in a local SQLite FTS5 store, queried on demand.</li>
+<li><strong>One external memory provider</strong> - Honcho, Mem0, Hindsight, Supermemory, OpenViking, Holographic, Memori, RetainDB or ByteRover, installed from the plugin catalog.</li>
+<li><strong>Skills</strong> - procedural knowledge, versioned and loaded only when relevant.</li>
+</ul>
+<p>Only <strong>one</strong> external provider can be active at a time, and the built-in memory always runs alongside it. <code>hermes memory status</code> shows what is active, <code>hermes memory setup</code> runs the interactive picker, and <code>hermes memory off</code> disables the external provider without touching MEMORY.md or USER.md.</p>
+<p>Organizational indexes and retrieval services that live outside Hermes - an indexing layer such as GBrain, or a separate retrieval service - sit beside these tiers. They are companion systems, not Hermes memory providers, and they carry their own sync discipline.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-memory-hierarchy">The Memory Hierarchy<a class="headerlink" href="#the-memory-hierarchy" title="Anchor link to this section">&para;</a></h3>
 <table>
@@ -11646,21 +11654,27 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Peer Memory</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">Honcho</a></td>
-<td>User identity, preferences, bans, decisions</td>
+<td><strong>Built-in</strong></td>
+<td>MEMORY.md / USER.md</td>
+<td>Stable facts, preferences, standing conventions</td>
+<td>Every turn</td>
+</tr>
+<tr>
+<td><strong>Peer / user model</strong></td>
+<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">Honcho</a> or another external provider</td>
+<td>User identity, preferences, decisions, bans</td>
 <td>Cross-session</td>
 </tr>
 <tr>
 <td><strong>Organizational</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">GBrain</a></td>
+<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">GBrain</a> and similar indexes</td>
 <td>File/code indexing, project relationships</td>
 <td>Cross-session</td>
 </tr>
 <tr>
-<td><strong>Cross-Session</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">memcore-cloud</a></td>
-<td>Full conversation recall with source tracking</td>
+<td><strong>Conversation history</strong></td>
+<td><code>session_search</code> (SQLite FTS5)</td>
+<td>What happened in past sessions</td>
 <td>Cross-session</td>
 </tr>
 <tr>
@@ -11738,7 +11752,7 @@
 <h3 id="how-do-i-prevent-my-hermes-agent-memory-from-getting-stale">How do I prevent my Hermes Agent memory from getting stale?<a class="headerlink" href="#how-do-i-prevent-my-hermes-agent-memory-from-getting-stale" title="Anchor link to this section">&para;</a></h3>
 <p>Prune memories periodically (monthly review), add expiration to project-specific memories, audit for contradictions, and use the dream cycle (nightly consolidation) to merge duplicates and strengthen frequently accessed paths.</p>
 <h3 id="can-i-use-just-one-memory-system">Can I use just one memory system?<a class="headerlink" href="#can-i-use-just-one-memory-system" title="Anchor link to this section">&para;</a></h3>
-<p>You can, but you'll have gaps. <a href="https://www.corpusiq.io/docs/hermes/knowledge">Honcho only</a> handles peer modeling but not file indexing. <a href="https://www.corpusiq.io/docs/hermes/knowledge">GBrain only</a> handles code/docs but not "who is the user?". Run the full triple stack for complete agent memory.</p>
+<p>You can, but you'll have gaps. Hermes allows one external memory provider at a time, so pick the one that matches your dominant need rather than stacking several; built-in memory and session search always run underneath it. A peer-modeling provider such as <a href="https://www.corpusiq.io/docs/hermes/knowledge">Honcho</a> does not index your files, and an indexing layer such as <a href="https://www.corpusiq.io/docs/hermes/knowledge">GBrain</a> does not answer "who is the user?" - run one external provider for user modeling and a separate index for organizational knowledge.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/knowledge">Memory Architecture Guide</a>  --  Full triple-stack documentation</li>
