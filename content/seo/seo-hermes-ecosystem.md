@@ -29,7 +29,7 @@ Here's the definitive map of what's available and where to find everything.
 **Memory systems:**
 - [Honcho](https://mcp.honcho.dev) - Peer memory and identity persistence
 - [GBrain](https://github.com/garrytan/gbrain) - Knowledge base indexing (23K+ stars)
-- [memcore-cloud](https://github.com/memcore-cloud) - Cross-session context injection
+- [memcore](/hermes/knowledge) - Cross-session context injection (ships as the `memcore_yifanchen` Hermes plugin)
 
 **Skills marketplace:**
 - [agentskills.io](https://agentskills.io) - Open standard skill hub
