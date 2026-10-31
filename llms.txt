@@ -1,4 +1,4 @@
-# CorpusIQ Documentation — AI Assistant Index
+# CorpusIQ Documentation: AI Assistant Index
 
 > Index for LLMs and coding agents. Full page content at llms-full.txt.
 > CorpusIQ connects 40+ business tools to AI clients through read-only MCP access.
