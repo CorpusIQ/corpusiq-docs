@@ -3,13 +3,13 @@ title: "Agent Capability Audit - the 4 must-install plugins test"
 description: "A creator's 4 must-install plugin test for Hermes agents, audited against the CorpusIQ stack: cost control, model picker, goal management, agent bridge."
 category: best-practices
 tags: [hermes-agent, agent-capabilities, cost-control, model-routing, memory, mcp]
-last_updated: 2026-10-24
+last_updated: 2026-10-30
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/agent-capability-audit/"
 robots: "index,follow"
 ---
 # Agent Capability Audit - the "4 must-install plugins" test
 
-*Last updated: 2026-09-15*
+*Last updated: 2026-10-30*
 
 A popular Hermes-ecosystem creator published a checklist video: "Do not run Hermes
 Agent another week without installing these 4 plugins first." The video names no
@@ -36,13 +36,14 @@ CorpusIQ stack against each one.
 | Live cost control | Token-usage monitoring on every session plus cost attribution tracking across the fleet | Covered |
 | Model picker | A model router with a cost ladder (cheap primary, escalation tiers for complex work) | Covered |
 | Goal management | Semantic memory + session handoff + knowledge-graph notes so objectives persist across sessions | Covered |
-| Agent bridge | MCP server for tool sharing across agents + Telegram channel for human delivery | Partial - no WhatsApp/Discord voice bridges |
+| Agent bridge | MCP server for tool sharing across agents + email delivery for human-facing reports | Partial - no WhatsApp voice bridge (Hermes covers Discord voice channels natively) |
 
 ## Takeaway
 
 The checklist is satisfied by Hermes-native capabilities (cost tracking, model
 routing, persistent memory, MCP) - no third-party plugin is required to cover the
 four categories. The one genuine gap versus the creator's suite is the **WhatsApp
-and Discord voice bridge** layer; the CorpusIQ fleet currently delivers through
-Telegram. If agent reach on WhatsApp/Discord becomes a priority, that layer is the
-addition to make.
+voice bridge**: Hermes voice mode covers the CLI and live conversations in Discord
+voice channels natively, so Discord is not a gap. The CorpusIQ fleet delivers its
+agent-to-human output by email. If agent reach on WhatsApp becomes a priority, that
+bridge is the addition to make.

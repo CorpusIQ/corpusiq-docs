@@ -3,7 +3,7 @@ title: "Security Best Practices for Hermes Agent"
 description: Hermes Agent security best practices. Token and credential management, least-privilege access, tiered approval gates, audit logging, secrets management, plugin verification, and operational security checklist.
 category: best-practices
 tags: [hermes-agent, security, credentials, approval-gates, audit-logging, least-privilege, token-management, secrets]
-last_updated: 2026-10-24
+last_updated: 2026-10-30
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/security/"
 robots: "index,follow"
 
@@ -18,6 +18,21 @@ Hermes Agent connects to your data, executes code, and runs scheduled tasks  -- 
 Security with Hermes Agent follows the [least-privilege principle](/hermes/best-practices): start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface  --  managing tokens and permissions correctly is non-negotiable.
 
 ## How It Works
+
+### What Hermes enforces natively
+
+Verified against the official security documentation on Hermes Agent v0.22.5, checked 2026-10-30. The model has eight layers: user authorization, dangerous-command approval, file-write safety, container isolation, MCP credential filtering, context-file scanning, cross-session isolation, and input sanitization. The approval layer is configuration, not advice - set it deliberately in `~/.hermes/config.yaml`:
+
+```yaml
+approvals:
+  mode: smart              # smart | manual | off
+  timeout: 300             # seconds to wait for a human reply
+  cron_mode: deny          # deny | approve - unattended cron runs
+  single_query_mode: deny  # deny | approve - one-shot `hermes chat -q`
+  unattended_mode: deny    # deny | approve - webhook / API sessions
+```
+
+The three unattended modes default to `deny`. That is the safe default: a cron job, one-shot query or webhook session that trips a dangerous-command prompt is blocked, and the agent has to find another path instead of auto-approving its way through. Leave them at `deny` unless you have a specific, documented reason.
 
 ### Credential Management
 

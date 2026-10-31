@@ -3,16 +3,18 @@ title: "Lighthouse Agentic Browsing: The AI-Readiness Audit Standard"
 description: "How to audit a site for Google's Lighthouse Agentic Browsing category: the four signals (llms.txt, WebMCP, accessibility tree, layout stability), fix patterns, and a repeatable checklist."
 category: best-practices
 tags: [hermes-agent, agentic-browsing, llms-txt, webmcp, lighthouse, accessibility, seo, geo]
-last_updated: 2026-10-24
+last_updated: 2026-10-30
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/agentic-browsing-audit/"
 robots: "index,follow"
 ---
 
 # Lighthouse Agentic Browsing: The AI-Readiness Audit Standard
 
-*Last updated: 2026-10-06*
+*Last updated: 2026-10-30*
 
-Google added an **Agentic Browsing** category to Lighthouse in May 2026. Instead of measuring how a page performs for human visitors, it measures how ready a page is for AI agents and agentic browsers: can an agent find a machine-readable summary of the site, call its tools, parse its structure, and render it without layout fighting?
+Google added an **Agentic Browsing** category to Lighthouse in Lighthouse 13.3 (7 May 2026). Instead of measuring how a page performs for human visitors, it measures how ready a page is for AI agents and agentic browsers: can an agent find a machine-readable summary of the site, call its tools, parse its structure, and render it without layout fighting?
+
+The category is experimental and based on proposed standards. It requires Chrome 150 or later, and the WebMCP audits require registering for the [WebMCP origin trial](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring).
 
 For anyone working on GEO (generative engine optimization) and AEO (answer engine optimization), this is the first standardized, checkable target. You can audit a site in one command and track the score the same way teams track Core Web Vitals.
 
@@ -35,7 +37,7 @@ Run Lighthouse with the agentic browsing category enabled:
 npx lighthouse https://example.com --view --only-categories=agentic-browsing
 ```
 
-Lighthouse reports a 0 to 100 score per signal plus an overall score and letter grade. You can also score a single page with any tool that implements the same four checks, which is useful in CI to fail a build that regresses.
+This category is not scored like Performance, Accessibility, Best Practices or SEO. Lighthouse reports a **fractional pass ratio** (how many of the agentic readiness checks pass), a **pass/fail status per audit**, and informational counts in the category header. There is no weighted 0 to 100 score and no letter grade, because the standards for the agentic web are still emerging. Track the pass ratio as the number to move. You can also score a single page with any tool that implements the same four checks, which is useful in CI to fail a build that regresses.
 
 ## Fix patterns
 

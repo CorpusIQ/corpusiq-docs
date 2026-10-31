@@ -1,9 +1,9 @@
 ---
 title: "scheduled-jobs - CorpusIQ Docs"
-description: Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the profile vs default-profile split, server-local time semantics, and the discipline that keeps cron from rotting silently.
+description: Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the one-gateway host model, profile timezone semantics, no-agent script rules, and the discipline that keeps cron from rotting silently.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/scheduled-jobs/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-30"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -19,26 +19,41 @@ Profile-local cron management belongs to two scripts:
 | Tool | Purpose |
 |---|---|
 | `scripts/cron_job_manager.py` | add / list / show / enable / disable / remove / validate. Auto-backups `jobs.json` before every write. Refuses duplicate names, duplicate (script, profile) pairs, and jobs whose scripts don't exist at the resolved path. |
-| `scripts/cron_health_watchdog.py` (a recurring job in itself) | Scans profile jobs only. Alerts to your team's status channel via Telegram or Slack with 24h dedup on sustained outages. Silent unless something needs attention. Exits 0 on its own internal failures (no flaky-watchdog noise). |
+| `scripts/cron_health_watchdog.py` (a recurring job in itself) | Scans profile jobs only. Alerts the team by email (our fleet retired Telegram delivery) with 24h dedup on sustained outages. Silent unless something needs attention. Exits 0 on its own internal failures (no flaky-watchdog noise). |
 
 **Rule:** NEVER write directly to `~/.hermes/cron/jobs.json` or the profile equivalent. Hand-edits lose the auto-backup, bypass the duplicate-name guard, and silently break the in-memory state of the running cron daemon.
 
-## Server-local time, not UTC
+## Profile timezone, not UTC
 
-This is the single biggest source of confusion in cron scheduling. Hermes cron evaluates schedule expressions in **server-local time**, not UTC. If your dev box is in Arizona (GMT-7 year-round, no DST) and you write `0 13 * * *` expecting 1 PM UTC, the job will fire at 1 PM Arizona time (which is 20:00 UTC).
+This is the single biggest source of confusion in cron scheduling. A job's schedule expression is read in **your profile's timezone** (`timezone:` in `config.yaml`), which defaults to the host's local time. If your dev box is in Arizona (GMT-7 year-round, no DST) and you write `0 13 * * *` expecting 1 PM UTC, the job fires at 1 PM Arizona time (20:00 UTC).
 
-Confirm via `next_run_at` in the job's status output  --  it shows the resolved next-fire-time in UTC, so you can compare against your intent.
+Pin a zone per job when the profile zone is not the one you mean:
+
+```bash
+hermes cron create "0 9 * * 1-5" --timezone America/New_York "US market open brief"
+```
+
+The expression is then that zone's wall clock and stays put across that zone's DST changes. Confirm via `next_run_at` in the job's status output: it shows the resolved next-fire-time in UTC, so you can compare it against your intent.
 
 For a job that should fire at 9 AM Arizona / 16:00 UTC, write `0 9 * * *` and confirm `next_run_at` resolves to 16:00 UTC on the next day matching the day-of-week constraint.
 
-## The profile vs default-profile split
+## One host gateway, per-profile job stores
 
-If your Hermes installation has multiple profiles (e.g. `default` + a named profile per workstream), each profile has its OWN `jobs.json` and its OWN cron daemon. Confusing them is a common failure mode:
+Hermes runs **one gateway per host**, and that single gateway serves every profile. Per-profile gateways are no longer a supported topology: each one is a supervisor unit, a scheduler and a set of duplicated bot tokens waiting to collide.
 
-- The default profile's cron: `~/.hermes/cron/jobs.json`, managed by `hermes -p default gateway`
-- A named profile's cron: `~/.hermes/profiles/<name>/cron/jobs.json`, managed by `hermes -p <name> gateway`
+The job definitions themselves stay per profile:
 
-**Important:** if you only see one of the two gateways running and you reinstall, you may orphan jobs from the other. Two gateways is the normal state. Verify both are running before assuming a job is dead.
+- The default profile's cron: `~/.hermes/cron/jobs.json`
+- A named profile's cron: `~/.hermes/profiles/<name>/cron/jobs.json`
+
+If you inherited a host with several profile gateways running, converge it rather than deleting units by hand:
+
+```bash
+hermes gateway migrate --dry-run    # prints the plan and any blockers
+hermes gateway migrate              # stop + uninstall secondary gateways, restart the host gateway
+```
+
+Verify afterwards with `hermes gateway list`: one entry running, the rest shown as not running because the host gateway serves them. A job reporting "dead" is usually a job whose profile the gateway is not serving, not a broken schedule.
 
 ## The "no_agent" cron pattern
 
@@ -48,13 +63,24 @@ Some jobs don't need an LLM at all  --  they're just scripts that produce a noti
 - API poller: fetch a status endpoint, alert if degraded
 - Build monitor: check CI, post to Slack on failure
 
-For these, set `no_agent: true` in the job definition. The cron daemon will execute the script directly without spinning up an agent loop:
+For these, create the job in no-agent mode. The cron daemon executes the script directly without spinning up an agent loop:
+
+```bash
+hermes cron create "every 5m" \
+  --no-agent \
+  --script memory-watchdog.sh \
+  --deliver telegram \
+  --name "memory-watchdog"
+```
 
 - Stdout from the script becomes the message body
 - **Empty stdout = silent** (the watchdog pattern  --  only notify when there's something to notify about)
-- Non-zero exit code triggers an error alert (so a broken watchdog can't fail silently)
+- Non-zero exit code or a timeout triggers an error alert (so a broken watchdog can't fail silently)
+- `{"wakeAgent": false}` on the last line is the same silent-tick gate LLM jobs use
 
-When to use `no_agent: true`:
+`--script` is always a **file**, never a command line: `--script "echo hi"` is refused at creation. The resolved path must stay inside `$HERMES_HOME/scripts/`, so write the logic into a script there and pass the filename. Script subprocesses get a sanitized environment - Hermes-managed provider credentials are not inherited, so a script that needs a token must declare it in the profile `config.yaml` and define the value in that profile's `.env`.
+
+When to use no-agent mode:
 - Recurring script-only pings where the script itself produces the exact message text
 - Memory/disk/GPU watchdogs, threshold alerts, heartbeats
 - CI notifications, API pollers with a fixed output shape
@@ -71,14 +97,14 @@ Pattern: write a small script (`scripts/post_to_<channel>.sh`) that takes a mess
 
 ## Reinstalling the gateway
 
-If you ever need to fully reinstall the Hermes cron gateway (e.g. after a system update broke something):
+If a Hermes update or a moved `HERMES_HOME` leaves the host gateway broken, reinstall it rather than starting a second one:
 
 ```bash
 # Will prompt twice for confirmation
-printf "Y\nY\n" | sudo hermes -p default gateway install --system
+printf "Y\nY\n" | sudo hermes gateway install --system
 ```
 
-For a named profile, replace `default` with the profile name. Verify both gateways are still running afterwards.
+`--system` installs a Linux system-level service that starts at boot; `--force` reinstalls over an existing unit, and `--force-unit-path` repoints a unit that still pins another `HERMES_HOME`. One host gateway serves every profile, so run this once - do not repeat it per profile.
 
 ## Status discipline
 

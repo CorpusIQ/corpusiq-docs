@@ -1,9 +1,9 @@
 ---
 title: "Memory Management Best Practices for Hermes Agent"
-description: Hermes Agent memory management guide. Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB. When to use each memory tier, compaction strategies, and anti-patterns.
+description: "Hermes Agent memory management: built-in MEMORY.md, one external memory provider (Honcho or others), GBrain-style indexes, session search, compaction strategies, anti-patterns."
 category: best-practices
-tags: [hermes-agent, memory-management, honcho, gbrain, memcore-cloud, context-optimization, persistent-memory, graphrag]
-last_updated: 2026-10-24
+tags: [hermes-agent, memory-management, honcho, gbrain, memory-provider, context-optimization, persistent-memory, session-search]
+last_updated: 2026-10-30
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/memory-management/"
 robots: "index,follow"
 
@@ -15,7 +15,16 @@ Memory is what separates a stateless tool from a persistent AI assistant in Herm
 
 ## Overview
 
-Hermes Agent provides a [triple-stack memory architecture](/hermes/knowledge): **Honcho** for peer identity and preferences, **GBrain** for organizational knowledge indexing, and **memcore-cloud** for cross-session conversation recall. Each solves a different problem, and production deployments run all three.
+Hermes Agent layers memory instead of storing one blob. Four tiers ship with the agent, and one external provider can be added on top of them:
+
+- **Built-in memory** - MEMORY.md and USER.md, injected into every turn for free.
+- **Session search** - past transcripts in a local SQLite FTS5 store, queried on demand.
+- **One external memory provider** - Honcho, Mem0, Hindsight, Supermemory, OpenViking, Holographic, Memori, RetainDB or ByteRover, installed from the plugin catalog.
+- **Skills** - procedural knowledge, versioned and loaded only when relevant.
+
+Only **one** external provider can be active at a time, and the built-in memory always runs alongside it. `hermes memory status` shows what is active, `hermes memory setup` runs the interactive picker, and `hermes memory off` disables the external provider without touching MEMORY.md or USER.md.
+
+Organizational indexes and retrieval services that live outside Hermes - an indexing layer such as GBrain, or a separate retrieval service - sit beside these tiers. They are companion systems, not Hermes memory providers, and they carry their own sync discipline.
 
 ## How It Works
 
@@ -23,9 +32,10 @@ Hermes Agent provides a [triple-stack memory architecture](/hermes/knowledge): *
 
 | Tier | System | Use Case | Persistence |
 |---|---|---|---|
-| **Peer Memory** | [Honcho](/hermes/knowledge) | User identity, preferences, bans, decisions | Cross-session |
-| **Organizational** | [GBrain](/hermes/knowledge) | File/code indexing, project relationships | Cross-session |
-| **Cross-Session** | [memcore-cloud](/hermes/knowledge) | Full conversation recall with source tracking | Cross-session |
+| **Built-in** | MEMORY.md / USER.md | Stable facts, preferences, standing conventions | Every turn |
+| **Peer / user model** | [Honcho](/hermes/knowledge) or another external provider | User identity, preferences, decisions, bans | Cross-session |
+| **Organizational** | [GBrain](/hermes/knowledge) and similar indexes | File/code indexing, project relationships | Cross-session |
+| **Conversation history** | `session_search` (SQLite FTS5) | What happened in past sessions | Cross-session |
 | **Conversation** | In-session context | Task continuity within current chat | Ephemeral |
 | **Procedural** | [Skills](/hermes/skills/creating-skills) | Reusable workflows, tool chains | Versioned |
 
@@ -72,7 +82,7 @@ Honcho stores peer identity  --  who the user is, preferences, decisions, bans. 
 Prune memories periodically (monthly review), add expiration to project-specific memories, audit for contradictions, and use the dream cycle (nightly consolidation) to merge duplicates and strengthen frequently accessed paths.
 
 ### Can I use just one memory system?
-You can, but you'll have gaps. [Honcho only](/hermes/knowledge) handles peer modeling but not file indexing. [GBrain only](/hermes/knowledge) handles code/docs but not "who is the user?". Run the full triple stack for complete agent memory.
+You can, but you'll have gaps. Hermes allows one external memory provider at a time, so pick the one that matches your dominant need rather than stacking several; built-in memory and session search always run underneath it. A peer-modeling provider such as [Honcho](/hermes/knowledge) does not index your files, and an indexing layer such as [GBrain](/hermes/knowledge) does not answer "who is the user?" - run one external provider for user modeling and a separate index for organizational knowledge.
 
 ## Related Pages
 
