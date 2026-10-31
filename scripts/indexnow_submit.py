@@ -31,8 +31,9 @@ def submit(urls):
     urls = [u for u in dict.fromkeys(urls)]  # dedupe, keep order
     if not urls:
         print('indexnow: nothing to submit')
-        return
+        return True
     total = 0
+    ok = True
     for i in range(0, len(urls), 10000):
         chunk = urls[i:i + 10000]
         payload = json.dumps({
@@ -59,11 +60,18 @@ def submit(urls):
                 403: 'key not verified', 422: 'url/host mismatch', 429: 'rate limited'}.get(code, '')
         print(f'indexnow: {len(chunk)} urls -> HTTP {code} {note} {body[:120]}')
         total += len(chunk)
+        ok = ok and code in (200, 202)
     print(f'indexnow: submitted {total} url(s)')
+    return ok
+
+
+FEEDS = {'llms.txt', 'llms-full.txt'}  # root crawler files, served at /docs/<name>
 
 
 def url_for_md(path):
     p = path
+    if p in FEEDS:
+        return f'https://{HOST}/docs/{p}'
     if p.startswith('docs/'):
         p = p[5:]  # real files inside docs_dir map to docs root
     if not p.endswith('.md'):
@@ -94,7 +102,7 @@ def main():
         urls = re.findall(r'<loc>([^<]+)</loc>', xml)
         urls = [u for u in urls if '/docs/' in u]
         print(f'indexnow: bootstrap mode, {len(urls)} sitemap urls')
-        submit(urls)
+        ok = submit(urls)
     else:
         last = open(MARKER).read().strip()
         try:
@@ -109,8 +117,12 @@ def main():
             if u:
                 urls.append(u)
         print(f'indexnow: {len(urls)} changed page(s) since {last[:10]}')
-        submit(urls)
-    # advance marker
+        ok = submit(urls)
+    # advance marker only when the ping was actually accepted; a failed submit
+    # must NOT silently swallow the changed pages (marker would skip them forever)
+    if not ok:
+        print('indexnow: submit NOT accepted, marker held so the next run retries')
+        return
     try:
         head = subprocess.run(['git', 'rev-parse', 'HEAD'], capture_output=True,
                               text=True, timeout=30).stdout.strip()
