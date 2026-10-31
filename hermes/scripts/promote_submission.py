@@ -78,8 +78,44 @@ CATEGORY_HEADINGS = {
     "Research & Benchmarks": "## 🔬 Research & Benchmarks",
     "Security & Governance": "## 🛡️ Security & Governance",
     "Skills & Plugins": "## 🔧 Skills & Plugins",
+    "SDKs & Libraries": "## 📦 SDKs & Libraries",
     "UI & Dashboards": "## 🖥️ Interfaces & UI",
 }
+
+# discover.py stamps every queued row with its lowercase SEARCH BUCKET ("core",
+# "mcp", "skills", ...), not a directory display category. Without this map a
+# queued row reached promotion and died on "category 'core' has no directory
+# heading", so no hand-promoted repo could ever be placed (first hit
+# 2026-10-31 on zeyxx/hermes-antigravity). Keys must cover every bucket in
+# discover.SEARCH_QUERIES.
+CATEGORY_ALIASES = {
+    "core": "Core Framework",
+    "official": "Core Framework",
+    "forks": "Forks & Derivatives",
+    "mcp": "MCP & Integrations",
+    "integrations": "MCP & Integrations",
+    "messaging": "MCP & Integrations",
+    "apis": "MCP & Integrations",
+    "skills": "Skills & Plugins",
+    "ui": "UI & Dashboards",
+    "deployment": "Deployment",
+    "production": "Deployment",
+    "memory": "Memory & Knowledge",
+    "research": "Memory & Knowledge",
+    "benchmarks": "Memory & Knowledge",
+    "content": "Content & Media",
+    "security": "Security & Governance",
+    "tutorials": "Documentation & Learning",
+    "examples": "Guides",
+    "migration": "Guides",
+    "sdks": "SDKs & Libraries",
+}
+
+
+def normalise_category(raw):
+    """Map a discover.py bucket (or a display name) to a directory category."""
+    cat = (raw or "").strip()
+    return CATEGORY_ALIASES.get(cat.lower(), cat)
 
 
 def load(path, default=None):
@@ -189,7 +225,12 @@ def insert_into_ecosystem(row):
 
     heading = CATEGORY_HEADINGS.get(row.get("category", ""))
     if not heading or heading not in text:
-        raise SystemExit(f"category heading not found for {row.get('category')!r}")
+        # The mirror is a secondary surface: the published index is what readers
+        # see. Warn instead of aborting so a category the mirror never carried
+        # (Documentation & Learning, Guides) still reaches the served page.
+        print(f"WARN: ecosystem.md has no heading for category {row.get('category')!r}"
+              " - entry NOT written to the mirror")
+        return False
 
     start = text.index(heading)
     nxt = text.find("\n## ", start + 1)
@@ -219,12 +260,16 @@ PUBLISHED_HEADINGS = {
     "Content & Media": "## 🎬 Content & Media",
     "Core Framework": "## 🏛 Core & Official",
     "Deployment": "## 🚀 Deployment & Infrastructure",
+    "Documentation & Learning": "## 📚 Documentation & Learning",
     "Forks & Derivatives": "## 🔀 Forks & Derivatives",
+    "Guides": "## 📖 Guides",
+    "Community & Awesome Lists": "## 👥 Community & Awesome Lists",
     "Memory & Knowledge": "## 🧠 Memory & Knowledge",
     "MCP & Integrations": "## 🔌 MCP & Integrations",
     "Orchestration & Multi-Agent": "## 🎯 Orchestration, Multi-Agent & Swarms",
     "Security & Governance": "## 🔒 Security & Governance",
     "Skills & Plugins": "## 🛠 Skills & Plugins",
+    "Tools & Utilities": "## 🛠 Tools & Utilities",
     "UI & Dashboards": "## 🖥 UI & Dashboards",
 }
 
@@ -425,6 +470,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", required=True, help="owner/name")
     ap.add_argument("--note", required=True, help="why this was promoted by hand")
+    ap.add_argument("--category", default=None,
+                    help="override the directory category (default: derive from the "
+                         "queued discover.py bucket)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -444,10 +492,12 @@ def main():
     )
     if queued is None:
         raise SystemExit(f"{args.repo} is not in the review queue.")
-    if queued.get("category") not in CATEGORY_HEADINGS:
+    category = normalise_category(args.category or queued.get("category"))
+    if category not in CATEGORY_HEADINGS:
         raise SystemExit(
-            f"category {queued.get('category')!r} has no directory heading. "
-            "Add it to CATEGORY_HEADINGS first."
+            f"category {category!r} has no directory heading. Add it to "
+            "CATEGORY_HEADINGS (and PUBLISHED_HEADINGS) first, or pass --category "
+            "with one of: " + ", ".join(sorted(CATEGORY_HEADINGS))
         )
 
     live = fetch_repo(args.repo)
@@ -460,7 +510,7 @@ def main():
         "language": live.get("language", ""),
         "topics": live.get("topics", []),
         "updated_at": (live.get("updated_at") or "")[:10],
-        "category": queued["category"],
+        "category": category,
         "score": queued.get("score"),
         "tier": queued.get("tier"),
         "submitter": queued.get("submitter"),

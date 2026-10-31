@@ -7330,5 +7330,32 @@
     "discovered_at": "2026-10-31T04:01:20.261020+00:00",
     "status": "approved",
     "approved_at": "2026-10-31T04:03:25.430922+00:00"
+  },
+  {
+    "name": "zeyxx/hermes-antigravity",
+    "url": "https://github.com/zeyxx/hermes-antigravity",
+    "description": "Google Antigravity / Cloud Code Assist inference provider plugin for Hermes Agent",
+    "stars": 34,
+    "forks": 4,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "antigravity",
+      "claude",
+      "gemini",
+      "hermes-agent",
+      "llm-inference",
+      "model-provider"
+    ],
+    "updated_at": "2026-10-31",
+    "category": "MCP & Integrations",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "submitter": null,
+    "submission_issue": null,
+    "status": "approved",
+    "approved_at": "2026-10-31T05:04:48.823037+00:00",
+    "promotion_note": "Real Hermes inference-provider plugin (Google Antigravity / Cloud Code Assist). Scored 69 - half a point below the auto-approve bar - but it is a working model-provider integration with 34 stars, live commits and a Hermes-specific description, in a lane the directory under-covers.",
+    "promoted_from": "HIGH_PRIORITY score 69"
   }
 ]

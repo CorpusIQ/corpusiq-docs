@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 448+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 449+ repos, tools, skills, and integrations
 last_updated: "2026-10-30"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -18,9 +18,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **448+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 206 auto-approved (scored >= 70 or manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **449+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 207 auto-approved (scored >= 70 or manually promoted).
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **448+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **449+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -31,7 +31,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **448+ reposit
 | 🚀 Deployment | 12 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 10 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
-| 🔌 MCP Servers | 10 | Model Context Protocol servers & integrations |
+| 🔌 MCP Servers | 12 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 42 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
@@ -496,6 +496,14 @@ _Model Context Protocol servers & integrations_
 >Open-source AI CLI and local MCP server connecting 25 clients (Claude Code, Cursor, Codex, ChatGPT, Hermes, and OpenClaw) to 2,000+ models/APIs, with OAuth and rollback.
 
 **Language:** TypeScript | **Topics:** mcp, mcp-server, hermes-agent, cli, model-routing, ai-gateway | **Score:** 70/100
+
+---
+
+### [zeyxx/hermes-antigravity](https://github.com/zeyxx/hermes-antigravity) ⭐ 34
+
+>Google Antigravity / Cloud Code Assist inference provider plugin for Hermes Agent
+
+**Language:** Python | **Topics:** ai-agents, antigravity, claude, gemini, hermes-agent, llm-inference, model-provider
 
 ---
 
@@ -1832,7 +1840,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*448+ repositories in the Hermes ecosystem. Last updated: 2026-10-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*449+ repositories in the Hermes ecosystem. Last updated: 2026-10-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 

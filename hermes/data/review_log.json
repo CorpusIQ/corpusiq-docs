@@ -20477,5 +20477,35 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-31T04:03:25.430957+00:00"
+  },
+  {
+    "repo": "makwanaalpesh811-a11y/hermes-agent-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T05:03:23.420359+00:00"
+  },
+  {
+    "repo": "zeyxx/hermes-antigravity",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T05:03:23.420369+00:00"
+  },
+  {
+    "repo": "ArcadiaLabsLLC/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T05:03:23.420372+00:00"
+  },
+  {
+    "repo": "zeyxx/hermes-antigravity",
+    "action": "approved_manual_promotion",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "reason": "Real Hermes inference-provider plugin (Google Antigravity / Cloud Code Assist). Scored 69 - half a point below the auto-approve bar - but it is a working model-provider integration with 34 stars, live commits and a Hermes-specific description, in a lane the directory under-covers.",
+    "issue": null,
+    "timestamp": "2026-10-31T05:04:48.875583+00:00"
   }
 ]
