@@ -7,13 +7,15 @@ source: "mcp.so"
 discovered: "2026-07-23"
 stars: 1
 verified: true
-repository: "https://github.com/Jackalope-Dev/moxie-docs"
+repository: "Jackalope-Dev/moxie-docs (repo no longer public)"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/moxie-docs-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
+
+> **Upstream status (2026-10-31):** `Jackalope-Dev/moxie-docs` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Moxie Docs MCP - Automated Codebase Documentation
 

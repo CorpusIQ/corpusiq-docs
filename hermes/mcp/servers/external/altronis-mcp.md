@@ -5,14 +5,16 @@ category: "Developer Tools"
 source: "mcp.so"
 discovered: "2026-07-23"
 verified: true
-repository: "https://github.com/sypherin/altronis"
+repository: "sypherin/altronis (repo no longer public)"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/altronis-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 title: "Altronis MCP - Singapore AI Consulting Access"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
+
+> **Upstream status (2026-10-31):** `sypherin/altronis` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Altronis MCP - Singapore AI Consulting Access
 

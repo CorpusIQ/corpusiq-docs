@@ -3,11 +3,13 @@ title: "Conduit (Toolport) - Local MCP Gateway"
 description: "Conduit (Toolport) is a local-first desktop app that aggregates all your MCP servers behind one gateway, shared across every AI coding tool - Claude"
 category: mcp
 tags: [mcp-server, aggregator, gateway, desktop, local-first, multi-client]
-last_updated: 2026-10-24
+last_updated: 2026-10-31
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/conduit-aggregator/"
 robots: "index,follow"
 
 ---
+
+> **Upstream status (2026-10-31):** `tsouth89/conduit-aggregator` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Conduit (Toolport) - Local MCP Gateway
 
@@ -16,7 +18,7 @@ Conduit is a local-first desktop application that puts all your MCP servers behi
 **Source:** awesome-mcp-servers PR #8386 (discovered July 19, 2026)
 **Category:** Aggregators / Developer Tools
 **Author:** tsouth89
-**Repo:** https://github.com/tsouth89/conduit-aggregator
+**Repo:** tsouth89/conduit-aggregator (repo no longer public)
 **Status:** Active
 
 ## Why This Matters

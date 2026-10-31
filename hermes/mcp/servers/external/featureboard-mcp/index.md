@@ -2,17 +2,19 @@
 title: "FeatureBoard MCP Server - CorpusIQ Docs"
 subtitle: Agentic governance, management, orchestration, task planning for AI agents
 source: mcpservers.org
-github: https://github.com/valentil/featureboard-mcp
+github: valentil/featureboard-mcp (repo no longer public)
 created: 2026-07-22
 category: AI Operations
 stars: 0
 tags: [agent-orchestration, governance, task-management, productivity, ai-operations]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/featureboard-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 description: "MCP server for **automatic agentic governance, management, orchestration, task planning, and tracking**."
 
 ---
+
+> **Upstream status (2026-10-31):** `valentil/featureboard-mcp` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # FeatureBoard MCP Server
 

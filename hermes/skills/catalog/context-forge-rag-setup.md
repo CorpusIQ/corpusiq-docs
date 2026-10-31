@@ -3,10 +3,12 @@ title: ContextForge RAG - Hermes Agent Profile Setup Guide
 description: Install and configure codegraphtheory/context-forge-rag - an installable Hermes Agent profile for production RAG architecture, AI agent workflows, evaluation, and observability
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/context-forge-rag-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
+
+> **Upstream status (2026-10-31):** `codegraphtheory/context-forge-rag` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # ContextForge RAG - Hermes Profile Setup
 

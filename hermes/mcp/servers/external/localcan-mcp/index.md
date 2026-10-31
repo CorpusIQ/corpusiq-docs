@@ -9,7 +9,7 @@ rating: ★
 status: active
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/localcan-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -68,5 +68,5 @@ While primarily a developer tool, LocalCan has operational use cases for busines
 ## Resources
 
 - **Homepage:** https://localcan.com/
-- **Repository:** https://github.com/LocalCan/localcan-mcp
+- **Repository:** LocalCan/localcan-mcp (repo no longer public)
 - **mcp.so:** https://mcp.so/servers/localcan

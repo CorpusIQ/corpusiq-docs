@@ -2,17 +2,19 @@
 title: "FT Optix MCP Server - CorpusIQ Docs"
 subtitle: Industrial automation connectivity - FT Optix Studio to LLMs
 source: mcp.so
-github: https://github.com/asqi-carter/ft-optix-mcp
+github: asqi-carter/ft-optix-mcp (repo no longer public)
 created: 2026-07-21
 category: Industrial
 stars: 0
 tags: [industrial, automation, factory, iot, plc, scada]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ft-optix-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 description: "FT Optix Studio credentials (username/password). Requires network access to the FT Optix server. MCP for connecting LLMs. factory/industrial automation pla."
 
 ---
+
+> **Upstream status (2026-10-31):** `asqi-carter/ft-optix-mcp` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # FT Optix MCP Server
 

@@ -2,17 +2,19 @@
 title: "Reelier MCP Server - CorpusIQ Docs"
 subtitle: Agent workflow recording and deterministic replay at zero tokens
 source: mcp.so
-github: https://github.com/maximehoule/reelier
+github: maximehoule/reelier (repo no longer public)
 created: 2026-07-22
 category: AI Operations
 stars: 0
 tags: [agent-workflow, replay, deterministic, testing, audit, developer-tools]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/reelier-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 description: "MCP server for **recording agent tool-call workflows and replaying them deterministically at zero tokens**."
 
 ---
+
+> **Upstream status (2026-10-31):** `maximehoule/reelier` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Reelier MCP Server
 

@@ -7,8 +7,10 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★
 tags: [postgresql, semantic-layer, data-governance, google-sheets, bi, dlt, self-hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 ---
+
+> **Upstream status (2026-10-31):** `omhq/settra` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.
 
 # Settra MCP - Governed Tabular Data for AI Agents
 

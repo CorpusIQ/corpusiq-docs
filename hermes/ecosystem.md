@@ -515,7 +515,7 @@ _Model Context Protocol servers & integrations_
 
 ---
 
-### [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) ⭐ 26
+### yun520-1/mark-heartflow-skill (repo no longer public) ⭐ 26
 
 >心虫 (HeartFlow) - 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
 
@@ -1097,7 +1097,7 @@ _Security tools, compliance, audit_
 
 ---
 
-### [codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge) ⭐ 8
+### codegraphtheory/chainforge (repo no longer public) ⭐ 8
 
 >Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
 
@@ -1774,7 +1774,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-### [raulvidis/hermes-android](https://github.com/raulvidis/hermes-android) ⭐ 452
+### raulvidis/hermes-android (repo no longer public) ⭐ 452
 
 >Android device control for hermes-agent - bridge app + Python toolset
 

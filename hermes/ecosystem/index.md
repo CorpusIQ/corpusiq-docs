@@ -1084,7 +1084,7 @@ Model-agnostic memory substrate for AI agents
 ---
 
 ### Aphelios01-sdk/hermes-brain
-⭐ **0** · `Python` · https://github.com/Aphelios01-sdk/hermes-brain (repo no longer public)
+⭐ **0** · `Python` · Aphelios01-sdk/hermes-brain (repo no longer public)
 
 Hermes Agent skills and memories - AI training knowledge base
 
@@ -1269,7 +1269,7 @@ Hermes Agent ported to Claude Code Channel -- 46 native skills, no OAuth require
 ---
 
 ### raulvidis/hermes-android
-⭐ **community** · `Python` · [github.com/raulvidis/hermes-android](https://github.com/raulvidis/hermes-android)
+⭐ **community** · `Python` · github.com/raulvidis/hermes-android (repo no longer public)
 
 Android device bridge for Hermes. Control and interact with Android devices from your agent.
 
@@ -2259,7 +2259,7 @@ Switch Chrome profiles via Chrome DevTools Protocol. Manage multiple browser ide
 ---
 
 ### raulvidis/hermes-cloudflare
-⭐ **community** · `Python` · [github.com/raulvidis/hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare)
+⭐ **community** · `Python` · github.com/raulvidis/hermes-cloudflare (repo no longer public)
 
 Cloudflare browser rendering for Hermes. Headless browsing via Cloudflare's network.
 
@@ -2421,7 +2421,7 @@ Multi-platform hot topic tracking and content intelligence skill for Hermes Agen
 ---
 
 ### Atemndobs/hermes-plugins-hub
-⭐ **1** · [github.com/Atemndobs/hermes-plugins-hub](https://github.com/Atemndobs/hermes-plugins-hub)
+⭐ **1** · github.com/Atemndobs/hermes-plugins-hub (repo no longer public)
 
 Community directory for Hermes Agent plugins -- auto-indexed from GitHub topic tags for seamless plugin discovery. Search, browse, and discover community-built Hermes Agent extensions, skills, and integrations in one centralized, searchable hub.
 
@@ -3833,7 +3833,7 @@ AI Agent Security Middleware -- 8-layer defense, DLP data flow, prompt injection
 ---
 
 ### codegraphtheory/chainforge
-⭐ **8** · `Python` · [github.com/codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge)
+⭐ **8** · `Python` · github.com/codegraphtheory/chainforge (repo no longer public)
 
 Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
 
