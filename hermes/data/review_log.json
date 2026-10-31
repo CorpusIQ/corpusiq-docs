@@ -20407,5 +20407,238 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-10-30T10:04:46.532969+00:00"
+  },
+  {
+    "repo": "convergentaru/hermes-local-model-docs",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430936+00:00"
+  },
+  {
+    "repo": "FlyingViet/CantripIOS",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430940+00:00"
+  },
+  {
+    "repo": "amurlaniakea/hermes-crew-hybrid",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430943+00:00"
+  },
+  {
+    "repo": "eyeoverthink/chandra-fraymus",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430945+00:00"
+  },
+  {
+    "repo": "phamtruonghung/hermes-office",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430947+00:00"
+  },
+  {
+    "repo": "Corebrum/corebrum-synapse",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430949+00:00"
+  },
+  {
+    "repo": "wfca-mz/token-optimizer",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430951+00:00"
+  },
+  {
+    "repo": "sno-ai/sno-station",
+    "score": 88,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-10-31T04:03:25.430953+00:00"
+  },
+  {
+    "repo": "sinkerine/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430955+00:00"
+  },
+  {
+    "repo": "Tsurgcom/hermes-web-markdown-new",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T04:03:25.430957+00:00"
+  },
+  {
+    "repo": "makwanaalpesh811-a11y/hermes-agent-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T05:03:23.420359+00:00"
+  },
+  {
+    "repo": "zeyxx/hermes-antigravity",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T05:03:23.420369+00:00"
+  },
+  {
+    "repo": "ArcadiaLabsLLC/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T05:03:23.420372+00:00"
+  },
+  {
+    "repo": "zeyxx/hermes-antigravity",
+    "action": "approved_manual_promotion",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "reason": "Real Hermes inference-provider plugin (Google Antigravity / Cloud Code Assist). Scored 69 - half a point below the auto-approve bar - but it is a working model-provider integration with 34 stars, live commits and a Hermes-specific description, in a lane the directory under-covers.",
+    "issue": null,
+    "timestamp": "2026-10-31T05:04:48.875583+00:00"
+  },
+  {
+    "repo": "tsrman/AurumAI",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785138+00:00"
+  },
+  {
+    "repo": "Noelune/unified-agent-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785151+00:00"
+  },
+  {
+    "repo": "haesol-shin/hermes-taskwatch",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785154+00:00"
+  },
+  {
+    "repo": "alexmi256/rea-agent-docker",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785156+00:00"
+  },
+  {
+    "repo": "maciej-makowski/mcp-servers",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785158+00:00"
+  },
+  {
+    "repo": "NostrDanish/hermes-nanogpt-provider",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785160+00:00"
+  },
+  {
+    "repo": "NostrDanish/hermes-pollinations-provider",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785162+00:00"
+  },
+  {
+    "repo": "kshitijk4poor/hermes-rex-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785163+00:00"
+  },
+  {
+    "repo": "agentready-tech/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785165+00:00"
+  },
+  {
+    "repo": "creatiVision/hermes-drive-index",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785167+00:00"
+  },
+  {
+    "repo": "aakash-env/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785168+00:00"
+  },
+  {
+    "repo": "vighneshkumbhar/hermes-cognitive-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T10:03:26.785170+00:00"
+  },
+  {
+    "repo": "juev/hermes-macos",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456191+00:00"
+  },
+  {
+    "repo": "Esmien/hermes-state",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456200+00:00"
+  },
+  {
+    "repo": "xiaok/hermes-autonomous",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456202+00:00"
+  },
+  {
+    "repo": "JorisJonkers-dev/openrouter-model-catalog",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456203+00:00"
+  },
+  {
+    "repo": "xZeVeXx/kore-server",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456204+00:00"
+  },
+  {
+    "repo": "tiqi9896/hermes-minimax-jailbreak-kernel",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456205+00:00"
+  },
+  {
+    "repo": "hrabanazviking/hermes-agent-RuneForgeAI-hack",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-10-31T11:03:23.456206+00:00"
   }
 ]
