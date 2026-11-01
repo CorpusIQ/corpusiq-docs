@@ -12,7 +12,7 @@ keywords:
 - MCP QuickBooks natural language
 - AI QuickBooks questions
 - financial data querying
-last_updated: "2026-10-26"
+last_updated: "2026-10-31"
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-natural-language-queries
