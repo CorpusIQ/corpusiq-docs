@@ -2119,10 +2119,10 @@ Skill orchestration with Conductor planning. Compose multiple skills into comple
 ### armelhbobdad/bmad-module-skill-forge
 ⭐ **community** · `Python` · [github.com/armelhbobdad/bmad-module-skill-forge](https://github.com/armelhbobdad/bmad-module-skill-forge)
 
-Converts entire repositories into installable Hermes skills. Automated skill packaging from existing codebases.
+Builds agent skills from code repositories, documentation sites, and developer discussions. Works from documentation alone when there is no public source, as with SaaS APIs and closed-source tools. Every instruction cites where it came from: a `file:line` at a pinned commit for code, or the page URL for docs. Skills are version-pinned and follow the agentskills.io spec, so Hermes and other Agent Skills hosts can load them.
 
-**Status:** Beta 
-**Key capabilities:** Repo-to-skill conversion, automated packaging, skill forge
+**Status:** Production 
+**Key capabilities:** Code-to-skill and docs-only skill compilation, `file:line` provenance at a pinned commit, version-pinned skills, built-in skill testing and export
 
 ---
 
