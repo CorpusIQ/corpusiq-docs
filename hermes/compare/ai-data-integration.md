@@ -1,7 +1,7 @@
 ---
 title: "AI Data Integration: Connect Business Tools to AI Assistants"
 description: "How CorpusIQ approaches AI data integration for business tools: read-only connectors, source-cited answers, and one consistent answer across ChatGPT, Claude, and Perplexity."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # AI Data Integration: Connect Business Tools to AI Assistants
@@ -30,6 +30,6 @@ No workflow to design. No ETL pipeline to maintain. No dashboard to build.
 
 ## CorpusIQ for AI data integration
 
-CorpusIQ connects 40+ business tools to ChatGPT, Claude, and Perplexity. Read-only OAuth on external-source retrieval, source-cited answers, zero retained raw files. Live in the ChatGPT app store and the Claude connector directory.
+CorpusIQ connects 40+ business tools to ChatGPT, Claude, and Perplexity. Read-only OAuth on external-source retrieval, source-cited answers, zero retained raw files. Live in the ChatGPT app store, and inside Claude through our MCP connector.
 
 Try it free for 30 days, no credit card: corpusiq.io/pricing
