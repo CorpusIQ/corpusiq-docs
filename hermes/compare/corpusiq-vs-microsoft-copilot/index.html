@@ -11445,7 +11445,7 @@
 
 
 <h1 id="corpusiq-vs-microsoft-copilot-what-each-one-does">CorpusIQ vs Microsoft Copilot: What Each One Does<a class="headerlink" href="#corpusiq-vs-microsoft-copilot-what-each-one-does" title="Anchor link to this section">&para;</a></h1>
-<p>Microsoft Copilot works inside the Microsoft 365 stack. CorpusIQ is the layer that gives AI assistants live access to your business data across 40+ tools, including non-Microsoft systems. The two do different jobs, and CorpusIQ does not connect to Copilot: Copilot has no MCP connector, so there is nothing on its side to attach to.</p>
+<p>Microsoft Copilot works inside the Microsoft 365 stack. CorpusIQ is the layer that gives AI assistants live access to your business data across 40+ tools, including non-Microsoft systems. The two do different jobs. Microsoft 365 Copilot now reaches outside systems through MCP using federated connectors that an admin sets up in the Microsoft 365 admin center, or through Copilot Studio. CorpusIQ is a remote MCP server, so the technical path exists. What we do not have yet is a CorpusIQ connector listed in Microsoft's connector gallery, which is a partner submission Microsoft reviews and approves.</p>
 <h2 id="quick-comparison">Quick comparison<a class="headerlink" href="#quick-comparison" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -11493,7 +11493,7 @@
 <h3 id="does-corpusiq-replace-microsoft-copilot">Does CorpusIQ replace Microsoft Copilot?<a class="headerlink" href="#does-corpusiq-replace-microsoft-copilot" title="Anchor link to this section">&para;</a></h3>
 <p>No. Microsoft Copilot stays your system of record for its job. CorpusIQ answers cross-source questions from the systems Copilot does not read, and it does not read Copilot either.</p>
 <h3 id="can-i-use-microsoft-copilot-data-in-chatgpt-today">Can I use Microsoft Copilot data in ChatGPT today?<a class="headerlink" href="#can-i-use-microsoft-copilot-data-in-chatgpt-today" title="Anchor link to this section">&para;</a></h3>
-<p>Not through CorpusIQ. Copilot has no MCP connector, so there is no supported path for us to read from it. You can ask ChatGPT a business question against the connectors you do have, such as Shopify, QuickBooks, Stripe, GA4, and Google Ads, and get an answer with citations.</p>
+<p>Not through a gallery connector today. Copilot now reaches external tools over MCP through federated connectors an admin enables in the Microsoft 365 admin center, but CorpusIQ is not yet listed in Microsoft's connector gallery, so there is no one-click path. In the meantime you can ask ChatGPT a business question against the connectors you do have, such as Shopify, QuickBooks, Stripe, GA4, and Google Ads, and get an answer with citations.</p>
 <h3 id="is-my-data-safe">Is my data safe?<a class="headerlink" href="#is-my-data-safe" title="Anchor link to this section">&para;</a></h3>
 <p>External-source retrieval is read-only. No retained raw customer files or full connector payloads; operational logs and indexes are disclosed separately. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.</p>
 <h2 id="try-it">Try it<a class="headerlink" href="#try-it" title="Anchor link to this section">&para;</a></h2>
