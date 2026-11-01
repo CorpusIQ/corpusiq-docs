@@ -26,6 +26,8 @@ Hermes Agent stores all sessions and messages in `state.db` (SQLite). Over time:
 
 Without maintenance, a production Hermes instance degrades silently.
 
+> **Built-in alternative.** Hermes ships its own session commands - `hermes sessions list`, `delete`, `prune`, `archive`, `optimize` and `checkpoints prune`. If you only need to delete or prune sessions and reclaim disk space, start with [Session Cleanup](/hermes/setup/session-cleanup) and add this script when you want the scheduled backup included.
+
 ## Quick Install
 
 ```bash
