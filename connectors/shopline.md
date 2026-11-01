@@ -1,5 +1,5 @@
 ---
-title: "SHOPLINE - CorpusIQ Docs - CorpusIQ"
+title: "SHOPLINE - CorpusIQ Docs"
 description: "Query orders, products, inventory, and customers in your SHOPLINE store with plain-English questions and cited answers."
 last_updated: "2026-10-25"
 ---

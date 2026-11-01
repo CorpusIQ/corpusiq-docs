@@ -1,5 +1,5 @@
 ---
-title: "Secondhand MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Secondhand MCP - CorpusIQ Docs"
 description: Search Facebook Marketplace, eBay, Depop, and Poshmark from any MCP client for resale research, pricing comps, and sourcing
 category: Commerce & E-Commerce
 stars: n/a (new listing)

@@ -1,5 +1,5 @@
 ---
-title: "Moltline Studio MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Moltline Studio MCP - CorpusIQ Docs"
 description: "A suite of 14 audited remote MCP servers for business operations - merchant math, CSV analytics, business-day math and agent governance"
 category: Business Operations
 stars: n/a (new listing)

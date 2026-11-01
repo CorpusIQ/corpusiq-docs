@@ -1,5 +1,5 @@
 ---
-title: "Inside Ads MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Inside Ads MCP - CorpusIQ Docs"
 description: "Pre-campaign audience validation for new products: reach and CPC estimates against real ad inventory before you spend, via MCP"
 category: Marketing
 stars: n/a (new listing)

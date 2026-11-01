@@ -1,5 +1,5 @@
 ---
-title: "Klaviyo - CorpusIQ Docs - CorpusIQ"
+title: "Klaviyo - CorpusIQ Docs"
 description: "For ecommerce brands, Klaviyo is where email and SMS revenue actually gets attributed. Connecting it lets CorpusIQ pull campaign performance, flow rev."
 last_updated: "2026-10-24"
 ---

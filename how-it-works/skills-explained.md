@@ -1,5 +1,5 @@
 ---
-title: "Skills Engine - CorpusIQ Docs - CorpusIQ"
+title: "Skills Engine - CorpusIQ Docs"
 description: "Skills are what make CorpusIQ answers good. This page explains how the skills router picks the right capability for your question and keeps answers consistent across assistants."
 last_updated: "2026-10-24"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Waqi MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Waqi MCP - CorpusIQ Docs"
 description: "Hosted MCP privacy layer that redacts PII from Stripe, Xero, CRM and 16 business connectors before the AI sees it, with a provable audit log"
 category: Data & Analytics
 stars: n/a (new listing)

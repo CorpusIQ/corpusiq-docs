@@ -1,5 +1,5 @@
 ---
-title: "Semrush - CorpusIQ Docs - CorpusIQ"
+title: "Semrush - CorpusIQ Docs"
 description: "Bring SEO and competitive search data into the conversation."
 last_updated: "2026-10-24"
 ---

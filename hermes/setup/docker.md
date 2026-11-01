@@ -1,6 +1,6 @@
 ---
-title: "Docker Hermes Agent Setup - CorpusIQ Docs"
-description: Deploy Hermes Agent as a Docker container for reproducible AI automation. Docker Compose setup with persistent volumes, MCP server integration, cron persistence, and production checklist. Works on any host.
+title: "Hermes Agent Docker Image and Docker Compose Setup"
+description: Run Hermes Agent from the official nousresearch/hermes-agent Docker image. Docker Compose config, persistent volumes, MCP servers, cron persistence and a production checklist.
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
 last_updated: 2026-10-31

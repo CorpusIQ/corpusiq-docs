@@ -1,5 +1,5 @@
 ---
-title: "Close - CorpusIQ Docs - CorpusIQ"
+title: "Close - CorpusIQ Docs"
 description: "Close is where your outbound sales motion lives - leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ p."
 last_updated: "2026-10-24"
 ---

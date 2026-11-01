@@ -1,5 +1,5 @@
 ---
-title: "YouTube - CorpusIQ Docs - CorpusIQ"
+title: "YouTube - CorpusIQ Docs"
 description: "Bring your YouTube channel analytics into conversation alongside your other marketing data. Ask which videos drove traffic, where viewers are coming f."
 last_updated: "2026-10-24"
 ---

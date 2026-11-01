@@ -1,5 +1,5 @@
 ---
-title: "StorePilot MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "StorePilot MCP - CorpusIQ Docs"
 description: "Run an app portfolio across Google Play and the App Store from one MCP server: vitals, reviews, earnings, and crash detection, 34 tools"
 category: Commerce & E-Commerce
 stars: n/a (new listing)

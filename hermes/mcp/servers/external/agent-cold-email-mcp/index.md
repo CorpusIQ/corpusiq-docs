@@ -1,5 +1,5 @@
 ---
-title: "Coldrig MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Coldrig MCP - CorpusIQ Docs"
 description: "Agent-native cold email infrastructure with 28 MCP tools - buy domains, provision mailboxes, run warmup, launch campaigns and monitor deliverability"
 category: Marketing
 stars: n/a (new listing)

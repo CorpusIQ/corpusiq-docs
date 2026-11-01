@@ -1,5 +1,5 @@
 ---
-title: "UnrealUGC MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "UnrealUGC MCP - CorpusIQ Docs"
 description: "Create and manage AI UGC video ads through eleven typed MCP tools - browse video models, creators and voices, estimate credit cost before spending, and generate asynchronously"
 category: Marketing
 stars: "n/a (new listing)"

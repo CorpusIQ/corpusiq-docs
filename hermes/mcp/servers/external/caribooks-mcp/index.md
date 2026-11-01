@@ -1,5 +1,5 @@
 ---
-title: "Caribooks MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Caribooks MCP - CorpusIQ Docs"
 description: "Hosted MCP server connecting QuickBooks Online Canada and US companies to Claude, ChatGPT and any MCP client with 160+ read and write tools"
 category: Finance & Accounting
 stars: n/a (new listing)

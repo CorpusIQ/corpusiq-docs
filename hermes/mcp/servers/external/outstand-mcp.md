@@ -1,5 +1,5 @@
 ---
-title: "Outstand MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Outstand MCP - CorpusIQ Docs"
 description: "Setup and usage guide for Outstand MCP. Part of the Hermes resource directory. Category: Social Media Marketing."
 last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/outstand-mcp/"

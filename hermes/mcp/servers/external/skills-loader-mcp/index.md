@@ -1,5 +1,5 @@
 ---
-title: "Skills Loader - CorpusIQ Docs - CorpusIQ Docs"
+title: "Skills Loader - CorpusIQ Docs"
 description: "Setup and usage guide for Skills Loader. Part of the Hermes resource directory. Source: mcp.so submission #3293 (July 24, 2026) Website: skls.to MCP Endpoi."
 last_updated: 2026-10-24
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/skills-loader-mcp/"

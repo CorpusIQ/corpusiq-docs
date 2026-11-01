@@ -1,5 +1,5 @@
 ---
-title: "Etsy - CorpusIQ Docs - CorpusIQ"
+title: "Etsy - CorpusIQ Docs"
 description: "Query Etsy shop performance, listings, orders, and review trends in plain English, in the same answer as your other sales channels."
 last_updated: "2026-10-25"
 ---

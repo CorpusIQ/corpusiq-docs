@@ -1,5 +1,5 @@
 ---
-title: "AIO.GEO MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "AIO.GEO MCP - CorpusIQ Docs"
 description: "Structural AI search readiness over MCP - audit how AI engines see your site, dry-run fixes, rescore, and doctor."
 category: SEO
 stars: n/a (new listing)

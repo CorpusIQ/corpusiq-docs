@@ -1,5 +1,5 @@
 ---
-title: "HelpDocs MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "HelpDocs MCP - CorpusIQ Docs"
 description: "Connect AI assistants to your HelpDocs knowledge base. Search, read, draft, and update articles, reorganize categories."
 category: Productivity
 stars: n/a (new listing)

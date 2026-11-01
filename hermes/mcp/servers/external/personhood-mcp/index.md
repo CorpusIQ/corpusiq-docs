@@ -1,5 +1,5 @@
 ---
-title: "Personhood MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Personhood MCP - CorpusIQ Docs"
 description: Rewrite AI-generated text to read as human in a chosen voice for LinkedIn posts, cold emails, and DMs, delivered as a hosted MCP
 category: Marketing
 stars: n/a (new listing)

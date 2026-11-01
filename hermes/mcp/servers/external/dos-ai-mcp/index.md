@@ -1,5 +1,5 @@
 ---
-title: "DOS AI MCP - CorpusIQ Docs - CorpusIQ"
+title: "DOS AI MCP - CorpusIQ Docs"
 description: "WhatsApp and Telegram AI assistant operations over MCP - projects, conversations, leads and analytics for chatbot operators."
 category: Communication
 stars: n/a (new listing)

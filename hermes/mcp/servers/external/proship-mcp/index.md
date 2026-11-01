@@ -1,5 +1,5 @@
 ---
-title: "ProShip MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "ProShip MCP - CorpusIQ Docs"
 description: "MCP server for ProShip, a Thai order-management platform - create Thailand Post shipments, print PDF labels and track parcels from any AI agent"
 category: Commerce
 stars: n/a (new listing)

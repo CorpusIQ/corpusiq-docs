@@ -9,7 +9,7 @@ setup: npx skills add prisma/skills@prisma-cli
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/prisma/prisma-cli/"
 robots: "index,follow"
 last_updated: "2026-10-31"
-title: "Prisma Cli - CorpusIQ Docs - CorpusIQ Docs"
+title: "Prisma Cli - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

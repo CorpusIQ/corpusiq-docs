@@ -9,7 +9,7 @@ setup: npx skills add claude-office-skills/skills@telegram-bot
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/telegram-bot/"
 robots: "index,follow"
 last_updated: "2026-10-31"
-title: "Telegram Bot - CorpusIQ Docs - CorpusIQ Docs"
+title: "Telegram Bot - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "HubSpot - CorpusIQ Docs - CorpusIQ"
+title: "HubSpot - CorpusIQ Docs"
 description: "HubSpot is where your sales pipeline, customer relationships, and deal history live."
 last_updated: "2026-10-24"
 ---

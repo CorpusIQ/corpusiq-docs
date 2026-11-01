@@ -1,5 +1,5 @@
 ---
-title: "Sonar ASO MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "Sonar ASO MCP - CorpusIQ Docs"
 description: "Official Sonar MCP server with 25 App Store Optimization tools for AI agents - keyword research, rank tracking, review mining and revenue estimates"
 category: Marketing
 stars: n/a (new listing)

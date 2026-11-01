@@ -9,7 +9,7 @@ setup: npx skills add resciencelab/opc-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/seo-geo/"
 robots: "index,follow"
 last_updated: "2026-10-31"
-title: "Seo Geo - CorpusIQ Docs - CorpusIQ"
+title: "Seo Geo - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

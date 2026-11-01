@@ -1,5 +1,5 @@
 ---
-title: "LinkedIn Ads - CorpusIQ Docs - CorpusIQ"
+title: "LinkedIn Ads - CorpusIQ Docs"
 description: "LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets CorpusIQ pull campaign performance, creative analytics, and account-l."
 last_updated: "2026-10-24"
 ---

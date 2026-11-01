@@ -34,6 +34,7 @@ Exit codes: 0 = all good, 1 = one or more pages broken.
 from __future__ import annotations
 
 import glob
+import os
 import re
 import sys
 
@@ -107,6 +108,47 @@ def check_file(path: str) -> list[str]:
     return problems
 
 
+def brand_title_gate() -> int:
+    """Fail when a page title repeats the site brand suffix.
+
+    The theme renders the frontmatter title verbatim, so "Supabase - CorpusIQ
+    Docs - CorpusIQ Docs" reaches the SERP twice brand-suffixed. 121 pages
+    shipped with the defect; the worst (a catalog page) held 7,483 impressions
+    at position 6.5 with 3 clicks over 90 days.
+
+    This lives inside the frontmatter gate because CI already runs this script
+    on every push and pull request, and the repository's classic PAT cannot push
+    a separate step into .github/workflows/. Repair with
+    `python scripts/validate_page_metadata.py --fix`.
+    """
+    try:
+        import validate_page_metadata as vpm
+    except ImportError:  # invoked from another working directory
+        sys.path.insert(0, __file__.rsplit("/", 1)[0])
+        import validate_page_metadata as vpm  # type: ignore
+
+    bad = []
+    for path in vpm.pages("."):
+        try:
+            text = open(path, encoding="utf-8", errors="replace").read()
+        except OSError:
+            continue
+        fm = vpm.frontmatter(text)
+        if not fm:
+            continue
+        title = vpm.value(fm, "title")
+        if title and vpm.brand_dupe(title):
+            bad.append((os.path.relpath(path, "."), title))
+
+    if not bad:
+        return 0
+    print(f"✗ {len(bad)} page title(s) repeat the brand suffix:", file=sys.stderr)
+    for rel, title in sorted(bad)[:20]:
+        print(f"  {rel}: {title}", file=sys.stderr)
+    print("  Fix: python scripts/validate_page_metadata.py --fix", file=sys.stderr)
+    return 1
+
+
 def main() -> int:
     files = iter_markdown()
     broken: dict[str, list[str]] = {}
@@ -118,7 +160,7 @@ def main() -> int:
     print(f"frontmatter check: scanned {len(files)} Markdown files")
     if not broken:
         print("✓ all frontmatter is valid")
-        return 0
+        return brand_title_gate()
 
     print(f"✗ {len(broken)} file(s) with broken frontmatter:\n", file=sys.stderr)
     for f, issues in sorted(broken.items()):

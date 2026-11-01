@@ -1,5 +1,5 @@
 ---
-title: "TokPortal MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "TokPortal MCP - CorpusIQ Docs"
 description: "Managed social infrastructure API for AI agents - real TikTok, Instagram and YouTube accounts created, warmed and operated by human account managers in 16+ countries, exposed through 91 MCP tools"
 category: Marketing
 stars: "n/a (new listing)"

@@ -9,7 +9,7 @@ setup: npx skills add supabase/agent-skills@supabase
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/supabase/supabase/"
 robots: "index,follow"
 last_updated: "2026-10-31"
-title: "Supabase - CorpusIQ Docs - CorpusIQ"
+title: "Supabase - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

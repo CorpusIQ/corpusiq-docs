@@ -12,7 +12,7 @@ installs: 34900
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-gmail/"
 robots: "index,follow"
 last_updated: "2026-10-31"
-title: "GWS Gmail - CorpusIQ Docs - CorpusIQ Docs"
+title: "GWS Gmail - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

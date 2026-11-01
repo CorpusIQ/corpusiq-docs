@@ -1,5 +1,5 @@
 ---
-title: "Outlook - CorpusIQ Docs - CorpusIQ"
+title: "Outlook - CorpusIQ Docs"
 description: "Pull your Outlook inbox and calendar into the conversation. Ask what's on your plate this week, what a customer last emailed you."
 last_updated: "2026-10-30"
 ---

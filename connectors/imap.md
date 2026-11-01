@@ -1,5 +1,5 @@
 ---
-title: "IMAP Email - CorpusIQ Docs - CorpusIQ"
+title: "IMAP Email - CorpusIQ Docs"
 description: "Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector let."
 last_updated: "2026-10-24"
 ---

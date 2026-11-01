@@ -1,6 +1,6 @@
 ---
-title: "ViewMax MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: AI video, image, music and speech generation over MCP - Sora-class video models with OAuth or API-key auth and credit-based billing.
+title: "ViewMax MCP Server - Endpoint, Tools and Claude Setup"
+description: "ViewMax MCP server for AI video, image, music and speech generation. Endpoint, auth modes, tool list and Claude setup for the remote Streamable HTTP server."
 category: Content
 stars: n/a (new listing)
 added: 2026-08-17

@@ -59,6 +59,45 @@ SKIP_DIRS = {'.git', 'site', 'node_modules', '.cache', '__pycache__'}
 MAX_DESC = 160
 MAX_TITLE = 60
 
+# 2026-11-01: repeated brand suffix in the <title>. The site template renders
+# page.meta.title verbatim, so a title authored as "Supabase - CorpusIQ Docs -
+# CorpusIQ Docs" reaches the SERP twice brand-suffixed. Measured cost: the
+# worst offender (a catalog page with this exact defect) held 7,483 impressions
+# at position 6.5 over 90 days with 3 clicks, a 0.04% CTR.
+BRAND_TAIL = re.compile(r'(?:\s*[-|\u2013\u2014]\s*CorpusIQ(?:\s+Docs)?)+\s*$', re.I)
+DOUBLE_BRAND = re.compile(r'CorpusIQ\s+Docs\s*[-|]\s*CorpusIQ\s*$', re.I)
+
+
+def brand_dupe(title):
+    """True when the brand suffix is repeated in a title."""
+    t = title.strip()
+    if t.count('CorpusIQ Docs') > 1:
+        return True
+    if DOUBLE_BRAND.search(t):
+        return True
+    if re.search(r'(?:\s*[-|]\s*CorpusIQ\s*){2,}$', t, re.I):
+        return True
+    return False
+
+
+def unbrand(title):
+    """Collapse repeated brand suffixes into one, or drop them if the base is long."""
+    base = title.strip()
+    while True:
+        stripped = BRAND_TAIL.sub('', base).strip()
+        if stripped == base:
+            break
+        base = stripped
+    if not base:
+        return None
+    # A base that already ends in the brand needs no second suffix.
+    if re.search(r'CorpusIQ(\s+Docs)?$', base, re.I):
+        return base
+    if len(base) > MAX_TITLE - len(' - CorpusIQ Docs'):
+        return base
+    return base + ' - CorpusIQ Docs'
+
+
 
 def pages(root):
     for dp, dirs, fns in os.walk(root):
@@ -140,6 +179,7 @@ def main(argv):
         os.path.dirname(os.path.abspath(__file__)))
 
     dup_footer, bad_title, long_desc, open_desc, fixed = [], [], 0, 0, []
+    rebranded = []
     for p in pages(root):
         rel = os.path.relpath(p, root)
         try:
@@ -159,7 +199,18 @@ def main(argv):
         if not fm:
             continue
         title = value(fm, 'title')
-        if title and dangling(title):
+        if title and brand_dupe(title):
+            new = unbrand(title) if do_fix else None
+            if new and new != title:
+                t2 = re.sub(r'(?m)^title:.*$', 'title: "%s"' % new.replace('"', "'"),
+                            text, count=1)
+                open(p, 'w', encoding='utf-8').write(t2)
+                rebranded.append((rel, title, new))
+            elif new == title:
+                pass
+            else:
+                bad_title.append((rel, 'DUPLICATE BRAND: %s' % title))
+        elif title and dangling(title):
             new = retitle(title, h1_of(text)) if do_fix else None
             if new:
                 t2 = re.sub(r'(?m)^title:.*$', 'title: "%s"' % new.replace('"', "'"),
@@ -190,6 +241,7 @@ def main(argv):
     print('  duplicate footer lines   : %d' % len(dup_footer))
     print('  dangling/invalid titles  : %d' % len(bad_title))
     print('  titles repaired from H1  : %d' % len(fixed))
+    print('  titles with single brand : %d' % len(rebranded))
     print('  (warn) descriptions >160 : %d' % long_desc)
     print('  (warn) no terminal punct : %d' % open_desc)
     for rel in dup_footer[:20]:
@@ -198,6 +250,8 @@ def main(argv):
         print('   [title] %s | %s' % (rel, t))
     for rel, old, new in fixed[:20]:
         print('   [fixed] %s | %s -> %s' % (rel, old, new))
+    for rel, old, new in rebranded[:20]:
+        print('   [brand] %s | %s -> %s' % (rel, old, new))
     if total:
         print('RESULT: %s (%d findings)' % ('warn' if warn else 'FAIL', total))
         return 0 if warn else 1

@@ -1,5 +1,5 @@
 ---
-title: "xete MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "xete MCP - CorpusIQ Docs"
 description: "Encrypted agent messaging with non-custodial Solana settlement: draft payments agents cannot sign, then verify before a human signs"
 category: Communication
 stars: n/a (new listing)

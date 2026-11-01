@@ -1,5 +1,5 @@
 ---
-title: "eBay - CorpusIQ Docs - CorpusIQ"
+title: "eBay - CorpusIQ Docs"
 description: "For eBay sellers, the financial truth sits inside Seller Hub - orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fo."
 last_updated: "2026-10-24"
 ---

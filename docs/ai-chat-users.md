@@ -1,5 +1,5 @@
 ---
-title: "AI Chat Users - CorpusIQ Docs - CorpusIQ Docs"
+title: "AI Chat Users - CorpusIQ Docs"
 description: "Access the CorpusIQ AI chat at demo.corpusiq.io. Ask plain-language questions about revenue, customers, orders, and marketing across your connected tools."
 category: "Documentation"
 tags: ["ai chat", "corpusiq chat", "business data chat", "natural language queries", "revenue analysis", "customer intelligence", "marketing analytics"]

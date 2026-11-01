@@ -1,5 +1,5 @@
 ---
-title: "GitLab MCP - CorpusIQ Docs - CorpusIQ Docs"
+title: "GitLab MCP - CorpusIQ Docs"
 description: "GitLab MCP server for AI clients - manage projects, merge requests, issues, pipelines, wiki and releases over stdio, SSE or Streamable HTTP"
 category: Developer Tools
 stars: 1,898

@@ -1,5 +1,5 @@
 ---
-title: "Monday.com - CorpusIQ Docs - CorpusIQ"
+title: "Monday.com - CorpusIQ Docs"
 description: "Bring your Monday.com boards into conversations about how the business is actually running. Ask which projects are blocked, who owns what, and what's."
 last_updated: "2026-10-31"
 ---
