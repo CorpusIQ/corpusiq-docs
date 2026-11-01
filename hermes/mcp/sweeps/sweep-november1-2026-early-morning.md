@@ -1,0 +1,68 @@
+---
+title: "MCP Server Discovery - November 1, 2026 (Early)"
+description: "Six hours on: a marketplace that hires agents by the deliverable, a watermark for an Article 50 deadline, and a venue platform where consent is the feature."
+last_updated: 2026-11-01
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november1-2026-early-morning/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+---
+
+# MCP Server Discovery - November 1, 2026 (Early Sweep)
+
+This pass fired at `03:00 MST`, six hours after the night read. The two directory surfaces behaved in opposite ways. The mcp.so homepage `recentServers` block parsed **172** records down to **138** cards carrying a `createdAt`, and the newest was `2026-11-01T03:23:34Z` against `2026-11-01T00:15:52Z` at the night read, so exactly **two** cards sat above the previous stamp and both were read. The mcpservers.org `/all` page came back through the r.jina.ai reader proxy with **30** unique slugs and the counter at **18,726** against **18,577**, a growth of **149** in six hours, and every one of the thirty slugs was already inside a prior disposition, so the page carried no delta even though the counter moved.
+
+The movement was in the submission window. The night pass closed at `#6530`; this pass ran to `#6539`, which is **eight** submissions between `04:46:00Z` and `10:02:34Z`, every one read with its body rather than triaged from a title.
+
+Three shipped, and each was verified on the surface it actually exposes, which for one of them is a keyless read-only sibling server rather than the paid endpoint.
+
+## New: an agent marketplace where the price arrives before the hire
+
+[Roster MCP](/hermes/mcp/servers/external/roster-mcp/) is remote Streamable HTTP at `https://roster-ivory-zeta.vercel.app/api/mcp`, and the usable half of it needs no credential at all: `initialize` answered **HTTP 200** in 0.23 to 0.55 seconds, `serverInfo` `roster` at **1.0.0**, and `tools/list` returned all **23** tools with full schemas in **29,165** bytes.
+
+The product is a catalogue of named AI agents with a role, a biography, personality sliders, a `not_for` list and fixed price packages, and the workflow is a purchase rather than a prompt. `search_agents` on a launch-email brief returned **18** candidates out of the **58** the submission describes, `from_price_usd` from **30** to **50**, turnaround from **60 minutes** to **4 hours**, and a `match_reason` written as a sentence rather than a score. `get_agent` on the top match returned its three packages: **$35** for five product pages, **$40** for a three-email launch sequence, **$50** for one landing page.
+
+Then the part that earns the guide. `get_sandbox_key` issued a working `rk_test_` key in one call with no account, `daily_job_limit` **20** and `spend_limit_usd` **100**, and stated that a sandbox job never reaches a real model and is never billed. `hire_agent` with that key returned a completed job in **0.27** seconds, and the server chose the package itself: `package_selected_by: "brief_match"` picked the three-email package at **$40**, returned the other two as `alternatives` with their prices, and marked payment `charged: false`. `get_usage` then reported the key's own meter, `jobs_today` against the limit, timezone `America/New_York`, and alert thresholds at **80** and **100** percent.
+
+The containment is the design. A live key is approved by a person through `request_access`, every key carries a daily job limit and a spend limit, each job includes two revisions, a rating goes on a public track record, and `open_dispute` routes to a human.
+
+**Gap recorded.** No live hire was made, so real turnaround, revision quality and dispute handling are unexercised, and `rotate_webhook_secret`, `redeliver_webhook` and signature verification were not driven. Sandbox output is a deterministic stand-in, which is useful as a rehearsal and useless for judging writing quality, so nothing here speaks to the actual work. The endpoint is a Vercel deployment domain rather than a custom domain, and the catalogue size is the submission's number where the tool only returned matches for one brief.
+
+## New: a watermark with a date attached
+
+[Markproof MCP](/hermes/mcp/servers/external/markproof-mcp/) is the first entry in this catalogue that treats machine readable marking of generated media as a tool call, and it arrives with a deadline that is a month away. The European AI Act implementation timeline puts Article 50(2) obligations on providers generating synthetic audio, image, video or text at **2 August 2026**, and requires content placed on the market before that date to be brought into compliance by **2 December 2026**.
+
+The server is local stdio via `npx -y markproof-mcp`, MIT, published as `markproof-mcp` **0.3.1** with `mcpName` `io.github.Ajinkya710/markproof`, and it registers one server with three tools: `mark_file`, which watermarks and C2PA-signs a local PNG, JPEG, WebP, WAV or MP3 file, writes `<name>.marked.png` beside the original and returns a watermark code and a public verification URL, with an optional visible AI-generated label; `verify_file`, which checks any file for a watermark and a manifest and reports signature validity; and `get_asset`, which is free and reads a record by id. The two marking tools cost one API call each.
+
+The vendor's argument is the two layer one, and it is the correct argument: a watermark is a signal in the pixels or the waveform that survives re-encoding, and a C2PA manifest is a tamper evident record that states what generated the file and breaks on any edit. Marking with one and not the other answers half the question. Plans are published plainly, Free at **$0** with **250** API calls a month, Indie at **$29** for **25,000**, Pro at **$79** for **100,000**, no card for the free key, files processed in the EU, and a free checker at `markproof.co/check` that needs no signup.
+
+**Gap recorded, and it is the largest this pass carries.** There is no hosted endpoint: `https://markproof.co/mcp` answered **404**, and `npx -y markproof-mcp` with no key printed `set MARKPROOF_API_KEY` and exited, so `initialize` and `tools/list` could not be run and the three tools are the published package rather than a driven list. Watermark robustness, manifest validity, re-encoding survival and the accuracy of `verify_file` are all unverified, the free checker was not driven, and text marking is outside the server entirely. `https://markproof.co/v1/assets` answered **404** from the static site, so the API path is not confirmable without a key.
+
+## New: seat maps where the consent screen is the product
+
+[SeatLayer MCP](/hermes/mcp/servers/external/seatlayer-mcp/) ships two servers and the split is the story. `https://mcp.seatlayer.io/mcp` answered a keyless `initialize` with **HTTP 401** in 0.28 seconds and the body `{"error":"unauthorized","code":"bad_designer_session"}`, the normal state for an OAuth-only surface carrying **63** tools behind a per-administrator grant. `https://docs.seatlayer.io/mcp` is the sibling, keyless and read-only, and it answered **HTTP 200** with `serverInfo` `seatlayer-knowledge` at **0.109.1** and **11** tools whose instructions ask the client to call `product_overview` first and quote the canonical URLs every result returns.
+
+Three calls were made against it in 0.06 to 0.08 seconds each, and the numbers are the vendor's own stated position rather than a marketing page. `pricing` returned the meter, one prepaid credit per confirmed sold seat with designing, rendering, browsing, holds and releases consuming nothing, the first production payment at **$0**, **100** free sold-seat credits per organization per calendar month, credits that never expire, and a ladder from **500** credits at **$50** (**10** cents a seat) to **100,000** at **$5,000** (**5** cents). Hosted ticketing is a separate wallet at **$0.50** per confirmed ticket with the money landing in the organizer's own gateway. `capabilities`, reviewed **2026-09-27**, separates released from unreleased in the vendor's own matrix: buyer 3D released with a 2D fallback, **51** templates with **35** carrying 3D relief, and SDKs across web, seven server languages, four mobile platforms and REST OpenAPI 3.1.
+
+The design is why the guide exists. An administrator approves each connection on a consent screen, narrows it to one chart or a workspace, and ticks capabilities individually, and every call that uses an event capability re-checks that the person who connected the agent still holds a role allowing it in the dashboard. Writing to an event already on sale takes a plan the person approves, a yes covers that plan only, held and sold seats never change, an administrator gets a digest at most every 15 minutes per agent, and a publish can be undone in one click.
+
+**Gap recorded.** No grant exists, so all **63** tools are the vendor's documentation rather than a `tools/list` response, and chart building, tracing, validation, publishing and live event control are unexercised. The **200,000** and **100,000** seat demo fixtures and the **53,018** seat readiness observation were not loaded. `compare_with` and `renderer_evidence` were not called, so the competitive and performance claims are unread.
+
+## The window and the cards, dispositioned
+
+Eight submissions between `#6531` at `04:46:00Z` and `#6539` at `10:02:34Z`, three shipped and five recorded here so the next pass cannot read them as fresh.
+
+`Keyflap` (`#6532`) is the most interesting hold of the window and it is held on verifiability rather than on class: a local HTTP MCP server at `127.0.0.1:8765/mcp` that signs an agent in to websites with passkeys, or with a password and a TOTP code, where the owner approves each sign-in on a phone and the agent receives only signed in or denied, never the secret. That is a genuinely distinct shape from the four vault and secrets entries here, because the agent never holds the credential at all, but there is no hosted endpoint to probe, so it stays a name and a claim until a binary runs on this host.
+
+`Brionic Payments` (`#6533`) is non-custodial crypto payments over **26** tools at `https://pay.brionicsecurity.com/mcp`, which answered a keyless `initialize` with **HTTP 401** and JSON-RPC `-32001` asking for OAuth or a bearer key, and it is held on saturation in the agent payments class where `CoinVello` was held the night before: same rail, same containment story, no new question.
+
+`Apizie Finance` (`#6535`) serves SEC EDGAR, FRED, ECB, US Treasury and GLEIF across seven tools at `https://apizie.tech/mcp`, which answered **308** to `www.apizie.tech/mcp` and then **401** with a bearer challenge, held in the filings class this catalogue already carries eight deep.
+
+`SolarDialer` (`#6536`) is an outbound AI dialer for solar campaigns at `https://solardialer.net/mcp`, which returned a measured **401** with a JSON-RPC error naming both OAuth and an account API key, held on saturation beside the five dialer and calling entries already on the listing.
+
+`Landingfolio` (`#6538`) returns screenshots of hero sections, pricing tables and full landing pages to a coding agent at `https://mcp.landingfolio.com/mcp`, which answered **401** with a message pointing at a free token, held as the closest call of the five: the Figma reader and the editable design engine here answer how to build a design and this answers what real pages look like, so it is a pass rather than a rejection, and the question to settle next time is whether an inspiration gallery changes a build outcome.
+
+`SeatLayer` (`#6534`), `Roster` (`#6531`) and `Markproof` (`#6539`) shipped above. Two cards on the mcp.so block are also dispositioned: `iter0-mcp` at `03:23:34Z` is a review canvas where a local server pushes a build, its pages are read from `rootDir` with relative CSS, scripts and images inlined, and feedback comes back as threads and pins that never resolve or approve anything, held as developer review tooling; `corridome` at `00:15:52Z` was the boundary card the night pass had already read and held on access.
+
+## Count
+
+The guide tree held **1,076** server entries before this pass and holds **1,079** after it, across **1,469** files. Sources: the mcp.so homepage `recentServers` block read directly (**172** parsed records, **138** distinct cards with a date, newest `2026-11-01T03:23:34Z`), mcpservers.org `/all` through the r.jina.ai reader proxy with `X-Return-Format: html` (**30** unique slugs, counter **18,726**, no delta against prior dispositions), the chatmcp/mcpso issue window **#6531** to **#6539** read with bodies in one authenticated call, a keyless `initialize`, `tools/list`, `search_agents`, `get_agent` and `get_sandbox_key` on `https://roster-ivory-zeta.vercel.app/api/mcp` (**200**, **23** tools), a sandbox `hire_agent`, `get_job`, `get_job_result`, `get_usage` and `list_jobs` on the same endpoint, a keyless `initialize` on `https://mcp.seatlayer.io/mcp` (**401**) and a keyless `initialize`, `tools/list`, `product_overview`, `pricing` and `capabilities` on `https://docs.seatlayer.io/mcp` (**200**, **11** tools), an `npx -y markproof-mcp` start with no key observed refusing to run, a **404** on `https://markproof.co/mcp` and on `https://markproof.co/v1/assets`, a **401** on `https://pay.brionicsecurity.com/mcp`, a **401** on `https://solardialer.net/mcp`, a **401** on `https://mcp.landingfolio.com/mcp`, a **308** then **401** on `https://apizie.tech/mcp`, and HTTP reads on `markproof.co`, `landingfolio.com/mcp`, `seatlayer.io`, `docs.seatlayer.io/llms.txt` and the European AI Act implementation timeline, all **200**.
