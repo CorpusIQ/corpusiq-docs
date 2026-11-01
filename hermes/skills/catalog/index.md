@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -822,6 +822,25 @@ Linked from this index so the pages are reachable by crawl.
 - [Indexion Skills - Source Code Exploration for Agents Setup](/hermes/skills/catalog/indexion-skills-setup)
 - [Superagent Security Skills - Agent Security Audit Setup](/hermes/skills/catalog/superagent-skills-setup)
 - [Darwin Skill - Autonomous Skill Optimization Setup](/hermes/skills/catalog/darwin-skill-setup)
+
+### New - November 1, 2026 Morning Sweep (14 publisher guides)
+
+Fourteen repository clusters drained from the standing queue, documented for **179,773 combined installs across 476 indexed listings**:
+
+- [Syncfusion Angular UI Skills - Vendor Component Pack](/hermes/skills/catalog/syncfusion-angular-ui-skills-setup) - 17,636 combined installs across 61 listings; 0 stars; no LICENSE file; Syncfusion's Angular component skills: one skill per component family for grid, scheduler, Gantt, charts and editors, 65 SKILL.md directories against 61 listings, with the commercial component licence separate from the skill files
+- [ChatGPT Skills - 12-Suite Deterministic Toolkit](/hermes/skills/catalog/chatgpt-skills-setup) - 16,721 combined installs across 106 listings; 126 stars; no LICENSE file; twelve shipped suites for OCR document processing, spreadsheets, file conversion and research work behind 106 indexed listing names, so most rows name capability with nothing to install
+- [Huashu Skills - 22-Skill Content Production Pack](/hermes/skills/catalog/huashu-skills-setup) - 16,023 combined installs across 37 listings; 2147 stars; MIT; 22 Chinese-first content production skills for HTML-first design, markdown to PDF, social cards and video scripting, against 37 listings that include 15 older names for skills already covered
+- [VectorBT Backtesting Skills - Quant Workflow Setup](/hermes/skills/catalog/vectorbt-backtesting-skills-setup) - 15,152 combined installs across 6 listings; 217 stars; no LICENSE file; six quant backtesting skills over vectorbt, from data loading and indicator setup through portfolio construction and walk-forward evaluation, one directory per listing
+- [Slack Skills Plugin - MCP Plus Nine Slack Skills](/hermes/skills/catalog/slack-skills-plugin-setup) - 15,188 combined installs across 9 listings; 163 stars; MIT; official Slack package: a hosted Slack MCP server plus nine skills split between using Slack and building on it, with Snyk W012 on the two skills that fetch live docs at task time
+- [QwenCloud AI Skills - Multimodal Suite Setup](/hermes/skills/catalog/qwencloud-ai-setup) - 15,120 combined installs across 10 listings; 44 stars; Apache-2.0; Qwen Cloud multimodal skills for vision, OCR, speech and image generation through the cloud API, ten directories behind ten listings
+- [Full Stack Skills - 788-Skill Catalog for Agents](/hermes/skills/catalog/full-stack-skills-setup) - 14,932 combined installs across 102 listings; 718 stars; Apache-2.0; a navigation hub for 788 skill entries across 51 separately installable packages since the June 2026 split, so this repository is the directory rather than the install source
+- [Supabase Pentest Skills - 24-Skill Audit Suite](/hermes/skills/catalog/supabase-pentest-skills-setup) - 13,050 combined installs across 25 listings; 73 stars; NOASSERTION; 24 Supabase security-audit skills led by RLS and auth checks, where the README read-only claim is qualified because one skill creates a test user and the evidence directory holds sampled rows
+- [Startup OS Skills - Sales, Product and Video Pack](/hermes/skills/catalog/startup-os-skills-setup) - 12,860 combined installs across 53 listings; 53 stars; no LICENSE file; 54 startup operating skills across sales, product, marketing and video, one directory per listing plus one unindexed directory
+- [AgentMail Skills - Agent Email Inbox Setup](/hermes/skills/catalog/agentmail-skills-setup) - 10,705 combined installs across 11 listings; 25 stars; no LICENSE file; AgentMail email skills for inbox provisioning, send and receive, MCP configuration and framework adapters, with two deprecated alias listings inflating the total and Snyk W011 on the two package-install skills
+- [Awesome Android Agent Skills - Compose and Kotlin Setup](/hermes/skills/catalog/awesome-android-agent-skills-setup) - 9,948 combined installs across 18 listings; 998 stars; Apache-2.0; 17 Android skills under .github/skills covering Compose, coroutines, ViewModel, architecture, migration, testing and accessibility, plus an Agent.md that every agent reads implicitly
+- [Shenzjd Skills - DevOps and AI Image Pack](/hermes/skills/catalog/shenzjd-skills-setup) - 7,887 combined installs across 16 listings; 4 stars; MIT; eight DevOps and AI image directories behind 16 listings, with a Snyk FAIL (E005) on the two skills that write executable workflow and hook files
+- [Robust Skills - Architecture and Platform Suite](/hermes/skills/catalog/robust-skills-setup) - 7,780 combined installs across 12 listings; 61 stars; MIT; architecture and platform skills for DDD, hexagonal boundaries, contract-first APIs and state ownership, eleven directories plus one index-only listing
+- [Awesome Finance Skills - Market Analysis Pack](/hermes/skills/catalog/awesome-finance-skills-setup) - 6,771 combined installs across 10 listings; 3094 stars; Apache-2.0; market analysis skills for news sentiment, alpha research and factor work, with Snyk W011 and W012 on the two skills that reach the network for live market data
 
 ### New - October 31, 2026 Evening Sweep (16 publisher guides)
 
