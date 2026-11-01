@@ -2,9 +2,9 @@
 title: "Markproof MCP - Watermark AI Output for Article 50"
 description: "Watermark and C2PA-sign the images and audio an agent generates, then verify any file, in one tool call. The free tier is 250 API calls a month."
 category: Compliance
-stars: n/a (MIT, npm markproof-mcp 0.3.1)
+stars: n/a (MIT, npm markproof-mcp 0.3.2)
 added: 2026-11-01
-source: "The chatmcp/mcpso submission issue #6539 filed on 2026-11-01 at 10:02:34Z; the npm package markproof-mcp 0.3.1 read from its published tarball for the tool table and the startup guard; an HTTP read of markproof.co with its plans and Article 50 argument; a 404 on https://markproof.co/mcp; and the European AI Act implementation timeline for the Article 50 dates"
+source: "The chatmcp/mcpso submission issue #6539 filed on 2026-11-01 at 10:02:34Z; the npm package markproof-mcp read from its published tarball for the tool table and the startup guard (0.3.1 at submit time, 0.3.2 re-read the same day with an identical three-tool set); an HTTP read of markproof.co with its plans and Article 50 argument; a 404 on https://markproof.co/mcp; and the European AI Act implementation timeline for the Article 50 dates"
 relevance: ★★★
 tags: [eu-ai-act, article-50, watermarking, c2pa, content-credentials, provenance, compliance, ai-generated-content, local-mcp, stdio]
 last_updated: "2026-11-01"
@@ -37,7 +37,7 @@ The measured surface here is deliberately narrow, and the limits are stated firs
 
 `npx -y markproof-mcp` on a machine with no key printed `markproof-mcp: set MARKPROOF_API_KEY (create one at https://markproof.co/dashboard)` and exited. The guard is real: without a key the server does not start, so `initialize` and `tools/list` could not be run and the tool list below is read from the published package rather than driven.
 
-The published tarball, `markproof-mcp` **0.3.1**, MIT, carries `mcpName` `io.github.Ajinkya710/markproof` and registers one server named `markproof` with three tool definitions whose descriptions match the README table exactly. The three tools are the whole server.
+The published tarball, `markproof-mcp` **0.3.2** (the release shipped on 2026-11-01; 0.3.1 was current when this page was first written and the two carry the same three tools), MIT, carries `mcpName` `io.github.Ajinkya710/markproof` and registers one server named `markproof` with three tool definitions whose descriptions match the README table exactly. The three tools are the whole server. Patch releases move fast here, so treat the count as the claim worth checking and re-read the tarball if a tool call fails.
 
 `https://markproof.co/mcp` returned **404**, so there is no hosted MCP endpoint to probe and no way to test this connector without a key on the local machine. That is a real difference from the remote entries here and it is the first thing an operator should know: this one runs where the files are.
 
