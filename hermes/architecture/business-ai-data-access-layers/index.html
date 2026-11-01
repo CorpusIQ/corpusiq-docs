@@ -11455,7 +11455,7 @@
 - Conflict detection (Shopify says $89K, Stripe says $86K for the same period)
 - Audit trail from answer back to raw API response</p>
 <h2 id="why-stateless-matters">Why Stateless Matters<a class="headerlink" href="#why-stateless-matters" title="Anchor link to this section">&para;</a></h2>
-<p>The stateless MCP specification (July 2026) makes this architecture practical at scale. Every connector call is a discrete HTTP request with its own authentication. No sessions. No connection state. No sticky routing.</p>
+<p>The stateless MCP specification (protocol version 2026-07-28) makes this architecture practical at scale. Every connector call is a discrete HTTP request with its own authentication. No sessions. No connection state. No sticky routing.</p>
 <p>If a connector goes down, the others keep working. If a user switches from ChatGPT to Claude mid-session, the same connector serves both. The data layer is independent of the AI layer.</p>
 <h2 id="what-this-means-for-business-operators">What This Means for Business Operators<a class="headerlink" href="#what-this-means-for-business-operators" title="Anchor link to this section">&para;</a></h2>
 <p>You should be able to ask your AI anything about your business and get the same answer regardless of which AI you use. The number should not change when you switch from ChatGPT to Claude. The confidence should not depend on which tool you opened first.</p>
