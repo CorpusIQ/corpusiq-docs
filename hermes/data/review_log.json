@@ -20640,5 +20640,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-10-31T11:03:23.456206+00:00"
+  },
+  {
+    "repo": "machinepulse-ai/world2agent-plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328949+00:00"
+  },
+  {
+    "repo": "akai-collab/delvetown-dt",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328963+00:00"
+  },
+  {
+    "repo": "meowsigma/botsesh-hermes-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328966+00:00"
+  },
+  {
+    "repo": "nonokomoto/hermes-voice-ios",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328968+00:00"
+  },
+  {
+    "repo": "XpycT/hermesford",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328970+00:00"
+  },
+  {
+    "repo": "huamingjie0815/OpenProclan",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328972+00:00"
+  },
+  {
+    "repo": "nictation/HermesFlow",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328974+00:00"
+  },
+  {
+    "repo": "lifeencoder/Hermes-Black-bird",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328976+00:00"
+  },
+  {
+    "repo": "MorningHQ/martian-hermes-docs",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328978+00:00"
+  },
+  {
+    "repo": "pickysaja99/hermes-agent-setup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328980+00:00"
+  },
+  {
+    "repo": "proxy-intell/proxy-agent-plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328981+00:00"
+  },
+  {
+    "repo": "fanchen000/hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328983+00:00"
+  },
+  {
+    "repo": "TechFlipsi/FlipsiBridge",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328985+00:00"
+  },
+  {
+    "repo": "AallamR/RobloxForge-Intelligence",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-01T10:03:43.328987+00:00"
   }
 ]
