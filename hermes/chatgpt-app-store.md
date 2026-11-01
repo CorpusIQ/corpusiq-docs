@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ in the ChatGPT App Store"
 description: "CorpusIQ is an official public app in the ChatGPT app store."
-last_updated: "2026-10-26"
+last_updated: "2026-10-31"
 ---
 
 # CorpusIQ in the ChatGPT App Store

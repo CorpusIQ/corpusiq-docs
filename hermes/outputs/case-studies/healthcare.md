@@ -10,7 +10,7 @@ tags:
   - appointment scheduling
   - AI agent
   - medical automation
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/healthcare/"
 robots: "index,follow"
 

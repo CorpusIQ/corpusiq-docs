@@ -8,7 +8,7 @@ tags:
   - hermes-crons
   - autonomous-agents
   - deployment-blueprints
-last_updated: 2026-10-24
+last_updated: 2026-10-31
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/workflows/templates/"
 robots: "index,follow"
 

@@ -45,7 +45,7 @@ Validation means:
 
 ## Why Stateless Matters
 
-The stateless MCP specification (July 2026) makes this architecture practical at scale. Every connector call is a discrete HTTP request with its own authentication. No sessions. No connection state. No sticky routing.
+The stateless MCP specification (protocol version 2026-07-28) makes this architecture practical at scale. Every connector call is a discrete HTTP request with its own authentication. No sessions. No connection state. No sticky routing.
 
 If a connector goes down, the others keep working. If a user switches from ChatGPT to Claude mid-session, the same connector serves both. The data layer is independent of the AI layer.
 

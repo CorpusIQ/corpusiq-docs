@@ -3,7 +3,7 @@ title: "honcho-memory-usage - CorpusIQ Docs"
 description: When and how to read/write Honcho - the catalog memory-provider plugin for server-side semantic memory that complements (does not replace) MEMORY.md and USER.md. The cold-storage pattern that survives session reset.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-10-31"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

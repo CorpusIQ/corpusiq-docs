@@ -8,7 +8,7 @@ category: communication
 setup: npx skills add claude-office-skills/skills@linkedin-automation
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/linkedin-automation/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 title: "Linkedin Automation - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

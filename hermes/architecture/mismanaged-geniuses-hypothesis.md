@@ -46,7 +46,7 @@ It is:
 
 ## The Industry Is Catching Up
 
-Amazon Bedrock AgentCore adopted stateless MCP. Google published scaling guidance. Simon Willison said the new spec recaptured his interest in MCP. The direction is clear.
+Amazon Bedrock AgentCore ships an MCP Gateway and a managed MCP Registry. Google published scaling guidance. Simon Willison said the new spec recaptured his interest in MCP. The direction is clear.
 
 The model wars were the last two years. The harness wars are the next two years. The winners will not be the companies with the best models. They will be the companies with the best scaffolds around those models.
 

@@ -10,7 +10,7 @@ tags:
   - escalation routing
   - AI agent
   - help desk automation
-last_updated: "2026-10-24"
+last_updated: "2026-10-31"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/customer-support/"
 robots: "index,follow"
 

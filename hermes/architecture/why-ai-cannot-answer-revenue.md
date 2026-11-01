@@ -18,7 +18,7 @@ Not because the AI is not smart enough. Because it cannot reach your data.
 
 ChatGPT cannot see your QuickBooks. Claude cannot query your Stripe account. Perplexity cannot pull from your Shopify orders. Each AI operates in an information vacuum when it comes to your actual business numbers.
 
-This is not a technical limitation of the models. GPT-5 and Claude Opus 4 can perform sophisticated financial analysis. They can calculate margins, project cash flow, and identify revenue trends. They just cannot access the source data.
+This is not a technical limitation of the models. GPT-6 and Claude Opus 5.5 can perform sophisticated financial analysis. They can calculate margins, project cash flow, and identify revenue trends. They just cannot access the source data.
 
 ## Why Dashboards Are Not the Answer
 

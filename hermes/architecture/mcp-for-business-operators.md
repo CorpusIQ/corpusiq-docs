@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # MCP for Business Operators - What It Means and Why It Matters
 
-The Model Context Protocol (MCP) is the fastest-growing standard in AI infrastructure. Over 40,000 MCP servers now exist. Amazon, Google, and Microsoft all support it. But most business owners have never heard of it.
+The Model Context Protocol (MCP) is the fastest-growing standard in AI infrastructure. More than 21,000 MCP servers are now listed in the public directories. Amazon, Google, and Microsoft all support it. But most business owners have never heard of it.
 
 That is about to change.
 
@@ -26,7 +26,7 @@ For business operators, this means your Shopify data, your QuickBooks data, and 
 
 The latest MCP specification eliminated a major barrier. Previous versions required persistent connections. Servers had to maintain session state. If the connection dropped, everything broke.
 
-The July 2026 spec made MCP entirely stateless. Every request carries its own authentication. No sessions. No persistent connections. No state to lose.
+The July 2026 spec (protocol version 2026-07-28) made MCP entirely stateless. Every request carries its own authentication. No sessions. No persistent connections. No state to lose.
 
 This is the same model the web has used for 30 years. HTTP requests. REST APIs. Every request is independent. Every request is authenticated. This is infrastructure that scales.
 

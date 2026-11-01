@@ -20,7 +20,7 @@ Three things happened in 2026 that shifted the competitive landscape:
 
 **First, the evidence became undeniable.** Stanford proved you can beat frontier models by optimizing the harness around a frozen model. HuggingFace proved it on legal benchmarks. Independent researchers proved it on coding benchmarks. The model stopped being the differentiator. The scaffold became the differentiator.
 
-**Second, MCP went stateless.** The July 2026 MCP specification removed sessions, handshakes, and persistent connections. Any HTTP server can now serve MCP. Any load balancer can distribute MCP requests. The infrastructure barrier collapsed. What remains is the quality of the harness: the tools, the context, the memory, the validation.
+**Second, MCP went stateless.** The July 2026 MCP specification (protocol version 2026-07-28) removed sessions, handshakes, and persistent connections. Any HTTP server can now serve MCP. Any load balancer can distribute MCP requests. The infrastructure barrier collapsed. What remains is the quality of the harness: the tools, the context, the memory, the validation.
 
 **Third, businesses started asking the hard question.** If ChatGPT can write legal briefs and code entire applications, why can it not tell me my current revenue? The answer is not the model. The answer is the harness. The data pipeline does not exist. The connectors are missing. The metric definitions are undefined.
 
