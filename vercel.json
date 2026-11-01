@@ -2262,6 +2262,11 @@
       "statusCode": 301
     },
     {
+      "source": "/hermes/session-cleanup",
+      "destination": "/hermes/setup/session-cleanup",
+      "statusCode": 301
+    },
+    {
       "source": "/prompts/data-analysis",
       "destination": "/hermes/prompts/data-analysis",
       "statusCode": 301
