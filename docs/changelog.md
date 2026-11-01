@@ -64,7 +64,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 - Scoped data handling: direct MCP live retrieval plus optional indexed-search embeddings
 - TLS 1.3 for all API traffic
 - AES-256-GCM encryption at rest
-- SOC 2 Type II compliance program initiated
+- SOC 2 Type II compliance program initiated (readiness program; certification not yet achieved as of 2026-11-01)
 
 ### Connectors
 
