@@ -531,29 +531,32 @@ def discover_repos(token, dry_run=False):
         print(f"\n📝 {len(auto_approved)} new repos ready for ecosystem integration")
         print("   ⚠️  INTEGRATE INTO hermes/ecosystem/index.md (the PUBLISHED page).")
         print("       hermes/ecosystem.md is not emitted by the mkdocs build.")
-        # Write a report file for the agent to use when updating ecosystem.md
-        report = {
-            "run_time": datetime.now(timezone.utc).isoformat(),
-            "new_approved": auto_approved,
-            "integration": {
-                "published_file": "hermes/ecosystem/index.md",
-                "mirror_file": "hermes/ecosystem.md",
-                "note": (
-                    "hermes/ecosystem.md is NOT emitted by the mkdocs build and collides "
-                    "with hermes/ecosystem/index.md at /hermes/ecosystem/. Add every approved "
-                    "repo to hermes/ecosystem/index.md (the page users see). Mirror into "
-                    "ecosystem.md only to keep the two files in sync."
-                ),
-            },
-            "stats": {
-                "total_found": len(new_finds),
-                "auto_approved": len(auto_approved),
-                "pending_review": len(needs_review),
-                "total_approved": len(approved),
-                "total_pending": len(pending),
-            }
-        }
-        save_db(DATA_DIR / "latest_discovery_report.json", report)
+
+    # Write a report file for the agent to use when updating ecosystem.md.
+    # ALWAYS write it, including zero-approval runs: a stale report from a
+    # previous night silently misdescribes the run that just happened.
+    report = {
+        "run_time": datetime.now(timezone.utc).isoformat(),
+        "new_approved": auto_approved,
+        "integration": {
+            "published_file": "hermes/ecosystem/index.md",
+            "mirror_file": "hermes/ecosystem.md",
+            "note": (
+                "hermes/ecosystem.md is NOT emitted by the mkdocs build and collides "
+                "with hermes/ecosystem/index.md at /hermes/ecosystem/. Add every approved "
+                "repo to hermes/ecosystem/index.md (the page users see). Mirror into "
+                "ecosystem.md only to keep the two files in sync."
+            ),
+        },
+        "stats": {
+            "total_found": len(new_finds),
+            "auto_approved": len(auto_approved),
+            "pending_review": len(needs_review),
+            "total_approved": len(approved),
+            "total_pending": len(pending),
+        },
+    }
+    save_db(DATA_DIR / "latest_discovery_report.json", report)
 
     return new_finds
 
