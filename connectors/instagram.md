@@ -1,7 +1,7 @@
 ---
 title: "Instagram - CorpusIQ Docs"
 description: "Query Instagram posts, reels, reach, engagement, and follower trends in plain English, next to every other channel you measure."
-last_updated: "2026-10-25"
+last_updated: "2026-11-01"
 ---
 # Instagram
 

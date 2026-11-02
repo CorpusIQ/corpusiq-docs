@@ -1,7 +1,7 @@
 ---
 title: "Slack - CorpusIQ Docs"
 description: "Pull Slack conversations into the answer. Ask what your team discussed about a customer, what was decided in #leadership last Tuesday, or who's been t."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Slack
 

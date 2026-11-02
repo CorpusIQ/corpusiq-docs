@@ -1,7 +1,7 @@
 ---
 title: "Facebook Page - CorpusIQ Docs"
 description: "Query Facebook Page posts, reach, engagement, and follower trends in plain English, alongside your other channels."
-last_updated: "2026-10-25"
+last_updated: "2026-11-01"
 ---
 # Facebook Page
 

@@ -1,7 +1,7 @@
 ---
 title: "Mailchimp - CorpusIQ Docs"
 description: "Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newslett."
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 # Mailchimp
 

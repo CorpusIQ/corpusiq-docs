@@ -1,7 +1,7 @@
 ---
 title: "Postscript - CorpusIQ Docs"
 description: "Bring your Postscript SMS marketing data into conversation with the rest of your stack. Ask about subscriber growth, opt-in keywords, and how SMS comp."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Postscript
 
