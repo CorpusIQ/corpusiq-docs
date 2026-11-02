@@ -3,7 +3,7 @@ title: "CorpusIQ API Authentication - CorpusIQ Docs"
 description: "Complete guide to CorpusIQ API authentication: bearer tokens, OAuth 2.0 device flow, token management, refresh detection, revocation, and security controls."
 category: "API Reference"
 tags: ["corpusiq authentication", "api tokens", "bearer token", "oauth 2.0", "api security", "token management", "mcp authentication"]
-last_updated: "2026-10-31"
+last_updated: "2026-11-02"
 canonical: "https://www.corpusiq.io/docs/api/authentication"
 robots: "index,follow"
 ---
@@ -41,9 +41,9 @@ Clients should then obtain a fresh token. There is no refresh-token flow; simply
 3. Click **Generate Token**
 4. Copy the token - it will only be displayed once
 
-### Via ChatGPT Actions
+### Via the ChatGPT app or MCP connector
 
-If you are using CorpusIQ through ChatGPT's built-in Actions feature, token issuance is handled automatically by the integration. No manual token management is required.
+Through the CorpusIQ app in the ChatGPT app store, authorization and token issuance are handled by the integration at first use. No manual token management is required. If you add the MCP connector yourself under **Settings > Connectors**, paste the personal token shown in CorpusIQ **Settings > Integrations > ChatGPT MCP**, and update it if you regenerate the token. Custom GPT Actions are retired with custom GPTs on December 11, 2026.
 
 ## Security Requirements
 

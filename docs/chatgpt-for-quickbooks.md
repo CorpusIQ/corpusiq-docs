@@ -95,7 +95,7 @@ QuickBooks' built-in reports are static and must be manually configured. ChatGPT
 ChatGPT retrieves data directly from QuickBooks' API in real time - it doesn't hallucinate financial numbers from training data. Every answer includes the source report or tool used. If a query is ambiguous, ChatGPT will ask for clarification rather than guess. CorpusIQ's data accuracy contract ensures you can trace every answer back to the originating QuickBooks data.
 
 ### Can I use this with any ChatGPT plan?
-ChatGPT for QuickBooks works with ChatGPT Plus, Team, Enterprise, and the ChatGPT API. The CorpusIQ MCP server can be configured as a custom GPT action or used directly through the MCP protocol with compatible clients like Claude Desktop.
+ChatGPT for QuickBooks works with ChatGPT Plus, Team, Enterprise, and the ChatGPT API. CorpusIQ runs through the CorpusIQ app in the ChatGPT app store, through the MCP connector in ChatGPT Settings, or through any MCP client such as Claude Desktop.
 
 ### How many QuickBooks company files can I connect?
 CorpusIQ supports multiple company file connections. Accountants managing multiple clients can switch between company files or query across them (enterprise plan required for multi-company analytics).

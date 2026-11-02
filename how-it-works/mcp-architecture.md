@@ -1,7 +1,7 @@
 ---
 title: "MCP Architecture - CorpusIQ Docs"
 description: "For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps answers auditable."
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 ---
 # CorpusIQ MCP architecture
 
@@ -196,15 +196,26 @@ Config file locations:
 
 ---
 
-## Connecting ChatGPT (via Actions or custom GPT)
+## Connecting ChatGPT
 
-ChatGPT supports MCP-style integrations through Custom GPT Actions.
+Two paths are supported. Custom GPT Actions are not one of them: OpenAI retires
+custom GPTs on December 11, 2026 (February 11, 2027 only for FedRAMP and
+Enterprise workspaces with an approved deferral), and custom actions do not
+transfer.
 
-1. In the GPT editor, go to **Configure > Actions > Add action**.
-2. Import the CorpusIQ OpenAPI schema (available at
-   `https://mcp2.corpusiq.io/openapi.json`).
-3. Set authentication to **Bearer token** and paste your CorpusIQ JWT.
-4. Save and test with a prompt like "list my Shopify orders from last week."
+**The CorpusIQ app in ChatGPT (fastest).** Install
+[CorpusIQ from the ChatGPT app store](https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426)
+and authorize it on first use. The app carries the tool list, so there is no
+schema to import and no action to maintain.
+
+**The MCP connector (direct).**
+
+1. In CorpusIQ, open **Settings > Integrations > ChatGPT MCP**. Copy the **MCP
+   server URL** and **personal token**.
+2. In ChatGPT, open **Settings > Connectors > Add MCP server**.
+3. Paste the URL and token. Save.
+4. In a new chat, click the tools icon and confirm CorpusIQ is listed, then ask
+   "list my Shopify orders from last week."
 
 ---
 
