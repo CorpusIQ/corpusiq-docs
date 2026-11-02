@@ -1,6 +1,6 @@
 ---
-title: "Hermes Browser Extension - Full Setup Guide"
-description: "Install, configure, and use the Hermes Browser Extension side panel for Chrome/Edge/Chromium. Connect active browser context to your local or remote Hermes"
+title: "Hermes Browser Extension for Chrome - Setup Guide"
+description: "Install the Hermes Chrome extension and use its side panel in Chrome, Edge, or Chromium to give your agent the page you are looking at as context."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-browser-extension-setup/"
 robots: "index,follow"
 last_updated: "2026-10-31"
