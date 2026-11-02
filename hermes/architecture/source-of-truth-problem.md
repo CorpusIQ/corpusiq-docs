@@ -1,7 +1,7 @@
 ---
-title: The Source of Truth Problem - Why Every Business Dashboard
-description: "Every business runs on numbers. Revenue. Margin. Churn. CAC. LTV. These numbers determine budgets, hiring, strategy, and survival."
-last_updated: 2026-10-24
+title: "The Source of Truth Problem: Why Your Dashboard Lies"
+description: "Shopify, Stripe, QuickBooks and GA4 report different revenue for the same month. The problem is the definition, not the data, and it is fixable."
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/source-of-truth-problem/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

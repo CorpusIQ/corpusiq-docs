@@ -1,7 +1,7 @@
 ---
-title: "Read-Only External-Source Retrieval: Why AI Should Never"
-description: "Setup and usage guide for Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory."
-last_updated: 2026-10-24
+title: "Why AI Should Never Write to Your Business Tools"
+description: "Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe."
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -38,6 +38,8 @@ Read-only OAuth gives AI permission to query data but blocks all write operation
 4. Every API call uses this token - the tool's own security rejects any write attempt
 
 Even if the AI tries to modify data, the tool itself blocks the operation. The boundary is enforced at the API level, not the AI level.
+
+One distinction worth stating plainly: external retrieval is read-only, but some platforms also expose configuration or control-plane operations outside the retrieval path. Those operations change scoped platform state, so they are named and annotated separately instead of being folded into the read-only claim. Ask any provider to draw that line explicitly.
 
 ## Per-Source Authentication
 

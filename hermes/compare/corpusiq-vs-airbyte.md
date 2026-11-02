@@ -3,7 +3,7 @@ title: "CorpusIQ vs Airbyte: What Each One Does"
 description: "Airbyte is an open-source ELT platform that moves data from sources to warehouses. CorpusIQ is the layer that gives AI assistants live access to that same data."
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-airbyte/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["airbyte alternative", "elt tools", "data integration", "ai business tools"]
 ---
 
@@ -17,17 +17,19 @@ Airbyte is an open-source ELT platform that moves data from your business source
 |---|---|---|
 | Primary job | ELT pipelines from sources to warehouses | Cross-source business answers in ChatGPT, Claude, Perplexity |
 | Data access | Moves data into a destination first | Reads 40+ tools live, on demand, no pipeline |
-| AI surface | None built in | Any AI you already use, via MCP |
+| AI surface | MCP server: build and repair pipelines, query the warehouse from ChatGPT, Claude, or Cursor | Any AI you already use, via MCP |
 | Answer format | Rows in a warehouse | Source-cited plain-English answers |
 | Data stored | Your warehouse | Live retrieval, scoped retention, no raw customer files or full payloads |
 
 ## When to use Airbyte alone
 
-Airbyte is the right system for building and owning ELT pipelines. Its 300+ connectors and open-source core make it a strong choice when the job is moving data into a warehouse on a schedule. If that is your only need, Airbyte is the answer.
+Airbyte is the right system for building and owning ELT pipelines. Its 700+ connectors and open-source core make it a strong choice when the job is moving data into a warehouse on a schedule. If that is your only need, Airbyte is the answer.
 
 ## When to add CorpusIQ
 
 The pain starts when the warehouse is not the same thing as an answer. Airbyte lands the data. Someone still has to query it, model it, and turn it into a decision.
+
+Airbyte is no longer pipeline-only. It ships an MCP server that lets an assistant build and repair syncs and query the warehouse, and a context layer on paid plans. That is a real overlap in surface, and the difference is where the answer comes from. Airbyte's MCP works against the pipelines and the warehouse they land in, with tools classified read, mutate, or destructive. CorpusIQ reads the business systems directly, on demand, with declared metric definitions and a citation on every number.
 
 CorpusIQ connects your business tools directly to the AI assistants you already use. Ask "what changed in our Shopify revenue this week" and get a cited answer from live data, without building a pipeline first. Airbyte keeps being your data movement layer; CorpusIQ is the layer your team actually asks questions in.
 
