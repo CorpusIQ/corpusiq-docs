@@ -3,7 +3,7 @@ title: NVIDIA DGX Spark - Primary Compute Pattern
 description: "Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/dgx/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -21,15 +21,16 @@ NVIDIA GPU with CUDA support. Local inference eliminates API latency and cost fo
 | Layer | Component | Purpose |
 |-------|-----------|---------|
 | OS | Ubuntu Linux | Base system, NVIDIA drivers |
-| Runtime | Python 3.11+ | Agent and script execution |
-| Inference | Ollama | Local LLMs for routine tasks |
+| Runtime | Python 3.11+ (3.13 in the current runtime) | Agent and script execution |
+| Inference | vLLM, OpenAI-compatible | Serves the routed small model on a loopback port for routine tasks |
+| Embeddings | Ollama | Local embedding model for retrieval and memory |
 | Scheduling | cron + systemd | 24/7 job execution |
 | Process guard | systemd `Restart=on-failure` | Auto-recovery of agent processes |
 
 ## Workloads
 
 ### Model Routing
-Local Ollama models handle routine execution at zero API cost. Complex reasoning escalates to premium APIs. This hybrid approach keeps the monthly API bill low while preserving quality on hard tasks.
+One served small model on the local vLLM endpoint handles routine execution at zero API cost. Complex reasoning escalates to premium APIs. This hybrid approach keeps the monthly API bill low while preserving quality on hard tasks, and the router - not the model - owns the decision to escalate.
 
 ### Cron Scheduling
 All recurring jobs run from the primary node. Each cron references standalone wrapper scripts - never inline shell with complex quoting.

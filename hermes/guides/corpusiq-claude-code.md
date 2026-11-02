@@ -3,7 +3,7 @@ title: "Use CorpusIQ with Claude Code - Ask Business Questions"
 description: Connect CorpusIQ to Claude Code via MCP. Ask revenue, orders, and margin questions against live Shopify, Stripe, and QuickBooks data. Source-cited answers in your terminal.
 canonical: "https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -22,7 +22,7 @@ Add this to your Claude Code MCP config:
 {
   "mcpServers": {
     "corpusiq": {
-      "type": "url",
+      "type": "http",
       "url": "https://mcp2.corpusiq.io/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_CORPUSIQ_JWT"
@@ -31,6 +31,15 @@ Add this to your Claude Code MCP config:
   }
 }
 ```
+
+Or add it from the terminal in one line:
+
+```bash
+claude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp \
+  --header "Authorization: Bearer YOUR_CORPUSIQ_JWT"
+```
+
+The `type` field matters: Claude Code reads an entry that has a `url` but no `type` as a stdio server and skips it. Use `http` (or its alias `streamable-http`).
 
 Get your JWT from the CorpusIQ dashboard at [corpusiq.io/dashboard](https://corpusiq.io).
 

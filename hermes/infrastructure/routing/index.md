@@ -3,7 +3,7 @@ title: "Multi-Model Routing - CorpusIQ Docs"
 description: "Intelligent model routing for Hermes agents - cost optimization, task classification, and provider fallback chains."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/routing/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -34,6 +34,15 @@ Premium API → Reasoning API → Local model → Alert
 ```
 
 Each tier falls back when the previous one fails, rate-limits, or exceeds its context window. The chain ends in an alert, never a silent failure.
+
+## What the local tier needs to be trustworthy
+
+A local model only saves money if it cannot hold up the request. Four requirements, taken from a running deployment:
+
+1. **An OpenAI-compatible endpoint on loopback.** One served model behind `/v1/chat/completions` on `127.0.0.1` keeps the router code identical for local and hosted models.
+2. **Two deadlines, not one.** A soft deadline (10 seconds here) flags the call as slow while it finishes; a hard deadline (20 seconds) abandons it and records a failure. A single timeout value cannot express both.
+3. **The router owns escalation.** The local model never decides to escalate. A timeout or transport failure returns control to the router, which chooses the next tier.
+4. **A circuit breaker with a long cool-off.** After repeated failures in a short window, the local tier is disabled for the day rather than re-probed on every request.
 
 ## Implementation Tips
 

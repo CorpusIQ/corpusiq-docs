@@ -3,7 +3,7 @@ title: "How to Vet an MCP Server Before You Connect"
 description: "A 10-minute operator checklist for MCP servers: read the tool list before authorizing, probe the endpoint, inspect the OAuth discovery document, and decide what the server is allowed to see."
 category: guides
 tags: ["mcp server", "security", "oauth", "tool review", "model context protocol"]
-last_updated: 2026-10-24
+last_updated: "2026-11-02"
 canonical: "https://www.corpusiq.io/docs/hermes/guides/vetting-an-mcp-server/"
 robots: "index,follow"
 ---
@@ -14,20 +14,25 @@ An MCP server is a program that receives your credentials, reads data on the oth
 
 Most operators approve that decision in four seconds: click connect, accept the OAuth screen, ask a question. The vetting below takes about ten minutes and replaces the click with evidence.
 
-You do not need to read source code to do it. You need to look at four artifacts: the tool list, the transport handshake, the OAuth discovery document, and the vendor's maintenance trail.
+You do not need to read source code to do it. You need to look at four artifacts: the tool list, the discovery response, the OAuth discovery document, and the vendor's maintenance trail.
 
 ## Step 1: Read the tool list before you authorize anything
 
 Every MCP server publishes its tools. You can ask for them without an account, and a server that refuses to list tools before authentication is telling you something useful: the tool list itself is gated.
 
+Since protocol revision `2026-07-28` there is no `initialize` handshake. Every request carries its version in `_meta`, and servers must implement `server/discover`:
+
 ```bash
 curl -s -X POST https://mcp.example.com/mcp \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json, text/event-stream' \
-  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"probe","version":"0.1"}}}'
+  -H 'MCP-Protocol-Version: 2026-07-28' \
+  -d '{"jsonrpc":"2.0","id":1,"method":"server/discover","params":{"_meta":{"io.modelcontextprotocol/protocolVersion":"2026-07-28","io.modelcontextprotocol/clientInfo":{"name":"probe","version":"0.1"},"io.modelcontextprotocol/clientCapabilities":{}}}}'
 ```
 
-Then call `tools/list` with the same endpoint. What you are looking for is not the number of tools. It is the verb in each tool name.
+Then call `tools/list` against the same endpoint. What you are looking for is not the number of tools. It is the verb in each tool name.
+
+If the endpoint rejects that request with a `400` that is not a modern JSON-RPC error, or answers with `Unsupported protocol version` and a list of dates, it speaks a legacy revision (`2025-11-25` or earlier). Retry with the `initialize` handshake on a version it lists, then call `tools/list`. Either path gets you the list; the difference only tells you how old the server's protocol code is.
 
 | Tool name pattern | What it means | Default posture |
 |---|---|---|
@@ -45,12 +50,23 @@ A mismatch is not always a lie. It is always worth one sentence of doubt: the pa
 
 Also read the description text of each tool. Descriptions are prompt context. A description that instructs the model how to behave beyond the tool's own job, or one that embeds instructions to fetch and follow external content, is a tool-poisoning pattern. You are not being paranoid; the description is literally part of the prompt the model receives.
 
-## Step 3: Probe the handshake to learn what you are connecting to
+## Step 3: Probe the discovery response to learn what you are connecting to
 
-The `initialize` response tells you the protocol version, the server name and version, and which capabilities the server claims.
+The `server/discover` response tells you the protocol versions the server supports, its name and version, and which capabilities it claims.
 
 ```json
-{"result": {"protocolVersion": "2025-06-18",
+{"result": {"resultType": "complete",
+            "supportedVersions": ["2026-07-28", "2025-11-25"],
+            "capabilities": {"tools": {}, "resources": {}},
+            "_meta": {"io.modelcontextprotocol/serverInfo":
+                        {"name": "example-tools", "version": "1.4.0"}},
+            "instructions": "This server provides accounting and order tools."}}
+```
+
+On a legacy revision the same information arrives as an `initialize` result:
+
+```json
+{"result": {"protocolVersion": "2025-11-25",
             "serverInfo": {"name": "example-tools", "version": "1.4.0"},
             "capabilities": {"tools": {}, "resources": {}}}}
 ```
@@ -58,8 +74,8 @@ The `initialize` response tells you the protocol version, the server name and ve
 Three things to record:
 
 - **Transport.** A remote endpoint over Streamable HTTP is reachable by the vendor and by anything that holds the token. A local stdio server runs on your machine and can touch your filesystem. Those are different risk shapes and they deserve different credentials.
-- **Protocol version.** An endpoint pinned to an old protocol revision will drift out of compatibility with newer clients. Not fatal, but a maintenance signal.
-- **Capabilities.** `tools` is normal. `resources` means the server can push content into context, not just answer calls. `sampling` means the server can ask your client to run a model call of its own choosing.
+- **Protocol versions.** A server that only lists old revisions will drift out of compatibility with newer clients, and a server that only lists the current one will not talk to an old client. Not fatal either way, but a maintenance signal. Version strings are dates (`2026-07-28` is current), not semver.
+- **Capabilities.** `tools` is normal. `resources` means the server can push content into context, not just answer calls. Entries under `extensions` (for example `io.modelcontextprotocol/ui` for inline apps or `io.modelcontextprotocol/tasks` for long-running work) are optional features the server wants to negotiate and can be ignored. `sampling`, by contrast, is a client capability: it is your client telling the server it may ask for a model call of its own choosing.
 
 ## Step 4: Read the OAuth discovery document
 

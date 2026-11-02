@@ -1,14 +1,14 @@
 ---
 title: 7 MCP Servers Every Business Operator Should Know
-description: Business-focused MCP servers that connect AI to real tools. CorpusIQ for business data, Exa for search, Browserbase for web automation, and more. Updated August 2026.
+description: Business-focused MCP servers that connect AI to real tools. CorpusIQ for business data, Exa for search, Browserbase for web automation, and more. Updated November 2026.
 canonical: "https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# 7 MCP Servers for Business Operators - August 2026
+# 7 MCP Servers for Business Operators
 
 The Model Context Protocol (MCP) lets AI assistants connect to external tools. Here are the MCP servers worth knowing if you run a business.
 
@@ -39,7 +39,7 @@ Lets AI control a real browser. Fill forms, scrape pages, take screenshots. Hand
 Connect AI to your Slack workspace. Read channels, send messages, search conversations. Turns AI into a team member.
 
 - **Use case**: Ask AI to summarize a channel's activity or find that one message from last month
-- **GitHub**: [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+- **GitHub**: [zencoderai/slack-mcp-server](https://github.com/zencoderai/slack-mcp-server) - the original reference server is archived and now maintained here
 
 ## 5. GitHub MCP - Code & Issues
 
@@ -53,14 +53,14 @@ Give AI access to your repos. Read code, manage issues, review PRs. AI as a deve
 AI reads your docs, sheets, and slides. Search across your entire Drive. Summarize documents without opening them.
 
 - **Use case**: "What were the key points from last quarter's board deck?"
-- **GitHub**: [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+- **Reference implementation**: [gdrive, archived](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) - for a maintained server, search the [MCP Registry](https://registry.modelcontextprotocol.io)
 
 ## 7. PostgreSQL MCP - Database Queries
 
 Connect AI directly to your database. Ask questions in English, get SQL results. Read-only mode available.
 
 - **Use case**: "Show me customers who haven't ordered in 90 days"
-- **GitHub**: [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+- **Reference implementation**: [postgres, archived](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) - read-only by design; for a maintained server, search the [MCP Registry](https://registry.modelcontextprotocol.io)
 
 ---
 
@@ -74,4 +74,4 @@ That is not a feature. That is an operating system for your business.
 
 ---
 
-*Updated: August 3, 2026. The MCP ecosystem evolves fast. Check [Glama.ai](https://glama.ai) and [mcpservers.org](https://mcpservers.org) for the latest servers.*
+*Updated: November 2, 2026. The MCP ecosystem evolves fast. Check the [MCP Registry](https://registry.modelcontextprotocol.io), [Glama.ai](https://glama.ai), and [mcpservers.org](https://mcpservers.org) for the latest servers.*

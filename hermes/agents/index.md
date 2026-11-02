@@ -8,7 +8,7 @@ tags:
   - hermes-agents
   - role-configurations
   - production-agents
-last_updated: 2026-10-31
+last_updated: 2026-11-02
 canonical: "https://www.corpusiq.io/docs/hermes/agents/"
 robots: "index,follow"
 

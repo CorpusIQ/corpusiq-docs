@@ -3,7 +3,7 @@ title: "Authentication Management - CorpusIQ Docs"
 description: "OAuth token lifecycle, API key rotation, and authentication monitoring for autonomous Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/auth/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -32,8 +32,8 @@ Each token tracked for expiration date (alerted 7 days before), scope validity (
 ## Implementation
 
 ### Storage
-- **macOS**: Keychain for OAuth tokens, `~/.github-token` for GitHub PAT
-- **Linux**: Environment variables for API keys
+- **macOS**: Keychain for OAuth tokens, a token file outside any repository for the GitHub PAT
+- **Linux**: Secret files outside the repository (mode 0600) plus environment variables for API keys
 
 ### Refresh Automation
 OAuth tokens auto-refresh before expiry. Failures trigger P1 alerts. API keys monitored for rotation.

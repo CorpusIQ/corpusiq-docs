@@ -4,7 +4,7 @@ description: "CorpusIQ connectors do not retain raw customer files or full conne
 canonical: "/hermes/security/read-only-and-security/"
 robots: "index, follow"
 tags: [security, read-only, privacy, no-storage, oauth, governance, ai-agent]
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 ---
 
 # Security, Read-Only Access, and What CorpusIQ Never Does
@@ -84,6 +84,12 @@ customer systems. Read-only access means:
    not collected or stored.
 4. Independent authentication. Each connector authenticates separately
    under your account, with no shared credentials.
+
+One boundary worth stating precisely: external retrieval is read-only,
+and configuration controls can write scoped platform state. Enabling or
+disabling a connector, or re-authorizing one, changes a setting inside
+your CorpusIQ account. It never changes a record in Shopify, Stripe,
+QuickBooks, or any other connected system.
 
 ## Questions you can ask
 
