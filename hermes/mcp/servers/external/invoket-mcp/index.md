@@ -7,7 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [compliance, iban-validation, sanctions-screening, pay-per-call, x402, verification, legal-data, self-hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Invoket MCP

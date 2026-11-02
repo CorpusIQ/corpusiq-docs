@@ -3,7 +3,7 @@ title: "Hermes Agent Docker Image and Docker Compose Setup"
 description: Run Hermes Agent from the official nousresearch/hermes-agent Docker image. Docker Compose config, persistent volumes, MCP servers, cron persistence and a production checklist.
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/setup/docker/"
 robots: "index,follow"
 

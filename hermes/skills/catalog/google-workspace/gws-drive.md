@@ -8,7 +8,7 @@ category: google-workspace
 setup: npx skills add googleworkspace/cli@gws-drive
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-drive/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Gws Drive - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

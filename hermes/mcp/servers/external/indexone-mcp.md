@@ -1,7 +1,7 @@
 ---
 title: "Index One MCP - CorpusIQ Docs"
 description: "Setup and usage guide for Index One MCP. Part of the Hermes resource directory. Category: Finance Fintech Investment."
-last_updated: 2026-10-24
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/indexone-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

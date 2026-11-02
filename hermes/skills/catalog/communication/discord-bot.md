@@ -8,7 +8,7 @@ category: communication
 setup: npx skills add claude-office-skills/skills@discord-bot
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/discord-bot/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Discord Bot - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

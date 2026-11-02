@@ -7,7 +7,7 @@ added: 2026-08-14
 source: mcpservers.org
 relevance: ★★
 tags: [telegram, analytics, broadcast, automation, referral-tracking, community, marketing, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Graspil MCP
