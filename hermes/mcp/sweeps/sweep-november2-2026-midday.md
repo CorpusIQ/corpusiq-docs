@@ -70,7 +70,7 @@ All five surfaces re-probed in this pass, since the night run recorded them as n
 | Surface | Result |
 | --- | --- |
 | mcpservers.org `/servers/corpusiq-io` | **LIVE** - HTTP 200 through the reader proxy, title `CorpusIQ MCP Server \| Awesome MCP Servers`, 18 CorpusIQ mentions in the body |
-| Smithery | **LIVE via the registry API** - `GET /servers/@benoit-p/Cprusiq` returned 200 with `qualifiedName: benoit-p/Cprusiq`, `displayName: CorpusIQ`, a deployment URL, tools and resources. The HTML page route 404s, and a control test on two unrelated published servers returned the same 404, so the route changed sitewide and this is not a delisting. The search endpoint returned HTTP 500 vendor-side on both attempts |
+| Smithery | **LIVE via the registry API** - `GET /servers/@benoit-p/Cprusiq` returned 200 with `qualifiedName: benoit-p/Cprusiq`, `displayName: CorpusIQ`, a deployment URL, tools and resources. The HTML page route 404s, and a control test on two unrelated published servers returned the same 404, because the web directory migrated to an Arcade-powered directory and every old `/server` route went with it - a recorded migration, not a delisting. The search endpoint returned HTTP 500 vendor-side on both attempts |
 | Glama connector | **LIVE** - `/mcp/connectors/io.corpusiq/multi-source-mcp` HTTP 200, 2.7 MB body, and the connector is the first result on the connectors search for corpusiq |
 | Glama repo listing | **LIVE** - `/mcp/servers/CorpusIQ/corpusiq-docs` HTTP 200 |
 | Official MCP registry | **ACTIVE** - `io.corpusiq/multi-source-mcp` in the v0 servers feed with `remotes[0]` `streamable-http` at `https://mcp2.corpusiq.io/mcp`, status `active` |
