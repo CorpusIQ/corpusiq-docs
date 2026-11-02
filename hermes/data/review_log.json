@@ -20843,5 +20843,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-02T10:04:06.620945+00:00"
+  },
+  {
+    "repo": "tomthebuzz/hermes-bridge",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569525+00:00"
+  },
+  {
+    "repo": "nus-etp/hermenaut",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569539+00:00"
+  },
+  {
+    "repo": "furedea/agent-config",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569541+00:00"
+  },
+  {
+    "repo": "benoitjadinon/obsidian-skills-sync",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569544+00:00"
+  },
+  {
+    "repo": "Summer-Ever/astrbot_plugin_hermes_core",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569545+00:00"
   }
 ]
