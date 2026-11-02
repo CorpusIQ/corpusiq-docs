@@ -6,8 +6,8 @@ stars: n/a (proprietary hosted service)
 added: 2026-10-21
 source: "chatmcp/mcpso issue #5818 (submitted 2026-10-20T18:23Z)"
 relevance: ★★★
-tags: [location-intelligence, zip-codes, address-validation, census-data, demographics, local-marketing, remote-mcp, read-only]
-last_updated: "2026-10-24"
+tags: [location-intelligence, zip-codes, address-validation, census-data, demographics, local-marketing, remote-mcp, payments]
+last_updated: "2026-11-02"
 ---
 
 # Zip-Codes.com MCP
@@ -17,7 +17,7 @@ last_updated: "2026-10-24"
 ```
 Server type: Remote (Streamable HTTP), stateless; 11 read-only data tools plus buy_credits, at https://mcp.zip-codes.com/mcp
 Auth: none for the shared demo (deeper fields withheld); free API key gives 2,500 credits a day
-Live check: POST initialize returned HTTP 200 (serverInfo zip-codes 1.0.0); a keyless tools/call zip_lookup code 90210 returned Beverly Hills CA, Los Angeles County (FIPS 06037), 3,516 ZIP+4 records and 10,643 active delivery points
+Live check: POST initialize returned HTTP 200 (serverInfo zip-codes 1.0.0); a keyless tools/list on 2026-11-02 returned 12 tools; a keyless tools/call zip_lookup code 90210 returned Beverly Hills CA, Los Angeles County (FIPS 06037), 3,516 ZIP+4 records and 10,643 active delivery points
 Tools: 12 (zip_lookup, validate_address, quick_zip, radius_search, distance, suggest_places, zip_facts, about_data, city_name_rules, county_reference, metro_area_reference, buy_credits; buy_credits lets an agent with an MPP wallet buy a prepaid API key, and the wallet's owner approves each payment)
 Pricing: free key at 2,500 credits a day; Developer $49/mo (100,000 credits), Professional $149/mo, higher tiers on request
 Vendor: Zip-Codes.com
