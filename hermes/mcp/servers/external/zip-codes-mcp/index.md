@@ -15,10 +15,10 @@ last_updated: "2026-10-24"
 **A model asked for a ZIP Code will invent one. This server answers from USPS data refreshed monthly and Census boundaries, and an address that does not exist comes back as no match rather than as a plausible-looking invention.**
 
 ```
-Server type: Remote (Streamable HTTP), stateless, read-only at https://mcp.zip-codes.com/mcp
+Server type: Remote (Streamable HTTP), stateless; 11 read-only data tools plus buy_credits, at https://mcp.zip-codes.com/mcp
 Auth: none for the shared demo (deeper fields withheld); free API key gives 2,500 credits a day
 Live check: POST initialize returned HTTP 200 (serverInfo zip-codes 1.0.0); a keyless tools/call zip_lookup code 90210 returned Beverly Hills CA, Los Angeles County (FIPS 06037), 3,516 ZIP+4 records and 10,643 active delivery points
-Tools: 11 (zip_lookup, validate_address, quick_zip, radius_search, distance, suggest_places, zip_facts, about_data, city_name_rules, county_reference, metro_area_reference)
+Tools: 12 (zip_lookup, validate_address, quick_zip, radius_search, distance, suggest_places, zip_facts, about_data, city_name_rules, county_reference, metro_area_reference, buy_credits; buy_credits lets an agent with an MPP wallet buy a prepaid API key, and the wallet's owner approves each payment)
 Pricing: free key at 2,500 credits a day; Developer $49/mo (100,000 credits), Professional $149/mo, higher tiers on request
 Vendor: Zip-Codes.com
 ```
