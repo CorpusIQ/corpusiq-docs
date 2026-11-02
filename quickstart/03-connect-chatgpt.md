@@ -1,26 +1,25 @@
 ---
 title: "3. Connect CorpusIQ to ChatGPT - CorpusIQ Docs"
-description: "Use CorpusIQ inside ChatGPT through two paths: the published Custom GPT for ChatGPT Plus, Pro, and Team, or the MCP server route for desktop and custom GPTs."
-last_updated: "2026-10-24"
+description: "Use CorpusIQ inside ChatGPT through two paths: the CorpusIQ app on the ChatGPT app store, or the MCP connector route for desktop and agent use."
+last_updated: "2026-11-02"
 ---
 
 # 3. Connect CorpusIQ to ChatGPT
 
 CorpusIQ works with ChatGPT through two paths. Pick whichever fits.
 
-## Option A - CorpusIQ Custom GPT (easiest)
+## Option A - CorpusIQ app in ChatGPT (easiest)
 
-If you have ChatGPT Plus, Pro, or Team:
+If you have ChatGPT Plus, Pro, Team, or Enterprise:
 
-1. In CorpusIQ, open **Settings → Integrations → ChatGPT**. Click **Open
-   CorpusIQ GPT**. This takes you to our published Custom GPT in the GPT
-   Store.
-2. Click **Start chat**. ChatGPT will ask you to authenticate to CorpusIQ on
-   first use - a single click-through.
-3. After auth, you can ask the GPT business questions and it will use your
-   connected CorpusIQ sources.
+1. Open the listing: **[CorpusIQ on ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426)**.
+   You can also search "CorpusIQ" in ChatGPT.
+2. Click **Connect** on the listing. ChatGPT will ask you to authorize
+   CorpusIQ on first use - a single click-through.
+3. After auth, ask ChatGPT business questions and it will use your connected
+   CorpusIQ sources.
 
-<!-- screenshot: CorpusIQ Custom GPT landing page -->
+<!-- screenshot: CorpusIQ listing in the ChatGPT plugin directory -->
 <!-- screenshot: OAuth approval prompt -->
 
 ## Option B - ChatGPT MCP connector (Enterprise / direct)
@@ -35,6 +34,14 @@ tool source:
 4. In a new chat, click the tools icon and confirm "CorpusIQ" is listed.
 
 <!-- screenshot: ChatGPT Connectors settings -->
+
+## If you previously used a Custom GPT
+
+OpenAI retires custom GPTs on **December 11, 2026** (February 11, 2027 only for
+FedRAMP and Enterprise workspaces with an approved deferral). Custom GPT
+actions do not transfer during migration. Move to Option A above: the CorpusIQ
+listing in the ChatGPT app store is the supported path and needs no GPT of your
+own.
 
 ## Verify it's working
 

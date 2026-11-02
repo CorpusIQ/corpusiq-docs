@@ -21,8 +21,8 @@ Eight pages for the most common things that go sideways.
   it is older than what the vendor dashboard shows."
 - [Claude can't see CorpusIQ](claude-cant-see-corpusiq.md) - "I added
   CorpusIQ to Claude Desktop and nothing happens."
-- [ChatGPT can't see CorpusIQ](chatgpt-cant-see-corpusiq.md) - "I added
-  CorpusIQ to a custom GPT and nothing happens."
+- [ChatGPT can't see CorpusIQ](chatgpt-cant-see-corpusiq.md) - "I installed
+  CorpusIQ in ChatGPT and nothing happens."
 - [Trial expired](trial-expired.md) - "Everything worked yesterday and
   now I get 403 TRIAL_EXPIRED." Covers the trial gate, team coverage,
   and restoring access without reauthorising anything.
