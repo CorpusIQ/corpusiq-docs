@@ -111,8 +111,8 @@
     "description": "A 10-minute operator checklist for MCP servers: read the tool list before authorizing, probe the endpoint, inspect the OAuth discovery document, and decide",
     "url": "https://www.corpusiq.io/docs/hermes/guides/vetting-an-mcp-server",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10843,10 +10843,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-probe-the-handshake-to-learn-what-you-are-connecting-to" class="md-nav__link">
+  <a href="#step-3-probe-the-discovery-response-to-learn-what-you-are-connecting-to" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3: Probe the handshake to learn what you are connecting to
+        Step 3: Probe the discovery response to learn what you are connecting to
       
     </span>
   </a>
@@ -11533,10 +11533,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-probe-the-handshake-to-learn-what-you-are-connecting-to" class="md-nav__link">
+  <a href="#step-3-probe-the-discovery-response-to-learn-what-you-are-connecting-to" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3: Probe the handshake to learn what you are connecting to
+        Step 3: Probe the discovery response to learn what you are connecting to
       
     </span>
   </a>
@@ -11632,15 +11632,18 @@
 <h1 id="how-to-vet-an-mcp-server-before-you-connect-it">How to Vet an MCP Server Before You Connect It<a class="headerlink" href="#how-to-vet-an-mcp-server-before-you-connect-it" title="Anchor link to this section">&para;</a></h1>
 <p>An MCP server is a program that receives your credentials, reads data on the other side of them, and writes text that a language model then treats as context. Connecting one is a small but real security decision.</p>
 <p>Most operators approve that decision in four seconds: click connect, accept the OAuth screen, ask a question. The vetting below takes about ten minutes and replaces the click with evidence.</p>
-<p>You do not need to read source code to do it. You need to look at four artifacts: the tool list, the transport handshake, the OAuth discovery document, and the vendor's maintenance trail.</p>
+<p>You do not need to read source code to do it. You need to look at four artifacts: the tool list, the discovery response, the OAuth discovery document, and the vendor's maintenance trail.</p>
 <h2 id="step-1-read-the-tool-list-before-you-authorize-anything">Step 1: Read the tool list before you authorize anything<a class="headerlink" href="#step-1-read-the-tool-list-before-you-authorize-anything" title="Anchor link to this section">&para;</a></h2>
 <p>Every MCP server publishes its tools. You can ask for them without an account, and a server that refuses to list tools before authentication is telling you something useful: the tool list itself is gated.</p>
+<p>Since protocol revision <code>2026-07-28</code> there is no <code>initialize</code> handshake. Every request carries its version in <code>_meta</code>, and servers must implement <code>server/discover</code>:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp.example.com/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;Content-Type: application/json&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;Accept: application/json, text/event-stream&#39;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;method&quot;:&quot;initialize&quot;,&quot;params&quot;:{&quot;protocolVersion&quot;:&quot;2025-06-18&quot;,&quot;capabilities&quot;:{},&quot;clientInfo&quot;:{&quot;name&quot;:&quot;probe&quot;,&quot;version&quot;:&quot;0.1&quot;}}}&#39;</span>
+<span class="w">  </span>-H<span class="w"> </span><span class="s1">&#39;MCP-Protocol-Version: 2026-07-28&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:1,&quot;method&quot;:&quot;server/discover&quot;,&quot;params&quot;:{&quot;_meta&quot;:{&quot;io.modelcontextprotocol/protocolVersion&quot;:&quot;2026-07-28&quot;,&quot;io.modelcontextprotocol/clientInfo&quot;:{&quot;name&quot;:&quot;probe&quot;,&quot;version&quot;:&quot;0.1&quot;},&quot;io.modelcontextprotocol/clientCapabilities&quot;:{}}}}&#39;</span>
 </code></pre></div>
-<p>Then call <code>tools/list</code> with the same endpoint. What you are looking for is not the number of tools. It is the verb in each tool name.</p>
+<p>Then call <code>tools/list</code> against the same endpoint. What you are looking for is not the number of tools. It is the verb in each tool name.</p>
+<p>If the endpoint rejects that request with a <code>400</code> that is not a modern JSON-RPC error, or answers with <code>Unsupported protocol version</code> and a list of dates, it speaks a legacy revision (<code>2025-11-25</code> or earlier). Retry with the <code>initialize</code> handshake on a version it lists, then call <code>tools/list</code>. Either path gets you the list; the difference only tells you how old the server's protocol code is.</p>
 <table>
 <thead>
 <tr>
@@ -11672,17 +11675,25 @@
 <p>Vendor pages say "40+ tools". The tool list says how many exist. Count them, then check whether the count on the landing page matches the count in <code>tools/list</code>.</p>
 <p>A mismatch is not always a lie. It is always worth one sentence of doubt: the page may describe an older version, a paid tier, or a roadmap. But if the page promises a capability and the list does not contain it, connect accordingly.</p>
 <p>Also read the description text of each tool. Descriptions are prompt context. A description that instructs the model how to behave beyond the tool's own job, or one that embeds instructions to fetch and follow external content, is a tool-poisoning pattern. You are not being paranoid; the description is literally part of the prompt the model receives.</p>
-<h2 id="step-3-probe-the-handshake-to-learn-what-you-are-connecting-to">Step 3: Probe the handshake to learn what you are connecting to<a class="headerlink" href="#step-3-probe-the-handshake-to-learn-what-you-are-connecting-to" title="Anchor link to this section">&para;</a></h2>
-<p>The <code>initialize</code> response tells you the protocol version, the server name and version, and which capabilities the server claims.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;result&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;protocolVersion&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-06-18&quot;</span><span class="p">,</span>
+<h2 id="step-3-probe-the-discovery-response-to-learn-what-you-are-connecting-to">Step 3: Probe the discovery response to learn what you are connecting to<a class="headerlink" href="#step-3-probe-the-discovery-response-to-learn-what-you-are-connecting-to" title="Anchor link to this section">&para;</a></h2>
+<p>The <code>server/discover</code> response tells you the protocol versions the server supports, its name and version, and which capabilities it claims.</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;result&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;resultType&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;complete&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;supportedVersions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;2026-07-28&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;2025-11-25&quot;</span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;capabilities&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;tools&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{}},</span>
+<span class="w">            </span><span class="nt">&quot;_meta&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;io.modelcontextprotocol/serverInfo&quot;</span><span class="p">:</span>
+<span class="w">                        </span><span class="p">{</span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;example-tools&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.4.0&quot;</span><span class="p">}},</span>
+<span class="w">            </span><span class="nt">&quot;instructions&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;This server provides accounting and order tools.&quot;</span><span class="p">}}</span>
+</code></pre></div>
+<p>On a legacy revision the same information arrives as an <code>initialize</code> result:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;result&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;protocolVersion&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-11-25&quot;</span><span class="p">,</span>
 <span class="w">            </span><span class="nt">&quot;serverInfo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;example-tools&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.4.0&quot;</span><span class="p">},</span>
 <span class="w">            </span><span class="nt">&quot;capabilities&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;tools&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w"> </span><span class="nt">&quot;resources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{}}}}</span>
 </code></pre></div>
 <p>Three things to record:</p>
 <ul>
 <li><strong>Transport.</strong> A remote endpoint over Streamable HTTP is reachable by the vendor and by anything that holds the token. A local stdio server runs on your machine and can touch your filesystem. Those are different risk shapes and they deserve different credentials.</li>
-<li><strong>Protocol version.</strong> An endpoint pinned to an old protocol revision will drift out of compatibility with newer clients. Not fatal, but a maintenance signal.</li>
-<li><strong>Capabilities.</strong> <code>tools</code> is normal. <code>resources</code> means the server can push content into context, not just answer calls. <code>sampling</code> means the server can ask your client to run a model call of its own choosing.</li>
+<li><strong>Protocol versions.</strong> A server that only lists old revisions will drift out of compatibility with newer clients, and a server that only lists the current one will not talk to an old client. Not fatal either way, but a maintenance signal. Version strings are dates (<code>2026-07-28</code> is current), not semver.</li>
+<li><strong>Capabilities.</strong> <code>tools</code> is normal. <code>resources</code> means the server can push content into context, not just answer calls. Entries under <code>extensions</code> (for example <code>io.modelcontextprotocol/ui</code> for inline apps or <code>io.modelcontextprotocol/tasks</code> for long-running work) are optional features the server wants to negotiate and can be ignored. <code>sampling</code>, by contrast, is a client capability: it is your client telling the server it may ask for a model call of its own choosing.</li>
 </ul>
 <h2 id="step-4-read-the-oauth-discovery-document">Step 4: Read the OAuth discovery document<a class="headerlink" href="#step-4-read-the-oauth-discovery-document" title="Anchor link to this section">&para;</a></h2>
 <p>If the server uses OAuth, it publishes how. Two well-known paths cover most deployments:</p>

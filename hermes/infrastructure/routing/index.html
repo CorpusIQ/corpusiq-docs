@@ -107,8 +107,8 @@
     "description": "Intelligent model routing for Hermes agents - cost optimization, task classification, and provider fallback chains.",
     "url": "https://www.corpusiq.io/docs/hermes/infrastructure/routing",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11394,6 +11394,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-the-local-tier-needs-to-be-trustworthy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the local tier needs to be trustworthy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#implementation-tips" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11481,6 +11492,14 @@
 <div class="highlight"><pre><span></span><code>Premium API → Reasoning API → Local model → Alert
 </code></pre></div>
 <p>Each tier falls back when the previous one fails, rate-limits, or exceeds its context window. The chain ends in an alert, never a silent failure.</p>
+<h2 id="what-the-local-tier-needs-to-be-trustworthy">What the local tier needs to be trustworthy<a class="headerlink" href="#what-the-local-tier-needs-to-be-trustworthy" title="Anchor link to this section">&para;</a></h2>
+<p>A local model only saves money if it cannot hold up the request. Four requirements, taken from a running deployment:</p>
+<ol>
+<li><strong>An OpenAI-compatible endpoint on loopback.</strong> One served model behind <code>/v1/chat/completions</code> on <code>127.0.0.1</code> keeps the router code identical for local and hosted models.</li>
+<li><strong>Two deadlines, not one.</strong> A soft deadline (10 seconds here) flags the call as slow while it finishes; a hard deadline (20 seconds) abandons it and records a failure. A single timeout value cannot express both.</li>
+<li><strong>The router owns escalation.</strong> The local model never decides to escalate. A timeout or transport failure returns control to the router, which chooses the next tier.</li>
+<li><strong>A circuit breaker with a long cool-off.</strong> After repeated failures in a short window, the local tier is disabled for the day rather than re-probed on every request.</li>
+</ol>
 <h2 id="implementation-tips">Implementation Tips<a class="headerlink" href="#implementation-tips" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Route by task signature, not vibes.</strong> Parse the prompt for signal: code fences → code model; long context → big-window model; "summarize" → cheap model.</li>

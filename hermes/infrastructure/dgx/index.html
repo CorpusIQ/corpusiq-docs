@@ -107,8 +107,8 @@
     "description": "Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations.",
     "url": "https://www.corpusiq.io/docs/hermes/infrastructure/dgx",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11506,13 +11506,18 @@
 </tr>
 <tr>
 <td>Runtime</td>
-<td>Python 3.11+</td>
+<td>Python 3.11+ (3.13 in the current runtime)</td>
 <td>Agent and script execution</td>
 </tr>
 <tr>
 <td>Inference</td>
+<td>vLLM, OpenAI-compatible</td>
+<td>Serves the routed small model on a loopback port for routine tasks</td>
+</tr>
+<tr>
+<td>Embeddings</td>
 <td>Ollama</td>
-<td>Local LLMs for routine tasks</td>
+<td>Local embedding model for retrieval and memory</td>
 </tr>
 <tr>
 <td>Scheduling</td>
@@ -11528,7 +11533,7 @@
 </table>
 <h2 id="workloads">Workloads<a class="headerlink" href="#workloads" title="Anchor link to this section">&para;</a></h2>
 <h3 id="model-routing">Model Routing<a class="headerlink" href="#model-routing" title="Anchor link to this section">&para;</a></h3>
-<p>Local Ollama models handle routine execution at zero API cost. Complex reasoning escalates to premium APIs. This hybrid approach keeps the monthly API bill low while preserving quality on hard tasks.</p>
+<p>One served small model on the local vLLM endpoint handles routine execution at zero API cost. Complex reasoning escalates to premium APIs. This hybrid approach keeps the monthly API bill low while preserving quality on hard tasks, and the router - not the model - owns the decision to escalate.</p>
 <h3 id="cron-scheduling">Cron Scheduling<a class="headerlink" href="#cron-scheduling" title="Anchor link to this section">&para;</a></h3>
 <p>All recurring jobs run from the primary node. Each cron references standalone wrapper scripts - never inline shell with complex quoting.</p>
 <h3 id="memory-management">Memory Management<a class="headerlink" href="#memory-management" title="Anchor link to this section">&para;</a></h3>

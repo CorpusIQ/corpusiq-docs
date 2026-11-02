@@ -107,8 +107,8 @@
     "description": "OAuth token lifecycle, API key rotation, and authentication monitoring for autonomous Hermes agents.",
     "url": "https://www.corpusiq.io/docs/hermes/infrastructure/auth",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -11502,8 +11502,8 @@
 <h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="storage">Storage<a class="headerlink" href="#storage" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>macOS</strong>: Keychain for OAuth tokens, <code>~/.github-token</code> for GitHub PAT</li>
-<li><strong>Linux</strong>: Environment variables for API keys</li>
+<li><strong>macOS</strong>: Keychain for OAuth tokens, a token file outside any repository for the GitHub PAT</li>
+<li><strong>Linux</strong>: Secret files outside the repository (mode 0600) plus environment variables for API keys</li>
 </ul>
 <h3 id="refresh-automation">Refresh Automation<a class="headerlink" href="#refresh-automation" title="Anchor link to this section">&para;</a></h3>
 <p>OAuth tokens auto-refresh before expiry. Failures trigger P1 alerts. API keys monitored for rotation.</p>
