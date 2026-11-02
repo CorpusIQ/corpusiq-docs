@@ -7,7 +7,7 @@ added: 2026-10-01
 source: "mcp.so feed (clients/builders-in-fintech)"
 relevance: ★★★
 tags: [fintech, venture-capital, funding-rounds, investor-data, research, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 ---
 
 # Builders in Fintech MCP
@@ -18,7 +18,7 @@ last_updated: "2026-10-24"
 Server type: Remote (Streamable HTTP)
 Auth: none (keyless, read-only, 500 calls per connection per day)
 Endpoint: https://buildersinfintech.ai/mcp
-Tools: 19
+Tools: 23
 Pricing: free
 Category: Finance
 Built by: Builders in Fintech (Michele Mattei)
@@ -62,7 +62,7 @@ A free, read-only MCP connection to the Builders in Fintech database covering fi
 No. It is keyless and read-only, capped at 500 calls per connection per day.
 
 ### How many tools does the Builders in Fintech MCP expose?
-19 tools across coverage, funding, companies and people, content, and products and events.
+23 tools across coverage, funding, companies and people, content, products, events and providers, counted live on 2026-11-02 (the guide previously recorded 19).
 
 ### What licence applies to the data?
 CC BY 4.0. Attribute Builders in Fintech and link to https://buildersinfintech.ai on reuse.
