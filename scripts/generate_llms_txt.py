@@ -86,6 +86,12 @@ INDEX_SECTIONS = [
         "how-it-works/privacy-and-security.md",
     ]),
     ("Connectors", sorted(ROOT.glob("connectors/*.md"))),
+    # Connection guides are the highest-intent query shape in this corpus
+    # ("connect QuickBooks to ChatGPT", "connect Bing Webmaster Tools to
+    # ChatGPT"). They carried titles and descriptions in llms-full.txt but had
+    # no section here, so an index-only reader had no route to any of them.
+    # Same reasoning as the Troubleshooting section below. Added Nov 2 2026.
+    ("Connection Guides", sorted(ROOT.glob("docs/connect-*.md"))),
     # Error and fix pages are high-volume assistant queries ("why does my
     # connector show no data", "what is 403 TRIAL_EXPIRED"). They were in
     # llms-full.txt but absent from this index, so index-only readers had no
