@@ -109,8 +109,8 @@
     "description": "Zero-token monthly cleanup for Hermes Agent - close zombie sessions, prune old data, VACUUM state.db. Safe, cron-scheduled.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-session-maintenance-setup",
     
-    "datePublished": "2026-10-31",
-    "dateModified": "2026-10-31",
+    "datePublished": "2026-11-01",
+    "dateModified": "2026-11-01",
     
     "author": {
       "@type": "Organization",
@@ -134,7 +134,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-31">
+  <meta name="last-updated" content="2026-11-01">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9095,6 +9095,8 @@
       
         
       
+        
+      
     
     
     
@@ -9303,6 +9305,34 @@
     
   
     Windows WSL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/session-cleanup" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Session Cleanup
   
 
     
@@ -11501,6 +11531,9 @@
 <li><strong>RAM usage climbs</strong> as the gateway loads accumulated session data</li>
 </ul>
 <p>Without maintenance, a production Hermes instance degrades silently.</p>
+<blockquote>
+<p><strong>Built-in alternative.</strong> Hermes ships its own session commands - <code>hermes sessions list</code>, <code>delete</code>, <code>prune</code>, <code>archive</code>, <code>optimize</code> and <code>checkpoints prune</code>. If you only need to delete or prune sessions and reclaim disk space, start with <a href="https://www.corpusiq.io/docs/hermes/setup/session-cleanup">Session Cleanup</a> and add this script when you want the scheduled backup included.</p>
+</blockquote>
 <h2 id="quick-install">Quick Install<a class="headerlink" href="#quick-install" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Copy the script</span>
 mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/scripts

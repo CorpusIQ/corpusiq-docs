@@ -107,8 +107,8 @@
     "description": "Airbyte is an open-source ELT platform that moves data from sources to warehouses. CorpusIQ is the layer that gives AI assistants live access to that same data.",
     "url": "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-airbyte",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-01",
+    "dateModified": "2026-11-01",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-01">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9093,6 +9093,8 @@
       
         
       
+        
+      
     
     
     
@@ -9301,6 +9303,34 @@
     
   
     Windows WSL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/session-cleanup" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Session Cleanup
   
 
     
@@ -11468,7 +11498,7 @@
 </tr>
 <tr>
 <td>AI surface</td>
-<td>None built in</td>
+<td>MCP server: build and repair pipelines, query the warehouse from ChatGPT, Claude, or Cursor</td>
 <td>Any AI you already use, via MCP</td>
 </tr>
 <tr>
@@ -11484,9 +11514,10 @@
 </tbody>
 </table>
 <h2 id="when-to-use-airbyte-alone">When to use Airbyte alone<a class="headerlink" href="#when-to-use-airbyte-alone" title="Anchor link to this section">&para;</a></h2>
-<p>Airbyte is the right system for building and owning ELT pipelines. Its 300+ connectors and open-source core make it a strong choice when the job is moving data into a warehouse on a schedule. If that is your only need, Airbyte is the answer.</p>
+<p>Airbyte is the right system for building and owning ELT pipelines. Its 700+ connectors and open-source core make it a strong choice when the job is moving data into a warehouse on a schedule. If that is your only need, Airbyte is the answer.</p>
 <h2 id="when-to-add-corpusiq">When to add CorpusIQ<a class="headerlink" href="#when-to-add-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>The pain starts when the warehouse is not the same thing as an answer. Airbyte lands the data. Someone still has to query it, model it, and turn it into a decision.</p>
+<p>Airbyte is no longer pipeline-only. It ships an MCP server that lets an assistant build and repair syncs and query the warehouse, and a context layer on paid plans. That is a real overlap in surface, and the difference is where the answer comes from. Airbyte's MCP works against the pipelines and the warehouse they land in, with tools classified read, mutate, or destructive. CorpusIQ reads the business systems directly, on demand, with declared metric definitions and a citation on every number.</p>
 <p>CorpusIQ connects your business tools directly to the AI assistants you already use. Ask "what changed in our Shopify revenue this week" and get a cited answer from live data, without building a pipeline first. Airbyte keeps being your data movement layer; CorpusIQ is the layer your team actually asks questions in.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="does-corpusiq-replace-airbyte">Does CorpusIQ replace Airbyte?<a class="headerlink" href="#does-corpusiq-replace-airbyte" title="Anchor link to this section">&para;</a></h3>

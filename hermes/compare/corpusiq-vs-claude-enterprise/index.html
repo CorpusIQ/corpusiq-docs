@@ -107,8 +107,8 @@
     "description": "Claude Enterprise brings AI into the workplace with admin controls. CorpusIQ is the layer that gives Claude live access to your business data, source-cited",
     "url": "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-claude-enterprise",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-01",
+    "dateModified": "2026-11-01",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-01">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9093,6 +9093,8 @@
       
         
       
+        
+      
     
     
     
@@ -9301,6 +9303,34 @@
     
   
     Windows WSL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/session-cleanup" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Session Cleanup
   
 
     
@@ -11463,12 +11493,12 @@
 </tr>
 <tr>
 <td>Data access</td>
-<td>Its own data</td>
+<td>Connectors and custom remote MCP servers, added org-wide by Owners</td>
 <td>Your live business tools via read-only OAuth</td>
 </tr>
 <tr>
 <td>AI surface</td>
-<td>One assistant</td>
+<td>Claude, Claude Desktop, Claude Code, and the API</td>
 <td>Any AI you already use, via MCP</td>
 </tr>
 <tr>
@@ -11487,7 +11517,8 @@
 <p>It is the right system for its job. If that is your only need, it is the answer.</p>
 <h2 id="when-to-add-corpusiq">When to add CorpusIQ<a class="headerlink" href="#when-to-add-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>The pain starts when the assistant has no data. Claude Enterprise manages the AI. CorpusIQ supplies the trusted business data layer it reads from.</p>
-<p>CorpusIQ connects to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. ask Claude a question that spans QuickBooks, Stripe, and Shopify and get a cited answer from live sources.</p>
+<p>Claude Enterprise is not connector-less either. An Owner or Primary Owner adds a connector or a custom remote MCP server to the organization, and each member then authorizes it individually, so Claude only reaches what that person could already reach in the source system. The connections live on Anthropic's side of the boundary, which means the server has to be publicly reachable and every business system still arrives as its own connector.</p>
+<p>CorpusIQ connects to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. Ask Claude a question that spans QuickBooks, Stripe, and Shopify and get a cited answer from live sources.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="does-corpusiq-replace-it">Does CorpusIQ replace it?<a class="headerlink" href="#does-corpusiq-replace-it" title="Anchor link to this section">&para;</a></h3>
 <p>No. It stays your system of record. CorpusIQ reads from it with read-only OAuth. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated.</p>

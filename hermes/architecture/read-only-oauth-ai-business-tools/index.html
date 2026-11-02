@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Setup and usage guide for Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory.">
+        <meta name="description" content="Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Read-Only External-Source Retrieval: Why AI Should Never</title>
+    <title>Why AI Should Never Write to Your Business Tools</title>
   
 
     
@@ -67,14 +67,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Read-Only External-Source Retrieval: Why AI Should Never">
-  <meta property="og:description" content="Setup and usage guide for Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory.">
+  <meta property="og:title" content="Why AI Should Never Write to Your Business Tools">
+  <meta property="og:description" content="Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Read-Only External-Source Retrieval: Why AI Should Never">
-  <meta name="twitter:description" content="Setup and usage guide for Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory.">
+  <meta name="twitter:title" content="Why AI Should Never Write to Your Business Tools">
+  <meta name="twitter:description" content="Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -103,12 +103,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Read-Only External-Source Retrieval: Why AI Should Never",
-    "description": "Setup and usage guide for Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory.",
+    "name": "Why AI Should Never Write to Your Business Tools",
+    "description": "Read-only OAuth lets AI read your business data without write risk. How per-source tokens and scopes keep QuickBooks, Shopify and Stripe safe.",
     "url": "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-01",
+    "dateModified": "2026-11-01",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-01">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -208,7 +208,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Read-Only External-Source Retrieval: Why AI Should Never
+              Why AI Should Never Write to Your Business Tools
             
           </span>
         </div>
@@ -9093,6 +9093,8 @@
       
         
       
+        
+      
     
     
     
@@ -9301,6 +9303,34 @@
     
   
     Windows WSL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/session-cleanup" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Session Cleanup
   
 
     
@@ -11435,6 +11465,7 @@
 <li>Every API call uses this token - the tool's own security rejects any write attempt</li>
 </ol>
 <p>Even if the AI tries to modify data, the tool itself blocks the operation. The boundary is enforced at the API level, not the AI level.</p>
+<p>One distinction worth stating plainly: external retrieval is read-only, but some platforms also expose configuration or control-plane operations outside the retrieval path. Those operations change scoped platform state, so they are named and annotated separately instead of being folded into the read-only claim. Ask any provider to draw that line explicitly.</p>
 <h2 id="per-source-authentication">Per-Source Authentication<a class="headerlink" href="#per-source-authentication" title="Anchor link to this section">&para;</a></h2>
 <p>Each tool gets its own read-only external-source retrieval token. Shopify has one token. QuickBooks has another. Stripe has a third. No shared credentials. No master key.</p>
 <p>This means:

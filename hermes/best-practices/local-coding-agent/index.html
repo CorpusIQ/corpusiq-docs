@@ -111,8 +111,8 @@
     "description": "Set up opencode as a free local coding agent: Nemotron served by vLLM, sandbox discipline, and the directory-pinning gotcha that saves your repos.",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-01",
+    "dateModified": "2026-11-01",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-01">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -9097,6 +9097,8 @@
       
         
       
+        
+      
     
     
     
@@ -9305,6 +9307,34 @@
     
   
     Windows WSL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/session-cleanup" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Session Cleanup
   
 
     
@@ -11579,6 +11609,7 @@
 <h2 id="install-and-configure-opencode">Install and configure opencode<a class="headerlink" href="#install-and-configure-opencode" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>i<span class="w"> </span>-g<span class="w"> </span>opencode-ai
 </code></pre></div>
+<p>That package installs the OpenCode 1 line, which is what the rest of this guide is written against. The project now also ships OpenCode 2; the official install script (<code>curl -fsSL https://opencode.ai/install | bash</code>) is the path the docs give for a fresh install, and their Homebrew formula installs the newer version. Pick one line and stay on it, because the two installations can replace each other's binary.</p>
 <p>Point it at the local endpoint in <code>~/.config/opencode/opencode.json</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;permission&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;edit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;allow&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;bash&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;allow&quot;</span><span class="w"> </span><span class="p">},</span>
