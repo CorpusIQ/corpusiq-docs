@@ -13347,7 +13347,62 @@ Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-a
 
 Each connector has a dedicated setup guide with required scopes, example questions, and a plain-English walkthrough. Jump straight to the tool you use:
 
-[Content truncated; see the canonical page for the complete text.]
+[ActiveCampaign](/connectors/activecampaign) · [Adzviser (alternative)](/connectors/adzviser-alternative)
+[Ahrefs](/connectors/ahrefs) · [Airtable](/connectors/airtable)
+[Amazon Seller](/connectors/amazon_seller) · [Calendly](/connectors/calendly)
+[Close](/connectors/close) · [Constant Contact](/connectors/constantcontact)
+[Azure Cosmos DB](/connectors/cosmosdb) · [Dropbox](/connectors/dropbox)
+[eBay](/connectors/ebay) · [Etsy](/connectors/etsy) · [Meta (Facebook, Instagram, Ads)](/connectors/facebook_marketing)
+[GA4](/connectors/ga4) · [GoHighLevel (LeadConnector)](/connectors/gohighlevel)
+[Google Ads](/connectors/google_ads) · [Google Workspace](/connectors/google_workspace)
+[GunBroker](/connectors/gunbroker) · [HubSpot](/connectors/hubspot)
+[IMAP Email](/connectors/imap) · [IndexNow](/connectors/indexnow)
+[Klaviyo](/connectors/klaviyo) · [LinkedIn Ads](/connectors/linkedin-ads)
+[Mailchimp](/connectors/mailchimp) · [Monday.com](/connectors/monday)
+[Microsoft SQL Server (MSSQL)](/connectors/mssql)
+[Notion](/connectors/notion) · [Odoo](/connectors/odoo)
+[OneDrive](/connectors/onedrive) · [Outlook](/connectors/outlook)
+[PostgreSQL](/connectors/postgres) · [PostHog](/connectors/posthog)
+[Postscript](/connectors/postscript) · [QuickBooks](/connectors/quickbooks)
+[Google Search Console](/connectors/search-console) · [Semrush](/connectors/semrush)
+[Bing Webmaster Tools](/connect-bing-webmaster-tools-to-chatgpt) · [CallRail](/connect-callrail-to-chatgpt)
+[Shopify](/connectors/shopify) · [SHOPLINE](/connectors/shopline) · [Slack](/connectors/slack)
+[Stripe](/connectors/stripe) · [TikTok](/connectors/tiktok)
+[YouTube](/connectors/youtube)
+
+Looking for something not in this list? See [how to connect a new data source](#how-do-i-connect-a-new-data-source) or browse the [full connector directory](https://corpusiq.io/connectors).
+
+Planned, not live yet: [MongoDB](/connectors/mongodb). Status is driven by customer demand, so the page documents the intended scope rather than a shipping integration.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How many connectors does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated."}},
+    {"@type": "Question", "name": "How do I connect a new data source?", "acceptedAnswer": {"@type": "Answer", "text": "Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds."}},
+    {"@type": "Question", "name": "Are CorpusIQ connectors read-only?", "acceptedAnswer": {"@type": "Answer", "text": "External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated. Provider scopes vary by connector and are shown during authorization."}},
+    {"@type": "Question", "name": "Does CorpusIQ support database connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), and Azure Cosmos DB, all with read-only SQL/query access."}},
+    {"@type": "Question", "name": "What if I need a connector that isn't listed?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development."}},
+    {"@type": "Question", "name": "How do I check which connectors are active?", "acceptedAnswer": {"@type": "Answer", "text": "Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators."}}
+  ]
+}
+</script>
+
+## Internal Links
+
+- **[CorpusIQ Quick Start Guide](/quickstart)** - Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)** - Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)** - All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)** - Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/blog)** - API updates and version history  
+- **[Secure AI Data Connectivity](/security)** - Encryption and network security  
+
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # CorpusIQ vs Airbyte: Instant AI vs Data Pipeline

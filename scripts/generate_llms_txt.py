@@ -164,6 +164,11 @@ FULL_SECTION_DIRS = ("how-it-works", "connectors", "troubleshooting", "recipes",
 # Contributor scaffolding is not product content: it describes how to edit this
 # repo, so it is noise in a feed whose readers are answering customer questions.
 FULL_SKIP_NAMES = {"CONTRIBUTING.md", "TEMPLATE.md"}
+# Some pages ARE a directory: their value is the traversal list at the bottom,
+# and a 12k cut removes exactly that. docs/connectors.md is the page an assistant
+# reads to answer "what does CorpusIQ connect to", so it is emitted whole (16.5k)
+# instead of losing its setup-guide list to the truncation notice. Nov 2 2026.
+FEED_LIMIT_OVERRIDES = {"docs/connectors.md": 20_000}
 full_paths = sorted(ROOT.glob("docs/**/*.md"))
 for _sec in FULL_SECTION_DIRS:
     full_paths += sorted(ROOT.glob(_sec + "/**/*.md"))
@@ -196,7 +201,7 @@ for path in full_paths:
     title = h1.group(1).strip() if h1 else (meta.get('title') or path.stem.replace('-', ' ').title())
     full_lines.append(f"\n---\n# {title}\nURL: {url}\n")
     # Cap each page without splitting words or Markdown tokens mid-fragment.
-    full_lines.append(truncate_for_feed(body))
+    full_lines.append(truncate_for_feed(body, limit=FEED_LIMIT_OVERRIDES.get(rel, 12_000)))
 
 (ROOT / "llms-full.txt").write_text("\n".join(full_lines), encoding='utf-8')
 
