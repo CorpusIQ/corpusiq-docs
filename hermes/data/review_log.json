@@ -20738,5 +20738,145 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-01T10:03:43.328987+00:00"
+  },
+  {
+    "repo": "Fortytwo-Network/fortytwo-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620915+00:00"
+  },
+  {
+    "repo": "agra-aarav15/unibots",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620919+00:00"
+  },
+  {
+    "repo": "sergiparpal/meal-manager",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620922+00:00"
+  },
+  {
+    "repo": "nicolasseghers91-ui/hermes-cabinet-comptable",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620924+00:00"
+  },
+  {
+    "repo": "davidmosiah/delx-wellness-hermes",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620926+00:00"
+  },
+  {
+    "repo": "prodmeevan/hermes-social",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620928+00:00"
+  },
+  {
+    "repo": "Stxyu-p/memcore",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620930+00:00"
+  },
+  {
+    "repo": "dfrostar/neuralmind",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-02T10:04:06.620932+00:00"
+  },
+  {
+    "repo": "rohitxsh/hermes-ops-kit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620934+00:00"
+  },
+  {
+    "repo": "MlkBlk-IT/hermes-environment",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620936+00:00"
+  },
+  {
+    "repo": "MadeByBrain/hermes-extensions",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620937+00:00"
+  },
+  {
+    "repo": "juzvior/ui-studio",
+    "score": 38,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620939+00:00"
+  },
+  {
+    "repo": "CHANTXU64/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620941+00:00"
+  },
+  {
+    "repo": "mooyeali/hermes-agent-service",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620943+00:00"
+  },
+  {
+    "repo": "sfy2022/fnos-hermes-desktop",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T10:04:06.620945+00:00"
+  },
+  {
+    "repo": "tomthebuzz/hermes-bridge",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569525+00:00"
+  },
+  {
+    "repo": "nus-etp/hermenaut",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569539+00:00"
+  },
+  {
+    "repo": "furedea/agent-config",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569541+00:00"
+  },
+  {
+    "repo": "benoitjadinon/obsidian-skills-sync",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569544+00:00"
+  },
+  {
+    "repo": "Summer-Ever/astrbot_plugin_hermes_core",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-02T11:03:22.569545+00:00"
   }
 ]
