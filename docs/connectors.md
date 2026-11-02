@@ -46,6 +46,8 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 |-----------|-------------|
 | **Google Analytics 4 (GA4)** | Query web and app traffic metrics, user counts, sessions, conversions, real-time visitors, and ecommerce revenue. |
 | **Google Search Console** | Retrieve search performance data, clicks, impressions, CTR, average position, sitemaps, and indexed URL status. |
+| **[Bing Webmaster Tools](connect-bing-webmaster-tools-to-chatgpt.md)** | Bing organic search data for a verified site: impressions and clicks over time, top queries with average position, per-URL index status and last crawl, crawl statistics and errors, and inbound link counts. |
+| **[CallRail](connect-callrail-to-chatgpt.md)** | Call tracking records: accounts, tracked companies, tracking numbers, and calls with source, duration, start time, and caller data. Read-only, for call attribution. |
 | **[Google Ads](connectors/google-ads-for-agencies.md)** | Access campaign performance, ad groups, keywords, search terms, quality scores, device and geographic breakdowns, and spend metrics. Agencies can connect one MCC identity and automatically discover linked client accounts. |
 | **Meta Ads (Facebook & Instagram)** | Query Facebook and Instagram ad account performance, campaigns, ad sets, individual ads, audience insights, and lead forms. |
 | **LinkedIn Ads** | B2B paid-social reporting: sponsored ad accounts, campaigns, creatives, and daily performance analytics. |
@@ -178,6 +180,7 @@ Each connector has a dedicated setup guide with required scopes, example questio
 [PostgreSQL](/connectors/postgres) · [PostHog](/connectors/posthog)
 [Postscript](/connectors/postscript) · [QuickBooks](/connectors/quickbooks)
 [Google Search Console](/connectors/search-console) · [Semrush](/connectors/semrush)
+[Bing Webmaster Tools](/connect-bing-webmaster-tools-to-chatgpt) · [CallRail](/connect-callrail-to-chatgpt)
 [Shopify](/connectors/shopify) · [SHOPLINE](/connectors/shopline) · [Slack](/connectors/slack)
 [Stripe](/connectors/stripe) · [TikTok](/connectors/tiktok)
 [YouTube](/connectors/youtube)
