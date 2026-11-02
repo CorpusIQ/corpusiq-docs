@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent - Orchestration Engine
-description: Hermes Agent as the primary execution kernel - capabilities, configuration, and production patterns
+title: "Hermes Orchestrator: How the Agent Runs Work"
+description: "How Hermes orchestration works: the execution kernel, tool routing, and production patterns for multi-step and multi-agent work. Configuration included."
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/hermes/"
 robots: "index,follow"
 last_updated: "2026-11-02"

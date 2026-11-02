@@ -26003,10 +26003,10 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# Adzviser Alternative: CorpusIQ for Business AI Data
+# Adzviser Alternatives: How It Compares
 URL: https://www.corpusiq.io/docs/connectors/adzviser-alternative
 
-# Adzviser Alternative: CorpusIQ for Business AI Data
+# Adzviser Alternatives: How It Compares
 
 Looking for an Adzviser alternative? Here is how CorpusIQ compares for connecting your business data to Claude, ChatGPT, and other AI assistants.
 

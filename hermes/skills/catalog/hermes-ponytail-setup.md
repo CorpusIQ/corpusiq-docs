@@ -1,6 +1,6 @@
 ---
-title: "Hermes Ponytail Setup Guide - CorpusIQ Docs"
-description: Install and configure the Ponytail lazy-senior-dev skill pack for Hermes Agent - YAGNI-first development, over-engineering audits, and tech debt tracking
+title: "Hermes Ponytail Skill Pack: Setup Guide"
+description: Ponytail makes a Hermes agent work like the laziest senior developer. YAGNI-first, stdlib-first, no unrequested abstractions. Install the 7-skill pack.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ponytail-setup/"
 robots: "index,follow"
 last_updated: "2026-10-31"

@@ -1,6 +1,6 @@
 ---
-title: "Brad Automates Head of Content - Social Media Research"
-description: Instagram, TikTok, and video content research skills with 2.8K+ combined installs. Fetch and analyze social media content, identify viral outliers, and extract trending patterns using Apify + Gemini.
+title: "Bradautomates Head of Content: Skill Setup"
+description: "Bradautomates Head of Content skills for Hermes: Instagram, TikTok, and video research, viral outlier detection, and trend extraction. Setup steps."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bradautomates-head-of-content-setup/"
 robots: "index,follow"
 last_updated: "2026-10-24"

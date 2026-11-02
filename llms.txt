@@ -52,7 +52,7 @@
 ## Connectors
 - [Connectors](https://www.corpusiq.io/docs/connectors): CorpusIQ connects 40+ business tools to ChatGPT, Claude, and Perplexity with read-only OAuth. Browse every connector: Shopify, QuickBooks, Stripe, GA4
 - [ActiveCampaign](https://www.corpusiq.io/docs/connectors/activecampaign): ActiveCampaign holds your email contacts, automations, and pipeline deals - the moment-by-moment record of how prospects move from a first open to a c
-- [Adzviser Alternative: CorpusIQ for Business AI Data](https://www.corpusiq.io/docs/connectors/adzviser-alternative): Looking for an Adzviser alternative? See how CorpusIQ connects business data to Claude, ChatGPT, and Perplexity with cited answers from live systems.
+- [Adzviser Alternatives: How It Compares](https://www.corpusiq.io/docs/connectors/adzviser-alternative): Adzviser alternatives compared on coverage: marketing channels only, or finance, commerce, and CRM in one assistant. Includes when Adzviser wins.
 - [Ahrefs](https://www.corpusiq.io/docs/connectors/ahrefs): Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organ
 - [The Best MCP Server for Business Data (2026)](https://www.corpusiq.io/docs/connectors/ai-mcp-server-for-business-data): Your AI is smart but blind to your actual data. See how an MCP server for business data connects Claude, ChatGPT, and Perplexity to live systems.
 - [Airtable](https://www.corpusiq.io/docs/connectors/airtable): Airtable holds operating data that never makes it into your BI tools. Connect it read-only and ask questions across Airtable and your other systems wi
