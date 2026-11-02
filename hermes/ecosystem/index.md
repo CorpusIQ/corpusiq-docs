@@ -1,18 +1,18 @@
 ---
 title: Hermes Ecosystem - Complete Resource Directory
-description: The definitive directory of Hermes Agent resources - 449+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources - 450+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-02"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem - Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 449+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 1, 2026 · **Repos indexed:** 449+ · **Categories:** 18
+> **Last updated:** November 2, 2026 · **Repos indexed:** 450+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,7 +26,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 449+ re
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 26 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 34 | [↓](#memory-knowledge) |
+| [Memory & Knowledge](#memory-knowledge) | 35 | [↓](#memory-knowledge) |
 | [MCP & Integrations](#mcp-integrations) | 50 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 105 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
@@ -1096,6 +1096,16 @@ Hermes Agent skills and memories - AI training knowledge base
 
 A server-side memory and knowledge graph API for AI agents. Stores episodic memories (Postgres+Qdrant), semantic knowledge (Neo4j), and identity instructions, with native integration libraries for agent frameworks like Hermes, OpenClaw, Pi, GoClaw, Claude Agent SDK, and ZeroClaw.
 
+---
+
+### dfrostar/neuralmind
+⭐ **39** · `Python` · [github.com/dfrostar/neuralmind](https://github.com/dfrostar/neuralmind)
+
+Persistent code memory for AI coding agents, kept in your project on your machine. Gives Claude Code, Cursor, Cline, Hermes-Agent and any MCP client the files that matter for each prompt, learns which files you use together, and publishes every benchmark with its misses.
+
+**Maintainer:** dfrostar
+**Topics:** `agent-memory`, `knowledge-graph`, `persistent-memory`, `local-first`, `mcp`
+**Key capabilities:** Prompt-scoped file retrieval, next-file prediction, file co-usage learning, local-first project storage, MCP support for Claude Code / Cursor / Cline / Hermes-Agent, benchmarks published with misses
 
 ---
 

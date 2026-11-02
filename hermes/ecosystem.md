@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 449+ repos, tools, skills, and integrations
-last_updated: "2026-11-01"
+description: Comprehensive directory of the Hermes Agent ecosystem - 450+ repos, tools, skills, and integrations
+last_updated: "2026-11-02"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -18,7 +18,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **449+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 207 auto-approved (scored >= 70 or manually promoted).
+A comprehensive, curated directory of the Hermes Agent ecosystem. **450+ repositories** across 18 categories, scored and verified by the Hermes Ecosystem Discovery Engine. 208 auto-approved (scored >= 70 or manually promoted).
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **449+ repos indexed.**
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **449+ reposit
 | 🍴 Forks & Derivatives | 10 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 12 | Model Context Protocol servers & integrations |
-| 💾 Memory & Knowledge | 42 | Persistent memory, knowledge graphs, context systems |
+| 💾 Memory & Knowledge | 43 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 4 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
@@ -788,6 +788,14 @@ _Persistent memory, knowledge graphs, context systems_
 >Autonomous SRE agent built on Hermes - detects, heals, and learns from production incidents. Uses Memory + Skills + Cron + Gateway + Subagents + Atropos RL.
 
 **Language:** Python | **Topics:** atropos, autonomous-agents, devops, hermes-agent, incident-response
+
+---
+
+### [dfrostar/neuralmind](https://github.com/dfrostar/neuralmind) ⭐ 39
+
+>Persistent code memory for AI coding agents, kept in your project on your machine. Gives Claude Code, Cursor, Cline, Hermes-Agent and any MCP client the files that matter for each prompt, learns which files you use together, and publishes every benchmark with its misses.
+
+**Language:** Python | **Topics:** agent-memory, ai-coding, claude-code, cursor, developer-tools, knowledge-graph
 
 ---
 
@@ -1840,7 +1848,7 @@ Verdicts from a community "Finds for you - 96 new (93 must-see)" digest review:
 
 ---
 
-*449+ repositories in the Hermes ecosystem. Last updated: 2026-11-01. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*450+ repositories in the Hermes ecosystem. Last updated: 2026-11-02. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
 
