@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+# ops docs gate (pre-commit): blocks commits with gate failures on staged markdown.
+#
+# VERSIONED COPY (Nov 2 2026). Activate per clone with:  git config core.hooksPath .githooks
+# Why it lives in the repo: three clones were in use (~/corpusiq-docs, ~/workspace/corpusiq-docs,
+# ~/repos/corpusiq-docs) and their .git/hooks/pre-commit copies had drifted apart - the Sep 15
+# copy had neither the llms feed guard nor the page-metadata gate. A Nov 1 skills sweep committed
+# from that stale clone, so llms.txt carried a wrong marketplace count, CI's
+# `git diff --exit-code -- llms.txt llms-full.txt` failed, and the Vercel + Pages deploy lanes went
+# red until the auto-regen commit landed a minute later. One versioned hook removes the drift.
+FAILED=0
+# Only the SERVED tree is policed, because page frontmatter and an AEO FAQ only
+# mean something to a file that becomes a page.
+#
+# mkdocs docs_dir defaults to docs/, and docs/ holds 10 symlinks into the repo
+# root (docs/hermes -> ../hermes, docs/connectors, docs/CONTRIBUTING.md, ...),
+# so a staged path like hermes/foo.md IS a served page while .github/SECURITY.md
+# and README.md are not. Test servability instead of guessing from the prefix:
+# a staged file is served when it lives under docs/ or when docs/<f> resolves.
+# Layer added 2026-10-29 after .github/SECURITY.md was blocked; a first attempt
+# filtered on ^docs/ and would have silently skipped every hermes/ page.
+for f in $(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|mdx)$'); do
+  case "$f" in
+    docs/*) : ;;
+    *) [ -e "docs/$f" ] || continue ;;   # not reachable from docs/ -> not a page
+  esac
+  [ -f "$f" ] || continue
+  RES=$(python3 /home/hermes/.hermes/ops/gates.py docs "$f" 2>/dev/null | python3 -c "import json,sys; print(json.load(sys.stdin)['result'])" 2>/dev/null)
+  if [ "$RES" = "fail" ]; then
+    echo "[ops-gate] FAIL: $f"
+    python3 /home/hermes/.hermes/ops/gates.py docs "$f" 2>/dev/null | head -24
+    FAILED=1
+  fi
+done
+# --- llms feed drift guard (added 2026-10-28) ---
+# CI deploy gate runs: python scripts/generate_llms_txt.py && git diff --exit-code -- llms.txt llms-full.txt
+# Any markdown edit changes the feeds, so regenerate and stage them in the same commit
+# instead of letting the Pages/Vercel deploy fail after push. Non-blocking on generator error.
+if git diff --cached --name-only --diff-filter=ACM | grep -qE '\.(md|mdx)$'; then
+  if python3 scripts/generate_llms_txt.py >/dev/null 2>&1; then
+    git add llms.txt llms-full.txt 2>/dev/null
+    echo "[llms-guard] feeds regenerated and staged"
+  else
+    echo "[llms-guard] WARNING: generate_llms_txt.py failed - deploy gate may fail"
+  fi
+fi
+
+# --- canonical page-metadata gate (wired 2026-10-29) ---
+# scripts/validate_page_metadata.py is the ONE owner of the dangling-title and
+# duplicate-footer rules, but it was only ever invoked from deploy_docs.py, so a
+# sweep that committed and pushed to main never met it. Two live pages were found
+# on 2026-10-29 with titles cut at "Across 12" for exactly that reason. Run it
+# here, from the repo root, on every commit that touches markdown. Whole-repo
+# scan measured at 0.19s. Warns (long descriptions, missing terminal punctuation)
+# stay non-fatal inside the validator, so this only blocks real corruption.
+if git diff --cached --name-only --diff-filter=ACM | grep -qE '\.(md|mdx)$'; then
+  PM_OUT=$(python3 scripts/validate_page_metadata.py . 2>&1)
+  if [ $? -ne 0 ]; then
+    echo "$PM_OUT" | grep -E '^\s+\[(title|dup-footer)\]|^RESULT' | head -12
+    echo "[pagemeta] blocked: fix the titles above, or bypass once with: git commit --no-verify"
+    FAILED=1
+  fi
+fi
+
+if [ "$FAILED" -eq 1 ]; then
+  echo "[ops-gate] commit blocked by docs gate. Fix the findings above, or bypass once with: git commit --no-verify"
+  exit 1
+fi
+exit 0
