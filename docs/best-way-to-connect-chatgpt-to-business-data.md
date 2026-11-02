@@ -87,7 +87,7 @@ ChatGPT's plugin ecosystem and custom GPTs offer some data connectivity, though 
 - No separate platform
 - Some real-time capabilities
 
-**Limitations:** Very limited connector selection; plugin quality varies widely; no cross-source analysis; plugins may be deprecated as OpenAI shifts to MCP.
+**Limitations:** Very limited connector selection; plugin quality varies widely; no cross-source analysis; custom GPTs retire on December 11, 2026, so this path is not a durable foundation.
 
 ### #4: Custom API Integration - Best for Developer Teams
 

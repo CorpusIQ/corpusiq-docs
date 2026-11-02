@@ -1,7 +1,7 @@
 ---
 title: "What is CorpusIQ - CorpusIQ Docs"
 description: "Every business runs on twelve to twenty SaaS tools. CorpusIQ connects them all to ChatGPT, Claude, and Perplexity so you get one consistent, cited answer from every assistant."
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 ---
 # What is CorpusIQ?
 
@@ -43,8 +43,8 @@ opinionated procedure that knows which connectors to hit, in what order,
 and how to present the answer. The same question always runs the same
 play. Results are predictable.
 
-**The AI agent.** You talk to CorpusIQ through Claude Desktop or ChatGPT
-(custom GPT). The agent uses CorpusIQ's tools to fetch data, runs the
+**The AI agent.** You talk to CorpusIQ through Claude, ChatGPT, or any MCP
+client. The agent uses CorpusIQ's tools to fetch data, runs the
 skills, and writes the answer in your chat. You can ask follow-ups.
 
 ## What it's not

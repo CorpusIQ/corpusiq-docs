@@ -2275,9 +2275,9 @@ Clients should then obtain a fresh token. There is no refresh-token flow; simply
 3. Click **Generate Token**
 4. Copy the token - it will only be displayed once
 
-### Via ChatGPT Actions
+### Via the ChatGPT app or MCP connector
 
-If you are using CorpusIQ through ChatGPT's built-in Actions feature, token issuance is handled automatically by the integration. No manual token management is required.
+Through the CorpusIQ app in the ChatGPT app store, authorization and token issuance are handled by the integration at first use. No manual token management is required. If you add the MCP connector yourself under **Settings > Connectors**, paste the personal token shown in CorpusIQ **Settings > Integrations > ChatGPT MCP**, and update it if you regenerate the token. Custom GPT Actions are retired with custom GPTs on December 11, 2026.
 
 ## Security Requirements
 
@@ -4538,7 +4538,7 @@ ChatGPT's plugin ecosystem and custom GPTs offer some data connectivity, though 
 - No separate platform
 - Some real-time capabilities
 
-**Limitations:** Very limited connector selection; plugin quality varies widely; no cross-source analysis; plugins may be deprecated as OpenAI shifts to MCP.
+**Limitations:** Very limited connector selection; plugin quality varies widely; no cross-source analysis; custom GPTs retire on December 11, 2026, so this path is not a durable foundation.
 
 ### #4: Custom API Integration - Best for Developer Teams
 
@@ -5530,7 +5530,7 @@ QuickBooks' built-in reports are static and must be manually configured. ChatGPT
 ChatGPT retrieves data directly from QuickBooks' API in real time - it doesn't hallucinate financial numbers from training data. Every answer includes the source report or tool used. If a query is ambiguous, ChatGPT will ask for clarification rather than guess. CorpusIQ's data accuracy contract ensures you can trace every answer back to the originating QuickBooks data.
 
 ### Can I use this with any ChatGPT plan?
-ChatGPT for QuickBooks works with ChatGPT Plus, Team, Enterprise, and the ChatGPT API. The CorpusIQ MCP server can be configured as a custom GPT action or used directly through the MCP protocol with compatible clients like Claude Desktop.
+ChatGPT for QuickBooks works with ChatGPT Plus, Team, Enterprise, and the ChatGPT API. CorpusIQ runs through the CorpusIQ app in the ChatGPT app store, through the MCP connector in ChatGPT Settings, or through any MCP client such as Claude Desktop.
 
 ### How many QuickBooks company files can I connect?
 CorpusIQ supports multiple company file connections. Accountants managing multiple clients can switch between company files or query across them (enterprise plan required for multi-company analytics).
@@ -21820,7 +21820,7 @@ curl -X POST https://mcp2.corpusiq.io/mcp \
 
 CorpusIQ is MCP-native. Connect it to your AI assistant to query your business tools in natural language:
 
-- **ChatGPT**: Install the CorpusIQ ChatGPT plugin or configure it as a Custom GPT Action
+- **ChatGPT**: Install CorpusIQ from the ChatGPT app store, or add the CorpusIQ MCP server under Settings > Connectors
 - **Claude**: Add CorpusIQ as an MCP server in Claude Desktop or the Anthropic API
 - **Perplexity**: Connect via the Perplexity integrations dashboard
 
@@ -24615,15 +24615,26 @@ Config file locations:
 
 ---
 
-## Connecting ChatGPT (via Actions or custom GPT)
+## Connecting ChatGPT
 
-ChatGPT supports MCP-style integrations through Custom GPT Actions.
+Two paths are supported. Custom GPT Actions are not one of them: OpenAI retires
+custom GPTs on December 11, 2026 (February 11, 2027 only for FedRAMP and
+Enterprise workspaces with an approved deferral), and custom actions do not
+transfer.
 
-1. In the GPT editor, go to **Configure > Actions > Add action**.
-2. Import the CorpusIQ OpenAPI schema (available at
-   `https://mcp2.corpusiq.io/openapi.json`).
-3. Set authentication to **Bearer token** and paste your CorpusIQ JWT.
-4. Save and test with a prompt like "list my Shopify orders from last week."
+**The CorpusIQ app in ChatGPT (fastest).** Install
+[CorpusIQ from the ChatGPT app store](https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426)
+and authorize it on first use. The app carries the tool list, so there is no
+schema to import and no action to maintain.
+
+**The MCP connector (direct).**
+
+1. In CorpusIQ, open **Settings > Integrations > ChatGPT MCP**. Copy the **MCP
+   server URL** and **personal token**.
+2. In ChatGPT, open **Settings > Connectors > Add MCP server**.
+3. Paste the URL and token. Save.
+4. In a new chat, click the tools icon and confirm CorpusIQ is listed, then ask
+   "list my Shopify orders from last week."
 
 ---
 
@@ -25916,8 +25927,8 @@ opinionated procedure that knows which connectors to hit, in what order,
 and how to present the answer. The same question always runs the same
 play. Results are predictable.
 
-**The AI agent.** You talk to CorpusIQ through Claude Desktop or ChatGPT
-(custom GPT). The agent uses CorpusIQ's tools to fetch data, runs the
+**The AI agent.** You talk to CorpusIQ through Claude, ChatGPT, or any MCP
+client. The agent uses CorpusIQ's tools to fetch data, runs the
 skills, and writes the answer in your chat. You can ask follow-ups.
 
 ## What it's not

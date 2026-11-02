@@ -3,7 +3,7 @@ title: CorpusIQ Quick Start - ChatGPT, Claude, Perplexity
 description: "Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API token. The same number everywhere."
 category: "Documentation"
 tags: ["corpusiq quick start", "connect data to chatgpt", "setup guide", "mcp setup", "oauth connection", "how to connect business data to ai", "first query", "chatgpt integration"]
-last_updated: "2026-10-31"
+last_updated: "2026-11-02"
 canonical: "https://www.corpusiq.io/docs/quick-start"
 robots: "index,follow"
 ---
@@ -121,7 +121,7 @@ curl -X POST https://mcp2.corpusiq.io/mcp \
 
 CorpusIQ is MCP-native. Connect it to your AI assistant to query your business tools in natural language:
 
-- **ChatGPT**: Install the CorpusIQ ChatGPT plugin or configure it as a Custom GPT Action
+- **ChatGPT**: Install CorpusIQ from the ChatGPT app store, or add the CorpusIQ MCP server under Settings > Connectors
 - **Claude**: Add CorpusIQ as an MCP server in Claude Desktop or the Anthropic API
 - **Perplexity**: Connect via the Perplexity integrations dashboard
 
