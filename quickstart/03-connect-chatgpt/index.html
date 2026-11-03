@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Use CorpusIQ inside ChatGPT through two paths: the published Custom GPT for ChatGPT Plus, Pro, and Team, or the MCP server route for desktop and custom GPTs.">
+        <meta name="description" content="Use CorpusIQ inside ChatGPT through two paths: the CorpusIQ app on the ChatGPT app store, or the MCP connector route for desktop and agent use.">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/quickstart/03-connect-chatgpt">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="3. Connect CorpusIQ to ChatGPT - CorpusIQ Docs">
-  <meta property="og:description" content="Use CorpusIQ inside ChatGPT through two paths: the published Custom GPT for ChatGPT Plus, Pro, and Team, or the MCP server route for desktop and custom GPTs.">
+  <meta property="og:description" content="Use CorpusIQ inside ChatGPT through two paths: the CorpusIQ app on the ChatGPT app store, or the MCP connector route for desktop and agent use.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="3. Connect CorpusIQ to ChatGPT - CorpusIQ Docs">
-  <meta name="twitter:description" content="Use CorpusIQ inside ChatGPT through two paths: the published Custom GPT for ChatGPT Plus, Pro, and Team, or the MCP server route for desktop and custom GPTs.">
+  <meta name="twitter:description" content="Use CorpusIQ inside ChatGPT through two paths: the CorpusIQ app on the ChatGPT app store, or the MCP connector route for desktop and agent use.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,11 +104,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "3. Connect CorpusIQ to ChatGPT - CorpusIQ Docs",
-    "description": "Use CorpusIQ inside ChatGPT through two paths: the published Custom GPT for ChatGPT Plus, Pro, and Team, or the MCP server route for desktop and custom GPTs.",
+    "description": "Use CorpusIQ inside ChatGPT through two paths: the CorpusIQ app on the ChatGPT app store, or the MCP connector route for desktop and agent use.",
     "url": "https://www.corpusiq.io/docs/quickstart/03-connect-chatgpt",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -3317,6 +3317,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -3931,6 +3935,34 @@
   
   
     <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-callrail-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect CallRail to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt" class="md-nav__link">
         
   
@@ -3967,6 +3999,34 @@
     
   
     Connect Google Search Console to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Bing Webmaster Tools to ChatGPT
   
 
     
@@ -11361,10 +11421,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#option-a-corpusiq-custom-gpt-easiest" class="md-nav__link">
+  <a href="#option-a-corpusiq-app-in-chatgpt-easiest" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Option A - CorpusIQ Custom GPT (easiest)
+        Option A - CorpusIQ app in ChatGPT (easiest)
       
     </span>
   </a>
@@ -11376,6 +11436,17 @@
     <span class="md-ellipsis">
       
         Option B - ChatGPT MCP connector (Enterprise / direct)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-you-previously-used-a-custom-gpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If you previously used a Custom GPT
       
     </span>
   </a>
@@ -11448,18 +11519,17 @@
 
 <h1 id="3-connect-corpusiq-to-chatgpt">3. Connect CorpusIQ to ChatGPT<a class="headerlink" href="#3-connect-corpusiq-to-chatgpt" title="Anchor link to this section">&para;</a></h1>
 <p>CorpusIQ works with ChatGPT through two paths. Pick whichever fits.</p>
-<h2 id="option-a-corpusiq-custom-gpt-easiest">Option A - CorpusIQ Custom GPT (easiest)<a class="headerlink" href="#option-a-corpusiq-custom-gpt-easiest" title="Anchor link to this section">&para;</a></h2>
-<p>If you have ChatGPT Plus, Pro, or Team:</p>
+<h2 id="option-a-corpusiq-app-in-chatgpt-easiest">Option A - CorpusIQ app in ChatGPT (easiest)<a class="headerlink" href="#option-a-corpusiq-app-in-chatgpt-easiest" title="Anchor link to this section">&para;</a></h2>
+<p>If you have ChatGPT Plus, Pro, Team, or Enterprise:</p>
 <ol>
-<li>In CorpusIQ, open <strong>Settings → Integrations → ChatGPT</strong>. Click <strong>Open
-   CorpusIQ GPT</strong>. This takes you to our published Custom GPT in the GPT
-   Store.</li>
-<li>Click <strong>Start chat</strong>. ChatGPT will ask you to authenticate to CorpusIQ on
-   first use - a single click-through.</li>
-<li>After auth, you can ask the GPT business questions and it will use your
-   connected CorpusIQ sources.</li>
+<li>Open the listing: <strong><a href="https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426">CorpusIQ on ChatGPT</a></strong>.
+   You can also search "CorpusIQ" in ChatGPT.</li>
+<li>Click <strong>Connect</strong> on the listing. ChatGPT will ask you to authorize
+   CorpusIQ on first use - a single click-through.</li>
+<li>After auth, ask ChatGPT business questions and it will use your connected
+   CorpusIQ sources.</li>
 </ol>
-<!-- screenshot: CorpusIQ Custom GPT landing page -->
+<!-- screenshot: CorpusIQ listing in the ChatGPT plugin directory -->
 <!-- screenshot: OAuth approval prompt -->
 
 <h2 id="option-b-chatgpt-mcp-connector-enterprise-direct">Option B - ChatGPT MCP connector (Enterprise / direct)<a class="headerlink" href="#option-b-chatgpt-mcp-connector-enterprise-direct" title="Anchor link to this section">&para;</a></h2>
@@ -11474,6 +11544,12 @@ tool source:</p>
 </ol>
 <!-- screenshot: ChatGPT Connectors settings -->
 
+<h2 id="if-you-previously-used-a-custom-gpt">If you previously used a Custom GPT<a class="headerlink" href="#if-you-previously-used-a-custom-gpt" title="Anchor link to this section">&para;</a></h2>
+<p>OpenAI retires custom GPTs on <strong>December 11, 2026</strong> (February 11, 2027 only for
+FedRAMP and Enterprise workspaces with an approved deferral). Custom GPT
+actions do not transfer during migration. Move to Option A above: the CorpusIQ
+listing in the ChatGPT app store is the supported path and needs no GPT of your
+own.</p>
 <h2 id="verify-its-working">Verify it's working<a class="headerlink" href="#verify-its-working" title="Anchor link to this section">&para;</a></h2>
 <p>Ask:</p>
 <blockquote>

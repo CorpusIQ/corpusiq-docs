@@ -356,7 +356,7 @@ A: Go to demo.corpusiq.io, sign in with your email, connect your first data sour
 - **[ChatGPT Integration with CorpusIQ](/connectors)** - Connect ChatGPT to your business data  
 - **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)** - MCP direct connection for AI agents  
 - **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)** - Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/features)** - MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[Supported AI Agents](/supported-agents)** - MCP config for Claude, Cursor, Hermes, Windsurf  
 - **[CorpusIQ Quick Start](/quickstart)** - Get running in under 5 minutes  
 - **[CorpusIQ Connectors Directory](/connectors)** - All 40+ data source integrations  
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)** - SSO, SAML, and a SOC 2 aligned posture
@@ -2275,9 +2275,9 @@ Clients should then obtain a fresh token. There is no refresh-token flow; simply
 3. Click **Generate Token**
 4. Copy the token - it will only be displayed once
 
-### Via ChatGPT Actions
+### Via the ChatGPT app or MCP connector
 
-If you are using CorpusIQ through ChatGPT's built-in Actions feature, token issuance is handled automatically by the integration. No manual token management is required.
+Through the CorpusIQ app in the ChatGPT app store, authorization and token issuance are handled by the integration at first use. No manual token management is required. If you add the MCP connector yourself under **Settings > Connectors**, paste the personal token shown in CorpusIQ **Settings > Integrations > ChatGPT MCP**, and update it if you regenerate the token. Custom GPT Actions are retired with custom GPTs on December 11, 2026.
 
 ## Security Requirements
 
@@ -4538,7 +4538,7 @@ ChatGPT's plugin ecosystem and custom GPTs offer some data connectivity, though 
 - No separate platform
 - Some real-time capabilities
 
-**Limitations:** Very limited connector selection; plugin quality varies widely; no cross-source analysis; plugins may be deprecated as OpenAI shifts to MCP.
+**Limitations:** Very limited connector selection; plugin quality varies widely; no cross-source analysis; custom GPTs retire on December 11, 2026, so this path is not a durable foundation.
 
 ### #4: Custom API Integration - Best for Developer Teams
 
@@ -5530,7 +5530,7 @@ QuickBooks' built-in reports are static and must be manually configured. ChatGPT
 ChatGPT retrieves data directly from QuickBooks' API in real time - it doesn't hallucinate financial numbers from training data. Every answer includes the source report or tool used. If a query is ambiguous, ChatGPT will ask for clarification rather than guess. CorpusIQ's data accuracy contract ensures you can trace every answer back to the originating QuickBooks data.
 
 ### Can I use this with any ChatGPT plan?
-ChatGPT for QuickBooks works with ChatGPT Plus, Team, Enterprise, and the ChatGPT API. The CorpusIQ MCP server can be configured as a custom GPT action or used directly through the MCP protocol with compatible clients like Claude Desktop.
+ChatGPT for QuickBooks works with ChatGPT Plus, Team, Enterprise, and the ChatGPT API. CorpusIQ runs through the CorpusIQ app in the ChatGPT app store, through the MCP connector in ChatGPT Settings, or through any MCP client such as Claude Desktop.
 
 ### How many QuickBooks company files can I connect?
 CorpusIQ supports multiple company file connections. Accountants managing multiple clients can switch between company files or query across them (enterprise plan required for multi-company analytics).
@@ -5775,7 +5775,7 @@ A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The fre
 - **[ChatGPT Integration with CorpusIQ](/connectors)** - Connect ChatGPT to your business data  
 - **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)** - MCP direct connection for AI agents  
 - **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)** - Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/features)** - MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[Supported AI Agents](/supported-agents)** - MCP config for Claude, Cursor, Hermes, Windsurf  
 - **[CorpusIQ Quick Start](/quickstart)** - Get running in under 5 minutes  
 - **[CorpusIQ Connectors Directory](/connectors)** - All 40+ data source integrations  
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)** - SSO, SAML, and a SOC 2 aligned posture
@@ -6519,6 +6519,200 @@ Direct API integration is right for building custom Asana apps, workflow automat
 Under 5 minutes from signup to your first project management query in ChatGPT.
 
 [Content truncated; see the canonical page for the complete text.]
+
+---
+# How to Connect Bing Webmaster Tools to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt
+
+
+# How to Connect Bing Webmaster Tools to ChatGPT with CorpusIQ MCP
+
+Bing Webmaster Tools holds a second set of numbers about the same site, and almost nobody reads it. The console reports impressions and clicks over time, the queries that produced them, which URLs are actually in the index, how the crawler behaved, and how many inbound links each page has. Reading it means four different screens and a date picker. **Connecting Bing Webmaster Tools to ChatGPT through CorpusIQ MCP** turns those screens into questions. You authorize read-only access once, ask in plain English, and the answer arrives with the site, the date range and the source attached.
+
+Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+## What Questions Can You Ask?
+
+- "How many impressions and clicks did the site get from Bing last month?"
+- "Which queries bring impressions with an average position worse than 10?"
+- "Is /pricing in the Bing index, and when was it last crawled?"
+- "How many pages did Bing crawl last week, and did any return an error?"
+- "Which pages carry the most inbound links?"
+- "Compare Bing clicks and Google clicks for the same month."
+
+The last one is the reason this connector exists. A site is rarely visible in the same way on both indexes, and the difference is usually a technical problem, not a content problem.
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Which sites can I connect?</strong></summary>
+
+The connector lists every site the authorized Microsoft account has verified in Bing Webmaster Tools, and the other reads are scoped to one of those verified site URLs. Call the site list first, pick the exact URL, then ask your question against it. A site that is not verified under that account will not appear.
+</details>
+
+<details>
+<summary><strong>What does the traffic data actually contain?</strong></summary>
+
+A daily time series of impressions and clicks for the verified site, plus totals over the requested window. Queries come back separately, with average impression position and average click position per query. Position in Bing is an average across impressions, so a single query can look healthy in aggregate and still rank badly on the terms that convert.
+</details>
+
+<details>
+<summary><strong>Can I see crawl problems, not just traffic?</strong></summary>
+
+Yes, and it is the part most people never look at. The crawl statistics read returns crawled pages, the in-index count, inbound links, crawl errors and the status codes the crawler received over time. A page that dropped out of the index usually shows up here before it shows up anywhere else.
+</details>
+
+<details>
+<summary><strong>Does it read a single page or the whole site?</strong></summary>
+
+Both. Site-level reads cover rank and traffic, queries, crawl history and link counts. The per-URL read covers one page at a time: clicks, impressions, indexed status and last-crawled date. Use the page read when you want to know whether one specific URL is being treated properly.
+</details>
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector reads Bing Webmaster data. It does not submit sitemaps, change verification, alter crawl settings or edit anything in the account. Write-capable management tools, where they exist in the product, are separately named and annotated.
+</details>
+
+<details>
+<summary><strong>How is this different from a Bing Webmaster export?</strong></summary>
+
+An export gives you the dimension you chose before you knew what you were looking for. A live MCP query picks the dimension from the question, and a follow-up changes the window without rebuilding the table. See [MCP vs API Integrations](mcp-vs-api-integrations.md) for why that difference matters at the operating level.
+</details>
+
+<details>
+<summary><strong>Can I combine it with Google Search Console?</strong></summary>
+
+Connect both. The two connectors answer the same shape of question against two different indexes, so "where is Bing losing clicks that Google keeps" becomes one question with two sources instead of two exports and a manual comparison. Start with [Connect Google Search Console to ChatGPT](connect-google-search-console-to-chatgpt.md).
+</details>
+
+<details>
+<summary><strong>Where is my data stored?</strong></summary>
+
+It is not. Retrieval happens on demand against the live Bing Webmaster API. CorpusIQ does not retain raw customer files or full connector response payloads. Operational query logs may persist for up to 30 days. See our [security documentation](../security/) for the detail.
+</details>
+
+## How It Works
+
+1. You sign in to CorpusIQ and connect Bing Webmaster Tools.
+2. Microsoft shows its consent screen. You approve read access for the account that holds the verified sites.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT discovers the Bing Webmaster tools and calls them when a question needs Bing data.
+5. Every answer cites the verified site, the date range and the dimension used.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) - the 30-day trial needs no credit card.
+2. **Connect Bing Webmaster Tools.** Dashboard, Connections, Bing Webmaster Tools, then approve with the Microsoft account that owns the verified sites.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "How many clicks did the site get from Bing last month?" and check the answer against the Bing Webmaster console.
+5. **Explore.** Then ask the question that actually matters: which pages are missing from the index, and what is close to the top ten.
+
+## Related Pages
+
+- [Connect Google Search Console to ChatGPT](connect-google-search-console-to-chatgpt.md) - the same questions against Google's index
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - what the traffic did after it landed
+- [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - paid search beside organic
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [MCP for Marketing](mcp-for-marketing.md) - the reporting pattern across sources
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect CallRail to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-callrail-to-chatgpt
+
+
+# How to Connect CallRail to ChatGPT with CorpusIQ MCP
+
+Calls are the part of marketing that spreadsheets miss. A form fill lands in a CRM with a campaign attached. A phone call lands in a call tracker with a tracking number, a duration and a source, and the story stops there unless somebody joins it back to the campaign by hand. **Connecting CallRail to ChatGPT through CorpusIQ MCP** makes the call record queryable. You authorize read-only access once, ask which campaigns produced calls and how those calls went, and get an answer with the account, the window and the source attached.
+
+Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+## What Questions Can You Ask?
+
+- "How many calls came in last month, and how long did they last on average?"
+- "Which tracking numbers received the most calls this quarter?"
+- "Which source sent the most calls, and did that change week over week?"
+- "Which companies under this account are generating calls and which are quiet?"
+- "Show me the calls from the campaign I spent the most on."
+- "Do the calls arrive at the same time as the ad clicks, or later?"
+
+The last question is the one that changes budgets. Call timing against spend timing tells you whether the phone is an impulse channel or a considered one.
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>What does the connector expose?</strong></summary>
+
+Five read actions: the accounts the connection can reach, a single account summary with its features, the companies (tracked businesses) under an account, the tracking numbers configured under an account, and the calls themselves with tracking number, duration, start time, source and caller data. Every read after the account list is scoped to one account, so the first call is always the account lookup.
+</details>
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector lists accounts, companies, trackers and calls. It does not create, tag, edit or delete anything in CallRail. Write access is not exposed at all, not merely hidden behind a confirmation step.
+</details>
+
+<details>
+<summary><strong>Does it return transcripts, form submissions or lead scores?</strong></summary>
+
+No. The call record is what it returns: who called, on which tracking number, from which source, when, and for how long. Anything CallRail computes beyond that record, such as transcription, form capture or scoring, is not part of this connector's payload. Ask for what the record holds rather than assuming the rest is available.
+</details>
+
+<details>
+<summary><strong>How do I get true call attribution?</strong></summary>
+
+Join the call record to the ad or analytics record. The tracking number and the call source are the join keys, so with [Google Ads](connect-google-ads-to-chatgpt.md) or [Google Analytics](connect-google-analytics-to-chatgpt.md) connected on the same MCP server, "which campaign drove calls, and which of those calls lasted over two minutes" is one question across two connectors. Attribution you can defend means showing the join, not asserting the conclusion.
+</details>
+
+<details>
+<summary><strong>Does it work across several accounts or several clients?</strong></summary>
+
+Each CorpusIQ user authorizes their own CallRail access, and the account list read returns every account that connection can reach. An agency can hold several clients under one authorization and ask per-account questions without reconnecting. Revoking the connection in CallRail ends the connector's reach immediately.
+</details>
+
+<details>
+<summary><strong>What should I check before trusting a call number?</strong></summary>
+
+Check the window and the account, then check the tracking numbers. A call that arrived on a shared or untracked number carries the wrong source, and a report that silently mixes numbers will look complete while being wrong. The connector returns the tracking number for exactly this reason: it lets the answer be audited.
+</details>
+
+<details>
+<summary><strong>Where is my data stored?</strong></summary>
+
+It is not. Retrieval happens on demand against the live CallRail API. CorpusIQ does not retain raw customer files or full connector response payloads. Operational query logs may persist for up to 30 days. See our [security documentation](../security/) for the detail.
+</details>
+
+## How It Works
+
+1. You sign in to CorpusIQ and connect CallRail.
+2. CallRail shows its consent screen. You approve read access for the account.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT discovers the CallRail tools and calls them when a question needs call data.
+5. Every answer cites the account, the window and the fields used to build the number.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) - the 30-day trial needs no credit card.
+2. **Connect CallRail.** Dashboard, Connections, CallRail, then approve read access.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "What accounts do I have?" then "How many calls came in last week?" and check both against the CallRail dashboard.
+5. **Explore.** Then ask the question the dashboard cannot answer: which source produced the calls worth answering.
+
+## Related Pages
+
+- [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - the spend side of the same join
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the session side of the same join
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - where the call lands after it is qualified
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [MCP for Marketing](mcp-for-marketing.md) - the reporting pattern across sources
+- [AI for Revenue Operations](ai-for-revenue-operations.md) - the operating use case
+- [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 # How to Connect Gmail to ChatGPT with CorpusIQ MCP
@@ -13037,6 +13231,8 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 |-----------|-------------|
 | **Google Analytics 4 (GA4)** | Query web and app traffic metrics, user counts, sessions, conversions, real-time visitors, and ecommerce revenue. |
 | **Google Search Console** | Retrieve search performance data, clicks, impressions, CTR, average position, sitemaps, and indexed URL status. |
+| **[Bing Webmaster Tools](connect-bing-webmaster-tools-to-chatgpt.md)** | Bing organic search data for a verified site: impressions and clicks over time, top queries with average position, per-URL index status and last crawl, crawl statistics and errors, and inbound link counts. |
+| **[CallRail](connect-callrail-to-chatgpt.md)** | Call tracking records: accounts, tracked companies, tracking numbers, and calls with source, duration, start time, and caller data. Read-only, for call attribution. |
 | **[Google Ads](connectors/google-ads-for-agencies.md)** | Access campaign performance, ad groups, keywords, search terms, quality scores, device and geographic breakdowns, and spend metrics. Agencies can connect one MCC identity and automatically discover linked client accounts. |
 | **Meta Ads (Facebook & Instagram)** | Query Facebook and Instagram ad account performance, campaigns, ad sets, individual ads, audience insights, and lead forms. |
 | **LinkedIn Ads** | B2B paid-social reporting: sponsored ad accounts, campaigns, creatives, and daily performance analytics. |
@@ -13169,11 +13365,44 @@ Each connector has a dedicated setup guide with required scopes, example questio
 [PostgreSQL](/connectors/postgres) · [PostHog](/connectors/posthog)
 [Postscript](/connectors/postscript) · [QuickBooks](/connectors/quickbooks)
 [Google Search Console](/connectors/search-console) · [Semrush](/connectors/semrush)
+[Bing Webmaster Tools](/connect-bing-webmaster-tools-to-chatgpt) · [CallRail](/connect-callrail-to-chatgpt)
 [Shopify](/connectors/shopify) · [SHOPLINE](/connectors/shopline) · [Slack](/connectors/slack)
 [Stripe](/connectors/stripe) · [TikTok](/connectors/tiktok)
 [YouTube](/connectors/youtube)
 
-[Content truncated; see the canonical page for the complete text.]
+Looking for something not in this list? See [how to connect a new data source](#how-do-i-connect-a-new-data-source) or browse the [full connector directory](https://corpusiq.io/connectors).
+
+Planned, not live yet: [MongoDB](/connectors/mongodb). Status is driven by customer demand, so the page documents the intended scope rather than a shipping integration.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How many connectors does CorpusIQ support?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated."}},
+    {"@type": "Question", "name": "How do I connect a new data source?", "acceptedAnswer": {"@type": "Answer", "text": "Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds."}},
+    {"@type": "Question", "name": "Are CorpusIQ connectors read-only?", "acceptedAnswer": {"@type": "Answer", "text": "External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated. Provider scopes vary by connector and are shown during authorization."}},
+    {"@type": "Question", "name": "Does CorpusIQ support database connections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), and Azure Cosmos DB, all with read-only SQL/query access."}},
+    {"@type": "Question", "name": "What if I need a connector that isn't listed?", "acceptedAnswer": {"@type": "Answer", "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development."}},
+    {"@type": "Question", "name": "How do I check which connectors are active?", "acceptedAnswer": {"@type": "Answer", "text": "Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators."}}
+  ]
+}
+</script>
+
+## Internal Links
+
+- **[CorpusIQ Quick Start Guide](/quickstart)** - Go from zero to first query in 5 minutes  
+- **[API Reference](/api/overview)** - Full REST API documentation  
+- **[CorpusIQ Connectors](/connectors)** - All 40+ supported integrations  
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/security)** - Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/blog)** - API updates and version history  
+- **[Secure AI Data Connectivity](/security)** - Encryption and network security  
+
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # CorpusIQ vs Airbyte: Instant AI vs Data Pipeline
@@ -21591,7 +21820,7 @@ curl -X POST https://mcp2.corpusiq.io/mcp \
 
 CorpusIQ is MCP-native. Connect it to your AI assistant to query your business tools in natural language:
 
-- **ChatGPT**: Install the CorpusIQ ChatGPT plugin or configure it as a Custom GPT Action
+- **ChatGPT**: Install CorpusIQ from the ChatGPT app store, or add the CorpusIQ MCP server under Settings > Connectors
 - **Claude**: Add CorpusIQ as an MCP server in Claude Desktop or the Anthropic API
 - **Perplexity**: Connect via the Perplexity integrations dashboard
 
@@ -23519,7 +23748,7 @@ A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list
 - **[ChatGPT Integration with CorpusIQ](/connectors)** - Connect ChatGPT to your business data  
 - **[AI Agent Users Guide](https://www.corpusiq.io/private-ai-for-business)** - MCP direct connection for AI agents  
 - **[AI Chat Users Guide](https://www.corpusiq.io/private-ai-for-business)** - Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/features)** - MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[Supported AI Agents](/supported-agents)** - MCP config for Claude, Cursor, Hermes, Windsurf  
 - **[CorpusIQ Quick Start](/quickstart)** - Get running in under 5 minutes  
 - **[CorpusIQ Connectors Directory](/connectors)** - All 40+ data source integrations  
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)** - SSO, SAML, and a SOC 2 aligned posture
@@ -24386,15 +24615,26 @@ Config file locations:
 
 ---
 
-## Connecting ChatGPT (via Actions or custom GPT)
+## Connecting ChatGPT
 
-ChatGPT supports MCP-style integrations through Custom GPT Actions.
+Two paths are supported. Custom GPT Actions are not one of them: OpenAI retires
+custom GPTs on December 11, 2026 (February 11, 2027 only for FedRAMP and
+Enterprise workspaces with an approved deferral), and custom actions do not
+transfer.
 
-1. In the GPT editor, go to **Configure > Actions > Add action**.
-2. Import the CorpusIQ OpenAPI schema (available at
-   `https://mcp2.corpusiq.io/openapi.json`).
-3. Set authentication to **Bearer token** and paste your CorpusIQ JWT.
-4. Save and test with a prompt like "list my Shopify orders from last week."
+**The CorpusIQ app in ChatGPT (fastest).** Install
+[CorpusIQ from the ChatGPT app store](https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426)
+and authorize it on first use. The app carries the tool list, so there is no
+schema to import and no action to maintain.
+
+**The MCP connector (direct).**
+
+1. In CorpusIQ, open **Settings > Integrations > ChatGPT MCP**. Copy the **MCP
+   server URL** and **personal token**.
+2. In ChatGPT, open **Settings > Connectors > Add MCP server**.
+3. Paste the URL and token. Save.
+4. In a new chat, click the tools icon and confirm CorpusIQ is listed, then ask
+   "list my Shopify orders from last week."
 
 ---
 
@@ -25687,8 +25927,8 @@ opinionated procedure that knows which connectors to hit, in what order,
 and how to present the answer. The same question always runs the same
 play. Results are predictable.
 
-**The AI agent.** You talk to CorpusIQ through Claude Desktop or ChatGPT
-(custom GPT). The agent uses CorpusIQ's tools to fetch data, runs the
+**The AI agent.** You talk to CorpusIQ through Claude, ChatGPT, or any MCP
+client. The agent uses CorpusIQ's tools to fetch data, runs the
 skills, and writes the answer in your chat. You can ask follow-ups.
 
 ## What it's not
@@ -25774,10 +26014,10 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# Adzviser Alternative: CorpusIQ for Business AI Data
+# Adzviser Alternatives: How It Compares
 URL: https://www.corpusiq.io/docs/connectors/adzviser-alternative
 
-# Adzviser Alternative: CorpusIQ for Business AI Data
+# Adzviser Alternatives: How It Compares
 
 Looking for an Adzviser alternative? Here is how CorpusIQ compares for connecting your business data to Claude, ChatGPT, and other AI assistants.
 
@@ -29335,8 +29575,8 @@ Eight pages for the most common things that go sideways.
   it is older than what the vendor dashboard shows."
 - [Claude can't see CorpusIQ](claude-cant-see-corpusiq.md) - "I added
   CorpusIQ to Claude Desktop and nothing happens."
-- [ChatGPT can't see CorpusIQ](chatgpt-cant-see-corpusiq.md) - "I added
-  CorpusIQ to a custom GPT and nothing happens."
+- [ChatGPT can't see CorpusIQ](chatgpt-cant-see-corpusiq.md) - "I installed
+  CorpusIQ in ChatGPT and nothing happens."
 - [Trial expired](trial-expired.md) - "Everything worked yesterday and
   now I get 403 TRIAL_EXPIRED." Covers the trial gate, team coverage,
   and restoring access without reauthorising anything.
@@ -29355,95 +29595,85 @@ URL: https://www.corpusiq.io/docs/troubleshooting/chatgpt-cant-see-corpusiq
 
 # ChatGPT can't see CorpusIQ
 
-You set up a custom GPT (or used the ChatGPT MCP connector flow) and
-pointed it at CorpusIQ. But ChatGPT isn't using the CorpusIQ tools.
-Either the connector isn't listed, or it's listed but every query
-fails.
+You installed CorpusIQ in ChatGPT (or wired the MCP connector) and pointed it
+at your account. But ChatGPT isn't using the CorpusIQ tools. Either the
+integration isn't listed, or it's listed but every query fails.
 
 The happy path is in
-[../quick-start.md](../quick-start.md).
+[/docs/quick-start](/docs/quick-start).
 This page covers what to do when it didn't work.
 
-## Cause 1: The custom GPT was saved without the action
+## Cause 1: The integration is installed but not available in this chat
 
-When you build a custom GPT in ChatGPT, you have to **add the CorpusIQ
-action and save the GPT**. It's easy to fill out the config and
-navigate away without hitting save.
+Installing an app or a connector does not always enable it for every
+conversation. In a chat, open the tools icon and confirm CorpusIQ is listed
+for that conversation.
 
-**Fix:** Open the custom GPT in edit mode. Scroll to the Actions
-section. Confirm the CorpusIQ action is listed. Hit save.
+**Fix:** In the chat, click the tools icon and select CorpusIQ. Then ask a
+question that needs your business data, like "what were my last 5 Shopify
+orders."
 
-## Cause 2: Wrong MCP endpoint URL
+## Cause 2: The workspace or plan blocks the integration
 
-The CorpusIQ MCP endpoint for ChatGPT has a specific URL. If the URL in
-your custom GPT's action config doesn't match what the CorpusIQ team
-gave you, ChatGPT can't reach the server.
+MCP support is available on ChatGPT Plus, Team, and Enterprise. The free tier
+has limited MCP capabilities, and on a workspace an admin can disable an
+integration for everyone.
 
-**How to check:** Compare the URL in your action config to the exact
-URL in
-[../quick-start.md](../quick-start.md).
-Character for character. Trailing slashes matter. `http` vs `https`
-matters.
+**Fix:** Confirm you are signed in to the account or workspace where the
+integration was installed. If a workspace admin manages apps, ask them to
+enable CorpusIQ.
 
-## Cause 3: OAuth redirect URL mismatch
+## Cause 3: You haven't completed the in-chat OAuth
 
-When you set up the custom GPT's OAuth, you have to give CorpusIQ the
-exact redirect URL ChatGPT uses. If that URL is registered wrong on
-CorpusIQ's side, the OAuth handshake fails with "redirect URI mismatch."
+Even when the integration is installed correctly, your first message that
+triggers a CorpusIQ tool call will prompt you to authenticate with CorpusIQ.
 
-**Symptom:** You click "Authenticate" inside the custom GPT, get
-bounced to a CorpusIQ login page, sign in, and the redirect back to
-ChatGPT errors out.
+**Symptom:** ChatGPT acts like CorpusIQ doesn't exist, or says it can't access
+your data, even though the integration is installed.
 
-**Fix:** The redirect URL CorpusIQ accepts is typically
-`https://chat.openai.com/aip/<your-gpt-id>/oauth/callback`. The
-CorpusIQ team registers this on their side when you set up the
-connector. If the URL ChatGPT generated doesn't match, send it to
-support and they'll update the registration.
+**Fix:** Ask something that requires CorpusIQ, like "show me my last 5 Shopify
+orders." If a "Sign in to CorpusIQ" button appears, click it and sign in with
+the email tied to your CorpusIQ account.
 
-## Cause 4: You haven't completed the in-chat OAuth
+## Cause 4: Wrong MCP endpoint URL (manual connector route only)
 
-Even after the GPT is configured correctly, your first message that
-triggers a CorpusIQ tool call will prompt you to authenticate with
-CorpusIQ. You have to click through that - sign in with the email tied
-to your CorpusIQ account - for ChatGPT to get a token.
+If you added CorpusIQ yourself under **Settings → Connectors → Add MCP
+server**, the URL and personal token must match exactly what your CorpusIQ
+account shows.
 
-**Symptom:** The GPT acts like CorpusIQ doesn't exist, or says it can't
-access your data, even though the action is configured.
+**How to check:** Compare the URL to the one in your CorpusIQ
+**Settings → Integrations → ChatGPT MCP**. Character for character. Trailing
+slashes matter. `http` vs `https` matters. A stale personal token fails the
+same way.
 
-**Fix:** Ask the GPT something that requires CorpusIQ, like "show me my
-last 5 Shopify orders." If a "Sign in to CorpusIQ" button appears,
-click it and complete the flow.
+## Cause 5: No data source is connected on the CorpusIQ side
 
-## Cause 5: The MCP endpoint isn't responding
+Tools can be reachable while every source is still unauthenticated. CorpusIQ
+returns real connector status, so this is visible rather than silent.
 
-Sometimes the server is up but a transient error or a specific JWT
-issue blocks the response. ChatGPT will silently treat this as "no
-tools available."
+**How to check:** Ask "list my CorpusIQ connectors and their status." Most
+will read "Not connected" until you authenticate each one. Connect the source
+you care about, then ask again. See
+[/docs/quickstart/03-connect-chatgpt](/docs/quickstart/03-connect-chatgpt) for
+the setup path.
 
-**How to check:** Open the CorpusIQ web app (or wherever you manage
-your CorpusIQ account) and confirm your subscription is active and the
-MCP endpoint is enabled. If everything looks right but ChatGPT still
-can't see tools, email support with your account email and the custom
-GPT name.
+## Cause 6: A legacy Custom GPT that no longer runs
 
-## Cause 6: Free-tier ChatGPT plan
+OpenAI retires custom GPTs on **December 11, 2026** (February 11, 2027 only for
+FedRAMP and Enterprise workspaces with an approved deferral), and custom GPT
+actions do not transfer. A GPT you built around CorpusIQ actions stops
+working.
 
-Custom GPT actions require a paid ChatGPT plan (Plus, Team, or
-Enterprise) for both the builder and the user. If you're on the free
-plan, actions are not available.
-
-**Fix:** Upgrade, or use Claude Desktop instead - see
-[claude-cant-see-corpusiq.md](claude-cant-see-corpusiq.md) for the
-parallel setup.
+**Fix:** Use the CorpusIQ listing in the ChatGPT app store instead. It needs no
+GPT of your own. See
+[/docs/quickstart/03-connect-chatgpt](/docs/quickstart/03-connect-chatgpt).
 
 ## Still stuck
 
 Send support:
-- The custom GPT name and a screenshot of its Actions configuration
-  (redact tokens).
+- Screenshot of the connector or app configuration in ChatGPT (redact tokens).
 - The exact message that failed and the response you got.
-- Your CorpusIQ account email.
+- Your CorpusIQ account email and the connected source you were querying.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -31339,19 +31569,18 @@ URL: https://www.corpusiq.io/docs/quickstart/03-connect-chatgpt
 
 CorpusIQ works with ChatGPT through two paths. Pick whichever fits.
 
-## Option A - CorpusIQ Custom GPT (easiest)
+## Option A - CorpusIQ app in ChatGPT (easiest)
 
-If you have ChatGPT Plus, Pro, or Team:
+If you have ChatGPT Plus, Pro, Team, or Enterprise:
 
-1. In CorpusIQ, open **Settings → Integrations → ChatGPT**. Click **Open
-   CorpusIQ GPT**. This takes you to our published Custom GPT in the GPT
-   Store.
-2. Click **Start chat**. ChatGPT will ask you to authenticate to CorpusIQ on
-   first use - a single click-through.
-3. After auth, you can ask the GPT business questions and it will use your
-   connected CorpusIQ sources.
+1. Open the listing: **[CorpusIQ on ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426)**.
+   You can also search "CorpusIQ" in ChatGPT.
+2. Click **Connect** on the listing. ChatGPT will ask you to authorize
+   CorpusIQ on first use - a single click-through.
+3. After auth, ask ChatGPT business questions and it will use your connected
+   CorpusIQ sources.
 
-<!-- screenshot: CorpusIQ Custom GPT landing page -->
+<!-- screenshot: CorpusIQ listing in the ChatGPT plugin directory -->
 <!-- screenshot: OAuth approval prompt -->
 
 ## Option B - ChatGPT MCP connector (Enterprise / direct)
@@ -31366,6 +31595,14 @@ tool source:
 4. In a new chat, click the tools icon and confirm "CorpusIQ" is listed.
 
 <!-- screenshot: ChatGPT Connectors settings -->
+
+## If you previously used a Custom GPT
+
+OpenAI retires custom GPTs on **December 11, 2026** (February 11, 2027 only for
+FedRAMP and Enterprise workspaces with an approved deferral). Custom GPT
+actions do not transfer during migration. Move to Option A above: the CorpusIQ
+listing in the ChatGPT app store is the supported path and needs no GPT of your
+own.
 
 ## Verify it's working
 
@@ -31733,7 +31970,7 @@ Get up and running in 30 minutes. Five steps from signup to your first real ques
 |------|------|------|
 | [1. Create account](01-create-account.md) | Sign up at corpusiq.io | 2 min |
 | [2. Connect Claude](02-connect-claude.md) | Plug CorpusIQ into Claude Desktop | 3 min |
-| [3. Connect ChatGPT](03-connect-chatgpt.md) | Or plug into a ChatGPT custom GPT | 3 min |
+| [3. Connect ChatGPT](03-connect-chatgpt.md) | Use the CorpusIQ app in ChatGPT or the MCP connector | 3 min |
 | [4. Authenticate first connector](04-first-connector.md) | Connect QuickBooks, Shopify, GA4, etc. | 2 min |
 | [5. Fire first prompt](05-first-prompt.md) | Ask a question, get real data back | 2 min |
 | [6. Your first cross-source query](06-first-cross-source-query.md) | Connect two tools, ask something that needs both | 5 min |

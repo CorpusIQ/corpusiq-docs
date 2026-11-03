@@ -111,8 +111,8 @@
     "description": "Setup and usage guide for Agent Plugins 1.0 - The Portable Skill Standard. Part of the Hermes resource directory.",
     "url": "https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -3321,6 +3321,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -3935,6 +3939,34 @@
   
   
     <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-callrail-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect CallRail to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt" class="md-nav__link">
         
   
@@ -3971,6 +4003,34 @@
     
   
     Connect Google Search Console to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Bing Webmaster Tools to ChatGPT
   
 
     
@@ -11586,7 +11646,7 @@
 
 
 <h1 id="agent-plugins-10-the-portable-skill-standard">Agent Plugins 1.0 - The Portable Skill Standard<a class="headerlink" href="#agent-plugins-10-the-portable-skill-standard" title="Anchor link to this section">&para;</a></h1>
-<p>On August 6, 2026, OpenAI, Vercel, AWS, Microsoft, Google, and Cursor published Agent Plugins 1.0: an open, vendor-neutral standard for packaging AI agent skills and MCP servers into portable plugins. Build once. Deploy everywhere.</p>
+<p>On August 6, 2026, a technical steering committee of Core Maintainers from AWS, Anysphere (Cursor), Microsoft, OpenAI, and Vercel published Agent Plugins 1.0.0: an open, vendor-neutral standard for packaging Agent Skills and MCP servers into portable plugins. Vercel initiated the proposal; Anysphere and GitHub refined it. Build once. Deploy everywhere. The normative specification is at <a href="https://agent-plugins.org/specification">agent-plugins.org/specification</a>.</p>
 <h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
 <p>A simple directory structure:</p>
 <div class="highlight"><pre><span></span><code>my-plugin/
@@ -11599,16 +11659,16 @@
 ├── mcp.json             # MCP server configuration
 └── com.example.client/  # optional client-specific extensions
 </code></pre></div>
-<p>That's it. Three core files. One portable package.</p>
+<p>That's it. One required manifest, two optional components. <code>plugin.json</code> must be present; <code>skills/</code> and <code>mcp.json</code> are optional, and a plugin that ships only one of them still loads.</p>
 <h2 id="who-is-behind-it">Who Is Behind It<a class="headerlink" href="#who-is-behind-it" title="Anchor link to this section">&para;</a></h2>
-<p>The technical committee includes Amazon, Cursor, Microsoft, OpenAI, and Vercel. Google joined as a core maintainer. GitHub and Anysphere (Cursor) contributed to the specification. Six of the largest names in AI agreed on a shared format.</p>
+<p>Core Maintainers on the technical steering committee come from AWS, Cursor (Anysphere), Microsoft, OpenAI, and Vercel. Vercel initiated the proposal, and Anysphere and GitHub refined it collaboratively. Six of the largest names in AI agreed on a shared format, and the project is governed independently of any single vendor.</p>
 <h2 id="why-this-matters-for-corpusiq">Why This Matters for CorpusIQ<a class="headerlink" href="#why-this-matters-for-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ has 100-plus Hermes skills covering growth operations, content creation, system management, email automation, social posting, and competitive research. Right now, these skills are locked inside a single Hermes profile.</p>
 <p>Agent Plugins 1.0 changes that. Every CorpusIQ skill can be packaged as a portable plugin. A business owner using Claude Code could install the CorpusIQ Shopify analytics skill. A developer using Cursor could install the CorpusIQ MCP server configuration. An agency using Codex could install the full CorpusIQ business intelligence plugin.</p>
 <p>The distribution model flips: instead of users coming to CorpusIQ and connecting their tools, the tools come to the user, inside whatever AI agent they already use.</p>
 <h2 id="the-skillforge-ecosystem">The SkillForge Ecosystem<a class="headerlink" href="#the-skillforge-ecosystem" title="Anchor link to this section">&para;</a></h2>
-<p>SkillForge (105 stars, launched August 4, 2026) is already building the "npm for skills" - an MCP-native skill registry that follows the Agent Plugins specification. Skills published to SkillForge are discoverable and installable by any compatible agent.</p>
-<p>CorpusIQ should be an early publisher on SkillForge. Every growth skill we have - Reddit commenting, Shopify outreach, email automation, competitive research - becomes a discoverable, installable plugin.</p>
+<p>SkillForge (<a href="https://github.com/tripleyak/SkillForge">tripleyak/SkillForge</a>, 915 stars as of November 2, 2026) is building evidence-driven skill packaging: baseline-tested generation, per-skill regression evals, and cross-runtime compile for Claude Code and Codex. Skills shipped through it are portable across compatible agents.</p>
+<p>CorpusIQ should publish there. Every growth skill we have - Reddit commenting, Shopify outreach, email automation, competitive research - becomes a discoverable, installable plugin.</p>
 <h2 id="the-immediate-opportunity">The Immediate Opportunity<a class="headerlink" href="#the-immediate-opportunity" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Package the top 10 CorpusIQ skills</strong> as Agent Plugins</li>

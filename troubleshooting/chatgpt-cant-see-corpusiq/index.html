@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="You set up a custom GPT or the ChatGPT MCP connector but ChatGPT cannot see your CorpusIQ data. Step-by-step fixes for the most common integration failures.">
+        <meta name="description" content="You installed the CorpusIQ app in ChatGPT or wired the MCP connector but ChatGPT cannot see your CorpusIQ data.">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/troubleshooting/chatgpt-cant-see-corpusiq">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="ChatGPT Can't See CorpusIQ - CorpusIQ Docs">
-  <meta property="og:description" content="You set up a custom GPT or the ChatGPT MCP connector but ChatGPT cannot see your CorpusIQ data. Step-by-step fixes for the most common integration failures.">
+  <meta property="og:description" content="You installed the CorpusIQ app in ChatGPT or wired the MCP connector but ChatGPT cannot see your CorpusIQ data.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ChatGPT Can't See CorpusIQ - CorpusIQ Docs">
-  <meta name="twitter:description" content="You set up a custom GPT or the ChatGPT MCP connector but ChatGPT cannot see your CorpusIQ data. Step-by-step fixes for the most common integration failures.">
+  <meta name="twitter:description" content="You installed the CorpusIQ app in ChatGPT or wired the MCP connector but ChatGPT cannot see your CorpusIQ data.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,11 +108,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "ChatGPT Can\u0027t See CorpusIQ - CorpusIQ Docs",
-    "description": "You set up a custom GPT or the ChatGPT MCP connector but ChatGPT cannot see your CorpusIQ data. Step-by-step fixes for the most common integration failures.",
+    "description": "You installed the CorpusIQ app in ChatGPT or wired the MCP connector but ChatGPT cannot see your CorpusIQ data.",
     "url": "https://www.corpusiq.io/docs/troubleshooting/chatgpt-cant-see-corpusiq",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -2385,10 +2385,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cause-1-the-custom-gpt-was-saved-without-the-action" class="md-nav__link">
+  <a href="#cause-1-the-integration-is-installed-but-not-available-in-this-chat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 1: The custom GPT was saved without the action
+        Cause 1: The integration is installed but not available in this chat
       
     </span>
   </a>
@@ -2396,10 +2396,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-2-wrong-mcp-endpoint-url" class="md-nav__link">
+  <a href="#cause-2-the-workspace-or-plan-blocks-the-integration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 2: Wrong MCP endpoint URL
+        Cause 2: The workspace or plan blocks the integration
       
     </span>
   </a>
@@ -2407,10 +2407,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-3-oauth-redirect-url-mismatch" class="md-nav__link">
+  <a href="#cause-3-you-havent-completed-the-in-chat-oauth" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 3: OAuth redirect URL mismatch
+        Cause 3: You haven't completed the in-chat OAuth
       
     </span>
   </a>
@@ -2418,10 +2418,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-4-you-havent-completed-the-in-chat-oauth" class="md-nav__link">
+  <a href="#cause-4-wrong-mcp-endpoint-url-manual-connector-route-only" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 4: You haven't completed the in-chat OAuth
+        Cause 4: Wrong MCP endpoint URL (manual connector route only)
       
     </span>
   </a>
@@ -2429,10 +2429,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-5-the-mcp-endpoint-isnt-responding" class="md-nav__link">
+  <a href="#cause-5-no-data-source-is-connected-on-the-corpusiq-side" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 5: The MCP endpoint isn't responding
+        Cause 5: No data source is connected on the CorpusIQ side
       
     </span>
   </a>
@@ -2440,10 +2440,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-6-free-tier-chatgpt-plan" class="md-nav__link">
+  <a href="#cause-6-a-legacy-custom-gpt-that-no-longer-runs" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 6: Free-tier ChatGPT plan
+        Cause 6: A legacy Custom GPT that no longer runs
       
     </span>
   </a>
@@ -3445,6 +3445,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4059,6 +4063,34 @@
   
   
     <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-callrail-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect CallRail to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt" class="md-nav__link">
         
   
@@ -4095,6 +4127,34 @@
     
   
     Connect Google Search Console to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Bing Webmaster Tools to ChatGPT
   
 
     
@@ -11489,10 +11549,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cause-1-the-custom-gpt-was-saved-without-the-action" class="md-nav__link">
+  <a href="#cause-1-the-integration-is-installed-but-not-available-in-this-chat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 1: The custom GPT was saved without the action
+        Cause 1: The integration is installed but not available in this chat
       
     </span>
   </a>
@@ -11500,10 +11560,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-2-wrong-mcp-endpoint-url" class="md-nav__link">
+  <a href="#cause-2-the-workspace-or-plan-blocks-the-integration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 2: Wrong MCP endpoint URL
+        Cause 2: The workspace or plan blocks the integration
       
     </span>
   </a>
@@ -11511,10 +11571,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-3-oauth-redirect-url-mismatch" class="md-nav__link">
+  <a href="#cause-3-you-havent-completed-the-in-chat-oauth" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 3: OAuth redirect URL mismatch
+        Cause 3: You haven't completed the in-chat OAuth
       
     </span>
   </a>
@@ -11522,10 +11582,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-4-you-havent-completed-the-in-chat-oauth" class="md-nav__link">
+  <a href="#cause-4-wrong-mcp-endpoint-url-manual-connector-route-only" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 4: You haven't completed the in-chat OAuth
+        Cause 4: Wrong MCP endpoint URL (manual connector route only)
       
     </span>
   </a>
@@ -11533,10 +11593,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-5-the-mcp-endpoint-isnt-responding" class="md-nav__link">
+  <a href="#cause-5-no-data-source-is-connected-on-the-corpusiq-side" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 5: The MCP endpoint isn't responding
+        Cause 5: No data source is connected on the CorpusIQ side
       
     </span>
   </a>
@@ -11544,10 +11604,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cause-6-free-tier-chatgpt-plan" class="md-nav__link">
+  <a href="#cause-6-a-legacy-custom-gpt-that-no-longer-runs" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cause 6: Free-tier ChatGPT plan
+        Cause 6: A legacy Custom GPT that no longer runs
       
     </span>
   </a>
@@ -11586,72 +11646,63 @@
 
 
 <h1 id="chatgpt-cant-see-corpusiq">ChatGPT can't see CorpusIQ<a class="headerlink" href="#chatgpt-cant-see-corpusiq" title="Anchor link to this section">&para;</a></h1>
-<p>You set up a custom GPT (or used the ChatGPT MCP connector flow) and
-pointed it at CorpusIQ. But ChatGPT isn't using the CorpusIQ tools.
-Either the connector isn't listed, or it's listed but every query
-fails.</p>
+<p>You installed CorpusIQ in ChatGPT (or wired the MCP connector) and pointed it
+at your account. But ChatGPT isn't using the CorpusIQ tools. Either the
+integration isn't listed, or it's listed but every query fails.</p>
 <p>The happy path is in
-<a href="https://www.corpusiq.io/docs/quick-start">../quick-start.md</a>.
+<a href="/docs/quick-start">/docs/quick-start</a>.
 This page covers what to do when it didn't work.</p>
-<h2 id="cause-1-the-custom-gpt-was-saved-without-the-action">Cause 1: The custom GPT was saved without the action<a class="headerlink" href="#cause-1-the-custom-gpt-was-saved-without-the-action" title="Anchor link to this section">&para;</a></h2>
-<p>When you build a custom GPT in ChatGPT, you have to <strong>add the CorpusIQ
-action and save the GPT</strong>. It's easy to fill out the config and
-navigate away without hitting save.</p>
-<p><strong>Fix:</strong> Open the custom GPT in edit mode. Scroll to the Actions
-section. Confirm the CorpusIQ action is listed. Hit save.</p>
-<h2 id="cause-2-wrong-mcp-endpoint-url">Cause 2: Wrong MCP endpoint URL<a class="headerlink" href="#cause-2-wrong-mcp-endpoint-url" title="Anchor link to this section">&para;</a></h2>
-<p>The CorpusIQ MCP endpoint for ChatGPT has a specific URL. If the URL in
-your custom GPT's action config doesn't match what the CorpusIQ team
-gave you, ChatGPT can't reach the server.</p>
-<p><strong>How to check:</strong> Compare the URL in your action config to the exact
-URL in
-<a href="https://www.corpusiq.io/docs/quick-start">../quick-start.md</a>.
-Character for character. Trailing slashes matter. <code>http</code> vs <code>https</code>
-matters.</p>
-<h2 id="cause-3-oauth-redirect-url-mismatch">Cause 3: OAuth redirect URL mismatch<a class="headerlink" href="#cause-3-oauth-redirect-url-mismatch" title="Anchor link to this section">&para;</a></h2>
-<p>When you set up the custom GPT's OAuth, you have to give CorpusIQ the
-exact redirect URL ChatGPT uses. If that URL is registered wrong on
-CorpusIQ's side, the OAuth handshake fails with "redirect URI mismatch."</p>
-<p><strong>Symptom:</strong> You click "Authenticate" inside the custom GPT, get
-bounced to a CorpusIQ login page, sign in, and the redirect back to
-ChatGPT errors out.</p>
-<p><strong>Fix:</strong> The redirect URL CorpusIQ accepts is typically
-<code>https://chat.openai.com/aip/&lt;your-gpt-id&gt;/oauth/callback</code>. The
-CorpusIQ team registers this on their side when you set up the
-connector. If the URL ChatGPT generated doesn't match, send it to
-support and they'll update the registration.</p>
-<h2 id="cause-4-you-havent-completed-the-in-chat-oauth">Cause 4: You haven't completed the in-chat OAuth<a class="headerlink" href="#cause-4-you-havent-completed-the-in-chat-oauth" title="Anchor link to this section">&para;</a></h2>
-<p>Even after the GPT is configured correctly, your first message that
-triggers a CorpusIQ tool call will prompt you to authenticate with
-CorpusIQ. You have to click through that - sign in with the email tied
-to your CorpusIQ account - for ChatGPT to get a token.</p>
-<p><strong>Symptom:</strong> The GPT acts like CorpusIQ doesn't exist, or says it can't
-access your data, even though the action is configured.</p>
-<p><strong>Fix:</strong> Ask the GPT something that requires CorpusIQ, like "show me my
-last 5 Shopify orders." If a "Sign in to CorpusIQ" button appears,
-click it and complete the flow.</p>
-<h2 id="cause-5-the-mcp-endpoint-isnt-responding">Cause 5: The MCP endpoint isn't responding<a class="headerlink" href="#cause-5-the-mcp-endpoint-isnt-responding" title="Anchor link to this section">&para;</a></h2>
-<p>Sometimes the server is up but a transient error or a specific JWT
-issue blocks the response. ChatGPT will silently treat this as "no
-tools available."</p>
-<p><strong>How to check:</strong> Open the CorpusIQ web app (or wherever you manage
-your CorpusIQ account) and confirm your subscription is active and the
-MCP endpoint is enabled. If everything looks right but ChatGPT still
-can't see tools, email support with your account email and the custom
-GPT name.</p>
-<h2 id="cause-6-free-tier-chatgpt-plan">Cause 6: Free-tier ChatGPT plan<a class="headerlink" href="#cause-6-free-tier-chatgpt-plan" title="Anchor link to this section">&para;</a></h2>
-<p>Custom GPT actions require a paid ChatGPT plan (Plus, Team, or
-Enterprise) for both the builder and the user. If you're on the free
-plan, actions are not available.</p>
-<p><strong>Fix:</strong> Upgrade, or use Claude Desktop instead - see
-<a href="https://www.corpusiq.io/docs/troubleshooting/claude-cant-see-corpusiq">claude-cant-see-corpusiq.md</a> for the
-parallel setup.</p>
+<h2 id="cause-1-the-integration-is-installed-but-not-available-in-this-chat">Cause 1: The integration is installed but not available in this chat<a class="headerlink" href="#cause-1-the-integration-is-installed-but-not-available-in-this-chat" title="Anchor link to this section">&para;</a></h2>
+<p>Installing an app or a connector does not always enable it for every
+conversation. In a chat, open the tools icon and confirm CorpusIQ is listed
+for that conversation.</p>
+<p><strong>Fix:</strong> In the chat, click the tools icon and select CorpusIQ. Then ask a
+question that needs your business data, like "what were my last 5 Shopify
+orders."</p>
+<h2 id="cause-2-the-workspace-or-plan-blocks-the-integration">Cause 2: The workspace or plan blocks the integration<a class="headerlink" href="#cause-2-the-workspace-or-plan-blocks-the-integration" title="Anchor link to this section">&para;</a></h2>
+<p>MCP support is available on ChatGPT Plus, Team, and Enterprise. The free tier
+has limited MCP capabilities, and on a workspace an admin can disable an
+integration for everyone.</p>
+<p><strong>Fix:</strong> Confirm you are signed in to the account or workspace where the
+integration was installed. If a workspace admin manages apps, ask them to
+enable CorpusIQ.</p>
+<h2 id="cause-3-you-havent-completed-the-in-chat-oauth">Cause 3: You haven't completed the in-chat OAuth<a class="headerlink" href="#cause-3-you-havent-completed-the-in-chat-oauth" title="Anchor link to this section">&para;</a></h2>
+<p>Even when the integration is installed correctly, your first message that
+triggers a CorpusIQ tool call will prompt you to authenticate with CorpusIQ.</p>
+<p><strong>Symptom:</strong> ChatGPT acts like CorpusIQ doesn't exist, or says it can't access
+your data, even though the integration is installed.</p>
+<p><strong>Fix:</strong> Ask something that requires CorpusIQ, like "show me my last 5 Shopify
+orders." If a "Sign in to CorpusIQ" button appears, click it and sign in with
+the email tied to your CorpusIQ account.</p>
+<h2 id="cause-4-wrong-mcp-endpoint-url-manual-connector-route-only">Cause 4: Wrong MCP endpoint URL (manual connector route only)<a class="headerlink" href="#cause-4-wrong-mcp-endpoint-url-manual-connector-route-only" title="Anchor link to this section">&para;</a></h2>
+<p>If you added CorpusIQ yourself under <strong>Settings → Connectors → Add MCP
+server</strong>, the URL and personal token must match exactly what your CorpusIQ
+account shows.</p>
+<p><strong>How to check:</strong> Compare the URL to the one in your CorpusIQ
+<strong>Settings → Integrations → ChatGPT MCP</strong>. Character for character. Trailing
+slashes matter. <code>http</code> vs <code>https</code> matters. A stale personal token fails the
+same way.</p>
+<h2 id="cause-5-no-data-source-is-connected-on-the-corpusiq-side">Cause 5: No data source is connected on the CorpusIQ side<a class="headerlink" href="#cause-5-no-data-source-is-connected-on-the-corpusiq-side" title="Anchor link to this section">&para;</a></h2>
+<p>Tools can be reachable while every source is still unauthenticated. CorpusIQ
+returns real connector status, so this is visible rather than silent.</p>
+<p><strong>How to check:</strong> Ask "list my CorpusIQ connectors and their status." Most
+will read "Not connected" until you authenticate each one. Connect the source
+you care about, then ask again. See
+<a href="/docs/quickstart/03-connect-chatgpt">/docs/quickstart/03-connect-chatgpt</a> for
+the setup path.</p>
+<h2 id="cause-6-a-legacy-custom-gpt-that-no-longer-runs">Cause 6: A legacy Custom GPT that no longer runs<a class="headerlink" href="#cause-6-a-legacy-custom-gpt-that-no-longer-runs" title="Anchor link to this section">&para;</a></h2>
+<p>OpenAI retires custom GPTs on <strong>December 11, 2026</strong> (February 11, 2027 only for
+FedRAMP and Enterprise workspaces with an approved deferral), and custom GPT
+actions do not transfer. A GPT you built around CorpusIQ actions stops
+working.</p>
+<p><strong>Fix:</strong> Use the CorpusIQ listing in the ChatGPT app store instead. It needs no
+GPT of your own. See
+<a href="/docs/quickstart/03-connect-chatgpt">/docs/quickstart/03-connect-chatgpt</a>.</p>
 <h2 id="still-stuck">Still stuck<a class="headerlink" href="#still-stuck" title="Anchor link to this section">&para;</a></h2>
 <p>Send support:
-- The custom GPT name and a screenshot of its Actions configuration
-  (redact tokens).
+- Screenshot of the connector or app configuration in ChatGPT (redact tokens).
 - The exact message that failed and the response you got.
-- Your CorpusIQ account email.</p>
+- Your CorpusIQ account email and the connected source you were querying.</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 

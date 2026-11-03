@@ -111,8 +111,8 @@
     "description": "For developers: how CorpusIQ exposes 40+ business connectors through Model Context Protocol, how tools are named and scoped, and how the architecture keeps",
     "url": "https://www.corpusiq.io/docs/how-it-works/mcp-architecture",
     
-    "datePublished": "2026-10-24",
-    "dateModified": "2026-10-24",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-10-24">
+  <meta name="last-updated" content="2026-11-02">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -1191,10 +1191,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#connecting-chatgpt-via-actions-or-custom-gpt" class="md-nav__link">
+  <a href="#connecting-chatgpt" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Connecting ChatGPT (via Actions or custom GPT)
+        Connecting ChatGPT
       
     </span>
   </a>
@@ -3511,6 +3511,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -4125,6 +4129,34 @@
   
   
     <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-callrail-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect CallRail to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="https://www.corpusiq.io/docs/connect-amazon-seller-to-chatgpt" class="md-nav__link">
         
   
@@ -4161,6 +4193,34 @@
     
   
     Connect Google Search Console to ChatGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Connect Bing Webmaster Tools to ChatGPT
   
 
     
@@ -11643,10 +11703,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#connecting-chatgpt-via-actions-or-custom-gpt" class="md-nav__link">
+  <a href="#connecting-chatgpt" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Connecting ChatGPT (via Actions or custom GPT)
+        Connecting ChatGPT
       
     </span>
   </a>
@@ -11865,14 +11925,23 @@ CorpusIQ tools will appear in Claude's tool list automatically.</p>
 - macOS: <code>~/Library/Application Support/Claude/claude_desktop_config.json</code>
 - Windows: <code>%APPDATA%\Claude\claude_desktop_config.json</code></p>
 <hr />
-<h2 id="connecting-chatgpt-via-actions-or-custom-gpt">Connecting ChatGPT (via Actions or custom GPT)<a class="headerlink" href="#connecting-chatgpt-via-actions-or-custom-gpt" title="Anchor link to this section">&para;</a></h2>
-<p>ChatGPT supports MCP-style integrations through Custom GPT Actions.</p>
+<h2 id="connecting-chatgpt">Connecting ChatGPT<a class="headerlink" href="#connecting-chatgpt" title="Anchor link to this section">&para;</a></h2>
+<p>Two paths are supported. Custom GPT Actions are not one of them: OpenAI retires
+custom GPTs on December 11, 2026 (February 11, 2027 only for FedRAMP and
+Enterprise workspaces with an approved deferral), and custom actions do not
+transfer.</p>
+<p><strong>The CorpusIQ app in ChatGPT (fastest).</strong> Install
+<a href="https://chatgpt.com/plugins/plugin_asdk_app_6a9f5d19efbc8191b9d5a5fd4be12426">CorpusIQ from the ChatGPT app store</a>
+and authorize it on first use. The app carries the tool list, so there is no
+schema to import and no action to maintain.</p>
+<p><strong>The MCP connector (direct).</strong></p>
 <ol>
-<li>In the GPT editor, go to <strong>Configure &gt; Actions &gt; Add action</strong>.</li>
-<li>Import the CorpusIQ OpenAPI schema (available at
-   <code>https://mcp2.corpusiq.io/openapi.json</code>).</li>
-<li>Set authentication to <strong>Bearer token</strong> and paste your CorpusIQ JWT.</li>
-<li>Save and test with a prompt like "list my Shopify orders from last week."</li>
+<li>In CorpusIQ, open <strong>Settings &gt; Integrations &gt; ChatGPT MCP</strong>. Copy the <strong>MCP
+   server URL</strong> and <strong>personal token</strong>.</li>
+<li>In ChatGPT, open <strong>Settings &gt; Connectors &gt; Add MCP server</strong>.</li>
+<li>Paste the URL and token. Save.</li>
+<li>In a new chat, click the tools icon and confirm CorpusIQ is listed, then ask
+   "list my Shopify orders from last week."</li>
 </ol>
 <hr />
 <h2 id="connecting-any-mcp-client">Connecting any MCP client<a class="headerlink" href="#connecting-any-mcp-client" title="Anchor link to this section">&para;</a></h2>
