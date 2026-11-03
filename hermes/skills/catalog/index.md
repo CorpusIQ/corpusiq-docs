@@ -1037,3 +1037,17 @@ Ten publisher clusters documented from the queue the previous fire left behind, 
 - [Astronomer Agents - Airflow Data Engineering Setup](/hermes/skills/catalog/astronomer-agents-setup)
 - [Deep Agents - Batteries-Included Agent Harness Setup](/hermes/skills/catalog/deepagents-setup)
 - [Pydantic Skills - Logfire and Pydantic AI Suite Setup](/hermes/skills/catalog/pydantic-skills-setup)
+
+### New - November 2, 2026 Evening Sweep (11 publisher guides)
+
+- [Reverse Engineering Skills - Frida and IDA Setup](/hermes/skills/catalog/p4nda0s-reverse-skills-setup)
+- [YouTube Skills - Transcript API Suite for Agents](/hermes/skills/catalog/youtube-skills-setup)
+- [Lynx Agent Skills - DevTool and ReactLynx Setup](/hermes/skills/catalog/lynx-community-skills-setup)
+- [Supabase Server Skill - Edge Function Auth Setup](/hermes/skills/catalog/supabase-server-skills-setup)
+- [TikTok Video Skills - Short-Form Video Suite Setup](/hermes/skills/catalog/tiktok-video-skills-setup)
+- [Infisical AI Skills - Secrets Management Setup](/hermes/skills/catalog/infisical-ai-skills-setup)
+- [Stageshow - Faux Product UI Skill Setup](/hermes/skills/catalog/benjitaylor-skills-setup)
+- [Semgrep Skills - Secure Code and Static Analysis](/hermes/skills/catalog/semgrep-skills-setup)
+- [NotebookLM nblm Skill - Source-Grounded Answers](/hermes/skills/catalog/magicseek-nblm-setup)
+- [Cline SDK Skill - Build AI Agents on @cline/sdk](/hermes/skills/catalog/cline-sdk-skill-setup)
+- [Next.js Cache Architecture - Setup Guide](/hermes/skills/catalog/nextjs-cache-architecture-setup)
