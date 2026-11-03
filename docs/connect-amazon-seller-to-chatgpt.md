@@ -99,6 +99,7 @@ You need Seller Central access with permission to authorize an integration, and 
 
 ## Internal Links
 
+- [Connect Amazon Seller to Claude](connect-amazon-seller-to-claude.md)
 - [Browse all CorpusIQ connectors](connectors.md)
 - [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)

@@ -191,6 +191,10 @@ nav:
   - Connect Outlook to Claude: connect-outlook-to-claude.md
   - Connect PostgreSQL to Claude: connect-postgresql-to-claude.md
   - Connect PostHog to Claude: connect-posthog-to-claude.md
+  - Connect Jira to Claude: connect-jira-to-claude.md
+  - Connect YouTube to Claude: connect-youtube-to-claude.md
+  - Connect Bing Webmaster Tools to Claude: connect-bing-webmaster-tools-to-claude.md
+  - Connect Amazon Seller to Claude: connect-amazon-seller-to-claude.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md

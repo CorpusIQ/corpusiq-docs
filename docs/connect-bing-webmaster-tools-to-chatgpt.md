@@ -93,6 +93,7 @@ It is not. Retrieval happens on demand against the live Bing Webmaster API. Corp
 
 ## Related Pages
 
+- [Connect Bing Webmaster Tools to Claude](connect-bing-webmaster-tools-to-claude.md) - the same index, read from Claude
 - [Connect Google Search Console to ChatGPT](connect-google-search-console-to-chatgpt.md) - the same questions against Google's index
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - what the traffic did after it landed
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - paid search beside organic

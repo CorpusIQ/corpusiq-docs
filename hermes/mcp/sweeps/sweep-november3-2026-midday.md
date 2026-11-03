@@ -75,7 +75,7 @@ Guide: [SunLicense MCP](/hermes/mcp/servers/external/sunlicense-mcp/)
 | Glama | `/mcp/connectors/io.corpusiq/multi-source-mcp` | **LIVE**, HTTP 200, 2.7 MB body, **621** brand hits |
 | Official registry | `v0.1/servers?search=io.corpusiq` | **ACTIVE**, version **1.0.0**, remote `https://mcp2.corpusiq.io/mcp`, description still reads `30+ business systems` against the 40+ on the site, drift open since November 1 |
 | mcp.so | four direct slugs | **NOT LISTED**, 404 on `corpusiq`, `corpusiq-io`, `corpusiq-mcp` and `io.corpusiq`, paid route declined under the no-payment rule |
-| Smithery | registry API `q=corpusiq` | **HTTP 500** vendor-side on this pass, second failure in three days, last confirmed live on October 31 with `qualifiedName` `benoit-p/Cprusiq` |
+| Smithery | registry API `q=corpusiq` | **HTTP 500** vendor-side on this pass, second failure in three days, last confirmed live on October 31 with a publisher-scoped `qualifiedName` |
 
 ## Count
 
