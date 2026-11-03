@@ -1,7 +1,7 @@
 ---
 title: Agent Plugins 1.0 - The Portable Skill Standard
 description: "Setup and usage guide for Agent Plugins 1.0 - The Portable Skill Standard. Part of the Hermes resource directory."
-last_updated: 2026-10-24
+last_updated: 2026-11-02
 canonical: "https://www.corpusiq.io/docs/hermes/guides/agent-plugins-corpusiq-opportunity/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Agent Plugins 1.0 - The Portable Skill Standard
 
-On August 6, 2026, OpenAI, Vercel, AWS, Microsoft, Google, and Cursor published Agent Plugins 1.0: an open, vendor-neutral standard for packaging AI agent skills and MCP servers into portable plugins. Build once. Deploy everywhere.
+On August 6, 2026, a technical steering committee of Core Maintainers from AWS, Anysphere (Cursor), Microsoft, OpenAI, and Vercel published Agent Plugins 1.0.0: an open, vendor-neutral standard for packaging Agent Skills and MCP servers into portable plugins. Vercel initiated the proposal; Anysphere and GitHub refined it. Build once. Deploy everywhere. The normative specification is at [agent-plugins.org/specification](https://agent-plugins.org/specification).
 
 ## What It Is
 
@@ -28,11 +28,11 @@ my-plugin/
 └── com.example.client/  # optional client-specific extensions
 ```
 
-That's it. Three core files. One portable package.
+That's it. One required manifest, two optional components. `plugin.json` must be present; `skills/` and `mcp.json` are optional, and a plugin that ships only one of them still loads.
 
 ## Who Is Behind It
 
-The technical committee includes Amazon, Cursor, Microsoft, OpenAI, and Vercel. Google joined as a core maintainer. GitHub and Anysphere (Cursor) contributed to the specification. Six of the largest names in AI agreed on a shared format.
+Core Maintainers on the technical steering committee come from AWS, Cursor (Anysphere), Microsoft, OpenAI, and Vercel. Vercel initiated the proposal, and Anysphere and GitHub refined it collaboratively. Six of the largest names in AI agreed on a shared format, and the project is governed independently of any single vendor.
 
 ## Why This Matters for CorpusIQ
 
@@ -44,9 +44,9 @@ The distribution model flips: instead of users coming to CorpusIQ and connecting
 
 ## The SkillForge Ecosystem
 
-SkillForge (105 stars, launched August 4, 2026) is already building the "npm for skills" - an MCP-native skill registry that follows the Agent Plugins specification. Skills published to SkillForge are discoverable and installable by any compatible agent.
+SkillForge ([tripleyak/SkillForge](https://github.com/tripleyak/SkillForge), 915 stars as of November 2, 2026) is building evidence-driven skill packaging: baseline-tested generation, per-skill regression evals, and cross-runtime compile for Claude Code and Codex. Skills shipped through it are portable across compatible agents.
 
-CorpusIQ should be an early publisher on SkillForge. Every growth skill we have - Reddit commenting, Shopify outreach, email automation, competitive research - becomes a discoverable, installable plugin.
+CorpusIQ should publish there. Every growth skill we have - Reddit commenting, Shopify outreach, email automation, competitive research - becomes a discoverable, installable plugin.
 
 ## The Immediate Opportunity
 

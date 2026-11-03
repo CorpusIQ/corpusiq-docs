@@ -3,7 +3,7 @@ title: "Hermes Browser Extension for Chrome - Setup Guide"
 description: "Install the Hermes Chrome extension and use its side panel in Chrome, Edge, or Chromium to give your agent the page you are looking at as context."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-browser-extension-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-02"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

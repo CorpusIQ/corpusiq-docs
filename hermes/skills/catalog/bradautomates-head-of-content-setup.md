@@ -3,7 +3,7 @@ title: "Bradautomates Head of Content: Skill Setup"
 description: "Bradautomates Head of Content skills for Hermes: Instagram, TikTok, and video research, viral outlier detection, and trend extraction. Setup steps."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bradautomates-head-of-content-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-02"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
