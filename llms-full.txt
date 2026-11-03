@@ -24498,7 +24498,7 @@ Microsoft 365 (OneDrive, Outlook), Dropbox, Slack.
 Databases: PostgreSQL, MSSQL, MongoDB, Cosmos DB.
 
 The full per-connector setup guides are in
-[the connector directory](../docs/connectors.md).
+[the connector directory](/docs/connectors).
 
 ## When a connector isn't enough
 
@@ -29953,7 +29953,7 @@ If none of the above worked, collect:
 - The vendor account email you used.
 
 Email support. There's a per-connector page in
-[the connector directory](../docs/connectors.md) with vendor-specific quirks worth
+[the connector directory](/docs/connectors) with vendor-specific quirks worth
 checking too.
 ---
 
@@ -31783,7 +31783,7 @@ authenticated. Recommended starter set by business type:
 | Agency | QuickBooks, HubSpot, Google Workspace, Slack, Monday |
 | Marketplace seller | Shopify or eBay or Amazon Seller or GunBroker, QuickBooks, Google Workspace |
 
-Each connector has its own page under [the connector directory](../docs/connectors.md) with
+Each connector has its own page under [the connector directory](/docs/connectors) with
 specific click-paths.
 
 ## Next
