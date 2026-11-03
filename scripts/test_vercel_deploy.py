@@ -38,14 +38,15 @@ class VercelDeployTests(unittest.TestCase):
             )
             for name in ("vercel.json", "llms.txt", "llms-full.txt"):
                 shutil.copyfile(ROOT / name, root / name)
-            # The no-slash gate step invokes scripts/normalize_site_no_slash.py
-            # from the repo root; give the harness its own copy so the
-            # packaging steps run exactly as the workflow defines them.
+            # The no-slash gate and the asset stabilizer both run from the repo
+            # root; give the harness its own copies so the packaging steps run
+            # exactly as the workflow defines them.
             (root / "scripts").mkdir()
-            shutil.copyfile(
-                ROOT / "scripts" / "normalize_site_no_slash.py",
-                root / "scripts" / "normalize_site_no_slash.py",
-            )
+            for script in ("normalize_site_no_slash.py", "stabilize_hashed_assets.py"):
+                shutil.copyfile(
+                    ROOT / "scripts" / script,
+                    root / "scripts" / script,
+                )
             for step in steps[build + 1:deploy]:
                 subprocess.run(
                     ["bash", "-e", "-c", step["run"]], cwd=root, check=True
