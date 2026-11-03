@@ -31,6 +31,7 @@ hooks:
 - hooks/publish_llm_feeds.py
 - scripts/hooks/auto_link_children.py
 - scripts/hooks/truncate_meta_description.py
+- scripts/hooks/page_schema.py
 - scripts/hooks/corpusiq_credit.py
 markdown_extensions:
 - admonition

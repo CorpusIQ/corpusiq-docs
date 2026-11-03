@@ -162,6 +162,20 @@ def main():
         print('ERROR: site/ is missing. Build first (mkdocs build), then deploy.')
         sys.exit(1)
     shutil.copy(os.path.join(REPO, 'vercel.json'), os.path.join(REPO, 'site', 'vercel.json'))
+    print('Rewriting sitemap lastmod from each page\'s own date...')
+    step = subprocess.run([sys.executable, os.path.join(REPO, 'scripts', 'rewrite_sitemap_lastmod.py'), '--write'],
+                          capture_output=True, text=True)
+    print((step.stdout or '').strip())
+    if step.returncode != 0:
+        print((step.stderr or '').strip())
+        sys.exit(step.returncode)
+    print('Checking per-page Article schema and sitemap dates...')
+    gate = subprocess.run([sys.executable, os.path.join(REPO, 'scripts', 'check_page_schema.py')],
+                          capture_output=True, text=True)
+    print((gate.stdout or '').strip())
+    if gate.returncode != 0:
+        print((gate.stderr or '').strip())
+        sys.exit(gate.returncode)
     print('Normalizing site/ to no-slash convention...')
     normalize_no_slash()
     if not verify_no_slash():
