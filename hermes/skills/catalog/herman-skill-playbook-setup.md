@@ -6,12 +6,11 @@ author: darraappen2 (Herman)
 stars: 0
 license: Not specified
 created: June 19, 2026
-last_updated: June 22, 2026
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/herman-skill-playbook-setup/"
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
-last_updated: "2026-11-01"
 ---
 
 # Herman's Skill Playbook - Setup Guide

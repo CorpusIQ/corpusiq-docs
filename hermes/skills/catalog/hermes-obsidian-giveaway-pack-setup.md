@@ -6,12 +6,11 @@ author: david-internal
 stars: 36 total across repos
 license: Not specified
 created: June 22, 2026
-last_updated: June 22, 2026
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-obsidian-giveaway-pack-setup/"
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
-last_updated: "2026-11-01"
 ---
 
 # Hermes Obsidian Integration: Self-Organizing Vault Setup
