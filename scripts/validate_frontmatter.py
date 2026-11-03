@@ -185,12 +185,31 @@ def main() -> int:
     for f, issues in sorted(broken.items()):
         for issue in issues:
             print(f"  {f}\n      {issue}", file=sys.stderr)
-    print(
-        "\nFix: wrap any title/description/name value containing ': ' or ' #' "
-        "in double quotes.\n"
-        "Run `python scripts/validate_frontmatter.py` locally to re-check.",
-        file=sys.stderr,
-    )
+    flat = [issue for issues in broken.values() for issue in issues]
+    hints: list[str] = []
+    if any("duplicate frontmatter key" in i for i in flat):
+        hints.append(
+            "delete the duplicate key and keep ONE truthful value. YAML would "
+            "silently keep only the last one, so the page ends up making two "
+            "contradicting claims about itself (the 2026-11-03 case: "
+            "`last_updated: June 22, 2026` followed by `last_updated: \"2026-11-01\"`)."
+        )
+    if any("silently truncated" in i for i in flat):
+        hints.append(
+            "wrap any title/description/name value containing ': ' or ' #' "
+            "in double quotes."
+        )
+    if any(i.startswith("invalid YAML") or i.startswith("frontmatter opener") for i in flat):
+        hints.append(
+            "fix the YAML itself: quote a value that contains ': ', and make sure "
+            "the block opens and closes with '---'."
+        )
+    if not hints:
+        hints.append("see the messages above.")
+    print("\nFix:", file=sys.stderr)
+    for hint in hints:
+        print(f"  - {hint}", file=sys.stderr)
+    print("Run `python scripts/validate_frontmatter.py` locally to re-check.", file=sys.stderr)
     return 1
 
 
