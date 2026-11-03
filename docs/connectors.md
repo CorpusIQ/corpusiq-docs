@@ -9,6 +9,8 @@ robots: "index,follow"
 ---
 # CorpusIQ Connectors - 40+ Business Tools, One MCP Endpoint
 
+**Read-only by design.** CorpusIQ connects to your business tools through read-only MCP connectors. Each connection is a one-time OAuth authorization: you click Connect, approve the permission screen, and your AI tools can query live data immediately. CorpusIQ is not an AI agent. It cannot write, modify, or execute anything in your connected systems, and it does not retain raw customer files or full connector response payloads. Data passes through on demand and returns to your AI client as read-only information. No one at CorpusIQ can access your accounts. See the full guarantee: [Security and Read-Only Access](/hermes/security/read-only-and-security).
+
 ## What are CorpusIQ connectors?
 
 CorpusIQ connectors are the integration layer between business data and AI assistants. Each connector maps to a SaaS application or database - QuickBooks, Shopify, Stripe, HubSpot, GA4, Salesforce, Slack, Gmail and 40+ others - and exposes its data through one MCP endpoint that ChatGPT, Claude and Perplexity can query in plain English. Every published operation declares whether it is read-only or write-capable, and each connection uses the provider's own OAuth authorization with the scopes shown on screen. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs keep query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days.

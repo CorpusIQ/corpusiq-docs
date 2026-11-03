@@ -92,6 +92,20 @@ Use the issue tracker.
 - Use real field names, real connector names, real queries.
 - No marketing language in technical docs.
 
+## One source file per URL
+
+MkDocs does not fail when `page.md` and `page/index.md` both exist. It builds one
+and drops the other silently, so an edit to the shadowed file changes nothing on
+the site. Before 2026-11-03 thirteen pages were in that state.
+
+Pick one location per page:
+
+- a flat file (`hermes/ecosystem.md`) when the page has no children, or
+- a folder with `index.md` (`hermes/ecosystem/index.md`) when it does.
+
+Never both. `python3 scripts/check_source_url_collisions.py` reports the current
+state, and `hooks/duplicate_source_pair_gate.py` fails the build on a new pair.
+
 ---
 
 ## Questions

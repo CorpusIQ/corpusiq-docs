@@ -14,6 +14,14 @@ parse its rel=canonical, and drop the entry when that canonical is not the same 
 If a page has no canonical tag at all the entry is kept and reported, because
 "missing canonical" is a different fault that must not be silently hidden.
 
+A second pass drops repeated <loc> entries, keeping the first occurrence. The
+canonical rule cannot see those: a page built from two source files that claim the
+same output path (``X.md`` and ``X/index.md``) is emitted twice under one URL and
+each copy canonicalises to itself, so both survive. Until every source pair is
+resolved this pass is what keeps the file a list of unique URLs. It is defence in
+depth, not a substitute: the pair itself still has a dead source file, which the
+build gate ``hooks/duplicate_source_pair_gate.py`` reports.
+
 Usage:
     python scripts/prune_non_canonical_sitemap_entries.py [site_dir] [--check]
 Exit 0 = sitemap written (or clean in --check), 1 = change needed in --check,
@@ -58,13 +66,14 @@ def normalise(url: str) -> str:
     return url.rstrip("/")
 
 
-def prune(site: Path, *, check: bool) -> tuple[int, list[tuple[str, str]], int]:
+def prune(site: Path, *, check: bool) -> tuple[int, list[tuple[str, str]], int, list[str]]:
     sitemap = site / "sitemap.xml"
     if not sitemap.is_file():
         raise FileNotFoundError(f"no sitemap at {sitemap}")
     text = sitemap.read_text(encoding="utf-8")
 
     dropped: list[tuple[str, str]] = []
+    duplicate_locs: list[str] = []
     missing = 0
 
     def keep(block: str) -> str:
@@ -87,6 +96,23 @@ def prune(site: Path, *, check: bool) -> tuple[int, list[tuple[str, str]], int]:
     # collapse the blank gap a removed block leaves behind
     new_text = re.sub(r"\n{3,}", "\n\n", new_text)
 
+    # Second pass: one entry per URL. Two source files that claim the same output
+    # path are emitted twice, and each copy canonicalises to itself, so the rule
+    # above keeps both. Keep the first, drop the repeat.
+    seen: set[str] = set()
+
+    def dedupe(match: re.Match[str]) -> str:
+        block = match.group(0)
+        loc = normalise(block.split("<loc>", 1)[1].split("</loc>", 1)[0].strip())
+        if loc in seen:
+            duplicate_locs.append(loc)
+            return ""
+        seen.add(loc)
+        return block
+
+    new_text = re.sub(r"\s*<url>.*?</url>", dedupe, new_text, flags=re.S)
+    new_text = re.sub(r"\n{3,}", "\n\n", new_text)
+
     changed = new_text != text
     if changed and not check:
         sitemap.write_text(new_text, encoding="utf-8")
@@ -95,7 +121,7 @@ def prune(site: Path, *, check: bool) -> tuple[int, list[tuple[str, str]], int]:
             with gzip.open(gz, "wt", encoding="utf-8") as fh:
                 fh.write(new_text)
 
-    return len(dropped), dropped, missing
+    return len(dropped), dropped, missing, duplicate_locs
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -106,7 +132,7 @@ def main(argv: list[str] | None = None) -> int:
     site = Path(args.site_dir)
 
     try:
-        count, dropped, missing = prune(site, check=args.check)
+        count, dropped, missing, duplicate_locs = prune(site, check=args.check)
     except Exception as exc:  # noqa: BLE001
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
@@ -115,9 +141,13 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Sitemap entries {verb}: {count}")
     for url, canonical in dropped[:20]:
         print(f"  {url} -> {canonical}")
+    repeat_verb = "to drop" if args.check else "dropped"
+    print(f"Duplicate <loc> entries {repeat_verb}: {len(duplicate_locs)}")
+    for loc in duplicate_locs[:20]:
+        print(f"  {loc}")
     if missing:
         print(f"Kept {missing} entry/entries whose page or canonical could not be read")
-    if args.check and count:
+    if args.check and (count or duplicate_locs):
         return 1
     return 0
 

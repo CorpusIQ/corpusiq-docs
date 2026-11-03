@@ -75,6 +75,55 @@ After export:
 - Verify the skill works in a clean ECC environment
 - Open a PR with the sanitized skill
 
+## Worked Examples
+
+### A launch handoff
+
+**Local Hermes prompt (unsafe to share):**
+
+```text
+Read my local workspace files and finalize launch copy.
+```
+
+**ECC-safe version:**
+
+```text
+Use the public release pack under docs/releases/<version>/.
+Return one X thread, one LinkedIn post, one recording checklist, and the missing assets list.
+```
+
+### A quiet-hours job
+
+**Local Hermes job (unsafe to share):**
+
+```text
+Run my private inbox, finance, and content checks overnight.
+```
+
+**ECC-safe version:**
+
+```text
+Describe the scheduler policy, the quiet-hours window, the escalation rules,
+and the categories of checks. Do not include private data sources or credentials.
+```
+
+## Output Contract
+
+Return after each import:
+
+- Candidate ECC skill name
+- Sanitized workflow summary
+- Required public inputs
+- Private inputs removed
+- Remaining risks
+- Files that should be created or updated
+
+## Notes
+
+- Ideal for teams that want to share Hermes workflows across members without exposing individual workspace state
+- Pairs well with `claude-handoff` for session continuity across sanitized workflows
+- The skill is part of the `everything-claude-code` mono-repo, which holds 40+ Claude Code and Hermes skills
+
 ## Related Skills
 
 - [Claude Handoff Setup](/hermes/skills/catalog/claude-handoff-setup)

@@ -58,8 +58,8 @@ else
 fi
 
 # Check ecosystem stats
-if [ -f "$CORPUSIQ_DIR/hermes/ecosystem.md" ]; then
-    ECOSYSTEM_REPOS=$(grep -c "github.com/" "$CORPUSIQ_DIR/hermes/ecosystem.md" 2>/dev/null || echo "300+")
+if [ -f "$CORPUSIQ_DIR/hermes/ecosystem/index.md" ]; then
+    ECOSYSTEM_REPOS=$(grep -c "github.com/" "$CORPUSIQ_DIR/hermes/ecosystem/index.md" 2>/dev/null || echo "300+")
     echo -e "${GREEN}  ✓ ${ECOSYSTEM_REPOS} ecosystem resources available${NC}"
 fi
 

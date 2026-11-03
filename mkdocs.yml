@@ -27,6 +27,7 @@ hooks:
 - hooks/canonical_no_trailing_slash.py
 - hooks/claim_truth_gate.py
 - hooks/duplicate_entries_gate.py
+- hooks/duplicate_source_pair_gate.py
 - hooks/publish_llm_feeds.py
 - scripts/hooks/auto_link_children.py
 - scripts/hooks/truncate_meta_description.py
@@ -75,7 +76,7 @@ nav:
   - Reading Files & PDFs: how-it-works/reading-files-and-pdfs.md
 - Security:
   - Overview: security/README.md
-  - Compliance: security.md
+  - Compliance: security/compliance.md
 - AI Integration:
   - ChatGPT: chatgpt-integration.md
   - Perplexity: perplexity-integration.md
@@ -387,7 +388,7 @@ nav:
     - MCP Directory Submission Guide: hermes/mcp/directories/submission-guide-2026.md
     - Knowledge: hermes/knowledge/index.md
     - Troubleshooting: hermes/troubleshooting/index.md
-    - Contributors: hermes/contributors.md
+    - Contributors: hermes/contributors/index.md
     - Changelog: hermes/changelog/index.md
 plugins:
 - search
