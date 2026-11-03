@@ -167,6 +167,7 @@ Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.
 
 ## Related Pages
 
+- [Connect Jira to Claude](connect-jira-to-claude.md) - the same sprint and velocity questions, asked from Claude
 - [Connect Asana to ChatGPT](connect-asana-to-chatgpt.md) - project management in ChatGPT
 - [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - work management in ChatGPT
 - [Connect GitHub to ChatGPT](https://www.corpusiq.io/docs) - code repository data (available via CorpusIQ MCP)

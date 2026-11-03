@@ -87,6 +87,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect YouTube to Claude](connect-youtube-to-claude.md) - the same channel questions, asked from Claude
 - [YouTube connector reference](connectors/youtube.md) - what is visible, and the read-only boundary
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the site side of the same funnel
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - put the store next to the channel

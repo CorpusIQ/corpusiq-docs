@@ -6349,6 +6349,7 @@ You need Seller Central access with permission to authorize an integration, and 
 
 ## Internal Links
 
+- [Connect Amazon Seller to Claude](connect-amazon-seller-to-claude.md)
 - [Browse all CorpusIQ connectors](connectors.md)
 - [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)
@@ -6358,6 +6359,162 @@ You need Seller Central access with permission to authorize an integration, and 
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Amazon Seller to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-amazon-seller-to-claude
+
+
+# How to Connect Amazon Seller to Claude with CorpusIQ MCP
+
+Amazon Seller Central holds your marketplace orders, your fulfilment inventory, and the financial events behind your payouts. The reporting is powerful and slow: one report, one date range, one marketplace at a time. By the time the export lands you have forgotten the question.
+
+Connecting Amazon Seller to Claude through CorpusIQ MCP gives you a faster way to ask. Authorize read-only access once, and the next question is answered from live marketplace data with the period and the marketplace named.
+
+### Why Connect Amazon Seller to Claude?
+
+- **Orders without a report.** "How many units did we sell this month, by marketplace?" One question instead of a scheduled export.
+- **Stockouts before they happen.** "Which products are at risk of a stockout based on recent sales velocity?" The answer needs orders and inventory together, which is exactly what one export does not give you.
+- **Settlement clarity.** "What settlement amount is expected from the current payout period?" Financial events are readable instead of buried.
+- **Marketplace comparison.** "Which marketplace is growing fastest, and which is declining?" Multi-marketplace questions become answerable because the account's participations are known.
+- **The cross-source question that matters.** "What is our true margin per unit once Amazon fees, freight, and cost of goods are included?" Amazon data beside accounting and order data.
+- **Read-only by scope.** The connector reads. It never changes a listing, adjusts inventory, or touches a settlement.
+
+### How It Works
+
+1. **Connect Amazon Seller to CorpusIQ** by authorizing read-only access to your Seller Central account.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ retrieves** orders, sales metrics, fulfilment inventory, financial events, and marketplace participations for the window you ask about.
+4. **Claude answers** from that retrieved content, naming the marketplace and the date range.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Amazon Seller**.
+3. Authorize read-only access to your Seller Central account and confirm the marketplaces you want covered.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Sales**
+
+- "How many units did we sell this month, by marketplace?"
+- "Which marketplace is growing fastest, and which is declining?"
+- "What is our average order value on Amazon compared with our own store?" (requires the commerce connector)
+
+**Operations**
+
+- "Which orders from the last 24 hours have not shipped yet?"
+- "Which products are at risk of a stockout based on recent sales velocity?"
+- "Show me the SKUs with the highest unit growth in the last 14 days."
+
+**Money**
+
+- "What settlement amount is expected from the current payout period?"
+- "Reconcile this month's Amazon payouts against what accounting recorded as deposits." (requires the accounting connector)
+- "Which fee events grew faster than sales this month?"
+
+**Marketplace and cross-source**
+
+- "How do our Amazon sales compare with eBay and Shopify for the same period?" (requires the other commerce connectors)
+- "Compare Amazon advertising-attributed sales with what the orders actually show." (requires the ads connector)
+- "Which Amazon customers are also repeat buyers on our own store?" (requires the commerce connector)
+
+### Security
+
+- **Read-only by scope.** The connector reads orders, sales metrics, inventory, financial events, and marketplace participations. It cannot create listings, adjust inventory, issue refunds, or change account settings.
+- **Account-scoped.** Only the marketplaces and data visible to the authorized Seller Central account are reachable.
+- **Revocable at any time.** Removing the application authorization in Seller Central ends the connection.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Amazon, CorpusIQ, and Claude.
+
+### Comparison: Seller Central Reports vs Amazon Through Claude
+
+| Aspect | Seller Central reports | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Pick a report, a range, one marketplace | A question in plain language |
+| Speed | Minutes to hours for large ranges | The answer to the question you asked |
+| Multiple marketplaces | Separate reports | Compared in one answer |
+| Orders plus inventory | Two reports, joined by hand | One question |
+| Settlements | Financial event reports | Readable on request |
+| Write access | Yes, by you | None, read-only |
+
+Reports are the right tool when you need a file for an accountant. Claude is the right tool when you need an answer now.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. Every Amazon Seller tool exposed to Claude is read-only. Listings, inventory, pricing, refunds, and account settings cannot be changed through this connection.
+</details>
+
+<details>
+<summary><strong>Does it work with multiple marketplaces?</strong></summary>
+
+Yes, for the marketplaces the authorized account participates in. The connector reads the participation list first, so a question can be answered per marketplace or compared across them.
+</details>
+
+<details>
+<summary><strong>Which Amazon account should I authorize?</strong></summary>
+
+The Seller Central account that owns the data you want to read. Access follows that account, so a user without permission to a marketplace will not see its data through Claude either.
+</details>
+
+<details>
+<summary><strong>Can I see settlement and fee detail, not just sales totals?</strong></summary>
+
+Yes. Financial events are readable, which is what makes payout reconciliation and fee analysis possible without downloading a settlement report.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Every question is answered against Seller Central at the moment you ask. There is no nightly copy of your marketplace data behind the answers.
+</details>
+
+<details>
+<summary><strong>Does this replace my accounting connection?</strong></summary>
+
+No, it complements it. Amazon data describes the marketplace; accounting describes the books. The most useful questions need both, which is why they can be connected side by side.
+</details>
+
+---
+
+**Next steps:** [Connect Amazon Seller to Claude now](https://www.corpusiq.io/connectors)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -6610,6 +6767,7 @@ It is not. Retrieval happens on demand against the live Bing Webmaster API. Corp
 
 ## Related Pages
 
+- [Connect Bing Webmaster Tools to Claude](connect-bing-webmaster-tools-to-claude.md) - the same index, read from Claude
 - [Connect Google Search Console to ChatGPT](connect-google-search-console-to-chatgpt.md) - the same questions against Google's index
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - what the traffic did after it landed
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - paid search beside organic
@@ -6619,6 +6777,163 @@ It is not. Retrieval happens on demand against the live Bing Webmaster API. Corp
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Bing Webmaster Tools to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-claude
+
+
+# How to Connect Bing Webmaster Tools to Claude with CorpusIQ MCP
+
+Bing Webmaster Tools holds a second set of numbers about the same site, and almost nobody reads it. The console reports impressions and clicks over time, the queries that produced them, which URLs are actually in the index, how the crawler behaved, and how many inbound links each page has. Reading all of that means four screens and a date picker.
+
+Connecting Bing Webmaster Tools to Claude through CorpusIQ MCP turns those screens into questions. You authorize read-only access once, ask in plain language, and the answer arrives with the site, the date range, and the source attached.
+
+### Why Connect Bing Webmaster Tools to Claude?
+
+- **A second index is a second opinion.** A site is rarely visible the same way on Bing and Google. The difference is usually technical, and it is cheaper to find it here than in a ranking report.
+- **Queries with weak positions.** "Which queries bring impressions with an average position worse than ten?" That is your content gap, written by your own audience.
+- **Index and crawl health.** "Is /pricing in the Bing index, and when was it last crawled?" A page that dropped out of the index shows here before it shows anywhere else.
+- **Errors before traffic loss.** "How many pages did Bing crawl last week, and did any return an error?" Crawl errors precede traffic declines.
+- **Inbound links.** "Which pages carry the most inbound links?" Useful for finding the pages worth strengthening.
+- **Read-only by scope.** The connector reads. It never submits a sitemap, changes crawl settings, or edits a verified site.
+
+### How It Works
+
+1. **Connect Bing Webmaster Tools to CorpusIQ** by signing in with the Microsoft account that has the site verified.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ retrieves** the verified site list, the daily impressions and clicks series, query performance, crawl statistics, and inbound link data for the site you choose.
+4. **Claude answers** from that retrieved content, naming the site and the window it used.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Bing Webmaster Tools**.
+3. Sign in with the Microsoft account that owns the verified site and approve read-only access.
+4. From the site list, select the exact verified URL you want to query. The other reads are scoped to that site.
+5. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+6. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+7. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+8. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+9. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Traffic**
+
+- "How many impressions and clicks did the site get from Bing last month?"
+- "Compare Bing clicks this month with the same month last year."
+- "Which day had the biggest drop in impressions in the last 30 days?"
+
+**Queries**
+
+- "Which queries bring impressions with an average position worse than ten?"
+- "Which queries get clicks but rank below the first page?"
+- "List the queries where impressions are rising and clicks are flat."
+
+**Index and crawl**
+
+- "Is /pricing in the Bing index, and when was it last crawled?"
+- "How many pages did Bing crawl last week, and did any return an error?"
+- "Which URLs returned a 404 to the crawler this month?"
+
+**Links and cross-source**
+
+- "Which pages carry the most inbound links?"
+- "Compare Bing clicks and Google clicks for the same month." (requires the Google Search Console connector)
+- "Which pages earn Bing impressions but no sessions in analytics?" (requires the analytics connector)
+
+### Security
+
+- **Read-only by scope.** The connector reads the verified site list, traffic series, query data, crawl statistics, and inbound links. It cannot submit sitemaps, change crawl settings, or modify a verified site.
+- **Scoped to your verified sites.** Only sites verified under the authorized Microsoft account appear, and every read is bounded to the site URL you selected.
+- **Revocable at any time.** Removing access in Bing Webmaster Tools, or disconnecting the Microsoft account, ends the connection.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Bing, CorpusIQ, and Claude.
+
+### Comparison: Bing Webmaster Tools vs Bing Through Claude
+
+| Aspect | Bing Webmaster Tools | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Tabs, date pickers, per-report filters | A question in plain language |
+| Position data | A table per report | Returned inside the answer, per query |
+| Crawl health | A separate report | Asked alongside traffic in one answer |
+| Comparison across engines | Export and join by hand | Bing and Google clicks side by side |
+| Reading a specific page | Search the URL list | Asked directly, with last crawl date |
+| Write access | Yes, by you | None, read-only |
+
+The console is the right tool when you want to browse. Claude is the right tool when you already know the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Which sites can I connect?</strong></summary>
+
+Every site the authorized Microsoft account has verified in Bing Webmaster Tools. A site that is not verified under that account will not appear in the list.
+</details>
+
+<details>
+<summary><strong>What does the traffic data actually contain?</strong></summary>
+
+A daily time series of impressions and clicks for the verified site, plus totals over the requested window. Queries come back separately, with average impression position and average click position per query.
+</details>
+
+<details>
+<summary><strong>Why is average position misleading sometimes?</strong></summary>
+
+Position in Bing is an average across impressions. A single query can look healthy in aggregate and still rank badly on the terms that convert, which is why per-query position is worth reading next to clicks rather than on its own.
+</details>
+
+<details>
+<summary><strong>Can I see crawl problems, not just traffic?</strong></summary>
+
+Yes. The crawl statistics read returns crawled pages, the in-index count, inbound links, crawl errors, and the status codes the crawler received over time.
+</details>
+
+<details>
+<summary><strong>Does this need a Google account?</strong></summary>
+
+No. Bing Webmaster Tools authorizes with a Microsoft account. Nothing about this connection touches Google, which is why it can sit beside a Google Search Console connection without conflict.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Every question is answered against the console at the moment you ask. There is no nightly copy of your Bing data behind the answers.
+</details>
+
+---
+
+**Next steps:** [Connect Bing Webmaster Tools to Claude now](https://www.corpusiq.io/connectors)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect CallRail to ChatGPT with CorpusIQ MCP
@@ -9178,6 +9493,170 @@ JQL and the Jira API are essential for power users and integrations. For day-to-
 Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.
 
 [Content truncated; see the canonical page for the complete text.]
+
+---
+# How to Connect Jira to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-jira-to-claude
+
+
+# How to Connect Jira to Claude with CorpusIQ MCP
+
+Jira answers one question well: what is in this board right now. It answers the harder questions badly. How much did we finish this sprint compared with the last five. Which issue has been sitting in review longer than the rest of the queue. Why the release slipped. Getting those answers means building a filter, choosing fields, and squinting at a chart.
+
+Connecting Jira to Claude through CorpusIQ MCP replaces the filter builder with a question. You ask in plain language, Claude reads your live Jira instance, and the answer comes back with the project, the sprint, and the issues it used named in the reply. No JQL. No export.
+
+### Why Connect Jira to Claude?
+
+Jira is where engineering work is recorded, and it is the system least read by the people who pay for it. Claude gives you a way to read it without learning the query language.
+
+- **Sprint status without a dashboard.** "What is still open in the current sprint, and who owns each item?" One question instead of a board filter.
+- **Velocity over time.** "How many story points did we complete in each of the last five sprints?" Claude reads the closed sprints and returns the numbers side by side.
+- **Aging work.** "Which issues have been in review for more than five days?" The queue is usually the answer to why a date slipped.
+- **Release readiness.** "Which issues targeted at the next release are still unresolved, and what is the highest priority among them?"
+- **Workload distribution.** "Who has the most open issues this sprint?" Useful before a planning meeting, not after.
+- **Cross-source context.** Pair the Jira answer with the pull request, the incident note, or the customer ticket in the same conversation, so the delivery story and the record agree.
+
+### How It Works
+
+1. **Connect Jira to CorpusIQ.** Authorize read-only access to your instance, either through OAuth for Jira Cloud or a personal access token for Jira Data Center.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into Jira searches, handles pagination and field mapping, and retrieves the matching issues, sprints, and projects.
+4. **Claude answers** from that retrieved content, with the issues it used attached to the answer.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Jira**.
+3. Authorize read-only access. On Jira Cloud this is an OAuth consent screen. On Data Center it is a personal access token bound to the account you want read.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Sprint and planning**
+
+- "What is still open in the current sprint?"
+- "How many story points have we completed this sprint, and what is our velocity over the last five sprints?"
+- "Show me unresolved issues in the current sprint sorted by priority."
+- "Which issues moved to done since Monday?"
+
+**Board hygiene**
+
+- "Which issues have been in In Progress for more than five days?"
+- "Show me issues with no assignee in the active sprint."
+- "Which bugs were reopened more than once?"
+
+**Epics and releases**
+
+- "What is the status of the authentication epic?"
+- "Which issues targeted at the next release are still unresolved?"
+- "How many open bugs belong to the current release?"
+
+**People and workload**
+
+- "Who has the most open issues this sprint?"
+- "Show me issue distribution by assignee."
+- "Which issues are blocked, and what are they waiting on?"
+
+**Cross-source**
+
+- "Which open Jira issues correspond to customers who reported a problem this week?" (requires the CRM or email connector)
+- "Show me issues that shipped after the incident was opened." (requires the incident or monitoring source)
+
+### Security
+
+- **Read-only by permission.** The connection requests read access to projects, issues, sprints, and reports. There is no path for Claude to create an issue, transition a status, assign work, or comment.
+- **Enforced in two places.** The Jira permission scope and the MCP tool set both refuse writes, so a write attempt fails rather than silently succeeding.
+- **Revocable at any time.** Removing the CorpusIQ application in Jira, or revoking the personal access token, ends the connection immediately.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Jira, CorpusIQ, and Claude.
+
+### Comparison: JQL and Dashboards vs Jira Through Claude
+
+| Aspect | Jira boards and JQL | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Filters, JQL, saved searches | A question in plain language |
+| Setup per question | Choose project, fields, date range | None |
+| Cross-sprint view | A separate report or dashboard | Asked directly, returned as text |
+| Reading history | You open each issue | Claude reads the issues and summarizes |
+| Mixing sources | Export and join elsewhere | Jira plus CRM, code, or incidents in one answer |
+| Write access | Yes, by you | None, read-only |
+
+Filters are the right tool when you know exactly which issues you want. Claude is the right tool when you know the question and not the query.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Does this work with Jira Data Center, or only Cloud?</strong></summary>
+
+Both. Jira Cloud authorizes through OAuth. Data Center authorizes with a personal access token issued to the account you want read. In both cases the access is read-only.
+</details>
+
+<details>
+<summary><strong>Do I need to know JQL?</strong></summary>
+
+No. Ask in plain language and CorpusIQ builds the underlying search. If you already know JQL, you can paste a query into your question and it is used directly.
+</details>
+
+<details>
+<summary><strong>Can Claude change an issue status or assign work?</strong></summary>
+
+No. Every Jira tool exposed to Claude is read-only. Creating issues, transitioning statuses, assigning, commenting, and editing fields are not available through this connection.
+</details>
+
+<details>
+<summary><strong>Which Jira projects can Claude see?</strong></summary>
+
+Only the projects the authorizing account can already see in Jira. Permissions are inherited from the account, so Claude cannot reach a project that the human who connected it could not open.
+</details>
+
+<details>
+<summary><strong>Are custom fields available?</strong></summary>
+
+Yes. Standard fields come back with each issue, and custom fields can be referenced by name in your question. Story point fields, team fields, and internal priority fields all work.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Every question is answered against the instance at the moment you ask. There is no nightly copy of your Jira project behind the answers.
+</details>
+
+---
+
+**Next steps:** [Connect Jira to Claude now](https://www.corpusiq.io/connectors)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Klaviyo to ChatGPT with CorpusIQ MCP
@@ -13177,6 +13656,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect YouTube to Claude](connect-youtube-to-claude.md) - the same channel questions, asked from Claude
 - [YouTube connector reference](connectors/youtube.md) - what is visible, and the read-only boundary
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the site side of the same funnel
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - put the store next to the channel
@@ -13187,6 +13667,164 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect YouTube to Claude with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-youtube-to-claude
+
+
+# How to Connect YouTube to Claude with CorpusIQ MCP
+
+YouTube Studio answers channel questions one tab at a time. Watch time lives in one view, traffic sources in another, the comment thread in a third, and the transcript in a fourth. None of them tell you whether the video that earned eight thousand views moved the store.
+
+Connecting YouTube to Claude through CorpusIQ MCP puts channel analytics in the same conversation as your site, your ads, and your order data. You ask a question, Claude reads the channel, and the answer comes back with the video and the period it used named in the reply. Read-only.
+
+### Why Connect YouTube to Claude?
+
+- **Top performers by the metric that matters.** "What are my top videos this quarter by watch time?" is a different list from the one sorted by views.
+- **Traffic sources.** "Where are most of my viewers coming from this month, and did that change after the last upload?"
+- **Comments as research.** "What are people asking in the comments on the launch video?" Comments are the cheapest customer interview you have.
+- **Transcripts on demand.** "Summarize the transcript of my latest upload." Useful for repurposing, for SEO, and for checking what was actually promised.
+- **The commercial question.** "Which upload drove the most referred traffic to the store last month?" That one needs YouTube beside analytics and orders.
+- **Read-only by scope.** The connector reads. It never uploads, edits, deletes, or replies.
+
+### How It Works
+
+1. **Connect YouTube to CorpusIQ** through Google. Personal channels and Brand Account channels both work, and when several are available you choose which one to read.
+2. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your CorpusIQ account settings.
+3. **CorpusIQ retrieves** channel totals, videos, per-video analytics, geography, comments, and transcripts for the channel you selected.
+4. **Claude answers** from that retrieved content, with the video and the date range named.
+
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **YouTube**. If you already connected Google Workspace, YouTube may already be authorized under that connection.
+3. Sign in with the Google account that owns or manages the channel and approve the read-only scopes.
+4. If several channels are available, pick the one you want to read.
+5. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+6. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+7. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://www.corpusiq.io/mcp/direct-connection"
+      ]
+    }
+  }
+}
+```
+
+8. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+9. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Channel performance**
+
+- "What are my top videos this quarter by watch time?"
+- "Which uploads earned the most watch time per view?"
+- "Compare this month's channel totals with last month."
+
+**Audience**
+
+- "Where are most of my viewers coming from?"
+- "Which countries grew the most in the last 90 days?"
+- "Is my audience watching on mobile or desktop?"
+
+**Content research**
+
+- "Summarize the transcript of my latest upload."
+- "List every tool or product mentioned in that video."
+- "What are people asking in the comments on the launch video?"
+- "Which comments mention a competitor?"
+
+**Cross-source**
+
+- "Which upload drove the most referred traffic to the store last month?" (requires the analytics or commerce connector)
+- "Did the video that launched the same week as the ad campaign earn more watch time than the ones before it?" (requires the ads connector)
+- "Show me store orders from customers who arrived from YouTube." (requires the commerce connector)
+
+### Security
+
+- **Read-only by scope.** The connector reads channel totals, videos, per-video analytics, geography, transcripts, comments on public videos, and search results. It cannot upload, edit, or delete a video, reply to a comment, or change a channel setting.
+- **Google-enforced consent.** Google shows exactly which scopes are granted, and they are read scopes, not a bundle of write permissions.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between YouTube, CorpusIQ, and Claude.
+
+### Comparison: YouTube Studio vs YouTube Through Claude
+
+| Aspect | YouTube Studio | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | Tabs, filters, date pickers | A question in plain language |
+| Output | Charts and tables | A synthesized answer with the video named |
+| Comments | You scroll the thread | Summarized into what viewers are asking |
+| Transcripts | Copy from the caption view | Returned on request |
+| Mixing sources | Export and join elsewhere | Channel plus site, ads, and orders in one answer |
+| Write access | Yes, by you | None, read-only |
+
+Studio is the right tool when you want to look at one video. Claude is the right tool when you want to know what the channel is doing.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Does it work with a Brand Account channel?</strong></summary>
+
+Yes. Personal channels and Brand Account channels both work. When several channels are available under one Google account, the connection asks which channel to read and you pick the one that matters.
+</details>
+
+<details>
+<summary><strong>Do I need a separate connection for YouTube?</strong></summary>
+
+Not always. If you already connected Google Workspace, YouTube may already be authorized under the same Google connection. Otherwise YouTube connects on its own with the same Google sign-in.
+</details>
+
+<details>
+<summary><strong>Can Claude post a video or reply to comments?</strong></summary>
+
+No. Every YouTube tool exposed to Claude is read-only. Publishing, editing metadata, deleting, and replying to comments are not available through this connection.
+</details>
+
+<details>
+<summary><strong>Which comments can it read?</strong></summary>
+
+Comments on public videos for the connected channel. Private messages and comments on videos the connection cannot see are not accessible.
+</details>
+
+<details>
+<summary><strong>Are transcripts available for every video?</strong></summary>
+
+Transcripts are available where YouTube publishes captions or auto-captions for the video. A video with no caption track returns no transcript, and the answer says so rather than guessing at the content.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Every question is answered against the channel at the moment you ask. There is no nightly copy of your analytics behind the answers.
+</details>
+
+---
+
+**Next steps:** [Connect YouTube to Claude now](https://www.corpusiq.io/connectors/youtube)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # CorpusIQ Connectors - 40+ Business Tools, One MCP Endpoint
