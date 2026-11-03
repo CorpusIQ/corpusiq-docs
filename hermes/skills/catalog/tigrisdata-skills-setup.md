@@ -3,7 +3,7 @@ title: "Tigris Data Skills - Object Storage for Agents"
 description: "tigrisdata/skills: 28.1K combined installs. Eighteen skills for Tigris object storage: buckets, objects, snapshots, images, migration and Go tests."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tigrisdata-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "object storage", "tigris", "s3"]
 ---
 

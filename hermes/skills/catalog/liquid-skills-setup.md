@@ -3,7 +3,7 @@ title: "Liquid Skills - Shopify Theme Standards and A11y Setup"
 description: "Benjamin Sehl's Shopify Liquid skills: 9.4K combined installs across 3 skills for Liquid syntax, theme CSS/JS standards, and WCAG 2.2 a11y patterns."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/liquid-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "shopify", "liquid", "accessibility"]
 ---
 

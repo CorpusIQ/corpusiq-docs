@@ -3,7 +3,7 @@ title: "Kami - PDF, PNG and Editable PPTX Layout Skill Setup"
 description: "Kami: 13.4K combined installs. Layout rules and eight document templates that let AI agents export polished PDF, PNG and editable PowerPoint."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/kami-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "document design", "pdf", "pptx", "typesetting"]
 ---
 

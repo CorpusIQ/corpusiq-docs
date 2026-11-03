@@ -9,7 +9,7 @@ language: Python
 platforms: [Linux, macOS, Windows]
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

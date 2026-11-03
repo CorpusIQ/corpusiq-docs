@@ -7,7 +7,7 @@ added: 2026-10-30
 source: "mcp.so detail card filed 2026-10-14 under the slug marketprint-print-on-demand, carrying the config block pointing at https://mcp.marketprint.de/mcp with authType oauth, vendor MarketConsultive GmbH, and the vendor connect guide at help.marketprint.de published 2026-10-08, plus a keyless JSON-RPC probe on that endpoint answering HTTP 401 with a Missing bearer token error naming both the OAuth path and a static mcpacct_ token"
 relevance: ★★★
 tags: [print-on-demand, ecommerce, shopify, etsy, woocommerce, tiktok-shop, fulfillment, oauth, remote-mcp]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 
 # MarketPrint MCP

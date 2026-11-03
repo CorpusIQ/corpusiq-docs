@@ -7,7 +7,7 @@ added: 2026-10-07
 source: "mcp.so /feed (Oct 7, 2026 evening sweep)"
 relevance: ★★★
 tags: [cmms, asset-management, maintenance, work-orders, facilities, public-works]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # AssetLab MCP

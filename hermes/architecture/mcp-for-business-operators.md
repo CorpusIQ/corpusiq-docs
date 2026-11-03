@@ -1,7 +1,7 @@
 ---
 title: "MCP for Business Operators: What It Means and Why It Matters"
 description: "Setup and usage guide for MCP for Business Operators - What It Means and Why It Matters. Part of the Hermes resource directory."
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/mcp-for-business-operators/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

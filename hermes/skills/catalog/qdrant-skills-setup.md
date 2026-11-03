@@ -3,7 +3,7 @@ title: "Qdrant Skills - Vector Search, Retrieval and Memory Setup"
 description: "Qdrant's official agent skills: 14.4K combined installs across 34 listings. Retrieval quality, scaling, monitoring, and hybrid search guidance."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/qdrant-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "qdrant", "vector search", "rag", "embeddings"]
 ---
 

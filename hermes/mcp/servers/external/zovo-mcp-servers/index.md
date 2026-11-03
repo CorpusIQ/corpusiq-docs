@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live discovery document read from mcp.zovo.one/mcp (41 hosted endpoints with 400+ tool names), bare-endpoint initialize returning 200, official MCP registry entries under io.github.theluckystrike, and the repository README at github.com/theluckystrike/mcp-servers"
 relevance: ★★★
 tags: [invoicing, vat, bookkeeping, bank-reconciliation, cash-book, asset-register, dunning, small-business, mit]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Zovo MCP Servers

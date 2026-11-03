@@ -3,7 +3,7 @@ title: "incident.io CLI - Incident and On-Call API Setup"
 description: "incidentio-cli by paymog: 9.3K combined installs. A TypeScript CLI built from incident.io's OpenAPI specs, plus a skill that teaches an agent to drive the API."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/incidentio-cli-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "incident.io", "on-call", "cli automation"]
 ---
 

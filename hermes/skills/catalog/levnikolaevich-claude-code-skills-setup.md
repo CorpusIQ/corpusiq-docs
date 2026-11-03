@@ -3,7 +3,7 @@ title: "Lev Nikolaevich Skills - DevOps and Delivery Setup"
 description: "levnikolaevich/claude-code-skills: 45.3K combined installs across 198 listings. MIT suite of 41 lifecycle skills, from discovery to deployment."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/levnikolaevich-claude-code-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "devops", "code review", "claude code plugins"]
 ---
 

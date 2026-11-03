@@ -7,7 +7,7 @@ added: 2026-09-03
 source: "mcp.so homepage New Arrivals (furrow-forms)"
 relevance: ★★
 tags: [forms, lead-capture, webhooks, payments, no-code]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Furrow Forms MCP - Agent-Operable Form Backend with Lead Capture

@@ -3,7 +3,7 @@ title: "Lavish AXI - Agent Experience Interface Setup"
 description: "kunchenguid/lavish-axi: 23.5K combined installs. Local CLI that opens agent-written HTML artifacts for annotation, Mermaid whiteboards and feedback."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lavish-axi-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "html artifacts", "design review", "cli", "mermaid"]
 ---
 

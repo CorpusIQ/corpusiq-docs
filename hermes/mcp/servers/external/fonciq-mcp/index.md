@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The chatmcp/mcpso submission issue #6509 filed 2026-10-31 at 16:01Z; a keyless initialize and tools list against https://api.fonciq.ca/v1/mcp returning HTTP 200 with serverInfo fonciq 1.0.0 and fourteen tools; one live flood_zones_lookup call at 45.4865, -73.8980 returning a matched source zone with licence and freshness stamps; and an HTTP read on the free API documentation page"
 relevance: ★★
 tags: [quebec, land-registry, flood-zones, cadastre, property-due-diligence, registre-foncier, real-estate, open-data, remote-mcp]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # Fonciq MCP

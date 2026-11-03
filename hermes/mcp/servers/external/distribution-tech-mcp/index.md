@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The chatmcp/mcpso submission issue #6523 filed on 2026-10-31 at 22:46:13Z; a keyless JSON-RPC initialize, tools/list, guest_status, inventory and resolve_audience against https://app.distribution.tech/api/mcp/guest; one failed plan_quote_guest call; and HTTP reads on distribution.tech, distribution.tech/docs, distribution.tech/docs/agents and distribution.tech/pricing"
 relevance: ★★★
 tags: [creator-marketing, x-twitter, distribution, influencer-marketplace, campaigns, launch, spending-mandate, guest-tier, remote-mcp, streamable-http]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # distribution.tech MCP

@@ -3,7 +3,7 @@ title: "Markdown Viewer Skills - Diagrams, Charts and Cards Setup"
 description: "Markdown Viewer skills: 51.0K combined installs for diagrams, architecture, charts and cards written as text in Markdown, rendered live."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/markdown-viewer-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "markdown diagrams", "visualization"]
 ---
 

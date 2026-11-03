@@ -3,7 +3,7 @@ title: "Unlazy - Completion Gates and Depth Tree Setup"
 description: "Unlazy: 9.6K combined installs. A gate ledger and the Depth Tree method that make an agent's completion claim testable by runnable checks."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/unlazy-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "completion discipline", "verification", "task decomposition"]
 ---
 

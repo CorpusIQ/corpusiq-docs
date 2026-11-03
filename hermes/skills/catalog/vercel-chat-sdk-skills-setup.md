@@ -3,7 +3,7 @@ title: "Vercel Chat SDK Skills - Chat Bot Development Setup"
 description: "vercel/chat: 6.1K combined installs. Official Chat SDK skills for building Slack, Teams, Discord and Telegram bots from one TypeScript codebase."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-chat-sdk-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "chat bots", "typescript", "slack", "adapters"]
 ---
 

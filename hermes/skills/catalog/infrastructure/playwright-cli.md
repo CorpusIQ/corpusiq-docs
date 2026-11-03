@@ -8,7 +8,7 @@ category: infrastructure
 setup: npx skills add microsoft/playwright-cli
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/playwright-cli/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Playwright Cli - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

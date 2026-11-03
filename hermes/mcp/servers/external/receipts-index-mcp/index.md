@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live GET on https://api.receiptsindex.com/v1/index at 04:05Z on 2026-10-28 returning row_count 2714, first_date_utc 2026-07-29 and last_date_utc 2026-10-27 with a 100-row page, the repository mrcrtr1979-droid/namebeam-visibility-index pushed 2026-10-28T03:57:58Z, and the chatmcp/mcpso submission #6268 filed 2026-10-28T02:44:26Z naming the free and paid routes"
 relevance: ★★★
 tags: [aeo, ai-visibility, local-business, citations, measurement, x402, read-only, npm, dataset]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Receipts Index MCP

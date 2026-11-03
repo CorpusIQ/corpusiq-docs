@@ -3,7 +3,7 @@ title: "Aaron Marketing Skills - Full Marketing Department Setup"
 description: "Aaron Marketing Skills: 130.5K combined installs across 134 listings. 120 skills for SEO, GEO, social, email, paid ads, influencer and launch."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aaron-marketing-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "marketing", "growth"]
 ---
 

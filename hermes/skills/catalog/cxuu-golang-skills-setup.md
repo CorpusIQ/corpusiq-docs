@@ -3,7 +3,7 @@ title: "CXUU Golang Skills - Go Engineering Suite"
 description: "cxuu/golang-skills: 24.9K combined installs. Twenty Go skills covering review, concurrency, errors, testing and style, each under 225 lines."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cxuu-golang-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "golang", "code review", "go style"]
 ---
 

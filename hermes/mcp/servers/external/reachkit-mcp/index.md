@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probes on reachkit.ai/mcp (initialize 401 unauthorized), RFC 9728 protected-resource and RFC 8414 authorization-server documents read live, official MCP registry entry ai.reachkit/reachkit 1.0.0, and the vendor integration page reachkit.ai/ai-assistants"
 relevance: ★★★
 tags: [cold-email, b2b-leads, prospecting, outreach, sequences, sales, campaigns, oauth]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Reachkit MCP

@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "npm package @ghostpaw/email 0.5.10 read from the npm registry on 29 October 2026 (MIT, repository GhostPawJS/email) and the vendor submission with its five tool names"
 relevance: ★★
 tags: [email, imap, smtp, mailbox, threading, full-text-search, local-mcp, zero-dependency]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # GhostPaw Email MCP

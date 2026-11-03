@@ -3,7 +3,7 @@ title: "Google ADK Docs - Agent Development Kit Setup"
 description: "google/adk-docs: 16.4K combined installs. Agent Development Kit documentation skills for agent design, evaluation, deployment and observability."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-adk-docs-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "google adk", "multi-agent", "documentation", "observability"]
 ---
 

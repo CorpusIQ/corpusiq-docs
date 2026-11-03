@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://mcp.userintuition.ai/mcp returning HTTP 401 with the body invalid_token missing Authorization header, plus submission issue chatmcp/mcpso #6308, the vendor site userintuition.ai and the registry entry ai.userintuition/research"
 relevance: ★★★
 tags: [market-research, user-research, interviews, panel, qual, oauth, streamable-http]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # User Intuition Research MCP

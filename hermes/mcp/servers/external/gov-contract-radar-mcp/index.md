@@ -7,7 +7,7 @@ added: 2026-10-05
 source: mcpservers.org /all (Oct 5, 2026 morning sweep)
 relevance: ★★
 tags: [sales-outreach, government-contracts, sam-gov, prospecting, search, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # GovContract Radar MCP

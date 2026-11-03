@@ -7,7 +7,7 @@ language: N/A (Hosted)
 transport: Streamable HTTP
 auth: OAuth / API Key
 category: Finance & Fintech
-last_updated: 2026-10-24
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fintel-mcp/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

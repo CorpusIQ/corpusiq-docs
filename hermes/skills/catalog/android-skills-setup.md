@@ -3,7 +3,7 @@ title: "Android Skills - Play Policy and App Quality Setup"
 description: "android/skills: 48.5K combined installs. Google's official Android skill suite for Play policy audits, app quality, testing and Compose migration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/android-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "android", "google play", "jetpack compose"]
 ---
 

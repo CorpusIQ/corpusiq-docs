@@ -8,7 +8,7 @@ github: https://github.com/fxmacrodata/fxmacrodata
 date_added: 2026-07-28
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fxmacrodata-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

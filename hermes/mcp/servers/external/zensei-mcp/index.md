@@ -7,7 +7,7 @@ added: 2026-10-04
 source: mcpservers.org
 relevance: ★★★
 tags: [finance, market-data, sector-rotation, equities, macro, risk, remote-mcp, hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Zensei MCP

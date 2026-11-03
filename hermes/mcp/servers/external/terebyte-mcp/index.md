@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "npm package terebyte 0.1.1 (Apache-2.0, bin terebyte) read from the npm registry on 29 October 2026 and the vendor submission with its pairing flow and tool scope"
 relevance: ★★★
 tags: [storage, encryption, files, least-privilege, pairing-code, sealed-link, local-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Terebyte MCP

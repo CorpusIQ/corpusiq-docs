@@ -3,7 +3,7 @@ title: "NestJS Best Practices - 40-Rule Agent Skill Setup Guide"
 description: "NestJS Best Practices: 30.7K combined installs. One agent skill with 40 rules across 10 categories, from modules and DI to security and testing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-nestjs-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "nestjs", "typescript", "backend"]
 ---
 

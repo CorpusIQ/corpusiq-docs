@@ -3,7 +3,7 @@ title: "Composio - SDK Monorepo and Agent Toolkit Setup Guide"
 description: "Composio: 10.5K combined installs. SDK monorepo for 1000+ pre-authenticated app toolkits, with TypeScript and Python SDKs, a CLI, MCP and 20 skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/composiohq-composio-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "composio", "agent sdk", "toolkits", "mcp"]
 ---
 

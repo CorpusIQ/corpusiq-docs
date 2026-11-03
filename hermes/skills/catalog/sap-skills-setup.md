@@ -3,7 +3,7 @@ title: "SAP Skills - BTP, CAP and ABAP Agent Suite"
 description: "secondsky/sap-skills: 31.8K combined installs. Forty-five SAP skills covering BTP, CAP, ABAP, HANA, Fiori, SAPUI5 and AI Core development."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sap-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "sap", "abap", "btp"]
 ---
 

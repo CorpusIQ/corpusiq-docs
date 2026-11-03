@@ -3,7 +3,7 @@ title: "Darwin Skill - Autonomous Skill Optimization Setup"
 description: "Huashu's darwin-skill: 11.1K installs on a single skill that grades and rewrites SKILL.md files with a 9-dimension rubric and a git ratchet."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/darwin-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "optimization", "self-improvement"]
 ---
 

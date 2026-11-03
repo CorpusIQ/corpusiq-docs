@@ -3,7 +3,7 @@ title: "PStack Skills - Engineering Discipline Suite Setup"
 description: "poteto's pstack: 300.3K combined installs. Engineering discipline for coding agents - rigor playbooks, verification, review and parallel subagents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pstack-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering discipline", "code review", "verification"]
 ---
 

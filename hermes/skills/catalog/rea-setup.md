@@ -3,7 +3,7 @@ title: "REA - Reverse Engineer Anything Skill Setup"
 description: "REA: 16.8K combined installs. One MCP server that inspects binaries, Electron apps, .NET assemblies and live sites, with evidence."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rea-setup/"
 robots: "index,follow"
-last_updated: "2026-10-25"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "reverse engineering", "mcp", "binaries"]
 ---
 

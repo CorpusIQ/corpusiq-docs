@@ -8,7 +8,7 @@ category: shopify
 setup: npx skills add shopify/shopify-ai-toolkit@shopify-hydrogen
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/shopify-hydrogen/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Shopify Hydrogen - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

@@ -3,7 +3,7 @@ title: "CC DevOps Skills - Kubernetes and IaC Suite"
 description: "akin-ozer/cc-devops-skills: 22.2K combined installs. Thirty-one DevOps skills pairing generators with validators across Terraform, Kubernetes and CI."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cc-devops-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "devops", "kubernetes", "terraform", "ci pipelines"]
 ---
 

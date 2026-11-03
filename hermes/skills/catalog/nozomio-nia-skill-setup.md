@@ -3,7 +3,7 @@ title: "Nia Skill - Code and Docs Indexing Setup"
 description: "nozomio-labs/nia-skill: 56.2K installs from one listing. Index repos, docs, papers and datasets through one wrapper set of shell scripts."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nozomio-nia-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "code search", "retrieval", "research"]
 ---
 

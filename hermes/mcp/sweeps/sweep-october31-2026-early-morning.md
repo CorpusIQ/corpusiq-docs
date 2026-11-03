@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 31, 2026 (Early)"
 description: "Six hours on: an agency roster for expiring domains and certificates, and a gateway that pins MCP tool definitions so a rewritten description stops there."
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october31-2026-early-morning/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

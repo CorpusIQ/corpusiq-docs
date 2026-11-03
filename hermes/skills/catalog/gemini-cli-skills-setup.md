@@ -3,7 +3,7 @@ title: "Gemini CLI Skills - Repository Workspace Pack"
 description: "google-gemini/gemini-cli: 21.7K combined installs. The repo's own in-tree skills for PR review, docs, changelogs, behavioural evals and CI triage."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gemini-cli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "gemini cli", "code review", "ci"]
 ---
 

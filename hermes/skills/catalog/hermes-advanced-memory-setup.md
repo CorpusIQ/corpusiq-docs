@@ -6,7 +6,7 @@ repo: salt-vrn/hermes-advanced-memory (repo no longer public)
 license: MIT
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-advanced-memory-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

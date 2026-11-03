@@ -7,7 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (medianfi-com-claude-cowork)"
 relevance: ★★★
 tags: [finance, accounting, bookkeeping, financial-reports, pnl, ledger, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Median MCP

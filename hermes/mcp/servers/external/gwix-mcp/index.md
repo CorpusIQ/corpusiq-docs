@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The mcp.so homepage recentServers block on 2026-11-01 at 00:15Z under the slug global-wholesale-intelligence-exchange-gwix, filed 2026-10-31 at 18:49:44Z; JSON-RPC initialize, tools/list, get_data_status and get_pay against https://api.gwix.ai/mcp/sample; keyless 401 probes on https://api.gwix.ai/mcp and /v1/mcp; and HTTP reads on gwix.ai, gwix.ai/mcp and gwix.ai/pricing"
 relevance: ★★★
 tags: [labor-market, compensation-data, salary-benchmarks, hiring-demand, workforce, provenance, official-statistics, credit-pricing, sample-tier, remote-mcp]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # GWIX MCP

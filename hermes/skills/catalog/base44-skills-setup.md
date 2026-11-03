@@ -3,7 +3,7 @@ title: "Base44 Skills - AI App Builder Platform Suite Setup"
 description: "Base44 Skills: 51.0K combined installs. Base44's own MIT suite covers CLI project work, SDK app code, MCP remote dev and production troubleshooting."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/base44-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "base44", "ai app builder", "mcp"]
 ---
 

@@ -3,7 +3,7 @@ title: "Jaganpro SF Skills - Salesforce Agent Suite"
 description: "jaganpro/sf-skills: 43.9K combined installs. Thirty-seven Salesforce skills for Apex, LWC, Flow, SOQL, metadata, deploy and Agentforce work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jaganpro-sf-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "salesforce", "apex", "agentforce"]
 ---
 

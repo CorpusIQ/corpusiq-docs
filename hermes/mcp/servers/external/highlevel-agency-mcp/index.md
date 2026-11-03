@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://ghlagencymcp.com/mcp returning HTTP 200 keyless on initialize with serverInfo highlevel-agency-mcp 1.0.0 and a full tools/list of 13 tools, plus the mcpservers.org listing at mcpservers.org/servers/mooshee/highlevel-agency-mcp whose card advertises 481 tools across 39 families"
 relevance: ★★★
 tags: [gohighlevel, highlevel, agency, sub-accounts, snapshots, funnels, workflows, ivr, governance, mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # HighLevel Agency MCP

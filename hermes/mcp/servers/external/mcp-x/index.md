@@ -7,7 +7,7 @@ added: 2026-09-10
 source: "chatmcp/mcpso issue #4031"
 relevance: ★★★
 tags: [x, twitter, social-media, oauth1, posting, remote-mcp, go]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # mcp-x MCP

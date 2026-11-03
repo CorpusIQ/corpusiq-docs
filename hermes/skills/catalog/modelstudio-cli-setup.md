@@ -3,7 +3,7 @@ title: "Bailian CLI - Alibaba Model Studio Agent Skills Setup"
 description: "modelstudioai/cli: 59.8K combined installs. Alibaba's official bl CLI ships nine Qwen agent skills for media, fine-tuning, sandbox and managed agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/modelstudio-cli-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "alibaba model studio", "qwen", "cli"]
 ---
 

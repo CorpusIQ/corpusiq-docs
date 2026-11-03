@@ -3,7 +3,7 @@ title: "Better Icons - Icon Search Skill Setup"
 description: "better-auth/better-icons: 6.0K combined installs. One skill plus an MCP server for searching 200,000+ icons across 150+ Iconify collections."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/better-auth-better-icons-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "icons", "iconify", "mcp", "ui"]
 ---
 

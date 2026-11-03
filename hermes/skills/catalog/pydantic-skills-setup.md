@@ -3,7 +3,7 @@ title: "Pydantic Skills - Logfire and Pydantic AI Suite Setup"
 description: "Pydantic's official suite: 21.2K combined installs. Logfire instrumentation, telemetry queries, evals, and Pydantic AI agent patterns."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pydantic-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "pydantic", "logfire", "llm observability"]
 ---
 

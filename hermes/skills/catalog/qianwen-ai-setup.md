@@ -3,7 +3,7 @@ title: "QianWen AI Skills - Alibaba Qwen Multimodal Suite Setup"
 description: "QianWen AI Skills: 56.2K combined installs. Eleven skills wrap the Alibaba Qwen API for text, vision, image, video, speech, billing and auth."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/qianwen-ai-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "qwen", "multimodal", "image generation", "text to speech"]
 ---
 

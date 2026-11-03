@@ -7,7 +7,7 @@ added: 2026-09-06
 source: mcpservers.org
 relevance: ★★
 tags: [wordpress, elementor, website-builder, cms, gpl, automation, self-hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Elementor MCP Server - WordPress Website Automation

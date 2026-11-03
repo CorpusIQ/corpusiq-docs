@@ -7,7 +7,7 @@ added: 2026-08-14
 source: mcp.so
 relevance: ★★★
 tags: [finance, trading, stocks, backtesting, quantitative-research, portfolio-management, copy-trading, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # NexusTrade Financial MCP

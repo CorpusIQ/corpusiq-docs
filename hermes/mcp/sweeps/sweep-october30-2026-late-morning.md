@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 30, 2026 (Late Morning)"
 description: "An hour after the midday pass: three entries from the newest pages, two candidates already catalogued, and one jurisdiction the catalogue lacked."
-last_updated: 2026-10-30
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october30-2026-late-morning/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

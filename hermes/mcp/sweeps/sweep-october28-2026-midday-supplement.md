@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 28, 2026 (Supplement)"
 description: "Fifty-five minutes after the midday pass: two finds, one of them the first server here that actually runs an A/B test."
-last_updated: 2026-10-28
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october28-2026-midday-supplement/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

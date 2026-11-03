@@ -3,7 +3,7 @@ title: "ast-grep Skill - Structural Code Search"
 description: "ast-grep/agent-skill: 20.8K combined installs. Two skills for structural code search with AST patterns and a cheap outline map of a codebase."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ast-grep-agent-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "ast-grep", "code search", "static analysis"]
 ---
 

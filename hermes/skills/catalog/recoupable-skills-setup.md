@@ -3,7 +3,7 @@ title: "Recoup Skills - Music Label Agent Suite Setup"
 description: "recoupable/skills: 32.0K combined installs across 141 listings. A record label in a box: roster, catalog, release, research and content skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/recoupable-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "music industry", "catalog", "mcp"]
 ---
 

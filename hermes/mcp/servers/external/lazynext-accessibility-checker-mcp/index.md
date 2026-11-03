@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The chatmcp/mcpso submission issue #6529 filed on 2026-11-01 at 03:22:32Z; a keyless JSON-RPC initialize, tools/list, list_rules and two scan_url calls against https://checker.lazynext.com/mcp; and the vendor site at https://checker.lazynext.com read for pricing and plan gates"
 relevance: ★★★
 tags: [accessibility, wcag, a11y, section-508, compliance, web-audit, rendered-scan, remote-mcp, streamable-http, free-tier]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # Lazynext Accessibility Checker MCP

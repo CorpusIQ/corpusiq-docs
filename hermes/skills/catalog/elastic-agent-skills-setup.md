@@ -3,7 +3,7 @@ title: "Elastic Agent Skills - Elasticsearch and Kibana Suite"
 description: "elastic/agent-skills: 128.9K combined installs. Official Elastic skills for Elasticsearch, Kibana, Observability, Security and Cloud operations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/elastic-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "elasticsearch", "kibana", "observability", "elastic security"]
 ---
 

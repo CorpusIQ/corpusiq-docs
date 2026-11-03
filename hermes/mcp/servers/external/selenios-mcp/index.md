@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "mcp.so GitHub issue #6408"
 relevance: ★★★
 tags: [recruiting, ats, hr, hiring, candidates, interview-transcripts, oauth, remote-mcp, latam]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Selenios MCP

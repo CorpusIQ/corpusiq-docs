@@ -3,7 +3,7 @@ title: "Groundcover CLI - Observability API Setup Guide"
 description: "paymog/groundcover-cli: 9.6K combined installs. A Go CLI plus agent skill for Groundcover logs, traces, metrics and k8s queries."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/groundcover-cli-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "observability", "kubernetes", "cli tooling"]
 ---
 

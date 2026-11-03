@@ -3,7 +3,7 @@ title: "Neo4j Skills - Graph Database Agent Suite"
 description: "neo4j-contrib/neo4j-skills: 24.1K combined installs. Thirty Neo4j skills for Cypher, modelling, drivers, imports, GraphRAG, GDS and Aura."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/neo4j-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "neo4j", "cypher", "graph database"]
 ---
 

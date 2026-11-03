@@ -3,7 +3,7 @@ title: "Context Engineering Kit - Prompt and MCP Setup"
 description: "neolabhq/context-engineering-kit: 110.4K combined installs. 68 agent skills for prompt engineering, reasoning, subagent development and MCP setup."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/context-engineering-kit-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "prompt engineering", "context engineering", "subagents", "mcp"]
 ---
 

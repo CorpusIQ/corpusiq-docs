@@ -3,7 +3,7 @@ title: "Reddit Research Skills - Market Research Setup Guide"
 description: "Reddit research skills for AI agents: 46.8K combined installs for semantic Reddit search, subreddit trends, niche validation and scored B2B leads."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-research-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "reddit research", "market research"]
 ---
 

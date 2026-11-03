@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://account.ismscopilot.com/v1/account/mcp returning HTTP 401 with the body UNAUTHORIZED Authentication failed, plus submission issue chatmcp/mcpso #6301, the vendor site ismscopilot.com/mcp and the registry entry io.github.tristanroth1/ismscopilot-account"
 relevance: ★★★
 tags: [compliance, iso-27001, soc-2, gdpr, nis-2, dora, gap-analysis, risk-register, audit, oauth]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # ISMS Copilot MCP

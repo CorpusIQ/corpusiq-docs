@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probes on mcp.fliprofit.com/mcp (initialize 200, tools/list 200, three tools, compare_platforms executed and returning 13 ranked platforms), the vendor developer page with its OpenAPI 3.1 spec and llms.txt, and the mcpservers.org listing"
 relevance: ★★★
 tags: [reseller, marketplace-fees, ebay, poshmark, etsy, profit-margin, pricing, keyless]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # FlipProfit MCP

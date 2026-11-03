@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://api.emailit.com/mcp answering HTTP 401 Bearer-required with WWW-Authenticate resource_metadata pointing at https://api.emailit.com/.well-known/oauth-protected-resource/mcp, which advertises scopes sending and full; plus the vendor MCP documentation at emailit.com/docs/mcp (135 tools, updated 2 October 2026)"
 relevance: ★★★
 tags: [email, transactional-email, deliverability, campaigns, oauth, workspace-scoping, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Emailit MCP

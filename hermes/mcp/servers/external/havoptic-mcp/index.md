@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://mcp.havoptic.com/mcp answering HTTP 200 keyless on initialize as havoptic 2.1.0 on protocol 2025-06-18 with a full tools/list of 15 tools (4 marked deprecated, 11 current), found on the mcpservers.org /all listing, and the vendor site mcp.havoptic.com"
 relevance: ★★★
 tags: [developer-tools, release-notes, breaking-changes, upgrade, claude-code, codex, cursor, keyless, remote-mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Havoptic MCP

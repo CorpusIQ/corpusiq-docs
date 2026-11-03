@@ -7,7 +7,7 @@ added: 2026-10-30
 source: "mcpso issue #6440, io.github.erikras/store-canary"
 relevance: ★★★
 tags: [woocommerce, ecommerce, store-audit, checkout, https, seo, policy, remote-mcp, keyless]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 
 # Store Canary MCP

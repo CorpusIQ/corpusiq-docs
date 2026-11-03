@@ -3,7 +3,7 @@ title: "Capgo Skills - Capacitor Mobile Release Suite Setup"
 description: "Capgo's Capacitor suite: 45.4K combined installs. OTA live updates, native builds, plugin wiring, and store release skills for mobile agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/capgo-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "capacitor", "mobile devops", "live updates"]
 ---
 

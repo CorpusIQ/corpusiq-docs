@@ -3,7 +3,7 @@ title: "Paul Berg Agent Skills - Solidity and Foundry"
 description: "paulrberg/agent-skills: 32.7K combined installs. Forty-three skills plus Rust CLIs for Effect, Tailwind, GitHub workflow, git commits and EVM work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/paulrberg-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "solidity", "foundry", "evm"]
 ---
 

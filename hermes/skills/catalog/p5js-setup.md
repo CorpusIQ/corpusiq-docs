@@ -7,7 +7,7 @@ installs: 321
 source: https://skills.sh/nousresearch/hermes-agent/p5js
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/p5js-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

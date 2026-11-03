@@ -7,7 +7,7 @@ added: 2026-09-11
 source: mcpservers.org /all via r.jina.ai
 relevance: ★★
 tags: [google-trends, google-news, keyword-research, market-demand, content-research, trends, self-hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # TrendPulse MCP

@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://app.mobz.io/mcp returning HTTP 401 with no bearer token, plus submission issue chatmcp/mcpso #6302 and the vendor docs at app.mobz.io/docs/mcp"
 relevance: ★★★
 tags: [ecommerce, marketplace, attribution, deeplinks, wildberries, ozon, yandex-market, kaspi, sellers, streamable-http]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Mobzio MCP

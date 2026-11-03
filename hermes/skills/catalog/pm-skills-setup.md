@@ -3,7 +3,7 @@ title: "PM Skills - Product Management Lifecycle Suite Setup"
 description: "Setup guide for product-on-purpose/pm-skills - 44.7K combined installs. 68 product management skills across the lifecycle."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pm-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "product management", "product lifecycle", "workflows"]
 ---
 

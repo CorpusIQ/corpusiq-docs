@@ -3,7 +3,7 @@ title: "Helmor Skills - Multi-Agent Workbench Setup"
 description: "Helmor skills for the open-source local multi-agent software development workbench; ~1,981 indexed installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/helmor-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "cli"]
 ---
 

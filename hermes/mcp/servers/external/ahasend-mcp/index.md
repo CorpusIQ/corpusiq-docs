@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://mcp.ahasend.com/mcp returning HTTP 401 with the body no bearer token, the vendor README published on mcp.so covering OAuth 2.1, the recipient cap, the campaign confirmation step, the local developer binary and the MIT source repository github.com/AhaSend/ahasend-mcp"
 relevance: ★★
 tags: [email, transactional-email, smtp, deliverability, dns, campaigns, oauth, streamable-http, open-source]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # AhaSend MCP

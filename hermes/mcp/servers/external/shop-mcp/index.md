@@ -7,7 +7,7 @@ added: 2026-09-10
 source: "chatmcp/mcpso issue #4030"
 relevance: ★★★
 tags: [shopify, ecommerce, inventory, catalogue, read-only, stdio, python]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Shop MCP

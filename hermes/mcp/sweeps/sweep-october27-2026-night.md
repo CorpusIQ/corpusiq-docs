@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 27, 2026 (Night Sweep)"
 description: "Six finds in one window, led by back office arithmetic and agent spending limits: invoices and VAT that tie, and a payment policy with bands."
-last_updated: 2026-10-27
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october27-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

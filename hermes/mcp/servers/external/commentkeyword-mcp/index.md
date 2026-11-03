@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "vendor page commentkeyword.com/instagram-mcp-server, official MCP registry entry com.commentkeyword/mcp 0.2.0 with an mcpb package, and the submission issue describing the local stdio server, its six tools and its permission scopes"
 relevance: ★★★
 tags: [instagram, comment-to-dm, dm-automation, social, marketing, meta-api, scoped-tokens, mit]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # CommentKeyword MCP

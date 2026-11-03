@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 31, 2026 (Midday)"
 description: "Six hours on: the deposit side of the balance sheet, measured keyless, and twelve submissions dispositioned in one window."
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october31-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

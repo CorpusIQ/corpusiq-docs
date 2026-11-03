@@ -3,7 +3,7 @@ title: "ClickHouse Agent Skills - Official Analytics Suite Setup"
 description: "Official ClickHouse skills: 83.2K combined installs. Schema and query rules, architecture decisions, chDB SQL, and clickhousectl cloud infra."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clickhouse-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "clickhouse", "analytics", "database"]
 ---
 

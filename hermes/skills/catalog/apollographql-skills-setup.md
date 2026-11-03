@@ -3,7 +3,7 @@ title: "Apollo GraphQL Skills - GraphQL and Rust Setup"
 description: "apollographql/skills: 56.6K combined installs. Fifteen agent skills for Apollo Client, Server, Router, federation, Rover and idiomatic Rust."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apollographql-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "graphql", "apollo", "rust"]
 ---
 

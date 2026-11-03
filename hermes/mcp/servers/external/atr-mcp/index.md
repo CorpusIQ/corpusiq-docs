@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "PyPI package atr-mcp 1.0.0 plus the repository JacobBhatt12/atr README (pushed 2026-10-28T21:53:49Z, 1 star at read) and chatmcp/mcpso issue #6332, with the savings figures quoted from the vendor's own benchmark tables and not reproduced here"
 relevance: ★★
 tags: [token-reduction, context, mcp-proxy, tool-search, local, pypi, mit, stdio]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # ATR MCP

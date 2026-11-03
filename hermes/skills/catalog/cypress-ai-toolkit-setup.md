@@ -3,7 +3,7 @@ title: "Cypress AI Toolkit - E2E Testing Skills"
 description: "cypress-io/ai-toolkit: 30.4K combined installs. Five Cypress skills for authoring, explaining, documenting and driving tests, plus Cloud run triage."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cypress-ai-toolkit-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "cypress", "e2e testing", "test automation"]
 ---
 

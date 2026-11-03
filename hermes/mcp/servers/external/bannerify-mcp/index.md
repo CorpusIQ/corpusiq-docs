@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://api.bannerify.co/mcp answering HTTP 401 invalid_token and RFC 9728 discovery at https://api.bannerify.co/.well-known/oauth-protected-resource naming AuthKit authorization server and resource_name Bannerify, plus the vendor documentation at bannerify.co/docs/mcp/overview read 29 October 2026"
 relevance: ★★
 tags: [design, image-generation, pdf, templates, open-graph, marketing-assets, oauth, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Bannerify MCP

@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 29, 2026 (Midday)"
 description: "Counter finally moved to 18,230: seven finds, all from a 26-issue window, spanning scheduling, invoicing, monitoring and approval."
-last_updated: 2026-10-29
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october29-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

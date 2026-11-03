@@ -12,7 +12,7 @@ tags:
   - SOX
   - compliance
   - AI agent
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/enterprise/"
 robots: "index,follow"
 

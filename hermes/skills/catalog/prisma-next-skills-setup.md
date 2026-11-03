@@ -3,7 +3,7 @@ title: "Prisma Next Skills - Typed Database Access Setup"
 description: "prisma/prisma-next: 23.9K combined installs. Agent skills for Prisma Next contracts, migrations, query lanes, runtime wiring and Supabase RLS."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/prisma-next-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "prisma", "database", "migrations", "typescript"]
 ---
 

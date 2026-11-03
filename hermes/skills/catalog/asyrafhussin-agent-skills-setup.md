@@ -3,7 +3,7 @@ title: "Asyraf Hussin Skills - Clean Code Suite"
 description: "asyrafhussin/agent-skills: 29.0K combined installs. Twenty-four rule-based skills for Laravel, PHP, React, testing, SEO and technical debt audits."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/asyrafhussin-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "laravel", "php", "code review"]
 ---
 

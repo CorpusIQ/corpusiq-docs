@@ -7,7 +7,7 @@ added: 2026-08-29
 source: "chatmcp/mcpso issue #3824"
 relevance: ★★
 tags: [mcp-server, google-search-console, seo, sitemaps, indexing, search-analytics, marketing, self-hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Google Search Console MCP (ni-c)

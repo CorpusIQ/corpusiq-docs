@@ -7,7 +7,7 @@ added: 2026-08-28
 source: "mcp.so GitHub issue #3807"
 relevance: ★★★
 tags: [mcp-server, seo, geo, aeo, chatgpt, brand-monitoring, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Askline MCP

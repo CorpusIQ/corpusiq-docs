@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live probe on https://api.sendnf.com/mcp returning HTTP 401 with its own refusal body, the published tool table in the sendnf/sendnf-mcp manifest repository read at 03:16Z on 2026-10-28, the vendor page at sendnf.com/mcp and the chatmcp/mcpso submission #6267 filed 2026-10-28T02:31:59Z"
 relevance: ★★★
 tags: [invoicing, tax, brazil, nfse, nfce, fiscal, cnps, approval, streamable-http, latin-america]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # SendNF MCP

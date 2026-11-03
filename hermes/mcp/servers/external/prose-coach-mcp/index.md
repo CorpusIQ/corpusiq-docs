@@ -9,7 +9,7 @@ relevance: ★★★
 tags: [content, writing, editing, ai-writing, brand-voice, marketing, remote-mcp]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/prose-coach-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Prose Coach MCP

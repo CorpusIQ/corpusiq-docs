@@ -3,7 +3,7 @@ title: "Melodic Software Claude Code Plugins - Marketplace Setup"
 description: "Melodic Software's Claude Code plugin marketplace: 5.3K combined installs across 200 listings. Architecture, review and harness skills with hooks."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/melodic-claude-code-plugins-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "claude code plugins", "architecture documentation", "developer harness"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live JSON-RPC probes on https://aeoengine.ai/mcp answering initialize as aeo-engine-aeo-report 2.0.0 on protocol 2025-03-26 and tools/list returning run_aeo_report and get_aeo_report_status with their full input schemas, plus the mcp.so feed card filed 2026-10-28 and the vendor page aeoengine.ai"
 relevance: ★★★
 tags: [aeo, geo, ai-visibility, share-of-voice, competitor-analysis, chatgpt, perplexity, keyless, streamable-http]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # AEO Engine MCP

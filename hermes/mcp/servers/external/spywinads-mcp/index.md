@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://spywinads.com/mcp: initialize returned HTTP 200 advertising protocol versions 2026-07-28 through 2025-03-26 with a tools capability, and tools/list returned five tools with their descriptions"
 relevance: ★★★
 tags: [ads, meta-ads, competitive-intelligence, creative-research, ecommerce, shopify, keyless, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # SpyWinAds MCP

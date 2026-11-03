@@ -7,7 +7,7 @@ added: 2026-09-28
 source: "mcpservers.org server page (cortex.page)"
 relevance: ★★★
 tags: [knowledge-base, notes, semantic-search, embeddings, knowledge-management, productivity, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Cortex MCP

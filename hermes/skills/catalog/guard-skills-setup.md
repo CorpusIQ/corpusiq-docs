@@ -3,7 +3,7 @@ title: "Guard Skills - Code Safety Review Pack"
 description: "amelnagdy/guard-skills: 18.1K combined installs. Five second-pass review guards for AI-written code, tests, docs, WordPress and WooCommerce."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/guard-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "wordpress", "woocommerce", "quality gates"]
 ---
 

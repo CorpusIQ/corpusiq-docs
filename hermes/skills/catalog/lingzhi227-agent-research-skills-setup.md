@@ -3,7 +3,7 @@ title: "Agent Research Skills - Academic Paper Suite Setup"
 description: "lingzhi227/agent-research-skills: 57.8K combined installs. 31 skills for literature review, paper writing, LaTeX, citations and rebuttals."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/lingzhi227-agent-research-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "academic research", "latex"]
 ---
 

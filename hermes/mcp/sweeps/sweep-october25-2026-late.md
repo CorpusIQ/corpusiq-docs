@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 25, 2026 (Late Sweep)"
 description: "The directory stood still for five hours while the submission window filed twenty-one, so this pass read the window and the feed, not the listing."
-last_updated: 2026-10-25
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october25-2026-late/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

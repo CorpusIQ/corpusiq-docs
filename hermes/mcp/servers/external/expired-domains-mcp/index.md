@@ -7,7 +7,7 @@ added: 2026-09-08
 source: mcp.so
 relevance: ★★★
 tags: [domains, expired-domains, domain-investing, seo, backlinks, whois, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Expired Domains MCP

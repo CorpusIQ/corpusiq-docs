@@ -1,7 +1,7 @@
 ---
 title: "Hermes Bot Mode (Desktop Plugin)"
 description: "Bot Mode turns your Hermes agent profiles into a roster of named bots."
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # Hermes Bot Mode (Desktop Plugin)

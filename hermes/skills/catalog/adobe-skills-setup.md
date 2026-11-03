@@ -3,7 +3,7 @@ title: "Adobe Skills - PDF, Document and Creative Suite Setup"
 description: "adobe/skills: 76.5K combined installs. Adobe's official agent skills for PDF and document work, AEM sites, analytics, and creative editing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/adobe-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "adobe", "pdf", "aem", "creative"]
 ---
 

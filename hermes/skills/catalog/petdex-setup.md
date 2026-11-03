@@ -4,7 +4,7 @@ description: "Install and configure animated petdex mascots for Hermes Agent. Ad
 category: catalog
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/petdex-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

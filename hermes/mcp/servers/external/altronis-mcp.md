@@ -8,7 +8,7 @@ verified: true
 repository: "sypherin/altronis (repo no longer public)"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/altronis-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Altronis MCP - Singapore AI Consulting Access"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 

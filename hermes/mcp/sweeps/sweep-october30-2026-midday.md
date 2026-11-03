@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 30, 2026 (Midday)"
 description: "Seven hours after the night pass: two commerce entries, both driven without a credential, and a queue of twenty where every arrival landed on a filled class."
-last_updated: 2026-10-30
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october30-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

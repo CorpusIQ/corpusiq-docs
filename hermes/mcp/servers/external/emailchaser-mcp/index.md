@@ -7,7 +7,7 @@ added: 2026-09-09
 source: mcpservers.org
 relevance: ★★★
 tags: [cold-email, outreach, campaigns, lead-management, sales, email-automation, deliverability, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Emailchaser MCP

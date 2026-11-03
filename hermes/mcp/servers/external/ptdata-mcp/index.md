@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://api.ptdata.io/mcp: initialize returned HTTP 200 with serverInfo ptdata 3.3.2, a session id was issued, and an authenticated tools/list on that session returned four tools; free tier terms from https://api.ptdata.io/docs"
 relevance: ★★★
 tags: [finance, sec-filings, point-in-time, backtesting, fundamentals, keyless, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # PtData MCP

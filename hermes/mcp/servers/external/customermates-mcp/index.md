@@ -7,7 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on customermates.com/api/v1/mcp (401 unauthorized without credentials, RFC 9728 protected-resource document read live with jwks_uri) + vendor protocol reference customermates.com/en/docs/mcp (tool names, toolsets, permission model) + official MCP registry entry io.github.benjiwagner/customermates + chatmcp/mcpso submission #6185"
 relevance: ★★★
 tags: [crm, deals, pipeline, contacts, open-source, self-hosted, oauth, knowledge-base]
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 ---
 
 # Customermates MCP

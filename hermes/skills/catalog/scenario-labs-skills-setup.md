@@ -3,7 +3,7 @@ title: "Scenario Labs Skills - Custom Model Training Setup"
 description: "scenario-labs/skills: 53.3K combined installs. 174 skills for Scenario image, video, 3D and audio, plus Blender, Maya and game engine families."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/scenario-labs-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "game assets", "3d", "custom models", "image generation"]
 ---
 

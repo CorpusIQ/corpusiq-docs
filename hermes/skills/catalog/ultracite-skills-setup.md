@@ -3,7 +3,7 @@ title: "Ultracite - Zero-Config Lint Preset Setup"
 description: "Ultracite skill: 11.1K combined installs. One skill that teaches an agent your lint and format setup, then runs check, fix, doctor and upgrade correctly."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ultracite-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "lint", "formatting", "typescript"]
 ---
 

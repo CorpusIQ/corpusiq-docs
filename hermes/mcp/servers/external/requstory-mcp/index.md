@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://requstory.com/mcp returning HTTP 200 keyless on initialize 200 with serverInfo requstory 1.0.0 and a full tools/list of 10 tools, plus submission issue chatmcp/mcpso #6287 and the vendor docs at requstory.com/developers/api"
 relevance: ★★★
 tags: [process-mapping, company-research, ai-readiness, customer-journey, org-chart, keyless, streamable-http]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Requstory MCP

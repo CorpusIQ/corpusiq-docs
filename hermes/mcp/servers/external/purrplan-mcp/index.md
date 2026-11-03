@@ -7,7 +7,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [social-media, scheduling, publishing, social-inbox, analytics, marketing, remote-mcp, multi-network]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # PurrPlan MCP

@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://ffxf.net/mcp answering HTTP 200 keyless on initialize as ffxf 1.12.0 on protocol 2025-06-18 with a full tools/list of 71 tools, plus chatmcp/mcpso issue #6366 and the official registry entry net.ffxf/cloud"
 relevance: ★★
 tags: [cloud, vps, kvm, managed-database, postgres, load-balancer, github-runners, montreal, remote-mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # FFxF MCP

@@ -3,7 +3,7 @@ title: "Roblox Brain - Roblox Studio Development Skills Setup"
 description: "Roblox Brain: 61.6K combined installs. TabooHarmony's MIT library teaches coding agents 29 Roblox Studio skills: Luau, gameplay, design and tooling."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/roblox-brain-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "roblox studio", "luau", "game development"]
 ---
 

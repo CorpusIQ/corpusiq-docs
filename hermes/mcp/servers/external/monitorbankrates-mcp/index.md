@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The mcp.so homepage recentServers block on 2026-10-31 at 14:37Z under the slug monitorbankrates, plus a keyless JSON-RPC initialize and tools list against https://mcp.monitorbankrates.com/mcp returning HTTP 200 with eight tools and their full input schemas, and two live tool calls measuring the national 12-month CD average at 3.0101 percent APY on 2026-10-31 across 4,107 institutions and 9,115 quotes, and the national high-yield savings average at 2.0501 percent APY across 271 institutions and 709 quotes"
 relevance: ★★★
 tags: [bank-rates, deposit-rates, cd-rates, treasury-ops, mortgage, hmda, institution-health, financial-data, keyless]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # MonitorBankRates MCP

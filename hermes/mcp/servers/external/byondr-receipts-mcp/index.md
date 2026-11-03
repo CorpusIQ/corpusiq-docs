@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probes on byondr.co/receipts/mcp (initialize 200, tools/list 200, two tools with full input schemas), the vendor start.md and mcpservers.org listing text, and the official MCP registry entry co.byondr/receipts"
 relevance: ★★★
 tags: [receipts, invoices, bookkeeping, quickbooks, ocr, csv, expense, keyless]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # byondr Receipts MCP

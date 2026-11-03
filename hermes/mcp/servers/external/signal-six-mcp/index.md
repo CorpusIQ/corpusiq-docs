@@ -7,7 +7,7 @@ added: 2026-10-05
 source: mcp.so feed (Oct 5, 2026 midday sweep)
 relevance: ★★★
 tags: [competitive-intelligence, competitor-tracking, market-monitoring, signals, reports, remote-mcp, oauth]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Signal Six MCP

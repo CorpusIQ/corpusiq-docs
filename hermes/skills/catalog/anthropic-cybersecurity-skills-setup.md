@@ -8,7 +8,7 @@ maturity: production
 source: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/anthropic-cybersecurity-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

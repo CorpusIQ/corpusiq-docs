@@ -3,7 +3,7 @@ title: "Anti-Slop - AI Copywriting Quality Skill"
 description: "miqdadbadjuber/anti-slop: 41.3K combined installs. Six skills that strip generic AI tells from UI, copy, mobile layout and code comments."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/anti-slop-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "copywriting", "design quality", "code comments"]
 ---
 

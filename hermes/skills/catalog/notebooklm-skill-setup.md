@@ -3,7 +3,7 @@ title: "NotebookLM Skill - Archived Notebook Query Setup"
 description: "PleasePrompto/notebooklm-skill: 7.7K installs, archived. Query Google NotebookLM notebooks from Claude Code through browser automation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/notebooklm-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "research", "browser automation", "google"]
 ---
 

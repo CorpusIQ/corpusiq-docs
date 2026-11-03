@@ -3,7 +3,7 @@ title: "New Skills - October 28, 2026 Evening"
 description: "Skills.sh sweep (Oct 28 evening): 886 skills scanned, 12 publisher guides from the morning queue for 274,742 combined installs across 109 listings."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct28-2026-evening-skills/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

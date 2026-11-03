@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probe on ad-library-intelligence.mcpize.run/mcp (initialize 401 Bearer token required) and the vendor listing at mcpize.com/mcp/ad-library-intelligence with its documented tool set, limits and pricing"
 relevance: ★★★
 tags: [competitor-ads, meta-ad-library, google-ads-transparency, linkedin-ads, ads-txt, creative-research, marketing]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Ad Library Intelligence MCP

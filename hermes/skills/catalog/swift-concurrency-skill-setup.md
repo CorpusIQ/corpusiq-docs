@@ -3,7 +3,7 @@ title: "Swift Concurrency Skill - Structured Concurrency Setup"
 description: "twostraws/swift-concurrency-agent-skill: 12.2K combined installs. Swift 6.2 concurrency review skill: async/await, actors, Sendable, task groups."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/swift-concurrency-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "swift", "concurrency", "ios", "code review"]
 ---
 

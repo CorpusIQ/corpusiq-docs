@@ -7,7 +7,7 @@ added: 2026-09-02
 source: "mcp.so GitHub issue #3899"
 relevance: ★★★
 tags: [security, phishing, awareness-training, iso-27001, soc-2, audit]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Fallax MCP - Phishing Simulation Results for Audit Evidence

@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 24, 2026 (Midday Sweep)"
 description: "Midday delta cataloguing one server: DropCue puts a music catalog, its pitch pipeline, licenses and PRO royalty statements behind one local MCP server."
-last_updated: 2026-10-24
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october24-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

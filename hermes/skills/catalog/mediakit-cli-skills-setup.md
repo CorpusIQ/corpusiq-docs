@@ -3,7 +3,7 @@ title: "ByteDance MediaKit CLI - Video Processing Setup"
 description: "volcengine/mediakit-cli: 61.3K combined installs. ByteDance CLI with 5 skills that wrap FFmpeg editing and cloud AI for video, audio and images."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mediakit-cli-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "video processing", "ffmpeg", "media pipeline"]
 ---
 

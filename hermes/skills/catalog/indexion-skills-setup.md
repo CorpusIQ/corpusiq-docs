@@ -3,7 +3,7 @@ title: "Indexion Skills - Source Code Exploration for Agents Setup"
 description: "trkbt10/indexion-skills: 44.6K combined installs across 19 listings for code search, refactor detection, README and wiki upkeep via the indexion CLI."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/indexion-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "code intelligence", "documentation"]
 ---
 

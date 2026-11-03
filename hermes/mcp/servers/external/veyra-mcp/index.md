@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probes on veyra.money/api/mcp (initialize 200, tools/list 200 with seven tools, tools/call 401 MISSING_CREDENTIAL), official MCP registry entry io.github.zapxlabs/veyra 0.1.0, and the vendor documentation at veyra.money/docs"
 relevance: ★★★
 tags: [agent-payments, spend-control, approvals, usdc, base, audit-log, policy, containment]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Veyra MCP

@@ -7,7 +7,7 @@ added: 2026-10-06
 source: "mcp.so feed (Oct 6, 2026 midday sweep)"
 relevance: ★★
 tags: [financial-advisors, compliance, continuing-education, ria, form-adv, finra, remote-mcp, keyless]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # AdvisorIQ MCP

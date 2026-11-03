@@ -3,7 +3,7 @@ title: "Science Skills - PubMed, arXiv and Lab Data Setup"
 description: "google-deepmind/science-skills: 87.9K combined installs. 40 Google agent skills for paper search, genomics, structural biology and chemistry."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/science-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "bioinformatics", "literature search", "google deepmind"]
 ---
 

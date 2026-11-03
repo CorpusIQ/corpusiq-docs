@@ -3,7 +3,7 @@ title: "Ship Shit Dev Skills - 14 Command Routers Setup"
 description: "shipshitdev/skills: 14 user-invoked command routers, 27.5K combined installs. Issue, execute, test, QA, review, git and release workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shipshitdev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "dev workflow", "code review", "git automation"]
 ---
 

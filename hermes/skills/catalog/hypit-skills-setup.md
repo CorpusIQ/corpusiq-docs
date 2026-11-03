@@ -3,7 +3,7 @@ title: "Hypit - AI Video Clone Production Setup"
 description: "Hypit skills: 19.0K combined installs. Clone a viral video's whole workflow into an editable composition, then swap host, hook and product for variants."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hypit-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "video", "ugc", "content production"]
 ---
 

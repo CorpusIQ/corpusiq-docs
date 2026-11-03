@@ -7,7 +7,7 @@ added: 2026-09-04
 source: mcp.so feed
 relevance: ★★★
 tags: [phone-validation, carrier-lookup, cnam, spam-detection, lead-hygiene, remote-mcp, telecom]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # VeriRoute Intel MCP

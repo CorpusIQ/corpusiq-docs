@@ -9,7 +9,7 @@ stars: 9
 author: Subtext by Fullstory
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/subtext-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Subtext MCP

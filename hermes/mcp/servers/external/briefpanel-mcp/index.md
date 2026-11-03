@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://actions.briefpanel.com/mcp answering HTTP 401 unauthorized, and its protected-resource document at /.well-known/oauth-protected-resource/mcp advertising the resource, authorization server and two scopes, read and write; product detail from https://briefpanel.com/mcp"
 relevance: ★★★
 tags: [monitoring, web-change, competitive-intelligence, oauth, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # BriefPanel MCP

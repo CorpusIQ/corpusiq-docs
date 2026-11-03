@@ -8,7 +8,7 @@ category: platform
 setup: npx skills add expo/skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/expo-deployment/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Expo Deployment - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

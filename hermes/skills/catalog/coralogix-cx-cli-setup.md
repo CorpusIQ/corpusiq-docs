@@ -3,7 +3,7 @@ title: "Coralogix cx CLI - Observability Agent Skills Setup"
 description: "coralogix/cx-cli: 58.2K combined installs across 32 indexed listings. Official skills for Coralogix logs, spans, metrics, alerts, and RUM."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/coralogix-cx-cli-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "observability", "coralogix", "cli"]
 ---
 

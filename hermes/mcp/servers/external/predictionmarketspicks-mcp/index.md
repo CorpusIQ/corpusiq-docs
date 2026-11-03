@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcp.so server page (predictionmarketspicks)"
 relevance: ★★★
 tags: [prediction-markets, kalshi, polymarket, forecasting, finance, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # PredictionMarketsPicks MCP

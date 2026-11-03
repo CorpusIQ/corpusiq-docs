@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "published package @leadsync/mcp 0.1.1 on npm and the vendor repository lmoulton/leadsync-skills read 29 October 2026, plus the mcp.so feed card"
 relevance: ★★★
 tags: [lead-generation, meta-ads, facebook-lead-ads, crm, google-sheets, autoresponder, local-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # LeadSync MCP

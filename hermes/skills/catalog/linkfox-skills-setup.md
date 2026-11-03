@@ -3,7 +3,7 @@ title: "LinkFox Skills - IP, Legal and Trade Data Setup"
 description: "linkfox-ai/linkfox-skills: 58.4K combined installs. 270 API-backed skills for Amazon, Ozon, Temu and 1688 data, plus patent and trademark checks."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/linkfox-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "cross border ecommerce", "amazon data", "patent search", "ozon"]
 ---
 

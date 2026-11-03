@@ -3,7 +3,7 @@ title: "Nuxt Skills - Vue, Nuxt and NuxtHub Agent Setup"
 description: "onmax/nuxt-skills: 69.8K combined installs across 35 listings. Vue, Nuxt, Nuxt UI and NuxtHub skills that keep agent code on current framework APIs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/onmax-nuxt-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "nuxt", "vue"]
 ---
 

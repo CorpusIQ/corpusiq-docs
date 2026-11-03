@@ -3,7 +3,7 @@ title: "Amazon Devices Agent Skills - Fire TV and Vega Setup"
 description: "amazonappdev/devices-agent-skills: 11.0K combined installs. Community agent skills for Fire TV, Vega OS and React Native TV app development."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/amazon-devices-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "fire tv", "vega os", "react native", "tv"]
 ---
 

@@ -3,7 +3,7 @@ title: "Kapso Agent Skills - WhatsApp Business Setup"
 description: "gokapso/agent-skills: 13.8K combined installs. Kapso skills for WhatsApp Business onboarding, messaging, workflow automation, calling and log triage."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gokapso-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "whatsapp", "kapso", "messaging", "automation"]
 ---
 

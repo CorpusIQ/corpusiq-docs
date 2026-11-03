@@ -7,7 +7,7 @@ added: 2026-08-31
 source: "mcpservers.org /all page 1 (Aug 31 afternoon catch-up sweep)"
 relevance: ★★
 tags: [mcp-server, email, jmap, inbox, automation, stdio, agents]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Atomic Mail MCP

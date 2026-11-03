@@ -3,7 +3,7 @@ title: "BMad Method Skills - Agile AI Development Suite Setup"
 description: "BMad Method's agile delivery suite: 383.8K combined installs. Briefs, PRDs, architecture, tickets, build, review and retro skills for coding agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bmad-method-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "agile delivery", "product planning", "code review"]
 ---
 

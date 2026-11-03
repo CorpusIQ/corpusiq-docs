@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 26, 2026 (Midday Sweep)"
 description: "A frozen listing and three finds that answered for themselves: keyless print-on-demand supplier prices, live GPU stock, and EV charging rows that cite."
-last_updated: 2026-10-26
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

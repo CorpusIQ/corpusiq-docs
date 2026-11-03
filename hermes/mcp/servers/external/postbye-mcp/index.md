@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live JSON-RPC probes on https://postbye.com/mcp answering initialize as postbye 1.2.0 with its instructions string and the four tool schemas from tools/list, the executed calls search_companies, get_cancellation_guide and list_categories, the mcp.so feed card filed 2026-10-27T07:26:04Z and the guide pages it cites"
 relevance: ★★★
 tags: [subscriptions, vendor-management, expense-control, cancellation, cost-reduction, letters, keyless, streamable-http]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Postbye MCP

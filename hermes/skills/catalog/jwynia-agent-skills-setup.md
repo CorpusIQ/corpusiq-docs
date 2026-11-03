@@ -3,7 +3,7 @@ title: "Jwynia Agent Skills - Presentation and Writing Suite"
 description: "jwynia/agent-skills: 65.4K combined installs. 119 agent skills for presentations, documents and fiction writing, plus research and Godot tooling."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jwynia-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "presentations", "fiction writing", "documents", "godot"]
 ---
 

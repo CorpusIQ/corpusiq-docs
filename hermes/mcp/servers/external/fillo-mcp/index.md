@@ -7,7 +7,7 @@ added: 2026-08-18
 source: "mcp.so GitHub issue #3629"
 relevance: ★★
 tags: [forms, lead-generation, surveys, headless-forms, operator-automation, remote-mcp, open-source]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Fillo MCP

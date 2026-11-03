@@ -3,7 +3,7 @@ title: "Dynatrace for AI - Observability Skills Setup"
 description: "Dynatrace official skills: 60.6K combined installs. 34 skills for DQL, logs, traces, Kubernetes and AWS/Azure observability via MCP or dtctl."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dynatrace-for-ai-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "observability", "apm"]
 ---
 

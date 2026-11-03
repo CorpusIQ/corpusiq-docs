@@ -7,7 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on rus.sh/mcp (initialize 401 without a token, RFC 9728 protected-resource and RFC 8414 authorization-server documents read live with six scopes and a registration endpoint) + vendor page rus.sh/pages/ai (tool verbs, permission model, limits) + official MCP registry entry sh.rus/mcp 1.0.0 + chatmcp/mcpso submission #6187"
 relevance: ★★
 tags: [short-links, qr-codes, click-analytics, campaign-tracking, utm, oauth, marketing-ops]
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 ---
 
 # Rus.sh MCP

@@ -3,7 +3,7 @@ title: "Motion Design Skills - After Effects and Remotion Setup"
 description: "iart-ai's nine motion design skills: 26.6K combined installs. Timing, color, composition, After Effects, Remotion, logo and background animation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/motion-design-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "motion design", "after effects", "remotion"]
 ---
 

@@ -3,7 +3,7 @@ title: "Sales Skills - B2B Sales Playbook Suite Setup"
 description: "louisblythe/sales-skills at 51.7K combined installs: 122 B2B sales skills for prospecting, discovery, objection handling, pricing and closing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/louisblythe-sales-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "b2b sales", "revenue operations"]
 ---
 

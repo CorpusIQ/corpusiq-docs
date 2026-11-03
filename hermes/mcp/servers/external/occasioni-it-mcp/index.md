@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://occasioni.it/mcp answering HTTP 200 keyless on initialize as occasioni.it 1.1.0 on protocol 2025-06-18 with a session header and a full tools/list of 18 tools, plus chatmcp/mcpso issue #6334 and the vendor developers page"
 relevance: ★★★
 tags: [grants, funding, incentives, italy, smb, public-funding, keyless, remote-mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # occasioni.it MCP

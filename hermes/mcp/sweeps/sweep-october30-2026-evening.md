@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 30, 2026 (Night)"
 description: "Ten hours on: inventory planning with stockout-corrected forecasts, a secret intake tool, and one open-source CRM held because the slice is already covered."
-last_updated: 2026-10-30
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october30-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

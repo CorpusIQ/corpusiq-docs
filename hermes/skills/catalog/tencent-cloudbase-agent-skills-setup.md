@@ -3,7 +3,7 @@ title: "Tencent CloudBase Agent Skills - WeChat Dev"
 description: "tencentcloudbase/skills: 30.8K combined installs. 32 CloudBase skills for WeChat mini programs, cloud functions, databases and AI model routing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tencent-cloudbase-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "tencent cloudbase", "wechat mini program", "serverless"]
 ---
 

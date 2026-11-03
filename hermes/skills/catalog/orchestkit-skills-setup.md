@@ -3,7 +3,7 @@ title: "OrchestKit - Orchestration and DevOps Skills"
 description: "yonatangross/orchestkit: 30.4K combined installs. A Claude Code plugin of 115 skills, 36 agents and 161 hooks for orchestration, devops and release."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/orchestkit-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "orchestration", "devops", "release"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "npm package mnemosy-ai 2.0.0 read from the npm registry on 29 October 2026 (MIT, repository 28naem-del/mnemosyne) and the vendor submission describing correction retirement, replay and bisect"
 relevance: ★★★
 tags: [memory, sqlite, corrections, provenance, replay, reranking, local-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Mnemosyne MCP

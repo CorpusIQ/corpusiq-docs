@@ -3,7 +3,7 @@ title: "Patterns.dev Skills - UI and Rendering Patterns Setup"
 description: "patternsdev/skills: 53.7K combined installs. 58 focused Agent Skills covering JS, React and Vue rendering, performance and design patterns."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/patterns-dev-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "react", "javascript", "web performance"]
 ---
 

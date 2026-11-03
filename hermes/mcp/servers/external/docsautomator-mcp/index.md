@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live probe on https://mcp.docsautomator.co/mcp returning HTTP 401 with a message naming Bearer key, X-API-Key or OAuth plus an oauth_discovery URL, the RFC 9728 protected-resource document at mcp.docsautomator.co/.well-known/oauth-protected-resource naming two scopes and api.docsautomator.co as the authorization server, and the vendor pages at docsautomator.co/features/ai-and-agents read at 04:06Z on 2026-10-28"
 relevance: ★★★
 tags: [documents, pdf, templates, esignature, approvals, airtable, google-docs, oauth, hosted, back-office]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # DocsAutomator MCP

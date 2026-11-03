@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 28, 2026 (Midday Sweep)"
 description: "Six finds in a seven hour window, led by a directory card that claimed 481 tools and an endpoint that served thirteen."
-last_updated: 2026-10-28
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october28-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

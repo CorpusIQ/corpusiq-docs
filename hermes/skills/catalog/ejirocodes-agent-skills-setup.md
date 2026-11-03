@@ -3,7 +3,7 @@ title: "Ejiro Agent Skills - Svelte, Vue, NestJS and Exa Setup"
 description: "ejirocodes/agent-skills: 18.9K combined installs. Seven skills covering Svelte 5 runes, Vue 3 TypeScript, NestJS 11 and Exa search, RAG and research."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ejirocodes-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "svelte", "vue", "nestjs", "exa"]
 ---
 

@@ -3,7 +3,7 @@ title: "Pulumi Agent Skills - Infrastructure as Code Setup"
 description: "pulumi/agent-skills: 16.4K combined installs. Official Pulumi agent skills for IaC authoring, cloud migration, ESC secrets and provider maintenance."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pulumi-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "pulumi", "infrastructure as code", "cloud migration", "secrets"]
 ---
 

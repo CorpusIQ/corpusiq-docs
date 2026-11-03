@@ -7,7 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on app.axl.tech/mcp (initialize 401 without a token, GET 405 with the server's own stateless explanation, RFC 9728 protected-resource and RFC 8414 authorization-server documents read live) + vendor developer page axl.tech/developers/mcp + chatmcp/mcpso submission #6192 + official MCP registry searched, no entry found"
 relevance: ★★★
 tags: [crm, sales-pipeline, courses, checkout, email-automation, booking, oauth, all-in-one, smb]
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 ---
 
 # AXL MCP

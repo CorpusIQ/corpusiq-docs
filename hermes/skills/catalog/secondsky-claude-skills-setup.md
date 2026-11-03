@@ -3,7 +3,7 @@ title: "SecondSky Claude Skills - Backend and API Suite Setup"
 description: "secondsky/claude-skills: 85.1K combined installs. A 145-plugin Claude Code suite for Tailwind, React, Bun, Cloudflare and API backend work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/secondsky-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "api backend", "cloudflare workers", "claude code"]
 ---
 

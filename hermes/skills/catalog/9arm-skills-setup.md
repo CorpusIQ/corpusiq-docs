@@ -3,7 +3,7 @@ title: "9arm Skills - Thai Dev Agent Suite"
 description: "thananon/9arm-skills: 24.4K combined installs. Six practitioner skills for debugging, post-mortems, review, management posts and long-task control."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/9arm-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "debugging", "code review", "engineering workflow"]
 ---
 

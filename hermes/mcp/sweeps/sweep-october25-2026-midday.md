@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 25, 2026 (Midday Sweep)"
 description: "Six servers added since the night read and three names no record had ever held: one gateway over seven business services clears the bar, two transactional utilities do not."
-last_updated: 2026-10-25
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october25-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

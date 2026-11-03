@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "the published npm package watchcron-mcp 1.0.0 with its bin entry and repository README listing all nine tools, the vendor site watchcron.com with its feature and channel pages, and the mcpservers.org official listing"
 relevance: ★★★
 tags: [cron-monitoring, scheduled-jobs, uptime, alerting, incidents, ops, api-key, stdio]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # WatchCron MCP
