@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-11-02"
+last_updated: "2026-11-03"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -1051,3 +1051,23 @@ Ten publisher clusters documented from the queue the previous fire left behind, 
 - [NotebookLM nblm Skill - Source-Grounded Answers](/hermes/skills/catalog/magicseek-nblm-setup)
 - [Cline SDK Skill - Build AI Agents on @cline/sdk](/hermes/skills/catalog/cline-sdk-skill-setup)
 - [Next.js Cache Architecture - Setup Guide](/hermes/skills/catalog/nextjs-cache-architecture-setup)
+
+### New - November 3, 2026 Night Sweep (17 publisher guides)
+
+- [Runpod Plugin - GPU Pod and Serverless Skill Setup](/hermes/skills/catalog/runpod-plugins-official-setup)
+- [JSON Render - Generative UI Framework Setup](/hermes/skills/catalog/json-render-setup)
+- [Turborepo Skill - Monorepo Build System Setup](/hermes/skills/catalog/turborepo-skill-setup)
+- [LobeHub Skills - Agent Platform Engineering Setup](/hermes/skills/catalog/lobehub-skills-setup)
+- [JS Mastery Skills - Agentic Development Workflow](/hermes/skills/catalog/jsmastery-skills-setup)
+- [Agent Device - Mobile Device Control for Agents](/hermes/skills/catalog/agent-device-setup)
+- [Game Dev Agentic Skills - Godot and Bevy Suite](/hermes/skills/catalog/game-dev-agentic-skills-setup)
+- [Understand Anything - Code to Knowledge Graph Setup](/hermes/skills/catalog/understand-anything-setup)
+- [React Doctor - React Codebase Diagnostics Setup](/hermes/skills/catalog/react-doctor-setup)
+- [Hairyf Skills - Vue, Nuxt and Tooling Collection](/hermes/skills/catalog/hairyf-skills-setup)
+- [MAD Agents Skills - Dart and Flutter Suite Setup](/hermes/skills/catalog/mad-agents-skills-setup)
+- [Effective HTML - Artifact and Prototype Skills](/hermes/skills/catalog/effective-html-setup)
+- [Tons of Skills - Agent Skills Marketplace Platform](/hermes/skills/catalog/tons-of-skills-marketplace-setup)
+- [Linear Release - Release Tracking CLI Setup](/hermes/skills/catalog/linear-release-setup)
+- [Software Mansion Skills - React Native Suite Setup](/hermes/skills/catalog/software-mansion-skills-setup)
+- [Security Skills - Pentest and Compliance Suite](/hermes/skills/catalog/securityskills-setup)
+- [Astral Plugins - Python uv, ruff and ty Setup](/hermes/skills/catalog/astral-sh-claude-code-plugins-setup)
