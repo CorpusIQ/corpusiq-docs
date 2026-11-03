@@ -20878,5 +20878,89 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-02T11:03:22.569545+00:00"
+  },
+  {
+    "repo": "declanshanaghy/odins-throne-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387537+00:00"
+  },
+  {
+    "repo": "404kidwiz/hermes-glasses-setup",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387552+00:00"
+  },
+  {
+    "repo": "alrcatraz/astra-web-extract-markitdown",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387554+00:00"
+  },
+  {
+    "repo": "EliteSystemsAI/hermes-resolve-video-editing",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387557+00:00"
+  },
+  {
+    "repo": "efg-hermes-younit/younit-python",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387559+00:00"
+  },
+  {
+    "repo": "MinimalOne/lobe-forge",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387561+00:00"
+  },
+  {
+    "repo": "sitechfromgeorgia/kaeasy",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387563+00:00"
+  },
+  {
+    "repo": "chipoto69/touchdesigner-studio-skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387565+00:00"
+  },
+  {
+    "repo": "abdlx/hob",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387567+00:00"
+  },
+  {
+    "repo": "hidaba/HidaChat",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387568+00:00"
+  },
+  {
+    "repo": "scrapeless-ai/scrapeless-hermes-integration",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387570+00:00"
+  },
+  {
+    "repo": "maar1223/hermes-agent-demiurgos",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-03T10:03:37.387572+00:00"
   }
 ]

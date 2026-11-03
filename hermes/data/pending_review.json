@@ -86947,5 +86947,350 @@
     "near_duplicates": [],
     "discovered_at": "2026-11-02T11:01:03.816467+00:00",
     "status": "pending"
+  },
+  {
+    "name": "declanshanaghy/odins-throne-hermes",
+    "url": "https://github.com/declanshanaghy/odins-throne-hermes",
+    "description": "Odin's Throne inside the Hermes desktop app \u2014 Hlidskjalf as a right-pane job list + log terminal page (GKE agent-sandbox monitor, ported from fenrir-ledger)",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-11-03T10:00:47Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "synthalorian/hermes-wingman"
+    ],
+    "discovered_at": "2026-11-03T10:01:07.900757+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "404kidwiz/hermes-glasses-setup",
+    "url": "https://github.com/404kidwiz/hermes-glasses-setup",
+    "description": "Hermes glasses app snapshot, reproducible iPhone and Tailscale setup, verification runbook, and coding-agent handoff",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "updated_at": "2026-11-03T09:59:30Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-03T10:01:07.903143+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "alrcatraz/astra-web-extract-markitdown",
+    "url": "https://github.com/alrcatraz/astra-web-extract-markitdown",
+    "description": "A plugin for Hermes Agent to use MarkItDown MCP as web-extract tool",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-03T09:33:39Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "goagent123/hermes-composio-bridge",
+      "zakahadi/llm-eval-cli",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-11-03T10:01:16.005168+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "EliteSystemsAI/hermes-resolve-video-editing",
+    "url": "https://github.com/EliteSystemsAI/hermes-resolve-video-editing",
+    "description": "Hermes Agent skills for editing talking-head videos in DaVinci Resolve Studio over MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-03T09:11:22Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-03T10:01:16.006895+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "efg-hermes-younit/younit-python",
+    "url": "https://github.com/efg-hermes-younit/younit-python",
+    "description": "Official Python SDK and MCP server for the Younit API",
+    "stars": 24,
+    "forks": 3,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-03T09:46:40Z",
+    "category": "mcp",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-03T10:01:16.008451+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MinimalOne/lobe-forge",
+    "url": "https://github.com/MinimalOne/lobe-forge",
+    "description": "A second brain your AI tools share: Git-backed LLM wikis that Claude, Codex, Gemini CLI, Antigravity, Cursor and agents like OpenClaw and Hermes read and write over MCP. Run locally or self-host lobe-server.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "karpathy",
+      "knowledge-base",
+      "llm-wiki",
+      "mcp",
+      "mcp-server",
+      "second-brain",
+      "self-hosted"
+    ],
+    "updated_at": "2026-11-03T08:03:43Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "iOfficeAI/AionUi",
+      "NVIDIA/NemoClaw",
+      "unifapi-agent/agents",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "hugocarreira/agentrc",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "conorbronsdon/avoid-ai-writing",
+      "cavi-ai/mlx-agent",
+      "Orkas-AI/Orkas",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-03T10:01:16.011188+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sitechfromgeorgia/kaeasy",
+    "url": "https://github.com/sitechfromgeorgia/kaeasy",
+    "description": "Georgian writing skills plugin for Hermes agents (zero runtime cost)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-02T23:55:04Z",
+    "category": "skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-03T10:01:24.049091+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "chipoto69/touchdesigner-studio-skills",
+    "url": "https://github.com/chipoto69/touchdesigner-studio-skills",
+    "description": "TouchDesigner and Exyte skills plugin for Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-02T20:44:17Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-03T10:01:24.051413+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "abdlx/hob",
+    "url": "https://github.com/abdlx/hob",
+    "description": "Your self-hosted personal AI agent \u2014 a house-spirit for your homelab that does chores while you sleep.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "browser-automation",
+      "captcha",
+      "cdp",
+      "coolify",
+      "docker",
+      "hermes-agent",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "nodejs",
+      "react",
+      "self-hosted",
+      "typescript"
+    ],
+    "updated_at": "2026-11-03T10:01:24Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "PatterAI/Patter",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-11-03T10:01:32.046775+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hidaba/HidaChat",
+    "url": "https://github.com/hidaba/HidaChat",
+    "description": "Client desktop multi-account portabile (.NET 9 / WPF) per WhatsApp, Telegram, OpenClaw e Hermes con traduzione e notifiche native.",
+    "stars": 4,
+    "forks": 0,
+    "language": "Visual Basic .NET",
+    "topics": [
+      "ai-agents",
+      "ai-gateway",
+      "desktop-client",
+      "dotnet9",
+      "hermes",
+      "hermes-agent",
+      "messaging",
+      "multi-account",
+      "openclaw",
+      "portable-app",
+      "tailscale",
+      "telegram",
+      "telegram-web",
+      "toast-notifications",
+      "translation",
+      "webview2",
+      "whatsapp",
+      "whatsapp-web",
+      "windows-desktop",
+      "wpf"
+    ],
+    "updated_at": "2026-11-03T09:59:08Z",
+    "category": "forks",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-03T10:01:32.048848+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "scrapeless-ai/scrapeless-hermes-integration",
+    "url": "https://github.com/scrapeless-ai/scrapeless-hermes-integration",
+    "description": "Connect Hermes Agent to Scrapeless MCP for web search, page extraction, and browser-assisted product research.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-agent",
+      "hermes-agent",
+      "mcp",
+      "scrapeless",
+      "web-extraction"
+    ],
+    "updated_at": "2026-11-03T03:49:45Z",
+    "category": "integrations",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "mlennie/hermes-mcp",
+      "megberts/mcp-hermes-integration",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-11-03T10:01:40.163009+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maar1223/hermes-agent-demiurgos",
+    "url": "https://github.com/maar1223/hermes-agent-demiurgos",
+    "description": "Copia privada de Hermes para Demiurgos (upstream: NousResearch/hermes-agent). No contribuir a menos que se indique.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-03T01:03:51Z",
+    "category": "official",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-03T10:03:06.361172+00:00",
+    "status": "pending"
   }
 ]
