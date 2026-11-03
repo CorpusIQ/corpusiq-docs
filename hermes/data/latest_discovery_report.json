@@ -1,5 +1,5 @@
 {
-  "run_time": "2026-11-02T11:03:22.569545+00:00",
+  "run_time": "2026-11-03T10:03:37.470634+00:00",
   "new_approved": [],
   "integration": {
     "published_file": "hermes/ecosystem/index.md",
@@ -7,10 +7,10 @@
     "note": "hermes/ecosystem.md is NOT emitted by the mkdocs build and collides with hermes/ecosystem/index.md at /hermes/ecosystem/. Add every approved repo to hermes/ecosystem/index.md (the page users see). Mirror into ecosystem.md only to keep the two files in sync."
   },
   "stats": {
-    "total_found": 5,
+    "total_found": 12,
     "auto_approved": 0,
-    "pending_review": 5,
+    "pending_review": 12,
     "total_approved": 208,
-    "total_pending": 2931
+    "total_pending": 2943
   }
 }
