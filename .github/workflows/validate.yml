@@ -63,6 +63,9 @@ jobs:
       - name: Validate docs asset name stabilization
         run: python -m unittest scripts/test_stabilize_hashed_assets.py
 
+      - name: Validate docs internal link absolutization
+        run: python -m unittest scripts/test_absolutize_internal_links.py
+
       - name: Reject blanket data-retention claims
         run: |
           python scripts/validate_retention_claims.py

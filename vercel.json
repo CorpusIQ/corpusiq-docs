@@ -21,6 +21,10 @@
     {
       "source": "/docs/stylesheets/:path*",
       "destination": "/stylesheets/:path*"
+    },
+    {
+      "source": "/docs/:path*",
+      "destination": "/:path*"
     }
   ],
   "redirects": [

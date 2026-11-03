@@ -42,7 +42,11 @@ class VercelDeployTests(unittest.TestCase):
             # root; give the harness its own copies so the packaging steps run
             # exactly as the workflow defines them.
             (root / "scripts").mkdir()
-            for script in ("normalize_site_no_slash.py", "stabilize_hashed_assets.py"):
+            for script in (
+                "normalize_site_no_slash.py",
+                "absolutize_internal_links.py",
+                "stabilize_hashed_assets.py",
+            ):
                 shutil.copyfile(
                     ROOT / "scripts" / script,
                     root / "scripts" / script,

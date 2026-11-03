@@ -613,9 +613,14 @@ def main():
         sys.exit(1)
     print("   Verify gate passed (canonical, sitemap, feeds, hrefs all no-slash)")
 
-    # 3d. Stabilize hashed asset references so cached HTML can keep resolving
+    # 3d. Absolutize internal href/src docs links so no-slash serving cannot
+    #     resolve nav one segment too high.
+    print("3d. Absolutizing internal docs links...")
+    run("python3 scripts/absolutize_internal_links.py site", fatal=True)
+
+    # 3e. Stabilize hashed asset references so cached HTML can keep resolving
     #     CSS and JavaScript after a new build rotates MkDocs hash filenames.
-    print("3d. Stabilizing hashed asset names...")
+    print("3e. Stabilizing hashed asset names...")
     run("python3 scripts/stabilize_hashed_assets.py site", fatal=True)
 
     # 4. Deploy to gh-pages

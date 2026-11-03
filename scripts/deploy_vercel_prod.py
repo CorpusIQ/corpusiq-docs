@@ -127,6 +127,19 @@ def main():
     normalize_no_slash()
     if not verify_no_slash():
         sys.exit(1)
+    print('Absolutizing internal docs links for no-slash-safe nav...')
+    absolutize_cmd = [
+        sys.executable,
+        os.path.join(REPO, 'scripts', 'absolutize_internal_links.py'),
+        os.path.join(REPO, 'site'),
+    ]
+    abs_run = subprocess.run(absolutize_cmd, capture_output=True, text=True)
+    if abs_run.stdout:
+        print(abs_run.stdout.strip())
+    if abs_run.returncode != 0:
+        if abs_run.stderr:
+            print(abs_run.stderr.strip())
+        sys.exit(abs_run.returncode)
     print('Stabilizing hashed asset names for cache-safe CSS and JavaScript references...')
     stabilize_cmd = [
         sys.executable,

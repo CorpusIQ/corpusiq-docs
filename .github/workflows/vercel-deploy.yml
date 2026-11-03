@@ -92,6 +92,12 @@ jobs:
       - name: Normalize and verify no-slash invariants
         run: python scripts/normalize_site_no_slash.py site
 
+      # Production serves docs pages without a trailing slash, but raw MkDocs
+      # output uses directory-style relative links. Absolutize internal links
+      # to /docs/* so nav cannot resolve one segment too high.
+      - name: Absolutize internal docs links
+        run: python scripts/absolutize_internal_links.py site
+
       # MkDocs hash filenames rotate on each build while docs HTML can be edge
       # cached. Stabilize asset names so cached HTML keeps resolving files.
       - name: Stabilize hashed asset names
