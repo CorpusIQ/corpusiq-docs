@@ -161,6 +161,7 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 
 ## Related Pages
 
+- [Connect Asana to Claude](connect-asana-to-claude.md) - the same project questions, asked from Claude
 - [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - alternative work management in ChatGPT
 - [Connect Jira to ChatGPT](connect-jira-to-chatgpt.md) - software development tracking in ChatGPT
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - documentation and wiki in ChatGPT
