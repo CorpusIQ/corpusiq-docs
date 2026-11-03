@@ -394,6 +394,19 @@ def main():
         sys.exit(1)
     print("   Build OK")
 
+    # 3a. Sitemap dates + per-page schema gate. The sitemap plugin stamps every
+    # URL with the build date, which is what made Ahrefs report "changed pages
+    # not submitted to IndexNow"; scripts/hooks/page_schema.py records each
+    # page's own date and this rewrites the sitemap from it. The gate then fails
+    # the deploy if the Article schema or the date spread is missing, so this
+    # cannot silently regress on a night nobody is watching.
+    print("3a. Rewriting sitemap lastmod from page dates...")
+    out = run("python3 scripts/rewrite_sitemap_lastmod.py --write", fatal=True)
+    print("   " + (out.strip().splitlines()[-1] if out.strip() else "no output"))
+    print("3a. Checking per-page Article schema...")
+    out = run("python3 scripts/check_page_schema.py", fatal=True)
+    print("   " + (out.strip().splitlines()[-1] if out.strip() else "no output"))
+
     # 3b. Normalize to no-slash (docs origin serves no-slash; mkdocs emits slashed):
     #     internal hrefs, sitemap <loc>, and the theme canonical tag. Keeps every
     #     URL on the site in ONE convention so Ahrefs credits inlinks (orphans
