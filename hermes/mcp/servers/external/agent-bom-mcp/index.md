@@ -2,7 +2,7 @@
 title: "agent-bom MCP - The Blast Radius of an AI Supply Chain"
 description: "An open-source AI supply-chain BOM that inventories agents, MCP servers and packages, then shows which credential a vulnerable package can actually reach."
 category: Security / Governance
-stars: ★★★ (open source, driven: offline demo scan plus a live stdio MCP session)
+stars: "★★★ (open source, driven: offline demo scan plus a live stdio MCP session)"
 added: 2026-11-03
 source: "the mcpservers.org /all newest page at position 22 of 30, filed at koda-ai-studio/agent-bom on GitHub with an Apache-2.0 licence and the PyPI package agent-bom, the official registry name io.github.koda-ai-studio/agent-bom, and a driven run on 2026-11-03: uvx agent-bom 0.113.0 scan --demo --offline (5 agents, 10 servers, 23 packages, 15 vulnerabilities, posture F 37/100, exit code 1 as a verdict) plus a stdio initialize and tools/list returning 8 tools"
 relevance: ★★★
