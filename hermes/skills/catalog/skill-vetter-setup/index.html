@@ -1369,7 +1369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://www.corpusiq.io/docs/security" class="md-nav__link">
+      <a href="https://www.corpusiq.io/docs/security/compliance" class="md-nav__link">
         
   
   
@@ -11498,6 +11498,100 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#vetting-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vetting Protocol
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vetting Protocol">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-metadata-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Metadata Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-permission-scope-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Permission Scope Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-pattern-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Pattern Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-recommendation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Recommendation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-vetting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual Vetting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hermes-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hermes Integration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#related-skills" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11635,6 +11729,100 @@
 - Review the red-flag report before installing
 - Cross-reference permissions against the skill's stated purpose
 - For production, require second reviewer for any skill with shell or network access</p>
+<h2 id="vetting-protocol">Vetting Protocol<a class="headerlink" href="#vetting-protocol" title="Anchor link to this section">&para;</a></h2>
+<p>The skill works through four stages and ends with one of three recommendations.</p>
+<h3 id="step-1-metadata-check">Step 1: Metadata Check<a class="headerlink" href="#step-1-metadata-check" title="Anchor link to this section">&para;</a></h3>
+<ul>
+<li>Verify <code>name</code> matches the expected skill name (no typosquatting)</li>
+<li>Check <code>version</code> follows semver</li>
+<li>Confirm <code>description</code> is clear and matches what the skill does</li>
+<li>Ensure <code>author</code> is identifiable (not anonymous)</li>
+</ul>
+<h3 id="step-2-permission-scope-analysis">Step 2: Permission Scope Analysis<a class="headerlink" href="#step-2-permission-scope-analysis" title="Anchor link to this section">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Risk Level</th>
+<th>Justification Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>fileRead</code></td>
+<td>Low</td>
+<td>Almost always legitimate</td>
+</tr>
+<tr>
+<td><code>fileWrite</code></td>
+<td>Medium</td>
+<td>Must justify what files and why</td>
+</tr>
+<tr>
+<td><code>network</code></td>
+<td>Medium-High</td>
+<td>Must specify endpoints and data sent</td>
+</tr>
+<tr>
+<td><code>shell</code></td>
+<td>High</td>
+<td>Requires strong justification and sandboxing</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-3-pattern-analysis">Step 3: Pattern Analysis<a class="headerlink" href="#step-3-pattern-analysis" title="Anchor link to this section">&para;</a></h3>
+<ul>
+<li>Command injection vectors (<code>eval</code>, <code>exec</code>, system calls)</li>
+<li>Obfuscated code or base64-encoded payloads</li>
+<li>Hardcoded URLs or IPs (potential data exfiltration)</li>
+<li>Excessive permission requests relative to stated functionality</li>
+</ul>
+<h3 id="step-4-recommendation">Step 4: Recommendation<a class="headerlink" href="#step-4-recommendation" title="Anchor link to this section">&para;</a></h3>
+<ul>
+<li><strong>INSTALL</strong> - no red flags, permissions justified</li>
+<li><strong>REVIEW</strong> - minor concerns, install with monitoring</li>
+<li><strong>BLOCK</strong> - critical red flags, do not install</li>
+</ul>
+<h2 id="manual-vetting">Manual Vetting<a class="headerlink" href="#manual-vetting" title="Anchor link to this section">&para;</a></h2>
+<p>When reviewing a skill by hand, apply the same checks in order:</p>
+<ol>
+<li>Read the SKILL.md frontmatter - verify <code>name</code>, <code>version</code>, <code>description</code>, <code>author</code></li>
+<li>Check the <code>allowed-tools</code> or <code>permissions</code> section - assess risk level per tool</li>
+<li>Scan for suspicious patterns: <code>eval()</code>, <code>exec()</code>, base64 strings, hardcoded URLs</li>
+<li>Compare stated functionality against requested permissions - they should align</li>
+<li>Document the decision: INSTALL / REVIEW / BLOCK with justification</li>
+</ol>
+<h2 id="hermes-integration">Hermes Integration<a class="headerlink" href="#hermes-integration" title="Anchor link to this section">&para;</a></h2>
+<p>For CorpusIQ Hermes agents, put skill-vetter into the governance pipeline:</p>
+<ol>
+<li><strong>Pre-install gate</strong>: run vetting before any <code>npx skills add</code> command</li>
+<li><strong>Weekly re-audit</strong>: re-vet all installed skills every Sunday</li>
+<li><strong>Audit log</strong>: write vetting results to <code>~/.hermes/profiles/&lt;your-profile&gt;/skill-audits/YYYY-MM-DD.md</code></li>
+<li><strong>Block escalation</strong>: BLOCK results go to the ops email digest (media@) immediately</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unknown skill format</td>
+<td>Ensure the skill has a SKILL.md with proper frontmatter</td>
+</tr>
+<tr>
+<td>Missing author info</td>
+<td>Flag as REVIEW - anonymous skills require extra scrutiny</td>
+</tr>
+<tr>
+<td>Permission mismatch</td>
+<td>If a skill requests <code>shell</code> but only needs <code>fileRead</code>, flag as BLOCK</td>
+</tr>
+</tbody>
+</table>
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup">OpenClaw Ecosystem (June 26)</a></li>

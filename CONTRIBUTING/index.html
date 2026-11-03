@@ -1369,7 +1369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://www.corpusiq.io/docs/security" class="md-nav__link">
+      <a href="https://www.corpusiq.io/docs/security/compliance" class="md-nav__link">
         
   
   
@@ -11476,6 +11476,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#one-source-file-per-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        One source file per URL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#questions" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11573,6 +11584,17 @@ See <code>examples/</code> for existing examples.</p>
 <li>Use real field names, real connector names, real queries.</li>
 <li>No marketing language in technical docs.</li>
 </ul>
+<h2 id="one-source-file-per-url">One source file per URL<a class="headerlink" href="#one-source-file-per-url" title="Anchor link to this section">&para;</a></h2>
+<p>MkDocs does not fail when <code>page.md</code> and <code>page/index.md</code> both exist. It builds one
+and drops the other silently, so an edit to the shadowed file changes nothing on
+the site. Before 2026-11-03 thirteen pages were in that state.</p>
+<p>Pick one location per page:</p>
+<ul>
+<li>a flat file (<code>hermes/ecosystem.md</code>) when the page has no children, or</li>
+<li>a folder with <code>index.md</code> (<code>hermes/ecosystem/index.md</code>) when it does.</li>
+</ul>
+<p>Never both. <code>python3 scripts/check_source_url_collisions.py</code> reports the current
+state, and <code>hooks/duplicate_source_pair_gate.py</code> fails the build on a new pair.</p>
 <hr />
 <h2 id="questions">Questions<a class="headerlink" href="#questions" title="Anchor link to this section">&para;</a></h2>
 <p>Use GitHub Discussions, not issues:

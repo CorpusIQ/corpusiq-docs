@@ -1369,7 +1369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://www.corpusiq.io/docs/security" class="md-nav__link">
+      <a href="https://www.corpusiq.io/docs/security/compliance" class="md-nav__link">
         
   
   
@@ -11526,6 +11526,50 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#security-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optional Analytics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Commands
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#related-skills" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11671,6 +11715,49 @@ pnpm<span class="w"> </span>dev
 - Login with configured <code>AUTH_USER</code> / <code>AUTH_PASS</code>
 - Database file exists at <code>./state/hermes.db</code>
 - OpenClaw integration shows agent status (if configured)</p>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:3000<span class="w"> </span><span class="p">|</span><span class="w"> </span>head<span class="w"> </span>-5
+</code></pre></div>
+<h2 id="security-configuration">Security Configuration<a class="headerlink" href="#security-configuration" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Host access lock (default: local-only)</span>
+<span class="nv">HERMES_HOST_LOCK</span><span class="o">=</span><span class="nb">local</span><span class="w">  </span><span class="c1"># or &#39;off&#39; or &#39;host1,host2&#39;</span>
+
+<span class="c1"># Writeback protection (keep false unless explicitly needed)</span>
+<span class="nv">HERMES_ALLOW_POLICY_WRITE</span><span class="o">=</span><span class="nb">false</span>
+<span class="nv">HERMES_ALLOW_CRON_WRITE</span><span class="o">=</span><span class="nb">false</span>
+<span class="nv">HERMES_ALLOW_WORKSPACE_WRITE</span><span class="o">=</span><span class="nb">false</span>
+</code></pre></div>
+<p>Read-only is the default. Every writeback switch is off until you turn it on, which is what makes the dashboard safe to point at a live agent workspace.</p>
+<h2 id="optional-analytics">Optional Analytics<a class="headerlink" href="#optional-analytics" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Plausible Analytics</span>
+<span class="nv">NEXT_PUBLIC_PLAUSIBLE_DOMAIN</span><span class="o">=</span>yourdomain.com
+<span class="nv">PLAUSIBLE_API_KEY</span><span class="o">=</span>your-plausible-api-key
+
+<span class="c1"># Google Analytics 4</span>
+<span class="nv">NEXT_PUBLIC_GA4_ID</span><span class="o">=</span>G-XXXXXXXXXX
+</code></pre></div>
+<h2 id="key-commands">Key Commands<a class="headerlink" href="#key-commands" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Development</span>
+pnpm<span class="w"> </span>dev<span class="w">              </span><span class="c1"># Start development server</span>
+pnpm<span class="w"> </span>build<span class="w">            </span><span class="c1"># Build for production</span>
+pnpm<span class="w"> </span>start<span class="w">            </span><span class="c1"># Start production server</span>
+
+<span class="c1"># Quality</span>
+pnpm<span class="w"> </span>typecheck<span class="w">        </span><span class="c1"># Type checking</span>
+pnpm<span class="w"> </span>lint<span class="w">             </span><span class="c1"># Linting</span>
+pnpm<span class="w"> </span><span class="nb">test</span><span class="w">             </span><span class="c1"># Run tests</span>
+pnpm<span class="w"> </span>test:e2e<span class="w">         </span><span class="c1"># Run end-to-end tests</span>
+
+<span class="c1"># Database</span>
+pnpm<span class="w"> </span>env:bootstrap<span class="w">    </span><span class="c1"># Bootstrap environment and database</span>
+pnpm<span class="w"> </span>db:reset<span class="w">         </span><span class="c1"># Reset database (destructive)</span>
+</code></pre></div>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Self-hosted with local SQLite - no cloud dependency</li>
+<li>OpenClaw-native - designed to integrate with OpenClaw agent infrastructure</li>
+<li>Read-only by default - writeback protection prevents accidental mutations</li>
+<li>From the <a href="https://ara.so">ara.so</a> Marketing Skills collection</li>
+</ul>
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-framework-setup">Hermes Agent Framework</a></li>

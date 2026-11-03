@@ -24,12 +24,14 @@ from pathlib import Path
 AZ_TZ = timezone(timedelta(hours=-7))  # Arizona = UTC-7 (no DST)
 REPO_ROOT = Path(__file__).resolve().parents[1]
 # Fall back to the legacy fixed clone only if this copy has no data root
-# (keeps every existing runner working unchanged).
-if not (REPO_ROOT / "ecosystem.md").exists():
+# (keeps every existing runner working unchanged). The published directory is
+# the sentinel: the old `ecosystem.md` twin is gone (collision closed Nov 3
+# 2026), and pointing this check at it would silently retarget every run to
+# /tmp the moment it disappeared.
+if not (REPO_ROOT / "ecosystem" / "index.md").exists():
     REPO_ROOT = Path("/tmp/corpusiq-docs/hermes")
 DATA_DIR = REPO_ROOT / "data"
 TOKEN_PATH = Path(os.path.expanduser("~/.hermes/profiles/corpusiq/secrets/github.token"))
-ECOSYSTEM_MD = REPO_ROOT / "ecosystem.md"
 
 # Database files
 APPROVED_DB = DATA_DIR / "approved_repos.json"
@@ -269,13 +271,11 @@ def merge_save_db(path, data, key=lambda e: json.dumps(e, sort_keys=True, defaul
 
 
 def sync_contributors(submissions, approved_count):
-    """Write the submission tally to BOTH contributors surfaces.
+    """Write the submission tally to the published contributors page.
 
-    contributors.md is a MIRROR: mkdocs serves hermes/contributors/index.md.
-    Updating only the mirror left the live page frozen (served page read 2694
-    while the mirror read 2701). Same published-vs-mirror split that
-    integrate_approved.py closes for ecosystem. Keep both in lockstep here so
-    no nightly run can drift again.
+    There used to be two surfaces: contributors.md and contributors/index.md,
+    and only the second is emitted by mkdocs. The twin is gone (collision closed
+    Nov 3 2026), so there is one target and no possible drift.
     """
     import re
     today = datetime.now(AZ_TZ).strftime("%Y-%m-%d")
@@ -283,7 +283,6 @@ def sync_contributors(submissions, approved_count):
         r"(\| \[@?CorpusIQ\]\(https://github\.com/CorpusIQ\) \| )(\d+)( \| )(\d+)( \|)"
     )
     targets = [
-        REPO_ROOT / "contributors.md",
         REPO_ROOT / "contributors" / "index.md",
     ]
     touched = []
@@ -526,13 +525,12 @@ def discover_repos(token, dry_run=False):
     if synced:
         print(f"👥 contributors synced ({merged_pending} submissions, {merged_approved} approved): {', '.join(synced)}")
 
-    # Auto-update ecosystem.md with new approved repos
+    # New approved repos belong in ecosystem/index.md, the published page
     if auto_approved:
         print(f"\n📝 {len(auto_approved)} new repos ready for ecosystem integration")
         print("   ⚠️  INTEGRATE INTO hermes/ecosystem/index.md (the PUBLISHED page).")
-        print("       hermes/ecosystem.md is not emitted by the mkdocs build.")
 
-    # Write a report file for the agent to use when updating ecosystem.md.
+    # Write a report file for the agent to use when updating the directory.
     # ALWAYS write it, including zero-approval runs: a stale report from a
     # previous night silently misdescribes the run that just happened.
     report = {
@@ -540,12 +538,10 @@ def discover_repos(token, dry_run=False):
         "new_approved": auto_approved,
         "integration": {
             "published_file": "hermes/ecosystem/index.md",
-            "mirror_file": "hermes/ecosystem.md",
             "note": (
-                "hermes/ecosystem.md is NOT emitted by the mkdocs build and collides "
-                "with hermes/ecosystem/index.md at /hermes/ecosystem/. Add every approved "
-                "repo to hermes/ecosystem/index.md (the page users see). Mirror into "
-                "ecosystem.md only to keep the two files in sync."
+                "Add every approved repo to hermes/ecosystem/index.md - it is the "
+                "page users see at /hermes/ecosystem/. The old ecosystem.md twin "
+                "is gone (collision closed Nov 3 2026); there is no mirror to keep."
             ),
         },
         "stats": {

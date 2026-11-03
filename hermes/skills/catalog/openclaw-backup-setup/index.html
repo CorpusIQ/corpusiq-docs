@@ -1369,7 +1369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://www.corpusiq.io/docs/security" class="md-nav__link">
+      <a href="https://www.corpusiq.io/docs/security/compliance" class="md-nav__link">
         
   
   
@@ -11537,6 +11537,106 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#quick-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hermes-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hermes Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hermes Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cron-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cron Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-does-openclaw-backup-encrypt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What does OpenClaw Backup encrypt?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-is-the-recovery-password-stored" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where is the recovery password stored?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-often-should-the-backup-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How often should the backup run?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#related-skills" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11698,10 +11798,76 @@ npx<span class="w"> </span>skills<span class="w"> </span>run<span class="w"> </s
 - Test upload with a small workspace
 - Confirm the recovery file is created and contains the password
 - Test restore to a temp directory</p>
+<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
+<p>From the installed skill directory, <code>backup.py</code> is the script that does the work:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Upload a backup (default workspace files)</span>
+python<span class="w"> </span>backup.py<span class="w"> </span>upload
+
+<span class="c1"># Upload specific files</span>
+python<span class="w"> </span>backup.py<span class="w"> </span>upload<span class="w"> </span>--files<span class="w"> </span>SOUL.md<span class="w"> </span>MEMORY.md<span class="w"> </span>IDENTITY.md
+
+<span class="c1"># Download a backup by ID</span>
+python<span class="w"> </span>backup.py<span class="w"> </span>download<span class="w"> </span>&lt;backup-id&gt;
+
+<span class="c1"># List available backups</span>
+python<span class="w"> </span>backup.py<span class="w"> </span>list
+
+<span class="c1"># Delete a remote backup</span>
+python<span class="w"> </span>backup.py<span class="w"> </span>delete<span class="w"> </span>&lt;backup-id&gt;
+</code></pre></div>
+<p>If the skill was installed through the <code>skills</code> CLI, the same operations are exposed as <code>npx skills run openclaw-backup --restore &lt;backup-id&gt;</code> and <code>--delete &lt;backup-id&gt;</code>.</p>
+<h2 id="hermes-integration">Hermes Integration<a class="headerlink" href="#hermes-integration" title="Anchor link to this section">&para;</a></h2>
+<p>For Hermes agents, put the backup in the session-end ritual:</p>
+<ol>
+<li>Before shutdown, back up all workspace files</li>
+<li>Store the recovery password in <code>~/.hermes/profiles/&lt;your-profile&gt;/backup-recovery.json</code></li>
+<li>On new session start, verify backup integrity</li>
+<li>Schedule a weekly full backup via cron</li>
+</ol>
+<h3 id="cron-example">Cron Example<a class="headerlink" href="#cron-example" title="Anchor link to this section">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Weekly encrypted backup (Sunday 2 AM)</span>
+<span class="m">0</span><span class="w"> </span><span class="m">2</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~/hermes-workspace<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>python<span class="w"> </span>backup.py<span class="w"> </span>upload<span class="w"> </span>--files<span class="w"> </span>SOUL.md<span class="w"> </span>CONSTITUTION.md<span class="w"> </span>SYSTEM_REGISTRY.md
+</code></pre></div>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>openssl: command not found</code></td>
+<td><code>sudo apt install openssl</code> (Linux) or <code>brew install openssl</code> (macOS)</td>
+</tr>
+<tr>
+<td>Upload fails (auth)</td>
+<td>Verify the soul-upload.com API key in the environment</td>
+</tr>
+<tr>
+<td>Decrypt fails</td>
+<td>You need the exact recovery password - each backup uses a unique one</td>
+</tr>
+<tr>
+<td>Missing Python dependencies</td>
+<td><code>pip install requests</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="what-does-openclaw-backup-encrypt">What does OpenClaw Backup encrypt?<a class="headerlink" href="#what-does-openclaw-backup-encrypt" title="Anchor link to this section">&para;</a></h3>
+<p>Every file in the backup set is encrypted locally with AES-256-CBC before it leaves the machine. The upload service only ever receives ciphertext.</p>
+<h3 id="where-is-the-recovery-password-stored">Where is the recovery password stored?<a class="headerlink" href="#where-is-the-recovery-password-stored" title="Anchor link to this section">&para;</a></h3>
+<p>The password is generated per backup and stored in the local recovery file. Keep a copy somewhere separate from the backup itself, because a lost password means the archive cannot be decrypted.</p>
+<h3 id="how-often-should-the-backup-run">How often should the backup run?<a class="headerlink" href="#how-often-should-the-backup-run" title="Anchor link to this section">&para;</a></h3>
+<p>Weekly is the common cadence for workspace files that change slowly. Run it before any upgrade, profile change, or machine migration.</p>
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/clawdstrike-setup">Clawd Strike Setup</a></li>
 <li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup">OpenClaw Ecosystem (June 26)</a></li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-backup-recovery-setup">Hermes Backup Recovery Setup</a> - general Hermes backup strategy</li>
+<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup">Hermes Full Backup Setup</a> - full system backup</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
