@@ -3,6 +3,10 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/docs/assets/:dir(stylesheets|javascripts)/:stem([A-Za-z0-9_-]+)\\.:hash([0-9a-f]{6,32})\\.min\\.:ext(css|js)",
+      "destination": "/assets/:dir/:stem.min.:ext"
+    },
+    {
       "source": "/docs/assets/:path*",
       "destination": "/assets/:path*"
     },
