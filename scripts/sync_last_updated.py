@@ -49,14 +49,41 @@ def git(*args: str) -> str:
     return out.stdout if out.returncode == 0 else ""
 
 
+def is_stamp_only(sha: str, path: str) -> bool:
+    """True when this commit's change to `path` touched only last_updated lines.
+
+    The subject marker alone is too coarse: a mixed commit such as
+    "docs(freshness): refresh 2 stale pages + sync last_updated stamps" carries
+    the stamp sync for hundreds of pages it did not otherwise edit. Counting
+    that as content makes every one of them look freshly updated, so the date
+    has to be judged per file from the diff.
+    """
+    diff = git("show", "--unified=0", "--format=", sha, "--", path)
+    if not diff.strip():
+        return False
+    changed = [
+        ln for ln in diff.splitlines()
+        if (ln.startswith("+") or ln.startswith("-")) and not ln.startswith(("+++", "---"))
+    ]
+    return bool(changed) and all(
+        ln[1:].lstrip().startswith("last_updated:") for ln in changed
+    )
+
+
 def last_content_date(path: str) -> str | None:
     """Last commit date (YYYY-MM-DD) that changed `path`, ignoring stamp commits."""
-    log = git("log", "--format=%cs\t%s", "--follow", "--", path)
+    log = git("log", "--format=%H\t%cs\t%s", "--follow", "--", path)
     for line in log.splitlines():
         if not line.strip():
             continue
-        date, _, subject = line.partition("\t")
+        parts = line.split("\t")
+        if len(parts) < 2:
+            continue
+        sha, date = parts[0], parts[1]
+        subject = parts[2] if len(parts) > 2 else ""
         if subject.startswith(MARKER):
+            continue
+        if is_stamp_only(sha, path):
             continue
         return date
     return None
@@ -110,6 +137,32 @@ def main() -> int:
             continue
 
         fm = m.group(1)
+
+        # 0. Duplicate keys. LU_RE cannot parse a non-ISO value such as
+        #    "June 22, 2026", so an older run treated the field as missing and
+        #    APPENDED a second last_updated instead of replacing the first.
+        #    YAML quietly keeps the last one, so the page shipped two claims
+        #    about its own freshness and the original date was lost. Collapse
+        #    to a single truthful line before anything else looks at the block.
+        dup_lines = [ln for ln in fm.split("\n") if ln.startswith("last_updated:")]
+        if len(dup_lines) > 1:
+            kept_lines, seen = [], False
+            for ln in fm.split("\n"):
+                if ln.startswith("last_updated:"):
+                    if not seen:
+                        kept_lines.append(f'last_updated: "{gdate}"')
+                        seen = True
+                    continue
+                kept_lines.append(ln)
+            new_fm = "\n".join(kept_lines)
+            old = " | ".join(v.split(":", 1)[1].strip() for v in dup_lines)
+            bumped.append((rel, f"duplicate:{old}", gdate))
+            if args.apply and not (args.limit and len(bumped) + len(added) > args.limit):
+                new_text = text[: m.start(1)] + new_fm + text[m.end(1) :]
+                with open(full, "w", encoding="utf-8") as fh:
+                    fh.write(new_text)
+            continue
+
         lu = LU_RE.search(fm)
         if lu:
             current = lu.group(3)

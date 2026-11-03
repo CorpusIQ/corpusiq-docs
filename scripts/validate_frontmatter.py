@@ -53,6 +53,7 @@ STRING_KEYS = {
 
 FM_RE = re.compile(r"^---\n(.*?)\n---(\n|$)", re.DOTALL)
 LINE_RE = re.compile(r"^([A-Za-z_][\w-]*): (.+?)\s*$")
+KEY_RE = re.compile(r"^([A-Za-z_][\w-]*):")
 
 # Folders to scan. Everything published lives under these; vendored/build dirs
 # and the site output are excluded.
@@ -105,6 +106,24 @@ def check_file(path: str) -> list[str]:
                 f"`{key}` is silently truncated to {parsed!r} "
                 f"(the rest is read as a YAML comment) — wrap the value in quotes"
             )
+    # 3. Duplicate top-level keys. PyYAML accepts them silently and keeps the
+    #    last value, so a second `last_updated:` overwrites the first with no
+    #    error and the page ships two contradicting claims about its freshness.
+    #    Every other gate reads keys by name and never notices.
+    seen_keys: dict[str, int] = {}
+    for idx, raw_line in enumerate(block.split("\n"), start=1):
+        km = KEY_RE.match(raw_line)
+        if not km:
+            continue
+        key = km.group(1)
+        if key in seen_keys:
+            problems.append(
+                f"duplicate frontmatter key `{key}` "
+                f"(first on line {seen_keys[key]}, again on line {idx}) — "
+                f"YAML keeps only the last value"
+            )
+        else:
+            seen_keys[key] = idx
     return problems
 
 
