@@ -81,7 +81,7 @@ If none of the above worked, collect:
 - The vendor account email you used.
 
 Email support. There's a per-connector page in
-[../connectors/](../connectors/README.md) with vendor-specific quirks worth
+[the connector directory](../docs/connectors.md) with vendor-specific quirks worth
 checking too.
 ---
 
