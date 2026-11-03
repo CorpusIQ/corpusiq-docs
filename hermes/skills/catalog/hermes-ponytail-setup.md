@@ -3,7 +3,7 @@ title: "Hermes Ponytail Skill Pack: Setup Guide"
 description: Ponytail makes a Hermes agent work like the laziest senior developer. YAGNI-first, stdlib-first, no unrequested abstractions. Install the 7-skill pack.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-ponytail-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-02"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
