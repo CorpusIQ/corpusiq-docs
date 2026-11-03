@@ -140,6 +140,14 @@ def main():
         if abs_run.stderr:
             print(abs_run.stderr.strip())
         sys.exit(abs_run.returncode)
+    for step in ('apply_canonical_overrides.py', 'prune_non_canonical_sitemap_entries.py'):
+        cmd = [sys.executable, os.path.join(REPO, 'scripts', step), os.path.join(REPO, 'site')]
+        proc = subprocess.run(cmd, capture_output=True, text=True)
+        if proc.stdout:
+            print(proc.stdout.strip())
+        if proc.returncode != 0:
+            print(proc.stderr.strip())
+            sys.exit(proc.returncode)
     print('Stabilizing hashed asset names for cache-safe CSS and JavaScript references...')
     stabilize_cmd = [
         sys.executable,
