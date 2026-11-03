@@ -114,25 +114,37 @@ def _page_url(config, page) -> str:
 
 
 def _children(page, files) -> list:
-    """Direct child pages of a section index, as {name, url}."""
+    """Direct child pages of a section landing page, as {name, url}.
+
+    Two shapes exist in this corpus: a section ``index.md`` and a flat landing
+    page ``section.md`` whose children live in the sibling ``section/``
+    directory (docs/connectors.md is one). A child is ``name.md`` or
+    ``name/index.md`` one level down; anything deeper owns its own section.
+    """
     src = page.file.src_uri
-    if not src.endswith("index.md"):
+    if src.endswith("index.md"):
+        prefix = src[: -len("index.md")]
+    elif src.endswith(".md") and any(f.src_uri.startswith(src[:-3] + "/") for f in files):
+        prefix = src[:-3] + "/"
+    else:
         return []
-    prefix = src[: -len("index.md")]
     out = []
     for f in files:
-        if f.src_uri.endswith("index.md") or not f.src_uri.startswith(prefix) or f.src_uri == src:
+        if not f.src_uri.startswith(prefix) or f.src_uri == src:
             continue
         rest = f.src_uri[len(prefix):]
-        if "/" in rest:      # grandchildren belong to their own section index
+        stem = rest[:-3]
+        if stem.endswith("/index"):
+            stem = stem[: -len("/index")]
+        if not stem or "/" in stem:      # deeper pages own their own section
             continue
         title = ""
         child_page = getattr(f, "page", None)
         if child_page is not None:
             title = (child_page.title or "").strip()
         if not title:
-            title = rest[:-3].replace("-", " ").replace("_", " ").strip().title()
-        out.append({"name": title, "url": rest[:-3] + "/"})
+            title = stem.replace("-", " ").replace("_", " ").strip().title()
+        out.append({"name": title, "url": stem + "/"})
     return out
 
 
