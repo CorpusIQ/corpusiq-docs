@@ -92,6 +92,11 @@ jobs:
       - name: Normalize and verify no-slash invariants
         run: python scripts/normalize_site_no_slash.py site
 
+      # MkDocs hash filenames rotate on each build while docs HTML can be edge
+      # cached. Stabilize asset names so cached HTML keeps resolving files.
+      - name: Stabilize hashed asset names
+        run: python scripts/stabilize_hashed_assets.py site
+
       - name: Deploy to Vercel production
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
@@ -105,6 +110,8 @@ jobs:
       - name: Probe production markers
         run: |
           python - <<'EOF'
+          import re
+          from urllib.parse import urljoin, urlsplit
           import urllib.request
 
           # Marker: truthful directory disclosure wording shipped by PR #98.
@@ -125,6 +132,50 @@ jobs:
               print(f"PROBE {'OK  ' if ok else 'FAIL'} {url}")
               if not ok:
                   failed.append(url)
+
+          docs_url = "https://www.corpusiq.io/docs"
+          try:
+              docs_body = urllib.request.urlopen(docs_url, timeout=30).read().decode("utf-8", "ignore")
+          except Exception as exc:
+              failed.append(f"{docs_url} (html fetch failed: {exc})")
+              docs_body = ""
+
+          local_refs = set()
+          for ref in re.findall(r'(?:href|src)=["\']([^"\']+)["\']', docs_body):
+              no_fragment = ref.split("#", 1)[0]
+              no_query = no_fragment.split("?", 1)[0].lower()
+              if not no_query.endswith((".css", ".js")):
+                  continue
+              parsed = urlsplit(ref)
+              if parsed.scheme in ("http", "https") and parsed.hostname not in {"www.corpusiq.io", "docs.corpusiq.io"}:
+                  continue
+              if ref.startswith("//"):
+                  host = urlsplit(f"https:{ref}").hostname
+                  if host not in {"www.corpusiq.io", "docs.corpusiq.io"}:
+                      continue
+                  target = f"https:{ref}"
+              elif parsed.scheme in ("http", "https"):
+                  target = ref
+              else:
+                  target = urljoin(docs_url + "/", ref)
+              local_refs.add(target)
+
+          asset_failures = []
+          for ref in sorted(local_refs):
+              try:
+                  with urllib.request.urlopen(ref, timeout=30) as response:
+                      code = response.getcode()
+                      content_type = response.headers.get("content-type", "")
+                  ok = code == 200 and "text/html" not in content_type.lower()
+                  if not ok:
+                      asset_failures.append(f"{ref} (status={code}, content-type={content_type})")
+              except Exception as exc:
+                  asset_failures.append(f"{ref} ({exc})")
+
+          for item in asset_failures:
+              print(f"ASSET FAIL {item}")
+          failed.extend(asset_failures)
+
           if failed:
               raise SystemExit(f"Production probe failed for: {', '.join(failed)}")
           EOF

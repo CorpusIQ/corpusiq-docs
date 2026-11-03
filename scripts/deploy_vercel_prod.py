@@ -127,6 +127,19 @@ def main():
     normalize_no_slash()
     if not verify_no_slash():
         sys.exit(1)
+    print('Stabilizing hashed asset names for cache-safe CSS and JavaScript references...')
+    stabilize_cmd = [
+        sys.executable,
+        os.path.join(REPO, 'scripts', 'stabilize_hashed_assets.py'),
+        os.path.join(REPO, 'site'),
+    ]
+    stab = subprocess.run(stabilize_cmd, capture_output=True, text=True)
+    if stab.stdout:
+        print(stab.stdout.strip())
+    if stab.returncode != 0:
+        if stab.stderr:
+            print(stab.stderr.strip())
+        sys.exit(stab.returncode)
     env = dict(os.environ)
     env['VERCEL_PROJECT_ID'] = creds.get('docs_project_id', '')
     env['VERCEL_ORG_ID'] = TEAM_ID
