@@ -3,7 +3,7 @@ title: "components.build - UI Component Standards Setup"
 description: "vercel/components.build: 14.8K combined installs. One skill that turns the components.build spec into rules for composable, accessible UI components."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-components-build-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "ui components", "design systems", "accessibility"]
 ---
 

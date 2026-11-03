@@ -3,7 +3,7 @@ title: "Application Skills - SaaS Integration Suite Setup"
 description: "membranedev/application-skills: 58.0K combined installs. 3,074 per-app skills let an agent drive Membrane's managed integrations for 3,000+ SaaS apps."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/application-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "saas integrations", "membrane", "oauth", "api"]
 ---
 

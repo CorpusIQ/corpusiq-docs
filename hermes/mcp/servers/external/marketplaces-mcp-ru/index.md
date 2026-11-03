@@ -7,7 +7,7 @@ added: 2026-09-07
 source: "chatmcp/mcpso issue #3978"
 relevance: ★★★
 tags: [ecommerce, wildberries, ozon, yandex-market, avito, seller-api, stdio, russia]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # marketplaces-mcp-ru - Russian Marketplace Seller Operations for Agents

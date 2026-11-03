@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 30, 2026 (Night)"
 description: "Six hours after the evening pass: the directory counter moved for the first time in three reads, and one business-research corpus earns the entry."
-last_updated: 2026-10-30
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october30-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

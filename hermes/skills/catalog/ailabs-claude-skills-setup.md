@@ -3,7 +3,7 @@ title: "AI Labs Claude Skills - 27 Skill Business Suite Setup"
 description: "ailabs-393/ai-labs-claude-skills: 42.1K combined installs across 27 skills for travel, finance, research writing, pitch decks, SEO and Office docs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ailabs-claude-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "business operations", "document generation"]
 ---
 

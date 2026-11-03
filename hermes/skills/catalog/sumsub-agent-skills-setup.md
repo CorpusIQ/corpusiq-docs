@@ -3,7 +3,7 @@ title: "Sumsub Agent Skills - KYC and AML Platform Setup"
 description: "Sumsub's first-party API suite: 25.0K combined installs. KYC levels, questionnaires, WebSDK, AML rules, and Travel Rule integration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sumsub-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "kyc", "aml", "identity verification"]
 ---
 

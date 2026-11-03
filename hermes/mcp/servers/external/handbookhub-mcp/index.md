@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The mcp.so homepage recentServers block on 2026-10-31 at 17:06:19Z under the slug handbookhub-mcp, filed verified and featured; the vendor MCP documentation at https://handbookhub.com/mcp read in full; the pricing page at https://handbookhub.com/pricing; and a live JSON-RPC initialize against https://api.handbookhub.com/mcp returning HTTP 401 with the body A valid API token is required"
 relevance: ★★★
 tags: [hr, employee-handbook, policy-search, internal-knowledge, citations, access-scoped-tokens, read-only, remote-mcp, streamable-http]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # HandbookHub MCP

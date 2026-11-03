@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 24, 2026 (Midday Supplement)"
 description: "A flat directory pass where the ledger moved: fifteen names a prior pass had counted as disposed were unread, and one is German employment law."
-last_updated: 2026-10-24
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october24-2026-midday-supplement/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

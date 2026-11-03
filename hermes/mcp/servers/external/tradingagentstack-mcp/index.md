@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live JSON-RPC probes on https://tradingagentstack.com/api/mcp answering initialize as tradingagentstack 0.5.0 and the full tools/list, the executed calls list_category, broker_order_gating, get_incidents and search_tools, the submission issue chatmcp/mcpso 6243, the docs page https://tradingagentstack.com/mcp/ and the MIT repository intoApex/tradingagentstack-mcp"
 relevance: ★★★
 tags: [trading, broker-mcp, agent-risk, custody, incidents, finance, keyless, streamable-http]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # TradingAgentStack MCP

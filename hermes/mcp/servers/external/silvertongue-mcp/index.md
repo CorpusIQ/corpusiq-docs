@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "mcp.so GitHub issue #6416"
 relevance: ★★
 tags: [writing, content, copywriting, voice, prompts, resources, keyless, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Silvertongue MCP

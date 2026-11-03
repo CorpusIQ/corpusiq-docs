@@ -3,7 +3,7 @@ title: "Awesome Ecommerce Skills - Commerce Index"
 description: "finsilabs/awesome-ecommerce-skills: 17.8K combined installs. 181 e-commerce skills for storefront, merchandising and marketplace work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-ecommerce-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "ecommerce", "shopify", "merchandising"]
 ---
 

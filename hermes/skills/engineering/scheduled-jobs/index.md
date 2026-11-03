@@ -3,7 +3,7 @@ title: "scheduled-jobs - CorpusIQ Docs"
 description: Operate, debug, and verify recurring agent work - daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the one-gateway host model, profile timezone semantics, no-agent script rules, and the discipline that keeps cron from rotting silently.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/scheduled-jobs/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

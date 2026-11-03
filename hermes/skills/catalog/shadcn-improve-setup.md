@@ -3,7 +3,7 @@ title: "shadcn Improve - Codebase Audit to Plan Setup"
 description: "shadcn's improve skill: 37.5K combined installs. Audit a codebase with your best model, then hand self-contained plans to cheaper agents to execute."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shadcn-improve-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "code audit", "planning", "shadcn"]
 ---
 

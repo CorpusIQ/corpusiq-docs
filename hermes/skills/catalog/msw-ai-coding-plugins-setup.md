@@ -3,7 +3,7 @@ title: "MSW AI Coding Plugins - MapleStory Worlds Suite Setup"
 description: "MapleStory Worlds plugin suite: 119.4K combined installs. mlua scripting, models, UI, combat and sprite skills for game-building agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/msw-ai-coding-plugins-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "gamedev", "maple story worlds", "mlua"]
 ---
 

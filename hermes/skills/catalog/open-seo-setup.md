@@ -3,7 +3,7 @@ title: "OpenSEO - Self-Hosted SEO Platform, MCP and Skills Setup"
 description: "OpenSEO: 64.2K combined installs. Self-hosted SEO platform with Docker or Cloudflare, a DataForSEO-backed MCP server, and 12 agent skill workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/open-seo-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "seo", "mcp", "keyword research"]
 ---
 

@@ -11,7 +11,7 @@ canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agency-set
 robots: "index,follow"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 > **Upstream status (2026-10-31):** `DeployFaith/Hermes_Agency` is no longer available. GitHub returns 404 and the repository cannot be cloned; the commands below are kept as published and will fail until the project reappears.

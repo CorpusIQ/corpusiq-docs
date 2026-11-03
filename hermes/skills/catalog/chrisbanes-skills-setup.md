@@ -3,7 +3,7 @@ title: "Chris Banes Skills - Compose and Kotlin Suite"
 description: "chrisbanes/skills: 32.8K combined installs. Twenty Kotlin and Jetpack Compose skills for state, motion, performance, testing and Gradle workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/chrisbanes-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "android", "jetpack compose", "kotlin"]
 ---
 

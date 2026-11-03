@@ -3,7 +3,7 @@ title: "Diagram Design - Editorial HTML and SVG Diagrams"
 description: "Diagram Design: 18.8K combined installs. Forty-five diagram types as one self-contained HTML plus SVG file, matched to your brand palette."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/diagram-design-setup/"
 robots: "index,follow"
-last_updated: "2026-10-25"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "diagrams", "svg", "design"]
 ---
 

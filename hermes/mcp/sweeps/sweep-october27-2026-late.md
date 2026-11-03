@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 27, 2026 (Late Sweep)"
 description: "Six finds in a ten hour window, led by a tax invoice path that holds its own drafts, books that compute in code, and a gate outside the agent."
-last_updated: 2026-10-27
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october27-2026-late/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

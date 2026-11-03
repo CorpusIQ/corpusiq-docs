@@ -3,7 +3,7 @@ title: "Java Development Plugin - 12-Skill Java Engineering Setup"
 description: "Java Development Plugin: 17.5K combined installs. 12 skills cover Spring Boot, JUnit 5 testing, Maven and Gradle builds, JPA/Hibernate and Docker."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/custom-plugin-java-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "java", "spring boot", "maven", "jpa"]
 ---
 

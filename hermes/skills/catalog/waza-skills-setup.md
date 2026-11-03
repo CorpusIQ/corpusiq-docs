@@ -3,7 +3,7 @@ title: "Waza - Engineering Habit Skills for Coding Agents"
 description: "Tw93 Waza: 120.1K combined installs. Eight engineering habit skills for planning, debugging, review, UI and prose, driven from one dispatcher."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/waza-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-25"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering habits", "code review", "debugging"]
 ---
 

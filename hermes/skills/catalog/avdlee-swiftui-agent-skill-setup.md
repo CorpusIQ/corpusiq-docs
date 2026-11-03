@@ -3,7 +3,7 @@ title: "SwiftUI Agent Skill - Apple UI Development Setup"
 description: "avdlee/swiftui-agent-skill: 37.9K combined installs. An MIT SwiftUI expert skill for agents: 33 reference files and an Apple docs API refresh loop."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/avdlee-swiftui-agent-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "swiftui", "ios development", "apple platforms"]
 ---
 

@@ -3,7 +3,7 @@ title: "Customware Skills - Low-Code App Builder Suite Setup"
 description: "Customware's sandbox skills: 14.3K combined installs. Domain context, task workflow, CPQ, CRM and trades builders, plus Playwright QA."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/customware-ai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "customware", "low-code", "crm", "playwright"]
 ---
 

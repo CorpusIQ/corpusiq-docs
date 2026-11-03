@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 31, 2026 (Afternoon)"
 description: "Two and a half hours on: a handbook reader, an EU late-payment calculator measured live, and Quebec land data, all three answering first call."
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october31-2026-afternoon/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

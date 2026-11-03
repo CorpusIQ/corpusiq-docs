@@ -3,7 +3,7 @@ title: "Layers Skills - Design System Agent Pack"
 description: "jamiemill/layers-skills: 17.8K combined installs. Nine design skills that walk a product through seven layers of product design."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/layers-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "product design", "design system", "ux"]
 ---
 

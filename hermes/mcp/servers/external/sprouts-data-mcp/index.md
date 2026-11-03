@@ -7,7 +7,7 @@ added: 2026-10-30
 source: "mcpservers.org /all, card sproutsdata.ai"
 relevance: ★★★
 tags: [business-data, market-research, company-data, patents, funding, provenance, remote-mcp, oauth, api-key, credits]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 
 # Sprouts Data MCP

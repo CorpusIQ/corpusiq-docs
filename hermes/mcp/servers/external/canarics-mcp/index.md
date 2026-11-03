@@ -7,7 +7,7 @@ added: 2026-09-10
 source: mcp.so feed
 relevance: ★★★
 tags: [voice, telephony, call-analytics, sales, ai-voice-agent, remote-mcp, eu-hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Canarics MCP

@@ -3,7 +3,7 @@ title: "Proactive Agent - WAL Memory and Compaction Recovery Setup"
 description: "Proactive Agent: 15.2K combined installs. A single SKILL.md turning an agent proactive, persistent across compaction, and safely self-improving."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/proactive-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "agent memory", "proactivity", "context management"]
 ---
 

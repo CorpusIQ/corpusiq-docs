@@ -3,7 +3,7 @@ title: "Dev Event Organizer Skills - Conferences and Meetups Setup"
 description: "Samber's 65 dev event skills: 340.5K combined installs for conference, meetup and hackathon planning, from budget and sponsors to run of show."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dev-event-organizer-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "events", "community operations"]
 ---
 

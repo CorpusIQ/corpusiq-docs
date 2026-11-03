@@ -3,7 +3,7 @@ title: Browser Automation Architecture
 description: "Production browser automation for Hermes agents using Playwright stealth and persistent contexts."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/browser/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

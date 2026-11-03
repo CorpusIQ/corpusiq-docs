@@ -3,7 +3,7 @@ title: "Pilio Skills - Image and PDF Utility API Skills Setup"
 description: "Pilio skills: 64.0K combined installs across 7 image and PDF utility skills that hand generation, cutouts and watermark removal to the Pilio CLI."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pilioai-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "image generation", "image editing", "media api"]
 ---
 

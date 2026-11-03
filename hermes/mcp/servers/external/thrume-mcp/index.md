@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (thrume-app-docs-mcp)"
 relevance: ★★
 tags: [productivity, recordings, evidence, compliance, read-only, oauth, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Thrume MCP

@@ -7,7 +7,7 @@ added: 2026-08-25
 source: "mcp.so GitHub issue #3753"
 relevance: ★★
 tags: [mcp-server, video, transcoding, hosting, captions, media]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Transcodely MCP

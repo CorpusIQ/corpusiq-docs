@@ -3,7 +3,7 @@ title: "ClaudeKit Skills - Full Stack Agent Toolkit"
 description: "mrgoonie/claudekit-skills: 18.0K combined installs. A 45-skill full-stack toolkit for backend, debugging, MCP building and documents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claudekit-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "claude code", "full stack", "mcp"]
 ---
 

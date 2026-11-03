@@ -3,7 +3,7 @@ title: "K2F - Document Generation Skills Setup"
 description: "k2f: 62.5K combined installs. An open document format and 42 agent skills that compile semantic JSON into Word, PowerPoint, fillable PDF and IDML."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/k2f-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "document generation", "docx", "pdf", "idml"]
 ---
 

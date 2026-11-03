@@ -7,7 +7,7 @@ added: 2026-09-04
 source: mcpservers.org
 relevance: ★★★
 tags: [mcp-security, supply-chain, vulnerability-scanning, sentinel, hdp, security, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Helixar MCP

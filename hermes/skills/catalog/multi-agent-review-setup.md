@@ -3,7 +3,7 @@ title: "Multi-Agent Review - Adversarial Code Review Setup"
 description: "riekelt/multi-agent-review: 19.5K combined installs. Fail-closed six-agent panel reviews specs and plans before execution, juror on disagreement."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/multi-agent-review-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "multi-agent", "verification", "spec review"]
 ---
 

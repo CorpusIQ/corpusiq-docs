@@ -3,7 +3,7 @@ title: "DeerFlow Skills - Deep Research Agent Setup"
 description: "bytedance/deer-flow: 60.3K combined installs. ByteDance's open deep-research harness with 27 bundled skills for research, slides, media and docs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deer-flow-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "deep research", "agent harness", "python"]
 ---
 

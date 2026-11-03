@@ -8,7 +8,7 @@ category: langgraph
 setup: pip install langgraph langgraph-checkpoint
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/deep-agents-memory/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Deep Agents Memory - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

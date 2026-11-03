@@ -7,7 +7,7 @@ added: 2026-10-30
 source: "mcp.so homepage recentServers block on 2026-10-30 at 18:28Z under the slug offprompt, verified and featured, submitted by Valerio Leo, plus the npm registry record for offprompt at 0.3.0 (MIT, engines node >=22, zero runtime dependencies, bin offprompt, repository github.com/offprompt/offprompt) and HTTP 200 reads on github.com/offprompt/offprompt and offprompt.dev; there is no remote endpoint to probe because the server is local stdio"
 relevance: ★★
 tags: [secrets, api-keys, security, developer-tools, env, stdio, local, mit]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 
 # offprompt MCP

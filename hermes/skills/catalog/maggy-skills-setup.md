@@ -3,7 +3,7 @@ title: "Maggy Skills - Android and Kotlin Agent Suite"
 description: "alinaqi/maggy: 32.0K combined installs. Seventy-three skills for Android, Kotlin, web and mobile engineering plus the Maggy review and memory harness."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/maggy-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "android", "kotlin", "claude code"]
 ---
 

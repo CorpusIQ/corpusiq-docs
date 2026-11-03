@@ -7,7 +7,7 @@ added: 2026-08-17
 source: mcpservers.org
 relevance: ★★
 tags: [commodities, research, knowledge-graph, futures, positioning, market-data, research-journal, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Arc Research MCP

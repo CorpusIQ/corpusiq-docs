@@ -7,7 +7,7 @@ added: 2026-08-14
 source: mcp.so
 relevance: ★★★
 tags: [social-media, data, search, linkedin, lead-gen, market-research, news, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # API Direct MCP

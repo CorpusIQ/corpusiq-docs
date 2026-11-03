@@ -3,7 +3,7 @@ title: "Aaronontheweb Dotnet Skills - Akka.NET Suite"
 description: "aaronontheweb/dotnet-skills: 22.0K combined installs. A .NET pack for Akka.NET, Aspire, EF Core and C# standards, distinct from dotnet/skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/aaronontheweb-dotnet-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "dotnet", "csharp", "akka.net", "aspire"]
 ---
 

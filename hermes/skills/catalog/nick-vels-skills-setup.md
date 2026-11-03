@@ -3,7 +3,7 @@ title: "Autopilot Skill - End-to-End Build Orchestration Setup"
 description: "nick-vels/skills: 5.5K combined. Autopilot takes a dictated idea through spec, tickets and subagent builds to blind acceptance, with a live dashboard."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nick-vels-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "build orchestration", "subagents", "spec driven development"]
 ---
 

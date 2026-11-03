@@ -3,7 +3,7 @@ title: "Sent Plugin - Messaging and Verification Skills Setup"
 description: "sentdm/sent-plugin: 54.2K combined installs. Official Sent agent skills for SMS, WhatsApp and RCS sends, Sender Profiles, compliance and migration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sent-plugin-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "sms", "whatsapp", "rcs", "mcp"]
 ---
 

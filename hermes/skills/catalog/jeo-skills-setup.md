@@ -3,7 +3,7 @@ title: "JEO Skills - Presentation and Document Suite"
 description: "akillness/jeo-skills: 37.9K combined installs. A 411-skill catalog for decks, documents, design and code work, installed through its own router."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/jeo-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "presentations", "documents", "design"]
 ---
 

@@ -3,7 +3,7 @@ title: "365 Skills - Diagram, Research and Media Suite Setup"
 description: "Agents365-ai's 67.5K-install suite: draw.io, Excalidraw, PlantUML, Tldraw diagrams plus paper search, journals, TTS and video skills for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agents365-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "diagrams", "academic research", "claude code plugins"]
 ---
 

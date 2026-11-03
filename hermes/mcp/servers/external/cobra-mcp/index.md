@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://facturacobra.com/mcp answering HTTP 401 with JSON-RPC error -32001 explaining the accepted API-key header forms, and a 404 on the protected-resource path confirming API key rather than OAuth; product detail from https://facturacobra.com/mcp"
 relevance: ★★★
 tags: [invoicing, e-invoicing, tax, ecuador, sri, api-key, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Cobra MCP

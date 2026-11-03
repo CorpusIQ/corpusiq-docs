@@ -7,7 +7,7 @@ added: 2026-10-30
 source: "mcp.so homepage recentServers block on 2026-10-30 at 22:19Z under the slug spark-inventory, verified featured, plus a keyless JSON-RPC tools/list probe on https://api.sparkinventory.com/mcp answering HTTP 401 Unauthorized, the vendor detail page carrying transport Streamable HTTP, authType oauth, category Productivity and the OAuth and ChatGPT app claims, and HTTP 200 reads on sparkinventory.com and sparkinventory.com/pricing/"
 relevance: ★★★
 tags: [inventory, ecommerce, demand-forecasting, purchase-orders, supply-chain, shopify, oauth, remote-mcp]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 
 # Spark Inventory MCP

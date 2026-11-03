@@ -3,7 +3,7 @@ title: "Modular Skills - Mojo and MAX Agent Suite"
 description: "modular/skills: 18.3K combined installs. Modular's official Mojo and MAX skills: syntax, GPU kernels, Python interop and the model lifecycle."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/modular-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "mojo", "max", "gpu", "model serving"]
 ---
 

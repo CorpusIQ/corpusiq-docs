@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of the account endpoint https://duelpilot.com/api/mcp returning HTTP 401 naming the Bearer token, the no-auth documentation endpoint https://duelpilot.com/agent/mcp driven to HTTP 200 with serverInfo duelpilot.com-site-search 1.0.0 and three tools, and the vendor's agent instruction page at mcpservers.org/servers/duelpilot-com-agents-md"
 relevance: ★★★
 tags: [ab-testing, experimentation, conversion, ga4, landing-pages, agent-runs, human-approval, mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Duelpilot MCP

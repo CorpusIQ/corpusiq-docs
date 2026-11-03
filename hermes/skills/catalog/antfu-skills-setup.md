@@ -3,7 +3,7 @@ title: "Anthony Fu Skills - Vue, Vite and TS Tooling Setup"
 description: "Anthony Fu's skills: 375.7K combined installs. Twelve portable skills covering Vue, Nuxt, Vite, Vitest, pnpm, UnoCSS and his own setup conventions."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antfu-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "vue", "vite", "typescript"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://api.conecto.chat/v1/mcp returning HTTP 401 with scope tools plus the protected-resource document at api.conecto.chat/.well-known/oauth-protected-resource/v1/mcp, a first-hand tools/list count across all 52 area servers at api.conecto.chat/mcp/<area> totalling 2,009 tools, the 59 KB vendor skill file conecto.chat/SKILL.md, and chatmcp/mcpso issue #6328"
 relevance: ★★★
 tags: [back-office, crm, invoicing, bookkeeping, pay-per-call, agent-native, oauth, remote-mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Conecto MCP

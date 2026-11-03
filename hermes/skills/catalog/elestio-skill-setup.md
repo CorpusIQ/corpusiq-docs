@@ -3,7 +3,7 @@ title: "Elestio Skill - Managed DevOps Deployment Setup"
 description: "Elestio: 7.5K combined installs. An agent skill for deploying and managing VMs, databases, clusters and CI/CD pipelines via the Elestio CLI or MCP."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/elestio-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "elestio", "managed hosting", "infrastructure"]
 ---
 

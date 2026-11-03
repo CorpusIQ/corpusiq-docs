@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "submission #6274 on the chatmcp/mcpso tracker opened 2026-10-28T05:37:12Z with the nine tool names, the three prompts and the config block, plus the PyPI record for dottide 0.3.1 across three releases; local stdio, so no endpoint exists to probe"
 relevance: ★★★
 tags: [analytics, search-console, ga4, bing-webmaster, core-web-vitals, multi-site, read-only, local]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # dotTide MCP

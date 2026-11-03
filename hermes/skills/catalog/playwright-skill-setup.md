@@ -3,7 +3,7 @@ title: "Playwright Skill - Code-First Browser Automation Setup"
 description: "Playwright Skill: 7.1K combined installs. lackeyjb's MIT skill writes and runs real Playwright scripts, with dev-server detection and reusable tests."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "playwright", "testing"]
 ---
 

@@ -3,7 +3,7 @@ title: "Auth0 Agent Skills - Identity and OAuth Setup"
 description: "auth0/agent-skills: 28.1K combined installs. Official Auth0 skill for login, MFA, SSO, Organizations and migrating off other auth providers."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/auth0-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "auth0", "oauth", "mfa", "identity"]
 ---
 

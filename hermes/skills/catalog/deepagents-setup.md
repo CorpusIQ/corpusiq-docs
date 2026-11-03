@@ -3,7 +3,7 @@ title: "Deep Agents - Batteries-Included Agent Harness Setup"
 description: "Example and built-in skills in LangChain's Deep Agents harness: 21.8K combined installs across 20 indexed listings for research, SQL and writing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deepagents-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "agent harness", "subagents", "langchain"]
 ---
 

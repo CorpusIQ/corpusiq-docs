@@ -3,7 +3,7 @@ title: "Agent Skills - UI, Design and Shipping Suite Setup"
 description: "Matthew Blode's agent-skills: 32.4K combined installs. UI design and animation audits, skill authoring, PR shipping and npm release skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mblode-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "ui design", "code review", "skill authoring"]
 ---
 

@@ -3,7 +3,7 @@ title: "PDF Converter (MinerU) - PDF to Markdown Skill Setup"
 description: "PDF Converter (MinerU): 9.6K combined installs. A thin SKILL.md that has an agent run the mineru-open-api CLI for PDF to Markdown, Word and OCR."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pdf-converter-mineru-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "pdf conversion", "ocr", "document extraction"]
 ---
 

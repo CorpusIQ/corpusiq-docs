@@ -3,7 +3,7 @@ title: "Chrome DevTools AXI - Agent Browser CLI Setup"
 description: "chrome-devtools-axi: 7.1K combined installs. A TypeScript CLI wrapping chrome-devtools-mcp so agents drive Chrome with compact, snapshot-first output."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/chrome-devtools-axi-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "chrome devtools", "cli"]
 ---
 

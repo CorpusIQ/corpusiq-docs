@@ -3,7 +3,7 @@ title: "Refero Design - Research-First UI Design Skill Setup"
 description: "Refero Design: 12.2K combined installs. A research-first UI design skill with a read-only MCP over 150,000 real app screens and 6,000 user flows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/refero-design-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "ui design", "design research", "mcp", "frontend"]
 ---
 

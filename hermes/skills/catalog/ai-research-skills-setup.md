@@ -3,7 +3,7 @@ title: "AI Research Skills - 100-Skill ML Research Library Setup"
 description: "orchestra-research/ai-research-skills: 97.0K combined installs. 98 atomic ML research skills plus an autoresearch orchestrator, ideation to paper."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-research-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "ml research", "fine-tuning", "model serving"]
 ---
 

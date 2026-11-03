@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 29, 2026 (Evening)"
 description: "Nine hours after the midday pass: two finds from a thirteen-issue window, a recruiting platform and a writing-voice library with release digests."
-last_updated: 2026-10-29
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october29-2026-evening/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

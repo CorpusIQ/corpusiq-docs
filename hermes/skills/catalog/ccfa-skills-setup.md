@@ -3,7 +3,7 @@ title: "CCFA Skills - Academic Paper and Research Suite"
 description: "mikubaka88/ccfa-skills: 33.9K combined installs. Eighteen linked skills that carry a paper from idea to review, rebuttal and submission."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ccfa-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "academic writing", "research", "latex"]
 ---
 

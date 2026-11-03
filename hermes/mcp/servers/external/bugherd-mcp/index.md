@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live probe on mcp.bugherd.com/mcp (initialize 401, OAuth required), the vendor getting-started article and client integration guides, the tool names published on the vendor page, and the mcpservers.org official listing"
 relevance: ★★★
 tags: [bug-tracking, website-feedback, agency, oauth, kanban, client-portal, qa, triage]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # BugHerd MCP

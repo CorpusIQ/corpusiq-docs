@@ -3,7 +3,7 @@ title: "New Skills - October 26, 2026"
 description: "Skills.sh sweep (Oct 26): an extended query probe found 14 publisher clusters above the floor, 917.9K combined installs across 707 listings in one fire."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-oct26-2026-skills/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skills.sh", "sweep", "marketplace", "hermes agent"]
 ---
 

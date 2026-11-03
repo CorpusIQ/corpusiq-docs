@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://staffpick.ai/api/mcp answering HTTP 200 keyless on initialize as staffpick 2.2.0 with a full tools/list of 5 tools, plus https://staffpick.ai/mcp returning HTTP 401 with resource_metadata for the full OAuth surface, and chatmcp/mcpso issue #6333"
 relevance: ★★★
 tags: [hiring, remote-work, staffing, salary-benchmark, hr, keyless, oauth, remote-mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # StaffPick MCP

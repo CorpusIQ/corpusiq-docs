@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The mcpservers.org /all newest page on 2026-10-31 under the slug renewroster-com-docs-mcp, plus a keyless JSON-RPC tools/list probe on https://app.renewroster.com/mcp answering HTTP 401 with an invalid or missing API key message, the official MCP registry entry com.renewroster/renewroster at version 1.0.0 declaring a streamable-http remote, HTTP 200 reads on renewroster.com, renewroster.com/pricing and app.renewroster.com/login, and the repository github.com/raghuchinnannan/renewroster-mcp"
 relevance: ★★★
 tags: [domains, ssl, expiry-monitoring, agency, clients, renewals, alerting, webhooks, api-key, remote-mcp]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # RenewRoster MCP

@@ -3,7 +3,7 @@ title: "Hermes Tools & SDK Reference - CorpusIQ Docs"
 description: Complete directory of 140+ tools and SDKs compatible with Hermes Agent - browsers, search, code execution, media, deployment, and more.
 canonical: "https://www.corpusiq.io/docs/hermes/tools/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-03"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -98,16 +98,16 @@ Hermes supports these model providers natively:
 
 | Provider | Models | Best For |
 |----------|--------|----------|
-| Anthropic | Claude Opus 4, Sonnet 4, Haiku | Complex reasoning, strategy |
-| OpenAI | GPT-4o, GPT-4.1, o3, o4-mini | General purpose |
-| DeepSeek | DeepSeek-V3, V4 Pro | Research, content, coding |
-| xAI | Grok 4.20 | Real-time knowledge |
-| Google | Gemini 2.5 Pro, Flash | Multimodal |
+| Anthropic | claude-opus-5, claude-sonnet-5, claude-haiku-4-5 | Complex reasoning, strategy |
+| OpenAI | gpt-6.1-sol, gpt-6-luna, gpt-5.6, gpt-4.1 | General purpose |
+| DeepSeek | deepseek-flash, deepseek-v4-pro | Research, content, coding |
+| xAI | grok-4.7, grok-4.6, grok-4.20 | Real-time knowledge |
+| Google | gemini-3.8-flash, gemini-3.1-pro-preview | Multimodal |
 | Ollama | Local models (Llama, Mistral, etc.) | Privacy, free inference |
-| AWS Bedrock | Claude, Llama, Titan | Enterprise |
+| AWS Bedrock | Claude, GPT-6, Llama 4, Nova | Enterprise |
 | OpenRouter | 200+ models | Model flexibility |
-| MiniMax | MiniMax-01 | Alternative provider |
-| Z.ai | Z.ai models | Alternative provider |
+| MiniMax | MiniMax-M3, MiniMax-M2.7 | Alternative provider |
+| Z.ai | glm-5.3, glm-5.2 | Alternative provider |
 
 ---
 
@@ -132,7 +132,7 @@ Hermes supports these model providers natively:
 
 [Full MCP Guide →](/hermes/mcp) · [Ecosystem →](/hermes/ecosystem)
 
-CorpusIQ MCP alone provides 53 tools across 40+ business platforms. Additional MCP servers listed in the [ecosystem page](/hermes/ecosystem#mcp-integrations).
+CorpusIQ MCP alone provides 121 tools across 40+ business platforms. Additional MCP servers listed in the [ecosystem page](/hermes/ecosystem#mcp-integrations).
 
 ---
 

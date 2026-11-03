@@ -10,7 +10,7 @@ tags:
   - multi-channel
   - AI agent
   - retail automation
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/ecommerce/"
 robots: "index,follow"
 

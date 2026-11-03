@@ -3,7 +3,7 @@ title: "Transitions.dev Skills - CSS Motion Suite Setup"
 description: "jakubantalik/transitions.dev: 34.0K combined installs, 5 listings. 35 portable CSS transitions, motion polish rules, and agent build reveals."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/transitions-dev-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "css transitions", "motion design", "frontend animation"]
 ---
 

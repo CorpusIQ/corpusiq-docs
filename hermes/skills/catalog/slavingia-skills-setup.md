@@ -3,7 +3,7 @@ title: "Slavingia Skills - Minimalist Entrepreneur Business Suite"
 description: "Sahil Lavingia's 10 book-based business skills: 26.3K combined installs for idea validation, MVPs, pricing, first customers and sustainable growth."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/slavingia-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "business", "founder"]
 ---
 

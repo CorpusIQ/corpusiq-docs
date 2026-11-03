@@ -3,7 +3,7 @@ title: "Anthropic Financial Services Skills - Deal Workflow Suite"
 description: "Anthropic's official financial services suite: 31.1K combined installs. DCF, comps, 3-statement models, earnings notes, pitch decks, Excel audit."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/anthropics-financial-services-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "finance", "investment banking", "excel modeling"]
 ---
 

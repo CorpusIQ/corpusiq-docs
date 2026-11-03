@@ -3,7 +3,7 @@ title: "Svelte AI Tools - Official Svelte and SvelteKit Setup"
 description: "sveltejs/ai-tools: 24.6K combined installs. The Svelte team's own agent skills for Svelte 5 runes, documentation lookup and autofixer validation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/svelte-ai-tools-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "svelte", "sveltekit", "runes", "mcp"]
 ---
 

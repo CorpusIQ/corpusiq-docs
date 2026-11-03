@@ -7,7 +7,7 @@ added: 2026-10-26
 source: "live MCP probe on mcp.pickfu.com/mcp (initialize 401 authentication_required with a resource_metadata pointer, RFC 9728 protected-resource and RFC 8414 authorization-server documents read live behind WorkOS) + vendor documentation pickfu.com/docs/integrations/mcp-server (tool reference, question types, upload session, synthetic audiences) + mcp.so listing (Streamable HTTP, OAuth, submitted 2026-10-26)"
 relevance: ★★★
 tags: [consumer-research, survey, ab-testing, product-validation, packaging, market-research, ecommerce, panel]
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 ---
 
 # PickFu MCP

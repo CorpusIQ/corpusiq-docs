@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://fitralo.com/mcp returning HTTP 200 keyless on initialize as fitralo 3.73.33 on protocol 2025-06-18 with a full tools/list of 2 tools, plus the vendor page fitralo.com/ai and the carrier count printed on fitralo.com on 2026-10-28"
 relevance: ★★★
 tags: [freight, logistics, carriers, transport, europe, procurement, supply-chain, mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Fitralo MCP

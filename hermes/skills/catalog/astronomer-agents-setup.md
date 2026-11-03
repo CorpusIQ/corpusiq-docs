@@ -3,7 +3,7 @@ title: "Astronomer Agents - Airflow Data Engineering Setup"
 description: "Astronomer's skills for Airflow: 25.5K combined installs. DAG authoring, debugging, lineage, dbt/Cosmos and warehouse SQL analysis for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/astronomer-agents-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "airflow", "data engineering", "dbt"]
 ---
 

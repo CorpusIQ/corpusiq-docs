@@ -7,7 +7,7 @@ added: 2026-08-25
 source: mcpservers.org homepage
 relevance: ★★★
 tags: [mcp-server, procurement, government, sam-gov, federal-contracts, awards, recompete]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # GovGazette MCP

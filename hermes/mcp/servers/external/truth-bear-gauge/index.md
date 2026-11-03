@@ -7,7 +7,7 @@ added: 2026-08-23
 source: "mcp.so homepage recentServers + live endpoint probe"
 relevance: ★★★
 tags: [government-data, compliance, sec, verification, x402, usdc, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Truth Bear GAUGE MCP

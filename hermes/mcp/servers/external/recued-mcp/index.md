@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "the repository recued/recued README read at 04:00Z on 2026-10-28 with pushed_at 2026-10-27T17:54:34Z, the chatmcp/mcpso submission #6266 filed 2026-10-28T01:53:06Z naming the local endpoint at port 7717 and the contract model, and recued.com returning HTTP 200 with the install script and documentation links"
 relevance: ★★★
 tags: [agent-governance, approval-gate, permissions, self-hosted, pii, mail, crm, calendar, agpl, streamable-http]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Recued MCP

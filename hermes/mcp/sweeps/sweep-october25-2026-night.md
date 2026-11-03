@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 25, 2026 (Night Sweep)"
 description: "The directory moved for the first time in two days, up 111 servers, and a fresh read of pages one to six found three entries that clear the bar: SLA-clocked jobs an agent can claim, a brand-voice ghostwriter with a score, and hotel valuations with a verifiable receipt."
-last_updated: 2026-10-25
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october25-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

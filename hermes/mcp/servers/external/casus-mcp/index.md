@@ -7,7 +7,7 @@ added: 2026-10-30
 source: "mcpservers.org /all newest page carrying casus-mcp at position 2 and flagged official, whose detail page publishes the server address https://mcp.wearecasus.com/mcp, the volumes as of 18 October 2026, the legal:read scope, the skill resource names and the logging disclosure, plus probes on that endpoint answering HTTP 401 to a keyless tools/list and HTTP 405 to a bare GET"
 relevance: ★★★
 tags: [legal, tax, france, legifrance, bofip, case-law, citation-checking, oauth, read-only, remote-mcp]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 
 # Casus MCP

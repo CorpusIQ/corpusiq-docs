@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://mcp.micm.mx/mcp answering HTTP 401, and its protected-resource document at /.well-known/oauth-protected-resource/mcp advertising three scopes, posts:read, metrics:read and posts:write; connector documentation at https://micm.mx/mcp updated 29 October 2026"
 relevance: ★★★
 tags: [social-media, scheduling, small-business, spanish, oauth, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # micm.mx MCP

@@ -3,7 +3,7 @@ title: "OpenCode Workflows - Command and Agent Template Suite Setup"
 description: "OpenCode Workflows: 12.0K combined installs. 51 skill directories of OpenCode command templates, agent prompts and a configurator meta-agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opencode-workflows-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "opencode", "agent prompts", "workflow templates"]
 ---
 

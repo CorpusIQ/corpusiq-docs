@@ -3,7 +3,7 @@ title: "Slack CLI Skill - Agent-Driven Workspace Automation Setup"
 description: "paymog/slack-cli: 9.8K combined installs. A Go CLI that gives agents JSON reads and writes on Slack, with no resident MCP server per agent."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/paymog-slack-cli-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "slack", "team chat", "cli"]
 ---
 

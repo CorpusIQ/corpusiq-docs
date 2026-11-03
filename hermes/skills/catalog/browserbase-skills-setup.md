@@ -3,7 +3,7 @@ title: "Browserbase Skills - Agent Browser Automation"
 description: "browserbase/skills: 40.1K combined installs. Eighteen agent skills for Browserbase sessions, traces, UI testing, WebMCP and prospect research."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browserbase-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "browserbase", "webmcp"]
 ---
 

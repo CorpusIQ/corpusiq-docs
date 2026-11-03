@@ -8,7 +8,7 @@ category: langgraph
 setup: pip install langgraph langgraph-checkpoint
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/langgraph-persistence/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 title: "Langgraph Persistence - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

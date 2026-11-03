@@ -3,7 +3,7 @@ title: "Dotneet Claude Code Marketplace - Plugin Collection Setup"
 description: "dotneet/claude-code-marketplace: 12.9K combined installs. Claude Code plugins for React code review, prompt improvement and agent handoff."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dotneet-claude-code-marketplace-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "code review", "prompt engineering", "claude code"]
 ---
 

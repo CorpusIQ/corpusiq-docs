@@ -3,7 +3,7 @@ title: "Text to CAD Skills - 3D Model and URDF Setup"
 description: "earthtojake/text-to-cad: 124.1K combined installs. MIT skills for STEP, STL and 3MF models, DFM checks, and URDF, SRDF and SDF robot files."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/text-to-cad-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "cad", "3d printing", "robotics"]
 ---
 

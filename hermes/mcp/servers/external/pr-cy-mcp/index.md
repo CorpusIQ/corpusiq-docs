@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probes on mcp-server.pr-cy.ru (initialize 401 invalid_token), official MCP registry entry io.github.vlad4vic-creator/pr-cy-mcp 1.30.0, and the public interface documentation at github.com/vlad4vic-creator/pr-cy-mcp-docs, whose README records 69 tools checked against the live tools/list on 2026-10-27"
 relevance: ★★
 tags: [seo, keyword-research, serp, rank-tracking, site-audit, search-console, yandex, webmaster, analytics]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # PR-CY MCP

@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 24, 2026 (Late Sweep)"
 description: "A late pass after a five hundred listing directory burst: duty, UK books, LatAm retail and the amended AI Act, each driven or probed live."
-last_updated: 2026-10-24
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october24-2026-late/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

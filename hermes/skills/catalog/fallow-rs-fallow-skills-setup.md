@@ -3,7 +3,7 @@ title: "Fallow Skills - Codebase Intelligence for TS and JS Setup"
 description: "Fallow: 10.9K combined installs. Skills teaching coding agents to run fallow for dead code, duplication, complexity, architecture and review."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/fallow-rs-fallow-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "code quality", "typescript", "static analysis"]
 ---
 

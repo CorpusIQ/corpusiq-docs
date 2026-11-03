@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "npm registry record for bokio-mcp 0.5.0 read 2026-10-28, the repository diblaze/bokio-mcp README and its pushed_at 2026-10-27T22:12:08Z, the Metis-style tool table in the chatmcp/mcpso submission #6248 filed 2026-10-27T20:10:58Z, and the Bokio API limits stated in the README"
 relevance: ★★★
 tags: [accounting, bookkeeping, sweden, sie, vat, reconciliation, read-only, stdio, npm, small-business]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # bokio-mcp

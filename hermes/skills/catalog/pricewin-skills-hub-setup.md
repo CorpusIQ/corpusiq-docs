@@ -3,7 +3,7 @@ title: "PriceWin Skills - Hotel Deal and Flight Search Setup"
 description: "PriceWin's travel suite: 68.4K combined installs. Live OTA price comparison across Booking, Agoda, Google Hotels, plus flight search and booking."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pricewin-skills-hub-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "travel", "price comparison", "hotel booking"]
 ---
 

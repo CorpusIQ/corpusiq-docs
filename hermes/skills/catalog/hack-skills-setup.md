@@ -3,7 +3,7 @@ title: "Yaklang Hack Skills - Offensive Security Toolkit Setup"
 description: "Yaklang Hack Skills: 373.5K combined installs of 104 offensive-security playbooks for authorized pentests, CTF and security research."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hack-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "offensive security", "pentest"]
 ---
 

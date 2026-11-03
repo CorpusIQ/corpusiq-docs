@@ -7,7 +7,7 @@ added: 2026-08-15
 source: mcp.so
 relevance: ★★★
 tags: [geopolitical-intelligence, risk-monitoring, supply-chain, sanctions, market-data, procurement, macro-economics, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # World Monitor MCP

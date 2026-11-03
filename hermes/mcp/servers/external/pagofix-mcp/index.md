@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The chatmcp/mcpso submission issue #6511 filed 2026-10-31 at 17:53Z; a keyless initialize and tools list against https://pagofix.com/mcp returning HTTP 200 with serverInfo pagofix 1.0.1 and four tools with full input schemas; two live calc_claim calls measuring a German and a French claim; one live draft_reminder call returning a complete letter; and HTTP reads on pagofix.com, the repository and the privacy notice"
 relevance: ★★★
 tags: [legal, finance, receivables, late-payment, eu, interest-calculation, dunning, reminders, european-order-for-payment, keyless, free]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # PagoFix MCP

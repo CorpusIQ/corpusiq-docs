@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 27, 2026 (Midday Sweep)"
 description: "Six finds in a thin window, led by seller profit arithmetic on both sides of the marketplace and by a keyless federal contract surface."
-last_updated: 2026-10-27
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october27-2026-midday/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

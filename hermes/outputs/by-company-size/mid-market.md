@@ -10,7 +10,7 @@ tags:
   - approval workflows
   - AI agent
   - operations
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/mid-market/"
 robots: "index,follow"
 

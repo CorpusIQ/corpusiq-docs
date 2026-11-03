@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 28, 2026 (Night)"
 description: "Ten hours on from the midday supplement: seven finds, a 2,009-tool back office and the first public-grant server in this catalogue."
-last_updated: 2026-10-28
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october28-2026-night/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

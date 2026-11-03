@@ -7,7 +7,7 @@ added: 2026-08-16
 source: mcp.so
 relevance: ★★
 tags: [database, postgres, openapi, gateway, access-control, audit-log, hosting, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Kaiva Bridge MCP

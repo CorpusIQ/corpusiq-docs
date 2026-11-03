@@ -3,7 +3,7 @@ title: "Vectorize Hindsight Skills - Agent Memory Setup"
 description: "vectorize-io/hindsight: 11.5K combined installs. Hindsight agent-memory skills for retain, recall and reflect, self-hosting and Hermes plugin setup."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vectorize-hindsight-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "agent memory", "retrieval", "self-hosted"]
 ---
 

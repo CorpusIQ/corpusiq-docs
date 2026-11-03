@@ -3,7 +3,7 @@ title: "Solana Mobile Skills - Android Wallet Dev Setup"
 description: "Solana Mobile: 64.6K combined installs. Seven skills for Android wallet integration, .skr domains, Seeker gating and dApp Store publishing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/solana-mobile-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "solana", "android", "mobile wallet"]
 ---
 

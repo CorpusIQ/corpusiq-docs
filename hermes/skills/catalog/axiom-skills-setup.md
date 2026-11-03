@@ -3,7 +3,7 @@ title: "Axiom Skills - Observability and Event Queries Setup"
 description: "axiomhq/skills: 23.9K combined installs. Official Axiom agent skills for APL log and event queries, dashboards, alerts and cost control."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/axiom-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "observability", "logs", "metrics", "apl", "mcp"]
 ---
 

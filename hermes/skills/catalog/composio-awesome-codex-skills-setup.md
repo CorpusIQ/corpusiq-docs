@@ -3,7 +3,7 @@ title: "Awesome Codex Skills - Curated Codex Index"
 description: "composio-community/awesome-codex-skills: 25.0K combined installs. A curated Codex skill index with its own installer and 880 SKILL.md directories."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/composio-awesome-codex-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "codex", "curated index", "skill installer"]
 ---
 

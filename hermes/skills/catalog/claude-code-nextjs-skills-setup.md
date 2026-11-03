@@ -3,7 +3,7 @@ title: "Claude Code Next.js Skills - Next.js 16 and AI SDK Setup"
 description: "laguagu's 25 skills: 8,686 combined installs. Next.js 16, AI SDK 6/7, shadcn/ui, pgvector search, SEO, and browser verification."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-nextjs-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "nextjs", "ai-sdk", "shadcn"]
 ---
 

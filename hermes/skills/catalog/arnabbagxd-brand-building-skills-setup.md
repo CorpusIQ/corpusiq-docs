@@ -3,7 +3,7 @@ title: "Brand Building Skills - Brand Strategy Suite Setup"
 description: "arnabbagxd/brand-building-skills: 48.6K combined installs. 29 MIT brand skills covering strategy, naming, identity, voice, messaging and launch."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/arnabbagxd-brand-building-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "brand strategy", "marketing"]
 ---
 

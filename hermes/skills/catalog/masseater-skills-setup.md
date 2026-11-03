@@ -3,7 +3,7 @@ title: "Masseater Skills - Engineering Judgment Suite"
 description: "Masseater skills: 13.0K combined installs. Nine Japanese-language skills on measuring before guessing, writing prose humans read, and using what exists."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/masseater-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering", "writing", "plugin"]
 ---
 

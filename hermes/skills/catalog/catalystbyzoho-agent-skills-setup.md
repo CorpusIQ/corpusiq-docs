@@ -3,7 +3,7 @@ title: "Catalyst by Zoho Skills - Serverless Suite"
 description: "catalystbyzoho/agent-skills: 18.0K combined installs. Nineteen Zoho Catalyst skills for serverless functions, data store, auth and deploys."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/catalystbyzoho-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "zoho catalyst", "serverless", "cloud deployment"]
 ---
 

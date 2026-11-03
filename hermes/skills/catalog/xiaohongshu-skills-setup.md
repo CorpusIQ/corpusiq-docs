@@ -3,7 +3,7 @@ title: "Xiaohongshu Skills - RED Content Operations"
 description: "vivy-yi/xiaohongshu-skills: 28.1K combined installs. A Chinese-language library of 139 RED content, account and commerce skills, with no LICENSE file."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/xiaohongshu-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "xiaohongshu", "red", "content operations"]
 ---
 

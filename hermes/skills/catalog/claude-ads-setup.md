@@ -3,7 +3,7 @@ title: "Claude Ads - Paid Media Skill Suite Setup"
 description: "claude-ads: 98.7K combined installs. AgriciDaniel's MIT paid-media suite audits and drafts changes across 12 ad platforms from Claude Code."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-ads-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "paid media", "advertising", "audit"]
 ---
 

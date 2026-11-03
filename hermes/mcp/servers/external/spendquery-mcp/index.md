@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probes on api.spendquery.com/mcp (initialize 200, tools/list 200, thirteen tools), the vendor llms.txt and developers page describing the same endpoint, and the mcpservers.org listing"
 relevance: ★★★
 tags: [federal-contracts, usaspending, sam-gov, govcon, naics, far, procurement, keyless]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # SpendQuery MCP

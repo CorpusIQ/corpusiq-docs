@@ -7,7 +7,7 @@ added: 2026-10-01
 source: "mcpservers.org /all (worthbase-app-developers)"
 relevance: ★★
 tags: [finance, net-worth, portfolio, investments, accounting, oauth, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Worthbase MCP

@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 26, 2026 (Morning Sweep)"
 description: "The listing moved after a frozen Sunday, and the work that mattered sat in the feed and the submission window: an AEO audit that answered without a key, an ad library at $39, and a Google Business Profile connector whose token carries no business scopes at all."
-last_updated: 2026-10-26
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october26-2026-morning/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

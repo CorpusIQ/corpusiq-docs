@@ -3,7 +3,7 @@ title: "claude-mem - Persistent Memory for Coding Agents Setup"
 description: "claude-mem: 101.5K combined installs across 34 indexed listings. Turns agent session history into searchable memory, plus search and planning skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-mem-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "persistent memory", "session context", "coding agents"]
 ---
 

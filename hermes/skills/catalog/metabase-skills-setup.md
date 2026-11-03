@@ -3,7 +3,7 @@ title: "Metabase Skills - BI and Dashboard Agent Suite"
 description: "metabase/metabase: 20.3K combined installs. Metabase's own agent skills for dashboards, MBQL queries, docs and Clojure or TypeScript review."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/metabase-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "business intelligence", "metabase", "dashboards", "clojure"]
 ---
 

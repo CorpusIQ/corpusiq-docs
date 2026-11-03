@@ -7,7 +7,7 @@ added: 2026-10-04
 source: mcp.so feed
 relevance: ★★★
 tags: [marketing, instagram, influencer-marketing, creator-discovery, lead-generation, remote-mcp, api-key]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # InstaVision MCP

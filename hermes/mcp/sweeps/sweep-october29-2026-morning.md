@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - October 29, 2026 (Morning)"
 description: "Counter static at 18,225 with no records added: seven finds came from the feed and the submission window, most of them local servers."
-last_updated: 2026-10-29
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-october29-2026-morning/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

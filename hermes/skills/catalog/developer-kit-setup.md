@@ -3,7 +3,7 @@ title: "Developer Kit - Java and TypeScript Skill Suite Setup"
 description: "Giuseppe Trisciuoglio's developer-kit: 408.7K combined installs. Spring Boot, Next.js, React, NestJS, AWS and unit-test skills in one plugin set."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/developer-kit-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "spring boot", "nextjs", "typescript", "java"]
 ---
 

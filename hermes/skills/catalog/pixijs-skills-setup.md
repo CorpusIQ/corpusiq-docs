@@ -3,7 +3,7 @@ title: "PixiJS Skills - 2D WebGL and WebGPU Rendering Suite Setup"
 description: "Official PixiJS v8 suite: 151.7K combined installs. Application, scene graph, sprites, text, filters, shaders, and v7 migration for 2D web rendering."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pixijs-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "pixijs", "2d rendering", "webgpu"]
 ---
 

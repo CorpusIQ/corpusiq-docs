@@ -3,7 +3,7 @@ title: "Vinta Django AI Plugins - Django and Celery Setup"
 description: "vintasoftware/django-ai-plugins: 8.4K combined installs. Vinta's portable Django, DRF and Celery agent skills for backend, migration and review work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vintasoftware-django-ai-plugins-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "django", "celery", "python", "backend"]
 ---
 

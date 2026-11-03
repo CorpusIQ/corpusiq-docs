@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://pandus.online/mcp returning HTTP 200 keyless on initialize with a tools/list of 3 tools, plus the mcpservers.org listing at mcpservers.org/servers/pandus-online-en-accessibility-mcp-server documenting 10 tools, 2 prompts and the OAuth site audit path"
 relevance: ★★
 tags: [accessibility, wcag, axe-core, eaa, ada, shopify, woocommerce, prestashop, compliance, mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Pandus MCP

@@ -7,7 +7,7 @@ compatibility: Hermes Agent
 installs: New (June 2026)
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-flight-recorder-setup/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

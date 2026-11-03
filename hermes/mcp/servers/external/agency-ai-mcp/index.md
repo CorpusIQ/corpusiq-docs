@@ -7,7 +7,7 @@ added: 2026-08-24
 source: mcpservers.org /all page 1
 relevance: ★★
 tags: [meta-ads, google-ads, advertising, campaign-management, remote-mcp, shopify]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Agency AI MCP

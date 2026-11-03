@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live probe of https://app.getbacklane.com/mcp returning HTTP 401 with WWW-Authenticate resource_metadata, the protected-resource document at app.getbacklane.com/.well-known/oauth-protected-resource, the vendor setup file getbacklane.com/en/setup.md marked checked 23 October 2026, and chatmcp/mcpso issue #6345"
 relevance: ★★★
 tags: [ecommerce, marketplaces, otto, kaufland, mirakl, seller-ops, oauth, remote-mcp]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Backlane MCP

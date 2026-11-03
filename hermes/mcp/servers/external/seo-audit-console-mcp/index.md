@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "npm registry record for @houtini/seo-audit-console 0.17.0 published 2026-08-03 and modified 2026-10-25, Apache-2.0, and the vendor README as published on mcp.so covering 64 tools, 143 checks, the storage model, the optional paid keys and the source repository github.com/houtini-ai/seo-audit"
 relevance: ★★★
 tags: [seo, search-console, crawl, technical-audit, core-web-vitals, ai-overviews, local-sqlite, claude-desktop]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # SEO Audit Console MCP

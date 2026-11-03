@@ -10,7 +10,7 @@ verified: true
 repository: "Jackalope-Dev/moxie-docs (repo no longer public)"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/moxie-docs-mcp/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

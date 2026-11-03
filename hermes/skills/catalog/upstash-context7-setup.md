@@ -3,7 +3,7 @@ title: "Upstash Context7 - Versioned Library Docs Setup"
 description: "upstash/context7: 25.5K combined installs. Agent skills that fetch version-specific library docs through the ctx7 CLI or the Context7 MCP server."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/upstash-context7-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "documentation lookup", "mcp", "cli", "context7"]
 ---
 

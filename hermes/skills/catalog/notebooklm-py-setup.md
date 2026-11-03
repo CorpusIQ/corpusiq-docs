@@ -3,7 +3,7 @@ title: "NotebookLM - Unofficial Gemini Notebook CLI and Skill Setup"
 description: "teng-lin/notebooklm-py: 10.0K combined installs. Unofficial Python API and CLI for Google Gemini Notebook, plus a root SKILL.md of agent invariants."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/notebooklm-py-setup/"
 robots: "index,follow"
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "notebooklm", "gemini notebook", "research automation"]
 ---
 

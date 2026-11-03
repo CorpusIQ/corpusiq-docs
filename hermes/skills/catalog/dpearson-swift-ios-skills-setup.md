@@ -3,7 +3,7 @@ title: "Swift iOS Skills - iOS 26 and SwiftUI Suite Setup"
 description: "dpearson2699/swift-ios-skills: 305.9K combined installs. 86 iOS 26 and SwiftUI skills covering Apple frameworks, concurrency and App Review."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dpearson-swift-ios-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "swift", "ios"]
 ---
 

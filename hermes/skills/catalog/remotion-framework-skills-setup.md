@@ -3,7 +3,7 @@ title: "Remotion Framework Skills - Programmatic Video Setup"
 description: "remotion-dev/remotion: 47.5K combined installs. Remotion agent skills for programmatic video in React - markup, captions, maps, rendering, upgrades."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/remotion-framework-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "video", "react", "rendering", "remotion"]
 ---
 

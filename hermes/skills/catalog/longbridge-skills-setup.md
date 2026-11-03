@@ -3,7 +3,7 @@ title: "Longbridge Skills - Brokerage Data and Trading Suite"
 description: "Longbridge official skills: 108.2K combined installs. 13 skills for quotes, technicals, options, fundamentals, portfolio and quant via CLI and MCP."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/longbridge-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "market data", "trading"]
 ---
 

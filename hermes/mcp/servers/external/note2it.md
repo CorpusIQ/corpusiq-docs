@@ -3,7 +3,7 @@ title: note2it MCP Server Integration Guide
 description: AI agent knowledge management with notebooks, nested pages, meeting transcripts and precise undoable edits via the note2it MCP server for Hermes Agent
 category: mcp
 tags: [mcp, note2it, knowledge-management, meetings, notebooks, hermes-agent]
-last_updated: 2026-10-30
+last_updated: 2026-11-01
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/note2it/"
 robots: "index,follow"
 

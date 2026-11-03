@@ -3,7 +3,7 @@ title: "dbt Agent Skills - Official dbt Labs Analytics Suite Setup"
 description: "dbt Labs official skills: 12.4K combined installs. Twelve everyday analytics skills plus semantic layer, Mesh, migration and docs lookups."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dbt-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "dbt", "analytics engineering"]
 ---
 

@@ -3,7 +3,7 @@ title: "Academic Writing Skills - Paper Workflow"
 description: "bahayonghang/academic-writing-skills: 18.7K combined installs. Post-writing polish and audit for LaTeX, Typst and Chinese theses, with citations."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/academic-writing-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "academic writing", "latex", "typst", "citations"]
 ---
 

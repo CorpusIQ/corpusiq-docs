@@ -7,7 +7,7 @@ added: 2026-10-28
 source: "live JSON-RPC probes on https://mcp.crevio.co/mcp answering initialize as crevio-api 2.0.0 on protocol 2025-06-18 with tools, resources and the skills, events and tasks extensions, the twenty tool names returned by tools/list, and the vendor documentation at crevio.co/docs/developer/mcp"
 relevance: ★★★
 tags: [business-operations, orders, customers, email, script-runner, approvals, audit-log, oauth, streamable-http]
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 ---
 
 # Crevio MCP

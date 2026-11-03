@@ -3,7 +3,7 @@ title: "Patricio Skills - Full Stack Engineering Suite Setup"
 description: "patricio0312rev/skills: 56.7K combined installs. 155 MIT markdown skills for frontend animation, API tooling, CI/CD, testing and AI engineering."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/patricio-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "engineering suite", "frontend", "ai engineering"]
 ---
 

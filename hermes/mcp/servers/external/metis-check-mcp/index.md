@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live probe on https://mcp.metisfoundry.com/mcp returning HTTP 401 with the body Sign in to Metis to connect at 04:05Z on 2026-10-28, the vendor connector documentation read through the r.jina.ai reader proxy covering auto-check default, allowance behaviour and the Verified plan, and the mcpservers.org listing at /servers/mcp-metisfoundry-com-docs"
 relevance: ★★★
 tags: [citations, verification, registries, doi, lei, orcid, sec-cik, oauth, audit, signed-report]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Metis Check MCP

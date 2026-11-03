@@ -3,7 +3,7 @@ title: "TanStack Agent Skills - Query and Router Setup"
 description: "deckardger/tanstack-agent-skills: 32.8K combined installs. Four rule-based skills for TanStack Query, Router, Start and cross-library integration."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deckardger-tanstack-agent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "tanstack", "react", "typescript"]
 ---
 

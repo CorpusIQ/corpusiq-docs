@@ -3,7 +3,7 @@ title: "Superagent Security Skills - Agent Security Audit Setup"
 description: "Superagent's security skills: 17.5K combined installs for skill scanning, GitHub Actions review, supply-chain risk, IDOR checks and IaC audits."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/superagent-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "security", "supply chain"]
 ---
 

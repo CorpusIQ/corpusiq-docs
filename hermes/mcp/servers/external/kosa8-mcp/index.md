@@ -7,7 +7,7 @@ added: 2026-10-31
 source: "The mcp.so homepage recentServers block on 2026-10-31 at 03:22Z under the slug kosa8, verified and featured, plus HTTP 200 reads on kosa8.com, kosa8.com/pricing/ and kosa8.com/download/, HTTP 200 on github.com/kosa8ai/kosa8-claude-plugin with its README, and the vendor documentation at docs.kosa8.com including the tool server page that describes the gateway, per-server sandboxes and tool definition pinning"
 relevance: ★★★
 tags: [sandbox, microvm, agent-security, mcp-gateway, checkpoint, egress-broker, tool-pinning, local-mcp, mit-plugin]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # kosa8 MCP

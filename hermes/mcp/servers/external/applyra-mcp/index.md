@@ -7,7 +7,7 @@ added: 2026-09-29
 source: mcpservers.org
 relevance: ★★★
 tags: [aso, app-store, google-play, keywords, rankings, competitor-analysis, marketing, self-hosted]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Applyra MCP

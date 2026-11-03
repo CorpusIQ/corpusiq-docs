@@ -7,7 +7,7 @@ added: 2026-10-30
 source: "mcp.so detail card filed 2026-10-21 under the slug tuqui-odoo-mcp-for-claude-chatgpt, returning repository github.com/Tuqui-AI/tuqui-mcp (HTTP 200) and docs.tuqui.com (HTTP 200), LGPL-3.0, plus a keyless JSON-RPC probe on https://tuqui.com/mcp answering HTTP 401 unauthorized, and the vendor connection guide carried on the same card"
 relevance: ★★★
 tags: [odoo, erp, accounting, inventory, sales, read-only, oauth, remote-mcp, claude, chatgpt]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 
 # Tuqui MCP

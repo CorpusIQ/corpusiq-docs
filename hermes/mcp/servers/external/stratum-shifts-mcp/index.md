@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://shifts.stratumics.com/mcp/signin answering HTTP 401 with JSON-RPC error Sign in to Stratum Shifts to continue, and its protected-resource document at /.well-known/oauth-protected-resource/mcp/signin naming authorization server, scopes openid email shifts, and resource documentation; product and pricing from https://shifts.stratumics.com"
 relevance: ★★★
 tags: [scheduling, workforce, rota, small-business, oauth, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Stratum Shifts MCP

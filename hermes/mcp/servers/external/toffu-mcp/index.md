@@ -7,7 +7,7 @@ added: 2026-10-03
 source: "mcpservers.org server page (toffu-ai/toffu-mcp)"
 relevance: ★★★
 tags: [marketing, advertising, google-ads, meta-ads, linkedin-ads, campaigns, reporting, remote-mcp]
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Toffu MCP

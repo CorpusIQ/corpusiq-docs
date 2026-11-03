@@ -3,7 +3,7 @@ title: "ego lite - AI Agent Browser and ego-browser Skill Setup"
 description: "citrolabs/ego-lite: 13.2K combined installs. A Chromium browser for humans and AI agents, with parallel Spaces and the ego-browser automation skill."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ego-lite-setup/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "browser automation", "chromium", "agent browser"]
 ---
 

@@ -7,7 +7,7 @@ added: 2026-10-29
 source: "live probe of https://mcp.ai-agents-pitstop.com/mcp answering HTTP 401 empty, and its protected-resource document at /.well-known/oauth-protected-resource/mcp advertising the resource, authorization server, scope pitstop and resource_name Pitstop; product behaviour from https://ai-agents-pitstop.com"
 relevance: ★★★
 tags: [approvals, agent-governance, professional-services, memory, oauth, remote-mcp]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 ---
 
 # Pitstop MCP

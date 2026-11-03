@@ -3,7 +3,7 @@ title: "Arize Skills - LLM Observability and Evaluation Setup"
 description: "Arize official skills: 38.8K combined installs. Eighteen ax CLI skills for tracing, datasets, experiments, evaluators and compliance audits."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/arize-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 tags: ["hermes skill", "agent skill", "skill setup", "llm observability", "evaluation"]
 ---
 

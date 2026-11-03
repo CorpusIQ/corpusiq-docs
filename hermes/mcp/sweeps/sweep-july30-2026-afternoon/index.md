@@ -8,7 +8,7 @@ finds: 1
 guides: 1
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july30-2026-afternoon/"
 robots: "index,follow"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

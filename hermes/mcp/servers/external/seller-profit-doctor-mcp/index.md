@@ -7,7 +7,7 @@ added: 2026-10-27
 source: "live MCP probes on sellerprofitdoctor.com/api/mcp (initialize 200, tools/list 200, sixteen tools), the vendor AI assistants page with per-tool documentation, and the official MCP registry entry com.sellerprofitdoctor/free-tools"
 relevance: ★★★
 tags: [etsy, shopify, amazon, seller-fees, break-even, roas, pricing, keyless]
-last_updated: "2026-10-27"
+last_updated: "2026-11-01"
 ---
 
 # Seller Profit Doctor MCP
