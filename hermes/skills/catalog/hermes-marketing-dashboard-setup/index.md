@@ -100,6 +100,61 @@ After setup:
 - Database file exists at `./state/hermes.db`
 - OpenClaw integration shows agent status (if configured)
 
+```bash
+curl -s http://localhost:3000 | head -5
+```
+
+## Security Configuration
+
+```bash
+# Host access lock (default: local-only)
+HERMES_HOST_LOCK=local  # or 'off' or 'host1,host2'
+
+# Writeback protection (keep false unless explicitly needed)
+HERMES_ALLOW_POLICY_WRITE=false
+HERMES_ALLOW_CRON_WRITE=false
+HERMES_ALLOW_WORKSPACE_WRITE=false
+```
+
+Read-only is the default. Every writeback switch is off until you turn it on, which is what makes the dashboard safe to point at a live agent workspace.
+
+## Optional Analytics
+
+```bash
+# Plausible Analytics
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=yourdomain.com
+PLAUSIBLE_API_KEY=your-plausible-api-key
+
+# Google Analytics 4
+NEXT_PUBLIC_GA4_ID=G-XXXXXXXXXX
+```
+
+## Key Commands
+
+```bash
+# Development
+pnpm dev              # Start development server
+pnpm build            # Build for production
+pnpm start            # Start production server
+
+# Quality
+pnpm typecheck        # Type checking
+pnpm lint             # Linting
+pnpm test             # Run tests
+pnpm test:e2e         # Run end-to-end tests
+
+# Database
+pnpm env:bootstrap    # Bootstrap environment and database
+pnpm db:reset         # Reset database (destructive)
+```
+
+## Notes
+
+- Self-hosted with local SQLite - no cloud dependency
+- OpenClaw-native - designed to integrate with OpenClaw agent infrastructure
+- Read-only by default - writeback protection prevents accidental mutations
+- From the [ara.so](https://ara.so) Marketing Skills collection
+
 ## Related Skills
 
 - [Hermes Agent Framework](/hermes/skills/catalog/hermes-agent-framework-setup)

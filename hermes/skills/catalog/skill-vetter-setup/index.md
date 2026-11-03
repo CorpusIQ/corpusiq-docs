@@ -77,6 +77,66 @@ After vetting a skill:
 - Cross-reference permissions against the skill's stated purpose
 - For production, require second reviewer for any skill with shell or network access
 
+## Vetting Protocol
+
+The skill works through four stages and ends with one of three recommendations.
+
+### Step 1: Metadata Check
+
+- Verify `name` matches the expected skill name (no typosquatting)
+- Check `version` follows semver
+- Confirm `description` is clear and matches what the skill does
+- Ensure `author` is identifiable (not anonymous)
+
+### Step 2: Permission Scope Analysis
+
+| Permission | Risk Level | Justification Required |
+|---|---|---|
+| `fileRead` | Low | Almost always legitimate |
+| `fileWrite` | Medium | Must justify what files and why |
+| `network` | Medium-High | Must specify endpoints and data sent |
+| `shell` | High | Requires strong justification and sandboxing |
+
+### Step 3: Pattern Analysis
+
+- Command injection vectors (`eval`, `exec`, system calls)
+- Obfuscated code or base64-encoded payloads
+- Hardcoded URLs or IPs (potential data exfiltration)
+- Excessive permission requests relative to stated functionality
+
+### Step 4: Recommendation
+
+- **INSTALL** - no red flags, permissions justified
+- **REVIEW** - minor concerns, install with monitoring
+- **BLOCK** - critical red flags, do not install
+
+## Manual Vetting
+
+When reviewing a skill by hand, apply the same checks in order:
+
+1. Read the SKILL.md frontmatter - verify `name`, `version`, `description`, `author`
+2. Check the `allowed-tools` or `permissions` section - assess risk level per tool
+3. Scan for suspicious patterns: `eval()`, `exec()`, base64 strings, hardcoded URLs
+4. Compare stated functionality against requested permissions - they should align
+5. Document the decision: INSTALL / REVIEW / BLOCK with justification
+
+## Hermes Integration
+
+For CorpusIQ Hermes agents, put skill-vetter into the governance pipeline:
+
+1. **Pre-install gate**: run vetting before any `npx skills add` command
+2. **Weekly re-audit**: re-vet all installed skills every Sunday
+3. **Audit log**: write vetting results to `~/.hermes/profiles/<your-profile>/skill-audits/YYYY-MM-DD.md`
+4. **Block escalation**: BLOCK results go to the ops email digest (media@) immediately
+
+## Troubleshooting
+
+| Issue | Solution |
+|---|---|
+| Unknown skill format | Ensure the skill has a SKILL.md with proper frontmatter |
+| Missing author info | Flag as REVIEW - anonymous skills require extra scrutiny |
+| Permission mismatch | If a skill requests `shell` but only needs `fileRead`, flag as BLOCK |
+
 ## Related Skills
 
 - [OpenClaw Ecosystem (June 26)](/hermes/skills/catalog/openclaw-ecosystem-june26-setup)

@@ -24,7 +24,6 @@ import sys
 
 SURFACES = [
     "hermes/ecosystem/index.md",
-    "hermes/ecosystem.md",
     "hermes/README.md",
     "hermes/index.md",
     "hermes/agent-marketplace.md",
@@ -318,9 +317,6 @@ def main():
     fix("hermes/ecosystem/index.md", r"(\d+)\+ repositories", total, "body repositories")
     fix("hermes/ecosystem/index.md", r"\*\*Repos indexed:\*\* (\d+)\+", total, "repos indexed stamp")
     fix("hermes/ecosystem/index.md", r"(\d+)\+ repos indexed", total, "self entry repos indexed")
-    fix("hermes/ecosystem.md", r"(\d+)\+ repos, docs", total, "twin description repos")
-    fix("hermes/ecosystem.md", r"(\d+)\+ repositories", total, "twin repositories")
-    fix("hermes/ecosystem.md", r"(\d+)\+ repos\b", total, "twin repos")
 
     # --- the surfaces that link to it -----------------------------------
     fix("hermes/README.md", r"Ecosystem-(\d+)\+_repos", total, "README badge")
@@ -330,8 +326,6 @@ def main():
     fix("hermes/agent-marketplace.md", r"(\d+)\+ repos indexed", total, "marketplace footer")
 
     # --- category count --------------------------------------------------
-    fix("hermes/ecosystem.md", r"repositories\*\* across (\d+) categories", cat_count, "twin categories")
-    fix("hermes/ecosystem.md", r"(\d+) categories", cat_count, "twin categories 2")
     fix("hermes/index.md", r"across (\d+) categories", cat_count, "index categories")
     fix("hermes/README.md", r"indexed across (\d+) categories", cat_count, "README categories")
     fix("hermes/agent-marketplace.md", r"across (\d+) categories", cat_count, "marketplace categories")
@@ -339,7 +333,6 @@ def main():
     # --- approved-entry count (from the ledger, not a guess) -------------
     if approved is not None:
         fix("hermes/README.md", r"\((\d+) auto-approved", approved, "README auto-approved")
-        fix("hermes/ecosystem.md", r"(\d+) auto-approved", approved, "twin auto-approved")
 
     # --- contributors page: maintainer row must track the live ledger -----
     # contributors.json keeps a LIFETIME approval counter (it never decrements
@@ -360,23 +353,6 @@ def main():
                 changes.append(("hermes/contributors/index.md", "maintainer approved + repos indexed", cn + cn2))
                 if not check:
                     open(cp, "w", encoding="utf-8").write(cnew2)
-
-    # --- contributors.md carries the SAME maintainer cell in its own shape -
-    # Two contributor pages, two table shapes, one ledger. Only the index page
-    # was derived from the ledger, so the short page kept whatever
-    # discover.py's review_log resync wrote and the two pages could state
-    # different approval counts (198 vs 201 on 2026-10-26). Derive both.
-    if approved is not None:
-        sp = os.path.join(root, "hermes/contributors.md")
-        if os.path.exists(sp):
-            stext = open(sp, encoding="utf-8").read()
-            snew, sn = re.subn(r"^(\| \[CorpusIQ\]\([^)]*\) \| )(\d+)( \| )(\d+)( \| )",
-                               lambda m: f"{m.group(1)}{m.group(2)}{m.group(3)}{approved}{m.group(5)}",
-                               stext, flags=re.M)
-            if snew != stext:
-                changes.append(("hermes/contributors.md", "maintainer approved", sn))
-                if not check:
-                    open(sp, "w", encoding="utf-8").write(snew)
 
     # --- quick navigation per-category counts ---------------------------
     p = os.path.join(root, "hermes/ecosystem/index.md")

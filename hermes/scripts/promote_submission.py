@@ -51,18 +51,14 @@ def az_today():
     return az_now().strftime("%Y-%m-%d")
 
 
-ECOSYSTEM = REPO_ROOT / "ecosystem.md"
-# The page users actually see. ecosystem.md COLLIDES with ecosystem/index.md at
-# the /hermes/ecosystem/ URL and is not emitted by mkdocs, so an entry written
-# only to ecosystem.md is invisible on the live site (root-caused 2026-10-16:
-# the hyperconsciousness promotion of Oct 14 never appeared). Every promotion
-# must write BOTH surfaces.
+# The page users see. It is the only ecosystem surface: the old ecosystem.md
+# twin collided with this file at the /hermes/ecosystem/ URL and was never
+# emitted by mkdocs, so every entry written to it was invisible (root-caused
+# 2026-10-16: the hyperconsciousness promotion of Oct 14 never appeared). The
+# twin was deleted Nov 3 2026, closing the collision.
 PUBLISHED_INDEX = REPO_ROOT / "ecosystem" / "index.md"
-# Two contributor surfaces, two different table shapes. The short table lives on
-# contributors.md; the index page carries its own Top Contributors table. Both
-# have to be credited or the credit is inconsistent depending on which page a
-# reader lands on.
-CONTRIBUTORS_TABLE = REPO_ROOT / "contributors.md"
+# One contributor surface, one table shape, since contributors.md was deleted
+# with the same collision (Nov 3 2026).
 CONTRIBUTORS_INDEX = REPO_ROOT / "contributors" / "index.md"
 
 CATEGORY_HEADINGS = {
@@ -217,45 +213,6 @@ def entry_block(row):
     )
 
 
-def insert_into_ecosystem(row):
-    """Insert star-sorted inside the row's category. Returns True when written."""
-    text = ECOSYSTEM.read_text()
-    if row["url"] in text:
-        return False
-
-    heading = CATEGORY_HEADINGS.get(row.get("category", ""))
-    if not heading or heading not in text:
-        # The mirror is a secondary surface: the published index is what readers
-        # see. Warn instead of aborting so a category the mirror never carried
-        # (Documentation & Learning, Guides) still reaches the served page.
-        print(f"WARN: ecosystem.md has no heading for category {row.get('category')!r}"
-              " - entry NOT written to the mirror")
-        return False
-
-    start = text.index(heading)
-    nxt = text.find("\n## ", start + 1)
-    section_end = len(text) if nxt == -1 else nxt
-    section = text[start:section_end]
-
-    # Existing entries: (stars, offset within the section)
-    found = []
-    for m in re.finditer(r"^### .*?\u2b50 (\d+)\s*$", section, re.M):
-        found.append((int(m.group(1)), m.start()))
-
-    insert_at = section_end - start
-    for stars, offset in found:
-        if stars < row.get("stars", 0):
-            insert_at = offset
-            break
-
-    block = entry_block(row)
-    prefix = "" if section[:insert_at].endswith("\n\n") or insert_at == 0 else "\n"
-    updated = text[:start + insert_at] + prefix + block + "\n" + text[start + insert_at:]
-    updated = sync_category_count(updated, heading)
-    ECOSYSTEM.write_text(updated)
-    return True
-
-
 PUBLISHED_HEADINGS = {
     "Content & Media": "## 🎬 Content & Media",
     "Core Framework": "## 🏛 Core & Official",
@@ -366,30 +323,7 @@ def insert_into_published_index(row):
     updated = bump_published_counts(updated)
     updated = sync_category_count(updated, heading)
     PUBLISHED_INDEX.write_text(updated)
-    align_mirror_counts(updated)
     return True
-
-
-def align_mirror_counts(published_text):
-    """Make the mirror's numeric stamps agree with the published page.
-
-    ``bump_published_counts`` increments only the FIRST match of each stamp
-    pattern, so a page carrying several stamps ended up advertising two
-    different totals (430+ at the top, 431+ lower down). The published index is
-    the source of truth; project its number onto every mirror stamp.
-    """
-    m = re.search(r"\*\*Repos indexed:\*\* (\d+)\+", published_text)
-    if not m or not ECOSYSTEM.exists():
-        return
-    count = m.group(1)
-    mirror = ECOSYSTEM.read_text()
-    aligned = re.sub(r"(\d+)\+ (repositories|repos)", r"{}+ \g<2>".format(count), mirror)
-    approved_path = DATA_DIR / "approved_repos.json"
-    if approved_path.exists():
-        n_approved = len(load(approved_path))
-        aligned = re.sub(r"(\d+) auto-approved", r"{} auto-approved".format(n_approved), aligned)
-    if aligned != mirror:
-        ECOSYSTEM.write_text(aligned)
 
 
 def credit_contributor(username):
@@ -420,30 +354,6 @@ def update_contributors_pages(username):
     """Credit the submitter on both contributor surfaces, tol erantly."""
     today = az_today()
     link = f"[@{username}](https://github.com/{username})"
-
-    # contributors.md: replace the empty-row placeholder, or append to the table.
-    if CONTRIBUTORS_TABLE.exists():
-        text = CONTRIBUTORS_TABLE.read_text()
-        if username not in text:
-            row = f"| {link} | 1 | 1 | {today} | {today} |"
-            placeholder = "| - | - | - | - | - |"
-            if placeholder in text:
-                text = text.replace(placeholder, row)
-            else:
-                header = (
-                    "| Contributor | Submissions | Approved | "
-                    "First Contribution | Last Active |"
-                )
-                idx = text.index(header)
-                sep_end = text.index("\n", text.index("\n", idx) + 1) + 1
-                text = text[:sep_end] + row + "\n" + text[sep_end:]
-            text = re.sub(
-                r"\*No community contributors yet\. \[Be the first \S+\s*"
-                r"\(https://github\.com/CorpusIQ/corpusiq-docs/issues/new\?labels=pending-review\)\*\n?",
-                "",
-                text,
-            )
-            CONTRIBUTORS_TABLE.write_text(text)
 
     # contributors/index.md: its table has a Role column instead of dates, and it
     # is ordered by submissions, so a new contributor goes below existing rows,
@@ -551,14 +461,10 @@ def main():
         credit_contributor(row["submitter"])
         update_contributors_page(row["submitter"])
 
-    inserted = insert_into_ecosystem(row)
-    # The served page is ecosystem/index.md. Writing only ecosystem.md left every
-    # promotion invisible on the live site (root-caused 2026-10-16, #109), and
-    # the inserter alone did not fix it: it has to be CALLED from the promotion
-    # path or the twin keeps absorbing promotions that no reader can see.
+    # ecosystem/index.md is the only ecosystem surface; the ecosystem.md twin was
+    # deleted Nov 3 2026 after years of absorbing promotions no reader could see.
     published = insert_into_published_index(row)
     print(f"approved: {row['name']} ({row['category']}, {row['stars']} stars)")
-    print(f"ecosystem.md: {'entry inserted' if inserted else 'already present'}")
     print(f"ecosystem/index.md: {'entry inserted' if published else 'already present or unmapped'}")
     if not published:
         print("WARN: the served directory did not take the entry - check the category heading map")

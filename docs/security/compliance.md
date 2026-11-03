@@ -1,13 +1,13 @@
 ---
-title: "Security - CorpusIQ Docs"
-description: "CorpusIQ security documentation: CASA Tier 2, SOC 2 aligned controls, AES-256, TLS 1.3, read-only external-source retrieval, and scoped data handling."
+title: "Security Compliance - CorpusIQ Docs"
+description: "CorpusIQ compliance documentation: CASA Tier 2, SOC 2 aligned controls, lawful basis, retention and deletion, subprocessors, and audit cadence."
 category: "Documentation"
 tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]
 last_updated: "2026-11-01"
-canonical: "https://www.corpusiq.io/docs/security"
+canonical: "https://www.corpusiq.io/docs/security/compliance/"
 robots: "index,follow"
 ---
-# Security
+# Security Compliance
 
 CorpusIQ is designed with data privacy as a foundational principle. This page documents the technical and organizational measures applied to protect user data. CorpusIQ LLC, Scottsdale, Arizona. Last updated: March 24, 2026.
 
