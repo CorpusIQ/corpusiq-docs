@@ -145,12 +145,20 @@
          <lastmod>2026-10-24</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-amazon-seller-to-claude</loc>
+         <lastmod>2026-11-03</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-asana-to-chatgpt</loc>
          <lastmod>2026-10-31</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt</loc>
          <lastmod>2026-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-claude</loc>
+         <lastmod>2026-11-03</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-callrail-to-chatgpt</loc>
@@ -227,6 +235,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-jira-to-chatgpt</loc>
          <lastmod>2026-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-jira-to-claude</loc>
+         <lastmod>2026-11-03</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-klaviyo-to-chatgpt</loc>
@@ -343,6 +355,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-youtube-to-chatgpt</loc>
          <lastmod>2026-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-youtube-to-claude</loc>
+         <lastmod>2026-11-03</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/corpusiq-vs-airbyte</loc>
