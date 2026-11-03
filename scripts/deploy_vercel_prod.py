@@ -21,9 +21,43 @@ import shutil
 import subprocess
 import sys
 
-REPO = '/home/hermes/corpusiq-docs'
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRETS = '/home/hermes/.hermes/profiles/corpusiq/secrets/vercel.json'
 TEAM_ID = 'team_btwsQPaxGRECjJjdKQOMcMUQ'
+
+
+def main_only_gate():
+    """Refuse to publish anything that is not origin/main.
+
+    2026-11-03: two production deploys came from feature branches
+    (`deploy/canon` at 14:23 UTC and `mcp/midday-sweep-nov3` at 17:10 UTC)
+    because this script deploys whatever HEAD the calling clone sits on.
+    A branch deploy serves unreviewed pages on docs.corpusiq.io and can
+    silently revert pages that main already fixed. Production is main only;
+    a branch gets a preview, never --prod.
+    """
+    def git(*args):
+        r = subprocess.run(['git'] + list(args), cwd=REPO, capture_output=True, text=True)
+        return r.returncode, (r.stdout or '').strip(), (r.stderr or '').strip()
+
+    rc, branch, _ = git('rev-parse', '--abbrev-ref', 'HEAD')
+    if rc != 0:
+        print('REFUSING TO DEPLOY: cannot read the branch name in {}'.format(REPO))
+        return False
+    git('fetch', 'origin', 'main')
+    rc, head, _ = git('rev-parse', 'HEAD')
+    rc2, main_sha, _ = git('rev-parse', 'origin/main')
+    if rc != 0 or rc2 != 0:
+        print('REFUSING TO DEPLOY: cannot compare HEAD with origin/main')
+        return False
+    if branch != 'main' or head != main_sha:
+        print('REFUSING TO DEPLOY: HEAD is {} ({}) but production is origin/main ({})'.format(
+            branch, head[:8], main_sha[:8]))
+        print('Merge the work first, then deploy from main. Branch builds get a preview, not --prod.')
+        return False
+    print('   Main-only gate passed (HEAD {} is origin/main)'.format(head[:8]))
+    return True
+
 
 
 def normalize_no_slash():
@@ -121,6 +155,11 @@ def main():
     tok = creds.get('token', '')
     if not tok:
         print('ERROR: no token')
+        sys.exit(1)
+    if not main_only_gate():
+        sys.exit(2)
+    if not os.path.isdir(os.path.join(REPO, 'site')):
+        print('ERROR: site/ is missing. Build first (mkdocs build), then deploy.')
         sys.exit(1)
     shutil.copy(os.path.join(REPO, 'vercel.json'), os.path.join(REPO, 'site', 'vercel.json'))
     print('Normalizing site/ to no-slash convention...')
