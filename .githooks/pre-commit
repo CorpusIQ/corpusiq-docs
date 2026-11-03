@@ -62,6 +62,40 @@ if git diff --cached --name-only --diff-filter=ACM | grep -qE '\.(md|mdx)$'; the
   fi
 fi
 
+# --- frontmatter validity gate (wired 2026-11-03) ---
+# scripts/validate_frontmatter.py was only ever invoked from the CI workflow, so a
+# sweep that committed with `--no-verify` (or through a clone whose hook predated
+# the gate) pushed malformed YAML to main and the deploy burned minutes later.
+# 2026-11-03 is the worked example: the night MCP sweep wrote
+#   stars: ### (open source, driven: offline demo scan ...)
+# unquoted, YAML read ": " as a nested mapping key, "Validate frontmatter" failed in
+# all three deploy lanes, and a separate quote-only commit (d6341664) had to follow.
+# MkDocs builds non-strict, so this never fails the build itself - it ships a page
+# with no description meta and a raw frontmatter banner instead. Same class as the
+# page-metadata gate above: cheap to run locally, expensive to discover in prod.
+# Whole-repo scan measured at 2.4s. Needs PyYAML; the shell's default python3 may
+# not have it (this host: /usr/bin/python3 does, the agent venv does not), so pick
+# an interpreter that can import yaml instead of blocking every commit on the
+# import error. If none exists, warn: CI still enforces it on push.
+if git diff --cached --name-only --diff-filter=ACM | grep -qE '\.(md|mdx)$'; then
+  FM_PY=""
+  for cand in "${FRONTMATTER_PYTHON:-}" /usr/bin/python3 python3; do
+    [ -n "$cand" ] || continue
+    if "$cand" -c 'import yaml' >/dev/null 2>&1; then FM_PY="$cand"; break; fi
+  done
+  if [ -z "$FM_PY" ]; then
+    echo "[frontmatter] WARNING: no python with PyYAML found - CI will still gate this on push"
+  else
+    FM_OUT=$("$FM_PY" scripts/validate_frontmatter.py 2>&1)
+    if [ $? -ne 0 ]; then
+      echo "$FM_OUT" | head -14
+      echo "[frontmatter] blocked: quote any frontmatter value containing ': ' or ' #',"
+      echo "              then re-run: $FM_PY scripts/validate_frontmatter.py"
+      FAILED=1
+    fi
+  fi
+fi
+
 if [ "$FAILED" -eq 1 ]; then
   echo "[ops-gate] commit blocked by docs gate. Fix the findings above, or bypass once with: git commit --no-verify"
   exit 1
