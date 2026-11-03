@@ -477,6 +477,9 @@ def main():
                     f.write(new)
                 ov_count += 1
         print(f"   Canonical overrides applied ({ov_count}/{len(overrides)})")
+        # A sitemap must list canonical URLs only: drop the entries whose page
+        # canonicalises elsewhere, or a crawler reports them as errors.
+        run("python3 scripts/prune_non_canonical_sitemap_entries.py site", fatal=True)
 
     # 3b-iv: relative-link resolution fix (Sep 15). The docs origin serves pages
     #        WITHOUT trailing slash while mkdocs computes relative links for
