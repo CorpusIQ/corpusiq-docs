@@ -46,11 +46,31 @@ class VercelDeployTests(unittest.TestCase):
                 "normalize_site_no_slash.py",
                 "absolutize_internal_links.py",
                 "stabilize_hashed_assets.py",
+                "apply_canonical_overrides.py",
+                "prune_non_canonical_sitemap_entries.py",
             ):
                 shutil.copyfile(
                     ROOT / "scripts" / script,
                     root / "scripts" / script,
                 )
+            overrides = json.loads(
+                (ROOT / "scripts" / "canonical_overrides.json").read_text()
+            ).get("overrides", {})
+            for rel in overrides:
+                target = site / rel
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(
+                    '<html><head><link rel="canonical" '
+                    'href="https://www.corpusiq.io/docs/"></head></html>'
+                )
+            (site / "sitemap.xml").write_text(
+                '<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                "    <url>\n"
+                "         <loc>https://www.corpusiq.io/docs</loc>\n"
+                "    </url>\n"
+                "</urlset>\n"
+            )
             for step in steps[build + 1:deploy]:
                 subprocess.run(
                     ["bash", "-e", "-c", step["run"]], cwd=root, check=True
