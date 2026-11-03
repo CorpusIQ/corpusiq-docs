@@ -87,6 +87,7 @@ It is not. Retrieval happens on demand against the live CallRail API. CorpusIQ d
 
 ## Related Pages
 
+- [Connect CallRail to Claude](connect-callrail-to-claude.md) - the same call attribution, read from Claude
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md) - the spend side of the same join
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - the session side of the same join
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - where the call lands after it is qualified
