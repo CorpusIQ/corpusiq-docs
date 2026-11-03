@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 import io
 from pathlib import Path
+import sys
 import tempfile
 import unittest
 from contextlib import redirect_stderr
+
+# Importable from the repo root as well as from scripts/, because CI runs this as
+# `python -m unittest scripts/test_stabilize_hashed_assets.py`.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import stabilize_hashed_assets as sha
 
