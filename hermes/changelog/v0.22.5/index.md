@@ -45,7 +45,7 @@ October 23, 2026
 
 ---
 
-*← [v0.22.4 - Patch Release](/hermes/changelog/v0.22.4) | [Changelog Home](/hermes/changelog) →*
+*← [v0.22.4 - Patch Release](/hermes/changelog/v0.22.4) | [v0.22.6 - Patch Release](/hermes/changelog/v0.22.6) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 

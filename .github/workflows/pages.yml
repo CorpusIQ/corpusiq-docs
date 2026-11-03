@@ -72,6 +72,11 @@ jobs:
         # warnings are tracked separately as content cleanup.
         run: mkdocs build --site-dir ./site
 
+      # MkDocs hash filenames rotate on each build while docs HTML can stay
+      # edge cached. Stabilize names so cached pages keep loading assets.
+      - name: Stabilize hashed asset names
+        run: python scripts/stabilize_hashed_assets.py site
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -613,6 +613,11 @@ def main():
         sys.exit(1)
     print("   Verify gate passed (canonical, sitemap, feeds, hrefs all no-slash)")
 
+    # 3d. Stabilize hashed asset references so cached HTML can keep resolving
+    #     CSS and JavaScript after a new build rotates MkDocs hash filenames.
+    print("3d. Stabilizing hashed asset names...")
+    run("python3 scripts/stabilize_hashed_assets.py site", fatal=True)
+
     # 4. Deploy to gh-pages
     print("4. Deploying to gh-pages...")
     wt = "/tmp/gh-pages-deploy"
