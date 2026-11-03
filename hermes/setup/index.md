@@ -3,7 +3,7 @@ title: "Hermes Agent Setup & Installation Guide - Get Started Fast"
 description: Complete Hermes Agent setup guide for any hardware platform. Quick-start instructions, hardware comparison, and step-by-step installation for Mac Mini, gaming PC, cloud VPS, Raspberry Pi, Docker, and Windows WSL.
 category: setup
 tags: [hermes-agent, installation, setup-guide, getting-started, hardware, ollama, openrouter]
-last_updated: 2026-11-01
+last_updated: 2026-11-03
 canonical: "https://www.corpusiq.io/docs/hermes/setup/"
 robots: "index,follow"
 
@@ -87,7 +87,7 @@ That's it. You can now use Hermes Agent interactively. For persistent operation 
 
 ### Option: Hermes Desktop App (macOS / Windows / Linux)
 
-Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships as a first-party download alongside the current release line (v0.22.5, released October 23, 2026) - a native Electron application, not a terminal wrapper:
+Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships as a first-party download alongside the current release line (v0.22.6, released November 2, 2026) - a native Electron application, not a terminal wrapper:
 
 - One-click install from [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/) with in-app self-update
 - Proper chat window with streaming, drag-and-drop files, clipboard image paste
