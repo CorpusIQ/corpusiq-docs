@@ -127,6 +127,34 @@ class AbsolutizeInternalLinksTests(unittest.TestCase):
         self.assertIn("security/index.html", text)
         self.assertIn("../does-not-exist", text)
 
+    def test_repairs_authored_site_root_links_only_when_the_page_exists(self):
+        self._mkdir("security")
+        self._mkdir("hermes/data")
+        self._write(
+            "hermes/data/index.html",
+            """
+<html><body>
+  <a href="/hermes">hub</a>
+  <a href="/api/overview?x=1">api</a>
+  <a href="/pricing">frontend route</a>
+  <a href="/docs/already-absolute">already</a>
+</body></html>
+""".strip(),
+        )
+        self._mkdir("hermes/data")  # target of /hermes
+        self._mkdir("api/overview")
+
+        summary = ail.absolutize_internal_links(self.site, check=False)
+        html = (self.site / "hermes" / "data" / "index.html").read_text(encoding="utf-8")
+
+        self.assertIn('href="/docs/hermes"', html)
+        self.assertIn('href="/docs/api/overview?x=1"', html)
+        # A frontend route that this build does not contain must be left alone,
+        # and it is counted so a run can report it without failing.
+        self.assertIn('href="/pricing"', html)
+        self.assertIn('href="/docs/already-absolute"', html)
+        self.assertEqual(summary.root_unresolved, 1)
+
 
 if __name__ == "__main__":
     unittest.main()

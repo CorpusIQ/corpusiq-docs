@@ -48,6 +48,7 @@ class Summary:
     files_touched: int
     references_rewritten: int
     distinct_targets: int
+    root_unresolved: int
 
 
 class MissingResolvedTarget(Exception):
@@ -79,7 +80,16 @@ def _split_path_query_fragment(reference: str) -> tuple[str, str]:
 
 
 def _is_skipped_value(reference: str) -> bool:
-    if reference.startswith("/"):
+    """Absolute and non-http schemes are out of scope here.
+
+    A leading single slash is NOT skipped: authored markdown writes site-root
+    links like "/hermes" or "/api/overview", which on the docs deployment sit one
+    level below the real page and 404. Those are repaired in replace_attr when the
+    target exists in the build.
+    """
+    if reference.startswith("/") and not reference.startswith("//"):
+        return False
+    if reference.startswith("//"):
         return True
     lowered = reference.lower()
     return lowered.startswith(SKIP_VALUE_PREFIXES)
@@ -116,13 +126,14 @@ def _rewrite_html_text(
     text: str,
     rel_file: str,
     site_dir: Path,
-) -> tuple[str, int, set[str]]:
+) -> tuple[str, int, set[str], list[tuple[str, str]]]:
     base = _page_base(rel_file)
     refs_rewritten = 0
     touched_targets: set[str] = set()
+    root_unresolved: list[tuple[str, str]] = []
 
     def replace_attr(match: re.Match[str]) -> str:
-        nonlocal refs_rewritten
+        nonlocal refs_rewritten, root_unresolved
 
         prefix = match.group("prefix")
         quote = match.group("quote")
@@ -132,6 +143,27 @@ def _rewrite_html_text(
             return match.group(0)
 
         path_only, suffix = _split_path_query_fragment(original_value)
+
+        # Already published-form links are left exactly as they are.
+        if original_value.startswith("/docs"):
+            return match.group(0)
+
+        # Authored site-root links: "/hermes", "/api/overview". The published page
+        # lives at /docs/<path>, so an unprefixed root link 404s. Repair when the
+        # build really contains the target; leave anything else alone, because
+        # frontend routes such as "/pricing" are legitimately outside this tree.
+        if original_value.startswith("/") and not original_value.startswith("/docs"):
+            candidate = posixpath.normpath(path_only.lstrip("/")).lstrip("/")
+            if candidate and _resolved_target_exists(site_dir, candidate):
+                rewritten = _to_docs_absolute(candidate) + suffix
+                if rewritten == original_value:
+                    return match.group(0)
+                refs_rewritten += 1
+                touched_targets.add(_to_docs_absolute(candidate))
+                return f"{prefix}{quote}{rewritten}{quote}"
+            root_unresolved.append((rel_file, original_value))
+            return match.group(0)
+
         resolved_rel = _resolve_target_rel(base, path_only)
         resolved_docs = _to_docs_absolute(resolved_rel)
 
@@ -147,7 +179,7 @@ def _rewrite_html_text(
         return f"{prefix}{quote}{rewritten}{quote}"
 
     updated = ATTR_RE.sub(replace_attr, text)
-    return updated, refs_rewritten, touched_targets
+    return updated, refs_rewritten, touched_targets, root_unresolved
 
 
 def absolutize_internal_links(site_dir: Path, *, check: bool) -> Summary:
@@ -158,14 +190,18 @@ def absolutize_internal_links(site_dir: Path, *, check: bool) -> Summary:
     files_touched = 0
     refs_rewritten = 0
     distinct_targets: set[str] = set()
+    unresolved: list[tuple[str, str]] = []
 
     for html_path in sorted(site_dir.rglob("*.html")):
         rel_file = html_path.relative_to(site_dir).as_posix()
-        if rel_file == "404.html" or rel_file.startswith("hermes/data/"):
+        if rel_file == "404.html":
             continue
 
         original = html_path.read_text(encoding="utf-8")
-        updated, file_refs, file_targets = _rewrite_html_text(original, rel_file, site_dir)
+        updated, file_refs, file_targets, file_unresolved = _rewrite_html_text(
+            original, rel_file, site_dir
+        )
+        unresolved.extend(file_unresolved)
 
         if updated != original:
             files_touched += 1
@@ -182,6 +218,7 @@ def absolutize_internal_links(site_dir: Path, *, check: bool) -> Summary:
         files_touched=files_touched,
         references_rewritten=refs_rewritten,
         distinct_targets=len(distinct_targets),
+        root_unresolved=len(unresolved),
     )
 
 
@@ -191,6 +228,11 @@ def _print_summary(summary: Summary, *, check: bool) -> None:
     print(f"{files_label}: {summary.files_touched}")
     print(f"{refs_label}: {summary.references_rewritten}")
     print(f"Distinct targets: {summary.distinct_targets}")
+    if summary.root_unresolved:
+        print(
+            f"Root-absolute links left alone (no such page in this build): "
+            f"{summary.root_unresolved}"
+        )
 
 
 def main(argv: list[str] | None = None) -> int:
