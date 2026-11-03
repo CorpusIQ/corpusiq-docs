@@ -1,22 +1,23 @@
 #!/usr/bin/env python3
-"""Integrate auto-approved repos into BOTH directory surfaces.
+"""Integrate auto-approved repos into the published directory.
 
 Why this exists
 ---------------
 `discover.py` auto-approves repos into `data/approved_repos.json` and prints
-"N new repos ready for ecosystem.md integration" - it never writes the
-directory pages. The nightly run therefore had to hand-edit two files, and the
-hand edit kept missing `ecosystem/index.md`, which is the page mkdocs actually
-publishes (`ecosystem.md` collides with it and is not emitted). Root cause of
-the Oct 14 hyperconsciousness promotion never appearing on the live site.
+"N new repos ready for ecosystem integration" - it never writes the directory
+page. The nightly run therefore had to hand-edit files, and the hand edit kept
+missing `ecosystem/index.md`, which is the page mkdocs actually publishes. Root
+cause of the Oct 14 hyperconsciousness promotion never appearing on the live
+site.
 
 This script closes that gap for every future run: it finds approved repos that
-are missing from the directory and writes them to both surfaces, star-sorted,
-using the same block builders as `promote_submission.py`.
+are missing from the directory and writes them to ecosystem/index.md,
+star-sorted, using the same block builder as `promote_submission.py`. The old
+`ecosystem.md` twin was deleted Nov 3 2026, so there is one surface left.
 
 Usage:
     python3 integrate_approved.py --dry-run     # report what would be written
-    python3 integrate_approved.py               # write both surfaces
+    python3 integrate_approved.py               # write the published page
 """
 import argparse
 import json
@@ -63,16 +64,15 @@ def main():
     args = ap.parse_args()
 
     approved = p.load(p.DATA_DIR / "approved_repos.json")
-    eco = p.ECOSYSTEM.read_text() if p.ECOSYSTEM.exists() else ""
     idx = p.PUBLISHED_INDEX.read_text() if p.PUBLISHED_INDEX.exists() else ""
 
     todo = [r for r in approved
-            if r.get("url") and r["url"] not in eco and r["url"] not in idx]
+            if r.get("url") and r["url"] not in idx]
     todo.sort(key=lambda r: -(r.get("stars") or 0))
     if args.limit:
         todo = todo[:args.limit]
 
-    print(f"approved: {len(approved)} | missing from BOTH surfaces: {len(todo)}")
+    print(f"approved: {len(approved)} | missing from the published page: {len(todo)}")
     if not todo:
         print("NOTHING_TO_INTEGRATE")
         return 0
@@ -83,9 +83,8 @@ def main():
               f"{row['name']:44s} {row.get('stars', 0):>8,}* [{row['category']}]")
         if args.dry_run:
             continue
-        wrote_eco = p.insert_into_ecosystem(row)
         wrote_idx = p.insert_into_published_index(row)
-        if not wrote_eco and not wrote_idx:
+        if not wrote_idx:
             print(f"    WARN: nothing written for {row['name']} - check category heading")
 
     print("DRY_RUN_OK" if args.dry_run else "INTEGRATE_OK")

@@ -99,7 +99,7 @@ INDEX_SECTIONS = [
     ("Troubleshooting", sorted(ROOT.glob("troubleshooting/*.md"))),
     ("Hermes Hub", [
         "hermes/index.md",
-        "hermes/ecosystem.md",
+        "hermes/ecosystem/index.md",
         "hermes/skills/marketplace/index.md",
         "hermes/agents/index.md",
         "hermes/templates/index.md",

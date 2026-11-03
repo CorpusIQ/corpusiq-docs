@@ -21,8 +21,8 @@ def main():
     if row is None:
         raise SystemExit(f"{repo} is not in approved_repos.json; nothing to finish.")
 
-    inserted = p.insert_into_ecosystem(row)
-    print("ecosystem.md:", "entry inserted" if inserted else "already present")
+    inserted = p.insert_into_published_index(row)
+    print("ecosystem/index.md:", "entry inserted" if inserted else "already present")
 
     if row.get("submitter"):
         p.update_contributors_pages(row["submitter"])

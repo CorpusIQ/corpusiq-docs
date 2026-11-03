@@ -50,7 +50,6 @@
 - [Privacy and security](https://www.corpusiq.io/docs/how-it-works/privacy-and-security): The short version: CorpusIQ reads your business data when you ask, returns cited answers, and retains no raw customer files. Full privacy model, scope
 
 ## Connectors
-- [Connectors](https://www.corpusiq.io/docs/connectors): CorpusIQ connects 40+ business tools to ChatGPT, Claude, and Perplexity with read-only OAuth. Browse every connector: Shopify, QuickBooks, Stripe, GA4
 - [ActiveCampaign](https://www.corpusiq.io/docs/connectors/activecampaign): ActiveCampaign holds your email contacts, automations, and pipeline deals - the moment-by-moment record of how prospects move from a first open to a c
 - [Adzviser Alternatives: How It Compares](https://www.corpusiq.io/docs/connectors/adzviser-alternative): Adzviser alternatives compared on coverage: marketing channels only, or finance, commerce, and CRM in one assistant. Includes when Adzviser wins.
 - [Ahrefs](https://www.corpusiq.io/docs/connectors/ahrefs): Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organ
@@ -181,7 +180,7 @@
 
 ## Hermes Hub
 - [🫡 Hermes Community Hub](https://www.corpusiq.io/docs/hermes): The largest structured Hermes Agent knowledge base: tools, skills, MCP servers, agents, blueprints, and case studies. Updated daily.
-- [Hermes Ecosystem Directory](https://www.corpusiq.io/docs/hermes/ecosystem): Comprehensive directory of the Hermes Agent ecosystem - 450+ repos, tools, skills, and integrations
+- [Hermes Ecosystem - Complete Resource Directory](https://www.corpusiq.io/docs/hermes/ecosystem): The definitive directory of Hermes Agent resources - 450+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 - [Skills Marketplace](https://www.corpusiq.io/docs/hermes/skills/marketplace): Discover and install community skills from skills.sh - 1,367+ curated skills across 22 categories. Browse by category, check trending skills, submit y
 - [Hermes Agent Library - 9 Production-Ready AI Agent Blueprints](https://www.corpusiq.io/docs/hermes/agents): Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive.
 - [Templates](https://www.corpusiq.io/docs/hermes/templates): Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.

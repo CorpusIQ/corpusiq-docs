@@ -127,7 +127,7 @@ Nothing is deleted when the trial expires.
   and not shortened by it.
 
 If you decide not to continue, you can still ask for account data to be
-deleted. See [the security and privacy page](../security.md) for the
+deleted. See [the security and privacy page](../security/README.md) for the
 request process.
 
 ## Still failing after subscribing
