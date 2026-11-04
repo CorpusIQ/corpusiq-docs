@@ -31,7 +31,9 @@ Commander runs as the master controller. Every task enters through Commander fir
 
 ## Hard Rules
 
-16 hard rules run on every action. Pattern-matched in milliseconds:
+17 hard rules run on every action. Pattern-matched in milliseconds:
+
+<!-- Count source of truth: CommanderReview.HARD_RULES in ~/.hermes/commander/commander_review.py (17 entries, checked 2026-11-04). Never re-derive this number from the bullet list below. -->
 
 - No em dashes in public content
 - No internal analytics data in posts
@@ -47,10 +49,11 @@ Commander runs as the master controller. Every task enters through Commander fir
 - Browser-verify all LinkedIn posts
 - Search knowledge stores before asking the team
 - Check both email accounts
+- No CID-embedded images in emails
 - McKinsey format required for email reports
 - Model pricing is a cost signal, never a reason to delay work
 
-A separate email standard also blocks CID-embedded images (inline base64 attachments that Gmail will not render); it is enforced by the mail layer rather than the content gate.
+CID-embedded images (inline base64 attachments) are blocked because Gmail does not render them; send plain text with regular attachments instead.
 
 ## Failure Dataset
 
