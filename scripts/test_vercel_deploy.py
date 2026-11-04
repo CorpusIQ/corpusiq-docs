@@ -48,6 +48,7 @@ class VercelDeployTests(unittest.TestCase):
                 "stabilize_hashed_assets.py",
                 "apply_canonical_overrides.py",
                 "prune_non_canonical_sitemap_entries.py",
+                "rewrite_sitemap_lastmod.py",
             ):
                 shutil.copyfile(
                     ROOT / "scripts" / script,
@@ -68,8 +69,14 @@ class VercelDeployTests(unittest.TestCase):
                 '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                 "    <url>\n"
                 "         <loc>https://www.corpusiq.io/docs</loc>\n"
+                "         <lastmod>2026-11-04</lastmod>\n"
                 "    </url>\n"
                 "</urlset>\n"
+            )
+            # The page_schema hook writes this during a real build; the rewrite
+            # step refuses to publish build-date stamped lastmod without it.
+            (site / ".page_dates.json").write_text(
+                json.dumps({"https://www.corpusiq.io/docs": "2026-10-01"})
             )
             for step in steps[build + 1:deploy]:
                 subprocess.run(
@@ -80,6 +87,10 @@ class VercelDeployTests(unittest.TestCase):
                 config_path.is_file(),
                 "deploy site omits repository vercel.json; Vercel defaults to public",
             )
+            # Build-date stamping must be replaced by per-page dates before upload.
+            sitemap = (site / "sitemap.xml").read_text()
+            self.assertNotIn("<lastmod>2026-11-04</lastmod>", sitemap)
+            self.assertIn("<lastmod>2026-10-01</lastmod>", sitemap)
             config = json.loads(config_path.read_text())
             self.assertEqual(config["outputDirectory"], ".")
             self.assertTrue((site / config["outputDirectory"] / "index.html").is_file())
