@@ -20962,5 +20962,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-03T10:03:37.387572+00:00"
+  },
+  {
+    "repo": "galyarderlabs/isle",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072290+00:00"
+  },
+  {
+    "repo": "bpauli/gccli",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072304+00:00"
+  },
+  {
+    "repo": "3304711297/workbuddy2api",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072307+00:00"
+  },
+  {
+    "repo": "Xinjikang/bot-group",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072309+00:00"
+  },
+  {
+    "repo": "degin/yougile-hermes-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072312+00:00"
+  },
+  {
+    "repo": "roplizeramr-blip/hermes-blender-stack",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072314+00:00"
+  },
+  {
+    "repo": "dudubuntu/gmail-mcp-skill",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072316+00:00"
+  },
+  {
+    "repo": "legott-ai/habitude-agent-integrations",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072318+00:00"
+  },
+  {
+    "repo": "LastNever/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072320+00:00"
+  },
+  {
+    "repo": "hycsposad113/hermes-zenith-showcase",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-04T10:04:12.072322+00:00"
   }
 ]
