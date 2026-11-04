@@ -61,7 +61,7 @@ Read-only is enforced by scope, not by policy. Nothing in the retrieval path can
       "command": "npx",
       "args": [
         "-y", "mcp-remote",
-        "https://www.corpusiq.io/mcp/direct-connection"
+        "https://mcp2.corpusiq.io/mcp"
       ]
     }
   }
