@@ -83,7 +83,7 @@ Add CorpusIQ to your agent's MCP configuration. See [supported agents](../suppor
 {
   "mcpServers": {
     "corpusiq": {
-      "url": "https://www.corpusiq.io/mcp/direct-connection"
+      "url": "https://mcp2.corpusiq.io/mcp"
     }
   }
 }

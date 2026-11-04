@@ -59,7 +59,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
       "command": "npx",
       "args": [
         "-y", "mcp-remote",
-        "https://www.corpusiq.io/mcp/direct-connection"
+        "https://mcp2.corpusiq.io/mcp"
       ]
     }
   }

@@ -23,7 +23,7 @@ CorpusIQ connects to any MCP-compatible AI agent. Below are the agents with veri
   "mcpServers": {
     "corpusiq": {
       "type": "http",
-      "url": "https://www.corpusiq.io/mcp/direct-connection"
+      "url": "https://mcp2.corpusiq.io/mcp"
     }
   }
 }
@@ -51,7 +51,7 @@ OpenClaw by NiceGUI was shut down. The repository is no longer available. Users 
       "command": "npx",
       "args": [
         "-y", "mcp-remote",
-        "https://www.corpusiq.io/mcp/direct-connection"
+        "https://mcp2.corpusiq.io/mcp"
       ]
     }
   }
@@ -78,7 +78,7 @@ Restart Claude Desktop and complete the device login when prompted.
       "command": "npx",
       "args": [
         "-y", "mcp-remote",
-        "https://www.corpusiq.io/mcp/direct-connection"
+        "https://mcp2.corpusiq.io/mcp"
       ]
     }
   }
@@ -101,7 +101,7 @@ Add to Cursor's MCP configuration under Settings > MCP. Restart Cursor to connec
       "command": "npx",
       "args": [
         "-y", "mcp-remote",
-        "https://www.corpusiq.io/mcp/direct-connection"
+        "https://mcp2.corpusiq.io/mcp"
       ]
     }
   }
@@ -124,7 +124,7 @@ Add to Windsurf's MCP settings. Restart the editor to initialize the connection.
       "command": "npx",
       "args": [
         "-y", "mcp-remote",
-        "https://www.corpusiq.io/mcp/direct-connection"
+        "https://mcp2.corpusiq.io/mcp"
       ]
     }
   }
@@ -139,7 +139,7 @@ Add to Roo Code's MCP configuration and restart.
 
 CorpusIQ uses the standard Model Context Protocol. Any agent that supports MCP can connect:
 
-1. Configure your agent with the MCP endpoint: `https://www.corpusiq.io/mcp/direct-connection`
+1. Configure your agent with the MCP endpoint: `https://mcp2.corpusiq.io/mcp`
 2. Use the `http` transport for direct connections
 3. Use `mcp-remote` for agents that require a local proxy
 4. Complete the OAuth 2.0 device flow when prompted
@@ -153,7 +153,7 @@ Your agent should list all 36 available business data sources.
 
 | Issue | Solution |
 |-------|----------|
-| Agent can't find MCP server | Verify the URL: `https://www.corpusiq.io/mcp/direct-connection` |
+| Agent can't find MCP server | Verify the URL: `https://mcp2.corpusiq.io/mcp` |
 | Authentication loop | Complete device verification at the provided URL |
 | Tools not appearing | Run `tools/list` or restart your agent |
 | Timeout errors | Check internet connection, retry with increased timeout |
@@ -165,7 +165,7 @@ Your agent should list all 36 available business data sources.
 A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. ChatGPT, Claude, Perplexity, Google Gemini, and Grok connect as MCP clients, and any other MCP-compatible agent can connect using the standard endpoint. See [Grok integration](grok-integration.md) for the Grok steps.
 
 **Q: How do I configure my agent to connect to CorpusIQ?**  
-A: Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.
+A: Add the CorpusIQ MCP endpoint (https://mcp2.corpusiq.io/mcp) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.
 
 **Q: How do I verify my agent is connected?**  
 A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list all your connected business data sources. You can also run tools/list to see available query tools.

@@ -59,7 +59,7 @@ Read-only is enforced by scope. CorpusIQ never changes statuses, assigns items, 
       "command": "npx",
       "args": [
         "-y", "mcp-remote",
-        "https://www.corpusiq.io/mcp/direct-connection"
+        "https://mcp2.corpusiq.io/mcp"
       ]
     }
   }
