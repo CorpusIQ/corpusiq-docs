@@ -1,35 +1,119 @@
 ---
-title: authentication
-description: "The CorpusIQ API uses API keys for authentication. All requests must include your API key in the `Authorization` header."
-last_updated: "2026-11-01"
+title: "CorpusIQ API Authentication - CorpusIQ Docs"
+description: "Complete guide to CorpusIQ API authentication: bearer tokens, OAuth 2.0 device flow, token management, refresh detection, revocation, and security controls."
+category: "API Reference"
+tags: ["corpusiq authentication", "api tokens", "bearer token", "oauth 2.0", "api security", "token management", "mcp authentication"]
+last_updated: "2026-11-02"
+canonical: "https://www.corpusiq.io/docs/api/authentication"
+robots: "index,follow"
 ---
-# API Authentication
+# Authentication
 
-The CorpusIQ API uses API keys for authentication. All requests must include your API key in the `Authorization` header.
+All CorpusIQ API requests require authentication via a Bearer token in the `Authorization` header. Tokens are scoped to individual users and inherit the user's connected data sources and permissions.
 
-## Getting an API Key
+## Bearer Token
 
-1. Log in to your [CorpusIQ dashboard](https://corpusiq.io)
-2. Go to **Settings > API**
-3. Click **Generate API Key**
-4. Copy the key - you won't be able to see it again
+Include the token in every API request:
 
-## Using Your API Key
-
-Include the key in every request:
-
-```bash
-curl -H "Authorization: Bearer YOUR_API_KEY" \
- https://api.corpusiq.io/v1/connectors
+```http
+Authorization: Bearer <token>
 ```
 
-## Security Best Practices
+Tokens have a **60-minute expiry** from the time of issuance. The API supports server-side token refresh - clients that receive a `401 Unauthorized` response with an `X-Token-Expired` header should request a new token rather than retrying with the expired one.
 
-- Never expose your API key in client-side code or public repositories
-- Rotate keys regularly from the dashboard
-- Use separate keys for development and production
-- API keys have the same permissions as your user account
+### Token Refresh
 
-## Token Expiry
+When a token expires, the API returns:
 
-API keys do not expire automatically. You can revoke them at any time from the dashboard.
+```http
+HTTP/1.1 401 Unauthorized
+X-Token-Expired: true
+```
+
+Clients should then obtain a fresh token. There is no refresh-token flow; simply re-authenticate through one of the supported methods below.
+
+## Obtaining a Token
+
+### Via Dashboard
+
+1. Log in to the [CorpusIQ Dashboard](https://corpusiq.io/dashboard)
+2. Navigate to **Settings → API**
+3. Click **Generate Token**
+4. Copy the token - it will only be displayed once
+
+### Via the ChatGPT app or MCP connector
+
+Through the CorpusIQ app in the ChatGPT app store, authorization and token issuance are handled by the integration at first use. No manual token management is required. If you add the MCP connector yourself under **Settings > Connectors**, paste the personal token shown in CorpusIQ **Settings > Integrations > ChatGPT MCP**, and update it if you regenerate the token. Custom GPT Actions are retired with custom GPTs on December 11, 2026.
+
+## Security Requirements
+
+### Never Embed Tokens in Client-Side Code
+
+API tokens grant access to all of a user's connected data sources. Embedding tokens in client-side JavaScript, mobile apps, or publicly accessible configuration files exposes them to extraction. Tokens must only be used on the server side.
+
+### Server-Side Usage
+
+CorpusIQ is designed for server-side integration. The recommended architecture is:
+
+```
+┌──────────┐     ┌──────────────┐     ┌──────────┐
+│  Client  │────▶│  Your Server │────▶│ CorpusIQ │
+│  (UI)    │◀────│  (Backend)  │◀────│   API    │
+└──────────┘     └──────────────┘     └──────────┘
+```
+
+Your backend forwards authenticated user requests to CorpusIQ. The API token never reaches the client.
+
+### Token Revocation
+
+The Dashboard can clear CorpusIQ MCP session state so a fresh token is required at the next login. This does not revoke authorization held by a connected provider; manage provider-side authorization in the provider's controls.
+
+## Header Reference
+
+| Header | Required | Description |
+|--------|----------|-------------|
+| `Authorization` | Yes | `Bearer <token>` |
+| `Content-Type` | Yes (POST) | Must be `application/json` |
+
+## Testing Authentication
+
+Verify your token is active with a simple health check:
+
+```bash
+curl -s -o /dev/null -w "%{http_code}" \
+  -H "Authorization: Bearer <token>" \
+  https://mcp2.corpusiq.io/mcp \
+  -H "Content-Type: application/json" \
+  -d '{"query": "test"}'
+```
+
+A `200` response indicates a valid token. A `401` means the token is expired or invalid.
+
+## Frequently Asked Questions
+
+**Q: How do I get a CorpusIQ API token?**  
+A: Generate an API token from your CorpusIQ Dashboard under Settings → API. Tokens are displayed once - store them securely and never commit them to version control.
+
+**Q: How long do CorpusIQ API tokens last?**  
+A: API tokens expire after 60 minutes with server-side refresh detection. Use refresh tokens for persistent agent access, or regenerate from the Dashboard for manual workflows.
+
+**Q: What is the OAuth 2.0 device flow for AI agents?**  
+A: AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token - no browser needed for ongoing access.
+
+**Q: How do I revoke a CorpusIQ API token?**  
+A: Disconnect the connector from the CorpusIQ Dashboard. The service commits an inactive state before credential cleanup and surfaces cleanup failures for retry; provider-side revocation is also available through the source platform. To request deletion of account data, contact privacy@corpusiq.io; CorpusIQ responds to privacy requests within 30 days.
+
+## Internal Links
+
+- **[CorpusIQ API Overview](/api/overview)** - Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)** - Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)** - Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)** - Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)** - Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)** - Encryption, network security, and compliance  
+
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
