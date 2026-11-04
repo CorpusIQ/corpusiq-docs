@@ -4905,6 +4905,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/nmos-crawl-analytics-mcp</loc>
+         <lastmod>2026-11-04</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/noclick-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7059,6 +7063,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november3-2026-night</loc>
          <lastmod>2026-11-03</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november4-2026-midday</loc>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november4-2026-night</loc>
@@ -12542,7 +12550,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/how-it-works</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/how-it-works/connectors-explained</loc>
