@@ -53,7 +53,7 @@ An operator should still treat it as third-party code: it runs on the same machi
 
 ## Where this sits in the catalog
 
-Nothing in the catalog covers this ground. The commerce entries read a store rather than a rulebook: [Mamba Ecommerce Platform Profiler](/hermes/mcp/servers/external/mamba-ecommerce-platform-profiler/) profiles a platform, [Shopify Speed Check](/hermes/mcp/servers/external/shopify-speed-check-mcp/) audits storefront speed. The trade entries answer market questions rather than listing questions: [EU Trade Explorer](/hermes/mcp/servers/external/eu-trade-explorer-mcp/) and [Gemalli B2B Trade MCP](/hermes/mcp/servers/external/gemalli-b2b-trade-mcp/) work the cross-border trade angle.
+Nothing in the catalog covers this ground. The commerce entries read a store rather than a rulebook: [Mamba Ecommerce Platform Profiler](/hermes/mcp/servers/external/mamba-ecommerce-platform-profiler/) profiles a platform, [Shopify Speed Check](/hermes/mcp/servers/external/shopify-speed-check-mcp/) audits storefront speed. The trade entries answer market questions rather than listing questions: [EU Trade Explorer](/hermes/mcp/servers/external/eu-trade-explorer-mcp) and [Gemalli B2B Trade MCP](/hermes/mcp/servers/external/gemalli-b2b-trade-mcp/) work the cross-border trade angle.
 
 And the green claims surface is new in the strict sense: **no guide in this catalog mentioned Directive 2024/825 or green claims before this entry.** For an operator selling into the EU, that is the one tool here with a regulatory clock on it.
 

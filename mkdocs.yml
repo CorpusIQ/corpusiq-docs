@@ -197,6 +197,13 @@ nav:
   - Connect Amazon Seller to Claude: connect-amazon-seller-to-claude.md
   - Connect Asana to Claude: connect-asana-to-claude.md
   - Connect CallRail to Claude: connect-callrail-to-claude.md
+- Perplexity Integrations:
+  - Connect Google Sheets to Perplexity: connect-google-sheets-to-perplexity.md
+  - Connect Google Drive to Perplexity: connect-google-drive-to-perplexity.md
+  - Connect Google Calendar to Perplexity: connect-google-calendar-to-perplexity.md
+  - Connect Airtable to Perplexity: connect-airtable-to-perplexity.md
+  - Connect Klaviyo to Perplexity: connect-klaviyo-to-perplexity.md
+  - Connect Ahrefs to Perplexity: connect-ahrefs-to-perplexity.md
 - Business AI Use Cases:
   - AI for Business Intelligence: ai-for-business-intelligence.md
   - AI for Financial Analysis: ai-for-financial-analysis.md

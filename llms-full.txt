@@ -6159,6 +6159,162 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Ahrefs to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-ahrefs-to-perplexity
+
+
+# How to Connect Ahrefs to Perplexity with CorpusIQ MCP
+
+SEO work runs on numbers that live in one place and reasoning that happens in another. The numbers are in Ahrefs. The reasoning happens in whatever tool you think in.
+
+Getting from one to the other usually means an export, a screenshot, or a manual copy into a chat.
+
+Connecting Ahrefs through CorpusIQ MCP removes that step. You ask the question in a Perplexity thread, the connector pulls the metric, and the answer names the domain and the period it measured.
+
+### Why Connect Ahrefs to Perplexity?
+
+- **Competitor framing.** "How does our Domain Rating compare with these three competitors?"
+- **Keyword surface.** "Which keywords does our domain rank for in the top ten?"
+- **Link gap.** "Which referring domains link to the competitor but not to us?"
+- **Content bets.** "What are the highest-traffic pages on their site?"
+- **Research plus data.** A Perplexity thread can search the web and check your Ahrefs numbers in the same answer.
+- **Read-only by scope.** The token reads. It cannot change anything in your Ahrefs account.
+
+### How It Works
+
+1. **Connect Ahrefs to CorpusIQ** by pasting an API token from your Ahrefs account.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** the Ahrefs endpoints that answer the question: domain overview, organic keywords, backlinks, referring domains, competitors, top pages, or keyword metrics.
+4. **Perplexity answers** from those results, naming the domain measured.
+
+Read-only. CorpusIQ does not consume Ahrefs API rows beyond the queries you ask for, and direct MCP does not retain full connector response payloads.
+
+### Setup Steps
+
+**In Ahrefs**
+
+1. Go to **Settings, API** and copy your API token. API access requires the Advanced plan or higher.
+
+**In CorpusIQ**
+
+2. Open your dashboard, find **Ahrefs**, and click **Connect**.
+3. Paste the token and save. The connector turns green.
+
+**In Perplexity**
+
+4. Open **Settings** and find the **MCP servers** section.
+5. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+6. Connect and approve the CorpusIQ authorization page once.
+7. Start a new thread and ask an SEO question.
+
+An "API token invalid" response almost always means the plan does not include API access, or the token was rotated after it was pasted.
+
+### Example Perplexity Questions
+
+**Domain and authority**
+
+- "What is the Domain Rating for competitor.com, and how many referring domains does it have?"
+- "Compare our Domain Rating to these three competitors."
+- "Which domains gained the most referring domains this quarter?"
+
+**Keywords**
+
+- "Which keywords does our domain rank for in the top ten, with volume and position?"
+- "What is the keyword difficulty and CPC for these five terms?"
+- "Which keywords does the competitor rank for that we do not?"
+
+**Links**
+
+- "Show the top referring domains linking to our site, with Domain Rating for each."
+- "Which referring domains link to the competitor but not to us?"
+- "What is our total backlink count and how has it changed?"
+
+**Content**
+
+- "What are the highest-traffic pages on competitor.com?"
+- "Who are our top organic competitors?"
+
+### Security
+
+- **Read-only.** The connector queries Ahrefs data. Nothing in your Ahrefs account is modified.
+- **Query-scoped consumption.** Only the API rows your questions require are read. There is no bulk crawl of the account.
+- **Revocable at any time.** Rotate or delete the token in Ahrefs and the connection ends immediately.
+- **Scoped direct-MCP retention.** Full connector response payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Ahrefs, CorpusIQ, and Perplexity.
+
+### Comparison: Ahrefs UI vs Ahrefs in Perplexity
+
+| Aspect | Ahrefs interface | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Navigate a report and set filters | A question in plain language |
+| Output | A table you interpret | A summarized answer with the domain named |
+| Multi-domain | One report per domain | Several domains in one question |
+| Web context | Separate tab | Same thread as the research |
+| Repeat questions | Rebuild the view | Just ask again |
+| Write access | Account settings | None, read-only token |
+
+The Ahrefs interface is built for exploration. The connector is built for the question you already have.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Do I need an Ahrefs API plan?</strong></summary>
+
+Yes. API access requires the Advanced plan or higher. The connector uses the same API token your account already issues.
+</details>
+
+<details>
+<summary><strong>Is the data live or cached?</strong></summary>
+
+Each question queries Ahrefs through the API, so the answer reflects the data Ahrefs holds at that moment. Ahrefs' own index refresh cadence still applies to the underlying metrics.
+</details>
+
+<details>
+<summary><strong>Can it compare several competitors in one question?</strong></summary>
+
+Yes. Naming the domains in the question is enough, and the answer comes back with each one identified rather than merged.
+</details>
+
+<details>
+<summary><strong>Does Perplexity's web search interfere with the numbers?</strong></summary>
+
+No. The metrics come from Ahrefs through the connector. Perplexity can still search the web in the same thread, and the two are distinguishable in the answer because the metric values trace to the connector.
+</details>
+
+<details>
+<summary><strong>Can it write keywords or change targets in Ahrefs?</strong></summary>
+
+No. The token is read-only and the connector has no write tool.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Ahrefs is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Ahrefs data stored?</strong></summary>
+
+CorpusIQ does not retain full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Ahrefs to Perplexity now](https://corpusiq.io/connect/ahrefs-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Airtable to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-airtable-to-chatgpt
 
@@ -6252,6 +6408,166 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 - [Benefits of MCP for Business](benefits-of-mcp-for-business.md) - the operating argument
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+# How to Connect Airtable to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-airtable-to-perplexity
+
+
+# How to Connect Airtable to Perplexity with CorpusIQ MCP
+
+Airtable holds the operating data that never made it into a real SaaS tool. The content calendar, the hiring pipeline, the partnership tracker, the product roadmap.
+
+None of it reaches your other systems, and none of it reaches your AI unless somebody exports a view.
+
+Connecting Airtable through CorpusIQ MCP makes those bases answerable inside a Perplexity thread, read-only, with the answer naming the base and table it came from.
+
+### Why Connect Airtable to Perplexity?
+
+- **Roadmap truth.** "What is shipping this month and what is still blocked?"
+- **Pipeline reads.** "Which candidates are in final round, and how long have they been there?"
+- **Tracker questions.** "Which partnership conversations have no activity in 21 days?"
+- **Content operations.** "How many posts are scheduled for next month, by channel?"
+- **Cross-system answers.** "Do the accounts marked at-risk in Airtable have open support tickets?"
+- **Read-only by scope.** The token grants read on records and schema. It cannot write, edit, or delete.
+
+### How It Works
+
+1. **Connect Airtable to CorpusIQ** by pasting a personal access token scoped to the bases you want visible.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the records that answer the question, from the bases the token can see.
+4. **Perplexity answers** from those records, naming the base and table used.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In Airtable**
+
+1. Go to `airtable.com/create/tokens` and create a personal access token.
+2. Give it the scopes `data.records:read` and `schema.bases:read`.
+3. Grant access to the specific bases you want CorpusIQ to see, not all of them.
+
+**In CorpusIQ**
+
+4. Open your dashboard, find **Airtable**, and click **Connect**.
+5. Paste the token and save. The connector turns green.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread and ask a question about a base.
+
+Scoping the token to named bases is the strongest control you have here. A base you did not grant stays invisible to the connector.
+
+### Example Perplexity Questions
+
+**Product and roadmap**
+
+- "What is shipping this month, and which items are blocked?"
+- "Which roadmap items have no owner?"
+- "What changed in the roadmap since last month?"
+
+**Hiring**
+
+- "How many candidates are in final round, and who has been waiting longest?"
+- "Which roles have zero candidates in the last two weeks?"
+
+**Partnerships and accounts**
+
+- "Which partnership conversations have had no activity in 21 days?"
+- "List accounts marked at-risk with the owner for each."
+
+**Content operations**
+
+- "How many posts are scheduled next month, by channel?"
+- "Which drafts are past their due date?"
+
+**Cross-source**
+
+- "Do the at-risk accounts in Airtable have open invoices in billing?" (requires the billing connector)
+
+### Security
+
+- **Read-only scopes.** The token carries `data.records:read` and `schema.bases:read`. There is no write path from Perplexity into Airtable.
+- **Base-level scoping.** Grant only the bases a question would use. Everything else is out of reach.
+- **Revocable at any time.** Delete the token in Airtable and the connection ends immediately.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Airtable, CorpusIQ, and Perplexity.
+
+### Comparison: Airtable Views vs Airtable in Perplexity
+
+| Aspect | Airtable views and filters | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A filter you configure | A question in plain language |
+| Output | Rows to read | A summarized answer naming the table |
+| Across bases | One base at a time | Asked across granted bases |
+| Cross-system | Export and join manually | Asked across connectors |
+| Time-based questions | Manual date filters | Asked as a range |
+| Write access | Yes, by you | None, read-only |
+
+A view answers a question you already knew how to filter. A connected Airtable answers the one you did not.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change my Airtable records?</strong></summary>
+
+No. The token is read-only by scope. Records, fields, and schema are untouched.
+</details>
+
+<details>
+<summary><strong>Does it need access to every base?</strong></summary>
+
+No, and it should not have it. Airtable lets you grant a token access to specific bases. Only those bases are readable through the connector.
+</details>
+
+<details>
+<summary><strong>What happens when the token is rotated?</strong></summary>
+
+The connection stops working until the new token is pasted into CorpusIQ. That is the intended behaviour of a revocable credential.
+</details>
+
+<details>
+<summary><strong>Are linked records and attachments readable?</strong></summary>
+
+Records and their field values are readable within the granted scopes. Linked records appear as their references, so a question that spans two linked tables can be answered in one go.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. A record edited a minute ago is visible to the next question. There is no nightly copy.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Airtable is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Airtable data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Airtable to Perplexity now](https://corpusiq.io/connect/airtable-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
 # How to Connect Amazon Seller Central to ChatGPT with CorpusIQ MCP
@@ -8306,6 +8622,157 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Google Calendar to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-calendar-to-perplexity
+
+
+# How to Connect Google Calendar to Perplexity with CorpusIQ MCP
+
+A calendar is the most honest record of where a week went. Not the plan, not the time sheet, the actual blocks and the people in them.
+
+That record is invisible to an AI tool unless you paste it in. Connecting Google Calendar through CorpusIQ MCP makes it answerable inside a Perplexity thread, read-only.
+
+### Why Connect Google Calendar to Perplexity?
+
+- **Meeting load.** "How many hours of external calls did I have last month, by customer?"
+- **Account coverage.** "Which of my top ten accounts have I not spoken to in 45 days?"
+- **Thread recall.** "What did we agree in the Acme kickoff, and who was in the room?"
+- **Capacity planning.** "Where is the first two-hour block free next week for deep work?"
+- **Cost of meetings.** "Total hours in recurring internal meetings this quarter, and who attends them."
+- **Read-only by scope.** The connector reads events. It cannot create, move, or delete anything, and it cannot invite anyone.
+
+### How It Works
+
+1. **Connect Google Calendar to CorpusIQ** through Google OAuth and approve the read scopes, Calendar included.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the events that answer the question, within what the connected account can see.
+4. **Perplexity answers** from the retrieved events, naming the meetings it counted.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Calendar** (or the Google Workspace connector, which covers Calendar, Drive, Sheets and Gmail in one authorization).
+3. Sign in to Google and approve the read scopes.
+4. Copy the MCP endpoint shown under **Settings, Integrations**.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about your week or your accounts.
+
+One approval covers future threads. There is no per-question reconnect step.
+
+### Example Perplexity Questions
+
+**Where the time went**
+
+- "How many hours did I spend in meetings last week, split internal and external?"
+- "Which recurring meetings take the most total attendee hours this month?"
+- "What is my average number of meetings per day this quarter?"
+
+**Customer coverage**
+
+- "Which of my accounts have no meeting in the last 30 days?"
+- "When did I last speak to the Acme team, and who joined?"
+- "List every meeting with the renewal customer this year."
+
+**Planning**
+
+- "Where is my first free two-hour block on Thursday?"
+- "What is on my calendar before the board meeting?"
+- "Which days next week have more than four hours of calls?"
+
+**Cross-source**
+
+- "Do the accounts with the most meetings also carry the most open pipeline?" (requires the CRM connector)
+
+### Security
+
+- **Read scope only.** The connection requests Google's read-only calendar scopes. There is no tool that writes an event.
+- **Account-scoped.** Access follows the Google account you approve. A calendar that account cannot see stays out of reach.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Perplexity.
+
+### Comparison: Reading a Calendar Manually vs Calendar in Perplexity
+
+| Aspect | Scrolling the calendar | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Visual scan, week by week | A question about a period or a person |
+| Output | Blocks you count yourself | A computed total with the events named |
+| Across people | Ask each person | Asked across the account's visible calendars |
+| History | Scroll back and guess | Queried over a range |
+| Combining sources | Manual cross-reference | Asked across connectors |
+| Write access | Yes, by you | None, read-only scope |
+
+The calendar view answers "what is next". The connector answers "what happened, with whom, and how much".
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity book or move a meeting through this connection?</strong></summary>
+
+No. The connection is read-only. It cannot create, edit, delete, or invite anyone to an event.
+</details>
+
+<details>
+<summary><strong>Whose calendars can it see?</strong></summary>
+
+The calendars the authorized Google account can already open, including ones shared with it. It does not gain access to anything the account could not see in Google.
+</details>
+
+<details>
+<summary><strong>Can it answer "what did we agree" from a meeting?</strong></summary>
+
+When the notes or agenda were written into the event, the event record carries them, so a question about what was agreed can be answered from that text. A meeting with no written record has nothing to read.
+</details>
+
+<details>
+<summary><strong>How far back can I ask?</strong></summary>
+
+Questions are answered over the range you specify, as far back as the calendar still holds. Naming a date range gives the tightest answer.
+</details>
+
+<details>
+<summary><strong>Is attendee data included?</strong></summary>
+
+Attendee lists are part of the event record and fall under the same read scope as the rest of it. Anything the authorized account can see on the event is in scope.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Calendar is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the calendar data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Google Calendar to Perplexity now](https://corpusiq.io/connect/google-calendar-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Google Docs to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-google-docs-to-chatgpt
 
@@ -8825,6 +9292,158 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 **Next steps:** [Connect Google Drive to Claude now](https://corpusiq.io/connect/google-drive-with-claude)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Google Drive to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-drive-to-perplexity
+
+
+# How to Connect Google Drive to Perplexity with CorpusIQ MCP
+
+Every business has a decision that is written down somewhere in Drive and cannot be found again. The contract, the pricing sheet, the policy, the proposal that was approved in March.
+
+Drive search returns filenames. It does not return the clause.
+
+Connecting Google Drive through CorpusIQ MCP makes the contents of those files answerable inside a Perplexity thread, read-only, with the answer tied to the file it came from.
+
+### Why Connect Google Drive to Perplexity?
+
+- **Clause lookup.** "What is the termination notice period in the Acme contract?"
+- **Version truth.** "Which of these three proposals is the latest, and what changed between them?"
+- **Policy checks.** "What does our refund policy say about partial-month cancellations?"
+- **Research with your own documents.** Perplexity can weigh outside context against your actual paperwork in one answer.
+- **Onboarding speed.** "Summarize what a new account manager needs to know from the client folder."
+- **Read-only by scope.** The connector reads files. It cannot create, move, share, or delete anything.
+
+### How It Works
+
+1. **Connect Google Drive to CorpusIQ** through Google OAuth and approve the read scopes, Drive included.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ finds and reads** the documents that answer the question, within what the connected Google account can open.
+4. **Perplexity answers** from that retrieved content and cites the file it used.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Drive** (or the Google Workspace connector, which covers Drive, Calendar, Sheets and Gmail in one authorization).
+3. Sign in to Google and approve the read scopes.
+4. Copy the MCP endpoint shown under **Settings, Integrations**.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about a document.
+
+The authorization persists after the first approval, so the setup is one time.
+
+### Example Perplexity Questions
+
+**Contracts and terms**
+
+- "What is the renewal date and notice period in the vendor agreement?"
+- "Which contracts expire in the next 90 days?"
+- "Does the Master Services Agreement allow subcontracting?"
+
+**Documents and versions**
+
+- "Which version of the pricing sheet is the current one?"
+- "What changed between the two approved proposals?"
+- "Find the deck where we described the Q3 roadmap."
+
+**Operations**
+
+- "What does the onboarding checklist say happens on day one?"
+- "Summarize the open items in the client folder for Acme."
+
+**Cross-source**
+
+- "Do the payment terms in the contract match what is in the billing system?" (requires the billing connector)
+
+### Security
+
+- **Read scope only.** The connection requests Google's read-only scopes. There is no write path from Perplexity into Drive.
+- **Account-scoped reach.** The connector can reach what the connected Google account can open, and nothing else. Files never shared with that account stay out of scope.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Perplexity.
+
+### Comparison: Drive Search vs Drive in Perplexity
+
+| Aspect | Drive search | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Keywords you guess | A question about the content |
+| Output | A list of files to open | An answer with the file cited |
+| Reading | You open each result | Read on demand, per question |
+| Version comparison | Manual, side by side | Asked as one question |
+| Combining sources | Copy between documents | Asked across connectors |
+| Write access | Yes, by you | None, read-only scope |
+
+Search is the right tool when you remember the filename. A connected Drive is the right tool when you remember the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connection is read-only at the scope level, not by policy promise. There is no tool that writes to Drive.
+</details>
+
+<details>
+<summary><strong>Can it see files that were shared with me but that I do not own?</strong></summary>
+
+Access follows the Google account you authorized. If that account can open the file, the connector can read it. A link-restricted share keeps its restriction.
+</details>
+
+<details>
+<summary><strong>Can it read PDFs and Word files, or only Google Docs?</strong></summary>
+
+Drive holds mixed content. Text-based documents come through as text. Scanned images without a text layer are the usual failure case, because there is nothing to read.
+</details>
+
+<details>
+<summary><strong>Does it copy my files into an index?</strong></summary>
+
+No. Raw customer files and full connector response payloads are not retained. Retrieval happens on demand per question, and what the operational logs keep is bounded to query text and outcome summaries with a 30-day window.
+</details>
+
+<details>
+<summary><strong>Will it search the whole Drive on every question?</strong></summary>
+
+It searches within the scope of the connected account and the question. Narrow questions get tighter answers: naming the folder or the counterparty is usually enough.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. The same subscription exposes Drive to ChatGPT, Claude, and Perplexity through the same endpoint. Use whichever client you are already in.
+</details>
+
+<details>
+<summary><strong>Where is the retrieved content stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Google Drive to Perplexity now](https://corpusiq.io/connect/google-drive-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -9358,6 +9977,165 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 **Next steps:** [Connect Google Sheets to Claude now](https://corpusiq.io/connect/google-sheets-with-claude)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Google Sheets to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-google-sheets-to-perplexity
+
+
+# How to Connect Google Sheets to Perplexity with CorpusIQ MCP
+
+Half of a business lives in spreadsheets nobody designed as a database. The budget, the hiring plan, the pipeline tracker, the inventory count somebody updates on Fridays.
+
+Perplexity is good at research and reasoning, but it cannot see a sheet you have not pasted into the thread. Copying a tab works once and is stale by the next question.
+
+Connecting Google Sheets through CorpusIQ MCP closes that gap. You ask a question in a Perplexity thread, the connector reads the sheet as it stands, and the answer names the spreadsheet and the tab it came from.
+
+### Why Connect Google Sheets to Perplexity?
+
+- **Questions over formulas.** "Which cost centres are over budget this quarter?" instead of building another pivot.
+- **Tracker reads.** "Which deals in the pipeline tracker have not moved in 30 days?"
+- **Reconciliation.** "Compare the budget sheet to actuals in the accounting system, by category." Two sources, one question.
+- **Change detection.** "What changed in the hiring plan since the last version?"
+- **Research plus your own numbers.** A Perplexity thread can hold outside context and your live figures in the same answer.
+- **Read-only by scope.** The connection reads spreadsheets. It cannot edit a cell, add a row, or change sharing.
+
+### How It Works
+
+1. **Connect Google Sheets to CorpusIQ** through Google OAuth and approve the read-only scopes on Google's consent screen.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ translates** your question into spreadsheet reads, opens the tabs and ranges that answer it, and returns the values.
+4. **Perplexity answers** from that retrieved content, naming the sheet and tab used.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log in and open **Connectors**.
+2. Select **Google Sheets** (or the Google Workspace connector if you want Drive, Calendar, and Gmail alongside it).
+3. Sign in to Google and approve the read-only scopes.
+4. Copy the MCP endpoint shown under **Settings, Integrations**.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a new custom MCP server and paste the CorpusIQ endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect. Perplexity opens the CorpusIQ authorization page. Approve it once and the connection persists.
+8. Start a new thread and ask a question about the sheet.
+
+Perplexity keeps the token after that first approval, so the connection is a one-time setup rather than a per-chat step. If the tools do not appear, start a fresh thread before changing anything else.
+
+### Example Perplexity Questions
+
+**Budget and spend**
+
+- "What is total spend in the Q4 budget tab, by category?"
+- "Which departments are more than 10 percent over plan?"
+- "Show the three largest line items and who owns each one."
+
+**Pipeline and operations**
+
+- "Which deals in the pipeline tracker have not moved in 30 days?"
+- "Sum open pipeline by stage and compare it with last month."
+- "Which rows in the inventory count are below the reorder threshold?"
+
+**People and planning**
+
+- "Sum the headcount plan by department and compare it to actual headcount."
+- "Which roles are approved but not yet opened?"
+
+**Cross-source**
+
+- "Compare the budget tab to actuals in QuickBooks for last quarter." (requires the accounting connector)
+- "Which customers in the tracker have open invoices in billing?" (requires the billing connector)
+
+### Security
+
+- **Read scope only.** The connection requests Google's read-only spreadsheet scopes. There is no write path from Perplexity into a sheet.
+- **Revocable at any time.** Google Account, Security, Third-party access. Revoking there ends the connection.
+- **Account-scoped.** Access follows the Google account you approve. A sheet that account cannot open stays out of reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Perplexity.
+
+### Comparison: Spreadsheet Search vs Sheets in Perplexity
+
+| Aspect | Searching a sheet | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Ctrl+F, or a filter you rebuild | A question in plain language |
+| Output | Rows you then read | A summarized answer with the tab named |
+| Cross-tab | Manual, one tab at a time | Asked once across tabs |
+| Formulas | You read the cell | Read as computed values |
+| Combining sources | Export and merge | Asked across connectors |
+| Write access | Yes, by you | None, read-only scope |
+
+Spreadsheet search is the right tool when you know the row. Perplexity plus a live connector is the right tool when you know the question.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity edit my spreadsheet through this connection?</strong></summary>
+
+No. The connection reads spreadsheet data. Cells, rows, and sharing settings are untouched. Any write-capable path would be a separate decision with a separate credential, and it is not part of this connector.
+</details>
+
+<details>
+<summary><strong>Does the whole file come through, or one tab?</strong></summary>
+
+The connector can read a spreadsheet's tabs and ranges. For a large workbook, naming the tab in the question gives the tightest answer: "the FY26 budget tab" rather than "the budget file".
+</details>
+
+<details>
+<summary><strong>Do merged cells and formulas break the answers?</strong></summary>
+
+Formulas come through as their computed values, which is what you want. Merged cells and multi-row headers are the usual cause of a wrong answer, because the header no longer labels the right column. A clean tab with a single header row fixes it in a minute.
+</details>
+
+<details>
+<summary><strong>Can it combine a sheet with QuickBooks or Stripe?</strong></summary>
+
+Yes, and this is the strongest use of a Sheets connector. The plan lives in a sheet and the actuals live in accounting. "Compare budget to actual by category for last quarter" becomes one question instead of a manual reconciliation.
+</details>
+
+<details>
+<summary><strong>Does connecting Sheets expose my whole Drive?</strong></summary>
+
+No. Sheets is its own connector. Google's consent screen lists the read-only permissions being requested, and you approve them in one place. Revoke any of them later from your Google Account security settings. Connect only what a question would actually use.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. When you ask, the connector reads the sheet as it stands. A number typed a minute ago is visible to the next question. There is no nightly copy behind the answers.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. The same CorpusIQ subscription exposes Google Sheets to ChatGPT, Claude, and Perplexity. The tool surface is the same; only the client interface differs.
+</details>
+
+<details>
+<summary><strong>Where is my spreadsheet data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Retrieval happens on demand. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security) for detail.
+</details>
+
+---
+
+**Next steps:** [Connect Google Sheets to Perplexity now](https://corpusiq.io/connect/google-sheets-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -10077,6 +10855,163 @@ You need an account with API access and the permission level required to authori
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md)
 - [Benefits of MCP for business](benefits-of-mcp-for-business.md)
 - [How to connect business data to ChatGPT](how-to-connect-business-data-to-chatgpt.md)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Klaviyo to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-klaviyo-to-perplexity
+
+
+# How to Connect Klaviyo to Perplexity with CorpusIQ MCP
+
+For an ecommerce brand, Klaviyo is where email and SMS revenue actually gets attributed. Campaigns, flows, abandoned carts, list health, predictive values.
+
+The dashboard shows you the numbers it decided to show you. The question you actually have usually needs three of them at once, plus Shopify.
+
+Connecting Klaviyo through CorpusIQ MCP makes that answerable inside a Perplexity thread, read-only.
+
+### Why Connect Klaviyo to Perplexity?
+
+- **Attribution.** "How much revenue did email and SMS drive last month, split campaigns and flows?"
+- **Flow health.** "Which abandoned cart flow earns the most, and what is its conversion rate?"
+- **List quality.** "Is the list growing or shrinking, and how many profiles are engaged?"
+- **Campaign comparison.** "Which three campaigns had the highest revenue per recipient this quarter?"
+- **Cross-source truth.** "Compare email-attributed revenue against Shopify totals for the same period."
+- **Read-only by scope.** The private key carries read scopes. It cannot send, edit, or delete anything.
+
+### How It Works
+
+1. **Connect Klaviyo to CorpusIQ** with a private API key that has read scopes on the objects you want queried.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** campaigns, flows, lists, segments, profiles, metrics, forms, and events as the question requires.
+4. **Perplexity answers** from those results and names the period it measured.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In Klaviyo**
+
+1. Go to **Account, Settings, API keys** and create a private API key.
+2. Give it read scopes on Campaigns, Flows, Lists, Segments, Profiles, Metrics, Forms, and Events.
+
+**In CorpusIQ**
+
+3. Open your dashboard, find **Klaviyo**, and click **Connect**.
+4. Paste the private key and save.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a revenue question.
+
+A `403 Forbidden` on the first question means the key is missing a read scope. Recreate it with every scope listed above rather than guessing which one is missing.
+
+### Example Perplexity Questions
+
+**Revenue and attribution**
+
+- "How much revenue did email drive last month, split campaigns and flows?"
+- "Which campaign had the best revenue per recipient this quarter?"
+- "How much SMS revenue did we book in the last 90 days?"
+
+**Flows**
+
+- "Which abandoned cart flow earns the most, and what is its conversion rate?"
+- "How many profiles entered the welcome flow this month, and how many converted?"
+- "Which flow has the highest revenue per recipient?"
+
+**List health**
+
+- "Is the list growing or shrinking this quarter?"
+- "How many profiles are engaged versus dormant?"
+- "Which segments have grown fastest in 90 days?"
+
+**Cross-source**
+
+- "Compare email-attributed revenue to Shopify totals for last month." (requires the Shopify connector)
+- "Which email-attributed orders are missing from GA4 sessions?" (requires the GA4 connector)
+
+### Security
+
+- **Read scopes only.** The private key carries read permissions on the listed objects. There is no path from Perplexity that sends, edits, or deletes anything in Klaviyo.
+- **Revocable at any time.** Delete the key in Klaviyo and the connection ends immediately.
+- **Account-scoped.** Access follows the key. A Klaviyo account you have not connected stays out of reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Klaviyo, CorpusIQ, and Perplexity.
+
+### Comparison: Klaviyo Dashboards vs Klaviyo in Perplexity
+
+| Aspect | Klaviyo reporting | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Pick a report and configure it | A question about performance |
+| Output | Metrics you then interpret | An answer with the period named |
+| Cross-period | Rebuild the report | Asked as a comparison |
+| Cross-source | Export to a spreadsheet | Asked across connectors |
+| Ad-hoc questions | New report or an export | Just ask |
+| Write access | Full, by you | None, read scopes only |
+
+Reports are built for recurring views. The connector is for the question that arrives once.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity send or edit a campaign?</strong></summary>
+
+No. The key carries read scopes and the connector has no send or write tool. Campaigns, flows, and lists are read-only.
+</details>
+
+<details>
+<summary><strong>Why do I get a 403 Forbidden?</strong></summary>
+
+The private key is missing at least one read scope. Recreate the key with read access on Campaigns, Flows, Lists, Segments, Profiles, Metrics, Forms, and Events.
+</details>
+
+<details>
+<summary><strong>How far back can I ask about revenue?</strong></summary>
+
+Over the range you specify, as far back as the Klaviyo account retains the data. Naming a period gives the tightest answer.
+</details>
+
+<details>
+<summary><strong>Does "email revenue" mean the same thing as Shopify revenue?</strong></summary>
+
+No, and that gap is the usual source of confusion. Klaviyo attributes revenue to the message that drove the session, while Shopify records the order. Asking both connectors the same question is how you see the difference instead of arguing about it.
+</details>
+
+<details>
+<summary><strong>Can it segment by campaign and by flow in one answer?</strong></summary>
+
+Yes. Campaigns and flows are separate objects, and one question can ask for both and get them split in the reply.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Klaviyo is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Klaviyo data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Klaviyo to Perplexity now](https://corpusiq.io/connect/klaviyo-with-perplexity)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
@@ -22654,6 +23589,15 @@ A: All 40+ CorpusIQ connectors. See the [connectors directory](connectors.md) fo
 **Q: Is this the same as the MCP direct connection for agents?**
 A: Same endpoint, different client. This guide is for using Perplexity as the MCP client. Agents and developers use the same URL with the device flow described in [AI Agent Users](ai-agent-users.md).
 
+## Per-connector Perplexity guides
+
+- **[Connect Google Sheets to Perplexity](connect-google-sheets-to-perplexity.md)** - budgets, trackers and pipelines, cited to the tab
+- **[Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md)** - clauses, versions and policies from your live files
+- **[Connect Google Calendar to Perplexity](connect-google-calendar-to-perplexity.md)** - where the week went and which accounts went quiet
+- **[Connect Airtable to Perplexity](connect-airtable-to-perplexity.md)** - roadmaps, hiring pipelines and operating trackers
+- **[Connect Klaviyo to Perplexity](connect-klaviyo-to-perplexity.md)** - what email and SMS actually earned
+- **[Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md)** - domain ratings, ranking keywords and referring domains
+
 ## Internal Links
 
 - **[Gemini Integration](gemini-integration.md)** - the same connection, described for Gemini
@@ -27229,6 +28173,10 @@ Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask fo
 - **"API token invalid"** - Confirm your Ahrefs plan includes API access (Advanced or higher) and that the token hasn't been rotated.
 - **"No data for domain"** - Ahrefs may not have crawled the domain yet, or the domain is very new. Try a more established domain to verify the connection works.
 - **Rate limits** - Ahrefs enforces per-token rate limits. If you're querying heavily, space out requests or upgrade your plan.
+
+## See also
+
+- [Connect Ahrefs to Perplexity](../connect-ahrefs-to-perplexity.md) - domain ratings, keyword and backlink questions inside a Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -27332,6 +28280,7 @@ CorpusIQ never writes, edits, or deletes Airtable data.
 ## See also
 
 - [Connect Airtable to ChatGPT](../connect-airtable-to-chatgpt.md) - the ChatGPT setup, the token scopes that matter and the questions worth asking.
+- [Connect Airtable to Perplexity](../connect-airtable-to-perplexity.md) - the same base questions inside a Perplexity thread, with base-level token scoping.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -28845,6 +29794,9 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - [Connect Google Calendar to Claude](../connect-google-calendar-to-claude.md) - meeting load and commitments for Claude Desktop.
 - [Connect Google Docs to ChatGPT](../connect-google-docs-to-chatgpt.md) - briefs, contracts and meeting notes behind a plain-English question.
 - [Connect Google Docs to Claude](../connect-google-docs-to-claude.md) - document answers in Claude Desktop from the same connection.
+- [Connect Google Sheets to Perplexity](../connect-google-sheets-to-perplexity.md) - the same sheet questions inside a Perplexity thread.
+- [Connect Google Drive to Perplexity](../connect-google-drive-to-perplexity.md) - document answers from the live files, in Perplexity.
+- [Connect Google Calendar to Perplexity](../connect-google-calendar-to-perplexity.md) - meeting load and account coverage, in Perplexity.
 
 ---
 
@@ -29305,6 +30257,10 @@ CorpusIQ never sends campaigns, edits flows, or modifies profiles.
 - **"403 Forbidden"** - Your private key is missing scopes. Recreate it and tick every read scope listed above.
 - **No campaigns returned** - Klaviyo separates email and SMS channels. If you only run SMS, switch the channel filter when asking.
 - **Predictive analytics empty** - Predictive CLV needs a minimum order history. New accounts may not have it populated for weeks.
+
+## See also
+
+- [Connect Klaviyo to Perplexity](../connect-klaviyo-to-perplexity.md) - campaign and flow revenue questions inside a Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
