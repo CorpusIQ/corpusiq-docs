@@ -107,8 +107,8 @@
     "description": "CorpusIQ is an official public app in the ChatGPT app store.",
     "url": "https://www.corpusiq.io/docs/hermes/chatgpt-app-store",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-04",
+    "dateModified": "2026-11-04",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-04">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "CorpusIQ in the ChatGPT App Store", "url": "https://www.corpusiq.io/docs/hermes/chatgpt-app-store", "image": "https://www.corpusiq.io/og?title=CorpusIQ%20in%20the%20ChatGPT%20App%20Store&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/chatgpt-app-store"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "CorpusIQ is an official public app in the ChatGPT app store.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "CorpusIQ in the ChatGPT App Store", "url": "https://www.corpusiq.io/docs/hermes/chatgpt-app-store", "image": "https://www.corpusiq.io/og?title=CorpusIQ%20in%20the%20ChatGPT%20App%20Store&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/chatgpt-app-store"}, "datePublished": "2026-11-01", "dateModified": "2026-11-04", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "CorpusIQ is an official public app in the ChatGPT app store.", "articleSection": "Hermes"}</script>
 </head>
   
   
@@ -11688,13 +11688,13 @@
 <p>The consistent-answer promise is the point: the same number in ChatGPT, Claude, and Perplexity. Every time. The store listing makes that promise literal.</p>
 <h2 id="usage-in-promotion">Usage in promotion<a class="headerlink" href="#usage-in-promotion" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt; re-checked Oct 26, 2026)</li>
+<li>Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt; re-checked Nov 4, 2026)</li>
 <li>Affiliate and outreach emails can say "available in the ChatGPT app store, and inside Claude through our MCP connector". Never claim a Claude directory listing or a one-click Claude install - Anthropic's public directory API returns no CorpusIQ entry.</li>
 <li>Docs links should use the direct plugin link above</li>
 </ul>
 <h2 id="verification-method">Verification method<a class="headerlink" href="#verification-method" title="Anchor link to this section">&para;</a></h2>
 <p>curl the llms.txt at corpusiq.io (it documents the listing), then confirm via browser search at chatgpt.com/plugins?q=corpusiq. The listing card reads "CorpusIQ - Ask questions across files" and is public. A plain curl of the direct plugin URL returns 403 for non-browser clients, which is bot filtering, not a missing listing - check it in a browser.</p>
-<p>For the Claude side, curl https://api.anthropic.com/api/directory/servers and search for "corpusiq". As of Oct 26, 2026 the response contains no CorpusIQ entry, so Claude access is described as a custom MCP connector, never as a directory listing.</p>
+<p>For the Claude side, curl https://api.anthropic.com/api/directory/servers and search for "corpusiq". As of Nov 4, 2026 the response contains no CorpusIQ entry, so Claude access is described as a custom MCP connector, never as a directory listing.</p>
 
 
 
