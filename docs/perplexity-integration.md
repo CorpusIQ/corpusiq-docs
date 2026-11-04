@@ -84,6 +84,15 @@ A: All 40+ CorpusIQ connectors. See the [connectors directory](connectors.md) fo
 **Q: Is this the same as the MCP direct connection for agents?**
 A: Same endpoint, different client. This guide is for using Perplexity as the MCP client. Agents and developers use the same URL with the device flow described in [AI Agent Users](ai-agent-users.md).
 
+## Per-connector Perplexity guides
+
+- **[Connect Google Sheets to Perplexity](connect-google-sheets-to-perplexity.md)** - budgets, trackers and pipelines, cited to the tab
+- **[Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md)** - clauses, versions and policies from your live files
+- **[Connect Google Calendar to Perplexity](connect-google-calendar-to-perplexity.md)** - where the week went and which accounts went quiet
+- **[Connect Airtable to Perplexity](connect-airtable-to-perplexity.md)** - roadmaps, hiring pipelines and operating trackers
+- **[Connect Klaviyo to Perplexity](connect-klaviyo-to-perplexity.md)** - what email and SMS actually earned
+- **[Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md)** - domain ratings, ranking keywords and referring domains
+
 ## Internal Links
 
 - **[Gemini Integration](gemini-integration.md)** - the same connection, described for Gemini
