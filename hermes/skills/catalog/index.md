@@ -1052,6 +1052,24 @@ Ten publisher clusters documented from the queue the previous fire left behind, 
 - [Cline SDK Skill - Build AI Agents on @cline/sdk](/hermes/skills/catalog/cline-sdk-skill-setup)
 - [Next.js Cache Architecture - Setup Guide](/hermes/skills/catalog/nextjs-cache-architecture-setup)
 
+### New - November 3, 2026 Evening Sweep (13 publisher guides)
+
+Thirteen repository clusters surfaced by a widened 172-query topic probe plus one trending board find, documented for **461,248 combined installs across 634 indexed listings**:
+
+- [OpenMontage - Video Production Studio for Agents](/hermes/skills/catalog/openmontage-setup) - calesthio/openmontage, 101,840 combined, 90 listings, 76,073 stars, AGPL-3.0, Video production for agents: cutting, captions, avatars, motion and rendered social clips through one studio suite
+- [PostPlus Skills - Marketing Research and Publishing](/hermes/skills/catalog/postplus-skills-setup) - postplusai/postplus-skills, 46,456 combined, 82 listings, 27 stars, NOASSERTION, Marketing for agents: platform research, asset routing and campaign publishing across social channels
+- [CC Blender Skill - 3D Production for Agents](/hermes/skills/catalog/cc-blender-skill-setup) - roble3/cc-blender-skill, 36,728 combined, 30 listings, 141 stars, MIT, Blender for agents: modeling, UV, materials, lighting, cameras, animation and export handled like a senior 3D artist
+- [Oh My ClaudeCode - Agent Workflow Suite Setup](/hermes/skills/catalog/oh-my-claudecode-setup) - yeachan-heo/oh-my-claudecode, 36,471 combined, 98 listings, 40,550 stars, MIT, Agent orchestration: planning, parallel delegation, review, debugging and delivery skills for coding agents
+- [Unreal Engine Skills - Game Dev Suite for Agents](/hermes/skills/catalog/unreal-engine-skills-setup) - quodsoler/unreal-engine-skills, 35,564 combined, 31 listings, 436 stars, MIT, Unreal Engine for agents: Blueprints, C++ gameplay, materials, animation and packaging guidance
+- [Borghei Claude Skills - 385 Business Skill Library](/hermes/skills/catalog/borghei-claude-skills-setup) - borghei/claude-skills, 34,493 combined, 200 listings, 1,043 stars, NOASSERTION, Business operations for agents: pricing, churn, deal desk, partnerships, CRO and compliance audit skills
+- [MiniMax CLI - Multimedia Generation for Agents](/hermes/skills/catalog/minimax-cli-setup) - minimax-ai/cli, 32,370 combined, 2 listings, 2,211 stars, no LICENSE file, Multimedia generation for agents: text, images, video and speech from the official MiniMax command line
+- [Webflow Skills - Site Building for Agents Setup](/hermes/skills/catalog/webflow-skills-setup) - webflow/webflow-skills, 29,425 combined, 45 listings, 135 stars, MIT, Webflow for agents: CMS collections, components, accessibility audits and safe publishing through the Webflow MCP server
+- [Stark AI Agent Skills - Engineering Workflow Kit](/hermes/skills/catalog/stark-ai-agent-skills-setup) - stark-ai-de/agent-skills, 29,204 combined, 15 listings, 8 stars, Apache-2.0, Engineering workflow for agents: PRDs, ADRs, repo maps, plan slicing, debugging and review-fix swarms
+- [Coinbase Agentic Wallet - USDC Payments Skill](/hermes/skills/catalog/coinbase-agentic-wallet-setup) - coinbase/agentic-wallet-skills, 27,257 combined, 11 listings, 127 stars, MIT, Agent payments: sign in, read balances, send USDC and trade tokens through the Coinbase agentic wallet CLI
+- [IART Web Animation Skills - GSAP and SVG Suite](/hermes/skills/catalog/iart-web-animation-skills-setup) - iart-ai/web-animation-skills, 26,178 combined, 9 listings, 76 stars, MIT, Web animation for agents: GSAP timelines, SVG and Lottie motion, micro-interactions and 60fps performance
+- [HeyGen Skills - Avatar Video Production Setup](/hermes/skills/catalog/heygen-skills-setup) - heygen-com/skills, 20,185 combined, 15 listings, 538 stars, MIT, Avatar video for agents: creator avatars, scripted video generation and translation through the HeyGen v3 pipeline
+- [Agent Desktop - Computer Use for Agents Setup](/hermes/skills/catalog/agent-desktop-setup) - vercel-labs/agent-desktop, 5,077 combined, 6 listings, 13,273 stars, Apache-2.0, Computer use for agents: see and drive macOS, Windows and Linux desktop apps through the OS accessibility tree
+
 ### New - November 3, 2026 Night Sweep (17 publisher guides)
 
 - [Runpod Plugin - GPU Pod and Serverless Skill Setup](/hermes/skills/catalog/runpod-plugins-official-setup)

@@ -3,7 +3,7 @@ title: "OmniRoute Skills - 70.9K⭐ AI Gateway Suite Setup"
 description: "Setup guide for diegosouzapw/OmniRoute - 44 agent skills for the free MIT AI gateway: 359 providers, 1200+ models, token compression, MCP/A2A, skill importing."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/omniroute-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-03"
 tags: ["hermes skill", "agent skill", "skill setup", "ai gateway", "llm routing", "mcp"]
 ---
 
@@ -11,6 +11,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "ai gateway", "llm routing"
 
 **Source:** [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) (70,907⭐, MIT, pushed Sep 27, 2026)
 **Skill:** `diegosouzapw/OmniRoute` (44 installable skills, ~26K combined installs)
+**Repository:** the project now publishes from [cheaper-inference/omniroute](https://github.com/cheaper-inference/omniroute) (84,349 stars, MIT, pushed Nov 4, 2026) - 70 indexed listings and 53,029 combined installs on the November 3, 2026 sweep, so the older diegosouzapw path is the same gateway under its previous owner
 **Homepage:** [omniroute.online](https://omniroute.online)
 **Category:** AI Gateway / LLM Infrastructure
 **Quality Tier:** 🔵 Community (no skills.sh security verdicts published - verified Sep 28, 2026)
