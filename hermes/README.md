@@ -64,8 +64,8 @@ This repository fills that gap:
 ## Quick Start
 
 ```bash
-# Install Hermes Agent
-pip install hermes-agent
+# Install Hermes Agent (Linux, macOS, WSL2 - official installer)
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 # Add an MCP server
 hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp
@@ -117,10 +117,10 @@ The biggest gap between a chat agent and an autonomous operator is persistent kn
 | System | Type | Use Case | Stars |
 |--------|------|----------|-------|
 | **[Honcho](https://mcp.honcho.dev)** | Peer memory | Identity, preferences, conversation history, decisions | - |
-| **[GBrain](https://github.com/garrytan/gbrain)** | Knowledge base | File indexing, code understanding | 23K+ |
+| **[GBrain](https://github.com/garrytan/gbrain)** | Knowledge base | File indexing, code understanding | 31K+ |
 | **[memcore](/hermes/knowledge)** (Hermes plugin) | Cross-session | Context injection, raw source tracking, FTS5 recall | - |
-| **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving | Long-term memory evolution | 7.5K+ |
-| **[claude-mem](https://github.com/thedotmack/claude-mem)** | Session persistence | Persistent context across sessions | 82K+ |
+| **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving | Long-term memory evolution | 14K+ |
+| **[claude-mem](https://github.com/thedotmack/claude-mem)** | Session persistence | Persistent context across sessions | 111K+ |
 
 ### The Honcho + GBrain + memcore-cloud Pattern
 
@@ -136,8 +136,8 @@ Skills are reusable, self-contained agent workflows. Hermes loads them on demand
 |--------|-------------|
 | **[agentskills.io](https://agentskills.io)** | Open standard skill hub - cross-agent compatible |
 | **[skills.sh](https://skills.sh)** | Community marketplace - new skills daily |
-| **[wondelai/skills](https://github.com/wondelai/skills)** | Cross-platform skills library (380+ stars) |
-| **[agency-agents](https://github.com/msitarzewski/agency-agents)** | 232 specialized agent personalities (115K+ stars) |
+| **[wondelai/skills](https://github.com/wondelai/skills)** | Cross-platform skills library (2.5K+ stars) |
+| **[agency-agents](https://github.com/msitarzewski/agency-agents)** | 232 specialized agent personalities (166K+ stars) |
 | **aawobdev/hermes-skills** | Blueprint orchestration patterns |
 
 ---
@@ -185,7 +185,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 
 | Resource | Description |
 |----------|-------------|
-| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Core project (211K+ stars) |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Core project (260K+ stars) |
 | [Official Docs](https://hermes-agent.nousresearch.com/docs/) | Installation, CLI, gateway, tools, skills |
 | [Discord](https://discord.gg/NousResearch) | Community support |
 
@@ -193,11 +193,11 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [claude-mem](https://github.com/thedotmack/claude-mem) | 82K+ | Persistent context across sessions |
-| [hermes-webui](https://github.com/nesquena/hermes-webui) | 14K+ | Web interface for Hermes |
-| [hermes-desktop](https://github.com/fathah/hermes-desktop) | 12K+ | Desktop companion app |
-| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 8K+ | 24/7 AI workforce orchestration |
-| [mission-control](https://github.com/builderz-labs/mission-control) | 3.7K+ | Multi-agent fleet management |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | 111K+ | Persistent context across sessions |
+| [hermes-webui](https://github.com/nesquena/hermes-webui) | 19K+ | Web interface for Hermes |
+| [hermes-desktop](https://github.com/fathah/hermes-desktop) | 14K+ | Desktop companion app |
+| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 9K+ | 24/7 AI workforce orchestration |
+| [mission-control](https://github.com/builderz-labs/mission-control) | 6.4K+ | Multi-agent fleet management |
 | Hermes Agency | - | P2P agent collaboration |
 
 **[Full ecosystem directory](ecosystem)** - 450+ repos indexed across 18 categories (208 auto-approved, community review welcome), updated daily.
