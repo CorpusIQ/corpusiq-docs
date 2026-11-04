@@ -1,48 +1,116 @@
 ---
-title: errors
-description: "The CorpusIQ API uses standard HTTP status codes and returns consistent error responses."
+title: "CorpusIQ API Error Codes - CorpusIQ Docs"
+description: "Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), and authentication errors (401)."
+category: "API Reference"
+tags: ["corpusiq errors", "api error codes", "troubleshooting", "http errors", "rate limiting", "authentication errors", "api debugging"]
 last_updated: "2026-11-01"
+canonical: "https://www.corpusiq.io/docs/api/errors"
+robots: "index,follow"
 ---
-# API Errors
+# Error Codes
 
-The CorpusIQ API uses standard HTTP status codes and returns consistent error responses.
+All CorpusIQ API errors follow a consistent JSON structure with a machine-readable `type` field and a human-readable `message`. Use the `type` field for programmatic error handling.
 
 ## Error Response Format
 
 ```json
 {
- "error": {
- "code": "connector_not_found",
- "message": "No connector found with id conn_abc123",
- "details": {}
- }
+  "error": {
+    "type": "unauthorized",
+    "message": "Invalid or expired Bearer token"
+  }
 }
 ```
 
-## HTTP Status Codes
+## Error Types
 
-| Code | Meaning |
-|------|---------|
-| 200 | Success |
-| 201 | Created |
-| 400 | Bad request - check your parameters |
-| 401 | Unauthorized - invalid or missing API key |
-| 403 | Forbidden - your plan doesn't include this feature |
-| 404 | Not found |
-| 429 | Rate limit exceeded |
-| 500 | Server error - we're on it |
+| HTTP Status | `type` | Description |
+|-------------|--------|-------------|
+| **400** | `bad_request` | The request body is malformed, missing required fields, or contains invalid values. Check the `details` field for field-level errors. |
+| **401** | `unauthorized` | The Bearer token is missing, invalid, or expired. Obtain a new token. An `X-Token-Expired: true` header accompanies expired tokens. |
+| **403** | `forbidden` | The authenticated user does not have permission to access the requested resource or connector. Verify connector OAuth scopes. |
+| **404** | `not_found` | The requested resource (query ID, connector, or endpoint) does not exist. Check the URL and resource identifiers. |
+| **409** | `conflict` | The request conflicts with the current resource state. Inspect the response details before retrying. |
+| **413** | `payload_too_large` | The request body exceeds the maximum allowed size of 1 MB. Reduce `max_results` or split the query. |
+| **429** | `rate_limited` | The rate limit for the endpoint has been exceeded. A `retry_after_seconds` field indicates when to retry. See [Rate Limits](/api/rate-limits). |
+| **500** | `server_error` | An unexpected internal error occurred on the CorpusIQ side. Retry with exponential backoff. If errors persist, contact media@corpusiq.io. |
 
-## Common Error Codes
+## Handling Errors Programmatically
 
-| Code | Description |
-|------|-------------|
-| `invalid_api_key` | The API key is missing or invalid |
-| `connector_not_found` | The specified connector doesn't exist |
-| `connector_auth_failed` | The connector's authentication expired |
-| `query_timeout` | The query took too long (over 30 seconds) |
-| `plan_limit` | Your plan doesn't support this action |
-| `rate_limit` | Too many requests - slow down |
+### Retry Logic for 429 Rate Limited
 
-## Getting Help
+When you receive a `429 Too Many Requests`, inspect the `retry_after_seconds` field:
 
-If you encounter errors not listed here, check our [troubleshooting guide](../troubleshooting/README.md) or contact support.
+```python
+import time
+
+response = requests.post("https://mcp2.corpusiq.io/mcp", ...)
+
+if response.status_code == 429:
+    retry_after = response.json()["error"].get("retry_after_seconds", 60)
+    time.sleep(retry_after)
+    response = requests.post("https://mcp2.corpusiq.io/mcp", ...)
+```
+
+### Handling 401 Token Expiry
+
+```javascript
+let response = await fetch("https://mcp2.corpusiq.io/mcp", {
+  headers: { Authorization: `Bearer ${token}` },
+});
+
+if (response.status === 401 && response.headers.get("X-Token-Expired")) {
+  token = await refreshToken(); // Re-authenticate
+  response = await fetch("https://mcp2.corpusiq.io/mcp", {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+}
+```
+
+### Retry with Exponential Backoff for 500 Errors
+
+For transient server errors, implement exponential backoff:
+
+```python
+import time
+import requests
+
+max_retries = 3
+for attempt in range(max_retries):
+    response = requests.post("https://mcp2.corpusiq.io/mcp", ...)
+    if response.status_code < 500:
+        break
+    if attempt < max_retries - 1:
+        wait = 2 ** attempt
+        time.sleep(wait)
+```
+
+## 409 Conflicts
+
+A `409 Conflict` means the request conflicts with current resource state. Inspect the response details and do not assume a retry is safe.
+
+## Frequently Asked Questions
+
+**Q: What does a 401 error mean on the CorpusIQ API?**  
+A: A 401 Unauthorized error means your API token is missing, expired, or invalid. Generate a new token from the Dashboard or refresh your session. Tokens expire after 60 minutes.
+
+**Q: How do I handle 429 Rate Limit errors?**  
+A: When you receive a 429 Too Many Requests, check the retry_after_seconds field in the response body and wait that many seconds before retrying. Rate limits are per-endpoint with minute and daily windows.
+
+**Q: What does a 400 Bad Request error indicate?**  
+A: A 400 error means your request body or parameters are malformed. Check that required fields are present, data types are correct, and the JSON structure matches the API schema.
+
+## Internal Links
+
+- **[CorpusIQ API Overview](/api/overview)** - Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)** - Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)** - Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)** - Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)** - Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)** - Encryption, network security, and compliance  
+
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

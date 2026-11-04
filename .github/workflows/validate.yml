@@ -70,3 +70,11 @@ jobs:
         run: |
           python scripts/validate_retention_claims.py
           python -m unittest scripts/test_validate_retention_claims.py
+
+      # The repo root carries a maintained mirror of the docs tree that MkDocs
+      # never builds. Nothing enforced parity, and api/*.md had already drifted
+      # a full generation behind docs/api/*.md while still being public in the
+      # repository. See scripts/check_mirror_parity.py for the full history.
+      - name: Validate root/docs mirror parity
+        run: python scripts/check_mirror_parity.py
+
