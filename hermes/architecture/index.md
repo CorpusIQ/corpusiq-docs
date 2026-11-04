@@ -3,7 +3,7 @@ title: Production Autonomous Agent Architecture
 description: Complete architecture for a production autonomous agent platform - six layers, data flow, failure modes, scaling strategies, and architectural decisions
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-04"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -79,7 +79,7 @@ The memory. Persistent knowledge that accumulates and compounds over time.
 
 The immune system. Monitoring, validation, scheduling, and compliance.
 
-**Components:** System registry (pre-creation validation), email operations (inbox monitoring for team@ and info@), cron scheduler (140+ scheduled processes), token lifecycle management, model usage tracking
+**Components:** System registry (pre-creation validation), email operations (inbox monitoring for media@ and info@), cron scheduler (140+ scheduled processes), token lifecycle management, model usage tracking
 
 **Key responsibility:** Ensure everything runs correctly. Detect failures early. Enforce policies. Provide audit trails.
 

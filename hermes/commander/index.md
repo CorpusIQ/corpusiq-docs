@@ -1,7 +1,7 @@
 ---
 title: "Commander Common Sense Gate - CorpusIQ Docs"
 description: "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory. judgment verification layer that inspects every proposed acti."
-last_updated: 2026-11-01
+last_updated: 2026-11-04
 canonical: "https://www.corpusiq.io/docs/hermes/commander/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -31,7 +31,7 @@ Commander runs as the master controller. Every task enters through Commander fir
 
 ## Hard Rules
 
-17 hard rules run on every action. Pattern-matched in milliseconds:
+16 hard rules run on every action. Pattern-matched in milliseconds:
 
 - No em dashes in public content
 - No internal analytics data in posts
@@ -47,9 +47,10 @@ Commander runs as the master controller. Every task enters through Commander fir
 - Browser-verify all LinkedIn posts
 - Search knowledge stores before asking the team
 - Check both email accounts
-- No CID-embedded images in emails
 - McKinsey format required for email reports
 - Model pricing is a cost signal, never a reason to delay work
+
+A separate email standard also blocks CID-embedded images (inline base64 attachments that Gmail will not render); it is enforced by the mail layer rather than the content gate.
 
 ## Failure Dataset
 

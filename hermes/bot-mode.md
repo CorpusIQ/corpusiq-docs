@@ -1,7 +1,7 @@
 ---
 title: "Hermes Bot Mode (Desktop Plugin)"
 description: "Bot Mode turns your Hermes agent profiles into a roster of named bots."
-last_updated: "2026-11-01"
+last_updated: "2026-11-04"
 ---
 
 # Hermes Bot Mode (Desktop Plugin)
@@ -18,7 +18,7 @@ Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot 
 - **Bots tab** - left-side roster, one row per agent profile with avatar, latest message preview, timestamp. Click to enter its chat. The roster searches as you type, and right-click gives "open recent session".
 - **Active now** - activity filter over the roster: the owner of the focused live turn, bots that wrote in the last 90 seconds, and bots with a recent worker heartbeat. A connected gateway alone does not mean a bot is working.
 - **New Agent** - create a bot in seconds: name, title, description. Advanced mode opens the full profile config: clone an existing profile, pin a provider/model, write a custom SOUL.md, skip bundled skills.
-- **Groups** - organize the roster into labeled sections. Group chats (2-6 bots) are shared rooms where bots coordinate: @mentions pull bots in, @user escalates to a human with a "needs you" badge, hard caps (10 messages per turn, 3 rounds) stop runaway loops.
+- **Groups** - organize the roster into labeled sections. Group chats (2-6 bots) are shared rooms where bots coordinate: @mentions pull bots in, @user escalates to a human with a "needs you" badge, hard caps (10 messages per send, 3 rounds) stop runaway loops.
 - **Bot-to-bot messaging** - every bot has a persistent Bot Chat. Bots message each other with attribution, and their SOUL.md teaches them the protocol.
 - **Routines** - recurring tasks per bot, backed by standard Hermes cron. Runs land in the bot's own chat history.
 - **Avatars** - geometric faces, uploaded images, AI-generated portraits, or pixel pets that bounce while the bot works.
@@ -30,7 +30,7 @@ A bot **is** a Hermes profile: isolated config, memory, skills, credentials, and
 - Chats and sessions use profile-aware navigation
 - Creation and editing ride the `profiles.*` gateway RPCs
 - Routines are plain Hermes cron jobs, so they show up in `hermes cron list`
-- Bot-to-bot messages are real CLI handoffs between profiles - the same agent `hermes -p <bot> chat` opens - and across connected machines they route through the Desktop relay
+- Bot-to-bot messages are real CLI handoffs between profiles - the same agent `hermes -p <bot> chat` opens - and across connected machines they route through the Desktop relay, or through a registered peer (`hermes peer`) when no desktop is open to act as the courier
 
 ## Why it matters for operators
 
