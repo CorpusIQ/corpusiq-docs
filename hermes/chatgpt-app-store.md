@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ in the ChatGPT App Store"
 description: "CorpusIQ is an official public app in the ChatGPT app store."
-last_updated: "2026-11-01"
+last_updated: "2026-11-04"
 ---
 
 # CorpusIQ in the ChatGPT App Store
@@ -31,7 +31,7 @@ The consistent-answer promise is the point: the same number in ChatGPT, Claude, 
 
 ## Usage in promotion
 
-- Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt; re-checked Oct 26, 2026)
+- Mention the ChatGPT store listing in social content (listing documented at corpusiq.io/llms.txt; re-checked Nov 4, 2026)
 - Affiliate and outreach emails can say "available in the ChatGPT app store, and inside Claude through our MCP connector". Never claim a Claude directory listing or a one-click Claude install - Anthropic's public directory API returns no CorpusIQ entry.
 - Docs links should use the direct plugin link above
 
@@ -39,4 +39,4 @@ The consistent-answer promise is the point: the same number in ChatGPT, Claude, 
 
 curl the llms.txt at corpusiq.io (it documents the listing), then confirm via browser search at chatgpt.com/plugins?q=corpusiq. The listing card reads "CorpusIQ - Ask questions across files" and is public. A plain curl of the direct plugin URL returns 403 for non-browser clients, which is bot filtering, not a missing listing - check it in a browser.
 
-For the Claude side, curl https://api.anthropic.com/api/directory/servers and search for "corpusiq". As of Oct 26, 2026 the response contains no CorpusIQ entry, so Claude access is described as a custom MCP connector, never as a directory listing.
+For the Claude side, curl https://api.anthropic.com/api/directory/servers and search for "corpusiq". As of Nov 4, 2026 the response contains no CorpusIQ entry, so Claude access is described as a custom MCP connector, never as a directory listing.
