@@ -31,7 +31,7 @@ Built by: NMOS.NET (nmos.net)
 
 ## Why This Matters for Operators
 
-Every other AI-visibility surface in this catalogue measures the **output**: whether a brand appears in an AI answer, or whether a page is structurally legible to a crawler. NMOS.NET measures the **input**. It answers a question no answer-engine tracker can: did the crawler that feeds those answers actually fetch the page, on which day, and did it get a 200 or a policy block.
+Most AI-visibility surfaces in this catalogue measure the **output**: whether a brand appears in an AI answer, or whether a page is structurally legible to a crawler. The entries that do read visits, [IndexLinks](/hermes/mcp/servers/external/indexlinks-mcp/) most directly, prove a crawl for the pages you send to its own submission network, one page at a time, on a plan that starts at **$49** a month and is priced by submitted pages. NMOS.NET takes the other route: install a beacon once and it logs every crawler that reaches any page of the site, including the pages nobody submitted, which is the difference between checking the URLs you remembered and reading the whole log.
 
 That distinction matters because the two failures look identical from the outside and have opposite fixes:
 
@@ -168,7 +168,9 @@ For a site with a week of data: "which pages had zero crawler visits in the last
 
 ## See Also
 
-- [NM Signals MCP - AI Crawler Visibility Audits](/hermes/mcp/servers/external/nm-signals-mcp/) - audits how AI crawlers see a URL on demand, where this records what they actually did over time
+- [IndexLinks MCP - Page Submission and Crawl Receipts](/hermes/mcp/servers/external/indexlinks-mcp/) - the nearest neighbour: per-page crawl receipts for pages sent to its own submission network
+- [AI Crawler Index MCP - Robots.txt Control for AI Bots](/hermes/mcp/servers/external/pathwren-ai-crawler-index/) - identifies a crawler by user agent or IP and writes the robots.txt that matches your stance
+- [NM Signals MCP - AI Crawler Visibility Audits](/hermes/mcp/servers/external/nm-signals-mcp/) - audits how AI crawlers see a URL on demand
 - [AIO.GEO MCP](/hermes/mcp/servers/external/aio-geo-mcp/) - structural AI search readiness, dry-run fixes and rescoring
 - [Encited MCP](/hermes/mcp/servers/external/encited-mcp/) - Search Console mining and AI answer-engine visibility
 - [MCP Servers Index](/hermes/mcp/servers/external/)
