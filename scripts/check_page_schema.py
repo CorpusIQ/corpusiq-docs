@@ -62,6 +62,32 @@ def main() -> int:
     if ratio < 0.99:
         failures.append(f"only {with_schema}/{len(pages)} pages carry Article schema ({ratio:.1%})")
 
+    # Gate 5 (2026-11-04): BreadcrumbList on every page that carries an Article
+    # node, and its last item must be the page itself. Without this the trail
+    # silently disappears if the hook is dropped, which is exactly what the
+    # operator's breadcrumb rule requires us never to ship.
+    with_crumbs = 0
+    for path in pages:
+        html = open(path, encoding="utf-8", errors="ignore").read()
+        if "BreadcrumbList" not in html:
+            continue
+        blocks = [b for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+                  if "BreadcrumbList" in b]
+        try:
+            node = json.loads(blocks[0])
+        except Exception:
+            failures.append(f"{os.path.relpath(path, SITE)}: unparseable BreadcrumbList JSON-LD")
+            continue
+        items = node.get("itemListElement") or []
+        if len(items) < 2:
+            failures.append(f"{os.path.relpath(path, SITE)}: BreadcrumbList has {len(items)} items")
+        with_crumbs += 1
+        if "ciq-crumbs" not in html:
+            failures.append(f"{os.path.relpath(path, SITE)}: BreadcrumbList without a visible trail")
+    crumb_ratio = with_crumbs / max(with_schema, 1)
+    if crumb_ratio < 0.99:
+        failures.append(f"only {with_crumbs}/{with_schema} Article pages carry BreadcrumbList ({crumb_ratio:.1%})")
+
     sitemap = os.path.join(SITE, "sitemap.xml")
     if os.path.exists(sitemap):
         dates = Counter(re.findall(r"<lastmod>([^<]+)</lastmod>", open(sitemap, encoding="utf-8").read()))
