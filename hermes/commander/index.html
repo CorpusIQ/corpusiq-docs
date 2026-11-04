@@ -11695,7 +11695,9 @@
 <li>Should the action be approved, modified, clarified, escalated, or blocked</li>
 </ol>
 <h2 id="hard-rules">Hard Rules<a class="headerlink" href="#hard-rules" title="Anchor link to this section">&para;</a></h2>
-<p>16 hard rules run on every action. Pattern-matched in milliseconds:</p>
+<p>17 hard rules run on every action. Pattern-matched in milliseconds:</p>
+<!-- Count source of truth: CommanderReview.HARD_RULES in ~/.hermes/commander/commander_review.py (17 entries, checked 2026-11-04). Never re-derive this number from the bullet list below. -->
+
 <ul>
 <li>No em dashes in public content</li>
 <li>No internal analytics data in posts</li>
@@ -11711,10 +11713,11 @@
 <li>Browser-verify all LinkedIn posts</li>
 <li>Search knowledge stores before asking the team</li>
 <li>Check both email accounts</li>
+<li>No CID-embedded images in emails</li>
 <li>McKinsey format required for email reports</li>
 <li>Model pricing is a cost signal, never a reason to delay work</li>
 </ul>
-<p>A separate email standard also blocks CID-embedded images (inline base64 attachments that Gmail will not render); it is enforced by the mail layer rather than the content gate.</p>
+<p>CID-embedded images (inline base64 attachments) are blocked because Gmail does not render them; send plain text with regular attachments instead.</p>
 <h2 id="failure-dataset">Failure Dataset<a class="headerlink" href="#failure-dataset" title="Anchor link to this section">&para;</a></h2>
 <p>312 structured records from real Hermes mistakes. Each record maps to one or more of 12 capability categories: completeness, causal reasoning, physical reality, temporal reasoning, social reasoning, scope control, risk judgment, evidence discipline, memory application, uncertainty, resource judgment, security judgment.</p>
 <h2 id="training-loop">Training Loop<a class="headerlink" href="#training-loop" title="Anchor link to this section">&para;</a></h2>
