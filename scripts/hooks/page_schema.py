@@ -234,17 +234,106 @@ def _item_list_node(info: dict, url: str) -> dict | None:
     }
 
 
+def _trail(page, info: dict, url: str) -> list[tuple[str, str]]:
+    """Ancestor trail for one page, top down, ending with the page itself.
+
+    MkDocs gives Section objects with a title and a docs-relative url. When a
+    section has no url (pure grouping node) it is skipped rather than invented.
+    Falls back to the source path segments so the trail is never empty.
+    """
+    out: list[tuple[str, str]] = []
+    try:
+        for anc in page.ancestors:
+            u = getattr(anc, "url", None)
+            t = (getattr(anc, "title", None) or "").strip()
+            if u:
+                full = f"{_SITE}/docs/{u}".rstrip("/")
+                if full == url.rstrip("/"):
+                    continue
+                out.append((t or u.strip("/").split("/")[-1], full))
+    except Exception:
+        out = []
+    if not out:
+        parts = info["src"].split("/")[:-1]
+        acc = ""
+        for part in parts:
+            acc = f"{acc}/{part}" if acc else part
+            full = f"{_SITE}/docs/{acc}"
+            if full.rstrip("/") == url.rstrip("/"):
+                continue
+            out.append((_pretty(part), full))
+    out.append((info["headline"] or url.rsplit("/", 1)[-1], url))
+    root = (f"{_SITE}/docs", "Docs")
+    if out and out[0][1].rstrip("/") != root[0]:
+        out.insert(0, (root[1], root[0]))
+    return out
+
+
+_ACRONYMS = {"mcp": "MCP", "api": "API", "sdk": "SDK", "cli": "CLI", "ai": "AI",
+             "llm": "LLM", "ui": "UI", "css": "CSS", "seo": "SEO", "aeo": "AEO",
+             "geo": "GEO", "http": "HTTP", "json": "JSON", "sql": "SQL", "crm": "CRM"}
+
+
+def _pretty(part: str) -> str:
+    words = part.replace("-", " ").replace("_", " ").split()
+    return " ".join(_ACRONYMS.get(w.lower(), w[:1].upper() + w[1:]) for w in words)
+
+
+def _breadcrumb_node(trail: list[tuple[str, str]]) -> dict:
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": name, "item": u}
+            for i, (name, u) in enumerate(trail)
+        ],
+    }
+
+
+_BREADCRUMB_CSS = (
+    "<style>.ciq-crumbs{font-size:.78rem;line-height:1.4;margin:0 0 .6rem;opacity:.75}"
+    ".ciq-crumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:.35rem;margin:0;padding:0}"
+    ".ciq-crumbs li:not(:last-child)::after{content:'\\203A';margin-left:.35rem;opacity:.6}"
+    "</style>"
+)
+
+
+def _breadcrumb_html(trail: list[tuple[str, str]]) -> str:
+    """Visible trail, so the BreadcrumbList above matches what a reader sees."""
+    parts = []
+    for i, (name, u) in enumerate(trail):
+        label = name.replace("<", "&lt;").replace(">", "&gt;")
+        if i == len(trail) - 1:
+            parts.append(f'<li aria-current="page">{label}</li>')
+        else:
+            parts.append(f'<li><a href="{u}">{label}</a></li>')
+    return (
+        _BREADCRUMB_CSS
+        + '<nav class="ciq-crumbs" aria-label="Breadcrumb"><ol>'
+        + "".join(parts)
+        + "</ol></nav>"
+    )
+
+
 def on_post_page(output, page, config):
     url = _page_url(config, page)
     info = _PAGE_INFO.get(url)
     if not info or url.endswith(".html"):
         return output
+    trail = _trail(page, info, url)
     blocks = [json.dumps(_article_node(info, url), ensure_ascii=False)]
+    if len(trail) > 1:
+        blocks.append(json.dumps(_breadcrumb_node(trail), ensure_ascii=False))
     listing = _item_list_node(info, url)
     if listing:
         blocks.append(json.dumps(listing, ensure_ascii=False))
     scripts = "".join(f'\n<script type="application/ld+json">{b}</script>' for b in blocks)
-    return output.replace("</head>", f"{scripts}\n</head>", 1)
+    output = output.replace("</head>", f"{scripts}\n</head>", 1)
+    if len(trail) > 1:
+        marker = re.search(r'(<article[^>]*class="[^"]*md-content__inner[^"]*"[^>]*>)', output)
+        if marker:
+            output = output[: marker.end()] + _breadcrumb_html(trail) + output[marker.end():]
+    return output
 
 
 def on_post_build(config):
