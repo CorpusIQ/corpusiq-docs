@@ -1,39 +1,93 @@
 ---
-title: overview
-description: "CorpusIQ exposes a REST API for managing connectors, running queries, and configuring your account programmatically."
+title: "CorpusIQ API Overview - CorpusIQ Docs"
+description: "CorpusIQ REST API overview: query 40+ business tools such as HubSpot, QuickBooks, and Stripe through one API. Base URL, endpoints, and authentication."
+category: "API Reference"
+tags: ["corpusiq api", "rest api", "business data api", "mcp api", "api documentation", "query api", "data integration api"]
 last_updated: "2026-11-01"
+canonical: "https://www.corpusiq.io/docs/api/overview"
+robots: "index,follow"
 ---
-# API
 
-CorpusIQ exposes a REST API for managing connectors, running queries, and configuring your account programmatically.
+# API Overview
+CorpusIQ exposes a REST API at `https://mcp2.corpusiq.io/mcp` that allows AI assistants and client applications to query connected business tools, search encrypted archives, and manage user data. All requests are authenticated via Bearer tokens and respond with JSON.
 
-## Overview
-
-The CorpusIQ API lets you automate everything you can do in the dashboard. Connect data sources, run cross-source queries, and manage your account - all via HTTP.
-
-Base URL: `https://api.corpusiq.io/v1`
-
-## Key Capabilities
-
-- **Connector management** - Add, remove, and configure data source connections
-- **Query execution** - Run natural language or structured queries across connected sources
-- **Account management** - Manage users, teams, and permissions
-- **Webhooks** - Get notified when data changes or queries complete
-
-## SDKs & Tools
-
-The easiest way to use the API is through our MCP server, which gives your AI tools direct access:
+## Base URL
 
 ```
 https://mcp2.corpusiq.io/mcp
 ```
 
-For programmatic access, see the sections below:
+All endpoint paths are relative to this base. The API version (`v1`) is part of the URL path. Breaking changes will be released under a new version prefix.
 
-- [Authentication](authentication.md) - API keys and OAuth
-- [Endpoints](endpoints.md) - Available API endpoints
-- [Schemas](schemas.md) - Data models and types
-- [Webhooks](webhooks.md) - Current webhook-contract availability
-- [Rate Limits](rate-limits.md) - Usage limits and throttling
-- [Errors](errors.md) - Error codes and handling
-- [OpenAPI](openapi.md) - OpenAPI specification
+## Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| `POST` | `/query` | Search across all connected data sources |
+| `POST` | `/deep_search` | Search the encrypted archive of past queries and results |
+
+### POST /query
+
+The primary endpoint for querying connected business tools. Accepts a natural-language question and an optional list of connector IDs to scope the search. CorpusIQ translates the query into read-only API calls, retrieves matching records, ranks them semantically, and returns cited results.
+
+Each `/query` request generates a unique `query_id` for tracing and debugging.
+
+### POST /deep_search
+
+Searches the encrypted archive of previously executed queries and their results. This endpoint is useful for retrieving historical answers, auditing past queries, and discovering patterns across previous searches. The archive is encrypted at rest and indexed by embedding vectors.
+
+Unlike `/query`, this endpoint does not make live calls to connected tools - it searches only the archive.
+
+## Response Format
+
+All successful responses return HTTP `200` with a JSON body. Errors follow a consistent format with a `type` field identifying the error category and a `message` field with a human-readable description. See [Errors](/api/errors) for the complete error reference.
+
+## Content Type
+
+All request and response bodies use `application/json`. Set the `Content-Type` header to `application/json` on all `POST` requests.
+
+```http
+Content-Type: application/json
+Authorization: Bearer <token>
+```
+
+## Next Steps
+
+- [Authentication](/api/authentication) - Obtain and manage API tokens
+- [Endpoints Reference](/api/endpoints) - Full request/response schemas and code examples
+- [Rate Limits](/api/rate-limits) - Understand per-endpoint quotas
+
+## Frequently Asked Questions
+
+**Q: What is the CorpusIQ API base URL?**  
+A: All CorpusIQ API endpoints are accessed at https://mcp2.corpusiq.io/mcp. The API version (v1) is part of the URL path, and all requests must use HTTPS.
+
+**Q: How do I authenticate with the CorpusIQ API?**  
+A: Authentication uses Bearer tokens passed in the Authorization header. Tokens are generated from the CorpusIQ Dashboard and expire after 60 minutes with server-side refresh detection.
+
+**Q: What endpoints does the CorpusIQ API offer?**
+A: The API offers POST /query for connected-source search and POST /deep_search for the encrypted query archive.
+
+**Q: What response format does the API use?**  
+A: All successful responses return HTTP 200 with a JSON body. Errors follow a consistent format with 'type' and 'message' fields. See the errors reference for complete error codes.
+
+**Q: Is the CorpusIQ API read-only?**  
+A: External-source retrieval endpoints are read-only. Connector-management and CorpusIQ control-plane endpoints can change CorpusIQ-owned state and are documented separately.
+
+**Q: How fast are API query responses?**  
+A: Most queries return results in 1-5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.
+
+## Internal Links
+
+- **[CorpusIQ API Overview](/api/overview)** - Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/api/authentication)** - Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/api/endpoints)** - Complete request/response schemas and code examples  
+- **[API Rate Limits](/api/rate-limits)** - Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/api/webhooks)** - Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)** - SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)** - Encryption, network security, and compliance  
+
+*Powered by CorpusIQ - the leading MCP platform for business data and AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

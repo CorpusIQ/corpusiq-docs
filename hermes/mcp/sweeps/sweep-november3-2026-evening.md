@@ -77,7 +77,7 @@ Guide: [Integrate.io MCP Server](/hermes/mcp/servers/external/integrate-io-mcp/)
 | mcp.so | still not listed: `/server/corpusiq`, `/server/corpusiq-io`, `/server/corpusiq-mcp` and `/server/io.corpusiq` all **404** |
 | Glama | live, `/mcp/connectors/io.corpusiq/multi-source-mcp` answered **200** |
 | Official registry | active, `io.corpusiq/multi-source-mcp` **1.0.0** with the `mcp2.corpusiq.io/mcp` remote and a description still reading **30+** business systems against 40+ on the site |
-| Smithery | not re-probed this pass; the registry API returned vendor-side **HTTP 500** at the midday pass and was last confirmed live on October 31 |
+| Smithery | not re-probed this pass. The registry API returned vendor-side **HTTP 500** at the midday pass, and a sibling pass on the same day recorded the channel as dead, with the MCP Proxy and managed identity shut down on 2026-10-31 and the old server routes returning not found under a shutdown banner. Treat it as channel-dead rather than a fixable listing loss |
 
 ## Verification
 
