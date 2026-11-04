@@ -1,7 +1,7 @@
 ---
 title: "Trial Expired (403 TRIAL_EXPIRED) - CorpusIQ Docs"
 description: "CorpusIQ returns 403 TRIAL_EXPIRED. What the error means, where it appears, how team coverage works, and how to restore access without losing data."
-last_updated: "2026-10-27"
+last_updated: "2026-11-03"
 ---
 # Trial expired (403 TRIAL_EXPIRED)
 

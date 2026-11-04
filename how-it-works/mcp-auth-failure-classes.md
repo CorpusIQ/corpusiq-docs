@@ -1,7 +1,7 @@
 ---
 title: "MCP Authentication Failure Classes - CorpusIQ Docs"
 description: "A field guide to the eight connection and OAuth failures that break MCP servers in production: symptoms, how to tell them apart, and the fix pattern for each."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP authentication and connection failure classes
 

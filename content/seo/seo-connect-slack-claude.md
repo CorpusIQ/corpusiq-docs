@@ -1,7 +1,7 @@
 ---
 title: seo-connect-slack-claude
 description: "Your team communication lives in Slack. Messages, threads, decisions, announcements. Finding 'what did we decide about pricing?'."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Connect Slack to Claude - Channel Insights Without Scrolling
 

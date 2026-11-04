@@ -1,7 +1,7 @@
 ---
 title: "PostHog - Product Analytics - CorpusIQ Docs"
 description: "Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention - inside Claude or ChatGPT.."
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 ---
 # PostHog - Product Analytics
 

@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-mining
 description: "Mining operations track: Modular for fleet management, SAP for financials, QuickBooks for cost tracking, and safety management systems."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Mining - Production, Costs, and Equipment Analytics
 

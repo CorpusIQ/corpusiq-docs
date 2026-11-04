@@ -12,7 +12,7 @@ keywords:
 - HubSpot sales intelligence
 - AI deal analytics
 - territory optimization AI
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/hubspot-sales-analytics-with-ai

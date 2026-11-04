@@ -1,7 +1,7 @@
 ---
 title: endpoints
 description: "The CorpusIQ API is organized around REST principles. All endpoints return JSON."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # API Endpoints
 

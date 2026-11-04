@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-property-management
 description: "Property managers run: AppFolio/Yardi for property ops, QuickBooks for financials, Stripe for rent collection, HubSpot for tenant pipeline, and Gmail for m."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Property Management - Every Property, Every Metric, One Question
 

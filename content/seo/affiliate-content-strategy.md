@@ -1,7 +1,7 @@
 ---
 title: affiliate-content-strategy
 description: "Content creators ask: 'how do I get more affiliate referrals?' The answer isn't more links. It's better content."
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 ---
 # How to Get SaaS Affiliate Referrals - A Content Creator's Guide
 

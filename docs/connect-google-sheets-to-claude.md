@@ -3,7 +3,7 @@ title: "Connect Google Sheets to Claude via MCP - Live Sheet Answers"
 description: "Connect Google Sheets to Claude through CorpusIQ MCP. Ask about budgets, trackers and pipelines in plain language and get answers tied to the sheet and tab used."
 category: Claude Integrations
 tags: ["connect Google Sheets to Claude", "Google Sheets Claude integration", "MCP Sheets connector", "spreadsheet data to Claude", "ask questions about a spreadsheet", "CorpusIQ MCP"]
-last_updated: "2026-10-29"
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/connect-google-sheets-to-claude"
 robots: "index,follow"
 ---

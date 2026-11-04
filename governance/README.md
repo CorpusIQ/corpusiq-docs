@@ -1,7 +1,7 @@
 ---
 title: README
 description: "CorpusIQ governance features for team accounts."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Governance
 

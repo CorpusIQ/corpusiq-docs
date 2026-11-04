@@ -3,7 +3,7 @@ title: Connect CallRail to ChatGPT via MCP
 description: "Connect CallRail to ChatGPT through CorpusIQ MCP. Ask which campaigns drove calls, how long they lasted and where callers came from, with cited answers."
 category: ChatGPT Integrations
 tags: ["connect CallRail to ChatGPT", "CallRail ChatGPT integration", "call attribution in ChatGPT", "MCP CallRail connector", "phone lead analytics", "CorpusIQ MCP"]
-last_updated: "2026-11-02"
+last_updated: "2026-11-03"
 canonical: "https://www.corpusiq.io/docs/connect-callrail-to-chatgpt"
 robots: "index,follow"
 ---

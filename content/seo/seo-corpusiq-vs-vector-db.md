@@ -1,7 +1,7 @@
 ---
 title: seo-corpusiq-vs-vector-db
 description: "Vector databases are the backbone of RAG (retrieval-augmented generation)."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP vs Vector Databases - Live Data or Pre-Indexed Search
 

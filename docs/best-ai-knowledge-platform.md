@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["ai-knowledge-platform", "knowledge-management", "ai-knowledge-base", "enterprise-knowledge"]
 canonical: "https://www.corpusiq.io/docs/best-ai-knowledge-platform/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 ---
 
 # Best AI Knowledge Platform - 2026 Rankings

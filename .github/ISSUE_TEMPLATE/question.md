@@ -4,7 +4,7 @@ about: Have a question about CorpusIQ?
 title: ''
 labels: type:question
 assignees: ''
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 For questions, please use GitHub Discussions:

@@ -12,7 +12,7 @@ keywords:
 - MCP QuickBooks reporting
 - automated P&L reports
 - AI financial statement generation
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-ai-reporting

@@ -4,7 +4,7 @@ description: "Connect your Slack account to Claude through CorpusIQ MCP. Ask pla
 url: /docs/connect-slack-to-claude
 h1: 'Connect Slack to Claude: Unlock Your Team''s Knowledge Base'
 category: Claude Integrations
-last_updated: '2026-10-31'
+last_updated: '2026-11-01'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/connect-slack-to-claude
 keywords:

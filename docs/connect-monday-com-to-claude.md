@@ -3,7 +3,7 @@ title: "Connect Monday.com to Claude via MCP"
 description: "Connect your Monday.com boards to Claude through CorpusIQ MCP. Ask which projects are blocked, who owns what, and what is slipping, and get cited answers."
 category: Claude Integrations
 tags: ["connect Monday.com to Claude", "Monday.com Claude integration", "MCP Monday connector", "Monday boards to Claude", "AI for project management", "CorpusIQ MCP"]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 canonical: https://www.corpusiq.io/docs/connect-monday-com-to-claude
 robots: index,follow
 ---

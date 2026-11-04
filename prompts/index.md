@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ Prompt Library - CorpusIQ Docs"
 description: "Battle-tested prompts for business operators - copy, paste, get answers from your data. using CorpusIQ with Claude and ChatGPT."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # CorpusIQ Prompt Library

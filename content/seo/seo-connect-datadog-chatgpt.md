@@ -1,7 +1,7 @@
 ---
 title: seo-connect-datadog-chatgpt
 description: "Your infrastructure monitoring runs on Datadog. Metrics, traces, logs, synthetics."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Connect Datadog to ChatGPT - Infrastructure Analytics in Plain English
 

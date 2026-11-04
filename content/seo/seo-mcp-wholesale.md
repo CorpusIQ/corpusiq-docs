@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-wholesale
 description: "Wholesale businesses run: ERP for orders, QuickBooks for financials, inventory system for stock, HubSpot for customer relationships, and Gmail for purchase."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Wholesale - B2B Orders, Inventory, and Customer Financials
 

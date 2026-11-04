@@ -3,7 +3,7 @@ title: "MCP Apps - Interactive UI Inside the Chat"
 description: "MCP Apps render an interactive HTML interface inside the AI chat. How the extension works, its sandbox security model, client support, and what to verify."
 canonical: "https://www.corpusiq.io/docs/mcp-apps/"
 robots: "index,follow"
-last_updated: "2026-10-28"
+last_updated: "2026-11-01"
 tags: ["mcp apps", "model context protocol", "interactive ui", "mcp server"]
 ---
 

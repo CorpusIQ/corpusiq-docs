@@ -1,7 +1,7 @@
 ---
 title: "Multi-Source Prompts - CorpusIQ Docs"
 description: CorpusIQ prompts that span multiple data sources - board updates, investor reports, cross-department analysis
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Multi-Source Prompts
