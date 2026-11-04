@@ -105,6 +105,19 @@ jobs:
       - name: Prune non-canonical sitemap entries
         run: python scripts/prune_non_canonical_sitemap_entries.py site
 
+      # mkdocs lastmod plugin stamps every URL with the build date, so every
+      # deploy claims all 3,148 pages changed and crawlers re-fetch unchanged
+      # pages. The local deploy path (deploy_docs.py) already rewrites lastmod
+      # from site/.page_dates.json (written by the page_schema hook); this path
+      # did not, which is why the live sitemap showed a single date.
+      - name: Rewrite sitemap lastmod from per-page dates
+        run: |
+          if [ ! -f site/.page_dates.json ]; then
+            echo "::error::site/.page_dates.json missing - page_schema hook did not run, so sitemap lastmod would be build-date stamped"
+            exit 1
+          fi
+          python scripts/rewrite_sitemap_lastmod.py --write
+
       - name: Absolutize internal docs links
         run: python scripts/absolutize_internal_links.py site
 

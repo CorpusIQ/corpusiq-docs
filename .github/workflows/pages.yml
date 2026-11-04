@@ -72,6 +72,18 @@ jobs:
         # warnings are tracked separately as content cleanup.
         run: mkdocs build --site-dir ./site
 
+      # MkDocs stamps every URL with the build date, so the published sitemap
+      # claimed all pages changed on every build. Rewrite lastmod from the
+      # per-page dates the page_schema hook writes (same as deploy_docs.py and
+      # the Vercel workflow).
+      - name: Rewrite sitemap lastmod from per-page dates
+        run: |
+          if [ ! -f site/.page_dates.json ]; then
+            echo "::error::site/.page_dates.json missing - page_schema hook did not run, so sitemap lastmod would be build-date stamped"
+            exit 1
+          fi
+          python scripts/rewrite_sitemap_lastmod.py --write
+
       # Production serves docs pages without a trailing slash, but raw MkDocs
       # output uses directory-style relative links. Absolutize internal links
       # to /docs/* so nav cannot resolve one segment too high.
