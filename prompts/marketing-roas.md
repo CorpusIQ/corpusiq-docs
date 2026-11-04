@@ -1,7 +1,7 @@
 ---
 title: "Marketing & ROAS Prompts - CorpusIQ Docs"
 description: CorpusIQ prompts for marketing performance - CAC, ROAS by channel, campaign analytics across Google Ads, Meta Ads, and LinkedIn Ads
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 
 # Marketing & ROAS Prompts

@@ -1,7 +1,7 @@
 ---
 title: seo-shopify-ai-analytics
 description: "You run a Shopify store. You know the data is there - orders, customers, products, inventory."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Shopify AI Analytics - Store Performance Without Reports
 

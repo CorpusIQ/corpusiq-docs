@@ -3,7 +3,7 @@ title: Connect Bing Webmaster Tools to ChatGPT via MCP
 description: "Connect Bing Webmaster Tools to ChatGPT through CorpusIQ MCP. Ask for impressions, clicks, top queries, crawl health and inbound links with cited answers."
 category: ChatGPT Integrations
 tags: ["connect Bing Webmaster Tools to ChatGPT", "Bing Webmaster ChatGPT integration", "Bing SEO data in ChatGPT", "MCP Bing Webmaster connector", "Bing search analytics", "CorpusIQ MCP"]
-last_updated: "2026-11-02"
+last_updated: "2026-11-03"
 canonical: "https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-chatgpt"
 robots: "index,follow"
 ---

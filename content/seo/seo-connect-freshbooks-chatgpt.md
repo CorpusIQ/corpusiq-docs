@@ -1,7 +1,7 @@
 ---
 title: seo-connect-freshbooks-chatgpt
 description: "Your accounting runs on FreshBooks. Invoices, expenses, time tracking, reports. Every answer requires navigating the FreshBooks dashboard."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Connect FreshBooks to ChatGPT - Small Business Accounting Answers
 

@@ -1,7 +1,7 @@
 ---
 title: seo-shopify-business-intelligence
 description: "Shopify has all your store data. Extracting insights means knowing which reports to run and how to combine them."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Shopify Business Intelligence - Store Analytics Without the Complexity
 

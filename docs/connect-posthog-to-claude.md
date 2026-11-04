@@ -3,7 +3,7 @@ title: "Connect PostHog to Claude via MCP - Ask Product Analytics"
 description: "Connect PostHog to Claude through CorpusIQ MCP. Ask about events, funnels, person records and HogQL, then join product usage to revenue and the CRM."
 category: Claude Integrations
 tags: ["connect PostHog to Claude", "PostHog Claude integration", "MCP product analytics connector", "product analytics in Claude", "HogQL questions", "CorpusIQ MCP"]
-last_updated: "2026-10-30"
+last_updated: "2026-11-01"
 canonical: "https://www.corpusiq.io/docs/connect-posthog-to-claude"
 robots: "index,follow"
 ---

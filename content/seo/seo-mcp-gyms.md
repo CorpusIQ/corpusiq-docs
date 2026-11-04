@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-gyms
 description: "Gym operators run: Mindbody for memberships, QuickBooks for financials, Stripe for payments, Mailchimp for member communications."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Gyms and Fitness - Membership, Revenue, and Retention
 

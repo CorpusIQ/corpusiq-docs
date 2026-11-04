@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-accountants
 description: "You spend half your day in QuickBooks. Pulling reports. Running P&Ls. Checking invoices. Reconciling accounts."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Accountants - Ask QuickBooks Questions in Plain English
 

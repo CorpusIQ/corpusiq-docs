@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-consulting
 description: "You manage 10 clients. Each has QuickBooks, HubSpot, and Stripe. That's 30 systems to check."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Consulting Firms - One Question Across Every Client
 

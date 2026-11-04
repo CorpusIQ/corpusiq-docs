@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-fractional-cfo
 description: "You serve 5+ clients as a fractional CFO. Each has QuickBooks, Stripe, and HubSpot. That's 15+ systems to check every month."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Fractional CFOs - One Question Across Every Client
 

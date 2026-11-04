@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-for-customer-success
 description: "CS teams live in HubSpot (account health), Stripe (revenue), and their support inbox (tickets). Three tools."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Customer Success - Know Every Account Before They Churn
 

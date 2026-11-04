@@ -1,7 +1,7 @@
 ---
 title: seo-how-mcp-servers-work
 description: "You connect a tool to an AI assistant. Behind the scenes, MCP handles authentication, tool discovery, query execution, and response formatting."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # How MCP Servers Work - Technical Deep Dive
 

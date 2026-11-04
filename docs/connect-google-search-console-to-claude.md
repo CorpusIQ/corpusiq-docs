@@ -3,7 +3,7 @@ title: "Connect Google Search Console to Claude via MCP"
 description: "Connect Google Search Console to Claude through CorpusIQ MCP. Ask about queries, pages, clicks and position, and get cited answers from live search data."
 category: Claude Integrations
 tags: ["connect Google Search Console to Claude", "Search Console Claude integration", "MCP Search Console connector", "GSC data to Claude", "SEO data in Claude", "CorpusIQ MCP"]
-last_updated: "2026-10-31"
+last_updated: "2026-11-01"
 canonical: https://www.corpusiq.io/docs/connect-google-search-console-to-claude
 robots: index,follow
 ---

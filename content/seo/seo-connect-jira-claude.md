@@ -1,7 +1,7 @@
 ---
 title: seo-connect-jira-claude
 description: "Your engineering work lives in Jira. Sprints, issues, velocity, blockers. Every standup starts with 'let me check Jira.'"
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Connect Jira to Claude - Engineering Velocity Without Status Meetings
 

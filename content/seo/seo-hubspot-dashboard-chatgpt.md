@@ -1,7 +1,7 @@
 ---
 title: seo-hubspot-dashboard-chatgpt
 description: "Stop building HubSpot dashboards."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # HubSpot Dashboard with ChatGPT - Pipeline in Plain English
 

@@ -1,7 +1,7 @@
 ---
 title: seo-connect-sheets-chatgpt
 description: "Your data lives in Google Sheets. Budgets, forecasts, customer lists, project trackers."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # Connect Google Sheets to ChatGPT - Spreadsheet Data in Plain English
 

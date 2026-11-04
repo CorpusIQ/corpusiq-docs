@@ -1,7 +1,7 @@
 ---
 title: seo-mcp-funeral-homes
 description: "Funeral homes run: Mortware for case management, QuickBooks for financials, Stripe for payments, pre-need contract systems."
-last_updated: "2026-10-24"
+last_updated: "2026-11-01"
 ---
 # MCP for Funeral Homes - Service Revenue, Pre-Need Sales, Operations
 

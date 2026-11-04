@@ -1,7 +1,7 @@
 ---
 title: affiliate-how-to-earn
 description: "You have an audience. You want to earn. Here's exactly how."
-last_updated: "2026-10-26"
+last_updated: "2026-11-01"
 ---
 # How to Make Money with the CorpusIQ Affiliate Program
 

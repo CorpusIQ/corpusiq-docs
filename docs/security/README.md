@@ -2,7 +2,7 @@
 description: "CorpusIQ security: read-only access to connected tools, AES-256 encryption, documented retention lifecycles, and source citations on every answer. We never write to your systems."
 canonical: "https://www.corpusiq.io/security/"
 robots: "index,follow"
-last_updated: "2026-10-31"
+last_updated: "2026-11-03"
 title: "CorpusIQ Security and Compliance"
 tags: ["hermes agent", "ai agent", "documentation"]
 
