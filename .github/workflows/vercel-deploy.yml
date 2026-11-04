@@ -27,6 +27,10 @@ on:
       - 'llms.txt'
       - 'llms-full.txt'
       - 'vercel.json'
+      # Build-time hooks and the sitemap rewrite change the rendered HTML and
+      # the lastmod map, so a hook-only merge must still publish. Missed once:
+      # the breadcrumb hook (PR #180) merged without triggering this workflow.
+      - 'scripts/**'
       - '.github/workflows/pages.yml'
       - '.github/workflows/vercel-deploy.yml'
   workflow_dispatch:
