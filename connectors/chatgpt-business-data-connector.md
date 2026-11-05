@@ -1,7 +1,7 @@
 ---
 title: "How to Connect ChatGPT to Your Business Data (2026 Guide)"
 description: "ChatGPT cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to connect your business data in 5 minutes."
-last_updated: "2026-11-01"
+last_updated: "2026-11-05"
 ---
 # How to Connect ChatGPT to Your Business Data (2026 Guide)
 
@@ -26,6 +26,21 @@ ChatGPT supports MCP servers - live data connections that let it query your actu
 2. Connect your tools (Shopify, QuickBooks, Google Ads, HubSpot, etc.) - 2 minutes each via OAuth
 3. Add the CorpusIQ MCP server to ChatGPT
 4. Ask your first real business question
+
+## The permission controls ChatGPT shows you
+
+ChatGPT does not call this a connector permission. The CorpusIQ app sits under plugins, and the control is on the app page. These are the exact labels in the ChatGPT desktop app:
+
+1. Open Settings, then Plugins, then CorpusIQ.
+2. The page shows a Permission row: "Choose when ChatGPT should ask for permission when using this plugin". Clicking it opens a page titled "Choose when ChatGPT needs your approval to use tools".
+3. That page offers four options:
+   - Always ask: ask before reading or making changes
+   - Allow read-only tools: read without asking, ask before making changes
+   - Allow low-risk tools (the default): automatically approve low-risk tools, sensitive tools may be denied
+   - Allow all tools (elevated risk): use tools without asking
+4. "Reset to default" puts the setting back to the default.
+
+For business data questions, "Allow read-only tools" is enough. Answers come from live reads, and nothing is changed in your systems without a prompt.
 
 ## What you can ask immediately
 
