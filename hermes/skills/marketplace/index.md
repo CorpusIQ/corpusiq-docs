@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh - 1,410+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh - 1,425+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-11-04"
@@ -12,9 +12,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh) - install with a single command and use immediately.
 
-**1,410+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,425+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [November 5, 2026 (Morning) - Qt Agent Skills - QML, C++ and Figma Setup (theqtcompanyrnd/agent-skills, 9,871 combined, 14 listings, 523 stars, NOASSERTION, the Qt company's 13 official engineering skills for QML, C++, CMake and Figma handoff), Exa Agent Skills - Neural Search API Setup (exa-labs/agent-skills, 9,481 combined, 5 listings, 65 stars, MIT, the vendor's own skills for neural search, contents retrieval, company research and lead generation), Qiaomu OpenCLI Skills - Social Site CLI Setup (joeseesun/qiaomu-opencli-skills, 9,424 combined, 7 listings, 998 stars, MIT, a CLI that lets an agent read and search social and content sites through one interface) - drained the Nov 4 sized-candidate queue, 96 listings, 15 setup guides](/hermes/skills/marketplace/new-nov5-2026-morning-skills)
 - [November 4, 2026 (Evening) - Microsoft VS Code Skills - Editor Workflow Suite (microsoft/vscode, 28,011 combined, 13 listings, 194,645 stars, MIT, the official Microsoft editor repository's 79 agent skills covering accessibility, memory-leak audits, Azure Pipelines and author contributions), PyTorch Agent Skills - Contributor Workflow Suite (pytorch/pytorch, 26,667 combined, 16 listings, 105,148 stars, NOASSERTION, the framework's own contributor skills for docstrings, public API documentation, PR review and unsigned integer support), Phaser Skills - HTML5 Game Development Suite (phaserjs/phaser, 26,289 combined, 28 listings, 40,649 stars, MIT, 28 engine-shipped skills across game setup, sprites, animations and graphics), Docker Agent Skills - Container Workflow Suite (docker/skills, 12,666 combined, 12 listings, 615 stars, Apache-2.0, Docker's official container skills for Compose stacks, builds, sandboxes and Docker Agent authoring) - drained the Nov 3 sized-candidate queue, 687 listings, 16 setup guides](/hermes/skills/marketplace/new-nov4-2026-evening-skills)
 - [November 4, 2026 (Morning) - Game Creator - Playable Intelligence Game Skills (playableintelligence/game-creator, 31,774 combined, 31 listings, 355 stars, no LICENSE file, Game production for agents: ideation, core loop design, level and systems tuning, art direction and playtest loops), Drama Skills - AI Short Drama Production Suite (zenstory-ai/drama-skills, 23,558 combined, 12 listings, 3,764 stars, MIT, Short-form drama for agents: story beats, shot lists, character continuity and episode packaging for serialized AI video), R3F Skills - React Three Fiber for Agents (enzed/r3f-skills, 23,479 combined, 11 listings, 133 stars, no LICENSE file, 3D on the web for agents: React Three Fiber scenes, materials, lighting, physics and performance budgets), HTML PPT Skill - Slide Decks From Markdown (lewislulu/html-ppt-skill, 21,226 combined, 1 listings, 8,974 stars, MIT, Presentations for agents: single-file HTML decks, layouts, typography and speaker notes generated from an outline) - drained the Nov 3 topic-probe queue, 294 listings, 14 setup guides](/hermes/skills/marketplace/new-nov4-2026-morning-skills)
 - [November 3, 2026 (Evening) - OpenMontage - Video Production Studio for Agents (calesthio/openmontage, 101,840 combined, 90 listings, 76,073 stars, AGPL-3.0, Video production for agents: cutting, captions, avatars, motion and rendered social clips through one studio suite), PostPlus Skills - Marketing Research and Publishing (postplusai/postplus-skills, 46,456 combined, 82 listings, 27 stars, NOASSERTION, Marketing for agents: platform research, asset routing and campaign publishing across social channels), CC Blender Skill - 3D Production for Agents (roble3/cc-blender-skill, 36,728 combined, 30 listings, 141 stars, MIT, Blender for agents: modeling, UV, materials, lighting, cameras, animation and export handled like a senior 3D artist), Oh My ClaudeCode - Agent Workflow Suite Setup (yeachan-heo/oh-my-claudecode, 36,471 combined, 98 listings, 40,550 stars, MIT, Agent orchestration: planning, parallel delegation, review, debugging and delivery skills for coding agents), Unreal Engine Skills - Game Dev Suite for Agents (quodsoler/unreal-engine-skills, 35,564 combined, 31 listings, 436 stars, MIT, Unreal Engine for agents: Blueprints, C++ gameplay, materials, animation and packaging guidance), Borghei Claude Skills - 385 Business Skill Library (borghei/claude-skills, 34,493 combined, 200 listings, 1,043 stars, NOASSERTION, Business operations for agents: pricing, churn, deal desk, partnerships, CRO and compliance audit skills), MiniMax CLI - Multimedia Generation for Agents (minimax-ai/cli, 32,370 combined, 2 listings, 2,211 stars, no LICENSE file, Multimedia generation for agents: text, images, video and speech from the official MiniMax command line), Webflow Skills - Site Building for Agents Setup (webflow/webflow-skills, 29,425 combined, 45 listings, 135 stars, MIT, Webflow for agents: CMS collections, components, accessibility audits and safe publishing through the Webflow MCP server), Stark AI Agent Skills - Engineering Workflow Kit (stark-ai-de/agent-skills, 29,204 combined, 15 listings, 8 stars, Apache-2.0, Engineering workflow for agents: PRDs, ADRs, repo maps, plan slicing, debugging and review-fix swarms), Coinbase Agentic Wallet - USDC Payments Skill (coinbase/agentic-wallet-skills, 27,257 combined, 11 listings, 127 stars, MIT, Agent payments: sign in, read balances, send USDC and trade tokens through the Coinbase agentic wallet CLI), IART Web Animation Skills - GSAP and SVG Suite (iart-ai/web-animation-skills, 26,178 combined, 9 listings, 76 stars, MIT, Web animation for agents: GSAP timelines, SVG and Lottie motion, micro-interactions and 60fps performance), HeyGen Skills - Avatar Video Production Setup (heygen-com/skills, 20,185 combined, 15 listings, 538 stars, MIT, Avatar video for agents: creator avatars, scripted video generation and translation through the HeyGen v3 pipeline), Agent Desktop - Computer Use for Agents Setup (vercel-labs/agent-desktop, 5,077 combined, 6 listings, 13,273 stars, Apache-2.0, Computer use for agents: see and drive macOS, Windows and Linux desktop apps through the OS accessibility tree) - 13 publisher clusters from a widened 172-query topic probe and the trending board, 634 listings, 13 setup guides](/hermes/skills/marketplace/new-nov3-2026-evening-skills)
@@ -352,7 +353,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,410+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,425+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -437,7 +438,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,410+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,425+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -457,7 +458,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,410+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,425+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
