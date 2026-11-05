@@ -3114,11 +3114,6 @@
       "statusCode": 301
     },
     {
-      "source": "/docs/connect-klaviyo-to-chatgpt",
-      "destination": "/docs/connectors/connect-klaviyo-to-chatgpt",
-      "statusCode": 301
-    },
-    {
       "source": "/docs/connect-klaviyo-to-claude",
       "destination": "/docs/connectors/connect-klaviyo-to-claude",
       "statusCode": 301
