@@ -1103,3 +1103,22 @@ Thirteen repository clusters surfaced by a widened 172-query topic probe plus on
 - [Kotlin Agent Skills - Official JVM Guidance](/hermes/skills/catalog/kotlin-agent-skills-setup) - kotlin/kotlin-agent-skills, 12,236 combined, 10 listings, 1,105 stars, Apache-2.0, Kotlin for agents: idiomatic coding standards, coroutines, Gradle build craft and migration guidance from JetBrains
 - [Drawio Skills - Diagram Authoring for Agents](/hermes/skills/catalog/drawio-skills-setup) - bahayonghang/drawio-skills, 9,628 combined, 2 listings, 299 stars, MIT, Diagrams for agents: draw.io XML authoring, layout rules and export workflows for architecture and flow documents
 - [DuckDB Skills - Local Analytics for Agents](/hermes/skills/catalog/duckdb-skills-setup) - duckdb/duckdb-skills, 9,377 combined, 9 listings, 616 stars, MIT, Local analytics for agents: DuckDB querying, file formats, extensions and analytical patterns over local data
+
+### New - November 4, 2026 Evening Sweep (16 publisher guides)
+
+- [Microsoft VS Code Skills - Editor Workflow Suite](/hermes/skills/catalog/microsoft-vscode-skills-setup) - microsoft/vscode, 28,011 combined, 13 listings, 194,645 stars, MIT, 
+- [PyTorch Agent Skills - Contributor Workflow Suite](/hermes/skills/catalog/pytorch-agent-skills-setup) - pytorch/pytorch, 26,667 combined, 16 listings, 105,148 stars, NOASSERTION, 
+- [Phaser Skills - HTML5 Game Development Suite](/hermes/skills/catalog/phaserjs-phaser-skills-setup) - phaserjs/phaser, 26,289 combined, 28 listings, 40,649 stars, MIT, 
+- [AceDataCloud Skills - Hosted AI API Suite](/hermes/skills/catalog/acedatacloud-skills-setup) - acedatacloud/skills, 19,364 combined, 124 listings, 17 stars, NOASSERTION, 
+- [Julius Brussee Skills - Agent Coding Drills](/hermes/skills/catalog/juliusbrussee-skills-setup) - juliusbrussee/skills, 18,811 combined, 9 listings, 175 stars, MIT, 
+- [Laurigates Claude Plugins - Python and Ops Suite](/hermes/skills/catalog/laurigates-claude-plugins-setup) - laurigates/claude-plugins, 17,424 combined, 197 listings, 59 stars, MIT, 
+- [Swift Concurrency Agent Skill - Swift 6 Setup](/hermes/skills/catalog/avdlee-swift-concurrency-setup) - avdlee/swift-concurrency-agent-skill, 17,351 combined, 1 listings, 1,702 stars, MIT, 
+- [Circle Skills - USDC and Arc Payments Setup](/hermes/skills/catalog/circlefin-skills-setup) - circlefin/skills, 15,869 combined, 20 listings, 162 stars, Apache-2.0, 
+- [Julianobarbosa Skills - Data and Editor Toolkit](/hermes/skills/catalog/julianobarbosa-claude-code-skills-setup) - julianobarbosa/claude-code-skills, 14,078 combined, 173 listings, 15 stars, MIT, 
+- [21st.dev Skills - Registry and UI Build Setup](/hermes/skills/catalog/21st-dev-skill-setup) - 21st-dev/skill, 13,330 combined, 8 listings, 34 stars, Apache-2.0, 
+- [Marswave Skills - Voice, TTS and Slides Setup](/hermes/skills/catalog/marswaveai-skills-setup) - marswaveai/skills, 12,967 combined, 20 listings, 82 stars, MIT, 
+- [CronTap Skills - Scheduled Job Setup](/hermes/skills/catalog/crontap-skills-setup) - crontap/skills, 12,632 combined, 12 listings, 1 stars, MIT, 
+- [Docker Agent Skills - Container Workflow Suite](/hermes/skills/catalog/docker-agent-skills-setup) - docker/skills, 12,666 combined, 12 listings, 615 stars, Apache-2.0, 
+- [Appwrite Skills - Backend SDK Suite Setup](/hermes/skills/catalog/appwrite-skills-setup) - appwrite/skills, 11,600 combined, 11 listings, 29 stars, BSD-3-Clause, 
+- [Superwall Skills - iOS Paywall Setup](/hermes/skills/catalog/superwall-skills-setup) - superwall/skills, 11,365 combined, 12 listings, 30 stars, MIT, 
+- [Fal AI Community Skills - Media Generation Setup](/hermes/skills/catalog/fal-ai-community-skills-setup) - fal-ai-community/skills, 11,172 combined, 31 listings, 260 stars, no LICENSE file, 
