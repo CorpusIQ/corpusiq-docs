@@ -28409,6 +28409,21 @@ ChatGPT supports MCP servers - live data connections that let it query your actu
 3. Add the CorpusIQ MCP server to ChatGPT
 4. Ask your first real business question
 
+## The permission controls ChatGPT shows you
+
+ChatGPT does not call this a connector permission. The CorpusIQ app sits under plugins, and the control is on the app page. These are the exact labels in the ChatGPT desktop app:
+
+1. Open Settings, then Plugins, then CorpusIQ.
+2. The page shows a Permission row: "Choose when ChatGPT should ask for permission when using this plugin". Clicking it opens a page titled "Choose when ChatGPT needs your approval to use tools".
+3. That page offers four options:
+   - Always ask: ask before reading or making changes
+   - Allow read-only tools: read without asking, ask before making changes
+   - Allow low-risk tools (the default): automatically approve low-risk tools, sensitive tools may be denied
+   - Allow all tools (elevated risk): use tools without asking
+4. "Reset to default" puts the setting back to the default.
+
+For business data questions, "Allow read-only tools" is enough. Answers come from live reads, and nothing is changed in your systems without a prompt.
+
 ## What you can ask immediately
 
 - "What is our revenue today vs the same day last month?"
@@ -30766,6 +30781,14 @@ After: "What is our churn rate vs industry average and which customer segment is
 2. Connect your tools via OAuth (Shopify, QuickBooks, Google Ads, etc.)
 3. Add the CorpusIQ MCP server to Perplexity
 4. Ask questions that combine your data with world knowledge
+
+## The tool permission control you will see
+
+Perplexity keeps the control on the CorpusIQ connector entry in Settings. It follows the same pattern as the ChatGPT plugin control: you choose when Perplexity may use the connector's tools, from asking each time through to using them without asking, and a reset returns you to the default.
+
+Exact labels can read slightly differently from the ChatGPT wording, so go by the shape of the setting rather than the words.
+
+For business data questions, the read-only setting is enough. CorpusIQ retrieval is read-only, so answers come from live reads and nothing changes in your connected systems without a prompt.
 
 [Connect Perplexity to your business data free](https://www.corpusiq.io)
 ---

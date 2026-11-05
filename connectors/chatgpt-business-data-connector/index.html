@@ -107,8 +107,8 @@
     "description": "ChatGPT cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to connect your business data in 5 minutes.",
     "url": "https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-05",
+    "dateModified": "2026-11-05",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-05">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "How to Connect ChatGPT to Your Business Data (2026 Guide)", "url": "https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector", "image": "https://www.corpusiq.io/og?title=How%20to%20Connect%20ChatGPT%20to%20Your%20Business%20Data%20%282026%20Guide%29&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "ChatGPT cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to connect your business data in 5 minutes.", "articleSection": "Connectors"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "How to Connect ChatGPT to Your Business Data (2026 Guide)", "url": "https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector", "image": "https://www.corpusiq.io/og?title=How%20to%20Connect%20ChatGPT%20to%20Your%20Business%20Data%20%282026%20Guide%29&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector"}, "datePublished": "2026-11-01", "dateModified": "2026-11-05", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "ChatGPT cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to connect your business data in 5 minutes.", "articleSection": "Connectors"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Connectors", "item": "https://www.corpusiq.io/docs/connectors"}, {"@type": "ListItem", "position": 3, "name": "How to Connect ChatGPT to Your Business Data (2026 Guide)", "item": "https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector"}]}</script>
 </head>
   
@@ -11880,6 +11880,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-permission-controls-chatgpt-shows-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The permission controls ChatGPT shows you
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-you-can-ask-immediately" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11938,6 +11949,19 @@
 <li>Add the CorpusIQ MCP server to ChatGPT</li>
 <li>Ask your first real business question</li>
 </ol>
+<h2 id="the-permission-controls-chatgpt-shows-you">The permission controls ChatGPT shows you<a class="headerlink" href="#the-permission-controls-chatgpt-shows-you" title="Anchor link to this section">&para;</a></h2>
+<p>ChatGPT does not call this a connector permission. The CorpusIQ app sits under plugins, and the control is on the app page. These are the exact labels in the ChatGPT desktop app:</p>
+<ol>
+<li>Open Settings, then Plugins, then CorpusIQ.</li>
+<li>The page shows a Permission row: "Choose when ChatGPT should ask for permission when using this plugin". Clicking it opens a page titled "Choose when ChatGPT needs your approval to use tools".</li>
+<li>That page offers four options:</li>
+<li>Always ask: ask before reading or making changes</li>
+<li>Allow read-only tools: read without asking, ask before making changes</li>
+<li>Allow low-risk tools (the default): automatically approve low-risk tools, sensitive tools may be denied</li>
+<li>Allow all tools (elevated risk): use tools without asking</li>
+<li>"Reset to default" puts the setting back to the default.</li>
+</ol>
+<p>For business data questions, "Allow read-only tools" is enough. Answers come from live reads, and nothing is changed in your systems without a prompt.</p>
 <h2 id="what-you-can-ask-immediately">What you can ask immediately<a class="headerlink" href="#what-you-can-ask-immediately" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>"What is our revenue today vs the same day last month?"</li>
