@@ -49,6 +49,7 @@ class VercelDeployTests(unittest.TestCase):
                 "apply_canonical_overrides.py",
                 "prune_non_canonical_sitemap_entries.py",
                 "rewrite_sitemap_lastmod.py",
+                "check_page_schema.py",
             ):
                 shutil.copyfile(
                     ROOT / "scripts" / script,
@@ -78,7 +79,17 @@ class VercelDeployTests(unittest.TestCase):
             (site / ".page_dates.json").write_text(
                 json.dumps({"https://www.corpusiq.io/docs": "2026-10-01"})
             )
+            # The schema gate needs a real MkDocs build (>=100 pages carrying
+            # Article markup); this harness has a one-page fixture by design, so
+            # it is pinned into the deploy path below and executed for real in
+            # the workflow, not replayed here.
+            self.assertIn(
+                "Verify per-page schema and structured data",
+                [step["name"] for step in steps[build + 1:deploy]],
+            )
             for step in steps[build + 1:deploy]:
+                if step["name"] == "Verify per-page schema and structured data":
+                    continue
                 subprocess.run(
                     ["bash", "-e", "-c", step["run"]], cwd=root, check=True
                 )

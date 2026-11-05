@@ -51,6 +51,16 @@ STRING_KEYS = {
     "title", "description", "name", "category", "source", "setup", "summary",
 }
 
+# Keys that must carry a bare ISO date. They are copied verbatim into the
+# page's JSON-LD (datePublished / dateModified), so a stray quote or a prose
+# date does not fail YAML - it produces invalid structured data that search
+# engines drop silently. See the 2026-11-05 case in check_file below.
+DATE_KEYS = {"last_updated", "last_modified", "date_modified", "added"}
+ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+# A YAML plain scalar can never *begin* with these.
+SCALAR_STARTS = ("\"", "'", "[", "{", ">", "|", "&", "*", "!", "#", "?")
+
 FM_RE = re.compile(r"^---\n(.*?)\n---(\n|$)", re.DOTALL)
 LINE_RE = re.compile(r"^([A-Za-z_][\w-]*): (.+?)\s*$")
 KEY_RE = re.compile(r"^([A-Za-z_][\w-]*):")
@@ -124,6 +134,50 @@ def check_file(path: str) -> list[str]:
             )
         else:
             seen_keys[key] = idx
+
+    # 4. Date hygiene for keys that reach JSON-LD as dates: ISO only.
+    # 5. Quote integrity. PyYAML happily accepts `last_updated: 2026-11-04"` as
+    #    the STRING '2026-11-04"' - a plain scalar absorbs a stray closing
+    #    quote and nothing complains. That string is then copied verbatim into
+    #    the rendered page graph, shipping `"datePublished": "2026-11-04""` on
+    #    two live pages (hermes/mcp-ecosystem, hermes/mcp/connectors) and
+    #    silently dropping their structured data. So: a plain scalar must never
+    #    contain a double quote, and a quoted value must open and close with the
+    #    same character and escape any inner double quotes.
+    values = yaml.safe_load(block)
+    if isinstance(values, dict):
+        for key, val in values.items():
+            if isinstance(val, str) and key in DATE_KEYS and not ISO_DATE_RE.match(val.strip()):
+                problems.append(
+                    f"`{key}` must be a bare ISO date (YYYY-MM-DD), got {val!r} — "
+                    f"it is copied verbatim into the page JSON-LD"
+                )
+    for raw_line in block.split("\n"):
+        lm = LINE_RE.match(raw_line)
+        if not lm:
+            continue
+        key, raw_value = lm.group(1), lm.group(2)
+        if raw_value[:1] in ("\"", "'"):
+            quote = raw_value[0]
+            if len(raw_value) < 2 or not raw_value.endswith(quote):
+                problems.append(
+                    f"`{key}` opens with {quote} but never closes with it — the "
+                    f"quote ships into the page (meta/JSON-LD)"
+                )
+            elif quote == "\"" and raw_value[1:-1].replace("\\\"", "").count("\"") % 2:
+                problems.append(
+                    f"`{key}` has an odd number of unescaped double quotes "
+                    f"inside a double-quoted value — escape them as \\\""
+                )
+            continue
+        if raw_value[:1] in SCALAR_STARTS:
+            continue
+        if '"' in raw_value:
+            problems.append(
+                f"`{key}` is an unquoted value containing a double quote — "
+                f"almost always a dropped opening quote. Wrap it in one pair: "
+                f"`{key}: \"...\"`"
+            )
     return problems
 
 
@@ -198,6 +252,17 @@ def main() -> int:
         hints.append(
             "wrap any title/description/name value containing ': ' or ' #' "
             "in double quotes."
+        )
+    if any("double quote" in i or "never closes" in i for i in flat):
+        hints.append(
+            "one matching pair of quotes per value: a plain scalar must not "
+            "contain a '\"', and a value that opens with a quote must close "
+            "with the same one (escape inner double quotes as \\\")."
+        )
+    if any("bare ISO date" in i for i in flat):
+        hints.append(
+            "`last_updated` and `added` must be YYYY-MM-DD - they are copied "
+            "verbatim into the page JSON-LD."
         )
     if any(i.startswith("invalid YAML") or i.startswith("frontmatter opener") for i in flat):
         hints.append(

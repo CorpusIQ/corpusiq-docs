@@ -84,6 +84,14 @@ jobs:
           fi
           python scripts/rewrite_sitemap_lastmod.py --write
 
+      # Validate the structured data that actually ships. The frontmatter gate
+      # catches stray quotes before merge; this one proves the rendered JSON-LD
+      # parses, because a value can be legal YAML and still break the page graph
+      # (2026-11-05: two pages served `"datePublished": "2026-11-04""` and the
+      # Article-only check beside it still reported ok).
+      - name: Verify per-page schema and structured data
+        run: python scripts/check_page_schema.py
+
       # Production serves docs pages without a trailing slash, but raw MkDocs
       # output uses directory-style relative links. Absolutize internal links
       # to /docs/* so nav cannot resolve one segment too high.
