@@ -122,6 +122,13 @@ jobs:
           fi
           python scripts/rewrite_sitemap_lastmod.py --write
 
+      # Same structured-data gate as pages.yml: prove the shipped JSON-LD parses
+      # before deploying. 2026-11-05 shipped two pages carrying
+      # `"datePublished": "2026-11-04""` because nothing validated the rendered
+      # graph on this path either.
+      - name: Verify per-page schema and structured data
+        run: python scripts/check_page_schema.py
+
       - name: Absolutize internal docs links
         run: python scripts/absolutize_internal_links.py site
 

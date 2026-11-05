@@ -40,18 +40,38 @@ def main() -> int:
     for path in pages:
         html = open(path, encoding="utf-8", errors="ignore").read()
         nodes = []
-        for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
-            if "TechArticle" not in block and '"Article"' not in block:
-                continue
+        rel = os.path.relpath(path, SITE)
+        for index, block in enumerate(
+            re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+        ):
+            # EVERY LD+JSON block must parse, not only the Article one. A single
+            # stray quote in frontmatter (2026-11-05: `last_updated:
+            # 2026-11-04"` on two pages) broke the page-level WebPage graph
+            # block while the Article block beside it stayed valid, so an
+            # Article-only check reported ok and shipped invalid structured
+            # data that answer engines drop silently.
             try:
-                nodes.append(json.loads(block))
-            except Exception:
-                failures.append(f"{os.path.relpath(path, SITE)}: unparseable JSON-LD")
+                parsed = json.loads(block)
+            except Exception as exc:
+                failures.append(
+                    f"{rel}: unparseable JSON-LD block #{index} "
+                    f"({str(exc).splitlines()[0][:70]})"
+                )
+                continue
+            candidates = parsed.get("@graph") if isinstance(parsed, dict) else None
+            if not isinstance(candidates, list):
+                candidates = [parsed]
+            for candidate in candidates:
+                if not isinstance(candidate, dict):
+                    continue
+                kind = candidate.get("@type")
+                kinds = kind if isinstance(kind, list) else [kind]
+                if any(str(k).endswith("Article") for k in kinds):
+                    nodes.append(candidate)
         if not nodes:
             continue
         with_schema += 1
         node = nodes[0]
-        rel = os.path.relpath(path, SITE)
         for field in REQUIRED:
             if not node.get(field):
                 failures.append(f"{rel}: Article missing {field}")

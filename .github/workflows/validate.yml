@@ -54,6 +54,9 @@ jobs:
       - name: Validate frontmatter
         run: python scripts/validate_frontmatter.py
 
+      - name: Validate frontmatter quote and date gate
+        run: python -m unittest scripts/test_validate_frontmatter_quotes.py
+
       - name: Validate Vercel deployment packaging
         run: python -m unittest scripts/test_vercel_deploy.py
 
