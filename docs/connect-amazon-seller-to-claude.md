@@ -3,7 +3,7 @@ title: "Connect Amazon Seller to Claude via MCP - Orders"
 description: "Connect Amazon Seller Central to Claude through CorpusIQ MCP. Ask about orders, inventory and settlements in plain English, read-only."
 category: Claude Integrations
 tags: ["connect Amazon Seller to Claude", "Amazon Seller Central Claude", "MCP Amazon connector", "Amazon data to Claude", "AI for marketplace sellers", "CorpusIQ MCP"]
-last_updated: "2026-11-03"
+last_updated: "2026-11-04"
 canonical: https://www.corpusiq.io/docs/connect-amazon-seller-to-claude
 robots: index,follow
 ---

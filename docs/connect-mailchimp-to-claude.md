@@ -3,7 +3,7 @@ title: "Connect Mailchimp to Claude via MCP - Campaign Answers"
 description: "Connect Mailchimp to Claude through CorpusIQ MCP. Ask whether the newsletter moved revenue, not just opens, read-only from your live campaign data."
 category: Claude Integrations
 tags: ["connect Mailchimp to Claude", "Mailchimp Claude integration", "MCP Mailchimp connector", "campaign performance in Claude", "email marketing analytics", "CorpusIQ MCP"]
-last_updated: "2026-11-01"
+last_updated: "2026-11-04"
 canonical: "https://www.corpusiq.io/docs/connect-mailchimp-to-claude"
 robots: "index,follow"
 ---

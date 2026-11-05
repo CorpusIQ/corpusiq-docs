@@ -3,7 +3,7 @@ title: "Connect Gmail to Claude via MCP - Live Inbox Data, No Code"
 description: "Connect Gmail to Claude through CorpusIQ MCP. Ask about inbox threads, attachments, and commitments and get source-cited answers from live email."
 category: Claude Integrations
 tags: ["connect Gmail to Claude", "Gmail Claude integration", "MCP Gmail connector", "Gmail data to Claude", "AI for Gmail", "CorpusIQ MCP"]
-last_updated: "2026-11-01"
+last_updated: "2026-11-04"
 canonical: https://www.corpusiq.io/docs/connect-gmail-to-claude
 robots: index,follow
 ---
