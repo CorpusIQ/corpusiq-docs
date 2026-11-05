@@ -1,7 +1,7 @@
 ---
 title: "Connect Perplexity to Your Business Data via MCP"
 description: "Perplexity answers questions about the world. Connect your actual business data via CorpusIQ MCP and get answers about both at once."
-last_updated: "2026-11-01"
+last_updated: "2026-11-05"
 ---
 # Connect Perplexity to Your Business Data via MCP
 
@@ -24,6 +24,14 @@ After: "What is our churn rate vs industry average and which customer segment is
 2. Connect your tools via OAuth (Shopify, QuickBooks, Google Ads, etc.)
 3. Add the CorpusIQ MCP server to Perplexity
 4. Ask questions that combine your data with world knowledge
+
+## The tool permission control you will see
+
+Perplexity keeps the control on the CorpusiQ connector entry in Settings. It follows the same pattern as the ChatGPT plugin control: you choose when Perplexity may use the connector's tools, from asking each time through to using them without asking, and a reset returns you to the default.
+
+Exact labels can read slightly differently from the ChatGPT wording, so go by the shape of the setting rather than the words.
+
+For business data questions, the read-only setting is enough. CorpusIQ retrieval is read-only, so answers come from live reads and nothing changes in your connected systems without a prompt.
 
 [Connect Perplexity to your business data free](https://www.corpusiq.io)
 ---
