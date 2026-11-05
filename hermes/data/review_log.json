@@ -21032,5 +21032,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-04T10:04:12.072322+00:00"
+  },
+  {
+    "repo": "vitofico/hermes-agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315123+00:00"
+  },
+  {
+    "repo": "ChristopherWangDEV/Hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315127+00:00"
+  },
+  {
+    "repo": "Gatanozoa/mi-gpt-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315130+00:00"
+  },
+  {
+    "repo": "galyarderlabs/notchfolk",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315132+00:00"
+  },
+  {
+    "repo": "dheiver2/tessera",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315134+00:00"
+  },
+  {
+    "repo": "Mahdi-mortazavi/angaros",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315136+00:00"
+  },
+  {
+    "repo": "Scripe-GmbH/scripe-agent",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315138+00:00"
+  },
+  {
+    "repo": "reduck-ai/reduck-hermes-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315139+00:00"
+  },
+  {
+    "repo": "lEWFkRAD/openaccountants-hermes-plugin",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315141+00:00"
+  },
+  {
+    "repo": "yu381792/superlcm",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315143+00:00"
+  },
+  {
+    "repo": "suhas-svg/hermes_anki",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315145+00:00"
+  },
+  {
+    "repo": "nicecuprani/hermes-eval",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-05T10:03:25.315146+00:00"
+  },
+  {
+    "repo": "dongsheng123132/u-hermes",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-11-05T10:03:25.315149+00:00"
   }
 ]
