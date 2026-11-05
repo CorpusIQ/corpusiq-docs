@@ -7,7 +7,7 @@ added: 2026-11-02
 source: "the mcp.so homepage card wisepim-commerce-reference created at 2026-11-02T21:25:07Z, the release package lldiegon/wisepim-commerce-mcp v1.0.0 and its README, the official registry name io.github.lldiegon/wisepim-commerce-mcp, and the vendor sources page at wisepim.com/hs-codes and wisepim.com/channel-requirements"
 relevance: ★★★
 tags: [ecommerce, hs-codes, customs, product-data, marketplaces, green-claims, eu-2024-825, compliance, offline, stdio]
-last_updated: "2026-11-02"
+last_updated: "2026-11-04"
 ---
 
 # WISEPIM Commerce Reference MCP

@@ -3,7 +3,7 @@ title: "Memory Architecture Guide for Hermes Agent"
 description: "Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall"
 category: knowledge
 tags: [hermes-agent, memory, honcho, gbrain, memcore-cloud, graphrag, persistent-memory, knowledge-management]
-last_updated: 2026-11-01
+last_updated: 2026-11-04
 canonical: "https://www.corpusiq.io/docs/hermes/knowledge/"
 robots: "index,follow"
 
@@ -91,7 +91,8 @@ peer = honcho_get_peer_context(target_peer_id="user")
 **Setup (10 minutes):**
 
 ```bash
-# Requires Bun 1.4.4+. GBrain is not on npm - install from the repo:
+# Requires Bun 1.4.0+. The npm package named "gbrain" is an unrelated GPU
+# library - install Garry Tan's brain from the repo:
 bun install -g github:garrytan/gbrain
 gbrain init --pglite --no-embedding
 # GBrain indexes your project files into pglite with 768d embeddings

@@ -1,7 +1,7 @@
 ---
 title: "MCP Spec - CorpusIQ Docs"
 description: "MCP specification notes and analysis from the CorpusIQ docs MCP hub."
-last_updated: "2026-11-01"
+last_updated: "2026-11-04"
 ---
 
 # MCP Spec

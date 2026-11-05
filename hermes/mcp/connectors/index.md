@@ -3,7 +3,7 @@ title: "CorpusIQ MCP Connectors - CorpusIQ Docs"
 description: Complete catalog of all available CorpusIQ MCP connectors for Hermes agents. Updated as connectors are added.
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/connectors/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: 2026-11-04"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -28,6 +28,8 @@ To connect a new source, run `get_connector_status` to check availability, then 
 | **Ahrefs** | Domain rating, backlinks, organic keywords, competitors, top pages | Active |
 | **Semrush** | Domain overview, organic/paid keywords, backlinks, keyword research | Active |
 | **Search Console** | Clicks, impressions, CTR, position, sitemaps, URL inspection | Active |
+| **Bing Webmaster** | Bing organic search: impressions, clicks, top queries and positions, per-URL index and crawl stats, inbound link counts | Active |
+| **CallRail** | Call tracking: accounts, companies, tracking numbers, calls with source, duration, and caller data | Active |
 | **Cross-Source Ads** | Correlate Google Ads spend with GA4 sessions, conversions, revenue | Active |
 
 ## Email & Marketing Automation
@@ -48,6 +50,8 @@ To connect a new source, run `get_connector_status` to check availability, then 
 | **HubSpot** | Contacts, deals, companies, pipelines, sales opportunities | Active |
 | **Close CRM** | Leads, opportunities (pipeline deals), activities, full-text search | Active |
 | **LeadConnector** | Contacts, opportunities, calendars, appointments, conversations, forms | Active |
+| **Salesforce** | Opportunities, leads, contacts, account 360s, tasks, pipeline and forecast questions (read-only) | Active |
+| **Axonaut** | CRM pipeline, quotations, invoices, expenses, payments, suppliers, products, contracts (French all-in-one) | Active |
 
 ## Commerce & Payments
 
@@ -58,6 +62,7 @@ To connect a new source, run `get_connector_status` to check availability, then 
 | **QuickBooks** | Profit & loss, invoices, balance sheet, AR/AP aging, payments, expenses | Active |
 | **Amazon Seller** | Orders, inventory, sales metrics, catalog items, finances | Active |
 | **eBay** | Orders, transactions, seller standards, traffic reports, funds summary | Active |
+| **SHOPLINE** | Store profile, orders, refunds, products, inventory, customers, returns, fulfillment, discount price rules | Active |
 | **GunBroker** | Listings (active/sold/unsold), orders, FFL lookup, feedback, billing | Active |
 | **Odoo** | Partners, sale orders, CRM leads, invoices, products, inventory, projects | Active |
 
@@ -70,6 +75,7 @@ To connect a new source, run `get_connector_status` to check availability, then 
 | **Airtable** | Bases, tables, records, search across structured data | Active |
 | **Monday** | Workspaces, boards, columns, items, project status tracking | Active |
 | **Calendly** | Scheduled events, event types, invitees, user availability | Active |
+| **Podium** | Locations, reviews, feedback, messaging conversations, contacts | Active |
 
 ## Email & Calendar
 
@@ -94,6 +100,13 @@ To connect a new source, run `get_connector_status` to check availability, then 
 |-----------|-----------------|--------|
 | **TikTok** | Account analytics, video performance, engagement metrics | Active |
 | **YouTube** | Channel analytics, video performance, viewer geography, transcripts | Active |
+
+## Developer & Web
+
+| Connector | What It Provides | Status |
+|-----------|-----------------|--------|
+| **GitHub** | Releases, delivery assessment, quality trends, repository metrics, evidence-checked dashboard | Active |
+| **Web Fetch** | Any public page as grounded text: title, description, and body cited to the source URL | Active |
 
 ## Databases
 
@@ -131,18 +144,19 @@ To connect a new source, run `get_connector_status` to check availability, then 
 
 | Category | Connector Count |
 |----------|:--------------:|
-| Marketing & Analytics | 9 |
+| Marketing & Analytics | 11 |
 | Email & Marketing Automation | 6 |
-| CRM & Sales | 3 |
-| Commerce & Payments | 7 |
-| Communication & Collaboration | 5 |
+| CRM & Sales | 5 |
+| Commerce & Payments | 8 |
+| Communication & Collaboration | 6 |
 | Email & Calendar | 4 |
 | File Storage | 3 |
 | Content & Social | 2 |
+| Developer & Web | 2 |
 | Databases | 4 |
 | Platform Management | 6 |
 | Knowledge & Governance | 5 |
-| **Total** | **54** |
+| **Total** | **62** |
 
 ---
 

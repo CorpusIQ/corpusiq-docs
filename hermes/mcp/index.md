@@ -3,7 +3,7 @@ title: "MCP Integration Guide for Hermes Agent"
 description: Complete Hermes Agent MCP integration guide. Connect 40+ business platforms through one CorpusIQ OAuth flow. CRM, email, analytics, advertising, databases, ecommerce, payments. Custom MCP server development and cross-source analysis.
 category: mcp
 tags: [hermes-agent, mcp, model-context-protocol, integration, corpusiq, crm, analytics, email, database, cross-source]
-last_updated: 2026-11-01
+last_updated: 2026-11-04
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/"
 robots: "index,follow"
 
@@ -32,9 +32,11 @@ hermes mcp login corpusiq
 
 ### Available Tools
 
+Tool names follow the Hermes MCP convention `mcp__<server>__<tool>`, so every CorpusIQ tool is called as `mcp__corpusiq__<name>` with an `action` plus its parameters.
+
 #### CRM & Sales
 ```
-mcp_corpusiq_crm_connector
+mcp__corpusiq__crm_connector
 ├── list_hubspot_contacts
 ├── search_hubspot_contacts
 ├── list_hubspot_deals
@@ -48,29 +50,29 @@ mcp_corpusiq_crm_connector
 
 #### Analytics & SEO
 ```
-mcp_corpusiq_ga4_connector
+mcp__corpusiq__ga4_connector
 ├── list_properties
 ├── run_report (dimensions + metrics + date ranges)
 └── get_realtime
 
-mcp_corpusiq_ahrefs_connector
+mcp__corpusiq__ahrefs_connector
 ├── get_domain_overview
 ├── get_organic_keywords
 ├── get_backlinks_overview
 └── get_competitors
 
-mcp_corpusiq_semrush_connector
+mcp__corpusiq__semrush_connector
 ├── get_domain_overview
 ├── get_organic_keywords
 ├── get_paid_keywords
 └── get_keyword_overview
 
-mcp_corpusiq_search_console_connector
+mcp__corpusiq__search_console_connector
 ├── get_sites
 ├── get_performance
 └── inspect_url
 
-mcp_corpusiq_posthog_connector
+mcp__corpusiq__posthog_connector
 ├── list_events
 ├── list_persons
 ├── run_query (HogQL)
@@ -79,18 +81,18 @@ mcp_corpusiq_posthog_connector
 
 #### Email & Marketing
 ```
-mcp_corpusiq_email_connector
+mcp__corpusiq__email_connector
 ├── list_gmail_messages
 ├── search_gmail
 └── get_gmail_message
 
-mcp_corpusiq_klaviyo_connector
+mcp__corpusiq__klaviyo_connector
 ├── get_campaigns
 ├── get_email_metrics_summary
 ├── get_flows
 └── get_campaign_revenue
 
-mcp_corpusiq_mailchimp_connector
+mcp__corpusiq__mailchimp_connector
 ├── get_campaigns
 ├── get_lists
 ├── get_campaign_report
@@ -99,19 +101,19 @@ mcp_corpusiq_mailchimp_connector
 
 #### Advertising
 ```
-mcp_corpusiq_google_ads_connector
+mcp__corpusiq__google_ads_connector
 ├── get_account_summary
 ├── list_campaigns
 ├── get_keyword_performance
 └── get_search_terms
 
-mcp_corpusiq_meta_ads_connector
+mcp__corpusiq__meta_ads_connector
 ├── get_facebook_account_insights
 ├── list_facebook_campaigns
 ├── get_facebook_campaign_insights
 └── get_instagram_account_insights
 
-mcp_corpusiq_linkedin_ads_connector
+mcp__corpusiq__linkedin_ads_connector
 ├── get_account_info
 ├── list_ad_accounts
 ├── list_campaigns
@@ -120,19 +122,19 @@ mcp_corpusiq_linkedin_ads_connector
 
 #### Ecommerce & Payments
 ```
-mcp_corpusiq_stripe_connector
+mcp__corpusiq__stripe_connector
 ├── get_account
 ├── list_charges
 ├── list_customers
 ├── list_payouts
 └── get_balance
 
-mcp_corpusiq_amazon_seller_connector
+mcp__corpusiq__amazon_seller_connector
 ├── list_amazon_orders
 ├── get_amazon_sales_metrics
 └── list_amazon_inventory
 
-mcp_corpusiq_ebay_connector
+mcp__corpusiq__ebay_connector
 ├── get_orders
 ├── get_seller_performance_overview
 └── get_traffic_report
@@ -140,7 +142,7 @@ mcp_corpusiq_ebay_connector
 
 #### Finance
 ```
-mcp_corpusiq_quickbooks_connector
+mcp__corpusiq__quickbooks_connector
 ├── get_profit_loss
 ├── list_invoices
 ├── get_balance_sheet
@@ -150,17 +152,18 @@ mcp_corpusiq_quickbooks_connector
 
 #### Social & Content
 ```
-mcp_corpusiq_tiktok_connector
+mcp__corpusiq__tiktok_connector
 ├── get_account_analytics
 ├── list_videos
 └── get_video_analytics
 
-mcp_corpusiq_youtube_connector
-├── get_my_youtube_analytics
-├── get_youtube_transcript
-└── search_youtube
+# YouTube tools are top-level, not wrapped in a connector tool
+mcp__corpusiq__get_my_youtube_analytics
+mcp__corpusiq__get_youtube_channel
+mcp__corpusiq__get_youtube_transcript
+mcp__corpusiq__search_youtube
 
-mcp_corpusiq_slack_connector
+mcp__corpusiq__slack_connector
 ├── list_channels
 ├── search_messages
 └── get_workspace_analytics
@@ -168,18 +171,18 @@ mcp_corpusiq_slack_connector
 
 #### Storage & Productivity
 ```
-mcp_corpusiq_drive_connector
+mcp__corpusiq__drive_connector
 ├── search_drive (Google Drive)
 ├── list_my_onedrive_files
 ├── search_my_dropbox
 └── read_sheet
 
-mcp_corpusiq_notion_connector
+mcp__corpusiq__notion_connector
 ├── notion_search
 ├── notion_query_database
 └── notion_get_page
 
-mcp_corpusiq_calendar_connector
+mcp__corpusiq__calendar_connector
 ├── list_my_calendar_events
 ├── list_my_outlook_events
 └── search_my_calendar
@@ -187,7 +190,7 @@ mcp_corpusiq_calendar_connector
 
 #### Database Direct
 ```
-mcp_corpusiq_database_connector
+mcp__corpusiq__database_connector
 ├── query_database (PostgreSQL/MSSQL)
 ├── list_database_tables
 ├── query_cosmos_database
@@ -206,19 +209,19 @@ The real power comes from querying across platforms in a single session:
 # "How did our Meta ads perform vs Shopify revenue this week?"
 
 # 1. Get ad spend
-meta_ads = mcp_corpusiq_meta_ads_connector(
+meta_ads = mcp__corpusiq__meta_ads_connector(
     action="get_facebook_account_insights",
     params={"start_date": "2026-06-09", "end_date": "2026-06-15"}
 )
 
 # 2. Get revenue (via cross-source connector)
-roas = mcp_corpusiq_cross_source_ads_connector(
+roas = mcp__corpusiq__cross_source_ads_connector(
     action="correlate_spend_vs_ga4_revenue",
     params={"customer_id": "...", "property_id": "..."}
 )
 
 # 3. Get email attribution
-email = mcp_corpusiq_cross_source_email_connector(
+email = mcp__corpusiq__cross_source_email_connector(
     action="get_channel_attribution_summary"
 )
 ```
@@ -229,11 +232,11 @@ email = mcp_corpusiq_cross_source_email_connector(
 # "Generate a weekly business health report"
 
 # 1. Revenue
-profit_loss = mcp_corpusiq_quickbooks_connector(action="get_profit_loss")
-stripe = mcp_corpusiq_stripe_connector(action="get_balance")
+profit_loss = mcp__corpusiq__quickbooks_connector(action="get_profit_loss")
+stripe = mcp__corpusiq__stripe_connector(action="get_balance")
 
 # 2. Traffic
-ga4 = mcp_corpusiq_ga4_connector(action="run_report", params={
+ga4 = mcp__corpusiq__ga4_connector(action="run_report", params={
     "property_id": "...",
     "dimensions": ["date"],
     "metrics": ["sessions", "activeUsers", "conversions"],
@@ -241,10 +244,10 @@ ga4 = mcp_corpusiq_ga4_connector(action="run_report", params={
 })
 
 # 3. Email
-klaviyo = mcp_corpusiq_klaviyo_connector(action="get_email_metrics_summary")
+klaviyo = mcp__corpusiq__klaviyo_connector(action="get_email_metrics_summary")
 
 # 4. SEO
-ahrefs = mcp_corpusiq_ahrefs_connector(action="get_domain_overview", params={"domain": "corpusiq.io"})
+ahrefs = mcp__corpusiq__ahrefs_connector(action="get_domain_overview", params={"domain": "corpusiq.io"})
 ```
 
 ---
@@ -305,11 +308,11 @@ A third-party MCP server receives your credential and writes text your model tre
 
 We run three daily monitors to discover new MCP servers:
 
-| Monitor | Sources | Schedule |
+| Monitor | Sources | Schedule (America/Phoenix) |
 |---------|---------|----------|
-| mcp-server-monitor | mcp.so, mcpservers.org | 3 AM, 11 AM, 7 PM |
+| mcp-server-monitor | mcp.so, mcpservers.org | 3 AM, 11 AM, 9 PM |
 | hermes-release-monitor | GitHub releases | 2 AM, 10 AM, 6 PM |
-| skills-monitor | skills.sh | 4 AM, 12 PM, 8 PM |
+| skills-monitor | skills.sh | 4 AM, 10 PM |
 
 New discoveries are reported to the ops email digest for evaluation.
 
