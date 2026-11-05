@@ -60,6 +60,13 @@ jobs:
       - name: Validate Vercel deployment packaging
         run: python -m unittest scripts/test_vercel_deploy.py
 
+      # A redirect is evaluated before the filesystem, so a redirect whose
+      # source matches a real page hides that page, and one whose destination
+      # has no page 404s the reader. Both happened on 2026-11-04 (the Klaviyo
+      # ChatGPT page was dead on docs.corpusiq.io while 200 on the www proxy).
+      - name: Validate redirect map does not shadow or strand pages
+        run: python -m unittest scripts/test_redirect_shadow.py
+
       - name: Validate no-slash normalize gate
         run: python -m unittest scripts/test_normalize_site_no_slash.py
 
