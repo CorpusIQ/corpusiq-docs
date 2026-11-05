@@ -1054,7 +1054,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp-ecosystem</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/agents</loc>
@@ -1690,7 +1690,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/knowledge</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/knowledge/session-handoff</loc>
@@ -1698,7 +1698,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/actualyze-discovery</loc>
@@ -1746,7 +1746,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/connectors</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/connectors/database</loc>
@@ -6614,7 +6614,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/wisepim-commerce-reference-mcp</loc>
-         <lastmod>2026-11-02</lastmod>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/wiswes-magento-mcp</loc>
@@ -6742,7 +6742,11 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/spec</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-04</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/spec/batch-tool-execution-latency</loc>
+         <lastmod>2026-11-04</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration</loc>
