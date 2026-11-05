@@ -1,7 +1,7 @@
 ---
 title: "MCP Ecosystem Sweeps - CorpusIQ Docs"
 description: "Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential."
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]

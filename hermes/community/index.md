@@ -1,7 +1,7 @@
 ---
 title: "Community - CorpusIQ Docs"
-description: "Community resources, badges, and share cards for the Hermes ecosystem. Resources Agent cards, contribution guides."
-last_updated: 2026-11-01
+description: "Community resources for the Hermes ecosystem: a README badge for your project and a share card template for social posts."
+last_updated: 2026-11-05
 canonical: "https://www.corpusiq.io/docs/hermes/community/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Community
 
-Resources for the Hermes Agent community - badges, share cards, and contribution guides.
+Resources for the Hermes Agent community - a README badge and a share card template.
 
 ## Contents
 
