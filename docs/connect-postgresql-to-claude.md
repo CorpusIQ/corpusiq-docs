@@ -3,7 +3,7 @@ title: "Connect PostgreSQL to Claude via MCP - Live Database Answers"
 description: "Connect a PostgreSQL database to Claude through CorpusIQ MCP. Ask about orders, customers and revenue in plain language and get answers with the tables named."
 category: Claude Integrations
 tags: ["connect PostgreSQL to Claude", "Postgres Claude integration", "MCP database connector", "SQL data to Claude", "ask Claude about a database", "CorpusIQ MCP"]
-last_updated: "2026-11-01"
+last_updated: "2026-11-04"
 canonical: "https://www.corpusiq.io/docs/connect-postgresql-to-claude"
 robots: "index,follow"
 ---

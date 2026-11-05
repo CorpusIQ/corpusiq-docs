@@ -3,7 +3,7 @@ title: "Connect YouTube to Claude via MCP - Channel Analytics"
 description: "Connect YouTube to Claude through CorpusIQ MCP. Ask which videos earned watch time, where viewers came from and what comments ask, read-only."
 category: Claude Integrations
 tags: ["connect YouTube to Claude", "YouTube MCP", "YouTube Claude integration", "YouTube analytics in Claude", "channel analytics questions", "CorpusIQ MCP"]
-last_updated: "2026-11-03"
+last_updated: "2026-11-04"
 canonical: https://www.corpusiq.io/docs/connect-youtube-to-claude
 robots: index,follow
 ---

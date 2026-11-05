@@ -3,7 +3,7 @@ title: "Connect Asana to Claude via MCP - Tasks and Milestones"
 description: "Connect Asana to Claude through CorpusIQ MCP. Ask which tasks are overdue, what is blocked and who owns what, with cited read-only answers."
 category: Claude Integrations
 tags: ["connect Asana to Claude", "Asana Claude integration", "MCP Asana connector", "Asana data to Claude", "AI for Asana", "CorpusIQ MCP"]
-last_updated: "2026-11-03"
+last_updated: "2026-11-04"
 canonical: https://www.corpusiq.io/docs/connect-asana-to-claude
 robots: index,follow
 ---

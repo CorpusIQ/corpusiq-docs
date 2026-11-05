@@ -3,7 +3,7 @@ title: "Connect CallRail to Claude via MCP - Call Attribution"
 description: "Connect CallRail to Claude through CorpusIQ MCP. Ask which campaigns produced calls, how long they lasted and where callers came from, read-only."
 category: Claude Integrations
 tags: ["connect CallRail to Claude", "CallRail Claude integration", "call attribution in Claude", "MCP CallRail connector", "phone lead analytics", "CorpusIQ MCP"]
-last_updated: "2026-11-03"
+last_updated: "2026-11-04"
 canonical: https://www.corpusiq.io/docs/connect-callrail-to-claude
 robots: index,follow
 ---

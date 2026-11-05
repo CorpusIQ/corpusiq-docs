@@ -3,7 +3,7 @@ title: "Connect Jira to Claude via MCP - Sprints, No JQL"
 description: "Connect Jira to Claude through CorpusIQ MCP. Ask about sprints, blockers and velocity in plain English and get cited answers, read-only."
 category: Claude Integrations
 tags: ["connect Jira to Claude", "Jira Claude integration", "MCP Jira connector", "Jira data to Claude", "AI for Jira", "CorpusIQ MCP"]
-last_updated: "2026-11-03"
+last_updated: "2026-11-04"
 canonical: https://www.corpusiq.io/docs/connect-jira-to-claude
 robots: index,follow
 ---
