@@ -92,6 +92,11 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Airtable to Perplexity](connect-airtable-to-perplexity.md)** - roadmaps, hiring pipelines and operating trackers
 - **[Connect Klaviyo to Perplexity](connect-klaviyo-to-perplexity.md)** - what email and SMS actually earned
 - **[Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md)** - domain ratings, ranking keywords and referring domains
+- **[Connect ActiveCampaign to Perplexity](connect-activecampaign-to-perplexity.md)** - campaign performance, automation health and pipeline age
+- **[Connect Dropbox to Perplexity](connect-dropbox-to-perplexity.md)** - contracts, board decks and invoices read from your folders
+- **[Connect Odoo to Perplexity](connect-odoo-to-perplexity.md)** - quotations, invoices, stock and pipeline across ERP modules
+- **[Connect Semrush to Perplexity](connect-semrush-to-perplexity.md)** - competitor keywords, backlinks and demand sizing
+- **[Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md)** - per-video performance and channel trend
 
 ## Internal Links
 

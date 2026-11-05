@@ -82,7 +82,7 @@ Two agents at 100 and two audit probes at 13.8 and 11.1 on the same exam is the 
 
 ## Where it sits in this catalogue
 
-The neighbours here are payments and reachability, not verification. [Agentcard](/hermes/mcp/servers/external/agentcard-mcp/) issues prepaid virtual cards with spend caps and human approval, which is the instrument that spends; [FiatDock](/hermes/mcp/servers/external/fiatdock-mcp/), CoinVello, SnapEX Pay and Spectra carry agent payments and wallets; ARC and Agent Outposts measure whether an agent can transact at a merchant at all. **None of them reads the customer's instruction and returns a sealed verdict about the cart**, and that is the gap this entry fills: the difference between a payment that was authorised and an order that was correct.
+The neighbours here are payments and reachability, not verification. [Agentcard](/hermes/mcp/servers/external/agentcard-mcp) issues prepaid virtual cards with spend caps and human approval, which is the instrument that spends; [FiatDock](/hermes/mcp/servers/external/fiatdock-mcp/), CoinVello, SnapEX Pay and Spectra carry agent payments and wallets; ARC and Agent Outposts measure whether an agent can transact at a merchant at all. **None of them reads the customer's instruction and returns a sealed verdict about the cart**, and that is the gap this entry fills: the difference between a payment that was authorised and an order that was correct.
 
 ## FAQ
 

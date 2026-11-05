@@ -6159,6 +6159,164 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect ActiveCampaign to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-activecampaign-to-perplexity
+
+
+# How to Connect ActiveCampaign to Perplexity with CorpusIQ MCP
+
+ActiveCampaign holds the moving part of a sales and marketing motion. Contacts, lists, tags, campaigns, automations, and the deals sitting in your pipeline.
+
+Most teams can see one of those at a time. The campaign report lives in one screen, the automation list in another, the deals in a third, and the question you actually have spans all three.
+
+Connecting ActiveCampaign through CorpusIQ MCP makes that question answerable inside a Perplexity thread, read-only.
+
+### Why Connect ActiveCampaign to Perplexity?
+
+- **Campaign performance.** "How did last month's newsletter perform, by opens, clicks and unsubscribes?"
+- **Automation weight.** "Which automations have the most active contacts right now?"
+- **Pipeline age.** "Show me deals that have been open longer than 30 days."
+- **List shape.** "How big is each list, and which tags are used most?"
+- **Contact lookup.** "Find every contact tagged 'webinar-april'."
+- **Cross-source truth.** "Compare email-attributed revenue against Shopify totals for the same period."
+- **Read-only by scope.** The API key is read access. It cannot send mail, edit a contact, or change an automation.
+
+### How It Works
+
+1. **Connect ActiveCampaign to CorpusIQ** with your account API URL and API key.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** contacts, lists, tags, campaigns, automations, deals, and account details as the question requires.
+4. **Perplexity answers** from those results and names the period it measured.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In ActiveCampaign**
+
+1. Sign in and go to **Settings**, then **Developer**.
+2. Copy your **API URL** and your **API key**.
+
+**In CorpusIQ**
+
+3. Open your dashboard, find **ActiveCampaign**, and click **Connect**.
+4. Paste the API URL and the API key, then save.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a campaign question.
+
+The API URL is your full account URL, in the form `https://youraccount.api-us1.com`. A dashboard URL pasted into that field is the most common reason a connection refuses to save.
+
+### Example Perplexity Questions
+
+**Campaign performance**
+
+- "How did my last campaign perform on opens, clicks and unsubscribes?"
+- "Which three campaigns had the best click rate this quarter?"
+- "How many contacts did we unsubscribe last month, and from which list?"
+
+**Automations**
+
+- "Which automations have the most active contacts right now?"
+- "List every automation and the list it is attached to."
+- "Which automation has not changed in the longest time?"
+
+**Pipeline**
+
+- "Show me deals open longer than 30 days, with their values."
+- "How many deals moved stage this month?"
+- "What is the total value of deals in each stage?"
+
+**Lists and contacts**
+
+- "How big is each list, and how many are engaged?"
+- "Find every contact tagged 'webinar-april'."
+- "Which tags are applied most often across the account?"
+
+**Cross-source**
+
+- "Compare email-attributed revenue against Shopify totals for last month." (requires the Shopify connector)
+- "Which contacts in ActiveCampaign also exist as customers in Stripe?" (requires the Stripe connector)
+
+### Security
+
+- **Read access only.** The API key reads the objects listed above. There is no path from Perplexity that sends mail, edits a contact, or changes an automation.
+- **Revocable at any time.** Regenerate or delete the key in ActiveCampaign and the connection ends immediately.
+- **Account-scoped.** Access follows the key and the API URL. An ActiveCampaign account you have not connected stays out of reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between ActiveCampaign, CorpusIQ, and Perplexity.
+
+### Comparison: ActiveCampaign Screens vs ActiveCampaign in Perplexity
+
+| Aspect | ActiveCampaign reporting | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Pick a report and configure it | A question about performance |
+| Output | Metrics you then interpret | An answer with the period named |
+| Cross-object | Switch between contacts, campaigns and deals | Asked in one question |
+| Cross-source | Export to a spreadsheet | Asked across connectors |
+| Ad-hoc questions | New report or an export | Just ask |
+| Write access | Full, by you | None, read access only |
+
+The screens are built for recurring views. The connector is for the question that arrives once.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity send an email or change an automation?</strong></summary>
+
+No. The key carries read access and the connector has no send or write tool. Campaigns, automations, contacts, and deals are read-only.
+</details>
+
+<details>
+<summary><strong>Why does the connection refuse my API key?</strong></summary>
+
+Two fields have to be right. The key itself is under Settings, Developer, and the API URL must be the full account URL in the form `https://youraccount.api-us1.com`, not the dashboard address you use in a browser.
+</details>
+
+<details>
+<summary><strong>Why is a campaign list empty?</strong></summary>
+
+The API user behind the key may not have permission for the campaign view. Switch to an admin-level key and reconnect.
+</details>
+
+<details>
+<summary><strong>Can it tell me which automation is actually working?</strong></summary>
+
+It can tell you what the account records: how many contacts sit in each automation and how they move. Revenue attribution depends on whether you have revenue tracking configured in ActiveCampaign, so ask both the automation question and the revenue question when you need the second one.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. ActiveCampaign is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the ActiveCampaign data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect ActiveCampaign to Perplexity now](https://corpusiq.io/connect/activecampaign-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Ahrefs to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-ahrefs-to-perplexity
 
@@ -7653,6 +7811,153 @@ Because every read is account-scoped. Naming the account is how you can tell whi
 **Next steps:** [Connect CallRail to Claude now](https://www.corpusiq.io/connectors)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Dropbox to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-dropbox-to-perplexity
+
+
+# How to Connect Dropbox to Perplexity with CorpusIQ MCP
+
+A lot of operating context never reaches a database. Contracts, past board updates, vendor invoices, design files, the renewal letter a supplier sent in March.
+
+It lives in Dropbox folders, in files with names only the person who saved them understands.
+
+Connecting Dropbox through CorpusIQ MCP lets a Perplexity thread search and read those files, read-only, beside the live numbers from your other connectors.
+
+### Why Connect Dropbox to Perplexity?
+
+- **Document lookup.** "Find the file in Dropbox that mentions the Q3 board deck."
+- **Clause reading.** "Read the latest agency contract and tell me the termination notice period."
+- **Folder inventory.** "What is in the Contracts folder, newest first?"
+- **Recency.** "Which Dropbox files did we touch in the last week?"
+- **Storage.** "How much Dropbox storage are we using, and what is the quota?"
+- **Cross-source truth.** "Does the renewal date in the vendor contract match the next invoice date in QuickBooks?"
+- **Read-only by scope.** The connection can search and read. It cannot upload, edit, move, or delete a file.
+
+### How It Works
+
+1. **Connect Dropbox to CorpusIQ** through the Dropbox consent screen.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ searches and reads** folders, file listings, recently modified files, and the text inside Word, Excel, PowerPoint, PDF, and plain text files as the question requires.
+4. **Perplexity answers** from those files and names what it read.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard, find **Dropbox**, and click **Connect**.
+2. Sign in to Dropbox when the consent screen appears and approve read access. You are returned to CorpusIQ with the connector green.
+
+**In Perplexity**
+
+3. Open **Settings** and find the **MCP servers** section.
+4. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+5. Connect and approve the CorpusIQ authorization page once.
+6. Start a new thread and ask a document question.
+
+Dropbox search runs against Dropbox's own index, which can lag for very recent uploads. Name the folder when you know it, because a folder question returns faster and more completely than a whole-account search.
+
+### Example Perplexity Questions
+
+**Finding a document**
+
+- "Find my Dropbox file mentioning 'Q3 board deck'."
+- "What is in the Contracts folder, newest first?"
+- "Show me Dropbox files I have touched in the last week."
+
+**Reading a document**
+
+- "Read the latest agency contract from Dropbox and summarise the payment terms."
+- "Which of our vendor agreements auto-renew this quarter?"
+- "Pull the invoice totals out of the PDFs in the Invoices folder."
+
+**Folder and account state**
+
+- "How much Dropbox storage am I using?"
+- "Which folders hold the most files?"
+- "List the shared folders and who they are shared with."
+
+**Cross-source**
+
+- "Does the renewal date in the vendor contract match the next invoice date in QuickBooks?" (requires the QuickBooks connector)
+- "Which Dropbox contracts have no matching deal in the CRM?" (requires the CRM connector)
+
+### Security
+
+- **Search and read only.** The connection reads listings and file contents. There is no path from Perplexity that uploads, edits, moves, or deletes a file.
+- **Revocable at any time.** Disconnect in CorpusIQ or revoke the app in Dropbox and the connection ends immediately.
+- **Account-scoped.** Access follows the Dropbox account you authorised. A folder you cannot open yourself stays out of reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Dropbox, CorpusIQ, and Perplexity.
+
+### Comparison: Dropbox Search vs Dropbox in Perplexity
+
+| Aspect | Dropbox search | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A filename or a keyword | A question about the content |
+| Output | A list of files to open | An answer quoting what the files say |
+| Across folders | One search at a time | Asked as one question |
+| Cross-source | Copy the figure by hand | Asked across connectors |
+| Summarising | Read each file yourself | Asked directly |
+| Write access | Full, by you | None, read only |
+
+Search tells you where a file is. The connector tells you what it says and how it compares to the numbers elsewhere.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity upload or delete a Dropbox file?</strong></summary>
+
+No. The connection carries read access and the connector has no write tool. Files, folders, and sharing settings are untouched.
+</details>
+
+<details>
+<summary><strong>Why can I not find a file I just uploaded?</strong></summary>
+
+Dropbox search uses Dropbox's index, which can lag for very recent uploads. Wait a few minutes, or ask for the folder listing instead of a content search.
+</details>
+
+<details>
+<summary><strong>A PDF reads blank. Why?</strong></summary>
+
+Image-only PDFs need OCR to yield text, and this connection reads embedded text. Ask for a text-based export or paste the clause you need.
+</details>
+
+<details>
+<summary><strong>Can it read Excel files and not just documents?</strong></summary>
+
+Yes. Word, Excel, PowerPoint, PDF, and plain text files all yield their text.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Dropbox is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Dropbox data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Dropbox to Perplexity now](https://corpusiq.io/connect/dropbox-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -12217,6 +12522,171 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Odoo to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-odoo-to-perplexity
+
+
+# How to Connect Odoo to Perplexity with CorpusIQ MCP
+
+Odoo holds the operating record of the business. Orders, quotations, invoices, inventory, projects, and the people doing the work.
+
+It also holds them behind twenty screens arranged by module, which is why most Odoo questions get answered by an export.
+
+Connecting Odoo through CorpusIQ MCP makes a question that spans modules answerable in one Perplexity thread, read-only.
+
+### Why Connect Odoo to Perplexity?
+
+- **Open quotations.** "What is the total value of quotations still awaiting a decision, by salesperson?"
+- **Invoice exposure.** "Which customer invoices are overdue, and by how many days?"
+- **Pipeline by stage.** "How many opportunities sit in negotiation, and what are they worth?"
+- **Stock position.** "What is on hand for a SKU across every warehouse?"
+- **Project load.** "List active projects with their open task counts."
+- **Cross-source truth.** "Do the sales orders in Odoo match the revenue recorded in QuickBooks for last quarter?"
+- **Read-only by scope.** The connection reads records. It cannot confirm an order, post an invoice, or move stock.
+
+### How It Works
+
+1. **Connect Odoo to CorpusIQ** with your instance URL, database name, login, and API key.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** partners, sale orders, quotations, CRM leads, invoices, products, stock, journals, payments, taxes, employees, and projects as the question requires.
+4. **Perplexity answers** from those records and names the period it measured.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In Odoo**
+
+1. Generate an API key for the user CorpusIQ will read as: **Preferences**, then **Account Security**, then new API key.
+2. Confirm that user has read access to the modules you want queried.
+3. Note your instance URL, in the form `https://yourcompany.odoo.com`, and the exact database name shown on the login screen.
+
+**In CorpusIQ**
+
+4. Open your dashboard, find **Odoo**, and click **Connect**.
+5. Enter the URL, database name, login, and API key, then save. CorpusIQ verifies the connection.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread and ask a question that crosses modules.
+
+Two fields cause almost every failure. The database name must match what Odoo shows on the login screen exactly, and the API key must belong to a user who can already see the records you are asking about.
+
+### Example Perplexity Questions
+
+**Sales and quotations**
+
+- "What is the value of open quotations right now?"
+- "Which quotations have waited more than fourteen days for an answer?"
+- "Compare this month's confirmed orders against the same month last year."
+
+**Invoices and cash**
+
+- "Show me overdue customer invoices with ageing."
+- "What did we invoice in total last quarter, split by currency?"
+- "Which vendor bills are due in the next two weeks?"
+
+**Inventory and operations**
+
+- "What is on hand for this SKU across all warehouses?"
+- "Which products are below their reorder point?"
+- "List this month's stock transfers by warehouse."
+
+**Pipeline and projects**
+
+- "How many opportunities are in the negotiation stage?"
+- "List active projects and their task counts."
+- "Which project has the most overdue tasks?"
+
+**Cross-source**
+
+- "Do the confirmed sales orders in Odoo match revenue in QuickBooks for last quarter?" (requires the QuickBooks connector)
+- "Which Odoo customers have no record in the CRM?" (requires the CRM connector)
+
+### Security
+
+- **Read access only.** The API key reads records. There is no path from Perplexity that confirms an order, posts an invoice, moves stock, or edits a partner.
+- **Revocable at any time.** Delete the key in Odoo and the connection ends immediately.
+- **Permission-scoped.** Access is limited by the Odoo user's own rights. A module that user cannot open stays out of reach.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Odoo, CorpusIQ, and Perplexity.
+
+### Comparison: Odoo Screens vs Odoo in Perplexity
+
+| Aspect | Odoo interface | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Navigate to the right module first | A question that spans modules |
+| Output | A filtered list you read | An answer with the period named |
+| Across modules | Open several screens | Asked in one question |
+| Cross-source | Export to a spreadsheet | Asked across connectors |
+| Ad-hoc questions | Build a filter or an export | Just ask |
+| Write access | Full, by you | None, read only |
+
+The screens are built for transactions. The connector is for the question that arrives between them.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity confirm an order or post an invoice in Odoo?</strong></summary>
+
+No. The connection carries read access and the connector has no write tool. Orders, invoices, stock, and partners are untouched.
+</details>
+
+<details>
+<summary><strong>Why does authentication fail?</strong></summary>
+
+Generate a fresh API key in Odoo under Preferences, Account Security, and reconnect. An expired or revoked key fails the same way a wrong one does.
+</details>
+
+<details>
+<summary><strong>Why does it say the database was not found?</strong></summary>
+
+The database name must match exactly what Odoo shows on the login screen, including any suffix. A near match is a different database.
+</details>
+
+<details>
+<summary><strong>Why is a module empty in the answers?</strong></summary>
+
+The connected Odoo user lacks access rights to that module's records. Grant read access to that user, or connect with a user who already has it.
+</details>
+
+<details>
+<summary><strong>Does this work with a self-hosted Odoo?</strong></summary>
+
+Yes. Odoo Online, Odoo.sh, and self-hosted instances all connect the same way, provided the instance is reachable over HTTPS from CorpusIQ.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Odoo is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Odoo data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Odoo to Perplexity now](https://corpusiq.io/connect/odoo-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect Outlook to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-outlook-to-chatgpt
 
@@ -13689,6 +14159,165 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Semrush to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-semrush-to-perplexity
+
+
+# How to Connect Semrush to Perplexity with CorpusIQ MCP
+
+Semrush answers questions about search that no other surface in the business can answer. Which keywords a competitor holds, who links to them, what a term costs to bid on, and which pages are losing ground month by month.
+
+The interface is built around choosing a report first. Most real questions start somewhere else, with a domain and a suspicion.
+
+Connecting Semrush through CorpusIQ MCP puts that data in a Perplexity thread where the question comes first, read-only.
+
+### Why Connect Semrush to Perplexity?
+
+- **Competitor keywords.** "What organic keywords does competitor.com rank for that we do not?"
+- **Own position.** "Show me my domain's organic and paid traffic trend for the last six months."
+- **Backlinks.** "How does our referring domain count compare to competitor.com?"
+- **Demand sizing.** "What is the search volume and CPC for a term we are considering?"
+- **Competitive set.** "Who are our top organic competitors, and how far ahead are they?"
+- **History.** "Which of our pages lost the most organic traffic between these two snapshots?"
+- **Read-only by scope.** The API key reads report data. It cannot change a project, a campaign, or a listing.
+
+### How It Works
+
+1. **Connect Semrush to CorpusIQ** with an API key from an account whose plan includes API access.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** domain overview, organic and paid keywords, the organic competitor list, backlink overview, keyword research, and domain history as the question requires.
+4. **Perplexity answers** from those reports and names the domain and period it measured.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In Semrush**
+
+1. Open your profile and go to **Subscription info**, then **API units**.
+2. Copy the API key. API access requires the Business plan or higher.
+
+**In CorpusIQ**
+
+3. Open your dashboard, find **Semrush**, and click **Connect**.
+4. Paste the API key and save.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a competitor question.
+
+Semrush bills each report in API units. A narrow question, one domain and one metric family, costs less than a broad one and usually answers more precisely.
+
+### Example Perplexity Questions
+
+**Competitor keywords**
+
+- "What organic keywords does competitor.com rank for that we do not?"
+- "Which competitor pages rank in the top three for our head terms?"
+- "Show me the paid keywords competitor.com bids on."
+
+**Own organic position**
+
+- "Show me my domain's SEO overview for the last six months."
+- "Which of my pages lost the most organic traffic between these snapshots?"
+- "What is our estimated organic traffic split by country?"
+
+**Backlinks**
+
+- "How does our referring domain count compare to competitor.com?"
+- "Which sites link to both domains?"
+- "Has our authority score moved in the last quarter?"
+
+**Demand and planning**
+
+- "What is the search volume, CPC and difficulty for a term we are considering?"
+- "Which related terms have volume above a threshold and difficulty below one?"
+- "How seasonal is this term across twelve months?"
+
+**Cross-source**
+
+- "Does the organic traffic in Semrush match the sessions Search Console reports for last quarter?" (requires the Google Search Console connector)
+- "Which Semrush keyword gaps map to pages our sitemap already covers?" (requires a sitemap read)
+
+### Security
+
+- **Read access only.** The key reads report data. There is no path from Perplexity that edits a project, a campaign, or a listing.
+- **Revocable at any time.** Regenerate the key in Semrush and the connection ends immediately.
+- **Account-scoped.** Access follows the key. A Semrush account you have not connected stays out of reach.
+- **Unit budget stays yours.** CorpusIQ only spends units on the queries you ask for. There is no background crawl.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Semrush, CorpusIQ, and Perplexity.
+
+### Comparison: Semrush Reports vs Semrush in Perplexity
+
+| Aspect | Semrush reports | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Choose a report and a domain | A question about a domain |
+| Output | Tables you then interpret | An answer with the domain named |
+| Across domains | One report per domain | Asked as a comparison |
+| Cross-source | Export and reconcile by hand | Asked across connectors |
+| Ad-hoc questions | Build a new report | Just ask |
+| Write access | Full, by you | None, read only |
+
+Reports are built for tracking a plan. The connector is for the question that starts with a suspicion.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Why does Semrush say the API key is invalid?</strong></summary>
+
+API access requires the Business plan or higher, and the account must have API units left. Both conditions fail with the same message.
+</details>
+
+<details>
+<summary><strong>Will asking questions burn my API units?</strong></summary>
+
+Yes, each report costs units. Ask narrow questions: one domain, one metric family, one period. That is cheaper and more precise than a broad sweep.
+</details>
+
+<details>
+<summary><strong>Why is there no data for a domain?</strong></summary>
+
+Semrush data lags reality, and very new domains may not be indexed yet. Check the domain in the Semrush interface before assuming a connection problem.
+</details>
+
+<details>
+<summary><strong>Can it change anything in Semrush?</strong></summary>
+
+No. The key reads report data and the connector has no write tool. Projects, campaigns, and listings are untouched.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Semrush is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the Semrush data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Semrush to Perplexity now](https://corpusiq.io/connect/semrush-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
 # How to Connect SharePoint to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-sharepoint-to-chatgpt
 
@@ -14815,6 +15444,159 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 **Next steps:** [Connect Stripe to Claude now →](https://corpusiq.io/connect/stripe)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect TikTok to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-tiktok-to-perplexity
+
+
+# How to Connect TikTok to Perplexity with CorpusIQ MCP
+
+TikTok reports views, likes, comments, and shares per video, one video at a time. What it will not do is tell you which of the last forty actually carried the account.
+
+That answer needs the whole set side by side, and usually a comparison against the other channels you are funding.
+
+Connecting TikTok through CorpusIQ MCP makes those questions answerable inside a Perplexity thread, read-only.
+
+### Why Connect TikTok to Perplexity?
+
+- **Top performers.** "What are my ten TikTok videos by views this quarter?"
+- **Engagement quality.** "Which videos drove the most engagement per view?"
+- **Trend.** "Is follower growth accelerating or flattening month over month?"
+- **Per-video detail.** "How did the video published last Tuesday perform against my median?"
+- **Channel comparison.** "How does TikTok engagement compare to the same clip on Instagram?"
+- **Cross-source truth.** "Which TikTok videos produced sessions in GA4, and how many converted?"
+- **Read-only by scope.** The connection reads profile and video analytics. It cannot post, delete, comment, or follow.
+
+### How It Works
+
+1. **Connect TikTok to CorpusIQ** through the TikTok consent screen with the analytics scopes.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ queries** the profile, the posted video list with per-video metrics, and the aggregate analytics across the account as the question requires.
+4. **Perplexity answers** from those records and names the period it measured.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard, find **TikTok**, and click **Connect**.
+2. Sign in to TikTok if you are not already, review the requested scopes (profile, video list, video analytics), and click **Authorize**.
+
+**In Perplexity**
+
+3. Open **Settings** and find the **MCP servers** section.
+4. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+5. Connect and approve the CorpusIQ authorization page once.
+6. Start a new thread and ask a video question.
+
+TikTok requires every requested scope to be approved. A partial approval fails the connection, and the fix is to reconnect and accept the full set.
+
+### Example Perplexity Questions
+
+**Per-video performance**
+
+- "What are my top ten TikTok videos by views this quarter?"
+- "Which videos drove the most engagement per view?"
+- "How did last Tuesday's video perform against my median?"
+
+**Account health**
+
+- "Show my follower count, total video count, and verified status."
+- "How many likes did the account collect this month?"
+- "Is follower growth accelerating or flattening over the last six months?"
+
+**Content patterns**
+
+- "Do my videos with a question in the first line outperform the others?"
+- "Which posting window gets the most views per video?"
+- "Which videos have the highest comment-to-view ratio?"
+
+**Cross-source**
+
+- "How does TikTok engagement compare to the same clip on Instagram?" (requires the Instagram connector)
+- "Which TikTok videos produced sessions in GA4, and how many converted?" (requires the GA4 connector)
+
+### Security
+
+- **Read access only.** The connection reads the profile and video analytics. There is no path from Perplexity that posts, deletes, comments, or follows.
+- **Revocable at any time.** Disconnect in CorpusIQ or revoke the app in TikTok and the connection ends immediately.
+- **Account-scoped.** Access follows the TikTok account you authorised. A different account stays out of reach, and the fix for a wrong account is to disconnect, switch, and reconnect.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between TikTok, CorpusIQ, and Perplexity.
+
+### Comparison: TikTok Analytics vs TikTok in Perplexity
+
+| Aspect | TikTok analytics | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | Open a video or a summary tab | A question about the set |
+| Output | Per-video numbers you compare by eye | An answer ranked and dated |
+| Across videos | One at a time | The whole set at once |
+| Cross-channel | Screenshot and compare | Asked across connectors |
+| Ad-hoc questions | Manual counting | Just ask |
+| Write access | Full, by you | None, read only |
+
+The native view is built for watching a video. The connector is built for judging the account.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity post to TikTok or comment on videos?</strong></summary>
+
+No. The connection carries analytics scopes and the connector has no posting or commenting tool.
+</details>
+
+<details>
+<summary><strong>Why did authorization fail?</strong></summary>
+
+TikTok requires all requested scopes to be approved. Reconnect and accept each permission on the consent screen rather than deselecting any.
+</details>
+
+<details>
+<summary><strong>A video I just posted is missing. Why?</strong></summary>
+
+Newly posted videos take a few hours to appear in TikTok's API. Ask again later rather than reconnecting.
+</details>
+
+<details>
+<summary><strong>It connected the wrong account. How do I fix that?</strong></summary>
+
+Disconnect TikTok in your CorpusIQ dashboard, switch to the right account in the TikTok web app, then reconnect.
+</details>
+
+<details>
+<summary><strong>Can it show revenue or TikTok Shop figures?</strong></summary>
+
+The connector reads profile and video analytics: views, likes, comments, shares, follower counts, and per-video detail. Shop and ad revenue sit in TikTok's separate surfaces and are not part of this connection.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. TikTok is exposed to ChatGPT, Claude, and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the TikTok data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect TikTok to Perplexity now](https://corpusiq.io/connect/tiktok-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -23597,6 +24379,11 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Airtable to Perplexity](connect-airtable-to-perplexity.md)** - roadmaps, hiring pipelines and operating trackers
 - **[Connect Klaviyo to Perplexity](connect-klaviyo-to-perplexity.md)** - what email and SMS actually earned
 - **[Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md)** - domain ratings, ranking keywords and referring domains
+- **[Connect ActiveCampaign to Perplexity](connect-activecampaign-to-perplexity.md)** - campaign performance, automation health and pipeline age
+- **[Connect Dropbox to Perplexity](connect-dropbox-to-perplexity.md)** - contracts, board decks and invoices read from your folders
+- **[Connect Odoo to Perplexity](connect-odoo-to-perplexity.md)** - quotations, invoices, stock and pipeline across ERP modules
+- **[Connect Semrush to Perplexity](connect-semrush-to-perplexity.md)** - competitor keywords, backlinks and demand sizing
+- **[Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md)** - per-video performance and channel trend
 
 ## Internal Links
 
@@ -28062,6 +28849,10 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 - **"Invalid API key"** - Regenerate the key in ActiveCampaign (Settings → Developer) and paste the new value.
 - **API URL wrong** - It must be your full account URL like `https://youraccount.api-us1.com`, not the dashboard URL.
 - **Empty campaign list** - Your API user may not have permission for the campaign view; switch to an admin-level key.
+
+## See also
+
+- [Connect ActiveCampaign to Perplexity](../connect-activecampaign-to-perplexity.md) - campaign, automation and pipeline questions inside a Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -29146,6 +29937,10 @@ CorpusIQ never uploads, edits, deletes, or moves files.
 - **"Token expired"** - Disconnect and reconnect from Dashboard → Connectors.
 - **Can't find a file** - Search uses Dropbox's index, which can lag for very recent uploads. Wait a few minutes and try again.
 - **PDF reads blank** - Image-only PDFs need OCR; CorpusIQ only reads embedded text.
+
+## See also
+
+- [Connect Dropbox to Perplexity](../connect-dropbox-to-perplexity.md) - contracts, decks and invoices read from your folders inside a Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -30656,6 +31451,10 @@ Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
 - "Authentication failed" - generate a fresh API key in Odoo (Preferences → Account Security) and retry.
 - "Database not found" - check that the database name exactly matches what Odoo shows on the login screen.
 - A module looks empty - confirm the connected user has access rights to that module's records.
+
+## See also
+
+- [Connect Odoo to Perplexity](../connect-odoo-to-perplexity.md) - quotations, invoices, stock and pipeline across ERP modules in one Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -31157,6 +31956,10 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 - "API key invalid" - confirm your Semrush plan includes API access (Business or higher) and that you have remaining API units.
 - "No data for domain" - Semrush data lags reality; very new domains may not be indexed yet.
 - High API unit consumption - each query costs units. Ask narrower questions to control spend.
+
+## See also
+
+- [Connect Semrush to Perplexity](../connect-semrush-to-perplexity.md) - competitor keywords, backlinks and demand sizing inside a Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -31543,6 +32346,10 @@ Read-only. CorpusIQ never posts, deletes, comments, or follows.
 - "Authorization denied" - TikTok requires accepting all scopes. Reconnect and approve each requested permission.
 - Video list empty - newly posted videos take a few hours to appear in TikTok's API.
 - Wrong account connected - disconnect TikTok in your dashboard, switch accounts in TikTok's web app, and reconnect.
+
+## See also
+
+- [Connect TikTok to Perplexity](../connect-tiktok-to-perplexity.md) - per-video performance and channel trend questions inside a Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -40,6 +40,10 @@ Read-only. CorpusIQ never posts, deletes, comments, or follows.
 - "Authorization denied" - TikTok requires accepting all scopes. Reconnect and approve each requested permission.
 - Video list empty - newly posted videos take a few hours to appear in TikTok's API.
 - Wrong account connected - disconnect TikTok in your dashboard, switch accounts in TikTok's web app, and reconnect.
+
+## See also
+
+- [Connect TikTok to Perplexity](../connect-tiktok-to-perplexity.md) - per-video performance and channel trend questions inside a Perplexity thread.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
