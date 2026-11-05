@@ -73,7 +73,7 @@ Individually evaluated and held, each with the class that answers it:
 - **mcpservers.org**: LISTED. `/servers/corpusiq-io` is present in the twelve-sitemap canonical; the detail page itself answers **403** to a direct read, which is the platform block and not a delisting.
 - **Glama**: LISTED. `https://glama.ai/mcp/connectors/io.corpusiq/multi-source-mcp` returns **200**, title **CorpusIQ - MCP Connector**, canonical on the connectors route, description reading 40+ business systems.
 - **Official MCP registry**: `io.corpusiq/multi-source-mcp` with the `https://mcp2.corpusiq.io/mcp` remote. The description still reads 30+ business systems against a catalog that now states 40+, which is metadata drift to correct at the next publish.
-- **Smithery**: not confirmed this pass. The registry API answered `{"error":"An unexpected error occurred"}` on two calls and `https://smithery.ai/servers/@benoit-p/Cprusiq` returned **308** then **404** on the redirect, which is a routing change and never a delisting signal.
+- **Smithery**: not confirmed this pass. The registry API answered `{"error":"An unexpected error occurred"}` on two calls and the Smithery server listing returned **308** then **404** on the redirect, which is a routing change and never a delisting signal.
 - **mcp.so**: NOT LISTED. All four direct slug forms (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`) return **404**, and the paid route stays declined under the no-payment rule, so it is not retried.
 
 ## Counts
