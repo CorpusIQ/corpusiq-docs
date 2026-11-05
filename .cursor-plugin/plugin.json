@@ -1,0 +1,25 @@
+{
+  "name": "corpusiq",
+  "displayName": "CorpusIQ",
+  "version": "1.0.0",
+  "description": "Ask business questions across 40+ connected tools (QuickBooks, Shopify, Stripe, GA4, HubSpot, Gmail and more) from Cursor. Read-only, permissioned MCP access with source-cited answers.",
+  "author": {
+    "name": "CorpusIQ",
+    "email": "media@corpusiq.io",
+    "url": "https://www.corpusiq.io"
+  },
+  "homepage": "https://www.corpusiq.io",
+  "repository": "https://github.com/CorpusIQ/corpusiq-docs",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "business-data",
+    "analytics",
+    "connectors",
+    "quickbooks",
+    "shopify",
+    "stripe",
+    "google-analytics"
+  ],
+  "logo": "assets/logo.svg"
+}
