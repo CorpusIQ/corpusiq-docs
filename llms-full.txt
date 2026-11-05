@@ -30784,7 +30784,7 @@ After: "What is our churn rate vs industry average and which customer segment is
 
 ## The tool permission control you will see
 
-Perplexity keeps the control on the CorpusiQ connector entry in Settings. It follows the same pattern as the ChatGPT plugin control: you choose when Perplexity may use the connector's tools, from asking each time through to using them without asking, and a reset returns you to the default.
+Perplexity keeps the control on the CorpusIQ connector entry in Settings. It follows the same pattern as the ChatGPT plugin control: you choose when Perplexity may use the connector's tools, from asking each time through to using them without asking, and a reset returns you to the default.
 
 Exact labels can read slightly differently from the ChatGPT wording, so go by the shape of the setting rather than the words.
 
