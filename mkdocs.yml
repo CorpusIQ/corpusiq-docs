@@ -348,6 +348,7 @@ nav:
     - Docker: hermes/setup/docker.md
     - Windows WSL: hermes/setup/windows-wsl.md
     - Session Cleanup: hermes/setup/session-cleanup.md
+    - Backup and Restore: hermes/setup/backup-and-restore.md
   - Best Practices:
     - Overview: hermes/best-practices/index.md
     - Cron Design: hermes/best-practices/cron-design.md

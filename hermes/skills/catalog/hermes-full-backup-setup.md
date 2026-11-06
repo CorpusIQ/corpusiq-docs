@@ -237,6 +237,7 @@ python hermes-complete-backup.py -o C:\\Users\\you\\backups\\hermes.zip
 
 ## Related Tools
 
+- [Hermes Backup and Restore (native commands)](/hermes/setup/backup-and-restore) - The built-in `hermes backup` snapshot and `hermes import` restore paths
 - [Hermes Agent Install Guide](https://hermes-agent.nousresearch.com/docs) - Official install docs
 - [Hermes Backup Script (alternative)](https://github.com/edouardleroy/hermes-full-backup) - This script's repo with tests and docs
 

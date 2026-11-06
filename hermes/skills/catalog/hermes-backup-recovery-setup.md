@@ -36,3 +36,7 @@ hermes-backup health   # Health check
 
 - Brand new (0 stars, July 21) - minimal testing
 - Requires age CLI for encryption
+
+## Native Alternative
+
+Hermes Agent ships its own backup paths, so you do not need a skill for the basic case. `hermes backup --quick` writes a restorable state snapshot, `hermes backup` writes a full zip archive, and `hermes import` restores that archive. See [Hermes Backup and Restore](/hermes/setup/backup-and-restore) for the commands, what each one captures, and how to verify an archive before trusting it. Use this skill when you specifically want age-encrypted backups or its health-check step.

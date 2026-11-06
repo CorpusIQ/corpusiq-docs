@@ -122,6 +122,7 @@ Choose your hardware:
 Once Hermes Agent is running, add capabilities:
 
 - **[Session Cleanup](session-cleanup)** - Delete or prune old sessions and reclaim state.db disk space
+- **[Backup and Restore](backup-and-restore)** - Native `hermes backup` snapshots, full archives, and `hermes import` restore
 - **[MCP Integration](/hermes/mcp)** - Connect to Gmail, Slack, databases, and 40+ platforms
 - **[CorpusIQ MCP Setup](corpusiq-mcp)** - Connect 40+ business tools to Hermes in 5 minutes
 - **[CorpusIQ Cron Patterns](corpusiq-cron-patterns)** - Autonomous business monitoring with Hermes + CorpusIQ
