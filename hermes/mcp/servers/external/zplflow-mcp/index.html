@@ -9761,6 +9761,8 @@
       
         
       
+        
+      
     
     
     
@@ -9997,6 +9999,34 @@
     
   
     Session Cleanup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/backup-and-restore" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backup and Restore
   
 
     
@@ -12141,7 +12171,7 @@ Category:     Logistics and Supply Chain
 Built by:     MTech S.r.l. (Italy), hosted on European infrastructure
 First call:   getAccountBalance, which returns available and reserved tokens
 </code></pre></div>
-<p><strong>Evidence tier: documented, not driven.</strong> There is no ZplFlow account on this machine, so no conversion was measured. What was verified is the endpoint itself and the vendor's machine-facing contract. A keyless <code>initialize</code> against <code>https://mcp.zplflow.io/v1/mcp</code> returns <strong>HTTP 401</strong> with <code>{"error_code":"UNAUTHORIZED","message":"missing authorization header"}</code>, and unlike the OAuth servers this catalog usually covers, there is no <code>WWW-Authenticate</code> header and no protected-resource document to read, because the credential is a static key rather than a browser sign-in. Both <code>/v1/mcp</code> and <code>/v1/mcp/</code> answer identically, which confirms the route is served by their own gateway and not by a generic edge. Tool names, scopes, limits and prices below come from the vendor's documentation at <code>zplflow.io/docs</code>, written for integrators rather than for buyers.</p>
+<p><strong>Evidence tier: documented, not driven.</strong> There is no ZplFlow account on this machine, so no conversion was measured. What was verified is the endpoint itself and the vendor's machine-facing contract. A keyless <code>initialize</code> against <code>https://mcp.zplflow.io/v1/mcp</code> is answered with an <strong>HTTP 301</strong> to <code>/v1/mcp/</code>, and that path returns <strong>HTTP 401</strong> with <code>{"error_code":"UNAUTHORIZED","message":"missing authorization header"}</code>. Both the redirect and the 401 carry the same site security headers, so the route is served by the vendor's own stack rather than by a generic edge, and a client that follows redirects, as MCP clients do, lands on a keyed surface and stops. Unlike the OAuth servers this catalog usually covers, there is no <code>WWW-Authenticate</code> header and no protected-resource document to read, because the credential is a static key rather than a browser sign-in. Re-probed 2026-11-06 19:01Z. Tool names, scopes, limits and prices below come from the vendor's documentation at <code>zplflow.io/docs</code>, written for integrators rather than for buyers.</p>
 <h2 id="what-a-connected-assistant-can-do">What a connected assistant can do<a class="headerlink" href="#what-a-connected-assistant-can-do" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>

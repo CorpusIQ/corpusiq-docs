@@ -9761,6 +9761,8 @@
       
         
       
+        
+      
     
     
     
@@ -9997,6 +9999,34 @@
     
   
     Session Cleanup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/backup-and-restore" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backup and Restore
   
 
     
@@ -12071,6 +12101,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#native-alternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Native Alternative
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#integration-with-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -12120,6 +12161,8 @@ hermes-backup<span class="w"> </span>health<span class="w">   </span><span class
 <li>Brand new (0 stars, July 21) - minimal testing</li>
 <li>Requires age CLI for encryption</li>
 </ul>
+<h2 id="native-alternative">Native Alternative<a class="headerlink" href="#native-alternative" title="Anchor link to this section">&para;</a></h2>
+<p>Hermes Agent ships its own backup paths, so you do not need a skill for the basic case. <code>hermes backup --quick</code> writes a restorable state snapshot, <code>hermes backup</code> writes a full zip archive, and <code>hermes import</code> restores that archive. See <a href="https://www.corpusiq.io/docs/hermes/setup/backup-and-restore">Hermes Backup and Restore</a> for the commands, what each one captures, and how to verify an archive before trusting it. Use this skill when you specifically want age-encrypted backups or its health-check step.</p>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ is the connector layer that lets AI assistants read the systems a business
 already runs on - accounting, payments, CRM, email, files and analytics - and answer

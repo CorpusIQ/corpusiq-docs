@@ -9761,6 +9761,8 @@
       
         
       
+        
+      
     
     
     
@@ -9997,6 +9999,34 @@
     
   
     Session Cleanup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.corpusiq.io/docs/hermes/setup/backup-and-restore" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backup and Restore
   
 
     
@@ -12183,7 +12213,7 @@
 <tr>
 <td>Endpoint probes</td>
 <td>keyless <code>initialize</code></td>
-<td><code>https://mcp.zplflow.io/v1/mcp</code> and <code>/v1/mcp/</code> both <strong>401 UNAUTHORIZED</strong> with no <code>WWW-Authenticate</code>, confirming a static-key surface rather than OAuth</td>
+<td><code>https://mcp.zplflow.io/v1/mcp</code> answers <strong>301</strong> to <code>/v1/mcp/</code>, which returns <strong>401 UNAUTHORIZED</strong> with no <code>WWW-Authenticate</code>, confirming a static-key surface rather than OAuth. Redirect and 401 carry the same site security headers, so both come from the vendor's own stack (re-probed 2026-11-06 19:01Z)</td>
 </tr>
 </tbody>
 </table>
