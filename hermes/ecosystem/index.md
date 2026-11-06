@@ -12,7 +12,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 The most comprehensive directory of Hermes Agent resources in existence. 451+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 5, 2026 · **Repos indexed:** 451+ · **Categories:** 18
+> **Last updated:** November 6, 2026 · **Repos indexed:** 451+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
