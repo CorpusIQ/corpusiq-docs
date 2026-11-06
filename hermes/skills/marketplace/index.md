@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh - 1,444+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh - 1,463+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-11-05"
@@ -12,7 +12,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh) - install with a single command and use immediately.
 
-**1,444+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,463+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 - [November 5, 2026 (Morning) - Qt Agent Skills - QML, C++ and Figma Setup (theqtcompanyrnd/agent-skills, 9,871 combined, 14 listings, 523 stars, NOASSERTION, the Qt company's 13 official engineering skills for QML, C++, CMake and Figma handoff), Exa Agent Skills - Neural Search API Setup (exa-labs/agent-skills, 9,481 combined, 5 listings, 65 stars, MIT, the vendor's own skills for neural search, contents retrieval, company research and lead generation), Qiaomu OpenCLI Skills - Social Site CLI Setup (joeseesun/qiaomu-opencli-skills, 9,424 combined, 7 listings, 998 stars, MIT, a CLI that lets an agent read and search social and content sites through one interface) - drained the Nov 4 sized-candidate queue, 96 listings, 15 setup guides](/hermes/skills/marketplace/new-nov5-2026-morning-skills)
@@ -353,7 +353,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,444+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,463+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -438,7 +438,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,444+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,463+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -458,7 +458,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,444+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,463+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
