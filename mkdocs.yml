@@ -199,6 +199,7 @@ nav:
   - Connect CallRail to Claude: connect-callrail-to-claude.md
 - Perplexity Integrations:
   - Connect Google Sheets to Perplexity: connect-google-sheets-to-perplexity.md
+  - Connect Gmail to Perplexity: connect-gmail-to-perplexity.md
   - Connect Google Drive to Perplexity: connect-google-drive-to-perplexity.md
   - Connect Google Calendar to Perplexity: connect-google-calendar-to-perplexity.md
   - Connect Airtable to Perplexity: connect-airtable-to-perplexity.md
