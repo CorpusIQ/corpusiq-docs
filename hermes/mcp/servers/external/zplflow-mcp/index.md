@@ -4,7 +4,7 @@ description: "Hosted MCP for ZPL and PDF shipping-label conversion, 10 tools ove
 category: Logistics and Supply Chain
 stars: n/a (commercial hosted service, API key, free tier 6,000 tokens)
 added: "2026-11-06"
-source: "The mcpservers.org /all newest page slug zplflow-mcp, its detail card, and the vendor's own documentation at zplflow.io/docs/mcp, /docs/conversions, /docs/jobs, /docs/pipelines, /docs/authentication, plus the pricing and feature pages; and a keyless initialize probe of https://mcp.zplflow.io/v1/mcp answering 401 UNAUTHORIZED"
+source: "The mcpservers.org /all newest page slug zplflow-mcp, its detail card, and the vendor's own documentation at zplflow.io/docs/mcp, /docs/conversions, /docs/jobs, /docs/pipelines, /docs/authentication, plus the pricing and feature pages; and a keyless initialize probe of https://mcp.zplflow.io/v1/mcp (301 to /v1/mcp/, which answers 401 UNAUTHORIZED)"
 relevance: ★★★
 tags: [logistics, shipping, labels, zebra, zpl, pdf, warehouse, api-key, remote-mcp, streamable-http]
 last_updated: "2026-11-06"
@@ -32,7 +32,7 @@ Built by:     MTech S.r.l. (Italy), hosted on European infrastructure
 First call:   getAccountBalance, which returns available and reserved tokens
 ```
 
-**Evidence tier: documented, not driven.** There is no ZplFlow account on this machine, so no conversion was measured. What was verified is the endpoint itself and the vendor's machine-facing contract. A keyless `initialize` against `https://mcp.zplflow.io/v1/mcp` returns **HTTP 401** with `{"error_code":"UNAUTHORIZED","message":"missing authorization header"}`, and unlike the OAuth servers this catalog usually covers, there is no `WWW-Authenticate` header and no protected-resource document to read, because the credential is a static key rather than a browser sign-in. Both `/v1/mcp` and `/v1/mcp/` answer identically, which confirms the route is served by their own gateway and not by a generic edge. Tool names, scopes, limits and prices below come from the vendor's documentation at `zplflow.io/docs`, written for integrators rather than for buyers.
+**Evidence tier: documented, not driven.** There is no ZplFlow account on this machine, so no conversion was measured. What was verified is the endpoint itself and the vendor's machine-facing contract. A keyless `initialize` against `https://mcp.zplflow.io/v1/mcp` is answered with an **HTTP 301** to `/v1/mcp/`, and that path returns **HTTP 401** with `{"error_code":"UNAUTHORIZED","message":"missing authorization header"}`. Both the redirect and the 401 carry the same site security headers, so the route is served by the vendor's own stack rather than by a generic edge, and a client that follows redirects, as MCP clients do, lands on a keyed surface and stops. Unlike the OAuth servers this catalog usually covers, there is no `WWW-Authenticate` header and no protected-resource document to read, because the credential is a static key rather than a browser sign-in. Re-probed 2026-11-06 19:01Z. Tool names, scopes, limits and prices below come from the vendor's documentation at `zplflow.io/docs`, written for integrators rather than for buyers.
 
 ## What a connected assistant can do
 
