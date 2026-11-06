@@ -111,8 +111,8 @@
     "description": "Run Hermes Agent from the official nousresearch/hermes-agent Docker image. Docker Compose config, persistent volumes, MCP servers, cron persistence",
     "url": "https://www.corpusiq.io/docs/hermes/setup/docker",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-05",
+    "dateModified": "2026-11-05",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-05">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -158,7 +158,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Docker", "url": "https://www.corpusiq.io/docs/hermes/setup/docker", "image": "https://www.corpusiq.io/og?title=Docker&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/setup/docker"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Run Hermes Agent from the official nousresearch/hermes-agent Docker image. Docker Compose config, persistent volumes, MCP servers, cron persistence", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Docker", "url": "https://www.corpusiq.io/docs/hermes/setup/docker", "image": "https://www.corpusiq.io/og?title=Docker&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/setup/docker"}, "datePublished": "2026-11-01", "dateModified": "2026-11-05", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Run Hermes Agent from the official nousresearch/hermes-agent Docker image. Docker Compose config, persistent volumes, MCP servers, cron persistence", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Setup", "item": "https://www.corpusiq.io/docs/hermes/setup"}, {"@type": "ListItem", "position": 4, "name": "Docker", "item": "https://www.corpusiq.io/docs/hermes/setup/docker"}]}</script>
 </head>
   
@@ -12538,8 +12538,12 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 <span class="c1"># Remote server that needs a bearer token (prompts for the key, saves it to /opt/data/.env)</span>
 docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--url<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span>--auth<span class="w"> </span>header
 
+<span class="c1"># GitHub&#39;s official remote server (the @modelcontextprotocol/server-github npm</span>
+<span class="c1"># package is archived and unmaintained); --auth header prompts for the token</span>
+docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>github<span class="w"> </span>--url<span class="w"> </span>https://api.githubcopilot.com/mcp/<span class="w"> </span>--auth<span class="w"> </span>header
+
 <span class="c1"># Stdio server: --args must be the last option</span>
-docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>github<span class="w"> </span>--command<span class="w"> </span>npx<span class="w"> </span>--args<span class="w"> </span>@modelcontextprotocol/server-github
+docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>hermes<span class="w"> </span>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>filesystem<span class="w"> </span>--command<span class="w"> </span>npx<span class="w"> </span>--args<span class="w"> </span>-y<span class="w"> </span>@modelcontextprotocol/server-filesystem<span class="w"> </span>/opt/data
 </code></pre></div>
 <p>Verify with <code>docker compose exec hermes hermes mcp test corpusiq</code>. See the <a href="https://www.corpusiq.io/docs/hermes/mcp">MCP Integration Guide</a> for all available servers.</p>
 <h2 id="crons-and-persistence">Crons and Persistence<a class="headerlink" href="#crons-and-persistence" title="Anchor link to this section">&para;</a></h2>

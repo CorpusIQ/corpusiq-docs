@@ -111,8 +111,8 @@
     "description": "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-05",
+    "dateModified": "2026-11-05",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-05">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -158,7 +158,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Mac Mini", "url": "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone", "image": "https://www.corpusiq.io/og?title=Mac%20Mini&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Mac Mini", "url": "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone", "image": "https://www.corpusiq.io/og?title=Mac%20Mini&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone"}, "datePublished": "2026-11-01", "dateModified": "2026-11-05", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Setup", "item": "https://www.corpusiq.io/docs/hermes/setup"}, {"@type": "ListItem", "position": 4, "name": "Mac Mini", "item": "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone"}]}</script>
 </head>
   
@@ -12574,30 +12574,28 @@ python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;
 patchright<span class="w"> </span>install<span class="w"> </span>chromium
 </code></pre></div>
 <h3 id="step-5-social-publishing-postiz">Step 5: Social Publishing (Postiz)<a class="headerlink" href="#step-5-social-publishing-postiz" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>postiz-cli
-postiz<span class="w"> </span>auth
+<div class="highlight"><pre><span></span><code>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>postiz<span class="w">               </span><span class="c1"># npm package is `postiz` (bin: postiz)</span>
+postiz<span class="w"> </span>auth:login<span class="w">                   </span><span class="c1"># OAuth2 device flow; or export POSTIZ_API_KEY</span>
 <span class="c1"># → Opens browser: log in and authorize platform connectors</span>
 </code></pre></div>
 <h3 id="step-6-persistent-operation">Step 6: Persistent Operation<a class="headerlink" href="#step-6-persistent-operation" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Gateway (Background):</strong></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Start as a launchd service for auto-restart</span>
-hermes<span class="w"> </span>gateway<span class="w"> </span>run<span class="w"> </span>--replace
+<div class="highlight"><pre><span></span><code><span class="c1"># Install as a launchd service (auto-restart, starts on login)</span>
+hermes<span class="w"> </span>gateway<span class="w"> </span>install<span class="w"> </span>--start-now
 
 <span class="c1"># Verify</span>
 hermes<span class="w"> </span>gateway<span class="w"> </span>status
 </code></pre></div>
 <p><strong>Cron Jobs:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Email monitoring every 15 minutes</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check inbox for unread. Summarize new emails. Silent if empty.&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Check inbox for unread. Summarize new emails. Silent if empty.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span>
 
 <span class="c1"># Daily summary at 6 PM</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;daily-report&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Summarize today&#39;s activity. What happened? What&#39;s pending?&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 18 * * *&quot;</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 18 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Summarize today&#39;s activity. What happened? What&#39;s pending?&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;daily-report&quot;</span>
 </code></pre></div>
 <p>See <a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">cron design best practices</a> for production-grade scheduling patterns.</p>
 <p><strong>Keep Alive:</strong></p>
@@ -12608,15 +12606,16 @@ caffeinate<span class="w"> </span>-dims<span class="w"> </span><span class="p">&
 <p>Or go to <strong>System Settings → Battery → Options → Prevent automatic sleeping on power adapter</strong>.</p>
 <h3 id="step-7-memory-stack">Step 7: Memory Stack<a class="headerlink" href="#step-7-memory-stack" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Honcho - peer memory (2 min)</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer your-h...ken&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--header<span class="w"> </span><span class="s2">&quot;X-Honcho-Workspace-ID: your-workspace&quot;</span>
+<span class="c1"># --auth header prompts for the bearer token and writes it to ~/.hermes/.env</span>
+<span class="c1"># (--args always comes last: it takes everything that follows)</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--auth<span class="w"> </span>header<span class="w"> </span>--command<span class="w"> </span>npx<span class="w"> </span>--args<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev
 
 <span class="c1"># GBrain - project memory (10 min)</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/garrytan/gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>./setup.sh
 
-<span class="c1"># memcore - cross-session context (5 min)</span>
-hermes<span class="w"> </span>plugins<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>memcore_yifanchen
+<span class="c1"># Cross-session plugins come from the curated catalog</span>
+hermes<span class="w"> </span>plugins<span class="w"> </span>search<span class="w"> </span>memory
+hermes<span class="w"> </span>plugins<span class="w"> </span>install<span class="w"> </span>&lt;name&gt;<span class="w">          </span><span class="c1"># then: hermes plugins enable &lt;name&gt;</span>
 </code></pre></div>
 <p>Full details in the <a href="https://www.corpusiq.io/docs/hermes/knowledge">memory architecture guide</a>.</p>
 <h2 id="benefits-of-mac-mini-m4-hermes-agent">Benefits of Mac Mini M4 + Hermes Agent<a class="headerlink" href="#benefits-of-mac-mini-m4-hermes-agent" title="Anchor link to this section">&para;</a></h2>

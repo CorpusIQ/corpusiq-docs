@@ -111,8 +111,8 @@
     "description": "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors.",
     "url": "https://www.corpusiq.io/docs/hermes/troubleshooting",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-05",
+    "dateModified": "2026-11-05",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-05">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -158,7 +158,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Troubleshooting", "url": "https://www.corpusiq.io/docs/hermes/troubleshooting", "image": "https://www.corpusiq.io/og?title=Troubleshooting&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/troubleshooting"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Troubleshooting", "url": "https://www.corpusiq.io/docs/hermes/troubleshooting", "image": "https://www.corpusiq.io/og?title=Troubleshooting&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/troubleshooting"}, "datePublished": "2026-11-01", "dateModified": "2026-11-05", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Troubleshooting", "item": "https://www.corpusiq.io/docs/hermes/troubleshooting"}]}</script>
 </head>
   
@@ -13045,24 +13045,17 @@ hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w">
 </tbody>
 </table>
 <h3 id="automated-re-auth">Automated Re-Auth<a class="headerlink" href="#automated-re-auth" title="Anchor link to this section">&para;</a></h3>
-<p>For services that support it, configure automated token refresh:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># hermes/config/auth.yaml</span>
-<span class="nt">token_management</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">proactive_refresh</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">refresh_before_expiry_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24</span>
-<span class="w">  </span><span class="nt">alert_on_refresh_failure</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<span class="w">  </span><span class="nt">max_retry_attempts</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
-
-<span class="w">  </span><span class="nt">connectors</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">google_workspace</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">refresh_interval_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24</span>
-<span class="w">      </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-alerts&quot;</span>
-<span class="w">    </span><span class="nt">microsoft</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">refresh_interval_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">24</span>
-<span class="w">      </span><span class="nt">alert_channel</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;ops-alerts&quot;</span>
-<span class="w">    </span><span class="nt">slack</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">refresh_interval_hours</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">48</span>
+<p>There is no separate token-management config file. Credentials live in <code>~/.hermes/auth.json</code> (per-provider entries plus the <code>credential_pool</code>), and Hermes refreshes them from that store: an expired access token is refreshed with its refresh token on the next call, and a pool entry that hits a rate limit or auth failure is demoted and cooled down automatically.</p>
+<p>To refresh on a schedule instead of waiting for the next failing request, drive the same command from a Hermes cron job:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>auth<span class="w"> </span>refresh<span class="w"> </span>openrouter<span class="w">      </span><span class="c1"># refresh the pooled credential and clear its cooldown</span>
+hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w"> </span>openrouter<span class="w">       </span><span class="c1"># confirm the new expiry</span>
 </code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="c1"># cron: refresh the pooled credential before it expires</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="s2">&quot;0 4 * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span><span class="s2">&quot;Run: hermes auth refresh openrouter. Report only if it fails.&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span>token-refresh
+</code></pre></div>
+<p>A refresh token that has itself expired cannot be refreshed - that needs a fresh <code>hermes auth add &lt;provider&gt;</code> round trip.</p>
 <h3 id="manual-token-reset">Manual Token Reset<a class="headerlink" href="#manual-token-reset" title="Anchor link to this section">&para;</a></h3>
 <p>When automated refresh fails, reset the credential path:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Clear exhaustion state for a provider&#39;s pooled credentials</span>
@@ -13128,13 +13121,9 @@ journalctl<span class="w"> </span>--since<span class="w"> </span><span class="s2
 <span class="c1"># Check rate limit logs</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>runs<span class="w"> </span>--limit<span class="w"> </span><span class="m">20</span><span class="w"> </span>&lt;job_id&gt;<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;rate_limit\|backoff&quot;</span>
 </code></pre></div>
-<p><strong>Fix:</strong> Set appropriate concurrency policies per job:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># hermes/cron/&lt;job_name&gt;.yaml</span>
-<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;skip&quot;</span><span class="w">     </span><span class="c1"># skip if already running (default)</span>
-<span class="c1"># or</span>
-<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;queue&quot;</span><span class="w">    </span><span class="c1"># queue and run after current finishes</span>
-<span class="c1"># or</span>
-<span class="nt">concurrency_policy</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;replace&quot;</span><span class="w">  </span><span class="c1"># kill current, start new</span>
+<p><strong>Fix:</strong> There is no per-job concurrency policy to set. A job that is still mid-run when its next occurrence comes due is refused with "already running" instead of double-firing, so the fix is to make the job finish inside its own period: shrink the work, raise the interval, or move long work to a <code>--script</code> job that exits fast. Confirm the overlap in the run history before changing anything:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>runs<span class="w"> </span>--limit<span class="w"> </span><span class="m">20</span><span class="w"> </span>&lt;job_id&gt;<span class="w">     </span><span class="c1"># look for back-to-back runs with no gap</span>
+hermes<span class="w"> </span>cron<span class="w"> </span>edit<span class="w"> </span>&lt;job_id&gt;<span class="w">                </span><span class="c1"># widen the schedule if runs are colliding</span>
 </code></pre></div>
 <h3 id="symptom-upstream-dependency-failed-context_from-chain-broken">Symptom: Upstream dependency failed (context_from chain broken)<a class="headerlink" href="#symptom-upstream-dependency-failed-context_from-chain-broken" title="Anchor link to this section">&para;</a></h3>
 <p>Jobs that depend on other jobs (<code>context_from</code>) fail when the upstream fails.</p>
