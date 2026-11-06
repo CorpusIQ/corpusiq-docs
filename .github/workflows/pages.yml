@@ -1,13 +1,19 @@
-name: Deploy docs to GitHub Pages
+name: Build and validate docs (GitHub Pages mirror)
 
-# Builds the MkDocs Material site and publishes it to GitHub Pages.
-# The production URL is https://www.corpusiq.io/docs/ — corpusiq-frontend
-# rewrites /docs and /docs/:path* to this Pages site
-# (https://corpusiq.github.io/corpusiq-docs/). mkdocs.yml site_url is set to
-# the proxied production path so internal asset/links resolve correctly there.
+# Builds the MkDocs Material site, runs the content/feeds gates, and prepares
+# the Pages artifact. It does NOT publish: GitHub Pages for this repo is
+# configured with build_type=legacy on the `gh-pages` branch, and an
+# actions/deploy-pages step cannot complete under that setting - it polls the
+# Pages deployment API until timeout and reports "Timeout reached, aborting!"
+# on every push (runs 41621900687, 41899431721, 42008029731, 42009289326,
+# 42137777758 between Nov 3 and Nov 5 2026).
 #
-# NOTE: GitHub Pages must be enabled once (owner action) under
-# Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+# Publication paths (neither of which is this workflow):
+#   production  -> vercel-deploy.yml to docs.corpusiq.io / www.corpusiq.io/docs
+#   Pages mirror -> scripts/deploy_docs.py (legacy `mkdocs gh-deploy` to gh-pages)
+#
+# Do not reintroduce a deploy-pages step here without first switching
+# Settings -> Pages -> Source to "GitHub Actions" in the same change.
 
 on:
   push:
@@ -107,14 +113,3 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
