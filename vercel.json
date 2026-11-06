@@ -2279,6 +2279,11 @@
       "statusCode": 301
     },
     {
+      "source": "/hermes/backup-and-restore",
+      "destination": "/hermes/setup/backup-and-restore",
+      "statusCode": 301
+    },
+    {
       "source": "/prompts/data-analysis",
       "destination": "/hermes/prompts/data-analysis",
       "statusCode": 301
