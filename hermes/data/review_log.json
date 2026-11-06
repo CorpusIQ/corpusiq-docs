@@ -21123,5 +21123,89 @@
     "tier": "AUTO_APPROVE",
     "action": "auto_approved",
     "timestamp": "2026-11-05T10:03:25.315149+00:00"
+  },
+  {
+    "repo": "cayden970207/thoth",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187589+00:00"
+  },
+  {
+    "repo": "hrabanazviking/Mythic_Agent_Coder_CLI",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187604+00:00"
+  },
+  {
+    "repo": "Hazem-Samak/hermes-pdf-shrink",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187607+00:00"
+  },
+  {
+    "repo": "Stxyu-p/trimtok",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187609+00:00"
+  },
+  {
+    "repo": "vanhoof/hermes-rex",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187611+00:00"
+  },
+  {
+    "repo": "faxforagents/hermes-integration",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187613+00:00"
+  },
+  {
+    "repo": "neta-gym/skillcheck",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187615+00:00"
+  },
+  {
+    "repo": "MichaelZelbel/godspeed-mission-control",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187617+00:00"
+  },
+  {
+    "repo": "Jhanhuo/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187619+00:00"
+  },
+  {
+    "repo": "andyylin/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187621+00:00"
+  },
+  {
+    "repo": "Sumukh047/Hermes-Celestia",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187623+00:00"
+  },
+  {
+    "repo": "gisc/make-it-harder",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-06T10:03:36.187625+00:00"
   }
 ]

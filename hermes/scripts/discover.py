@@ -347,6 +347,57 @@ def is_duplicate(repo_full_name, approved, pending, rejected):
     return repo_full_name.lower() in all_names
 
 
+# ── Category resolution ─────────────────────────────────────
+# A queued row inherited the SEARCH BUCKET that found it, which is not the same
+# thing as what the repo is. The ``nousresearch+hermes`` query returns every
+# repository that merely MENTIONS Nous Research, so third-party projects were
+# queued as "official" (2026-11-06 fire: gisc/make-it-harder, a personal
+# tutoring plugin, landed as official alongside the org's own repos). The
+# bucket also mis-files by discovery order rather than by nature: a memory tool
+# found by the skills query files under skills, and the same tool found by the
+# memory query files under memory.
+OFFICIAL_OWNERS = ("nousresearch", "corpusiq")
+
+_TOPIC_BUCKETS = (
+    ("mcp", ("mcp", "model-context-protocol", "model context protocol")),
+    ("memory", ("memory", "knowledge", "brain", "rag", "second-brain")),
+    ("skills", ("skill", "skills", "plugin", "plugins", "prompt")),
+    ("ui", ("ui", "dashboard", "desktop", "webui", "frontend")),
+    ("deployment", ("deployment", "docker", "kubernetes", "infra", "helm")),
+    ("messaging", ("discord", "telegram", "slack", "whatsapp", "messaging")),
+    ("security", ("security", "governance", "guardrail", "audit")),
+)
+
+
+def resolve_category(query_category, full_name, repo):
+    """Turn the search bucket into a category that describes the repo.
+
+    Only the ``official`` bucket is ownership-sensitive: it is kept for repos
+    owned by Nous Research or CorpusIQ and re-bucketed from topics and
+    description for everyone else, so third-party software can never be
+    catalogued as official. Every other bucket is returned unchanged.
+
+    Pure function of its arguments - no network - so it can be exercised
+    directly::
+
+        resolve_category("official", "gisc/make-it-harder", {...})  # -> "skills"
+        resolve_category("official", "NousResearch/hermes-agent", {})  # -> "official"
+    """
+    if query_category != "official":
+        return query_category
+    owner = (full_name.split("/")[0] if "/" in full_name else "").lower()
+    if owner in OFFICIAL_OWNERS:
+        return "official"
+    haystack = " ".join(
+        [str(t) for t in (repo.get("topics") or [])]
+        + [repo.get("description") or "", repo.get("name") or ""]
+    ).lower()
+    for bucket, hints in _TOPIC_BUCKETS:
+        if any(h in haystack for h in hints):
+            return bucket
+    return "core"
+
+
 def find_near_duplicates(repo, approved):
     """Find repos with similar names/descriptions."""
     name = repo.get("name", "").lower()
@@ -457,7 +508,7 @@ def discover_repos(token, dry_run=False):
                 "language": repo.get("language", ""),
                 "topics": repo.get("topics", []),
                 "updated_at": repo.get("updated_at", ""),
-                "category": category,
+                "category": resolve_category(category, full_name, repo),
                 "score": score,
                 "tier": tier,
                 "score_reasons": reasons,

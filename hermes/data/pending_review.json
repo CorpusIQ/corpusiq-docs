@@ -1100,7 +1100,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-17T03:16:07Z",
-    "category": "official",
+    "category": "memory",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -1134,7 +1134,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-06-17T02:49:44Z",
-    "category": "official",
+    "category": "core",
     "score": 40,
     "tier": "REVIEW",
     "score_reasons": [
@@ -1165,7 +1165,7 @@
       "telegram-bot"
     ],
     "updated_at": "2026-06-16T12:12:46Z",
-    "category": "official",
+    "category": "mcp",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -1187,7 +1187,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-16T10:13:10Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -1218,7 +1218,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-16T10:08:27Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -1238,7 +1238,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-06-16T03:24:28Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -1259,7 +1259,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-15T21:27:31Z",
-    "category": "official",
+    "category": "core",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -1843,7 +1843,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-06-17T05:35:37Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -2685,7 +2685,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-18T03:51:37Z",
-    "category": "official",
+    "category": "ui",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -2716,7 +2716,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-06-18T03:09:17Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -2739,7 +2739,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-17T20:23:41Z",
-    "category": "official",
+    "category": "deployment",
     "score": 54,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -2761,7 +2761,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-17T18:54:04Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -2784,7 +2784,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-17T10:10:07Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -3899,7 +3899,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-18T21:55:33Z",
-    "category": "official",
+    "category": "core",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -3919,7 +3919,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-06-19T01:03:41Z",
-    "category": "official",
+    "category": "mcp",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -5213,7 +5213,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-20T04:16:24Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -5243,7 +5243,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-06-19T20:49:45Z",
-    "category": "official",
+    "category": "core",
     "score": 50,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -6580,7 +6580,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-06-23T03:20:35Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -6618,7 +6618,7 @@
       "web-ui"
     ],
     "updated_at": "2026-06-22T23:47:35Z",
-    "category": "official",
+    "category": "ui",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -6661,7 +6661,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-22T20:04:44Z",
-    "category": "official",
+    "category": "mcp",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -6682,7 +6682,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-22T09:58:02Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -6712,7 +6712,7 @@
     "language": "Dockerfile",
     "topics": [],
     "updated_at": "2026-06-22T08:06:20Z",
-    "category": "official",
+    "category": "ui",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -6732,7 +6732,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-06-22T07:18:34Z",
-    "category": "official",
+    "category": "deployment",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -10439,7 +10439,7 @@
       "the-hermes-agent-accelerated-business-hackathon"
     ],
     "updated_at": "2026-06-27T23:16:15Z",
-    "category": "official",
+    "category": "ui",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -10476,7 +10476,7 @@
       "skills"
     ],
     "updated_at": "2026-06-27T21:10:16Z",
-    "category": "official",
+    "category": "skills",
     "score": 54,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -10497,7 +10497,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-06-27T19:15:29Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -10517,7 +10517,7 @@
     "language": "HTML",
     "topics": [],
     "updated_at": "2026-06-27T14:50:59Z",
-    "category": "official",
+    "category": "messaging",
     "score": 40,
     "tier": "REVIEW",
     "score_reasons": [
@@ -13102,7 +13102,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-07-02T04:35:00Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -13133,7 +13133,7 @@
       "openclaw"
     ],
     "updated_at": "2026-07-02T01:37:55Z",
-    "category": "official",
+    "category": "core",
     "score": 39,
     "tier": "REVIEW",
     "score_reasons": [
@@ -13155,7 +13155,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-07-01T04:43:31Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -13176,7 +13176,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-01T04:13:32Z",
-    "category": "official",
+    "category": "ui",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -13207,7 +13207,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-06-30T23:51:28Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -14056,7 +14056,7 @@
       "vector-search"
     ],
     "updated_at": "2026-07-03T02:39:25Z",
-    "category": "official",
+    "category": "memory",
     "score": 55,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -14079,7 +14079,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-02T14:34:31Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -14100,7 +14100,7 @@
     "language": "Dockerfile",
     "topics": [],
     "updated_at": "2026-07-02T13:54:58Z",
-    "category": "official",
+    "category": "deployment",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -14120,7 +14120,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-07-02T08:20:23Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -14652,7 +14652,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-04T04:53:20Z",
-    "category": "official",
+    "category": "memory",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -14672,7 +14672,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-03T23:07:03Z",
-    "category": "official",
+    "category": "memory",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -15758,7 +15758,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-07-13T03:48:12Z",
-    "category": "official",
+    "category": "deployment",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -15778,7 +15778,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-07-12T18:07:22Z",
-    "category": "official",
+    "category": "deployment",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -15799,7 +15799,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-07-12T17:03:06Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -15820,7 +15820,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-07-12T10:50:26Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -15841,7 +15841,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-11T20:41:15Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -15873,7 +15873,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-11T19:40:15Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -16366,7 +16366,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-14T04:35:22Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -16398,7 +16398,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-13T16:27:45Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -17372,7 +17372,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-14T20:33:05Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -17403,7 +17403,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-14T12:20:16Z",
-    "category": "official",
+    "category": "mcp",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -17424,7 +17424,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-14T10:53:46Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -17981,7 +17981,7 @@
       "openrouter"
     ],
     "updated_at": "2026-07-15T13:42:59Z",
-    "category": "official",
+    "category": "ui",
     "score": 56,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -18405,7 +18405,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-16T04:41:48Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -18991,7 +18991,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-07-16T07:57:41Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -19625,7 +19625,7 @@
     "language": "Dockerfile",
     "topics": [],
     "updated_at": "2026-07-17T07:00:23Z",
-    "category": "official",
+    "category": "core",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -20304,7 +20304,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-18T00:33:38Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -20548,7 +20548,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-18T05:45:09Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -20569,7 +20569,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-07-18T05:44:34Z",
-    "category": "official",
+    "category": "ui",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -20590,7 +20590,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-18T05:44:04Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -20846,7 +20846,7 @@
       "zai"
     ],
     "updated_at": "2026-07-18T08:05:05Z",
-    "category": "official",
+    "category": "core",
     "score": 48,
     "tier": "REVIEW",
     "score_reasons": [
@@ -20867,7 +20867,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-18T07:20:58Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -21262,7 +21262,7 @@
       "hermes-plugin"
     ],
     "updated_at": "2026-07-19T00:07:21Z",
-    "category": "official",
+    "category": "skills",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -21300,7 +21300,7 @@
       "zai"
     ],
     "updated_at": "2026-07-18T23:25:29Z",
-    "category": "official",
+    "category": "core",
     "score": 48,
     "tier": "REVIEW",
     "score_reasons": [
@@ -21340,7 +21340,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-18T20:21:13Z",
-    "category": "official",
+    "category": "ui",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -22101,7 +22101,7 @@
       "zero-trust"
     ],
     "updated_at": "2026-07-19T18:23:41Z",
-    "category": "official",
+    "category": "skills",
     "score": 54,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -22457,7 +22457,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-20T06:26:14Z",
-    "category": "official",
+    "category": "memory",
     "score": 56,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -23142,7 +23142,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-07-20T21:02:23Z",
-    "category": "official",
+    "category": "skills",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -23181,7 +23181,7 @@
       "windows"
     ],
     "updated_at": "2026-07-20T10:25:07Z",
-    "category": "official",
+    "category": "ui",
     "score": 59,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -24097,7 +24097,7 @@
     "language": "Go",
     "topics": [],
     "updated_at": "2026-07-22T04:36:42Z",
-    "category": "official",
+    "category": "skills",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -24117,7 +24117,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-21T19:23:22Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -24929,7 +24929,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-07-22T08:08:13Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -28752,7 +28752,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-07-28T00:12:25Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -28773,7 +28773,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-07-27T23:53:12Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -28794,7 +28794,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-07-27T23:03:45Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -28814,7 +28814,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-27T14:25:15Z",
-    "category": "official",
+    "category": "core",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -29482,7 +29482,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-28T19:17:55Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -29502,7 +29502,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-28T08:11:07Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -30352,7 +30352,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-30T01:23:37Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -31034,7 +31034,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-30T23:08:44Z",
-    "category": "official",
+    "category": "core",
     "score": 54,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -31056,7 +31056,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-30T22:29:49Z",
-    "category": "official",
+    "category": "memory",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -31077,7 +31077,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-30T21:45:28Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -31100,7 +31100,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-07-30T16:10:15Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -31120,7 +31120,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-07-30T13:17:17Z",
-    "category": "official",
+    "category": "deployment",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -31253,7 +31253,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-31T05:40:52Z",
-    "category": "official",
+    "category": "skills",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -31695,7 +31695,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-07-31T07:37:27Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -32415,7 +32415,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-10T02:01:19Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -34915,7 +34915,7 @@
       "x402"
     ],
     "updated_at": "2026-08-12T00:16:24Z",
-    "category": "official",
+    "category": "deployment",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -34948,7 +34948,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-08-11T15:31:26Z",
-    "category": "official",
+    "category": "deployment",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -35707,7 +35707,7 @@
       "nousresearch"
     ],
     "updated_at": "2026-08-13T03:07:15Z",
-    "category": "official",
+    "category": "core",
     "score": 68,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -35730,7 +35730,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-13T01:11:08Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -36736,7 +36736,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-08-13T13:04:18Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -37821,7 +37821,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-15T04:48:58Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -37842,7 +37842,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-14T09:28:21Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -38588,7 +38588,7 @@
       "nous-research"
     ],
     "updated_at": "2026-08-15T14:20:02Z",
-    "category": "official",
+    "category": "ui",
     "score": 59,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -38803,7 +38803,7 @@
       "python"
     ],
     "updated_at": "2026-08-16T05:16:26Z",
-    "category": "official",
+    "category": "ui",
     "score": 69,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -39732,7 +39732,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-17T01:14:38Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -40866,7 +40866,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-18T01:21:48Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -41823,7 +41823,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-08-19T07:18:44Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -42161,7 +42161,7 @@
       "dsh-plugin"
     ],
     "updated_at": "2026-08-20T00:48:56Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -42850,7 +42850,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-20T23:33:21Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -43635,7 +43635,7 @@
       "telegram"
     ],
     "updated_at": "2026-08-21T10:03:57Z",
-    "category": "official",
+    "category": "messaging",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -44412,7 +44412,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-23T04:12:10Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -44433,7 +44433,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-08-22T21:24:57Z",
-    "category": "official",
+    "category": "skills",
     "score": 53,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -44465,7 +44465,7 @@
     "language": "Dockerfile",
     "topics": [],
     "updated_at": "2026-08-22T19:47:57Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -45321,7 +45321,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-08-24T03:53:22Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -45354,7 +45354,7 @@
       "worktrees"
     ],
     "updated_at": "2026-08-24T03:34:21Z",
-    "category": "official",
+    "category": "ui",
     "score": 48,
     "tier": "REVIEW",
     "score_reasons": [
@@ -45378,7 +45378,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-23T21:16:37Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -45399,7 +45399,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-08-23T18:59:04Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -46149,7 +46149,7 @@
       "plugin"
     ],
     "updated_at": "2026-08-25T01:41:15Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -46176,7 +46176,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-24T15:48:03Z",
-    "category": "official",
+    "category": "ui",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -46933,7 +46933,7 @@
       "openai-compatible"
     ],
     "updated_at": "2026-08-26T04:30:16Z",
-    "category": "official",
+    "category": "skills",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -46958,7 +46958,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-25T23:30:08Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -46979,7 +46979,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-25T21:10:15Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -47014,7 +47014,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-25T14:53:14Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -47062,7 +47062,7 @@
       "protonmail"
     ],
     "updated_at": "2026-08-25T10:48:11Z",
-    "category": "official",
+    "category": "core",
     "score": 60,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -47263,7 +47263,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-08-26T05:53:21Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -47284,7 +47284,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-08-26T05:46:14Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -47755,7 +47755,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-26T07:26:38Z",
-    "category": "official",
+    "category": "deployment",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -48045,7 +48045,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-08-27T00:35:06Z",
-    "category": "official",
+    "category": "memory",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -48066,7 +48066,7 @@
     "language": "PowerShell",
     "topics": [],
     "updated_at": "2026-08-27T00:03:55Z",
-    "category": "official",
+    "category": "ui",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -48098,7 +48098,7 @@
       "voice"
     ],
     "updated_at": "2026-08-26T13:51:52Z",
-    "category": "official",
+    "category": "deployment",
     "score": 55,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -48304,7 +48304,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-08-27T05:08:22Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -49384,7 +49384,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-08-28T05:44:27Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -51765,7 +51765,7 @@
       "typescript"
     ],
     "updated_at": "2026-08-30T16:00:47Z",
-    "category": "official",
+    "category": "messaging",
     "score": 60,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -51787,7 +51787,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-08-30T13:06:05Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -53368,7 +53368,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-02T04:47:50Z",
-    "category": "official",
+    "category": "skills",
     "score": 59,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -53389,7 +53389,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-02T04:36:35Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -53438,7 +53438,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-02T06:28:30Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -53632,7 +53632,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-03T03:24:34Z",
-    "category": "official",
+    "category": "security",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -53653,7 +53653,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-03T02:29:35Z",
-    "category": "official",
+    "category": "core",
     "score": 50,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -53675,7 +53675,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-03T01:52:09Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -53696,7 +53696,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-02T21:48:32Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -54463,7 +54463,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-03T18:21:30Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -54960,7 +54960,7 @@
     "language": "Rust",
     "topics": [],
     "updated_at": "2026-09-05T04:40:08Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -54988,7 +54988,7 @@
     "language": "Dart",
     "topics": [],
     "updated_at": "2026-09-04T15:33:33Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -56221,7 +56221,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-09-07T03:49:13Z",
-    "category": "official",
+    "category": "ui",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -56609,7 +56609,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-06T20:01:48Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -57042,7 +57042,7 @@
       "telegram"
     ],
     "updated_at": "2026-09-07T18:59:08Z",
-    "category": "official",
+    "category": "memory",
     "score": 60,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -57858,7 +57858,7 @@
       "whatsapp-bot"
     ],
     "updated_at": "2026-09-08T21:08:27Z",
-    "category": "official",
+    "category": "mcp",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -58749,7 +58749,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-10T03:53:23Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -58778,7 +58778,7 @@
       "rizin"
     ],
     "updated_at": "2026-09-09T19:07:34Z",
-    "category": "official",
+    "category": "core",
     "score": 40,
     "tier": "REVIEW",
     "score_reasons": [
@@ -58798,7 +58798,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-09T17:51:49Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -58819,7 +58819,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-09-09T15:51:40Z",
-    "category": "official",
+    "category": "ui",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -58840,7 +58840,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-09-09T12:45:37Z",
-    "category": "official",
+    "category": "mcp",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -59363,7 +59363,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-10T10:07:46Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -59528,7 +59528,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-09-11T06:27:26Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -59964,7 +59964,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-11T14:56:16Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -59984,7 +59984,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-11T14:08:01Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -60571,7 +60571,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-13T04:49:18Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -60592,7 +60592,7 @@
     "language": "Dockerfile",
     "topics": [],
     "updated_at": "2026-09-12T12:56:39Z",
-    "category": "official",
+    "category": "deployment",
     "score": 42,
     "tier": "REVIEW",
     "score_reasons": [
@@ -61417,7 +61417,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-09-15T04:36:57Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -61598,7 +61598,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-14T20:56:02Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -62598,7 +62598,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-16T05:25:32Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -63320,7 +63320,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-28T04:48:46Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -63340,7 +63340,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-27T23:13:51Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -63361,7 +63361,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-27T22:25:21Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -63382,7 +63382,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-27T03:51:35Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -64276,7 +64276,7 @@
     "language": "PowerShell",
     "topics": [],
     "updated_at": "2026-09-28T22:49:22Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -64297,7 +64297,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-28T15:39:47Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -64317,7 +64317,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-28T10:10:25Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -64834,7 +64834,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-29T08:03:25Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65230,7 +65230,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-09-30T00:35:16Z",
-    "category": "official",
+    "category": "ui",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65250,7 +65250,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-29T22:43:32Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65285,7 +65285,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-29T19:06:29Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65306,7 +65306,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-29T19:06:05Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65605,7 +65605,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:03:56Z",
-    "category": "official",
+    "category": "memory",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65626,7 +65626,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:03:53Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65647,7 +65647,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:03:37Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65805,7 +65805,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:13:43Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65826,7 +65826,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:13:42Z",
-    "category": "official",
+    "category": "messaging",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65847,7 +65847,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:11:46Z",
-    "category": "official",
+    "category": "ui",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65868,7 +65868,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:11:41Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65889,7 +65889,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:10:06Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -65910,7 +65910,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-09-30T07:10:05Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -66233,7 +66233,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-09-30T14:44:24Z",
-    "category": "official",
+    "category": "memory",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -66877,7 +66877,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-01T09:04:03Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -66898,7 +66898,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-01T06:59:21Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -66919,7 +66919,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-01T06:37:34Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -66940,7 +66940,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-01T06:30:16Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -67355,7 +67355,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-01T11:30:41Z",
-    "category": "official",
+    "category": "core",
     "score": 51,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -67375,7 +67375,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-10-01T11:17:12Z",
-    "category": "official",
+    "category": "mcp",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -67629,7 +67629,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-02T10:58:24Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -67650,7 +67650,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-02T10:30:51Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -67671,7 +67671,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-02T10:29:02Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -68157,7 +68157,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-02T19:07:47Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -69086,7 +69086,7 @@
     "language": "HTML",
     "topics": [],
     "updated_at": "2026-10-04T22:24:12Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -69107,7 +69107,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-04T21:43:45Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -69128,7 +69128,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-04T20:01:45Z",
-    "category": "official",
+    "category": "skills",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -69149,7 +69149,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-04T14:37:28Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -69899,7 +69899,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-10-06T03:42:21Z",
-    "category": "official",
+    "category": "ui",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -70367,7 +70367,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-07T04:15:17Z",
-    "category": "official",
+    "category": "core",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -71080,7 +71080,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-09T07:09:25Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -71101,7 +71101,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-09T07:09:01Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -71122,7 +71122,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-09T06:09:46Z",
-    "category": "official",
+    "category": "core",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -71142,7 +71142,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-09T03:48:41Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -71163,7 +71163,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-09T03:48:36Z",
-    "category": "official",
+    "category": "core",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -71184,7 +71184,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-10-08T23:45:01Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -71312,7 +71312,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-09T22:51:09Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -72460,7 +72460,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-12T18:26:11Z",
-    "category": "official",
+    "category": "ui",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -72985,7 +72985,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-14T06:25:55Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -73013,7 +73013,7 @@
       "nousresearch"
     ],
     "updated_at": "2026-10-14T05:29:06Z",
-    "category": "official",
+    "category": "skills",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -73386,7 +73386,7 @@
     "language": "JavaScript",
     "topics": [],
     "updated_at": "2026-10-15T20:10:01Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -73407,7 +73407,7 @@
     "language": "Shell",
     "topics": [],
     "updated_at": "2026-10-15T15:52:52Z",
-    "category": "official",
+    "category": "ui",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -74069,7 +74069,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-10-16T08:18:58Z",
-    "category": "official",
+    "category": "skills",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -74092,7 +74092,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-10-16T05:52:08Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -76109,7 +76109,7 @@
       "nousresearch"
     ],
     "updated_at": "2026-10-19T04:18:19Z",
-    "category": "official",
+    "category": "skills",
     "score": 42,
     "tier": "REVIEW",
     "score_reasons": [
@@ -77904,7 +77904,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-20T09:01:33Z",
-    "category": "official",
+    "category": "core",
     "score": 44,
     "tier": "REVIEW",
     "score_reasons": [
@@ -78297,7 +78297,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-20T13:19:52Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -78571,7 +78571,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-10-21T05:06:03Z",
-    "category": "official",
+    "category": "memory",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -78849,7 +78849,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-10-22T00:47:46Z",
-    "category": "official",
+    "category": "core",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -79286,7 +79286,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-22T09:28:32Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -79843,7 +79843,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-22T21:12:33Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -81104,7 +81104,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-25T04:03:20Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -81124,7 +81124,7 @@
     "language": "TypeScript",
     "topics": [],
     "updated_at": "2026-10-24T19:07:51Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -81909,7 +81909,7 @@
       "token-quota"
     ],
     "updated_at": "2026-10-26T00:43:34Z",
-    "category": "official",
+    "category": "deployment",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -82598,7 +82598,7 @@
       "read-only"
     ],
     "updated_at": "2026-10-26T19:17:17Z",
-    "category": "official",
+    "category": "skills",
     "score": 45,
     "tier": "REVIEW",
     "score_reasons": [
@@ -82776,7 +82776,7 @@
       "nixos"
     ],
     "updated_at": "2026-10-27T07:40:42Z",
-    "category": "official",
+    "category": "ui",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -83910,7 +83910,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-28T10:15:27Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -84160,7 +84160,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-29T04:01:41Z",
-    "category": "official",
+    "category": "memory",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -84965,7 +84965,7 @@
     "language": null,
     "topics": [],
     "updated_at": "2026-10-29T13:03:31Z",
-    "category": "official",
+    "category": "core",
     "score": 47,
     "tier": "REVIEW",
     "score_reasons": [
@@ -85222,7 +85222,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-10-30T17:33:33Z",
-    "category": "official",
+    "category": "skills",
     "score": 57,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -86741,7 +86741,7 @@
     "language": "Kotlin",
     "topics": [],
     "updated_at": "2026-11-02T07:07:45Z",
-    "category": "official",
+    "category": "core",
     "score": 52,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -86771,7 +86771,7 @@
       "nousresearch"
     ],
     "updated_at": "2026-11-02T01:50:00Z",
-    "category": "official",
+    "category": "ui",
     "score": 51,
     "tier": "HIGH_PRIORITY",
     "score_reasons": [
@@ -87281,7 +87281,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-11-03T01:03:51Z",
-    "category": "official",
+    "category": "ui",
     "score": 49,
     "tier": "REVIEW",
     "score_reasons": [
@@ -88184,6 +88184,495 @@
     ],
     "near_duplicates": [],
     "discovered_at": "2026-11-05T10:01:59.140973+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cayden970207/thoth",
+    "url": "https://github.com/cayden970207/thoth",
+    "description": "One shared brain for Claude Code, Codex and Hermes: a Hermes Agent plugin that coordinates real coding agents with shared context, progress and versions",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "claude-code",
+      "codex",
+      "hermes-agent",
+      "hermes-plugin",
+      "multi-agent"
+    ],
+    "updated_at": "2026-11-06T10:00:55Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "uzairansaruzi/robinhood-agent-skill",
+      "kaankacar/stellar-agent-kit",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Intelligent-Internet/zenith",
+      "stephenschoettler/hermes-lcm",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "Infisical/agent-vault",
+      "conorbronsdon/avoid-ai-writing",
+      "VasiHemanth/tokentelemetry",
+      "stablyai/orca",
+      "NousResearch/hermes-official-plugins",
+      "cavi-ai/mlx-agent",
+      "rexleimo/aios",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons",
+      "sno-ai/sno-station",
+      "dfrostar/neuralmind"
+    ],
+    "discovered_at": "2026-11-06T10:01:06.898436+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hrabanazviking/Mythic_Agent_Coder_CLI",
+    "url": "https://github.com/hrabanazviking/Mythic_Agent_Coder_CLI",
+    "description": "Mythic CLI is a powerful, terminal-based Vibe Coding AI Operating System. Featuring a dual-layer Vector RAG subconscious memory, autonomous subagent swarms, an auto-compacting context engine, and a native FastMCP Server to expose its capabilities to external agents like Hermes Agent, Muse Agent, and OpenClaw.",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agentic-coding",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "ai-assistant",
+      "ai-chat",
+      "ai-chatbot",
+      "ai-harness",
+      "ai-harnesses",
+      "ai-tools",
+      "claude-code",
+      "cli",
+      "coding",
+      "coding-agent",
+      "computer-programming",
+      "computer-programming-tools",
+      "mythic-engineering",
+      "open-source",
+      "vibe-coding",
+      "vibecoding"
+    ],
+    "updated_at": "2026-11-06T10:00:19Z",
+    "category": "core",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "yoloshii/ClawMem",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "ruvnet/ruflo",
+      "kenryu42/cc-safety-net",
+      "VasiHemanth/tokentelemetry",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-06T10:01:06.904109+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hazem-Samak/hermes-pdf-shrink",
+    "url": "https://github.com/Hazem-Samak/hermes-pdf-shrink",
+    "description": "Hermes Agent plugin: shrink a PDF to a target size (2 MB, 500 KB\u2026) entirely on your machine \u2014 image downsampling measured against how each image is actually displayed, an honest floor instead of an unreadable file, and a before/after preview.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-06T09:59:35Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "H-Ali13381/hermes-linux-ricing",
+      "romdix/coolify-hermes-stack",
+      "Bo1202/Aivy-OS",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "kenryu42/cc-safety-net",
+      "moonlight-lupin/agent-skills",
+      "stablyai/orca",
+      "codeofaxel/Kiln",
+      "sno-ai/sno-station"
+    ],
+    "discovered_at": "2026-11-06T10:01:06.907887+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Stxyu-p/trimtok",
+    "url": "https://github.com/Stxyu-p/trimtok",
+    "description": "Universal, deterministic context compressor for AI coding agents & IDEs (Claude Code, Cursor, Antigravity, Codex, Gemini, Hermes) \u2014 88.3% token reduction, lossless TOON v2 JSON tables, AST code skeletonization, and SQLite WAL + Zstd CCR (#c1) recovery over stdio MCP.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "context-compression",
+      "cursor",
+      "local-first",
+      "mcp",
+      "mcp-server",
+      "python",
+      "sqlite",
+      "token-optimization",
+      "zstandard"
+    ],
+    "updated_at": "2026-11-06T09:24:01Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "MervinPraison/PraisonAI",
+      "awizemann/scarf",
+      "unifapi-agent/agents",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "Infisical/agent-vault",
+      "VasiHemanth/tokentelemetry",
+      "vivekchand/clawmetry",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons",
+      "codeofaxel/Kiln",
+      "dfrostar/neuralmind"
+    ],
+    "discovered_at": "2026-11-06T10:01:14.828748+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vanhoof/hermes-rex",
+    "url": "https://github.com/vanhoof/hermes-rex",
+    "description": "Hermes Agent plugin for the Rex terminal: program status, session context and the rex skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-06T04:30:40Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "verkyyi/agentfeeds-hermes-plugin",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-11-06T10:01:22.832695+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "faxforagents/hermes-integration",
+    "url": "https://github.com/faxforagents/hermes-integration",
+    "description": "Fax for Agents for Hermes Agent: hosted OAuth MCP connection, portable stdio plugin and the fax skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "fax",
+      "faxforagents",
+      "hermes-agent",
+      "mcp"
+    ],
+    "updated_at": "2026-11-06T00:43:07Z",
+    "category": "skills",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "megberts/mcp-hermes-integration",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-06T10:01:22.836196+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "neta-gym/skillcheck",
+    "url": "https://github.com/neta-gym/skillcheck",
+    "description": "SkillCheck: Hermes Agent plugin for skill regression testing - LLM-generated test cases, deterministic checks, baselines, revert",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-05T19:27:38Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-06T10:01:22.840116+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MichaelZelbel/godspeed-mission-control",
+    "url": "https://github.com/MichaelZelbel/godspeed-mission-control",
+    "description": "Astronauts have mission control. This builds yours out of AI: a personal support system that lives in a folder you own, keeps watch over what you hand it, solves what it can while you sleep, and wakes you only when it matters. You stay the captain. One AGENTS.md, free, MIT. The manual is the book Teach It Once.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agents-md",
+      "ai-agent",
+      "ai-assistant",
+      "automation",
+      "book",
+      "claude-code",
+      "companion-kit",
+      "hermes-agent",
+      "mcp",
+      "mission-control",
+      "open-source",
+      "opencode",
+      "personal-ai",
+      "personal-assistant",
+      "personal-knowledge-management",
+      "second-brain",
+      "self-hosted",
+      "skills",
+      "starter-kit",
+      "telegram-bot"
+    ],
+    "updated_at": "2026-11-06T10:00:45Z",
+    "category": "forks",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "zszszszsz/.config",
+      "CYC2002tommy/Deep-Research-Agent",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334"
+    ],
+    "discovered_at": "2026-11-06T10:01:30.720834+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Jhanhuo/hermes-agent",
+    "url": "https://github.com/Jhanhuo/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-04T02:42:43Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-06T10:01:30.723767+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "andyylin/hermes-agent",
+    "url": "https://github.com/andyylin/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-06T10:00:04Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-06T10:01:30.726571+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Sumukh047/Hermes-Celestia",
+    "url": "https://github.com/Sumukh047/Hermes-Celestia",
+    "description": "Hermes Agent Studio is a private, local-first AI agent workbench powered by LM Studio. Design and orchestrate autonomous agents with multimodal inference, cron scheduling, and real-time integrations across WhatsApp, Telegram, Discord, Slack, Email, etc\u2014running 100% locally on your machine with zero cloud lock-in.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-11-05T19:36:45Z",
+    "category": "messaging",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "Lethe044/hermes-incident-commander",
+      "H-Ali13381/hermes-linux-ricing",
+      "aiunlocked1412/hermes-agent-pixel",
+      "JackTheGit/hermes-autonomous-server",
+      "hugocarreira/agentrc",
+      "samrusani/AliceBot",
+      "yang1989haoa-gif/synapse-studio",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "mrbooboo1987-creator/hermes-grok-trading-system",
+      "Bo1202/Aivy-OS",
+      "ruvnet/metaharness",
+      "shiwenwen/hope-agent",
+      "Devin-AXIS/iPolloWork",
+      "VasiHemanth/tokentelemetry",
+      "Zyrexnn/Cybermes",
+      "moonlight-lupin/agent-skills",
+      "stablyai/orca",
+      "Orkas-AI/Orkas",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-06T10:02:56.975165+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gisc/make-it-harder",
+    "url": "https://github.com/gisc/make-it-harder",
+    "description": "Socratic tutoring guardrail plugin for Hermes (NousResearch Hermes Agent Plugin Hackathon entry)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-06T08:13:18Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-06T10:03:04.927306+00:00",
     "status": "pending"
   }
 ]
