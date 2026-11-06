@@ -97,6 +97,7 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 - **[Connect Odoo to Perplexity](connect-odoo-to-perplexity.md)** - quotations, invoices, stock and pipeline across ERP modules
 - **[Connect Semrush to Perplexity](connect-semrush-to-perplexity.md)** - competitor keywords, backlinks and demand sizing
 - **[Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md)** - per-video performance and channel trend
+- **[Connect Gmail to Perplexity](connect-gmail-to-perplexity.md)** - commitments, vendor terms and unanswered threads read from your own mailbox
 
 ## Internal Links
 

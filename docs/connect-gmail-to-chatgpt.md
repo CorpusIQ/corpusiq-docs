@@ -175,6 +175,10 @@ Under 5 minutes from signup to email intelligence in ChatGPT.
 - [MCP vs. API Integrations](mcp-vs-api-integrations.md) - detailed comparison
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+## See also
+
+- [Connect Gmail to Perplexity](connect-gmail-to-perplexity.md) - commitments, vendor terms and unanswered threads read from your own mailbox.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
