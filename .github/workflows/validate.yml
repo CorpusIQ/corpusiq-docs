@@ -88,3 +88,15 @@ jobs:
       - name: Validate root/docs mirror parity
         run: python scripts/check_mirror_parity.py
 
+      # The skills sweep lane publishes a batch page plus one line in the
+      # marketplace "Recent Sweeps" index. The index append silently stopped on
+      # 2026-11-06: the November 5 evening and November 6 morning batch pages
+      # were live in the sitemap but linked from nowhere in the site, so no
+      # reader browsing the marketplace could reach the newest sweeps. Nothing
+      # caught it because every URL still returned 200. See
+      # scripts/check_sweep_index_links.py.
+      - name: Validate every recent skills sweep page is indexed
+        run: |
+          python -m unittest scripts/test_check_sweep_index_links.py
+          python scripts/check_sweep_index_links.py
+
