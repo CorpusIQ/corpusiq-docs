@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ Docs Progress"
 description: "Build status and maintenance log for the public CorpusIQ documentation repository."
-last_updated: "2026-11-05"
+last_updated: "2026-11-06"
 ---
 
 # PROGRESS.md - corpusiq-docs build status
