@@ -111,8 +111,8 @@
     "description": "MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle.",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-06",
+    "dateModified": "2026-11-06",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-06">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -158,7 +158,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "MCP Design", "url": "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design", "image": "https://www.corpusiq.io/og?title=MCP%20Design&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "MCP Design", "url": "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design", "image": "https://www.corpusiq.io/og?title=MCP%20Design&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design"}, "datePublished": "2026-11-01", "dateModified": "2026-11-06", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Best Practices", "item": "https://www.corpusiq.io/docs/hermes/best-practices"}, {"@type": "ListItem", "position": 4, "name": "MCP Design", "item": "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design"}]}</script>
 </head>
   
@@ -12460,7 +12460,7 @@
 <li><strong>Caching with care:</strong> Document freshness guarantees</li>
 </ul>
 <h3 id="protocol-revision">Protocol Revision<a class="headerlink" href="#protocol-revision" title="Anchor link to this section">&para;</a></h3>
-<p>Target the current revision of the specification (<code>2026-07-28</code>, per the official schema). Clients and servers announce their version during initialization and settle on one both implement, so a server that also answers an older revision keeps older clients working. Check the revision before publishing and state it in your README.</p>
+<p>Target the current revision of the specification (<code>2026-07-28</code>, per the official schema). That revision removed the <code>initialize</code> handshake: there is no negotiation step any more. Every request declares its protocol version in <code>_meta</code> (<code>io.modelcontextprotocol/protocolVersion</code>) and, on HTTP, in the <code>MCP-Protocol-Version</code> header; a server that does not support the requested version answers with <code>UnsupportedProtocolVersionError</code> listing the versions it does support, and the client retries with one of them. Servers must implement <code>server/discover</code> so a client can learn the supported versions before its first call. A dual-era server that still answers the legacy <code>2025-11-25</code> handshake keeps older clients working. Check the revision before publishing and state it in your README.</p>
 <h2 id="server-lifecycle">Server Lifecycle<a class="headerlink" href="#server-lifecycle" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Development</strong> → <strong>Beta</strong> (real creds, limited access, 1+ week monitoring) → <strong>Production</strong> (full monitoring, stable schemas) → <strong>Maintenance</strong> (upstream API updates, deprecation with 30+ day notice) → <strong>Sunset</strong></p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
