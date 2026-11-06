@@ -3,7 +3,7 @@ title: "Creating Custom Skills for Hermes Agent"
 description: Complete guide to creating custom Hermes Agent skills. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, and publishing. Build reusable AI agent workflows step by step.
 category: skills
 tags: [hermes-agent, skills, custom-skills, skill-development, triggers, testing, publishing, reusable-workflows]
-last_updated: "2026-11-01"
+last_updated: "2026-11-05"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/creating-skills/"
 robots: "index,follow"
 
@@ -227,7 +227,7 @@ hermes skills install https://example.com/SKILL.md --name my-skill
 
 4. Respond to community feedback and update as needed
 
-See the [Skill Marketplaces guide](skill-marketplaces.md) for how the registries differ, and `hermes skills --help` for the full source list (`official`, `skills-sh`, `well-known`, `url`, `github`, `clawhub`, `lobehub`, `browse-sh`).
+See the [Skill Marketplaces guide](skill-marketplaces.md) for how the registries differ, and `hermes skills search --help` for the current `--source` list (`official`, `skills-sh`, `well-known`, `github`, `clawhub`, `lobehub`, `browse-sh`, plus provider sources `nvidia`, `openai`, `anthropic`, `huggingface`, `voltagent`, `gstack` and `minimax`). A direct `SKILL.md` URL is an install identifier (`hermes skills install <url>`), not a search source.
 
 ## Maintaining Your Skill
 

@@ -3,7 +3,7 @@ title: "Hermes Agent Docker Image and Docker Compose Setup"
 description: Run Hermes Agent from the official nousresearch/hermes-agent Docker image. Docker Compose config, persistent volumes, MCP servers, cron persistence and a production checklist.
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
-last_updated: 2026-11-01
+last_updated: 2026-11-05
 canonical: "https://www.corpusiq.io/docs/hermes/setup/docker/"
 robots: "index,follow"
 
@@ -123,8 +123,12 @@ docker compose exec hermes hermes mcp add corpusiq --url https://mcp2.corpusiq.i
 # Remote server that needs a bearer token (prompts for the key, saves it to /opt/data/.env)
 docker compose exec hermes hermes mcp add honcho --url https://mcp.honcho.dev --auth header
 
+# GitHub's official remote server (the @modelcontextprotocol/server-github npm
+# package is archived and unmaintained); --auth header prompts for the token
+docker compose exec hermes hermes mcp add github --url https://api.githubcopilot.com/mcp/ --auth header
+
 # Stdio server: --args must be the last option
-docker compose exec hermes hermes mcp add github --command npx --args @modelcontextprotocol/server-github
+docker compose exec hermes hermes mcp add filesystem --command npx --args -y @modelcontextprotocol/server-filesystem /opt/data
 ```
 
 Verify with `docker compose exec hermes hermes mcp test corpusiq`. See the [MCP Integration Guide](/hermes/mcp) for all available servers.

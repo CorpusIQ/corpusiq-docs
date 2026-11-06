@@ -7,7 +7,7 @@ added: 2026-11-04
 source: "mcpservers.org /all newest page slug api-provecart-com-mcp read through the r.jina.ai reader, plus a keyless driven session on https://api.provecart.com/mcp: initialize 200 as provecart 1.0.2, tools/list returning all 10 tools, provecart_scoreboard and provecart_certification_info called live with real payloads, and the three check tools refusing without an integrator key (exact error quoted in the guide), plus HTTP 200 reads of provecart.com"
 relevance: ★★★
 tags: [agent-commerce, order-verification, bookings, reservations, payment-gate, signed-verdict, agent-certification, remote-mcp]
-last_updated: "2026-11-04"
+last_updated: "2026-11-05"
 ---
 
 # ProveCart MCP
