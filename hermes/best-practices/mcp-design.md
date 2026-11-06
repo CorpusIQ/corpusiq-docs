@@ -3,7 +3,7 @@ title: "MCP Server Design Guide for Hermes Agent"
 description: MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle. Build production-ready Model Context Protocol servers for AI agent tools.
 category: best-practices
 tags: [hermes-agent, mcp-design, mcp-server, tool-design, model-context-protocol, error-handling, testing]
-last_updated: 2026-11-01
+last_updated: 2026-11-06
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design/"
 robots: "index,follow"
 
@@ -53,7 +53,7 @@ MCP servers are how Hermes Agent connects to external systems. Each server expos
 
 ### Protocol Revision
 
-Target the current revision of the specification (`2026-07-28`, per the official schema). Clients and servers announce their version during initialization and settle on one both implement, so a server that also answers an older revision keeps older clients working. Check the revision before publishing and state it in your README.
+Target the current revision of the specification (`2026-07-28`, per the official schema). That revision removed the `initialize` handshake: there is no negotiation step any more. Every request declares its protocol version in `_meta` (`io.modelcontextprotocol/protocolVersion`) and, on HTTP, in the `MCP-Protocol-Version` header; a server that does not support the requested version answers with `UnsupportedProtocolVersionError` listing the versions it does support, and the client retries with one of them. Servers must implement `server/discover` so a client can learn the supported versions before its first call. A dual-era server that still answers the legacy `2025-11-25` handshake keeps older clients working. Check the revision before publishing and state it in your README.
 
 ## Server Lifecycle
 
