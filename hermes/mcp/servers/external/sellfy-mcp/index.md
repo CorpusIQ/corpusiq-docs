@@ -91,7 +91,7 @@ The write side is where the discipline shows. Draft a product, attach the file, 
 
 ## Integration with CorpusIQ
 
-The value of a connector like this inside a governed retrieval layer is narrow and real: sales and order questions that today live behind a login become one more read source next to Shopify, Stripe and QuickBooks, and the operator gets a single answer that cites which system it came from instead of three numbers that disagree. CorpusIQ's retrieval model is read-only by default and never stores customer data, so the honest framing is that the read tools are the part that fits, while the write tools belong in the vendor's own approval flow.
+The value of a connector like this inside a governed retrieval layer is narrow and real: sales and order questions that today live behind a login become one more read source next to Shopify, Stripe and QuickBooks, and the operator gets a single answer that cites which system it came from instead of three numbers that disagree. CorpusIQ's direct MCP requests fetch live and do not retain raw customer files or full connector response payloads; operational logs can retain query text, per-user tool-call metadata and bounded outcome summaries for up to 30 days, while optional indexed search and compliance receipts carry their own separate lifecycles. On that basis the read tools are the part that fits, while the write tools belong in the vendor's own approval flow.
 
 ## Limitations
 
