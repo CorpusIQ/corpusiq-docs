@@ -3,7 +3,7 @@ title: "Troubleshooting Guide - CorpusIQ Docs"
 description: "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-05"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -104,26 +104,23 @@ hermes auth status <provider>
 
 ### Automated Re-Auth
 
-For services that support it, configure automated token refresh:
+There is no separate token-management config file. Credentials live in `~/.hermes/auth.json` (per-provider entries plus the `credential_pool`), and Hermes refreshes them from that store: an expired access token is refreshed with its refresh token on the next call, and a pool entry that hits a rate limit or auth failure is demoted and cooled down automatically.
 
-```yaml
-# hermes/config/auth.yaml
-token_management:
-  proactive_refresh: true
-  refresh_before_expiry_hours: 24
-  alert_on_refresh_failure: true
-  max_retry_attempts: 3
+To refresh on a schedule instead of waiting for the next failing request, drive the same command from a Hermes cron job:
 
-  connectors:
-    google_workspace:
-      refresh_interval_hours: 24
-      alert_channel: "ops-alerts"
-    microsoft:
-      refresh_interval_hours: 24
-      alert_channel: "ops-alerts"
-    slack:
-      refresh_interval_hours: 48
+```bash
+hermes auth refresh openrouter      # refresh the pooled credential and clear its cooldown
+hermes auth status openrouter       # confirm the new expiry
 ```
+
+```bash
+# cron: refresh the pooled credential before it expires
+hermes cron create "0 4 * * *" \
+  "Run: hermes auth refresh openrouter. Report only if it fails." \
+  --name token-refresh
+```
+
+A refresh token that has itself expired cannot be refreshed - that needs a fresh `hermes auth add <provider>` round trip.
 
 ### Manual Token Reset
 
@@ -209,15 +206,11 @@ journalctl --since "2026-06-16 03:00" --until "2026-06-16 03:05" | grep -i "memo
 hermes cron runs --limit 20 <job_id> | grep -i "rate_limit\|backoff"
 ```
 
-**Fix:** Set appropriate concurrency policies per job:
+**Fix:** There is no per-job concurrency policy to set. A job that is still mid-run when its next occurrence comes due is refused with "already running" instead of double-firing, so the fix is to make the job finish inside its own period: shrink the work, raise the interval, or move long work to a `--script` job that exits fast. Confirm the overlap in the run history before changing anything:
 
-```yaml
-# hermes/cron/<job_name>.yaml
-concurrency_policy: "skip"     # skip if already running (default)
-# or
-concurrency_policy: "queue"    # queue and run after current finishes
-# or
-concurrency_policy: "replace"  # kill current, start new
+```bash
+hermes cron runs --limit 20 <job_id>     # look for back-to-back runs with no gap
+hermes cron edit <job_id>                # widen the schedule if runs are colliding
 ```
 
 ### Symptom: Upstream dependency failed (context_from chain broken)

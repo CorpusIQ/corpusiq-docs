@@ -3,7 +3,7 @@ title: "Raspberry Pi 5 Hermes Agent Setup"
 description: Run Hermes Agent on Raspberry Pi 5 for under $80 hardware and $5/month ongoing. Always-on email monitoring, cron jobs, and lightweight AI automation. Step-by-step Pi setup with cloud models and external storage.
 category: setup
 tags: [raspberry-pi, hermes-agent, setup-guide, low-cost, always-on, arm64, cron-automation, budget-ai]
-last_updated: "2026-11-01"
+last_updated: "2026-11-05"
 canonical: "https://www.corpusiq.io/docs/hermes/setup/raspberry-pi/"
 robots: "index,follow"
 
@@ -50,8 +50,9 @@ sudo apt update && sudo apt upgrade -y
 ### Step 2: Install Dependencies
 
 ```bash
-sudo apt install -y python3 python3-pip python3-venv nodejs npm git curl
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y python3 python3-pip python3-venv git curl
+# Node 24 is the current LTS line (Node 20 reached end-of-life in April 2026)
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 

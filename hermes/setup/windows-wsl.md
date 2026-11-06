@@ -3,7 +3,7 @@ title: "Windows 11 WSL2 Hermes Agent Setup"
 description: Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2. GPU passthrough for NVIDIA CUDA, native Ollama models, systemd persistence, and browser automation. Free if you already own a Windows PC.
 category: setup
 tags: [windows, wsl2, hermes-agent, setup-guide, nvidia, gpu-passthrough, ollama, linux-on-windows]
-last_updated: 2026-11-01
+last_updated: 2026-11-05
 canonical: "https://www.corpusiq.io/docs/hermes/setup/windows-wsl/"
 robots: "index,follow"
 
@@ -79,7 +79,7 @@ sudo apt install -y git curl tar ffmpeg
 Install Node.js separately only if your own tooling needs a system-wide copy:
 
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 

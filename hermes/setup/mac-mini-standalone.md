@@ -3,7 +3,7 @@ title: "Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright"
 description: "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference."
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
-last_updated: 2026-11-01
+last_updated: 2026-11-05
 canonical: "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone/"
 robots: "index,follow"
 
@@ -103,8 +103,8 @@ patchright install chromium
 ### Step 5: Social Publishing (Postiz)
 
 ```bash
-npm install -g postiz-cli
-postiz auth
+npm install -g postiz               # npm package is `postiz` (bin: postiz)
+postiz auth:login                   # OAuth2 device flow; or export POSTIZ_API_KEY
 # → Opens browser: log in and authorize platform connectors
 ```
 
@@ -113,8 +113,8 @@ postiz auth
 **Gateway (Background):**
 
 ```bash
-# Start as a launchd service for auto-restart
-hermes gateway run --replace
+# Install as a launchd service (auto-restart, starts on login)
+hermes gateway install --start-now
 
 # Verify
 hermes gateway status
@@ -124,16 +124,14 @@ hermes gateway status
 
 ```bash
 # Email monitoring every 15 minutes
-hermes cron create \
-  --name "email-watch" \
-  --prompt "Check inbox for unread. Summarize new emails. Silent if empty." \
-  --schedule "*/15 * * * *"
+hermes cron create "*/15 * * * *" \
+  "Check inbox for unread. Summarize new emails. Silent if empty." \
+  --name "email-watch"
 
 # Daily summary at 6 PM
-hermes cron create \
-  --name "daily-report" \
-  --prompt "Summarize today's activity. What happened? What's pending?" \
-  --schedule "0 18 * * *"
+hermes cron create "0 18 * * *" \
+  "Summarize today's activity. What happened? What's pending?" \
+  --name "daily-report"
 ```
 
 See [cron design best practices](/hermes/best-practices/cron-design) for production-grade scheduling patterns.
@@ -153,15 +151,16 @@ Or go to **System Settings → Battery → Options → Prevent automatic sleepin
 
 ```bash
 # Honcho - peer memory (2 min)
-hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev \
-  --header "Authorization: Bearer your-h...ken" \
-  --header "X-Honcho-Workspace-ID: your-workspace"
+# --auth header prompts for the bearer token and writes it to ~/.hermes/.env
+# (--args always comes last: it takes everything that follows)
+hermes mcp add honcho --auth header --command npx --args mcp-remote https://mcp.honcho.dev
 
 # GBrain - project memory (10 min)
 git clone https://github.com/garrytan/gbrain && cd gbrain && ./setup.sh
 
-# memcore - cross-session context (5 min)
-hermes plugins enable memcore_yifanchen
+# Cross-session plugins come from the curated catalog
+hermes plugins search memory
+hermes plugins install <name>          # then: hermes plugins enable <name>
 ```
 
 Full details in the [memory architecture guide](/hermes/knowledge).
