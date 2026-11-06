@@ -29,7 +29,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 | **Review time** | <48 hours |
 | **Categories** | 18 |
 
-*Counts as of November 5, 2026. The live repo count is maintained on the [ecosystem directory](/hermes/ecosystem). Approved counts reflect repos currently live in the directory; repos later pruned as dead or archived are removed from the count.*
+*Counts as of November 6, 2026. The live repo count is maintained on the [ecosystem directory](/hermes/ecosystem). Approved counts reflect repos currently live in the directory; repos later pruned as dead or archived are removed from the count.*
 
 ## How to Contribute
 
