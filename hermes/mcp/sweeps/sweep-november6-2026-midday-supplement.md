@@ -25,7 +25,7 @@ The other two surfaces behaved as expected at a short interval. The twelve-sitem
 | mcp.so homepage | direct fetch plus a cache-busted second read | **204** `createdAt` occurrences, **167** distinct stamps, newest `2026-11-06T16:54:40.494Z` (**patentref**) on both reads, **one** card above the midday stamp |
 | chatmcp/mcpso submission window | authenticated `gh api`, three issues | `#6859` ROVE Snow Forecast, `#6860` ndekoui, `#6861` Sanctionlistcheck.com, all arrivals |
 | Official MCP registry | `registry.modelcontextprotocol.io` searches per candidate | Resolved `io.github.patentref/patentref-mcp` **0.4.0**, `com.sanctionlistcheck/sanctionlistcheck` **1.0.0**, `com.rove-ski/snow-forecast` **1.0.0** and **1.0.1**, plus twelve `/all` cohort names |
-| Endpoint probes | keyless `initialize` | `https://mcp.zplflow.io/v1/mcp` and `/v1/mcp/` both **401 UNAUTHORIZED** with no `WWW-Authenticate`, confirming a static-key surface rather than OAuth |
+| Endpoint probes | keyless `initialize` | `https://mcp.zplflow.io/v1/mcp` answers **301** to `/v1/mcp/`, which returns **401 UNAUTHORIZED** with no `WWW-Authenticate`, confirming a static-key surface rather than OAuth. Redirect and 401 carry the same site security headers, so both come from the vendor's own stack (re-probed 2026-11-06 19:01Z) |
 
 ## The surface that came back
 
