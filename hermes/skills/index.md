@@ -3,7 +3,7 @@ title: "Hermes Skills - CorpusIQ Docs"
 description: 445+ skills for Hermes agents - 90 native CorpusIQ skills, 350+ marketplace skills from skills.sh. Reusable, executable agent capabilities.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -93,7 +93,7 @@ If a skill fails to load, check the Hermes logs for missing dependency errors. M
 
 ## Creating Custom Skills
 
-You can create your own skills for any repeatable workflow. The fastest path is to let Hermes generate the skill from a working session:
+You can create your own skills for any repeatable workflow. The fastest path is `/learn`, which authors a skill from material you point it at - a local directory, a doc URL, pasted notes, or the task you just completed in the session:
 
 ```bash
 # After completing a task manually, tell Hermes to create a skill from it
@@ -127,11 +127,15 @@ Output markdown table: automation name, last run, status, issues found.
 - Report includes actionable recommendations
 ```
 
-Install your custom skill:
+Install your custom skill by putting it where Hermes scans for skills: the profile skills directory, for example `~/.hermes/skills/email-audit/SKILL.md`:
 
 ```bash
-hermes skills install ./my-skills/email-audit.md
+mkdir -p ~/.hermes/skills/email-audit
+# write SKILL.md into that directory, then list what loaded
+hermes skills list --source local
 ```
+
+A skill you wrote yourself needs no install step: Hermes scans the skills directory at startup. `hermes skills install` is for registry identifiers and direct HTTP(S) URLs to a `SKILL.md`, not local paths.
 
 The skill is now available for any Hermes session in your profile. Invoke it by mentioning the trigger keywords or calling it explicitly:
 
@@ -158,6 +162,17 @@ The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/
 - [July 4, 2026 - agent-sessions (683⭐) + 22 more repos](/hermes/skills/marketplace/new-july4-2026)
 - [July 1, 2026 - Official Hermes Gap Sweep (49 skills)](/hermes/skills/marketplace/new-july1-2026)
 - [June 15, 2026 - Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026)
+
+## FAQ
+
+### Do I need to install a skill I wrote myself?
+No. Hermes scans the skills directory at startup, so a `SKILL.md` placed in `~/.hermes/skills/<name>/` (or your profile's skills directory) is available immediately. `/learn` writes it there for you.
+
+### Which command updates a hub-installed skill?
+`hermes skills check` reports which installed hub skills have updates, and `hermes skills update <name>` applies them. Skills you have edited locally are skipped so your changes are not overwritten; pass `--force` to replace them with the upstream version anyway.
+
+### Why does a skill install fail with a rate-limit error?
+Hub operations use the GitHub API, which allows 60 requests per hour unauthenticated and about two calls per install. Set `GITHUB_TOKEN` in your `.env` to raise that to 5,000 requests per hour.
 
 ## Quick Links
 

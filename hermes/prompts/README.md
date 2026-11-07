@@ -3,7 +3,7 @@ title: "Readme"
 description: "Hermes prompts directory - ready-to-use AI prompts for business operations, code generation, content creation, data analysis, research, and creative"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 tags: ["hermes prompt", "prompt engineering", "ai prompt"]
 
 ---
@@ -37,6 +37,13 @@ Every prompt lists:
 | [seo-and-content.md](seo-and-content) | Search Console, Semrush, YouTube, ranking drift |
 | [productivity-and-files.md](productivity-and-files) | Inbox triage, calendar, file search, missed emails |
 | [multi-source.md](multi-source) | The moat - prompts that fire across 3+ connectors |
+| [business-operations.md](business-operations) | Email drafting, meeting summaries, project planning, task organization |
+| [data-analysis.md](data-analysis) | Exploratory analysis, SQL generation, reporting, visualization guidance |
+| [research.md](research) | Competitive analysis, market sizing, technology evaluation, trend reports |
+| [content-creation.md](content-creation) | Blog posts, social content, email campaigns, video scripts |
+| [creative.md](creative) | Brainstorming, naming, design briefs, creative strategy |
+| [code-generation.md](code-generation) | Writing, refactoring, debugging, and reviewing code |
+| [mcp-developer-queries.md](mcp-developer-queries) | Querying business data programmatically, cross-connector joins |
 
 ## Tips
 
