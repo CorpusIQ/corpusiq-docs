@@ -73,6 +73,21 @@ jobs:
           python scripts/generate_llms_txt.py
           git diff --exit-code -- llms.txt llms-full.txt
 
+      # Publication gate for the skills sweep index (2026-11-07). The November 5
+      # evening and November 6 morning batch pages shipped with no "Recent
+      # Sweeps" entry, then the November 6 evening batch repeated it: 16 setup
+      # guides were live in the sitemap and reachable from nowhere in the site.
+      # Validate docs already ran scripts/check_sweep_index_links.py and failed
+      # on that commit, but THIS workflow is the only path that publishes to
+      # docs.corpusiq.io, and it did not run the check, so the orphan page went
+      # to production anyway. A pre-commit hook cannot close this: the sweeps
+      # push from automation, and hooks are skippable. Run the same guard here,
+      # before the build, so an unindexed batch page can never be published.
+      - name: Validate every recent skills sweep page is indexed
+        run: |
+          python -m unittest scripts/test_check_sweep_index_links.py
+          python scripts/check_sweep_index_links.py
+
       - name: Build site
         run: mkdocs build --site-dir ./site
 
