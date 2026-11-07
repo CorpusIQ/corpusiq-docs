@@ -1,6 +1,6 @@
 {
-  "commit": "1dde02c9682e4ca27cbc0b851c25bbe8022058fc",
-  "built_at": "2026-11-07T10:25:28Z",
+  "commit": "2aad15570b728e80064e6b6d18899e9ed6fca41b",
+  "built_at": "2026-11-07T11:02:25Z",
   "source": "mkdocs-post-build-hook",
   "feeds": [
     "llms.txt",
