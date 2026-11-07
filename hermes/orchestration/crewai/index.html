@@ -107,8 +107,8 @@
     "description": "Production guide for multi-agent orchestration with CrewAI and Hermes - agent definitions, task delegation, coordination strategies",
     "url": "https://www.corpusiq.io/docs/hermes/orchestration/crewai",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-07">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "CrewAI + Hermes Integration - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/orchestration/crewai", "image": "https://www.corpusiq.io/og?title=CrewAI%20%2B%20Hermes%20Integration%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/orchestration/crewai"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Production guide for multi-agent orchestration with CrewAI and Hermes - agent definitions, task delegation, coordination strategies", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "CrewAI + Hermes Integration - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/orchestration/crewai", "image": "https://www.corpusiq.io/og?title=CrewAI%20%2B%20Hermes%20Integration%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/orchestration/crewai"}, "datePublished": "2026-11-01", "dateModified": "2026-11-07", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Production guide for multi-agent orchestration with CrewAI and Hermes - agent definitions, task delegation, coordination strategies", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Orchestration", "item": "https://www.corpusiq.io/docs/hermes/orchestration"}, {"@type": "ListItem", "position": 4, "name": "CrewAI + Hermes Integration - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/orchestration/crewai"}]}</script>
 </head>
   
@@ -12350,17 +12350,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cost overrun: Set max_iter on agents (default is 15 - often too high). Set max_rpm on crew. Monitor via Hermes' usage tracking.
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -12757,7 +12746,8 @@
 <p><strong>Agent uses wrong model tier:</strong> Verify the <code>model_tier</code> parameter in your HermesLLM adapter. Check Hermes routing rules aren't overriding.</p>
 <p><strong>Tools not found:</strong> Ensure tool names in agent config match Hermes' registered tool names exactly. Use <code>hermes tools list</code> to verify.</p>
 <p><strong>Sequential tasks stall:</strong> Check that each task's <code>expected_output</code> is produced. CrewAI won't proceed without it. Add timeout guards.</p>
-<h2 id="cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking"><strong>Cost overrun:</strong> Set <code>max_iter</code> on agents (default is 15 - often too high). Set <code>max_rpm</code> on crew. Monitor via Hermes' usage tracking.<a class="headerlink" href="#cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking" title="Anchor link to this section">&para;</a></h2>
+<p><strong>Cost overrun:</strong> Set <code>max_iter</code> on agents (default is 15 - often too high). Set <code>max_rpm</code> on crew. Monitor via Hermes' usage tracking.</p>
+<hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 
 
