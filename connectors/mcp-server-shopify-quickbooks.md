@@ -1,7 +1,7 @@
 ---
 title: "MCP Server for Shopify and QuickBooks: Ask Both at Once"
 description: "Does your Shopify revenue match your QuickBooks books? With CorpusIQ MCP, reconciling Shopify and QuickBooks is one question instead of hours of exports."
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 # MCP Server for Shopify and QuickBooks: Ask Both at Once
 

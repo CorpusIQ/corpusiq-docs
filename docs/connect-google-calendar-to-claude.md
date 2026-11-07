@@ -3,7 +3,7 @@ title: "Connect Google Calendar to Claude via MCP - Read Your Week"
 description: "Connect Google Calendar to Claude through CorpusIQ MCP. Ask what is booked, where the hours go, and what was agreed, read-only from your live calendars."
 category: Claude Integrations
 tags: ["connect Google Calendar to Claude", "Google Calendar Claude integration", "MCP Calendar connector", "calendar data to Claude", "meeting load analysis", "CorpusIQ MCP"]
-last_updated: "2026-11-04"
+last_updated: "2026-11-07"
 canonical: "https://www.corpusiq.io/docs/connect-google-calendar-to-claude"
 robots: "index,follow"
 ---

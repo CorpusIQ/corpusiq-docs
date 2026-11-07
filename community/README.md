@@ -1,7 +1,7 @@
 ---
 title: "Community and Contributions - CorpusIQ Docs"
 description: "Join the CorpusIQ community: contribute connectors, submit skills, request features, and help build the data trust layer for AI agents."
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 # Community
 

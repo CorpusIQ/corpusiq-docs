@@ -3,7 +3,7 @@ title: "Connect Google Drive to Claude via MCP - Ask Your Documents"
 description: "Connect Google Drive to Claude through CorpusIQ MCP. Ask what a contract says, find the current version of a document, and get answers tied to the file used."
 category: Claude Integrations
 tags: ["connect Google Drive to Claude", "Google Drive Claude integration", "MCP Drive connector", "search documents with Claude", "document Q&A", "CorpusIQ MCP"]
-last_updated: "2026-11-04"
+last_updated: "2026-11-07"
 canonical: "https://www.corpusiq.io/docs/connect-google-drive-to-claude"
 robots: "index,follow"
 ---

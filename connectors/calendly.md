@@ -1,7 +1,7 @@
 ---
 title: "Calendly - CorpusIQ Docs"
 description: "Your calendar tells one story; your booking link tells another. Calendly knows which prospects actually booked, who showed up, who canceled, and what."
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 # Calendly
 

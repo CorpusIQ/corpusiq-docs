@@ -4,7 +4,7 @@ description: "Transform compliance operations with AI. Query records, policies, 
 url: /docs/ai-for-compliance
 h1: 'AI for Compliance: Real-Time Regulatory Intelligence'
 category: Business Use Cases
-last_updated: '2026-11-01'
+last_updated: '2026-11-07'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-compliance
 keywords:

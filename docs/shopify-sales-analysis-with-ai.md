@@ -12,7 +12,7 @@ keywords:
 - Shopify sales forecasting AI
 - customer segmentation AI
 - discount optimization AI
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-sales-analysis-with-ai

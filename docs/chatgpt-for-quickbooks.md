@@ -12,7 +12,7 @@ keywords:
 - MCP platform QuickBooks
 - AI financial analysis
 - QuickBooks conversational AI
-last_updated: "2026-11-02"
+last_updated: "2026-11-07"
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/chatgpt-for-quickbooks

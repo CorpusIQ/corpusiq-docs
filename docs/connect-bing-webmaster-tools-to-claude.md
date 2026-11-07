@@ -3,7 +3,7 @@ title: "Connect Bing Webmaster Tools to Claude via MCP"
 description: "Connect Bing Webmaster Tools to Claude through CorpusIQ MCP. Ask for impressions, clicks, top queries and crawl health, with cited answers."
 category: Claude Integrations
 tags: ["connect Bing Webmaster Tools to Claude", "Bing Webmaster Claude integration", "Bing SEO data in Claude", "MCP Bing Webmaster connector", "Bing search analytics", "CorpusIQ MCP"]
-last_updated: "2026-11-04"
+last_updated: "2026-11-07"
 canonical: https://www.corpusiq.io/docs/connect-bing-webmaster-tools-to-claude
 robots: index,follow
 ---

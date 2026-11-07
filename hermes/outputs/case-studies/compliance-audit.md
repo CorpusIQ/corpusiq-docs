@@ -10,7 +10,7 @@ tags:
   - GDPR
   - automation
   - AI agent
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/compliance-audit/"
 robots: "index,follow"
 

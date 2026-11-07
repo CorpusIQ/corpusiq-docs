@@ -3,7 +3,7 @@ title: "June 10, 2026 Discoveries - CorpusIQ Docs"
 description: 68 new high-value skills discovered across 12 new repositories. Setup guides with install commands and Hermes integration tips.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june10-2026/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---

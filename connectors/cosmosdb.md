@@ -1,7 +1,7 @@
 ---
 title: "Azure Cosmos DB - CorpusIQ Docs"
 description: "Cosmos DB is often where the unglamorous-but-critical data lives: event logs, telemetry, user activity, IoT readings. Connecting it lets CorpusIQ run."
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 # Azure Cosmos DB
 

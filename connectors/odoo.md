@@ -1,7 +1,7 @@
 ---
 title: "Odoo - CorpusIQ Docs"
 description: "Pull your Odoo ERP into conversation - sales orders, invoices, CRM pipeline, inventory, projects, employees - without clicking through twenty Odoo scr."
-last_updated: "2026-11-05"
+last_updated: "2026-11-07"
 ---
 # Odoo
 

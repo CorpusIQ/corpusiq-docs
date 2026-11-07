@@ -10,7 +10,7 @@ tags:
   - regulatory filing
   - AI agent
   - fintech automation
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/financial-services/"
 robots: "index,follow"
 

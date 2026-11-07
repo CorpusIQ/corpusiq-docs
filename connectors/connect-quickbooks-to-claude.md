@@ -1,7 +1,7 @@
 ---
 title: "How to Connect QuickBooks to Claude (Plain English Q&A)"
 description: "Instead of running QuickBooks reports and copy-pasting into a spreadsheet, connect QuickBooks to Claude through CorpusIQ and ask your accounting questions."
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 # How to Connect QuickBooks to Claude (Plain English Q&A)
 

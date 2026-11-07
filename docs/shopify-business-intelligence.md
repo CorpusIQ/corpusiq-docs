@@ -12,7 +12,7 @@ keywords:
 - MCP Shopify BI
 - Shopify data warehouse alternative
 - ecommerce decision intelligence
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-business-intelligence

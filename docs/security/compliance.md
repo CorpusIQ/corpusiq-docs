@@ -3,7 +3,7 @@ title: "Security Compliance - CorpusIQ Docs"
 description: "CorpusIQ compliance documentation: CASA Tier 2, SOC 2 aligned controls, lawful basis, retention and deletion, subprocessors, and audit cadence."
 category: "Documentation"
 tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]
-last_updated: "2026-11-03"
+last_updated: "2026-11-07"
 canonical: "https://www.corpusiq.io/docs/security/compliance/"
 robots: "index,follow"
 ---

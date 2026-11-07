@@ -3,7 +3,7 @@ title: "Connect Salesforce to ChatGPT via MCP - Live Data"
 description: "Connect your Salesforce account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
 category: ChatGPT Integrations
 tags: ["connect Salesforce to ChatGPT", "Salesforce ChatGPT integration", "MCP Salesforce connector", "Salesforce data to ChatGPT", "AI for Salesforce", "CorpusIQ MCP"]
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 canonical: https://www.corpusiq.io/docs/connect-salesforce-to-chatgpt
 robots: index,follow
 ---
