@@ -3,7 +3,7 @@ title: "Hermes Orchestrator: How the Agent Runs Work"
 description: "How Hermes orchestration works: the execution kernel, tool routing, and production patterns for multi-step and multi-agent work. Configuration included."
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/hermes/"
 robots: "index,follow"
-last_updated: "2026-11-02"
+last_updated: "2026-11-07"
 tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 
 ---
@@ -14,7 +14,7 @@ Hermes serves as the platform's primary orchestration framework and execution en
 
 ## Version History
 
-Deployed from v0.20.0 to v0.20.0, incorporating 426 commits:
+The current upstream release is v0.23.0, published 5 November 2026. A fresh install lands on the latest stable release, and `hermes update` follows that channel from then on. The product line ships with:
 
 - Model switching with fallback chains
 - Browser and computer-use tooling

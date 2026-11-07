@@ -3,7 +3,7 @@ title: "CorpusIQ MCP Troubleshooting - CorpusIQ Docs"
 description: "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq/"
 robots: "index,follow"
-last_updated: 2026-11-01
+last_updated: "2026-11-07"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -78,16 +78,15 @@ The tool inputSchema defines only `action` and `params` as properties. All query
 mcp_servers:
   corpusiq:
     url: "https://mcp2.corpusiq.io/mcp"
-    transport: "streamable-http"
 ```
 
-Run `hermes mcp list` to verify it's registered.
+Run `hermes mcp list` to verify it's registered, and `hermes mcp test corpusiq` to check the connection and confirm tool discovery. Hermes derives the transport from the entry: `url` for a remote HTTP server, `command` plus `args` for a local stdio server.
 
 ## OAuth device link expired
 
 **Symptom:** The device auth URL opened in browser says "link expired."
 
-**Fix:** The device auth link is valid for 15 minutes. Run `hermes mcp connect corpusiq` again to get a fresh link. Open immediately.
+**Fix:** The device auth link is valid for 15 minutes. Force a fresh authorization with `hermes mcp login corpusiq`, then open the new link immediately.
 
 ## Tools not showing up
 
@@ -96,7 +95,7 @@ Run `hermes mcp list` to verify it's registered.
 **Fix:** 
 1. Verify you've connected at least one business tool in the CorpusIQ dashboard
 2. Tools are dynamically registered - you need an active tool connection
-3. Run `hermes mcp tools corpusiq` to see available tools
+3. Run `hermes mcp test corpusiq` to confirm tool discovery, or `hermes mcp configure corpusiq` to review and toggle the tools Hermes exposes
 
 ## "Rate limit exceeded" on GitHub API
 

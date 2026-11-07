@@ -3,7 +3,7 @@ title: "How to Add CorpusIQ MCP to Hermes Agent"
 description: "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp/"
 robots: "index,follow"
-last_updated: 2026-11-01
+last_updated: "2026-11-07"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -35,18 +35,19 @@ Add this to your Hermes Agent config (`~/.hermes/config.yaml`):
 mcp_servers:
   corpusiq:
     url: "https://mcp2.corpusiq.io/mcp"
-    transport: "streamable-http"
     headers:
       Authorization: "Bearer <jwt>"
 ```
 
-The `Authorization` header carries the JWT obtained during device authentication. The transport must be `streamable-http` (not `sse` or `stdio`).
+The `Authorization` header carries the JWT obtained during device authentication. Hermes picks the transport from the entry itself: `url` means a remote HTTP server, `command` plus `args` means a local stdio server. There is no `transport` key to set.
 
 Or if using `hermes mcp` CLI:
 
 ```bash
-hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --transport streamable-http
+hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --auth header
 ```
+
+`--auth header` prompts for the token and writes the `Authorization` header into the config entry for you.
 
 ## 4. Authenticate
 

@@ -3,7 +3,7 @@ title: "Run a Local Coding Agent: OpenCode + Nemotron on GPU"
 description: "Set up opencode as a free local coding agent: Nemotron served by vLLM, sandbox discipline, and the directory-pinning gotcha that saves your repos."
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 tags: ["local llm", "coding agent", "opencode", "vllm", "dgx spark"]
 ---
 
@@ -42,7 +42,7 @@ Two flags matter more than they look. Memory utilization sets how much of the de
 npm i -g opencode-ai
 ```
 
-That package installs the OpenCode 1 line, which is what the rest of this guide is written against. The project now also ships OpenCode 2; the official install script (`curl -fsSL https://opencode.ai/install | bash`) is the path the docs give for a fresh install, and their Homebrew formula installs the newer version. Pick one line and stay on it, because the two installations can replace each other's binary.
+That installs the OpenCode 1 line, which is what the rest of this guide is written against. As of November 2026 the npm `opencode-ai` package still publishes the 1.x line (latest 1.19.5), and `https://opencode.ai/install` redirects to the `v1` branch of the install script, so the one-liner and the npm path give you the same generation. The project does publish OpenCode 2 releases on GitHub, but those are a separate distribution, not the npm package. Pick one line and stay on it, because two installations can replace each other's binary.
 
 Point it at the local endpoint in `~/.config/opencode/opencode.json`:
 
