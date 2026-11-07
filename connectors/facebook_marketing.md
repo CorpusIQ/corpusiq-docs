@@ -54,6 +54,11 @@ CorpusIQ never creates ads, edits budgets, or pauses campaigns.
 - **"Permissions error on insights"** - Reconnect and make sure you approved the `ads_read` permission during OAuth.
 - **Spend looks different than Meta UI** - Meta defaults to a 7-day click attribution window in some places and 1-day in others. CorpusIQ pulls raw spend, which always matches Billing & Payments, not the campaign UI's attributed numbers.
 
+## See also
+
+- [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md) - the same ad account in Claude Desktop, with the Business Manager access requirement and the attribution caveat.
+- [Facebook Page connector](facebook.md) - organic Page data, kept separate from paid.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

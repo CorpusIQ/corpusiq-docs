@@ -104,6 +104,7 @@ You need an account with API access and the permission level required to authori
 
 ## Internal Links
 
+- [Connect Klaviyo to Claude](connectors/connect-klaviyo-to-claude.md) - the same account, set up for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md)
 - [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)

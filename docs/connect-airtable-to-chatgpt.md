@@ -87,6 +87,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect Airtable to Claude](connectors/connect-airtable-to-claude.md) - the same base, set up for Claude Desktop with the token scopes that matter
 - [Airtable connector reference](connectors/airtable.md) - scopes, visible objects and troubleshooting
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other document-shaped knowledge base
 - [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - work tracking in ChatGPT

@@ -56,6 +56,7 @@ CorpusIQ never sends campaigns, edits flows, or modifies profiles.
 ## See also
 
 - [Connect Klaviyo to Perplexity](../connect-klaviyo-to-perplexity.md) - campaign and flow revenue questions inside a Perplexity thread.
+- [Connect Klaviyo to Claude](connect-klaviyo-to-claude.md) - the same account in Claude Desktop, with the private-key scope list and the SMS caveat.
 
 ---
 

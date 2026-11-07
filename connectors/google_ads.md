@@ -50,6 +50,10 @@ CorpusIQ never creates campaigns, changes bids, or pauses ads.
 - **MCC errors** - If you manage accounts through an MCC, you'll need to pass the manager customer ID as `login_customer_id` when querying client accounts.
 - **Conversion counts seem low** - Google Ads only counts conversions configured in the Ads conversion settings. If you rely on GA4 imported conversions, check that the import is active.
 
+## See also
+
+- [Connect Google Ads to Claude](connect-google-ads-to-claude.md) - the same account in Claude Desktop, including the manager-account path for agencies.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
