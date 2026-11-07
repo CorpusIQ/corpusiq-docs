@@ -9,9 +9,12 @@ that cannot be parsed must not fail, and the path predicates must count what
 the page's own words say they count. Getting a predicate wrong would make the
 gate lie in the other direction, failing a correct file.
 """
+import sys
 import unittest
+from pathlib import Path
 
-import check_progress_counts as gate
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import check_progress_counts as gate  # noqa: E402
 
 # The shape of the block as PROGRESS.md writes it, in miniature.
 GOOD = """
