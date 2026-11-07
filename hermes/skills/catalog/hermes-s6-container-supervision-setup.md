@@ -111,6 +111,7 @@ ENTRYPOINT ["/usr/bin/s6-svscan", "/etc/s6/service"]
 - [hermes-agent](/hermes/skills/catalog) - Core Hermes agent skill
 - [docker-management](/hermes/skills/marketplace/new-june17-2026) - Docker container management
 - [openclaw-migration](/hermes/skills/marketplace/new-june17-2026) - Migration path from OpenClaw
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

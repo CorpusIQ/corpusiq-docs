@@ -171,6 +171,7 @@ Yes. CorpusIQ supports multiple QuickBooks company connections, each with indepe
 **Next steps:** [Connect QuickBooks to Claude now →](https://corpusiq.io/connect/quickbooks) or [view all integrations](connectors.md).
 
 *[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data. 30-day free trial.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

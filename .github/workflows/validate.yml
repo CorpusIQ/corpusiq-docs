@@ -100,3 +100,17 @@ jobs:
           python -m unittest scripts/test_check_sweep_index_links.py
           python scripts/check_sweep_index_links.py
 
+      # A `---` with no blank line above it is a setext heading underline, not a
+      # horizontal rule, so the sentence above it renders as an H2. Measured on
+      # production 2026-11-07: /docs/hermes/prompts published its credit line as
+      # the heading "From the Hermes Prompt Collection - production prompts for
+      # AI agents. Powered by CorpusIQ.", and the same shape appeared across the
+      # skills catalog ("Powered by CorpusIQ", "Part of the Hermes Skills
+      # Library - ..."). 407 rules across 394 files were affected. The junk
+      # heading also enters the page table of contents, which is the outline an
+      # AI assistant extracts. See scripts/check_setext_rules.py.
+      - name: Validate no setext rule swallows a sentence into a heading
+        run: |
+          python -m unittest scripts/test_check_setext_rules.py
+          python scripts/check_setext_rules.py
+

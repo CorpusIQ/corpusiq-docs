@@ -433,6 +433,7 @@ crew = Crew(
 **Sequential tasks stall:** Check that each task's `expected_output` is produced. CrewAI won't proceed without it. Add timeout guards.
 
 **Cost overrun:** Set `max_iter` on agents (default is 15 - often too high). Set `max_rpm` on crew. Monitor via Hermes' usage tracking.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

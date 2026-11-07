@@ -175,6 +175,7 @@ A search box returns files. Claude reads them, compares them, and answers the qu
 **Next steps:** [Connect Google Docs to Claude now](https://corpusiq.io/connect/google-docs-with-claude)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

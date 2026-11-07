@@ -204,6 +204,7 @@ Put them in the mounted data directory: `~/.hermes/skills/` on the host is `/opt
 - [Gaming PC Setup](gaming-pc.md) - Docker with GPU passthrough
 - [MCP Integration Guide](/hermes/mcp) - Connect tools inside containers
 - [Creating Custom Skills](/hermes/skills/creating-skills) - Mount skills in Docker
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -49,6 +49,7 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 ## See also
 
 - [Connect Semrush to Perplexity](../connect-semrush-to-perplexity.md) - competitor keywords, backlinks and demand sizing inside a Perplexity thread.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

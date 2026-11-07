@@ -37,9 +37,11 @@ The registry prevents creation of duplicate skills (e.g., two "email monitor" im
 ## Self-Audit
 
 Weekly registry audits identify stale components, missing owners, and dependency loops. Results reported to governance agent for cleanup.
+
 ---
 title: Email Operations
 description: Autonomous email monitoring, routing, and response for production agent operations
+
 ---
 
 ## Email Operations
@@ -79,6 +81,7 @@ Email crons run every 15 minutes with delivery verification. Failed checks trigg
 ---
 title: Autonomous Scheduling
 description: 24 scheduled processes for 24/7 autonomous operations - monitoring, publishing, and maintenance
+
 ---
 
 ## Autonomous Scheduling
@@ -114,6 +117,7 @@ Crons are never trusted at face value. The `corpusiq-cron-delivery-audit` proces
 ---
 title: Operational Monitoring
 description: System health checks, process verification, and anomaly detection for autonomous agent operations
+
 ---
 
 ## Operational Monitoring
@@ -143,6 +147,7 @@ The self-improvement cron at 11 PM analyzes the day's issues and patches skills,
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

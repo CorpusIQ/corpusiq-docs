@@ -163,6 +163,7 @@ A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live busines
 - [CorpusIQ vs Custom RAG - 2-Min Setup vs Engineering](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top Business AI Tools](/compare)
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

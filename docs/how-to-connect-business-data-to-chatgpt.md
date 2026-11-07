@@ -158,6 +158,7 @@ A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you nee
 - [Best ChatGPT Integration Platform](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [HubSpot Business Intelligence with CorpusIQ](/connect/hubspot-with-chatgpt)
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

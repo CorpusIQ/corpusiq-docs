@@ -160,6 +160,7 @@ Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for run
 - [Mac Mini M4 Setup](mac-mini-standalone.md) - Silent alternative
 - [Model Selection Guide](/hermes/best-practices/model-selection) - Choose the right model
 - [Troubleshooting Guide](/hermes/troubleshooting) - Common GPU issues
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

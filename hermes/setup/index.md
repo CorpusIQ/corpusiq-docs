@@ -164,6 +164,7 @@ Extend Hermes Agent through [MCP servers](/hermes/mcp) for external tools, [skil
 - [MCP Integration Guide](/hermes/mcp) - Connect external tools and data
 - [Cron Design Best Practices](/hermes/best-practices/cron-design) - Reliable scheduled automation
 - [Troubleshooting Guide](/hermes/troubleshooting) - Common issues and fixes
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

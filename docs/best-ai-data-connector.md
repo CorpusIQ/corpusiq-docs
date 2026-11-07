@@ -156,6 +156,7 @@ A: Start with CRM + Accounting (2 connectors). Most organizations get maximum va
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
 - [Top Business AI Tools - Rankings](/compare)
 - [Secure AI Data Connectivity](/security)
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

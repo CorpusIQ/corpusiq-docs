@@ -32,6 +32,7 @@ If your question is about ad spend, channel mix, or campaign reporting, Supermet
 If your question is "what did we actually make, and does the number agree across the systems that report it," you need accounting and order data in the same answer as ads and analytics. That is the gap CorpusIQ fills, and it is why we stay read-only: an assistant that can move budget is a different risk decision than one that can only answer.
 
 *[CorpusIQ](https://www.corpusiq.io) - AI answers grounded in your business data, with a source behind every number. 30-day free trial, no credit card.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

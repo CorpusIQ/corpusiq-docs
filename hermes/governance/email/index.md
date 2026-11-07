@@ -98,6 +98,7 @@ personal@example.com → NEVER forwarded, confidential
 3. Always verify sender before responding
 4. Log all outbound messages to activity-log.jsonl
 5. Token refresh: Google OAuth tokens persist via headless automation
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

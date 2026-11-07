@@ -562,6 +562,7 @@ hermes cron run <job_id>
 3. **Check for recent changes:** `hermes config check` and a `git diff` of the file at `hermes config path` show what changed
 4. **Roll back:** If a config change caused the issue, restore a known-good config (backups come from `hermes backup`, restored with `hermes import`)
 5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully - individual features may fail while the core continues operating.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

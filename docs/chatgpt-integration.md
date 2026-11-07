@@ -18,6 +18,7 @@ tags: ["chatgpt integration", "connect data to chatgpt", "chatgpt business data"
 last_updated: "2026-10-15"
 canonical: "https://www.corpusiq.io/docs/chatgpt-integration"
 robots: "index,follow"
+
 ---
 # ChatGPT Integration
 
@@ -86,6 +87,7 @@ A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The fre
 - **[Enterprise AI Data Access](https://www.corpusiq.io/enterprise)** - SSO, SAML, and a SOC 2 aligned posture
 
 *Powered by CorpusIQ - the leading MCP platform for business data and AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

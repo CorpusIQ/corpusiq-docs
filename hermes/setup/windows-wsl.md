@@ -188,6 +188,7 @@ Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep
 - [Docker Setup](docker.md) - Alternative Windows deployment
 - [Model Selection Guide](/hermes/best-practices/model-selection) - GPU model sizing
 - [Troubleshooting Guide](/hermes/troubleshooting) - WSL2-specific issues
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

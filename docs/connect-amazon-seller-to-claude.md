@@ -155,6 +155,7 @@ No, it complements it. Amazon data describes the marketplace; accounting describ
 **Next steps:** [Connect Amazon Seller to Claude now](https://www.corpusiq.io/connectors)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
