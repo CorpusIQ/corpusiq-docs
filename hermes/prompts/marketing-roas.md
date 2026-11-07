@@ -1,6 +1,6 @@
 ---
-title: "Marketing Roas - CorpusIQ Docs"
-description: "Marketing ROAS analysis prompts for Hermes agents. Natural language queries to analyze ad spend efficiency, cross-channel performance, and campaign ROI"
+title: "Marketing and ROAS Prompts for Hermes Agent"
+description: "Marketing and ROAS prompts for Hermes agents: ad spend efficiency, true CAC, cross-channel performance, and campaign ROI."
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/marketing-roas/"
 robots: "index,follow"
 last_updated: "2026-11-07"

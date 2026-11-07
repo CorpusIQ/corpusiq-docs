@@ -1,6 +1,6 @@
 ---
-title: "Customer & CRM Prompts - CorpusIQ Docs"
-description: "Prompt templates for customer data analysis, CRM operations, and business intelligence. HubSpot LeadConnector (GoHighLevel) pipelines. Add Email."
+title: "Customer and CRM Prompts for Hermes Agent"
+description: "Prompt templates for customer data analysis, CRM operations, and business intelligence across HubSpot and LeadConnector pipelines."
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/customer-and-crm/"
 robots: "index,follow"
 last_updated: "2026-11-07"

@@ -1,6 +1,6 @@
 ---
-title: "Productivity And Files - CorpusIQ Docs"
-description: "Productivity and file management prompts for Hermes agents. Search, organize, and analyze documents across Google Drive, Dropbox, OneDrive, and SharePoint"
+title: "Productivity, Inbox and File Prompts for Hermes Agent"
+description: "Productivity prompts for Hermes agents: search, organize, and analyze documents across Google Drive, Dropbox, OneDrive, and SharePoint."
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/productivity-and-files/"
 robots: "index,follow"
 last_updated: "2026-11-07"
