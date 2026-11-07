@@ -107,8 +107,8 @@
     "description": "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.",
     "url": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-07">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "How to Add CorpusIQ MCP to Hermes Agent", "url": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp", "image": "https://www.corpusiq.io/og?title=How%20to%20Add%20CorpusIQ%20MCP%20to%20Hermes%20Agent&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "How to Add CorpusIQ MCP to Hermes Agent", "url": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp", "image": "https://www.corpusiq.io/og?title=How%20to%20Add%20CorpusIQ%20MCP%20to%20Hermes%20Agent&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp"}, "datePublished": "2026-11-01", "dateModified": "2026-11-07", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Connect CorpusIQ MCP to Hermes Agent - query business data from 40+ tools directly through your AI assistant. Step-by-step setup guide.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Setup", "item": "https://www.corpusiq.io/docs/hermes/setup"}, {"@type": "ListItem", "position": 4, "name": "How to Add CorpusIQ MCP to Hermes Agent", "item": "https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp"}]}</script>
 </head>
   
@@ -12192,14 +12192,14 @@
 <div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">corpusiq</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://mcp2.corpusiq.io/mcp&quot;</span>
-<span class="w">    </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;streamable-http&quot;</span>
 <span class="w">    </span><span class="nt">headers</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">Authorization</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Bearer</span><span class="nv"> </span><span class="s">&lt;jwt&gt;&quot;</span>
 </code></pre></div>
-<p>The <code>Authorization</code> header carries the JWT obtained during device authentication. The transport must be <code>streamable-http</code> (not <code>sse</code> or <code>stdio</code>).</p>
+<p>The <code>Authorization</code> header carries the JWT obtained during device authentication. Hermes picks the transport from the entry itself: <code>url</code> means a remote HTTP server, <code>command</code> plus <code>args</code> means a local stdio server. There is no <code>transport</code> key to set.</p>
 <p>Or if using <code>hermes mcp</code> CLI:</p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span>--transport<span class="w"> </span>streamable-http
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--url<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span>--auth<span class="w"> </span>header
 </code></pre></div>
+<p><code>--auth header</code> prompts for the token and writes the <code>Authorization</code> header into the config entry for you.</p>
 <h2 id="4-authenticate">4. Authenticate<a class="headerlink" href="#4-authenticate" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ uses OAuth 2.0 Device Authorization Grant for CLI tools and agent loops. The flow:</p>
 <ol>

@@ -107,8 +107,8 @@
     "description": "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.",
     "url": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-07">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "CorpusIQ MCP Troubleshooting - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq", "image": "https://www.corpusiq.io/og?title=CorpusIQ%20MCP%20Troubleshooting%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "CorpusIQ MCP Troubleshooting - CorpusIQ Docs", "url": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq", "image": "https://www.corpusiq.io/og?title=CorpusIQ%20MCP%20Troubleshooting%20-%20CorpusIQ%20Docs&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq"}, "datePublished": "2026-11-01", "dateModified": "2026-11-07", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent - token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Troubleshooting", "item": "https://www.corpusiq.io/docs/hermes/troubleshooting"}, {"@type": "ListItem", "position": 4, "name": "CorpusIQ MCP Troubleshooting - CorpusIQ Docs", "item": "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq"}]}</script>
 </head>
   
@@ -12199,18 +12199,17 @@ hermes<span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;y
 <div class="highlight"><pre><span></span><code><span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">corpusiq</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://mcp2.corpusiq.io/mcp&quot;</span>
-<span class="w">    </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;streamable-http&quot;</span>
 </code></pre></div>
-<p>Run <code>hermes mcp list</code> to verify it's registered.</p>
+<p>Run <code>hermes mcp list</code> to verify it's registered, and <code>hermes mcp test corpusiq</code> to check the connection and confirm tool discovery. Hermes derives the transport from the entry: <code>url</code> for a remote HTTP server, <code>command</code> plus <code>args</code> for a local stdio server.</p>
 <h2 id="oauth-device-link-expired">OAuth device link expired<a class="headerlink" href="#oauth-device-link-expired" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Symptom:</strong> The device auth URL opened in browser says "link expired."</p>
-<p><strong>Fix:</strong> The device auth link is valid for 15 minutes. Run <code>hermes mcp connect corpusiq</code> again to get a fresh link. Open immediately.</p>
+<p><strong>Fix:</strong> The device auth link is valid for 15 minutes. Force a fresh authorization with <code>hermes mcp login corpusiq</code>, then open the new link immediately.</p>
 <h2 id="tools-not-showing-up">Tools not showing up<a class="headerlink" href="#tools-not-showing-up" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Symptom:</strong> CorpusIQ connects but no tools appear.</p>
 <p><strong>Fix:</strong> 
 1. Verify you've connected at least one business tool in the CorpusIQ dashboard
 2. Tools are dynamically registered - you need an active tool connection
-3. Run <code>hermes mcp tools corpusiq</code> to see available tools</p>
+3. Run <code>hermes mcp test corpusiq</code> to confirm tool discovery, or <code>hermes mcp configure corpusiq</code> to review and toggle the tools Hermes exposes</p>
 <h2 id="rate-limit-exceeded-on-github-api">"Rate limit exceeded" on GitHub API<a class="headerlink" href="#rate-limit-exceeded-on-github-api" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Symptom:</strong> GitHub API calls return 403 with rate limit headers.</p>
 <p><strong>Fix:</strong> 

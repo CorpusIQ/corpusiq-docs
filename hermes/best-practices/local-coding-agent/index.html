@@ -111,8 +111,8 @@
     "description": "Set up opencode as a free local coding agent: Nemotron served by vLLM, sandbox discipline, and the directory-pinning gotcha that saves your repos.",
     "url": "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-07">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -158,7 +158,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Local Coding Agent", "url": "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent", "image": "https://www.corpusiq.io/og?title=Local%20Coding%20Agent&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Set up opencode as a free local coding agent: Nemotron served by vLLM, sandbox discipline, and the directory-pinning gotcha that saves your repos.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Local Coding Agent", "url": "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent", "image": "https://www.corpusiq.io/og?title=Local%20Coding%20Agent&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent"}, "datePublished": "2026-11-01", "dateModified": "2026-11-07", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Set up opencode as a free local coding agent: Nemotron served by vLLM, sandbox discipline, and the directory-pinning gotcha that saves your repos.", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Best Practices", "item": "https://www.corpusiq.io/docs/hermes/best-practices"}, {"@type": "ListItem", "position": 4, "name": "Local Coding Agent", "item": "https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent"}]}</script>
 </head>
   
@@ -12305,7 +12305,7 @@
 <h2 id="install-and-configure-opencode">Install and configure opencode<a class="headerlink" href="#install-and-configure-opencode" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>i<span class="w"> </span>-g<span class="w"> </span>opencode-ai
 </code></pre></div>
-<p>That package installs the OpenCode 1 line, which is what the rest of this guide is written against. The project now also ships OpenCode 2; the official install script (<code>curl -fsSL https://opencode.ai/install | bash</code>) is the path the docs give for a fresh install, and their Homebrew formula installs the newer version. Pick one line and stay on it, because the two installations can replace each other's binary.</p>
+<p>That installs the OpenCode 1 line, which is what the rest of this guide is written against. As of November 2026 the npm <code>opencode-ai</code> package still publishes the 1.x line (latest 1.19.5), and <code>https://opencode.ai/install</code> redirects to the <code>v1</code> branch of the install script, so the one-liner and the npm path give you the same generation. The project does publish OpenCode 2 releases on GitHub, but those are a separate distribution, not the npm package. Pick one line and stay on it, because two installations can replace each other's binary.</p>
 <p>Point it at the local endpoint in <code>~/.config/opencode/opencode.json</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;permission&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;edit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;allow&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;bash&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;allow&quot;</span><span class="w"> </span><span class="p">},</span>

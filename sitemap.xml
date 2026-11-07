@@ -1186,7 +1186,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/local-coding-agent</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/best-practices/mcp-design</loc>
@@ -1798,7 +1798,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external</loc>
-         <lastmod>2026-11-06</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/1clickreport-mcp</loc>
@@ -7806,7 +7806,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/orchestration/hermes</loc>
-         <lastmod>2026-11-02</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/orchestration/langgraph</loc>
@@ -8042,7 +8042,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/corpusiq-mcp</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/setup/docker</loc>
@@ -8070,7 +8070,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/creating-skills</loc>
@@ -8082,7 +8082,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog</loc>
-         <lastmod>2026-11-06</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup</loc>
@@ -12414,7 +12414,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace</loc>
-         <lastmod>2026-11-06</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug10-2026</loc>
@@ -13114,7 +13114,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-07</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/how-it-works</loc>
