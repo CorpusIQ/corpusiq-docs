@@ -3,7 +3,7 @@ title: "Hermes Agent Prompt Library - CorpusIQ Docs"
 description: Curated Hermes Agent prompt templates for code generation, content creation, data analysis, business operations, research, and creative work. Customization guide, model selection, chaining strategies, and common pitfalls.
 category: prompts
 tags: [hermes-agent, prompts, prompt-templates, code-generation, content-creation, data-analysis, ai-prompts]
-last_updated: 2026-11-06
+last_updated: 2026-11-07
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/"
 robots: "index,follow"
 
@@ -33,6 +33,23 @@ robots: "index,follow"
 | Productivity & Files | `productivity-and-files.md` | Search and analysis of documents across Drive, Dropbox, OneDrive, SharePoint |
 | Revenue & Finance | `revenue-and-finance.md` | ARR, MRR, churn, cash flow, and P&L queries |
 | SEO & Content | `seo-and-content.md` | Search Console data, keyword ranking tracking, content insights |
+
+---
+
+## What Each Category Page Gives You
+
+Open any file in the table above and every prompt lists:
+
+- **What this does** - plain English explanation.
+- **Connectors used** - which integrations need to be authenticated.
+- **Behind the scenes** - the skill runbook id, when one exists. You don't need to know this, but if you're curious how CorpusIQ chose its approach, the name is here.
+- **Sample answer shape** - what you'll get back (a description of structure, not invented numbers).
+
+## Tips
+
+- **Don't over-engineer the prompt.** "How are sales this month?" works. "Query my Shopify orders table aggregated by week filtered by status=paid" also works but is the long way around.
+- **More connectors = better answers.** The executive snapshot is sharper when it has 6 sources to triangulate from than when it has 2.
+- **If the answer is wrong**, ask CorpusIQ to show its work: "What sources did you use? Show me the raw numbers." It will.
 
 ---
 
