@@ -159,24 +159,3 @@ These prompts are starting points. As you discover effective variations, adapt t
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
-
-
-## All Prompts
-
-- [Readme](/hermes/prompts)
-- [business-operations.md](/hermes/prompts/business-operations)
-- [code-generation.md](/hermes/prompts/code-generation)
-- [content-creation.md](/hermes/prompts/content-creation)
-- [creative.md](/hermes/prompts/creative)
-- [Customer & CRM Prompts](/hermes/prompts/customer-and-crm)
-- [data-analysis.md](/hermes/prompts/data-analysis)
-- [Ecommerce Ops](/hermes/prompts/ecommerce-ops)
-- [Email And Sms](/hermes/prompts/email-and-sms)
-- [Executive Summary](/hermes/prompts/executive-summary)
-- [Marketing Roas](/hermes/prompts/marketing-roas)
-- [Mcp Developer Queries](/hermes/prompts/mcp-developer-queries)
-- [Multi Source](/hermes/prompts/multi-source)
-- [Productivity And Files](/hermes/prompts/productivity-and-files)
-- [research.md](/hermes/prompts/research)
-- [Revenue And Finance](/hermes/prompts/revenue-and-finance)
-- [Seo And Content](/hermes/prompts/seo-and-content)
