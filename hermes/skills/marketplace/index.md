@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh - 1,463+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh - 1,479+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-11-06"
@@ -12,7 +12,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh) - install with a single command and use immediately.
 
-**1,463+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,479+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 - [November 6, 2026 (Morning) - Claude Plugin Marketplace - Azure and DevOps Packs (josiahsiegel/claude-plugin-marketplace, 41,688 combined, 200 listings, 59 stars, MIT, Azure, Azure DevOps, Databricks and language plugin packs for Claude Code), Dembrandt Skills - Design System Judgment for Agents (dembrandt/dembrandt-skills, 38,341 combined, 45 listings, 184 stars, MIT, Design-system judgment: component families, colour tokens, elevation, forms and information architecture), Posit Skills - R, Quarto and Maintainer Workflows (posit-dev/skills, 19,262 combined, 36 listings, 556 stars, MIT, R and Quarto work: package checks, CRAN release passes, alt text and maintainer replies), Apple Design Skill - HIG Review Across Frameworks (dickwu/apple-design-skill, 13,047 combined, 1 listings, 2,880 stars, no LICENSE file, Apple HIG review translated to Flutter, React Native, Tauri, Electron and native frameworks) - a widened 231-query topic probe, 19 publisher clusters, 450 listings, 19 setup guides](/hermes/skills/marketplace/new-nov6-2026-morning-skills)
@@ -355,7 +355,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,463+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,479+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -440,7 +440,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,463+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,479+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -460,7 +460,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,463+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,479+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
