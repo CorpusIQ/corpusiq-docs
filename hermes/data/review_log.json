@@ -21291,5 +21291,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-07T04:03:18.259432+00:00"
+  },
+  {
+    "repo": "zidanaisar624/hermes-mfa-filmmaking-and-agent-skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171904+00:00"
+  },
+  {
+    "repo": "0x0nYx/Marfim",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171917+00:00"
+  },
+  {
+    "repo": "Konor11/life-os",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171920+00:00"
+  },
+  {
+    "repo": "iyoda/hermes-fast-chat",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171922+00:00"
+  },
+  {
+    "repo": "WOOWTECH/Woow_podman_hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171924+00:00"
+  },
+  {
+    "repo": "kellycryptos/hermes-detox",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171926+00:00"
+  },
+  {
+    "repo": "asovetov/agents-room",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171928+00:00"
+  },
+  {
+    "repo": "tubeagentkit/youtube-transcript-hermes-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171930+00:00"
+  },
+  {
+    "repo": "ANG-Repositories/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171931+00:00"
+  },
+  {
+    "repo": "gymaira1990-jpg/Mnemosyne-OS",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171933+00:00"
+  },
+  {
+    "repo": "iffiX/neutrino",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171935+00:00"
+  },
+  {
+    "repo": "sidekickjanet/hermes-product-plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171937+00:00"
+  },
+  {
+    "repo": "aaiuh/hermes-agent-fnos",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T10:03:23.171939+00:00"
   }
 ]
