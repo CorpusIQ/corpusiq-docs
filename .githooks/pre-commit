@@ -115,6 +115,24 @@ if git diff --cached --name-only --diff-filter=ACM | grep -qE '^hermes/skills/ma
   fi
 fi
 
+# --- progress count gate (wired 2026-11-07) ---
+# Why: PROGRESS.md's file-count block is the one number on that page a reader
+# can check with a single command, and it is maintained by hand mid-cycle while
+# the cycle's own merges keep landing. On Nov 7 #239 refreshed it to 3,633 and
+# 1,519 - the values from 608cff9 - and merged after #237 had added three more
+# files, so main carried a number that was wrong the moment it landed. Nothing
+# reads that block, so nothing failed. scripts/check_progress_counts.py derives
+# all five claims from git ls-files instead; scoped to commits that touch
+# PROGRESS.md so a normal content commit can never be blocked by it.
+if git diff --cached --name-only --diff-filter=ACM | grep -qE '^PROGRESS\.md$'; then
+  PC_OUT=$(python3 scripts/check_progress_counts.py 2>&1)
+  if [ $? -ne 0 ]; then
+    echo "$PC_OUT" | grep -E '^FAIL|^RESULT' | head -8
+    echo "[progresscount] blocked: update the file-count block in PROGRESS.md"
+    FAILED=1
+  fi
+fi
+
 if [ "$FAILED" -eq 1 ]; then
   echo "[ops-gate] commit blocked by docs gate. Fix the findings above, or bypass once with: git commit --no-verify"
   exit 1

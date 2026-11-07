@@ -114,3 +114,16 @@ jobs:
           python -m unittest scripts/test_check_setext_rules.py
           python scripts/check_setext_rules.py
 
+      # PROGRESS.md opens with five file counts, and they are the one number on
+      # that page a reader can check with a single command. They are typed by
+      # hand mid-cycle while the cycle's own merges keep landing, so on
+      # 2026-11-07 #239 stated 3,633 and 1,519 - the values from 608cff9 - and
+      # merged after #237 had added three more files. Nothing failed, because
+      # nothing read the block. scripts/check_progress_counts.py derives all
+      # five from git ls-files. A claim it cannot parse is skipped, never
+      # failed, so rewording the block does not turn this red.
+      - name: Validate PROGRESS.md file counts match the tree
+        run: |
+          python -m unittest scripts/test_check_progress_counts.py
+          python scripts/check_progress_counts.py
+
