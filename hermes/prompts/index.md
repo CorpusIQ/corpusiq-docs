@@ -23,6 +23,16 @@ robots: "index,follow"
 | Business Operations | `business-operations.md` | Email, meetings, project planning, task management |
 | Research | `research.md` | Competitive analysis, market sizing, tech evaluation |
 | Creative | `creative.md` | Brainstorming, naming, design briefs, creative strategy |
+| Customer & CRM | `customer-and-crm.md` | Customer data analysis, CRM operations, HubSpot and LeadConnector pipelines |
+| Ecommerce Ops | `ecommerce-ops.md` | Shopify sales monitoring, inventory, customer segments, pricing optimization |
+| Email & SMS | `email-and-sms.md` | Open rates, click-through, and conversion across Gmail, Outlook, Klaviyo, Twilio |
+| Executive Summary | `executive-summary.md` | Board-ready overviews combining revenue data, KPIs, market trends, operational metrics |
+| Marketing ROAS | `marketing-roas.md` | Ad spend efficiency, cross-channel performance, campaign ROI |
+| MCP Developer Queries | `mcp-developer-queries.md` | Testing and debugging MCP servers, schema discovery, performance diagnostics |
+| Multi-Source | `multi-source.md` | Questions spanning several business tools, cross-referencing CRM data with billing |
+| Productivity & Files | `productivity-and-files.md` | Search and analysis of documents across Drive, Dropbox, OneDrive, SharePoint |
+| Revenue & Finance | `revenue-and-finance.md` | ARR, MRR, churn, cash flow, and P&L queries |
+| SEO & Content | `seo-and-content.md` | Search Console data, keyword ranking tracking, content insights |
 
 ---
 
@@ -86,7 +96,7 @@ Not all prompts work equally well with all models. Here's a general guide:
 **Best with:** Claude Opus 5.5, GPT-6 Astra, Gemini 4
 **Why:** Creative tasks benefit from models that take interesting "risks" in their outputs. Temperature settings matter - try 0.8-1.0 for brainstorming, 0.5-0.7 for refined creative output.
 
-Model IDs follow the Hermes model catalog (`https://hermes-agent.nousresearch.com/docs/api/model-catalog.json`). The picker in `hermes model` lists exactly what your configured providers and credentials can reach.
+Model IDs follow the Hermes model catalog ([reference](https://hermes-agent.nousresearch.com/docs/reference/model-catalog), machine-readable [`model-catalog.json`](https://hermes-agent.nousresearch.com/docs/api/model-catalog.json)). The picker in `hermes model` lists exactly what your configured providers and credentials can reach.
 
 ---
 
