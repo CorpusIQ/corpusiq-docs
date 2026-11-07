@@ -96,6 +96,25 @@ if git diff --cached --name-only --diff-filter=ACM | grep -qE '\.(md|mdx)$'; the
   fi
 fi
 
+# --- sweep index gate (wired 2026-11-07) ---
+# Why: the Nov 6 evening skills sweep pushed hermes/skills/marketplace/
+# new-nov6-2026-evening-skills/index.md without a Recent Sweeps entry on
+# hermes/skills/marketplace/index.md, so all 16 new setup guides had no browse
+# path. scripts/check_sweep_index_links.py caught it (Validate docs failed on
+# f45769f), but the Vercel production deploy runs `on: push` and does not depend
+# on Validate, so the unreachable page shipped anyway and stayed unreachable
+# until a later cycle repaired the index. Run the same guard here, scoped to the
+# files that can cause it, so the class fails at commit time in any clone with
+# this hook active. Whole check measured at 0.6s.
+if git diff --cached --name-only --diff-filter=ACM | grep -qE '^hermes/skills/marketplace/(index\.md|new-[^/]+/)'; then
+  SI_OUT=$(python3 scripts/check_sweep_index_links.py 2>&1)
+  if [ $? -ne 0 ]; then
+    echo "$SI_OUT" | grep -E '^FAIL' | head -10
+    echo "[sweepindex] blocked: add the batch page to Recent Sweeps in hermes/skills/marketplace/index.md"
+    FAILED=1
+  fi
+fi
+
 if [ "$FAILED" -eq 1 ]; then
   echo "[ops-gate] commit blocked by docs gate. Fix the findings above, or bypass once with: git commit --no-verify"
   exit 1
