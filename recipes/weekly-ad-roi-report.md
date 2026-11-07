@@ -1,7 +1,7 @@
 ---
 title: "Weekly Ad ROI Report - CorpusIQ Docs"
 description: "Weekly ROI report across Google Ads, Meta Ads, and GA4. One prompt generates a cited breakdown of spend, revenue, and profit per channel every Monday morning."
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 # Recipe: Weekly Ad ROI Report
 

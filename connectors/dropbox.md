@@ -1,7 +1,7 @@
 ---
 title: "Dropbox - CorpusIQ Docs"
 description: "A lot of operating context - contracts, past board updates, vendor invoices, design files - lives in Dropbox folders. Connecting Dropbox lets CorpusIQ."
-last_updated: "2026-11-05"
+last_updated: "2026-11-07"
 ---
 # Dropbox
 

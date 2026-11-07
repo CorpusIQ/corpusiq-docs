@@ -8,7 +8,7 @@ category: claude-office
 setup: npx skills add claude-office-skills/skills@excel-automation
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/excel-automation/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 title: "Excel Automation - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

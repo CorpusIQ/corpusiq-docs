@@ -8,7 +8,7 @@ category: infrastructure
 setup: npx skills add jeffallan/claude-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/kubernetes-specialist/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 title: "Kubernetes Specialist - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 

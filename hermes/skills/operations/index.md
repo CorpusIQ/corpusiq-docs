@@ -3,7 +3,7 @@ title: "Operations Skills - CorpusIQ Docs"
 description: Autonomous operations workflows - email automation, cron management, system audits, lead capture, monitoring, governance, and communication discipline. 20+ production skills for running Hermes agents reliably.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/operations/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

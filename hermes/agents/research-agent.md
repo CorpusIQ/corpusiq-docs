@@ -8,7 +8,7 @@ tags:
   - competitive-analysis
   - literature-review
   - ai-research-assistant
-last_updated: 2026-11-02
+last_updated: 2026-11-07
 canonical: "https://www.corpusiq.io/docs/hermes/agents/research-agent/"
 robots: "index,follow"
 

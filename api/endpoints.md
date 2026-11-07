@@ -3,7 +3,7 @@ title: "CorpusIQ API Endpoints Reference"
 description: "CorpusIQ API endpoints reference with request and response schemas, plus cURL, JavaScript, and Python examples for POST /query and POST /deep_search."
 category: "API Reference"
 tags: ["corpusiq endpoints", "api reference", "query api", "deep search", "rest api", "api schemas", "api examples"]
-last_updated: "2026-11-03"
+last_updated: "2026-11-07"
 canonical: "https://www.corpusiq.io/docs/api/endpoints"
 robots: "index,follow"
 ---

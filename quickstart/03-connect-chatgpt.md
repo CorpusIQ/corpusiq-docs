@@ -1,7 +1,7 @@
 ---
 title: "3. Connect CorpusIQ to ChatGPT - CorpusIQ Docs"
 description: "Use CorpusIQ inside ChatGPT through two paths: the CorpusIQ app on the ChatGPT app store, or the MCP connector route for desktop and agent use."
-last_updated: "2026-11-02"
+last_updated: "2026-11-07"
 ---
 
 # 3. Connect CorpusIQ to ChatGPT

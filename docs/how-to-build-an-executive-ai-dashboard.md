@@ -9,7 +9,7 @@ category: "How-To Guide"
 tags: ["executive-dashboard", "ai-dashboard", "business-intelligence", "kpi-tracking"]
 canonical: "https://www.corpusiq.io/docs/how-to-build-an-executive-ai-dashboard/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 
 # How to Build an Executive AI Dashboard

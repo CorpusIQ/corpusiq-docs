@@ -3,7 +3,7 @@ title: "Hermes Backup and Restore - Native Commands and Snapshots"
 description: Use hermes backup for a full zip archive or a quick state snapshot, then restore with hermes import or /snapshot restore. What is included and excluded.
 category: setup
 tags: [hermes-agent, backup, restore, snapshot, disaster-recovery, state, cron]
-last_updated: 2026-11-06
+last_updated: 2026-11-07
 canonical: "https://www.corpusiq.io/docs/hermes/setup/backup-and-restore/"
 robots: "index,follow"
 

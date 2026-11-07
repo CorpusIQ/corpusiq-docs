@@ -10,7 +10,7 @@ tags:
   - CRM integration
   - AI agent
   - property automation
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/real-estate/"
 robots: "index,follow"
 

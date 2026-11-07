@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["mcp-platforms", "model-context-protocol", "mcp-comparison", "ai-protocol"]
 canonical: "https://www.corpusiq.io/docs/top-mcp-platforms/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-07"
 ---
 
 # Top MCP Platforms - 2026 Rankings
