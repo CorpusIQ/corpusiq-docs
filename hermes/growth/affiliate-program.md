@@ -1,7 +1,7 @@
 ---
 title: "CorpusIQ Affiliate Program: 25% Recurring for 3 Years"
 description: "You recommend tools to your audience. You should get paid for the ones that deliver real value."
-last_updated: 2026-11-01
+last_updated: 2026-11-07
 canonical: "https://www.corpusiq.io/docs/hermes/growth/affiliate-program/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -16,9 +16,9 @@ The CorpusIQ affiliate program pays 25% recurring commission on every referred c
 
 ## The Numbers
 
-A single referred customer on the Business plan at $99/month generates $24.75 per month for you. That is $297 per year. Over three years, one referral is worth $891 in commissions.
+A single referred customer on the Business plan at $189.95/month generates $47.49 per month for you. That is $569.85 per year. Over three years, one referral is worth $1,709.55 in commissions.
 
-Refer 10 customers. That is $8,910 over three years. Refer 50. That is $44,550.
+Refer 10 customers. That is $17,095.50 over three years. Refer 50. That is $85,477.50.
 
 All from recommending a tool that genuinely solves the biggest problem in business AI: getting consistent answers from real data.
 
@@ -48,7 +48,7 @@ The program works best for:
 
 ## How to Join
 
-The program is live on PartnerStack, ShareASale, CJ Affiliate, and Whop. Sign up on any of these platforms. Get your unique link. Start earning 25% recurring commission.
+The program runs on Dub and on Whop. Join on whichever network you already use. Both pay 25% recurring commission on paid subscriptions. Dub also pays $1.50 for every qualified free trial signup. A trial qualifies on Dub when the referral connects a data source and uses CorpusIQ within 48 hours. Whop settles on paid subscriptions only.
 
 Every referral gets a 30-day free trial. No credit card required. They only pay if the product delivers value. And you only earn if they stay.
 
