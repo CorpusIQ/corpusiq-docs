@@ -104,6 +104,7 @@ You need permission on the ad account that allows authorizing an integration, an
 
 ## Internal Links
 
+- [Connect Meta Ads to Claude](connectors/connect-meta-ads-to-claude.md) - the same ad account, set up for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md)
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md)
 - [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md)

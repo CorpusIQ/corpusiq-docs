@@ -197,6 +197,10 @@ nav:
   - Connect Amazon Seller to Claude: connect-amazon-seller-to-claude.md
   - Connect Asana to Claude: connect-asana-to-claude.md
   - Connect CallRail to Claude: connect-callrail-to-claude.md
+  - Connect Airtable to Claude: connectors/connect-airtable-to-claude.md
+  - Connect Google Ads to Claude: connectors/connect-google-ads-to-claude.md
+  - Connect Klaviyo to Claude: connectors/connect-klaviyo-to-claude.md
+  - Connect Meta Ads to Claude: connectors/connect-meta-ads-to-claude.md
 - Perplexity Integrations:
   - Connect Google Sheets to Perplexity: connect-google-sheets-to-perplexity.md
   - Connect Gmail to Perplexity: connect-gmail-to-perplexity.md

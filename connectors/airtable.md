@@ -49,6 +49,7 @@ CorpusIQ never writes, edits, or deletes Airtable data.
 
 - [Connect Airtable to ChatGPT](../connect-airtable-to-chatgpt.md) - the ChatGPT setup, the token scopes that matter and the questions worth asking.
 - [Connect Airtable to Perplexity](../connect-airtable-to-perplexity.md) - the same base questions inside a Perplexity thread, with base-level token scoping.
+- [Connect Airtable to Claude](connect-airtable-to-claude.md) - the same base in Claude Desktop, with the token scope list and the view-and-filter caveat.
 
 ---
 

@@ -112,6 +112,7 @@ You need access to the Google Ads account that grants permission to authorize th
 
 ## Internal Links
 
+- [Connect Google Ads to Claude](connectors/connect-google-ads-to-claude.md) - the same account, set up for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md)
 - [Connect Meta Ads to ChatGPT](connect-meta-ads-to-chatgpt.md)
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md)

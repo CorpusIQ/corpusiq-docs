@@ -6596,6 +6596,7 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 ## Related Pages
 
+- [Connect Airtable to Claude](connectors/connect-airtable-to-claude.md) - the same base, set up for Claude Desktop with the token scopes that matter
 - [Airtable connector reference](connectors/airtable.md) - scopes, visible objects and troubleshooting
 - [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the other document-shaped knowledge base
 - [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt.md) - work tracking in ChatGPT
@@ -8569,6 +8570,7 @@ You need access to the Google Ads account that grants permission to authorize th
 
 ## Internal Links
 
+- [Connect Google Ads to Claude](connectors/connect-google-ads-to-claude.md) - the same account, set up for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md)
 - [Connect Meta Ads to ChatGPT](connect-meta-ads-to-chatgpt.md)
 - [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md)
@@ -11359,6 +11361,7 @@ You need an account with API access and the permission level required to authori
 
 ## Internal Links
 
+- [Connect Klaviyo to Claude](connectors/connect-klaviyo-to-claude.md) - the same account, set up for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md)
 - [MCP for Ecommerce: multi-channel order intelligence](mcp-for-ecommerce.md)
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md)
@@ -11878,6 +11881,7 @@ You need permission on the ad account that allows authorizing an integration, an
 
 ## Internal Links
 
+- [Connect Meta Ads to Claude](connectors/connect-meta-ads-to-claude.md) - the same ad account, set up for Claude Desktop
 - [Browse all CorpusIQ connectors](connectors.md)
 - [Connect Google Ads to ChatGPT](connect-google-ads-to-chatgpt.md)
 - [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md)
@@ -29339,6 +29343,7 @@ CorpusIQ never writes, edits, or deletes Airtable data.
 
 - [Connect Airtable to ChatGPT](../connect-airtable-to-chatgpt.md) - the ChatGPT setup, the token scopes that matter and the questions worth asking.
 - [Connect Airtable to Perplexity](../connect-airtable-to-perplexity.md) - the same base questions inside a Perplexity thread, with base-level token scoping.
+- [Connect Airtable to Claude](connect-airtable-to-claude.md) - the same base in Claude Desktop, with the token scope list and the view-and-filter caveat.
 
 ---
 
@@ -29551,37 +29556,175 @@ CorpusIQ never creates leads, moves opportunities, or logs activities.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# Connect Airtable to Claude (Plain English Q&A)
+# How to Connect Airtable to Claude with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connectors/connect-airtable-to-claude
 
-# Connect Airtable to Claude (Plain English Q&A)
 
-Airtable holds your operational data - projects, inventory, CRM, content calendars. Connect it to Claude through CorpusIQ and ask questions instead of building views and filters manually.
+# How to Connect Airtable to Claude with CorpusIQ MCP
 
-## What you can ask once connected
+Airtable holds the work that never reaches a reporting tool: the content calendar, the hiring pipeline, the partnership tracker, the product roadmap. The records stay current because people update them by hand. The answers do not, because nobody exports a base to settle one question.
 
-- "Show me all projects due this week that are still in progress."
-- "Which inventory items are below reorder threshold?"
-- "How many leads did we add to our CRM base this month?"
-- "Find all content pieces scheduled for next week without a writer assigned."
-- "Which client projects are over budget?"
+Connecting Airtable through CorpusIQ MCP puts bases, tables, records, and keyword search in the same conversation as everything else you run the business on. You ask, Claude reads the base as it stands, and the answer names the table and the record it came from.
 
-## What CorpusIQ reads from Airtable
+### Why Connect Airtable to Claude?
 
-- All bases you have access to
-- All tables and records within those bases
-- Field values, linked records, and attachment names
-- Filtered and sorted record sets
+- **Pipeline questions.** "Which hiring candidates are sitting at Onsite with no feedback logged?"
+- **Calendar questions.** "Which content items are still in Draft two weeks before publish?"
+- **Tracker questions.** "How many partnership conversations are waiting on legal?"
+- **Record lookup.** "Which roadmap rows belong to the platform team, and what status are they in?"
+- **Search by keyword.** "Which records mention this customer by name?"
+- **Read-only by token.** The personal access token reads. It cannot create, edit, or delete a record, and it cannot change a base schema.
 
-Read-only. CorpusIQ never modifies your Airtable bases or records.
+### How It Works
 
-## Connect Airtable to Claude in 2 minutes
+1. **Create an Airtable personal access token** with the two read scopes and grant it the bases you want visible.
+2. **Connect Airtable to CorpusIQ** with that token. Anything the token cannot reach is invisible to the connector.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **CorpusIQ reads the base**: base and table listings, records from a table, single records, and keyword searches.
+5. **Claude answers** from those records, naming the base and table it read.
 
-1. Sign up at corpusiq.io
-2. Click Connections then Airtable then paste your API key
-3. Ask your first question
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
-[Connect Airtable to Claude free](https://www.corpusiq.io)
+### Setup Steps
+
+**In Airtable**
+
+1. Open the **Developer hub**, then **Personal access tokens**, and create a token for this purpose.
+2. Add the two read scopes: `data.records:read` and `schema.bases:read`.
+3. Under **Access**, add the bases you want answerable. Leave out the bases nobody will ask about.
+
+**In CorpusIQ**
+
+4. Log in and open **Connections**.
+5. Select **Airtable** and paste the token.
+6. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+11. Verify with "list my bases". If the base list is right, the token scope is right.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](../troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Calendar and content**
+
+- "Which items in the content calendar are still in Draft two weeks before publish?"
+- "List every record scheduled for next month, with its owner."
+- "Which drafts have no assignee?"
+
+**Hiring and pipeline**
+
+- "Show me every record in the hiring pipeline where stage is Onsite."
+- "How many candidates have been waiting more than a week for feedback?"
+- "Which open roles have no candidates at all?"
+
+**Partnerships and delivery**
+
+- "How many partnership conversations are waiting on legal?"
+- "Pull the roadmap rows owned by the platform team and list their status."
+- "Which records mention this customer by name?"
+
+**Cross-source**
+
+- "Which blocked roadmap items belong to accounts with an open support ticket?" (requires the CRM and helpdesk connectors)
+- "Do the deals in the tracker match what the CRM shows for the same period?" (requires the CRM connector)
+
+### Security
+
+- **Read-only token.** The connector lists bases, tables, records, and single records, and searches by keyword. It cannot create, edit, or delete a record, and it cannot change a schema.
+- **Scoped by base.** The token is granted per base. A base you never granted is a base the connector cannot see, so the token access list is the whole permission model.
+- **Revocable immediately.** Delete or edit the token in the Airtable developer hub and access ends at once.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Airtable, CorpusIQ, and Claude.
+
+### Comparison: The Airtable UI vs Airtable Through Claude
+
+| Aspect | Airtable interface | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A view, a filter, a sorted grid | A question, in your own words |
+| Output | Rows to scan | A count or a list, with the table named |
+| Across bases | Open each base in turn | Asked across the bases you granted |
+| Across systems | Export, then reconcile by hand | Asked across connectors |
+| New question | Build another view | Ask again |
+| Write access | Yes, by you | None, read-only token |
+
+Airtable is the right place to keep the record. Claude is the right place for the question that spans the record and three other systems.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector reads bases, tables, records, and keyword search results. It never creates, edits, or deletes a record, and it cannot change a base schema.
+</details>
+
+<details>
+<summary><strong>How does the connection authenticate?</strong></summary>
+
+With an Airtable personal access token you create, carrying `data.records:read` and `schema.bases:read`, granted to specific bases. Anything the token cannot reach, the connector cannot answer from.
+</details>
+
+<details>
+<summary><strong>Do I need to share every base?</strong></summary>
+
+No, and you probably should not. Grant the bases a question would actually use. A base you never ask about is one more thing to review later, and removing it is an edit to the token rather than a support request.
+</details>
+
+<details>
+<summary><strong>Can it answer across Airtable and my other systems?</strong></summary>
+
+Yes, and that is the reason to put a base behind an MCP connector instead of opening a second browser tab. "Which blocked roadmap items belong to accounts with an open ticket" spans Airtable, the CRM, and the helpdesk in one answer.
+</details>
+
+<details>
+<summary><strong>What about views and filters?</strong></summary>
+
+The connector reads records from a table. Where a base relies on a view to hide archived or test rows, say so in the question, for example "active rows only, not the archive view". A hidden filter becomes a sentence you can see rather than a default you have to remember.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. When you ask, the connector reads Airtable as it stands, so a record edited a minute ago is visible to the next question.
+</details>
+
+<details>
+<summary><strong>Which bases can Claude see?</strong></summary>
+
+Only the ones you granted to the token. If a base is missing from an answer, check the token's access list before anything else.
+</details>
+
+<details>
+<summary><strong>Why connect Airtable to Claude at all?</strong></summary>
+
+Because the useful questions are joins. Airtable holds the commitment; the invoice, the ticket, and the campaign hold the consequence. A base answers its own half well, and the join is where the answer usually stops.
+</details>
+
+---
+
+**Next steps:** [Connect Airtable to Claude now](https://corpusiq.io/connect/airtable-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 
@@ -29637,51 +29780,171 @@ Read-only. CorpusIQ never modifies your GA4 property.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# How to Connect Google Ads to Claude (Plain English)
+# How to Connect Google Ads to Claude with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connectors/connect-google-ads-to-claude
 
-# How to Connect Google Ads to Claude (Plain English)
 
-Your Google Ads dashboard shows clicks and spend. It doesn't tell you if you're actually profitable. Connect Google Ads to Claude through CorpusIQ and ask the questions that actually matter.
+# How to Connect Google Ads to Claude with CorpusIQ MCP
 
-## What you can ask Claude once connected
+Google Ads holds the spend, the search terms, and the quality scores that set what everything costs next month. Reading it usually means one report, one date range, one campaign at a time, and the interesting question is almost always across two of those at once.
 
-- "Which campaigns have the highest ROAS this month?"
-- "What keywords are spending the most with zero conversions?"
-- "Compare this month's CPC to last month by campaign."
-- "Which ad groups are below our target CPA?"
-- "Show me search terms that triggered our ads but aren't in our keyword list."
+Connecting Google Ads through CorpusIQ MCP puts campaigns, ad groups, keywords, search terms, quality score components, and device and geographic breakdowns in the same conversation as analytics and the commerce platform. You ask, Claude reads the account as it stands, and the answer names the campaigns and the window it used.
 
-One question. Real data. No exporting.
+### Why Connect Google Ads to Claude?
 
-## What CorpusIQ reads from Google Ads
+- **Spend questions.** "Which campaigns spent the most last month, and what did each return?"
+- **Waste questions.** "Which search terms triggered ads but never converted, and how much did they cost?"
+- **Quality score questions.** "Where is quality score lowest, and is it ad relevance or landing page experience?"
+- **Comparison questions.** "How does mobile spend and conversion compare with desktop this quarter?"
+- **Agency questions.** "Which client accounts had the biggest month-on-month rise in cost per conversion?"
+- **Read-only connection.** The connection reads. It cannot change a bid, a budget, a campaign, or a creative.
 
-- Campaigns (spend, impressions, clicks, conversions, ROAS)
-- Ad groups and individual ads
-- Keywords with quality scores and match types
-- Search terms report
-- Geographic and device breakdown
-- Age and gender demographics
+### How It Works
 
-Read-only. CorpusIQ never modifies bids, budgets, or campaigns.
+1. **Connect Google Workspace to CorpusIQ** with the Google account that can see the Ads accounts. Google Ads comes through the same connection, not a separate one.
+2. **If you use a manager account**, note the login customer ID so the linked client accounts can be reached.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **CorpusIQ queries Google Ads**: campaign and ad group performance, keywords with quality scores and impression share, search terms, geographic and device breakdowns, and custom GAQL queries.
+5. **Claude answers** from those results, naming the campaigns and the date window behind the figures.
 
-## Connect Google Ads to Claude in 2 minutes
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
-1. Sign up at [corpusiq.io](https://www.corpusiq.io) - free 30-day trial
-2. Click **Connections** → Google Ads
-3. Authorize with your Google account
-4. Select the ad account(s) you want to connect
-5. Ask Claude your first question
+### Setup Steps
 
-## Cross-source analysis that changes decisions
+**In CorpusIQ**
 
-Google Ads spend + GA4 sessions + Shopify revenue in one answer:
+1. Log in and open **Connections**.
+2. Select **Google Workspace** and sign in with the Google account that has access to the Ads account you want answerable.
+3. Approve read access on Google's consent screen. Ads data arrives through the same connection.
+4. If you manage accounts through an MCC, set the login customer ID so client accounts are reachable.
+5. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
 
-"I spent $8,400 on Google Ads this month. What revenue did it actually drive in Shopify after accounting for returns?"
+**In Claude Desktop**
 
-That's the question most operators can't answer. CorpusIQ answers it in 30 seconds.
+6. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+7. Add the CorpusIQ entry:
 
-[Start free - connect Google Ads to Claude](https://www.corpusiq.io)
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+8. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+9. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+10. Verify with "how much did I spend on Google Ads last month". If the figure matches the account, the connection is live.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](../troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Spend and return**
+
+- "Which campaigns spent the most last month, and what did each return?"
+- "What is our cost per conversion trend over the last six months?"
+- "Which campaigns have spent with no conversions in the last 30 days?"
+
+**Search terms and keywords**
+
+- "Which search terms triggered ads but never converted, and how much did they cost?"
+- "Which ad groups are bidding on terms we already rank organically for?"
+- "Which keywords have the best conversion rate at the lowest cost per conversion?"
+
+**Quality score**
+
+- "Where is quality score lowest, and is it ad relevance or landing page experience?"
+- "Which keywords lost impression share to budget this week?"
+
+**Breakdowns and agencies**
+
+- "How does mobile spend and conversion compare with desktop this quarter?"
+- "Which countries produced the highest cost per conversion?"
+- "Which of my client accounts had the biggest month-on-month increase in cost per conversion?"
+
+**Cross-source**
+
+- "Compare Google Ads cost per acquisition with Meta Ads for the same period." (requires the Meta connector)
+- "Does the revenue Google Ads reports match what our commerce platform booked?" (requires the commerce connector)
+
+### Security
+
+- **Read-only connection.** The connector reads campaign, keyword, search term, and breakdown data. It cannot change bids, budgets, campaign settings, or creatives.
+- **Scoped by Google account.** What the signed-in Google user can see is what the connector can read. Anyone without access to the Ads account cannot authorize it.
+- **Revocable immediately.** Remove CorpusIQ's access in your Google account permissions and the connection ends at once.
+- **Manager accounts are explicit.** Client accounts are reached only through the login customer ID you provide, not by discovery against every account you have ever touched.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Google, CorpusIQ, and Claude.
+
+### Comparison: The Google Ads UI vs Google Ads Through Claude
+
+| Aspect | Google Ads interface | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A report, a segment, a date range | A question, with the window stated |
+| Output | Tables to scan | A number plus the campaigns counted |
+| Several accounts | Switch accounts, repeat the report | Asked across a manager account |
+| Across sources | Export, then reconcile in a sheet | Asked across connectors |
+| New question | Rebuild the report | Ask again |
+| Write access | Yes, by you | None, read-only |
+
+The Google Ads interface is the right place to change a bid. Claude is the right place for the question that compares what search returned against what the business actually booked.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector reads campaign, ad group, keyword, search term, quality score, and breakdown data. It cannot change bids, budgets, campaign settings, or creatives.
+</details>
+
+<details>
+<summary><strong>How does the connection authenticate?</strong></summary>
+
+Through Google OAuth on the Google Workspace connection. You sign in with the Google account that has access to the Ads account and approve read access on Google's consent screen. Ads is not a separate connector with its own credentials.
+</details>
+
+<details>
+<summary><strong>Do you support manager accounts for agencies?</strong></summary>
+
+Yes. Set the login customer ID for the manager account and the linked client accounts are reachable through the same connection, so a cross-client question is one question rather than one per account.
+</details>
+
+<details>
+<summary><strong>Why does Google Ads reporting lag sometimes?</strong></summary>
+
+Google Ads itself takes a few hours to settle recent spend and conversions, and conversion counts only include conversions configured in the Ads account. An imported GA4 conversion that stopped importing shows up here as a gap rather than a drop in performance.
+</details>
+
+<details>
+<summary><strong>Can Claude change a bid or pause a campaign?</strong></summary>
+
+No. The connection has no write path. Bids, budgets, and campaign state stay in Google Ads, which means an analysis session cannot spend money by accident.
+</details>
+
+<details>
+<summary><strong>Can I ask custom queries?</strong></summary>
+
+Yes. Beyond the standard retrieval tools, custom GAQL queries can be run, so a question shaped unlike any built-in report is still answerable.
+</details>
+
+<details>
+<summary><strong>Why connect ad data to Claude at all?</strong></summary>
+
+Because the platform's conversion count is not the business's revenue. The question worth asking crosses into analytics or commerce, and that join is where a single-platform report stops.
+</details>
+
+---
+
+**Next steps:** [Connect Google Ads to Claude now](https://corpusiq.io/connect/google-ads-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 
@@ -29734,46 +29997,170 @@ Read-only. CorpusIQ never creates or modifies CRM records.
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# How to Connect Klaviyo to Claude (Plain English)
+# How to Connect Klaviyo to Claude with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connectors/connect-klaviyo-to-claude
 
-# How to Connect Klaviyo to Claude (Plain English)
 
-Klaviyo has the data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your email marketing performance.
+# How to Connect Klaviyo to Claude with CorpusIQ MCP
 
-## What you can ask Claude once connected
+Klaviyo holds the email and SMS revenue for the store, plus the flows, campaigns, and segments that produced it. Reading it usually means opening one report at a time and holding the numbers in your head until the next report loads.
 
-- "Which email campaign drove the most revenue last month?"
-- "What's our abandoned cart flow recovering per month?"
-- "Which list has the highest open rate?"
-- "How many subscribers did we add this week and from which form?"
-- "What's the click-to-conversion rate on our welcome flow?"
+Connecting Klaviyo through CorpusIQ MCP puts campaigns, flows, abandoned cart recovery, list growth, and subscriber health in the same conversation as the commerce platform and the ad accounts. You ask, Claude reads the account as it stands, and the answer names the report it used.
 
-No more digging through Klaviyo dashboards.
+### Why Connect Klaviyo to Claude?
 
-## What CorpusIQ reads from Klaviyo
+- **Flow questions.** "Which flows generated the most revenue in the last 30 days, and what is each one's revenue per recipient?"
+- **Campaign questions.** "How did this month's campaigns compare with the same month last year?"
+- **Recovery questions.** "What is our abandoned cart recovery rate, and how has it moved this quarter?"
+- **List questions.** "How fast is the list growing, and what share of new subscribers came from popups versus checkout?"
+- **Deliverability questions.** "Which segments carry the highest unsubscribe rate right now?"
+- **Read-only by key.** The private API key reads. It cannot send a campaign, edit a flow, or modify a profile.
 
-- Campaigns (sends, opens, clicks, revenue attributed)
-- Flows and automation performance
-- Lists and segments (growth, health, engagement)
-- Signup forms (submissions, conversion rates)
-- Subscriber health (active, bounced, suppressed)
-- Predictive analytics (CLV, churn risk)
+### How It Works
 
-Read-only. CorpusIQ never sends emails or modifies your lists.
+1. **Create a Klaviyo private API key** with read scopes on the objects you want visible.
+2. **Connect Klaviyo to CorpusIQ** with that key. Anything the key cannot reach is invisible to the connector.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **CorpusIQ queries Klaviyo**: campaigns and their metrics, flows and flow performance, abandoned cart data, lists and segments, subscription health, forms, and predictive analytics.
+5. **Claude answers** from those results, naming the window and the metric it used.
 
-## Connect Klaviyo to Claude in 2 minutes
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
-1. Sign up at [corpusiq.io](https://www.corpusiq.io)
-2. Click **Connections** → Klaviyo
-3. Paste your Klaviyo private API key
-4. Ask your first question
+### Setup Steps
 
-## Email + ecommerce in one answer
+**In Klaviyo**
 
-"Which email campaign drove the most Shopify revenue last month - and what was the ROAS?" connects Klaviyo attribution + Shopify orders in one answer.
+1. Open **Account**, then **Settings**, then **API keys**, and create a private API key for this purpose. Do not reuse the key your storefront integration already uses.
+2. Tick read scopes on Campaigns, Flows, Lists, Segments, Profiles, Metrics, Forms, and Events. Anything left unticked is unreachable.
+3. Copy the key.
 
-[Start free - connect Klaviyo to Claude](https://www.corpusiq.io)
+**In CorpusIQ**
+
+4. Log in and open **Connections**.
+5. Select **Klaviyo** and paste the private API key.
+6. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+7. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+8. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+9. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+10. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+11. Verify with "how much revenue did my flows generate last month". If the figure matches the Klaviyo dashboard, the key is working.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](../troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Flows and automation**
+
+- "Which flows generated the most revenue in the last 30 days, and what is each one's revenue per recipient?"
+- "How is the abandoned cart flow performing this quarter against last quarter?"
+- "Which flows have not sent to anyone in 60 days?"
+
+**Campaigns**
+
+- "How did this month's campaigns compare with the same month last year?"
+- "Which campaign subject lines performed best by open rate?"
+- "Show revenue attributed to email versus SMS this month."
+
+**List and health**
+
+- "How fast is the list growing, and what share of new subscribers came from popups versus checkout?"
+- "Which segments carry the highest unsubscribe rate?"
+- "How many profiles are suppressed or bounced right now?"
+
+**Cross-source**
+
+- "Does Shopify revenue match what Klaviyo attributes to email for the same period?" (requires the Shopify connector)
+- "Is our Meta spend producing subscribers who later buy, or just subscribers?" (requires the Meta connector)
+- "How does email revenue compare with paid channel revenue over the last 90 days?" (requires the ads connectors)
+
+### Security
+
+- **Read-only key.** The connector reads campaigns, flows, lists, segments, profiles, metrics, forms, and events. It cannot send a campaign, edit a flow, or modify a profile.
+- **Scoped by key.** What the private API key cannot reach, the connector cannot answer from. Create a key for this purpose rather than reusing the storefront key.
+- **Revocable immediately.** Delete the key in Klaviyo under **Account, Settings, API keys** and access ends at once.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Klaviyo, CorpusIQ, and Claude.
+
+### Comparison: The Klaviyo UI vs Klaviyo Through Claude
+
+| Aspect | Klaviyo interface | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A report you pick from a menu | A question, with the window stated |
+| Output | A chart to read | A number plus the metric behind it |
+| Flows vs campaigns | Two separate reports | One question across both |
+| Across sources | Export, then reconcile | Asked across connectors |
+| New question | Build another report | Ask again |
+| Write access | Yes, by you | None, read-only key |
+
+Klaviyo is the right place to build and send. Claude is the right place for the question that compares email revenue against the orders that actually booked.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector reads campaigns, flows, abandoned cart data, lists, segments, profiles, metrics, forms, and events. It cannot send a campaign, edit a flow, or modify a subscriber profile.
+</details>
+
+<details>
+<summary><strong>How does the connection authenticate?</strong></summary>
+
+With a Klaviyo private API key you create, carrying read scopes on the objects you want answerable. Anything the key cannot reach is invisible, and deleting the key in Klaviyo ends access immediately.
+</details>
+
+<details>
+<summary><strong>Does it cover SMS as well as email?</strong></summary>
+
+Yes. Campaign and flow performance covers both channels, so revenue attributed to email and to SMS can be compared in a single answer.
+</details>
+
+<details>
+<summary><strong>Do I need a particular Klaviyo plan?</strong></summary>
+
+You need an account with API access and the permission level required to create a private key with read scopes. Predictive analytics such as CLV and churn risk need enough order history, so a new account may show them empty for weeks.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. The connector queries Klaviyo when you ask, so a campaign that finished an hour ago is reflected in the next question. There is no overnight refresh in between.
+</details>
+
+<details>
+<summary><strong>Can Claude change a flow or pause a campaign?</strong></summary>
+
+No. Sending, editing, and pausing all stay in Klaviyo. The connection is a read path, so the worst case is a wrong answer rather than a wrong send.
+</details>
+
+<details>
+<summary><strong>Why connect email data to Claude at all?</strong></summary>
+
+Because the question that matters is rarely about email alone. "Does Klaviyo revenue match what Shopify booked" and "do email subscribers buy again" both need a second system in the same answer.
+</details>
+
+---
+
+**Next steps:** [Connect Klaviyo to Claude now](https://corpusiq.io/connect/klaviyo-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 
@@ -29846,43 +30233,170 @@ CorpusIQ normalizes across platforms. Ask for cost per qualified lead across all
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# Connect Meta Ads (Facebook + Instagram) to Claude
+# How to Connect Meta Ads to Claude with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connectors/connect-meta-ads-to-claude
 
-# Connect Meta Ads (Facebook + Instagram) to Claude
 
-Your Meta Ads dashboard shows spend and reach. It does not tell you if you are profitable. Connect Meta Ads to Claude through CorpusIQ and ask the questions that matter.
+# How to Connect Meta Ads to Claude with CorpusIQ MCP
 
-## What you can ask once connected
+Meta Ads is where Facebook and Instagram performance lives, and it is hard to interrogate because the reporting is split across campaigns, ad sets, audiences, and lead forms. Every answer arrives one level at a time.
 
-- "What is my true ROAS on Meta this month after Shopify returns?"
-- "Which ad sets are burning budget with no conversions?"
-- "Compare Facebook vs Instagram performance this week."
-- "What is my CPM trend over the last 30 days?"
-- "Which age and gender segment converts best?"
+Connecting Meta through CorpusIQ MCP puts ad account performance, campaigns, ad sets, individual ads, audience insights, and lead forms in the same conversation as the commerce platform and the other ad channels. You ask, Claude reads the account as it stands, and the answer names the placements and the window it used.
 
-## What CorpusIQ reads from Meta Ads
+### Why Connect Meta Ads to Claude?
 
-- Account-level spend, impressions, clicks, reach, CPM, CPC, CTR
-- Campaign and ad set performance
-- Individual ad creative metrics
-- Age, gender, geographic, device breakdowns
-- Daily performance trends
+- **Spend questions.** "Which campaigns spent the most this month, and what did each return?"
+- **Placement questions.** "Compare Facebook and Instagram placements by cost per result."
+- **Waste questions.** "Which ad sets are spending but not producing conversions?"
+- **Fatigue questions.** "Which audiences have the highest frequency, and where is fatigue showing?"
+- **Lead questions.** "How many leads came through our lead forms this quarter, and what did each cost?"
+- **Read-only by OAuth permission.** The connection reads. It cannot change a budget, pause an ad, or edit an audience.
 
-Read-only. CorpusIQ never modifies your campaigns or budgets.
+### How It Works
 
-## Connect Meta Ads to Claude in 2 minutes
+1. **Connect Meta to CorpusIQ** through Meta's own OAuth flow, approving read access to the ad account.
+2. **Meta is one connector** covering Facebook, Instagram, and Meta Ads, so you authorize once rather than per surface.
+3. **Connect CorpusIQ to Claude** as an MCP server, using the config block from your account settings.
+4. **CorpusIQ queries Meta**: ad account performance, campaigns, ad sets, individual ads, audience insights, and lead form results.
+5. **Claude answers** from those results, naming the campaigns and the attribution window behind the figures.
 
-1. Sign up at corpusiq.io
-2. Click Connections then Meta Ads then authorize with your Facebook account
-3. Select your ad account
-4. Ask Claude your first question
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
-## The cross-source answer Meta cannot give you
+### Setup Steps
 
-"I spent $12,000 on Meta this month. How much Shopify revenue did it actually drive after returns and fees?" - that requires Meta plus Shopify plus Stripe. CorpusIQ answers it in one question.
+**In CorpusIQ**
 
-[Connect Meta Ads to Claude free](https://www.corpusiq.io)
+1. Log in and open **Connections**.
+2. Select **Meta** and start the authorization. Sign in with a Facebook user that is a person on the ad account in Business Manager, not merely an admin of the Page.
+3. Approve the read permissions on Meta's consent screen, including `ads_read`.
+4. Copy the MCP config block shown under **Settings, Integrations, Claude Desktop**.
+
+**In Claude Desktop**
+
+5. Open **Settings, Developer, Edit Config**. This opens `claude_desktop_config.json`.
+6. Add the CorpusIQ entry:
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp2.corpusiq.io/mcp"
+      ]
+    }
+  }
+}
+```
+
+7. Save the file and fully quit Claude Desktop. Not just the window: quit the application.
+8. Reopen Claude, complete the device login when prompted, and the tools indicator appears next to the message box.
+9. Verify with "which campaigns spent the most this month". If the campaign names are real, the account is connected.
+
+If the tools indicator does not appear, work through [Claude can't see CorpusIQ](../troubleshooting/claude-cant-see-corpusiq.md) before changing anything else.
+
+### Example Claude Questions
+
+**Spend and return**
+
+- "Which campaigns spent the most this month, and what did each return?"
+- "What is our cost per acquisition trend over the last six months?"
+- "Which ad sets are spending but not producing conversions?"
+
+**Placement and creative**
+
+- "Compare Facebook and Instagram placements by cost per result."
+- "Which creatives have the best cost per result over the last 60 days?"
+- "Where is the cost per result rising fastest?"
+
+**Audience**
+
+- "Which audiences have the highest frequency, and where is fatigue showing?"
+- "Which interests produced the lowest cost per lead this quarter?"
+
+**Lead forms**
+
+- "How many leads came through our lead forms this quarter, and what did each cost?"
+- "Which form produced the cheapest qualified lead?"
+
+**Cross-source**
+
+- "Compare Meta cost per acquisition with Google Ads for the same period." (requires the Google Ads connection)
+- "Do the purchases Meta reports match what our commerce platform booked?" (requires the commerce connector)
+- "Is our email revenue coming from customers acquired through paid social?" (requires the email connector)
+
+### Security
+
+- **Read-only connection.** The connector reads ad account performance, campaigns, ad sets, ads, audience insights, and lead forms. It cannot change budgets, pause ads, or edit audiences.
+- **Scoped by Meta permissions.** What the authorizing user can see is what the connector can read, and the permissions are shown on Meta's own consent screen before you approve.
+- **Revocable immediately.** Remove CorpusIQ in **Meta Business Settings, Integrations** and access ends at once.
+- **One connector, three surfaces.** Facebook, Instagram, and Ads share one authorization, so there is one place to review and one place to revoke.
+- **Scoped direct-MCP retention.** Direct MCP retrieval is read-only. Raw customer files and full connector payloads are not retained. Operational logs keep query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Meta, CorpusIQ, and Claude.
+
+### Comparison: Meta Ads Manager vs Meta Ads Through Claude
+
+| Aspect | Ads Manager | CorpusIQ MCP with Claude |
+|---|---|---|
+| Input | A column layout, a breakdown, a date range | A question, with the window stated |
+| Output | Rows to scan across tabs | A number plus the campaigns counted |
+| Facebook vs Instagram | A placement breakdown you configure | Asked directly |
+| Across sources | Export, then reconcile | Asked across connectors |
+| New question | Rebuild the view | Ask again |
+| Write access | Yes, by you | None, read-only |
+
+Ads Manager is the right place to change a budget. Claude is the right place for the question that compares what paid social reported against what the business booked.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Is this read-only?</strong></summary>
+
+Yes. The connector reads account performance, campaigns, ad sets, ads, audience insights, and lead forms. It cannot change budgets, pause ads, edit audiences, or create anything new.
+</details>
+
+<details>
+<summary><strong>Does this cover Instagram as well as Facebook?</strong></summary>
+
+Yes. Meta is a single connector covering Facebook, Instagram, and Meta Ads, so a placement-level comparison between the two is one question rather than two reports.
+</details>
+
+<details>
+<summary><strong>How does the connection authenticate?</strong></summary>
+
+Through Meta's OAuth flow, with the authorizing user approving read permissions on the ad account. Page admin alone is not enough: the Facebook user must be added as a person on the ad account in Business Manager.
+</details>
+
+<details>
+<summary><strong>Can I see lead form performance?</strong></summary>
+
+Yes. Lead forms are part of the Meta connector, so lead volume and cost per lead sit alongside campaign spend in the same answer.
+</details>
+
+<details>
+<summary><strong>Why does spend differ from what I see in Ads Manager?</strong></summary>
+
+Meta's attribution windows differ by surface, and some views show attributed numbers rather than raw spend. The connector pulls raw spend, which matches Billing and Payments. When a figure disagrees, check the window first.
+</details>
+
+<details>
+<summary><strong>Is this worth it at a small budget?</strong></summary>
+
+The cross-source question is worth asking at any spend level. "Do the purchases Meta reports match what we booked" changes a decision whether you spend hundreds or hundreds of thousands a month.
+</details>
+
+<details>
+<summary><strong>Can Claude change a budget or pause an ad?</strong></summary>
+
+No. There is no write path in the connection, so a session cannot spend money or stop a live campaign by accident. Those actions stay in Ads Manager.
+</details>
+
+---
+
+**Next steps:** [Connect Meta Ads to Claude now](https://corpusiq.io/connect/meta-ads-with-claude)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 
@@ -30438,6 +30952,11 @@ CorpusIQ never creates ads, edits budgets, or pauses campaigns.
 - **"Permissions error on insights"** - Reconnect and make sure you approved the `ads_read` permission during OAuth.
 - **Spend looks different than Meta UI** - Meta defaults to a 7-day click attribution window in some places and 1-day in others. CorpusIQ pulls raw spend, which always matches Billing & Payments, not the campaign UI's attributed numbers.
 
+## See also
+
+- [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md) - the same ad account in Claude Desktop, with the Business Manager access requirement and the attribution caveat.
+- [Facebook Page connector](facebook.md) - organic Page data, kept separate from paid.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
@@ -30818,6 +31337,10 @@ CorpusIQ never creates campaigns, changes bids, or pauses ads.
 - **"No accounts found"** - The Google user you signed in with doesn't have access to any Ads account. Add yourself in Google Ads → Tools → Access and Security.
 - **MCC errors** - If you manage accounts through an MCC, you'll need to pass the manager customer ID as `login_customer_id` when querying client accounts.
 - **Conversion counts seem low** - Google Ads only counts conversions configured in the Ads conversion settings. If you rely on GA4 imported conversions, check that the import is active.
+
+## See also
+
+- [Connect Google Ads to Claude](connect-google-ads-to-claude.md) - the same account in Claude Desktop, including the manager-account path for agencies.
 
 ---
 
@@ -31361,6 +31884,7 @@ CorpusIQ never sends campaigns, edits flows, or modifies profiles.
 ## See also
 
 - [Connect Klaviyo to Perplexity](../connect-klaviyo-to-perplexity.md) - campaign and flow revenue questions inside a Perplexity thread.
+- [Connect Klaviyo to Claude](connect-klaviyo-to-claude.md) - the same account in Claude Desktop, with the private-key scope list and the SMS caveat.
 
 ---
 
