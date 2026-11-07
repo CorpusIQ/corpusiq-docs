@@ -130,6 +130,7 @@ npx skills add aradotso/ai-agent-skills@hermes-agent-self-evolution
 **Combined June 11 total:** 38 (morning) + 19 (update) = **57 new skills discovered today.**
 
 All skills installable via `npx skills add <owner/repo>@<skill>`. No additional configuration required beyond Hermes agent's existing tool access.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

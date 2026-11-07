@@ -190,4 +190,5 @@ MCP server sweeps run three times daily, the skills.sh marketplace sweep runs da
 ### Where can I report a problem with a page?
 
 Open an issue at https://github.com/CorpusIQ/corpusiq-docs/issues and include the page URL.
+
 ---

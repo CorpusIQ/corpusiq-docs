@@ -150,6 +150,7 @@ npx skills add https://github.com/AMAP-ML/SkillClaw
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Previous Sweep →](/hermes/skills/marketplace/new-july31-2026)*
 
 *Powered by CorpusIQ*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

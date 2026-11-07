@@ -192,6 +192,7 @@ The systemd service with `Restart=always` ensures Hermes Agent restarts automati
 - [Model Selection Guide](/hermes/best-practices/model-selection) - API model tiering
 - [Cron Design Best Practices](/hermes/best-practices/cron-design) - 24/7 automation
 - [Troubleshooting Guide](/hermes/troubleshooting) - VPS-specific issues
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

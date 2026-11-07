@@ -305,6 +305,7 @@ hermes cron create "0 23 * * *" \
 4. **Delivery targets matter** - email for human-readable reports, `local` for machine-readable logs.
 5. **Context-from is powerful** - chain crons: collect data with a script, analyze with an agent.
 6. **Mass pauses are a symptom** - if you pause 15 crons at once, something cascaded. Find the root cause.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

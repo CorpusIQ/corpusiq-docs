@@ -214,6 +214,7 @@ Twenty quick snapshots by default. For full archives, `--keep` defaults to 3 and
 - [Session Cleanup](session-cleanup.md) - Keeping the state database small
 - [Full Backup Script Guide](/hermes/skills/catalog/hermes-full-backup-setup) - Third-party script with its own retention logic
 - [Backup and Recovery Skill](/hermes/skills/catalog/hermes-backup-recovery-setup) - Skill-based recovery workflow
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

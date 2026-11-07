@@ -75,6 +75,7 @@ Three release checks a day compare the newest Hermes Agent GitHub release agains
 | `hermes-release-monitor` | 02:00, 10:00, 18:00 UTC | Poll GitHub releases; draft and publish the changelog page for any new tag |
 
 When a new release is detected, a changelog page is generated, committed to `CorpusIQ/corpusiq-docs`, deployed, and reported by email.
+
 ---
 
 ## FAQ

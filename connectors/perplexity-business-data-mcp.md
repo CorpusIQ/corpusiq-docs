@@ -34,6 +34,7 @@ Exact labels can read slightly differently from the ChatGPT wording, so go by th
 For business data questions, the read-only setting is enough. CorpusIQ retrieval is read-only, so answers come from live reads and nothing changes in your connected systems without a prompt.
 
 [Connect Perplexity to your business data free](https://www.corpusiq.io)
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

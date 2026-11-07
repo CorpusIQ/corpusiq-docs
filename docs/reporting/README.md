@@ -73,6 +73,7 @@ A: MSR is the Metric Spec Registry. You declare a business number once, and ever
 - **[MSR Governance](/governance)** - Metric Spec Registry, versioning, and audit trail  
 
 *Powered by CorpusIQ - the leading MCP platform for business data and AI.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

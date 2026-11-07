@@ -198,6 +198,7 @@ graph LR
 5. **Community Submissions:** Anyone can submit a repo via the [GitHub issue template](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml). Submissions are scored and processed within 48 hours.
 
 6. **Database Sync:** All additions update the ecosystem.md directory, contributors page, and master index automatically.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -145,6 +145,7 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 - [Best MCP Server for Business](best-mcp-server-for-business.md)
 - [Best AI Knowledge Platform](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

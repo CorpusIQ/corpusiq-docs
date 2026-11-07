@@ -210,6 +210,7 @@ Add a [gaming PC worker node](gaming-pc.md) via SSH for GPU-heavy inference, or 
 - [Troubleshooting Guide](/hermes/troubleshooting) - Common Mac Mini issues
 - [Hermes Changelog](/hermes/changelog) - Latest agent releases and features
 - [Skills Marketplace](/hermes/skills/marketplace) - 946+ community skills
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -62,6 +62,7 @@ Model routing: default to local models, escalate to API only when needed. Skills
 ---
 title: CrewAI - Multi-Agent Orchestration
 description: Multi-agent coordination with CrewAI - specialized agents, parallel execution, and domain delegation
+
 ---
 
 ## CrewAI - Multi-Agent Orchestration
@@ -102,6 +103,7 @@ Five agents working in sequence, each focused on its domain. Result: end-to-end 
 ---
 title: LangGraph - Stateful Workflows
 description: Graph-based execution with conditional routing, persistent state, and recovery paths for Hermes agents
+
 ---
 
 ## LangGraph - Stateful Workflows
@@ -135,6 +137,7 @@ LangGraph workflows execute through Hermes tool calls. Hermes provides the execu
 ---
 title: Reflexion - Self-Improving Agents
 description: Self-evaluation loops for autonomous agent improvement without human correction
+
 ---
 
 ## Reflexion - Self-Improving Agents
@@ -169,6 +172,7 @@ At 23:00, the daily self-improvement cycle analyzes the day's reflexion logs, id
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

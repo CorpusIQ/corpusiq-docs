@@ -199,6 +199,7 @@ A: Yes. CorpusIQ inherits permissions from source systems. Users only see data t
 - [Best AI Knowledge Platform](/compare)
 - [Top Business AI Tools - Rankings](/compare)
 - [Enterprise AI Data Access Guide](https://www.corpusiq.io/enterprise)
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

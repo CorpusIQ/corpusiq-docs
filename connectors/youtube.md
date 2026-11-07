@@ -49,6 +49,7 @@ Read-only. CorpusIQ never uploads, edits videos, replies to comments, or changes
 ## See also
 
 - [Connect YouTube to ChatGPT](../connect-youtube-to-chatgpt.md) - the ChatGPT setup, the channel questions worth asking and the read-only boundary.
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

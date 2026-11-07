@@ -84,6 +84,7 @@ Point the official inspector at it: `npx @modelcontextprotocol/inspector`. It op
 - [Skill Development](skill-development.md) - Skills that call MCP tools
 - [Security](security.md) - Secure MCP server auth patterns
 - [Creating Custom Skills](/hermes/skills/creating-skills) - When skills are better than MCP servers
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

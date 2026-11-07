@@ -61,6 +61,7 @@ Every committed spec change increments a version number, and that version appear
 - **[CorpusIQ Onboarding Guide](/onboarding)** - AI chat and agent setup in 10 minutes
 
 *Powered by CorpusIQ - business answers you can trust, cited from your own sources.*
+
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
