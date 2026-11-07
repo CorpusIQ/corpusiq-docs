@@ -88674,5 +88674,346 @@
     "near_duplicates": [],
     "discovered_at": "2026-11-06T10:03:04.927306+00:00",
     "status": "pending"
+  },
+  {
+    "name": "lazzybit/hermes-agent-operator",
+    "url": "https://github.com/lazzybit/hermes-agent-operator",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-11-07T04:00:29Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-07T04:00:49.941043+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "GnaneshKunal/dsh-hermes-facade",
+    "url": "https://github.com/GnaneshKunal/dsh-hermes-facade",
+    "description": "Drive a local DeepSeek Harness agent from the Hermex iOS app - a DSH host plugin that impersonates a hermes-webui server (HTTP + SSE): sessions, streaming tokens, thinking, tool cards, approvals, images and projects.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "hermes",
+      "ios",
+      "self-hosted",
+      "sse"
+    ],
+    "updated_at": "2026-11-07T03:59:27Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "mlennie/hermes-mcp",
+      "zakahadi/llm-eval-cli",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-11-07T04:00:49.943538+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xl3v3r/hermes-oracle-memory",
+    "url": "https://github.com/xl3v3r/hermes-oracle-memory",
+    "description": "Oracle AI Database 26ai memory provider plugin for Hermes Agent",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "memory",
+      "oracle",
+      "vector-database"
+    ],
+    "updated_at": "2026-11-07T03:58:51Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-07T04:00:49.945495+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LJ1103/hids-triage-pipeline",
+    "url": "https://github.com/LJ1103/hids-triage-pipeline",
+    "description": "HIDS \u544a\u8b66\u667a\u80fd\u5206\u8bca\u6d41\u6c34\u7ebf\uff1a\u4e00\u7ea7\u7eaf\u811a\u672c\u95e8\u63a7\uff08\u53bb\u91cd/\u767d\u540d\u5355/\u51b7\u5374\uff09\u62e6\u622a\u566a\u58f0\uff0c\u4e8c\u7ea7 Hermes Agent AI \u7814\u5224\u4fdd\u9ad8\u5371\u4e0d\u6f0f\uff0c\u4f01\u5fae\u7cbe\u51c6\u9001\u8fbe | LLM-powered HIDS alert triage with two-stage gating",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-07T03:57:52Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-07T04:00:49.947392+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MGNetworking/docker-hermes",
+    "url": "https://github.com/MGNetworking/docker-hermes",
+    "description": "D\u00e9ploiement Docker production-ready de Hermes Agent (NousResearch) \u2014 portable, persistant et s\u00e9curis\u00e9.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "docker",
+      "docker-compose",
+      "hermes",
+      "nousresearch",
+      "self-hosted"
+    ],
+    "updated_at": "2026-11-07T03:57:51Z",
+    "category": "core",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-07T04:00:49.948983+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TrebuchetDynamics/kit",
+    "url": "https://github.com/TrebuchetDynamics/kit",
+    "description": "Shared skills and slash commands for a Hermes Agent profile fleet",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-07T03:57:18Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "kaankacar/stellar-agent-kit",
+      "codegraphtheory/chainforge",
+      "moonlight-lupin/agent-skills"
+    ],
+    "discovered_at": "2026-11-07T04:00:49.950535+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "konethegreat/agentos-studio",
+    "url": "https://github.com/konethegreat/agentos-studio",
+    "description": "Stop copy-pasting prompts between terminals and IDEs. 1-click bootstrapper and live control plane for Hermes, Claude Code, Qoder, Antigravity, Obsidian and Notion, with a native Rust MCP bus.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "mcp",
+      "notion",
+      "obsidian",
+      "react",
+      "rust",
+      "tauri"
+    ],
+    "updated_at": "2026-11-07T01:58:37Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "MervinPraison/PraisonAI",
+      "itechmeat/open-second-brain",
+      "ahonore42/logios-brain",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "Infisical/agent-vault",
+      "cavi-ai/mlx-agent",
+      "rexleimo/aios",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons",
+      "dfrostar/neuralmind"
+    ],
+    "discovered_at": "2026-11-07T04:00:57.762792+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MarekIksinski/hermem",
+    "url": "https://github.com/MarekIksinski/hermem",
+    "description": "Hierarchical long-term memory store (SQLite+ChromaDB) exposed to Hermes Agent over MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-07T00:37:22Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-07T04:00:57.765006+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "unsulabs/hermes-business-brain",
+    "url": "https://github.com/unsulabs/hermes-business-brain",
+    "description": "Hermes plugin: offline, privacy-first business-brain engine for Obsidian vaults. Native English engine, 18 in-process tools, 19 bundled skills. Hermes-native edition of Obsidian-Bussines-Brain by Unsu Labs. MIT.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "business-brain",
+      "hackathon",
+      "hermes",
+      "hermes-plugin",
+      "obsidian",
+      "plugin",
+      "python"
+    ],
+    "updated_at": "2026-11-07T03:48:59Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-07T04:01:05.636827+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wadezigh96/rariflat-hermes",
+    "url": "https://github.com/wadezigh96/rariflat-hermes",
+    "description": "Rariflat \u2014 Visual Agent Status + Multi-Agent Router for Hermes. Characters come alive on every tool call. Routes skills by rarity + restraint. Built for the Hermes Agent Plugin Hackathon.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-07T02:41:04Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Lethe044/hermes-incident-commander",
+      "agentchatme/agentchat-hermes",
+      "BlockRunAI/ClawRouter-Hermes",
+      "thestark77/cobalt-agent",
+      "zakahadi/llm-eval-cli",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "awesome-hermes-usecases",
+      "hermeshub",
+      "hermes-ecosystem",
+      "oh-my-hermes",
+      "ksimback/hermes-ecosystem",
+      "MemTensor/memmy-agent",
+      "NousResearch/hermes-official-plugins",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-07T04:01:05.640673+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Pablomeneng/hermes-business-brain",
+    "url": "https://github.com/Pablomeneng/hermes-business-brain",
+    "description": "Hermes plugin: offline business-brain toolkit for Obsidian. Bundle the Obsidian Business Brain engine as 13 brain_* tools + 19 translated skills. MIT, derived from unsulabs/Obsidian-Bussines-Brain.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-06T23:21:34Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-11-07T04:01:05.644834+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "moban9/hermes-mission-control",
+    "url": "https://github.com/moban9/hermes-mission-control",
+    "description": "Mission Control \u2014 real-time agent activity dashboard for the Onendo Hermes fleet",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-07T04:01:01Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-07T04:01:13.524858+00:00",
+    "status": "pending"
   }
 ]

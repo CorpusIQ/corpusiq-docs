@@ -1,5 +1,5 @@
 {
-  "run_time": "2026-11-06T10:03:36.273526+00:00",
+  "run_time": "2026-11-07T04:03:18.319981+00:00",
   "new_approved": [],
   "integration": {
     "published_file": "hermes/ecosystem/index.md",
@@ -10,6 +10,6 @@
     "auto_approved": 0,
     "pending_review": 12,
     "total_approved": 209,
-    "total_pending": 2977
+    "total_pending": 2989
   }
 }

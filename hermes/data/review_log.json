@@ -21207,5 +21207,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-06T10:03:36.187625+00:00"
+  },
+  {
+    "repo": "lazzybit/hermes-agent-operator",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259411+00:00"
+  },
+  {
+    "repo": "GnaneshKunal/dsh-hermes-facade",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259421+00:00"
+  },
+  {
+    "repo": "xl3v3r/hermes-oracle-memory",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259422+00:00"
+  },
+  {
+    "repo": "LJ1103/hids-triage-pipeline",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259423+00:00"
+  },
+  {
+    "repo": "MGNetworking/docker-hermes",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259425+00:00"
+  },
+  {
+    "repo": "TrebuchetDynamics/kit",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259426+00:00"
+  },
+  {
+    "repo": "konethegreat/agentos-studio",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259427+00:00"
+  },
+  {
+    "repo": "MarekIksinski/hermem",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259427+00:00"
+  },
+  {
+    "repo": "unsulabs/hermes-business-brain",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259428+00:00"
+  },
+  {
+    "repo": "wadezigh96/rariflat-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259430+00:00"
+  },
+  {
+    "repo": "Pablomeneng/hermes-business-brain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259431+00:00"
+  },
+  {
+    "repo": "moban9/hermes-mission-control",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-07T04:03:18.259432+00:00"
   }
 ]
