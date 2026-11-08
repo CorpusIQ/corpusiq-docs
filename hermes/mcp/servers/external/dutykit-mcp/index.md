@@ -105,7 +105,7 @@ That refusal is worth more than the check. A tool that says what it did not veri
 - **Coverage is DE, LU and EU-wide duties.** France and Belgium are announced as next; nothing else is claimed.
 - **It is a filter, not legal advice**, and it says so in every response.
 - **The AI Act line is a wording suggestion.** `ki_hinweis` returned a German sentence for Art. 50 Abs. 1 and marked one language variant as unchecked rather than presenting it as reviewed.
-- **The repository is hours old and empty-sized.** GitHub reports **0** stars, creation at `2026-11-08T09:23:40Z`, last push at `09:24:36Z` and a size of **0 KB**, so the obligation catalogue cannot yet be audited from source. The registry carries two active records under two owner names (`io.github.r08150816s-star/dutykit` **0.1.0** published `2026-11-07T16:05:01Z` and `io.github.renschrder-stack/dutykit` **0.1.1`), which reads as a rename in progress rather than two servers.
+- **The repository is hours old and empty-sized.** GitHub reports **0** stars, creation at `2026-11-08T09:23:40Z`, last push at `09:24:36Z` and a size of **0 KB**, so the obligation catalogue cannot yet be audited from source. The registry carries two active records under two owner names (`io.github.r08150816s-star/dutykit` **0.1.0** published `2026-11-07T16:05:01Z` and `io.github.renschrder-stack/dutykit` **0.1.1**), which reads as a rename in progress rather than two servers.
 - **The free tier is a rate limit, not a contract.** 200 calls a day per IP, no inputs or results stored, and a paid tier with a server-side audit log announced as coming.
 
 ## Why it earns a guide rather than a hold

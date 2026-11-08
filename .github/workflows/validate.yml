@@ -127,3 +127,18 @@ jobs:
           python -m unittest scripts/test_check_progress_counts.py
           python scripts/check_progress_counts.py
 
+      # MkDocs builds non-strict, so a stray ` or an unclosed ** publishes
+      # silently and reads as broken text to every visitor. Found on production
+      # 2026-11-08: /docs/hermes/mcp/servers/external/dutykit-mcp rendered the
+      # literal "**0.1.1`), which reads as a rename in progress" (stray backtick
+      # after 0.1.1) and /docs/hermes/mcp/servers/external/adrio-mcp rendered
+      # "**The key advantage is ..." because its bold opener was closed with
+      # </b> instead of **. Both returned 200; no gate looked at inline
+      # emphasis. scripts/check_emphasis_markers.py strips fenced blocks and
+      # balanced code spans, then requires an even count of ** and zero leftover
+      # backticks. See its docstring for the rule and the two worked examples.
+      - name: Validate emphasis and inline-code markers are balanced
+        run: |
+          python -m unittest scripts/test_check_emphasis_markers.py
+          python scripts/check_emphasis_markers.py
+

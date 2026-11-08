@@ -133,6 +133,24 @@ if git diff --cached --name-only --diff-filter=ACM | grep -qE '^PROGRESS\.md$'; 
   fi
 fi
 
+# --- emphasis marker gate (wired 2026-11-08) ---
+# Why: MkDocs builds non-strict, so a stray backtick or an unclosed ** publishes
+# silently and reads as broken text to the visitor. Two live pages carried this
+# on 2026-11-08 and both returned 200: dutykit-mcp rendered the literal
+# "**0.1.1`), which reads as a rename in progress", and adrio-mcp rendered
+# "**The key advantage is ..." because its opener was closed with </b> instead
+# of **. No gate looked at inline emphasis, and staging a fix only helps the
+# next commit - so fail here, scoped to the markdown actually being committed.
+if git diff --cached --name-only --diff-filter=ACM | grep -qE '\.(md|mdx)$'; then
+  EM_OUT=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|mdx)$' \
+    | tr '\n' '\0' | xargs -0 python3 scripts/check_emphasis_markers.py 2>&1)
+  if [ $? -ne 0 ]; then
+    echo "$EM_OUT" | grep -E '^FAIL|^     (unbalanced|hint)|^RESULT' | head -12
+    echo "[emphasis] blocked: close the stray \` or ** so the served page renders as written"
+    FAILED=1
+  fi
+fi
+
 if [ "$FAILED" -eq 1 ]; then
   echo "[ops-gate] commit blocked by docs gate. Fix the findings above, or bypass once with: git commit --no-verify"
   exit 1

@@ -30,7 +30,7 @@ Creative testing dies when research, angle selection and brief-writing live in t
 
 For growth and marketing operators, that compresses the loop from "spend an afternoon in the ad library" to "ask, get angles grounded in our own swipe file, and ship a brief." The assistant works from the team's accumulated research rather than generic best-practice tips.
 
-**The key advantage is a chat-native ad research and brief workflow wired to the team's own saved creative.</b>
+**The key advantage is a chat-native ad research and brief workflow wired to the team's own saved creative.**
 
 ## Tools & Capabilities
 
