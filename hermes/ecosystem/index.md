@@ -1,6 +1,6 @@
 ---
 title: Hermes Ecosystem - Complete Resource Directory
-description: The definitive directory of Hermes Agent resources - 451+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources - 452+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 last_updated: "2026-11-07"
@@ -10,9 +10,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem - Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 451+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 452+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 7, 2026 · **Repos indexed:** 451+ · **Categories:** 18
+> **Last updated:** November 7, 2026 · **Repos indexed:** 452+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -454,7 +454,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 451+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 452+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -3348,6 +3348,18 @@ Orkas is an open-source, local-first AI desktop app: a commander LLM directs spe
 
 ---
 
+### davidondrej/cloudroom
+⭐ **1,512** · `TypeScript` · [github.com/davidondrej/cloudroom](https://github.com/davidondrej/cloudroom)
+
+Cloud agents for any harness - Claude Code, Codex, Pi and OpenCode run in isolated sandboxes, and live sessions move between your Mac and the cloud. Hermes-compatible (hermes-agent topic), self-hosted, Apache-2.0.
+
+**Maintainer:** davidondrej
+**Topics:** `ai-agents`, `cloud-agents`, `coding-agents`, `hermes-agent`, `self-hosted`
+**Key capabilities:** Cloud sandbox execution per agent session, harness-agnostic (Claude Code, Codex, Pi, OpenCode), live session handoff between local Mac and cloud, self-hosted runtime, Apache-2.0
+**Related:** [Orchestration →](#orchestration-multi-agent-swarms)
+
+---
+
 ### zeenie-ai/OpenCompany
 ⭐ **811** · `Python` · [github.com/zeenie-ai/OpenCompany](https://github.com/zeenie-ai/OpenCompany)
 
@@ -4598,7 +4610,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **451+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **452+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
