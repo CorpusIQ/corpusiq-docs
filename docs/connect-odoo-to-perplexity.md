@@ -162,6 +162,8 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 **Next steps:** [Connect Odoo to Perplexity now](https://corpusiq.io/connect/odoo-with-perplexity)
 
+**Also in ChatGPT:** [Connect Odoo to ChatGPT](connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
+
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---

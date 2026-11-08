@@ -48,6 +48,7 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 
 ## See also
 
+- [Connect ActiveCampaign to ChatGPT](../connect-activecampaign-to-chatgpt.md) - campaign, automation and pipeline questions inside a ChatGPT thread.
 - [Connect ActiveCampaign to Perplexity](../connect-activecampaign-to-perplexity.md) - campaign, automation and pipeline questions inside a Perplexity thread.
 
 ---

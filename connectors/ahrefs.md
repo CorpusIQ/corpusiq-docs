@@ -48,6 +48,7 @@ Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask fo
 
 ## See also
 
+- [Connect Ahrefs to ChatGPT](../connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
 - [Connect Ahrefs to Perplexity](../connect-ahrefs-to-perplexity.md) - domain ratings, keyword and backlink questions inside a Perplexity thread.
 
 ---

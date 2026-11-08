@@ -155,6 +155,8 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 **Next steps:** [Connect ActiveCampaign to Perplexity now](https://corpusiq.io/connect/activecampaign-with-perplexity)
 
+**Also in ChatGPT:** [Connect ActiveCampaign to ChatGPT](connect-activecampaign-to-chatgpt.md) - campaign, automation and pipeline questions inside a ChatGPT thread.
+
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---

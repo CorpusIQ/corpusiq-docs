@@ -50,7 +50,16 @@ The CorpusIQ ChatGPT integration connects your business data directly to ChatGPT
 
 ## Supported Data Sources
 
-All 36 CorpusIQ connectors are available through the ChatGPT integration. See the [connectors directory](connectors.md) for the full list.
+All 40+ CorpusIQ connectors are available through the ChatGPT integration. See the [connectors directory](connectors.md) for the full list.
+
+**Connector setup guides:**
+
+- [Connect TikTok to ChatGPT](connect-tiktok-to-chatgpt.md) - per-video performance and channel trend questions inside a ChatGPT thread.
+- [Connect ActiveCampaign to ChatGPT](connect-activecampaign-to-chatgpt.md) - campaign, automation and pipeline questions inside a ChatGPT thread.
+- [Connect Dropbox to ChatGPT](connect-dropbox-to-chatgpt.md) - contracts, decks and invoices read from your folders inside a ChatGPT thread.
+- [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
+- [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
+- [Connect Odoo to ChatGPT](connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
 
 ## ChatGPT vs AI Agent Direct Connection
 

@@ -60,7 +60,7 @@ The roadmap names the same gaps: check every snippet against the live client, a 
 
 ## Where it sits against the rest of this catalog
 
-The shelf splits cleanly. [1Password](/hermes/mcp/servers/external/1password-mcp/) stores secrets and lets an agent *use* a variable without reading its value; that solves the file-on-disk problem for a team that already runs 1Password. [lookfirst](/hermes/mcp/servers/external/lookfirst-mcp/) gates an **action**: a named human approves a specific call and its exact arguments, the write is verified by read-back, and a signed hash chain records it. AgentKeyGate gates a **credential** instead: the agent never holds the key at all, the pass is bounded by time and call count, and the response is filtered on the way back.
+The shelf splits cleanly. [1Password](/hermes/mcp/servers/external/1password-mcp) stores secrets and lets an agent *use* a variable without reading its value; that solves the file-on-disk problem for a team that already runs 1Password. [lookfirst](/hermes/mcp/servers/external/lookfirst-mcp/) gates an **action**: a named human approves a specific call and its exact arguments, the write is verified by read-back, and a signed hash chain records it. AgentKeyGate gates a **credential** instead: the agent never holds the key at all, the pass is bounded by time and call count, and the response is filtered on the way back.
 
 Those are three different questions and an operator with a real agent deployment eventually needs all three. If the worry is "the key is in a file", start here. If the worry is "the agent will do the wrong thing with a key it legitimately holds", lookfirst answers that. If the worry is "the model sees the client's phone number", this gateway's field filter answers it and nothing else in this catalog does.
 
@@ -92,6 +92,6 @@ No, they answer different questions. 1Password stores a secret so an agent can u
 ## See Also
 
 - [lookfirst MCP](/hermes/mcp/servers/external/lookfirst-mcp/) - the human approval gate for agent writes, with read-back verification and a signed hash chain
-- [1Password MCP Server](/hermes/mcp/servers/external/1password-mcp/) - secret storage where the agent uses a variable and never reads its value
+- [1Password MCP Server](/hermes/mcp/servers/external/1password-mcp) - secret storage where the agent uses a variable and never reads its value
 - [CorpusIQ Runbook V1 - Governance](/hermes/mcp/runbook-governance) - the governed workflow contract these gates sit under
 - [CorpusIQ Runbook V1 - Veto Power](/hermes/mcp/runbook-veto-power) - who can stop a run, and what that costs

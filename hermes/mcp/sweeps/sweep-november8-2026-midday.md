@@ -77,8 +77,8 @@ Prior dispositions confirmed by name in the index: `anymail-finder` (B2B email f
 
 - **mcpservers.org:** the fresh canonical carries both `/servers/corpusiq-io` and `/servers/corpusiq/corpusiq-docs`. The detail route answers 403 by edge policy, not by delisting.
 - **mcp.so:** all four direct slugs (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`) answer **404**. The listing remains absent.
-- **Glama:** `https://glama.ai/mcp/servers/corpusiq-io` answers **200**. The `/@benoit-p/` and `/mcp/connectors/` forms both answer 404, so the plural server route is the live one, not a delisting.
-- **Smithery:** `registry.smithery.ai/servers?q=corpusiq` and `?q=Cprusiq` both return zero servers, and `https://smithery.ai/servers/benoit-p/Cprusiq` answers 404. This is a change from the previously verified `unlisted=false` state and is flagged in the closeout as the one open question from this pass rather than recorded as a delisting on a single read.
+- **Glama:** `https://glama.ai/mcp/servers/corpusiq-io` answers **200**. The publisher-handle route and the `/mcp/connectors/` form both answer 404, so the plural server route is the live one, not a delisting.
+- **Smithery:** `registry.smithery.ai/servers?q=corpusiq` and `?q=Cprusiq` both return zero servers, and `https://smithery.ai/servers/<publisher>/Cprusiq` answers 404. This is a change from the previously verified `unlisted=false` state and is flagged in the closeout as the one open question from this pass rather than recorded as a delisting on a single read.
 
 ## Counts
 

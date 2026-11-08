@@ -156,6 +156,8 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 **Next steps:** [Connect Semrush to Perplexity now](https://corpusiq.io/connect/semrush-with-perplexity)
 
+**Also in ChatGPT:** [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
+
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
