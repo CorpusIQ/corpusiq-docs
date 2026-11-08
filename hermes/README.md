@@ -8,7 +8,7 @@ tags:
   - production-deployment
   - ai-agent-architecture
   - mcp-ecosystem
-last_updated: "2026-11-03"
+last_updated: "2026-11-08"
 canonical: "https://www.corpusiq.io/docs/hermes/"
 robots: "index,follow"
 
