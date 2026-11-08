@@ -4541,6 +4541,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/listriver-mcp</loc>
+         <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/litescrape-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7263,6 +7267,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november7-2026-night</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november8-2026-midday</loc>
+         <lastmod>2026-11-08</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november8-2026-night</loc>
