@@ -153,6 +153,8 @@ CorpusIQ does not retain full connector response payloads. Operational logs may 
 
 **Next steps:** [Connect Ahrefs to Perplexity now](https://corpusiq.io/connect/ahrefs-with-perplexity)
 
+**Also in ChatGPT:** [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
+
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---

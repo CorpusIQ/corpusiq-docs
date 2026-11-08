@@ -169,6 +169,12 @@ nav:
   - Connect PostHog to ChatGPT: connect-posthog-to-chatgpt.md
   - Connect Google Docs to ChatGPT: connect-google-docs-to-chatgpt.md
   - Connect YouTube to ChatGPT: connect-youtube-to-chatgpt.md
+  - Connect TikTok to ChatGPT: connect-tiktok-to-chatgpt.md
+  - Connect ActiveCampaign to ChatGPT: connect-activecampaign-to-chatgpt.md
+  - Connect Dropbox to ChatGPT: connect-dropbox-to-chatgpt.md
+  - Connect Ahrefs to ChatGPT: connect-ahrefs-to-chatgpt.md
+  - Connect Semrush to ChatGPT: connect-semrush-to-chatgpt.md
+  - Connect Odoo to ChatGPT: connect-odoo-to-chatgpt.md
 - Claude Integrations:
   - Connect Shopify to Claude: connect-shopify-to-claude.md
   - Connect QuickBooks to Claude: connect-quickbooks-to-claude.md

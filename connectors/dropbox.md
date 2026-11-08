@@ -44,6 +44,7 @@ CorpusIQ never uploads, edits, deletes, or moves files.
 
 ## See also
 
+- [Connect Dropbox to ChatGPT](../connect-dropbox-to-chatgpt.md) - contracts, decks and invoices read from your folders inside a ChatGPT thread.
 - [Connect Dropbox to Perplexity](../connect-dropbox-to-perplexity.md) - contracts, decks and invoices read from your folders inside a Perplexity thread.
 
 ---
