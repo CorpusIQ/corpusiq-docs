@@ -28,24 +28,26 @@ Create a `SKILL.md` file with this structure:
 ```markdown
 ---
 name: your-skill-name
-title: Your Skill Title
-description: One-line description of what this skill does
-triggers:
-  - When the user asks about X
-  - When working with Y
-category: your-category
+description: Use when X happens. One line, 60 characters or fewer.
+version: 1.0.0
+platforms: [macos, linux]
+
+metadata:
+  hermes:
+    tags: [your-tag, another-tag]
+    category: your-category
 ---
 
 # Your Skill Title
 
 Brief overview of what this skill covers.
 
-## Prerequisites
+## When to Use
 
-- Tool or dependency required
-- API keys needed
+- When the user asks about X
+- When working with Y
 
-## Steps
+## Procedure
 
 1. First step with exact command
 2. Second step with verification
@@ -54,6 +56,10 @@ Brief overview of what this skill covers.
 
 - Common mistake and how to avoid it
 - Another pitfall to watch for
+
+## Verification
+
+- Command that proves the step worked
 ```
 
 ## Verification
@@ -73,17 +79,15 @@ model:
   default: anthropic/claude-sonnet-5.5
   provider: openrouter
 
-toolsets:
-  - terminal
-  - web
-  - file
-  - memory
-  - skills
+platform_toolsets:
+  cli: [hermes-cli]
 
 memory:
   memory_enabled: true
   user_profile_enabled: true
 ```
+
+`platform_toolsets` picks the tool surface per platform: a preset like `hermes-cli`, or your own list of toolsets (`cli: [web, terminal, file, skills, todo]`). `hermes tools enable` and `hermes tools disable` write this key for you.
 
 ## Cron Template
 
@@ -97,7 +101,7 @@ hermes cron create "0 9 * * *" \
   --deliver local
 ```
 
-`--deliver` accepts `origin`, `local`, `telegram`, `discord`, `signal`, `platform:chat_id`, or `bot-chat[:profile]`. To run the job under a different profile, pass the global flag before the subcommand: `hermes --profile default cron create ...`. Add `--skill <name>` (repeatable) to attach skills, or `--script <file> --no-agent` for a script-only job that never wakes the model.
+`--deliver` accepts `origin`, `local`, `telegram`, `discord`, `signal`, `platform:chat_id`, `bot-chat[:profile]`, or `room:<room_id>[@profile]`. To run the job under a different profile, set the profile for that invocation with `HERMES_PROFILE=default hermes cron create ...`, or change the sticky default with `hermes profile use default`. Add `--skill <name>` (repeatable) to attach skills, or `--script <file> --no-agent` for a script-only job that never wakes the model.
 
 ---
 

@@ -8,7 +8,7 @@ tags:
   - sla-monitoring
   - customer-support
   - ai-support-assistant
-last_updated: 2026-11-07
+last_updated: 2026-11-08
 canonical: "https://www.corpusiq.io/docs/hermes/agents/support-agent/"
 robots: "index,follow"
 
