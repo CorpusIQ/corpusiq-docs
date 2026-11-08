@@ -12284,24 +12284,26 @@
 <p>Create a <code>SKILL.md</code> file with this structure:</p>
 <div class="highlight"><pre><span></span><code>---
 name: your-skill-name
-title: Your Skill Title
-description: One-line description of what this skill does
-triggers:
-<span class="w">  </span><span class="k">-</span><span class="w"> </span>When the user asks about X
-<span class="w">  </span><span class="k">-</span><span class="w"> </span>When working with Y
-<span class="gu">category: your-category</span>
+description: Use when X happens. One line, 60 characters or fewer.
+version: 1.0.0
+platforms: [macos, linux]
+
+metadata:
+  hermes:
+    tags: [your-tag, another-tag]
+<span class="gu">    category: your-category</span>
 <span class="gu">---</span>
 
 <span class="gh"># Your Skill Title</span>
 
 Brief overview of what this skill covers.
 
-<span class="gu">## Prerequisites</span>
+<span class="gu">## When to Use</span>
 
-<span class="k">-</span><span class="w"> </span>Tool or dependency required
-<span class="k">-</span><span class="w"> </span>API keys needed
+<span class="k">-</span><span class="w"> </span>When the user asks about X
+<span class="k">-</span><span class="w"> </span>When working with Y
 
-<span class="gu">## Steps</span>
+<span class="gu">## Procedure</span>
 
 <span class="k">1.</span> First step with exact command
 <span class="k">2.</span> Second step with verification
@@ -12310,6 +12312,10 @@ Brief overview of what this skill covers.
 
 <span class="k">-</span><span class="w"> </span>Common mistake and how to avoid it
 <span class="k">-</span><span class="w"> </span>Another pitfall to watch for
+
+<span class="gu">## Verification</span>
+
+<span class="k">-</span><span class="w"> </span>Command that proves the step worked
 </code></pre></div>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>How to confirm everything works:</p>
@@ -12321,17 +12327,14 @@ Brief overview of what this skill covers.
 <span class="w">  </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">anthropic/claude-sonnet-5.5</span>
 <span class="w">  </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">openrouter</span>
 
-<span class="nt">toolsets</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">terminal</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">file</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">memory</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">skills</span>
+<span class="nt">platform_toolsets</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">cli</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">hermes-cli</span><span class="p p-Indicator">]</span>
 
 <span class="nt">memory</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">memory_enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">  </span><span class="nt">user_profile_enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 </code></pre></div>
+<p><code>platform_toolsets</code> picks the tool surface per platform: a preset like <code>hermes-cli</code>, or your own list of toolsets (<code>cli: [web, terminal, file, skills, todo]</code>). <code>hermes tools enable</code> and <code>hermes tools disable</code> write this key for you.</p>
 <h2 id="cron-template">Cron Template<a class="headerlink" href="#cron-template" title="Anchor link to this section">&para;</a></h2>
 <p>Schedule recurring tasks with <code>hermes cron create</code>. The schedule and the prompt are positional arguments, not flags:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Daily at 9 AM</span>
@@ -12340,7 +12343,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;daily-report&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--deliver<span class="w"> </span><span class="nb">local</span>
 </code></pre></div>
-<p><code>--deliver</code> accepts <code>origin</code>, <code>local</code>, <code>telegram</code>, <code>discord</code>, <code>signal</code>, <code>platform:chat_id</code>, or <code>bot-chat[:profile]</code>. To run the job under a different profile, pass the global flag before the subcommand: <code>hermes --profile default cron create ...</code>. Add <code>--skill &lt;name&gt;</code> (repeatable) to attach skills, or <code>--script &lt;file&gt; --no-agent</code> for a script-only job that never wakes the model.</p>
+<p><code>--deliver</code> accepts <code>origin</code>, <code>local</code>, <code>telegram</code>, <code>discord</code>, <code>signal</code>, <code>platform:chat_id</code>, <code>bot-chat[:profile]</code>, or <code>room:&lt;room_id&gt;[@profile]</code>. To run the job under a different profile, set the profile for that invocation with <code>HERMES_PROFILE=default hermes cron create ...</code>, or change the sticky default with <code>hermes profile use default</code>. Add <code>--skill &lt;name&gt;</code> (repeatable) to attach skills, or <code>--script &lt;file&gt; --no-agent</code> for a script-only job that never wakes the model.</p>
 <hr />
 <p><em>More templates are added regularly from the Hermes community.</em></p>
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes">Hermes Home</a> | <a href="https://www.corpusiq.io/docs/hermes/scripts">Scripts</a> →</em></p>
