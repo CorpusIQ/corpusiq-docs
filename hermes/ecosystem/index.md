@@ -31,7 +31,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 452+ re
 | [Skills & Plugins](#skills-plugins) | 105 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 35 | [↓](#orchestration-multi-agent-swarms) |
+| [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 36 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 21 | [↓](#deployment-infrastructure) |
 | [Security & Governance](#security-governance) | 4 | [↓](#security-governance) |
 | [Research & Benchmarks](#research-benchmarks) | 12 | [↓](#research-benchmarks) |
@@ -4525,7 +4525,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 451 |
+| Total repos indexed | 452 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
@@ -4602,7 +4602,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 451 repos · 18 categories · 1M+ community stars · 105 skill collections · 50 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 452 repos · 18 categories · 1M+ community stars · 105 skill collections · 50 MCP integrations · 27 domain applications
 
 ---
 
