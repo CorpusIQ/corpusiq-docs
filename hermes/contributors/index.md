@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-11-07
+last_updated: 2026-11-08
 canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
 robots: "index,follow"
 
@@ -29,7 +29,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 | **Review time** | <48 hours |
 | **Categories** | 18 |
 
-*Counts as of November 6, 2026. The live repo count is maintained on the [ecosystem directory](/hermes/ecosystem). Approved counts reflect repos currently live in the directory; repos later pruned as dead or archived are removed from the count.*
+*Counts as of November 8, 2026. The live repo count is maintained on the [ecosystem directory](/hermes/ecosystem). Approved counts reflect repos currently live in the directory; repos later pruned as dead or archived are removed from the count.*
 
 ## How to Contribute
 
@@ -58,7 +58,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 3002 | 210 | Maintainer |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 3022 | 210 | Maintainer |
 | [@BlueSkyID666](https://github.com/BlueSkyID666) | 1 | 1 | Contributor |
 | [@louis030195](https://github.com/louis030195) | 1 | 1 | Contributor |
 

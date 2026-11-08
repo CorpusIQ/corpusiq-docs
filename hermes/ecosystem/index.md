@@ -3,7 +3,7 @@ title: Hermes Ecosystem - Complete Resource Directory
 description: The definitive directory of Hermes Agent resources - 452+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-07"
+last_updated: "2026-11-08"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 The most comprehensive directory of Hermes Agent resources in existence. 452+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 7, 2026 · **Repos indexed:** 452+ · **Categories:** 18
+> **Last updated:** November 8, 2026 · **Repos indexed:** 452+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
