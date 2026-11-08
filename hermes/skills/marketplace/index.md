@@ -1,6 +1,6 @@
 ---
 title: "Skills Marketplace - CorpusIQ Docs"
-description: Discover and install community skills from skills.sh - 1,492+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+description: Discover and install community skills from skills.sh - 1,505+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
 last_updated: "2026-11-07"
@@ -12,9 +12,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh) - install with a single command and use immediately.
 
-**1,492+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**1,505+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+- [November 7, 2026 (Evening) - Useful AI Prompts - 260 Skill Prompt Library Setup (aj-geddes/useful-ai-prompts, 128,658 combined, 200 listings, 378 stars, MIT, 260+ skills of production-ready prompts and code patterns.), Claude Blog - AI Blog Writing and SEO Plugin Setup (agricidaniel/claude-blog, 79,486 combined, 33 listings, 2,672 stars, MIT, 32 blog skills for research, writing, SEO and GEO.), Axiom Swift Skills - Apple Platform Skill Suite Setup (charleswiltgen/axiom, 64,084 combined, 200 listings, 1,253 stars, MIT, Apple platform skills for Swift 6, SwiftUI, Xcode and data.), AI Engineering from Scratch - Course Tutor Skills Setup (rohitg00/ai-engineering-from-scratch, 47,043 combined, 28 listings, 77,600 stars, MIT, skills that tutor a 542-lesson AI curriculum.) - a widened 144-query topic probe, 13 publisher clusters, 820 listings, 13 setup guides](/hermes/skills/marketplace/new-nov7-2026-evening-skills)
 - [November 7, 2026 (Morning) - Astro Skills - Island Architecture for Agents (astrolicious/agent-skills, 18,959 combined, 1 listings, 13 stars, no LICENSE file, Astro work for agents: island architecture, content collections, view transitions and static deployment checks), Graphite Skills - Stacked Pull Requests for Agents (withgraphite/agent-skills, 9,989 combined, 1 listings, 7 stars, no LICENSE file, Stacked pull requests for agents: branch creation, stack restacking, review submission and trunk sync through the Graphite CLI), Korean Skills - Hangul Writing and Style Checks (daleseo/korean-skills, 8,457 combined, 3 listings, 250 stars, MIT, Korean writing for agents: grammar correction, style-guide enforcement and human-sounding Korean prose), ModelStudio Skills - Alibaba Video and Data Tools (modelstudioai/skills, 7,703 combined, 13 listings, 59 stars, Apache-2.0, Alibaba Cloud Model Studio for agents: video generation pipelines, model selection, training jobs and documentation lookup)) - drained the Nov 6 sized-candidate queue, 13 publisher clusters, 207 listings, 13 setup guides](/hermes/skills/marketplace/new-nov7-2026-morning-skills)
 - [November 6, 2026 (Evening) - Cognite Builder Skills - Industrial Flows Apps (cognitedata/builder-skills, 45,575 combined, 38 listings, 6 stars, Apache-2.0, Industrial data apps for agents: Flows app scaffolding, Atlas MCP connections, CDF functions and code-quality passes), Fandhe Agent CLI Skills - Commit and PR Workflows (fandhe-ai/agent-cli-skills, 37,965 combined, 32 listings, 2 stars, no LICENSE file, CLI workflows for agents: Conventional Commits, PR creation, issue triage, review passes and skill authoring), Paseo Skills - A Fleet of Coding Agents (getpaseo/paseo, 32,407 combined, 14 listings, 23,334 stars, Apache-2.0, Multi-agent orchestration for agents: advisor and committee modes, handoffs, provider switching and release workflows), Guizang PPT Skill - Editorial HTML Slide Decks (op7418/guizang-ppt-skill, 28,412 combined, 1 listings, 29,395 stars, custom licence file, HTML decks for agents: magazine and Swiss layouts, image prompts, social covers and a low-power presentation runtime) - a second widened 223-query topic probe, 16 publisher clusters, 341 listings, 16 setup guides](/hermes/skills/marketplace/new-nov6-2026-evening-skills)
 - [November 6, 2026 (Morning) - Claude Plugin Marketplace - Azure and DevOps Packs (josiahsiegel/claude-plugin-marketplace, 41,688 combined, 200 listings, 59 stars, MIT, Azure, Azure DevOps, Databricks and language plugin packs for Claude Code), Dembrandt Skills - Design System Judgment for Agents (dembrandt/dembrandt-skills, 38,341 combined, 45 listings, 184 stars, MIT, Design-system judgment: component families, colour tokens, elevation, forms and information architecture), Posit Skills - R, Quarto and Maintainer Workflows (posit-dev/skills, 19,262 combined, 36 listings, 556 stars, MIT, R and Quarto work: package checks, CRAN release passes, alt text and maintainer replies), Apple Design Skill - HIG Review Across Frameworks (dickwu/apple-design-skill, 13,047 combined, 1 listings, 2,880 stars, no LICENSE file, Apple HIG review translated to Flutter, React Native, Tauri, Electron and native frameworks) - a widened 231-query topic probe, 19 publisher clusters, 450 listings, 19 setup guides](/hermes/skills/marketplace/new-nov6-2026-morning-skills)
@@ -357,7 +358,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 1,492+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 1,505+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills) | [Skills Catalog](/hermes/skills/catalog) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026)*
 
@@ -443,7 +444,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ### What is the Hermes Skills Marketplace?
 
-The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,492+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,505+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command.
 
 ### How do I install a skill from the marketplace?
 
@@ -463,7 +464,7 @@ Weekly, with recent sweep pages published as new publisher clusters and skills a
       "name": "What is the Hermes Skills Marketplace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,492+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
+        "text": "The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. It indexes 1,505+ curated skill repositories across 22 categories from skills.sh, each with a setup guide and installation command."
       }
     },
     {
