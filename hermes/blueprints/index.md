@@ -203,7 +203,7 @@ Every blueprint follows a predictable escalation pattern: automated retry (trans
 - [Integration Examples](/hermes/integrations) - Tool connection patterns for blueprints
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 
