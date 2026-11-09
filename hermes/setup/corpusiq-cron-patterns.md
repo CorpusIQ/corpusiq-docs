@@ -3,7 +3,7 @@ title: "Running CorpusIQ Cron Jobs - Autonomous Business"
 description: "Patterns for running CorpusIQ cron jobs with Hermes Agent - daily KPI reports, AR aging alerts, anomaly detection, and multi-client agency reporting."
 canonical: "https://www.corpusiq.io/docs/hermes/setup/corpusiq-cron-patterns/"
 robots: "index,follow"
-last_updated: 2026-11-01
+last_updated: 2026-11-08
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -81,8 +81,8 @@ A wrapper script is the right place for that: refresh, patch `headers.Authorizat
 
 ## Rate Limits
 
-- Stripe: 100 req/sec (read-only, no practical limit)
-- QuickBooks: 500 req/day per app (batch queries where possible)
+- Stripe: 100 req/sec per account in live mode (25 req/sec in sandbox). Individual endpoints cap at 25 req/sec, and read calls average no more than 500 per transaction over a rolling 30 days.
+- QuickBooks Online: 500 req/min per realm (company file), 10 req/sec per realm and app, 40 batch requests per minute with up to 30 operations per batch
 - HubSpot: 100 req/10sec (burst OK, sustained <10/sec)
 
 ---

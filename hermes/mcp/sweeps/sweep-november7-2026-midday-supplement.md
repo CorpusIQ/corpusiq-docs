@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Discovery - November 7, 2026 (Midday Supplement)"
 description: "A flat canonical one hour after the midday pass, zero new mcp.so cards, and three queue arrivals: an artifact publisher with per-page access control and a self-hosted key broker that hands the agent a pass instead of the key."
-last_updated: 2026-11-07
+last_updated: 2026-11-08
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november7-2026-midday-supplement"
 tags: ["mcp server", "model context protocol", "hermes mcp", "sweep"]
 ---

@@ -7,7 +7,7 @@ added: 2026-11-07
 source: "The chatmcp/mcpso submission #6899 (AgentKeyGate, io.github.maximskorohod/agentkeygate, named 2026-11-07T17:08:46Z); the official MCP registry record at v1.0.2 with a bearer-token Streamable HTTP remote at https://{host}/mcp; the repository README, server.json, docs/ARCHITECTURE.md MCP tool reference and docs/DEPLOY.md; and github.com/maximskorohod/agentkeygate, created 2026-11-05T09:54:02Z and pushed 2026-11-07T17:20:26Z"
 relevance: ★★★★
 tags: [agent-governance, secrets-management, api-keys, credential-broker, approval-gate, data-filter, pii-masking, audit-log, kill-switch, self-hosted, hermes, apache-2.0]
-last_updated: "2026-11-07"
+last_updated: "2026-11-08"
 ---
 
 # AgentKeyGate MCP

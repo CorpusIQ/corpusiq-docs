@@ -3,7 +3,7 @@ title: "Multi-Machine Deployment Architecture"
 description: "Production agent deployment pattern: a GPU primary node for inference and scheduling, plus a worker node for browser automation and content operations."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -35,7 +35,7 @@ Production agents need dedicated hardware. Here's the architecture pattern.
 │  ├── Business tool connectors (MCP)                              │
 │  ├── Knowledge graph (vector search)                             │
 │  ├── Cross-session context store                                 │
-│  ├── Local vLLM server (Qwen3-8B, lightweight inference)         │
+│  ├── Local vLLM server (Qwen3-8B, :8100, 8K context)             │
 │  └── LLM provider (primary inference via API)                    │
 │                                                                  │
 │  Model Routing:                                                  │

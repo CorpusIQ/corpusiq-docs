@@ -1,7 +1,7 @@
 ---
 title: AI Agent Memory Systems - August 2026 Landscape
-description: "Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns."
-last_updated: 2026-11-01
+description: "TencentDB Agent Memory is a local-first team memory hub for AI agents: four memory assets, a layered recall pyramid, and a Hermes plugin path."
+last_updated: 2026-11-08
 canonical: "https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -10,17 +10,19 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # AI Agent Memory Systems - August 2026 Landscape
 
-## Tencent DB Agent Memory
+## TencentDB Agent Memory
 
-Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns.
+Tencent Cloud open-sourced [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) (repository created April 2026, v2.0.3 released October 2026, roughly 30,600 stars). It is a team-level memory hub that turns conversations, documents and code into four reusable assets: Chat Memory, Skills, LLM-Wiki and a Code-Graph.
 
-Claims from the open-source release:
-- 50 percent improvement in AI agent performance
-- 61 percent reduction in operational costs
-- Local execution - no cloud dependency
-- Human-like recall architecture (recency, frequency, semantic similarity)
+Numbers from the repository's own benchmark table, measured with OpenClaw:
 
-The system stores agent interactions locally and uses vector-based retrieval to surface relevant past context. Unlike cloud-dependent solutions, it runs entirely on the host machine.
+- 61.38 percent fewer tokens (221.31M to 85.64M)
+- 51.52 percent relative pass-rate gain on WideSearch (33 percent to 50 percent)
+- PersonaMem accuracy 48 percent to 76 percent, a 59 percent relative gain
+
+The architecture is a semantic pyramid rather than a flat vector pile: L0 Conversation (raw dialogue) to L1 Atom (atomic facts) to L2 Scenario (scene blocks) to L3 Persona (user profile). Raw evidence is persisted in databases for full-text retrieval, and the distilled persona and scene layers are stored as human-readable Markdown, so every abstraction has a drill-down path back to the source text.
+
+It ships a Hermes plugin as well as the OpenClaw one: the `memory_tencentdb` provider installs from npm, or as a Docker image that bundles hermes-agent and the gateway.
 
 ## How It Compares to Existing Memory Systems
 
@@ -54,7 +56,7 @@ Tencent entering the local memory space validates the approach CorpusIQ has been
 3. Tiered recall - working memory, recent context, long-term archive
 4. Cross-session persistence - memory survives restarts
 
-The 50 percent performance improvement claim aligns with what we have observed: structured memory reduces token waste by eliminating repeated context recovery. The 61 percent cost reduction comes from smaller context windows needing fewer tokens per turn.
+The 51.52 percent pass-rate gain lines up with what we see in practice: structured memory removes the repeated context recovery that burns turns. The 61.38 percent token reduction comes from the same place - smaller working contexts because the agent recalls the distilled layer instead of re-reading the transcript.
 
 ## Competitive Positioning
 

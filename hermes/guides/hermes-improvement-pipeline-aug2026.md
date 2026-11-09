@@ -1,7 +1,7 @@
 ---
 title: Hermes Improvement Pipeline - August 2026
 description: "Tools and methodologies that can make Hermes agents faster, smarter, and more reliable. Discovered through proactive GitHub research."
-last_updated: 2026-11-01
+last_updated: 2026-11-08
 canonical: "https://www.corpusiq.io/docs/hermes/guides/hermes-improvement-pipeline-aug2026/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -12,9 +12,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 Tools and methodologies that can make Hermes agents faster, smarter, and more reliable. Discovered through proactive GitHub research.
 
-## Microsoft Skill Recorder ⭐2,799
+## Microsoft Skill Recorder ⭐5,713
 
-Desktop app that records on-screen work sessions and converts them into reusable agent skills. Currently built for GitHub Copilot CLI but the pattern is universal.
+[microsoft/skill-recorder](https://github.com/microsoft/skill-recorder) - desktop app that records on-screen work sessions and converts them into reusable agent skills. Currently built for GitHub Copilot CLI but the pattern is universal.
 
 **How it works**: Start recording. Do the task once. The recorder captures every click, terminal command, and browser action. Outputs a structured skill that future agents can replay.
 
@@ -22,9 +22,9 @@ Desktop app that records on-screen work sessions and converts them into reusable
 
 **Integration path**: Adapt the recording format to output Hermes SKILL.md files with frontmatter. The recording format (action sequences with selectors and delays) maps directly to Hermes skill steps.
 
-## Fable Method ⭐2,192
+## Fable Method ⭐2,314
 
-The workflow that Claude Fable 5 used, distilled into model-agnostic skills. Key principles:
+[Sahir619/fable-method](https://github.com/Sahir619/fable-method) - the workflow that Claude Fable 5 used, distilled into model-agnostic skills. Key principles:
 
 1. **Read the whole context before acting** - matches our Aug 5 hard rule
 2. **Assert, don't explain** - matches the corpusiq-content-writing-system communication philosophy
@@ -33,9 +33,9 @@ The workflow that Claude Fable 5 used, distilled into model-agnostic skills. Key
 
 **Application to Hermes**: The Fable method aligns with every content rule established for CorpusIQ. It should be integrated into the corpusiq-content-writing-system skill as a foundational framework.
 
-## Human Writing ⭐2,254
+## Human Writing ⭐4,474
 
-AI writing skill that makes Chinese text read like a real person. The pattern is universal: strip AI-isms, add voice quirks, vary sentence length, use concrete examples.
+[KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) - AI writing skill that makes Chinese text read like a real person. The pattern is universal: strip AI-isms, add voice quirks, vary sentence length, use concrete examples.
 
 **Application**: Our content rules already enforce de-AI-fication (no em dashes, no buzzwords, prose-first). This skill provides a systematic framework for voice injection that could make the preflight gate more sophisticated.
 

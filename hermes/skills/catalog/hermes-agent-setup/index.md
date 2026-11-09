@@ -3,7 +3,7 @@ title: Hermes Agent - Core Official Skill Setup Guide
 description: Official Nous Research Hermes Agent skill. CLI invocation, subagent delegation, persistent memory, self-improving skills, MCP integration, browser automation. 400+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-08"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -48,30 +48,32 @@ git clone https://github.com/NousResearch/hermes-agent.git
 Run Hermes from any agent or script:
 
 ```bash
-# One-shot task execution
-hermes run "Analyze this CSV file and generate a summary report"
+# One-shot task execution: -z prints only the final response text
+hermes -z "Analyze this CSV file and generate a summary report"
 
-# With specific model
-hermes run --model claude-sonnet-4-6 "Review this PR diff"
+# With a specific model for this run
+hermes -z -m <provider/model> "Review this PR diff"
 
-# With skill pre-loading
-hermes run --skill corpusiq-execution-discipline "Audit system health"
+# With a skill preloaded (repeat the flag or comma-separate several)
+hermes -z --skills corpusiq-execution-discipline "Audit system health"
+
+# Interactive session instead of one-shot
+hermes chat
 ```
 
 ### 2. Subagent Delegation
 
-Isolate complex subtasks into independent contexts:
+Isolate complex subtasks into independent contexts. Delegation is the `delegate_task` tool the agent calls inside a session, not a CLI subcommand, so you ask for it in the prompt:
 
 ```bash
-# Delegate research task
-hermes delegate "Research top 5 MCP server implementations and compare features"
+# Delegate a research task and merge the result
+hermes -z "Delegate a research task: compare the top 5 MCP server implementations on transports, auth and tool counts. Return a comparison table."
 
-# Parallel delegation (up to 3 concurrent)
-hermes delegate --parallel \
-  "Check X mentions" \
-  "Scan Reddit for CorpusIQ threads" \
-  "Review HN front page for relevant discussions"
+# Parallel delegation: name the workstreams and let the agent fan out
+hermes -z "Delegate three parallel tasks, one each: X mentions of CorpusIQ, Reddit threads about MCP servers, and relevant HN front-page discussions. Merge the findings."
 ```
+
+The number of concurrent children is configurable (`delegation.max_concurrent_children` in `config.yaml`).
 
 Subagents get their own conversation, terminal session, and toolset. Results flow back as summaries - intermediate tool output never floods context.
 
@@ -83,12 +85,17 @@ Two-tier memory architecture:
 - **LLM summaries** - semantic compression of key facts, preferences, and patterns
 
 ```bash
-# Search past sessions
-hermes session search "MCP server deployment"
+# Browse past sessions and resume one
+hermes sessions browse
 
-# Save durable facts
-hermes memory add "Project uses PostgreSQL 17 with PGLite for dev"
+# Session and message counts, plus current database size
+hermes sessions stats
+
+# Token, cost and tool usage across the last 30 days
+hermes insights --days 30
 ```
+
+Durable facts live in `MEMORY.md` and `USER.md` under the Hermes home, which the agent writes and compacts itself. `hermes memory` configures an external memory provider (`setup`, `status`, `off`, `reset`) rather than adding a fact from the shell.
 
 ### 4. Self-Improving Skills
 
@@ -103,9 +110,12 @@ Agents learn from completed tasks:
 # List available skills
 hermes skills list
 
-# Create a new skill from a completed task
-hermes skills create --from-session latest
+# Browse registries and install a skill
+hermes skills search "mcp"
+hermes skills install <name>
 ```
+
+New skills are authored by the agent itself mid-session with its skill tools, which is why the loop compounds without manual curation.
 
 ### 5. MCP Integration
 
@@ -137,40 +147,40 @@ Built-in browser tools for web interaction:
 ### Pattern: Research → Synthesize → Report
 
 ```bash
-# 1. Delegate research (runs in background)
-hermes delegate "Research competitor pricing for AI data connectors"
+# 1. Delegate research (the agent fans out to a subagent)
+hermes -z "Delegate research on competitor pricing for AI data connectors and return a source-cited summary."
 
-# 2. While research runs, prepare report template
-hermes run "Create a competitive analysis report template"
+# 2. While research runs, prepare the report template
+hermes -z "Create a competitive analysis report template"
 
 # 3. When research completes, synthesize
-hermes run "Merge research findings into the report template"
+hermes -z "Merge the research findings into the report template"
 ```
 
 ### Pattern: Code Review Pipeline
 
 ```bash
-# 1. Delegate deep code review
-hermes delegate --skill github-code-review "Review PR #42 in corpusiq-docs"
+# 1. Delegate a deep code review with the review skill preloaded
+hermes -z --skills github-code-review "Review PR #42 in corpusiq-docs"
 
-# 2. Parallel: check for security issues
-hermes delegate --skill security-audit "Audit PR #42 for vulnerabilities"
+# 2. Parallel: a security pass on the same PR
+hermes -z --skills security-audit "Audit PR #42 for vulnerabilities"
 
 # 3. Merge findings
-hermes run "Combine code review and security audit into unified PR feedback"
+hermes -z "Combine the code review and security audit into one set of PR feedback"
 ```
 
 ### Pattern: Daily Operations
 
 ```bash
 # Morning health check
-hermes run --skill corpusiq-system-auditor "Run system health check"
+hermes -z --skills corpusiq-system-auditor "Run system health check"
 
 # Midday social sweep
-hermes run --skill corpusiq-organic-discovery "Check all platforms for mentions"
+hermes -z --skills corpusiq-organic-discovery "Check all platforms for mentions"
 
 # Evening report
-hermes run --skill corpusiq-daily-html-reporting "Generate daily report"
+hermes -z --skills corpusiq-daily-html-reporting "Generate daily report"
 ```
 
 ---
