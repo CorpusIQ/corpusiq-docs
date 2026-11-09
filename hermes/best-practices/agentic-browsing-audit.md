@@ -3,16 +3,16 @@ title: "Lighthouse Agentic Browsing: The AI-Readiness Audit Standard"
 description: "How to audit a site for Google's Lighthouse Agentic Browsing category: the four signals (llms.txt, WebMCP, accessibility tree, layout stability), fix patterns, and a repeatable checklist."
 category: best-practices
 tags: [hermes-agent, agentic-browsing, llms-txt, webmcp, lighthouse, accessibility, seo, geo]
-last_updated: 2026-11-01
+last_updated: 2026-11-08
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/agentic-browsing-audit/"
 robots: "index,follow"
 ---
 
 # Lighthouse Agentic Browsing: The AI-Readiness Audit Standard
 
-*Last updated: 2026-10-30*
+*Last updated: 2026-11-08*
 
-Google added an **Agentic Browsing** category to Lighthouse in Lighthouse 13.3 (7 May 2026). Instead of measuring how a page performs for human visitors, it measures how ready a page is for AI agents and agentic browsers: can an agent find a machine-readable summary of the site, call its tools, parse its structure, and render it without layout fighting?
+Google added an **Agentic Browsing** category to Lighthouse in 13.3 (7 May 2026), shipped in the DevTools of Chrome 150 and enabled in the default config from that release. The current Lighthouse release is 13.6 (27 October 2026). Instead of measuring how a page performs for human visitors, it measures how ready a page is for AI agents and agentic browsers: can an agent find a machine-readable summary of the site, call its tools, parse its structure, and render it without layout fighting?
 
 The category is experimental and based on proposed standards. It requires Chrome 150 or later, and the WebMCP audits require registering for the [WebMCP origin trial](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring).
 

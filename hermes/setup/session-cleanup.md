@@ -5,7 +5,7 @@ canonical: "https://www.corpusiq.io/docs/hermes/setup/session-cleanup/"
 robots: "index,follow"
 category: setup
 tags: [hermes-agent, sessions, state-db, sqlite, maintenance, disk-space]
-last_updated: 2026-11-01
+last_updated: 2026-11-08
 ---
 
 # Delete Hermes Agent Sessions and Prune state.db
@@ -62,6 +62,8 @@ hermes sessions delete local-9b97db23af8d03f7d4150d45a222a82956cdca462efc51a5ba5
 | `--min-tool-calls` / `--max-tool-calls` | Tool call count |
 | `--include-archived`, `--include-pinned` | Widen the match to archived or pinned sessions |
 
+The older filters are the ones people use most, but the full set also covers `--end-reason`, `--cwd`, `--model`, `--provider`, `--user`, `--chat-id`, `--chat-type`, `--branch` and `--never-active`. `hermes sessions prune --help` prints the current list.
+
 Two defaults are worth knowing before you run it. A bare `hermes sessions prune` with no filters assumes `--older-than 90`, and any filter you pass matches sessions of every age. That second rule is the one that surprises people, so use `--dry-run`:
 
 ```bash
@@ -104,7 +106,7 @@ Two related stores are separate from `state.db` and have their own commands:
 
 1. Run `hermes sessions stats` to record the size you are starting from.
 2. Run the delete or prune you intend with `--dry-run` and read the match count.
-3. Export anything you might need: `hermes sessions export --format md sessions.md`.
+3. Export anything you might need: `hermes sessions export --format jsonl sessions.jsonl`. The `md` and `qmd` formats write one file per session, so they take a directory rather than a filename.
 4. Pin the sessions you want to survive a future sweep.
 5. Delete or prune without `--dry-run`.
 6. Optimize in a quiet window, with the gateway stopped.
