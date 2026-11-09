@@ -21620,5 +21620,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-09T04:03:46.668146+00:00"
+  },
+  {
+    "repo": "leoresendedop-sys/overhead",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176951+00:00"
+  },
+  {
+    "repo": "cardleforall/cardlake-hermes",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176967+00:00"
+  },
+  {
+    "repo": "farhansyihab/hermes-manual-bridge",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176970+00:00"
+  },
+  {
+    "repo": "ShalyX/shipwrit-hermes",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176972+00:00"
+  },
+  {
+    "repo": "Zhachory1/ralph",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176974+00:00"
+  },
+  {
+    "repo": "marcosconci1/cli-router",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176976+00:00"
+  },
+  {
+    "repo": "SpartaTGBU/hermes-android",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176978+00:00"
+  },
+  {
+    "repo": "hamzajazib/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176980+00:00"
+  },
+  {
+    "repo": "oonid/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176982+00:00"
+  },
+  {
+    "repo": "madebylegion/hermes-plugin-hephaestus",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T05:03:34.176984+00:00"
   }
 ]

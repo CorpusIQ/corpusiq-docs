@@ -90596,5 +90596,269 @@
     "near_duplicates": [],
     "discovered_at": "2026-11-09T04:03:15.803928+00:00",
     "status": "pending"
+  },
+  {
+    "name": "leoresendedop-sys/overhead",
+    "url": "https://github.com/leoresendedop-sys/overhead",
+    "description": "See change from above: satellite change measurements and imagery for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-09T05:01:01Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-09T05:01:06.399985+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cardleforall/cardlake-hermes",
+    "url": "https://github.com/cardleforall/cardlake-hermes",
+    "description": "Cardlake plugin for Hermes Agent: your Cardlake cards in Telegram, with Done, Tomorrow and Undo buttons and a morning message of what's due",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-09T05:00:19Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "Devin-AXIS/iPolloWork",
+      "stablyai/orca",
+      "Adolanium/hermes-gadget-sdk",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-09T05:01:06.402219+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "farhansyihab/hermes-manual-bridge",
+    "url": "https://github.com/farhansyihab/hermes-manual-bridge",
+    "description": "Human-in-the-Loop Middleware: Hermes Agent <-> DeepSeek Bridge",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-09T04:59:25Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-09T05:01:06.404470+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ShalyX/shipwrit-hermes",
+    "url": "https://github.com/ShalyX/shipwrit-hermes",
+    "description": "Hermes Agent plugin: verify deployed user outcomes before claiming release success",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-09T04:58:51Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-09T05:01:06.406720+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Zhachory1/ralph",
+    "url": "https://github.com/Zhachory1/ralph",
+    "description": "Reliable Agent Loop using Personal Hermes: a local agent system where you approve designs and agents open the PRs",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-09T04:58:20Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-11-09T05:01:06.408728+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "marcosconci1/cli-router",
+    "url": "https://github.com/marcosconci1/cli-router",
+    "description": "A task router for Hermes Agent: quota-aware routing across AI coding CLIs, sandboxed execution, two independent reviews.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-09T04:57:45Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-09T05:01:06.410982+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SpartaTGBU/hermes-android",
+    "url": "https://github.com/SpartaTGBU/hermes-android",
+    "description": "Android client for Hermes Agent gateways: multi-machine, push approvals, share, on-device dictation",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "android",
+      "capacitor",
+      "hermes-agent",
+      "on-device-asr",
+      "push-notifications"
+    ],
+    "updated_at": "2026-11-09T05:01:19Z",
+    "category": "forks",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "raulvidis/hermes-android",
+      "rusty4444/hermes-android"
+    ],
+    "discovered_at": "2026-11-09T05:01:30.114318+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hamzajazib/hermes-agent",
+    "url": "https://github.com/hamzajazib/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-09T05:00:38Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-09T05:01:30.116557+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "oonid/hermes-agent",
+    "url": "https://github.com/oonid/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-09T05:00:04Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-09T05:01:30.118159+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "madebylegion/hermes-plugin-hephaestus",
+    "url": "https://github.com/madebylegion/hermes-plugin-hephaestus",
+    "description": "Hermes forges its own plugins. You hold the switch.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "hermes-plugin",
+      "nousresearch",
+      "plugins"
+    ],
+    "updated_at": "2026-11-09T04:33:06Z",
+    "category": "skills",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-09T05:03:03.182081+00:00",
+    "status": "pending"
   }
 ]

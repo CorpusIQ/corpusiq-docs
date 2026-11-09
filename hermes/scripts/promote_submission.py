@@ -228,6 +228,7 @@ PUBLISHED_HEADINGS = {
     "Skills & Plugins": "## 🛠 Skills & Plugins",
     "Tools & Utilities": "## 🛠 Tools & Utilities",
     "UI & Dashboards": "## 🖥 UI & Dashboards",
+    "Platform-Specific": "## 🌏 Platform-Specific",
 }
 
 

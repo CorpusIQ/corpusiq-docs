@@ -940,7 +940,7 @@
       "nousresearch"
     ],
     "updated_at": "2026-06-16",
-    "category": "discovered",
+    "category": "Memory & Knowledge",
     "score": 0,
     "tier": "SEEDED",
     "score_reasons": [
@@ -2784,7 +2784,7 @@
     "language": "Python",
     "topics": [],
     "updated_at": "2026-04-29",
-    "category": "discovered",
+    "category": "Memory & Knowledge",
     "score": 0,
     "tier": "SEEDED",
     "score_reasons": [
@@ -4906,7 +4906,7 @@
       "multi_specialty"
     ],
     "discovered_at": "2026-08-11T08:08:53.055170+00:00",
-    "category": "raulvidis",
+    "category": "Platform-Specific",
     "status": "approved",
     "approved_at": "2026-08-11T08:08:53.055170+00:00"
   },
