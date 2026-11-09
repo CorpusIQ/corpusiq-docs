@@ -5780,7 +5780,16 @@ The CorpusIQ ChatGPT integration connects your business data directly to ChatGPT
 
 ## Supported Data Sources
 
-All 36 CorpusIQ connectors are available through the ChatGPT integration. See the [connectors directory](connectors.md) for the full list.
+All 40+ CorpusIQ connectors are available through the ChatGPT integration. See the [connectors directory](connectors.md) for the full list.
+
+**Connector setup guides:**
+
+- [Connect TikTok to ChatGPT](connect-tiktok-to-chatgpt.md) - per-video performance and channel trend questions inside a ChatGPT thread.
+- [Connect ActiveCampaign to ChatGPT](connect-activecampaign-to-chatgpt.md) - campaign, automation and pipeline questions inside a ChatGPT thread.
+- [Connect Dropbox to ChatGPT](connect-dropbox-to-chatgpt.md) - contracts, decks and invoices read from your folders inside a ChatGPT thread.
+- [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
+- [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
+- [Connect Odoo to ChatGPT](connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
 
 ## ChatGPT vs AI Agent Direct Connection
 
@@ -6199,6 +6208,112 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect ActiveCampaign to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-activecampaign-to-chatgpt
+
+
+# How to Connect ActiveCampaign to ChatGPT with CorpusIQ MCP
+
+ActiveCampaign holds your contacts, your automations, your campaign history and your deal pipeline. Each one has its own screen, its own filters and its own date defaults, so the question that matters usually spans all four.
+
+Connecting ActiveCampaign through CorpusIQ MCP puts those records behind a single set of read-only tools, so ChatGPT can answer the question you actually asked.
+
+## What Questions Can You Ask?
+
+**Campaign performance**
+
+- "How did my last ActiveCampaign campaign perform?"
+- "Which of my last five campaigns had the best click rate?"
+- "Compare this month's sends against last month's."
+
+**Automation health**
+
+- "Which automations have the most active contacts?"
+- "List the automations that no contact has entered in the last 30 days."
+
+**Pipeline**
+
+- "Show me deals that have been open longer than 30 days."
+- "What is the total value of deals in each stage?"
+
+**List and segment health**
+
+- "How big is each of my lists?"
+- "Find every contact tagged 'webinar-april'."
+- "Which tags are attached to more than 500 contacts?"
+
+**Cross-source**
+
+- "Which contacts opened the last campaign and also placed a Shopify order this month?" (requires the Shopify connector)
+- "Do my ActiveCampaign deals match what QuickBooks shows as invoiced?" (requires the QuickBooks connector)
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT send email or edit contacts through this connection?</strong></summary>
+
+No. The connector reads contacts, lists, tags, campaigns, automations, deals and account information. It does not send mail, edit contacts or change automations.
+</details>
+
+<details>
+<summary><strong>What credentials does the connection need?</strong></summary>
+
+Your ActiveCampaign API URL and API key, both found under Settings, then Developer, in your ActiveCampaign account. The API URL is your account host such as `https://youraccount.api-us1.com`, not the dashboard address you browse to.
+</details>
+
+<details>
+<summary><strong>It says the API key is invalid. What now?</strong></summary>
+
+Regenerate the key in ActiveCampaign under Settings, then Developer, and paste the new value into the CorpusIQ connector form. A rotated key invalidates the stored one immediately.
+</details>
+
+<details>
+<summary><strong>Campaigns come back empty. Why?</strong></summary>
+
+The API user tied to the key may not have access to the campaign view. Use a key from an admin-level user, then reconnect.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Each question reads ActiveCampaign live at the moment you ask. There is no nightly copy and no cached export, so a send from an hour ago is visible.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval is read-only. Raw customer files and full connector response payloads are not retained; operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You paste your ActiveCampaign API URL and key into the CorpusIQ connector form and save.
+2. CorpusIQ verifies the credentials and exposes contacts, lists, tags, campaigns, automations and deals as read-only MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT calls the tools the question needs and answers from the returned records.
+5. The answer names the campaign, list or stage it read, so the number can be checked at the source.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect ActiveCampaign.** In ActiveCampaign open Settings, then Developer, and copy the API URL and API key. In CorpusIQ open Dashboard, then Connectors, find ActiveCampaign, paste both values and save.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "how big is each of my lists". Real list names and sizes mean the key works.
+5. **Explore.** Then ask which campaign actually moved pipeline, not just opens.
+
+## Related Pages
+
+- [ActiveCampaign connector reference](connectors/activecampaign.md) - what the connection can see and the credential setup
+- [Connect ActiveCampaign to Perplexity](connect-activecampaign-to-perplexity.md) - the same records inside a Perplexity thread
+- [Connect Mailchimp to ChatGPT](connect-mailchimp-to-chatgpt.md) - the same questions for the other email platform
+- [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md) - ecommerce email and SMS
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - the CRM side of the pipeline
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
 # How to Connect ActiveCampaign to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-activecampaign-to-perplexity
 
@@ -6350,11 +6465,115 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 
 **Next steps:** [Connect ActiveCampaign to Perplexity now](https://corpusiq.io/connect/activecampaign-with-perplexity)
 
+**Also in ChatGPT:** [Connect ActiveCampaign to ChatGPT](connect-activecampaign-to-chatgpt.md) - campaign, automation and pipeline questions inside a ChatGPT thread.
+
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Ahrefs to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-ahrefs-to-chatgpt
+
+
+# How to Connect Ahrefs to ChatGPT with CorpusIQ MCP
+
+Ahrefs answers one question per screen: one domain, one report, one export. Comparing three competitors on keyword overlap and referring domains means three tabs and a spreadsheet to hold them together.
+
+Connecting Ahrefs through CorpusIQ MCP makes those comparisons answerable in one ChatGPT thread, read-only, and each answer names the domain and date it measured.
+
+## What Questions Can You Ask?
+
+**Domain strength**
+
+- "What is the Domain Rating for competitor.com?"
+- "Compare my domain against three competitors on referring domains."
+- "How has my backlink count moved over the last six months?"
+
+**Keywords**
+
+- "Which keywords does my domain rank for in the top 10?"
+- "Which keywords does competitor.com rank for that I do not?"
+- "What is the search volume and difficulty for 'enterprise CRM'?"
+
+**Backlinks**
+
+- "Show me the top referring domains linking to my site, with their Domain Rating."
+- "Which new referring domains appeared this quarter?"
+
+**Competitive**
+
+- "Who are my top organic competitors?"
+- "What are the highest-traffic pages on competitor.com?"
+- "Which of those pages have no equivalent on my site?"
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Which Ahrefs plan does this need?</strong></summary>
+
+The connection uses the Ahrefs API, which requires an Advanced plan or higher. A lower-tier plan issues a token that the API rejects, and the connector reports an invalid token.
+</details>
+
+<details>
+<summary><strong>Can ChatGPT change anything inside Ahrefs?</strong></summary>
+
+No. Every tool the connector exposes is a read: domain overview, keyword lists, backlink rows, referring domains, competitor lists, top pages and keyword research. Nothing writes to your Ahrefs account.
+</details>
+
+<details>
+<summary><strong>Does it spend Ahrefs credits?</strong></summary>
+
+The connection reads only the rows your question needs. A narrow question costs less than a broad one, so ask for the specific domain and metric rather than everything at once.
+</details>
+
+<details>
+<summary><strong>It returns no data for a domain. Why?</strong></summary>
+
+Ahrefs only reports domains its crawler has seen. A very new or unlinked domain can come back empty. Test the connection against an established domain before assuming the token is broken.
+</details>
+
+<details>
+<summary><strong>I hit a rate limit. What should I do?</strong></summary>
+
+Ahrefs enforces limits per token. Space the questions out, or ask one broader question instead of several narrow ones. The limit is on the Ahrefs side, not the CorpusIQ side.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval is read-only. Raw customer files and full connector response payloads are not retained; operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You paste your Ahrefs API token into the CorpusIQ connector form and save.
+2. CorpusIQ verifies the token and exposes domain overview, keyword, backlink, referring domain, competitor and top page lookups as read-only MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT calls the lookup the question needs, for the domain named in the question.
+5. The answer names the domain and the date the figure was measured.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Ahrefs.** Copy your token from Settings, then API in Ahrefs. In CorpusIQ open Dashboard, then Connections, find Ahrefs, paste the token and save.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "what is the Domain Rating for ahrefs.com". A number means the token works.
+5. **Explore.** Then compare your domain against the three competitors you actually watch.
+
+## Related Pages
+
+- [Ahrefs connector reference](connectors/ahrefs.md) - what the connection can see and the plan requirement
+- [Connect Ahrefs to Perplexity](connect-ahrefs-to-perplexity.md) - the same data inside a Perplexity thread
+- [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - the second SEO dataset, same questions
+- [Connect Google Search Console to ChatGPT](connect-google-search-console-to-chatgpt.md) - your own clicks beside the estimated traffic
+- [Connect Bing Webmaster Tools to ChatGPT](connect-bing-webmaster-tools-to-chatgpt.md) - the other search index
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
 ---
 # How to Connect Ahrefs to Perplexity with CorpusIQ MCP
@@ -6505,6 +6724,8 @@ CorpusIQ does not retain full connector response payloads. Operational logs may 
 ---
 
 **Next steps:** [Connect Ahrefs to Perplexity now](https://corpusiq.io/connect/ahrefs-with-perplexity)
+
+**Also in ChatGPT:** [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
@@ -7861,6 +8082,112 @@ Because every read is account-scoped. Naming the account is how you can tell whi
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Dropbox to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-dropbox-to-chatgpt
+
+
+# How to Connect Dropbox to ChatGPT with CorpusIQ MCP
+
+A lot of operating context lives in Dropbox: contracts, past board decks, vendor invoices, design files. Dropbox will find a file by name. It will not tell you what the renewal clause says, and it will not put that clause next to the invoice it belongs to.
+
+Connecting Dropbox through CorpusIQ MCP makes those questions answerable inside ChatGPT, read-only, with the file named in the answer.
+
+## What Questions Can You Ask?
+
+**Find and read**
+
+- "Find my Dropbox file mentioning 'Q3 board deck'."
+- "Read the latest agency contract and tell me the notice period."
+- "What is in my /Contracts folder?"
+
+**Change over time**
+
+- "Show me Dropbox files I have touched in the last week."
+- "Which contracts were updated since the first of the month?"
+
+**Account and storage**
+
+- "How much Dropbox storage am I using, and what is left?"
+- "Which folders hold the most files?"
+
+**Cross-source**
+
+- "Compare the invoices in Dropbox against overdue bills in QuickBooks." (requires the QuickBooks connector)
+- "Find the signed scope of work for the client whose Stripe subscription lapsed." (requires the Stripe connector)
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT upload, edit, move or delete Dropbox files?</strong></summary>
+
+No. The connection approves read access and the connector exposes search and read tools only. Nothing in the surface writes to your account.
+</details>
+
+<details>
+<summary><strong>Which file types can it read?</strong></summary>
+
+Word documents, Excel workbooks, PowerPoint decks, PDFs and plain text files. The text embedded in the file is what gets read.
+</details>
+
+<details>
+<summary><strong>A scanned PDF reads as blank. Why?</strong></summary>
+
+Image-only PDFs carry no embedded text, so there is nothing to read. The file needs OCR before any tool can quote from it.
+</details>
+
+<details>
+<summary><strong>A file I just uploaded is not found.</strong></summary>
+
+Dropbox search runs on Dropbox's own index, which can lag for very recent uploads. Wait a few minutes and ask again rather than reconnecting.
+</details>
+
+<details>
+<summary><strong>It says the token expired. How do I fix that?</strong></summary>
+
+Disconnect Dropbox in the CorpusIQ dashboard and reconnect. The consent flow issues a fresh token in one step.
+</details>
+
+<details>
+<summary><strong>Does this work with Dropbox Business?</strong></summary>
+
+Yes. The connection reads what the authorized account can open, whether that is a personal account or a Business team account.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval is read-only. Raw customer files and full connector response payloads are not retained; operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You connect Dropbox in the CorpusIQ dashboard and approve read access on Dropbox's consent screen.
+2. CorpusIQ exposes search across file names and content, file reads, recent activity and account storage as MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT searches for the file, reads the text and answers from it.
+5. The answer names the file and folder it came from, so the claim can be checked against the document.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Dropbox.** Dashboard, then Connectors, then Dropbox, then sign in and approve read access.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "how much Dropbox storage am I using". A real quota number means the connection is live.
+5. **Explore.** Then ask what a contract actually commits you to, instead of opening it.
+
+## Related Pages
+
+- [Dropbox connector reference](connectors/dropbox.md) - what the connection can see and how the consent flow works
+- [Connect Dropbox to Perplexity](connect-dropbox-to-perplexity.md) - the same folders inside a Perplexity thread
+- [Connect Google Drive to ChatGPT](connect-google-drive-to-chatgpt.md) - the other file store, same questions
+- [Connect Google Docs to ChatGPT](connect-google-docs-to-chatgpt.md) - documents written rather than stored
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md) - the knowledge base next to the file store
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
 # How to Connect Dropbox to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-dropbox-to-perplexity
 
@@ -8000,6 +8327,8 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ---
 
 **Next steps:** [Connect Dropbox to Perplexity now](https://corpusiq.io/connect/dropbox-with-perplexity)
+
+**Also in ChatGPT:** [Connect Dropbox to ChatGPT](connect-dropbox-to-chatgpt.md) - contracts, decks and invoices read from your folders inside a ChatGPT thread.
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
@@ -12734,6 +13063,112 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Odoo to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-odoo-to-chatgpt
+
+
+# How to Connect Odoo to ChatGPT with CorpusIQ MCP
+
+Odoo is many applications sharing one database. The value is in the joins: a quotation that became an invoice, an invoice against a delivery, a delivery against stock on hand. The interface makes you open four screens and join them yourself.
+
+Connecting Odoo through CorpusIQ MCP makes those cross-module questions answerable inside ChatGPT, read-only, with the module and record named in the answer.
+
+## What Questions Can You Ask?
+
+**Sales and pipeline**
+
+- "What is the value of open quotations in Odoo right now?"
+- "How many opportunities are in the negotiation stage?"
+- "Which sales orders are confirmed but not yet delivered?"
+
+**Money owed**
+
+- "Show me overdue customer invoices."
+- "What is the total of vendor bills due in the next 14 days?"
+- "Which customers have both an overdue invoice and an open quotation?"
+
+**Inventory**
+
+- "What is on hand for SKU X across all warehouses?"
+- "Which products are below their reorder point?"
+
+**Operations**
+
+- "List active projects and their task counts."
+- "Which project tasks are past their deadline?"
+
+**Cross-source**
+
+- "Compare Odoo invoiced revenue against Stripe payouts this month." (requires the Stripe connector)
+- "Which Odoo customers also have open deals in HubSpot?" (requires the HubSpot connector)
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT confirm orders, post invoices or move stock?</strong></summary>
+
+No. Every exposed tool is a read: partners, sale orders and quotations with line items, CRM leads and opportunities, customer and vendor invoices, products and on-hand inventory, stock transfers, journals, payments, taxes, employees, projects and tasks.
+</details>
+
+<details>
+<summary><strong>What do I need to connect Odoo?</strong></summary>
+
+Your Odoo instance URL, the database name, a login, and an API key for a user with read access to the modules you want visible. Setup takes about three minutes.
+</details>
+
+<details>
+<summary><strong>Does this work with Odoo Online, Odoo.sh and self-hosted?</strong></summary>
+
+Yes. Any instance that answers over HTTPS with a reachable database name works, including Odoo Online, Odoo.sh and a self-hosted deployment.
+</details>
+
+<details>
+<summary><strong>Authentication failed. What should I check?</strong></summary>
+
+Generate a fresh API key in Odoo under Preferences, then Account Security, and reconnect. A key created for a different user will also fail if that user lacks module access.
+</details>
+
+<details>
+<summary><strong>One module comes back empty.</strong></summary>
+
+The connected user probably has no access rights to that module's records. Odoo enforces its own permissions, so the connection can only read what the user can open in the interface.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval is read-only. Raw customer files and full connector response payloads are not retained; operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You enter your instance URL, database name, login and API key in the CorpusIQ connector form and save.
+2. CorpusIQ verifies the credentials against the instance and exposes the readable modules as read-only MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT calls the module the question needs and joins the records it returns.
+5. The answer names the module and the period, so the figure can be reconciled in Odoo.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Odoo.** Open Dashboard, then Connections, find Odoo, then enter your instance URL, the database name, a login and an API key with read access.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "how many opportunities are in each stage". Real stage names mean the connection is live.
+5. **Explore.** Then ask the cross-module question that has meant four screens and a manual join.
+
+## Related Pages
+
+- [Odoo connector reference](connectors/odoo.md) - what the connection can see and the credential setup
+- [Connect Odoo to Perplexity](connect-odoo-to-perplexity.md) - the same modules inside a Perplexity thread
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt.md) - the accounting side of the same question
+- [Connect NetSuite to ChatGPT](connect-netsuite-to-chatgpt.md) - the other ERP, same shape
+- [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt.md) - the CRM record beside the ERP record
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
 # How to Connect Odoo to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-odoo-to-perplexity
 
@@ -12891,6 +13326,8 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ---
 
 **Next steps:** [Connect Odoo to Perplexity now](https://corpusiq.io/connect/odoo-with-perplexity)
+
+**Also in ChatGPT:** [Connect Odoo to ChatGPT](connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
@@ -14376,6 +14813,107 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Semrush to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-semrush-to-chatgpt
+
+
+# How to Connect Semrush to ChatGPT with CorpusIQ MCP
+
+Semrush holds organic positions, paid positions, backlinks and month by month domain history. The reports are exhaustive and, for that reason, awkward to hold in your head when the question is comparative.
+
+Connecting Semrush through CorpusIQ MCP puts those records behind read-only tools, so ChatGPT can answer "where are we losing ground" with the domains and dates named.
+
+## What Questions Can You Ask?
+
+**Organic**
+
+- "What organic keywords does competitor.com rank for?"
+- "Show me my domain's SEO overview."
+- "Which of my top keywords dropped out of the first page this month?"
+
+**Paid**
+
+- "Which paid keywords does competitor.com bid on?"
+- "What is the estimated paid traffic for my domain against theirs?"
+
+**Backlinks**
+
+- "How does my backlink profile compare to competitor.com?"
+- "Which referring domains do they have that I do not?"
+
+**Demand and competitor set**
+
+- "What is the search volume and CPC for 'enterprise CRM'?"
+- "Who are my top organic competitors?"
+- "Show the month by month organic history for my domain and two competitors."
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Which Semrush plan does this need?</strong></summary>
+
+The API requires a Business plan or higher. A lower-tier plan produces a key the API rejects, and the connector reports an invalid key.
+</details>
+
+<details>
+<summary><strong>Does each question cost API units?</strong></summary>
+
+Yes. Semrush meters its API in units and every query spends some. Ask narrow questions when you are exploring and broad ones once you know what you need.
+</details>
+
+<details>
+<summary><strong>Can ChatGPT change anything in Semrush?</strong></summary>
+
+No. The connector reads domain overviews, keyword lists, competitor lists, backlink summaries and domain history. It cannot create projects, edit campaigns or spend budget.
+</details>
+
+<details>
+<summary><strong>Why is a domain missing data?</strong></summary>
+
+Semrush data lags reality, and very new domains may not be indexed yet. Try an established domain to confirm the key works before treating an empty result as a fault.
+</details>
+
+<details>
+<summary><strong>How is this different from the Semrush dashboard?</strong></summary>
+
+The dashboard is built for browsing one report at a time. The connector is built for answering a question that spans reports, and for putting the answer beside your own Search Console and analytics data.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval is read-only. Raw customer files and full connector response payloads are not retained; operational query logs keep query text and bounded outcome summaries for up to 30 days.
+</details>
+
+## How It Works
+
+1. You paste your Semrush API key into the CorpusIQ connector form and save.
+2. CorpusIQ verifies the key and exposes domain overview, keyword, competitor, backlink and history lookups as read-only MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT calls the lookup the question needs and answers from the returned rows.
+5. The answer names the domain and period it read.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect Semrush.** In Semrush open your profile, then Subscription info, then API units, and copy the key. In CorpusIQ open Dashboard, then Connections, find Semrush, paste the key and save.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "show me my domain's SEO overview". A traffic figure means the key works.
+5. **Explore.** Then ask the comparison question that has meant three exports and a spreadsheet.
+
+## Related Pages
+
+- [Semrush connector reference](connectors/semrush.md) - what the connection can see and the unit costs
+- [Connect Semrush to Perplexity](connect-semrush-to-perplexity.md) - the same data inside a Perplexity thread
+- [Connect Ahrefs to ChatGPT](connect-ahrefs-to-chatgpt.md) - the second SEO dataset, same questions
+- [Connect Google Search Console to ChatGPT](connect-google-search-console-to-chatgpt.md) - measured clicks beside estimated traffic
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - what the organic sessions did next
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
 # How to Connect Semrush to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-semrush-to-perplexity
 
@@ -14527,6 +15065,8 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ---
 
 **Next steps:** [Connect Semrush to Perplexity now](https://corpusiq.io/connect/semrush-with-perplexity)
+
+**Also in ChatGPT:** [Connect Semrush to ChatGPT](connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
@@ -15670,6 +16210,114 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect TikTok to ChatGPT with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-tiktok-to-chatgpt
+
+
+# How to Connect TikTok to ChatGPT with CorpusIQ MCP
+
+TikTok reports views, likes, comments and shares one video at a time. It will not tell you which of the last forty carried the account, and it cannot rank those videos against the channels you fund beside it.
+
+Connecting TikTok through CorpusIQ MCP makes those questions answerable inside a ChatGPT thread. The connection is read-only, and every answer names the period it measured.
+
+## What Questions Can You Ask?
+
+**Per-video performance**
+
+- "What are my top ten TikTok videos by views this quarter?"
+- "Which videos drove the most engagement per view?"
+- "How did last Tuesday's video perform against my median?"
+
+**Account health**
+
+- "Show my follower count, total video count and verified status."
+- "How many likes did the account collect this month?"
+- "Is follower growth accelerating or flattening over the last six months?"
+
+**Content patterns**
+
+- "Do my videos with a question in the first line outperform the others?"
+- "Which posting window gets the most views per video?"
+- "Which videos have the highest comment-to-view ratio?"
+
+**Cross-source**
+
+- "Which TikTok videos produced sessions in GA4, and how many converted?" (requires the GA4 connector)
+- "How does TikTok engagement compare to the same clip on Instagram?" (requires the Instagram connector)
+
+## FAQ: Common Questions
+
+<details>
+<summary><strong>Can ChatGPT post to TikTok or comment on videos?</strong></summary>
+
+No. The connection carries analytics scopes and the connector exposes no posting, commenting or following tool. Reading is the whole surface.
+</details>
+
+<details>
+<summary><strong>Why did authorization fail?</strong></summary>
+
+TikTok requires every requested scope to be approved on the consent screen. A partial approval fails the connection. Reconnect and accept the full set rather than deselecting any permission.
+</details>
+
+<details>
+<summary><strong>A video I posted today is missing. Why?</strong></summary>
+
+Newly posted videos take a few hours to appear in TikTok's API. Ask again later instead of reconnecting, which changes nothing about the data.
+</details>
+
+<details>
+<summary><strong>It connected the wrong TikTok account. How do I fix that?</strong></summary>
+
+Disconnect TikTok in the CorpusIQ dashboard, sign in to the account you want in the TikTok web app, then reconnect. Access follows the account you authorized, so a different account stays out of reach.
+</details>
+
+<details>
+<summary><strong>Can it show TikTok Shop or ad revenue?</strong></summary>
+
+No. The connector reads the profile, the posted video list with per-video metrics, and aggregate account analytics. Shop sales and ad spend sit in TikTok's separate surfaces and are not part of this connection.
+</details>
+
+<details>
+<summary><strong>Does this only work in ChatGPT?</strong></summary>
+
+No. TikTok is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription. The [Perplexity version](connect-tiktok-to-perplexity.md) covers that client.
+</details>
+
+<details>
+<summary><strong>What is retained after a query?</strong></summary>
+
+Direct MCP retrieval is read-only. Raw customer files and full connector response payloads are not retained; operational query logs keep query text and bounded outcome summaries for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+## How It Works
+
+1. You connect TikTok in the CorpusIQ dashboard and approve the analytics scopes on TikTok's consent screen.
+2. CorpusIQ exposes the TikTok profile, the posted video list and the account-level analytics as MCP tools.
+3. You add the CorpusIQ MCP server to ChatGPT. See the [Quick Start guide](quick-start.md).
+4. ChatGPT picks the tool the question needs, for example listing videos with metrics when you ask for a ranking.
+5. The answer states the period it covers, so a ranking can be checked against TikTok's own numbers.
+
+## Setup Guide
+
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io). The 30-day trial needs no credit card.
+2. **Connect TikTok.** Dashboard, then Connections, then TikTok, then sign in and approve the profile, video list and video analytics scopes.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server per the [Quick Start guide](quick-start.md).
+4. **Verify.** Ask "show my follower count and total video count". Correct-looking numbers mean the TikTok scopes took.
+5. **Explore.** Then ask the question you would otherwise answer by opening forty videos and counting.
+
+## Related Pages
+
+- [TikTok connector reference](connectors/tiktok.md) - what the connection can see and how the scopes work
+- [Connect TikTok to Perplexity](connect-tiktok-to-perplexity.md) - the same analytics inside a Perplexity thread
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt.md) - put session and conversion data beside the views
+- [Connect Meta Ads to ChatGPT](connect-meta-ads-to-chatgpt.md) - paid reach against organic reach
+- [Browse all CorpusIQ connectors](connectors.md) - the full list
+- [How to Connect Business Data to ChatGPT](how-to-connect-business-data-to-chatgpt.md) - the general setup
+- [MCP vs API Integrations](mcp-vs-api-integrations.md) - why the access model differs
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
 # How to Connect TikTok to Perplexity with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-tiktok-to-perplexity
 
@@ -15815,6 +16463,8 @@ CorpusIQ does not retain raw customer files or full connector response payloads.
 ---
 
 **Next steps:** [Connect TikTok to Perplexity now](https://corpusiq.io/connect/tiktok-with-perplexity)
+
+**Also in ChatGPT:** [Connect TikTok to ChatGPT](connect-tiktok-to-chatgpt.md) - per-video performance and channel trend questions inside a ChatGPT thread.
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
 
@@ -29119,6 +29769,7 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 
 ## See also
 
+- [Connect ActiveCampaign to ChatGPT](../connect-activecampaign-to-chatgpt.md) - campaign, automation and pipeline questions inside a ChatGPT thread.
 - [Connect ActiveCampaign to Perplexity](../connect-activecampaign-to-perplexity.md) - campaign, automation and pipeline questions inside a Perplexity thread.
 
 ---
@@ -29236,6 +29887,7 @@ Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask fo
 
 ## See also
 
+- [Connect Ahrefs to ChatGPT](../connect-ahrefs-to-chatgpt.md) - domain ratings, keyword and backlink questions inside a ChatGPT thread.
 - [Connect Ahrefs to Perplexity](../connect-ahrefs-to-perplexity.md) - domain ratings, keyword and backlink questions inside a Perplexity thread.
 
 ---
@@ -30738,6 +31390,7 @@ CorpusIQ never uploads, edits, deletes, or moves files.
 
 ## See also
 
+- [Connect Dropbox to ChatGPT](../connect-dropbox-to-chatgpt.md) - contracts, decks and invoices read from your folders inside a ChatGPT thread.
 - [Connect Dropbox to Perplexity](../connect-dropbox-to-perplexity.md) - contracts, decks and invoices read from your folders inside a Perplexity thread.
 
 ---
@@ -32274,6 +32927,7 @@ Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
 
 ## See also
 
+- [Connect Odoo to ChatGPT](../connect-odoo-to-chatgpt.md) - quotations, invoices, stock and pipeline across ERP modules in one ChatGPT thread.
 - [Connect Odoo to Perplexity](../connect-odoo-to-perplexity.md) - quotations, invoices, stock and pipeline across ERP modules in one Perplexity thread.
 
 ---
@@ -32784,6 +33438,7 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 
 ## See also
 
+- [Connect Semrush to ChatGPT](../connect-semrush-to-chatgpt.md) - competitor keywords, backlinks and demand sizing inside a ChatGPT thread.
 - [Connect Semrush to Perplexity](../connect-semrush-to-perplexity.md) - competitor keywords, backlinks and demand sizing inside a Perplexity thread.
 
 ---
@@ -33176,6 +33831,7 @@ Read-only. CorpusIQ never posts, deletes, comments, or follows.
 
 ## See also
 
+- [Connect TikTok to ChatGPT](../connect-tiktok-to-chatgpt.md) - per-video performance and channel trend questions inside a ChatGPT thread.
 - [Connect TikTok to Perplexity](../connect-tiktok-to-perplexity.md) - per-video performance and channel trend questions inside a Perplexity thread.
 
 ---
