@@ -60,10 +60,14 @@ def main():
     seen = {}
     drop = []
     for name, start, end, limit in blocks(lines):
-        if name in seen:
-            drop.append((name, start, end, seen[name]))
+        # Case-insensitive key: GitHub owner/repo names are case-insensitive, so
+        # `AxDSan/Mnemosyne` and `AxDSan/mnemosyne` are one repo. A case-sensitive
+        # key left both in the page and the duplicate survived a --check pass.
+        key = name.lower()
+        if key in seen:
+            drop.append((name, start, end, seen[key]))
         else:
-            seen[name] = start
+            seen[key] = start
 
     if not drop:
         print("OK: every entry appears exactly once")

@@ -1,6 +1,6 @@
 ---
 title: Hermes Ecosystem - Complete Resource Directory
-description: The definitive directory of Hermes Agent resources - 457+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources - 451+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 last_updated: "2026-11-08"
@@ -10,9 +10,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem - Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 457+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 451+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 8, 2026 · **Repos indexed:** 457+ · **Categories:** 18
+> **Last updated:** November 8, 2026 · **Repos indexed:** 451+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,10 +26,10 @@ The most comprehensive directory of Hermes Agent resources in existence. 457+ re
 | [Documentation & Learning](#documentation-learning) | 4 | [↓](#documentation-learning) |
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 26 | [↓](#ui-dashboards) |
-| [Memory & Knowledge](#memory-knowledge) | 36 | [↓](#memory-knowledge) |
-| [MCP & Integrations](#mcp-integrations) | 51 | [↓](#mcp-integrations) |
+| [Memory & Knowledge](#memory-knowledge) | 35 | [↓](#memory-knowledge) |
+| [MCP & Integrations](#mcp-integrations) | 50 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 105 | [↓](#skills-plugins) |
-| [Tools & Utilities](#tools-utilities) | 62 | [↓](#tools-utilities) |
+| [Tools & Utilities](#tools-utilities) | 61 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#orchestration-multi-agent-swarms) | 36 | [↓](#orchestration-multi-agent-swarms) |
 | [Deployment & Infrastructure](#deployment-infrastructure) | 21 | [↓](#deployment-infrastructure) |
@@ -454,7 +454,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 457+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 451+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -860,15 +860,6 @@ The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Ever
 
 ---
 
-### AxDSan/mnemosyne
-⭐ **1,150** · `Python` · [github.com/AxDSan/mnemosyne](https://github.com/AxDSan/mnemosyne)
-
-The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else!
-
-**Key capabilities:** agents, ai, hermes, hermes-agent, ml, nousresearch
-
----
-
 ### MemTensor/memmy-agent
 ⭐ **652** · `TypeScript` · [github.com/MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent)
 
@@ -1162,15 +1153,6 @@ iCloud for agents. An encrypted, permissioned knowledge layer for humans and age
 **Related:** [Memory & Knowledge →](#memory-knowledge)
 
 ---
-### Aphelios01-sdk/hermes-brain
-⭐ **0** · `Python` · [github.com/Aphelios01-sdk/hermes-brain](https://github.com/Aphelios01-sdk/hermes-brain)
-
-Hermes Agent skills and memories - AI training knowledge base
-
-**Key capabilities:** Hermes Agent skills and memories - AI training knowledge base
-
----
-
 
 ## 🔌 MCP & Integrations
 
@@ -1224,16 +1206,6 @@ MCP server that lets any LLM (for example Claude Desktop) delegate tasks to a lo
 Google Antigravity / Cloud Code Assist inference provider plugin for Hermes Agent
 
 **Key capabilities:** ai-agents, antigravity, claude, gemini, hermes-agent, llm-inference, model-provider
-**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)
-
----
-
-### yun520-1/mark-heartflow-skill
-⭐ **26** · `JavaScript` · [github.com/yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill)
-
-心虫 (HeartFlow) — 认知状态编码器 + 自主决策引擎。60个模块把原始文本编码成结构化认知数据，判断引擎做多路径决策，决策路由做场域追踪，自愈RL从错误中学习。被Hermes Agent通过MCP调用，为LLM提供结构化认知快照。
-
-**Key capabilities:** ai-being, ai-philosophy, ai-psychology, cognitive-engine, decision-engine, decision-routing, hermes-agent, judgment-engine
 **Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)
 
 ---
@@ -2986,16 +2958,6 @@ Anticipatory memory with RAG. Predicts what the agent will need before it asks.
 
 ---
 
-### AxDSan/Mnemosyne
-⭐ **1,150** · `Python` · [github.com/AxDSan/Mnemosyne](https://github.com/AxDSan/Mnemosyne)
-
-Local sub-millisecond memory system with sqlite-vec hybrid. Ultra-fast local vector memory.
-
-**Status:** Beta 
-**Key capabilities:** Sub-ms retrieval, sqlite-vec, hybrid memory, local-first
-
----
-
 ### zzet/gortex
 ⭐ **344** · `Go` · [github.com/zzet/gortex](https://github.com/zzet/gortex)
 
@@ -3905,15 +3867,6 @@ Installable Hermes Agent profile for a security-first blockchain architect speci
 
 ---
 
-### codegraphtheory/chainforge
-⭐ **8** · `Python` · [github.com/codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge)
-
-Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
-
-**Key capabilities:** agent-profile, ai-agent, auditing, blockchain, built-from-hermes-profile-template, defi, developer-tools, ethereum
-
----
-
 ### CorpusIQ System Registry
 [Governance →](/hermes/governance)
 
@@ -4113,15 +4066,6 @@ Search AI podcast quotes by topic across Lex Fridman, Dwarkesh Patel, No Priors,
 ## 🌏 Platform-Specific
 
 Chinese, Japanese, Korean, and other language-specific Hermes resources.
-
-### raulvidis/hermes-android
-⭐ **452** · `Python` · [github.com/raulvidis/hermes-android](https://github.com/raulvidis/hermes-android)
-
-Android device control for hermes-agent — bridge app + Python toolset
-
-**Key capabilities:** Android device control for hermes-agent — bridge app + Python toolset
-
----
 
 ### Chinese (中文) Resources
 
@@ -4571,7 +4515,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 452 |
+| Total repos indexed | 451 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
@@ -4579,7 +4523,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Memory systems | 35 |
 | MCP integrations | 50 |
 | Skill collections & plugins | 105 |
-| Tools & utilities | 62 |
+| Tools & utilities | 61 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 21 |
 | Domain applications | 27 |
@@ -4648,7 +4592,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 452 repos · 18 categories · 1M+ community stars · 105 skill collections · 50 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 451 repos · 18 categories · 1M+ community stars · 105 skill collections · 50 MCP integrations · 27 domain applications
 
 ---
 
@@ -4656,7 +4600,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **457+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **451+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
