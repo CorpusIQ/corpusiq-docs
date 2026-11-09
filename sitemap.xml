@@ -3101,6 +3101,10 @@
          <lastmod>2026-11-02</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cbam-data-mcp</loc>
+         <lastmod>2026-11-09</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cdnmn-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -5075,6 +5079,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/nova-amazon-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/nusii-mcp</loc>
+         <lastmod>2026-11-09</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/occasioni-it-mcp</loc>
@@ -7347,6 +7355,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november8-2026-night</loc>
          <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november9-2026-midday</loc>
+         <lastmod>2026-11-09</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november9-2026-night</loc>
