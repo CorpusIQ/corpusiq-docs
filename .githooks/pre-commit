@@ -25,10 +25,20 @@ for f in $(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|mdx)
     *) [ -e "docs/$f" ] || continue ;;   # not reachable from docs/ -> not a page
   esac
   [ -f "$f" ] || continue
-  RES=$(python3 /home/hermes/.hermes/ops/gates.py docs "$f" 2>/dev/null | python3 -c "import json,sys; print(json.load(sys.stdin)['result'])" 2>/dev/null)
+  # auto-sanitize mechanical violations (em/en dash, title > 60, description > 155)
+  # BEFORE the gate so the gate stops hard-failing on them; a missing/broken
+  # sanitizer leaves the file untouched and the gate still blocks exactly as before.
+  SAN_OUT=$(python3 scripts/sanitize_gate_docs.py "$f" 2>/dev/null) || SAN_OUT=""
+  if [ "$SAN_OUT" = "changed" ]; then
+    git add "$f" 2>/dev/null
+  fi
+  # run the gate ONCE and reuse its JSON for both the verdict and the print
+  # (the previous double-invocation recorded two gate_runs rows per failure).
+  GATE_JSON=$(python3 /home/hermes/.hermes/ops/gates.py docs "$f" 2>/dev/null)
+  RES=$(printf '%s' "$GATE_JSON" | python3 -c "import json,sys; print(json.load(sys.stdin)['result'])" 2>/dev/null)
   if [ "$RES" = "fail" ]; then
     echo "[ops-gate] FAIL: $f"
-    python3 /home/hermes/.hermes/ops/gates.py docs "$f" 2>/dev/null | head -24
+    printf '%s\n' "$GATE_JSON" | head -24
     FAILED=1
   fi
 done
