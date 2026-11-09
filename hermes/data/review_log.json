@@ -21522,5 +21522,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-08T10:03:08.775652+00:00"
+  },
+  {
+    "repo": "Pukujan/swarm-studio",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668108+00:00"
+  },
+  {
+    "repo": "PROGRESSOR7676146/agents-projects-hub",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668122+00:00"
+  },
+  {
+    "repo": "dreamfarer-space/multi-model-agent-workflow",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668126+00:00"
+  },
+  {
+    "repo": "tecno-consultores/qa-testing-blueprints",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668128+00:00"
+  },
+  {
+    "repo": "localagentbench/Localagentbench",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668130+00:00"
+  },
+  {
+    "repo": "ExpeditedProjects/hutchdb",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668132+00:00"
+  },
+  {
+    "repo": "affiliateo/agent",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668134+00:00"
+  },
+  {
+    "repo": "roomss-ltd/vm-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668135+00:00"
+  },
+  {
+    "repo": "lionelsimai/hermes-plugins",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668137+00:00"
+  },
+  {
+    "repo": "adplug-app/adplug-hermes-plugin",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668139+00:00"
+  },
+  {
+    "repo": "vingov/the-agent-stack-labs",
+    "score": 41,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668141+00:00"
+  },
+  {
+    "repo": "Wilwonka06/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668143+00:00"
+  },
+  {
+    "repo": "georgxzh/hermes-agent-plugin-hackathon",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668145+00:00"
+  },
+  {
+    "repo": "repolex-forx/NousResearch--hermes-official-plugins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-09T04:03:46.668146+00:00"
   }
 ]
