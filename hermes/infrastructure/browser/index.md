@@ -3,7 +3,7 @@ title: Browser Automation Architecture
 description: "Production browser automation for Hermes agents using Playwright stealth and persistent contexts."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/browser/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -37,6 +37,18 @@ await stealth.apply_stealth_async(page)
 - Disables automation signals (`--disable-blink-features=AutomationControlled`)
 - Realistic user agents per platform
 - Human-like timing delays between actions
+
+The current release of `playwright-stealth` (2.0.3) also ships a context
+wrapper that applies stealth to every page created from it, which is the
+maintainer's recommended form:
+
+```python
+from playwright_stealth import Stealth
+
+async with Stealth().use_async(async_playwright()) as p:
+    browser = await p.chromium.launch()
+    page = await browser.new_page()
+```
 
 ### Persistent Contexts
 
