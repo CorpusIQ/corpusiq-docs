@@ -1,6 +1,6 @@
 ---
 title: "Nusii MCP - The Proposal Pipeline Inside the Chat"
-description: "Draft a proposal from your own template, rework the line items in a sentence, and read the pipeline without opening the app."
+description: "Draft a proposal from your own template, rework the line items in a sentence, and read the pipeline without opening the app"
 category: Productivity
 stars: "n/a (hosted SaaS; OAuth sign-in, 14-day trial)"
 added: 2026-11-09
@@ -60,7 +60,7 @@ The State of Proposals 2026 report is built on **9,022** proposals sent through 
 
 ## The class it enters, with the owners named
 
-Signature execution already has owners here: [SignWell](/hermes/mcp/servers/external/signwell-mcp/), [SignSimple](/hermes/mcp/servers/external/signsimple-mcp/) and [Countersignatory](/hermes/mcp/servers/external/countersignatory-mcp/) all put a document in front of a counterparty and return a signed artefact, and Nusii ships electronic signatures too, but that is a feature beside its real surface. What is not carried here is the **priced proposal pipeline**: a template, a set of line items with prices, a client, a view counter and an acceptance rate, joined to the draft itself. Questionnaires and RFPs have an owner in ResponseHub, and that is the inbound side; this is the outbound priced offer that follows the call.
+Signature execution already has owners here: [SignWell](/hermes/mcp/servers/external/signwell-mcp), [SignSimple](/hermes/mcp/servers/external/signsimple-mcp/) and [Countersignatory](/hermes/mcp/servers/external/countersignatory-mcp/) all put a document in front of a counterparty and return a signed artefact, and Nusii ships electronic signatures too, but that is a feature beside its real surface. What is not carried here is the **priced proposal pipeline**: a template, a set of line items with prices, a client, a view counter and an acceptance rate, joined to the draft itself. Questionnaires and RFPs have an owner in ResponseHub, and that is the inbound side; this is the outbound priced offer that follows the call.
 
 ## Limits, stated as limits
 

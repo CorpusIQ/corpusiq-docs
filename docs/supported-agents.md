@@ -1,9 +1,9 @@
 ---
 title: "Supported AI Agents - CorpusIQ Docs"
-description: "Complete MCP configuration guides for supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, and Roo Code. Copy-paste JSON blocks for instant setup."
+description: "MCP configuration guides for supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code and Microsoft 365 Copilot. Copy-paste JSON blocks"
 category: "Documentation"
-tags: ["supported ai agents", "mcp configuration", "claude desktop mcp", "cursor mcp", "hermes agent", "windsurf mcp", "roo code"]
-last_updated: "2026-11-07"
+tags: ["supported ai agents", "mcp configuration", "claude desktop mcp", "cursor mcp", "hermes agent", "windsurf mcp", "roo code", "microsoft 365 copilot mcp"]
+last_updated: "2026-11-09"
 canonical: "https://www.corpusiq.io/docs/supported-agents"
 robots: "index,follow"
 ---
@@ -135,6 +135,16 @@ Add to Roo Code's MCP configuration and restart.
 
 ---
 
+## Microsoft 365 Copilot
+
+Microsoft 365 Copilot reaches external tools over MCP through federated connectors an administrator enables in the Microsoft 365 admin center, or through Copilot Studio.
+
+**Status:** CorpusIQ is a remote MCP server, so the technical path exists. No CorpusIQ connector is listed in Microsoft's connector gallery yet, because that listing is a partner submission Microsoft reviews and approves. Treat this as a documented path for an administrator to enable, not a one-click integration.
+
+In Microsoft Teams you add your own AI key and point it at any assistant you already use.
+
+---
+
 ## Any MCP-Compatible Agent
 
 CorpusIQ uses the standard Model Context Protocol. Any agent that supports MCP can connect:
@@ -147,7 +157,7 @@ CorpusIQ uses the standard Model Context Protocol. Any agent that supports MCP c
 
 **Verify your connection** by asking your agent: "What data sources are connected to CorpusIQ?"
 
-Your agent should list all 36 available business data sources.
+Your agent should list all 40+ available business data sources.
 
 ## Connection Troubleshooting
 
@@ -162,7 +172,7 @@ Your agent should list all 36 available business data sources.
 ## Frequently Asked Questions
 
 **Q: Which AI agents work with CorpusIQ?**  
-A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. ChatGPT, Claude, Perplexity, Google Gemini, and Grok connect as MCP clients, and any other MCP-compatible agent can connect using the standard endpoint. See [Grok integration](grok-integration.md) for the Grok steps.
+A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. ChatGPT, Claude, Perplexity, Google Gemini, and Grok connect as MCP clients, Microsoft 365 Copilot can reach CorpusIQ through a federated connector an administrator enables once a gallery listing exists, and any other MCP-compatible agent can connect using the standard endpoint. See [Grok integration](grok-integration.md) for the Grok steps.
 
 **Q: How do I configure my agent to connect to CorpusIQ?**  
 A: Add the CorpusIQ MCP endpoint (https://mcp2.corpusiq.io/mcp) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.
