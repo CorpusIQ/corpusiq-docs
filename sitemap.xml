@@ -1702,7 +1702,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/infrastructure/browser</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-09</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/infrastructure/dgx</loc>
@@ -1778,7 +1778,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/mcp-spec-2026-07-28</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-09</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/runbook-governance</loc>
@@ -8106,7 +8106,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/security</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-09</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/security/read-only-and-security</loc>
@@ -8214,7 +8214,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog</loc>
-         <lastmod>2026-11-08</lastmod>
+         <lastmod>2026-11-09</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup</loc>
@@ -10981,10 +10981,6 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
-         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openmontage-setup</loc>
-         <lastmod>2026-11-03</lastmod>
-    </url>
-    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openmontage-video-skills-setup</loc>
          <lastmod>2026-11-09</lastmod>
     </url>
@@ -13162,7 +13158,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov3-2026-evening-skills</loc>
-         <lastmod>2026-11-03</lastmod>
+         <lastmod>2026-11-09</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov3-2026-night-skills</loc>
