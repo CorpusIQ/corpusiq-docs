@@ -1,15 +1,15 @@
 ---
 title: "Search CorpusIQ Documentation Library"
-description: "Search the full CorpusIQ documentation library: connectors, recipes, troubleshooting, and developer guides for the data trust layer."
+description: "Search the full CorpusIQ documentation library: connectors, recipes, troubleshooting, and developer guides for the data trust layer"
 category: "Documentation"
 tags: ["corpusiq search", "natural language search", "cross-source queries", "business data search", "real-time queries", "trend analysis", "data aggregation"]
-last_updated: "2026-11-07"
+last_updated: "2026-11-09"
 canonical: "https://www.corpusiq.io/search"
 robots: "index,follow"
 ---
 # Search
 
-CorpusIQ provides natural language search across all 36 connected business data sources.
+CorpusIQ provides natural language search across all 40+ connected business data sources.
 
 ## Search Capabilities
 
