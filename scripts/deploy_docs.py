@@ -25,20 +25,29 @@ def _ensure_mkdocs_on_path():
     no mkdocs, so step 3 dies with "No module named mkdocs" whenever this script
     is invoked directly instead of through deploy_docs_deploy.py. The script also
     re-execs itself as bare `python3` after pulling main, so re-execing with a
-    different interpreter does not survive that hop — PATH is the durable fix.
+    different interpreter does not survive that hop - PATH is the durable fix.
+
+    The 2026-11-08 recurrence this rewrite fixes: the old guard returned early
+    whenever the CURRENT interpreter could import mkdocs, which is exactly the
+    case when the script is started as /usr/bin/python3 while PATH still
+    resolves `python3` to the agent venv. Step 3 shells out to bare `python3`,
+    so the subprocess was the interpreter WITHOUT mkdocs and the build died
+    with "No module named mkdocs" after the guard had reported success. The
+    test now runs against the PATH-resolved python3, because that is the
+    interpreter every subprocess will get.
     """
-    try:
-        import mkdocs  # noqa: F401
-        return
-    except Exception:
-        pass
     sys_py = "/usr/bin/python3"
     if not os.path.exists(sys_py):
         return
     if subprocess.run([sys_py, "-c", "import mkdocs"], capture_output=True).returncode != 0:
         return
+    probe = subprocess.run(["/bin/sh", "-c", "command -v python3"],
+                           capture_output=True, text=True)
+    resolved = (probe.stdout or "").strip()
+    if resolved and os.path.realpath(resolved) == os.path.realpath(sys_py):
+        return
     parts = [p for p in os.environ.get("PATH", "").split(os.pathsep) if p]
-    keep = [p for p in parts if os.path.realpath(os.path.join(p, "python3")) != os.path.realpath(sys.executable)] if parts else []
+    keep = [p for p in parts if os.path.realpath(os.path.join(p, "python3")) != os.path.realpath(sys_py)] if parts else []
     os.environ["PATH"] = os.pathsep.join(["/usr/bin", "/usr/local/bin", "/home/hermes/.local/bin"] + keep)
 
 
