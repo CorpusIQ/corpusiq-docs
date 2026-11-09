@@ -44,6 +44,20 @@ npx skills add https://github.com/openmontageinc/openmontage --skill svg-charact
 
 The documented command names one skill explicitly, so substitute the skill you want from the table below. Be clear about what that buys: the skill text describes how to use a tool, while the tool itself lives in `tools/`, the orchestration lives in `pipeline_defs/`, and the state and checkpoint code lives in `lib/`. A standalone skill install teaches an agent the conventions and leaves it without the production machinery, which is why the clone route is the one that ends in a rendered file.
 
+To take the whole instruction layer without the application, copy the skill folders into a Hermes profile. The tree carries 92 of them under `.agents/skills/`, and this loop skips any folder that already exists:
+
+```bash
+git clone --depth 1 https://github.com/openmontageinc/openmontage.git /tmp/openmontage
+mkdir -p ~/.hermes/profiles/corpusiq/skills
+for skill in /tmp/openmontage/.agents/skills/*; do
+  [ -f "$skill/SKILL.md" ] || continue
+  destination="$HOME/.hermes/profiles/corpusiq/skills/$(basename "$skill")"
+  [ -e "$destination" ] || cp -R "$skill" "$destination"
+done
+```
+
+That route carries the instructions and not the engine: `tools/`, `pipeline_defs/`, `lib/` and `schemas/` stay in the clone, so a skill copied this way tells an agent how the step should be done without giving it the code that does it.
+
 API keys are optional and go in `.env`. The README states that every key is optional and that `make setup` produces a working zero-key path: Piper for offline narration, Archive.org, NASA and Wikimedia Commons for open footage, Pexels, Unsplash and Pixabay for free stock, Remotion and HyperFrames for composition, and FFmpeg for post-production. Keys such as `FAL_KEY`, `ELEVENLABS_API_KEY`, `HEYGEN_API_KEY`, `RUNWAY_API_KEY` and `PEXELS_API_KEY` widen the provider pool rather than unlocking the system.
 
 ## What It Provides

@@ -100,6 +100,20 @@ jobs:
           python -m unittest scripts/test_check_sweep_index_links.py
           python scripts/check_sweep_index_links.py
 
+      # A repository rename creates a second guide for one project and nothing
+      # noticed. calesthio/openmontage became openmontageinc/openmontage in
+      # early November; the Nov 9 sweep saw the new owner as a fresh cluster and
+      # published a second guide while the Nov 3 page - stale owner, stale star
+      # count, stale install figure - stayed live and self-canonical. URL
+      # collision checks cannot see it because the two pages publish to two
+      # URLs. scripts/check_catalog_source_dupes.py reads the recorded rename
+      # map in scripts/catalog_source_aliases.json and fails any guide that
+      # still cites a retired publisher identity.
+      - name: Validate no catalog guide cites a retired publisher identity
+        run: |
+          python -m unittest scripts/test_check_catalog_source_dupes.py
+          python scripts/check_catalog_source_dupes.py
+
       # A `---` with no blank line above it is a setext heading underline, not a
       # horizontal rule, so the sentence above it renders as an H2. Measured on
       # production 2026-11-07: /docs/hermes/prompts published its credit line as

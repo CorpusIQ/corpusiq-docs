@@ -3232,6 +3232,11 @@
       "source": "/docs/windsor-ai-alternative",
       "destination": "/docs/connectors/windsor-ai-alternative",
       "statusCode": 301
+    },
+    {
+      "source": "/hermes/skills/catalog/openmontage-setup",
+      "destination": "/hermes/skills/catalog/openmontage-video-skills-setup",
+      "statusCode": 301
     }
   ],
   "outputDirectory": "."
