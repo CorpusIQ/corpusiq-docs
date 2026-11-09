@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Discovery - November 9, 2026 (Midday)"
-description: "Midday sweep at a seven-hour gap: the canonical moved one slug rename, the feed carried seven cards, and two connectors are catalogued."
+description: "Midday sweep at a seven-hour gap: the canonical moved one slug rename, the feed carried seven cards, and two connectors are catalogued"
 category: MCP Ecosystem
 added: 2026-11-09
 last_updated: 2026-11-09
@@ -74,7 +74,11 @@ The queue carried **#6986** to **#7014**, twenty-nine numbers with no gaps, ever
 
 ## Core listing check, measured
 
-The fresh canonical carries `/servers/corpusiq-io` and `/servers/corpusiq/corpusiq-docs`. mcpservers.org `/all` answered **403** by edge policy, the standing condition rather than a delisting. All four direct mcp.so slugs answered **404** (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`), so that listing remains absent. Both Glama routes still answer **301** to their query pages, the routing change recorded on November 8. The Smithery registry query returned an empty set on this pass, which is a query-surface result rather than a delisting read, and the standing rule applies: never conclude absence from a search echo.
+The fresh canonical carries `/servers/corpusiq-io` and `/servers/corpusiq/corpusiq-docs`. mcpservers.org `/all` answered **403** by edge policy, the standing condition rather than a delisting. All four direct mcp.so slugs answered **404** (`corpusiq`, `corpusiq-io`, `corpusiq-mcp`, `io.corpusiq`), so that listing remains absent. Both Glama routes answer **301** to their query pages, the routing change recorded on November 8, and this pass read the destination instead of stopping at the redirect. The query page returns the CorpusIQ record as position one, with the organisation icon, the `author:official` tag, the registry id `io.corpusiq/multi-source-mcp` and a green responding marker, and the record itself at `https://glama.ai/mcp/servers/CorpusIQ/corpusiq-docs` answers **200** with `mcp2.corpusiq.io` on the page. The Glama listing is therefore live and measured as responding, not merely routed. The Smithery registry query returned an empty set on this pass, which is a query-surface result rather than a delisting read, and the standing rule applies: never conclude absence from a search echo.
+
+## Directory surfaces found this pass
+
+Two surfaces that are not in the tracked directory set turned up while checking, and both were read rather than assumed. **MCP Skills Hub** (`mcp-skills-hub.vercel.app`) publishes **509** MCP servers generated from public registries with copy-paste client setup; its `/api/mcps` payload carries no CorpusIQ record, so a request naming the official registry entry was filed at `neeelbhavsar/mcp-skills-hub#20`. **clauderules.net** lists MCP servers behind a free account created with GitHub or Google, so it is parked on the account rule rather than submitted. Two others already carry open CorpusIQ submissions and were left alone: `numbpill3d/mcp-radar` and `Sagargupta16/awesome-mcp-servers`, the second of which enforces format with CI and merges only once the author has starred the repository.
 
 ## Frequently asked questions
 
