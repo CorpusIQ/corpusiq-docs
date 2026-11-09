@@ -4,7 +4,7 @@ description: "CorpusIQ security model: read-only OAuth access on every connector
 canonical: "/hermes/security/"
 robots: "index, follow"
 tags: [security, read-only, privacy, no-storage, oauth, governance]
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 ---
 
 # Security and Read-Only Access
@@ -14,6 +14,12 @@ CorpusIQ is built on one rule: it reads, and it never acts.
 Every connector uses read-only OAuth. CorpusIQ can retrieve data from
 your connected business tools, but it cannot write to them, modify them,
 or execute anything inside them.
+
+One boundary worth stating precisely: external retrieval is read-only,
+and configuration controls can write scoped platform state. Enabling or
+disabling a connector, or re-authorizing one, changes a setting inside
+your CorpusIQ account. It never changes a record in Shopify, Stripe,
+QuickBooks, or any other connected system.
 
 ## Pages
 
