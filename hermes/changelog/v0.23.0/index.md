@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.23.0 Patch Release
-description: Hermes Agent v0.23.0 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.23.0 Patch Release"
+description: "Hermes Agent v0.23.0 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.23.0/"
 robots: "index,follow"
 last_updated: "2026-11-06"
@@ -344,7 +344,7 @@ November 5, 2026
 
 ---
 
-*← [v0.22.7 - Patch Release](/hermes/changelog/v0.22.7) | [Changelog Home](/hermes/changelog) →*
+*← [v0.22.7 - Patch Release](/hermes/changelog/v0.22.7) | [v0.23.1 - Patch Release](/hermes/changelog/v0.23.1) →*
 
 *↑ [Changelog Home](/hermes/changelog)*
 
