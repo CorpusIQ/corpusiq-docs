@@ -1,9 +1,9 @@
 ---
 title: "MCP '26 - The Stateless Protocol Migration Guide"
-description: "July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist, breaking changes, and what it means for servers and gateways."
+description: "July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist"
 category: "MCP"
 tags: ["mcp", "model context protocol", "stateless mcp", "mcp migration", "session id", "refresh token"]
-last_updated: "2026-11-01"
+last_updated: "2026-11-10"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration/"
 robots: "index,follow"
 ---
@@ -20,9 +20,11 @@ On **July 28, 2026**, MCP shipped the largest spec revision since launch. The he
 | Capabilities | Negotiated once at initialize | Client capabilities travel in `_meta` on every request; servers expose theirs via new `server/discover` |
 | Refresh tokens | Spec silent; clients behaved inconsistently | Spec now carries OAuth/OIDC refresh token guidance explicitly |
 | Extensions | Undefined; developers stuffed custom behavior in `meta` | Formalized: official / experimental / unofficial tracks, reverse-DNS identifiers |
-| Tasks | Experimental core feature | Moved out of core into an extension |
-| Deprecated | - | `roots`, `sampling`, `logging` slated for deprecation |
-| Elicitation | Server could send at any time | Only in response to a client request, with new constraints |
+| Tasks | Experimental core feature | Moved out of core into an official extension (`io.modelcontextprotocol/tasks`) |
+| Removed methods | `ping`, `logging/setLevel`, `notifications/roots/list_changed` all live | Gone. Log level is set per request via `io.modelcontextprotocol/logLevel` in `_meta` |
+| Subscriptions | HTTP GET stream plus `resources/subscribe` / `resources/unsubscribe` | One long-lived `subscriptions/listen` POST-response stream, opted in per notification type |
+| Discovery | Capabilities known only after `initialize` | `server/discover` is a must-implement RPC advertising supported versions, capabilities, and identity |
+| Elicitation | Server could send a request at any time | Only as an embedded input request inside an `InputRequiredResult` (Multi Round-Trip Requests) |
 
 ## Why Stateless
 
@@ -36,7 +38,7 @@ The short-term cost is fragmentation: a client built for 2025-11-25 cannot talk 
 
 2. **Augment or rewrite.** Either extend your server to speak both protocols or run two implementations side by side. Keep the old code path for the dual-stack era.
 
-3. **Inventory deprecated features.** If you use `roots`, `sampling`, or `logging`, plan a path off them. If you use elicitation, check the new constraints (request-response only).
+3. **Inventory removed features.** `ping`, `logging/setLevel`, and `notifications/roots/list_changed` are gone, and so are the HTTP GET stream and `resources/subscribe`. If you use `roots`, `sampling`, or elicitation, they now arrive as input requests inside an `InputRequiredResult`; nothing can be pushed at the client unprompted.
 
 4. **Implement the new protocol.** On an official SDK this is close to free - upgrade the SDK. The real work: anything that depended on the session ID (analytics, routing, per-user state) needs a new mechanism.
 
@@ -48,8 +50,9 @@ The short-term cost is fragmentation: a client built for 2025-11-25 cannot talk 
 
 ## What Breaks Day One
 
-- Long-running work: servers no longer push updates on their own. The server returns a handle; the client polls it - closer to REST. Polling logic moves to the client.
+- Long-running work: servers no longer push updates on their own. The server returns a handle; the client polls it (`tasks/get`) - closer to REST. Polling logic moves to the client.
 - Analytics that leaned on the session ID to identify clients must read client identity from per-request fields instead.
+- Old transport habits: an HTTP GET or DELETE to the MCP endpoint now gets `405 Method Not Allowed`, a stray `Mcp-Session-Id` header is ignored rather than echoed, and `Last-Event-ID` resumption is gone - streams do not resume.
 
 ## Refresh Token Rules (New)
 
@@ -61,4 +64,4 @@ Extensions now ship on their own cadence with their own breaking changes - a cli
 
 ## Source
 
-Arcade.dev, "The Complete Guide To MCP '26" - explainers by Nate Barbettini, Wils Dawson, Eric Gustin, Sterling Dreyer. 10,000+ tracked MCP servers, 97M+ monthly SDK downloads cited.
+Primary: the MCP specification's own [Key Changes for 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28/changelog) and the [Streamable HTTP transport page](https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/streamable-http). Secondary: Arcade.dev, "The Complete Guide To MCP '26" - explainers by Nate Barbettini, Wils Dawson, Eric Gustin, Sterling Dreyer. 10,000+ tracked MCP servers, 97M+ monthly SDK downloads cited.

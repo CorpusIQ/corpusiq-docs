@@ -3,7 +3,7 @@ title: "Slack + GitHub Integration for Hermes Agent"
 description: "Connect Slack and GitHub to Hermes Agent for automated PR notifications, issue triage, deployment status alerts, and daily standup digests. MCP server"
 category: integrations
 tags: [hermes-agent, integration, slack, github, pr-notifications, issue-tracking, deployment, devops, webhooks]
-last_updated: 2026-11-08
+last_updated: 2026-11-10
 canonical: "https://www.corpusiq.io/docs/hermes/integrations/slack-github/"
 robots: "index,follow"
 

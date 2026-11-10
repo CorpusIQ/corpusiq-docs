@@ -1,9 +1,9 @@
 ---
-title: DSpark Speculative Decoding on DGX Spark
-description: "DSpark speculative decoding for DeepSeek-class models on DGX Spark hardware - a verified two-node vLLM recipe with 1M context and nvfp4 KV."
+title: "DSpark Speculative Decoding on DGX Spark"
+description: "DSpark speculative decoding for DeepSeek-class models on DGX Spark hardware - a verified two-node vLLM recipe with 1M context and nvfp4 KV"
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/dgx/dspark-speculative-decoding/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-10"
 tags: ["hermes agent", "dspark", "speculative decoding", "dgx spark", "vllm", "inference"]
 ---
 
@@ -41,7 +41,7 @@ The community reference implementation is
 | Decoding | DSpark speculative decoding |
 | Context ceiling | 1M tokens |
 | KV cache | `nvfp4_ds_mla` |
-| Runtime | Anemll DSpark vLLM image, pinned tag |
+| Runtime | `ghcr.io/anemll/dspark-vllm-gx10:0.1.1` (Anemll DSpark vLLM image, pinned tag) |
 | Interconnect | RoCE / NCCL over ConnectX |
 
 Both nodes require the same runtime image. The `prepare` step copies the

@@ -3,7 +3,7 @@ title: "Hermes Agent Integration Examples"
 description: "Practical Hermes Agent integration guides connecting Slack, GitHub, email, calendar, CRM, analytics, databases, and reporting tools. MCP server setup"
 category: integrations
 tags: [hermes-agent, integrations, slack, github, email, calendar, crm, analytics, database, mcp-server, automation]
-last_updated: 2026-11-08
+last_updated: 2026-11-10
 canonical: "https://www.corpusiq.io/docs/hermes/integrations/"
 robots: "index,follow"
 
