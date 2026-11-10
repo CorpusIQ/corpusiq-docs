@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized.">
+        <meta name="description" content="July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="MCP '26 - The Stateless Protocol Migration Guide">
-  <meta property="og:description" content="July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized.">
+  <meta property="og:description" content="July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="MCP '26 - The Stateless Protocol Migration Guide">
-  <meta name="twitter:description" content="July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized.">
+  <meta name="twitter:description" content="July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,11 +108,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "MCP \u002726 - The Stateless Protocol Migration Guide",
-    "description": "July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized.",
+    "description": "July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-10",
+    "dateModified": "2026-11-10",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-10">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -158,7 +158,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "MCP '26 Stateless Migration", "url": "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration", "image": "https://www.corpusiq.io/og?title=MCP%20%2726%20Stateless%20Migration&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "MCP '26 Stateless Migration", "url": "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration", "image": "https://www.corpusiq.io/og?title=MCP%20%2726%20Stateless%20Migration&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration"}, "datePublished": "2026-11-01", "dateModified": "2026-11-10", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "July 28, 2026 MCP spec revision: stateless protocol, session IDs removed, refresh token rules clarified, extensions formalized. Migration checklist", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "MCP", "item": "https://www.corpusiq.io/docs/hermes/mcp"}, {"@type": "ListItem", "position": 4, "name": "Spec", "item": "https://www.corpusiq.io/docs/hermes/mcp/spec"}, {"@type": "ListItem", "position": 5, "name": "MCP '26 Stateless Migration", "item": "https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration"}]}</script>
 </head>
   
@@ -12616,17 +12616,27 @@
 <tr>
 <td>Tasks</td>
 <td>Experimental core feature</td>
-<td>Moved out of core into an extension</td>
+<td>Moved out of core into an official extension (<code>io.modelcontextprotocol/tasks</code>)</td>
 </tr>
 <tr>
-<td>Deprecated</td>
-<td>-</td>
-<td><code>roots</code>, <code>sampling</code>, <code>logging</code> slated for deprecation</td>
+<td>Removed methods</td>
+<td><code>ping</code>, <code>logging/setLevel</code>, <code>notifications/roots/list_changed</code> all live</td>
+<td>Gone. Log level is set per request via <code>io.modelcontextprotocol/logLevel</code> in <code>_meta</code></td>
+</tr>
+<tr>
+<td>Subscriptions</td>
+<td>HTTP GET stream plus <code>resources/subscribe</code> / <code>resources/unsubscribe</code></td>
+<td>One long-lived <code>subscriptions/listen</code> POST-response stream, opted in per notification type</td>
+</tr>
+<tr>
+<td>Discovery</td>
+<td>Capabilities known only after <code>initialize</code></td>
+<td><code>server/discover</code> is a must-implement RPC advertising supported versions, capabilities, and identity</td>
 </tr>
 <tr>
 <td>Elicitation</td>
-<td>Server could send at any time</td>
-<td>Only in response to a client request, with new constraints</td>
+<td>Server could send a request at any time</td>
+<td>Only as an embedded input request inside an <code>InputRequiredResult</code> (Multi Round-Trip Requests)</td>
 </tr>
 </tbody>
 </table>
@@ -12642,7 +12652,7 @@
 <p><strong>Augment or rewrite.</strong> Either extend your server to speak both protocols or run two implementations side by side. Keep the old code path for the dual-stack era.</p>
 </li>
 <li>
-<p><strong>Inventory deprecated features.</strong> If you use <code>roots</code>, <code>sampling</code>, or <code>logging</code>, plan a path off them. If you use elicitation, check the new constraints (request-response only).</p>
+<p><strong>Inventory removed features.</strong> <code>ping</code>, <code>logging/setLevel</code>, and <code>notifications/roots/list_changed</code> are gone, and so are the HTTP GET stream and <code>resources/subscribe</code>. If you use <code>roots</code>, <code>sampling</code>, or elicitation, they now arrive as input requests inside an <code>InputRequiredResult</code>; nothing can be pushed at the client unprompted.</p>
 </li>
 <li>
 <p><strong>Implement the new protocol.</strong> On an official SDK this is close to free - upgrade the SDK. The real work: anything that depended on the session ID (analytics, routing, per-user state) needs a new mechanism.</p>
@@ -12659,15 +12669,16 @@
 </ol>
 <h2 id="what-breaks-day-one">What Breaks Day One<a class="headerlink" href="#what-breaks-day-one" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Long-running work: servers no longer push updates on their own. The server returns a handle; the client polls it - closer to REST. Polling logic moves to the client.</li>
+<li>Long-running work: servers no longer push updates on their own. The server returns a handle; the client polls it (<code>tasks/get</code>) - closer to REST. Polling logic moves to the client.</li>
 <li>Analytics that leaned on the session ID to identify clients must read client identity from per-request fields instead.</li>
+<li>Old transport habits: an HTTP GET or DELETE to the MCP endpoint now gets <code>405 Method Not Allowed</code>, a stray <code>Mcp-Session-Id</code> header is ignored rather than echoed, and <code>Last-Event-ID</code> resumption is gone - streams do not resume.</li>
 </ul>
 <h2 id="refresh-token-rules-new">Refresh Token Rules (New)<a class="headerlink" href="#refresh-token-rules-new" title="Anchor link to this section">&para;</a></h2>
 <p>MCP now writes down what OAuth and OpenID Connect already documented: clients should request refresh tokens, store them, and rotate access tokens silently instead of re-prompting users. The gap showed up in production: demos work, then the next morning the refresh path breaks. The clarification makes authentication behavior consistent across clients, servers, and coding agents that generate implementations.</p>
 <h2 id="fragmentation-reality">Fragmentation Reality<a class="headerlink" href="#fragmentation-reality" title="Anchor link to this section">&para;</a></h2>
 <p>Extensions now ship on their own cadence with their own breaking changes - a client and server can disagree on extension versions independently of the core protocol. Expect a growing support matrix: "if the client supports extension X version 3, do this; if not, do that." Something in your stack has to manage graceful degradation; the protocol will not.</p>
 <h2 id="source">Source<a class="headerlink" href="#source" title="Anchor link to this section">&para;</a></h2>
-<p>Arcade.dev, "The Complete Guide To MCP '26" - explainers by Nate Barbettini, Wils Dawson, Eric Gustin, Sterling Dreyer. 10,000+ tracked MCP servers, 97M+ monthly SDK downloads cited.</p>
+<p>Primary: the MCP specification's own <a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog">Key Changes for 2026-07-28</a> and the <a href="https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/streamable-http">Streamable HTTP transport page</a>. Secondary: Arcade.dev, "The Complete Guide To MCP '26" - explainers by Nate Barbettini, Wils Dawson, Eric Gustin, Sterling Dreyer. 10,000+ tracked MCP servers, 97M+ monthly SDK downloads cited.</p>
 
 
 
