@@ -1,18 +1,18 @@
 ---
 title: Hermes Ecosystem - Complete Resource Directory
-description: The definitive directory of Hermes Agent resources - 451+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+description: The definitive directory of Hermes Agent resources - 452+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
-last_updated: "2026-11-08"
+last_updated: "2026-11-10"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
 
 # Hermes Ecosystem - Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 451+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 452+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research - all organized and cross-referenced.
 
-> **Last updated:** November 8, 2026 · **Repos indexed:** 451+ · **Categories:** 18
+> **Last updated:** November 10, 2026 · **Repos indexed:** 452+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -27,7 +27,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 451+ re
 | [Community & Awesome Lists](#community-awesome-lists) | 31 | [↓](#community-awesome-lists) |
 | [UI & Dashboards](#ui-dashboards) | 26 | [↓](#ui-dashboards) |
 | [Memory & Knowledge](#memory-knowledge) | 35 | [↓](#memory-knowledge) |
-| [MCP & Integrations](#mcp-integrations) | 50 | [↓](#mcp-integrations) |
+| [MCP & Integrations](#mcp-integrations) | 51 | [↓](#mcp-integrations) |
 | [Skills & Plugins](#skills-plugins) | 105 | [↓](#skills-plugins) |
 | [Tools & Utilities](#tools-utilities) | 61 | [↓](#tools-utilities) |
 | [Detection & Media Forensics](#detection-media-forensics) | 1 | [↓](#detection-media-forensics) |
@@ -454,7 +454,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 1,700+ pages, 451+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 1,700+ pages, 452+ repos indexed, 1,137+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture) · [Knowledge →](/hermes/knowledge) · [Crons →](/hermes/governance/scheduling) · [MCP →](/hermes/mcp)
 
@@ -1190,6 +1190,16 @@ Open-source MCP server for 3D printing: AI agents (ChatGPT, Claude, Codex, Curso
 ⭐ **185** · `TypeScript` · [github.com/sandbaseai/cli](https://github.com/sandbaseai/cli)
 
 Open-source AI CLI and local MCP server connecting 25 clients (Claude Code, Cursor, Codex, ChatGPT, Hermes, OpenClaw) to 2,000+ models and APIs, with OAuth and rollback.
+
+---
+
+### EternalNight996/memory-eternal
+⭐ **159** · `JavaScript` · [github.com/EternalNight996/memory-eternal](https://github.com/EternalNight996/memory-eternal)
+
+Your AI forgets every session. Give it a memory you can audit: local-first, review-gated agent memory - one SQLite vault for DSH, Claude Code, Codex, Cursor, OpenClaw, Hermes and MengBot (any MCP client), with an immutable audit log and a token ledger. Agents propose, humans approve. MIT, self-hosted, no cloud.
+
+**Key capabilities:** agent-memory, ai-memory, audit-log, claude-code, codex, cursor, deepseek-harness, dsh
+**Related:** [MCP Ecosystem →](/hermes/mcp-ecosystem)
 
 ---
 
@@ -4600,7 +4610,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **451+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence - **452+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
