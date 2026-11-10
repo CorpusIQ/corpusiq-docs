@@ -1,9 +1,9 @@
 ---
 title: "System Monitoring - CorpusIQ Docs"
-description: Health monitoring for autonomous agent deployments. Drift detection, alerting, performance audits, system governance.
+description: "Health monitoring for autonomous agent deployments. Drift detection, alerting, performance audits, system governance"
 canonical: "https://www.corpusiq.io/docs/hermes/governance/monitoring/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-10"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -36,7 +36,7 @@ Layer 3: Quality Health
 
 | Metric | Check | Alert Threshold |
 |--------|-------|-----------------|
-| Cron completion rate | `cronjob list` success/fail ratio | < 95% |
+| Cron completion rate | `hermes cron list` plus `hermes cron runs` success/fail ratio | < 95% |
 | API token validity | Test auth endpoint | Expired or revoked |
 | Disk usage | `df -h` | > 90% |
 | Memory usage | `free -m` | > 90% |

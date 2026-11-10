@@ -3,7 +3,7 @@ title: "Hermes Orchestrator: How the Agent Runs Work"
 description: "How Hermes orchestration works: the execution kernel, tool routing, and production patterns for multi-step and multi-agent work. Configuration included"
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/hermes/"
 robots: "index,follow"
-last_updated: "2026-11-08"
+last_updated: "2026-11-10"
 tags: ["hermes orchestration", "multi-agent", "agent workflow"]
 
 ---

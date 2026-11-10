@@ -3,7 +3,7 @@ title: "Financial Close Blueprint for Hermes Agent"
 description: "Monthly financial close automation blueprint for Hermes Agent. Data pull, account reconciliation, variance analysis, reporting, and forecasting"
 category: blueprints
 tags: [hermes-agent, blueprint, financial-close, reconciliation, accounting, quickbooks, stripe, monthly-reporting]
-last_updated: 2026-11-08
+last_updated: 2026-11-10
 canonical: "https://www.corpusiq.io/docs/hermes/blueprints/financial-close/"
 robots: "index,follow"
 

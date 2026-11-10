@@ -1,9 +1,9 @@
 ---
-title: MCP Directory Submission Guide - Where to List a Server
-description: "Field-tested walkthrough of every major MCP directory: free vs paid, form vs GitHub, sign-in requirements, and what actually works. Updated August 2026 from real submissions."
+title: "MCP Directory Submission Guide - Where to List a Server"
+description: "Field-tested walkthrough of every major MCP directory: free vs paid, form vs GitHub, sign-in requirements, and what actually works. Updated August"
 category: "MCP"
 tags: ["mcp", "directory", "submission", "listing", "discovery", "registry", "marketing"]
-last_updated: "2026-11-01"
+last_updated: "2026-11-10"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/directories/submission-guide-2026/"
 robots: "index,follow"
 ---
@@ -44,7 +44,7 @@ Directories that mirror the official registry include mcpservers.org and several
 |-----------|------|-------|
 | MCP.so | $39 one-time | Publish immediately, verified badge, featured placement, dofollow link. No free path on the submission page |
 | Whatsthebigdata | Free with badge, else $599+ | Add their badge to your homepage footer for a free listing |
-| PulseMCP | Paused (Aug 2026) | Submissions temporarily closed while they overhaul their pipeline. They auto-pull from the official registry |
+| PulseMCP | Paused | Submissions and listing changes are closed while they overhaul the pipeline; their submit page has carried the pause notice since September 3, 2026. They auto-pull from the official registry, so publish there first |
 
 ## What makes a listing stick
 
@@ -60,6 +60,10 @@ Directories that mirror the official registry include mcpservers.org and several
 - The official registry search API paginates alphabetically and ignores query parameters - verify listing by pulling the server entry directly rather than searching.
 - Claude's built-in connector directory (claude.ai) is separate from the public MCP registry and has its own compliance review. Being in both is the strongest possible placement.
 - Track every submission in a log with the email or issue URL used. Directory coverage decays silently; a quarterly re-check is cheap.
+
+## Status re-check
+
+Tier 4 pricing and availability re-checked on November 10, 2026: MCP.so still lists a $39 one-time paid submission with no free path on the page, and PulseMCP's submit page still carries the pause notice (dated September 3, 2026) with a pointer to publish to the Official MCP Registry first.
 
 ## Source
 

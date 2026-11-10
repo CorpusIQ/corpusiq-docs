@@ -1,7 +1,7 @@
 ---
-title: Stateless MCP - What the July 2026 Spec Means
-description: "Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory."
-last_updated: 2026-11-01
+title: "Stateless MCP - What the July 2026 Spec Means"
+description: "Setup and usage guide for Stateless MCP - What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory"
+last_updated: 2026-11-10
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/stateless-mcp-july-2026/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -16,11 +16,11 @@ This matters for business operators because it removes the single biggest barrie
 
 ## The Old Way (Pre-July 2026)
 
-MCP required a persistent WebSocket or SSE connection. The server had to maintain session state. If the connection dropped, the session was lost. This meant:
+Under the 2025-11-25 revision, Streamable HTTP carried a protocol-level session: the server minted a session ID in the `Mcp-Session-Id` header, the client could open a standalone SSE stream with an HTTP GET, servers could send JSON-RPC requests on that stream, and streams were resumable with `Last-Event-ID`. A dropped connection cost you the session. That meant:
 
-- Servers needed to be always-on, stateful processes
+- A session belonged to one server instance, so replicas needed a shared session store or sticky routing
 - Load balancing was difficult (sticky sessions required)
-- Scaling meant managing connection pools
+- Scaling meant managing session stores and open streams
 - Every new connector added connection overhead
 
 ## The New Way (Post-July 2026)
@@ -37,10 +37,14 @@ Accept: application/json, text/event-stream
 
 {"jsonrpc":"2.0","id":1,"method":"tools/call",
  "params":{"name":"search","arguments":{"q":"current revenue"},
- "_meta":{"io.modelcontextprotocol/clientInfo":{"name":"my-app","version":"1.0"}}}}
+ "_meta":{"io.modelcontextprotocol/protocolVersion":"2026-07-28",
+          "io.modelcontextprotocol/clientInfo":{"name":"my-app","version":"1.0"},
+          "io.modelcontextprotocol/clientCapabilities":{}}}}
 ```
 
-Clients that want to know what a server supports before calling it can make an optional `server/discover` call instead of handshaking.
+The body is the source of truth: the protocol version and client capabilities travel in `_meta` on every request. Streamable HTTP additionally mirrors selected fields into the three headers above (`MCP-Protocol-Version`, `Mcp-Method`, `Mcp-Name`) so proxies can route without parsing the body, and a server rejects a request whose header and body disagree.
+
+Servers **must** implement `server/discover`, which advertises supported protocol versions, capabilities, and identity. Clients may call it first for up-front version selection instead of handshaking.
 
 This is the same pattern REST APIs have used for decades. Any HTTP server can serve MCP. Any load balancer can distribute requests. Any CDN can cache where appropriate.
 

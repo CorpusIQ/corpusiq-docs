@@ -3,7 +3,7 @@ title: "AI Agent Marketplace - Personality + Data, One Stack"
 description: "The complete AI agent stack. 283 specialized agents from agency-agents meet 40+ live business connectors from CorpusIQ. Personalities that write"
 canonical: "https://www.corpusiq.io/docs/hermes/ai-agent-marketplace/"
 robots: "index,follow"
-last_updated: "2026-11-08"
+last_updated: "2026-11-10"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---

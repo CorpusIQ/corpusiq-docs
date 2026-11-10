@@ -3,7 +3,7 @@ title: "Database + Reporting Integration for Hermes Agent"
 description: "Connect databases (PostgreSQL, MySQL, SQL Server, MongoDB) to Hermes Agent for automated reporting. Scheduled queries, dashboard generation, anomaly"
 category: integrations
 tags: [hermes-agent, integration, database, reporting, postgresql, mysql, mongodb, dashboards, anomaly-detection, cron]
-last_updated: 2026-11-08
+last_updated: 2026-11-10
 canonical: "https://www.corpusiq.io/docs/hermes/integrations/database-reporting/"
 robots: "index,follow"
 

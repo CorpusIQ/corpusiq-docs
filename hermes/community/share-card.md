@@ -3,7 +3,7 @@ title: "Community Share Card - CorpusIQ Docs"
 description: "Share card template for promoting Hermes across social media. Standardized visual template for showcasing agents, skills, and MCP servers on X, LinkedIn"
 canonical: "https://www.corpusiq.io/docs/hermes/community/share-card/"
 robots: "index,follow"
-last_updated: "2026-11-08"
+last_updated: "2026-11-10"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
