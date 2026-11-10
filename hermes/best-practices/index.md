@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Best Practices Guide"
-description: Hermes Agent best practices for production AI automation. Anti-patterns, maturity model, cron design, model selection, memory management, security, skill development, and MCP server design. Community-driven reliability patterns.
+description: "Hermes Agent best practices for production AI automation. Anti-patterns, maturity model, cron design, model selection, memory management, security, skill"
 category: best-practices
 tags: [hermes-agent, best-practices, ai-automation, maturity-model, anti-patterns, production, reliability]
 last_updated: 2026-11-08
@@ -137,7 +137,7 @@ Follow [cron design best practices](cron-design): make every cron idempotent, im
 Start where you are, automate what hurts most, and share what you learn. The rest follows.
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

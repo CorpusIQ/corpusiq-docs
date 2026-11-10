@@ -1,6 +1,6 @@
 ---
 title: "System Registry - CorpusIQ Docs"
-description: "Preventing duplication and sprawl in autonomous agent systems through component registration. systems, uncontrolled creation leads chaos. The System Regist."
+description: "Preventing duplication and sprawl in autonomous agent systems through component registration. systems, uncontrolled creation leads chaos. The System"
 canonical: "https://www.corpusiq.io/docs/hermes/governance/registry/"
 robots: "index,follow"
 last_updated: "2026-11-08"
@@ -146,7 +146,7 @@ Issues classified by severity. P1 (authentication failure, database corruption) 
 The self-improvement cron at 11 PM analyzes the day's issues and patches skills, updates documentation, and adjusts cron timing to prevent recurrence.
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

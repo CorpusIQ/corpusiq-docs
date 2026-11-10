@@ -1,6 +1,6 @@
 ---
-title: Hermes Ecosystem - Complete Resource Directory
-description: The definitive directory of Hermes Agent resources - 452+ repos, docs, community tools, SDKs, integrations, benchmarks, and research.
+title: "Hermes Ecosystem - Complete Resource Directory"
+description: "The definitive directory of Hermes Agent resources - 452+ repos, docs, community tools, SDKs, integrations, benchmarks, and research"
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 last_updated: "2026-11-10"
@@ -4525,13 +4525,13 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 451 |
+| Total repos indexed | 452 |
 | Categories | 18 |
 | Official Nous Research repos | 6 |
 | Community awesome lists | 31 |
 | UI/Dashboard projects | 26 |
 | Memory systems | 35 |
-| MCP integrations | 50 |
+| MCP integrations | 51 |
 | Skill collections & plugins | 105 |
 | Tools & utilities | 61 |
 | Research/benchmark projects | 12 |
@@ -4602,7 +4602,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 451 repos · 18 categories · 1M+ community stars · 105 skill collections · 50 MCP integrations · 27 domain applications
+> **📊 Ecosystem Stats:** 452 repos · 18 categories · 1M+ community stars · 105 skill collections · 51 MCP integrations · 27 domain applications
 
 ---
 

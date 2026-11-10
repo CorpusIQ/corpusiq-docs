@@ -1,6 +1,6 @@
 ---
 title: "Incident Response Blueprint for Hermes Agent"
-description: SLA-driven Hermes Agent incident response blueprint. Automated detection, triage, severity scoring, remediation coordination, and postmortem generation. Connects monitoring, communication, and issue tracking with time-gated escalation.
+description: "SLA-driven Hermes Agent incident response blueprint. Automated detection, triage, severity scoring, remediation coordination, and postmortem generation"
 category: blueprints
 tags: [hermes-agent, blueprint, incident-response, monitoring, sla, triage, remediation, postmortem, devops]
 last_updated: 2026-11-08
@@ -385,7 +385,7 @@ Schedule regular incident response drills:
 - Add **cost tracking** to incidents - compute the estimated cost of each incident for prioritization
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

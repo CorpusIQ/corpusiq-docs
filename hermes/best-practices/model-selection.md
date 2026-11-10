@@ -1,6 +1,6 @@
 ---
 title: "Model Selection Guide for Hermes Agent"
-description: Hermes Agent model selection best practices. Task-to-model mapping, cost optimization, local vs cloud tradeoffs, fallback chains, and decision tree. Save latency and cost with tiered model routing for every task type.
+description: "Hermes Agent model selection best practices. Task-to-model mapping, cost optimization, local vs cloud tradeoffs, fallback chains, and decision tree. Save"
 category: best-practices
 tags: [hermes-agent, model-selection, ai-models, cost-optimization, ollama, openrouter, local-models, cloud-models]
 last_updated: 2026-11-08
@@ -106,7 +106,7 @@ Frontier models carry the hard work: Claude Sonnet 5.5 (`anthropic/claude-sonnet
 Revisit model choices monthly - model quality and pricing change fast.
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

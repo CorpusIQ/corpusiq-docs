@@ -1,6 +1,6 @@
 ---
 title: "Hermes Support Agent - CorpusIQ Docs"
-description: Deploy an AI customer support agent for ticket triage, knowledge base search, response drafting, SLA monitoring, and trending issue detection. Complete Hermes configuration blueprint.
+description: "Deploy an AI customer support agent for ticket triage, knowledge base search, response drafting, SLA monitoring, and trending issue detection. Complete"
 category: Agents
 tags:
   - support-agent
@@ -141,7 +141,7 @@ The agent clusters tickets with **similar keywords or error messages**. When 3+ 
 - [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

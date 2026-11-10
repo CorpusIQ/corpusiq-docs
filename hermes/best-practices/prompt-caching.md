@@ -1,6 +1,6 @@
 ---
 title: "Prompt Caching for AI Agents: 98% Cache Hit Rate"
-description: How Hermes Agent holds a 96 to 98 percent prompt cache hit rate. The structural rules that produce it, the four events that break it, and the exact queries for measuring cache hit rate on your own deployment.
+description: "How Hermes Agent holds a 96 to 98 percent prompt cache hit rate. The structural rules that produce it, the four events that break it, and the exact"
 category: best-practices
 tags: [hermes-agent, prompt-caching, token-cost, cost-optimization, deepseek, anthropic, context-management, cache-hit-rate]
 last_updated: 2026-11-08
@@ -164,7 +164,7 @@ Two reasons: high-volume daily work runs long sessions on the cheap model, and t
 
 Protect the prefix, not the percentage.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

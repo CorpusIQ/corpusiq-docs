@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Library - CorpusIQ Docs"
-description: "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive."
+description: "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive"
 category: Agents
 tags:
   - agent-library
@@ -119,7 +119,7 @@ Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku 5
 - [Model Selection Best Practices](/hermes/best-practices/model-selection)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

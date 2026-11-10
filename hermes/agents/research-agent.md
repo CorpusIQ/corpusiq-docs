@@ -1,6 +1,6 @@
 ---
 title: "Hermes Research Agent - CorpusIQ Docs"
-description: Deploy an AI research agent for competitor monitoring, market intelligence, academic literature reviews, patent tracking, and news aggregation. Complete Hermes configuration blueprint.
+description: "Deploy an AI research agent for competitor monitoring, market intelligence, academic literature reviews, patent tracking, and news aggregation. Complete"
 category: Agents
 tags:
   - research-agent
@@ -144,7 +144,7 @@ Yes. The **literature review skill** sweeps academic databases (arXiv, Semantic 
 - [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

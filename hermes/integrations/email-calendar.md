@@ -1,6 +1,6 @@
 ---
 title: "Email + Calendar Integration for Hermes Agent"
-description: Connect Gmail, Outlook, Google Calendar, and Outlook Calendar to Hermes Agent. Automate meeting scheduling, follow-up workflows, availability management with MCP servers and cron-driven automation patterns.
+description: "Connect Gmail, Outlook, Google Calendar, and Outlook Calendar to Hermes Agent. Automate meeting scheduling, follow-up workflows, availability management"
 category: integrations
 tags: [hermes-agent, integration, email, calendar, gmail, outlook, meeting-scheduling, follow-up-automation, mcp]
 last_updated: 2026-11-08
@@ -139,7 +139,7 @@ Start with a "dry run" mode that logs proposed actions without executing them. A
 Add CRM integration to log meetings against contacts. Connect Slack to post daily schedule summaries to your direct-message channel. Wire up task management (Notion, Monday, Linear) to create prep tasks for meetings automatically.
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

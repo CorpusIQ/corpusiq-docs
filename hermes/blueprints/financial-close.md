@@ -1,6 +1,6 @@
 ---
 title: "Financial Close Blueprint for Hermes Agent"
-description: Monthly financial close automation blueprint for Hermes Agent. Data pull, account reconciliation, variance analysis, reporting, and forecasting - connected to QuickBooks, Stripe, banking data. Cron-driven with human sign-off gates.
+description: "Monthly financial close automation blueprint for Hermes Agent. Data pull, account reconciliation, variance analysis, reporting, and forecasting"
 category: blueprints
 tags: [hermes-agent, blueprint, financial-close, reconciliation, accounting, quickbooks, stripe, monthly-reporting]
 last_updated: 2026-11-08
@@ -297,7 +297,7 @@ This is essential for audit readiness and debugging why a number changed between
 - Connect to **investor reporting templates** for automatic investor update generation
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

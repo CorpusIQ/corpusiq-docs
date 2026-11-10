@@ -1,6 +1,6 @@
 ---
 title: "Hermes Sales Agent Configuration"
-description: Deploy an autonomous Hermes sales agent for lead qualification, pipeline management, outreach sequences, and daily CRM reporting. Complete configuration blueprint with cron schedules.
+description: "Deploy an autonomous Hermes sales agent for lead qualification, pipeline management, outreach sequences, and daily CRM reporting. Complete configuration"
 category: Agents
 tags:
   - sales-agent
@@ -138,7 +138,7 @@ The [Sales Agent](/hermes/agents/sales-agent) focuses on **pipeline management, 
 - [Canonical Facts - Store Business Definitions](/hermes/governance)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 
