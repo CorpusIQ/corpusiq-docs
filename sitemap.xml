@@ -1826,7 +1826,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external</loc>
-         <lastmod>2026-11-09</lastmod>
+         <lastmod>2026-11-10</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/1clickreport-mcp</loc>
@@ -5985,6 +5985,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/signal-beam-mcp</loc>
+         <lastmod>2026-11-10</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/signal-nodus-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -6123,6 +6127,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/soundgtm-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sourcemedium-mcp</loc>
+         <lastmod>2026-11-10</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sourcey-mcp</loc>
@@ -6958,7 +6966,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps</loc>
-         <lastmod>2026-11-09</lastmod>
+         <lastmod>2026-11-10</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-aug26-2026-afternoon</loc>
@@ -7267,6 +7275,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november1-2026-midday</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november10-2026-night</loc>
+         <lastmod>2026-11-10</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november2-2026-evening</loc>
