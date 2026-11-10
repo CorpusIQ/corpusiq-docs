@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes.">
+        <meta name="description" content="Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/changelog/v0.14.0">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Hermes Agent v0.14.0 Patch Release">
-  <meta property="og:description" content="Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes.">
+  <meta property="og:description" content="Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hermes Agent v0.14.0 Patch Release">
-  <meta name="twitter:description" content="Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes.">
+  <meta name="twitter:description" content="Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,7 +104,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hermes Agent v0.14.0 Patch Release",
-    "description": "Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes.",
+    "description": "Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes",
     "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.14.0",
     
     "datePublished": "2026-11-01",
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Agent v0.14.0 Patch Release", "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.14.0", "image": "https://www.corpusiq.io/og?title=Hermes%20Agent%20v0.14.0%20Patch%20Release&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/changelog/v0.14.0"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Agent v0.14.0 Patch Release", "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.14.0", "image": "https://www.corpusiq.io/og?title=Hermes%20Agent%20v0.14.0%20Patch%20Release&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/changelog/v0.14.0"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent v0.14.0 patch release - release notes, highlights, and security fixes", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Changelog", "item": "https://www.corpusiq.io/docs/hermes/changelog"}, {"@type": "ListItem", "position": 4, "name": "Hermes Agent v0.14.0 Patch Release", "item": "https://www.corpusiq.io/docs/hermes/changelog/v0.14.0"}]}</script>
 </head>
   
@@ -13217,128 +13217,128 @@
 <p><strong>Release Date:</strong> May 16, 2026
 <strong>Since v0.13.0:</strong> 808 commits · 633 merged PRs · 1393 files changed · 165,061 insertions · 545 issues closed (12 P0, 50 P1) · 215 community contributors (including co-authors)</p>
 <blockquote>
-<p>The Foundation Release  -  Hermes installs and runs anywhere, ships with the things you actually want to use, and stops shipping the things you don't. xAI Grok lands as a SuperGrok OAuth provider with grok-4.3 bumped to a 1M context window. A new OpenAI-compatible local proxy turns any OAuth-authed Hermes provider  -  Claude Pro, ChatGPT Pro, SuperGrok  -  into an endpoint that Codex / Aider / Cline / Continue can hit. <code>x_search</code> lands as a first-class X (Twitter) search tool with OAuth-or-API-key auth. The Microsoft Teams stack is wired end-to-end (Graph auth + webhook listener + pipeline runtime + outbound delivery). A debloating wave makes installs dramatically lighter  -  heavyweight backends now lazy-install on first use, the <code>[all]</code> extras drop everything covered by lazy-deps, and a tiered install falls back when a wheel rejects on your platform. <code>pip install hermes-agent</code> works from PyPI. The cold-start wave shaves ~19 seconds off <code>hermes</code> launch. Browser CDP calls are 180x faster. Two new messaging platforms (LINE + SimpleX Chat) bring the total to 22. Cross-session 1-hour Claude prompt caching, <code>/handoff</code> that actually transfers sessions live, native button UI for <code>clarify</code> on Telegram and Discord, Discord channel history backfill, LSP semantic diagnostics on every write, a unified pluggable <code>video_generate</code>, a <code>computer_use</code> cua-driver backend that finally works with non-Anthropic providers, clickable URLs in any terminal, Zed ACP Registry integration via <code>uvx</code>, native Windows beta, 9 new optional skills, OpenRouter Pareto Code router, huggingface/skills as a trusted default tap. 12 P0 + 50 P1 closures.</p>
+<p>The Foundation Release - Hermes installs and runs anywhere, ships with the things you actually want to use, and stops shipping the things you don't. xAI Grok lands as a SuperGrok OAuth provider with grok-4.3 bumped to a 1M context window. A new OpenAI-compatible local proxy turns any OAuth-authed Hermes provider - Claude Pro, ChatGPT Pro, SuperGrok - into an endpoint that Codex / Aider / Cline / Continue can hit. <code>x_search</code> lands as a first-class X (Twitter) search tool with OAuth-or-API-key auth. The Microsoft Teams stack is wired end-to-end (Graph auth + webhook listener + pipeline runtime + outbound delivery). A debloating wave makes installs dramatically lighter - heavyweight backends now lazy-install on first use, the <code>[all]</code> extras drop everything covered by lazy-deps, and a tiered install falls back when a wheel rejects on your platform. <code>pip install hermes-agent</code> works from PyPI. The cold-start wave shaves ~19 seconds off <code>hermes</code> launch. Browser CDP calls are 180x faster. Two new messaging platforms (LINE + SimpleX Chat) bring the total to 22. Cross-session 1-hour Claude prompt caching, <code>/handoff</code> that actually transfers sessions live, native button UI for <code>clarify</code> on Telegram and Discord, Discord channel history backfill, LSP semantic diagnostics on every write, a unified pluggable <code>video_generate</code>, a <code>computer_use</code> cua-driver backend that finally works with non-Anthropic providers, clickable URLs in any terminal, Zed ACP Registry integration via <code>uvx</code>, native Windows beta, 9 new optional skills, OpenRouter Pareto Code router, huggingface/skills as a trusted default tap. 12 P0 + 50 P1 closures.</p>
 </blockquote>
 <hr />
 <h2 id="highlights">✨ Highlights<a class="headerlink" href="#highlights" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>
-<p><strong>xAI Grok via SuperGrok OAuth  -  and grok-4.3 jumps to a 1M context window</strong>  -  If you pay for SuperGrok, you can now use Grok inside Hermes by signing in with your xAI account  -  no API key, no separate billing. The wire-through also bumps grok-4.3 to a 1M token context window, so you can drop whole codebases or research corpora into a single prompt. Includes proper handling for entitlement errors and an SSH-to-tunnel docs page for when you're SSH'd into a remote box and need to complete the OAuth flow. (<a href="https://github.com/NousResearch/hermes-agent/pull/26534">#26534</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26664">#26664</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26644">#26644</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26592">#26592</a>)</p>
+<p><strong>xAI Grok via SuperGrok OAuth - and grok-4.3 jumps to a 1M context window</strong> - If you pay for SuperGrok, you can now use Grok inside Hermes by signing in with your xAI account - no API key, no separate billing. The wire-through also bumps grok-4.3 to a 1M token context window, so you can drop whole codebases or research corpora into a single prompt. Includes proper handling for entitlement errors and an SSH-to-tunnel docs page for when you're SSH'd into a remote box and need to complete the OAuth flow. (<a href="https://github.com/NousResearch/hermes-agent/pull/26534">#26534</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26664">#26664</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26644">#26644</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26592">#26592</a>)</p>
 </li>
 <li>
-<p><strong>OpenAI-compatible local proxy for OAuth providers</strong>  -  Run <code>hermes proxy</code> and you get a <code>http://localhost:port</code> endpoint that speaks the OpenAI API but is backed by whichever OAuth provider you're signed into  -  Claude Pro, ChatGPT Pro, SuperGrok. Now any tool that expects an OpenAI-compatible endpoint (Codex CLI, Aider, Cline, Continue, your custom scripts) just works with your existing subscription, no API key required. One subscription, every tool. (<a href="https://github.com/NousResearch/hermes-agent/pull/25969">#25969</a>)</p>
+<p><strong>OpenAI-compatible local proxy for OAuth providers</strong> - Run <code>hermes proxy</code> and you get a <code>http://localhost:port</code> endpoint that speaks the OpenAI API but is backed by whichever OAuth provider you're signed into - Claude Pro, ChatGPT Pro, SuperGrok. Now any tool that expects an OpenAI-compatible endpoint (Codex CLI, Aider, Cline, Continue, your custom scripts) just works with your existing subscription, no API key required. One subscription, every tool. (<a href="https://github.com/NousResearch/hermes-agent/pull/25969">#25969</a>)</p>
 </li>
 <li>
-<p><strong><code>x_search</code>  -  first-class X (Twitter) search tool</strong>  -  The agent can now search X directly without installing a skill or wiring up a custom integration. Search the timeline, find threads, surface specific posts  -  straight from the chat. Auth with either your X OAuth login or an API key, whichever you have. (<a href="https://github.com/NousResearch/hermes-agent/pull/26763">#26763</a>)</p>
+<p><strong><code>x_search</code> - first-class X (Twitter) search tool</strong> - The agent can now search X directly without installing a skill or wiring up a custom integration. Search the timeline, find threads, surface specific posts - straight from the chat. Auth with either your X OAuth login or an API key, whichever you have. (<a href="https://github.com/NousResearch/hermes-agent/pull/26763">#26763</a>)</p>
 </li>
 <li>
-<p><strong>Microsoft Teams  -  end-to-end</strong>  -  Hermes can now read messages from Teams and post back. The full Microsoft Graph stack lands together: auth + client foundation, a webhook listener that receives Teams events, a pipeline plugin runtime, and outbound delivery. Wire up the bot once, then chat to your agent from any Teams channel, DM, or group. (salvages of #21408-#21411) (<a href="https://github.com/NousResearch/hermes-agent/pull/21922">#21922</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/21969">#21969</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22007">#22007</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22024">#22024</a>)</p>
+<p><strong>Microsoft Teams - end-to-end</strong> - Hermes can now read messages from Teams and post back. The full Microsoft Graph stack lands together: auth + client foundation, a webhook listener that receives Teams events, a pipeline plugin runtime, and outbound delivery. Wire up the bot once, then chat to your agent from any Teams channel, DM, or group. (salvages of #21408-#21411) (<a href="https://github.com/NousResearch/hermes-agent/pull/21922">#21922</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/21969">#21969</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22007">#22007</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22024">#22024</a>)</p>
 </li>
 <li>
-<p><strong>Debloating wave  -  lighter installs, less you don't use</strong>  -  A clean <code>pip install hermes-agent</code> used to pull down everything: every messaging adapter SDK, every image-gen SDK, every voice/TTS provider, whether you used them or not. Now those heavy backends (Slack / Matrix / Feishu / DingTalk adapters, hindsight client, codex app-server, Pixverse / Camofox / image-gen SDKs, voice/TTS providers) install automatically the first time you actually use them. The <code>[all]</code> extras drop everything covered by lazy-deps, the installer falls back through tiers when a wheel doesn't fit your platform, and a supply-chain advisory checker scans every install for unsafe versions. Faster installs, smaller disk footprint, fewer transitive vulnerabilities. (<a href="https://github.com/NousResearch/hermes-agent/pull/24220">#24220</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24515">#24515</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25014">#25014</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25038">#25038</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25766">#25766</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/21818">#21818</a>)</p>
+<p><strong>Debloating wave - lighter installs, less you don't use</strong> - A clean <code>pip install hermes-agent</code> used to pull down everything: every messaging adapter SDK, every image-gen SDK, every voice/TTS provider, whether you used them or not. Now those heavy backends (Slack / Matrix / Feishu / DingTalk adapters, hindsight client, codex app-server, Pixverse / Camofox / image-gen SDKs, voice/TTS providers) install automatically the first time you actually use them. The <code>[all]</code> extras drop everything covered by lazy-deps, the installer falls back through tiers when a wheel doesn't fit your platform, and a supply-chain advisory checker scans every install for unsafe versions. Faster installs, smaller disk footprint, fewer transitive vulnerabilities. (<a href="https://github.com/NousResearch/hermes-agent/pull/24220">#24220</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24515">#24515</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25014">#25014</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25038">#25038</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25766">#25766</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/21818">#21818</a>)</p>
 </li>
 <li>
-<p><strong><code>pip install hermes-agent &amp;&amp; hermes</code></strong>  -  Hermes Agent is now a real PyPI package. No more cloning the repo or running shell installers  -  one pip command and you're running. The wheel ships with the Ink TUI bundle and the shell launcher, so the full experience comes out of the box. (salvage of <a href="https://github.com/NousResearch/hermes-agent/pull/26350">#26350</a>) (<a href="https://github.com/NousResearch/hermes-agent/pull/26593">#26593</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26148">#26148</a>)</p>
+<p><strong><code>pip install hermes-agent &amp;&amp; hermes</code></strong> - Hermes Agent is now a real PyPI package. No more cloning the repo or running shell installers - one pip command and you're running. The wheel ships with the Ink TUI bundle and the shell launcher, so the full experience comes out of the box. (salvage of <a href="https://github.com/NousResearch/hermes-agent/pull/26350">#26350</a>) (<a href="https://github.com/NousResearch/hermes-agent/pull/26593">#26593</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26148">#26148</a>)</p>
 </li>
 <li>
-<p><strong>Cross-session 1h Claude prompt cache</strong>  -  When you use Claude through Anthropic, OpenRouter, or Nous Portal, the prompt prefix (system prompt, skills, memory) now caches for an hour across sessions. Start a <code>/new</code> session and the first response comes back faster and cheaper because the cache is still warm from your last session. Background memory review hits the cache too, so it's not paying full price every turn. (<a href="https://github.com/NousResearch/hermes-agent/pull/23828">#23828</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25434">#25434</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24778">#24778</a>)</p>
+<p><strong>Cross-session 1h Claude prompt cache</strong> - When you use Claude through Anthropic, OpenRouter, or Nous Portal, the prompt prefix (system prompt, skills, memory) now caches for an hour across sessions. Start a <code>/new</code> session and the first response comes back faster and cheaper because the cache is still warm from your last session. Background memory review hits the cache too, so it's not paying full price every turn. (<a href="https://github.com/NousResearch/hermes-agent/pull/23828">#23828</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25434">#25434</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24778">#24778</a>)</p>
 </li>
 <li>
-<p><strong>180x faster <code>browser_console</code> evaluations</strong>  -  When the agent uses the browser tool to inspect a page or run JavaScript, those calls now share one persistent connection to Chrome instead of spinning up a new DevTools session every time. The difference is huge: things that used to take a couple of seconds per call return in milliseconds. Real-world page interactions feel instant. (<a href="https://github.com/NousResearch/hermes-agent/pull/23226">#23226</a>)</p>
+<p><strong>180x faster <code>browser_console</code> evaluations</strong> - When the agent uses the browser tool to inspect a page or run JavaScript, those calls now share one persistent connection to Chrome instead of spinning up a new DevTools session every time. The difference is huge: things that used to take a couple of seconds per call return in milliseconds. Real-world page interactions feel instant. (<a href="https://github.com/NousResearch/hermes-agent/pull/23226">#23226</a>)</p>
 </li>
 <li>
-<p><strong>Cold-start performance wave  -  ~19 seconds off <code>hermes</code> launch</strong>  -  Running <code>hermes</code> used to make you wait through a chunk of import overhead and network calls before you saw a prompt. Now the launch path is mostly deferred: heavy adapters only load when you use them, model catalogs come from disk cache first, doctor checks run in parallel, and <code>chat -q</code> skips the welcome banner entirely. The <code>hermes tools</code> All-Platforms screen alone dropped from 14 seconds to under 1.5 seconds. (<a href="https://github.com/NousResearch/hermes-agent/pull/22138">#22138</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22120">#22120</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22681">#22681</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22790">#22790</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22808">#22808</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22831">#22831</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22859">#22859</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22904">#22904</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22766">#22766</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25341">#25341</a>)</p>
+<p><strong>Cold-start performance wave - ~19 seconds off <code>hermes</code> launch</strong> - Running <code>hermes</code> used to make you wait through a chunk of import overhead and network calls before you saw a prompt. Now the launch path is mostly deferred: heavy adapters only load when you use them, model catalogs come from disk cache first, doctor checks run in parallel, and <code>chat -q</code> skips the welcome banner entirely. The <code>hermes tools</code> All-Platforms screen alone dropped from 14 seconds to under 1.5 seconds. (<a href="https://github.com/NousResearch/hermes-agent/pull/22138">#22138</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22120">#22120</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22681">#22681</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22790">#22790</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22808">#22808</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22831">#22831</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22859">#22859</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22904">#22904</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/22766">#22766</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25341">#25341</a>)</p>
 </li>
 <li>
-<p><strong>Two new messaging platforms  -  LINE + SimpleX Chat</strong>  -  LINE is huge in Japan, Korea, and Taiwan, and now Hermes runs natively on the LINE Messaging API. SimpleX Chat is the privacy-focused decentralized messenger with no user IDs  -  also wired up as a first-class platform. That brings Hermes to 22 messaging platforms total, so wherever you and your team chat, the agent can be there. (<a href="https://github.com/NousResearch/hermes-agent/pull/23197">#23197</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26232">#26232</a>)</p>
+<p><strong>Two new messaging platforms - LINE + SimpleX Chat</strong> - LINE is huge in Japan, Korea, and Taiwan, and now Hermes runs natively on the LINE Messaging API. SimpleX Chat is the privacy-focused decentralized messenger with no user IDs - also wired up as a first-class platform. That brings Hermes to 22 messaging platforms total, so wherever you and your team chat, the agent can be there. (<a href="https://github.com/NousResearch/hermes-agent/pull/23197">#23197</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26232">#26232</a>)</p>
 </li>
 <li>
-<p><strong><code>/handoff</code> actually transfers the session live</strong>  -  Switching models or personalities mid-conversation used to mean losing context or starting over. Now <code>/handoff</code> moves your active session  -  every message, every tool call, every piece of context  -  to the target model, persona, or profile, live, without dropping anything. Mid-debugging hand off from a fast model to a deep-reasoning one, or pass a session between profiles for different parts of a task. (<a href="https://github.com/NousResearch/hermes-agent/pull/23395">#23395</a>)</p>
+<p><strong><code>/handoff</code> actually transfers the session live</strong> - Switching models or personalities mid-conversation used to mean losing context or starting over. Now <code>/handoff</code> moves your active session - every message, every tool call, every piece of context - to the target model, persona, or profile, live, without dropping anything. Mid-debugging hand off from a fast model to a deep-reasoning one, or pass a session between profiles for different parts of a task. (<a href="https://github.com/NousResearch/hermes-agent/pull/23395">#23395</a>)</p>
 </li>
 <li>
-<p><strong>Native button UI for <code>clarify</code> on Telegram and Discord</strong>  -  When the agent uses the <code>clarify</code> tool to ask you a multiple-choice question, it now shows real platform-native buttons on Telegram and Discord instead of asking you to type back the option number. Tap the button, the agent gets your answer. Especially nice on mobile. (<a href="https://github.com/NousResearch/hermes-agent/pull/24199">#24199</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25485">#25485</a>)</p>
+<p><strong>Native button UI for <code>clarify</code> on Telegram and Discord</strong> - When the agent uses the <code>clarify</code> tool to ask you a multiple-choice question, it now shows real platform-native buttons on Telegram and Discord instead of asking you to type back the option number. Tap the button, the agent gets your answer. Especially nice on mobile. (<a href="https://github.com/NousResearch/hermes-agent/pull/24199">#24199</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25485">#25485</a>)</p>
 </li>
 <li>
-<p><strong>Discord channel history backfill (default on)</strong>  -  When Hermes joins a Discord channel or thread for the first time, it now reads the recent message history so it knows what's been said before it responds. No more "what are we talking about?"  -  the agent has the context that's already on screen for everyone else. (<a href="https://github.com/NousResearch/hermes-agent/pull/25984">#25984</a>)</p>
+<p><strong>Discord channel history backfill (default on)</strong> - When Hermes joins a Discord channel or thread for the first time, it now reads the recent message history so it knows what's been said before it responds. No more "what are we talking about?" - the agent has the context that's already on screen for everyone else. (<a href="https://github.com/NousResearch/hermes-agent/pull/25984">#25984</a>)</p>
 </li>
 <li>
-<p><strong><code>vision_analyze</code> returns pixels to vision-capable models</strong>  -  When you point the agent at an image with <code>vision_analyze</code> and the active model can actually see (GPT-5, Claude, Gemini, Grok-vision), Hermes now passes the raw pixels straight to the model instead of converting them to a text description first. You get the model's actual visual reasoning instead of a degraded text-summary round-trip. (<a href="https://github.com/NousResearch/hermes-agent/pull/22955">#22955</a>)</p>
+<p><strong><code>vision_analyze</code> returns pixels to vision-capable models</strong> - When you point the agent at an image with <code>vision_analyze</code> and the active model can actually see (GPT-5, Claude, Gemini, Grok-vision), Hermes now passes the raw pixels straight to the model instead of converting them to a text description first. You get the model's actual visual reasoning instead of a degraded text-summary round-trip. (<a href="https://github.com/NousResearch/hermes-agent/pull/22955">#22955</a>)</p>
 </li>
 <li>
-<p><strong>Per-turn file-mutation verifier footer</strong>  -  After every turn that wrote or edited files, the agent now gets a short footer summarizing exactly what changed on disk  -  the file paths, the line counts, the actual delta. That means the agent catches its own mistakes when a write didn't land or got silently overwritten, instead of confidently telling you "I added the function" when the file wasn't actually saved. (<a href="https://github.com/NousResearch/hermes-agent/pull/24498">#24498</a>)</p>
+<p><strong>Per-turn file-mutation verifier footer</strong> - After every turn that wrote or edited files, the agent now gets a short footer summarizing exactly what changed on disk - the file paths, the line counts, the actual delta. That means the agent catches its own mistakes when a write didn't land or got silently overwritten, instead of confidently telling you "I added the function" when the file wasn't actually saved. (<a href="https://github.com/NousResearch/hermes-agent/pull/24498">#24498</a>)</p>
 </li>
 <li>
-<p><strong>LSP semantic diagnostics on every write</strong>  -  When the agent uses <code>write_file</code> or <code>patch</code>, Hermes now runs a real language server against the edited file and surfaces any new errors back to the agent before the next turn. Type errors, undefined symbols, missing imports  -  caught immediately. Goes way beyond v0.13.0's basic Python/JSON/YAML/TOML linting because it's actual semantic analysis. (<a href="https://github.com/NousResearch/hermes-agent/pull/24168">#24168</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25978">#25978</a>)</p>
+<p><strong>LSP semantic diagnostics on every write</strong> - When the agent uses <code>write_file</code> or <code>patch</code>, Hermes now runs a real language server against the edited file and surfaces any new errors back to the agent before the next turn. Type errors, undefined symbols, missing imports - caught immediately. Goes way beyond v0.13.0's basic Python/JSON/YAML/TOML linting because it's actual semantic analysis. (<a href="https://github.com/NousResearch/hermes-agent/pull/24168">#24168</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25978">#25978</a>)</p>
 </li>
 <li>
-<p><strong>Unified <code>video_generate</code> with pluggable provider backends</strong>  -  One tool, any video model. Hermes ships with the obvious backends already, but you can drop in a new video provider as a plugin without touching core. So when a new video model lands next month, it can be a one-file plugin instead of a fork. (<a href="https://github.com/NousResearch/hermes-agent/pull/25126">#25126</a>)</p>
+<p><strong>Unified <code>video_generate</code> with pluggable provider backends</strong> - One tool, any video model. Hermes ships with the obvious backends already, but you can drop in a new video provider as a plugin without touching core. So when a new video model lands next month, it can be a one-file plugin instead of a fork. (<a href="https://github.com/NousResearch/hermes-agent/pull/25126">#25126</a>)</p>
 </li>
 <li>
-<p><strong><code>computer_use</code> cua-driver backend  -  works with non-Anthropic models now</strong>  -  Computer-use (the agent controlling your mouse and keyboard to drive GUI apps) used to be locked to Anthropic's SDK. The new cua-driver backend works with non-Anthropic providers too, has proper focus-safe operations, and refreshes itself on <code>hermes update</code>. Now any vision-capable model can drive your desktop. (re-salvage of #16936) (<a href="https://github.com/NousResearch/hermes-agent/pull/21967">#21967</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24063">#24063</a>)</p>
+<p><strong><code>computer_use</code> cua-driver backend - works with non-Anthropic models now</strong> - Computer-use (the agent controlling your mouse and keyboard to drive GUI apps) used to be locked to Anthropic's SDK. The new cua-driver backend works with non-Anthropic providers too, has proper focus-safe operations, and refreshes itself on <code>hermes update</code>. Now any vision-capable model can drive your desktop. (re-salvage of #16936) (<a href="https://github.com/NousResearch/hermes-agent/pull/21967">#21967</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24063">#24063</a>)</p>
 </li>
 <li>
-<p><strong>Clickable URLs in any terminal</strong>  -  Links in agent output are now real OSC8 hyperlinks with hover-highlight in any terminal that supports them. Click to open in your browser  -  no more copy-paste-trim of long URLs from the transcript. Just works in iTerm2, Kitty, Ghostty, modern Windows Terminal, etc. (@OutThisLife) (<a href="https://github.com/NousResearch/hermes-agent/pull/25071">#25071</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24013">#24013</a>)</p>
+<p><strong>Clickable URLs in any terminal</strong> - Links in agent output are now real OSC8 hyperlinks with hover-highlight in any terminal that supports them. Click to open in your browser - no more copy-paste-trim of long URLs from the transcript. Just works in iTerm2, Kitty, Ghostty, modern Windows Terminal, etc. (@OutThisLife) (<a href="https://github.com/NousResearch/hermes-agent/pull/25071">#25071</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/24013">#24013</a>)</p>
 </li>
 <li>
-<p><strong>Zed ACP Registry  -  <code>uvx</code> install in one click</strong>  -  Hermes is now listed in Zed's Agent Client Protocol registry, so Zed users can install it with one click. The install path uses <code>uvx</code> so there's no npm dependency. <code>hermes acp --setup-browser</code> bootstraps the browser tools for registry-driven installs. (salvage of <a href="https://github.com/NousResearch/hermes-agent/pull/25908">#25908</a>) (<a href="https://github.com/NousResearch/hermes-agent/pull/26079">#26079</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26120">#26120</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26234">#26234</a>)</p>
+<p><strong>Zed ACP Registry - <code>uvx</code> install in one click</strong> - Hermes is now listed in Zed's Agent Client Protocol registry, so Zed users can install it with one click. The install path uses <code>uvx</code> so there's no npm dependency. <code>hermes acp --setup-browser</code> bootstraps the browser tools for registry-driven installs. (salvage of <a href="https://github.com/NousResearch/hermes-agent/pull/25908">#25908</a>) (<a href="https://github.com/NousResearch/hermes-agent/pull/26079">#26079</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26120">#26120</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26234">#26234</a>)</p>
 </li>
 <li>
-<p><strong>OpenRouter Pareto Code router with <code>min_coding_score</code> knob</strong>  -  OpenRouter's "Pareto" router automatically picks the cheapest model that meets a minimum quality bar. The new <code>min_coding_score</code> config lets you set that bar for coding tasks specifically  -  Hermes routes to the most affordable model that's at least that good at code. Stop paying for top-tier models when a mid-tier one would do. (<a href="https://github.com/NousResearch/hermes-agent/pull/22838">#22838</a>)</p>
+<p><strong>OpenRouter Pareto Code router with <code>min_coding_score</code> knob</strong> - OpenRouter's "Pareto" router automatically picks the cheapest model that meets a minimum quality bar. The new <code>min_coding_score</code> config lets you set that bar for coding tasks specifically - Hermes routes to the most affordable model that's at least that good at code. Stop paying for top-tier models when a mid-tier one would do. (<a href="https://github.com/NousResearch/hermes-agent/pull/22838">#22838</a>)</p>
 </li>
 <li>
-<p><strong>NovitaAI as a new model provider</strong>  -  NovitaAI joins the provider lineup, giving you another option for open-source model hosting (Llama, Qwen, DeepSeek, etc.) with their pricing and rate limits. (salvage #7219) (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/25507">#25507</a>)</p>
+<p><strong>NovitaAI as a new model provider</strong> - NovitaAI joins the provider lineup, giving you another option for open-source model hosting (Llama, Qwen, DeepSeek, etc.) with their pricing and rate limits. (salvage #7219) (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/25507">#25507</a>)</p>
 </li>
 <li>
-<p><strong>Codex app-server runtime for OpenAI/Codex models</strong>  -  An optional runtime that drives OpenAI's Codex CLI under the hood when you're using OpenAI or Codex paths. You get session reuse, automatic retirement of wedged sessions, and proper OAuth refresh classification  -  the kind of plumbing that makes long agentic runs not fall over. (<a href="https://github.com/NousResearch/hermes-agent/pull/24182">#24182</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25769">#25769</a>)</p>
+<p><strong>Codex app-server runtime for OpenAI/Codex models</strong> - An optional runtime that drives OpenAI's Codex CLI under the hood when you're using OpenAI or Codex paths. You get session reuse, automatic retirement of wedged sessions, and proper OAuth refresh classification - the kind of plumbing that makes long agentic runs not fall over. (<a href="https://github.com/NousResearch/hermes-agent/pull/24182">#24182</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25769">#25769</a>)</p>
 </li>
 <li>
-<p><strong><code>huggingface/skills</code> as a trusted default tap</strong>  -  The community skills index hosted at huggingface.co/skills is now wired into the Skills Hub by default. So when somebody publishes a useful skill there, you can install it from your own <code>hermes skills</code> browser without any extra config. (closes #2549) (<a href="https://github.com/NousResearch/hermes-agent/pull/26219">#26219</a>)</p>
+<p><strong><code>huggingface/skills</code> as a trusted default tap</strong> - The community skills index hosted at huggingface.co/skills is now wired into the Skills Hub by default. So when somebody publishes a useful skill there, you can install it from your own <code>hermes skills</code> browser without any extra config. (closes #2549) (<a href="https://github.com/NousResearch/hermes-agent/pull/26219">#26219</a>)</p>
 </li>
 <li>
-<p><strong>9 new optional skills</strong>  -  Hyperliquid (perp + spot trading via the SDK and REST API), Yahoo Finance (live market data, fundamentals, historicals), api-testing (REST + GraphQL debug recipes), unified EVM multi-chain (one skill covers Ethereum + L2s + Base), darwinian-evolver (evolutionary prompt/skill tuning), osint-investigation (OSINT recipes for people / domains / orgs), pinggy-tunnel (expose local services to the public internet), watchers (polls RSS / HTTP JSON / GitHub via cron <code>no_agent</code> mode for change detection), and a full Notion overhaul for the May 2026 Developer Platform. (<a href="https://github.com/NousResearch/hermes-agent/pull/23582">#23582</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/23583">#23583</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/23590">#23590</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25299">#25299</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26760">#26760</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26729">#26729</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26765">#26765</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/21881">#21881</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26612">#26612</a>)</p>
+<p><strong>9 new optional skills</strong> - Hyperliquid (perp + spot trading via the SDK and REST API), Yahoo Finance (live market data, fundamentals, historicals), api-testing (REST + GraphQL debug recipes), unified EVM multi-chain (one skill covers Ethereum + L2s + Base), darwinian-evolver (evolutionary prompt/skill tuning), osint-investigation (OSINT recipes for people / domains / orgs), pinggy-tunnel (expose local services to the public internet), watchers (polls RSS / HTTP JSON / GitHub via cron <code>no_agent</code> mode for change detection), and a full Notion overhaul for the May 2026 Developer Platform. (<a href="https://github.com/NousResearch/hermes-agent/pull/23582">#23582</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/23583">#23583</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/23590">#23590</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/25299">#25299</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26760">#26760</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26729">#26729</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26765">#26765</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/21881">#21881</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26612">#26612</a>)</p>
 </li>
 <li>
-<p><strong>API server exposes run approval events</strong>  -  If you're driving Hermes programmatically through the HTTP API, long-running runs no longer silently hang when the agent hits an approval-required command. The approval request now surfaces on the API stream so your client can prompt the user and reply  -  no more silent stalls. (salvage of <a href="https://github.com/NousResearch/hermes-agent/pull/20311">#20311</a>) (<a href="https://github.com/NousResearch/hermes-agent/pull/21899">#21899</a>)</p>
+<p><strong>API server exposes run approval events</strong> - If you're driving Hermes programmatically through the HTTP API, long-running runs no longer silently hang when the agent hits an approval-required command. The approval request now surfaces on the API stream so your client can prompt the user and reply - no more silent stalls. (salvage of <a href="https://github.com/NousResearch/hermes-agent/pull/20311">#20311</a>) (<a href="https://github.com/NousResearch/hermes-agent/pull/21899">#21899</a>)</p>
 </li>
 <li>
-<p><strong>Plugins can run any LLM call via <code>ctx.llm</code> + replace built-in tools via <code>tool_override</code></strong>  -  If you're writing a Hermes plugin, you now get first-class access to make LLM calls through the active provider and credentials  -  no manual client wiring. The new <code>tool_override</code> flag lets a plugin swap out a built-in tool with its own implementation cleanly. Plugin authors get the same model-routing and auth plumbing the core agent uses. (closes #11049) (<a href="https://github.com/NousResearch/hermes-agent/pull/23194">#23194</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26759">#26759</a>)</p>
+<p><strong>Plugins can run any LLM call via <code>ctx.llm</code> + replace built-in tools via <code>tool_override</code></strong> - If you're writing a Hermes plugin, you now get first-class access to make LLM calls through the active provider and credentials - no manual client wiring. The new <code>tool_override</code> flag lets a plugin swap out a built-in tool with its own implementation cleanly. Plugin authors get the same model-routing and auth plumbing the core agent uses. (closes #11049) (<a href="https://github.com/NousResearch/hermes-agent/pull/23194">#23194</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26759">#26759</a>)</p>
 </li>
 <li>
-<p><strong>Brave Search (free tier) + DuckDuckGo (DDGS) as web-search providers</strong>  -  Two new free web-search backends join Tavily, SearXNG, and Exa. Brave Search has a generous free tier; DDGS is the DuckDuckGo scraper that needs no key at all. Pick whichever fits your budget and rate-limit needs. (<a href="https://github.com/NousResearch/hermes-agent/pull/21337">#21337</a>)</p>
+<p><strong>Brave Search (free tier) + DuckDuckGo (DDGS) as web-search providers</strong> - Two new free web-search backends join Tavily, SearXNG, and Exa. Brave Search has a generous free tier; DDGS is the DuckDuckGo scraper that needs no key at all. Pick whichever fits your budget and rate-limit needs. (<a href="https://github.com/NousResearch/hermes-agent/pull/21337">#21337</a>)</p>
 </li>
 <li>
-<p><strong>Sudo brute-force block + 3 dangerous-command bypasses closed + tool-error sanitization</strong>  -  The approval gate now blocks <code>sudo -S</code> brute-force attempts and classifies stdin-fed or askpass-stripped sudo invocations as DANGEROUS. Three known bypasses of dangerous-command detection are closed (inspired by Claude Code's command-detection work). And tool error strings are now sanitized before being re-injected into the model context, so a malicious file or remote service can't pass instructions to your agent through error output. (<a href="https://github.com/NousResearch/hermes-agent/pull/23736">#23736</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26829">#26829</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26823">#26823</a>)</p>
+<p><strong>Sudo brute-force block + 3 dangerous-command bypasses closed + tool-error sanitization</strong> - The approval gate now blocks <code>sudo -S</code> brute-force attempts and classifies stdin-fed or askpass-stripped sudo invocations as DANGEROUS. Three known bypasses of dangerous-command detection are closed (inspired by Claude Code's command-detection work). And tool error strings are now sanitized before being re-injected into the model context, so a malicious file or remote service can't pass instructions to your agent through error output. (<a href="https://github.com/NousResearch/hermes-agent/pull/23736">#23736</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26829">#26829</a>, <a href="https://github.com/NousResearch/hermes-agent/pull/26823">#26823</a>)</p>
 </li>
 <li>
-<p><strong><code>/subgoal</code>  -  user-added criteria appended to an active <code>/goal</code></strong>  -  When you've got a <code>/goal</code> running (the persistent Ralph-loop goal where the agent keeps going until criteria are met), you can now use <code>/subgoal &lt;text&gt;</code> to layer extra success criteria onto it mid-run. The judge factors your new criteria into the done-or-keep-going decision without restarting the loop. (<a href="https://github.com/NousResearch/hermes-agent/pull/25449">#25449</a>)</p>
+<p><strong><code>/subgoal</code> - user-added criteria appended to an active <code>/goal</code></strong> - When you've got a <code>/goal</code> running (the persistent Ralph-loop goal where the agent keeps going until criteria are met), you can now use <code>/subgoal &lt;text&gt;</code> to layer extra success criteria onto it mid-run. The judge factors your new criteria into the done-or-keep-going decision without restarting the loop. (<a href="https://github.com/NousResearch/hermes-agent/pull/25449">#25449</a>)</p>
 </li>
 <li>
-<p><strong>Provider rename  -  Alibaba Cloud → Qwen Cloud</strong>  -  The Alibaba Cloud provider is renamed to Qwen Cloud in the picker and config to match what the rest of the world calls it. Existing config keys still work  -  no breaking changes  -  but the UI matches the actual brand now. (<a href="https://github.com/NousResearch/hermes-agent/pull/24835">#24835</a>)</p>
+<p><strong>Provider rename - Alibaba Cloud → Qwen Cloud</strong> - The Alibaba Cloud provider is renamed to Qwen Cloud in the picker and config to match what the rest of the world calls it. Existing config keys still work - no breaking changes - but the UI matches the actual brand now. (<a href="https://github.com/NousResearch/hermes-agent/pull/24835">#24835</a>)</p>
 </li>
 <li>
-<p><strong>Native Windows support (early beta)</strong>  -  Hermes now runs natively on <code>cmd.exe</code> and PowerShell without WSL. A full PowerShell installer handles MinGit auto-install, Microsoft Store python stub detection, and the foreground Ctrl+C dance. There's still rough edges (this is the "early beta" stamp)  -  ~40 follow-up Windows-only fixes already landed in the window  -  but the basic loop works end-to-end on a clean Windows box. (<a href="https://github.com/NousResearch/hermes-agent/pull/21561">#21561</a>)</p>
+<p><strong>Native Windows support (early beta)</strong> - Hermes now runs natively on <code>cmd.exe</code> and PowerShell without WSL. A full PowerShell installer handles MinGit auto-install, Microsoft Store python stub detection, and the foreground Ctrl+C dance. There's still rough edges (this is the "early beta" stamp) - ~40 follow-up Windows-only fixes already landed in the window - but the basic loop works end-to-end on a clean Windows box. (<a href="https://github.com/NousResearch/hermes-agent/pull/21561">#21561</a>)</p>
 </li>
 </ul>
 <hr />
-<h2 id="windows-native-support-early-beta">🪟 Windows  -  Native Support (Early Beta)<a class="headerlink" href="#windows-native-support-early-beta" title="Anchor link to this section">&para;</a></h2>
+<h2 id="windows-native-support-early-beta">🪟 Windows - Native Support (Early Beta)<a class="headerlink" href="#windows-native-support-early-beta" title="Anchor link to this section">&para;</a></h2>
 <h3 id="bootstrap-installer">Bootstrap &amp; installer<a class="headerlink" href="#bootstrap-installer" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Native Windows support (early beta)</strong>  -  first-class native Windows path across CLI / gateway / TUI / tools (<a href="https://github.com/NousResearch/hermes-agent/pull/21561">#21561</a>)</li>
-<li><strong>PyPI wheel packaging  -  <code>pip install hermes-agent &amp;&amp; hermes</code></strong> (salvage of #26350) (<a href="https://github.com/NousResearch/hermes-agent/pull/26593">#26593</a>)</li>
+<li><strong>Native Windows support (early beta)</strong> - first-class native Windows path across CLI / gateway / TUI / tools (<a href="https://github.com/NousResearch/hermes-agent/pull/21561">#21561</a>)</li>
+<li><strong>PyPI wheel packaging - <code>pip install hermes-agent &amp;&amp; hermes</code></strong> (salvage of #26350) (<a href="https://github.com/NousResearch/hermes-agent/pull/26593">#26593</a>)</li>
 <li><strong>Recognise Shift+Enter as a newline key</strong> + Windows docs (salvage #21545) (<a href="https://github.com/NousResearch/hermes-agent/pull/22130">#22130</a>)</li>
 <li><strong>Preserve Ctrl+C for Windows foreground runs</strong> (@helix4u) (<a href="https://github.com/NousResearch/hermes-agent/pull/22752">#22752</a>)</li>
 <li><strong>Stop spamming cwd-missing + tirith-spawn warnings on every terminal call</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/26618">#26618</a>)</li>
 <li><strong>Use <code>--extra all</code> not <code>--all-extras</code>; drop lazy-covered extras from <code>[all]</code></strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/24515">#24515</a>)</li>
 </ul>
 <h3 id="windows-specific-fixes-40-across-cli-tools-gateway-curator-tui">Windows-specific fixes (40+ across cli / tools / gateway / curator / TUI)<a class="headerlink" href="#windows-specific-fixes-40-across-cli-tools-gateway-curator-tui" title="Anchor link to this section">&para;</a></h3>
-<p>A long tail of native-Windows fixes shipped alongside the beta  -  taskkill-based subprocess management, MinGit auto-install, Microsoft Store python stub detection, npm prefix handling, native PTY paths, signal handling differences, foreground process management, ANSI sequence handling, path normalization, file-locking semantics, and many more. Full list in commit log under <code>fix(windows)</code> / <code>feat(windows)</code> / <code>windows</code>.</p>
+<p>A long tail of native-Windows fixes shipped alongside the beta - taskkill-based subprocess management, MinGit auto-install, Microsoft Store python stub detection, npm prefix handling, native PTY paths, signal handling differences, foreground process management, ANSI sequence handling, path normalization, file-locking semantics, and many more. Full list in commit log under <code>fix(windows)</code> / <code>feat(windows)</code> / <code>windows</code>.</p>
 <hr />
 <h2 id="performance-wave">🚀 Performance Wave<a class="headerlink" href="#performance-wave" title="Anchor link to this section">&para;</a></h2>
 <h3 id="cold-start">Cold start<a class="headerlink" href="#cold-start" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Cut ~19s from <code>hermes</code> cold start</strong>  -  skills cache + lazy Feishu + no Nous HTTP at startup (<a href="https://github.com/NousResearch/hermes-agent/pull/22138">#22138</a>)</li>
+<li><strong>Cut ~19s from <code>hermes</code> cold start</strong> - skills cache + lazy Feishu + no Nous HTTP at startup (<a href="https://github.com/NousResearch/hermes-agent/pull/22138">#22138</a>)</li>
 <li><strong>Skip eager plugin discovery on known built-in subcommands</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/22120">#22120</a>)</li>
-<li><strong>Cache Nous auth + .env loads</strong>  -  <code>hermes tools</code> All Platforms from 14s to &lt;1.5s (<a href="https://github.com/NousResearch/hermes-agent/pull/25341">#25341</a>)</li>
+<li><strong>Cache Nous auth + .env loads</strong> - <code>hermes tools</code> All Platforms from 14s to &lt;1.5s (<a href="https://github.com/NousResearch/hermes-agent/pull/25341">#25341</a>)</li>
 <li><strong>Skip welcome banner on <code>chat -q</code> single-query mode</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/22904">#22904</a>)</li>
 <li><strong>Defer heavy google-cloud imports in google_chat to first adapter use</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/22681">#22681</a>)</li>
 <li><strong>Defer QQAdapter and YuanbaoAdapter imports via PEP 562</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/22790">#22790</a>)</li>
@@ -13349,7 +13349,7 @@
 </ul>
 <h3 id="runtime">Runtime<a class="headerlink" href="#runtime" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>180x faster <code>browser_console</code> evaluations</strong>  -  route through supervisor's persistent CDP WebSocket (<a href="https://github.com/NousResearch/hermes-agent/pull/23226">#23226</a>)</li>
+<li><strong>180x faster <code>browser_console</code> evaluations</strong> - route through supervisor's persistent CDP WebSocket (<a href="https://github.com/NousResearch/hermes-agent/pull/23226">#23226</a>)</li>
 <li><strong>Tune Telegram cadence + adaptive fast-path for short replies</strong> (salvage of #10388) (<a href="https://github.com/NousResearch/hermes-agent/pull/23587">#23587</a>)</li>
 <li><strong>Accumulate length-continuation prefix via list+join</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/26237">#26237</a>)</li>
 </ul>
@@ -13362,7 +13362,7 @@
 <h2 id="installation-distribution">📦 Installation &amp; Distribution<a class="headerlink" href="#installation-distribution" title="Anchor link to this section">&para;</a></h2>
 <h3 id="pypi-supply-chain">PyPI + supply-chain<a class="headerlink" href="#pypi-supply-chain" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>PyPI wheel packaging  -  <code>pip install hermes-agent &amp;&amp; hermes</code></strong> (salvage of #26350) (<a href="https://github.com/NousResearch/hermes-agent/pull/26593">#26593</a>)</li>
+<li><strong>PyPI wheel packaging - <code>pip install hermes-agent &amp;&amp; hermes</code></strong> (salvage of #26350) (<a href="https://github.com/NousResearch/hermes-agent/pull/26593">#26593</a>)</li>
 <li><strong>Supply-chain advisory checker + lazy-install framework + tiered install fallback</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/24220">#24220</a>)</li>
 <li><strong>Use <code>--extra all</code> not <code>--all-extras</code>; drop lazy-covered extras from <code>[all]</code></strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/24515">#24515</a>)</li>
 <li><strong>Skip browser download when system chromium exists</strong> (@helix4u) (<a href="https://github.com/NousResearch/hermes-agent/pull/25317">#25317</a>)</li>
@@ -13370,12 +13370,12 @@
 <h3 id="nix">Nix<a class="headerlink" href="#nix" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong><code>extraDependencyGroups</code> for sealed venv extras</strong> (@alt-glitch) (<a href="https://github.com/NousResearch/hermes-agent/pull/21817">#21817</a>)</li>
-<li><strong>Refresh npm lockfile hashes</strong>  -  keeps Nix flake builds reproducible</li>
+<li><strong>Refresh npm lockfile hashes</strong> - keeps Nix flake builds reproducible</li>
 </ul>
 <h3 id="docker">Docker<a class="headerlink" href="#docker" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>Bootstrap auth.json from env on first boot</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/21880">#21880</a>)</li>
-<li><strong>Drop manual @hermes/ink build, rely on esbuild bundle</strong>  -  slimmer image</li>
+<li><strong>Drop manual @hermes/ink build, rely on esbuild bundle</strong> - slimmer image</li>
 </ul>
 <h3 id="acp-zed">ACP / Zed<a class="headerlink" href="#acp-zed" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -13392,8 +13392,8 @@
 </ul>
 <h3 id="goals-ralph-loop">Goals (Ralph loop)<a class="headerlink" href="#goals-ralph-loop" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong><code>/subgoal</code>  -  user-added criteria appended to active <code>/goal</code></strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/25449">#25449</a>)</li>
-<li><strong><code>/goal</code> checklist + /subgoal user controls</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/23456">#23456</a>)  -  rolled back in window (<a href="https://github.com/NousResearch/hermes-agent/pull/23813">#23813</a>); /subgoal returned in simpler form via #25449</li>
+<li><strong><code>/subgoal</code> - user-added criteria appended to active <code>/goal</code></strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/25449">#25449</a>)</li>
+<li><strong><code>/goal</code> checklist + /subgoal user controls</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/23456">#23456</a>) - rolled back in window (<a href="https://github.com/NousResearch/hermes-agent/pull/23813">#23813</a>); /subgoal returned in simpler form via #25449</li>
 </ul>
 <h3 id="compression">Compression<a class="headerlink" href="#compression" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -13437,7 +13437,7 @@
 </ul>
 <h3 id="openai-compatible-proxy">OpenAI-compatible proxy<a class="headerlink" href="#openai-compatible-proxy" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Local OpenAI-compatible proxy for OAuth providers</strong>  -  Codex / Aider / Cline can hit Claude Pro, ChatGPT Pro, SuperGrok (<a href="https://github.com/NousResearch/hermes-agent/pull/25969">#25969</a>)</li>
+<li><strong>Local OpenAI-compatible proxy for OAuth providers</strong> - Codex / Aider / Cline can hit Claude Pro, ChatGPT Pro, SuperGrok (<a href="https://github.com/NousResearch/hermes-agent/pull/25969">#25969</a>)</li>
 </ul>
 <hr />
 <h2 id="messaging-platforms-gateway">📱 Messaging Platforms (Gateway)<a class="headerlink" href="#messaging-platforms-gateway" title="Anchor link to this section">&para;</a></h2>
@@ -13456,7 +13456,7 @@
 <h3 id="cross-platform">Cross-platform<a class="headerlink" href="#cross-platform" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>Per-platform admin/user split for slash commands</strong> (salvage of #4443) (<a href="https://github.com/NousResearch/hermes-agent/pull/23373">#23373</a>)</li>
-<li><strong>Forensics on signal handling  -  non-blocking diag, per-phase timing, stale-unit warning</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/23285">#23285</a>)</li>
+<li><strong>Forensics on signal handling - non-blocking diag, per-phase timing, stale-unit warning</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/23285">#23285</a>)</li>
 <li><strong>Keep gateway running when platforms fail; add per-platform circuit breaker + <code>/platform</code></strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/26600">#26600</a>)</li>
 <li><strong>Wire <code>clarify</code> tool with inline keyboard buttons on Telegram</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/24199">#24199</a>)</li>
 <li><strong>Add <code>chat_id</code> to <code>hook_ctx</code> for message source tracking</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/24710">#24710</a>)</li>
@@ -13464,7 +13464,7 @@
 <h3 id="telegram">Telegram<a class="headerlink" href="#telegram" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>Native draft streaming via <code>sendMessageDraft</code> (Bot API 9.5+)</strong> (salvage of #3412) (<a href="https://github.com/NousResearch/hermes-agent/pull/23512">#23512</a>)</li>
-<li><strong>Stream Telegram edits safely</strong>  -  salvage of #22264 (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/22518">#22518</a>)</li>
+<li><strong>Stream Telegram edits safely</strong> - salvage of #22264 (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/22518">#22518</a>)</li>
 <li><strong>Telegram notification mode</strong> (salvage #22772) (<a href="https://github.com/NousResearch/hermes-agent/pull/22793">#22793</a>)</li>
 <li><strong>Telegram guest mention mode</strong> (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/22759">#22759</a>)</li>
 <li><strong>Split-and-deliver oversized edits instead of silent truncation</strong> (salvage of #19537) (<a href="https://github.com/NousResearch/hermes-agent/pull/23576">#23576</a>)</li>
@@ -13474,7 +13474,7 @@
 <h3 id="discord">Discord<a class="headerlink" href="#discord" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>Render clarify choices as buttons</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/25485">#25485</a>)</li>
-<li><strong>Channel history backfill  -  default on, broadened scope</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/25984">#25984</a>)</li>
+<li><strong>Channel history backfill - default on, broadened scope</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/25984">#25984</a>)</li>
 <li><strong><code>thread_require_mention</code> for multi-bot threads</strong> (salvage #25313) (<a href="https://github.com/NousResearch/hermes-agent/pull/25445">#25445</a>)</li>
 </ul>
 <h3 id="slack">Slack<a class="headerlink" href="#slack" title="Anchor link to this section">&para;</a></h3>
@@ -13518,7 +13518,7 @@
 <ul>
 <li><strong>Route embedded TUI through dashboard gateway</strong> (@OutThisLife) (<a href="https://github.com/NousResearch/hermes-agent/pull/21979">#21979</a>)</li>
 <li><strong>Hide token/cost analytics behind config flag (default off)</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/25438">#25438</a>)</li>
-<li><strong>Fix Langfuse observability  -  trace I/O, tool outputs, placeholder credentials</strong> (closes #22342, #22763) (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/26320">#26320</a>)</li>
+<li><strong>Fix Langfuse observability - trace I/O, tool outputs, placeholder credentials</strong> (closes #22342, #22763) (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/26320">#26320</a>)</li>
 <li><strong>MiniMax 'Login' button launched Claude OAuth</strong> (salvage #22849) (<a href="https://github.com/NousResearch/hermes-agent/pull/24058">#24058</a>)</li>
 <li><strong>Update cron modals</strong> (@austinpickett) (<a href="https://github.com/NousResearch/hermes-agent/pull/25985">#25985</a>)</li>
 <li><strong>Analytics: prevent silent token loss and add Claude 4.5-4.7 pricing</strong> (@austinpickett) (<a href="https://github.com/NousResearch/hermes-agent/pull/21455">#21455</a>)</li>
@@ -13572,8 +13572,8 @@
 <hr />
 <h2 id="kanban-multi-agent">🧩 Kanban (Multi-Agent)<a class="headerlink" href="#kanban-multi-agent" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong><code>specify</code>  -  auxiliary LLM fleshes out triage tasks</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/21435">#21435</a>)</li>
-<li><strong>Orchestrator board tools  -  <code>kanban_list</code> + <code>kanban_unblock</code></strong> (carve-out of #20568) (<a href="https://github.com/NousResearch/hermes-agent/pull/23012">#23012</a>)</li>
+<li><strong><code>specify</code> - auxiliary LLM fleshes out triage tasks</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/21435">#21435</a>)</li>
+<li><strong>Orchestrator board tools - <code>kanban_list</code> + <code>kanban_unblock</code></strong> (carve-out of #20568) (<a href="https://github.com/NousResearch/hermes-agent/pull/23012">#23012</a>)</li>
 <li><strong><code>stranded_in_ready</code> diagnostic for unclaimed tasks</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/23578">#23578</a>)</li>
 <li><strong>Dashboard batch QOL upgrade</strong> (salvage of #23240) (<a href="https://github.com/NousResearch/hermes-agent/pull/23550">#23550</a>)</li>
 <li><strong>Tooltips and docs link across dashboard</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/21541">#21541</a>)</li>
@@ -13599,7 +13599,7 @@
 <hr />
 <h2 id="cron">⏰ Cron<a class="headerlink" href="#cron" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Routing intent  -  <code>deliver=all</code> fans out to every connected channel</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/21495">#21495</a>)</li>
+<li><strong>Routing intent - <code>deliver=all</code> fans out to every connected channel</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/21495">#21495</a>)</li>
 <li><strong>Support name-based lookup for job operations</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/26231">#26231</a>)</li>
 <li><strong>Blank Cron dashboard tab + partial-record crashes</strong> (salvage #21042 + #22330) (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/22389">#22389</a>)</li>
 <li><strong>Do not seed <code>HERMES_SESSION_*</code> contextvars from cron origin</strong> (salvage of #22356) (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/22382">#22382</a>)</li>
@@ -13621,14 +13621,14 @@
 </ul>
 <h3 id="new-optional-skills">New optional skills<a class="headerlink" href="#new-optional-skills" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Hyperliquid</strong>  -  perp/spot trading via SDK + REST (salvage of #1952) (<a href="https://github.com/NousResearch/hermes-agent/pull/23583">#23583</a>)</li>
+<li><strong>Hyperliquid</strong> - perp/spot trading via SDK + REST (salvage of #1952) (<a href="https://github.com/NousResearch/hermes-agent/pull/23583">#23583</a>)</li>
 <li><strong>Yahoo Finance</strong> market data (<a href="https://github.com/NousResearch/hermes-agent/pull/23590">#23590</a>)</li>
 <li><strong>api-testing</strong> (REST/GraphQL debug, salvages #1800) (<a href="https://github.com/NousResearch/hermes-agent/pull/23582">#23582</a>)</li>
 <li><strong>Unified EVM multi-chain skill</strong> (salvages #25291 + #2010 + folds in base/) (<a href="https://github.com/NousResearch/hermes-agent/pull/25299">#25299</a>)</li>
 <li><strong>darwinian-evolver</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/26760">#26760</a>)</li>
 <li><strong>osint-investigation</strong> (closes #355) (<a href="https://github.com/NousResearch/hermes-agent/pull/26729">#26729</a>)</li>
 <li><strong>pinggy-tunnel</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/26765">#26765</a>)</li>
-<li><strong>watchers</strong>  -  RSS / HTTP JSON / GitHub polling via cron no-agent (<a href="https://github.com/NousResearch/hermes-agent/pull/21881">#21881</a>)</li>
+<li><strong>watchers</strong> - RSS / HTTP JSON / GitHub polling via cron no-agent (<a href="https://github.com/NousResearch/hermes-agent/pull/21881">#21881</a>)</li>
 <li><strong>Notion overhaul for the Developer Platform</strong> (May 2026) (<a href="https://github.com/NousResearch/hermes-agent/pull/26612">#26612</a>)</li>
 </ul>
 <hr />
@@ -13647,7 +13647,7 @@
 <li><strong>Rewrite security policy around OS-level isolation as the boundary</strong> (@jquesnelle) (<a href="https://github.com/NousResearch/hermes-agent/pull/20317">#20317</a>)</li>
 <li><strong>Remove public security advisory page</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/24253">#24253</a>)</li>
 </ul>
-<h3 id="reliability-notable-bug-closures">Reliability  -  notable bug closures<a class="headerlink" href="#reliability-notable-bug-closures" title="Anchor link to this section">&para;</a></h3>
+<h3 id="reliability-notable-bug-closures">Reliability - notable bug closures<a class="headerlink" href="#reliability-notable-bug-closures" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>SQLite: fall back to <code>journal_mode=DELETE</code> on NFS/SMB/FUSE</strong> (fixes <code>/resume</code> on network mounts) (@kshitijk4poor) (<a href="https://github.com/NousResearch/hermes-agent/pull/22043">#22043</a>)</li>
 <li><strong>Codex-runtime: retire wedged sessions + post-tool watchdog + OAuth refresh classify</strong> (<a href="https://github.com/NousResearch/hermes-agent/pull/25769">#25769</a>)</li>
@@ -13663,7 +13663,7 @@
 </ul>
 <h3 id="notable-reverts-in-window">Notable reverts in window<a class="headerlink" href="#notable-reverts-in-window" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong><code>/goal</code> checklist + /subgoal feature stack</strong>  -  rolled back (<a href="https://github.com/NousResearch/hermes-agent/pull/23813">#23813</a>); <code>/subgoal</code> returned in simpler form via <a href="https://github.com/NousResearch/hermes-agent/pull/25449">#25449</a></li>
+<li><strong><code>/goal</code> checklist + /subgoal feature stack</strong> - rolled back (<a href="https://github.com/NousResearch/hermes-agent/pull/23813">#23813</a>); <code>/subgoal</code> returned in simpler form via <a href="https://github.com/NousResearch/hermes-agent/pull/25449">#25449</a></li>
 <li><strong>Scrollback box width clamp</strong> (#25975) rolled back to restore full-width borders (<a href="https://github.com/NousResearch/hermes-agent/pull/26163">#26163</a>)</li>
 <li><strong><code>fix(cli): tolerate unreadable dirs when building systemd PATH</code></strong> rolled back</li>
 </ul>
@@ -13686,24 +13686,24 @@
 <ul>
 <li><strong>Unblock shared PR checks</strong> (@stephenschoettler) (<a href="https://github.com/NousResearch/hermes-agent/pull/21012">#21012</a>)</li>
 <li><strong>Stabilize shared test state after 21012</strong> (@stephenschoettler) (<a href="https://github.com/NousResearch/hermes-agent/pull/25957">#25957</a>)</li>
-<li>A long tail of test additions for platforms, providers, plugins, and edge cases  -  8 explicit <code>test:</code> PRs plus ~250 fix PRs that also added regression coverage.</li>
+<li>A long tail of test additions for platforms, providers, plugins, and edge cases - 8 explicit <code>test:</code> PRs plus ~250 fix PRs that also added regression coverage.</li>
 </ul>
 <hr />
 <h2 id="contributors">👥 Contributors<a class="headerlink" href="#contributors" title="Anchor link to this section">&para;</a></h2>
 <h3 id="core">Core<a class="headerlink" href="#core" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>@teknium1  -  release lead, architecture, ~406 PRs merged in window</li>
+<li>@teknium1 - release lead, architecture, ~406 PRs merged in window</li>
 </ul>
 <h3 id="top-community-contributors">Top community contributors<a class="headerlink" href="#top-community-contributors" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>@kshitijk4poor</strong>  -  38 PRs · Telegram cadence/streaming/topic routing, security hardening (sudo, SSRF, kanban_comment, dashboard auth), codex-runtime hygiene, NovitaAI provider, profile/banner fixes, Feishu update cards, gateway QOL across the board</li>
-<li><strong>@alt-glitch</strong>  -  13 PRs · Markdown-table TUI rendering, <code>HERMES_SESSION_ID</code> env var, hindsight-client optional dep, Nix <code>extraDependencyGroups</code></li>
-<li><strong>@OutThisLife</strong> (Brooklyn Nicholson)  -  12 PRs · TUI turn segmentation, attach-to-gateway, markdown link titles, embedded TUI via dashboard gateway, Ink cursor sync, scroll/Esc during prompts</li>
-<li><strong>@austinpickett</strong>  -  8 PRs · <code>/sessions</code> slash command, personality switching preserves session, cron modals, dashboard analytics</li>
-<li><strong>@helix4u</strong>  -  5 PRs · Google Chat setup, browser install skip on system chromium, Windows Ctrl+C preservation</li>
-<li><strong>@rob-maron</strong>  -  4 PRs · Nous Portal as model metadata authority, provider polish</li>
-<li><strong>@stephenschoettler</strong>  -  3 PRs · CI stabilization</li>
-<li><strong>@ethernet8023</strong>  -  3 PRs · platform/gateway work</li>
+<li><strong>@kshitijk4poor</strong> - 38 PRs · Telegram cadence/streaming/topic routing, security hardening (sudo, SSRF, kanban_comment, dashboard auth), codex-runtime hygiene, NovitaAI provider, profile/banner fixes, Feishu update cards, gateway QOL across the board</li>
+<li><strong>@alt-glitch</strong> - 13 PRs · Markdown-table TUI rendering, <code>HERMES_SESSION_ID</code> env var, hindsight-client optional dep, Nix <code>extraDependencyGroups</code></li>
+<li><strong>@OutThisLife</strong> (Brooklyn Nicholson) - 12 PRs · TUI turn segmentation, attach-to-gateway, markdown link titles, embedded TUI via dashboard gateway, Ink cursor sync, scroll/Esc during prompts</li>
+<li><strong>@austinpickett</strong> - 8 PRs · <code>/sessions</code> slash command, personality switching preserves session, cron modals, dashboard analytics</li>
+<li><strong>@helix4u</strong> - 5 PRs · Google Chat setup, browser install skip on system chromium, Windows Ctrl+C preservation</li>
+<li><strong>@rob-maron</strong> - 4 PRs · Nous Portal as model metadata authority, provider polish</li>
+<li><strong>@stephenschoettler</strong> - 3 PRs · CI stabilization</li>
+<li><strong>@ethernet8023</strong> - 3 PRs · platform/gateway work</li>
 </ul>
 <h3 id="all-contributors-alphabetical">All contributors (alphabetical)<a class="headerlink" href="#all-contributors-alphabetical" title="Anchor link to this section">&para;</a></h3>
 <p>@02356abc, @0xbyt4, @0xharryriddle, @1000Delta, @1RB, @29206394, @A-kamal, @aashizpoudel, @Abd0r,
@@ -13737,7 +13737,7 @@
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <h3 id="what-changed-in-hermes-agent-v0140">What changed in Hermes Agent v0.14.0?<a class="headerlink" href="#what-changed-in-hermes-agent-v0140" title="Anchor link to this section">&para;</a></h3>
 <blockquote>
-<p>The Foundation Release  -  Hermes installs and runs anywhere, ships with the things you actually want to use, and stops shipping the things you don't. xAI Grok lands as a SuperGrok OAuth provider with grok-4.3...</p>
+<p>The Foundation Release - Hermes installs and runs anywhere, ships with the things you actually want to use, and stops shipping the things you don't. xAI Grok lands as a SuperGrok OAuth provider with grok-4.3 bumped to a 1M context window.</p>
 </blockquote>
 <h3 id="when-was-hermes-agent-v0140-released">When was Hermes Agent v0.14.0 released?<a class="headerlink" href="#when-was-hermes-agent-v0140-released" title="Anchor link to this section">&para;</a></h3>
 <p>May 16, 2026</p>

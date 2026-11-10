@@ -91427,5 +91427,529 @@
     "near_duplicates": [],
     "discovered_at": "2026-11-09T10:01:43.043716+00:00",
     "status": "pending"
+  },
+  {
+    "name": "NeetanKumar/hermes-agent-setup",
+    "url": "https://github.com/NeetanKumar/hermes-agent-setup",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-10T10:00:51Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:00:53.244405+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "loverlayk/MikrotikSkill",
+    "url": "https://github.com/loverlayk/MikrotikSkill",
+    "description": "Official MikroTik RouterOS documentation skill for Hermes Agent",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T09:59:52Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:00:53.247105+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ivanvanes18/hermes-multibot",
+    "url": "https://github.com/ivanvanes18/hermes-multibot",
+    "description": "Several Telegram bots in one Hermes profile \u2014 Hermes Agent plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T09:59:08Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:00:53.249033+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JerryLiu369/hermes-proactive-agent",
+    "url": "https://github.com/JerryLiu369/hermes-proactive-agent",
+    "description": "A Hermes Agent plugin that makes your chat assistant work like a good secretary: keeps the chat responsive, briefs subagents, stops loops and brings back decisions, verifies and delivers results, and records every task in a SQLite ledger.",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-governance",
+      "agent-orchestration",
+      "ai-agent",
+      "background-jobs",
+      "chat-agent",
+      "delegation",
+      "hermes-agent",
+      "hermes-plugin",
+      "human-in-the-loop",
+      "llms-txt",
+      "multi-agent",
+      "proactive-agent",
+      "subagents",
+      "task-ledger"
+    ],
+    "updated_at": "2026-11-10T09:59:05Z",
+    "category": "core",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "aiunlocked1412/hermes-agent-pixel",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "codeofaxel/Kiln",
+      "sno-ai/sno-station",
+      "dfrostar/neuralmind"
+    ],
+    "discovered_at": "2026-11-10T10:00:53.250780+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gradia64/hermes-lang-it-full",
+    "url": "https://github.com/gradia64/hermes-lang-it-full",
+    "description": "Italian (Italiano) Desktop language pack for Hermes Agent \u2014 generated from a typed catalog, tracks upstream main",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-11-10T09:59:01Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "pyrate-llama/hermes-ui"
+    ],
+    "discovered_at": "2026-11-10T10:00:53.252375+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yumingtao/agent-skills",
+    "url": "https://github.com/yumingtao/agent-skills",
+    "description": "Original, platform-neutral agent skills: prompt assets that work across Claude Code, Codex, Cursor, OpenCode, Windsurf, Gemini, GitHub Copilot, CodeBuddy, and Hermes.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-11-10T09:58:11Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "itechmeat/open-second-brain",
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "WEIFENG2333/phistory",
+      "Javis603/token-monitor",
+      "kenryu42/cc-safety-net",
+      "jazzyalex/agent-sessions",
+      "conorbronsdon/avoid-ai-writing",
+      "moonlight-lupin/agent-skills",
+      "sno-ai/sno-station"
+    ],
+    "discovered_at": "2026-11-10T10:00:53.254009+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "HearthCore/hermcp",
+    "url": "https://github.com/HearthCore/hermcp",
+    "description": "Remote MCP server plugin for Hermes Agent: exposes the Hermes control surface to MCP clients with per-key scopes.",
+    "stars": 3,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "mcp",
+      "model-context-protocol",
+      "python",
+      "remote-mcp"
+    ],
+    "updated_at": "2026-11-10T09:26:48Z",
+    "category": "mcp",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-10T10:01:01.288286+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MrHydeDev/openwall-mcp-plugin",
+    "url": "https://github.com/MrHydeDev/openwall-mcp-plugin",
+    "description": "Agent Plugin for OpenWall: lets AI agents (Hermes and other MCP clients) paint on a giant shared wall that people watch live, with shapes, pixel art or a photo, and title their artworks. Configuration only: it connects to https://openwall.mrhyde.dev/mcp with the agent's own key.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent-plugins",
+      "ai-agents",
+      "canvas",
+      "drawing",
+      "hermes-agent",
+      "mcp",
+      "mcp-server",
+      "pixel-art"
+    ],
+    "updated_at": "2026-11-10T08:50:37Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Mintplex-Labs/anything-llm",
+      "1Panel-dev/1Panel",
+      "screenpipe/screenpipe",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "aiunlocked1412/hermes-agent-pixel",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "yang1989haoa-gif/synapse-studio",
+      "kaankacar/stellar-agent-kit",
+      "varunlakshmaiah/hermes-compose",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "zakahadi/llm-eval-cli",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "conorbronsdon/avoid-ai-writing",
+      "agentrq/agentrq",
+      "stablyai/orca",
+      "Orkas-AI/Orkas",
+      "homarr-labs/dashboard-icons",
+      "codeofaxel/Kiln",
+      "sno-ai/sno-station",
+      "dfrostar/neuralmind"
+    ],
+    "discovered_at": "2026-11-10T10:01:01.290690+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jawello/hermes-assistant-example",
+    "url": "https://github.com/jawello/hermes-assistant-example",
+    "description": "Example self-hosted personal AI assistant: Hermes agent, MCP integrations and skills (sanitized snapshot)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T08:46:08Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:01:01.292353+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wakeshift/hermes-plugin",
+    "url": "https://github.com/wakeshift/hermes-plugin",
+    "description": "Wakeshift's plugin for Hermes Agent: lets Wakeshift-enabled MCP servers wake your Hermes chats. Generated from Wakeshift's main repository.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "hermes-plugin",
+      "mcp",
+      "wakeshift"
+    ],
+    "updated_at": "2026-11-10T08:05:16Z",
+    "category": "mcp",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "yantrikos/yantrikdb-hermes-plugin",
+      "verkyyi/agentfeeds-hermes-plugin",
+      "42-evey/hermes-plugins",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-10T10:01:01.293998+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bizyumov/yandex-speech",
+    "url": "https://github.com/bizyumov/yandex-speech",
+    "description": "Yandex SpeechKit-based Hermes agent skill and plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T09:38:56Z",
+    "category": "skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:01:09.533825+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "minhng92/skill-stats",
+    "url": "https://github.com/minhng92/skill-stats",
+    "description": "Skill statistics plugin for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T09:28:28Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:01:09.535435+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MarinWasAsleep/hermes-socratic-tutor",
+    "url": "https://github.com/MarinWasAsleep/hermes-socratic-tutor",
+    "description": "Hermes Agent plugin: persistent Socratic tutor (EN/FR), derived from Jane Street's socratic-tutor skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T08:15:45Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:01:09.537577+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ponzgpt/sabbath",
+    "url": "https://github.com/ponzgpt/sabbath",
+    "description": "Your agent never rests. Now it rests with you. A Hermes Agent plugin: a weekly day of rest.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T10:01:02Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-11-10T10:01:17.403178+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ponzgpt/psychopomp",
+    "url": "https://github.com/ponzgpt/psychopomp",
+    "description": "Hermes carries your words across time. A dead man's switch plugin for Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T10:00:55Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-11-10T10:01:17.406186+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Apex-Nerd-Labs/Hermes-Skills",
+    "url": "https://github.com/Apex-Nerd-Labs/Hermes-Skills",
+    "description": "Hermes Agent skills: content pipelines (medium-story, short-videos), diagrams (excalidraw), security ops (t3mp3st), social posting, business consultancy, course creation, 3D printing (3dprinter, openscad-cad), transcription + skill-writer meta-skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T10:00:50Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-11-10T10:01:17.409307+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ivanvanes18/hermes-agent",
+    "url": "https://github.com/ivanvanes18/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T10:00:47Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-10T10:01:17.412113+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RezaHarirchian/hermes-tallyhand",
+    "url": "https://github.com/RezaHarirchian/hermes-tallyhand",
+    "description": "Twitch chat for Hermes Agent: roles enforced in code, bans wait for the owner's approval.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "hermes-agent",
+      "hermes-plugin",
+      "moderation",
+      "nousresearch",
+      "python",
+      "twitch",
+      "twitch-chat"
+    ],
+    "updated_at": "2026-11-10T09:55:22Z",
+    "category": "skills",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T10:02:52.094914+00:00",
+    "status": "pending"
   }
 ]

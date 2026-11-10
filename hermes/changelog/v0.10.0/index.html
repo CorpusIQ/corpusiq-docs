@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes.">
+        <meta name="description" content="Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/changelog/v0.10.0">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Hermes Agent v0.10.0 Patch Release">
-  <meta property="og:description" content="Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes.">
+  <meta property="og:description" content="Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hermes Agent v0.10.0 Patch Release">
-  <meta name="twitter:description" content="Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes.">
+  <meta name="twitter:description" content="Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,7 +104,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hermes Agent v0.10.0 Patch Release",
-    "description": "Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes.",
+    "description": "Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes",
     "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.10.0",
     
     "datePublished": "2026-11-01",
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Agent v0.10.0 Patch Release", "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.10.0", "image": "https://www.corpusiq.io/og?title=Hermes%20Agent%20v0.10.0%20Patch%20Release&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/changelog/v0.10.0"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Agent v0.10.0 Patch Release", "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.10.0", "image": "https://www.corpusiq.io/og?title=Hermes%20Agent%20v0.10.0%20Patch%20Release&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/changelog/v0.10.0"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent v0.10.0 patch release - release notes, highlights, and security fixes", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Changelog", "item": "https://www.corpusiq.io/docs/hermes/changelog"}, {"@type": "ListItem", "position": 4, "name": "Hermes Agent v0.10.0 Patch Release", "item": "https://www.corpusiq.io/docs/hermes/changelog/v0.10.0"}]}</script>
 </head>
   
@@ -12451,12 +12451,12 @@
 <h1 id="hermes-agent-v0100">Hermes Agent v0.10.0<a class="headerlink" href="#hermes-agent-v0100" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Release Date:</strong> April 16, 2026</p>
 <blockquote>
-<p>The Tool Gateway release  -  paid Nous Portal subscribers can now use web search, image generation, text-to-speech, and browser automation through their existing subscription with zero additional API keys.</p>
+<p>The Tool Gateway release - paid Nous Portal subscribers can now use web search, image generation, text-to-speech, and browser automation through their existing subscription with zero additional API keys.</p>
 </blockquote>
 <hr />
 <h2 id="highlights">✨ Highlights<a class="headerlink" href="#highlights" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Nous Tool Gateway</strong>  -  Paid <a href="https://portal.nousresearch.com">Nous Portal</a> subscribers now get automatic access to <strong>web search</strong> (Firecrawl), <strong>image generation</strong> (FAL / FLUX 2 Pro), <strong>text-to-speech</strong> (OpenAI TTS), and <strong>browser automation</strong> (Browser Use) through their existing subscription. No separate API keys needed  -  just run <code>hermes model</code>, select Nous Portal, and pick which tools to enable. Per-tool opt-in via <code>use_gateway</code> config, full integration with <code>hermes tools</code> and <code>hermes status</code>, and the runtime correctly prefers the gateway even when direct API keys exist. Replaces the old hidden <code>HERMES_ENABLE_NOUS_MANAGED_TOOLS</code> env var with clean subscription-based detection. (<a href="https://github.com/NousResearch/hermes-agent/pull/11206">#11206</a>, based on work by @jquesnelle; docs: <a href="https://github.com/NousResearch/hermes-agent/pull/11208">#11208</a>)</li>
+<li><strong>Nous Tool Gateway</strong> - Paid <a href="https://portal.nousresearch.com">Nous Portal</a> subscribers now get automatic access to <strong>web search</strong> (Firecrawl), <strong>image generation</strong> (FAL / FLUX 2 Pro), <strong>text-to-speech</strong> (OpenAI TTS), and <strong>browser automation</strong> (Browser Use) through their existing subscription. No separate API keys needed - just run <code>hermes model</code>, select Nous Portal, and pick which tools to enable. Per-tool opt-in via <code>use_gateway</code> config, full integration with <code>hermes tools</code> and <code>hermes status</code>, and the runtime correctly prefers the gateway even when direct API keys exist. Replaces the old hidden <code>HERMES_ENABLE_NOUS_MANAGED_TOOLS</code> env var with clean subscription-based detection. (<a href="https://github.com/NousResearch/hermes-agent/pull/11206">#11206</a>, based on work by @jquesnelle; docs: <a href="https://github.com/NousResearch/hermes-agent/pull/11208">#11208</a>)</li>
 </ul>
 <hr />
 <h2 id="bug-fixes-improvements">🐛 Bug Fixes &amp; Improvements<a class="headerlink" href="#bug-fixes-improvements" title="Anchor link to this section">&para;</a></h2>
@@ -12464,14 +12464,14 @@
 <hr />
 <h2 id="contributors">👥 Contributors<a class="headerlink" href="#contributors" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>@jquesnelle</strong> (emozilla)  -  Original Tool Gateway implementation (<a href="https://github.com/NousResearch/hermes-agent/pull/10799">#10799</a>), salvaged and shipped in this release</li>
+<li><strong>@jquesnelle</strong> (emozilla) - Original Tool Gateway implementation (<a href="https://github.com/NousResearch/hermes-agent/pull/10799">#10799</a>), salvaged and shipped in this release</li>
 </ul>
 <hr />
 <p><strong>Full Changelog</strong>: <a href="https://github.com/NousResearch/hermes-agent/compare/v2026.4.13...v2026.4.16">v2026.4.13...v2026.4.16</a></p>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <h3 id="what-changed-in-hermes-agent-v0100">What changed in Hermes Agent v0.10.0?<a class="headerlink" href="#what-changed-in-hermes-agent-v0100" title="Anchor link to this section">&para;</a></h3>
 <blockquote>
-<p>The Tool Gateway release  -  paid Nous Portal subscribers can now use web search, image generation, text-to-speech, and browser automation through their existing subscription with zero additional API keys.</p>
+<p>The Tool Gateway release - paid Nous Portal subscribers can now use web search, image generation, text-to-speech, and browser automation through their existing subscription with zero additional API keys.</p>
 </blockquote>
 <h3 id="when-was-hermes-agent-v0100-released">When was Hermes Agent v0.10.0 released?<a class="headerlink" href="#when-was-hermes-agent-v0100-released" title="Anchor link to this section">&para;</a></h3>
 <p>April 16, 2026</p>

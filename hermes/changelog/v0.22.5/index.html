@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes.">
+        <meta name="description" content="Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes">
       
       
       
@@ -68,13 +68,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/changelog/v0.22.5">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Hermes Agent v0.22.5 Patch Release">
-  <meta property="og:description" content="Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes.">
+  <meta property="og:description" content="Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hermes Agent v0.22.5 Patch Release">
-  <meta name="twitter:description" content="Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes.">
+  <meta name="twitter:description" content="Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -104,7 +104,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hermes Agent v0.22.5 Patch Release",
-    "description": "Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes.",
+    "description": "Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes",
     "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.22.5",
     
     "datePublished": "2026-11-02",
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Agent v0.22.5 Patch Release", "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.22.5", "image": "https://www.corpusiq.io/og?title=Hermes%20Agent%20v0.22.5%20Patch%20Release&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/changelog/v0.22.5"}, "datePublished": "2026-11-01", "dateModified": "2026-11-02", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes.", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "Hermes Agent v0.22.5 Patch Release", "url": "https://www.corpusiq.io/docs/hermes/changelog/v0.22.5", "image": "https://www.corpusiq.io/og?title=Hermes%20Agent%20v0.22.5%20Patch%20Release&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/changelog/v0.22.5"}, "datePublished": "2026-11-01", "dateModified": "2026-11-02", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Hermes Agent v0.22.5 patch release - release notes, highlights, and security fixes", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Changelog", "item": "https://www.corpusiq.io/docs/hermes/changelog"}, {"@type": "ListItem", "position": 4, "name": "Hermes Agent v0.22.5 Patch Release", "item": "https://www.corpusiq.io/docs/hermes/changelog/v0.22.5"}]}</script>
 </head>
   
@@ -12445,7 +12445,7 @@
 <h2 id="about-this-release">About this release<a class="headerlink" href="#about-this-release" title="Anchor link to this section">&para;</a></h2>
 <p>Measured at commit <code>bf0203a794a</code>, the window since v0.22.4 contains <strong>231 non-merge commits</strong> across <strong>804 changed files</strong> (+35,212 / −17,885), <strong>81 merged PRs</strong> and <strong>30 closed issues</strong>.</p>
 <p>Also in the window, undocumented here on purpose: Nous sign-in reworked (every sign-in is the plain device login, the free-tier guest hands over to your account, the result shows who signed in, connectors offer sign-in instead of opening a guest), <code>hermes update</code> holding back a stable release it refuses instead of offering it, Windows <code>hermes update</code> no longer stuck on the old launcher after a Python repin, usage-window plan support (plan gauges, limit cards and model-switch recovery for window-based plans), pluggable delegation backends (route subagents by model map or profile, switchable per session), plugin slash commands that can ask you to pick an option, <code>hermes import-agent</code>, OpenClaw migration, <code>hermes mcp serve</code> and the Singularity backend moving out of core into plugins (setup offers the importer when it finds another agent), Desktop drag-to-pin in the sidebar and one-click plugin installs with tier badges, the Electron 44 upgrade, Pillow 13 and a batch of dependency security bumps, a clear message when a chat's working folder is gone, <code>hermes update</code> recovering paused gateways after a damaged <code>.git</code>, long Claude DirectSDK answers no longer cut off by the stall timer, Desktop group chats showing which bot is working again, and the experimental webhook-mode MCP events client.</p>
-<p><strong>Full curated release notes for this window ship with v0.23.0</strong>, which will document everything from v0.22.0 onward  -  highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.</p>
+<p><strong>Full curated release notes for this window ship with v0.23.0</strong>, which will document everything from v0.22.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.</p>
 <h2 id="updating">Updating<a class="headerlink" href="#updating" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Microsoft Store app: updates through the Store.</li>
@@ -12456,9 +12456,9 @@
 <p><strong>Full Changelog</strong>: <a href="https://github.com/NousResearch/hermes-agent/compare/v0.22.4...v0.22.5">v0.22.4...v0.22.5</a></p>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <h3 id="what-changed-in-hermes-agent-v0225">What changed in Hermes Agent v0.22.5?<a class="headerlink" href="#what-changed-in-hermes-agent-v0225" title="Anchor link to this section">&para;</a></h3>
-<p>Patch release. This tag rolls up the ~81 PRs merged since v0.22.4 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for...</p>
+<p>Patch release. This tag rolls up the ~81 PRs merged since v0.22.4 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.23.0.</p>
 <h3 id="when-was-hermes-agent-v0225-released">When was Hermes Agent v0.22.5 released?<a class="headerlink" href="#when-was-hermes-agent-v0225-released" title="Anchor link to this section">&para;</a></h3>
-<p>October 23, 2026</p>
+<p>October 22, 2026</p>
 <hr />
 <p><em>← <a href="https://www.corpusiq.io/docs/hermes/changelog/v0.22.4">v0.22.4 - Patch Release</a> | <a href="https://www.corpusiq.io/docs/hermes/changelog/v0.22.6">v0.22.6 - Patch Release</a> →</em></p>
 <p><em>↑ <a href="https://www.corpusiq.io/docs/hermes/changelog">Changelog Home</a></em></p>
