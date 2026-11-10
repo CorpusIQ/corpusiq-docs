@@ -1,6 +1,6 @@
 ---
 title: "Connectors - CorpusIQ Docs"
-description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more."
+description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more"
 category: "Documentation"
 tags: ["corpusiq connectors", "business tools ai", "chatgpt business data", "oauth connectors", "crm integration", "accounting integration", "analytics connectors", "connect business data to chatgpt", "mcp connectors"]
 last_updated: "2026-11-07"
@@ -65,6 +65,7 @@ The connector model matters because the MCP ecosystem is large and uneven. Publi
 | **LeadConnector (GoHighLevel)** | Contacts, opportunities, appointments, conversations, payments, forms, and calendar data from the GoHighLevel platform. |
 | **Close** | Leads, opportunities (pipeline deals), activities (calls, emails, notes), and sales rep data. Full-text search across leads. |
 | **Odoo** | ERP and CRM: partners, sale orders, CRM leads/opportunities, invoices, products, inventory, and projects. |
+| **Axonaut** | French business suite: companies and contacts, quotations, invoices, payments, CRM opportunities, expenses, products, contracts, and custom fields. |
 | **ActiveCampaign** | Contacts, campaigns, automations, deals, lists, and tags from ActiveCampaign email marketing and CRM. |
 | **Monday.com** | Workspaces, boards, groups, columns, items, and column values from Monday.com project and work management. |
 
@@ -166,7 +167,7 @@ Each connector has a dedicated setup guide with required scopes, example questio
 
 [ActiveCampaign](/connectors/activecampaign) · [Adzviser (alternative)](/connectors/adzviser-alternative)
 [Ahrefs](/connectors/ahrefs) · [Airtable](/connectors/airtable)
-[Amazon Seller](/connectors/amazon_seller) · [Calendly](/connectors/calendly)
+[Amazon Seller](/connectors/amazon_seller) · [Axonaut](/connectors/axonaut) · [Calendly](/connectors/calendly)
 [Close](/connectors/close) · [Constant Contact](/connectors/constantcontact)
 [Azure Cosmos DB](/connectors/cosmosdb) · [Dropbox](/connectors/dropbox)
 [eBay](/connectors/ebay) · [Etsy](/connectors/etsy) · [Meta (Facebook, Instagram, Ads)](/connectors/facebook_marketing)
