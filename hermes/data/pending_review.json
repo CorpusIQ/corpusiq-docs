@@ -91951,5 +91951,207 @@
     "near_duplicates": [],
     "discovered_at": "2026-11-10T10:02:52.094914+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Shiyinq/myaaw",
+    "url": "https://github.com/Shiyinq/myaaw",
+    "description": "Myaaw is my personal AI assistant. You don't need to waste your time trying it out\u2014Use Hermes Agent or OpenClaw instead.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "ai-agent",
+      "personal-ai-assistant"
+    ],
+    "updated_at": "2026-11-10T10:59:53Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "screenpipe/screenpipe",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "Bo1202/Aivy-OS",
+      "codeofaxel/Kiln"
+    ],
+    "discovered_at": "2026-11-10T11:00:41.330093+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nicoarias81/leash",
+    "url": "https://github.com/nicoarias81/leash",
+    "description": "Scope enforcement and evidence ledger for agent-driven security testing in Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T10:59:50Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T11:00:41.331807+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ramakrishnanhulk20/othigai",
+    "url": "https://github.com/ramakrishnanhulk20/othigai",
+    "description": "A fire drill for Hermes agents: find out whether your agent can be tricked, using fake bait.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T11:00:38Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T11:00:41.333442+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Sandeep-Narahari/hermes-agent-akash",
+    "url": "https://github.com/Sandeep-Narahari/hermes-agent-akash",
+    "description": null,
+    "stars": 0,
+    "forks": 1,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-11-10T10:59:10Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T11:00:41.333903+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dadofsambonzuki/hermes-nostr-gateway",
+    "url": "https://github.com/dadofsambonzuki/hermes-nostr-gateway",
+    "description": "Nostr transport hub for Hermes agents: NIP-17/NIP-04 DMs, mentions, feeds, Concord and Marmot \u2014 mirror of the NIP-34 repository at relay.ngit.dev",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T10:58:12Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "tale-project/tale",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "MemTensor/memmy-agent",
+      "rexleimo/aios"
+    ],
+    "discovered_at": "2026-11-10T11:00:41.335876+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Nayan2888/Hermes-Evolution-Android",
+    "url": "https://github.com/Nayan2888/Hermes-Evolution-Android",
+    "description": "Hermes Evolution Android: Standalone Android AI Agent based on Nous Research Hermes Agent (ARM64, Android 16)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T10:57:25Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T11:00:41.337488+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jonjunq/claudia",
+    "url": "https://github.com/jonjunq/claudia",
+    "description": "Your own personal assistant on Claude Code and your Claude subscription, reachable from Telegram: setup guide, templates, and an honest comparison with Hermes Agent.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "ai-assistant",
+      "claude",
+      "claude-code",
+      "personal-assistant",
+      "self-hosted",
+      "telegram"
+    ],
+    "updated_at": "2026-11-10T10:57:14Z",
+    "category": "core",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "JackTheGit/hermes-autonomous-server",
+      "Bo1202/Aivy-OS",
+      "agentrq/agentrq",
+      "Orkas-AI/Orkas",
+      "sno-ai/sno-station",
+      "dfrostar/neuralmind"
+    ],
+    "discovered_at": "2026-11-10T11:00:41.339152+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lexcrirovs-prog/lexcrirovs-prog.github.io",
+    "url": "https://github.com/lexcrirovs-prog/lexcrirovs-prog.github.io",
+    "description": "Hermes Workspace MCP \u2014 personal integration information, privacy policy and terms. Version 2026.11.10.1, prepared by Codex (GPT-6).",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-10T10:53:42Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-10T11:00:49.346982+00:00",
+    "status": "pending"
   }
 ]
