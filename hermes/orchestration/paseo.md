@@ -1,9 +1,9 @@
 ---
 title: "Paseo - Cross-Session Agent Orchestration"
-description: "Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile, web, and CLI."
+description: "Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile"
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/paseo/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-09"
 tags: ["agent orchestration", "multi-agent", "paseo", "coding agents"]
 
 ---
@@ -85,27 +85,28 @@ paseo send abc123 "also add tests" # follow-up task
 paseo run --host workstation.local:6767 --cwd /workspace "run the full test suite"
 ```
 
-## Evaluation Notes (2026-08-30)
+## Evaluation Notes (refreshed 2026-11-09; first review 2026-08-30)
 
-- **Stars / forks / issues:** 15.5K stars, 1.7K forks, 1.1K open issues at time of review.
-- **Velocity:** very active, multiple commits per day, 4,000+ merged PRs since creation (Oct 2025).
+- **Stars / forks / issues:** 23.7K stars, 2.9K forks, 1.9K open issues at the time of this refresh.
+- **Release cadence:** latest release v0.15.3, published 2026-11-06; commits pushed daily (repo active on the refresh date).
+- **Velocity:** 2,286 merged pull requests since the repo was created (2025-10-13).
 - **Language:** TypeScript.
 - **Repo:** https://github.com/getpaseo/paseo · Docs: https://paseo.sh/docs
 - **Watch items:** the issue backlog is large relative to project age; verify release stability before relying on it for production workloads.
 
-## Live Install Status (Spark, 2026-08-30)
+## Live Install Status (Spark, refreshed 2026-11-09)
 
-Installed and verified on the worker node after founder approval:
+Installed on the worker node after founder approval on 2026-08-30:
 
-- CLI: `@getpaseo/cli` 0.6.1 via `npm install -g` → `/home/hermes/.local/bin/paseo`
-- Daemon: started via `paseo onboard` (non-interactive mode), PID 734067
-- Health check: `paseo status` → Local Daemon `running`, Connected Daemon `reachable`, listen `127.0.0.1:6767`, relay **disabled** (privacy-first default, no telemetry)
-- Logs: `~/.paseo/daemon.log` - clean, no errors on startup or client connects
-- Prerequisite note: agent CLIs (Claude Code / Codex / OpenCode) are not yet installed on this host; the daemon runs standalone and agents can be added per provider.
+- CLI: `@getpaseo/cli` 0.6.1 via `npm install -g` → `/home/hermes/.local/bin/paseo`. Upstream is now v0.15.3 (2026-11-06), so the installed CLI is well behind the current release.
+- Daemon: not running at this refresh. `paseo status` reports `stale_pid` for the local daemon and `unreachable` for the connected daemon; the last start was 2026-08-30 (PID 734067). Restart with `paseo onboard` or the desktop app before relying on it.
+- Health check (last good state, 2026-08-30): Local Daemon `running`, Connected Daemon `reachable`, listen `127.0.0.1:6767`, relay **disabled** (privacy-first default, no telemetry).
+- Logs: `~/.paseo/daemon.log` - clean at the 2026-08-30 install, no errors on startup or client connects.
+- Prerequisite note: agent CLIs (Claude Code / Codex / OpenCode) are not installed on this host; the daemon runs standalone and agents can be added per provider.
 
-## Native Hermes Support (verified 2026-08-30)
+## Native Hermes Support (re-verified 2026-11-09)
 
-**Hermes Agent is one of the 39 coding agents Paseo natively runs** - listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent - Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.
+**Hermes Agent is one of the 40+ coding agents Paseo natively runs** - listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent - Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.
 
 ## Fit With This Stack
 
