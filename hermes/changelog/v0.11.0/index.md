@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.11.0 Patch Release
-description: Hermes Agent v0.11.0 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.11.0 Patch Release"
+description: "Hermes Agent v0.11.0 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.11.0/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -13,39 +13,39 @@ tags: ["hermes agent", "ai agent", "nous research"]
 **Release Date:** April 23, 2026
 **Since v0.9.0:** 1,556 commits · 761 merged PRs · 1,314 files changed · 224,174 insertions · 29 community contributors (290 including co-authors)
 
-> The Interface release  -  a full React/Ink rewrite of the interactive CLI, a pluggable transport architecture underneath every provider, native AWS Bedrock support, five new inference paths, a 17th messaging platform (QQBot), a dramatically expanded plugin surface, and GPT-5.5 via Codex OAuth.
+> The Interface release - a full React/Ink rewrite of the interactive CLI, a pluggable transport architecture underneath every provider, native AWS Bedrock support, five new inference paths, a 17th messaging platform (QQBot), a dramatically expanded plugin surface, and GPT-5.5 via Codex OAuth.
 
-This release also folds in all the highlights deferred from v0.10.0 (which shipped only the Nous Tool Gateway)  -  so it covers roughly two weeks of work across the whole stack.
+This release also folds in all the highlights deferred from v0.10.0 (which shipped only the Nous Tool Gateway) - so it covers roughly two weeks of work across the whole stack.
 
 ---
 
 ## ✨ Highlights
 
-- **New Ink-based TUI**  -  `hermes --tui` is now a full React/Ink rewrite of the interactive CLI, with a Python JSON-RPC backend (`tui_gateway`). Sticky composer, live streaming with OSC-52 clipboard support, stable picker keys, status bar with per-turn stopwatch and git branch, `/clear` confirm, light-theme preset, and a subagent spawn observability overlay. ~310 commits to `ui-tui/` + `tui_gateway/`. (@OutThisLife + Teknium)
+- **New Ink-based TUI** - `hermes --tui` is now a full React/Ink rewrite of the interactive CLI, with a Python JSON-RPC backend (`tui_gateway`). Sticky composer, live streaming with OSC-52 clipboard support, stable picker keys, status bar with per-turn stopwatch and git branch, `/clear` confirm, light-theme preset, and a subagent spawn observability overlay. ~310 commits to `ui-tui/` + `tui_gateway/`. (@OutThisLife + Teknium)
 
-- **Transport ABC + Native AWS Bedrock**  -  Format conversion and HTTP transport were extracted from `run_agent.py` into a pluggable `agent/transports/` layer. `AnthropicTransport`, `ChatCompletionsTransport`, `ResponsesApiTransport`, and `BedrockTransport` each own their own format conversion and API shape. Native AWS Bedrock support via the Converse API ships on top of the new abstraction. ([#10549](https://github.com/NousResearch/hermes-agent/pull/10549), [#13347](https://github.com/NousResearch/hermes-agent/pull/13347), [#13366](https://github.com/NousResearch/hermes-agent/pull/13366), [#13430](https://github.com/NousResearch/hermes-agent/pull/13430), [#13805](https://github.com/NousResearch/hermes-agent/pull/13805), [#13814](https://github.com/NousResearch/hermes-agent/pull/13814)  -  @kshitijk4poor + Teknium)
+- **Transport ABC + Native AWS Bedrock** - Format conversion and HTTP transport were extracted from `run_agent.py` into a pluggable `agent/transports/` layer. `AnthropicTransport`, `ChatCompletionsTransport`, `ResponsesApiTransport`, and `BedrockTransport` each own their own format conversion and API shape. Native AWS Bedrock support via the Converse API ships on top of the new abstraction. ([#10549](https://github.com/NousResearch/hermes-agent/pull/10549), [#13347](https://github.com/NousResearch/hermes-agent/pull/13347), [#13366](https://github.com/NousResearch/hermes-agent/pull/13366), [#13430](https://github.com/NousResearch/hermes-agent/pull/13430), [#13805](https://github.com/NousResearch/hermes-agent/pull/13805), [#13814](https://github.com/NousResearch/hermes-agent/pull/13814) - @kshitijk4poor + Teknium)
 
-- **Five new inference paths**  -  Native NVIDIA NIM ([#11774](https://github.com/NousResearch/hermes-agent/pull/11774)), Arcee AI ([#9276](https://github.com/NousResearch/hermes-agent/pull/9276)), Step Plan ([#13893](https://github.com/NousResearch/hermes-agent/pull/13893)), Google Gemini CLI OAuth ([#11270](https://github.com/NousResearch/hermes-agent/pull/11270)), and Vercel ai-gateway with pricing + dynamic discovery ([#13223](https://github.com/NousResearch/hermes-agent/pull/13223)  -  @jerilynzheng). Plus Gemini routed through the native AI Studio API for better performance ([#12674](https://github.com/NousResearch/hermes-agent/pull/12674)).
+- **Five new inference paths** - Native NVIDIA NIM ([#11774](https://github.com/NousResearch/hermes-agent/pull/11774)), Arcee AI ([#9276](https://github.com/NousResearch/hermes-agent/pull/9276)), Step Plan ([#13893](https://github.com/NousResearch/hermes-agent/pull/13893)), Google Gemini CLI OAuth ([#11270](https://github.com/NousResearch/hermes-agent/pull/11270)), and Vercel ai-gateway with pricing + dynamic discovery ([#13223](https://github.com/NousResearch/hermes-agent/pull/13223) - @jerilynzheng). Plus Gemini routed through the native AI Studio API for better performance ([#12674](https://github.com/NousResearch/hermes-agent/pull/12674)).
 
-- **GPT-5.5 over Codex OAuth**  -  OpenAI's new GPT-5.5 reasoning model is now available through your ChatGPT Codex OAuth, with live model discovery wired into the model picker so new OpenAI releases show up without catalog updates. ([#14720](https://github.com/NousResearch/hermes-agent/pull/14720))
+- **GPT-5.5 over Codex OAuth** - OpenAI's new GPT-5.5 reasoning model is now available through your ChatGPT Codex OAuth, with live model discovery wired into the model picker so new OpenAI releases show up without catalog updates. ([#14720](https://github.com/NousResearch/hermes-agent/pull/14720))
 
-- **QQBot  -  17th supported platform**  -  Native QQBot adapter via QQ Official API v2, with QR scan-to-configure setup wizard, streaming cursor, emoji reactions, and DM/group policy gating that matches WeCom/Weixin parity. ([#9364](https://github.com/NousResearch/hermes-agent/pull/9364), [#11831](https://github.com/NousResearch/hermes-agent/pull/11831))
+- **QQBot - 17th supported platform** - Native QQBot adapter via QQ Official API v2, with QR scan-to-configure setup wizard, streaming cursor, emoji reactions, and DM/group policy gating that matches WeCom/Weixin parity. ([#9364](https://github.com/NousResearch/hermes-agent/pull/9364), [#11831](https://github.com/NousResearch/hermes-agent/pull/11831))
 
-- **Plugin surface expanded**  -  Plugins can now register slash commands (`register_command`), dispatch tools directly (`dispatch_tool`), block tool execution from hooks (`pre_tool_call` can veto), rewrite tool results (`transform_tool_result`), transform terminal output (`transform_terminal_output`), ship image_gen backends, and add custom dashboard tabs. The bundled disk-cleanup plugin is opt-in by default as a reference implementation. ([#9377](https://github.com/NousResearch/hermes-agent/pull/9377), [#10626](https://github.com/NousResearch/hermes-agent/pull/10626), [#10763](https://github.com/NousResearch/hermes-agent/pull/10763), [#10951](https://github.com/NousResearch/hermes-agent/pull/10951), [#12929](https://github.com/NousResearch/hermes-agent/pull/12929), [#12944](https://github.com/NousResearch/hermes-agent/pull/12944), [#12972](https://github.com/NousResearch/hermes-agent/pull/12972), [#13799](https://github.com/NousResearch/hermes-agent/pull/13799), [#14175](https://github.com/NousResearch/hermes-agent/pull/14175))
+- **Plugin surface expanded** - Plugins can now register slash commands (`register_command`), dispatch tools directly (`dispatch_tool`), block tool execution from hooks (`pre_tool_call` can veto), rewrite tool results (`transform_tool_result`), transform terminal output (`transform_terminal_output`), ship image_gen backends, and add custom dashboard tabs. The bundled disk-cleanup plugin is opt-in by default as a reference implementation. ([#9377](https://github.com/NousResearch/hermes-agent/pull/9377), [#10626](https://github.com/NousResearch/hermes-agent/pull/10626), [#10763](https://github.com/NousResearch/hermes-agent/pull/10763), [#10951](https://github.com/NousResearch/hermes-agent/pull/10951), [#12929](https://github.com/NousResearch/hermes-agent/pull/12929), [#12944](https://github.com/NousResearch/hermes-agent/pull/12944), [#12972](https://github.com/NousResearch/hermes-agent/pull/12972), [#13799](https://github.com/NousResearch/hermes-agent/pull/13799), [#14175](https://github.com/NousResearch/hermes-agent/pull/14175))
 
-- **`/steer`  -  mid-run agent nudges**  -  `/steer <prompt>` injects a note that the running agent sees after its next tool call, without interrupting the turn or breaking prompt cache. For when you want to course-correct an agent in-flight. ([#12116](https://github.com/NousResearch/hermes-agent/pull/12116))
+- **`/steer` - mid-run agent nudges** - `/steer <prompt>` injects a note that the running agent sees after its next tool call, without interrupting the turn or breaking prompt cache. For when you want to course-correct an agent in-flight. ([#12116](https://github.com/NousResearch/hermes-agent/pull/12116))
 
-- **Shell hooks**  -  Wire any shell script as a Hermes lifecycle hook (pre_tool_call, post_tool_call, on_session_start, etc.) without writing a Python plugin. ([#13296](https://github.com/NousResearch/hermes-agent/pull/13296))
+- **Shell hooks** - Wire any shell script as a Hermes lifecycle hook (pre_tool_call, post_tool_call, on_session_start, etc.) without writing a Python plugin. ([#13296](https://github.com/NousResearch/hermes-agent/pull/13296))
 
-- **Webhook direct-delivery mode**  -  Webhook subscriptions can now forward payloads straight to a platform chat without going through the agent  -  zero-LLM push notifications for alerting, uptime checks, and event streams. ([#12473](https://github.com/NousResearch/hermes-agent/pull/12473))
+- **Webhook direct-delivery mode** - Webhook subscriptions can now forward payloads straight to a platform chat without going through the agent - zero-LLM push notifications for alerting, uptime checks, and event streams. ([#12473](https://github.com/NousResearch/hermes-agent/pull/12473))
 
-- **Smarter delegation**  -  Subagents now have an explicit `orchestrator` role that can spawn their own workers, with configurable `max_spawn_depth` (default flat). Concurrent sibling subagents share filesystem state through a file-coordination layer so they don't clobber each other's edits. ([#13691](https://github.com/NousResearch/hermes-agent/pull/13691), [#13718](https://github.com/NousResearch/hermes-agent/pull/13718))
+- **Smarter delegation** - Subagents now have an explicit `orchestrator` role that can spawn their own workers, with configurable `max_spawn_depth` (default flat). Concurrent sibling subagents share filesystem state through a file-coordination layer so they don't clobber each other's edits. ([#13691](https://github.com/NousResearch/hermes-agent/pull/13691), [#13718](https://github.com/NousResearch/hermes-agent/pull/13718))
 
-- **Auxiliary models  -  configurable UI + main-model-first**  -  `hermes model` has a dedicated "Configure auxiliary models" screen for per-task overrides (compression, vision, session_search, title_generation). `auto` routing now defaults to the main model for side tasks across all users (previously aggregator users were silently routed to a cheap provider-side default). ([#11891](https://github.com/NousResearch/hermes-agent/pull/11891), [#11900](https://github.com/NousResearch/hermes-agent/pull/11900))
+- **Auxiliary models - configurable UI + main-model-first** - `hermes model` has a dedicated "Configure auxiliary models" screen for per-task overrides (compression, vision, session_search, title_generation). `auto` routing now defaults to the main model for side tasks across all users (previously aggregator users were silently routed to a cheap provider-side default). ([#11891](https://github.com/NousResearch/hermes-agent/pull/11891), [#11900](https://github.com/NousResearch/hermes-agent/pull/11900))
 
-- **Dashboard plugin system + live theme switching**  -  The web dashboard is now extensible. Third-party plugins can add custom tabs, widgets, and views without forking. Paired with a live-switching theme system  -  themes now control colors, fonts, layout, and density  -  so users can hot-swap the dashboard look without a reload. Same theming discipline the CLI has, now on the web. ([#10951](https://github.com/NousResearch/hermes-agent/pull/10951), [#10687](https://github.com/NousResearch/hermes-agent/pull/10687), [#14725](https://github.com/NousResearch/hermes-agent/pull/14725))
+- **Dashboard plugin system + live theme switching** - The web dashboard is now extensible. Third-party plugins can add custom tabs, widgets, and views without forking. Paired with a live-switching theme system - themes now control colors, fonts, layout, and density - so users can hot-swap the dashboard look without a reload. Same theming discipline the CLI has, now on the web. ([#10951](https://github.com/NousResearch/hermes-agent/pull/10951), [#10687](https://github.com/NousResearch/hermes-agent/pull/10687), [#14725](https://github.com/NousResearch/hermes-agent/pull/14725))
 
-- **Dashboard polish**  -  i18n (English + Chinese), react-router sidebar layout, mobile-responsive, Vercel deployment, real per-session API call tracking, and one-click update + gateway restart buttons. ([#9228](https://github.com/NousResearch/hermes-agent/pull/9228), [#9370](https://github.com/NousResearch/hermes-agent/pull/9370), [#9453](https://github.com/NousResearch/hermes-agent/pull/9453), [#10686](https://github.com/NousResearch/hermes-agent/pull/10686), [#13526](https://github.com/NousResearch/hermes-agent/pull/13526), [#14004](https://github.com/NousResearch/hermes-agent/pull/14004)  -  @austinpickett + @DeployFaith + Teknium)
+- **Dashboard polish** - i18n (English + Chinese), react-router sidebar layout, mobile-responsive, Vercel deployment, real per-session API call tracking, and one-click update + gateway restart buttons. ([#9228](https://github.com/NousResearch/hermes-agent/pull/9228), [#9370](https://github.com/NousResearch/hermes-agent/pull/9370), [#9453](https://github.com/NousResearch/hermes-agent/pull/9453), [#10686](https://github.com/NousResearch/hermes-agent/pull/10686), [#13526](https://github.com/NousResearch/hermes-agent/pull/13526), [#14004](https://github.com/NousResearch/hermes-agent/pull/14004) - @austinpickett + @DeployFaith + Teknium)
 
 ---
 
@@ -53,10 +53,10 @@ This release also folds in all the highlights deferred from v0.10.0 (which shipp
 
 ### Transport Layer (NEW)
 - **Transport ABC** abstracts format conversion and HTTP transport from `run_agent.py` into `agent/transports/` ([#13347](https://github.com/NousResearch/hermes-agent/pull/13347))
-- **AnthropicTransport**  -  Anthropic Messages API path ([#13366](https://github.com/NousResearch/hermes-agent/pull/13366), @kshitijk4poor)
-- **ChatCompletionsTransport**  -  default path for OpenAI-compatible providers ([#13805](https://github.com/NousResearch/hermes-agent/pull/13805))
-- **ResponsesApiTransport**  -  OpenAI Responses API + Codex build_kwargs wiring ([#13430](https://github.com/NousResearch/hermes-agent/pull/13430), @kshitijk4poor)
-- **BedrockTransport**  -  AWS Bedrock Converse API transport ([#13814](https://github.com/NousResearch/hermes-agent/pull/13814))
+- **AnthropicTransport** - Anthropic Messages API path ([#13366](https://github.com/NousResearch/hermes-agent/pull/13366), @kshitijk4poor)
+- **ChatCompletionsTransport** - default path for OpenAI-compatible providers ([#13805](https://github.com/NousResearch/hermes-agent/pull/13805))
+- **ResponsesApiTransport** - OpenAI Responses API + Codex build_kwargs wiring ([#13430](https://github.com/NousResearch/hermes-agent/pull/13430), @kshitijk4poor)
+- **BedrockTransport** - AWS Bedrock Converse API transport ([#13814](https://github.com/NousResearch/hermes-agent/pull/13814))
 
 ### Provider & Model Support
 - **Native AWS Bedrock provider** via Converse API ([#10549](https://github.com/NousResearch/hermes-agent/pull/10549))
@@ -68,14 +68,14 @@ This release also folds in all the highlights deferred from v0.10.0 (which shipp
 - **GPT-5.5 over Codex OAuth** with live model discovery in the picker ([#14720](https://github.com/NousResearch/hermes-agent/pull/14720))
 - **Gemini routed through native AI Studio API** ([#12674](https://github.com/NousResearch/hermes-agent/pull/12674))
 - **xAI Grok upgraded to Responses API** ([#10783](https://github.com/NousResearch/hermes-agent/pull/10783))
-- **Ollama improvements**  -  Cloud provider support, GLM continuation, `think=false` control, surrogate sanitization, `/v1` hint ([#10782](https://github.com/NousResearch/hermes-agent/pull/10782))
+- **Ollama improvements** - Cloud provider support, GLM continuation, `think=false` control, surrogate sanitization, `/v1` hint ([#10782](https://github.com/NousResearch/hermes-agent/pull/10782))
 - **Kimi K2.6** across OpenRouter, Nous Portal, native Kimi, and HuggingFace ([#13148](https://github.com/NousResearch/hermes-agent/pull/13148), [#13152](https://github.com/NousResearch/hermes-agent/pull/13152), [#13169](https://github.com/NousResearch/hermes-agent/pull/13169))
 - **Kimi K2.5** promoted to first position in all model suggestion lists ([#11745](https://github.com/NousResearch/hermes-agent/pull/11745), @kshitijk4poor)
 - **Xiaomi MiMo v2.5-pro + v2.5** on OpenRouter, Nous Portal, and native ([#14184](https://github.com/NousResearch/hermes-agent/pull/14184), [#14635](https://github.com/NousResearch/hermes-agent/pull/14635), @kshitijk4poor)
 - **GLM-5V-Turbo** for coding plan ([#9907](https://github.com/NousResearch/hermes-agent/pull/9907))
 - **Claude Opus 4.7** in Nous Portal catalog ([#11398](https://github.com/NousResearch/hermes-agent/pull/11398))
 - **OpenRouter elephant-alpha** in curated lists ([#9378](https://github.com/NousResearch/hermes-agent/pull/9378))
-- **OpenCode-Go**  -  Kimi K2.6 and Qwen3.5/3.6 Plus in curated catalog ([#13429](https://github.com/NousResearch/hermes-agent/pull/13429))
+- **OpenCode-Go** - Kimi K2.6 and Qwen3.5/3.6 Plus in curated catalog ([#13429](https://github.com/NousResearch/hermes-agent/pull/13429))
 - **minimax/minimax-m2.5:free** in OpenRouter catalog ([#13836](https://github.com/NousResearch/hermes-agent/pull/13836))
 - **`/model` merges models.dev entries** for lesser-loved providers ([#14221](https://github.com/NousResearch/hermes-agent/pull/14221))
 - **Per-provider + per-model `request_timeout_seconds`** config ([#12652](https://github.com/NousResearch/hermes-agent/pull/12652))
@@ -93,7 +93,7 @@ This release also folds in all the highlights deferred from v0.10.0 (which shipp
 - Fix: stream reasoning content through OpenAI-compatible providers that emit it
 
 ### Agent Loop & Conversation
-- **`/steer <prompt>`**  -  mid-run agent nudges after next tool call ([#12116](https://github.com/NousResearch/hermes-agent/pull/12116))
+- **`/steer <prompt>`** - mid-run agent nudges after next tool call ([#12116](https://github.com/NousResearch/hermes-agent/pull/12116))
 - **Orchestrator role + configurable spawn depth** for `delegate_task` (default flat) ([#13691](https://github.com/NousResearch/hermes-agent/pull/13691))
 - **Cross-agent file state coordination** for concurrent subagents ([#13718](https://github.com/NousResearch/hermes-agent/pull/13718))
 - **Compressor smart collapse, dedup, anti-thrashing**, template upgrade, hardening ([#10088](https://github.com/NousResearch/hermes-agent/pull/10088))
@@ -101,7 +101,7 @@ This release also folds in all the highlights deferred from v0.10.0 (which shipp
 - **Compression model falls back to main model** on permanent 503/404 ([#10093](https://github.com/NousResearch/hermes-agent/pull/10093))
 - **Auto-continue interrupted agent work** after gateway restart ([#9934](https://github.com/NousResearch/hermes-agent/pull/9934))
 - **Activity heartbeats** prevent false gateway inactivity timeouts ([#10501](https://github.com/NousResearch/hermes-agent/pull/10501))
-- **Auxiliary models UI**  -  dedicated screen for per-task overrides ([#11891](https://github.com/NousResearch/hermes-agent/pull/11891))
+- **Auxiliary models UI** - dedicated screen for per-task overrides ([#11891](https://github.com/NousResearch/hermes-agent/pull/11891))
 - **Auxiliary auto routing defaults to main model** for all users ([#11900](https://github.com/NousResearch/hermes-agent/pull/11900))
 - **PLATFORM_HINTS for Matrix, Mattermost, Feishu** ([#14428](https://github.com/NousResearch/hermes-agent/pull/14428), @alt-glitch)
 - Fix: reset retry counters after compression; stop poisoning conversation history ([#10055](https://github.com/NousResearch/hermes-agent/pull/10055))
@@ -120,7 +120,7 @@ This release also folds in all the highlights deferred from v0.10.0 (which shipp
 
 ### Session & Memory
 - **Auto-prune old sessions + VACUUM state.db** at startup ([#13861](https://github.com/NousResearch/hermes-agent/pull/13861))
-- **Honcho overhaul**  -  context injection, 5-tool surface, cost safety, session isolation ([#10619](https://github.com/NousResearch/hermes-agent/pull/10619))
+- **Honcho overhaul** - context injection, 5-tool surface, cost safety, session isolation ([#10619](https://github.com/NousResearch/hermes-agent/pull/10619))
 - **Hindsight richer session-scoped retain metadata** (salvage of #6290) ([#13987](https://github.com/NousResearch/hermes-agent/pull/13987))
 - Fix: deduplicate memory provider tools to prevent 400 on strict providers ([#10511](https://github.com/NousResearch/hermes-agent/pull/10511))
 - Fix: discover user-installed memory providers from `$HERMES_HOME/plugins/` ([#10529](https://github.com/NousResearch/hermes-agent/pull/10529))
@@ -131,7 +131,7 @@ This release also folds in all the highlights deferred from v0.10.0 (which shipp
 
 ## 🖥️ New Ink-based TUI
 
-A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` or `HERMES_TUI=1`. Shipped across ~310 commits to `ui-tui/` and `tui_gateway/`.
+A full React/Ink rewrite of the interactive CLI - invoked via `hermes --tui` or `HERMES_TUI=1`. Shipped across ~310 commits to `ui-tui/` and `tui_gateway/`.
 
 ### TUI Foundations
 - New TUI based on Ink + Python JSON-RPC backend
@@ -162,7 +162,7 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 ## 📱 Messaging Platforms (Gateway)
 
 ### New Platforms
-- **QQBot (17th platform)**  -  QQ Official API v2 adapter with QR setup, streaming, package split ([#9364](https://github.com/NousResearch/hermes-agent/pull/9364), [#11831](https://github.com/NousResearch/hermes-agent/pull/11831))
+- **QQBot (17th platform)** - QQ Official API v2 adapter with QR setup, streaming, package split ([#9364](https://github.com/NousResearch/hermes-agent/pull/9364), [#11831](https://github.com/NousResearch/hermes-agent/pull/11831))
 
 ### Telegram
 - **Dedicated `TELEGRAM_PROXY` env var + config.yaml proxy support** (closes #9414, #6530, #9074, #7786) ([#10681](https://github.com/NousResearch/hermes-agent/pull/10681))
@@ -197,7 +197,7 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 - **AI Cards streaming, emoji reactions, and media handling** (salvage of #10985) ([#11910](https://github.com/NousResearch/hermes-agent/pull/11910))
 
 ### WhatsApp
-- **`send_voice`**  -  native audio message delivery ([#13002](https://github.com/NousResearch/hermes-agent/pull/13002))
+- **`send_voice`** - native audio message delivery ([#13002](https://github.com/NousResearch/hermes-agent/pull/13002))
 - **`dm_policy` and `group_policy`** parity with WeCom/Weixin/QQ adapters ([#13151](https://github.com/NousResearch/hermes-agent/pull/13151))
 
 ### WeCom / Weixin
@@ -213,7 +213,7 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 - Group chat session separation, webhook registration & auth fixes ([#9806](https://github.com/NousResearch/hermes-agent/pull/9806))
 
 ### Gateway Core
-- **Gateway proxy mode**  -  forward messages to a remote API server ([#9787](https://github.com/NousResearch/hermes-agent/pull/9787))
+- **Gateway proxy mode** - forward messages to a remote API server ([#9787](https://github.com/NousResearch/hermes-agent/pull/9787))
 - **Per-channel ephemeral prompts** (Discord, Telegram, Slack, Mattermost) ([#10564](https://github.com/NousResearch/hermes-agent/pull/10564))
 - **Surface plugin slash commands** natively on all platforms + decision-capable command hook ([#14175](https://github.com/NousResearch/hermes-agent/pull/14175))
 - **Support document/archive extensions in MEDIA: tag extraction** (salvage #8255) ([#14307](https://github.com/NousResearch/hermes-agent/pull/14307))
@@ -235,16 +235,16 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 ## 🔧 Tool System
 
 ### Plugin Surface (major expansion)
-- **`register_command()`**  -  plugins can now add slash commands ([#10626](https://github.com/NousResearch/hermes-agent/pull/10626))
-- **`dispatch_tool()`**  -  plugins can invoke tools from their code ([#10763](https://github.com/NousResearch/hermes-agent/pull/10763))
-- **`pre_tool_call` blocking**  -  plugins can veto tool execution ([#9377](https://github.com/NousResearch/hermes-agent/pull/9377))
-- **`transform_tool_result`**  -  plugins rewrite tool results generically ([#12972](https://github.com/NousResearch/hermes-agent/pull/12972))
-- **`transform_terminal_output`**  -  plugins rewrite terminal tool output ([#12929](https://github.com/NousResearch/hermes-agent/pull/12929))
+- **`register_command()`** - plugins can now add slash commands ([#10626](https://github.com/NousResearch/hermes-agent/pull/10626))
+- **`dispatch_tool()`** - plugins can invoke tools from their code ([#10763](https://github.com/NousResearch/hermes-agent/pull/10763))
+- **`pre_tool_call` blocking** - plugins can veto tool execution ([#9377](https://github.com/NousResearch/hermes-agent/pull/9377))
+- **`transform_tool_result`** - plugins rewrite tool results generically ([#12972](https://github.com/NousResearch/hermes-agent/pull/12972))
+- **`transform_terminal_output`** - plugins rewrite terminal tool output ([#12929](https://github.com/NousResearch/hermes-agent/pull/12929))
 - **Namespaced skill registration** for plugin skill bundles ([#9786](https://github.com/NousResearch/hermes-agent/pull/9786))
 - **Opt-in-by-default + bundled disk-cleanup plugin** (salvage #12212) ([#12944](https://github.com/NousResearch/hermes-agent/pull/12944))
 - **Pluggable `image_gen` backends + OpenAI provider** ([#13799](https://github.com/NousResearch/hermes-agent/pull/13799))
 - **`openai-codex` image_gen plugin** (gpt-image-2 via Codex OAuth) ([#14317](https://github.com/NousResearch/hermes-agent/pull/14317))
-- **Shell hooks**  -  wire shell scripts as hook callbacks ([#13296](https://github.com/NousResearch/hermes-agent/pull/13296))
+- **Shell hooks** - wire shell scripts as hook callbacks ([#13296](https://github.com/NousResearch/hermes-agent/pull/13296))
 
 ### Browser
 - **`browser_cdp` raw DevTools Protocol passthrough** ([#12369](https://github.com/NousResearch/hermes-agent/pull/12369))
@@ -267,23 +267,23 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 - **CLI record beep toggle** ([#13247](https://github.com/NousResearch/hermes-agent/pull/13247), @helix4u)
 
 ### Webhook / Cron
-- **Webhook direct-delivery mode**  -  zero-LLM push notifications ([#12473](https://github.com/NousResearch/hermes-agent/pull/12473))
-- **Cron `wakeAgent` gate**  -  scripts can skip the agent entirely ([#12373](https://github.com/NousResearch/hermes-agent/pull/12373))
-- **Cron per-job `enabled_toolsets`**  -  cap token overhead + cost per job ([#14767](https://github.com/NousResearch/hermes-agent/pull/14767))
+- **Webhook direct-delivery mode** - zero-LLM push notifications ([#12473](https://github.com/NousResearch/hermes-agent/pull/12473))
+- **Cron `wakeAgent` gate** - scripts can skip the agent entirely ([#12373](https://github.com/NousResearch/hermes-agent/pull/12373))
+- **Cron per-job `enabled_toolsets`** - cap token overhead + cost per job ([#14767](https://github.com/NousResearch/hermes-agent/pull/14767))
 
 ### Delegate
 - **Orchestrator role** + configurable spawn depth (default flat) ([#13691](https://github.com/NousResearch/hermes-agent/pull/13691))
 - **Cross-agent file state coordination** ([#13718](https://github.com/NousResearch/hermes-agent/pull/13718))
 
 ### File / Patch
-- **`patch`  -  "did you mean?" feedback** when patch fails to match ([#13435](https://github.com/NousResearch/hermes-agent/pull/13435))
+- **`patch` - "did you mean?" feedback** when patch fails to match ([#13435](https://github.com/NousResearch/hermes-agent/pull/13435))
 
 ### API Server
 - **Stream `/v1/responses` SSE tool events** (salvage #9779) ([#10049](https://github.com/NousResearch/hermes-agent/pull/10049))
 - **Inline image inputs** on `/v1/chat/completions` and `/v1/responses` ([#12969](https://github.com/NousResearch/hermes-agent/pull/12969))
 
 ### Docker / Podman
-- **Entry-level Podman support**  -  `find_docker()` + rootless entrypoint ([#10066](https://github.com/NousResearch/hermes-agent/pull/10066))
+- **Entry-level Podman support** - `find_docker()` + rootless entrypoint ([#10066](https://github.com/NousResearch/hermes-agent/pull/10066))
 - **Add docker-cli to Docker image** (salvage #10096) ([#14232](https://github.com/NousResearch/hermes-agent/pull/14232))
 - **File-sync back to host on teardown** (salvage of #8189 + hardening) ([#11291](https://github.com/NousResearch/hermes-agent/pull/11291))
 
@@ -297,9 +297,9 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 ### Skill System
 - **Namespaced skill registration** for plugin bundles ([#9786](https://github.com/NousResearch/hermes-agent/pull/9786))
 - **`hermes skills reset`** to un-stick bundled skills ([#11468](https://github.com/NousResearch/hermes-agent/pull/11468))
-- **Skills guard opt-in**  -  `config.skills.guard_agent_created` (default off) ([#14557](https://github.com/NousResearch/hermes-agent/pull/14557))
+- **Skills guard opt-in** - `config.skills.guard_agent_created` (default off) ([#14557](https://github.com/NousResearch/hermes-agent/pull/14557))
 - **Bundled skill scripts runnable out of the box** ([#13384](https://github.com/NousResearch/hermes-agent/pull/13384))
-- **`xitter` replaced with `xurl`**  -  the official X API CLI ([#12303](https://github.com/NousResearch/hermes-agent/pull/12303))
+- **`xitter` replaced with `xurl`** - the official X API CLI ([#12303](https://github.com/NousResearch/hermes-agent/pull/12303))
 - **MiniMax-AI/cli as default skill tap** (salvage #7501) ([#14493](https://github.com/NousResearch/hermes-agent/pull/14493))
 - **Fuzzy `@` file completions + mtime sorting** ([#9467](https://github.com/NousResearch/hermes-agent/pull/9467))
 
@@ -308,14 +308,14 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 - **architecture-diagram** (Cocoon AI port) ([#9906](https://github.com/NousResearch/hermes-agent/pull/9906))
 - **pixel-art** with hardware palettes and video animation ([#12663](https://github.com/NousResearch/hermes-agent/pull/12663), [#12725](https://github.com/NousResearch/hermes-agent/pull/12725))
 - **baoyu-comic** ([#13257](https://github.com/NousResearch/hermes-agent/pull/13257), @JimLiu)
-- **baoyu-infographic**  -  21 layouts × 21 styles (salvage #9901) ([#12254](https://github.com/NousResearch/hermes-agent/pull/12254))
-- **page-agent**  -  embed Alibaba's in-page GUI agent in your webapp ([#13976](https://github.com/NousResearch/hermes-agent/pull/13976))
+- **baoyu-infographic** - 21 layouts × 21 styles (salvage #9901) ([#12254](https://github.com/NousResearch/hermes-agent/pull/12254))
+- **page-agent** - embed Alibaba's in-page GUI agent in your webapp ([#13976](https://github.com/NousResearch/hermes-agent/pull/13976))
 - **fitness-nutrition** optional skill + optional env var support ([#9355](https://github.com/NousResearch/hermes-agent/pull/9355))
-- **drug-discovery**  -  ChEMBL, PubChem, OpenFDA, ADMET ([#9443](https://github.com/NousResearch/hermes-agent/pull/9443))
+- **drug-discovery** - ChEMBL, PubChem, OpenFDA, ADMET ([#9443](https://github.com/NousResearch/hermes-agent/pull/9443))
 - **touchdesigner-mcp** (salvage of #10081) ([#12298](https://github.com/NousResearch/hermes-agent/pull/12298))
 - **adversarial-ux-test** optional skill (salvage of #2494, @omnissiah-comelse) ([#13425](https://github.com/NousResearch/hermes-agent/pull/13425))
-- **maps**  -  added `guest_house`, `camp_site`, and dual-key bakery lookup ([#13398](https://github.com/NousResearch/hermes-agent/pull/13398))
-- **llm-wiki**  -  port provenance markers, source hashing, and quality signals ([#13700](https://github.com/NousResearch/hermes-agent/pull/13700))
+- **maps** - added `guest_house`, `camp_site`, and dual-key bakery lookup ([#13398](https://github.com/NousResearch/hermes-agent/pull/13398))
+- **llm-wiki** - port provenance markers, source hashing, and quality signals ([#13700](https://github.com/NousResearch/hermes-agent/pull/13700))
 
 ---
 
@@ -323,7 +323,7 @@ A full React/Ink rewrite of the interactive CLI  -  invoked via `hermes --tui` o
 
 - **i18n (English + Chinese) language switcher** ([#9453](https://github.com/NousResearch/hermes-agent/pull/9453))
 - **Live-switching theme system** ([#10687](https://github.com/NousResearch/hermes-agent/pull/10687))
-- **Dashboard plugin system**  -  extend the web UI with custom tabs ([#10951](https://github.com/NousResearch/hermes-agent/pull/10951))
+- **Dashboard plugin system** - extend the web UI with custom tabs ([#10951](https://github.com/NousResearch/hermes-agent/pull/10951))
 - **react-router, sidebar layout, sticky header, dropdown component** ([#9370](https://github.com/NousResearch/hermes-agent/pull/9370), @austinpickett)
 - **Responsive for mobile** ([#9228](https://github.com/NousResearch/hermes-agent/pull/9228), @DeployFaith)
 - **Vercel deployment** ([#10686](https://github.com/NousResearch/hermes-agent/pull/10686), [#11061](https://github.com/NousResearch/hermes-agent/pull/11061), @austinpickett)
@@ -375,7 +375,7 @@ The `fix:` category in this window covers 482 PRs. Highlights:
 - Trajectory compressor credentials load from `HERMES_HOME/.env` ([#9632](https://github.com/NousResearch/hermes-agent/pull/9632), @Dusk1e)
 - `@_context_completions` no longer crashes on `@` mention ([#9683](https://github.com/NousResearch/hermes-agent/pull/9683), @kshitijk4poor)
 - Group session `user_id` no longer treated as `thread_id` in shutdown notifications ([#10546](https://github.com/NousResearch/hermes-agent/pull/10546))
-- Telegram `platform_hint`  -  markdown is supported (closes #8261) ([#10612](https://github.com/NousResearch/hermes-agent/pull/10612))
+- Telegram `platform_hint` - markdown is supported (closes #8261) ([#10612](https://github.com/NousResearch/hermes-agent/pull/10612))
 - Doctor checks for Kimi China credentials fixed
 - Streaming: don't suppress final response when commentary message is sent ([#10540](https://github.com/NousResearch/hermes-agent/pull/10540))
 - Rapid Telegram follow-ups no longer get cut off
@@ -407,14 +407,14 @@ The `fix:` category in this window covers 482 PRs. Highlights:
 - **@teknium1** (Teknium)
 
 ### Top Community Contributors (by merged PR count)
-- **@kshitijk4poor**  -  49 PRs · Transport refactor (AnthropicTransport, ResponsesApiTransport), Step Plan provider, Xiaomi MiMo v2.5 support, numerous gateway fixes, promoted Kimi K2.5, @ mention crash fix
-- **@OutThisLife** (Brooklyn)  -  31 PRs · TUI polish, git branch in status bar, per-turn stopwatch, stable picker keys, `/clear` confirm, light-theme preset, subagent spawn observability overlay
-- **@helix4u**  -  11 PRs · Voice CLI record beep, MCP tool interrupt handling, assorted stability fixes
-- **@austinpickett**  -  8 PRs · Dashboard react-router + sidebar + sticky header + dropdown, Vercel deployment, update + restart buttons
-- **@alt-glitch**  -  8 PRs · PLATFORM_HINTS for Matrix/Mattermost/Feishu, Matrix fixes
-- **@ethernet8023**  -  3 PRs
-- **@benbarclay**  -  3 PRs
-- **@Aslaaen**  -  2 PRs
+- **@kshitijk4poor** - 49 PRs · Transport refactor (AnthropicTransport, ResponsesApiTransport), Step Plan provider, Xiaomi MiMo v2.5 support, numerous gateway fixes, promoted Kimi K2.5, @ mention crash fix
+- **@OutThisLife** (Brooklyn) - 31 PRs · TUI polish, git branch in status bar, per-turn stopwatch, stable picker keys, `/clear` confirm, light-theme preset, subagent spawn observability overlay
+- **@helix4u** - 11 PRs · Voice CLI record beep, MCP tool interrupt handling, assorted stability fixes
+- **@austinpickett** - 8 PRs · Dashboard react-router + sidebar + sticky header + dropdown, Vercel deployment, update + restart buttons
+- **@alt-glitch** - 8 PRs · PLATFORM_HINTS for Matrix/Mattermost/Feishu, Matrix fixes
+- **@ethernet8023** - 3 PRs
+- **@benbarclay** - 3 PRs
+- **@Aslaaen** - 2 PRs
 
 ### Also contributing
 @jerilynzheng (ai-gateway pricing), @JimLiu (baoyu-comic skill), @Dusk1e (trajectory compressor credentials), @DeployFaith (mobile-responsive dashboard), @LeonSGP43, @v1k22 (concept-diagrams), @omnissiah-comelse (adversarial-ux-test), @coekfung (Telegram MarkdownV2 expandable blockquotes), @liftaris (TUI provider resolution), @arihantsethia (skill analytics dashboard), @topcheer + @xing8star (QQBot foundation), @kovyrin, @I3eg1nner (SECURITY.md), @PeterBerthelsen, @lengxii, @priveperfumes, @sjz-ks, @cuyua9, @Disaster-Terminator, @leozeli, @LehaoLin, @trevthefoolish, @loongfay, @MrNiceRicee, @WideLee, @bluefishs, @malaiwah, @bobashopcashier, @dsocolobsky, @iamagenius00, @IAvecilla, @aniruddhaadak80, @Es1la, @asheriif, @walli, @jquesnelle (original Tool Gateway work).
@@ -466,7 +466,7 @@ Also: @maelrx, @Marco Rutsch, @MaxsolcuCrypto, @Mind-Dragon, @Paul Bergeron, @sa
 
 ### What changed in Hermes Agent v0.11.0?
 
-> The Interface release  -  a full React/Ink rewrite of the interactive CLI, a pluggable transport architecture underneath every provider, native AWS Bedrock support, five new inference paths, a 17th messaging...
+> The Interface release - a full React/Ink rewrite of the interactive CLI, a pluggable transport architecture underneath every provider, native AWS Bedrock support, five new inference paths, a 17th messaging platform (QQBot), a dramatically expanded plugin surface, and GPT-5.5 via Codex OAuth.
 
 ### When was Hermes Agent v0.11.0 released?
 

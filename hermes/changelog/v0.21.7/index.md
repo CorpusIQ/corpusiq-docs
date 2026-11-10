@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.21.7 Patch Release
-description: Hermes Agent v0.21.7 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.21.7 Patch Release"
+description: "Hermes Agent v0.21.7 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.21.7/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -43,11 +43,11 @@ Also in the window, undocumented here on purpose: plugins running built-in Deskt
 
 ### What changed in Hermes Agent v0.21.7?
 
-Patch release. This tag rolls up the ~204 PRs merged since v0.21.6 into a stable release for the desktop app (macOS Apple silicon, Windows), the Microsoft Store and MSIX, the installer, Docker and Hermes...
+Patch release. This tag rolls up the ~204 PRs merged since v0.21.6 into a stable release for the desktop app (macOS Apple silicon, Windows), the Microsoft Store and MSIX, the installer, Docker and Hermes Cloud. Full curated notes for this window ship with v0.22.0.
 
 ### When was Hermes Agent v0.21.7 released?
 
-October 12, 2026
+October 11, 2026
 
 ---
 

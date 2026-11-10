@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.15.0 Patch Release
-description: Hermes Agent v0.15.0 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.15.0 Patch Release"
+description: "Hermes Agent v0.15.0 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.15.0/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -13,50 +13,50 @@ tags: ["hermes agent", "ai agent", "nous research"]
 **Release Date:** May 28, 2026
 **Since v0.14.0:** 1,302 commits · 747 merged PRs · 1,746 files changed · 282,712 insertions · 36,699 deletions · 560+ issues closed (15 P0, 65 P1, 19 security-tagged) · 321 community contributors (including co-authors)
 
-> **The Velocity Release.** Hermes gets dramatically faster  -  to start, to run, to ship work, and to grow. The 16,083-line `run_agent.py` collapses to 3,821 (-76%) across 14 cohesive `agent/*` modules. Kanban grew into a real multi-agent platform across 104 PRs  -  orchestrator auto-decomposition, swarm topology, scheduled tasks, worktree-per-task, per-task model overrides. The cold-start perf wave keeps going: another second shaved off launch, 47% fewer per-conversation function calls, `hermes --version` flipping the head-to-head benchmark against Codex CLI. `session_search` is 4,500× faster and free now. Promptware defense lands against Brainworm-class attacks. Bitwarden Secrets Manager replaces N per-provider API keys with one bootstrap token. Skill bundles let one slash command load a whole workflow. The Ink TUI gets a multi-session orchestrator. Two new image_gen providers (Krea 2 Medium + Large, FAL ported to plugin), the Nous-approved MCP catalog with an interactive picker, an OpenHands orchestration skill, ntfy as the 23rd messaging platform, and a deep xAI integration round (Web Search plugin, xai-oauth `hermes proxy` upstream, retired-May-15 model detection + `hermes migrate xai`, natural TTS speech-tag pauses, base_url leak guard, OpenAI-style execution guidance for Grok). 15 P0 + 65 P1 closures alongside.
+> **The Velocity Release.** Hermes gets dramatically faster - to start, to run, to ship work, and to grow. The 16,083-line `run_agent.py` collapses to 3,821 (-76%) across 14 cohesive `agent/*` modules. Kanban grew into a real multi-agent platform across 104 PRs - orchestrator auto-decomposition, swarm topology, scheduled tasks, worktree-per-task, per-task model overrides. The cold-start perf wave keeps going: another second shaved off launch, 47% fewer per-conversation function calls, `hermes --version` flipping the head-to-head benchmark against Codex CLI. `session_search` is 4,500× faster and free now. Promptware defense lands against Brainworm-class attacks. Bitwarden Secrets Manager replaces N per-provider API keys with one bootstrap token. Skill bundles let one slash command load a whole workflow. The Ink TUI gets a multi-session orchestrator. Two new image_gen providers (Krea 2 Medium + Large, FAL ported to plugin), the Nous-approved MCP catalog with an interactive picker, an OpenHands orchestration skill, ntfy as the 23rd messaging platform, and a deep xAI integration round (Web Search plugin, xai-oauth `hermes proxy` upstream, retired-May-15 model detection + `hermes migrate xai`, natural TTS speech-tag pauses, base_url leak guard, OpenAI-style execution guidance for Grok). 15 P0 + 65 P1 closures alongside.
 
 ---
 
 ## ✨ Highlights
 
-- **The Big Refactor  -  `run_agent.py` is no longer 16,000 lines**  -  The file at the heart of Hermes  -  the agent conversation loop  -  has been reduced from 16,083 lines to 3,821 (-76%), with the extracted code redistributed across 14 cohesive modules under `agent/`. Behavior is unchanged: every extraction keeps a thin forwarder on `AIAgent`, every test patch path still works, every external caller is compatible. The reason you care: future Hermes development moves faster, plugin authors can finally grep the codebase, and the file that took 90 seconds to load in your editor opens in a blink. ([#27248](https://github.com/NousResearch/hermes-agent/pull/27248))
+- **The Big Refactor - `run_agent.py` is no longer 16,000 lines** - The file at the heart of Hermes - the agent conversation loop - has been reduced from 16,083 lines to 3,821 (-76%), with the extracted code redistributed across 14 cohesive modules under `agent/`. Behavior is unchanged: every extraction keeps a thin forwarder on `AIAgent`, every test patch path still works, every external caller is compatible. The reason you care: future Hermes development moves faster, plugin authors can finally grep the codebase, and the file that took 90 seconds to load in your editor opens in a blink. ([#27248](https://github.com/NousResearch/hermes-agent/pull/27248))
 
-- **Kanban grew into a real multi-agent platform  -  104 PRs end to end**  -  Triage auto-decomposes one task into a tree of sub-tasks. `hermes kanban swarm` creates a full Swarm v1 graph in one command  -  root, parallel workers, gated verifier, gated synthesizer, shared blackboard. Tasks support per-task model overrides (cheap models for boilerplate, expensive ones for hard sub-tasks), board-level default workdirs, per-task worktree paths and branches, scheduled start times, configurable claim TTL, retry fingerprinting, stale-task detection, respawn guards, and a drag-to-delete trash zone. Workers report through `/workers/active`, `/runs/{id}`, and `/inspect` endpoints. ([#27572](https://github.com/NousResearch/hermes-agent/pull/27572), [#28443](https://github.com/NousResearch/hermes-agent/pull/28443), [#28364](https://github.com/NousResearch/hermes-agent/pull/28364), [#28394](https://github.com/NousResearch/hermes-agent/pull/28394), [#28462](https://github.com/NousResearch/hermes-agent/pull/28462), [#28384](https://github.com/NousResearch/hermes-agent/pull/28384), [#28467](https://github.com/NousResearch/hermes-agent/pull/28467), [#28455](https://github.com/NousResearch/hermes-agent/pull/28455), [#28452](https://github.com/NousResearch/hermes-agent/pull/28452), [#28432](https://github.com/NousResearch/hermes-agent/pull/28432), [#28468](https://github.com/NousResearch/hermes-agent/pull/28468), [#28420](https://github.com/NousResearch/hermes-agent/pull/28420))
+- **Kanban grew into a real multi-agent platform - 104 PRs end to end** - Triage auto-decomposes one task into a tree of sub-tasks. `hermes kanban swarm` creates a full Swarm v1 graph in one command - root, parallel workers, gated verifier, gated synthesizer, shared blackboard. Tasks support per-task model overrides (cheap models for boilerplate, expensive ones for hard sub-tasks), board-level default workdirs, per-task worktree paths and branches, scheduled start times, configurable claim TTL, retry fingerprinting, stale-task detection, respawn guards, and a drag-to-delete trash zone. Workers report through `/workers/active`, `/runs/{id}`, and `/inspect` endpoints. ([#27572](https://github.com/NousResearch/hermes-agent/pull/27572), [#28443](https://github.com/NousResearch/hermes-agent/pull/28443), [#28364](https://github.com/NousResearch/hermes-agent/pull/28364), [#28394](https://github.com/NousResearch/hermes-agent/pull/28394), [#28462](https://github.com/NousResearch/hermes-agent/pull/28462), [#28384](https://github.com/NousResearch/hermes-agent/pull/28384), [#28467](https://github.com/NousResearch/hermes-agent/pull/28467), [#28455](https://github.com/NousResearch/hermes-agent/pull/28455), [#28452](https://github.com/NousResearch/hermes-agent/pull/28452), [#28432](https://github.com/NousResearch/hermes-agent/pull/28432), [#28468](https://github.com/NousResearch/hermes-agent/pull/28468), [#28420](https://github.com/NousResearch/hermes-agent/pull/28420))
 
-- **Cold-start perf wave keeps going  -  another second saved, 47% fewer per-turn function calls**  -  Three new optimization rounds: defer `openai._base_client` import (-240ms / -17MB on every CLI invocation), hot-path optimizations cut 47% of per-conversation function calls (399k → 213k for 31-turn chat), defer compression-feasibility check (-170 to -290ms on every agent construction), adaptive subprocess polling (-195ms per tool call, 1+ second per turn). Termux cold start drops from 2.9s to 0.8s. `hermes --version` cold drops 63% (701ms → 258ms), flipping the head-to-head benchmark against Codex CLI from 5/11 wins to 6/11. ([#28864](https://github.com/NousResearch/hermes-agent/pull/28864), [#28866](https://github.com/NousResearch/hermes-agent/pull/28866), [#28957](https://github.com/NousResearch/hermes-agent/pull/28957), [#29006](https://github.com/NousResearch/hermes-agent/pull/29006), [#29419](https://github.com/NousResearch/hermes-agent/pull/29419), [#30121](https://github.com/NousResearch/hermes-agent/pull/30121), [#30609](https://github.com/NousResearch/hermes-agent/pull/30609), [#31968](https://github.com/NousResearch/hermes-agent/pull/31968))
+- **Cold-start perf wave keeps going - another second saved, 47% fewer per-turn function calls** - Three new optimization rounds: defer `openai._base_client` import (-240ms / -17MB on every CLI invocation), hot-path optimizations cut 47% of per-conversation function calls (399k → 213k for 31-turn chat), defer compression-feasibility check (-170 to -290ms on every agent construction), adaptive subprocess polling (-195ms per tool call, 1+ second per turn). Termux cold start drops from 2.9s to 0.8s. `hermes --version` cold drops 63% (701ms → 258ms), flipping the head-to-head benchmark against Codex CLI from 5/11 wins to 6/11. ([#28864](https://github.com/NousResearch/hermes-agent/pull/28864), [#28866](https://github.com/NousResearch/hermes-agent/pull/28866), [#28957](https://github.com/NousResearch/hermes-agent/pull/28957), [#29006](https://github.com/NousResearch/hermes-agent/pull/29006), [#29419](https://github.com/NousResearch/hermes-agent/pull/29419), [#30121](https://github.com/NousResearch/hermes-agent/pull/30121), [#30609](https://github.com/NousResearch/hermes-agent/pull/30609), [#31968](https://github.com/NousResearch/hermes-agent/pull/31968))
 
-- **`session_search` rebuilt  -  no LLM, no cost, 4,500× faster**  -  The old `session_search` was an aux-LLM-powered tool that cost ~$0.30/call and took ~30 seconds to summarize three sessions, sometimes confabulating when the right session wasn't even in the FTS5 hit list. The new shape is one tool with three modes (discovery, scroll, browse) inferred from which args are set  -  no `mode` parameter, no aux-LLM, no config knob, no companion skill. Discovery is ~20ms instead of ~90s; scroll is ~1ms. Searching your past sessions for context is now free and instant. ([#27590](https://github.com/NousResearch/hermes-agent/pull/27590))
+- **`session_search` rebuilt - no LLM, no cost, 4,500× faster** - The old `session_search` was an aux-LLM-powered tool that cost ~$0.30/call and took ~30 seconds to summarize three sessions, sometimes confabulating when the right session wasn't even in the FTS5 hit list. The new shape is one tool with three modes (discovery, scroll, browse) inferred from which args are set - no `mode` parameter, no aux-LLM, no config knob, no companion skill. Discovery is ~20ms instead of ~90s; scroll is ~1ms. Searching your past sessions for context is now free and instant. ([#27590](https://github.com/NousResearch/hermes-agent/pull/27590))
 
-- **Promptware defense  -  Brainworm-class attacks blocked at three chokepoints**  -  Inspired by recent Brainworm / Promptware Kill Chain research (Origin HQ, arxiv 2601.09625), Hermes now defends the context window against prompt-injection attacks that try to hijack the agent via tool output, recalled memory, or stored skills. Single source of truth (`tools/threat_patterns.py`) with ~15 new Brainworm/C2 patterns; recalled memory is scanned at load time; tool results get delimiter markers so a malicious file or remote service can't impersonate Hermes' own system content. Paired with a new `security-guidance` plugin that pattern-matches dangerous code writes. ([#32269](https://github.com/NousResearch/hermes-agent/pull/32269), [#33131](https://github.com/NousResearch/hermes-agent/pull/33131), [#9151](https://github.com/NousResearch/hermes-agent/pull/9151))
+- **Promptware defense - Brainworm-class attacks blocked at three chokepoints** - Inspired by recent Brainworm / Promptware Kill Chain research (Origin HQ, arxiv 2601.09625), Hermes now defends the context window against prompt-injection attacks that try to hijack the agent via tool output, recalled memory, or stored skills. Single source of truth (`tools/threat_patterns.py`) with ~15 new Brainworm/C2 patterns; recalled memory is scanned at load time; tool results get delimiter markers so a malicious file or remote service can't impersonate Hermes' own system content. Paired with a new `security-guidance` plugin that pattern-matches dangerous code writes. ([#32269](https://github.com/NousResearch/hermes-agent/pull/32269), [#33131](https://github.com/NousResearch/hermes-agent/pull/33131), [#9151](https://github.com/NousResearch/hermes-agent/pull/9151))
 
-- **Bitwarden Secrets Manager  -  one bootstrap token replaces every per-provider API key**  -  Stop keeping plaintext API keys in `~/.hermes/.env`. Install Bitwarden Secrets Manager (`bws` auto-installs lazily on first use), point Hermes at it with one bootstrap token (`BWS_ACCESS_TOKEN`), and every credential you need comes from Bitwarden at startup. Rotate a key in the Bitwarden web app and the rotation actually takes effect  -  Bitwarden defaults to source-of-truth so its values overwrite matching env vars on startup. Flip `secrets.bitwarden.override_existing: false` to invert. EU Cloud and self-hosted Bitwarden server URLs supported. Detected credentials are now labeled with their source so you can see at a glance which keys came from Bitwarden vs. the local env. ([#30035](https://github.com/NousResearch/hermes-agent/pull/30035), [#31378](https://github.com/NousResearch/hermes-agent/pull/31378), [#30364](https://github.com/NousResearch/hermes-agent/pull/30364))
+- **Bitwarden Secrets Manager - one bootstrap token replaces every per-provider API key** - Stop keeping plaintext API keys in `~/.hermes/.env`. Install Bitwarden Secrets Manager (`bws` auto-installs lazily on first use), point Hermes at it with one bootstrap token (`BWS_ACCESS_TOKEN`), and every credential you need comes from Bitwarden at startup. Rotate a key in the Bitwarden web app and the rotation actually takes effect - Bitwarden defaults to source-of-truth so its values overwrite matching env vars on startup. Flip `secrets.bitwarden.override_existing: false` to invert. EU Cloud and self-hosted Bitwarden server URLs supported. Detected credentials are now labeled with their source so you can see at a glance which keys came from Bitwarden vs. the local env. ([#30035](https://github.com/NousResearch/hermes-agent/pull/30035), [#31378](https://github.com/NousResearch/hermes-agent/pull/31378), [#30364](https://github.com/NousResearch/hermes-agent/pull/30364))
 
-- **ntfy as the 23rd messaging platform  -  push notifications without an account**  -  ntfy is the self-hostable push-notification service with no signup, no API key, just a topic URL. Hermes now adapts to it as a platform plugin (zero edits to core), so your agent can send you push notifications from any cron job, kanban task completion, or chat `send_message`  -  to your phone, your watch, your desktop, your homelab. (salvages [#30625](https://github.com/NousResearch/hermes-agent/pull/30625) → originally [#4043](https://github.com/NousResearch/hermes-agent/pull/4043)) ([#30867](https://github.com/NousResearch/hermes-agent/pull/30867))
+- **ntfy as the 23rd messaging platform - push notifications without an account** - ntfy is the self-hostable push-notification service with no signup, no API key, just a topic URL. Hermes now adapts to it as a platform plugin (zero edits to core), so your agent can send you push notifications from any cron job, kanban task completion, or chat `send_message` - to your phone, your watch, your desktop, your homelab. (salvages [#30625](https://github.com/NousResearch/hermes-agent/pull/30625) → originally [#4043](https://github.com/NousResearch/hermes-agent/pull/4043)) ([#30867](https://github.com/NousResearch/hermes-agent/pull/30867))
 
-- **Skill bundles  -  `/<name>` loads multiple skills at once**  -  A skill bundle is a named group of skills that loads them all together with one slash command. Set up your "writing day" bundle (humanizer + ideation + obsidian + youtube-content) and `/writing-day` activates all four for the session. Skills Hub now has health checks, a freshness badge, and a watchdog cron. Three new optional skills land: `code-wiki` (Karpathy's LLM-Wiki, persistent indexed dev wiki), `openhands` (delegate to OpenHands for parallel coding agents), and `web-pentest` (OWASP-style web pentest recipes). ([#28373](https://github.com/NousResearch/hermes-agent/pull/28373), [#32345](https://github.com/NousResearch/hermes-agent/pull/32345), [#32240](https://github.com/NousResearch/hermes-agent/pull/32240), [#32261](https://github.com/NousResearch/hermes-agent/pull/32261), [#32265](https://github.com/NousResearch/hermes-agent/pull/32265))
+- **Skill bundles - `/<name>` loads multiple skills at once** - A skill bundle is a named group of skills that loads them all together with one slash command. Set up your "writing day" bundle (humanizer + ideation + obsidian + youtube-content) and `/writing-day` activates all four for the session. Skills Hub now has health checks, a freshness badge, and a watchdog cron. Three new optional skills land: `code-wiki` (Karpathy's LLM-Wiki, persistent indexed dev wiki), `openhands` (delegate to OpenHands for parallel coding agents), and `web-pentest` (OWASP-style web pentest recipes). ([#28373](https://github.com/NousResearch/hermes-agent/pull/28373), [#32345](https://github.com/NousResearch/hermes-agent/pull/32345), [#32240](https://github.com/NousResearch/hermes-agent/pull/32240), [#32261](https://github.com/NousResearch/hermes-agent/pull/32261), [#32265](https://github.com/NousResearch/hermes-agent/pull/32265))
 
-- **TUI session orchestrator  -  multiple live sessions in one TUI window**  -  The Ink TUI gained an active-session switcher overlay. List, switch between, refresh, and close multiple live process-local sessions without leaving the TUI; dispatch a new session with a session-scoped model picker. Plus a wave of TUI polish  -  mouse-tracking DEC mode presets, scrollback preservation across branches and termux, slash-dropdown fixes, x.com link rendering, and CJK / IME input rendering improvements. (salvages [#27642](https://github.com/NousResearch/hermes-agent/pull/27642)) ([#32980](https://github.com/NousResearch/hermes-agent/pull/32980), [#30084](https://github.com/NousResearch/hermes-agent/pull/30084))
+- **TUI session orchestrator - multiple live sessions in one TUI window** - The Ink TUI gained an active-session switcher overlay. List, switch between, refresh, and close multiple live process-local sessions without leaving the TUI; dispatch a new session with a session-scoped model picker. Plus a wave of TUI polish - mouse-tracking DEC mode presets, scrollback preservation across branches and termux, slash-dropdown fixes, x.com link rendering, and CJK / IME input rendering improvements. (salvages [#27642](https://github.com/NousResearch/hermes-agent/pull/27642)) ([#32980](https://github.com/NousResearch/hermes-agent/pull/32980), [#30084](https://github.com/NousResearch/hermes-agent/pull/30084))
 
-- **Two new image_gen providers  -  Krea 2 Medium + Large, FAL ported to plugin**  -  Krea joins the image_gen lineup as a built-in plugin: `Krea 2 Medium` ($0.03) and `Krea 2 Large` ($0.06), auto-discovered, selectable via `hermes tools` → Image Generation → Krea. Available through both the native Krea plugin and the FAL.ai catalog. The FAL.ai backend got pulled out of the monolithic image-generation tool into `plugins/image_gen/fal/`, completing the four-way architectural parity already established by web, browser, and video_gen  -  new image providers are now one file, not a fork. ([#33236](https://github.com/NousResearch/hermes-agent/pull/33236), [#30380](https://github.com/NousResearch/hermes-agent/pull/30380), [#33506](https://github.com/NousResearch/hermes-agent/pull/33506))
+- **Two new image_gen providers - Krea 2 Medium + Large, FAL ported to plugin** - Krea joins the image_gen lineup as a built-in plugin: `Krea 2 Medium` ($0.03) and `Krea 2 Large` ($0.06), auto-discovered, selectable via `hermes tools` → Image Generation → Krea. Available through both the native Krea plugin and the FAL.ai catalog. The FAL.ai backend got pulled out of the monolithic image-generation tool into `plugins/image_gen/fal/`, completing the four-way architectural parity already established by web, browser, and video_gen - new image providers are now one file, not a fork. ([#33236](https://github.com/NousResearch/hermes-agent/pull/33236), [#30380](https://github.com/NousResearch/hermes-agent/pull/30380), [#33506](https://github.com/NousResearch/hermes-agent/pull/33506))
 
-- **Nous-approved MCP catalog with interactive picker**  -  A curated catalog of Nous-vetted MCP servers, mirroring the optional-skills shape. Run `hermes mcp` and you get an interactive picker; install with one keystroke, credentials prompted at install time and written to `~/.hermes/.env`. Ships with the n8n manifest first. Closes the discovery gap that left users hunting GitHub for trusted MCP servers. ([#30870](https://github.com/NousResearch/hermes-agent/pull/30870))
+- **Nous-approved MCP catalog with interactive picker** - A curated catalog of Nous-vetted MCP servers, mirroring the optional-skills shape. Run `hermes mcp` and you get an interactive picker; install with one keystroke, credentials prompted at install time and written to `~/.hermes/.env`. Ships with the n8n manifest first. Closes the discovery gap that left users hunting GitHub for trusted MCP servers. ([#30870](https://github.com/NousResearch/hermes-agent/pull/30870))
 
-- **OpenHands orchestration skill**  -  A new optional skill under `optional-skills/autonomous-ai-agents/openhands/` lets the agent delegate coding tasks to the OpenHands CLI alongside `claude-code`, `codex`, and `opencode`. OpenHands is the model-agnostic member of that family  -  any LiteLLM-supported provider works (OpenAI, Anthropic, OpenRouter, your own), so you can route a sub-task to the cheapest model that can finish it. Drop-in worker for kanban swarms and `/delegate` flows. (closes [#477](https://github.com/NousResearch/hermes-agent/issues/477)) ([#32261](https://github.com/NousResearch/hermes-agent/pull/32261))
+- **OpenHands orchestration skill** - A new optional skill under `optional-skills/autonomous-ai-agents/openhands/` lets the agent delegate coding tasks to the OpenHands CLI alongside `claude-code`, `codex`, and `opencode`. OpenHands is the model-agnostic member of that family - any LiteLLM-supported provider works (OpenAI, Anthropic, OpenRouter, your own), so you can route a sub-task to the cheapest model that can finish it. Drop-in worker for kanban swarms and `/delegate` flows. (closes [#477](https://github.com/NousResearch/hermes-agent/issues/477)) ([#32261](https://github.com/NousResearch/hermes-agent/pull/32261))
 
-- **Deep xAI integration round  -  Web Search plugin, OAuth proxy upstream, May 15 retirement detection, natural TTS, security hardening**  -  Six interlocking xAI improvements:
-    - **xAI Web Search** lands as a `plugins/web/xai/` provider, slots alongside Brave / Tavily / Exa / SearXNG / DDGS / Firecrawl  -  reuses your existing Grok OAuth or `XAI_API_KEY` credentials, no new env vars. ([#29042](https://github.com/NousResearch/hermes-agent/pull/29042))
-    - **`hermes proxy` gains an xAI upstream**  -  your local OpenAI-compatible endpoint can now be backed by SuperGrok OAuth, no PKCE-refresh code to write in your client. ([#28356](https://github.com/NousResearch/hermes-agent/pull/28356))
-    - **May 15 model retirement detection**  -  `grok-4`, `grok-4-fast{,-reasoning,-non-reasoning}`, `grok-3`, `grok-code-fast-1`, `grok-imagine-image-pro` etc. are detected in doctor and chat startup, with `hermes migrate xai` to one-shot config migration to the supported model. No more silent 404s after the retirement date. ([#29277](https://github.com/NousResearch/hermes-agent/pull/29277))
-    - **Opt-in `auto_speech_tags`** for xAI TTS  -  inserts light `[pause]` tags between paragraphs and sentences for more natural-sounding voice replies. Default OFF. ([#29376](https://github.com/NousResearch/hermes-agent/pull/29376))
-    - **`xai-oauth` `base_url` pinned to `x.ai` origin**  -  closes a silent credential-leak vector where `XAI_BASE_URL` could repoint OAuth-authenticated inference to an attacker-controlled host. ([#28952](https://github.com/NousResearch/hermes-agent/pull/28952))
-    - **OpenAI-style execution guidance applied to Grok models**  -  Grok and xai-oauth now get the same family-specific execution discipline block GPT/Codex have, so the model stops claiming completion without tool calls and stops suggesting workarounds instead of using existing tools. ([#27797](https://github.com/NousResearch/hermes-agent/pull/27797))
+- **Deep xAI integration round - Web Search plugin, OAuth proxy upstream, May 15 retirement detection, natural TTS, security hardening** - Six interlocking xAI improvements:
+    - **xAI Web Search** lands as a `plugins/web/xai/` provider, slots alongside Brave / Tavily / Exa / SearXNG / DDGS / Firecrawl - reuses your existing Grok OAuth or `XAI_API_KEY` credentials, no new env vars. ([#29042](https://github.com/NousResearch/hermes-agent/pull/29042))
+    - **`hermes proxy` gains an xAI upstream** - your local OpenAI-compatible endpoint can now be backed by SuperGrok OAuth, no PKCE-refresh code to write in your client. ([#28356](https://github.com/NousResearch/hermes-agent/pull/28356))
+    - **May 15 model retirement detection** - `grok-4`, `grok-4-fast{,-reasoning,-non-reasoning}`, `grok-3`, `grok-code-fast-1`, `grok-imagine-image-pro` etc. are detected in doctor and chat startup, with `hermes migrate xai` to one-shot config migration to the supported model. No more silent 404s after the retirement date. ([#29277](https://github.com/NousResearch/hermes-agent/pull/29277))
+    - **Opt-in `auto_speech_tags`** for xAI TTS - inserts light `[pause]` tags between paragraphs and sentences for more natural-sounding voice replies. Default OFF. ([#29376](https://github.com/NousResearch/hermes-agent/pull/29376))
+    - **`xai-oauth` `base_url` pinned to `x.ai` origin** - closes a silent credential-leak vector where `XAI_BASE_URL` could repoint OAuth-authenticated inference to an attacker-controlled host. ([#28952](https://github.com/NousResearch/hermes-agent/pull/28952))
+    - **OpenAI-style execution guidance applied to Grok models** - Grok and xai-oauth now get the same family-specific execution discipline block GPT/Codex have, so the model stops claiming completion without tool calls and stops suggesting workarounds instead of using existing tools. ([#27797](https://github.com/NousResearch/hermes-agent/pull/27797))
     - Plus `x_search` degraded-results surfacing, tier-gated 403 with API-key fallback, PKCE `code_challenge` round-trip fix, dead-token quarantine on terminal refresh failure, MiniMax-style short-token refresh on per-request, and `WKE=unauthenticated` honor at both classifier sites. ([#29484](https://github.com/NousResearch/hermes-agent/pull/29484), [#28351](https://github.com/NousResearch/hermes-agent/pull/28351), [#27560](https://github.com/NousResearch/hermes-agent/pull/27560), [#28116](https://github.com/NousResearch/hermes-agent/pull/28116), [#30619](https://github.com/NousResearch/hermes-agent/pull/30619), [#30872](https://github.com/NousResearch/hermes-agent/pull/30872))
 
 ---
 
 ## 🏗️ Core Agent & Architecture
 
-### The Big Refactor  -  `run_agent.py` 16k → 3.8k
+### The Big Refactor - `run_agent.py` 16k → 3.8k
 
 - `run_agent.py` from 16,083 → 3,821 lines (-76%), extracted into 14 cohesive `agent/*` modules. `run_conversation` alone was 3,877 lines before the refactor. Every extraction keeps a thin forwarder on `AIAgent`, every test-patch path is preserved, every external caller stays compatible. ([#27248](https://github.com/NousResearch/hermes-agent/pull/27248))
 
@@ -64,10 +64,10 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 - Auxiliary task layered fallback (primary → chain → main agent → graceful fail) on capacity errors (402/429/connection). (salvages [#26811](https://github.com/NousResearch/hermes-agent/pull/26811) + [#26998](https://github.com/NousResearch/hermes-agent/pull/26998)) ([#27625](https://github.com/NousResearch/hermes-agent/pull/27625))
 - Buffer retry/fallback status; surface only on terminal failure (no more noisy "retrying..." spam in mid-run output). ([#33816](https://github.com/NousResearch/hermes-agent/pull/33816))
-- Host contract for external context engines  -  condenses 5 prior PRs into one extension surface. ([#33750](https://github.com/NousResearch/hermes-agent/pull/33750))
+- Host contract for external context engines - condenses 5 prior PRs into one extension surface. ([#33750](https://github.com/NousResearch/hermes-agent/pull/33750))
 - Fallback immediately on provider content-policy blocks. ([#33883](https://github.com/NousResearch/hermes-agent/pull/33883))
 - Re-pad `reasoning_content` on cross-provider fallback to require-side providers. (salvage [#33784](https://github.com/NousResearch/hermes-agent/pull/33784)) ([#33795](https://github.com/NousResearch/hermes-agent/pull/33795))
-- Per-turn tool-outcome verifier  -  patch tool gets indent preservation, CRLF preservation, per-file failure escalation. ([#32273](https://github.com/NousResearch/hermes-agent/pull/32273))
+- Per-turn tool-outcome verifier - patch tool gets indent preservation, CRLF preservation, per-file failure escalation. ([#32273](https://github.com/NousResearch/hermes-agent/pull/32273))
 - Single-knob native vision for custom-provider models. ([#29679](https://github.com/NousResearch/hermes-agent/pull/29679))
 - Background review fork isolated from external memory plugins. ([#27190](https://github.com/NousResearch/hermes-agent/pull/27190))
 - Background review inherits parent toolset config for `tools[]` cache parity. ([#29704](https://github.com/NousResearch/hermes-agent/pull/29704))
@@ -80,14 +80,14 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### Sessions & memory
 
-- `session_search` rebuilt  -  single-shape (discovery + scroll + browse), no aux-LLM, ~20ms vs. ~90s. ([#27590](https://github.com/NousResearch/hermes-agent/pull/27590))
-- Salvage [#29182](https://github.com/NousResearch/hermes-agent/pull/29182)  -  opt-in JSON snapshot writer for sessions. ([#29278](https://github.com/NousResearch/hermes-agent/pull/29278))
+- `session_search` rebuilt - single-shape (discovery + scroll + browse), no aux-LLM, ~20ms vs. ~90s. ([#27590](https://github.com/NousResearch/hermes-agent/pull/27590))
+- Salvage [#29182](https://github.com/NousResearch/hermes-agent/pull/29182) - opt-in JSON snapshot writer for sessions. ([#29278](https://github.com/NousResearch/hermes-agent/pull/29278))
 - Persist `platform_message_id` for recall across gateway restarts. ([#29449](https://github.com/NousResearch/hermes-agent/pull/29449))
 - Inline memory-context mentions stay visible in conversation. ([#28132](https://github.com/NousResearch/hermes-agent/pull/28132))
 - Recalled memory labeled informational, not authoritative. ([#28583](https://github.com/NousResearch/hermes-agent/pull/28583))
 - Memory + context-engine tool injection gated on `enabled_toolsets`. ([#30177](https://github.com/NousResearch/hermes-agent/pull/30177))
 - Guard against external drift in `MEMORY.md` / `USER.md`. ([#30877](https://github.com/NousResearch/hermes-agent/pull/30877))
-- Honcho runtime peer mapping  -  correctness follow-ups + setup wizard + docs. ([#30077](https://github.com/NousResearch/hermes-agent/pull/30077))
+- Honcho runtime peer mapping - correctness follow-ups + setup wizard + docs. ([#30077](https://github.com/NousResearch/hermes-agent/pull/30077))
 - Periodic memory logging for leak detection. (salvage of [#17667](https://github.com/NousResearch/hermes-agent/pull/17667)) ([#27102](https://github.com/NousResearch/hermes-agent/pull/27102))
 
 ### Codex / Responses-API maturation
@@ -106,12 +106,12 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-## 🎛️ Kanban  -  Multi-Agent Maturation Wave
+## 🎛️ Kanban - Multi-Agent Maturation Wave
 
 ### Orchestration & dispatch
 
 - Orchestrator-driven auto-decomposition on triage. ([#27572](https://github.com/NousResearch/hermes-agent/pull/27572))
-- Kanban swarm topology helper  -  `hermes kanban swarm` creates a Swarm v1 graph (root + parallel workers + gated verifier + gated synthesizer + shared blackboard). (salvages [#26791](https://github.com/NousResearch/hermes-agent/pull/26791) by @Niraven) ([#28443](https://github.com/NousResearch/hermes-agent/pull/28443))
+- Kanban swarm topology helper - `hermes kanban swarm` creates a Swarm v1 graph (root + parallel workers + gated verifier + gated synthesizer + shared blackboard). (salvages [#26791](https://github.com/NousResearch/hermes-agent/pull/26791) by @Niraven) ([#28443](https://github.com/NousResearch/hermes-agent/pull/28443))
 - Dispatcher wires review agents from the review column. ([#28449](https://github.com/NousResearch/hermes-agent/pull/28449))
 - Stale-detection for running tasks in dispatcher. ([#28452](https://github.com/NousResearch/hermes-agent/pull/28452))
 - Respawn guard blocks repeat worker storms. ([#28455](https://github.com/NousResearch/hermes-agent/pull/28455))
@@ -177,15 +177,15 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## ⚡ Performance
 
-- `openai._base_client` import deferred  -  240ms / 17MB off every CLI cold start. ([#28864](https://github.com/NousResearch/hermes-agent/pull/28864))
-- Agent-loop hot-path optimizations  -  47% fewer per-conversation function calls (399k → 213k for 31-turn chat). ([#28866](https://github.com/NousResearch/hermes-agent/pull/28866))
-- Compression-feasibility check deferred  -  170-290ms off every agent construction. ([#28957](https://github.com/NousResearch/hermes-agent/pull/28957))
-- Adaptive subprocess poll  -  ~195ms off every tool call, 1+ second per turn. ([#29006](https://github.com/NousResearch/hermes-agent/pull/29006))
+- `openai._base_client` import deferred - 240ms / 17MB off every CLI cold start. ([#28864](https://github.com/NousResearch/hermes-agent/pull/28864))
+- Agent-loop hot-path optimizations - 47% fewer per-conversation function calls (399k → 213k for 31-turn chat). ([#28866](https://github.com/NousResearch/hermes-agent/pull/28866))
+- Compression-feasibility check deferred - 170-290ms off every agent construction. ([#28957](https://github.com/NousResearch/hermes-agent/pull/28957))
+- Adaptive subprocess poll - ~195ms off every tool call, 1+ second per turn. ([#29006](https://github.com/NousResearch/hermes-agent/pull/29006))
 - Termux TUI cold start speedup. ([#29419](https://github.com/NousResearch/hermes-agent/pull/29419))
 - Termux non-TUI cold start speedup. (salvage [#29438](https://github.com/NousResearch/hermes-agent/pull/29438)) ([#30121](https://github.com/NousResearch/hermes-agent/pull/30121))
 - Termux fast-path version + deferred bare-prompt agent startup. ([#30609](https://github.com/NousResearch/hermes-agent/pull/30609))
-- Cut hermes `--version` wall time 63%  -  flips head-to-head vs Codex CLI. ([#31968](https://github.com/NousResearch/hermes-agent/pull/31968))
-- Date-only timestamp + loud gateway-DB roundtrip logging  -  improves prompt-cache hit rate. ([#27675](https://github.com/NousResearch/hermes-agent/pull/27675))
+- Cut hermes `--version` wall time 63% - flips head-to-head vs Codex CLI. ([#31968](https://github.com/NousResearch/hermes-agent/pull/31968))
+- Date-only timestamp + loud gateway-DB roundtrip logging - improves prompt-cache hit rate. ([#27675](https://github.com/NousResearch/hermes-agent/pull/27675))
 - Cache kanban worker guidance at session init for prompt-cache reuse. ([#28425](https://github.com/NousResearch/hermes-agent/pull/28425))
 
 ---
@@ -237,7 +237,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### Skills system
 
-- **Skill bundles**  -  `/<name>` loads multiple skills. ([#28373](https://github.com/NousResearch/hermes-agent/pull/28373))
+- **Skill bundles** - `/<name>` loads multiple skills. ([#28373](https://github.com/NousResearch/hermes-agent/pull/28373))
 - Skills Hub: health checks, freshness badge, and a watchdog cron. ([#32345](https://github.com/NousResearch/hermes-agent/pull/32345))
 - Opt-in AST deep diagnostics on skill writes. (salvage of [#30918](https://github.com/NousResearch/hermes-agent/pull/30918)) ([#31198](https://github.com/NousResearch/hermes-agent/pull/31198))
 - Bundled/pinned skill protection in background-review prompts. ([#28338](https://github.com/NousResearch/hermes-agent/pull/28338))
@@ -247,9 +247,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### New skills
 
-- `openhands`  -  delegate-to-OpenHands orchestration skill (closes [#477](https://github.com/NousResearch/hermes-agent/issues/477)) ([#32261](https://github.com/NousResearch/hermes-agent/pull/32261))
-- `code-wiki`  -  persistent indexed dev wiki (closes [#486](https://github.com/NousResearch/hermes-agent/issues/486)) ([#32240](https://github.com/NousResearch/hermes-agent/pull/32240))
-- `web-pentest`  -  OWASP recipes (closes [#400](https://github.com/NousResearch/hermes-agent/issues/400)) ([#32265](https://github.com/NousResearch/hermes-agent/pull/32265))
+- `openhands` - delegate-to-OpenHands orchestration skill (closes [#477](https://github.com/NousResearch/hermes-agent/issues/477)) ([#32261](https://github.com/NousResearch/hermes-agent/pull/32261))
+- `code-wiki` - persistent indexed dev wiki (closes [#486](https://github.com/NousResearch/hermes-agent/issues/486)) ([#32240](https://github.com/NousResearch/hermes-agent/pull/32240))
+- `web-pentest` - OWASP recipes (closes [#400](https://github.com/NousResearch/hermes-agent/issues/400)) ([#32265](https://github.com/NousResearch/hermes-agent/pull/32265))
 - `baoyu-article-illustrator` ([#28287](https://github.com/NousResearch/hermes-agent/pull/28287))
 
 ---
@@ -259,10 +259,10 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ### xAI deep integration
 
 - **xAI Web Search** as a `plugins/web/xai/` provider plugin. ([#29042](https://github.com/NousResearch/hermes-agent/pull/29042))
-- **`hermes proxy` xAI upstream**  -  OpenAI-compatible local proxy backed by xai-oauth. ([#28356](https://github.com/NousResearch/hermes-agent/pull/28356))
+- **`hermes proxy` xAI upstream** - OpenAI-compatible local proxy backed by xai-oauth. ([#28356](https://github.com/NousResearch/hermes-agent/pull/28356))
 - **May 15 model retirement detection + `hermes migrate xai`** for grok-4 / grok-3 / grok-code-fast-1 / grok-imagine-image-pro. ([#29277](https://github.com/NousResearch/hermes-agent/pull/29277))
 - **Opt-in `auto_speech_tags`** for natural xAI TTS voice replies. ([#29376](https://github.com/NousResearch/hermes-agent/pull/29376))
-- **xai-oauth base_url pinned to x.ai origin**  -  closes silent credential-leak vector. ([#28952](https://github.com/NousResearch/hermes-agent/pull/28952))
+- **xai-oauth base_url pinned to x.ai origin** - closes silent credential-leak vector. ([#28952](https://github.com/NousResearch/hermes-agent/pull/28952))
 - **OpenAI-style execution guidance** applied to Grok / xai-oauth models. ([#27797](https://github.com/NousResearch/hermes-agent/pull/27797))
 - xAI: detect retired May 15 models in doctor/chat startup. ([#29277](https://github.com/NousResearch/hermes-agent/pull/29277))
 - xAI: resolve Grok Build context for OAuth. ([#30579](https://github.com/NousResearch/hermes-agent/pull/30579))
@@ -278,7 +278,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 - **OpenAI API as a first-class provider** (distinct from Codex runtime). ([#31898](https://github.com/NousResearch/hermes-agent/pull/31898))
 - **Microsoft Entra ID** auth for Azure Foundry (with 1M Anthropic-Messages beta preserved on Bearer). (salvages [#27509](https://github.com/NousResearch/hermes-agent/pull/27509), [#27022](https://github.com/NousResearch/hermes-agent/pull/27022)) ([#28101](https://github.com/NousResearch/hermes-agent/pull/28101), [#28084](https://github.com/NousResearch/hermes-agent/pull/28084))
-- **OpenRouter** sticky routing  -  `session_id` passed via `extra_body` so a long-running session keeps landing on the same upstream provider. (@Cybourgeoisie) ([#33939](https://github.com/NousResearch/hermes-agent/pull/33939))
+- **OpenRouter** sticky routing - `session_id` passed via `extra_body` so a long-running session keeps landing on the same upstream provider. (@Cybourgeoisie) ([#33939](https://github.com/NousResearch/hermes-agent/pull/33939))
 - Nous: JWT token for inference; stop replaying invalid Nous refresh tokens. (@rewbs) ([#27663](https://github.com/NousResearch/hermes-agent/pull/27663))
 - Nous Portal: one-shot setup, status CLI, and Nous-included markers. ([#30860](https://github.com/NousResearch/hermes-agent/pull/30860))
 - Anthropic adapter: extract 7 helpers from `convert_messages_to_anthropic`. (salvage [#27784](https://github.com/NousResearch/hermes-agent/pull/27784)) ([#30386](https://github.com/NousResearch/hermes-agent/pull/30386))
@@ -306,8 +306,8 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### Gateway core
 
-- **Deliverable mode**  -  agents ship artifacts as native uploads from any platform (Slack/Discord/Telegram/Teams/Email). ([#27813](https://github.com/NousResearch/hermes-agent/pull/27813))
-- `hermes send`  -  pipe any script's output to any messaging platform. (salvage of [#19631](https://github.com/NousResearch/hermes-agent/pull/19631)) ([#27188](https://github.com/NousResearch/hermes-agent/pull/27188))
+- **Deliverable mode** - agents ship artifacts as native uploads from any platform (Slack/Discord/Telegram/Teams/Email). ([#27813](https://github.com/NousResearch/hermes-agent/pull/27813))
+- `hermes send` - pipe any script's output to any messaging platform. (salvage of [#19631](https://github.com/NousResearch/hermes-agent/pull/19631)) ([#27188](https://github.com/NousResearch/hermes-agent/pull/27188))
 - Debounce queued text follow-ups during active sessions. (salvage of [#31235](https://github.com/NousResearch/hermes-agent/pull/31235)) ([#31341](https://github.com/NousResearch/hermes-agent/pull/31341))
 - Plugin-transformed final_response delivered through streaming gate. ([#31433](https://github.com/NousResearch/hermes-agent/pull/31433))
 - Refresh cached agent tools on `/reload-mcp`. ([#32815](https://github.com/NousResearch/hermes-agent/pull/32815))
@@ -315,7 +315,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### New / reorganized adapters
 
-- **ntfy**  -  23rd platform, push notifications, plugin shape, zero core edits. (salvages [#30625](https://github.com/NousResearch/hermes-agent/pull/30625) → [#4043](https://github.com/NousResearch/hermes-agent/pull/4043)) ([#30867](https://github.com/NousResearch/hermes-agent/pull/30867))
+- **ntfy** - 23rd platform, push notifications, plugin shape, zero core edits. (salvages [#30625](https://github.com/NousResearch/hermes-agent/pull/30625) → [#4043](https://github.com/NousResearch/hermes-agent/pull/4043)) ([#30867](https://github.com/NousResearch/hermes-agent/pull/30867))
 - **Discord** adapter migrated to bundled plugin. (salvage of [#24356](https://github.com/NousResearch/hermes-agent/pull/24356)) ([#30591](https://github.com/NousResearch/hermes-agent/pull/30591))
 - **Mattermost** adapter migrated to bundled plugin. (salvage of [#30916](https://github.com/NousResearch/hermes-agent/pull/30916)) ([#31748](https://github.com/NousResearch/hermes-agent/pull/31748))
 
@@ -372,12 +372,12 @@ tags: ["hermes agent", "ai agent", "nous research"]
 - Append session recap to `/status` output. (salvage of [#18587](https://github.com/NousResearch/hermes-agent/pull/18587)) ([#27176](https://github.com/NousResearch/hermes-agent/pull/27176))
 - Configurable paste-collapse thresholds (TUI + CLI). (salvage [#29723](https://github.com/NousResearch/hermes-agent/pull/29723)) ([#32087](https://github.com/NousResearch/hermes-agent/pull/32087))
 - `/resume` accepts position numbers. ([#31709](https://github.com/NousResearch/hermes-agent/pull/31709))
-- Bring tool-call display back  -  verbose mode, specific failure reasons, todo progress. ([#31293](https://github.com/NousResearch/hermes-agent/pull/31293))
+- Bring tool-call display back - verbose mode, specific failure reasons, todo progress. ([#31293](https://github.com/NousResearch/hermes-agent/pull/31293))
 - Validate runtime token refresh in Qwen auth status. ([#31196](https://github.com/NousResearch/hermes-agent/pull/31196))
 
 ### TUI
 
-- **TUI session orchestrator**  -  multiple live sessions in one TUI window. (salvages [#27642](https://github.com/NousResearch/hermes-agent/pull/27642)) ([#32980](https://github.com/NousResearch/hermes-agent/pull/32980))
+- **TUI session orchestrator** - multiple live sessions in one TUI window. (salvages [#27642](https://github.com/NousResearch/hermes-agent/pull/27642)) ([#32980](https://github.com/NousResearch/hermes-agent/pull/32980))
 - `mouse_tracking` DEC mode presets. (salvage of [#26681](https://github.com/NousResearch/hermes-agent/pull/26681) by @OutThisLife) ([#30084](https://github.com/NousResearch/hermes-agent/pull/30084))
 - Termux scrollback preservation + touch-friendly defaults. ([#28910](https://github.com/NousResearch/hermes-agent/pull/28910))
 - Full assistant text in scrollback (no history truncation). ([#28829](https://github.com/NousResearch/hermes-agent/pull/28829))
@@ -408,7 +408,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### Promptware & memory hardening
 
-- **Promptware defense**  -  shared threat patterns + memory load-time scan + tool-result delimiters. ([#32269](https://github.com/NousResearch/hermes-agent/pull/32269))
+- **Promptware defense** - shared threat patterns + memory load-time scan + tool-result delimiters. ([#32269](https://github.com/NousResearch/hermes-agent/pull/32269))
 - Expand memory content scanning patterns to parity with skills guard. ([#9151](https://github.com/NousResearch/hermes-agent/pull/9151))
 - Harden Skills Guard multi-word prompt patterns. (@YLChen-007) ([#26852](https://github.com/NousResearch/hermes-agent/pull/26852))
 - Split cron scanner so skill prose stops false-positiving exfil patterns. ([#32339](https://github.com/NousResearch/hermes-agent/pull/32339))
@@ -423,7 +423,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### Credential safety
 
-- Avoid persisting borrowed credential secrets  -  runtime env-sourced keys no longer leak into `auth.json`. ([#31416](https://github.com/NousResearch/hermes-agent/pull/31416))
+- Avoid persisting borrowed credential secrets - runtime env-sourced keys no longer leak into `auth.json`. ([#31416](https://github.com/NousResearch/hermes-agent/pull/31416))
 - Validate Nous Portal `inference_base_url` against host allowlist. (salvages [#27612](https://github.com/NousResearch/hermes-agent/pull/27612)) ([#30611](https://github.com/NousResearch/hermes-agent/pull/30611))
 - Harden API server key placeholder handling. ([#30738](https://github.com/NousResearch/hermes-agent/pull/30738))
 - Harden Google Chat OAuth credential persistence. (@Zyrixtrex) ([#24788](https://github.com/NousResearch/hermes-agent/pull/24788))
@@ -432,7 +432,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### Supply-chain
 
-- **On-demand supply-chain audit via OSV.dev**  -  `hermes audit`. ([#31460](https://github.com/NousResearch/hermes-agent/pull/31460))
+- **On-demand supply-chain audit via OSV.dev** - `hermes audit`. ([#31460](https://github.com/NousResearch/hermes-agent/pull/31460))
 - `hermes update` syntax-validates critical files post-pull, auto-rollback on failure. ([#28669](https://github.com/NousResearch/hermes-agent/pull/28669))
 - Quarantine `hermes.exe` vs concurrent Windows instance. ([#26677](https://github.com/NousResearch/hermes-agent/pull/26677))
 
@@ -453,7 +453,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## 🪟 Native Windows (Beta Continued)
 
-- Complete Windows bootstrap  -  `dep_ensure` + `install.ps1` + detection. (@alt-glitch) ([#27845](https://github.com/NousResearch/hermes-agent/pull/27845))
+- Complete Windows bootstrap - `dep_ensure` + `install.ps1` + detection. (@alt-glitch) ([#27845](https://github.com/NousResearch/hermes-agent/pull/27845))
 - `install.ps1`: strip BOM, `-Commit`/`-Tag` pin params, harden git ops. (@jquesnelle) ([#28169](https://github.com/NousResearch/hermes-agent/pull/28169))
 - Consolidate ACP browser bootstrap into `install.{sh,ps1}`. (@alt-glitch) ([#27851](https://github.com/NousResearch/hermes-agent/pull/27851))
 - `hermes update` quarantines live `hermes.exe`. ([#26677](https://github.com/NousResearch/hermes-agent/pull/26677))
@@ -474,7 +474,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## 🐳 Docker
 
-- **s6-overlay container supervision**  -  abstract `ServiceManager` protocol (systemd/launchd/Windows/s6 backends), per-profile gateway supervision in-container, container-restart reconciliation, hadolint/shellcheck CI. (salvage of [#30136](https://github.com/NousResearch/hermes-agent/pull/30136), @benbarclay) ([#31760](https://github.com/NousResearch/hermes-agent/pull/31760))
+- **s6-overlay container supervision** - abstract `ServiceManager` protocol (systemd/launchd/Windows/s6 backends), per-profile gateway supervision in-container, container-restart reconciliation, hadolint/shellcheck CI. (salvage of [#30136](https://github.com/NousResearch/hermes-agent/pull/30136), @benbarclay) ([#31760](https://github.com/NousResearch/hermes-agent/pull/31760))
 - Auto-redirect `gateway run` to supervised mode inside the s6 image. (@benbarclay) ([#33583](https://github.com/NousResearch/hermes-agent/pull/33583))
 - Tee supervised gateway stdout to docker logs. (@benbarclay) ([#33621](https://github.com/NousResearch/hermes-agent/pull/33621))
 - Drop `docker exec` to hermes uid before invoking the CLI. (@benbarclay) ([#33628](https://github.com/NousResearch/hermes-agent/pull/33628))
@@ -489,7 +489,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 - chown `ui-tui` and `node_modules` on UID remap so TUI esbuild works. ([#33045](https://github.com/NousResearch/hermes-agent/pull/33045))
 - Include `anthropic`, `bedrock`, `azure-identity` extras in image. ([#30504](https://github.com/NousResearch/hermes-agent/pull/30504))
 - Stop pushing per-commit SHA tags to Docker Hub. ([#29387](https://github.com/NousResearch/hermes-agent/pull/29387))
-- Simplify Docker tagging  -  push both `:main` and `:latest` on main push. ([#33225](https://github.com/NousResearch/hermes-agent/pull/33225))
+- Simplify Docker tagging - push both `:main` and `:latest` on main push. ([#33225](https://github.com/NousResearch/hermes-agent/pull/33225))
 - Test slicing across GH actions jobs. (@ethernet8023) ([#30575](https://github.com/NousResearch/hermes-agent/pull/30575))
 - Discover agent-browser Chromium binary at boot. ([#33184](https://github.com/NousResearch/hermes-agent/pull/33184))
 
@@ -497,7 +497,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## 🌐 API Server
 
-- **Session control API**  -  `/api/sessions/*` (list/create/read/patch/delete/fork) + SSE-streaming chat. (salvages [#29302](https://github.com/NousResearch/hermes-agent/pull/29302) by @Codename-11 + multimodal followup by @Schwartz10) ([#33134](https://github.com/NousResearch/hermes-agent/pull/33134))
+- **Session control API** - `/api/sessions/*` (list/create/read/patch/delete/fork) + SSE-streaming chat. (salvages [#29302](https://github.com/NousResearch/hermes-agent/pull/29302) by @Codename-11 + multimodal followup by @Schwartz10) ([#33134](https://github.com/NousResearch/hermes-agent/pull/33134))
 - `GET /v1/skills` and `/v1/toolsets`. ([#33016](https://github.com/NousResearch/hermes-agent/pull/33016))
 - Coerce stringified booleans in stream/store/approval payloads. (salvage [#26639](https://github.com/NousResearch/hermes-agent/pull/26639)) ([#27293](https://github.com/NousResearch/hermes-agent/pull/27293))
 - Honor `key_env` in auth-failure fallback resolution. ([#30840](https://github.com/NousResearch/hermes-agent/pull/30840))
@@ -507,7 +507,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 ## 🎟️ ACP (VS Code / Zed / JetBrains)
 
 - Session edit auto-approval modes. (salvage of [#27034](https://github.com/NousResearch/hermes-agent/pull/27034)) ([#27862](https://github.com/NousResearch/hermes-agent/pull/27862))
-- Enrich Zed permission cards  -  command in title + `reject_always`. ([#28148](https://github.com/NousResearch/hermes-agent/pull/28148))
+- Enrich Zed permission cards - command in title + `reject_always`. ([#28148](https://github.com/NousResearch/hermes-agent/pull/28148))
 - Replay session history before responding to `session/load`. ([#26957](https://github.com/NousResearch/hermes-agent/pull/26957), [#26943](https://github.com/NousResearch/hermes-agent/pull/26943))
 - Plugin-transformed final_response delivered through streaming gate. ([#31433](https://github.com/NousResearch/hermes-agent/pull/31433))
 
@@ -564,7 +564,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## 📚 Documentation
 
-- **30-day docs overhaul**  -  full correctness audit, every PR in the window covered, Nous Portal weave, sidebar reorg. ([#33782](https://github.com/NousResearch/hermes-agent/pull/33782))
+- **30-day docs overhaul** - full correctness audit, every PR in the window covered, Nous Portal weave, sidebar reorg. ([#33782](https://github.com/NousResearch/hermes-agent/pull/33782))
 - Dedicated Nous Portal integration page and setup guide. ([#31296](https://github.com/NousResearch/hermes-agent/pull/31296))
 - Providers: move Nous Portal first, Google Gemini OAuth last. ([#31287](https://github.com/NousResearch/hermes-agent/pull/31287))
 - `session_search` rewrite for single-shape tool. ([#27840](https://github.com/NousResearch/hermes-agent/pull/27840))
@@ -584,36 +584,36 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### Notable salvages & cherry-picks
 
-- **@benbarclay**  -  s6-overlay container supervision (29 commits salvaged), Node 22 LTS upgrade, build-essential cleanup, `gateway run` auto-redirect in s6, tee supervised stdout to docker logs, `hermes update` Docker guidance, build-time SHA stamping
-- **@OutThisLife**  -  `mouse_tracking` DEC mode presets
-- **@jquesnelle**  -  Windows installer hardening, `--branch` flag for `hermes update`, install.ps1 BOM strip / commit-pin
-- **@alt-glitch**  -  Windows `dep_ensure` bootstrap, Nix package variants (`.#messaging`, `.#full`), install-method stamping, ACP browser bootstrap consolidation
-- **@austinpickett**  -  `/update` slash command, dashboard checkboxes → `@nous-research/ui`, mobile dashboard polish, collapsible sidebar
-- **@ethernet8023**  -  CI test slicing across GH Actions jobs, TUI clipboard copy fix
-- **@kshitijk4poor**  -  doctor section banner + fail-and-issue helpers extraction, post-tag salvage cluster (curator-fallout, kanban SQLite hardening, install world-readable uv dirs, xAI bare-code paste)
-- **@rewbs**  -  Nous JWT inference switch + refresh-token replay fix
-- **@Codename-11** + **@Schwartz10**  -  session control API (REST + SSE + multimodal followup)
-- **@Niraven**  -  kanban swarm topology helper
-- **@Interstellar-code**  -  kanban worker visibility endpoints
-- **@adybag14-cyber**  -  termux cold-start optimizations (multiple PRs)
-- **@qike-ms**  -  Telegram in-place status edits design
-- **@sprmn24**  -  ntfy adapter
-- **@Jaaneek**  -  xAI Web Search provider plugin
-- **@yannsunn**  -  xAI upstream adapter for `hermes proxy`
-- **@Cybourgeoisie**  -  OpenRouter sticky routing via session_id
-- **@memosr**  -  Nous Portal base_url allowlist validation
-- **@Sunil123135**  -  Windows Docker Desktop compose file
-- **@Dusk1e**  -  Docker HOME alignment for dashboard + s6 gateway services
-- **@beardthelion**  -  opencode-go anthropic_messages routing
-- **@YLChen-007**  -  Skills Guard multi-word prompt patterns
-- **@roadhero**  -  env_passthrough GHSA-rhgp-j443-p4rf filter
-- **@Zyrixtrex**  -  Google Chat OAuth credential persistence hardening
-- **@briandevans**, **@tomqiaozc**  -  defense-in-depth read-deny on credential stores
-- **@PratikRai0101**  -  control-plane file write protection
-- **@helix4u**, **@Bartok9**, **@zccyman**  -  auxiliary fallback ladder components
-- **@ms-alan**, **@ticketclosed-wontfix**, **@donovan-yohan**  -  TUI session orchestrator + follow-ups
-- **@daimon-nous[bot]**  -  cron per-job profile support
-- **@bisko**  -  re-pad `reasoning_content` on cross-provider fallback
+- **@benbarclay** - s6-overlay container supervision (29 commits salvaged), Node 22 LTS upgrade, build-essential cleanup, `gateway run` auto-redirect in s6, tee supervised stdout to docker logs, `hermes update` Docker guidance, build-time SHA stamping
+- **@OutThisLife** - `mouse_tracking` DEC mode presets
+- **@jquesnelle** - Windows installer hardening, `--branch` flag for `hermes update`, install.ps1 BOM strip / commit-pin
+- **@alt-glitch** - Windows `dep_ensure` bootstrap, Nix package variants (`.#messaging`, `.#full`), install-method stamping, ACP browser bootstrap consolidation
+- **@austinpickett** - `/update` slash command, dashboard checkboxes → `@nous-research/ui`, mobile dashboard polish, collapsible sidebar
+- **@ethernet8023** - CI test slicing across GH Actions jobs, TUI clipboard copy fix
+- **@kshitijk4poor** - doctor section banner + fail-and-issue helpers extraction, post-tag salvage cluster (curator-fallout, kanban SQLite hardening, install world-readable uv dirs, xAI bare-code paste)
+- **@rewbs** - Nous JWT inference switch + refresh-token replay fix
+- **@Codename-11** + **@Schwartz10** - session control API (REST + SSE + multimodal followup)
+- **@Niraven** - kanban swarm topology helper
+- **@Interstellar-code** - kanban worker visibility endpoints
+- **@adybag14-cyber** - termux cold-start optimizations (multiple PRs)
+- **@qike-ms** - Telegram in-place status edits design
+- **@sprmn24** - ntfy adapter
+- **@Jaaneek** - xAI Web Search provider plugin
+- **@yannsunn** - xAI upstream adapter for `hermes proxy`
+- **@Cybourgeoisie** - OpenRouter sticky routing via session_id
+- **@memosr** - Nous Portal base_url allowlist validation
+- **@Sunil123135** - Windows Docker Desktop compose file
+- **@Dusk1e** - Docker HOME alignment for dashboard + s6 gateway services
+- **@beardthelion** - opencode-go anthropic_messages routing
+- **@YLChen-007** - Skills Guard multi-word prompt patterns
+- **@roadhero** - env_passthrough GHSA-rhgp-j443-p4rf filter
+- **@Zyrixtrex** - Google Chat OAuth credential persistence hardening
+- **@briandevans**, **@tomqiaozc** - defense-in-depth read-deny on credential stores
+- **@PratikRai0101** - control-plane file write protection
+- **@helix4u**, **@Bartok9**, **@zccyman** - auxiliary fallback ladder components
+- **@ms-alan**, **@ticketclosed-wontfix**, **@donovan-yohan** - TUI session orchestrator + follow-ups
+- **@daimon-nous[bot]** - cron per-job profile support
+- **@bisko** - re-pad `reasoning_content` on cross-provider fallback
 
 ### All Contributors
 
@@ -664,7 +664,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ### What changed in Hermes Agent v0.15.0?
 
-> **The Velocity Release.** Hermes gets dramatically faster  -  to start, to run, to ship work, and to grow. The 16,083-line `run_agent.py` collapses to 3,821 (-76%) across 14 cohesive `agent/*` modules. Kanban...
+> **The Velocity Release.** Hermes gets dramatically faster - to start, to run, to ship work, and to grow. The 16,083-line `run_agent.py` collapses to 3,821 (-76%) across 14 cohesive `agent/*` modules.
 
 ### When was Hermes Agent v0.15.0 released?
 

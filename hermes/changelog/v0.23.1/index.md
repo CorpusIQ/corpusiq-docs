@@ -23,7 +23,7 @@ Measured at commit `3b421578588`, the window since v0.23.0 contains **2,578 non-
 
 Also in the window, undocumented here on purpose: Esc backtrack in the TUI and classic CLI (replacing the rewind list picker), group chats that run on a gateway without Desktop and can seat bots from other computers, saved gateway connections shared by Desktop and the Webapp, signing the in-app browser in with your real browser profile and filling saved logins from its address bar, `hermes gateway attach` for local clients, `hermes clipboard image --json`, new plugin API (session-scoped environment values, plugin JSON-RPC methods and events, `llm.oneshot` auxiliary tasks, a compression-stable `conversation_id`, an `on_session_open` hook in the gateway, a `post_curator_run` hook), faster transcript and handoff reads, and a large batch of new plugin-catalog entries.
 
-**Full curated release notes for this window ship with v0.24.0**, which will document everything from v0.23.0 onward  -  highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window ship with v0.24.0**, which will document everything from v0.23.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ## Updating
 
@@ -38,11 +38,11 @@ Also in the window, undocumented here on purpose: Esc backtrack in the TUI and c
 
 ### What changed in Hermes Agent v0.23.1?
 
-Patch release. This tag rolls up the ~618 PRs merged since v0.23.0 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for...
+Patch release. This tag rolls up the ~618 PRs merged since v0.23.0 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0.
 
 ### When was Hermes Agent v0.23.1 released?
 
-November 10, 2026
+November 9, 2026
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.20.5 Patch Release
-description: Hermes Agent v0.20.5 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.20.5 Patch Release"
+description: "Hermes Agent v0.20.5 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.5/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -18,9 +18,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## About this release
 
-Since v0.20.4 (v2026.8.18, tagged August 18), this window landed **~746 commits** across **~1,250 files** (+111,500 / −20,701)  -  **~323 merged PRs** including Bot Mode group-room threads, foldable conversation summaries, blob-face avatars, and PDF/file attachments with drag & drop; the keyless web tier (5-vendor free rotation with ring failover, web search on fresh installs with zero keys); a CLI polish wave (fuzzy /model picker, Ctrl+P command palette, richer /status); execution-discipline and runtime stall guards from the Composio eval findings; `hermes update` receipts and fleet `--plan` verification; `hermes worktree list/prune`; the opencode-free zero-auth provider; multi-question clarify; desktop perf work (paint-first Bot Mode hydration, compositor spinners, React Compiler in both renderers); and cron jobs gaining persistent memory and per-job reasoning effort.
+Since v0.20.4 (v2026.8.18, tagged August 18), this window landed **~746 commits** across **~1,250 files** (+111,500 / −20,701) - **~323 merged PRs** including Bot Mode group-room threads, foldable conversation summaries, blob-face avatars, and PDF/file attachments with drag & drop; the keyless web tier (5-vendor free rotation with ring failover, web search on fresh installs with zero keys); a CLI polish wave (fuzzy /model picker, Ctrl+P command palette, richer /status); execution-discipline and runtime stall guards from the Composio eval findings; `hermes update` receipts and fleet `--plan` verification; `hermes worktree list/prune`; the opencode-free zero-auth provider; multi-question clarify; desktop perf work (paint-first Bot Mode hydration, compositor spinners, React Compiler in both renderers); and cron jobs gaining persistent memory and per-job reasoning effort.
 
-**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward  -  highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ## Updating
 
@@ -37,7 +37,7 @@ Patch release. This tag rolls up the ~323 PRs merged since v0.20.4 into a stable
 
 ### When was Hermes Agent v0.20.5 released?
 
-August 21, 2026
+August 19, 2026
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.22.3 Patch Release
-description: Hermes Agent v0.22.3 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.22.3 Patch Release"
+description: "Hermes Agent v0.22.3 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.22.3/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -21,7 +21,7 @@ Measured at commit `5b147ab036d`, the window since v0.22.2 contains **2,911 non-
 
 Also in the window, undocumented here on purpose: MCP progress notifications streamed as live tool progress, a refreshed classic CLI layout (glyph transcript, status line under the composer, two-line header), OAuth clients that plugins declare and Hermes signs in and refreshes, `hermes plugins update` offering every available plugin update plus an Update button for git-installed plugins in Desktop, steering and editing a queued prompt from Desktop, a guided subagent model and provider picker in Desktop, a live `/loop` countdown row in the CLI and TUI, opt-in Telegram DM topic transfer, a `post_compaction` plugin hook, a capabilities catalog, the Microsoft Store build going live automatically when a release publishes, session auto-prune back to opt-in with a one-time prompt when disk runs low, Nemotron 3.5 Bolt and one-slot DFlash drafts in the local runtime, and dozens of new plugin catalog entries.
 
-**Full curated release notes for this window ship with v0.23.0**, which will document everything from v0.22.0 onward  -  highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window ship with v0.23.0**, which will document everything from v0.22.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ## Updating
 
@@ -36,7 +36,7 @@ Also in the window, undocumented here on purpose: MCP progress notifications str
 
 ### What changed in Hermes Agent v0.22.3?
 
-Patch release. This tag rolls up the ~620 PRs merged since v0.22.2 into a stable release for the CLI and installer, the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship...
+Patch release. This tag rolls up the ~620 PRs merged since v0.22.2 into a stable release for the CLI and installer, the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.23.0.
 
 ### When was Hermes Agent v0.22.3 released?
 

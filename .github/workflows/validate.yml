@@ -165,3 +165,17 @@ jobs:
         run: |
           python scripts/generate_llms_txt.py
           git diff --exit-code -- llms.txt llms-full.txt
+
+      # Every auto-published release page states its own Release Date (verbatim from
+      # the upstream release body) and answers "When was <v> released?" in the AEO
+      # FAQ block. Those two were generated from different inputs - the body for one,
+      # published_at[:10] (a UTC calendar date) for the other - so a release cut in
+      # the Arizona evening answered with the NEXT day. Seven pages disagreed with
+      # themselves by 1-2 days (v0.4.0, v0.20.3, v0.20.5, v0.21.7, v0.22.0, v0.22.5,
+      # v0.23.1) and 22 more ended their "what changed" answer mid-sentence with a
+      # literal "...". Nothing caught it: every URL returned 200. See
+      # scripts/repair_changelog_faq.py for the repair and the generator fix.
+      - name: Validate changelog FAQ dates and complete answers
+        run: |
+          python -m unittest scripts/test_repair_changelog_faq.py
+          python scripts/repair_changelog_faq.py --check
