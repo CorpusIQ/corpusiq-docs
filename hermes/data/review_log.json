@@ -21788,5 +21788,131 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-11-09T10:03:48.266724+00:00"
+  },
+  {
+    "repo": "NeetanKumar/hermes-agent-setup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544307+00:00"
+  },
+  {
+    "repo": "loverlayk/MikrotikSkill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544322+00:00"
+  },
+  {
+    "repo": "ivanvanes18/hermes-multibot",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544325+00:00"
+  },
+  {
+    "repo": "JerryLiu369/hermes-proactive-agent",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544327+00:00"
+  },
+  {
+    "repo": "gradia64/hermes-lang-it-full",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544329+00:00"
+  },
+  {
+    "repo": "yumingtao/agent-skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544331+00:00"
+  },
+  {
+    "repo": "HearthCore/hermcp",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544333+00:00"
+  },
+  {
+    "repo": "MrHydeDev/openwall-mcp-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544335+00:00"
+  },
+  {
+    "repo": "jawello/hermes-assistant-example",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544337+00:00"
+  },
+  {
+    "repo": "wakeshift/hermes-plugin",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544339+00:00"
+  },
+  {
+    "repo": "bizyumov/yandex-speech",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544341+00:00"
+  },
+  {
+    "repo": "minhng92/skill-stats",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544343+00:00"
+  },
+  {
+    "repo": "MarinWasAsleep/hermes-socratic-tutor",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544345+00:00"
+  },
+  {
+    "repo": "ponzgpt/sabbath",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544346+00:00"
+  },
+  {
+    "repo": "ponzgpt/psychopomp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544348+00:00"
+  },
+  {
+    "repo": "Apex-Nerd-Labs/Hermes-Skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544350+00:00"
+  },
+  {
+    "repo": "ivanvanes18/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544352+00:00"
+  },
+  {
+    "repo": "RezaHarirchian/hermes-tallyhand",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-10T10:03:23.544354+00:00"
   }
 ]
