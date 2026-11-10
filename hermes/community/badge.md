@@ -1,6 +1,6 @@
 ---
 title: "Community Badge - CorpusIQ Docs"
-description: "Shareable badge for Hermes ecosystem contributors and community members. Add this your project README:."
+description: "Shareable badge for Hermes ecosystem contributors and community members. Add this your project README"
 canonical: "https://www.corpusiq.io/docs/hermes/community/badge/"
 robots: "index,follow"
 last_updated: "2026-11-08"
@@ -24,7 +24,7 @@ Compact:
 
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

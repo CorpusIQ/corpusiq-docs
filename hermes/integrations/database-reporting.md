@@ -1,6 +1,6 @@
 ---
 title: "Database + Reporting Integration for Hermes Agent"
-description: Connect databases (PostgreSQL, MySQL, SQL Server, MongoDB) to Hermes Agent for automated reporting. Scheduled queries, dashboard generation, anomaly detection, and report distribution with MCP setup and cron patterns.
+description: "Connect databases (PostgreSQL, MySQL, SQL Server, MongoDB) to Hermes Agent for automated reporting. Scheduled queries, dashboard generation, anomaly"
 category: integrations
 tags: [hermes-agent, integration, database, reporting, postgresql, mysql, mongodb, dashboards, anomaly-detection, cron]
 last_updated: 2026-11-08
@@ -222,7 +222,7 @@ Design queries and destination writes to be idempotent - running the same report
 - Integrate with BI tools (Metabase, Looker, Tableau) by refreshing their underlying datasets
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

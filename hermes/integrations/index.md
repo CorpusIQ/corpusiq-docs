@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Integration Examples"
-description: Practical Hermes Agent integration guides connecting Slack, GitHub, email, calendar, CRM, analytics, databases, and reporting tools. MCP server setup, cron patterns, and automation workflows with detailed architecture.
+description: "Practical Hermes Agent integration guides connecting Slack, GitHub, email, calendar, CRM, analytics, databases, and reporting tools. MCP server setup"
 category: integrations
 tags: [hermes-agent, integrations, slack, github, email, calendar, crm, analytics, database, mcp-server, automation]
 last_updated: 2026-11-08
@@ -127,7 +127,7 @@ These four integrations are examples of a generalizable pattern. You can apply t
 The pattern is always: **read from sources → compute/enrich/detect → write to destinations → alert on anomalies → log everything.**
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

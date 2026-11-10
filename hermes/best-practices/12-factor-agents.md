@@ -1,6 +1,6 @@
 ---
 title: "12-Factor Agents - Engineering Standards for AI Agents"
-description: "The 12-Factor Agents framework applied to Hermes Agent: mostly deterministic software with LLM steps at the right points, mapped factor by factor."
+description: "The 12-Factor Agents framework applied to Hermes Agent: mostly deterministic software with LLM steps at the right points, mapped factor by factor"
 category: best-practices
 tags: [hermes-agent, 12-factor-agents, engineering-standards, production-agents, agent-architecture, deterministic-software, agent-reliability]
 last_updated: 2026-11-08
@@ -162,7 +162,7 @@ Start with the adoption checklist above: version your prompts, define tool schem
 
 Start with factors 1 through 4. They convert the "prompt plus tools plus loop" prototype into software. The rest follows.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

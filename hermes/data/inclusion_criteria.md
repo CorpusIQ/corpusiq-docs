@@ -1,6 +1,6 @@
 ---
 title: "Ecosystem Inclusion Criteria - CorpusIQ Docs"
-description: "Criteria for including repositories and tools in the Hermes Ecosystem Directory. Every submission scored 0-100 across six dimensions:."
+description: "Criteria for including repositories and tools in the Hermes Ecosystem Directory. Every submission scored 0-100 across six dimensions"
 canonical: "https://www.corpusiq.io/docs/hermes/data/inclusion_criteria/"
 robots: "index,follow"
 last_updated: "2026-11-08"
@@ -70,7 +70,7 @@ Every submission is scored 0-100 across six dimensions:
 - **OUT_OF_SCOPE**: Not a developer tool, SDK, integration, or resource
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

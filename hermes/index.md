@@ -16,7 +16,7 @@ The largest structured collection of Hermes Agent tools, skills, MCP servers, ag
 
 ## Quick Links
 
-- [Ecosystem Map](ecosystem) - 451+ repos across 18 categories
+- [Ecosystem Map](ecosystem) - 452+ repos across 18 categories
 - [Agent Library](agents/index.md) - 9 production agent configurations
 - [Case Studies](outputs/index.md) - 13 industry case studies
 - [Setup Guides](setup/index.md) - Deploy on Mac, PC, VPS, Raspberry Pi

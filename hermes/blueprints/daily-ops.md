@@ -1,6 +1,6 @@
 ---
 title: "Daily Operations Blueprint for Hermes Agent"
-description: End-to-end Hermes Agent daily operations blueprint. Morning briefing, task triage, midday pulse check, execution monitoring, and evening wrap-up. 12 cron jobs orchestrate a complete business day with human decision gates.
+description: "End-to-end Hermes Agent daily operations blueprint. Morning briefing, task triage, midday pulse check, execution monitoring, and evening wrap-up. 12 cron"
 category: blueprints
 tags: [hermes-agent, blueprint, daily-operations, morning-briefing, task-triage, cron, workflow-automation]
 last_updated: 2026-11-08
@@ -230,7 +230,7 @@ Add a weekly review on Friday afternoons that aggregates the week's reports, con
 - [Integration Examples](/hermes/integrations) - Connect the tools this blueprint needs
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

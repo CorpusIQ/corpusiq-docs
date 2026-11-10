@@ -1,6 +1,6 @@
 ---
 title: "Hermes Legal Agent - CorpusIQ Docs"
-description: Deploy an AI legal operations agent for contract review, regulatory monitoring, policy enforcement, audit preparation, and document management. Complete Hermes configuration blueprint.
+description: "Deploy an AI legal operations agent for contract review, regulatory monitoring, policy enforcement, audit preparation, and document management. Complete"
 category: Agents
 tags:
   - legal-agent
@@ -143,7 +143,7 @@ Each morning the agent scans regulatory agency feeds, filters updates by your co
 - [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

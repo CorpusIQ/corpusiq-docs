@@ -1,6 +1,6 @@
 ---
-title: AI Agent Marketplace - Personality + Data, One Stack
-description: The complete AI agent stack. 283 specialized agents from agency-agents meet 40+ live business connectors from CorpusIQ. Personalities that write. Infrastructure that connects.
+title: "AI Agent Marketplace - Personality + Data, One Stack"
+description: "The complete AI agent stack. 283 specialized agents from agency-agents meet 40+ live business connectors from CorpusIQ. Personalities that write"
 canonical: "https://www.corpusiq.io/docs/hermes/ai-agent-marketplace/"
 robots: "index,follow"
 last_updated: "2026-11-08"
@@ -103,7 +103,7 @@ One gives you the agents. The other connects them to your real business.
 
 1. **[Browse the agents →](https://github.com/msitarzewski/agency-agents)** - explore all 283 roles
 2. **[Connect your tools →](https://corpusiq.io)** - 40+ OAuth connectors, 30-day free trial
-3. **[See the full ecosystem →](/hermes/ecosystem)** - 451+ repos in the Hermes universe
+3. **[See the full ecosystem →](/hermes/ecosystem)** - 452+ repos in the Hermes universe
 
 ---
 

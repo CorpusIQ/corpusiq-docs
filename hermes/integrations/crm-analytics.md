@@ -1,6 +1,6 @@
 ---
 title: "CRM + Analytics Integration for Hermes Agent"
-description: Connect CRM (HubSpot, Salesforce, Close) with analytics (GA4, PostHog) in Hermes Agent. Automated lead scoring, pipeline forecasting, marketing attribution with MCP server setup and cron-driven reporting patterns.
+description: "Connect CRM (HubSpot, Salesforce, Close) with analytics (GA4, PostHog) in Hermes Agent. Automated lead scoring, pipeline forecasting, marketing"
 category: integrations
 tags: [hermes-agent, integration, crm, analytics, hubspot, ga4, lead-scoring, pipeline-forecasting, attribution]
 last_updated: 2026-11-08
@@ -171,7 +171,7 @@ Start with non-critical reports (attribution, pipeline visibility). After 4 week
 - Wire in calendar data to track meeting-to-opportunity conversion rates.
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 

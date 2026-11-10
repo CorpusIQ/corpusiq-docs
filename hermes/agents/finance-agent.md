@@ -1,6 +1,6 @@
 ---
 title: "Hermes Finance Agent - CorpusIQ Docs"
-description: Deploy an AI finance agent for invoice processing, expense tracking, bank reconciliation, AR aging, and financial reporting. Complete Hermes blueprint with QuickBooks and Stripe.
+description: "Deploy an AI finance agent for invoice processing, expense tracking, bank reconciliation, AR aging, and financial reporting. Complete Hermes blueprint"
 category: Agents
 tags:
   - finance-agent
@@ -142,7 +142,7 @@ The agent generates **P&L statements, balance sheet snapshots, cash flow summari
 - [Cron Scheduling Guide](/hermes/governance/scheduling)
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 451+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) - 452+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 ---
 
