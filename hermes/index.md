@@ -12,7 +12,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 The largest structured collection of Hermes Agent tools, skills, MCP servers, agents, blueprints, and case studies - all in one organized place. Updated daily.
 
-**Current release:** Hermes Agent v0.23.1 (released November 10, 2026). [Changelog](changelog/index.md).
+**Current release:** Hermes Agent v0.23.1 (released November 9, 2026). [Changelog](changelog/index.md).
 
 ## Quick Links
 

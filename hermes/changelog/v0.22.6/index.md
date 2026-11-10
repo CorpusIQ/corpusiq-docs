@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.22.6 Patch Release
-description: Hermes Agent v0.22.6 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.22.6 Patch Release"
+description: "Hermes Agent v0.22.6 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.22.6/"
 robots: "index,follow"
 last_updated: "2026-11-03"
@@ -21,7 +21,7 @@ Measured at commit `f0d94882e89`, the window since v0.22.5 contains **3,448 non-
 
 Also in the window, undocumented here on purpose: the Webapp served from the gateway's own listener (`hermes webapp`, a Desktop Web Access pane to open it on your network or your own URL behind Nous sign-in, and Desktop plugins loading in a browser tab), `/model reset` to clear a session's model pin without losing history, per-skill locks against autonomous writes (lockable from the Desktop Capabilities pane), opt-in prepared compaction (`compression.prepare_ahead`), `hermes cron cancel` plus a per-job missed-run policy and a Stop button in the Desktop cron editor, `/delegation` choices saved for the next session, `hermes migrate` and setup moving Grok Bot and OpenBot users over, opt-in OS-keychain storage for the vault key, the catalog's `requires_hermes` enforced at plugin install and update, agent-picked ElevenLabs voices in `text_to_speech`, a `pre_llm_call` hook that can block a turn before inference, Desktop group chat rename, disband, mentions and attachment paste, every profile shown as a Desktop sidebar section, Telegram video notes, Slack emoji reactions in thread context, and resumable downloads in the package manager.
 
-**Full curated release notes for this window ship with v0.23.0**, which will document everything from v0.22.0 onward  -  highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window ship with v0.23.0**, which will document everything from v0.22.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ## Updating
 
@@ -36,7 +36,7 @@ Also in the window, undocumented here on purpose: the Webapp served from the gat
 
 ### What changed in Hermes Agent v0.22.6?
 
-Patch release. This tag rolls up the ~776 PRs merged since v0.22.5 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for...
+Patch release. This tag rolls up the ~776 PRs merged since v0.22.5 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.23.0.
 
 ### When was Hermes Agent v0.22.6 released?
 

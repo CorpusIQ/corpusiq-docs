@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.20.2 Patch Release
-description: Hermes Agent v0.20.2 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.20.2 Patch Release"
+description: "Hermes Agent v0.20.2 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.2/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -18,9 +18,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## About this release
 
-Since v0.20.1 (v2026.8.13, tagged August 13), this window landed **~967 commits** across **~1,279 files** (+128,522 / −7,622)  -  **~397 merged PRs** of fixes and improvements spanning the desktop app (multi-gateway Connections registry, profile-scoped refreshes, MCP health checks and deep links), the CLI (Windows update probes, Kitty keyboard protocol, chat `-c` hardening), the gateway (persisted model routes, /loop completion, Telegram DM topics), prompt caching for LiteLLM Claude on the OpenAI wire, cron hardening, auth resolution through profile scopes, and installer robustness on both Linux and Windows.
+Since v0.20.1 (v2026.8.13, tagged August 13), this window landed **~967 commits** across **~1,279 files** (+128,522 / −7,622) - **~397 merged PRs** of fixes and improvements spanning the desktop app (multi-gateway Connections registry, profile-scoped refreshes, MCP health checks and deep links), the CLI (Windows update probes, Kitty keyboard protocol, chat `-c` hardening), the gateway (persisted model routes, /loop completion, Telegram DM topics), prompt caching for LiteLLM Claude on the OpenAI wire, cron hardening, auth resolution through profile scopes, and installer robustness on both Linux and Windows.
 
-**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward  -  highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ## Updating
 

@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.18.0 - The Judgment Release
-description: P0/P1 clean sweep (692 items, 100% closed). Mixture-of-Agents as first-class model, verification & completion contracts, /learn distillation, /journey timeline, background fan-out, desktop coding Projects, scale-to-zero gateway, Google Vertex AI, security hardening. July 1, 2026.
+title: "Hermes Agent v0.18.0 - The Judgment Release"
+description: "P0/P1 clean sweep (692 items, 100% closed). Mixture-of-Agents as first-class model, verification & completion contracts, /learn distillation, /journey"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.0/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -233,7 +233,7 @@ Vertex AI is now a first-class provider for Gemini over the OpenAI-compatible en
 
 ### What changed in Hermes Agent v0.18.0?
 
-P0/P1 clean sweep (100% resolved), Mixture-of-Agents as first-class model, verification & completion contracts, `/learn` skill distillation, `/journey` learning timeline, desktop coding Projects, background fan-out, scale-to-zero gateway, Google Vertex AI, security hardening
+**The Judgment Release.** Over the last week and a half the team put nearly all of its effort into one goal: resolve **every P0 and P1 issue and PR in the entire Hermes Agent repo** - and as of this release, **100% of them are closed.** Zero open P0s. Zero open P1s.
 
 ### When was Hermes Agent v0.18.0 released?
 

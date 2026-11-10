@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.22.1 Patch Release
-description: Hermes Agent v0.22.1 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.22.1 Patch Release"
+description: "Hermes Agent v0.22.1 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.22.1/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -16,20 +16,20 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 
 ## ✨ Features
 
-- Agent): add nemotron super 3.5 default parameters ([`c59d2994`](https://github.com/NousResearch/hermes-agent/commit/c59d299408e924c3682619e7d9d368891d4b709e))  -  @elisam0
-- Cli): add curated model list at the top in the model picker list ([`e6835fd3`](https://github.com/NousResearch/hermes-agent/commit/e6835fd3cb3bb399ce06cac5356c36226483b889))  -  @elisam0
-- Plugin-catalog): add hermes-lang-ko  -  Korean Desktop language pack ([`e5f49b6a`](https://github.com/NousResearch/hermes-agent/commit/e5f49b6a17a9bd623da961d86b779d523a09227c))  -  @dandacompany
-- Plugin-catalog: add hermes-lang-pt-br (Brazilian Portuguese language pack) ([`0169e80c`](https://github.com/NousResearch/hermes-agent/commit/0169e80c7dbb6d2d2a33126310f5c5c075e1952a))  -  @StudioCodeAI
-- Plugin-catalog: add teamorouter (TeamoRouter model providers) ([`ef223406`](https://github.com/NousResearch/hermes-agent/commit/ef223406225638a73e8f9c1536a734bb7addfe18))  -  @2867297362mjb-sketch
-- Plugin-catalog): add author-feed ([`5f6d6836`](https://github.com/NousResearch/hermes-agent/commit/5f6d6836cc80051e297936b4467a91d7c4925039))  -  @TakeshiTGAL
-- Plugin-catalog): bump aux-ledger to 1.4.0 ([`6048066e`](https://github.com/NousResearch/hermes-agent/commit/6048066e22f3019505d04caeab29577c803f4d71))  -  @olric3015
-- Plugin-catalog): add the wait-ledger catalog card ([`77cb58e5`](https://github.com/NousResearch/hermes-agent/commit/77cb58e56ac47d5e3aa1ee720d4bcd7a8c6a8513))  -  @olric3015
-- Plugin-catalog): add wait-ledger ([`97e65322`](https://github.com/NousResearch/hermes-agent/commit/97e65322efebd1b8dc07d33634b685df078d5858))  -  @olric3015
-- Community plugin: lightningai + lightningai-rate-limit ([`07515466`](https://github.com/NousResearch/hermes-agent/commit/075154660043fe5656ec3ca48c93d6a6f9755494))  -  @dinosauria123
-- Catalog: add Hermes AAC 0.1.0 at reviewed exact source pin ([`7c9adda8`](https://github.com/NousResearch/hermes-agent/commit/7c9adda81a2d152ba4f63fe6aecf59385dfc3284))  -  @TREE-Ind
-- Plugin-catalog): add openinvest ([`b6e86101`](https://github.com/NousResearch/hermes-agent/commit/b6e86101c29593785c81eb8d380e2faef2530d5f))  -  @longsizhuo
-- Catalog: add hermes-agent-mixer (v0.2.0 @ 04c4e13) ([`2e7e3859`](https://github.com/NousResearch/hermes-agent/commit/2e7e385959dc65ceb3053724724d8a5f526c675d))  -  @Sahil-SS9
-- Plugins): move Kumiho Memory to memory catalog shelf ([`46f95e08`](https://github.com/NousResearch/hermes-agent/commit/46f95e086379a2d701595b981cb94733fd060384))  -  @kaveone
+- Agent): add nemotron super 3.5 default parameters ([`c59d2994`](https://github.com/NousResearch/hermes-agent/commit/c59d299408e924c3682619e7d9d368891d4b709e)) - @elisam0
+- Cli): add curated model list at the top in the model picker list ([`e6835fd3`](https://github.com/NousResearch/hermes-agent/commit/e6835fd3cb3bb399ce06cac5356c36226483b889)) - @elisam0
+- Plugin-catalog): add hermes-lang-ko - Korean Desktop language pack ([`e5f49b6a`](https://github.com/NousResearch/hermes-agent/commit/e5f49b6a17a9bd623da961d86b779d523a09227c)) - @dandacompany
+- Plugin-catalog: add hermes-lang-pt-br (Brazilian Portuguese language pack) ([`0169e80c`](https://github.com/NousResearch/hermes-agent/commit/0169e80c7dbb6d2d2a33126310f5c5c075e1952a)) - @StudioCodeAI
+- Plugin-catalog: add teamorouter (TeamoRouter model providers) ([`ef223406`](https://github.com/NousResearch/hermes-agent/commit/ef223406225638a73e8f9c1536a734bb7addfe18)) - @2867297362mjb-sketch
+- Plugin-catalog): add author-feed ([`5f6d6836`](https://github.com/NousResearch/hermes-agent/commit/5f6d6836cc80051e297936b4467a91d7c4925039)) - @TakeshiTGAL
+- Plugin-catalog): bump aux-ledger to 1.4.0 ([`6048066e`](https://github.com/NousResearch/hermes-agent/commit/6048066e22f3019505d04caeab29577c803f4d71)) - @olric3015
+- Plugin-catalog): add the wait-ledger catalog card ([`77cb58e5`](https://github.com/NousResearch/hermes-agent/commit/77cb58e56ac47d5e3aa1ee720d4bcd7a8c6a8513)) - @olric3015
+- Plugin-catalog): add wait-ledger ([`97e65322`](https://github.com/NousResearch/hermes-agent/commit/97e65322efebd1b8dc07d33634b685df078d5858)) - @olric3015
+- Community plugin: lightningai + lightningai-rate-limit ([`07515466`](https://github.com/NousResearch/hermes-agent/commit/075154660043fe5656ec3ca48c93d6a6f9755494)) - @dinosauria123
+- Catalog: add Hermes AAC 0.1.0 at reviewed exact source pin ([`7c9adda8`](https://github.com/NousResearch/hermes-agent/commit/7c9adda81a2d152ba4f63fe6aecf59385dfc3284)) - @TREE-Ind
+- Plugin-catalog): add openinvest ([`b6e86101`](https://github.com/NousResearch/hermes-agent/commit/b6e86101c29593785c81eb8d380e2faef2530d5f)) - @longsizhuo
+- Catalog: add hermes-agent-mixer (v0.2.0 @ 04c4e13) ([`2e7e3859`](https://github.com/NousResearch/hermes-agent/commit/2e7e385959dc65ceb3053724724d8a5f526c675d)) - @Sahil-SS9
+- Plugins): move Kumiho Memory to memory catalog shelf ([`46f95e08`](https://github.com/NousResearch/hermes-agent/commit/46f95e086379a2d701595b981cb94733fd060384)) - @kaveone
 - Add canonical group attachment controls ([`4673f17c`](https://github.com/NousResearch/hermes-agent/commit/4673f17c9aa5e5cfe48a68830e3ed352af11e0a6))
 - Consume event-bound hosted files through canonical admissions ([`e87bd098`](https://github.com/NousResearch/hermes-agent/commit/e87bd098eab1a24f97802fe783596bd91f81fc5b))
 - Connect Desktop groups to canonical driver controls ([`3c2c9d47`](https://github.com/NousResearch/hermes-agent/commit/3c2c9d470a7ade1a5f47d202a2d1d24abc608f95))
@@ -130,11 +130,11 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 
 ## 🔧 Improvements
 
-- Profiles): build the seed routing view once; expand `enabled` too ([`311155fa`](https://github.com/NousResearch/hermes-agent/commit/311155fade43d1993ea968909a2ad36762345bbc))  -  @kshitijk4poor
-- Update nemotron super 3.5 name ([`3224993a`](https://github.com/NousResearch/hermes-agent/commit/3224993af1860ffdb587e491560f32bf845c82ad))  -  @elisam0
-- Hermes_cli): update nemotron 3.5 name ([`108ae4e7`](https://github.com/NousResearch/hermes-agent/commit/108ae4e7cd4c89a95545b1cdab3e1b72ce220755))  -  @elisam0
-- Catalog: re-pin showly to the build without the upstream self-update check ([`6462f64a`](https://github.com/NousResearch/hermes-agent/commit/6462f64aefba9271f9977edcd430d61141d4d760))  -  @slchris
-- Catalog: update Model Router to v0.4.3 native preferences ([`6a097ee9`](https://github.com/NousResearch/hermes-agent/commit/6a097ee98d4c96eafa9ef76c98c3c39d6d65a0da))  -  @metamindedu
+- Profiles): build the seed routing view once; expand `enabled` too ([`311155fa`](https://github.com/NousResearch/hermes-agent/commit/311155fade43d1993ea968909a2ad36762345bbc)) - @kshitijk4poor
+- Update nemotron super 3.5 name ([`3224993a`](https://github.com/NousResearch/hermes-agent/commit/3224993af1860ffdb587e491560f32bf845c82ad)) - @elisam0
+- Hermes_cli): update nemotron 3.5 name ([`108ae4e7`](https://github.com/NousResearch/hermes-agent/commit/108ae4e7cd4c89a95545b1cdab3e1b72ce220755)) - @elisam0
+- Catalog: re-pin showly to the build without the upstream self-update check ([`6462f64a`](https://github.com/NousResearch/hermes-agent/commit/6462f64aefba9271f9977edcd430d61141d4d760)) - @slchris
+- Catalog: update Model Router to v0.4.3 native preferences ([`6a097ee9`](https://github.com/NousResearch/hermes-agent/commit/6a097ee98d4c96eafa9ef76c98c3c39d6d65a0da)) - @metamindedu
 - Keep native MCP revision scoped to frozen tool settings ([`53d17f1c`](https://github.com/NousResearch/hermes-agent/commit/53d17f1c5b15059d4a44ea30839726371ff3df2e))
 - Cron bot-chat delivery has no local CLI fallback lane ([`5d87060e`](https://github.com/NousResearch/hermes-agent/commit/5d87060eb8c1445bc53e135fdb79be64fd6179e5))
 - Retire bot execution discovery from viewer notification pollers ([`c8ae25cd`](https://github.com/NousResearch/hermes-agent/commit/c8ae25cd1122550a13ba22f84e325adab0d8c91a))
@@ -160,29 +160,29 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 - Desktop): update notes keep full text, re-read merged PRs per check, respect custom branches ([`f2a93db9`](https://github.com/NousResearch/hermes-agent/commit/f2a93db97c1c8ab7b97ce640764349c1f6a804a3))
 - Mcp): preserve server deadlines through outer tool execution ([`f30020ed`](https://github.com/NousResearch/hermes-agent/commit/f30020ed5e1fc35551ce0d259ed5086dd6bf9885))
 - Plugins): honor portable per-server call deadlines ([`fcc170b7`](https://github.com/NousResearch/hermes-agent/commit/fcc170b7983e3891e02f96d977ecdf219d11be1e))
-- Agent): rewrite split tool ids before Mistral sees them ([`b33ed359`](https://github.com/NousResearch/hermes-agent/commit/b33ed35968f00896e093fa41735af7c108e6bead))  -  @xxxigm
-- Profiles): align model seed with provider resolution ([`5fee8d77`](https://github.com/NousResearch/hermes-agent/commit/5fee8d77bf91ea2e34817817334f98fe93a5b8f6))  -  @helix4u
-- Profiles): inherit canonical and legacy custom endpoints ([`2d3e75aa`](https://github.com/NousResearch/hermes-agent/commit/2d3e75aab02f044000110137a0503b5fa2114367))  -  @helix4u
+- Agent): rewrite split tool ids before Mistral sees them ([`b33ed359`](https://github.com/NousResearch/hermes-agent/commit/b33ed35968f00896e093fa41735af7c108e6bead)) - @xxxigm
+- Profiles): align model seed with provider resolution ([`5fee8d77`](https://github.com/NousResearch/hermes-agent/commit/5fee8d77bf91ea2e34817817334f98fe93a5b8f6)) - @helix4u
+- Profiles): inherit canonical and legacy custom endpoints ([`2d3e75aa`](https://github.com/NousResearch/hermes-agent/commit/2d3e75aab02f044000110137a0503b5fa2114367)) - @helix4u
 - Drop the VPN/proxy advice from the CDN-block message ([`300228d2`](https://github.com/NousResearch/hermes-agent/commit/300228d24c593f779055204753921fbe9a2163c5))
-- Catalog): re-pin Agent Mixer after maintainer review ([`4297a692`](https://github.com/NousResearch/hermes-agent/commit/4297a692d9570e039aa8c7bfde900ffca420eaff))  -  @Sahil-SS9
-- Pin Activity v0.2.1 public credential routes ([`3dac1f07`](https://github.com/NousResearch/hermes-agent/commit/3dac1f07d59f7f300f6f3433cef1bf8966b763c4))  -  @hassan-kamel
-- Plugin-catalog): update switchbot-control to d0e6f77 ([`c4bf61b1`](https://github.com/NousResearch/hermes-agent/commit/c4bf61b126a60172d2598b923fd08b1d60b1e84f))  -  @TakeshiTGAL
-- Doctor): clarify Docker npm audit remediation ([`e21caa27`](https://github.com/NousResearch/hermes-agent/commit/e21caa27b75a880536ac3429f70c356ece19a330))  -  @KoNit-K
-- Deps): bump the WhatsApp bridge lock past its npm-audit findings ([`231cb757`](https://github.com/NousResearch/hermes-agent/commit/231cb757a4607e6b44e13c154696e869fd959102))  -  @ethernet8023
-- Tui): retain native legacy history in canonical session picker ([`2171365a`](https://github.com/NousResearch/hermes-agent/commit/2171365a3fcbe646bcb21dc26e8391f5588023fe))  -  @unsupportedpastels
+- Catalog): re-pin Agent Mixer after maintainer review ([`4297a692`](https://github.com/NousResearch/hermes-agent/commit/4297a692d9570e039aa8c7bfde900ffca420eaff)) - @Sahil-SS9
+- Pin Activity v0.2.1 public credential routes ([`3dac1f07`](https://github.com/NousResearch/hermes-agent/commit/3dac1f07d59f7f300f6f3433cef1bf8966b763c4)) - @hassan-kamel
+- Plugin-catalog): update switchbot-control to d0e6f77 ([`c4bf61b1`](https://github.com/NousResearch/hermes-agent/commit/c4bf61b126a60172d2598b923fd08b1d60b1e84f)) - @TakeshiTGAL
+- Doctor): clarify Docker npm audit remediation ([`e21caa27`](https://github.com/NousResearch/hermes-agent/commit/e21caa27b75a880536ac3429f70c356ece19a330)) - @KoNit-K
+- Deps): bump the WhatsApp bridge lock past its npm-audit findings ([`231cb757`](https://github.com/NousResearch/hermes-agent/commit/231cb757a4607e6b44e13c154696e869fd959102)) - @ethernet8023
+- Tui): retain native legacy history in canonical session picker ([`2171365a`](https://github.com/NousResearch/hermes-agent/commit/2171365a3fcbe646bcb21dc26e8391f5588023fe)) - @unsupportedpastels
 - Tui): the banner shows main's 8-character session label for a canonical id ([`2c979900`](https://github.com/NousResearch/hermes-agent/commit/2c97990051a6a415ce4baadf4bb6e90262cca482))
 - Gateway): a local process completion persists as a process_complete card ([`ff770cb7`](https://github.com/NousResearch/hermes-agent/commit/ff770cb769852a776c8788ddaae2f121234eb942))
-- Runtime): persist diagnostic automation category through replay ([`bdac7911`](https://github.com/NousResearch/hermes-agent/commit/bdac7911d99e5b18793e3fc414ce67d839d1f3f0))  -  David Dudok de Wit
-- Gateway): retire bot receipt tasks with authority ([`d50b2eda`](https://github.com/NousResearch/hermes-agent/commit/d50b2eda3d453eeedf720337f06e743eeb6d7655))  -  @Lokee86
-- Gateway): persist operator provenance for native recovery ([`c51049aa`](https://github.com/NousResearch/hermes-agent/commit/c51049aa8f6099b79569d339de895ca0a9301ba5))  -  @Lokee86
-- Cli): preserve blocking controls in finite output ([`954638ed`](https://github.com/NousResearch/hermes-agent/commit/954638ede23e1e3ddeca27412992cfa2d636ea31))  -  @Lokee86
-- Gateway): isolate malformed bot receipt schemas ([`4be62f9c`](https://github.com/NousResearch/hermes-agent/commit/4be62f9ca68d626760a54742c6308cf38f804f88))  -  @Lokee86
-- Acp): clean up deferred cancellation lifetime ([`89dac620`](https://github.com/NousResearch/hermes-agent/commit/89dac62078c964f5aa8f1a5ff40f3914baecc481))  -  @Lokee86
-- Gateway): close remaining unified-runtime review gaps ([`83cdc63a`](https://github.com/NousResearch/hermes-agent/commit/83cdc63a19925827ba0aa78339fb5acea02b06cc))  -  @Lokee86
-- Gateway): isolate bot receipts and keep headless cron no-spawn ([`cdf36315`](https://github.com/NousResearch/hermes-agent/commit/cdf36315e95e922970b91401bd1156c00a2d1817))  -  @Lokee86
-- Gateway): recover mixed local queues and retire failed hot serves ([`f4fd982b`](https://github.com/NousResearch/hermes-agent/commit/f4fd982b56920ccf5311943e7d1a8c19f986e87f))  -  @Lokee86
-- Gateway): terminate replay gaps and retain ACP cancels ([`37662b16`](https://github.com/NousResearch/hermes-agent/commit/37662b16ec967452d3fd600db1dab1bc12e68e46))  -  @Lokee86
-- Gateway): route local ticket bootstrap through control owner ([`996d9beb`](https://github.com/NousResearch/hermes-agent/commit/996d9bebd1190fa4e45f9f8106de99ff558dd819))  -  @Lokee86
+- Runtime): persist diagnostic automation category through replay ([`bdac7911`](https://github.com/NousResearch/hermes-agent/commit/bdac7911d99e5b18793e3fc414ce67d839d1f3f0)) - David Dudok de Wit
+- Gateway): retire bot receipt tasks with authority ([`d50b2eda`](https://github.com/NousResearch/hermes-agent/commit/d50b2eda3d453eeedf720337f06e743eeb6d7655)) - @Lokee86
+- Gateway): persist operator provenance for native recovery ([`c51049aa`](https://github.com/NousResearch/hermes-agent/commit/c51049aa8f6099b79569d339de895ca0a9301ba5)) - @Lokee86
+- Cli): preserve blocking controls in finite output ([`954638ed`](https://github.com/NousResearch/hermes-agent/commit/954638ede23e1e3ddeca27412992cfa2d636ea31)) - @Lokee86
+- Gateway): isolate malformed bot receipt schemas ([`4be62f9c`](https://github.com/NousResearch/hermes-agent/commit/4be62f9ca68d626760a54742c6308cf38f804f88)) - @Lokee86
+- Acp): clean up deferred cancellation lifetime ([`89dac620`](https://github.com/NousResearch/hermes-agent/commit/89dac62078c964f5aa8f1a5ff40f3914baecc481)) - @Lokee86
+- Gateway): close remaining unified-runtime review gaps ([`83cdc63a`](https://github.com/NousResearch/hermes-agent/commit/83cdc63a19925827ba0aa78339fb5acea02b06cc)) - @Lokee86
+- Gateway): isolate bot receipts and keep headless cron no-spawn ([`cdf36315`](https://github.com/NousResearch/hermes-agent/commit/cdf36315e95e922970b91401bd1156c00a2d1817)) - @Lokee86
+- Gateway): recover mixed local queues and retire failed hot serves ([`f4fd982b`](https://github.com/NousResearch/hermes-agent/commit/f4fd982b56920ccf5311943e7d1a8c19f986e87f)) - @Lokee86
+- Gateway): terminate replay gaps and retain ACP cancels ([`37662b16`](https://github.com/NousResearch/hermes-agent/commit/37662b16ec967452d3fd600db1dab1bc12e68e46)) - @Lokee86
+- Gateway): route local ticket bootstrap through control owner ([`996d9beb`](https://github.com/NousResearch/hermes-agent/commit/996d9bebd1190fa4e45f9f8106de99ff558dd819)) - @Lokee86
 - Desktop): a transcript reconcile skips a runtime mid-switch to another session ([`09aafcea`](https://github.com/NousResearch/hermes-agent/commit/09aafceab4d325ccbed402caf928f7b9ead4371c))
 - Gateway/stream): a failed overflow head send no longer spins the event loop ([`f0d9bd2f`](https://github.com/NousResearch/hermes-agent/commit/f0d9bd2fc4971534f636bbda16c56004116b3d52))
 - Gateway): `profile` on our own home is stripped only for the closed session verbs ([`2c5b0af5`](https://github.com/NousResearch/hermes-agent/commit/2c5b0af5e19bf607ffd6f9bbb6cb34a1d4a5c9df))
@@ -195,7 +195,7 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 - Cron): Bot Chat delivery creates the missing Bot Chat instead of failing the run ([`364a0e22`](https://github.com/NousResearch/hermes-agent/commit/364a0e22b9106d94356a962089f1674ebe78c48a))
 - Seed-copy compensation discards the row without the retirement fence ([`44212c5a`](https://github.com/NousResearch/hermes-agent/commit/44212c5a559f11ea9285161ca4372590f09dde73))
 - Gateway): exact mutation retries repair the runtime projection (X11, reported by @Xipong) ([`c1ee9286`](https://github.com/NousResearch/hermes-agent/commit/c1ee92860012bffec6128aead77ba1b7fa1fed8d))
-- Desktop): preserve accepted input and clarify persistent-work Quit ([`f8e234ed`](https://github.com/NousResearch/hermes-agent/commit/f8e234ed89dd1b00149699d806783f89e2f5164e))  -  @dokterdok
+- Desktop): preserve accepted input and clarify persistent-work Quit ([`f8e234ed`](https://github.com/NousResearch/hermes-agent/commit/f8e234ed89dd1b00149699d806783f89e2f5164e)) - @dokterdok
 - Desktop): drop pool-limit notification wiring main added after the pool subsystem was removed ([`c3632fcc`](https://github.com/NousResearch/hermes-agent/commit/c3632fcca3639e44f1f16ebfce176c3f2fd6823c))
 - Runtime): owner scope is multiplex-only; foreign LOCAL sources fail closed; primary = launch home ([`a37550b9`](https://github.com/NousResearch/hermes-agent/commit/a37550b96ff7f5f433990149d1b04f100df2b57c))
 - Type session creation identity with merged onboarding options ([`0948ffc9`](https://github.com/NousResearch/hermes-agent/commit/0948ffc98a77426a0f529837e6ebee7b70343a30))
@@ -472,9 +472,9 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 
 ## 📚 Documentation
 
-- Agent): use the released model name Nemotron 3.5 Super VL ([`79651b71`](https://github.com/NousResearch/hermes-agent/commit/79651b71bd56efd76d06f3de1df64dde09b58ff3))  -  @j-nolan
-- Env): add NVIDIA NIM to .env example ([`3dd96101`](https://github.com/NousResearch/hermes-agent/commit/3dd961013c57398b4ba42d16f5bcc3772baa0701))  -  @elisam0
-- Providers): use a non-cloud example key for local NIM ([`da463310`](https://github.com/NousResearch/hermes-agent/commit/da463310b1e31d8690b1aac6d3701798bb36a06e))  -  @rroverin
+- Agent): use the released model name Nemotron 3.5 Super VL ([`79651b71`](https://github.com/NousResearch/hermes-agent/commit/79651b71bd56efd76d06f3de1df64dde09b58ff3)) - @j-nolan
+- Env): add NVIDIA NIM to .env example ([`3dd96101`](https://github.com/NousResearch/hermes-agent/commit/3dd961013c57398b4ba42d16f5bcc3772baa0701)) - @elisam0
+- Providers): use a non-cloud example key for local NIM ([`da463310`](https://github.com/NousResearch/hermes-agent/commit/da463310b1e31d8690b1aac6d3701798bb36a06e)) - @rroverin
 - Rollback section the downgrade refusals link to; regenerate the command-parity table ([`97ec76fa`](https://github.com/NousResearch/hermes-agent/commit/97ec76fa7eaf5066cb334b98448d1b71118df4e5))
 - Gateway): describe the messaging pause notice and /reset escape ([`6cdf7815`](https://github.com/NousResearch/hermes-agent/commit/6cdf7815defdb94f642a0a2d2d01a0e33558bee9))
 - Explain ambiguous legacy A2A recovery boundary ([`22a8154f`](https://github.com/NousResearch/hermes-agent/commit/22a8154ff371d9b904bd2017d9d71a5e878ae603))
@@ -505,7 +505,7 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 
 - Relay): the OpenAI-stream e2e no longer self-deadlocks when the stream is buffered ([`6e84ce66`](https://github.com/NousResearch/hermes-agent/commit/6e84ce66fb577ceeaf43a1e2da773e70609953d2))
 - Gateway): the authority stream probe waits for the idle session.info ([`56b9691c`](https://github.com/NousResearch/hermes-agent/commit/56b9691cc95fc209612a63415257d7f62d31c583))
-- Gateway): align SSE prepare cleanup with retained streams ([`c0230ca5`](https://github.com/NousResearch/hermes-agent/commit/c0230ca59555af3be8471cd1cb42a83f5191799d))  -  @Lokee86
+- Gateway): align SSE prepare cleanup with retained streams ([`c0230ca5`](https://github.com/NousResearch/hermes-agent/commit/c0230ca59555af3be8471cd1cb42a83f5191799d)) - @Lokee86
 - Desktop-core): capture the Electron PID before quit for the orphan census message ([`2cf48e0c`](https://github.com/NousResearch/hermes-agent/commit/2cf48e0c82122bd23166f5732c8987f82463bb09))
 - Gateway): the unserve runner stub carries the reservation our release step shrinks ([`5fdb477b`](https://github.com/NousResearch/hermes-agent/commit/5fdb477bd9686eeb369c49ced3b57db6bd136812))
 - Cold-profile archive/unarchive through one multiplexing gateway is an acceptance case ([`dfbb9142`](https://github.com/NousResearch/hermes-agent/commit/dfbb914244812dc2e22894efc45f29e5b958856a))
@@ -627,20 +627,20 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 
 ## 🏗️ Infrastructure
 
-- Release): admit stable releases from release/* branches, not just main ([`9686d55c`](https://github.com/NousResearch/hermes-agent/commit/9686d55ca87ccb22f779f012dd1ced7cdf63e0b9))  -  @ethernet8023
-- Plugins): pin birkin-mnemosyne to core 0.7.1 ([`e216cd74`](https://github.com/NousResearch/hermes-agent/commit/e216cd746f9e6600cf40ab5622f5ad2119ef91cb))  -  @ashmoonori-afk
+- Release): admit stable releases from release/* branches, not just main ([`9686d55c`](https://github.com/NousResearch/hermes-agent/commit/9686d55ca87ccb22f779f012dd1ced7cdf63e0b9)) - @ethernet8023
+- Plugins): pin birkin-mnemosyne to core 0.7.1 ([`e216cd74`](https://github.com/NousResearch/hermes-agent/commit/e216cd746f9e6600cf40ab5622f5ad2119ef91cb)) - @ashmoonori-afk
 - Catalog): review disclosure for huddo ([`85d27a51`](https://github.com/NousResearch/hermes-agent/commit/85d27a51cf87327f6ea894a3a78302a207706f34))
 - Map contributor email for StudioCodeAI ([`c708b34f`](https://github.com/NousResearch/hermes-agent/commit/c708b34ff60cacbb2aa2a34d80e46febed1c2a1b))
-- Plugin-catalog): update Telegram Client to 1.3.1 ([`27aaade9`](https://github.com/NousResearch/hermes-agent/commit/27aaade97b75cf8961be8201f167624b46454d8b))  -  @guberm
-- Plugin-catalog): bump Gmail to v1.0.20 ([`c6ac0565`](https://github.com/NousResearch/hermes-agent/commit/c6ac05655ca24c96c87ddd91d444f690ca9e621d))  -  @guberm
-- Kiwi): bump pin to kiwi@0.12.5, plugin v1.2.2 ([`a08f5894`](https://github.com/NousResearch/hermes-agent/commit/a08f5894355ac410a4af46875ff3ac47e8f89f50))  -  @harrylabsj
-- Lightningai-rate-limit to v1.1.0 (wall-clock aligned window) ([`e28d64e8`](https://github.com/NousResearch/hermes-agent/commit/e28d64e8b7b54258eae5c8cdc825f919421ca65a))  -  @dinosauria123
+- Plugin-catalog): update Telegram Client to 1.3.1 ([`27aaade9`](https://github.com/NousResearch/hermes-agent/commit/27aaade97b75cf8961be8201f167624b46454d8b)) - @guberm
+- Plugin-catalog): bump Gmail to v1.0.20 ([`c6ac0565`](https://github.com/NousResearch/hermes-agent/commit/c6ac05655ca24c96c87ddd91d444f690ca9e621d)) - @guberm
+- Kiwi): bump pin to kiwi@0.12.5, plugin v1.2.2 ([`a08f5894`](https://github.com/NousResearch/hermes-agent/commit/a08f5894355ac410a4af46875ff3ac47e8f89f50)) - @harrylabsj
+- Lightningai-rate-limit to v1.1.0 (wall-clock aligned window) ([`e28d64e8`](https://github.com/NousResearch/hermes-agent/commit/e28d64e8b7b54258eae5c8cdc825f919421ca65a)) - @dinosauria123
 - Map contributor email for TREE-Ind ([`71f78b3f`](https://github.com/NousResearch/hermes-agent/commit/71f78b3fe2a5b6be2dc219c999fc64ab44053b47))
 - Catalog): review disclosure for hermes-aac ([`0567d017`](https://github.com/NousResearch/hermes-agent/commit/0567d017c46c3fdb9dd66d5468ad2ed96dc3cfc3))
 - Catalog): review disclosure for openinvest ([`c179b286`](https://github.com/NousResearch/hermes-agent/commit/c179b286d448411f500c7318baf183769b6ba885))
 - Map contributor email for Sahil-SS9 ([`d8b5bd8a`](https://github.com/NousResearch/hermes-agent/commit/d8b5bd8a497f7f3e8f02acf966b1be6afce2cd91))
 - Catalog): review disclosure for hermes-agent-mixer ([`a98cc310`](https://github.com/NousResearch/hermes-agent/commit/a98cc310f913bb6e7ac27622fa105a433e415138))
-- Update Activity catalog to v0.2.0 ([`908c525d`](https://github.com/NousResearch/hermes-agent/commit/908c525dee4f28ba96617b4faa5e051bb21da2d7))  -  @hassan-kamel
+- Update Activity catalog to v0.2.0 ([`908c525d`](https://github.com/NousResearch/hermes-agent/commit/908c525dee4f28ba96617b4faa5e051bb21da2d7)) - @hassan-kamel
 - Catalog): showly reviewed disclosure + requires_hermes >=0.21.6 ([`2ee820e7`](https://github.com/NousResearch/hermes-agent/commit/2ee820e771033539a5d5eac8356c317af9979245))
 - Catalog): review disclosure for nexus ([`1a5f5c7b`](https://github.com/NousResearch/hermes-agent/commit/1a5f5c7b484f8ffccaa511ceb1639c3ce652e550))
 - Catalog): review disclosure for kumiho-memory ([`63da5f7b`](https://github.com/NousResearch/hermes-agent/commit/63da5f7b2033d3969b825425937143cbc2168851))
@@ -671,26 +671,26 @@ This is a patch release, with a handful of fixes for the Windows Store, plugin u
 
 ## 📦 Other Changes
 
-- Repin hermes-insight to afb08fb (1.0.2) ([`51e663da`](https://github.com/NousResearch/hermes-agent/commit/51e663da9def59da047d05cd88f8dd300fca75ed))  -  @BrokeSkill
-- Plugin-catalog: bump huddo to 0.9.0 ([`eeacc00a`](https://github.com/NousResearch/hermes-agent/commit/eeacc00ac0b6cfd25c7daee9709d428d3cc66213))  -  @hellohanchen
-- Plugin-catalog: re-pin hermes-lang-pt-br to 7548ff1 (pack verifier + CI) ([`82fbd41f`](https://github.com/NousResearch/hermes-agent/commit/82fbd41fd41998124a0ae15477306aba65ba6e29))  -  @StudioCodeAI
-- Plugin-catalog: re-pin hermes-lang-pt-br to 69efb2f (credits/timeline README) ([`2c20d9a3`](https://github.com/NousResearch/hermes-agent/commit/2c20d9a350a09c3cf36f3109d6fbf0e3431fde82))  -  @StudioCodeAI
-- Catalog: bump speechify to 0.1.1 ([`3a5b9e84`](https://github.com/NousResearch/hermes-agent/commit/3a5b9e84b15b3f6d878e40045e2b26f170415759))  -  @Lokeshm24
-- Catalog: re-pin qdrant-memory to 0.2.1 (e14adc06) ([`720552bb`](https://github.com/NousResearch/hermes-agent/commit/720552bb3083aa7a68087ee98b46b52214fbecc9))  -  @cnkang
-- Catalog: repin Hermes AAC 0.1.1 SDK-only reduced features ([`473e2847`](https://github.com/NousResearch/hermes-agent/commit/473e284730b8047d1623f038bafd94c77da2f124))  -  @TREE-Ind
-- Plugin-catalog: openinvest re-pin to 106e5ba (bounded backend deps, 0.41.6) ([`6cc9a434`](https://github.com/NousResearch/hermes-agent/commit/6cc9a4347b351ca6d4f4b084e572322c9d6f824c))  -  @longsizhuo
-- Plugin-catalog: openinvest re-pin to 3a0c816 (review fixes, backend 0.41.4) ([`00c311c8`](https://github.com/NousResearch/hermes-agent/commit/00c311c834c0184f5eecc36635e8abc0e665dbf9))  -  @longsizhuo
-- Plugin-catalog: openinvest re-pin to 3e1a9d7 (review fixes) ([`cb223633`](https://github.com/NousResearch/hermes-agent/commit/cb223633d2d8dc84782254563d32902d4213a943))  -  @longsizhuo
-- Plugin-catalog: bump plan-mode to 0.4.4 ([`2a5617f8`](https://github.com/NousResearch/hermes-agent/commit/2a5617f858a22ab852ee0332460e164af8bbbc3a))  -  @100yenadmin
-- Plugin-catalog: bump plan-mode to 0.4.3 ([`6fafdd4f`](https://github.com/NousResearch/hermes-agent/commit/6fafdd4f06b35ec4e09adccf6769b547a470ac69))  -  @100yenadmin
-- Catalog: pin the Showly community plugin ([`5da3156c`](https://github.com/NousResearch/hermes-agent/commit/5da3156c8607f15206de74b22a69a015c073d09e))  -  @slchris
-- Catalog(nexus): repin the sha to 4392e6d  -  /embed and /mcp demand a per-installation key ([`64425a06`](https://github.com/NousResearch/hermes-agent/commit/64425a0663de5e2d660b498013a9a89a4b68f920))  -  @Neboy72
-- Plugin-catalog: bump account-pool to 4.0.2 ([`e5d2cebe`](https://github.com/NousResearch/hermes-agent/commit/e5d2cebe17e94a3bba69867a8127d98bdf2cc05b))  -  @roqianjas
-- Plugin-catalog: bump alans-way and alans-way-computer to 0.21.5 ([`a8d61e30`](https://github.com/NousResearch/hermes-agent/commit/a8d61e309fc8e7f22e7e4c9e3a48a11fb1f19a47))  -  @capthvnsen
-- Plugin-catalog: nvidia-app + nvidia-broadcast pin -> 729e25c (first-run setup when the app side is not ready) ([`f18948e4`](https://github.com/NousResearch/hermes-agent/commit/f18948e4cdc88b38104c0c4572dd8f00269c3eed))  -  @alt-glitch
-- Catalog: agent-janitor (from #137875) ([#137875](https://github.com/NousResearch/hermes-agent/pull/137875))  -  @ZidoCode
-- Catalog: anatomy-museum (from #138166) ([#138166](https://github.com/NousResearch/hermes-agent/pull/138166))  -  @danrudy33
-- Catalog: secure-env-ingress (from #132272) ([#132272](https://github.com/NousResearch/hermes-agent/pull/132272))  -  @web3blind
+- Repin hermes-insight to afb08fb (1.0.2) ([`51e663da`](https://github.com/NousResearch/hermes-agent/commit/51e663da9def59da047d05cd88f8dd300fca75ed)) - @BrokeSkill
+- Plugin-catalog: bump huddo to 0.9.0 ([`eeacc00a`](https://github.com/NousResearch/hermes-agent/commit/eeacc00ac0b6cfd25c7daee9709d428d3cc66213)) - @hellohanchen
+- Plugin-catalog: re-pin hermes-lang-pt-br to 7548ff1 (pack verifier + CI) ([`82fbd41f`](https://github.com/NousResearch/hermes-agent/commit/82fbd41fd41998124a0ae15477306aba65ba6e29)) - @StudioCodeAI
+- Plugin-catalog: re-pin hermes-lang-pt-br to 69efb2f (credits/timeline README) ([`2c20d9a3`](https://github.com/NousResearch/hermes-agent/commit/2c20d9a350a09c3cf36f3109d6fbf0e3431fde82)) - @StudioCodeAI
+- Catalog: bump speechify to 0.1.1 ([`3a5b9e84`](https://github.com/NousResearch/hermes-agent/commit/3a5b9e84b15b3f6d878e40045e2b26f170415759)) - @Lokeshm24
+- Catalog: re-pin qdrant-memory to 0.2.1 (e14adc06) ([`720552bb`](https://github.com/NousResearch/hermes-agent/commit/720552bb3083aa7a68087ee98b46b52214fbecc9)) - @cnkang
+- Catalog: repin Hermes AAC 0.1.1 SDK-only reduced features ([`473e2847`](https://github.com/NousResearch/hermes-agent/commit/473e284730b8047d1623f038bafd94c77da2f124)) - @TREE-Ind
+- Plugin-catalog: openinvest re-pin to 106e5ba (bounded backend deps, 0.41.6) ([`6cc9a434`](https://github.com/NousResearch/hermes-agent/commit/6cc9a4347b351ca6d4f4b084e572322c9d6f824c)) - @longsizhuo
+- Plugin-catalog: openinvest re-pin to 3a0c816 (review fixes, backend 0.41.4) ([`00c311c8`](https://github.com/NousResearch/hermes-agent/commit/00c311c834c0184f5eecc36635e8abc0e665dbf9)) - @longsizhuo
+- Plugin-catalog: openinvest re-pin to 3e1a9d7 (review fixes) ([`cb223633`](https://github.com/NousResearch/hermes-agent/commit/cb223633d2d8dc84782254563d32902d4213a943)) - @longsizhuo
+- Plugin-catalog: bump plan-mode to 0.4.4 ([`2a5617f8`](https://github.com/NousResearch/hermes-agent/commit/2a5617f858a22ab852ee0332460e164af8bbbc3a)) - @100yenadmin
+- Plugin-catalog: bump plan-mode to 0.4.3 ([`6fafdd4f`](https://github.com/NousResearch/hermes-agent/commit/6fafdd4f06b35ec4e09adccf6769b547a470ac69)) - @100yenadmin
+- Catalog: pin the Showly community plugin ([`5da3156c`](https://github.com/NousResearch/hermes-agent/commit/5da3156c8607f15206de74b22a69a015c073d09e)) - @slchris
+- Catalog(nexus): repin the sha to 4392e6d - /embed and /mcp demand a per-installation key ([`64425a06`](https://github.com/NousResearch/hermes-agent/commit/64425a0663de5e2d660b498013a9a89a4b68f920)) - @Neboy72
+- Plugin-catalog: bump account-pool to 4.0.2 ([`e5d2cebe`](https://github.com/NousResearch/hermes-agent/commit/e5d2cebe17e94a3bba69867a8127d98bdf2cc05b)) - @roqianjas
+- Plugin-catalog: bump alans-way and alans-way-computer to 0.21.5 ([`a8d61e30`](https://github.com/NousResearch/hermes-agent/commit/a8d61e309fc8e7f22e7e4c9e3a48a11fb1f19a47)) - @capthvnsen
+- Plugin-catalog: nvidia-app + nvidia-broadcast pin -> 729e25c (first-run setup when the app side is not ready) ([`f18948e4`](https://github.com/NousResearch/hermes-agent/commit/f18948e4cdc88b38104c0c4572dd8f00269c3eed)) - @alt-glitch
+- Catalog: agent-janitor (from #137875) ([#137875](https://github.com/NousResearch/hermes-agent/pull/137875)) - @ZidoCode
+- Catalog: anatomy-museum (from #138166) ([#138166](https://github.com/NousResearch/hermes-agent/pull/138166)) - @danrudy33
+- Catalog: secure-env-ingress (from #132272) ([#132272](https://github.com/NousResearch/hermes-agent/pull/132272)) - @web3blind
 - Style: align canonical group controls with Desktop lint rules ([`c8d8900d`](https://github.com/NousResearch/hermes-agent/commit/c8d8900dcd17281dd52f52624ac712f2199eaed3))
 - Style: normalize verified queue admission imports and spacing ([`d3ad7a90`](https://github.com/NousResearch/hermes-agent/commit/d3ad7a90ec585deea401a7c37ec32dbcdcb6c086))
 

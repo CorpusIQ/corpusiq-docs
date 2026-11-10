@@ -1,6 +1,6 @@
 ---
-title: Hermes Agent v0.20.4 Patch Release
-description: Hermes Agent v0.20.4 patch release - release notes, highlights, and security fixes.
+title: "Hermes Agent v0.20.4 Patch Release"
+description: "Hermes Agent v0.20.4 patch release - release notes, highlights, and security fixes"
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.4/"
 robots: "index,follow"
 last_updated: "2026-11-01"
@@ -18,9 +18,9 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ## About this release
 
-Since v0.20.3 (v2026.8.16.2, tagged August 17), this window landed **~146 commits** across **~265 files** (+21,697 / −2,217)  -  **~74 merged PRs** including the desktop glass/translucency surface work (matte glass, frost picker, macOS pre-select), the tabbed SESSIONS|BOTS sidebar with per-bot hide/unhide, Bot Mode group-chat fixes (long-running member turns, Markdown rendering, cross-machine routing), NVIDIA SkillEvaluator Tier 1 advisory scanning on skill installs (license + security checks), cron media-send hardening (configurable timeout, manual-run attachments, missed-fire surfacing), SessionDB event-loop-thread and contention fixes, `hermes update` parked-branch honesty, and kanban native OS notifications.
+Since v0.20.3 (v2026.8.16.2, tagged August 17), this window landed **~146 commits** across **~265 files** (+21,697 / −2,217) - **~74 merged PRs** including the desktop glass/translucency surface work (matte glass, frost picker, macOS pre-select), the tabbed SESSIONS|BOTS sidebar with per-bot hide/unhide, Bot Mode group-chat fixes (long-running member turns, Markdown rendering, cross-machine routing), NVIDIA SkillEvaluator Tier 1 advisory scanning on skill installs (license + security checks), cron media-send hardening (configurable timeout, manual-run attachments, missed-fire surfacing), SessionDB event-loop-thread and contention fixes, `hermes update` parked-branch honesty, and kanban native OS notifications.
 
-**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward  -  highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
+**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward - highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.
 
 ## Updating
 
