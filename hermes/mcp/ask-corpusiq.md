@@ -1,10 +1,10 @@
 ---
 title: "ask_corpusiq: Deterministic Single-Tool Access to Business"
-description: "ask_corpusiq is the high-level MCP tool that routes business questions through the CorpusIQ engine: router-first mode, required-runbook mode, pinned allowlisted execution, and execution receipts."
+description: "ask_corpusiq is the high-level MCP tool that routes business questions through the CorpusIQ engine: router-first mode, required-runbook mode, pinned"
 canonical: "/hermes/mcp/ask-corpusiq/"
 robots: "index, follow"
 tags: [mcp, corpusiq, ask-corpusiq, router, runbook, deterministic, tool]
-last_updated: "2026-11-01"
+last_updated: "2026-11-10"
 ---
 
 # ask_corpusiq: Deterministic Single-Tool Access to Business Data
@@ -48,9 +48,10 @@ CorpusIQ?), and control transfers to the engine.
 
 `ask_corpusiq` is the production implementation of the runbook.v1 execution
 contract. The specification and reference implementation are public at
-[github.com/CorpusIQ/runbook-spec](https://github.com/CorpusIQ/runbook-spec),
-and the governance proposal is under discussion in the MCP repository:
-issue #3270 (proposal removed from the MCP tracker; spec lives in the runbook-spec repo).
+[github.com/CorpusIQ/runbook-spec](https://github.com/CorpusIQ/runbook-spec).
+The governance proposal was filed in the MCP repository as issue #3270 and is
+now closed; the specification and conformance suite live in the runbook-spec
+repo.
 
 ## Related pages
 
