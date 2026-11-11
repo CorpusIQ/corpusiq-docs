@@ -22103,5 +22103,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-11T04:03:18.215436+00:00"
+  },
+  {
+    "repo": "dziduchm/grokbot2hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373006+00:00"
+  },
+  {
+    "repo": "seekritdev/hermes-skill",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373018+00:00"
+  },
+  {
+    "repo": "linagora/mcp-twake-ai",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373020+00:00"
+  },
+  {
+    "repo": "wangchangwei/agent-notification",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373021+00:00"
+  },
+  {
+    "repo": "Karasumikura/hermes-vault-broker",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373022+00:00"
+  },
+  {
+    "repo": "beto-group/kathara-hermes-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373023+00:00"
+  },
+  {
+    "repo": "flabanabba8/first-principles-skill-builder",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373024+00:00"
+  },
+  {
+    "repo": "itsflownium/hermes-lethe",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373025+00:00"
+  },
+  {
+    "repo": "totuslife7-arch/hermes-help-center",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373026+00:00"
+  },
+  {
+    "repo": "medking82/hermes-neo-composer",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373027+00:00"
+  },
+  {
+    "repo": "PsyberKadi/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373028+00:00"
+  },
+  {
+    "repo": "AkosPapp/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T10:03:28.373029+00:00"
   }
 ]
