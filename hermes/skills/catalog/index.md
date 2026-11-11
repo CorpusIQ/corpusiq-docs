@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog - Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-11-10"
+last_updated: "2026-11-11"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -1306,3 +1306,13 @@ Thirteen repository clusters surfaced by a widened 172-query topic probe plus on
 - [Self-Learning Skill - Agent Improvement Setup](/hermes/skills/catalog/self-learning-skill-setup) - philschmid/self-learning-skill, 3,432 combined, 1 listings, 97 stars, Apache-2.0, Agent self-improvement: researching a new library on the web into a reusable SKILL.md with four anti-fabrication rules
 - [draw.io MCP - Diagram Authoring Setup](/hermes/skills/catalog/drawio-mcp-setup) - jgraph/drawio-mcp, 3,421 combined, 1 listings, 5,809 stars, Apache-2.0, Diagramming: the official draw.io MCP server and the drawio skill for .drawio files, ELK layout and PNG, SVG and PDF export
 - [UX Writing Skill - Interface Copy Setup](/hermes/skills/catalog/ux-writing-skill-setup) - content-designer/ux-writing-skill, 3,063 combined, 1 listings, 262 stars, MIT, Product copy: interface microcopy, error and empty states, accessibility rules and design-system voice enforcement
+
+### New - November 11, 2026 Morning Sweep (7 publisher guides)
+
+- [Anthropic Healthcare Skills - Clinical Workflow Suite Setup](/hermes/skills/catalog/anthropic-healthcare-skills-setup) - anthropics/healthcare, 2,256 combined, 10 listings, 443 stars, no LICENSE file, Healthcare operations: clinical data extraction, coding, claims review, FHIR integration and contract questions, with seven connected MCP servers
+- [Apple Skills - iOS and macOS Development Suite Setup](/hermes/skills/catalog/apple-skills-setup) - rshankras/claude-code-apple-skills, 13,116 combined, 96 listings, 882 stars, MIT, Apple platform: 165 skills across 23 categories covering iOS, macOS, watchOS, visionOS, App Store optimization and release review
+- [Agent Stuff - Agent Skill Toolkit for Builders](/hermes/skills/catalog/agent-stuff-setup) - mitsuhiko/agent-stuff, 5,538 combined, 21 listings, 3,212 stars, Apache-2.0, Builder utilities: OpenSCAD modelling, Chrome DevTools browser control, headless Ghidra, tmux session control and gh workflows
+- [Claude Patent Creator - USPTO Patent Drafting Setup](/hermes/skills/catalog/claude-patent-creator-setup) - robthepcguy/claude-patent-creator, 2,710 combined, 17 listings, 211 stars, MIT, Intellectual property: hybrid RAG over MPEP, 35 USC and 37 CFR, prior-art search across patents and papers, 112(a) and 112(b) checks
+- [GRC Skills - Governance, Risk and Compliance Suite](/hermes/skills/catalog/grc-skills-setup) - sushegaad/claude-skills-governance-risk-and-compliance, 9,363 combined, 36 listings, 1,060 stars, MIT, Compliance: one skill per framework across ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, EU AI Act, NIST 800-53 and 28 more
+- [KiCad Happy - Electronics Design Review Skills Setup](/hermes/skills/catalog/kicad-happy-setup) - aklofas/kicad-happy, 8,216 combined, 12 listings, 1,644 stars, MIT, Hardware design: schematic and layout parsing, power tree computation, ESD audits, EMC pre-checks, SPICE and distributor sourcing
+- [MATLAB Agentic Toolkit - Engineering Agent Skills Setup](/hermes/skills/catalog/matlab-agentic-toolkit-setup) - matlab/matlab-agentic-toolkit, 6,814 combined, 96 listings, 1,290 stars, NOASSERTION, Engineering and scientific computing: 158 skills that drive the MATLAB MCP server so an agent runs code instead of guessing toolbox signatures
