@@ -107,8 +107,8 @@
     "description": "Stateful graph-based agent workflows - conditional routing, persistence, and production patterns with LangGraph and Hermes",
     "url": "https://www.corpusiq.io/docs/hermes/orchestration/langgraph",
     
-    "datePublished": "2026-11-01",
-    "dateModified": "2026-11-01",
+    "datePublished": "2026-11-11",
+    "dateModified": "2026-11-11",
     
     "author": {
       "@type": "Organization",
@@ -132,7 +132,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-11-01">
+  <meta name="last-updated" content="2026-11-11">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -154,7 +154,7 @@
   <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 
   
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "LangGraph + Hermes Integration", "url": "https://www.corpusiq.io/docs/hermes/orchestration/langgraph", "image": "https://www.corpusiq.io/og?title=LangGraph%20%2B%20Hermes%20Integration&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/orchestration/langgraph"}, "datePublished": "2026-11-01", "dateModified": "2026-11-01", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Stateful graph-based agent workflows - conditional routing, persistence, and production patterns with LangGraph and Hermes", "articleSection": "Hermes"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": ["Article", "TechArticle"], "headline": "LangGraph + Hermes Integration", "url": "https://www.corpusiq.io/docs/hermes/orchestration/langgraph", "image": "https://www.corpusiq.io/og?title=LangGraph%20%2B%20Hermes%20Integration&category=Docs", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.corpusiq.io/docs/hermes/orchestration/langgraph"}, "datePublished": "2026-11-01", "dateModified": "2026-11-11", "author": {"@id": "https://www.corpusiq.io#organization"}, "publisher": {"@id": "https://www.corpusiq.io#organization"}, "isPartOf": {"@id": "https://www.corpusiq.io#website"}, "inLanguage": "en-US", "description": "Stateful graph-based agent workflows - conditional routing, persistence, and production patterns with LangGraph and Hermes", "articleSection": "Hermes"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Docs", "item": "https://www.corpusiq.io/docs"}, {"@type": "ListItem", "position": 2, "name": "Hermes", "item": "https://www.corpusiq.io/docs/hermes"}, {"@type": "ListItem", "position": 3, "name": "Orchestration", "item": "https://www.corpusiq.io/docs/hermes/orchestration"}, {"@type": "ListItem", "position": 4, "name": "LangGraph + Hermes Integration", "item": "https://www.corpusiq.io/docs/hermes/orchestration/langgraph"}]}</script>
 </head>
   
@@ -12873,6 +12873,7 @@
 <p>State saved to SQLite after every node transition. Survives process restarts.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">langgraph.checkpoint.sqlite</span> <span class="kn">import</span> <span class="n">SqliteSaver</span>
 
+<span class="c1"># Requires the separate langgraph-checkpoint-sqlite package</span>
 <span class="n">checkpointer</span> <span class="o">=</span> <span class="n">SqliteSaver</span><span class="o">.</span><span class="n">from_conn_string</span><span class="p">(</span><span class="s2">&quot;hermes_langgraph.db&quot;</span><span class="p">)</span>
 <span class="n">workflow</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">checkpointer</span><span class="o">=</span><span class="n">checkpointer</span><span class="p">)</span>
 
@@ -12905,26 +12906,31 @@
 <span class="p">)</span>
 </code></pre></div>
 <h2 id="production-pattern-3-human-in-the-loop">Production Pattern 3: Human-in-the-Loop<a class="headerlink" href="#production-pattern-3-human-in-the-loop" title="Anchor link to this section">&para;</a></h2>
-<p>LangGraph supports interrupting execution for human approval:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">sensitive_action</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Action that requires human approval before execution.&quot;&quot;&quot;</span>
-    <span class="c1"># This node will interrupt and wait</span>
-    <span class="k">pass</span>
+<p>LangGraph interrupts execution for human approval from inside a node, using
+the <code>interrupt()</code> function. The checkpointer saves state at that point, and you
+resume by re-invoking the graph with a <code>Command</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">langgraph.types</span> <span class="kn">import</span> <span class="n">interrupt</span><span class="p">,</span> <span class="n">Command</span>
 
-<span class="n">graph</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;approval_check&quot;</span><span class="p">,</span> <span class="n">sensitive_action</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">approval_check</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Pause here until a human approves the action.&quot;&quot;&quot;</span>
+    <span class="n">approved</span> <span class="o">=</span> <span class="n">interrupt</span><span class="p">({</span><span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;publish&quot;</span><span class="p">,</span> <span class="s2">&quot;draft&quot;</span><span class="p">:</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;final_output&quot;</span><span class="p">]})</span>
+    <span class="c1"># On resume, Command(resume=...) becomes the return value</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;approved&quot;</span><span class="p">:</span> <span class="n">approved</span><span class="p">}</span>
 
-<span class="c1"># Compile with interrupt before the sensitive node</span>
-<span class="n">workflow</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span>
-    <span class="n">checkpointer</span><span class="o">=</span><span class="n">checkpointer</span><span class="p">,</span>
-    <span class="n">interrupt_before</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;approval_check&quot;</span><span class="p">]</span>
-<span class="p">)</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;approval_check&quot;</span><span class="p">,</span> <span class="n">approval_check</span><span class="p">)</span>
 
-<span class="c1"># Execution pauses at approval_check</span>
-<span class="n">result</span> <span class="o">=</span> <span class="n">workflow</span><span class="o">.</span><span class="n">invoke</span><span class="p">(</span><span class="n">state</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>
+<span class="c1"># Compile with a checkpointer. interrupt() needs durable state to resume from.</span>
+<span class="n">workflow</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">checkpointer</span><span class="o">=</span><span class="n">checkpointer</span><span class="p">)</span>
 
-<span class="c1"># Human reviews and approves</span>
-<span class="n">workflow</span><span class="o">.</span><span class="n">invoke</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>  <span class="c1"># Resumes from checkpoint</span>
+<span class="n">config</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;configurable&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;thread_id&quot;</span><span class="p">:</span> <span class="s2">&quot;approval_001&quot;</span><span class="p">}}</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">workflow</span><span class="o">.</span><span class="n">invoke</span><span class="p">(</span><span class="n">state</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>   <span class="c1"># Pauses inside approval_check</span>
+
+<span class="c1"># Human reviews the payload, then resumes with a value</span>
+<span class="n">workflow</span><span class="o">.</span><span class="n">invoke</span><span class="p">(</span><span class="n">Command</span><span class="p">(</span><span class="n">resume</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span> <span class="n">config</span><span class="p">)</span>
 </code></pre></div>
+<p>Static <code>interrupt_before=[...]</code> breakpoints at compile time are the older
+form. The dynamic <code>interrupt()</code> call is the current API, and it can be placed
+anywhere in a node and made conditional on state.</p>
 <h3 id="approval-patterns">Approval Patterns<a class="headerlink" href="#approval-patterns" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Pre-execution approval:</strong> Interrupt before any write operation (publishing, sending emails, modifying data).</p>
 <p><strong>Post-execution review:</strong> Let the agent execute, but flag results for human review before they're final. The agent can continue to the next task while review is pending.</p>
