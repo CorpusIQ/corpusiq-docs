@@ -22187,5 +22187,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-11-11T10:03:28.373029+00:00"
+  },
+  {
+    "repo": "arcabotai/hermes-microduck",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936019+00:00"
+  },
+  {
+    "repo": "Ratz00007/phoenix",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936033+00:00"
+  },
+  {
+    "repo": "getaskclaw/hermes-ball",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936036+00:00"
+  },
+  {
+    "repo": "hejijunhao/whiplash",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936038+00:00"
+  },
+  {
+    "repo": "freemanconsulting/hermes-flightdeck",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936040+00:00"
+  },
+  {
+    "repo": "Ilyassbm/hermes-templates",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936042+00:00"
+  },
+  {
+    "repo": "mayarid/mayar-agent-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936043+00:00"
+  },
+  {
+    "repo": "WolfMark-Ltd/spendsense",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936045+00:00"
+  },
+  {
+    "repo": "GillesGaelBERNARD/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-11-11T11:03:10.936047+00:00"
   }
 ]

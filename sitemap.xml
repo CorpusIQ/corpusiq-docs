@@ -8310,7 +8310,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog</loc>
-         <lastmod>2026-11-10</lastmod>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/01coder-agent-skills-setup</loc>
@@ -8439,6 +8439,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/agent-skill-creator-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/agent-stuff-setup</loc>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/agent-toolkit-setup</loc>
@@ -8629,6 +8633,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/anthropic-healthcare-skills-setup</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/anthropics-claude-api-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -8691,6 +8699,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/apple-design-skill-setup</loc>
          <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/apple-skills-setup</loc>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/application-skills-setup</loc>
@@ -9151,6 +9163,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-mpm-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-patent-creator-setup</loc>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/claude-plugin-marketplace-setup</loc>
@@ -9945,6 +9961,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/grc-skills-setup</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/greensock-gsap-skills-setup</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -10437,6 +10457,10 @@
          <lastmod>2026-11-04</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/kicad-happy-setup</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/knowledge-work-plugins-setup</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -10679,6 +10703,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/math-via-code-setup</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/matlab-agentic-toolkit-setup</loc>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup</loc>
@@ -12906,7 +12934,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace</loc>
-         <lastmod>2026-11-10</lastmod>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug10-2026</loc>
@@ -13347,6 +13375,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov10-2026-morning-skills</loc>
          <lastmod>2026-11-10</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov11-2026-morning-skills</loc>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-nov2-2026-evening-skills</loc>

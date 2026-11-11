@@ -93172,5 +93172,245 @@
     ],
     "discovered_at": "2026-11-11T10:02:57.147162+00:00",
     "status": "pending"
+  },
+  {
+    "name": "arcabotai/hermes-microduck",
+    "url": "https://github.com/arcabotai/hermes-microduck",
+    "description": "Hermes Agent plugin: drive Pollen Robotics' Microduck (real RL policies in MuJoCo) behind a safety interlock",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes-agent",
+      "hermes-plugin",
+      "microduck",
+      "mujoco",
+      "reinforcement-learning",
+      "robotics"
+    ],
+    "updated_at": "2026-11-11T10:58:39Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-11T11:00:40.661122+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Ratz00007/phoenix",
+    "url": "https://github.com/Ratz00007/phoenix",
+    "description": "Transactional SQLite WAL crash-recovery journal, idempotency guard & ReplayLab ddmin wind tunnel for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-11T03:04:50Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-11T11:00:40.664909+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "getaskclaw/hermes-ball",
+    "url": "https://github.com/getaskclaw/hermes-ball",
+    "description": "Ball \u2014 a Hermes Agent plugin that answers 'whose turn is it?' in every thread",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-11T10:26:02Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "stephenschoettler/hermes-lcm"
+    ],
+    "discovered_at": "2026-11-11T11:00:40.668625+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hejijunhao/whiplash",
+    "url": "https://github.com/hejijunhao/whiplash",
+    "description": "Hermes Agent plugin that jams on Elektron Digitakt II over USB MIDI",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-11T10:04:49Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-11T11:00:40.671591+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "freemanconsulting/hermes-flightdeck",
+    "url": "https://github.com/freemanconsulting/hermes-flightdeck",
+    "description": "Flightdeck: live air-traffic control for Hermes agents and model servers",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-11T10:58:12Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-11T11:00:40.674541+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Ilyassbm/hermes-templates",
+    "url": "https://github.com/Ilyassbm/hermes-templates",
+    "description": "One-click share and install of a whole Hermes agent: identity, skills, routines, MCP servers, published memories and plugin ids as a single .htemplate bundle. Credentials, sessions and history never travel.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-11-10T00:51:49Z",
+    "category": "mcp",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "hugocarreira/agentrc"
+    ],
+    "discovered_at": "2026-11-11T11:00:48.706953+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mayarid/mayar-agent-plugin",
+    "url": "https://github.com/mayarid/mayar-agent-plugin",
+    "description": "Mayar agent plugin: hosted MCP server (mcp.mayar.id) + skill for Hermes Agent and other MCP clients",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-11T10:42:04Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-11-11T11:00:48.709880+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WolfMark-Ltd/spendsense",
+    "url": "https://github.com/WolfMark-Ltd/spendsense",
+    "description": "SpendSense: AI usage and cost analytics for Hermes. Track tokens, API-equivalent pricing, subscriptions, budgets, prompt caching and model news.",
+    "stars": 66,
+    "forks": 11,
+    "language": "Python",
+    "topics": [
+      "ai-pricing",
+      "ai-pricing-calculator",
+      "ai-pricing-ui",
+      "ai-usage",
+      "ai-usage-analytics",
+      "ai-usage-dashboard",
+      "ai-usage-monitor",
+      "ai-usage-tracker",
+      "cost-tracking",
+      "hermes",
+      "hermes-agent",
+      "hermes-desktop",
+      "hermes-plugin",
+      "hermes-plugins",
+      "hermes-skill",
+      "hermes-skills",
+      "prompt-caching",
+      "token-tracking"
+    ],
+    "updated_at": "2026-11-11T02:54:49Z",
+    "category": "forks",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-11-11T11:01:04.791841+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "GillesGaelBERNARD/hermes-agent",
+    "url": "https://github.com/GillesGaelBERNARD/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-11-11T10:58:02Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent",
+      "bablobanov/hermes-agent-telegram-dashboard"
+    ],
+    "discovered_at": "2026-11-11T11:01:04.793581+00:00",
+    "status": "pending"
   }
 ]
