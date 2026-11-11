@@ -1,6 +1,6 @@
 ---
 title: "Perplexity Integration - CorpusIQ Docs"
-description: "Connect CorpusIQ to Perplexity through the MCP server endpoint. Ask business questions about revenue, customers, orders, and marketing from live data inside Perplexity."
+description: "Connect CorpusIQ to Perplexity through the MCP server endpoint. Ask business questions about revenue, customers, orders, and marketing from live data"
 canonical: "https://www.corpusiq.io/docs/perplexity-integration"
 robots: "index,follow"
 last_updated: "2026-11-06"
@@ -86,6 +86,10 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 
 ## Per-connector Perplexity guides
 
+- **[Connect QuickBooks to Perplexity](connect-quickbooks-to-perplexity.md)** - margin, receivables and cash position from your own books
+- **[Connect Shopify to Perplexity](connect-shopify-to-perplexity.md)** - orders, products and payouts next to market benchmarks
+- **[Connect HubSpot to Perplexity](connect-hubspot-to-perplexity.md)** - pipeline, stalled deals and stage conversion from your CRM
+- **[Connect Stripe to Perplexity](connect-stripe-to-perplexity.md)** - charges, subscriptions, churn and disputes from your payment data
 - **[Connect Google Sheets to Perplexity](connect-google-sheets-to-perplexity.md)** - budgets, trackers and pipelines, cited to the tab
 - **[Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md)** - clauses, versions and policies from your live files
 - **[Connect Google Calendar to Perplexity](connect-google-calendar-to-perplexity.md)** - where the week went and which accounts went quiet

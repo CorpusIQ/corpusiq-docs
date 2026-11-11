@@ -1,6 +1,6 @@
 ---
 title: "Connect QuickBooks to ChatGPT via MCP - Live Data"
-description: "Connect your QuickBooks account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers."
+description: "Connect your QuickBooks account to ChatGPT through CorpusIQ MCP. Ask plain-language questions and get real-time, source-cited answers"
 category: ChatGPT Integrations
 tags: ["connect QuickBooks to ChatGPT", "QuickBooks ChatGPT integration", "MCP QuickBooks connector", "QuickBooks data to ChatGPT", "AI for QuickBooks", "CorpusIQ MCP"]
 last_updated: "2026-11-07"
@@ -169,6 +169,7 @@ Setup takes under 5 minutes. No code. No CSV exports. No data warehouse configur
 
 ## Related Pages
 
+- [Connect QuickBooks to Perplexity](connect-quickbooks-to-perplexity.md) - financial data in Perplexity
 - [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) - ecommerce data in ChatGPT
 - [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt.md) - payment data in ChatGPT
 - [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md) - CRM data in ChatGPT
