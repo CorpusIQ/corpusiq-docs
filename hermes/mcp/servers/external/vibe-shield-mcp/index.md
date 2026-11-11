@@ -1,6 +1,6 @@
 ---
-title: "Vibe Shield MCP - The Security Scan Before an Agent Says"
-description: "A static scanner for AI-written code plus an agent-surface audit: measured grade F on a four-defect Next.js route in 26 milliseconds, a real CI exit code"
+title: "Vibe Shield MCP - The Scan Before an Agent Says Done"
+description: "Static security scan for AI-written code plus an agent-surface audit: grade F from five criticals in 26 ms, and the lines it still misses"
 category: "Security"
 stars: "26 (GitHub, 2026-11-11)"
 added: 2026-11-11
