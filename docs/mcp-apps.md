@@ -1,9 +1,9 @@
 ---
 title: "MCP Apps - Interactive UI Inside the Chat"
-description: "MCP Apps render an interactive HTML interface inside the AI chat. How the extension works, its sandbox security model, client support, and what to verify."
+description: "MCP Apps render an interactive HTML interface inside the AI chat. How the extension works, its sandbox security model, client support, and what to verify"
 canonical: "https://www.corpusiq.io/docs/mcp-apps/"
 robots: "index,follow"
-last_updated: "2026-11-01"
+last_updated: "2026-11-10"
 tags: ["mcp apps", "model context protocol", "interactive ui", "mcp server"]
 ---
 
@@ -80,7 +80,7 @@ An app view runs code written by the server author inside a client the user trus
 
 ## Which clients support it
 
-Support is an extension-level property, and it moves. At the time of writing, the clients documented as supporting MCP Apps are Claude, Claude Desktop, VS Code GitHub Copilot, Microsoft 365 Copilot, Goose, Postman, MCPJam, and Archestra.AI. ChatGPT does not appear in that list. ChatGPT renders app widgets through OpenAI's own Apps SDK instead, which is why a server that wants to look the same everywhere ships both paths.
+Support is an extension-level property, and it moves. At the time of writing, the community client matrix lists MCP Apps support for Claude, Claude Desktop, VS Code GitHub Copilot, Microsoft 365 Copilot, Goose, Postman, MCPJam, Archestra.AI and ChatGPT. OpenAI also ships app widgets through its own Apps SDK, which is why a server that wants to look the same everywhere ships both paths.
 
 Two rules follow from that:
 
