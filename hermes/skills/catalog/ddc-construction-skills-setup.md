@@ -155,7 +155,7 @@ Commercial terms are the second consideration. The skill files are MIT, but the 
 ## Related
 
 - [Metabase Skills - BI and Dashboard Agent Suite](/hermes/skills/catalog/metabase-skills-setup)
-- [Excel Skills](/hermes/skills/catalog/excel)
+- [Excel Automation Skills](/hermes/skills/catalog/claude-office/excel-automation)
 - [Ziniao Skills - ERP and Store Automation Setup](/hermes/skills/catalog/ziniao-open-skills-setup)
 
 ## Pro Tips

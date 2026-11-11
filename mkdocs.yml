@@ -209,6 +209,10 @@ nav:
   - Connect Klaviyo to Claude: connectors/connect-klaviyo-to-claude.md
   - Connect Meta Ads to Claude: connectors/connect-meta-ads-to-claude.md
 - Perplexity Integrations:
+  - Connect QuickBooks to Perplexity: connect-quickbooks-to-perplexity.md
+  - Connect Shopify to Perplexity: connect-shopify-to-perplexity.md
+  - Connect HubSpot to Perplexity: connect-hubspot-to-perplexity.md
+  - Connect Stripe to Perplexity: connect-stripe-to-perplexity.md
   - Connect Google Sheets to Perplexity: connect-google-sheets-to-perplexity.md
   - Connect Gmail to Perplexity: connect-gmail-to-perplexity.md
   - Connect Google Drive to Perplexity: connect-google-drive-to-perplexity.md

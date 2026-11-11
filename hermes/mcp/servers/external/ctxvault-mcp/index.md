@@ -1,6 +1,6 @@
 ---
 title: "CtxVault MCP - Memory You Correct Instead of Overwrite"
-description: "Local memory for agents as typed vaults: documents by meaning, procedures by name, and facts on two timelines. Seventeen MCP tools measured, a live supersede that closed the old statement at the exact moment the new one started, and a 5.9 GB install footprint you should know before you begin"
+description: "Local memory for agents as typed vaults: documents by meaning, procedures by name, and facts on two timelines. Seventeen MCP tools measured, a live"
 category: "Memory & Knowledge"
 stars: "62 (GitHub, 2026-11-11)"
 added: 2026-11-11
@@ -115,6 +115,6 @@ Two version facts from the same install: the **package** is 0.9.1 while the **se
 
 Three uses are within the measured surface. A shared semantic vault per team, so documents are retrieved with their source instead of pasted into a prompt. A skill vault, so procedures are read by name rather than embedded and pattern-matched. And an episodic vault for the facts that change: prices, terms, owners, delivery promises, any statement whose history is worth more than its current value.
 
-The nearest neighbours in this catalog own other halves of memory. [agentic-memory MCP](/hermes/mcp/servers/external/agentic-memory-mcp/) and [mcp-long-term-memory](/hermes/mcp/servers/external/mcp-long-term-memory/) carry conversation persistence, and [spm-structured-project-memory](/hermes/mcp/servers/external/spm-structured-project-memory/) holds project state. None of them put the correction itself in the tool list with a closing timestamp on the statement it replaces, which is the mechanic measured here.
+The nearest neighbours in this catalog own other halves of memory. [agentic-memory MCP](/hermes/mcp/servers/external/agentic-memory-mcp/) and [mcp-long-term-memory](/hermes/mcp/servers/external/mcp-long-term-memory) carry conversation persistence, and [spm-structured-project-memory](/hermes/mcp/servers/external/spm-structured-project-memory) holds project state. None of them put the correction itself in the tool list with a closing timestamp on the statement it replaces, which is the mechanic measured here.
 
 Two limits to carry into a deployment. The five GB is permanent, not a first-run cost that disappears. And the append-versus-supersede distinction is a discipline the agent has to hold: nothing in the write path enforces it, so a memory policy that says "supersede, never re-state" has to live in the skill or the system prompt rather than in the vault.
