@@ -833,6 +833,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connectors/axonaut</loc>
+         <lastmod>2026-11-10</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connectors/calendly</loc>
          <lastmod>2026-11-07</lastmod>
     </url>
@@ -1762,7 +1766,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/ask-corpusiq</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-10</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-enterprise-adoption</loc>
@@ -1770,7 +1774,7 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-interactive-ui</loc>
-         <lastmod>2026-11-01</lastmod>
+         <lastmod>2026-11-10</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-stateless-design</loc>
