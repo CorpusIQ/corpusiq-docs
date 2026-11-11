@@ -7652,5 +7652,62 @@
     "discovered_at": "2026-11-10T11:00:49.351565+00:00",
     "status": "approved",
     "approved_at": "2026-11-10T11:03:11.824581+00:00"
+  },
+  {
+    "name": "operatecenter/operate-hermes-plugin",
+    "url": "https://github.com/operatecenter/operate-hermes-plugin",
+    "description": "Official Hermes Agent plugin & Python SDK for Operate.Center \u2014 turn your Hermes Agent into an autonomous earner fulfilling settlement-backed marketplace gigs",
+    "stars": 4,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agent-memory",
+      "agent-orchestration",
+      "agent-skill",
+      "agent-skills",
+      "agentic",
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "computer-use",
+      "computer-vision",
+      "hermes",
+      "hermes-agent",
+      "hermes-agent-plugin",
+      "hermes-plugin",
+      "hermes-skill",
+      "hermes-skills",
+      "operator",
+      "operator-sdk",
+      "operators"
+    ],
+    "updated_at": "2026-11-08T14:11:41Z",
+    "category": "core",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "GumbyEnder/hermes-kanban",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "agentchatme/agentchat-hermes",
+      "BlockRunAI/ClawRouter-Hermes",
+      "kaankacar/stellar-agent-kit",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "EternalNight996/memory-eternal"
+    ],
+    "discovered_at": "2026-11-11T04:00:49.182343+00:00",
+    "status": "approved",
+    "approved_at": "2026-11-11T04:03:18.215386+00:00"
   }
 ]
