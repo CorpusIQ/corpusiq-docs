@@ -1,6 +1,6 @@
 ---
 title: "ask_corpusiq: Deterministic Single-Tool Access to Business"
-description: "ask_corpusiq is the high-level MCP tool that routes business questions through the CorpusIQ engine: router-first mode, required-runbook mode, pinned"
+description: "ask_corpusiq is the high-level CorpusIQ MCP tool: it routes a business question through the engine in router-first or runbook mode"
 canonical: "/hermes/mcp/ask-corpusiq/"
 robots: "index, follow"
 tags: [mcp, corpusiq, ask-corpusiq, router, runbook, deterministic, tool]
