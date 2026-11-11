@@ -11261,6 +11261,155 @@ OAuth scopes control access at the object level. For property-level restrictions
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect HubSpot to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-hubspot-to-perplexity
+
+
+# How to Connect HubSpot to Perplexity with CorpusIQ MCP
+
+Your CRM knows which deals are moving and which have gone quiet. It does not know what happened in the market that explains it.
+
+Perplexity knows the market and nothing about your pipeline.
+
+Connecting HubSpot through CorpusIQ MCP puts the two in the same thread. Pipeline questions are answered from your own records, read-only, with the deal names and stages cited.
+
+### Why Connect HubSpot to Perplexity?
+
+- **Pipeline reviews.** "Which deals over 20 thousand dollars have had no activity in three weeks?"
+- **Stage conversion.** "What is our conversion rate from demo to closed won this quarter, and what is normal for our deal size?"
+- **Stalled accounts.** "Which companies have an open deal but no contact in the last 14 days?"
+- **Forecast framing.** "Our win rate is 22 percent. What close rate is typical for deals at this size?"
+- **Owner performance.** "Which reps have the most deals stuck in negotiation?"
+- **Read-only by scope.** The OAuth grant covers contacts, companies and deals. It cannot edit a record or move a stage.
+
+### How It Works
+
+1. **Connect HubSpot to CorpusIQ** through HubSpot's OAuth screen, granting read-only access to contacts, companies, deals and associated records.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the deals, companies and contacts that answer the question.
+4. **Perplexity answers** with your pipeline figures plus the outside context you asked for.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log into your dashboard and open **Connectors**.
+2. Select **HubSpot** and click **Connect HubSpot**.
+3. You are redirected to HubSpot's OAuth screen. Authorize read-only access to contacts, companies, deals and associated records.
+4. Return to CorpusIQ. CRM questions work immediately.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about a deal or a company.
+
+### Example Perplexity Questions
+
+**Pipeline health**
+
+- "Which open deals over 20 thousand dollars have had no activity in 21 days?"
+- "What is the total value of deals sitting in negotiation right now?"
+- "Which deals have slipped their close date more than once?"
+
+**Conversion and forecast**
+
+- "What is our demo-to-won conversion this quarter, and how does it compare to the same quarter last year?"
+- "Our win rate is 22 percent. How does that compare to similar deal sizes in B2B software?"
+- "Which stage loses the most deals by value?"
+
+**Owners and activity**
+
+- "Which reps have the highest number of stale deals?"
+- "Which companies have an open deal and no logged call in two weeks?"
+
+**Cross-source**
+
+- "Do the companies with stale deals still owe us money in accounting?" (requires the accounting connector)
+- "Which stalled accounts have open support tickets?" (requires the support connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are marked read-only, and the grant covers read access to contacts, companies, deals and associations. There is no write path from Perplexity into the CRM.
+- **Object-level scoping.** Marketing Hub and Service Hub objects can require additional scope, so a connection that does not need them does not ask for them.
+- **Property-level limits.** HubSpot permission sets can narrow what the OAuth app sees beyond the object scopes.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between HubSpot, CorpusIQ and Perplexity.
+
+### Comparison: HubSpot Reports vs HubSpot in Perplexity
+
+| Aspect | HubSpot reports and boards | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A report or a saved view | A question in plain language |
+| Output | A table of records | An answer naming the deals |
+| Outside context | Look it up separately | Same thread, same answer |
+| Cross-system | Manual export | Asked across connectors |
+| Follow-up | Rebuild the view | Ask the next question |
+| Write access | Yes, by you | None, read-only |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change a deal stage or edit a contact?</strong></summary>
+
+No. The retrieval tools are marked read-only, so the connection cannot edit a record or move a stage. Records, associations and pipeline stages are untouched.
+</details>
+
+<details>
+<summary><strong>Does it read every HubSpot object?</strong></summary>
+
+It reads contacts, companies and deals, plus their associations. Marketing Hub and Service Hub objects may need additional scope before they are visible.
+</details>
+
+<details>
+<summary><strong>Will it see contacts outside my team's pipeline?</strong></summary>
+
+It sees what the authorizing account can see. If you need a narrower view, use HubSpot permission sets on the OAuth app.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. A deal moved a minute ago is reflected in the next answer.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. HubSpot is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Can I use it for forecasting?</strong></summary>
+
+For reading the pipeline and comparing it to external benchmarks, yes. It does not replace weighted forecasting inside HubSpot, because it never writes back.
+</details>
+
+<details>
+<summary><strong>Where is the CRM data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect HubSpot to Perplexity now](https://corpusiq.io/connect/hubspot-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Jira to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-jira-to-chatgpt
 
@@ -14540,6 +14689,158 @@ Yes. CorpusIQ supports multiple QuickBooks company connections, each with indepe
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect QuickBooks to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-quickbooks-to-perplexity
+
+
+# How to Connect QuickBooks to Perplexity with CorpusIQ MCP
+
+Perplexity is good at the outside world. Industry benchmarks, market context, what changed this week.
+
+It cannot see your gross margin, your overdue invoices, or your cash position, because none of that is public.
+
+Connecting QuickBooks through CorpusIQ MCP puts both in one thread. Perplexity answers the question about your business from your own books, read-only, and names the records it read.
+
+### Why Connect QuickBooks to Perplexity?
+
+- **Margin questions in context.** "Our gross margin is 61 percent. How does that compare to the industry average?" Both halves answered in one thread.
+- **Overdue receivables.** "Which customers are more than 30 days past due, and how much do they owe?"
+- **Cash position.** A question that pulls balance sheet, AR aging and AP aging together instead of three reports.
+- **Spend review.** "What did we spend on software this quarter, and which vendors grew the most?"
+- **Benchmark framing.** Take a real number from QuickBooks, then ask Perplexity how it compares.
+- **Read-only by scope.** The OAuth grant is read access to company data. It cannot post a journal entry or edit an invoice.
+
+### How It Works
+
+1. **Connect QuickBooks to CorpusIQ** through Intuit's OAuth consent screen, granting read-only access.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the accounts, invoices, customers and reports that answer the question.
+4. **Perplexity answers** with the figure, the period it covers, and the world knowledge you asked for around it.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Open your dashboard and go to **Connectors**.
+2. Select **QuickBooks** and click **Connect QuickBooks**.
+3. You land on Intuit's OAuth consent screen. Review the scopes (Company Info, Customers, Invoices, Accounts, Reports, Vendors) and approve the read-only grant.
+4. Return to CorpusIQ. The connector turns green and your books are queryable.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about your books.
+
+Requires QuickBooks admin credentials for the initial grant. No API keys to manage and no analyst in the loop.
+
+### Example Perplexity Questions
+
+**Profitability**
+
+- "What was our net income last quarter, and how does our margin compare to the industry average?"
+- "Which service line has the highest gross margin, and is that normal for our sector?"
+- "How has our operating expense ratio moved over the last four quarters?"
+
+**Receivables**
+
+- "Which customers are more than 30 days overdue, and what is the total?"
+- "Who are our five largest open invoices, and how old are they?"
+- "Which customer has been late three months in a row?"
+
+**Cash and spend**
+
+- "What is our cash position today, and what is due out in the next two weeks?"
+- "What did we spend on software this quarter, and which vendors grew most?"
+
+**Cross-source**
+
+- "Do the customers who are past due in QuickBooks still have open deals in the CRM?" (requires the CRM connector)
+- "Compare QuickBooks revenue to Shopify payouts for the same month." (requires the Shopify connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are marked read-only, and the OAuth grant covers read access to company information, customers, invoices, accounts, reports and vendors. There is no path from Perplexity into a journal entry.
+- **No stored credentials on your side.** CorpusIQ holds the encrypted OAuth token; you hold the Intuit grant and can revoke it at any time.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Intuit, CorpusIQ and Perplexity.
+
+### Comparison: QuickBooks Reports vs QuickBooks in Perplexity
+
+| Aspect | QuickBooks reports | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A report you configure | A question in plain language |
+| Output | Rows and totals | An answer with the period named |
+| Outside context | Copy the number elsewhere | Same thread, same answer |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Follow-up | Rebuild the report | Ask the next question |
+| Write access | Yes, by you | None, read-only |
+
+A report answers the question you already knew how to configure. A connected ledger answers the one you did not.
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity change anything in QuickBooks?</strong></summary>
+
+No. The retrieval tools are marked read-only, so the connection cannot post a journal entry or edit an invoice. Books, bills and customer records are untouched.
+</details>
+
+<details>
+<summary><strong>Does this need a QuickBooks accountant or developer seat?</strong></summary>
+
+No. The connection is an OAuth grant made by a QuickBooks admin, and the questions are plain language.
+</details>
+
+<details>
+<summary><strong>Which QuickBooks products are covered?</strong></summary>
+
+QuickBooks Online. The connector reads through the Intuit API, so the same grant covers company info, sales, purchases and reports for that company.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. Each question reads the current state of the books, so an invoice paid a minute ago is reflected in the next answer. Verify time-sensitive figures against the cited record.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. QuickBooks is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Can I keep one company out of reach?</strong></summary>
+
+The grant is per company. Connect a different QuickBooks company and it carries its own authorization, so you choose which books are visible.
+</details>
+
+<details>
+<summary><strong>Where is the QuickBooks data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect QuickBooks to Perplexity now](https://corpusiq.io/connect/quickbooks-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Salesforce to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-salesforce-to-chatgpt
 
@@ -15669,6 +15970,157 @@ You can connect multiple stores through CorpusIQ and specify which store Claude 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Connect Shopify to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-shopify-to-perplexity
+
+
+# How to Connect Shopify to Perplexity with CorpusIQ MCP
+
+A Shopify store answers most questions with a screen. A date range, a filter, a CSV.
+
+Perplexity answers with words. Ask it about conversion benchmarks and you get the industry figure. Ask it about your own store and it has nothing to read.
+
+Connecting Shopify through CorpusIQ MCP closes that gap. Your orders, products, customers and payouts become readable inside a Perplexity thread, read-only, with the answer naming the data it used.
+
+### Why Connect Shopify to Perplexity?
+
+- **Sales against benchmarks.** "Our AOV is 84 dollars. How does that compare to stores in our category?"
+- **Product performance.** "Which five products drove the most revenue last month, and which have the highest return rate?"
+- **Customer questions.** "How many repeat customers did we have this quarter, and what share of revenue came from them?"
+- **Traffic and demand context.** Pair a real conversion rate with whatever changed in the market that week.
+- **Payout reconciliation.** "Which payouts landed this month, and what do they cover?"
+- **Read-only by scope.** The grant covers orders, products, customers and analytics. It cannot edit a product or issue a refund.
+
+### How It Works
+
+1. **Connect Shopify to CorpusIQ** through Shopify's OAuth consent screen, granting read-only access.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** the orders, products, customers and analytics that answer the question.
+4. **Perplexity answers** with your figures plus the market context it already knows.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In CorpusIQ**
+
+1. Log into your dashboard and open **Connectors**.
+2. Select **Shopify** and click **Connect Shopify**.
+3. You are redirected to Shopify's OAuth consent screen. Review the read-only scopes (Orders, Products, Customers, Analytics) and approve.
+4. Return to CorpusIQ. The connection is active immediately.
+
+**In Perplexity**
+
+5. Open **Settings** and find the **MCP servers** section.
+6. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+7. Connect and approve the CorpusIQ authorization page once.
+8. Start a new thread and ask a question about the store.
+
+No webhooks to configure and no code to deploy.
+
+### Example Perplexity Questions
+
+**Revenue and margin**
+
+- "What was revenue last month, and how does our AOV compare to stores in our category?"
+- "Which product collection has the highest revenue per order?"
+- "What share of revenue came from returning customers this quarter?"
+
+**Products**
+
+- "Which products sold out fastest in the last 60 days?"
+- "Which SKUs have inventory left but no sales in three weeks?"
+- "Which products have the highest return rate, and what is a normal rate for this category?"
+
+**Market context**
+
+- "Did our week-over-week sales move with the retail trend or against it?"
+- "Our conversion rate is 1.9 percent. Where does that sit for a store at our traffic level?"
+
+**Cross-source**
+
+- "Do the customers with unpaid invoices in accounting still have open orders in Shopify?" (requires the accounting connector)
+- "Compare Shopify refunds to Stripe disputes for the same period." (requires the Stripe connector)
+
+### Security
+
+- **Read-only retrieval tools.** The tools documented on this page are marked read-only, and the encrypted token carries read access to orders, products, customers and analytics. There is no write path from Perplexity into the store.
+- **One store per grant.** Connect a second store and it carries its own authorization, so a question only reaches stores you approved.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **Revocable at any time** from the Shopify admin or from CorpusIQ.
+- **TLS in transit** between Shopify, CorpusIQ and Perplexity.
+
+### Comparison: Shopify Analytics vs Shopify in Perplexity
+
+| Aspect | Shopify analytics | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A report and a date range | A question in plain language |
+| Output | Charts and tables | An answer with the period named |
+| Market context | Look it up separately | Same thread, same answer |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Follow-up | Rebuild the report | Ask the next question |
+| Write access | Yes, by you | None, read-only |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity edit products or refund orders?</strong></summary>
+
+No. The retrieval tools are marked read-only, so the connection cannot edit a product or issue a refund. Orders, products, customers and inventory are untouched.
+</details>
+
+<details>
+<summary><strong>Does it read customer personal data?</strong></summary>
+
+It reads customer records inside the granted scope, which is how questions about repeat purchase and lifetime value are answered. Direct requests fetch live, and raw customer files and full connector response payloads are not retained.
+</details>
+
+<details>
+<summary><strong>Does this work with Shopify Plus?</strong></summary>
+
+Yes. The connection is made through the Shopify admin OAuth flow, which Plus stores support the same way.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. An order placed a minute ago is visible to the next question. There is no nightly export.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Shopify is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Can I limit it to one store?</strong></summary>
+
+Yes. Each Shopify store is a separate connection, and only connected stores are readable.
+</details>
+
+<details>
+<summary><strong>Where is the Shopify data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Shopify to Perplexity now](https://corpusiq.io/connect/shopify-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
+
+---
 # How to Connect Slack to ChatGPT with CorpusIQ MCP
 URL: https://www.corpusiq.io/docs/connect-slack-to-chatgpt
 
@@ -16208,6 +16660,161 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+---
+# How to Connect Stripe to Perplexity with CorpusIQ MCP
+URL: https://www.corpusiq.io/docs/connect-stripe-to-perplexity
+
+
+# How to Connect Stripe to Perplexity with CorpusIQ MCP
+
+Stripe holds the clearest record of what your business actually earns. Charges, subscriptions, refunds, disputes, payouts.
+
+Reading it means the dashboard, a date filter, an export, and someone to interpret it.
+
+Connecting Stripe through CorpusIQ MCP makes those records answerable in a Perplexity thread, read-only, with the answer naming the period it covers.
+
+### Why Connect Stripe to Perplexity?
+
+- **Revenue and churn in one answer.** "What was MRR at the start and end of last month, and how much churn happened in between?"
+- **Payment failures.** "Which customers had a failed charge in the last two weeks, and did any recover?"
+- **Dispute triage.** "How many disputes are open, what is the total value, and what type are they?"
+- **Payout reconciliation.** "Which payouts landed this month, and what charges do they cover?"
+- **Benchmark context.** "Our voluntary churn is 2.1 percent monthly. What is normal for self-serve SaaS at our price point?"
+- **Read-only by key.** A restricted key with read permissions cannot create a charge, issue a refund or change a customer.
+
+### How It Works
+
+1. **Create a restricted Stripe key** with read-only permissions and paste it into the CorpusIQ connector.
+2. **Add CorpusIQ to Perplexity** as a custom remote MCP server, using the endpoint from your CorpusIQ account settings.
+3. **CorpusIQ reads** balances, charges, customers, subscriptions, payouts, refunds and disputes.
+4. **Perplexity answers** with your figures plus the outside context you asked for.
+
+Direct MCP retrieval is read-only. It does not retain raw customer files or full connector response payloads; operational query logs are kept for up to 30 days.
+
+### Setup Steps
+
+**In Stripe**
+
+1. Open **Developers**, then **API keys**, and create a **restricted key**.
+2. Grant read-only permissions for Charges, Customers, Subscriptions, Payouts, Balance, Refunds and Disputes.
+3. Copy the key.
+
+**In CorpusIQ**
+
+4. Open your dashboard and go to **Connectors**.
+5. Select **Stripe**, paste the restricted key and save. The connector turns green.
+
+**In Perplexity**
+
+6. Open **Settings** and find the **MCP servers** section.
+7. Add a custom MCP server and paste the endpoint:
+
+```
+https://mcp2.corpusiq.io/mcp
+```
+
+8. Connect and approve the CorpusIQ authorization page once.
+9. Start a new thread and ask a payment question.
+
+A restricted key is narrower than an account key at every level. Grant only the resources a question would read.
+
+### Example Perplexity Questions
+
+**Revenue**
+
+- "What was gross revenue last month, and how much came from new versus returning customers?"
+- "What is the total value of active subscriptions right now, and how has it moved over 90 days?"
+- "Which plans generate the most revenue per customer?"
+
+**Churn and recovery**
+
+- "How many subscriptions canceled last month, and what was the churned MRR?"
+- "Which failed charges recovered after a retry, and which did not?"
+- "Our monthly churn is 2.1 percent. How does that compare to self-serve SaaS at our price point?"
+
+**Operations**
+
+- "How many disputes are open, of what type, and what value?"
+- "Which refunds were issued in the last 30 days, and by which customer?"
+
+**Cross-source**
+
+- "Do the customers who churned in Stripe still have open deals in the CRM?" (requires the CRM connector)
+- "Compare Stripe revenue to Shopify payouts for the same month." (requires the Shopify connector)
+
+### Security
+
+- **Restricted API key.** Read-only permissions on named resources. A resource you did not grant is unreadable, and the key cannot move money.
+- **Encrypted at rest.** The key is stored encrypted and used only for retrieval.
+- **Revocable in seconds.** Roll or delete the restricted key in Stripe and the connection ends immediately.
+- **Scoped direct-MCP retention.** Raw customer files and full connector payloads are not retained. Operational logs keep query text and bounded outcome summaries for up to 30 days.
+- **TLS in transit** between Stripe, CorpusIQ and Perplexity.
+
+### Comparison: Stripe Dashboard vs Stripe in Perplexity
+
+| Aspect | Stripe dashboard | CorpusIQ MCP with Perplexity |
+|---|---|---|
+| Input | A filter and a date range | A question in plain language |
+| Output | Charts and transaction lists | An answer with the period named |
+| Benchmark context | Look it up separately | Same thread, same answer |
+| Cross-system | Export and join by hand | Asked across connectors |
+| Follow-up | Rebuild the filter | Ask the next question |
+| Write access | Yes, by you | None, read-only |
+
+### FAQ: Common Questions
+
+<details>
+<summary><strong>Can Perplexity issue a refund or create a charge?</strong></summary>
+
+No. The restricted key carries read permissions only. Money movement is impossible through this connection.
+</details>
+
+<details>
+<summary><strong>Should I use my account secret key?</strong></summary>
+
+No. Use a restricted key scoped to the resources the questions need. An account secret key is broader than the connector requires.
+</details>
+
+<details>
+<summary><strong>Does it read customer card data?</strong></summary>
+
+No. Payment credentials live with Stripe and are never exposed through the API surface the connector reads.
+</details>
+
+<details>
+<summary><strong>Does it cover multiple Stripe accounts?</strong></summary>
+
+Each Stripe account is a separate connection with its own key. A question only reaches accounts you connected.
+</details>
+
+<details>
+<summary><strong>How current is the data?</strong></summary>
+
+Live. A charge created a minute ago is visible to the next question.
+</details>
+
+<details>
+<summary><strong>Does this work only in Perplexity?</strong></summary>
+
+No. Stripe is exposed to ChatGPT, Claude and Perplexity through the same endpoint on the same subscription.
+</details>
+
+<details>
+<summary><strong>Where is the payment data stored?</strong></summary>
+
+CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days. See the [read-only and security documentation](/hermes/security/read-only-and-security).
+</details>
+
+---
+
+**Next steps:** [Connect Stripe to Perplexity now](https://corpusiq.io/connect/stripe-with-perplexity)
+
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) - connect 40+ business tools to AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.CorpusIQ.io).*
 
 ---
 # How to Connect TikTok to ChatGPT with CorpusIQ MCP
@@ -25271,6 +25878,10 @@ A: Same endpoint, different client. This guide is for using Perplexity as the MC
 
 ## Per-connector Perplexity guides
 
+- **[Connect QuickBooks to Perplexity](connect-quickbooks-to-perplexity.md)** - margin, receivables and cash position from your own books
+- **[Connect Shopify to Perplexity](connect-shopify-to-perplexity.md)** - orders, products and payouts next to market benchmarks
+- **[Connect HubSpot to Perplexity](connect-hubspot-to-perplexity.md)** - pipeline, stalled deals and stage conversion from your CRM
+- **[Connect Stripe to Perplexity](connect-stripe-to-perplexity.md)** - charges, subscriptions, churn and disputes from your payment data
 - **[Connect Google Sheets to Perplexity](connect-google-sheets-to-perplexity.md)** - budgets, trackers and pipelines, cited to the tab
 - **[Connect Google Drive to Perplexity](connect-google-drive-to-perplexity.md)** - clauses, versions and policies from your live files
 - **[Connect Google Calendar to Perplexity](connect-google-calendar-to-perplexity.md)** - where the week went and which accounts went quiet

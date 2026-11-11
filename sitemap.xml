@@ -285,6 +285,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-hubspot-to-perplexity</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-jira-to-chatgpt</loc>
          <lastmod>2026-11-07</lastmod>
     </url>
@@ -377,6 +381,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-quickbooks-to-perplexity</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-salesforce-to-chatgpt</loc>
          <lastmod>2026-11-07</lastmod>
     </url>
@@ -409,6 +417,10 @@
          <lastmod>2026-11-07</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/connect-shopify-to-perplexity</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/connect-slack-to-chatgpt</loc>
          <lastmod>2026-11-07</lastmod>
     </url>
@@ -423,6 +435,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/connect-stripe-to-claude</loc>
          <lastmod>2026-11-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/connect-stripe-to-perplexity</loc>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/connect-tiktok-to-chatgpt</loc>
@@ -2703,6 +2719,10 @@
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/antwork-mcp</loc>
          <lastmod>2026-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/anythingmcp</loc>
+         <lastmod>2026-11-11</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/apexvol-mcp</loc>
@@ -5173,6 +5193,10 @@
          <lastmod>2026-11-01</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/openaccountants-mcp</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/openadlibrary-mcp</loc>
          <lastmod>2026-11-01</lastmod>
     </url>
@@ -7338,6 +7362,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november11-2026-early-morning</loc>
+         <lastmod>2026-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-november11-2026-midday-supplement</loc>
          <lastmod>2026-11-11</lastmod>
     </url>
     <url>
