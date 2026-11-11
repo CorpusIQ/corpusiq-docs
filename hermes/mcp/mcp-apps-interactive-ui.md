@@ -1,10 +1,10 @@
 ---
 title: "MCP Apps: Interactive UIs Inside Claude and ChatGPT"
-description: "MCP Apps is the first official MCP extension. Tools can now return interactive dashboards, forms, and visualizations that render inside Claude and ChatGPT. How it works, client support, and security."
+description: "MCP Apps is the first official MCP extension. Tools can now return interactive dashboards, forms, and visualizations that render inside Claude"
 canonical: "/hermes/mcp/mcp-apps-interactive-ui/"
 robots: "index, follow"
 tags: [mcp, apps, ui, interactive, dashboards, claude, chatgpt, extension]
-last_updated: "2026-11-01"
+last_updated: "2026-11-10"
 ---
 
 # MCP Apps: Interactive UIs Inside Claude and ChatGPT
@@ -64,8 +64,8 @@ server tools, update the model context, and send follow-up messages.
 ## Client support
 
 - Claude: available on web and desktop since launch
-- ChatGPT: not listed for the extension. ChatGPT renders widgets through
-  OpenAI's own Apps SDK, so the same server ships both paths
+- ChatGPT: supported. OpenAI also ships widgets through its own Apps SDK,
+  so the same server can serve both paths
 - Visual Studio Code: supported
 - Goose: supported
 
